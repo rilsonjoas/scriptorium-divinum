@@ -18,6 +18,12 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				display: ['Cinzel', 'Times New Roman', 'serif'],
+				heading: ['Playfair Display', 'Times New Roman', 'serif'],
+				reading: ['Merriweather', 'Times New Roman', 'serif'],
+				body: ['EB Garamond', 'Times New Roman', 'serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -61,7 +67,24 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Classical Library Colors
+				'library-wood': 'hsl(var(--library-wood))',
+				'library-gold': 'hsl(var(--library-gold))',
+				'library-parchment': 'hsl(var(--library-parchment))',
+				'library-leather': 'hsl(var(--library-leather))',
+				'library-bronze': 'hsl(var(--library-bronze))',
+				'library-emerald': 'hsl(var(--library-emerald))'
+			},
+			backgroundImage: {
+				'gradient-gold': 'var(--gradient-gold)',
+				'gradient-leather': 'var(--gradient-leather)',
+				'gradient-parchment': 'var(--gradient-parchment)',
+			},
+			boxShadow: {
+				'book': 'var(--shadow-book)',
+				'golden': 'var(--shadow-golden)',
+				'deep': 'var(--shadow-deep)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
