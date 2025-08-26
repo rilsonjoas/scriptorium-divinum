@@ -61,7 +61,7 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link to="/metodologia" className="text-library-gold/80 hover:text-library-gold transition-colors">
+                <Link to="/dominio-publico" className="text-library-gold/80 hover:text-library-gold transition-colors">
                   Domínio Público
                 </Link>
               </li>
@@ -71,8 +71,8 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link to="/downloads" className="text-library-gold/80 hover:text-library-gold transition-colors">
-                  Downloads
+                <Link to="/ajuda" className="text-library-gold/80 hover:text-library-gold transition-colors">
+                  Central de Ajuda
                 </Link>
               </li>
             </ul>
@@ -93,7 +93,7 @@ export function Footer() {
               </li>
               <li>
                 <a 
-                  href="https://github.com/teologiapublica" 
+                  href="https://github.com/rilsonjoas/scriptorium-divinum" 
                   className="flex items-center space-x-2 text-library-gold/80 hover:text-library-gold transition-colors"
                 >
                   <Github className="h-3 w-3" />
@@ -107,7 +107,7 @@ export function Footer() {
         <div className="ornament"></div>
 
         <div className="text-center text-sm text-library-gold/70 font-body">
-          <p>© 2024 Scriptorium Divinum. Todas as obras estão em domínio público.</p>
+          <p>© 2025 Scriptorium Divinum. Todas as obras estão em domínio público.</p>
           <p className="mt-1">Preservando a herança teológica cristã para as gerações futuras.</p>
         </div>
       </div>

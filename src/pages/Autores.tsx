@@ -1,17 +1,24 @@
 import { Layout } from '@/components/Layout';
-import { authors } from '@/data/authors';
-import { books } from '@/data/books';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { User, Calendar, BookOpen } from 'lucide-react';
+import { User, Calendar, BookOpen, Loader2 } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { useAuthors, useBooks } from '@/hooks/useDatabase';
+import { useMemo } from 'react';
 
 const Autores = () => {
+  const { data: authors, isLoading: authorsLoading, error: authorsError } = useAuthors();
+  const { data: books, isLoading: booksLoading } = useBooks();
+
   // Count books per author
-  const authorsWithBookCount = authors.map(author => ({
-    ...author,
-    bookCount: books.filter(book => book.author.slug === author.slug).length
-  }));
+  const authorsWithBookCount = useMemo(() => {
+    if (!authors || !books) return [];
+    
+    return authors.map(author => ({
+      ...author,
+      bookCount: books.filter(book => book.author.id === author.id).length
+    }));
+  }, [authors, books]);
 
   return (
     <Layout>
@@ -29,8 +36,33 @@ const Autores = () => {
         </div>
 
         {/* Authors Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {authorsWithBookCount.map((author) => (
+        {authorsLoading || booksLoading ? (
+          <div className="flex items-center justify-center py-16">
+            <Loader2 className="h-8 w-8 animate-spin text-library-gold mr-3" />
+            <span className="font-body text-library-bronze text-lg">Carregando autores...</span>
+          </div>
+        ) : authorsError ? (
+          <div className="text-center py-16">
+            <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <User className="h-8 w-8 text-red-600" />
+            </div>
+            <h3 className="font-display text-xl font-semibold text-red-700 mb-2">
+              Erro ao carregar autores
+            </h3>
+            <p className="font-body text-muted-foreground mb-4">
+              {authorsError.message}
+            </p>
+            <Button
+              variant="outline"
+              onClick={() => window.location.reload()}
+              className="font-body"
+            >
+              Tentar novamente
+            </Button>
+          </div>
+        ) : authorsWithBookCount.length > 0 ? (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {authorsWithBookCount.map((author) => (
             <Card key={author.slug} className="group bg-card/95 backdrop-blur-sm border-library-bronze shadow-book hover:shadow-deep transition-all duration-300 hover:-translate-y-1 parchment-bg">
               <CardContent className="p-6">
                 {/* Author Portrait */}
@@ -113,8 +145,21 @@ const Autores = () => {
                 </div>
               </CardContent>
             </Card>
-          ))}
-        </div>
+            ))}
+          </div>
+        ) : (
+          <div className="text-center py-16">
+            <div className="w-16 h-16 bg-library-gold/20 rounded-full flex items-center justify-center mx-auto mb-4">
+              <User className="h-8 w-8 text-library-bronze" />
+            </div>
+            <h3 className="font-display text-xl font-semibold text-library-wood mb-2">
+              Nenhum autor encontrado
+            </h3>
+            <p className="font-body text-muted-foreground">
+              Ainda não há autores cadastrados na biblioteca.
+            </p>
+          </div>
+        )}
 
         {/* Call to Action */}
         <div className="text-center mt-16">

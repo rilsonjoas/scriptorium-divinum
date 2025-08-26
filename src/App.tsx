@@ -3,31 +3,58 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { AuthProvider } from "@/contexts/AuthContext";
+import { AdminRoute } from "@/components/AdminRoute";
 import Index from "./pages/Index";
 import Livros from "./pages/Livros";
 import Autores from "./pages/Autores";
+import Categorias from "./pages/Categorias";
+import Ajuda from "./pages/Ajuda";
+import DominioPublico from "./pages/DominioPublico";
+import Busca from "./pages/Busca";
+import Contribuir from "./pages/Contribuir";
 import LivroDetalhes from "./pages/LivroDetalhes";
 import Sobre from "./pages/Sobre";
 import NotFound from "./pages/NotFound";
+import AdminLogin from "./pages/admin/AdminLogin";
+import AdminDashboard from "./pages/admin/AdminDashboard";
+import AdminDebug from "./pages/admin/AdminDebug";
 
 const queryClient = new QueryClient();
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
-      <Toaster />
-      <Sonner />
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Index />} />
-          <Route path="/livros" element={<Livros />} />
-          <Route path="/livros/:bookId" element={<LivroDetalhes />} />
-          <Route path="/autores" element={<Autores />} />
-          <Route path="/sobre" element={<Sobre />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </BrowserRouter>
+      <AuthProvider>
+        <Toaster />
+        <Sonner />
+        <BrowserRouter>
+          <Routes>
+            {/* Public Routes */}
+            <Route path="/" element={<Index />} />
+            <Route path="/livros" element={<Livros />} />
+            <Route path="/livros/:bookId" element={<LivroDetalhes />} />
+            <Route path="/autores" element={<Autores />} />
+            <Route path="/categorias" element={<Categorias />} />
+            <Route path="/ajuda" element={<Ajuda />} />
+            <Route path="/dominio-publico" element={<DominioPublico />} />
+            <Route path="/busca" element={<Busca />} />
+            <Route path="/contribuir" element={<Contribuir />} />
+            <Route path="/sobre" element={<Sobre />} />
+            
+            {/* Admin Routes */}
+            <Route path="/admin/login" element={<AdminLogin />} />
+            <Route path="/admin/debug" element={<AdminDebug />} />
+            <Route path="/admin/dashboard" element={
+              <AdminRoute>
+                <AdminDashboard />
+              </AdminRoute>
+            } />
+            
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </BrowserRouter>
+      </AuthProvider>
     </TooltipProvider>
   </QueryClientProvider>
 );

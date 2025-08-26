@@ -1,15 +1,28 @@
 import { Layout } from '@/components/Layout';
-import { books } from '@/data/books';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { BookOpen, Download, Calendar, User, Globe, Languages, Tag, ArrowLeft } from 'lucide-react';
+import { BookOpen, Download, Calendar, User, Globe, Languages, Tag, ArrowLeft, Loader2 } from 'lucide-react';
 import { Link, useParams, Navigate } from 'react-router-dom';
+import { useBook } from '@/hooks/useDatabase';
 
 const LivroDetalhes = () => {
   const { bookId } = useParams<{ bookId: string }>();
-  const book = books.find(b => b.id === bookId);
+  const { data: book, isLoading, error } = useBook(bookId || '');
 
-  if (!book) {
+  if (isLoading) {
+    return (
+      <Layout>
+        <div className="container mx-auto px-4 py-8">
+          <div className="flex items-center justify-center py-16">
+            <Loader2 className="h-8 w-8 animate-spin text-library-gold mr-3" />
+            <span className="font-body text-library-bronze text-lg">Carregando detalhes da obra...</span>
+          </div>
+        </div>
+      </Layout>
+    );
+  }
+
+  if (error || !book) {
     return <Navigate to="/404" replace />;
   }
 

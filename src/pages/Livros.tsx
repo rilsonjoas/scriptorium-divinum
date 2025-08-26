@@ -1,33 +1,46 @@
 import { Layout } from '@/components/Layout';
 import { BookCard } from '@/components/BookCard';
-import { books } from '@/data/books';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
-import { Search, Filter, Grid, List } from 'lucide-react';
-import { useState } from 'react';
+import { Search, Filter, Grid, List, Loader2 } from 'lucide-react';
+import { useState, useMemo, useEffect } from 'react';
+import { useBooks, useCategories } from '@/hooks/useDatabase';
+import { useSearchParams } from 'react-router-dom';
 
 const Livros = () => {
-  const [searchTerm, setSearchTerm] = useState('');
+  const [searchParams, setSearchParams] = useSearchParams();
+  const [searchTerm, setSearchTerm] = useState(searchParams.get('search') || '');
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
 
-  // Extract unique categories
-  const categories = Array.from(
-    new Set(books.flatMap(book => book.categories || []))
-  );
+  // Update search term from URL params
+  useEffect(() => {
+    const searchFromUrl = searchParams.get('search');
+    if (searchFromUrl && searchFromUrl !== searchTerm) {
+      setSearchTerm(searchFromUrl);
+    }
+  }, [searchParams]);
+
+  const { data: books, isLoading: booksLoading, error: booksError } = useBooks();
+  const { data: categories, isLoading: categoriesLoading } = useCategories();
 
   // Filter books based on search and category
-  const filteredBooks = books.filter(book => {
-    const matchesSearch = book.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      book.author.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      book.description.toLowerCase().includes(searchTerm.toLowerCase());
+  const filteredBooks = useMemo(() => {
+    if (!books) return [];
     
-    const matchesCategory = selectedCategory === 'all' || 
-      book.categories?.includes(selectedCategory);
-    
-    return matchesSearch && matchesCategory;
-  });
+    return books.filter(book => {
+      const matchesSearch = searchTerm === '' || 
+        book.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        book.author.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        book.description.toLowerCase().includes(searchTerm.toLowerCase());
+      
+      const matchesCategory = selectedCategory === 'all' || 
+        book.categories?.includes(selectedCategory);
+      
+      return matchesSearch && matchesCategory;
+    });
+  }, [books, searchTerm, selectedCategory]);
 
   return (
     <Layout>
@@ -74,7 +87,9 @@ const Livros = () => {
                 </SelectTrigger>
                 <SelectContent>
                   <SelectItem value="all">Todas as categorias</SelectItem>
-                  {categories.map(category => (
+                  {categoriesLoading ? (
+                    <SelectItem value="" disabled>Carregando...</SelectItem>
+                  ) : categories?.map(category => (
                     <SelectItem key={category} value={category}>
                       {category}
                     </SelectItem>
@@ -117,6 +132,7 @@ const Livros = () => {
               onClick={() => {
                 setSearchTerm('');
                 setSelectedCategory('all');
+                setSearchParams({});
               }}
               className="font-body text-library-bronze hover:text-library-wood"
             >
@@ -127,7 +143,31 @@ const Livros = () => {
         </div>
 
         {/* Books Grid/List */}
-        {filteredBooks.length > 0 ? (
+        {booksLoading ? (
+          <div className="flex items-center justify-center py-16">
+            <Loader2 className="h-8 w-8 animate-spin text-library-gold mr-3" />
+            <span className="font-body text-library-bronze text-lg">Carregando catálogo...</span>
+          </div>
+        ) : booksError ? (
+          <div className="text-center py-16">
+            <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <Search className="h-8 w-8 text-red-600" />
+            </div>
+            <h3 className="font-display text-xl font-semibold text-red-700 mb-2">
+              Erro ao carregar o catálogo
+            </h3>
+            <p className="font-body text-muted-foreground mb-4">
+              {booksError.message}
+            </p>
+            <Button
+              variant="outline"
+              onClick={() => window.location.reload()}
+              className="font-body"
+            >
+              Tentar novamente
+            </Button>
+          </div>
+        ) : filteredBooks.length > 0 ? (
           <div className={
             viewMode === 'grid' 
               ? "grid grid-cols-1 lg:grid-cols-2 gap-6"
@@ -150,13 +190,17 @@ const Livros = () => {
               Nenhuma obra encontrada
             </h3>
             <p className="font-body text-muted-foreground mb-4">
-              Tente ajustar os filtros ou termos de busca.
+              {books?.length === 0 
+                ? 'O catálogo ainda não possui obras cadastradas.'
+                : 'Tente ajustar os filtros ou termos de busca.'
+              }
             </p>
             <Button
               variant="outline"
               onClick={() => {
                 setSearchTerm('');
                 setSelectedCategory('all');
+                setSearchParams({});
               }}
               className="font-body"
             >

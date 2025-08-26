@@ -1,11 +1,11 @@
-import { books } from '@/data/books';
 import { BookCard } from './BookCard';
 import { Button } from '@/components/ui/button';
-import { BookOpen, ChevronRight } from 'lucide-react';
+import { BookOpen, ChevronRight, Loader2 } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { useFeaturedBooks } from '@/hooks/useDatabase';
 
 export function FeaturedSection() {
-  const featuredBooks = books.filter(book => book.featured);
+  const { data: featuredBooks, isLoading, error } = useFeaturedBooks(3);
 
   return (
     <section className="py-16 bg-gradient-to-br from-library-parchment to-background">
@@ -22,9 +22,31 @@ export function FeaturedSection() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-12">
-          {featuredBooks.map((book) => (
-            <BookCard key={book.id} book={book} />
-          ))}
+          {isLoading ? (
+            <div className="col-span-full flex items-center justify-center py-12">
+              <Loader2 className="h-8 w-8 animate-spin text-library-gold mr-3" />
+              <span className="font-body text-library-bronze">Carregando obras em destaque...</span>
+            </div>
+          ) : error ? (
+            <div className="col-span-full text-center py-12">
+              <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <BookOpen className="h-8 w-8 text-red-600" />
+              </div>
+              <p className="font-body text-red-600 mb-2">Erro ao carregar obras em destaque</p>
+              <p className="font-body text-sm text-muted-foreground">{error.message}</p>
+            </div>
+          ) : featuredBooks && featuredBooks.length > 0 ? (
+            featuredBooks.map((book) => (
+              <BookCard key={book.id} book={book} />
+            ))
+          ) : (
+            <div className="col-span-full text-center py-12">
+              <div className="w-16 h-16 bg-library-bronze rounded-full flex items-center justify-center mx-auto mb-4 opacity-50">
+                <BookOpen className="h-8 w-8 text-library-parchment" />
+              </div>
+              <p className="font-body text-library-bronze">Nenhuma obra em destaque encontrada.</p>
+            </div>
+          )}
         </div>
 
         <div className="text-center">
