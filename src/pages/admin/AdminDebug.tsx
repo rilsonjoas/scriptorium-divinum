@@ -54,21 +54,19 @@ export default function AdminDebug() {
       addResult('Usuário Atual', false, null, err);
     }
 
-    // Test 4: Check auth user metadata
+    // Test 4: Profiles table
     try {
       const { data: { user: currentUser }, error } = await supabase.auth.getUser();
-      if (currentUser) {
-        addResult('Metadados do Usuário', !error, { 
-          id: currentUser.id,
-          email: currentUser.email,
-          role: currentUser.user_metadata?.role || 'user',
-          created_at: currentUser.created_at
-        }, error);
-      } else {
-        addResult('Metadados do Usuário', false, null, 'Usuário não autenticado');
-      }
+  if (currentUser) {
+    addResult('Metadados do Usuário', !error, {
+      id: currentUser.id,
+      email: currentUser.email,
+      role: currentUser.user_metadata?.role || 'user',
+      created_at: currentUser.created_at
+    }, error);
+  }
     } catch (err) {
-      addResult('Metadados do Usuário', false, null, err);
+      addResult('Tabela Profiles', false, null, err);
     }
 
     setLoading(false);
