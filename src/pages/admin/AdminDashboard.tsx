@@ -1,9 +1,11 @@
 import { AdminLayout } from '@/components/AdminLayout';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { useBooks, useAuthors, useCategories } from '@/hooks/useDatabase';
-import { BookOpen, Users, FolderOpen, TrendingUp, Clock, Eye } from 'lucide-react';
+import { BookOpen, Users, FolderOpen, Clock } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 
 export default function AdminDashboard() {
+  const navigate = useNavigate();
   const { data: books, isLoading: booksLoading } = useBooks();
   const { data: authors, isLoading: authorsLoading } = useAuthors();
   const { data: categories, isLoading: categoriesLoading } = useCategories();
@@ -20,33 +22,19 @@ export default function AdminDashboard() {
       name: 'Total de Livros',
       value: totalBooks,
       icon: BookOpen,
-      change: '+12%',
-      changeType: 'positive',
-      description: 'nos últimos 30 dias',
+      description: 'livros no catálogo',
     },
     {
       name: 'Total de Autores',
       value: totalAuthors,
       icon: Users,
-      change: '+5%',
-      changeType: 'positive',
-      description: 'nos últimos 30 dias',
+      description: 'autores cadastrados',
     },
     {
       name: 'Categorias',
       value: totalCategories,
       icon: FolderOpen,
-      change: '0%',
-      changeType: 'neutral',
-      description: 'nenhuma alteração',
-    },
-    {
-      name: 'Visualizações',
-      value: '12.5k',
-      icon: Eye,
-      change: '+25%',
-      changeType: 'positive',
-      description: 'este mês',
+      description: 'categorias disponíveis',
     },
   ];
 
@@ -64,7 +52,7 @@ export default function AdminDashboard() {
         </div>
 
         {/* Stats Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {stats.map((stat) => (
             <Card key={stat.name} className="border-library-bronze bg-library-parchment">
               <CardContent className="p-6">
@@ -81,20 +69,8 @@ export default function AdminDashboard() {
                     <stat.icon className="h-6 w-6 text-library-gold" />
                   </div>
                 </div>
-                <div className="mt-4 flex items-center text-sm">
-                  <TrendingUp className={`h-4 w-4 mr-1 ${
-                    stat.changeType === 'positive' ? 'text-green-600' : 
-                    stat.changeType === 'negative' ? 'text-red-600' : 
-                    'text-gray-600'
-                  }`} />
-                  <span className={`font-medium ${
-                    stat.changeType === 'positive' ? 'text-green-600' : 
-                    stat.changeType === 'negative' ? 'text-red-600' : 
-                    'text-gray-600'
-                  }`}>
-                    {stat.change}
-                  </span>
-                  <span className="text-library-bronze ml-1 font-body">
+                <div className="mt-4">
+                  <span className="text-library-bronze text-sm font-body">
                     {stat.description}
                   </span>
                 </div>
@@ -154,27 +130,36 @@ export default function AdminDashboard() {
             </CardHeader>
             <CardContent className="space-y-4">
               <div className="grid grid-cols-1 gap-3">
-                <button className="flex items-center p-4 rounded-lg border border-library-bronze hover:bg-library-gold/5 transition-colors text-left">
+                <button 
+                  onClick={() => navigate('/admin/livros')}
+                  className="flex items-center p-4 rounded-lg border border-library-bronze hover:bg-library-gold/5 transition-colors text-left cursor-pointer"
+                >
                   <BookOpen className="h-5 w-5 text-library-gold mr-3" />
                   <div>
-                    <p className="font-medium text-library-wood font-body">Adicionar Livro</p>
-                    <p className="text-sm text-library-bronze font-body">Cadastrar nova obra no catálogo</p>
+                    <p className="font-medium text-library-wood font-body">Gerenciar Livros</p>
+                    <p className="text-sm text-library-bronze font-body">Ver, editar e adicionar livros ao catálogo</p>
                   </div>
                 </button>
                 
-                <button className="flex items-center p-4 rounded-lg border border-library-bronze hover:bg-library-gold/5 transition-colors text-left">
+                <button 
+                  onClick={() => navigate('/admin/autores')}
+                  className="flex items-center p-4 rounded-lg border border-library-bronze hover:bg-library-gold/5 transition-colors text-left cursor-pointer"
+                >
                   <Users className="h-5 w-5 text-library-gold mr-3" />
                   <div>
-                    <p className="font-medium text-library-wood font-body">Adicionar Autor</p>
-                    <p className="text-sm text-library-bronze font-body">Cadastrar novo autor</p>
+                    <p className="font-medium text-library-wood font-body">Gerenciar Autores</p>
+                    <p className="text-sm text-library-bronze font-body">Ver, editar e adicionar autores</p>
                   </div>
                 </button>
                 
-                <button className="flex items-center p-4 rounded-lg border border-library-bronze hover:bg-library-gold/5 transition-colors text-left">
+                <button 
+                  onClick={() => navigate('/admin/categorias')}
+                  className="flex items-center p-4 rounded-lg border border-library-bronze hover:bg-library-gold/5 transition-colors text-left cursor-pointer"
+                >
                   <FolderOpen className="h-5 w-5 text-library-gold mr-3" />
                   <div>
                     <p className="font-medium text-library-wood font-body">Gerenciar Categorias</p>
-                    <p className="text-sm text-library-bronze font-body">Organizar classificações</p>
+                    <p className="text-sm text-library-bronze font-body">Organizar e editar classificações</p>
                   </div>
                 </button>
               </div>

@@ -1,5 +1,5 @@
 import { supabase, handleSupabaseError } from '@/lib/supabase'
-import { Author, Book, AuthorDB, BookDB, DownloadLink } from '@/types'
+import { Author, Book, AuthorDB, BookDB, DownloadLink, Category, ExternalLink } from '@/types'
 
 // Helper functions to convert between DB and frontend formats
 export const convertAuthorFromDB = (authorDB: AuthorDB): Author => ({
@@ -8,12 +8,20 @@ export const convertAuthorFromDB = (authorDB: AuthorDB): Author => ({
   name: authorDB.name,
   birthYear: authorDB.birth_year || undefined,
   deathYear: authorDB.death_year || undefined,
+  lifespan: authorDB.birth_year && authorDB.death_year ? 
+    `${authorDB.birth_year} - ${authorDB.death_year}` : 
+    authorDB.birth_year ? `${authorDB.birth_year} - ?` : undefined,
+  period: authorDB.denomination_or_tradition?.[0], // Use first denomination as period
+  nationality: undefined, // Add to DB schema if needed
   bioSummary: authorDB.bio_summary || undefined,
+  biography: authorDB.bio_summary || undefined, // Same as bioSummary for now
   portraitImageUrl: authorDB.portrait_image_url || undefined,
   denominationOrTradition: authorDB.denomination_or_tradition || undefined,
+  originalName: undefined, // Add to DB schema if needed
+  externalLinks: [], // Add to DB schema if needed
 })
 
-export const convertBookFromDB = (bookDB: BookDB & { authors?: AuthorDB, download_links?: any[] }): Book => ({
+export const convertBookFromDB = (bookDB: BookDB & { authors?: AuthorDB, download_links?: Array<{ url: string; format: string; size?: string }> }): Book => ({
   id: bookDB.id,
   title: bookDB.title,
   originalTitle: bookDB.original_title || undefined,
@@ -190,8 +198,8 @@ export const booksService = {
       // Add table of contents if available
       if (data.table_of_contents?.length) {
         book.tableOfContents = data.table_of_contents
-          .sort((a: any, b: any) => a.order_index - b.order_index)
-          .map((toc: any) => ({
+          .sort((a: { order_index: number }, b: { order_index: number }) => a.order_index - b.order_index)
+          .map((toc: { title: string; anchor: string; level: number }) => ({
             title: toc.title,
             anchor: toc.anchor,
             level: toc.level
@@ -236,31 +244,7 @@ export const booksService = {
 // Categories service functions
 export const categoriesService = {
   // Get all unique categories from books
-  async getAll(): Promise<string[]> {
-    try {
-      const { data, error } = await supabase
-        .from('books')
-        .select('categories')
-        .not('categories', 'is', null)
-
-      if (error) throw error
-
-      const categoriesSet = new Set<string>()
-      data.forEach(book => {
-        book.categories?.forEach(category => {
-          if (category) categoriesSet.add(category)
-        })
-      })
-
-      return Array.from(categoriesSet).sort()
-    } catch (error) {
-      handleSupabaseError(error)
-      throw error
-    }
-  },
-
-  // Get category with book count
-  async getWithCounts(): Promise<{ category: string; count: number }[]> {
+  async getAll(): Promise<Category[]> {
     try {
       const { data, error } = await supabase
         .from('books')
@@ -280,8 +264,28 @@ export const categoriesService = {
       })
 
       return Object.entries(categoryCounts)
-        .map(([category, count]) => ({ category, count }))
-        .sort((a, b) => b.count - a.count)
+        .map(([name, bookCount]) => ({
+          id: name.toLowerCase().replace(/\s+/g, '-'),
+          name,
+          slug: name.toLowerCase().replace(/\s+/g, '-'),
+          description: undefined, // Add descriptions later if needed
+          bookCount
+        }))
+        .sort((a, b) => a.name.localeCompare(b.name))
+    } catch (error) {
+      handleSupabaseError(error)
+      throw error
+    }
+  },
+
+  // Get category with book count (for backwards compatibility)
+  async getWithCounts(): Promise<{ category: string; count: number }[]> {
+    try {
+      const categories = await this.getAll()
+      return categories.map(cat => ({ 
+        category: cat.name, 
+        count: cat.bookCount || 0 
+      }))
     } catch (error) {
       handleSupabaseError(error)
       throw error

@@ -24,18 +24,20 @@ export const supabase = createClient<Database>(supabaseUrl, supabaseAnonKey, {
 })
 
 // Helper function to handle Supabase errors
-export const handleSupabaseError = (error: any) => {
+export const handleSupabaseError = (error: unknown) => {
   console.error('Supabase Error:', error)
   
-  if (error?.code === 'PGRST301') {
-    throw new Error('Recurso não encontrado')
+  if (error && typeof error === 'object' && 'code' in error) {
+    if (error.code === 'PGRST301') {
+      throw new Error('Recurso não encontrado')
+    }
+    
+    if (error.code === 'PGRST204') {
+      throw new Error('Nenhum resultado encontrado')  
+    }
   }
   
-  if (error?.code === 'PGRST204') {
-    throw new Error('Nenhum resultado encontrado')  
-  }
-  
-  if (error?.message) {
+  if (error && typeof error === 'object' && 'message' in error && typeof error.message === 'string') {
     throw new Error(error.message)
   }
   

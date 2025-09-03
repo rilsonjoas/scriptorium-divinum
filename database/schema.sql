@@ -213,3 +213,10 @@ BEGIN
     (book_id_3, 'pdf', '/downloads/belarmino/sete-palavras.pdf', 'Internet Archive')
     ON CONFLICT DO NOTHING;
 END $$;
+
+-- Include admin setup (profiles table and permissions)
+-- Execute admin-setup.sql separately or uncomment the line below:
+-- \i admin-setup.sql
+
+-- NOTE: After running this schema, also run admin-setup.sql to create 
+-- the profiles table and set up admin permissions.

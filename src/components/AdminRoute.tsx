@@ -7,15 +7,15 @@ interface AdminRouteProps {
 }
 
 export function AdminRoute({ children }: AdminRouteProps) {
-  const { user, loading, isAdmin } = useAuth();
+  const { user, loading, isAdmin, isCheckingAdmin } = useAuth();
 
-  if (loading) {
+  if (loading || isCheckingAdmin) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-library-parchment">
         <div className="flex items-center space-x-3">
           <Loader2 className="h-8 w-8 animate-spin text-library-gold" />
           <span className="text-library-bronze font-body text-lg">
-            Verificando permissões...
+            {loading ? 'Carregando...' : 'Verificando permissões...'}
           </span>
         </div>
       </div>

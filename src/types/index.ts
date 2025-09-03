@@ -49,9 +49,30 @@ export interface Author {
   name: string;
   birthYear?: number;
   deathYear?: number;
+  lifespan?: string;
+  period?: string;
+  nationality?: string;
   bioSummary?: string;
+  biography?: string;
   portraitImageUrl?: string;
   denominationOrTradition?: string[];
+  originalName?: string;
+  externalLinks?: ExternalLink[];
+}
+
+export interface ExternalLink {
+  id?: string;
+  type: string;
+  url: string;
+  label?: string;
+}
+
+export interface Category {
+  id: string;
+  name: string;
+  slug: string;
+  description?: string;
+  bookCount?: number;
 }
 
 export interface Book {

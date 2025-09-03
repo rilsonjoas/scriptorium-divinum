@@ -1,11 +1,12 @@
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Layout } from '@/components/Layout';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { BookCard } from '@/components/BookCard';
 import { useBooks } from '@/hooks/useDatabase';
 import { Book, Category } from '@/types';
-import { BookOpen, Clock, Globe, Heart } from 'lucide-react';
+import { BookOpen, Clock, Globe, Heart, ArrowRight } from 'lucide-react';
 
 const categories: Category[] = [
   {
@@ -81,7 +82,7 @@ function getBooksInCategory(categoryName: string, books: Book[] = []): Book[] {
 }
 
 export default function Categorias() {
-  const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
+  const navigate = useNavigate();
   const { data: books } = useBooks();
 
   return (
@@ -100,23 +101,20 @@ export default function Categorias() {
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {categories.map((category) => {
             const booksInCategory = getBooksInCategory(category.slug, books || []);
-            const isSelected = selectedCategory === category.slug;
             
             return (
               <Card 
                 key={category.slug}
-                className={`cursor-pointer transition-all duration-300 hover:shadow-lg border-library-bronze bg-library-parchment ${
-                  isSelected ? 'ring-2 ring-library-gold shadow-golden' : ''
-                }`}
-                onClick={() => setSelectedCategory(isSelected ? null : category.slug)}
+                className="cursor-pointer transition-all duration-300 hover:shadow-lg border-library-bronze bg-library-parchment hover:ring-2 hover:ring-library-gold hover:shadow-golden group"
+                onClick={() => navigate(`/categorias/${category.slug}`)}
               >
                 <CardHeader className="pb-3">
                   <div className="flex items-center gap-3 mb-2">
                     <div className="w-10 h-10 bg-library-gold rounded-lg flex items-center justify-center text-library-wood">
                       {getCategoryIcon(category.slug)}
                     </div>
-                    <div>
-                      <CardTitle className="font-display text-lg text-library-wood">
+                    <div className="flex-1">
+                      <CardTitle className="font-display text-lg text-library-wood group-hover:text-library-gold transition-colors">
                         {category.name}
                       </CardTitle>
                       {category.period && (
@@ -125,6 +123,7 @@ export default function Categorias() {
                         </Badge>
                       )}
                     </div>
+                    <ArrowRight className="h-4 w-4 text-library-bronze group-hover:text-library-gold transition-colors opacity-0 group-hover:opacity-100" />
                   </div>
                   <CardDescription className="font-body text-library-bronze text-sm leading-relaxed">
                     {category.description}
@@ -135,8 +134,8 @@ export default function Categorias() {
                     <span className="font-body">
                       {booksInCategory.length} {booksInCategory.length === 1 ? 'obra' : 'obras'}
                     </span>
-                    <span className="text-xs">
-                      {isSelected ? 'Clique para recolher' : 'Clique para expandir'}
+                    <span className="text-xs group-hover:text-library-gold transition-colors">
+                      Ver categoria →
                     </span>
                   </div>
                 </CardContent>
@@ -145,40 +144,6 @@ export default function Categorias() {
           })}
         </div>
 
-        {selectedCategory && (
-          <div className="mt-12">
-            <div className="border-t border-library-bronze pt-8">
-              <div className="mb-6">
-                <h2 className="font-display text-2xl font-semibold text-library-wood golden-foil mb-2">
-                  Obras em {categories.find(cat => cat.slug === selectedCategory)?.name}
-                </h2>
-                <p className="text-library-bronze font-body">
-                  {categories.find(cat => cat.slug === selectedCategory)?.description}
-                </p>
-              </div>
-              
-              <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-                {getBooksInCategory(selectedCategory, books || []).map((book) => (
-                  <BookCard key={book.id} book={book} />
-                ))}
-              </div>
-              
-              {getBooksInCategory(selectedCategory, books || []).length === 0 && (
-                <div className="text-center py-12">
-                  <div className="w-16 h-16 bg-library-bronze rounded-full flex items-center justify-center mx-auto mb-4 opacity-50">
-                    <BookOpen className="h-8 w-8 text-library-parchment" />
-                  </div>
-                  <p className="text-library-bronze font-body text-lg">
-                    Ainda não temos obras cadastradas nesta categoria.
-                  </p>
-                  <p className="text-library-bronze font-body text-sm mt-2 opacity-75">
-                    Nossa biblioteca está em constante crescimento.
-                  </p>
-                </div>
-              )}
-            </div>
-          </div>
-        )}
 
         <div className="mt-16 bg-gradient-leather rounded-lg p-8 text-center">
           <h3 className="font-display text-xl font-semibold text-library-gold mb-3">

@@ -198,7 +198,7 @@ export default function AdminLogin() {
         {/* Footer */}
         <div className="text-center mt-8">
           <p className="text-sm text-library-gold/60 font-body">
-            © 2024 Scriptorium Divinum - Sistema Administrativo
+            © 2025 Scriptorium Divinum - Sistema Administrativo
           </p>
         </div>
       </div>

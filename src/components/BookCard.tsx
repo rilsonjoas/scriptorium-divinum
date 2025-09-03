@@ -6,10 +6,106 @@ import { Link } from 'react-router-dom';
 
 interface BookCardProps {
   book: Book;
-  variant?: 'grid' | 'spine' | 'list';
+  variant?: 'grid' | 'spine' | 'list' | 'compact';
 }
 
 export function BookCard({ book, variant = 'grid' }: BookCardProps) {
+  if (variant === 'compact') {
+    return (
+      <Card className="group bg-card/95 backdrop-blur-sm border-library-bronze shadow-book hover:shadow-deep transition-all duration-300 hover:-translate-y-1 parchment-bg">
+        <CardContent className="p-4">
+          <div className="flex flex-col space-y-3">
+            {/* Book Cover - Smaller and centered */}
+            <div className="flex-shrink-0 w-16 h-24 bg-gradient-leather rounded-lg shadow-golden border-2 border-library-bronze relative overflow-hidden mx-auto">
+              {book.coverImageUrl ? (
+                <img
+                  src={book.coverImageUrl}
+                  alt={`Capa de ${book.title}`}
+                  className="w-full h-full object-cover"
+                />
+              ) : (
+                <div className="w-full h-full flex items-center justify-center">
+                  <BookOpen className="h-6 w-6 text-library-gold" />
+                </div>
+              )}
+              <div className="absolute top-1 right-1 w-2 h-2 border-t border-r border-library-gold"></div>
+              <div className="absolute bottom-1 left-1 w-2 h-2 border-b border-l border-library-gold"></div>
+            </div>
+
+            {/* Book Info */}
+            <div className="text-center">
+              <h3 className="font-heading text-base font-semibold text-foreground group-hover:text-library-bronze transition-colors mb-1 line-clamp-2">
+                {book.title}
+              </h3>
+              {book.originalTitle && (
+                <p className="font-body text-xs text-muted-foreground italic mb-2 line-clamp-1">
+                  {book.originalTitle}
+                </p>
+              )}
+
+              <div className="text-xs text-muted-foreground mb-2 font-body">
+                <div className="flex items-center justify-center space-x-1 mb-1">
+                  <User className="h-3 w-3" />
+                  <span className="line-clamp-1">{book.author.name}</span>
+                </div>
+                {book.publicationYearOriginal && (
+                  <div className="flex items-center justify-center space-x-1">
+                    <Calendar className="h-3 w-3" />
+                    <span>{book.publicationYearOriginal}</span>
+                  </div>
+                )}
+              </div>
+
+              <p className="text-xs text-muted-foreground mb-3 line-clamp-2 font-body">
+                {book.description}
+              </p>
+
+              {/* Categories - Show only first 2 */}
+              {book.categories && book.categories.length > 0 && (
+                <div className="flex flex-wrap gap-1 mb-3 justify-center">
+                  {book.categories.slice(0, 2).map((category) => (
+                    <span
+                      key={category}
+                      className="px-2 py-0.5 text-xs bg-library-gold/20 text-library-bronze rounded-md font-body"
+                    >
+                      {category}
+                    </span>
+                  ))}
+                </div>
+              )}
+
+              {/* Actions */}
+              <div className="flex flex-col space-y-2">
+                <Button asChild size="sm" className="bg-library-wood hover:bg-library-bronze text-library-gold font-body w-full">
+                  <Link to={`/livros/${book.id}`}>
+                    <BookOpen className="h-3 w-3 mr-1" />
+                    Ver Detalhes
+                  </Link>
+                </Button>
+                <div className="flex space-x-1">
+                  {book.onlineReadPath && (
+                    <Button asChild variant="outline" size="sm" className="border-library-bronze text-library-bronze hover:bg-library-bronze hover:text-primary-foreground font-body flex-1 text-xs">
+                      <Link to={`/ler/${book.id}`}>
+                        <BookOpen className="h-3 w-3 mr-1" />
+                        Ler
+                      </Link>
+                    </Button>
+                  )}
+                  {book.downloadLinks && book.downloadLinks.length > 0 && (
+                    <Button variant="ghost" size="sm" className="text-library-bronze hover:text-library-wood font-body flex-1 text-xs">
+                      <Download className="h-3 w-3 mr-1" />
+                      Download
+                    </Button>
+                  )}
+                </div>
+              </div>
+            </div>
+          </div>
+        </CardContent>
+      </Card>
+    );
+  }
+
   if (variant === 'spine') {
     return (
       <div className="book-spine w-16 h-80 relative group cursor-pointer transform hover:scale-105 transition-all duration-300">

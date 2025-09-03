@@ -37,7 +37,7 @@ O Scriptorium Divinum é uma aplicação web moderna com integração completa a
    ```sql
    -- Execute nesta ordem:
    database/schema.sql       -- Estrutura das tabelas
-   database/admin-setup-complete.sql  -- Sistema administrativo
+   database/admin-setup.sql  -- Sistema administrativo (profiles, roles, etc.)
    ```
 3. Configure as variáveis de ambiente:
    ```bash
