@@ -122,7 +122,6 @@ export default function AdminDebug() {
             <CardTitle>Debug Sistema</CardTitle>
           </CardHeader>
           <CardContent className="space-y-4">
-            {/* Current User Info */}
             <div className="p-4 bg-library-gold/10 border border-library-bronze rounded">
               <h4 className="font-semibold text-library-wood mb-2">Status Atual:</h4>
               <div className="text-sm text-library-bronze space-y-1">
