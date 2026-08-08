@@ -1,0 +1,15 @@
+services:
+  postgres-test:
+    image: postgres:16-alpine
+    container_name: scriptorium-postgres-test
+    environment:
+      POSTGRES_USER: scriptorium_test
+      POSTGRES_PASSWORD: scriptorium_test
+      POSTGRES_DB: scriptorium_divinum_test
+    ports:
+      - '5434:5432'
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U scriptorium_test -d scriptorium_divinum_test']
+      interval: 2s
+      timeout: 2s
+      retries: 15
