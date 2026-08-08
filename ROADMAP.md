@@ -79,8 +79,14 @@ real primeiro, polimento depois.
 - [ ] Sem Sentry, sem analytics, sem qualquer visibilidade de erro em
       produção hoje
 
-## P5 — UI/UX e responsividade
+## P5 — UI/UX, acessibilidade e SEO
 
+- [x] **SEO já implementado** (achado em 2026-08-08, tinha passado batido
+      no levantamento original): `index.html` já tem `description`,
+      Open Graph e Twitter Card, `public/robots.txt` presente
+- [ ] `sitemap.xml` — não existe ainda; aqui faz mais sentido que no
+      a-bancada (catálogo de livros/autores tende a crescer, sitemap
+      ajuda a indexação de conteúdo novo)
 - [ ] README reivindica "Interface Responsiva: funciona em desktop,
       tablet e mobile" — não verificado neste levantamento, conferir de
       fato antes de assumir que está OK
