@@ -21,8 +21,9 @@ Drizzle + Zod), Postgres self-hosted com role isolada, Docker multi-stage,
 Traefik. **Migração deliberadamente adiada** — não começar sem pedido
 explícito.
 
-Mesmo padrão de fases usado no roadmap do meus-remedios e no addendum do
-lecionário: risco real primeiro, polimento depois.
+Mesmo padrão de fases usado em todos os projetos pessoais — categorias e
+justificativa completa em `hetzner-infra/PADRAO-DE-ENGENHARIA.md`, risco
+real primeiro, polimento depois.
 
 ---
 
