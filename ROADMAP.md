@@ -45,41 +45,52 @@ real primeiro, polimento depois.
       materializado uma vez neste mesmo conjunto de projetos, não
       hipotético
 
-## P1 — Docker & VPS
+## P1 — Infra & Deploy
 
-- [ ] Não existe Dockerfile nem `docker-compose.yml` hoje — construir do
-      zero. Como é Vite (SPA estática, mesma stack do biblia-na-arte
-      antes da migração), o padrão é multi-stage build + nginx servindo
-      estático, igual ao `web/Dockerfile` do biblia-na-arte — reaproveitar
-      quase literalmente
-- [ ] Se a decisão do P0 for migrar pra API própria: banco Postgres
-      compartilhado no VPS + role isolada `scriptorium_app`, mesmo
-      processo já rodado duas vezes nesta sessão. Se mantiver Supabase:
-      nenhuma infra de banco própria necessária, mas o risco de morte
-      por inatividade continua
-- [ ] Registrar em `hetzner-infra/`: `docker-compose.yml`, Makefile,
-      Traefik, DNS — mesmo processo genérico dos outros projetos
+> [!WARNING] Estado real incerto (2026-08-09)
+> Containers `scriptorium-web` e `scriptorium-api` confirmados rodando
+> no VPS com certificado Let's Encrypt válido (`scriptorium.narniano.com`,
+> `api-scriptorium.narniano.com`) — foi ao ar na madrugada de 08/08, em
+> paralelo, sem eu acompanhar a implementação. **Não sei se isso migrou
+> pra API própria (resolvendo o P0) ou se subiu o app original ainda
+> preso ao Supabase.** Conferir antes de assumir qualquer um dos dois —
+> os itens abaixo ficam como estavam até essa confirmação
 
-## P2 — CI/CD
+- [x] No ar no VPS — Dockerfile e `docker-compose.yml` existem (estado
+      anterior desta lista, "não existe Dockerfile", está desatualizado)
+- [ ] Confirmar arquitetura real: ainda Supabase, ou migrou pra API
+      própria + Postgres (`scriptorium_app`)?
+
+## P2 — Saúde & Resiliência
+
+- [ ] Não auditado — categoria nova (fusão com o SHIELD, 2026-08-09)
+
+## P3 — CI/CD
 
 - [ ] Não existe `.github/workflows/` — criar do zero. Mínimo viável:
       lint + typecheck + build a cada push/PR (o lecionário já tem um
       workflow bom pra copiar a estrutura, `lecionario/.github/workflows/ci.yml`)
 - [ ] `npm audit` (ou `pnpm audit`, se migrar de gerenciador) no CI
 
-## P3 — Testes
+## P4 — Testes
 
 - [ ] Zero testes automatizados hoje — nem test runner configurado
 - [ ] Prioridade ao cobrir: `src/services/database.ts` (toda a camada de
       acesso a dados passa por ali) e a lógica de busca/filtros de
       `Busca.tsx`
 
-## P4 — Monitoramento
+## P5 — Monitoramento & Logs
 
 - [ ] Sem Sentry, sem analytics, sem qualquer visibilidade de erro em
       produção hoje
 
-## P5 — UI/UX, acessibilidade e SEO
+## P6 — Backups & Recuperação
+
+- [ ] Depende da decisão do P1 — se migrou pra Postgres próprio, entra
+      no backup geral do VPS; se ainda é Supabase, sem backup nenhum sob
+      seu controle (mesmo risco que já matou o Supabase do biblia-na-arte)
+
+## P7 — UI/UX, acessibilidade e SEO
 
 - [x] **SEO já implementado** (achado em 2026-08-08, tinha passado batido
       no levantamento original): `index.html` já tem `description`,
@@ -96,7 +107,7 @@ real primeiro, polimento depois.
 - [ ] Acessibilidade — não mencionada em nenhum lugar do projeto até
       agora, provavelmente zero auditoria feita
 
-## P6 — Funcionalidades / entrega de valor real
+## P8 — Funcionalidades / entrega de valor real
 
 Direto do "Próximos Passos" do próprio README do projeto — nada inventado
 aqui, só organizado por prioridade real:
@@ -111,14 +122,24 @@ aqui, só organizado por prioridade real:
       i18n — todos listados como "funcionalidades futuras" no README,
       nenhum começado
 
+## P9 — Documentação
+
+- [ ] Nunca auditado nesta lista — README existe e é razoavelmente
+      completo, mas não confirmado se ainda bate com o estado real do
+      código (ver alerta de arquitetura incerta no P1)
+
 ---
 
 ## Ordem recomendada, se/quando este projeto voltar à mesa
 
-1. P0 (decidir Supabase x API própria — essa decisão muda o P1 inteiro)
-2. P1 (Docker, sem isso não tem deploy possível)
-3. P2 (CI mínimo, barato de fazer e evita regressão enquanto o resto
+> Numeração renumerada em 2026-08-09 (fusão com o SHIELD)
+
+1. P1 (confirmar a arquitetura real primeiro — muda a leitura de tudo
+   mais abaixo, inclusive se o P0 antigo ainda se aplica)
+2. P0 (decidir Supabase x API própria, se P1 confirmar que ainda não
+   migrou)
+3. P3 (CI mínimo, barato de fazer e evita regressão enquanto o resto
    avança)
-4. P6 parcial (CRUD admin — é o que faz o projeto passar de "catálogo
+4. P8 parcial (CRUD admin — é o que faz o projeto passar de "catálogo
    estático" pra "produto administrável de verdade")
-5. P3/P4/P5 em paralelo, conforme o tempo permitir
+5. P4/P5/P7 em paralelo, conforme o tempo permitir
