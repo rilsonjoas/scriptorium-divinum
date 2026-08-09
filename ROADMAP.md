@@ -29,37 +29,45 @@ real primeiro, polimento depois.
 
 ## P0 — Segurança
 
-- [ ] **Resolver ou substituir o auth do painel admin.** README documenta
-      erro HTTP 400 no signup/login via Supabase Auth como problema
-      conhecido, nunca resolvido — hoje o admin não é usável
-- [ ] **Conferir as políticas de RLS** das tabelas `authors`, `books`,
-      `download_links`, `profiles` — o próprio README lista "Configuração
-      RLS: Políticas... precisam ser ajustadas" como problema aberto.
-      Sem RLS correta, dados que deveriam ser protegidos podem estar
-      publicamente graváveis/legíveis via API do Supabase
-- [ ] **Decisão estratégica, não só bug fix**: em vez de consertar o auth
-      do Supabase, considerar migrar pro mesmo padrão do biblia-na-arte
-      — API própria + Postgres self-hosted. Justificativa: o Supabase
-      gratuito do biblia-na-arte **morreu por inatividade** em produção
-      sem aviso (banco e storage apagados) — é um risco real já
-      materializado uma vez neste mesmo conjunto de projetos, não
-      hipotético
+> [!DONE] Arquitetura confirmada (2026-08-09)
+> Migrou de verdade pra API própria (Fastify + Drizzle + Zod, mesmo
+> padrão do biblia-na-arte) — commit `8957789`, "Migra arquitetura para
+> monorepo pnpm com API Fastify + Drizzle e web integrado". O catálogo
+> público não depende mais de Supabase.
+
+- [x] Catálogo público migrado pra API própria — resolve o risco de
+      "morte por inatividade" que já matou o Supabase do biblia-na-arte
+- [ ] **Admin ainda não migrou — e causou incidente real.** O painel
+      continua preso ao Supabase (auth quebrado, HTTP 400 documentado no
+      README). Pior: `web/src/lib/supabase.ts` lançava erro na carga do
+      módulo quando as env vars do Supabase ficaram ausentes (depois da
+      migração do catálogo) — e como isso é importado por `AuthContext`,
+      que envolve o app inteiro, **o site público inteiro ficou fora do
+      ar pra qualquer visitante**, não só quem tentasse `/admin`.
+      **Corrigido em 2026-08-09** (client desabilitado em vez de lançar
+      erro), mas a decisão de fundo — reconstruir o admin com auth
+      própria ou descartar — continua em aberto
+- [ ] **Achado de segurança à parte, não corrigido**: `checkAdminStatus`
+      em `AuthContext.tsx` tem um bypass comentado como "TEMPORARY...
+      make all logged users admin for testing" — qualquer usuário
+      autenticado vira admin. Inalcançável agora que o login está
+      desabilitado, mas precisa ser removido de verdade quando o admin
+      for reconstruído, não só ficar comentado no meio do código
+- [ ] RLS das tabelas do Supabase (`authors`, `books`, `download_links`,
+      `profiles`) — só relevante se decidir manter Supabase pro admin;
+      se reconstruir com Postgres próprio, isso vira código morto
 
 ## P1 — Infra & Deploy
 
-> [!WARNING] Estado real incerto (2026-08-09)
-> Containers `scriptorium-web` e `scriptorium-api` confirmados rodando
-> no VPS com certificado Let's Encrypt válido (`scriptorium.narniano.com`,
-> `api-scriptorium.narniano.com`) — foi ao ar na madrugada de 08/08, em
-> paralelo, sem eu acompanhar a implementação. **Não sei se isso migrou
-> pra API própria (resolvendo o P0) ou se subiu o app original ainda
-> preso ao Supabase.** Conferir antes de assumir qualquer um dos dois —
-> os itens abaixo ficam como estavam até essa confirmação
-
-- [x] No ar no VPS — Dockerfile e `docker-compose.yml` existem (estado
-      anterior desta lista, "não existe Dockerfile", está desatualizado)
-- [ ] Confirmar arquitetura real: ainda Supabase, ou migrou pra API
-      própria + Postgres (`scriptorium_app`)?
+- [x] **No ar e confirmado saudável (2026-08-09)**: `scriptorium-web` e
+      `scriptorium-api` rodando no VPS, certificado Let's Encrypt válido,
+      health check da API respondendo 200 continuamente, Uptime Kuma já
+      monitorando o site. Testado com `curl` real, não só `docker ps`
+- [ ] **Desconectar o projeto da Vercel** — ficou conectado ao GitHub
+      desde antes da migração pro VPS (quando era só Vite+Supabase, como
+      o AlternativasBR ainda é hoje), e cada push dispara um build lá que
+      não faz sentido mais rodar. Ação manual no dashboard da Vercel, não
+      dá pra fazer por aqui
 
 ## P2 — Saúde & Resiliência
 
@@ -74,10 +82,16 @@ real primeiro, polimento depois.
 
 ## P4 — Testes
 
-- [ ] Zero testes automatizados hoje — nem test runner configurado
-- [ ] Prioridade ao cobrir: `src/services/database.ts` (toda a camada de
-      acesso a dados passa por ali) e a lógica de busca/filtros de
-      `Busca.tsx`
+> [!DONE] Não é mais zero (2026-08-09)
+> `src/services/database.ts` e a lista abaixo estavam desatualizadas —
+> esses arquivos foram deletados na migração de arquitetura. A API nova
+> já nasceu com `server/src/routes/api.integration.test.ts` (136 linhas)
+> e config de Vitest própria (`vitest.config.ts` +
+> `vitest.integration.config.ts`), mesmo padrão do biblia-na-arte
+
+- [x] Testes de integração da API já existem — não rodam em CI ainda
+      (ver P3)
+- [ ] Web (frontend) continua sem teste nenhum
 
 ## P5 — Monitoramento & Logs
 
@@ -86,9 +100,9 @@ real primeiro, polimento depois.
 
 ## P6 — Backups & Recuperação
 
-- [ ] Depende da decisão do P1 — se migrou pra Postgres próprio, entra
-      no backup geral do VPS; se ainda é Supabase, sem backup nenhum sob
-      seu controle (mesmo risco que já matou o Supabase do biblia-na-arte)
+- [x] Confirmado de verdade (2026-08-09, não suposição): `scriptorium_divinum_db`
+      já está em `POSTGRES_DBS` no `.env` do VPS, entra no dump diário
+      igual aos outros bancos
 
 ## P7 — UI/UX, acessibilidade e SEO
 
