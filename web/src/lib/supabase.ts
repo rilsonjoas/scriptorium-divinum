@@ -4,24 +4,40 @@ import { Database } from '@/types/database'
 const supabaseUrl = import.meta.env.VITE_SUPABASE_URL
 const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY
 
-if (!supabaseUrl || !supabaseAnonKey) {
-  throw new Error('Missing Supabase environment variables. Please check your .env file.')
+// Achado real, 2026-08-09: isto lançava (`throw`) na carga do módulo se
+// as env vars estivessem ausentes — e como AuthContext importa este
+// arquivo e envolve o app inteiro (App.tsx), isso derrubava o site
+// PÚBLICO inteiro pra qualquer visitante, não só quem tentasse acessar
+// /admin. A migração pra API própria (Fastify+Drizzle) tirou a
+// dependência de Supabase do catálogo, mas deixou o admin/auth ainda
+// preso — sem decisão tomada ainda sobre reconstruir ou descartar (ver
+// P0 do ROADMAP.md). Até essa decisão, o app não pode travar por causa
+// disso: exporta um client desabilitado em vez de lançar erro.
+export const isSupabaseConfigured = Boolean(supabaseUrl && supabaseAnonKey)
+
+if (!isSupabaseConfigured) {
+  console.warn(
+    '[scriptorium] Supabase não configurado — funcionalidades de admin/login ' +
+    'desabilitadas. O catálogo público não depende disso.'
+  )
 }
 
-export const supabase = createClient<Database>(supabaseUrl, supabaseAnonKey, {
-  auth: {
-    persistSession: true,
-    autoRefreshToken: true,
-  },
-  db: {
-    schema: 'public'
-  },
-  global: {
-    headers: {
-      'X-Client-Info': 'scriptorium-divinum@1.0.0'
-    }
-  }
-})
+export const supabase = isSupabaseConfigured
+  ? createClient<Database>(supabaseUrl, supabaseAnonKey, {
+      auth: {
+        persistSession: true,
+        autoRefreshToken: true,
+      },
+      db: {
+        schema: 'public'
+      },
+      global: {
+        headers: {
+          'X-Client-Info': 'scriptorium-divinum@1.0.0'
+        }
+      }
+    })
+  : null
 
 // Helper function to handle Supabase errors
 export const handleSupabaseError = (error: unknown) => {
