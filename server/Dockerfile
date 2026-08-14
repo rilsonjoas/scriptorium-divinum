@@ -22,6 +22,9 @@ FROM node:22-alpine AS runtime
 RUN addgroup -S app && adduser -S app -G app
 WORKDIR /app
 COPY --from=pruned --chown=app:app /prod/server ./
+# Migrations + SQL customizado para rodar via `docker exec scriptorium-api node dist/db/migrate.js`
+COPY --from=build --chown=app:app /repo/server/src/db/migrations ./dist/db/migrations
+COPY --from=build --chown=app:app /repo/server/src/db/custom-sql ./dist/db/custom-sql
 USER app
 ENV NODE_ENV=production
 EXPOSE 3001

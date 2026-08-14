@@ -2,6 +2,7 @@ import type { FastifyInstance, FastifyError } from 'fastify';
 import { ZodError } from 'zod';
 import { isProduction } from '../config.js';
 import { captureException } from '../lib/sentry.js';
+import { UnauthorizedError } from './auth.js';
 
 export class NotFoundError extends Error {
   constructor(resource: string) {
@@ -17,6 +18,13 @@ export function registerErrorHandler(app: FastifyInstance) {
         error: 'validation_error',
         message: 'Parâmetros de entrada inválidos',
         details: { issues: error.issues },
+      });
+    }
+
+    if (error instanceof UnauthorizedError) {
+      return reply.status(401).send({
+        error: 'unauthorized',
+        message: error.message,
       });
     }
 

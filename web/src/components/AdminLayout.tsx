@@ -49,7 +49,7 @@ interface AdminLayoutProps {
 
 export function AdminLayout({ children }: AdminLayoutProps) {
   const [sidebarOpen, setSidebarOpen] = useState(false);
-  const { user, signOut } = useAuth();
+  const { admin, signOut } = useAuth();
   const location = useLocation();
   const navigate = useNavigate();
 
@@ -107,12 +107,12 @@ export function AdminLayout({ children }: AdminLayoutProps) {
         <div className="flex items-center space-x-3 mb-4">
           <div className="w-8 h-8 bg-library-bronze rounded-full flex items-center justify-center">
             <span className="text-sm font-medium text-library-parchment">
-              {user?.email?.charAt(0).toUpperCase()}
+              {admin?.email?.charAt(0).toUpperCase()}
             </span>
           </div>
           <div className="flex-1 min-w-0">
             <p className="text-sm font-medium text-library-wood truncate font-body">
-              {user?.email}
+              {admin?.email}
             </p>
             <p className="text-xs text-library-bronze font-body">
               Administrador

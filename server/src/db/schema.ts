@@ -99,6 +99,54 @@ export const tableOfContents = pgTable(
   ],
 );
 
+export const categories = pgTable(
+  'categories',
+  {
+    id: uuid('id').defaultRandom().primaryKey(),
+    name: varchar('name', { length: 100 }).notNull().unique(),
+    slug: varchar('slug', { length: 120 }).notNull().unique(),
+    description: text('description'),
+    createdAt: timestamp('created_at', { withTimezone: true }).defaultNow().notNull(),
+    updatedAt: timestamp('updated_at', { withTimezone: true }).defaultNow().notNull(),
+  },
+  (table) => [
+    index('idx_categories_name').on(table.name),
+  ],
+);
+
+export const admins = pgTable(
+  'admins',
+  {
+    id: uuid('id').defaultRandom().primaryKey(),
+    email: varchar('email', { length: 255 }).notNull().unique(),
+    passwordHash: varchar('password_hash', { length: 255 }).notNull(),
+    name: varchar('name', { length: 255 }),
+    createdAt: timestamp('created_at', { withTimezone: true }).defaultNow().notNull(),
+    updatedAt: timestamp('updated_at', { withTimezone: true }).defaultNow().notNull(),
+  },
+  (table) => [
+    index('idx_admins_email').on(table.email),
+  ],
+);
+
+export const sessions = pgTable(
+  'sessions',
+  {
+    id: uuid('id').defaultRandom().primaryKey(),
+    adminId: uuid('admin_id')
+      .notNull()
+      .references(() => admins.id, { onDelete: 'cascade' }),
+    tokenHash: varchar('token_hash', { length: 128 }).notNull().unique(),
+    expiresAt: timestamp('expires_at', { withTimezone: true }).notNull(),
+    createdAt: timestamp('created_at', { withTimezone: true }).defaultNow().notNull(),
+    lastUsedAt: timestamp('last_used_at', { withTimezone: true }).defaultNow().notNull(),
+  },
+  (table) => [
+    index('idx_sessions_admin_id').on(table.adminId),
+    index('idx_sessions_expires_at').on(table.expiresAt),
+  ],
+);
+
 export const authorsRelations = relations(authors, ({ many }) => ({
   books: many(books),
 }));
@@ -123,5 +171,16 @@ export const tableOfContentsRelations = relations(tableOfContents, ({ one }) => 
   book: one(books, {
     fields: [tableOfContents.bookId],
     references: [books.id],
+  }),
+}));
+
+export const adminsRelations = relations(admins, ({ many }) => ({
+  sessions: many(sessions),
+}));
+
+export const sessionsRelations = relations(sessions, ({ one }) => ({
+  admin: one(admins, {
+    fields: [sessions.adminId],
+    references: [admins.id],
   }),
 }));

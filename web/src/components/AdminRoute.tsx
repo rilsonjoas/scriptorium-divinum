@@ -7,27 +7,23 @@ interface AdminRouteProps {
 }
 
 export function AdminRoute({ children }: AdminRouteProps) {
-  const { user, loading, isAdmin, isCheckingAdmin } = useAuth();
+  const { admin, loading } = useAuth();
 
-  if (loading || isCheckingAdmin) {
+  if (loading) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-library-parchment">
         <div className="flex items-center space-x-3">
           <Loader2 className="h-8 w-8 animate-spin text-library-gold" />
           <span className="text-library-bronze font-body text-lg">
-            {loading ? 'Carregando...' : 'Verificando permissões...'}
+            Carregando...
           </span>
         </div>
       </div>
     );
   }
 
-  if (!user) {
+  if (!admin) {
     return <Navigate to="/admin/login" replace />;
-  }
-
-  if (!isAdmin) {
-    return <Navigate to="/" replace />;
   }
 
   return <>{children}</>;

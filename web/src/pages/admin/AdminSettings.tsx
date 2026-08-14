@@ -26,7 +26,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Separator } from '@/components/ui/separator';
 
 export default function AdminSettings() {
-  const { user } = useAuth();
+  const { admin } = useAuth();
   const [isSaving, setIsSaving] = useState(false);
   const [savedMessage, setSavedMessage] = useState('');
 
@@ -398,7 +398,7 @@ export default function AdminSettings() {
                 <Alert className="border-library-bronze bg-library-gold/10">
                   <Info className="h-4 w-4 text-library-wood" />
                   <AlertDescription className="text-library-wood font-body">
-                    <strong>Usuário Admin Atual:</strong> {user?.email}
+                    <strong>Usuário Admin Atual:</strong> {admin?.email}
                   </AlertDescription>
                 </Alert>
 

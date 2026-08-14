@@ -17,6 +17,7 @@ export async function apiClient<T>(endpoint: string, options?: RequestInit): Pro
 
   const res = await fetch(url, {
     ...options,
+    credentials: 'include',
     headers: {
       'Content-Type': 'application/json',
       ...options?.headers,
@@ -37,6 +38,10 @@ export async function apiClient<T>(endpoint: string, options?: RequestInit): Pro
       errorData.message || `Erro ${res.status} ao conectar à API`,
       errorData.details,
     );
+  }
+
+  if (res.status === 204) {
+    return undefined as T;
   }
 
   return res.json() as Promise<T>;

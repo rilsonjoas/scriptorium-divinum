@@ -4,6 +4,9 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { useBooks, useAuthors } from '@/hooks/useDatabase';
+import { adminService } from '@/services/admin';
+import { useQueryClient } from '@tanstack/react-query';
+import { toast } from 'sonner';
 import { BookOpen, Plus, Search, Edit, Trash2, Eye, Download, Filter } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { EditBookDialog } from '@/components/admin/EditBookDialog';
@@ -33,9 +36,15 @@ export default function AdminBooks() {
   const [deletingBook, setDeletingBook] = useState<Book | null>(null);
   const [isDeleteDialogOpen, setIsDeleteDialogOpen] = useState(false);
   const [isDeleting, setIsDeleting] = useState(false);
-  
+
+  const queryClient = useQueryClient();
   const { data: books, isLoading, error } = useBooks();
   const { data: authors } = useAuthors();
+
+  const invalidateCatalog = async () => {
+    await queryClient.invalidateQueries({ queryKey: ['books'] });
+    await queryClient.invalidateQueries({ queryKey: ['categories'] });
+  };
 
   const filteredBooks = books?.items?.filter(book =>
     book.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -51,18 +60,19 @@ export default function AdminBooks() {
   };
 
   const handleSaveBook = async (bookData: Partial<Book>) => {
-    // TODO: Implement actual save functionality with Supabase
-    console.log('Saving book:', bookData);
-    // For now, just close the dialog
+    if (!editingBook) return;
+    await adminService.updateBook(editingBook.id, bookData);
+    await invalidateCatalog();
     setIsEditDialogOpen(false);
     setEditingBook(null);
+    toast.success('Livro atualizado com sucesso');
   };
 
   const handleAddBook = async (bookData: Partial<Book>) => {
-    // TODO: Implement actual add functionality with Supabase
-    console.log('Adding book:', bookData);
-    // For now, just close the dialog
+    await adminService.createBook(bookData);
+    await invalidateCatalog();
     setIsAddDialogOpen(false);
+    toast.success('Livro adicionado com sucesso');
   };
 
   const handleDelete = (bookId: string) => {
@@ -78,13 +88,14 @@ export default function AdminBooks() {
     
     setIsDeleting(true);
     try {
-      // TODO: Implement actual delete functionality with Supabase
-      console.log('Deleting book:', deletingBook.id);
-      // await deleteBook(deletingBook.id);
+      await adminService.deleteBook(deletingBook.id);
+      await invalidateCatalog();
       setIsDeleteDialogOpen(false);
       setDeletingBook(null);
+      toast.success('Livro excluído com sucesso');
     } catch (error) {
       console.error('Error deleting book:', error);
+      toast.error(error instanceof Error ? error.message : 'Erro ao excluir livro');
     } finally {
       setIsDeleting(false);
     }

@@ -19,12 +19,10 @@ import Sobre from "./pages/Sobre";
 import NotFound from "./pages/NotFound";
 import AdminLogin from "./pages/admin/AdminLogin";
 import AdminDashboard from "./pages/admin/AdminDashboard";
-import AdminDebug from "./pages/admin/AdminDebug";
 import AdminBooks from "./pages/admin/AdminBooks";
 import AdminAuthors from "./pages/admin/AdminAuthors";
 import AdminCategories from "./pages/admin/AdminCategories";
 import AdminSettings from "./pages/admin/AdminSettings";
-import AdminTest from "./pages/admin/AdminTest";
 
 const queryClient = new QueryClient();
 
@@ -51,7 +49,6 @@ const App = () => (
             
             {/* Admin Routes */}
             <Route path="/admin/login" element={<AdminLogin />} />
-            <Route path="/admin/debug" element={<AdminDebug />} />
             <Route path="/admin/dashboard" element={
               <AdminRoute>
                 <AdminDashboard />
@@ -77,12 +74,7 @@ const App = () => (
                 <AdminSettings />
               </AdminRoute>
             } />
-            <Route path="/admin/test" element={
-              <AdminRoute>
-                <AdminTest />
-              </AdminRoute>
-            } />
-            
+
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>

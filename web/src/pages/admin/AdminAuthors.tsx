@@ -4,6 +4,9 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { useAuthors } from '@/hooks/useDatabase';
+import { adminService } from '@/services/admin';
+import { useQueryClient } from '@tanstack/react-query';
+import { toast } from 'sonner';
 import { Users, Plus, Search, Edit, Trash2, BookOpen, Calendar, Globe } from 'lucide-react';
 import { EditAuthorDialog } from '@/components/admin/EditAuthorDialog';
 import { AddAuthorDialog } from '@/components/admin/AddAuthorDialog';
@@ -33,8 +36,14 @@ export default function AdminAuthors() {
   const [deletingAuthor, setDeletingAuthor] = useState<Author | null>(null);
   const [isDeleteDialogOpen, setIsDeleteDialogOpen] = useState(false);
   const [isDeleting, setIsDeleting] = useState(false);
-  
+
+  const queryClient = useQueryClient();
   const { data: authors, isLoading, error } = useAuthors();
+
+  const invalidateAuthors = async () => {
+    await queryClient.invalidateQueries({ queryKey: ['authors'] });
+    await queryClient.invalidateQueries({ queryKey: ['books'] });
+  };
 
   const filteredAuthors = authors?.filter(author =>
     author.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -51,18 +60,19 @@ export default function AdminAuthors() {
   };
 
   const handleSaveAuthor = async (authorData: Partial<Author>) => {
-    // TODO: Implement actual save functionality with Supabase
-    console.log('Saving author:', authorData);
-    // For now, just close the dialog
+    if (!editingAuthor) return;
+    await adminService.updateAuthor(editingAuthor.id, authorData);
+    await invalidateAuthors();
     setIsEditDialogOpen(false);
     setEditingAuthor(null);
+    toast.success('Autor atualizado com sucesso');
   };
 
   const handleAddAuthor = async (authorData: Partial<Author>) => {
-    // TODO: Implement actual add functionality with Supabase
-    console.log('Adding author:', authorData);
-    // For now, just close the dialog
+    await adminService.createAuthor(authorData);
+    await invalidateAuthors();
     setIsAddDialogOpen(false);
+    toast.success('Autor adicionado com sucesso');
   };
 
   const handleDelete = (authorId: string) => {
@@ -78,13 +88,14 @@ export default function AdminAuthors() {
     
     setIsDeleting(true);
     try {
-      // TODO: Implement actual delete functionality with Supabase
-      console.log('Deleting author:', deletingAuthor.id);
-      // await deleteAuthor(deletingAuthor.id);
+      await adminService.deleteAuthor(deletingAuthor.id);
+      await invalidateAuthors();
       setIsDeleteDialogOpen(false);
       setDeletingAuthor(null);
+      toast.success('Autor excluído com sucesso');
     } catch (error) {
       console.error('Error deleting author:', error);
+      toast.error(error instanceof Error ? error.message : 'Erro ao excluir autor');
     } finally {
       setIsDeleting(false);
     }

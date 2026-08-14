@@ -15,9 +15,11 @@
     "test:integration:setup": "docker compose -f docker-compose.test.yml up -d",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "tsx src/db/migrate.ts",
-    "db:seed": "tsx scripts/seed-data.ts"
+    "db:seed": "tsx scripts/seed-data.ts",
+    "db:create-admin": "tsx src/scripts/create-admin.ts"
   },
   "dependencies": {
+    "@fastify/cookie": "^11.1.2",
     "@fastify/cors": "^10.0.1",
     "@fastify/helmet": "^12.0.1",
     "@fastify/rate-limit": "^10.1.1",

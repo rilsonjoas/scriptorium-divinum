@@ -157,3 +157,14 @@ aqui, só organizado por prioridade real:
 4. P8 parcial (CRUD admin — é o que faz o projeto passar de "catálogo
    estático" pra "produto administrável de verdade")
 5. P4/P5/P7 em paralelo, conforme o tempo permitir
+
+## Nota: ao reconstruir o admin com auth própria (2026-08-14)
+
+Quando a reconstrução do login (item acima, hoje preso no Supabase
+quebrado + bypass "make all logged users admin") sair do papel: mesmo
+sendo login de admin único, não de usuário final, vale considerar a
+mesma decisão registrada no `meus-remedios` (único projeto pessoal com
+OAuth de usuário real hoje) se algum dia isto abrir pra mais de um
+admin ou usuário externo — Google OAuth como atalho, nunca substituto
+de e-mail/senha. Ver `meus-remedios/README.md`, seção "Decisão: Google
+OAuth + conta local".

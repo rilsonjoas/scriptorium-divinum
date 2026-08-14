@@ -264,17 +264,23 @@ export async function searchBooks(q: string, limit = 20) {
 }
 
 export async function listCategories() {
-  const rows = await db.execute<{ category: string; count: number }>(
-    sql`SELECT unnest(categories) as category, count(*)::int as count
-        FROM books
-        WHERE categories IS NOT NULL
-        GROUP BY category
-        ORDER BY count DESC, category ASC`,
+  const rows = await db.execute<{
+    category: string;
+    count: number;
+    slug: string | null;
+    description: string | null;
+  }>(
+    sql`SELECT sub.category, count(*)::int as count, c.slug as slug, c.description as description
+        FROM (SELECT unnest(categories) as category FROM books WHERE categories IS NOT NULL) sub
+        LEFT JOIN categories c ON c.name = sub.category
+        GROUP BY sub.category, c.slug, c.description
+        ORDER BY count DESC, sub.category ASC`,
   );
 
   return rows.map((r) => ({
     name: r.category,
-    slug: r.category.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, ''),
+    slug: r.slug || r.category.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, ''),
+    description: r.description ?? undefined,
     bookCount: r.count,
   }));
 }

@@ -4,6 +4,9 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { useCategories, useBooks } from '@/hooks/useDatabase';
+import { adminService } from '@/services/admin';
+import { useQueryClient } from '@tanstack/react-query';
+import { toast } from 'sonner';
 import { FolderOpen, Plus, Search, Edit, Trash2, BookOpen, Tag, TrendingUp } from 'lucide-react';
 import { EditCategoryDialog } from '@/components/admin/EditCategoryDialog';
 import { AddCategoryDialog } from '@/components/admin/AddCategoryDialog';
@@ -34,9 +37,15 @@ export default function AdminCategories() {
   const [deletingCategory, setDeletingCategory] = useState<Category | null>(null);
   const [isDeleteDialogOpen, setIsDeleteDialogOpen] = useState(false);
   const [isDeleting, setIsDeleting] = useState(false);
-  
+
+  const queryClient = useQueryClient();
   const { data: categories, isLoading: categoriesLoading, error: categoriesError } = useCategories();
   const { data: books, isLoading: booksLoading } = useBooks();
+
+  const invalidateCategories = async () => {
+    await queryClient.invalidateQueries({ queryKey: ['categories'] });
+    await queryClient.invalidateQueries({ queryKey: ['books'] });
+  };
 
   const filteredCategories = categories?.filter(category =>
     category.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -48,8 +57,8 @@ export default function AdminCategories() {
     (category.bookCount || 0) > (max?.bookCount || 0) ? category : max, categories?.[0] || null
   );
 
-  const handleEdit = (categoryId: string) => {
-    const category = categories?.find(c => c.id === categoryId);
+  const handleEdit = (categoryName: string) => {
+    const category = categories?.find(c => c.name === categoryName);
     if (category) {
       setEditingCategory(category);
       setIsEditDialogOpen(true);
@@ -57,22 +66,31 @@ export default function AdminCategories() {
   };
 
   const handleSaveCategory = async (categoryData: Partial<Category>) => {
-    // TODO: Implement actual save functionality with Supabase
-    console.log('Saving category:', categoryData);
-    // For now, just close the dialog
+    if (!editingCategory) return;
+    await adminService.renameCategory({
+      oldName: editingCategory.name,
+      newName: categoryData.name || editingCategory.name,
+      description: categoryData.description || undefined,
+    });
+    await invalidateCategories();
     setIsEditDialogOpen(false);
     setEditingCategory(null);
+    toast.success('Categoria atualizada com sucesso');
   };
 
   const handleAddCategory = async (categoryData: Partial<Category>) => {
-    // TODO: Implement actual add functionality with Supabase
-    console.log('Adding category:', categoryData);
-    // For now, just close the dialog
+    await adminService.createCategory({
+      name: categoryData.name || '',
+      slug: categoryData.slug || undefined,
+      description: categoryData.description || undefined,
+    });
+    await invalidateCategories();
     setIsAddDialogOpen(false);
+    toast.success('Categoria adicionada com sucesso');
   };
 
-  const handleDelete = (categoryId: string) => {
-    const category = categories?.find(c => c.id === categoryId);
+  const handleDelete = (categoryName: string) => {
+    const category = categories?.find(c => c.name === categoryName);
     if (category) {
       setDeletingCategory(category);
       setIsDeleteDialogOpen(true);
@@ -84,13 +102,14 @@ export default function AdminCategories() {
     
     setIsDeleting(true);
     try {
-      // TODO: Implement actual delete functionality with Supabase
-      console.log('Deleting category:', deletingCategory.id);
-      // await deleteCategory(deletingCategory.id);
+      await adminService.deleteCategory(deletingCategory.name);
+      await invalidateCategories();
       setIsDeleteDialogOpen(false);
       setDeletingCategory(null);
+      toast.success('Categoria excluída com sucesso');
     } catch (error) {
       console.error('Error deleting category:', error);
+      toast.error(error instanceof Error ? error.message : 'Erro ao excluir categoria');
     } finally {
       setIsDeleting(false);
     }
@@ -261,7 +280,7 @@ export default function AdminCategories() {
                       const popularityPercentage = totalBooks > 0 ? ((category.bookCount || 0) / totalBooks) * 100 : 0;
                       
                       return (
-                        <TableRow key={category.id}>
+                        <TableRow key={category.name}>
                           <TableCell className="font-medium font-body text-library-wood">
                             <div className="flex items-center space-x-3">
                               <div className="w-10 h-10 bg-library-gold/20 rounded-full flex items-center justify-center">
@@ -324,12 +343,12 @@ export default function AdminCategories() {
                                     Ver Livros
                                   </DropdownMenuItem>
                                 )}
-                                <DropdownMenuItem onClick={() => handleEdit(category.id)} className="font-body">
+                                <DropdownMenuItem onClick={() => handleEdit(category.name)} className="font-body">
                                   <Edit className="mr-2 h-4 w-4" />
                                   Editar
                                 </DropdownMenuItem>
                                 <DropdownMenuItem 
-                                  onClick={() => handleDelete(category.id)} 
+                                  onClick={() => handleDelete(category.name)} 
                                   className="text-red-600 font-body"
                                 >
                                   <Trash2 className="mr-2 h-4 w-4" />

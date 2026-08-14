@@ -8,7 +8,7 @@ export interface DownloadLink {
   file_size?: number;
 }
 
-// Database types (snake_case as stored in Supabase)
+// Database types (snake_case as stored in the API database)
 export interface AuthorDB {
   id: string;
   slug: string;
