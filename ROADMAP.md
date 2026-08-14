@@ -50,6 +50,32 @@ real primeiro, polimento depois.
 - [x] RLS das tabelas do Supabase — virou código morto: nada mais usa
       Supabase, projeto está sendo retirado de produção
 
+### Auditoria de dependências (2026-08-14)
+
+Estado: **runtime do servidor com zero advisories** (fastify, postgres,
+drizzle). O `pnpm audit` completo lista ~40 vulnerabilidades, mas quase
+todas em **ferramentas de build/dev** (vite, rollup, postcss, eslint) que
+não rodam em produção — risco de supply-chain em máquina de dev/CI, não no
+site no ar.
+
+Em **produção** restam 7 advisories aceitos (todos não exploráveis no uso
+real do projeto, cobertos pela allowlist do CI):
+
+- `lodash` (via `recharts`, 1 high `_.template` + 2 prototype pollution):
+  sem patch real (lodash 4.x EOL) e recharts só usa utilitários — não há
+  template string controlada por usuário
+- `react-router` v6 (3 moderate: open redirect via backslash + open
+  redirect→XSS + constructor injection em SSR hydration): **sem patch no
+  v6** (só v7.18+); o de SSR não se aplica (SPA sem SSR) e os de open
+  redirect têm baixa exposição (links vêm de slugs sanitizados `[a-z0-9-]`)
+- `yaml` (moderate): stack overflow em YAML profundamente aninhado —
+  parsing de YAML não confiável, não usado no runtime
+
+Já corrigido em 2026-08-14: XSS/open redirect do `@remix-run/router`
+(bump `react-router-dom` 6.30.1 → 6.30.4). Upgrade para react-router v7 /
+vite 6 foi avaliado e **adiado** — retorno só justificado com o projeto de
+volta à mesa (seção "Ordem recomendada").
+
 ## P1 — Infra & Deploy
 
 - [x] **No ar e confirmado saudável (2026-08-09)**: `scriptorium-web` e
@@ -68,9 +94,12 @@ real primeiro, polimento depois.
 
 - [x] **Criado (2026-08-14)** — `.github/workflows/ci.yml` no padrão do
       biblia-na-arte: lint + typecheck + testes unitários/integração
-      (Postgres service) + build web/server + `pnpm audit` a cada
-      push/PR
-- [x] `pnpm audit --audit-level=high` no CI (mesmo workflow acima)
+      (Postgres service) + build web/server + auditoria de dependências a
+      cada push/PR
+- [x] **Auditoria escopada a produção (2026-08-14)** —
+      `node scripts/audit-allowlist.mjs`: roda `pnpm audit --prod` e falha
+      só em advisory **novo** high/critical, ignorando 7 GHSA conhecidos e
+      aceitos (ver P0 — Segurança)
 
 ## P4 — Testes
 

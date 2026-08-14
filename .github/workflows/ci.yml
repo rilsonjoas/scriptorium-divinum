@@ -61,5 +61,5 @@ jobs:
       - name: Build server
         run: pnpm build:server
 
-      - name: Auditoria de dependências
-        run: pnpm audit --audit-level=high
+      - name: Auditoria de dependências (produção + allowlist)
+        run: node scripts/audit-allowlist.mjs

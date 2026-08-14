@@ -32,7 +32,7 @@ export default function Busca() {
       setQuery(queryFromUrl);
       setHasSearched(true);
     }
-  }, [searchParams]);
+  }, [searchParams, query]);
 
   const handleSearch = (e?: React.FormEvent) => {
     e?.preventDefault();

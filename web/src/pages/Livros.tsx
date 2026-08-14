@@ -20,7 +20,7 @@ const Livros = () => {
     if (searchFromUrl && searchFromUrl !== searchTerm) {
       setSearchTerm(searchFromUrl);
     }
-  }, [searchParams]);
+  }, [searchParams, searchTerm]);
 
   const { data: settings } = useSiteSettings();
   const { data: books, isLoading: booksLoading, error: booksError } = useBooks({
