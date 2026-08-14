@@ -5,13 +5,15 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Link, useNavigate } from 'react-router-dom';
 import { useState, useRef, useEffect } from 'react';
-import { useSearch } from '@/hooks/useDatabase';
+import { useSearch, useSiteSettings } from '@/hooks/useDatabase';
 
 export function Header() {
   const [searchQuery, setSearchQuery] = useState('');
   const [showResults, setShowResults] = useState(false);
   const searchRef = useRef<HTMLDivElement>(null);
   const navigate = useNavigate();
+
+  const { data: settings } = useSiteSettings();
 
   const { data: searchResults, isLoading: searchLoading, error: searchError } = useSearch(
     searchQuery, 
@@ -55,7 +57,7 @@ export function Header() {
             </div>
             <div>
               <h1 className="font-display text-2xl font-semibold golden-foil">
-                Scriptorium Divinum
+                {settings?.siteName ?? 'Scriptorium Divinum'}
               </h1>
               <p className="text-sm text-library-gold font-body opacity-90">
                 Biblioteca Teológica Clássica

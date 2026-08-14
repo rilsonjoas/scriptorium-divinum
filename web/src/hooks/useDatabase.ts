@@ -1,6 +1,6 @@
 import { useQuery } from '@tanstack/react-query'
-import { authorsService, booksService, categoriesService, searchService } from '@/services/database'
-import { Author, Book } from '@/types'
+import { authorsService, booksService, categoriesService, searchService, settingsService } from '@/services/database'
+import { Author, Book, SiteSettings } from '@/types'
 
 // Authors hooks
 export const useAuthors = () => {
@@ -82,6 +82,15 @@ export const useCategoriesWithCounts = () => {
     queryKey: ['categories', 'with-counts'],
     queryFn: () => categoriesService.getWithCounts(),
     staleTime: 10 * 60 * 1000,
+  })
+}
+
+// Site settings hook
+export const useSiteSettings = () => {
+  return useQuery({
+    queryKey: ['settings'],
+    queryFn: () => settingsService.get(),
+    staleTime: 5 * 60 * 1000,
   })
 }
 

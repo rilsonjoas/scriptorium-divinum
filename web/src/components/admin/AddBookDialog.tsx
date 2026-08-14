@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Author } from '@/types';
+import { Author, DownloadLink } from '@/types';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
@@ -22,6 +22,7 @@ import {
 import { Switch } from '@/components/ui/switch';
 import { Badge } from '@/components/ui/badge';
 import { X } from 'lucide-react';
+import { DownloadLinksEditor } from '@/components/admin/DownloadLinksEditor';
 
 interface AddBookDialogProps {
   open: boolean;
@@ -39,6 +40,7 @@ interface AddBookDialogProps {
     onlineReadPath?: string;
     coverImageUrl?: string;
     categories: string[];
+    downloadLinks?: DownloadLink[];
   }) => Promise<void>;
   authors: Author[];
 }
@@ -60,6 +62,7 @@ export function AddBookDialog({ open, onClose, onSave, authors }: AddBookDialogP
   
   const [categories, setCategories] = useState<string[]>([]);
   const [newCategory, setNewCategory] = useState('');
+  const [downloadLinks, setDownloadLinks] = useState<DownloadLink[]>([]);
   const [isSaving, setIsSaving] = useState(false);
 
   const resetForm = () => {
@@ -78,6 +81,7 @@ export function AddBookDialog({ open, onClose, onSave, authors }: AddBookDialogP
     });
     setCategories([]);
     setNewCategory('');
+    setDownloadLinks([]);
   };
 
   const handleSave = async () => {
@@ -87,6 +91,7 @@ export function AddBookDialog({ open, onClose, onSave, authors }: AddBookDialogP
         ...formData,
         categories,
         publicationYearTranslation: formData.publicationYearTranslation || undefined,
+        downloadLinks: downloadLinks.filter((link) => link.url.trim() !== ''),
       });
       resetForm();
       onClose();
@@ -331,6 +336,9 @@ export function AddBookDialog({ open, onClose, onSave, authors }: AddBookDialogP
               />
             </div>
           </div>
+
+          {/* Download links */}
+          <DownloadLinksEditor value={downloadLinks} onChange={setDownloadLinks} />
 
           {/* Featured */}
           <div className="flex items-center space-x-2">

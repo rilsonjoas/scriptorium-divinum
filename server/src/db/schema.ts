@@ -114,6 +114,27 @@ export const categories = pgTable(
   ],
 );
 
+export const siteSettings = pgTable(
+  'site_settings',
+  {
+    id: uuid('id').primaryKey(),
+    siteName: varchar('site_name', { length: 255 }).notNull().default('Scriptorium Divinum'),
+    siteDescription: text('site_description')
+      .notNull()
+      .default('Explore o vasto tesouro da teologia cristã em domínio público'),
+    contactEmail: varchar('contact_email', { length: 255 })
+      .notNull()
+      .default('contato@scriptorium-divinum.com'),
+    featuredBooksCount: integer('featured_books_count').notNull().default(3),
+    booksPerPage: integer('books_per_page').notNull().default(20),
+    maintenanceMode: boolean('maintenance_mode').notNull().default(false),
+    updatedAt: timestamp('updated_at', { withTimezone: true }).defaultNow().notNull(),
+  },
+  (table) => [
+    index('idx_site_settings_id').on(table.id),
+  ],
+);
+
 export const admins = pgTable(
   'admins',
   {

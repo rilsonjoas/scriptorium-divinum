@@ -2,10 +2,12 @@ import { BookCard } from './BookCard';
 import { Button } from '@/components/ui/button';
 import { BookOpen, ChevronRight, Loader2 } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { useFeaturedBooks } from '@/hooks/useDatabase';
+import { useFeaturedBooks, useSiteSettings } from '@/hooks/useDatabase';
 
 export function FeaturedSection() {
-  const { data: featuredBooks, isLoading, error } = useFeaturedBooks(3);
+  const { data: settings } = useSiteSettings();
+  const featuredCount = settings?.featuredBooksCount ?? 3;
+  const { data: featuredBooks, isLoading, error } = useFeaturedBooks(featuredCount);
 
   return (
     <section className="py-16 bg-gradient-to-br from-library-parchment to-background">

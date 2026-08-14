@@ -5,7 +5,7 @@ import { Input } from '@/components/ui/input';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Search, Filter, Grid, List, Loader2 } from 'lucide-react';
 import { useState, useMemo, useEffect } from 'react';
-import { useBooks, useCategories } from '@/hooks/useDatabase';
+import { useBooks, useCategories, useSiteSettings } from '@/hooks/useDatabase';
 import { useSearchParams } from 'react-router-dom';
 
 const Livros = () => {
@@ -22,7 +22,10 @@ const Livros = () => {
     }
   }, [searchParams]);
 
-  const { data: books, isLoading: booksLoading, error: booksError } = useBooks();
+  const { data: settings } = useSiteSettings();
+  const { data: books, isLoading: booksLoading, error: booksError } = useBooks({
+    limit: settings?.booksPerPage,
+  });
   const { data: categories, isLoading: categoriesLoading } = useCategories();
 
   // Filter books based on search and category

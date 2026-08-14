@@ -13,8 +13,11 @@ import { authorRoutes } from './routes/authors.js';
 import { bookRoutes } from './routes/books.js';
 import { categoryRoutes } from './routes/categories.js';
 import { searchRoutes } from './routes/search.js';
+import { settingsRoutes } from './routes/settings.js';
+import { sitemapRoutes } from './routes/sitemap.js';
 import { authRoutes } from './routes/auth.js';
 import { adminRoutes } from './routes/admin.js';
+import { getSettings } from './db/settings-queries.js';
 
 export async function buildApp() {
   initSentry();
@@ -66,6 +69,7 @@ export async function buildApp() {
         { name: 'autores', description: 'Autores e teólogos' },
         { name: 'categorias', description: 'Categorias e tradições' },
         { name: 'busca', description: 'Busca full-text' },
+        { name: 'configuracoes', description: 'Configurações do site' },
         { name: 'auth', description: 'Autenticação do administrador' },
         { name: 'admin', description: 'CRUD administrativo do catálogo' },
       ],
@@ -81,12 +85,34 @@ export async function buildApp() {
   // Guard de autenticação (requerido pelas rotas /api/v1/admin/*)
   registerAuthPlugin(app);
 
+  // Modo manutenção — bloqueia o acesso público (admin, health e settings ficam livres)
+  app.addHook('preHandler', async (request, reply) => {
+    const url = request.url;
+    if (
+      url.startsWith('/api/v1/admin') ||
+      url.startsWith('/api/v1/settings') ||
+      url.startsWith('/health') ||
+      url === '/docs/json'
+    ) {
+      return;
+    }
+    const settings = await getSettings();
+    if (settings.maintenanceMode) {
+      return reply.code(503).send({
+        error: 'maintenance_mode',
+        message: 'O site está em manutenção. Tente novamente em breve.',
+      });
+    }
+  });
+
   // Routes
   await app.register(healthRoutes);
   await app.register(authorRoutes);
   await app.register(bookRoutes);
   await app.register(categoryRoutes);
   await app.register(searchRoutes);
+  await app.register(settingsRoutes);
+  await app.register(sitemapRoutes);
   await app.register(authRoutes);
   await app.register(adminRoutes);
 

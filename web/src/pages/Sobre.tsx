@@ -1,13 +1,18 @@
 import { Layout } from '@/components/Layout';
+import { useSiteSettings } from '@/hooks/useDatabase';
 
 const Sobre = () => {
+  const { data: settings } = useSiteSettings();
+  const siteName = settings?.siteName ?? 'Scriptorium Divinum';
+  const contactEmail = settings?.contactEmail ?? 'contato@scriptorium-divinum.com';
+
   return (
     <Layout>
       <div className="container mx-auto px-4 py-8 max-w-4xl">
         {/* Header */}
         <div className="text-center mb-12">
           <h1 className="font-display text-4xl font-bold text-library-wood mb-4">
-            Sobre o Scriptorium Divinum
+            Sobre o {siteName}
           </h1>
           <div className="chapter-divider max-w-md mx-auto mb-6"></div>
           <p className="font-heading text-xl text-library-bronze italic">
@@ -133,10 +138,10 @@ const Sobre = () => {
           </p>
           <div className="flex justify-center space-x-4">
             <a 
-              href="mailto:contato@teologiapublica.com.br"
+              href={`mailto:${contactEmail}`}
               className="font-body text-library-bronze hover:text-library-wood transition-colors"
             >
-              contato@teologiapublica.com.br
+              {contactEmail}
             </a>
           </div>
         </div>

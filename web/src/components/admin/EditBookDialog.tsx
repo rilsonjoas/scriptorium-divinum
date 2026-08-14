@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Book, Author } from '@/types';
+import { Book, Author, DownloadLink } from '@/types';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
@@ -22,6 +22,7 @@ import {
 import { Switch } from '@/components/ui/switch';
 import { Badge } from '@/components/ui/badge';
 import { X } from 'lucide-react';
+import { DownloadLinksEditor } from '@/components/admin/DownloadLinksEditor';
 
 interface EditBookDialogProps {
   book: Book | null;
@@ -35,6 +36,7 @@ export function EditBookDialog({ book, open, onClose, onSave, authors }: EditBoo
   const [formData, setFormData] = useState<Partial<Book>>({});
   const [categories, setCategories] = useState<string[]>([]);
   const [newCategory, setNewCategory] = useState('');
+  const [downloadLinks, setDownloadLinks] = useState<DownloadLink[]>([]);
   const [isSaving, setIsSaving] = useState(false);
 
   useEffect(() => {
@@ -53,18 +55,22 @@ export function EditBookDialog({ book, open, onClose, onSave, authors }: EditBoo
         coverImageUrl: book.coverImageUrl || '',
       });
       setCategories(book.categories || []);
+      setDownloadLinks(book.downloadLinks || []);
     } else {
       setFormData({});
       setCategories([]);
+      setDownloadLinks([]);
     }
   }, [book]);
 
   const handleSave = async () => {
     setIsSaving(true);
     try {
+      const links = downloadLinks.filter((link) => link.url.trim() !== '');
       await onSave({
         ...formData,
         categories,
+        downloadLinks: links,
       });
       onClose();
     } catch (error) {
@@ -285,6 +291,9 @@ export function EditBookDialog({ book, open, onClose, onSave, authors }: EditBoo
               />
             </div>
           </div>
+
+          {/* Download links */}
+          <DownloadLinksEditor value={downloadLinks} onChange={setDownloadLinks} />
 
           {/* Featured */}
           <div className="flex items-center space-x-2">

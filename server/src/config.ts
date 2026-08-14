@@ -9,6 +9,7 @@ const envSchema = z.object({
   HOST: z.string().default('0.0.0.0'),
   DATABASE_URL: z.string().url(),
   CORS_ORIGIN: z.string().default('*'),
+  PUBLIC_ORIGIN: z.string().url().default('https://scriptorium.narniano.com'),
   SENTRY_DSN: z.string().optional(),
   RATE_LIMIT_MAX: z.coerce.number().default(100),
   RATE_LIMIT_WINDOW_MS: z.coerce.number().default(60_000),

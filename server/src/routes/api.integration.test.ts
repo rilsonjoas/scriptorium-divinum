@@ -118,12 +118,34 @@ describe('Scriptorium Divinum API — Testes de Integração', () => {
     );
   });
 
+  it('GET /api/v1/settings devolve as configurações públicas default', async () => {
+    const res = await app.inject({ method: 'GET', url: '/api/v1/settings' });
+    expect(res.statusCode).toBe(200);
+    const body = res.json();
+    expect(body).toMatchObject({
+      siteName: 'Scriptorium Divinum',
+      maintenanceMode: false,
+    });
+    expect(body).toHaveProperty('featuredBooksCount');
+    expect(body).toHaveProperty('booksPerPage');
+  });
+
   it('GET /api/v1/search busca full-text em português', async () => {
     const res = await app.inject({ method: 'GET', url: '/api/v1/search?q=espiritual' });
     expect(res.statusCode).toBe(200);
     const body = res.json();
     expect(body.length).toBeGreaterThan(0);
     expect(body[0].title).toBe('Confissões');
+  });
+
+  it('GET /sitemap.xml devolve o sitemap com páginas estáticas e livros', async () => {
+    const res = await app.inject({ method: 'GET', url: '/sitemap.xml' });
+    expect(res.statusCode).toBe(200);
+    expect(res.headers['content-type']).toContain('application/xml');
+    expect(res.body).toContain('<urlset');
+    expect(res.body).toContain('https://scriptorium.narniano.com/</loc>');
+    expect(res.body).toContain('/livros/confissoes');
+    expect(res.body).toContain('/categorias/');
   });
 
   it('404 para autor ou livro inexistente', async () => {

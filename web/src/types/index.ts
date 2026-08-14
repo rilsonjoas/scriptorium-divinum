@@ -2,10 +2,11 @@ export type BookFormat = 'online' | 'pdf' | 'epub' | 'mobi' | 'txt';
 
 export interface DownloadLink {
   id?: string;
+  bookId?: string;
   format: BookFormat;
   url: string;
   source?: string;
-  file_size?: number;
+  fileSize?: number;
 }
 
 // Database types (snake_case as stored in the API database)
@@ -94,4 +95,13 @@ export interface Book {
   downloadLinks?: DownloadLink[];
   tableOfContents?: { title: string; anchor?: string; level: number }[];
   featured?: boolean;
+}
+
+export interface SiteSettings {
+  siteName: string;
+  siteDescription: string;
+  contactEmail: string;
+  featuredBooksCount: number;
+  booksPerPage: number;
+  maintenanceMode: boolean;
 }

@@ -30,6 +30,16 @@ export const createBookSchema = z.object({
   coverImageUrl: z.string().optional(),
   onlineReadPath: z.string().optional(),
   featured: z.boolean().default(false),
+  downloadLinks: z
+    .array(
+      z.object({
+        format: z.string().min(1).max(20),
+        url: z.string().min(1).max(500),
+        source: z.string().max(255).optional(),
+        fileSize: z.number().int().positive().optional(),
+      }),
+    )
+    .optional(),
 });
 
 export const updateBookSchema = createBookSchema.partial();

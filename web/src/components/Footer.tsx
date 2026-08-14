@@ -1,7 +1,12 @@
 import { Heart, Github, Mail } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { useSiteSettings } from '@/hooks/useDatabase';
 
 export function Footer() {
+  const { data: settings } = useSiteSettings();
+  const siteName = settings?.siteName ?? 'Scriptorium Divinum';
+  const contactEmail = settings?.contactEmail ?? 'contato@scriptorium-divinum.com';
+
   return (
     <footer className="bg-gradient-leather text-primary-foreground mt-20">
       <div className="container mx-auto px-4 py-12">
@@ -11,11 +16,11 @@ export function Footer() {
           {/* About */}
           <div>
             <h3 className="font-heading text-lg font-semibold text-library-gold mb-4">
-              Scriptorium Divinum
+              {siteName}
             </h3>
             <p className="text-sm text-library-gold/80 mb-4 font-body">
-              Preservando e disponibilizando o tesouro da literatura teológica cristã 
-              em domínio público para as gerações presentes e futuras.
+              {settings?.siteDescription ??
+                'Preservando e disponibilizando o tesouro da literatura teológica cristã em domínio público para as gerações presentes e futuras.'}
             </p>
             <div className="flex items-center text-sm font-body">
               <span className="text-library-gold/70">Feito com</span>
@@ -84,11 +89,11 @@ export function Footer() {
             <ul className="space-y-2 text-sm font-body">
               <li>
                 <a 
-                  href="mailto:contato@teologiapublica.com.br" 
+                  href={`mailto:${contactEmail}`} 
                   className="flex items-center space-x-2 text-library-gold/80 hover:text-library-gold transition-colors"
                 >
                   <Mail className="h-3 w-3" />
-                  <span>contato@teologiapublica.com.br</span>
+                  <span>{contactEmail}</span>
                 </a>
               </li>
               <li>
@@ -107,7 +112,7 @@ export function Footer() {
         <div className="ornament"></div>
 
         <div className="text-center text-sm text-library-gold/70 font-body">
-          <p>© 2025 Scriptorium Divinum. Todas as obras estão em domínio público.</p>
+          <p>© 2025 {siteName}. Todas as obras estão em domínio público.</p>
           <p className="mt-1">Preservando a herança teológica cristã para as gerações futuras.</p>
         </div>
       </div>

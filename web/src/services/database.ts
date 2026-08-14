@@ -1,5 +1,5 @@
 import { apiClient } from '@/lib/api-client';
-import type { Author, Book, Category } from '@/types';
+import type { Author, Book, Category, SiteSettings } from '@/types';
 
 export const authorsService = {
   async getAll(params?: { tradition?: string; search?: string }): Promise<Author[]> {
@@ -83,6 +83,12 @@ export const categoriesService = {
 
   async getWithCounts(): Promise<Category[]> {
     return this.getAll();
+  },
+};
+
+export const settingsService = {
+  async get(): Promise<SiteSettings> {
+    return apiClient<SiteSettings>('/api/v1/settings');
   },
 };
 

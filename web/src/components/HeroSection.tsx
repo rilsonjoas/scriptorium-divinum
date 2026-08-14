@@ -1,11 +1,12 @@
 import { Button } from '@/components/ui/button';
 import { BookOpen, Users, Download } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { useBooks, useAuthors } from '@/hooks/useDatabase';
+import { useBooks, useAuthors, useSiteSettings } from '@/hooks/useDatabase';
 
 export function HeroSection() {
   const { data: books } = useBooks();
   const { data: authors } = useAuthors();
+  const { data: settings } = useSiteSettings();
 
   const totalBooks = books?.total ?? books?.items?.length ?? 0;
   const totalAuthors = authors?.length || 0;
@@ -26,7 +27,7 @@ export function HeroSection() {
         <div className="text-center max-w-4xl mx-auto">
           {/* Main heading */}
           <h1 className="font-display text-5xl md:text-6xl font-bold mb-6 golden-foil leading-tight">
-            Scriptorium Divinum
+            {settings?.siteName ?? 'Scriptorium Divinum'}
           </h1>
 
           <p className="font-heading text-xl md:text-2xl text-library-gold mb-4 italic">
@@ -34,10 +35,8 @@ export function HeroSection() {
           </p>
 
           <p className="font-body text-lg text-library-gold/90 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Uma biblioteca digital dedicada a preservar e tornar acessível o
-            vasto tesouro da teologia cristã em domínio público. Explore obras
-            clássicas dos Padres da Igreja, reformadores, e grandes teólogos da
-            história da cristandade.
+            {settings?.siteDescription ??
+              'Uma biblioteca digital dedicada a preservar e tornar acessível o vasto tesouro da teologia cristã em domínio público. Explore obras clássicas dos Padres da Igreja, reformadores, e grandes teólogos da história da cristandade.'}
           </p>
 
           {/* Call to action buttons */}

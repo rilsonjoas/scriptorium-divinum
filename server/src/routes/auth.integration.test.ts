@@ -29,6 +29,10 @@ describe('Auth de admin por cookie de sessão — Testes de Integração', () =>
     await admin.unsafe(readFileSync(FUNCTIONS_SQL, 'utf-8'));
 
     const passwordHash = await hashPassword('senha-admin-teste');
+    await admin.unsafe(`DELETE FROM admins WHERE email = 'admin@teste.com'`);
+    await admin.unsafe(`DELETE FROM authors WHERE slug = 'novo-autor'`);
+    await admin.unsafe(`DELETE FROM categories WHERE name IN ('Categoria Teste', 'Categoria Renomeada')`);
+    await admin.unsafe(`DELETE FROM books WHERE slug = 'novo-livro-de-download'`);
     await admin.unsafe(
       `INSERT INTO admins (email, password_hash, name) VALUES ('admin@teste.com', '${passwordHash}', 'Admin Teste')`,
     );
@@ -102,6 +106,107 @@ describe('Auth de admin por cookie de sessão — Testes de Integração', () =>
     });
     expect(res.statusCode).toBe(201);
     expect(res.json().slug).toBe('novo-autor');
+  });
+
+  it('PUT /api/v1/admin/settings exige autenticação', async () => {
+    const res = await app.inject({
+      method: 'PUT',
+      url: '/api/v1/admin/settings',
+      payload: { siteName: 'Sem Sessão' },
+    });
+    expect(res.statusCode).toBe(401);
+  });
+
+  it('PUT /api/v1/admin/settings atualiza e GET público reflete', async () => {
+    const res = await app.inject({
+      method: 'PUT',
+      url: '/api/v1/admin/settings',
+      headers: { cookie },
+      payload: { siteName: 'Scriptorium Teste', featuredBooksCount: 6 },
+    });
+    expect(res.statusCode).toBe(200);
+    expect(res.json().siteName).toBe('Scriptorium Teste');
+    expect(res.json().featuredBooksCount).toBe(6);
+
+    const pub = await app.inject({ method: 'GET', url: '/api/v1/settings' });
+    expect(pub.statusCode).toBe(200);
+    expect(pub.json().siteName).toBe('Scriptorium Teste');
+
+    const restore = await app.inject({
+      method: 'PUT',
+      url: '/api/v1/admin/settings',
+      headers: { cookie },
+      payload: { siteName: 'Scriptorium Divinum', featuredBooksCount: 3 },
+    });
+    expect(restore.statusCode).toBe(200);
+  });
+
+  it('POST /api/v1/admin/books cria livro com downloadLinks (payload camelCase da web)', async () => {
+    const [author] = await admin.unsafe<{ id: string }[]>(
+      `SELECT id FROM authors WHERE slug = 'novo-autor'`,
+    );
+    expect(author).toBeDefined();
+
+    const res = await app.inject({
+      method: 'POST',
+      url: '/api/v1/admin/books',
+      headers: { cookie },
+      payload: {
+        title: 'Novo Livro de Download',
+        authorId: author!.id,
+        description: 'Descrição do novo livro.',
+        language: 'pt',
+        featured: false,
+        downloadLinks: [
+          { format: 'pdf', url: 'https://exemplo.com/livro.pdf', source: 'Teste', fileSize: 12345 },
+          { format: 'epub', url: 'https://exemplo.com/livro.epub' },
+        ],
+      },
+    });
+    expect(res.statusCode).toBe(201);
+
+    const detail = await app.inject({
+      method: 'GET',
+      url: '/api/v1/books/novo-livro-de-download',
+    });
+    expect(detail.statusCode).toBe(200);
+    expect(detail.json().downloadLinks).toHaveLength(2);
+    expect(detail.json().downloadLinks[0]).toMatchObject({
+      format: 'pdf',
+      url: 'https://exemplo.com/livro.pdf',
+      fileSize: 12345,
+    });
+
+    const del = await app.inject({
+      method: 'DELETE',
+      url: `/api/v1/admin/books/${detail.json().id}`,
+      headers: { cookie },
+    });
+    expect(del.statusCode).toBe(204);
+  });
+
+  it('PATCH renomeia categoria (payload camelCase da web)', async () => {
+    const create = await app.inject({
+      method: 'POST',
+      url: '/api/v1/admin/categories',
+      headers: { cookie },
+      payload: { name: 'Categoria Teste', description: 'Para o teste' },
+    });
+    expect(create.statusCode).toBe(201);
+
+    const rename = await app.inject({
+      method: 'PATCH',
+      url: '/api/v1/admin/categories',
+      headers: { cookie },
+      payload: { oldName: 'Categoria Teste', newName: 'Categoria Renomeada' },
+    });
+    expect(rename.statusCode).toBe(200);
+
+    const [cat] = await admin.unsafe<{ name: string; slug: string }[]>(
+      `SELECT name, slug FROM categories WHERE name = 'Categoria Renomeada'`,
+    );
+    expect(cat).toBeDefined();
+    expect(cat!.slug).toBe('categoria-renomeada');
   });
 
   it('POST /api/v1/admin/logout invalida a sessão', async () => {

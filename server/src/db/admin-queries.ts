@@ -1,12 +1,14 @@
 import { eq, sql } from 'drizzle-orm';
 import { db } from './client.js';
-import { authors, books, categories } from './schema.js';
+import { authors, books, categories, downloadLinks } from './schema.js';
 import type {
   CreateAuthorInput,
   UpdateAuthorInput,
   CreateBookInput,
   UpdateBookInput,
 } from '../schemas/admin.schema.js';
+
+type DownloadLinkInput = NonNullable<CreateBookInput['downloadLinks']>[number];
 
 export function slugify(value: string): string {
   return value
@@ -52,40 +54,67 @@ export async function deleteAuthor(id: string): Promise<void> {
 }
 
 export async function createBook(data: CreateBookInput) {
-  const slug = data.slug || slugify(data.title);
+  const { downloadLinks: links, ...bookData } = data;
+  const slug = bookData.slug || slugify(bookData.title);
   const [row] = await db
     .insert(books)
     .values({
       slug,
-      title: data.title,
-      originalTitle: data.originalTitle,
-      authorId: data.authorId,
-      publicationYearOriginal: data.publicationYearOriginal,
-      publicationYearTranslation: data.publicationYearTranslation,
-      translator: data.translator,
-      language: data.language,
-      originalLanguages: data.originalLanguages,
-      description: data.description,
-      categories: data.categories,
-      tags: data.tags,
-      coverImageUrl: data.coverImageUrl,
-      onlineReadPath: data.onlineReadPath,
-      featured: data.featured,
+      title: bookData.title,
+      originalTitle: bookData.originalTitle,
+      authorId: bookData.authorId,
+      publicationYearOriginal: bookData.publicationYearOriginal,
+      publicationYearTranslation: bookData.publicationYearTranslation,
+      translator: bookData.translator,
+      language: bookData.language,
+      originalLanguages: bookData.originalLanguages,
+      description: bookData.description,
+      categories: bookData.categories,
+      tags: bookData.tags,
+      coverImageUrl: bookData.coverImageUrl,
+      onlineReadPath: bookData.onlineReadPath,
+      featured: bookData.featured,
     })
     .returning();
+  if (links && links.length > 0) {
+    await db.insert(downloadLinks).values(
+      links.map((link) => ({
+        bookId: row!.id,
+        format: link.format,
+        url: link.url,
+        source: link.source,
+        fileSize: link.fileSize,
+      })),
+    );
+  }
   return row;
 }
 
 export async function updateBook(id: string, data: UpdateBookInput) {
+  const { downloadLinks: links, ...bookData } = data;
   const [row] = await db
     .update(books)
     .set({
-      ...data,
-      ...(data.slug ? { slug: data.slug } : {}),
+      ...bookData,
+      ...(bookData.slug ? { slug: bookData.slug } : {}),
       updatedAt: new Date(),
     })
     .where(eq(books.id, id))
     .returning();
+  if (row && links !== undefined) {
+    await db.delete(downloadLinks).where(eq(downloadLinks.bookId, id));
+    if (links.length > 0) {
+      await db.insert(downloadLinks).values(
+        links.map((link) => ({
+          bookId: id,
+          format: link.format,
+          url: link.url,
+          source: link.source,
+          fileSize: link.fileSize,
+        })),
+      );
+    }
+  }
   return row;
 }
 

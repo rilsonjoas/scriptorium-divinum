@@ -1,0 +1,65 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    services:
+      postgres:
+        image: postgres:16-alpine
+        env:
+          POSTGRES_USER: scriptorium_test
+          POSTGRES_PASSWORD: scriptorium_test
+          POSTGRES_DB: scriptorium_divinum_test
+        ports:
+          - 5434:5432
+        options: >-
+          --health-cmd "pg_isready -U scriptorium_test -d scriptorium_divinum_test"
+          --health-interval 2s
+          --health-timeout 2s
+          --health-retries 15
+
+    env:
+      TEST_DATABASE_URL: postgresql://scriptorium_test:scriptorium_test@localhost:5434/scriptorium_divinum_test
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install
+        run: pnpm install --frozen-lockfile
+
+      - name: Lint
+        run: pnpm lint
+
+      - name: Typecheck
+        run: pnpm typecheck
+
+      - name: Testes unitários (server)
+        run: pnpm --filter server test
+
+      - name: Testes de integração (Postgres service)
+        run: pnpm --filter server test:integration
+
+      - name: Build web
+        run: pnpm build:web
+
+      - name: Build server
+        run: pnpm build:server
+
+      - name: Auditoria de dependências
+        run: pnpm audit --audit-level=high

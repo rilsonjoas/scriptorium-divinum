@@ -37,25 +37,18 @@ real primeiro, polimento depois.
 
 - [x] Catálogo público migrado pra API própria — resolve o risco de
       "morte por inatividade" que já matou o Supabase do biblia-na-arte
-- [ ] **Admin ainda não migrou — e causou incidente real.** O painel
-      continua preso ao Supabase (auth quebrado, HTTP 400 documentado no
-      README). Pior: `web/src/lib/supabase.ts` lançava erro na carga do
-      módulo quando as env vars do Supabase ficaram ausentes (depois da
-      migração do catálogo) — e como isso é importado por `AuthContext`,
-      que envolve o app inteiro, **o site público inteiro ficou fora do
-      ar pra qualquer visitante**, não só quem tentasse `/admin`.
-      **Corrigido em 2026-08-09** (client desabilitado em vez de lançar
-      erro), mas a decisão de fundo — reconstruir o admin com auth
-      própria ou descartar — continua em aberto
-- [ ] **Achado de segurança à parte, não corrigido**: `checkAdminStatus`
-      em `AuthContext.tsx` tem um bypass comentado como "TEMPORARY...
-      make all logged users admin for testing" — qualquer usuário
-      autenticado vira admin. Inalcançável agora que o login está
-      desabilitado, mas precisa ser removido de verdade quando o admin
-      for reconstruído, não só ficar comentado no meio do código
-- [ ] RLS das tabelas do Supabase (`authors`, `books`, `download_links`,
-      `profiles`) — só relevante se decidir manter Supabase pro admin;
-      se reconstruir com Postgres próprio, isso vira código morto
+- [x] **Admin migrado pra auth própria (2026-08-14)** — commit `51a71b7`,
+      "Migra admin do Supabase para auth própria por cookie de sessão".
+      Login por cookie httpOnly de sessão (`admins`/`sessions` no
+      Postgres próprio), hash scrypt, guard `requireAdmin`, CRUD admin
+      completo (autores/livros/categorias) na API própria, CORS com
+      credenciais. Testado real em produção: login 200, `/me` 200 com
+      cookie e 401 sem cookie. Bundle web com **0 referências a Supabase**
+- [x] **Bypass removido de verdade** — `checkAdminStatus` com "make all
+      logged users admin for testing" não existe mais (era `lib/supabase.ts`,
+      arquivo deletado); `AuthContext` reescrito com sessão própria
+- [x] RLS das tabelas do Supabase — virou código morto: nada mais usa
+      Supabase, projeto está sendo retirado de produção
 
 ## P1 — Infra & Deploy
 
@@ -63,11 +56,9 @@ real primeiro, polimento depois.
       `scriptorium-api` rodando no VPS, certificado Let's Encrypt válido,
       health check da API respondendo 200 continuamente, Uptime Kuma já
       monitorando o site. Testado com `curl` real, não só `docker ps`
-- [ ] **Desconectar o projeto da Vercel** — ficou conectado ao GitHub
-      desde antes da migração pro VPS (quando era só Vite+Supabase, como
-      o AlternativasBR ainda é hoje), e cada push dispara um build lá que
-      não faz sentido mais rodar. Ação manual no dashboard da Vercel, não
-      dá pra fazer por aqui
+- [x] **Desconectado da Vercel (2026-08-14, ação manual do usuário)** —
+      projeto deletado no dashboard; `scriptorium-divinum.vercel.app`
+      responde 404, único host agora é o VPS
 
 ## P2 — Saúde & Resiliência
 
@@ -75,10 +66,11 @@ real primeiro, polimento depois.
 
 ## P3 — CI/CD
 
-- [ ] Não existe `.github/workflows/` — criar do zero. Mínimo viável:
-      lint + typecheck + build a cada push/PR (o lecionário já tem um
-      workflow bom pra copiar a estrutura, `lecionario/.github/workflows/ci.yml`)
-- [ ] `npm audit` (ou `pnpm audit`, se migrar de gerenciador) no CI
+- [x] **Criado (2026-08-14)** — `.github/workflows/ci.yml` no padrão do
+      biblia-na-arte: lint + typecheck + testes unitários/integração
+      (Postgres service) + build web/server + `pnpm audit` a cada
+      push/PR
+- [x] `pnpm audit --audit-level=high` no CI (mesmo workflow acima)
 
 ## P4 — Testes
 
@@ -158,13 +150,13 @@ aqui, só organizado por prioridade real:
    estático" pra "produto administrável de verdade")
 5. P4/P5/P7 em paralelo, conforme o tempo permitir
 
-## Nota: ao reconstruir o admin com auth própria (2026-08-14)
+## Nota: admin reconstruído com auth própria (concluído em 2026-08-14)
 
-Quando a reconstrução do login (item acima, hoje preso no Supabase
-quebrado + bypass "make all logged users admin") sair do papel: mesmo
-sendo login de admin único, não de usuário final, vale considerar a
-mesma decisão registrada no `meus-remedios` (único projeto pessoal com
-OAuth de usuário real hoje) se algum dia isto abrir pra mais de um
-admin ou usuário externo — Google OAuth como atalho, nunca substituto
-de e-mail/senha. Ver `meus-remedios/README.md`, seção "Decisão: Google
-OAuth + conta local".
+A reconstrução do login (item acima, que estava preso no Supabase quebrado
++ bypass "make all logged users admin") **saiu do papel** no commit
+`51a71b7`. Sendo login de admin único (não de usuário final), e-mail/senha
+com cookie de sessão foi a escolha certa. Se algum dia isto abrir pra mais
+de um admin ou usuário externo, vale considerar a mesma decisão registrada
+no `meus-remedios` (único projeto pessoal com OAuth de usuário real hoje)
+— Google OAuth como atalho, nunca substituto de e-mail/senha. Ver
+`meus-remedios/README.md`, seção "Decisão: Google OAuth + conta local".
