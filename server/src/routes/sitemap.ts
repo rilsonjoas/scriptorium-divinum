@@ -32,9 +32,10 @@ export async function sitemapRoutes(app: FastifyInstance) {
       },
     },
     async (_request, reply) => {
-      const [books, categories] = await Promise.all([
+      const [books, categories, authors] = await Promise.all([
         db.query.books.findMany({ columns: { id: true, slug: true } }),
         listCategories(),
+        db.query.authors.findMany({ columns: { id: true, slug: true } }),
       ]);
 
       const urls: string[] = [];
@@ -48,6 +49,10 @@ export async function sitemapRoutes(app: FastifyInstance) {
       for (const category of categories) {
         const ref = category.slug || category.name.toLowerCase().replace(/[^a-z0-9]+/g, '-');
         urls.push(`${env.PUBLIC_ORIGIN}/categorias/${ref}`);
+      }
+      for (const author of authors) {
+        const ref = author.slug || author.id;
+        urls.push(`${env.PUBLIC_ORIGIN}/autores/${ref}`);
       }
 
       const body = `<?xml version="1.0" encoding="UTF-8"?>

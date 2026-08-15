@@ -128,8 +128,9 @@ volta à mesa (seção "Ordem recomendada").
       Open Graph e Twitter Card, `public/robots.txt` presente
 - [x] **`sitemap.xml` implementado (2026-08-14)** — `GET /sitemap.xml`
       na API (`server/src/routes/sitemap.ts`): estáticas + livros +
-      categorias via `listCategories()` (agrega dos `books.categories`).
-      Em produção: 35 URLs (8 estáticas + 8 livros + 19 categorias),
+      categorias via `listCategories()` + autores (adicionado 2026-08-14).
+      Proxy reverso configurado no Nginx do frontend (`web/nginx.conf`).
+      Em produção: inclui URLs de livros, categorias e perfis de autores,
       testado no CI
 - [ ] Interface Responsiva — README reivindica; não verificado de fato
 - [ ] Modo escuro/claro — só existem as variantes `dark:` do shadcn/ui;
