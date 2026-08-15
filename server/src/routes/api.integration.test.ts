@@ -1,5 +1,5 @@
 import { beforeAll, afterAll, describe, it, expect } from 'vitest';
-import { readFileSync } from 'node:fs';
+import { readFileSync, writeFileSync, unlinkSync, existsSync } from 'node:fs';
 import path from 'node:path';
 import postgres from 'postgres';
 import { drizzle } from 'drizzle-orm/postgres-js';
@@ -9,6 +9,8 @@ import { db, closeDb } from '../db/client.js';
 
 const MIGRATIONS_DIR = path.join(import.meta.dirname, '../db/migrations');
 const FUNCTIONS_SQL = path.join(import.meta.dirname, '../db/custom-sql/functions.sql');
+const TEXTS_DIR = path.join(import.meta.dirname, '../../texts');
+const TEXT_FIXTURE = path.join(TEXTS_DIR, 'integration-fixture.md');
 
 describe('Scriptorium Divinum API — Testes de Integração', () => {
   let app: Awaited<ReturnType<typeof buildApp>>;
@@ -39,6 +41,11 @@ describe('Scriptorium Divinum API — Testes de Integração', () => {
         ('20000000-0000-0000-0000-000000000001', '10000000-0000-0000-0000-000000000001', 'pdf', '/downloads/confissoes.pdf', 'Internet Archive', 2500000);
     `);
 
+    writeFileSync(TEXT_FIXTURE, '# Proveniência\n\n- **Obra**: Confissões\n- **Domínio público porque**: autor falecido há +70 anos (Lei 9.610/98, art. 41)\n\n# Confissões\n\nTexto de teste.\n');
+    await admin.unsafe(
+      `UPDATE books SET online_read_path = '/texts/integration-fixture.md' WHERE id = '10000000-0000-0000-0000-000000000001'`,
+    );
+
     app = await buildApp();
     await app.ready();
   });
@@ -47,6 +54,7 @@ describe('Scriptorium Divinum API — Testes de Integração', () => {
     if (app) await app.close();
     if (admin) await admin.end({ timeout: 5 });
     await closeDb();
+    if (existsSync(TEXT_FIXTURE)) unlinkSync(TEXT_FIXTURE);
   });
 
   it('GET /health responde ok', async () => {
@@ -104,6 +112,25 @@ describe('Scriptorium Divinum API — Testes de Integração', () => {
     expect(body.title).toBe('Confissões');
     expect(body.downloadLinks.length).toBe(1);
     expect(body.downloadLinks[0].format).toBe('pdf');
+  });
+
+  it('GET /api/v1/books/:idOrSlug informa textAvailable quando o arquivo existe', async () => {
+    const res = await app.inject({ method: 'GET', url: '/api/v1/books/confissoes' });
+    expect(res.statusCode).toBe(200);
+    expect(res.json()).toHaveProperty('textAvailable', true);
+  });
+
+  it('GET /api/v1/books/:idOrSlug/text devolve o texto em markdown', async () => {
+    const res = await app.inject({ method: 'GET', url: '/api/v1/books/confissoes/text' });
+    expect(res.statusCode).toBe(200);
+    const body = res.json();
+    expect(body.title).toBe('Confissões');
+    expect(body.text).toContain('Texto de teste');
+  });
+
+  it('GET /api/v1/books/:idOrSlug/text devolve 404 quando não há arquivo', async () => {
+    const res = await app.inject({ method: 'GET', url: '/api/v1/books/institutas/text' });
+    expect(res.statusCode).toBe(404);
   });
 
   it('GET /api/v1/categories lista categorias agregadas com contagem', async () => {

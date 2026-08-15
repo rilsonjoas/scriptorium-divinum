@@ -92,6 +92,7 @@ export interface Book {
   tags?: string[];
   coverImageUrl?: string;
   onlineReadPath?: string;
+  textAvailable?: boolean;
   downloadLinks?: DownloadLink[];
   tableOfContents?: { title: string; anchor?: string; level: number }[];
   featured?: boolean;

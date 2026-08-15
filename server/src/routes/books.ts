@@ -8,6 +8,7 @@ import {
 } from '../schemas/book.schema.js';
 import { errorResponseSchema } from '../schemas/response.schema.js';
 import { NotFoundError } from '../plugins/error-handler.js';
+import { readText, textAvailable } from '../texts.js';
 
 const booksListResponseJson = zodToJsonSchema(
   z.object({
@@ -21,6 +22,16 @@ const booksListResponseJson = zodToJsonSchema(
 );
 
 const bookDetailResponseJson = zodToJsonSchema(bookSchema, { $refStrategy: 'none' });
+
+const bookTextResponseJson = zodToJsonSchema(
+  z.object({
+    slug: z.string(),
+    title: z.string(),
+    text: z.string(),
+  }),
+  { $refStrategy: 'none' },
+);
+
 const errorJson = zodToJsonSchema(errorResponseSchema, { $refStrategy: 'none' });
 
 export async function bookRoutes(app: FastifyInstance) {
@@ -65,7 +76,32 @@ export async function bookRoutes(app: FastifyInstance) {
       if (!book) {
         throw new NotFoundError(`Livro '${idOrSlug}'`);
       }
-      return book;
+      return { ...book, textAvailable: textAvailable(book.onlineReadPath) };
+    },
+  );
+
+  // Texto em markdown da obra (domínio público) para o leitor online
+  app.get(
+    '/api/v1/books/:idOrSlug/text',
+    {
+      schema: {
+        tags: ['livros'],
+        summary: 'Obtém o texto em markdown da obra (leitor online)',
+        params: zodToJsonSchema(z.object({ idOrSlug: z.string() }), { $refStrategy: 'none' }),
+        response: { 200: bookTextResponseJson, 404: errorJson, 500: errorJson },
+      },
+    },
+    async (request) => {
+      const { idOrSlug } = z.object({ idOrSlug: z.string() }).parse(request.params);
+      const book = await getBookByIdOrSlug(idOrSlug);
+      if (!book) {
+        throw new NotFoundError(`Livro '${idOrSlug}'`);
+      }
+      const text = readText(book.onlineReadPath);
+      if (text === null) {
+        throw new NotFoundError(`texto de '${book.title}'`);
+      }
+      return { slug: book.slug ?? book.id, title: book.title, text };
     },
   );
 }

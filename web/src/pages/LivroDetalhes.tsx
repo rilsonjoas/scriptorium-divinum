@@ -64,7 +64,7 @@ const LivroDetalhes = () => {
 
                 {/* Action Buttons */}
                 <div className="space-y-3">
-                  {book.onlineReadPath && (
+                  {book.textAvailable && (
                     <Button asChild size="lg" className="w-full bg-library-wood hover:bg-library-bronze text-library-gold font-body">
                       <Link to={`/ler/${book.id}`}>
                         <BookOpen className="mr-2 h-4 w-4" />

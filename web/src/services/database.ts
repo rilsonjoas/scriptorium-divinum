@@ -74,6 +74,16 @@ export const booksService = {
     if (!q.trim()) return [];
     return apiClient<Book[]>(`/api/v1/search?q=${encodeURIComponent(q)}&limit=${limit}`);
   },
+
+  async getText(idOrSlug: string): Promise<{ slug: string; title: string; text: string } | null> {
+    try {
+      return await apiClient<{ slug: string; title: string; text: string }>(
+        `/api/v1/books/${idOrSlug}/text`,
+      );
+    } catch {
+      return null;
+    }
+  },
 };
 
 export const categoriesService = {

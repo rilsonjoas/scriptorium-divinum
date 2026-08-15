@@ -14,6 +14,7 @@ import DominioPublico from "./pages/DominioPublico";
 import Busca from "./pages/Busca";
 import Contribuir from "./pages/Contribuir";
 import LivroDetalhes from "./pages/LivroDetalhes";
+import Reader from "./pages/Reader";
 import CategoryPage from "./pages/CategoryPage";
 import Sobre from "./pages/Sobre";
 import NotFound from "./pages/NotFound";
@@ -38,6 +39,7 @@ const App = () => (
             <Route path="/" element={<Index />} />
             <Route path="/livros" element={<Livros />} />
             <Route path="/livros/:bookId" element={<LivroDetalhes />} />
+            <Route path="/ler/:bookId" element={<Reader />} />
             <Route path="/autores" element={<Autores />} />
             <Route path="/categorias" element={<Categorias />} />
             <Route path="/categorias/:categorySlug" element={<CategoryPage />} />

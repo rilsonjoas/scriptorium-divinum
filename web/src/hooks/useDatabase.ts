@@ -59,6 +59,15 @@ export const useBook = (id: string) => {
   })
 }
 
+export const useBookText = (id: string) => {
+  return useQuery({
+    queryKey: ['book-text', id],
+    queryFn: () => booksService.getText(id),
+    enabled: !!id,
+    staleTime: 5 * 60 * 1000,
+  })
+}
+
 export const useBooksByCategory = (category: string) => {
   return useQuery({
     queryKey: ['books', 'category', category],

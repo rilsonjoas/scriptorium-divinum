@@ -14,6 +14,7 @@ Uma biblioteca digital dedicada às obras clássicas da teologia cristã em dom�
 - **🚀 API REST (Fastify + Drizzle)**: `https://api-scriptorium.narniano.com` (Conectado ao Postgres compartilhado)
 - **🗄️ Banco de Dados**: Postgres (`scriptorium_divinum_db`) rodando localmente no VPS com role isolada e segura.
 - **🔄 Backup Integrado**: Backups diários criptografados com `age` e sincronizados via Tailscale.
+- **📖 Leitor online** (`/ler/:id`): renderiza em markdown as obras que tiverem texto disponível em `server/texts/` (ver política de direitos autorais abaixo). O botão "Ler Online" só aparece quando o conteúdo realmente existe.
 
 ---
 
@@ -89,6 +90,45 @@ scriptorium-divinum/
     │   └── schemas/      # Validações Zod
     └── Dockerfile        # Build multi-stage (Fastify)
 ```
+
+---
+
+## ⚖️ Direitos Autorais e Proveniência
+
+**Meta permanente do projeto: operar sempre dentro da lei de direitos
+autorais.** Não basta a intenção de ser gratuito — a licitude tem de ser
+comprovada obra a obra, em todos os formatos de acesso.
+
+### Regras aplicadas
+
+1. **Domínio público é o critério único de publicação.** No Brasil (Lei
+   9.610/98, art. 41) a obra entra em domínio público 70 anos após a morte
+   do autor. Autores clássicos (Agostinho, Anselmo, Tomás de Aquino,
+   Lutero, Calvino, Pascal, Bunyan etc.) estão há séculos nessa condição —
+   os **textos originais** não apresentam risco.
+2. **Download e leitura online são juridicamente equivalentes.** Ambos são
+   "disponibilização ao público" (arts. 29 e 31). Se a obra é de domínio
+   público, os dois são legais; se é protegida, os dois infringem. O que
+   decide tudo é **a origem do texto, não o formato de acesso**.
+3. **Traduções e edições modernas são obras derivadas protegidas.**
+   Tradução tem direito próprio (+70 anos após a morte do tradutor).
+   **Só entrar no catálogo textos com proveniência verificável de domínio
+   público** (tradução antiga em PD, ou tradução própria/licenciada).
+   Todo arquivo em `server/texts/` precisa trazer um cabeçalho de
+   proveniência declarando: obra, autor, tradutor (se houver), edição/
+   fonte e por que está em domínio público.
+4. **Capas e imagens também têm direitos.** Capas de edições modernas e
+   ilustrações contemporâneas são protegidas; gravuras antigas (ex.: Doré)
+   são de domínio público. Auditoria das URLs de capa antes de publicar.
+5. **Sem conteúdo gerado/fornecido sem procedência.** O leitor só exibe o
+   botão "Ler Online" quando o arquivo de texto existe de verdade com a
+   declaração de proveniência (campo `online_read_path` + arquivo em
+   `server/texts/`).
+6. **Se um dia houver upload/contribuição de terceiros** (roadmap P8),
+   implementar processo de notificação e remoção nos moldes do Marco Civil
+   da Internet (Lei 12.965/14, arts. 19–21) antes de abrir o recurso.
+
+O template de proveniência fica em `server/texts/README.md`.
 
 ---
 

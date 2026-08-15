@@ -35,6 +35,7 @@ export const bookSchema = z.object({
   tags: z.array(z.string()).nullable().optional(),
   coverImageUrl: z.string().nullable().optional(),
   onlineReadPath: z.string().nullable().optional(),
+  textAvailable: z.boolean().optional(),
   featured: z.boolean(),
   createdAt: z.string().or(z.date()).optional(),
   updatedAt: z.string().or(z.date()).optional(),

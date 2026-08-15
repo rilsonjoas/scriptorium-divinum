@@ -155,12 +155,20 @@ aqui, só organizado por prioridade real. Verificado contra o código em
       categorias/tags (`server/src/db/custom-sql/functions.sql`)
 - [x] **API pública** — GETs públicos consumidos pelo próprio site:
       `/api/v1/books|authors|categories|search|settings|sitemap`
-- [ ] **Leitor de texto integrado — NÃO implementado e com botão quebrado**:
-      `LivroDetalhes.tsx` exibe "Ler Online" apontando para `/ler/:id`,
-      rota inexistente (cai no `*` NotFound); `online_read_path` guarda
-      `/texts/*.md`, mas os arquivos não são distribuídos (não há
-      `web/public/texts/`) e o nginx não serve `/texts/`. Sobre.tsx anuncia
-      "interface de leitura otimizada" — propaganda sem base
+- [x] **Leitor de texto integrado (2026-08-14)** — decisão documentada:
+      leitor NÃO é risco legal quando o conteúdo é de domínio público
+      (download e leitura online são juridicamente equivalentes — Lei
+      9.610/98, arts. 29/31). Implementado com **botão condicionado a
+      conteúdo real**: `GET /api/v1/books/:id/text` serve o markdown de
+      `server/texts/`, `textAvailable` no detalhe do livro, página
+      `/ler/:id` no web. Nenhum texto órfão — os 8 `online_read_path` do
+      seed só "ligam" o botão quando o arquivo existir com declaração de
+      proveniência
+- [ ] **Meta legal permanente** — política de direitos autorais
+      documentada no README: só publicar obra com proveniência de domínio
+      público; tradução moderna não pode; capas/imagens auditadas;
+      takedown antes de abrir upload de terceiros. Ação pendente: auditar
+      as 19 URLs de capa hoje no banco
 - [ ] Sistema de favoritos, PWA, i18n — não começados
 
 ## P9 — Documentação
@@ -178,10 +186,9 @@ aqui, só organizado por prioridade real. Verificado contra o código em
 > Numeração reavaliada em 2026-08-14, após verificação no código. P0/P1/P2/
 > P3/P6 concluídos e conferidos; abaixo só o que ainda está aberto.
 
-1. **Corrigir o "Ler Online" quebrado** (botão aponta pra rota 404) —
-   decidir entre leitor interno simples (servir os `.md` em `/texts/` +
-   página `/ler/:id`) ou linkar direto o `onlineReadPath` externo; sem
-   isso o item P8 do leitor segue como propaganda no `Sobre.tsx`
+1. **Adicionar o primeiro texto real ao leitor** — infra pronta; falta
+   conteúdo com proveniência de domínio público em `server/texts/` (ex.:
+   95 Teses) + auditar as URLs de capa do banco (parte da política legal)
 2. **P4 — primeiro teste do web** (vitest + React Testing Library) —
    travar o que já existe antes de mexer no leitor; é o único pilar de
    qualidade totalmente zerado
