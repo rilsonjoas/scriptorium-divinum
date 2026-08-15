@@ -92,14 +92,9 @@ volta à mesa (seção "Ordem recomendada").
 
 ## P3 — CI/CD
 
-- [x] **Criado (2026-08-14)** — `.github/workflows/ci.yml` no padrão do
-      biblia-na-arte: lint + typecheck + testes unitários/integração
-      (Postgres service) + build web/server + auditoria de dependências a
-      cada push/PR
-- [x] **Auditoria escopada a produção (2026-08-14)** —
-      `node scripts/audit-allowlist.mjs`: roda `pnpm audit --prod` e falha
-      só em advisory **novo** high/critical, ignorando 7 GHSA conhecidos e
-      aceitos (ver P0 — Segurança)
+- [x] **Criado e corrigido (2026-08-14)** — `.github/workflows/ci.yml` no padrão do biblia-na-arte: lint + typecheck + testes unitários/integração (Postgres service) + build web/server + auditoria de dependências a cada push/PR.
+- [x] **Build e Push Docker configurados (2026-08-14)** — push para o GHCR (`scriptorium-api` e `scriptorium-web`) ajustado com permissões de pacotes e escopo do owner resolvidos.
+- [x] **Auditoria escopada a produção (2026-08-14)** — `node scripts/audit-allowlist.mjs`: roda `pnpm audit --prod` e falha só em advisory **novo** high/critical, ignorando 7 GHSA conhecidos e aceitos (ver P0 — Segurança).
 
 ## P4 — Testes
 
@@ -110,8 +105,7 @@ volta à mesa (seção "Ordem recomendada").
 > e config de Vitest própria (`vitest.config.ts` +
 > `vitest.integration.config.ts`), mesmo padrão do biblia-na-arte
 
-- [x] Testes de integração da API já existem — não rodam em CI ainda
-      (ver P3)
+- [x] Testes de integração da API já existem — **rodando em CI com serviço Postgres ativo** (2026-08-14).
 - [ ] Web (frontend) continua sem teste nenhum
 
 ## P5 — Monitoramento & Logs
