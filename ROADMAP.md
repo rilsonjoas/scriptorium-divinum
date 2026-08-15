@@ -132,6 +132,7 @@ volta à mesa (seção "Ordem recomendada").
       Proxy reverso configurado no Nginx do frontend (`web/nginx.conf`).
       Em produção: inclui URLs de livros, categorias e perfis de autores,
       testado no CI
+- [x] **Google Search Console verificado (2026-08-14)** — tag `<meta name="google-site-verification">` adicionada ao `web/index.html` e propriedade verificada no Search Console. Sitemap enviado em `https://scriptorium.narniano.com/sitemap.xml`.
 - [ ] Interface Responsiva — README reivindica; não verificado de fato
 - [ ] Modo escuro/claro — só existem as variantes `dark:` do shadcn/ui;
       sem toggle e sem tema aplicado no app
@@ -164,12 +165,15 @@ aqui, só organizado por prioridade real. Verificado contra o código em
       `server/texts/`, `textAvailable` no detalhe do livro, página
       `/ler/:id` no web. Nenhum texto órfão — os 8 `online_read_path` do
       seed só "ligam" o botão quando o arquivo existir com declaração de
-      proveniência
+      proveniência. Primeira obra no ar: **As 95 Teses de Lutero**
+      (2026-08-14, `server/texts/lutero-95-teses.md`)
 - [ ] **Meta legal permanente** — política de direitos autorais
       documentada no README: só publicar obra com proveniência de domínio
       público; tradução moderna não pode; capas/imagens auditadas;
-      takedown antes de abrir upload de terceiros. Ação pendente: auditar
-      as 19 URLs de capa hoje no banco
+      takedown antes de abrir upload de terceiros. Auditoria de capas
+      realizada (2026-08-14): **0 de 8 livros têm capa** — nada quebrado,
+      o catálogo público usa ícone como placeholder; opcionalmente
+      cadastrar capas de domínio público depois
 - [ ] Sistema de favoritos, PWA, i18n — não começados
 
 ## P9 — Documentação
@@ -187,9 +191,11 @@ aqui, só organizado por prioridade real. Verificado contra o código em
 > Numeração reavaliada em 2026-08-14, após verificação no código. P0/P1/P2/
 > P3/P6 concluídos e conferidos; abaixo só o que ainda está aberto.
 
-1. **Adicionar o primeiro texto real ao leitor** — infra pronta; falta
-   conteúdo com proveniência de domínio público em `server/texts/` (ex.:
-   95 Teses) + auditar as URLs de capa do banco (parte da política legal)
+1. **Adicionar o primeiro texto real ao leitor** — concluído
+   (2026-08-14): **As 95 Teses de Lutero** em `server/texts/` com
+   proveniência verificável (tradução WHE, CC BY-NC-SA 4.0, obra em
+   domínio público); capas do banco auditadas (0 configuradas). Próximo
+   conteúdo candidato: outro clássico com tradução verificável
 2. **P4 — primeiro teste do web** (vitest + React Testing Library) —
    travar o que já existe antes de mexer no leitor; é o único pilar de
    qualidade totalmente zerado
