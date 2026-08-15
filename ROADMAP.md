@@ -88,7 +88,9 @@ volta à mesa (seção "Ordem recomendada").
 
 ## P2 — Saúde & Resiliência
 
-- [ ] Não auditado — categoria nova (fusão com o SHIELD, 2026-08-09)
+- [x] **Saúde & Resiliência configuradas (2026-08-14)**:
+      * Adicionado handler de encerramento global (SIGTERM/SIGINT) para fechar o banco Drizzle e encerrar o servidor Fastify de forma graciosa.
+      * Adicionado rotas de health check (`/health`, `/health/live`, `/health/ready`).
 
 ## P3 — CI/CD
 
@@ -124,14 +126,14 @@ volta à mesa (seção "Ordem recomendada").
 - [x] **SEO já implementado** (achado em 2026-08-08, tinha passado batido
       no levantamento original): `index.html` já tem `description`,
       Open Graph e Twitter Card, `public/robots.txt` presente
-- [ ] `sitemap.xml` — não existe ainda; aqui faz mais sentido que no
-      a-bancada (catálogo de livros/autores tende a crescer, sitemap
-      ajuda a indexação de conteúdo novo)
-- [ ] README reivindica "Interface Responsiva: funciona em desktop,
-      tablet e mobile" — não verificado neste levantamento, conferir de
-      fato antes de assumir que está OK
-- [ ] Modo escuro/claro está listado como melhoria futura no próprio
-      README, não implementado
+- [x] **`sitemap.xml` implementado (2026-08-14)** — `GET /sitemap.xml`
+      na API (`server/src/routes/sitemap.ts`): estáticas + livros +
+      categorias via `listCategories()` (agrega dos `books.categories`).
+      Em produção: 35 URLs (8 estáticas + 8 livros + 19 categorias),
+      testado no CI
+- [ ] Interface Responsiva — README reivindica; não verificado de fato
+- [ ] Modo escuro/claro — só existem as variantes `dark:` do shadcn/ui;
+      sem toggle e sem tema aplicado no app
 - [ ] Loading states "mais elegantes" — item aberto no próprio README
 - [ ] Acessibilidade — não mencionada em nenhum lugar do projeto até
       agora, provavelmente zero auditoria feita
@@ -139,39 +141,55 @@ volta à mesa (seção "Ordem recomendada").
 ## P8 — Funcionalidades / entrega de valor real
 
 Direto do "Próximos Passos" do próprio README do projeto — nada inventado
-aqui, só organizado por prioridade real:
+aqui, só organizado por prioridade real. Verificado contra o código em
+2026-08-14.
 
-- [ ] **CRUD administrativo** — hoje só existe o dashboard com
-      estatísticas; adicionar/editar livros, autores e categorias está
-      listado como "próxima etapa", ainda não implementado
-- [ ] Upload de capas e arquivos — não implementado
-- [ ] Busca full-text real no Postgres (o README não confirma se a busca
-      atual já é full-text ou só `LIKE`/filtro simples — conferir)
-- [ ] Leitor de texto integrado, sistema de favoritos, PWA, API pública,
-      i18n — todos listados como "funcionalidades futuras" no README,
-      nenhum começado
+- [x] **CRUD administrativo (2026-08-14)** — autores/livros/categorias
+      (POST/PATCH/DELETE) no painel com auth própria; livros com download
+      links (formato/url/tamanho); settings do site em
+      `/admin/configuracoes`
+- [ ] Upload de capas e arquivos — capas e downloads são por URL; não há
+      endpoint de upload
+- [x] **Busca full-text real no Postgres** — `search_books()` com
+      `to_tsvector('portuguese')` + `ts_rank` cobrindo título/descrição/
+      categorias/tags (`server/src/db/custom-sql/functions.sql`)
+- [x] **API pública** — GETs públicos consumidos pelo próprio site:
+      `/api/v1/books|authors|categories|search|settings|sitemap`
+- [ ] **Leitor de texto integrado — NÃO implementado e com botão quebrado**:
+      `LivroDetalhes.tsx` exibe "Ler Online" apontando para `/ler/:id`,
+      rota inexistente (cai no `*` NotFound); `online_read_path` guarda
+      `/texts/*.md`, mas os arquivos não são distribuídos (não há
+      `web/public/texts/`) e o nginx não serve `/texts/`. Sobre.tsx anuncia
+      "interface de leitura otimizada" — propaganda sem base
+- [ ] Sistema de favoritos, PWA, i18n — não começados
 
 ## P9 — Documentação
 
-- [ ] Nunca auditado nesta lista — README existe e é razoavelmente
-      completo, mas não confirmado se ainda bate com o estado real do
-      código (ver alerta de arquitetura incerta no P1)
+- [x] **README reescrito e alinhado com o estado real (2026-08-14)**
+      (commit `1595724`): virou monorepo web+server, seção "Funcionalidades
+      no Ar" só com o que existe de fato, instruções de setup local e
+      estrutura do workspace; deixou de anunciar recursos inexistentes
+      (leitor, dark mode etc.)
 
 ---
 
 ## Ordem recomendada, se/quando este projeto voltar à mesa
 
-> Numeração renumerada em 2026-08-09 (fusão com o SHIELD)
+> Numeração reavaliada em 2026-08-14, após verificação no código. P0/P1/P2/
+> P3/P6 concluídos e conferidos; abaixo só o que ainda está aberto.
 
-1. P1 (confirmar a arquitetura real primeiro — muda a leitura de tudo
-   mais abaixo, inclusive se o P0 antigo ainda se aplica)
-2. P0 (decidir Supabase x API própria, se P1 confirmar que ainda não
-   migrou)
-3. P3 (CI mínimo, barato de fazer e evita regressão enquanto o resto
-   avança)
-4. P8 parcial (CRUD admin — é o que faz o projeto passar de "catálogo
-   estático" pra "produto administrável de verdade")
-5. P4/P5/P7 em paralelo, conforme o tempo permitir
+1. **Corrigir o "Ler Online" quebrado** (botão aponta pra rota 404) —
+   decidir entre leitor interno simples (servir os `.md` em `/texts/` +
+   página `/ler/:id`) ou linkar direto o `onlineReadPath` externo; sem
+   isso o item P8 do leitor segue como propaganda no `Sobre.tsx`
+2. **P4 — primeiro teste do web** (vitest + React Testing Library) —
+   travar o que já existe antes de mexer no leitor; é o único pilar de
+   qualidade totalmente zerado
+3. **P5 — Sentry** (ou alternativa self-hosted) — uptime já é monitorado;
+   falta visibilidade de erro em runtime (front + api)
+4. **P8 — upload de capas/arquivos** — hoje tudo é por URL, painel fica
+   dependente de hospedagem externa
+5. **P7 — dark mode, loading states, a11y** — polimento, menor retorno
 
 ## Nota: admin reconstruído com auth própria (concluído em 2026-08-14)
 
