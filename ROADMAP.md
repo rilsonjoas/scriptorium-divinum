@@ -108,7 +108,14 @@ volta à mesa (seção "Ordem recomendada").
 > `vitest.integration.config.ts`), mesmo padrão do biblia-na-arte
 
 - [x] Testes de integração da API já existem — **rodando em CI com serviço Postgres ativo** (2026-08-14).
-- [ ] Web (frontend) continua sem teste nenhum
+- [x] **Primeiro teste do web (2026-08-14)** — vitest + jsdom + React
+      Testing Library configurados (`web/vitest.config.ts`, setup com
+      jest-dom), rota `test` no `web/package.json`, passo novo no CI.
+      10 testes cobrindo: `splitProvenance` (unidade), página `Reader`
+      (loading, "Conteúdo indisponível", renderização do markdown,
+      link de volta) e o **gating do botão "Ler Online"** em
+      `LivroDetalhes` (some quando `textAvailable` é false — trava o bug
+      do texto órfão)
 
 ## P5 — Monitoramento & Logs
 
@@ -133,6 +140,7 @@ volta à mesa (seção "Ordem recomendada").
       Em produção: inclui URLs de livros, categorias e perfis de autores,
       testado no CI
 - [x] **Google Search Console verificado (2026-08-14)** — tag `<meta name="google-site-verification">` adicionada ao `web/index.html` e propriedade verificada no Search Console. Sitemap enviado em `https://scriptorium.narniano.com/sitemap.xml`.
+- [ ] **Verificar sitemap no Search Console**: Acessar [Google Search Console](https://search.google.com/search-console) → propriedade `scriptorium.narniano.com` → Sitemaps → confirmar que `https://scriptorium.narniano.com/sitemap.xml` está com status "Sucesso" e URLs sendo indexadas.
 - [ ] Interface Responsiva — README reivindica; não verificado de fato
 - [ ] Modo escuro/claro — só existem as variantes `dark:` do shadcn/ui;
       sem toggle e sem tema aplicado no app
@@ -196,9 +204,8 @@ aqui, só organizado por prioridade real. Verificado contra o código em
    proveniência verificável (tradução WHE, CC BY-NC-SA 4.0, obra em
    domínio público); capas do banco auditadas (0 configuradas). Próximo
    conteúdo candidato: outro clássico com tradução verificável
-2. **P4 — primeiro teste do web** (vitest + React Testing Library) —
-   travar o que já existe antes de mexer no leitor; é o único pilar de
-   qualidade totalmente zerado
+2. **P4 — primeiro teste do web (concluído 2026-08-14)** — vitest + RTL
+   no ar com 10 testes (ver seção P4); expandir cobertura a partir daqui
 3. **P5 — Sentry** (ou alternativa self-hosted) — uptime já é monitorado;
    falta visibilidade de erro em runtime (front + api)
 4. **P8 — upload de capas/arquivos** — hoje tudo é por URL, painel fica

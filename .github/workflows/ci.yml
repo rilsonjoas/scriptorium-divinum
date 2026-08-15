@@ -60,6 +60,9 @@ jobs:
       - name: Testes de integração (Postgres service)
         run: pnpm --filter server test:integration
 
+      - name: Testes do web (vitest + Testing Library)
+        run: pnpm --filter web test
+
       - name: Build web
         run: pnpm build:web
 

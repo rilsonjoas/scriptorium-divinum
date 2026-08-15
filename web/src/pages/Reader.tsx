@@ -6,15 +6,7 @@ import { Link, useParams } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { useBookText } from '@/hooks/useDatabase';
-
-function splitProvenance(text: string): { provenance: string | null; content: string } {
-  const index = text.indexOf('\n---\n');
-  if (index === -1) return { provenance: null, content: text };
-  return {
-    provenance: text.slice(0, index),
-    content: text.slice(index + 5),
-  };
-}
+import { splitProvenance } from '@/utils/readerText';
 
 const Reader = () => {
   const { bookId } = useParams<{ bookId: string }>();
