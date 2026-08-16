@@ -286,14 +286,14 @@ conteúdo > prioridade de feature") — isso formaliza o próximo passo.
 **Onde achar obra em domínio público com tradução PT-BR também em
 domínio público:**
 
-| Fonte | O que tem | Como acessar |
-|---|---|---|
-| Projeto Gutenberg (gutenberg.org) | 648 obras em PT, txt/epub direto; inclui Bíblia Almeida (id 62383), "Visitas ao Santíssimo Sacramento" (22658), clássicos | `gutendex.com` (API JSON) + `gutenberg.org/ebooks/{id}.txt.utf-8` |
-| Wikisource PT (pt.wikisource.org) | Traduções PT de clássicos não cobertos pelo Gutenberg | API `w/api.php?action=query&prop=extracts` |
-| Domínio Público (dominiopublico.gov.br) | Acervo do governo brasileiro, alguns clássicos em PT | busca no site; PDFs |
-| Brasiliana (USP) / BN Digital | Fac-símiles de edições históricas — ótimas pra capas | download de imagens/PDF |
-| Archive.org | Capas (PD/CC0) e edições digitalizadas | `archive.org/advancedsearch.php` |
-| CCEL (ccel.org) | Clássicos cristãos em inglês PD — referência biográfica/catálogo | site |
+| Fonte | O que tem | Como acessar | Confiabilidade real |
+|---|---|---|---|
+| Projeto Gutenberg (gutenberg.org) | 648 obras em PT, txt/epub direto | `gutendex.com` (API JSON) + `gutenberg.org/ebooks/{id}.txt.utf-8` | Alta — PD verificado pela própria curadoria |
+| Wikisource PT (pt.wikisource.org) | Traduções PT de clássicos não cobertos pelo Gutenberg | API `w/api.php?action=parse\|query` | Alta — mesma curadoria |
+| Brasiliana (USP) / BBM (digital.bbm.usp.br) | Fac-símiles de edições históricas, cada item com status marcado | Busca no site; PDF de página escaneada | Alta, mas **PDF escaneado, não texto** — precisa OCR pro leitor online |
+| Domínio Público (dominiopublico.gov.br) | Acervo do governo brasileiro | **Só navegador humano** — Cloudflare bloqueia curl/urllib/WebFetch (testado 2026-08-16) | Não verificado ainda — buscar manualmente e colar resultado |
+| Archive.org | Capas e edições digitalizadas | `archive.org/advancedsearch.php` | **Baixa — selo "Public Domain" auto-declarado, 2 falsos positivos reais achados (2026-08-16)**. Sempre abrir o arquivo e checar o colofão antes de catalogar |
+| CCEL (ccel.org) | Clássicos cristãos em inglês PD — referência biográfica/catálogo | site | Referência, não fonte de texto PT |
 
 **Regra legal (Brasil):** a tradução é obra derivada — PD se o tradutor
 morreu há ≥ 70 anos (ou edição do séc. XIX/início XX). As 8 obras atuais
@@ -341,13 +341,46 @@ de categoria estava carregando. Corrigido (`value="__loading__"`,
 disabled), deployado, confirmado (hash do bundle mudou de
 `index-sivdB6Gq.js` pra `index-jvf9vU2u.js`, build novo realmente no ar).
 
-- [ ] **4 obras falharam na importação** — todas por falha de download no
-      Wikisource PT (título de página provavelmente não bate exato com o
-      real): *Sermão da Sexagésima*, *Sermão pelo Bom Sucesso das Armas
-      de Portugal contra as de Holanda*, *De Magistro*, *Sermão do
-      Mandato (1670)*. Baixo risco/baixa prioridade — provavelmente só
-      ajustar o nome da página em `curated_catalog.json` e rodar de novo
-      (script é idempotente, só cadastra o que falta).
+- [x] **4 obras que falhavam — resolvidas (2026-08-16)**: 3 delas
+      (Sexagésima, Bom Sucesso das Armas, Mandato 1670) eram bug real de
+      transclusão ProofreadPage, corrigido na fonte (ver commit
+      `fix(import)`). A 4ª, *De Magistro*, não é PD — é CC BY-SA 4.0
+      (tradução de Antonio A. Minghetti, 2015) — **removida do catálogo**
+      por decisão do Rilson (2026-08-16): só entram obras com licença
+      genuinamente permissiva confirmada, CC BY-SA sem confirmação
+      forte não basta pra essa em particular ficar.
+
+**Pesquisa em fontes institucionais (2026-08-16, tarde)** — o Rilson
+pediu pra checar se dá pra achar mais em catálogos de governo, não só
+Gutenberg/Wikisource. Resultado real, não suposição:
+
+- **dominiopublico.gov.br está atrás de Cloudflare challenge** — 403
+  pra qualquer ferramenta programática (testado com `curl`, `urllib` e
+  `WebFetch`, os três bloqueados igual). Só acessível por navegador de
+  verdade. Fluxo prático: Rilson busca manualmente e cola os
+  resultados (título + autor) pro Claude verificar/organizar — sem
+  extensão de navegador automatizada envolvida.
+- **Archive.org marca "Public Domain" de forma não confiável** — achado
+  real testando "Imitação de Cristo" (Kempis): 2 edições diferentes lá,
+  as duas marcadas "Public Domain Mark" pela própria plataforma, as
+  duas na verdade **não eram** — uma é tradução de 2023 com copyright
+  ativo (© Valdemar Teodoro Editor), a outra é pirataria de uma edição
+  comercial atual da Editora Vozes com uso comercial expressamente
+  proibido no próprio arquivo. Lição: **nunca confiar no selo do
+  Archive.org sozinho** — sempre abrir o arquivo de verdade e procurar
+  o colofão/página de créditos antes de catalogar.
+- **Biblioteca Brasiliana Guita e José Mindlin (BBM/USP,
+  digital.bbm.usp.br) é fonte confiável** — instituição séria, cada
+  item marca "Domínio público" na própria página (verificado, não só
+  selo genérico). Achado usável: "Causa da Religião e Disciplina
+  Eclesiástica do Celibato Clerical" (Padre Diogo Antônio Feijó, 1828,
+  https://digital.bbm.usp.br/bitstream/bbm/4218/1/008584_COMPLETO.pdf).
+  **Limitação real**: BBM entrega PDF de página escaneada, não texto
+  limpo — `import_pipeline.py` só sabe baixar de Gutenberg/Wikisource
+  hoje. Pra usar BBM de verdade seria preciso OCR (não implementado) —
+  por ora, candidato registrado aqui, não no `curated_catalog.json`
+  (entraria sempre como "falha" no import por não ter fonte que o
+  script entenda).
 
 ## P9 — Documentação
 
