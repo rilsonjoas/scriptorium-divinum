@@ -258,22 +258,25 @@ página `DominioPublico.tsx` nova. **Já no ar**: código deployado e
 verificado (site/API 200, `git pull` + rebuild no VPS confirmado via
 GitHub Actions).
 
-**Pendente — passo final, fica pro Rilson rodar quando descansar:**
-popular o banco de produção (hoje ainda em 8 obras, confirmado por API
-real). Rodar da máquina local, apontando pra produção:
+**Concluído (2026-08-16, madrugada)** — Rilson rodou o script local
+apontando pra produção. **29 obras no catálogo agora** (8
+originais + 21 novas, de um alvo de 25 tentadas — 4 falharam, ver
+abaixo), confirmado por API real (`GET /api/v1/books`,
+`total: 29`, paginado em 2 páginas de 20). Achado no caminho e corrigido
+na hora: `web/src/pages/Livros.tsx` tinha um `<SelectItem value="">`
+(placeholder "Carregando...") — Radix UI proíbe `value=""`, e isso
+derrubava a página `/livros` inteira com erro fatal sempre que o filtro
+de categoria estava carregando. Corrigido (`value="__loading__"`,
+disabled), deployado, confirmado (hash do bundle mudou de
+`index-sivdB6Gq.js` pra `index-jvf9vU2u.js`, build novo realmente no ar).
 
-```bash
-API_URL=https://api-scriptorium.narniano.com \
-ADMIN_EMAIL=<email-admin-prod> \
-ADMIN_PASSWORD=<senha-admin-prod> \
-python3 scripts/import_pipeline.py
-```
-
-Lê os 21 markdowns locais e cadastra via `/api/v1/admin/login` (cookie
-de sessão) + `/api/v1/admin/authors` + `/api/v1/admin/books` (POST, ou
-PATCH se já existir). Sem dependência Python externa (só stdlib).
-Rodar localmente por decisão do Rilson (2026-08-16) — senha de admin de
-produção não deveria transitar pelo chat.
+- [ ] **4 obras falharam na importação** — todas por falha de download no
+      Wikisource PT (título de página provavelmente não bate exato com o
+      real): *Sermão da Sexagésima*, *Sermão pelo Bom Sucesso das Armas
+      de Portugal contra as de Holanda*, *De Magistro*, *Sermão do
+      Mandato (1670)*. Baixo risco/baixa prioridade — provavelmente só
+      ajustar o nome da página em `curated_catalog.json` e rodar de novo
+      (script é idempotente, só cadastra o que falta).
 
 ## P9 — Documentação
 
