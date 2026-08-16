@@ -348,6 +348,8 @@ def import_book(book_info):
         "tags": book_info.get("tags") or [slugify(author_name), "espiritualidade", "cristianismo"],
         "onlineReadPath": online_read_path,
         "featured": False,
+        "licenseType": book_info.get("license_type") or "public-domain",
+        "attributionText": book_info.get("attribution_text"),
         "tableOfContents": toc,
         "downloadLinks": [
             {

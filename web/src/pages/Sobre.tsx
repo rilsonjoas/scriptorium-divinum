@@ -74,10 +74,10 @@ const Sobre = () => {
 
           {/* Methodology */}
           <div className="bg-card/95 backdrop-blur-sm border border-library-bronze rounded-lg p-8 parchment-bg shadow-book mb-8">
-            <h2 className="font-heading text-2xl font-semibold text-library-wood mb-4">Metodologia e Domínio Público</h2>
+            <h2 className="font-heading text-2xl font-semibold text-library-wood mb-4">Metodologia e Direitos Autorais</h2>
             <p className="leading-relaxed mb-4">
-              Seguimos critérios rigorosos para garantir que todas as obras disponibilizadas estão 
-              em domínio público conforme a legislação brasileira (Lei 9.610/98). Isso inclui:
+              A maioria das obras disponibilizadas está em domínio público conforme a legislação
+              brasileira (Lei 9.610/98). Isso inclui:
             </p>
             <ul className="list-disc pl-6 space-y-2 mb-4">
               <li>Obras cujos autores faleceram há mais de 70 anos</li>
@@ -85,6 +85,12 @@ const Sobre = () => {
               <li>Obras publicadas antes das datas limite estabelecidas pela lei</li>
               <li>Verificação cuidadosa de direitos autorais para cada texto e tradução</li>
             </ul>
+            <p className="leading-relaxed mb-4">
+              Algumas poucas obras não são domínio público, mas estão publicadas sob licença
+              aberta que permite republicação com atribuição (ex. Creative Commons
+              Atribuição-CompartilhaIgual) — nesse caso a página da obra mostra a atribuição
+              exigida de forma explícita, e o texto não é tratado como domínio público.
+            </p>
             <p className="leading-relaxed">
               Trabalhamos com fontes respeitáveis como Project Gutenberg, Internet Archive, 
               Christian Classics Ethereal Library e outras instituições dedicadas à preservação 

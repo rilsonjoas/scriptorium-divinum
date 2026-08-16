@@ -74,6 +74,8 @@ export async function createBook(data: CreateBookInput) {
       coverImageUrl: bookData.coverImageUrl,
       onlineReadPath: bookData.onlineReadPath,
       featured: bookData.featured,
+      licenseType: bookData.licenseType,
+      attributionText: bookData.attributionText,
     })
     .returning();
   if (links && links.length > 0) {

@@ -107,7 +107,7 @@ export function Footer() {
         <div className="ornament"></div>
 
         <div className="text-center text-sm text-library-gold/70 font-body">
-          <p>© 2025 {siteName}. Todas as obras estão em domínio público.</p>
+          <p>© 2025 {siteName}. Obras em domínio público ou sob licença aberta, com atribuição.</p>
         </div>
       </div>
     </footer>

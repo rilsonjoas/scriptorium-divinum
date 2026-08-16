@@ -96,6 +96,8 @@ export interface Book {
   downloadLinks?: DownloadLink[];
   tableOfContents?: { title: string; anchor?: string; level: number }[];
   featured?: boolean;
+  licenseType?: string;
+  attributionText?: string | null;
 }
 
 export interface SiteSettings {

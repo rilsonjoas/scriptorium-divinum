@@ -37,6 +37,8 @@ export const bookSchema = z.object({
   onlineReadPath: z.string().nullable().optional(),
   textAvailable: z.boolean().optional(),
   featured: z.boolean(),
+  licenseType: z.string().optional(),
+  attributionText: z.string().nullable().optional(),
   createdAt: z.string().or(z.date()).optional(),
   updatedAt: z.string().or(z.date()).optional(),
   author: authorSchema.optional(),

@@ -45,6 +45,8 @@ RETURNS TABLE(
     cover_image_url VARCHAR(500),
     online_read_path VARCHAR(500),
     featured BOOLEAN,
+    license_type VARCHAR(50),
+    attribution_text TEXT,
     created_at TIMESTAMPTZ,
     updated_at TIMESTAMPTZ,
     rank REAL
@@ -56,7 +58,7 @@ BEGIN
         b.publication_year_original, b.publication_year_translation,
         b.translator, b.language, b.original_languages, b.description,
         b.categories, b.tags, b.cover_image_url, b.online_read_path,
-        b.featured, b.created_at, b.updated_at,
+        b.featured, b.license_type, b.attribution_text, b.created_at, b.updated_at,
         ts_rank(
             to_tsvector('portuguese',
                 coalesce(b.title, '') || ' ' ||

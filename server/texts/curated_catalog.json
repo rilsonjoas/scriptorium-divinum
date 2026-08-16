@@ -521,5 +521,28 @@
       "consolation",
       "english"
     ]
+  },
+  {
+    "title": "De Magistro",
+    "author": "Santo Agostinho de Hipona",
+    "translator": "Antonio A. Minghetti (tradução anotada e comentada, 2015)",
+    "original_title": "De Magistro",
+    "publication_year_original": "389",
+    "publication_year_translation": 2015,
+    "source": "Wikisource PT",
+    "gutenberg_id": null,
+    "wikisource_title": "De Magistro",
+    "language": "Português",
+    "categories": [
+      "Patrística",
+      "Filosofia Cristã"
+    ],
+    "tags": [
+      "santo-agostinho",
+      "educação",
+      "diálogo"
+    ],
+    "license_type": "cc-by-sa-4.0",
+    "attribution_text": "Tradução de Antonio A. Minghetti, Editora Fi (Porto Alegre, 2015), CC BY-SA 4.0 Internacional, via Wikisource (https://pt.wikisource.org/wiki/De_Magistro)"
   }
 ]

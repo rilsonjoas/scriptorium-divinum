@@ -95,6 +95,14 @@ const LivroDetalhes = () => {
                   )}
                 </div>
 
+                {book.licenseType && book.licenseType !== 'public-domain' && (
+                  <div className="mt-4 p-3 rounded-lg border border-library-bronze/40 bg-library-gold/10">
+                    <p className="text-xs text-library-bronze font-body">
+                      Publicado sob licença aberta (não é domínio público simples).
+                      {book.attributionText && <> {book.attributionText}</>}
+                    </p>
+                  </div>
+                )}
               </CardContent>
             </Card>
           </div>

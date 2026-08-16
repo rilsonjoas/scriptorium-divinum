@@ -113,6 +113,8 @@ export async function listBooks(filters: ListBooksQuery) {
         coverImageUrl: books.coverImageUrl,
         onlineReadPath: books.onlineReadPath,
         featured: books.featured,
+        licenseType: books.licenseType,
+        attributionText: books.attributionText,
         createdAt: books.createdAt,
         updatedAt: books.updatedAt,
         author: {
@@ -166,6 +168,8 @@ export async function getBookByIdOrSlug(idOrSlug: string) {
       coverImageUrl: books.coverImageUrl,
       onlineReadPath: books.onlineReadPath,
       featured: books.featured,
+      licenseType: books.licenseType,
+      attributionText: books.attributionText,
       createdAt: books.createdAt,
       updatedAt: books.updatedAt,
       author: {
@@ -223,6 +227,8 @@ export async function searchBooks(q: string, limit = 20) {
     cover_image_url: string | null;
     online_read_path: string | null;
     featured: boolean;
+    license_type: string | null;
+    attribution_text: string | null;
     created_at: string;
     updated_at: string;
     rank: number;
@@ -257,6 +263,8 @@ export async function searchBooks(q: string, limit = 20) {
     coverImageUrl: r.cover_image_url,
     onlineReadPath: r.online_read_path,
     featured: r.featured,
+    licenseType: r.license_type,
+    attributionText: r.attribution_text,
     createdAt: r.created_at,
     updatedAt: r.updated_at,
     author: authorMap.get(r.author_id),

@@ -52,6 +52,14 @@ export const books = pgTable(
     coverImageUrl: varchar('cover_image_url', { length: 500 }),
     onlineReadPath: varchar('online_read_path', { length: 500 }),
     featured: boolean('featured').default(false).notNull(),
+    // Nem toda obra é domínio público simples — algumas são traduções
+    // modernas sob licença aberta (ex. CC BY-SA), que também permitem
+    // republicação, só que com atribuição obrigatória. Mesmo padrão já
+    // usado no biblia-na-arte. Achado 2026-08-16: "De Magistro" (trad.
+    // Antonio A. Minghetti, Editora Fi 2015) é CC BY-SA 4.0, não PD —
+    // esse campo é o que torna isso mostrável/honesto no site.
+    licenseType: varchar('license_type', { length: 50 }).default('public-domain').notNull(),
+    attributionText: text('attribution_text'),
     createdAt: timestamp('created_at', { withTimezone: true }).defaultNow().notNull(),
     updatedAt: timestamp('updated_at', { withTimezone: true }).defaultNow().notNull(),
   },
