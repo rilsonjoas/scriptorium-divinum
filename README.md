@@ -18,6 +18,14 @@ Uma biblioteca digital dedicada às obras clássicas da teologia cristã em dom�
 
 ---
 
+## Por que isto existe
+
+Os grandes textos da tradição cristã — Padres da Igreja, reformadores, puritanos, místicos, apologistas de qualquer linhagem — já caíram em domínio público há muito tempo, mas continuam praticamente inacessíveis em português: edições esgotadas, caras, ou sites que publicam tradução sem verificar se ela própria ainda tem direitos autorais. Quem quer ler Agostinho, Kempis ou os reformadores sem pagar caro por uma edição física esbarra nisso.
+
+Cada um administre aos outros o dom como o recebeu — mordomia, aqui, é técnica aplicada a acervo: verificar proveniência obra a obra, publicar só o que é de fato livre, e construir um leitor decente em vez de um PDF escaneado torto. O catálogo não tem filtro de linhagem doutrinária — o critério é domínio público verificável, não afinidade teológica de quem cura.
+
+Hoje é uma primeira obra no ar (as 95 Teses de Lutero, com proveniência documentada) sobre uma base técnica sólida — API própria, busca full-text em português, auditoria de direitos autorais real, não decorativa. A visão é crescer devagar e certo: cada obra nova é permanente e uma página que pode virar a referência em português pra quem busca "Confissões de Agostinho" ou "Institutas de Calvino" — um Project Gutenberg cristão, mas com curadoria e leitor de verdade.
+
 ## 🛠️ Tecnologias Utilizadas
 
 **Frontend (`web/`):**
