@@ -141,7 +141,7 @@ describe('Auth de admin por cookie de sessão — Testes de Integração', () =>
     expect(restore.statusCode).toBe(200);
   });
 
-  it('POST /api/v1/admin/books cria livro com downloadLinks (payload camelCase da web)', async () => {
+  it('POST /api/v1/admin/books cria livro com downloadLinks e tableOfContents (payload camelCase da web)', async () => {
     const [author] = await admin.unsafe<{ id: string }[]>(
       `SELECT id FROM authors WHERE slug = 'novo-autor'`,
     );
@@ -161,6 +161,10 @@ describe('Auth de admin por cookie de sessão — Testes de Integração', () =>
           { format: 'pdf', url: 'https://exemplo.com/livro.pdf', source: 'Teste', fileSize: 12345 },
           { format: 'epub', url: 'https://exemplo.com/livro.epub' },
         ],
+        tableOfContents: [
+          { title: 'Capítulo I — Introdução', anchor: 'cap-1', orderIndex: 1 },
+          { title: 'Capítulo II — Desenvolvimento', anchor: 'cap-2', orderIndex: 2 },
+        ],
       },
     });
     expect(res.statusCode).toBe(201);
@@ -175,6 +179,12 @@ describe('Auth de admin por cookie de sessão — Testes de Integração', () =>
       format: 'pdf',
       url: 'https://exemplo.com/livro.pdf',
       fileSize: 12345,
+    });
+    expect(detail.json().tableOfContents).toHaveLength(2);
+    expect(detail.json().tableOfContents[0]).toMatchObject({
+      title: 'Capítulo I — Introdução',
+      anchor: 'cap-1',
+      orderIndex: 1,
     });
 
     const del = await app.inject({

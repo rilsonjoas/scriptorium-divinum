@@ -40,6 +40,16 @@ export const createBookSchema = z.object({
       }),
     )
     .optional(),
+  tableOfContents: z
+    .array(
+      z.object({
+        title: z.string().min(1),
+        anchor: z.string().optional(),
+        level: z.number().int().default(1),
+        orderIndex: z.number().int(),
+      }),
+    )
+    .optional(),
 });
 
 export const updateBookSchema = createBookSchema.partial();

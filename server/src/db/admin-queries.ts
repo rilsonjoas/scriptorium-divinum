@@ -1,6 +1,6 @@
 import { eq, sql } from 'drizzle-orm';
 import { db } from './client.js';
-import { authors, books, categories, downloadLinks } from './schema.js';
+import { authors, books, categories, downloadLinks, tableOfContents } from './schema.js';
 import type {
   CreateAuthorInput,
   UpdateAuthorInput,
@@ -54,7 +54,7 @@ export async function deleteAuthor(id: string): Promise<void> {
 }
 
 export async function createBook(data: CreateBookInput) {
-  const { downloadLinks: links, ...bookData } = data;
+  const { downloadLinks: links, tableOfContents: toc, ...bookData } = data;
   const slug = bookData.slug || slugify(bookData.title);
   const [row] = await db
     .insert(books)
@@ -87,11 +87,22 @@ export async function createBook(data: CreateBookInput) {
       })),
     );
   }
+  if (toc && toc.length > 0) {
+    await db.insert(tableOfContents).values(
+      toc.map((item) => ({
+        bookId: row!.id,
+        title: item.title,
+        anchor: item.anchor ?? null,
+        level: item.level ?? 1,
+        orderIndex: item.orderIndex,
+      })),
+    );
+  }
   return row;
 }
 
 export async function updateBook(id: string, data: UpdateBookInput) {
-  const { downloadLinks: links, ...bookData } = data;
+  const { downloadLinks: links, tableOfContents: toc, ...bookData } = data;
   const [row] = await db
     .update(books)
     .set({
@@ -111,6 +122,20 @@ export async function updateBook(id: string, data: UpdateBookInput) {
           url: link.url,
           source: link.source,
           fileSize: link.fileSize,
+        })),
+      );
+    }
+  }
+  if (row && toc !== undefined) {
+    await db.delete(tableOfContents).where(eq(tableOfContents.bookId, id));
+    if (toc.length > 0) {
+      await db.insert(tableOfContents).values(
+        toc.map((item) => ({
+          bookId: id,
+          title: item.title,
+          anchor: item.anchor ?? null,
+          level: item.level ?? 1,
+          orderIndex: item.orderIndex,
         })),
       );
     }

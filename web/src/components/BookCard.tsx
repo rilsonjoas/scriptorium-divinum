@@ -60,10 +60,15 @@ export function BookCard({ book, variant = 'grid' }: BookCardProps) {
                 {book.description}
               </p>
 
-              {/* Categories - Show only first 2 */}
-              {book.categories && book.categories.length > 0 && (
+              {/* Categories & Language - Show only first 2 */}
+              {(book.categories || book.language) && (
                 <div className="flex flex-wrap gap-1 mb-3 justify-center">
-                  {book.categories.slice(0, 2).map((category) => (
+                  {book.language && (
+                    <span className="px-2 py-0.5 text-xs bg-library-wood/10 text-library-wood font-medium rounded-md font-body border border-library-wood/20">
+                      {book.language}
+                    </span>
+                  )}
+                  {book.categories && book.categories.slice(0, 2).map((category) => (
                     <span
                       key={category}
                       className="px-2 py-0.5 text-xs bg-library-gold/20 text-library-bronze rounded-md font-body"
@@ -184,10 +189,15 @@ export function BookCard({ book, variant = 'grid' }: BookCardProps) {
               {book.description}
             </p>
 
-            {/* Categories */}
-            {book.categories && book.categories.length > 0 && (
+            {/* Categories & Language */}
+            {(book.categories || book.language) && (
               <div className="flex flex-wrap gap-1 mb-4">
-                {book.categories.slice(0, 3).map((category) => (
+                {book.language && (
+                  <span className="px-2 py-1 text-xs bg-library-wood/10 text-library-wood font-medium rounded-md font-body border border-library-wood/20">
+                    {book.language}
+                  </span>
+                )}
+                {book.categories && book.categories.slice(0, 3).map((category) => (
                   <span
                     key={category}
                     className="px-2 py-1 text-xs bg-library-gold/20 text-library-bronze rounded-md font-body"

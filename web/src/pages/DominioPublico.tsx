@@ -269,6 +269,45 @@ export default function DominioPublico() {
           </div>
         </div>
 
+        {/* Fontes de Nossos Textos */}
+        <div className="mb-12">
+          <h2 className="font-display text-2xl font-semibold text-library-wood mb-6 golden-foil">
+            Fontes dos Nossos Textos
+          </h2>
+          <Card className="border-library-bronze bg-library-parchment">
+            <CardContent className="p-6 font-body text-library-bronze space-y-4">
+              <p>
+                Para garantir a integridade legal e histórica de nosso catálogo, importamos e adaptamos textos de bibliotecas digitais que realizam um rigoroso processo de auditoria de direitos autorais:
+              </p>
+              <ul className="list-disc list-inside space-y-2 pl-2">
+                <li>
+                  <a 
+                    href="https://www.gutenberg.org" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="font-semibold text-library-wood hover:text-library-gold underline decoration-library-gold"
+                  >
+                    Project Gutenberg
+                  </a>: A maior e mais antiga biblioteca digital de livros em domínio público do mundo.
+                </li>
+                <li>
+                  <a 
+                    href="https://pt.wikisource.org" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="font-semibold text-library-wood hover:text-library-gold underline decoration-library-gold"
+                  >
+                    Wikisource em Português
+                  </a>: Uma biblioteca livre mantida pela Wikimedia Foundation contendo traduções e textos históricos digitalizados em língua portuguesa.
+                </li>
+              </ul>
+              <p>
+                Todas as obras em nosso acervo mantêm uma seção explícita de **Proveniência** contendo a edição original, o tradutor correspondente e a base legal de domínio público.
+              </p>
+            </CardContent>
+          </Card>
+        </div>
+
         {/* Nossa Missão */}
         <div className="bg-gradient-leather rounded-lg p-8 text-center">
           <h3 className="font-display text-2xl font-semibold text-library-gold mb-4">
