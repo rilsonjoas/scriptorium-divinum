@@ -169,6 +169,23 @@ volta à mesa (seção "Ordem recomendada").
 
 ## P8 — Funcionalidades / entrega de valor real
 
+- [ ] **Dívida de conteúdo no "Compêndio de Teologia" (achado real
+      2026-08-16, testando em produção)**: `coverImageUrl`/
+      `portraitImageUrl` no banco apontam pra `/images/covers/
+      compendio-tomas.jpg` e `/images/authors/tomas-aquino.jpg` —
+      arquivos que nunca foram enviados ao servidor (404 real). Mesma
+      coisa em "A Cidade de Deus" (`cidade-de-deus.jpg`). `onlineReadPath`
+      aponta pra um `.md` que não existe (`textAvailable` já corrigido
+      pra `false` corretamente, então o botão "Ler Online" não aparece
+      mais — mas a obra continua sem leitura online de verdade).
+      `downloadLinks` tem uma URL local fake (`/downloads/tomas/
+      compendio-teologia.pdf`, nginx 404) com `source: "Internet
+      Archive"` enganoso — devia ser uma URL real do Archive.org ou
+      removida. Existem retratos de Tomás de Aquino em domínio público
+      (ex. Carlo Crivelli, 1476, National Gallery — via Wikimedia
+      Commons) que dariam pra usar; nenhum código bloqueia isso, é
+      trabalho de curadoria de conteúdo, não bug.
+
 Direto do "Próximos Passos" do próprio README do projeto — nada inventado
 aqui, só organizado por prioridade real. Verificado contra o código em
 2026-08-14.
