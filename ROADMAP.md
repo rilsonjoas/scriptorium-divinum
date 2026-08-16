@@ -538,3 +538,16 @@ de um admin ou usuário externo, vale considerar a mesma decisão registrada
 no `meus-remedios` (único projeto pessoal com OAuth de usuário real hoje)
 — Google OAuth como atalho, nunca substituto de e-mail/senha. Ver
 `meus-remedios/README.md`, seção "Decisão: Google OAuth + conta local".
+
+## Identidade visual — logo real aplicada (2026-08-16)
+
+- [x] **Logo real no favicon/header**, escolhida pelo Rilson entre 2
+      versões (monograma "S" dourado sobre marrom — a outra, selo
+      circular com livros, é bonita grande mas ilegível em favicon
+      16px). Favicons completos (ico, 16/32px, apple-touch-icon,
+      android-chrome, webmanifest), og:image que não existia antes.
+      Sem variação clara/escura — projeto não tem dark mode. Faz parte
+      do **Design Narniano**, cluster "A Biblioteca" — ver
+      `12 - Redes sociais/Identidade visual geral.md` no vault e
+      `hetzner-infra/PADRAO-DE-ENGENHARIA.md`. Mesma pendência de
+      reconciliação de dourado que o Bíblia na Arte tem — ver lá.
