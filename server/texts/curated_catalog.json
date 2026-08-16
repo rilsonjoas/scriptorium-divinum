@@ -544,5 +544,137 @@
     ],
     "license_type": "cc-by-sa-4.0",
     "attribution_text": "Tradução de Antonio A. Minghetti, Editora Fi (Porto Alegre, 2015), CC BY-SA 4.0 Internacional, via Wikisource (https://pt.wikisource.org/wiki/De_Magistro)"
+  },
+  {
+    "title": "Carta da Companhia de Jesus para o Seráfico São Francisco",
+    "author": "José de Anchieta",
+    "translator": "Texto original (sem tradução)",
+    "original_title": "Carta da Companhia de Jesus para o seráfico São Francisco",
+    "publication_year_original": "1560",
+    "publication_year_translation": null,
+    "source": "Project Gutenberg",
+    "gutenberg_id": 7384,
+    "wikisource_title": null,
+    "language": "Português",
+    "categories": [
+      "Missões",
+      "Literatura Colonial Brasileira",
+      "Clássicos"
+    ],
+    "tags": [
+      "anchieta",
+      "jesuita",
+      "brasil-colonial",
+      "cartas"
+    ]
+  },
+  {
+    "title": "Sermão contra o Filosofismo do Século XIX",
+    "author": "José Agostinho de Macedo",
+    "translator": "Texto original (sem tradução)",
+    "original_title": "Sermão contra o Filosofismo do Seculo XIX",
+    "publication_year_original": "1820",
+    "publication_year_translation": null,
+    "source": "Project Gutenberg",
+    "gutenberg_id": 33245,
+    "wikisource_title": null,
+    "language": "Português",
+    "categories": [
+      "Sermões",
+      "Apologética",
+      "Clássicos"
+    ],
+    "tags": [
+      "jose-agostinho-de-macedo",
+      "sermoes",
+      "apologetica"
+    ]
+  },
+  {
+    "title": "A Mudança que é Possível na Vida",
+    "author": "Henry Drummond",
+    "translator": "Tradutor não identificado na edição digitalizada",
+    "original_title": "The Changed Life",
+    "publication_year_original": "1891",
+    "publication_year_translation": null,
+    "source": "Project Gutenberg",
+    "gutenberg_id": 61665,
+    "wikisource_title": null,
+    "language": "Português",
+    "categories": [
+      "Devocional",
+      "Espiritualidade Evangélica",
+      "Clássicos"
+    ],
+    "tags": [
+      "henry-drummond",
+      "devocional",
+      "santificacao"
+    ]
+  },
+  {
+    "title": "Itinerário da Viagem que Fez a Jerusalém",
+    "author": "Francisco Guerrero",
+    "translator": "Texto original (sem tradução)",
+    "original_title": "Itinerario da viagem, que fez a Jerusalem o M.R.P.",
+    "publication_year_original": "1580",
+    "publication_year_translation": null,
+    "source": "Project Gutenberg",
+    "gutenberg_id": 30091,
+    "wikisource_title": null,
+    "language": "Português",
+    "categories": [
+      "Peregrinação",
+      "Literatura de Viagem Religiosa",
+      "Clássicos"
+    ],
+    "tags": [
+      "francisco-guerrero",
+      "jerusalem",
+      "peregrinacao"
+    ]
+  },
+  {
+    "title": "Influência da Religião sobre a Política do Estado",
+    "author": "Inácio José de Macedo",
+    "translator": "Texto original (sem tradução)",
+    "original_title": "Influencia da Religião sobre a Politica do Estado",
+    "publication_year_original": "1820",
+    "publication_year_translation": null,
+    "source": "Project Gutenberg",
+    "gutenberg_id": 34289,
+    "wikisource_title": null,
+    "language": "Português",
+    "categories": [
+      "Teologia Política",
+      "Ensaio",
+      "Clássicos"
+    ],
+    "tags": [
+      "inacio-jose-de-macedo",
+      "teologia-politica"
+    ]
+  },
+  {
+    "title": "Visitas ao Santíssimo Sacramento e a Maria Santíssima",
+    "author": "Autor Desconhecido",
+    "translator": "Texto original (sem tradução)",
+    "original_title": "Visitas ao Santissimo Sacramento e a Maria Santissima para todos os dias do mez",
+    "publication_year_original": "1858",
+    "publication_year_translation": null,
+    "source": "Project Gutenberg",
+    "gutenberg_id": 22658,
+    "wikisource_title": null,
+    "language": "Português",
+    "categories": [
+      "Devocional",
+      "Catolicismo",
+      "Clássicos"
+    ],
+    "tags": [
+      "devocional",
+      "eucaristia",
+      "catolicismo"
+    ]
   }
 ]
