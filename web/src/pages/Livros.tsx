@@ -91,7 +91,7 @@ const Livros = () => {
                 <SelectContent>
                   <SelectItem value="all">Todas as categorias</SelectItem>
                   {categoriesLoading ? (
-                    <SelectItem value="" disabled>Carregando...</SelectItem>
+                    <SelectItem value="__loading__" disabled>Carregando...</SelectItem>
                   ) : categories?.map(category => (
                     <SelectItem key={category.slug} value={category.slug}>
                       {category.name}
