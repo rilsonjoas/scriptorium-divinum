@@ -52,8 +52,14 @@ export function Header() {
         {/* Logo and Site Title */}
         <div className="flex items-center justify-between mb-6">
           <Link to="/" className="flex items-center space-x-3 group">
-            <div className="w-12 h-12 bg-library-gold rounded-lg flex items-center justify-center shadow-golden">
-              <Library className="h-6 w-6 text-library-wood" />
+            <div className="w-12 h-12 rounded-lg overflow-hidden shadow-golden shrink-0">
+              <img
+                src="/logo-header.png"
+                alt="Scriptorium Divinum"
+                className="w-12 h-12"
+                width={48}
+                height={48}
+              />
             </div>
             <div>
               <h1 className="font-display text-2xl font-semibold golden-foil">
