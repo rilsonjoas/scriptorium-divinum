@@ -322,6 +322,12 @@ disabled), deployado, confirmado (hash do bundle mudou de
       diferenciando do Bíblia na Arte
 - [ ] Curvas `--ease-liturgico`/`--ease-vela` na transição de abertura
       do leitor — deve parecer abrir um livro, não abrir um modal
+- [ ] **Logo/favicon — ainda é o padrão genérico do template (pedido do
+      Rilson, 2026-08-16)**: `web/public/favicon.ico` é um ícone
+      82x82 sem identidade nenhuma (mesma origem do `placeholder.svg`
+      ao lado — sobra de scaffold, nunca foi trocado). Precisa de uma
+      marca própria, coerente com o registro "A Biblioteca" acima —
+      mesma pendência no `biblia-na-arte` (ver o ROADMAP de lá).
 
 ## Estratégia — o que "sucesso" significa aqui (2026-08-15)
 
