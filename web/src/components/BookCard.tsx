@@ -3,6 +3,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { BookOpen, Download, Calendar, User } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { SafeImage } from '@/components/SafeImage';
 
 interface BookCardProps {
   book: Book;
@@ -17,17 +18,16 @@ export function BookCard({ book, variant = 'grid' }: BookCardProps) {
           <div className="flex flex-col space-y-3">
             {/* Book Cover - Smaller and centered */}
             <div className="flex-shrink-0 w-16 h-24 bg-gradient-leather rounded-lg shadow-golden border-2 border-library-bronze relative overflow-hidden mx-auto">
-              {book.coverImageUrl ? (
-                <img
-                  src={book.coverImageUrl}
-                  alt={`Capa de ${book.title}`}
-                  className="w-full h-full object-cover"
-                />
-              ) : (
-                <div className="w-full h-full flex items-center justify-center">
-                  <BookOpen className="h-6 w-6 text-library-gold" />
-                </div>
-              )}
+              <SafeImage
+                src={book.coverImageUrl}
+                alt={`Capa de ${book.title}`}
+                className="w-full h-full object-cover"
+                fallback={
+                  <div className="w-full h-full flex items-center justify-center">
+                    <BookOpen className="h-6 w-6 text-library-gold" />
+                  </div>
+                }
+              />
               <div className="absolute top-1 right-1 w-2 h-2 border-t border-r border-library-gold"></div>
               <div className="absolute bottom-1 left-1 w-2 h-2 border-b border-l border-library-gold"></div>
             </div>
@@ -143,17 +143,16 @@ export function BookCard({ book, variant = 'grid' }: BookCardProps) {
         <div className="flex space-x-4">
           {/* Book Cover */}
           <div className="flex-shrink-0 w-24 h-32 bg-gradient-leather rounded-lg shadow-golden border-2 border-library-bronze relative overflow-hidden">
-            {book.coverImageUrl ? (
-              <img
-                src={book.coverImageUrl}
-                alt={`Capa de ${book.title}`}
-                className="w-full h-full object-cover"
-              />
-            ) : (
-              <div className="w-full h-full flex items-center justify-center">
-                <BookOpen className="h-8 w-8 text-library-gold" />
-              </div>
-            )}
+            <SafeImage
+              src={book.coverImageUrl}
+              alt={`Capa de ${book.title}`}
+              className="w-full h-full object-cover"
+              fallback={
+                <div className="w-full h-full flex items-center justify-center">
+                  <BookOpen className="h-8 w-8 text-library-gold" />
+                </div>
+              }
+            />
             {/* Ornamental corner */}
             <div className="absolute top-2 right-2 w-3 h-3 border-t-2 border-r-2 border-library-gold"></div>
             <div className="absolute bottom-2 left-2 w-3 h-3 border-b-2 border-l-2 border-library-gold"></div>

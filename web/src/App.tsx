@@ -8,6 +8,7 @@ import { AdminRoute } from "@/components/AdminRoute";
 import Index from "./pages/Index";
 import Livros from "./pages/Livros";
 import Autores from "./pages/Autores";
+import AutorDetalhes from "./pages/AutorDetalhes";
 import Categorias from "./pages/Categorias";
 import Ajuda from "./pages/Ajuda";
 import DominioPublico from "./pages/DominioPublico";
@@ -41,6 +42,7 @@ const App = () => (
             <Route path="/livros/:bookId" element={<LivroDetalhes />} />
             <Route path="/ler/:bookId" element={<Reader />} />
             <Route path="/autores" element={<Autores />} />
+            <Route path="/autores/:authorSlug" element={<AutorDetalhes />} />
             <Route path="/categorias" element={<Categorias />} />
             <Route path="/categorias/:categorySlug" element={<CategoryPage />} />
             <Route path="/ajuda" element={<Ajuda />} />

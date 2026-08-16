@@ -1,11 +1,11 @@
-import { Heart, Github, Mail } from 'lucide-react';
+import { Github, Mail } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useSiteSettings } from '@/hooks/useDatabase';
 
 export function Footer() {
   const { data: settings } = useSiteSettings();
   const siteName = settings?.siteName ?? 'Scriptorium Divinum';
-  const contactEmail = settings?.contactEmail ?? 'contato@scriptorium-divinum.com';
+  const contactEmail = settings?.contactEmail ?? 'rilsonjoas10@gmail.com';
 
   return (
     <footer className="bg-gradient-leather text-primary-foreground mt-20">
@@ -22,11 +22,6 @@ export function Footer() {
               {settings?.siteDescription ??
                 'Preservando e disponibilizando o tesouro da literatura teológica cristã em domínio público para as gerações presentes e futuras.'}
             </p>
-            <div className="flex items-center text-sm font-body">
-              <span className="text-library-gold/70">Feito com</span>
-              <Heart className="h-4 w-4 mx-1 text-red-400" />
-              <span className="text-library-gold/70">pela comunidade</span>
-            </div>
           </div>
 
           {/* Navigation */}
@@ -113,7 +108,6 @@ export function Footer() {
 
         <div className="text-center text-sm text-library-gold/70 font-body">
           <p>© 2025 {siteName}. Todas as obras estão em domínio público.</p>
-          <p className="mt-1">Preservando a herança teológica cristã para as gerações futuras.</p>
         </div>
       </div>
     </footer>

@@ -4,6 +4,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import { BookOpen, Download, Calendar, User, Globe, Languages, Tag, ArrowLeft, Loader2 } from 'lucide-react';
 import { Link, useParams, Navigate } from 'react-router-dom';
 import { useBook } from '@/hooks/useDatabase';
+import { SafeImage } from '@/components/SafeImage';
 
 const LivroDetalhes = () => {
   const { bookId } = useParams<{ bookId: string }>();
@@ -46,17 +47,16 @@ const LivroDetalhes = () => {
               <CardContent className="p-6">
                 {/* Cover Image */}
                 <div className="w-full h-80 bg-gradient-leather rounded-lg shadow-golden border-2 border-library-bronze relative overflow-hidden mb-6">
-                  {book.coverImageUrl ? (
-                    <img
-                      src={book.coverImageUrl}
-                      alt={`Capa de ${book.title}`}
-                      className="w-full h-full object-cover"
-                    />
-                  ) : (
-                    <div className="w-full h-full flex items-center justify-center">
-                      <BookOpen className="h-16 w-16 text-library-gold" />
-                    </div>
-                  )}
+                  <SafeImage
+                    src={book.coverImageUrl}
+                    alt={`Capa de ${book.title}`}
+                    className="w-full h-full object-cover"
+                    fallback={
+                      <div className="w-full h-full flex items-center justify-center">
+                        <BookOpen className="h-16 w-16 text-library-gold" />
+                      </div>
+                    }
+                  />
                   {/* Ornamental corners */}
                   <div className="absolute top-3 right-3 w-4 h-4 border-t-2 border-r-2 border-library-gold"></div>
                   <div className="absolute bottom-3 left-3 w-4 h-4 border-b-2 border-l-2 border-library-gold"></div>
@@ -95,12 +95,6 @@ const LivroDetalhes = () => {
                   )}
                 </div>
 
-                {/* AdSense Block */}
-                <div className="mt-6 p-4 bg-library-gold/10 rounded-lg border border-library-bronze/30">
-                  <p className="text-xs text-center text-library-bronze font-body">
-                    [ Espaço para Google AdSense ]
-                  </p>
-                </div>
               </CardContent>
             </Card>
           </div>

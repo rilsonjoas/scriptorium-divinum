@@ -4,7 +4,7 @@ import { useSiteSettings } from '@/hooks/useDatabase';
 const Sobre = () => {
   const { data: settings } = useSiteSettings();
   const siteName = settings?.siteName ?? 'Scriptorium Divinum';
-  const contactEmail = settings?.contactEmail ?? 'contato@scriptorium-divinum.com';
+  const contactEmail = settings?.contactEmail ?? 'rilsonjoas10@gmail.com';
 
   return (
     <Layout>

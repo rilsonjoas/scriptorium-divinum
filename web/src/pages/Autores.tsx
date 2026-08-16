@@ -5,6 +5,7 @@ import { User, Calendar, BookOpen, Loader2 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useAuthors, useBooks } from '@/hooks/useDatabase';
 import { useMemo } from 'react';
+import { SafeImage } from '@/components/SafeImage';
 
 const Autores = () => {
   const { data: authors, isLoading: authorsLoading, error: authorsError } = useAuthors();
@@ -68,17 +69,16 @@ const Autores = () => {
                 {/* Author Portrait */}
                 <div className="flex flex-col items-center mb-4">
                   <div className="w-24 h-24 bg-gradient-leather rounded-full shadow-golden border-4 border-library-bronze relative overflow-hidden mb-4">
-                    {author.portraitImageUrl ? (
-                      <img
-                        src={author.portraitImageUrl}
-                        alt={`Retrato de ${author.name}`}
-                        className="w-full h-full object-cover"
-                      />
-                    ) : (
-                      <div className="w-full h-full flex items-center justify-center">
-                        <User className="h-8 w-8 text-library-gold" />
-                      </div>
-                    )}
+                    <SafeImage
+                      src={author.portraitImageUrl}
+                      alt={`Retrato de ${author.name}`}
+                      className="w-full h-full object-cover"
+                      fallback={
+                        <div className="w-full h-full flex items-center justify-center">
+                          <User className="h-8 w-8 text-library-gold" />
+                        </div>
+                      }
+                    />
                     {/* Decorative corner */}
                     <div className="absolute top-1 right-1 w-2 h-2 border-t border-r border-library-gold"></div>
                     <div className="absolute bottom-1 left-1 w-2 h-2 border-b border-l border-library-gold"></div>
