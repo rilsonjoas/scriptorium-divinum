@@ -153,8 +153,19 @@ volta à mesa (seção "Ordem recomendada").
 - [ ] Modo escuro/claro — só existem as variantes `dark:` do shadcn/ui;
       sem toggle e sem tema aplicado no app
 - [ ] Loading states "mais elegantes" — item aberto no próprio README
-- [ ] Acessibilidade — não mencionada em nenhum lugar do projeto até
-      agora, provavelmente zero auditoria feita
+- [ ] **Acessibilidade e identidade visual — confirmado ainda não feito
+      (checado 2026-08-16)**: durante a sessão de 8h com o opencode em
+      2026-08-14 (auth própria, CRUD admin, CI/CD, 1º conteúdo — ver
+      commits daquele dia), só **1** atributo de acessibilidade real
+      entrou no código inteiro (`aria-label="Remover link"` no painel
+      admin). Nada de contraste WCAG calculado, `focus-visible`,
+      `sr-only`, dark mode aplicado, ou os itens de "Identidade aplicada
+      aqui" (capitular, `signature-italic`, `frame-tondo`) — todos
+      **planejados, nenhum implementado**. Fácil de confundir com o
+      Lecionário, que levou essa passada completa de verdade na mesma
+      janela de tempo, em projeto separado. Quando isto voltar à mesa:
+      repetir a receita que funcionou lá (contraste com conta real, não
+      só olhar; teste em componente real, não suposição).
 
 ## P8 — Funcionalidades / entrega de valor real
 
