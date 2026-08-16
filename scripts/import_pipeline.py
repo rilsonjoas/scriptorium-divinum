@@ -2,6 +2,7 @@
 import os
 import re
 import json
+import html
 import urllib.request
 import urllib.parse
 import http.cookiejar
@@ -143,6 +144,34 @@ def clean_gutenberg_text(text):
         
     return content.strip()
 
+def download_wikisource_rendered(page_title):
+    # Terceiro nível de fallback: pede o HTML já renderizado (prop=text) em
+    # vez do wikitexto cru. Necessário pra páginas que usam a extensão
+    # ProofreadPage (`<pages index="..." from=X to=Y />`) — o wikitexto cru
+    # só tem a *referência* às páginas escaneadas, não o texto; o endpoint
+    # de render expande a transclusão de verdade. Achado real 2026-08-16:
+    # 4 sermões do Padre Vieira + De Magistro (Agostinho) falhavam por isso.
+    url = f"https://pt.wikisource.org/w/api.php?action=parse&page={urllib.parse.quote(page_title)}&format=json&prop=text"
+    try:
+        print(f"Tentando fallback (HTML renderizado) para '{page_title}'...")
+        content = fetch_url_with_retry(url, headers={'User-Agent': 'ScriptoriumImportPipeline/1.0'})
+        data = json.loads(content.decode("utf-8"))
+        html_text = data.get("parse", {}).get("text", {}).get("*", "")
+        if not html_text:
+            return None
+        # Preserva estrutura de título antes de tirar as tags
+        html_text = re.sub(r"<h[23][^>]*>(.*?)</h[23]>", lambda m: f"\n## {re.sub('<[^>]+>', '', m.group(1)).strip()}\n", html_text, flags=re.DOTALL)
+        text = re.sub(r"<[^>]+>", " ", html_text)
+        text = html.unescape(text)
+        text = re.sub(r"[ \t]+", " ", text)
+        text = re.sub(r"\n\s*\n+", "\n\n", text)
+        text = text.strip()
+        if len(text) > 300:
+            return text
+    except Exception as e:
+        print(f"Erro no fallback de HTML renderizado do Wikisource: {e}", file=sys.stderr)
+    return None
+
 def download_wikisource(page_title):
     # Utiliza a API parse para obter o wikitexto estruturado da página do Wikisource
     url = f"https://pt.wikisource.org/w/api.php?action=parse&page={urllib.parse.quote(page_title)}&format=json&prop=wikitext"
@@ -156,7 +185,7 @@ def download_wikisource(page_title):
             return wikitext
     except Exception as e:
         print(f"Erro ao baixar wikitexto do Wikisource: {e}", file=sys.stderr)
-        
+
     # Fallback para query/extracts
     url_fallback = f"https://pt.wikisource.org/w/api.php?action=query&prop=extracts&explaintext=1&titles={urllib.parse.quote(page_title)}&format=json"
     try:
@@ -165,12 +194,16 @@ def download_wikisource(page_title):
         data = json.loads(content.decode("utf-8"))
         pages = data.get("query", {}).get("pages", {})
         for pid, pdata in pages.items():
-            if "extract" in pdata:
+            # Checagem de verdade (não só a chave existir) — achado 2026-08-16:
+            # páginas com transclusão ProofreadPage retornam "extract": "" (vazio),
+            # o que fazia retornar cedo demais e nunca chegar no fallback de HTML
+            if pdata.get("extract"):
                 return pdata["extract"]
     except Exception as e:
         print(f"Erro no fallback do Wikisource: {e}", file=sys.stderr)
-        
-    return None
+
+    # Último fallback: HTML renderizado (resolve transclusão ProofreadPage)
+    return download_wikisource_rendered(page_title)
 
 def clean_wikisource_text(text):
     # Remove tags HTML comuns no wikitexto e cabeçalhos de predefinições do Wikisource

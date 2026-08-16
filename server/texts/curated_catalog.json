@@ -11,8 +11,16 @@
     "gutenberg_id": 62383,
     "wikisource_title": null,
     "language": "Português",
-    "categories": ["Bíblia", "Clássicos", "Histórico"],
-    "tags": ["bíblia", "escrituras", "harpa"]
+    "categories": [
+      "Bíblia",
+      "Clássicos",
+      "Histórico"
+    ],
+    "tags": [
+      "bíblia",
+      "escrituras",
+      "harpa"
+    ]
   },
   {
     "title": "Sermão de Santo António aos Peixes",
@@ -25,8 +33,16 @@
     "gutenberg_id": null,
     "wikisource_title": "Sermão de Santo António (1654)",
     "language": "Português",
-    "categories": ["Sermões", "Literatura Barroca", "Clássicos"],
-    "tags": ["antonio-vieira", "sermões", "barroco"]
+    "categories": [
+      "Sermões",
+      "Literatura Barroca",
+      "Clássicos"
+    ],
+    "tags": [
+      "antonio-vieira",
+      "sermões",
+      "barroco"
+    ]
   },
   {
     "title": "Sermão da Sexagésima",
@@ -39,8 +55,16 @@
     "gutenberg_id": null,
     "wikisource_title": "Sermões do padre Antonio Vieira/Sermão da Sexagesima",
     "language": "Português",
-    "categories": ["Sermões", "Literatura Barroca", "Clássicos"],
-    "tags": ["antonio-vieira", "sermões", "retórica"]
+    "categories": [
+      "Sermões",
+      "Literatura Barroca",
+      "Clássicos"
+    ],
+    "tags": [
+      "antonio-vieira",
+      "sermões",
+      "retórica"
+    ]
   },
   {
     "title": "Sermão do Mandato",
@@ -53,8 +77,15 @@
     "gutenberg_id": null,
     "wikisource_title": "Sermão do Mandato (1655)",
     "language": "Português",
-    "categories": ["Sermões", "Literatura Barroca"],
-    "tags": ["antonio-vieira", "sermões", "mandato"]
+    "categories": [
+      "Sermões",
+      "Literatura Barroca"
+    ],
+    "tags": [
+      "antonio-vieira",
+      "sermões",
+      "mandato"
+    ]
   },
   {
     "title": "Sermão pelo Bom Sucesso das Armas de Portugal contra as de Holanda",
@@ -67,22 +98,15 @@
     "gutenberg_id": null,
     "wikisource_title": "Sermão pelo Bom Sucesso das Armas de Portugal contra as de Holanda (1640)",
     "language": "Português",
-    "categories": ["Sermões", "Literatura Barroca"],
-    "tags": ["antonio-vieira", "sermões", "armas-portugal"]
-  },
-  {
-    "title": "De Magistro",
-    "author": "Santo Agostinho de Hipona",
-    "translator": "Desconhecido (Tradução antiga)",
-    "original_title": "De Magistro",
-    "publication_year_original": "389",
-    "publication_year_translation": 1900,
-    "source": "Wikisource PT",
-    "gutenberg_id": null,
-    "wikisource_title": "De Magistro",
-    "language": "Português",
-    "categories": ["Patrística", "Filosofia Cristã"],
-    "tags": ["santo-agostinho", "educação", "diálogo"]
+    "categories": [
+      "Sermões",
+      "Literatura Barroca"
+    ],
+    "tags": [
+      "antonio-vieira",
+      "sermões",
+      "armas-portugal"
+    ]
   },
   {
     "title": "Castelo Forte é o Nosso Deus",
@@ -95,8 +119,15 @@
     "gutenberg_id": null,
     "wikisource_title": "Castelo Forte é o Nosso Deus",
     "language": "Português",
-    "categories": ["Reforma Protestante", "Hinos"],
-    "tags": ["martinho-lutero", "hino", "harpa-crista"]
+    "categories": [
+      "Reforma Protestante",
+      "Hinos"
+    ],
+    "tags": [
+      "martinho-lutero",
+      "hino",
+      "harpa-crista"
+    ]
   },
   {
     "title": "Sermão da Dominga XIX depois do Pentecoste",
@@ -109,8 +140,15 @@
     "gutenberg_id": null,
     "wikisource_title": "Sermão da Dominga XIX depois do Pentecoste",
     "language": "Português",
-    "categories": ["Sermões", "Literatura Barroca"],
-    "tags": ["antonio-vieira", "sermões", "pentecoste"]
+    "categories": [
+      "Sermões",
+      "Literatura Barroca"
+    ],
+    "tags": [
+      "antonio-vieira",
+      "sermões",
+      "pentecoste"
+    ]
   },
   {
     "title": "Sermão do Mandato (1670)",
@@ -123,8 +161,15 @@
     "gutenberg_id": null,
     "wikisource_title": "Sermão do Mandato (1670)",
     "language": "Português",
-    "categories": ["Sermões", "Literatura Barroca"],
-    "tags": ["antonio-vieira", "sermões", "mandato"]
+    "categories": [
+      "Sermões",
+      "Literatura Barroca"
+    ],
+    "tags": [
+      "antonio-vieira",
+      "sermões",
+      "mandato"
+    ]
   },
   {
     "title": "Sermão da Quinta Dominga da Quaresma",
@@ -137,8 +182,15 @@
     "gutenberg_id": null,
     "wikisource_title": "Sermão da Quinta Dominga da Quaresma",
     "language": "Português",
-    "categories": ["Sermões", "Literatura Barroca"],
-    "tags": ["antonio-vieira", "sermões", "quaresma"]
+    "categories": [
+      "Sermões",
+      "Literatura Barroca"
+    ],
+    "tags": [
+      "antonio-vieira",
+      "sermões",
+      "quaresma"
+    ]
   },
   {
     "title": "Relação da Missão da Serra de Ibiapaba",
@@ -151,8 +203,17 @@
     "gutenberg_id": null,
     "wikisource_title": "Relação da Missão da Serra de Ibiapaba",
     "language": "Português",
-    "categories": ["Histórico", "Missões", "Literatura Barroca"],
-    "tags": ["antonio-vieira", "missões", "ibiapaba", "indígenas"]
+    "categories": [
+      "Histórico",
+      "Missões",
+      "Literatura Barroca"
+    ],
+    "tags": [
+      "antonio-vieira",
+      "missões",
+      "ibiapaba",
+      "indígenas"
+    ]
   },
   {
     "title": "Auto da Barca do Inferno",
@@ -165,8 +226,15 @@
     "gutenberg_id": null,
     "wikisource_title": "Auto da Barca do Inferno",
     "language": "Português",
-    "categories": ["Drama Alegórico", "Teatro Clássico"],
-    "tags": ["gil-vicente", "teatro", "alegoria"]
+    "categories": [
+      "Drama Alegórico",
+      "Teatro Clássico"
+    ],
+    "tags": [
+      "gil-vicente",
+      "teatro",
+      "alegoria"
+    ]
   },
   {
     "title": "Auto da Alma",
@@ -179,8 +247,15 @@
     "gutenberg_id": null,
     "wikisource_title": "Auto da Alma",
     "language": "Português",
-    "categories": ["Drama Alegórico", "Teatro Clássico"],
-    "tags": ["gil-vicente", "teatro", "alma"]
+    "categories": [
+      "Drama Alegórico",
+      "Teatro Clássico"
+    ],
+    "tags": [
+      "gil-vicente",
+      "teatro",
+      "alma"
+    ]
   },
   {
     "title": "The Pilgrim's Progress",
@@ -193,8 +268,17 @@
     "gutenberg_id": 131,
     "wikisource_title": null,
     "language": "Inglês",
-    "categories": ["Puritanism", "Devotional Literature", "Allegory"],
-    "tags": ["john-bunyan", "pilgrim", "journey", "english"]
+    "categories": [
+      "Puritanism",
+      "Devotional Literature",
+      "Allegory"
+    ],
+    "tags": [
+      "john-bunyan",
+      "pilgrim",
+      "journey",
+      "english"
+    ]
   },
   {
     "title": "Grace Abounding to the Chief of Sinners",
@@ -207,8 +291,16 @@
     "gutenberg_id": 654,
     "wikisource_title": null,
     "language": "Inglês",
-    "categories": ["Puritanism", "Autobiography"],
-    "tags": ["john-bunyan", "grace", "autobiography", "english"]
+    "categories": [
+      "Puritanism",
+      "Autobiography"
+    ],
+    "tags": [
+      "john-bunyan",
+      "grace",
+      "autobiography",
+      "english"
+    ]
   },
   {
     "title": "The Holy War",
@@ -221,8 +313,16 @@
     "gutenberg_id": 395,
     "wikisource_title": null,
     "language": "Inglês",
-    "categories": ["Puritanism", "Allegory"],
-    "tags": ["john-bunyan", "holy-war", "allegory", "english"]
+    "categories": [
+      "Puritanism",
+      "Allegory"
+    ],
+    "tags": [
+      "john-bunyan",
+      "holy-war",
+      "allegory",
+      "english"
+    ]
   },
   {
     "title": "Concerning Christian Liberty",
@@ -235,8 +335,16 @@
     "gutenberg_id": 1911,
     "wikisource_title": null,
     "language": "Inglês",
-    "categories": ["Reformation", "Theology"],
-    "tags": ["martin-luther", "liberty", "faith", "english"]
+    "categories": [
+      "Reformation",
+      "Theology"
+    ],
+    "tags": [
+      "martin-luther",
+      "liberty",
+      "faith",
+      "english"
+    ]
   },
   {
     "title": "The Large Catechism",
@@ -249,8 +357,16 @@
     "gutenberg_id": 6867,
     "wikisource_title": null,
     "language": "Inglês",
-    "categories": ["Reformation", "Catechism"],
-    "tags": ["martin-luther", "catechism", "large", "english"]
+    "categories": [
+      "Reformation",
+      "Catechism"
+    ],
+    "tags": [
+      "martin-luther",
+      "catechism",
+      "large",
+      "english"
+    ]
   },
   {
     "title": "The Small Catechism",
@@ -263,8 +379,16 @@
     "gutenberg_id": 6868,
     "wikisource_title": null,
     "language": "Inglês",
-    "categories": ["Reformation", "Catechism"],
-    "tags": ["martin-luther", "catechism", "small", "english"]
+    "categories": [
+      "Reformation",
+      "Catechism"
+    ],
+    "tags": [
+      "martin-luther",
+      "catechism",
+      "small",
+      "english"
+    ]
   },
   {
     "title": "The Confessions of St. Augustine",
@@ -277,8 +401,16 @@
     "gutenberg_id": 3296,
     "wikisource_title": null,
     "language": "Inglês",
-    "categories": ["Patristics", "Autobiography"],
-    "tags": ["st-augustine", "confessions", "pusey", "english"]
+    "categories": [
+      "Patristics",
+      "Autobiography"
+    ],
+    "tags": [
+      "st-augustine",
+      "confessions",
+      "pusey",
+      "english"
+    ]
   },
   {
     "title": "Thoughts (Pensées)",
@@ -291,8 +423,16 @@
     "gutenberg_id": 18269,
     "wikisource_title": null,
     "language": "Inglês",
-    "categories": ["Apologetics", "Christian Philosophy"],
-    "tags": ["pascal", "pensees", "trotter", "english"]
+    "categories": [
+      "Apologetics",
+      "Christian Philosophy"
+    ],
+    "tags": [
+      "pascal",
+      "pensees",
+      "trotter",
+      "english"
+    ]
   },
   {
     "title": "Proslogium; Monologium; Cur Deus Homo",
@@ -305,8 +445,18 @@
     "gutenberg_id": 48512,
     "wikisource_title": null,
     "language": "Inglês",
-    "categories": ["Scholasticism", "Theology", "Philosophy"],
-    "tags": ["anselm", "proslogium", "monologium", "cur-deus-homem", "english"]
+    "categories": [
+      "Scholasticism",
+      "Theology",
+      "Philosophy"
+    ],
+    "tags": [
+      "anselm",
+      "proslogium",
+      "monologium",
+      "cur-deus-homem",
+      "english"
+    ]
   },
   {
     "title": "The Rule of Saint Benedict",
@@ -319,8 +469,16 @@
     "gutenberg_id": 5040,
     "wikisource_title": null,
     "language": "Inglês",
-    "categories": ["Patristics", "Monastic Rule"],
-    "tags": ["benedict", "monasticism", "rule", "english"]
+    "categories": [
+      "Patristics",
+      "Monastic Rule"
+    ],
+    "tags": [
+      "benedict",
+      "monasticism",
+      "rule",
+      "english"
+    ]
   },
   {
     "title": "De Consolatione Philosophiae",
@@ -333,8 +491,15 @@
     "gutenberg_id": 61845,
     "wikisource_title": null,
     "language": "Latim",
-    "categories": ["Philosophy", "Scholasticism"],
-    "tags": ["boethius", "latin", "consolation"]
+    "categories": [
+      "Philosophy",
+      "Scholasticism"
+    ],
+    "tags": [
+      "boethius",
+      "latin",
+      "consolation"
+    ]
   },
   {
     "title": "The Consolation of Philosophy",
@@ -347,7 +512,14 @@
     "gutenberg_id": 14328,
     "wikisource_title": null,
     "language": "Inglês",
-    "categories": ["Philosophy", "Scholasticism"],
-    "tags": ["boethius", "consolation", "english"]
+    "categories": [
+      "Philosophy",
+      "Scholasticism"
+    ],
+    "tags": [
+      "boethius",
+      "consolation",
+      "english"
+    ]
   }
 ]
