@@ -246,8 +246,34 @@ curadoria deles — é o atalho seguro pra não reavaliar cada obra do zero.
 4. **QA por lote** — cada lote passa pelas suítes existentes (visual/
    a11y, ver P4) + leitura de amostra antes de publicar.
 
-**Não começado ainda** — registrado aqui pra não se perder, retomar
-quando o projeto voltar à mesa (ver "Ordem recomendada" abaixo).
+**Atualização 2026-08-16, 01:24** — não é mais "não começado": o plano
+virou código de verdade (fora da sessão registrada acima, via opencode).
+Commit `feat(catalog): grow catalog, add multilingual support & language
+badges` — 21 obras novas em `server/texts/` (Bíblia completa, Boécio,
+Bunyan, Lutero — catecismos grande/pequeno, "Da Liberdade Crist",
+sermões de padres jesuítas do Brasil colonial, e mais), `curated_catalog.json`,
+`scripts/import_pipeline.py` (pipeline de importação via API admin,
+autenticação por cookie de sessão), badges de idioma no `BookCard.tsx`,
+página `DominioPublico.tsx` nova. **Já no ar**: código deployado e
+verificado (site/API 200, `git pull` + rebuild no VPS confirmado via
+GitHub Actions).
+
+**Pendente — passo final, fica pro Rilson rodar quando descansar:**
+popular o banco de produção (hoje ainda em 8 obras, confirmado por API
+real). Rodar da máquina local, apontando pra produção:
+
+```bash
+API_URL=https://api-scriptorium.narniano.com \
+ADMIN_EMAIL=<email-admin-prod> \
+ADMIN_PASSWORD=<senha-admin-prod> \
+python3 scripts/import_pipeline.py
+```
+
+Lê os 21 markdowns locais e cadastra via `/api/v1/admin/login` (cookie
+de sessão) + `/api/v1/admin/authors` + `/api/v1/admin/books` (POST, ou
+PATCH se já existir). Sem dependência Python externa (só stdlib).
+Rodar localmente por decisão do Rilson (2026-08-16) — senha de admin de
+produção não deveria transitar pelo chat.
 
 ## P9 — Documentação
 
