@@ -218,22 +218,27 @@ volta à mesa (seção "Ordem recomendada").
 
 ## P8 — Funcionalidades / entrega de valor real
 
-- [ ] **Dívida de conteúdo no "Compêndio de Teologia" (achado real
-      2026-08-16, testando em produção)**: `coverImageUrl`/
-      `portraitImageUrl` no banco apontam pra `/images/covers/
-      compendio-tomas.jpg` e `/images/authors/tomas-aquino.jpg` —
-      arquivos que nunca foram enviados ao servidor (404 real). Mesma
-      coisa em "A Cidade de Deus" (`cidade-de-deus.jpg`). `onlineReadPath`
-      aponta pra um `.md` que não existe (`textAvailable` já corrigido
-      pra `false` corretamente, então o botão "Ler Online" não aparece
-      mais — mas a obra continua sem leitura online de verdade).
-      `downloadLinks` tem uma URL local fake (`/downloads/tomas/
-      compendio-teologia.pdf`, nginx 404) com `source: "Internet
-      Archive"` enganoso — devia ser uma URL real do Archive.org ou
-      removida. Existem retratos de Tomás de Aquino em domínio público
-      (ex. Carlo Crivelli, 1476, National Gallery — via Wikimedia
-      Commons) que dariam pra usar; nenhum código bloqueia isso, é
-      trabalho de curadoria de conteúdo, não bug.
+- [x] **Retrato de Tomás de Aquino resolvido (2026-08-16)** — Carlo
+      Crivelli (pintor renascentista, c. 1430-1495), confirmado domínio
+      público no Wikimedia Commons, redimensionado (13MB/4004x6000 →
+      92KB/534x800) e publicado em `/images/authors/tomas-aquino.jpg`.
+- [ ] **Ainda pendente — texto e capa do "Compêndio de Teologia"
+      (pesquisado de verdade, 2026-08-16)**: a tradução referenciada
+      (D. Odilão Moura, 1935) **não foi encontrada disponível
+      livremente** em nenhuma fonte checada (Gutenberg, Wikisource,
+      busca geral) — `onlineReadPath` aponta pra um arquivo que nunca
+      existiu. Opções reais: (a) trocar a obra referenciada por uma
+      tradução de domínio público confirmada da Suma Teológica em
+      inglês (Gutenberg, dominicanos ingleses, 4 volumes já
+      catalogados e prontos — muda o que está anunciado), (b) manter só
+      como ficha bibliográfica, sem leitura online, até achar a
+      tradução de verdade, ou (c) obter permissão de uma edição
+      moderna. Mesma coisa em "A Cidade de Deus" (`cidade-de-deus.jpg`
+      404 — capa nunca verificada, não pesquisada ainda).
+      `downloadLinks` do Compêndio também tem uma URL local fake
+      (`/downloads/tomas/compendio-teologia.pdf`, nginx 404) com
+      `source: "Internet Archive"` enganoso — remover até ter uma URL
+      real.
 
 Direto do "Próximos Passos" do próprio README do projeto — nada inventado
 aqui, só organizado por prioridade real. Verificado contra o código em
