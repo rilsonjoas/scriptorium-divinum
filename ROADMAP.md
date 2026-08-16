@@ -1,5 +1,24 @@
 # Roadmap — Scriptorium Divinum
 
+**Status (2026-08-16):** migrado do Supabase pro VPS Hetzner próprio,
+self-hosted (Fastify + Drizzle + Postgres, Docker multi-stage, Traefik,
+CI/CD completo via GitHub Actions com deploy automático em `push` na
+`main`). 32 obras publicadas (8 originais + 24 novas — patrística,
+reforma, Padre Antônio Vieira), admin com auth própria por cookie de
+sessão, leitor online funcional. **Não é mais "o menos maduro em
+infra" dos projetos pessoais** — essa era a realidade de 2026-08-08
+(parágrafo original abaixo, mantido só por histórico); hoje CI/CD e
+testes automatizados já existem, cobertos nas seções P3/P4.
+
+O que ainda falta, de verdade: **design/UI-UX/acessibilidade do projeto
+inteiro** (1 único `aria-label` em todo o código, zero contraste
+calculado — ver "Identidade aplicada aqui" abaixo) e **crescer o
+catálogo continuamente** (P8.1) — são os dois maiores gargalos reais
+agora, não infra.
+
+<details>
+<summary>Levantamento original (2026-08-08), mantido por histórico</summary>
+
 Levantamento feito em 2026-08-08, na mesma sessão em que biblia-na-arte e
 meus-remedios foram migrados pro VPS Hetzner próprio, self-hosted, sem
 Supabase. Este documento não existia antes — é a primeira vez que o
@@ -21,9 +40,39 @@ Drizzle + Zod), Postgres self-hosted com role isolada, Docker multi-stage,
 Traefik. **Migração deliberadamente adiada** — não começar sem pedido
 explícito.
 
+</details>
+
 Mesmo padrão de fases usado em todos os projetos pessoais — categorias e
 justificativa completa em `hetzner-infra/PADRAO-DE-ENGENHARIA.md`, risco
 real primeiro, polimento depois.
+
+### Resumo de hoje (2026-08-16), em ordem
+
+1. Confirmado que a sessão de 8h do opencode (2026-08-14 tarde/noite —
+   auth própria, CRUD admin, sitemap, CI/CD, 1º conteúdo real) estava
+   **inteiramente commitada, pushada e no ar** — nada perdido, só uma
+   confusão de fuso/tempo decorrido (ver histórico do chat)
+2. Deploy do catálogo novo (commit `feat(catalog)`, 21 obras +
+   multilíngue) confirmado em produção
+3. **Achado e corrigido**: crash fatal em `/livros` — `<SelectItem
+   value=""/>` no filtro de categoria (Radix proíbe valor vazio),
+   quebrava a página inteira sempre que carregava
+4. Import rodado pelo Rilson: 21/25 obras novas com sucesso, 4 falhas
+   por download do Wikisource
+5. **Causa raiz das 4 falhas corrigida**: páginas com extensão
+   ProofreadPage (`<pages .../>`) precisam do HTML renderizado
+   (`prop=text`), não do wikitexto cru; + bug real no fallback de
+   `extracts` (`"extract" in pdata` vs `pdata.get("extract")`) —
+   3 das 4 corrigidas e publicadas, catálogo em **32 obras no total**
+6. **De Magistro** identificado como tradução moderna (2015, CC BY-SA
+   4.0) em vez de domínio público — removido do catálogo até decisão
+7. Testado em produção pelo Rilson: achados reais de UI (AdSense
+   placeholder vazado, imagem quebrada sem fallback, rota de autor
+   inexistente, e-mail falso, textos de rodapé) — todos corrigidos,
+   componente `SafeImage` novo generaliza o fix de imagem quebrada
+8. Registradas pendências de conteúdo (capa/retrato de Tomás de
+   Aquino, texto do Compêndio, download quebrado) e de identidade
+   visual (logo/favicon genérico) pro futuro
 
 ---
 
