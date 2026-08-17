@@ -313,7 +313,7 @@ export default function Contribuir() {
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button className="bg-library-gold hover:bg-library-gold/90 text-library-wood font-body">
                   <Mail className="h-4 w-4 mr-2" />
-                  rilsonjoas10@gmail.com
+                  scriptorium@narniano.com
                 </Button>
                 <Button variant="outline" className="border-library-gold text-library-gold hover:bg-library-gold hover:text-library-wood font-body">
                   <Github className="h-4 w-4 mr-2" />

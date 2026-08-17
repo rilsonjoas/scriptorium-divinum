@@ -19,7 +19,7 @@ import { Save, Loader2, Globe, Shield, Info, CheckCircle, AlertTriangle } from '
 const DEFAULT_SETTINGS: SiteSettings = {
   siteName: 'Scriptorium Divinum',
   siteDescription: 'Explore o vasto tesouro da teologia cristã em domínio público',
-  contactEmail: 'rilsonjoas10@gmail.com',
+  contactEmail: 'scriptorium@narniano.com',
   featuredBooksCount: 3,
   booksPerPage: 20,
   maintenanceMode: false,

@@ -5,7 +5,7 @@ import { useSiteSettings } from '@/hooks/useDatabase';
 export function Footer() {
   const { data: settings } = useSiteSettings();
   const siteName = settings?.siteName ?? 'Scriptorium Divinum';
-  const contactEmail = settings?.contactEmail ?? 'rilsonjoas10@gmail.com';
+  const contactEmail = settings?.contactEmail ?? 'scriptorium@narniano.com';
 
   return (
     <footer className="bg-gradient-leather text-primary-foreground mt-20">

@@ -132,7 +132,10 @@ export const siteSettings = pgTable(
       .default('Explore o vasto tesouro da teologia cristã em domínio público'),
     contactEmail: varchar('contact_email', { length: 255 })
       .notNull()
-      .default('contato@scriptorium-divinum.com'),
+      // Achado 2026-08-16: era 'contato@scriptorium-divinum.com', domínio
+      // que o Rilson não possui — mailto sempre falhava. Alias real
+      // criado e testado (redireciona pro Gmail via cPanel).
+      .default('scriptorium@narniano.com'),
     featuredBooksCount: integer('featured_books_count').notNull().default(3),
     booksPerPage: integer('books_per_page').notNull().default(20),
     maintenanceMode: boolean('maintenance_mode').notNull().default(false),
