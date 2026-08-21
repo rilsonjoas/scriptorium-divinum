@@ -301,6 +301,34 @@ já seguem esse padrão (J. Oliveira Santos, Oscar Paes Leme, Waldyr
 Carvalho Luz...). Gutenberg e Wikisource já aplicam esse filtro na
 curadoria deles — é o atalho seguro pra não reavaliar cada obra do zero.
 
+> [!WARNING] Teto do catálogo é menor do que parecia (achado 2026-08-21)
+> O plano abaixo já mirava só "~30-50 obras" desde o início, e o
+> catálogo está em 32 — perto do teto que o próprio plano previa, não
+> longe dele. O motivo é estrutural, não falta de busca: PD em teologia
+> clássica em português exige **duas** coisas raras juntas — o original
+> (fácil, patrística/reforma é PD há séculos) **e** uma tradução PT-BR
+> velha o bastante pra também ser PD (tradutor morto há ≥70 anos). A
+> tradição de tradução evangélica/católica pra português é
+> majoritariamente do séc. XX (Casa Publicadora, Vida Nova, Fiel etc.)
+> — tarde demais pra estar em domínio público hoje. O inglês tem esse
+> problema muito menos (tradição de tradução do séc. XIX, CCEL vive
+> disso), o português não.
+>
+> Caminhos reais pra crescer além desse teto natural, nenhum trivial:
+> 1. **Publicar também em latim/grego/inglês original** sem tradução
+>    PT-BR — mais obras, mas afasta da proposta "em português"
+> 2. **Comissionar/crowdsourcing de tradução nova**, licenciada aberta
+>    (CC BY-SA) desde o nascimento — não depende de esperar 70 anos,
+>    mas é trabalho de verdade, não import automatizado
+> 3. **Ampliar a busca pra Portugal**, não só Brasil — tradição de
+>    tradução católica portuguesa é mais antiga em alguns casos,
+>    universo de fontes PD ligeiramente maior
+> 4. **Aceitar o teto** — 30-50 obras bem curadas, com leitor e busca
+>    de verdade, ainda é mais do que existe hoje em qualquer lugar
+>    centralizado em português; "pequeno mas definitivo" é uma posição
+>    legítima, não precisa comparar com Gutenberg (900+ mil obras, todo
+>    idioma/gênero)
+
 **Plano de execução (4 passos):**
 1. **Curadoria** — catálogo-alvo em JSON (~30-50 obras: patrística,
    reforma, devocionais, teologia), cada item com `{obra, autor,
@@ -389,6 +417,56 @@ Gutenberg/Wikisource. Resultado real, não suposição:
       no Ar" só com o que existe de fato, instruções de setup local e
       estrutura do workspace; deixou de anunciar recursos inexistentes
       (leitor, dark mode etc.)
+
+---
+
+## P10 — Monetização (registrado 2026-08-21, não começado)
+
+Achado ao registrar isto: `web/src/pages/Sobre.tsx` já lista há um
+tempo três itens de monetização como se existissem — "Google AdSense
+integrado", "Doações voluntárias", "Links de afiliados" — nenhum dos
+três está implementado (confirmado: nenhum script `ca-pub`, nenhum
+componente de doação ou afiliado no código). É a mesma classe de
+problema que o P9 acima já corrigiu uma vez no README ("deixou de
+anunciar recursos inexistentes") — aconteceu de novo, agora na página
+Sobre. Duas rotas: implementar de verdade (itens abaixo) ou reescrever
+o texto pra "planejado", não "feito", enquanto isso não acontece.
+
+Prioridade revisada em 2026-08-21, alinhada com a mesma política que
+ficou clara nos outros projetos pessoais nesta sessão: **doação e
+afiliado agora, anúncio (AdSense) fica pra depois.**
+
+- [ ] **Amazon Associates — links pra edição impressa das obras**
+      (fazer agora). Não compete com o acervo digital grátis — o texto
+      de domínio público continua livre pra ler; o link é só pra quem
+      quer a edição física encadernada. Componente já existe pronto
+      pra portar: `BookCard.tsx` do repo `TestePolitico` (busca capa
+      via Google Books API, recebe `title`/`link`/`description`) —
+      reaplicar na página de detalhe de cada obra (`/livro/:id` ou
+      equivalente), 1 link por autor/obra, não por edição.
+- [ ] **Doações voluntárias (Pix/Ko-fi) — fazer agora, junto com o
+      Amazon Associates**, não depois. Baixo esforço de implementar;
+      modelo "quem lê sustenta o acervo" combina com um projeto que já
+      é sobre tornar acesso gratuito, sem contrapartida de destaque ou
+      influência editorial — mesma lógica adotada no `a-bancada-
+      evangelica`.
+- [ ] **Google AdSense — não agora, critério revisado.** Catálogo (32
+      obras) não é mais o gargalo de credibilidade que era com "1 obra
+      no ar", mas o teto natural do acervo é baixo (ver aviso em P8.1
+      — PD em teologia PT-BR é estruturalmente raro, ~30-50 obras pode
+      ser perto do máximo alcançável sem comissionar tradução nova).
+      Não amarrar a decisão só a "catálogo > N obras", que pode nunca
+      vir — o critério real é **tráfego orgânico mensurado** (GA4/
+      Plausible ainda não configurado, ver P5) sendo diferente de
+      zero por tempo suficiente. Aplicar antes disso arrisca rejeição
+      por conteúdo/tráfego insuficiente, igual ao que aconteceu no
+      Teste Político antes da correção de 08/21.
+- [ ] **Até Amazon Associates e doação saírem do zero, ajustar o texto
+      do `Sobre.tsx`** pra não afirmar como fato o que ainda não
+      existe (trocar "Google AdSense integrado" por algo como "estamos
+      avaliando formas discretas de sustentar o projeto", etc.) — e
+      atualizar de novo assim que cada item for implementado de
+      verdade, pra não trocar uma mentira por outra.
 
 ---
 
