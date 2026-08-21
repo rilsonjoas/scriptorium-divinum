@@ -629,3 +629,31 @@ no `meus-remedios` (único projeto pessoal com OAuth de usuário real hoje)
       `12 - Redes sociais/Identidade visual geral.md` no vault e
       `hetzner-infra/PADRAO-DE-ENGENHARIA.md`. Mesma pendência de
       reconciliação de dourado que o Bíblia na Arte tem — ver lá.
+
+---
+
+## Backlog de Produto — Issues e Bugs (levantamento 2026-08-21)
+
+> Levantamento feito pelo Rilson ao usar o produto de verdade.
+> Organizado por gravidade.
+
+### 🔴 Crítico — funcionalidade central quebrada
+
+- [ ] **Leiturabilidade online não funciona** — muitos livros não abrem. Os que abrem exibem todo o conteúdo numa página vertical sem paginação — não é o padrão profissional. Verificar: (1) rotas de leitura existem para todos os livros? (2) há renderização de capítulos/partes? (3) a UX de leitura (paginação ou scroll infinito com sidebar) está implementada?
+- [ ] **Downloads não funcionam / formatos não existem** — o site menciona vários formatos disponíveis (PDF, EPUB, etc.), mas os arquivos existem no servidor? Links estão corretos? Auditar todos os downloads cadastrados contra o filesystem real.
+- [ ] **Categorias não estão sendo utilizadas** — os livros têm categoria no banco mas o filtro não funciona ou as categorias estão vazias/incorretas. Verificar dados e o JOIN nas queries.
+- [ ] **Autores com 0 livros aparecem na página de Autores** — ocultar autores sem livros publicados (`WHERE books_count > 0`).
+- [ ] **Botões da página "Como Contribuir" não funcionam** — implementar ações reais ou ser honesto sobre o que é viável hoje. O conteúdo da página deve refletir o estado real do projeto (uma pessoa, sem equipe).
+
+### 🟠 Grave — qualidade e confiança
+
+- [ ] **Páginas não carregam no topo** — mesmo bug da Bancada Evangélica. Adicionar scroll-to-top na mudança de rota (React Router `ScrollRestoration` ou `useEffect` com `window.scrollTo(0,0)`).
+- [ ] **Emojis em vez de `lucide-react`** — substituir emojis por ícones do `lucide-react` em todo o projeto. Auditoria completa.
+- [ ] **Markdown cru renderizando como texto** — ex: `**Google AdSense**` aparece como texto literal na página Sobre. Verificar se `react-markdown` (ou equivalente) está aplicado em todos os campos de texto rico do banco.
+- [ ] **Nem todo negrito está renderizando em negrito** — provavelmente relacionado ao ponto acima.
+
+### 🟡 Melhoria — produto e conteúdo
+
+- [ ] **Continuar busca e curadoria de material** — tarefa contínua. Priorizar domínio público verificado.
+- [ ] **Tradução de livros com IA** — avaliar viabilidade: qual modelo? qual pipeline de revisão? Qual licença do original permite tradução e redistribuição? Não começar sem definir isso.
+- [ ] **"Como Contribuir" — revisar o que é realmente viável** — a página parece escrita para um projeto com equipe. Reescrever para a realidade: projeto de 1 pessoa, contribuições limitadas, foco em curadoria e sugestões.
