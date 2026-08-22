@@ -654,6 +654,8 @@ no `meus-remedios` (único projeto pessoal com OAuth de usuário real hoje)
 
 ### 🟡 Melhoria — produto e conteúdo
 
+- [ ] **"Conheça também" no rodapé — links do cluster A Biblioteca** — o footer em 4 colunas (Sobre/Navegação/Recursos/Contato) não linka os projetos irmãos. Adicionar bloco compacto após as colunas, antes do ©, seguindo o **modelo aprovado no Gerador C.S. Lewis (2026-08-21)**: rótulo-nicho em caps espaçadas ("CONHEÇA TAMBÉM", tom apagado) → links uniformes separados por ✦ dourado, em grupos atômicos `flex-wrap` (ornamento + link indivisíveis, quebra de linha limpa) → © discreto. Uma família tipográfica só (`font-body`), coluna centrada. Links: Narniano, Bíblia na Arte, Lecionário, Gerador C.S. Lewis. Referência: `ClusterFooter.tsx` em `GeradorCSLewis/src/components/`. (Mesma tarefa registrada nos ROADMAPs do Lecionário e Bíblia na Arte.)
+
 - [ ] **Continuar busca e curadoria de material** — tarefa contínua. Priorizar domínio público verificado.
 - [ ] **Tradução de livros com IA** — avaliar viabilidade: qual modelo? qual pipeline de revisão? Qual licença do original permite tradução e redistribuição? Não começar sem definir isso.
 - [ ] **"Como Contribuir" — revisar o que é realmente viável** — a página parece escrita para um projeto com equipe. Reescrever para a realidade: projeto de 1 pessoa, contribuições limitadas, foco em curadoria e sugestões.
