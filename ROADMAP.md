@@ -420,6 +420,27 @@ Gutenberg/Wikisource. Resultado real, não suposição:
 
 ---
 
+## Qualidade de Conteúdo (2026-08-22)
+
+Padrão cross-projeto: `Padrão de Qualidade de Conteúdo.md` no vault
+(princípio #7 de `Filosofia e Padrões de Engenharia.md`). Este projeto
+já implementa a prática mais avançada dos seis: a tabela de fontes (ver
+"Estratégia de aquisição de conteúdo") já marca **confiabilidade por
+fonte** (Gutenberg/Wikisource = "Alta — PD verificado pela própria
+curadoria") em vez de tratar todo o catálogo como uniformemente
+confiável. É o modelo a copiar pros outros projetos do padrão.
+
+- [ ] Manter a tabela de fontes atualizada conforme novas fontes
+      entrarem no catálogo — toda fonte nova ganha uma linha com nível
+      de confiabilidade antes da primeira importação, não depois.
+- [ ] "Como Contribuir" já está marcado pra reescrever pra realidade de
+      projeto solo (ver Backlog) — quando reescrever, deixar explícito
+      que toda contribuição de texto passa pela mesma régua de
+      domínio-público-verificado, não só as importações da curadoria
+      própria.
+
+---
+
 ## P10 — Monetização (registrado 2026-08-21, não começado)
 
 Achado ao registrar isto: `web/src/pages/Sobre.tsx` já lista há um
@@ -659,3 +680,29 @@ no `meus-remedios` (único projeto pessoal com OAuth de usuário real hoje)
 - [ ] **Continuar busca e curadoria de material** — tarefa contínua. Priorizar domínio público verificado.
 - [ ] **Tradução de livros com IA** — avaliar viabilidade: qual modelo? qual pipeline de revisão? Qual licença do original permite tradução e redistribuição? Não começar sem definir isso.
 - [ ] **"Como Contribuir" — revisar o que é realmente viável** — a página parece escrita para um projeto com equipe. Reescrever para a realidade: projeto de 1 pessoa, contribuições limitadas, foco em curadoria e sugestões.
+
+---
+
+## Marketing e Distribuição (2026-08-22)
+
+> O catálogo É o funil: cada obra é uma página indexável com intenção de busca real ("ler As 95 Teses online", "[obra] pdf domínio público").
+
+### Estratégia central: SEO de cauda longa por obra
+
+- GSC + sitemap já no ar (2026-08-14); rotina semanal de conferência de indexação
+- Descrições reais por obra ajudam ranking — priorizar as que ainda estão cruas
+
+### Canais de nicho teológico
+
+1. Comunidades reformadas/teológicas em português (grupos de estudo, fóruns)
+2. Seminários e estudantes de teologia — proveniência/licença documentada por obra torna o site fonte citável, diferencial acadêmico real
+3. Cruzamento com @narnianoexistencialista (Inklings/Lewis → patrística e reformadores, mesma audiência de profundidade)
+
+### Monetização (P10, teto baixo consciente)
+
+- Doação apenas. Catálogo PT-BR tem teto real documentado; valor do projeto é portfólio + legado
+
+### Pendências que travam crescimento
+
+- [ ] Leiturabilidade online (🔴 item crítico acima) — ninguém retorna a um leitor que não abre
+- [ ] Compêndio de Teologia / Cidade de Deus — dívida de conteúdo registrada
