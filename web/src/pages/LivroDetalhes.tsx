@@ -11,6 +11,13 @@ const LivroDetalhes = () => {
   const { bookId } = useParams<{ bookId: string }>();
   const { data: book, isLoading, error } = useBook(bookId || '');
 
+  const scanIdentifier = (() => {
+    const link = book?.downloadLinks?.find(l => l.url.includes('archive.org/download/'));
+    if (!link) return null;
+    const m = link.url.match(/archive\.org\/download\/([^/]+)\//);
+    return m ? decodeURIComponent(m[1]) : null;
+  })();
+
   if (isLoading) {
     return (
       <Layout>
@@ -93,6 +100,28 @@ const LivroDetalhes = () => {
                         </Button>
                       ))}
                     </div>
+                  )}
+
+                  {!book.textAvailable && scanIdentifier && (
+                    <details className="rounded-lg border border-library-bronze bg-library-gold/5">
+                      <summary className="cursor-pointer select-none px-3 py-2 font-body text-sm text-library-bronze flex items-center gap-2">
+                        <BookOpen className="h-4 w-4" />
+                        Ler o escaneamento online
+                      </summary>
+                      <div className="p-2">
+                        <iframe
+                          src={`https://archive.org/embed/${scanIdentifier}`}
+                          title={`Escaneamento de ${book.title}`}
+                          className="w-full rounded border border-library-bronze/30"
+                          style={{ height: '70vh' }}
+                          allowFullScreen
+                          loading="lazy"
+                        />
+                        <p className="text-xs text-muted-foreground font-body mt-1">
+                          Leitura do escaneamento original, via Internet Archive.
+                        </p>
+                      </div>
+                    </details>
                   )}
                 </div>
 

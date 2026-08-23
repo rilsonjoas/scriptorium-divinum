@@ -142,7 +142,7 @@ export function Footer() {
         </div>
 
         <div className="text-center text-sm text-library-gold/70 font-body mt-6">
-          <p>© 2025 {siteName}. Obras em domínio público ou sob licença aberta, com atribuição.</p>
+          <p>© {new Date().getFullYear()} {siteName}. Obras em domínio público ou sob licença aberta, com atribuição.</p>
         </div>
       </div>
     </footer>
