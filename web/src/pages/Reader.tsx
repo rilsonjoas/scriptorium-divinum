@@ -11,6 +11,12 @@ import { useBookText } from '@/hooks/useDatabase';
 import { splitProvenance } from '@/utils/readerText';
 import { normalizeWord } from '@/utils/glossario';
 import { GlossaryPopover } from '@/components/reader/GlossaryPopover';
+import {
+  getReadingProgress,
+  removeReadingProgress,
+  saveReadingProgress,
+  shouldResume,
+} from '@/utils/readingProgress';
 
 interface TocItem {
   id: string;
@@ -95,6 +101,8 @@ export default function Reader() {
   const [progress, setProgress] = useState(0);
   const [activeId, setActiveId] = useState<string | null>(null);
   const contentRef = useRef<HTMLDivElement>(null);
+  const restoredRef = useRef(false);
+  const lastSavedRatio = useRef(0);
   const [glossaryQuery, setGlossaryQuery] = useState<{
     word: string;
     anchor: { top: number; bottom: number; left: number };
@@ -113,13 +121,41 @@ export default function Reader() {
 
   useEffect(() => {
     const toc = parsed?.toc ?? [];
+    const slug = data?.slug;
     let raf = 0;
+
+    if (slug && !restoredRef.current) {
+      restoredRef.current = true;
+      const saved = getReadingProgress(slug);
+      if (saved) {
+        lastSavedRatio.current = saved.ratio;
+        if (shouldResume(saved.ratio)) {
+          requestAnimationFrame(() => {
+            const doc = document.documentElement;
+            const max = doc.scrollHeight - doc.clientHeight;
+            if (max > 0) window.scrollTo({ top: max * saved.ratio });
+          });
+        } else if (saved.ratio >= 0.95) {
+          removeReadingProgress(slug);
+        }
+      }
+    }
+
     const onScroll = () => {
       cancelAnimationFrame(raf);
       raf = requestAnimationFrame(() => {
         const doc = document.documentElement;
         const max = doc.scrollHeight - doc.clientHeight;
         setProgress(max > 0 ? Math.min(100, (doc.scrollTop / max) * 100) : 0);
+
+        if (slug && data && max > 0) {
+          const ratio = doc.scrollTop / max;
+          if (Math.abs(ratio - lastSavedRatio.current) >= 0.01) {
+            lastSavedRatio.current = ratio;
+            saveReadingProgress({ slug, title: data.title, ratio });
+          }
+        }
+
         if (toc.length === 0) return;
         let current: string | null = null;
         for (const item of toc) {
@@ -135,7 +171,7 @@ export default function Reader() {
       window.removeEventListener('scroll', onScroll);
       cancelAnimationFrame(raf);
     };
-  }, [parsed]);
+  }, [parsed, data]);
 
   useEffect(() => {
     setGlossaryQuery(null);
