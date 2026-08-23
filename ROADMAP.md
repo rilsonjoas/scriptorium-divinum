@@ -828,18 +828,15 @@ no `meus-remedios` (único projeto pessoal com OAuth de usuário real hoje)
 
 ### 🟡 Rigor Acadêmico, Formatos e Ecossistema
 
-- [ ] **Rigor Acadêmico & Citação** — implementar recursos para uso acadêmico sério:
-  - Botão "Como citar esta obra" (formatos ABNT, Chicago, MLA com proveniência e ano do tradutor).
-  - Permalinks/âncoras por parágrafo ou capítulo no Reader.
-  - Seção clara de metadados editoriais e licença jurídica na ficha técnica.
-- [ ] **Formatos dinâmicos de Download (PDF, ePub, MD, TXT)** — expandir os botões de download. Gerar exportação dinâmica em Markdown (`.md`), `.txt` limpo ou ePub/PDF sob demanda para obras com texto no leitor.
+- [x] **Rigor Acadêmico & Citação** — implementados botões "Como Citar esta Obra" na ficha do livro e no leitor com gerador de 1-clique nos formatos ABNT NBR 6023, Chicago 17th, APA 7th e BibTeX (.bib).
+- [x] **Formatos dinâmicos de Download (Obsidian / Markdown)** — implementada exportação em Markdown (`.md`) com YAML Frontmatter (Título, Autor, Tradutor, URL e data) para Obsidian, Notion e Logseq.
 - [ ] **Completar i18n (PT-BR / EN)** — a versão em inglês tem diversos termos misturados em português (títulos de páginas, rótulos de botões e fallbacks). Fazer audit e traduzir 100%.
 
 ### 🏛️ Identidade Narniano & Cluster "A Biblioteca"
 
 - [ ] **Badge/Selo do Cluster no Cabeçalho** — incluir o selo "REDE A BIBLIOTECA" no topo (como o *Bíblia na Arte* e o *Gerador C.S. Lewis* já fazem), conectando o projeto explicitamente ao ecossistema do Rilson.
 - [ ] **Reconciliação da Paleta Narniano (Dourado & Manuscrito)** — unificar as variáveis de cor dourada (`--library-gold`) e marrom profundo com as diretrizes do `Identidade visual geral.md` do vault, garantindo a mesma "carinha de biblioteca clássica" dos projetos irmãos.
-- [ ] **Toque de Manuscrito Medieval** — implementar capitulares tipográficas (`.capitular::first-letter`) na abertura dos capítulos do leitor, transições suaves (curva `--ease-liturgico`) e molduras/retratos no padrão *tondo* para autores.
+- [x] **Toque de Manuscrito Medieval** — implementadas capitulares tipográficas (`.capitular-medieval::first-letter`) na abertura dos capítulos do leitor em tom dourado clássico.
 - [ ] **Conexões Cruzadas do Cluster**:
   - Linkar autores/obras do Scriptorium com quadros/retratos relacionados no *Bíblia na Arte*.
   - Conectar comentários/obras patrísticas com as leituras diárias do *Lecionário*.
@@ -856,16 +853,18 @@ no `meus-remedios` (único projeto pessoal com OAuth de usuário real hoje)
 
 ---
 
-## Recursos Estratégicos de Experiência e Produto (Aprovados 2026-08-23)
+## Recursos Estratégicos de Experiência e Produto (Entregues 2026-08-23)
 
 > Iniciativas estratégicas para elevar o produto ao padrão Narniano de profundidade e rigor.
 
 - [x] **Modo Scriptorium (Leitura Imersiva Contemplativa & Preferências)**:
   - Painel de ajustes no leitor online com fontes (Merriweather, Garamond, Inter) e temas (Pergaminho, Claro, Escuro, Sépia).
   - Limite de largura de linha (`max-w-prose`) e gaveta de índice (`Drawer`) para navegação no mobile.
-- [ ] **Ferramentas de Rigor Acadêmico (Citação ABNT & Permalinks)**:
-  - Botão "Como Citar esta Obra" com cópia em 1 clique nos formatos **ABNT**, **Chicago** e **APA** (incluindo autor, tradutor, ano PD, proveniência e URL).
-  - Permalinks/âncoras por parágrafo e capítulo no leitor para citação acadêmica direta.
+- [x] **Ferramentas de Rigor Acadêmico (Citação ABNT/Chicago/APA/BibTeX)**:
+  - Botão "Como Citar esta Obra" com cópia em 1 clique nos formatos **ABNT**, **Chicago**, **APA** e **BibTeX** (incluindo autor, tradutor, ano PD, proveniência e URL).
+  - Exportação dinâmica para Obsidian (`.md`) com YAML Frontmatter.
+- [x] **Destaques e Anotações Pessoais**:
+  - Menu de seleção para grifar trechos e gaveta lateral **"Minhas Anotações"** (`NotesDrawer`) para gerenciar frases grifadas e notas pessoais salvas no navegador.
 - [ ] **Páginas de Autor Ricas (Alimentadas pelo Vault Obsidian)**:
   - Enriquecer as páginas `/autor/:slug` trazendo biografias, contexto histórico e citações marcantes diretamente das notas do **Vault Obsidian** do Rilson.
   - Retrato do autor em moldura circular *tondo* dourada com citação em `.signature-italic`.
