@@ -135,19 +135,16 @@ const Sobre = () => {
             </p>
               <ul className="list-disc pl-6 space-y-2 mb-4">
                 <li>
-                  <strong>Google AdSense</strong> integrado de forma discreta para não interferir na leitura
+                  <strong>Anúncios discretos</strong> via Google AdSense, sempre fora do leitor de textos
                 </li>
                 <li>
-                  <strong>Doações voluntárias</strong> para manutenção, curadoria e expansão do acervo
-                </li>
-                <li>
-                  <strong>Links de afiliados</strong> para versões impressas quando disponíveis
+                  <strong>Links de afiliados</strong> para edições impressas na Amazon (comprar por eles não custa nada a mais ao leitor)
                 </li>
               </ul>
-            <p className="leading-relaxed">
-              Se este projeto tem sido útil para seus estudos ou devoção, considere fazer uma 
-              doação para ajudar na preservação e expansão deste tesouro da literatura cristã.
-            </p>
+              <p className="leading-relaxed">
+                Doações voluntárias estão nos planos para o futuro. Se este projeto tem sido
+                útil para seus estudos ou devoção, divulgar o Scriptorium já é uma grande ajuda.
+              </p>
           </div>
         </div>
 

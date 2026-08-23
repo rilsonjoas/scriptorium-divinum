@@ -6,6 +6,9 @@ import { Link, useParams, Navigate } from 'react-router-dom';
 import { useBook } from '@/hooks/useDatabase';
 import { SafeImage } from '@/components/SafeImage';
 import { AdSlot } from '@/components/ads/AdSlot';
+import { ShoppingBag } from 'lucide-react';
+
+const AMAZON_AFFILIATE_TAG = import.meta.env.VITE_AMAZON_TAG ?? 'rilson-20';
 
 const LivroDetalhes = () => {
   const { bookId } = useParams<{ bookId: string }>();
@@ -123,6 +126,22 @@ const LivroDetalhes = () => {
                       </div>
                     </details>
                   )}
+
+                  <Button
+                    asChild
+                    variant="outline"
+                    size="sm"
+                    className="w-full border-library-bronze text-library-bronze hover:bg-library-bronze hover:text-primary-foreground font-body"
+                  >
+                    <a
+                      href={`https://www.amazon.com.br/s?k=${encodeURIComponent(`${book.title} ${book.author.name}`)}&tag=${AMAZON_AFFILIATE_TAG}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <ShoppingBag className="mr-2 h-3 w-3" />
+                      Edição impressa (Amazon)
+                    </a>
+                  </Button>
                 </div>
 
                 {book.licenseType && book.licenseType !== 'public-domain' && (
