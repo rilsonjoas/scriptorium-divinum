@@ -671,6 +671,14 @@ no `meus-remedios` (único projeto pessoal com OAuth de usuário real hoje)
       (EN, Allen †1839), Compendium Theologiae (LA, original). Fichas PT
       de Confissões/Peregrino/Pensamentos/Cur Deus Homo aguardam tradução
       PT livre; as edições EN irmãs já estão completas no leitor.
+- [x] **Traduções PT antigas encontradas e incluídas (2026-08-23,
+      fase 2)** — O Peregrino (trad. Guilherme L. dos Santos Ferreira
+      †1934, Lisboa 1916) e Confissões (trad. anônima, Garnier 1905)
+      com texto integral no leitor; Imitação de Cristo (Kempis, Paris
+      1848) e Os Últimos Fins do Homem (Padre Manuel Bernardes, 1768)
+      como novas fichas com download dos escaneamentos — leitura online
+      pendente de revisão manual do OCR. Detalhes em PESQUISA-OBRAS-
+      FAROIS.md fase 2. Catálogo: 37 obras, 16 autores.
 - [x] **Downloads não funcionam / formatos não existem (auditado E corrigido 2026-08-22)** — dos 30 links cadastrados, só 24 funcionam e TODOS são `.txt` (Gutenberg/Wikisource). Os 6 restantes eram caminhos locais falsos `/downloads/**` (404 no nginx): PDFs de O Peregrino, Confissões (+epub), Compêndio, Institutas e Cidade de Deus; 0 PDFs reais no catálogo. Correções aplicadas: (a) texto do `Sobre.tsx` ajustado ("formatos múltiplos PDF/ePub" → realidade .txt); (b) **script executado em produção** (`psql < scripts/fix_prod_data_2026-08-22.sql`, transação única com ON_ERROR_STOP — 1ª tentativa abortou limpa por erro de alias, revertida integralmente; 2ª passou): `DELETE 6` links falsos, backup prévio em `~/backups/scriptorium_backup_20260822.sql` no VPS + cópia local. Verificado pós-execução: 0 links `/downloads/`, API retorna `downloadLinks: []` nas obras afetadas (botão some do site). Dívida de conteúdo: achar fontes reais PT-BR para as obras-faróis.
 - [x] **Categorias não estavam sendo utilizadas (auditado E corrigido 2026-08-22)** — eram 41 categorias para 32 livros com duplicatas bilíngues (Patrística/Patristics, Reformation/Reforma Protestante etc.), porque `books.categories` é array livre e a tabela `categories` estava VAZIA (slugs nulos na API). Consolidação EN→PT (~14 mapeamentos) executada no mesmo script: 31 categorias canônicas em PT, tabela `categories` populada com slugs kebab-case, API `/api/v1/categories` agora responde `{name, slug, bookCount}` completo.
 - [x] **Autores com 0 livros aparecem na página de Autores** — corrigido em `web/src/pages/Autores.tsx` (filtro `bookCount > 0` na contagem client-side, 2026-08-22).
