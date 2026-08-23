@@ -65,14 +65,17 @@ As fichas em português seguem sem tradução PT livre conhecida; quando
 surgir tradução antiga em domínio público, liga-se via
 `online_read_path` sem mexer no resto.
 
-### ⏳ Compêndio de Teologia (Tomás de Aquino) — PENDENTE
+### ✅ Compêndio de Teologia (Tomás de Aquino) — RESOLVIDO (original latino)
 
-Fonte candidata verificada apenas parcialmente: latim original
-(*Compendium theologiae*) no Corpus Thomisticum (corpusthomisticum.org,
-acesso livre). Falta: extração limpa do HTML fragmentado por capítulos +
-conferência de integridade. Tradução inglesa dominicana (1947, Benziger)
-**não serve**: o tradutor Laurence Shapcote faleceu em 1965 → protegida
-no Brasil até ~2035 (regra dos 70 anos). Não usar.
+| Item | Detalhe |
+|---|---|
+| Obra | Compendium theologiae ad fratrem Reginaldum (c. 1269–1272, inacabada) |
+| Edição | texto latino eletrônico preparado por Ricardo M. Román (1998), distribuído pelo projeto Documenta Catholica Omnia |
+| Domínio público | autor †1274 ✓ (a tradução inglesa Vollert, 1947, tradutor †1982, NÃO qualifica — protegida no Brasil até ~2052) |
+| Como foi obtido | PDF com camada de texto do Documenta Catholica Omnia → extração via pdftotext → limpeza de cabeçalhos/rodapés/números de página → reconstrução dos títulos de capítulo (que vinham quebrados em várias linhas) |
+| Verificação | dedicatória autêntica ao irmão Réginaldo ("fili carissime Reginalde"); 2 livros e 256 capítulos nesta edição (De fide 1–246; De spe 1–10); termina exatamente em "Quod regnum obtinere est possibile", onde a tradição diz que a obra parou |
+| Notas de pesquisa | o Corpus Thomisticum não expõe o arquivo direto (navegação JS; tentativas xct.html etc. → 404) e o certificado SSL do Documenta Catholica Omnia está vencido (download feito com verificação desabilitada apenas para conteúdo PD). Sem link de download no catálogo por enquanto: nenhuma URL íntegra e estável para apontar |
+| Arquivo | `server/texts/compendium-theologiae-la.md` (~475 KB) |
 
 ### ⏳ Traduções portuguesas antigas (todas as faróis) — PENDENTE
 
@@ -91,4 +94,6 @@ HathiTrust (domínio público pleno).
 3. Espelho oficial do Gutenberg (mirrorservice.org) resolve 503 do
    servidor principal sem recorrer a fontes duvidosas.
 4. Datas de morte do TRADUTOR são tão decisivas quanto as do autor
-   (caso Shapcote/Summa: PD nos EUA ≠ PD no Brasil).
+   (caso Shapcote/Summa e caso Vollert/Compendium: PD nos EUA ≠ PD no Brasil).
+5. Numeração de capítulos varia entre edições críticas (Leonina vs.
+   eletrônicas): documentar a convenção da edição usada, não assumir a "famosa".
