@@ -1,4 +1,4 @@
-import { Search, BookOpen, Users, Library, X, Loader2 } from 'lucide-react';
+import { Search, BookOpen, Users, Library, X, Loader2, Menu, HelpCircle, Info, ShieldCheck } from 'lucide-react';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
@@ -7,11 +7,20 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useState, useRef, useEffect } from 'react';
 import { useSearch, useSiteSettings } from '@/hooks/useDatabase';
 import { useTranslation } from 'react-i18next';
+import {
+  Sheet,
+  SheetContent,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from '@/components/ui/sheet';
 
 export function Header() {
   const { t } = useTranslation();
   const [searchQuery, setSearchQuery] = useState('');
   const [showResults, setShowResults] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [mobileSearchOpen, setMobileSearchOpen] = useState(false);
   const searchRef = useRef<HTMLDivElement>(null);
   const navigate = useNavigate();
 
@@ -21,7 +30,6 @@ export function Header() {
     searchQuery, 
     searchQuery.length > 2
   );
-
 
   // Close search results when clicking outside
   useEffect(() => {
@@ -41,40 +49,55 @@ export function Header() {
       navigate(`/livros?search=${encodeURIComponent(searchQuery.trim())}`);
       setShowResults(false);
       setSearchQuery('');
+      setMobileSearchOpen(false);
+      setMobileMenuOpen(false);
     }
   };
 
   const handleResultClick = () => {
     setShowResults(false);
     setSearchQuery('');
+    setMobileSearchOpen(false);
+    setMobileMenuOpen(false);
   };
+
+  const navLinks = [
+    { to: '/livros', label: t('nav.catalogo'), icon: BookOpen },
+    { to: '/autores', label: t('nav.autores'), icon: Users },
+    { to: '/categorias', label: t('nav.categorias'), icon: Library },
+    { to: '/dominio-publico', label: t('nav.dominioPublico'), icon: ShieldCheck },
+    { to: '/sobre', label: t('nav.sobre'), icon: Info },
+    { to: '/ajuda', label: t('nav.ajuda'), icon: HelpCircle },
+  ];
+
   return (
-    <header className="border-b border-library-bronze bg-gradient-leather text-primary-foreground">
-      <div className="container mx-auto px-4 py-6">
-        {/* Logo and Site Title */}
-        <div className="flex items-center justify-between mb-6">
-          <Link to="/" className="flex items-center space-x-3 group">
-            <div className="w-12 h-12 rounded-lg overflow-hidden shadow-golden shrink-0">
+    <header className="border-b border-library-bronze bg-gradient-leather text-primary-foreground sticky top-0 z-40 shadow-md">
+      <div className="container mx-auto px-4 py-3 md:py-5">
+        {/* Top Header Row */}
+        <div className="flex items-center justify-between gap-4">
+          {/* Logo and Site Title */}
+          <Link to="/" className="flex items-center space-x-3 group shrink-0">
+            <div className="w-10 h-10 md:w-12 md:h-12 rounded-lg overflow-hidden shadow-golden shrink-0">
               <img
                 src="/logo-header.png"
                 alt="Scriptorium Divinum"
-                className="w-12 h-12"
+                className="w-full h-full object-cover"
                 width={48}
                 height={48}
               />
             </div>
             <div>
-              <h1 className="font-display text-2xl font-semibold golden-foil">
+              <h1 className="font-display text-lg md:text-2xl font-semibold golden-foil leading-tight">
                 {settings?.siteName ?? 'Scriptorium Divinum'}
               </h1>
-              <p className="text-sm text-library-gold font-body opacity-90">
+              <p className="text-xs md:text-sm text-library-gold font-body opacity-90 hidden sm:block">
                 Biblioteca Teológica Clássica
               </p>
             </div>
           </Link>
 
-          {/* Search Bar */}
-          <div className="flex-1 max-w-md mx-8" ref={searchRef}>
+          {/* Desktop Search Bar */}
+          <div className="hidden md:block flex-1 max-w-md mx-4" ref={searchRef}>
             <form onSubmit={handleSearchSubmit} className="relative">
               <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-library-bronze" />
               <Input
@@ -84,7 +107,7 @@ export function Header() {
                   setShowResults(e.target.value.length > 2);
                 }}
                 placeholder={t('busca.placeholder')}
-                className="pl-10 pr-10 bg-library-parchment border-library-bronze text-foreground placeholder:text-library-bronze font-body"
+                className="pl-10 pr-10 bg-library-parchment border-library-bronze text-foreground placeholder:text-library-bronze font-body text-sm"
               />
               {searchQuery && (
                 <button
@@ -117,7 +140,6 @@ export function Header() {
                       </div>
                     ) : searchResults && (searchResults.books.length > 0 || searchResults.authors.length > 0) ? (
                       <div className="space-y-4">
-                        {/* Books Results */}
                         {searchResults.books.length > 0 && (
                           <div>
                             <h4 className="font-display font-semibold text-library-wood mb-2 text-sm">
@@ -140,33 +162,14 @@ export function Header() {
                                       <p className="font-body text-library-bronze text-xs">
                                         Por {book.author.name}
                                       </p>
-                                      {book.categories && book.categories.length > 0 && (
-                                        <div className="flex gap-1 mt-1">
-                                          {book.categories.slice(0, 2).map((category) => (
-                                            <Badge key={category} variant="secondary" className="text-xs bg-library-bronze text-library-parchment">
-                                              {category}
-                                            </Badge>
-                                          ))}
-                                        </div>
-                                      )}
                                     </div>
                                   </div>
                                 </Link>
                               ))}
-                              {searchResults.books.length > 3 && (
-                                <Link
-                                  to={`/livros?search=${encodeURIComponent(searchQuery)}`}
-                                  onClick={handleResultClick}
-                                  className="block p-2 text-center text-library-bronze hover:text-library-wood text-xs font-body"
-                                >
-                                  Ver todos os {searchResults.books.length} livros →
-                                </Link>
-                              )}
                             </div>
                           </div>
                         )}
 
-                        {/* Authors Results */}
                         {searchResults.authors.length > 0 && (
                           <div>
                             <h4 className="font-display font-semibold text-library-wood mb-2 text-sm">
@@ -186,93 +189,139 @@ export function Header() {
                                       <p className="font-body font-medium text-library-wood text-sm">
                                         {author.name}
                                       </p>
-                                      <p className="font-body text-library-bronze text-xs">
-                                        {author.birthYear && author.deathYear 
-                                          ? `${author.birthYear} - ${author.deathYear}`
-                                          : author.birthYear 
-                                            ? `c. ${author.birthYear}`
-                                            : 'Período clássico'
-                                        }
-                                      </p>
                                     </div>
                                   </div>
                                 </Link>
                               ))}
-                              {searchResults.authors.length > 2 && (
-                                <Link
-                                  to={"/autores"}
-                                  onClick={handleResultClick}
-                                  className="block p-2 text-center text-library-bronze hover:text-library-wood text-xs font-body"
-                                >
-                                  Ver todos os autores →
-                                </Link>
-                              )}
                             </div>
                           </div>
                         )}
                       </div>
-                    ) : searchQuery.length > 2 ? (
+                    ) : (
                       <div className="text-center py-4">
-                        <Search className="h-6 w-6 text-library-bronze mx-auto mb-2" />
                         <p className="font-body text-library-bronze text-sm">
-                          Nenhum resultado encontrado para "{searchQuery}"
-                        </p>
-                        <p className="font-body text-library-bronze text-xs mt-1">
-                          Tente termos diferentes ou pressione Enter para busca completa
+                          Nenhum resultado encontrado.
                         </p>
                       </div>
-                    ) : null}
+                    )}
                   </CardContent>
                 </Card>
               )}
             </form>
           </div>
 
-          {/* User Actions */}
+          {/* Desktop Right Links & Mobile Menu Triggers */}
           <div className="flex items-center space-x-2">
-            <Link to="/ajuda">
-              <Button variant="ghost" size="sm" className="text-library-gold hover:text-primary-foreground hover:bg-library-bronze">
-                {t('nav.ajuda')}
-              </Button>
-            </Link>
+            {/* Mobile Search Icon Toggle */}
+            <Button
+              variant="ghost"
+              size="icon"
+              className="md:hidden text-library-gold hover:text-primary-foreground hover:bg-library-bronze/50"
+              onClick={() => setMobileSearchOpen(!mobileSearchOpen)}
+              aria-label="Abrir busca"
+            >
+              <Search className="h-5 w-5" />
+            </Button>
+
+            {/* Mobile Drawer Trigger */}
+            <Sheet open={mobileMenuOpen} onOpenChange={setMobileMenuOpen}>
+              <SheetTrigger asChild>
+                <Button
+                  variant="ghost"
+                  size="icon"
+                  className="md:hidden text-library-gold hover:text-primary-foreground hover:bg-library-bronze/50"
+                  aria-label="Abrir menu"
+                >
+                  <Menu className="h-6 w-6" />
+                </Button>
+              </SheetTrigger>
+              <SheetContent side="right" className="bg-library-wood border-library-bronze text-library-parchment w-80 p-6 flex flex-col justify-between">
+                <div>
+                  <SheetHeader className="text-left mb-6 border-b border-library-bronze/40 pb-4">
+                    <SheetTitle className="font-display text-xl text-library-gold golden-foil">
+                      Scriptorium Divinum
+                    </SheetTitle>
+                    <p className="text-xs text-library-gold/80 font-body">
+                      Biblioteca Teológica Clássica
+                    </p>
+                  </SheetHeader>
+
+                  {/* Mobile Search inside Drawer */}
+                  <form onSubmit={handleSearchSubmit} className="mb-6 relative">
+                    <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-library-bronze" />
+                    <Input
+                      value={searchQuery}
+                      onChange={(e) => setSearchQuery(e.target.value)}
+                      placeholder={t('busca.placeholder')}
+                      className="pl-10 bg-library-parchment text-foreground border-library-bronze font-body text-sm"
+                    />
+                  </form>
+
+                  {/* Mobile Nav Links */}
+                  <nav className="flex flex-col space-y-2">
+                    {navLinks.map((link) => {
+                      const Icon = link.icon;
+                      return (
+                        <Link
+                          key={link.to}
+                          to={link.to}
+                          onClick={() => setMobileMenuOpen(false)}
+                          className="flex items-center space-x-3 px-3 py-2.5 rounded-lg text-library-gold hover:bg-library-gold/15 hover:text-white transition-colors font-body text-base"
+                        >
+                          <Icon className="h-5 w-5 text-library-gold shrink-0" />
+                          <span>{link.label}</span>
+                        </Link>
+                      );
+                    })}
+                  </nav>
+                </div>
+
+                <div className="pt-6 border-t border-library-bronze/40 text-center text-xs text-library-gold/70 font-body">
+                  &copy; {new Date().getFullYear()} Scriptorium Divinum
+                </div>
+              </SheetContent>
+            </Sheet>
           </div>
         </div>
 
-        {/* Navigation */}
-        <nav className="flex items-center justify-center space-x-8">
-          <Link 
-            to="/livros" 
-            className="flex items-center space-x-2 text-library-gold hover:text-primary-foreground transition-colors font-body"
-          >
-            <BookOpen className="h-4 w-4" />
-            <span>{t('nav.catalogo')}</span>
-          </Link>
-          <Link 
-            to="/autores" 
-            className="flex items-center space-x-2 text-library-gold hover:text-primary-foreground transition-colors font-body"
-          >
-            <Users className="h-4 w-4" />
-            <span>{t('nav.autores')}</span>
-          </Link>
-          <Link 
-            to="/categorias" 
-            className="flex items-center space-x-2 text-library-gold hover:text-primary-foreground transition-colors font-body"
-          >
-            <Library className="h-4 w-4" />
-            <span>{t('nav.categorias')}</span>
-          </Link>
-          <Link 
-            to="/dominio-publico" 
-            className="flex items-center space-x-2 text-library-gold hover:text-primary-foreground transition-colors font-body"
-          >
-            <span>{t('nav.dominioPublico')}</span>
-          </Link>
-          <Link 
-            to="/sobre" 
-            className="flex items-center space-x-2 text-library-gold hover:text-primary-foreground transition-colors font-body"
-          >
-            <span>{t('nav.sobre')}</span>
-          </Link>
+        {/* Mobile Expandable Search Bar */}
+        {mobileSearchOpen && (
+          <div className="md:hidden mt-3 pt-3 border-t border-library-bronze/40">
+            <form onSubmit={handleSearchSubmit} className="relative">
+              <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-library-bronze" />
+              <Input
+                autoFocus
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                placeholder={t('busca.placeholder')}
+                className="pl-10 pr-10 bg-library-parchment text-foreground border-library-bronze font-body text-sm w-full"
+              />
+              <button
+                type="button"
+                onClick={() => setMobileSearchOpen(false)}
+                className="absolute right-3 top-1/2 transform -translate-y-1/2 text-library-bronze"
+              >
+                <X className="h-4 w-4" />
+              </button>
+            </form>
+          </div>
+        )}
+
+        {/* Desktop Navigation Links */}
+        <nav className="hidden md:flex items-center justify-center space-x-8 mt-4 pt-4 border-t border-library-bronze/30">
+          {navLinks.map((link) => {
+            const Icon = link.icon;
+            return (
+              <Link
+                key={link.to}
+                to={link.to}
+                className="flex items-center space-x-2 text-library-gold hover:text-primary-foreground transition-colors font-body text-sm font-medium"
+              >
+                <Icon className="h-4 w-4" />
+                <span>{link.label}</span>
+              </Link>
+            );
+          })}
         </nav>
       </div>
     </header>

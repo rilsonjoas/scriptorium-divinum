@@ -798,3 +798,81 @@ no `meus-remedios` (único projeto pessoal com OAuth de usuário real hoje)
       chunk vendor (73KB gzip) com cache de longa duração. Resultado:
       app code 99KB gzip + vendor 73KB no primeiro load (antes: ~172KB
       monolítico); leitor carrega os outros 50KB sob demanda.
+
+---
+
+## Backlog de UI/UX, Produto & Rigor Acadêmico (Levantamento 2026-08-23)
+
+> Levantamento do Rilson após uso em produção. Ações prioritárias de UX mobile, rigor acadêmico e refinamento de dados.
+
+### 🔴 Bugs de Dados e Links em Produção
+
+- [ ] **Cidade de Deus ("Conteúdo indisponível")** — ao clicar em "Ler Online", responde que o conteúdo está indisponível. Investigar vínculo entre `cidade-de-deus-en.md` e a rota/slug no banco.
+- [ ] **Compêndio de Teologia sem leitura/download** — a ficha existe mas não possui texto completo nem links de leitura/download ativos. Ajustar vínculo com `compendium-theologiae-la.md` ou definir status.
+- [ ] **Contagem de obras da Patrística zerada** — filtro/página de categorias mostra 0 obras para Patrística, embora Santo Agostinho e outros Padres da Igreja estejam publicados. Corrigir mapeamento/slug de categorias.
+- [ ] **Contagem total de obras no catálogo (20 vs 37)** — ao abrir `/livros`, o cabeçalho indica "20 obras encontradas" (limite da 1ª página de paginação) em vez de exibir o total real (37 obras) ou o total filtrado.
+- [ ] **Revisão de OCR de *O Peregrino*** — o texto em português de *O Peregrino* contém diversos artefatos/erros de OCR ("palavras sem sentido"). Fazer uma passada de revisão e limpeza no arquivo markdown.
+
+### 🟠 UI/UX & Mobile Responsivo
+
+- [x] **Menu Hambúrguer no Mobile** — a barra de navegação no mobile tem menu colapsável (hambúrguer/Sheet).
+- [x] **Botão de busca no mobile** — busca expandível e integrada ao menu mobile para uso confortável ao toque.
+- [ ] **Hierarquia tipográfica & tamanhos de fonte desproporcionais** — muitas diferenças abruptas de tamanho de fonte entre componentes (ex: Perguntas Frequentes e Hero). Padronizar escala de tipos e adaptar melhor para mobile.
+- [ ] **Hero da Home** — organizar dados do hero e reduzir o tamanho das fontes no mobile para melhor escaneabilidade.
+- [ ] **Vazamento de texto nos cards em destaque** — textos de títulos/descrições estão estourando o container nos cards de obras em destaque. Aplicar clamping e truncamento adequado.
+- [ ] **AdSense Placeholder visível** — o container do `AdSlot` continua visível (espaço em branco ou borda) mesmo quando o AdSense não carrega anúncio. Esconder totalmente (`display: none` / `collapse`) quando não houver anúncio veiculado.
+- [x] **Controles de tamanho de fonte no Reader** — adicionados controles no leitor online (`ReadingToolbar`).
+- [ ] **Estilização do Player TTS (Áudio)** — botões do player ("Ouvir", "Pausar", "Parar") no cabeçalho do Reader estão apagados. Adicionar fundo escuro/destaque para chamar atenção e parecer um player real.
+- [ ] **Padronização do botão "Ler escaneamento online"** — o botão em `LivroDetalhes` diverge visualmente dos botões vizinhos (Edição impressa / Downloads). Padronizar variante do botão.
+- [ ] **Acesso fácil aos Favoritos** — a estrela de favoritar existe, mas o usuário não encontra um caminho óbvio para listar os seus favoritos fora do chip secundário no catálogo. Adicionar atalho no cabeçalho/menu.
+
+### 🟡 Rigor Acadêmico, Formatos e Ecossistema
+
+- [ ] **Rigor Acadêmico & Citação** — implementar recursos para uso acadêmico sério:
+  - Botão "Como citar esta obra" (formatos ABNT, Chicago, MLA com proveniência e ano do tradutor).
+  - Permalinks/âncoras por parágrafo ou capítulo no Reader.
+  - Seção clara de metadados editoriais e licença jurídica na ficha técnica.
+- [ ] **Formatos dinâmicos de Download (PDF, ePub, MD, TXT)** — expandir os botões de download. Gerar exportação dinâmica em Markdown (`.md`), `.txt` limpo ou ePub/PDF sob demanda para obras com texto no leitor.
+- [ ] **Completar i18n (PT-BR / EN)** — a versão em inglês tem diversos termos misturados em português (títulos de páginas, rótulos de botões e fallbacks). Fazer audit e traduzir 100%.
+
+### 🏛️ Identidade Narniano & Cluster "A Biblioteca"
+
+- [ ] **Badge/Selo do Cluster no Cabeçalho** — incluir o selo "REDE A BIBLIOTECA" no topo (como o *Bíblia na Arte* e o *Gerador C.S. Lewis* já fazem), conectando o projeto explicitamente ao ecossistema do Rilson.
+- [ ] **Reconciliação da Paleta Narniano (Dourado & Manuscrito)** — unificar as variáveis de cor dourada (`--library-gold`) e marrom profundo com as diretrizes do `Identidade visual geral.md` do vault, garantindo a mesma "carinha de biblioteca clássica" dos projetos irmãos.
+- [ ] **Toque de Manuscrito Medieval** — implementar capitulares tipográficas (`.capitular::first-letter`) na abertura dos capítulos do leitor, transições suaves (curva `--ease-liturgico`) e molduras/retratos no padrão *tondo* para autores.
+- [ ] **Conexões Cruzadas do Cluster**:
+  - Linkar autores/obras do Scriptorium com quadros/retratos relacionados no *Bíblia na Arte*.
+  - Conectar comentários/obras patrísticas com as leituras diárias do *Lecionário*.
+
+### ♿ Acessibilidade (a11y WCAG) & Leiturabilidade Fluida
+
+- [ ] **Auditoria de Acessibilidade WCAG 2.1 AA**:
+  - Adicionar rótulos `aria-label` descritivos em todos os botões interativos (busca, favoritos, player TTS, fechar modais).
+  - Garantir anéis de foco bem visíveis (`focus-visible`) para navegação 100% por teclado.
+  - Verificar e ajustar a razão de contraste do texto dourado sobre fundos escuros.
+- [x] **Tipografia Fluida & Leiturabilidade Mobile**:
+  - Adicionada escala tipográfica fluida com `clamp()` para que títulos e parágrafos se adaptem proporcionalmente de telas pequenas até 4K.
+  - Garantir áreas de toque mínimas de 44×44px para todos os botões no mobile.
+
+---
+
+## Recursos Estratégicos de Experiência e Produto (Aprovados 2026-08-23)
+
+> Iniciativas estratégicas para elevar o produto ao padrão Narniano de profundidade e rigor.
+
+- [x] **Modo Scriptorium (Leitura Imersiva Contemplativa & Preferências)**:
+  - Painel de ajustes no leitor online com fontes (Merriweather, Garamond, Inter) e temas (Pergaminho, Claro, Escuro, Sépia).
+  - Limite de largura de linha (`max-w-prose`) e gaveta de índice (`Drawer`) para navegação no mobile.
+- [ ] **Ferramentas de Rigor Acadêmico (Citação ABNT & Permalinks)**:
+  - Botão "Como Citar esta Obra" com cópia em 1 clique nos formatos **ABNT**, **Chicago** e **APA** (incluindo autor, tradutor, ano PD, proveniência e URL).
+  - Permalinks/âncoras por parágrafo e capítulo no leitor para citação acadêmica direta.
+- [ ] **Páginas de Autor Ricas (Alimentadas pelo Vault Obsidian)**:
+  - Enriquecer as páginas `/autor/:slug` trazendo biografias, contexto histórico e citações marcantes diretamente das notas do **Vault Obsidian** do Rilson.
+  - Retrato do autor em moldura circular *tondo* dourada com citação em `.signature-italic`.
+  - Linha do tempo visual de suas obras disponíveis no acervo.
+- [ ] **Polimento de Infraestrutura & Exportação Dinâmica**:
+  - Adicionar `healthcheck` ao container `scriptorium-web` (Nginx) no `docker-compose.yml` (padrão Hetzner).
+  - Gerador dinâmico de exportação para download em Markdown (`.md`), TXT limpo e ePub sob demanda a partir do acervo do leitor.
+
+
+

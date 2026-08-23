@@ -13,6 +13,8 @@ import { splitProvenance } from '@/utils/readerText';
 import { normalizeWord } from '@/utils/glossario';
 import { GlossaryPopover } from '@/components/reader/GlossaryPopover';
 import { QuoteCardDialog, QuoteTriggerPill } from '@/components/reader/QuoteCardDialog';
+import { ReadingToolbar, DEFAULT_READING_SETTINGS, type ReadingSettings } from '@/components/reader/ReadingToolbar';
+import { Drawer, DrawerContent, DrawerHeader, DrawerTitle, DrawerTrigger } from '@/components/ui/drawer';
 import { markdownToSpeechText } from '@/utils/speech';
 import {
   getReadingProgress,
@@ -82,17 +84,17 @@ function readingMinutes(markdown: string): number {
 const headingClass = 'scroll-mt-24 font-heading font-semibold text-library-wood';
 const markdownComponents = {
   h1: ({ children }: { children?: ReactNode }) => (
-    <h1 id={slugify(headingText(children))} className={`${headingClass} text-3xl mt-10 mb-4 first:mt-0`}>
+    <h1 id={slugify(headingText(children))} className={`${headingClass} text-2xl md:text-3xl mt-10 mb-4 first:mt-0`}>
       {children}
     </h1>
   ),
   h2: ({ children }: { children?: ReactNode }) => (
-    <h2 id={slugify(headingText(children))} className={`${headingClass} text-2xl mt-10 mb-4`}>
+    <h2 id={slugify(headingText(children))} className={`${headingClass} text-xl md:text-2xl mt-10 mb-4`}>
       {children}
     </h2>
   ),
   h3: ({ children }: { children?: ReactNode }) => (
-    <h3 id={slugify(headingText(children))} className={`${headingClass} text-xl mt-8 mb-3`}>
+    <h3 id={slugify(headingText(children))} className={`${headingClass} text-lg md:text-xl mt-8 mb-3`}>
       {children}
     </h3>
   ),
@@ -103,9 +105,31 @@ export default function Reader() {
   const { data, isLoading, error } = useBookText(bookId || '');
   const [progress, setProgress] = useState(0);
   const [activeId, setActiveId] = useState<string | null>(null);
+  const [drawerOpen, setDrawerOpen] = useState(false);
+  const [showStickyHeader, setShowStickyHeader] = useState(false);
   const contentRef = useRef<HTMLDivElement>(null);
   const restoredRef = useRef(false);
   const lastSavedRatio = useRef(0);
+
+  // Reading Preferences State with LocalStorage
+  const [readingSettings, setReadingSettings] = useState<ReadingSettings>(() => {
+    try {
+      const saved = localStorage.getItem('scriptorium_reading_settings');
+      return saved ? JSON.parse(saved) : DEFAULT_READING_SETTINGS;
+    } catch {
+      return DEFAULT_READING_SETTINGS;
+    }
+  });
+
+  const handleSettingsChange = (newSettings: ReadingSettings) => {
+    setReadingSettings(newSettings);
+    try {
+      localStorage.setItem('scriptorium_reading_settings', JSON.stringify(newSettings));
+    } catch (e) {
+      console.error('Failed to save reading settings', e);
+    }
+  };
+
   const [glossaryQuery, setGlossaryQuery] = useState<{
     word: string;
     anchor: { top: number; bottom: number; left: number };
@@ -162,7 +186,9 @@ export default function Reader() {
       raf = requestAnimationFrame(() => {
         const doc = document.documentElement;
         const max = doc.scrollHeight - doc.clientHeight;
-        setProgress(max > 0 ? Math.min(100, (doc.scrollTop / max) * 100) : 0);
+        const currentProgress = max > 0 ? Math.min(100, (doc.scrollTop / max) * 100) : 0;
+        setProgress(currentProgress);
+        setShowStickyHeader(doc.scrollTop > 200);
 
         if (slug && data && max > 0) {
           const ratio = doc.scrollTop / max;
@@ -176,7 +202,7 @@ export default function Reader() {
         let current: string | null = null;
         for (const item of toc) {
           const el = document.getElementById(item.id);
-          if (el && el.getBoundingClientRect().top <= 96) current = item.id;
+          if (el && el.getBoundingClientRect().top <= 120) current = item.id;
         }
         setActiveId(current ?? toc[0]?.id ?? null);
       });
@@ -282,25 +308,26 @@ export default function Reader() {
 
   const goToSection = (id: string) => {
     document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    setDrawerOpen(false);
   };
 
   const indexNav = (
     <>
       <p className="flex items-center gap-2 font-display text-sm font-semibold text-library-wood mb-3">
         <List className="h-4 w-4 text-library-bronze" />
-        Índice
+        Índice da Obra
       </p>
-      <ul className="space-y-1 lg:max-h-[70vh] lg:overflow-y-auto pr-1">
+      <ul className="space-y-1 max-h-[65vh] overflow-y-auto pr-1">
         {parsed.toc.map(item => (
           <li key={`${item.id}-${item.level}`}>
             <button
               onClick={() => goToSection(item.id)}
               aria-current={activeId === item.id ? 'true' : undefined}
-              className={`w-full text-left rounded-md px-2 py-1 transition-colors font-body ${
+              className={`w-full text-left rounded-md px-2 py-1.5 transition-colors font-body ${
                 item.level === 3 ? 'text-xs pl-5' : 'text-sm'
               } ${
                 activeId === item.id
-                  ? 'bg-library-gold/20 text-library-wood font-medium'
+                  ? 'bg-library-gold/20 text-library-wood font-semibold'
                   : 'text-library-bronze hover:bg-library-gold/10 hover:text-library-wood'
               }`}
             >
@@ -312,39 +339,126 @@ export default function Reader() {
     </>
   );
 
+  // Dynamic Theme Styling
+  const themeClasses = {
+    parchment: 'bg-card/95 parchment-bg border-library-bronze text-foreground',
+    light: 'bg-white border-gray-200 text-gray-900 shadow-md',
+    dark: 'bg-[#1a1614] border-[#382e2b] text-[#e5dcd3] shadow-xl',
+    sepia: 'bg-[#f4ecd8] border-[#dfd0b5] text-[#4a3b2c] shadow-md',
+  }[readingSettings.theme];
+
+  const fontClass = {
+    reading: 'font-reading',
+    serif: 'font-serif',
+    sans: 'font-sans',
+  }[readingSettings.fontFamily];
+
+  const fontSizeClass = {
+    sm: 'text-base leading-relaxed',
+    md: 'text-lg leading-relaxed',
+    lg: 'text-xl leading-loose',
+    xl: 'text-2xl leading-loose',
+  }[readingSettings.fontSize];
+
   return (
     <Layout>
+      {/* Top Reading Progress Bar */}
       {progress > 0 && (
         <div
           aria-hidden
-          className="fixed top-0 left-0 right-0 z-[60] h-0.5 bg-library-gold transition-[width] duration-150"
+          className="fixed top-0 left-0 right-0 z-[60] h-1 bg-library-gold transition-[width] duration-150 shadow-golden"
           style={{ width: `${progress}%` }}
         />
       )}
 
-      <div className="container mx-auto px-4 py-8">
-        <div className="mb-6">
+      {/* Floating / Sticky Compact Reader Toolbar */}
+      {showStickyHeader && (
+        <div className="fixed top-14 left-0 right-0 z-30 bg-library-wood/95 backdrop-blur-md border-b border-library-bronze text-library-parchment shadow-md transition-all duration-300 py-2 px-4 flex items-center justify-between gap-4">
+          <div className="flex items-center gap-2 min-w-0 flex-1">
+            <BookOpen className="h-4 w-4 text-library-gold shrink-0" />
+            <span className="font-display text-sm font-semibold truncate text-library-gold">
+              {data.title}
+            </span>
+          </div>
+          <div className="flex items-center gap-2 shrink-0">
+            <span className="text-xs text-library-gold/80 font-body hidden sm:inline">
+              {Math.round(progress)}% lido
+            </span>
+            {parsed.toc.length > 1 && (
+              <Drawer open={drawerOpen} onOpenChange={setDrawerOpen}>
+                <DrawerTrigger asChild>
+                  <Button variant="ghost" size="sm" className="h-8 px-2 text-library-gold hover:bg-library-gold/20">
+                    <List className="h-4 w-4 mr-1" />
+                    <span className="text-xs">Índice</span>
+                  </Button>
+                </DrawerTrigger>
+                <DrawerContent className="bg-library-parchment border-library-bronze p-6">
+                  <DrawerHeader className="text-left pb-2 border-b border-library-bronze/30">
+                    <DrawerTitle className="font-display text-lg text-library-wood">
+                      {data.title}
+                    </DrawerTitle>
+                  </DrawerHeader>
+                  <div className="py-4">{indexNav}</div>
+                </DrawerContent>
+              </Drawer>
+            )}
+            <ReadingToolbar settings={readingSettings} onChangeSettings={handleSettingsChange} />
+          </div>
+        </div>
+      )}
+
+      <div className="container mx-auto px-4 py-6 md:py-8">
+        {/* Top Action Bar */}
+        <div className="flex items-center justify-between gap-4 mb-6">
           <Button asChild variant="ghost" size="sm" className="font-body text-library-bronze hover:text-library-wood">
             <Link to={bookId ? `/livros/${bookId}` : '/livros'}>
               <ArrowLeft className="h-4 w-4 mr-2" />
               Voltar ao Catálogo
             </Link>
           </Button>
+
+          <div className="flex items-center gap-2">
+            {/* Mobile TOC Drawer Trigger */}
+            {parsed.toc.length > 1 && (
+              <div className="lg:hidden">
+                <Drawer open={drawerOpen} onOpenChange={setDrawerOpen}>
+                  <DrawerTrigger asChild>
+                    <Button variant="outline" size="sm" className="h-8 px-2.5 font-body text-xs border-library-bronze text-library-wood">
+                      <List className="h-3.5 w-3.5 mr-1 text-library-gold" />
+                      Índice
+                    </Button>
+                  </DrawerTrigger>
+                  <DrawerContent className="bg-library-parchment border-library-bronze p-6">
+                    <DrawerHeader className="text-left pb-2 border-b border-library-bronze/30">
+                      <DrawerTitle className="font-display text-lg text-library-wood">
+                        {data.title}
+                      </DrawerTitle>
+                    </DrawerHeader>
+                    <div className="py-4">{indexNav}</div>
+                  </DrawerContent>
+                </Drawer>
+              </div>
+            )}
+
+            {/* Reading Settings Popover */}
+            <ReadingToolbar settings={readingSettings} onChangeSettings={handleSettingsChange} />
+          </div>
         </div>
 
-        <div className="flex items-start gap-3 mb-2 max-w-3xl">
+        {/* Header Title Section */}
+        <div className="flex items-start gap-3 mb-3 max-w-3xl mx-auto lg:mx-0">
           <BookOpen className="h-6 w-6 text-library-gold mt-1 shrink-0" />
-          <h1 className="font-heading text-3xl md:text-4xl text-library-wood">{data.title}</h1>
+          <h1 className="font-heading text-2xl md:text-4xl text-library-wood leading-tight">{data.title}</h1>
         </div>
 
-        <p className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-muted-foreground font-body mb-8 md:ml-9">
+        <p className="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs md:text-sm text-muted-foreground font-body mb-8 max-w-3xl mx-auto lg:mx-0 md:ml-9">
           <span className="flex items-center gap-1.5">
-            <Clock className="h-3.5 w-3.5" />
+            <Clock className="h-3.5 w-3.5 text-library-gold" />
             ~{parsed.minutes} min de leitura
           </span>
-          <span className="flex items-center gap-1.5 text-library-bronze/80">
+          <span className="hidden sm:flex items-center gap-1.5 text-library-bronze/80">
             <BookMarked className="h-3.5 w-3.5" />
-            Selecione uma palavra para ver o significado
+            Selecione uma palavra para o glossário ou frase para citação
           </span>
           {ttsSupported && (
             <span className="flex items-center gap-1">
@@ -352,7 +466,7 @@ export default function Reader() {
                 <Button
                   variant="ghost"
                   size="sm"
-                  className="h-7 px-2 font-body text-library-bronze hover:text-library-wood"
+                  className="h-7 px-2 font-body text-library-bronze hover:text-library-wood text-xs"
                   onClick={() => startSpeech(markdownToSpeechText(parsed.content))}
                 >
                   <Volume2 className="h-3.5 w-3.5 mr-1" />
@@ -364,7 +478,7 @@ export default function Reader() {
                   <Button
                     variant="ghost"
                     size="sm"
-                    className="h-7 px-2 font-body text-library-bronze hover:text-library-wood"
+                    className="h-7 px-2 font-body text-library-bronze hover:text-library-wood text-xs"
                     onClick={pauseSpeech}
                   >
                     <Pause className="h-3.5 w-3.5 mr-1" />
@@ -373,7 +487,7 @@ export default function Reader() {
                   <Button
                     variant="ghost"
                     size="sm"
-                    className="h-7 px-2 font-body text-library-bronze hover:text-library-wood"
+                    className="h-7 px-2 font-body text-library-bronze hover:text-library-wood text-xs"
                     onClick={stopSpeech}
                   >
                     <Square className="h-3 w-3 mr-1" />
@@ -386,7 +500,7 @@ export default function Reader() {
                   <Button
                     variant="ghost"
                     size="sm"
-                    className="h-7 px-2 font-body text-library-bronze hover:text-library-wood"
+                    className="h-7 px-2 font-body text-library-bronze hover:text-library-wood text-xs"
                     onClick={resumeSpeech}
                   >
                     <Play className="h-3.5 w-3.5 mr-1" />
@@ -395,7 +509,7 @@ export default function Reader() {
                   <Button
                     variant="ghost"
                     size="sm"
-                    className="h-7 px-2 font-body text-library-bronze hover:text-library-wood"
+                    className="h-7 px-2 font-body text-library-bronze hover:text-library-wood text-xs"
                     onClick={stopSpeech}
                   >
                     <Square className="h-3 w-3 mr-1" />
@@ -407,11 +521,13 @@ export default function Reader() {
           )}
         </p>
 
-        <div className="lg:flex lg:gap-8 lg:items-start lg:max-w-none">
+        {/* Reader Layout (Desktop TOC + Main Article Container) */}
+        <div className="lg:flex lg:gap-8 lg:items-start">
+          {/* Desktop Sidebar TOC */}
           {parsed.toc.length > 1 && (
             <nav
               aria-label="Índice da obra"
-              className="hidden lg:block w-64 shrink-0 sticky top-6"
+              className="hidden lg:block w-64 shrink-0 sticky top-20"
             >
               <Card className="bg-card/95 backdrop-blur-sm border-library-bronze parchment-bg shadow-book">
                 <CardContent className="p-4">{indexNav}</CardContent>
@@ -419,25 +535,17 @@ export default function Reader() {
             </nav>
           )}
 
-          <div className="min-w-0 flex-1" ref={contentRef}>
+          {/* Main Content Area capped with max-w-prose */}
+          <div className="min-w-0 flex-1 max-w-prose mx-auto" ref={contentRef}>
             {parsed.provenance && (
               <div className="prose prose-sm max-w-none mb-8 p-4 rounded-lg bg-library-parchment/60 border border-library-bronze/30 text-library-bronze">
                 <ReactMarkdown remarkPlugins={[remarkGfm]}>{parsed.provenance}</ReactMarkdown>
               </div>
             )}
 
-            {parsed.toc.length > 1 && (
-              <details className="lg:hidden mb-6 rounded-lg border border-library-bronze bg-card/95 parchment-bg px-4 py-3">
-                <summary className="cursor-pointer font-display text-sm font-semibold text-library-wood select-none">
-                  Índice da obra
-                </summary>
-                <div className="pt-3">{indexNav}</div>
-              </details>
-            )}
-
-            <Card className="bg-card/95 backdrop-blur-sm border-library-bronze shadow-book parchment-bg">
-              <CardContent className="p-6 md:p-10">
-                <article className="prose prose-lg max-w-none font-reading prose-headings:font-heading prose-headings:text-library-wood prose-a:text-library-bronze prose-blockquote:border-library-bronze prose-blockquote:font-body prose-strong:text-library-wood">
+            <Card className={`transition-all duration-200 ${themeClasses}`}>
+              <CardContent className="p-5 md:p-10">
+                <article className={`prose prose-lg max-w-none ${fontClass} ${fontSizeClass} prose-headings:font-heading prose-headings:text-library-wood prose-a:text-library-bronze prose-blockquote:border-library-bronze prose-blockquote:font-body prose-strong:text-library-wood`}>
                   <ReactMarkdown remarkPlugins={[remarkGfm]} components={markdownComponents}>
                     {parsed.content}
                   </ReactMarkdown>
