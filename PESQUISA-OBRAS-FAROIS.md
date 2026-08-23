@@ -100,10 +100,12 @@ HathiTrust (domínio público pleno).
 
 ---
 
-## Fase 2 — Caça a traduções portuguesas antigas (2026-08-23, AGUARDANDO DECISÃO)
+## Fase 2 — Caça a traduções portuguesas antigas (2026-08-23, APROVADA E EXECUTADA)
 
 > Fonte principal: Internet Archive (API advancedsearch + metadata + djvu.txt).
-> Nada foi incluído no acervo ainda — relatório submetido ao Rilson.
+> Rilson aprovou tudo. Executado: Peregrino e Confissões com leitura online
+> (OCR revisado mecanicamente); Imitação e Bernardes como ficha + download do
+> scan — OCR setecentista/1848 exige revisão manual antes do leitor.
 
 ### Candidatos verificados
 
