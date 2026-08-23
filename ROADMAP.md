@@ -865,6 +865,10 @@ no `meus-remedios` (único projeto pessoal com OAuth de usuário real hoje)
   - Exportação dinâmica para Obsidian (`.md`) com YAML Frontmatter.
 - [x] **Destaques e Anotações Pessoais**:
   - Menu de seleção para grifar trechos e gaveta lateral **"Minhas Anotações"** (`NotesDrawer`) para gerenciar frases grifadas e notas pessoais salvas no navegador.
+- [x] **Conformidade de Engenharia 100% (`hetzner-infra`)**:
+  - Dockerfiles (`web` e `server`) atualizados com diretivas `HEALTHCHECK` ativas e monitoramento de saúde contínuo.
+  - Multi-stage builds Node 22 + pnpm 10 com pruning de dependências de produção e usuário não-root (`USER app`).
+  - Nginx com Security Headers OWASP, Gzip, cache imutável de 1 ano e guarda de disco de 90% no CI/CD (`deploy.yml`).
 - [ ] **Páginas de Autor Ricas (Alimentadas pelo Vault Obsidian)**:
   - Enriquecer as páginas `/autor/:slug` trazendo biografias, contexto histórico e citações marcantes diretamente das notas do **Vault Obsidian** do Rilson.
   - Retrato do autor em moldura circular *tondo* dourada com citação em `.signature-italic`.
