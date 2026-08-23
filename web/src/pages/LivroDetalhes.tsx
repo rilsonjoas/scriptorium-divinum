@@ -1,7 +1,9 @@
 import { Layout } from '@/components/Layout';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { BookOpen, Download, Calendar, User, Globe, Languages, Tag, ArrowLeft, Loader2 } from 'lucide-react';
+import { BookOpen, Download, Calendar, User, Globe, Languages, Tag, ArrowLeft, Loader2, Star } from 'lucide-react';
+import { useEffect, useState } from 'react';
+import { isFavorite, toggleFavorite } from '@/utils/favorites';
 import { Link, useParams, Navigate } from 'react-router-dom';
 import { useBook } from '@/hooks/useDatabase';
 import { SafeImage } from '@/components/SafeImage';
@@ -13,6 +15,11 @@ const AMAZON_AFFILIATE_TAG = import.meta.env.VITE_AMAZON_TAG ?? 'rilson-20';
 const LivroDetalhes = () => {
   const { bookId } = useParams<{ bookId: string }>();
   const { data: book, isLoading, error } = useBook(bookId || '');
+
+  const [fav, setFav] = useState(false);
+  useEffect(() => {
+    if (book?.slug) setFav(isFavorite(book.slug));
+  }, [book?.slug]);
 
   const scanIdentifier = (() => {
     const link = book?.downloadLinks?.find(l => l.url.includes('archive.org/download/'));
@@ -170,7 +177,23 @@ const LivroDetalhes = () => {
                   </p>
                 )}
 
-                <div className="flex flex-wrap gap-4 text-sm text-muted-foreground font-body">
+                <div className="flex flex-wrap items-center gap-4 text-sm text-muted-foreground font-body">
+                  {book.slug && (
+                    <button
+                      type="button"
+                      onClick={() => setFav(toggleFavorite(book.slug!))}
+                      aria-pressed={fav}
+                      className={`flex items-center gap-1.5 rounded-md border px-2.5 py-1 transition-colors font-body ${
+                        fav
+                          ? 'border-library-gold bg-library-gold/20 text-library-wood'
+                          : 'border-library-bronze/50 text-library-bronze hover:bg-library-gold/10'
+                      }`}
+                      title={fav ? 'Remover dos favoritos' : 'Adicionar aos favoritos'}
+                    >
+                      <Star className={`h-4 w-4 ${fav ? 'fill-library-gold text-library-gold' : ''}`} />
+                      {fav ? 'Nos favoritos' : 'Favoritar'}
+                    </button>
+                  )}
                   <div className="flex items-center space-x-2">
                     <User className="h-4 w-4" />
                     <Link

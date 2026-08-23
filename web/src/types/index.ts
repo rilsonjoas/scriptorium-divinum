@@ -79,6 +79,7 @@ export interface Category {
 
 export interface Book {
   id: string;
+  slug?: string;
   title: string;
   originalTitle?: string;
   author: Author;

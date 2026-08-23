@@ -8,11 +8,19 @@ import { useState, useMemo, useEffect } from 'react';
 import { useBooks, useCategories, useSiteSettings } from '@/hooks/useDatabase';
 import { useSearchParams } from 'react-router-dom';
 import { AdSlot } from '@/components/ads/AdSlot';
+import { Star } from 'lucide-react';
+import { listFavorites } from '@/utils/favorites';
 
 const Livros = () => {
   const [searchParams, setSearchParams] = useSearchParams();
   const [searchTerm, setSearchTerm] = useState(searchParams.get('search') || '');
   const [selectedCategory, setSelectedCategory] = useState('all');
+  const [soFavoritos, setSoFavoritos] = useState(false);
+  const [favoritos, setFavoritos] = useState<string[]>([]);
+
+  useEffect(() => {
+    setFavoritos(listFavorites());
+  }, []);
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
 
   // Update search term from URL params
@@ -41,10 +49,12 @@ const Livros = () => {
       
       const matchesCategory = selectedCategory === 'all' || 
         book.categories?.includes(selectedCategory);
-      
-      return matchesSearch && matchesCategory;
+
+      const matchesFavoritos = !soFavoritos || favoritos.includes(book.slug ?? '');
+
+      return matchesSearch && matchesCategory && matchesFavoritos;
     });
-  }, [books, searchTerm, selectedCategory]);
+  }, [books, searchTerm, selectedCategory, soFavoritos, favoritos]);
 
   return (
     <Layout>
@@ -64,6 +74,20 @@ const Livros = () => {
         {/* Filters and Search */}
         <div className="bg-card/50 rounded-lg border border-library-bronze p-6 mb-8 parchment-bg">
           <div className="flex flex-col lg:flex-row gap-4 items-end">
+            <button
+              type="button"
+              onClick={() => setSoFavoritos(v => !v)}
+              aria-pressed={soFavoritos}
+              className={`flex items-center gap-1.5 rounded-md border px-3 py-2 text-sm font-body transition-colors ${
+                soFavoritos
+                  ? 'border-library-gold bg-library-gold/20 text-library-wood'
+                  : 'border-library-bronze text-library-bronze hover:bg-library-gold/10'
+              }`}
+              title="Mostrar apenas favoritos"
+            >
+              <Star className={`h-4 w-4 ${soFavoritos ? 'fill-library-gold text-library-gold' : ''}`} />
+              Favoritos
+            </button>
             {/* Search */}
             <div className="flex-1">
               <label className="font-body text-sm font-medium text-foreground mb-2 block">
