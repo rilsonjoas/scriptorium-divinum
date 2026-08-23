@@ -721,11 +721,22 @@ no `meus-remedios` (único projeto pessoal com OAuth de usuário real hoje)
 
 ### Aprovado para implementação
 
-- [ ] **Glossário do leitor (português arcaico)** — prioridade 1. O maior
-      inimigo do acervo PT é que Vieira (1655) é difícil. Tocar/clicar
-      palavra obsoleta → definição em popover (Wiktionary PT tem API
-      gratuita). Ataca a evasão real do leitor moderno; ninguém faz isso
-      em português.
+- [x] **Glossário do leitor (português arcaico)** — implementado 2026-08-23.
+      Selecionar qualquer palavra no Reader → popover com significado.
+      Duas camadas: **glossário curado local** (`web/src/data/glossario.json`,
+      32 entradas baseadas no corpus real — mui ×14 obras, conjugações de
+      vós sois/tendes/éreis/fostes/tivestes/quereis/podeis/dizeis/ides/
+      estais/vinde/sede, debalde, alvedrio, pejo, dilação, escusado,
+      sobremodo, acatamento, concupiscência etc.) + **detecção de mesóclise**
+      por regex (`mentir-vos-ão` → decomposição de leitura) +
+      **fallback Wikcionário PT** via Action API (`action=parse&prop=wikitext`,
+      CORS aberto; parser extrai bloco `={{-pt-}}=`, classe gramatical e até
+      3 definições, com cache em memória e link de atribuição). Dica
+      discreta na abertura da obra. Testes: 14 novos em
+      `web/src/utils/glossario.test.ts` (24 total no suite passando).
+      Evolução futura: crescer o JSON conforme surgirem palavras sem
+      cobertura, marcar termos curados com underline pontilhado direto no
+      texto (exige transformação de nós de texto no markdown).
 - [ ] **"Continuar lendo" + progresso por obra** — prioridade 2.
       localStorage puro, sem contas: salvar posição de scroll por livro,
       bloco "Continuar lendo" na home, barra fina de progresso no Reader.

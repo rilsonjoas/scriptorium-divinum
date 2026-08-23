@@ -1,0 +1,98 @@
+{
+  "mui": {
+    "def": "Muito(a), com reforço."
+  },
+  "debalde": {
+    "def": "Em vão; sem resultado; inutilmente."
+  },
+  "alvedrio": {
+    "def": "Vontade própria; arbítrio; livre escolha."
+  },
+  "pejo": {
+    "def": "Vergonha; constrangimento. Ex.: \"sem pejo\" = sem vergonha."
+  },
+  "dilação": {
+    "def": "Adiamento; demora em fazer algo."
+  },
+  "escusado": {
+    "def": "Desnecessário; sem serventia. Ex.: \"escusado será dizer\" = não preciso dizer."
+  },
+  "sobremodo": {
+    "def": "Em extremo; excessivamente; sobremaneira."
+  },
+  "acatamento": {
+    "def": "Respeito; consideração; obediência."
+  },
+  "benigno": {
+    "def": "Bondoso; gentil; favorável."
+  },
+  "iniquidade": {
+    "def": "Injustiça; perversidade; transgressão da lei divina."
+  },
+  "impetrar": {
+    "def": "Conseguir algo por meio de pedido humilde ou súplica."
+  },
+  "outro tanto": {
+    "def": "O mesmo; quantidade ou ação equivalente. Ex.: \"fez outro tanto\" = fez o mesmo."
+  },
+  "ainda que": {
+    "def": "Embora; mesmo que."
+  },
+  "por ventura": {
+    "def": "Por acaso; usado em perguntas. Ex.: \"porventura não sabes?\""
+  },
+  "eis que": {
+    "def": "Fórmula que anuncia algo importante: \"veja\", \"atentem\", \"aqui está\"."
+  },
+  "quiçá": {
+    "def": "Talvez; porventura."
+  },
+  "alhures": {
+    "def": "Em outro lugar."
+  },
+  "concupiscência": {
+    "def": "Desejo desordenado; inclinação da alma para o pecado (termo teológico)."
+  },
+  "vós": {
+    "def": "Pronome de tratamento na 2ª pessoa do plural (equivalente a \"vocês\"), usado com respeito, solenidade ou dirigindo-se a Deus. Suas formas verbais terminam geralmente em -is: vós sois, tendes, quereis."
+  },
+  "sois": {
+    "def": "Forma de \"vós\" no presente do verbo ser. Ex.: \"vós sois a luz\" = vocês são a luz."
+  },
+  "éreis": {
+    "def": "Forma de \"vós\" no passado (pretérito imperfeito) do verbo ser. Ex.: \"vós éreis\" = vocês eram."
+  },
+  "fostes": {
+    "def": "Forma de \"vós\" no passado (pretérito perfeito) dos verbos ser e ir. Ex.: \"vós fostes\" = vocês foram."
+  },
+  "tendes": {
+    "def": "Forma de \"vós\" no presente do verbo ter. Ex.: \"vós tendes\" = vocês têm."
+  },
+  "tivestes": {
+    "def": "Forma de \"vós\" no passado do verbo ter. Ex.: \"vós tivestes\" = vocês tiveram."
+  },
+  "quereis": {
+    "def": "Forma de \"vós\" no presente do verbo querer. Ex.: \"quereis\" = vocês querem."
+  },
+  "podeis": {
+    "def": "Forma de \"vós\" no presente do verbo poder. Ex.: \"vós podeis\" = vocês podem."
+  },
+  "dizeis": {
+    "def": "Forma de \"vós\" no presente do verbo dizer. Ex.: \"vós dizeis\" = vocês dizem."
+  },
+  "ides": {
+    "def": "Forma de \"vós\" no presente do verbo ir. Ex.: \"vós ides\" = vocês vão."
+  },
+  "estais": {
+    "def": "Forma de \"vós\" no presente do verbo estar. Ex.: \"vós estais\" = vocês estão."
+  },
+  "vinde": {
+    "def": "Ordem de vir dirigida a \"vós\". Ex.: \"vinde a mim\" = venham a mim."
+  },
+  "sede": {
+    "def": "Ordem de ser dirigida a \"vós\". Ex.: \"sede santos\" = sejam santos."
+  },
+  "mesóclise": {
+    "def": "Pronome colocado no meio do verbo no futuro. Ex.: \"amá-lo-ei\" = eu o amarei; \"mentir-vos-ão\" = eles vos mentirão. Leitura: retire o pronome do meio e junte à frente: amar + ele + ei."
+  }
+}

@@ -1,14 +1,16 @@
 import { Layout } from '@/components/Layout';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { ArrowLeft, BookOpen, Clock, List, Loader2, ScrollText } from 'lucide-react';
+import { ArrowLeft, BookMarked, BookOpen, Clock, List, Loader2, ScrollText } from 'lucide-react';
 import { Link, useParams } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import type { ReactNode } from 'react';
 import { useBookText } from '@/hooks/useDatabase';
 import { splitProvenance } from '@/utils/readerText';
+import { normalizeWord } from '@/utils/glossario';
+import { GlossaryPopover } from '@/components/reader/GlossaryPopover';
 
 interface TocItem {
   id: string;
@@ -92,6 +94,11 @@ export default function Reader() {
   const { data, isLoading, error } = useBookText(bookId || '');
   const [progress, setProgress] = useState(0);
   const [activeId, setActiveId] = useState<string | null>(null);
+  const contentRef = useRef<HTMLDivElement>(null);
+  const [glossaryQuery, setGlossaryQuery] = useState<{
+    word: string;
+    anchor: { top: number; bottom: number; left: number };
+  } | null>(null);
 
   const parsed = useMemo(() => {
     if (!data) return null;
@@ -129,6 +136,39 @@ export default function Reader() {
       cancelAnimationFrame(raf);
     };
   }, [parsed]);
+
+  useEffect(() => {
+    setGlossaryQuery(null);
+  }, [bookId]);
+
+  useEffect(() => {
+    const onSelectEnd = () => {
+      const sel = window.getSelection();
+      if (!sel || sel.isCollapsed || sel.rangeCount === 0) {
+        setGlossaryQuery(q => (q ? (window.getSelection()?.isCollapsed ? null : q) : null));
+        return;
+      }
+      const container = contentRef.current;
+      if (!container || !container.contains(sel.anchorNode)) return;
+
+      const raw = sel.toString();
+      const word = normalizeWord(raw);
+      if (!word || /\s/.test(word)) return;
+
+      const rect = sel.getRangeAt(0).getBoundingClientRect();
+      if (!rect.width && !rect.height) return;
+      setGlossaryQuery({
+        word,
+        anchor: { top: rect.top, bottom: rect.bottom, left: rect.left },
+      });
+    };
+    document.addEventListener('mouseup', onSelectEnd);
+    document.addEventListener('touchend', onSelectEnd);
+    return () => {
+      document.removeEventListener('mouseup', onSelectEnd);
+      document.removeEventListener('touchend', onSelectEnd);
+    };
+  }, []);
 
   if (isLoading) {
     return (
@@ -235,9 +275,15 @@ export default function Reader() {
           <h1 className="font-heading text-3xl md:text-4xl text-library-wood">{data.title}</h1>
         </div>
 
-        <p className="flex items-center gap-1.5 text-sm text-muted-foreground font-body mb-8 md:ml-9">
-          <Clock className="h-3.5 w-3.5" />
-          ~{parsed.minutes} min de leitura
+        <p className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-muted-foreground font-body mb-8 md:ml-9">
+          <span className="flex items-center gap-1.5">
+            <Clock className="h-3.5 w-3.5" />
+            ~{parsed.minutes} min de leitura
+          </span>
+          <span className="flex items-center gap-1.5 text-library-bronze/80">
+            <BookMarked className="h-3.5 w-3.5" />
+            Selecione uma palavra para ver o significado
+          </span>
         </p>
 
         <div className="lg:flex lg:gap-8 lg:items-start lg:max-w-none">
@@ -252,7 +298,7 @@ export default function Reader() {
             </nav>
           )}
 
-          <div className="min-w-0 flex-1">
+          <div className="min-w-0 flex-1" ref={contentRef}>
             {parsed.provenance && (
               <div className="prose prose-sm max-w-none mb-8 p-4 rounded-lg bg-library-parchment/60 border border-library-bronze/30 text-library-bronze">
                 <ReactMarkdown remarkPlugins={[remarkGfm]}>{parsed.provenance}</ReactMarkdown>
@@ -279,6 +325,14 @@ export default function Reader() {
             </Card>
           </div>
         </div>
+
+        {glossaryQuery && (
+          <GlossaryPopover
+            word={glossaryQuery.word}
+            anchor={glossaryQuery.anchor}
+            onClose={() => setGlossaryQuery(null)}
+          />
+        )}
       </div>
     </Layout>
   );

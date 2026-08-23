@@ -25,3 +25,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Assets de trabalho (fontes de marca e rascunhos, fora do deploy)
+/Logo 1.jpg
+/Logo 2.jpg
+/scratch/
