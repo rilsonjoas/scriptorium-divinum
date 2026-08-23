@@ -144,3 +144,14 @@ HathiTrust (domínio público pleno).
   em inglês (Thoughts/Pensées; Proslogium-Monologium-Cur Deus Homo). Caminho
   realista futuro: política de tradução assistida por IA (documento próprio
   pendente) ou achado eventual em HathiTrust/Mindlin com busca manual.
+
+### Rebusca HathiTrust/Mindlin (23/08, noite) — sem resultado
+
+- Brasiliana Mindlin (digital.bbm.usp.br): nenhuma edição PT antiga de
+  Pascal, Anselmo ou Granada indexada (busca direta e via Google).
+- HathiTrust: bloqueio de acesso automatizado à busca; e mesmo no
+  catálogo, traduções PT pré-1955 dessas três obras não aparecem em
+  nenhum índice aberto consultado.
+- Conclusão consolidada: para essas três, o acervo segue com as edições
+  em inglês já publicadas; versão PT dependerá da futura política de
+  tradução assistida por IA ou de um achado fora dos repositórios abertos.
