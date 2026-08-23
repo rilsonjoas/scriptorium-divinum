@@ -97,3 +97,35 @@ HathiTrust (domínio público pleno).
    (caso Shapcote/Summa e caso Vollert/Compendium: PD nos EUA ≠ PD no Brasil).
 5. Numeração de capítulos varia entre edições críticas (Leonina vs.
    eletrônicas): documentar a convenção da edição usada, não assumir a "famosa".
+
+---
+
+## Fase 2 — Caça a traduções portuguesas antigas (2026-08-23, AGUARDANDO DECISÃO)
+
+> Fonte principal: Internet Archive (API advancedsearch + metadata + djvu.txt).
+> Nada foi incluído no acervo ainda — relatório submetido ao Rilson.
+
+### Candidatos verificados
+
+| Obra | Edição encontrada | Tradutor | Base legal | Texto disponível |
+|---|---|---|---|---|
+| O Peregrino (Bunyan) | "O Peregrino ou A Viagem do Christão à Cidade Celestial debaixo da forma de um sonho", 11ª ed., Livraria Evangélica, Lisboa, **1916** | **Guilherme Luiz dos Santos Ferreira (1850–1934)** — major do exército português, presbiteriano; identidade confirmada em duas fontes independentes (Rede Missionária; Grande Enciclopédia Luso-Brasileira v.27) | tradutor †1934 → PD desde 2004 ✓ | djvu.txt (285 KB), OCR tesseract |
+| Confissões de Santo Agostinho | "Confissões do Grande Doutor da Igreja Santo Agostinho", H. Garnier, Rio de Janeiro, **1905** ("Edição clássica") | anônimo ("Traduzidas na língua portuguesa por hum devoto") | obra anônima publicada 1905 → PD por prazo (70 anos da publicação) ✓ | djvu.txt (693 KB) |
+| Imitação de Cristo (Tomás de Kempis) | "Imitação de Christo: com instrucções e orações...", Belin-Leprieur et Morizot, Paris, **1848** | não creditado na folha de rosto (verificar dentro do volume) → anônima | obra anônima de 1848 → PD ✓ | djvu.txt (468 KB); OCR com ruído moderado |
+| Nova Floresta / Os Últimos Fins do Homem (Padre Manuel Bernardes, 1644–1710) | escaneamentos originais (1706–1920) no archive | autor ORIGINAL português — sem barreira de tradução | PD trivial ✓ | 34 itens; djvu.txt por volume |
+
+### Não encontrados nesta rodada
+
+- Pascal *Pensamentos* PT em domínio público (só ruído/obras não relacionadas)
+- Anselmo *Cur Deus Homo* PT
+- Granada *Guia dos Pecadores* PT (só biografia do autor)
+- Ligório/Scupoli: apenas re-edits modernos sem data/creditação clara (risco de tradução nova protegida)
+
+### Ressalvas técnicas
+
+- Todos os textos viriam de OCR de scans antigos: ortografia pré-acordo é
+  legítima (faz parte do charme histórico), mas o OCR adiciona ruído
+  (ex.: "traducçúes", "Unguas") → exigem passada de revisão antes de
+  virar leitura online.
+- A Imitação 1848 tem introdução sobre a autoria da obra (Kempis vs.
+  Gerson) — manter ou remover na edição é decisão editorial.
