@@ -66,7 +66,7 @@ export function HeroSection() {
               asChild
               variant="outline"
               size="lg"
-              className="border-library-gold text-library-gold hover:bg-library-gold hover:text-library-wood font-body text-base px-6"
+              className="border-2 border-library-gold bg-library-wood/90 text-library-gold hover:bg-library-gold hover:text-library-wood font-semibold font-body text-base px-6 shadow-golden"
             >
               <Link to="/autores">
                 <Users className="mr-2 h-5 w-5" />

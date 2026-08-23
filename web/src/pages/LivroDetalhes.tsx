@@ -84,9 +84,13 @@ const LivroDetalhes = () => {
                 {/* Action Buttons */}
                 <div className="space-y-3">
                   {book.textAvailable && (
-                    <Button asChild size="lg" className="w-full bg-library-wood hover:bg-library-bronze text-library-gold font-body">
-                      <Link to={`/ler/${book.id}`}>
-                        <BookOpen className="mr-2 h-4 w-4" />
+                    <Button
+                      asChild
+                      size="lg"
+                      className="w-full bg-library-gold hover:bg-library-gold/90 text-library-wood font-semibold font-body shadow-golden text-base py-3"
+                    >
+                      <Link to={`/ler/${book.slug || book.id}`}>
+                        <BookOpen className="mr-2 h-5 w-5" />
                         Ler Online
                       </Link>
                     </Button>
@@ -94,17 +98,17 @@ const LivroDetalhes = () => {
 
                   {book.downloadLinks && book.downloadLinks.length > 0 && (
                     <div className="space-y-2">
-                      <h4 className="font-body text-sm font-medium text-foreground">Downloads:</h4>
+                      <h4 className="font-body text-sm font-semibold text-foreground">Downloads:</h4>
                       {book.downloadLinks.map((link, index) => (
                         <Button
                           key={index}
                           asChild
                           variant="outline"
                           size="sm"
-                          className="w-full border-library-bronze text-library-bronze hover:bg-library-bronze hover:text-primary-foreground font-body"
+                          className="w-full border-2 border-library-wood/80 bg-card text-library-wood hover:bg-library-wood hover:text-library-gold font-semibold font-body shadow-sm"
                         >
                           <a href={link.url} target="_blank" rel="noopener noreferrer">
-                            <Download className="mr-2 h-3 w-3" />
+                            <Download className="mr-2 h-3.5 w-3.5 text-library-crimson" />
                             {link.format.toUpperCase()}
                             {link.source && ` (${link.source})`}
                           </a>
@@ -114,9 +118,9 @@ const LivroDetalhes = () => {
                   )}
 
                   {!book.textAvailable && scanIdentifier && (
-                    <details className="rounded-lg border border-library-bronze bg-library-gold/5">
-                      <summary className="cursor-pointer select-none px-3 py-2 font-body text-sm text-library-bronze flex items-center gap-2">
-                        <BookOpen className="h-4 w-4" />
+                    <details className="rounded-lg border-2 border-library-bronze bg-library-gold/5">
+                      <summary className="cursor-pointer select-none px-3 py-2 font-body text-sm font-semibold text-library-wood flex items-center gap-2">
+                        <BookOpen className="h-4 w-4 text-library-gold" />
                         Ler o escaneamento online
                       </summary>
                       <div className="p-2">
@@ -139,14 +143,14 @@ const LivroDetalhes = () => {
                     asChild
                     variant="outline"
                     size="sm"
-                    className="w-full border-library-bronze text-library-bronze hover:bg-library-bronze hover:text-primary-foreground font-body"
+                    className="w-full border-2 border-library-bronze bg-card text-library-wood hover:bg-library-wood hover:text-library-gold font-semibold font-body shadow-sm"
                   >
                     <a
                       href={`https://www.amazon.com.br/s?k=${encodeURIComponent(`${book.title} ${book.author.name}`)}&tag=${AMAZON_AFFILIATE_TAG}`}
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <ShoppingBag className="mr-2 h-3 w-3" />
+                      <ShoppingBag className="mr-2 h-4 w-4 text-library-bronze" />
                       Edição impressa (Amazon)
                     </a>
                   </Button>
@@ -155,9 +159,9 @@ const LivroDetalhes = () => {
                     onClick={() => setCitationOpen(true)}
                     variant="outline"
                     size="sm"
-                    className="w-full border-library-bronze text-library-wood hover:bg-library-gold/20 font-body"
+                    className="w-full border-2 border-library-gold bg-library-gold/15 text-library-wood hover:bg-library-gold hover:text-library-wood font-semibold font-body shadow-sm"
                   >
-                    <GraduationCap className="mr-2 h-4 w-4 text-library-gold" />
+                    <GraduationCap className="mr-2 h-4 w-4 text-library-crimson" />
                     Como Citar esta Obra
                   </Button>
                 </div>

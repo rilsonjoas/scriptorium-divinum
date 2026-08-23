@@ -144,10 +144,10 @@ export function BookCard({ book, variant = 'grid' }: BookCardProps) {
       {/* Ribbon Bookmark para Livros Favoritados */}
       {isFav && <div className="ribbon-bookmark" title="Obra Favoritada" />}
 
-      <CardContent className="p-6">
-        <div className="flex space-x-4">
+      <CardContent className="p-4 sm:p-6">
+        <div className="flex flex-col sm:flex-row gap-4">
           {/* Book Cover */}
-          <div className="flex-shrink-0 w-24 h-32 bg-gradient-leather rounded-lg shadow-golden border-2 border-library-bronze relative overflow-hidden">
+          <div className="flex-shrink-0 w-24 h-32 sm:w-28 sm:h-36 bg-gradient-leather rounded-lg shadow-golden border-2 border-library-bronze relative overflow-hidden mx-auto sm:mx-0">
             <SafeImage
               src={book.coverImageUrl}
               alt={`Capa de ${book.title}`}
@@ -163,48 +163,48 @@ export function BookCard({ book, variant = 'grid' }: BookCardProps) {
             <div className="absolute bottom-1.5 left-1.5 w-2.5 h-2.5 border-b border-l border-library-gold"></div>
           </div>
 
-          {/* Book Info */}
-          <div className="flex-1">
-            <div className="mb-3">
-              <h3 className="font-heading text-lg font-semibold text-foreground group-hover:text-library-crimson transition-colors mb-1">
+          {/* Book Info - min-w-0 previne estouro de container no CSS Flexbox */}
+          <div className="flex-1 min-w-0">
+            <div className="mb-2 text-center sm:text-left">
+              <h3 className="font-heading text-lg font-semibold text-foreground group-hover:text-library-crimson transition-colors mb-1 break-words">
                 {book.title}
               </h3>
               {book.originalTitle && (
-                <p className="font-body text-sm text-muted-foreground italic">
+                <p className="font-body text-xs sm:text-sm text-muted-foreground italic break-words">
                   {book.originalTitle}
                 </p>
               )}
             </div>
 
-            <div className="flex items-center space-x-4 text-sm text-muted-foreground mb-3 font-body">
-              <div className="flex items-center space-x-1">
-                <User className="h-3 w-3 text-library-crimson" />
-                <span className="font-medium">{book.author.name}</span>
+            <div className="flex flex-wrap items-center justify-center sm:justify-start gap-x-3 gap-y-1 text-xs sm:text-sm text-muted-foreground mb-3 font-body">
+              <div className="flex items-center space-x-1 min-w-0">
+                <User className="h-3 w-3 text-library-crimson shrink-0" />
+                <span className="font-medium truncate">{book.author.name}</span>
               </div>
               {book.publicationYearOriginal && (
-                <div className="flex items-center space-x-1">
+                <div className="flex items-center space-x-1 shrink-0">
                   <Calendar className="h-3 w-3 text-library-bronze" />
                   <span>{book.publicationYearOriginal}</span>
                 </div>
               )}
             </div>
 
-            <p className="text-sm text-muted-foreground mb-4 line-clamp-2 font-body">
+            <p className="text-xs sm:text-sm text-muted-foreground mb-4 line-clamp-2 font-body break-words">
               {book.description}
             </p>
 
             {/* Categories & Language com Pigmentos de Iluminura */}
             {(book.categories || book.language) && (
-              <div className="flex flex-wrap gap-1.5 mb-4">
+              <div className="flex flex-wrap justify-center sm:justify-start gap-1.5 mb-4">
                 {book.language && (
-                  <span className="px-2 py-0.5 text-xs bg-library-lapis/10 text-library-lapis font-medium rounded-md font-body border border-library-lapis/30">
+                  <span className="px-2 py-0.5 text-[11px] bg-library-lapis/10 text-library-lapis font-medium rounded-md font-body border border-library-lapis/30">
                     {book.language}
                   </span>
                 )}
                 {book.categories && book.categories.slice(0, 3).map((category) => (
                   <span
                     key={category}
-                    className="px-2 py-0.5 text-xs bg-library-crimson/10 text-library-crimson rounded-md font-body border border-library-crimson/20"
+                    className="px-2 py-0.5 text-[11px] bg-library-crimson/10 text-library-crimson rounded-md font-body border border-library-crimson/20"
                   >
                     {category}
                   </span>
@@ -212,26 +212,20 @@ export function BookCard({ book, variant = 'grid' }: BookCardProps) {
               </div>
             )}
 
-            {/* Actions */}
-            <div className="flex space-x-2">
-              <Button asChild size="sm" className="bg-library-wood hover:bg-library-bronze text-library-gold font-body">
+            {/* Actions com alta leiturabilidade e flex-wrap */}
+            <div className="flex flex-wrap gap-2 justify-center sm:justify-start">
+              <Button asChild size="sm" className="bg-library-wood hover:bg-library-bronze text-library-gold font-semibold font-body">
                 <Link to={`/livros/${book.id}`}>
-                  <BookOpen className="h-3 w-3 mr-1" />
+                  <BookOpen className="h-3.5 w-3.5 mr-1 text-library-gold" />
                   Detalhes
                 </Link>
               </Button>
               {book.onlineReadPath && (
-                <Button asChild variant="outline" size="sm" className="border-library-bronze text-library-bronze hover:bg-library-bronze hover:text-primary-foreground font-body">
+                <Button asChild variant="outline" size="sm" className="border-2 border-library-wood/80 bg-library-gold/15 text-library-wood hover:bg-library-wood hover:text-library-gold font-semibold font-body shadow-sm">
                   <Link to={`/ler/${book.id}`}>
-                    <BookOpen className="h-3 w-3 mr-1" />
+                    <BookOpen className="h-3.5 w-3.5 mr-1" />
                     Ler Online
                   </Link>
-                </Button>
-              )}
-              {book.downloadLinks && book.downloadLinks.length > 0 && (
-                <Button variant="ghost" size="sm" className="text-library-bronze hover:text-library-wood font-body">
-                  <Download className="h-3 w-3 mr-1" />
-                  Download
                 </Button>
               )}
             </div>
