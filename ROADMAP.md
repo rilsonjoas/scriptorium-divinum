@@ -746,8 +746,14 @@ no `meus-remedios` (único projeto pessoal com OAuth de usuário real hoje)
       progresso e link direto — some quando não há nada em andamento.
       Tolerante a JSON corrompido e a storage indisponível. 8 testes novos
       (suite: 32 passando).
-- [ ] **Cartões de citação compartilháveis** — prioridade 3. Selecionar
-      trecho no Reader → gerar card bonito → baixar/compartilhar. Maior
+- [x] **Cartões de citação compartilháveis** — implementado 2026-08-23
+      (`web/src/components/reader/QuoteCardDialog.tsx`). Seleção de 2+
+      palavras no Reader → pill flutuante "Criar card de citação" →
+      diálogo com prévia + Baixar/Copiar/Enviar (share nativo com arquivos
+      quando suportado). Arte 1080×1080 em estilos inline rasterizáveis,
+      tipografia adaptativa por tamanho da citação, html2canvas com import
+      dinâmico (chunk próprio ~48KB gzip sob demanda). Autor/título
+      enriquecidos via `useBook` do slug. Maior
       loop orgânico no contexto BR (WhatsApp/Instagram). **Seguir o
       padrão já aprovado dos projetos irmãos**: `html2canvas` com import
       dinâmico sobre card offscreen fixo (1080×1080), CSS rasterizável

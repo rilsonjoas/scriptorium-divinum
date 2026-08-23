@@ -11,6 +11,7 @@ import { useBookText } from '@/hooks/useDatabase';
 import { splitProvenance } from '@/utils/readerText';
 import { normalizeWord } from '@/utils/glossario';
 import { GlossaryPopover } from '@/components/reader/GlossaryPopover';
+import { QuoteCardDialog, QuoteTriggerPill } from '@/components/reader/QuoteCardDialog';
 import {
   getReadingProgress,
   removeReadingProgress,
@@ -107,6 +108,11 @@ export default function Reader() {
     word: string;
     anchor: { top: number; bottom: number; left: number };
   } | null>(null);
+  const [cardSelection, setCardSelection] = useState<{
+    text: string;
+    anchor: { top: number; bottom: number; left: number };
+  } | null>(null);
+  const [cardOpen, setCardOpen] = useState(false);
 
   const parsed = useMemo(() => {
     if (!data) return null;
@@ -189,14 +195,22 @@ export default function Reader() {
 
       const raw = sel.toString();
       const word = normalizeWord(raw);
-      if (!word || /\s/.test(word)) return;
+      if (!word) return;
 
       const rect = sel.getRangeAt(0).getBoundingClientRect();
       if (!rect.width && !rect.height) return;
-      setGlossaryQuery({
-        word,
-        anchor: { top: rect.top, bottom: rect.bottom, left: rect.left },
-      });
+      const anchor = { top: rect.top, bottom: rect.bottom, left: rect.left };
+
+      const wordCount = raw.trim().split(/\s+/).length;
+      if (wordCount >= 2 && raw.trim().length <= 800) {
+        setGlossaryQuery(null);
+        setCardSelection({ text: raw, anchor });
+        return;
+      }
+      if (!/\s/.test(word)) {
+        setCardSelection(null);
+        setGlossaryQuery({ word, anchor });
+      }
     };
     document.addEventListener('mouseup', onSelectEnd);
     document.addEventListener('touchend', onSelectEnd);
@@ -367,6 +381,28 @@ export default function Reader() {
             word={glossaryQuery.word}
             anchor={glossaryQuery.anchor}
             onClose={() => setGlossaryQuery(null)}
+          />
+        )}
+
+        {cardSelection && !cardOpen && (
+          <QuoteTriggerPill
+            anchor={cardSelection.anchor}
+            onClick={() => setCardOpen(true)}
+            onClose={() => setCardSelection(null)}
+          />
+        )}
+
+        {cardSelection && (
+          <QuoteCardDialog
+            open={cardOpen}
+            quote={cardSelection.text}
+            slug={data?.slug}
+            fallbackTitle={data?.title ?? 'Scriptorium Divinum'}
+            onClose={() => {
+              setCardOpen(false);
+              setCardSelection(null);
+              window.getSelection()?.removeAllRanges();
+            }}
           />
         )}
       </div>
