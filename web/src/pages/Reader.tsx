@@ -1,17 +1,19 @@
 import { Layout } from '@/components/Layout';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { ArrowLeft, BookMarked, BookOpen, Clock, List, Loader2, ScrollText } from 'lucide-react';
+import { ArrowLeft, BookMarked, BookOpen, Clock, List, Loader2, Pause, Play, ScrollText, Square, Volume2 } from 'lucide-react';
 import { Link, useParams } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import type { ReactNode } from 'react';
 import { useBookText } from '@/hooks/useDatabase';
+import { useSpeech } from '@/hooks/useSpeech';
 import { splitProvenance } from '@/utils/readerText';
 import { normalizeWord } from '@/utils/glossario';
 import { GlossaryPopover } from '@/components/reader/GlossaryPopover';
 import { QuoteCardDialog, QuoteTriggerPill } from '@/components/reader/QuoteCardDialog';
+import { markdownToSpeechText } from '@/utils/speech';
 import {
   getReadingProgress,
   removeReadingProgress,
@@ -113,6 +115,14 @@ export default function Reader() {
     anchor: { top: number; bottom: number; left: number };
   } | null>(null);
   const [cardOpen, setCardOpen] = useState(false);
+  const {
+    supported: ttsSupported,
+    status: ttsStatus,
+    start: startSpeech,
+    pause: pauseSpeech,
+    resume: resumeSpeech,
+    stop: stopSpeech,
+  } = useSpeech();
 
   const parsed = useMemo(() => {
     if (!data) return null;
@@ -181,7 +191,9 @@ export default function Reader() {
 
   useEffect(() => {
     setGlossaryQuery(null);
-  }, [bookId]);
+    setCardSelection(null);
+    stopSpeech();
+  }, [bookId, stopSpeech]);
 
   useEffect(() => {
     const onSelectEnd = () => {
@@ -334,6 +346,65 @@ export default function Reader() {
             <BookMarked className="h-3.5 w-3.5" />
             Selecione uma palavra para ver o significado
           </span>
+          {ttsSupported && (
+            <span className="flex items-center gap-1">
+              {ttsStatus === 'idle' && (
+                <Button
+                  variant="ghost"
+                  size="sm"
+                  className="h-7 px-2 font-body text-library-bronze hover:text-library-wood"
+                  onClick={() => startSpeech(markdownToSpeechText(parsed.content))}
+                >
+                  <Volume2 className="h-3.5 w-3.5 mr-1" />
+                  Ouvir
+                </Button>
+              )}
+              {ttsStatus === 'playing' && (
+                <>
+                  <Button
+                    variant="ghost"
+                    size="sm"
+                    className="h-7 px-2 font-body text-library-bronze hover:text-library-wood"
+                    onClick={pauseSpeech}
+                  >
+                    <Pause className="h-3.5 w-3.5 mr-1" />
+                    Pausar
+                  </Button>
+                  <Button
+                    variant="ghost"
+                    size="sm"
+                    className="h-7 px-2 font-body text-library-bronze hover:text-library-wood"
+                    onClick={stopSpeech}
+                  >
+                    <Square className="h-3 w-3 mr-1" />
+                    Parar
+                  </Button>
+                </>
+              )}
+              {ttsStatus === 'paused' && (
+                <>
+                  <Button
+                    variant="ghost"
+                    size="sm"
+                    className="h-7 px-2 font-body text-library-bronze hover:text-library-wood"
+                    onClick={resumeSpeech}
+                  >
+                    <Play className="h-3.5 w-3.5 mr-1" />
+                    Continuar
+                  </Button>
+                  <Button
+                    variant="ghost"
+                    size="sm"
+                    className="h-7 px-2 font-body text-library-bronze hover:text-library-wood"
+                    onClick={stopSpeech}
+                  >
+                    <Square className="h-3 w-3 mr-1" />
+                    Parar
+                  </Button>
+                </>
+              )}
+            </span>
+          )}
         </p>
 
         <div className="lg:flex lg:gap-8 lg:items-start lg:max-w-none">

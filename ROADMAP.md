@@ -764,8 +764,15 @@ no `meus-remedios` (único projeto pessoal com OAuth de usuário real hoje)
       (card offscreen + tipografia que escala pelo tamanho da citação).
       Cuidado: imagens remotas precisam de proxy same-origin (bug do PNG
       branco já resolvido na Bancada).
-- [ ] **Ouvir em vez de ler (TTS)** — Web Speech API nativa, zero infra.
-      Botão play/pause no Reader; progressive enhancement.
+- [x] **Ouvir em vez de ler (TTS)** — implementado 2026-08-23
+      (`web/src/hooks/useSpeech.ts` + `utils/speech.ts`). Web Speech API
+      nativa, zero infra: botão Ouvir/Pausar/Parar no cabeçalho do
+      Reader; texto markdown limpo para fala (remove código, links,
+      imagens, marcação); fatiamento por sentença (~200 chars) com fila
+      encadeada via onend — contorna o bug do Chrome com utterances
+      longas; voz pt-BR preferida com fallback pt genérico. Para de tocar
+      ao trocar de obra e no unmount. Não suportado → controles não
+      renderizam. 7 testes novos nos utilitários (suite: 45 passando).
 - [ ] **Pequenas dignidades de leitura** — tempo estimado ("38 min") na
       ficha e no Reader; navegação por capítulos fixa na lateral do
       Reader (tabela `table_of_contents` já existe no banco); isso é
