@@ -13,11 +13,18 @@ export function FeaturedSection() {
     <section className="py-16 bg-gradient-to-br from-library-parchment to-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="font-display text-3xl font-semibold text-library-wood mb-4">
+          <p className="text-xs font-body text-library-crimson uppercase tracking-widest mb-2 flex items-center justify-center gap-2">
+            <span>✦</span> Tesouros Preservados <span>✦</span>
+          </p>
+          <h2 className="font-display text-3xl md:text-4xl font-semibold text-library-wood mb-3">
             Obras em Destaque
           </h2>
-          <div className="chapter-divider max-w-md mx-auto"></div>
-          <p className="font-body text-lg text-muted-foreground max-w-2xl mx-auto">
+          <div className="flex items-center justify-center gap-3 text-library-gold my-3">
+            <span className="h-px w-12 bg-gradient-to-r from-transparent to-library-gold"></span>
+            <span className="text-sm">❦ ✦ ❦</span>
+            <span className="h-px w-12 bg-gradient-to-l from-transparent to-library-gold"></span>
+          </div>
+          <p className="font-body text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">
             Explore algumas das mais importantes obras da literatura teológica cristã, 
             cuidadosamente preservadas em domínio público.
           </p>

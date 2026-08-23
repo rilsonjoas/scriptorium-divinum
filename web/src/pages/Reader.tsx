@@ -381,11 +381,11 @@ export default function Reader() {
 
   return (
     <Layout>
-      {/* Top Reading Progress Bar */}
+      {/* Top Reading Progress Bar com Gradiente Dourado-Carmesim */}
       {progress > 0 && (
         <div
           aria-hidden
-          className="fixed top-0 left-0 right-0 z-[60] h-1 bg-library-gold transition-[width] duration-150 shadow-golden"
+          className="fixed top-0 left-0 right-0 z-[60] h-1.5 bg-gradient-to-r from-library-gold via-library-crimson to-library-gold transition-[width] duration-150 shadow-golden"
           style={{ width: `${progress}%` }}
         />
       )}

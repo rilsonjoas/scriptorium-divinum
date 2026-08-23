@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import { BookOpen, Download, Calendar, User } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { SafeImage } from '@/components/SafeImage';
+import { isFavorite } from '@/utils/favorites';
 
 interface BookCardProps {
   book: Book;
@@ -11,6 +12,7 @@ interface BookCardProps {
 }
 
 export function BookCard({ book, variant = 'grid' }: BookCardProps) {
+  const isFav = book.slug ? isFavorite(book.slug) : false;
   if (variant === 'compact') {
     return (
       <Card className="group bg-card/95 backdrop-blur-sm border-library-bronze shadow-book hover:shadow-deep transition-all duration-300 hover:-translate-y-1 parchment-bg">
@@ -138,7 +140,10 @@ export function BookCard({ book, variant = 'grid' }: BookCardProps) {
   }
 
   return (
-    <Card className="group bg-card/95 backdrop-blur-sm border-library-bronze shadow-book hover:shadow-deep transition-all duration-300 hover:-translate-y-1 parchment-bg">
+    <Card className="group leather-pressed-card rounded-xl overflow-hidden">
+      {/* Ribbon Bookmark para Livros Favoritados */}
+      {isFav && <div className="ribbon-bookmark" title="Obra Favoritada" />}
+
       <CardContent className="p-6">
         <div className="flex space-x-4">
           {/* Book Cover */}
@@ -154,14 +159,14 @@ export function BookCard({ book, variant = 'grid' }: BookCardProps) {
               }
             />
             {/* Ornamental corner */}
-            <div className="absolute top-2 right-2 w-3 h-3 border-t-2 border-r-2 border-library-gold"></div>
-            <div className="absolute bottom-2 left-2 w-3 h-3 border-b-2 border-l-2 border-library-gold"></div>
+            <div className="absolute top-1.5 right-1.5 w-2.5 h-2.5 border-t border-r border-library-gold"></div>
+            <div className="absolute bottom-1.5 left-1.5 w-2.5 h-2.5 border-b border-l border-library-gold"></div>
           </div>
 
           {/* Book Info */}
           <div className="flex-1">
             <div className="mb-3">
-              <h3 className="font-heading text-lg font-semibold text-foreground group-hover:text-library-bronze transition-colors mb-1">
+              <h3 className="font-heading text-lg font-semibold text-foreground group-hover:text-library-crimson transition-colors mb-1">
                 {book.title}
               </h3>
               {book.originalTitle && (
@@ -173,12 +178,12 @@ export function BookCard({ book, variant = 'grid' }: BookCardProps) {
 
             <div className="flex items-center space-x-4 text-sm text-muted-foreground mb-3 font-body">
               <div className="flex items-center space-x-1">
-                <User className="h-3 w-3" />
-                <span>{book.author.name}</span>
+                <User className="h-3 w-3 text-library-crimson" />
+                <span className="font-medium">{book.author.name}</span>
               </div>
               {book.publicationYearOriginal && (
                 <div className="flex items-center space-x-1">
-                  <Calendar className="h-3 w-3" />
+                  <Calendar className="h-3 w-3 text-library-bronze" />
                   <span>{book.publicationYearOriginal}</span>
                 </div>
               )}
@@ -188,18 +193,18 @@ export function BookCard({ book, variant = 'grid' }: BookCardProps) {
               {book.description}
             </p>
 
-            {/* Categories & Language */}
+            {/* Categories & Language com Pigmentos de Iluminura */}
             {(book.categories || book.language) && (
-              <div className="flex flex-wrap gap-1 mb-4">
+              <div className="flex flex-wrap gap-1.5 mb-4">
                 {book.language && (
-                  <span className="px-2 py-1 text-xs bg-library-wood/10 text-library-wood font-medium rounded-md font-body border border-library-wood/20">
+                  <span className="px-2 py-0.5 text-xs bg-library-lapis/10 text-library-lapis font-medium rounded-md font-body border border-library-lapis/30">
                     {book.language}
                   </span>
                 )}
                 {book.categories && book.categories.slice(0, 3).map((category) => (
                   <span
                     key={category}
-                    className="px-2 py-1 text-xs bg-library-gold/20 text-library-bronze rounded-md font-body"
+                    className="px-2 py-0.5 text-xs bg-library-crimson/10 text-library-crimson rounded-md font-body border border-library-crimson/20"
                   >
                     {category}
                   </span>
