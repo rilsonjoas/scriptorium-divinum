@@ -131,3 +131,16 @@ HathiTrust (domínio público pleno).
   virar leitura online.
 - A Imitação 1848 tem introdução sobre a autoria da obra (Kempis vs.
   Gerson) — manter ou remover na edição é decisão editorial.
+
+### Rebusca 23/08 à noite (BND Portugal + variações Archive) — sem resultado
+
+- Catálogo da Biblioteca Nacional de Portugal (ipac): 0 itens digitalizados
+  para Pascal/Pensamentos, Anselmo/Cur Deus Homo e Granada/Guia dos Pecadores em PT.
+- Archive.org com novas variações de consulta: apenas ruído (incl. "Os
+  Pensadores 16 – Pascal", 1973, Editora Abril — tradução MODERNA protegida,
+  não usar).
+- Conclusão honesta: traduções PT antigas dessas três obras são raras ou não
+  existem digitalizadas em repositórios abertos. O conteúdo já está no acervo
+  em inglês (Thoughts/Pensées; Proslogium-Monologium-Cur Deus Homo). Caminho
+  realista futuro: política de tradução assistida por IA (documento próprio
+  pendente) ou achado eventual em HathiTrust/Mindlin com busca manual.
