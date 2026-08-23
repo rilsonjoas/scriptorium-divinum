@@ -28,6 +28,4 @@ COPY --from=build --chown=app:app /repo/server/src/db/custom-sql ./dist/db/custo
 USER app
 ENV NODE_ENV=production
 EXPOSE 3001
-HEALTHCHECK --interval=30s --timeout=3s --start-period=10s --retries=3 \
-  CMD node -e "require('http').get('http://localhost:3001/health', (r) => { if (r.statusCode !== 200) process.exit(1); })" || exit 1
 CMD ["node", "dist/server.js"]
