@@ -594,8 +594,8 @@ export default function Reader() {
             </nav>
           )}
 
-          {/* Main Content Area capped with max-w-prose */}
-          <div className="min-w-0 flex-1 max-w-prose mx-auto" ref={contentRef}>
+          {/* Main Content Area capped with max-w-prose-reading (65ch) */}
+          <div className="min-w-0 flex-1 max-w-prose-reading mx-auto" ref={contentRef}>
             {parsed.provenance && (
               <div className="prose prose-sm max-w-none mb-8 p-4 rounded-lg bg-library-parchment/60 border border-library-bronze/30 text-library-bronze">
                 <ReactMarkdown remarkPlugins={[remarkGfm]}>{parsed.provenance}</ReactMarkdown>

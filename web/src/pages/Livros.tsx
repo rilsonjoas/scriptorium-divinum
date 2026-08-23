@@ -72,22 +72,8 @@ const Livros = () => {
         </div>
 
         {/* Filters and Search */}
-        <div className="bg-card/50 rounded-lg border border-library-bronze p-6 mb-8 parchment-bg">
-          <div className="flex flex-col lg:flex-row gap-4 items-end">
-            <button
-              type="button"
-              onClick={() => setSoFavoritos(v => !v)}
-              aria-pressed={soFavoritos}
-              className={`flex items-center gap-1.5 rounded-md border px-3 py-2 text-sm font-body transition-colors ${
-                soFavoritos
-                  ? 'border-library-gold bg-library-gold/20 text-library-wood'
-                  : 'border-library-bronze text-library-bronze hover:bg-library-gold/10'
-              }`}
-              title="Mostrar apenas favoritos"
-            >
-              <Star className={`h-4 w-4 ${soFavoritos ? 'fill-library-gold text-library-gold' : ''}`} />
-              Favoritos
-            </button>
+        <div className="bg-card/50 rounded-lg border border-library-bronze p-4 sm:p-6 mb-8 parchment-bg">
+          <div className="flex flex-col lg:flex-row gap-4 items-stretch lg:items-end">
             {/* Search */}
             <div className="flex-1">
               <label className="font-body text-sm font-medium text-foreground mb-2 block">
@@ -99,7 +85,7 @@ const Livros = () => {
                   placeholder="Título, autor ou palavra-chave..."
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
-                  className="pl-10 font-body"
+                  className="pl-10 font-body h-10"
                 />
               </div>
             </div>
@@ -110,7 +96,7 @@ const Livros = () => {
                 Categoria
               </label>
               <Select value={selectedCategory} onValueChange={setSelectedCategory}>
-                <SelectTrigger className="font-body">
+                <SelectTrigger className="font-body h-10">
                   <SelectValue />
                 </SelectTrigger>
                 <SelectContent>
@@ -126,24 +112,43 @@ const Livros = () => {
               </Select>
             </div>
 
-            {/* View Mode */}
-            <div className="flex gap-2">
-              <Button
-                variant={viewMode === 'grid' ? 'default' : 'outline'}
-                size="sm"
-                onClick={() => setViewMode('grid')}
-                className="font-body"
+            {/* Actions: Favoritos e Modo de Exibição */}
+            <div className="flex items-center justify-between sm:justify-end gap-3 pt-2 lg:pt-0">
+              <button
+                type="button"
+                onClick={() => setSoFavoritos(v => !v)}
+                aria-pressed={soFavoritos}
+                className={`flex items-center justify-center gap-2 rounded-md border px-4 h-10 text-sm font-body font-medium transition-colors ${
+                  soFavoritos
+                    ? 'border-2 border-library-gold bg-library-gold/20 text-library-wood font-semibold shadow-sm'
+                    : 'border-library-bronze text-library-wood hover:bg-library-gold/10'
+                }`}
+                title="Mostrar apenas favoritos"
               >
-                <Grid className="h-4 w-4" />
-              </Button>
-              <Button
-                variant={viewMode === 'list' ? 'default' : 'outline'}
-                size="sm"
-                onClick={() => setViewMode('list')}
-                className="font-body"
-              >
-                <List className="h-4 w-4" />
-              </Button>
+                <Star className={`h-4 w-4 ${soFavoritos ? 'fill-library-gold text-library-gold' : 'text-library-gold'}`} />
+                <span>Favoritos</span>
+              </button>
+
+              <div className="flex gap-1 border border-library-bronze rounded-md p-0.5 bg-card">
+                <Button
+                  variant={viewMode === 'grid' ? 'default' : 'ghost'}
+                  size="sm"
+                  onClick={() => setViewMode('grid')}
+                  className={`h-9 px-3 font-body ${viewMode === 'grid' ? 'bg-library-wood text-library-gold' : 'text-library-wood'}`}
+                  aria-label="Visualização em Grade"
+                >
+                  <Grid className="h-4 w-4" />
+                </Button>
+                <Button
+                  variant={viewMode === 'list' ? 'default' : 'ghost'}
+                  size="sm"
+                  onClick={() => setViewMode('list')}
+                  className={`h-9 px-3 font-body ${viewMode === 'list' ? 'bg-library-wood text-library-gold' : 'text-library-wood'}`}
+                  aria-label="Visualização em Lista"
+                >
+                  <List className="h-4 w-4" />
+                </Button>
+              </div>
             </div>
           </div>
         </div>

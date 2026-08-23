@@ -54,7 +54,7 @@ export function GlossaryPopover({ word, anchor, onClose }: GlossaryPopoverProps)
       ref={boxRef}
       role="dialog"
       aria-label={`Significado de ${word}`}
-      className="fixed z-[70] rounded-lg border border-library-bronze bg-card/98 backdrop-blur-sm shadow-deep parchment-bg p-4"
+      className="fixed z-[70] rounded-lg border border-library-bronze bg-card/98 backdrop-blur-sm shadow-deep parchment-bg p-4 max-h-[80vh] overflow-y-auto"
       style={{ top, left, width }}
     >
       <p className="flex items-center gap-2 font-heading text-sm font-semibold text-library-wood mb-2">

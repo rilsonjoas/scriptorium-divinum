@@ -77,12 +77,12 @@ export function HeroSection() {
 
           {/* Estante Teológica 3D (Physical Bookshelf Preview) */}
           {featuredBooksList.length > 0 && (
-            <div className="mb-14 hidden sm:block">
+            <div className="mb-14 block">
               <p className="text-xs font-body text-library-gold/80 tracking-widest uppercase mb-4 flex items-center justify-center gap-2">
                 <span>✦</span> Estante Teológica em Destaque <span>✦</span>
               </p>
               <div className="bg-gradient-to-r from-library-leather via-library-wood to-library-leather p-4 rounded-xl border-2 border-library-gold/40 shadow-deep relative">
-                <div className="flex justify-center items-end gap-3 md:gap-5 overflow-x-auto py-3 px-2">
+                <div className="flex justify-start sm:justify-center items-end gap-3 md:gap-5 overflow-x-auto snap-x scrollbar-none py-3 px-2">
                   {featuredBooksList.map((book) => (
                     <Link
                       key={book.id}

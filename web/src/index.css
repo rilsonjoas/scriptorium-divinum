@@ -60,9 +60,9 @@
     --secondary: 45 85% 88%;
     --secondary-foreground: 25 45% 18%;
 
-    /* Muted leather tones */
+    /* Muted leather tones - High Contrast for WCAG AA */
     --muted: 30 15% 85%;
-    --muted-foreground: 25 15% 45%;
+    --muted-foreground: 25 25% 30%;
 
     /* Golden highlights */
     --accent: 43 75% 78%;
@@ -122,7 +122,7 @@
     --secondary-foreground: 35 25% 90%;
 
     --muted: 25 20% 15%;
-    --muted-foreground: 35 15% 60%;
+    --muted-foreground: 35 20% 75%;
 
     --accent: 43 65% 55%;
     --accent-foreground: 25 35% 8%;
@@ -172,6 +172,10 @@
   
   .max-w-prose {
     max-width: 72ch;
+  }
+  
+  .max-w-prose-reading {
+    max-width: 65ch;
   }
   
   /* Reading text - Merriweather para leitura profunda */
@@ -324,6 +328,28 @@
     color: hsl(var(--library-gold));
     font-weight: 700;
     text-shadow: 1px 1px 2px hsl(var(--library-wood) / 0.3);
+  }
+
+  @media (max-width: 480px) {
+    .capitular-medieval > p:first-of-type::first-letter {
+      font-size: 2.35em;
+      margin-right: 0.12em;
+    }
+  }
+
+  /* Defesas de layout para o leitor (tabelas, códigos e mídia) */
+  .prose table {
+    display: block;
+    overflow-x: auto;
+    max-width: 100%;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .prose pre, .prose code {
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-break: break-word;
   }
 
   /* Rubrica Medieval (Títulos em Vermelho Carmesim Scriptorium) */
