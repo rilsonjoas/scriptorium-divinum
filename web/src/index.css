@@ -280,6 +280,31 @@
     100% { transform: rotate(360deg); }
   }
 
+  /* Tondo Portrait Framing (Estilo Galeria Bíblia na Arte) */
+  .tondo-portrait {
+    @apply rounded-full border-2 border-library-gold ring-2 ring-library-gold/50 shadow-golden relative overflow-hidden transition-all duration-300;
+    background: linear-gradient(135deg, hsl(25 35% 15%), hsl(20 30% 25%));
+  }
+
+  .tondo-portrait:hover {
+    @apply ring-4 ring-library-gold/80 scale-105 shadow-deep;
+  }
+
+  /* Efeito Vitral / Warm Golden Ambient Glow */
+  .liturgic-glow {
+    background: radial-gradient(circle at 50% 30%, hsl(43 85% 65% / 0.18) 0%, hsl(25 35% 15% / 0) 70%);
+  }
+
+  .gold-border-corner::before {
+    content: '';
+    @apply absolute top-1 right-1 w-2.5 h-2.5 border-t border-r border-library-gold opacity-80 pointer-events-none;
+  }
+
+  .gold-border-corner::after {
+    content: '';
+    @apply absolute bottom-1 left-1 w-2.5 h-2.5 border-b border-l border-library-gold opacity-80 pointer-events-none;
+  }
+
   /* Capitular Medieval para início de obras e capítulos */
   .capitular-medieval > p:first-of-type::first-letter {
     font-family: var(--font-display);

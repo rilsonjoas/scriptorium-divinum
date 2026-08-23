@@ -68,9 +68,9 @@ const Autores = () => {
             {authorsWithBookCount.map((author) => (
             <Card key={author.slug} className="group bg-card/95 backdrop-blur-sm border-library-bronze shadow-book hover:shadow-deep transition-all duration-300 hover:-translate-y-1 parchment-bg">
               <CardContent className="p-6">
-                {/* Author Portrait */}
+                {/* Author Tondo Portrait */}
                 <div className="flex flex-col items-center mb-4">
-                  <div className="w-24 h-24 bg-gradient-leather rounded-full shadow-golden border-4 border-library-bronze relative overflow-hidden mb-4">
+                  <div className="w-24 h-24 tondo-portrait mb-4">
                     <SafeImage
                       src={author.portraitImageUrl}
                       alt={`Retrato de ${author.name}`}
@@ -81,9 +81,6 @@ const Autores = () => {
                         </div>
                       }
                     />
-                    {/* Decorative corner */}
-                    <div className="absolute top-1 right-1 w-2 h-2 border-t border-r border-library-gold"></div>
-                    <div className="absolute bottom-1 left-1 w-2 h-2 border-b border-l border-library-gold"></div>
                   </div>
 
                   <h3 className="font-heading text-xl font-semibold text-foreground group-hover:text-library-bronze transition-colors text-center mb-2">
