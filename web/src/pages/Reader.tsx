@@ -1,21 +1,25 @@
 import { Layout } from '@/components/Layout';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { ArrowLeft, BookMarked, BookOpen, Clock, List, Loader2, Pause, Play, ScrollText, Square, Volume2 } from 'lucide-react';
+import { ArrowLeft, BookMarked, BookOpen, Clock, List, Loader2, Pause, Play, ScrollText, Square, Volume2, GraduationCap, Bookmark } from 'lucide-react';
 import { Link, useParams } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import type { ReactNode } from 'react';
-import { useBookText } from '@/hooks/useDatabase';
+import { useBookText, useBook } from '@/hooks/useDatabase';
 import { useSpeech } from '@/hooks/useSpeech';
 import { splitProvenance } from '@/utils/readerText';
 import { normalizeWord } from '@/utils/glossario';
 import { GlossaryPopover } from '@/components/reader/GlossaryPopover';
 import { QuoteCardDialog, QuoteTriggerPill } from '@/components/reader/QuoteCardDialog';
+import { AcademicCitationDialog } from '@/components/reader/AcademicCitationDialog';
+import { NotesDrawer } from '@/components/reader/NotesDrawer';
+import { saveHighlight } from '@/utils/readingNotes';
 import { ReadingToolbar, DEFAULT_READING_SETTINGS, type ReadingSettings } from '@/components/reader/ReadingToolbar';
 import { Drawer, DrawerContent, DrawerHeader, DrawerTitle, DrawerTrigger } from '@/components/ui/drawer';
 import { markdownToSpeechText } from '@/utils/speech';
+import { toast } from 'sonner';
 import {
   getReadingProgress,
   removeReadingProgress,
@@ -103,10 +107,13 @@ const markdownComponents = {
 export default function Reader() {
   const { bookId } = useParams<{ bookId: string }>();
   const { data, isLoading, error } = useBookText(bookId || '');
+  const { data: bookDetails } = useBook(bookId || '');
   const [progress, setProgress] = useState(0);
   const [activeId, setActiveId] = useState<string | null>(null);
   const [drawerOpen, setDrawerOpen] = useState(false);
   const [showStickyHeader, setShowStickyHeader] = useState(false);
+  const [citationOpen, setCitationOpen] = useState(false);
+  const [notesOpen, setNotesOpen] = useState(false);
   const contentRef = useRef<HTMLDivElement>(null);
   const restoredRef = useRef(false);
   const lastSavedRatio = useRef(0);
@@ -158,6 +165,18 @@ export default function Reader() {
       minutes: readingMinutes(content),
     };
   }, [data]);
+
+  const handleHighlightSelection = () => {
+    if (!cardSelection || !data) return;
+    saveHighlight({
+      bookSlug: data.slug,
+      text: cardSelection.text,
+      color: 'gold',
+    });
+    toast.success('Trecho grifado e salvo em suas anotações!');
+    setCardSelection(null);
+    window.getSelection()?.removeAllRanges();
+  };
 
   useEffect(() => {
     const toc = parsed?.toc ?? [];
@@ -381,6 +400,24 @@ export default function Reader() {
             </span>
           </div>
           <div className="flex items-center gap-2 shrink-0">
+            <Button
+              variant="ghost"
+              size="sm"
+              className="h-8 px-2 text-library-gold hover:bg-library-gold/20 text-xs hidden md:inline-flex"
+              onClick={() => setCitationOpen(true)}
+            >
+              <GraduationCap className="h-3.5 w-3.5 mr-1" />
+              Citar
+            </Button>
+            <Button
+              variant="ghost"
+              size="sm"
+              className="h-8 px-2 text-library-gold hover:bg-library-gold/20 text-xs hidden md:inline-flex"
+              onClick={() => setNotesOpen(true)}
+            >
+              <Bookmark className="h-3.5 w-3.5 mr-1" />
+              Anotações
+            </Button>
             <span className="text-xs text-library-gold/80 font-body hidden sm:inline">
               {Math.round(progress)}% lido
             </span>
@@ -418,6 +455,28 @@ export default function Reader() {
           </Button>
 
           <div className="flex items-center gap-2">
+            {/* Como Citar Button */}
+            <Button
+              variant="outline"
+              size="sm"
+              className="h-8 px-2.5 font-body text-xs border-library-bronze text-library-wood hover:bg-library-gold/20"
+              onClick={() => setCitationOpen(true)}
+            >
+              <GraduationCap className="h-3.5 w-3.5 mr-1 text-library-gold" />
+              Como Citar
+            </Button>
+
+            {/* Minhas Anotações Button */}
+            <Button
+              variant="outline"
+              size="sm"
+              className="h-8 px-2.5 font-body text-xs border-library-bronze text-library-wood hover:bg-library-gold/20"
+              onClick={() => setNotesOpen(true)}
+            >
+              <Bookmark className="h-3.5 w-3.5 mr-1 text-library-gold" />
+              Anotações
+            </Button>
+
             {/* Mobile TOC Drawer Trigger */}
             {parsed.toc.length > 1 && (
               <div className="lg:hidden">
@@ -458,7 +517,7 @@ export default function Reader() {
           </span>
           <span className="hidden sm:flex items-center gap-1.5 text-library-bronze/80">
             <BookMarked className="h-3.5 w-3.5" />
-            Selecione uma palavra para o glossário ou frase para citação
+            Selecione uma frase para grifar ou criar card
           </span>
           {ttsSupported && (
             <span className="flex items-center gap-1">
@@ -545,7 +604,7 @@ export default function Reader() {
 
             <Card className={`transition-all duration-200 ${themeClasses}`}>
               <CardContent className="p-5 md:p-10">
-                <article className={`prose prose-lg max-w-none ${fontClass} ${fontSizeClass} prose-headings:font-heading prose-headings:text-library-wood prose-a:text-library-bronze prose-blockquote:border-library-bronze prose-blockquote:font-body prose-strong:text-library-wood`}>
+                <article className={`prose prose-lg max-w-none capitular-medieval ${fontClass} ${fontSizeClass} prose-headings:font-heading prose-headings:text-library-wood prose-a:text-library-bronze prose-blockquote:border-library-bronze prose-blockquote:font-body prose-strong:text-library-wood`}>
                   <ReactMarkdown remarkPlugins={[remarkGfm]} components={markdownComponents}>
                     {parsed.content}
                   </ReactMarkdown>
@@ -567,6 +626,7 @@ export default function Reader() {
           <QuoteTriggerPill
             anchor={cardSelection.anchor}
             onClick={() => setCardOpen(true)}
+            onHighlight={handleHighlightSelection}
             onClose={() => setCardSelection(null)}
           />
         )}
@@ -584,6 +644,26 @@ export default function Reader() {
             }}
           />
         )}
+
+        {/* Academic Citation Dialog */}
+        <AcademicCitationDialog
+          open={citationOpen}
+          onOpenChange={setCitationOpen}
+          title={data.title}
+          author={bookDetails?.author?.name || 'Autor Clássico'}
+          publicationYear={bookDetails?.publicationYearOriginal}
+          slug={data.slug}
+          provenance={parsed.provenance}
+          content={parsed.content}
+        />
+
+        {/* Notes & Highlights Drawer */}
+        <NotesDrawer
+          open={notesOpen}
+          onOpenChange={setNotesOpen}
+          bookSlug={data.slug}
+          bookTitle={data.title}
+        />
       </div>
     </Layout>
   );

@@ -1,14 +1,14 @@
 import { Layout } from '@/components/Layout';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { BookOpen, Download, Calendar, User, Globe, Languages, Tag, ArrowLeft, Loader2, Star } from 'lucide-react';
+import { BookOpen, Download, Calendar, User, Globe, Languages, Tag, ArrowLeft, Loader2, Star, ShoppingBag, GraduationCap } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import { isFavorite, toggleFavorite } from '@/utils/favorites';
 import { Link, useParams, Navigate } from 'react-router-dom';
 import { useBook } from '@/hooks/useDatabase';
 import { SafeImage } from '@/components/SafeImage';
 import { AdSlot } from '@/components/ads/AdSlot';
-import { ShoppingBag } from 'lucide-react';
+import { AcademicCitationDialog } from '@/components/reader/AcademicCitationDialog';
 
 const AMAZON_AFFILIATE_TAG = import.meta.env.VITE_AMAZON_TAG ?? 'rilson-20';
 
@@ -17,6 +17,7 @@ const LivroDetalhes = () => {
   const { data: book, isLoading, error } = useBook(bookId || '');
 
   const [fav, setFav] = useState(false);
+  const [citationOpen, setCitationOpen] = useState(false);
   useEffect(() => {
     if (book?.slug) setFav(isFavorite(book.slug));
   }, [book?.slug]);
@@ -149,6 +150,16 @@ const LivroDetalhes = () => {
                       Edição impressa (Amazon)
                     </a>
                   </Button>
+
+                  <Button
+                    onClick={() => setCitationOpen(true)}
+                    variant="outline"
+                    size="sm"
+                    className="w-full border-library-bronze text-library-wood hover:bg-library-gold/20 font-body"
+                  >
+                    <GraduationCap className="mr-2 h-4 w-4 text-library-gold" />
+                    Como Citar esta Obra
+                  </Button>
                 </div>
 
                 {book.licenseType && book.licenseType !== 'public-domain' && (
@@ -161,6 +172,16 @@ const LivroDetalhes = () => {
                 )}
               </CardContent>
             </Card>
+
+            <AcademicCitationDialog
+              open={citationOpen}
+              onOpenChange={setCitationOpen}
+              title={book.title}
+              author={book.author.name}
+              translator={book.translator}
+              publicationYear={book.publicationYearOriginal}
+              slug={book.slug}
+            />
           </div>
 
           {/* Book Details */}

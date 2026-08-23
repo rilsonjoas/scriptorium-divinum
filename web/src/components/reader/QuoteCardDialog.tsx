@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { Download, Link2, Quote, Share2 } from 'lucide-react';
+import { Download, Link2, Quote, Share2, Bookmark } from 'lucide-react';
 import { toast } from 'sonner';
 import { Button } from '@/components/ui/button';
 import {
@@ -272,10 +272,12 @@ export function QuoteCardDialog({ open, quote, slug, fallbackTitle, onClose }: Q
 export function QuoteTriggerPill({
   anchor,
   onClick,
+  onHighlight,
   onClose,
 }: {
   anchor: { top: number; bottom: number; left: number };
   onClick: () => void;
+  onHighlight?: () => void;
   onClose: () => void;
 }) {
   useEffect(() => {
@@ -284,18 +286,34 @@ export function QuoteTriggerPill({
     return () => window.removeEventListener('scroll', onScroll, { capture: true });
   }, [onClose]);
 
-  const width = Math.min(240, window.innerWidth - 24);
-  const left = Math.max(12, Math.min(anchor.left, window.innerWidth - width - 12));
+  const left = Math.max(12, Math.min(anchor.left, window.innerWidth - 300));
   const top = anchor.bottom + 8;
 
   return (
-    <button
-      onClick={onClick}
-      className="fixed z-[65] flex items-center gap-2 rounded-full bg-library-wood text-library-gold shadow-deep px-4 py-2 font-body text-sm hover:bg-library-bronze transition-colors"
-      style={{ top, left, width }}
+    <div
+      className="fixed z-[65] flex items-center gap-1.5 rounded-full bg-library-wood text-library-gold shadow-deep p-1.5 font-body text-xs"
+      style={{ top, left }}
     >
-      <Quote className="h-3.5 w-3.5 shrink-0" />
-      Criar card de citação
-    </button>
+      <button
+        onClick={onClick}
+        className="flex items-center gap-1.5 rounded-full px-3 py-1.5 hover:bg-library-gold/20 transition-colors font-medium"
+      >
+        <Quote className="h-3.5 w-3.5 shrink-0 text-library-gold" />
+        Criar Card
+      </button>
+
+      {onHighlight && (
+        <>
+          <span className="w-px h-4 bg-library-bronze/40" />
+          <button
+            onClick={onHighlight}
+            className="flex items-center gap-1.5 rounded-full px-3 py-1.5 hover:bg-library-gold/20 transition-colors font-medium text-emerald-300"
+          >
+            <Bookmark className="h-3.5 w-3.5 shrink-0" />
+            Grifar
+          </button>
+        </>
+      )}
+    </div>
   );
 }

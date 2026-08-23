@@ -11,6 +11,7 @@ vi.mock('@/components/Layout', () => ({
 
 vi.mock('@/hooks/useDatabase', () => ({
   useBookText: vi.fn(),
+  useBook: vi.fn().mockReturnValue({ data: null, isLoading: false, error: null }),
 }));
 
 import { useBookText } from '@/hooks/useDatabase';
