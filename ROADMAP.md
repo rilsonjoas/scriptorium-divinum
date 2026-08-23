@@ -737,9 +737,15 @@ no `meus-remedios` (único projeto pessoal com OAuth de usuário real hoje)
       Evolução futura: crescer o JSON conforme surgirem palavras sem
       cobertura, marcar termos curados com underline pontilhado direto no
       texto (exige transformação de nós de texto no markdown).
-- [ ] **"Continuar lendo" + progresso por obra** — prioridade 2.
-      localStorage puro, sem contas: salvar posição de scroll por livro,
-      bloco "Continuar lendo" na home, barra fina de progresso no Reader.
+- [x] **"Continuar lendo" + progresso por obra** — implementado
+      2026-08-23 (`web/src/utils/readingProgress.ts` +
+      `ContinueReading.tsx`). localStorage puro, sem contas: posição de
+      scroll salva por obra com throttle de 1%, retomada automática ao
+      reabrir (faixa 3%-95%; >=95% considera concluída e limpa), bloco
+      "Continuar Leitura" na home com as 3 obras mais recentes, barra de
+      progresso e link direto — some quando não há nada em andamento.
+      Tolerante a JSON corrompido e a storage indisponível. 8 testes novos
+      (suite: 32 passando).
 - [ ] **Cartões de citação compartilháveis** — prioridade 3. Selecionar
       trecho no Reader → gerar card bonito → baixar/compartilhar. Maior
       loop orgânico no contexto BR (WhatsApp/Instagram). **Seguir o
