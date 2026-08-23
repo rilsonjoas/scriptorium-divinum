@@ -1,6 +1,8 @@
 import { Github, Mail } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useSiteSettings } from '@/hooks/useDatabase';
+import { useTranslation } from 'react-i18next';
+import { idiomas } from '@/i18n';
 
 const CLUSTER_LINKS = [
   { label: 'Narniano', href: 'https://narniano.com' },
@@ -10,6 +12,7 @@ const CLUSTER_LINKS = [
 ];
 
 export function Footer() {
+  const { t, i18n } = useTranslation();
   const { data: settings } = useSiteSettings();
   const siteName = settings?.siteName ?? 'Scriptorium Divinum';
   const contactEmail = settings?.contactEmail ?? 'scriptorium@narniano.com';
@@ -33,12 +36,10 @@ export function Footer() {
 
           {/* Navigation */}
           <div>
-            <h4 className="font-heading text-library-gold font-semibold mb-4">Navegação</h4>
+            <h4 className="font-heading text-library-gold font-semibold mb-4">{t('rodape.navegacao')}</h4>
             <ul className="space-y-2 text-sm font-body">
               <li>
-                <Link to="/livros" className="text-library-gold/80 hover:text-library-gold transition-colors">
-                  Catálogo de Livros
-                </Link>
+                <Link to="/livros" className="text-library-gold/80 hover:text-library-gold transition-colors">{t('rodape.catalogoDeLivros')}</Link>
               </li>
               <li>
                 <Link to="/autores" className="text-library-gold/80 hover:text-library-gold transition-colors">
@@ -60,12 +61,10 @@ export function Footer() {
 
           {/* Resources */}
           <div>
-            <h4 className="font-heading text-library-gold font-semibold mb-4">Recursos</h4>
+            <h4 className="font-heading text-library-gold font-semibold mb-4">{t('rodape.recursos')}</h4>
             <ul className="space-y-2 text-sm font-body">
               <li>
-                <Link to="/sobre" className="text-library-gold/80 hover:text-library-gold transition-colors">
-                  Sobre o Projeto
-                </Link>
+                <Link to="/sobre" className="text-library-gold/80 hover:text-library-gold transition-colors">{t('rodape.sobreOProjeto')}</Link>
               </li>
               <li>
                 <Link to="/dominio-publico" className="text-library-gold/80 hover:text-library-gold transition-colors">
@@ -78,16 +77,14 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link to="/ajuda" className="text-library-gold/80 hover:text-library-gold transition-colors">
-                  Central de Ajuda
-                </Link>
+                <Link to="/ajuda" className="text-library-gold/80 hover:text-library-gold transition-colors">{t('rodape.centralDeAjuda')}</Link>
               </li>
             </ul>
           </div>
 
           {/* Contact */}
           <div>
-            <h4 className="font-heading text-library-gold font-semibold mb-4">Contato</h4>
+            <h4 className="font-heading text-library-gold font-semibold mb-4">{t('rodape.contato')}</h4>
             <ul className="space-y-2 text-sm font-body">
               <li>
                 <a 
@@ -114,9 +111,7 @@ export function Footer() {
         <div className="ornament"></div>
 
         <div className="mt-8 flex flex-col items-center gap-2.5 text-center">
-          <span className="font-body text-[10px] font-bold uppercase tracking-[0.3em] text-library-gold/60">
-            Conheça também
-          </span>
+          <span className="font-body text-[10px] font-bold uppercase tracking-[0.3em] text-library-gold/60">{t('rodape.conhecaTambem')}</span>
           <nav
             aria-label="Outros projetos do cluster A Biblioteca"
             className="flex max-w-md flex-wrap items-baseline justify-center gap-y-1.5 text-xs text-library-gold/70 font-body sm:max-w-none"
@@ -141,8 +136,28 @@ export function Footer() {
           </nav>
         </div>
 
+        <div className="mt-6 flex items-center justify-center gap-2 text-xs font-body">
+          {idiomas.map((idioma, idx) => (
+            <span key={idioma.codigo} className="flex items-center gap-2">
+              {idx > 0 && <span aria-hidden="true" className="text-library-gold/50">|</span>}
+              <button
+                type="button"
+                onClick={() => {
+                  i18n.changeLanguage(idioma.codigo);
+                  try { localStorage.setItem('scriptorium:lang', idioma.codigo); } catch { /* sem storage */ }
+                }}
+                className={`uppercase tracking-wider transition-colors ${
+                  i18n.language === idioma.codigo ? 'text-library-gold font-bold' : 'text-library-gold/60 hover:text-library-gold'
+                }`}
+              >
+                {idioma.rotulo}
+              </button>
+            </span>
+          ))}
+        </div>
+
         <div className="text-center text-sm text-library-gold/70 font-body mt-6">
-          <p>© {new Date().getFullYear()} {siteName}. Obras em domínio público ou sob licença aberta, com atribuição.</p>
+          <p>© {new Date().getFullYear()} {siteName}. {t('rodape.direitos')}</p>
         </div>
       </div>
     </footer>

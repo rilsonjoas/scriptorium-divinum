@@ -1,5 +1,7 @@
 import Fastify from 'fastify';
 import cookie from '@fastify/cookie';
+import multipart from '@fastify/multipart';
+import fastifyStatic from '@fastify/static';
 import cors from '@fastify/cors';
 import helmet from '@fastify/helmet';
 import rateLimit from '@fastify/rate-limit';
@@ -17,6 +19,7 @@ import { settingsRoutes } from './routes/settings.js';
 import { sitemapRoutes } from './routes/sitemap.js';
 import { authRoutes } from './routes/auth.js';
 import { adminRoutes } from './routes/admin.js';
+import { uploadRoutes, UPLOAD_DIR } from './routes/uploads.js';
 import { getSettings } from './db/settings-queries.js';
 
 export async function buildApp() {
@@ -47,6 +50,16 @@ export async function buildApp() {
     origin: env.CORS_ORIGIN === '*' ? true : env.CORS_ORIGIN.split(',').map((s) => s.trim()),
     methods: ['GET', 'HEAD', 'OPTIONS', 'POST', 'PATCH', 'DELETE'],
     credentials: true,
+  });
+
+  // Uploads do admin (multipart) e servir arquivos enviados
+  await app.register(multipart, {
+    limits: { fileSize: 5 * 1024 * 1024, files: 1 },
+  });
+  await app.register(fastifyStatic, {
+    root: UPLOAD_DIR,
+    prefix: '/uploads/',
+    decorateReply: false,
   });
 
   // Rate Limiting
@@ -89,6 +102,7 @@ export async function buildApp() {
   app.addHook('preHandler', async (request, reply) => {
     const url = request.url;
     if (
+      url.startsWith('/uploads/') ||
       url.startsWith('/api/v1/admin') ||
       url.startsWith('/api/v1/settings') ||
       url.startsWith('/health') ||
@@ -115,6 +129,7 @@ export async function buildApp() {
   await app.register(sitemapRoutes);
   await app.register(authRoutes);
   await app.register(adminRoutes);
+  await app.register(uploadRoutes);
 
   return app;
 }

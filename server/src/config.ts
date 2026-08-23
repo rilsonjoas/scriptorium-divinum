@@ -13,6 +13,8 @@ const envSchema = z.object({
   PUBLIC_ORIGIN: z.string().url().default('https://scriptorium.narniano.com'),
   // Diretório das obras em markdown (domínio público) servidas no leitor
   TEXTS_DIR: z.string().default(fileURLToPath(new URL('../texts/', import.meta.url))),
+  // Diretório de uploads do admin (capas); montado como volume em produção
+  UPLOAD_DIR: z.string().optional(),
   SENTRY_DSN: z.string().optional(),
   RATE_LIMIT_MAX: z.coerce.number().default(100),
   RATE_LIMIT_WINDOW_MS: z.coerce.number().default(60_000),

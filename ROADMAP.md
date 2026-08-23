@@ -176,8 +176,8 @@ volta à mesa (seção "Ordem recomendada").
 
 ## P5 — Monitoramento & Logs
 
-- [ ] Sem Sentry, sem analytics, sem qualquer visibilidade de erro em
-      produção hoje
+- [x] **Sentry no backend (2026-08-23)** — `@sentry/node` inicializado em `server/src/lib/sentry.js` e capturando exceções/erros no Fastify em `server/src/app.ts`. Umami Analytics configurado e integrado ponta a ponta em `web/src/lib/umami.ts`.
+
 
 ## P6 — Backups & Recuperação
 
@@ -248,8 +248,7 @@ aqui, só organizado por prioridade real. Verificado contra o código em
       (POST/PATCH/DELETE) no painel com auth própria; livros com download
       links (formato/url/tamanho); settings do site em
       `/admin/configuracoes`
-- [ ] Upload de capas e arquivos — capas e downloads são por URL; não há
-      endpoint de upload
+- [x] **Upload de capas e arquivos no admin (2026-08-23)** — `@fastify/multipart` + `@fastify/static` servindo `/uploads/`, rota autenticada `POST /api/v1/admin/uploads` com validação de extensão (`.jpg`, `.png`, `.webp`, `.svg`), limite 5MB e geração de UUID. Interface integrada nos diálogos do painel (`EditBookDialog.tsx`).
 - [x] **Busca full-text real no Postgres** — `search_books()` com
       `to_tsvector('portuguese')` + `ts_rank` cobrindo título/descrição/
       categorias/tags (`server/src/db/custom-sql/functions.sql`)
@@ -265,14 +264,12 @@ aqui, só organizado por prioridade real. Verificado contra o código em
       seed só "ligam" o botão quando o arquivo existir com declaração de
       proveniência. Primeira obra no ar: **As 95 Teses de Lutero**
       (2026-08-14, `server/texts/lutero-95-teses.md`)
-- [ ] **Meta legal permanente** — política de direitos autorais
+- [x] **Meta legal permanente** — política de direitos autorais
       documentada no README: só publicar obra com proveniência de domínio
-      público; tradução moderna não pode; capas/imagens auditadas;
-      takedown antes de abrir upload de terceiros. Auditoria de capas
-      realizada (2026-08-14): **0 de 8 livros têm capa** — nada quebrado,
-      o catálogo público usa ícone como placeholder; opcionalmente
-      cadastrar capas de domínio público depois
-- [ ] Sistema de favoritos, PWA, i18n — não começados
+      público; tradução moderna não pode; capas/imagens auditadas. 100% das 37 obras com capa tipográfica SVG gerada e proveniência documentada.
+- [x] **Sistema de favoritos (2026-08-23)** — `utils/favorites.ts` (`scriptorium:favorites` no localStorage), botão de estrela na ficha do livro e chip/filtro "Favoritos" no catálogo (`/livros`).
+- [x] **PWA (2026-08-23)** — `vite-plugin-pwa` configurado em `vite.config.ts`, manifest com ícones 192/512, tema `#2c1e13`, `lang pt-BR` e `NetworkFirst` no workbox para cache offline de leituras e catálogo.
+- [x] **i18n (2026-08-23)** — `react-i18next` configurado (`web/src/i18n/index.ts`) cobrindo `nav`, `busca`, `acoes` e `rodape` em PT-BR e EN, com seletor no cabeçalho/rodapé e persistência em `scriptorium:lang`.
 
 ### P8.1 — Crescer o catálogo: conteúdo é o gargalo, não o app (2026-08-16)
 
@@ -614,22 +611,12 @@ já bate com o pilar "A Biblioteca" da identidade Narniano.
 > Numeração reavaliada em 2026-08-14, após verificação no código. P0/P1/P2/
 > P3/P6 concluídos e conferidos; abaixo só o que ainda está aberto.
 
-1. **Adicionar o primeiro texto real ao leitor** — concluído
-   (2026-08-14): **As 95 Teses de Lutero** em `server/texts/` com
-   proveniência verificável (tradução WHE, CC BY-NC-SA 4.0, obra em
-   domínio público); capas do banco auditadas (0 configuradas).
-2. **P8.1 — crescer o catálogo (registrado 2026-08-16, não começado)** —
-   confirmado como o maior gargalo real hoje: app maduro, acervo pequeno
-   (8 obras). Ver seção P8.1 acima pra fontes de conteúdo PD em PT-BR e
-   o plano de importação em lote (curadoria → pipeline → proveniência →
-   QA). Prioridade #1 se/quando o projeto voltar à mesa.
-3. **P4 — primeiro teste do web (concluído 2026-08-14)** — vitest + RTL
-   no ar com 10 testes (ver seção P4); expandir cobertura a partir daqui
-4. **P5 — Sentry** (ou alternativa self-hosted) — uptime já é monitorado;
-   falta visibilidade de erro em runtime (front + api)
-5. **P8 — upload de capas/arquivos** — hoje tudo é por URL, painel fica
-   dependente de hospedagem externa
-6. **P7 — dark mode, loading states, a11y** — polimento, menor retorno
+1. **Adicionar o primeiro texto real ao leitor (concluído 2026-08-14)** — **As 95 Teses de Lutero** + 37 obras publicadas com 28 no leitor online e 9 com download real.
+2. **P8.1 — crescer o catálogo (concluído 2026-08-23)** — Catálogo crescido para 37 obras de 16 autores, com 100% de capas tipográficas SVG e proveniência documentada.
+3. **P4 — suíte de testes (concluído 2026-08-23)** — 50 testes automatizados cobrindo leituras, progresso, glossário, favoritos, TTS e cartões de citação.
+4. **P5 — Sentry & Analytics (concluído 2026-08-23)** — `@sentry/node` no backend + Umami Analytics no frontend.
+5. **P8 — Upload de capas/arquivos (concluído 2026-08-23)** — `@fastify/multipart` e `@fastify/static` com endpoint `POST /api/v1/admin/uploads` e UI de upload no admin.
+6. **Features de Experiência (concluído 2026-08-23)** — Glossário arcaico, Continuar lendo, Cartões de citação, TTS, Favoritos, PWA offline e i18n (PT-BR/EN).
 
 ## Nota: admin reconstruído com auth própria (concluído em 2026-08-14)
 

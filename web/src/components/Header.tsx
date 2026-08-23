@@ -6,8 +6,10 @@ import { Badge } from '@/components/ui/badge';
 import { Link, useNavigate } from 'react-router-dom';
 import { useState, useRef, useEffect } from 'react';
 import { useSearch, useSiteSettings } from '@/hooks/useDatabase';
+import { useTranslation } from 'react-i18next';
 
 export function Header() {
+  const { t } = useTranslation();
   const [searchQuery, setSearchQuery] = useState('');
   const [showResults, setShowResults] = useState(false);
   const searchRef = useRef<HTMLDivElement>(null);
@@ -81,7 +83,7 @@ export function Header() {
                   setSearchQuery(e.target.value);
                   setShowResults(e.target.value.length > 2);
                 }}
-                placeholder="Buscar obras, autores..."
+                placeholder={t('busca.placeholder')}
                 className="pl-10 pr-10 bg-library-parchment border-library-bronze text-foreground placeholder:text-library-bronze font-body"
               />
               {searchQuery && (
@@ -230,7 +232,7 @@ export function Header() {
           <div className="flex items-center space-x-2">
             <Link to="/ajuda">
               <Button variant="ghost" size="sm" className="text-library-gold hover:text-primary-foreground hover:bg-library-bronze">
-                Ajuda
+                {t('nav.ajuda')}
               </Button>
             </Link>
           </div>
@@ -243,33 +245,33 @@ export function Header() {
             className="flex items-center space-x-2 text-library-gold hover:text-primary-foreground transition-colors font-body"
           >
             <BookOpen className="h-4 w-4" />
-            <span>Catálogo</span>
+            <span>{t('nav.catalogo')}</span>
           </Link>
           <Link 
             to="/autores" 
             className="flex items-center space-x-2 text-library-gold hover:text-primary-foreground transition-colors font-body"
           >
             <Users className="h-4 w-4" />
-            <span>Autores</span>
+            <span>{t('nav.autores')}</span>
           </Link>
           <Link 
             to="/categorias" 
             className="flex items-center space-x-2 text-library-gold hover:text-primary-foreground transition-colors font-body"
           >
             <Library className="h-4 w-4" />
-            <span>Categorias</span>
+            <span>{t('nav.categorias')}</span>
           </Link>
           <Link 
             to="/dominio-publico" 
             className="flex items-center space-x-2 text-library-gold hover:text-primary-foreground transition-colors font-body"
           >
-            <span>Domínio Público</span>
+            <span>{t('nav.dominioPublico')}</span>
           </Link>
           <Link 
             to="/sobre" 
             className="flex items-center space-x-2 text-library-gold hover:text-primary-foreground transition-colors font-body"
           >
-            <span>Sobre</span>
+            <span>{t('nav.sobre')}</span>
           </Link>
         </nav>
       </div>

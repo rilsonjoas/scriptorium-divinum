@@ -29,7 +29,30 @@ const BOOK_KEYS = [
   'downloadLinks',
 ] as const;
 
+const API_BASE = import.meta.env.VITE_API_URL?.replace(/\/+$/, '') || 'http://localhost:3001';
+
 export const adminService = {
+  async uploadCover(file: File): Promise<{ url: string }> {
+    const body = new FormData();
+    body.append('file', file);
+    const res = await fetch(`${API_BASE}/api/v1/admin/uploads`, {
+      method: 'POST',
+      credentials: 'include',
+      body,
+    });
+    if (!res.ok) {
+      let msg = `Erro ${res.status} no upload`;
+      try {
+        const j = await res.json();
+        msg = j.message ?? msg;
+      } catch {
+        // resposta sem JSON
+      }
+      throw new Error(msg);
+    }
+    return res.json() as Promise<{ url: string }>;
+  },
+
   // Autores
   createAuthor(data: Partial<Author>) {
     return apiClient<Author>('/api/v1/admin/authors', {

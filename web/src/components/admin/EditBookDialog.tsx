@@ -23,6 +23,7 @@ import { Switch } from '@/components/ui/switch';
 import { Badge } from '@/components/ui/badge';
 import { X } from 'lucide-react';
 import { DownloadLinksEditor } from '@/components/admin/DownloadLinksEditor';
+import { adminService } from '@/services/admin';
 
 interface EditBookDialogProps {
   book: Book | null;
@@ -34,6 +35,7 @@ interface EditBookDialogProps {
 
 export function EditBookDialog({ book, open, onClose, onSave, authors }: EditBookDialogProps) {
   const [formData, setFormData] = useState<Partial<Book>>({});
+  const [uploadingCover, setUploadingCover] = useState(false);
   const [categories, setCategories] = useState<string[]>([]);
   const [newCategory, setNewCategory] = useState('');
   const [downloadLinks, setDownloadLinks] = useState<DownloadLink[]>([]);
@@ -271,13 +273,39 @@ export function EditBookDialog({ book, open, onClose, onSave, authors }: EditBoo
               <Label htmlFor="coverImageUrl" className="font-body text-library-wood">
                 URL da Capa
               </Label>
-              <Input
-                id="coverImageUrl"
-                type="url"
-                value={formData.coverImageUrl || ''}
-                onChange={(e) => setFormData({ ...formData, coverImageUrl: e.target.value })}
-                className="font-body border-library-bronze"
-              />
+              <div className="flex gap-2">
+                <Input
+                  id="coverImageUrl"
+                  type="url"
+                  value={formData.coverImageUrl || ''}
+                  onChange={(e) => setFormData({ ...formData, coverImageUrl: e.target.value })}
+                  className="font-body border-library-bronze"
+                  placeholder="/uploads/covers/... ou URL externa"
+                />
+                <label className="shrink-0 inline-flex items-center gap-1.5 rounded-md border border-library-bronze px-3 text-sm font-body text-library-bronze hover:bg-library-gold/10 cursor-pointer">
+                  {uploadingCover ? 'Enviando…' : 'Enviar'}
+                  <input
+                    type="file"
+                    accept="image/jpeg,image/png,image/webp,image/svg+xml"
+                    className="hidden"
+                    disabled={uploadingCover}
+                    onChange={async (e) => {
+                      const file = e.target.files?.[0];
+                      if (!file) return;
+                      setUploadingCover(true);
+                      try {
+                        const { url } = await adminService.uploadCover(file);
+                        setFormData((f) => ({ ...f, coverImageUrl: url }));
+                      } catch (err) {
+                        alert(err instanceof Error ? err.message : 'Falha no upload');
+                      } finally {
+                        setUploadingCover(false);
+                        e.target.value = '';
+                      }
+                    }}
+                  />
+                </label>
+              </div>
             </div>
             <div>
               <Label htmlFor="onlineReadPath" className="font-body text-library-wood">
