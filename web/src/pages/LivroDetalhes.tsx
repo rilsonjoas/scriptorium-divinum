@@ -5,6 +5,7 @@ import { BookOpen, Download, Calendar, User, Globe, Languages, Tag, ArrowLeft, L
 import { Link, useParams, Navigate } from 'react-router-dom';
 import { useBook } from '@/hooks/useDatabase';
 import { SafeImage } from '@/components/SafeImage';
+import { AdSlot } from '@/components/ads/AdSlot';
 
 const LivroDetalhes = () => {
   const { bookId } = useParams<{ bookId: string }>();
@@ -276,6 +277,10 @@ const LivroDetalhes = () => {
               </Card>
             </div>
           </div>
+        </div>
+
+        <div className="py-8">
+          <AdSlot slotId="5170899723" />
         </div>
       </div>
     </Layout>

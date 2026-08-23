@@ -7,6 +7,7 @@ import { Search, Filter, Grid, List, Loader2 } from 'lucide-react';
 import { useState, useMemo, useEffect } from 'react';
 import { useBooks, useCategories, useSiteSettings } from '@/hooks/useDatabase';
 import { useSearchParams } from 'react-router-dom';
+import { AdSlot } from '@/components/ads/AdSlot';
 
 const Livros = () => {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -211,6 +212,9 @@ const Livros = () => {
             </Button>
           </div>
         )}
+        <div className="py-8">
+          <AdSlot slotId="7957729645" />
+        </div>
       </div>
     </Layout>
   );

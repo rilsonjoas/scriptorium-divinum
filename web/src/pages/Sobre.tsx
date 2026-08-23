@@ -1,5 +1,6 @@
 import { Layout } from '@/components/Layout';
 import { useSiteSettings } from '@/hooks/useDatabase';
+import { BookOpen, Download, Library, Search } from 'lucide-react';
 
 const Sobre = () => {
   const { data: settings } = useSiteSettings();
@@ -25,7 +26,7 @@ const Sobre = () => {
           <div className="bg-card/95 backdrop-blur-sm border border-library-bronze rounded-lg p-8 parchment-bg shadow-book mb-8">
             <h2 className="font-heading text-2xl font-semibold text-library-wood mb-4">Nossa Missão</h2>
             <p className="leading-relaxed mb-4">
-              O **Scriptorium Divinum** é uma biblioteca digital dedicada a preservar e tornar acessível 
+              O <strong>Scriptorium Divinum</strong> é uma biblioteca digital dedicada a preservar e tornar acessível 
               o vasto tesouro da literatura teológica cristã em domínio público. Em um ambiente digital 
               que evoca a solenidade e a beleza das grandes bibliotecas clássicas, facilitamos o estudo, 
               a pesquisa e a devoção através dos séculos da tradição cristã.
@@ -42,28 +43,40 @@ const Sobre = () => {
             <h2 className="font-heading text-2xl font-semibold text-library-wood mb-4">O Que Oferecemos</h2>
             <div className="grid md:grid-cols-2 gap-6">
               <div>
-                <h3 className="font-heading text-lg font-semibold text-library-bronze mb-3">📚 Acervo Curado</h3>
+                <h3 className="font-heading text-lg font-semibold text-library-bronze mb-3 flex items-center gap-2">
+                  <Library className="h-5 w-5" />
+                  Acervo Curado
+                </h3>
                 <p className="leading-relaxed">
                   Obras cuidadosamente selecionadas da Patrística, Idade Média, Reforma, 
                   Pós-Reforma e períodos subsequentes, todas verificadas quanto ao domínio público.
                 </p>
               </div>
               <div>
-                <h3 className="font-heading text-lg font-semibold text-library-bronze mb-3">🔍 Leitura Online</h3>
+                <h3 className="font-heading text-lg font-semibold text-library-bronze mb-3 flex items-center gap-2">
+                  <BookOpen className="h-5 w-5" />
+                  Leitura Online
+                </h3>
                 <p className="leading-relaxed">
                   Interface de leitura otimizada com tipografia clássica, navegação por capítulos 
                   e configurações personalizáveis para uma experiência contemplativa.
                 </p>
               </div>
               <div>
-                <h3 className="font-heading text-lg font-semibold text-library-bronze mb-3">📥 Downloads Gratuitos</h3>
+                <h3 className="font-heading text-lg font-semibold text-library-bronze mb-3 flex items-center gap-2">
+                  <Download className="h-5 w-5" />
+                  Downloads Gratuitos
+                </h3>
                 <p className="leading-relaxed">
-                  Formatos múltiplos (PDF, ePub, etc.) para leitura offline em qualquer dispositivo, 
-                  sempre respeitando o domínio público.
+                  Download gratuito em formato de texto (.txt) e leitura online
+                  com tipografia dedicada, sempre respeitando o domínio público.
                 </p>
               </div>
               <div>
-                <h3 className="font-heading text-lg font-semibold text-library-bronze mb-3">🔎 Busca Avançada</h3>
+                <h3 className="font-heading text-lg font-semibold text-library-bronze mb-3 flex items-center gap-2">
+                  <Search className="h-5 w-5" />
+                  Busca Avançada
+                </h3>
                 <p className="leading-relaxed">
                   Ferramentas de pesquisa por autor, período histórico, tradição teológica 
                   e palavras-chave para facilitar o estudo acadêmico.
@@ -120,11 +133,17 @@ const Sobre = () => {
             <p className="leading-relaxed mb-4">
               Este projeto é mantido de forma independente e sustentado através de:
             </p>
-            <ul className="list-disc pl-6 space-y-2 mb-4">
-              <li>**Google AdSense** integrado de forma discreta para não interferir na leitura</li>
-              <li>**Doações voluntárias** para manutenção, curadoria e expansão do acervo</li>
-              <li>**Links de afiliados** para versões impressas quando disponíveis</li>
-            </ul>
+              <ul className="list-disc pl-6 space-y-2 mb-4">
+                <li>
+                  <strong>Google AdSense</strong> integrado de forma discreta para não interferir na leitura
+                </li>
+                <li>
+                  <strong>Doações voluntárias</strong> para manutenção, curadoria e expansão do acervo
+                </li>
+                <li>
+                  <strong>Links de afiliados</strong> para versões impressas quando disponíveis
+                </li>
+              </ul>
             <p className="leading-relaxed">
               Se este projeto tem sido útil para seus estudos ou devoção, considere fazer uma 
               doação para ajudar na preservação e expansão deste tesouro da literatura cristã.

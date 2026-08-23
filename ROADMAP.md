@@ -471,23 +471,27 @@ afiliado agora, anúncio (AdSense) fica pra depois.**
       é sobre tornar acesso gratuito, sem contrapartida de destaque ou
       influência editorial — mesma lógica adotada no `a-bancada-
       evangelica`.
-- [ ] **Google AdSense — não agora, critério revisado.** Catálogo (32
-      obras) não é mais o gargalo de credibilidade que era com "1 obra
-      no ar", mas o teto natural do acervo é baixo (ver aviso em P8.1
-      — PD em teologia PT-BR é estruturalmente raro, ~30-50 obras pode
-      ser perto do máximo alcançável sem comissionar tradução nova).
-      Não amarrar a decisão só a "catálogo > N obras", que pode nunca
-      vir — o critério real é **tráfego orgânico mensurado** (GA4/
-      Plausible ainda não configurado, ver P5) sendo diferente de
-      zero por tempo suficiente. Aplicar antes disso arrisca rejeição
-      por conteúdo/tráfego insuficiente, igual ao que aconteceu no
-      Teste Político antes da correção de 08/21.
-- [ ] **Até Amazon Associates e doação saírem do zero, ajustar o texto
-      do `Sobre.tsx`** pra não afirmar como fato o que ainda não
-      existe (trocar "Google AdSense integrado" por algo como "estamos
-      avaliando formas discretas de sustentar o projeto", etc.) — e
-      atualizar de novo assim que cada item for implementado de
-      verdade, pra não trocar uma mentira por outra.
+- [x] **Google AdSense — base técnica implementada (2026-08-22)**,
+      decisão do Rilson em avançar agora com a conta existente
+      (`ca-pub-5482566824255473`), revendo o critério anterior de
+      esperar tráfego. Sequência executada, na ordem certa:
+      (1) `web/public/ads.txt` criado (`google.com,
+      pub-5482566824255473, DIRECT, f08c47fec0942fa0`) — pré-requisito
+      de verificação de domínio; (2) script do AdSense no `<head>` do
+      `index.html` (habilita a revisão do domínio no painel e Auto Ads;
+      **só veicula depois que o domínio for aprovado** — até lá os slots
+      ficam em branco, sem risco de rejeição prévia); (3) componente
+      reutilizável `web/src/components/ads/AdSlot.tsx` (client fixo,
+      `slotId` opcional, push protegido contra duplicação, rótulo
+      discreto "Publicidade"); (4) posicionamentos discretos: home
+      (após destaques), catálogo (após grade) e ficha da obra (após o
+      conteúdo) — **Reader `/ler/:id` permanece sem anúncios**, como a
+      página Sobre promete.
+      Pendências seguintes: criar unidades de anúncio no painel AdSense
+      e colar os IDs nos `slotId` dos usos de `AdSlot`; submeter o
+      domínio à revisão no painel; avaliar Auto Ads vs. unidades manuais
+      depois da aprovação. O texto do `Sobre.tsx` ("Google AdSense
+      integrado") voltou a ser verdadeiro.
 
 ---
 
@@ -660,22 +664,21 @@ no `meus-remedios` (único projeto pessoal com OAuth de usuário real hoje)
 
 ### 🔴 Crítico — funcionalidade central quebrada
 
-- [ ] **Leiturabilidade online não funciona** — muitos livros não abrem. Os que abrem exibem todo o conteúdo numa página vertical sem paginação — não é o padrão profissional. Verificar: (1) rotas de leitura existem para todos os livros? (2) há renderização de capítulos/partes? (3) a UX de leitura (paginação ou scroll infinito com sidebar) está implementada?
-- [ ] **Downloads não funcionam / formatos não existem** — o site menciona vários formatos disponíveis (PDF, EPUB, etc.), mas os arquivos existem no servidor? Links estão corretos? Auditar todos os downloads cadastrados contra o filesystem real.
-- [ ] **Categorias não estão sendo utilizadas** — os livros têm categoria no banco mas o filtro não funciona ou as categorias estão vazias/incorretas. Verificar dados e o JOIN nas queries.
-- [ ] **Autores com 0 livros aparecem na página de Autores** — ocultar autores sem livros publicados (`WHERE books_count > 0`).
-- [ ] **Botões da página "Como Contribuir" não funcionam** — implementar ações reais ou ser honesto sobre o que é viável hoje. O conteúdo da página deve refletir o estado real do projeto (uma pessoa, sem equipe).
+- [x] **Leiturabilidade online — Reader reconstruído (2026-08-22)** — 25 de 32 obras têm leitura online (auditado); as 7 sem texto são O Peregrino, Confissões, Compêndio de Teologia, Institutas, Cidade de Deus, Pensamentos e Por que Deus se fez Homem? — exatamente as obras-faróis (dívida de conteúdo, ver P8.1). Para as 25 que abrem, o "scroll vertical gigante" foi substituído por leitor profissional: **índice lateral fixo** (desktop) com scroll-spy + **índice colapsável** (mobile), **barra de progresso** de leitura no topo, **tempo estimado** ("~X min") na abertura, âncoras com ids slugificados em h1-h3 e scroll compensado do header. Implementado em `web/src/pages/Reader.tsx` (10/10 testes passando). Paginação estilo e-reader segue como opção futura, não necessária.
+- [x] **Downloads não funcionam / formatos não existem (auditado E corrigido 2026-08-22)** — dos 30 links cadastrados, só 24 funcionam e TODOS são `.txt` (Gutenberg/Wikisource). Os 6 restantes eram caminhos locais falsos `/downloads/**` (404 no nginx): PDFs de O Peregrino, Confissões (+epub), Compêndio, Institutas e Cidade de Deus; 0 PDFs reais no catálogo. Correções aplicadas: (a) texto do `Sobre.tsx` ajustado ("formatos múltiplos PDF/ePub" → realidade .txt); (b) **script executado em produção** (`psql < scripts/fix_prod_data_2026-08-22.sql`, transação única com ON_ERROR_STOP — 1ª tentativa abortou limpa por erro de alias, revertida integralmente; 2ª passou): `DELETE 6` links falsos, backup prévio em `~/backups/scriptorium_backup_20260822.sql` no VPS + cópia local. Verificado pós-execução: 0 links `/downloads/`, API retorna `downloadLinks: []` nas obras afetadas (botão some do site). Dívida de conteúdo: achar fontes reais PT-BR para as obras-faróis.
+- [x] **Categorias não estavam sendo utilizadas (auditado E corrigido 2026-08-22)** — eram 41 categorias para 32 livros com duplicatas bilíngues (Patrística/Patristics, Reformation/Reforma Protestante etc.), porque `books.categories` é array livre e a tabela `categories` estava VAZIA (slugs nulos na API). Consolidação EN→PT (~14 mapeamentos) executada no mesmo script: 31 categorias canônicas em PT, tabela `categories` populada com slugs kebab-case, API `/api/v1/categories` agora responde `{name, slug, bookCount}` completo.
+- [x] **Autores com 0 livros aparecem na página de Autores** — corrigido em `web/src/pages/Autores.tsx` (filtro `bookCount > 0` na contagem client-side, 2026-08-22).
+- [x] **Botões da página "Como Contribuir" não funcionam** — página reescrita (2026-08-22) para a realidade de projeto unipessoal: sugerir obra (mailto), reportar erro (mailto), divulgar (WhatsApp/Telegram share), código (GitHub). Todos os botões com ações reais; seções de digitalização/tradução/pesquisa removidas (prometiam fluxo de equipe que não existe).
 
 ### 🟠 Grave — qualidade e confiança
 
-- [ ] **Páginas não carregam no topo** — mesmo bug da Bancada Evangélica. Adicionar scroll-to-top na mudança de rota (React Router `ScrollRestoration` ou `useEffect` com `window.scrollTo(0,0)`).
-- [ ] **Emojis em vez de `lucide-react`** — substituir emojis por ícones do `lucide-react` em todo o projeto. Auditoria completa.
-- [ ] **Markdown cru renderizando como texto** — ex: `**Google AdSense**` aparece como texto literal na página Sobre. Verificar se `react-markdown` (ou equivalente) está aplicado em todos os campos de texto rico do banco.
-- [ ] **Nem todo negrito está renderizando em negrito** — provavelmente relacionado ao ponto acima.
+- [x] **Páginas não carregam no topo** — corrigido (2026-08-22): componente `ScrollToTop` (`web/src/components/ScrollToTop.tsx`) montado no `App.tsx` sobre `useLocation`.
+- [x] **Emojis em vez de `lucide-react`** — auditados (2026-08-22): os únicos emojis de UI estavam em `Sobre.tsx` (📚🔍📥🔎 → Library/BookOpen/Download/Search) e `DeleteConfirmDialog.tsx` (⚠️). Ornamentos tipográficos do CSS (❦ ✦) mantidos — são fleurons decorativos, não emoji.
+- [x] **Markdown cru renderizando como texto / negrito faltando** — causa: JSX não processa markdown; `**...**` estava escrito direto no JSX de `Sobre.tsx`. Corrigido com `<strong>` nativo (4 ocorrências, 2026-08-22). Campos vindos do banco continuam via `react-markdown` no Reader — sem outros casos encontrados.
 
 ### 🟡 Melhoria — produto e conteúdo
 
-- [ ] **"Conheça também" no rodapé — links do cluster A Biblioteca** — o footer em 4 colunas (Sobre/Navegação/Recursos/Contato) não linka os projetos irmãos. Adicionar bloco compacto após as colunas, antes do ©, seguindo o **modelo aprovado no Gerador C.S. Lewis (2026-08-21)**: rótulo-nicho em caps espaçadas ("CONHEÇA TAMBÉM", tom apagado) → links uniformes separados por ✦ dourado, em grupos atômicos `flex-wrap` (ornamento + link indivisíveis, quebra de linha limpa) → © discreto. Uma família tipográfica só (`font-body`), coluna centrada. Links: Narniano, Bíblia na Arte, Lecionário, Gerador C.S. Lewis. Referência: `ClusterFooter.tsx` em `GeradorCSLewis/src/components/`. (Mesma tarefa registrada nos ROADMAPs do Lecionário e Bíblia na Arte.)
+- [x] **"Conheça também" no rodapé — links do cluster A Biblioteca** — implementado 2026-08-22 em `web/src/components/Footer.tsx`: bloco compacto após o ornamento e antes do ©, modelo aprovado no Gerador C.S. Lewis (`ClusterFooter.tsx`) adaptado à paleta library-gold: rótulo-nicho em caps espaçadas ("CONHEÇA TAMBÉM") → links Narniano / Bíblia na Arte / Lecionário / Gerador C.S. Lewis separados por ✦ dourado em itens atômicos `whitespace-nowrap` → © discreto abaixo.
 
 - [ ] **Continuar busca e curadoria de material** — tarefa contínua. Priorizar domínio público verificado.
 - [ ] **Tradução de livros com IA** — avaliar viabilidade: qual modelo? qual pipeline de revisão? Qual licença do original permite tradução e redistribuição? Não começar sem definir isso.
@@ -706,3 +709,61 @@ no `meus-remedios` (único projeto pessoal com OAuth de usuário real hoje)
 
 - [ ] Leiturabilidade online (🔴 item crítico acima) — ninguém retorna a um leitor que não abre
 - [ ] Compêndio de Teologia / Cidade de Deus — dívida de conteúdo registrada
+
+---
+
+## Produto — "De arquivo a companhia" (brainstorm aprovado 2026-08-22)
+
+> Pergunta norteadora: o que faria deste um dos lugares favoritos de um
+> leitor? Resposta: **lembrar do leitor e se encaixar numa rotina**.
+> Arquivo é visitado; companhia é revisitada. Rejeitados por teto real:
+> contas de usuário, comentários, fórum, gamificação/streaks.
+
+### Aprovado para implementação
+
+- [ ] **Glossário do leitor (português arcaico)** — prioridade 1. O maior
+      inimigo do acervo PT é que Vieira (1655) é difícil. Tocar/clicar
+      palavra obsoleta → definição em popover (Wiktionary PT tem API
+      gratuita). Ataca a evasão real do leitor moderno; ninguém faz isso
+      em português.
+- [ ] **"Continuar lendo" + progresso por obra** — prioridade 2.
+      localStorage puro, sem contas: salvar posição de scroll por livro,
+      bloco "Continuar lendo" na home, barra fina de progresso no Reader.
+- [ ] **Cartões de citação compartilháveis** — prioridade 3. Selecionar
+      trecho no Reader → gerar card bonito → baixar/compartilhar. Maior
+      loop orgânico no contexto BR (WhatsApp/Instagram). **Seguir o
+      padrão já aprovado dos projetos irmãos**: `html2canvas` com import
+      dinâmico sobre card offscreen fixo (1080×1080), CSS rasterizável
+      (`backgroundImage`+`cover`, sem `object-fit`/filtros SVG),
+      `canvas.toBlob()` → `navigator.share({files})` → fallback clipboard
+      (`ClipboardItem`). Referências: `a-bancada-evangelica/src/components/social/ShareableCard.tsx`
+      (download+share nativo), `GeradorCSLewis/src/components/{QuoteGenerator,ShareCard}.tsx`
+      (card offscreen + tipografia que escala pelo tamanho da citação).
+      Cuidado: imagens remotas precisam de proxy same-origin (bug do PNG
+      branco já resolvido na Bancada).
+- [ ] **Ouvir em vez de ler (TTS)** — Web Speech API nativa, zero infra.
+      Botão play/pause no Reader; progressive enhancement.
+- [ ] **Pequenas dignidades de leitura** — tempo estimado ("38 min") na
+      ficha e no Reader; navegação por capítulos fixa na lateral do
+      Reader (tabela `table_of_contents` já existe no banco); isso é
+      parte da solução do item crítico de leiturabilidade.
+
+### Ideia para o futuro (depende de acervo maior)
+
+- [ ] **Planos de leitura devocional + newsletter semanal** — fatiar
+      obras em porções diárias ("Confissões em 40 dias", "Um sermão de
+      Vieira por domingo") + e-mail automático semanal com um trecho
+      ("Sábado, um trecho"). Bloqueada pela constância de conteúdo:
+      só fazer quando o catálogo sustentar ritmo semanal sem esforço
+      manual. E-mail é canal próprio, independente de Google.
+
+### Performance web (2026-08-22)
+
+- [x] **Code-splitting do bundle** — warning de chunk >500kB eliminado.
+      `Reader` virou lazy route (`React.lazy` + `Suspense` no `App.tsx`)
+      e `vite.config.ts` ganhou `manualChunks`: stack markdown inteira
+      (react-markdown/remark/unified/micromark/hast ≈ 47KB gzip) só
+      baixa quando alguém abre um leitor; react/router/tanstack em
+      chunk vendor (73KB gzip) com cache de longa duração. Resultado:
+      app code 99KB gzip + vendor 73KB no primeiro load (antes: ~172KB
+      monolítico); leitor carrega os outros 50KB sob demanda.

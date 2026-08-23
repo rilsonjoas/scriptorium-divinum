@@ -2,6 +2,13 @@ import { Github, Mail } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useSiteSettings } from '@/hooks/useDatabase';
 
+const CLUSTER_LINKS = [
+  { label: 'Narniano', href: 'https://narniano.com' },
+  { label: 'Bíblia na Arte', href: 'https://biblianaarte.narniano.com' },
+  { label: 'Lecionário', href: 'https://lecionario.narniano.com' },
+  { label: 'Gerador C.S. Lewis', href: 'https://cslewis.narniano.com' },
+];
+
 export function Footer() {
   const { data: settings } = useSiteSettings();
   const siteName = settings?.siteName ?? 'Scriptorium Divinum';
@@ -106,7 +113,35 @@ export function Footer() {
 
         <div className="ornament"></div>
 
-        <div className="text-center text-sm text-library-gold/70 font-body">
+        <div className="mt-8 flex flex-col items-center gap-2.5 text-center">
+          <span className="font-body text-[10px] font-bold uppercase tracking-[0.3em] text-library-gold/60">
+            Conheça também
+          </span>
+          <nav
+            aria-label="Outros projetos do cluster A Biblioteca"
+            className="flex max-w-md flex-wrap items-baseline justify-center gap-y-1.5 text-xs text-library-gold/70 font-body sm:max-w-none"
+          >
+            {CLUSTER_LINKS.map((link, i) => (
+              <span key={link.href} className="flex items-baseline whitespace-nowrap">
+                {i > 0 && (
+                  <span aria-hidden="true" className="mx-2.5 text-library-gold">
+                    ✦
+                  </span>
+                )}
+                <a
+                  href={link.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="transition-colors underline-offset-2 hover:text-library-gold hover:underline"
+                >
+                  {link.label}
+                </a>
+              </span>
+            ))}
+          </nav>
+        </div>
+
+        <div className="text-center text-sm text-library-gold/70 font-body mt-6">
           <p>© 2025 {siteName}. Obras em domínio público ou sob licença aberta, com atribuição.</p>
         </div>
       </div>

@@ -11,14 +11,16 @@ const Autores = () => {
   const { data: authors, isLoading: authorsLoading, error: authorsError } = useAuthors();
   const { data: books, isLoading: booksLoading } = useBooks();
 
-  // Count books per author
+  // Count books per author, keeping only authors with published works
   const authorsWithBookCount = useMemo(() => {
     if (!authors || !books?.items) return [];
-    
-    return authors.map(author => ({
-      ...author,
-      bookCount: books.items.filter(book => book.author?.id === author.id).length
-    }));
+
+    return authors
+      .map(author => ({
+        ...author,
+        bookCount: books.items.filter(book => book.author?.id === author.id).length
+      }))
+      .filter(author => author.bookCount > 0);
   }, [authors, books]);
 
   return (
@@ -156,7 +158,7 @@ const Autores = () => {
               Nenhum autor encontrado
             </h3>
             <p className="font-body text-muted-foreground">
-              Ainda não há autores cadastrados na biblioteca.
+              Ainda não há autores com obras publicadas na biblioteca.
             </p>
           </div>
         )}

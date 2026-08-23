@@ -3,8 +3,10 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { lazy, Suspense } from "react";
 import { AuthProvider } from "@/contexts/AuthContext";
 import { AdminRoute } from "@/components/AdminRoute";
+import { ScrollToTop } from "@/components/ScrollToTop";
 import Index from "./pages/Index";
 import Livros from "./pages/Livros";
 import Autores from "./pages/Autores";
@@ -15,10 +17,17 @@ import DominioPublico from "./pages/DominioPublico";
 import Busca from "./pages/Busca";
 import Contribuir from "./pages/Contribuir";
 import LivroDetalhes from "./pages/LivroDetalhes";
-import Reader from "./pages/Reader";
 import CategoryPage from "./pages/CategoryPage";
 import Sobre from "./pages/Sobre";
 import NotFound from "./pages/NotFound";
+
+const Reader = lazy(() => import("./pages/Reader"));
+
+const PageFallback = () => (
+  <div className="flex min-h-[60vh] items-center justify-center">
+    <div className="h-8 w-8 animate-spin rounded-full border-2 border-library-bronze border-t-library-gold" />
+  </div>
+);
 import AdminLogin from "./pages/admin/AdminLogin";
 import AdminDashboard from "./pages/admin/AdminDashboard";
 import AdminBooks from "./pages/admin/AdminBooks";
@@ -35,7 +44,9 @@ const App = () => (
         <Toaster />
         <Sonner />
         <BrowserRouter>
-          <Routes>
+          <ScrollToTop />
+          <Suspense fallback={<PageFallback />}>
+            <Routes>
             {/* Public Routes */}
             <Route path="/" element={<Index />} />
             <Route path="/livros" element={<Livros />} />
@@ -80,7 +91,8 @@ const App = () => (
             } />
 
             <Route path="*" element={<NotFound />} />
-          </Routes>
+            </Routes>
+          </Suspense>
         </BrowserRouter>
       </AuthProvider>
     </TooltipProvider>
