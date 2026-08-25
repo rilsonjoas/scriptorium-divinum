@@ -125,6 +125,11 @@ Já corrigido em 2026-08-14: XSS/open redirect do `@remix-run/router`
 vite 6 foi avaliado e **adiado** — retorno só justificado com o projeto de
 volta à mesa (seção "Ordem recomendada").
 
+## P2 — Obras-Faróis & Leitura Online (2026-08-24)
+
+- [x] **Imitação de Cristo (Tomás de Kempis)**: texto integral em português de 1848 revisado e formatado em Markdown com bloco de proveniência (`server/texts/imitacao-de-cristo-pt.md`), ativado para leitura online.
+- [x] **Os Últimos Fins do Homem (Padre Manuel Bernardes)**: texto integral do clássico de 1688/1768 revisado e formatado em Markdown com bloco de proveniência (`server/texts/os-ultimos-fins-do-homem-pt.md`), ativado para leitura online.
+
 ## P1 — Infra & Deploy
 
 - [x] **No ar e confirmado saudável (2026-08-09)**: `scriptorium-web` e
