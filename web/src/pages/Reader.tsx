@@ -520,15 +520,18 @@ export default function Reader() {
             Selecione uma frase para grifar ou criar card
           </span>
           {ttsSupported && (
-            <span className="flex items-center gap-1">
+            <div className="flex items-center gap-1.5 bg-library-wood text-library-gold px-3 py-1 rounded-full shadow-sm border border-library-bronze/40">
+              <Volume2 className="h-3.5 w-3.5 text-library-gold shrink-0" />
+              <span className="text-xs font-semibold font-body text-library-gold mr-1">Áudio</span>
               {ttsStatus === 'idle' && (
                 <Button
                   variant="ghost"
                   size="sm"
-                  className="h-7 px-2 font-body text-library-bronze hover:text-library-wood text-xs"
+                  className="h-6 px-2 text-xs text-library-gold hover:bg-library-gold/20 font-body rounded-full"
                   onClick={() => startSpeech(markdownToSpeechText(parsed.content))}
+                  aria-label="Ouvir texto com síntese de voz"
                 >
-                  <Volume2 className="h-3.5 w-3.5 mr-1" />
+                  <Play className="h-3 w-3 mr-1 fill-library-gold" />
                   Ouvir
                 </Button>
               )}
@@ -537,19 +540,21 @@ export default function Reader() {
                   <Button
                     variant="ghost"
                     size="sm"
-                    className="h-7 px-2 font-body text-library-bronze hover:text-library-wood text-xs"
+                    className="h-6 px-2 text-xs text-library-gold hover:bg-library-gold/20 font-body rounded-full"
                     onClick={pauseSpeech}
+                    aria-label="Pausar áudio"
                   >
-                    <Pause className="h-3.5 w-3.5 mr-1" />
+                    <Pause className="h-3 w-3 mr-1 fill-library-gold" />
                     Pausar
                   </Button>
                   <Button
                     variant="ghost"
                     size="sm"
-                    className="h-7 px-2 font-body text-library-bronze hover:text-library-wood text-xs"
+                    className="h-6 px-2 text-xs text-library-gold hover:bg-library-gold/20 font-body rounded-full"
                     onClick={stopSpeech}
+                    aria-label="Parar áudio"
                   >
-                    <Square className="h-3 w-3 mr-1" />
+                    <Square className="h-3 w-3 mr-1 fill-library-gold" />
                     Parar
                   </Button>
                 </>
@@ -559,24 +564,26 @@ export default function Reader() {
                   <Button
                     variant="ghost"
                     size="sm"
-                    className="h-7 px-2 font-body text-library-bronze hover:text-library-wood text-xs"
+                    className="h-6 px-2 text-xs text-library-gold hover:bg-library-gold/20 font-body rounded-full"
                     onClick={resumeSpeech}
+                    aria-label="Continuar áudio"
                   >
-                    <Play className="h-3.5 w-3.5 mr-1" />
+                    <Play className="h-3 w-3 mr-1 fill-library-gold" />
                     Continuar
                   </Button>
                   <Button
                     variant="ghost"
                     size="sm"
-                    className="h-7 px-2 font-body text-library-bronze hover:text-library-wood text-xs"
+                    className="h-6 px-2 text-xs text-library-gold hover:bg-library-gold/20 font-body rounded-full"
                     onClick={stopSpeech}
+                    aria-label="Parar áudio"
                   >
-                    <Square className="h-3 w-3 mr-1" />
+                    <Square className="h-3 w-3 mr-1 fill-library-gold" />
                     Parar
                   </Button>
                 </>
               )}
-            </span>
+            </div>
           )}
         </p>
 

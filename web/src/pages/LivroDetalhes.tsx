@@ -9,10 +9,13 @@ import { useBook } from '@/hooks/useDatabase';
 import { SafeImage } from '@/components/SafeImage';
 import { AdSlot } from '@/components/ads/AdSlot';
 import { AcademicCitationDialog } from '@/components/reader/AcademicCitationDialog';
+import { useTranslation } from 'react-i18next';
+import { ClusterConnections } from '@/components/ClusterConnections';
 
 const AMAZON_AFFILIATE_TAG = import.meta.env.VITE_AMAZON_TAG ?? 'rilson-20';
 
 const LivroDetalhes = () => {
+  const { t } = useTranslation();
   const { bookId } = useParams<{ bookId: string }>();
   const { data: book, isLoading, error } = useBook(bookId || '');
 
@@ -118,21 +121,24 @@ const LivroDetalhes = () => {
                   )}
 
                   {!book.textAvailable && scanIdentifier && (
-                    <details className="rounded-lg border-2 border-library-bronze bg-library-gold/5">
-                      <summary className="cursor-pointer select-none px-3 py-2 font-body text-sm font-semibold text-library-wood flex items-center gap-2">
-                        <BookOpen className="h-4 w-4 text-library-gold" />
-                        Ler o escaneamento online
+                    <details className="group rounded-md border-2 border-library-wood/80 bg-card text-library-wood font-semibold font-body shadow-sm transition-all overflow-hidden">
+                      <summary className="cursor-pointer select-none px-3 py-2.5 font-body text-sm font-semibold text-library-wood flex items-center justify-between hover:bg-library-wood/5 transition-colors group-open:border-b group-open:border-library-bronze/40">
+                        <span className="flex items-center gap-2">
+                          <BookOpen className="h-4 w-4 text-library-gold" />
+                          {t('acoes.verEscaneamento')}
+                        </span>
+                        <span className="text-xs text-library-bronze group-open:rotate-180 transition-transform font-bold">▼</span>
                       </summary>
-                      <div className="p-2">
+                      <div className="p-2 bg-library-gold/5">
                         <iframe
                           src={`https://archive.org/embed/${scanIdentifier}`}
                           title={`Escaneamento de ${book.title}`}
-                          className="w-full rounded border border-library-bronze/30"
+                          className="w-full rounded border border-library-bronze/30 shadow-inner"
                           style={{ height: '70vh' }}
                           allowFullScreen
                           loading="lazy"
                         />
-                        <p className="text-xs text-muted-foreground font-body mt-1">
+                        <p className="text-xs text-muted-foreground font-body mt-2 text-center italic">
                           Leitura do escaneamento original, via Internet Archive.
                         </p>
                       </div>
@@ -371,6 +377,9 @@ const LivroDetalhes = () => {
                   </div>
                 </CardContent>
               </Card>
+
+              {/* CONEXÕES DO CLUSTER A BIBLIOTECA */}
+              <ClusterConnections term={book.title} type="book" />
             </div>
           </div>
         </div>

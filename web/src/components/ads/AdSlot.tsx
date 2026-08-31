@@ -27,8 +27,7 @@ export function AdSlot({ slotId, format = 'auto', className = '', label = true }
     try {
       (window.adsbygoogle = window.adsbygoogle || []).push({});
       
-      // Checar se o anúncio foi preenchido de fato após o push
-      const timer = setTimeout(() => {
+      const checkAdStatus = () => {
         if (insRef.current) {
           const status = insRef.current.getAttribute('data-ad-status');
           const hasChild = insRef.current.children.length > 0;
@@ -40,20 +39,26 @@ export function AdSlot({ slotId, format = 'auto', className = '', label = true }
             setAdVisible(false);
           }
         }
-      }, 1200);
+      };
 
-      return () => clearTimeout(timer);
+      const timer1 = setTimeout(checkAdStatus, 1200);
+      const timer2 = setTimeout(checkAdStatus, 3000);
+
+      return () => {
+        clearTimeout(timer1);
+        clearTimeout(timer2);
+      };
     } catch {
       setAdVisible(false);
     }
   }, []);
 
-  // Se o anúncio não carregou/bloqueado/em branco, esconde completamente (inclusive o texto 'Publicidade')
-  if (!adVisible) return null;
-
   return (
-    <aside className={`mx-auto max-w-4xl px-4 ${className}`} aria-label="Publicidade">
-      {label && (
+    <aside
+      className={`mx-auto max-w-4xl px-4 ${adVisible ? 'block' : 'hidden'} ${className}`}
+      aria-label="Publicidade"
+    >
+      {label && adVisible && (
         <p className="text-center text-[10px] uppercase tracking-widest text-muted-foreground/60 font-body mb-1">
           Publicidade
         </p>

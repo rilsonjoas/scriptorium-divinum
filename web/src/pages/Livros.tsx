@@ -33,7 +33,7 @@ const Livros = () => {
 
   const { data: settings } = useSiteSettings();
   const { data: books, isLoading: booksLoading, error: booksError } = useBooks({
-    limit: settings?.booksPerPage,
+    limit: 100,
   });
   const { data: categories, isLoading: categoriesLoading } = useCategories();
 
@@ -157,6 +157,7 @@ const Livros = () => {
         <div className="flex items-center justify-between mb-6">
           <p className="font-body text-muted-foreground">
             {filteredBooks.length} obra{filteredBooks.length !== 1 ? 's' : ''} encontrada{filteredBooks.length !== 1 ? 's' : ''}
+            {books?.total ? ` (de ${books.total} no acervo)` : ''}
           </p>
           {(searchTerm || selectedCategory !== 'all') && (
             <Button

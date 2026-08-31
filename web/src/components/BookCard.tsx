@@ -166,11 +166,11 @@ export function BookCard({ book, variant = 'grid' }: BookCardProps) {
           {/* Book Info - min-w-0 previne estouro de container no CSS Flexbox */}
           <div className="flex-1 min-w-0">
             <div className="mb-2 text-center sm:text-left">
-              <h3 className="font-heading text-lg font-semibold text-foreground group-hover:text-library-crimson transition-colors mb-1 break-words">
+              <h3 className="font-heading text-lg font-semibold text-foreground group-hover:text-library-crimson transition-colors mb-1 break-words line-clamp-2">
                 {book.title}
               </h3>
               {book.originalTitle && (
-                <p className="font-body text-xs sm:text-sm text-muted-foreground italic break-words">
+                <p className="font-body text-xs sm:text-sm text-muted-foreground italic break-words line-clamp-1">
                   {book.originalTitle}
                 </p>
               )}

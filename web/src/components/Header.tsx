@@ -1,4 +1,4 @@
-import { Search, BookOpen, Users, Library, X, Loader2, Menu, HelpCircle, Info, ShieldCheck } from 'lucide-react';
+import { Search, BookOpen, Users, Library, X, Loader2, Menu, HelpCircle, Info, ShieldCheck, Star } from 'lucide-react';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
@@ -7,6 +7,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useState, useRef, useEffect } from 'react';
 import { useSearch, useSiteSettings } from '@/hooks/useDatabase';
 import { useTranslation } from 'react-i18next';
+import i18n, { idiomas } from '@/i18n';
 import {
   Sheet,
   SheetContent,
@@ -65,6 +66,7 @@ export function Header() {
     { to: '/livros', label: t('nav.catalogo'), icon: BookOpen },
     { to: '/autores', label: t('nav.autores'), icon: Users },
     { to: '/categorias', label: t('nav.categorias'), icon: Library },
+    { to: '/livros?favoritos=true', label: 'Favoritos', icon: Star },
     { to: '/dominio-publico', label: t('nav.dominioPublico'), icon: ShieldCheck },
     { to: '/sobre', label: t('nav.sobre'), icon: Info },
     { to: '/ajuda', label: t('nav.ajuda'), icon: HelpCircle },
@@ -211,7 +213,33 @@ export function Header() {
           </div>
 
           {/* Desktop Right Links & Mobile Menu Triggers */}
-          <div className="flex items-center space-x-2">
+          <div className="flex items-center space-x-3">
+            {/* Language Switcher Pill */}
+            <div className="flex items-center bg-library-wood/80 border border-library-bronze rounded-full p-0.5 text-xs font-body shadow-xs">
+              {idiomas.map((item) => {
+                const isActive = (i18n.language || 'pt-BR').startsWith(item.codigo.split('-')[0]);
+                return (
+                  <button
+                    key={item.codigo}
+                    type="button"
+                    onClick={() => {
+                      i18n.changeLanguage(item.codigo);
+                      try {
+                        localStorage.setItem('scriptorium:lang', item.codigo);
+                      } catch {}
+                    }}
+                    className={`px-2 py-0.5 rounded-full font-bold transition-colors ${
+                      isActive
+                        ? 'bg-library-gold text-library-wood shadow-xs'
+                        : 'text-library-gold/70 hover:text-library-gold'
+                    }`}
+                  >
+                    {item.rotulo}
+                  </button>
+                );
+              })}
+            </div>
+
             {/* Mobile Search Icon Toggle */}
             <Button
               variant="ghost"

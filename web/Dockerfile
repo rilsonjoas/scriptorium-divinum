@@ -25,6 +25,9 @@ COPY web ./web
 RUN pnpm --filter web build
 
 FROM nginx:1.27-alpine AS runtime
+RUN apk add --no-cache curl
 COPY web/nginx.conf /etc/nginx/conf.d/default.conf
 COPY --from=build /repo/web/dist /usr/share/nginx/html
 EXPOSE 80
+HEALTHCHECK --interval=30s --timeout=5s --start-period=5s --retries=3 \
+  CMD curl -f http://localhost:80/ || exit 1

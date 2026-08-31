@@ -59,18 +59,19 @@ const categoryDetails = {
 };
 
 function getBooksInCategory(categorySlug: string, books: Book[] = []): Book[] {
+  const normTarget = categorySlug.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]/g, '-');
   return books.filter(book => 
-    book.categories?.some(cat => 
-      cat.toLowerCase().replace(/[^a-z]/g, '-') === categorySlug ||
-      cat.toLowerCase() === categorySlug.replace('-', ' ')
-    )
+    book.categories?.some(cat => {
+      const normCat = cat.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]/g, '-');
+      return normCat === normTarget || normCat.includes(normTarget) || normTarget.includes(normCat);
+    })
   );
 }
 
 export default function CategoryPage() {
   const { categorySlug } = useParams<{ categorySlug: string }>();
   const navigate = useNavigate();
-  const { data: books, isLoading } = useBooks();
+  const { data: books, isLoading } = useBooks({ limit: 100 });
 
   const category = categorySlug ? categoryDetails[categorySlug as keyof typeof categoryDetails] : null;
 

@@ -141,7 +141,7 @@ async function seed() {
           categories: ['Patrística', 'Teologia da História', 'Filosofia Política'],
           tags: ['escatologia', 'sociedade', 'história', 'providência', 'igreja'],
           coverImageUrl: '/images/covers/cidade-de-deus.jpg',
-          onlineReadPath: '/texts/agostinho-cidade-de-deus.md',
+          onlineReadPath: '/texts/cidade-de-deus-en.md',
           featured: true,
         },
         {
@@ -159,7 +159,7 @@ async function seed() {
           categories: ['Escolástica', 'Teologia Sistemática', 'Dogmática'],
           tags: ['fé', 'trindade', 'encarnação', 'virtudes', 'deus'],
           coverImageUrl: '/images/covers/compendio-tomas.jpg',
-          onlineReadPath: '/texts/tomas-compendio.md',
+          onlineReadPath: '/texts/compendium-theologiae-la.md',
           featured: true,
         },
         {

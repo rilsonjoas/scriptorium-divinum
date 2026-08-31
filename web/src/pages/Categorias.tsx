@@ -73,17 +73,18 @@ function getCategoryIcon(slug: string) {
 }
 
 function getBooksInCategory(categoryName: string, books: Book[] = []): Book[] {
+  const normTarget = categoryName.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]/g, '-');
   return books.filter(book => 
-    book.categories?.some(cat => 
-      cat.toLowerCase().replace(/[^a-z]/g, '-') === categoryName ||
-      cat.toLowerCase() === categoryName.replace('-', ' ')
-    )
+    book.categories?.some(cat => {
+      const normCat = cat.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]/g, '-');
+      return normCat === normTarget || normCat.includes(normTarget) || normTarget.includes(normCat);
+    })
   );
 }
 
 export default function Categorias() {
   const navigate = useNavigate();
-  const { data: books } = useBooks();
+  const { data: books } = useBooks({ limit: 100 });
 
   return (
     <Layout>

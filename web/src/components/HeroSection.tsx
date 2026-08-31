@@ -29,35 +29,35 @@ export function HeroSection() {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center max-w-4xl mx-auto">
           {/* Badge de Destaque */}
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-library-gold/15 border border-library-gold/30 text-library-gold font-body text-xs mb-6 shadow-golden">
-            <span className="text-library-gold">✦</span>
-            <span>Biblioteca Teológica Clássica em Domínio Público</span>
-            <span className="text-library-gold">✦</span>
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-library-gold/15 border border-library-gold/30 text-library-gold font-body text-[11px] sm:text-xs mb-4 sm:mb-6 shadow-golden max-w-full truncate">
+            <span className="text-library-gold shrink-0">✦</span>
+            <span className="truncate">Biblioteca Teológica Clássica em Domínio Público</span>
+            <span className="text-library-gold shrink-0">✦</span>
           </div>
 
           {/* Main heading */}
-          <h1 className="font-display text-4xl sm:text-5xl md:text-6xl font-bold mb-4 golden-foil leading-tight">
+          <h1 className="font-display text-3xl sm:text-5xl md:text-6xl font-bold mb-3 sm:mb-4 golden-foil leading-tight tracking-tight">
             {settings?.siteName ?? 'Scriptorium Divinum'}
           </h1>
 
-          <p className="font-heading text-lg md:text-2xl text-library-gold mb-6 italic">
+          <p className="font-heading text-base sm:text-xl md:text-2xl text-library-gold mb-4 sm:mb-6 italic">
             "In principio erat Verbum"
           </p>
 
-          <p className="font-body text-base md:text-lg text-library-gold/90 mb-8 max-w-3xl mx-auto leading-relaxed">
+          <p className="font-body text-sm sm:text-base md:text-lg text-library-gold/90 mb-6 sm:mb-8 max-w-3xl mx-auto leading-relaxed px-2 sm:px-0">
             {settings?.siteDescription ??
               'Uma biblioteca digital dedicada a preservar e tornar acessível o vasto tesouro da teologia cristã em domínio público. Explore obras clássicas dos Padres da Igreja, reformadores e grandes teólogos da história da cristandade.'}
           </p>
 
           {/* Call to action buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-14">
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center mb-10 sm:mb-14 px-4 sm:px-0">
             <Button
               asChild
               size="lg"
-              className="bg-library-gold hover:bg-library-gold/90 text-library-wood font-body shadow-golden text-base px-6"
+              className="bg-library-gold hover:bg-library-gold/90 text-library-wood font-body shadow-golden text-sm sm:text-base px-6 py-2.5 sm:py-3 w-full sm:w-auto"
             >
               <Link to="/livros">
-                <BookOpen className="mr-2 h-5 w-5" />
+                <BookOpen className="mr-2 h-4 sm:h-5 w-4 sm:w-5" />
                 Explorar Catálogo
               </Link>
             </Button>
@@ -66,10 +66,10 @@ export function HeroSection() {
               asChild
               variant="outline"
               size="lg"
-              className="border-2 border-library-gold bg-library-wood/90 text-library-gold hover:bg-library-gold hover:text-library-wood font-semibold font-body text-base px-6 shadow-golden"
+              className="border-2 border-library-gold bg-library-wood/90 text-library-gold hover:bg-library-gold hover:text-library-wood font-semibold font-body text-sm sm:text-base px-6 py-2.5 sm:py-3 w-full sm:w-auto shadow-golden"
             >
               <Link to="/autores">
-                <Users className="mr-2 h-5 w-5" />
+                <Users className="mr-2 h-4 sm:h-5 w-4 sm:w-5" />
                 Ver Autores Clássicos
               </Link>
             </Button>

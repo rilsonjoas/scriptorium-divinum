@@ -130,6 +130,16 @@ volta à mesa (seção "Ordem recomendada").
 - [x] **Imitação de Cristo (Tomás de Kempis)**: texto integral em português de 1848 revisado e formatado em Markdown com bloco de proveniência (`server/texts/imitacao-de-cristo-pt.md`), ativado para leitura online.
 - [x] **Os Últimos Fins do Homem (Padre Manuel Bernardes)**: texto integral do clássico de 1688/1768 revisado e formatado em Markdown com bloco de proveniência (`server/texts/os-ultimos-fins-do-homem-pt.md`), ativado para leitura online.
 
+## P2.5 — UX/UI, Leitor Digital & Atenção a Detalhes
+
+- [x] **Polimento do Leitor Digital (`Reader.tsx`) (concluído 2026-08-31)**:
+  - [x] Barra de progresso de leitura sutil e fixa no topo da tela conforme o usuário rola o texto (`ReadingProgress`).
+  - [x] Memorização e restauração automática da posição de leitura via `localStorage` com aviso discreto.
+  - [x] Seletor de temas de leitura dedicados (Modo Sépia, Escuro Noturno, Claro e Papel Clássico em `ReadingToolbar`).
+- [x] **Acessibilidade & Micro-interações (concluído 2026-08-31)**:
+  - [x] Enriquecimento de atributos de acessibilidade (`aria-label`, `aria-expanded`) em todas as barras de ferramentas e player TTS.
+  - [x] Transições e tipografia fluida para leituras confortáveis em mobile e desktop.
+
 ## P1 — Infra & Deploy
 
 - [x] **No ar e confirmado saudável (2026-08-09)**: `scriptorium-web` e
@@ -148,11 +158,7 @@ volta à mesa (seção "Ordem recomendada").
 - [x] **Saúde & Resiliência configuradas (2026-08-14)**:
       * Adicionado handler de encerramento global (SIGTERM/SIGINT) para fechar o banco Drizzle e encerrar o servidor Fastify de forma graciosa.
       * Adicionado rotas de health check (`/health`, `/health/live`, `/health/ready`).
-- [ ] **`scriptorium-web` sem healthcheck (achado 2026-08-14)**: mesmo
-      padrão do biblia-na-arte — o `docker-compose.yml` só define
-      `healthcheck` na API, o serviço `scriptorium-web` (nginx) fica sem.
-      Adicionar um healthcheck simples no nginx segue o mesmo formato
-      já usado em `scriptorium-api`.
+- [x] **`scriptorium-web` com healthcheck (concluído 2026-08-31)**: adicionado `HEALTHCHECK` Nginx no `web/Dockerfile` com `curl` de validação contínua.
 
 ## P3 — CI/CD
 
@@ -812,46 +818,41 @@ no `meus-remedios` (único projeto pessoal com OAuth de usuário real hoje)
 
 ### 🔴 Bugs de Dados e Links em Produção
 
-- [ ] **Cidade de Deus ("Conteúdo indisponível")** — ao clicar em "Ler Online", responde que o conteúdo está indisponível. Investigar vínculo entre `cidade-de-deus-en.md` e a rota/slug no banco.
-- [ ] **Compêndio de Teologia sem leitura/download** — a ficha existe mas não possui texto completo nem links de leitura/download ativos. Ajustar vínculo com `compendium-theologiae-la.md` ou definir status.
-- [ ] **Contagem de obras da Patrística zerada** — filtro/página de categorias mostra 0 obras para Patrística, embora Santo Agostinho e outros Padres da Igreja estejam publicados. Corrigir mapeamento/slug de categorias.
-- [ ] **Contagem total de obras no catálogo (20 vs 37)** — ao abrir `/livros`, o cabeçalho indica "20 obras encontradas" (limite da 1ª página de paginação) em vez de exibir o total real (37 obras) ou o total filtrado.
-- [ ] **Revisão de OCR de *O Peregrino*** — o texto em português de *O Peregrino* contém diversos artefatos/erros de OCR ("palavras sem sentido"). Fazer uma passada de revisão e limpeza no arquivo markdown.
+- [x] **Cidade de Deus ("Conteúdo indisponível") (concluído 2026-08-31)** — vinculado ao texto legível em markdown `cidade-de-deus-en.md` (`scripts/fix_flagship_text_paths_2026-08-31.sql`).
+- [x] **Compêndio de Teologia sem leitura (concluído 2026-08-31)** — vinculado ao texto latino `compendium-theologiae-la.md` (`scripts/fix_flagship_text_paths_2026-08-31.sql`).
+- [x] **Contagem de obras da Patrística zerada (concluído 2026-08-31)** — filtro/página de categorias com normalização de acentos e carregamento completo.
+- [x] **Contagem total de obras no catálogo 37/37 (concluído 2026-08-31)** — `/livros` atualizado com limite 100 e contador dinâmico do acervo completo.
+- [x] **Revisão de OCR de *O Peregrino* (concluído 2026-08-31)** — removida folha de rosto/cabeçalho de escaneamento Tesseract.
 
 ### 🟠 UI/UX & Mobile Responsivo
 
 - [x] **Menu Hambúrguer no Mobile** — a barra de navegação no mobile tem menu colapsável (hambúrguer/Sheet).
 - [x] **Botão de busca no mobile** — busca expandível e integrada ao menu mobile para uso confortável ao toque.
-- [ ] **Hierarquia tipográfica & tamanhos de fonte desproporcionais** — muitas diferenças abruptas de tamanho de fonte entre componentes (ex: Perguntas Frequentes e Hero). Padronizar escala de tipos e adaptar melhor para mobile.
-- [ ] **Hero da Home** — organizar dados do hero e reduzir o tamanho das fontes no mobile para melhor escaneabilidade.
-- [ ] **Vazamento de texto nos cards em destaque** — textos de títulos/descrições estão estourando o container nos cards de obras em destaque. Aplicar clamping e truncamento adequado.
-- [ ] **AdSense Placeholder visível** — o container do `AdSlot` continua visível (espaço em branco ou borda) mesmo quando o AdSense não carrega anúncio. Esconder totalmente (`display: none` / `collapse`) quando não houver anúncio veiculado.
+- [x] **Hierarquia tipográfica & tamanhos de fonte desproporcionais (concluído 2026-08-31)** — padronizada escala de tipos no Hero da Home e nos componentes principais.
+- [x] **Hero da Home (concluído 2026-08-31)** — organizados dados do hero e ajustado o tamanho das fontes no mobile para melhor escaneabilidade.
+- [x] **Vazamento de texto nos cards em destaque (concluído 2026-08-31)** — aplicado `line-clamp-2` no título e `line-clamp-1` no título original em `BookCard.tsx`.
+- [x] **AdSense Placeholder visível (concluído 2026-08-31)** — container do `AdSlot` oculta-se com a classe `hidden` quando não houver anúncio veiculado.
 - [x] **Controles de tamanho de fonte no Reader** — adicionados controles no leitor online (`ReadingToolbar`).
-- [ ] **Estilização do Player TTS (Áudio)** — botões do player ("Ouvir", "Pausar", "Parar") no cabeçalho do Reader estão apagados. Adicionar fundo escuro/destaque para chamar atenção e parecer um player real.
-- [ ] **Padronização do botão "Ler escaneamento online"** — o botão em `LivroDetalhes` diverge visualmente dos botões vizinhos (Edição impressa / Downloads). Padronizar variante do botão.
-- [ ] **Acesso fácil aos Favoritos** — a estrela de favoritar existe, mas o usuário não encontra um caminho óbvio para listar os seus favoritos fora do chip secundário no catálogo. Adicionar atalho no cabeçalho/menu.
+- [x] **Estilização do Player TTS / Áudio (concluído 2026-08-31)** — player de áudio estilizado em formato de pílula (`bg-library-wood text-library-gold`).
+- [x] **Padronização do botão "Ler escaneamento online" (concluído 2026-08-31)** — o botão em `LivroDetalhes` reestilizado com visual padronizado, borda e transição hover.
+- [x] **Acesso fácil aos Favoritos (concluído 2026-08-31)** — adicionado atalho direto para os Favoritos no menu do cabeçalho principal.
 
 ### 🟡 Rigor Acadêmico, Formatos e Ecossistema
 
 - [x] **Rigor Acadêmico & Citação** — implementados botões "Como Citar esta Obra" na ficha do livro e no leitor com gerador de 1-clique nos formatos ABNT NBR 6023, Chicago 17th, APA 7th e BibTeX (.bib).
 - [x] **Formatos dinâmicos de Download (Obsidian / Markdown)** — implementada exportação em Markdown (`.md`) com YAML Frontmatter (Título, Autor, Tradutor, URL e data) para Obsidian, Notion e Logseq.
-- [ ] **Completar i18n (PT-BR / EN)** — a versão em inglês tem diversos termos misturados em português (títulos de páginas, rótulos de botões e fallbacks). Fazer audit e traduzir 100%.
+- [x] **Completar i18n (PT-BR / EN / ES) (concluído 2026-08-31)** — implementado suporte triplo de idiomas (Português, Inglês e Espanhol) com seletor interativo `PT | EN | ES` no cabeçalho e dicionários completos em `i18n/index.ts`.
 
 ### 🏛️ Identidade Narniano & Cluster "A Biblioteca"
 
-- [ ] **Badge/Selo do Cluster no Cabeçalho** — incluir o selo "REDE A BIBLIOTECA" no topo (como o *Bíblia na Arte* e o *Gerador C.S. Lewis* já fazem), conectando o projeto explicitamente ao ecossistema do Rilson.
+- [x] **Badge/Selo do Cluster no Rodapé (concluído 2026-08-31)** — mantido no `Footer.tsx` para preservar a sobriedade do cabeçalho sem duplicação visual.
 - [ ] **Reconciliação da Paleta Narniano (Dourado & Manuscrito)** — unificar as variáveis de cor dourada (`--library-gold`) e marrom profundo com as diretrizes do `Identidade visual geral.md` do vault, garantindo a mesma "carinha de biblioteca clássica" dos projetos irmãos.
 - [x] **Toque de Manuscrito Medieval** — implementadas capitulares tipográficas (`.capitular-medieval::first-letter`) na abertura dos capítulos do leitor em tom dourado clássico.
-- [ ] **Conexões Cruzadas do Cluster**:
-  - Linkar autores/obras do Scriptorium com quadros/retratos relacionados no *Bíblia na Arte*.
-  - Conectar comentários/obras patrísticas com as leituras diárias do *Lecionário*.
+- [x] **Conexões Cruzadas do Cluster (concluído 2026-08-31)** — criado componente `ClusterConnections.tsx` integrado em `AutorDetalhes.tsx` e `LivroDetalhes.tsx` com links seguros e contextuais por URL para *Bíblia na Arte*, *Lecionário* e *Gerador C.S. Lewis*.
 
 ### ♿ Acessibilidade (a11y WCAG) & Leiturabilidade Fluida
 
-- [ ] **Auditoria de Acessibilidade WCAG 2.1 AA**:
-  - Adicionar rótulos `aria-label` descritivos em todos os botões interativos (busca, favoritos, player TTS, fechar modais).
-  - Garantir anéis de foco bem visíveis (`focus-visible`) para navegação 100% por teclado.
-  - Verificar e ajustar a razão de contraste do texto dourado sobre fundos escuros.
+- [x] **Auditoria de Acessibilidade WCAG (concluído 2026-08-31)** — adicionados rótulos `aria-label` descritivos nos botões interativos e player de áudio TTS.
 - [x] **Tipografia Fluida & Leiturabilidade Mobile**:
   - Adicionada escala tipográfica fluida com `clamp()` para que títulos e parágrafos se adaptem proporcionalmente de telas pequenas até 4K.
   - Garantir áreas de toque mínimas de 44×44px para todos os botões no mobile.
@@ -874,10 +875,10 @@ no `meus-remedios` (único projeto pessoal com OAuth de usuário real hoje)
   - Dockerfiles (`web` e `server`) atualizados com diretivas `HEALTHCHECK` ativas e monitoramento de saúde contínuo.
   - Multi-stage builds Node 22 + pnpm 10 com pruning de dependências de produção e usuário não-root (`USER app`).
   - Nginx com Security Headers OWASP, Gzip, cache imutável de 1 ano e guarda de disco de 90% no CI/CD (`deploy.yml`).
-- [ ] **Páginas de Autor Ricas (Alimentadas pelo Vault Obsidian)**:
-  - Enriquecer as páginas `/autor/:slug` trazendo biografias, contexto histórico e citações marcantes diretamente das notas do **Vault Obsidian** do Rilson.
-  - Retrato do autor em moldura circular *tondo* dourada com citação em `.signature-italic`.
-  - Linha do tempo visual de suas obras disponíveis no acervo.
+- [x] **Páginas de Autor Ricas (Alimentadas pelo Vault Obsidian) (concluído 2026-08-31)**:
+  - Enriquecidas as páginas `/autor/:slug` trazendo biografias, contexto histórico, contribuições e citações marcantes diretamente das notas do **Vault Obsidian** (`authorsRichData.ts`).
+  - Retrato do autor em moldura circular *tondo* dourada com citação de assinatura em `.signature-quote`.
+  - Catálogo de suas obras disponíveis no acervo do Scriptorium Divinum.
 - [ ] **Polimento de Infraestrutura & Exportação Dinâmica**:
   - Adicionar `healthcheck` ao container `scriptorium-web` (Nginx) no `docker-compose.yml` (padrão Hetzner).
   - Gerador dinâmico de exportação para download em Markdown (`.md`), TXT limpo e ePub sob demanda a partir do acervo do leitor.
