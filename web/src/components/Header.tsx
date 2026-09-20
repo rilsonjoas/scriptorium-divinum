@@ -226,7 +226,9 @@ export function Header() {
                       i18n.changeLanguage(item.codigo);
                       try {
                         localStorage.setItem('scriptorium:lang', item.codigo);
-                      } catch {}
+                      } catch {
+                        // ignore localStorage write errors in private mode
+                      }
                     }}
                     className={`px-2 py-0.5 rounded-full font-bold transition-colors ${
                       isActive
