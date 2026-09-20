@@ -20,6 +20,7 @@ import { sitemapRoutes } from './routes/sitemap.js';
 import { authRoutes } from './routes/auth.js';
 import { adminRoutes } from './routes/admin.js';
 import { uploadRoutes, UPLOAD_DIR } from './routes/uploads.js';
+import { shareRoutes } from './routes/share.js';
 import { getSettings } from './db/settings-queries.js';
 
 export async function buildApp() {
@@ -130,6 +131,7 @@ export async function buildApp() {
   await app.register(authRoutes);
   await app.register(adminRoutes);
   await app.register(uploadRoutes);
+  await app.register(shareRoutes);
 
   return app;
 }
