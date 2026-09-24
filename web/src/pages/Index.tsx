@@ -11,10 +11,10 @@ const Index = () => {
   return (
     <Layout>
       <HeroSection />
-      <VersiculoDoDia />
       <FeaturedSection />
       <ContinueReading />
       <PinturaDoDia />
+      <VersiculoDoDia />
       <CitacaoDoDia />
       <div className="py-8">
         <AdSlot slotId="2896974659" />
