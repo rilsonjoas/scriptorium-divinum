@@ -179,6 +179,35 @@ export const sessions = pgTable(
   ],
 );
 
+// "Citação do dia" — fonte única do cluster "A Biblioteca" (ADR 001): tabela
+// separada de `obras`, com `dominio_publico` próprio — uma citação curta com
+// atribuição não é "hospedar a obra completa", então não conflita com o
+// critério do catálogo principal. Consumida por Scriptorium (home), Lecionário
+// (web + mobile) e Gerador C.S. Lewis (filtro author=Lewis).
+export const quotes = pgTable(
+  'quotes',
+  {
+    id: uuid('id').defaultRandom().primaryKey(),
+    author: varchar('author', { length: 255 }).notNull(),
+    text: text('text').notNull(),
+    source: varchar('source', { length: 500 }),
+    dominioPublico: boolean('dominio_publico').default(false).notNull(),
+    // Sinergia futura do ADR 001: obra já digitalizada no Scriptorium
+    // (permite linkar direto pro leitor /ler/:id quando existir).
+    scriptoriumWorkId: uuid('scriptorium_work_id').references(() => books.id),
+    // Link direto da curadoria atual (mantém o CTA "Ler livro completo" do
+    // Lecionário, ex.: https://scriptorium.narniano.com/livros/confissoes).
+    scriptoriumUrl: varchar('scriptorium_url', { length: 500 }),
+    // Marcação temática do Gerador C.S. Lewis ("ceus" = Sehnsucht/anseio).
+    theme: varchar('theme', { length: 50 }),
+    createdAt: timestamp('created_at', { withTimezone: true }).defaultNow().notNull(),
+    updatedAt: timestamp('updated_at', { withTimezone: true }).defaultNow().notNull(),
+  },
+  (table) => [
+    index('idx_quotes_author').on(table.author),
+  ],
+);
+
 export const authorsRelations = relations(authors, ({ many }) => ({
   books: many(books),
 }));
@@ -214,5 +243,12 @@ export const sessionsRelations = relations(sessions, ({ one }) => ({
   admin: one(admins, {
     fields: [sessions.adminId],
     references: [admins.id],
+  }),
+}));
+
+export const quotesRelations = relations(quotes, ({ one }) => ({
+  scriptoriumWork: one(books, {
+    fields: [quotes.scriptoriumWorkId],
+    references: [books.id],
   }),
 }));

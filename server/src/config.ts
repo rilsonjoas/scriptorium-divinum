@@ -24,6 +24,9 @@ const envSchema = z.object({
   SESSION_TTL_DAYS: z.coerce.number().default(30),
   // Domínio do cookie entre subdomínios (ex.: narniano.com) — vazio em dev
   COOKIE_DOMAIN: z.string().optional(),
+  // Tag de afiliado Amazon usada no CTA centralizado de citações não-públicas
+  // (ADR 001 — o comportamento é central na API, não reimplementado por consumidor)
+  AMAZON_AFFILIATE_TAG: z.string().default('rilson-20'),
   // Criação do primeiro admin (scripts/create-admin.ts)
   ADMIN_EMAIL: z.string().email().optional(),
   ADMIN_PASSWORD: z.string().min(8).optional(),

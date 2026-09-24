@@ -2,6 +2,10 @@
 
 Uma biblioteca digital dedicada às obras clássicas da teologia cristã em domínio público. O projeto oferece acesso gratuito a textos dos Padres da Igreja, reformadores e grandes teólogos da história cristã.
 
+<p align="center">
+  <img src="docs/screenshots/preview.png" alt="Scriptorium Divinum Preview" width="800" />
+</p>
+
 ---
 
 ## 🎯 Estado Atual do Projeto

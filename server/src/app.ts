@@ -21,6 +21,7 @@ import { authRoutes } from './routes/auth.js';
 import { adminRoutes } from './routes/admin.js';
 import { uploadRoutes, UPLOAD_DIR } from './routes/uploads.js';
 import { shareRoutes } from './routes/share.js';
+import { quoteRoutes } from './routes/quotes.js';
 import { getSettings } from './db/settings-queries.js';
 
 export async function buildApp() {
@@ -86,6 +87,7 @@ export async function buildApp() {
         { name: 'configuracoes', description: 'Configurações do site' },
         { name: 'auth', description: 'Autenticação do administrador' },
         { name: 'admin', description: 'CRUD administrativo do catálogo' },
+        { name: 'citacoes', description: 'Citação do dia (fonte única do cluster)' },
       ],
     },
   });
@@ -132,6 +134,7 @@ export async function buildApp() {
   await app.register(adminRoutes);
   await app.register(uploadRoutes);
   await app.register(shareRoutes);
+  await app.register(quoteRoutes);
 
   return app;
 }

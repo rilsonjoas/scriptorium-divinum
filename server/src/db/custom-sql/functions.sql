@@ -25,6 +25,12 @@ CREATE TRIGGER update_download_links_updated_at
     FOR EACH ROW
     EXECUTE PROCEDURE update_updated_at_column();
 
+DROP TRIGGER IF EXISTS update_quotes_updated_at ON quotes;
+CREATE TRIGGER update_quotes_updated_at
+    BEFORE UPDATE ON quotes
+    FOR EACH ROW
+    EXECUTE PROCEDURE update_updated_at_column();
+
 -- Full-text search for books in Portuguese
 DROP FUNCTION IF EXISTS search_books(TEXT);
 CREATE OR REPLACE FUNCTION search_books(search_query TEXT)
