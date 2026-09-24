@@ -32,6 +32,10 @@ jobs:
 
     env:
       TEST_DATABASE_URL: postgresql://scriptorium_test:scriptorium_test@localhost:5434/scriptorium_divinum_test
+      # Unit tests carregam src/db/client.ts (via db/quotes.ts), que parseia
+      # DATABASE_URL no import (config.ts). O service Postgres do CI já está
+      # em 5434 — apontamos direto pra ele (quotes.test.ts usa só funções puras).
+      DATABASE_URL: postgresql://scriptorium_test:scriptorium_test@localhost:5434/scriptorium_divinum_test
 
     steps:
       - uses: actions/checkout@v5
