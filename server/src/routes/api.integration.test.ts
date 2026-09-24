@@ -120,6 +120,22 @@ describe('Scriptorium Divinum API — Testes de Integração', () => {
     expect(res.json()).toHaveProperty('textAvailable', true);
   });
 
+  it('GET /api/v1/books/:idOrSlug computa readingMinutes quando o texto existe', async () => {
+    const res = await app.inject({ method: 'GET', url: '/api/v1/books/confissoes' });
+    expect(res.statusCode).toBe(200);
+    const body = res.json();
+    expect(body.textAvailable).toBe(true);
+    expect(body.readingMinutes).toBeGreaterThanOrEqual(1);
+  });
+
+  it('GET /api/v1/books/:idOrSlug devolve readingMinutes null quando não há texto', async () => {
+    const res = await app.inject({ method: 'GET', url: '/api/v1/books/institutas' });
+    expect(res.statusCode).toBe(200);
+    const body = res.json();
+    expect(body.textAvailable).toBe(false);
+    expect(body.readingMinutes).toBeNull();
+  });
+
   it('GET /api/v1/books/:idOrSlug/text devolve o texto em markdown', async () => {
     const res = await app.inject({ method: 'GET', url: '/api/v1/books/confissoes/text' });
     expect(res.statusCode).toBe(200);

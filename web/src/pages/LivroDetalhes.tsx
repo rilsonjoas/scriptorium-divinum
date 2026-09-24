@@ -87,16 +87,23 @@ const LivroDetalhes = () => {
                 {/* Action Buttons */}
                 <div className="space-y-3">
                   {book.textAvailable && (
-                    <Button
-                      asChild
-                      size="lg"
-                      className="w-full bg-library-gold hover:bg-library-gold/90 text-library-wood font-semibold font-body shadow-golden text-base py-3"
-                    >
-                      <Link to={`/ler/${book.slug || book.id}`}>
-                        <BookOpen className="mr-2 h-5 w-5" />
-                        Ler Online
-                      </Link>
-                    </Button>
+                    <div className="space-y-2">
+                      <Button
+                        asChild
+                        size="lg"
+                        className="w-full bg-library-gold hover:bg-library-gold/90 text-library-wood font-semibold font-body shadow-golden text-base py-3"
+                      >
+                        <Link to={`/ler/${book.slug || book.id}`}>
+                          <BookOpen className="mr-2 h-5 w-5" />
+                          Ler Online
+                        </Link>
+                      </Button>
+                      {typeof book.readingMinutes === 'number' && (
+                        <p className="text-center font-body text-sm text-library-wood/70">
+                          ~{book.readingMinutes} min de leitura
+                        </p>
+                      )}
+                    </div>
                   )}
 
                   {book.downloadLinks && book.downloadLinks.length > 0 && (

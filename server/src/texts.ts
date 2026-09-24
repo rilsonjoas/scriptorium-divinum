@@ -28,3 +28,19 @@ export function readText(key: string | null | undefined): string | null {
   if (candidate === null || !existsSync(candidate)) return null;
   return readFileSync(candidate, 'utf8');
 }
+
+const readingMinutesCache = new Map<string, number>();
+
+export function readingMinutes(key: string | null | undefined): number | null {
+  if (!key) return null;
+  if (readingMinutesCache.has(key)) return readingMinutesCache.get(key) ?? null;
+  const text = readText(key);
+  if (text === null) return null;
+  const words = text
+    .replace(/```[\s\S]*?```/g, ' ')
+    .split(/\s+/)
+    .filter(Boolean).length;
+  const minutes = Math.max(1, Math.round(words / 200));
+  readingMinutesCache.set(key, minutes);
+  return minutes;
+}

@@ -8,7 +8,7 @@ import {
 } from '../schemas/book.schema.js';
 import { errorResponseSchema } from '../schemas/response.schema.js';
 import { NotFoundError } from '../plugins/error-handler.js';
-import { readText, textAvailable } from '../texts.js';
+import { readText, readingMinutes, textAvailable } from '../texts.js';
 
 const booksListResponseJson = zodToJsonSchema(
   z.object({
@@ -76,7 +76,7 @@ export async function bookRoutes(app: FastifyInstance) {
       if (!book) {
         throw new NotFoundError(`Livro '${idOrSlug}'`);
       }
-      return { ...book, textAvailable: textAvailable(book.onlineReadPath) };
+      return { ...book, textAvailable: textAvailable(book.onlineReadPath), readingMinutes: readingMinutes(book.onlineReadPath) };
     },
   );
 

@@ -94,6 +94,7 @@ export interface Book {
   coverImageUrl?: string;
   onlineReadPath?: string;
   textAvailable?: boolean;
+  readingMinutes?: number | null;
   downloadLinks?: DownloadLink[];
   tableOfContents?: { title: string; anchor?: string; level: number }[];
   featured?: boolean;

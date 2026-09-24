@@ -36,6 +36,7 @@ export const bookSchema = z.object({
   coverImageUrl: z.string().nullable().optional(),
   onlineReadPath: z.string().nullable().optional(),
   textAvailable: z.boolean().optional(),
+  readingMinutes: z.number().int().positive().nullable().optional(),
   featured: z.boolean(),
   licenseType: z.string().optional(),
   attributionText: z.string().nullable().optional(),
