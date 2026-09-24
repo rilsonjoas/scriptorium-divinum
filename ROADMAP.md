@@ -465,14 +465,16 @@ Prioridade revisada em 2026-08-21, alinhada com a mesma política que
 ficou clara nos outros projetos pessoais nesta sessão: **doação e
 afiliado agora, anúncio (AdSense) fica pra depois.**
 
-- [ ] **Amazon Associates — links pra edição impressa das obras**
-      (fazer agora). Não compete com o acervo digital grátis — o texto
-      de domínio público continua livre pra ler; o link é só pra quem
-      quer a edição física encadernada. Componente já existe pronto
-      pra portar: `BookCard.tsx` do repo `TestePolitico` (busca capa
-      via Google Books API, recebe `title`/`link`/`description`) —
-      reaplicar na página de detalhe de cada obra (`/livro/:id` ou
-      equivalente), 1 link por autor/obra, não por edição.
+- [x] **Amazon Associates — links pra edição impressa das obras**
+      **Concluído (versão simplificada, verificado 2026-09-24):** botão
+      "Edição impressa (Amazon)" na página de detalhe da obra
+      (`web/src/pages/LivroDetalhes.tsx`) com busca Amazon por
+      `título + autor` + `tag=rilson-20` (`AMAZON_AFFILIATE_TAG`).
+      Não compete com o acervo digital grátis — o texto de domínio
+      público continua livre pra ler; o link é só pra quem quer a
+      edição física. A versão completa do `BookCard.tsx` do repo
+      `TestePolitico` (capa via Google Books API) segue como
+      melhoria opcional futura, não pendência.
 - [ ] **Doações voluntárias (Pix/Ko-fi) — fazer agora, junto com o
       Amazon Associates**, não depois. Baixo esforço de implementar;
       modelo "quem lê sustenta o acervo" combina com um projeto que já
@@ -785,10 +787,12 @@ no `meus-remedios` (único projeto pessoal com OAuth de usuário real hoje)
       longas; voz pt-BR preferida com fallback pt genérico. Para de tocar
       ao trocar de obra e no unmount. Não suportado → controles não
       renderizam. 7 testes novos nos utilitários (suite: 45 passando).
-- [ ] **Pequenas dignidades de leitura** — tempo estimado ("38 min") na
-      ficha e no Reader; navegação por capítulos fixa na lateral do
-      Reader (tabela `table_of_contents` já existe no banco); isso é
-      parte da solução do item crítico de leiturabilidade.
+- [ ] **Pequenas dignidades de leitura — tempo estimado ("~X min") na
+      ficha** (já existe no Reader: `Reader.tsx:516`); navegação por
+      capítulos fixa na lateral do Reader **já implementada** (índice
+      lateral desktop + colapsável mobile via `extractToc`, verificado
+      2026-09-24); resta apenas exibir o tempo estimado também na
+      ficha da obra (`/livro/:id`).
 
 ### Ideia para o futuro (depende de acervo maior)
 
