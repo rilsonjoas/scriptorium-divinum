@@ -1,4 +1,4 @@
-import { Search, BookOpen, Users, Library, X, Loader2, Menu, HelpCircle, Info, ShieldCheck, Star } from 'lucide-react';
+import { Search, BookOpen, Users, Library, X, Loader2, Menu, HelpCircle, Info, ShieldCheck, Star, Sun, Moon } from 'lucide-react';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
@@ -8,6 +8,7 @@ import { useState, useRef, useEffect } from 'react';
 import { useSearch, useSiteSettings } from '@/hooks/useDatabase';
 import { useTranslation } from 'react-i18next';
 import i18n, { idiomas } from '@/i18n';
+import { useTheme } from '@/hooks/useTheme';
 import {
   Sheet,
   SheetContent,
@@ -18,6 +19,7 @@ import {
 
 export function Header() {
   const { t } = useTranslation();
+  const { theme, toggleTheme } = useTheme();
   const [searchQuery, setSearchQuery] = useState('');
   const [showResults, setShowResults] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -214,6 +216,18 @@ export function Header() {
 
           {/* Desktop Right Links & Mobile Menu Triggers */}
           <div className="flex items-center space-x-3">
+            {/* Theme Toggle */}
+            <Button
+              variant="ghost"
+              size="icon"
+              onClick={toggleTheme}
+              aria-label={theme === 'dark' ? 'Ativar tema claro' : 'Ativar tema escuro'}
+              title={theme === 'dark' ? 'Tema claro' : 'Tema escuro'}
+              className="text-library-gold hover:bg-library-bronze/50"
+            >
+              {theme === 'dark' ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
+            </Button>
+
             {/* Language Switcher Pill */}
             <div className="flex items-center bg-library-wood/80 border border-library-bronze rounded-full p-0.5 text-xs font-body shadow-xs">
               {idiomas.map((item) => {
@@ -303,6 +317,17 @@ export function Header() {
                         </Link>
                       );
                     })}
+                    <button
+                      type="button"
+                      onClick={() => {
+                        toggleTheme();
+                        setMobileMenuOpen(false);
+                      }}
+                      className="flex items-center space-x-3 px-3 py-2.5 rounded-lg text-library-gold hover:bg-library-gold/15 hover:text-white transition-colors font-body text-base"
+                    >
+                      {theme === 'dark' ? <Sun className="h-5 w-5 text-library-gold shrink-0" /> : <Moon className="h-5 w-5 text-library-gold shrink-0" />}
+                      <span>{theme === 'dark' ? t('nav.temaClaro') : t('nav.temaEscuro')}</span>
+                    </button>
                   </nav>
                 </div>
 

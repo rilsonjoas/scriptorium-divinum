@@ -12,6 +12,8 @@ const ptBR = {
     ajuda: 'Ajuda',
     comoContribuir: 'Como Contribuir',
     favoritos: 'Favoritos',
+    temaClaro: 'Modo claro',
+    temaEscuro: 'Modo escuro',
   },
   busca: {
     placeholder: 'Buscar obras, autores...',
@@ -82,6 +84,8 @@ const en = {
     ajuda: 'Help',
     comoContribuir: 'How to Contribute',
     favoritos: 'Favorites',
+    temaClaro: 'Light mode',
+    temaEscuro: 'Dark mode',
   },
   busca: {
     placeholder: 'Search works and authors...',
@@ -152,6 +156,8 @@ const es = {
     ajuda: 'Ayuda',
     comoContribuir: 'Cómo Contribuir',
     favoritos: 'Favoritos',
+    temaClaro: 'Modo claro',
+    temaEscuro: 'Modo oscuro',
   },
   busca: {
     placeholder: 'Buscar obras, autores...',

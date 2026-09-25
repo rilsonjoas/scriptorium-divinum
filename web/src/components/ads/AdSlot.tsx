@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from "react";
 
 declare global {
   interface Window {
@@ -6,7 +6,7 @@ declare global {
   }
 }
 
-const ADSENSE_CLIENT = 'ca-pub-5482566824255473';
+const ADSENSE_CLIENT = "ca-pub-5482566824255473";
 
 interface AdSlotProps {
   slotId?: string;
@@ -15,58 +15,54 @@ interface AdSlotProps {
   label?: boolean;
 }
 
-export function AdSlot({ slotId, format = 'auto', className = '', label = true }: AdSlotProps) {
+// Slot de anúncio discreto que colapsa totalmente (0px de altura/margem)
+// caso o Google não preencha o anúncio ou esteja bloqueado, sem rótulos vazios.
+export function AdSlot({ slotId, format = "auto", className = "" }: AdSlotProps) {
   const insRef = useRef<HTMLModElement>(null);
   const pushed = useRef(false);
-  const [adVisible, setAdVisible] = useState<boolean>(false);
+  const [isUnfilled, setIsUnfilled] = useState(false);
 
   useEffect(() => {
-    if (pushed.current || !insRef.current) return;
-    pushed.current = true;
+    const el = insRef.current;
+    if (!el) return;
 
-    try {
-      (window.adsbygoogle = window.adsbygoogle || []).push({});
-      
-      const checkAdStatus = () => {
-        if (insRef.current) {
-          const status = insRef.current.getAttribute('data-ad-status');
-          const hasChild = insRef.current.children.length > 0;
-          const hasHeight = insRef.current.offsetHeight > 0;
-          
-          if (status === 'filled' || (hasChild && hasHeight)) {
-            setAdVisible(true);
-          } else {
-            setAdVisible(false);
-          }
-        }
-      };
-
-      const timer1 = setTimeout(checkAdStatus, 1200);
-      const timer2 = setTimeout(checkAdStatus, 3000);
-
-      return () => {
-        clearTimeout(timer1);
-        clearTimeout(timer2);
-      };
-    } catch {
-      setAdVisible(false);
+    if (!pushed.current) {
+      pushed.current = true;
+      try {
+        (window.adsbygoogle = window.adsbygoogle || []).push({});
+      } catch {
+        setIsUnfilled(true);
+      }
     }
+
+    const observer = new MutationObserver(() => {
+      const status = el.getAttribute("data-ad-status");
+      if (status === "unfilled") {
+        setIsUnfilled(true);
+      } else if (status === "filled") {
+        setIsUnfilled(false);
+      }
+    });
+
+    observer.observe(el, {
+      attributes: true,
+      attributeFilter: ["data-ad-status", "style"],
+    });
+
+    return () => observer.disconnect();
   }, []);
+
+  if (isUnfilled) return null;
 
   return (
     <aside
-      className={`mx-auto max-w-4xl px-4 ${adVisible ? 'block' : 'hidden'} ${className}`}
+      className={`mx-auto max-w-4xl px-4 overflow-hidden empty:hidden ${className}`}
       aria-label="Publicidade"
     >
-      {label && adVisible && (
-        <p className="text-center text-[10px] uppercase tracking-widest text-muted-foreground/60 font-body mb-1">
-          Publicidade
-        </p>
-      )}
       <ins
         ref={insRef}
         className="adsbygoogle"
-        style={{ display: 'block' }}
+        style={{ display: "block" }}
         data-ad-client={ADSENSE_CLIENT}
         data-ad-slot={slotId}
         data-ad-format={format}

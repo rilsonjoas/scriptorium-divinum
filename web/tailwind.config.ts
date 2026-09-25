@@ -72,10 +72,12 @@ export default {
 				},
 				// Classical Library Colors
 				'library-wood': 'hsl(var(--library-wood))',
+				'library-wood-foreground': 'hsl(var(--library-wood-foreground))',
 				'library-gold': 'hsl(var(--library-gold))',
 				'library-parchment': 'hsl(var(--library-parchment))',
 				'library-leather': 'hsl(var(--library-leather))',
 				'library-bronze': 'hsl(var(--library-bronze))',
+				'library-bronze-foreground': 'hsl(var(--library-bronze-foreground))',
 				'library-emerald': 'hsl(var(--library-emerald))'
 			},
 			backgroundImage: {

@@ -49,10 +49,10 @@ export function VersiculoDoDia() {
   if (!versiculo) return null;
 
   return (
-    <section className="container mx-auto px-4 py-12" aria-label="Versículo do dia">
+    <section className="container mx-auto px-4 py-12" aria-label="Passagem do dia">
       <div className="ornament mb-6"></div>
       <h2 className="font-display text-2xl font-semibold text-library-wood golden-foil text-center mb-2">
-        Versículo do Dia
+        Passagem do Dia
       </h2>
       <p className="font-body text-xs text-muted-foreground uppercase tracking-widest text-center mb-8">
         {formatDate(versiculo.date)}
