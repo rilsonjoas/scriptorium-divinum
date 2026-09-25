@@ -75,7 +75,14 @@
     --input: 30 20% 90%;
     --ring: 43 60% 60%;
 
-    --radius: 0.75rem;
+    /* Raio de canto único do shadcn. Os tokens --radius-* logo abaixo
+       são do design antigo e ficam para uso pontual.
+       F2 (2026-09-25): 0.75rem -> 0.375rem. O Scriptorium nasceu do
+       shadcn (raio 0.75rem) e foi recebendo `rounded-lg` a cada
+       componente novo — daí a cara de dashboard. A referência do
+       cluster (Lecionário) é 0.25rem. Este meio-termo aproxima sem
+       achatar tudo a zero. */
+    --radius: 0.375rem;
 
     /* Classical Library Custom Colors & Illuminated Pigments */
     --library-wood: 25 35% 15%; /* Dark mahogany */

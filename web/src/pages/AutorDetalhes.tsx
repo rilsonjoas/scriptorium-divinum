@@ -121,7 +121,7 @@ const AutorDetalhes = () => {
 
             {/* BANNER DA CITAÇÃO DE ASSINATURA (.signature-quote) */}
             {richInfo?.signatureQuote && (
-              <div className="mt-8 p-6 rounded-xl bg-gradient-to-r from-library-wood/10 via-library-gold/15 to-library-wood/10 border-y-2 border-library-dourado/40 text-center relative shadow-xs">
+              <div className="mt-8 p-6 rounded-lg bg-gradient-to-r from-library-wood/10 via-library-gold/15 to-library-wood/10 border-y-2 border-library-dourado/40 text-center relative shadow-xs">
                 <span className="text-2xl text-library-gold block mb-1">❦</span>
                 <blockquote className="font-heading italic text-lg md:text-xl text-library-wood-foreground max-w-3xl mx-auto leading-relaxed">
                   “{richInfo.signatureQuote}”
@@ -193,7 +193,7 @@ const AutorDetalhes = () => {
             ))}
           </div>
         ) : (
-          <div className="text-center py-12 bg-card/60 rounded-xl border border-dashed border-library-bronze">
+          <div className="text-center py-12 bg-card/60 rounded-lg border border-dashed border-library-bronze">
             <BookOpen className="h-10 w-10 text-library-gold/50 mx-auto mb-3" />
             <p className="font-body text-library-bronze-foreground text-base">
               {t('autor.semObras')}

@@ -140,7 +140,7 @@ export function BookCard({ book, variant = 'grid' }: BookCardProps) {
   }
 
   return (
-    <Card className="group leather-pressed-card rounded-xl overflow-hidden">
+    <Card className="group leather-pressed-card rounded-lg overflow-hidden">
       {/* Ribbon Bookmark para Livros Favoritados */}
       {isFav && <div className="ribbon-bookmark" title="Obra Favoritada" />}
 
