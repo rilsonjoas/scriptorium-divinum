@@ -19,7 +19,7 @@ export default function Ajuda() {
 
         {/* Navegação Rápida */}
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 mb-12">
-          <Card className="border-library-bronze bg-library-parchment-surface hover:shadow-lg transition-shadow">
+          <Card className="border-library-bronze bg-library-parchment-surface hover:shadow-lg transition-shadow ease-[var(--ease-liturgico)]">
             <CardHeader className="pb-3">
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 bg-library-gold rounded-lg flex items-center justify-center">
@@ -35,7 +35,7 @@ export default function Ajuda() {
             </CardContent>
           </Card>
 
-          <Card className="border-library-bronze bg-library-parchment-surface hover:shadow-lg transition-shadow">
+          <Card className="border-library-bronze bg-library-parchment-surface hover:shadow-lg transition-shadow ease-[var(--ease-liturgico)]">
             <CardHeader className="pb-3">
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 bg-library-gold rounded-lg flex items-center justify-center">
@@ -51,7 +51,7 @@ export default function Ajuda() {
             </CardContent>
           </Card>
 
-          <Card className="border-library-bronze bg-library-parchment-surface hover:shadow-lg transition-shadow">
+          <Card className="border-library-bronze bg-library-parchment-surface hover:shadow-lg transition-shadow ease-[var(--ease-liturgico)]">
             <CardHeader className="pb-3">
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 bg-library-gold rounded-lg flex items-center justify-center">

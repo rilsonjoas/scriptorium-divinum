@@ -127,13 +127,13 @@ const LivroDetalhes = () => {
                   )}
 
                   {!book.textAvailable && scanIdentifier && (
-                    <details className="group rounded-md border-2 border-library-wood/80 bg-card text-library-wood-foreground font-semibold font-body shadow-sm transition-all overflow-hidden">
+                    <details className="group rounded-md border-2 border-library-wood/80 bg-card text-library-wood-foreground font-semibold font-body shadow-sm transition-all overflow-hidden ease-[var(--ease-liturgico)]">
                       <summary className="cursor-pointer select-none px-3 py-2.5 font-body text-sm font-semibold text-library-wood-foreground flex items-center justify-between hover:bg-library-wood/5 transition-colors group-open:border-b group-open:border-library-bronze/40">
                         <span className="flex items-center gap-2">
                           <BookOpen className="h-4 w-4 text-library-gold" />
                           {t('acoes.verEscaneamento')}
                         </span>
-                        <span className="text-xs text-library-bronze-foreground group-open:rotate-180 transition-transform font-bold">▼</span>
+                        <span className="text-xs text-library-bronze-foreground group-open:rotate-180 transition-transform font-bold ease-[var(--ease-liturgico)]">▼</span>
                       </summary>
                       <div className="p-2 bg-library-gold/5">
                         <iframe

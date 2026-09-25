@@ -52,7 +52,7 @@ export default function Contribuir() {
 
           <div className="grid gap-6 md:grid-cols-2">
             {/* Suggest Works */}
-            <Card className="border-library-bronze bg-library-parchment-surface hover:shadow-lg transition-shadow">
+            <Card className="border-library-bronze bg-library-parchment-surface hover:shadow-lg transition-shadow ease-[var(--ease-liturgico)]">
               <CardHeader>
                 <div className="flex items-center gap-3 mb-2">
                   <div className="w-12 h-12 bg-library-gold rounded-lg flex items-center justify-center">
@@ -93,7 +93,7 @@ export default function Contribuir() {
             </Card>
 
             {/* Report Errors */}
-            <Card className="border-library-bronze bg-library-parchment-surface hover:shadow-lg transition-shadow">
+            <Card className="border-library-bronze bg-library-parchment-surface hover:shadow-lg transition-shadow ease-[var(--ease-liturgico)]">
               <CardHeader>
                 <div className="flex items-center gap-3 mb-2">
                   <div className="w-12 h-12 bg-library-gold rounded-lg flex items-center justify-center">
@@ -134,7 +134,7 @@ export default function Contribuir() {
             </Card>
 
             {/* Spread the word */}
-            <Card className="border-library-bronze bg-library-parchment-surface hover:shadow-lg transition-shadow">
+            <Card className="border-library-bronze bg-library-parchment-surface hover:shadow-lg transition-shadow ease-[var(--ease-liturgico)]">
               <CardHeader>
                 <div className="flex items-center gap-3 mb-2">
                   <div className="w-12 h-12 bg-library-gold rounded-lg flex items-center justify-center">
@@ -182,7 +182,7 @@ export default function Contribuir() {
             </Card>
 
             {/* Code */}
-            <Card className="border-library-bronze bg-library-parchment-surface hover:shadow-lg transition-shadow">
+            <Card className="border-library-bronze bg-library-parchment-surface hover:shadow-lg transition-shadow ease-[var(--ease-liturgico)]">
               <CardHeader>
                 <div className="flex items-center gap-3 mb-2">
                   <div className="w-12 h-12 bg-library-gold rounded-lg flex items-center justify-center">

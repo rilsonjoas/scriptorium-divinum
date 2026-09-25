@@ -243,7 +243,7 @@ export default function Busca() {
                     </h3>
                     <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
                       {filteredResults.authors.map((author) => (
-                        <Card key={author.id} className="border-library-bronze bg-library-parchment-surface hover:shadow-lg transition-shadow">
+                        <Card key={author.id} className="border-library-bronze bg-library-parchment-surface hover:shadow-lg transition-shadow ease-[var(--ease-liturgico)]">
                           <CardContent className="p-4">
                             <h4 className="font-display font-semibold text-library-wood-foreground mb-2">
                               {author.name}
