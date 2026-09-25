@@ -7,6 +7,7 @@ import {
   pinturaInfoUrl,
   type PinturaDoDia,
 } from '@/services/pinturaDoDia';
+import { SectionLabel } from '@/components/SectionLabel';
 
 export function PinturaDoDia() {
   const [artwork, setArtwork] = useState<PinturaDoDia | null>(null);
@@ -57,9 +58,9 @@ export function PinturaDoDia() {
           </a>
         )}
         <div className="p-6 text-center">
-          <p className="font-body text-sm text-library-crimson uppercase tracking-widest mb-2">
+          <SectionLabel tone="crimson" className="justify-center mb-2">
             {artwork.artistOrDirector} • Bíblia na Arte
-          </p>
+          </SectionLabel>
           <h3 className="font-display text-xl font-semibold text-library-wood-foreground mb-2">
             {artwork.title}
             {year}

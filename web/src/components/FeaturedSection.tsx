@@ -3,6 +3,7 @@ import { Button } from '@/components/ui/button';
 import { BookOpen, ChevronRight, Loader2 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useFeaturedBooks, useSiteSettings } from '@/hooks/useDatabase';
+import { SectionLabel } from '@/components/SectionLabel';
 
 export function FeaturedSection() {
   const { data: settings } = useSiteSettings();
@@ -13,9 +14,9 @@ export function FeaturedSection() {
     <section className="py-16 bg-gradient-to-br from-library-parchment-surface to-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <p className="text-xs font-body text-library-crimson uppercase tracking-widest mb-2 flex items-center justify-center gap-2">
-            <span>✦</span> Tesouros Preservados <span>✦</span>
-          </p>
+          <SectionLabel className="justify-center mb-2">
+            <span aria-hidden="true">✦</span> Tesouros preservados <span aria-hidden="true">✦</span>
+          </SectionLabel>
           <h2 className="font-display text-3xl md:text-4xl font-semibold text-library-wood-foreground mb-3">
             Obras em Destaque
           </h2>

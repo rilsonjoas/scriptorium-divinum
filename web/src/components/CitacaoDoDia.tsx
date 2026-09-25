@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { ExternalLink } from 'lucide-react';
 import { fetchCitacaoDoDia, type CitacaoDoDia } from '@/services/citacaoDoDia';
+import { SectionLabel } from '@/components/SectionLabel';
 
 const MONTHS_PT = [
   'janeiro',
@@ -53,17 +54,17 @@ export function CitacaoDoDia() {
       <h2 className="font-display text-2xl font-semibold text-library-wood-foreground golden-foil text-center mb-2">
         Citação do Dia
       </h2>
-      <p className="font-body text-xs text-muted-foreground uppercase tracking-widest text-center mb-8">
+      <p className="font-body text-xs text-muted-foreground tracking-wide text-center mb-8">
         {formatDate(citacao.date)}
       </p>
       <blockquote className="max-w-3xl mx-auto rounded-lg border border-library-bronze bg-card/95 backdrop-blur-sm parchment-bg shadow-book p-8 text-center">
         <p className="font-display text-xl md:text-2xl text-library-wood-foreground leading-relaxed mb-6">
           “{citacao.text}”
         </p>
-        <p className="font-body text-sm text-library-crimson uppercase tracking-widest">
+        <SectionLabel tone="crimson" className="justify-center">
           {citacao.author}
           {citacao.source ? ` • ${citacao.source}` : ''}
-        </p>
+        </SectionLabel>
         {ctaUrl && (
           <a
             href={ctaUrl}

@@ -103,6 +103,11 @@
 
     /* Illuminated Pigments (Pigmentos de Iluminuras) */
     --library-crimson: 350 65% 35%; /* Rubrica / Vermelho Carmesim */
+    /* Carmesim como TEXTO: o tom de fundo (350 65% 35%) dá 5.88:1 sobre
+       pergaminho, mas só 2.71:1 sobre a superfície escura — reprovado. Não
+       existe um tom único que sirva nos dois temas, então o texto tem
+       token próprio, que sobe de luminosidade no dark (7.13:1). */
+    --library-crimson-foreground: 350 65% 35%;
     --library-lapis: 215 65% 28%; /* Azul Lápis-Lazúli */
     --library-emerald-liturgical: 160 60% 20%; /* Verde Esmeralda Sacro */
     --library-gold-sacred: 43 85% 58%; /* Ouro Sacro Metálico */
@@ -153,6 +158,7 @@
     --library-wood-foreground: 35 25% 88%;
     --library-bronze-foreground: 42 50% 68%;
     --library-parchment-surface: 25 28% 13%;
+    --library-crimson-foreground: 350 65% 68%;
 
     --gradient-leather: linear-gradient(180deg, hsl(25 30% 13%), hsl(25 25% 10%));
     --gradient-parchment: linear-gradient(180deg, hsl(25 28% 13%), hsl(25 30% 10%));

@@ -78,7 +78,7 @@ export function GlossaryPopover({ word, anchor, onClose }: GlossaryPopoverProps)
       {status === 'ready' && answer && (
         <>
           {answer.pos && (
-            <p className="text-[11px] uppercase tracking-wide text-library-bronze-foreground/80 font-body mb-1">
+            <p className="text-[11px] italic tracking-wide text-library-bronze-foreground/80 font-body mb-1">
               {answer.pos}
             </p>
           )}

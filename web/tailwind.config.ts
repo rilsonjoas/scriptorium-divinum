@@ -79,6 +79,8 @@ export default {
 				'library-leather': 'hsl(var(--library-leather))',
 				'library-bronze': 'hsl(var(--library-bronze))',
 				'library-bronze-foreground': 'hsl(var(--library-bronze-foreground))',
+				'library-crimson': 'hsl(var(--library-crimson))',
+				'library-crimson-foreground': 'hsl(var(--library-crimson-foreground))',
 				'library-emerald': 'hsl(var(--library-emerald))',
 				'library-canela': 'hsl(var(--library-canela))',
 				'library-bege-areia': 'hsl(var(--library-bege-areia))',

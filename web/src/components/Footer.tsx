@@ -111,7 +111,7 @@ export function Footer() {
         <div className="ornament"></div>
 
         <div className="mt-8 flex flex-col items-center gap-2.5 text-center">
-          <span className="font-body text-[10px] font-bold uppercase tracking-[0.3em] text-library-gold/60">{t('rodape.conhecaTambem')}</span>
+          <span className="font-body text-[11px] font-semibold tracking-[0.18em] text-library-gold/70">{t('rodape.conhecaTambem')}</span>
           <nav
             aria-label="Outros projetos do cluster A Biblioteca"
             className="flex max-w-md flex-wrap items-baseline justify-center gap-y-1.5 text-xs text-library-gold/70 font-body sm:max-w-none"
@@ -146,7 +146,7 @@ export function Footer() {
                   i18n.changeLanguage(idioma.codigo);
                   try { localStorage.setItem('scriptorium:lang', idioma.codigo); } catch { /* sem storage */ }
                 }}
-                className={`uppercase tracking-wider transition-colors ${
+                className={`tracking-wide transition-colors ${
                   i18n.language === idioma.codigo ? 'text-library-gold font-bold' : 'text-library-gold/60 hover:text-library-gold'
                 }`}
               >

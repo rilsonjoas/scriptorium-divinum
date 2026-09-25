@@ -5,6 +5,7 @@ import {
   lecionarioHomeUrl,
   type VersiculoDoDia,
 } from '@/services/versiculoDoDia';
+import { SectionLabel } from '@/components/SectionLabel';
 
 const MONTHS_PT = [
   'janeiro',
@@ -54,16 +55,16 @@ export function VersiculoDoDia() {
       <h2 className="font-display text-2xl font-semibold text-library-wood-foreground golden-foil text-center mb-2">
         Passagem do Dia
       </h2>
-      <p className="font-body text-xs text-muted-foreground uppercase tracking-widest text-center mb-8">
+      <p className="font-body text-xs text-muted-foreground tracking-wide text-center mb-8">
         {formatDate(versiculo.date)}
       </p>
       <blockquote className="max-w-3xl mx-auto rounded-lg border border-library-bronze bg-card/95 backdrop-blur-sm parchment-bg shadow-book p-6 text-center">
         <p className="font-display text-base md:text-lg text-library-wood-foreground leading-relaxed">
           {versiculo.verse.text}
         </p>
-        <p className="font-body text-sm text-library-crimson uppercase tracking-widest mt-4">
+        <SectionLabel tone="crimson" className="justify-center mt-4">
           {versiculo.verse.reference} • ARC
-        </p>
+        </SectionLabel>
         <a
           href={lecionarioHomeUrl()}
           target="_blank"
