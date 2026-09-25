@@ -1118,9 +1118,22 @@ os cards de obra ficam com canto quase reto, e o detalhe visual passa a
 ser a moldura tracejada dourada do couro prensado — que é mais o gesto
 de biblioteca.
 
-**Ainda por fazer:** F3 (tipografia — a de maior impacto visual, mas
-também a de maior risco), F4 (transições), F5 (comparar/mostrar). Ver
-tabela de ordem no topo desta seção.
+**F3 — Tipografia: ✅ ENTREGUE** (commit `226d48a`, no ar). O escopo real
+foi menor do que o plano previa, e por um bom motivo: **`--font-serif`
+já era EB Garamond** (o canônico) — não precisava de nada. A troca foi
+só no `--font-display` (Playfair → Cormorant Garamond). Decisão-chave,
+tomada depois de **medir as duas lado a lado**: a Cormorant é a fonte
+canônica do cluster, mas em corpo pequeno (14px) fica frágil e some no
+menu do header e na barra do leitor. Então, em vez de trocar o token
+global, criei `--font-display-sm` (Playfair) e apliquei nos 6 usos de
+display-em-corpo-pequeno; nos 125 usos de título, a Cormorant brilha.
+Cinzel (`--font-classical`) foi auditado: **não é usado em nenhum
+componente** — declarado no código, código morto (a capitular usa
+`--font-display`, agora Cormorant). Mantido por ora; candidato à
+limpeza.
+
+**Ainda por fazer:** F4 (transições), F5 (comparar/mostrar o acumulado
+F1+F2+F3). Ver tabela de ordem no topo desta seção.
 
 ---
 
