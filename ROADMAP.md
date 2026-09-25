@@ -996,6 +996,79 @@ Teologia" da seção P8 já exige.
 
 ---
 
+## Convergência visual com o cluster (pedido do Rilson, 2026-09-25)
+
+> "Estou achando o Scriptorium meio feio. Não tem como ele se espelhar
+> mais no que está implementado no Lecionário e na Bíblia na Arte em
+> elementos, bordas, fonte, transições?" + "se usa demais texto em caixa
+> alta, fica estranho".
+
+Tudo abaixo foi **medido** nos três repositórios, não impressionado:
+
+| Métrica | Scriptorium | Bíblia na Arte | Lecionário |
+|---|---|---|---|
+| `uppercase` | **14** | 9 | **0** |
+| `rounded-*` (bordas arredondadas) | **227** | 199 | **0** |
+| `--radius` base | 0.5rem + 4 degraus | idem | **0.25rem** |
+| Fontes | Playfair/Cinzel/Merriweather/Inter | Cormorant/EB Garamond/Inter | **Cormorant/EB Garamond/JetBrains Mono** |
+| Canônico do vault | — | parcial | **Cormorant + EB Garamond + JetBrains Mono** |
+
+**Diagnóstico.** O Scriptorium não está "errado" — está *derivado*. Nasceu
+do shadcn (com `rounded-lg` em tudo) e foi receiving adições ao longo de
+6 semanas, cada uma trazendo um `rounded` novo. O Lecionário, sendo
+Next.js com o vault como fonte, tem **zero** arredondados e zero caixa
+alta — o que dá a ele a cara sóbria de biblioteca. O Scriptorium tem cara
+de "dashboard com tema pergaminho".
+
+### Fases (propostas — aguardam aprovação do Rilson)
+
+**F0 — Decisões de design (primeiro, sem codar).** Antes de mexer em
+227 classes, alinhar três decisões com o Rilson, porque elas definem tudo
+o resto:
+1. **Bordas:** escanear? (O `--radius` do Scriptorium é 0.5rem contra
+   0.25rem do Lecionário, e há 227 `rounded-*`.) Recomendo baixar o
+   radius base para ~0.25rem e reduzir `rounded-xl/2xl` a `rounded-sm/md`
+   — aproximando do Lecionário sem o zero absoluto dele.
+2. **Caixa alta:** remover dos títulos de seção (mantendo nos rótulos
+   pequenos de rodapé e no "Como citar", onde é convenção editorial
+   legítima). Recomendo manter <4 usos, todos em label curto.
+3. **Fontes:** o canônico do vault é Cormorant Garamond (display) + EB
+   Garamond (body) + JetBrains Mono. O Scriptorium usa Playfair (display),
+   Cinzel (classical), Merriweather (reading), Inter (sans), EB Garamond
+   (serif). **Não é troca trivial** — Merriweather é a fonte de *leitura
+   longa* e foi escolha de leitura, não estética. Recomendo: display e
+   serif passam para o canônico; reading (Merriweather) e sans (Inter)
+   ficam, com justificativa. Ou seja, converge ~60%, não 100%.
+
+**F1 — Caixa alta** (risco baixo, ganho alto). Extrair um componente
+`<SectionLabel>` único (não uma classe solta) e substituir os 14 usos.
+O rótulo do rodapé com `tracking-[0.3em]` a 10px volta para algo
+legível.
+
+**F2 — Bordas e raio.** Token único de raio, substituir os `rounded-lg/xl`
+do shadcn pelo valor convergente. Catálogo com `rg -l 'rounded-'` para
+não errar nenhum.
+
+**F3 — Tipografia.** Alinhar display/serif ao canônico, com teste
+visual (playwright) antes/depois para não quebrar hierarquia.
+
+**F4 — Transições e elementos.** Unificar duração/easing (o vault tem
+`--ease-liturgico`/`--ease-vela`, já registrados no ROADMAP de identidade
+desde 2026-08-15 e nunca implementados aqui). Padronizar `transition-*`.
+
+**F5 — Regressão visual.** O projeto já tem um `e2e` com baselines de
+QA visual (52 capturas, claro+escuro+mobile, job `visual-qa` no CI,
+mencionado no checklist). **Reaproveitar essa ferramenta** como rede de
+segurança: antes de F1, regenerar baselines; depois, comparar. Sem isso,
+mexer em 227 classes às cegas é arriscado.
+
+> [!warning] Regra desta fase
+> Nenhuma fase começa sem: (a) captura do antes, (b) o Rilson vendo o
+> antes/depois, (c) a mesma forma nos dois irmãos. Convergência é
+> *entre* projetos, não impor o Scriptorium aos outros.
+
+---
+
 ## Registro de Sessão — 2026-09-25 (leiturabilidade e bugs de interação)
 
 Fechamento da fila de pendências do Scriptorium e, no fim, uma leva de bugs
