@@ -1085,7 +1085,7 @@ mexer em 227 classes às cegas é arriscado.
 > antes/depois, (c) a mesma forma nos dois irmãos. Convergência é
 > *entre* projetos, não impor o Scriptorium aos outros.
 
-### Estado em 2026-09-25 (F1 entregue; F2+ pendentes)
+### Estado em 2026-09-25 (F1 e F2 entregues; F3+ pendentes)
 **F1 — Caixa alta: ✅ ENTREGUE** (commit `c916e2a`, no ar). Componente
 `SectionLabel` criado e 9 títulos de seção migrados. Antes → depois:
 `uppercase` de **14 → 4 usos** (os 4 aprovados). Ganhos colaterais
@@ -1106,8 +1106,21 @@ descobertos na execução:
 temas, em `/tmp/opencode/shots/{antes,depois}`. (Volátil — `/tmp`. Para
 durá-las, precisam ir para o repo como baselines; ver F5.)
 
-**Ainda por fazer:** F2 (bordas/raio), F3 (tipografia), F4 (transições),
-F5 (comparar/mostrar). Ver tabela de ordem no topo desta seção.
+**F2 — Bordas e raio: ✅ ENTREGUE** (commit `7738ac7`, no ar). O raio não
+estava espalhado em 227 lugares independentes — o shadcn deriva
+`rounded-lg/md/sm` de uma variável só (`--radius`), então o alcance real
+foi maior e o trabalho, menor: `--radius` de `0.75rem` → `0.375rem` cobre
+os 148 usos do shadcn de uma vez. Depois, os 5 `rounded-xl` restantes
+(virtuais: cards de destaque do Hero, BookCard, AutorDetalhes) foram para
+`rounded-lg`. Os **73 `rounded-full` foram mantidos** — pílulas e
+avatares, onde o raio é a forma, não um aceno de "dashboard". Resultado:
+os cards de obra ficam com canto quase reto, e o detalhe visual passa a
+ser a moldura tracejada dourada do couro prensado — que é mais o gesto
+de biblioteca.
+
+**Ainda por fazer:** F3 (tipografia — a de maior impacto visual, mas
+também a de maior risco), F4 (transições), F5 (comparar/mostrar). Ver
+tabela de ordem no topo desta seção.
 
 ---
 
