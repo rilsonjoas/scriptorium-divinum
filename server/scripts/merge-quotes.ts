@@ -2,7 +2,7 @@
 /**
  * Merge das duas curadorias de citações na fonte única do cluster (ADR 001):
  *  - lecionario-web/src/data/lewis-quotes.json   (217 entradas, Lewis + clássicos)
- *  - GeradorCSLewis/src/lib/quotes.ts            (165 entradas, só Lewis, tema "ceus")
+ *  - gerador-cslewis/src/lib/quotes.ts            (165 entradas, só Lewis, tema "ceus")
  *
  * Regras (não destrutivas):
  *  - Lewis = NÃO domínio público (CTA Amazon centralizado na API).
@@ -17,7 +17,7 @@
 import { readFileSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { lewisQuotes as geradorQuotes } from '/home/narniano/Downloads/Programação/1 - Pessoal/GeradorCSLewis/src/lib/quotes.ts';
+import { lewisQuotes as geradorQuotes } from '/home/narniano/Downloads/Programação/1 - Pessoal/gerador-cslewis/src/lib/quotes.ts';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const LECIONARIO_JSON = path.join(

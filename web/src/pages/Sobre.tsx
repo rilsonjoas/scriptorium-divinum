@@ -1,5 +1,6 @@
 import { Layout } from '@/components/Layout';
 import { useSiteSettings } from '@/hooks/useDatabase';
+import { PixDonationCard } from '@/components/apoiar/PixDonationCard';
 import { BookOpen, Download, Library, Search } from 'lucide-react';
 
 const Sobre = () => {
@@ -133,18 +134,27 @@ const Sobre = () => {
             <p className="leading-relaxed mb-4">
               Este projeto é mantido de forma independente e sustentado através de:
             </p>
-              <ul className="list-disc pl-6 space-y-2 mb-4">
-                <li>
-                  <strong>Anúncios discretos</strong> via Google AdSense, sempre fora do leitor de textos
-                </li>
-                <li>
-                  <strong>Links de afiliados</strong> para edições impressas na Amazon (comprar por eles não custa nada a mais ao leitor)
-                </li>
-              </ul>
-              <p className="leading-relaxed">
-                Doações voluntárias estão nos planos para o futuro. Se este projeto tem sido
-                útil para seus estudos ou devoção, divulgar o Scriptorium já é uma grande ajuda.
-              </p>
+            <ul className="list-disc pl-6 space-y-2 mb-6">
+              <li>
+                <strong>Doações voluntárias</strong> via Pix — sustenta o custo dos servidores e do curador
+              </li>
+              <li>
+                <strong>Anúncios discretos</strong> via Google AdSense, sempre fora do leitor de textos
+              </li>
+              <li>
+                <strong>Links de afiliados</strong> para edições impressas na Amazon (comprar por eles não custa nada a mais ao leitor)
+              </li>
+            </ul>
+            <p className="leading-relaxed mb-6">
+              Se este projeto tem sido útil para seus estudos ou devoção, uma contribuição é bem-vinda
+              — e divulgar o Scriptorium também ajuda muito.
+            </p>
+            <div className="bg-card/95 backdrop-blur-sm border border-library-bronze rounded-lg p-6">
+              <h3 className="font-heading text-lg font-semibold text-library-wood mb-4 text-center">
+                Doe via Pix em segundos
+              </h3>
+              <PixDonationCard />
+            </div>
           </div>
         </div>
 
