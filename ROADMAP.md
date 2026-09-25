@@ -209,9 +209,8 @@ volta à mesa (seção "Ordem recomendada").
       testado no CI
 - [x] **Google Search Console verificado (2026-08-14)** — tag `<meta name="google-site-verification">` adicionada ao `web/index.html` e propriedade verificada no Search Console. Sitemap enviado em `https://scriptorium.narniano.com/sitemap.xml`.
 - [ ] **Verificar sitemap no Search Console**: Acessar [Google Search Console](https://search.google.com/search-console) → propriedade `scriptorium.narniano.com` → Sitemaps → confirmar que `https://scriptorium.narniano.com/sitemap.xml` está com status "Sucesso" e URLs sendo indexadas.
-- [ ] Interface Responsiva — README reivindica; não verificado de fato
-- [ ] Modo escuro/claro — só existem as variantes `dark:` do shadcn/ui;
-      sem toggle e sem tema aplicado no app
+- [x] **Modo escuro/claro (concluído 2026-09-25)** — toggle no cabeçalho (desktop e menu mobile), persistido em `localStorage` e aplicado antes da primeira pintura por um script inline no `index.html` (evita flash de tema). O que exigiu mais cuidado: os tokens `library-*` serviam **a texto e a fundo** ao mesmo tempo (`--library-wood` era texto 313× e fundo 58×), então invertê-los globalmente quebrava os botões de madeira. Separei em `--library-wood` (fundo, fixo) + `--library-wood-foreground` (texto, sobe no dark), no mesmo desenho do par `primary`/`primary-foreground` do shadcn. Mesma lógica para `bronze` e para a superfície do pergaminho.
+- [x] **Interface Responsiva verificada (2026-09-25)** — conferida por captura de tela em 390px e 1440px no Leitor: a coluna de leitura ocupa 100% no mobile e 768px no desktop.
 - [ ] Loading states "mais elegantes" — item aberto no próprio README
 - [ ] **Acessibilidade e identidade visual — confirmado ainda não feito
       (checado 2026-08-16)**: durante a sessão de 8h com o opencode em
@@ -475,8 +474,13 @@ afiliado agora, anúncio (AdSense) fica pra depois.**
       edição física. A versão completa do `BookCard.tsx` do repo
       `TestePolitico` (capa via Google Books API) segue como
       melhoria opcional futura, não pendência.
-- [ ] **Doações voluntárias (Pix/Ko-fi) — fazer agora, junto com o
-      Amazon Associates**, não depois. Baixo esforço de implementar;
+- [x] **Doações voluntárias (Pix — entregue 2026-09-25)** — card na
+      página Sobre com QR do padrão EMV BR Code, chave
+      `lecionario@narniano.com` (decisão do Rilson: reusar a chave
+      existente em vez de criar uma dedicada), titular Rilson Joás
+      Guedes, cidade Recife. O texto não promete valor nem
+      contrapartida — só explica como doar e por onde o dinheiro
+      ajuda a manter o acervo gratuito.
       modelo "quem lê sustenta o acervo" combina com um projeto que já
       é sobre tornar acesso gratuito, sem contrapartida de destaque ou
       influência editorial — mesma lógica adotada no `a-bancada-
@@ -513,9 +517,13 @@ afiliado agora, anúncio (AdSense) fica pra depois.**
 > assinatura é o **texto como manuscrito**, não a moldura de imagem —
 > faz sentido, é uma biblioteca de texto, não de pintura.
 
-- [ ] Capitular (`.capitular::first-letter`) na abertura de cada obra no
-      leitor (`/ler/:id`) — é literalmente a técnica de scriptorium
-      medieval, cabe no nome do projeto
+- [x] **Capitular (`.capitular::first-letter`) na abertura de cada obra no
+      leitor (`/ler/:id`) — entregue 2026-08-31, corrigido em 2026-09-25.**
+      First-letter em vinho profundo (`--vinho`, `#4B2E39`) em vez de
+      dourado: a capitular cai sobre o pergaminho claro da leitura e o
+      dourado dava 1.40:1 — reprovado. Com vinho fica 10.48:1. No tema
+      escuro do leitor inverte para dourado claro (13.56:1), onde o vinho
+      daria 1.50:1.
 - [ ] `.signature-italic` em citações e nomes de autor no catálogo
 - [ ] `frame-tondo` só nos retratos de autor (Agostinho, Lutero etc.),
       não nas capas de livro — mantém a moldura de imagem reservada,
@@ -850,7 +858,7 @@ no `meus-remedios` (único projeto pessoal com OAuth de usuário real hoje)
 ### 🏛️ Identidade Narniano & Cluster "A Biblioteca"
 
 - [x] **Badge/Selo do Cluster no Rodapé (concluído 2026-08-31)** — mantido no `Footer.tsx` para preservar a sobriedade do cabeçalho sem duplicação visual.
-- [ ] **Reconciliação da Paleta Narniano (Dourado & Manuscrito)** — unificar as variáveis de cor dourada (`--library-gold`) e marrom profundo com as diretrizes do `Identidade visual geral.md` do vault, garantindo a mesma "carinha de biblioteca clássica" dos projetos irmãos.
+- [x] **Reconciliação da Paleta Narniano (Dourado & Manuscrito) — 2026-09-25.** Os tokens da paleta canônica do cluster (`--library-canela`, `--library-dourado`, `--library-vinho`, `--library-bege-areia`, `--library-grafite` + as variantes texto-seguras) foram adicionados ao `index.css`, espelhando `Identidade visual geral.md` §2. As 40 bordas/ornamentos dourados passaram a usar o dourado canônico `#B49A60` (`--library-dourado`) no lugar do dourado local. O dourado de **texto** sobre madeira escura foi mantido claro de propósito: trocar o `--library-gold` global derrubaria o contraste do cabeçalho de 6.26:1 para 3.69:1 (reprovado). Medido por script, não a olho — os pares válidos hoje: dourado-texto 7.5–12:1 no escuro, madeira-texto 6.7–14:1 no claro.
 - [x] **Toque de Manuscrito Medieval** — implementadas capitulares tipográficas (`.capitular-medieval::first-letter`) na abertura dos capítulos do leitor em tom dourado clássico.
 - [x] **Conexões Cruzadas do Cluster (concluído 2026-08-31; removido 2026-09-25)** — chegou a existir como `ClusterConnections.tsx` em `AutorDetalhes.tsx` e `LivroDetalhes.tsx`, com links contextuais por URL para *Bíblia na Arte*, *Lecionário* e *Gerador C.S. Lewis*. **Removido**: os links por `?q=` não retornam resultado nenhum nos sites de destino, então o bloco só ocupava espaço e frustrava. A conexão entre projetos continua no rodapé (`ClusterFooter`, padrão aprovado do Gerador C.S. Lewis), onde os links são diretos e funcionam.
 
@@ -883,9 +891,70 @@ no `meus-remedios` (único projeto pessoal com OAuth de usuário real hoje)
   - Enriquecidas as páginas `/autor/:slug` trazendo biografias, contexto histórico, contribuições e citações marcantes diretamente das notas do **Vault Obsidian** (`authorsRichData.ts`).
   - Retrato do autor em moldura circular *tondo* dourada com citação de assinatura em `.signature-quote`.
   - Catálogo de suas obras disponíveis no acervo do Scriptorium Divinum.
-- [ ] **Polimento de Infraestrutura & Exportação Dinâmica**:
-  - Adicionar `healthcheck` ao container `scriptorium-web` (Nginx) no `docker-compose.yml` (padrão Hetzner).
-  - Gerador dinâmico de exportação para download em Markdown (`.md`), TXT limpo e ePub sob demanda a partir do acervo do leitor.
+- [x] **Polimento de Infraestrutura & Exportação Dinâmica**:
+  - Healthcheck do `scriptorium-web`: **já existia** no `web/Dockerfile`
+    (linha 32, `curl` na porta 80) — verificado por SSH em 2026-09-25,
+    ambos os containers reportando `healthy`. Não foi preciso reiniciar
+    produção para declarar isto no `docker-compose.yml`.
+  - Gerador dinâmico de exportação entregue em 2026-09-25: **TXT limpo** e
+    **ePub** (EPUB 3 válido, ZIP via `fflate` com `mimetype` armazenado
+    sem compressão, como o formato exige) a partir do acervo do leitor,
+    ao lado do Markdown/Obsidian que já existia. 5 testes novos.
+
+---
+
+## Registro de Sessão — 2026-09-25 (leiturabilidade e bugs de interação)
+
+Fechamento da fila de pendências do Scriptorium e, no fim, uma leva de bugs
+encontrados por uso real do site. Os quatro abaixo custaram mais tempo porque
+**nenhum aparecia nos testes** — todos só apareceram ao abrir o site de verdade.
+
+### 1. Botões dos cards não respondiam ao clique (bug de ~1 mês)
+`.leather-pressed-card::before` — o overlay decorativo da moldura — estava
+escrito com `pointer-events-none: none`. É **CSS inválido**: um nome de classe
+do Tailwind no lugar do `:`. O navegador descarta a declaração, o
+`pointer-events` fica `auto` e o pseudo-elemento, que cobre o cartão inteiro
+(`inset: 4px`), passa a engolir os cliques dos próprios botões "Detalhes" e
+"Ler Online". Introduzido em `fb04ed5` (2026-08-23) e nunca notado.
+**Lição:** os testes de DOM passavam (o `<a href>` estava lá, correto) —
+só a auditoria de estilo no browser real pegou. Cobertura adicionada:
+`BookCard.test.tsx` (links presentes e overlays contidos) e um teste de
+`index.css` que reprova qualquer utilitário do Tailwind usado como
+propriedade CSS.
+
+### 2. Texto do leitor ilegível no modo escuro
+Causa: eu mesmo troquei, em 2026-09-25, as cores do artigo por
+`[--tw-prose-body]:[color:inherit]`. A classe arbitrária era inválida
+(o dois-pontos dentro dos colchetes) e o `prose` do Typography continuou
+aplicando seus cinzas (#374151) sobre o cartão escuro.
+**Lição:** quando o Typography plugin está no meio, a ordem de emissão
+importa: ele usa `:where()`, que tem especificidade **zero**, e é escrito
+**depois** das regras do projeto. Redefinir a variável customizada não
+basta — é preciso `color: ... !important` no article **e** nos descendentes.
+Cobertura: teste de `index.css` exigindo o `!important` nos dois níveis.
+
+### 3. Coluna de leitura curta demais no desktop
+`max-w-prose-reading` usava `65ch`, mas `ch` se resolve pela fonte do
+**próprio elemento** — que ali não é a fonte de leitura. Resultado: 608px
+travados, cerca de 45 caracteres por linha, bem abaixo da faixa confortável
+de 66–80. Trocado por degraus em `rem` por breakpoint (100% no mobile,
+44rem em ≥768px, 48rem em ≥1280px): 768px no desktop, 358px no mobile.
+
+### 4. Áudio sem som, sem aviso
+O botão "Ouvir" usava a Web Speech API. Em ambiente sem vozes instaladas
+(Linux, containers, alguns navegadores) `speak()` é chamado, o estado vai
+para `playing` e **não sai som nenhum** — o leitor ficava achando que tocava.
+Agora o `onerror` distingue `synthesis-failed`/`synthesis-unavailable` e a
+interface mostra "Sem voz instalada" com botão de tentar de novo.
+**Honestidade:** isto **não** faz o áudio funcionar onde não há voz — é a
+limitação da API do navegador. TTS real exigiria áudios pré-gerados no
+servidor, que é outro escopo.
+
+### Método que funcionou
+Para os quatro, a reprodução em navegador headless (Playwright +
+`document.elementFromPoint` e `CSS.getMatchedStylesForNode` via CDP) foi
+o que destravou o diagnóstico. Testes unitários e de DOM passavam em todos
+os casos — inclusive com o botão completamente inerte.
 
 
 
