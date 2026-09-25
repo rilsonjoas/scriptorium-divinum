@@ -535,6 +535,26 @@ export default function Reader() {
                   Ouvir
                 </Button>
               )}
+              {ttsStatus === 'unavailable' && (
+                <>
+                  <span className="text-[11px] font-body text-library-gold/90 px-1" role="status">
+                    Sem voz instalada
+                  </span>
+                  <Button
+                    variant="ghost"
+                    size="sm"
+                    className="h-6 px-2 text-xs text-library-gold hover:bg-library-gold/20 font-body rounded-full"
+                    onClick={() => {
+                      stopSpeech();
+                      startSpeech(markdownToSpeechText(parsed.content));
+                    }}
+                    aria-label="Tentar ouvir novamente"
+                  >
+                    <Play className="h-3 w-3 mr-1 fill-library-gold" />
+                    Tentar
+                  </Button>
+                </>
+              )}
               {ttsStatus === 'playing' && (
                 <>
                   <Button
@@ -611,7 +631,7 @@ export default function Reader() {
 
             <Card className={`transition-all duration-200 ${themeClasses}`}>
               <CardContent className="p-5 md:p-10">
-                <article className={`prose prose-lg max-w-none capitular-medieval ${fontClass} ${fontSizeClass} prose-headings:font-heading prose-blockquote:border-library-bronze prose-blockquote:font-body [--tw-prose-body]:[color:inherit] [--tw-prose-headings]:[color:inherit] [--tw-prose-lead]:[color:inherit] [--tw-prose-links]:[color:inherit] [--tw-prose-bold]:[color:inherit] [--tw-prose-counters]:[color:inherit] [--tw-prose-bullets]:[color:inherit] prose-a:underline`}>
+                <article className={`prose prose-lg prose-leitor max-w-none capitular-medieval ${fontClass} ${fontSizeClass} prose-headings:font-heading prose-blockquote:border-library-bronze prose-blockquote:font-body prose-a:underline`}>
                   <ReactMarkdown remarkPlugins={[remarkGfm]} components={markdownComponents}>
                     {parsed.content}
                   </ReactMarkdown>

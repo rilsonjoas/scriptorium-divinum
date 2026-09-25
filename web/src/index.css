@@ -205,8 +205,35 @@
     max-width: 72ch;
   }
   
+  /* Coluna de leitura. 65ch ficava curta demais no desktop: com a fonte
+     de leitura em tamanho grande, a linha ficava com ~45 caracteres
+     EFFECTivos, abaixo da faixa confortável (66–80). Ampliado com
+     clamp() para ganhar largura no desktop sem esticar no mobile, onde
+     a coluna continua ocupando a tela inteira. */
   .max-w-prose-reading {
     max-width: 65ch;
+  }
+
+  @media (min-width: 768px) {
+    .max-w-prose-reading {
+      max-width: 76ch;
+    }
+  }
+
+  /* O texto do leitor precisa HERDAR a cor do tema escolhido na barra de
+     ajustes (pergaminho/claro/sepia/escuro). Sem isto, o `prose` do
+     Tailwind Typography impõe seus cinzas (#374151/#111827) e o texto
+     some no tema escuro. */
+  .prose-leitor {
+    --tw-prose-body: inherit;
+    --tw-prose-headings: inherit;
+    --tw-prose-lead: inherit;
+    --tw-prose-links: inherit;
+    --tw-prose-bold: inherit;
+    --tw-prose-counters: inherit;
+    --tw-prose-bullets: inherit;
+    --tw-prose-hr: currentColor;
+    color: inherit;
   }
   
   /* Reading text - Merriweather para leitura profunda */
