@@ -8,10 +8,10 @@ export default function DominioPublico() {
     <Layout>
       <div className="container mx-auto px-4 py-8 max-w-4xl">
         <div className="mb-8">
-          <h1 className="font-display text-4xl font-bold text-library-wood mb-4 golden-foil">
+          <h1 className="font-display text-4xl font-bold text-library-wood-foreground mb-4 golden-foil">
             Obras em Domínio Público
           </h1>
-          <p className="text-lg text-library-bronze font-body max-w-3xl">
+          <p className="text-lg text-library-bronze-foreground font-body max-w-3xl">
             Entenda o que significa domínio público e como você pode usar livremente 
             as obras teológicas clássicas em nossa biblioteca.
           </p>
@@ -19,23 +19,23 @@ export default function DominioPublico() {
 
         {/* O que é Domínio Público */}
         <div className="mb-12">
-          <Card className="border-library-bronze bg-library-parchment">
+          <Card className="border-library-bronze bg-library-parchment-surface">
             <CardHeader>
               <div className="flex items-center gap-3 mb-2">
                 <div className="w-12 h-12 bg-library-gold rounded-lg flex items-center justify-center">
-                  <Globe className="h-6 w-6 text-library-wood" />
+                  <Globe className="h-6 w-6 text-library-wood-foreground" />
                 </div>
                 <div>
-                  <CardTitle className="font-display text-2xl text-library-wood">
+                  <CardTitle className="font-display text-2xl text-library-wood-foreground">
                     O que é Domínio Público?
                   </CardTitle>
-                  <CardDescription className="font-body text-library-bronze">
+                  <CardDescription className="font-body text-library-bronze-foreground">
                     Conhecimento livre para toda a humanidade
                   </CardDescription>
                 </div>
               </div>
             </CardHeader>
-            <CardContent className="space-y-4 font-body text-library-bronze">
+            <CardContent className="space-y-4 font-body text-library-bronze-foreground">
               <p>
                 <strong>Domínio público</strong> refere-se ao conjunto de obras criativas que não estão protegidas 
                 por direitos autorais, seja porque estes expiraram, foram renunciados pelo autor, ou porque 
@@ -52,21 +52,21 @@ export default function DominioPublico() {
 
         {/* Como funciona */}
         <div className="mb-12">
-          <h2 className="font-display text-2xl font-semibold text-library-wood mb-6 golden-foil">
+          <h2 className="font-display text-2xl font-semibold text-library-wood-foreground mb-6 golden-foil">
             Como as Obras Entram em Domínio Público
           </h2>
           
           <div className="grid gap-6 md:grid-cols-2">
-            <Card className="border-library-bronze bg-library-parchment">
+            <Card className="border-library-bronze bg-library-parchment-surface">
               <CardHeader>
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center">
                     <CheckCircle className="h-6 w-6 text-green-600" />
                   </div>
-                  <CardTitle className="font-display text-library-wood">Expiração dos Direitos</CardTitle>
+                  <CardTitle className="font-display text-library-wood-foreground">Expiração dos Direitos</CardTitle>
                 </div>
               </CardHeader>
-              <CardContent className="font-body text-library-bronze">
+              <CardContent className="font-body text-library-bronze-foreground">
                 <p>
                   No Brasil, os direitos autorais duram 70 anos após a morte do autor. 
                   Após esse período, a obra automaticamente entra em domínio público.
@@ -80,16 +80,16 @@ export default function DominioPublico() {
               </CardContent>
             </Card>
 
-            <Card className="border-library-bronze bg-library-parchment">
+            <Card className="border-library-bronze bg-library-parchment-surface">
               <CardHeader>
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center">
                     <Scale className="h-6 w-6 text-blue-600" />
                   </div>
-                  <CardTitle className="font-display text-library-wood">Obras Históricas</CardTitle>
+                  <CardTitle className="font-display text-library-wood-foreground">Obras Históricas</CardTitle>
                 </div>
               </CardHeader>
-              <CardContent className="font-body text-library-bronze">
+              <CardContent className="font-body text-library-bronze-foreground">
                 <p>
                   Textos antigos, especialmente obras teológicas clássicas dos primeiros 
                   séculos do cristianismo, nunca estiveram sob proteção de direitos autorais modernos.
@@ -107,67 +107,67 @@ export default function DominioPublico() {
 
         {/* O que você pode fazer */}
         <div className="mb-12">
-          <h2 className="font-display text-2xl font-semibold text-library-wood mb-6 golden-foil">
+          <h2 className="font-display text-2xl font-semibold text-library-wood-foreground mb-6 golden-foil">
             O que Você Pode Fazer com Obras em Domínio Público
           </h2>
           
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            <Card className="border-library-bronze bg-library-parchment text-center p-6">
+            <Card className="border-library-bronze bg-library-parchment-surface text-center p-6">
               <div className="w-12 h-12 bg-library-gold rounded-lg flex items-center justify-center mx-auto mb-3">
-                <BookOpen className="h-6 w-6 text-library-wood" />
+                <BookOpen className="h-6 w-6 text-library-wood-foreground" />
               </div>
-              <h3 className="font-display font-semibold text-library-wood mb-2">Ler Gratuitamente</h3>
-              <p className="font-body text-sm text-library-bronze">
+              <h3 className="font-display font-semibold text-library-wood-foreground mb-2">Ler Gratuitamente</h3>
+              <p className="font-body text-sm text-library-bronze-foreground">
                 Acesse e leia todas as obras sem restrições ou custos
               </p>
             </Card>
 
-            <Card className="border-library-bronze bg-library-parchment text-center p-6">
+            <Card className="border-library-bronze bg-library-parchment-surface text-center p-6">
               <div className="w-12 h-12 bg-library-gold rounded-lg flex items-center justify-center mx-auto mb-3">
-                <Download className="h-6 w-6 text-library-wood" />
+                <Download className="h-6 w-6 text-library-wood-foreground" />
               </div>
-              <h3 className="font-display font-semibold text-library-wood mb-2">Baixar e Imprimir</h3>
-              <p className="font-body text-sm text-library-bronze">
+              <h3 className="font-display font-semibold text-library-wood-foreground mb-2">Baixar e Imprimir</h3>
+              <p className="font-body text-sm text-library-bronze-foreground">
                 Faça download em vários formatos e imprima quantas cópias quiser
               </p>
             </Card>
 
-            <Card className="border-library-bronze bg-library-parchment text-center p-6">
+            <Card className="border-library-bronze bg-library-parchment-surface text-center p-6">
               <div className="w-12 h-12 bg-library-gold rounded-lg flex items-center justify-center mx-auto mb-3">
-                <Share2 className="h-6 w-6 text-library-wood" />
+                <Share2 className="h-6 w-6 text-library-wood-foreground" />
               </div>
-              <h3 className="font-display font-semibold text-library-wood mb-2">Compartilhar</h3>
-              <p className="font-body text-sm text-library-bronze">
+              <h3 className="font-display font-semibold text-library-wood-foreground mb-2">Compartilhar</h3>
+              <p className="font-body text-sm text-library-bronze-foreground">
                 Distribua livremente para amigos, estudantes e comunidades
               </p>
             </Card>
 
-            <Card className="border-library-bronze bg-library-parchment text-center p-6">
+            <Card className="border-library-bronze bg-library-parchment-surface text-center p-6">
               <div className="w-12 h-12 bg-library-gold rounded-lg flex items-center justify-center mx-auto mb-3">
-                <Users className="h-6 w-6 text-library-wood" />
+                <Users className="h-6 w-6 text-library-wood-foreground" />
               </div>
-              <h3 className="font-display font-semibold text-library-wood mb-2">Uso Comercial</h3>
-              <p className="font-body text-sm text-library-bronze">
+              <h3 className="font-display font-semibold text-library-wood-foreground mb-2">Uso Comercial</h3>
+              <p className="font-body text-sm text-library-bronze-foreground">
                 Use em projetos comerciais, cursos pagos e publicações
               </p>
             </Card>
 
-            <Card className="border-library-bronze bg-library-parchment text-center p-6">
+            <Card className="border-library-bronze bg-library-parchment-surface text-center p-6">
               <div className="w-12 h-12 bg-library-gold rounded-lg flex items-center justify-center mx-auto mb-3">
-                <Globe className="h-6 w-6 text-library-wood" />
+                <Globe className="h-6 w-6 text-library-wood-foreground" />
               </div>
-              <h3 className="font-display font-semibold text-library-wood mb-2">Traduzir</h3>
-              <p className="font-body text-sm text-library-bronze">
+              <h3 className="font-display font-semibold text-library-wood-foreground mb-2">Traduzir</h3>
+              <p className="font-body text-sm text-library-bronze-foreground">
                 Crie traduções para outros idiomas e dialetos
               </p>
             </Card>
 
-            <Card className="border-library-bronze bg-library-parchment text-center p-6">
+            <Card className="border-library-bronze bg-library-parchment-surface text-center p-6">
               <div className="w-12 h-12 bg-library-gold rounded-lg flex items-center justify-center mx-auto mb-3">
-                <BookOpen className="h-6 w-6 text-library-wood" />
+                <BookOpen className="h-6 w-6 text-library-wood-foreground" />
               </div>
-              <h3 className="font-display font-semibold text-library-wood mb-2">Criar Obras Derivadas</h3>
-              <p className="font-body text-sm text-library-bronze">
+              <h3 className="font-display font-semibold text-library-wood-foreground mb-2">Criar Obras Derivadas</h3>
+              <p className="font-body text-sm text-library-bronze-foreground">
                 Adapte, compile e crie novas versões baseadas nos textos
               </p>
             </Card>
@@ -176,7 +176,7 @@ export default function DominioPublico() {
 
         {/* Considerações Importantes */}
         <div className="mb-12">
-          <h2 className="font-display text-2xl font-semibold text-library-wood mb-6 golden-foil">
+          <h2 className="font-display text-2xl font-semibold text-library-wood-foreground mb-6 golden-foil">
             Considerações Importantes
           </h2>
           
@@ -220,17 +220,17 @@ export default function DominioPublico() {
 
         {/* Status das Obras */}
         <div className="mb-12">
-          <h2 className="font-display text-2xl font-semibold text-library-wood mb-6 golden-foil">
+          <h2 className="font-display text-2xl font-semibold text-library-wood-foreground mb-6 golden-foil">
             Status das Obras em Nossa Biblioteca
           </h2>
           
           <div className="grid gap-4 md:grid-cols-2">
             <div className="space-y-3">
-              <h3 className="font-display font-semibold text-library-wood flex items-center gap-2">
+              <h3 className="font-display font-semibold text-library-wood-foreground flex items-center gap-2">
                 <CheckCircle className="h-5 w-5 text-green-600" />
                 Totalmente em Domínio Público
               </h3>
-              <ul className="space-y-2 font-body text-library-bronze">
+              <ul className="space-y-2 font-body text-library-bronze-foreground">
                 <li className="flex items-center gap-2">
                   <Badge variant="secondary" className="bg-green-100 text-green-800">Patrística</Badge>
                   <span>Padres da Igreja (séc. I-VIII)</span>
@@ -247,11 +247,11 @@ export default function DominioPublico() {
             </div>
 
             <div className="space-y-3">
-              <h3 className="font-display font-semibold text-library-wood flex items-center gap-2">
+              <h3 className="font-display font-semibold text-library-wood-foreground flex items-center gap-2">
                 <AlertTriangle className="h-5 w-5 text-orange-600" />
                 Verificar Traduções
               </h3>
-              <ul className="space-y-2 font-body text-library-bronze">
+              <ul className="space-y-2 font-body text-library-bronze-foreground">
                 <li className="flex items-center gap-2">
                   <Badge variant="secondary" className="bg-orange-100 text-orange-800">Séc. XIX</Badge>
                   <span>Traduções do século 19</span>
@@ -271,11 +271,11 @@ export default function DominioPublico() {
 
         {/* Fontes de Nossos Textos */}
         <div className="mb-12">
-          <h2 className="font-display text-2xl font-semibold text-library-wood mb-6 golden-foil">
+          <h2 className="font-display text-2xl font-semibold text-library-wood-foreground mb-6 golden-foil">
             Fontes dos Nossos Textos
           </h2>
-          <Card className="border-library-bronze bg-library-parchment">
-            <CardContent className="p-6 font-body text-library-bronze space-y-4">
+          <Card className="border-library-bronze bg-library-parchment-surface">
+            <CardContent className="p-6 font-body text-library-bronze-foreground space-y-4">
               <p>
                 Para garantir a integridade legal e histórica de nosso catálogo, importamos e adaptamos textos de bibliotecas digitais que realizam um rigoroso processo de auditoria de direitos autorais:
               </p>
@@ -285,7 +285,7 @@ export default function DominioPublico() {
                     href="https://www.gutenberg.org" 
                     target="_blank" 
                     rel="noopener noreferrer" 
-                    className="font-semibold text-library-wood hover:text-library-gold underline decoration-library-gold"
+                    className="font-semibold text-library-wood-foreground hover:text-library-gold underline decoration-library-gold"
                   >
                     Project Gutenberg
                   </a>: A maior e mais antiga biblioteca digital de livros em domínio público do mundo.
@@ -295,7 +295,7 @@ export default function DominioPublico() {
                     href="https://pt.wikisource.org" 
                     target="_blank" 
                     rel="noopener noreferrer" 
-                    className="font-semibold text-library-wood hover:text-library-gold underline decoration-library-gold"
+                    className="font-semibold text-library-wood-foreground hover:text-library-gold underline decoration-library-gold"
                   >
                     Wikisource em Português
                   </a>: Uma biblioteca livre mantida pela Wikimedia Foundation contendo traduções e textos históricos digitalizados em língua portuguesa.

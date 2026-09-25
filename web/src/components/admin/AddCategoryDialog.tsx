@@ -71,12 +71,12 @@ export function AddCategoryDialog({ open, onClose, onSave }: AddCategoryDialogPr
 
   return (
     <Dialog open={open} onOpenChange={handleClose}>
-      <DialogContent className="max-w-lg bg-library-parchment border-library-bronze">
+      <DialogContent className="max-w-lg bg-library-parchment-surface border-library-bronze">
         <DialogHeader>
-          <DialogTitle className="font-display text-library-wood">
+          <DialogTitle className="font-display text-library-wood-foreground">
             Adicionar Nova Categoria
           </DialogTitle>
-          <DialogDescription className="font-body text-library-bronze">
+          <DialogDescription className="font-body text-library-bronze-foreground">
             Preencha as informações da nova categoria abaixo.
           </DialogDescription>
         </DialogHeader>
@@ -84,7 +84,7 @@ export function AddCategoryDialog({ open, onClose, onSave }: AddCategoryDialogPr
         <div className="grid gap-4 py-4">
           {/* Name */}
           <div className="grid grid-cols-1 gap-2">
-            <Label htmlFor="name" className="font-body text-library-wood">
+            <Label htmlFor="name" className="font-body text-library-wood-foreground">
               Nome da Categoria *
             </Label>
             <Input
@@ -98,7 +98,7 @@ export function AddCategoryDialog({ open, onClose, onSave }: AddCategoryDialogPr
 
           {/* Slug */}
           <div className="grid grid-cols-1 gap-2">
-            <Label htmlFor="slug" className="font-body text-library-wood">
+            <Label htmlFor="slug" className="font-body text-library-wood-foreground">
               Slug (URL)
             </Label>
             <div className="flex gap-2">
@@ -114,19 +114,19 @@ export function AddCategoryDialog({ open, onClose, onSave }: AddCategoryDialogPr
                 onClick={generateSlug}
                 variant="outline"
                 size="sm"
-                className="border-library-bronze text-library-bronze font-body whitespace-nowrap"
+                className="border-library-bronze text-library-bronze-foreground font-body whitespace-nowrap"
               >
                 Auto
               </Button>
             </div>
-            <p className="text-xs text-library-bronze font-body">
+            <p className="text-xs text-library-bronze-foreground font-body">
               Será gerado automaticamente se não preenchido
             </p>
           </div>
 
           {/* Description */}
           <div className="grid grid-cols-1 gap-2">
-            <Label htmlFor="description" className="font-body text-library-wood">
+            <Label htmlFor="description" className="font-body text-library-wood-foreground">
               Descrição
             </Label>
             <Textarea
@@ -143,7 +143,7 @@ export function AddCategoryDialog({ open, onClose, onSave }: AddCategoryDialogPr
           <Button 
             variant="outline" 
             onClick={handleClose}
-            className="border-library-bronze text-library-bronze font-body"
+            className="border-library-bronze text-library-bronze-foreground font-body"
           >
             Cancelar
           </Button>

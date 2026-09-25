@@ -111,10 +111,10 @@ export default function AdminBooks() {
         {/* Header */}
         <div className="flex justify-between items-center">
           <div>
-            <h2 className="font-display text-3xl font-bold text-library-wood">
+            <h2 className="font-display text-3xl font-bold text-library-wood-foreground">
               Gerenciar Livros
             </h2>
-            <p className="font-body text-library-bronze mt-1">
+            <p className="font-body text-library-bronze-foreground mt-1">
               Administre o catálogo de livros do Scriptorium Divinum
             </p>
           </div>
@@ -129,14 +129,14 @@ export default function AdminBooks() {
 
         {/* Stats Cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <Card className="border-library-bronze bg-library-parchment">
+          <Card className="border-library-bronze bg-library-parchment-surface">
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <p className="text-sm font-medium text-library-bronze font-body">
+                  <p className="text-sm font-medium text-library-bronze-foreground font-body">
                     Total de Livros
                   </p>
-                  <p className="text-3xl font-bold text-library-wood font-display">
+                  <p className="text-3xl font-bold text-library-wood-foreground font-display">
                     {isLoading ? '...' : (books?.total ?? books?.items?.length ?? 0)}
                   </p>
                 </div>
@@ -147,14 +147,14 @@ export default function AdminBooks() {
             </CardContent>
           </Card>
 
-          <Card className="border-library-bronze bg-library-parchment">
+          <Card className="border-library-bronze bg-library-parchment-surface">
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <p className="text-sm font-medium text-library-bronze font-body">
+                  <p className="text-sm font-medium text-library-bronze-foreground font-body">
                     Com Download
                   </p>
-                  <p className="text-3xl font-bold text-library-wood font-display">
+                  <p className="text-3xl font-bold text-library-wood-foreground font-display">
                     {isLoading ? '...' : books?.items?.filter(book => book.downloadLinks?.length).length || 0}
                   </p>
                 </div>
@@ -165,14 +165,14 @@ export default function AdminBooks() {
             </CardContent>
           </Card>
 
-          <Card className="border-library-bronze bg-library-parchment">
+          <Card className="border-library-bronze bg-library-parchment-surface">
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <p className="text-sm font-medium text-library-bronze font-body">
+                  <p className="text-sm font-medium text-library-bronze-foreground font-body">
                     Leitura Online
                   </p>
-                  <p className="text-3xl font-bold text-library-wood font-display">
+                  <p className="text-3xl font-bold text-library-wood-foreground font-display">
                     {isLoading ? '...' : books?.items?.filter(book => book.onlineReadPath).length || 0}
                   </p>
                 </div>
@@ -187,7 +187,7 @@ export default function AdminBooks() {
         {/* Search and Filters */}
         <div className="flex gap-4 items-center">
           <div className="relative flex-1 max-w-md">
-            <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-library-bronze" />
+            <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-library-bronze-foreground" />
             <Input
               type="text"
               placeholder="Buscar livros ou autores..."
@@ -196,20 +196,20 @@ export default function AdminBooks() {
               className="pl-10 font-body border-library-bronze"
             />
           </div>
-          <Button variant="outline" className="border-library-bronze text-library-bronze font-body">
+          <Button variant="outline" className="border-library-bronze text-library-bronze-foreground font-body">
             <Filter className="h-4 w-4 mr-2" />
             Filtros
           </Button>
         </div>
 
         {/* Books Table */}
-        <Card className="border-library-bronze bg-library-parchment">
+        <Card className="border-library-bronze bg-library-parchment-surface">
           <CardHeader>
-            <CardTitle className="font-display text-library-wood flex items-center gap-2">
+            <CardTitle className="font-display text-library-wood-foreground flex items-center gap-2">
               <BookOpen className="h-5 w-5 text-library-gold" />
               Catálogo de Livros
             </CardTitle>
-            <CardDescription className="font-body text-library-bronze">
+            <CardDescription className="font-body text-library-bronze-foreground">
               {filteredBooks.length} livros encontrados
             </CardDescription>
           </CardHeader>
@@ -220,12 +220,12 @@ export default function AdminBooks() {
               </div>
             ) : isLoading ? (
               <div className="text-center py-8">
-                <p className="text-library-bronze font-body">Carregando livros...</p>
+                <p className="text-library-bronze-foreground font-body">Carregando livros...</p>
               </div>
             ) : filteredBooks.length === 0 ? (
               <div className="text-center py-8">
-                <BookOpen className="h-12 w-12 text-library-bronze mx-auto mb-4" />
-                <p className="text-library-bronze font-body">
+                <BookOpen className="h-12 w-12 text-library-bronze-foreground mx-auto mb-4" />
+                <p className="text-library-bronze-foreground font-body">
                   {searchTerm ? 'Nenhum livro encontrado para sua busca.' : 'Nenhum livro cadastrado.'}
                 </p>
               </div>
@@ -234,48 +234,48 @@ export default function AdminBooks() {
                 <Table>
                   <TableHeader>
                     <TableRow>
-                      <TableHead className="font-body text-library-wood">Título</TableHead>
-                      <TableHead className="font-body text-library-wood">Autor</TableHead>
-                      <TableHead className="font-body text-library-wood">Categorias</TableHead>
-                      <TableHead className="font-body text-library-wood">Ano</TableHead>
-                      <TableHead className="font-body text-library-wood">Status</TableHead>
-                      <TableHead className="font-body text-library-wood text-right">Ações</TableHead>
+                      <TableHead className="font-body text-library-wood-foreground">Título</TableHead>
+                      <TableHead className="font-body text-library-wood-foreground">Autor</TableHead>
+                      <TableHead className="font-body text-library-wood-foreground">Categorias</TableHead>
+                      <TableHead className="font-body text-library-wood-foreground">Ano</TableHead>
+                      <TableHead className="font-body text-library-wood-foreground">Status</TableHead>
+                      <TableHead className="font-body text-library-wood-foreground text-right">Ações</TableHead>
                     </TableRow>
                   </TableHeader>
                   <TableBody>
                     {filteredBooks.map((book) => (
                       <TableRow key={book.id}>
-                        <TableCell className="font-medium font-body text-library-wood">
+                        <TableCell className="font-medium font-body text-library-wood-foreground">
                           <div className="flex items-center space-x-2">
                             <BookOpen className="h-4 w-4 text-library-gold" />
                             <div>
                               <p className="font-medium">{book.title}</p>
                               {book.originalTitle && (
-                                <p className="text-xs text-library-bronze italic">
+                                <p className="text-xs text-library-bronze-foreground italic">
                                   {book.originalTitle}
                                 </p>
                               )}
                             </div>
                           </div>
                         </TableCell>
-                        <TableCell className="font-body text-library-bronze">
+                        <TableCell className="font-body text-library-bronze-foreground">
                           {book.author.name}
                         </TableCell>
                         <TableCell>
                           <div className="flex flex-wrap gap-1">
                             {book.categories?.slice(0, 2).map((category) => (
-                              <Badge key={category} variant="outline" className="text-xs border-library-gold text-library-bronze">
+                              <Badge key={category} variant="outline" className="text-xs border-library-gold text-library-bronze-foreground">
                                 {category}
                               </Badge>
                             ))}
                             {book.categories && book.categories.length > 2 && (
-                              <Badge variant="outline" className="text-xs border-library-bronze text-library-bronze">
+                              <Badge variant="outline" className="text-xs border-library-bronze text-library-bronze-foreground">
                                 +{book.categories.length - 2}
                               </Badge>
                             )}
                           </div>
                         </TableCell>
-                        <TableCell className="font-body text-library-bronze">
+                        <TableCell className="font-body text-library-bronze-foreground">
                           {book.publicationYearOriginal || '-'}
                         </TableCell>
                         <TableCell>

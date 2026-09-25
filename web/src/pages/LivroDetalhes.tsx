@@ -38,7 +38,7 @@ const LivroDetalhes = () => {
         <div className="container mx-auto px-4 py-8">
           <div className="flex items-center justify-center py-16">
             <Loader2 className="h-8 w-8 animate-spin text-library-gold mr-3" />
-            <span className="font-body text-library-bronze text-lg">Carregando detalhes da obra...</span>
+            <span className="font-body text-library-bronze-foreground text-lg">Carregando detalhes da obra...</span>
           </div>
         </div>
       </Layout>
@@ -54,7 +54,7 @@ const LivroDetalhes = () => {
       <div className="container mx-auto px-4 py-8">
         {/* Back Navigation */}
         <div className="mb-6">
-          <Button asChild variant="ghost" size="sm" className="font-body text-library-bronze hover:text-library-wood">
+          <Button asChild variant="ghost" size="sm" className="font-body text-library-bronze-foreground hover:text-library-wood-foreground">
             <Link to="/livros">
               <ArrowLeft className="h-4 w-4 mr-2" />
               Voltar ao Catálogo
@@ -99,7 +99,7 @@ const LivroDetalhes = () => {
                         </Link>
                       </Button>
                       {typeof book.readingMinutes === 'number' && (
-                        <p className="text-center font-body text-sm text-library-wood/70">
+                        <p className="text-center font-body text-sm text-library-wood-foreground/70">
                           ~{book.readingMinutes} min de leitura
                         </p>
                       )}
@@ -115,7 +115,7 @@ const LivroDetalhes = () => {
                           asChild
                           variant="outline"
                           size="sm"
-                          className="w-full border-2 border-library-wood/80 bg-card text-library-wood hover:bg-library-wood hover:text-library-gold font-semibold font-body shadow-sm"
+                          className="w-full border-2 border-library-wood/80 bg-card text-library-wood-foreground hover:bg-library-wood hover:text-library-gold font-semibold font-body shadow-sm"
                         >
                           <a href={link.url} target="_blank" rel="noopener noreferrer">
                             <Download className="mr-2 h-3.5 w-3.5 text-library-crimson" />
@@ -128,13 +128,13 @@ const LivroDetalhes = () => {
                   )}
 
                   {!book.textAvailable && scanIdentifier && (
-                    <details className="group rounded-md border-2 border-library-wood/80 bg-card text-library-wood font-semibold font-body shadow-sm transition-all overflow-hidden">
-                      <summary className="cursor-pointer select-none px-3 py-2.5 font-body text-sm font-semibold text-library-wood flex items-center justify-between hover:bg-library-wood/5 transition-colors group-open:border-b group-open:border-library-bronze/40">
+                    <details className="group rounded-md border-2 border-library-wood/80 bg-card text-library-wood-foreground font-semibold font-body shadow-sm transition-all overflow-hidden">
+                      <summary className="cursor-pointer select-none px-3 py-2.5 font-body text-sm font-semibold text-library-wood-foreground flex items-center justify-between hover:bg-library-wood/5 transition-colors group-open:border-b group-open:border-library-bronze/40">
                         <span className="flex items-center gap-2">
                           <BookOpen className="h-4 w-4 text-library-gold" />
                           {t('acoes.verEscaneamento')}
                         </span>
-                        <span className="text-xs text-library-bronze group-open:rotate-180 transition-transform font-bold">▼</span>
+                        <span className="text-xs text-library-bronze-foreground group-open:rotate-180 transition-transform font-bold">▼</span>
                       </summary>
                       <div className="p-2 bg-library-gold/5">
                         <iframe
@@ -156,14 +156,14 @@ const LivroDetalhes = () => {
                     asChild
                     variant="outline"
                     size="sm"
-                    className="w-full border-2 border-library-bronze bg-card text-library-wood hover:bg-library-wood hover:text-library-gold font-semibold font-body shadow-sm"
+                    className="w-full border-2 border-library-bronze bg-card text-library-wood-foreground hover:bg-library-wood hover:text-library-gold font-semibold font-body shadow-sm"
                   >
                     <a
                       href={`https://www.amazon.com.br/s?k=${encodeURIComponent(`${book.title} ${book.author.name}`)}&tag=${AMAZON_AFFILIATE_TAG}`}
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <ShoppingBag className="mr-2 h-4 w-4 text-library-bronze" />
+                      <ShoppingBag className="mr-2 h-4 w-4 text-library-bronze-foreground" />
                       Edição impressa (Amazon)
                     </a>
                   </Button>
@@ -172,7 +172,7 @@ const LivroDetalhes = () => {
                     onClick={() => setCitationOpen(true)}
                     variant="outline"
                     size="sm"
-                    className="w-full border-2 border-library-gold bg-library-gold/15 text-library-wood hover:bg-library-gold hover:text-library-wood font-semibold font-body shadow-sm"
+                    className="w-full border-2 border-library-gold bg-library-gold/15 text-library-wood-foreground hover:bg-library-gold hover:text-library-wood font-semibold font-body shadow-sm"
                   >
                     <GraduationCap className="mr-2 h-4 w-4 text-library-crimson" />
                     Como Citar esta Obra
@@ -181,7 +181,7 @@ const LivroDetalhes = () => {
 
                 {book.licenseType && book.licenseType !== 'public-domain' && (
                   <div className="mt-4 p-3 rounded-lg border border-library-bronze/40 bg-library-gold/10">
-                    <p className="text-xs text-library-bronze font-body">
+                    <p className="text-xs text-library-bronze-foreground font-body">
                       Publicado sob licença aberta (não é domínio público simples).
                       {book.attributionText && <> {book.attributionText}</>}
                     </p>
@@ -206,7 +206,7 @@ const LivroDetalhes = () => {
             <div className="space-y-6">
               {/* Title and Basic Info */}
               <div>
-                <h1 className="font-display text-4xl font-bold text-library-wood mb-2">
+                <h1 className="font-display text-4xl font-bold text-library-wood-foreground mb-2">
                   {book.title}
                 </h1>
                 {book.originalTitle && (
@@ -223,8 +223,8 @@ const LivroDetalhes = () => {
                       aria-pressed={fav}
                       className={`flex items-center gap-1.5 rounded-md border px-2.5 py-1 transition-colors font-body ${
                         fav
-                          ? 'border-library-gold bg-library-gold/20 text-library-wood'
-                          : 'border-library-bronze/50 text-library-bronze hover:bg-library-gold/10'
+                          ? 'border-library-gold bg-library-gold/20 text-library-wood-foreground'
+                          : 'border-library-bronze/50 text-library-bronze-foreground hover:bg-library-gold/10'
                       }`}
                       title={fav ? 'Remover dos favoritos' : 'Adicionar aos favoritos'}
                     >
@@ -236,7 +236,7 @@ const LivroDetalhes = () => {
                     <User className="h-4 w-4" />
                     <Link
                       to={`/autores/${book.author.slug}`}
-                      className="text-library-bronze hover:text-library-wood transition-colors"
+                      className="text-library-bronze-foreground hover:text-library-wood-foreground transition-colors"
                     >
                       {book.author.name}
                     </Link>
@@ -303,7 +303,7 @@ const LivroDetalhes = () => {
                           {book.categories.map((category) => (
                             <span
                               key={category}
-                              className="px-3 py-1 text-sm bg-library-gold/20 text-library-bronze rounded-md font-body"
+                              className="px-3 py-1 text-sm bg-library-gold/20 text-library-bronze-foreground rounded-md font-body"
                             >
                               {category}
                             </span>
@@ -321,7 +321,7 @@ const LivroDetalhes = () => {
                           {book.tags.map((tag) => (
                             <span
                               key={tag}
-                              className="px-2 py-1 text-xs bg-library-bronze/10 text-library-bronze rounded font-body"
+                              className="px-2 py-1 text-xs bg-library-bronze/10 text-library-bronze-foreground rounded font-body"
                             >
                               {tag}
                             </span>
@@ -374,7 +374,7 @@ const LivroDetalhes = () => {
                         asChild 
                         variant="ghost" 
                         size="sm" 
-                        className="mt-3 p-0 h-auto font-body text-library-bronze hover:text-library-wood"
+                        className="mt-3 p-0 h-auto font-body text-library-bronze-foreground hover:text-library-wood-foreground"
                       >
                         <Link to={`/autores/${book.author.slug}`}>
                           Ver mais obras deste autor →

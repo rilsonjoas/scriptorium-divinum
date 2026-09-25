@@ -39,17 +39,17 @@ export function DeleteConfirmDialog({
 
   return (
     <Dialog open={open} onOpenChange={onClose}>
-      <DialogContent className="max-w-md bg-library-parchment border-library-bronze">
+      <DialogContent className="max-w-md bg-library-parchment-surface border-library-bronze">
         <DialogHeader>
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 bg-red-100 rounded-full flex items-center justify-center">
               <AlertTriangle className="h-5 w-5 text-red-600" />
             </div>
             <div>
-              <DialogTitle className="font-display text-library-wood text-left">
+              <DialogTitle className="font-display text-library-wood-foreground text-left">
                 {title}
               </DialogTitle>
-              <DialogDescription className="font-body text-library-bronze text-left">
+              <DialogDescription className="font-body text-library-bronze-foreground text-left">
                 {description}
               </DialogDescription>
             </div>
@@ -77,7 +77,7 @@ export function DeleteConfirmDialog({
             variant="outline" 
             onClick={onClose}
             disabled={isDeleting}
-            className="border-library-bronze text-library-bronze font-body"
+            className="border-library-bronze text-library-bronze-foreground font-body"
           >
             Cancelar
           </Button>

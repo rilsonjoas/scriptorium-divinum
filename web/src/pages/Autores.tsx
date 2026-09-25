@@ -28,7 +28,7 @@ const Autores = () => {
       <div className="container mx-auto px-4 py-8">
         {/* Page Header */}
         <div className="text-center mb-12">
-          <h1 className="font-display text-4xl font-bold text-library-wood mb-4">
+          <h1 className="font-display text-4xl font-bold text-library-wood-foreground mb-4">
             Autores Clássicos
           </h1>
           <div className="chapter-divider max-w-md mx-auto mb-6"></div>
@@ -42,7 +42,7 @@ const Autores = () => {
         {authorsLoading || booksLoading ? (
           <div className="flex items-center justify-center py-16">
             <Loader2 className="h-8 w-8 animate-spin text-library-gold mr-3" />
-            <span className="font-body text-library-bronze text-lg">Carregando autores...</span>
+            <span className="font-body text-library-bronze-foreground text-lg">Carregando autores...</span>
           </div>
         ) : authorsError ? (
           <div className="text-center py-16">
@@ -83,7 +83,7 @@ const Autores = () => {
                     />
                   </div>
 
-                  <h3 className="font-heading text-xl font-semibold text-foreground group-hover:text-library-bronze transition-colors text-center mb-2">
+                  <h3 className="font-heading text-xl font-semibold text-foreground group-hover:text-library-bronze-foreground transition-colors text-center mb-2">
                     {author.name}
                   </h3>
                 </div>
@@ -107,7 +107,7 @@ const Autores = () => {
                     {author.denominationOrTradition.slice(0, 2).map((tradition) => (
                       <span
                         key={tradition}
-                        className="px-2 py-1 text-xs bg-library-gold/20 text-library-bronze rounded-md font-body"
+                        className="px-2 py-1 text-xs bg-library-gold/20 text-library-bronze-foreground rounded-md font-body"
                       >
                         {tradition}
                       </span>
@@ -123,7 +123,7 @@ const Autores = () => {
                 )}
 
                 {/* Book Count */}
-                <div className="flex items-center justify-center space-x-2 text-sm text-library-bronze mb-4 font-body">
+                <div className="flex items-center justify-center space-x-2 text-sm text-library-bronze-foreground mb-4 font-body">
                   <BookOpen className="h-3 w-3" />
                   <span>
                     {author.bookCount} obra{author.bookCount !== 1 ? 's' : ''} disponível{author.bookCount !== 1 ? 'eis' : ''}
@@ -149,9 +149,9 @@ const Autores = () => {
         ) : (
           <div className="text-center py-16">
             <div className="w-16 h-16 bg-library-gold/20 rounded-full flex items-center justify-center mx-auto mb-4">
-              <User className="h-8 w-8 text-library-bronze" />
+              <User className="h-8 w-8 text-library-bronze-foreground" />
             </div>
-            <h3 className="font-display text-xl font-semibold text-library-wood mb-2">
+            <h3 className="font-display text-xl font-semibold text-library-wood-foreground mb-2">
               Nenhum autor encontrado
             </h3>
             <p className="font-body text-muted-foreground">
@@ -163,14 +163,14 @@ const Autores = () => {
         {/* Call to Action */}
         <div className="text-center mt-16">
           <div className="ornament"></div>
-          <h2 className="font-heading text-2xl font-semibold text-library-wood mb-4">
+          <h2 className="font-heading text-2xl font-semibold text-library-wood-foreground mb-4">
             Contribua para a Preservação
           </h2>
           <p className="font-body text-muted-foreground mb-6 max-w-2xl mx-auto">
             Conhece outras obras clássicas que deveriam estar em nossa biblioteca? 
             Ajude-nos a expandir este tesouro da literatura teológica cristã.
           </p>
-          <Button asChild variant="outline" className="border-library-bronze text-library-bronze hover:bg-library-bronze hover:text-primary-foreground font-body">
+          <Button asChild variant="outline" className="border-library-bronze text-library-bronze-foreground hover:bg-library-bronze hover:text-primary-foreground font-body">
             <Link to="/contribuir">
               Como Contribuir
             </Link>

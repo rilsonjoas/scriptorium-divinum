@@ -51,14 +51,14 @@ export function VersiculoDoDia() {
   return (
     <section className="container mx-auto px-4 py-12" aria-label="Passagem do dia">
       <div className="ornament mb-6"></div>
-      <h2 className="font-display text-2xl font-semibold text-library-wood golden-foil text-center mb-2">
+      <h2 className="font-display text-2xl font-semibold text-library-wood-foreground golden-foil text-center mb-2">
         Passagem do Dia
       </h2>
       <p className="font-body text-xs text-muted-foreground uppercase tracking-widest text-center mb-8">
         {formatDate(versiculo.date)}
       </p>
       <blockquote className="max-w-3xl mx-auto rounded-lg border border-library-bronze bg-card/95 backdrop-blur-sm parchment-bg shadow-book p-6 text-center">
-        <p className="font-display text-base md:text-lg text-library-wood leading-relaxed">
+        <p className="font-display text-base md:text-lg text-library-wood-foreground leading-relaxed">
           {versiculo.verse.text}
         </p>
         <p className="font-body text-sm text-library-crimson uppercase tracking-widest mt-4">
@@ -68,7 +68,7 @@ export function VersiculoDoDia() {
           href={lecionarioHomeUrl()}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 mt-4 font-body text-sm text-library-bronze hover:text-library-crimson transition-colors"
+          className="inline-flex items-center gap-2 mt-4 font-body text-sm text-library-bronze-foreground hover:text-library-crimson transition-colors"
         >
           <ExternalLink className="h-4 w-4" />
           Lecionário Comum Revisado

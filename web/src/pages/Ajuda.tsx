@@ -9,59 +9,59 @@ export default function Ajuda() {
     <Layout>
       <div className="container mx-auto px-4 py-8 max-w-4xl">
         <div className="mb-8">
-          <h1 className="font-display text-4xl font-bold text-library-wood mb-4 golden-foil">
+          <h1 className="font-display text-4xl font-bold text-library-wood-foreground mb-4 golden-foil">
             Central de Ajuda
           </h1>
-          <p className="text-lg text-library-bronze font-body">
+          <p className="text-lg text-library-bronze-foreground font-body">
             Encontre respostas para suas dúvidas sobre como navegar e usar nossa biblioteca teológica digital.
           </p>
         </div>
 
         {/* Navegação Rápida */}
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 mb-12">
-          <Card className="border-library-bronze bg-library-parchment hover:shadow-lg transition-shadow">
+          <Card className="border-library-bronze bg-library-parchment-surface hover:shadow-lg transition-shadow">
             <CardHeader className="pb-3">
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 bg-library-gold rounded-lg flex items-center justify-center">
-                  <Search className="h-5 w-5 text-library-wood" />
+                  <Search className="h-5 w-5 text-library-wood-foreground" />
                 </div>
-                <CardTitle className="font-display text-lg text-library-wood">Busca</CardTitle>
+                <CardTitle className="font-display text-lg text-library-wood-foreground">Busca</CardTitle>
               </div>
             </CardHeader>
             <CardContent>
-              <CardDescription className="font-body text-library-bronze">
+              <CardDescription className="font-body text-library-bronze-foreground">
                 Como encontrar livros, autores e temas específicos
               </CardDescription>
             </CardContent>
           </Card>
 
-          <Card className="border-library-bronze bg-library-parchment hover:shadow-lg transition-shadow">
+          <Card className="border-library-bronze bg-library-parchment-surface hover:shadow-lg transition-shadow">
             <CardHeader className="pb-3">
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 bg-library-gold rounded-lg flex items-center justify-center">
-                  <Download className="h-5 w-5 text-library-wood" />
+                  <Download className="h-5 w-5 text-library-wood-foreground" />
                 </div>
-                <CardTitle className="font-display text-lg text-library-wood">Downloads</CardTitle>
+                <CardTitle className="font-display text-lg text-library-wood-foreground">Downloads</CardTitle>
               </div>
             </CardHeader>
             <CardContent>
-              <CardDescription className="font-body text-library-bronze">
+              <CardDescription className="font-body text-library-bronze-foreground">
                 Formatos disponíveis e como baixar os textos
               </CardDescription>
             </CardContent>
           </Card>
 
-          <Card className="border-library-bronze bg-library-parchment hover:shadow-lg transition-shadow">
+          <Card className="border-library-bronze bg-library-parchment-surface hover:shadow-lg transition-shadow">
             <CardHeader className="pb-3">
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 bg-library-gold rounded-lg flex items-center justify-center">
-                  <Globe className="h-5 w-5 text-library-wood" />
+                  <Globe className="h-5 w-5 text-library-wood-foreground" />
                 </div>
-                <CardTitle className="font-display text-lg text-library-wood">Domínio Público</CardTitle>
+                <CardTitle className="font-display text-lg text-library-wood-foreground">Domínio Público</CardTitle>
               </div>
             </CardHeader>
             <CardContent>
-              <CardDescription className="font-body text-library-bronze">
+              <CardDescription className="font-body text-library-bronze-foreground">
                 Entenda os direitos autorais e licenças dos textos
               </CardDescription>
             </CardContent>
@@ -70,16 +70,16 @@ export default function Ajuda() {
 
         {/* Perguntas Frequentes */}
         <div className="mb-12">
-          <h2 className="font-display text-2xl font-semibold text-library-wood mb-6 golden-foil">
+          <h2 className="font-display text-2xl font-semibold text-library-wood-foreground mb-6 golden-foil">
             Perguntas Frequentes
           </h2>
           
           <Accordion type="single" collapsible className="space-y-4">
-            <AccordionItem value="item-1" className="border border-library-bronze rounded-lg px-6 bg-library-parchment">
-              <AccordionTrigger className="font-body text-library-wood hover:text-library-bronze">
+            <AccordionItem value="item-1" className="border border-library-bronze rounded-lg px-6 bg-library-parchment-surface">
+              <AccordionTrigger className="font-body text-library-wood-foreground hover:text-library-bronze-foreground">
                 Como posso buscar por livros específicos?
               </AccordionTrigger>
-              <AccordionContent className="font-body text-library-bronze">
+              <AccordionContent className="font-body text-library-bronze-foreground">
                 <div className="space-y-3">
                   <p>Use a barra de busca no topo da página para procurar por:</p>
                   <ul className="list-disc list-inside space-y-1 ml-4">
@@ -92,11 +92,11 @@ export default function Ajuda() {
               </AccordionContent>
             </AccordionItem>
 
-            <AccordionItem value="item-2" className="border border-library-bronze rounded-lg px-6 bg-library-parchment">
-              <AccordionTrigger className="font-body text-library-wood hover:text-library-bronze">
+            <AccordionItem value="item-2" className="border border-library-bronze rounded-lg px-6 bg-library-parchment-surface">
+              <AccordionTrigger className="font-body text-library-wood-foreground hover:text-library-bronze-foreground">
                 Quais formatos de download estão disponíveis?
               </AccordionTrigger>
-              <AccordionContent className="font-body text-library-bronze">
+              <AccordionContent className="font-body text-library-bronze-foreground">
                 <div className="space-y-3">
                   <p>Oferecemos os seguintes formatos para download:</p>
                   <div className="grid gap-3 sm:grid-cols-2">
@@ -122,11 +122,11 @@ export default function Ajuda() {
               </AccordionContent>
             </AccordionItem>
 
-            <AccordionItem value="item-3" className="border border-library-bronze rounded-lg px-6 bg-library-parchment">
-              <AccordionTrigger className="font-body text-library-wood hover:text-library-bronze">
+            <AccordionItem value="item-3" className="border border-library-bronze rounded-lg px-6 bg-library-parchment-surface">
+              <AccordionTrigger className="font-body text-library-wood-foreground hover:text-library-bronze-foreground">
                 Posso usar estes textos para fins comerciais?
               </AccordionTrigger>
-              <AccordionContent className="font-body text-library-bronze">
+              <AccordionContent className="font-body text-library-bronze-foreground">
                 <div className="space-y-3">
                   <p><strong>Sim!</strong> Todas as obras em nossa biblioteca estão em domínio público, o que significa que você pode:</p>
                   <ul className="list-disc list-inside space-y-1 ml-4">
@@ -147,11 +147,11 @@ export default function Ajuda() {
               </AccordionContent>
             </AccordionItem>
 
-            <AccordionItem value="item-4" className="border border-library-bronze rounded-lg px-6 bg-library-parchment">
-              <AccordionTrigger className="font-body text-library-wood hover:text-library-bronze">
+            <AccordionItem value="item-4" className="border border-library-bronze rounded-lg px-6 bg-library-parchment-surface">
+              <AccordionTrigger className="font-body text-library-wood-foreground hover:text-library-bronze-foreground">
                 Como posso contribuir com novas obras?
               </AccordionTrigger>
-              <AccordionContent className="font-body text-library-bronze">
+              <AccordionContent className="font-body text-library-bronze-foreground">
                 <div className="space-y-3">
                   <p>Adoraríamos receber sua contribuição! Você pode ajudar de várias formas:</p>
                   <ul className="list-disc list-inside space-y-2 ml-4">
@@ -165,11 +165,11 @@ export default function Ajuda() {
               </AccordionContent>
             </AccordionItem>
 
-            <AccordionItem value="item-5" className="border border-library-bronze rounded-lg px-6 bg-library-parchment">
-              <AccordionTrigger className="font-body text-library-wood hover:text-library-bronze">
+            <AccordionItem value="item-5" className="border border-library-bronze rounded-lg px-6 bg-library-parchment-surface">
+              <AccordionTrigger className="font-body text-library-wood-foreground hover:text-library-bronze-foreground">
                 A leitura online funciona em dispositivos móveis?
               </AccordionTrigger>
-              <AccordionContent className="font-body text-library-bronze">
+              <AccordionContent className="font-body text-library-bronze-foreground">
                 <div className="space-y-3">
                   <p><strong>Sim!</strong> Nossa plataforma é totalmente responsiva e funciona em:</p>
                   <ul className="list-disc list-inside space-y-1 ml-4">
@@ -187,54 +187,54 @@ export default function Ajuda() {
 
         {/* Como Navegar */}
         <div className="mb-12">
-          <h2 className="font-display text-2xl font-semibold text-library-wood mb-6 golden-foil">
+          <h2 className="font-display text-2xl font-semibold text-library-wood-foreground mb-6 golden-foil">
             Como Navegar na Biblioteca
           </h2>
           
           <div className="grid gap-6 md:grid-cols-2">
-            <Card className="border-library-bronze bg-library-parchment">
+            <Card className="border-library-bronze bg-library-parchment-surface">
               <CardHeader>
                 <div className="flex items-center gap-3 mb-2">
                   <BookOpen className="h-6 w-6 text-library-gold" />
-                  <CardTitle className="font-display text-library-wood">Catálogo</CardTitle>
+                  <CardTitle className="font-display text-library-wood-foreground">Catálogo</CardTitle>
                 </div>
-                <CardDescription className="font-body text-library-bronze">
+                <CardDescription className="font-body text-library-bronze-foreground">
                   Visualize todas as obras disponíveis em nossa biblioteca, com opções de filtro por período, idioma e tema.
                 </CardDescription>
               </CardHeader>
             </Card>
 
-            <Card className="border-library-bronze bg-library-parchment">
+            <Card className="border-library-bronze bg-library-parchment-surface">
               <CardHeader>
                 <div className="flex items-center gap-3 mb-2">
                   <Users className="h-6 w-6 text-library-gold" />
-                  <CardTitle className="font-display text-library-wood">Autores</CardTitle>
+                  <CardTitle className="font-display text-library-wood-foreground">Autores</CardTitle>
                 </div>
-                <CardDescription className="font-body text-library-bronze">
+                <CardDescription className="font-body text-library-bronze-foreground">
                   Explore biografias e obras organizadas por autor, desde os Padres da Igreja até teólogos modernos.
                 </CardDescription>
               </CardHeader>
             </Card>
 
-            <Card className="border-library-bronze bg-library-parchment">
+            <Card className="border-library-bronze bg-library-parchment-surface">
               <CardHeader>
                 <div className="flex items-center gap-3 mb-2">
                   <Library className="h-6 w-6 text-library-gold" />
-                  <CardTitle className="font-display text-library-wood">Categorias</CardTitle>
+                  <CardTitle className="font-display text-library-wood-foreground">Categorias</CardTitle>
                 </div>
-                <CardDescription className="font-body text-library-bronze">
+                <CardDescription className="font-body text-library-bronze-foreground">
                   Navegue por áreas temáticas como Patrística, Filosofia Cristã, Espiritualidade e muito mais.
                 </CardDescription>
               </CardHeader>
             </Card>
 
-            <Card className="border-library-bronze bg-library-parchment">
+            <Card className="border-library-bronze bg-library-parchment-surface">
               <CardHeader>
                 <div className="flex items-center gap-3 mb-2">
                   <Eye className="h-6 w-6 text-library-gold" />
-                  <CardTitle className="font-display text-library-wood">Leitura Online</CardTitle>
+                  <CardTitle className="font-display text-library-wood-foreground">Leitura Online</CardTitle>
                 </div>
-                <CardDescription className="font-body text-library-bronze">
+                <CardDescription className="font-body text-library-bronze-foreground">
                   Leia diretamente no navegador com interface otimizada para diferentes dispositivos e tamanhos de tela.
                 </CardDescription>
               </CardHeader>

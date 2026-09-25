@@ -37,7 +37,7 @@ export function PixDonationCard() {
 
       <div className="space-y-3 max-w-xl mx-auto">
         <div className="flex items-center gap-2 bg-library-gold/5 border border-library-bronze/30 rounded-md px-3 py-2">
-          <code className="text-xs break-all flex-1 text-library-wood/80 select-all">{brCode}</code>
+          <code className="text-xs break-all flex-1 text-library-wood-foreground/80 select-all">{brCode}</code>
         </div>
         <Button
           onClick={handleCopyKey}

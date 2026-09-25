@@ -82,23 +82,23 @@ export function ReadingToolbar({ settings, onChangeSettings }: ReadingToolbarPro
         <Button
           variant="outline"
           size="sm"
-          className="h-8 px-2.5 gap-1.5 font-body text-xs text-library-wood border-library-bronze/50 hover:bg-library-gold/20"
+          className="h-8 px-2.5 gap-1.5 font-body text-xs text-library-wood-foreground border-library-bronze/50 hover:bg-library-gold/20"
           title="Preferências de Leitura"
         >
           <SlidersHorizontal className="h-3.5 w-3.5 text-library-gold shrink-0" />
           <span className="hidden sm:inline">Ajustes</span>
         </Button>
       </PopoverTrigger>
-      <PopoverContent className="w-80 p-4 bg-library-parchment border-library-bronze shadow-xl text-foreground z-50" align="end">
+      <PopoverContent className="w-80 p-4 bg-library-parchment-surface border-library-bronze shadow-xl text-foreground z-50" align="end">
         <div className="space-y-4">
           <div className="flex items-center justify-between border-b border-library-bronze/30 pb-2">
-            <h4 className="font-display font-semibold text-sm text-library-wood flex items-center gap-1.5">
+            <h4 className="font-display font-semibold text-sm text-library-wood-foreground flex items-center gap-1.5">
               <Type className="h-4 w-4 text-library-gold" />
               Preferências de Leitura
             </h4>
             <button
               onClick={() => onChangeSettings(DEFAULT_READING_SETTINGS)}
-              className="text-[11px] font-body text-library-bronze hover:underline"
+              className="text-[11px] font-body text-library-bronze-foreground hover:underline"
             >
               Restaurar
             </button>
@@ -106,7 +106,7 @@ export function ReadingToolbar({ settings, onChangeSettings }: ReadingToolbarPro
 
           {/* Font Size Selector */}
           <div>
-            <label className="text-xs font-body font-medium text-library-bronze mb-1.5 block">
+            <label className="text-xs font-body font-medium text-library-bronze-foreground mb-1.5 block">
               Tamanho do Texto
             </label>
             <div className="grid grid-cols-4 gap-1.5 bg-library-wood/5 p-1 rounded-md border border-library-bronze/30">
@@ -117,7 +117,7 @@ export function ReadingToolbar({ settings, onChangeSettings }: ReadingToolbarPro
                   className={`py-1 text-xs font-medium font-body rounded transition-colors ${
                     settings.fontSize === item.value
                       ? 'bg-library-wood text-library-gold shadow-sm'
-                      : 'text-library-wood hover:bg-library-gold/20'
+                      : 'text-library-wood-foreground hover:bg-library-gold/20'
                   }`}
                 >
                   {item.label}
@@ -128,7 +128,7 @@ export function ReadingToolbar({ settings, onChangeSettings }: ReadingToolbarPro
 
           {/* Font Family Selector */}
           <div>
-            <label className="text-xs font-body font-medium text-library-bronze mb-1.5 block">
+            <label className="text-xs font-body font-medium text-library-bronze-foreground mb-1.5 block">
               Tipografia
             </label>
             <div className="flex flex-col gap-1">
@@ -138,8 +138,8 @@ export function ReadingToolbar({ settings, onChangeSettings }: ReadingToolbarPro
                   onClick={() => update({ fontFamily: item.value })}
                   className={`flex items-center justify-between px-2.5 py-1.5 rounded-md text-xs transition-colors text-left ${item.className} ${
                     settings.fontFamily === item.value
-                      ? 'bg-library-gold/25 text-library-wood font-semibold border border-library-gold/50'
-                      : 'hover:bg-library-gold/10 text-library-wood'
+                      ? 'bg-library-gold/25 text-library-wood-foreground font-semibold border border-library-gold/50'
+                      : 'hover:bg-library-gold/10 text-library-wood-foreground'
                   }`}
                 >
                   <span>{item.label}</span>
@@ -151,7 +151,7 @@ export function ReadingToolbar({ settings, onChangeSettings }: ReadingToolbarPro
 
           {/* Theme Selector */}
           <div>
-            <label className="text-xs font-body font-medium text-library-bronze mb-1.5 block">
+            <label className="text-xs font-body font-medium text-library-bronze-foreground mb-1.5 block">
               Tema de Fundo
             </label>
             <div className="grid grid-cols-2 gap-2">

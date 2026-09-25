@@ -52,7 +52,7 @@ export default function AdminLogin() {
         {/* Header */}
         <div className="text-center mb-8">
           <div className="w-20 h-20 bg-library-gold rounded-full flex items-center justify-center mx-auto mb-4 shadow-golden">
-            <Shield className="h-10 w-10 text-library-wood" />
+            <Shield className="h-10 w-10 text-library-wood-foreground" />
           </div>
           <h1 className="font-display text-3xl font-bold text-library-gold mb-2">
             Painel Administrativo
@@ -62,12 +62,12 @@ export default function AdminLogin() {
           </p>
         </div>
 
-        <Card className="border-library-bronze bg-library-parchment/95 backdrop-blur-sm shadow-deep">
+        <Card className="border-library-bronze bg-library-parchment-surface/95 backdrop-blur-sm shadow-deep">
           <CardHeader>
-            <CardTitle className="font-display text-library-wood text-center">
+            <CardTitle className="font-display text-library-wood-foreground text-center">
               Acesso Restrito
             </CardTitle>
-            <CardDescription className="font-body text-library-bronze text-center">
+            <CardDescription className="font-body text-library-bronze-foreground text-center">
               Faça login para gerenciar o catálogo
             </CardDescription>
           </CardHeader>
@@ -83,7 +83,7 @@ export default function AdminLogin() {
 
             <form onSubmit={handleSubmit} className="space-y-4">
               <div>
-                <Label htmlFor="email" className="font-body text-library-wood">
+                <Label htmlFor="email" className="font-body text-library-wood-foreground">
                   Email
                 </Label>
                 <Input
@@ -99,7 +99,7 @@ export default function AdminLogin() {
               </div>
 
               <div>
-                <Label htmlFor="password" className="font-body text-library-wood">
+                <Label htmlFor="password" className="font-body text-library-wood-foreground">
                   Senha
                 </Label>
                 <Input
@@ -131,7 +131,7 @@ export default function AdminLogin() {
             </form>
 
             <div className="mt-6 text-center">
-              <p className="text-sm text-library-bronze font-body">
+              <p className="text-sm text-library-bronze-foreground font-body">
                 Problemas de acesso? Entre em contato com o administrador do sistema.
               </p>
             </div>

@@ -209,7 +209,7 @@ export function QuoteCardDialog({ open, quote, slug, fallbackTitle, onClose }: Q
       <Dialog open={open} onOpenChange={o => !o && onClose()}>
         <DialogContent className="max-w-md parchment-bg border-library-bronze">
           <DialogHeader>
-            <DialogTitle className="font-display text-library-wood flex items-center gap-2">
+            <DialogTitle className="font-display text-library-wood-foreground flex items-center gap-2">
               <Quote className="h-4 w-4 text-library-gold" />
               Card de citação
             </DialogTitle>
@@ -243,7 +243,7 @@ export function QuoteCardDialog({ open, quote, slug, fallbackTitle, onClose }: Q
               disabled={busy}
               variant="outline"
               size="sm"
-              className="border-library-bronze text-library-bronze hover:bg-library-bronze hover:text-primary-foreground font-body"
+              className="border-library-bronze text-library-bronze-foreground hover:bg-library-bronze hover:text-primary-foreground font-body"
             >
               <Link2 className="h-4 w-4 mr-1" />
               Copiar
@@ -254,7 +254,7 @@ export function QuoteCardDialog({ open, quote, slug, fallbackTitle, onClose }: Q
                 disabled={busy}
                 variant="outline"
                 size="sm"
-                className="border-library-bronze text-library-bronze hover:bg-library-bronze hover:text-primary-foreground font-body"
+                className="border-library-bronze text-library-bronze-foreground hover:bg-library-bronze hover:text-primary-foreground font-body"
               >
                 <Share2 className="h-4 w-4 mr-1" />
                 Enviar

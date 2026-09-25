@@ -57,7 +57,7 @@ export function GlossaryPopover({ word, anchor, onClose }: GlossaryPopoverProps)
       className="fixed z-[70] rounded-lg border border-library-bronze bg-card/98 backdrop-blur-sm shadow-deep parchment-bg p-4 max-h-[80vh] overflow-y-auto"
       style={{ top, left, width }}
     >
-      <p className="flex items-center gap-2 font-heading text-sm font-semibold text-library-wood mb-2">
+      <p className="flex items-center gap-2 font-heading text-sm font-semibold text-library-wood-foreground mb-2">
         <BookMarked className="h-4 w-4 text-library-gold shrink-0" />
         <span className="truncate">{word}</span>
       </p>
@@ -78,19 +78,19 @@ export function GlossaryPopover({ word, anchor, onClose }: GlossaryPopoverProps)
       {status === 'ready' && answer && (
         <>
           {answer.pos && (
-            <p className="text-[11px] uppercase tracking-wide text-library-bronze/80 font-body mb-1">
+            <p className="text-[11px] uppercase tracking-wide text-library-bronze-foreground/80 font-body mb-1">
               {answer.pos}
             </p>
           )}
           <p className="text-sm leading-relaxed text-foreground font-body">{answer.def}</p>
           {answer.source === 'curado' ? (
-            <p className="text-[11px] text-library-bronze/70 font-body mt-2">Glossário do Scriptorium</p>
+            <p className="text-[11px] text-library-bronze-foreground/70 font-body mt-2">Glossário do Scriptorium</p>
           ) : (
             <a
               href={`https://pt.wiktionary.org/wiki/${encodeURIComponent(word)}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1 text-[11px] text-library-bronze hover:text-library-wood font-body mt-2 underline-offset-2 hover:underline"
+              className="inline-flex items-center gap-1 text-[11px] text-library-bronze-foreground hover:text-library-wood-foreground font-body mt-2 underline-offset-2 hover:underline"
             >
               Fonte: Wikcionário
               <ExternalLink className="h-3 w-3" />

@@ -10,13 +10,13 @@ export function FeaturedSection() {
   const { data: featuredBooks, isLoading, error } = useFeaturedBooks(featuredCount);
 
   return (
-    <section className="py-16 bg-gradient-to-br from-library-parchment to-background">
+    <section className="py-16 bg-gradient-to-br from-library-parchment-surface to-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <p className="text-xs font-body text-library-crimson uppercase tracking-widest mb-2 flex items-center justify-center gap-2">
             <span>✦</span> Tesouros Preservados <span>✦</span>
           </p>
-          <h2 className="font-display text-3xl md:text-4xl font-semibold text-library-wood mb-3">
+          <h2 className="font-display text-3xl md:text-4xl font-semibold text-library-wood-foreground mb-3">
             Obras em Destaque
           </h2>
           <div className="flex items-center justify-center gap-3 text-library-gold my-3">
@@ -34,7 +34,7 @@ export function FeaturedSection() {
           {isLoading ? (
             <div className="col-span-full flex items-center justify-center py-12">
               <Loader2 className="h-8 w-8 animate-spin text-library-gold mr-3" />
-              <span className="font-body text-library-bronze">Carregando obras em destaque...</span>
+              <span className="font-body text-library-bronze-foreground">Carregando obras em destaque...</span>
             </div>
           ) : error ? (
             <div className="col-span-full text-center py-12">
@@ -53,7 +53,7 @@ export function FeaturedSection() {
               <div className="w-16 h-16 bg-library-bronze rounded-full flex items-center justify-center mx-auto mb-4 opacity-50">
                 <BookOpen className="h-8 w-8 text-library-parchment" />
               </div>
-              <p className="font-body text-library-bronze">Nenhuma obra em destaque encontrada.</p>
+              <p className="font-body text-library-bronze-foreground">Nenhuma obra em destaque encontrada.</p>
             </div>
           )}
         </div>

@@ -64,10 +64,10 @@ export function AdminLayout({ children }: AdminLayoutProps) {
       <div className="flex h-16 shrink-0 items-center px-4 border-b border-library-bronze">
         <div className="flex items-center space-x-3">
           <div className="w-8 h-8 bg-library-gold rounded-full flex items-center justify-center">
-            <Shield className="h-4 w-4 text-library-wood" />
+            <Shield className="h-4 w-4 text-library-wood-foreground" />
           </div>
           <div>
-            <h2 className="font-display text-lg font-semibold text-library-wood">
+            <h2 className="font-display text-lg font-semibold text-library-wood-foreground">
               Admin Panel
             </h2>
           </div>
@@ -89,7 +89,7 @@ export function AdminLayout({ children }: AdminLayoutProps) {
                     ${
                       isActive
                         ? 'bg-library-gold text-library-wood shadow-sm'
-                        : 'text-library-bronze hover:text-library-wood hover:bg-library-gold/10'
+                        : 'text-library-bronze-foreground hover:text-library-wood-foreground hover:bg-library-gold/10'
                     }
                   `}
                 >
@@ -111,10 +111,10 @@ export function AdminLayout({ children }: AdminLayoutProps) {
             </span>
           </div>
           <div className="flex-1 min-w-0">
-            <p className="text-sm font-medium text-library-wood truncate font-body">
+            <p className="text-sm font-medium text-library-wood-foreground truncate font-body">
               {admin?.email}
             </p>
-            <p className="text-xs text-library-bronze font-body">
+            <p className="text-xs text-library-bronze-foreground font-body">
               Administrador
             </p>
           </div>
@@ -125,7 +125,7 @@ export function AdminLayout({ children }: AdminLayoutProps) {
             asChild
             variant="outline"
             size="sm"
-            className="w-full justify-start border-library-bronze text-library-bronze hover:bg-library-bronze hover:text-library-parchment font-body"
+            className="w-full justify-start border-library-bronze text-library-bronze-foreground hover:bg-library-bronze hover:text-library-parchment font-body"
           >
             <Link to="/">
               <Home className="mr-2 h-4 w-4" />
@@ -148,17 +148,17 @@ export function AdminLayout({ children }: AdminLayoutProps) {
   );
 
   return (
-    <div className="min-h-screen bg-library-parchment">
+    <div className="min-h-screen bg-library-parchment-surface">
       {/* Desktop Sidebar */}
       <div className="hidden lg:fixed lg:inset-y-0 lg:flex lg:w-64 lg:flex-col">
-        <div className="flex grow flex-col overflow-y-auto bg-library-parchment border-r border-library-bronze">
+        <div className="flex grow flex-col overflow-y-auto bg-library-parchment-surface border-r border-library-bronze">
           <Sidebar />
         </div>
       </div>
 
       {/* Mobile Sidebar */}
       <Sheet open={sidebarOpen} onOpenChange={setSidebarOpen}>
-        <SheetContent side="left" className="p-0 bg-library-parchment w-64">
+        <SheetContent side="left" className="p-0 bg-library-parchment-surface w-64">
           <Sidebar mobile />
         </SheetContent>
       </Sheet>
@@ -166,7 +166,7 @@ export function AdminLayout({ children }: AdminLayoutProps) {
       {/* Main Content */}
       <div className="lg:pl-64">
         {/* Top Bar */}
-        <div className="sticky top-0 z-40 flex h-16 shrink-0 items-center gap-x-4 border-b border-library-bronze bg-library-parchment/95 backdrop-blur-sm px-4 shadow-sm sm:gap-x-6 sm:px-6 lg:px-8">
+        <div className="sticky top-0 z-40 flex h-16 shrink-0 items-center gap-x-4 border-b border-library-bronze bg-library-parchment-surface/95 backdrop-blur-sm px-4 shadow-sm sm:gap-x-6 sm:px-6 lg:px-8">
           <Sheet>
             <SheetTrigger asChild>
               <Button
@@ -182,7 +182,7 @@ export function AdminLayout({ children }: AdminLayoutProps) {
 
           <div className="flex flex-1 gap-x-4 self-stretch lg:gap-x-6">
             <div className="flex flex-1 items-center">
-              <h1 className="font-display text-lg font-semibold text-library-wood">
+              <h1 className="font-display text-lg font-semibold text-library-wood-foreground">
                 {navigation.find(item => item.href === location.pathname)?.name || 'Painel Administrativo'}
               </h1>
             </div>

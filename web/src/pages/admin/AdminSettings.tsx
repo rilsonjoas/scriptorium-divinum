@@ -71,10 +71,10 @@ export default function AdminSettings() {
     <AdminLayout>
       <div className="space-y-6">
         <div>
-          <h2 className="font-display text-3xl font-bold text-library-wood">
+          <h2 className="font-display text-3xl font-bold text-library-wood-foreground">
             Configurações do Sistema
           </h2>
-          <p className="font-body text-library-bronze mt-1">
+          <p className="font-body text-library-bronze-foreground mt-1">
             Gerencie as configurações gerais do Scriptorium Divinum
           </p>
         </div>
@@ -82,23 +82,23 @@ export default function AdminSettings() {
         {isLoading ? (
           <div className="flex items-center justify-center py-16">
             <Loader2 className="h-8 w-8 animate-spin text-library-gold mr-3" />
-            <span className="font-body text-library-bronze">Carregando configurações...</span>
+            <span className="font-body text-library-bronze-foreground">Carregando configurações...</span>
           </div>
         ) : (
-          <Card className="border-library-bronze bg-library-parchment">
+          <Card className="border-library-bronze bg-library-parchment-surface">
             <CardHeader>
-              <CardTitle className="font-display text-library-wood flex items-center gap-2">
+              <CardTitle className="font-display text-library-wood-foreground flex items-center gap-2">
                 <Globe className="h-5 w-5 text-library-gold" />
                 Configurações do Site
               </CardTitle>
-              <CardDescription className="font-body text-library-bronze">
+              <CardDescription className="font-body text-library-bronze-foreground">
                 Estas configurações são usadas pelo site público em tempo real
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="space-y-2">
-                  <Label htmlFor="siteName" className="font-body text-library-wood">
+                  <Label htmlFor="siteName" className="font-body text-library-wood-foreground">
                     Nome do Site
                   </Label>
                   <Input
@@ -110,7 +110,7 @@ export default function AdminSettings() {
                 </div>
 
                 <div className="space-y-2">
-                  <Label htmlFor="contactEmail" className="font-body text-library-wood">
+                  <Label htmlFor="contactEmail" className="font-body text-library-wood-foreground">
                     Email de Contato
                   </Label>
                   <Input
@@ -124,7 +124,7 @@ export default function AdminSettings() {
               </div>
 
               <div className="space-y-2">
-                <Label htmlFor="siteDescription" className="font-body text-library-wood">
+                <Label htmlFor="siteDescription" className="font-body text-library-wood-foreground">
                   Descrição do Site
                 </Label>
                 <Textarea
@@ -140,7 +140,7 @@ export default function AdminSettings() {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="space-y-2">
-                  <Label htmlFor="featuredBooksCount" className="font-body text-library-wood">
+                  <Label htmlFor="featuredBooksCount" className="font-body text-library-wood-foreground">
                     Livros em Destaque (Quantidade)
                   </Label>
                   <Input
@@ -155,7 +155,7 @@ export default function AdminSettings() {
                 </div>
 
                 <div className="space-y-2">
-                  <Label htmlFor="booksPerPage" className="font-body text-library-wood">
+                  <Label htmlFor="booksPerPage" className="font-body text-library-wood-foreground">
                     Livros por Página
                   </Label>
                   <Input
@@ -172,8 +172,8 @@ export default function AdminSettings() {
 
               <div className="flex items-center justify-between">
                 <div className="space-y-0.5">
-                  <Label className="font-body text-library-wood">Modo Manutenção</Label>
-                  <p className="text-sm text-library-bronze font-body">
+                  <Label className="font-body text-library-wood-foreground">Modo Manutenção</Label>
+                  <p className="text-sm text-library-bronze-foreground font-body">
                     Bloqueia o site público (a API responde 503 e o site exibe aviso de manutenção)
                   </p>
                 </div>
@@ -196,8 +196,8 @@ export default function AdminSettings() {
               <Separator className="bg-library-bronze/20" />
 
               <Alert className="border-library-bronze bg-library-gold/10">
-                <Info className="h-4 w-4 text-library-wood" />
-                <AlertDescription className="text-library-wood font-body">
+                <Info className="h-4 w-4 text-library-wood-foreground" />
+                <AlertDescription className="text-library-wood-foreground font-body">
                   <Shield className="inline h-4 w-4 mr-1" />
                   <strong>Usuário Admin Atual:</strong> {admin?.email ?? '—'}
                 </AlertDescription>
@@ -216,7 +216,7 @@ export default function AdminSettings() {
                   )}
                   {isSaving ? 'Salvando...' : 'Salvar Configurações'}
                 </Button>
-                <CheckCircle className="h-5 w-5 text-library-bronze/40" />
+                <CheckCircle className="h-5 w-5 text-library-bronze-foreground/40" />
               </div>
             </CardContent>
           </Card>

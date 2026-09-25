@@ -83,10 +83,10 @@ export default function CategoryPage() {
             <div className="w-16 h-16 bg-library-bronze rounded-full flex items-center justify-center mx-auto mb-4 opacity-50">
               <BookOpen className="h-8 w-8 text-library-parchment" />
             </div>
-            <h1 className="font-display text-2xl font-bold text-library-wood mb-2">
+            <h1 className="font-display text-2xl font-bold text-library-wood-foreground mb-2">
               Categoria não encontrada
             </h1>
-            <p className="text-library-bronze font-body mb-6">
+            <p className="text-library-bronze-foreground font-body mb-6">
               A categoria solicitada não existe em nosso catálogo.
             </p>
             <Button 
@@ -112,7 +112,7 @@ export default function CategoryPage() {
           <Button 
             variant="ghost" 
             onClick={() => navigate('/categorias')}
-            className="mb-4 text-library-bronze hover:text-library-wood font-body"
+            className="mb-4 text-library-bronze-foreground hover:text-library-wood-foreground font-body"
           >
             <ArrowLeft className="h-4 w-4 mr-2" />
             Voltar às Categorias
@@ -120,14 +120,14 @@ export default function CategoryPage() {
           
           <div className="flex items-center gap-4 mb-4">
             <div className="w-12 h-12 bg-library-gold rounded-lg flex items-center justify-center">
-              <BookOpen className="h-6 w-6 text-library-wood" />
+              <BookOpen className="h-6 w-6 text-library-wood-foreground" />
             </div>
             <div>
-              <h1 className="font-display text-4xl font-bold text-library-wood golden-foil">
+              <h1 className="font-display text-4xl font-bold text-library-wood-foreground golden-foil">
                 {category.name}
               </h1>
               {category.period && (
-                <p className="text-library-bronze font-body text-lg">
+                <p className="text-library-bronze-foreground font-body text-lg">
                   {category.period}
                 </p>
               )}
@@ -135,10 +135,10 @@ export default function CategoryPage() {
           </div>
           
           <div className="max-w-4xl">
-            <p className="text-lg text-library-bronze font-body mb-4">
+            <p className="text-lg text-library-bronze-foreground font-body mb-4">
               {category.description}
             </p>
-            <p className="text-library-bronze font-body leading-relaxed">
+            <p className="text-library-bronze-foreground font-body leading-relaxed">
               {category.longDescription}
             </p>
           </div>
@@ -146,16 +146,16 @@ export default function CategoryPage() {
 
         {/* Books Count */}
         <div className="mb-8">
-          <div className="bg-library-parchment border border-library-bronze rounded-lg p-4">
+          <div className="bg-library-parchment-surface border border-library-bronze rounded-lg p-4">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-3">
                 <BookOpen className="h-5 w-5 text-library-gold" />
-                <span className="font-body text-library-wood">
+                <span className="font-body text-library-wood-foreground">
                   {isLoading ? 'Carregando...' : `${booksInCategory.length} ${booksInCategory.length === 1 ? 'obra encontrada' : 'obras encontradas'}`}
                 </span>
               </div>
               {!isLoading && booksInCategory.length > 0 && (
-                <span className="text-sm text-library-bronze font-body">
+                <span className="text-sm text-library-bronze-foreground font-body">
                   Explore nossa seleção cuidadosamente curada
                 </span>
               )}
@@ -166,7 +166,7 @@ export default function CategoryPage() {
         {/* Books Grid */}
         {isLoading ? (
           <div className="text-center py-12">
-            <p className="text-library-bronze font-body text-lg">
+            <p className="text-library-bronze-foreground font-body text-lg">
               Carregando obras...
             </p>
           </div>
@@ -181,13 +181,13 @@ export default function CategoryPage() {
             <div className="w-16 h-16 bg-library-bronze rounded-full flex items-center justify-center mx-auto mb-4 opacity-50">
               <BookOpen className="h-8 w-8 text-library-parchment" />
             </div>
-            <h2 className="font-display text-xl font-semibold text-library-wood mb-2">
+            <h2 className="font-display text-xl font-semibold text-library-wood-foreground mb-2">
               Ainda não temos obras nesta categoria
             </h2>
-            <p className="text-library-bronze font-body text-lg mb-2">
+            <p className="text-library-bronze-foreground font-body text-lg mb-2">
               Nossa biblioteca está em constante crescimento.
             </p>
-            <p className="text-library-bronze font-body text-sm opacity-75">
+            <p className="text-library-bronze-foreground font-body text-sm opacity-75">
               Visite nossa página novamente em breve para ver novas adições.
             </p>
           </div>

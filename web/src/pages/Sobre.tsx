@@ -13,11 +13,11 @@ const Sobre = () => {
       <div className="container mx-auto px-4 py-8 max-w-4xl">
         {/* Header */}
         <div className="text-center mb-12">
-          <h1 className="font-display text-4xl font-bold text-library-wood mb-4">
+          <h1 className="font-display text-4xl font-bold text-library-wood-foreground mb-4">
             Sobre o {siteName}
           </h1>
           <div className="chapter-divider max-w-md mx-auto mb-6"></div>
-          <p className="font-heading text-xl text-library-bronze italic">
+          <p className="font-heading text-xl text-library-bronze-foreground italic">
             "Sancta sanctis" - O sagrado para os santos
           </p>
         </div>
@@ -25,7 +25,7 @@ const Sobre = () => {
         {/* Mission */}
         <div className="prose prose-lg max-w-none font-body text-muted-foreground mb-12">
           <div className="bg-card/95 backdrop-blur-sm border border-library-bronze rounded-lg p-8 parchment-bg shadow-book mb-8">
-            <h2 className="font-heading text-2xl font-semibold text-library-wood mb-4">Nossa Missão</h2>
+            <h2 className="font-heading text-2xl font-semibold text-library-wood-foreground mb-4">Nossa Missão</h2>
             <p className="leading-relaxed mb-4">
               O <strong>Scriptorium Divinum</strong> é uma biblioteca digital dedicada a preservar e tornar acessível 
               o vasto tesouro da literatura teológica cristã em domínio público. Em um ambiente digital 
@@ -41,10 +41,10 @@ const Sobre = () => {
 
           {/* What We Offer */}
           <div className="bg-card/95 backdrop-blur-sm border border-library-bronze rounded-lg p-8 parchment-bg shadow-book mb-8">
-            <h2 className="font-heading text-2xl font-semibold text-library-wood mb-4">O Que Oferecemos</h2>
+            <h2 className="font-heading text-2xl font-semibold text-library-wood-foreground mb-4">O Que Oferecemos</h2>
             <div className="grid md:grid-cols-2 gap-6">
               <div>
-                <h3 className="font-heading text-lg font-semibold text-library-bronze mb-3 flex items-center gap-2">
+                <h3 className="font-heading text-lg font-semibold text-library-bronze-foreground mb-3 flex items-center gap-2">
                   <Library className="h-5 w-5" />
                   Acervo Curado
                 </h3>
@@ -54,7 +54,7 @@ const Sobre = () => {
                 </p>
               </div>
               <div>
-                <h3 className="font-heading text-lg font-semibold text-library-bronze mb-3 flex items-center gap-2">
+                <h3 className="font-heading text-lg font-semibold text-library-bronze-foreground mb-3 flex items-center gap-2">
                   <BookOpen className="h-5 w-5" />
                   Leitura Online
                 </h3>
@@ -64,7 +64,7 @@ const Sobre = () => {
                 </p>
               </div>
               <div>
-                <h3 className="font-heading text-lg font-semibold text-library-bronze mb-3 flex items-center gap-2">
+                <h3 className="font-heading text-lg font-semibold text-library-bronze-foreground mb-3 flex items-center gap-2">
                   <Download className="h-5 w-5" />
                   Downloads Gratuitos
                 </h3>
@@ -74,7 +74,7 @@ const Sobre = () => {
                 </p>
               </div>
               <div>
-                <h3 className="font-heading text-lg font-semibold text-library-bronze mb-3 flex items-center gap-2">
+                <h3 className="font-heading text-lg font-semibold text-library-bronze-foreground mb-3 flex items-center gap-2">
                   <Search className="h-5 w-5" />
                   Busca Avançada
                 </h3>
@@ -88,7 +88,7 @@ const Sobre = () => {
 
           {/* Methodology */}
           <div className="bg-card/95 backdrop-blur-sm border border-library-bronze rounded-lg p-8 parchment-bg shadow-book mb-8">
-            <h2 className="font-heading text-2xl font-semibold text-library-wood mb-4">Metodologia e Direitos Autorais</h2>
+            <h2 className="font-heading text-2xl font-semibold text-library-wood-foreground mb-4">Metodologia e Direitos Autorais</h2>
             <p className="leading-relaxed mb-4">
               A maioria das obras disponibilizadas está em domínio público conforme a legislação
               brasileira (Lei 9.610/98). Isso inclui:
@@ -114,7 +114,7 @@ const Sobre = () => {
 
           {/* Vision */}
           <div className="bg-card/95 backdrop-blur-sm border border-library-bronze rounded-lg p-8 parchment-bg shadow-book mb-8">
-            <h2 className="font-heading text-2xl font-semibold text-library-wood mb-4">Nossa Visão</h2>
+            <h2 className="font-heading text-2xl font-semibold text-library-wood-foreground mb-4">Nossa Visão</h2>
             <p className="leading-relaxed mb-4">
               Vislumbramos um futuro onde qualquer pessoa interessada na rica tradição teológica 
               cristã possa acessar facilmente as obras fundamentais que moldaram a fé ao longo 
@@ -130,7 +130,7 @@ const Sobre = () => {
 
           {/* Support */}
           <div className="bg-gradient-to-r from-library-gold/10 to-library-bronze/10 border border-library-bronze rounded-lg p-8 mb-8">
-            <h2 className="font-heading text-2xl font-semibold text-library-wood mb-4">Como Apoiar</h2>
+            <h2 className="font-heading text-2xl font-semibold text-library-wood-foreground mb-4">Como Apoiar</h2>
             <p className="leading-relaxed mb-4">
               Este projeto é mantido de forma independente e sustentado através de:
             </p>
@@ -150,7 +150,7 @@ const Sobre = () => {
               — e divulgar o Scriptorium também ajuda muito.
             </p>
             <div className="bg-card/95 backdrop-blur-sm border border-library-bronze rounded-lg p-6">
-              <h3 className="font-heading text-lg font-semibold text-library-wood mb-4 text-center">
+              <h3 className="font-heading text-lg font-semibold text-library-wood-foreground mb-4 text-center">
                 Doe via Pix em segundos
               </h3>
               <PixDonationCard />
@@ -162,7 +162,7 @@ const Sobre = () => {
 
         {/* Contact */}
         <div className="text-center">
-          <h2 className="font-heading text-2xl font-semibold text-library-wood mb-4">
+          <h2 className="font-heading text-2xl font-semibold text-library-wood-foreground mb-4">
             Contato
           </h2>
           <p className="font-body text-muted-foreground mb-4">
@@ -171,7 +171,7 @@ const Sobre = () => {
           <div className="flex justify-center space-x-4">
             <a 
               href={`mailto:${contactEmail}`}
-              className="font-body text-library-bronze hover:text-library-wood transition-colors"
+              className="font-body text-library-bronze-foreground hover:text-library-wood-foreground transition-colors"
             >
               {contactEmail}
             </a>

@@ -40,13 +40,13 @@ export function ClusterConnections({ term, type }: ClusterConnectionsProps) {
     <div className="bg-card/95 backdrop-blur-sm border border-library-bronze/60 rounded-xl p-5 md:p-6 parchment-bg shadow-sm my-6">
       <div className="flex items-center gap-2 mb-3 border-b border-library-bronze/30 pb-3">
         <span className="text-library-gold text-sm font-bold">✦</span>
-        <h3 className="font-heading text-lg font-semibold text-library-wood">
+        <h3 className="font-heading text-lg font-semibold text-library-wood-foreground">
           A Biblioteca — Recursos Relacionados no Cluster
         </h3>
       </div>
       
       <p className="font-body text-xs md:text-sm text-muted-foreground mb-4">
-        Explore mais conteúdos relacionados a <strong className="text-library-wood font-semibold">{term}</strong> nos outros projetos do ecossistema Narniano:
+        Explore mais conteúdos relacionados a <strong className="text-library-wood-foreground font-semibold">{term}</strong> nos outros projetos do ecossistema Narniano:
       </p>
 
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
@@ -62,12 +62,12 @@ export function ClusterConnections({ term, type }: ClusterConnectionsProps) {
             >
               <div>
                 <div className="flex items-center justify-between mb-2">
-                  <span className="text-[10px] font-body font-bold tracking-wider uppercase px-2 py-0.5 rounded bg-library-gold/15 text-library-wood border border-library-gold/30">
+                  <span className="text-[10px] font-body font-bold tracking-wider uppercase px-2 py-0.5 rounded bg-library-gold/15 text-library-wood-foreground border border-library-gold/30">
                     {link.badge}
                   </span>
-                  <ExternalLink className="h-3.5 w-3.5 text-library-bronze group-hover:text-library-gold transition-colors" />
+                  <ExternalLink className="h-3.5 w-3.5 text-library-bronze-foreground group-hover:text-library-gold transition-colors" />
                 </div>
-                <h4 className="font-heading text-sm font-semibold text-library-wood flex items-center gap-1.5 mb-1 group-hover:text-library-gold transition-colors">
+                <h4 className="font-heading text-sm font-semibold text-library-wood-foreground flex items-center gap-1.5 mb-1 group-hover:text-library-gold transition-colors">
                   <Icon className="h-4 w-4 text-library-gold shrink-0" />
                   {link.name}
                 </h4>

@@ -72,22 +72,22 @@ export default function Busca() {
       <div className="container mx-auto px-4 py-8 max-w-6xl">
         {/* Page Header */}
         <div className="text-center mb-8">
-          <h1 className="font-display text-4xl font-bold text-library-wood mb-4 golden-foil">
+          <h1 className="font-display text-4xl font-bold text-library-wood-foreground mb-4 golden-foil">
             Busca Avançada
           </h1>
-          <p className="text-lg text-library-bronze font-body max-w-3xl mx-auto">
+          <p className="text-lg text-library-bronze-foreground font-body max-w-3xl mx-auto">
             Encontre obras, autores e temas específicos em nossa biblioteca teológica digital.
           </p>
         </div>
 
         {/* Search Form */}
-        <Card className="border-library-bronze bg-library-parchment mb-8">
+        <Card className="border-library-bronze bg-library-parchment-surface mb-8">
           <CardHeader>
-            <CardTitle className="font-display text-library-wood flex items-center gap-2">
+            <CardTitle className="font-display text-library-wood-foreground flex items-center gap-2">
               <Search className="h-5 w-5" />
               Parâmetros de Busca
             </CardTitle>
-            <CardDescription className="font-body text-library-bronze">
+            <CardDescription className="font-body text-library-bronze-foreground">
               Use os filtros abaixo para refinar sua pesquisa
             </CardDescription>
           </CardHeader>
@@ -95,7 +95,7 @@ export default function Busca() {
             {/* Search Input */}
             <form onSubmit={handleSearch} className="flex gap-3">
               <div className="flex-1 relative">
-                <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-library-bronze" />
+                <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-library-bronze-foreground" />
                 <Input
                   value={query}
                   onChange={(e) => setQuery(e.target.value)}
@@ -106,7 +106,7 @@ export default function Busca() {
                   <button
                     type="button"
                     onClick={() => setQuery('')}
-                    className="absolute right-3 top-1/2 transform -translate-y-1/2 text-library-bronze hover:text-library-wood"
+                    className="absolute right-3 top-1/2 transform -translate-y-1/2 text-library-bronze-foreground hover:text-library-wood-foreground"
                   >
                     <X className="h-4 w-4" />
                   </button>
@@ -122,7 +122,7 @@ export default function Busca() {
             <div className="grid gap-4 md:grid-cols-2">
               {/* Category Filter */}
               <div>
-                <label className="font-body text-sm font-medium text-library-wood mb-2 block">
+                <label className="font-body text-sm font-medium text-library-wood-foreground mb-2 block">
                   Filtrar por Categoria
                 </label>
                 <Select value={selectedCategory} onValueChange={setSelectedCategory}>
@@ -142,7 +142,7 @@ export default function Busca() {
 
               {/* Author Filter */}
               <div>
-                <label className="font-body text-sm font-medium text-library-wood mb-2 block">
+                <label className="font-body text-sm font-medium text-library-wood-foreground mb-2 block">
                   Filtrar por Autor
                 </label>
                 <Select value={selectedAuthor} onValueChange={setSelectedAuthor}>
@@ -178,7 +178,7 @@ export default function Busca() {
           <div>
             {/* Results Header */}
             <div className="flex items-center justify-between mb-6">
-              <h2 className="font-display text-2xl font-semibold text-library-wood">
+              <h2 className="font-display text-2xl font-semibold text-library-wood-foreground">
                 Resultados da Busca
               </h2>
               {!isLoading && (
@@ -187,7 +187,7 @@ export default function Busca() {
                     {totalResults} resultado{totalResults !== 1 ? 's' : ''} encontrado{totalResults !== 1 ? 's' : ''}
                   </Badge>
                   {query && (
-                    <span className="text-sm text-library-bronze font-body">
+                    <span className="text-sm text-library-bronze-foreground font-body">
                       para: "{query}"
                     </span>
                   )}
@@ -199,7 +199,7 @@ export default function Busca() {
             {isLoading && (
               <div className="flex items-center justify-center py-16">
                 <Loader2 className="h-8 w-8 animate-spin text-library-gold mr-3" />
-                <span className="font-body text-library-bronze text-lg">Buscando...</span>
+                <span className="font-body text-library-bronze-foreground text-lg">Buscando...</span>
               </div>
             )}
 
@@ -222,7 +222,7 @@ export default function Busca() {
                 {/* Books Results */}
                 {filteredResults.books.length > 0 && (
                   <div>
-                    <h3 className="font-display text-xl font-semibold text-library-wood mb-4 flex items-center gap-2">
+                    <h3 className="font-display text-xl font-semibold text-library-wood-foreground mb-4 flex items-center gap-2">
                       <BookOpen className="h-5 w-5 text-library-gold" />
                       Livros ({filteredResults.books.length})
                     </h3>
@@ -237,18 +237,18 @@ export default function Busca() {
                 {/* Authors Results */}
                 {filteredResults.authors.length > 0 && (
                   <div>
-                    <h3 className="font-display text-xl font-semibold text-library-wood mb-4 flex items-center gap-2">
+                    <h3 className="font-display text-xl font-semibold text-library-wood-foreground mb-4 flex items-center gap-2">
                       <Users className="h-5 w-5 text-library-gold" />
                       Autores ({filteredResults.authors.length})
                     </h3>
                     <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
                       {filteredResults.authors.map((author) => (
-                        <Card key={author.id} className="border-library-bronze bg-library-parchment hover:shadow-lg transition-shadow">
+                        <Card key={author.id} className="border-library-bronze bg-library-parchment-surface hover:shadow-lg transition-shadow">
                           <CardContent className="p-4">
-                            <h4 className="font-display font-semibold text-library-wood mb-2">
+                            <h4 className="font-display font-semibold text-library-wood-foreground mb-2">
                               {author.name}
                             </h4>
-                            <p className="font-body text-library-bronze text-sm mb-3">
+                            <p className="font-body text-library-bronze-foreground text-sm mb-3">
                               {author.birthYear && author.deathYear 
                                 ? `${author.birthYear} - ${author.deathYear}`
                                 : author.birthYear 
@@ -281,12 +281,12 @@ export default function Busca() {
                 {totalResults === 0 && (
                   <div className="text-center py-16">
                     <div className="w-16 h-16 bg-library-gold/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                      <Search className="h-8 w-8 text-library-bronze" />
+                      <Search className="h-8 w-8 text-library-bronze-foreground" />
                     </div>
-                    <h3 className="font-display text-xl font-semibold text-library-wood mb-2">
+                    <h3 className="font-display text-xl font-semibold text-library-wood-foreground mb-2">
                       Nenhum resultado encontrado
                     </h3>
-                    <p className="font-body text-library-bronze mb-4">
+                    <p className="font-body text-library-bronze-foreground mb-4">
                       Tente termos diferentes ou remova alguns filtros.
                     </p>
                     <Button variant="outline" onClick={clearSearch} className="font-body">
@@ -301,33 +301,33 @@ export default function Busca() {
 
         {/* Search Tips */}
         {!hasSearched && (
-          <Card className="border-library-bronze bg-library-parchment">
+          <Card className="border-library-bronze bg-library-parchment-surface">
             <CardHeader>
-              <CardTitle className="font-display text-library-wood">Dicas de Busca</CardTitle>
+              <CardTitle className="font-display text-library-wood-foreground">Dicas de Busca</CardTitle>
             </CardHeader>
             <CardContent>
               <div className="grid gap-4 md:grid-cols-2">
                 <div>
-                  <h4 className="font-display font-semibold text-library-wood mb-2">Por Título:</h4>
-                  <p className="font-body text-library-bronze text-sm">
+                  <h4 className="font-display font-semibold text-library-wood-foreground mb-2">Por Título:</h4>
+                  <p className="font-body text-library-bronze-foreground text-sm">
                     "Confissões", "Epístola", "Sete Palavras"
                   </p>
                 </div>
                 <div>
-                  <h4 className="font-display font-semibold text-library-wood mb-2">Por Autor:</h4>
-                  <p className="font-body text-library-bronze text-sm">
+                  <h4 className="font-display font-semibold text-library-wood-foreground mb-2">Por Autor:</h4>
+                  <p className="font-body text-library-bronze-foreground text-sm">
                     "Agostinho", "Belarmino", "Tomás de Aquino"
                   </p>
                 </div>
                 <div>
-                  <h4 className="font-display font-semibold text-library-wood mb-2">Por Tema:</h4>
-                  <p className="font-body text-library-bronze text-sm">
+                  <h4 className="font-display font-semibold text-library-wood-foreground mb-2">Por Tema:</h4>
+                  <p className="font-body text-library-bronze-foreground text-sm">
                     "filosofia", "teologia", "espiritualidade", "patrística"
                   </p>
                 </div>
                 <div>
-                  <h4 className="font-display font-semibold text-library-wood mb-2">Palavras-chave:</h4>
-                  <p className="font-body text-library-bronze text-sm">
+                  <h4 className="font-display font-semibold text-library-wood-foreground mb-2">Palavras-chave:</h4>
+                  <p className="font-body text-library-bronze-foreground text-sm">
                     "cruz", "graça", "conversão", "meditação"
                   </p>
                 </div>

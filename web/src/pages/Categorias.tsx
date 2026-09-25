@@ -90,10 +90,10 @@ export default function Categorias() {
     <Layout>
       <div className="container mx-auto px-4 py-8 max-w-7xl">
         <div className="mb-8">
-          <h1 className="font-display text-4xl font-bold text-library-wood mb-4 golden-foil">
+          <h1 className="font-display text-4xl font-bold text-library-wood-foreground mb-4 golden-foil">
             Categorias Teológicas
           </h1>
-          <p className="text-lg text-library-bronze font-body max-w-3xl">
+          <p className="text-lg text-library-bronze-foreground font-body max-w-3xl">
             Explore nossa biblioteca organizada por áreas temáticas, desde os primeiros Padres da Igreja 
             até os grandes teólogos da história cristã.
           </p>
@@ -106,7 +106,7 @@ export default function Categorias() {
             return (
               <Card 
                 key={category.slug}
-                className="cursor-pointer transition-all duration-300 hover:shadow-lg border-library-bronze bg-library-parchment hover:ring-2 hover:ring-library-gold hover:shadow-golden group"
+                className="cursor-pointer transition-all duration-300 hover:shadow-lg border-library-bronze bg-library-parchment-surface hover:ring-2 hover:ring-library-gold hover:shadow-golden group"
                 onClick={() => navigate(`/categorias/${category.slug}`)}
               >
                 <CardHeader className="pb-3">
@@ -115,7 +115,7 @@ export default function Categorias() {
                       {getCategoryIcon(category.slug)}
                     </div>
                     <div className="flex-1">
-                      <CardTitle className="font-display text-lg text-library-wood group-hover:text-library-gold transition-colors">
+                      <CardTitle className="font-display text-lg text-library-wood-foreground group-hover:text-library-gold transition-colors">
                         {category.name}
                       </CardTitle>
                       {category.period && (
@@ -124,14 +124,14 @@ export default function Categorias() {
                         </Badge>
                       )}
                     </div>
-                    <ArrowRight className="h-4 w-4 text-library-bronze group-hover:text-library-gold transition-colors opacity-0 group-hover:opacity-100" />
+                    <ArrowRight className="h-4 w-4 text-library-bronze-foreground group-hover:text-library-gold transition-colors opacity-0 group-hover:opacity-100" />
                   </div>
-                  <CardDescription className="font-body text-library-bronze text-sm leading-relaxed">
+                  <CardDescription className="font-body text-library-bronze-foreground text-sm leading-relaxed">
                     {category.description}
                   </CardDescription>
                 </CardHeader>
                 <CardContent className="pt-0">
-                  <div className="flex items-center justify-between text-sm text-library-bronze">
+                  <div className="flex items-center justify-between text-sm text-library-bronze-foreground">
                     <span className="font-body">
                       {booksInCategory.length} {booksInCategory.length === 1 ? 'obra' : 'obras'}
                     </span>

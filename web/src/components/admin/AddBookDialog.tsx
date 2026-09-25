@@ -127,12 +127,12 @@ export function AddBookDialog({ open, onClose, onSave, authors }: AddBookDialogP
 
   return (
     <Dialog open={open} onOpenChange={handleClose}>
-      <DialogContent className="max-w-2xl max-h-[80vh] overflow-y-auto bg-library-parchment border-library-bronze">
+      <DialogContent className="max-w-2xl max-h-[80vh] overflow-y-auto bg-library-parchment-surface border-library-bronze">
         <DialogHeader>
-          <DialogTitle className="font-display text-library-wood">
+          <DialogTitle className="font-display text-library-wood-foreground">
             Adicionar Novo Livro
           </DialogTitle>
-          <DialogDescription className="font-body text-library-bronze">
+          <DialogDescription className="font-body text-library-bronze-foreground">
             Preencha as informações do novo livro abaixo.
           </DialogDescription>
         </DialogHeader>
@@ -140,7 +140,7 @@ export function AddBookDialog({ open, onClose, onSave, authors }: AddBookDialogP
         <div className="grid gap-4 py-4">
           {/* Title */}
           <div className="grid grid-cols-1 gap-2">
-            <Label htmlFor="title" className="font-body text-library-wood">
+            <Label htmlFor="title" className="font-body text-library-wood-foreground">
               Título *
             </Label>
             <Input
@@ -154,7 +154,7 @@ export function AddBookDialog({ open, onClose, onSave, authors }: AddBookDialogP
 
           {/* Original Title */}
           <div className="grid grid-cols-1 gap-2">
-            <Label htmlFor="originalTitle" className="font-body text-library-wood">
+            <Label htmlFor="originalTitle" className="font-body text-library-wood-foreground">
               Título Original
             </Label>
             <Input
@@ -168,7 +168,7 @@ export function AddBookDialog({ open, onClose, onSave, authors }: AddBookDialogP
 
           {/* Author */}
           <div className="grid grid-cols-1 gap-2">
-            <Label htmlFor="author" className="font-body text-library-wood">
+            <Label htmlFor="author" className="font-body text-library-wood-foreground">
               Autor *
             </Label>
             <Select 
@@ -190,7 +190,7 @@ export function AddBookDialog({ open, onClose, onSave, authors }: AddBookDialogP
 
           {/* Description */}
           <div className="grid grid-cols-1 gap-2">
-            <Label htmlFor="description" className="font-body text-library-wood">
+            <Label htmlFor="description" className="font-body text-library-wood-foreground">
               Descrição *
             </Label>
             <Textarea
@@ -205,7 +205,7 @@ export function AddBookDialog({ open, onClose, onSave, authors }: AddBookDialogP
           {/* Years */}
           <div className="grid grid-cols-2 gap-4">
             <div>
-              <Label htmlFor="publicationYearOriginal" className="font-body text-library-wood">
+              <Label htmlFor="publicationYearOriginal" className="font-body text-library-wood-foreground">
                 Ano da Publicação Original
               </Label>
               <Input
@@ -217,7 +217,7 @@ export function AddBookDialog({ open, onClose, onSave, authors }: AddBookDialogP
               />
             </div>
             <div>
-              <Label htmlFor="publicationYearTranslation" className="font-body text-library-wood">
+              <Label htmlFor="publicationYearTranslation" className="font-body text-library-wood-foreground">
                 Ano da Tradução
               </Label>
               <Input
@@ -234,7 +234,7 @@ export function AddBookDialog({ open, onClose, onSave, authors }: AddBookDialogP
           {/* Translator and Language */}
           <div className="grid grid-cols-2 gap-4">
             <div>
-              <Label htmlFor="translator" className="font-body text-library-wood">
+              <Label htmlFor="translator" className="font-body text-library-wood-foreground">
                 Tradutor
               </Label>
               <Input
@@ -246,7 +246,7 @@ export function AddBookDialog({ open, onClose, onSave, authors }: AddBookDialogP
               />
             </div>
             <div>
-              <Label htmlFor="language" className="font-body text-library-wood">
+              <Label htmlFor="language" className="font-body text-library-wood-foreground">
                 Idioma *
               </Label>
               <Select 
@@ -270,7 +270,7 @@ export function AddBookDialog({ open, onClose, onSave, authors }: AddBookDialogP
 
           {/* Categories */}
           <div className="grid grid-cols-1 gap-2">
-            <Label className="font-body text-library-wood">Categorias</Label>
+            <Label className="font-body text-library-wood-foreground">Categorias</Label>
             <div className="flex gap-2">
               <Input
                 placeholder="Adicionar categoria..."
@@ -283,7 +283,7 @@ export function AddBookDialog({ open, onClose, onSave, authors }: AddBookDialogP
                 type="button" 
                 onClick={addCategory}
                 variant="outline"
-                className="border-library-bronze text-library-bronze font-body"
+                className="border-library-bronze text-library-bronze-foreground font-body"
               >
                 Adicionar
               </Button>
@@ -293,7 +293,7 @@ export function AddBookDialog({ open, onClose, onSave, authors }: AddBookDialogP
                 <Badge 
                   key={category} 
                   variant="outline" 
-                  className="border-library-gold text-library-bronze"
+                  className="border-library-gold text-library-bronze-foreground"
                 >
                   {category}
                   <button
@@ -311,7 +311,7 @@ export function AddBookDialog({ open, onClose, onSave, authors }: AddBookDialogP
           {/* URLs */}
           <div className="grid grid-cols-1 gap-4">
             <div>
-              <Label htmlFor="coverImageUrl" className="font-body text-library-wood">
+              <Label htmlFor="coverImageUrl" className="font-body text-library-wood-foreground">
                 URL da Capa
               </Label>
               <Input
@@ -324,7 +324,7 @@ export function AddBookDialog({ open, onClose, onSave, authors }: AddBookDialogP
               />
             </div>
             <div>
-              <Label htmlFor="onlineReadPath" className="font-body text-library-wood">
+              <Label htmlFor="onlineReadPath" className="font-body text-library-wood-foreground">
                 Caminho para Leitura Online
               </Label>
               <Input
@@ -347,7 +347,7 @@ export function AddBookDialog({ open, onClose, onSave, authors }: AddBookDialogP
               checked={formData.featured}
               onCheckedChange={(checked) => setFormData({ ...formData, featured: checked })}
             />
-            <Label htmlFor="featured" className="font-body text-library-wood">
+            <Label htmlFor="featured" className="font-body text-library-wood-foreground">
               Livro em Destaque
             </Label>
           </div>
@@ -357,7 +357,7 @@ export function AddBookDialog({ open, onClose, onSave, authors }: AddBookDialogP
           <Button 
             variant="outline" 
             onClick={handleClose}
-            className="border-library-bronze text-library-bronze font-body"
+            className="border-library-bronze text-library-bronze-foreground font-body"
           >
             Cancelar
           </Button>

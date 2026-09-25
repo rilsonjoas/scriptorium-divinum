@@ -9,7 +9,7 @@ export function ContinueReading() {
   return (
     <section className="container mx-auto px-4 py-8" aria-label="Continuar leitura">
       <div className="ornament mb-6"></div>
-      <h2 className="font-display text-2xl font-semibold text-library-wood golden-foil text-center mb-8">
+      <h2 className="font-display text-2xl font-semibold text-library-wood-foreground golden-foil text-center mb-8">
         Continuar Leitura
       </h2>
       <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 max-w-5xl mx-auto">
@@ -26,7 +26,7 @@ export function ContinueReading() {
                   <BookOpen className="h-4 w-4 text-library-gold" />
                 </div>
                 <div className="min-w-0 flex-1">
-                  <p className="font-body font-medium text-library-wood text-sm line-clamp-2 group-hover:text-library-bronze transition-colors">
+                  <p className="font-body font-medium text-library-wood-foreground text-sm line-clamp-2 group-hover:text-library-bronze-foreground transition-colors">
                     {entry.title}
                   </p>
                   <p className="flex items-center gap-1 text-xs text-muted-foreground font-body mt-1">

@@ -122,13 +122,13 @@ export function AcademicCitationDialog({
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent className="max-w-2xl bg-library-parchment border-library-bronze text-foreground p-6 shadow-2xl">
+      <DialogContent className="max-w-2xl bg-library-parchment-surface border-library-bronze text-foreground p-6 shadow-2xl">
         <DialogHeader className="border-b border-library-bronze/30 pb-4">
-          <DialogTitle className="font-display text-xl text-library-wood flex items-center gap-2">
+          <DialogTitle className="font-display text-xl text-library-wood-foreground flex items-center gap-2">
             <GraduationCap className="h-5 w-5 text-library-gold" />
             Citação Acadêmica & Exportação
           </DialogTitle>
-          <DialogDescription className="font-body text-xs text-library-bronze">
+          <DialogDescription className="font-body text-xs text-library-bronze-foreground">
             Referências formatadas para artigos acadêmicos, trabalhos teológicos e monografias.
           </DialogDescription>
         </DialogHeader>
@@ -152,7 +152,7 @@ export function AcademicCitationDialog({
 
             {Object.entries(citations).map(([key, text]) => (
               <TabsContent key={key} value={key} className="mt-4">
-                <div className="relative bg-card/80 p-4 rounded-lg border border-library-bronze/40 font-body text-sm text-library-wood leading-relaxed">
+                <div className="relative bg-card/80 p-4 rounded-lg border border-library-bronze/40 font-body text-sm text-library-wood-foreground leading-relaxed">
                   <pre className="whitespace-pre-wrap font-sans text-xs sm:text-sm select-all">{text}</pre>
                   <Button
                     size="sm"
@@ -180,11 +180,11 @@ export function AcademicCitationDialog({
           {content && (
             <div className="pt-4 border-t border-library-bronze/30 space-y-3 bg-library-gold/10 p-4 rounded-lg border border-library-gold/30">
               <div>
-                <h4 className="font-display font-semibold text-sm text-library-wood flex items-center gap-1.5">
+                <h4 className="font-display font-semibold text-sm text-library-wood-foreground flex items-center gap-1.5">
                   <Quote className="h-4 w-4 text-library-gold" />
                   Exportar o texto completo
                 </h4>
-                <p className="font-body text-xs text-library-bronze">
+                <p className="font-body text-xs text-library-bronze-foreground">
                   Baixe em Markdown (`.md`) para Obsidian/Notion, TXT puro ou ePub para leitores de livro.
                 </p>
               </div>

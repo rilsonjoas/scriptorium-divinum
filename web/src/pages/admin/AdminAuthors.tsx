@@ -111,10 +111,10 @@ export default function AdminAuthors() {
         {/* Header */}
         <div className="flex justify-between items-center">
           <div>
-            <h2 className="font-display text-3xl font-bold text-library-wood">
+            <h2 className="font-display text-3xl font-bold text-library-wood-foreground">
               Gerenciar Autores
             </h2>
-            <p className="font-body text-library-bronze mt-1">
+            <p className="font-body text-library-bronze-foreground mt-1">
               Administre os autores do catálogo do Scriptorium Divinum
             </p>
           </div>
@@ -129,14 +129,14 @@ export default function AdminAuthors() {
 
         {/* Stats Cards */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-          <Card className="border-library-bronze bg-library-parchment">
+          <Card className="border-library-bronze bg-library-parchment-surface">
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <p className="text-sm font-medium text-library-bronze font-body">
+                  <p className="text-sm font-medium text-library-bronze-foreground font-body">
                     Total de Autores
                   </p>
-                  <p className="text-3xl font-bold text-library-wood font-display">
+                  <p className="text-3xl font-bold text-library-wood-foreground font-display">
                     {isLoading ? '...' : authors?.length || 0}
                   </p>
                 </div>
@@ -147,14 +147,14 @@ export default function AdminAuthors() {
             </CardContent>
           </Card>
 
-          <Card className="border-library-bronze bg-library-parchment">
+          <Card className="border-library-bronze bg-library-parchment-surface">
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <p className="text-sm font-medium text-library-bronze font-body">
+                  <p className="text-sm font-medium text-library-bronze-foreground font-body">
                     Padres da Igreja
                   </p>
-                  <p className="text-3xl font-bold text-library-wood font-display">
+                  <p className="text-3xl font-bold text-library-wood-foreground font-display">
                     {isLoading ? '...' : authors?.filter(author => author.period?.includes('Patrística') || author.name.includes('Santo') || author.name.includes('São')).length || 0}
                   </p>
                 </div>
@@ -165,14 +165,14 @@ export default function AdminAuthors() {
             </CardContent>
           </Card>
 
-          <Card className="border-library-bronze bg-library-parchment">
+          <Card className="border-library-bronze bg-library-parchment-surface">
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <p className="text-sm font-medium text-library-bronze font-body">
+                  <p className="text-sm font-medium text-library-bronze-foreground font-body">
                     Com Biografia
                   </p>
-                  <p className="text-3xl font-bold text-library-wood font-display">
+                  <p className="text-3xl font-bold text-library-wood-foreground font-display">
                     {isLoading ? '...' : authors?.filter(author => author.biography).length || 0}
                   </p>
                 </div>
@@ -183,14 +183,14 @@ export default function AdminAuthors() {
             </CardContent>
           </Card>
 
-          <Card className="border-library-bronze bg-library-parchment">
+          <Card className="border-library-bronze bg-library-parchment-surface">
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <p className="text-sm font-medium text-library-bronze font-body">
+                  <p className="text-sm font-medium text-library-bronze-foreground font-body">
                     Com Links Externos
                   </p>
-                  <p className="text-3xl font-bold text-library-wood font-display">
+                  <p className="text-3xl font-bold text-library-wood-foreground font-display">
                     {isLoading ? '...' : authors?.filter(author => author.externalLinks?.length).length || 0}
                   </p>
                 </div>
@@ -205,7 +205,7 @@ export default function AdminAuthors() {
         {/* Search */}
         <div className="flex gap-4 items-center">
           <div className="relative flex-1 max-w-md">
-            <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-library-bronze" />
+            <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-library-bronze-foreground" />
             <Input
               type="text"
               placeholder="Buscar autores..."
@@ -217,13 +217,13 @@ export default function AdminAuthors() {
         </div>
 
         {/* Authors Table */}
-        <Card className="border-library-bronze bg-library-parchment">
+        <Card className="border-library-bronze bg-library-parchment-surface">
           <CardHeader>
-            <CardTitle className="font-display text-library-wood flex items-center gap-2">
+            <CardTitle className="font-display text-library-wood-foreground flex items-center gap-2">
               <Users className="h-5 w-5 text-library-gold" />
               Catálogo de Autores
             </CardTitle>
-            <CardDescription className="font-body text-library-bronze">
+            <CardDescription className="font-body text-library-bronze-foreground">
               {filteredAuthors.length} autores encontrados
             </CardDescription>
           </CardHeader>
@@ -234,12 +234,12 @@ export default function AdminAuthors() {
               </div>
             ) : isLoading ? (
               <div className="text-center py-8">
-                <p className="text-library-bronze font-body">Carregando autores...</p>
+                <p className="text-library-bronze-foreground font-body">Carregando autores...</p>
               </div>
             ) : filteredAuthors.length === 0 ? (
               <div className="text-center py-8">
-                <Users className="h-12 w-12 text-library-bronze mx-auto mb-4" />
-                <p className="text-library-bronze font-body">
+                <Users className="h-12 w-12 text-library-bronze-foreground mx-auto mb-4" />
+                <p className="text-library-bronze-foreground font-body">
                   {searchTerm ? 'Nenhum autor encontrado para sua busca.' : 'Nenhum autor cadastrado.'}
                 </p>
               </div>
@@ -248,17 +248,17 @@ export default function AdminAuthors() {
                 <Table>
                   <TableHeader>
                     <TableRow>
-                      <TableHead className="font-body text-library-wood">Nome</TableHead>
-                      <TableHead className="font-body text-library-wood">Período/Época</TableHead>
-                      <TableHead className="font-body text-library-wood">Nacionalidade</TableHead>
-                      <TableHead className="font-body text-library-wood">Status</TableHead>
-                      <TableHead className="font-body text-library-wood text-right">Ações</TableHead>
+                      <TableHead className="font-body text-library-wood-foreground">Nome</TableHead>
+                      <TableHead className="font-body text-library-wood-foreground">Período/Época</TableHead>
+                      <TableHead className="font-body text-library-wood-foreground">Nacionalidade</TableHead>
+                      <TableHead className="font-body text-library-wood-foreground">Status</TableHead>
+                      <TableHead className="font-body text-library-wood-foreground text-right">Ações</TableHead>
                     </TableRow>
                   </TableHeader>
                   <TableBody>
                     {filteredAuthors.map((author) => (
                       <TableRow key={author.id}>
-                        <TableCell className="font-medium font-body text-library-wood">
+                        <TableCell className="font-medium font-body text-library-wood-foreground">
                           <div className="flex items-center space-x-3">
                             <div className="w-10 h-10 bg-library-bronze rounded-full flex items-center justify-center">
                               <span className="text-sm font-medium text-library-parchment">
@@ -268,22 +268,22 @@ export default function AdminAuthors() {
                             <div>
                               <p className="font-medium">{author.name}</p>
                               {author.originalName && (
-                                <p className="text-xs text-library-bronze italic">
+                                <p className="text-xs text-library-bronze-foreground italic">
                                   {author.originalName}
                                 </p>
                               )}
                               {author.lifespan && (
-                                <p className="text-xs text-library-bronze">
+                                <p className="text-xs text-library-bronze-foreground">
                                   {author.lifespan}
                                 </p>
                               )}
                             </div>
                           </div>
                         </TableCell>
-                        <TableCell className="font-body text-library-bronze">
+                        <TableCell className="font-body text-library-bronze-foreground">
                           {author.period || '-'}
                         </TableCell>
-                        <TableCell className="font-body text-library-bronze">
+                        <TableCell className="font-body text-library-bronze-foreground">
                           {author.nationality || '-'}
                         </TableCell>
                         <TableCell>

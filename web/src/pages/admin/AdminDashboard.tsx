@@ -43,10 +43,10 @@ export default function AdminDashboard() {
       <div className="space-y-6">
         {/* Welcome Section */}
         <div>
-          <h2 className="font-display text-3xl font-bold text-library-wood mb-2">
+          <h2 className="font-display text-3xl font-bold text-library-wood-foreground mb-2">
             Dashboard Administrativo
           </h2>
-          <p className="font-body text-library-bronze">
+          <p className="font-body text-library-bronze-foreground">
             Visão geral do catálogo e atividades recentes do Scriptorium Divinum.
           </p>
         </div>
@@ -54,14 +54,14 @@ export default function AdminDashboard() {
         {/* Stats Cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {stats.map((stat) => (
-            <Card key={stat.name} className="border-library-bronze bg-library-parchment">
+            <Card key={stat.name} className="border-library-bronze bg-library-parchment-surface">
               <CardContent className="p-6">
                 <div className="flex items-center justify-between">
                   <div>
-                    <p className="text-sm font-medium text-library-bronze font-body">
+                    <p className="text-sm font-medium text-library-bronze-foreground font-body">
                       {stat.name}
                     </p>
-                    <p className="text-3xl font-bold text-library-wood font-display">
+                    <p className="text-3xl font-bold text-library-wood-foreground font-display">
                       {booksLoading || authorsLoading || categoriesLoading ? '...' : stat.value}
                     </p>
                   </div>
@@ -70,7 +70,7 @@ export default function AdminDashboard() {
                   </div>
                 </div>
                 <div className="mt-4">
-                  <span className="text-library-bronze text-sm font-body">
+                  <span className="text-library-bronze-foreground text-sm font-body">
                     {stat.description}
                   </span>
                 </div>
@@ -81,19 +81,19 @@ export default function AdminDashboard() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           {/* Recent Books */}
-          <Card className="border-library-bronze bg-library-parchment">
+          <Card className="border-library-bronze bg-library-parchment-surface">
             <CardHeader>
-              <CardTitle className="font-display text-library-wood flex items-center gap-2">
+              <CardTitle className="font-display text-library-wood-foreground flex items-center gap-2">
                 <Clock className="h-5 w-5 text-library-gold" />
                 Livros Recentes
               </CardTitle>
-              <CardDescription className="font-body text-library-bronze">
+              <CardDescription className="font-body text-library-bronze-foreground">
                 Últimas adições ao catálogo
               </CardDescription>
             </CardHeader>
             <CardContent>
               {booksLoading ? (
-                <p className="text-library-bronze font-body">Carregando...</p>
+                <p className="text-library-bronze-foreground font-body">Carregando...</p>
               ) : recentBooks.length > 0 ? (
                 <div className="space-y-4">
                   {recentBooks.map((book) => (
@@ -102,10 +102,10 @@ export default function AdminDashboard() {
                         <BookOpen className="h-6 w-6 text-library-parchment" />
                       </div>
                       <div className="flex-1 min-w-0">
-                        <p className="font-medium text-library-wood truncate font-body">
+                        <p className="font-medium text-library-wood-foreground truncate font-body">
                           {book.title}
                         </p>
-                        <p className="text-sm text-library-bronze font-body">
+                        <p className="text-sm text-library-bronze-foreground font-body">
                           {book.author.name}
                         </p>
                       </div>
@@ -113,18 +113,18 @@ export default function AdminDashboard() {
                   ))}
                 </div>
               ) : (
-                <p className="text-library-bronze font-body">Nenhum livro encontrado.</p>
+                <p className="text-library-bronze-foreground font-body">Nenhum livro encontrado.</p>
               )}
             </CardContent>
           </Card>
 
           {/* Quick Actions */}
-          <Card className="border-library-bronze bg-library-parchment">
+          <Card className="border-library-bronze bg-library-parchment-surface">
             <CardHeader>
-              <CardTitle className="font-display text-library-wood">
+              <CardTitle className="font-display text-library-wood-foreground">
                 Ações Rápidas
               </CardTitle>
-              <CardDescription className="font-body text-library-bronze">
+              <CardDescription className="font-body text-library-bronze-foreground">
                 Gerenciar o catálogo
               </CardDescription>
             </CardHeader>
@@ -136,8 +136,8 @@ export default function AdminDashboard() {
                 >
                   <BookOpen className="h-5 w-5 text-library-gold mr-3" />
                   <div>
-                    <p className="font-medium text-library-wood font-body">Gerenciar Livros</p>
-                    <p className="text-sm text-library-bronze font-body">Ver, editar e adicionar livros ao catálogo</p>
+                    <p className="font-medium text-library-wood-foreground font-body">Gerenciar Livros</p>
+                    <p className="text-sm text-library-bronze-foreground font-body">Ver, editar e adicionar livros ao catálogo</p>
                   </div>
                 </button>
                 
@@ -147,8 +147,8 @@ export default function AdminDashboard() {
                 >
                   <Users className="h-5 w-5 text-library-gold mr-3" />
                   <div>
-                    <p className="font-medium text-library-wood font-body">Gerenciar Autores</p>
-                    <p className="text-sm text-library-bronze font-body">Ver, editar e adicionar autores</p>
+                    <p className="font-medium text-library-wood-foreground font-body">Gerenciar Autores</p>
+                    <p className="text-sm text-library-bronze-foreground font-body">Ver, editar e adicionar autores</p>
                   </div>
                 </button>
                 
@@ -158,8 +158,8 @@ export default function AdminDashboard() {
                 >
                   <FolderOpen className="h-5 w-5 text-library-gold mr-3" />
                   <div>
-                    <p className="font-medium text-library-wood font-body">Gerenciar Categorias</p>
-                    <p className="text-sm text-library-bronze font-body">Organizar e editar classificações</p>
+                    <p className="font-medium text-library-wood-foreground font-body">Gerenciar Categorias</p>
+                    <p className="text-sm text-library-bronze-foreground font-body">Organizar e editar classificações</p>
                   </div>
                 </button>
               </div>

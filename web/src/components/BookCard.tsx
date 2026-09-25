@@ -36,7 +36,7 @@ export function BookCard({ book, variant = 'grid' }: BookCardProps) {
 
             {/* Book Info */}
             <div className="text-center">
-              <h3 className="font-heading text-base font-semibold text-foreground group-hover:text-library-bronze transition-colors mb-1 line-clamp-2">
+              <h3 className="font-heading text-base font-semibold text-foreground group-hover:text-library-bronze-foreground transition-colors mb-1 line-clamp-2">
                 {book.title}
               </h3>
               {book.originalTitle && (
@@ -66,14 +66,14 @@ export function BookCard({ book, variant = 'grid' }: BookCardProps) {
               {(book.categories || book.language) && (
                 <div className="flex flex-wrap gap-1 mb-3 justify-center">
                   {book.language && (
-                    <span className="px-2 py-0.5 text-xs bg-library-wood/10 text-library-wood font-medium rounded-md font-body border border-library-wood/20">
+                    <span className="px-2 py-0.5 text-xs bg-library-wood/10 text-library-wood-foreground font-medium rounded-md font-body border border-library-wood/20">
                       {book.language}
                     </span>
                   )}
                   {book.categories && book.categories.slice(0, 2).map((category) => (
                     <span
                       key={category}
-                      className="px-2 py-0.5 text-xs bg-library-gold/20 text-library-bronze rounded-md font-body"
+                      className="px-2 py-0.5 text-xs bg-library-gold/20 text-library-bronze-foreground rounded-md font-body"
                     >
                       {category}
                     </span>
@@ -91,7 +91,7 @@ export function BookCard({ book, variant = 'grid' }: BookCardProps) {
                 </Button>
                 <div className="flex space-x-1">
                   {book.onlineReadPath && (
-                    <Button asChild variant="outline" size="sm" className="border-library-bronze text-library-bronze hover:bg-library-bronze hover:text-primary-foreground font-body flex-1 text-xs">
+                    <Button asChild variant="outline" size="sm" className="border-library-bronze text-library-bronze-foreground hover:bg-library-bronze hover:text-primary-foreground font-body flex-1 text-xs">
                       <Link to={`/ler/${book.id}`}>
                         <BookOpen className="h-3 w-3 mr-1" />
                         Ler
@@ -99,7 +99,7 @@ export function BookCard({ book, variant = 'grid' }: BookCardProps) {
                     </Button>
                   )}
                   {book.downloadLinks && book.downloadLinks.length > 0 && (
-                    <Button variant="ghost" size="sm" className="text-library-bronze hover:text-library-wood font-body flex-1 text-xs">
+                    <Button variant="ghost" size="sm" className="text-library-bronze-foreground hover:text-library-wood-foreground font-body flex-1 text-xs">
                       <Download className="h-3 w-3 mr-1" />
                       Download
                     </Button>
@@ -183,7 +183,7 @@ export function BookCard({ book, variant = 'grid' }: BookCardProps) {
               </div>
               {book.publicationYearOriginal && (
                 <div className="flex items-center space-x-1 shrink-0">
-                  <Calendar className="h-3 w-3 text-library-bronze" />
+                  <Calendar className="h-3 w-3 text-library-bronze-foreground" />
                   <span>{book.publicationYearOriginal}</span>
                 </div>
               )}
@@ -221,7 +221,7 @@ export function BookCard({ book, variant = 'grid' }: BookCardProps) {
                 </Link>
               </Button>
               {book.onlineReadPath && (
-                <Button asChild variant="outline" size="sm" className="border-2 border-library-wood/80 bg-library-gold/15 text-library-wood hover:bg-library-wood hover:text-library-gold font-semibold font-body shadow-sm">
+                <Button asChild variant="outline" size="sm" className="border-2 border-library-wood/80 bg-library-gold/15 text-library-wood-foreground hover:bg-library-wood hover:text-library-gold font-semibold font-body shadow-sm">
                   <Link to={`/ler/${book.id}`}>
                     <BookOpen className="h-3.5 w-3.5 mr-1" />
                     Ler Online

@@ -128,10 +128,10 @@ export default function AdminCategories() {
         {/* Header */}
         <div className="flex justify-between items-center">
           <div>
-            <h2 className="font-display text-3xl font-bold text-library-wood">
+            <h2 className="font-display text-3xl font-bold text-library-wood-foreground">
               Gerenciar Categorias
             </h2>
-            <p className="font-body text-library-bronze mt-1">
+            <p className="font-body text-library-bronze-foreground mt-1">
               Organize e classifique o catálogo do Scriptorium Divinum
             </p>
           </div>
@@ -146,14 +146,14 @@ export default function AdminCategories() {
 
         {/* Stats Cards */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-          <Card className="border-library-bronze bg-library-parchment">
+          <Card className="border-library-bronze bg-library-parchment-surface">
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <p className="text-sm font-medium text-library-bronze font-body">
+                  <p className="text-sm font-medium text-library-bronze-foreground font-body">
                     Total de Categorias
                   </p>
-                  <p className="text-3xl font-bold text-library-wood font-display">
+                  <p className="text-3xl font-bold text-library-wood-foreground font-display">
                     {isLoading ? '...' : categories?.length || 0}
                   </p>
                 </div>
@@ -164,17 +164,17 @@ export default function AdminCategories() {
             </CardContent>
           </Card>
 
-          <Card className="border-library-bronze bg-library-parchment">
+          <Card className="border-library-bronze bg-library-parchment-surface">
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <p className="text-sm font-medium text-library-bronze font-body">
+                  <p className="text-sm font-medium text-library-bronze-foreground font-body">
                     Mais Popular
                   </p>
-                  <p className="text-lg font-bold text-library-wood font-display truncate">
+                  <p className="text-lg font-bold text-library-wood-foreground font-display truncate">
                     {isLoading ? '...' : mostPopularCategory?.name || '-'}
                   </p>
-                  <p className="text-xs text-library-bronze font-body">
+                  <p className="text-xs text-library-bronze-foreground font-body">
                     {mostPopularCategory?.bookCount || 0} livros
                   </p>
                 </div>
@@ -185,14 +185,14 @@ export default function AdminCategories() {
             </CardContent>
           </Card>
 
-          <Card className="border-library-bronze bg-library-parchment">
+          <Card className="border-library-bronze bg-library-parchment-surface">
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <p className="text-sm font-medium text-library-bronze font-body">
+                  <p className="text-sm font-medium text-library-bronze-foreground font-body">
                     Com Descrição
                   </p>
-                  <p className="text-3xl font-bold text-library-wood font-display">
+                  <p className="text-3xl font-bold text-library-wood-foreground font-display">
                     {isLoading ? '...' : categories?.filter(cat => cat.description).length || 0}
                   </p>
                 </div>
@@ -203,14 +203,14 @@ export default function AdminCategories() {
             </CardContent>
           </Card>
 
-          <Card className="border-library-bronze bg-library-parchment">
+          <Card className="border-library-bronze bg-library-parchment-surface">
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <p className="text-sm font-medium text-library-bronze font-body">
+                  <p className="text-sm font-medium text-library-bronze-foreground font-body">
                     Livros Categorizados
                   </p>
-                  <p className="text-3xl font-bold text-library-wood font-display">
+                  <p className="text-3xl font-bold text-library-wood-foreground font-display">
                     {isLoading ? '...' : books?.items?.filter(book => book.categories?.length).length || 0}
                   </p>
                 </div>
@@ -225,7 +225,7 @@ export default function AdminCategories() {
         {/* Search */}
         <div className="flex gap-4 items-center">
           <div className="relative flex-1 max-w-md">
-            <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-library-bronze" />
+            <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-library-bronze-foreground" />
             <Input
               type="text"
               placeholder="Buscar categorias..."
@@ -237,13 +237,13 @@ export default function AdminCategories() {
         </div>
 
         {/* Categories Table */}
-        <Card className="border-library-bronze bg-library-parchment">
+        <Card className="border-library-bronze bg-library-parchment-surface">
           <CardHeader>
-            <CardTitle className="font-display text-library-wood flex items-center gap-2">
+            <CardTitle className="font-display text-library-wood-foreground flex items-center gap-2">
               <FolderOpen className="h-5 w-5 text-library-gold" />
               Catálogo de Categorias
             </CardTitle>
-            <CardDescription className="font-body text-library-bronze">
+            <CardDescription className="font-body text-library-bronze-foreground">
               {filteredCategories.length} categorias encontradas
             </CardDescription>
           </CardHeader>
@@ -254,12 +254,12 @@ export default function AdminCategories() {
               </div>
             ) : isLoading ? (
               <div className="text-center py-8">
-                <p className="text-library-bronze font-body">Carregando categorias...</p>
+                <p className="text-library-bronze-foreground font-body">Carregando categorias...</p>
               </div>
             ) : filteredCategories.length === 0 ? (
               <div className="text-center py-8">
-                <FolderOpen className="h-12 w-12 text-library-bronze mx-auto mb-4" />
-                <p className="text-library-bronze font-body">
+                <FolderOpen className="h-12 w-12 text-library-bronze-foreground mx-auto mb-4" />
+                <p className="text-library-bronze-foreground font-body">
                   {searchTerm ? 'Nenhuma categoria encontrada para sua busca.' : 'Nenhuma categoria cadastrada.'}
                 </p>
               </div>
@@ -268,11 +268,11 @@ export default function AdminCategories() {
                 <Table>
                   <TableHeader>
                     <TableRow>
-                      <TableHead className="font-body text-library-wood">Nome</TableHead>
-                      <TableHead className="font-body text-library-wood">Descrição</TableHead>
-                      <TableHead className="font-body text-library-wood">Livros</TableHead>
-                      <TableHead className="font-body text-library-wood">Popularidade</TableHead>
-                      <TableHead className="font-body text-library-wood text-right">Ações</TableHead>
+                      <TableHead className="font-body text-library-wood-foreground">Nome</TableHead>
+                      <TableHead className="font-body text-library-wood-foreground">Descrição</TableHead>
+                      <TableHead className="font-body text-library-wood-foreground">Livros</TableHead>
+                      <TableHead className="font-body text-library-wood-foreground">Popularidade</TableHead>
+                      <TableHead className="font-body text-library-wood-foreground text-right">Ações</TableHead>
                     </TableRow>
                   </TableHeader>
                   <TableBody>
@@ -281,7 +281,7 @@ export default function AdminCategories() {
                       
                       return (
                         <TableRow key={category.name}>
-                          <TableCell className="font-medium font-body text-library-wood">
+                          <TableCell className="font-medium font-body text-library-wood-foreground">
                             <div className="flex items-center space-x-3">
                               <div className="w-10 h-10 bg-library-gold/20 rounded-full flex items-center justify-center">
                                 <FolderOpen className="h-5 w-5 text-library-gold" />
@@ -289,21 +289,21 @@ export default function AdminCategories() {
                               <div>
                                 <p className="font-medium">{category.name}</p>
                                 {category.slug && (
-                                  <p className="text-xs text-library-bronze">
+                                  <p className="text-xs text-library-bronze-foreground">
                                     /{category.slug}
                                   </p>
                                 )}
                               </div>
                             </div>
                           </TableCell>
-                          <TableCell className="font-body text-library-bronze max-w-xs">
+                          <TableCell className="font-body text-library-bronze-foreground max-w-xs">
                             <p className="truncate" title={category.description}>
                               {category.description || '-'}
                             </p>
                           </TableCell>
-                          <TableCell className="font-body text-library-bronze">
+                          <TableCell className="font-body text-library-bronze-foreground">
                             <div className="flex items-center space-x-2">
-                              <Badge variant="outline" className="border-library-gold text-library-bronze">
+                              <Badge variant="outline" className="border-library-gold text-library-bronze-foreground">
                                 {category.bookCount || 0}
                               </Badge>
                               {(category.bookCount || 0) > 0 && (
@@ -311,7 +311,7 @@ export default function AdminCategories() {
                                   variant="ghost"
                                   size="sm"
                                   onClick={() => handleViewBooks(category.name)}
-                                  className="text-library-bronze hover:text-library-wood"
+                                  className="text-library-bronze-foreground hover:text-library-wood-foreground"
                                 >
                                   <BookOpen className="h-3 w-3" />
                                 </Button>
@@ -324,7 +324,7 @@ export default function AdminCategories() {
                                 value={popularityPercentage} 
                                 className="w-16 h-2" 
                               />
-                              <span className="text-xs text-library-bronze font-body">
+                              <span className="text-xs text-library-bronze-foreground font-body">
                                 {popularityPercentage.toFixed(1)}%
                               </span>
                             </div>

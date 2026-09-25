@@ -103,7 +103,7 @@ export function Header() {
           {/* Desktop Search Bar */}
           <div className="hidden md:block flex-1 max-w-md mx-4" ref={searchRef}>
             <form onSubmit={handleSearchSubmit} className="relative">
-              <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-library-bronze" />
+              <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-library-bronze-foreground" />
               <Input
                 value={searchQuery}
                 onChange={(e) => {
@@ -111,7 +111,7 @@ export function Header() {
                   setShowResults(e.target.value.length > 2);
                 }}
                 placeholder={t('busca.placeholder')}
-                className="pl-10 pr-10 bg-library-parchment border-library-bronze text-foreground placeholder:text-library-bronze font-body text-sm"
+                className="pl-10 pr-10 bg-library-parchment-surface border-library-bronze text-foreground placeholder:text-library-bronze-foreground font-body text-sm"
               />
               {searchQuery && (
                 <button
@@ -120,7 +120,7 @@ export function Header() {
                     setSearchQuery('');
                     setShowResults(false);
                   }}
-                  className="absolute right-3 top-1/2 transform -translate-y-1/2 text-library-bronze hover:text-library-wood"
+                  className="absolute right-3 top-1/2 transform -translate-y-1/2 text-library-bronze-foreground hover:text-library-wood-foreground"
                 >
                   <X className="h-4 w-4" />
                 </button>
@@ -128,12 +128,12 @@ export function Header() {
 
               {/* Search Results Dropdown */}
               {showResults && searchQuery.length > 2 && (
-                <Card className="absolute top-full left-0 right-0 mt-2 bg-library-parchment border-library-bronze shadow-lg z-50 max-h-96 overflow-y-auto">
+                <Card className="absolute top-full left-0 right-0 mt-2 bg-library-parchment-surface border-library-bronze shadow-lg z-50 max-h-96 overflow-y-auto">
                   <CardContent className="p-4">
                     {searchLoading ? (
                       <div className="flex items-center justify-center py-4">
                         <Loader2 className="h-4 w-4 animate-spin text-library-gold mr-2" />
-                        <span className="font-body text-library-bronze text-sm">Buscando...</span>
+                        <span className="font-body text-library-bronze-foreground text-sm">Buscando...</span>
                       </div>
                     ) : searchError ? (
                       <div className="text-center py-4">
@@ -146,7 +146,7 @@ export function Header() {
                       <div className="space-y-4">
                         {searchResults.books.length > 0 && (
                           <div>
-                            <h4 className="font-display font-semibold text-library-wood mb-2 text-sm">
+                            <h4 className="font-display font-semibold text-library-wood-foreground mb-2 text-sm">
                               Livros ({searchResults.books.length})
                             </h4>
                             <div className="space-y-2">
@@ -160,10 +160,10 @@ export function Header() {
                                   <div className="flex items-start gap-3">
                                     <BookOpen className="h-4 w-4 text-library-gold mt-0.5 flex-shrink-0" />
                                     <div className="flex-1 min-w-0">
-                                      <p className="font-body font-medium text-library-wood text-sm truncate">
+                                      <p className="font-body font-medium text-library-wood-foreground text-sm truncate">
                                         {book.title}
                                       </p>
-                                      <p className="font-body text-library-bronze text-xs">
+                                      <p className="font-body text-library-bronze-foreground text-xs">
                                         Por {book.author.name}
                                       </p>
                                     </div>
@@ -176,7 +176,7 @@ export function Header() {
 
                         {searchResults.authors.length > 0 && (
                           <div>
-                            <h4 className="font-display font-semibold text-library-wood mb-2 text-sm">
+                            <h4 className="font-display font-semibold text-library-wood-foreground mb-2 text-sm">
                               Autores ({searchResults.authors.length})
                             </h4>
                             <div className="space-y-2">
@@ -190,7 +190,7 @@ export function Header() {
                                   <div className="flex items-start gap-3">
                                     <Users className="h-4 w-4 text-library-gold mt-0.5 flex-shrink-0" />
                                     <div className="flex-1 min-w-0">
-                                      <p className="font-body font-medium text-library-wood text-sm">
+                                      <p className="font-body font-medium text-library-wood-foreground text-sm">
                                         {author.name}
                                       </p>
                                     </div>
@@ -203,7 +203,7 @@ export function Header() {
                       </div>
                     ) : (
                       <div className="text-center py-4">
-                        <p className="font-body text-library-bronze text-sm">
+                        <p className="font-body text-library-bronze-foreground text-sm">
                           Nenhum resultado encontrado.
                         </p>
                       </div>
@@ -292,12 +292,12 @@ export function Header() {
 
                   {/* Mobile Search inside Drawer */}
                   <form onSubmit={handleSearchSubmit} className="mb-6 relative">
-                    <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-library-bronze" />
+                    <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-library-bronze-foreground" />
                     <Input
                       value={searchQuery}
                       onChange={(e) => setSearchQuery(e.target.value)}
                       placeholder={t('busca.placeholder')}
-                      className="pl-10 bg-library-parchment text-foreground border-library-bronze font-body text-sm"
+                      className="pl-10 bg-library-parchment-surface text-foreground border-library-bronze font-body text-sm"
                     />
                   </form>
 
@@ -343,18 +343,18 @@ export function Header() {
         {mobileSearchOpen && (
           <div className="md:hidden mt-3 pt-3 border-t border-library-bronze/40">
             <form onSubmit={handleSearchSubmit} className="relative">
-              <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-library-bronze" />
+              <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-library-bronze-foreground" />
               <Input
                 autoFocus
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 placeholder={t('busca.placeholder')}
-                className="pl-10 pr-10 bg-library-parchment text-foreground border-library-bronze font-body text-sm w-full"
+                className="pl-10 pr-10 bg-library-parchment-surface text-foreground border-library-bronze font-body text-sm w-full"
               />
               <button
                 type="button"
                 onClick={() => setMobileSearchOpen(false)}
-                className="absolute right-3 top-1/2 transform -translate-y-1/2 text-library-bronze"
+                className="absolute right-3 top-1/2 transform -translate-y-1/2 text-library-bronze-foreground"
               >
                 <X className="h-4 w-4" />
               </button>

@@ -282,7 +282,7 @@ export default function Reader() {
       <Layout>
         <div className="container mx-auto px-4 py-8">
           <div className="mb-6">
-            <Button asChild variant="ghost" size="sm" className="font-body text-library-bronze hover:text-library-wood">
+            <Button asChild variant="ghost" size="sm" className="font-body text-library-bronze-foreground hover:text-library-wood-foreground">
               <Link to={bookId ? `/livros/${bookId}` : '/livros'}>
                 <ArrowLeft className="h-4 w-4 mr-2" />
                 Voltar ao Catálogo
@@ -291,7 +291,7 @@ export default function Reader() {
           </div>
           <div className="flex items-center justify-center py-24">
             <Loader2 className="h-8 w-8 animate-spin text-library-gold mr-3" />
-            <span className="font-body text-library-bronze text-lg">Preparando a leitura...</span>
+            <span className="font-body text-library-bronze-foreground text-lg">Preparando a leitura...</span>
           </div>
         </div>
       </Layout>
@@ -303,7 +303,7 @@ export default function Reader() {
       <Layout>
         <div className="container mx-auto px-4 py-8">
           <div className="mb-6">
-            <Button asChild variant="ghost" size="sm" className="font-body text-library-bronze hover:text-library-wood">
+            <Button asChild variant="ghost" size="sm" className="font-body text-library-bronze-foreground hover:text-library-wood-foreground">
               <Link to={bookId ? `/livros/${bookId}` : '/livros'}>
                 <ArrowLeft className="h-4 w-4 mr-2" />
                 Voltar ao Catálogo
@@ -312,9 +312,9 @@ export default function Reader() {
           </div>
           <Card className="bg-card/95 backdrop-blur-sm border-library-bronze shadow-book parchment-bg">
             <CardContent className="p-10 text-center">
-              <ScrollText className="h-12 w-12 text-library-bronze mx-auto mb-4" />
-              <h1 className="font-heading text-2xl text-library-wood mb-2">Conteúdo indisponível</h1>
-              <p className="font-body text-library-bronze">
+              <ScrollText className="h-12 w-12 text-library-bronze-foreground mx-auto mb-4" />
+              <h1 className="font-heading text-2xl text-library-wood-foreground mb-2">Conteúdo indisponível</h1>
+              <p className="font-body text-library-bronze-foreground">
                 O texto desta obra ainda não está disponível no leitor online.
                 Você pode encontrar os formatos para download na página da obra.
               </p>
@@ -332,8 +332,8 @@ export default function Reader() {
 
   const indexNav = (
     <>
-      <p className="flex items-center gap-2 font-display text-sm font-semibold text-library-wood mb-3">
-        <List className="h-4 w-4 text-library-bronze" />
+      <p className="flex items-center gap-2 font-display text-sm font-semibold text-library-wood-foreground mb-3">
+        <List className="h-4 w-4 text-library-bronze-foreground" />
         Índice da Obra
       </p>
       <ul className="space-y-1 max-h-[65vh] overflow-y-auto pr-1">
@@ -346,8 +346,8 @@ export default function Reader() {
                 item.level === 3 ? 'text-xs pl-5' : 'text-sm'
               } ${
                 activeId === item.id
-                  ? 'bg-library-gold/20 text-library-wood font-semibold'
-                  : 'text-library-bronze hover:bg-library-gold/10 hover:text-library-wood'
+                  ? 'bg-library-gold/20 text-library-wood-foreground font-semibold'
+                  : 'text-library-bronze-foreground hover:bg-library-gold/10 hover:text-library-wood-foreground'
               }`}
             >
               {item.text}
@@ -429,9 +429,9 @@ export default function Reader() {
                     <span className="text-xs">Índice</span>
                   </Button>
                 </DrawerTrigger>
-                <DrawerContent className="bg-library-parchment border-library-bronze p-6">
+                <DrawerContent className="bg-library-parchment-surface border-library-bronze p-6">
                   <DrawerHeader className="text-left pb-2 border-b border-library-bronze/30">
-                    <DrawerTitle className="font-display text-lg text-library-wood">
+                    <DrawerTitle className="font-display text-lg text-library-wood-foreground">
                       {data.title}
                     </DrawerTitle>
                   </DrawerHeader>
@@ -447,7 +447,7 @@ export default function Reader() {
       <div className="container mx-auto px-4 py-6 md:py-8">
         {/* Top Action Bar */}
         <div className="flex items-center justify-between gap-4 mb-6">
-          <Button asChild variant="ghost" size="sm" className="font-body text-library-bronze hover:text-library-wood">
+          <Button asChild variant="ghost" size="sm" className="font-body text-library-bronze-foreground hover:text-library-wood-foreground">
             <Link to={bookId ? `/livros/${bookId}` : '/livros'}>
               <ArrowLeft className="h-4 w-4 mr-2" />
               Voltar ao Catálogo
@@ -459,7 +459,7 @@ export default function Reader() {
             <Button
               variant="outline"
               size="sm"
-              className="h-8 px-2.5 font-body text-xs border-library-bronze text-library-wood hover:bg-library-gold/20"
+              className="h-8 px-2.5 font-body text-xs border-library-bronze text-library-wood-foreground hover:bg-library-gold/20"
               onClick={() => setCitationOpen(true)}
             >
               <GraduationCap className="h-3.5 w-3.5 mr-1 text-library-gold" />
@@ -470,7 +470,7 @@ export default function Reader() {
             <Button
               variant="outline"
               size="sm"
-              className="h-8 px-2.5 font-body text-xs border-library-bronze text-library-wood hover:bg-library-gold/20"
+              className="h-8 px-2.5 font-body text-xs border-library-bronze text-library-wood-foreground hover:bg-library-gold/20"
               onClick={() => setNotesOpen(true)}
             >
               <Bookmark className="h-3.5 w-3.5 mr-1 text-library-gold" />
@@ -482,14 +482,14 @@ export default function Reader() {
               <div className="lg:hidden">
                 <Drawer open={drawerOpen} onOpenChange={setDrawerOpen}>
                   <DrawerTrigger asChild>
-                    <Button variant="outline" size="sm" className="h-8 px-2.5 font-body text-xs border-library-bronze text-library-wood">
+                    <Button variant="outline" size="sm" className="h-8 px-2.5 font-body text-xs border-library-bronze text-library-wood-foreground">
                       <List className="h-3.5 w-3.5 mr-1 text-library-gold" />
                       Índice
                     </Button>
                   </DrawerTrigger>
-                  <DrawerContent className="bg-library-parchment border-library-bronze p-6">
+                  <DrawerContent className="bg-library-parchment-surface border-library-bronze p-6">
                     <DrawerHeader className="text-left pb-2 border-b border-library-bronze/30">
-                      <DrawerTitle className="font-display text-lg text-library-wood">
+                      <DrawerTitle className="font-display text-lg text-library-wood-foreground">
                         {data.title}
                       </DrawerTitle>
                     </DrawerHeader>
@@ -507,7 +507,7 @@ export default function Reader() {
         {/* Header Title Section */}
         <div className="flex items-start gap-3 mb-3 max-w-3xl mx-auto lg:mx-0">
           <BookOpen className="h-6 w-6 text-library-gold mt-1 shrink-0" />
-          <h1 className="font-heading text-2xl md:text-4xl text-library-wood leading-tight">{data.title}</h1>
+          <h1 className="font-heading text-2xl md:text-4xl text-library-wood-foreground leading-tight">{data.title}</h1>
         </div>
 
         <p className="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs md:text-sm text-muted-foreground font-body mb-8 max-w-3xl mx-auto lg:mx-0 md:ml-9">
@@ -515,7 +515,7 @@ export default function Reader() {
             <Clock className="h-3.5 w-3.5 text-library-gold" />
             ~{parsed.minutes} min de leitura
           </span>
-          <span className="hidden sm:flex items-center gap-1.5 text-library-bronze/80">
+          <span className="hidden sm:flex items-center gap-1.5 text-library-bronze-foreground/80">
             <BookMarked className="h-3.5 w-3.5" />
             Selecione uma frase para grifar ou criar card
           </span>
@@ -604,14 +604,14 @@ export default function Reader() {
           {/* Main Content Area capped with max-w-prose-reading (65ch) */}
           <div className="min-w-0 flex-1 max-w-prose-reading mx-auto" ref={contentRef}>
             {parsed.provenance && (
-              <div className="prose prose-sm max-w-none mb-8 p-4 rounded-lg bg-library-parchment/60 border border-library-bronze/30 text-library-bronze">
+              <div className="prose prose-sm max-w-none mb-8 p-4 rounded-lg bg-library-parchment-surface/60 border border-library-bronze/30 text-library-bronze-foreground">
                 <ReactMarkdown remarkPlugins={[remarkGfm]}>{parsed.provenance}</ReactMarkdown>
               </div>
             )}
 
             <Card className={`transition-all duration-200 ${themeClasses}`}>
               <CardContent className="p-5 md:p-10">
-                <article className={`prose prose-lg max-w-none capitular-medieval ${fontClass} ${fontSizeClass} prose-headings:font-heading prose-headings:text-library-wood prose-a:text-library-bronze prose-blockquote:border-library-bronze prose-blockquote:font-body prose-strong:text-library-wood`}>
+                <article className={`prose prose-lg max-w-none capitular-medieval ${fontClass} ${fontSizeClass} prose-headings:font-heading prose-blockquote:border-library-bronze prose-blockquote:font-body [--tw-prose-body]:[color:inherit] [--tw-prose-headings]:[color:inherit] [--tw-prose-lead]:[color:inherit] [--tw-prose-links]:[color:inherit] [--tw-prose-bold]:[color:inherit] [--tw-prose-counters]:[color:inherit] [--tw-prose-bullets]:[color:inherit] prose-a:underline`}>
                   <ReactMarkdown remarkPlugins={[remarkGfm]} components={markdownComponents}>
                     {parsed.content}
                   </ReactMarkdown>

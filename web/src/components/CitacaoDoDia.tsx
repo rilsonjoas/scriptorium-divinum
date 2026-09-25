@@ -50,14 +50,14 @@ export function CitacaoDoDia() {
   return (
     <section className="container mx-auto px-4 py-12" aria-label="Citação do dia">
       <div className="ornament mb-6"></div>
-      <h2 className="font-display text-2xl font-semibold text-library-wood golden-foil text-center mb-2">
+      <h2 className="font-display text-2xl font-semibold text-library-wood-foreground golden-foil text-center mb-2">
         Citação do Dia
       </h2>
       <p className="font-body text-xs text-muted-foreground uppercase tracking-widest text-center mb-8">
         {formatDate(citacao.date)}
       </p>
       <blockquote className="max-w-3xl mx-auto rounded-lg border border-library-bronze bg-card/95 backdrop-blur-sm parchment-bg shadow-book p-8 text-center">
-        <p className="font-display text-xl md:text-2xl text-library-wood leading-relaxed mb-6">
+        <p className="font-display text-xl md:text-2xl text-library-wood-foreground leading-relaxed mb-6">
           “{citacao.text}”
         </p>
         <p className="font-body text-sm text-library-crimson uppercase tracking-widest">
@@ -69,7 +69,7 @@ export function CitacaoDoDia() {
             href={ctaUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 mt-6 font-body text-sm text-library-bronze hover:text-library-crimson transition-colors"
+            className="inline-flex items-center gap-2 mt-6 font-body text-sm text-library-bronze-foreground hover:text-library-crimson transition-colors"
           >
             <ExternalLink className="h-4 w-4" />
             {ctaLabel}

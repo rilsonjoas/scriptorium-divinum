@@ -39,13 +39,13 @@ export function DownloadLinksEditor({ value, onChange }: DownloadLinksEditorProp
   return (
     <div className="grid grid-cols-1 gap-3">
       <div className="flex items-center justify-between">
-        <Label className="font-body text-library-wood">Links de Download</Label>
+        <Label className="font-body text-library-wood-foreground">Links de Download</Label>
         <Button
           type="button"
           variant="outline"
           size="sm"
           onClick={addLink}
-          className="border-library-bronze text-library-bronze font-body"
+          className="border-library-bronze text-library-bronze-foreground font-body"
         >
           <Plus className="mr-1 h-3 w-3" />
           Adicionar
@@ -53,7 +53,7 @@ export function DownloadLinksEditor({ value, onChange }: DownloadLinksEditorProp
       </div>
 
       {value.length === 0 && (
-        <p className="text-sm font-body text-library-bronze/70">
+        <p className="text-sm font-body text-library-bronze-foreground/70">
           Nenhum link cadastrado. Adicione formatos (PDF, EPUB, MOBI, TXT ou leitura online).
         </p>
       )}
@@ -65,7 +65,7 @@ export function DownloadLinksEditor({ value, onChange }: DownloadLinksEditorProp
         >
           <div className="grid grid-cols-3 gap-2">
             <div>
-              <Label className="font-body text-library-wood">Formato</Label>
+              <Label className="font-body text-library-wood-foreground">Formato</Label>
               <Select
                 value={link.format}
                 onValueChange={(format: BookFormat) => updateLink(index, { format })}
@@ -83,7 +83,7 @@ export function DownloadLinksEditor({ value, onChange }: DownloadLinksEditorProp
               </Select>
             </div>
             <div>
-              <Label className="font-body text-library-wood">Fonte</Label>
+              <Label className="font-body text-library-wood-foreground">Fonte</Label>
               <Input
                 value={link.source || ''}
                 onChange={(e) => updateLink(index, { source: e.target.value })}
@@ -92,7 +92,7 @@ export function DownloadLinksEditor({ value, onChange }: DownloadLinksEditorProp
               />
             </div>
             <div>
-              <Label className="font-body text-library-wood">Tamanho (bytes)</Label>
+              <Label className="font-body text-library-wood-foreground">Tamanho (bytes)</Label>
               <Input
                 type="number"
                 min="0"
@@ -107,7 +107,7 @@ export function DownloadLinksEditor({ value, onChange }: DownloadLinksEditorProp
           </div>
           <div className="grid grid-cols-[1fr_auto] gap-2 items-start">
             <div>
-              <Label className="font-body text-library-wood">URL</Label>
+              <Label className="font-body text-library-wood-foreground">URL</Label>
               <Input
                 type="url"
                 value={link.url}

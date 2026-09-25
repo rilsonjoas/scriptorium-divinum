@@ -11,10 +11,10 @@ export function AdminRoute({ children }: AdminRouteProps) {
 
   if (loading) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-library-parchment">
+      <div className="min-h-screen flex items-center justify-center bg-library-parchment-surface">
         <div className="flex items-center space-x-3">
           <Loader2 className="h-8 w-8 animate-spin text-library-gold" />
-          <span className="text-library-bronze font-body text-lg">
+          <span className="text-library-bronze-foreground font-body text-lg">
             Carregando...
           </span>
         </div>

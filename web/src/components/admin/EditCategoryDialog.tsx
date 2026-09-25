@@ -65,12 +65,12 @@ export function EditCategoryDialog({ category, open, onClose, onSave }: EditCate
 
   return (
     <Dialog open={open} onOpenChange={onClose}>
-      <DialogContent className="max-w-lg bg-library-parchment border-library-bronze">
+      <DialogContent className="max-w-lg bg-library-parchment-surface border-library-bronze">
         <DialogHeader>
-          <DialogTitle className="font-display text-library-wood">
+          <DialogTitle className="font-display text-library-wood-foreground">
             Editar Categoria
           </DialogTitle>
-          <DialogDescription className="font-body text-library-bronze">
+          <DialogDescription className="font-body text-library-bronze-foreground">
             Atualize as informações da categoria abaixo.
           </DialogDescription>
         </DialogHeader>
@@ -78,7 +78,7 @@ export function EditCategoryDialog({ category, open, onClose, onSave }: EditCate
         <div className="grid gap-4 py-4">
           {/* Name */}
           <div className="grid grid-cols-1 gap-2">
-            <Label htmlFor="name" className="font-body text-library-wood">
+            <Label htmlFor="name" className="font-body text-library-wood-foreground">
               Nome da Categoria *
             </Label>
             <Input
@@ -91,7 +91,7 @@ export function EditCategoryDialog({ category, open, onClose, onSave }: EditCate
 
           {/* Slug */}
           <div className="grid grid-cols-1 gap-2">
-            <Label htmlFor="slug" className="font-body text-library-wood">
+            <Label htmlFor="slug" className="font-body text-library-wood-foreground">
               Slug (URL)
             </Label>
             <div className="flex gap-2">
@@ -107,7 +107,7 @@ export function EditCategoryDialog({ category, open, onClose, onSave }: EditCate
                 onClick={generateSlug}
                 variant="outline"
                 size="sm"
-                className="border-library-bronze text-library-bronze font-body whitespace-nowrap"
+                className="border-library-bronze text-library-bronze-foreground font-body whitespace-nowrap"
               >
                 Auto
               </Button>
@@ -116,7 +116,7 @@ export function EditCategoryDialog({ category, open, onClose, onSave }: EditCate
 
           {/* Description */}
           <div className="grid grid-cols-1 gap-2">
-            <Label htmlFor="description" className="font-body text-library-wood">
+            <Label htmlFor="description" className="font-body text-library-wood-foreground">
               Descrição
             </Label>
             <Textarea
@@ -130,7 +130,7 @@ export function EditCategoryDialog({ category, open, onClose, onSave }: EditCate
 
           {/* Book Count (read-only) */}
           <div className="grid grid-cols-1 gap-2">
-            <Label className="font-body text-library-wood">
+            <Label className="font-body text-library-wood-foreground">
               Livros nesta categoria
             </Label>
             <Input
@@ -145,7 +145,7 @@ export function EditCategoryDialog({ category, open, onClose, onSave }: EditCate
           <Button 
             variant="outline" 
             onClick={onClose}
-            className="border-library-bronze text-library-bronze font-body"
+            className="border-library-bronze text-library-bronze-foreground font-body"
           >
             Cancelar
           </Button>

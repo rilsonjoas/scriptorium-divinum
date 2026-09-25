@@ -81,12 +81,12 @@ export function AddAuthorDialog({ open, onClose, onSave }: AddAuthorDialogProps)
 
   return (
     <Dialog open={open} onOpenChange={handleClose}>
-      <DialogContent className="max-w-2xl max-h-[80vh] overflow-y-auto bg-library-parchment border-library-bronze">
+      <DialogContent className="max-w-2xl max-h-[80vh] overflow-y-auto bg-library-parchment-surface border-library-bronze">
         <DialogHeader>
-          <DialogTitle className="font-display text-library-wood">
+          <DialogTitle className="font-display text-library-wood-foreground">
             Adicionar Novo Autor
           </DialogTitle>
-          <DialogDescription className="font-body text-library-bronze">
+          <DialogDescription className="font-body text-library-bronze-foreground">
             Preencha as informações do novo autor abaixo.
           </DialogDescription>
         </DialogHeader>
@@ -94,7 +94,7 @@ export function AddAuthorDialog({ open, onClose, onSave }: AddAuthorDialogProps)
         <div className="grid gap-4 py-4">
           {/* Name */}
           <div className="grid grid-cols-1 gap-2">
-            <Label htmlFor="name" className="font-body text-library-wood">
+            <Label htmlFor="name" className="font-body text-library-wood-foreground">
               Nome *
             </Label>
             <Input
@@ -108,7 +108,7 @@ export function AddAuthorDialog({ open, onClose, onSave }: AddAuthorDialogProps)
 
           {/* Original Name */}
           <div className="grid grid-cols-1 gap-2">
-            <Label htmlFor="originalName" className="font-body text-library-wood">
+            <Label htmlFor="originalName" className="font-body text-library-wood-foreground">
               Nome Original
             </Label>
             <Input
@@ -123,7 +123,7 @@ export function AddAuthorDialog({ open, onClose, onSave }: AddAuthorDialogProps)
           {/* Birth and Death Years */}
           <div className="grid grid-cols-2 gap-4">
             <div>
-              <Label htmlFor="birthYear" className="font-body text-library-wood">
+              <Label htmlFor="birthYear" className="font-body text-library-wood-foreground">
                 Ano de Nascimento
               </Label>
               <Input
@@ -135,7 +135,7 @@ export function AddAuthorDialog({ open, onClose, onSave }: AddAuthorDialogProps)
               />
             </div>
             <div>
-              <Label htmlFor="deathYear" className="font-body text-library-wood">
+              <Label htmlFor="deathYear" className="font-body text-library-wood-foreground">
                 Ano de Morte
               </Label>
               <Input
@@ -151,7 +151,7 @@ export function AddAuthorDialog({ open, onClose, onSave }: AddAuthorDialogProps)
           {/* Period and Nationality */}
           <div className="grid grid-cols-2 gap-4">
             <div>
-              <Label htmlFor="period" className="font-body text-library-wood">
+              <Label htmlFor="period" className="font-body text-library-wood-foreground">
                 Período/Época
               </Label>
               <Input
@@ -163,7 +163,7 @@ export function AddAuthorDialog({ open, onClose, onSave }: AddAuthorDialogProps)
               />
             </div>
             <div>
-              <Label htmlFor="nationality" className="font-body text-library-wood">
+              <Label htmlFor="nationality" className="font-body text-library-wood-foreground">
                 Nacionalidade
               </Label>
               <Input
@@ -178,7 +178,7 @@ export function AddAuthorDialog({ open, onClose, onSave }: AddAuthorDialogProps)
 
           {/* Bio Summary */}
           <div className="grid grid-cols-1 gap-2">
-            <Label htmlFor="bioSummary" className="font-body text-library-wood">
+            <Label htmlFor="bioSummary" className="font-body text-library-wood-foreground">
               Resumo Biográfico
             </Label>
             <Textarea
@@ -192,7 +192,7 @@ export function AddAuthorDialog({ open, onClose, onSave }: AddAuthorDialogProps)
 
           {/* Biography */}
           <div className="grid grid-cols-1 gap-2">
-            <Label htmlFor="biography" className="font-body text-library-wood">
+            <Label htmlFor="biography" className="font-body text-library-wood-foreground">
               Biografia Completa
             </Label>
             <Textarea
@@ -206,7 +206,7 @@ export function AddAuthorDialog({ open, onClose, onSave }: AddAuthorDialogProps)
 
           {/* Portrait URL */}
           <div className="grid grid-cols-1 gap-2">
-            <Label htmlFor="portraitImageUrl" className="font-body text-library-wood">
+            <Label htmlFor="portraitImageUrl" className="font-body text-library-wood-foreground">
               URL da Imagem do Retrato
             </Label>
             <Input
@@ -224,7 +224,7 @@ export function AddAuthorDialog({ open, onClose, onSave }: AddAuthorDialogProps)
           <Button 
             variant="outline" 
             onClick={handleClose}
-            className="border-library-bronze text-library-bronze font-body"
+            className="border-library-bronze text-library-bronze-foreground font-body"
           >
             Cancelar
           </Button>

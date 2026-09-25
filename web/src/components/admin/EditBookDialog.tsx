@@ -104,12 +104,12 @@ export function EditBookDialog({ book, open, onClose, onSave, authors }: EditBoo
 
   return (
     <Dialog open={open} onOpenChange={onClose}>
-      <DialogContent className="max-w-2xl max-h-[80vh] overflow-y-auto bg-library-parchment border-library-bronze">
+      <DialogContent className="max-w-2xl max-h-[80vh] overflow-y-auto bg-library-parchment-surface border-library-bronze">
         <DialogHeader>
-          <DialogTitle className="font-display text-library-wood">
+          <DialogTitle className="font-display text-library-wood-foreground">
             Editar Livro
           </DialogTitle>
-          <DialogDescription className="font-body text-library-bronze">
+          <DialogDescription className="font-body text-library-bronze-foreground">
             Atualize as informações do livro abaixo.
           </DialogDescription>
         </DialogHeader>
@@ -117,7 +117,7 @@ export function EditBookDialog({ book, open, onClose, onSave, authors }: EditBoo
         <div className="grid gap-4 py-4">
           {/* Title */}
           <div className="grid grid-cols-1 gap-2">
-            <Label htmlFor="title" className="font-body text-library-wood">
+            <Label htmlFor="title" className="font-body text-library-wood-foreground">
               Título *
             </Label>
             <Input
@@ -130,7 +130,7 @@ export function EditBookDialog({ book, open, onClose, onSave, authors }: EditBoo
 
           {/* Original Title */}
           <div className="grid grid-cols-1 gap-2">
-            <Label htmlFor="originalTitle" className="font-body text-library-wood">
+            <Label htmlFor="originalTitle" className="font-body text-library-wood-foreground">
               Título Original
             </Label>
             <Input
@@ -143,7 +143,7 @@ export function EditBookDialog({ book, open, onClose, onSave, authors }: EditBoo
 
           {/* Author (read-only for now) */}
           <div className="grid grid-cols-1 gap-2">
-            <Label className="font-body text-library-wood">Autor</Label>
+            <Label className="font-body text-library-wood-foreground">Autor</Label>
             <Input
               value={book.author.name}
               disabled
@@ -153,7 +153,7 @@ export function EditBookDialog({ book, open, onClose, onSave, authors }: EditBoo
 
           {/* Description */}
           <div className="grid grid-cols-1 gap-2">
-            <Label htmlFor="description" className="font-body text-library-wood">
+            <Label htmlFor="description" className="font-body text-library-wood-foreground">
               Descrição *
             </Label>
             <Textarea
@@ -167,7 +167,7 @@ export function EditBookDialog({ book, open, onClose, onSave, authors }: EditBoo
           {/* Years */}
           <div className="grid grid-cols-2 gap-4">
             <div>
-              <Label htmlFor="publicationYearOriginal" className="font-body text-library-wood">
+              <Label htmlFor="publicationYearOriginal" className="font-body text-library-wood-foreground">
                 Ano da Publicação Original
               </Label>
               <Input
@@ -178,7 +178,7 @@ export function EditBookDialog({ book, open, onClose, onSave, authors }: EditBoo
               />
             </div>
             <div>
-              <Label htmlFor="publicationYearTranslation" className="font-body text-library-wood">
+              <Label htmlFor="publicationYearTranslation" className="font-body text-library-wood-foreground">
                 Ano da Tradução
               </Label>
               <Input
@@ -194,7 +194,7 @@ export function EditBookDialog({ book, open, onClose, onSave, authors }: EditBoo
           {/* Translator and Language */}
           <div className="grid grid-cols-2 gap-4">
             <div>
-              <Label htmlFor="translator" className="font-body text-library-wood">
+              <Label htmlFor="translator" className="font-body text-library-wood-foreground">
                 Tradutor
               </Label>
               <Input
@@ -205,7 +205,7 @@ export function EditBookDialog({ book, open, onClose, onSave, authors }: EditBoo
               />
             </div>
             <div>
-              <Label htmlFor="language" className="font-body text-library-wood">
+              <Label htmlFor="language" className="font-body text-library-wood-foreground">
                 Idioma *
               </Label>
               <Select 
@@ -229,7 +229,7 @@ export function EditBookDialog({ book, open, onClose, onSave, authors }: EditBoo
 
           {/* Categories */}
           <div className="grid grid-cols-1 gap-2">
-            <Label className="font-body text-library-wood">Categorias</Label>
+            <Label className="font-body text-library-wood-foreground">Categorias</Label>
             <div className="flex gap-2">
               <Input
                 placeholder="Adicionar categoria..."
@@ -242,7 +242,7 @@ export function EditBookDialog({ book, open, onClose, onSave, authors }: EditBoo
                 type="button" 
                 onClick={addCategory}
                 variant="outline"
-                className="border-library-bronze text-library-bronze font-body"
+                className="border-library-bronze text-library-bronze-foreground font-body"
               >
                 Adicionar
               </Button>
@@ -252,7 +252,7 @@ export function EditBookDialog({ book, open, onClose, onSave, authors }: EditBoo
                 <Badge 
                   key={category} 
                   variant="outline" 
-                  className="border-library-gold text-library-bronze"
+                  className="border-library-gold text-library-bronze-foreground"
                 >
                   {category}
                   <button
@@ -270,7 +270,7 @@ export function EditBookDialog({ book, open, onClose, onSave, authors }: EditBoo
           {/* URLs */}
           <div className="grid grid-cols-1 gap-4">
             <div>
-              <Label htmlFor="coverImageUrl" className="font-body text-library-wood">
+              <Label htmlFor="coverImageUrl" className="font-body text-library-wood-foreground">
                 URL da Capa
               </Label>
               <div className="flex gap-2">
@@ -282,7 +282,7 @@ export function EditBookDialog({ book, open, onClose, onSave, authors }: EditBoo
                   className="font-body border-library-bronze"
                   placeholder="/uploads/covers/... ou URL externa"
                 />
-                <label className="shrink-0 inline-flex items-center gap-1.5 rounded-md border border-library-bronze px-3 text-sm font-body text-library-bronze hover:bg-library-gold/10 cursor-pointer">
+                <label className="shrink-0 inline-flex items-center gap-1.5 rounded-md border border-library-bronze px-3 text-sm font-body text-library-bronze-foreground hover:bg-library-gold/10 cursor-pointer">
                   {uploadingCover ? 'Enviando…' : 'Enviar'}
                   <input
                     type="file"
@@ -308,7 +308,7 @@ export function EditBookDialog({ book, open, onClose, onSave, authors }: EditBoo
               </div>
             </div>
             <div>
-              <Label htmlFor="onlineReadPath" className="font-body text-library-wood">
+              <Label htmlFor="onlineReadPath" className="font-body text-library-wood-foreground">
                 Caminho para Leitura Online
               </Label>
               <Input
@@ -330,7 +330,7 @@ export function EditBookDialog({ book, open, onClose, onSave, authors }: EditBoo
               checked={formData.featured || false}
               onCheckedChange={(checked) => setFormData({ ...formData, featured: checked })}
             />
-            <Label htmlFor="featured" className="font-body text-library-wood">
+            <Label htmlFor="featured" className="font-body text-library-wood-foreground">
               Livro em Destaque
             </Label>
           </div>
@@ -340,7 +340,7 @@ export function EditBookDialog({ book, open, onClose, onSave, authors }: EditBoo
           <Button 
             variant="outline" 
             onClick={onClose}
-            className="border-library-bronze text-library-bronze font-body"
+            className="border-library-bronze text-library-bronze-foreground font-body"
           >
             Cancelar
           </Button>

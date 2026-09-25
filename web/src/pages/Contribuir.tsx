@@ -34,10 +34,10 @@ export default function Contribuir() {
       <div className="container mx-auto px-4 py-8 max-w-4xl">
         {/* Page Header */}
         <div className="text-center mb-12">
-          <h1 className="font-display text-4xl font-bold text-library-wood mb-4 golden-foil">
+          <h1 className="font-display text-4xl font-bold text-library-wood-foreground mb-4 golden-foil">
             Como Contribuir
           </h1>
-          <p className="text-lg text-library-bronze font-body max-w-3xl mx-auto">
+          <p className="text-lg text-library-bronze-foreground font-body max-w-3xl mx-auto">
             Este é um projeto mantido por uma única pessoa. Não há equipe de
             digitalização nem sistema de envio de textos — mas há formas reais
             e simples de ajudar.
@@ -46,30 +46,30 @@ export default function Contribuir() {
 
         {/* Ways to Contribute */}
         <div className="mb-12">
-          <h2 className="font-display text-2xl font-semibold text-library-wood mb-6 golden-foil text-center">
+          <h2 className="font-display text-2xl font-semibold text-library-wood-foreground mb-6 golden-foil text-center">
             Formas de Ajudar
           </h2>
 
           <div className="grid gap-6 md:grid-cols-2">
             {/* Suggest Works */}
-            <Card className="border-library-bronze bg-library-parchment hover:shadow-lg transition-shadow">
+            <Card className="border-library-bronze bg-library-parchment-surface hover:shadow-lg transition-shadow">
               <CardHeader>
                 <div className="flex items-center gap-3 mb-2">
                   <div className="w-12 h-12 bg-library-gold rounded-lg flex items-center justify-center">
-                    <BookOpen className="h-6 w-6 text-library-wood" />
+                    <BookOpen className="h-6 w-6 text-library-wood-foreground" />
                   </div>
                   <div>
-                    <CardTitle className="font-display text-library-wood">Sugerir Obras</CardTitle>
+                    <CardTitle className="font-display text-library-wood-foreground">Sugerir Obras</CardTitle>
                     <Badge variant="secondary" className="bg-green-100 text-green-800 text-xs">Fácil</Badge>
                   </div>
                 </div>
-                <CardDescription className="font-body text-library-bronze">
+                <CardDescription className="font-body text-library-bronze-foreground">
                   Indique clássicos teológicos em domínio público que deveriam estar aqui
                   — quanto mais específico (autor, tradução, fonte), melhor.
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <ul className="space-y-2 font-body text-library-bronze text-sm mb-4">
+                <ul className="space-y-2 font-body text-library-bronze-foreground text-sm mb-4">
                   <li className="flex items-start gap-2">
                     <CheckCircle className="h-4 w-4 text-green-600 mt-0.5 flex-shrink-0" />
                     <span>Obras em domínio público verificável</span>
@@ -93,24 +93,24 @@ export default function Contribuir() {
             </Card>
 
             {/* Report Errors */}
-            <Card className="border-library-bronze bg-library-parchment hover:shadow-lg transition-shadow">
+            <Card className="border-library-bronze bg-library-parchment-surface hover:shadow-lg transition-shadow">
               <CardHeader>
                 <div className="flex items-center gap-3 mb-2">
                   <div className="w-12 h-12 bg-library-gold rounded-lg flex items-center justify-center">
-                    <Bug className="h-6 w-6 text-library-wood" />
+                    <Bug className="h-6 w-6 text-library-wood-foreground" />
                   </div>
                   <div>
-                    <CardTitle className="font-display text-library-wood">Corrigir Erros</CardTitle>
+                    <CardTitle className="font-display text-library-wood-foreground">Corrigir Erros</CardTitle>
                     <Badge variant="secondary" className="bg-green-100 text-green-800 text-xs">Fácil</Badge>
                   </div>
                 </div>
-                <CardDescription className="font-body text-library-bronze">
+                <CardDescription className="font-body text-library-bronze-foreground">
                   Encontrou um erro de transcrição, link quebrado ou problema no site?
                   Reportar é uma das contribuições mais valiosas.
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <ul className="space-y-2 font-body text-library-bronze text-sm mb-4">
+                <ul className="space-y-2 font-body text-library-bronze-foreground text-sm mb-4">
                   <li className="flex items-start gap-2">
                     <CheckCircle className="h-4 w-4 text-green-600 mt-0.5 flex-shrink-0" />
                     <span>Erros de digitação ou OCR nos textos</span>
@@ -134,24 +134,24 @@ export default function Contribuir() {
             </Card>
 
             {/* Spread the word */}
-            <Card className="border-library-bronze bg-library-parchment hover:shadow-lg transition-shadow">
+            <Card className="border-library-bronze bg-library-parchment-surface hover:shadow-lg transition-shadow">
               <CardHeader>
                 <div className="flex items-center gap-3 mb-2">
                   <div className="w-12 h-12 bg-library-gold rounded-lg flex items-center justify-center">
-                    <Share2 className="h-6 w-6 text-library-wood" />
+                    <Share2 className="h-6 w-6 text-library-wood-foreground" />
                   </div>
                   <div>
-                    <CardTitle className="font-display text-library-wood">Divulgar</CardTitle>
+                    <CardTitle className="font-display text-library-wood-foreground">Divulgar</CardTitle>
                     <Badge variant="secondary" className="bg-yellow-100 text-yellow-800 text-xs">Simples</Badge>
                   </div>
                 </div>
-                <CardDescription className="font-body text-library-bronze">
+                <CardDescription className="font-body text-library-bronze-foreground">
                   Compartilhe com quem estuda teologia, prega sermões ou pesquisa
                   história da igreja. Bibliotecas crescem por boca a boca.
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <ul className="space-y-2 font-body text-library-bronze text-sm mb-4">
+                <ul className="space-y-2 font-body text-library-bronze-foreground text-sm mb-4">
                   <li className="flex items-start gap-2">
                     <CheckCircle className="h-4 w-4 text-green-600 mt-0.5 flex-shrink-0" />
                     <span>Grupos de estudo e seminários</span>
@@ -172,7 +172,7 @@ export default function Contribuir() {
                       WhatsApp
                     </a>
                   </Button>
-                  <Button asChild variant="outline" className="w-full border-library-bronze text-library-bronze hover:bg-library-bronze hover:text-primary-foreground font-body">
+                  <Button asChild variant="outline" className="w-full border-library-bronze text-library-bronze-foreground hover:bg-library-bronze hover:text-primary-foreground font-body">
                     <a href={telegramShare} target="_blank" rel="noopener noreferrer">
                       Telegram
                     </a>
@@ -182,24 +182,24 @@ export default function Contribuir() {
             </Card>
 
             {/* Code */}
-            <Card className="border-library-bronze bg-library-parchment hover:shadow-lg transition-shadow">
+            <Card className="border-library-bronze bg-library-parchment-surface hover:shadow-lg transition-shadow">
               <CardHeader>
                 <div className="flex items-center gap-3 mb-2">
                   <div className="w-12 h-12 bg-library-gold rounded-lg flex items-center justify-center">
-                    <Github className="h-6 w-6 text-library-wood" />
+                    <Github className="h-6 w-6 text-library-wood-foreground" />
                   </div>
                   <div>
-                    <CardTitle className="font-display text-library-wood">Código</CardTitle>
+                    <CardTitle className="font-display text-library-wood-foreground">Código</CardTitle>
                     <Badge variant="secondary" className="bg-orange-100 text-orange-800 text-xs">Avançado</Badge>
                   </div>
                 </div>
-                <CardDescription className="font-body text-library-bronze">
+                <CardDescription className="font-body text-library-bronze-foreground">
                   O projeto é open source (MIT). Bugs, melhorias de interface e
                   documentação são bem-vindos via issues e pull requests.
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <ul className="space-y-2 font-body text-library-bronze text-sm mb-4">
+                <ul className="space-y-2 font-body text-library-bronze-foreground text-sm mb-4">
                   <li className="flex items-start gap-2">
                     <CheckCircle className="h-4 w-4 text-green-600 mt-0.5 flex-shrink-0" />
                     <span>React + Vite no frontend, Fastify + Postgres na API</span>
@@ -226,7 +226,7 @@ export default function Contribuir() {
 
         {/* What we are looking for */}
         <div className="mb-12">
-          <h2 className="font-display text-2xl font-semibold text-library-wood mb-6 golden-foil text-center">
+          <h2 className="font-display text-2xl font-semibold text-library-wood-foreground mb-6 golden-foil text-center">
             O Que Estamos Buscando Agora
           </h2>
 
@@ -265,13 +265,13 @@ export default function Contribuir() {
 
         {/* Guidelines */}
         <div className="mb-12">
-          <h2 className="font-display text-2xl font-semibold text-library-wood mb-6 golden-foil text-center">
+          <h2 className="font-display text-2xl font-semibold text-library-wood-foreground mb-6 golden-foil text-center">
             Critérios de Qualidade
           </h2>
 
-          <Card className="border-library-bronze bg-library-parchment">
+          <Card className="border-library-bronze bg-library-parchment-surface">
             <CardHeader>
-              <CardTitle className="font-display text-library-wood flex items-center gap-2">
+              <CardTitle className="font-display text-library-wood-foreground flex items-center gap-2">
                 <Lightbulb className="h-5 w-5 text-library-gold" />
                 O que torna uma sugestão viável
               </CardTitle>
@@ -279,8 +279,8 @@ export default function Contribuir() {
             <CardContent className="space-y-4">
               <div className="grid gap-4 md:grid-cols-2">
                 <div>
-                  <h4 className="font-display font-semibold text-library-wood mb-3">Critérios Legais:</h4>
-                  <ul className="space-y-2 font-body text-library-bronze text-sm">
+                  <h4 className="font-display font-semibold text-library-wood-foreground mb-3">Critérios Legais:</h4>
+                  <ul className="space-y-2 font-body text-library-bronze-foreground text-sm">
                     <li className="flex items-start gap-2">
                       <CheckCircle className="h-4 w-4 text-green-600 mt-0.5 flex-shrink-0" />
                       <span>Autor falecido há mais de 70 anos (Lei 9.610/98)</span>
@@ -296,8 +296,8 @@ export default function Contribuir() {
                   </ul>
                 </div>
                 <div>
-                  <h4 className="font-display font-semibold text-library-wood mb-3">Critérios Editoriais:</h4>
-                  <ul className="space-y-2 font-body text-library-bronze text-sm">
+                  <h4 className="font-display font-semibold text-library-wood-foreground mb-3">Critérios Editoriais:</h4>
+                  <ul className="space-y-2 font-body text-library-bronze-foreground text-sm">
                     <li className="flex items-start gap-2">
                       <CheckCircle className="h-4 w-4 text-green-600 mt-0.5 flex-shrink-0" />
                       <span>Relevância teológica histórica</span>
@@ -323,7 +323,7 @@ export default function Contribuir() {
             <CardContent className="p-8">
               <div className="flex items-center justify-center mb-4">
                 <div className="w-16 h-16 bg-library-gold rounded-full flex items-center justify-center">
-                  <Heart className="h-8 w-8 text-library-wood" />
+                  <Heart className="h-8 w-8 text-library-wood-foreground" />
                 </div>
               </div>
               <h3 className="font-display text-2xl font-semibold text-library-gold mb-4">

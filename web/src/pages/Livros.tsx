@@ -61,7 +61,7 @@ const Livros = () => {
       <div className="container mx-auto px-4 py-8">
         {/* Page Header */}
         <div className="text-center mb-12">
-          <h1 className="font-display text-4xl font-bold text-library-wood mb-4">
+          <h1 className="font-display text-4xl font-bold text-library-wood-foreground mb-4">
             Catálogo de Obras
           </h1>
           <div className="chapter-divider max-w-md mx-auto mb-6"></div>
@@ -80,7 +80,7 @@ const Livros = () => {
                 Buscar obras
               </label>
               <div className="relative">
-                <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-library-bronze" />
+                <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-library-bronze-foreground" />
                 <Input
                   placeholder="Título, autor ou palavra-chave..."
                   value={searchTerm}
@@ -120,8 +120,8 @@ const Livros = () => {
                 aria-pressed={soFavoritos}
                 className={`flex items-center justify-center gap-2 rounded-md border px-4 h-10 text-sm font-body font-medium transition-colors ${
                   soFavoritos
-                    ? 'border-2 border-library-gold bg-library-gold/20 text-library-wood font-semibold shadow-sm'
-                    : 'border-library-bronze text-library-wood hover:bg-library-gold/10'
+                    ? 'border-2 border-library-gold bg-library-gold/20 text-library-wood-foreground font-semibold shadow-sm'
+                    : 'border-library-bronze text-library-wood-foreground hover:bg-library-gold/10'
                 }`}
                 title="Mostrar apenas favoritos"
               >
@@ -134,7 +134,7 @@ const Livros = () => {
                   variant={viewMode === 'grid' ? 'default' : 'ghost'}
                   size="sm"
                   onClick={() => setViewMode('grid')}
-                  className={`h-9 px-3 font-body ${viewMode === 'grid' ? 'bg-library-wood text-library-gold' : 'text-library-wood'}`}
+                  className={`h-9 px-3 font-body ${viewMode === 'grid' ? 'bg-library-wood text-library-gold' : 'text-library-wood-foreground'}`}
                   aria-label="Visualização em Grade"
                 >
                   <Grid className="h-4 w-4" />
@@ -143,7 +143,7 @@ const Livros = () => {
                   variant={viewMode === 'list' ? 'default' : 'ghost'}
                   size="sm"
                   onClick={() => setViewMode('list')}
-                  className={`h-9 px-3 font-body ${viewMode === 'list' ? 'bg-library-wood text-library-gold' : 'text-library-wood'}`}
+                  className={`h-9 px-3 font-body ${viewMode === 'list' ? 'bg-library-wood text-library-gold' : 'text-library-wood-foreground'}`}
                   aria-label="Visualização em Lista"
                 >
                   <List className="h-4 w-4" />
@@ -168,7 +168,7 @@ const Livros = () => {
                 setSelectedCategory('all');
                 setSearchParams({});
               }}
-              className="font-body text-library-bronze hover:text-library-wood"
+              className="font-body text-library-bronze-foreground hover:text-library-wood-foreground"
             >
               <Filter className="h-4 w-4 mr-1" />
               Limpar filtros
@@ -180,7 +180,7 @@ const Livros = () => {
         {booksLoading ? (
           <div className="flex items-center justify-center py-16">
             <Loader2 className="h-8 w-8 animate-spin text-library-gold mr-3" />
-            <span className="font-body text-library-bronze text-lg">Carregando catálogo...</span>
+            <span className="font-body text-library-bronze-foreground text-lg">Carregando catálogo...</span>
           </div>
         ) : booksError ? (
           <div className="text-center py-16">
@@ -218,7 +218,7 @@ const Livros = () => {
         ) : (
           <div className="text-center py-12">
             <div className="w-16 h-16 bg-library-gold/20 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Search className="h-8 w-8 text-library-bronze" />
+              <Search className="h-8 w-8 text-library-bronze-foreground" />
             </div>
             <h3 className="font-heading text-xl font-semibold text-foreground mb-2">
               Nenhuma obra encontrada

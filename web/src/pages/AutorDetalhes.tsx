@@ -21,7 +21,7 @@ const AutorDetalhes = () => {
         <div className="container mx-auto px-4 py-8">
           <div className="flex items-center justify-center py-16">
             <Loader2 className="h-8 w-8 animate-spin text-library-gold mr-3" />
-            <span className="font-body text-library-bronze text-lg">{t('autor.carregando')}</span>
+            <span className="font-body text-library-bronze-foreground text-lg">{t('autor.carregando')}</span>
           </div>
         </div>
       </Layout>
@@ -39,7 +39,7 @@ const AutorDetalhes = () => {
       <div className="container mx-auto px-4 py-8">
         {/* NAVEGAÇÃO DE VOLTA */}
         <div className="mb-6">
-          <Button asChild variant="ghost" size="sm" className="font-body text-library-bronze hover:text-library-wood">
+          <Button asChild variant="ghost" size="sm" className="font-body text-library-bronze-foreground hover:text-library-wood-foreground">
             <Link to="/autores">
               <ArrowLeft className="h-4 w-4 mr-2" />
               {t('autor.voltarAutores')}
@@ -69,19 +69,19 @@ const AutorDetalhes = () => {
               {/* DADOS DE IDENTIFICAÇÃO DO AUTOR */}
               <div className="text-center md:text-left flex-1 min-w-0">
                 {richInfo?.historicalPeriod && (
-                  <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-library-gold/20 text-library-wood border border-library-gold/40 mb-3 font-body">
+                  <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-library-gold/20 text-library-wood-foreground border border-library-gold/40 mb-3 font-body">
                     <Landmark className="h-3.5 w-3.5 text-library-gold shrink-0" />
                     {richInfo.historicalPeriod}
                   </span>
                 )}
 
-                <h1 className="font-display text-3xl md:text-4xl font-bold text-library-wood mb-2 break-words">
+                <h1 className="font-display text-3xl md:text-4xl font-bold text-library-wood-foreground mb-2 break-words">
                   {author.name}
                 </h1>
 
                 {/* ANOS DE VIDA */}
                 <div className="flex items-center justify-center md:justify-start gap-2 text-sm text-muted-foreground mb-4 font-body">
-                  <Calendar className="h-4 w-4 text-library-bronze" />
+                  <Calendar className="h-4 w-4 text-library-bronze-foreground" />
                   <span className="font-medium">
                     {author.birthYear && author.deathYear
                       ? `${author.birthYear} — ${author.deathYear} d.C.`
@@ -104,7 +104,7 @@ const AutorDetalhes = () => {
                   {richInfo?.keyThemes?.map((theme) => (
                     <span
                       key={theme}
-                      className="px-2.5 py-0.5 text-xs bg-library-parchment text-library-wood border border-library-bronze/40 rounded-full font-body"
+                      className="px-2.5 py-0.5 text-xs bg-library-parchment-surface text-library-wood-foreground border border-library-bronze/40 rounded-full font-body"
                     >
                       {theme}
                     </span>
@@ -124,10 +124,10 @@ const AutorDetalhes = () => {
             {richInfo?.signatureQuote && (
               <div className="mt-8 p-6 rounded-xl bg-gradient-to-r from-library-wood/10 via-library-gold/15 to-library-wood/10 border-y-2 border-library-gold/40 text-center relative shadow-xs">
                 <span className="text-2xl text-library-gold block mb-1">❦</span>
-                <blockquote className="font-heading italic text-lg md:text-xl text-library-wood max-w-3xl mx-auto leading-relaxed">
+                <blockquote className="font-heading italic text-lg md:text-xl text-library-wood-foreground max-w-3xl mx-auto leading-relaxed">
                   “{richInfo.signatureQuote}”
                 </blockquote>
-                <cite className="block mt-2 font-body text-xs md:text-sm font-semibold uppercase tracking-widest text-library-bronze">
+                <cite className="block mt-2 font-body text-xs md:text-sm font-semibold uppercase tracking-widest text-library-bronze-foreground">
                   — {author.name}, <span className="italic font-normal lowercase">{richInfo.signatureQuoteSource}</span>
                 </cite>
               </div>
@@ -141,7 +141,7 @@ const AutorDetalhes = () => {
             {/* HISTÓRIA E CONTEXTO */}
             <Card className="border-library-bronze parchment-bg bg-card/90 shadow-sm">
               <CardContent className="p-6">
-                <h3 className="font-heading text-xl font-semibold text-library-wood mb-4 flex items-center gap-2">
+                <h3 className="font-heading text-xl font-semibold text-library-wood-foreground mb-4 flex items-center gap-2">
                   <ScrollText className="h-5 w-5 text-library-gold" />
                   {t('autor.vidaEContexto')}
                 </h3>
@@ -154,7 +154,7 @@ const AutorDetalhes = () => {
             {/* PRINCIPAIS CONTRIBUIÇÕES E LEGADO */}
             <Card className="border-library-bronze parchment-bg bg-card/90 shadow-sm">
               <CardContent className="p-6">
-                <h3 className="font-heading text-xl font-semibold text-library-wood mb-4 flex items-center gap-2">
+                <h3 className="font-heading text-xl font-semibold text-library-wood-foreground mb-4 flex items-center gap-2">
                   <Award className="h-5 w-5 text-library-gold" />
                   {t('autor.principaisContribuicoes')}
                 </h3>
@@ -167,8 +167,8 @@ const AutorDetalhes = () => {
                   ))}
                 </ul>
                 <div className="pt-3 border-t border-library-bronze/30">
-                  <p className="font-body text-xs md:text-sm italic text-library-bronze">
-                    <strong className="font-semibold not-italic text-library-wood">{t('autor.legadoOcidental')}</strong> {richInfo.legacySummary}
+                  <p className="font-body text-xs md:text-sm italic text-library-bronze-foreground">
+                    <strong className="font-semibold not-italic text-library-wood-foreground">{t('autor.legadoOcidental')}</strong> {richInfo.legacySummary}
                   </p>
                 </div>
               </CardContent>
@@ -181,7 +181,7 @@ const AutorDetalhes = () => {
 
         {/* CATÁLOGO DE OBRAS DO AUTOR NO SCRIPTORIUM */}
         <div className="mb-6 flex items-center justify-between">
-          <h2 className="font-heading text-2xl font-semibold text-library-wood flex items-center gap-2">
+          <h2 className="font-heading text-2xl font-semibold text-library-wood-foreground flex items-center gap-2">
             <BookOpen className="h-6 w-6 text-library-gold" />
             {t('autor.obrasDe', { name: author.name })}
           </h2>
@@ -199,7 +199,7 @@ const AutorDetalhes = () => {
         ) : (
           <div className="text-center py-12 bg-card/60 rounded-xl border border-dashed border-library-bronze">
             <BookOpen className="h-10 w-10 text-library-gold/50 mx-auto mb-3" />
-            <p className="font-body text-library-bronze text-base">
+            <p className="font-body text-library-bronze-foreground text-base">
               {t('autor.semObras')}
             </p>
           </div>

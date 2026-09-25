@@ -20,11 +20,11 @@ const NotFound = () => {
       <div className="container mx-auto px-4 py-16 text-center">
         <div className="max-w-2xl mx-auto">
           <div className="w-24 h-24 bg-library-gold/20 rounded-full flex items-center justify-center mx-auto mb-8">
-            <BookOpen className="h-12 w-12 text-library-bronze" />
+            <BookOpen className="h-12 w-12 text-library-bronze-foreground" />
           </div>
           
-          <h1 className="font-display text-6xl font-bold text-library-wood mb-4">404</h1>
-          <h2 className="font-heading text-2xl font-semibold text-library-bronze mb-4">
+          <h1 className="font-display text-6xl font-bold text-library-wood-foreground mb-4">404</h1>
+          <h2 className="font-heading text-2xl font-semibold text-library-bronze-foreground mb-4">
             Página Não Encontrada
           </h2>
           
@@ -43,7 +43,7 @@ const NotFound = () => {
               </Link>
             </Button>
             
-            <Button asChild variant="outline" size="lg" className="border-library-bronze text-library-bronze hover:bg-library-bronze hover:text-primary-foreground font-body">
+            <Button asChild variant="outline" size="lg" className="border-library-bronze text-library-bronze-foreground hover:bg-library-bronze hover:text-primary-foreground font-body">
               <Link to="/livros">
                 <BookOpen className="mr-2 h-4 w-4" />
                 Explorar Catálogo

@@ -85,6 +85,10 @@
     --library-bronze: 35 45% 35%; /* Bronze details */
     --library-emerald: 150 35% 25%; /* Deep forest green */
 
+    --library-wood-foreground: 25 35% 15%;
+    --library-bronze-foreground: 35 45% 35%;
+    --library-parchment-surface: 35 25% 92%;
+
     /* Illuminated Pigments (Pigmentos de Iluminuras) */
     --library-crimson: 350 65% 35%; /* Rubrica / Vermelho Carmesim */
     --library-lapis: 215 65% 28%; /* Azul Lápis-Lazúli */
@@ -133,6 +137,13 @@
     --border: 25 25% 20%;
     --input: 25 25% 18%;
     --ring: 43 60% 60%;
+
+    --library-wood-foreground: 35 25% 88%;
+    --library-bronze-foreground: 42 50% 68%;
+    --library-parchment-surface: 25 28% 13%;
+
+    --gradient-leather: linear-gradient(180deg, hsl(25 30% 13%), hsl(25 25% 10%));
+    --gradient-parchment: linear-gradient(180deg, hsl(25 28% 13%), hsl(25 30% 10%));
   }
 }
 
@@ -141,8 +152,16 @@
     @apply border-border;
   }
 
+  :root {
+    color-scheme: light;
+  }
+
+  :root.dark {
+    color-scheme: dark;
+  }
+
   body {
-    @apply bg-gradient-to-br from-background to-library-parchment text-foreground antialiased;
+    @apply bg-gradient-to-br from-background to-library-parchment-surface text-foreground antialiased;
     font-family: var(--font-serif);
     line-height: 1.6;
   }

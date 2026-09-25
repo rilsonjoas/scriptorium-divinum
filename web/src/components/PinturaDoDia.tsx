@@ -34,7 +34,7 @@ export function PinturaDoDia() {
   return (
     <section className="container mx-auto px-4 py-12" aria-label="Pintura do dia">
       <div className="ornament mb-6"></div>
-      <h2 className="font-display text-2xl font-semibold text-library-wood golden-foil text-center mb-8">
+      <h2 className="font-display text-2xl font-semibold text-library-wood-foreground golden-foil text-center mb-8">
         Pintura do Dia
       </h2>
       <div className="max-w-3xl mx-auto rounded-lg border border-library-bronze bg-card/95 backdrop-blur-sm parchment-bg shadow-book overflow-hidden">
@@ -45,7 +45,7 @@ export function PinturaDoDia() {
               src={imageUrl}
               alt={artwork.title}
               loading="lazy"
-              className="h-64 md:h-80 w-full object-contain bg-library-parchment"
+              className="h-64 md:h-80 w-full object-contain bg-library-parchment-surface"
               onError={() => {
                 if (imageAttempt === 0) {
                   setImageAttempt(1);
@@ -60,7 +60,7 @@ export function PinturaDoDia() {
           <p className="font-body text-sm text-library-crimson uppercase tracking-widest mb-2">
             {artwork.artistOrDirector} • Bíblia na Arte
           </p>
-          <h3 className="font-display text-xl font-semibold text-library-wood mb-2">
+          <h3 className="font-display text-xl font-semibold text-library-wood-foreground mb-2">
             {artwork.title}
             {year}
           </h3>
