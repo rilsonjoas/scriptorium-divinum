@@ -45,6 +45,17 @@ describe('index.css — superfícies que precisam responder ao tema', () => {
     expect(bloco).not.toMatch(/max-width:\s*\d+ch/);
   });
 
+  it('todo .prose dentro do Reader precisa da classe prose-leitor', () => {
+    // Sem `prose-leitor`, o Typography plugin aplica seus cinzas
+    // (#111827/#374151) e o texto fica ilegível sobre o cartão escuro.
+    // Já aconteceu duas vezes: no article e na caixa de proveniência.
+    const reader = readFileSync(path.join(import.meta.dirname, 'pages/Reader.tsx'), 'utf8');
+    const usos = [...reader.matchAll(/className=(?:"([^"]*)"|\{`([^`]*)`\})/g)]
+      .map((m) => m[1] ?? m[2] ?? '')
+      .filter((c) => /(^|\s)prose(\s|$)/.test(c) && !/(^|\s)prose-leitor(\s|$)/.test(c));
+    expect(usos).toEqual([]);
+  });
+
   it('nenhuma regra de componente fixa um fundo claro (H >= 85%)', () => {
     const offenders: string[] = [];
 

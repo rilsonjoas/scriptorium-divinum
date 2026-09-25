@@ -624,7 +624,7 @@ export default function Reader() {
           {/* Main Content Area capped with max-w-prose-reading (65ch) */}
           <div className="min-w-0 flex-1 max-w-prose-reading mx-auto" ref={contentRef}>
             {parsed.provenance && (
-              <div className="prose prose-sm max-w-none mb-8 p-4 rounded-lg bg-library-parchment-surface/60 border border-library-bronze/30 text-library-bronze-foreground">
+              <div className="prose prose-sm prose-leitor max-w-none mb-8 p-4 rounded-lg bg-library-parchment-surface/60 border border-library-bronze/30 text-library-bronze-foreground">
                 <ReactMarkdown remarkPlugins={[remarkGfm]}>{parsed.provenance}</ReactMarkdown>
               </div>
             )}
