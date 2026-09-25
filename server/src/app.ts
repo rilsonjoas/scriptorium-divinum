@@ -6,6 +6,7 @@ import cors from '@fastify/cors';
 import helmet from '@fastify/helmet';
 import rateLimit from '@fastify/rate-limit';
 import swagger from '@fastify/swagger';
+import apiReference from '@scalar/fastify-api-reference';
 import { env, isProduction } from './config.js';
 import { initSentry } from './lib/sentry.js';
 import { registerErrorHandler } from './plugins/error-handler.js';
@@ -95,6 +96,25 @@ export async function buildApp() {
   // OpenAPI JSON endpoint
   app.get('/docs/json', async () => app.swagger());
 
+  // UI interativa da documentação (Scalar API Reference)
+  await app.register(apiReference, {
+    routePrefix: '/docs',
+    configuration: {
+      title: 'Scriptorium Divinum API',
+      hideDownloadButton: false,
+      darkMode: false,
+    },
+    hooks: {
+      onRequest: (request, reply, done) => {
+        if (request.raw.method === 'GET' && request.url === '/docs') {
+          reply.raw.setHeader('Referrer-Policy', 'no-referrer');
+        }
+        done();
+      },
+    },
+    logLevel: 'error',
+  });
+
   // Error Handler
   registerErrorHandler(app);
 
@@ -109,7 +129,12 @@ export async function buildApp() {
       url.startsWith('/api/v1/admin') ||
       url.startsWith('/api/v1/settings') ||
       url.startsWith('/health') ||
-      url === '/docs/json'
+      url === '/docs/json' ||
+      url === '/docs' ||
+      url.startsWith('/docs/js/') ||
+      url.startsWith('/docs/css/') ||
+      url === '/docs/openapi.json' ||
+      url === '/docs/openapi.yaml'
     ) {
       return;
     }

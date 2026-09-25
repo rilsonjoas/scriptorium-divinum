@@ -81,6 +81,13 @@ describe('Scriptorium Divinum API — Testes de Integração', () => {
     expect(res.json()).toHaveProperty('openapi');
   });
 
+  it('GET /docs serve a interface interativa da API', async () => {
+    const res = await app.inject({ method: 'GET', url: '/docs/' });
+    expect(res.statusCode).toBe(200);
+    expect(res.headers['content-type']).toContain('text/html');
+    expect(res.body).toContain('scalar');
+  });
+
   it('GET /api/v1/authors lista autores com contagem de obras', async () => {
     const res = await app.inject({ method: 'GET', url: '/api/v1/authors' });
     expect(res.statusCode).toBe(200);
