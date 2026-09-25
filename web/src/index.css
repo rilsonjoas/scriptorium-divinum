@@ -448,7 +448,7 @@
     inset: 4px;
     border: 1px dashed hsl(var(--library-gold) / 0.4);
     border-radius: calc(var(--radius) - 4px);
-    pointer-events-none: none;
+    pointer-events: none;
   }
 
   .leather-pressed-card:hover {

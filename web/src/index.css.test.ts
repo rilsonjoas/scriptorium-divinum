@@ -35,6 +35,47 @@ describe('index.css — superfícies que precisam responder ao tema', () => {
     expect(offenders).toEqual([]);
   });
 
+  it('nenhuma classe Tailwind foi escrita no lugar de uma propriedade CSS', () => {
+    // `pointer-events-none: none` é CSS inválido: o navegador descarta a
+    // declaração, o pseudo-elemento volta a `pointer-events: auto` e passa a
+    // roubar os cliques dos filhos. Bug real, introduzido em fb04ed5 (2026-08-23).
+    const CSS_VALIDAS = new Set([
+      'animation', 'aside', 'background', 'background-clip', 'background-image',
+      'border', 'border-color', 'border-radius', 'border-top',
+      'border-top-left-radius', 'border-top-right-radius', 'box-shadow',
+      'clip-path', 'color', 'color-scheme', 'content', 'display', 'div', 'float',
+      'font-family', 'font-size', 'font-weight', 'height', 'inset',
+      'letter-spacing', 'line-height', 'margin', 'margin-right', 'margin-top',
+      'max-width', 'overflow', 'overflow-x', 'padding', 'pointer-events',
+      'position', 'right', 'text-orientation', 'text-shadow', 'text-transform',
+      'top', 'transform', 'transition', 'white-space', 'width', 'word-break',
+      'writing-mode', 'z-index',
+    ]);
+
+    const semComentarios = css.replace(/\/\*[\s\S]*?\*\//g, '');
+    const invalidas: string[] = [];
+
+    for (const linha of semComentarios.split('\n')) {
+      const m = linha.match(/^\s*([a-z][a-z0-9-]*)\s*:\s*([^;]+);/);
+      if (!m) continue;
+      const propriedade = m[1];
+      if (propriedade.startsWith('--')) continue;
+      if (CSS_VALIDAS.has(propriedade)) continue;
+      // fora da allowlist: só accuse se parecer nome de utilitário Tailwind
+      if (/-(none|auto|hidden|full|sm|md|lg|xl|px|py|text|bg|border|shadow|flex|grid|absolute|relative|fixed|sticky|block|inline)$/.test(propriedade)) {
+        invalidas.push(`${propriedade}: ${m[2].trim()}`);
+      }
+    }
+
+    expect(invalidas).toEqual([]);
+  });
+
+  it('todo overlay decorativo do leather-pressed-card é inerte ao ponteiro', () => {
+    const regra = corpoDaRegra('.leather-pressed-card::before');
+    expect(regra).toMatch(/pointer-events:\s*none/);
+    expect(regra).not.toMatch(/pointer-events-none/);
+  });
+
   it('.leather-pressed-card deriva a cor dos tokens, não de valores fixos', () => {
     const regra = corpoDaRegra('.leather-pressed-card');
     expect(regra).toMatch(/background:[\s\S]*var\(--card\)/);
