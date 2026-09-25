@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { readFileSync } from 'node:fs';
+import { readFileSync, readdirSync } from 'node:fs';
 import path from 'node:path';
 
 const css = readFileSync(path.join(import.meta.dirname, 'index.css'), 'utf-8');
@@ -45,15 +45,37 @@ describe('index.css — superfícies que precisam responder ao tema', () => {
     expect(bloco).not.toMatch(/max-width:\s*\d+ch/);
   });
 
-  it('todo .prose dentro do Reader precisa da classe prose-leitor', () => {
+  it('toda classe .prose no app precisa de prose-leitor', () => {
     // Sem `prose-leitor`, o Typography plugin aplica seus cinzas
-    // (#111827/#374151) e o texto fica ilegível sobre o cartão escuro.
-    // Já aconteceu duas vezes: no article e na caixa de proveniência.
-    const reader = readFileSync(path.join(import.meta.dirname, 'pages/Reader.tsx'), 'utf8');
-    const usos = [...reader.matchAll(/className=(?:"([^"]*)"|\{`([^`]*)`\})/g)]
-      .map((m) => m[1] ?? m[2] ?? '')
-      .filter((c) => /(^|\s)prose(\s|$)/.test(c) && !/(^|\s)prose-leitor(\s|$)/.test(c));
-    expect(usos).toEqual([]);
+    // (#111827 nos <strong>, #374151 no corpo) e o texto some sobre as
+    // superfícies escuras. Aconteceu três vezes: no article do leitor,
+    // na caixa de proveniência e na página Sobre.
+    const alvos = ['pages', 'components'];
+    const infratores: string[] = [];
+
+    for (const raiz of alvos) {
+      const dir = path.join(import.meta.dirname, raiz);
+      const stack = [dir];
+      while (stack.length) {
+        const atual = stack.pop()!;
+        for (const entrada of readdirSync(atual, { withFileTypes: true })) {
+          const p = path.join(atual, entrada.name);
+          if (entrada.isDirectory()) { stack.push(p); continue; }
+          if (!p.endsWith('.tsx') || p.endsWith('.test.tsx')) continue;
+
+          const src = readFileSync(p, 'utf8');
+          const classes = [...src.matchAll(/className=(?:"([^"]*)"|\{`([^`]*)`\})/g)]
+            .map((m) => m[1] ?? m[2] ?? '');
+          for (const c of classes) {
+            if (!/(^|\s)prose(\s|$)/.test(c)) continue;
+            if (/(^|\s)prose-leitor(\s|$)/.test(c)) continue;
+            infratores.push(`${path.relative(dir, p)}: ${c.slice(0, 60)}`);
+          }
+        }
+      }
+    }
+
+    expect(infratores).toEqual([]);
   });
 
   it('nenhuma regra de componente fixa um fundo claro (H >= 85%)', () => {

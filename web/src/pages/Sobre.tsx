@@ -23,7 +23,7 @@ const Sobre = () => {
         </div>
 
         {/* Mission */}
-        <div className="prose prose-lg max-w-none font-body text-muted-foreground mb-12">
+        <div className="prose prose-lg prose-leitor max-w-none font-body text-muted-foreground mb-12">
           <div className="bg-card/95 backdrop-blur-sm border border-library-bronze rounded-lg p-8 parchment-bg shadow-book mb-8">
             <h2 className="font-heading text-2xl font-semibold text-library-wood-foreground mb-4">Nossa Missão</h2>
             <p className="leading-relaxed mb-4">
