@@ -332,7 +332,7 @@ export default function Reader() {
 
   const indexNav = (
     <>
-      <p className="flex items-center gap-2 font-display text-sm font-semibold text-library-wood-foreground mb-3">
+      <p className="flex items-center gap-2 font-display-sm text-sm font-semibold text-library-wood-foreground mb-3">
         <List className="h-4 w-4 text-library-bronze-foreground" />
         Índice da Obra
       </p>
@@ -395,7 +395,7 @@ export default function Reader() {
         <div className="fixed top-14 left-0 right-0 z-30 bg-library-wood/95 backdrop-blur-md border-b border-library-bronze text-library-parchment shadow-md transition-all duration-300 py-2 px-4 flex items-center justify-between gap-4">
           <div className="flex items-center gap-2 min-w-0 flex-1">
             <BookOpen className="h-4 w-4 text-library-gold shrink-0" />
-            <span className="font-display text-sm font-semibold truncate text-library-gold">
+            <span className="font-display-sm text-sm font-semibold truncate text-library-gold">
               {data.title}
             </span>
           </div>

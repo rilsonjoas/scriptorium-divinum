@@ -146,7 +146,7 @@ export function Header() {
                       <div className="space-y-4">
                         {searchResults.books.length > 0 && (
                           <div>
-                            <h4 className="font-display font-semibold text-library-wood-foreground mb-2 text-sm">
+                            <h4 className="font-display-sm font-semibold text-library-wood-foreground mb-2 text-sm">
                               Livros ({searchResults.books.length})
                             </h4>
                             <div className="space-y-2">
@@ -176,7 +176,7 @@ export function Header() {
 
                         {searchResults.authors.length > 0 && (
                           <div>
-                            <h4 className="font-display font-semibold text-library-wood-foreground mb-2 text-sm">
+                            <h4 className="font-display-sm font-semibold text-library-wood-foreground mb-2 text-sm">
                               Autores ({searchResults.authors.length})
                             </h4>
                             <div className="space-y-2">

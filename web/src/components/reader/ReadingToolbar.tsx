@@ -92,7 +92,7 @@ export function ReadingToolbar({ settings, onChangeSettings }: ReadingToolbarPro
       <PopoverContent className="w-80 p-4 bg-library-parchment-surface border-library-bronze shadow-xl text-foreground z-50" align="end">
         <div className="space-y-4">
           <div className="flex items-center justify-between border-b border-library-bronze/30 pb-2">
-            <h4 className="font-display font-semibold text-sm text-library-wood-foreground flex items-center gap-1.5">
+            <h4 className="font-display-sm font-semibold text-sm text-library-wood-foreground flex items-center gap-1.5">
               <Type className="h-4 w-4 text-library-gold" />
               Preferências de Leitura
             </h4>

@@ -180,7 +180,7 @@ export function AcademicCitationDialog({
           {content && (
             <div className="pt-4 border-t border-library-bronze/30 space-y-3 bg-library-gold/10 p-4 rounded-lg border border-library-dourado/30">
               <div>
-                <h4 className="font-display font-semibold text-sm text-library-wood-foreground flex items-center gap-1.5">
+                <h4 className="font-display-sm font-semibold text-sm text-library-wood-foreground flex items-center gap-1.5">
                   <Quote className="h-4 w-4 text-library-gold" />
                   Exportar o texto completo
                 </h4>

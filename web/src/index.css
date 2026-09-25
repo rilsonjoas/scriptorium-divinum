@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&display=swap');
 
 @tailwind base;
@@ -16,7 +17,8 @@
     /* Tipografia unificada */
     --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     --font-serif: 'EB Garamond', Georgia, serif;
-    --font-display: 'Playfair Display', Georgia, serif;
+    --font-display: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+    --font-display-sm: 'Playfair Display', Georgia, serif;
     --font-classical: 'Cinzel', 'Times New Roman', serif;
     --font-reading: 'Merriweather', 'Times New Roman', serif;
     
@@ -193,6 +195,11 @@
 
   /* === TIPOGRAFIA UNIFICADA REINO === */
   .font-display { font-family: var(--font-display); }
+  /* Display em corpo pequeno: a Cormorant Garamond é a fonte canônica do
+     cluster, mas em 14px ela fica frágil demais (medido: some no menu do
+     header e na barra do leitor). Onde o display é rótulo miúdo, volta
+     para a Playfair — densa e legível em corpo pequeno. */
+  .font-display-sm { font-family: var(--font-display-sm); }
   .font-serif { font-family: var(--font-serif); }
   .font-sans { font-family: var(--font-sans); }
   .font-classical { font-family: var(--font-classical); }
