@@ -852,7 +852,7 @@ no `meus-remedios` (único projeto pessoal com OAuth de usuário real hoje)
 - [x] **Badge/Selo do Cluster no Rodapé (concluído 2026-08-31)** — mantido no `Footer.tsx` para preservar a sobriedade do cabeçalho sem duplicação visual.
 - [ ] **Reconciliação da Paleta Narniano (Dourado & Manuscrito)** — unificar as variáveis de cor dourada (`--library-gold`) e marrom profundo com as diretrizes do `Identidade visual geral.md` do vault, garantindo a mesma "carinha de biblioteca clássica" dos projetos irmãos.
 - [x] **Toque de Manuscrito Medieval** — implementadas capitulares tipográficas (`.capitular-medieval::first-letter`) na abertura dos capítulos do leitor em tom dourado clássico.
-- [x] **Conexões Cruzadas do Cluster (concluído 2026-08-31)** — criado componente `ClusterConnections.tsx` integrado em `AutorDetalhes.tsx` e `LivroDetalhes.tsx` com links seguros e contextuais por URL para *Bíblia na Arte*, *Lecionário* e *Gerador C.S. Lewis*.
+- [x] **Conexões Cruzadas do Cluster (concluído 2026-08-31; removido 2026-09-25)** — chegou a existir como `ClusterConnections.tsx` em `AutorDetalhes.tsx` e `LivroDetalhes.tsx`, com links contextuais por URL para *Bíblia na Arte*, *Lecionário* e *Gerador C.S. Lewis*. **Removido**: os links por `?q=` não retornam resultado nenhum nos sites de destino, então o bloco só ocupava espaço e frustrava. A conexão entre projetos continua no rodapé (`ClusterFooter`, padrão aprovado do Gerador C.S. Lewis), onde os links são diretos e funcionam.
 
 ### ♿ Acessibilidade (a11y WCAG) & Leiturabilidade Fluida
 

@@ -8,7 +8,6 @@ import { Link, useParams, Navigate } from 'react-router-dom';
 import { useAuthorWithBooks } from '@/hooks/useDatabase';
 import { getAuthorRichInfo } from '@/data/authorsRichData';
 import { useTranslation } from 'react-i18next';
-import { ClusterConnections } from '@/components/ClusterConnections';
 
 const AutorDetalhes = () => {
   const { t } = useTranslation();
@@ -175,9 +174,6 @@ const AutorDetalhes = () => {
             </Card>
           </div>
         )}
-
-        {/* CONEXÕES DO CLUSTER A BIBLIOTECA */}
-        <ClusterConnections term={author.name} type="author" />
 
         {/* CATÁLOGO DE OBRAS DO AUTOR NO SCRIPTORIUM */}
         <div className="mb-6 flex items-center justify-between">

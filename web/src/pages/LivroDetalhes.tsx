@@ -10,7 +10,6 @@ import { SafeImage } from '@/components/SafeImage';
 import { AdSlot } from '@/components/ads/AdSlot';
 import { AcademicCitationDialog } from '@/components/reader/AcademicCitationDialog';
 import { useTranslation } from 'react-i18next';
-import { ClusterConnections } from '@/components/ClusterConnections';
 
 const AMAZON_AFFILIATE_TAG = import.meta.env.VITE_AMAZON_TAG ?? 'rilson-20';
 
@@ -385,8 +384,6 @@ const LivroDetalhes = () => {
                 </CardContent>
               </Card>
 
-              {/* CONEXÕES DO CLUSTER A BIBLIOTECA */}
-              <ClusterConnections term={book.title} type="book" />
             </div>
           </div>
         </div>
