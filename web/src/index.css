@@ -235,6 +235,19 @@
     --tw-prose-hr: currentColor;
     color: inherit;
   }
+
+  /* O `prose` do Tailwind Typography aplica `color: var(--tw-prose-body)` em
+     CADA elemento (p, li, h1-h6…), não só no article. Só redefinir a
+     variável não bastava — é preciso reposicionar a cor nos descendentes. */
+  .prose-leitor :is(p, li, dd, dt, h1, h2, h3, h4, h5, h6, strong, em, a, blockquote, figcaption) {
+    color: inherit;
+  }
+
+  .prose-leitor a {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
   
   /* Reading text - Merriweather para leitura profunda */
   .reading-text {
