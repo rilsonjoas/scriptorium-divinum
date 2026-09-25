@@ -238,13 +238,15 @@
 
   /* O `prose` do Tailwind Typography aplica `color: var(--tw-prose-body)` em
      CADA elemento (p, li, h1-h6…), não só no article. Só redefinir a
-     variável não bastava — é preciso reposicionar a cor nos descendentes. */
+     variável não bastava — é preciso reposicionar a cor nos descendentes.
+     O `!important` é necessário: o plugin usa `:where(p)`, que tem
+     especificidade zero, e é emitido DEPOIS desta camada. */
   .prose-leitor :is(p, li, dd, dt, h1, h2, h3, h4, h5, h6, strong, em, a, blockquote, figcaption) {
-    color: inherit;
+    color: inherit !important;
   }
 
   .prose-leitor a {
-    color: inherit;
+    color: inherit !important;
     text-decoration: underline;
     text-underline-offset: 2px;
   }
