@@ -772,6 +772,14 @@ no `meus-remedios` (único projeto pessoal com OAuth de usuário real hoje)
       Evolução futura: crescer o JSON conforme surgirem palavras sem
       cobertura, marcar termos curados com underline pontilhado direto no
       texto (exige transformação de nós de texto no markdown).
+      > [!warning] A ser repensado pelo item 2 de "Leitor digital" (2026-09-25)
+      > O comportamento atual — **selecionar qualquer palavra já dispara o
+      > glossário** — diverge do que um leitor moderno espera: o padrão de
+      > uma seleção é *copiar*. O glossário não foi erro, mas sim
+      > implemented *cedo demais*: ele deve passar a ser uma das opções de
+      > um menu de contexto, acionado por pedido explícito. A infraestrutura
+      > (JSON curado, mesóclise, fallback Wikcionário) é reaproveitada
+      > inteira; muda só o gatilho.
 - [x] **"Continuar lendo" + progresso por obra** — implementado
       2026-08-23 (`web/src/utils/readingProgress.ts` +
       `ContinueReading.tsx`). localStorage puro, sem contas: posição de
@@ -834,6 +842,66 @@ no `meus-remedios` (único projeto pessoal com OAuth de usuário real hoje)
       chunk vendor (73KB gzip) com cache de longa duração. Resultado:
       app code 99KB gzip + vendor 73KB no primeiro load (antes: ~172KB
       monolítico); leitor carrega os outros 50KB sob demanda.
+
+---
+
+## Leitor digital — a experiência de leitura (pedido do Rilson, 2026-09-25)
+
+Três problemas levantados em uso real, na ordem de importância. **Não
+executar agora** — registrado para uma fase dedicada. São as três
+pendências que mais pesam na experiência de quem lê, e o critério de
+"pronto" aqui não é funcional: é alguém escolher o Scriptorium para
+ler uma obra longa, e não para saber que ele existe.
+
+### 1. O leitor carrega o livro inteiro e a página fica pesadíssima
+**Sintoma:** abrir qualquer obra longa trava/navega mal — uma peça só
+de Confissões já são ~500KB de markdown, e o `react-markdown` monta o
+DOM inteiro de uma vez.
+
+**Direção:** paginação/virtualização em vez de rolagem contínua, no
+espírito do Kindle e do Skeelo — o leitor vê uma "página" por vez, com
+posição preservada ao voltar. O sumário por capítulos que já existe
+dá a estrutura natural para isso. Alternativa mais barata antes de
+qualquer uma: renderização incremental do markdown (dividir o texto em
+blocos e processar por etapas) para o primeiro trecho aparecer rápido.
+
+**Antes de codar:** medir de verdade (tempo até o primeiro texto
+pintado, peso do DOM, FPS de rolagem) em pelo menos três obras de
+tamanhos diferentes. Sem número, não há como saber se melhorou.
+
+### 2. Selecionar uma palavra já dispara busca online
+**Sintoma:** hoje, selecionar qualquer palavra abre o popover do
+glossário de arcaísmo — inclusive em palavra comum, em que o leitor só
+queria selecionar. A ação esperada pelo leitor moderno é copiar.
+
+**Direção:** a seleção **não** deve fazer nada sozinha. Ao selecionar,
+aparecer um menu de contexto com: **copiar**, **destacar** (já existe,
+via `NotesDrawer`), **buscar significado** (o glossário atual, sob
+demanda), **buscar no dicionário online**, **citar este trecho** (com
+proveniência, reaproveitando o `AcademicCitationDialog`) e **compartilhar**.
+A busca online nunca deve ser o comportamento padrão de uma seleção.
+
+**A favor:** a mesma seleção já alimenta o card de citação
+(`QuoteCardDialog`) — é o mesmo mecanismo, com mais opções.
+
+### 3. Downloads escondidos dentro de "Como Citar"
+**Sintoma:** `.md`, `.txt` e `.epub` estão dentro do diálogo de citação
+acadêmica. Não fazem sentido ali — quem quer baixar não está citando.
+E **falta o PDF**, que é o formato que a maioria dos leitores de obra
+clássica procura primeiro.
+
+**Direção:** a leitura é o coração do app, então **baixar o livro**
+precisa de entrada de primeira classe na ficha da obra e no leitor, com
+os formatos visíveis de imediato: PDF (link direto, quando a fonte
+permitir), ePub, TXT, Markdown/Obsidian. A seção de downloads que já
+existe na ficha (`download_links` do banco) deve ser a base disso, com
+os formatos gerados no cliente completando o que não tem arquivo
+hospedado. Padronizar rótulo, ícone e ordem em todos os pontos do app.
+
+**Depende de:** decidir a política de PDF (re-escaneamento com OCR
+próprio, ou link para a fonte pública como o Internet Archive) — mesma
+decisão que o item "Ainda pendente — texto e capa do Compêndio de
+Teologia" da seção P8 já exige.
 
 ---
 
