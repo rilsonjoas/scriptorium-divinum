@@ -8,8 +8,10 @@ import {
 } from '@/components/ui/dialog';
 import { Button } from '@/components/ui/button';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { Check, Copy, Quote, GraduationCap, Download } from 'lucide-react';
+import { Check, Copy, Quote, GraduationCap, Download, FileText, BookOpen } from 'lucide-react';
 import { generateObsidianMarkdown, downloadMarkdownFile } from '@/utils/exportMarkdown';
+import { generateCleanTxt, downloadTxtFile } from '@/utils/exportTxt';
+import { buildEpub, downloadEpubFile } from '@/utils/exportEpub';
 
 interface AcademicCitationDialogProps {
   open: boolean;
@@ -92,6 +94,32 @@ export function AcademicCitationDialog({
     downloadMarkdownFile(`${slug || 'obra'}-scriptorium.md`, md);
   };
 
+  const handleExportTxt = () => {
+    if (!content) return;
+    const txt = generateCleanTxt({
+      title,
+      author,
+      content,
+      slug,
+      provenance,
+      publicationYear,
+    });
+    downloadTxtFile(`${slug || 'obra'}-scriptorium.txt`, txt);
+  };
+
+  const handleExportEpub = () => {
+    if (!content) return;
+    const epub = buildEpub({
+      title,
+      author,
+      content,
+      slug,
+      provenance,
+      publicationYear,
+    });
+    downloadEpubFile(`${slug || 'obra'}-scriptorium.epub`, epub);
+  };
+
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
       <DialogContent className="max-w-2xl bg-library-parchment border-library-bronze text-foreground p-6 shadow-2xl">
@@ -150,24 +178,42 @@ export function AcademicCitationDialog({
 
           {/* Export to Obsidian Option */}
           {content && (
-            <div className="pt-4 border-t border-library-bronze/30 flex flex-col sm:flex-row items-center justify-between gap-3 bg-library-gold/10 p-4 rounded-lg border border-library-gold/30">
+            <div className="pt-4 border-t border-library-bronze/30 space-y-3 bg-library-gold/10 p-4 rounded-lg border border-library-gold/30">
               <div>
                 <h4 className="font-display font-semibold text-sm text-library-wood flex items-center gap-1.5">
                   <Quote className="h-4 w-4 text-library-gold" />
-                  Exportar para Obsidian / Notion
+                  Exportar o texto completo
                 </h4>
                 <p className="font-body text-xs text-library-bronze">
-                  Baixe o texto completo em Markdown (`.md`) enriquecido com cabeçalhos YAML.
+                  Baixe em Markdown (`.md`) para Obsidian/Notion, TXT puro ou ePub para leitores de livro.
                 </p>
               </div>
-              <Button
-                onClick={handleExportObsidian}
-                size="sm"
-                className="bg-library-wood hover:bg-library-bronze text-library-gold font-body text-xs gap-1.5 shrink-0"
-              >
-                <Download className="h-3.5 w-3.5" />
-                Baixar `.md`
-              </Button>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
+                <Button
+                  onClick={handleExportObsidian}
+                  size="sm"
+                  className="bg-library-wood hover:bg-library-bronze text-library-gold font-body text-xs gap-1.5 w-full"
+                >
+                  <Download className="h-3.5 w-3.5" />
+                  Markdown `.md`
+                </Button>
+                <Button
+                  onClick={handleExportTxt}
+                  size="sm"
+                  className="bg-library-wood hover:bg-library-bronze text-library-gold font-body text-xs gap-1.5 w-full"
+                >
+                  <FileText className="h-3.5 w-3.5" />
+                  TXT puro
+                </Button>
+                <Button
+                  onClick={handleExportEpub}
+                  size="sm"
+                  className="bg-library-wood hover:bg-library-bronze text-library-gold font-body text-xs gap-1.5 w-full"
+                >
+                  <BookOpen className="h-3.5 w-3.5" />
+                  ePub
+                </Button>
+              </div>
             </div>
           )}
         </div>
