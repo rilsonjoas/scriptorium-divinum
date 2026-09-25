@@ -88,7 +88,7 @@ INSERT INTO quotes (author, text, source, dominio_publico, theme) VALUES
 ('Agostinho de Hipona', 'A criatura espiritual vos agrada não pelo fato de existir, mas por ver a luz que a ilumina e por aderir a ela.', 'Confissões, Livro III, cap. 13', false, NULL),
 ('Agostinho de Hipona', 'Creio o que Vós me ensinastes, pois é verdade e só Vós sois o Mestre da Verdade em qualquer parte e de qualquer lugar que ela brilhe.', 'Confissões, Livro V, cap. 6', false, NULL),
 ('Agostinho de Hipona', 'Mas Vós me perdoastes misericordiosamente este pecado, e eu, todo cheio de execráveis imundícies, fui salvo por Vós das águas do mar até me conduzirdes às águas da vossa graça.', 'Confissões, Livro V, cap. 8', false, NULL),
-('Agostinho de Hipona', 'Interroguei ao universo acerca do meu Deus e ele respondeu-me: não sou eu, mas foi ele mesmo que me fez. Contemplá-las era a minha pergunta e a resposta delas era a sua beleza.', 'Confissões, Livro X, cap. 6', false, 'confirmada via WebSearch — "I asked the whole frame of the universe about my God"'),
+('Agostinho de Hipona', 'Interroguei ao universo acerca do meu Deus e ele respondeu-me: não sou eu, mas foi ele mesmo que me fez. Contemplá-las era a minha pergunta e a resposta delas era a sua beleza.', 'Confissões, Livro X, cap. 6', false, NULL),  -- confirmada via WebSearch — "I asked the whole frame of the universe about my God"
 ('Agostinho de Hipona', 'Ama e faz o que quiseres.', 'Homilias sobre a Primeira Epístola de João, Homilia 7', false, NULL),
 ('Agostinho de Hipona', 'Me engano, logo existo.', 'A Cidade de Deus, Livro XI, cap. 26', false, NULL),
 ('Agostinho de Hipona', 'A virtude é a ordem do amor.', 'A Cidade de Deus, Livro XV, cap. 22', false, NULL),
@@ -109,13 +109,13 @@ INSERT INTO quotes (author, text, source, dominio_publico, theme) VALUES
 ('Dietrich Bonhoeffer', 'O desprezo ao irmão invalida a adoração e priva o discípulo da promessa divina.', 'Discipulado, cap. 6', false, NULL),
 ('Dietrich Bonhoeffer', 'A graça barata, em vez de justificar o pecador, justifica o pecado.', 'Discipulado, p. 19', false, NULL),
 ('Dietrich Bonhoeffer', 'É (a graça) preciosa sobretudo porque foi preciosa para Deus, porque custou a vida de seu Filho.', 'Discipulado, cap. 1', false, NULL),
-('Dietrich Bonhoeffer', 'Acaso o preço que hoje temos que pagar com o colapso das igrejas organizadas não é consequência inevitável do barateamento da graça?', 'Discipulado', false, 'confiança média'),
-('Dietrich Bonhoeffer', 'Jesus chama ao discipulado, não como um mestre sábio e exemplo de vida, mas como sendo Cristo, filho de Deus.', 'Discipulado', false, 'confiança média'),
-('Dietrich Bonhoeffer', 'Ao discípulo não cabe elogios ou aplausos por seu cristianismo decidido. O olhar não deve recair sobre ele, mas somente sobre aquele que o chama.', 'Discipulado', false, 'confiança média'),
-('Dietrich Bonhoeffer', 'Cristo chama, o discípulo simplesmente o segue. Isto é graça e mandamento unidos em uma coisa só.', 'Discipulado', false, 'confiança média'),
-('Dietrich Bonhoeffer', 'A fé é tão somente fé no ato da obediência.', 'Discipulado', false, 'confiança média'),
-('Dietrich Bonhoeffer', 'Se você crê, dê o primeiro passo, ele conduz a Jesus Cristo! Se não crê, dê igualmente o passo, é assim que lhe foi ordenado!', 'Discipulado', false, 'confiança média'),
-('Dietrich Bonhoeffer', 'O perdão dos pecados é o sofrimento de Cristo ordenado ao discípulo, e é imposto a todos os cristãos.', 'Discipulado', false, 'confiança média'),
+('Dietrich Bonhoeffer', 'Acaso o preço que hoje temos que pagar com o colapso das igrejas organizadas não é consequência inevitável do barateamento da graça?', 'Discipulado', false, NULL),  -- confiança média
+('Dietrich Bonhoeffer', 'Jesus chama ao discipulado, não como um mestre sábio e exemplo de vida, mas como sendo Cristo, filho de Deus.', 'Discipulado', false, NULL),  -- confiança média
+('Dietrich Bonhoeffer', 'Ao discípulo não cabe elogios ou aplausos por seu cristianismo decidido. O olhar não deve recair sobre ele, mas somente sobre aquele que o chama.', 'Discipulado', false, NULL),  -- confiança média
+('Dietrich Bonhoeffer', 'Cristo chama, o discípulo simplesmente o segue. Isto é graça e mandamento unidos em uma coisa só.', 'Discipulado', false, NULL),  -- confiança média
+('Dietrich Bonhoeffer', 'A fé é tão somente fé no ato da obediência.', 'Discipulado', false, NULL),  -- confiança média
+('Dietrich Bonhoeffer', 'Se você crê, dê o primeiro passo, ele conduz a Jesus Cristo! Se não crê, dê igualmente o passo, é assim que lhe foi ordenado!', 'Discipulado', false, NULL),  -- confiança média
+('Dietrich Bonhoeffer', 'O perdão dos pecados é o sofrimento de Cristo ordenado ao discípulo, e é imposto a todos os cristãos.', 'Discipulado', false, NULL),  -- confiança média
 ('Dietrich Bonhoeffer', 'A graça barata é a pregação do perdão sem arrependimento do pecador, é o batismo sem disciplina eclesiástica, é a comunhão sem confissão de pecados, é a absolvição sem confissão pessoal. A graça barata é a graça sem discipulado, é a graça sem cruz, é a graça sem Jesus Cristo vivo e encarnado.', 'Discipulado, cap. 1', false, NULL),
 ('Dietrich Bonhoeffer', 'Não existe caminho direto entre os seres humanos. Não alcançamos nosso semelhante nem por meio da empatia mais amorosa; não há relação direta entre almas. Cristo é o Mediador.', 'Discipulado, p. 73', false, NULL),
 ('Dietrich Bonhoeffer', 'Ele (Cristo) é o mediador, não apenas entre Deus e o ser humano, mas também entre um ser humano e outro ser humano, e entre o ser humano e a realidade.', 'Discipulado, cap. 5', false, NULL),
@@ -131,25 +131,25 @@ INSERT INTO quotes (author, text, source, dominio_publico, theme) VALUES
 ('João Calvino', 'Não pertencemos a nós mesmos.', 'A Verdadeira Vida Cristã', false, NULL),
 ('João Calvino', 'O propósito de nossa regeneração é que se manifeste em nossa vida uma harmonia e acordo entre a justiça de Deus e nossa obediência.', 'A Verdadeira Vida Cristã', false, NULL),
 ('João Calvino', 'A Escritura nos ensina que a santidade é o objetivo de nossa vocação.', 'A Verdadeira Vida Cristã', false, NULL),
-('João Calvino', 'Porque todo o propósito do evangelho consiste em que Cristo se fez nosso e somos enxertados no seu corpo.', 'As Institutas', false, 'confirmado via WebSearch — "we put on Christ and are engrafted into his body"');
+('João Calvino', 'Porque todo o propósito do evangelho consiste em que Cristo se fez nosso e somos enxertados no seu corpo.', 'As Institutas', false, NULL);  -- confirmado via WebSearch — "we put on Christ and are engrafted into his body"
 
 -- --- Jonathan Edwards (15) ---
 INSERT INTO quotes (author, text, source, dominio_publico, theme) VALUES
 ('Jonathan Edwards', 'A verdadeira religião, em grande medida, consiste em afeições santas.', 'Afeições Religiosas', false, NULL),
 ('Jonathan Edwards', 'Quanto mais o verdadeiro santo ama a Deus com amor cheio de graça, mais deseja amá-lo e mais se inquieta por sua falta de amor.', 'Afeições Religiosas, p. 288', false, NULL),
-('Jonathan Edwards', 'Aquele que só tem conhecimento doutrinal e especulativo, sem afeições, jamais se comprometerá com a religião.', 'Afeições Religiosas', false, 'confiança alta por citação já precisa no vault'),
-('Jonathan Edwards', 'O certo não é rejeitar todas as afeições tampouco aprovar todas elas, mas saber distingui-las, aprovando algumas e rejeitando outras, separando a palha do trigo.', 'Afeições Religiosas, p. 44', false, 'confiança alta por citação já precisa no vault'),
-('Jonathan Edwards', 'A suma felicidade do homem consiste em atividades e satisfações santas.', 'Afeições Religiosas, p. 218', false, 'confiança alta por citação já precisa no vault'),
-('Jonathan Edwards', 'Não importa o que se faça ou sofra, se o coração não for entregue a Deus, na realidade nada foi dado a Ele.', 'Afeições Religiosas', false, 'confiança alta por citação já precisa no vault'),
-('Jonathan Edwards', 'Multidões muitas vezes ouvem a Palavra de Deus, mas nenhuma dessas pessoas é afetada pelo que ouve.', 'Afeições Religiosas, p. 25', false, 'confiança alta por citação já precisa no vault'),
-('Jonathan Edwards', 'Não é desígnio de Deus que os homens obtenham segurança de qualquer outra forma senão mortificando a corrupção, crescendo na graça e praticando-a de forma ativa. A segurança não se obtém tanto pelo autoexame, mas pela ação.', 'Afeições Religiosas, p. 195', false, 'confiança alta por citação já precisa no vault'),
-('Jonathan Edwards', 'Em vez de receberem Cristo como aquele que salva do pecado, confiam nele como aquele que salva seus pecados.', 'Afeições Religiosas', false, 'confiança média — tema real, formulação não isolada em busca individual'),
-('Jonathan Edwards', 'Se alguém parece muito dedicado à religião social, mas pouco afeito a religião em oculto, este é um sinal muito sombrio no que diz respeito a sua religião.', 'Afeições Religiosas', false, 'confiança média'),
-('Jonathan Edwards', 'Distinguir a experiência cristã da prática cristã, como se fossem realidades distintas e estanques, é fazer uma distinção sem reflexão nem razão.', 'Afeições Religiosas', false, 'confiança média'),
-('Jonathan Edwards', 'A religião consiste em grande medida em santas afeições, mas as afeições que mais distinguem a verdadeira religião são as atividades práticas.', 'Afeições Religiosas', false, 'confiança média'),
-('Jonathan Edwards', 'A graça e a santidade de coração devem consistir em grande medida de um coração cheio de afeições piedosas e ser mui suscetível a essas afeições.', 'Afeições Religiosas', false, 'confiança média'),
-('Jonathan Edwards', 'O princípio fundamental do verdadeiro amor a Deus é que ele é amável por si mesmo, ou digno de ser amado — o que faz Deus amável acima de qualquer coisa é a sua excelência.', 'Afeições Religiosas', false, 'confirmado via WebSearch'),
-('Jonathan Edwards', 'Quem não enxerga a beleza da santidade não sabe nem sequer o que são as graças do Espírito de Deus.', 'Afeições Religiosas', false, 'confiança média');
+('Jonathan Edwards', 'Aquele que só tem conhecimento doutrinal e especulativo, sem afeições, jamais se comprometerá com a religião.', 'Afeições Religiosas', false, NULL),  -- confiança alta por citação já precisa no vault
+('Jonathan Edwards', 'O certo não é rejeitar todas as afeições tampouco aprovar todas elas, mas saber distingui-las, aprovando algumas e rejeitando outras, separando a palha do trigo.', 'Afeições Religiosas, p. 44', false, NULL),  -- confiança alta por citação já precisa no vault
+('Jonathan Edwards', 'A suma felicidade do homem consiste em atividades e satisfações santas.', 'Afeições Religiosas, p. 218', false, NULL),  -- confiança alta por citação já precisa no vault
+('Jonathan Edwards', 'Não importa o que se faça ou sofra, se o coração não for entregue a Deus, na realidade nada foi dado a Ele.', 'Afeições Religiosas', false, NULL),  -- confiança alta por citação já precisa no vault
+('Jonathan Edwards', 'Multidões muitas vezes ouvem a Palavra de Deus, mas nenhuma dessas pessoas é afetada pelo que ouve.', 'Afeições Religiosas, p. 25', false, NULL),  -- confiança alta por citação já precisa no vault
+('Jonathan Edwards', 'Não é desígnio de Deus que os homens obtenham segurança de qualquer outra forma senão mortificando a corrupção, crescendo na graça e praticando-a de forma ativa. A segurança não se obtém tanto pelo autoexame, mas pela ação.', 'Afeições Religiosas, p. 195', false, NULL),  -- confiança alta por citação já precisa no vault
+('Jonathan Edwards', 'Em vez de receberem Cristo como aquele que salva do pecado, confiam nele como aquele que salva seus pecados.', 'Afeições Religiosas', false, NULL),  -- confiança média — tema real, formulação não isolada em busca individual
+('Jonathan Edwards', 'Se alguém parece muito dedicado à religião social, mas pouco afeito a religião em oculto, este é um sinal muito sombrio no que diz respeito a sua religião.', 'Afeições Religiosas', false, NULL),  -- confiança média
+('Jonathan Edwards', 'Distinguir a experiência cristã da prática cristã, como se fossem realidades distintas e estanques, é fazer uma distinção sem reflexão nem razão.', 'Afeições Religiosas', false, NULL),  -- confiança média
+('Jonathan Edwards', 'A religião consiste em grande medida em santas afeições, mas as afeições que mais distinguem a verdadeira religião são as atividades práticas.', 'Afeições Religiosas', false, NULL),  -- confiança média
+('Jonathan Edwards', 'A graça e a santidade de coração devem consistir em grande medida de um coração cheio de afeições piedosas e ser mui suscetível a essas afeições.', 'Afeições Religiosas', false, NULL),  -- confiança média
+('Jonathan Edwards', 'O princípio fundamental do verdadeiro amor a Deus é que ele é amável por si mesmo, ou digno de ser amado — o que faz Deus amável acima de qualquer coisa é a sua excelência.', 'Afeições Religiosas', false, NULL),  -- confirmado via WebSearch
+('Jonathan Edwards', 'Quem não enxerga a beleza da santidade não sabe nem sequer o que são as graças do Espírito de Deus.', 'Afeições Religiosas', false, NULL);  -- confiança média
 
 -- --- Boécio (4) ---
 INSERT INTO quotes (author, text, source, dominio_publico, theme) VALUES
@@ -160,7 +160,7 @@ INSERT INTO quotes (author, text, source, dominio_publico, theme) VALUES
 
 -- --- Anselmo de Cantuária (2) ---
 INSERT INTO quotes (author, text, source, dominio_publico, theme) VALUES
-('Anselmo de Cantuária', 'Algo do qual nada maior pode ser pensado não pode existir apenas no entendimento; existe, portanto, tanto no entendimento quanto na realidade.', 'Proslógio, cap. 2-3', false, 'o argumento ontológico — tese central do livro'),
+('Anselmo de Cantuária', 'Algo do qual nada maior pode ser pensado não pode existir apenas no entendimento; existe, portanto, tanto no entendimento quanto na realidade.', 'Proslógio, cap. 2-3', false, NULL),  -- o argumento ontológico — tese central do livro
 ('Anselmo de Cantuária', 'Não busco compreender para crer, mas creio para compreender.', 'Proslógio, cap. 1', false, NULL);
 
 -- --- Martinho Lutero (1) ---
@@ -170,9 +170,9 @@ INSERT INTO quotes (author, text, source, dominio_publico, theme) VALUES
 -- --- Simone Weil (4) ---
 INSERT INTO quotes (author, text, source, dominio_publico, theme) VALUES
 ('Simone Weil', 'Ser enraizado é talvez o conceito mais importante e menos reconhecido das necessidades da alma humana.', 'O Enraizamento', false, NULL),
-('Simone Weil', 'Atenção é a forma mais rara e pura de generosidade.', 'Carta a Joë Bousquet, 13/04/1942 (recolhida em Primeiros Escritos Filosóficos / Gravity and Grace)', false, 'confirmado via WebSearch'),
-('Simone Weil', 'A atenção absoluta e pura é oração.', 'A Gravidade e a Graça', false, 'confirmado via WebSearch — "Absolutely unmixed attention is prayer"'),
-('Simone Weil', 'Todos os pecados são tentativas de preencher o vazio.', 'A Gravidade e a Graça', false, 'confirmado via WebSearch, amplamente atestado embora predominante em coletâneas secundárias');
+('Simone Weil', 'Atenção é a forma mais rara e pura de generosidade.', 'Carta a Joë Bousquet, 13/04/1942 (recolhida em Primeiros Escritos Filosóficos / Gravity and Grace)', false, NULL),  -- confirmado via WebSearch
+('Simone Weil', 'A atenção absoluta e pura é oração.', 'A Gravidade e a Graça', false, NULL),  -- confirmado via WebSearch — "Absolutely unmixed attention is prayer"
+('Simone Weil', 'Todos os pecados são tentativas de preencher o vazio.', 'A Gravidade e a Graça', false, NULL);  -- confirmado via WebSearch, amplamente atestado embora predominante em coletâneas secundárias
 
 -- --- Søren Kierkegaard (9) ---
 INSERT INTO quotes (author, text, source, dominio_publico, theme) VALUES
@@ -189,15 +189,15 @@ INSERT INTO quotes (author, text, source, dominio_publico, theme) VALUES
 -- --- G. K. Chesterton (7, +1 já corrigida na seção 2) ---
 INSERT INTO quotes (author, text, source, dominio_publico, theme) VALUES
 ('G. K. Chesterton', 'O mundo moderno está cheio das velhas virtudes cristãs enlouquecidas. As virtudes enlouqueceram porque foram isoladas umas das outras e estão circulando sozinhas.', 'Ortodoxia', false, NULL),
-('G. K. Chesterton', 'E quanto mais eu contemplava o cristianismo, tanto mais percebia que, embora ele houvesse estabelecido uma regra e uma ordem, o objetivo principal dessa ordem era permitir espaço para coisas boas sem limites.', 'Ortodoxia, cap. VI', false, 'confirmado via WebSearch'),
-('G. K. Chesterton', 'Os estóicos, antigos e modernos, orgulham-se de esconder suas lágrimas. Ele (Jesus) nunca ocultou as Suas.', 'Ortodoxia', false, 'confirmado via WebSearch — trecho final do livro sobre o "riso escondido" de Cristo'),
-('G. K. Chesterton', 'Há uma grande lição contida em A Bela e a Fera: uma coisa deve ser amada antes que seja digna de amor.', 'Ortodoxia', false, 'confirmado via WebSearch'),
-('G. K. Chesterton', 'O verdadeiro soldado luta não porque odeia o que está à sua frente, mas porque ama o que deixou para trás.', 'Illustrated London News, 31/12/1910', false, 'confirmado via WebSearch (formulação popular é paráfrase; original é equivalente em sentido)'),
-('G. K. Chesterton', 'Por que todos os tolos do mundo pensam que a alma só é livre quando desobedece uma ordem?', 'peça teatral de Chesterton (formulação popular; original usa "discorda" em vez de "desobedece")', false, 'confirmado via WebSearch, formulação popular é variante próxima do original');
+('G. K. Chesterton', 'E quanto mais eu contemplava o cristianismo, tanto mais percebia que, embora ele houvesse estabelecido uma regra e uma ordem, o objetivo principal dessa ordem era permitir espaço para coisas boas sem limites.', 'Ortodoxia, cap. VI', false, NULL),  -- confirmado via WebSearch
+('G. K. Chesterton', 'Os estóicos, antigos e modernos, orgulham-se de esconder suas lágrimas. Ele (Jesus) nunca ocultou as Suas.', 'Ortodoxia', false, NULL),  -- confirmado via WebSearch — trecho final do livro sobre o "riso escondido" de Cristo
+('G. K. Chesterton', 'Há uma grande lição contida em A Bela e a Fera: uma coisa deve ser amada antes que seja digna de amor.', 'Ortodoxia', false, NULL),  -- confirmado via WebSearch
+('G. K. Chesterton', 'O verdadeiro soldado luta não porque odeia o que está à sua frente, mas porque ama o que deixou para trás.', 'Illustrated London News, 31/12/1910', false, NULL),  -- confirmado via WebSearch (formulação popular é paráfrase; original é equivalente em sentido)
+('G. K. Chesterton', 'Por que todos os tolos do mundo pensam que a alma só é livre quando desobedece uma ordem?', 'peça teatral de Chesterton (formulação popular; original usa "discorda" em vez de "desobedece")', false, NULL);  -- confirmado via WebSearch, formulação popular é variante próxima do original
 
 -- --- John Bunyan (3, +1 já corrigida na seção 2) ---
 INSERT INTO quotes (author, text, source, dominio_publico, theme) VALUES
-('John Bunyan', 'Morte, onde está o teu aguilhão? Túmulo, onde está a tua vitória? E assim ele passou, e todas as trombetas soaram por ele do outro lado.', 'O Progresso do Peregrino, Parte II (morte de Valente-pela-Verdade)', false, 'confirmado via WebSearch'),
+('John Bunyan', 'Morte, onde está o teu aguilhão? Túmulo, onde está a tua vitória? E assim ele passou, e todas as trombetas soaram por ele do outro lado.', 'O Progresso do Peregrino, Parte II (morte de Valente-pela-Verdade)', false, NULL),  -- confirmado via WebSearch
 ('John Bunyan', 'Eu vim da Cidade da Perdição, que é o lugar de todo mal, e vou à Cidade de Sião.', 'O Progresso do Peregrino, Parte I', false, NULL),
 ('John Bunyan', 'Então vi que havia um caminho para o inferno desde as portas do céu, como havia também desde a Cidade da Perdição. E acordei, e eis que era um sonho.', 'O Progresso do Peregrino, Parte I (linha final)', false, NULL);
 
