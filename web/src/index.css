@@ -208,21 +208,22 @@
   /* Coluna de leitura. `65ch` ficava curta demais no desktop: como o `ch`
      se resolve pela fonte do PRÓPRIO elemento (que aqui não é a fonte de
      leitura), a coluna travava em ~608px — cerca de 45 caracteres
-     efetivos, bem abaixo da faixa confortável de 66–80. Medido por
-     captura de tela. Agora em px, com folga para o sumário lateral. */
+     efetivos. Medido por captura de tela no tamanho real da fonte de
+     leitura (Merriweather 18px), a faixa confortável de 66–80
+     caracteres cai entre 40rem e 42rem. */
   .max-w-prose-reading {
     max-width: 100%;
   }
 
   @media (min-width: 768px) {
     .max-w-prose-reading {
-      max-width: 44rem;
+      max-width: 40rem;
     }
   }
 
   @media (min-width: 1280px) {
     .max-w-prose-reading {
-      max-width: 48rem;
+      max-width: 42rem;
     }
   }
 
