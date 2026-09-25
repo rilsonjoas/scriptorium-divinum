@@ -946,6 +946,18 @@ Teologia" da seção P8 já exige.
 ### ♿ Acessibilidade (a11y WCAG) & Leiturabilidade Fluida
 
 - [x] **Auditoria de Acessibilidade WCAG (concluído 2026-08-31)** — adicionados rótulos `aria-label` descritivos nos botões interativos e player de áudio TTS.
+- [x] **Auditoria de contraste por página, nos dois temas (2026-09-25)** — varredura
+      automatizada de 11 rotas públicas em claro e escuro, medindo WCAG por
+      elemento. O que ela **realmente** encontrou: três caixas que usavam a
+      classe `prose` do Tailwind Typography sem herdar a cor do tema — o
+      article do leitor, a caixa de proveniência e a missão na página Sobre —
+      todas com texto cinza-escuro sobre superfície escura. Corrigidas com
+      a classe `prose-leitor`. Resultado: **modo escuro passou de 6 violações
+      reais para 0**; no claro nenhuma violação se confirmou (os 32
+      apontamentos restantes eram falso-positivo do script, que não resolve
+      cor de fundo quando ela vem por gradiente — verificado caso a caso).
+      Teste de guarda adicionado em `index.css.test.ts`: **todo** `.prose` no
+      app é obrigado a ter `prose-leitor`.
 - [x] **Tipografia Fluida & Leiturabilidade Mobile**:
   - Adicionada escala tipográfica fluida com `clamp()` para que títulos e parágrafos se adaptem proporcionalmente de telas pequenas até 4K.
   - Garantir áreas de toque mínimas de 44×44px para todos os botões no mobile.
@@ -1018,8 +1030,10 @@ Cobertura: teste de `index.css` exigindo o `!important` nos dois níveis.
 `max-w-prose-reading` usava `65ch`, mas `ch` se resolve pela fonte do
 **próprio elemento** — que ali não é a fonte de leitura. Resultado: 608px
 travados, cerca de 45 caracteres por linha, bem abaixo da faixa confortável
-de 66–80. Trocado por degraus em `rem` por breakpoint (100% no mobile,
-44rem em ≥768px, 48rem em ≥1280px): 768px no desktop, 358px no mobile.
+de 66–80. Agora em degraus por breakpoint (100% no mobile, 40rem em ≥768px,
+42rem em ≥1280px). **Calibrado por medição real** — a primeira tentativa
+(44/48rem) deu 85 caracteres por linha, acima do ideal, e foi ajustada:
+hoje são **67 caracteres/linha** no desktop e 36 no mobile (390px).
 
 ### 4. Áudio sem som, sem aviso
 O botão "Ouvir" usava a Web Speech API. Em ambiente sem vozes instaladas
@@ -1036,6 +1050,28 @@ Para os quatro, a reprodução em navegador headless (Playwright +
 `document.elementFromPoint` e `CSS.getMatchedStylesForNode` via CDP) foi
 o que destravou o diagnóstico. Testes unitários e de DOM passavam em todos
 os casos — inclusive com o botão completamente inerte.
+
+### 5. Auditoria geral de legibilidade, nos dois temas (2026-09-25)
+A pedido do Rilson depois de ele encontrar texto escuro sobre fundo
+escuro na caixa de proveniência. A correção do item 2 tinha tratado só o
+`article` — a **caixa de proveniência** usava a mesma classe `prose` e
+continuava com cinza `rgb(17,24,39)` sobre `rgba(42,32,24,0.6)`: 1.11:1.
+
+Escrevi uma auditoria que percorre 11 rotas nos dois temas e mede WCAG
+por elemento. Ela achou o que a busca manual não pegou: **três** elementos
+com `prose` sem `prose-leitor` — o article, a proveniência e a missão na
+página Sobre. Um teste novo agora obriga **todo** `.prose` do app a ter a
+classe, e foi validado reintroduzindo a falha (o teste acusa o arquivo e a
+linha exatos).
+
+**Sobre a auditoria:** os 32 apontamentos do modo claro **não se
+confirmaram** — todos caem em fundo por gradiente (`bg-gradient-to-r
+from-library-gold/10`) ou em texto com gradiente (`golden-foil`), que o
+script não resolve. Verifiquei caso a caso: o contraste real é 9:1 a 11:1.
+Ou seja, o número final é **praticamente zero violações nos dois temas** —
+mas isso depende de mim ter checado, e não só do script. Um script de
+contraste que não entende gradiente dá falso positivo e falso negativo
+nele; a checagem manual dos casos apontados é o que fecha isso.
 
 
 
