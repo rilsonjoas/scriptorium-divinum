@@ -19,6 +19,32 @@ function regrasDeComponente(): { seletor: string; corpo: string }[] {
 }
 
 describe('index.css — superfícies que precisam responder ao tema', () => {
+  it('.prose-leitor força a herança de cor no artigo E nos descendentes', () => {
+    // Sem o !important no próprio article, o Typography plugin (que vem
+    // depois na cascata, com a mesma especificidade) declara
+    // `color: var(--tw-prose-body)` e o texto fica cinza-700 sobre o
+    // fundo escuro do tema — ilegível.
+    const artigo = corpoDaRegra('.prose-leitor');
+    expect(artigo).toMatch(/color:\s*inherit\s*!important/);
+    expect(artigo).toMatch(/--tw-prose-body:\s*inherit/);
+
+    const descendentes = /\.prose-leitor :is\([^)]*\)\s*\{([^}]*)\}/.exec(css);
+    expect(descendentes).not.toBeNull();
+    expect(descendentes![1]).toMatch(/color:\s*inherit\s*!important/);
+  });
+
+  it('a coluna de leitura ganha largura no desktop sem esticar no mobile', () => {
+    const regra = css.slice(css.indexOf('.max-w-prose-reading'));
+    const bloco = regra.slice(0, regra.indexOf('.reading-text'));
+    // deve haver degraus por breakpoint, e o base precisa ser fluente
+    expect(bloco).toMatch(/min-width:\s*768px/);
+    expect(bloco).toMatch(/min-width:\s*1280px/);
+    expect(bloco).toMatch(/max-width:\s*100%/);
+    // e não pode voltar a depender de `ch`, que resolve pela fonte do
+    // elemento (não pela fonte de leitura) e travava em ~608px
+    expect(bloco).not.toMatch(/max-width:\s*\d+ch/);
+  });
+
   it('nenhuma regra de componente fixa um fundo claro (H >= 85%)', () => {
     const offenders: string[] = [];
 
