@@ -138,7 +138,7 @@ export function ReadingToolbar({ settings, onChangeSettings }: ReadingToolbarPro
                   onClick={() => update({ fontFamily: item.value })}
                   className={`flex items-center justify-between px-2.5 py-1.5 rounded-md text-xs transition-colors text-left ${item.className} ${
                     settings.fontFamily === item.value
-                      ? 'bg-library-gold/25 text-library-wood-foreground font-semibold border border-library-gold/50'
+                      ? 'bg-library-gold/25 text-library-wood-foreground font-semibold border border-library-dourado/50'
                       : 'hover:bg-library-gold/10 text-library-wood-foreground'
                   }`}
                 >

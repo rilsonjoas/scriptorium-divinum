@@ -79,7 +79,14 @@ export default {
 				'library-leather': 'hsl(var(--library-leather))',
 				'library-bronze': 'hsl(var(--library-bronze))',
 				'library-bronze-foreground': 'hsl(var(--library-bronze-foreground))',
-				'library-emerald': 'hsl(var(--library-emerald))'
+				'library-emerald': 'hsl(var(--library-emerald))',
+				'library-canela': 'hsl(var(--library-canela))',
+				'library-bege-areia': 'hsl(var(--library-bege-areia))',
+				'library-dourado': 'hsl(var(--library-dourado))',
+				'library-dourado-texto': 'hsl(var(--library-dourado-texto))',
+				'library-dourado-texto-claro': 'hsl(var(--library-dourado-texto-claro))',
+				'library-vinho': 'hsl(var(--library-vinho))',
+				'library-grafite': 'hsl(var(--library-grafite))'
 			},
 			backgroundImage: {
 				'gradient-gold': 'var(--gradient-gold)',

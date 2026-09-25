@@ -303,7 +303,7 @@ export default function AdminCategories() {
                           </TableCell>
                           <TableCell className="font-body text-library-bronze-foreground">
                             <div className="flex items-center space-x-2">
-                              <Badge variant="outline" className="border-library-gold text-library-bronze-foreground">
+                              <Badge variant="outline" className="border-library-dourado text-library-bronze-foreground">
                                 {category.bookCount || 0}
                               </Badge>
                               {(category.bookCount || 0) > 0 && (

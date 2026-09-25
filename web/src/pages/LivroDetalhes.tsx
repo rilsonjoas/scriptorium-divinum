@@ -80,8 +80,8 @@ const LivroDetalhes = () => {
                     }
                   />
                   {/* Ornamental corners */}
-                  <div className="absolute top-3 right-3 w-4 h-4 border-t-2 border-r-2 border-library-gold"></div>
-                  <div className="absolute bottom-3 left-3 w-4 h-4 border-b-2 border-l-2 border-library-gold"></div>
+                  <div className="absolute top-3 right-3 w-4 h-4 border-t-2 border-r-2 border-library-dourado"></div>
+                  <div className="absolute bottom-3 left-3 w-4 h-4 border-b-2 border-l-2 border-library-dourado"></div>
                 </div>
 
                 {/* Action Buttons */}
@@ -172,7 +172,7 @@ const LivroDetalhes = () => {
                     onClick={() => setCitationOpen(true)}
                     variant="outline"
                     size="sm"
-                    className="w-full border-2 border-library-gold bg-library-gold/15 text-library-wood-foreground hover:bg-library-gold hover:text-library-wood font-semibold font-body shadow-sm"
+                    className="w-full border-2 border-library-dourado bg-library-gold/15 text-library-wood-foreground hover:bg-library-gold hover:text-library-wood font-semibold font-body shadow-sm"
                   >
                     <GraduationCap className="mr-2 h-4 w-4 text-library-crimson" />
                     Como Citar esta Obra
@@ -223,7 +223,7 @@ const LivroDetalhes = () => {
                       aria-pressed={fav}
                       className={`flex items-center gap-1.5 rounded-md border px-2.5 py-1 transition-colors font-body ${
                         fav
-                          ? 'border-library-gold bg-library-gold/20 text-library-wood-foreground'
+                          ? 'border-library-dourado bg-library-gold/20 text-library-wood-foreground'
                           : 'border-library-bronze/50 text-library-bronze-foreground hover:bg-library-gold/10'
                       }`}
                       title={fav ? 'Remover dos favoritos' : 'Adicionar aos favoritos'}

@@ -120,7 +120,7 @@ const Livros = () => {
                 aria-pressed={soFavoritos}
                 className={`flex items-center justify-center gap-2 rounded-md border px-4 h-10 text-sm font-body font-medium transition-colors ${
                   soFavoritos
-                    ? 'border-2 border-library-gold bg-library-gold/20 text-library-wood-foreground font-semibold shadow-sm'
+                    ? 'border-2 border-library-dourado bg-library-gold/20 text-library-wood-foreground font-semibold shadow-sm'
                     : 'border-library-bronze text-library-wood-foreground hover:bg-library-gold/10'
                 }`}
                 title="Mostrar apenas favoritos"

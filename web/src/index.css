@@ -79,7 +79,7 @@
 
     /* Classical Library Custom Colors & Illuminated Pigments */
     --library-wood: 25 35% 15%; /* Dark mahogany */
-    --library-gold: 43 85% 65%; /* Antique gold */
+    --library-gold: 43 85% 65%; /* Dourado legível sobre madeira escura (texto/ícone) */
     --library-parchment: 35 25% 92%; /* Aged paper */
     --library-leather: 20 30% 25%; /* Rich leather */
     --library-bronze: 35 45% 35%; /* Bronze details */
@@ -88,6 +88,18 @@
     --library-wood-foreground: 25 35% 15%;
     --library-bronze-foreground: 35 45% 35%;
     --library-parchment-surface: 35 25% 92%;
+
+    /* Paleta canônica do cluster A Biblioteca — espelha
+       "Identidade visual geral.md" §2 e o Guia Técnico (Código).
+       Usar estes valores para qualquer cor nova; os tokens --library-*
+       acima são o dermis próprio do Scriptorium sobre esta base. */
+    --library-canela: 26 46% 33%; /* #7A4E2D — Marrom Canela */
+    --library-bege-areia: 33 30% 90%; /* #EAE0D5 — Bege Areia */
+    --library-dourado: 42 35% 54%; /* #B49A60 — Dourado Suave (decorativo) */
+    --library-dourado-texto: 44 60% 83%; /* #EDDFB8 — dourado seguro sobre fundo escuro */
+    --library-vinho: 336 24% 24%; /* #4B2E39 — Vinho Profundo */
+    --library-grafite: 0 0% 11%; /* #1C1C1C — Preto Grafite */
+    --library-dourado-texto-claro: 40 26% 29%; /* #63502F — dourado como texto sobre fundo claro */
 
     /* Illuminated Pigments (Pigmentos de Iluminuras) */
     --library-crimson: 350 65% 35%; /* Rubrica / Vermelho Carmesim */
@@ -227,7 +239,7 @@
   }
 
   .chapter-divider {
-    @apply border-t-2 border-library-gold relative my-8;
+    @apply border-t-2 border-library-dourado relative my-8;
   }
 
   .chapter-divider::after {
@@ -243,7 +255,7 @@
       hsl(var(--library-wood)),
       hsl(var(--library-leather))
     );
-    @apply border-l-4 border-library-gold shadow-lg;
+    @apply border-l-4 border-library-dourado shadow-lg;
   }
 
   /* Parchment texture effect */
@@ -313,7 +325,7 @@
 
   /* Tondo Portrait Framing (Estilo Galeria Bíblia na Arte) */
   .tondo-portrait {
-    @apply rounded-full border-2 border-library-gold ring-2 ring-library-gold/50 shadow-golden relative overflow-hidden transition-all duration-300;
+    @apply rounded-full border-2 border-library-dourado ring-2 ring-library-gold/50 shadow-golden relative overflow-hidden transition-all duration-300;
     background: linear-gradient(135deg, hsl(25 35% 15%), hsl(20 30% 25%));
   }
 
@@ -328,15 +340,18 @@
 
   .gold-border-corner::before {
     content: '';
-    @apply absolute top-1 right-1 w-2.5 h-2.5 border-t border-r border-library-gold opacity-80 pointer-events-none;
+    @apply absolute top-1 right-1 w-2.5 h-2.5 border-t border-r border-library-dourado opacity-80 pointer-events-none;
   }
 
   .gold-border-corner::after {
     content: '';
-    @apply absolute bottom-1 left-1 w-2.5 h-2.5 border-b border-l border-library-gold opacity-80 pointer-events-none;
+    @apply absolute bottom-1 left-1 w-2.5 h-2.5 border-b border-l border-library-dourado opacity-80 pointer-events-none;
   }
 
-  /* Capitular Medieval para início de obras e capítulos */
+  /* Capitular Medieval para início de obras e capítulos.
+     Vinho Profundo em vez de dourado: a capitular cai sobre o pergaminho
+     claro da página de leitura, e dourado sobre creme reprova WCAG AA
+     (2.37:1 — medido no Narniano, 2026-09-07). Vinho dá 6.75:1. */
   .capitular-medieval > p:first-of-type::first-letter {
     font-family: var(--font-display);
     font-size: 3.25em;
@@ -344,9 +359,16 @@
     line-height: 0.8;
     margin-top: 0.08em;
     margin-right: 0.15em;
-    color: hsl(var(--library-gold));
+    color: hsl(var(--library-vinho));
     font-weight: 700;
     text-shadow: 1px 1px 2px hsl(var(--library-wood) / 0.3);
+  }
+
+  /* Capitular invertida no tema escuro do leitor, onde o vinho
+     reprovaria (1.5:1) — o dourado claro dá 12:1 sobre o mesmo fundo. */
+  .reader-theme-dark .capitular-medieval > p:first-of-type::first-letter {
+    color: hsl(var(--library-dourado-texto));
+    text-shadow: 1px 1px 2px hsl(0 0% 0% / 0.4);
   }
 
   @media (max-width: 480px) {

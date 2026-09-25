@@ -340,7 +340,7 @@ export default function Contribuir() {
                     {contactEmail}
                   </a>
                 </Button>
-                <Button asChild variant="outline" className="border-library-gold text-library-gold hover:bg-library-gold hover:text-library-wood font-body">
+                <Button asChild variant="outline" className="border-library-dourado text-library-gold hover:bg-library-gold hover:text-library-wood font-body">
                   <a href={githubUrl} target="_blank" rel="noopener noreferrer">
                     <Github className="h-4 w-4 mr-2" />
                     Projeto GitHub

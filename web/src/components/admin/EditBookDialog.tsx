@@ -252,7 +252,7 @@ export function EditBookDialog({ book, open, onClose, onSave, authors }: EditBoo
                 <Badge 
                   key={category} 
                   variant="outline" 
-                  className="border-library-gold text-library-bronze-foreground"
+                  className="border-library-dourado text-library-bronze-foreground"
                 >
                   {category}
                   <button

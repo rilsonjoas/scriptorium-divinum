@@ -63,13 +63,13 @@ const AutorDetalhes = () => {
                     </div>
                   }
                 />
-                <div className="absolute inset-0 rounded-full border-2 border-library-gold/30 pointer-events-none" />
+                <div className="absolute inset-0 rounded-full border-2 border-library-dourado/30 pointer-events-none" />
               </div>
 
               {/* DADOS DE IDENTIFICAÇÃO DO AUTOR */}
               <div className="text-center md:text-left flex-1 min-w-0">
                 {richInfo?.historicalPeriod && (
-                  <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-library-gold/20 text-library-wood-foreground border border-library-gold/40 mb-3 font-body">
+                  <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-library-gold/20 text-library-wood-foreground border border-library-dourado/40 mb-3 font-body">
                     <Landmark className="h-3.5 w-3.5 text-library-gold shrink-0" />
                     {richInfo.historicalPeriod}
                   </span>
@@ -122,7 +122,7 @@ const AutorDetalhes = () => {
 
             {/* BANNER DA CITAÇÃO DE ASSINATURA (.signature-quote) */}
             {richInfo?.signatureQuote && (
-              <div className="mt-8 p-6 rounded-xl bg-gradient-to-r from-library-wood/10 via-library-gold/15 to-library-wood/10 border-y-2 border-library-gold/40 text-center relative shadow-xs">
+              <div className="mt-8 p-6 rounded-xl bg-gradient-to-r from-library-wood/10 via-library-gold/15 to-library-wood/10 border-y-2 border-library-dourado/40 text-center relative shadow-xs">
                 <span className="text-2xl text-library-gold block mb-1">❦</span>
                 <blockquote className="font-heading italic text-lg md:text-xl text-library-wood-foreground max-w-3xl mx-auto leading-relaxed">
                   “{richInfo.signatureQuote}”

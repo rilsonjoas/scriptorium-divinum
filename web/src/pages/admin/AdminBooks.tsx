@@ -264,7 +264,7 @@ export default function AdminBooks() {
                         <TableCell>
                           <div className="flex flex-wrap gap-1">
                             {book.categories?.slice(0, 2).map((category) => (
-                              <Badge key={category} variant="outline" className="text-xs border-library-gold text-library-bronze-foreground">
+                              <Badge key={category} variant="outline" className="text-xs border-library-dourado text-library-bronze-foreground">
                                 {category}
                               </Badge>
                             ))}

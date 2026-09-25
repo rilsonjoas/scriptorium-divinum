@@ -362,7 +362,7 @@ export default function Reader() {
   const themeClasses = {
     parchment: 'bg-card/95 parchment-bg border-library-bronze text-foreground',
     light: 'bg-white border-gray-200 text-gray-900 shadow-md',
-    dark: 'bg-[#1a1614] border-[#382e2b] text-[#e5dcd3] shadow-xl',
+    dark: 'reader-theme-dark bg-[#1a1614] border-[#382e2b] text-[#e5dcd3] shadow-xl',
     sepia: 'bg-[#f4ecd8] border-[#dfd0b5] text-[#4a3b2c] shadow-md',
   }[readingSettings.theme];
 

@@ -30,8 +30,8 @@ export function BookCard({ book, variant = 'grid' }: BookCardProps) {
                   </div>
                 }
               />
-              <div className="absolute top-1 right-1 w-2 h-2 border-t border-r border-library-gold"></div>
-              <div className="absolute bottom-1 left-1 w-2 h-2 border-b border-l border-library-gold"></div>
+              <div className="absolute top-1 right-1 w-2 h-2 border-t border-r border-library-dourado"></div>
+              <div className="absolute bottom-1 left-1 w-2 h-2 border-b border-l border-library-dourado"></div>
             </div>
 
             {/* Book Info */}
@@ -116,7 +116,7 @@ export function BookCard({ book, variant = 'grid' }: BookCardProps) {
   if (variant === 'spine') {
     return (
       <div className="book-spine w-16 h-80 relative group cursor-pointer transform hover:scale-105 transition-all duration-300">
-        <div className="w-full h-full bg-gradient-to-r from-library-leather via-library-wood to-library-leather border-l-4 border-library-gold shadow-book rounded-r-lg">
+        <div className="w-full h-full bg-gradient-to-r from-library-leather via-library-wood to-library-leather border-l-4 border-library-dourado shadow-book rounded-r-lg">
           <div className="writing-mode-vertical-rl text-orientation-mixed h-full flex items-center justify-center p-4">
             <span className="text-library-gold font-heading text-sm font-medium transform rotate-180">
               {book.title}
@@ -159,8 +159,8 @@ export function BookCard({ book, variant = 'grid' }: BookCardProps) {
               }
             />
             {/* Ornamental corner */}
-            <div className="absolute top-1.5 right-1.5 w-2.5 h-2.5 border-t border-r border-library-gold"></div>
-            <div className="absolute bottom-1.5 left-1.5 w-2.5 h-2.5 border-b border-l border-library-gold"></div>
+            <div className="absolute top-1.5 right-1.5 w-2.5 h-2.5 border-t border-r border-library-dourado"></div>
+            <div className="absolute bottom-1.5 left-1.5 w-2.5 h-2.5 border-b border-l border-library-dourado"></div>
           </div>
 
           {/* Book Info - min-w-0 previne estouro de container no CSS Flexbox */}

@@ -58,11 +58,11 @@ export function ClusterConnections({ term, type }: ClusterConnectionsProps) {
               href={link.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="group p-3.5 rounded-lg border border-library-bronze/40 bg-card/60 hover:bg-library-wood/5 hover:border-library-gold/80 transition-all flex flex-col justify-between"
+              className="group p-3.5 rounded-lg border border-library-bronze/40 bg-card/60 hover:bg-library-wood/5 hover:border-library-dourado/80 transition-all flex flex-col justify-between"
             >
               <div>
                 <div className="flex items-center justify-between mb-2">
-                  <span className="text-[10px] font-body font-bold tracking-wider uppercase px-2 py-0.5 rounded bg-library-gold/15 text-library-wood-foreground border border-library-gold/30">
+                  <span className="text-[10px] font-body font-bold tracking-wider uppercase px-2 py-0.5 rounded bg-library-gold/15 text-library-wood-foreground border border-library-dourado/30">
                     {link.badge}
                   </span>
                   <ExternalLink className="h-3.5 w-3.5 text-library-bronze-foreground group-hover:text-library-gold transition-colors" />

@@ -293,7 +293,7 @@ export function AddBookDialog({ open, onClose, onSave, authors }: AddBookDialogP
                 <Badge 
                   key={category} 
                   variant="outline" 
-                  className="border-library-gold text-library-bronze-foreground"
+                  className="border-library-dourado text-library-bronze-foreground"
                 >
                   {category}
                   <button
