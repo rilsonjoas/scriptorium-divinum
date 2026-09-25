@@ -209,6 +209,19 @@ volta à mesa (seção "Ordem recomendada").
       testado no CI
 - [x] **Google Search Console verificado (2026-08-14)** — tag `<meta name="google-site-verification">` adicionada ao `web/index.html` e propriedade verificada no Search Console. Sitemap enviado em `https://scriptorium.narniano.com/sitemap.xml`.
 - [ ] **Verificar sitemap no Search Console**: Acessar [Google Search Console](https://search.google.com/search-console) → propriedade `scriptorium.narniano.com` → Sitemaps → confirmar que `https://scriptorium.narniano.com/sitemap.xml` está com status "Sucesso" e URLs sendo indexadas.
+- [ ] **URLs amigáveis (slug em vez de UUID) — pedido do Rilson em
+      2026-09-25, execução adiada.** Hoje a ficha e o leitor respondem por
+      identificador: `/livros/8ceec7d1-c719-4eea-a3fc-a7bfd2a5a9da` e
+      `/ler/8ceec7d1-...`. O [[Bíblia na Arte]] já resolve por slug e é o
+      padrão a seguir no cluster. O slug (`confissoes`) **já existe** no
+      banco — a API aceita `:idOrSlug` nas duas rotas, então o caminho é
+      trocar o link e manter o UUID como fallback, sem migração de dados.
+      Atenção a três pontos: (1) o `sitemap.xml` precisa passar a emitir
+      a forma com slug; (2) o service worker tem regra de cache por URL
+      (`leituras-offline`) que casa com `/books/[^/]+/text` e continuará
+      válida, mas convém confirmar que não guarda a variante antiga; (3)
+      links já indexados pelo Google com o UUID devem continuar
+      funcionando — daí o fallback em vez de redirecionamento.
 - [x] **Modo escuro/claro (concluído 2026-09-25)** — toggle no cabeçalho (desktop e menu mobile), persistido em `localStorage` e aplicado antes da primeira pintura por um script inline no `index.html` (evita flash de tema). O que exigiu mais cuidado: os tokens `library-*` serviam **a texto e a fundo** ao mesmo tempo (`--library-wood` era texto 313× e fundo 58×), então invertê-los globalmente quebrava os botões de madeira. Separei em `--library-wood` (fundo, fixo) + `--library-wood-foreground` (texto, sobe no dark), no mesmo desenho do par `primary`/`primary-foreground` do shadcn. Mesma lógica para `bronze` e para a superfície do pergaminho.
 - [x] **Interface Responsiva verificada (2026-09-25)** — conferida por captura de tela em 390px e 1440px no Leitor: a coluna de leitura ocupa 100% no mobile e 768px no desktop.
 - [ ] Loading states "mais elegantes" — item aberto no próprio README
