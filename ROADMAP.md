@@ -1022,28 +1022,46 @@ de "dashboard com tema pergaminho".
 
 ### Fases (propostas — aguardam aprovação do Rilson)
 
-**F0 — Decisões de design (primeiro, sem codar).** Antes de mexer em
-227 classes, alinhar três decisões com o Rilson, porque elas definem tudo
-o resto:
-1. **Bordas:** escanear? (O `--radius` do Scriptorium é 0.5rem contra
-   0.25rem do Lecionário, e há 227 `rounded-*`.) Recomendo baixar o
-   radius base para ~0.25rem e reduzir `rounded-xl/2xl` a `rounded-sm/md`
-   — aproximando do Lecionário sem o zero absoluto dele.
-2. **Caixa alta:** remover dos títulos de seção (mantendo nos rótulos
-   pequenos de rodapé e no "Como citar", onde é convenção editorial
-   legítima). Recomendo manter <4 usos, todos em label curto.
-3. **Fontes:** o canônico do vault é Cormorant Garamond (display) + EB
-   Garamond (body) + JetBrains Mono. O Scriptorium usa Playfair (display),
-   Cinzel (classical), Merriweather (reading), Inter (sans), EB Garamond
-   (serif). **Não é troca trivial** — Merriweather é a fonte de *leitura
-   longa* e foi escolha de leitura, não estética. Recomendo: display e
-   serif passam para o canônico; reading (Merriweather) e sans (Inter)
-   ficam, com justificativa. Ou seja, converge ~60%, não 100%.
+**F0 — Decisões de design. ✅ APROVADAS pelo Rilson em 2026-09-25.**
+Anotadas aqui porque definem todo o resto, e porque não dá para
+reconstituí-las depois:
+
+1. **Bordas — APROVADO como recomendado.** Baixar o raio base de
+   `0.5rem` para `~0.25rem` e reduzir `rounded-xl/2xl` a `rounded-sm/md`.
+   **Não** até o zero absoluto do Lecionário — o zero é escolha *dele*.
+2. **Caixa alta — APROVADO como recomendado.** Remover dos títulos de
+   seção, mantendo nos rótulos curtos de rodapé e no "Como Citar", onde é
+   convenção editorial legítima. Meta: **no máximo 4 usos**, todos em
+   label curto.
+3. **Fontes — APROVADO como recomendado.** `display` e `serif` passam
+   para o canônico do vault (Cormorant Garamond / EB Garamond);
+   **Merriweather** (leitura longa) e **Inter** (sans) permanecem, com
+   justificativa. Convergência ~60%, não 100% — assumido conscientemente.
+
+**Ordem de execução (também aprovada):** F0 → F1 → F2 → F3 → F4 → F5.
+Cada fase só começa depois que a anterior está commitada e no ar.
+
+### Rede de segurança antes de F1
+O `e2e` de QA visual citado no checklist (52 capturas, job `visual-qa`
+no CI) **não existe mais** neste repositório — o workspace hoje é só
+`server` + `web` e não há job visual no CI. Conclusão: a rede de
+segurança precisa ser **reconstituída** com Playwright antes de mexer nas
+227 classes, senão não há como comparar antes/depois. Captura de
+referência: as 10 rotas públicas × 2 temas, viewport 1440×1200.
 
 **F1 — Caixa alta** (risco baixo, ganho alto). Extrair um componente
 `<SectionLabel>` único (não uma classe solta) e substituir os 14 usos.
 O rótulo do rodapé com `tracking-[0.3em]` a 10px volta para algo
 legível.
+
+**F1b — `<SectionLabel>`: o que ele é.** Um rótulo curto de seção,
+com hierarquia própria (10–11px, `tracking-wide`, cor `bronze-foreground`,
+**sem caixa alta**) e um filete dourado opcional à esquerda — o
+mesmo gesto do `chapter-divider` que já existe no projeto. Substitui
+padrões repetidos como `uppercase tracking-widest text-library-crimson`
+(que hoje aparece 4× idêntico em FeaturedSection, PinturaDoDia,
+CitacaoDoDia e VersiculoDoDia). Mantém a identidade editorial sem
+gritar.
 
 **F2 — Bordas e raio.** Token único de raio, substituir os `rounded-lg/xl`
 do shadcn pelo valor convergente. Catálogo com `rg -l 'rounded-'` para
@@ -1066,6 +1084,21 @@ mexer em 227 classes às cegas é arriscado.
 > Nenhuma fase começa sem: (a) captura do antes, (b) o Rilson vendo o
 > antes/depois, (c) a mesma forma nos dois irmãos. Convergência é
 > *entre* projetos, não impor o Scriptorium aos outros.
+
+### Estado em 2026-09-25 (pausa do Rilson)
+**Nada foi implementado ainda** — as cinco fases estão inteiras. Foi
+feito apenas: a medição comparativa, o registro deste plano e a
+aprovação do F0. A rede de segurança (capturas do "antes") foi iniciada
+e **interrompida** pelo próprio Rilson ao pausar — não gera resultado
+parcial utilizável, precisa recomeçar do zero.
+
+Ordem a retomar: **reconstituir a rede de segurança → F1 → F2 → F3 → F4
+→ F5**. Cada fase, ao terminar, gera o commit, o deploy, a comparação
+antes/depois e a atualização desta seção.
+
+**Pendências que não são desta fase** (registradas, não iniziadas):
+URLs amigáveis, os três itens de leitura digital (performance do leitor,
+menu de contexto da seleção, downloads acessíveis) e a política de PDF.
 
 ---
 
