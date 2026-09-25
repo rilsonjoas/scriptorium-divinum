@@ -89,7 +89,7 @@ export function NotesDrawer({ open, onOpenChange, bookSlug, bookTitle }: NotesDr
                     "{hl.text}"
                   </p>
                   {hl.note && (
-                    <div className="mt-2 pt-2 border-t border-black/10 text-xs font-body not-italic text-black/80 bg-white/40 p-2 rounded">
+                    <div className="mt-2 pt-2 border-t border-border/40 text-xs font-body not-italic text-foreground bg-muted/40 p-2 rounded">
                       <strong className="font-semibold block text-[11px] uppercase tracking-wider mb-0.5 text-library-wood-foreground">Minha Nota:</strong>
                       {hl.note}
                     </div>

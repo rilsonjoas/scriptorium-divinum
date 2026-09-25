@@ -426,9 +426,16 @@
     border-top: 2px solid hsl(var(--library-gold));
   }
 
-  /* Encarte de Couro Prensado com Relevo Dourado */
+  /* Encarte de Couro Prensado com Relevo Dourado.
+     O gradiente usava cores claras fixas e ignorava o tema — no modo
+     escuro o cartão continuava pergaminho com o texto já clarificado,
+     virando texto claro sobre fundo claro. Agora deriva dos tokens. */
   .leather-pressed-card {
-    background: linear-gradient(135deg, hsl(35 25% 96%), hsl(35 20% 90%));
+    background: linear-gradient(
+      135deg,
+      hsl(var(--card) / 0.98),
+      hsl(var(--library-parchment-surface) / 0.98)
+    );
     border: 1px solid hsl(var(--library-bronze) / 0.4);
     box-shadow: var(--shadow-book);
     position: relative;
