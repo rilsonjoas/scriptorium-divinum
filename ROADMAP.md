@@ -1085,20 +1085,29 @@ mexer em 227 classes às cegas é arriscado.
 > antes/depois, (c) a mesma forma nos dois irmãos. Convergência é
 > *entre* projetos, não impor o Scriptorium aos outros.
 
-### Estado em 2026-09-25 (pausa do Rilson)
-**Nada foi implementado ainda** — as cinco fases estão inteiras. Foi
-feito apenas: a medição comparativa, o registro deste plano e a
-aprovação do F0. A rede de segurança (capturas do "antes") foi iniciada
-e **interrompida** pelo próprio Rilson ao pausar — não gera resultado
-parcial utilizável, precisa recomeçar do zero.
+### Estado em 2026-09-25 (F1 entregue; F2+ pendentes)
+**F1 — Caixa alta: ✅ ENTREGUE** (commit `c916e2a`, no ar). Componente
+`SectionLabel` criado e 9 títulos de seção migrados. Antes → depois:
+`uppercase` de **14 → 4 usos** (os 4 aprovados). Ganhos colaterais
+descobertos na execução:
+- `text-library-crimson` **não existia** no build (não estava no
+  `tailwind.config.ts`) — 13 usos eram no-op e herdavam a cor do texto.
+  Adicionado, junto com o token `--library-crimson-foreground`, porque o
+  carmesim de fundo (350 65% 35%) dá 2.71:1 sobre a superfície escura
+  (reprovado) e 5.88:1 na clara — nenhum tom único serve nos dois, então
+  o texto tem token próprio que sobe no dark (7.13:1).
+- O rótulo do rodapé era `text-[10px] + tracking-[0.3em]` (minúsculo e
+  super-espaçado). Virou 11px / tracking 0.18em.
+- Os botões de idioma do rodapé saíram de caixa alta.
+- Teste de guarda `SectionLabel.test.ts`: reprova `uppercase` fora dos 4
+  arquivos aprovados e exige o token de carmesim nos dois temas.
 
-Ordem a retomar: **reconstituir a rede de segurança → F1 → F2 → F3 → F4
-→ F5**. Cada fase, ao terminar, gera o commit, o deploy, a comparação
-antes/depois e a atualização desta seção.
+**Rede de segurança montada:** capturas antes/depois de 10 rotas × 2
+temas, em `/tmp/opencode/shots/{antes,depois}`. (Volátil — `/tmp`. Para
+durá-las, precisam ir para o repo como baselines; ver F5.)
 
-**Pendências que não são desta fase** (registradas, não iniziadas):
-URLs amigáveis, os três itens de leitura digital (performance do leitor,
-menu de contexto da seleção, downloads acessíveis) e a política de PDF.
+**Ainda por fazer:** F2 (bordas/raio), F3 (tipografia), F4 (transições),
+F5 (comparar/mostrar). Ver tabela de ordem no topo desta seção.
 
 ---
 
