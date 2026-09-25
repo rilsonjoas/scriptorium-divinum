@@ -34,26 +34,35 @@ DELETE FROM quotes WHERE id IN (
   '19e60d37-a57f-4d39-a53b-a8964b7ced36'  -- "vida com Deus não é imune às dificuldades"
 );
 
+-- ⚠️ Achado do pente-fino (25/09/2026): a tabela já tinha 43 citações de 10
+-- outros autores, nunca vistas até o dry-run (query original só filtrava
+-- author=C.S. Lewis). 5 delas, hoje creditadas erradamente a "C. S. Lewis",
+-- são DUPLICATAS EXATAS de citações já corretamente atribuídas que já
+-- existiam na tabela sob o autor certo — remover em vez de relabelar
+-- (relabelar criaria linha duplicada).
+DELETE FROM quotes WHERE id IN (
+  '6cafa112-7817-40d3-b366-ed832cfe0e7f', -- "Tarde te amei..." — já existe como Santo Agostinho
+  'eeb32e36-c0c4-4d5c-ac8f-16ee00058947', -- "Fizeste-nos para ti, Senhor..." — já existe como Santo Agostinho
+  '0cb293c2-3497-4597-9cd4-7284e9238de4', -- "Não tenhas em grande conta..." — já existe como Tomás de Kempis
+  '63c1dfaa-ec8c-44e4-8374-f53c7929b5d5', -- "Muito ganha quem muito ama..." — já existe como Tomás de Kempis
+  '92d11753-e537-4d59-90ab-880543dd01de'  -- "O coração tem razões..." — já existe como Blaise Pascal
+);
+
 -- ============================================================
 -- 2. CORREÇÕES DE ATRIBUIÇÃO — citações reais, autor errado
 --    (a nota-fonte no vault já tinha o autor certo no frontmatter;
 --    o bug estava só na extração pro Scriptorium)
 -- ============================================================
 
-UPDATE quotes SET author = 'Agostinho de Hipona'
-WHERE id IN ('6cafa112-7817-40d3-b366-ed832cfe0e7f', 'eeb32e36-c0c4-4d5c-ac8f-16ee00058947');
-
-UPDATE quotes SET author = 'Tomás de Kempis'
-WHERE id IN ('0cb293c2-3497-4597-9cd4-7284e9238de4', '63c1dfaa-ec8c-44e4-8374-f53c7929b5d5');
+-- (as correções de Agostinho, Kempis e Pascal que estariam aqui foram
+-- substituídas por DELETE acima — eram duplicatas exatas de citações que
+-- já existiam corretamente atribuídas na tabela; ver seção 1)
 
 UPDATE quotes SET author = 'G. K. Chesterton'
 WHERE id = '4caf6691-04ea-4091-bda6-8793904618a5';
 
 UPDATE quotes SET author = 'John Bunyan'
 WHERE id = 'e573ef04-de1f-4c08-99ac-b78686c6d94a';
-
-UPDATE quotes SET author = 'Blaise Pascal'
-WHERE id = '92d11753-e537-4d59-90ab-880543dd01de';
 
 -- NOTA: dominioPublico mantido como estava (false) nesta primeira passada,
 -- pra preservar o link de afiliado Amazon (agora buscando o autor CERTO).
@@ -83,7 +92,10 @@ INSERT INTO quotes (author, text, source, dominio_publico, theme) VALUES
 --    inline). Nada incluído com confiança baixa.
 -- ============================================================
 
--- --- Agostinho de Hipona (11 novas, +2 já corrigidas na seção 2) ---
+-- --- Agostinho de Hipona (11 novas; as 2 correções que estariam aqui via
+--     UPDATE foram substituídas por DELETE na seção 1 — duplicatas exatas
+--     de citações que já existiam na tabela como "Santo Agostinho",
+--     renomeado nesta passada; ver seção 5) ---
 INSERT INTO quotes (author, text, source, dominio_publico, theme) VALUES
 ('Agostinho de Hipona', 'A criatura espiritual vos agrada não pelo fato de existir, mas por ver a luz que a ilumina e por aderir a ela.', 'Confissões, Livro III, cap. 13', false, NULL),
 ('Agostinho de Hipona', 'Creio o que Vós me ensinastes, pois é verdade e só Vós sois o Mestre da Verdade em qualquer parte e de qualquer lugar que ela brilhe.', 'Confissões, Livro V, cap. 6', false, NULL),
@@ -124,9 +136,9 @@ INSERT INTO quotes (author, text, source, dominio_publico, theme) VALUES
 ('Dietrich Bonhoeffer', 'Eles são o sal da terra. São os que têm o maior valor, o bem mais precioso. Sem eles, a terra não consegue subsistir.', 'Discipulado, cap. 6', false, NULL),
 ('Dietrich Bonhoeffer', 'Por trás de todo julgamento está o perigoso autoengano, que acha que a Palavra de Deus vale para mim de modo diferente do que para o outro.', 'Discipulado', false, NULL);
 
--- --- João Calvino (6) ---
+-- --- João Calvino (5; a 6ª candidata — "quase toda a sabedoria..." —
+--     era quase-duplicata de citação já existente na tabela, descartada) ---
 INSERT INTO quotes (author, text, source, dominio_publico, theme) VALUES
-('João Calvino', 'Quase toda a sabedoria humana consiste em duas partes: o conhecimento de Deus e o conhecimento de nós mesmos.', 'As Institutas, Livro I, cap. 1', false, NULL),
 ('João Calvino', 'A vida cristã é renúncia de si mesmo.', 'A Verdadeira Vida Cristã', false, NULL),
 ('João Calvino', 'Não pertencemos a nós mesmos.', 'A Verdadeira Vida Cristã', false, NULL),
 ('João Calvino', 'O propósito de nossa regeneração é que se manifeste em nossa vida uma harmonia e acordo entre a justiça de Deus e nossa obediência.', 'A Verdadeira Vida Cristã', false, NULL),
@@ -158,10 +170,10 @@ INSERT INTO quotes (author, text, source, dominio_publico, theme) VALUES
 ('Boécio', 'Se a Fortuna começasse a ser estável, deixaria de ser a Fortuna.', 'A Consolação da Filosofia, Livro II, Prosa I', false, NULL),
 ('Boécio', 'Acaso existe algum homem que possua uma felicidade tão perfeita que não se queixe de algo? A felicidade terrestre traz sempre consigo preocupações e, além de nunca ser completa, sempre tem um termo.', 'A Consolação da Filosofia, Livro II', false, NULL);
 
--- --- Anselmo de Cantuária (2) ---
+-- --- Anselmo de Cantuária (1; "não busco compreender para crer" era
+--     quase-duplicata de citação já existente na tabela, descartada) ---
 INSERT INTO quotes (author, text, source, dominio_publico, theme) VALUES
-('Anselmo de Cantuária', 'Algo do qual nada maior pode ser pensado não pode existir apenas no entendimento; existe, portanto, tanto no entendimento quanto na realidade.', 'Proslógio, cap. 2-3', false, NULL),  -- o argumento ontológico — tese central do livro
-('Anselmo de Cantuária', 'Não busco compreender para crer, mas creio para compreender.', 'Proslógio, cap. 1', false, NULL);
+('Anselmo de Cantuária', 'Algo do qual nada maior pode ser pensado não pode existir apenas no entendimento; existe, portanto, tanto no entendimento quanto na realidade.', 'Proslógio, cap. 2-3', false, NULL);  -- o argumento ontológico — tese central do livro
 
 -- --- Martinho Lutero (1) ---
 INSERT INTO quotes (author, text, source, dominio_publico, theme) VALUES
@@ -201,12 +213,12 @@ INSERT INTO quotes (author, text, source, dominio_publico, theme) VALUES
 ('John Bunyan', 'Eu vim da Cidade da Perdição, que é o lugar de todo mal, e vou à Cidade de Sião.', 'O Progresso do Peregrino, Parte I', false, NULL),
 ('John Bunyan', 'Então vi que havia um caminho para o inferno desde as portas do céu, como havia também desde a Cidade da Perdição. E acordei, e eis que era um sonho.', 'O Progresso do Peregrino, Parte I (linha final)', false, NULL);
 
--- --- Blaise Pascal (2, +1 já corrigida na seção 2) ---
-INSERT INTO quotes (author, text, source, dominio_publico, theme) VALUES
-('Blaise Pascal', 'O homem é apenas um caniço, o mais fraco da natureza; mas é um caniço pensante. Mesmo que o universo o esmagasse, o homem seria ainda mais nobre do que o que o mata, porque sabe que morre.', 'Pensamentos', false, NULL),
-('Blaise Pascal', 'Toda a infelicidade dos homens provém de uma única coisa, que é não saber permanecer em repouso num quarto.', 'Pensamentos', false, NULL);
+-- --- Blaise Pascal: nenhuma nova — as 2 candidatas ("caniço pensante" e
+--     "infelicidade dos homens") eram duplicata exata/quase-exata de
+--     citações já existentes na tabela; descartadas. Pascal segue só com
+--     as 6 que já existiam (auditadas no pente-fino, ver seção 5). ---
 
--- --- Tomás de Kempis (8, +2 já corrigidas na seção 2) ---
+-- --- Tomás de Kempis (8) ---
 INSERT INTO quotes (author, text, source, dominio_publico, theme) VALUES
 ('Tomás de Kempis', 'Ama passar despercebido e ser considerado um nada.', 'Imitação de Cristo ("Ama nesciri et pro nihilo reputari")', false, NULL),
 ('Tomás de Kempis', 'Estar sem Jesus é um inferno grave; e estar com Jesus, um doce paraíso.', 'Imitação de Cristo ("Esse sine Iesu, gravis est infernus")', false, NULL),
@@ -216,6 +228,47 @@ INSERT INTO quotes (author, text, source, dominio_publico, theme) VALUES
 ('Tomás de Kempis', 'Pensa com frequência a que vieste e por que deixaste o mundo.', 'Imitação de Cristo ("Cogita frequenter ad quid venisti")', false, NULL),
 ('Tomás de Kempis', 'Quando Jesus está presente, tudo está bem e nada parece difícil.', 'Imitação de Cristo ("Quando Iesus adest, totum bonum est")', false, NULL),
 ('Tomás de Kempis', 'O mais pobre é quem vive sem Jesus, o mais rico quem está bem com Jesus.', 'Imitação de Cristo ("Pauperrimus est qui vivit sine Iesu")', false, NULL);
+
+-- ============================================================
+-- 5. PENTE-FINO nas 43 citações já existentes na tabela, achadas no
+--    dry-run de 25/09/2026 (nunca vistas antes — a consulta original só
+--    filtrava author=C.S. Lewis). Auditadas com o mesmo rigor via
+--    WebSearch contra fonte primária.
+-- ============================================================
+
+-- ⚠️ Remoções — duvidosas: busca real feita, sem confirmação possível.
+-- Padrão de citação de internet (aforismo isolado, sem capítulo/página).
+DELETE FROM quotes WHERE id IN (
+  'a10e8f9c-7fca-4177-93c1-ad6a45d74a18', -- Pascal, "vácuo do tamanho de Deus" — paráfrase popular imprecisa (real: "abismo infinito... só um objeto infinito e imutável", i.e. Deus, o preenche)
+  'd3d255da-3705-489b-b32e-bd8f8b3dc27b', -- Spurgeon, "chave da manhã e ferrolho da noite" — real é "chave do dia e fechadura da noite"
+  '628d41bb-c5c6-4336-b07f-7aab0a1dbff4', -- Calvino, "coração do homem não se tranquiliza..." — tema real, formulação não confirmada
+  'fb96fadd-7a84-4433-aab8-7555990ad88b', -- Bunyan, "esperança é o anel..." — imagem real de Bunyan é diferente ("cabo poderoso... âncora... assento de misericórdia")
+  'ddc2c7b8-484b-462d-b413-e06df9a32518', -- Bunyan, "este mundo é apenas uma passagem..." — não localizada
+  'c612773f-e2bb-4bff-9966-616fae710984', -- Bunyan, "um homem de oração é um homem de poder..." — não localizada
+  '5c6e3ed5-b031-4763-8ed8-d203578d4868', -- Vieira, "para falar ao vento, bastam palavras..." — não localizada no sermão
+  'a82aa130-541f-4865-aac9-00f6ee3e7292', -- Vieira, "saber falar é saber ouvir..." — não localizada
+  '2ae14f9c-d0dd-45a5-b83f-0c547eb64b85', -- Agostinho, "a medida do amor é amar sem medida" — atribuição tradicional sem fonte primária (também creditada a Francisco de Assis)
+  '4b2c269c-8d02-4e8b-8e59-dfa99238586b', -- Agostinho, "a oração é o encontro da sede de Deus..." — não localizada
+  'b1c5311c-4278-4279-a1c9-ba206b4e3160', -- Aquino, "a caridade é a forma de todas as virtudes..." — tema real, formulação/fonte não confirmadas
+  'ee5a87d7-806e-4e0e-b327-a02de8784527'  -- Aquino, "para aquele que tem fé, nenhuma explicação..." — confirmado como paráfrase moderna, não é citação real de Aquino
+);
+
+-- Padronização de nome de autor (mesma pessoa, grafia do vault usada em
+-- todo o resto da base): "Santo Agostinho" → "Agostinho de Hipona",
+-- "Santo Anselmo" → "Anselmo de Cantuária", "São Tomás de Aquino" →
+-- "Tomás de Aquino".
+UPDATE quotes SET author = 'Agostinho de Hipona' WHERE author = 'Santo Agostinho';
+UPDATE quotes SET author = 'Anselmo de Cantuária' WHERE author = 'Santo Anselmo';
+UPDATE quotes SET author = 'Tomás de Aquino' WHERE author = 'São Tomás de Aquino';
+
+-- Correções de fonte (citação real, autor certo, livro errado) —
+-- mesmo padrão do caso Magdalen já documentado na auditoria de Lewis.
+UPDATE quotes SET source = 'Sermão 43'
+WHERE id = '40a8e8af-6a3d-4d55-b00f-da475f01995d'; -- "a fé consiste em crer no que não vês..." não é das Confissões
+UPDATE quotes SET source = 'De Vera Religione'
+WHERE id = '4b180da3-f6bb-4bcc-ac20-ed8ba7b85ffe'; -- "não vá para fora de ti..." não é das Confissões
+UPDATE quotes SET source = 'Suma Teológica, I, q. 1, art. 8'
+WHERE id = 'cd1d84b2-3c23-414e-89f7-6593b1665939'; -- "a graça não destrói a natureza..." não é do Compêndio de Teologia
 
 COMMIT;
 
