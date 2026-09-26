@@ -112,6 +112,7 @@ export async function listBooks(filters: ListBooksQuery) {
         tags: books.tags,
         coverImageUrl: books.coverImageUrl,
         onlineReadPath: books.onlineReadPath,
+        relatedEditionSlug: books.relatedEditionSlug,
         featured: books.featured,
         licenseType: books.licenseType,
         attributionText: books.attributionText,
@@ -167,6 +168,12 @@ export async function getBookByIdOrSlug(idOrSlug: string) {
       tags: books.tags,
       coverImageUrl: books.coverImageUrl,
       onlineReadPath: books.onlineReadPath,
+      // Nome precisa estar na lista EXPLICITA de colunas: o drizzle
+      // não devolve campo novo sozinho, e a consequence é silenciosa —
+      // a coluna existe no banco, a API responde sem ela, e o frontend
+      // mostra a obra como se nada tivesse sido feito. Foi exatamente o
+      // que aconteceu com related_edition_slug em 2026-09-26.
+      relatedEditionSlug: books.relatedEditionSlug,
       featured: books.featured,
       licenseType: books.licenseType,
       attributionText: books.attributionText,

@@ -121,6 +121,29 @@ describe('Scriptorium Divinum API — Testes de Integração', () => {
     expect(body.downloadLinks[0].format).toBe('pdf');
   });
 
+  /**
+   * Guarda de 2026-09-26. As queries de livro usam lista EXPLÍCITA de
+   * colunas, então um campo novo no schema não aparece na resposta sem
+   * que alguém o acrescente — e a falha é silenciosa: a coluna existe no
+   * banco, a API responde 200, e o site apenas não mostra o que era para
+   * mostrar. Foi o que aconteceu com `relatedEditionSlug` (a edição
+   * original das 7 obras sem texto): banco migrado à mão, deploy verde,
+   * e o campo voltando `None` porque a query não o pedia.
+   *
+   * O teste abaixo pega a próxima vez.
+   */
+  it('GET /api/v1/books/:idOrSlug devolve relatedEditionSlug (coluna nao some da API)', async () => {
+    const res = await app.inject({ method: 'GET', url: '/api/v1/books/confissoes' });
+    expect(res.statusCode).toBe(200);
+    expect(res.json()).toHaveProperty('relatedEditionSlug');
+  });
+
+  it('GET /api/v1/books inclui relatedEditionSlug no catalogo tambem', async () => {
+    const res = await app.inject({ method: 'GET', url: '/api/v1/books' });
+    expect(res.statusCode).toBe(200);
+    expect(res.json().items[0]).toHaveProperty('relatedEditionSlug');
+  });
+
   it('GET /api/v1/books/:idOrSlug informa textAvailable quando o arquivo existe', async () => {
     const res = await app.inject({ method: 'GET', url: '/api/v1/books/confissoes' });
     expect(res.statusCode).toBe(200);

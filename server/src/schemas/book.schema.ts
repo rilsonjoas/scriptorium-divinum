@@ -35,6 +35,15 @@ export const bookSchema = z.object({
   tags: z.array(z.string()).nullable().optional(),
   coverImageUrl: z.string().nullable().optional(),
   onlineReadPath: z.string().nullable().optional(),
+  /**
+   * Terceira camada do mesmo campo, e a mais fácil de esquecer:
+   * a rota declara `response: { 200: bookDetailResponseJson }`, e o
+   * Fastify **serializa conforme o schema, descartando o que não está
+   * declarado aqui**. Sem esta linha, a coluna existia no banco, a query
+   * a devolvia, e a API respondia 200 sem ela — sem erro nenhum.
+   * As três camadas: migration → select explícito → response schema.
+   */
+  relatedEditionSlug: z.string().nullable().optional(),
   textAvailable: z.boolean().optional(),
   readingMinutes: z.number().int().positive().nullable().optional(),
   featured: z.boolean(),
