@@ -29,16 +29,27 @@ afterEach(() => {
 });
 
 describe('BookCard — links navegáveis', () => {
-  it('renderiza âncora para a ficha da obra', () => {
+  it('usa o slug na ficha da obra, não o UUID', () => {
     renderCard();
     const link = screen.getByRole('link', { name: /detalhes/i });
-    expect(link.getAttribute('href')).toBe(`/livros/${book.id}`);
+    expect(link.getAttribute('href')).toBe('/livros/confissoes');
   });
 
-  it('renderiza âncora para o leitor online', () => {
+  it('usa o slug no leitor online, não o UUID', () => {
     renderCard();
     const link = screen.getByRole('link', { name: /ler online/i });
-    expect(link.getAttribute('href')).toBe(`/ler/${book.id}`);
+    expect(link.getAttribute('href')).toBe('/ler/confissoes');
+  });
+
+  it('cai para o id quando a obra não tem slug', () => {
+    render(
+      <MemoryRouter>
+        <BookCard book={{ ...book, slug: undefined } as unknown as Parameters<typeof BookCard>[0]['book']} />
+      </MemoryRouter>,
+    );
+    expect(screen.getByRole('link', { name: /detalhes/i }).getAttribute('href')).toBe(
+      `/livros/${book.id}`,
+    );
   });
 
   it('todo overlay absolute dentro do card está contido num pai relative', () => {

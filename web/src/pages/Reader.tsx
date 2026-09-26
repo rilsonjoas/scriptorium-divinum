@@ -21,6 +21,7 @@ import { ReadingToolbar, DEFAULT_READING_SETTINGS, type ReadingSettings } from '
 import { Drawer, DrawerContent, DrawerHeader, DrawerTitle, DrawerTrigger } from '@/components/ui/drawer';
 import { markdownToSpeechText } from '@/utils/speech';
 import { toast } from 'sonner';
+import { bookPath } from '@/lib/bookRoutes';
 import {
   getReadingProgress,
   removeReadingProgress,
@@ -118,6 +119,16 @@ export default function Reader() {
   const contentRef = useRef<HTMLDivElement>(null);
   const restoredRef = useRef(false);
   const lastSavedRatio = useRef(0);
+
+  // Link de volta para a ficha, sempre na URL canônica (slug).
+  // Prioridade: metadados da obra → slug que o próprio texto devolve →
+  // o param da URL. O último é o que mantém o link funcionando se a
+  // ficha falhar ao carregar, e o primeiro é o que canonicaliza quem
+  // chegou por um link antigo com UUID.
+  const backToBook =
+    bookDetails || bookId
+      ? bookPath({ slug: bookDetails?.slug ?? data?.slug, id: bookId || '' })
+      : '/livros';
 
   // Reading Preferences State with LocalStorage
   const [readingSettings, setReadingSettings] = useState<ReadingSettings>(() => {
@@ -298,7 +309,7 @@ export default function Reader() {
         <div className="container mx-auto px-4 py-8">
           <div className="mb-6">
             <Button asChild variant="ghost" size="sm" className="font-body text-library-bronze-foreground hover:text-library-wood-foreground">
-              <Link to={bookId ? `/livros/${bookId}` : '/livros'}>
+              <Link to={backToBook}>
                 <ArrowLeft className="h-4 w-4 mr-2" />
                 Voltar ao Catálogo
               </Link>
@@ -319,7 +330,7 @@ export default function Reader() {
         <div className="container mx-auto px-4 py-8">
           <div className="mb-6">
             <Button asChild variant="ghost" size="sm" className="font-body text-library-bronze-foreground hover:text-library-wood-foreground">
-              <Link to={bookId ? `/livros/${bookId}` : '/livros'}>
+              <Link to={backToBook}>
                 <ArrowLeft className="h-4 w-4 mr-2" />
                 Voltar ao Catálogo
               </Link>
@@ -463,7 +474,7 @@ export default function Reader() {
         {/* Top Action Bar */}
         <div className="flex items-center justify-between gap-4 mb-6">
           <Button asChild variant="ghost" size="sm" className="font-body text-library-bronze-foreground hover:text-library-wood-foreground">
-            <Link to={bookId ? `/livros/${bookId}` : '/livros'}>
+            <Link to={backToBook}>
               <ArrowLeft className="h-4 w-4 mr-2" />
               Voltar ao Catálogo
             </Link>

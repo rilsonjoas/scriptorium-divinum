@@ -3,6 +3,7 @@ import { BookOpen, Users, Download } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useBooks, useAuthors, useSiteSettings } from '@/hooks/useDatabase';
 import { SectionLabel } from '@/components/SectionLabel';
+import { bookPath } from '@/lib/bookRoutes';
 
 export function HeroSection() {
   const { data: books } = useBooks();
@@ -87,7 +88,7 @@ export function HeroSection() {
                   {featuredBooksList.map((book) => (
                     <Link
                       key={book.id}
-                      to={`/livros/${book.id}`}
+                      to={bookPath(book)}
                       className="group relative transition-all duration-300 hover:-translate-y-4 shrink-0"
                       title={`${book.title} — ${book.author.name}`}
                     >

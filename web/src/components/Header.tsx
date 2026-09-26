@@ -9,6 +9,7 @@ import { useSearch, useSiteSettings } from '@/hooks/useDatabase';
 import { useTranslation } from 'react-i18next';
 import i18n, { idiomas } from '@/i18n';
 import { useTheme } from '@/hooks/useTheme';
+import { bookPath } from '@/lib/bookRoutes';
 import {
   Sheet,
   SheetContent,
@@ -153,7 +154,7 @@ export function Header() {
                               {searchResults.books.slice(0, 3).map((book) => (
                                 <Link
                                   key={book.id}
-                                  to={`/livros/${book.id}`}
+                                  to={bookPath(book)}
                                   onClick={handleResultClick}
                                   className="block p-2 hover:bg-library-gold/10 rounded-md transition-colors"
                                 >

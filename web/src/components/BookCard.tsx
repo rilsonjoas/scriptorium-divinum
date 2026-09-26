@@ -5,6 +5,7 @@ import { BookOpen, Download, Calendar, User } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { SafeImage } from '@/components/SafeImage';
 import { isFavorite } from '@/utils/favorites';
+import { bookPath, readPath } from '@/lib/bookRoutes';
 
 interface BookCardProps {
   book: Book;
@@ -84,7 +85,7 @@ export function BookCard({ book, variant = 'grid' }: BookCardProps) {
               {/* Actions */}
               <div className="flex flex-col space-y-2">
                 <Button asChild size="sm" className="bg-library-wood hover:bg-library-bronze text-library-gold font-body w-full">
-                  <Link to={`/livros/${book.id}`}>
+                  <Link to={bookPath(book)}>
                     <BookOpen className="h-3 w-3 mr-1" />
                     Ver Detalhes
                   </Link>
@@ -92,7 +93,7 @@ export function BookCard({ book, variant = 'grid' }: BookCardProps) {
                 <div className="flex space-x-1">
                   {book.onlineReadPath && (
                     <Button asChild variant="outline" size="sm" className="border-library-bronze text-library-bronze-foreground hover:bg-library-bronze hover:text-primary-foreground font-body flex-1 text-xs">
-                      <Link to={`/ler/${book.id}`}>
+                      <Link to={readPath(book)}>
                         <BookOpen className="h-3 w-3 mr-1" />
                         Ler
                       </Link>
@@ -219,14 +220,14 @@ export function BookCard({ book, variant = 'grid' }: BookCardProps) {
             <div className="flex flex-wrap gap-2 justify-center sm:justify-start">
               {book.onlineReadPath && (
                 <Button asChild size="sm" className="bg-library-gold hover:bg-library-gold/90 text-library-wood font-semibold font-body shadow-sm">
-                  <Link to={`/ler/${book.id}`}>
+                  <Link to={readPath(book)}>
                     <BookOpen className="h-3.5 w-3.5 mr-1" />
                     Ler Online
                   </Link>
                 </Button>
               )}
               <Button asChild variant="outline" size="sm" className="border-library-bronze/60 bg-transparent text-library-wood-foreground hover:bg-library-bronze/10 font-body">
-                <Link to={`/livros/${book.id}`}>
+                <Link to={bookPath(book)}>
                   <BookOpen className="h-3.5 w-3.5 mr-1 text-library-bronze-foreground" />
                   Detalhes
                 </Link>

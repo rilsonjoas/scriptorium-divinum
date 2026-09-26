@@ -20,11 +20,11 @@ const mockText = (data: unknown, state: { isLoading: boolean; error: unknown } =
   vi.mocked(useBookText).mockReturnValue({ data, ...state } as never);
 };
 
-const renderReader = () => {
+const renderReader = (rota = '/ler/as-95-teses') => {
   const queryClient = new QueryClient({ defaultOptions: { queries: { retry: false } } });
   return render(
     <QueryClientProvider client={queryClient}>
-      <MemoryRouter initialEntries={['/ler/as-95-teses']}>
+      <MemoryRouter initialEntries={[rota]}>
         <Routes>
           <Route path="/ler/:bookId" element={<Reader />} />
         </Routes>
@@ -81,14 +81,26 @@ describe('Reader', () => {
     expect(screen.getByText('Dizendo nosso Senhor...')).toBeInTheDocument();
   });
 
-  it('link de volta aponta para a página da obra', () => {
+  it('link de volta aponta para a ficha pelo slug, mesmo chegando por UUID', () => {
     mockText({
       slug: 'as-95-teses',
       title: 'As 95 Teses de Martinho Lutero',
       text: '# Título\n\nConteúdo.',
     });
-    renderReader();
+    renderReader('/ler/8ceec7d1-c719-4eea-a3fc-a7bfd2a5a9da');
     const backLink = screen.getByRole('link', { name: 'Voltar ao Catálogo' });
+    // canonicaliza: quem chegou por link antigo com UUID sai pela URL amigável
     expect(backLink).toHaveAttribute('href', '/livros/as-95-teses');
+  });
+
+  it('link de volta não quebra quando a ficha não carrega', () => {
+    mockText({
+      slug: '',
+      title: 'Obra',
+      text: '# Título\n\nConteúdo.',
+    });
+    renderReader('/ler/8ceec7d1-c719-4eea-a3fc-a7bfd2a5a9da');
+    const backLink = screen.getByRole('link', { name: 'Voltar ao Catálogo' });
+    expect(backLink).toHaveAttribute('href', '/livros/8ceec7d1-c719-4eea-a3fc-a7bfd2a5a9da');
   });
 });

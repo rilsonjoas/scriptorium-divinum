@@ -21,6 +21,7 @@ import {
   TableHeader,
   TableRow,
 } from '@/components/ui/table';
+import { bookPath } from '@/lib/bookRoutes';
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -101,8 +102,8 @@ export default function AdminBooks() {
     }
   };
 
-  const handleView = (bookId: string) => {
-    window.open(`/livros/${bookId}`, '_blank');
+  const handleView = (book: Book) => {
+    window.open(bookPath(book), '_blank');
   };
 
   return (
@@ -300,7 +301,7 @@ export default function AdminBooks() {
                               </Button>
                             </DropdownMenuTrigger>
                             <DropdownMenuContent align="end">
-                              <DropdownMenuItem onClick={() => handleView(book.id)} className="font-body">
+                              <DropdownMenuItem onClick={() => handleView(book)} className="font-body">
                                 <Eye className="mr-2 h-4 w-4" />
                                 Visualizar
                               </DropdownMenuItem>
