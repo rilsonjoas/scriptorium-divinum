@@ -454,7 +454,7 @@ confiável. É o modelo a copiar pros outros projetos do padrão.
 - [ ] Manter a tabela de fontes atualizada conforme novas fontes
       entrarem no catálogo — toda fonte nova ganha uma linha com nível
       de confiabilidade antes da primeira importação, não depois.
-- [ ] "Como Contribuir" já está marcado pra reescrever pra realidade de
+- [ ] ~~"Como Contribuir"~~ — ver item detalhado em "Backlog de Produto" (linha do "Como Contribuir — revisar"); é o mesmo item, não contar em dobro.
       projeto solo (ver Backlog) — quando reescrever, deixar explícito
       que toda contribuição de texto passa pela mesma régua de
       domínio-público-verificado, não só as importações da curadoria
@@ -744,7 +744,6 @@ no `meus-remedios` (único projeto pessoal com OAuth de usuário real hoje)
 ### Pendências que travam crescimento
 
 - [ ] Leiturabilidade online (🔴 item crítico acima) — ninguém retorna a um leitor que não abre
-- [ ] Compêndio de Teologia / Cidade de Deus — dívida de conteúdo registrada
 
 ---
 
@@ -817,12 +816,12 @@ no `meus-remedios` (único projeto pessoal com OAuth de usuário real hoje)
       longas; voz pt-BR preferida com fallback pt genérico. Para de tocar
       ao trocar de obra e no unmount. Não suportado → controles não
       renderizam. 7 testes novos nos utilitários (suite: 45 passando).
-- [ ] **Pequenas dignidades de leitura — tempo estimado ("~X min") na
-      ficha** (já existe no Reader: `Reader.tsx:516`); navegação por
+- [x] **Pequenas dignidades de leitura — tempo estimado ("~X min")** —
+      entregue: no Reader (`Reader.tsx`) e **também na ficha da obra**
+      (`LivroDetalhes.tsx:100`, commit `415057c`); navegação por
       capítulos fixa na lateral do Reader **já implementada** (índice
       lateral desktop + colapsável mobile via `extractToc`, verificado
-      2026-09-24); resta apenas exibir o tempo estimado também na
-      ficha da obra (`/livro/:id`).
+      2026-09-24). Item encerrado.
 
 ### Ideia para o futuro (depende de acervo maior)
 
@@ -1130,9 +1129,14 @@ no build, então 13 rótulos "coloridos" herdavam a cor do texto — e ao
 criá-lo, revelou que o tom de fundo era ilegível como texto no escuro.
 
 ### Pendências que sobraram desta frente
-- `--font-classical` (Cinzel) é **código morto** — declarado, sem nenhum
-  uso. Candidato à remoção.
-- `.hover-lift` também não é usado em lugar nenhum.
+- [x] ~~`--font-classical` (Cinzel)~~ — **removido 2026-09-25**
+      (`3290362`): confirmado sem nenhum uso em TSX nem em classe CSS
+      ativa; saiu o `@import`, o token, a utilitária e a classe morta
+      `.classical-title`.
+- [x] ~~`.hover-lift`~~ — **removido no mesmo commit**: nunca usada.
+- A suíte tinha 3 testes flaky (timeout de 5s sob paralelismo local,
+  passando isolados). `vitest.config.ts` agora define `testTimeout:
+  15_000` — a falha era pré-existente, confirmada com `git stash`.
 - [x] **Retratos dos autores — ✅ ENTREGUE 2026-09-25** (commit `02a6f81`).
   **8 retratos novos** versionados em `web/public/images/authors/`
   (1,2 MB) e `portrait_image_url` populado no banco via UPDATE — o
