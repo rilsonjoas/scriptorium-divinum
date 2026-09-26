@@ -853,25 +853,48 @@ pendências que mais pesam na experiência de quem lê, e o critério de
 "pronto" aqui não é funcional: é alguém escolher o Scriptorium para
 ler uma obra longa, e não para saber que ele existe.
 
-### 1. O leitor carrega o livro inteiro e a página fica pesadíssima
-> **Pendente, pedido reiterado pelo Rilson em 2026-09-25** ("o livro
-> continua carregando totalmente de uma vez só, o que deixa a página
-> pesada") — ainda não implementado, confirmado em produção.
+### 1. O leitor carrega o livro inteiro e a página fica pesadíssima — ✅ ENTREGUE
+**Entregue 2026-09-25** (commits `242351c` + `7f026bb`), por medição.
 
-**Sintoma:** abrir qualquer obra longa trava/navega mal — uma peça só
-de Confissões já são ~500KB de markdown, e o `react-markdown` monta o
-DOM inteiro de uma vez.
+**Medição do "antes"** (Confissões, produção, Playwright): article
+renderizava em **23,3 s**; a página tinha **280.448 px** de altura; três
+scrolls de roda levavam **8,2 s**. Causa: os ~579 KB de markdown iam
+inteiros para o `react-markdown` de uma vez.
 
-**Direção:** paginação/virtualização em vez de rolagem contínua, no
-espírito do Kindle e do Skeelo — o leitor vê uma "página" por vez, com
-posição preservada ao voltar. O sumário por capítulos que já existe
-dá a estrutura natural para isso. Alternativa mais barata antes de
-qualquer uma: renderização incremental do markdown (dividir o texto em
-blocos e processar por etapas) para o primeiro trecho aparecer rápido.
+**O que foi feito** — a obra é segmentada em capítulos
+(`web/src/utils/chapters.ts`, 8 testes) e o leitor passa a entregar
+**só o capítulo ativo** ao `react-markdown`, com navegação
+Anterior/Próximo e contador ("Capítulo N de 171"). O sumário lateral
+existente continua funcionando; grifos e TTS seguem operando sobre a
+obra inteira, como antes.
 
-**Antes de codar:** medir de verdade (tempo até o primeiro texto
-pintado, peso do DOM, FPS de rolagem) em pelo menos três obras de
-tamanhos diferentes. Sem número, não há como saber se melhorou.
+**Medição do "depois"** (mesma obra, mesma máquina):
+
+| Métrica | Antes | Depois |
+|---|---|---|
+| Article renderiza | 23,3 s | **6,0 s** |
+| Altura da página | 280.448 px | **1.667 px** |
+| 3 scrolls de roda | 8,2 s | **0,5 s** |
+| Nós no DOM do artigo | 347 | 3 (por capítulo) |
+| Troca de capítulo | — | ~0,9 s |
+
+> [!warning] O erro que quase shipped
+> A primeira versão aceitava **só `#`** como início de capítulo (o que
+> um teste com `# Parte / ## Secao` sugeria). O acervo real usa
+> **`## Capítulo I`** — Confissões tem 170 de nível 2 e só 2 de nível 1
+> — então quase nada era segmentado: o ganho foi de 23,3 s para 17,0 s,
+>aparentemente uma melhora que não resolvia nada. Só apareceu ao
+> medir a altura da página e perceber que continuava em 280k px, e
+> depois de conferir a estrutura real do markdown pela API. **Regra que
+> saiu daqui: medir a variável que se quer mudar (altura da página,
+> número de capítulos), não só o tempo — um tempo menor pode ser um
+> sintoma, não a cura.**
+
+**Ressalva honesta:** os ~6 s que restam são a transferência do texto
+(579 KB pela rede) e o parsing inicial, não a renderização. Para ir
+além seria preciso paginação de verdade (carregar capítulo a capítulo
+sob demanda) ou pré-quebrar o texto no servidor — escopo maior, não
+incluso aqui.
 
 ### 2. Selecionar uma palavra já dispara busca online
 **Sintoma:** hoje, selecionar qualquer palavra abre o popover do
