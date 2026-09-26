@@ -11,10 +11,11 @@ vi.mock('@/components/Layout', () => ({
 
 vi.mock('@/hooks/useDatabase', () => ({
   useBook: vi.fn(),
+  useBookText: vi.fn(),
   useSiteSettings: vi.fn(),
 }));
 
-import { useBook, useSiteSettings } from '@/hooks/useDatabase';
+import { useBook, useBookText, useSiteSettings } from '@/hooks/useDatabase';
 
 const makeBook = (overrides: Partial<Book> = {}): Book => ({
   id: 'as-95-teses',
@@ -25,8 +26,12 @@ const makeBook = (overrides: Partial<Book> = {}): Book => ({
   ...overrides,
 });
 
-const mockBook = (book: Book) => {
+const mockBook = (book: Book, text: string | null = null) => {
   vi.mocked(useBook).mockReturnValue({ data: book, isLoading: false, error: null } as never);
+  vi.mocked(useBookText).mockReturnValue({
+    data: text ? { slug: book.slug ?? '', title: book.title, text } : null,
+    isLoading: false,
+  } as never);
   vi.mocked(useSiteSettings).mockReturnValue({
     data: { maintenanceMode: false },
     isLoading: false,
@@ -49,6 +54,7 @@ const renderLivro = () => {
 describe('LivroDetalhes — botão "Ler Online"', () => {
   beforeEach(() => {
     vi.mocked(useBook).mockReset();
+    vi.mocked(useBookText).mockReset();
     vi.mocked(useSiteSettings).mockReset();
   });
 
@@ -76,5 +82,43 @@ describe('LivroDetalhes — botão "Ler Online"', () => {
     renderLivro();
     expect(screen.getByRole('heading', { name: 'As 95 Teses sobre as Indulgências' })).toBeInTheDocument();
     expect(screen.getByRole('link', { name: 'Martinho Lutero' })).toHaveAttribute('href', '/autores/martinho-lutero');
+  });
+});
+
+describe('LivroDetalhes — barra de downloads', () => {
+  beforeEach(() => {
+    vi.mocked(useBook).mockReset();
+    vi.mocked(useBookText).mockReset();
+    vi.mocked(useSiteSettings).mockReset();
+  });
+
+  it('oferece ePub, TXT e Markdown quando há texto disponível', () => {
+    mockBook(makeBook({ textAvailable: true }), '# Capítulo I\n\nTexto da obra.');
+    renderLivro();
+    expect(screen.getByRole('button', { name: /ePub/i })).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: /TXT/i })).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: /Markdown/i })).toBeInTheDocument();
+  });
+
+  it('não mostra nenhum formato gerado quando a obra não tem texto', () => {
+    mockBook(makeBook({ textAvailable: false }), null);
+    renderLivro();
+    expect(screen.queryByRole('button', { name: /ePub/i })).not.toBeInTheDocument();
+    expect(screen.queryByRole('button', { name: /Markdown/i })).not.toBeInTheDocument();
+  });
+
+  it('mantém o PDF hospedado visível mesmo sem texto', () => {
+    mockBook(
+      makeBook({
+        textAvailable: false,
+        downloadLinks: [{ format: 'pdf', url: '/downloads/obras/95-teses.pdf', source: 'Internet Archive' }],
+      }),
+      null,
+    );
+    renderLivro();
+    expect(screen.getByRole('link', { name: /PDF/ })).toHaveAttribute(
+      'href',
+      '/downloads/obras/95-teses.pdf',
+    );
   });
 });

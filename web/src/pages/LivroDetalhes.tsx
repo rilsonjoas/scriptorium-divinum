@@ -5,10 +5,11 @@ import { BookOpen, Download, Calendar, User, Globe, Languages, Tag, ArrowLeft, L
 import { useEffect, useState } from 'react';
 import { isFavorite, toggleFavorite } from '@/utils/favorites';
 import { Link, useParams, Navigate } from 'react-router-dom';
-import { useBook } from '@/hooks/useDatabase';
+import { useBook, useBookText } from '@/hooks/useDatabase';
 import { SafeImage } from '@/components/SafeImage';
 import { AdSlot } from '@/components/ads/AdSlot';
 import { AcademicCitationDialog } from '@/components/reader/AcademicCitationDialog';
+import { DownloadBar } from '@/components/DownloadBar';
 import { useTranslation } from 'react-i18next';
 
 const AMAZON_AFFILIATE_TAG = import.meta.env.VITE_AMAZON_TAG ?? 'rilson-20';
@@ -17,6 +18,10 @@ const LivroDetalhes = () => {
   const { t } = useTranslation();
   const { bookId } = useParams<{ bookId: string }>();
   const { data: book, isLoading, error } = useBook(bookId || '');
+  // Bloco B: a barra de download gera .md/.txt/.epub no cliente, o que
+  // exige o texto. Busca próprio (o Reader busca separado), e só quando
+  // existe — não pesa na carga da ficha.
+  const { data: bookText } = useBookText(bookId || '');
 
   const [fav, setFav] = useState(false);
   const [citationOpen, setCitationOpen] = useState(false);
@@ -105,26 +110,14 @@ const LivroDetalhes = () => {
                     </div>
                   )}
 
-                  {book.downloadLinks && book.downloadLinks.length > 0 && (
-                    <div className="space-y-2">
-                      <h4 className="font-body text-sm font-semibold text-foreground">Downloads:</h4>
-                      {book.downloadLinks.map((link, index) => (
-                        <Button
-                          key={index}
-                          asChild
-                          variant="outline"
-                          size="sm"
-                          className="w-full border-2 border-library-wood/80 bg-card text-library-wood-foreground hover:bg-library-wood hover:text-library-gold font-semibold font-body shadow-sm"
-                        >
-                          <a href={link.url} target="_blank" rel="noopener noreferrer">
-                            <Download className="mr-2 h-3.5 w-3.5 text-library-crimson-foreground" />
-                            {link.format.toUpperCase()}
-                            {link.source && ` (${link.source})`}
-                          </a>
-                        </Button>
-                      ))}
-                    </div>
-                  )}
+              <DownloadBar
+                title={book.title}
+                author={book.author?.name ?? ''}
+                slug={book.slug}
+                publicationYear={book.publicationYearOriginal}
+                content={bookText?.text ?? null}
+                downloadLinks={book.downloadLinks}
+              />
 
                   {!book.textAvailable && scanIdentifier && (
                     <details className="group rounded-md border-2 border-library-wood/80 bg-card text-library-wood-foreground font-semibold font-body shadow-sm transition-all overflow-hidden ease-[var(--ease-liturgico)]">
