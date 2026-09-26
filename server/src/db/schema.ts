@@ -51,6 +51,11 @@ export const books = pgTable(
     tags: text('tags').array(),
     coverImageUrl: varchar('cover_image_url', { length: 500 }),
     onlineReadPath: varchar('online_read_path', { length: 500 }),
+    // Slug da edição original (latim/inglês) quando esta obra é a
+    // tradução de uma edição que ainda não tem texto. Permite dizer
+    // "ainda não disponível em português, a edição original está aqui"
+    // em vez de deixar o leitor num beco sem saída.
+    relatedEditionSlug: varchar('related_edition_slug', { length: 255 }),
     featured: boolean('featured').default(false).notNull(),
     // Nem toda obra é domínio público simples — algumas são traduções
     // modernas sob licença aberta (ex. CC BY-SA), que também permitem

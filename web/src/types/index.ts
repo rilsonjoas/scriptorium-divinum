@@ -94,6 +94,14 @@ export interface Book {
   coverImageUrl?: string;
   onlineReadPath?: string;
   textAvailable?: boolean;
+  /**
+   * Slug da edição original (latim/inglês) quando esta obra é a tradução
+   * de uma edição que ainda não tem texto. Permite dizer "ainda não
+   * disponível em português, a edição original está aqui" em vez de
+   * deixar o leitor numa página sem o que fazer. populated pela migração
+   * 0005_related_edition.
+   */
+  relatedEditionSlug?: string | null;
   readingMinutes?: number | null;
   downloadLinks?: DownloadLink[];
   tableOfContents?: { title: string; anchor?: string; level: number }[];

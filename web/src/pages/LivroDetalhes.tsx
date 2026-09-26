@@ -10,6 +10,7 @@ import { SafeImage } from '@/components/SafeImage';
 import { AdSlot } from '@/components/ads/AdSlot';
 import { AcademicCitationDialog } from '@/components/reader/AcademicCitationDialog';
 import { DownloadBar } from '@/components/DownloadBar';
+import { ObraIndisponivelNotice } from '@/components/ObraIndisponivelNotice';
 import { useTranslation } from 'react-i18next';
 import { usePageTitle } from '@/hooks/usePageTitle';
 
@@ -92,9 +93,11 @@ const LivroDetalhes = () => {
 
                 {/* Action Buttons */}
                 <div className="space-y-3">
+                  {!book.textAvailable && (
+                    <ObraIndisponivelNotice relatedEditionSlug={book.relatedEditionSlug} />
+                  )}
                   {book.textAvailable && (
-                    <div className="space-y-2">
-                      <Button
+                    <div className="space-y-2">                      <Button
                         asChild
                         size="lg"
                         className="w-full bg-library-gold hover:bg-library-gold/90 text-library-wood font-semibold font-body shadow-golden text-base py-3"

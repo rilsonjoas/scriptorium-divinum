@@ -26,8 +26,23 @@ const makeBook = (overrides: Partial<Book> = {}): Book => ({
   ...overrides,
 });
 
-const mockBook = (book: Book, text: string | null = null) => {
-  vi.mocked(useBook).mockReturnValue({ data: book, isLoading: false, error: null } as never);
+/**
+ * Mocks the book catalog. `extras` simulates other editions in the
+ * acervo — needed because the "edição original" notice fetches the
+ * counterpart by slug, and a mockReturnValue would answer every call
+ * with the same book (and produce a link pointing at itself).
+ */
+const mockBook = (
+  book: Book,
+  text: string | null = null,
+  extras: Record<string, Book> = {},
+) => {
+  const catalogo: Record<string, Book> = { [book.slug ?? book.id]: book, ...extras };
+  vi.mocked(useBook).mockImplementation(((id: string) => ({
+    data: catalogo[id] ?? null,
+    isLoading: false,
+    error: null,
+  })) as never);
   vi.mocked(useBookText).mockReturnValue({
     data: text ? { slug: book.slug ?? '', title: book.title, text } : null,
     isLoading: false,
@@ -120,5 +135,48 @@ describe('LivroDetalhes — barra de downloads', () => {
       'href',
       '/downloads/obras/95-teses.pdf',
     );
+  });
+});
+
+describe('LivroDetalhes — obra sem texto disponível', () => {
+  beforeEach(() => {
+    vi.mocked(useBook).mockReset();
+    vi.mocked(useBookText).mockReset();
+    vi.mocked(useSiteSettings).mockReset();
+  });
+
+  it('explica por que nao ha o que ler, em vez de deixar a pagina muda', () => {
+    mockBook(makeBook({ textAvailable: false, relatedEditionSlug: null }), null);
+    renderLivro();
+    expect(
+      screen.getByText(/ainda não está disponível para leitura online/i),
+    ).toBeInTheDocument();
+  });
+
+  it('oferece a edicao original quando ela existe no acervo', () => {
+    mockBook(
+      makeBook({ textAvailable: false, relatedEditionSlug: 'the-city-of-god' }),
+      null,
+      { 'the-city-of-god': makeBook({ slug: 'the-city-of-god', title: 'The City of God', language: 'English' }) },
+    );
+    renderLivro();
+    expect(screen.getByRole('link', { name: /edição original/i })).toHaveAttribute(
+      'href',
+      '/ler/the-city-of-god',
+    );
+  });
+
+  it('nao inventa link quando nao existe edicao original', () => {
+    mockBook(makeBook({ textAvailable: false, relatedEditionSlug: null }), null);
+    renderLivro();
+    expect(screen.queryByRole('link', { name: /edição original/i })).not.toBeInTheDocument();
+  });
+
+  it('nao mostra o aviso em obra que tem texto', () => {
+    mockBook(makeBook({ textAvailable: true, relatedEditionSlug: 'the-city-of-god' }), '# Capítulo I\n\nTexto.');
+    renderLivro();
+    expect(
+      screen.queryByText(/ainda não está disponível para leitura online/i),
+    ).not.toBeInTheDocument();
   });
 });
