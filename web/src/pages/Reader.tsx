@@ -1,7 +1,7 @@
 import { Layout } from '@/components/Layout';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { ArrowLeft, BookMarked, BookOpen, Clock, List, Loader2, Pause, Play, ScrollText, Square, Volume2, GraduationCap, Bookmark } from 'lucide-react';
+import { ArrowLeft, BookMarked, BookOpen, ChevronLeft, ChevronRight, Clock, List, Loader2, Pause, Play, ScrollText, Square, Volume2, GraduationCap, Bookmark } from 'lucide-react';
 import { Link, useParams } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
@@ -10,6 +10,7 @@ import type { ReactNode } from 'react';
 import { useBookText, useBook } from '@/hooks/useDatabase';
 import { useSpeech } from '@/hooks/useSpeech';
 import { splitProvenance } from '@/utils/readerText';
+import { splitIntoChapters } from '@/utils/chapters';
 import { normalizeWord } from '@/utils/glossario';
 import { GlossaryPopover } from '@/components/reader/GlossaryPopover';
 import { QuoteCardDialog, QuoteTriggerPill } from '@/components/reader/QuoteCardDialog';
@@ -158,13 +159,27 @@ export default function Reader() {
   const parsed = useMemo(() => {
     if (!data) return null;
     const { provenance, content } = splitProvenance(data.text);
+    const chapters = splitIntoChapters(content);
     return {
       provenance,
       content,
+      // F2/Bloco B: a obra é segmentada em capítulos e só o capítulo
+      // ativo é entregue ao react-markdown. Sem isso, Confissões
+      // (~579KB de markdown) travava ~23s na primeira pintura.
+      chapters,
       toc: extractToc(content),
       minutes: readingMinutes(content),
     };
   }, [data]);
+
+  // Capítulo sendo lido (Bloco B)
+  const [capAtivo, setCapAtivo] = useState(0);
+  useEffect(() => {
+    setCapAtivo(0);
+  }, [bookId]);
+
+  const capituloAtual = parsed?.chapters[capAtivo];
+  const totalCapitulos = parsed?.chapters.length ?? 0;
 
   const handleHighlightSelection = () => {
     if (!cardSelection || !data) return;
@@ -632,10 +647,51 @@ export default function Reader() {
             <Card className={`transition-all duration-200 ${themeClasses}`}>
               <CardContent className="p-5 md:p-10">
                 <article className={`prose prose-lg prose-leitor max-w-none capitular-medieval ${fontClass} ${fontSizeClass} prose-headings:font-heading prose-blockquote:border-library-bronze prose-blockquote:font-body prose-a:underline`}>
-                  <ReactMarkdown remarkPlugins={[remarkGfm]} components={markdownComponents}>
-                    {parsed.content}
-                  </ReactMarkdown>
+                  {capituloAtual ? (
+                    <ReactMarkdown remarkPlugins={[remarkGfm]} components={markdownComponents}>
+                      {capituloAtual.body}
+                    </ReactMarkdown>
+                  ) : null}
                 </article>
+
+                {totalCapitulos > 1 && (
+                  <nav
+                    aria-label="Navegação entre capítulos"
+                    className="mt-10 pt-6 border-t border-library-bronze/40 flex items-center justify-between gap-4"
+                  >
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      disabled={capAtivo === 0}
+                      onClick={() => {
+                        setCapAtivo((i) => Math.max(0, i - 1));
+                        window.scrollTo({ top: 0, behavior: 'smooth' });
+                      }}
+                      className="border-library-bronze/60 font-body"
+                    >
+                      <ChevronLeft className="h-4 w-4 mr-1" />
+                      Anterior
+                    </Button>
+
+                    <span className="font-body text-xs text-muted-foreground">
+                      Capítulo {capAtivo + 1} de {totalCapitulos}
+                    </span>
+
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      disabled={capAtivo >= totalCapitulos - 1}
+                      onClick={() => {
+                        setCapAtivo((i) => Math.min(totalCapitulos - 1, i + 1));
+                        window.scrollTo({ top: 0, behavior: 'smooth' });
+                      }}
+                      className="border-library-bronze/60 font-body"
+                    >
+                      Próximo
+                      <ChevronRight className="h-4 w-4 ml-1" />
+                    </Button>
+                  </nav>
+                )}
               </CardContent>
             </Card>
           </div>
