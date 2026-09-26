@@ -117,7 +117,7 @@ const LivroDetalhes = () => {
                           className="w-full border-2 border-library-wood/80 bg-card text-library-wood-foreground hover:bg-library-wood hover:text-library-gold font-semibold font-body shadow-sm"
                         >
                           <a href={link.url} target="_blank" rel="noopener noreferrer">
-                            <Download className="mr-2 h-3.5 w-3.5 text-library-crimson" />
+                            <Download className="mr-2 h-3.5 w-3.5 text-library-crimson-foreground" />
                             {link.format.toUpperCase()}
                             {link.source && ` (${link.source})`}
                           </a>
@@ -173,7 +173,7 @@ const LivroDetalhes = () => {
                     size="sm"
                     className="w-full border-2 border-library-dourado bg-library-gold/15 text-library-wood-foreground hover:bg-library-gold hover:text-library-wood font-semibold font-body shadow-sm"
                   >
-                    <GraduationCap className="mr-2 h-4 w-4 text-library-crimson" />
+                    <GraduationCap className="mr-2 h-4 w-4 text-library-crimson-foreground" />
                     Como Citar esta Obra
                   </Button>
                 </div>

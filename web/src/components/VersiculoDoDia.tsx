@@ -69,7 +69,7 @@ export function VersiculoDoDia() {
           href={lecionarioHomeUrl()}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 mt-4 font-body text-sm text-library-bronze-foreground hover:text-library-crimson transition-colors"
+          className="inline-flex items-center gap-2 mt-4 font-body text-sm text-library-bronze-foreground hover:text-library-crimson-foreground transition-colors"
         >
           <ExternalLink className="h-4 w-4" />
           Lecionário Comum Revisado

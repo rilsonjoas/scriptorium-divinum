@@ -166,7 +166,7 @@ export function BookCard({ book, variant = 'grid' }: BookCardProps) {
           {/* Book Info - min-w-0 previne estouro de container no CSS Flexbox */}
           <div className="flex-1 min-w-0">
             <div className="mb-2 text-center sm:text-left">
-              <h3 className="font-heading text-lg font-semibold text-foreground group-hover:text-library-crimson transition-colors mb-1 break-words line-clamp-2">
+              <h3 className="font-heading text-lg font-semibold text-foreground group-hover:text-library-crimson-foreground transition-colors mb-1 break-words line-clamp-2">
                 {book.title}
               </h3>
               {book.originalTitle && (
@@ -178,7 +178,7 @@ export function BookCard({ book, variant = 'grid' }: BookCardProps) {
 
             <div className="flex flex-wrap items-center justify-center sm:justify-start gap-x-3 gap-y-1 text-xs sm:text-sm text-muted-foreground mb-3 font-body">
               <div className="flex items-center space-x-1 min-w-0">
-                <User className="h-3 w-3 text-library-crimson shrink-0" />
+                <User className="h-3 w-3 text-library-crimson-foreground shrink-0" />
                 <span className="font-medium truncate">{book.author.name}</span>
               </div>
               {book.publicationYearOriginal && (
@@ -204,7 +204,7 @@ export function BookCard({ book, variant = 'grid' }: BookCardProps) {
                 {book.categories && book.categories.slice(0, 3).map((category) => (
                   <span
                     key={category}
-                    className="px-2 py-0.5 text-[11px] bg-library-crimson/10 text-library-crimson rounded-md font-body border border-library-crimson/20"
+                    className="px-2 py-0.5 text-[11px] bg-library-crimson/10 text-library-crimson-foreground rounded-md font-body border border-library-crimson/20"
                   >
                     {category}
                   </span>

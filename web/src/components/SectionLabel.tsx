@@ -19,7 +19,7 @@ const TONS = {
  * Rótulo curto que abre uma seção ("Obras em Destaque", "Citação do Dia").
  *
  * Antes, cada um desses rótulos repetia a mesma classe solta
- * `uppercase tracking-widest text-library-crimson` — quatro cópias
+ * `uppercase tracking-widest text-library-crimson-foreground` — quatro cópias
  * idênticas no app. Uppercase gritava em todo scroll e era o maior
  *Responsible pela sensação de "dashboard" em vez de biblioteca.
  *
