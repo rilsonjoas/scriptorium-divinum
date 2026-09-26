@@ -210,8 +210,9 @@ volta à mesa (seção "Ordem recomendada").
 - [x] **Google Search Console verificado (2026-08-14)** — tag `<meta name="google-site-verification">` adicionada ao `web/index.html` e propriedade verificada no Search Console. Sitemap enviado em `https://scriptorium.narniano.com/sitemap.xml`.
 - [ ] **Verificar sitemap no Search Console**: Acessar [Google Search Console](https://search.google.com/search-console) → propriedade `scriptorium.narniano.com` → Sitemaps → confirmar que `https://scriptorium.narniano.com/sitemap.xml` está com status "Sucesso" e URLs sendo indexadas.
 - [ ] **URLs amigáveis (slug em vez de UUID) — pedido do Rilson em
-      2026-09-25, execução adiada.** Hoje a ficha e o leitor respondem por
-      identificador: `/livros/8ceec7d1-c719-4eea-a3fc-a7bfd2a5a9da` e
+      2026-09-25 (reiterado no mesmo dia), execução adiada.** Hoje a
+      ficha e o leitor respondem por identificador:
+      `/livros/8ceec7d1-c719-4eea-a3fc-a7bfd2a5a9da` e
       `/ler/8ceec7d1-...`. O [[Bíblia na Arte]] já resolve por slug e é o
       padrão a seguir no cluster. O slug (`confissoes`) **já existe** no
       banco — a API aceita `:idOrSlug` nas duas rotas, então o caminho é
@@ -854,6 +855,10 @@ pendências que mais pesam na experiência de quem lê, e o critério de
 ler uma obra longa, e não para saber que ele existe.
 
 ### 1. O leitor carrega o livro inteiro e a página fica pesadíssima
+> **Pendente, pedido reiterado pelo Rilson em 2026-09-25** ("o livro
+> continua carregando totalmente de uma vez só, o que deixa a página
+> pesada") — ainda não implementado, confirmado em produção.
+
 **Sintoma:** abrir qualquer obra longa trava/navega mal — uma peça só
 de Confissões já são ~500KB de markdown, e o `react-markdown` monta o
 DOM inteiro de uma vez.
@@ -1128,8 +1133,16 @@ criá-lo, revelou que o tom de fundo era ilegível como texto no escuro.
 - `--font-classical` (Cinzel) é **código morto** — declarado, sem nenhum
   uso. Candidato à remoção.
 - `.hover-lift` também não é usado em lugar nenhum.
-- As capturas de comparação estão em `/tmp/opencode/shots/` (volátil).
-  Para servirem de baseline permanente precisam ir para o repo.
+- **Retratos dos autores — pedido do Rilson em 2026-09-25. Tarefa de
+  conteúdo, não de código.** O slot já existe e funciona (tondo dourado
+  com moldura, em `AutorDetalhes.tsx` via `SafeImage`): o que falta é o
+  arquivo. Diagnóstico feito na VPS: **11 dos 15 autores já têm o caminho
+  no banco** (`portraitImageUrl`, ex. `/images/authors/agostinho.jpg`),
+  mas em `/usr/share/nginx/html/images/authors/` existe **um único
+  arquivo** (`tomas-aquino.jpg`) — os outros 10 devolvem 404 e caem no
+  ícone de fallback. O Rilson tem os retratos no vault do Obsidian; falta
+  exportá-los e subir para o diretório do web. Enquanto não houver
+  arquivo, o slot não tem o que exibir.
 **F1 — Caixa alta: ✅ ENTREGUE** (commit `c916e2a`, no ar). Componente
 `SectionLabel` criado e 9 títulos de seção migrados. Antes → depois:
 `uppercase` de **14 → 4 usos** (os 4 aprovados). Ganhos colaterais
