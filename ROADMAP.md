@@ -1,11 +1,19 @@
 # Roadmap — Scriptorium Divinum
 
-## 📋 Índice executivo — o que falta, e de quem é (2026-09-25)
+## 📋 Índice executivo — o que falta, e de quem é (2026-09-26)
 
-**21 itens pendentes.** Este é o mapa único; o resto do arquivo é o
-detalhamento de cada um. Legenda: **🟢 meu** (posso executar sem
-decidir nada) · **🟡 decisão sua** (preciso de escolha) · **🔵 sua
-conta** (acesso que só você tem) · **♾️ contínuo** (nunca "fecha").
+> **As decisões que moldaram este projeto estão em
+> [`docs/DECISOES.md`](docs/DECISOES.md)** — o que foi decidido, por
+> quem, quando, e **o que foi descartado**. Este arquivo diz o que falta;
+> aquele diz por que ficou como está. Um roadmap sem o registro de
+> decisão vira lista de desejos, e decisão sem registro vira mito.
+
+**13 itens pendentes** (eram 21 em 2026-09-25 — e dois deles, favicon e
+sitemap, eram diagnóstico errado: já estavam prontos). Este é o mapa único; o
+resto do arquivo é o detalhamento de cada um. Legenda: **🟢 meu** (posso
+executar sem decidir nada) · **🟡 decisão sua** (preciso de escolha) ·
+**🔵 sua conta** (acesso que só você tem) · **♾️ contínuo** (nunca
+"fecha") · **🔮 futuro** (você disse que não é agora).
 
 | # | Item | Dono | Peso |
 |---|---|---|---|
@@ -16,13 +24,13 @@ conta** (acesso que só você tem) · **♾️ contínuo** (nunca "fecha").
 | 5 | ~~`frame-tondo`~~ — ✅ `d77f895`; 3 implementações viraram 1 | 🟢 | **entregue** |
 | 6 | ~~Curva de abertura do leitor~~ — ✅ `d77f895` | 🟢 | **entregue** |
 | 7 | ~~Auditoria de acessibilidade~~ — ✅ `8ae5f79`; axe-core no CI, 10/10 | 🟢 | **entregue** |
-| 8 | **Logo/favicon** — precisa de uma marca | 🟡 | **sua** |
-| 9 | "Como Contribuir" — reescrever para projeto solo | 🟡 | texto/decisão |
-| 10 | Tradução de livros com IA — avaliar viabilidade | 🟡 | **sua** (modelo/licença) |
-| 11 | **Compêndio de Teologia** — texto e capa (tradução de 1935 não achada) | 🟡 | **sua** (achar/licenciar) |
-| 12 | Planos de leitura + newsletter | 🟡 | depende de acervo |
-| 13 | Comentários bíblicos por capítulo (integração c/ Lecionário) | 🟡 | escopo grande |
-| 14 | Verificar sitemap no Search Console | 🔵 | **sua conta** |
+| 8 | ~~Logo/favicon~~ — ✅ **já estava feito** (`52fc4f8`); o item é que estava velho | — | **fechado** |
+| 9 | **Consolidar 4 páginas em `/sobre`** — 🔵 **decidido 2026-09-26**, falta implementar | 🟢 | **a fazer** |
+| 10 | Tradução de livros com IA | 🔮 | **futuro** (você: "não tenho como agora") |
+| 11 | **7 obras sem texto** — estado explícito + link p/ edição original | 🟢 | código pronto, **migração pendente** |
+| 12 | Planos de leitura + newsletter | 🔮 | **futuro** |
+| 13 | Comentários bíblicos por capítulo (integração c/ Lecionário) | 🔮 | **futuro** |
+| 14 | ~~Sitemap no Search Console~~ — ✅ processado, 91 páginas | — | **fechado** |
 | 15 | Curadoria de material | ♾️ | contínuo |
 | 16 | Tabela de fontes | ♾️ | contínuo |
 
@@ -258,7 +266,12 @@ volta à mesa (seção "Ordem recomendada").
       Em produção: inclui URLs de livros, categorias e perfis de autores,
       testado no CI
 - [x] **Google Search Console verificado (2026-08-14)** — tag `<meta name="google-site-verification">` adicionada ao `web/index.html` e propriedade verificada no Search Console. Sitemap enviado em `https://scriptorium.narniano.com/sitemap.xml`.
-- [ ] **Verificar sitemap no Search Console**: Acessar [Google Search Console](https://search.google.com/search-console) → propriedade `scriptorium.narniano.com` → Sitemaps → confirmar que `https://scriptorium.narniano.com/sitemap.xml` está com status "Sucesso" e URLs sendo indexadas.
+- [x] **Sitemap no Search Console — confirmado 2026-09-26.** O
+      Rilson consultou: `/sitemap.xml`, tipo Sitemap, enviado em 14/08,
+      última leitura 23/09, status **Processado**, **91 páginas
+      encontradas**. Fechado com o número na mão, que é o que este
+      projeto pede — claim sem lastro foi o débito A11Y-01.
+
 - [x] **URLs amigáveis (slug em vez de UUID) — ✅ ENTREGUE 2026-09-25**
       (commit `bad7492`). Pedido reiterado pelo Rilson em 2026-09-25.
       O que era: ficha e leitor respondiam por identificador
@@ -727,67 +740,17 @@ afiliado agora, anúncio (AdSense) fica pra depois.**
       (`key={capituloAtual?.id}`), então virar capítulo vira folha.
       Com `prefers-reduced-motion` a animação some inteira: é
       decorativa, eSSx é requisito de acessibilidade, não enfeite.
-- [ ] **Logo/favicon — ainda é o padrão genérico do template (pedido do
-      Rilson, 2026-08-16)**: `web/public/favicon.ico` é um ícone
-      82x82 sem identidade nenhuma (mesma origem do `placeholder.svg`
-      ao lado — sobra de scaffold, nunca foi trocado). Precisa de uma
-      marca própria, coerente com o registro "A Biblioteca" acima —
-      mesma pendência no `biblia-na-arte` (ver o ROADMAP de lá).
-
-## Estratégia — o que "sucesso" significa aqui (2026-08-15)
-
-Público-alvo: cristãos de qualquer tradição interessados em teologia
-clássica em domínio público — Padres da Igreja, reformadores, puritanos,
-místicos, apologistas — sem restrição de linhagem confessional. O
-catálogo deve refletir isso (Agostinho, Aquino, Calvino, Owen, Wesley,
-Arminius, Kempis, Bunyan são todos candidatos legítimos, critério é
-domínio público + proveniência verificável, não afinidade doutrinária
-do curador).
-
-**Estimativa de potencial (teto plausível, não medição real):** o público
-de cristão-praticante-que-lê-clássico-em-português é uma fração pequena
-mesmo dentro do universo cristão brasileiro — provavelmente baixos
-milhares de leitores engajados no cenário realista, não milhões. Isso
-não é defeito do projeto: uma "Confissões de Agostinho" bem indexada e
-com leitor decente já é rara em português, então a régua de sucesso é
-"virar a referência que aparece no Google pra esses termos", não
-"competir em audiência com plataforma de conteúdo geral".
-
-**O que isso implica pra estratégia e infra:**
-- **Canal principal é SEO de cauda longa** — cada obra publicada com
-  leitor integrado é uma página que pode ranquear pra buscas específicas
-  ("Confissões de Agostinho pdf grátis", "Institutas de Calvino online",
-  "95 Teses de Lutero português" — este último já no ar). Prioridade de
-  conteúdo > prioridade de feature.
-- **Infra não é o gargalo neste teto.** Texto é leve; mesmo em milhares
-  de leitores simultâneos o VPS atual aguenta sem mudança. Só reavaliar
-  infra se/quando o projeto sair de PoC pra uso real — não adiantar.
-- Sucesso mensurável de curto prazo, se o projeto voltar à mesa: tráfego
-  orgânico crescendo mês a mês pra 2-3 obras publicadas, não número
-  absoluto de usuários.
-
-## Conexões com o cluster A Biblioteca (2026-08-16)
-
-Ideias reais, verificadas antes de registrar, não brainstorm solto.
-
-### Comentários bíblicos clássicos por livro/capítulo — upgrade da integração com o Lecionário
-
-Ideia do Rilson: comentário clássico ligado à passagem exata do dia
-(ex. Calvino em Romanos), não só busca por palavra-chave. Isso é
-**trabalho novo pro catálogo** — hoje não existe estrutura de
-livro/capítulo aqui, diferente do Bíblia na Arte (`bookSlug`+`chapter`
-já pronto). Precisaria da mesma estrutura de dado.
-
-Candidatos em domínio público, **de propósito atravessando tradições**
-(o critério do catálogo já é esse — ver "Estratégia" acima), não só
-Calvino:
-- João Calvino — comentários (quase toda a Bíblia, PD)
-- **John Wesley** — *Explanatory Notes upon the New Testament* (PD,
-  arminiano — vale citar isso explicitamente, não só o lado reformado)
-- **Adam Clarke** — comentário completo, metodista (PD)
-- Matthew Henry — comentário completo, amplamente lido em qualquer
-  tradição (PD)
-- Jamieson-Fausset-Brown — comentário conciso, PD
+- [x] **Logo/favicon — JÁ ESTAVA FEITO, o item é que estava velho
+      (fechado 2026-09-26).** O ROADMAP afirmava que o `favicon.ico` era
+      "um ícone 82x82 sem identidade nenhuma, sobra de scaffold". **Não
+      é verdade desde 2026-08-16:** o commit `52fc4f8` ("aplica a logo
+      real do projeto (favicons + header)") trocou tudo, e o arquivo atual
+      é um `.ico` legítimo com **5 tamanhos embutidos (16, 24, 32, 48,
+      64)**, servindo 200 em produção com 9.925 bytes. O
+      `placeholder.svg` ao lado é resíduo de scaffold que ficou, mas não
+      é o favicon. Confirmado pelo Rilson em 2026-09-26 ("eu já modifiquei
+      ele e está me parecendo bem feito"). Fica registrado aqui para a
+      próxima leitura do roadmap não repetir o diagnóstico errado.
 
 - [ ] Estrutura de dado: comentário indexado por `bookSlug`+`chapter`
       (mesma lógica do Bíblia na Arte)

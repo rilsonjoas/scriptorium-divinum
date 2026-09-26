@@ -36,6 +36,21 @@ jobs:
             git pull --ff-only origin main
             cd ~/hetzner-infra
             make deploy service=scriptorium-divinum
+            # Migrations do schema. NÃO rodavam no deploy: o `make deploy`
+            # só sobe o container, e o migrator do drizzle precisa ser
+            # chamado à mão. O efeito é o pior possível — silencioso.
+            # Em 2026-09-26 a coluna `books.related_edition_slug` foi
+            # criada em código e o deploy foi verde; a API continuou
+            # devolvendo `relatedEditionSlug: null` porque o schema estava
+            # atrás do código, e nada no pipeline acusou.
+            # Se a migration falhar, o deploy falha. Schema atrás do código
+            # é pior que deploy vermelho.
+            if docker ps --format '{{.Names}}' | grep -qx 'scriptorium-api'; then
+              docker exec scriptorium-api node dist/db/migrate.js
+            else
+              echo "⚠️ Container scriptorium-api não encontrado — migration NAO rodada."
+              echo "   Rode no VPS: docker exec scriptorium-api node dist/db/migrate.js"
+            fi
             # Prune total pós-deploy (INCIDENTES.md 2026-08-23): sem filtro de
             # tempo — filtros semanais não pegam rajadas; e o prune simples (-f)
             # deixa registros compartilhados no disco (17,9GB invisíveis).
