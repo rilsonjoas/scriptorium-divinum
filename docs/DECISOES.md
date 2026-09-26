@@ -271,3 +271,60 @@ já cometeu (2.05:1 em 36 lugares, corrigido na origem).
 **Pendência:** o `tema` da BnA tem 354 de 1090 obras (32%) sem tema
 registrado no export do vault. Isso é "trabalho de tema refinado", que
 o Rilson pediu explicitamente — e é curadoria de dado, não código.
+
+---
+
+## 2026-09-26 — O menu repetia o problema que a fusão resolveu
+
+**Entregue** em `2d40203`.
+
+**O achado:** a fusão das quatro páginas deixou o menu com **três itens
+apontando para a mesma página** — Sobre, Domínio Público e Ajuda — e o
+rodapé com outros três. Era literalmente a repetição que motivou a
+fusão, reincidindo dentro da navegação.
+
+**Decidido:** o menu fica com `Sobre` só; o rodapé também. Quem quer
+Domínio Público, Ajuda ou Como Contribuir chega pelo índice interno da
+página, que é onde o assunto faz sentido.
+
+**E o sitemap parou de listar as URLs antigas.** `/ajuda`,
+`/dominio-publico` e `/contribuir` continuam respondendo por redirect
+(link externo, digitação), mas **redirect não entra em sitemap**: listar
+uma URL que redireciona é pedir para o Google indexar um salto em vez
+de uma página.
+
+**Nota de método:** a decisão de "página única" e a de "menu com um item"
+são o mesmo problema visto de dois ângulos. Consolidar o conteúdo sem
+consolidar a navegação deixa metade do trabalho feito.
+
+---
+
+## 2026-09-26 — Um campo novo na API tem três camadas, e duas falham calado
+
+**Entregue** em `d8b0cca`. Registrado também em `ROADMAP.md` §Dívidas
+técnicas.
+
+A descoberta mais cara da sessão, e vale como regra geral: para expor um
+campo novo, **três** coisas precisam mudar, e duas delas falham **sem
+erro nenhum**.
+
+1. **Migration** — a coluna no banco. Falha barulhenta: o `select` quebra.
+2. **Select explícito** em `server/src/db/queries.ts` — o Drizzle não
+   devolve campo novo sozinho, e são **duas** listas de coluna (ficha e
+   catálogo). Falha silenciosa: a coluna existe, a query não pede, o
+   campo vira `undefined` e desaparece no JSON.
+3. **Response schema** em `server/src/schemas/book.schema.ts` — a rota
+   declara `response: { 200: bookDetailResponseJson }`, e o Fastify
+   **serializa conforme o schema, descartando o que não está declarado**.
+   Falha silenciosa e é a que mais engana: a API responde 200, com
+   status de sucesso, e o dado simplesmente não chega.
+
+**Como o custo apareceu:** a coluna foi migrada à mão, o deploy ficou
+verde, o drizzle imprimiu `✅ Migrations concluídas` duas vezes sem
+aplicar nada, e a página das 7 obras mostrava o aviso sem o link. Só
+descobri porque conferi o efeito na resposta da API em vez de confiar no
+log — `relatedEditionSlug` não aparecia nem como chave.
+
+**Prevenção:** dois testes de guarda na integração que falham se o campo
+não voltar na ficha nem no catálogo. A regra geral está escrita no
+ROADMAP: **conferir o efeito, nunca o log.**

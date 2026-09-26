@@ -27,7 +27,7 @@ executar sem decidir nada) · **🟡 decisão sua** (preciso de escolha) ·
 | 8 | ~~Logo/favicon~~ — ✅ **já estava feito** (`52fc4f8`); o item é que estava velho | — | **fechado** |
 | 9 | ~~Consolidar 4 páginas em `/sobre`~~ — ✅ `0250a3c`, redirects + âncoras + Pix + e-mail | 🟢 | **entregue** |
 | 10 | Tradução de livros com IA | 🔮 | **futuro** (você: "não tenho como agora") |
-| 11 | **7 obras sem texto** — estado explícito + link p/ edição original | 🟢 | UI pronta; **migração do banco travada** |
+| 11 | ~~7 obras sem texto~~ — ✅ `d8b0cca`; aviso + link p/ edição original, funcionando | 🟢 | **entregue** |
 | 12 | Planos de leitura + newsletter | 🔮 | **futuro** |
 | 13 | Comentários bíblicos por capítulo (integração c/ Lecionário) | 🔮 | **futuro** |
 | 14 | ~~Sitemap no Search Console~~ — ✅ processado, 91 páginas | — | **fechado** |
@@ -1479,3 +1479,62 @@ nele; a checagem manual dos casos apontados é o que fecha isso.
 
 
 
+
+---
+
+## Dívidas técnicas abertas (2026-09-26)
+
+O que o ROADMAP **não** tinha e deveria ter. Cada item existe porque
+encontramos na execução, não porque alguém pediu.
+
+### 🔴 Um campo novo na API precisa de três coisas, e falhar uma é silencioso
+
+**Sintoma real de 2026-09-26:** a coluna `books.related_edition_slug`
+migrada à mão, deploy verde, drizzle dizendo `✅ Migrations concluídas`, e a
+API respondendo 200 **sem o campo**. Nenhum erro, nenhum log. A página das
+7 obras mostrava o aviso mas nunca o link para a edição original.
+
+São três camadas, e cada uma esquece o campo de um jeito diferente:
+
+| # | Camada | O que fazer | Como falha |
+|---|---|---|---|
+| 1 | Migration (`server/src/db/migrations/`) | `ALTER TABLE` | Coluna não existe; `select` quebra |
+| 2 | **Select explícito** (`server/src/db/queries.ts`) | somar o campo nas **duas** listas de coluna | Coluna existe, query não pede, `undefined` some no JSON |
+| 3 | **Response schema** (`server/src/schemas/book.schema.ts`) | somar no zod | A rota declara `response: { 200: … }` e o Fastify **serializa conforme o schema, descartando o que não está declarado** |
+
+**Prevenção já em place:** dois testes de guarda em
+`server/src/routes/api.integration.test.ts`
+(`devolve relatedEditionSlug` na ficha e no catálogo) que quebram se o
+campo não aparecer. Ao adicionar campo novo de livro, o teste avisa.
+
+**Armadilha irmã, mesma data:** a migração 0005 rodou duas vezes sem
+aplicar nada, com o drizzle dizendo "concluídas". Causa provável: o
+migrator só aplica entrada de journal cujo `when` for maior que o maior
+`created_at` já gravado, e pula as outras **em silêncio**. O `when` foi
+subido para o futuro e o procedimento está em
+`server/src/db/migrations/README.md`.
+
+### 🟡 Duas `<h1>` em toda página do site
+
+O logo do cabeçalho é `<h1>` (`div>a>div>h1`), e a página tem o seu
+próprio. Existe em **todas** as rotas, incluindo a home. Não é
+regressão de nada: é padrão do site. Um documento deve ter um `<h1>` só
+(1.3.1 Informação e relações, nível A) — o logo deveria ser `div`/`a`.
+
+**Por que não foi corrigido:** é refactor site-wide e mexer agora seria
+abrir mais um frente em vez de fechar o que estava em aberto. Registrado
+para quando for a vez.
+
+### 🟡 A auditoria de token por pareamento gera falso positivo
+
+Medir `--primary-foreground` sobre `--background` dá **1.0:1** e não
+significa nada: o par nunca se encontra na tela. A primeira varredura
+acusou **11 reprovações** assim, todas falsas.
+
+A régua é do `Padrão de Acessibilidade`: **um token por papel**, medido
+contra o fundo do seu par. A varredura de token serve de **triagem**,
+nunca de veredito — a verdade é a página renderizada, e é o que o axe
+faz. Pendente de verificar na página: `--border` e `--input` medem
+~1.1:1 contra `--muted` (1.4.11 pede 3:1), mas os cards usam
+`border-library-bronze`, que é visível — token subusado ou reprovado,
+ainda não decidido.

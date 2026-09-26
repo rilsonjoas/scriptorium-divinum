@@ -11,6 +11,8 @@ function row(over: Partial<QuoteRow>): QuoteRow {
     scriptoriumWorkId: null,
     scriptoriumUrl: null,
     theme: null,
+    fonteUrl: null,
+    verificadoEm: null,
     createdAt: new Date(),
     updatedAt: new Date(),
     ...over,

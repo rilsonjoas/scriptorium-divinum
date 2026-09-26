@@ -7,6 +7,7 @@ import {
   boolean,
   bigint,
   timestamp,
+  date,
   index,
 } from 'drizzle-orm/pg-core';
 import { relations } from 'drizzle-orm';
@@ -205,6 +206,17 @@ export const quotes = pgTable(
     scriptoriumUrl: varchar('scriptorium_url', { length: 500 }),
     // Marcação temática do Gerador C.S. Lewis ("ceus" = Sehnsucht/anseio).
     theme: varchar('theme', { length: 50 }),
+    // Curadoria/verificação (achado 2026-09-26: citação fabricada, atribuída
+    // a "O Cavalo e seu Menino", sem fonte alguma, sobreviveu à auditoria
+    // original porque ela caçava padrões de fraude já conhecidos, não
+    // verificava cada citação individualmente contra fonte primária). Campos
+    // internos — não expostos no DTO público (`toQuoteDto`, quotes.ts) de
+    // propósito, é metadado de curadoria, não dado pro consumidor da API.
+    // `verificadoEm IS NULL` = não verificado (todas as linhas legadas
+    // começam assim; retroauditá-las é pendência separada, não bloqueia
+    // quem já tem fonte real na hora de inserir).
+    fonteUrl: text('fonte_url'),
+    verificadoEm: date('verificado_em'),
     createdAt: timestamp('created_at', { withTimezone: true }).defaultNow().notNull(),
     updatedAt: timestamp('updated_at', { withTimezone: true }).defaultNow().notNull(),
   },
