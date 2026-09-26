@@ -9,6 +9,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import { Search, Filter, BookOpen, Users, Loader2, X } from 'lucide-react';
 import { useSearch, useCategories, useAuthors } from '@/hooks/useDatabase';
 import { useSearchParams } from 'react-router-dom';
+import { CatalogSkeleton, ErrorState } from '@/components/CatalogStates';
 
 export default function Busca() {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -197,23 +198,12 @@ export default function Busca() {
 
             {/* Loading State */}
             {isLoading && (
-              <div className="flex items-center justify-center py-16">
-                <Loader2 className="h-8 w-8 animate-spin text-library-gold mr-3" />
-                <span className="font-body text-library-bronze-foreground text-lg">Buscando...</span>
-              </div>
+              <CatalogSkeleton label="Buscando" />
             )}
 
             {/* Error State */}
             {error && (
-              <div className="text-center py-16">
-                <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Search className="h-8 w-8 text-red-600" />
-                </div>
-                <h3 className="font-display text-xl font-semibold text-red-700 mb-2">
-                  Erro na Busca
-                </h3>
-                <p className="font-body text-muted-foreground">{error.message}</p>
-              </div>
+              <ErrorState what="Não conseguimos buscar agora." />
             )}
 
             {/* Results */}

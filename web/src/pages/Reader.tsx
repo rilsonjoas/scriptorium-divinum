@@ -657,7 +657,10 @@ export default function Reader() {
 
             <Card className={`transition-all duration-200 ${themeClasses}`}>
               <CardContent className="p-5 md:p-10">
-                <article className={`prose prose-lg prose-leitor max-w-none capitular-medieval ${fontClass} ${fontSizeClass} prose-headings:font-heading prose-blockquote:border-library-bronze prose-blockquote:font-body prose-a:underline`}>
+                <article
+                  key={capituloAtual?.id}
+                  className={`prose prose-lg prose-leitor max-w-none capitular-medieval leitor-abertura ${fontClass} ${fontSizeClass} prose-headings:font-heading prose-blockquote:border-library-bronze prose-blockquote:font-body prose-a:underline`}
+                >
                   {capituloAtual ? (
                     <ReactMarkdown remarkPlugins={[remarkGfm]} components={markdownComponents}>
                       {capituloAtual.body}

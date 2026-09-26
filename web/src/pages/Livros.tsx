@@ -1,5 +1,6 @@
 import { Layout } from '@/components/Layout';
 import { BookCard } from '@/components/BookCard';
+import { CatalogSkeleton, ErrorState } from '@/components/CatalogStates';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
@@ -32,7 +33,7 @@ const Livros = () => {
   }, [searchParams, searchTerm]);
 
   const { data: settings } = useSiteSettings();
-  const { data: books, isLoading: booksLoading, error: booksError } = useBooks({
+  const { data: books, isLoading: booksLoading, error: booksError, refetch: booksRefetch } = useBooks({
     limit: 100,
   });
   const { data: categories, isLoading: categoriesLoading } = useCategories();
@@ -178,29 +179,9 @@ const Livros = () => {
 
         {/* Books Grid/List */}
         {booksLoading ? (
-          <div className="flex items-center justify-center py-16">
-            <Loader2 className="h-8 w-8 animate-spin text-library-gold mr-3" />
-            <span className="font-body text-library-bronze-foreground text-lg">Carregando catálogo...</span>
-          </div>
+          <CatalogSkeleton />
         ) : booksError ? (
-          <div className="text-center py-16">
-            <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Search className="h-8 w-8 text-red-600" />
-            </div>
-            <h3 className="font-display text-xl font-semibold text-red-700 mb-2">
-              Erro ao carregar o catálogo
-            </h3>
-            <p className="font-body text-muted-foreground mb-4">
-              {booksError.message}
-            </p>
-            <Button
-              variant="outline"
-              onClick={() => window.location.reload()}
-              className="font-body"
-            >
-              Tentar novamente
-            </Button>
-          </div>
+          <ErrorState onRetry={() => booksRefetch()} />
         ) : filteredBooks.length > 0 ? (
           <div className={
             viewMode === 'grid' 

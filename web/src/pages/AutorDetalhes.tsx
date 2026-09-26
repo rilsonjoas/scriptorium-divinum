@@ -51,7 +51,7 @@ const AutorDetalhes = () => {
           <CardContent className="p-6 md:p-8">
             <div className="flex flex-col md:flex-row gap-8 items-center md:items-start">
               {/* MOLDURA CIRCULAR TONDO DOURADA */}
-              <div className="w-36 h-36 md:w-44 md:h-44 flex-shrink-0 bg-gradient-leather rounded-full ring-4 ring-library-gold/50 border-4 border-library-wood shadow-golden relative overflow-hidden group">
+              <div className="frame-tondo w-36 h-36 md:w-44 md:h-44 flex-shrink-0 group">
                 <SafeImage
                   src={author.portraitImageUrl}
                   alt={`Retrato de ${author.name}`}
@@ -62,7 +62,6 @@ const AutorDetalhes = () => {
                     </div>
                   }
                 />
-                <div className="absolute inset-0 rounded-full border-2 border-library-dourado/30 pointer-events-none" />
               </div>
 
               {/* DADOS DE IDENTIFICAÇÃO DO AUTOR */}
@@ -123,7 +122,7 @@ const AutorDetalhes = () => {
             {richInfo?.signatureQuote && (
               <div className="mt-8 p-6 rounded-lg bg-gradient-to-r from-library-wood/10 via-library-gold/15 to-library-wood/10 border-y-2 border-library-dourado/40 text-center relative shadow-xs">
                 <span className="text-2xl text-library-gold block mb-1">❦</span>
-                <blockquote className="font-heading italic text-lg md:text-xl text-library-wood-foreground max-w-3xl mx-auto leading-relaxed">
+                <blockquote className="signature-italic text-lg md:text-xl text-library-wood-foreground max-w-3xl mx-auto leading-relaxed">
                   “{richInfo.signatureQuote}”
                 </blockquote>
                 <cite className="block mt-2 font-body text-xs md:text-sm font-semibold uppercase tracking-widest text-library-bronze-foreground">

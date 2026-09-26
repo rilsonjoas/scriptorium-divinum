@@ -6,9 +6,10 @@ import { Link } from 'react-router-dom';
 import { useAuthors, useBooks } from '@/hooks/useDatabase';
 import { useMemo } from 'react';
 import { SafeImage } from '@/components/SafeImage';
+import { CatalogSkeleton, ErrorState } from '@/components/CatalogStates';
 
 const Autores = () => {
-  const { data: authors, isLoading: authorsLoading, error: authorsError } = useAuthors();
+  const { data: authors, isLoading: authorsLoading, error: authorsError, refetch: authorsRefetch } = useAuthors();
   const { data: books, isLoading: booksLoading } = useBooks();
 
   // Count books per author, keeping only authors with published works
@@ -40,29 +41,12 @@ const Autores = () => {
 
         {/* Authors Grid */}
         {authorsLoading || booksLoading ? (
-          <div className="flex items-center justify-center py-16">
-            <Loader2 className="h-8 w-8 animate-spin text-library-gold mr-3" />
-            <span className="font-body text-library-bronze-foreground text-lg">Carregando autores...</span>
-          </div>
+          <CatalogSkeleton label="Carregando autores" />
         ) : authorsError ? (
-          <div className="text-center py-16">
-            <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <User className="h-8 w-8 text-red-600" />
-            </div>
-            <h3 className="font-display text-xl font-semibold text-red-700 mb-2">
-              Erro ao carregar autores
-            </h3>
-            <p className="font-body text-muted-foreground mb-4">
-              {authorsError.message}
-            </p>
-            <Button
-              variant="outline"
-              onClick={() => window.location.reload()}
-              className="font-body"
-            >
-              Tentar novamente
-            </Button>
-          </div>
+          <ErrorState
+            what="Não conseguimos carregar os autores."
+            onRetry={() => authorsRefetch()}
+          />
         ) : authorsWithBookCount.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {authorsWithBookCount.map((author) => (
@@ -70,7 +54,7 @@ const Autores = () => {
               <CardContent className="p-6">
                 {/* Author Tondo Portrait */}
                 <div className="flex flex-col items-center mb-4">
-                  <div className="w-24 h-24 tondo-portrait mb-4">
+                  <div className="frame-tondo frame-tondo-sm w-24 h-24 mb-4 transition-all duration-300 hover:scale-105">
                     <SafeImage
                       src={author.portraitImageUrl}
                       alt={`Retrato de ${author.name}`}

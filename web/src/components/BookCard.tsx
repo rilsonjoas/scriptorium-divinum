@@ -180,7 +180,7 @@ export function BookCard({ book, variant = 'grid' }: BookCardProps) {
             <div className="flex flex-wrap items-center justify-center sm:justify-start gap-x-3 gap-y-1 text-xs sm:text-sm text-muted-foreground mb-3 font-body">
               <div className="flex items-center space-x-1 min-w-0">
                 <User className="h-3 w-3 text-library-bronze-foreground shrink-0" />
-                <span className="font-medium truncate">{book.author.name}</span>
+                <span className="signature-italic truncate">{book.author.name}</span>
               </div>
               {book.publicationYearOriginal && (
                 <div className="flex items-center space-x-1 shrink-0">

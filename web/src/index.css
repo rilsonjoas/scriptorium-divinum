@@ -389,14 +389,6 @@
   }
 
   /* Tondo Portrait Framing (Estilo Galeria Bíblia na Arte) */
-  .tondo-portrait {
-    @apply rounded-full border-2 border-library-dourado ring-2 ring-library-gold/50 shadow-golden relative overflow-hidden transition-all duration-300;
-    background: linear-gradient(135deg, hsl(25 35% 15%), hsl(20 30% 25%));
-  }
-
-  .tondo-portrait:hover {
-    @apply ring-4 ring-library-gold/80 scale-105 shadow-deep;
-  }
 
   /* Efeito Vitral / Warm Golden Ambient Glow */
   .liturgic-glow {
@@ -440,6 +432,96 @@
     .capitular-medieval > p:first-of-type::first-letter {
       font-size: 2.35em;
       margin-right: 0.12em;
+    }
+  }
+
+  /* ------------------------------------------------------------------
+     .frame-tondo — moldura circular dourada para RETRATOS DE AUTOR
+     Bloco B (2026-09-25). O tondo é elemento de retrato, não de capa:
+     capa de livro é retângulo e deve continuar retângulo (é o que
+     diferencia o Scriptorium do [[Bíblia na Arte]], onde tudo é
+     moldurado). Antes estas regras viviam soltas em classes ad-hoc no
+     JSX da página de autor; agora há uma classe só, e a página de autor
+     e a listagem de autores não podem divergir.
+     ------------------------------------------------------------------ */
+  .frame-tondo {
+    border-radius: 9999px;
+    overflow: hidden;
+    position: relative;
+    background-image: var(--gradient-leather);
+    box-shadow: var(--shadow-golden);
+    /* anel de ouro externo + aro de madeira, como no tondo pintado */
+    border: 4px solid hsl(var(--library-wood));
+    outline: 4px solid hsl(var(--library-gold) / 0.5);
+    outline-offset: -4px;
+  }
+
+  /* aro interno fino, que dá a profundidade da moldura */
+  .frame-tondo::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 9999px;
+    border: 2px solid hsl(var(--library-dourado) / 0.3);
+    pointer-events: none;
+  }
+
+  /* Retrato menor (listagem de autores) sem moldura pesada */
+  .frame-tondo-sm {
+    border-width: 2px;
+    outline-width: 2px;
+  }
+
+
+  /* ------------------------------------------------------------------
+     .signature-italic — linha de assinatura do autor
+     Citação representativa e nome do autor no catálogo em itálico de
+     Display, que é o que a [[Bíblia na Arte]] chama de "linha de
+     assinatura". Não confunde com itálico de citação do corpo do texto.
+     ------------------------------------------------------------------ */
+  .signature-italic {
+    font-family: var(--font-display);
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+  }
+
+  /* ------------------------------------------------------------------
+     .leitor-abertura — abrir o livro, não abrir um modal
+     Bloco B (2026-09-25). A pista visual é a folha se assentando: uma
+     inclinação mínima em perspectiva (rotateX), como se a página
+     flatasse, com a curva da vela (--ease-vela = expo-out: sai rápido,
+     assenta suave). Nada de zoom elástico de modal.
+
+     A animação é aplicada por CAPÍTULO, não só no mount: virar capítulo
+     tem que virar folha. Por isso o <article> leva `key={capitulo.id}`.
+
+     prefers-reduced-motion não é enfeite: WCAG 2.2 (2.3.3 Animation
+     from Interactions, nível AAA; e o cuidado do 2.2.2 Pause, Stop,
+     Hide) — a animação é decorativa e some inteira.
+     ------------------------------------------------------------------ */
+  .leitor-abertura {
+    animation: leitor-abertura 620ms var(--ease-vela) both;
+    transform-origin: top center;
+  }
+
+  @keyframes leitor-abertura {
+    0% {
+      opacity: 0;
+      transform: perspective(1400px) rotateX(1.4deg) translateY(4px);
+    }
+    55% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+      transform: perspective(1400px) rotateX(0deg) translateY(0);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .leitor-abertura {
+      animation: none;
     }
   }
 
