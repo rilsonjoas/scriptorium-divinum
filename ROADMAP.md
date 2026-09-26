@@ -1,5 +1,39 @@
 # Roadmap — Scriptorium Divinum
 
+## 📋 Índice executivo — o que falta, e de quem é (2026-09-25)
+
+**21 itens pendentes.** Este é o mapa único; o resto do arquivo é o
+detalhamento de cada um. Legenda: **🟢 meu** (posso executar sem
+decidir nada) · **🟡 decisão sua** (preciso de escolha) · **🔵 sua
+conta** (acesso que só você tem) · **♾️ contínuo** (nunca "fecha").
+
+| # | Item | Dono | Peso |
+|---|---|---|---|
+| 1 | **Downloads de primeira classe** — `.md`/`.txt`/`.epub` fora do "Como Citar", com PDF | 🟢 | médio |
+| 2 | **URLs amigáveis** — `/ler/confissoes` em vez de UUID | 🟢 | baixo (slug já existe) |
+| 3 | Loading states mais elegantes | 🟢 | baixo |
+| 4 | `.signature-italic` em citações | 🟢 | baixo |
+| 5 | `frame-tondo` nos retratos | 🟢 | baixo |
+| 6 | Curva de abertura do leitor ( `--ease-liturgico` na transição) | 🟢 | baixo |
+| 7 | Auditoria de acessibilidade pendente (item antigo, confirmar o que falta) | 🟢 | médio |
+| 8 | **Logo/favicon** — precisa de uma marca | 🟡 | **sua** |
+| 9 | "Como Contribuir" — reescrever para projeto solo | 🟡 | texto/decisão |
+| 10 | Tradução de livros com IA — avaliar viabilidade | 🟡 | **sua** (modelo/licença) |
+| 11 | **Compêndio de Teologia** — texto e capa (tradução de 1935 não achada) | 🟡 | **sua** (achar/licenciar) |
+| 12 | Planos de leitura + newsletter | 🟡 | depende de acervo |
+| 13 | Comentários bíblicos por capítulo (integração c/ Lecionário) | 🟡 | escopo grande |
+| 14 | Verificar sitemap no Search Console | 🔵 | **sua conta** |
+| 15 | Curadoria de material | ♾️ | contínuo |
+| 16 | Tabela de fontes | ♾️ | contínuo |
+
+**Sequência que proponho:** #1 (downloads — o que mais te afeta) → #2
+(URLs, é o que você mais reclamou) → #3–#7 (polimentos) → os 🟡 ficam
+documentados esperando tua decisão.
+
+> **Lembrete de escopo (prometido):** #14 (Search Console) e o que
+> depende de conteúdo/licença (#10, #11) **não são meus** — ficam
+> contigo, e eu aviso aqui quando forem os únicos bloqueios.
+
 **Status (2026-08-16):** migrado do Supabase pro VPS Hetzner próprio,
 self-hosted (Fastify + Drizzle + Postgres, Docker multi-stage, Traefik,
 CI/CD completo via GitHub Actions com deploy automático em `push` na
