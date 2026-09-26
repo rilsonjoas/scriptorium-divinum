@@ -78,6 +78,7 @@ const ROTAS = [
   { nome: 'página do autor', caminho: '/autores/santo-agostinho' },
   { nome: 'busca', caminho: '/busca?q=confissoes' },
   { nome: 'categoria', caminho: '/categorias/patristica' },
+  { nome: 'sobre (página única)', caminho: '/sobre' },
 ];
 
 for (const rota of ROTAS) {

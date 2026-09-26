@@ -2,6 +2,18 @@ import { Layout } from '@/components/Layout';
 import { useSiteSettings } from '@/hooks/useDatabase';
 import { PixDonationCard } from '@/components/apoiar/PixDonationCard';
 import { BookOpen, Download, Library, Search } from 'lucide-react';
+import Ajuda from './Ajuda';
+import DominioPublico from './DominioPublico';
+import Contribuir from './Contribuir';
+
+const SECOES = [
+  { id: 'sobre', rotulo: 'O projeto' },
+  { id: 'uso', rotulo: 'Como usar' },
+  { id: 'dominio-publico', rotulo: 'Domínio público' },
+  { id: 'contribuir', rotulo: 'Como contribuir' },
+  { id: 'apoiar', rotulo: 'Apoiar' },
+  { id: 'contato', rotulo: 'Contato' },
+];
 
 const Sobre = () => {
   const { data: settings } = useSiteSettings();
@@ -17,6 +29,24 @@ const Sobre = () => {
             Sobre o {siteName}
           </h1>
           <div className="chapter-divider max-w-md mx-auto mb-6"></div>
+
+          {/* Navegação interna. Uma página só com quatro assuntos
+              precisa de índice: sem isto, quem chega de um link
+              compartilhado rola 900 linhas procurando o que veio ler. */}
+          <nav
+            aria-label="Seções desta página"
+            className="flex flex-wrap justify-center gap-2 mb-12"
+          >
+            {SECOES.map((s) => (
+              <a
+                key={s.id}
+                href={`#${s.id}`}
+                className="px-3 py-1.5 rounded-full border border-library-bronze/70 text-sm font-body text-library-wood-foreground hover:bg-library-gold/15 transition-colors"
+              >
+                {s.rotulo}
+              </a>
+            ))}
+          </nav>
           <p className="font-heading text-xl text-library-bronze-foreground italic">
             "Sancta sanctis" - O sagrado para os santos
           </p>
@@ -129,7 +159,7 @@ const Sobre = () => {
           </div>
 
           {/* Support */}
-          <div className="bg-gradient-to-r from-library-gold/10 to-library-bronze/10 border border-library-bronze rounded-lg p-8 mb-8">
+          <div id="apoiar" className="scroll-mt-20 bg-gradient-to-r from-library-gold/10 to-library-bronze/10 border border-library-bronze rounded-lg p-8 mb-8">
             <h2 className="font-heading text-2xl font-semibold text-library-wood-foreground mb-4">Como Apoiar</h2>
             <p className="leading-relaxed mb-4">
               Este projeto é mantido de forma independente e sustentado através de:
@@ -160,8 +190,32 @@ const Sobre = () => {
 
         <div className="ornament"></div>
 
+        {/* ==== Como usar ==== */}
+        <section id="uso" aria-labelledby="uso-titulo" className="mb-12 scroll-mt-20">
+          <h2 id="uso-titulo" className="font-heading text-2xl font-semibold text-library-wood-foreground mb-4">
+            Como usar a biblioteca
+          </h2>
+          <Ajuda embutida />
+        </section>
+
+        {/* ==== Domínio público ==== */}
+        <section id="dominio-publico" aria-labelledby="dp-titulo" className="mb-12 scroll-mt-20">
+          <h2 id="dp-titulo" className="font-heading text-2xl font-semibold text-library-wood-foreground mb-4">
+            Domínio público e direitos autorais
+          </h2>
+          <DominioPublico embutida />
+        </section>
+
+        {/* ==== Como contribuir ==== */}
+        <section id="contribuir" aria-labelledby="con-titulo" className="mb-12 scroll-mt-20">
+          <h2 id="con-titulo" className="font-heading text-2xl font-semibold text-library-wood-foreground mb-4">
+            Como contribuir
+          </h2>
+          <Contribuir embutida />
+        </section>
+
         {/* Contact */}
-        <div className="text-center">
+        <div id="contato" className="text-center scroll-mt-20">
           <h2 className="font-heading text-2xl font-semibold text-library-wood-foreground mb-4">
             Contato
           </h2>

@@ -17,7 +17,7 @@ import {
 import { useSiteSettings } from '@/hooks/useDatabase';
 import { usePageTitle } from '@/hooks/usePageTitle';
 
-export default function Contribuir() {
+export default function Contribuir({ embutida = false }: { embutida?: boolean }) {
   usePageTitle("Como contribuir");
   const { data: settings } = useSiteSettings();
   const contactEmail = settings?.contactEmail ?? 'scriptorium@narniano.com';
@@ -31,20 +31,21 @@ export default function Contribuir() {
   const whatsappShare = `https://wa.me/?text=${encodeURIComponent(`${shareText} ${pageUrl}`)}`;
   const telegramShare = `https://t.me/share/url?url=${encodeURIComponent(pageUrl)}&text=${encodeURIComponent(shareText)}`;
 
-  return (
-    <Layout>
+  const conteudo = (
+    <>
       <div className="container mx-auto px-4 py-8 max-w-4xl">
-        {/* Page Header */}
-        <div className="text-center mb-12">
-          <h1 className="font-display text-4xl font-bold text-library-wood-foreground mb-4 golden-foil">
-            Como Contribuir
-          </h1>
-          <p className="text-lg text-library-bronze-foreground font-body max-w-3xl mx-auto">
-            Este é um projeto mantido por uma única pessoa. Não há equipe de
-            digitalização nem sistema de envio de textos — mas há formas reais
-            e simples de ajudar.
-          </p>
-        </div>
+        {!embutida && (
+          <div className="text-center mb-12">
+            <h1 className="font-display text-4xl font-bold text-library-wood-foreground mb-4 golden-foil">
+              Como Contribuir
+            </h1>
+            <p className="text-lg text-library-bronze-foreground font-body max-w-3xl mx-auto">
+              Este é um projeto mantido por uma única pessoa. Não há equipe de
+              digitalização nem sistema de envio de textos — mas há formas reais
+              e simples de ajudar.
+            </p>
+          </div>
+        )}
 
         {/* Ways to Contribute */}
         <div className="mb-12">
@@ -342,7 +343,7 @@ export default function Contribuir() {
                     {contactEmail}
                   </a>
                 </Button>
-                <Button asChild variant="outline" className="border-library-dourado text-library-gold hover:bg-library-gold hover:text-library-wood font-body">
+                <Button asChild variant="outline" className="border-library-bronze bg-card/95 text-library-wood-foreground hover:bg-library-gold hover:text-library-wood font-body">
                   <a href={githubUrl} target="_blank" rel="noopener noreferrer">
                     <Github className="h-4 w-4 mr-2" />
                     Projeto GitHub
@@ -353,6 +354,10 @@ export default function Contribuir() {
           </Card>
         </div>
       </div>
-    </Layout>
+    </>
   );
+
+  if (embutida) return conteudo;
+
+  return <Layout>{conteudo}</Layout>;
 }

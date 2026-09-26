@@ -5,19 +5,14 @@ import { Badge } from '@/components/ui/badge';
 import { BookOpen, Download, Search, Users, Library, Heart, Mail, Globe, FileText, Eye, Share2 } from 'lucide-react';
 import { usePageTitle } from '@/hooks/usePageTitle';
 
-export default function Ajuda() {
+export default function Ajuda({ embutida = false }: { embutida?: boolean }) {
   usePageTitle("Ajuda");
-  return (
-    <Layout>
+  const conteudo = (
+    <>
       <div className="container mx-auto px-4 py-8 max-w-4xl">
-        <div className="mb-8">
-          <h1 className="font-display text-4xl font-bold text-library-wood-foreground mb-4 golden-foil">
-            Central de Ajuda
-          </h1>
-          <p className="text-lg text-library-bronze-foreground font-body">
-            Encontre respostas para suas dúvidas sobre como navegar e usar nossa biblioteca teológica digital.
-          </p>
-        </div>
+        {!embutida && (
+          <div className="mb-8">            <h1 className="font-display text-4xl font-bold text-library-wood-foreground mb-4 golden-foil">              Central de Ajuda            </h1>            <p className="text-lg text-library-bronze-foreground font-body">              Encontre respostas para suas dúvidas sobre como navegar e usar nossa biblioteca teológica digital.            </p>          </div>
+        )}
 
         {/* Navegação Rápida */}
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 mb-12">
@@ -265,6 +260,10 @@ export default function Ajuda() {
           </div>
         </div>
       </div>
-    </Layout>
+    </>
   );
+
+  if (embutida) return conteudo;
+
+  return <Layout>{conteudo}</Layout>;
 }

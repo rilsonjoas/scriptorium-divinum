@@ -4,20 +4,14 @@ import { Badge } from '@/components/ui/badge';
 import { CheckCircle, Globe, BookOpen, Scale, Users, Download, Share2, AlertTriangle } from 'lucide-react';
 import { usePageTitle } from '@/hooks/usePageTitle';
 
-export default function DominioPublico() {
+export default function DominioPublico({ embutida = false }: { embutida?: boolean }) {
   usePageTitle("Domínio público");
-  return (
-    <Layout>
+  const conteudo = (
+    <>
       <div className="container mx-auto px-4 py-8 max-w-4xl">
-        <div className="mb-8">
-          <h1 className="font-display text-4xl font-bold text-library-wood-foreground mb-4 golden-foil">
-            Obras em Domínio Público
-          </h1>
-          <p className="text-lg text-library-bronze-foreground font-body max-w-3xl">
-            Entenda o que significa domínio público e como você pode usar livremente 
-            as obras teológicas clássicas em nossa biblioteca.
-          </p>
-        </div>
+        {!embutida && (
+          <div className="mb-8">            <h1 className="font-display text-4xl font-bold text-library-wood-foreground mb-4 golden-foil">              Obras em Domínio Público            </h1>            <p className="text-lg text-library-bronze-foreground font-body max-w-3xl">              Entenda o que significa domínio público e como você pode usar livremente               as obras teológicas clássicas em nossa biblioteca.            </p>          </div>
+        )}
 
         {/* O que é Domínio Público */}
         <div className="mb-12">
@@ -336,6 +330,10 @@ export default function DominioPublico() {
           </div>
         </div>
       </div>
-    </Layout>
+    </>
   );
+
+  if (embutida) return conteudo;
+
+  return <Layout>{conteudo}</Layout>;
 }

@@ -28,8 +28,19 @@ export function PixDonationCard() {
   return (
     <div className="space-y-5">
       <div className="bg-white rounded-lg p-4 w-fit mx-auto shadow-md border border-library-bronze/20">
-        {/* QR estático EMV (BR Code do Bacen), sem valor fixado */}
-        <QRCodeSVG value={brCode} size={180} level="M" />
+        {/* QR estático EMV (BR Code do Bacen), sem valor fixado.
+
+            O `title` não é enfeite: o QR é uma imagem que TRANSPORTE
+            informação (a chave de pagamento), então cai em 1.1.1
+            Conteúdo não textual (A) e o axe reprova `svg-img-alt` sem
+            ele. A auditoria de 2026-09-26 pegou isso — o componente
+            existia há meses e nenhuma rota da suíte o visitava. */}
+        <QRCodeSVG
+          value={brCode}
+          size={180}
+          level="M"
+          title="QR Code Pix para doação ao Scriptorium Divinum"
+        />
       </div>
       <p className="text-center text-xs text-muted-foreground -mt-2">
         Escaneie com o app do seu banco — ou copie o código abaixo
