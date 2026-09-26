@@ -70,9 +70,7 @@ export function Header() {
     { to: '/autores', label: t('nav.autores'), icon: Users },
     { to: '/categorias', label: t('nav.categorias'), icon: Library },
     { to: '/livros?favoritos=true', label: 'Favoritos', icon: Star },
-    { to: '/dominio-publico', label: t('nav.dominioPublico'), icon: ShieldCheck },
     { to: '/sobre', label: t('nav.sobre'), icon: Info },
-    { to: '/ajuda', label: t('nav.ajuda'), icon: HelpCircle },
   ];
 
   return (

@@ -66,18 +66,15 @@ export function Footer() {
               <li>
                 <Link to="/sobre" className="text-library-gold/80 hover:text-library-gold transition-colors">{t('rodape.sobreOProjeto')}</Link>
               </li>
+              {/* Consolidação 2026-09-26: Domínio Público, Como
+                  Contribuir e Central de Ajuda viraram seções de /sobre.
+                  Três links para a mesma página no rodapé era a
+                  repetição que a fusão resolveu — e as URLs antigas
+                  seguem de pé por redirect, para link externo. */}
               <li>
-                <Link to="/dominio-publico" className="text-library-gold/80 hover:text-library-gold transition-colors">
-                  Domínio Público
+                <Link to="/sobre" className="text-library-gold/80 hover:text-library-gold transition-colors">
+                  Domínio Público, Ajuda e Como Contribuir
                 </Link>
-              </li>
-              <li>
-                <Link to="/contribuir" className="text-library-gold/80 hover:text-library-gold transition-colors">
-                  Como Contribuir
-                </Link>
-              </li>
-              <li>
-                <Link to="/ajuda" className="text-library-gold/80 hover:text-library-gold transition-colors">{t('rodape.centralDeAjuda')}</Link>
               </li>
             </ul>
           </div>

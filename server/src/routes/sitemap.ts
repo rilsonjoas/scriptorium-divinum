@@ -8,10 +8,14 @@ const STATIC_PATHS = [
   '/livros',
   '/autores',
   '/categorias',
+  // Consolidação 2026-09-26: /ajuda, /dominio-publico e /contribuir
+  // viraram seções de /sobre (âncoras #uso, #dominio-publico,
+  // #contribuir). Não entram mais no sitemap de propósito: são
+  // redirect, e listar uma URL que redireciona no sitemap é pedir
+  // para o Google indexar um salto em vez de uma página. As URLs
+  // antigas continuam respondendo para link externo e para quem
+  // digitou o endereço na barra.
   '/sobre',
-  '/ajuda',
-  '/dominio-publico',
-  '/contribuir',
 ];
 
 function escapeXml(value: string): string {
