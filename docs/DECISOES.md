@@ -200,7 +200,19 @@ Registrado aqui para não virar culpa de ninguém depois:
 
 ---
 
-## 2026-09-26 — Quatro páginas informativas viram uma
+## 2026-09-26 — Quatro páginas informativas viram uma — ✅ ENTREGUE
+
+**Entregue** em `0250a3c`. Verificado em produção: os três redirects caem
+na âncora certa, a página tem os 5 `id` (`uso`, `dominio-publico`,
+`contribuir`, `apoiar`, `contato`), o índice interno navega e o Pix e o
+e-mail estão na página.
+
+**A auditoria pegou duas violações que já existiam** e que nenhuma rota
+da suíte visitava (o `/contribuir` nunca foi auditado):
+- **1.1.1 (A):** o QR do Pix é um `<svg>` que *transporta informação* (a
+  chave de pagamento) e não tinha `<title>`. Agora tem.
+- **1.4.3 (AA):** o botão de contorno do GitHub era dourado sobre
+  pergaminho a **1.44:1**. Trocado pelo token de madeira.
 
 **Decidido (Rilson):** Sobre, Ajuda, Domínio Público e Como Contribuir
 são **uma página só**, em `/sobre`, com âncoras. As URLs antigas
@@ -225,7 +237,12 @@ não volta a duplicar.
 
 ---
 
-## 2026-09-26 — `--primary` da Bíblia na Arte vai do carmesim ao vinho
+## 2026-09-26 — `--primary` da Bíblia na Arte vai do carmesim ao vinho — ✅ ENTREGUE
+
+**Entregue** em `da155a6` (repo [[Bíblia na Arte]]). Verificado em
+produção: o token serve `336 24% 24%` (rgb 76,47,58 ≈ #4B2E39) e o
+carmesim `rgb(92, 35, 35)` **não aparece mais em nenhum elemento** da
+página de autor. Os 145 testes do servidor e 108 do web passam.
 
 **Decidido (Rilson):** o `--primary` do tema **claro** da [[Bíblia na
 Arte]] deixa de ser carmesim e passa a ser vinho profundo, alinhando o

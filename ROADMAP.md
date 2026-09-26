@@ -25,9 +25,9 @@ executar sem decidir nada) · **🟡 decisão sua** (preciso de escolha) ·
 | 6 | ~~Curva de abertura do leitor~~ — ✅ `d77f895` | 🟢 | **entregue** |
 | 7 | ~~Auditoria de acessibilidade~~ — ✅ `8ae5f79`; axe-core no CI, 10/10 | 🟢 | **entregue** |
 | 8 | ~~Logo/favicon~~ — ✅ **já estava feito** (`52fc4f8`); o item é que estava velho | — | **fechado** |
-| 9 | **Consolidar 4 páginas em `/sobre`** — 🔵 **decidido 2026-09-26**, falta implementar | 🟢 | **a fazer** |
+| 9 | ~~Consolidar 4 páginas em `/sobre`~~ — ✅ `0250a3c`, redirects + âncoras + Pix + e-mail | 🟢 | **entregue** |
 | 10 | Tradução de livros com IA | 🔮 | **futuro** (você: "não tenho como agora") |
-| 11 | **7 obras sem texto** — estado explícito + link p/ edição original | 🟢 | código pronto, **migração pendente** |
+| 11 | **7 obras sem texto** — estado explícito + link p/ edição original | 🟢 | UI pronta; **migração do banco travada** |
 | 12 | Planos de leitura + newsletter | 🔮 | **futuro** |
 | 13 | Comentários bíblicos por capítulo (integração c/ Lecionário) | 🔮 | **futuro** |
 | 14 | ~~Sitemap no Search Console~~ — ✅ processado, 91 páginas | — | **fechado** |
