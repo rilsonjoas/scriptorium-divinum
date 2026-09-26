@@ -21,10 +21,16 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				display: ['Cinzel', 'Times New Roman', 'serif'],
-				heading: ['Playfair Display', 'Times New Roman', 'serif'],
-				reading: ['Merriweather', 'Times New Roman', 'serif'],
-				body: ['EB Garamond', 'Times New Roman', 'serif'],
+				// Tokens, não fontes hardcoded. Antes these linhas fixavam
+				// Cinzel/Playfair direto aqui, e como `utilities` vence
+				// `components` na cascata, a classe `font-display` ignorava
+				// a variável --font-display do index.css — a troca para a
+				// Cormorant (F3) nunca chegou ao render.
+				display: ['var(--font-display)'],
+				'display-sm': ['var(--font-display-sm)'],
+				heading: ['var(--font-display)'],
+				reading: ['var(--font-reading)'],
+				body: ['var(--font-serif)'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',

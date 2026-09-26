@@ -203,11 +203,6 @@
 
   /* === TIPOGRAFIA UNIFICADA REINO === */
   .font-display { font-family: var(--font-display); }
-  /* Display em corpo pequeno: a Cormorant Garamond é a fonte canônica do
-     cluster, mas em 14px ela fica frágil demais (medido: some no menu do
-     header e na barra do leitor). Onde o display é rótulo miúdo, volta
-     para a Playfair — densa e legível em corpo pequeno. */
-  .font-display-sm { font-family: var(--font-display-sm); }
   .font-serif { font-family: var(--font-serif); }
   .font-sans { font-family: var(--font-sans); }
   .font-classical { font-family: var(--font-classical); }
