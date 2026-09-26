@@ -1085,7 +1085,51 @@ mexer em 227 classes às cegas é arriscado.
 > antes/depois, (c) a mesma forma nos dois irmãos. Convergência é
 > *entre* projetos, não impor o Scriptorium aos outros.
 
-### Estado em 2026-09-25 (F1 e F2 entregues; F3+ pendentes)
+### Estado final da convergência visual — ✅ F1 a F5 entregues (2026-09-25)
+
+| Fase | Entrega | Commit |
+|---|---|---|
+| F1 | Caixa alta 14 → 4, via `SectionLabel` | `c916e2a` |
+| F2 | Raio 0.75rem → 0.375rem | `7738ac7` |
+| F3 | Cormorant Garamond como display | `226d48a` |
+| F4 | Easing litúrgico e vela | `9d78a14` |
+| F5 | Comparação e auditoria de contraste | `957b9f7` |
+
+**F4 — Transições: ✅ ENTREGUE.** Os dois tokens de easing do cluster
+(`--ease-liturgico`, `--ease-vela`), que estavam no vault desde agosto e
+nunca entraram aqui, foram aplicados onde há **movimento** de verdade:
+o card de obra (que "flutua" como quem ergue um livro), a fita marcadora
+e os cards de destaque de Ajuda/Contribuir/Busca. As transições de cor
+genéricas (`transition-colors` de hover, 64 no app) foram deixadas como
+estão — mexer nelas é ruído, não assinatura. Os componentes `ui/*` do
+shadcn não foram tocados: são boilerplate e suas transições alimentam o
+Radix. *Registro honesto:* a primeira aplicação foi por regex e comeu as
+aspas de fechamento de 4 arquivos; o typecheck pegou e foi corrigido. Valeu a
+inspeção, mas a forma correta teria sido casar linhas inteiras.
+
+**F5 — Fechamento.** Comparação antes/depois em 10 rotas × 2 temas, e
+**auditoria de contraste por página nos dois temas**. O que ela pegou no
+fechamento: `text-library-crimson` (o carmesim de **fundo**) sendo usado
+como **texto** em 8 lugares — selos de categoria a 11px e ícones. No modo
+escuro isso dava **1,95:1**, reprovado. Todos passaram para o
+`--library-crimson-foreground` criado na F1. **Modo escuro fechou em 0
+violações reais**; no claro, os 31 apontamentos são os mesmos
+falso-positivo de gradiente já verificados um a um.
+
+### O que a convergência mudou, em uma frase
+O Scriptorium saiu de "dashboard com tema pergaminho" para a mesma
+carinha dos irmãos: rótulos discretos em vez de gritos, cantos sóbrios,
+serifa canônica do cluster, e movimento deliberado. O detalhe que mais
+mudou a cara não estava na lista: `text-library-crimson` **não existia**
+no build, então 13 rótulos "coloridos" herdavam a cor do texto — e ao
+criá-lo, revelou que o tom de fundo era ilegível como texto no escuro.
+
+### Pendências que sobraram desta frente
+- `--font-classical` (Cinzel) é **código morto** — declarado, sem nenhum
+  uso. Candidato à remoção.
+- `.hover-lift` também não é usado em lugar nenhum.
+- As capturas de comparação estão em `/tmp/opencode/shots/` (volátil).
+  Para servirem de baseline permanente precisam ir para o repo.
 **F1 — Caixa alta: ✅ ENTREGUE** (commit `c916e2a`, no ar). Componente
 `SectionLabel` criado e 9 títulos de seção migrados. Antes → depois:
 `uppercase` de **14 → 4 usos** (os 4 aprovados). Ganhos colaterais
