@@ -6,6 +6,7 @@ import { Book } from '@/types';
 import { BookOpen, ArrowLeft } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useNavigate } from 'react-router-dom';
+import { usePageTitle } from '@/hooks/usePageTitle';
 
 const categoryDetails = {
   'patristica': {
@@ -69,6 +70,7 @@ function getBooksInCategory(categorySlug: string, books: Book[] = []): Book[] {
 }
 
 export default function CategoryPage() {
+  usePageTitle("Categoria");
   const { categorySlug } = useParams<{ categorySlug: string }>();
   const navigate = useNavigate();
   const { data: books, isLoading } = useBooks({ limit: 100 });

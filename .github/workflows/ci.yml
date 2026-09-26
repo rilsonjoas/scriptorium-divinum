@@ -67,6 +67,14 @@ jobs:
       - name: Testes do web (vitest + Testing Library)
         run: pnpm --filter web test
 
+      # axe-core roda contra o build de produção servido localmente, com a
+      # API mockada por fixture — sem isto a auditoria mediria estado de erro
+      - name: Instalar Chromium (Playwright)
+        run: pnpm --filter web exec playwright install --with-deps chromium
+
+      - name: Auditoria de acessibilidade (axe-core, WCAG 2.2 A+AA)
+        run: pnpm --filter web test:a11y
+
       - name: Build web
         run: pnpm build:web
 

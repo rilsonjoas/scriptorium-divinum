@@ -65,12 +65,12 @@ export function DownloadLinksEditor({ value, onChange }: DownloadLinksEditorProp
         >
           <div className="grid grid-cols-3 gap-2">
             <div>
-              <Label className="font-body text-library-wood-foreground">Formato</Label>
+              <Label htmlFor="dl-formato" className="font-body text-library-wood-foreground">Formato</Label>
               <Select
                 value={link.format}
                 onValueChange={(format: BookFormat) => updateLink(index, { format })}
               >
-                <SelectTrigger className="font-body border-library-bronze">
+                <SelectTrigger id="dl-formato" className="font-body border-library-bronze">
                   <SelectValue />
                 </SelectTrigger>
                 <SelectContent>

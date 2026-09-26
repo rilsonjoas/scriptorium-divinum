@@ -175,7 +175,7 @@ export function AddBookDialog({ open, onClose, onSave, authors }: AddBookDialogP
               value={formData.authorId} 
               onValueChange={(value) => setFormData({ ...formData, authorId: value })}
             >
-              <SelectTrigger className="font-body border-library-bronze">
+              <SelectTrigger id="author" className="font-body border-library-bronze">
                 <SelectValue placeholder="Selecione um autor..." />
               </SelectTrigger>
               <SelectContent>
@@ -253,7 +253,7 @@ export function AddBookDialog({ open, onClose, onSave, authors }: AddBookDialogP
                 value={formData.language} 
                 onValueChange={(value) => setFormData({ ...formData, language: value })}
               >
-                <SelectTrigger className="font-body border-library-bronze">
+                <SelectTrigger id="language" className="font-body border-library-bronze">
                   <SelectValue />
                 </SelectTrigger>
                 <SelectContent>

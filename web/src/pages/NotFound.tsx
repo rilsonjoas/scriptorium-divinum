@@ -4,8 +4,10 @@ import { Layout } from "@/components/Layout";
 import { Button } from "@/components/ui/button";
 import { BookOpen, Home } from "lucide-react";
 import { Link } from "react-router-dom";
+import { usePageTitle } from '@/hooks/usePageTitle';
 
 const NotFound = () => {
+  usePageTitle("Página não encontrada");
   const location = useLocation();
 
   useEffect(() => {

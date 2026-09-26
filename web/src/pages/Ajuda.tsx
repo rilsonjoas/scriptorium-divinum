@@ -3,8 +3,10 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { Badge } from '@/components/ui/badge';
 import { BookOpen, Download, Search, Users, Library, Heart, Mail, Globe, FileText, Eye, Share2 } from 'lucide-react';
+import { usePageTitle } from '@/hooks/usePageTitle';
 
 export default function Ajuda() {
+  usePageTitle("Ajuda");
   return (
     <Layout>
       <div className="container mx-auto px-4 py-8 max-w-4xl">

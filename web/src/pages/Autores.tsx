@@ -7,8 +7,10 @@ import { useAuthors, useBooks } from '@/hooks/useDatabase';
 import { useMemo } from 'react';
 import { SafeImage } from '@/components/SafeImage';
 import { CatalogSkeleton, ErrorState } from '@/components/CatalogStates';
+import { usePageTitle } from '@/hooks/usePageTitle';
 
 const Autores = () => {
+  usePageTitle("Autores");
   const { data: authors, isLoading: authorsLoading, error: authorsError, refetch: authorsRefetch } = useAuthors();
   const { data: books, isLoading: booksLoading } = useBooks();
 

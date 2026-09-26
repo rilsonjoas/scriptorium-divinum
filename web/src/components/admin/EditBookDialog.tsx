@@ -212,7 +212,7 @@ export function EditBookDialog({ book, open, onClose, onSave, authors }: EditBoo
                 value={formData.language || ''} 
                 onValueChange={(value) => setFormData({ ...formData, language: value })}
               >
-                <SelectTrigger className="font-body border-library-bronze">
+                <SelectTrigger id="language" className="font-body border-library-bronze">
                   <SelectValue />
                 </SelectTrigger>
                 <SelectContent>

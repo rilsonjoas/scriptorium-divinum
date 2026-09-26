@@ -11,8 +11,10 @@ import { useSearchParams } from 'react-router-dom';
 import { AdSlot } from '@/components/ads/AdSlot';
 import { Star } from 'lucide-react';
 import { listFavorites } from '@/utils/favorites';
+import { usePageTitle } from '@/hooks/usePageTitle';
 
 const Livros = () => {
+  usePageTitle("Catálogo de obras");
   const [searchParams, setSearchParams] = useSearchParams();
   const [searchTerm, setSearchTerm] = useState(searchParams.get('search') || '');
   const [selectedCategory, setSelectedCategory] = useState('all');
@@ -93,11 +95,14 @@ const Livros = () => {
 
             {/* Category Filter */}
             <div className="w-full lg:w-64">
-              <label className="font-body text-sm font-medium text-foreground mb-2 block">
+              <label
+                id="filtro-categoria-label"
+                className="font-body text-sm font-medium text-foreground mb-2 block"
+              >
                 Categoria
               </label>
               <Select value={selectedCategory} onValueChange={setSelectedCategory}>
-                <SelectTrigger className="font-body h-10">
+                <SelectTrigger className="font-body h-10" aria-labelledby="filtro-categoria-label">
                   <SelectValue />
                 </SelectTrigger>
                 <SelectContent>

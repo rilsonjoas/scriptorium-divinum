@@ -11,6 +11,7 @@ import { AdSlot } from '@/components/ads/AdSlot';
 import { AcademicCitationDialog } from '@/components/reader/AcademicCitationDialog';
 import { DownloadBar } from '@/components/DownloadBar';
 import { useTranslation } from 'react-i18next';
+import { usePageTitle } from '@/hooks/usePageTitle';
 
 const AMAZON_AFFILIATE_TAG = import.meta.env.VITE_AMAZON_TAG ?? 'rilson-20';
 
@@ -18,6 +19,7 @@ const LivroDetalhes = () => {
   const { t } = useTranslation();
   const { bookId } = useParams<{ bookId: string }>();
   const { data: book, isLoading, error } = useBook(bookId || '');
+  usePageTitle(book?.title ?? "Obra");
   // Bloco B: a barra de download gera .md/.txt/.epub no cliente, o que
   // exige o texto. Busca próprio (o Reader busca separado), e só quando
   // existe — não pesa na carga da ficha.

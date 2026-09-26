@@ -15,8 +15,10 @@ import {
   Lightbulb
 } from 'lucide-react';
 import { useSiteSettings } from '@/hooks/useDatabase';
+import { usePageTitle } from '@/hooks/usePageTitle';
 
 export default function Contribuir() {
+  usePageTitle("Como contribuir");
   const { data: settings } = useSiteSettings();
   const contactEmail = settings?.contactEmail ?? 'scriptorium@narniano.com';
   const githubUrl = 'https://github.com/rilsonjoas/scriptorium-divinum';

@@ -30,3 +30,8 @@ dist-ssr
 /Logo 1.jpg
 /Logo 2.jpg
 /scratch/
+
+# Playwright / auditoria de acessibilidade
+web/test-results/
+web/playwright-report/
+web/.playwright/

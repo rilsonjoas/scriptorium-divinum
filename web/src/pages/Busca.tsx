@@ -10,13 +10,16 @@ import { Search, Filter, BookOpen, Users, Loader2, X } from 'lucide-react';
 import { useSearch, useCategories, useAuthors } from '@/hooks/useDatabase';
 import { useSearchParams } from 'react-router-dom';
 import { CatalogSkeleton, ErrorState } from '@/components/CatalogStates';
+import { usePageTitle } from '@/hooks/usePageTitle';
 
 export default function Busca() {
   const [searchParams, setSearchParams] = useSearchParams();
   const [query, setQuery] = useState(searchParams.get('q') || '');
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [selectedAuthor, setSelectedAuthor] = useState('all');
-  const [hasSearched, setHasSearched] = useState(false);
+  // deep link com ?q= ja entra pesquisado: o termo veio na URL
+  const [hasSearched, setHasSearched] = useState(searchParams.has('q'));
+  usePageTitle(hasSearched && query ? `Busca: ${query}` : 'Busca');
 
   const { data: categories } = useCategories();
   const { data: authors } = useAuthors();
@@ -123,11 +126,14 @@ export default function Busca() {
             <div className="grid gap-4 md:grid-cols-2">
               {/* Category Filter */}
               <div>
-                <label className="font-body text-sm font-medium text-library-wood-foreground mb-2 block">
+                <label
+                  id="busca-categoria-label"
+                  className="font-body text-sm font-medium text-library-wood-foreground mb-2 block"
+                >
                   Filtrar por Categoria
                 </label>
                 <Select value={selectedCategory} onValueChange={setSelectedCategory}>
-                  <SelectTrigger className="font-body">
+                  <SelectTrigger className="font-body" aria-labelledby="busca-categoria-label">
                     <SelectValue />
                   </SelectTrigger>
                   <SelectContent>
@@ -143,11 +149,14 @@ export default function Busca() {
 
               {/* Author Filter */}
               <div>
-                <label className="font-body text-sm font-medium text-library-wood-foreground mb-2 block">
+                <label
+                  id="busca-autor-label"
+                  className="font-body text-sm font-medium text-library-wood-foreground mb-2 block"
+                >
                   Filtrar por Autor
                 </label>
                 <Select value={selectedAuthor} onValueChange={setSelectedAuthor}>
-                  <SelectTrigger className="font-body">
+                  <SelectTrigger className="font-body" aria-labelledby="busca-autor-label">
                     <SelectValue />
                   </SelectTrigger>
                   <SelectContent>

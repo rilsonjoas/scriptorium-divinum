@@ -436,6 +436,33 @@
   }
 
   /* ------------------------------------------------------------------
+     Foco visível — 2.4.7 (AA), e o teste que o axe-core não faz.
+     Axe pergunta se o elemento RECEBE foco; nunca pergunta se o foco
+     APARECE. Um projeto inteiro sem `:focus-visible` sai do axe com
+     "zero violações" e com o teclado cego.
+
+     Os componentes shadcn já traem `focus-visible:ring-2` próprio.
+     Esta regra é a rede de segurança para o que é **customizado** —
+     link do cabeçalho, `<summary>` do escaneamento, `.frame-tondo`,
+     botão de capítulo do leitor — que não passa pelo shadcn.
+     ------------------------------------------------------------------ */
+  :where(a, button, summary, select, [role='button'], [tabindex]):focus-visible {
+    outline: 2px solid hsl(var(--ring));
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+
+  /* Foco dentro da área de leitura: o anel vai na cor do texto da
+     página, para não competir com o pergaminho. */
+  .prose-leitor :where(a, button, summary):focus-visible {
+    outline: 2px solid hsl(var(--library-vinho));
+  }
+
+  .reader-theme-dark .prose-leitor :where(a, button, summary):focus-visible {
+    outline: 2px solid hsl(var(--library-dourado-texto));
+  }
+
+  /* ------------------------------------------------------------------
      .frame-tondo — moldura circular dourada para RETRATOS DE AUTOR
      Bloco B (2026-09-25). O tondo é elemento de retrato, não de capa:
      capa de livro é retângulo e deve continuar retângulo (é o que

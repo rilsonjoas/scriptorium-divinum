@@ -2,8 +2,10 @@ import { Layout } from '@/components/Layout';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { CheckCircle, Globe, BookOpen, Scale, Users, Download, Share2, AlertTriangle } from 'lucide-react';
+import { usePageTitle } from '@/hooks/usePageTitle';
 
 export default function DominioPublico() {
+  usePageTitle("Domínio público");
   return (
     <Layout>
       <div className="container mx-auto px-4 py-8 max-w-4xl">

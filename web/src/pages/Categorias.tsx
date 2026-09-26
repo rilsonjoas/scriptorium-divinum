@@ -7,6 +7,7 @@ import { BookCard } from '@/components/BookCard';
 import { useBooks } from '@/hooks/useDatabase';
 import { Book, Category } from '@/types';
 import { BookOpen, Clock, Globe, Heart, ArrowRight } from 'lucide-react';
+import { usePageTitle } from '@/hooks/usePageTitle';
 
 const categories: Category[] = [
   {
@@ -83,6 +84,7 @@ function getBooksInCategory(categoryName: string, books: Book[] = []): Book[] {
 }
 
 export default function Categorias() {
+  usePageTitle("Categorias");
   const navigate = useNavigate();
   const { data: books } = useBooks({ limit: 100 });
 

@@ -22,6 +22,7 @@ import { Drawer, DrawerContent, DrawerHeader, DrawerTitle, DrawerTrigger } from 
 import { markdownToSpeechText } from '@/utils/speech';
 import { toast } from 'sonner';
 import { bookPath } from '@/lib/bookRoutes';
+import { usePageTitle } from '@/hooks/usePageTitle';
 import {
   getReadingProgress,
   removeReadingProgress,
@@ -110,6 +111,7 @@ export default function Reader() {
   const { bookId } = useParams<{ bookId: string }>();
   const { data, isLoading, error } = useBookText(bookId || '');
   const { data: bookDetails } = useBook(bookId || '');
+  usePageTitle(bookDetails?.title ?? "Leitura");
   const [progress, setProgress] = useState(0);
   const [activeId, setActiveId] = useState<string | null>(null);
   const [drawerOpen, setDrawerOpen] = useState(false);

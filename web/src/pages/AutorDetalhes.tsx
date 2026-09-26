@@ -8,11 +8,13 @@ import { Link, useParams, Navigate } from 'react-router-dom';
 import { useAuthorWithBooks } from '@/hooks/useDatabase';
 import { getAuthorRichInfo } from '@/data/authorsRichData';
 import { useTranslation } from 'react-i18next';
+import { usePageTitle } from '@/hooks/usePageTitle';
 
 const AutorDetalhes = () => {
   const { t } = useTranslation();
   const { authorSlug } = useParams<{ authorSlug: string }>();
   const { data: author, isLoading, error } = useAuthorWithBooks(authorSlug || '');
+  usePageTitle(author?.name ?? "Autor");
 
   if (isLoading) {
     return (

@@ -6,6 +6,7 @@ import { FeaturedSection } from '@/components/FeaturedSection';
 import { ContinueReading } from '@/components/ContinueReading';
 import { PinturaDoDia } from '@/components/PinturaDoDia';
 import { AdSlot } from '@/components/ads/AdSlot';
+import { usePageTitle } from '@/hooks/usePageTitle';
 
 const Index = () => {
   return (
