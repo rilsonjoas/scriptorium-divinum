@@ -49,10 +49,11 @@ export function splitIntoChapters(markdown: string): Chapter[] {
     if (m) {
       const level = m[1].length;
       const title = m[2].trim();
-      // Só o nível 1 (Parte/Livro) abre capítulo novo. Níveis 2+
-      // (Seção/Subtítulo) ficam dentro do capítulo corrente — é a
-      // unidade de leitura que o leitor espera ao navegar.
-      if (level === 1) {
+      // Abre capítulo novo em nível 1 e 2. As obras do acervo usam
+      // `## Capítulo I` como unidade de leitura (Confissões tem 170
+      // deles e só 2 de nível 1), então aceitar só `#` não segmentaria
+      // quase nada. Níveis 3+ ficam dentro do capítulo corrente.
+      if (level <= 2) {
         flush();
         atual = { id: slugify(title) || `cap-${chapters.length + 1}`, title, level, body: [linha] };
       } else if (atual) {

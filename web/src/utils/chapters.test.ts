@@ -17,12 +17,26 @@ describe('splitIntoChapters', () => {
     expect(caps[1].title).toBe('Dois');
   });
 
-  it('mantém subtítulos (nível 2 e 3) dentro do capítulo pai', () => {
+  it('mantém subtítulos (nível 3) dentro do capítulo pai', () => {
     const md = '# Parte\n\ntexto\n\n## Secao\n\nmais\n\n### Sub\n\nfim';
     const caps = splitIntoChapters(md);
-    expect(caps).toHaveLength(1);
-    expect(caps[0].body).toContain('## Secao');
-    expect(caps[0].body).toContain('### Sub');
+    // nível 1 e 2 abrem capítulo; o nível 3 fica dentro da seção
+    expect(caps).toHaveLength(2);
+    expect(caps[1].title).toBe('Secao');
+    expect(caps[1].body).toContain('### Sub');
+  });
+
+  it('segmenta obras que usam ## Capitulo como unidade (padrão do acervo)', () => {
+    // Estrutura real de Confissões: # Titulo + epigrafe, depois 170 "## Capitulo"
+    const md = '# Confissões de Santo Agostinho\n\n*Edição Garnier*\n\n## Capítulo I\n\naaa\n\n## Capítulo II\n\nbbb';
+    const caps = splitIntoChapters(md);
+    // 1 capitulo para o titulo/epigrafe + 2 capitulos
+    expect(caps).toHaveLength(3);
+    expect(caps[0].title).toBe('Confissões de Santo Agostinho');
+    expect(caps[1].title).toBe('Capítulo I');
+    expect(caps[2].title).toBe('Capítulo II');
+    // o titulo e os capitulos sao unidades navegueis distintas
+    expect(caps.every((c) => c.body.trim().length > 0)).toBe(true);
   });
 
   it('gera id legivel a partir do titulo (slug sem acento)', () => {
