@@ -10,6 +10,31 @@ aqui.
 
 ---
 
+## 2026-09-26 — Citação nova exige fonte checada, sem exceção
+
+**Decidido:** nenhuma citação entra em `quotes` sem `fonte_url` real
+preenchido, confirmada contra fonte primária antes do INSERT. Protocolo
+completo em `docs/PROTOCOLO-VERIFICACAO-DE-CITACOES.md`.
+
+**Por quê:** uma citação fabricada (atribuída a C. S. Lewis, "O Cavalo e
+seu Menino", sem fonte alguma em lugar nenhum checado) ficou em produção
+mais de um mês, servida em três apps, até o Rilson notar que soava
+estranha no Gerador. A auditoria de 21-25/09 não pegou porque caçava
+fraude já catalogada, não verificava cada citação individualmente — e o
+processo de entrada em si nunca exigiu fonte.
+
+**Medido:** `quotes-canonical.json` (seed da tabela) estava um mês
+desatualizado depois da diversificação de autores de 25/09 (174→284) —
+rodar `seed-quotes.ts` de novo teria apagado tudo aquilo e ressuscitado a
+citação fabricada. Corrigido com `export-quotes-canonical.ts` (banco →
+JSON, sentido único daqui pra frente).
+
+**Descartado:** retroauditar as ~740 citações já existentes agora — é
+projeto maior, separado, já registrado como pendência. Isto aqui é sobre
+entrada nova, não uma promessa retroativa.
+
+---
+
 ## 2026-09-26 — Leitor por capítulo, não rolagem contínua
 
 **Decidido:** a obra é segmentada em capítulos e o leitor entrega só o

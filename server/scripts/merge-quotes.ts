@@ -1,5 +1,15 @@
 #!/usr/bin/env node
 /**
+ * ⚠️ HISTÓRICO/OBSOLETO (2026-09-26) — não rodar de novo. Este script lia
+ * arquivos de citações hardcoded do `lecionario-web` e do `gerador-cslewis`,
+ * que desde o ADR 001 viraram consumidores da API do Scriptorium, não fonte
+ * de dados — esses arquivos estão congelados no estado de antes daquela
+ * migração. Rodar isto de novo regeneraria `quotes-canonical.json` com o
+ * estado ANTIGO (pré-diversificação de autores de 25/09/2026), sobrescrevendo
+ * o export correto. Pra atualizar `quotes-canonical.json` hoje, usar
+ * `export-quotes-canonical.ts` (banco de produção → JSON), nunca este.
+ * Mantido só como referência histórica de como o merge original foi feito.
+ *
  * Merge das duas curadorias de citações na fonte única do cluster (ADR 001):
  *  - lecionario-web/src/data/lewis-quotes.json   (217 entradas, Lewis + clássicos)
  *  - gerador-cslewis/src/lib/quotes.ts            (165 entradas, só Lewis, tema "ceus")

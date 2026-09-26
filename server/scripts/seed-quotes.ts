@@ -1,12 +1,22 @@
 #!/usr/bin/env node
 /**
  * Seed da tabela `quotes` a partir do JSON canônico do cluster (ADR 001).
- * Gerado por scripts/merge-quotes.ts — NUNCA editar à mão este script; mas
- * o JSON em scripts/data/ é revisável. Idempotente: limpa e reinsere tudo.
+ *
+ * ⚠️ DESTRUTIVO: `TRUNCATE ... CASCADE` — só rodar pra restaurar um
+ * ambiente do zero (dev local novo, disaster recovery), NUNCA em produção
+ * com dados reais. O JSON em scripts/data/quotes-canonical.json é gerado
+ * por `export-quotes-canonical.ts` (banco → JSON, é a direção certa desde
+ * 2026-09-26) — nunca editar esse JSON à mão nem rodar este seed contra
+ * produção sem antes rodar o export pra garantir que ele reflete o estado
+ * atual (achado real: o JSON ficou 1 mês desatualizado depois da grande
+ * diversificação de autores de 25/09/2026 e teria apagado tudo aquilo,
+ * inclusive ressuscitando uma citação fabricada já removida).
  *  - Lewis            → dominio_publico=false (CTA Amazon central na API)
  *  - Clássicos        → dominio_publico=true
  *  - theme "ceus"     → preservado do Gerador C.S. Lewis
  *  - scriptorium_url  → link da curadoria do Lecionário
+ *  - fonte_url/verificado_em → curadoria de verificação (ver
+ *    docs/PROTOCOLO-VERIFICACAO-DE-CITACOES.md), NULL = não verificado
  */
 import { readFileSync } from 'node:fs';
 import path from 'node:path';
@@ -24,6 +34,8 @@ interface CanonicalQuote {
   dominioPublico: boolean;
   scriptoriumUrl: string | null;
   theme: string | null;
+  fonteUrl: string | null;
+  verificadoEm: string | null;
 }
 
 async function seed() {
@@ -43,6 +55,8 @@ async function seed() {
       dominioPublico: q.dominioPublico,
       scriptoriumUrl: q.scriptoriumUrl,
       theme: q.theme,
+      fonteUrl: q.fonteUrl ?? null,
+      verificadoEm: q.verificadoEm ?? null,
     })),
   );
 
