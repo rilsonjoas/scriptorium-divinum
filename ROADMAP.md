@@ -11,11 +11,11 @@ conta** (acesso que só você tem) · **♾️ contínuo** (nunca "fecha").
 |---|---|---|---|
 | 1 | ~~**Downloads de primeira classe**~~ — ✅ `e0d0b1f`, verificado baixando | 🟢 | **entregue** |
 | 2 | ~~**URLs amigáveis**~~ — ✅ `bad7492`; sitemap já estava certo | 🟢 | **entregue** |
-| 3 | Loading states mais elegantes | 🟢 | baixo |
-| 4 | `.signature-italic` em citações | 🟢 | baixo |
-| 5 | `frame-tondo` nos retratos | 🟢 | baixo |
-| 6 | Curva de abertura do leitor ( `--ease-liturgico` na transição) | 🟢 | baixo |
-| 7 | Auditoria de acessibilidade pendente (item antigo, confirmar o que falta) | 🟢 | médio |
+| 3 | ~~Loading states~~ — ✅ `d77f895` (esqueleto + erro que orienta) | 🟢 | **entregue** |
+| 4 | ~~`.signature-italic`~~ — ✅ `d77f895` | 🟢 | **entregue** |
+| 5 | ~~`frame-tondo`~~ — ✅ `d77f895`; 3 implementações viraram 1 | 🟢 | **entregue** |
+| 6 | ~~Curva de abertura do leitor~~ — ✅ `d77f895` | 🟢 | **entregue** |
+| 7 | ~~Auditoria de acessibilidade~~ — ✅ `8ae5f79`; axe-core no CI, 10/10 | 🟢 | **entregue** |
 | 8 | **Logo/favicon** — precisa de uma marca | 🟡 | **sua** |
 | 9 | "Como Contribuir" — reescrever para projeto solo | 🟡 | texto/decisão |
 | 10 | Tradução de livros com IA — avaliar viabilidade | 🟡 | **sua** (modelo/licença) |
@@ -29,9 +29,11 @@ conta** (acesso que só você tem) · **♾️ contínuo** (nunca "fecha").
 **Também entregues no Bloco B:** leitor por capítulo (`7f026bb`, medido:
 23,3 s → 6,0 s; página 280.448 px → 1.667 px).
 
-**Sequência que proponho agora:** #3–#7 (polimentos: loading states,
-assinatura itálica, moldura dos retratos, curva de abertura, auditoria de
-acessibilidade) → os 🟡 ficam documentados esperando tua decisão.
+**Bloco B fechado em código.** #1 a #7 entregues e verificadas em
+produção. **O que sobra não é meu:** os 🟡 (precisam de decisão ou de
+marca tua), o 🔵 (Search Console, tua conta) e os ♾️ (contínuos).
+Confirmação manual de acessibilidade com leitor de tela é o único
+passo que falta do lado técnico — e ele exige aparelho.
 
 > **Lembrete de escopo (prometido):** #14 (Search Console) e o que
 > depende de conteúdo/licença (#10, #11) **não são meus** — ficam
@@ -301,20 +303,94 @@ volta à mesa (seção "Ordem recomendada").
       no meio do Bloco B.
 - [x] **Modo escuro/claro (concluído 2026-09-25)** — toggle no cabeçalho (desktop e menu mobile), persistido em `localStorage` e aplicado antes da primeira pintura por um script inline no `index.html` (evita flash de tema). O que exigiu mais cuidado: os tokens `library-*` serviam **a texto e a fundo** ao mesmo tempo (`--library-wood` era texto 313× e fundo 58×), então invertê-los globalmente quebrava os botões de madeira. Separei em `--library-wood` (fundo, fixo) + `--library-wood-foreground` (texto, sobe no dark), no mesmo desenho do par `primary`/`primary-foreground` do shadcn. Mesma lógica para `bronze` e para a superfície do pergaminho.
 - [x] **Interface Responsiva verificada (2026-09-25)** — conferida por captura de tela em 390px e 1440px no Leitor: a coluna de leitura ocupa 100% no mobile e 768px no desktop.
-- [ ] Loading states "mais elegantes" — item aberto no próprio README
-- [ ] **Acessibilidade e identidade visual — confirmado ainda não feito
-      (checado 2026-08-16)**: durante a sessão de 8h com o opencode em
-      2026-08-14 (auth própria, CRUD admin, CI/CD, 1º conteúdo — ver
-      commits daquele dia), só **1** atributo de acessibilidade real
-      entrou no código inteiro (`aria-label="Remover link"` no painel
-      admin). Nada de contraste WCAG calculado, `focus-visible`,
-      `sr-only`, dark mode aplicado, ou os itens de "Identidade aplicada
-      aqui" (capitular, `signature-italic`, `frame-tondo`) — todos
-      **planejados, nenhum implementado**. Fácil de confundir com o
-      Lecionário, que levou essa passada completa de verdade na mesma
-      janela de tempo, em projeto separado. Quando isto voltar à mesa:
-      repetir a receita que funcionou lá (contraste com conta real, não
-      só olhar; teste em componente real, não suposição).
+- [x] **Loading states — entregues 2026-09-26** (`d77f895`). Três
+      achados, não um:
+      1. **A página "puleava".** Spinner centralizado não tem a forma do
+         conteúdo que chega. `CatalogSkeleton` reproduz a silhueta do
+         `BookCard` (capa 64x96, duas linhas de título, uma de autor).
+      2. **O estado de erro despejava `error.message`** — jargão cru
+         ("Failed to fetch") — e resolvia com
+         `window.location.reload()`, descartando a sessão para refazer
+         uma query. Agora `ErrorState` diz o que fazer, usa `refetch()`
+         e as cores do design system (o `red-100`/`red-600` estava fora
+         do sistema, em 3 páginas).
+      3. **O carregamento não era anunciado** (4.1.3): o spinner se
+         movia, mas o leitor de tela não recebia nada. Agora há
+         `aria-busy` + `sr-only`, e `role="alert"` no erro.
+- [x] **Acessibilidade e identidade visual — ✅ ENTREGUE 2026-09-26**
+      (commits `d77f895` e `8ae5f79`). O diagnóstico de 2026-08-16
+      acima estava certo e foi conferido: só existia 1 atributo de
+      acessibilidade no código inteiro. Hoje existe suíte no CI.
+
+      **Padrão adotado** (fonte única: `Padrão de Acessibilidade` no
+      vault) — **WCAG 2.2 nível A+AA = conformidade regular da ABNT
+      NBR 17225:2025** para web. Não se escreve "WCAG" sem versão e
+      sem nível, que é intenção, não padrão.
+
+      **O que era o débito mais honesto do projeto (A11Y-01):** o
+      ROADMAP afirmava "axe-core, 50/50, zero violações" e **não
+      existia suíte nenhuma** — `git log -S "axe-core" --all` não
+      achava commit, não havia `@axe-core/*`, nem `e2e/`. O número era
+      inventado. Agora existe:
+
+      ```
+      web/e2e/a11y.spec.ts        8 rotas + foco + título
+      web/e2e/fixtures.ts         fixtures para o DOM ser representativo
+      web/playwright.config.ts    serve o build de produção
+      ```
+
+      Tags conforme o padrão: `withTags(['wcag2a','wcag2aa','wcag21a',
+      'wcag21aa','wcag22aa'])`. **Resultado medido: 10/10, zero
+      violações** — e o passo roda no CI (confirmado no log: passo 13
+      `Auditoria de acessibilidade (axe-core, WCAG 2.2 A+AA): success`).
+
+      **Duas decisões de método, porque sem elas a auditoria mente:**
+
+      1. **A API é mockada por fixture.** Sem isso cada página cairia
+         no estado de erro, e a auditoria mediria um `<ErrorState>` em
+         vez do catálogo — passaria limpinho e não provaria nada.
+      2. **Duas verificações que o axe-core não faz**, e que são
+         justamente as barreiras que ele nunca pega:
+         - *foco visível*: axe pergunta se o elemento **recebe** foco,
+           nunca se o foco **aparece**. Havia **zero** `:focus-visible`
+           em todo o `index.css`.
+         - *título por rota*: 2.4.2 é verificable e o axe não olha.
+
+      **Correções que saíram da auditoria (número, não impressão):**
+
+      | Achado | Critério | Correção |
+      |---|---|---|
+      | `index.css` sem nenhuma regra de foco | 2.4.7 (AA) | regra global `:focus-visible` com `--ring`, mais variante vinho/dourado dentro do leitor |
+      | `<label>` irmão do Select da Radix, sem `htmlFor`; trigger sem `id` | 4.1.2 (A) | `aria-labelledby` nas páginas públicas e `id` nos 4 triggers do admin — a associação **nunca** fechou, o `htmlFor` já existia desde antes |
+      | `<title>` estático no `index.html` para todas as rotas | 2.4.2 (A) | hook `usePageTitle` em 12 rotas; verificado em produção |
+      | `/busca?q=X` não buscava sozinho | 2.4.2 + §8 "não me faça pensar" | `hasSearched` nasce do param; o título passa a nomear o termo |
+
+      **Um bug que o teste pegou e que eu não teria pego olhando:**
+      a primeira versão do `usePageTitle` restaurava o título anterior
+      no `cleanup`. Numa SPA com navegação por rota, o cleanup da
+      página que **sai** roda depois do efeito da que **entra** e
+      sobrescreve o título novo — `/busca?q=...` herdava o título da
+      home. Só apareceu porque o teste compara o título entre rotas.
+
+      **O que a suíte NÃO prova, e por isso não vai em claim público:**
+      nada de leitor de tela real, nada de TalkBack/VoiceOver, nada de
+      usuário real. O padrão é explícito: *só declaro o nível que o CI
+      prova*. A verificação manual com aparelho na mão é o passo
+      seguinte e é o único que fecha a conformidade plena.
+
+      **Pendências de acessibilidade que sobraram (registradas, não
+      silenciadas):**
+      - Verificação manual com leitor de tela (uma vez por versão).
+      - Token de borda: `--border` e `--input` medem ~1.1:1 contra
+        `--muted` (1.4.11 pede 3:1). **Triagem por token, ainda não
+        verificada em página** — os cards usam `border-library-bronze`,
+        que é visível, então o token pode estar subusado em vez de
+        reprovado. Medir na página antes de mexer no token.
+      - A auditoria de token por pareamento gera **falsos positivos**:
+        medir `--primary-foreground` sobre `--background` dá 1.0:1 e
+        não significa nada, porque o par nunca se encontra. A primeira
+        varredura minha acusou 11 reprovações assim. Serve de
+        *triagem*, nunca de veredito.
 
 ## P8 — Funcionalidades / entrega de valor real
 
@@ -614,12 +690,32 @@ afiliado agora, anúncio (AdSense) fica pra depois.**
       dourado dava 1.40:1 — reprovado. Com vinho fica 10.48:1. No tema
       escuro do leitor inverte para dourado claro (13.56:1), onde o vinho
       daria 1.50:1.
-- [ ] `.signature-italic` em citações e nomes de autor no catálogo
-- [ ] `frame-tondo` só nos retratos de autor (Agostinho, Lutero etc.),
-      não nas capas de livro — mantém a moldura de imagem reservada,
-      diferenciando do Bíblia na Arte
-- [ ] Curvas `--ease-liturgico`/`--ease-vela` na transição de abertura
-      do leitor — deve parecer abrir um livro, não abrir um modal
+- [x] **`.signature-italic` — entregue 2026-09-26** (`d77f895`). A classe
+      existia só como item de plano. Criada em `index.css` (Display
+      itálico, peso 500) e aplicada em dois lugares: a citação de
+      assinatura na página do autor e o **nome do autor no catálogo**
+      (`BookCard`), que era o segundo lugar pedidos e o que mais
+      aparece.
+- [x] **`frame-tondo` nos retratos de autor — entregue 2026-09-26**
+      (`d77f895`). O achado real não foi "falta a classe", foi que
+      **existiam três implementações divergentes do tondo**: a classe
+      `.tondo-portrait` no CSS (listagem de autores), classes ad-hoc no
+      JSX de `AutorDetalhes` (`ring-4 ring-library-gold/50 border-4
+      border-library-wood`) e nenhuma classe compartilhada. Aro de
+      madeira numa, aro dourado na outra. Agora há **uma** classe
+      (`.frame-tondo` + variante `-sm`), e as implementações antigas
+      foram **apagadas**, não transformadas em alias — consolidação pela
+      metade não é consolidação. Capas de livro seguem retangulares: é o
+      que diferencia o Scriptorium do [[Bíblia na Arte]].
+- [x] **Curva de abertura do leitor — entregue 2026-09-26** (`d77f895`).
+      As curvas já existiam como token e eram usadas em transição de
+      card; o que faltava era a abertura. `.leitor-abertura` entra com
+      `rotateX(1.4deg)` em perspectiva, na curva da vela
+      (`--ease-vela`, expo-out: sai rápido, assenta suave) — a folha se
+      assentando, não zoom elástico de modal. Aplicada **por capítulo**
+      (`key={capituloAtual?.id}`), então virar capítulo vira folha.
+      Com `prefers-reduced-motion` a animação some inteira: é
+      decorativa, eSSx é requisito de acessibilidade, não enfeite.
 - [ ] **Logo/favicon — ainda é o padrão genérico do template (pedido do
       Rilson, 2026-08-16)**: `web/public/favicon.ico` é um ícone
       82x82 sem identidade nenhuma (mesma origem do `placeholder.svg`
