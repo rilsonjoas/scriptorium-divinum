@@ -10,7 +10,7 @@ conta** (acesso que só você tem) · **♾️ contínuo** (nunca "fecha").
 | # | Item | Dono | Peso |
 |---|---|---|---|
 | 1 | ~~**Downloads de primeira classe**~~ — ✅ `e0d0b1f`, verificado baixando | 🟢 | **entregue** |
-| 2 | **URLs amigáveis** — `/ler/confissoes` em vez de UUID | 🟢 | baixo (slug já existe) |
+| 2 | ~~**URLs amigáveis**~~ — ✅ `bad7492`; sitemap já estava certo | 🟢 | **entregue** |
 | 3 | Loading states mais elegantes | 🟢 | baixo |
 | 4 | `.signature-italic` em citações | 🟢 | baixo |
 | 5 | `frame-tondo` nos retratos | 🟢 | baixo |
@@ -29,9 +29,9 @@ conta** (acesso que só você tem) · **♾️ contínuo** (nunca "fecha").
 **Também entregues no Bloco B:** leitor por capítulo (`7f026bb`, medido:
 23,3 s → 6,0 s; página 280.448 px → 1.667 px).
 
-**Sequência que proponho agora:** #2 (URLs — é o que você mais
-reclamou) → #3–#7 (polimentos) → os 🟡 ficam documentados esperando
-tua decisão.
+**Sequência que proponho agora:** #3–#7 (polimentos: loading states,
+assinatura itálica, moldura dos retratos, curva de abertura, auditoria de
+acessibilidade) → os 🟡 ficam documentados esperando tua decisão.
 
 > **Lembrete de escopo (prometido):** #14 (Search Console) e o que
 > depende de conteúdo/licença (#10, #11) **não são meus** — ficam
@@ -246,20 +246,59 @@ volta à mesa (seção "Ordem recomendada").
       testado no CI
 - [x] **Google Search Console verificado (2026-08-14)** — tag `<meta name="google-site-verification">` adicionada ao `web/index.html` e propriedade verificada no Search Console. Sitemap enviado em `https://scriptorium.narniano.com/sitemap.xml`.
 - [ ] **Verificar sitemap no Search Console**: Acessar [Google Search Console](https://search.google.com/search-console) → propriedade `scriptorium.narniano.com` → Sitemaps → confirmar que `https://scriptorium.narniano.com/sitemap.xml` está com status "Sucesso" e URLs sendo indexadas.
-- [ ] **URLs amigáveis (slug em vez de UUID) — pedido do Rilson em
-      2026-09-25 (reiterado no mesmo dia), execução adiada.** Hoje a
-      ficha e o leitor respondem por identificador:
-      `/livros/8ceec7d1-c719-4eea-a3fc-a7bfd2a5a9da` e
-      `/ler/8ceec7d1-...`. O [[Bíblia na Arte]] já resolve por slug e é o
-      padrão a seguir no cluster. O slug (`confissoes`) **já existe** no
-      banco — a API aceita `:idOrSlug` nas duas rotas, então o caminho é
-      trocar o link e manter o UUID como fallback, sem migração de dados.
-      Atenção a três pontos: (1) o `sitemap.xml` precisa passar a emitir
-      a forma com slug; (2) o service worker tem regra de cache por URL
-      (`leituras-offline`) que casa com `/books/[^/]+/text` e continuará
-      válida, mas convém confirmar que não guarda a variante antiga; (3)
-      links já indexados pelo Google com o UUID devem continuar
-      funcionando — daí o fallback em vez de redirecionamento.
+- [x] **URLs amigáveis (slug em vez de UUID) — ✅ ENTREGUE 2026-09-25**
+      (commit `bad7492`). Pedido reiterado pelo Rilson em 2026-09-25.
+      O que era: ficha e leitor respondiam por identificador
+      (`/livros/8ceec7d1-c719-4eea-a3fc-a7bfd2a5a9da`,
+      `/ler/8ceec7d1-...`). O padrão a seguir é o [[Bíblia na Arte]],
+      que já resolve por slug.
+
+      **Como foi feito** — helper único `web/src/lib/bookRoutes.ts`
+      (`bookPath`, `readPath`, `authorPath`), usado em `BookCard`,
+      `HeroSection`, `Header` (resultado de busca), `Reader` e
+      `AdminBooks`. Sem migração de dados: a API já aceita `:idOrSlug`
+      nas duas rotas, e o UUID continua como fallback quando o slug
+      falta.
+
+      **Os três pontos de atenção que o próprio item registrava, um a
+      um:**
+
+      1. **O `sitemap.xml` não precisava mudar — já estava certo.**
+         Este era o receio principal e a checagem dezoitou: o sitemap
+         emite slugs desde sempre (`/livros/a-cidade-de-deus`,
+         `/livros/compendio-da-suma-teologica`, 91 URLs). Só o *link
+         interno* estava com UUID. Ou seja: a impressão de "URL feia"
+         vinha do clique, e o Google já tinha a URL boa.
+      2. **Service worker: sem mudança necessária.** A regra
+         `leituras-offline` casa com `books/[^/]+/text`, que serve
+         igualmente a `/books/confissoes/text` e a
+         `/books/<uuid>/text`.
+      3. **Links já indexados com o UUID continuam funcionando**, porque
+         nada foi redirecionado nem removido: a API resolve os dois
+         formatos. Sem redirect, sem risco de perder posição.
+
+      **Um achado lateral (pré-existente, não é regressão):** a regra
+      de cache `catalogo` em `vite.config.ts` é
+      `api/v1/(books|authors|categories)(\?.*)?$`, que exige o caminho
+      *terminando* em `/books` — então nem `/books/confissoes` nem
+      `/books/<uuid>` entram no cache de catálogo. As fichas nunca
+      foram cacheadas offline por essa regra. Se um dia se quiser
+      leitura offline da ficha, o regex precisa virar
+      `books/[^/]+`. Anotado, não corrigido agora: é independente
+      desta entrega.
+
+      **Verificação em produção** (Playwright, `/livros`): nenhum link
+      com padrão UUID; `/livros/confissoes` e `/ler/confissoes`
+      respondem 200 e renderizam a obra (o leitor mostra "de 171").
+      2 testes novos, incluindo o **fallback**: link de volta no
+      leitor não quebra quando a ficha não carrega. Suite: **110**.
+
+      **Follow-up que ficou de fora:** `<link rel="canonical">`. O app
+      não tem nenhuma gestão de canonical hoje, e um link antigo com
+      UUID continuar acessível gera conteúdo duplicado do ponto de
+      vista do Google. A correção barata é a tag canônica nas páginas
+      de obra; preferi registrar do que introduzir um sistema de SEO inteiro
+      no meio do Bloco B.
 - [x] **Modo escuro/claro (concluído 2026-09-25)** — toggle no cabeçalho (desktop e menu mobile), persistido em `localStorage` e aplicado antes da primeira pintura por um script inline no `index.html` (evita flash de tema). O que exigiu mais cuidado: os tokens `library-*` serviam **a texto e a fundo** ao mesmo tempo (`--library-wood` era texto 313× e fundo 58×), então invertê-los globalmente quebrava os botões de madeira. Separei em `--library-wood` (fundo, fixo) + `--library-wood-foreground` (texto, sobe no dark), no mesmo desenho do par `primary`/`primary-foreground` do shadcn. Mesma lógica para `bronze` e para a superfície do pergaminho.
 - [x] **Interface Responsiva verificada (2026-09-25)** — conferida por captura de tela em 390px e 1440px no Leitor: a coluna de leitura ocupa 100% no mobile e 768px no desktop.
 - [ ] Loading states "mais elegantes" — item aberto no próprio README
