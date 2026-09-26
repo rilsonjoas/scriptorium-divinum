@@ -9,7 +9,7 @@ conta** (acesso que só você tem) · **♾️ contínuo** (nunca "fecha").
 
 | # | Item | Dono | Peso |
 |---|---|---|---|
-| 1 | **Downloads de primeira classe** — `.md`/`.txt`/`.epub` fora do "Como Citar", com PDF | 🟢 | médio |
+| 1 | ~~**Downloads de primeira classe**~~ — ✅ `e0d0b1f`, verificado baixando | 🟢 | **entregue** |
 | 2 | **URLs amigáveis** — `/ler/confissoes` em vez de UUID | 🟢 | baixo (slug já existe) |
 | 3 | Loading states mais elegantes | 🟢 | baixo |
 | 4 | `.signature-italic` em citações | 🟢 | baixo |
@@ -26,9 +26,12 @@ conta** (acesso que só você tem) · **♾️ contínuo** (nunca "fecha").
 | 15 | Curadoria de material | ♾️ | contínuo |
 | 16 | Tabela de fontes | ♾️ | contínuo |
 
-**Sequência que proponho:** #1 (downloads — o que mais te afeta) → #2
-(URLs, é o que você mais reclamou) → #3–#7 (polimentos) → os 🟡 ficam
-documentados esperando tua decisão.
+**Também entregues no Bloco B:** leitor por capítulo (`7f026bb`, medido:
+23,3 s → 6,0 s; página 280.448 px → 1.667 px).
+
+**Sequência que proponho agora:** #2 (URLs — é o que você mais
+reclamou) → #3–#7 (polimentos) → os 🟡 ficam documentados esperando
+tua decisão.
 
 > **Lembrete de escopo (prometido):** #14 (Search Console) e o que
 > depende de conteúdo/licença (#10, #11) **não são meus** — ficam
@@ -945,24 +948,52 @@ A busca online nunca deve ser o comportamento padrão de uma seleção.
 **A favor:** a mesma seleção já alimenta o card de citação
 (`QuoteCardDialog`) — é o mesmo mecanismo, com mais opções.
 
-### 3. Downloads escondidos dentro de "Como Citar"
-**Sintoma:** `.md`, `.txt` e `.epub` estão dentro do diálogo de citação
-acadêmica. Não fazem sentido ali — quem quer baixar não está citando.
-E **falta o PDF**, que é o formato que a maioria dos leitores de obra
-clássica procura primeiro.
+### 3. Downloads escondidos dentro de "Como Citar" — ✅ ENTREGUE
+**Entregue 2026-09-25** (commit `e0d0b1f`), verificado baixando de verdade.
 
-**Direção:** a leitura é o coração do app, então **baixar o livro**
-precisa de entrada de primeira classe na ficha da obra e no leitor, com
-os formatos visíveis de imediato: PDF (link direto, quando a fonte
-permitir), ePub, TXT, Markdown/Obsidian. A seção de downloads que já
-existe na ficha (`download_links` do banco) deve ser a base disso, com
-os formatos gerados no cliente completando o que não tem arquivo
-hospedado. Padronizar rótulo, ícone e ordem em todos os pontos do app.
+**O sintoma era diagnóstico:** `.md`, `.txt` e `.ePub` estavam dentro do
+diálogo de citação acadêmica. Quem quer baixar não está citando — e o
+PDF, que é o formato que a maioria procura primeiro, era o único visível.
 
-**Depende de:** decidir a política de PDF (re-escaneamento com OCR
-próprio, ou link para a fonte pública como o Internet Archive) — mesma
-decisão que o item "Ainda pendente — texto e capa do Compêndio de
-Teologia" da seção P8 já exige.
+**O que foi feito** — novo componente `web/src/components/DownloadBar.tsx`,
+usado na ficha da obra, com rótulo, ícone e ordem padronizados:
+
+| Formato | Origem | Quando aparece |
+|---|---|---|
+| PDF · fonte | link hospedado (`download_links`) | se o banco tiver |
+| ePub | gerado no cliente | se houver texto |
+| TXT | gerado no cliente (markdown limpo) | se houver texto |
+| Markdown | gerado no cliente (frontmatter p/ Obsidian) | se houver texto |
+
+Decisões que valem registrar:
+
+- **ePub/TXT/Markdown hospedados são suprimidos** quando há texto
+  disponível: o link guardado no banco quase sempre é o *link de
+  origem* (Internet Archive, Google Books), não o arquivo final. Gerar
+  localmente entrega o arquivo pronto, com a proveniência já embutida.
+  Só o PDF é exibido a partir do banco, porque não temos como gerar
+  PDF de qualidade tipográfica no cliente.
+- **A barra some inteira** quando a obra não tem texto nem link — nada
+  de seção vazia ocupando a ficha.
+- Os geradores existentes (`exportEpub`, `exportTxt`, `exportMarkdown`)
+  foram reutilizados, não reescritos.
+
+**Verificação em produção** (não só "compila"): baixei os três
+arquivos via Playwright e conferi assinatura e tamanho.
+
+```
+ePub:  confissoes-scriptorium.epub | 216 KB | assinatura="PK"  (ZIP válido)
+TXT:   confissoes-scriptorium.txt  | 579 KB | assinatura="CO"  ("Confissões")
+MD:    confissoes-scriptorium.md   | 579 KB | assinatura="--"  (frontmatter)
+```
+
+9 testes cobrindo a barra (formatos presentes/ausentes, não-duplicação,
+geração real do blob) e 3 de integração na ficha. Suite: **108 testes**.
+
+**O que ficou de fora (e por quê):** PDF próprio. Re-escaneamento com
+OCR depende de decisão de conteúdo/licença — o mesmo item que bloqueia
+o Compêndio. O PDF de link público continua sendo a solução honesta
+enquanto isso.
 
 ---
 
