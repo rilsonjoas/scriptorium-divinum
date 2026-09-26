@@ -166,7 +166,7 @@ export function BookCard({ book, variant = 'grid' }: BookCardProps) {
           {/* Book Info - min-w-0 previne estouro de container no CSS Flexbox */}
           <div className="flex-1 min-w-0">
             <div className="mb-2 text-center sm:text-left">
-              <h3 className="font-heading text-lg font-semibold text-foreground group-hover:text-library-crimson-foreground transition-colors mb-1 break-words line-clamp-2">
+              <h3 className="font-heading text-lg font-semibold text-foreground group-hover:text-library-gold transition-colors mb-1 break-words line-clamp-2">
                 {book.title}
               </h3>
               {book.originalTitle && (
@@ -178,7 +178,7 @@ export function BookCard({ book, variant = 'grid' }: BookCardProps) {
 
             <div className="flex flex-wrap items-center justify-center sm:justify-start gap-x-3 gap-y-1 text-xs sm:text-sm text-muted-foreground mb-3 font-body">
               <div className="flex items-center space-x-1 min-w-0">
-                <User className="h-3 w-3 text-library-crimson-foreground shrink-0" />
+                <User className="h-3 w-3 text-library-bronze-foreground shrink-0" />
                 <span className="font-medium truncate">{book.author.name}</span>
               </div>
               {book.publicationYearOriginal && (
@@ -197,14 +197,14 @@ export function BookCard({ book, variant = 'grid' }: BookCardProps) {
             {(book.categories || book.language) && (
               <div className="flex flex-wrap justify-center sm:justify-start gap-1.5 mb-4">
                 {book.language && (
-                  <span className="px-2 py-0.5 text-[11px] bg-library-lapis/10 text-library-lapis font-medium rounded-md font-body border border-library-lapis/30">
+                  <span className="px-2 py-0.5 text-[11px] bg-library-bronze/10 text-library-selo font-medium rounded-md font-body border border-library-bronze/25">
                     {book.language}
                   </span>
                 )}
                 {book.categories && book.categories.slice(0, 3).map((category) => (
                   <span
                     key={category}
-                    className="px-2 py-0.5 text-[11px] bg-library-crimson/10 text-library-crimson-foreground rounded-md font-body border border-library-crimson/20"
+                    className="px-2 py-0.5 text-[11px] bg-library-bronze/10 text-library-selo rounded-md font-body border border-library-bronze/25"
                   >
                     {category}
                   </span>
@@ -213,21 +213,24 @@ export function BookCard({ book, variant = 'grid' }: BookCardProps) {
             )}
 
             {/* Actions com alta leiturabilidade e flex-wrap */}
+            {/* Ler é a ação principal do app — por isso o botão dourado
+                é o de leitura, não o de detalhes. Inverte a hierarquia
+                que existia (Detalhes dourado, Ler apagado). */}
             <div className="flex flex-wrap gap-2 justify-center sm:justify-start">
-              <Button asChild size="sm" className="bg-library-wood hover:bg-library-bronze text-library-gold font-semibold font-body">
-                <Link to={`/livros/${book.id}`}>
-                  <BookOpen className="h-3.5 w-3.5 mr-1 text-library-gold" />
-                  Detalhes
-                </Link>
-              </Button>
               {book.onlineReadPath && (
-                <Button asChild variant="outline" size="sm" className="border-2 border-library-wood/80 bg-library-gold/15 text-library-wood-foreground hover:bg-library-wood hover:text-library-gold font-semibold font-body shadow-sm">
+                <Button asChild size="sm" className="bg-library-gold hover:bg-library-gold/90 text-library-wood font-semibold font-body shadow-sm">
                   <Link to={`/ler/${book.id}`}>
                     <BookOpen className="h-3.5 w-3.5 mr-1" />
                     Ler Online
                   </Link>
                 </Button>
               )}
+              <Button asChild variant="outline" size="sm" className="border-library-bronze/60 bg-transparent text-library-wood-foreground hover:bg-library-bronze/10 font-body">
+                <Link to={`/livros/${book.id}`}>
+                  <BookOpen className="h-3.5 w-3.5 mr-1 text-library-bronze-foreground" />
+                  Detalhes
+                </Link>
+              </Button>
             </div>
           </div>
         </div>

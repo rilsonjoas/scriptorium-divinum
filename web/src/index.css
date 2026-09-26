@@ -125,6 +125,10 @@
        existe um tom único que sirva nos dois temas, então o texto tem
        token próprio, que sobe de luminosidade no dark (7.13:1). */
     --library-crimson-foreground: 350 65% 35%;
+    /* Texto dos selos neutros (categoria/idioma) sobre bronze a 10%.
+       O bronze puro a 3.88:1 reprova WCAG AA em 11px; este tom dá 7:1
+       sem deixar de ser discreto. */
+    --library-selo: 32 29% 25%;
     --library-lapis: 215 65% 28%; /* Azul Lápis-Lazúli */
     --library-emerald-liturgical: 160 60% 20%; /* Verde Esmeralda Sacro */
     --library-gold-sacred: 43 85% 58%; /* Ouro Sacro Metálico */
@@ -176,6 +180,7 @@
     --library-bronze-foreground: 42 50% 68%;
     --library-parchment-surface: 25 28% 13%;
     --library-crimson-foreground: 350 65% 68%;
+    --library-selo: 35 35% 82%;
 
     --gradient-leather: linear-gradient(180deg, hsl(25 30% 13%), hsl(25 25% 10%));
     --gradient-parchment: linear-gradient(180deg, hsl(25 28% 13%), hsl(25 30% 10%));
