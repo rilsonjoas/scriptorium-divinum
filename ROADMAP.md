@@ -29,11 +29,22 @@ conta** (acesso que só você tem) · **♾️ contínuo** (nunca "fecha").
 **Também entregues no Bloco B:** leitor por capítulo (`7f026bb`, medido:
 23,3 s → 6,0 s; página 280.448 px → 1.667 px).
 
-**Bloco B fechado em código.** #1 a #7 entregues e verificadas em
-produção. **O que sobra não é meu:** os 🟡 (precisam de decisão ou de
-marca tua), o 🔵 (Search Console, tua conta) e os ♾️ (contínuos).
-Confirmação manual de acessibilidade com leitor de tela é o único
-passo que falta do lado técnico — e ele exige aparelho.
+**Bloco B fechado em código** — #1 a #7 entregues, todas verificadas em
+produção (não só "compila"), 110 testes + 10 de auditoria.
+
+**Declaração de conformidade — só o que o CI prova** (regra do
+[[Padrão de Acessibilidade]]: *"placeholder honesto vale mais que número
+inventado"*):
+
+> Acessibilidade: atender aos requisitos da ABNT NBR 17225 (conforme WCAG
+> 2.2, níveis A e AA). Auditoria automatizada com axe-core no CI:
+> **10 testes, zero violações**, em 8 rotas. Verificação manual com leitor
+> de tela: **não feita**.
+
+**O que sobra não é meu:** os 🟡 (precisam de decisão ou de marca tua),
+o 🔵 (Search Console, tua conta) e os ♾️ (contínuos). Do lado técnico
+falta só a confirmação manual com leitor de tela em aparelho real — e ela
+exige aparelho na mão, não código.
 
 > **Lembrete de escopo (prometido):** #14 (Search Console) e o que
 > depende de conteúdo/licença (#10, #11) **não são meus** — ficam
