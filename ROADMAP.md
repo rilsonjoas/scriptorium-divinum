@@ -1133,16 +1133,21 @@ criá-lo, revelou que o tom de fundo era ilegível como texto no escuro.
 - `--font-classical` (Cinzel) é **código morto** — declarado, sem nenhum
   uso. Candidato à remoção.
 - `.hover-lift` também não é usado em lugar nenhum.
-- **Retratos dos autores — pedido do Rilson em 2026-09-25. Tarefa de
-  conteúdo, não de código.** O slot já existe e funciona (tondo dourado
-  com moldura, em `AutorDetalhes.tsx` via `SafeImage`): o que falta é o
-  arquivo. Diagnóstico feito na VPS: **11 dos 15 autores já têm o caminho
-  no banco** (`portraitImageUrl`, ex. `/images/authors/agostinho.jpg`),
-  mas em `/usr/share/nginx/html/images/authors/` existe **um único
-  arquivo** (`tomas-aquino.jpg`) — os outros 10 devolvem 404 e caem no
-  ícone de fallback. O Rilson tem os retratos no vault do Obsidian; falta
-  exportá-los e subir para o diretório do web. Enquanto não houver
-  arquivo, o slot não tem o que exibir.
+- [x] **Retratos dos autores — ✅ ENTREGUE 2026-09-25** (commit `02a6f81`).
+  **8 retratos novos** versionados em `web/public/images/authors/`
+  (1,2 MB) e `portrait_image_url` populado no banco via UPDATE — o
+  site **não tem dependência do vault**: os arquivos são do repo,
+  servidos estaticamente pelo Nginx. Origem e licença de cada:
+  - 6 retratos(Localmente presentes no vault do Rilson, em `0 - Anexos/`,
+    via as notas de `10 - Arte e literatura/Autores/`) — pinturas
+    clássicas, domínio público por idade.
+  - 2 do Wikimedia Commons, **licença verificada "Public domain"** na API
+    (`Anselm_of_Canterbury.jpg` e `BELLARMINO, S.J., Roberto.png`).
+  - `tomas-de-kempis` mapeado no banco, que estava sem retrato.
+  Os 6 autores restantes (Boécio, Gil Vicente, Vieira, Bernardes, Bento
+  e "Vários") seguem **sem retrato de propósito** — o slot cai no ícone
+  de fallback, que é o comportamento correto. Verificado em produção:
+  os 9 arquivos respondem 200 e o tondo renderiza o retrato.
 **F1 — Caixa alta: ✅ ENTREGUE** (commit `c916e2a`, no ar). Componente
 `SectionLabel` criado e 9 títulos de seção migrados. Antes → depois:
 `uppercase` de **14 → 4 usos** (os 4 aprovados). Ganhos colaterais
