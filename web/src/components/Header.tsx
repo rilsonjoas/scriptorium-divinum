@@ -7,7 +7,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useState, useRef, useEffect } from 'react';
 import { useSearch, useSiteSettings } from '@/hooks/useDatabase';
 import { useTranslation } from 'react-i18next';
-import i18n, { idiomas } from '@/i18n';
+import { LanguageSwitcher } from '@/components/LanguageSwitcher';
 import { useTheme } from '@/hooks/useTheme';
 import { bookPath } from '@/lib/bookRoutes';
 import {
@@ -69,7 +69,7 @@ export function Header() {
     { to: '/livros', label: t('nav.catalogo'), icon: BookOpen },
     { to: '/autores', label: t('nav.autores'), icon: Users },
     { to: '/categorias', label: t('nav.categorias'), icon: Library },
-    { to: '/livros?favoritos=true', label: 'Favoritos', icon: Star },
+    { to: '/livros?favoritos=true', label: t('nav.favoritos'), icon: Star },
     { to: '/sobre', label: t('nav.sobre'), icon: Info },
   ];
 
@@ -89,7 +89,9 @@ export function Header() {
                 height={48}
               />
             </div>
-            <div>
+            {/* abaixo de 360px o nome não cabe junto de tema, busca e menu; o
+                logo continua, e o nome segue no alt dele e no menu */}
+            <div className="max-[359px]:hidden">
               <h1 className="font-display text-lg md:text-2xl font-semibold golden-foil leading-tight">
                 {settings?.siteName ?? 'Scriptorium Divinum'}
               </h1>
@@ -214,7 +216,8 @@ export function Header() {
           </div>
 
           {/* Desktop Right Links & Mobile Menu Triggers */}
-          <div className="flex items-center space-x-3">
+          {/* espaço menor no celular: a linha precisa caber em telas de 360px */}
+          <div className="flex items-center space-x-1 md:space-x-3">
             {/* Theme Toggle */}
             <Button
               variant="ghost"
@@ -227,33 +230,8 @@ export function Header() {
               {theme === 'dark' ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
             </Button>
 
-            {/* Language Switcher Pill */}
-            <div className="flex items-center bg-library-wood/80 border border-library-bronze rounded-full p-0.5 text-xs font-body shadow-xs">
-              {idiomas.map((item) => {
-                const isActive = (i18n.language || 'pt-BR').startsWith(item.codigo.split('-')[0]);
-                return (
-                  <button
-                    key={item.codigo}
-                    type="button"
-                    onClick={() => {
-                      i18n.changeLanguage(item.codigo);
-                      try {
-                        localStorage.setItem('scriptorium:lang', item.codigo);
-                      } catch {
-                        // ignore localStorage write errors in private mode
-                      }
-                    }}
-                    className={`px-2 py-0.5 rounded-full font-bold transition-colors ${
-                      isActive
-                        ? 'bg-library-gold text-library-wood shadow-xs'
-                        : 'text-library-gold/70 hover:text-library-gold'
-                    }`}
-                  >
-                    {item.rotulo}
-                  </button>
-                );
-              })}
-            </div>
+            {/* Language Switcher Pill (desktop; no celular fica no menu) */}
+            <LanguageSwitcher className="hidden md:flex" />
 
             {/* Mobile Search Icon Toggle */}
             <Button
@@ -328,6 +306,11 @@ export function Header() {
                       <span>{theme === 'dark' ? t('nav.temaClaro') : t('nav.temaEscuro')}</span>
                     </button>
                   </nav>
+
+                  <div className="mt-6 pt-4 border-t border-library-bronze/40">
+                    <p className="text-xs text-library-gold/80 font-body mb-2 px-1">{t('nav.idioma')}</p>
+                    <LanguageSwitcher variant="menu" />
+                  </div>
                 </div>
 
                 <div className="pt-6 border-t border-library-bronze/40 text-center text-xs text-library-gold/70 font-body">

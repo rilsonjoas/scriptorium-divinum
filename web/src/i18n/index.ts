@@ -14,6 +14,7 @@ const ptBR = {
     favoritos: 'Favoritos',
     temaClaro: 'Modo claro',
     temaEscuro: 'Modo escuro',
+    idioma: 'Idioma',
   },
   busca: {
     placeholder: 'Buscar obras, autores...',
@@ -86,6 +87,7 @@ const en = {
     favoritos: 'Favorites',
     temaClaro: 'Light mode',
     temaEscuro: 'Dark mode',
+    idioma: 'Language',
   },
   busca: {
     placeholder: 'Search works and authors...',
@@ -158,6 +160,7 @@ const es = {
     favoritos: 'Favoritos',
     temaClaro: 'Modo claro',
     temaEscuro: 'Modo oscuro',
+    idioma: 'Idioma',
   },
   busca: {
     placeholder: 'Buscar obras, autores...',
@@ -218,9 +221,9 @@ const es = {
 };
 
 export const idiomas = [
-  { codigo: 'pt-BR', rotulo: 'PT' },
-  { codigo: 'en', rotulo: 'EN' },
-  { codigo: 'es', rotulo: 'ES' },
+  { codigo: 'pt-BR', rotulo: 'PT', nome: 'Português' },
+  { codigo: 'en', rotulo: 'EN', nome: 'English' },
+  { codigo: 'es', rotulo: 'ES', nome: 'Español' },
 ] as const;
 
 const idiomaSalvo = (() => {
@@ -243,5 +246,14 @@ i18n.use(initReactI18next).init({
     escapeValue: false,
   },
 });
+
+// O <html lang> diz ao leitor de tela (e ao corretor/tradutor do navegador)
+// em que língua a página está; sem isso, o inglês era lido com pronúncia
+// portuguesa (WCAG 3.1.1).
+const syncHtmlLang = (lng: string) => {
+  if (typeof document !== 'undefined') document.documentElement.lang = lng;
+};
+syncHtmlLang(i18n.language);
+i18n.on('languageChanged', syncHtmlLang);
 
 export default i18n;
