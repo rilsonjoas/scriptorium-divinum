@@ -5,12 +5,23 @@ import { ArrowLeft, BookMarked, BookOpen, ChevronLeft, ChevronRight, Clock, List
 import { Link, useParams } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
-import { useEffect, useMemo, useRef, useState } from 'react';
-import type { ReactNode } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import type { ReactNode, TouchEvent as ReactTouchEvent } from 'react';
 import { useBookText, useBook } from '@/hooks/useDatabase';
 import { useSpeech } from '@/hooks/useSpeech';
 import { splitProvenance } from '@/utils/readerText';
 import { splitIntoChapters } from '@/utils/chapters';
+import {
+  assignChapters,
+  bookRatio,
+  nextPosition,
+  pageFromFraction,
+  positionFromRatio,
+  prevPosition,
+  LAST_PAGE,
+  type ReaderPosition,
+} from '@/utils/pagination';
+import { PagedArticle } from '@/components/reader/PagedArticle';
 import { normalizeWord } from '@/utils/glossario';
 import { GlossaryPopover } from '@/components/reader/GlossaryPopover';
 import { QuoteCardDialog, QuoteTriggerPill } from '@/components/reader/QuoteCardDialog';
@@ -88,6 +99,17 @@ function readingMinutes(markdown: string): number {
   return Math.max(1, Math.round(words / 200));
 }
 
+const fontClassFor = (family: ReadingSettings['fontFamily']) =>
+  ({ reading: 'font-reading', serif: 'font-serif', sans: 'font-sans' })[family];
+
+const fontSizeClassFor = (size: ReadingSettings['fontSize']) =>
+  ({
+    sm: 'text-base leading-relaxed',
+    md: 'text-lg leading-relaxed',
+    lg: 'text-xl leading-loose',
+    xl: 'text-2xl leading-loose',
+  })[size];
+
 const headingClass = 'scroll-mt-24 font-heading font-semibold text-library-wood';
 const markdownComponents = {
   h1: ({ children }: { children?: ReactNode }) => (
@@ -136,7 +158,8 @@ export default function Reader() {
   const [readingSettings, setReadingSettings] = useState<ReadingSettings>(() => {
     try {
       const saved = localStorage.getItem('scriptorium_reading_settings');
-      return saved ? JSON.parse(saved) : DEFAULT_READING_SETTINGS;
+      // mescla com o padrão: configurações salvas antes de existir `layout` não o têm
+      return saved ? { ...DEFAULT_READING_SETTINGS, ...JSON.parse(saved) } : DEFAULT_READING_SETTINGS;
     } catch {
       return DEFAULT_READING_SETTINGS;
     }
@@ -180,19 +203,185 @@ export default function Reader() {
       // ativo é entregue ao react-markdown. Sem isso, Confissões
       // (~579KB de markdown) travava ~23s na primeira pintura.
       chapters,
-      toc: extractToc(content),
+      toc: assignChapters(extractToc(content), chapters, slugify),
       minutes: readingMinutes(content),
     };
   }, [data]);
 
-  // Capítulo sendo lido (Bloco B)
-  const [capAtivo, setCapAtivo] = useState(0);
+  // Posição de leitura: capítulo (Bloco B) e, no modo Páginas, página dentro dele
+  const [pos, setPos] = useState<ReaderPosition>({ chapter: 0, page: 0 });
+  // páginas medidas, com o capítulo a que pertencem (medição velha não vale)
+  const [measured, setMeasured] = useState({ chapter: -1, pages: 1 });
+  // título do índice a abrir depois que o capítulo dele for renderizado
+  const [targetId, setTargetId] = useState<string | null>(null);
+  // posição a retomar (leitura salva): aplicada quando o capítulo certo for
+  // medido. Guarda o capítulo porque o capítulo aberto antes da retomada
+  // também é medido e não pode consumi-la.
+  const pendingResume = useRef<{ chapter: number; fraction: number } | null>(null);
+  const readerTopRef = useRef<HTMLDivElement>(null);
+  const touchStart = useRef<{ x: number; y: number } | null>(null);
   useEffect(() => {
-    setCapAtivo(0);
+    setPos({ chapter: 0, page: 0 });
+    restoredRef.current = false;
   }, [bookId]);
 
+  const capAtivo = pos.chapter;
+  const pagesInChapter = measured.chapter === capAtivo ? measured.pages : 1;
   const capituloAtual = parsed?.chapters[capAtivo];
   const totalCapitulos = parsed?.chapters.length ?? 0;
+  const paged = readingSettings.layout === 'pages';
+
+  const persistRatio = useCallback(
+    (ratio: number) => {
+      // durante a retomada a posição ainda não é a da pessoa: não sobrescrever
+      if (pendingResume.current) return;
+      setProgress(ratio * 100);
+      if (!data?.slug) return;
+      // limiar fino: numa obra de 126 capítulos, um capítulo inteiro é 0,8%
+      // da obra; com o limiar antigo (1%) virar de capítulo às vezes não salvava
+      if (Math.abs(ratio - lastSavedRatio.current) >= 0.001) {
+        lastSavedRatio.current = ratio;
+        saveReadingProgress({ slug: data.slug, title: data.title, ratio });
+      }
+    },
+    [data],
+  );
+
+  // Retoma a leitura salva. O progresso é da obra inteira (capítulo + posição
+  // dentro dele); antes era só a rolagem do capítulo aberto, e a retomada
+  // sempre caía no capítulo 1.
+  useEffect(() => {
+    const slug = data?.slug;
+    if (!slug || totalCapitulos === 0 || restoredRef.current) return;
+    restoredRef.current = true;
+    const saved = getReadingProgress(slug);
+    if (!saved) return;
+    lastSavedRatio.current = saved.ratio;
+    if (shouldResume(saved.ratio)) {
+      const { chapter, fraction } = positionFromRatio(saved.ratio, totalCapitulos);
+      pendingResume.current = { chapter, fraction };
+      setProgress(saved.ratio * 100);
+      setPos({ chapter, page: 0 });
+    } else if (saved.ratio >= 0.95) {
+      removeReadingProgress(slug);
+    }
+  }, [data, totalCapitulos]);
+
+  // Modo Páginas: o progresso anda com a página
+  useEffect(() => {
+    if (!paged || totalCapitulos === 0 || pos.page === LAST_PAGE) return;
+    persistRatio(bookRatio(pos, pagesInChapter, totalCapitulos));
+  }, [paged, pos, pagesInChapter, totalCapitulos, persistRatio]);
+
+  // `measuredChapter`: de qual capítulo é a medição. A medição do capítulo
+  // anterior pode chegar depois que a posição já mudou (o `prev` do updater já
+  // vê o capítulo novo), e não pode ser tomada como sendo do novo.
+  const handlePagesChange = useCallback((n: number, measuredChapter: number) => {
+    setMeasured({ chapter: measuredChapter, pages: n });
+    setPos(prev => {
+      if (measuredChapter !== prev.chapter) return prev;
+      const resume = pendingResume.current;
+      if (resume && resume.chapter === measuredChapter) {
+        pendingResume.current = null;
+        return { ...prev, page: pageFromFraction(resume.fraction, n) };
+      }
+      if (prev.page === LAST_PAGE || prev.page > n - 1) return { ...prev, page: n - 1 };
+      return prev;
+    });
+  }, []);
+
+  const handlePageRequest = useCallback((page: number) => {
+    setPos(prev => (prev.page === page ? prev : { ...prev, page }));
+  }, []);
+
+  const handleTargetResolved = useCallback(() => setTargetId(null), []);
+
+  // Quanto do topo da tela fica coberto: o cabeçalho do site (sticky, com
+  // uma linha no celular e duas no desktop) e a barra compacta do leitor
+  // (fixed, top-14, ~44px), que aparece depois de rolar.
+  const topObstruction = () => {
+    const header = document.querySelector('header');
+    return Math.max(header?.getBoundingClientRect().height ?? 64, 56 + 44);
+  };
+
+  // Altura da página: o que sobra da tela depois do topo coberto, da barra
+  // de navegação (‹ página ›, ~84px) e do respiro do cartão.
+  const [pageHeight, setPageHeight] = useState(480);
+  useEffect(() => {
+    const compute = () => {
+      const cardPadding = window.innerWidth >= 768 ? 40 : 20;
+      setPageHeight(Math.max(288, window.innerHeight - topObstruction() - 84 - cardPadding - 16));
+    };
+    compute();
+    window.addEventListener('resize', compute);
+    return () => window.removeEventListener('resize', compute);
+  }, []);
+
+  // Ao virar a página, alinha o topo da área de leitura logo abaixo do que
+  // cobre a tela (a pessoa pode ter rolado para ver a ficha acima).
+  const keepReaderInView = useCallback(() => {
+    const el = readerTopRef.current;
+    if (!el) return;
+    const wanted = topObstruction() + 8;
+    const top = el.getBoundingClientRect().top;
+    if (Math.abs(top - wanted) > 4) {
+      window.scrollTo({ top: top + window.scrollY - wanted, behavior: 'smooth' });
+    }
+  }, []);
+
+  // Ao fechar, o drawer do índice devolve o foco ao botão "Índice", no topo
+  // da página, e o navegador rola até ele, desfazendo o alinhamento. Quando o
+  // fechamento veio de uma escolha no índice, o foco vai para a área de
+  // leitura (onde a pessoa quer estar) e a página é alinhada.
+  const alignAfterDrawer = useRef(false);
+  const onDrawerCloseAutoFocus = useCallback(
+    (e: Event) => {
+      if (!alignAfterDrawer.current) return;
+      alignAfterDrawer.current = false;
+      e.preventDefault();
+      readerTopRef.current?.focus({ preventScroll: true });
+      keepReaderInView();
+    },
+    [keepReaderInView],
+  );
+
+  const goNext = useCallback(() => {
+    const next = nextPosition(pos, pagesInChapter, totalCapitulos);
+    if (!next) return;
+    setPos(next);
+    keepReaderInView();
+  }, [pos, pagesInChapter, totalCapitulos, keepReaderInView]);
+
+  const goPrev = useCallback(() => {
+    const prev = prevPosition(pos);
+    if (!prev) return;
+    setPos(prev);
+    keepReaderInView();
+  }, [pos, keepReaderInView]);
+
+  // Modo Rolagem: abre o título escolhido no índice depois que o capítulo dele renderiza
+  useEffect(() => {
+    if (paged || !targetId) return;
+    const raf = requestAnimationFrame(() => {
+      document.getElementById(targetId)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      setTargetId(null);
+    });
+    return () => cancelAnimationFrame(raf);
+  }, [paged, targetId, capAtivo]);
+
+  // Modo Rolagem: retoma a posição salva dentro do capítulo
+  useEffect(() => {
+    const resume = pendingResume.current;
+    if (paged || !resume || resume.chapter !== capAtivo) return;
+    const fraction = resume.fraction;
+    pendingResume.current = null;
+    const raf = requestAnimationFrame(() => {
+      const doc = document.documentElement;
+      const max = doc.scrollHeight - doc.clientHeight;
+      if (max > 0) window.scrollTo({ top: max * fraction });
+    });
+    return () => cancelAnimationFrame(raf);
+  }, [paged, capAtivo]);
 
   const handleHighlightSelection = () => {
     if (!cardSelection || !data) return;
@@ -208,41 +397,19 @@ export default function Reader() {
 
   useEffect(() => {
     const toc = parsed?.toc ?? [];
-    const slug = data?.slug;
     let raf = 0;
-
-    if (slug && !restoredRef.current) {
-      restoredRef.current = true;
-      const saved = getReadingProgress(slug);
-      if (saved) {
-        lastSavedRatio.current = saved.ratio;
-        if (shouldResume(saved.ratio)) {
-          requestAnimationFrame(() => {
-            const doc = document.documentElement;
-            const max = doc.scrollHeight - doc.clientHeight;
-            if (max > 0) window.scrollTo({ top: max * saved.ratio });
-          });
-        } else if (saved.ratio >= 0.95) {
-          removeReadingProgress(slug);
-        }
-      }
-    }
 
     const onScroll = () => {
       cancelAnimationFrame(raf);
       raf = requestAnimationFrame(() => {
         const doc = document.documentElement;
-        const max = doc.scrollHeight - doc.clientHeight;
-        const currentProgress = max > 0 ? Math.min(100, (doc.scrollTop / max) * 100) : 0;
-        setProgress(currentProgress);
         setShowStickyHeader(doc.scrollTop > 200);
+        // no modo Páginas o progresso anda com a página, não com a rolagem
+        if (paged) return;
 
-        if (slug && data && max > 0) {
-          const ratio = doc.scrollTop / max;
-          if (Math.abs(ratio - lastSavedRatio.current) >= 0.01) {
-            lastSavedRatio.current = ratio;
-            saveReadingProgress({ slug, title: data.title, ratio });
-          }
+        const max = doc.scrollHeight - doc.clientHeight;
+        if (totalCapitulos > 0 && max > 0) {
+          persistRatio((capAtivo + Math.min(1, doc.scrollTop / max)) / totalCapitulos);
         }
 
         if (toc.length === 0) return;
@@ -260,7 +427,32 @@ export default function Reader() {
       window.removeEventListener('scroll', onScroll);
       cancelAnimationFrame(raf);
     };
-  }, [parsed, data]);
+  }, [parsed, paged, capAtivo, totalCapitulos, persistRatio]);
+
+  // Modo Páginas: o item ativo do índice é o capítulo aberto
+  useEffect(() => {
+    if (paged && capituloAtual) setActiveId(slugify(capituloAtual.title));
+  }, [paged, capituloAtual]);
+
+  // Modo Páginas: setas e Page Up/Down viram a página
+  const modalOpen = drawerOpen || citationOpen || notesOpen || cardOpen;
+  useEffect(() => {
+    if (!paged) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (modalOpen || e.altKey || e.ctrlKey || e.metaKey || e.shiftKey) return;
+      const t = e.target as HTMLElement | null;
+      if (t && (t.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName))) return;
+      if (e.key === 'ArrowRight' || e.key === 'PageDown') {
+        e.preventDefault();
+        goNext();
+      } else if (e.key === 'ArrowLeft' || e.key === 'PageUp') {
+        e.preventDefault();
+        goPrev();
+      }
+    };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [paged, modalOpen, goNext, goPrev]);
 
   useEffect(() => {
     setGlossaryQuery(null);
@@ -353,9 +545,57 @@ export default function Reader() {
     );
   }
 
-  const goToSection = (id: string) => {
-    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  // O índice lista a obra inteira, mas só o capítulo aberto está na página:
+  // abre o capítulo do título e depois vai até ele.
+  const goToSection = (id: string, idx: number) => {
+    if (idx < 0) {
+      setDrawerOpen(false);
+      return;
+    }
+    if (idx === capAtivo && !paged) {
+      setDrawerOpen(false);
+      document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      return;
+    }
+    setPos({ chapter: idx, page: 0 });
+    setTargetId(id);
+    if (paged) {
+      // o drawer do índice (celular) restaura a rolagem ao fechar; alinhar
+      // só depois, senão o ajuste é desfeito
+      if (drawerOpen) alignAfterDrawer.current = true;
+      else keepReaderInView();
+    }
     setDrawerOpen(false);
+  };
+
+  // `leitor-abertura` anima com fill-mode `both`, e o transform final da
+  // animação anularia o deslocamento das páginas; no modo Páginas ela vai no
+  // contêiner da página (PagedArticle), não no artigo.
+  const articleClass = `prose prose-lg prose-leitor max-w-none capitular-medieval ${paged ? '' : 'leitor-abertura'} ${fontClassFor(readingSettings.fontFamily)} ${fontSizeClassFor(readingSettings.fontSize)} prose-headings:font-heading prose-blockquote:border-library-bronze prose-blockquote:font-body prose-a:underline`;
+  const markdown = capituloAtual ? (
+    <ReactMarkdown remarkPlugins={[remarkGfm]} components={markdownComponents}>
+      {capituloAtual.body}
+    </ReactMarkdown>
+  ) : null;
+  const shownPage = pos.page === LAST_PAGE ? pagesInChapter - 1 : pos.page;
+
+  // Deslizar o dedo vira a página (só com gesto claramente horizontal e sem
+  // texto selecionado, para não brigar com grifar/criar card).
+  const onTouchStart = (e: ReactTouchEvent) => {
+    const t = e.touches[0];
+    touchStart.current = { x: t.clientX, y: t.clientY };
+  };
+  const onTouchEnd = (e: ReactTouchEvent) => {
+    const start = touchStart.current;
+    touchStart.current = null;
+    if (!start) return;
+    const t = e.changedTouches[0];
+    const dx = t.clientX - start.x;
+    const dy = t.clientY - start.y;
+    if (Math.abs(dx) < 50 || Math.abs(dx) < Math.abs(dy) * 1.5) return;
+    if (!window.getSelection()?.isCollapsed) return;
+    if (dx < 0) goNext();
+    else goPrev();
   };
 
   const indexNav = (
@@ -365,10 +605,10 @@ export default function Reader() {
         Índice da Obra
       </p>
       <ul className="space-y-1 max-h-[65vh] overflow-y-auto pr-1">
-        {parsed.toc.map(item => (
-          <li key={`${item.id}-${item.level}`}>
+        {parsed.toc.map((item, i) => (
+          <li key={`${i}-${item.id}`}>
             <button
-              onClick={() => goToSection(item.id)}
+              onClick={() => goToSection(item.id, item.chapter)}
               aria-current={activeId === item.id ? 'true' : undefined}
               className={`w-full text-left rounded-md px-2 py-1.5 transition-colors font-body ${
                 item.level === 3 ? 'text-xs pl-5' : 'text-sm'
@@ -394,18 +634,6 @@ export default function Reader() {
     sepia: 'bg-[#f4ecd8] border-[#dfd0b5] text-[#4a3b2c] shadow-md',
   }[readingSettings.theme];
 
-  const fontClass = {
-    reading: 'font-reading',
-    serif: 'font-serif',
-    sans: 'font-sans',
-  }[readingSettings.fontFamily];
-
-  const fontSizeClass = {
-    sm: 'text-base leading-relaxed',
-    md: 'text-lg leading-relaxed',
-    lg: 'text-xl leading-loose',
-    xl: 'text-2xl leading-loose',
-  }[readingSettings.fontSize];
 
   return (
     <Layout>
@@ -413,7 +641,7 @@ export default function Reader() {
       {progress > 0 && (
         <div
           aria-hidden
-          className="fixed top-0 left-0 right-0 z-[60] h-1.5 bg-gradient-to-r from-library-gold via-library-crimson to-library-gold transition-[width] duration-150 shadow-golden"
+          className="fixed top-0 left-0 right-0 z-[60] h-1.5 bg-gradient-to-r from-library-gold via-library-vinho to-library-gold transition-[width] duration-150 shadow-golden"
           style={{ width: `${progress}%` }}
         />
       )}
@@ -457,7 +685,7 @@ export default function Reader() {
                     <span className="text-xs">Índice</span>
                   </Button>
                 </DrawerTrigger>
-                <DrawerContent className="bg-library-parchment-surface border-library-bronze p-6">
+                <DrawerContent className="bg-library-parchment-surface border-library-bronze p-6" onCloseAutoFocus={onDrawerCloseAutoFocus}>
                   <DrawerHeader className="text-left pb-2 border-b border-library-bronze/30">
                     <DrawerTitle className="font-display text-lg text-library-wood-foreground">
                       {data.title}
@@ -474,11 +702,14 @@ export default function Reader() {
 
       <div className="container mx-auto px-4 py-6 md:py-8">
         {/* Top Action Bar */}
-        <div className="flex items-center justify-between gap-4 mb-6">
+        <div className="flex items-center justify-between gap-2 sm:gap-4 mb-6">
           <Button asChild variant="ghost" size="sm" className="font-body text-library-bronze-foreground hover:text-library-wood-foreground">
-            <Link to={backToBook}>
+            {/* nome acessível fixo; contém o texto visível nos dois tamanhos (WCAG 2.5.3) */}
+            <Link to={backToBook} aria-label="Voltar ao Catálogo">
               <ArrowLeft className="h-4 w-4 mr-2" />
-              Voltar ao Catálogo
+              {/* rótulo curto no celular: a fileira precisa caber em 360px */}
+              <span className="hidden sm:inline">Voltar ao Catálogo</span>
+              <span className="sm:hidden">Voltar</span>
             </Link>
           </Button>
 
@@ -489,9 +720,10 @@ export default function Reader() {
               size="sm"
               className="h-8 px-2.5 font-body text-xs border-library-bronze text-library-wood-foreground hover:bg-library-gold/20"
               onClick={() => setCitationOpen(true)}
+              aria-label="Como citar esta obra"
             >
-              <GraduationCap className="h-3.5 w-3.5 mr-1 text-library-gold" />
-              Como Citar
+              <GraduationCap className="h-3.5 w-3.5 sm:mr-1 text-library-gold" />
+              <span className="hidden sm:inline">Como Citar</span>
             </Button>
 
             {/* Minhas Anotações Button */}
@@ -500,9 +732,10 @@ export default function Reader() {
               size="sm"
               className="h-8 px-2.5 font-body text-xs border-library-bronze text-library-wood-foreground hover:bg-library-gold/20"
               onClick={() => setNotesOpen(true)}
+              aria-label="Anotações"
             >
-              <Bookmark className="h-3.5 w-3.5 mr-1 text-library-gold" />
-              Anotações
+              <Bookmark className="h-3.5 w-3.5 sm:mr-1 text-library-gold" />
+              <span className="hidden sm:inline">Anotações</span>
             </Button>
 
             {/* Mobile TOC Drawer Trigger */}
@@ -510,12 +743,12 @@ export default function Reader() {
               <div className="lg:hidden">
                 <Drawer open={drawerOpen} onOpenChange={setDrawerOpen}>
                   <DrawerTrigger asChild>
-                    <Button variant="outline" size="sm" className="h-8 px-2.5 font-body text-xs border-library-bronze text-library-wood-foreground">
-                      <List className="h-3.5 w-3.5 mr-1 text-library-gold" />
-                      Índice
+                    <Button variant="outline" size="sm" aria-label="Índice" className="h-8 px-2.5 font-body text-xs border-library-bronze text-library-wood-foreground">
+                      <List className="h-3.5 w-3.5 sm:mr-1 text-library-gold" />
+                      <span className="hidden sm:inline">Índice</span>
                     </Button>
                   </DrawerTrigger>
-                  <DrawerContent className="bg-library-parchment-surface border-library-bronze p-6">
+                  <DrawerContent className="bg-library-parchment-surface border-library-bronze p-6" onCloseAutoFocus={onDrawerCloseAutoFocus}>
                     <DrawerHeader className="text-left pb-2 border-b border-library-bronze/30">
                       <DrawerTitle className="font-display text-lg text-library-wood-foreground">
                         {data.title}
@@ -659,15 +892,75 @@ export default function Reader() {
 
             <Card className={`transition-all duration-200 ${themeClasses}`}>
               <CardContent className="p-5 md:p-10">
-                <article
-                  key={capituloAtual?.id}
-                  className={`prose prose-lg prose-leitor max-w-none capitular-medieval leitor-abertura ${fontClass} ${fontSizeClass} prose-headings:font-heading prose-blockquote:border-library-bronze prose-blockquote:font-body prose-a:underline`}
-                >
-                  {capituloAtual ? (
-                    <ReactMarkdown remarkPlugins={[remarkGfm]} components={markdownComponents}>
-                      {capituloAtual.body}
-                    </ReactMarkdown>
-                  ) : null}
+                {paged ? (
+                  <>
+                    <div
+                      ref={readerTopRef}
+                      tabIndex={-1}
+                      aria-label="Página do texto"
+                      className="outline-none"
+                      onTouchStart={onTouchStart}
+                      onTouchEnd={onTouchEnd}
+                    >
+                      <PagedArticle
+                        key={capituloAtual?.id}
+                        page={pos.page}
+                        onPagesChange={n => handlePagesChange(n, capAtivo)}
+                        onPageRequest={handlePageRequest}
+                        targetId={targetId}
+                        onTargetResolved={handleTargetResolved}
+                        measureKey={`${capituloAtual?.id}|${readingSettings.fontSize}|${readingSettings.fontFamily}`}
+                        height={pageHeight}
+                        viewportClassName="leitor-abertura"
+                        className={articleClass}
+                      >
+                        {markdown}
+                      </PagedArticle>
+                    </div>
+
+                    <nav
+                      aria-label="Navegação entre páginas"
+                      className="mt-4 pt-4 border-t border-library-bronze/40 flex items-center justify-between gap-3"
+                    >
+                      <Button
+                        variant="outline"
+                        size="icon"
+                        disabled={!prevPosition(pos)}
+                        onClick={goPrev}
+                        aria-label="Página anterior"
+                        className="h-11 w-11 shrink-0 border-library-bronze/60"
+                      >
+                        <ChevronLeft className="h-5 w-5" />
+                      </Button>
+
+                      <p aria-live="polite" className="min-w-0 text-center font-body">
+                        <span className="block text-sm text-library-wood-foreground">
+                          Página {Math.max(1, shownPage + 1)} de {pagesInChapter}
+                        </span>
+                        {totalCapitulos > 1 && (
+                          <span className="block truncate text-xs text-muted-foreground">
+                            Capítulo {capAtivo + 1} de {totalCapitulos}
+                            {capituloAtual && capituloAtual.id !== 'inicio' ? ` · ${capituloAtual.title}` : ''}
+                          </span>
+                        )}
+                      </p>
+
+                      <Button
+                        variant="outline"
+                        size="icon"
+                        disabled={!nextPosition(pos, pagesInChapter, totalCapitulos)}
+                        onClick={goNext}
+                        aria-label="Próxima página"
+                        className="h-11 w-11 shrink-0 border-library-bronze/60"
+                      >
+                        <ChevronRight className="h-5 w-5" />
+                      </Button>
+                    </nav>
+                  </>
+                ) : (
+                <>
+                <article key={capituloAtual?.id} className={articleClass}>
+                  {markdown}
                 </article>
 
                 {totalCapitulos > 1 && (
@@ -680,7 +973,7 @@ export default function Reader() {
                       size="sm"
                       disabled={capAtivo === 0}
                       onClick={() => {
-                        setCapAtivo((i) => Math.max(0, i - 1));
+                        setPos({ chapter: Math.max(0, capAtivo - 1), page: 0 });
                         window.scrollTo({ top: 0, behavior: 'smooth' });
                       }}
                       className="border-library-bronze/60 font-body"
@@ -698,7 +991,7 @@ export default function Reader() {
                       size="sm"
                       disabled={capAtivo >= totalCapitulos - 1}
                       onClick={() => {
-                        setCapAtivo((i) => Math.min(totalCapitulos - 1, i + 1));
+                        setPos({ chapter: Math.min(totalCapitulos - 1, capAtivo + 1), page: 0 });
                         window.scrollTo({ top: 0, behavior: 'smooth' });
                       }}
                       className="border-library-bronze/60 font-body"
@@ -707,6 +1000,8 @@ export default function Reader() {
                       <ChevronRight className="h-4 w-4 ml-1" />
                     </Button>
                   </nav>
+                )}
+                </>
                 )}
               </CardContent>
             </Card>

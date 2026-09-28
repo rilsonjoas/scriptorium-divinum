@@ -1,18 +1,21 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
-import { SlidersHorizontal, Type, Sun, Moon, Sparkles, BookOpen } from 'lucide-react';
+import { SlidersHorizontal, Type, Sun, Moon, Sparkles, BookOpen, Columns2, ScrollText } from 'lucide-react';
 
 export type FontSize = 'sm' | 'md' | 'lg' | 'xl';
 export type FontFamily = 'reading' | 'serif' | 'sans';
 export type ReadingTheme = 'parchment' | 'light' | 'dark' | 'sepia';
 export type LineHeight = 'normal' | 'relaxed' | 'loose';
+/** 'pages': uma página do tamanho da tela por vez; 'flow': o capítulo inteiro, rolando. */
+export type ReadingLayout = 'pages' | 'flow';
 
 export interface ReadingSettings {
   fontSize: FontSize;
   fontFamily: FontFamily;
   theme: ReadingTheme;
   lineHeight: LineHeight;
+  layout: ReadingLayout;
 }
 
 export const DEFAULT_READING_SETTINGS: ReadingSettings = {
@@ -20,6 +23,7 @@ export const DEFAULT_READING_SETTINGS: ReadingSettings = {
   fontFamily: 'reading',
   theme: 'parchment',
   lineHeight: 'relaxed',
+  layout: 'pages',
 };
 
 interface ReadingToolbarProps {
@@ -37,6 +41,11 @@ export function ReadingToolbar({ settings, onChangeSettings }: ReadingToolbarPro
     { label: 'A', value: 'md' },
     { label: 'A+', value: 'lg' },
     { label: 'A++', value: 'xl' },
+  ];
+
+  const layouts: { label: string; value: ReadingLayout; icon: React.ReactNode }[] = [
+    { label: 'Páginas', value: 'pages', icon: <Columns2 className="h-3.5 w-3.5" /> },
+    { label: 'Rolagem', value: 'flow', icon: <ScrollText className="h-3.5 w-3.5" /> },
   ];
 
   const fontFamilies: { label: string; value: FontFamily; className: string }[] = [
@@ -102,6 +111,31 @@ export function ReadingToolbar({ settings, onChangeSettings }: ReadingToolbarPro
             >
               Restaurar
             </button>
+          </div>
+
+          {/* Layout Selector */}
+          <div>
+            <p id="modo-leitura" className="text-xs font-body font-medium text-library-bronze-foreground mb-1.5">
+              Modo de Leitura
+            </p>
+            <div role="group" aria-labelledby="modo-leitura" className="grid grid-cols-2 gap-1.5 bg-library-wood/5 p-1 rounded-md border border-library-bronze/30">
+              {layouts.map((item) => (
+                <button
+                  key={item.value}
+                  type="button"
+                  aria-pressed={settings.layout === item.value}
+                  onClick={() => update({ layout: item.value })}
+                  className={`flex items-center justify-center gap-1.5 min-h-[36px] text-xs font-medium font-body rounded transition-colors ${
+                    settings.layout === item.value
+                      ? 'bg-library-wood text-library-gold shadow-sm'
+                      : 'text-library-wood-foreground hover:bg-library-gold/20'
+                  }`}
+                >
+                  {item.icon}
+                  {item.label}
+                </button>
+              ))}
+            </div>
           </div>
 
           {/* Font Size Selector */}
