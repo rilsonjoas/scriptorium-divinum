@@ -62,14 +62,14 @@ export function VersiculoDoDia() {
         <p className="font-display text-base md:text-lg text-library-wood-foreground leading-relaxed">
           {versiculo.verse.text}
         </p>
-        <SectionLabel tone="crimson" className="justify-center mt-4">
+        <SectionLabel tone="rubrica" className="justify-center mt-4">
           {versiculo.verse.reference} • ARC
         </SectionLabel>
         <a
           href={lecionarioHomeUrl()}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 mt-4 font-body text-sm text-library-bronze-foreground hover:text-library-crimson-foreground transition-colors"
+          className="inline-flex items-center gap-2 mt-4 font-body text-sm text-library-bronze-foreground hover:text-library-wood-foreground transition-colors"
         >
           <ExternalLink className="h-4 w-4" />
           Lecionário Comum Revisado

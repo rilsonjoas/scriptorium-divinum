@@ -76,9 +76,9 @@ export function ErrorState({
     <div role="alert" className="flex flex-col items-center gap-4 py-16 text-center">
       <div
         aria-hidden="true"
-        className="flex h-16 w-16 items-center justify-center rounded-full border border-library-bronze/50 bg-library-crimson/10"
+        className="flex h-16 w-16 items-center justify-center rounded-full border border-library-bronze/50 bg-library-vinho/10"
       >
-        <AlertCircle className="h-8 w-8 text-library-crimson-foreground" />
+        <AlertCircle className="h-8 w-8 text-library-rubrica" />
       </div>
       <div>
         <h3 className="font-display text-xl font-semibold text-library-wood-foreground">{what}</h3>

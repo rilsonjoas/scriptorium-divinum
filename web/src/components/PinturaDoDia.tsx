@@ -58,7 +58,7 @@ export function PinturaDoDia() {
           </a>
         )}
         <div className="p-6 text-center">
-          <SectionLabel tone="crimson" className="justify-center mb-2">
+          <SectionLabel tone="rubrica" className="justify-center mb-2">
             {artwork.artistOrDirector} • Bíblia na Arte
           </SectionLabel>
           <h3 className="font-display text-xl font-semibold text-library-wood-foreground mb-2">

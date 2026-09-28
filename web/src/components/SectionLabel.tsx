@@ -6,11 +6,11 @@ interface SectionLabelProps {
   className?: string;
   /** filete dourado à esquerda, no gesto do chapter-divider */
   withRule?: boolean;
-  tone?: 'crimson' | 'gold' | 'muted';
+  tone?: 'rubrica' | 'gold' | 'muted';
 }
 
 const TONS = {
-  crimson: 'text-library-crimson-foreground',
+  rubrica: 'text-library-rubrica',
   gold: 'text-library-gold',
   muted: 'text-muted-foreground',
 } as const;
@@ -30,7 +30,7 @@ export function SectionLabel({
   children,
   className,
   withRule = false,
-  tone = 'crimson',
+  tone = 'rubrica',
 }: SectionLabelProps) {
   return (
     <p

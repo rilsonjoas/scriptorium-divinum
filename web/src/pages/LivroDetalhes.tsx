@@ -171,7 +171,7 @@ const LivroDetalhes = () => {
                     size="sm"
                     className="w-full border-2 border-library-dourado bg-library-gold/15 text-library-wood-foreground hover:bg-library-gold hover:text-library-wood font-semibold font-body shadow-sm"
                   >
-                    <GraduationCap className="mr-2 h-4 w-4 text-library-crimson-foreground" />
+                    <GraduationCap className="mr-2 h-4 w-4 text-library-rubrica" />
                     Como Citar esta Obra
                   </Button>
                 </div>

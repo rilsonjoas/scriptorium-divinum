@@ -58,11 +58,11 @@ describe('caixa alta no app (F1 — convergência visual)', () => {
     expect(foraDoComentario).not.toMatch(/\buppercase\b/);
   });
 
-  it('o token de texto do carmesim existe nos dois temas', () => {
+  it('o token de rubrica existe nos dois temas', () => {
     const css = readFileSync(path.join(SRC, 'index.css'), 'utf-8');
-    // precisa existir a definição base e a do dark, senão o rótulo
-    // carmesim fica ilegível em um dos temas (2.71:1 no escuro)
-    const defs = [...css.matchAll(/--library-crimson-foreground:\s*([^;]+);/g)].map((m) => m[1].trim());
+    // precisa existir a definição base (vinho) e a do dark (bronze), senão o
+    // rótulo fica ilegível em um dos temas (vinho sobre madeira escura)
+    const defs = [...css.matchAll(/--library-rubrica:\s*([^;]+);/g)].map((m) => m[1].trim());
     expect(defs.length).toBeGreaterThanOrEqual(2);
     expect(defs[0]).not.toBe(defs[1]);
   });

@@ -118,12 +118,12 @@
     --library-dourado-texto-claro: 40 26% 29%; /* #63502F — dourado como texto sobre fundo claro */
 
     /* Illuminated Pigments (Pigmentos de Iluminuras) */
-    --library-crimson: 350 65% 35%; /* Rubrica / Vermelho Carmesim */
-    /* Carmesim como TEXTO: o tom de fundo (350 65% 35%) dá 5.88:1 sobre
-       pergaminho, mas só 2.71:1 sobre a superfície escura — reprovado. Não
-       existe um tom único que sirva nos dois temas, então o texto tem
-       token próprio, que sobe de luminosidade no dark (7.13:1). */
-    --library-crimson-foreground: 350 65% 35%;
+    /* Rubrica: o tom dos rótulos e créditos (autor • obra nos cards do dia).
+       Era um carmesim (350 65% 35%, e rosa 350 65% 68% no escuro) que não
+       combinava com madeira e dourado (decisão do Rilson, 2026-09-28).
+       Agora é o vinho da identidade Narniana no claro (11:1 sobre
+       pergaminho) e bronze no escuro (8,8:1 sobre a superfície escura). */
+    --library-rubrica: 336 24% 24%;
     /* Texto dos selos neutros (categoria/idioma) sobre bronze a 10%.
        O bronze puro a 3.88:1 reprova WCAG AA em 11px; este tom dá 7:1
        sem deixar de ser discreto. */
@@ -134,14 +134,12 @@
 
     /* Gradients */
     --gradient-gold: linear-gradient(135deg, hsl(43 85% 65%), hsl(43 75% 55%));
-    --gradient-crimson: linear-gradient(135deg, hsl(350 65% 35%), hsl(350 55% 25%));
     --gradient-leather: linear-gradient(180deg, hsl(25 35% 15%), hsl(25 25% 12%));
     --gradient-parchment: linear-gradient(180deg, hsl(35 25% 95%), hsl(35 20% 90%));
 
     /* Shadows */
     --shadow-book: 0 8px 32px hsl(25 35% 15% / 0.3);
     --shadow-golden: 0 4px 16px hsl(43 85% 65% / 0.2);
-    --shadow-crimson: 0 4px 16px hsl(350 65% 35% / 0.3);
     --shadow-deep: 0 12px 40px hsl(25 35% 15% / 0.4);
   }
 
@@ -178,7 +176,7 @@
     --library-wood-foreground: 35 25% 88%;
     --library-bronze-foreground: 42 50% 68%;
     --library-parchment-surface: 25 28% 13%;
-    --library-crimson-foreground: 350 65% 68%;
+    --library-rubrica: 42 50% 68%;
     --library-selo: 35 35% 82%;
 
     --gradient-leather: linear-gradient(180deg, hsl(25 30% 13%), hsl(25 25% 10%));
@@ -567,22 +565,22 @@
     word-break: break-word;
   }
 
-  /* Rubrica Medieval (Títulos em Vermelho Carmesim Scriptorium) */
+  /* Rubrica Medieval (títulos no tom de rubrica: vinho / bronze no escuro) */
   .rubric-heading {
     font-family: var(--font-display);
-    color: hsl(var(--library-crimson));
+    color: hsl(var(--library-rubrica));
     font-weight: 600;
     letter-spacing: -0.01em;
   }
 
-  /* Fita Marcadora de Página em Cetim Carmesim (Ribbon Bookmark) */
+  /* Fita Marcadora de Página em Cetim Vinho (Ribbon Bookmark) */
   .ribbon-bookmark {
     position: absolute;
     top: -2px;
     right: 1.25rem;
     width: 1.25rem;
     height: 2.75rem;
-    background: linear-gradient(180deg, hsl(var(--library-crimson)), hsl(350 55% 25%));
+    background: linear-gradient(180deg, hsl(var(--library-vinho)), hsl(336 24% 16%));
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 80%, 0 100%);
     z-index: 20;

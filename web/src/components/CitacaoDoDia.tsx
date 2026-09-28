@@ -61,7 +61,7 @@ export function CitacaoDoDia() {
         <p className="font-display text-xl md:text-2xl text-library-wood-foreground leading-relaxed mb-6">
           “{citacao.text}”
         </p>
-        <SectionLabel tone="crimson" className="justify-center">
+        <SectionLabel tone="rubrica" className="justify-center">
           {citacao.author}
           {citacao.source ? ` • ${citacao.source}` : ''}
         </SectionLabel>
@@ -70,7 +70,7 @@ export function CitacaoDoDia() {
             href={ctaUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 mt-6 font-body text-sm text-library-bronze-foreground hover:text-library-crimson-foreground transition-colors"
+            className="inline-flex items-center gap-2 mt-6 font-body text-sm text-library-bronze-foreground hover:text-library-wood-foreground transition-colors"
           >
             <ExternalLink className="h-4 w-4" />
             {ctaLabel}
