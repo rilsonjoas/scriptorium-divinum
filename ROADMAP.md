@@ -491,12 +491,147 @@ domínio público:**
 | Domínio Público (dominiopublico.gov.br) | Acervo do governo brasileiro | **Só navegador humano** — Cloudflare bloqueia curl/urllib/WebFetch (testado 2026-08-16) | Não verificado ainda — buscar manualmente e colar resultado |
 | Archive.org | Capas e edições digitalizadas | `archive.org/advancedsearch.php` | **Baixa — selo "Public Domain" auto-declarado, 2 falsos positivos reais achados (2026-08-16)**. Sempre abrir o arquivo e checar o colofão antes de catalogar |
 | CCEL (ccel.org) | Clássicos cristãos em inglês PD — referência biográfica/catálogo | site | Referência, não fonte de texto PT |
+| The Faith Received (mereorthodoxy.com/the-faith-received) | ~19.600 obras cristãs (patrística grega/latina/oriental, medievais, católicas, reformadas continentais, anglicanas, luteranas), em inglês + original + scan de página | Leitor web, `/the-faith-received/read/?w={id}`; sem API pública conhecida | **Mista** — ver nota abaixo. Originais e scans: PD. Traduções novas por IA (~15 mil): licença não declarada |
 
 **Regra legal (Brasil):** a tradução é obra derivada — PD se o tradutor
 morreu há ≥ 70 anos (ou edição do séc. XIX/início XX). As 8 obras atuais
 já seguem esse padrão (J. Oliveira Santos, Oscar Paes Leme, Waldyr
 Carvalho Luz...). Gutenberg e Wikisource já aplicam esse filtro na
 curadoria deles — é o atalho seguro pra não reavaliar cada obra do zero.
+
+> [!NOTE] The Faith Received — o "irmão em inglês" do Scriptorium (adicionado 2026-09-28)
+> Biblioteca digital da Mere Orthodoxy (publicação do Institute for
+> Christianity and Common Life, sem fins lucrativos), em beta. A proposta
+> é a mesma do Scriptorium, só que em inglês: tornar a tradição cristã
+> "publicly available, practically usable, and beautifully readable".
+> O acervo é grande (~19.600 obras) e vale como fonte, com três ressalvas
+> checadas em 28/09/2026 nas páginas do projeto e da `transparency/`:
+>
+> 1. **Gratuito ≠ domínio público.** O site garante "Every text here is
+>    free, and it stays free", mas não publica licença nem termos de
+>    reuso. Cerca de 15 mil obras foram traduzidas para o inglês **por IA
+>    pela própria equipe**. Essas traduções são novas, não estão em PD e
+>    não trazem licença. Não dá pra importar o texto em inglês delas sem
+>    permissão explícita da Mere Orthodoxy.
+> 2. **O que dá pra aproveitar com segurança:** o texto no idioma original
+>    (latim/grego etc., PD) e os scans de página que o site mostra junto,
+>    além das traduções humanas antigas cujo tradutor já esteja em PD
+>    (mesma regra dos 70 anos acima). Também serve como **catálogo e
+>    descoberta**: mapeia obras e autores que ainda não temos, e a gente
+>    vai atrás da edição PD na fonte primária (Gutenberg, CCEL, Archive
+>    com colofão checado).
+> 3. **Qualidade da tradução por IA:** cada obra traduzida por máquina
+>    tem um painel "Translation Transparency" e o status "Reviewed" ou
+>    "Needs Review". Mesmo com permissão, só obra "Reviewed" deveria
+>    entrar, e nunca como fonte de citação sem checar no original (ver
+>    `docs/PROTOCOLO-VERIFICACAO-DE-CITACOES.md`).
+>
+> As ferramentas de pesquisa (Power Search, Compare, Notebook etc.) são
+> grátis no beta e depois viram assinatura (US$ 100/ano); os textos
+> continuam gratuitos.
+>
+> **Pendência:** escrever pra Mere Orthodoxy perguntando a licença das
+> traduções por IA. Se for aberta (CC BY/BY-SA), abre o caminho 1 do
+> aviso abaixo (publicar também em inglês) com milhares de obras de uma vez.
+
+### Lote 2026-09-28: credos em tradução própria + lote inglês seguro
+
+**1. Os Credos Ecumênicos — primeira tradução própria (caminho 2 do aviso abaixo).**
+Não existe tradução portuguesa dos credos em PD com proveniência: o
+Wikisource PT tem Credo Niceno e Credo dos Apóstolos sem tradutor nem
+fonte, com grafia do texto litúrgico moderno de Portugal. Busca no
+Archive.org (1700–1930) e no Gutenberg PT não achou nada utilizável.
+Feita tradução nova do grego/latim (Schaff, _Creeds of Christendom_
+vol. II, via CCEL), com original ao lado e notas, licença CC BY-SA 4.0:
+- Texto: `server/texts/credos-ecumenicos.md`
+- SQL: `scripts/add_credos_ecumenicos_2026-09-28.sql` (cria autor
+  `igreja-antiga` + livro com `license_type = 'cc-by-sa-4.0'`)
+- **Transparência de IA (regra pra toda tradução própria daqui em
+  diante):** a tradução foi gerada por IA (Claude Opus 5.5) e isso
+  aparece em três lugares: aviso no topo do texto (antes do leitor
+  começar), campo `translator` (a ficha mostra "Traduzido por
+  inteligência artificial…") e `attribution_text`. O aviso diz de que
+  original partiu, com o que foi conferido e o status da revisão
+  humana. Mesmo espírito da página de transparência da The Faith
+  Received (rótulo + original ao lado + status de revisão).
+  Ao concluir a revisão, atualizar os três com revisor e data.
+- [ ] **Revisão humana da tradução antes de aplicar** (decisões
+  sinalizadas em nota: "católica" mantido em vez de "universal",
+  "desceu aos infernos", _Theotókos_ como "Mãe de Deus" com a
+  qualificação de Calcedônia, _Filioque_ explicado em nota e não
+  inserido no texto de 381).
+
+**2. Lote inglês seguro (12 volumes, 9 obras).** Critério: tradutor
+morto há ≥70 anos **pela regra brasileira**. O selo PD do Gutenberg é
+pela lei americana e não basta sozinho (ex.: Easton publicou em 1934,
+PD nos EUA por não renovação; aqui só vale porque ele morreu em 1950).
+Catálogo com a justificativa legal de cada obra:
+`server/texts/catalog_2026-09-28_lote-ingles.json`. Resumo:
+
+| Obra | Tradutor (†) | Gutenberg |
+|---|---|---|
+| Didaquê (grego + inglês) | Hitchcock †1887, Brown †1916 | 42053 |
+| Hipólito, _Apostolic Tradition_ | B. S. Easton †1950 | 61614 |
+| Crisóstomo, _Leaves from St. John Chrysostom_ | Mary H. Allies †1927 | 62447 |
+| Bernardo, _Life of St. Malachy_ | H. J. Lawlor †1938 | 25761 |
+| Tomás, _Summa Theologica_ (I, I-II, II-II, III) | Laurence Shapcote OP †1947 ([fonte](https://thomistica.net/news/2011/9/13/the-shapcote-translation.html)) | 17611, 17897, 18755, 19950 |
+| Tomás, _On Prayer and the Contemplative Life_ | Hugh Pope OP †1946 | 22295 |
+| Lutero, _Commentary on Galatians_ (abreviado) | Theodore Graebner †1950 | 1549 |
+| Melanchthon, _Apology of the Augsburg Confession_ | Bente †1930, Dau †1944 | 6744 |
+| Baxter, _The Saints' Everlasting Rest_ | original inglês (Baxter †1691; abrev. Fawcett †1780) | 58135 |
+
+A Suma em inglês também resolve a opção (a) da pendência do
+"Compêndio de Teologia" acima, se o Rilson quiser.
+
+`scripts/import_pipeline.py` ganhou `CATALOG_PATH` (roda só um lote,
+sem dar PATCH no acervo inteiro), `DRY_RUN=1` (só grava os `.md`, sem
+API) e `verified_at`/`description` por obra. Os 12 `.md` já foram
+gerados em dry-run:
+`DRY_RUN=1 CATALOG_PATH=server/texts/catalog_2026-09-28_lote-ingles.json python3 scripts/import_pipeline.py`
+
+- [x] **Divisão em capítulos (feito 2026-09-28).** Os `.md` gerados pelo
+  pipeline saem sem heading nenhum além do título, e o leitor divide
+  por `#`/`##` (`web/src/utils/chapters.ts`): a Suma II-II (4 MB)
+  viraria um capítulo só. Novo passo `scripts/chapterize_texts.py`,
+  com uma regra por obra (cada edição do Gutenberg marca capítulos de
+  um jeito), que também remove o recuo das linhas (4+ espaços viravam
+  bloco de código no markdown). Resultado conferido rodando o próprio
+  `splitIntoChapters` do leitor: maior capítulo caiu de 4 MB para
+  147 KB; contagens batem com o sumário de cada obra (Suma: todas as
+  questões presentes e em ordem, apesar de o Gutenberg omitir ou
+  repetir alguns cabeçalhos; Crisóstomo: 29 + 17 + 11 peças).
+  Fluxo de importação agora: `import_pipeline.py` (com `DRY_RUN=1`) →
+  `chapterize_texts.py --check` → `chapterize_texts.py` → QA.
+- [ ] Mesma divisão para obras **já no ar** sem capítulos (ex.: _The
+  Holy War_, 540 KB em capítulo único): levantar quais e escrever a
+  regra de cada uma.
+- [ ] Aplicar em produção (pipeline sem `DRY_RUN` contra a API admin +
+  push dos textos): só com autorização do Rilson.
+
+**Catálogo em português — pesquisa de 2026-09-28:** ver
+`docs/PESQUISA-CATALOGO-PT-2026-09-28.md`. Achado principal: a
+"Antologia Portuguesa" (Aillaud, org. Agostinho de Campos †1944), em PD
+no Brasil desde 2015, com ortografia modernizada e OCR limpo (Bernardes
+2 vols., _Vida do Arcebispo_ de Frei Luís de Sousa). Mais _Trabalhos de
+Jesus_ (1865) com OCR limpo, e Vieira/Arrais com OCR que precisa de
+revisão. Lista priorizada de traduções por IA de textos curtos no mesmo
+documento.
+
+**Ficaram fora do lote por proveniência incompleta:** _The Augsburg
+Confession_ (Gutenberg 275, tradutor não identificado no arquivo) e
+_On Loving God_ de Bernardo (Gutenberg 21152, texto não baixável e sem
+tradutor na ficha).
+
+**Pendências de licença no acervo atual (achadas 2026-09-28, deixadas
+pra depois por decisão do Rilson):**
+- [ ] _As Institutas da Religião Cristã_ (PT) está no banco como
+  `public-domain` com tradução de Waldyr Carvalho Luz, **1957**. Uma
+  tradução de 1957 não tem como estar em PD no Brasil em 2026 (mesmo
+  com morte em 1957, só entraria em 2028). Rever o status e o texto
+  servido.
+- [ ] _Compêndio de Teologia_ (PT), tradução de D. Odilão Moura (1935),
+  também marcado `public-domain`: data de morte do tradutor não
+  conferida. Somar à pendência já registrada acima (texto nunca achado).
 
 > [!WARNING] Teto do catálogo é menor do que parecia (achado 2026-08-21)
 > O plano abaixo já mirava só "~30-50 obras" desde o início, e o

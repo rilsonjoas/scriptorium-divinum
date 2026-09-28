@@ -14,6 +14,11 @@ API_URL = os.environ.get("API_URL", "http://localhost:3001")
 ADMIN_EMAIL = os.environ.get("ADMIN_EMAIL", "admin@teste.com")
 ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD", "senha-admin-teste")
 TEXTS_DIR = os.environ.get("TEXTS_DIR", "server/texts")
+# Lote a importar (padrão: catálogo inteiro). Apontar para um arquivo de lote
+# evita reprocessar (PATCH) as obras já publicadas.
+CATALOG_PATH = os.environ.get("CATALOG_PATH", "server/texts/curated_catalog.json")
+# DRY_RUN=1: só baixa e grava os .md para revisão, sem login nem chamadas à API.
+DRY_RUN = os.environ.get("DRY_RUN") == "1"
 
 # Normalizar caminhos
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -270,8 +275,8 @@ def import_book(book_info):
     print(f"\n--- Processando: '{title}' ---")
     
     # 1. Obter ou criar autor
-    author_id = get_or_create_author(author_name)
-    if not author_id:
+    author_id = None if DRY_RUN else get_or_create_author(author_name)
+    if not author_id and not DRY_RUN:
         print(f"Erro: Não foi possível obter o autor '{author_name}'")
         return False
         
@@ -304,7 +309,7 @@ def import_book(book_info):
 - **Domínio público porque**: {book_info.get('legal_status')}
 - **Obra original em**: {', '.join(book_info.get('original_languages', ['Não especificado']))}
 - **Licença do arquivo**: Domínio Público (PD-Brasil)
-- **Data de verificação PD**: 2026-08-16
+- **Data de verificação PD**: {book_info.get('verified_at', '2026-08-16')}
 
 ---
 
@@ -320,16 +325,20 @@ def import_book(book_info):
         f.write(full_markdown)
     print(f"Texto salvo em: {filepath}")
     
+    if DRY_RUN:
+        print("DRY_RUN: arquivo gravado, API não chamada.")
+        return True
+
     # 4. Parse do Sumário (TOC)
     toc = parse_table_of_contents(full_markdown)
     print(f"Sumário extraído: {len(toc)} seções encontradas.")
     
     # 5. Criar o Livro na API
     # Gerar uma descrição razoável a partir do texto
-    description = f"Obra clássica '{title}' escrita por {author_name}. Disponível para leitura online gratuita e download em formatos livres."
+    description = book_info.get("description") or f"Obra clássica '{title}' escrita por {author_name}. Disponível para leitura online gratuita e download em formatos livres."
     # Tenta extrair o primeiro parágrafo
     paragraphs = [p.strip() for p in raw_text.split("\n\n") if p.strip() and not p.strip().startswith("#") and not p.strip().startswith(">")]
-    if paragraphs:
+    if paragraphs and not book_info.get("description"):
         first_p = paragraphs[0]
         if len(first_p) > 50 and len(first_p) < 400:
             description = first_p
@@ -386,7 +395,7 @@ def import_book(book_info):
 
 def main():
     # 1. Carregar catálogo curado
-    catalog_path = os.path.join(BASE_DIR, "server/texts/curated_catalog.json")
+    catalog_path = os.path.join(BASE_DIR, CATALOG_PATH)
     if not os.path.exists(catalog_path):
         print(f"Erro: Arquivo do catálogo curado não encontrado em {catalog_path}")
         sys.exit(1)
@@ -397,7 +406,7 @@ def main():
     print(f"Carregado catálogo curado com {len(catalog)} livros.")
     
     # 2. Login na API
-    if not login():
+    if not DRY_RUN and not login():
         print("Erro: Não foi possível autenticar na API admin. Certifique-se de que o servidor está rodando em http://localhost:3001 e que as credenciais em ADMIN_EMAIL/ADMIN_PASSWORD estão corretas.")
         sys.exit(1)
         

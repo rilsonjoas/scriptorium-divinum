@@ -1,0 +1,339 @@
+[
+  {
+    "title": "The Teaching of the Twelve Apostles (Didache)",
+    "author": "Igreja Antiga",
+    "translator": "Roswell D. Hitchcock (1817–1887) e Francis Brown (1849–1916)",
+    "original_title": "Διδαχὴ τῶν δώδεκα ἀποστόλων",
+    "publication_year_original": "c. 50–120",
+    "publication_year_translation": 1884,
+    "source": "Project Gutenberg (ID: 42053)",
+    "legal_status": "Texto original do séc. I–II (art. 41, Lei 9.610/98). Edição bilíngue grego-inglês de 1884; tradutores falecidos em 1887 e 1916, há mais de 70 anos.",
+    "verified_at": "2026-09-28",
+    "gutenberg_id": 42053,
+    "language": "Inglês",
+    "original_languages": [
+      "Grego"
+    ],
+    "description": "O mais antigo manual de vida cristã e de ordem da Igreja que chegou até nós, redescoberto em 1873 num manuscrito de Constantinopla. Instruções sobre os dois caminhos, o batismo, o jejum, a oração do Pai Nosso, a Ceia e os ministros. Edição de 1884 com o texto grego e tradução inglesa.",
+    "categories": [
+      "Patrística",
+      "Liturgia",
+      "Clássicos"
+    ],
+    "tags": [
+      "didaque",
+      "pais-apostolicos",
+      "batismo",
+      "ceia"
+    ]
+  },
+  {
+    "title": "The Apostolic Tradition of Hippolytus",
+    "author": "Hipólito de Roma",
+    "translator": "Burton Scott Easton (1877–1950)",
+    "original_title": "Ἀποστολικὴ παράδοσις",
+    "publication_year_original": "c. 215",
+    "publication_year_translation": 1934,
+    "source": "Project Gutenberg (ID: 61614)",
+    "legal_status": "Autor falecido c. 236 (art. 41, Lei 9.610/98). Tradutor falecido em 1950: domínio público no Brasil desde 1º/01/2021 (70 anos contados de 1º de janeiro do ano seguinte à morte).",
+    "verified_at": "2026-09-28",
+    "gutenberg_id": 61614,
+    "language": "Inglês",
+    "original_languages": [
+      "Grego",
+      "Latim"
+    ],
+    "description": "Ordem da Igreja de Roma no início do séc. III: ordenações, catecumenato, batismo, eucaristia e oração diária. Uma das fontes mais antigas sobre a liturgia cristã. Tradução inglesa de Burton Scott Easton, com introdução e notas.",
+    "categories": [
+      "Patrística",
+      "Liturgia",
+      "Clássicos"
+    ],
+    "tags": [
+      "hipolito",
+      "liturgia",
+      "batismo",
+      "igreja-primitiva"
+    ]
+  },
+  {
+    "title": "Leaves from St. John Chrysostom",
+    "author": "São João Crisóstomo",
+    "translator": "Mary H. Allies (1852–1927)",
+    "original_title": "Leaves from St. John Chrysostom",
+    "publication_year_original": "séc. IV",
+    "publication_year_translation": 1889,
+    "source": "Project Gutenberg (ID: 62447)",
+    "legal_status": "Autor falecido em 407 (art. 41, Lei 9.610/98). Tradutora falecida em 1927 e editor T. W. Allies em 1903, há mais de 70 anos.",
+    "verified_at": "2026-09-28",
+    "gutenberg_id": 62447,
+    "language": "Inglês",
+    "original_languages": [
+      "Grego"
+    ],
+    "description": "Seleção de trechos dos sermões e comentários bíblicos de João Crisóstomo, arcebispo de Constantinopla e o maior pregador da Igreja grega. Tradução de Mary H. Allies.",
+    "categories": [
+      "Patrística",
+      "Sermões",
+      "Clássicos"
+    ],
+    "tags": [
+      "crisostomo",
+      "pais-gregos",
+      "pregacao"
+    ]
+  },
+  {
+    "title": "St. Bernard of Clairvaux's Life of St. Malachy of Armagh",
+    "author": "São Bernardo de Claraval",
+    "translator": "Hugh Jackson Lawlor (1860–1938)",
+    "original_title": "Vita sancti Malachiae",
+    "publication_year_original": "c. 1149",
+    "publication_year_translation": 1920,
+    "source": "Project Gutenberg (ID: 25761)",
+    "legal_status": "Autor falecido em 1153 (art. 41, Lei 9.610/98). Tradutor falecido em 1938, há mais de 70 anos.",
+    "verified_at": "2026-09-28",
+    "gutenberg_id": 25761,
+    "language": "Inglês",
+    "original_languages": [
+      "Latim"
+    ],
+    "description": "Biografia de Malaquias, arcebispo de Armagh e reformador da Igreja na Irlanda, escrita por seu amigo Bernardo de Claraval. Tradução e notas de H. J. Lawlor (SPCK, 1920).",
+    "categories": [
+      "Medieval",
+      "Hagiografia",
+      "História da Igreja"
+    ],
+    "tags": [
+      "bernardo",
+      "irlanda",
+      "cistercienses"
+    ]
+  },
+  {
+    "title": "Summa Theologica, Part I (Prima Pars)",
+    "author": "São Tomás de Aquino",
+    "translator": "Laurence Shapcote OP (1864–1947), publicada como “Fathers of the English Dominican Province”",
+    "original_title": "Summa Theologiae, Prima Pars",
+    "publication_year_original": "1265–1274",
+    "publication_year_translation": 1911,
+    "source": "Project Gutenberg (ID: 17611)",
+    "legal_status": "Autor falecido em 1274 (art. 41, Lei 9.610/98). A tradução da Província Dominicana Inglesa (1911–1925) foi feita inteiramente por Laurence Shapcote OP (1864–1947) — Fergus Kerr, citado em thomistica.net (2011-09-13): https://thomistica.net/news/2011/9/13/the-shapcote-translation.html. Domínio público no Brasil desde 1º/01/2018.",
+    "verified_at": "2026-09-28",
+    "gutenberg_id": 17611,
+    "language": "Inglês",
+    "original_languages": [
+      "Latim"
+    ],
+    "description": "Primeira parte da Suma Teológica: Deus, a Trindade, a criação, os anjos e o homem. Tradução inglesa completa dos Padres da Província Dominicana Inglesa (Benziger Brothers).",
+    "categories": [
+      "Escolástica",
+      "Teologia Sistemática",
+      "Clássicos"
+    ],
+    "tags": [
+      "tomas-de-aquino",
+      "suma",
+      "trindade",
+      "criacao"
+    ]
+  },
+  {
+    "title": "Summa Theologica, Part I-II (Pars Prima Secundae)",
+    "author": "São Tomás de Aquino",
+    "translator": "Laurence Shapcote OP (1864–1947), publicada como “Fathers of the English Dominican Province”",
+    "original_title": "Summa Theologiae, Prima Secundae",
+    "publication_year_original": "1265–1274",
+    "publication_year_translation": 1911,
+    "source": "Project Gutenberg (ID: 17897)",
+    "legal_status": "Autor falecido em 1274 (art. 41, Lei 9.610/98). A tradução da Província Dominicana Inglesa (1911–1925) foi feita inteiramente por Laurence Shapcote OP (1864–1947) — Fergus Kerr, citado em thomistica.net (2011-09-13): https://thomistica.net/news/2011/9/13/the-shapcote-translation.html. Domínio público no Brasil desde 1º/01/2018.",
+    "verified_at": "2026-09-28",
+    "gutenberg_id": 17897,
+    "language": "Inglês",
+    "original_languages": [
+      "Latim"
+    ],
+    "description": "Primeira seção da segunda parte da Suma Teológica: o fim último do homem, os atos humanos, as paixões, os hábitos, as virtudes, o pecado, a lei e a graça.",
+    "categories": [
+      "Escolástica",
+      "Teologia Moral",
+      "Clássicos"
+    ],
+    "tags": [
+      "tomas-de-aquino",
+      "suma",
+      "lei",
+      "graca",
+      "virtudes"
+    ]
+  },
+  {
+    "title": "Summa Theologica, Part II-II (Secunda Secundae)",
+    "author": "São Tomás de Aquino",
+    "translator": "Laurence Shapcote OP (1864–1947), publicada como “Fathers of the English Dominican Province”",
+    "original_title": "Summa Theologiae, Secunda Secundae",
+    "publication_year_original": "1265–1274",
+    "publication_year_translation": 1911,
+    "source": "Project Gutenberg (ID: 18755)",
+    "legal_status": "Autor falecido em 1274 (art. 41, Lei 9.610/98). A tradução da Província Dominicana Inglesa (1911–1925) foi feita inteiramente por Laurence Shapcote OP (1864–1947) — Fergus Kerr, citado em thomistica.net (2011-09-13): https://thomistica.net/news/2011/9/13/the-shapcote-translation.html. Domínio público no Brasil desde 1º/01/2018.",
+    "verified_at": "2026-09-28",
+    "gutenberg_id": 18755,
+    "language": "Inglês",
+    "original_languages": [
+      "Latim"
+    ],
+    "description": "Segunda seção da segunda parte da Suma Teológica: as virtudes teologais (fé, esperança, caridade) e cardeais em particular, e os estados de vida.",
+    "categories": [
+      "Escolástica",
+      "Teologia Moral",
+      "Clássicos"
+    ],
+    "tags": [
+      "tomas-de-aquino",
+      "suma",
+      "fe",
+      "caridade",
+      "virtudes"
+    ]
+  },
+  {
+    "title": "Summa Theologica, Part III (Tertia Pars)",
+    "author": "São Tomás de Aquino",
+    "translator": "Laurence Shapcote OP (1864–1947), publicada como “Fathers of the English Dominican Province”",
+    "original_title": "Summa Theologiae, Tertia Pars",
+    "publication_year_original": "1265–1274",
+    "publication_year_translation": 1911,
+    "source": "Project Gutenberg (ID: 19950)",
+    "legal_status": "Autor falecido em 1274 (art. 41, Lei 9.610/98). A tradução da Província Dominicana Inglesa (1911–1925) foi feita inteiramente por Laurence Shapcote OP (1864–1947) — Fergus Kerr, citado em thomistica.net (2011-09-13): https://thomistica.net/news/2011/9/13/the-shapcote-translation.html. Domínio público no Brasil desde 1º/01/2018.",
+    "verified_at": "2026-09-28",
+    "gutenberg_id": 19950,
+    "language": "Inglês",
+    "original_languages": [
+      "Latim"
+    ],
+    "description": "Terceira parte da Suma Teológica: a encarnação, a vida de Cristo e os sacramentos. Tomás morreu antes de concluí-la.",
+    "categories": [
+      "Escolástica",
+      "Cristologia",
+      "Clássicos"
+    ],
+    "tags": [
+      "tomas-de-aquino",
+      "suma",
+      "encarnacao",
+      "sacramentos"
+    ]
+  },
+  {
+    "title": "On Prayer and the Contemplative Life",
+    "author": "São Tomás de Aquino",
+    "translator": "Hugh Pope OP (1869–1946)",
+    "original_title": "Summa Theologiae (seleção sobre oração e vida contemplativa)",
+    "publication_year_original": "1265–1274",
+    "publication_year_translation": 1914,
+    "source": "Project Gutenberg (ID: 22295)",
+    "legal_status": "Autor falecido em 1274 (art. 41, Lei 9.610/98). Tradutor falecido em 1946: domínio público no Brasil desde 2017.",
+    "verified_at": "2026-09-28",
+    "gutenberg_id": 22295,
+    "language": "Inglês",
+    "original_languages": [
+      "Latim"
+    ],
+    "description": "Os artigos de Tomás de Aquino sobre a oração, a devoção e a vida contemplativa, reunidos e traduzidos por Hugh Pope.",
+    "categories": [
+      "Escolástica",
+      "Espiritualidade",
+      "Clássicos"
+    ],
+    "tags": [
+      "tomas-de-aquino",
+      "oracao",
+      "contemplacao"
+    ]
+  },
+  {
+    "title": "Commentary on the Epistle to the Galatians",
+    "author": "Martinho Lutero",
+    "translator": "Theodore Graebner (1876–1950)",
+    "original_title": "In epistolam S. Pauli ad Galatas commentarius",
+    "publication_year_original": "1535",
+    "publication_year_translation": null,
+    "source": "Project Gutenberg (ID: 1549)",
+    "legal_status": "Autor falecido em 1546 (art. 41, Lei 9.610/98). Tradutor (versão abreviada) falecido em 1950: domínio público no Brasil desde 1º/01/2021.",
+    "verified_at": "2026-09-28",
+    "gutenberg_id": 1549,
+    "language": "Inglês",
+    "original_languages": [
+      "Latim"
+    ],
+    "description": "O comentário de Lutero à carta aos Gálatas (1535), a exposição mais madura da justificação pela fé. Versão inglesa abreviada de Theodore Graebner (Zondervan, fim dos anos 1930).",
+    "categories": [
+      "Reforma",
+      "Comentário Bíblico",
+      "Clássicos"
+    ],
+    "tags": [
+      "lutero",
+      "galatas",
+      "justificacao",
+      "reforma"
+    ]
+  },
+  {
+    "title": "The Apology of the Augsburg Confession",
+    "author": "Philipp Melanchthon",
+    "translator": "F. Bente (1858–1930) e W. H. T. Dau (1864–1944)",
+    "original_title": "Apologia Confessionis Augustanae",
+    "publication_year_original": "1531",
+    "publication_year_translation": 1921,
+    "source": "Project Gutenberg (ID: 6744)",
+    "legal_status": "Autor falecido em 1560 (art. 41, Lei 9.610/98). Tradutores falecidos em 1930 e 1944 (Concordia Triglotta, 1921), há mais de 70 anos. Mesma tradução já publicada no acervo para os Catecismos de Lutero.",
+    "verified_at": "2026-09-28",
+    "gutenberg_id": 6744,
+    "language": "Inglês",
+    "original_languages": [
+      "Latim",
+      "Alemão"
+    ],
+    "description": "Defesa da Confissão de Augsburgo escrita por Melanchthon em 1531, em resposta à Confutação católica. Parte do Livro de Concórdia, com o tratamento mais extenso da justificação entre as confissões luteranas.",
+    "categories": [
+      "Reforma",
+      "Credos e Confissões",
+      "Clássicos"
+    ],
+    "tags": [
+      "melanchthon",
+      "augsburgo",
+      "luteranismo",
+      "justificacao"
+    ]
+  },
+  {
+    "title": "The Saints' Everlasting Rest",
+    "author": "Richard Baxter",
+    "translator": "Texto original (sem tradução); edição abreviada por Benjamin Fawcett (1715–1780)",
+    "original_title": "The Saints' Everlasting Rest",
+    "publication_year_original": "1650",
+    "publication_year_translation": null,
+    "source": "Project Gutenberg (ID: 58135)",
+    "legal_status": "Obra escrita em inglês; autor falecido em 1691 e editor da versão abreviada falecido em 1780 (art. 41, Lei 9.610/98).",
+    "verified_at": "2026-09-28",
+    "gutenberg_id": 58135,
+    "language": "Inglês",
+    "original_languages": [
+      "Inglês"
+    ],
+    "description": "O clássico devocional puritano sobre o descanso eterno dos santos em Deus e sobre a meditação no céu como disciplina da vida cristã. Na abreviação de Benjamin Fawcett, a forma em que o livro foi mais lido.",
+    "categories": [
+      "Puritanos",
+      "Literatura Devocional",
+      "Clássicos"
+    ],
+    "tags": [
+      "baxter",
+      "puritanos",
+      "ceu",
+      "meditacao"
+    ]
+  }
+]
