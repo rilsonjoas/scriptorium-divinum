@@ -14,113 +14,27 @@
 # A Biblia Sagrada, Contendo o Velho e o Novo Testamento
 
 A
-                             BIBLIA SAGRADA
+BIBLIA SAGRADA
 
-                                CONTENDO
-                       O VELHO E O NOVO TESTAMENTO
+CONTENDO\
+O VELHO E O NOVO TESTAMENTO
 
-                         TRADUZIDA EM PORTUGUEZ
-                                   POR
-                         JOÃO FERREIRA D’ALMEIDA
+TRADUZIDA EM PORTUGUEZ\
+POR\
+JOÃO FERREIRA D’ALMEIDA
 
-                 COM REFERENCIAS E ALGUMAS ALTERNATIVAS
-                      _EDIÇÃO REVISTA E CORRIGIDA_
+COM REFERENCIAS E ALGUMAS ALTERNATIVAS\
+_EDIÇÃO REVISTA E CORRIGIDA_
 
-                   _DEPOSITO DAS ESCRIPTURAS SAGRADAS_
-                          32—JANELLAS VERDES—32
+_DEPOSITO DAS ESCRIPTURAS SAGRADAS_\
+32—JANELLAS VERDES—32
 
-                                 LISBOA
-                                  1911
+LISBOA\
+1911
 
-                         _First Edition, 1900._
+_First Edition, 1900._
 
-                         _6,000 reprinted 1911._
-
-
-
-
-INDICE DOS LIVROS QUE CONTÉM A BIBLIA SAGRADA
-
-
-_VELHO TESTAMENTO_
-
-                                     Abreviaturas        Pag.      Cap.
-
-    Genesis                               Gen.             1        50
-    Exodo                                 Exo.            51        40
-    Levitico                              Lev.            95        27
-    Numeros                               Num.           128        36
-    Deuteronomio                          Deu.           172        34
-    Josué                                 Jos.           211        24
-    Juizes                                Jui.           236        21
-    Ruth                                  Ruth           261         4
-    I Samuel                              I Sam.         265        31
-    II Samuel                             II Sam.        299        24
-    I Reis                                I Reis         326        22
-    II Reis                               II Reis        358        25
-    I Chronicas                           I Chr.         388        29
-    II Chronicas                          II Chr.        416        36
-    Esdras                                Esd.           451        10
-    Nehemias ou II Esdras                 Neh.           461        13
-    Esther                                Est.           475        10
-    Job                                   Job            483        42
-    Psalmos                               Psa.           510       150
-    Proverbios                            Pro.           576        31
-    Ecclesiastes                          Ecc.           600        12
-    Cantico dos Canticos                  Can.           608         8
-    Isaias                                Isa.           612        66
-    Jeremias                              Jer.           663        52
-    Lamentações de Jeremias               Lam.           719         5
-    Ezequiel                              Eze.           725        48
-    Daniel                                Dan.           776        12
-    Oseas                                 Ose.           792        14
-    Joel                                  Joel           800         3
-    Amós                                  Amós           803         9
-    Obadias                               Oba.           809         1
-    Jonas                                 Jon.           810         4
-    Miqueas                               Miq.           812         7
-    Nahum                                 Nah.           816         3
-    Habacuc                               Hab.           818         3
-    Sofonias                              Sof.           820         3
-    Aggeo                                 Agg.           823         2
-    Zacharias                             Zac.           825        14
-    Malachias                             Mal.           834         4
-
-
-_NOVO TESTAMENTO_
-
-                                     Abreviaturas        Pag.      Cap.
-
-    Evangelho de S. Mattheus              Mat.           839        28
-       ”      de S. Marcos                Mar.           875        16
-       ”      de S. Lucas                 Luc.           898        24
-       ”      de S. João                  João           936        21
-       ”      Actos dos Apostolos         Act.           964        28
-    Epistola de S. Paulo
-       ”     aos Romanos                  Rom.          1000        16
-       ”     I aos Corinthios             I Cor.        1015        16
-       ”     II aos Corinthios            II Cor.       1030        13
-       ”     aos Galatas                  Gal.          1039         6
-       ”     aos Ephesios                 Eph.          1044         6
-       ”     aos Philippenses             Phi.          1050         4
-       ”     aos Colossenses              Col.          1054         4
-       ”     I aos Thessalonicenses       I The.        1057         5
-       ”     II aos Thessalonicenses      II The.       1061         3
-       ”     I a Timotheo                 I Tim.        1063         6
-       ”     II a Timotheo                II Tim.       1067         4
-       ”     a Tito                       Tito          1070         3
-       ”     a Philemon                   Phi.          1072         1
-       ”     aos Hebreos                  Heb.          1073        13
-       ”     de S. Thiago                 Thi.          1084         5
-       ”     I de S. Pedro                I Ped.        1088         5
-       ”     II de S. Pedro               II Ped.       1092         3
-       ”     I de S. João                 I João        1095         5
-       ”     II de S. João                II João       1099         1
-       ”     III de S. João               III João      1099         1
-       ”     de S. Judas                  Jud.          1100         1
-    Apocalypse                            Apo.          1101        22
-
-
+_6,000 reprinted 1911._
 
 
 Nota do transcritor:
@@ -128,11 +42,9 @@ Nota do transcritor:
 Algumas das referências estão erradas. Não foi possível para corrigi-los.
 
 
-
+# Genesis 1
 
 O PRIMEIRO LIVRO DE MOYSÉS CHAMADO GENESIS.
-
-
 
 
 _A creação do ceu e da terra e de tudo o que n’elles se contém._
@@ -272,7 +184,7 @@ tarde, e a manhã, o dia sexto.
 [15] cap. 9.3.
 
 
-
+## Genesis 2
 
 2 Assim os céus, e a terra e todo o seu exercito foram acabados.
 
@@ -390,7 +302,7 @@ sua mulher, e serão ambos uma [16] carne.
 [16] I Cor. 6.16.
 
 
-
+## Genesis 3
 
 _Tentação de Eva e queda do homem._
 
@@ -514,7 +426,7 @@ guardar o caminho da arvore da vida.
 [20] I Chr. 21.16.
 
 
-
+## Genesis 4
 
 _O nascimento de Caim, Abel, e Seth._
 
@@ -609,7 +521,7 @@ se começou a invocar o nome do Senhor.
 [2] I João 3.12.
 
 
-
+## Genesis 5
 
 _A genealogia de Seth._
 
@@ -716,7 +628,7 @@ Japhet.
 [8] cap. 6.10 e 10.21.
 
 
-
+## Genesis 6
 
 _A corrupção geral do genero humano._
 
@@ -814,7 +726,7 @@ te será para mantimento para ti e para elles.
 [8] Heb. 11.7.
 
 
-
+## Genesis 7
 
 _Noé e sua familia entram na arca._
 
@@ -914,7 +826,7 @@ _estavam_ na arca.
 [7] cap. 8.3.
 
 
-
+## Genesis 8
 
 _As aguas do diluvio diminuem._
 
@@ -1024,7 +936,7 @@ inverno, e dia e noite, [12] não cessarão.
 [12] Isa. 54.9. Jer. 33.20.
 
 
-
+## Genesis 9
 
 _O pacto que Deus fez com Noé._
 
@@ -1158,7 +1070,7 @@ por servo.
 [18] Deu. 27.16. II Chr. 8.7, 8.
 
 
-
+## Genesis 10
 
 _Os descendentes de Noé._
 
@@ -1265,7 +1177,7 @@ diluvio.
 [9] I Chr. 1.17.
 
 
-
+## Genesis 11
 
 _Toda a terra com uma mesma lingua._
 
@@ -1389,7 +1301,7 @@ Haran.
 [11] cap. 12.1. Neh. 9.7. Act. 7.4.
 
 
-
+## Genesis 12
 
 _Deus chama Abrão e lhe faz promessas._
 
@@ -1484,7 +1396,7 @@ acompanharam-n’o a elle, e a sua mulher, e a tudo o que tinha.
 [12] Pro. 21.1.
 
 
-
+## Genesis 13
 
 _Abrão volta do Egypto._
 
@@ -1569,7 +1481,7 @@ Mamre, [9] que estão junto a Hebron; e edificou ali um altar ao Senhor.
 [9] cap. 18.1 e 35.27 e 37.14.
 
 
-
+## Genesis 14
 
 _Guerra de quatro reis contra cinco._
 
@@ -1677,7 +1589,7 @@ parte.
 [9] ver. 19.
 
 
-
+## Genesis 15
 
 _Deus anima Abrão e promette-lhe um filho._
 
@@ -1775,7 +1687,7 @@ Euphrates;
 [14] Mat. 23.32.
 
 
-
+## Genesis 16
 
 _Hagar é dada por mulher a Abrão._
 
@@ -1847,7 +1759,7 @@ Ishmael a Abrão.
 [6] cap. 32.20. Jui. 6.22, 23.
 
 
-
+## Genesis 17
 
 _Deus muda o nome de Abrão._
 
@@ -1966,7 +1878,7 @@ dinheiro do estrangeiro, foram circumcidados com elle.
 [10] cap. 21.2.
 
 
-
+## Genesis 18
 
 _Apparecem tres anjos a Abrahão._
 
@@ -2129,7 +2041,7 @@ tornou-se ao seu logar.
 [21] Jui. 6.39.
 
 
-
+## Genesis 19
 
 _Lot recebe os dois anjos em sua casa._
 
@@ -2301,7 +2213,7 @@ Mat. 11.23. Luc. 17.28, 29. II Ped. 2.6. Jud. 7. Apo. 20.9.
 [15] Sof. 2.9.
 
 
-
+## Genesis 20
 
 _Abrahão nega que Sarah é sua mulher._
 
@@ -2379,7 +2291,7 @@ Abimelech, por causa de Sarah, mulher de Abrahão.
 [6] cap. 12.16.
 
 
-
+## Genesis 21
 
 _O nascimento de Isaac._
 
@@ -2528,7 +2440,7 @@ philisteus.
 [15] Psa. 90.2.
 
 
-
+## Genesis 22
 
 _Deus manda Abrahão matar seu filho Isaac._
 
@@ -2633,7 +2545,7 @@ Gaham, e Tahash e Maacah.
 [11] cap. 24.15.
 
 
-
+## Genesis 23
 
 _A morte de Sarah._
 
@@ -2709,7 +2621,7 @@ possessão de sepultura pelos filhos de Heth.
 [2] Act. 7.5.
 
 
-
+## Genesis 24
 
 _Abrahão manda seu servo buscar uma mulher para Isaac._
 
@@ -3002,7 +2914,7 @@ de sua mãe.
 [30] Jos. 15.18. Jui. 1.14.
 
 
-
+## Genesis 25
 
 _Abrahão casa com Ketura e tem filhos d’ella._
 
@@ -3162,7 +3074,7 @@ levantou-se, e foi-se. Assim desprezou Esaú a _sua_ primogenitura.
 [18] cap. 27.36. Heb. 12.16.
 
 
-
+## Genesis 26
 
 _Isaac vae a Gerar por causa da fome._
 
@@ -3316,7 +3228,7 @@ filha de Beeri, hetheo, [13] e a Basmath filha de Elon, hetheo.
 [14] cap. 27.45.
 
 
-
+## Genesis 27
 
 _Isaac manda Esaú fazer-lhe um guisado._
 
@@ -3512,7 +3424,7 @@ _são_ das filhas d’esta terra, para que me _será_ a vida?
 [15] cap. 26.35.
 
 
-
+## Genesis 28
 
 _Isaac manda Jacob a Paddan-aram._
 
@@ -3623,7 +3535,7 @@ tudo quanto me deres, certamente te darei o dizimo.
 [15] cap. 35.7.
 
 
-
+## Genesis 29
 
 _Jacob chega ao poço de Haran._
 
@@ -3767,7 +3679,7 @@ Senhor. Por isso chamou o seu nome [BV] Judah: e cessou de parir.
 [7] Psa. 127.3. cap. 30.1.
 
 
-
+## Genesis 30
 
 30 Vendo pois Rachel que não paria filhos a Jacob, [1] teve Rachel inveja
 de sua irmã, e disse a Jacob: Dá-me filhos, ou se não morro.
@@ -3934,7 +3846,7 @@ e servos, e camelos e jumentos.
 [10] cap. 31.9, 12.
 
 
-
+## Genesis 31
 
 _Deus manda Jacob tornar á terra dos seus paes._
 
@@ -4181,7 +4093,7 @@ suas filhas, e abençoou-os, e partiu; e voltou Labão ao seu logar.
 [26] Ose. 10.14.
 
 
-
+## Genesis 32
 
 32 E foi _tambem_ Jacob o seu caminho, e encontraram-o [1] os anjos de
 Deus.
@@ -4317,7 +4229,7 @@ côxa de Jacob no nervo encolhido.
 [13] Jui. 6.22 e 13.22, 23. Isa. 6.5.
 
 
-
+## Genesis 33
 
 _O encontro de Esaú e Jacob._
 
@@ -4409,7 +4321,7 @@ dos filhos de Hemor, pae de Sichem, por cem peças de dinheiro.
 [9] cap. 35.7.
 
 
-
+## Genesis 34
 
 _Dinah é desflorada._
 
@@ -4533,7 +4445,7 @@ destruido, eu e minha casa.
 [7] I Sam. 27.12.
 
 
-
+## Genesis 35
 
 _Deus manda Jacob a Bethel a levantar um altar._
 
@@ -4667,7 +4579,7 @@ e farto de dias; e Esaú e Jacob, seus filhos, o sepultaram.
 [17] cap. 25.8. cap. 25.9.
 
 
-
+## Genesis 36
 
 _Os descendentes de Esaú._
 
@@ -4808,7 +4720,7 @@ de Edom.
 [5] cap. 14.6. Deu. 2.12, 22.
 
 
-
+## Genesis 37
 
 _José é vendido por seus irmãos._
 
@@ -4958,7 +4870,7 @@ Pharaó, capitão da guarda.
 [13] II Reis 19.1. Isa. 32.11. Jon. 3.5.
 
 
-
+## Genesis 38
 
 _Judah e Tamar._
 
@@ -5079,7 +4991,7 @@ chamaram o seu nome Zerah.
 [8] ver. 14.
 
 
-
+## Genesis 39
 
 _José em casa de Potifar._
 
@@ -5192,7 +5104,7 @@ o Senhor prosperava.
 [14] ver. 2, 3.
 
 
-
+## Genesis 40
 
 _José na prisão interpreta dois sonhos._
 
@@ -5290,7 +5202,7 @@ d’elle.
 [9] Job 19.14.
 
 
-
+## Genesis 41
 
 _José interpreta os sonhos de Pharaó._
 
@@ -5528,7 +5440,7 @@ fome prevaleceu em todas as terras.
 [21] cap. 42.6.
 
 
-
+## Genesis 42
 
 _Os irmãos de José descem ao Egypto._
 
@@ -5693,7 +5605,7 @@ caminho que fordes, fareis descer minhas cãs com tristeza á sepultura.
 [16] cap. 44.29.
 
 
-
+## Genesis 43
 
 _Os irmãos de José descem outra vez ao Egypto._
 
@@ -5846,7 +5758,7 @@ E elles beberam, e se regalaram com elle.
 [13] I Reis 3.20. Jer. 31.20. Phi. 1.8 e 2.1. Col. 3.12.
 
 
-
+## Genesis 44
 
 _A astucia de José para deter seus irmãos._
 
@@ -5988,7 +5900,7 @@ que não veja eu o mal que sobrevirá a meu pae.
 [12] cap. 43.9.
 
 
-
+## Genesis 45
 
 _José dá-se a conhecer a seus irmãos._
 
@@ -6105,7 +6017,7 @@ antes que morra.
 [7] Job 9.16 e 29.24. Psa. 126.1. Luc. 24.11, 41.
 
 
-
+## Genesis 46
 
 _Jacob e toda a sua familia descem ao Egypto._
 
@@ -6248,7 +6160,7 @@ egypcios.
 [16] cap. 30.35 e 37.12. Exo. 8.26.
 
 
-
+## Genesis 47
 
 _José annuncia a Pharaó a chegada de seu pae._
 
@@ -6396,7 +6308,7 @@ a cabeceira da cama.
 [11] cap. 50.5, 13.
 
 
-
+## Genesis 48
 
 _Jacob adoece._
 
@@ -6510,7 +6422,7 @@ tomei com a minha espada e com o meu arco da mão dos amorrheos.
 [13] Jos. 24.32. João 4.5.
 
 
-
+## Genesis 49
 
 _Jacob abençoa seus filhos e morre._
 
@@ -6648,7 +6560,7 @@ pés na cama, [17] e espirou, e foi congregado ao seu povo.
 [17] ver. 29.
 
 
-
+## Genesis 50
 
 _A lamentação por Jacob e o seu enterro._
 
@@ -6768,11 +6680,9 @@ pozeram n’um caixão no Egypto.
 [10] Exo. 13.19. Jos. 24.32. Heb. 11.22.
 
 
-
+# Exodo 1
 
 O SEGUNDO LIVRO DE MOYSÉS CHAMADO EXODO.
-
-
 
 
 _Os descendentes de Jacob no Egypto._
@@ -6867,7 +6777,7 @@ nascerem lançareis no rio, mas a todas as filhas guardareis com vida.
 [9] I Sam. 2.35. II Sam. 7.11. I Reis 2.24. Psa. 127.1.
 
 
-
+## Exodo 2
 
 _O nascimento de Moysés._
 
@@ -6981,7 +6891,7 @@ Abrahão, com Isaac, e com Jacob;
 [10] Gen. 15.14 e 26.3 e 46.4. Luc. 1.72, 76.
 
 
-
+## Exodo 3
 
 _Deus falla com Moysés do meio da sarça ardente._
 
@@ -7102,7 +7012,7 @@ filhos e sobre vossas filhas; e despojareis ao Egypto.
 [16] cap. 12.36. Job 27.17. Pro. 13.22.
 
 
-
+## Exodo 4
 
 _A vara de Moysés torna-se em cobra._
 
@@ -7247,7 +7157,7 @@ Rom. 9.18.
 [17] cap. 3.16. ver. 3, 9. cap. 12.27.
 
 
-
+## Exodo 5
 
 _Moysés e Aarão fallam a Pharaó._
 
@@ -7342,7 +7252,7 @@ maltratou a este povo; e de nenhuma sorte livraste o teu povo.
 [4] Jer. 20.7. Hab. 2.3.
 
 
-
+## Exodo 6
 
 6 Então disse o Senhor a Moysés: Agora verás o que hei de fazer a Pharaó:
 porque por uma mão poderosa os deixará ir, sim, por uma mão poderosa [1]
@@ -7485,7 +7395,7 @@ incircumciso dos labios; como pois Pharaó me ouvirá?
 [18] ver. 12.
 
 
-
+## Exodo 7
 
 7 Então disse o Senhor a Moysés: Eis que te tenho posto _por_ Deus sobre
 Pharaó, [1] e Aarão, teu irmão, será o teu propheta.
@@ -7605,7 +7515,7 @@ porquanto não podiam beber das aguas do rio.
 [13] Isa. 26.11. Jer. 5.3 e 36.24. Agg. 1.5.
 
 
-
+## Exodo 8
 
 _A praga das rans._
 
@@ -7749,7 +7659,7 @@ povo.
 [12] ver. 15. cap. 4.21. Rom. 2.5.
 
 
-
+## Exodo 9
 
 _A praga da peste nos animaes._
 
@@ -7896,7 +7806,7 @@ Eze. 38.22. Apo. 8.7.
 [11] II Chr. 36.13. Rom. 2.4, 5.
 
 
-
+## Exodo 10
 
 _Deus ameaça Pharaó com a praga dos gafanhotos._
 
@@ -8035,7 +7945,7 @@ rosto: porque no dia em que vires o meu rosto, morrerás.
 [13] Heb. 11.27.
 
 
-
+## Exodo 11
 
 _Deus annuncia a Moysés a morte de todos os primogenitos._
 
@@ -8095,7 +8005,7 @@ de Israel da sua terra.
 [9] cap. 10.20, 27.
 
 
-
+## Exodo 12
 
 _A instituição da primeira paschoa._
 
@@ -8342,7 +8252,7 @@ Israel da terra do Egypto, segundo os seus exercitos.
 [31] ver. 41. cap. 6.26.
 
 
-
+## Exodo 13
 
 _Os primogenitos são sanctificados a Deus._
 
@@ -8455,7 +8365,7 @@ a columna de fogo, de noite.
 e 99.7 e 105.39. Isa. 4.5. I Cor. 10.2.
 
 
-
+## Exodo 14
 
 _Deus annuncia a ruina dos egypcios._
 
@@ -8600,7 +8510,7 @@ Isa. 41.10, 14.
 [12] cap. 19.9. João 2.11.
 
 
-
+## Exodo 15
 
 _O cantico de Moysés._
 
@@ -8734,7 +8644,7 @@ palmeiras: e ali se acamparam junto das aguas.
 [18] Num. 33.9.
 
 
-
+## Exodo 16
 
 _Deus manda o manná._
 
@@ -8908,7 +8818,7 @@ terra de [19] Canaan.
 [20] ver. 16, 32, 33.
 
 
-
+## Exodo 17
 
 _A jornada pelo deserto de Sin e a falta de agua._
 
@@ -8992,7 +8902,7 @@ Amalek de geração em geração.
 [10] Deu. 25.19. I Sam. 15.3.
 
 
-
+## Exodo 18
 
 _O sogro de Moysés traz-lhe sua mulher e seus filhos._
 
@@ -9126,7 +9036,7 @@ trouxeram a Moysés, e todo o negocio pequeno julgaram elles.
 [20] ver. 22. Job 29.16.
 
 
-
+## Exodo 19
 
 _Deus falla com Moysés no monte de Sinai._
 
@@ -9265,7 +9175,7 @@ Deu. 10.14. I Cor. 10.26.
 [23] ver. 12. Jos. 3.4.
 
 
-
+## Exodo 20
 
 _Os dez mandamentos._
 
@@ -9404,7 +9314,7 @@ Heb. 13.5. Jer. 5.8. Mat. 5.28.
 [26] Deu. 27.5. Jos. 8.31.
 
 
-
+## Exodo 21
 
 _As leis ácerca dos servos e dos homicidios._
 
@@ -9557,7 +9467,7 @@ não o guardou, certamente pagará boi por boi; porém o morto será seu.
 [18] Zac. 11.12, 13. Mat. 26.15. ver. 28.
 
 
-
+## Exodo 22
 
 _As leis ácerca da propriedade._
 
@@ -9708,7 +9618,7 @@ despedaçada no campo: aos cães a lançareis.
 [24] cap. 19.6. Lev. 19.2. Deu. 14.21.
 
 
-
+## Exodo 23
 
 _O testemunho falso e a injustiça._
 
@@ -9897,7 +9807,7 @@ Chr. 14.14.
 [33] cap. 34.12. Deu. 7.16. Jos. 23.13. Jui. 2.3.
 
 
-
+## Exodo 24
 
 _Deus manda Moysés e os anciãos subir ao monte._
 
@@ -9993,7 +9903,7 @@ Moysés esteve no monte quarenta dias e quarenta noites.
 [16] cap. 34.28. Deu. 9.9.
 
 
-
+## Exodo 25
 
 _Deus manda o povo trazer offertas para o tabernaculo._
 
@@ -10170,7 +10080,7 @@ no monte.
 [18] cap. 26.30. Num. 8.4. I Chr. 28.11, 19. Act. 7.44. Heb. 8.5.
 
 
-
+## Exodo 26
 
 _As cortinas do tabernaculo._
 
@@ -10320,7 +10230,7 @@ fundição cinco bases de cobre.
 [10] cap. 36.38.
 
 
-
+## Exodo 27
 
 _O altar dos holocaustos._
 
@@ -10417,7 +10327,7 @@ gerações, aos filhos de Israel.
 [7] cap. 28.43 e 29.9, 28. Lev. 3.17. Num. 18.23. I Sam. 30.25.
 
 
-
+## Exodo 28
 
 _Deus escolhe Aarão e seus filhos para sacerdotes._
 
@@ -10616,7 +10526,7 @@ Heb. 9.28. I Ped. 2.24.
 [18] Lev. 5.1, 17 e 20.19, 20 e 22.9. Num. 9.13 e 18.22. cap. 27.21.
 
 
-
+## Exodo 29
 
 _O sacrificio e as ceremonias da consagração._
 
@@ -10866,7 +10776,7 @@ terra do Egypto, para habitar no meio d’elles: Eu _sou_ o Senhor seu Deus.
 [42] cap. 20.2.
 
 
-
+## Exodo 30
 
 _O altar do incenso._
 
@@ -11058,7 +10968,7 @@ Mat. 20.28. Mar. 10.45. I Tim. 2.6. I Ped. 1.18.
 [26] ver. 33.
 
 
-
+## Exodo 31
 
 _Os artifices da obra do tabernaculo._
 
@@ -11157,7 +11067,7 @@ Deus.
 [16] cap. 24.12 e 32.15, 16. Deu. 4.13 e 5.22. II Cor. 3.3.
 
 
-
+## Exodo 32
 
 _O bezerro de oiro._
 
@@ -11369,7 +11279,7 @@ Joel 2.13. Jon. 4.2.
 [35] II Sam. 12.9. Act. 7.41.
 
 
-
+## Exodo 33
 
 _Deus não irá no meio do povo mas enviará um anjo._
 
@@ -11514,7 +11424,7 @@ minha face não se verá.
 [26] ver. 20. João 1.18.
 
 
-
+## Exodo 34
 
 _As novas taboas dos dez mandamentos._
 
@@ -11726,7 +11636,7 @@ Cor. 8.4, 7, 10.
 [37] II Cor. 3.16.
 
 
-
+## Exodo 35
 
 _O sabbado e as offertas para o tabernaculo._
 
@@ -11900,7 +11810,7 @@ inventando invenções.
 [24] ver. 31. cap. 31.3. I Reis 7.14. Isa. 28.26.
 
 
-
+## Exodo 36
 
 36 Assim obraram Bezaleel e Aholiab, e todo o homem [1] sabio de coração,
 a quem o Senhor déra sabedoria e intelligencia, para saber como haviam de
@@ -12058,7 +11968,7 @@ suas molduras cobriu d’oiro: e as suas cinco bases _eram_ de cobre.
 [13] cap. 26.36.
 
 
-
+## Exodo 37
 
 _A arca._
 
@@ -12178,7 +12088,7 @@ de obra do perfumista.
 [7] cap. 30.23, 34.
 
 
-
+## Exodo 38
 
 _O altar do holocausto._
 
@@ -12310,7 +12220,7 @@ estacas do tabernaculo e todas as estacas do pateo ao redor.
 [9] cap. 26.19, 21, 25, 32.
 
 
-
+## Exodo 39
 
 _As vestes dos Sacerdotes._
 
@@ -12491,7 +12401,7 @@ ordenara, assim a fizeram: então Moysés [17] os abençoou.
 Chr. 30.27.
 
 
-
+## Exodo 40
 
 _Deus manda Moysés levantar o tabernaculo._
 
@@ -12678,11 +12588,9 @@ d’Israel, em todas as suas jornadas.
 [31] cap. 13.21. Num. 9.15.
 
 
-
+# Levitico 1
 
 O TERCEIRO LIVRO DE MOYSÉS CHAMADO LEVITICO.
-
-
 
 
 _Os holocaustos._
@@ -12783,7 +12691,7 @@ Heb. 9.14. I Ped. 1.19.
 [16] ver. 9, 13.
 
 
-
+## Levitico 2
 
 _As offertas de manjares._
 
@@ -12875,7 +12783,7 @@ do seu azeite, com todo o seu incenso: offerta queimada _é_ ao Senhor.
 [15] ver. 2.
 
 
-
+## Levitico 3
 
 _Os sacrificios de paz ou das graças._
 
@@ -12961,7 +12869,7 @@ habitações: [11] nenhuma gordura nem sangue algum comereis.
 14.33. Eze. 44.7, 15.
 
 
-
+## Levitico 4
 
 _O sacrificio pelos erros dos sacerdotes._
 
@@ -13149,7 +13057,7 @@ e 2.2.
 [24] cap. 3.5. ver. 26, 31.
 
 
-
+## Levitico 5
 
 _O sacrificio pelos peccados occultos._
 
@@ -13280,7 +13188,7 @@ expiação do seu erro em que errou sem saber; e lhe será perdoado.
 [22] Esd. 10.2.
 
 
-
+## Levitico 6
 
 _O sacrificio pelos peccados voluntarios._
 
@@ -13455,7 +13363,7 @@ congregação, para expiar no sanctuario, se comerá: no fogo será queimada.
 [29] cap. 4.7, 11, 12, 18, 21 e 10.18 e 16.27. Heb. 13.11.
 
 
-
+## Levitico 7
 
 _A lei da expiação da culpa._
 
@@ -13657,7 +13565,7 @@ deserto de Sinai.
 [29] cap. 1.2.
 
 
-
+## Levitico 8
 
 _A consagração de Aarão e seus filhos._
 
@@ -13837,7 +13745,7 @@ pela mão de Moysés.
 [25] Num. 3.7 e 9.19. Deu. 11.1. I Reis 2.3.
 
 
-
+## Levitico 9
 
 _Aarão offerece sacrificios por si e pelo povo._
 
@@ -13969,7 +13877,7 @@ sobre as suas faces.
 [24] I Reis 18.39. II Chr. 7.3. Esd. 3.11.
 
 
-
+## Levitico 10
 
 _Nadab e Abihu morrem diante do Senhor._
 
@@ -14103,7 +14011,7 @@ Jos. 7.1 e 22.18, 20. II Sam. 24.1.
 [23] Jer. 6.20 e 14.12. Ose. 9.4. Mal. 1.10, 13.
 
 
-
+## Levitico 11
 
 _Os animaes que se devem comer e os que se não devem comer._
 
@@ -14287,7 +14195,7 @@ animaes que se podem comer e os animaes que não se podem comer.
 [15] cap. 10.10.
 
 
-
+## Levitico 12
 
 _A purificação da mulher depois do parto._
 
@@ -14332,7 +14240,7 @@ será limpa.
 [5] cap. 4.26.
 
 
-
+## Levitico 13
 
 _As leis ácerca da praga da lepra._
 
@@ -14559,7 +14467,7 @@ limpo, ou para declaral-o por immundo.
 [8] cap. 14.44.
 
 
-
+## Levitico 14
 
 _A lei ácerca do leproso depois de sarado._
 
@@ -14817,7 +14725,7 @@ _será_ limpa. Esta _é_ a lei da lepra.
 [27] Deu. 24.8. Eze. 44.23.
 
 
-
+## Levitico 15
 
 _Immundicias do homem e da mulher._
 
@@ -14968,7 +14876,7 @@ _mulher_ immunda.
 [17] ver. 19, 24 e 25.
 
 
-
+## Levitico 16
 
 _Como Aarão deve entrar no sanctuario._
 
@@ -15181,7 +15089,7 @@ _Aarão_ como o Senhor ordenara a Moysés.
 [35] Exo. 30.10. Heb. 9.7, 25.
 
 
-
+## Levitico 17
 
 _O sangue de todos os animaes deve trazer-se á porta do tabernaculo._
 
@@ -15290,7 +15198,7 @@ Sam. 14.33. Eze. 44.7.
 [19] cap. 5.1 e 19.8. Num. 19.20.
 
 
-
+## Levitico 18
 
 _Casamentos illicitos._
 
@@ -15444,7 +15352,7 @@ e 23.2. Ose. 2.13 e 8.13 e 9.9.
 [24] ver. 8, 26. cap. 20.23. Deu. 18.9. ver. 2, 4, 24.
 
 
-
+## Levitico 19
 
 _A repetição de diversas leis._
 
@@ -15632,7 +15540,7 @@ Isa. 8.19. Act. 16.16.
 [30] cap. 13.4, 5. Deu. 4.5, 6 e 5.1 e 6.25.
 
 
-
+## Levitico 20
 
 _As penas de diversos crimes._
 
@@ -15795,7 +15703,7 @@ seu sangue _é_ sobre elles.
 [28] Exo. 22.18. cap. 19.31. Deu. 18.10, 11. I Sam. 28.7, 8. ver. 9.
 
 
-
+## Levitico 21
 
 _Leis ácerca dos sacerdotes._
 
@@ -15906,7 +15814,7 @@ e 10.6.
 [15] ver. 12.
 
 
-
+## Levitico 22
 
 _A lei ácerca de comer coisas sanctas._
 
@@ -16080,7 +15988,7 @@ o Senhor.
 [28] Exo. 6.7. cap. 11.45 e 19.36 e 25.38.
 
 
-
+## Levitico 23
 
 _As festas solemnes do Senhor._
 
@@ -16307,7 +16215,7 @@ e 2.15.
 [30] ver. 2.
 
 
-
+## Levitico 24
 
 _A lei ácerca das lampadas._
 
@@ -16426,7 +16334,7 @@ os filhos de Israel como o Senhor ordenara a Moysés.
 [18] ver. 14.
 
 
-
+## Levitico 25
 
 25 Fallou mais o Senhor a Moysés no monte de Sinai, dizendo:
 
@@ -16699,7 +16607,7 @@ Act. 11.29. Rom. 12.10. I João 3.17.
 [42] ver. 42.
 
 
-
+## Levitico 26
 
 _Mandamentos, promessas e ameaças._
 
@@ -16976,7 +16884,7 @@ Luc. 15.18. I João 1.9.
 [54] cap. 27.34. Deu. 6.1 e 12.1 e 33.4. João 1.17. cap. 25.1.
 
 
-
+## Levitico 27
 
 _Votos particulares e a avaliação d’elles._
 
@@ -17142,11 +17050,9 @@ filhos de Israel, no monte de Sinai.
 [21] cap. 26.46.
 
 
-
+# Numeros 1
 
 O QUARTO LIVRO DE MOYSÉS CHAMADO NUMEROS.
-
-
 
 
 _Deus manda Moysés numerar as tribus._
@@ -17360,7 +17266,7 @@ ordenara a Moysés, assim o fizeram.
 [15] cap. 8.24, 25, 26 e 31.30, 47. I Chr. 23.32. II Chr. 13.11.
 
 
-
+## Numeros 2
 
 _A ordem das tribus no acampamento._
 
@@ -17501,7 +17407,7 @@ seus paes.
 [11] cap. 24.2, 5, 6.
 
 
-
+## Numeros 3
 
 _Os filhos de Aarão e os levitas são escolhidos para o serviço do
 tabernaculo._
@@ -17747,7 +17653,7 @@ segundo o mandado do Senhor, como o Senhor ordenara a Moysés.
 [34] ver. 48.
 
 
-
+## Numeros 4
 
 _Os deveres dos levitas._
 
@@ -17971,7 +17877,7 @@ Moysés.
 [22] ver. 1, 21.
 
 
-
+## Numeros 5
 
 _O leproso e o immundo são lançados fóra do arraial._
 
@@ -18127,7 +18033,7 @@ iniquidade.
 [18] Lev. 20.17, 19, 20.
 
 
-
+## Numeros 6
 
 _A lei do nazireado._
 
@@ -18263,7 +18169,7 @@ abençoarei.
 [19] Deu. 28.10. II Chr. 7.14. Isa. 43.7. Dan. 9.18.
 
 
-
+## Numeros 7
 
 _As offertas dos principes na dedicação do tabernaculo e do altar._
 
@@ -18573,7 +18479,7 @@ fallava.
 [16] cap. 12.8. Exo. 33.9, 11 e 25.22.
 
 
-
+## Numeros 8
 
 _Como devem ser accesas as lampadas._
 
@@ -18711,7 +18617,7 @@ com os levitas nas suas guardas.
 [21] cap. 1.53.
 
 
-
+## Numeros 9
 
 _A celebração da paschoa no deserto de Sinai._
 
@@ -18836,7 +18742,7 @@ pela mão de Moysés.
 [17] ver. 19.
 
 
-
+## Numeros 10
 
 _As duas trombetas de prata._
 
@@ -19026,7 +18932,7 @@ Sam. 10.18. Psa. 106.42.
 [30] Psa. 68.1, 2, 3.
 
 
-
+## Numeros 11
 
 _As murmurações dos israelitas._
 
@@ -19235,7 +19141,7 @@ Hazaaroth.
 [36] cap. 33.17.
 
 
-
+## Numeros 12
 
 _A sedição de Miriam e Aarão._
 
@@ -19323,7 +19229,7 @@ Act. 10.11, 17 e 22.17. Gen. 31.10. I Reis 3.5. Mat. 1.20.
 [16] cap. 11.35 e 33.18.
 
 
-
+## Numeros 13
 
 _Doze homens são enviados para espiar a terra de Canaan._
 
@@ -19468,7 +19374,7 @@ _tambem_ eramos aos seus olhos.
 [22] Isa. 40.22. I Sam. 17.42.
 
 
-
+## Numeros 14
 
 _Os israelitas querem voltar para o Egypto._
 
@@ -19732,7 +19638,7 @@ Chr. 13.12 e 15.2 e 20.17 e 32.8. Isa. 41.10. Amós 5.14. Zac. 8.23.
 [52] cap. 21.3. Jui. 1.17.
 
 
-
+## Numeros 15
 
 _A repetição de diversas leis._
 
@@ -19930,7 +19836,7 @@ Deu. 16.10. Gen. 8.21. Exo. 29.18.
 [26] Lev. 11.44, 45. Rom. 12.1. Col. 1.22. I Ped. 1.15, 16.
 
 
-
+## Numeros 16
 
 _A rebellião de Coré, Dathan e Abiram._
 
@@ -20171,7 +20077,7 @@ Jer. 23.16. Eze. 13.17. João 5.30 e 6.38.
 [31] Lev. 10.6. cap. 1.53 e 8.19 e 11.33. I Chr. 27.24. Psa. 106.29.
 
 
-
+## Numeros 17
 
 _A vara de Aarão floresce._
 
@@ -20229,7 +20135,7 @@ seremos pois todos consumidos?
 [6] cap. 1.51 e 18.4, 7.
 
 
-
+## Numeros 18
 
 _Os deveres e direitos dos sacerdotes, e dos levitas._
 
@@ -20424,7 +20330,7 @@ filhos de Israel, para que não morraes.
 [34] Lev. 22.2, 15.
 
 
-
+## Numeros 19
 
 _A agua de separação._
 
@@ -20544,7 +20450,7 @@ tocar será immunda até á tarde.
 [18] Agg. 2.13. Lev. 15.5.
 
 
-
+## Numeros 20
 
 _A morte de Miriam._
 
@@ -20713,7 +20619,7 @@ I Ped. 3.15.
 [26] Deu. 34.8.
 
 
-
+## Numeros 21
 
 _Os israelitas destroem aos cananeos._
 
@@ -20915,7 +20821,7 @@ seu povo, que nenhum d’elles escapou: e tomaram a sua terra em possessão.
 [35] Deu. 3.3, 4, etc.
 
 
-
+## Numeros 22
 
 _Balac e Balaão._
 
@@ -21123,7 +21029,7 @@ Jud. 11. Apo. 2.14.
 [28] Deu. 12.2.
 
 
-
+## Numeros 23
 
 _Balac edifica sete altares._
 
@@ -21280,7 +21186,7 @@ Miq. 2.4. Hab. 2.6.
 [25] ver. 1.
 
 
-
+## Numeros 24
 
 24 Vendo Balaão que bem parecia aos olhos do Senhor que abençoasse
 a Israel, não se foi esta vez [1] como d’antes ao encontro dos
@@ -21409,7 +21315,7 @@ Apo. 1.10, 17.
 [22] cap. 31.8.
 
 
-
+## Numeros 25
 
 _Os israelitas peccam com as filhas dos moabitas._
 
@@ -21502,7 +21408,7 @@ negocio de Peor.
 [16] cap. 31.16. Apo. 2.14.
 
 
-
+## Numeros 26
 
 _Deus manda tomar a somma de todos os israelitas._
 
@@ -21793,7 +21699,7 @@ nenhum d’elles ficou, senão Caleb, filho de Jefoné, e Josué, filho de Nun.
 [39] cap. 14.28. I Cor. 10.5. cap. 14.30.
 
 
-
+## Numeros 27
 
 _A lei ácerca das heranças._
 
@@ -21914,7 +21820,7 @@ Jos. 9.14. I Sam. 22.10, 13, 15.
 [16] Deu. 3.28, 31.7.
 
 
-
+## Numeros 28
 
 _O holocausto perpetuo._
 
@@ -22059,7 +21965,7 @@ offerecereis (ser-vos-hão elles sem [17] mancha) com as suas libações.
 [17] ver. 19.
 
 
-
+## Numeros 29
 
 _As offertas na festa das trombetas._
 
@@ -22218,7 +22124,7 @@ ordenara a Moysés.
 1.14. Lev. 7.11, 16 e 22.21, 23.
 
 
-
+## Numeros 30
 
 _A lei ácerca dos votos das mulheres._
 
@@ -22289,7 +22195,7 @@ Act. 23.14. Job 22.27. Psa. 22.24 e 41.14. Nah. 1.15.
 [3] Gen. 3.16.
 
 
-
+## Numeros 31
 
 _A victoria sobre os midianitas._
 
@@ -22515,7 +22421,7 @@ para os filhos d’Israel perante o Senhor.
 [23] Exo. 30.16.
 
 
-
+## Numeros 32
 
 _As tribus de Ruben e Gad pedem a terra de Gilead._
 
@@ -22722,7 +22628,7 @@ Nobah, segundo o seu nome.
 [32] Deu. 3.10. Jos. 13.30. I Chr. 2.21, 22, 23. Jui. 10.4. I Reis 4.13.
 
 
-
+## Numeros 33
 
 _As jornadas desde o Egypto até Moab._
 
@@ -22942,7 +22848,7 @@ terra em que habitardes.
 [33] Jos. 23.13. Jui. 2.2. Psa. 106.34, 36. Exo. 23.33. Eze. 28.24.
 
 
-
+## Numeros 34
 
 _Os confins da terra._
 
@@ -23068,7 +22974,7 @@ heranças aos filhos de Israel na terra de Canaan.
 [16] cap. 1.4, 16.
 
 
-
+## Numeros 35
 
 _As cidades dos levitas._
 
@@ -23236,7 +23142,7 @@ qual eu habitarei: pois eu, o Senhor, habito no meio dos filhos d’Israel.
 [21] Lev. 18.25. Deu. 21.23. Exo. 29.45.
 
 
-
+## Numeros 36
 
 _Os casamentos das herdeiras._
 
@@ -23307,11 +23213,9 @@ Jordão _de_ Jericó.
 [9] cap. 26.3 e 33.50.
 
 
-
+# Deuteronomio 1
 
 O QUINTO LIVRO DE MOYSÉS CHAMADO DEUTERONOMIO.
-
-
 
 
 _O discurso de Moysés na planicie do Jordão._
@@ -23569,7 +23473,7 @@ estivestes.
 [44] Num. 20.1, 22. Jui. 11.17.
 
 
-
+## Deuteronomio 2
 
 _Moysés falla ácerca dos edomitas, moabitas, e ammonitas._
 
@@ -23770,7 +23674,7 @@ que nos prohibira o Senhor nosso Deus.
 [33] Gen. 32.22. cap. 3.16. ver. 5, 9, 19.
 
 
-
+## Deuteronomio 3
 
 _Moysés falla ácerca de Og, rei de Basan._
 
@@ -23933,7 +23837,7 @@ passará diante d’este povo, e o fará possuir a terra que vires.
 [27] cap. 4.46 e 34.6.
 
 
-
+## Deuteronomio 4
 
 _Moysés exhorta o povo á obediencia._
 
@@ -24215,7 +24119,7 @@ Jer. 29.12.
 [47] cap. 3.17.
 
 
-
+## Deuteronomio 5
 
 _A repetição dos dez mandamentos._
 
@@ -24399,7 +24303,7 @@ que haveis de possuir.
 [33] cap. 4.40.
 
 
-
+## Deuteronomio 6
 
 _O fim da lei é obediencia._
 
@@ -24535,7 +24439,7 @@ Jer. 4.2 e 5.7 e 12.16.
 [24] Lev. 18.5. cap. 24.13. Rom. 10.3, 5.
 
 
-
+## Deuteronomio 7
 
 _Ordena-se a destruição dos cananeos e seus idolos._
 
@@ -24703,7 +24607,7 @@ _assim_ como ella: de todo a detestarás, e de todo a abominarás, porque
 [29] Lev. 27.28. cap. 13.17. Jos. 6.17, 18 e 7.1.
 
 
-
+## Deuteronomio 8
 
 _Exhortação a ter em memoria os benificios do Senhor._
 
@@ -24818,7 +24722,7 @@ perecereis: porquanto não querieis obedecer á voz do Senhor vosso Deus.
 [20] Dan. 9.11.
 
 
-
+## Deuteronomio 9
 
 _Moysés lembra aos israelitas as suas murmurações e suas infidelidades._
 
@@ -24997,7 +24901,7 @@ com a tua grande força e com o teu braço estendido.
 [33] cap. 4.20. I Reis 8.51. Neh. 1.10. Psa. 95.7.
 
 
-
+## Deuteronomio 10
 
 _Moysés falla das segundas taboas da lei._
 
@@ -25140,7 +25044,7 @@ Col. 3.25. I Ped. 1.17.
 [28] cap. 1.10 e 28.62. Gen. 15.5.
 
 
-
+## Deuteronomio 11
 
 11 Amarás pois [1] ao Senhor teu Deus, e guardarás a sua observancia, e
 os seus estatutos, e os seus juizos, e os seus mandamentos, todos os dias.
@@ -25327,7 +25231,7 @@ eu hoje vos proponho.
 [35] cap. 5.32 e 12.32.
 
 
-
+## Deuteronomio 12
 
 _O unico logar de culto é o escolhido pelo Senhor._
 
@@ -25520,7 +25424,7 @@ diminuirás.
 [33] cap. 4.2 e 13.18. Jos. 1.7. Pro. 30.6. Apo. 22.18.
 
 
-
+## Deuteronomio 13
 
 _O castigo dos falsos prophetas e dos idolatras._
 
@@ -25629,7 +25533,7 @@ e 20.17.
 [18] cap. 12.25, 28, 32.
 
 
-
+## Deuteronomio 14
 
 _Animaes limpos e immundos._
 
@@ -25764,7 +25668,7 @@ toda a obra das tuas mãos, que fizeres.
 [19] cap. 15.10. Pro. 3.9. Mal. 3.10.
 
 
-
+## Deuteronomio 15
 
 _O anno da remissão._
 
@@ -25889,7 +25793,7 @@ agua.
 [21] cap. 12.16, 23.
 
 
-
+## Deuteronomio 16
 
 _As tres festas da paschoa, de pentecostes e dos tabernaculos._
 
@@ -26022,7 +25926,7 @@ teu Deus, que fizeres para ti,
 [22] Lev. 26.1.
 
 
-
+## Deuteronomio 17
 
 _O castigo da idolatria._
 
@@ -26153,7 +26057,7 @@ Num. 35.11, 16, 19. cap. 19.4, 10, 11.
 [23] cap. 5.22. I Reis 15.5.
 
 
-
+## Deuteronomio 18
 
 _A herança e os direitos dos sacerdotes e dos levitas._
 
@@ -26277,7 +26181,7 @@ d’elle.
 [20] ver. 20.
 
 
-
+## Deuteronomio 19
 
 _A quem pertence os privilegios das cidades de refugio._
 
@@ -26390,7 +26294,7 @@ dente, mão por mão, pé por pé.
 [15] ver. 13. Exo. 21.23, 24. Lev. 24.20. Mat. 5.38.
 
 
-
+## Deuteronomio 20
 
 _As leis da guerra._
 
@@ -26491,7 +26395,7 @@ edificarás tranqueiras, até que esta seja derribada.
 [12] Exo. 23.33.
 
 
-
+## Deuteronomio 21
 
 _Expiação por uma morte cujo auctor é desconhecido._
 
@@ -26625,7 +26529,7 @@ herança.
 [17] Lev. 18.25. Num. 35.34.
 
 
-
+## Deuteronomio 22
 
 _Caridade com o proximo._
 
@@ -26772,7 +26676,7 @@ ourela de seu pae.
 [18] Ruth 3.9. Eze. 16.8.
 
 
-
+## Deuteronomio 23
 
 _Pessoas que são excluidas das assembléas sanctas._
 
@@ -26897,7 +26801,7 @@ as espigas; porém não metterás a foice na seara do teu proximo.
 [18] Mat. 12.1. Mar. 2.23. Luc. 6.1.
 
 
-
+## Deuteronomio 24
 
 _Ácerca do divorcio, dos penhores, dos roubadores e da lepra._
 
@@ -27021,7 +26925,7 @@ Zac. 7.10. Mal. 3.5.
 [18] cap. 15.10. Psa. 41.2. Pro. 19.17.
 
 
-
+## Deuteronomio 25
 
 _A pena de açoites._
 
@@ -27139,7 +27043,7 @@ Amalek de debaixo do céu: não te esqueças.
 [21] Exo. 17.14.
 
 
-
+## Deuteronomio 26
 
 _As primicias da terra._
 
@@ -27255,7 +27159,7 @@ Senhor teu Deus, como tem dito.
 [18] Exo. 19.6. cap. 7.6 e 28.9. I Ped. 2.9.
 
 
-
+## Deuteronomio 27
 
 _A ordem de levantar um padrão e gravar n’elle a lei._
 
@@ -27388,7 +27292,7 @@ fazendo. E todo o povo dirá: Amen.
 [21] cap. 28.15. Psa. 119.21. Jer. 11.3. Gal. 3.10.
 
 
-
+## Deuteronomio 28
 
 _As bençãos que serão lançadas do monte Gerizim._
 
@@ -27779,7 +27683,7 @@ e por servas aos vossos inimigos; mas não haverá quem _vos_ compre.
 [72] Jer. 43.7. Ose. 8.13 e 9.3. cap. 17.16.
 
 
-
+## Deuteronomio 29
 
 _Deus faz um novo pacto com o povo._
 
@@ -27937,7 +27841,7 @@ todas as palavras d’esta lei.
 [26] I Reis 14.15. II Chr. 7.20. Psa. 52.7. Pro. 2.22.
 
 
-
+## Deuteronomio 30
 
 _A misericordia de Deus para com os que se arrependem._
 
@@ -28050,7 +27954,7 @@ Jacob, que lhes havia de dar.
 [15] Psa. 27.1. João 11.25.
 
 
-
+## Deuteronomio 31
 
 _Moysés nomeia Josué seu successor._
 
@@ -28250,7 +28154,7 @@ congregação de Israel, até se acabarem.
 [35] cap. 28.15. Gen. 49.1. cap. 4.30.
 
 
-
+## Deuteronomio 32
 
 _Ultimo cantico de Moysés._
 
@@ -28545,7 +28449,7 @@ na terra que darei aos filhos de Israel.
 [58] Num. 27.12. cap. 34.4.
 
 
-
+## Deuteronomio 33
 
 _A magestade de Deus._
 
@@ -28716,7 +28620,7 @@ Heb. 2.2. Apo. 5.11.
 [31] II Sam. 22.45. Psa. 18.44. cap. 32.13.
 
 
-
+## Deuteronomio 34
 
 _Moysés sobe ao monte Nebo, vê a terra promettida e morre._
 
@@ -28783,11 +28687,9 @@ aos olhos de todo o Israel.
 [11] cap. 4.34 e 7.19.
 
 
-
+# Josué 1
 
 O LIVRO DE JOSUÉ.
-
-
 
 
 _Deus falla a Josué e anima-o._
@@ -28891,7 +28793,7 @@ Deu. 31.6, 8. Heb. 13.5.
 [14] ver. 5. I Sam. 20.13. I Reis 1.37.
 
 
-
+## Josué 2
 
 _Josué envia dois espias a Jericó._
 
@@ -29021,7 +28923,7 @@ nós.
 [17] Exo. 23.31. cap. 6.2 e 21.44.
 
 
-
+## Josué 3
 
 _A passagem do Jordão._
 
@@ -29128,7 +29030,7 @@ Joel 2.16.
 [17] Exo. 14.29.
 
 
-
+## Josué 4
 
 _As doze pedras tiradas do meio do Jordão._
 
@@ -29251,7 +29153,7 @@ _é_ forte: para que temaes ao [17] Senhor vosso Deus todos os dias.
 [17] Exo. 14.31. Deu. 6.2. Jer. 10.7.
 
 
-
+## Josué 5
 
 _A circumcisão dos filhos de Israel._
 
@@ -29350,7 +29252,7 @@ assim.
 [14] Exo. 3.5. Act. 7.33.
 
 
-
+## Josué 6
 
 _Jericó é destruida, Rahab é salva._
 
@@ -29489,7 +29391,7 @@ terra.
 [16] cap. 1.5 e 9.1, 3.
 
 
-
+## Josué 7
 
 _Os israelitas são derrotados por causa do peccado de Acan._
 
@@ -29642,7 +29544,7 @@ chamou o nome d’aquelle logar o valle d’Acor, até _ao dia de_ hoje.
 [23] ver. 24. Isa. 65.10. Ose. 2.15.
 
 
-
+## Josué 8
 
 _Hai é tomada e destruida._
 
@@ -29824,7 +29726,7 @@ meninos, e dos estrangeiros, que andavam no meio d’elles.
 [21] Deu. 31.12. ver. 33.
 
 
-
+## Josué 9
 
 _Os gibeonitas enganam Josué, que faz com elles uma alliança._
 
@@ -29971,7 +29873,7 @@ II Sam. 2.1 e 5.19.
 [21] Deu. 12.5.
 
 
-
+## Josué 10
 
 _Gibeon é sitiada por cinco reis._
 
@@ -30196,7 +30098,7 @@ o [24] Senhor Deus d’Israel pelejava por Israel.
 [24] ver. 14.
 
 
-
+## Josué 11
 
 _As victorias de Josué sobre diversos reis._
 
@@ -30328,7 +30230,7 @@ guerra.
 e 23.1.
 
 
-
+## Josué 12
 
 _As terras que Moysés deu ás duas e meia tribus._
 
@@ -30446,7 +30348,7 @@ outro;
 [20] cap. 11.2. Gen. 14.1. Isa. 9.1.
 
 
-
+## Josué 13
 
 _Josué reparte a terra que tinha conquistado._
 
@@ -30622,7 +30524,7 @@ Israel _é_ a sua herança, como _já_ lhe tinha dito.
 [29] ver. 14. cap. 18.7. Num. 18.20. Deu. 10.9 e 18.1, 2.
 
 
-
+## Josué 14
 
 _Josué dá a Caleb, em herança, Hebron._
 
@@ -30722,7 +30624,7 @@ foi um grande homem entre os anekins. E a terra repousou da guerra.
 [18] Gen. 23.2. cap. 15.13 e 11.23.
 
 
-
+## Josué 15
 
 _As heranças das nove e meia tribus. A herança de Judah._
 
@@ -30952,7 +30854,7 @@ Judah em Jerusalem, até _ao dia de_ hoje.
 [27] Jui. 1.8, 21. II Sam. 5.6. Jui. 1.21.
 
 
-
+## Josué 16
 
 _As heranças dos filhos de José. A herança de Ephraim._
 
@@ -31009,7 +30911,7 @@ serviam-n’os, _sendo-lhes_ tributarios.
 [9] Jui. 1.29. I Reis 9.10.
 
 
-
+## Josué 17
 
 _A herança da meia tribu de Manasseh._
 
@@ -31118,7 +31020,7 @@ Deu. 3.15.
 [15] Deu. 20.1.
 
 
-
+## Josué 18
 
 _O tabernaculo é levantado em Silo._
 
@@ -31253,7 +31155,7 @@ Benjamin, segundo as suas familias.
 [14] cap. 15.8.
 
 
-
+## Josué 19
 
 _A herança de Simeão._
 
@@ -31437,7 +31339,7 @@ tenda da congregação. E _assim_ acabaram de repartir a terra.
 [13] cap. 18.1, 10.
 
 
-
+## Josué 20
 
 _Estabelecem-se as cidades de refugio._
 
@@ -31497,7 +31399,7 @@ congregação.
 [9] ver. 6.
 
 
-
+## Josué 21
 
 _As cidades da tribu de Levi._
 
@@ -31708,7 +31610,7 @@ diante d’elles; todos os seus inimigos o Senhor deu na sua mão.
 [31] cap. 23.14.
 
 
-
+## Josué 22
 
 _Josué abençoa e manda para suas casas as duas e meia tribus._
 
@@ -31906,7 +31808,7 @@ Ed: para _que seja_ testemunho entre nós que o Senhor _é_ Deus.
 [23] I Chr. 29.20. Neh. 8.6. Dan. 2.19. Luc. 2.28.
 
 
-
+## Josué 23
 
 _Josué exhorta o povo a observar a lei do Senhor._
 
@@ -32016,7 +31918,7 @@ Sof. 1.5. Num. 32.38.
 [18] Deu. 28.63. Lev. 26.16. Deu. 28.15, 16, etc.
 
 
-
+## Josué 24
 
 _Josué traz á memoria do povo tudo o que Deus tinha feito por elle._
 
@@ -32217,11 +32119,9 @@ Phineas, [31] seu filho, que lhe fôra dado na montanha de Ephraim.
 [31] Exo. 6.25. Jui. 20.28.
 
 
-
+# Juizes 1
 
 O LIVRO DOS JUIZES.
-
-
 
 
 _Novas conquistas pelas tribus._
@@ -32425,7 +32325,7 @@ penha, e d’ali para cima.
 [34] Num. 34.4. Jos. 15.3.
 
 
-
+## Juizes 2
 
 _O anjo do Senhor reprehende os israelitas._
 
@@ -32562,7 +32462,7 @@ The. 1.8. Tito 1.16.
 [21] cap. 3.1, 4. Deu. 8.2, 16 e 13.3.
 
 
-
+## Juizes 3
 
 _Servidão dos israelitas sob Cusan, rei da Syria ou Aram._
 
@@ -32724,7 +32624,7 @@ Israel.
 [17] cap. 7.9, 15. I Sam. 17.47. Jos. 2.7. cap. 12.5.
 
 
-
+## Juizes 4
 
 _Servidão sob Jabin rei de Canaan._
 
@@ -32856,7 +32756,7 @@ sobre Jabin, rei de Canaan: até que exterminaram a Jabin, rei de Canaan.
 [15] Psa. 18.48.
 
 
-
+## Juizes 5
 
 _O cantico de Debora._
 
@@ -33019,7 +32919,7 @@ amam _sejam_ como o sol quando sae na sua força.
 [26] Psa. 83.20.
 
 
-
+## Juizes 6
 
 _Servidão sob os midianitas._
 
@@ -33233,7 +33133,7 @@ sobre toda a terra havia orvalho.
 [29] Gen. 18.32.
 
 
-
+## Juizes 7
 
 _Gideon com trezentos homens vence os midianitas._
 
@@ -33368,7 +33268,7 @@ Gideon, d’além do Jordão.
 [13] cap. 8.3. Isa. 10.26.
 
 
-
+## Juizes 8
 
 _Gideon apazigua os ephraimitas e mata os reis dos midianitas._
 
@@ -33553,7 +33453,7 @@ Gideon, conforme a todo o bem que elle usara com Israel.
 [26] cap. 9.16, 17, 18. Ecc. 9.14, 15.
 
 
-
+## Juizes 9
 
 _Abimelech mata os seus irmãos e se declara rei._
 
@@ -33836,7 +33736,7 @@ elles.
 [30] ver. 20.
 
 
-
+## Juizes 10
 
 _Tola e Jair juizes dos israelitas._
 
@@ -33939,7 +33839,7 @@ por Cabeça de todos os [14] moradores de Gilead.
 [14] cap. 11.8, 11.
 
 
-
+## Juizes 11
 
 _Jefthe livra os israelitas._
 
@@ -34150,7 +34050,7 @@ de Jefthe, o gileadita, por quatro dias no anno.
 [29] ver. 31. I Sam. 1.22, 24 e 2.18.
 
 
-
+## Juizes 12
 
 _Jefthe peleja contra os ephraimitas e os gileaditas._
 
@@ -34219,7 +34119,7 @@ em Pirathon, na terra [6] de Ephraim, no monte do amalekita.
 [6] cap. 3.13, 27 e 5.14.
 
 
-
+## Juizes 13
 
 _Servidão dos israelitas sob os philisteos, e o nascimento de Sansão._
 
@@ -34349,7 +34249,7 @@ Act. 6.15. ver. 17, 18.
 [16] cap. 3.10. I Sam. 11.6. Mat. 4.1. Jos. 15.33. cap. 18.11.
 
 
-
+## Juizes 14
 
 _O casamento de Sansão._
 
@@ -34458,7 +34358,7 @@ acompanhava.
 [11] cap. 15.2. João 3.29.
 
 
-
+## Juizes 15
 
 _Sansão põe fogo ás searas dos philisteos._
 
@@ -34563,7 +34463,7 @@ d’_hoje.
 [9] cap. 13.1.
 
 
-
+## Juizes 16
 
 _Sansão é trahido por Dalila._
 
@@ -34722,7 +34622,7 @@ Chr. 15.2.
 [11] cap. 13.25.
 
 
-
+## Juizes 17
 
 _Micah e o idolo da sua casa._
 
@@ -34794,7 +34694,7 @@ um levita por sacerdote.
 [8] ver. 5. cap. 18.30.
 
 
-
+## Juizes 18
 
 _Os daneos buscam uma herança e tomam Lais._
 
@@ -34970,7 +34870,7 @@ si, todos os dias que a [24] casa de Deus esteve em Silo.
 [24] Jos. 18.1. cap. 19.18 e 21.12.
 
 
-
+## Juizes 19
 
 _Os homens de Gibeah abusam da mulher d’um levita._
 
@@ -35130,7 +35030,7 @@ _ao dia d_’hoje: ponderae isto _no coração_, [18] considerae, e fallae.
 [18] cap. 20.7. Pro. 13.10.
 
 
-
+## Juizes 20
 
 _Os israelitas vingam o ultrage feito ao levita._
 
@@ -35363,7 +35263,7 @@ Sam. 7.5 e 10.17.
 [24] cap. 21.13.
 
 
-
+## Juizes 21
 
 _A ruina de Jabes Gilead._
 
@@ -35492,11 +35392,9 @@ _que parecia_ recto aos seus olhos.
 [14] cap. 17.6 e 18.1 e 19.1. Deu. 12.8.
 
 
-
+# Ruth 1
 
 O LIVRO DE RUTH.
-
-
 
 
 _Noemi e suas noras Orpha e Ruth._
@@ -35616,7 +35514,7 @@ cevadas.
 [17] Exo. 9.21, 32. cap. 2.23. II Sam. 21.9.
 
 
-
+## Ruth 2
 
 _Ruth vae rabiscar espigas._
 
@@ -35736,7 +35634,7 @@ cevadas e dos trigos se acabou; e ficou com a sua sogra.
 [14] cap. 3.9 e 4.6.
 
 
-
+## Ruth 3
 
 _Ruth vae deitar-se aos pes de Boaz._
 
@@ -35831,7 +35729,7 @@ negocio.
 [13] Psa. 37.3, 5.
 
 
-
+## Ruth 4
 
 _Boaz casa com Ruth._
 
@@ -35948,11 +35846,9 @@ David.
 [18] I Chr. 2.15. Mat. 1.6.
 
 
-
+# I Samuel 1
 
 O PRIMEIRO LIVRO DE SAMUEL.
-
-
 
 
 _Elcana e suas mulheres._
@@ -36116,7 +36012,7 @@ viver: _pois_ ao Senhor foi pedido. E elle adorou ali ao Senhor.
 [25] ver. 11, 22.
 
 
-
+## I Samuel 2
 
 _O cantico de Anna._
 
@@ -36334,7 +36230,7 @@ possa comer um pedaço de pão.
 [36] I Reis 2.27.
 
 
-
+## I Samuel 3
 
 _Deus falla com Samuel em sonhos._
 
@@ -36437,7 +36333,7 @@ manifestava a Samuel [13] em Silo pela palavra do Senhor.
 [13] ver. 1, 4.
 
 
-
+## I Samuel 4
 
 _Os philisteos vencem os israelitas._
 
@@ -36562,7 +36458,7 @@ Deus.
 [13] Psa. 26.8 e 78.61.
 
 
-
+## I Samuel 5
 
 _A arca, na terra dos philisteos, causa-lhes afflicções._
 
@@ -36632,7 +36528,7 @@ clamor da cidade subia até o céu.
 [8] ver. 6, 9.
 
 
-
+## I Samuel 6
 
 _Os philisteos enviam a arca para fóra da tua terra._
 
@@ -36752,7 +36648,7 @@ fazei-a subir para vós.
 [12] Jos. 18.14. Jui. 18.12. I Chr. 13.5, 6.
 
 
-
+## I Samuel 7
 
 7 Então vieram os homens de [1] Kiriath-jearim, e levaram a arca do
 Senhor, e a trouxeram á casa de Abinadab, [2] no outeiro: e consagraram a
@@ -36857,7 +36753,7 @@ Reis 8.47. Psa. 106.6.
 [15] Jui. 21.4.
 
 
-
+## I Samuel 8
 
 _Os israelitas pedem um rei e Deus concede-o._
 
@@ -36960,7 +36856,7 @@ qual á sua cidade.
 [12] ver. 7. Ose. 13.11.
 
 
-
+## I Samuel 9
 
 _Saul busca as jumentas extraviadas e vae ter com Samuel._
 
@@ -37106,7 +37002,7 @@ Isa. 30.10. Amós 7.12.
 [17] Lev. 7.32, 33. Eze. 24.4.
 
 
-
+## I Samuel 10
 
 _Samuel unge Saul como rei de Israel._
 
@@ -37266,7 +37162,7 @@ se fez como surdo.
 2.11.
 
 
-
+## I Samuel 11
 
 _Saul vence os ammonitas._
 
@@ -37355,7 +37251,7 @@ d’Israel.
 [14] cap. 10.17 e 10.8.
 
 
-
+## I Samuel 12
 
 _Samuel resigna o seu cargo._
 
@@ -37511,7 +37407,7 @@ Reis 8.36. II Chr. 6.27. Jer. 6.16.
 [30] Jos. 24.20. Deu. 28.36.
 
 
-
+## I Samuel 13
 
 _Guerra entre os israelitas e os philisteos._
 
@@ -37628,7 +37524,7 @@ acharam-se com Saul e com Jonathan seu filho.
 [13] cap. 14.1, 4.
 
 
-
+## I Samuel 14
 
 _A victoria de Jonathan sobre os philisteos._
 
@@ -37886,7 +37782,7 @@ pelo que Saul a todos os homens valentes e valorosos que via os aggregava
 [27] cap. 8.11.
 
 
-
+## I Samuel 15
 
 _Samuel manda a Saul destruir os amalekitas._
 
@@ -38086,7 +37982,7 @@ Saul rei sobre Israel.
 [31] ver. 11. cap. 16.1.
 
 
-
+## I Samuel 16
 
 _Deus manda Samuel ungir a David como rei._
 
@@ -38227,7 +38123,7 @@ sentia allivio, e se achava melhor, e o espirito mau se retirava d’elle.
 [22] ver. 14, 16.
 
 
-
+## I Samuel 17
 
 _Guerra entre os israelitas e os philisteos._
 
@@ -38523,7 +38419,7 @@ de teu servo Jessé, beth-lehemita.
 [35] ver. 12.
 
 
-
+## I Samuel 18
 
 _Amizade de Jonathan para com David._
 
@@ -38688,7 +38584,7 @@ Saul: portanto o seu nome era mui estimado.
 [22] II Sam. 11.1. ver. 5.
 
 
-
+## I Samuel 19
 
 _Jonathan aplaca o ciume que seu pae tem de David._
 
@@ -38809,7 +38705,7 @@ noite; pelo que se diz: Está tambem Saul entre os prophetas?
 [12] Isa. 20.2. Miq. 1.8. II Sam. 6.14, 20. cap. 10.11.
 
 
-
+## I Samuel 20
 
 _A entrevista de David com Jonathan._
 
@@ -39005,7 +38901,7 @@ minha semente e a tua semente, _seja_ perpetuamente.
 [18] cap. 1.17.
 
 
-
+## I Samuel 21
 
 _David vae ter com o sacerdote Achimelech._
 
@@ -39088,7 +38984,7 @@ doidices diante de mim? ha de este entrar na minha casa?
 [8] Luc. 2.19.
 
 
-
+## I Samuel 22
 
 _David esconde-se na caverna de Adullam._
 
@@ -39218,7 +39114,7 @@ _tambem_ procurará a tua, pois estarás salvo comigo.
 [13] I Reis 2.26.
 
 
-
+## I Samuel 23
 
 _David livra Keila._
 
@@ -39360,7 +39256,7 @@ philisteos: por esta razão aquelle logar se chamou [JR] Sela-hammahlecoth.
 [15] II Reis 19.9.
 
 
-
+## I Samuel 24
 
 _David corta a orla do manto de Saul._
 
@@ -39479,7 +39375,7 @@ seus homens subiram ao logar forte.
 [18] Gen. 21.23. II Sam. 21.6, 8.
 
 
-
+## I Samuel 25
 
 _A morte de Samuel e a retirada de David para o deserto de Paran._
 
@@ -39720,7 +39616,7 @@ Reis 9.8.
 [31] II Sam. 3.14. Isa. 10.30.
 
 
-
+## I Samuel 26
 
 _David poupa outra vez a vida de Saul._
 
@@ -39853,7 +39749,7 @@ _pelo_ seu caminho e Saul voltou para o seu logar.
 [16] Gen. 32.28.
 
 
-
+## I Samuel 27
 
 _David vae ter outra vez com Achis rei de Gath._
 
@@ -39918,7 +39814,7 @@ para sempre.
 [6] I Chr. 2.9, 25. Jui. 1.16.
 
 
-
+## I Samuel 28
 
 _Saul consulta uma pythonissa de Endor._
 
@@ -40038,7 +39934,7 @@ Deu. 33.8.
 [11] I Reis 20.42.
 
 
-
+## I Samuel 29
 
 _David marcha com Achis contra os israelitas._
 
@@ -40106,7 +40002,7 @@ philisteos subiram a Jizreel.
 [8] II Sam. 4.4.
 
 
-
+## I Samuel 30
 
 _Siclag é saqueada pelos amalekitas._
 
@@ -40266,7 +40162,7 @@ os seus homens.
 [19] Jos. 14.13. II Sam. 2.1.
 
 
-
+## I Samuel 31
 
 _A matança dos israelitas e a morte de Saul._
 
@@ -40341,11 +40237,9 @@ em Jabez, e jejuaram sete dias.
 [11] II Sam. 2.4, 5 e 21.12, 13, 14. Gen. 50.10.
 
 
-
+# II Samuel 1
 
 O SEGUNDO LIVRO DE SAMUEL.
-
-
 
 
 _David mata o amalekita que lhe traz a noticia da morte de Saul._
@@ -40479,7 +40373,7 @@ eras! mais maravilhoso me era o teu amor [16] do que o amor das mulheres.
 [17] ver. 19.
 
 
-
+## II Samuel 2
 
 _David é acclamado rei de Judah._
 
@@ -40631,7 +40525,7 @@ noite, e amanheceu-lhes em Hebron.
 [14] ver. 14. Pro. 17.14.
 
 
-
+## II Samuel 3
 
 3 E houve uma longa guerra entre a casa de Saul e a casa de David: porém
 David se ia fortalecendo, mas os da casa de Saul se iam enfraquecendo.
@@ -40836,7 +40730,7 @@ malfeitor, conforme a sua maldade.
 [25] cap. 19.7. I Reis 2.5, 6, 33, 34.
 
 
-
+## II Samuel 4
 
 _Dois servos de Isboseth o matam e trazem a cabeça a David._
 
@@ -40913,7 +40807,7 @@ Abner, em Hebron.
 [11] cap. 3.32.
 
 
-
+## II Samuel 5
 
 _David é constituido rei de todo o Israel._
 
@@ -41048,7 +40942,7 @@ philisteos desde Gibeah, [22] até chegar a Gezer.
 [22] I Chr. 14.16. Jos. 16.10.
 
 
-
+## II Samuel 6
 
 _David traz a arca para Jerusalem._
 
@@ -41181,7 +41075,7 @@ morte.
 [21] I Sam. 15.35. Isa. 22.14. Mat. 1.25.
 
 
-
+## II Samuel 7
 
 _David deseja edificar um templo ao Senhor._
 
@@ -41343,7 +41237,7 @@ Sam. 2.2. Isa. 45.5, 18, 22.
 [25] cap. 22.51.
 
 
-
+## II Samuel 8
 
 _As victorias de David sobre varias nações._
 
@@ -41441,7 +41335,7 @@ peletheos: porém os filhos de David eram [JZ] principes.
 [15] I Chr. 18.17. I Sam. 30.14.
 
 
-
+## II Samuel 9
 
 _A bondade de David para com o filho de Jonathan._
 
@@ -41515,7 +41409,7 @@ mesa do rei, [11] e era côxo de ambos os pés.
 [11] ver. 7, 10 e 3.
 
 
-
+## II Samuel 10
 
 _David derrota os ammonitas e os syros._
 
@@ -41610,7 +41504,7 @@ syros de soccorrer mais aos filhos de Ammon.
 [8] cap. 8.6.
 
 
-
+## II Samuel 11
 
 _David commette um adulterio e um homicidio._
 
@@ -41736,7 +41630,7 @@ pareceu mal aos olhos do Senhor.
 [11] cap. 12.9.
 
 
-
+## II Samuel 12
 
 _Nathan, o propheta, reprehende a David._
 
@@ -41890,7 +41784,7 @@ David e todo o povo para Jerusalem.
 [17] I Chr. 20.2.
 
 
-
+## II Samuel 13
 
 _Amnon ama Tamar e commette um incesto._
 
@@ -42084,7 +41978,7 @@ consolado ácerca de Amnon, [21] que era morto.
 [21] Gen. 38.12.
 
 
-
+## II Samuel 14
 
 14 Conhecendo pois Joab, filho de Zeruia, que o coração do rei [1] era
 inclinado para Absalão,
@@ -42260,7 +42154,7 @@ diante do rei: e o rei [22] beijou a Absalão.
 [22] Gen. 33.4 e 45.15. Luc. 15.20.
 
 
-
+## II Samuel 15
 
 _A rebellião de Absalão e a fuga de David._
 
@@ -42452,7 +42346,7 @@ em Jerusalem.
 [26] cap. 16.16. I Chr. 27.33. cap. 16.15.
 
 
-
+## II Samuel 16
 
 _David é enganado por Ziba e amaldiçoado por Semei._
 
@@ -42589,7 +42483,7 @@ Achitophel, assim para com David [21] como para com Absalão.
 [21] cap. 15.12.
 
 
-
+## II Samuel 17
 
 17 Disse mais Achitophel a Absalão: Deixa-me escolher doze mil homens, e
 me levantarei, e seguirei após David esta noite.
@@ -42742,7 +42636,7 @@ Este povo no [18] deserto está faminto, e cançado, e sedento.
 [18] cap. 16.2.
 
 
-
+## II Samuel 18
 
 18 E David contou o povo que tinha comsigo, e poz sobre elles capitães de
 cento.
@@ -42896,7 +42790,7 @@ meu filho!
 [10] cap. 19.4.
 
 
-
+## II Samuel 19
 
 19 E disseram a Joab: Eis que o rei _anda_ chorando, e lastima-se por
 Absalão.
@@ -43125,7 +43019,7 @@ Judah foi [27] mais forte _do_ que a palavra dos homens d’Israel.
 [27] Jui. 8.1 e 12.1.
 
 
-
+## II Samuel 20
 
 _A sedição de Seba e a sua morte._
 
@@ -43258,7 +43152,7 @@ chanceller;
 [14] cap. 23.28.
 
 
-
+## II Samuel 21
 
 _Fome em Israel, e a sua causa._
 
@@ -43389,7 +43283,7 @@ David e pela mão de seus servos.
 [16] I Chr. 20.8.
 
 
-
+## II Samuel 22
 
 _Cantico de David em acção de graças._
 
@@ -43616,7 +43510,7 @@ com o seu ungido, com David, e com a sua semente para sempre.
 [37] Psa. 144.10. cap. 7.12, 13.
 
 
-
+## II Samuel 23
 
 _As ultimas palavras de David._
 
@@ -43780,7 +43674,7 @@ filho de Zeruia,
 [18] cap. 20.26.
 
 
-
+## II Samuel 24
 
 _A numeração do povo e o castigo que Deus enviou._
 
@@ -43924,11 +43818,9 @@ aquelle castigo de sobre Israel.
 [21] cap. 21.14. ver. 21.
 
 
-
+# I Reis 1
 
 O PRIMEIRO LIVRO DOS REIS.
-
-
 
 
 _A velhice de David._
@@ -44184,7 +44076,7 @@ prostrou-se perante o rei Salomão, e Salomão lhe disse: Vae para tua casa.
 [29] I Sam. 14.45. II Sam. 14.11. Act. 27.34.
 
 
-
+## I Reis 2
 
 _David dá conselhos a Salomão e morre._
 
@@ -44439,7 +44331,7 @@ elle, e morreu: assim foi confirmado o reino na mão de Salomão.
 [36] II Sam. 16.5. Eze. 17.19.
 
 
-
+## I Reis 3
 
 _Salomão casa com a filha de Pharaó._
 
@@ -44592,7 +44484,7 @@ justiça.
 [21] ver. 9, 11, 12.
 
 
-
+## I Reis 4
 
 _Os principes de Salomão e a grandeza do seu reino._
 
@@ -44738,7 +44630,7 @@ todos os reis da terra que tinham ouvido da sua sabedoria.
 [17] cap. 10.1. II Chr. 9.1, 23.
 
 
-
+## I Reis 5
 
 _Salomão faz alliança com Hirão, rei de Tyro._
 
@@ -44840,7 +44732,7 @@ madeira e as pedras para edificar a casa.
 [15] I Chr. 22.2.
 
 
-
+## I Reis 6
 
 _Salomão edifica o templo._
 
@@ -45007,7 +44899,7 @@ edificou _em_ sete [18] annos.
 [18] ver. 1.
 
 
-
+## I Reis 7
 
 _Salomão edifica um palacio._
 
@@ -45235,7 +45127,7 @@ e o oiro, e os vasos poz entre [18] os thesouros da casa do Senhor.
 [18] II Sam. 8.11. II Chr. 5.1.
 
 
-
+## I Reis 8
 
 _Dedicação do templo._
 
@@ -45614,7 +45506,7 @@ Gen. 15.18. Num. 34.5.
 [55] II Chr. 7.9, 10.
 
 
-
+## I Reis 9
 
 _O Senhor apparece a Salomão pela segunda vez._
 
@@ -45778,7 +45670,7 @@ de oiro, e _o_ trouxeram ao rei Salomão.
 [26] Job 22.24.
 
 
-
+## I Reis 10
 
 _A rainha de Saba vem visitar Salomão._
 
@@ -45921,7 +45813,7 @@ o cavallo por cento e cincoenta: e assim, por meio d’elles, os tiravam
 [16] Jos. 1.4. II Reis 7.6.
 
 
-
+## I Reis 11
 
 _A idolatria de Salomão e a ira de Deus contra elle._
 
@@ -46143,7 +46035,7 @@ David, seu pae: e Roboão, seu filho, reinou em seu logar.
 [27] II Chr. 9.31.
 
 
-
+## I Reis 12
 
 _Roboão causa separação entre as tribus._
 
@@ -46323,7 +46215,7 @@ Eze. 44.7, 8.
 [23] Num. 15.39. cap. 13.1.
 
 
-
+## I Reis 13
 
 _Um propheta prediz contra o altar._
 
@@ -46486,7 +46378,7 @@ extinguil-a da terra.
 [17] cap. 12.30 e 14.10.
 
 
-
+## I Reis 14
 
 _Ahias prediz a ruina da casa de Jeroboão._
 
@@ -46669,7 +46561,7 @@ seu filho, reinou em seu logar.
 [29] ver. 21. II Chr. 12.16. Mat. 1.7.
 
 
-
+## I Reis 15
 
 _Abião imita a impiedade de seu pae Roboão._
 
@@ -46858,7 +46750,7 @@ de Jeroboão, e no seu peccado com que tinha feito peccar a Israel.
 [27] cap. 12.28, 29 e 13.33 e 14.16.
 
 
-
+## I Reis 16
 
 16 Então veiu a palavra do Senhor [1] a Jehu, filho de Hanani, contra
 Baása, dizendo:
@@ -47042,7 +46934,7 @@ Josué, filho de Nun.
 [22] Jos. 6.26.
 
 
-
+## I Reis 17
 
 _Elias prediz contra Achab, e é sustentado pelos corvos._
 
@@ -47145,7 +47037,7 @@ homem de Deus, _e_ que a palavra do Senhor na tua bocca _é_ verdade.
 [6] João 3.2 e 16.30.
 
 
-
+## I Reis 18
 
 _Elias apresenta-se diante de Achab._
 
@@ -47369,7 +47261,7 @@ veiu correndo perante Achab, até á entrada de Jezreel.
 [25] II Reis 4.29 e 9.1.
 
 
-
+## I Reis 19
 
 _Jezabel ameaça Elias._
 
@@ -47490,7 +47382,7 @@ comeram: então se levantou e seguiu a Elias, e o servia.
 [18] II Sam. 24.22.
 
 
-
+## I Reis 20
 
 _Guerra entre Achab e o rei da Syria._
 
@@ -47699,7 +47591,7 @@ veiu a Samaria.
 [15] cap. 21.4.
 
 
-
+## I Reis 21
 
 _Naboth recusa vender a sua vinha a Achab._
 
@@ -47855,7 +47747,7 @@ filho trarei este mal [18] sobre a sua casa.
 [18] II Reis 9.25.
 
 
-
+## I Reis 22
 
 _Achab faz alliança com Josaphat._
 
@@ -48109,11 +48001,9 @@ Heb. 1.7, 14.
 [27] Jui. 2.11. cap. 16.31.
 
 
-
+# II Reis 1
 
 O SEGUNDO LIVRO DOS REIS.
-
-
 
 
 _Moab rebella-se contra Israel e Achazias adoece._
@@ -48205,7 +48095,7 @@ _está_ escripto no livro das chronicas dos reis de Israel?
 [5] I Sam. 26.21.
 
 
-
+## II Reis 2
 
 _Elias é elevado ao céu n’um carro de fogo._
 
@@ -48324,7 +48214,7 @@ quarenta e dois meninos.
 [10] Exo. 15.25. cap. 4.41 e 6.6. João 9.6.
 
 
-
+## II Reis 3
 
 _Eliseo salva tres reis com os seus exercitos._
 
@@ -48462,7 +48352,7 @@ a _sua_ terra.
 [17] cap. 8.20.
 
 
-
+## II Reis 4
 
 _Eliseo augmenta o azeite da viuva._
 
@@ -48673,7 +48563,7 @@ palavra do Senhor.
 [22] Mat. 14.20 e 15.37. João 6.13.
 
 
-
+## II Reis 5
 
 _Naaman é curado da lepra._
 
@@ -48805,7 +48695,7 @@ sempre. Então saiu de diante d’elle leproso, _branco_ como a neve.
 [9] I Tim. 6.10. Exo. 4.6. Num. 12.10. cap. 15.5.
 
 
-
+## II Reis 6
 
 _O ferro d’um machado é feito fluctuar._
 
@@ -48959,7 +48849,7 @@ esperaria do Senhor?
 [14] Job 2.9.
 
 
-
+## II Reis 7
 
 _Eliseo prediz a abundancia de viveres._
 
@@ -49066,7 +48956,7 @@ d’ahi não comerás.
 [9] ver. 1.
 
 
-
+## II Reis 8
 
 _A sunamita volta para a sua terra._
 
@@ -49238,7 +49128,7 @@ Jorão, filho de Achab, em Jizreel, porquanto estava doente.
 [25] cap. 9.16. II Chr. 22.6, 7.
 
 
-
+## II Reis 9
 
 _Jehu é ungido rei de Israel e mata a Jorão e a Jezabel._
 
@@ -49425,7 +49315,7 @@ Jizreel: que se não possa dizer: Esta _é_ Jezabel.
 [20] I Reis 21.23.
 
 
-
+## II Reis 10
 
 _Jehu extermina a casa de Achab._
 
@@ -49610,7 +49500,7 @@ annos.
 [21] Amós 1.3.
 
 
-
+## II Reis 11
 
 _Athalia manda matar a familia real—Joás escapa e é ungido rei._
 
@@ -49712,7 +49602,7 @@ mataram a Athalia á espada _junto_ á casa do rei.
 [9] cap. 10.26. Deu. 12.3. II Chr. 23.17, 18, etc.
 
 
-
+## II Reis 12
 
 _Joás manda reparar o templo._
 
@@ -49830,7 +49720,7 @@ David: e Amasias, [15] seu filho, reinou em seu logar.
 [15] II Chr. 24.27.
 
 
-
+## II Reis 13
 
 _Joachaz e Jehoás, reis de Israel._
 
@@ -49958,7 +49848,7 @@ tres vezes Jehoás [12] o feriu, e recuperou as cidades de Israel.
 [12] ver. 18, 19.
 
 
-
+## II Reis 14
 
 _Amasias mata os matadores de seu pae._
 
@@ -50115,7 +50005,7 @@ Zacharias, seu filho, reinou em seu logar.
 [22] cap. 15.8.
 
 
-
+## II Reis 15
 
 _Azarias, rei de Judah._
 
@@ -50307,7 +50197,7 @@ cidade de David, seu pae: e Achaz, seu filho, reinou em seu logar.
 [18] cap. 16.5. Isa. 7.1. ver. 27.
 
 
-
+## II Reis 16
 
 _Achaz, rei de Judah._
 
@@ -50421,7 +50311,7 @@ na cidade de David: e Ezequias, seu filho, reinou em seu logar.
 [13] II Chr. 28.27.
 
 
-
+## II Reis 17
 
 _Hoseas, rei de Israel._
 
@@ -50651,7 +50541,7 @@ cap. 16.4.
 [29] ver. 32, 33.
 
 
-
+## II Reis 18
 
 _Ezequias restabelece o culto do Senhor._
 
@@ -50850,7 +50740,7 @@ rasgados, e lhe fizeram saber as palavras de Rabsaké.
 [24] Isa. 33.7.
 
 
-
+## II Reis 19
 
 _Ezequias ora na casa do Senhor._
 
@@ -51055,7 +50945,7 @@ seu logar.
 [31] ver. 7. Esd. 4.2.
 
 
-
+## II Reis 20
 
 _Ezequias adoece._
 
@@ -51173,7 +51063,7 @@ seu logar.
 [16] II Chr. 32.33.
 
 
-
+## II Reis 21
 
 _A impiedade de Manasseh e as ameaças de Deus._
 
@@ -51322,7 +51212,7 @@ filho, reinou em seu logar.
 [22] Mat. 1.10.
 
 
-
+## II Reis 22
 
 _Josias repara o templo._
 
@@ -51450,7 +51340,7 @@ trazer sobre este logar. Então tornaram a trazer ao rei a resposta.
 [16] Isa. 57.1, 2.
 
 
-
+## II Reis 23
 
 _Josias ajunta todo o povo e renova o pacto do Senhor._
 
@@ -51697,7 +51587,7 @@ Deu. 18.10. Eze. 23.37, 39.
 [36] II Chr. 36.5.
 
 
-
+## II Reis 24
 
 24 Nos seus dias [1] subiu Nabucodonosor, rei de Babylonia, e Joaquim
 ficou tres annos seu servo; _depois_ se virou, e se rebellou contra elle.
@@ -51823,7 +51713,7 @@ rebellou contra o rei de Babylonia.
 [20] II Chr. 36.13. Eze. 17.15.
 
 
-
+## II Reis 25
 
 25 E succedeu [1] que, no non o anno do seu reinado, no mez decimo, aos
 dez do mez, Nabucodonosor, rei de Babylonia, veiu contra Jerusalem, elle
@@ -51993,11 +51883,9 @@ continua, a porção de cada dia no seu dia, todos os dias da sua vida.
 [25] II Sam. 9.7.
 
 
-
+# I Chronicas 1
 
 O PRIMEIRO LIVRO DAS CHRONICAS.
-
-
 
 
 _Genealogia desde Adão até Noé. Os filhos de Noé, e seus descendentes._
@@ -52178,7 +52066,7 @@ principe Alya, o principe Jetheth,
 [21] Gen. 36.40.
 
 
-
+## I Chronicas 2
 
 _Os doze filhos de Jacob, e os descendentes de Judah._
 
@@ -52370,7 +52258,7 @@ vieram de Hammath, pae da casa de Rechab.
 [18] Jos. 15.17.
 
 
-
+## I Chronicas 3
 
 _Descendentes de David._
 
@@ -52458,7 +52346,7 @@ Johanan, e Delaias, e Anani, sete.
 [9] Esd. 8.2.
 
 
-
+## I Chronicas 4
 
 _Os descendentes de Judah._
 
@@ -52607,7 +52495,7 @@ até ao dia d’hoje.
 [9] II Reis 18.8.
 
 
-
+## I Chronicas 5
 
 5 Quanto aos filhos de Ruben, o primogenito de Israel;—porque elle _era_
 [1] o primogenito, mas porque profanara [2] a cama de seu pae, deu-se a
@@ -52733,7 +52621,7 @@ Gozan, até _ao dia de_ hoje.
 [17] II Reis 17.6 e 18.11.
 
 
-
+## I Chronicas 6
 
 _Descendentes de Levi, seu ministerio e suas cidades._
 
@@ -53002,7 +52890,7 @@ Mahanaim e os seus arrabaldes,
 [25] Jos. 21.22-35.
 
 
-
+## I Chronicas 7
 
 _Descendentes de Issacar._
 
@@ -53163,7 +53051,7 @@ mil homens.
 [13] ver. 32.
 
 
-
+## I Chronicas 8
 
 _Descendentes de Benjamin e de Saul._
 
@@ -53282,7 +53170,7 @@ todos estes foram dos filhos de Benjamin.
 [8] cap. 9.43.
 
 
-
+## I Chronicas 9
 
 _Habitantes de Jerusalem depois da volta do captiveiro._
 
@@ -53458,7 +53346,7 @@ d’Asel.
 [14] cap. 8.35.
 
 
-
+## I Chronicas 10
 
 _A morte de Saul e de seus filhos._
 
@@ -53522,7 +53410,7 @@ David, filho de Jessé.
 [4] I Sam. 15.28. II Sam. 3.9, 10 e 5.3.
 
 
-
+## I Chronicas 11
 
 _David é ungido rei._
 
@@ -53688,7 +53576,7 @@ moabita,
 [10] II Sam. 23.24.
 
 
-
+## I Chronicas 12
 
 _Os que vieram a David em Siclag._
 
@@ -53854,7 +53742,7 @@ em Israel.
 [12] Est. 1.13.
 
 
-
+## I Chronicas 13
 
 _A arca é depositada em casa de Obed-edom._
 
@@ -53925,7 +53813,7 @@ em sua casa: e o Senhor abençoou a casa de Obed-edom, e tudo quanto tinha.
 [9] II Sam. 6.11. Gen. 30.27. cap. 26.5.
 
 
-
+## I Chronicas 14
 
 _David faz alliança com Hirão._
 
@@ -53998,7 +53886,7 @@ Senhor poz o seu temor sobre todas aquellas gentes.
 [8] Jos. 6.27. II Chr. 26. Deu. 2.25 e 11.25.
 
 
-
+## I Chronicas 15
 
 _A arca é levada da casa de Obed-edom para Jerusalem._
 
@@ -54123,7 +54011,7 @@ dançar e tocar, o desprezou no seu coração.
 [12] II Sam. 6.16.
 
 
-
+## I Chronicas 16
 
 16 Trazendo [1] pois a arca de Deus, a pozeram no meio da tenda que David
 lhe tinha armado; e offereceram holocaustos e sacrificios pacificos
@@ -54282,7 +54170,7 @@ David, para abençoar a sua casa.
 [11] II Sam. 6.19, 20.
 
 
-
+## I Chronicas 17
 
 _David deseja edificar o templo, mas Deus não permitte._
 
@@ -54394,7 +54282,7 @@ _ficará_ abençoada para sempre.
 [4] II Sam. 7.18.
 
 
-
+## I Chronicas 18
 
 _Diversas victorias de David._
 
@@ -54471,7 +54359,7 @@ peletheos: porém os filhos de David, os primeiros, _estavam_ á mão do rei.
 [6] II Sam. 8.18.
 
 
-
+## I Chronicas 19
 
 _O rei dos ammonitas ultraja os mensageiros de David, e este castiga-o._
 
@@ -54554,7 +54442,7 @@ quizeram soccorrer os filhos d’Ammon.
 [2] cap. 18.5, 9.
 
 
-
+## I Chronicas 20
 
 20 Aconteceu [1] pois que, no decurso de _um_ anno, no tempo em que os
 reis costumam sair _para a guerra_, Joab levou o exercito, e destruiu a
@@ -54601,7 +54489,7 @@ mão dos seus servos.
 [5] II Sam. 21.20.
 
 
-
+## I Chronicas 21
 
 _David numera o povo, e Deus castiga-o._
 
@@ -54743,7 +54631,7 @@ aterrorisado por causa da espada do anjo do Senhor.
 [13] I Reis 3.4. cap. 16.39. II Chr. 1.3.
 
 
-
+## I Chronicas 22
 
 _David faz preparativos para edificar o templo._
 
@@ -54856,7 +54744,7 @@ de Deus se tragam a esta casa, que se ha de edificar ao nome do Senhor.
 [18] I Reis 8.6, 21. II Chr. 5.7 e 6.11. ver. 7. I Reis 5.3.
 
 
-
+## I Chronicas 23
 
 _David faz Salomão rei e ordena os turnos e funcções dos levitas._
 
@@ -55010,7 +54898,7 @@ Deu. 21.5. Num. 6.23.
 [23] Num. 1.53. Num. 3.6-9.
 
 
-
+## I Chronicas 24
 
 _David divide os sacerdotes em vinte e quatro turnos._
 
@@ -55115,7 +55003,7 @@ assim seu irmão menor.
 [9] cap. 23.23.
 
 
-
+## I Chronicas 25
 
 _Funcções dos cantores em seus turnos._
 
@@ -55205,7 +55093,7 @@ Gedalias; e _eram_ elle, e seus irmãos, e seus filhos, ao todo, doze.
 [3] II Chr. 23.13.
 
 
-
+## I Chronicas 26
 
 _Funcções dos porteiros._
 
@@ -55337,7 +55225,7 @@ todos os negocios do rei.
 [9] II Chr. 19.11.
 
 
-
+## I Chronicas 27
 
 _O numero do povo, e as turmas de serviço para cada mez._
 
@@ -55482,7 +55370,7 @@ porém Joab _era_ chefe do exercito do rei.
 [15] I Reis 1.7. cap. 11.6.
 
 
-
+## I Chronicas 28
 
 _David exhorta os principes e seu filho Salomão._
 
@@ -55614,7 +55502,7 @@ _teus_ mandados.
 [17] Exo. 35.25, 26 e 36.1, 2.
 
 
-
+## I Chronicas 29
 
 _As offertas de David, dos principes, e do povo para a construcção do
 templo._
@@ -55768,11 +55656,9 @@ terras.
 [17] Dan. 2.21.
 
 
-
+# II Chronicas 1
 
 O SEGUNDO LIVRO DAS CHRONICAS.
-
-
 
 
 _Salomão offerece sacrificios._
@@ -55882,7 +55768,7 @@ tiravam para todos os reis dos hetheos, e para os reis da Syria.
 [15] I Reis 10.28, 29. cap. 9.28.
 
 
-
+## II Chronicas 2
 
 _Salomão pede a Hirão, rei de Tyro, que o ajude na construcção do templo._
 
@@ -55991,7 +55877,7 @@ trabalhar o povo.
 [16] I Chr. 22.2.
 
 
-
+## II Chronicas 3
 
 _A construcção do templo começa._
 
@@ -56078,7 +55964,7 @@ da _que estava_ á esquerda Boaz.
 [9] I Reis 7.20. I Reis 7.21.
 
 
-
+## II Chronicas 4
 
 _O altar e o mar de bronze._
 
@@ -56194,7 +56080,7 @@ _eram_ d’oiro.
 [18] Exo. 25.31, etc.
 
 
-
+## II Chronicas 5
 
 5 Assim se acabou toda a obra, que Salomão fez para a casa do Senhor,
 então trouxe [1] Salomão as coisas consagradas de seu pae David, e a
@@ -56278,7 +56164,7 @@ nuvem: porque [9] a gloria do Senhor encheu a casa de Deus.
 [9] Exo. 40.35. cap. 7.2.
 
 
-
+## II Chronicas 6
 
 _Salomão abençoa o povo e dá graças ao Deus de Israel._
 
@@ -56480,7 +56366,7 @@ das misericordias de David teu servo.
 [17] Isa. 55.3.
 
 
-
+## II Chronicas 7
 
 _O fogo e a gloria de Deus são os signaes da sua approvação._
 
@@ -56613,7 +56499,7 @@ e os serviram: por isso elle trouxe sobre elles todo este mal.
 [20] Deu. 29.24. Jer. 22.8, 9.
 
 
-
+## II Chronicas 8
 
 _Salomão edifica cidades._
 
@@ -56709,7 +56595,7 @@ Salomão.
 [11] I Reis 9.27. cap. 9.10, 13.
 
 
-
+## II Chronicas 9
 
 _A rainha de Saba vem ver a Salomão._
 
@@ -56846,7 +56732,7 @@ pae: e Roboão, seu filho, reinou em seu logar.
 [8] I Reis 11.42, 43.
 
 
-
+## II Chronicas 10
 
 _A revolta de dez tribus de Israel._
 
@@ -56928,7 +56814,7 @@ _dia d’_hoje.
 [4] I Reis 12.19.
 
 
-
+## II Chronicas 11
 
 _Deus prohibe fazer guerra contra as dez tribus._
 
@@ -57024,7 +56910,7 @@ Reis 12.28.
 [8] Deu. 21.15, 16, 17.
 
 
-
+## II Chronicas 12
 
 _Deus castiga Roboão por causa da idolatria._
 
@@ -57114,7 +57000,7 @@ entre Roboão e Jeroboão em todos os _seus_ dias.
 [12] I Reis 14.31.
 
 
-
+## II Chronicas 13
 
 _Abias reina e peleja contra Jeroboão._
 
@@ -57230,7 +57116,7 @@ palavras, _estão_ escriptos na [15] historia do propheta Iddo.
 [15] cap. 12.15.
 
 
-
+## II Chronicas 14
 
 _Asa reina, e vence a Zera o ethiope._
 
@@ -57309,7 +57195,7 @@ abundancia, e camelos, e voltaram para Jerusalem.
 [8] Gen. 35.5. cap. 17.10.
 
 
-
+## II Chronicas 15
 
 _Asa abole a idolatria e renova o pacto do Senhor._
 
@@ -57408,7 +57294,7 @@ tinha consagrado á casa de Deus: prata, e oiro, e vasos.
 [14] cap. 14.3, 5. I Reis 15.14, etc.
 
 
-
+## II Chronicas 16
 
 _Asa e o rei da Syria pelejam contra Baása._
 
@@ -57486,7 +57372,7 @@ queima mui grande.
 [9] Gen. 50.2. Mar. 16.1. João 19.39, 40. cap. 21.19. Jer. 34.5.
 
 
-
+## II Chronicas 17
 
 _Josaphat e o seu cuidado em instruir o povo._
 
@@ -57576,7 +57462,7 @@ nas cidades fortes por todo o Judah.
 [11] ver. 2.
 
 
-
+## II Chronicas 18
 
 _Alliança entre Josaphat e Achab._
 
@@ -57723,7 +57609,7 @@ carro defronte dos syros até á tarde; e morreu ao tempo do pôr do sol.
 [8] cap. 16.10.
 
 
-
+## II Chronicas 19
 
 _O propheta Jehu reprehende a Josaphat._
 
@@ -57796,7 +57682,7 @@ Gal. 2.6. Eph. 6.9. Col. 3.25. I Ped. 1.17.
 [12] cap. 15.2.
 
 
-
+## II Chronicas 20
 
 _Deus concede a Josaphat victoria sobre os seus inimigos._
 
@@ -57992,7 +57878,7 @@ Mat. 6.13.
 [24] I Reis 22.48. cap. 9.21.
 
 
-
+## II Chronicas 21
 
 _A morte de Josaphat e a impiedade de Jorão._
 
@@ -58099,7 +57985,7 @@ dos reis.
 [12] cap. 16.14.
 
 
-
+## II Chronicas 22
 
 _Achazias reina e é morto por Jehu._
 
@@ -58180,7 +58066,7 @@ reinou sobre a terra.
 [9] II Reis 11.2.
 
 
-
+## II Chronicas 23
 
 _Joiada, o sacerdote, unge a Joás, como rei de Judah._
 
@@ -58298,7 +58184,7 @@ mataram a Athalia á espada.
 [12] II Reis 11.19.
 
 
-
+## II Chronicas 24
 
 _Joás dá ordens para concertar o templo._
 
@@ -58457,7 +58343,7 @@ historia do livro dos reis: e Amasias, seu filho, reinou em seu logar.
 [20] II Reis 12.18. II Reis 12.21.
 
 
-
+## II Chronicas 25
 
 _Amasias vence os edomitas._
 
@@ -58609,7 +58495,7 @@ Judah.
 [15] II Reis 14.17.
 
 
-
+## II Chronicas 26
 
 _Uzias reina e prospera._
 
@@ -58735,7 +58621,7 @@ Jothão, seu filho, reinou em seu logar.
 [14] II Reis 15.7. Isa. 6.1.
 
 
-
+## II Chronicas 27
 
 _Jothão reina bem e vence os ammonitas._
 
@@ -58779,7 +58665,7 @@ Achaz, seu filho, reinou em seu logar.
 [3] II Reis 15.38.
 
 
-
+## II Chronicas 28
 
 _Achaz é impio e os syros affligem-n’o._
 
@@ -58937,7 +58823,7 @@ filho, reinou em seu logar.
 [20] II Reis 16.19, 20.
 
 
-
+## II Chronicas 29
 
 _Ezequias manda purificar o templo._
 
@@ -59137,7 +59023,7 @@ cap. 30.12.
 [24] Lev. 3.16. Num. 15.5, 7, 10.
 
 
-
+## II Chronicas 30
 
 _Ezequias convida todo o povo a vir a Jerusalem para celebrar a paschoa._
 
@@ -59294,7 +59180,7 @@ habitação, aos céus.
 [23] Num. 6.23.
 
 
-
+## II Chronicas 31
 
 31 E acabando tudo isto, todos os israelitas que _ali_ se acharam sairam
 ás cidades de Judah e quebraram [ME] as estatuas [1] cortaram os bosques,
@@ -59415,7 +59301,7 @@ e prosperou.
 [13] II Reis 20.3.
 
 
-
+## II Chronicas 32
 
 _Sennaquerib invade Judah, e Deus destroe o seu exercito._
 
@@ -59607,7 +59493,7 @@ reinou em seu logar.
 [27] Pro. 10.7.
 
 
-
+## II Chronicas 33
 
 _A idolatria de Manassés._
 
@@ -59735,7 +59621,7 @@ Amon: e o povo da terra fez reinar em seu logar a Josias, seu filho.
 [12] II Reis 21.23, 24.
 
 
-
+## II Chronicas 34
 
 _Josias abole a idolatria._
 
@@ -59915,7 +59801,7 @@ se desviaram d’após o Senhor, Deus de seus paes.
 [16] Jer. 3.10.
 
 
-
+## II Chronicas 35
 
 _A celebração da paschoa em Jerusalem._
 
@@ -60074,7 +59960,7 @@ _estão_ escriptos no livro dos reis d’Israel e de Judah.
 [20] Lam. 4.20. Mat. 9.23. Jer. 22.20.
 
 
-
+## II Chronicas 36
 
 _Joachaz é levado captivo para o Egypto._
 
@@ -60218,11 +60104,9 @@ Lev. 25.4, 5.
 [20] Esd. 1.2, 3.
 
 
-
+# Esdras 1
 
 O LIVRO DE ESDRAS.
-
-
 
 
 _Cyro convida os judeos a voltarem para Jerusalem e edificarem o templo._
@@ -60286,7 +60170,7 @@ para Jerusalem.
 [6] cap. 5.14.
 
 
-
+## Esdras 2
 
 _A lista dos que voltaram de Babylonia para Jerusalem com Zorobabel._
 
@@ -60497,7 +60381,7 @@ tambem todo o Israel nas suas cidades.
 [17] cap. 6.16, 17. Neh. 7.73.
 
 
-
+## Esdras 3
 
 _É levantado o altar._
 
@@ -60585,7 +60469,7 @@ que as vozes se ouviam de mui longe.
 [10] Exo. 15.21. II Chr. 7.3. Neh. 12.24. I Chr. 16.41. Jer. 33.11.
 
 
-
+## Esdras 4
 
 _Os samaritanos accusam os judeos ao rei Artaxerxes, e a construcção do
 templo é prohibida._
@@ -60701,7 +60585,7 @@ cessou até ao anno segundo do reinado de Dario rei da Persia.
 [8] I Reis 4.21. Gen. 15.18. Jos. 1.4.
 
 
-
+## Esdras 5
 
 _Aggeo e Zacharias exhortam os judeos a continuarem a construcção do
 templo._
@@ -60803,7 +60687,7 @@ isto se nos manda saber a vontade do rei.”
 [14] cap. 6.1, 2.
 
 
-
+## Esdras 6
 
 _O rei Dario confirma a ordem de edificar o templo._
 
@@ -60941,7 +60825,7 @@ Deus, _o_ Deus d’Israel.
 [17] Pro. 21.1. II Reis 23.29.
 
 
-
+## Esdras 7
 
 _Artaxerxes envia Esdras a Jerusalem para proclamar o edicto em favor dos
 judeos._
@@ -61079,7 +60963,7 @@ Israel _uns_ chefes para subirem comigo.”
 [15] cap. 5.5. ver. 6, 9. cap. 8.18.
 
 
-
+## Esdras 8
 
 _A lista dos que voltaram de Babylonia com Esdras._
 
@@ -61238,7 +61122,7 @@ governadores de áquem do rio; e ajudaram o povo e a casa de Deus.
 [16] cap. 7.21.
 
 
-
+## Esdras 9
 
 _Esdras sabe que muitos israelitas casaram com mulheres hetheas, e faz
 oração e confissão a Deus._
@@ -61343,7 +61227,7 @@ depois d’isto ninguem _ha_ que possa estar na tua presença.
 [15] Neh. 9.33. Dan. 9.14. Rom. 3.19. I Cor. 15.17.
 
 
-
+## Esdras 10
 
 _Os israelitas arrependem-se e despedem suas mulheres hetheas._
 
@@ -61506,11 +61390,9 @@ mulheres de quem alcançaram filhos.
 [10] II Reis 10.15. I Chr. 29.24. II Chr. 30.8. Lev. 6.4, 6.
 
 
-
+# Nehemias 1
 
 O LIVRO DE NEHEMIAS.
-
-
 
 
 _Nehemias, sabendo o triste estado de Jerusalem, ora a Deus._
@@ -61584,7 +61466,7 @@ era eu copeiro do rei.
 [11] Isa. 26.8. Heb. 13.18. cap. 2.1.
 
 
-
+## Nehemias 2
 
 _Artaxerxes permitte a Nehemias ir a Jerusalem e edificar os muros._
 
@@ -61699,7 +61581,7 @@ vós não tendes parte, nem justiça, nem memoria em Jerusalem.
 [16] Esd. 4.3.
 
 
-
+## Nehemias 3
 
 _Dos que trabalharam na edificação dos muros._
 
@@ -61853,7 +61735,7 @@ mercadores.
 [18] II Reis 11.16. II Chr. 23.15. Jer. 31.40.
 
 
-
+## Nehemias 4
 
 _Os inimigos pretendem retardar a edificação dos muros._
 
@@ -61953,7 +61835,7 @@ agua.
 [7] Exo. 14.14, 25. Deu. 1.30 e 3.22 e 20.4. Jos. 23.10.
 
 
-
+## Nehemias 5
 
 _Os pobres murmuram contra os ricos, e Nehemias reprehende os ultimos._
 
@@ -62062,7 +61944,7 @@ este povo.
 [15] cap. 13.22.
 
 
-
+## Nehemias 6
 
 _Os inimigos conspiram para surprehender e intimidar Nehemias._
 
@@ -62150,7 +62032,7 @@ levavam _a elle_: _portanto_ Tobias escrevia cartas para me atemorizar.
 [7] cap. 2.10 e 4.1, 7 e 6.1.
 
 
-
+## Nehemias 7
 
 _Nehemias estabelece guardas e faz uma relação dos que primeiro vieram a
 Jerusalem._
@@ -62369,7 +62251,7 @@ cidades.
 [12] Esd. 2.69.
 
 
-
+## Nehemias 8
 
 _Esdras lê a lei diante do povo._
 
@@ -62486,7 +62368,7 @@ no oitavo dia, o dia da prohibição, segundo o rito.
 [15] Deu. 31.10, etc. Lev. 23.36. Num. 29.35.
 
 
-
+## Nehemias 9
 
 _Arrependimento e confissão do peccado._
 
@@ -62738,7 +62620,7 @@ sacerdotes.
 [43] II Reis 23.3. II Chr. 29.10 e 34.31. Esd. 10.3. cap. 10.29.
 
 
-
+## Nehemias 10
 
 _Os nomes dos que sellaram o concerto._
 
@@ -62894,7 +62776,7 @@ do nosso Deus.
 [18] cap. 13.10, 11.
 
 
-
+## Nehemias 11
 
 _Relação dos que habitaram em Jerusalem._
 
@@ -63039,7 +62921,7 @@ Beth-el, e nos logares da sua jurisdicção,
 [14] I Chr. 4.14.
 
 
-
+## Nehemias 12
 
 _Os sacerdotes que vieram para Jerusalem com Zorobabel._
 
@@ -63225,7 +63107,7 @@ sanctificavam aos filhos d’Aarão.
 [15] Num. 18.21, 24, 26.
 
 
-
+## Nehemias 13
 
 _Nehemias remove diversos abusos._
 
@@ -63410,11 +63292,9 @@ e para com as primicias: lembra-te de mim, Deus meu, para bem.
 [31] cap. 10.34. ver. 14, 22.
 
 
-
+# Esther 1
 
 O LIVRO DE ESTHER.
-
-
 
 
 _O banquete de Assuero._
@@ -63535,7 +63415,7 @@ conforme á lingua do seu povo.
 [12] Eph. 5.22, 23, 24. I Tim. 2.12.
 
 
-
+## Esther 2
 
 _Assuero casa com Esther._
 
@@ -63659,7 +63539,7 @@ n’uma forca: e foi escripto [12] nas chronicas perante o rei.
 [12] cap. 6.1.
 
 
-
+## Esther 3
 
 _Haman é exaltado, e cria odio a Mardoqueo._
 
@@ -63761,7 +63641,7 @@ porém a cidade de Susan [14] estava confusa.
 [14] cap. 8.15. Pro. 29.2.
 
 
-
+## Esther 4
 
 _A consternação e tristeza dos judeos._
 
@@ -63836,7 +63716,7 @@ com o rei, ainda que não _é_ segundo a lei; e, perecendo, pereça.
 [5] cap. 3.5.
 
 
-
+## Esther 5
 
 _Esther entra á presença do rei, e convida-o, e a Haman, para dois
 banquetes._
@@ -63911,7 +63791,7 @@ este conselho bem pareceu a Haman, e mandou fazer [8] a forca.
 [8] cap. 7.10.
 
 
-
+## Esther 6
 
 _O rei lê as chronicas e determina honrar Mardoqueo._
 
@@ -63982,7 +63862,7 @@ se apressaram a levar Haman [6] ao banquete que Esther preparara.
 [6] cap. 5.8.
 
 
-
+## Esther 7
 
 _Esther denuncia Haman._
 
@@ -64040,7 +63920,7 @@ Mardoqueo. Então o furor do rei se aplacou.
 [7] Dan. 6.24.
 
 
-
+## Esther 8
 
 _O rei concede a Mardoqueo um edicto em favor dos judeos._
 
@@ -64147,7 +64027,7 @@ judeos; porque o temor dos judeos [15] tinha caido sobre elles.
 [15] Gen. 35.5. Exo. 15.16. Deu. 2.25 e 11.25. cap. 9.2.
 
 
-
+## Esther 9
 
 _Os judeos matam os seus inimigos._
 
@@ -64318,7 +64198,7 @@ escreveu-se n’_um_ livro.
 [20] cap. 2.3 e 34.6.
 
 
-
+## Esther 10
 
 _Exaltação de Mardoqueo._
 
@@ -64343,11 +64223,9 @@ de toda a sua nação.
 [4] Neh. 2.10.
 
 
-
+# Job 1
 
 [MT] O LIVRO DE JOB.
-
-
 
 
 _A virtude, tentação e perdas de Job._
@@ -64459,7 +64337,7 @@ Pro. 8.13 e 16.6.
 [13] cap. 2.10.
 
 
-
+## Job 2
 
 _A adversidade e cruel afflicção de Job._
 
@@ -64540,7 +64418,7 @@ grande.
 [14] Gen. 50.10.
 
 
-
+## Job 3
 
 _Job amaldiçoa o seu nascimento e lamenta a sua miseria._
 
@@ -64635,7 +64513,7 @@ mim a perturbação.
 [11] cap. 19.8. Lam. 3.7.
 
 
-
+## Job 4
 
 _Eliphaz reprehende Job._
 
@@ -64717,7 +64595,7 @@ sem sabedoria.
 [9] cap. 15.16. II Cor. 4.7 e 5.1.
 
 
-
+## Job 5
 
 _Eliphaz exhorta a Job a que busque a Deus._
 
@@ -64828,7 +64706,7 @@ n’isso para teu _bem_.
 [16] Pro. 9.11 e 10.27.
 
 
-
+## Job 6
 
 _Job justifica as suas queixas._
 
@@ -64934,7 +64812,7 @@ paladar dar a entender as _minhas_ miserias?
 [9] cap. 17.10.
 
 
-
+## Job 7
 
 7 Porventura [1] não _tem_ o homem guerra sobre a terra? _e não são_ os
 seus dias como os dias do jornaleiro?
@@ -65023,7 +64901,7 @@ não estarei lá.
 [13] cap. 16.12. Lam. 3.12.
 
 
-
+## Job 8
 
 _Bildad combate as palavras de Job e justifica a Deus._
 
@@ -65107,7 +64985,7 @@ existirá mais.
 [9] cap. 7.10 e 20.9.
 
 
-
+## Job 9
 
 _Job confessa a justiça de Deus e pede allivio á sua miseria._
 
@@ -65247,7 +65125,7 @@ terror.
 [21] cap. 13.20, 21, 22 e 33.7.
 
 
-
+## Job 10
 
 10 A minha alma [1] tem tedio á minha vida: darei livre curso á minha
 queixa, fallarei [2] na amargura da minha alma.
@@ -65324,7 +65202,7 @@ sem ordem alguma e onde a luz é como a escuridão.
 [8] cap. 7.16, 19.
 
 
-
+## Job 11
 
 _Sofar reprehende Job, mostra a sabedoria de Deus e exhorta ao
 arrependimento._
@@ -65408,7 +65286,7 @@ e a sua esperança _será_ o expirar da alma.
 [9] Lev. 26.16. Deu. 28.65. cap. 8.14 e 18.14. Pro. 11.7.
 
 
-
+## Job 12
 
 _Job defende-se contra as accusaçoes de seus amigos._
 
@@ -65507,7 +65385,7 @@ desatinar como ebrios.
 [14] Deu. 28.29. cap. 5.14.
 
 
-
+## Job 13
 
 13 Eis que tudo _isto_ viram os meus olhos, _e_ os meus ouvidos _o_
 ouviram e entenderam.
@@ -65619,7 +65497,7 @@ qual roe a traça.
 [14] cap. 33.11.
 
 
-
+## Job 14
 
 _Job roga o favor de Deus por causa da brevidade e miseria da vida
 humana._
@@ -65711,7 +65589,7 @@ Apo. 20.11 e 21.1.
 [12] Ecc. 9.5. Isa. 63.16.
 
 
-
+## Job 15
 
 _Eliphaz accusa Job de impiedade._
 
@@ -65854,7 +65732,7 @@ enganos.
 [17] Isa. 59.4. Ose. 10.13.
 
 
-
+## Job 16
 
 _Job accusa a seus amigos de falta de compaixão e misericordia._
 
@@ -65940,7 +65818,7 @@ não tornarei.
 [9] cap. 31.25. Ecc. 6.10. Isa. 45.9. Rom. 9.20.
 
 
-
+## Job 17
 
 17 O meu espirito se vae corrompendo, os meus dias se vão apagando, _e
 tenho_ perante mim as [1] sepulturas.
@@ -66003,7 +65881,7 @@ descanço.
 [6] cap. 18.13. cap. 3.17.
 
 
-
+## Job 18
 
 _Bildad accusa Job de presumpção e impaciencia._
 
@@ -66089,7 +65967,7 @@ que_ não [12] conhece a Deus.
 [12] Jer. 9.3 e 19.25. I The. 4.5. II The. 1.8. Tito 1.16.
 
 
-
+## Job 19
 
 _Job queixa-se da obstinação e dureza dos seus amigos._
 
@@ -66194,7 +66072,7 @@ para saberdes que _haverá_ um juizo.
 [9] ver. 22.
 
 
-
+## Job 20
 
 _Sofar descreve as calamidades que os impios soffrem._
 
@@ -66303,7 +66181,7 @@ de Deus, a herança dos seus ditos.
 [11] cap. 17.13 e 31.2, 3.
 
 
-
+## Job 21
 
 _Job mostra que os impios muitas vezes gozam prosperidade n’esta vida._
 
@@ -66438,7 +66316,7 @@ resta a transgressão.
 [18] Gal. 2.11.
 
 
-
+## Job 22
 
 _Eliphaz accusa Job de diversos peccados e o exhorta ao arrependimento._
 
@@ -66556,7 +66434,7 @@ pureza de tuas mãos.
 [15] Pro. 29.23. Thi. 4.6. I Ped. 5.5.
 
 
-
+## Job 23
 
 _Job deseja apresentar-se perante Deus e confia na sua misericordia._
 
@@ -66620,7 +66498,7 @@ escuridão o meu rosto.
 [6] I The. 3.3.
 
 
-
+## Job 24
 
 _Job contesta que os impios, muitas vezes, ficam sem castigo n’esta vida._
 
@@ -66716,7 +66594,7 @@ como todos, e cortados como as cabeças das espigas.
 [10] Pro. 15.3.
 
 
-
+## Job 25
 
 _Bildad sustenta que o homem não pode, sem presumção, justificar-se
 diante de Deus._
@@ -66742,7 +66620,7 @@ um bicho.
 [2] cap. 4.17, etc. e 15.14, etc.
 
 
-
+## Job 26
 
 _Job reprehende Bildad e exalta o poder de Deus._
 
@@ -66794,7 +66672,7 @@ que temos ouvido d’elle! Quem pois entenderia o trovão do seu poder?
 [6] Isa. 27.1.
 
 
-
+## Job 27
 
 _Job sustenta sua integridade e sinceridade._
 
@@ -66887,7 +66765,7 @@ assobiará.
 [11] cap. 18.11.
 
 
-
+## Job 28
 
 _O homem tem sciencia das coisas da terra, mas a sabedoria é dom de Deus._
 
@@ -66985,7 +66863,7 @@ apartar-se do mal, a intelligencia.
 [9] Deu. 4.6. Pro. 1.7 e 9.10. Ecc. 12.13.
 
 
-
+## Job 29
 
 _Lamentação de Job lembrando-se do seu primeiro estado._
 
@@ -67080,7 +66958,7 @@ rei entre as tropas: como aquelle que consola os que pranteiam.
 [10] Zac. 10.1.
 
 
-
+## Job 30
 
 _Job descreve o estado miseravel em que caiu._
 
@@ -67190,7 +67068,7 @@ voz dos que choram.
 [8] Lam. 4.8 e 5.10.
 
 
-
+## Job 31
 
 _Job declara sua integridade nos seus deveres._
 
@@ -67353,7 +67231,7 @@ palavras de Job.
 [23] Gen. 3.18.
 
 
-
+## Job 32
 
 _Elihu reprehende Job e os seus tres amigos._
 
@@ -67433,7 +67311,7 @@ homem!
 [7] Lev. 19.15. Deu. 1.17 e 16.19. Pro. 24.23. Mat. 22.16.
 
 
-
+## Job 33
 
 _Elihu accusa Job de se oppôra Deus e de entender mal os seus caminhos._
 
@@ -67545,7 +67423,7 @@ justificar-te.
 [10] ver. 28. Psa. 56.13.
 
 
-
+## Job 34
 
 _Elihu accusa Job de fallar injustamente de Deus._
 
@@ -67695,7 +67573,7 @@ palmas _das mãos_, e multiplicaria contra Deus as suas razões.
 [20] cap. 35.16.
 
 
-
+## Job 35
 
 _O bem e o mal não podem affectar a Deus, mas algumas vezes, por falta de
 fé dos afflictos não os ouve._
@@ -67760,7 +67638,7 @@ muito na multidão _dos peccadores_:
 [8] cap. 9.11.
 
 
-
+## Job 36
 
 _Elihu justifica a Deus e diz a Job que o seu peccado estorva a benção
 d’Aquelle._
@@ -67887,7 +67765,7 @@ entre ellas.
 [15] I Reis 18.45.
 
 
-
+## Job 37
 
 _O homem, por conhecer as obras de Deus e a sua sabedoria, deve temel-o._
 
@@ -67977,7 +67855,7 @@ coração.
 [8] Mat. 10.28 e 11.25. I Cor. 1.26.
 
 
-
+## Job 38
 
 _Deus responde a Job e mostra-lhe sua grandeza e sabedoria._
 
@@ -68130,7 +68008,7 @@ pintainhos gritam a Deus e andam vagueando, por não terem de comer?
 [16] Mat. 6.26.
 
 
-
+## Job 39
 
 39 Sabes tu o tempo em que as cabras montezes parem? _ou_ consideraste as
 dôres das cervas?
@@ -68225,7 +68103,7 @@ o sul?
 [7] Mat. 24.28. Luc. 17.37.
 
 
-
+## Job 40
 
 40 Respondeu mais [1] o Senhor a Job e disse:
 
@@ -68304,7 +68182,7 @@ _lhe_ furar os narizes?
 [5] Isa. 2.12. Dan. 4.37.
 
 
-
+## Job 41
 
 41 Poderás tirar com anzol [1] o leviathan? ou ligarás a sua lingua com a
 corda?
@@ -68409,7 +68287,7 @@ estar sem pavor.
 [3] Rom. 11.35. Exo. 19.5. Deu. 10.14. I Cor. 10.26, 28.
 
 
-
+## Job 42
 
 _Job humilha-se perante Deus e dá-lhe gloria._
 
@@ -68503,11 +68381,9 @@ filhos, e aos filhos de seus filhos, até á quarta geração.
 [13] Gen. 25.8.
 
 
-
+# Psalmo 1
 
 O LIVRO DOS PSALMOS.
-
-
 
 
 _A felicidade dos justos e o castigo dos impios._
@@ -68549,7 +68425,7 @@ impios perecerá.
 [7] Neh. 1.7. João 10.14. II Tim. 2.19.
 
 
-
+## Psalmo 2
 
 _A rebellião das gentes e a victoria do Messias._
 
@@ -68607,7 +68483,7 @@ n’elle confiam.
 [11] Apo. 6.16, 17. Pro. 16.20. Isa. 30.18. Jer. 17.7. I Ped. 2.6.
 
 
-
+## Psalmo 3
 
 _David confia em Deus na sua adversidade._
 
@@ -68648,7 +68524,7 @@ meus inimigos nos queixos; quebraste os dentes aos impios.
 [6] Pro. 21.31. Isa. 43.11. Jer. 3.23. Ose. 13.4. Apo. 7.10 e 19.1.
 
 
-
+## Psalmo 4
 
 _David ora a Deus na sua angustia._
 
@@ -68692,7 +68568,7 @@ fazes habitar em segurança.
 [7] Lev. 25.18, 19.
 
 
-
+## Psalmo 5
 
 _Deus aborrece os impios e abençoa os justos._
 
@@ -68743,7 +68619,7 @@ benevolencia, como de um escudo.
 [4] Isa. 65.14.
 
 
-
+## Psalmo 6
 
 _David recorre á misericordia de Deus e alcança perdão._
 
@@ -68785,7 +68661,7 @@ envergonhem-se n’um momento.
 [4] Mat. 25.41.
 
 
-
+## Psalmo 7
 
 _David confia em Deus e protesta a sua innocencia._
 
@@ -68861,7 +68737,7 @@ nome do Senhor altissimo.
 [10] I Reis 2.32. Est. 9.25.
 
 
-
+## Psalmo 8
 
 _Deus é glorificado nas suas obras e na sua bondade para com o homem._
 
@@ -68906,7 +68782,7 @@ terra!
 [6] Gen. 1.26. I Cor. 15.27. Heb. 2.8.
 
 
-
+## Psalmo 9
 
 _Acção de graças por um grande livramento._
 
@@ -68994,7 +68870,7 @@ que_ homens (Selah).
 [10] Pro. 23.18 e 24.14.
 
 
-
+## Psalmo 10
 
 _A audacia dos perseguidores, e o refugio em Deus._
 
@@ -69077,7 +68953,7 @@ da terra não prosiga mais em usar da violencia.
 [12] Isa. 11.4.
 
 
-
+## Psalmo 11
 
 _Deus salva os rectos e castiga os impios._
 
@@ -69114,7 +68990,7 @@ os rectos.
 [4] Job 36.7. I Ped. 3.12.
 
 
-
+## Psalmo 12
 
 _A falsidade do homem e a veracidade de Deus._
 
@@ -69155,7 +69031,7 @@ são exaltados.
 [5] II Sam. 22.31. Pro. 30.5.
 
 
-
+## Psalmo 13
 
 _David, na sua extrema tristeza, recorre a Deus e confia n’elle._
 
@@ -69187,7 +69063,7 @@ meu coração.
 [4] Psa. 12.4, 7 e 119.17.
 
 
-
+## Psalmo 14
 
 _A corrupção do homem; sua redempção provém de Deus._
 
@@ -69224,7 +69100,7 @@ alegrará Israel.
 [4] Psa. 53.7. Job 42.10.
 
 
-
+## Psalmo 15
 
 _O verdadeiro cidadão dos céus._
 
@@ -69252,7 +69128,7 @@ innocente: quem faz isto nunca será abalado.
 [3] Est. 3.2.
 
 
-
+## Psalmo 16
 
 _A confiança e felicidade do crente e a certeza da vida eterna._
 
@@ -69302,7 +69178,7 @@ alegrias; á tua mão direita _ha_ delicias perpetuamente.
 [5] Mat. 5.8. I João 3.2.
 
 
-
+## Psalmo 17
 
 _David pede a Deus que o proteja dos seus inimigos; confia na sua
 innocencia e na justiça de Deus._
@@ -69358,7 +69234,7 @@ satisfazer-me-hei da tua similhança quando acordar.
 [2] João 3.2.
 
 
-
+## Psalmo 18
 
 _Cantico de louvor a Deus pelas suas muitas bençãos._
 
@@ -69528,7 +69404,7 @@ o seu ungido, com David, e com a sua semente para sempre.
 [10] II Sam. 7.13.
 
 
-
+## Psalmo 19
 
 _A excellencia da creação e das suas leis, assim como da palavra de Deus._
 
@@ -69584,7 +69460,7 @@ coração perante a tua face, Senhor, Rocha minha e [4] Libertador meu!
 [4] Isa. 44.6 e 47.4 e 48.14.
 
 
-
+## Psalmo 20
 
 _Oração pelo rei na guerra._
 
@@ -69620,7 +69496,7 @@ menção do nome do Senhor nosso Deus.
 [3] II Chr. 32.8.
 
 
-
+## Psalmo 21
 
 _David louva a Deus pela victoria._
 
@@ -69673,7 +69549,7 @@ poder.
 [4] I Reis 13.34. Job 18.16, 17, 19.
 
 
-
+## Psalmo 22
 
 _O Messias soffre, mas triumpha._
 
@@ -69782,7 +69658,7 @@ elle o fez.
 [8] João 65.1.
 
 
-
+## Psalmo 23
 
 _A felicidade de termos o Senhor como nosso pastor._
 
@@ -69810,7 +69686,7 @@ minha vida: e habitarei na casa do Senhor por longos dias.
 [2] Job 3.5.
 
 
-
+## Psalmo 24
 
 _O dominio universal de Deus; quem é digno de entrar no seu sanctuario;
 Deus é o Rei da gloria._
@@ -69853,7 +69729,7 @@ Gloria (Selah).
 [4] Isa. 26.2.
 
 
-
+## Psalmo 25
 
 _David roga a Deus que o livre dos seus inimigos e lhe perdoe os seus
 peccados._
@@ -69929,7 +69805,7 @@ confio em ti.
 [4] II Sam. 16.12.
 
 
-
+## Psalmo 26
 
 _David recorre a Deus, confiando na sua propria integridade._
 
@@ -69976,7 +69852,7 @@ Senhor.
 [3] Exo. 23.8. Deu. 16.19.
 
 
-
+## Psalmo 27
 
 _Confiança em Deus e anhelo pela sua presença._
 
@@ -70034,7 +69910,7 @@ espera pois no Senhor.
 [3] Isa. 25.9. Hab. 2.3.
 
 
-
+## Psalmo 28
 
 _David roga a Deus que o aparte dos impios a e louva, Deus porque ouviu
 as suas supplicas._
@@ -70075,7 +69951,7 @@ exalta-os para sempre.
 [3] Deu. 9.29. I Reis 8.51, 53.
 
 
-
+## Psalmo 29
 
 _David exhorta a louvar a magestade de Deus._
 
@@ -70118,7 +69994,7 @@ paz.
 [3] Psa. 28.8.
 
 
-
+## Psalmo 30
 
 _A ira de Deus dura um momento só, mas a sua benignidade é eterna._
 
@@ -70163,7 +70039,7 @@ Deus meu, eu te louvarei para sempre.
 [3] II Sam. 6.14. Jer. 31.4.
 
 
-
+## Psalmo 31
 
 _David roga a Deus que o livre, louva a sua benignidade e exhorta a
 confiar n’Elle._
@@ -70251,7 +70127,7 @@ esperaes no Senhor.
 [3] Jer. 20.10.
 
 
-
+## Psalmo 32
 
 _A felicidade do homem perdoado; exhortação ao arrependimento._
 
@@ -70303,7 +70179,7 @@ alegremente, todos _vós que sois_ rectos de coração.
 [5] Pro. 13.21. Rom. 2.9.
 
 
-
+## Psalmo 33
 
 _O jubilo do crente na contemplação das obras de Deus._
 
@@ -70378,7 +70254,7 @@ seu sancto nome.
 [7] Zac. 10.7. João 16.22.
 
 
-
+## Psalmo 34
 
 _David louva a Deus, porque respondeu ás suas supplicas, e exhorta a
 confiar n’Elle._
@@ -70467,7 +70343,7 @@ confiam será [OF] desolado.
 [10] João 19.36.
 
 
-
+## Psalmo 35
 
 _David pede o castigo dos impios; descripção da miseria d’estes e
 supplica para que Deus os julgue._
@@ -70569,7 +70445,7 @@ dia.
 [5] Rom. 12.15. I Cor. 12.26.
 
 
-
+## Psalmo 36
 
 _A malicia dos impios. Nosso refugio está em Deus, que salva os rectos._
 
@@ -70615,7 +70491,7 @@ sobre os rectos de coração.
 [3] Jer. 2.13. João 4.10, 14.
 
 
-
+## Psalmo 37
 
 _A prosperidade dos peccadores acaba, mas sómente os justos serão
 felizes._
@@ -70739,7 +70615,7 @@ os salvará, [5] porquanto confiam n’elle.
 [5] Dan. 3.17, 28 e 6.23.
 
 
-
+## Psalmo 38
 
 _A dôr e o arrependimento do peccador; dirige-se a Deus para obter perdão
 e salvação._
@@ -70813,7 +70689,7 @@ me odeiam se engrandecem.
 [3] Isa. 12.2.
 
 
-
+## Psalmo 39
 
 _O cuidado com as nossas palavras; a brevidade e vaidade da vida; a
 supplica para que Deus o guarde da impaciencia._
@@ -70863,7 +70739,7 @@ ti _e_ peregrino como todos os meus paes.
 [1] Lev. 25.23. Heb. 11.13.
 
 
-
+## Psalmo 40
 
 _Deus ouve a alma paciente: a obediencia é melhor do que o sacrificio;
 oração a Deus para que o livre dos males._
@@ -70931,7 +70807,7 @@ tu _és_ o meu auxilio e o meu libertador; não te detenhas, ó meu Deus.
 [4] I Ped. 5.7.
 
 
-
+## Psalmo 41
 
 _O cuidado de Deus para com os pobres. David queixa-se da traição de seus
 inimigos e busca o soccorro de Deus._
@@ -70982,7 +70858,7 @@ Amen.
 [2] Psa. 6.3.
 
 
-
+## Psalmo 42
 
 _A alma anhela por servir a Deus no seu templo._
 
@@ -71031,7 +70907,7 @@ da minha face, e o meu Deus.
 [3] ver. 5.
 
 
-
+## Psalmo 43
 
 _Oração para que seja restituido aos privilegios do sanctuario._
 
@@ -71052,7 +70928,7 @@ mim? Espera em Deus, pois ainda o louvarei, _o qual é_ a salvação da
 minha face e Deus meu.
 
 
-
+## Psalmo 44
 
 _O povo de Deus recorda os favores antigos, e roga o livramento dos males
 presentes._
@@ -71149,7 +71025,7 @@ misericordias.
 [6] Job 13.24.
 
 
-
+## Psalmo 45
 
 _Descripção prophetica da união entre Christo e a sua egreja._
 
@@ -71216,7 +71092,7 @@ te louvarão eternamente.
 [4] Mal. 1.11.
 
 
-
+## Psalmo 46
 
 _A fé perfeita que aquelle que crê tem em Deus._
 
@@ -71261,7 +71137,7 @@ refugio (Selah).
 [3] Isa. 2.11, 17.
 
 
-
+## Psalmo 47
 
 _O triumpho do reino de Deus._
 
@@ -71291,7 +71167,7 @@ sanctidade.
 escudos da terra _são_ de Deus: elle está muito elevado!
 
 
-
+## Psalmo 48
 
 _A belleza e os privilegios de Sião._
 
@@ -71336,7 +71212,7 @@ até á morte.
 [1] Isa. 2.2. Miq. 4.1.
 
 
-
+## Psalmo 49
 
 _A vaidade dos bens terrestres. Só Deus salva da morte._
 
@@ -71407,7 +71283,7 @@ bestas que perecem.
 [3] Luc. 12.10.
 
 
-
+## Psalmo 50
 
 _Deus governa o mundo: Deus tem mais prazer na obediencia do que no
 sacrificio._
@@ -71486,7 +71362,7 @@ em pedaços, sem haver quem _vos_ livre.
 [4] Rom. 12.1. Gal. 6.16.
 
 
-
+## Psalmo 51
 
 _David confessa o seu peccado, supplica o perdão e roga a Deus que lhe
 renove um espirito recto._
@@ -71559,7 +71435,7 @@ das offertas queimadas; então se offerecerão novilhos sobre o teu altar.
 [5] Mal. 3.3.
 
 
-
+## Psalmo 52
 
 _David prediz a ruina do impio, e confia em Deus._
 
@@ -71597,7 +71473,7 @@ nome, porque _é_ bom diante de teus sanctos.
 [3] Jer. 11.16.
 
 
-
+## Psalmo 53
 
 _O impio nega a existencia de Deus e se corrompe._
 
@@ -71630,7 +71506,7 @@ alegrará Israel.
 [3] Eze. 6.5.
 
 
-
+## Psalmo 54
 
 _David roga a Deus que o salve dos seus inimigos._
 
@@ -71658,7 +71534,7 @@ Senhor, porque _é_ bom.
 desejo_ sobre os meus inimigos.
 
 
-
+## Psalmo 55
 
 _David queixa-se da malicia dos seus inimigos; persevera em oração, e
 lança a sua carga sobre o Senhor._
@@ -71744,7 +71620,7 @@ e de fraude não viverão metade dos seus dias; mas eu em ti confiarei.
 [6] Mat. 6.25.
 
 
-
+## Psalmo 56
 
 _David roga a Deus que o livre dos seus inimigos, e confia em que elle
 lh’o conceda._
@@ -71794,7 +71670,7 @@ queda, para andar diante de Deus na luz dos viventes?
 [2] Mal. 3.16.
 
 
-
+## Psalmo 57
 
 _David acha soccorro contra os seus inimigos e louva a Deus._
 
@@ -71839,7 +71715,7 @@ terra.
 [1] Isa. 26.20.
 
 
-
+## Psalmo 58
 
 _David reprova os impios. Deus os castigará, e salvará os justos._
 
@@ -71879,7 +71755,7 @@ sangue do impio.
 ha um Deus que julga na terra.
 
 
-
+## Psalmo 59
 
 _David supplica a Deus que o livre, e protesta a sua innocencia._
 
@@ -71936,7 +71812,7 @@ da minha angustia.
 defeza e o Deus da minha misericordia.
 
 
-
+## Psalmo 60
 
 _Acção de graças por varias victorias._
 
@@ -71981,7 +71857,7 @@ _que_ não saiste com os nossos exercitos?
 [2] Jos. 1.6. Gen. 12.6.
 
 
-
+## Psalmo 61
 
 _David confia em Deus como seu refugio._
 
@@ -72011,7 +71887,7 @@ e verdade _que_ o preservem.
 votos de dia em dia.
 
 
-
+## Psalmo 62
 
 _Exhortação a que se confie sómente em Deus._
 
@@ -72065,7 +71941,7 @@ cada um segundo a sua obra.
 22.12.
 
 
-
+## Psalmo 63
 
 _David anhela pela presença de Deus._
 
@@ -72107,7 +71983,7 @@ gloriará; porque se taparão as boccas dos que fallam a mentira.
 [2] Deu. 6.13.
 
 
-
+## Psalmo 64
 
 _David supplica a Deus que guarde a sua vida, e espera que lh’o conceda._
 
@@ -72145,7 +72021,7 @@ coração se gloriarão.
 [1] Jer. 50.28 e 51.10.
 
 
-
+## Psalmo 65
 
 _David louva a Deus e dá-lhe graças pelas bençãos concedidas._
 
@@ -72196,7 +72072,7 @@ elles se regozijam e cantam.
 [3] Isa. 55.12.
 
 
-
+## Psalmo 66
 
 _Cantico de louvor a Deus pelas suas grandes obras._
 
@@ -72264,7 +72140,7 @@ mim a sua misericordia.
 [4] Isa. 1.15. João 9.31. Thi. 4.3.
 
 
-
+## Psalmo 67
 
 _O reino de Deus abrange toda a terra._
 
@@ -72295,7 +72171,7 @@ abençoará.
 [3] Lev. 26.4.
 
 
-
+## Psalmo 68
 
 _Cantico de louvor e acção de graças a Deus como nosso salvador._
 
@@ -72416,7 +72292,7 @@ _é_ o que dá fortaleza e poder ao seu povo. Bemdito _seja_ Deus!
 [4] Deu. 33.2. Heb. 12.12.
 
 
-
+## Psalmo 69
 
 _Os soffrimentos de David prefiguram os do Messias._
 
@@ -72534,7 +72410,7 @@ habitarão n’ella.
 [3] Isa. 53.3. Heb. 12.2.
 
 
-
+## Psalmo 70
 
 _Na sua afflicção David supplica a Deus que se apresse em livral-o._
 
@@ -72555,7 +72431,7 @@ a tua salvação digam continuamente: Engrandecido seja Deus.
 _és_ o meu auxilio e o meu libertador: Senhor, não te detenhas.
 
 
-
+## Psalmo 71
 
 _David confia em Deus, e roga que o livre dos seus inimigos, e o proteja._
 
@@ -72637,7 +72513,7 @@ confundidos e envergonhados aquelles que procuram o meu mal.
 [4] ver. 8, 15.
 
 
-
+## Psalmo 72
 
 _A excellencia, justiça e gloria do reino de Salomão prefiguram as do
 Messias._
@@ -72708,7 +72584,7 @@ terra da sua gloria. Amen e Amen.
 [4] Gen. 12.3 e 22.18. Jer. 4.2.
 
 
-
+## Psalmo 73
 
 _A prosperidade dos impios faz duvidar da justiça de Deus, mas o seu fim
 a demonstra._
@@ -72800,7 +72676,7 @@ Senhor Deus, para annunciar todas as tuas obras.
 [5] Exo. 34.15.
 
 
-
+## Psalmo 74
 
 _A assolação do sanctuario, e a supplica para que se lembrasse do seu
 povo afflicto._
@@ -72888,7 +72764,7 @@ d’aquelles que se levantam contra ti augmenta continuamente.
 [6] Apo. 16.19.
 
 
-
+## Psalmo 75
 
 _O propheta louva a Deus e promette fazer observar a justiça._
 
@@ -72922,7 +72798,7 @@ terra _as_ sorverão _e_ beberão.
 justos serão exaltadas.
 
 
-
+## Psalmo 76
 
 _A magestade e o poder de Deus._
 
@@ -72962,7 +72838,7 @@ da terra.
 [1] Exo. 15.1, 21. Eze. 39.20.
 
 
-
+## Psalmo 77
 
 _O estado interno do psalmista; elle anima a sua alma pela consideração
 das grandes obras e da misericordia de Deus._
@@ -73033,7 +72909,7 @@ d’Aarão.
 [3] Exo. 13.21 e 14.19.
 
 
-
+## Psalmo 78
 
 _A salvação que Deus concedeu a Israel; a rebellião contra Elle; Deus
 escolheu Judah e David para pastorear Israel._
@@ -73289,7 +73165,7 @@ pela [QD] industria de suas mãos.
 [26] Gen. 33.13. Isa. 40.11.
 
 
-
+## Psalmo 79
 
 _A assolação de Jerusalem e a supplica de soccorro._
 
@@ -73339,7 +73215,7 @@ de geração em geração cantaremos os teus louvores.
 [2] Isa. 64.9.
 
 
-
+## Psalmo 80
 
 _O propheta supplica a Deus que livre a sua vinha dos que a destroem._
 
@@ -73406,7 +73282,7 @@ rosto; e seremos salvos.
 [3] Isa. 5.17.
 
 
-
+## Psalmo 81
 
 _Deus reprehende a Israel pela sua ingratidão e rebellião._
 
@@ -73459,7 +73335,7 @@ da [QH] pedra.
 [2] Exo. 20.2.
 
 
-
+## Psalmo 82
 
 _O propheta reprehende os juizes por causa da sua injustiça._
 
@@ -73488,7 +73364,7 @@ da terra vacillam.
 [2] Miq. 7.2, 7.
 
 
-
+## Psalmo 83
 
 _As nações congregam-se contra Israel, e o propheta supplica a Deus que o
 livre._
@@ -73547,7 +73423,7 @@ _és_ o Altissimo sobre toda a terra.
 [2] Isa. 17.13.
 
 
-
+## Psalmo 84
 
 _A felicidade d’aquelle que habita no sanctuario de Deus._
 
@@ -73589,7 +73465,7 @@ gloria; não retirará bem _algum_ aos que andam na rectidão.
 confiança.
 
 
-
+## Psalmo 85
 
 _Fundando-se nos livramentos passados, o povo de Deus pede o livramento
 das afflicções presentes._
@@ -73635,7 +73511,7 @@ beijaram.
 [3] Isa. 45.8.
 
 
-
+## Psalmo 86
 
 _David implora ardentemente o soccorro de Deus._
 
@@ -73693,7 +73569,7 @@ aborrecem, e se confundam; porque tu, Senhor, me ajudaste e me consolaste.
 [2] Exo. 34.6. Num. 14.18. Neh. 9.17.
 
 
-
+## Psalmo 87
 
 _Deus tem o maior prazer em Sião._
 
@@ -73722,7 +73598,7 @@ as minhas fontes _estão_ dentro de ti.
 [1] Isa. 60.14, 15.
 
 
-
+## Psalmo 88
 
 _O psalmista queixa-se das suas grandes desgraças, e supplica a Deus que
 o livre._
@@ -73785,7 +73661,7 @@ conhecidos _estão_ em trevas.
 [1] Luc. 18.7.
 
 
-
+## Psalmo 89
 
 _Traz-se á memoria o pacto de Deus com David, a fim de que Deus livre o
 seu povo dos males presentes._
@@ -73935,7 +73811,7 @@ diffamado as pisadas do teu ungido.
 [1] I Reis 8.16.
 
 
-
+## Psalmo 90
 
 _A fraqueza do homem e a providencia de Deus._
 
@@ -74001,7 +73877,7 @@ nós [5] a obra das nossas mãos; sim, confirma a obra das nossas mãos.
 [5] Isa. 26.12.
 
 
-
+## Psalmo 91
 
 _A segurança d’aquelle que se acolhe em Deus._
 
@@ -74049,7 +73925,7 @@ angustia; _d’ella_ o retirarei, e o glorificarei.
 16 Fartal-o-hei com longura de dias, e lhe mostrarei a minha salvação.
 
 
-
+## Psalmo 92
 
 _O psalmista louva a Deus por amor da sua obra, justiça e graça._
 
@@ -74097,7 +73973,7 @@ nosso Deus.
 n’elle não _ha_ injustiça.
 
 
-
+## Psalmo 93
 
 _O poder e magestade do reino de Deus._
 
@@ -74117,7 +73993,7 @@ aguas _e do que_ as grandes ondas do mar.
 Senhor, para sempre.
 
 
-
+## Psalmo 94
 
 _Appellação á justiça de Deus contra os malfeitores._
 
@@ -74188,7 +74064,7 @@ propria malicia: o Senhor nosso Deus os destruirá.
 [2] Amós 6.3. Isa. 10.
 
 
-
+## Psalmo 95
 
 _O psalmista convida a louvar o Senhor e celebral-o de viva voz._
 
@@ -74227,7 +74103,7 @@ povo que erra do coração, e não tem conhecido os meus caminhos.
 [3] Num. 14.23, 28, 30.
 
 
-
+## Psalmo 96
 
 _Convite a toda a terra para louvar e temer o Senhor._
 
@@ -74273,7 +74149,7 @@ julgará o mundo com justiça e os povos com a sua verdade.
 [2] Apo. 19.11.
 
 
-
+## Psalmo 97
 
 _A magestade do reino de Deus: o castigo dos impios: exhortação á piedade
 e ao regozijo._
@@ -74320,7 +74196,7 @@ sanctidade.
 [5] Exo. 18.11.
 
 
-
+## Psalmo 98
 
 _Convite a louvar o Senhor por amor de sua salvação._
 
@@ -74355,7 +74231,7 @@ julgará _o_ mundo, e o povo com equidade.
 [2] Isa. 55.12.
 
 
-
+## Psalmo 99
 
 _A grandeza do reino de Deus._
 
@@ -74391,7 +74267,7 @@ Senhor nosso Deus _é_ sancto.
 [3] Exo. 14.15 e 15.25.
 
 
-
+## Psalmo 100
 
 _Exhortação a toda a creatura a celebrar ao Senhor._
 
@@ -74411,7 +74287,7 @@ louvae-o, e bemdizei o seu nome.
 _dura_ de geração em geração.
 
 
-
+## Psalmo 101
 
 _David promette a Deus andar perante elle com sinceridade e oppor-se aos
 impios._
@@ -74446,7 +74322,7 @@ cidade do Senhor todos os que obram a iniquidade.
 [2] Mat. 7.23. II Tim. 2.19.
 
 
-
+## Psalmo 102
 
 _Na sua grande afflicção, o psalmista recorre a Deus para que restabeleça
 o seu povo e o reconduza á sua terra._
@@ -74541,7 +74417,7 @@ perante ti.
 [6] Mal. 3.6. Heb. 13.8.
 
 
-
+## Psalmo 103
 
 _Convite a louvar a Deus por amor de sua graça._
 
@@ -74623,7 +74499,7 @@ dominio; bemdize, ó alma minha, ao Senhor.
 [6] Dan. 7.9, 10. Heb. 1.14.
 
 
-
+## Psalmo 104
 
 _A gloria de Deus é manifestada na creação e conservação de todas as
 coisas._
@@ -74737,7 +74613,7 @@ alma minha, ao Senhor. [QX] Louvae ao Senhor.
 [7] Hab. 3.10.
 
 
-
+## Psalmo 105
 
 _O psalmista louva a Deus por haver guardado o seu pacto com os
 patriarchas, por haver livrado Israel d’Egypto, e pelo haver conduzido
@@ -74901,7 +74777,7 @@ Louvae ao Senhor.
 [22] Deu. 6.10.
 
 
-
+## Psalmo 106
 
 _Deus é louvado por haver supportado o seu povo, apezar das suas muitas
 rebelliões._
@@ -75094,7 +74970,7 @@ todo o povo diga: Amen. Louvae ao Senhor.
 [28] Esd. 9.9. I Chr. 16.35, 36. Jer. 42.12.
 
 
-
+## Psalmo 107
 
 _A bondade de Deus em proteger os viajantes, os encarcerados, os doentes,
 os que navegam, e em geral todos os homens._
@@ -75228,7 +75104,7 @@ benignidades do Senhor.
 [7] Jer. 9.12. Ose. 14.
 
 
-
+## Psalmo 108
 
 _David louva a Deus pela victoria que lhe concedeu._
 
@@ -75273,7 +75149,7 @@ _da parte_ do homem.
 [1] Gen. 49.10.
 
 
-
+## Psalmo 109
 
 _David roga a Deus o castigo dos impios, e que o livre das suas
 afflicções._
@@ -75382,7 +75258,7 @@ condemnam a sua alma.
 [8] II Sam. 16.11, 12. Isa. 65.14.
 
 
-
+## Psalmo 110
 
 _O reino, o sacerdocio e a conquista do Messias._
 
@@ -75415,7 +75291,7 @@ cabeças de [RC] grandes terras.
 [3] Jui. 7.5, 6.
 
 
-
+## Psalmo 111
 
 _Deus é louvado por amor das suas obras maravilhosas._
 
@@ -75456,7 +75332,7 @@ para sempre.
 [3] Deu. 4.6.
 
 
-
+## Psalmo 112
 
 _A felicidade d’aquelle que teme a Deus._
 
@@ -75493,7 +75369,7 @@ consumirá: o desejo dos impios perecerá.
 [2] II Cor. 9.9. Deu. 24.13.
 
 
-
+## Psalmo 113
 
 _Exhortação a louvar a Deus pela sua grandeza e por amor da sua bondade
 para com os pobres._
@@ -75525,7 +75401,7 @@ filhos. Louvae ao Senhor.
 [2] Isa. 50.19. Mal. 1.11.
 
 
-
+## Psalmo 114
 
 _O psalmista celebra a passagem maravilhosa pelo Mar Vermelho e Jordão._
 
@@ -75555,7 +75431,7 @@ agua.
 [3] Exo. 17.6. Num. 20.11.
 
 
-
+## Psalmo 115
 
 _A gloria do Senhor e a vaidade dos idolos. Exhortação a confiar só em
 Deus._
@@ -75614,7 +75490,7 @@ Senhor.
 [5] Dan. 2.20.
 
 
-
+## Psalmo 116
 
 _Amor e gratidão a Deus pela sua salvação._
 
@@ -75670,7 +75546,7 @@ Senhor.
 [3] Lev. 7.12.
 
 
-
+## Psalmo 117
 
 _Deus é louvado por amor da sua bondade e veracidade._
 
@@ -75682,7 +75558,7 @@ _dura_ para sempre. Louvae ao Senhor.
 [1] Rom. 15.11.
 
 
-
+## Psalmo 118
 
 _O psalmista louva a Deus por amor do livramento de muitos inimigos._
 
@@ -75787,7 +75663,7 @@ _dura_ para sempre.
 [13] ver. 1.
 
 
-
+## Psalmo 119
 
 _A excellencia da lei do Senhor e a felicidade d’aquelle que a observa._
 
@@ -76389,7 +76265,7 @@ me esqueci dos teus mandamentos.
 [34] Isa. 53.6. Luc. 15.4. I Ped. 2.25.
 
 
-
+## Psalmo 120
 
 _O psalmista ora para que seja livre do mentiroso e calumniador._
 
@@ -76414,7 +76290,7 @@ _O psalmista ora para que seja livre do mentiroso e calumniador._
 [2] Gen. 25.13. Jer. 49.28, 29.
 
 
-
+## Psalmo 121
 
 _Deus é o guarda fiel do seu povo._
 
@@ -76438,7 +76314,7 @@ Cantico dos degraus.
 sempre.
 
 
-
+## Psalmo 122
 
 _Oração para que a paz de Jerusalem continue._
 
@@ -76469,7 +76345,7 @@ palacios.
 [2] II Sam. 5.9.
 
 
-
+## Psalmo 123
 
 _A oração do crente desprezado._
 
@@ -76489,7 +76365,7 @@ fartos de desprezo.
 sua vontade _e_ com o desprezo dos soberbos.
 
 
-
+## Psalmo 124
 
 _Só Deus pode livrar o seu povo._
 
@@ -76516,7 +76392,7 @@ laço quebrou-se, e nós escapámos.
 8 O nosso soccorro _está_ no nome do Senhor, que fez o céu e a terra.
 
 
-
+## Psalmo 125
 
 _A segurança d’aquelle que confia em Deus._
 
@@ -76542,7 +76418,7 @@ Israel.
 [2] Gal. 6.16.
 
 
-
+## Psalmo 126
 
 _Deus é louvado porque fez retirar do captiveiro o seu povo._
 
@@ -76565,7 +76441,7 @@ aguas_ no sul.
 duvida com alegria, trazendo _comsigo_ os seus molhos.
 
 
-
+## Psalmo 127
 
 _Segurança, prosperidade e fecundidade veem de Deus só._
 
@@ -76589,7 +76465,7 @@ confundidos, mas fallarão com os seus inimigos á porta.
 [1] Gen. 33.5 e 48.4. Jos. 24.3, 4. Deu. 28.4.
 
 
-
+## Psalmo 128
 
 _Aquelle que teme a Deus será abençoado na sua familia._
 
@@ -76617,7 +76493,7 @@ todos os dias da tua vida.
 [3] Gen. 50.23.
 
 
-
+## Psalmo 129
 
 _A egreja é perseguida, mas não destruida._
 
@@ -76645,7 +76521,7 @@ _enche_ o seu braço.
 nós vos abençoamos em nome do Senhor.
 
 
-
+## Psalmo 130
 
 _A confissão do peccado e a esperança do perdão._
 
@@ -76677,7 +76553,7 @@ _ha_ abundante redempção.
 [3] Mat. 1.20.
 
 
-
+## Psalmo 131
 
 _A humildade do psalmista._
 
@@ -76697,7 +76573,7 @@ desmamada de sua mãe: a minha alma _está_ como _uma creança_ desmamada.
 [2] Mat. 18.3. I Cor. 14.20.
 
 
-
+## Psalmo 132
 
 _O zelo de David pelo templo e pela arca. As promessas feitas por Deus._
 
@@ -76762,7 +76638,7 @@ corôa.
 [5] Eze. 29.21. Ose. 11.12.
 
 
-
+## Psalmo 133
 
 _A excellencia do amor fraternal._
 
@@ -76785,7 +76661,7 @@ Sião, porque ali o [4] Senhor ordena a benção _e_ vida para sempre.
 [4] Lev. 25.21. Deu. 28.8.
 
 
-
+## Psalmo 134
 
 _Exhortação a bemdizer o Senhor._
 
@@ -76799,7 +76675,7 @@ assistis na casa do Senhor todas as noites.
 3 O Senhor, que fez o céu e a terra, te abençõe desde Sião.
 
 
-
+## Psalmo 135
 
 _Deus é louvado pela sua bondade, poder e justiça. A vaidade dos idolos._
 
@@ -76865,7 +76741,7 @@ Senhor.
 [3] Num. 21.24, 25, 26, 34, 35.
 
 
-
+## Psalmo 136
 
 _Deus é louvado pelas suas obras e porque sua benignidade dura para
 sempre._
@@ -76966,7 +76842,7 @@ para sempre.
 [11] Gen. 8.1. Deu. 32.36.
 
 
-
+## Psalmo 137
 
 137 Junto dos rios de Babylonia, ali nos assentámos e chorámos, quando
 nos lembrámos de Sião:
@@ -77000,7 +76876,7 @@ pedras.
 [2] Jer. 50.15, 29.
 
 
-
+## Psalmo 138
 
 _Acção de graças a Deus por amor da sua fidelidade. Todos os reis o
 louvarão._
@@ -77032,7 +76908,7 @@ contra a ira dos meus inimigos, e a tua dextra me salvará.
 _dura_ para sempre; não desampares as obras das tuas mãos.
 
 
-
+## Psalmo 139
 
 _A omnipresença e a omnipotencia de Deus._
 
@@ -77111,7 +76987,7 @@ pensamentos.
 [4] Dan. 2.22. Heb. 4.13.
 
 
-
+## Psalmo 140
 
 _O psalmista ora para que seja livre de inimigos potentes e injustos._
 
@@ -77158,7 +77034,7 @@ presença.
 [2] Jer. 18.22.
 
 
-
+## Psalmo 141
 
 _O psalmista ora para que seja preservado no meio da tentação._
 
@@ -77197,7 +77073,7 @@ inteiramente.
 [1] Apo. 5.8 e 3.4.
 
 
-
+## Psalmo 142
 
 _Oração no meio de grande perigo._
 
@@ -77224,7 +77100,7 @@ perseguidores; porque são mais fortes do que eu.
 rodearão, pois me fizeste bem.
 
 
-
+## Psalmo 143
 
 _O psalmista ora para que seja livre de inimigos._
 
@@ -77270,7 +77146,7 @@ os que angustiam a minha alma: pois _sou_ teu servo.
 [2] Neh. 9.20. Isa. 26.10.
 
 
-
+## Psalmo 144
 
 _Acção de graças pela protecção de Deus e oração por outros livramentos._
 
@@ -77324,7 +77200,7 @@ povo cujo Deus _é_ o Senhor.
 [1] II Sam. 22.2, 3, 40, 48.
 
 
-
+## Psalmo 145
 
 _A bondade, grandeza e providencia de Deus._
 
@@ -77396,7 +77272,7 @@ sancto nome pelo seculo do seculo e para sempre.
 [3] João 4.24.
 
 
-
+## Psalmo 146
 
 _A fraqueza do homem e a fidelidade de Deus._
 
@@ -77442,7 +77318,7 @@ em geração. Louvae ao Senhor.
 [6] Exo. 15.18. Apo. 11.15.
 
 
-
+## Psalmo 147
 
 _Exhortação a louvar ao Senhor pela sua beneficencia._
 
@@ -77498,7 +77374,7 @@ Israel.
 os conhecem. Louvae ao Senhor.
 
 
-
+## Psalmo 148
 
 _Toda a creação deve louvar ao Senhor._
 
@@ -77542,7 +77418,7 @@ Senhor.
 [3] Isa. 44.23 e 49.13 e 55.12.
 
 
-
+## Psalmo 149
 
 _Os fieis louvam a seu Deus com canticos e instrumentos de musica._
 
@@ -77576,7 +77452,7 @@ os sanctos. Louvae ao Senhor.
 [2] Heb. 4.12. Apo. 1.16.
 
 
-
+## Psalmo 150
 
 _O psalmista exhorta toda a creatura a louvar o Senhor._
 
@@ -77601,11 +77477,9 @@ altisonantes.
 [2] I Chr. 15.16, 19, 28.
 
 
-
+# Proverbios 1
 
 PROVERBIOS DE SALOMÃO.
-
-
 
 
 _Introducção geral._
@@ -77750,7 +77624,7 @@ do temor do mal.
 [17] Isa. 3.11. Jer. 6.19.
 
 
-
+## Proverbios 2
 
 _A excellencia e vantagem da Sabedoria._
 
@@ -77832,7 +77706,7 @@ exterminados.
 [9] Mal. 2.14, 15.
 
 
-
+## Proverbios 3
 
 3 Filho meu, não te esqueças da minha lei, e o teu coração [1] guarde os
 meus mandamentos.
@@ -77976,7 +77850,7 @@ aos mansos.
 [23] Thi. 4.6. I Ped. 5.5.
 
 
-
+## Proverbios 4
 
 _Exhortação a adquirir a Sabedoria e apartar-se do caminho dos impios._
 
@@ -78086,7 +77960,7 @@ pé do mal.
 [15] Deu. 5.32 e 28.14. Jos. 1.7. Isa. 1.16. Rom. 12.9.
 
 
-
+## Proverbios 5
 
 5 Filho meu, attende á minha sabedoria: á minha intelligencia inclina o
 teu ouvido;
@@ -78170,7 +78044,7 @@ loucura andará errado.
 [9] Job 4.21 e 36.12.
 
 
-
+## Proverbios 6
 
 _Advertencia contra o servir de fiador, contra a preguiça e contra a
 maldade._
@@ -78304,7 +78178,7 @@ presentes.
 [15] cap. 7.7.
 
 
-
+## Proverbios 7
 
 7 Filho meu, guarda as minhas palavras, e esconde [1] dentro de ti os
 meus mandamentos.
@@ -78401,7 +78275,7 @@ morte.
 [11] cap. 2.18 e 5.5 e 9.18.
 
 
-
+## Proverbios 8
 
 _A excellencia e justiça dos preceitos da Sabedoria._
 
@@ -78544,7 +78418,7 @@ todos os que me aborrecem amam a morte.
 [17] cap. 20.2.
 
 
-
+## Proverbios 9
 
 _O banquete da Sabedoria._
 
@@ -78608,7 +78482,7 @@ nas profundezas do inferno.
 [6] cap. 3.2, 16 e 10.27.
 
 
-
+## Proverbios 10
 
 _Proverbios ácerca de varios assumptos._
 
@@ -78732,7 +78606,7 @@ cheia de_ perversidades.
 [14] Mat. 7.24, 25 e 16.18.
 
 
-
+## Proverbios 11
 
 11 Balança [1] enganosa _é_ abominação ao Senhor, mas o peso justo o seu
 prazer.
@@ -78873,7 +78747,7 @@ impio e o peccador.
 [23] Jer. 25.29. I Ped. 4.17, 18.
 
 
-
+## Proverbios 12
 
 12 O que ama a correcção ama o conhecimento, mas o que aborrece a
 reprehensão _é_ brutal.
@@ -78974,7 +78848,7 @@ _ha_ morte.
 [8] Apo. 22.15.
 
 
-
+## Proverbios 13
 
 13 O filho sabio _ouve_ a correcção do pae; mas o escarnecedor [1] não
 ouve a reprehensão.
@@ -79068,7 +78942,7 @@ necessidade.
 [9] cap. 19.18 e 22.15 e 23.13 e 29.15, 17.
 
 
-
+## Proverbios 14
 
 14 Toda a mulher sabia edifica [1] a sua casa: mas a tola a derriba com
 as suas mãos.
@@ -79204,7 +79078,7 @@ envergonha cairá o seu furor.
 [16] Mat. 24.45, 47.
 
 
-
+## Proverbios 15
 
 15 A resposta branda [1] desvia o furor, [2] mas a palavra de dôr suscita
 a ira.
@@ -79359,7 +79233,7 @@ _vae_ a humildade.
 [27] cap. 1.7 e 18.12.
 
 
-
+## Proverbios 16
 
 16 Do homem [1] _são_ as preparações do coração, mas [2] do Senhor a
 resposta da bocca.
@@ -79512,7 +79386,7 @@ disposição.
 [26] cap. 19.11.
 
 
-
+## Proverbios 17
 
 17 Melhor _é_ um bocado [1] secco, e com elle a tranquillidade, do que a
 casa cheia de victimas, com contenda.
@@ -79640,7 +79514,7 @@ cerrar os seus labios por entendido.
 [21] Job 13.5.
 
 
-
+## Proverbios 18
 
 18 Busca coisas desejaveis aquelle que se separa e se entremette em toda
 a sabedoria.
@@ -79734,7 +79608,7 @@ chegado do que um irmão.
 [13] cap. 17.17.
 
 
-
+## Proverbios 19
 
 19 Melhor _é_ o [1] pobre que anda na sua sinceridade, do que o perverso
 de labios e tolo:
@@ -79875,7 +79749,7 @@ as costas dos tolos.
 [24] cap. 10.13 e 26.3.
 
 
-
+## Proverbios 20
 
 20 O [1] vinho _é_ escarnecedor, a bebida forte alvoraçadora; e todo
 aquelle que n’elles errar nunca será sabio.
@@ -80024,7 +79898,7 @@ pancadas _que penetram até_ o mais intimo do ventre.
 [29] cap. 16.31.
 
 
-
+## Proverbios 21
 
 21 Como ribeiros d’aguas, _assim_ é o coração do rei na mão do Senhor; a
 tudo quanto quer o inclina.
@@ -80157,7 +80031,7 @@ a victoria.
 [20] Isa. 31.1.
 
 
-
+## Proverbios 22
 
 22 Mais _digno_ de ser escolhido [1] é o _bom_ nome do que as muitas
 riquezas; e a graça é melhor do que a riqueza e o oiro.
@@ -80288,7 +80162,7 @@ será posto perante os de baixa sorte.
 [21] Deu. 19.14 e 27.17. cap. 23.10.
 
 
-
+## Proverbios 23
 
 23 Quando te assentares a comer com _um_ governador, attenta bem para o
 que _se_ te _poz_ diante,
@@ -80427,7 +80301,7 @@ vez.
 [20] Deu. 29.19. Isa. 56.12.
 
 
-
+## Proverbios 24
 
 24 Não tenhas inveja dos homens malignos, nem desejes estar com elles,
 
@@ -80561,7 +80435,7 @@ necessidade como _um_ homem armado.
 [17] cap. 6.9, etc.
 
 
-
+## Proverbios 25
 
 _Outros proverbios de Salomão, que foram colligidos no tempo do rei
 Ezequias._
@@ -80682,7 +80556,7 @@ pode conter o seu espirito.
 [16] cap. 16.32.
 
 
-
+## Proverbios 26
 
 26 Como a neve no verão, [1] e como a chuva na sega, assim não convem ao
 louco a honra.
@@ -80789,7 +80663,7 @@ a ruina.
 [11] Jer. 9.8.
 
 
-
+## Proverbios 27
 
 27 Não presumas do [1] dia d’ámanhã, porque não sabes o que parirá o dia.
 
@@ -80898,7 +80772,7 @@ da tua casa, e para sustento das tuas creadas.
 [13] cap. 23.35. Isa. 1.5. Jer. 5.3.
 
 
-
+## Proverbios 28
 
 28 Fogem os [1] impios, sem que ninguem _os_ persiga; mas qualquer justo
 está confiado como o filho do leão.
@@ -81027,7 +80901,7 @@ quando perecem, os justos se multiplicam.
 [21] ver. 12. cap. 29.2. Job 24.4.
 
 
-
+## Proverbios 29
 
 29 O [1] homem que muitas vezes reprehendido endurece a cerviz de repente
 será quebrantado sem que haja cura.
@@ -81144,7 +81018,7 @@ I Ped. 5.5.
 [18] Lev. 5.1.
 
 
-
+## Proverbios 30
 
 _As palavras de Agur._
 
@@ -81266,7 +81140,7 @@ produz sangue, e o espremer da ira produz contenda.
 [12] Job 21.5. Miq. 7.16.
 
 
-
+## Proverbios 31
 
 _Os conselhos que a mãe do rei Lemuel deu a seu filho._
 
@@ -81380,11 +81254,9 @@ suas obras.
 [11] cap. 12.4.
 
 
-
+# Ecclesiastes 1
 
 LIVRO DO ECCLESIASTES, OU PRÉGADOR.
-
-
 
 
 _A vaidade de todas as coisas terrestres._
@@ -81469,7 +81341,7 @@ augmenta _em_ sciencia, accrescenta o trabalho.
 [11] cap. 12.12.
 
 
-
+## Ecclesiastes 2
 
 _Os prazeres e as riquezas não produzem a felicidade._
 
@@ -81590,7 +81462,7 @@ _é_ vaidade e afflicção d’espirito.
 [12] Job 27.16, 17. Pro. 28.8.
 
 
-
+## Ecclesiastes 3
 
 _Ha, para todas as coisas, um tempo determinado por Deus._
 
@@ -81701,7 +81573,7 @@ levará a vêr o que será depois d’elle?
 [18] cap. 2.10 e 8.7 e 10.14.
 
 
-
+## Ecclesiastes 4
 
 _Os males e as tribulações da vida._
 
@@ -81769,7 +81641,7 @@ e afflicção d’espirito.
 [6] Pro. 27.20. I João 2.16.
 
 
-
+## Ecclesiastes 5
 
 _Varios conselhos praticos._
 
@@ -81866,7 +81738,7 @@ responde com alegria do seu coração.
 [12] cap. 2.24 e 3.13 e 6.2.
 
 
-
+## Ecclesiastes 6
 
 _É licito gozar os bens que Deus deu, mas estes não podem satisfazer a
 alma._
@@ -81925,7 +81797,7 @@ do sol?
 [6] Job 9.32. Isa. 45.9. Jer. 49.19.
 
 
-
+## Ecclesiastes 7
 
 _As vantagens do soffrimento, da paciencia, e da moderação._
 
@@ -82057,7 +81929,7 @@ porém elles buscaram muitas invenções.
 [18] cap. 1.1, 2.
 
 
-
+## Ecclesiastes 8
 
 _A obediencia devida ao rei._
 
@@ -82149,7 +82021,7 @@ saber, nem _por isso a_ poderá alcançar.
 [10] Job 5.9. cap. 3.11. Rom. 11.33.
 
 
-
+## Ecclesiastes 9
 
 _As mesmas coisas succedem aos justos e injustos. Gozemos os bens que
 Deus nos dá._
@@ -82248,7 +82120,7 @@ peccador destroe muitos bens.
 [10] ver. 16. Jos. 7.1, 11, 12.
 
 
-
+## Ecclesiastes 10
 
 _A loucura é a causa de muitas desgraças._
 
@@ -82337,7 +82209,7 @@ levariam a voz, e os que teem azas dariam noticia da palavra.
 [11] Exo. 22.28. Act. 23.5.
 
 
-
+## Ecclesiastes 11
 
 _Façamos o que é bom no tempo opportuno._
 
@@ -82387,7 +82259,7 @@ porque a adolescencia e a juventude _são_ vaidade.
 [5] II Cor. 7.1. II Tim. 2.22.
 
 
-
+## Ecclesiastes 12
 
 _A mocidade deve preparar-se para a velhice e morte._
 
@@ -82462,11 +82334,9 @@ está encoberto, quer _seja_ bom quer _seja_ mau.
 4.5. II Cor. 5.10.
 
 
-
+# Cantico dos Canticos 1
 
 CANTARES DE SALOMÃO.
-
-
 
 
 _A esposa anhela pelo seu esposo._
@@ -82532,7 +82402,7 @@ olhos _são_ como os das pombas.
 [4] cap. 4.1 e 5.12.
 
 
-
+## Cantico dos Canticos 2
 
 2 Eu _sou_ a rosa de Saron, o lyrio dos valles.
 
@@ -82609,7 +82479,7 @@ Bether.
 [11] ver. 9. cap. 8.14.
 
 
-
+## Cantico dos Canticos 3
 
 3 De noite [1] busquei em minha cama a quem a minha alma ama: busquei-o,
 e não o achei.
@@ -82657,7 +82527,7 @@ coração.
 [4] cap. 8.5.
 
 
-
+## Cantico dos Canticos 4
 
 4 Eis que [1] _és_ formosa, amiga minha, eis que _és_ formosa: os teus
 olhos _são como os_ das pombas entre as tuas tranças: o teu cabello _é_
@@ -82737,7 +82607,7 @@ jardim, e comesse os seus fructos excellentes!
 [11] João 4.10 e 7.38.
 
 
-
+## Cantico dos Canticos 5
 
 _A esposa finge indifferença pelo esposo, mas segue-o immediamente,
 busca-o e reconcilia-se com elle._
@@ -82813,7 +82683,7 @@ desejavel. Tal _é_ o meu amado, e tal o meu amigo, ó filhas de Jerusalem.
 [7] cap. 1.15 e 4.1.
 
 
-
+## Cantico dos Canticos 6
 
 6 Para onde foi o teu amado, [1] ó mais formosa entre as mulheres? para
 onde virou a vista o teu amado, e o buscaremos comtigo?
@@ -82871,7 +82741,7 @@ exercitos?
 [7] cap. 7.12.
 
 
-
+## Cantico dos Canticos 7
 
 7 Que formosos são os teus pés nos sapatos, ó filha do principe! As
 voltas de tuas coxas são como joias, segundo a obra de mãos d’artifice.
@@ -82923,7 +82793,7 @@ ti.
 [5] Gen. 30.14. Mat. 13.52.
 
 
-
+## Cantico dos Canticos 8
 
 8 Ah! quem _me_ dera que me _fôras_ como irmão, _e_ mamáras os peitos de
 minha mãe! que te achara na rua, e te beijára, e nem me desprezariam!
@@ -82992,11 +82862,9 @@ dos veados sobre os montes dos aromas.
 [8] cap. 2.17.
 
 
-
+# Isaias 1
 
 ISAIAS.
-
-
 
 
 _Descripção dos peccados e dos soffrimentos do povo, com exhortações e
@@ -83170,7 +83038,7 @@ e 7.3. Jer. 5.28. Zac. 7.10.
 [30] Eze. 32.21. cap. 43.17.
 
 
-
+## Isaias 2
 
 _A gloria futura do verdadeiro Israel. Juizos preparatorios. O dia do
 Senhor. A purificação de Jerusalem._
@@ -83289,7 +83157,7 @@ em que se deve elle estimar?
 [18] ver. 19.
 
 
-
+## Isaias 3
 
 3 Porque, eis que o Senhor Deus dos Exercitos [1] tirará de Jerusalem e
 de Judah o bordão e o cajado: a todo o [UF] sustento de pão, e a toda a
@@ -83398,7 +83266,7 @@ desolada, se assentará no chão.
 [13] Jer. 14.2. Lam. 1.4 e 2.10.
 
 
-
+## Isaias 4
 
 4 E sete mulheres n’aquelle [1] dia lançarão mão d’um homem, dizendo: Nós
 comeremos do nosso pão, e nos vestiremos de nossos vestidos: tão sómente
@@ -83438,7 +83306,7 @@ refugio e esconderijo contra o alagamento e contra a chuva.
 [7] cap. 25.4.
 
 
-
+## Isaias 5
 
 _A parabola da vinha, e a sua applicação._
 
@@ -83589,7 +83457,7 @@ escurecerá em suas assolações.
 [19] cap. 8.22. Jer. 4.23. Lam. 3.2. Eze. 32.7, 8.
 
 
-
+## Isaias 6
 
 _Isaias é escolhido e consagrado para propheta._
 
@@ -83664,7 +83532,7 @@ Rom. 11.8.
 [11] Esd. 9.2. Mal. 2.15.
 
 
-
+## Isaias 7
 
 _Prophecias contra Israel e Syria. Manassés contra Judah._
 
@@ -83779,7 +83647,7 @@ para enviarem _ali_ bois e serem pisados do gado miudo.
 [12] cap. 5.6.
 
 
-
+## Isaias 8
 
 _A ruina dos reinos de Israel e Syria._
 
@@ -83895,7 +83763,7 @@ _e_ serão entenebrecidos com ancia, e empuxados com escuridão.
 [18] cap. 5.30 e 9.1.
 
 
-
+## Isaias 9
 
 _O advento e o poder do Messias._
 
@@ -84012,7 +83880,7 @@ estendida a sua mão.
 [17] ver. 12, 17. cap. 5.25 e 10.4.
 
 
-
+## Isaias 10
 
 10 Ai dos que ordenam ordenanças injustas, e dos que prescrevem [US]
 trabalho aos escrivães.
@@ -84184,7 +84052,7 @@ um poderoso.
 [23] I Sam. 21.1 e 22.19. Neh. 11.32. cap. 13.2 e 37.22.
 
 
-
+## Isaias 11
 
 _O reino do Messias é pacifico e prospero._
 
@@ -84280,7 +84148,7 @@ da Assyria, como succedeu a Israel no dia em que subiu da terra do Egypto.
 [16] cap. 19.23. Exo. 14.29. cap. 51.10 e 63.12, 13.
 
 
-
+## Isaias 12
 
 _Deus é louvado por haver restaurado o seu povo._
 
@@ -84315,7 +84183,7 @@ Israel grande é no meio de ti.
 [4] cap. 54.1. Sof. 3.14. cap. 41.14, 16.
 
 
-
+## Isaias 13
 
 _A ruina de Babylonia e o livramento de Israel._
 
@@ -84429,7 +84297,7 @@ Luc. 21.25.
 [15] cap. 34.11, 15. Apo. 18.2.
 
 
-
+## Isaias 14
 
 14 Porque o Senhor se compadecerá [1] de Jacob, e ainda escolherá a
 Israel e os porá na sua propria terra: [2] e ajuntar-se-hão com elles os
@@ -84582,7 +84450,7 @@ Sião, [18] para que os oppressos do seu povo n’ella tenham refugio.
 [18] Sof. 3.12.
 
 
-
+## Isaias 15
 
 _Predicção da ruina de Moab._
 
@@ -84634,7 +84502,7 @@ que escaparem de Moab, como tambem contra as reliquias da terra.
 [6] II Reis 17.25.
 
 
-
+## Isaias 16
 
 16 Enviae [1] o cordeiro ao dominador da terra desde Sela, ao deserto,
 até ao monte da filha de Sião.
@@ -84713,7 +84581,7 @@ _e_ impotente.
 [13] cap. 21.16.
 
 
-
+## Isaias 17
 
 _Prophecia contra Damasco e Ephraim._
 
@@ -84790,7 +84658,7 @@ d’aquelles que nos saqueiam.
 [8] Ose. 13.3.
 
 
-
+## Isaias 18
 
 _A destruição dos assyrios é annunciada á Ethiopia._
 
@@ -84832,7 +84700,7 @@ os rios, ao logar do nome do Senhor dos exercitos, ao monte de Sião.
 [4] cap. 16.1. Sof. 3.10. Mal. 1.11.
 
 
-
+## Isaias 19
 
 _Prophecia contra o Egypto._
 
@@ -84961,7 +84829,7 @@ minha herança.
 [18] cap. 29.23. Eph. 2.10.
 
 
-
+## Isaias 20
 
 _Prophecia symbolica do captiveiro dos egypcios e dos ethiopes._
 
@@ -84998,7 +84866,7 @@ nos livrarmos da face do rei da Assyria! como pois escaparemos nós?
 [5] II Reis 18.21. cap. 30.3, 5, 7 e 36.6.
 
 
-
+## Isaias 21
 
 _Predicção da queda de Babylonia._
 
@@ -85085,7 +84953,7 @@ Kedar, serão diminuidos, porque _assim_ o disse o Senhor, Deus de Israel.
 [11] cap. 16.4.
 
 
-
+## Isaias 22
 
 _Quadro prophetico do cerco de Jerusalem._
 
@@ -85208,7 +85076,7 @@ cortará, porque o Senhor o disse.
 [14] Esd. 9.8.
 
 
-
+## Isaias 23
 
 _A ruina e restauração de Tyro._
 
@@ -85286,7 +85154,7 @@ tenham vestimenta duravel.
 [5] Zac. 14.20, 21.
 
 
-
+## Isaias 24
 
 _Predicção do castigo dos israelitas, e o seu bom effeito. A promessa
 de livramento e da ruina dos seus inimigos. Cantico de louvor pela
@@ -85403,7 +85271,7 @@ perante os seus anciãos _haverá_ gloria.
 [15] Apo. 19.4, 6. Heb. 12.22.
 
 
-
+## Isaias 25
 
 25 Ó Senhor, tu és o meu Deus; [1] exaltar-te-hei a ti, _e_ louvarei o
 teu nome, porque fizeste maravilhas: os _teus_ conselhos antigos _são_
@@ -85467,7 +85335,7 @@ derribará em terra até ao pó.
 [9] Gen. 49.18. Tito 2.13.
 
 
-
+## Isaias 26
 
 26 N’aquelle dia [1] se cantará este cantico na terra de Judah: _Uma_
 forte cidade temos, _Deus lhe_ poz a salvação por muros e antemuros.
@@ -85564,7 +85432,7 @@ seu sangue, e não encobrirá mais os seus mortos _á espada_.
 [13] Miq. 1.3. Jud. 14.
 
 
-
+## Isaias 27
 
 27 N’aquelle dia o Senhor castigará com a sua espada dura, grande e
 forte, ao Leviathan, _aquella_ serpente [VR] comprida, e ao Leviathan,
@@ -85632,7 +85500,7 @@ Jerusalem.
 [9] cap. 2.11. Mat. 24.31. Apo. 11.15.
 
 
-
+## Isaias 28
 
 _O annuncio do castigo de Ephraim e de Judah por causa da sua
 impenitencia._
@@ -85770,7 +85638,7 @@ Ped. 2.6, 7, 8.
 [13] Jer. 32.19.
 
 
-
+## Isaias 29
 
 _Prophecia contra Judah infiel: promessa de livramento._
 
@@ -85908,7 +85776,7 @@ murmuradores aprenderão [WB] doutrina.
 [21] cap. 28.7.
 
 
-
+## Isaias 30
 
 30 Ai dos filhos que se rebellam, diz o Senhor, [1] que tomaram conselho,
 mas não de mim; e que se cobriram com cobertura, mas não _que venha_ do
@@ -86091,7 +85959,7 @@ accenderá.
 [26] Jer. 7.31 e 19.6, etc.
 
 
-
+## Isaias 31
 
 31 Ai dos que [1] descem ao Egypto a _buscar_ soccorro, e se estribam
 em cavallos; e teem confiança em carros, porque _são_ muitos, e nos
@@ -86146,7 +86014,7 @@ fornalha em Jerusalem.
 [8] cap. 37.37.
 
 
-
+## Isaias 32
 
 32 Eis ahi está que reinará [1] um Rei em justiça, e dominarão os
 principes segundo o juizo.
@@ -86235,7 +86103,7 @@ _lá_ enviaes o pé do boi e do jumento.
 [10] cap. 30.24.
 
 
-
+## Isaias 33
 
 _Os inimigos do povo de Deus serão destruidos: Jerusalem será restaurada
 á sua gloria e felicidade._
@@ -86350,7 +86218,7 @@ n’ella _será_ absolto d’iniquidade.
 [13] Thi. 4.12.
 
 
-
+## Isaias 34
 
 34 Chegae-vos, nações, para ouvir, e vós, povos, escutae: [1] ouça a
 terra, e a sua plenitude, o mundo, e tudo quanto produz.
@@ -86439,7 +86307,7 @@ habitarão n’ella.
 [12] Mat. 3.16.
 
 
-
+## Isaias 35
 
 _A grandeza e gloria do reino do Messias._
 
@@ -86495,7 +86363,7 @@ etc. cap. 32.4. Mat. 9.32, 33 e 12.22 e 15.30. João 7.38, 39.
 [8] cap. 51.11 e 65.19. Apo. 7.17 e 21.4.
 
 
-
+## Isaias 36
 
 _Senacherib cerca Jerusalem. A oração de Ezequias. O exercito dos
 assyrios é destruido._
@@ -86591,7 +86459,7 @@ rasgados, e lhe fizeram saber as palavras de Rabsaké.
 [4] Zac. 3.10.
 
 
-
+## Isaias 37
 
 37 E aconteceu [1] que, tendo-o ouvido o rei Ezequias, rasgou os seus
 vestidos, e se cobriu de sacco, e entrou na casa do Senhor.
@@ -86742,7 +86610,7 @@ logar.
 [7] II Reis 19.35.
 
 
-
+## Isaias 38
 
 _A doença de Ezequias e a sua cura maravilhosa._
 
@@ -86841,7 +86709,7 @@ casa do Senhor?
 [11] II Reis 20.8.
 
 
-
+## Isaias 39
 
 _Os embaixadores de Babylonia enviados a Jerusalem. O orgulho de
 Ezequias._
@@ -86885,7 +86753,7 @@ disseste. Disse mais: Pois haja paz e verdade em meus dias.
 [3] Jer. 20.5.
 
 
-
+## Isaias 40
 
 _O livramento promettido ao povo de Israel._
 
@@ -87027,7 +86895,7 @@ como aguias: correrão, e não se cançarão; caminharão, e não se fatigarão.
 [16] Rom. 11.33.
 
 
-
+## Isaias 41
 
 _Jehovah é o unico Deus: Israel deve ter confiança unicamente n’Elle._
 
@@ -87173,7 +87041,7 @@ suas imagens de fundição _são_ vento e nada.
 [20] ver. 24.
 
 
-
+## Isaias 42
 
 _O Servo do Senhor._
 
@@ -87281,7 +87149,7 @@ attentaram; e os queimou, porém não pozeram _n’isso_ o coração.
 [10] II Reis 25.9. Ose. 7.9.
 
 
-
+## Isaias 43
 
 _Só Deus resgata Israel._
 
@@ -87420,7 +87288,7 @@ um anathema, e de Israel um opprobrio.
 [21] cap. 47.6. Lam. 2.2, 6, 7. Jer. 24.9. Dan. 9.11. Zac. 8.13.
 
 
-
+## Isaias 44
 
 _A soberania de Deus; a vaidade dos idolos._
 
@@ -87574,7 +87442,7 @@ dizendo tambem a Jerusalem: [20] Sê edificada; e _ao_ templo: Funda-te.
 [20] II Chr. 36.22, 23. Esd. 1.1, etc. cap. 45.13.
 
 
-
+## Isaias 45
 
 45 Assim diz o Senhor ao seu ungido, a Cyro, [1] a quem tomo pela sua
 mão direita, para abater as nações diante de sua face, e eu soltarei os
@@ -87713,7 +87581,7 @@ de Israel.
 [21] ver. 17. I Cor. 1.31.
 
 
-
+## Isaias 46
 
 _A queda dos idolos de Babylonia._
 
@@ -87790,7 +87658,7 @@ a minha gloria.
 [14] cap. 51.5. Rom. 1.17. Hab. 2.3. cap. 62.11.
 
 
-
+## Isaias 47
 
 _A queda de Babylonia._
 
@@ -87877,7 +87745,7 @@ te salvará.
 [13] Apo. 18.11.
 
 
-
+## Isaias 48
 
 _Arrazoamentos, admoestações e promessas de Deus para com Israel._
 
@@ -87991,7 +87859,7 @@ correr agua da rocha: fendendo elle as rochas, as aguas manavam d’ellas.
 [17] cap. 57.21.
 
 
-
+## Isaias 49
 
 _O servo do Senhor é a luz dos gentios._
 
@@ -88146,7 +88014,7 @@ de Jacob.
 [24] cap. 9.20. Apo. 14.20 e 16.6.
 
 
-
+## Isaias 50
 
 _O servo do Senhor ultrajado e soccorrido._
 
@@ -88220,7 +88088,7 @@ isto vos vem da minha mão, _e_ em [WV] tormentos jazereis.
 [13] II Chr. 20.20.
 
 
-
+## Isaias 51
 
 _A restauração e salvação de Israel._
 
@@ -88360,7 +88228,7 @@ como chão, e como caminho, aos viandantes.
 [22] Jer. 25.17, 26, 28. Zac. 12.2.
 
 
-
+## Isaias 52
 
 52 Desperta [1] desperta, veste-te da tua fortaleza, ó Sião: veste-te dos
 teus vestidos formosos, ó Jerusalem, cidade sancta; [2] porque nunca mais
@@ -88444,7 +88312,7 @@ verão, e aquillo que elles não ouviram o entenderão.
 [13] Eze. 36.25. cap. 49.7, 23. Rom. 15.21.
 
 
-
+## Isaias 53
 
 53 Quem [1] deu credito á nossa prégação? e a quem se manifestou o braço
 do Senhor?
@@ -88529,7 +88397,7 @@ ver. 4, 5.
 e 9.24. I João 2.1.
 
 
-
+## Isaias 54
 
 _O progresso e a gloria da Egreja._
 
@@ -88624,7 +88492,7 @@ dos servos do Senhor, [14] e a sua justiça _vem_ de mim, diz o Senhor.
 [14] cap. 45.24, 25.
 
 
-
+## Isaias 55
 
 _Todo o povo é convidado a procurar a salvação._
 
@@ -88704,7 +88572,7 @@ eterno, _que_ nunca se apagará.
 [13] cap. 41.19. Miq. 7.4.
 
 
-
+## Isaias 56
 
 _Promessas áquelles que guardam o sabbado._
 
@@ -88780,7 +88648,7 @@ d’ámanhã será como este, [11] _e ainda_ maior _e_ mais famoso.
 [11] Pro. 23.35. cap. 22.13. Luc. 12.19. I Cor. 15.32.
 
 
-
+## Isaias 57
 
 57 Perece o justo, e não _ha_ quem considere n’isso _em_ seu coração, [1]
 e os homens compassivos são recolhidos, sem que alguem considere que o
@@ -88891,7 +88759,7 @@ aquietar, e as suas aguas [XN] lançam de si lama e lodo.
 [16] cap. 48.22.
 
 
-
+## Isaias 58
 
 58 Clama em alta voz, não te retenhas, levanta a tua voz como a trombeta
 e annuncia ao meu povo a sua transgressão, e á casa de Jacob os seus
@@ -88979,7 +88847,7 @@ porque a bocca do Senhor _o_ fallou.
 [12] cap. 1.20 e 40.5. Miq. 4.4.
 
 
-
+## Isaias 59
 
 59 Eis que a mão do Senhor não está encolhida, [1] para que não possa
 salvar; nem o seu ouvido aggravado, para não poder ouvir.
@@ -89096,7 +88964,7 @@ sempre.
 [17] Heb. 8.10 e 10.16.
 
 
-
+## Isaias 60
 
 _Jerusalem é restituida á sua gloria._
 
@@ -89223,7 +89091,7 @@ eu, o Senhor, ao seu tempo o farei promptamente.
 [20] Mat. 13.31, 32.
 
 
-
+## Isaias 61
 
 _A salvação é proclamada._
 
@@ -89290,7 +89158,7 @@ louvor [9] para todas as nações.
 [9] cap. 60.18 e 62.7.
 
 
-
+## Isaias 62
 
 _A gloria de Jerusalem sempre augmentando._
 
@@ -89360,7 +89228,7 @@ Buscada, [11] a cidade não desamparada.
 [11] ver. 4.
 
 
-
+## Isaias 63
 
 _Deus salva e vinga a seu povo._
 
@@ -89467,7 +89335,7 @@ os que nunca se chamaram pelo teu nome.
 [15] Deu. 7.6 e 26.19. cap. 62.12. Dan. 8.24.
 
 
-
+## Isaias 64
 
 64 Oh! se fendesses os céus, _e_ descesses, [1] se os montes se escoassem
 de diante da tua face!
@@ -89528,7 +89396,7 @@ calado, e nos opprimirias tanto?
 [8] II Reis 25.9. II Chr. 36.19.
 
 
-
+## Isaias 65
 
 _Deus promette ouvir a oração e conceder bençãos aos seus servos._
 
@@ -89672,7 +89540,7 @@ nem damno algum em todo o meu sancto monte, diz o Senhor.
 [23] Gen. 3.14.
 
 
-
+## Isaias 66
 
 _A rejeição final dos rebeldes._
 
@@ -89802,11 +89670,9 @@ e serão em horror a toda a carne.
 [16] ver. 16. Mar. 9.44, 46, 48.
 
 
-
+# Jeremias 1
 
 JEREMIAS.
-
-
 
 
 _A vocação e primeira visão de Jeremias._
@@ -89913,7 +89779,7 @@ _estou_ comtigo, diz o Senhor, para te livrar.
 [16] cap. 6.27 e 15.20.
 
 
-
+## Jeremias 2
 
 _Jeremias é enviado a Jerusalem para reprehender a sua rebellião._
 
@@ -90119,7 +89985,7 @@ Senhor rejeitou as tuas confianças, e não prosperarás com ellas.
 [32] II Sam. 13.19.
 
 
-
+## Jeremias 3
 
 3 Dizem: Se um homem despedir sua mulher, e ella se fôr d’elle, [1] e se
 ajuntar a outro homem, _porventura_ tornará a ella mais? _porventura_
@@ -90277,7 +90143,7 @@ Senhor nosso Deus.
 [26] cap. 22.21.
 
 
-
+## Jeremias 4
 
 4 Se te converteres, ó Israel, diz o Senhor, [1] volta para mim: e, se
 tirares as tuas abominações de diante de mim, não andarás mais vagueando,
@@ -90442,7 +90308,7 @@ agora, porque _já_ a minha alma desmaia por causa dos matadores.
 [24] Isa. 1.15. Lam. 1.7.
 
 
-
+## Jeremias 5
 
 5 Dae voltas ás ruas de Jerusalem, e vêde agora; e informae-vos, e buscae
 pelas suas praças, [1] _a ver_ se achaes alguem, ou se ha _algum_ que
@@ -90604,7 +90470,7 @@ mãos d’elles, e o meu povo assim o deseja: mas que fareis ao fim d’isto?
 [26] Ose. 6.10.
 
 
-
+## Jeremias 6
 
 6 Fugi em tropas, filhos de Benjamin, do meio de Jerusalem; e tocae a
 buzina em Tekoa, [1] e levantae o facho sobre Beth-accerem: porque da
@@ -90756,7 +90622,7 @@ fundiu o _fundidor_ tão diligentemente, pois os maus não são arrancados.
 [23] cap. 9.4. Eze. 22.18.
 
 
-
+## Jeremias 7
 
 _Promessas e ameaças proferidas á porta do templo._
 
@@ -90954,7 +90820,7 @@ voz de folguedo, e a voz de alegria, a voz de esposo e a voz de esposa;
 [35] Lev. 26.33. Isa. 1.7 e 3.26.
 
 
-
+## Jeremias 8
 
 8 N’aquelle tempo, diz o Senhor, tirarão os ossos dos reis de Judah, e
 os ossos dos seus principes, e os ossos dos sacerdotes, e os ossos dos
@@ -91082,7 +90948,7 @@ porque pois não teve logar a cura da filha do meu povo?
 [20] Gen. 37.25 e 43.11 e 51.8.
 
 
-
+## Jeremias 9
 
 9 Oxalá a minha [1] cabeça se tornasse _em_ aguas, e os meus olhos n’uma
 fonte de lagrimas! então choraria de dia e de noite os mortos da filha do
@@ -91233,7 +91099,7 @@ d’Israel _é_ incircumcisa de coração.
 [26] cap. 25.23 e 49.32. Eze. 44.7. Rom. 2.28, 29.
 
 
-
+## Jeremias 10
 
 _Os idolos e o Senhor._
 
@@ -91369,7 +91235,7 @@ sobre as gerações que não invocam o teu nome; porque comeram a Jacob,
 [22] cap. 8.16.
 
 
-
+## Jeremias 11
 
 _O pacto é violado._
 
@@ -91501,7 +91367,7 @@ Anathoth, _no_ anno da sua visitação.
 [18] cap. 12.5, 6. Isa. 30.10. Amós 2.12 e 7.13, 16.
 
 
-
+## Jeremias 12
 
 12 Justo serias, ó Senhor, ainda que _eu_ contendesse contra ti: [1]
 comtudo fallarei comtigo _dos teus_ juizos. Porque prospera o caminho dos
@@ -91601,7 +91467,7 @@ e a farei perecer, diz o Senhor.
 [16] Isa. 60.12.
 
 
-
+## Jeremias 13
 
 _O captiveiro é representado pelo symbolo d’um cinto de linho._
 
@@ -91733,7 +91599,7 @@ esperarás_?
 [15] Isa. 65.7. cap. 2.20 e 3.2, 6. Eze. 6.13.
 
 
-
+## Jeremias 14
 
 _Jeremias em vão intercede pelo povo._
 
@@ -91863,7 +91729,7 @@ Deus? portanto em ti esperaremos, pois tu fazes todas estas coisas.
 [20] Isa. 30.23. cap. 5.24 e 10.13.
 
 
-
+## Jeremias 15
 
 15 Disse-me, porém, o Senhor: [1] Ainda que Moysés e Samuel se pozessem
 diante de mim, não _seria_ a minha alma com este povo: lança-os de diante
@@ -91984,7 +91850,7 @@ fortes.
 [19] cap. 20.11, 12.
 
 
-
+## Jeremias 16
 
 _Predicção do captiveiro e do livramento de Israel._
 
@@ -92104,7 +91970,7 @@ minha mão e o meu poder; [18] e saberão que o meu nome _é_ o Senhor.
 [18] Exo. 15.3. cap. 32.2. Amós 5.8.
 
 
-
+## Jeremias 17
 
 17 O peccado de Judah _está_ escripto com [1] _um_ ponteiro de ferro,
 com ponta de diamante, gravado na taboa do seu coração e nos cornos dos
@@ -92255,7 +92121,7 @@ que consumirá os palacios de Jerusalem, e não se apagará.
 25.9. cap. 52.18.
 
 
-
+## Jeremias 18
 
 _O vaso do oleiro. A impenitencia do povo._
 
@@ -92371,7 +92237,7 @@ da tua ira.
 [14] cap. 11.20 e 15.15.
 
 
-
+## Jeremias 19
 
 _A botija quebrada. A ruina de Jerusalem._
 
@@ -92467,7 +92333,7 @@ minhas palavras.
 [16] cap. 7.26 e 17.23.
 
 
-
+## Jeremias 20
 
 _Pashur fere a Jeremias e mette-o no cepo._
 
@@ -92571,7 +92437,7 @@ consumam os meus dias na confusão.
 [14] Job 3.20.
 
 
-
+## Jeremias 21
 
 _O annuncio da destruição de Jerusalem por Nabucodonozor._
 
@@ -92660,7 +92526,7 @@ consumirá a tudo o que está em redor d’ella.
 [15] II Chr. 36.19. cap. 52.13.
 
 
-
+## Jeremias 22
 
 _Prophecia contra a casa real de Judah._
 
@@ -92817,7 +92683,7 @@ reinar mais em Judah.
 [22] cap. 36.30.
 
 
-
+## Jeremias 23
 
 23 Ai [1] dos pastores que destroem e dispersam as ovelhas do meu pasto,
 diz o Senhor.
@@ -93037,7 +92903,7 @@ será esquecida.
 [33] cap. 20.11.
 
 
-
+## Jeremias 24
 
 _Mediante dois cestos de figos, o futuro do povo é revelado._
 
@@ -93101,7 +92967,7 @@ consumam de sobre a terra que lhes dei a elles e a seus paes.
 [8] cap. 29.18, 22.
 
 
-
+## Jeremias 25
 
 _Os setenta annos do captiveiro, e depois a ruina de Babylonia e das
 outras nações._
@@ -93315,7 +93181,7 @@ furor da sua ira.
 [33] cap. 4.8 e 6.26.
 
 
-
+## Jeremias 26
 
 _Jeremias prediz a ruina do templo e de Jerusalem; e corre perigo de
 morte._
@@ -93446,7 +93312,7 @@ o não entregassem na mão do povo, para o matar.
 [17] II Reis 22.12, 14. cap. 39.14.
 
 
-
+## Jeremias 27
 
 _Jeremias aconselha submissão ao rei de Babylonia._
 
@@ -93564,7 +93430,7 @@ trazer a este logar.
 [14] cap. 29.10 e 32.5.
 
 
-
+## Jeremias 28
 
 _A lucta de Jeremias com o falso propheta Hananias._
 
@@ -93657,7 +93523,7 @@ terra; este anno morrerás, [11] porque fallaste rebellião contra o Senhor.
 [11] Deu. 13.5. cap. 29.32.
 
 
-
+## Jeremias 29
 
 _A carta de Jeremias aos captivos de Babylonia._
 
@@ -93818,7 +93684,7 @@ porquanto fallou rebellião contra o Senhor.
 [18] cap. 28.16.
 
 
-
+## Jeremias 30
 
 _Deus promette trazer do captiveiro o seu povo._
 
@@ -93954,7 +93820,7 @@ entendereis isto.
 [23] Gen. 49.1.
 
 
-
+## Jeremias 31
 
 31 N’aquelle [1] tempo, diz o Senhor, serei por Deus a todas as gerações
 de Israel, e ellas me serão a mim por povo.
@@ -94180,7 +94046,7 @@ mais eternamente.
 [38] II Chr. 23.15. Neh. 3.28.
 
 
-
+## Jeremias 32
 
 _A promessa e o signal da restauração de Israel e de bençãos espirituaes._
 
@@ -94436,7 +94302,7 @@ _os_ farei voltar _do_ seu captiveiro, diz o Senhor.
 [42] cap. 33.3, 11, 26.
 
 
-
+## Jeremias 33
 
 33 E veiu a palavra do Senhor a Jeremias, segunda vez, estando elle ainda
 [1] encerrado no pateo da guarda, dizendo:
@@ -94594,7 +94460,7 @@ d’elles.
 [28] cap. 31.37. ver. 7, 11. Esd. 2.1.
 
 
-
+## Jeremias 34
 
 _Prediz-se a sorte de Zedekias._
 
@@ -94727,7 +94593,7 @@ e as cidades de Judah porei _em_ assolação, que ninguem habite _n’ellas_.
 [17] cap. 38.3. cap. 9.11 e 44.2, 6.
 
 
-
+## Jeremias 35
 
 _A obediencia dos rechabitas é dada a Judah como exemplo._
 
@@ -94823,7 +94689,7 @@ face todos os dias.
 [7] Pro. 1.24. Isa. 65.12 e 66.4. cap. 7.13.
 
 
-
+## Jeremias 36
 
 _O rolo de Jeremias é lido no templo, o rei corta-o e lança-o no fogo._
 
@@ -94973,7 +94839,7 @@ accrescentaram a ellas muitas palavras similhantes.
 [11] cap. 22.19.
 
 
-
+## Jeremias 37
 
 _Jeremias na prisão._
 
@@ -95079,7 +94945,7 @@ atrio da guarda.
 [11] cap. 38.9 e 52.6.
 
 
-
+## Jeremias 38
 
 _Jeremias é lançado no calaboiço._
 
@@ -95217,7 +95083,7 @@ Jerusalem, e _ainda ali_ estava quando foi tomada Jerusalem.
 [14] cap. 37.20 e 39.14.
 
 
-
+## Jeremias 39
 
 _Nabucodonozor toma Jerusalem e livra Jeremias._
 
@@ -95313,7 +95179,7 @@ terás por despojo, [12] porquanto confiaste em mim, diz o Senhor.
 [12] cap. 21.9 e 45.5. I Chr. 5.20.
 
 
-
+## Jeremias 40
 
 _Jeremias fica em Mizpah com Gedalias._
 
@@ -95413,7 +95279,7 @@ faças tal coisa; porque fallas falso contra Ishmael.
 [11] cap. 41.10.
 
 
-
+## Jeremias 41
 
 _O assassinato de Gedalias._
 
@@ -95509,7 +95375,7 @@ Babylonia tinha posto sobre a terra.
 [9] cap. 40.5.
 
 
-
+## Jeremias 42
 
 _Jeremias exhorta o povo a não ir á terra do Egypto._
 
@@ -95634,7 +95500,7 @@ morrereis no _mesmo_ logar onde desejastes entrar, para lá peregrinardes.
 [18] ver. 17. Eze. 6.11.
 
 
-
+## Jeremias 43
 
 _Jeremias é levado ao Egypto pelo povo._
 
@@ -95710,7 +95576,7 @@ as casas dos deuses do Egypto queimará a fogo.
 [7] cap. 15.12. Zac. 11.9.
 
 
-
+## Jeremias 44
 
 _Ameaças contra os judeos que fugiram para o Egypto._
 
@@ -95906,7 +95772,7 @@ Babylonia, seu inimigo, e que procurava a sua morte.
 [30] cap. 39.5.
 
 
-
+## Jeremias 45
 
 _A palavra de Jeremias a Baruch._
 
@@ -95939,7 +95805,7 @@ despojo, em todos [4] os logares para onde fores.
 [4] cap. 38.2 e 39.18.
 
 
-
+## Jeremias 46
 
 _Prophecia contra varias nações. A invasão e conquista do Egypto._
 
@@ -96093,7 +95959,7 @@ não te darei de todo por innocente.
 [23] cap. 10.24 e 30.11.
 
 
-
+## Jeremias 47
 
 _Prophecia contra os philisteos._
 
@@ -96139,7 +96005,7 @@ Ascalon, e contra as bordas do mar: _e_ ali lh’o tem prescripto.
 [7] Deu. 32.41. Eze. 21.3, 4, 5.
 
 
-
+## Jeremias 48
 
 _Prophecia contra Moab._
 
@@ -96387,7 +96253,7 @@ Senhor. Até aqui o juizo de Moab.
 [43] cap. 49.6, 39.
 
 
-
+## Jeremias 49
 
 _Prophecia contra os ammonitas._
 
@@ -96634,7 +96500,7 @@ Elam, diz o Senhor.
 [42] cap. 48.47. ver. 6.
 
 
-
+## Jeremias 50
 
 _Prophecia contra Babylonia._
 
@@ -96909,7 +96775,7 @@ ouviu entre as nações.
 [46] Isa. 14.24, etc. cap. 51.11.
 
 
-
+## Jeremias 51
 
 51 Assim diz o Senhor: Eis que levantarei um vento destruidor contra
 Babylonia, [1] e contra os que habitam no coração dos que se levantam
@@ -97266,7 +97132,7 @@ _são_ as palavras de Jeremias.
 [60] ver. 53.
 
 
-
+## Jeremias 52
 
 _O cerco, tomada e destruição de Jerusalem._
 
@@ -97433,11 +97299,9 @@ os dias da sua vida.
 [18] II Sam. 9.13.
 
 
-
+# Lamentações 1
 
 LAMENTAÇÕES DE JEREMIAS.
-
-
 
 
 _A humilhação de Jerusalem; os peccados e afflicções do povo._
@@ -97586,7 +97450,7 @@ _são_ muitos, [24] e o meu coração _está_ desfallecido.
 [24] cap. 5.17.
 
 
-
+## Lamentações 2
 
 _O cerco, fome e ruina de Jerusalem._
 
@@ -97734,7 +97598,7 @@ os consumiu.
 [24] Ose. 9.12, 13.
 
 
-
+## Lamentações 3
 
 _A tristeza de Jeremias; elle convida o povo a reconhecer o seu peccado,
 e a voltar para Deus para obter misericordia._
@@ -97973,7 +97837,7 @@ TAU. 64 Rende-lhes recompensa, Senhor, [36] conforme a obra das suas mãos.
 [37] Deu. 25.19. Jer. 10.11.
 
 
-
+## Lamentações 4
 
 _As grandes afflicções de varias classes de pessoas._
 
@@ -98104,7 +97968,7 @@ descobrirá os teus peccados.
 [24] Isa. 40.2.
 
 
-
+## Lamentações 5
 
 _Males presentes, e tristes recordações._
 
@@ -98193,11 +98057,9 @@ grande maneira?
 [12] Jer. 31.18.
 
 
-
+# Ezequiel 1
 
 EZEQUIEL.
-
-
 
 
 _A primeira visão dos cherubins._
@@ -98371,7 +98233,7 @@ ouvi a voz de quem fallava.
 [32] cap. 3.23 e 8.4.
 
 
-
+## Ezequiel 2
 
 _A vocação de Ezequiel. Visão do rolo de livro._
 
@@ -98433,7 +98295,7 @@ fóra: e n’elle estavam escriptas lamentações, e suspiros e ais.
 [12] cap. 8.3. Jer. 1.9.
 
 
-
+## Ezequiel 3
 
 3 Depois me disse: Filho do homem, come o que achares: [1] come este
 rolo, e vae, falla á casa d’Israel.
@@ -98572,7 +98434,7 @@ Assim diz o Senhor: Quem ouvir ouça, e quem deixar _de ouvir_, deixe;
 [19] ver. 9, 26. cap. 12.2, 3.
 
 
-
+## Ezequiel 4
 
 _Predicção do cerco de Jerusalem._
 
@@ -98654,7 +98516,7 @@ desgosto; e a agua beberão por medida, e com espanto;
 [9] Lev. 26.39. cap. 24.23.
 
 
-
+## Ezequiel 5
 
 5 E tu, ó filho do homem, toma uma faca aguda, uma navalha de barbeiro, e
 tomal-a-has, [1] e a farás passar por cima da tua cabeça e da tua barba:
@@ -98760,7 +98622,7 @@ sobre ti: Eu, o Senhor, fallei.
 [17] Lev. 26.22. Deu. 32.24. cap. 14.21 e 33.27 e 34.25 e 38.22.
 
 
-
+## Ezequiel 6
 
 _Prophecia contra os montes de Israel._
 
@@ -98850,7 +98712,7 @@ habitações: e saberão que eu sou o Senhor.
 [15] Jer. 48.22.
 
 
-
+## Ezequiel 7
 
 _O fim vem! O fim vem!_
 
@@ -98993,7 +98855,7 @@ seus juizos os julgarei; e saberão que eu _sou_ o Senhor.
 [23] Deu. 33.23. Jer. 4.20.
 
 
-
+## Ezequiel 8
 
 _As abominações no sanctuario._
 
@@ -99095,7 +98957,7 @@ grande voz, _comtudo_ não os ouvirei.
 Isa. 1.15. Jer. 11.11 e 14.12. Miq. 3.4. Zac. 7.13.
 
 
-
+## Ezequiel 9
 
 _Os castigos de Jerusalem._
 
@@ -99169,7 +99031,7 @@ tinteiro, tornou com a resposta, dizendo: Fiz como me mandaste.
 [13] cap. 11.21.
 
 
-
+## Ezequiel 10
 
 _A segunda visão dos cherubins._
 
@@ -99297,7 +99159,7 @@ um andava ao direito do seu rosto.
 [22] cap. 1.12.
 
 
-
+## Ezequiel 11
 
 _O juizo de Deus contra os chefes do povo._
 
@@ -99435,7 +99297,7 @@ mostrado.
 [23] cap. 8.3.
 
 
-
+## Ezequiel 12
 
 _A mudança para fóra do muro é o symbolo do captiveiro e da dispersão._
 
@@ -99583,7 +99445,7 @@ fará, diz o Senhor JEHOVAH.
 [21] ver. 23, 25.
 
 
-
+## Ezequiel 13
 
 13 E veiu a mim a palavra do Senhor, dizendo:
 
@@ -99705,7 +99567,7 @@ Senhor.
 [17] ver. 9. cap. 14.8 e 15.7.
 
 
-
+## Ezequiel 14
 
 _O castigo dos idolatras._
 
@@ -99844,7 +99706,7 @@ JEHOVAH.
 [21] Jer. 22.8, 9.
 
 
-
+## Ezequiel 15
 
 _O pau inutil da videira._
 
@@ -99882,7 +99744,7 @@ diz o Senhor JEHOVAH.
 [3] cap. 6.7 e 7.4 e 11.10 e 20.38, 42, 44.
 
 
-
+## Ezequiel 16
 
 _A meretriz e as abominações de Jerusalem._
 
@@ -100214,7 +100076,7 @@ Nah. 3.5.
 [51] Rom. 3.19.
 
 
-
+## Ezequiel 17
 
 _A parabola das duas aguias e da videira._
 
@@ -100356,7 +100218,7 @@ reverdecer a arvore secca: [23] eu, o Senhor, o fallei, e o farei.
 [23] cap. 22.14 e 24.14.
 
 
-
+## Ezequiel 18
 
 _A responsabilidade é pessoal._
 
@@ -100540,7 +100402,7 @@ JEHOVAH: convertei-vos, pois, e vivei.
 [33] Lam. 3.33. ver. 23. cap. 33.11. II Ped. 3.9.
 
 
-
+## Ezequiel 19
 
 _O lamento da leoa; a parabola da videira._
 
@@ -100617,7 +100479,7 @@ Esta é a lamentação, e servirá de lamentação.
 [12] Jui. 9.15.
 
 
-
+## Ezequiel 20
 
 _As abominações da casa de Israel depois do exodo._
 
@@ -100918,7 +100780,7 @@ não falla este por parabolas?
 [54] Jer. 21.14. Luc. 23.31.
 
 
-
+## Ezequiel 21
 
 _A espada do Senhor._
 
@@ -101088,7 +100950,7 @@ virás em memoria; porque eu, o Senhor, _o_ fallei.
 [25] cap. 22.20, 21.
 
 
-
+## Ezequiel 22
 
 _As abominações de Jerusalem._
 
@@ -101255,7 +101117,7 @@ diz o Senhor JEHOVAH.
 [27] Jer. 5.1. cap. 13.5.
 
 
-
+## Ezequiel 23
 
 _Ohola e Oholiba, as duas meretrizes._
 
@@ -101497,7 +101359,7 @@ dos vossos idolos; e sabereis que eu _sou_ o Senhor JEHOVAH.
 [34] ver. 35. cap. 20.28, 42, 44 e 25.5.
 
 
-
+## Ezequiel 24
 
 _A parabola da panella._
 
@@ -101632,7 +101494,7 @@ _um_ signal maravilhoso, e saberão que eu _sou_ o Senhor.
 [17] ver. 24.
 
 
-
+## Ezequiel 25
 
 _Prophecia contra Ammon._
 
@@ -101733,7 +101595,7 @@ sobre elles.
 [11] Jer. 47.4.
 
 
-
+## Ezequiel 26
 
 _Prophecia contra Tyro._
 
@@ -101852,7 +101714,7 @@ Senhor JEHOVAH.
 [17] cap. 27.36 e 28.19.
 
 
-
+## Ezequiel 27
 
 _A lamentação sobre Tyro._
 
@@ -102025,7 +101887,7 @@ tornaste _em_ grande espanto, e nunca _jámais_ serás para sempre.
 [23] Jer. 18.16. cap. 26.21.
 
 
-
+## Ezequiel 28
 
 _Prophecia contra o rei de Tyro._
 
@@ -102174,7 +102036,7 @@ que roubam nos seus contornos; e saberão que eu _sou_ o Senhor seu Deus.
 [23] Jer. 31.5.
 
 
-
+## Ezequiel 29
 
 _Prophecia contra o Egypto._
 
@@ -102293,7 +102155,7 @@ abrimento da bocca no meio d’elles; e saberão que eu _sou_ o Senhor.
 [18] cap. 24.27.
 
 
-
+## Ezequiel 30
 
 _Outra prophecia contra o Egypto e contra Pharaó._
 
@@ -102424,7 +102286,7 @@ terras: assim saberão que eu _sou_ o Senhor.
 [18] ver. 26. cap. 29.12.
 
 
-
+## Ezequiel 31
 
 _Outra prophecia contra Pharaó, rei do Egypto._
 
@@ -102533,7 +102395,7 @@ Senhor JEHOVAH.
 [14] cap. 28.10 e 32.10, 21, 24, etc.
 
 
-
+## Ezequiel 32
 
 _Lamentação sobre Pharaó, rei do Egypto._
 
@@ -102722,7 +102584,7 @@ toda a sua multidão, diz o Senhor JEHOVAH.
 [27] cap. 38.6, 15 e 30.2.
 
 
-
+## Ezequiel 33
 
 _O officio do verdadeiro propheta._
 
@@ -102918,7 +102780,7 @@ que houve no meio d’elles um propheta.
 [33] I Sam. 3.20. cap. 2.5.
 
 
-
+## Ezequiel 34
 
 _Prophecia contra os pastores infieis de Israel._
 
@@ -103100,7 +102962,7 @@ _porém_ eu _sou_ o vosso Deus, diz o Senhor JEHOVAH.
 [32] João 10.11.
 
 
-
+## Ezequiel 35
 
 _Prophecia contra o monte de Seir._
 
@@ -103185,7 +103047,7 @@ de Seir, e todo o Edom, todo, _digo_; e saberão que eu _sou_ o Senhor.
 [15] ver. 3, 4.
 
 
-
+## Ezequiel 36
 
 _Prophecia feita aos montes de Israel._
 
@@ -103401,7 +103263,7 @@ homens; e saberão que eu _sou_ o Senhor.
 [35] cap. 17.24 e 22.14 e 37.14.
 
 
-
+## Ezequiel 37
 
 _A visão d’um valle de ossos seccos._
 
@@ -103556,7 +103418,7 @@ Israel, quando estiver o meu sanctuario no meio d’elles para sempre.
 [24] cap. 36.23. cap. 20.12.
 
 
-
+## Ezequiel 38
 
 _Prophecia contra Gog._
 
@@ -103702,7 +103564,7 @@ aos olhos de muitas nações; e saberão que eu _sou_ o Senhor.
 [25] cap. 36.23 e 37.28 e 39.7. ver. 16.
 
 
-
+## Ezequiel 39
 
 39 Tu pois, [1] ó filho do homem, prophetiza _ainda_ contra Gog, e dize:
 Assim diz o Senhor JEHOVAH: Eis que eu _estou_ contra ti, ó Gog, principe
@@ -103876,7 +103738,7 @@ JEHOVAH.
 [31] Joel 2.28. Zac. 12.10.
 
 
-
+## Ezequiel 40
 
 _A restauração do templo: os atrios e os vestibulos._
 
@@ -104094,7 +103956,7 @@ junto aos pilares, [16] uma de uma banda e outra da outra.
 [16] I Reis 7.21.
 
 
-
+## Ezequiel 41
 
 _A restauração do templo: o sanctuario._
 
@@ -104215,7 +104077,7 @@ traves.
 [9] cap. 44.16. Mal. 1.7, 12. Exo. 30.8.
 
 
-
+## Ezequiel 42
 
 _A restauração do templo: as camaras sanctas._
 
@@ -104309,7 +104171,7 @@ separação entre o sancto e o profano.
 [7] cap. 40.5 e 45.2.
 
 
-
+## Ezequiel 43
 
 _A restauração do templo: a gloria do Senhor._
 
@@ -104467,7 +104329,7 @@ diz o Senhor JEHOVAH.
 [25] Job 42.8. cap. 20.40, 41. Rom. 12.1. I Ped. 2.5.
 
 
-
+## Ezequiel 44
 
 _A restauração do templo: reformas no ministerio do sanctuario._
 
@@ -104660,7 +104522,7 @@ arrebatada de aves e das bestas, comerão os sacerdotes.
 [34] Exo. 22.31. Lev. 22.8.
 
 
-
+## Ezequiel 45
 
 _A repartição da terra: o logar sancto._
 
@@ -104802,7 +104664,7 @@ como a offerta de manjares, e como o azeite.
 [21] Lev. 23.34. Num. 29.12. Deu. 16.13.
 
 
-
+## Ezequiel 46
 
 46 Assim diz o Senhor JEHOVAH: A porta do atrio interior, que olha para o
 oriente, estará fechada os seis dias _que são_ de trabalho; porém no dia
@@ -104926,7 +104788,7 @@ ministros da casa cozerão o sacrificio do povo.
 [13] ver. 20.
 
 
-
+## Ezequiel 47
 
 _A torrente das aguas purificadoras._
 
@@ -105047,7 +104909,7 @@ a sua herança, diz o Senhor JEHOVAH.
 [12] Num. 20.13. Deu. 32.51. cap. 48.28.
 
 
-
+## Ezequiel 48
 
 _Os termos das doze tribus._
 
@@ -105210,11 +105072,9 @@ _aquelle_ dia _será_: [ACP] O Senhor _está_ ali.
 [14] Jer. 33.16. Jer. 3.17. Joel 3.21. Zac. 2.10. Apo. 21.3 e 22.3.
 
 
-
+# Daniel 1
 
 DANIEL.
-
-
 
 
 _A educação de Daniel e outros jovens hebreos na côrte de Nabucodonozor._
@@ -105324,7 +105184,7 @@ astrologos que _havia_ em todo o seu reino.
 [13] cap. 6.28 e 10.1.
 
 
-
+## Daniel 2
 
 _O decreto; o sonho do rei é interpretado por Daniel._
 
@@ -105586,7 +105446,7 @@ _estava_ á porta do rei.
 [37] Est. 2.19, 21 e 3.2.
 
 
-
+## Daniel 3
 
 _A estatua de oiro: os companheiros de Daniel no forno de fogo ardente._
 
@@ -105740,7 +105600,7 @@ de Babylonia.
 [12] cap. 6.27.
 
 
-
+## Daniel 4
 
 _O edito do rei. O seu sonho d’uma arvore grande: a sua loucura._
 
@@ -105966,7 +105826,7 @@ juizo, e pode humilhar aos que andam na soberba.
 [35] Apo. 15.3 e 16.7.
 
 
-
+## Daniel 5
 
 _O banquete do rei Belshazzar. A mão mysteriosa._
 
@@ -106133,7 +105993,7 @@ annos.
 [20] Jer. 51.31, 39, 57. cap. 9.1.
 
 
-
+## Daniel 6
 
 _Daniel na cova dos leões._
 
@@ -106299,7 +106159,7 @@ de Cyro, o persa.
 [25] cap. 1.21. Eze. 1.1, 2.
 
 
-
+## Daniel 7
 
 _A visão dos quatro animaes symbolicos._
 
@@ -106476,7 +106336,7 @@ cap. 2.44. ver. 27.
 [31] Luc. 2.19, 51.
 
 
-
+## Daniel 8
 
 _A visão d’um carneiro e d’um bode._
 
@@ -106643,7 +106503,7 @@ não havia quem a entendesse.
 [29] ver. 16.
 
 
-
+## Daniel 9
 
 _A oração de Daniel: as setenta semanas: o Messias._
 
@@ -106839,7 +106699,7 @@ ver. 15.
 Rom. 11.26.
 
 
-
+## Daniel 10
 
 _Um anjo annuncia a Daniel os acontecimentos dos ultimos dias._
 
@@ -106974,7 +106834,7 @@ vosso principe.
 [24] ver. 13. Jud. 9. Apo. 12.7.
 
 
-
+## Daniel 11
 
 _O imperio medo-persa será destruido pelo rei da Grecia: o reino será
 dividido em quatro. Guerra entre o rei do sul e o rei do norte._
@@ -107194,7 +107054,7 @@ e glorioso; mas virá ao seu fim, e não haverá quem o soccorra.
 [23] Isa. 11.14.
 
 
-
+## Daniel 12
 
 _Os ultimos tempos: as palavras selladas._
 
@@ -107278,11 +107138,9 @@ tua sorte, no fim dos dias.
 [16] ver. 9. Apo. 14.13.
 
 
-
+# Oseas 1
 
 OSEAS.
-
-
 
 
 _Casamento symbolico de Oseas; idolatria e corrupção de Israel: ameaças e
@@ -107347,7 +107205,7 @@ grande _será_ o dia de Jezreel.
 [8] Isa. 11.12, 13. Jer. 3.18. Eze. 34.23 e 37.16-24.
 
 
-
+## Oseas 2
 
 2 Dizei a vossos irmãos, Ammi, e a vossas irmãs, Ruhama:
 
@@ -107475,7 +107333,7 @@ e a Lo-ammi direi: [24] Tu _és_ meu povo; e elle dirá: Ó meu Deus!
 [24] cap. 1.10. Zac. 13.9. Rom. 9.26. I Ped. 2.10.
 
 
-
+## Oseas 3
 
 3 E o Senhor me disse: Vae outra vez, [1] ama uma mulher, amada de _seu_
 amigo, comtudo adultera, como o Senhor ama os filhos de Israel; mas elles
@@ -107504,7 +107362,7 @@ e a David, seu rei; e temerão ao Senhor, e á sua bondade, no fim dos dias.
 [4] Jer. 50.4, 5. cap. 5.6. Jer. 30.9. Eze. 34.23, 24 e 37.22, 24.
 
 
-
+## Oseas 4
 
 _Israel e Judah são ameaçados com castigo por causa da sua impiedade: a
 ignorancia e malicia do povo._
@@ -107605,7 +107463,7 @@ dos seus sacrificios.
 [15] Jer. 4.11, 12 e 51.1. Isa. 1.29. Jer. 2.26.
 
 
-
+## Oseas 5
 
 _Os principes e sacerdotes são reprehendidos e exhortados ao
 arrependimento._
@@ -107689,7 +107547,7 @@ me buscarão.
 [14] Lev. 26.40, 41. Jer. 29.12, 13.
 
 
-
+## Oseas 6
 
 6 Vinde, e tornemos [1] ao Senhor, porque elle despedaçou, e nos sarará,
 feriu, e nos atará _a ferida_.
@@ -107749,7 +107607,7 @@ tornar o captiveiro do meu povo.
 [11] Jer. 51.33. Joel 3.13. Apo. 14.15.
 
 
-
+## Oseas 7
 
 7 Sarando eu a Israel, se descobriu a iniquidade d’Ephraim, como tambem
 as maldades de Samaria, [1] porque obraram a falsidade; e o ladrão entra,
@@ -107830,7 +107688,7 @@ lingua; este será o seu escarneo na terra do Egypto.
 [12] cap. 11.7.
 
 
-
+## Oseas 8
 
 _O castigo está proximo._
 
@@ -107915,7 +107773,7 @@ as suas cidades, que consumirá os seus palacios.
 [17] Jer. 17.27. Amós 2.5.
 
 
-
+## Oseas 9
 
 _O peccado de Israel e a sua consequencia._
 
@@ -108024,7 +107882,7 @@ entre as nações.
 [22] Deu. 28.64, 65.
 
 
-
+## Oseas 10
 
 10 Israel [1] _é_ uma vide vasia; dá fructo para si mesmo: [2] segundo a
 multidão do seu fructo, multiplicou os altares, segundo a bondade da sua
@@ -108116,7 +107974,7 @@ de Israel de madrugada será totalmente destruido.
 [17] II Reis 18.34 e 19.13. cap. 14.1.
 
 
-
+## Oseas 11
 
 _A ingratidão de Israel. Ameaças e promessas._
 
@@ -108193,7 +108051,7 @@ Judah ainda domina com Deus, e com os sanctos está fiel.
 [16] cap. 12.1.
 
 
-
+## Oseas 12
 
 _A controversia do Senhor com Judah e com Israel._
 
@@ -108279,7 +108137,7 @@ opprobrio.
 [17] Dan. 11.18. Deu. 28.37.
 
 
-
+## Oseas 13
 
 _O peccado de Israel e o seu castigo._
 
@@ -108383,7 +108241,7 @@ _serão_ fendidas pelo meio.
 Amós 1.13. Nah. 3.10.
 
 
-
+## Oseas 14
 
 _Exhortação ao arrependimento, e promessa de perdão._
 
@@ -108442,11 +108300,9 @@ justos andarão n’elles, mas os transgressores cairão n’elles.
 [11] Pro. 10.29. Luc. 2.34. II Cor. 2.16. I Ped. 2.7, 8.
 
 
-
+# Joel 1
 
 JOEL.
-
-
 
 
 _A terrivel carestia causada pela locusta e pela secca._
@@ -108561,7 +108417,7 @@ agua se seccaram, e o fogo consumiu os pastos do deserto.
 [21] Job 38.41. I Reis 17.7 e 18.5.
 
 
-
+## Joel 2
 
 2 Tocae a buzina [1] em Sião, e clamae em alta voz no monte da minha
 sanctidade: perturbem-se todos os moradores da terra, [2] porque o dia do
@@ -108772,7 +108628,7 @@ chamará.
 [41] Isa. 46.13 e 59.20. Rom. 11.26. Rom. 9.27 e 11.5, 7.
 
 
-
+## Joel 3
 
 _Os juizos de Deus sobre as nações inimigas: Israel será restaurado._
 
@@ -108890,11 +108746,9 @@ habitará em Sião.
 [20] Isa. 4.4. Eze. 48.35. ver. 17. Apo. 21.3.
 
 
-
+# Amós 1
 
 AMÓS.
-
-
 
 
 _Ameaças contra diversas nações e contra Judah._
@@ -108996,7 +108850,7 @@ juntamente, diz o Senhor.
 [20] Deu. 3.11. II Sam. 12.26. Jer. 49.2. Eze. 25.5. cap. 2.2.
 
 
-
+## Amós 2
 
 2 Assim diz o Senhor: [1] Por tres transgressões de Moab, e por quatro,
 não o afastarei, [2] porque queimou os ossos do rei de Edom, até _os
@@ -109083,7 +108937,7 @@ Senhor.
 [15] cap. 9.1, etc. Jer. 9.23.
 
 
-
+## Amós 3
 
 _Os vicios e maldades de Israel: o annuncio de castigo._
 
@@ -109150,7 +109004,7 @@ marfim perecerão, e as grandes casas terão fim, diz o Senhor.
 [7] Jer. 36.22. Jui. 3.20.
 
 
-
+## Amós 4
 
 4 Ouvi esta palavra, vós, [1] vaccas de Basan, _vós_, que _estaes_ no
 monte de Samaria, _vós_, que opprimis aos pobres, que quebrantaes os
@@ -109237,7 +109091,7 @@ os altos da terra, [16] o Senhor Deus dos Exercitos _é_ o seu nome.
 [16] Isa. 47.4. Jer. 10.16. cap. 5.8 e 9.6.
 
 
-
+## Amós 5
 
 _Predicção da ruina de Israel._
 
@@ -109371,7 +109225,7 @@ Senhor, cujo nome _é_ o Deus dos exercitos.
 [21] cap. 4.13.
 
 
-
+## Amós 6
 
 _A corrupção de Israel. Ameaças._
 
@@ -109449,7 +109303,7 @@ entrada de Hamath até ao ribeiro da planicie.
 [13] Num. 34.8.
 
 
-
+## Amós 7
 
 _A visão da locusta, do fogo e do prumo._
 
@@ -109534,7 +109388,7 @@ captivo para fóra da sua terra.
 [11] Jer. 29.21, 25, 31, 32. Isa. 13.16. Lam. 5.11. Ose. 4.13. Zac. 14.2.
 
 
-
+## Amós 8
 
 _A visão d’um cesto de fructos. Ameaças contra Israel._
 
@@ -109613,7 +109467,7 @@ mais.
 [12] Ose. 4.15. Deu. 9.21.
 
 
-
+## Amós 9
 
 _Visão da ruina do altar: promessa de restauração._
 
@@ -109707,11 +109561,9 @@ terra que lhes dei, diz o Senhor teu Deus.
 [16] Isa. 60.21. Eze. 34.28. Joel 3.20.
 
 
-
+# Obadias 1
 
 OBADIAS.
-
-
 
 
 _Os peccados e o castigo de Edom: a restauração e felicidade de Israel._
@@ -109834,11 +109686,9 @@ montanha de Esaú; e o reino será do Senhor.
 [20] Thi. 5.20. Zac. 14.9. Luc. 1.33. Apo. 11.15 e 19.6.
 
 
-
+# Jonas 1
 
 JONAS.
-
-
 
 
 _A vocação de Jonas; a sua fugida e o seu castigo._
@@ -109939,7 +109789,7 @@ esteve Jonas tres dias e tres noites nas entranhas do peixe.
 [16] Mat. 12.40 e 16.4. Luc. 11.30.
 
 
-
+## Jonas 2
 
 _Jonas no ventre do grande peixe; sua oração e seu salvamento._
 
@@ -109979,7 +109829,7 @@ pagarei: do Senhor _vem_ a salvação.
 [3] Ose. 14.2. Heb. 13.15.
 
 
-
+## Jonas 3
 
 _Jonas prega em Ninive: o arrependimento dos ninivitas._
 
@@ -110029,7 +109879,7 @@ fez.
 [6] Jer. 18.8. Amós 7.3, 6.
 
 
-
+## Jonas 4
 
 _O descontentamento de Jonas e a resposta do Senhor._
 
@@ -110087,11 +109937,9 @@ entre a sua mão direita e a sua mão esquerda, _e_ muitos animaes?
 [7] Deu. 1.38.
 
 
-
+# Miqueas 1
 
 MIQUEAS.
-
-
 
 
 _Ameaças contra Israel e Judah por causa de sua injustiça e rebellião._
@@ -110196,7 +110044,7 @@ captivos.
 [20] Isa. 15.2 e 22.12. Jer. 7.29.
 
 
-
+## Miqueas 2
 
 2 Ai [1] d’aquelles que nas suas camas intentam a iniquidade, e obram o
 mal: [2] á luz da alva o põem em obra, porque está no poder da sua mão!
@@ -110276,7 +110124,7 @@ e o Senhor á testa d’elles.
 [13] Ose. 3.5. Isa. 52.12.
 
 
-
+## Miqueas 3
 
 _Ameaças contra os chefes e os falsos prophetas._
 
@@ -110354,7 +110202,7 @@ de bosque.
 [14] cap. 4.2.
 
 
-
+## Miqueas 4
 
 _O annuncio da vocação dos gentios._
 
@@ -110435,7 +110283,7 @@ toda a terra.
 [13] Isa. 18.7 e 23.18 e 60.6, 9. Zac. 4.13 e 6.5.
 
 
-
+## Miqueas 5
 
 5 Agora ajunta-te com esquadrões, ó filha de esquadrões; pôr-se-ha cerco
 sobre nós: [1] ferirão com a vara no queixo ao juiz de Israel.
@@ -110520,7 +110368,7 @@ cidades.
 [14] II The. 1.8.
 
 
-
+## Miqueas 6
 
 _A contenda do Senhor com o seu povo. As maldades de Israel: Deus não
 terá compaixão._
@@ -110610,7 +110458,7 @@ opprobrio do meu povo.
 [15] Jer. 19.8. Isa. 25.8. Jer. 51.51. Lam. 5.1.
 
 
-
+## Miqueas 7
 
 7 Ai de mim! porque estou feito como quando se tem colhido as fructas
 do verão, [1] como os rabiscos da vindima; não _ha_ cacho de uvas para
@@ -110727,11 +110575,9 @@ juraste a nossos paes desde os dias antigos.
 [22] Luc. 1.72, 73.
 
 
-
+# Nahum 1
 
 NAHUM.
-
-
 
 
 _A justiça e misericordia de Deus: a destruição de seus inimigos e o
@@ -110825,7 +110671,7 @@ exterminado.
 [17] ver. 11, 12. ver. 14.
 
 
-
+## Nahum 2
 
 _O cerco e tomada de Ninive._
 
@@ -110891,7 +110737,7 @@ teus embaixadores.
 [8] II Reis 18.17, 19 e 19.9, 23.
 
 
-
+## Nahum 3
 
 _Os delictos de Ninive: a sua ruina inevitavel._
 
@@ -111000,11 +110846,9 @@ quem não passou continuamente a tua malicia?
 [18] Miq. 1.9. Sof. 2.15. Isa. 14.8.
 
 
-
+# Habacuc 1
 
 HABACUC.
-
-
 
 
 _A iniquidade de Judah: este será castigado pelos chaldeos: a intercessão
@@ -111089,7 +110933,7 @@ continuamente?
 [9] Jer. 16.16. Amós 4.2.
 
 
-
+## Habacuc 2
 
 _Os chaldeos serão castigados a seu turno._
 
@@ -111205,7 +111049,7 @@ toda a terra.
 [20] Sof. 1.7. Zac. 2.13.
 
 
-
+## Habacuc 3
 
 _A oração de Habacuc._
 
@@ -111297,11 +111141,9 @@ cantor-mór sobre os meus instrumentos de musica.
 [12] Deu. 32.13 e 33.29.
 
 
-
+# Sofonias 1
 
 SOFONIAS.
-
-
 
 
 _Ameaças contra Judah e Jerusalem._
@@ -111413,7 +111255,7 @@ total e apressada.
 [18] cap. 3.8.
 
 
-
+## Sofonias 2
 
 _Ameaças contra diversas nações._
 
@@ -111515,7 +111357,7 @@ assobiará, [21] _e_ meneará a sua mão.
 [21] Job 27.23. Lam. 2.15. Nah. 3.19.
 
 
-
+## Sofonias 3
 
 _O castigo de Jerusalem: a promessa feita aos fieis._
 
@@ -111636,11 +111478,9 @@ vossos olhos.
 [22] Isa. 11.12 e 27.12 e 56.8. Eze. 28.25 e 34.13.
 
 
-
+# Aggeo 1
 
 AGGEO.
-
-
 
 
 _Aggeo reprehende o povo por causa de sua inercia, e o exhorta a
@@ -111730,7 +111570,7 @@ a obra na casa do Senhor dos Exercitos, seu Deus,
 [13] Esd. 5.2, 8.
 
 
-
+## Aggeo 2
 
 _A gloria do segundo templo._
 
@@ -111870,11 +111710,9 @@ de sellar; porque te escolhi, [23] diz o Senhor dos Exercitos.
 [23] Isa. 42.1 e 43.10.
 
 
-
+# Zacharias 1
 
 ZACHARIAS.
-
-
 
 
 _Exhortação ao arrependimento._
@@ -112000,7 +111838,7 @@ a terra de Judah, para a espalharem.
 [18] Esd. 4.1, 4, 7 e 5.3.
 
 
-
+## Zacharias 2
 
 _A terceira visão: Jerusalem é medida._
 
@@ -112079,7 +111917,7 @@ da sua sancta morada.
 [16] Hab. 2.20. Sof. 1.7. Isa. 57.15.
 
 
-
+## Zacharias 3
 
 _Quarta visão: o summo sacerdote é accusado por Satanaz e justificado por
 Deus._
@@ -112144,7 +111982,7 @@ figueira.
 [12] cap. 2.11. I Reis 4.25. Isa. 36.16. Miq. 4.4.
 
 
-
+## Zacharias 4
 
 _A quinta visão: o castiçal de oiro e as sete lampadas._
 
@@ -112222,7 +112060,7 @@ diante [13] do Senhor de toda a terra.
 [13] cap. 6.5.
 
 
-
+## Zacharias 5
 
 _A sexta visão: o rolo voante._
 
@@ -112276,7 +112114,7 @@ e, sendo _esta_ assentada, elle será posto ali sobre a sua base.
 [4] Jer. 20.5, 28. Gen. 10.10.
 
 
-
+## Zacharias 6
 
 _A oitava visão: os quatro carros._
 
@@ -112362,7 +112200,7 @@ Deus.
 [13] cap. 2.9 e 4.9.
 
 
-
+## Zacharias 7
 
 _O jejum que não agrada a Deus._
 
@@ -112443,7 +112281,7 @@ desolação.
 [13] Deu. 4.27 e 28.64. Eze. 36.19. cap. 2.6. Deu. 28.33.
 
 
-
+## Zacharias 8
 
 _Bençãos promettidas._
 
@@ -112577,7 +112415,7 @@ _que_ Deus _está_ comvosco.
 [23] I Cor. 14.25.
 
 
-
+## Zacharias 9
 
 _O castigo de diversos povos._
 
@@ -112685,7 +112523,7 @@ formosura! [19] o trigo fará fallar os mancebos e o mosto as donzellas.
 [19] Joel 3.18. Amós 9.14.
 
 
-
+## Zacharias 10
 
 _Promessas feitas a Israel._
 
@@ -112763,7 +112601,7 @@ Senhor.
 [15] Miq. 4.5.
 
 
-
+## Zacharias 11
 
 _O castigo dos impenitentes._
 
@@ -112852,7 +112690,7 @@ seccará, e o seu olho direito sem falta se escurecerá.
 [12] Jer. 23.1. Eze. 34.2. João 10.12, 13.
 
 
-
+## Zacharias 12
 
 _A destruição dos inimigos do povo de Deus. O arrependimento e a
 purificação de Israel._
@@ -112941,7 +112779,7 @@ parte.
 [14] II Sam. 5.14. Luc. 3.31.
 
 
-
+## Zacharias 13
 
 13 N’aquelle [1] dia haverá _uma_ fonte aberta para a casa de David, e
 para os habitantes de Jerusalem, contra o peccado, e contra a immundicia.
@@ -113008,7 +112846,7 @@ dirá: O Senhor _é_ o meu Deus.
 [13] Jer. 30.22. Eze. 11.20. cap. 8.8.
 
 
-
+## Zacharias 14
 
 14 Eis que [1] o dia do Senhor vem; repartir-se-hão no meio de ti os teus
 despojos.
@@ -113139,11 +112977,9 @@ Exercitos n’aquelle dia.
 [22] Joel 3.17. Apo. 21.27 e 22.15. Eph. 2.19, 20, 21, 22.
 
 
-
+# Malachias 1
 
 MALACHIAS.
-
-
 
 
 _A ingratidão do povo; o formalismo dos sacerdotes._
@@ -113240,7 +113076,7 @@ tremendo entre as nações.
 [17] I Tim. 6.15.
 
 
-
+## Malachias 2
 
 2 Agora pois, ó sacerdotes, este mandamento vos _toca_ a vós.
 
@@ -113344,7 +113180,7 @@ juizo?
 [17] Isa. 43.24. Amós 2.13. cap. 3.13, 14, 15.
 
 
-
+## Malachias 3
 
 _O annuncio da vinda do Senhor, precedido pelo seu anjo._
 
@@ -113463,7 +113299,7 @@ o que serve a Deus, e o que não o serve.
 [21] Isa. 62.3.
 
 
-
+## Malachias 4
 
 4 Porque [1] eis que aquelle dia vem ardendo como o forno: [2] todos os
 soberbos, e todos os que obram a impiedade, serão como a palha; e o dia
@@ -113505,57 +113341,18 @@ seus paes; [9] para que eu não venha, e fira a terra com maldição.
 [9] Zac. 14.12. Zac. 5.3.
 
 
-
-
 FIM DO VELHO TESTAMENTO.
 
 
-
+# O Novo Testamento
 
 O NOVO TESTAMENTO DE NOSSO SENHOR JESUS CHRISTO, PELO PADRE JOÃO FERREIRA
 D’ALMEIDA.
 
 
-
-
-OS LIVROS DO NOVO TESTAMENTO E O NUMERO DE SEUS CAPITULOS.
-
-
-                                _Pag._  _Cap._
-    S. Mattheus                  839      28
-    S. Marcos                    875      16
-    S. Lucas                     898      24
-    S. João                      936      21
-    Actos                        964      28
-    Aos Romanos                 1000      16
-    I. Aos Corinthios           1015      16
-    II. Aos Corinthios          1030      13
-    Aos Galatas                 1039       6
-    Aos Ephesios                1044       6
-    Aos Philippenses            1050       4
-    Aos Colossenses             1054       4
-    I. Aos Thessalonicenses     1057       5
-    II. Aos Thessalonicenses    1061       3
-    I. A Timotheo               1063       6
-    II. A Timotheo              1067       4
-    A Tito                      1070       3
-    A Philemon                  1072       1
-    Aos Hebreos                 1073      13
-    S. Thiago                   1084       5
-    I. S. Pedro                 1088       5
-    II. S. Pedro                1092       3
-    I. S. João                  1095       5
-    II. S. João                 1099       1
-    III. S. João                1099       1
-    S. Judas                    1100       1
-    Apocalypse da S. João       1101      22
-
-
-
+# S. Mattheus 1
 
 O SANCTO EVANGELHO SEGUNDO S. MATTHEUS.
-
-
 
 
 _A genealogia de Jesus Christo._
@@ -113691,7 +113488,7 @@ poz-lhe por nome JESUS.
 [23] Exo. 13.2. Luc. 2.7, 21.
 
 
-
+## S. Mattheus 2
 
 _Os magos do oriente[AEY]._
 
@@ -113804,7 +113601,7 @@ cumprisse o que fôra dito pelos prophetas: Que se chamará Nazareno.
 [11] João 1.45. Jui. 13.5. I Sam. 1.11.
 
 
-
+## S. Mattheus 3
 
 _João Baptista._
 
@@ -113910,7 +113707,7 @@ quem me comprazo.
 Col. 1.13. II Ped. 1.17.
 
 
-
+## S. Mattheus 4
 
 _A tentação de Jesus._
 
@@ -114033,7 +113830,7 @@ Decapolis, de Jerusalem, da Judea, e d’além do Jordão.
 [17] Mar. 3.7.
 
 
-
+## S. Mattheus 5
 
 _O sermão da montanha. As beatitudes._
 
@@ -114285,7 +114082,7 @@ Ped. 2.23.
 Eph. 5.1.
 
 
-
+## S. Mattheus 6
 
 _Continuação do sermão da montanha. Esmolas. Oração. Jejum._
 
@@ -114452,7 +114249,7 @@ João 17.5.
 [23] I Reis 3.13. Psa. 37.25. Mar. 10.30. Luc. 12.31. I Tim. 4.8.
 
 
-
+## S. Mattheus 7
 
 _Continuação do sermão da montanha. O juizo temerario. As coisas sanctas
 não deis aos cães. Perseverança na oração. A porta estreita. Os falsos
@@ -114589,7 +114386,7 @@ admirou da sua doutrina,
 [20] João 7.46.
 
 
-
+## S. Mattheus 8
 
 _O leproso purificado._
 
@@ -114752,7 +114549,7 @@ _aquellas coisas_, e o que _acontecera_ aos endemoninhados.
 [13] Deu. 5.25. I Reis 17.18. Luc. 5.8. Act. 16.39.
 
 
-
+## S. Mattheus 9
 
 _O paralytico de Capernaum._
 
@@ -114940,7 +114737,7 @@ _seara_.
 [21] II The. 3.1.
 
 
-
+## S. Mattheus 10
 
 _Os doze e a sua missão._
 
@@ -115147,7 +114944,7 @@ modo nenhum perderá o seu galardão.
 [39] cap. 18.5, 6 e 25.40. Mar. 9.40. Heb. 6.10.
 
 
-
+## S. Mattheus 11
 
 _João Baptista envia dois discipulos seus a Jesus._
 
@@ -115298,7 +115095,7 @@ Jer. 6.16.
 [21] I João 5.3.
 
 
-
+## S. Mattheus 12
 
 _Jesus é Senhor do Sabbado._
 
@@ -115541,7 +115338,7 @@ céus, este é meu irmão, e irmã e mãe.
 [30] João 15.14. Gal. 5.6. Col. 3.11. Heb. 2.11.
 
 
-
+## S. Mattheus 13
 
 _A parabola do semeador._
 
@@ -115815,7 +115612,7 @@ d’elles.
 [35] Mar. 6.5, 6.
 
 
-
+## S. Mattheus 14
 
 _A morte de João Baptista._
 
@@ -115955,7 +115752,7 @@ aquellas terras em redor, e trouxeram-lhe todos os que estavam enfermos.
 [9] cap. 9.20. Mar. 3.10. Luc. 6.19. Act. 19.12.
 
 
-
+## S. Mattheus 15
 
 _A tradição dos anciãos._
 
@@ -116137,7 +115934,7 @@ Lev. 20.9. Deu. 27.16.
 [24] Mar. 8.10.
 
 
-
+## S. Mattheus 16
 
 _O fermento dos phariseos._
 
@@ -116284,7 +116081,7 @@ I João 4.15.
 [20] Mar. 8.39. Luc. 9.29.
 
 
-
+## S. Mattheus 17
 
 _A transfiguração._
 
@@ -116407,7 +116204,7 @@ toma-o, e dá-o por mim e por ti.
 [12] Mar. 9.32. Exo. 30.13 e 38.26.
 
 
-
+## S. Mattheus 18
 
 _O maior no reino dos céus._
 
@@ -116575,7 +116372,7 @@ perdoardes, cada um a seu irmão, as suas offensas.
 [21] Pro. 21.13. cap. 6.12. Mar. 11.26. Thi. 2.13.
 
 
-
+## S. Mattheus 19
 
 _Ácerca do divorcio._
 
@@ -116726,7 +116523,7 @@ derradeiros _serão_ os primeiros.
 [21] cap. 20.16 e 21.31, 32. Mar. 10.31. Luc. 13.30.
 
 
-
+## S. Mattheus 20
 
 _A parabola dos trabalhadores e das diversas horas do trabalho._
 
@@ -116874,7 +116671,7 @@ Tito 2.14. I Ped. 1.19. Rom. 5.15. Heb. 9.28.
 [14] cap. 9.27.
 
 
-
+## S. Mattheus 21
 
 _A entrada triumphal de Jesus em Jerusalem._
 
@@ -117112,7 +116909,7 @@ por propheta.
 [29] ver. 11.
 
 
-
+## S. Mattheus 22
 
 _A parabola das bodas._
 
@@ -117300,7 +117097,7 @@ dia ousou mais alguem interrogal-o.
 [19] Luc. 14.6 e 20.40. Mar. 12.34.
 
 
-
+## S. Mattheus 23
 
 _Jesus censura os escribas e os phariseos._
 
@@ -117485,7 +117282,7 @@ digaes: [28] Bemdito o que vem em nome do Senhor.
 [28] Psa. 118.26. cap. 21.9.
 
 
-
+## S. Mattheus 24
 
 _O sermão prophetico; o principio de dôres._
 
@@ -117721,7 +117518,7 @@ Luc. 21.25. Act. 2.20. Apo. 6.12.
 [35] cap. 8.12 e 25.30.
 
 
-
+## S. Mattheus 25
 
 _O sermão prophetico continúa: A parabola das dez virgens._
 
@@ -117921,7 +117718,7 @@ I Ped. 5.8. Apo. 16.15.
 [24] Dan. 12.2. João 5.29. Rom. 2.7.
 
 
-
+## S. Mattheus 26
 
 _A consulta dos sacerdotes e dos escribas._
 
@@ -118286,7 +118083,7 @@ Psa. 110.1. Act. 7.55.
 [44] ver. 34. Mar. 14.30. Luc. 22.61, 62. João 13.38.
 
 
-
+## S. Mattheus 27
 
 _O suicidio de Judas._
 
@@ -118589,7 +118386,7 @@ pedra.
 [41] Dan. 6.17.
 
 
-
+## S. Mattheus 28
 
 _A resurreição._
 
@@ -118687,11 +118484,9 @@ Apo. 17.14.
 [10] Act. 2.42.
 
 
-
+# S. Marcos 1
 
 O SANCTO EVANGELHO SEGUNDO S. MARCOS.
-
-
 
 
 _João Baptista._
@@ -118931,7 +118726,7 @@ Cor. 12.13.
 [35] cap. 2.13.
 
 
-
+## S. Marcos 2
 
 _O paralytico de Capernaum._
 
@@ -119070,7 +118865,7 @@ por causa do sabbado.
 [13] Mat. 12.8.
 
 
-
+## S. Marcos 3
 
 _A cura de um que tinha uma das mãos mirrada._
 
@@ -119221,7 +119016,7 @@ irmã, e minha mãe.
 [15] Luc. 8.19.
 
 
-
+## S. Marcos 4
 
 _A parabola do semeador._
 
@@ -119404,7 +119199,7 @@ que até o vento e o mar lhe obedecem?
 [18] Luc. 8.22.
 
 
-
+## S. Marcos 5
 
 _O endemoninhado gadareno._
 
@@ -119561,7 +119356,7 @@ lhe dessem de comer.
 [10] Mat. 8.4 e 9.30 e 12.16 e 17.9. Luc. 5.14.
 
 
-
+## S. Marcos 6
 
 _Jesus retira-se para Nazareth._
 
@@ -119838,7 +119633,7 @@ tocassem a orla do seu vestido; e todos os que lhe tocavam saravam.
 [38] Mat. 9.20. cap. 5.27, 28. Act. 19.12.
 
 
-
+## S. Marcos 7
 
 _A tradição dos anciãos._
 
@@ -119995,7 +119790,7 @@ surdos e fallar os mudos.
 [15] cap. 5.43.
 
 
-
+## S. Marcos 8
 
 _Segunda multiplicação dos pães._
 
@@ -120178,7 +119973,7 @@ anjos.
 [21] Mat. 10.33. Luc. 9.26 e 12.9. Rom. 1.16. II Tim. 1.8 e 2.12.
 
 
-
+## S. Marcos 9
 
 9 Dizia-lhes tambem: [1] Em verdade vos digo que, dos que aqui estão,
 alguns ha que não provarão a morte até que vejam vir [2] o reino de Deus
@@ -120412,7 +120207,7 @@ adubareis? tende sal em vós mesmos, e paz uns com os outros.
 12.14.
 
 
-
+## S. Marcos 10
 
 _O divorcio._
 
@@ -120659,7 +120454,7 @@ a Jesus pelo caminho.
 [28] Mat. 9.22. cap. 5.34.
 
 
-
+## S. Marcos 11
 
 _A entrada triumphal de Jesus em Jerusalem._
 
@@ -120814,7 +120609,7 @@ _coisas_.
 [18] Mat. 3.6 e 14.5. cap. 6.20.
 
 
-
+## S. Marcos 12
 
 _Parabola dos lavradores malvados._
 
@@ -121034,7 +120829,7 @@ pobreza, deitou tudo o [21] que tinha, todo o seu sustento.
 [21] Deu. 24.6. I João 3.17.
 
 
-
+## S. Marcos 13
 
 _O sermão prophetico: o principio de dôres._
 
@@ -121212,7 +121007,7 @@ tarde, se á meia noite, se ao cantar do gallo, se pela manhã,
 [23] Mat. 24.42, 44.
 
 
-
+## S. Marcos 14
 
 _A consulta dos sacerdotes._
 
@@ -121542,7 +121337,7 @@ negarás tu. E, retirando-se d’ali, chorou.
 [33] Mat. 26.75.
 
 
-
+## S. Marcos 15
 
 _Jesus perante Pilatos._
 
@@ -121758,7 +121553,7 @@ uma pedra para a porta do sepulchro.
 [30] Luc. 23.53. João 19.40.
 
 
-
+## S. Marcos 16
 
 _A resurreição._
 
@@ -121866,11 +121661,9 @@ Cor. 12.10, 28.
 [17] Act. 5.12 e 14.3. I Cor. 2.4, 5. Heb. 2.4.
 
 
-
+# S. Lucas 1
 
 O SANCTO EVANGELHO SEGUNDO S. LUCAS.
-
-
 
 
 _Prefacio_
@@ -122240,7 +122033,7 @@ Rom. 1.4.
 [57] cap. 2.40. Mat. 3.1 e 11.7.
 
 
-
+## S. Lucas 2
 
 _O nascimento de Jesus._
 
@@ -122478,7 +122271,7 @@ Deus e os homens.
 [32] I Sam. 2.26. ver. 40.
 
 
-
+## S. Lucas 3
 
 _A prégação de João Baptista._
 
@@ -122657,7 +122450,7 @@ etc.
 [20] Gen. 5.1, 2.
 
 
-
+## S. Lucas 4
 
 _A tentação de Jesus._
 
@@ -122867,7 +122660,7 @@ cidades o evangelho do reino de Deus; porque para isso sou enviado.
 [28] Mar. 1.39.
 
 
-
+## S. Lucas 5
 
 _A pesca maravilhosa: os primeiros discipulos._
 
@@ -123052,7 +122845,7 @@ velho.
 [17] Mat. 9.16, 17. Mar. 2.21.
 
 
-
+## S. Lucas 6
 
 _Jesus é Senhor do sabbado._
 
@@ -123303,7 +123096,7 @@ caiu; e foi grande a queda d’aquella casa.
 [37] Mat. 7.24.
 
 
-
+## S. Lucas 7
 
 _O centurião de Capernaum._
 
@@ -123515,7 +123308,7 @@ este, que até perdoa peccados?
 [19] Mar. 5.34 e 10.52. cap. 8.48 e 18.42.
 
 
-
+## S. Lucas 8
 
 _As mulheres que serviam a Jesus com os seus bens._
 
@@ -123780,7 +123573,7 @@ ninguem dissessem o que havia succedido.
 [23] Mat. 8.4 e 9.30. Mar. 5.43.
 
 
-
+## S. Lucas 9
 
 _A missão dos doze._
 
@@ -124107,7 +123900,7 @@ apto para o reino de Deus.
 [38] I Reis 19.20.
 
 
-
+## S. Lucas 10
 
 _A missão dos setenta discipulos._
 
@@ -124320,7 +124113,7 @@ Apo. 13.8.
 [34] Psa. 27.4.
 
 
-
+## S. Lucas 11
 
 _A oração dominical._
 
@@ -124589,7 +124382,7 @@ para o accusarem.
 [32] Mar. 12.13.
 
 
-
+## S. Lucas 12
 
 12 Ajuntando-se [1] entretanto muitos milhares de pessoas, de sorte que
 se atropellavam uns aos outros, começou a dizer aos seus discipulos: [2]
@@ -124861,7 +124654,7 @@ e o juiz te entregue ao meirinho, e o meirinho te encerre na prisão.
 [30] Pro. 25.8. Mat. 5.25. Psa. 32.6. Isa. 50.6.
 
 
-
+## S. Lucas 13
 
 _A mortandade dos galileos e a queda da torre em Siloé._
 
@@ -125032,7 +124825,7 @@ aquelle que vem em nome do Senhor.
 118.26. Mat. 21.9. Mar. 11.10. cap. 19.38. João 12.13.
 
 
-
+## S. Lucas 14
 
 _Cura d’um hydropico._
 
@@ -125178,7 +124971,7 @@ I Ped. 5.5.
 [12] Mat. 5.13. Mar. 9.50.
 
 
-
+## S. Lucas 15
 
 _Parabolas, da ovelha e da drachma perdidas._
 
@@ -125302,7 +125095,7 @@ irmão era morto, e reviveu; e tinha-se perdido, e achou-se.
 [10] ver. 24.
 
 
-
+## S. Lucas 16
 
 _Parabola do mordomo infiel._
 
@@ -125441,7 +125234,7 @@ tão pouco acreditarão, ainda que algum dos mortos resuscite.
 [16] João 12.10, 11.
 
 
-
+## S. Lucas 17
 
 _Ácerca dos escandalos, do perdão, do poder da fé e dos servos inuteis._
 
@@ -125610,7 +125403,7 @@ Onde _estiver_ o corpo, ahi se ajuntarão as aguias.
 [25] Job 39.30. Mat. 24.28.
 
 
-
+## S. Lucas 18
 
 _A parabola do juiz iniquo._
 
@@ -125816,7 +125609,7 @@ _isto_, dava louvores a Deus.
 [27] cap. 5.26. Act. 4.21 e 11.18.
 
 
-
+## S. Lucas 19
 
 _Zaqueo o publicano._
 
@@ -126037,7 +125830,7 @@ escutando-o.
 [30] Mar. 11.18. João 7.19 e 8.37.
 
 
-
+## S. Lucas 20
 
 _O baptismo de João._
 
@@ -126242,7 +126035,7 @@ orações. Estes receberão maior condemnação.
 [18] Mat. 23.14.
 
 
-
+## S. Lucas 21
 
 _A pequena offerta da viuva pobre._
 
@@ -126445,7 +126238,7 @@ monte chamado das Oliveiras.
 [29] cap. 22.39.
 
 
-
+## S. Lucas 22
 
 22 Estava [1] pois perto a festa dos _pães_ asmos, chamada a paschoa.
 
@@ -126789,7 +126582,7 @@ mesmos o ouvimos da sua bocca.
 [49] Mat. 26.65. Mar. 14.63.
 
 
-
+## S. Lucas 23
 
 _Jesus perante Pilatos e perante Herodes._
 
@@ -127042,7 +126835,7 @@ sabbado repousaram, conforme o mandamento.
 [36] Exo. 20.10.
 
 
-
+## S. Lucas 24
 
 _A resurreição._
 
@@ -127304,11 +127097,9 @@ etc.
 [42] Act. 2.46 e 5.42.
 
 
-
+# S. João 1
 
 O SANCTO EVANGELHO SEGUNDO S. JOÃO.
-
-
 
 
 _O Verbo se fez carne._
@@ -127557,7 +127348,7 @@ Miq. 5.2. Zac. 6.12.
 [39] Gen. 28.12. Mat. 4.11. Luc. 2.9, 13 e 22.43 e 24.4. Act. 1.10.
 
 
-
+## S. João 2
 
 _As bodas em Caná: a agua feita vinho._
 
@@ -127673,7 +127464,7 @@ elle bem sabia o que havia no homem.
 Act. 1.24. Apo. 2.23.
 
 
-
+## S. João 3
 
 _Jesus instrue Nicodemos ácerca do novo nascimento._
 
@@ -127847,7 +127638,7 @@ Eph. 4.9, 10.
 [29] Hab. 2.4. cap. 1.12 e 6.47. Rom. 1.17. I João 5.10.
 
 
-
+## S. João 4
 
 _A mulher de Samaria._
 
@@ -128072,7 +127863,7 @@ disse: O teu filho vive: e creu elle, e toda a sua casa.
 [28] I Cor. 1.22.
 
 
-
+## S. João 5
 
 _Cura d’um paralytico de Bethesda._
 
@@ -128302,7 +128093,7 @@ Luc. 6.2 e 13.14.
 Act. 26.22.
 
 
-
+## S. João 6
 
 _A multiplicação dos pães_.
 
@@ -128626,7 +128417,7 @@ e 8.18. Act. 2.22. II Ped. 1.17.
 [47] Luc. 6.13. cap. 13.27.
 
 
-
+## S. João 7
 
 _A incredulidade dos irmãos de Jesus._
 
@@ -128882,7 +128673,7 @@ verás que da [48] Galilea nenhum propheta surgiu.
 [48] Isa. 9.1, 2. Mat. 4.15. cap. 1.46. ver. 41.
 
 
-
+## S. João 8
 
 _A mulher adultera._
 
@@ -129197,7 +128988,7 @@ retirou.
 [62] Luc. 4.30.
 
 
-
+## S. João 9
 
 _Cura d’um cego de nascença._
 
@@ -129370,7 +129161,7 @@ agora dizeis: Vemos; por isso o vosso peccado permanece.
 [26] cap. 15.22, 24.
 
 
-
+## S. João 10
 
 _Jesus, o bom pastor._
 
@@ -129576,7 +129367,7 @@ algum, [36] mas tudo quanto João disse d’este [37] era verdade.
 [37] cap. 8.30 e 11.45.
 
 
-
+## S. João 11
 
 _A resurreição de Lazaro._
 
@@ -129812,7 +129603,7 @@ que, se alguem soubesse onde elle estava, o denunciasse, para o prenderem.
 [32] cap. 7.11.
 
 
-
+## S. João 12
 
 _Maria unge com unguento os pés de Jesus._
 
@@ -130085,7 +129876,7 @@ fallo-o como o Pae m’o tem dito.
 [52] Deu. 18.18.
 
 
-
+## S. João 13
 
 _Jesus lava os pés aos discipulos._
 
@@ -130285,7 +130076,7 @@ vezes.
 [34] Mat. 26.33, 34, 35. Luc. 22.33, 34.
 
 
-
+## S. João 14
 
 14 Não [1] se turbe o vosso coração: crêdes em Deus, crêde tambem em mim.
 
@@ -130462,7 +130253,7 @@ Pae me mandou, levantae-vos, vamo-nos d’aqui.
 [40] Phi. 2.8. Heb. 5.8.
 
 
-
+## S. João 15
 
 _Continuação das ultimas instrucções aos discipulos. União intima entre
 Jesus e os crentes._
@@ -130617,7 +130408,7 @@ principio.
 [33] Luc. 1.2. I João 1.1, 2.
 
 
-
+## S. João 16
 
 _Continuação das ultimas instrucções aos discipulos—Jesus repete a
 promessa do Consolador e da sua propria volta_.
@@ -130806,7 +130597,7 @@ mundo.
 [39] Rom. 8.37.
 
 
-
+## S. João 17
 
 _Oração de Jesus pelos seus discipulos._
 
@@ -130979,7 +130770,7 @@ para que o amor com [44] que me tens amado n’elles esteja, e eu n’elles.
 [44] cap. 15.9.
 
 
-
+## S. João 18
 
 _Jesus preso em Gethsemane._
 
@@ -131177,7 +130968,7 @@ Quereis pois que vos solte o Rei dos Judeos?
 [27] Luc. 23.19.
 
 
-
+## S. João 19
 
 19 Pilatos [1] pois tomou então a Jesus, e o açoitou:
 
@@ -131393,7 +131184,7 @@ aquelle sepulchro), [36] pozeram a Jesus.
 [36] Isa. 53.9.
 
 
-
+## S. João 20
 
 _A resurreição._
 
@@ -131550,7 +131341,7 @@ nome.
 [22] cap. 3.15, 16 e 5.24. I Ped. 1.8, 9.
 
 
-
+## S. João 21
 
 _Jesus apparece a alguns dos discipulos junto do mar de Tiberiades._
 
@@ -131676,11 +131467,9 @@ todo poderia conter os livros que se escrevessem. Amen.
 [17] Amós 7.10.
 
 
-
+# Actos 1
 
 ACTOS DOS APOSTOLOS.
-
-
 
 
 _Introducção. A ascenção._
@@ -131865,7 +131654,7 @@ Apo. 2.23.
 [42] ver. 17.
 
 
-
+## Actos 2
 
 _A descida do Espirito Sancto._
 
@@ -132111,7 +131900,7 @@ I The. 1.10. Heb. 13.20. I Ped. 1.21.
 [42] cap. 5.14 e 11.24.
 
 
-
+## Actos 3
 
 _Cura d’um côxo; discurso de Pedro no templo._
 
@@ -132262,7 +132051,7 @@ vossas maldades.
 [31] Mat. 1.21.
 
 
-
+## Actos 4
 
 _Pedro e João perante o synhedrio._
 
@@ -132471,7 +132260,7 @@ aos pés dos apostolos.
 [40] ver. 34, 35. cap. 5.1, 2.
 
 
-
+## Actos 5
 
 5 E um _certo_ varão chamado Ananias, com Saphira, sua mulher, vendeu uma
 propriedade;
@@ -132696,7 +132485,7 @@ I Ped. 4.13, 16.
 [40] cap. 4.20, 29.
 
 
-
+## Actos 6
 
 _A instituição dos diaconos._
 
@@ -132782,7 +132571,7 @@ n’elle, viram o seu rosto como o rosto de um anjo.
 [15] I Reis 21.10, 13. Mat. 26.59, 60.
 
 
-
+## Actos 7
 
 7 E disse o summo sacerdote: Porventura é isto assim?
 
@@ -133138,7 +132927,7 @@ lhes imputes este peccado. E, tendo dito isto, [79] adormeceu.
 [79] cap. 7.58 e 22.20.
 
 
-
+## Actos 8
 
 _O evangelho em Samaria._
 
@@ -133326,7 +133115,7 @@ evangelho _em_ todas as cidades, até que chegou a Cesarea.
 [27] I Reis 18.12. II Reis 2.16. Eze. 3.12, 14.
 
 
-
+## Actos 9
 
 _A conversão de Saulo no caminho de Damasco._
 
@@ -133567,7 +133356,7 @@ curtidor.
 [42] cap. 10.6.
 
 
-
+## Actos 10
 
 _O centurião Cornelio._
 
@@ -133818,7 +133607,7 @@ Tito 1.15.
 [44] cap. 2.38.
 
 
-
+## Actos 11
 
 _Pedro justifica-se perante a egreja de haver baptizado Cornelio._
 
@@ -133972,7 +133761,7 @@ de Barnabé e de Saulo.
 [27] cap. 12.25.
 
 
-
+## Actos 12
 
 _Herodes manda matar Thiago—Pedro é livre da prisão—A morte de Herodes._
 
@@ -134103,7 +133892,7 @@ Ped. 2.9.
 [20] ver. 12.
 
 
-
+## Actos 13
 
 _Barnabé e Saulo são enviados pela egreja de Antiochia, e pregam em
 Chypre: Elymas o encantador._
@@ -134421,7 +134210,7 @@ Iconio.
 [69] Mat. 5.12. João 16.22. cap. 2.46.
 
 
-
+## Actos 14
 
 _O evangelho é prégado em Iconio, Lystra, e Derbe; successo e
 perseguição; a volta a Antiochia._
@@ -134578,7 +134367,7 @@ fé.
 [28] I Cor. 16.9. II Cor. 2.12. Col. 4.3. Apo. 3.8.
 
 
-
+## Actos 15
 
 _A questão ácerca do rito mosaico; a assembléa de Jerusalem, e sua
 decisão._
@@ -134802,7 +134591,7 @@ irmãos á graça de Deus.
 [38] cap. 16.5.
 
 
-
+## Actos 16
 
 16 E chegou a [1] Derbe e Lystra. E eis que estava ali _um_ certo
 discipulo por nome [2] Timotheo, [3] filho de uma mulher judia fiel, mas
@@ -135002,7 +134791,7 @@ irmãos, os confortaram, e _depois_ partiram.
 [29] ver. 14.
 
 
-
+## Actos 17
 
 _Paulo em Thessalonica e em Berea._
 
@@ -135183,7 +134972,7 @@ Zac. 12.1.
 [27] cap. 2.24.
 
 
-
+## Actos 18
 
 _Paulo em Corintho; em Epheso; volta para Jerusalem._
 
@@ -135333,7 +135122,7 @@ mostrando pelas Escripturas [24] que Jesus era o Christo.
 [24] cap. 9.22 e 17.3. ver. 5.
 
 
-
+## Actos 19
 
 _Terceira viagem missionaria de Paulo. Prega o evangelho em Epheso.
 Tumulto excitado por Demetrio._
@@ -135543,7 +135332,7 @@ não havendo causa alguma com que possamos justificar este concurso.
 [30] I Tim. 1.20. II Tim. 4.14. cap. 12.17.
 
 
-
+## Actos 20
 
 _Paulo visita outra vez a Macedonia e a Grecia, e depois volta para a
 Asia._
@@ -135731,7 +135520,7 @@ Tim. 4.12, 20. Tito 3.12.
 [29] ver. 25.
 
 
-
+## Actos 21
 
 _Paulo chega a Jerusalem, e é preso no templo._
 
@@ -135925,7 +135714,7 @@ lingua hebraica, dizendo:
 [26] cap. 12.17.
 
 
-
+## Actos 22
 
 _Discurso de Paulo em sua defeza._
 
@@ -136066,7 +135855,7 @@ Gal. 1.15, 16 e 2.7, 8. Eph. 3.7, 8. I Tim. 2.7. II Tim. 1.11.
 [17] cap. 16.37.
 
 
-
+## Actos 23
 
 23 E, pondo Paulo os olhos no conselho, disse: [1] Varões irmãos, até ao
 dia de hoje tenho andado diante de Deus com toda a boa consciencia.
@@ -136224,7 +136013,7 @@ accusadores. E mandou que o guardassem [18] no pretorio de Herodes.
 [18] Mat. 27.27.
 
 
-
+## Actos 24
 
 _Paulo perante o tribunal do governador Felix._
 
@@ -136354,7 +136143,7 @@ e, querendo Felix comprazer [19] aos judeos, deixou a Paulo preso.
 [19] Exo. 23.2. cap. 12.3 e 25.9, 4.
 
 
-
+## Actos 25
 
 _Paulo comparece perante Festo e appella para Cesar._
 
@@ -136488,7 +136277,7 @@ contra elle as accusações.
 [16] cap. 23.9, 29 e 26.31. ver. 11, 12.
 
 
-
+## Actos 26
 
 26 Depois Agrippa disse a Paulo: Permitte-se-te fallar por ti mesmo.
 Então Paulo, estendendo a mão em sua defeza, respondeu:
@@ -136635,7 +136424,7 @@ Ped. 2.9, 25. Col. 1.12.
 [19] cap. 25.11.
 
 
-
+## Actos 27
 
 _Paulo é mandado para Italia; o naufragio do navio._
 
@@ -136807,7 +136596,7 @@ aconteceu [13] que todos se salvaram em terra.
 [13] ver. 22.
 
 
-
+## Actos 28
 
 _Paulo em Melita._
 
@@ -136956,11 +136745,9 @@ _coisas_ pertencentes ao Senhor Jesus Christo, sem impedimento algum.
 [16] cap. 4.31. Eph. 6.19.
 
 
-
+# Romanos 1
 
 EPISTOLA DE S. PAULO AOS ROMANOS.
-
-
 
 
 _Prefacio e saudação._
@@ -137135,7 +136922,7 @@ I Ped. 4.3.
 [26] cap. 2.2 e 6.21. Psa. 50.18. Ose. 7.3.
 
 
-
+## Romanos 2
 
 _A impenitencia dos judeos; a justiça de Deus._
 
@@ -137283,7 +137070,7 @@ Tim. 1.11. II Tim. 4.1, 8 e 2.8. I Ped. 4.5.
 [24] I Ped. 3.4. Phi. 3.3. Col. 2.11. II Cor. 3.6. I The. 2.4.
 
 
-
+## Romanos 3
 
 _O privilegio dos judeos; a justiça de Deus._
 
@@ -137425,7 +137212,7 @@ Heb. 9.15.
 [20] cap. 10.12, 13. Gal. 3.8, 20, 28.
 
 
-
+## Romanos 4
 
 _Abrahão foi justificado pela fé._
 
@@ -137546,7 +137333,7 @@ Gal. 3.10, 19. I João 3.4.
 2.24 e 1.21. I Cor. 15.17.
 
 
-
+## Romanos 5
 
 _Justificação pela fé e paz com Deus._
 
@@ -137657,7 +137444,7 @@ Ped. 3.14.
 [16] João 15.22. cap. 3.20 e 4.15. Gal. 3.19, 23. Luc. 7.47. I Tim. 1.14.
 
 
-
+## Romanos 6
 
 _A graça não nos deixa permanecer no peccado, antes nos livra do poder do
 peccado._
@@ -137781,7 +137568,7 @@ Gal. 6.15. Eph. 4.22.
 [22] Gen. 2.17. cap. 5.12 e 2.7 e 5.17, 21. Thi. 1.15. I Ped. 1.4.
 
 
-
+## Romanos 7
 
 _Estando mortos á lei, sirvamos a Deus em novidade de espirito. A lei
 opera em nós a morte. Lucta da carne com o espirito._
@@ -137899,7 +137686,7 @@ peccado.
 [17] I Cor. 15.57.
 
 
-
+## Romanos 8
 
 _A nova vida debaixo da graça, segundo o espirito de sanctidade e
 adopção._
@@ -138109,7 +137896,7 @@ I Cor. 6.11. João 17.22.
 [33] Eph. 1.21 e 6.12. Col. 1.16 e 2.15. I Ped. 3.22.
 
 
-
+## Romanos 9
 
 _Tristeza de Paulo por causa da incredulidade de Israel._
 
@@ -138281,7 +138068,7 @@ I João 5.20.
 [31] cap. 10.11.
 
 
-
+## Romanos 10
 
 _Os judeos rejeitam a justiça de Deus._
 
@@ -138387,7 +138174,7 @@ povo rebelde e contradizente.
 [17] Isa. 65.2.
 
 
-
+## Romanos 11
 
 _O futuro de Israel._
 
@@ -138572,7 +138359,7 @@ Tim. 2.7. II Tim. 1.11.
 5.11. Apo. 1.6.
 
 
-
+## Romanos 12
 
 _Consagração a Deus; humildade e fidelidade no uso de seus dons._
 
@@ -138684,7 +138471,7 @@ Col. 4.2.
 Mat. 5.44.
 
 
-
+## Romanos 13
 
 _Submissão á auctoridade._
 
@@ -138765,7 +138552,7 @@ carne em _suas_ concupiscencias.
 [12] Gal. 3.27. Eph. 4.24. Col. 3.10. Gal. 5.16. I Ped. 2.11.
 
 
-
+## Romanos 14
 
 _Tolerancia para com os fracos na fé._
 
@@ -138892,7 +138679,7 @@ fé; e tudo [23] que não _é_ de fé é peccado.
 [23] Tito 1.15.
 
 
-
+## Romanos 15
 
 _Christo dá-nos o exemplo da abnegação._
 
@@ -139071,7 +138858,7 @@ Tim. 1.16. Phi. 1.20.
 Heb. 13.20.
 
 
-
+## Romanos 16
 
 _Recommendações, saudações e votos._
 
@@ -139193,11 +138980,9 @@ sempre. Amen.
 [18] I Tim. 1.17 e 6.16. Jud. 25.
 
 
-
+# I Corinthios 1
 
 PRIMEIRA EPISTOLA DE S. PAULO APOSTOLO AOS CORINTHIOS.
-
-
 
 
 _Prefacio, saudação e acção de graças._
@@ -139358,7 +139143,7 @@ Senhor.
 [28] Jer. 9.23, 24. II Cor. 10.17.
 
 
-
+## I Corinthios 2
 
 _O caracter da prégação de Paulo em Corintho._
 
@@ -139448,7 +139233,7 @@ Thi. 3.15.
 [16] Job 15.8. Isa. 40.13. Jer. 23.18. Rom. 11.34. João 15.15.
 
 
-
+## I Corinthios 3
 
 _O espirito mundano causa dissensões nas egrejas._
 
@@ -139565,7 +139350,7 @@ Cor. 3.5.
 [20] Rom. 14.8. cap. 11.3. II Cor. 10.7. Gal. 3.29.
 
 
-
+## I Corinthios 4
 
 _Os ministros e dispenseiros dos mysterios de Deus._
 
@@ -139681,7 +139466,7 @@ Luc. 6.28. Rom. 12.14. I Ped. 2.23.
 [20] II Cor. 10.2.
 
 
-
+## I Corinthios 5
 
 _A impureza da egreja de Corintho; reprehensões e exhortações._
 
@@ -139757,7 +139542,7 @@ iniquo.
 [13] Deu. 13.5 e 17.7 e 21.21 e 22.21.
 
 
-
+## I Corinthios 6
 
 _Paulo censura o litigio entre os irmãos._
 
@@ -139862,7 +139647,7 @@ vosso corpo, e no vosso espirito, os quaes pertencem a Deus.
 [16] Act. 20.28. Gal. 3.13. Heb. 9.12. I Ped. 1.18. II Ped. 2.1. Apo. 5.9.
 
 
-
+## I Corinthios 7
 
 _Resposta ás perguntas ácerca do casamento._
 
@@ -140050,7 +139835,7 @@ parecer, e tambem eu cuido que tenho o Espirito de Deus.
 [27] ver. 25. I The. 4.8.
 
 
-
+## I Corinthios 8
 
 _Resposta ás perguntas ácerca das carnes sacrificadas aos idolos._
 
@@ -140124,7 +139909,7 @@ comerei carne, para que meu irmão se não escandalize.
 [13] Rom. 14.21. II Cor. 11.29.
 
 
-
+## I Corinthios 9
 
 _A liberdade e os direitos dos apostolos._
 
@@ -140266,7 +140051,7 @@ reprovado.
 [23] Rom. 8.13 e 6.18. Col. 3.5. Jer. 6.30. II Cor. 13.5.
 
 
-
+## I Corinthios 10
 
 _Não devemos tentar a Christo, como alguns dos israelitas o tentaram._
 
@@ -140441,7 +140226,7 @@ proveito, mas o de muitos, para que assim se possam salvar.
 [32] Rom. 15.2. cap. 9.19, 22. ver. 24.
 
 
-
+## I Corinthios 11
 
 11 Sede meus imitadores, [1] como tambem eu de Christo.
 
@@ -140603,7 +140388,7 @@ Phi. 2.7.
 [24] ver. 21, 22. Tito 1.5. cap. 4.19.
 
 
-
+## I Corinthios 12
 
 _Ácerca da diversidade de dons espirituaes._
 
@@ -140743,7 +140528,7 @@ um caminho ainda mais excellente.
 [19] cap. 14.1, 39.
 
 
-
+## I Corinthios 13
 
 _A suprema excellencia da caridade._
 
@@ -140808,7 +140593,7 @@ porém a maior d’estas _é_ a caridade.
 [9] II Cor. 3.18 e 5.7. Phi. 3.12. Mat. 18.10. I João 3.2.
 
 
-
+## I Corinthios 14
 
 _O dom da prophecia é superior ao das linguas._
 
@@ -140978,7 +140763,7 @@ prohibaes fallar linguas.
 [18] ver. 33.
 
 
-
+## I Corinthios 15
 
 _A resurreição._
 
@@ -141247,7 +141032,7 @@ no Senhor.
 [44] cap. 3.8.
 
 
-
+## I Corinthios 16
 
 _As collectas para os crentes de Jerusalem._
 
@@ -141372,11 +141157,9 @@ sancto.
 [24] Rom. 16.20.
 
 
-
+# II Corinthios 1
 
 SEGUNDA EPISTOLA DE S. PAULO APOSTOLO AOS CORINTHIOS.
-
-
 
 
 _Prefacio e saudação._
@@ -141516,7 +141299,7 @@ cooperadores de vosso gozo; porque pela fé estaes _em pé_.
 [22] I Ped. 5.3. Rom. 11.20.
 
 
-
+## II Corinthios 2
 
 2 Porém, deliberei isto comigo mesmo: não ir mais ter comvosco em [1]
 tristeza.
@@ -141604,7 +141387,7 @@ de Deus.
 [14] II Ped. 2.3. cap. 1.12.
 
 
-
+## II Corinthios 3
 
 3 Porventura começamos outra [1] vez a louvar-nos a nós mesmos? Ou
 necessitamos, como alguns, de cartas de recommendação para vós, ou de
@@ -141695,7 +141478,7 @@ imagem, como pelo Espirito do Senhor.
 [15] I Cor. 13.12. I Tim. 1.11.
 
 
-
+## II Corinthios 4
 
 _Jesus Christo é o unico assumpto do ministerio de Paulo._
 
@@ -141800,7 +141583,7 @@ eternas.
 [18] Rom. 8.24. Heb. 11.1.
 
 
-
+## II Corinthios 5
 
 5 Porque sabemos que, se a nossa casa terrestre [1] d’_este_ tabernaculo
 se desfizer, temos de Deus _um_ edificio, uma casa não feita por mãos,
@@ -141911,7 +141694,7 @@ que n’elle fossemos feitos justiça de Deus.
 [19] Isa. 53.6, 9, 12. Gal. 3.13. I Ped. 2.22, 24.
 
 
-
+## II Corinthios 6
 
 _A abnegação de Paulo em seu ministerio._
 
@@ -142006,7 +141789,7 @@ diz o Senhor todo poderoso.
 [15] Jer. 31.1, 9. Apo. 21.7.
 
 
-
+## II Corinthios 7
 
 7 Ora, amados, pois que temos taes promessas, [1] purifiquemo-nos de toda
 a immundicia da carne e do espirito, aperfeiçoando a sanctificação no
@@ -142096,7 +141879,7 @@ com temor e tremor.
 [12] II The. 3.4. Phi. 3.21.
 
 
-
+## II Corinthios 8
 
 _A collecta para os christãos pobres da Judea._
 
@@ -142210,7 +141993,7 @@ da vossa caridade, e da nossa [15] gloria ácerca de vós.
 [15] cap. 7.14 e 9.2.
 
 
-
+## II Corinthios 9
 
 9 Quanto á administração [1] que _se faz_ a favor dos sanctos, não
 necessito escrever-vos;
@@ -142292,7 +142075,7 @@ excellente graça de Deus [13] em vós.
 [14] Thi. 1.17.
 
 
-
+## II Corinthios 10
 
 _Paulo defende a sua auctoridade apostolica._
 
@@ -142383,7 +142166,7 @@ a quem o Senhor louva.
 [13] Pro. 27.2. I Cor. 4.5.
 
 
-
+## II Corinthios 11
 
 _Os falsos apostolos._
 
@@ -142558,7 +142341,7 @@ das suas mãos.
 [31] Act. 9.24, 25.
 
 
-
+## II Corinthios 12
 
 _A visão celestial: o espinho na carne._
 
@@ -142687,7 +142470,7 @@ commetteram.
 [21] cap. 2.1, 4. I Cor. 5.1.
 
 
-
+## II Corinthios 13
 
 13 É esta a terceira [1] _vez que_ vou ter comvosco. Na bocca de duas ou
 tres testemunhas será confirmada toda a palavra.
@@ -142753,11 +142536,9 @@ Espirito Sancto _seja_ com vós todos. Amen.
 [10] Rom. 16.16.
 
 
-
+# Galatas 1
 
 EPISTOLA DE S. PAULO APOSTOLO AOS GALATAS.
-
-
 
 
 _Prefacio e saudação._
@@ -142877,7 +142658,7 @@ annuncia agora a fé que d’antes destruia.
 [20] I The. 2.14.
 
 
-
+## Galatas 2
 
 2 Depois, passados quatorze annos, [1] subi outra vez a Jerusalem com
 Barnabé, levando tambem comigo Tito.
@@ -142995,7 +142776,7 @@ lei, segue-se que Christo morreu debalde.
 [20] cap. 3.21. Heb. 7.11. Rom. 11.6.
 
 
-
+## Galatas 3
 
 _A lei é impotente para salvar, mas conduz a Christo e á fé._
 
@@ -143143,7 +142924,7 @@ herdeiros conforme a promessa.
 [26] Gen. 21.10, 12. Rom. 9.7.
 
 
-
+## Galatas 4
 
 _O evangelho nos isenta da lei._
 
@@ -143289,7 +143070,7 @@ livre.
 [24] João 8.36.
 
 
-
+## Galatas 5
 
 _Exhortação a conservar a liberdade christã._
 
@@ -143419,7 +143200,7 @@ outros, invejando-nos uns aos outros.
 [24] Phi. 2.3.
 
 
-
+## Galatas 6
 
 _As ultimas exhortações e saudações._
 
@@ -143512,11 +143293,9 @@ espirito. Amen.
 [17] II Tim. 4.22. Phi. 25.
 
 
-
+# Ephesios 1
 
 EPISTOLA DE S. PAULO APOSTOLO AOS EPHESIOS.
-
-
 
 
 _Prefacio e saudação._
@@ -143649,7 +143428,7 @@ todos.
 [24] Rom. 12.5. I Cor. 12.12, 27.
 
 
-
+## Ephesios 2
 
 _A salvação é pela graça._
 
@@ -143769,7 +143548,7 @@ em Espirito.
 [22] I Ped. 2.5.
 
 
-
+## Ephesios 3
 
 _O ministerio da vocação dos gentios, e o apostolado de Paulo._
 
@@ -143881,7 +143660,7 @@ para todo o sempre. Amen.
 [20] Rom. 11.36. Heb. 13.21.
 
 
-
+## Ephesios 4
 
 _A unidade da fé._
 
@@ -144045,7 +143824,7 @@ perdoando-vos uns aos outros, como tambem Deus vos perdoou em Christo.
 [31] II Cor. 2.10. Col. 3.12, 13.
 
 
-
+## Ephesios 5
 
 5 Sêde pois imitadores [1] de Deus, como filhos amados;
 
@@ -144199,7 +143978,7 @@ como a si mesmo, e a mulher reverenceie o marido.
 [28] ver. 25. Col. 3.19. I Ped. 3.6.
 
 
-
+## Ephesios 6
 
 6 Vós, filhos, sêde obedientes a [1] vossos paes no Senhor, porque isto é
 justo.
@@ -144322,11 +144101,9 @@ sinceridade. Amen.
 [21] I Ped. 5.14.
 
 
-
+# Philippenses 1
 
 EPISTOLA DE S. PAULO APOSTOLO AOS PHILIPPENSES.
-
-
 
 
 _Prefacio e saudação._
@@ -144481,7 +144258,7 @@ mim.
 [23] Col. 2.1. Act. 16.19, etc. I The. 2.2.
 
 
-
+## Philippenses 2
 
 2 Portanto, se _ha_ algum conforto em Christo, se alguma consolação de
 amor, se [1] alguma communicação de Espirito, se alguns entranhaveis
@@ -144633,7 +144410,7 @@ serviço.
 [26] I Cor. 16.17. cap. 4.10.
 
 
-
+## Philippenses 3
 
 _Exhortação a guardar-se cada um dos obreiros maus e a cultivar todos os
 fructos do Espirito._
@@ -144752,7 +144529,7 @@ todas _as coisas_.
 [23] I Cor. 15.43, 48, 49. I João 3.2. Eph. 1.19.
 
 
-
+## Philippenses 4
 
 4 Portanto, meus amados e mui queridos [1] irmãos, minha alegria e corôa,
 estae assim firmes no Senhor, amados.
@@ -144873,11 +144650,9 @@ comigo vos saudam.
 [23] Rom. 16.24.
 
 
-
+# Colossenses 1
 
 EPISTOLA DE S. PAULO APOSTOLO AOS COLOSSENSES.
-
-
 
 
 _Prefacio e saudação._
@@ -145049,7 +144824,7 @@ obra em mim poderosamente.
 [30] I Cor. 15.10. Eph. 1.19 e 3.7, 20.
 
 
-
+## Colossenses 2
 
 2 Porque quero que saibaes quão grande [1] combate tenho por vós, e pelos
 que _estão_ em Laodicea, e por quantos não viram o meu rosto em carne;
@@ -145175,7 +144950,7 @@ valor algum [AJO] para satisfação da carne.
 [23] I Tim. 4.8. ver. 18.
 
 
-
+## Colossenses 3
 
 _Exhortação á sanctidade e ao amor fraternal._
 
@@ -145313,7 +145088,7 @@ ha accepção de pessoas.
 [25] Rom. 2.11. Eph. 6.9. I Ped. 1.17.
 
 
-
+## Colossenses 4
 
 4 Vós, [1] senhores, fazei o que fôr de justiça e equidade a _vossos_
 servos, sabendo que tambem tendes um Senhor nos céus.
@@ -145408,11 +145183,9 @@ A graça _seja_ comvosco. Amen.
 [16] I Cor. 16.21. II The. 3.17. Heb. 13.3, 25.
 
 
-
+# I Thessalonicenses 1
 
 PRIMEIRA EPISTOLA DE S. PAULO APOSTOLO AOS THESSALONICENSES.
-
-
 
 
 _Prefacio e saudação._
@@ -145479,7 +145252,7 @@ mortos, _a saber_, Jesus, que nos livra da ira futura.
 [11] Rom. 2.7. Tito 2.13. II Ped. 3.12. Act. 2.24.
 
 
-
+## I Thessalonicenses 2
 
 _Como Paulo exerceu o seu ministerio entre os thessalonicenses._
 
@@ -145594,7 +145367,7 @@ em sua vinda?
 [18] II Cor. 1.14. Phi. 2.16 e 4.1.
 
 
-
+## I Thessalonicenses 3
 
 3 Pelo que, [1] não podendo esperar mais, de boamente quizemos deixar-nos
 ficar sós em Athenas;
@@ -145667,7 +145440,7 @@ nosso Senhor Jesus Christo com todos os seus sanctos.
 [14] I Cor. 1.8. II The. 2.17. I João 3.20, 21.
 
 
-
+## I Thessalonicenses 4
 
 _Exhortação á sanctidade, ao amor fraternal e ao trabalho._
 
@@ -145772,7 +145545,7 @@ sempre com o Senhor.
 [18] cap. 5.11.
 
 
-
+## I Thessalonicenses 5
 
 5 Porém, irmãos, [1] ácerca dos tempos e das estações, não necessitaes de
 que se vos escreva;
@@ -145916,11 +145689,9 @@ Col. 3.12. II Tim. 4.2.
 [29] Rom. 16.20, 24. II The. 3.18.
 
 
-
+# II Thessalonicenses 1
 
 SEGUNDA EPISTOLA DE S. PAULO APOSTOLO AOS THESSALONICENSES.
-
-
 
 
 _Prefacio e saudação._
@@ -145997,7 +145768,7 @@ Rom. 2.8.
 [12] I Ped. 1.7 e 4.14.
 
 
-
+## II Thessalonicenses 2
 
 _A vinda de Christo será precedida de manifestações do Antichristo._
 
@@ -146089,7 +145860,7 @@ e obra.
 [15] I Cor. 1.8. I The. 3.13.
 
 
-
+## II Thessalonicenses 3
 
 _Exhortações diversas, e saudações._
 
@@ -146181,11 +145952,9 @@ todas as epistolas: assim escrevo.
 [18] Rom. 16.24.
 
 
-
+# I Timotheo 1
 
 PRIMEIRA EPISTOLA DE S. PAULO APOSTOLO A TIMOTHEO.
-
-
 
 
 _Prefacio e saudação._
@@ -146300,7 +146069,7 @@ Satanaz, para que aprendam a não blasphemar.
 [20] II Tim. 4.14. I Cor. 5.5. Act. 13.45.
 
 
-
+## I Timotheo 2
 
 _Devemos fazer orações por todos os homens._
 
@@ -146375,7 +146144,7 @@ fé, [AJY] na caridade e na sanctificação.
 [12] Gen. 3.6. II Cor. 11.3.
 
 
-
+## I Timotheo 3
 
 _Os deveres dos bispos e dos diaconos._
 
@@ -146452,7 +146221,7 @@ prégado aos gentios, crido no mundo, _e recebido_ acima na gloria.
 Ped. 3.18, 22.
 
 
-
+## I Timotheo 4
 
 _A apostasia nos ultimos tempos._
 
@@ -146534,7 +146303,7 @@ porque, fazendo isto, te salvarás, tanto a ti mesmo como aos que te ouvem.
 [13] Act. 20.28. Eze. 33.9. Rom. 11.14.
 
 
-
+## I Timotheo 5
 
 _Acerca dos velhos e viuvas._
 
@@ -146656,7 +146425,7 @@ d’outra maneira não podem occultar-se.
 [20] Gal. 5.19.
 
 
-
+## I Timotheo 6
 
 _Os deveres dos servos._
 
@@ -146778,11 +146547,9 @@ comtigo. Amen.
 [21] II Tim. 2.18. Ecc. 5.15.
 
 
-
+# II Timotheo 1
 
 SEGUNDA EPISTOLA DE S. PAULO APOSTOLO A TIMOTHEO.
-
-
 
 
 _Prefacio e saudação._
@@ -146886,7 +146653,7 @@ do Senhor. E, quanto _me_ ajudou em Epheso, melhor o sabes tu.
 [17] Mat. 26.34, 40. II The. 1.10.
 
 
-
+## II Timotheo 2
 
 2 Tu, [1] pois, meu filho, fortifica-te na graça que ha em Christo Jesus.
 
@@ -147020,7 +146787,7 @@ em que á vontade d’elle estão presos.
 [24] I Tim. 3.7.
 
 
-
+## II Timotheo 3
 
 _Extrema corrupção nos ultimos tempos._
 
@@ -147116,7 +146883,7 @@ instruido para toda a boa obra.
 [17] I Tim. 6.11. cap. 2.21.
 
 
-
+## II Timotheo 4
 
 4 Conjuro-_te_ [1] pois diante de Deus, e do Senhor Jesus Christo, que ha
 de julgar os vivos e os mortos, na sua vinda e _no_ seu reino,
@@ -147223,11 +146990,9 @@ comvosco. Amen.
 [19] Gal. 6.18. Phi. 25.
 
 
-
+# Tito 1
 
 EPISTOLA DE S. PAULO APOSTOLO A TITO.
-
-
 
 
 _Prefacio e saudação._
@@ -147321,7 +147086,7 @@ abominaveis, e desobedientes, e reprovados para toda a boa obra.
 [15] II Tim. 3.5, 8. Jud. 4. Rom. 1.23.
 
 
-
+## Tito 2
 
 _Exhortações aos velhos, ás mulheres, aos mancebos e aos servos. Tito
 deve ser, elle mesmo, um exemplo em tudo._
@@ -147404,7 +147169,7 @@ Ninguem te despreze.
 [14] II Tim. 4.2. I Tim. 4.12.
 
 
-
+## Tito 3
 
 3 Admoesta-os a que se sujeitem aos principados [1] e potestades, que
 _lhes_ obedeçam, _e_ estejam preparados para toda a boa obra;
@@ -147485,11 +147250,9 @@ graça _seja_ com vós todos. Amen.
 [14] ver. 8. Rom. 15.28. Phi. 1.11. II Ped. 1.8.
 
 
-
+# Philemon 1
 
 EPISTOLA DE S. PAULO APOSTOLO A PHILEMON.
-
-
 
 
 _Prefacio. Saudação e acção de graças._
@@ -147617,11 +147380,9 @@ espirito. Amen.
 [21] II Tim. 4.22.
 
 
-
+# Hebreos 1
 
 EPISTOLA DE S. PAULO APOSTOLO AOS HEBREOS.
-
-
 
 
 _Christo, como o Filho de Deus, é superior aos anjos._
@@ -147702,7 +147463,7 @@ enviados para servir a favor d’aquelles que hão de herdar a salvação?
 [14] Rom. 8.17. Tito 3.7. Thi. 2.5.
 
 
-
+## Hebreos 2
 
 _Christo, como o Filho do homem, é superior aos anjos, e é o summo
 sacerdote idoneo e compassivo._
@@ -147797,7 +147558,7 @@ soccorrer aos que são tentados.
 [14] Phi. 2.7. cap. 4.15 e 5.1, 2.
 
 
-
+## Hebreos 3
 
 _Christo é superior a Moysés; o perigo da incredulidade e da
 desobediencia._
@@ -147884,7 +147645,7 @@ foram desobedientes?
 [13] cap. 4.8.
 
 
-
+## Hebreos 4
 
 4 Temamos pois [1] que, porventura, deixada a promessa de entrar no seu
 repouso, pareça que algum de vós fique atraz.
@@ -147965,7 +147726,7 @@ tempo opportuno.
 [11] Eph. 2.18 e 3.12.
 
 
-
+## Hebreos 5
 
 5 Porque todo o summo sacerdote, tomado d’entre os homens, [1] é
 constituido a favor dos homens nas coisas concernentes a Deus, para que
@@ -148043,7 +147804,7 @@ como o mal.
 [14] Isa. 7.15. I Cor. 2.14, 15.
 
 
-
+## Hebreos 6
 
 6 Pelo que, deixando [1] os rudimentos da doutrina de Christo, prosigamos
 até á perfeição, não lançando de novo o fundamento do arrependimento das
@@ -148142,7 +147903,7 @@ summo sacerdote, segundo a ordem de Melchisedec.
 [17] cap. 3.1 e 4.14.
 
 
-
+## Hebreos 7
 
 _O sacerdocio de Melchisedec era figura do sacerdocio eterno de Christo._
 
@@ -148269,7 +148030,7 @@ para sempre foi aperfeiçoado.
 [16] cap. 2.10 e 5.9.
 
 
-
+## Hebreos 8
 
 _O antigo pacto era um symbolo transitorio: Christo é mediador d’um pacto
 melhor e eterno._
@@ -148345,7 +148106,7 @@ velho, e se envelhece, perto está de se esvaecer.
 [11] II Cor. 5.17.
 
 
-
+## Hebreos 9
 
 _Os sacrificios do sanctuario, por causa de suas imperfeições deviam
 repetir-se, mas o de Christo é unico, porque é perfeito._
@@ -148503,7 +148264,7 @@ esperam para salvação.
 [28] Rom. 6.10. I Ped. 2.24. I João 3.5.
 
 
-
+## Hebreos 10
 
 10 Porque, [1] tendo a lei a sombra dos bens futuros, e não a imagem
 exacta das coisas, nunca, pelos mesmos sacrificios que continuamente se
@@ -148690,7 +148451,7 @@ mas d’aquelles que crêem para a [ALO] conservação da alma.
 [30] II Ped. 2.20, 21. Act. 16.30, 31.
 
 
-
+## Hebreos 11
 
 _A natureza da fé, e exemplos da fé tirados do Velho Testamento._
 
@@ -148903,7 +148664,7 @@ sem nós não fossem aperfeiçoados.
 [38] cap. 12.23. Apo. 6.11.
 
 
-
+## Hebreos 12
 
 _Perseverança no meio das provações, segundo o exemplo de Christo._
 
@@ -149065,7 +148826,7 @@ sirvamos a Deus agradavelmente com reverencia e piedade;
 [28] Exo. 24.17. Isa. 66.15.
 
 
-
+## Hebreos 13
 
 13 Permaneça [AMA] [1] a caridade fraternal.
 
@@ -149195,11 +148956,9 @@ Italia vos saudam.
 [25] Tito 3.15.
 
 
-
+# S. Thiago 1
 
 EPISTOLA UNIVERSAL DO APOSTOLO S. THIAGO.
-
-
 
 
 _Prefacio e saudação._
@@ -149330,7 +149089,7 @@ mundo.
 [18] Isa. 1.16, 17 e 58.6, 7. Mat. 25.36.
 
 
-
+## S. Thiago 2
 
 _Condemna-se o fazer accepção de pessoas._
 
@@ -149456,7 +149215,7 @@ fé sem as obras está morta.
 [18] Jos. 2.1. Heb. 11.31.
 
 
-
+## S. Thiago 3
 
 _Sobre o tropeço na palavra._
 
@@ -149550,7 +149309,7 @@ paz.
 [13] Pro. 11.18. Ose. 10.12. Mat. 5.9.
 
 
-
+## S. Thiago 4
 
 _Devemos resistir ás paixões._
 
@@ -149642,7 +149401,7 @@ como esta é maligna.
 [16] Luc. 12.47. João 9.41. Rom. 1.20, 21, 32.
 
 
-
+## S. Thiago 5
 
 _Condemnação dos ricos oppressores._
 
@@ -149757,11 +149516,9 @@ peccados.
 [20] Rom. 11.14. I Cor. 9.22.
 
 
-
+# I S. Pedro 1
 
 PRIMEIRA EPISTOLA UNIVERSAL DO APOSTOLO S. PEDRO.
-
-
 
 
 _Prefacio e saudação._
@@ -149910,7 +149667,7 @@ que entre vós foi evangelizada.
 [25] Isa. 40.8. Luc. 16.17. João 1.1, 14.
 
 
-
+## I S. Pedro 2
 
 2 Deixando pois toda [1] a malicia, e todo o engano, e fingimentos, e
 invejas, e todas as murmurações,
@@ -150048,7 +149805,7 @@ convertidos ao Pastor e [AML] Bispo das vossas almas.
 [25] Isa. 53.6. Eze. 34.6, 23.
 
 
-
+## I S. Pedro 3
 
 _Os deveres das mulheres e maridos christãos._
 
@@ -150172,7 +149929,7 @@ sujeitado os anjos, e as auctoridades, e as potencias.
 Cor. 15.24.
 
 
-
+## I S. Pedro 4
 
 4 Ora pois, _já_ que Christo padeceu por nós [1] na carne, armae-vos
 tambem vós com este pensamento, que aquelle que padeceu na carne _já_
@@ -150279,7 +150036,7 @@ encommendem-_lhe_ [20] as suas almas, como ao fiel Creador, fazendo o bem.
 [20] Luc. 23.46. II Tim. 1.12.
 
 
-
+## I S. Pedro 5
 
 _Os deveres dos anciãos e dos mancebos: humildade e vigilancia._
 
@@ -150361,11 +150118,9 @@ todos vós que estaes em Christo Jesus. Amen.
 [14] Rom. 16.16. I Cor. 16.20. II Cor. 13.12. I The. 5.26. Eph. 6.23.
 
 
-
+# II S. Pedro 1
 
 SEGUNDA EPISTOLA UNIVERSAL DO APOSTOLO S. PEDRO.
-
-
 
 
 _Prefacio e saudação._
@@ -150482,7 +150237,7 @@ Espirito Sancto.
 [19] II Tim. 1.13, 16. I Ped. 1.11.
 
 
-
+## II S. Pedro 2
 
 _Os falsos mestres._
 
@@ -150608,7 +150363,7 @@ da lama.
 [21] Pro. 26.11.
 
 
-
+## II S. Pedro 3
 
 _A vinda do Senhor._
 
@@ -150715,11 +150470,9 @@ eternidade. Amen.
 [18] Eph. 4.15. I Ped. 2.2.
 
 
-
+# I S. João 1
 
 PRIMEIRA EPISTOLA UNIVERSAL DO APOSTOLO S. JOÃO.
-
-
 
 
 _A Palavra da vida foi manifesta na carne._
@@ -150784,7 +150537,7 @@ não está em nós.
 [9] Psa. 32.5. Pro. 28.13.
 
 
-
+## I S. João 2
 
 2 Meus filhinhos, estas _coisas_ vos escrevo, para que não pequeis; e, se
 alguem peccar, temos um [AMY] Advogado [1] para com o Pae, Jesus Christo,
@@ -150940,7 +150693,7 @@ justiça é nascido d’elle.
 [27] Act. 22.14. cap. 3.7, 10.
 
 
-
+## I S. João 3
 
 _Os filhos de Deus._
 
@@ -151069,7 +150822,7 @@ tem dado.
 [24] João 14.23. Rom. 8.9.
 
 
-
+## I S. João 4
 
 _Os falsos prophetas._
 
@@ -151187,7 +150940,7 @@ seu irmão.
 [21] Mat. 22.37, 39. João 13.34 e 15.12.
 
 
-
+## I S. João 5
 
 _A fé em Jesus e as suas consequencias._
 
@@ -151299,11 +151052,9 @@ Rom. 9.5. I Tim. 3.16. Tito 2.13. Heb. 1.8. ver. 11, 12, 13.
 [18] I Cor. 10.14.
 
 
-
+# II S. João 1
 
 SEGUNDA EPISTOLA DO APOSTOLO S. JOÃO.
-
-
 
 
 _Prefacio e saudação._
@@ -151382,11 +151133,9 @@ que o nosso gozo seja cumprido.
 [13] I Ped. 5.13.
 
 
-
+# III S. João 1
 
 TERCEIRA EPISTOLA DO APOSTOLO S. JOÃO.
-
-
 
 
 _Prefacio e saudação. O elogio de Gaio._
@@ -151456,11 +151205,9 @@ penna.
 [8] II João 12.
 
 
-
+# S. Judas 1
 
 EPISTOLA UNIVERSAL DO APOSTOLO S. JUDAS.
-
-
 
 
 _Prefacio e saudação._
@@ -151618,11 +151365,9 @@ Thi. 3.15.
 [27] Rom. 16.27. I Tim. 1.17 e 2.3.
 
 
-
+# Apocalypse 1
 
 APOCALYPSE DO APOSTOLO S. JOÃO.
-
-
 
 
 _O titulo e assumpto do livro._
@@ -151748,7 +151493,7 @@ e os sete castiçaes, que viste, são as sete egrejas.
 [19] Mal. 2.7. cap. 2.1, etc. Zac. 4.2. Mat. 5.15. Phi. 2.15.
 
 
-
+## Apocalypse 2
 
 _Cartas ás sete egrejas da Asia. Primeira carta, á egreja em Epheso._
 
@@ -151919,7 +151664,7 @@ e 17.10. João 2.24, 25. Act. 1.24. Rom. 8.27.
 [26] Psa. 2.8, 9 e 49.14. Dan. 7.22. cap. 12.5.
 
 
-
+## Apocalypse 3
 
 _Quinta carta, á egreja em Sardo._
 
@@ -152045,7 +151790,7 @@ Luc. 1.32. Mat. 16.19. Job 12.14.
 [18] Mat. 19.28. Luc. 22.30. I Cor. 6.2. II Tim. 2.12. cap. 2.26, 27.
 
 
-
+## Apocalypse 4
 
 _A visão do throno da magestade divina; os vinte e quatro anciãos e os
 quatro animaes._
@@ -152118,7 +151863,7 @@ Dan. 7.9.
 [11] cap. 5.12. Gen. 1.1. Act. 17.24. Eph. 3.9. Col. 1.16. cap. 10.6.
 
 
-
+## Apocalypse 5
 
 _O livro sellado com sete sellos. Sómente o Cordeiro é digno de abril-o._
 
@@ -152205,7 +151950,7 @@ cap. 6.16 e 7.10.
 [15] cap. 4.9 e 19.4.
 
 
-
+## Apocalypse 6
 
 _A abertura dos primeiros seis sellos._
 
@@ -152309,7 +152054,7 @@ ira do Cordeiro;
 [18] Isa. 13.6, etc. Sof. 1.14, etc. cap. 16.14. Psa. 76.7, 8.
 
 
-
+## Apocalypse 7
 
 _Os israelitas fieis são salvos de perigos imminentes._
 
@@ -152402,7 +152147,7 @@ seus olhos toda a lagrima.
 [12] Psa. 23.1 e 36.8. João 10.11, 14. Isa. 25.8. cap. 21.4.
 
 
-
+## Apocalypse 8
 
 _A abertura do setimo sello. Os sete anjos com as sete trombetas; os
 primeiros quatro tocam-n’as._
@@ -152480,7 +152225,7 @@ das trombetas dos tres anjos que hão de ainda tocar.
 [12] cap. 14.6 e 19.17. cap. 9.12 e 11.14.
 
 
-
+## Apocalypse 9
 
 _A quinta trombeta._
 
@@ -152596,7 +152341,7 @@ Cor. 10.20. Dan. 5.23.
 [18] cap. 22.15.
 
 
-
+## Apocalypse 10
 
 _É comido por João um livrinho trazido do céu._
 
@@ -152662,7 +152407,7 @@ nações, e linguas e reis.
 [11] Eze. 3.3 e 2.10.
 
 
-
+## Apocalypse 11
 
 _As duas testemunhas._
 
@@ -152780,7 +152525,7 @@ e grande saraiva.
 [20] cap. 15.5, 8 e 8.5 e 16.18, 21.
 
 
-
+## Apocalypse 12
 
 _A mulher e o dragão._
 
@@ -152873,7 +152618,7 @@ testemunho de Jesus Christo.
 1.2, 9 e 6.9 e 20.4.
 
 
-
+## Apocalypse 13
 
 _A besta que subiu do mar._
 
@@ -152981,7 +152726,7 @@ II Reis 1.10, 12.
 [18] cap. 17.9 e 15.2 e 21.17.
 
 
-
+## Apocalypse 14
 
 _O Cordeiro e os seus remidos no monte de Sião._
 
@@ -153105,7 +152850,7 @@ aos freios dos cavallos, por mil e seiscentos estadios.
 [18] Isa. 63.3. Lam. 1.15. Heb. 13.12. cap. 11.8 e 19.14.
 
 
-
+## Apocalypse 15
 
 _Os sete anjos com as sete taças cheias das ultimas pragas._
 
@@ -153157,7 +152902,7 @@ cap. 16.7.
 [8] Exo. 40.34. I Reis 8.10. II Cor. 5.14. Isa. 6.4. II The. 1.9.
 
 
-
+## Apocalypse 16
 
 16 E ouvi do templo uma grande voz, [1] que dizia aos sete anjos: Ide, e
 derramae sobre a terra as _sete_ salvas da ira de Deus.
@@ -153272,7 +153017,7 @@ cap. 17.14 e 19.19 e 20.8.
 [21] cap. 11.19. ver. 9, 11. Exo. 9.23, 24, 25.
 
 
-
+## Apocalypse 17
 
 _A queda de Babylonia. A visão da grande prostituta assentada sobre a
 besta._
@@ -153373,7 +153118,7 @@ cap. 14.4.
 [15] cap. 16.19 e 12.4.
 
 
-
+## Apocalypse 18
 
 _A queda de Babylonia. Lamentações sobre a terra._
 
@@ -153517,7 +153262,7 @@ todos os que foram mortos na terra.
 [23] cap. 17.6. Jer. 51.49.
 
 
-
+## Apocalypse 19
 
 _A queda de Babylonia. Alegria e triumpho nos céus._
 
@@ -153647,7 +153392,7 @@ cap. 14.19, 20.
 [21] ver. 15, 17, 18. cap. 17.16.
 
 
-
+## Apocalypse 20
 
 _Satanaz é amarrado por mil annos. Os fieis reinam com Christo._
 
@@ -153744,7 +153489,7 @@ segunda morte.
 [15] cap. 19.20.
 
 
-
+## Apocalypse 21
 
 _Os novos céus e a nova terra._
 
@@ -153894,7 +153639,7 @@ cap. 22.15 e 20.14.
 20.12. Phi. 4.3.
 
 
-
+## Apocalypse 22
 
 22 E mostrou-me o [1] rio puro da agua da vida, claro como crystal, que
 procedia do throno de Deus e do Cordeiro.
@@ -154017,9 +153762,9 @@ que estão_ escriptas n’este livro.
 [22] Rom. 16.20, 24. II The. 3.18.
 
 
+# Notas
 
-
-NOTAS
+_Leituras alternativas (ou, Heb.) marcadas no texto com letras._
 
 
 [A] ou, estações.

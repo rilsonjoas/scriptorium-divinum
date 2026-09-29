@@ -1035,6 +1035,94 @@ ROMANOS_ATE_C = [""] + [
 ]
 
 
+# ---------------------------------------------------------------- Bíblia, Almeida (Lisboa, 1911)
+
+LIVROS_BIBLIA = [
+    "Genesis", "Exodo", "Levitico", "Numeros", "Deuteronomio", "Josué", "Juizes", "Ruth",
+    "I Samuel", "II Samuel", "I Reis", "II Reis", "I Chronicas", "II Chronicas", "Esdras",
+    "Nehemias", "Esther", "Job", "Psalmo", "Proverbios", "Ecclesiastes", "Cantico dos Canticos",
+    "Isaias", "Jeremias", "Lamentações", "Ezequiel", "Daniel", "Oseas", "Joel", "Amós",
+    "Obadias", "Jonas", "Miqueas", "Nahum", "Habacuc", "Sofonias", "Aggeo", "Zacharias",
+    "Malachias",
+    "S. Mattheus", "S. Marcos", "S. Lucas", "S. João", "Actos", "Romanos", "I Corinthios",
+    "II Corinthios", "Galatas", "Ephesios", "Philippenses", "Colossenses",
+    "I Thessalonicenses", "II Thessalonicenses", "I Timotheo", "II Timotheo", "Tito",
+    "Philemon", "Hebreos", "S. Thiago", "I S. Pedro", "II S. Pedro", "I S. João",
+    "II S. João", "III S. João", "S. Judas", "Apocalypse",
+]
+# capítulos por livro, como na coluna "Cap." do índice impresso (conferência)
+CAPITULOS_BIBLIA = [
+    50, 40, 27, 36, 34, 24, 21, 4, 31, 24, 22, 25, 29, 36, 10, 13, 10, 42, 150, 31, 12, 8,
+    66, 52, 5, 48, 12, 14, 3, 9, 1, 4, 7, 3, 3, 3, 2, 14, 4,
+    28, 16, 24, 21, 28, 16, 16, 13, 6, 6, 4, 4, 5, 3, 6, 4, 3, 1, 13, 5, 5, 3, 5, 1, 1, 1, 22,
+]
+EXTRAS_BIBLIA = ("FIM DO VELHO TESTAMENTO.", "O NOVO TESTAMENTO DE NOSSO SENHOR",
+                 "OS LIVROS DO NOVO TESTAMENTO", "NOTAS")
+
+
+def chapterize_bible(body):
+    """
+    Almeida, "Edição revista e corrigida" (Lisboa, 1911; Gutenberg #62383).
+    Os capítulos não têm rótulo: cada um começa depois de um intervalo de 3+
+    linhas em branco, com o número do capítulo no lugar do versículo 1 ("2
+    Assim os céus..."), às vezes depois de um resumo em itálico. Todo bloco
+    depois desse intervalo que não é título de livro é início de capítulo;
+    a contagem é conferida livro a livro contra o índice impresso (1189).
+    Capítulo 1 de cada livro é `#` ("# Genesis 1"), os demais `##`.
+    Saem o índice dos livros e a lista do NT, que remetem a páginas.
+    """
+    lines = [l.rstrip() for l in body]
+    ini = next(i for i, l in enumerate(lines) if l.startswith("O PRIMEIRO LIVRO DE MOYS"))
+    indice = next(i for i, l in enumerate(lines) if l.startswith("INDICE DOS LIVROS"))
+    nota = next(i for i, l in enumerate(lines) if l.startswith("Nota do transcritor"))
+    out = dedent_keep_verse(lines[:indice], max_len=60) + dedent(lines[nota:ini])
+    livro, cap, contagem = -1, 0, []
+    brancos, pular, primeiro = 0, False, False  # primeiro: o bloco seguinte é o cap. 1 (já tem heading)
+    titulo = re.compile(r"(\[\w+\] )?[A-ZÁÉÍÓÚÂÊÔÃÕÇÀ][A-ZÁÉÍÓÚÂÊÔÃÕÇÀ’ ,.\-]+")
+    for i in range(ini, len(lines)):
+        l = lines[i].strip()
+        if not l:
+            brancos += 1
+            if not pular:
+                out.append("")
+            continue
+        depois_de_intervalo = brancos >= 3 or i == ini
+        brancos = 0
+        if depois_de_intervalo:
+            pular = False
+            if l.startswith(EXTRAS_BIBLIA):
+                if l.startswith("OS LIVROS DO NOVO"):
+                    pular = True  # lista com nº de página
+                    continue
+                if l.startswith("O NOVO TESTAMENTO"):
+                    out += ["# O Novo Testamento", ""]
+                elif l == "NOTAS":
+                    out += ["# Notas", "", "_Leituras alternativas (ou, Heb.) marcadas no texto com letras._", ""]
+                    continue
+            elif titulo.fullmatch(l) and livro + 1 < len(LIVROS_BIBLIA):
+                if livro >= 0:
+                    contagem.append(cap)
+                livro, cap, primeiro = livro + 1, 1, True
+                out += [f"# {LIVROS_BIBLIA[livro]} 1", "", l]
+                continue
+            elif primeiro:
+                primeiro = False
+            elif livro >= 0:
+                cap += 1
+                out += [f"## {LIVROS_BIBLIA[livro]} {cap}", ""]
+        if not pular:
+            out.append(l)
+    contagem.append(cap)
+    return out, contagem
+
+
+def chapterize_bible_checked(body):
+    out, contagem = chapterize_bible(body)
+    if contagem != CAPITULOS_BIBLIA:
+        raise SystemExit(f"Bíblia: contagem de capítulos diverge do índice impresso: {contagem}")
+    return out
+
+
 RULES = {
     "summa-theologica-part-i-prima-pars.md": chapterize_summa,
     "summa-theologica-part-i-ii-pars-prima-secundae.md": chapterize_summa,
@@ -1057,6 +1145,7 @@ RULES = {
     "the-holy-war.md": chapterize_holy_war,
     "cidade-de-deus-en.md": chapterize_city_of_god,
     "institutas-da-religiao-crista-en.md": chapterize_institutes,
+    "a-biblia-sagrada-contendo-o-velho-e-o-novo-testamento.md": chapterize_bible_checked,
 }
 
 
