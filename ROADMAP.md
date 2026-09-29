@@ -2061,4 +2061,24 @@ ou sair da fila.
   (`server/texts/do-amor-de-deus-bernardo-de-claraval.md`, slug `do-amor-de-deus-bernardo-de-claraval`). Tradução integral
   do clássico monástico medieval a partir da edição crítica de J. Leclercq e PL 182.
   Formula o princípio áureo ("A causa de amar a Deus é o próprio Deus; a medida de O amar é amá-Lo sem medida") e expõe a escada dos Quatro Graus do Amor Divino até a transformação consumada na glória. Criação do autor `bernardo-de-claraval`. Script SQL em `scripts/add_bernardo_claraval_amor_de_deus_2026-09-29.sql`.
+- [x] **São Gregório Magno, _Regra Pastoral (Liber Regulae Pastoralis)_** (c. 590 d.C.) — ✅ ENTREGUE 2026-09-29
+  (`server/texts/regra-pastoral-gregorio-magno.md`, slug `regra-pastoral-gregorio-magno`). Tradução integral
+  do clássico patrístico sobre o ministério das almas em 4 partes a partir do latim de *Sources Chrétiennes* (SC 381-382) e PL 77.
+  Formula o princípio "A arte das artes é o governo das almas", definindo quem deve assumir o pastoreio, a conduta interior irrepreensível, a adaptação da pregação a cada temperamento e a vigilância na humildade. Criação do autor `gregorio-magno`. Script SQL em `scripts/add_gregorio_magno_pastoral_2026-09-29.sql`.
+- [x] **João Calvino, _Pequeno Tratado sobre a Santa Ceia (Petit traicté de la saincte cène)_** (1541) — ✅ ENTREGUE 2026-09-29
+  (`server/texts/pequeno-tratado-sobre-a-santa-ceia-calvino.md`, slug `pequeno-tratado-sobre-a-santa-ceia-calvino`). Tradução completa
+  do clássico sacramental de 1541 a partir do francês renascentista de *Opera Calvini* (CR).
+  Explica o sacramento como remédio e alimento espiritual da alma, a presença espiritual real e substancial de Cristo operada pelo poder do Espírito Santo através da fé e a preparação digna dos comungantes. Criação do autor `joao-calvino`. Script SQL em `scripts/add_calvino_santa_ceia_2026-09-29.sql`.
+- [x] **Martinho Lutero, _O Catecismo Menor (Der Kleine Katechismus)_** (1529) — ✅ ENTREGUE 2026-09-29
+  (`server/texts/o-catecismo-menor-martinho-lutero.md`, slug `o-catecismo-menor-martinho-lutero`). Tradução integral
+  do texto clássico de 1529 em 4 partes a partir do original alemão da *Weimarer Ausgabe* (WA 30) e *Concordia Triglotta*.
+  Contém as célebres explicações dos Dez Mandamentos ("Que significa isto?"), dos Três Artigos do Credo Apostólico (Criação, Redenção e Santificação), do Santo Batismo e do Sacramento do Altar. Criação do autor `martinho-lutero`. Script SQL em `scripts/add_lutero_catecismo_menor_2026-09-29.sql`.
+- [x] **Blaise Pascal, _Memorial e Pensamentos Escolhidos (Pensées & Mémorial)_** (1654–1670) — ✅ ENTREGUE 2026-09-29
+  (`server/texts/pensamentos-e-memorial-blaise-pascal.md`, slug `pensamentos-e-memorial-blaise-pascal`). Tradução completa
+  do manuscrito autógrafo de 1654 (BNF) e das edições críticas de Louis Lafuma e Philippe Sellier.
+  Reúne o arrebatador "Memorial do Fogo", a célebre definição do homem como "o caniço pensante", a ordem do coração ("O coração tem razões que a própria razão desconhece"), a aposta de Pascal (*Le pari*) e a redenção da miséria humana em Jesus Cristo. Criação do autor `blaise-pascal`. Script SQL em `scripts/add_pascal_pensamentos_2026-09-29.sql`.
+- [x] **São Boaventura, _O Itinerário da Mente para Deus (Itinerarium Mentis in Deum)_** (1259 d.C.) — ✅ ENTREGUE 2026-09-29
+  (`server/texts/itinerario-da-mente-para-deus-boaventura.md`, slug `itinerario-da-mente-para-deus-boaventura`). Tradução integral
+  da obra-prima franciscana medieval composta no Monte Alverne a partir da edição crítica de Quaracchi (Tomo V).
+  Estrutura os seis graus da subida da alma a partir das seis asas do Serafim Crucificado (pelos vestígios da criação, nos vestígios sensíveis, na imagem da alma, na alma renovada pela graça, no Ser supremo e no Sumo Bem trinitário) até o repouso extático na Cruz de Cristo. Criação do autor `boaventura-de-bagnoregio`. Script SQL em `scripts/add_boaventura_itinerario_2026-09-29.sql`.
 
