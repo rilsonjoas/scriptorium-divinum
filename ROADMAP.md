@@ -185,8 +185,42 @@ volta à mesa (seção "Ordem recomendada").
 
 ## P2 — Obras-Faróis & Leitura Online (2026-08-24)
 
-- [x] **Imitação de Cristo (Tomás de Kempis)**: texto integral em português de 1848 revisado e formatado em Markdown com bloco de proveniência (`server/texts/imitacao-de-cristo-pt.md`), ativado para leitura online.
-- [x] **Os Últimos Fins do Homem (Padre Manuel Bernardes)**: texto integral do clássico de 1688/1768 revisado e formatado em Markdown com bloco de proveniência (`server/texts/os-ultimos-fins-do-homem-pt.md`), ativado para leitura online.
+> [!DANGER] Correção do achado acima (2026-09-29): "revisado" não estava revisado
+> Os dois itens abaixo diziam "revisado" e "ativado para leitura online", mas
+> nenhuma das duas coisas era verdade: `online_read_path` nunca foi ligado no
+> banco (o SQL que fazia isso, `scripts/add_flagship_readers_2026-08-24.sql`,
+> ficou pronto e nunca foi aplicado) e o `.md` de cada um é OCR **bruto**, sem
+> revisão — títulos de capítulo ilegíveis ("Da Imitwào fie Cliristo pelo
+> ilesprcz.i de todiís as vaiiladrs") e numeração de capítulo incompleta
+> (faltam II, III, IV, X, XV, XX, XXII na Imitação; metade de _Os Últimos
+> Fins_, do meio do Livro Segundo em diante, não tem divisão nenhuma).
+> Consequência prática: nenhum dano em produção, porque o botão nunca chegou
+> a existir (a decisão de 2026-09-29 de esconder obra sem leitura online do
+> catálogo público cobre os dois de qualquer forma). Lição, a mesma dos 5
+> textos do Gutenberg: "arquivo existe e tem proveniência" não é o mesmo que
+> "texto revisado" — falta conferir de fato antes de marcar `[x]`.
+>
+> Tentativa de reconstrução (2026-09-29): o índice impresso da Imitação
+> (1848, `imitaodechri00thom` no Internet Archive) foi extraído e revisado à
+> mão, os 114 títulos batendo com a estrutura clássica (25+12+59+18
+> capítulos) — salvo em `docs/imitacao-de-cristo-indice-1848.json`. Mas os
+> marcadores "CAPITULO N" no **corpo** do livro só aparecem de forma legível
+> em 92 dos 114 lugares — faltam 22, não é só título garranchoso, o
+> marcador não existe nessa passagem do scan. E `os-ultimos-fins-do-homem`
+> tem só 14 marcadores "CAPITULO" no total pra ~30+ capítulos esperados
+> (Livro Segundo usa "DISCURSO", não "CAPITULO", e boa parte nem isso tem).
+> Consertar os dois exige achar o resto dos capítulos à mão, lendo o OCR
+> diretamente — mais trabalho do que uma tarde. Ficam **pendentes**, fora do
+> catálogo público (correto, não é gambiarra) até alguém repetir esse
+> trabalho ou aparecer um scan melhor.
+
+- [ ] **Imitação de Cristo (Tomás de Kempis)**: falta revisar o OCR de
+  verdade (ver achado acima). Índice de 1848 já pronto em
+  `docs/imitacao-de-cristo-indice-1848.json`; falta achar os 22 capítulos
+  cujo marcador não aparece no corpo do scan.
+- [ ] **Os Últimos Fins do Homem (Padre Manuel Bernardes)**: idem, e pior —
+  só 14 marcadores "CAPITULO" no scan inteiro. Considerar buscar outro
+  scan do Internet Archive antes de tentar salvar este.
 
 ## P2.5 — UX/UI, Leitor Digital & Atenção a Detalhes
 
