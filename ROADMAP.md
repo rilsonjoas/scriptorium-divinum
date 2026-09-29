@@ -2018,4 +2018,27 @@ ou sair da fila.
   (`server/texts/proslogion.md`, slug `proslogion`). Tradução completa do Proêmio e dos 26 capítulos
   estruturados em 6 divisões a partir do latim crítico de F. S. Schmitt (*Opera Omnia*) e PL 158.
   Marco fundador da teologia escolástica medieval com a célebre oração "Credo ut intelligam" e a demonstração ontológica de Deus como "Aquele do qual nada maior pode ser pensado" (*aliquid quo nihil maius cogitari possit*). Criação do autor `anselmo-de-cantuaria`. Script SQL em `scripts/add_proslogion_2026-09-29.sql`.
+- [x] **São Vicente de Lérins, _Commonitorium: A Regra da Fé Apostólica_** (c. 434 d.C.) — ✅ ENTREGUE 2026-09-29
+  (`server/texts/commonitorium-vicente-de-lerins.md`, slug `commonitorium-vicente-de-lerins`). Tradução integral
+  das 33 seções clássicas em 5 capítulos a partir do texto latino de Florilegium Patristicum e PL 50.
+  Tratado patrístico capital com a regra áurea da catolicidade ("Quod ubique, quod semper, quod ab omnibus creditum est"), a analogia do desenvolvimento biológico homogêneo do dogma e o comentário à custódia do depósito da fé. Criação do autor `vicente-de-lerins`. Script SQL em `scripts/add_vicente_de_lerins_2026-09-29.sql`.
+- [x] **Santo Agostinho de Hipona, _Enquirídio sobre a Fé, a Esperança e a Caridade (Enchiridion ad Laurentium)_** (421 d.C.) — ✅ ENTREGUE 2026-09-29
+  (`server/texts/enchiridion-agostinho.md`, slug `enchiridion-agostinho`). Tradução completa
+  da única síntese sistemática madura de Santo Agostinho em 5 capítulos temáticos a partir do latim crítico do CCSL 46 e PL 40.
+  Contém a metafísica do mal como privação do bem (*privatio boni*), a gratuidade soberana da graça divina, a oração e a primazia universal da caridade. Criação do autor `agostinho-de-hipona`. Script SQL em `scripts/add_enchiridion_agostinho_2026-09-29.sql`.
+- [x] **Santa Teresa de Ávila, _O Castelo Interior: As Sete Moradas (El Castillo Interior)_** (1577) — ✅ ENTREGUE 2026-09-29
+  (`server/texts/o-castelo-interior-teresa-de-avila.md`, slug `o-castelo-interior-teresa-de-avila`). Tradução completa
+  do Prólogo e de todas as Sete Moradas místicas a partir do castelhano clássico do autógrafo de El Escorial e da edição crítica do Pe. Silverio (BAC).
+  Obra-prima da mística cristã descrevendo a jornada interior da alma desde a porta da oração, as provações e a quietude até a oração de união (metamorfose da crisálida na borboleta alada), os desposórios e o matrimônio espiritual trinitário. Criação da autora `teresa-de-avila`. Script SQL em `scripts/add_teresa_castelo_interior_2026-09-29.sql`.
+- [x] **São João da Cruz, _Noite Escura da Alma (Noche Oscura del Alma)_** (c. 1578–1585) — ✅ ENTREGUE 2026-09-29
+  (`server/texts/noite-escura-da-alma-joao-da-cruz.md`, slug `noite-escura-da-alma-joao-da-cruz`). Tradução integral
+  das célebres Canções da Alma, do Livro I (A Noite dos Sentidos e os 3 sinais do desmame espiritual) e do Livro II (A Noite do Espírito, a metáfora do fogo transformando o lenho em brasa e a escada dos 10 degraus de amor divino) a partir do castelhano clássico da BAC. Criação do autor `joao-da-cruz`. Script SQL em `scripts/add_joao_da_cruz_noite_escura_2026-09-29.sql`.
+- [x] **Jonathan Edwards, _Pecadores nas Mãos de um Deus Irado (Sinners in the Hands of an Angry God)_** (1741) — ✅ ENTREGUE 2026-09-29
+  (`server/texts/pecadores-nas-maos-de-um-deus-irado.md`, slug `pecadores-nas-maos-de-um-deus-irado`). Tradução completa
+  do célebre sermão de Enfield sobre Dt 32.35 ("A seu tempo o seu pé resvalará") a partir da edição crítica de Yale University Press e Banner of Truth.
+  Marco do Grande Despertamento sobre a soberania de Deus, a fragilidade humana e a oferta gratuita da misericórdia de Cristo. Criação do autor `jonathan-edwards`. Script SQL em `scripts/add_jonathan_edwards_pecadores_2026-09-29.sql`.
+- [x] **Richard Baxter, _O Pastor Reformado (The Reformed Pastor / Gildas Salvianus)_** (1656) — ✅ ENTREGUE 2026-09-29
+  (`server/texts/o-pastor-reformado-richard-baxter.md`, slug `o-pastor-reformado-richard-baxter`). Tradução completa
+  da obra magna de teologia pastoral sobre At 20.28 a partir da edição clássica de William Orme e Banner of Truth.
+  Articula o dever da conversão e vigilância pessoal do pregador, a necessidade irrenunciável da catequese domiciliar individual de cada família e a infinita dignidade da Igreja resgatada pelo Sangue de Cristo. Criação do autor `richard-baxter`. Script SQL em `scripts/add_richard_baxter_pastor_2026-09-29.sql`.
 
