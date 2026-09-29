@@ -144,7 +144,7 @@ export function Footer() {
                   try { localStorage.setItem('scriptorium:lang', idioma.codigo); } catch { /* sem storage */ }
                 }}
                 className={`tracking-wide transition-colors ${
-                  i18n.language === idioma.codigo ? 'text-library-gold font-bold' : 'text-library-gold/60 hover:text-library-gold'
+                  i18n.language === idioma.codigo ? 'text-library-gold font-bold' : 'text-library-gold/70 hover:text-library-gold'
                 }`}
               >
                 {idioma.rotulo}

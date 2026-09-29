@@ -22,7 +22,7 @@ export function FeaturedSection() {
           </h2>
           <div className="flex items-center justify-center gap-3 text-library-gold my-3">
             <span className="h-px w-12 bg-gradient-to-r from-transparent to-library-gold"></span>
-            <span className="text-sm">❦ ✦ ❦</span>
+            <span className="text-sm" aria-hidden="true">❦ ✦ ❦</span>
             <span className="h-px w-12 bg-gradient-to-l from-transparent to-library-gold"></span>
           </div>
           <p className="font-body text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">

@@ -777,7 +777,7 @@ export default function Reader() {
             <Clock className="h-3.5 w-3.5 text-library-gold" />
             ~{parsed.minutes} min de leitura
           </span>
-          <span className="hidden sm:flex items-center gap-1.5 text-library-bronze-foreground/80">
+          <span className="hidden sm:flex items-center gap-1.5 text-library-bronze-foreground">
             <BookMarked className="h-3.5 w-3.5" />
             Selecione uma frase para grifar ou criar card
           </span>

@@ -15,7 +15,8 @@ export function HeroSection() {
   const featuredBooksList = books?.items?.slice(0, 6) || [];
 
   return (
-    <section className="relative py-16 md:py-24 overflow-hidden border-b border-library-bronze">
+    <section data-superficie="escura" className="relative py-16 md:py-24 overflow-hidden border-b border-library-bronze">
+      {/* superfície escura nos dois temas: o dourado continua dourado aqui (index.css, .golden-foil) */}
       {/* Background with classical library atmosphere & Vitral Glow */}
       <div className="absolute inset-0 bg-gradient-to-br from-library-wood via-library-leather to-library-emerald opacity-95"></div>
       <div className="absolute inset-0 liturgic-glow pointer-events-none"></div>

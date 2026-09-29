@@ -346,6 +346,25 @@
     text-shadow: 0 2px 4px hsl(43 85% 65% / 0.3);
   }
 
+  /* Tema claro: o dourado sobre pergaminho dá 1,4:1 (reprova até o 3:1 de
+     título grande) e o axe não mede texto em gradiente. Sobre fundo claro o
+     título vira marrom da paleta (canela → dourado-texto-claro, 6,3–7,5:1);
+     sobre as superfícies escuras que existem também no tema claro
+     (cabeçalho, rodapé, menu, abertura da home) continua dourado.
+     Decisão do Rilson, 2026-09-28. */
+  :root:not(.dark) .golden-foil {
+    background: linear-gradient(135deg, hsl(var(--library-canela)), hsl(var(--library-dourado-texto-claro)));
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-shadow: none;
+  }
+  :root:not(.dark) :is(header, footer, [data-superficie="escura"], .bg-library-wood, .bg-gradient-leather) .golden-foil {
+    background: var(--gradient-gold);
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-shadow: 0 2px 4px hsl(43 85% 65% / 0.3);
+  }
+
   /* Text utilities for book spines */
   .writing-mode-vertical-rl {
     writing-mode: vertical-rl;
