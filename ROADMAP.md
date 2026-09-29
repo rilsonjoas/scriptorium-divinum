@@ -1951,15 +1951,13 @@ ou sair da fila.
   a partir do grego koiné (edição Bryennios / Hitchcock & Brown, 1884), com texto grego cotejado,
   versículos numerados e notas. Vinculada à edição inglesa original (`the-teaching-of-the-twelve-apostles-didache`).
   Script SQL em `scripts/add_didaque_2026-09-29.sql` com aviso de IA e revisão humana pendente.
-- [ ] **Cartas de Inácio de Antioquia** (7 cartas: Éfeso, Magnésia,
-  Trales, Roma, Filadélfia, Esmirna, Policarpo) — grego, mesma edição
-  de Lightfoot do Diogneto. Fontes conferidas e localizadas em
-  2026-09-29 (grego: Wikisource grego, uma página por carta; inglês:
-  CCEL, `fathers.ii.iii.html` até `fathers.ii.ix.html`). **Tratar como
-  projeto à parte** — cada carta tem o tamanho da Carta a Diogneto
-  inteira, então são ~7x o trabalho, e o grego de Inácio é mais difícil
-  (duas recensões do texto manuscrito existem; usar a de Lightfoot, que
-  já resolve isso).
+- [x] **Cartas de Inácio de Antioquia** (c. 108 d.C.) — ✅ ENTREGUE 2026-09-29
+  (`server/texts/cartas-de-inacio-de-antioquia.md`, slug `cartas-de-inacio-de-antioquia`). Tradução completa
+  das 7 epístolas autênticas da recensão média (Efésios, Magnesianos, Tralianos, Romanos, Filadelfos, Esmirnenses e a Policarpo),
+  vertidas a partir do texto grego clássico editado por J. B. Lightfoot (*The Apostolic Fathers*, 1889/1891). Estruturadas em
+  7 capítulos principais com todos os seus parágrafos, abordando a eclesiologia e unidade episcopal, a realidade da carne
+  de Cristo contra o docetismo, a Eucaristia e a mística do martírio. Criação do autor `inacio-de-antioquia`. Script SQL em
+  `scripts/add_cartas_de_inacio_2026-09-29.sql` com aviso de IA e revisão humana pendente.
 - [x] **Catecismo de Heidelberg** (1563) — ✅ ENTREGUE 2026-09-29
   (`server/texts/catecismo-de-heidelberg.md`, slug `catecismo-de-heidelberg`). Tradução completa
   das 129 perguntas e respostas organizadas nos 52 Domingos (Dia do Senhor) e nas três partes clássicas
