@@ -1,4 +1,5 @@
 import { Layout } from '@/components/Layout';
+import { CapaDaObra } from '@/components/CapaDaObra';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { BookOpen, Download, Calendar, User, Globe, Languages, Tag, ArrowLeft, Loader2, Star, ShoppingBag, GraduationCap } from 'lucide-react';
@@ -76,16 +77,7 @@ const LivroDetalhes = () => {
               <CardContent className="p-6">
                 {/* Cover Image */}
                 <div className="w-full h-80 bg-gradient-leather rounded-lg shadow-golden border-2 border-library-bronze relative overflow-hidden mb-6">
-                  <SafeImage
-                    src={book.coverImageUrl}
-                    alt={`Capa de ${book.title}`}
-                    className="w-full h-full object-cover"
-                    fallback={
-                      <div className="w-full h-full flex items-center justify-center">
-                        <BookOpen className="h-16 w-16 text-library-gold" />
-                      </div>
-                    }
-                  />
+                  <CapaDaObra titulo={book.title} autor={book.author?.name} coverImageUrl={book.coverImageUrl} />
                   {/* Ornamental corners */}
                   <div className="absolute top-3 right-3 w-4 h-4 border-t-2 border-r-2 border-library-dourado"></div>
                   <div className="absolute bottom-3 left-3 w-4 h-4 border-b-2 border-l-2 border-library-dourado"></div>

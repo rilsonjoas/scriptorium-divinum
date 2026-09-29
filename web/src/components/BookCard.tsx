@@ -1,4 +1,5 @@
 import { Book } from '@/types';
+import { CapaDaObra } from '@/components/CapaDaObra';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { BookOpen, Download, Calendar, User } from 'lucide-react';
@@ -14,6 +15,10 @@ interface BookCardProps {
 
 export function BookCard({ book, variant = 'grid' }: BookCardProps) {
   const isFav = book.slug ? isFavorite(book.slug) : false;
+  // `textAvailable` vem da API (existe o arquivo do texto?). Se uma API
+  // antiga não mandar o campo, cai no critério anterior em vez de esconder
+  // o botão de todas as obras.
+  const temTexto = book.textAvailable ?? Boolean(book.onlineReadPath);
   if (variant === 'compact') {
     return (
       <Card className="group bg-card/95 backdrop-blur-sm border-library-bronze shadow-book hover:shadow-deep transition-all duration-300 hover:-translate-y-1 parchment-bg">
@@ -21,16 +26,7 @@ export function BookCard({ book, variant = 'grid' }: BookCardProps) {
           <div className="flex flex-col space-y-3">
             {/* Book Cover - Smaller and centered */}
             <div className="flex-shrink-0 w-16 h-24 bg-gradient-leather rounded-lg shadow-golden border-2 border-library-bronze relative overflow-hidden mx-auto">
-              <SafeImage
-                src={book.coverImageUrl}
-                alt={`Capa de ${book.title}`}
-                className="w-full h-full object-cover"
-                fallback={
-                  <div className="w-full h-full flex items-center justify-center">
-                    <BookOpen className="h-6 w-6 text-library-gold" />
-                  </div>
-                }
-              />
+              <CapaDaObra titulo={book.title} autor={book.author?.name} coverImageUrl={book.coverImageUrl} />
               <div className="absolute top-1 right-1 w-2 h-2 border-t border-r border-library-dourado"></div>
               <div className="absolute bottom-1 left-1 w-2 h-2 border-b border-l border-library-dourado"></div>
             </div>
@@ -91,7 +87,7 @@ export function BookCard({ book, variant = 'grid' }: BookCardProps) {
                   </Link>
                 </Button>
                 <div className="flex space-x-1">
-                  {book.textAvailable && (
+                  {temTexto && (
                     <Button asChild variant="outline" size="sm" className="border-library-bronze text-library-bronze-foreground hover:bg-library-bronze hover:text-[hsl(35_25%_95%)] font-body flex-1 text-xs">
                       <Link to={readPath(book)}>
                         <BookOpen className="h-3 w-3 mr-1" />
@@ -149,16 +145,7 @@ export function BookCard({ book, variant = 'grid' }: BookCardProps) {
         <div className="flex flex-col sm:flex-row gap-4">
           {/* Book Cover */}
           <div className="flex-shrink-0 w-24 h-32 sm:w-28 sm:h-36 bg-gradient-leather rounded-lg shadow-golden border-2 border-library-bronze relative overflow-hidden mx-auto sm:mx-0">
-            <SafeImage
-              src={book.coverImageUrl}
-              alt={`Capa de ${book.title}`}
-              className="w-full h-full object-cover"
-              fallback={
-                <div className="w-full h-full flex items-center justify-center">
-                  <BookOpen className="h-8 w-8 text-library-gold" />
-                </div>
-              }
-            />
+            <CapaDaObra titulo={book.title} autor={book.author?.name} coverImageUrl={book.coverImageUrl} />
             {/* Ornamental corner */}
             <div className="absolute top-1.5 right-1.5 w-2.5 h-2.5 border-t border-r border-library-dourado"></div>
             <div className="absolute bottom-1.5 left-1.5 w-2.5 h-2.5 border-b border-l border-library-dourado"></div>
@@ -218,7 +205,7 @@ export function BookCard({ book, variant = 'grid' }: BookCardProps) {
                 é o de leitura, não o de detalhes. Inverte a hierarquia
                 que existia (Detalhes dourado, Ler apagado). */}
             <div className="flex flex-wrap gap-2 justify-center sm:justify-start">
-              {book.textAvailable && (
+              {temTexto && (
                 <Button asChild size="sm" className="bg-library-gold hover:bg-library-gold/90 text-library-wood font-semibold font-body shadow-sm">
                   <Link to={readPath(book)}>
                     <BookOpen className="h-3.5 w-3.5 mr-1" />

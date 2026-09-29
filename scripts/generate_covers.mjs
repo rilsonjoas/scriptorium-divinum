@@ -1,3 +1,7 @@
+// OBSOLETO (2026-09-29): as capas agora são desenhadas na hora pelo
+// componente web/src/components/CapaTipografica.tsx (mesmas medidas), para
+// toda obra sem capa de verdade — sem gerar arquivo nem UPDATE no banco.
+// Mantido só como referência do desenho original.
 // Gera capas tipográficas (SVG) para todas as obras do catálogo.
 // Uso: node scripts/generate_covers.mjs [--api URL] [--out DIR]
 // Saída: {out}/{slug}.svg + scripts/add_covers_YYYY-MM-DD.sql

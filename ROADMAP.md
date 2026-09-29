@@ -685,7 +685,7 @@ leitor tem decisões de design e passa por conversa antes.
 4. [x] **Credos aprovados pelo Rilson (2026-09-29).** _Feito:_ aviso e proveniência do texto atualizados; `scripts/credos_revisao_aprovada_2026-09-29.sql` atualiza o `attribution_text` no deploy. Detalhe: Registrar a
    revisão no aviso do texto, na proveniência e no `attribution_text`
    (hoje dizem "revisão linha a linha pendente").
-5. [ ] **Capas automáticas.** Hoje cada obra sem capa precisa de um SVG
+5. [x] **Capas automáticas.** _Feito 2026-09-29:_ `CapaTipografica.tsx` desenha a capa (SVG embutido, mesmas medidas do gerador) a partir de título e autor sempre que não há capa de verdade, e também quando a imagem falha; `generate_covers.mjs` marcado obsoleto. Lógica em `utils/capa.ts` com testes. Detalhe: Hoje cada obra sem capa precisa de um SVG
    gerado à parte (`scripts/generate_covers.mjs`), e as que não têm
    ficam com o ícone genérico (ex.: todo o lote inglês). Trocar por uma
    capa tipográfica renderizada em HTML/CSS a partir de título, autor e

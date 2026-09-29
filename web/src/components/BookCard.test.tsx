@@ -67,7 +67,8 @@ describe('BookCard — links navegáveis', () => {
 
   it('o título não é âncora', () => {
     renderCard();
-    expect(screen.getByText('Confissões').closest('a')).toBeNull();
+    // pelo cabeçalho: a capa tipográfica também traz o título, como imagem
+    expect(screen.getByRole('heading', { name: 'Confissões' }).closest('a')).toBeNull();
   });
 });
 
