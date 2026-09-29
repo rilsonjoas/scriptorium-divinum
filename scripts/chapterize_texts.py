@@ -493,6 +493,22 @@ def keep_line_breaks(lines):
     return out
 
 
+def dedent_keep_verse(body):
+    """
+    Como dedent(), mas bloco de verso (todas as linhas recuadas, a primeira
+    podendo começar com "{n}") mantém as quebras de linha.
+    """
+    out = []
+    for bloco in re.split(r"\n[ \t]*\n", "\n".join(body)):
+        linhas = [l for l in bloco.split("\n")]
+        cheias = [l for l in linhas if l.strip()]
+        verso = len(cheias) > 1 and all(
+            l[:1] in (" ", "\t") or (k == 0 and re.match(r"\{\d+\} ", l)) for k, l in enumerate(cheias)
+        )
+        out += (keep_line_breaks(dedent(cheias)) if verso else dedent(linhas)) + [""]
+    return out
+
+
 CONSOLATION_SECTIONS = {
     "PREFACE.": ("## Preface", "prose"),
     "PROEM.": ("## Proem", "prose"),
@@ -612,6 +628,119 @@ def chapterize_pensees(body):
     return out
 
 
+# ---------------------------------------------------------------- Bunyan, Grace Abounding (RTS, 1905)
+
+def split_by_paragraph_number(lines, titulo, limite=45_000, numero=r"(\d+)\.\s"):
+    """
+    Divide um trecho longo em capítulos nos parágrafos numerados ("12.  ...")
+    do próprio autor, com ~`limite` caracteres cada. O título diz a faixa
+    (ex.: "Grace Abounding, §§ 1–58"), então não inventa divisão editorial.
+    """
+    partes, atual, tam = [], [], 0
+    for l in lines:
+        m = re.match(numero, l)
+        if m and tam > limite:
+            partes.append(atual)
+            atual, tam = [], 0
+        atual.append(l)
+        tam += len(l) + 1
+    if partes and tam < limite / 4:
+        partes[-1] += atual  # sobra pequena vai junto do trecho anterior
+    else:
+        partes.append(atual)
+    out, inicio = [], 1
+    for parte in partes:
+        nums = [int(m.group(1)) for l in parte if (m := re.match(numero, l))]
+        primeira = next((l for l in parte if l.strip()), "")
+        if (m := re.match(numero, primeira)):
+            inicio = int(m.group(1))  # senão, o 1º parágrafo não tem número impresso (Grace Abounding, § 1)
+        fim = max(nums) if nums else inicio
+        out += [f"## {titulo}, §§ {inicio}–{fim}", ""] + parte
+        inicio = fim + 1
+    return out
+
+
+GRACE_SECTIONS = [
+    # (começo exato da linha, heading)
+    ("PREFATORY NOTE", "## Prefatory Note"),
+    ("A PREFACE", "## A Preface"),
+    ("GRACE ABOUNDING TO THE CHIEF OF SINNERS", None),  # dividido por parágrafos
+    ("_A brief Account of the Author’s Call to the Work of the Ministry_", "## A Brief Account of the Author’s Call to the Work of the Ministry"),
+    ("A BRIEF ACCOUNT OF THE AUTHOR’S IMPRISONMENT", "## A Brief Account of the Author’s Imprisonment"),
+    ("THE CONCLUSION", "## The Conclusion"),
+    ("A RELATION OF MY IMPRISONMENT IN THE MONTH OF NOVEMBER 1660", "## A Relation of My Imprisonment in the Month of November 1660"),
+    ("_A Continuation of_ Mr BUNYAN’S LIFE", "## A Continuation of Mr Bunyan’s Life"),
+    ("_A brief Character of Mr_ JOHN BUNYAN", "## A Brief Character of Mr John Bunyan"),
+    ("POSTSCRIPT", "## Postscript"),
+    ("FOOTNOTES", "## Footnotes"),
+]
+
+
+def chapterize_grace_abounding(body):
+    """
+    RTS, 1905 (Gutenberg). O sumário impresso (com nº de página) sai. A
+    parte principal (§§ 1–339, ~170 KB) é dividida nos parágrafos numerados
+    de Bunyan, até o "Call to the Work of the Ministry".
+    """
+    lines = dedent_keep_verse(body)
+    # posição de cada seção: a primeira linha que é exatamente o começo
+    # (as do sumário têm nº de página no fim e não batem)
+    # (procura em sequência: "GRACE ABOUNDING..." também está na folha de rosto)
+    pos, ini = [], 0
+    for comeco, head in GRACE_SECTIONS:
+        i = next(i for i in range(ini, len(lines)) if lines[i] == comeco or (comeco.startswith("_") and lines[i].startswith(comeco)))
+        pos.append((i, head))
+        ini = i + 1
+    out = lines[:pos[0][0]]
+    for n, (i, head) in enumerate(pos):
+        fim = pos[n + 1][0] if n + 1 < len(pos) else len(lines)
+        if head is None:
+            # o título ocupa um bloco ("GRACE ABOUNDING... / OR, / A BRIEF
+            # RELATION..."); o subtítulo fica em itálico no primeiro trecho
+            j = i
+            while lines[j]:
+                j += 1
+            subtitulo = " ".join(lines[i + 2:j])
+            partes = split_by_paragraph_number(lines[j:fim], "Grace Abounding")
+            out += partes[:2] + [f"_Or, {title_case(subtitulo)}_"] + partes[2:]
+        elif head.endswith("Life"):
+            # o título longo ("_A Continuation of_ Mr BUNYAN’S LIFE; _beginning
+            # where he left off_...") fica como subtítulo, do jeito que está
+            out += [head, ""] + lines[i:fim]
+        else:
+            corpo = lines[i + 1:fim]
+            if "CONTENTS" in corpo:  # sumário impresso, com nº de página
+                corpo = corpo[:corpo.index("CONTENTS")]
+            if head == "## A Preface":  # "OR, BRIEF ACCOUNT OF THE PUBLISHING..." em caixa alta
+                k = next_nonblank(corpo, -1)
+                subtitulo, fim_sub = take_paragraph(corpo, k)
+                corpo = [f"_{title_case(subtitulo)}_"] + corpo[fim_sub:]
+            out += [head, ""] + corpo
+    return out
+
+
+# ---------------------------------------------------------------- Bunyan, Pilgrim's Progress (Gutenberg)
+
+def chapterize_pilgrim(body):
+    """
+    Parte I (Gutenberg #131). O original não tem capítulos; a transcrição
+    numera seções {1}–{406}, e a narrativa é dividida nelas (~45 KB cada),
+    com a faixa no título. Os versos (Apologia, Conclusão) mantêm as quebras.
+    """
+    lines = dedent_keep_verse(body)
+    apol = lines.index("The Author's Apology for his Book")
+    narr = next(i for i in range(apol, len(lines)) if lines[i] == "THE PILGRIM'S PROGRESS")
+    concl = next(i for i, l in enumerate(lines) if re.fullmatch(r"\{\d+\} The Conclusion\.", l))
+    fim = next((i for i, l in enumerate(lines) if l.startswith("End of") and "Gutenberg" in l), len(lines))
+    j = next_nonblank(lines, narr)  # "In the Similitude of a Dream"
+    out = lines[:apol]
+    out += ["## The Author's Apology for His Book", ""] + lines[apol + 1:narr]
+    partes = split_by_paragraph_number(lines[j + 1:concl], "The Pilgrim's Progress", numero=r"\{(\d+)\}")
+    out += partes[:2] + [f"_{lines[j]}_", ""] + partes[2:]
+    out += ["## The Conclusion", ""] + lines[concl + 1:fim] + lines[fim:]
+    return out
+
+
 RULES = {
     "summa-theologica-part-i-prima-pars.md": chapterize_summa,
     "summa-theologica-part-i-ii-pars-prima-secundae.md": chapterize_summa,
@@ -629,6 +758,8 @@ RULES = {
     "the-confessions-of-st-augustine.md": chapterize_confessions,
     "the-consolation-of-philosophy.md": chapterize_consolation,
     "thoughts-pensees.md": chapterize_pensees,
+    "grace-abounding-to-the-chief-of-sinners.md": chapterize_grace_abounding,
+    "the-pilgrims-progress.md": chapterize_pilgrim,
 }
 
 

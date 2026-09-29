@@ -25,8 +25,6 @@ wrote a sequel ('Part 2') some years after the first part, hence
 the 'Parts'.
 
 
-
-
 THE PILGRIM'S PROGRESS
 
 From This World To That Which Is To Come
@@ -37,296 +35,293 @@ by
 John Bunyan
 
 
-
-
 Part One
 
 DELIVERED UNDER THE SIMILITUDE OF A DREAM BY JOHN BUNYAN
 
 
-The Author's Apology for his Book
+## The Author's Apology for His Book
 
 
-{1} When at the first I took my pen in hand
-  Thus for to write, I did not understand
-  That I at all should make a little book
-  In such a mode; nay, I had undertook
-  To make another; which, when almost done,
-  Before I was aware, I this begun.
+{1} When at the first I took my pen in hand\
+Thus for to write, I did not understand\
+That I at all should make a little book\
+In such a mode; nay, I had undertook\
+To make another; which, when almost done,\
+Before I was aware, I this begun.
 
-  And thus it was: I, writing of the way
-  And race of saints, in this our gospel day,
-  Fell suddenly into an allegory
-  About their journey, and the way to glory,
-  In more than twenty things which I set down.
-  This done, I twenty more had in my crown;
-  And they again began to multiply,
-  Like sparks that from the coals of fire do fly.
+And thus it was: I, writing of the way\
+And race of saints, in this our gospel day,\
+Fell suddenly into an allegory\
+About their journey, and the way to glory,\
+In more than twenty things which I set down.\
+This done, I twenty more had in my crown;\
+And they again began to multiply,\
+Like sparks that from the coals of fire do fly.
 
-  Nay, then, thought I, if that you breed so fast,
-  I'll put you by yourselves, lest you at last
-  Should prove ad infinitum, and eat out
-  The book that I already am about.
+Nay, then, thought I, if that you breed so fast,\
+I'll put you by yourselves, lest you at last\
+Should prove ad infinitum, and eat out\
+The book that I already am about.
 
-  Well, so I did; but yet I did not think
-  To shew to all the world my pen and ink
-  In such a mode; I only thought to make
-  I knew not what; nor did I undertake
-  Thereby to please my neighbour: no, not I;
-  I did it my own self to gratify.
+Well, so I did; but yet I did not think\
+To shew to all the world my pen and ink\
+In such a mode; I only thought to make\
+I knew not what; nor did I undertake\
+Thereby to please my neighbour: no, not I;\
+I did it my own self to gratify.
 
-{2} Neither did I but vacant seasons spend
-  In this my scribble; nor did I intend
-  But to divert myself in doing this
-  From worser thoughts which make me do amiss.
+{2} Neither did I but vacant seasons spend\
+In this my scribble; nor did I intend\
+But to divert myself in doing this\
+From worser thoughts which make me do amiss.
 
-  Thus, I set pen to paper with delight,
-  And quickly had my thoughts in black and white.
-  For, having now my method by the end,
-  Still as I pulled, it came; and so I penned
-  It down: until it came at last to be,
-  For length and breadth, the bigness which you see.
+Thus, I set pen to paper with delight,\
+And quickly had my thoughts in black and white.\
+For, having now my method by the end,\
+Still as I pulled, it came; and so I penned\
+It down: until it came at last to be,\
+For length and breadth, the bigness which you see.
 
-  Well, when I had thus put mine ends together,
-  I shewed them others, that I might see whether
-  They would condemn them, or them justify:
-  And some said, Let them live; some, Let them die;
-  Some said, JOHN, print it; others said, Not so;
-  Some said, It might do good; others said, No.
+Well, when I had thus put mine ends together,\
+I shewed them others, that I might see whether\
+They would condemn them, or them justify:\
+And some said, Let them live; some, Let them die;\
+Some said, JOHN, print it; others said, Not so;\
+Some said, It might do good; others said, No.
 
-  Now was I in a strait, and did not see
-  Which was the best thing to be done by me:
-  At last I thought, Since you are thus divided,
-  I print it will, and so the case decided.
+Now was I in a strait, and did not see\
+Which was the best thing to be done by me:\
+At last I thought, Since you are thus divided,\
+I print it will, and so the case decided.
 
-{3} For, thought I, some, I see, would have it done,
-  Though others in that channel do not run:
-  To prove, then, who advised for the best,
-  Thus I thought fit to put it to the test.
+{3} For, thought I, some, I see, would have it done,\
+Though others in that channel do not run:\
+To prove, then, who advised for the best,\
+Thus I thought fit to put it to the test.
 
-  I further thought, if now I did deny
-  Those that would have it, thus to gratify.
-  I did not know but hinder them I might
-  Of that which would to them be great delight.
+I further thought, if now I did deny\
+Those that would have it, thus to gratify.\
+I did not know but hinder them I might\
+Of that which would to them be great delight.
 
-  For those which were not for its coming forth,
-  I said to them, Offend you I am loth,
-  Yet, since your brethren pleased with it be,
-  Forbear to judge till you do further see.
+For those which were not for its coming forth,\
+I said to them, Offend you I am loth,\
+Yet, since your brethren pleased with it be,\
+Forbear to judge till you do further see.
 
-  If that thou wilt not read, let it alone;
-  Some love the meat, some love to pick the bone.
-  Yea, that I might them better palliate,
-  I did too with them thus expostulate:--
+If that thou wilt not read, let it alone;\
+Some love the meat, some love to pick the bone.\
+Yea, that I might them better palliate,\
+I did too with them thus expostulate:--
 
-{4} May I not write in such a style as this?
-  In such a method, too, and yet not miss
-  My end--thy good? Why may it not be done?
-  Dark clouds bring waters, when the bright bring none.
-  Yea, dark or bright, if they their silver drops
-  Cause to descend, the earth, by yielding crops,
-  Gives praise to both, and carpeth not at either,
-  But treasures up the fruit they yield together;
-  Yea, so commixes both, that in her fruit
-  None can distinguish this from that: they suit
-  Her well when hungry; but, if she be full,
-  She spews out both, and makes their blessings null.
+{4} May I not write in such a style as this?\
+In such a method, too, and yet not miss\
+My end--thy good? Why may it not be done?\
+Dark clouds bring waters, when the bright bring none.\
+Yea, dark or bright, if they their silver drops\
+Cause to descend, the earth, by yielding crops,\
+Gives praise to both, and carpeth not at either,\
+But treasures up the fruit they yield together;\
+Yea, so commixes both, that in her fruit\
+None can distinguish this from that: they suit\
+Her well when hungry; but, if she be full,\
+She spews out both, and makes their blessings null.
 
-  You see the ways the fisherman doth take
-  To catch the fish; what engines doth he make?
-  Behold how he engageth all his wits;
-  Also his snares, lines, angles, hooks, and nets;
-  Yet fish there be, that neither hook, nor line,
-  Nor snare, nor net, nor engine can make thine:
-  They must be groped for, and be tickled too,
-  Or they will not be catch'd, whate'er you do.
+You see the ways the fisherman doth take\
+To catch the fish; what engines doth he make?\
+Behold how he engageth all his wits;\
+Also his snares, lines, angles, hooks, and nets;\
+Yet fish there be, that neither hook, nor line,\
+Nor snare, nor net, nor engine can make thine:\
+They must be groped for, and be tickled too,\
+Or they will not be catch'd, whate'er you do.
 
-  How does the fowler seek to catch his game
-  By divers means! all which one cannot name:
-  His guns, his nets, his lime-twigs, light, and bell:
-  He creeps, he goes, he stands; yea, who can tell
-  Of all his postures? Yet there's none of these
-  Will make him master of what fowls he please.
-  Yea, he must pipe and whistle to catch this,
-  Yet, if he does so, that bird he will miss.
+How does the fowler seek to catch his game\
+By divers means! all which one cannot name:\
+His guns, his nets, his lime-twigs, light, and bell:\
+He creeps, he goes, he stands; yea, who can tell\
+Of all his postures? Yet there's none of these\
+Will make him master of what fowls he please.\
+Yea, he must pipe and whistle to catch this,\
+Yet, if he does so, that bird he will miss.
 
-  If that a pearl may in a toad's head dwell,
-  And may be found too in an oyster-shell;
-  If things that promise nothing do contain
-  What better is than gold; who will disdain,
-  That have an inkling of it, there to look,
-  That they may find it? Now, my little book,
-  (Though void of all these paintings that may make
-  It with this or the other man to take)
-  Is not without those things that do excel
-  What do in brave but empty notions dwell.
+If that a pearl may in a toad's head dwell,\
+And may be found too in an oyster-shell;\
+If things that promise nothing do contain\
+What better is than gold; who will disdain,\
+That have an inkling of it, there to look,\
+That they may find it? Now, my little book,\
+(Though void of all these paintings that may make\
+It with this or the other man to take)\
+Is not without those things that do excel\
+What do in brave but empty notions dwell.
 
-{5} 'Well, yet I am not fully satisfied,
-  That this your book will stand, when soundly tried.'
-  Why, what's the matter? 'It is dark.' What though?
-  'But it is feigned.' What of that? I trow?
-  Some men, by feigned words, as dark as mine,
-  Make truth to spangle and its rays to shine.
+{5} 'Well, yet I am not fully satisfied,\
+That this your book will stand, when soundly tried.'\
+Why, what's the matter? 'It is dark.' What though?\
+'But it is feigned.' What of that? I trow?\
+Some men, by feigned words, as dark as mine,\
+Make truth to spangle and its rays to shine.
 
-  'But they want solidness.' Speak, man, thy mind.
-  'They drown the weak; metaphors make us blind.'
+'But they want solidness.' Speak, man, thy mind.\
+'They drown the weak; metaphors make us blind.'
 
-  Solidity, indeed, becomes the pen
-  Of him that writeth things divine to men;
-  But must I needs want solidness, because
-  By metaphors I speak? Were not God's laws,
-  His gospel laws, in olden times held forth
-  By types, shadows, and metaphors? Yet loth
-  Will any sober man be to find fault
-  With them, lest he be found for to assault
-  The highest wisdom. No, he rather stoops,
-  And seeks to find out what by pins and loops,
-  By calves and sheep, by heifers and by rams,
-  By birds and herbs, and by the blood of lambs,
-  God speaketh to him; and happy is he
-  That finds the light and grace that in them be.
+Solidity, indeed, becomes the pen\
+Of him that writeth things divine to men;\
+But must I needs want solidness, because\
+By metaphors I speak? Were not God's laws,\
+His gospel laws, in olden times held forth\
+By types, shadows, and metaphors? Yet loth\
+Will any sober man be to find fault\
+With them, lest he be found for to assault\
+The highest wisdom. No, he rather stoops,\
+And seeks to find out what by pins and loops,\
+By calves and sheep, by heifers and by rams,\
+By birds and herbs, and by the blood of lambs,\
+God speaketh to him; and happy is he\
+That finds the light and grace that in them be.
 
-{6} Be not too forward, therefore, to conclude
-  That I want solidness--that I am rude;
-  All things solid in show not solid be;
-  All things in parables despise not we;
-  Lest things most hurtful lightly we receive,
-  And things that good are, of our souls bereave.
+{6} Be not too forward, therefore, to conclude\
+That I want solidness--that I am rude;\
+All things solid in show not solid be;\
+All things in parables despise not we;\
+Lest things most hurtful lightly we receive,\
+And things that good are, of our souls bereave.
 
-  My dark and cloudy words, they do but hold
-  The truth, as cabinets enclose the gold.
+My dark and cloudy words, they do but hold\
+The truth, as cabinets enclose the gold.
 
-  The prophets used much by metaphors
-  To set forth truth; yea, who so considers Christ,
-  his apostles too, shall plainly see,
-  That truths to this day in such mantles be.
+The prophets used much by metaphors\
+To set forth truth; yea, who so considers Christ,\
+his apostles too, shall plainly see,\
+That truths to this day in such mantles be.
 
-  Am I afraid to say, that holy writ,
-  Which for its style and phrase puts down all wit,
-  Is everywhere so full of all these things--
-  Dark figures, allegories? Yet there springs
-  From that same book that lustre, and those rays
-  Of light, that turn our darkest nights to days.
+Am I afraid to say, that holy writ,\
+Which for its style and phrase puts down all wit,\
+Is everywhere so full of all these things--\
+Dark figures, allegories? Yet there springs\
+From that same book that lustre, and those rays\
+Of light, that turn our darkest nights to days.
 
-{7} Come, let my carper to his life now look,
-  And find there darker lines than in my book
-  He findeth any; yea, and let him know,
-  That in his best things there are worse lines too.
+{7} Come, let my carper to his life now look,\
+And find there darker lines than in my book\
+He findeth any; yea, and let him know,\
+That in his best things there are worse lines too.
 
-  May we but stand before impartial men,
-  To his poor one I dare adventure ten,
-  That they will take my meaning in these lines
-  Far better than his lies in silver shrines.
-  Come, truth, although in swaddling clouts, I find,
-  Informs the judgement, rectifies the mind;
-  Pleases the understanding, makes the will
-  Submit; the memory too it doth fill
-  With what doth our imaginations please;
-  Likewise it tends our troubles to appease.
+May we but stand before impartial men,\
+To his poor one I dare adventure ten,\
+That they will take my meaning in these lines\
+Far better than his lies in silver shrines.\
+Come, truth, although in swaddling clouts, I find,\
+Informs the judgement, rectifies the mind;\
+Pleases the understanding, makes the will\
+Submit; the memory too it doth fill\
+With what doth our imaginations please;\
+Likewise it tends our troubles to appease.
 
-  Sound words, I know, Timothy is to use,
-  And old wives' fables he is to refuse;
-  But yet grave Paul him nowhere did forbid
-  The use of parables; in which lay hid
-  That gold, those pearls, and precious stones that were
-  Worth digging for, and that with greatest care.
+Sound words, I know, Timothy is to use,\
+And old wives' fables he is to refuse;\
+But yet grave Paul him nowhere did forbid\
+The use of parables; in which lay hid\
+That gold, those pearls, and precious stones that were\
+Worth digging for, and that with greatest care.
 
-  Let me add one word more. O man of God,
-  Art thou offended? Dost thou wish I had
-  Put forth my matter in another dress?
-  Or, that I had in things been more express?
-  Three things let me propound; then I submit
-  To those that are my betters, as is fit.
+Let me add one word more. O man of God,\
+Art thou offended? Dost thou wish I had\
+Put forth my matter in another dress?\
+Or, that I had in things been more express?\
+Three things let me propound; then I submit\
+To those that are my betters, as is fit.
 
-{8} 1. I find not that I am denied the use
-  Of this my method, so I no abuse
-  Put on the words, things, readers; or be rude
-  In handling figure or similitude,
-  In application; but, all that I may,
-  Seek the advance of truth this or that way
-  Denied, did I say? Nay, I have leave
-  (Example too, and that from them that have
-  God better pleased, by their words or ways,
-  Than any man that breatheth now-a-days)
-  Thus to express my mind, thus to declare
-  Things unto thee that excellentest are.
+{8} 1. I find not that I am denied the use\
+Of this my method, so I no abuse\
+Put on the words, things, readers; or be rude\
+In handling figure or similitude,\
+In application; but, all that I may,\
+Seek the advance of truth this or that way\
+Denied, did I say? Nay, I have leave\
+(Example too, and that from them that have\
+God better pleased, by their words or ways,\
+Than any man that breatheth now-a-days)\
+Thus to express my mind, thus to declare\
+Things unto thee that excellentest are.
 
-  2. I find that men (as high as trees) will write
-  Dialogue-wise; yet no man doth them slight
-  For writing so: indeed, if they abuse
-  Truth, cursed be they, and the craft they use
-  To that intent; but yet let truth be free
-  To make her sallies upon thee and me,
-  Which way it pleases God; for who knows how,
-  Better than he that taught us first to plough,
-  To guide our mind and pens for his design?
-  And he makes base things usher in divine.
+2. I find that men (as high as trees) will write\
+Dialogue-wise; yet no man doth them slight\
+For writing so: indeed, if they abuse\
+Truth, cursed be they, and the craft they use\
+To that intent; but yet let truth be free\
+To make her sallies upon thee and me,\
+Which way it pleases God; for who knows how,\
+Better than he that taught us first to plough,\
+To guide our mind and pens for his design?\
+And he makes base things usher in divine.
 
-  3. I find that holy writ in many places
-  Hath semblance with this method, where the cases
-  Do call for one thing, to set forth another;
-  Use it I may, then, and yet nothing smother
-  Truth's golden beams: nay, by this method may
-  Make it cast forth its rays as light as day.
-  And now before I do put up my pen,
-  I'll shew the profit of my book, and then
-  Commit both thee and it unto that Hand
-  That pulls the strong down, and makes weak ones stand.
+3. I find that holy writ in many places\
+Hath semblance with this method, where the cases\
+Do call for one thing, to set forth another;\
+Use it I may, then, and yet nothing smother\
+Truth's golden beams: nay, by this method may\
+Make it cast forth its rays as light as day.\
+And now before I do put up my pen,\
+I'll shew the profit of my book, and then\
+Commit both thee and it unto that Hand\
+That pulls the strong down, and makes weak ones stand.
 
-  This book it chalketh out before thine eyes
-  The man that seeks the everlasting prize;
-  It shews you whence he comes, whither he goes;
-  What he leaves undone, also what he does;
-  It also shows you how he runs and runs,
-  Till he unto the gate of glory comes.
+This book it chalketh out before thine eyes\
+The man that seeks the everlasting prize;\
+It shews you whence he comes, whither he goes;\
+What he leaves undone, also what he does;\
+It also shows you how he runs and runs,\
+Till he unto the gate of glory comes.
 
-{9} It shows, too, who set out for life amain,
-  As if the lasting crown they would obtain;
-  Here also you may see the reason why
-  They lose their labour, and like fools do die.
+{9} It shows, too, who set out for life amain,\
+As if the lasting crown they would obtain;\
+Here also you may see the reason why\
+They lose their labour, and like fools do die.
 
-  This book will make a traveller of thee,
-  If by its counsel thou wilt ruled be;
-  It will direct thee to the Holy Land,
-  If thou wilt its directions understand:
-  Yea, it will make the slothful active be;
-  The blind also delightful things to see.
+This book will make a traveller of thee,\
+If by its counsel thou wilt ruled be;\
+It will direct thee to the Holy Land,\
+If thou wilt its directions understand:\
+Yea, it will make the slothful active be;\
+The blind also delightful things to see.
 
-  Art thou for something rare and profitable?
-  Wouldest thou see a truth within a fable?
-  Art thou forgetful? Wouldest thou remember
-  From New-Year's day to the last of December?
-  Then read my fancies; they will stick like burs,
-  And may be, to the helpless, comforters.
+Art thou for something rare and profitable?\
+Wouldest thou see a truth within a fable?\
+Art thou forgetful? Wouldest thou remember\
+From New-Year's day to the last of December?\
+Then read my fancies; they will stick like burs,\
+And may be, to the helpless, comforters.
 
-  This book is writ in such a dialect
-  As may the minds of listless men affect:
-  It seems a novelty, and yet contains
-  Nothing but sound and honest gospel strains.
-  Wouldst thou divert thyself from melancholy?
-  Wouldst thou be pleasant, yet be far from folly?
-  Wouldst thou read riddles, and their explanation?
-  Or else be drowned in thy contemplation?
-  Dost thou love picking meat? Or wouldst thou see
-  A man in the clouds, and hear him speak to thee?
-  Wouldst thou be in a dream, and yet not sleep?
-  Or wouldst thou in a moment laugh and weep?
-  Wouldest thou lose thyself and catch no harm,
-  And find thyself again without a charm?
-  Wouldst read thyself, and read thou knowest not what,
-  And yet know whether thou art blest or not,
+This book is writ in such a dialect\
+As may the minds of listless men affect:\
+It seems a novelty, and yet contains\
+Nothing but sound and honest gospel strains.\
+Wouldst thou divert thyself from melancholy?\
+Wouldst thou be pleasant, yet be far from folly?\
+Wouldst thou read riddles, and their explanation?\
+Or else be drowned in thy contemplation?\
+Dost thou love picking meat? Or wouldst thou see\
+A man in the clouds, and hear him speak to thee?\
+Wouldst thou be in a dream, and yet not sleep?\
+Or wouldst thou in a moment laugh and weep?\
+Wouldest thou lose thyself and catch no harm,\
+And find thyself again without a charm?\
+Wouldst read thyself, and read thou knowest not what,\
+And yet know whether thou art blest or not,
 
-  By reading the same lines? Oh, then come hither,
-  And lay my book, thy head, and heart together.
+By reading the same lines? Oh, then come hither,\
+And lay my book, thy head, and heart together.
 
 
 JOHN BUNYAN.
 
 
+## The Pilgrim's Progress, §§ 10–82
 
-THE PILGRIM'S PROGRESS
-
-In the Similitude of a Dream
+_In the Similitude of a Dream_
 
 
 {10} As I walked through the wilderness of this world, I lighted
@@ -961,19 +956,18 @@ process of time, Christian got up to the gate. Now, over the gate
 there was written, 'Knock, and it shall be opened unto you.' [Matt
 7:8]
 
-
-{60} "He that will enter in must first without
-   Stand knocking at the Gate, nor need he doubt
-   That is A KNOCKER but to enter in;
-   For God can love him, and forgive his sin."
+{60} "He that will enter in must first without\
+Stand knocking at the Gate, nor need he doubt\
+That is A KNOCKER but to enter in;\
+For God can love him, and forgive his sin."
 
 
 He knocked, therefore, more than once or twice, saying--
 
- "May I now enter here? Will he within
- Open to sorry me, though I have been
- An undeserving rebel? Then shall I
- Not fail to sing his lasting praise on high."
+"May I now enter here? Will he within\
+Open to sorry me, though I have been\
+An undeserving rebel? Then shall I\
+Not fail to sing his lasting praise on high."
 
 
 At last there came a grave person to the gate, named Good-will, who
@@ -1274,6 +1268,8 @@ walking, who were clothed all in gold.
 
 Then said Christian, May we go in thither?
 
+## The Pilgrim's Progress, §§ 83–142
+
 {83} Then the Interpreter took him, and led him up towards the
 door of the palace; and behold, at the door stood a great company
 of men, as desirous to go in; but durst not. There also sat a man
@@ -1478,14 +1474,14 @@ word, They be fine feathers that make a fine bird.
 
 Then Christian gave three leaps for joy, and went on singing--
 
- "Thus far I did come laden with my sin;
- Nor could aught ease the grief that I was in
- Till I came hither: What a place is this!
- Must here be the beginning of my bliss?
- Must here the burden fall from off my back?
- Must here the strings that bound it to me crack?
- Blest cross! blest sepulchre! blest rather be
- The Man that there was put to shame for me!"
+"Thus far I did come laden with my sin;\
+Nor could aught ease the grief that I was in\
+Till I came hither: What a place is this!\
+Must here be the beginning of my bliss?\
+Must here the burden fall from off my back?\
+Must here the strings that bound it to me crack?\
+Blest cross! blest sepulchre! blest rather be\
+The Man that there was put to shame for me!"
 
 
 {95} I saw then in my dream, that he went on thus, even until he
@@ -1598,13 +1594,12 @@ the hill is called Difficulty. Christian now went to the spring,
 and drank thereof, to refresh himself [Isa. 49:10], and then began
 to go up the hill, saying--
 
-
- "The hill, though high, I covet to ascend,
- The difficulty will not me offend;
- For I perceive the way to life lies here.
- Come, pluck up heart, let's neither faint nor fear;
- Better, though difficult, the right way to go,
- Than wrong, though easy, where the end is woe."
+"The hill, though high, I covet to ascend,\
+The difficulty will not me offend;\
+For I perceive the way to life lies here.\
+Come, pluck up heart, let's neither faint nor fear;\
+Better, though difficult, the right way to go,\
+Than wrong, though easy, where the end is woe."
 
 
 {104} The other two also came to the foot of the hill; but when
@@ -1740,11 +1735,10 @@ are placed there for trial of faith where it is, and for discovery
 of those that had none. Keep in the midst of the path, no hurt
 shall come unto thee.
 
-
- "Difficulty is behind, Fear is before,
- Though he's got on the hill, the lions roar;
- A Christian man is never long at ease,
- When one fright's gone, another doth him seize."
+"Difficulty is behind, Fear is before,\
+Though he's got on the hill, the lions roar;\
+A Christian man is never long at ease,\
+When one fright's gone, another doth him seize."
 
 
 {111} Then I saw that he went on, trembling for fear of the lions,
@@ -2049,10 +2043,10 @@ chamber, whose window opened towards the sun-rising: the name of
 the chamber was Peace; where he slept till break of day, and then
 he awoke and sang--
 
- "Where am I now? Is this the love and care
- Of Jesus for the men that pilgrims are?
- Thus to provide! that I should be forgiven!
- And dwell already the next door to heaven!"
+"Where am I now? Is this the love and care\
+Of Jesus for the men that pilgrims are?\
+Thus to provide! that I should be forgiven!\
+And dwell already the next door to heaven!"
 
 
 {132} So in the morning they all got up; and, after some more
@@ -2180,6 +2174,8 @@ they are his pride,) he had wings like a dragon, feet like a bear,
 and out of his belly came fire and smoke, and his mouth was as the
 mouth of a lion. When he was come up to Christian, he beheld him
 with a disdainful countenance, and thus began to question with him.
+
+## The Pilgrim's Progress, §§ 143–196
 
 {143} APOL. Whence come you? and whither are you bound?
 
@@ -2326,22 +2322,22 @@ sight that ever I saw.
 A more unequal match can hardly be,--CHRISTIAN must fight an
 Angel; but you see,
 
- The valiant man by handling Sword and Shield,
- Doth make him, tho' a Dragon, quit the field.
+The valiant man by handling Sword and Shield,\
+Doth make him, tho' a Dragon, quit the field.
 
 
 {153} So when the battle was over, Christian said, "I will here
 give thanks to him that delivered me out of the mouth of the lion,
 to him that did help me against Apollyon." And so he did, saying--
 
- Great Beelzebub, the captain of this fiend,
- Design'd my ruin; therefore to this end
- He sent him harness'd out: and he with rage
- That hellish was, did fiercely me engage.
- But blessed Michael helped me, and I,
- By dint of sword, did quickly make him fly.
- Therefore to him let me give lasting praise,
- And thank and bless his holy name always.
+Great Beelzebub, the captain of this fiend,\
+Design'd my ruin; therefore to this end\
+He sent him harness'd out: and he with rage\
+That hellish was, did fiercely me engage.\
+But blessed Michael helped me, and I,\
+By dint of sword, did quickly make him fly.\
+Therefore to him let me give lasting praise,\
+And thank and bless his holy name always.
 
 
 {154} Then there came to him a hand, with some of the leaves of the
@@ -2426,11 +2422,10 @@ the dangers mentioned above, the pathway was here so dark, and
 ofttimes, when he lift up his foot to set forward, he knew not
 where or upon what he should set it next.
 
-
- Poor man! where art thou now? thy day is night.
- Good man, be not cast down, thou yet art right,
- Thy way to heaven lies by the gates of Hell;
- Cheer up, hold out, with thee it shall go well.
+Poor man! where art thou now? thy day is night.\
+Good man, be not cast down, thou yet art right,\
+Thy way to heaven lies by the gates of Hell;\
+Cheer up, hold out, with thee it shall go well.
 
 
 {161} About the midst of this valley, I perceived the mouth of
@@ -2543,16 +2538,16 @@ not go after him, saying, "You will never mend till more of you be
 burned." But he held his peace, and set a good face on it, and so
 went by and catched no hurt. Then sang Christian:
 
- O world of wonders! (I can say no less),
- That I should be preserved in that distress
- That I have met with here! O blessed be
- That hand that from it hath deliver'd me!
- Dangers in darkness, devils, hell, and sin
- Did compass me, while I this vale was in:
- Yea, snares, and pits, and traps, and nets, did lie
- My path about, that worthless, silly I
- Might have been catch'd, entangled, and cast down;
- But since I live, let JESUS wear the crown.
+O world of wonders! (I can say no less),\
+That I should be preserved in that distress\
+That I have met with here! O blessed be\
+That hand that from it hath deliver'd me!\
+Dangers in darkness, devils, hell, and sin\
+Did compass me, while I this vale was in:\
+Yea, snares, and pits, and traps, and nets, did lie\
+My path about, that worthless, silly I\
+Might have been catch'd, entangled, and cast down;\
+But since I live, let JESUS wear the crown.
 
 
 {169} Now, as Christian went on his way, he came to a little ascent,
@@ -2852,14 +2847,14 @@ in those did I see most glory; and so at last I got past this
 importunate one. And when I had shaken him off, then I began to
 sing--
 
- The trials that those men do meet withal,
- That are obedient to the heavenly call,
- Are manifold, and suited to the flesh,
- And come, and come, and come again afresh;
- That now, or sometime else, we by them may
- Be taken, overcome, and cast away.
- Oh, let the pilgrims, let the pilgrims, then
- Be vigilant, and quit themselves like men.
+The trials that those men do meet withal,\
+That are obedient to the heavenly call,\
+Are manifold, and suited to the flesh,\
+And come, and come, and come again afresh;\
+That now, or sometime else, we by them may\
+Be taken, overcome, and cast away.\
+Oh, let the pilgrims, let the pilgrims, then\
+Be vigilant, and quit themselves like men.
 
 
 {183} CHR. I am glad, my brother, that thou didst withstand this
@@ -3125,6 +3120,8 @@ the power of religion; and ask him plainly (when he has approved
 of it, for that he will) whether this thing be set up in his heart,
 house, or conversation.
 
+## The Pilgrim's Progress, §§ 197–259
+
 {197} FAITH. Then Faithful stepped forward again, and said to
 Talkative, Come, what cheer? How is it now?
 
@@ -3309,13 +3306,12 @@ all men would deal with such as you have done: then should they
 either be made more conformable to religion, or the company of
 saints would be too hot for them. Then did Faithful say,
 
-
- How Talkative at first lifts up his plumes!
- How bravely doth he speak! How he presumes
- To drive down all before him! But so soon
- As Faithful talks of heart-work, like the moon
- That's past the full, into the wane he goes.
- And so will all, but he that HEART-WORK knows.
+How Talkative at first lifts up his plumes!\
+How bravely doth he speak! How he presumes\
+To drive down all before him! But so soon\
+As Faithful talks of heart-work, like the moon\
+That's past the full, into the wane he goes.\
+And so will all, but he that HEART-WORK knows.
 
 
 {208} Thus they went on talking of what they had seen by the way,
@@ -3515,11 +3511,10 @@ a confusion in the fair. Therefore they took them and beat them,
 and besmeared them with dirt, and then put them into the cage, that
 they might be made a spectacle to all the men of the fair.
 
-
- Behold Vanity Fair! the Pilgrims there
- Are chain'd and stand beside:
- Even so it was our Lord pass'd here,
- And on Mount Calvary died.
+Behold Vanity Fair! the Pilgrims there\
+Are chain'd and stand beside:\
+Even so it was our Lord pass'd here,\
+And on Mount Calvary died.
 
 
 {224} There, therefore, they lay for some time, and were made the
@@ -3581,11 +3576,10 @@ that they had made commotions and divisions in the town, and had
 won a party to their own most dangerous opinions, in contempt of
 the law of their prince."
 
-
- Now, FAITHFUL, play the man, speak for thy God:
- Fear not the wicked's malice; nor their rod:
- Speak boldly, man, the truth is on thy side:
- Die for it, and to life in triumph ride.
+Now, FAITHFUL, play the man, speak for thy God:\
+Fear not the wicked's malice; nor their rod:\
+Speak boldly, man, the truth is on thy side:\
+Die for it, and to life in triumph ride.
 
 
 {228} Faithful's answer for himself
@@ -3757,11 +3751,10 @@ adversaries had despatched him) was taken up into it, and straightway
 was carried up through the clouds, with sound of trumpet, the
 nearest way to the Celestial Gate.
 
-
- Brave FAITHFUL, bravely done in word and deed;
- Judge, witnesses, and jury have, instead
- Of overcoming thee, but shown their rage:
- When they are dead, thou'lt live from age to age*.
+Brave FAITHFUL, bravely done in word and deed;\
+Judge, witnesses, and jury have, instead\
+Of overcoming thee, but shown their rage:\
+When they are dead, thou'lt live from age to age*.
 
 *In the New Heaven and New Earth. {footnote from one edition}
 
@@ -3772,12 +3765,12 @@ overrules all things, having the power of their rage in his own
 hand, so wrought it about, that Christian for that time escaped
 them, and went his way. And as he went, he sang, saying--
 
- Well, Faithful, thou hast faithfully profest
- Unto thy Lord; with whom thou shalt be blest,
- When faithless ones, with all their vain delights,
- Are crying out under their hellish plights:
- Sing, Faithful, sing, and let thy name survive;
- For though they kill'd thee, thou art yet alive!
+Well, Faithful, thou hast faithfully profest\
+Unto thy Lord; with whom thou shalt be blest,\
+When faithless ones, with all their vain delights,\
+Are crying out under their hellish plights:\
+Sing, Faithful, sing, and let thy name survive;\
+For though they kill'd thee, thou art yet alive!
 
 
 {244} Now I saw in my dream, that Christian went not forth alone,
@@ -4023,6 +4016,8 @@ so then here is a good wife, and good customers, and good gain,
 and all these by becoming religious, which is good; therefore, to
 become religious, to get all these, is a good and profitable design.
 
+## The Pilgrim's Progress, §§ 260–317
+
 {260} This answer, thus made by this Mr. Money-love to Mr. By-ends's
 question, was highly applauded by them all; wherefore they concluded
 upon the whole, that it was most wholesome and advantageous. And
@@ -4166,10 +4161,10 @@ the bottom by the damps that commonly arise, of these things I am
 not certain; but this I observed, that they never were seen again
 in the way. Then sang Christian--
 
- By-ends and silver Demas both agree;
- One calls, the other runs, that he may be
- A sharer in his lucre; so these do
- Take up in this world, and no further go.
+By-ends and silver Demas both agree;\
+One calls, the other runs, that he may be\
+A sharer in his lucre; so these do\
+Take up in this world, and no further go.
 
 
 {272} Now I saw that, just on the other side of this plain,
@@ -4261,12 +4256,12 @@ again of the fruit of the trees, and drank again of the water
 of the river, and then lay down again to sleep. [Ps. 23:2, Isa.
 14:30] Thus they did several days and nights. Then they sang--
 
- Behold ye how these crystal streams do glide,
- To comfort pilgrims by the highway side;
- The meadows green, beside their fragrant smell,
- Yield dainties for them; and he that can tell
- What pleasant fruit, yea, leaves, these trees do yield,
- Will soon sell all, that he may buy this field.
+Behold ye how these crystal streams do glide,\
+To comfort pilgrims by the highway side;\
+The meadows green, beside their fragrant smell,\
+Yield dainties for them; and he that can tell\
+What pleasant fruit, yea, leaves, these trees do yield,\
+Will soon sell all, that he may buy this field.
 
 
 So when they were disposed to go on, (for they were not, as yet,
@@ -4377,11 +4372,10 @@ here in evil case, and were far from friends and acquaintance. Now
 in this place Christian had double sorrow, because it was through
 his unadvised counsel that they were brought into this distress.
 
-
- The pilgrims now, to gratify the flesh,
- Will seek its ease; but oh! how they afresh
- Do thereby plunge themselves new griefs into!
- Who seek to please the flesh, themselves undo.
+The pilgrims now, to gratify the flesh,\
+Will seek its ease; but oh! how they afresh\
+Do thereby plunge themselves new griefs into!\
+Who seek to please the flesh, themselves undo.
 
 
 {284} Now, Giant Despair had a wife, and her name was Diffidence.
@@ -4543,12 +4537,12 @@ the Celestial Country, and seeks to destroy his holy pilgrims."
 Many, therefore, that followed after read what was written, and
 escaped the danger. This done, they sang as follows:--
 
- Out of the way we went, and then we found
- What 'twas to tread upon forbidden ground;
- And let them that come after have a care,
- Lest heedlessness makes them, as we, to fare.
- Lest they for trespassing his prisoners are,
- Whose castle's Doubting, and whose name's Despair.
+Out of the way we went, and then we found\
+What 'twas to tread upon forbidden ground;\
+And let them that come after have a care,\
+Lest heedlessness makes them, as we, to fare.\
+Lest they for trespassing his prisoners are,\
+Whose castle's Doubting, and whose name's Despair.
 
 
 {295} They went then till they came to the Delectable Mountains,
@@ -4563,11 +4557,10 @@ is common with weary pilgrims when they stand to talk with any by
 the way), they asked, Whose Delectable Mountains are these? And
 whose be the sheep that feed upon them?
 
-
- Mountains delectable they now ascend,
- Where Shepherds be, which to them do commend
- Alluring things, and things that cautious are,
- Pilgrims are steady kept by faith and fear.
+Mountains delectable they now ascend,\
+Where Shepherds be, which to them do commend\
+Alluring things, and things that cautious are,\
+Pilgrims are steady kept by faith and fear.
 
 
 {296} SHEP. These mountains are Immanuel's Land, and they are
@@ -4698,10 +4691,10 @@ the glass; yet they thought they saw something like the gate, and
 also some of the glory of the place. Then they went away, and sang
 this song--
 
- Thus, by the Shepherds, secrets are reveal'd,
- Which from all other men are kept conceal'd.
- Come to the Shepherds, then, if you would see
- Things deep, things hid, and that mysterious be.
+Thus, by the Shepherds, secrets are reveal'd,\
+Which from all other men are kept conceal'd.\
+Come to the Shepherds, then, if you would see\
+Things deep, things hid, and that mysterious be.
 
 
 {306} When they were about to depart, one of the Shepherds gave
@@ -4760,12 +4753,12 @@ think of what he hath heard already, and then stop again for him
 afterwards, and see if by degrees we can do any good to him? Then
 said Hopeful--
 
- Let Ignorance a little while now muse
- On what is said, and let him not refuse
- Good counsel to embrace, lest he remain
- Still ignorant of what's the chiefest gain.
- God saith, those that no understanding have,
- Although he made them, them he will not save.
+Let Ignorance a little while now muse\
+On what is said, and let him not refuse\
+Good counsel to embrace, lest he remain\
+Still ignorant of what's the chiefest gain.\
+God saith, those that no understanding have,\
+Although he made them, them he will not save.
 
 
 HOPE. He further added, It is not good, I think, to say all to him
@@ -4911,6 +4904,8 @@ or sell what they have, and themselves outright to boot; yet they
 that have faith, saving faith, though but a little of it, cannot
 do so. Here, therefore, my brother, is thy mistake.
 
+## The Pilgrim's Progress, §§ 318–379
+
 {318} HOPE. I acknowledge it; but yet your severe reflection had
 almost made me angry.
 
@@ -5041,10 +5036,10 @@ danger. However, since the lion and the bear have not as yet devoured
 me, I hope God will also deliver us from the next uncircumcised
 Philistine. Then sang Christian--
 
- Poor Little-faith! Hast been among the thieves?
- Wast robb'd? Remember this, whoso believes,
- And gets more faith, shall then a victor be
- Over ten thousand, else scarce over three.
+Poor Little-faith! Hast been among the thieves?\
+Wast robb'd? Remember this, whoso believes,\
+And gets more faith, shall then a victor be\
+Over ten thousand, else scarce over three.
 
 
 {328} So they went on and Ignorance followed. They went then till
@@ -5109,13 +5104,12 @@ done, he bid them go on their way, and take good heed to the other
 directions of the shepherds. So they thanked him for all his
 kindness, and went softly along the right way, singing--
 
-
- Come hither, you that walk along the way;
- See how the pilgrims fare that go astray.
- They catched are in an entangling net,
- 'Cause they good counsel lightly did forget:
- 'Tis true they rescued were, but yet you see,
- They're scourged to boot. Let this your caution be.
+Come hither, you that walk along the way;\
+See how the pilgrims fare that go astray.\
+They catched are in an entangling net,\
+'Cause they good counsel lightly did forget:\
+'Tis true they rescued were, but yet you see,\
+They're scourged to boot. Let this your caution be.
 
 
 {331} Now, after a while, they perceived, afar off, one coming
@@ -5221,12 +5215,12 @@ HOPE. Where God began with us. But do you begin, if you please.
 
 CHR. I will sing you first this song:--
 
- When saints do sleepy grow, let them come hither,
- And hear how these two pilgrims talk together:
- Yea, let them learn of them, in any wise,
- Thus to keep ope their drowsy slumb'ring eyes.
- Saints' fellowship, if it be managed well,
- Keeps them awake, and that in spite of hell.
+When saints do sleepy grow, let them come hither,\
+And hear how these two pilgrims talk together:\
+Yea, let them learn of them, in any wise,\
+Thus to keep ope their drowsy slumb'ring eyes.\
+Saints' fellowship, if it be managed well,\
+Keeps them awake, and that in spite of hell.
 
 
 {338} CHR. Then Christian began and said, I will ask you a question.
@@ -5744,14 +5738,14 @@ go on before; I must stay a while behind.
 
 Then they said--
 
- Well, Ignorance, wilt thou yet foolish be,
- To slight good counsel, ten times given thee?
- And if thou yet refuse it, thou shalt know,
- Ere long, the evil of thy doing so.
- Remember, man, in time, stoop, do not fear;
- Good counsel taken well, saves: therefore hear.
- But if thou yet shalt slight it, thou wilt be
- The loser, (Ignorance), I'll warrant thee.
+Well, Ignorance, wilt thou yet foolish be,\
+To slight good counsel, ten times given thee?\
+And if thou yet refuse it, thou shalt know,\
+Ere long, the evil of thy doing so.\
+Remember, man, in time, stoop, do not fear;\
+Good counsel taken well, saves: therefore hear.\
+But if thou yet shalt slight it, thou wilt be\
+The loser, (Ignorance), I'll warrant thee.
 
 
 Then Christian addressed thus himself to his fellow:--
@@ -5909,6 +5903,8 @@ do, as I hinted before, even shun the thoughts of guilt and terror,
 therefore, when once they are rid of their awakenings about the
 terrors and wrath of God, they harden their hearts gladly, and
 choose such ways as will harden them more and more.
+
+## The Pilgrim's Progress, §§ 380–403
 
 {380} CHR. You are pretty near the business, for the bottom of all
 is for want of a change in their mind and will. And therefore they
@@ -6262,32 +6258,31 @@ well as from the City of Destruction. So I awoke, and behold it
 was a dream.
 
 
+## The Conclusion
 
-{404} The Conclusion.
 
+Now, Reader, I have told my dream to thee;\
+See if thou canst interpret it to me,\
+Or to thyself, or neighbour; but take heed\
+Of misinterpreting; for that, instead\
+Of doing good, will but thyself abuse:\
+By misinterpreting, evil ensues.
 
- Now, Reader, I have told my dream to thee;
- See if thou canst interpret it to me,
- Or to thyself, or neighbour; but take heed
- Of misinterpreting; for that, instead
- Of doing good, will but thyself abuse:
- By misinterpreting, evil ensues.
+Take heed, also, that thou be not extreme,\
+In playing with the outside of my dream:\
+Nor let my figure or similitude\
+Put thee into a laughter or a feud.\
+Leave this for boys and fools; but as for thee,\
+Do thou the substance of my matter see.
 
- Take heed, also, that thou be not extreme,
- In playing with the outside of my dream:
- Nor let my figure or similitude
- Put thee into a laughter or a feud.
- Leave this for boys and fools; but as for thee,
- Do thou the substance of my matter see.
+Put by the curtains, look within my veil,\
+Turn up my metaphors, and do not fail,\
+There, if thou seekest them, such things to find,\
+As will be helpful to an honest mind.
 
- Put by the curtains, look within my veil,
- Turn up my metaphors, and do not fail,
- There, if thou seekest them, such things to find,
- As will be helpful to an honest mind.
-
- What of my dross thou findest there, be bold
- To throw away, but yet preserve the gold;
- What if my gold be wrapped up in ore?--
- None throws away the apple for the core.
- But if thou shalt cast all away as vain,
- I know not but 'twill make me dream again.
+What of my dross thou findest there, be bold\
+To throw away, but yet preserve the gold;\
+What if my gold be wrapped up in ore?--\
+None throws away the apple for the core.\
+But if thou shalt cast all away as vain,\
+I know not but 'twill make me dream again.

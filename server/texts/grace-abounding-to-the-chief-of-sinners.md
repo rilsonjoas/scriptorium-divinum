@@ -16,54 +16,48 @@
 Transcribed from the 1905 The Religious Tract Society edition by David
 Price, email ccx074@pglaf.org
 
-                          [Picture: Book cover]
+[Picture: Book cover]
 
 
+GRACE ABOUNDING TO THE CHIEF OF SINNERS
+
+IN A FAITHFUL ACCOUNT OF\
+THE LIFE AND DEATH OF JOHN BUNYAN\
+OR\
+A BRIEF RELATION OF THE EXCEEDING\
+MERCY OF GOD IN CHRIST TO HIM\
+NAMELY
+
+IN HIS TAKING HIM OUT OF THE DUNGHILL, AND\
+CONVERTING HIM TO THE FAITH OF HIS BLESSED SON JESUS\
+CHRIST.  HERE IS ALSO PARTICULARLY SHEWED, WHAT\
+SIGHT OF, AND WHAT TROUBLES HE HAD FOR SIN; AND\
+ALSO, WHAT VARIOUS TEMPTATIONS HE HATH MET WITH,\
+AND HOW GOD HATH CARRIED HIM THROUGH THEM.
+
+_THOROUGHLY REVISED BY THE EIGHTH EDITION_
+
+WITH\
+EIGHT COLOURED ILLUSTRATIONS\
+BY HAROLD COPPING
+
+[Picture: Decorative graphic]
+
+London\
+THE RELIGIOUS TRACT SOLCIETY\
+4 Bouverie Street and 65 St Paul’s Churchyard\
+1905
+
+* * * * *
+
+_Come and hear all ye that fear_\
+_God_, _and I will declare what He hath_\
+_done for my soul_.—_Psalm lxvi. 16_.
+
+* * * * *
 
 
-
-                 GRACE ABOUNDING TO THE CHIEF OF SINNERS
-
-
-                         IN A FAITHFUL ACCOUNT OF
-                    THE LIFE AND DEATH OF JOHN BUNYAN
-                                    OR
-                    A BRIEF RELATION OF THE EXCEEDING
-                      MERCY OF GOD IN CHRIST TO HIM
-                                  NAMELY
-
-                IN HIS TAKING HIM OUT OF THE DUNGHILL, AND
-           CONVERTING HIM TO THE FAITH OF HIS BLESSED SON JESUS
-             CHRIST.  HERE IS ALSO PARTICULARLY SHEWED, WHAT
-             SIGHT OF, AND WHAT TROUBLES HE HAD FOR SIN; AND
-             ALSO, WHAT VARIOUS TEMPTATIONS HE HATH MET WITH,
-                AND HOW GOD HATH CARRIED HIM THROUGH THEM.
-
-                _THOROUGHLY REVISED BY THE EIGHTH EDITION_
-
-                                   WITH
-                       EIGHT COLOURED ILLUSTRATIONS
-                            BY HAROLD COPPING
-
-                      [Picture: Decorative graphic]
-
-                                  London
-                       THE RELIGIOUS TRACT SOLCIETY
-              4 Bouverie Street and 65 St Paul’s Churchyard
-                                   1905
-
-                                * * * * *
-
-                     _Come and hear all ye that fear_
-                 _God_, _and I will declare what He hath_
-                  _done for my soul_.—_Psalm lxvi. 16_.
-
-                                * * * * *
-
-
-
-
-PREFATORY NOTE
+## Prefatory Note
 
 
 THE text in this edition is as nearly as possible that of the eighth,
@@ -86,33 +80,9 @@ whose illustrations to the ‘Pilgrim’s Progress’ have justly attracted
 much attention.
 
 
+## A Preface
 
-
-CONTENTS
-
-                                                                  PAGE
-PREFATORY NOTE                                                       7
-A PREFACE                                                           11
-GRACE ABOUNDING TO THE CHIEF OF SINNERS, paragraphs 1–339           17
-       A Brief Account of the Author’s Call to the Work of         147
-       the Ministry
-       A Brief Account of the Author’s Imprisonment                169
-       The Conclusion, paragraphs 1–7                              180
-A RELATION OF THE IMPRISONMENT OF THE AUTHOR IN THE MONTH          183
-OF NOVEMBER 1660
-A CONTINUATION OF THE AUTHOR’S LIFE                                229
-A BRIEF CHARACTER OF THE AUTHOR                                    241
-POSTSCRIPT                                                         243
-
-
-
-
-A PREFACE
-
-
-OR, BRIEF ACCOUNT OF THE PUBLISHING THIS WORK.  WRITTEN BY THE AUTHOR
-THEREOF, AND DEDICATED TO THOSE WHOM GOD HATH COUNTED HIM WORTHY TO BEGET
-TO FAITH, BY HIS MINISTRY IN THE WORD
+_Or, Brief Account of the Publishing This Work. Written by the Author Thereof, and Dedicated to Those Whom God Hath Counted Him Worthy to Beget to Faith, by His Ministry in the Word_
 
 CHILDREN, Grace be with you.  _Amen_.  I being taken from you in
 presence, and so tied up that I cannot perform that duty, that from God
@@ -222,15 +192,12 @@ My dear Children,
 _The milk and honey are beyond this wilderness_.  _God be merciful to
 you_, _and grant that you be not slothful to go in to possess the land_.
 
-                                                              JOHN BUNYAN.
+JOHN BUNYAN.
 
 
+## Grace Abounding, §§ 1–77
 
-
-GRACE ABOUNDING TO THE CHIEF OF SINNERS
-OR,
-A BRIEF RELATION OF THE EXCEEDING MERCY OF GOD IN CHRIST, TO HIS POOR
-SERVANT, JOHN BUNYAN
+_Or, A Brief Relation of the Exceeding Mercy of God in Christ, to His Poor Servant, John Bunyan_
 
 
 IN this my relation of the merciful working of God upon my soul, it will
@@ -356,7 +323,7 @@ her father was, and how he would reprove and correct vice, both in his
 house, and among his neighbours; what a strict and holy life he lived in
 his days, both in word and deed.
 
-          [Picture: Bunyan and his Wife read her Father’s Books]
+[Picture: Bunyan and his Wife read her Father’s Books]
 
 16.  Wherefore these books, with this relation, though they did not reach
 my heart, to awaken it about my sad and sinful state, yet they did beget
@@ -428,7 +395,7 @@ as being very hotly displeased with me, and as if He did severely
 threaten me with some grievous punishment for these and other ungodly
 practices.
 
-               [Picture: Bunyan hears a Voice from Heaven]
+[Picture: Bunyan hears a Voice from Heaven]
 
 23.  I had no sooner thus conceived in my mind, but, suddenly, this
 conclusion was fastened on my spirit (for the former hint did set my sins
@@ -556,7 +523,7 @@ when I stood and looked on, did continually so shake my mind, that I
 durst not stand at the steeple-door any longer, but was forced to flee,
 for fear the steeple should fall upon my head.
 
-                     [Picture: Bunyan at the Steeple]
+[Picture: Bunyan at the Steeple]
 
 35.  Another thing was, my dancing; I was a full year before I could
 quite leave that; but all this while, when I thought I kept this or that
@@ -588,7 +555,7 @@ under his assaults.  They also discoursed of their own wretchedness of
 heart, and of their unbelief; and did contemn, slight and abhor their own
 righteousness, as filthy, and insufficient to do them any good.
 
-          [Picture: Bunyan listens to the poor women of Bedford]
+[Picture: Bunyan listens to the poor women of Bedford]
 
 38.  And, methought, they spake as if joy did make them speak; they spake
 with such pleasantness of scripture language, and with such appearance of
@@ -994,6 +961,8 @@ foolish vanity; yea, my heart would not be moved to mind that which was
 good; it began to be careless, both of my soul and heaven; it would now
 continually hang back, both to, and in every duty; and was as a clog on
 the leg of a bird, to hinder me from flying.
+
+## Grace Abounding, §§ 78–151
 
 78.  Nay, thought I, now I grow worse and worse: now I am farther from
 conversion than ever I was before.  Wherefore I began to sink greatly in
@@ -1755,6 +1724,8 @@ Christ could, with the consent of His word, deliver him: but mine was
 against the gospel; yea, against the Mediator thereof; I had sold my
 Saviour.
 
+## Grace Abounding, §§ 152–208
+
 152.  Now again should I be as if racked upon the wheel, when I
 considered, that, besides the guilt that possessed me, I should be so
 void of grace, so bewitched.  What, thought I, must it be no sin but
@@ -2096,7 +2067,7 @@ a little more with him, I found him, though a good man, a stranger to
 much combat with the devil.  Wherefore I went to God again, as well as I
 could, for mercy still.
 
-                     [Picture: Bunyan seeks Comfort]
+[Picture: Bunyan seeks Comfort]
 
 181.  Now also did the tempter begin to mock me in my misery, saying,
 _That seeing I had thus parted with the Lord Jesus_, _and provoked Him to
@@ -2471,6 +2442,8 @@ against me_?  _There are but three or four_; _And cannot God miss them_,
 _and save me for all them_?  Sometimes again I would think, _Oh_! _if it
 were not for these three or four words_, _now how might I be comforted_!
 And I could hardly forbear at some times, to wish them out of the book.
+
+## Grace Abounding, §§ 209–264
 
 209.  Then methought I should see as if both _Peter_ and _Paul_, and
 _John_, and all the writers, did look with scorn upon me, and hold me in
@@ -3097,8 +3070,7 @@ oft since that time, been great refreshment to my spirit.  Blessed be God
 for having mercy on me.
 
 
-
-_A brief Account of the Author’s Call to the Work of the Ministry_
+## A Brief Account of the Author’s Call to the Work of the Ministry
 
 
 265.  AND now I am speaking my experience, I will in this place thrust in
@@ -3492,7 +3464,7 @@ should make my ministry to be abandoned.
 307.  It began therefore to be rumoured up and down among the people,
 that I was a witch, a Jesuit, a highwayman, and the like.
 
-              [Picture: Bunyan is looked on with Suspicion]
+[Picture: Bunyan is looked on with Suspicion]
 
 308.  To all which, I shall only say, God knows that I am innocent.  But
 as for mine accusers, let them provide themselves to meet me before the
@@ -3582,8 +3554,7 @@ world terrified, and made afraid to hear me preach; of which I shall in
 the next place give you a brief account.
 
 
-
-A BRIEF ACCOUNT OF THE AUTHOR’S IMPRISONMENT
+## A Brief Account of the Author’s Imprisonment
 
 
 318.  Having made profession of the glorious gospel of Christ a long
@@ -3693,7 +3664,7 @@ be taken from them, especially my poor blind child, who lay nearer my
 heart than all besides: Oh! the thoughts of the hardship I thought my
 poor blind one might go under, would break my heart to pieces.
 
-           [Picture: Bunyan Parting with his Wife and Children]
+[Picture: Bunyan Parting with his Wife and Children]
 
 328.  Poor child! thought I, what sorrow art thou like to have for thy
 portion in this world!  Thou must be beaten, must beg, suffer hunger,
@@ -3822,8 +3793,7 @@ relate, _But these out of the spoils won in battle I have dedicated to
 maintain the house of God_.  1 Chron. xxvi. 27.
 
 
-
-THE CONCLUSION
+## The Conclusion
 
 
 1.  OF all the temptations that ever I met with in my life, to question
@@ -3878,9 +3848,7 @@ provoke me to pray unto God, through Christ, to help me, and carry me
 through this world.
 
 
-
-
-A RELATION OF MY IMPRISONMENT IN THE MONTH OF NOVEMBER 1660
+## A Relation of My Imprisonment in the Month of November 1660
 
 
 WHEN, by the good hand of my God, I had for five or six years together,
@@ -4231,12 +4199,12 @@ things shall work together for good to them that love God.
 
 Farewell.
 
-                                * * * * *
+* * * * *
 
 _Here is the Sum of my Examination before Justice_ KEELIN, _Justice_
 CHESTER, _Justice_ BLUNDALE, _Justice_ BEECHER, _Justice_ SNAGG, _etc._
 
-                                * * * * *
+* * * * *
 
 AFTER I had lain in prison above seven weeks, the quarter-sessions were
 to be kept in Bedford, for the county thereof, unto which I was to be
@@ -4485,13 +4453,13 @@ can take from us.
 Thus have I given you the substance of my examination.  The Lord make
 this profitable to all that shall read or hear it.  Farewell.
 
-                                * * * * *
+* * * * *
 
 _The Substance of some Discourse had between the Clerk of the Peace and
 myself_; _when he came to admonish me_, _according to the tenor of that
 Law_, _by which I was in prison_.
 
-                                * * * * *
+* * * * *
 
 WHEN I had lain in prison other twelve weeks, and now not knowing what
 they intended to do with me, upon the third of April 1661, comes Mr Cobb
@@ -4744,15 +4712,15 @@ and meek discoursing with me; and so we parted.
 
 O! that we might meet in heaven!
 
-                                                          Farewell.  J. B.
+Farewell.  J. B.
 
-                                * * * * *
+* * * * *
 
 _Here followeth a discourse between my Wife and the Judges_, _with
 others_, _touching my Deliverance at the Assizes following_; _the which I
 took from her own Mouth_.
 
-                                * * * * *
+* * * * *
 
 AFTER that I had received this sentence of banishing, or hanging, from
 them, and after the former admonition, touching the determination of the
@@ -4799,7 +4767,7 @@ where the two judges, and many justices and gentry of the country, was in
 company together.  She then coming into the chamber with a bashed face,
 and a trembling heart, began her errand to them in this manner:—
 
-            [Picture: Bunyan’s Wife pleading with the Judges]
+[Picture: Bunyan’s Wife pleading with the Judges]
 
 _Woman_.  My lord (directing herself to judge Hale), I make bold to come
 once again to your Lordship, to know what may be done with my husband.
@@ -4947,12 +4915,12 @@ So, when I departed from them, the book of statutes was brought, but what
 they said of it I know nothing at all, neither did I hear any more from
 them.
 
-                                * * * * *
+* * * * *
 
 _Some Carriages of the Adversaries of God’s Truth with me at the next
 Assizes_, _which was on the_ 19_th_ _of the first month_, 1662.
 
-                                * * * * *
+* * * * *
 
 I SHALL pass by what befell between these two assizes, how I had, by my
 jailor, some liberty granted me, more than at the first, and how I
@@ -5011,10 +4979,10 @@ and left in prison.
 
 Farewell.
 
-                                                              JOHN BUNYAN.
+JOHN BUNYAN.
 
 
-
+## A Continuation of Mr Bunyan’s Life
 
 _A Continuation of_ Mr BUNYAN’S LIFE; _beginning where he left off_, _and
 concluding with the Time and Manner of his Death and Burial_: _together
@@ -5280,9 +5248,7 @@ tears be wiped away; when the just shall be incorporated as members of
 Christ their head, and reign with Him as kings and priests for ever.
 
 
-
-
-_A brief Character of Mr_ JOHN BUNYAN
+## A Brief Character of Mr John Bunyan
 
 
 HE appeared in countenance to be of a stern and rough temper, but in his
@@ -5305,15 +5271,13 @@ death hath been much regretted; a person who had tried the smiles and
 frowns of time; not puffed up in prosperity, nor shaken in adversity;
 always holding the golden mean.
 
-    In him at once did three great worthies shine,
-    Historian, poet, and a choice divine:
-    Then let him rest in undisturbed dust,
-    Until the resurrection of the just.
+In him at once did three great worthies shine,\
+Historian, poet, and a choice divine:\
+Then let him rest in undisturbed dust,\
+Until the resurrection of the just.
 
 
-
-
-POSTSCRIPT
+## Postscript
 
 
 IN this his pilgrimage, God blessed him with four children, one of which,
@@ -5325,18 +5289,16 @@ died, to follow her faithful pilgrim from this world to the other,
 whither he was gone before her; whilst his works, which consist of sixty
 books, remain for the edifying of the reader, and praise of the author.
 
-                                                                   _Vale_.
+_Vale_.
 
-                                * * * * *
+* * * * *
 
-                                  FINIS
+FINIS
 
-                                * * * * *
-
-
+* * * * *
 
 
-FOOTNOTES
+## Footnotes
 
 
 {7}  The marginal summaries have not been included in this Project
