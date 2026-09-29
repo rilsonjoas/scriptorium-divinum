@@ -1960,8 +1960,12 @@ ou sair da fila.
   inteira, então são ~7x o trabalho, e o grego de Inácio é mais difícil
   (duas recensões do texto manuscrito existem; usar a de Lightfoot, que
   já resolve isso).
-- [ ] **Catecismo de Heidelberg** (alemão, 1563) — fonte: Schaff, _Creeds
-  of Christendom_ vol. III, via CCEL. Ainda não localizado o link exato.
+- [x] **Catecismo de Heidelberg** (1563) — ✅ ENTREGUE 2026-09-29
+  (`server/texts/catecismo-de-heidelberg.md`, slug `catecismo-de-heidelberg`). Tradução completa
+  das 129 perguntas e respostas organizadas nos 52 Domingos (Dia do Senhor) e nas três partes clássicas
+  (Da Miséria do Homem, Da Redenção do Homem, Da Gratidão), com texto e referências bíblicas integrais
+  a partir do original alemão/latino via Schaff (vol. III / CCEL). Autoria atribuída a Zacarias Ursino e
+  Caspar Oleviano. Script SQL em `scripts/add_catecismo_de_heidelberg_2026-09-29.sql` com aviso de IA e revisão humana pendente.
 - [ ] **Cânones de Dort** (latim, 1619) — idem, fonte Schaff vol. III.
 - [ ] **Confissão de Fé de Westminster** (inglês, 1646) — idem Schaff
   vol. III. Médio-longo (33 capítulos): maior tarefa da lista depois de
