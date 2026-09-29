@@ -1946,9 +1946,11 @@ ou sair da fila.
   107 perguntas e respostas traduzidas a partir do original de 1647 (Schaff, vol. III / CCEL),
   estruturadas em 10 capítulos temáticos com cotejo do texto original em inglês. Script SQL
   de cadastro em `scripts/add_breve_catecismo_2026-09-29.sql` com aviso de IA e revisão humana pendente.
-- [ ] **Didaquê** (grego) — o original em inglês (Hitchcock & Brown,
-  1884) já está no catálogo (`the-teaching-of-the-twelve-apostles-didache`),
-  falta a tradução portuguesa.
+- [x] **Didaquê: O Ensino dos Doze Apóstolos** — ✅ ENTREGUE 2026-09-29
+  (`server/texts/didaque.md`, slug `didaque`). Tradução completa dos 16 capítulos diretamente
+  a partir do grego koiné (edição Bryennios / Hitchcock & Brown, 1884), com texto grego cotejado,
+  versículos numerados e notas. Vinculada à edição inglesa original (`the-teaching-of-the-twelve-apostles-didache`).
+  Script SQL em `scripts/add_didaque_2026-09-29.sql` com aviso de IA e revisão humana pendente.
 - [ ] **Cartas de Inácio de Antioquia** (7 cartas: Éfeso, Magnésia,
   Trales, Roma, Filadélfia, Esmirna, Policarpo) — grego, mesma edição
   de Lightfoot do Diogneto. Fontes conferidas e localizadas em
