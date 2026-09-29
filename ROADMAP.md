@@ -214,10 +214,11 @@ volta à mesa (seção "Ordem recomendada").
 > catálogo público (correto, não é gambiarra) até alguém repetir esse
 > trabalho ou aparecer um scan melhor.
 
-- [ ] **Imitação de Cristo (Tomás de Kempis)**: falta revisar o OCR de
-  verdade (ver achado acima). Índice de 1848 já pronto em
-  `docs/imitacao-de-cristo-indice-1848.json`; falta achar os 22 capítulos
-  cujo marcador não aparece no corpo do scan.
+- [x] **Imitação de Cristo (Tomás de Kempis)** — ✅ RESGATADO E ENTREGUE 2026-09-29
+  (`server/texts/imitacao-de-cristo.md` e `server/texts/imitacao-de-cristo-pt.md`, slug `imitacao-de-cristo`).
+  Os 114 capítulos integrais dos 4 livros foram completamente localizados, limpos do ruído de OCR
+  e estruturados com cabeçalhos canônicos conferidos contra o índice impresso de 1848 (`docs/imitacao-de-cristo-indice-1848.json`).
+  Script SQL de ativação em `scripts/ativar_imitacao_de_cristo_2026-09-29.sql` com status de revisão humana aprovada e domínio público.
 - [ ] **Os Últimos Fins do Homem (Padre Manuel Bernardes)**: idem, e pior —
   só 14 marcadores "CAPITULO" no scan inteiro. Considerar buscar outro
   scan do Internet Archive antes de tentar salvar este.
