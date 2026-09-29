@@ -135,6 +135,20 @@ def download_gutenberg(gutenberg_id):
             
     return None
 
+def gutenberg_title_matches(raw_text, expected_title):
+    """Confere o "Title:" do cabeçalho do Gutenberg contra o título esperado.
+
+    Em 2026-09-29 cinco obras estavam com o número errado no catálogo e o
+    site serviu outro livro (ex.: uma biografia de Rizal no lugar do
+    Catecismo Maior). Exige ao menos uma palavra significativa em comum.
+    """
+    m = re.search(r"^Title:\s*(.+)$", raw_text[:5000], re.MULTILINE)
+    if not m:
+        return False, None
+    found = m.group(1).strip()
+    words = lambda t: {w for w in re.findall(r"[a-zà-ÿ]{4,}", t.lower())}
+    return bool(words(found) & words(expected_title)), found
+
 def clean_gutenberg_text(text):
     # Encontra os delimitadores padrões do Gutenberg
     start_match = re.search(r"\*\*\*\s*START OF TH(E|IS) PROJECT GUTENBERG EBOOK.*?\*\*\*", text, re.IGNORECASE)
@@ -285,6 +299,10 @@ def import_book(book_info):
     if book_info.get("gutenberg_id"):
         raw_text = download_gutenberg(book_info["gutenberg_id"])
         if raw_text:
+            ok, found = gutenberg_title_matches(raw_text, f'{title} {book_info.get("original_title") or ""}')
+            if not ok:
+                print(f"Erro: Gutenberg #{book_info['gutenberg_id']} traz '{found}', não '{title}'. Número errado no catálogo?")
+                return False
             raw_text = clean_gutenberg_text(raw_text)
     elif book_info.get("wikisource_title"):
         raw_text = download_wikisource(book_info["wikisource_title"])

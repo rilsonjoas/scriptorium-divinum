@@ -717,6 +717,34 @@ leitor tem decisões de design e passa por conversa antes.
    540 KB). Levantar quais, escrever a regra de cada uma e conferir
    contra o sumário, como no lote de 2026-09-28.
 
+   > [!DANGER] Achado no levantamento: 5 textos errados em produção
+   > Cinco arquivos importados do Gutenberg por número tinham **outro
+   > livro** dentro (o número estava errado no pipeline antigo):
+   >
+   > | Arquivo | O que tinha de fato |
+   > |---|---|
+   > | the-large-catechism | biografia de José Rizal (#6867) |
+   > | the-small-catechism | manual da WCTU (#6868) |
+   > | the-rule-of-saint-benedict | discurso do Estado da União de Eisenhower (#5040) |
+   > | proslogium-monologium-cur-deus-homo | Luigi Blanch, _Della scienza militare_ (#48512) |
+   > | de-consolatione-philosophiae | _Space-Liner X-87_ (#61845) |
+   >
+   > Correção (2026-09-29): o _Large Catechism_ passou a ser o Gutenberg
+   > #1722 (Bente & Dau, _Triglot Concordia_, 1921), já dividido em
+   > capítulos. Os outros quatro arquivos foram **apagados**: a ficha
+   > continua no ar e o botão "Ler Online" some sozinho (item 4).
+   > Substitutos em domínio público ainda por importar, cada um conferido
+   > contra o original antes de entrar:
+   > - Regra de São Bento: tradução de Gasquet (1909), archive.org.
+   >   (O Gutenberg #50040, de Doyle, é © 1948: não serve.)
+   > - Anselmo: tradução de S. N. Deane (1903; Deane †1943), archive.org.
+   > - Boécio: texto latino (The Latin Library / Wikisource).
+   > - Catecismo Menor: Bente & Dau, _Triglot_ (1921). (O Gutenberg
+   >   #1670 é a versão moderna de Robert E. Smith: não serve.)
+   >
+   > Lição: importação por número precisa conferir título e autor do
+   > arquivo baixado, não só se o download funcionou.
+
 > [!WARNING] Teto do catálogo é menor do que parecia (achado 2026-08-21)
 > O plano abaixo já mirava só "~30-50 obras" desde o início, e o
 > catálogo está em 32 — perto do teto que o próprio plano previa, não

@@ -442,6 +442,34 @@ def chapterize_didache(body):
     return out
 
 
+# ---------------------------------------------------------------- Lutero, Catecismo Maior
+
+def chapterize_large_catechism(body):
+    """Bente & Dau (Gutenberg #1722): 5 partes (#) e 21 seções (##)."""
+    lines = dedent(body)
+    out = []
+    i = 0
+    viu_prefacio = False
+    while i < len(lines):
+        l = lines[i]
+        parte = re.fullmatch(r"\[?Part (First|Second|Third|Fourth|Fifth)\.\]?\s*(.*)", l)
+        if parte:
+            titulo = parte.group(2).strip()
+            if not titulo:  # "Part Fourth." + "OF BAPTISM." na linha seguinte
+                j = next_nonblank(lines, i)
+                titulo, i = lines[j], j
+            out.append(f"# Part {parte.group(1)}. {title_case(titulo.rstrip('.'))}")
+        elif l == "Preface" and not viu_prefacio:
+            viu_prefacio = True
+            out.append("## Preface")
+        elif re.fullmatch(r"The (First|Second|Third|Fourth|Fifth|Sixth|Seventh|Eighth) Commandment\.|The Ninth and Tenth Commandments|Conclusion of the Ten Commandments\.|Article (I|II|III)\.|The (First|Second|Third|Fourth|Fifth|Sixth) Petition\.|The Seventh and Last Petition\.", l):
+            out.append("## " + l.rstrip("."))
+        else:
+            out.append(l)
+        i += 1
+    return out
+
+
 RULES = {
     "summa-theologica-part-i-prima-pars.md": chapterize_summa,
     "summa-theologica-part-i-ii-pars-prima-secundae.md": chapterize_summa,
@@ -455,6 +483,7 @@ RULES = {
     "the-apostolic-tradition-of-hippolytus.md": chapterize_hippolytus,
     "leaves-from-st-john-chrysostom.md": chapterize_chrysostom,
     "the-teaching-of-the-twelve-apostles-didache.md": chapterize_didache,
+    "the-large-catechism.md": chapterize_large_catechism,
 }
 
 
