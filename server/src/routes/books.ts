@@ -8,7 +8,7 @@ import {
 } from '../schemas/book.schema.js';
 import { errorResponseSchema } from '../schemas/response.schema.js';
 import { NotFoundError } from '../plugins/error-handler.js';
-import { readText, readingMinutes, textAvailable, withTextAvailable } from '../texts.js';
+import { onlyAvailable, readText, readingMinutes, textAvailable, withTextAvailable } from '../texts.js';
 
 const booksListResponseJson = zodToJsonSchema(
   z.object({
@@ -48,9 +48,15 @@ export async function bookRoutes(app: FastifyInstance) {
     },
     async (request) => {
       const query = listBooksQuerySchema.parse(request.query);
-      const { items, total } = await listBooks(query);
+      const { items } = await listBooks(query);
+      const withAvailability = items.map(withTextAvailable);
+      // Catálogo público: obra sem leitura online não aparece (2026-09-29).
+      // O admin pede includeUnavailable=true para continuar vendo tudo.
+      const visible = query.includeUnavailable ? withAvailability : onlyAvailable(withAvailability);
+      const total = visible.length;
+      const start = (query.page - 1) * query.limit;
       return {
-        items: items.map(withTextAvailable),
+        items: visible.slice(start, start + query.limit),
         total,
         page: query.page,
         limit: query.limit,

@@ -3,10 +3,10 @@ import { authorsService, booksService, categoriesService, searchService, setting
 import { Author, Book, SiteSettings } from '@/types'
 
 // Authors hooks
-export const useAuthors = () => {
+export const useAuthors = (options?: { includeUnavailable?: boolean }) => {
   return useQuery({
-    queryKey: ['authors'],
-    queryFn: () => authorsService.getAll(),
+    queryKey: ['authors', options],
+    queryFn: () => authorsService.getAll(options),
     staleTime: 5 * 60 * 1000, // 5 minutes
   })
 }
@@ -34,6 +34,7 @@ export const useBooks = (options?: {
   featured?: boolean
   limit?: number
   categories?: string[]
+  includeUnavailable?: boolean
 }) => {
   return useQuery({
     queryKey: ['books', options],

@@ -2,7 +2,7 @@ import type { FastifyInstance } from 'fastify';
 import { z } from 'zod';
 import { zodToJsonSchema } from 'zod-to-json-schema';
 import { listAuthors, getAuthorBySlug } from '../db/queries.js';
-import { withTextAvailable } from '../texts.js';
+import { onlyAvailable, textAvailable, withTextAvailable } from '../texts.js';
 import {
   authorSchema,
   listAuthorsQuerySchema,
@@ -35,7 +35,14 @@ export async function authorRoutes(app: FastifyInstance) {
     },
     async (request) => {
       const query = listAuthorsQuerySchema.parse(request.query);
-      return listAuthors(query);
+      const rows = await listAuthors(query);
+      const withCount = rows.map(({ bookPaths, ...author }) => ({
+        ...author,
+        bookCount: bookPaths.filter((p) => textAvailable(p)).length,
+      }));
+      // Autor sem nenhuma obra com leitura online não aparece (2026-09-29):
+      // sua página só levaria a um beco sem saída.
+      return query.includeUnavailable ? withCount : withCount.filter((a) => a.bookCount > 0);
     },
   );
 
@@ -56,7 +63,8 @@ export async function authorRoutes(app: FastifyInstance) {
       if (!author) {
         throw new NotFoundError(`Autor '${slug}'`);
       }
-      return { ...author, books: author.books.map(withTextAvailable) };
+      // Página pública do autor: obra sem leitura online não aparece (2026-09-29).
+      return { ...author, books: onlyAvailable(author.books.map(withTextAvailable)) };
     },
   );
 }

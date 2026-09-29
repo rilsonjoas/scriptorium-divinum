@@ -38,7 +38,7 @@ export default function AdminAuthors() {
   const [isDeleting, setIsDeleting] = useState(false);
 
   const queryClient = useQueryClient();
-  const { data: authors, isLoading, error } = useAuthors();
+  const { data: authors, isLoading, error } = useAuthors({ includeUnavailable: true });
 
   const invalidateAuthors = async () => {
     await queryClient.invalidateQueries({ queryKey: ['authors'] });

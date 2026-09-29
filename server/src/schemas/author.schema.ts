@@ -17,6 +17,12 @@ export const authorSchema = z.object({
 export const listAuthorsQuerySchema = z.object({
   tradition: z.string().optional(),
   search: z.string().optional(),
+  /**
+   * Por padrão a lista pública some com o autor cujas obras nenhuma tem
+   * leitura online (2026-09-29). O admin passa `true` para continuar
+   * vendo todo mundo.
+   */
+  includeUnavailable: z.preprocess((val) => val === 'true' || val === true, z.boolean()).optional(),
 });
 
 export type Author = z.infer<typeof authorSchema>;

@@ -2,10 +2,11 @@ import { apiClient } from '@/lib/api-client';
 import type { Author, Book, Category, SiteSettings } from '@/types';
 
 export const authorsService = {
-  async getAll(params?: { tradition?: string; search?: string }): Promise<Author[]> {
+  async getAll(params?: { tradition?: string; search?: string; includeUnavailable?: boolean }): Promise<Author[]> {
     const query = new URLSearchParams();
     if (params?.tradition) query.set('tradition', params.tradition);
     if (params?.search) query.set('search', params.search);
+    if (params?.includeUnavailable) query.set('includeUnavailable', 'true');
     const qs = query.toString() ? `?${query.toString()}` : '';
     return apiClient<Author[]>(`/api/v1/authors${qs}`);
   },
@@ -36,6 +37,8 @@ export const booksService = {
     tag?: string;
     featured?: boolean;
     search?: string;
+    /** Admin: continua vendo obras sem leitura online (2026-09-29). */
+    includeUnavailable?: boolean;
   }): Promise<{ items: Book[]; total: number; page: number; limit: number; totalPages: number }> {
     const query = new URLSearchParams();
     if (params?.page) query.set('page', String(params.page));
@@ -45,6 +48,7 @@ export const booksService = {
     if (params?.tag) query.set('tag', params.tag);
     if (params?.featured !== undefined) query.set('featured', String(params.featured));
     if (params?.search) query.set('search', params.search);
+    if (params?.includeUnavailable) query.set('includeUnavailable', 'true');
 
     const qs = query.toString() ? `?${query.toString()}` : '';
     return apiClient<{ items: Book[]; total: number; page: number; limit: number; totalPages: number }>(

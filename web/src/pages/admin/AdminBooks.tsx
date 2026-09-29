@@ -39,8 +39,8 @@ export default function AdminBooks() {
   const [isDeleting, setIsDeleting] = useState(false);
 
   const queryClient = useQueryClient();
-  const { data: books, isLoading, error } = useBooks();
-  const { data: authors } = useAuthors();
+  const { data: books, isLoading, error } = useBooks({ includeUnavailable: true, limit: 100 });
+  const { data: authors } = useAuthors({ includeUnavailable: true });
 
   const invalidateCatalog = async () => {
     await queryClient.invalidateQueries({ queryKey: ['books'] });

@@ -89,12 +89,24 @@ describe('Scriptorium Divinum API — Testes de Integração', () => {
     expect(res.body).toContain('scalar');
   });
 
-  it('GET /api/v1/authors lista autores com contagem de obras', async () => {
+  it('GET /api/v1/authors omite autor sem nenhuma obra com leitura online', async () => {
+    // João Calvino só tem "institutas", que não tem online_read_path
+    // (fixture): decisão de 2026-09-29, autor sem obra legível não aparece.
     const res = await app.inject({ method: 'GET', url: '/api/v1/authors' });
     expect(res.statusCode).toBe(200);
     const body = res.json();
+    expect(body.length).toBe(1);
+    expect(body[0].name).toBe('Santo Agostinho');
+    expect(body[0]).toHaveProperty('bookCount', 1);
+  });
+
+  it('GET /api/v1/authors?includeUnavailable=true devolve todo mundo (uso do admin)', async () => {
+    const res = await app.inject({ method: 'GET', url: '/api/v1/authors?includeUnavailable=true' });
+    expect(res.statusCode).toBe(200);
+    const body = res.json();
     expect(body.length).toBe(2);
-    expect(body[0]).toHaveProperty('bookCount');
+    const calvino = body.find((a: { name: string }) => a.name === 'João Calvino');
+    expect(calvino.bookCount).toBe(0);
   });
 
   it('GET /api/v1/authors/:slug devolve autor e suas obras', async () => {
@@ -105,12 +117,32 @@ describe('Scriptorium Divinum API — Testes de Integração', () => {
     expect(body.books.length).toBe(1);
   });
 
-  it('GET /api/v1/books lista livros paginados com autor aninhado', async () => {
+  it('GET /api/v1/authors/:slug por link direto continua respondendo mesmo sem obra legível', async () => {
+    // Não listado (teste acima), mas quem já tem o link não leva a um 404 —
+    // só não sobra nenhuma obra na lista.
+    const res = await app.inject({ method: 'GET', url: '/api/v1/authors/joao-calvino' });
+    expect(res.statusCode).toBe(200);
+    const body = res.json();
+    expect(body.books).toEqual([]);
+  });
+
+  it('GET /api/v1/books lista livros paginados com autor aninhado, omitindo obra sem leitura online', async () => {
+    // "institutas" não tem online_read_path na fixture: some do catálogo
+    // público por padrão (decisão de 2026-09-29).
     const res = await app.inject({ method: 'GET', url: '/api/v1/books?page=1&limit=10' });
     expect(res.statusCode).toBe(200);
     const body = res.json();
-    expect(body.total).toBe(2);
+    expect(body.total).toBe(1);
+    expect(body.items[0].slug).toBe('confissoes');
     expect(body.items[0]).toHaveProperty('author');
+  });
+
+  it('GET /api/v1/books?includeUnavailable=true devolve tudo (uso do admin)', async () => {
+    const res = await app.inject({ method: 'GET', url: '/api/v1/books?includeUnavailable=true' });
+    expect(res.statusCode).toBe(200);
+    const body = res.json();
+    expect(body.total).toBe(2);
+    expect(body.items.map((b: { slug: string }) => b.slug).sort()).toEqual(['confissoes', 'institutas']);
   });
 
   it('GET /api/v1/books/:idOrSlug devolve detalhes e links de download', async () => {
@@ -232,6 +264,15 @@ describe('Scriptorium Divinum API — Testes de Integração', () => {
     expect(body[0].title).toBe('Confissões');
   });
 
+  it('GET /api/v1/search não devolve obra sem leitura online', async () => {
+    // "institutas" bate com "sistemático" no title/description, mas não
+    // tem online_read_path na fixture: some da busca (2026-09-29).
+    const res = await app.inject({ method: 'GET', url: '/api/v1/search?q=sistemático' });
+    expect(res.statusCode).toBe(200);
+    const body = res.json();
+    expect(body.some((b: { slug: string }) => b.slug === 'institutas')).toBe(false);
+  });
+
   it('GET /sitemap.xml devolve o sitemap com páginas estáticas e livros', async () => {
     const res = await app.inject({ method: 'GET', url: '/sitemap.xml' });
     expect(res.statusCode).toBe(200);
@@ -240,6 +281,10 @@ describe('Scriptorium Divinum API — Testes de Integração', () => {
     expect(res.body).toContain('https://scriptorium.narniano.com/</loc>');
     expect(res.body).toContain('/livros/confissoes');
     expect(res.body).toContain('/categorias/');
+    // "institutas" e o autor João Calvino (que só tem essa obra) não têm
+    // leitura online na fixture: não entram no sitemap (2026-09-29).
+    expect(res.body).not.toContain('/livros/institutas');
+    expect(res.body).not.toContain('/autores/joao-calvino');
   });
 
   it('404 para autor ou livro inexistente', async () => {

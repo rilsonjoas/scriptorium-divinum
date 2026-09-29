@@ -6,8 +6,8 @@ import { useNavigate } from 'react-router-dom';
 
 export default function AdminDashboard() {
   const navigate = useNavigate();
-  const { data: books, isLoading: booksLoading } = useBooks();
-  const { data: authors, isLoading: authorsLoading } = useAuthors();
+  const { data: books, isLoading: booksLoading } = useBooks({ includeUnavailable: true, limit: 100 });
+  const { data: authors, isLoading: authorsLoading } = useAuthors({ includeUnavailable: true });
   const { data: categories, isLoading: categoriesLoading } = useCategories();
 
   const totalBooks = books?.total ?? books?.items?.length ?? 0;

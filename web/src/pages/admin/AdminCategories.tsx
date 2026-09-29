@@ -40,7 +40,7 @@ export default function AdminCategories() {
 
   const queryClient = useQueryClient();
   const { data: categories, isLoading: categoriesLoading, error: categoriesError } = useCategories();
-  const { data: books, isLoading: booksLoading } = useBooks();
+  const { data: books, isLoading: booksLoading } = useBooks({ includeUnavailable: true, limit: 100 });
 
   const invalidateCategories = async () => {
     await queryClient.invalidateQueries({ queryKey: ['categories'] });

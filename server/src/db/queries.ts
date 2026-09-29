@@ -4,6 +4,12 @@ import { authors, books, downloadLinks, tableOfContents } from './schema.js';
 import type { ListAuthorsQuery } from '../schemas/author.schema.js';
 import type { ListBooksQuery } from '../schemas/book.schema.js';
 
+/**
+ * Autores com a lista de `onlineReadPath` de cada livro (não agregado):
+ * quem chama decide o `bookCount` depois de conferir no disco quais têm
+ * texto de fato — isso não dá para fazer em SQL (2026-09-29, mesmo motivo
+ * de `listBooks`).
+ */
 export async function listAuthors(filters?: ListAuthorsQuery) {
   const conditions = [];
 
@@ -25,23 +31,37 @@ export async function listAuthors(filters?: ListAuthorsQuery) {
       denominationOrTradition: authors.denominationOrTradition,
       createdAt: authors.createdAt,
       updatedAt: authors.updatedAt,
-      bookCount: sql<number>`count(${books.id})::int`,
+      bookId: books.id,
+      bookOnlineReadPath: books.onlineReadPath,
     })
     .from(authors)
     .leftJoin(books, eq(books.authorId, authors.id))
     .where(where)
-    .groupBy(authors.id)
     .orderBy(authors.name);
 
+  const byAuthor = new Map<
+    string,
+    Omit<(typeof rows)[number], 'bookId' | 'bookOnlineReadPath'> & { bookPaths: (string | null)[] }
+  >();
+  for (const { bookId, bookOnlineReadPath, ...author } of rows) {
+    const existing = byAuthor.get(author.id);
+    if (existing) {
+      if (bookId) existing.bookPaths.push(bookOnlineReadPath);
+    } else {
+      byAuthor.set(author.id, { ...author, bookPaths: bookId ? [bookOnlineReadPath] : [] });
+    }
+  }
+  const authorsList = [...byAuthor.values()];
+
   if (filters?.tradition) {
-    return rows.filter((r) =>
+    return authorsList.filter((r) =>
       r.denominationOrTradition?.some((t) =>
         t.toLowerCase().includes(filters.tradition!.toLowerCase()),
       ),
     );
   }
 
-  return rows;
+  return authorsList;
 }
 
 export async function getAuthorBySlug(slug: string) {
@@ -62,7 +82,17 @@ export async function getAuthorBySlug(slug: string) {
   return { ...author, books: authorBooks };
 }
 
-export async function listBooks(filters: ListBooksQuery) {
+/**
+ * Todos os livros que batem com os filtros, sem paginar no SQL.
+ *
+ * A paginação fica por conta de quem chama (rota `/api/v1/books`), porque
+ * ela precisa filtrar por `textAvailable` primeiro — e isso só existe no
+ * disco, não no banco, então dá errado paginar antes de filtrar (a página 1
+ * viria com menos itens que `limit`, ou nem toda obra sem texto sumiria da
+ * página certa). O catálogo é pequeno (dezenas de obras): buscar tudo de
+ * uma vez é barato.
+ */
+export async function listBooks(filters: Omit<ListBooksQuery, 'page' | 'limit'>) {
   const conditions = [];
 
   if (filters.featured !== undefined) {
@@ -80,7 +110,7 @@ export async function listBooks(filters: ListBooksQuery) {
       .where(eq(authors.slug, filters.authorSlug))
       .limit(1);
 
-    if (!author) return { items: [], total: 0 };
+    if (!author) return { items: [] };
     conditions.push(eq(books.authorId, author.id));
   }
 
@@ -94,54 +124,46 @@ export async function listBooks(filters: ListBooksQuery) {
 
   const where = conditions.length > 0 ? and(...conditions) : undefined;
 
-  const [bookRows, countResult] = await Promise.all([
-    db
-      .select({
-        id: books.id,
-        slug: books.slug,
-        title: books.title,
-        originalTitle: books.originalTitle,
-        authorId: books.authorId,
-        publicationYearOriginal: books.publicationYearOriginal,
-        publicationYearTranslation: books.publicationYearTranslation,
-        translator: books.translator,
-        language: books.language,
-        originalLanguages: books.originalLanguages,
-        description: books.description,
-        categories: books.categories,
-        tags: books.tags,
-        coverImageUrl: books.coverImageUrl,
-        onlineReadPath: books.onlineReadPath,
-        relatedEditionSlug: books.relatedEditionSlug,
-        featured: books.featured,
-        licenseType: books.licenseType,
-        attributionText: books.attributionText,
-        createdAt: books.createdAt,
-        updatedAt: books.updatedAt,
-        author: {
-          id: authors.id,
-          slug: authors.slug,
-          name: authors.name,
-          birthYear: authors.birthYear,
-          deathYear: authors.deathYear,
-          bioSummary: authors.bioSummary,
-          portraitImageUrl: authors.portraitImageUrl,
-          denominationOrTradition: authors.denominationOrTradition,
-        },
-      })
-      .from(books)
-      .innerJoin(authors, eq(books.authorId, authors.id))
-      .where(where)
-      .orderBy(desc(books.featured), desc(books.createdAt))
-      .limit(filters.limit)
-      .offset((filters.page - 1) * filters.limit),
-    db.select({ count: sql<number>`count(*)::int` }).from(books).where(where),
-  ]);
+  const bookRows = await db
+    .select({
+      id: books.id,
+      slug: books.slug,
+      title: books.title,
+      originalTitle: books.originalTitle,
+      authorId: books.authorId,
+      publicationYearOriginal: books.publicationYearOriginal,
+      publicationYearTranslation: books.publicationYearTranslation,
+      translator: books.translator,
+      language: books.language,
+      originalLanguages: books.originalLanguages,
+      description: books.description,
+      categories: books.categories,
+      tags: books.tags,
+      coverImageUrl: books.coverImageUrl,
+      onlineReadPath: books.onlineReadPath,
+      relatedEditionSlug: books.relatedEditionSlug,
+      featured: books.featured,
+      licenseType: books.licenseType,
+      attributionText: books.attributionText,
+      createdAt: books.createdAt,
+      updatedAt: books.updatedAt,
+      author: {
+        id: authors.id,
+        slug: authors.slug,
+        name: authors.name,
+        birthYear: authors.birthYear,
+        deathYear: authors.deathYear,
+        bioSummary: authors.bioSummary,
+        portraitImageUrl: authors.portraitImageUrl,
+        denominationOrTradition: authors.denominationOrTradition,
+      },
+    })
+    .from(books)
+    .innerJoin(authors, eq(books.authorId, authors.id))
+    .where(where)
+    .orderBy(desc(books.featured), desc(books.createdAt));
 
-  return {
-    items: bookRows,
-    total: countResult[0]?.count ?? 0,
-  };
+  return { items: bookRows };
 }
 
 export async function getBookByIdOrSlug(idOrSlug: string) {

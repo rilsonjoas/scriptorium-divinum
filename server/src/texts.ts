@@ -35,6 +35,18 @@ export function withTextAvailable<T extends { onlineReadPath?: string | null }>(
   return { ...book, textAvailable: textAvailable(book.onlineReadPath) };
 }
 
+/**
+ * Filtra uma lista de livros para só os que têm texto de fato (decisão do
+ * Rilson em 2026-09-29: obra sem leitura online não aparece no catálogo,
+ * na busca nem na página do autor — só a ficha continua acessível por link
+ * direto, e o admin continua vendo tudo para poder revisar). Usado nas
+ * superfícies voltadas ao público; o admin passa por cima com
+ * `includeUnavailable=true` em `/api/v1/books`.
+ */
+export function onlyAvailable<T extends { onlineReadPath?: string | null }>(books: T[]): T[] {
+  return books.filter((book) => textAvailable(book.onlineReadPath));
+}
+
 export function readText(key: string | null | undefined): string | null {
   const candidate = textKeyToPath(key);
   if (candidate === null || !existsSync(candidate)) return null;

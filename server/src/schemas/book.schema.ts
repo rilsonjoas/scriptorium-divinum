@@ -64,6 +64,12 @@ export const listBooksQuerySchema = z.object({
   tag: z.string().optional(),
   featured: z.preprocess((val) => val === 'true' || val === true, z.boolean()).optional(),
   search: z.string().optional(),
+  /**
+   * Por padrão o catálogo público só lista obras com leitura online
+   * (2026-09-29). O admin passa `true` para continuar vendo e editando
+   * as que ainda não têm texto revisado.
+   */
+  includeUnavailable: z.preprocess((val) => val === 'true' || val === true, z.boolean()).optional(),
 });
 
 export const searchBooksQuerySchema = z.object({

@@ -1,6 +1,7 @@
 import type { FastifyInstance } from 'fastify';
 import { db } from '../db/client.js';
 import { listCategories } from '../db/queries.js';
+import { textAvailable } from '../texts.js';
 import { env } from '../config.js';
 
 const STATIC_PATHS = [
@@ -37,16 +38,21 @@ export async function sitemapRoutes(app: FastifyInstance) {
     },
     async (_request, reply) => {
       const [books, categories, authors] = await Promise.all([
-        db.query.books.findMany({ columns: { id: true, slug: true } }),
+        db.query.books.findMany({ columns: { id: true, slug: true, onlineReadPath: true, authorId: true } }),
         listCategories(),
         db.query.authors.findMany({ columns: { id: true, slug: true } }),
       ]);
+
+      // Obra sem leitura online não é indexada (2026-09-29): a ficha existe,
+      // mas não tem o que o Google mandaria alguém ler.
+      const readableBooks = books.filter((book) => textAvailable(book.onlineReadPath));
+      const authorsWithReadableBook = new Set(readableBooks.map((book) => book.authorId));
 
       const urls: string[] = [];
       for (const path of STATIC_PATHS) {
         urls.push(`${env.PUBLIC_ORIGIN}${path}`);
       }
-      for (const book of books) {
+      for (const book of readableBooks) {
         const ref = book.slug || book.id;
         urls.push(`${env.PUBLIC_ORIGIN}/livros/${ref}`);
       }
@@ -55,6 +61,7 @@ export async function sitemapRoutes(app: FastifyInstance) {
         urls.push(`${env.PUBLIC_ORIGIN}/categorias/${ref}`);
       }
       for (const author of authors) {
+        if (!authorsWithReadableBook.has(author.id)) continue;
         const ref = author.slug || author.id;
         urls.push(`${env.PUBLIC_ORIGIN}/autores/${ref}`);
       }

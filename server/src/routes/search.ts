@@ -2,7 +2,7 @@ import type { FastifyInstance } from 'fastify';
 import { z } from 'zod';
 import { zodToJsonSchema } from 'zod-to-json-schema';
 import { searchBooks } from '../db/queries.js';
-import { withTextAvailable } from '../texts.js';
+import { onlyAvailable, withTextAvailable } from '../texts.js';
 import { bookSchema, searchBooksQuerySchema } from '../schemas/book.schema.js';
 import { errorResponseSchema } from '../schemas/response.schema.js';
 
@@ -22,7 +22,10 @@ export async function searchRoutes(app: FastifyInstance) {
     },
     async (request) => {
       const { q, limit } = searchBooksQuerySchema.parse(request.query);
-      return (await searchBooks(q, limit)).map(withTextAvailable);
+      // Busca +limit para compensar o que onlyAvailable descarta (obra sem
+      // leitura online não aparece na busca pública, 2026-09-29).
+      const rows = await searchBooks(q, limit * 2);
+      return onlyAvailable(rows.map(withTextAvailable)).slice(0, limit);
     },
   );
 }
