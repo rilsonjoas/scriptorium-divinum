@@ -22,8 +22,6 @@ atychias, mê di analgêsian, alla gennadas
 Aristotle's 'Ethics,' I., xi. 12.
 
 
-
-
 [Illustration: Diptych representing Narius Manlius Boethius, father of
 Anicius Manlius Severinus Boethius. The inscription in full would run
 thus:--
@@ -35,8 +33,6 @@ COMES CONSVL ORDINARIVS ET PARTICIVS
 (_For description vid. Preface, p. vi_)]
 
 
-
-
 THE CONSOLATION OF PHILOSOPHY OF BOETHIUS.
 
 Translated into English Prose and Verse
@@ -46,13 +42,13 @@ by
 H.R. JAMES, M.A., CH. CH. OXFORD.
 
 
-     Quantumlibet igitur sæviant mali, sapienti tamen corona non
-     decidet, non arescet.
+Quantumlibet igitur sæviant mali, sapienti tamen corona non
+decidet, non arescet.
 
-     Melioribus animum conformaveris, nihil opus est judice præmium
-     deferente, tu te ipse excellentioribus addidisti; studium ad pejora
-     deflexeris, extra ne quæsieris ultorem, tu te ipse in deteriora
-     trusisti.
+Melioribus animum conformaveris, nihil opus est judice præmium
+deferente, tu te ipse excellentioribus addidisti; studium ad pejora
+deflexeris, extra ne quæsieris ultorem, tu te ipse in deteriora
+trusisti.
 
 LONDON:
 ELLIOT STOCK, 62, PATERNOSTER ROW.
@@ -60,9 +56,7 @@ ELLIOT STOCK, 62, PATERNOSTER ROW.
 1897.
 
 
-
-
-PREFACE.
+## Preface
 
 The book called 'The Consolation of Philosophy' was throughout the
 Middle Ages, and down to the beginnings of the modern epoch in the
@@ -106,9 +100,7 @@ valuable help and for correcting the proof-sheets of the translation.
 The text used is that of Peiper, Leipsic, 1874.
 
 
-
-
-PROEM.
+## Proem
 
 Anicus Manlius Severinus Boethius lived in the last quarter of the fifth
 century A.D., and the first quarter of the sixth. He was growing to
@@ -153,170 +145,144 @@ more to the contemplation of the true good, and makes clear to him the
 mystery of the world's moral government.
 
 
+## Index of Verse Interludes
 
 
-INDEX
+**Book I. The Sorrows of Boethius**
 
-OF
-
-VERSE INTERLUDES.
-
-
-BOOK I.
-THE SORROWS OF BOETHIUS.
-
-SONG                                          PAGE
-  I. BOETHIUS' COMPLAINT                         3
- II. HIS DESPONDENCY                             9
-III. THE MISTS DISPELLED                        12
- IV. NOTHING CAN SUBDUE VIRTUE                  16
-  V. BOETHIUS' PRAYER                           27
- VI. ALL THINGS HAVE THEIR NEEDFUL ORDER        33
-VII. THE PERTURBATIONS OF PASSION               38
+Song I. Boethius' Complaint\
+Song II. His Despondency\
+Song III. The Mists Dispelled\
+Song IV. Nothing Can Subdue Virtue\
+Song V. Boethius' Prayer\
+Song VI. All Things Have Their Needful Order\
+Song VII. The Perturbations of Passion
 
 
-BOOK II.
-THE VANITY OF FORTUNE'S GIFTS.
+**Book II. The Vanity of Fortune's Gifts**
 
-   I. FORTUNE'S MALICE                           47
-  II. MAN'S COVETOUSNESS                         51
- III. ALL PASSES                                 55
-  IV. THE GOLDEN MEAN                            62
-   V. THE FORMER AGE                             70
-  VI. NERO'S INFAMY                              76
- VII. GLORY MAY NOT LAST                         82
-VIII. LOVE IS LORD OF ALL                        85
-
-
-BOOK III.
-TRUE HAPPINESS AND FALSE.
-
-   I. THE THORNS OF ERROR                        93
-  II. THE BENT OF NATURE                         99
- III. THE INSATIABLENESS OK AVARICE             105
-  IV. DISGRACE OF HONOURS CONFERRED BY A TYRANT 109
-   V. SELF-MASTERY                              113
-  VI. TRUE NOBILITY                             116
- VII. PLEASURE'S STING                          118
-VIII. HUMAN FOLLY                               121
-  IX. INVOCATION                                130
-   X. THE TRUE LIGHT                            141
-  XI. REMINISCENCE                              150
- XII. ORPHEUS AND EURYDICE                      158
+Song I. Fortune's Malice\
+Song II. Man's Covetousness\
+Song III. All Passes\
+Song IV. The Golden Mean\
+Song V. The Former Age\
+Song VI. Nero's Infamy\
+Song VII. Glory May Not Last\
+Song VIII. Love is Lord of All
 
 
-BOOK IV.
-GOOD AND ILL FORTUNE.
+**Book III. True Happiness and False**
 
-  I. THE SOUL'S FLIGHT                          166
- II. THE BONDAGE OF PASSION                     177
-III. CIRCE'S CUP                                182
- IV. THE UNREASONABLENESS OF HATRED             194
-  V. WONDER AND IGNORANCE                       197
- VI. THE UNIVERSAL AIM                          212
-VII. THE HERO'S PATH                            219
-
-
-BOOK V.
-FREE WILL AND GOD'S FOREKNOWLEDGE.
-
-  I. CHANCE                                     229
- II. THE TRUE SUN                               233
-III. TRUTH'S PARADOXES                          241
- IV. A PSYCHOLOGICAL FALLACY                    250
- V. THE UPWARD LOOK                             255
+Song I. The Thorns of Error\
+Song II. The Bent of Nature\
+Song III. The Insatiableness of Avarice\
+Song IV. Disgrace of Honours Conferred by a Tyrant\
+Song V. Self-mastery\
+Song VI. True Nobility\
+Song VII. Pleasure's Sting\
+Song VIII. Human Folly\
+Song IX. Invocation\
+Song X. The True Light\
+Song XI. Reminiscence\
+Song XII. Orpheus and Eurydice
 
 
+**Book IV. Good and Ill Fortune**
+
+Song I. The Soul's Flight\
+Song II. The Bondage of Passion\
+Song III. Circe's Cup\
+Song IV. The Unreasonableness of Hatred\
+Song V. Wonder and Ignorance\
+Song VI. The Universal Aim\
+Song VII. The Hero's Path
 
 
+**Book V. Free Will and God's Foreknowledge**
 
-BOOK I.
-
-THE SORROWS OF BOETHIUS.
-
-
-     SUMMARY.
-
-     Boethius' complaint (Song I.).--CH. I. Philosophy appears to
-     Boethius, drives away the Muses of Poetry, and herself laments
-     (Song II.) the disordered condition of his mind.--CH. II. Boethius
-     is speechless with amazement. Philosophy wipes away the tears that
-     have clouded his eyesight.--CH. III. Boethius recognises his
-     mistress Philosophy. To his wondering inquiries she explains her
-     presence, and recalls to his mind the persecutions to which
-     Philosophy has oftentimes from of old been subjected by an ignorant
-     world. CH. IV. Philosophy bids Boethius declare his griefs. He
-     relates the story of his unjust accusation and ruin. He concludes
-     with a prayer (Song V.) that the moral disorder in human affairs
-     may be set right.--CH. V. Philosophy admits the justice of
-     Boethius' self-vindication, but grieves rather for the unhappy
-     change in his mind. She will first tranquillize his spirit by
-     soothing remedies.--CH. VI. Philosophy tests Boethius' mental
-     state by certain questions, and discovers three chief causes of his
-     soul's sickness: (1) He has forgotten his own true nature; (2) he
-     knows not the end towards which the whole universe tends; (3) he
-     knows not the means by which the world is governed.
+Song I. Chance\
+Song II. The True Sun\
+Song III. Truth's Paradoxes\
+Song IV. A Psychological Fallacy\
+Song V. The Upward Look
 
 
+## Book I. The Sorrows of Boethius
 
 
-BOOK I.
+SUMMARY.
+
+Boethius' complaint (Song I.).--CH. I. Philosophy appears to
+Boethius, drives away the Muses of Poetry, and herself laments
+(Song II.) the disordered condition of his mind.--CH. II. Boethius
+is speechless with amazement. Philosophy wipes away the tears that
+have clouded his eyesight.--CH. III. Boethius recognises his
+mistress Philosophy. To his wondering inquiries she explains her
+presence, and recalls to his mind the persecutions to which
+Philosophy has oftentimes from of old been subjected by an ignorant
+world. CH. IV. Philosophy bids Boethius declare his griefs. He
+relates the story of his unjust accusation and ruin. He concludes
+with a prayer (Song V.) that the moral disorder in human affairs
+may be set right.--CH. V. Philosophy admits the justice of
+Boethius' self-vindication, but grieves rather for the unhappy
+change in his mind. She will first tranquillize his spirit by
+soothing remedies.--CH. VI. Philosophy tests Boethius' mental
+state by certain questions, and discovers three chief causes of his
+soul's sickness: (1) He has forgotten his own true nature; (2) he
+knows not the end towards which the whole universe tends; (3) he
+knows not the means by which the world is governed.
 
 
-
-SONG I.
-
-BOETHIUS' COMPLAINT.
+### Song I. Boethius' Complaint
 
 
-    Who wrought my studious numbers
-      Smoothly once in happier days,
-    Now perforce in tears and sadness
-      Learn a mournful strain to raise.
-    Lo, the Muses, grief-dishevelled,
-      Guide my pen and voice my woe;
-    Down their cheeks unfeigned the tear drops
-      To my sad complainings flow!
-    These alone in danger's hour
-      Faithful found, have dared attend
-    On the footsteps of the exile
-      To his lonely journey's end.
-    These that were the pride and pleasure
-      Of my youth and high estate
-    Still remain the only solace
-      Of the old man's mournful fate.
-    Old? Ah yes; swift, ere I knew it,
-      By these sorrows on me pressed
-    Age hath come; lo, Grief hath bid me
-      Wear the garb that fits her best.
-    O'er my head untimely sprinkled
-      These white hairs my woes proclaim,
-    And the skin hangs loose and shrivelled
-      On this sorrow-shrunken frame.
-    Blest is death that intervenes not
-      In the sweet, sweet years of peace,
-    But unto the broken-hearted,
-      When they call him, brings release!
-    Yet Death passes by the wretched,
-      Shuts his ear and slumbers deep;
-    Will not heed the cry of anguish,
-      Will not close the eyes that weep.
-    For, while yet inconstant Fortune
-      Poured her gifts and all was bright,
-    Death's dark hour had all but whelmed me
-      In the gloom of endless night.
-    Now, because misfortune's shadow
-      Hath o'erclouded that false face,
-    Cruel Life still halts and lingers,
-      Though I loathe his weary race.
-    Friends, why did ye once so lightly
-      Vaunt me happy among men?
-    Surely he who so hath fallen
-      Was not firmly founded then.
+Who wrought my studious numbers\
+Smoothly once in happier days,\
+Now perforce in tears and sadness\
+Learn a mournful strain to raise.\
+Lo, the Muses, grief-dishevelled,\
+Guide my pen and voice my woe;\
+Down their cheeks unfeigned the tear drops\
+To my sad complainings flow!\
+These alone in danger's hour\
+Faithful found, have dared attend\
+On the footsteps of the exile\
+To his lonely journey's end.\
+These that were the pride and pleasure\
+Of my youth and high estate\
+Still remain the only solace\
+Of the old man's mournful fate.\
+Old? Ah yes; swift, ere I knew it,\
+By these sorrows on me pressed\
+Age hath come; lo, Grief hath bid me\
+Wear the garb that fits her best.\
+O'er my head untimely sprinkled\
+These white hairs my woes proclaim,\
+And the skin hangs loose and shrivelled\
+On this sorrow-shrunken frame.\
+Blest is death that intervenes not\
+In the sweet, sweet years of peace,\
+But unto the broken-hearted,\
+When they call him, brings release!\
+Yet Death passes by the wretched,\
+Shuts his ear and slumbers deep;\
+Will not heed the cry of anguish,\
+Will not close the eyes that weep.\
+For, while yet inconstant Fortune\
+Poured her gifts and all was bright,\
+Death's dark hour had all but whelmed me\
+In the gloom of endless night.\
+Now, because misfortune's shadow\
+Hath o'erclouded that false face,\
+Cruel Life still halts and lingers,\
+Though I loathe his weary race.\
+Friends, why did ye once so lightly\
+Vaunt me happy among men?\
+Surely he who so hath fallen\
+Was not firmly founded then.
 
 
-
-I.
+### Chapter I
 
 
 While I was thus mutely pondering within myself, and recording my
@@ -372,50 +338,46 @@ FOOTNOTES:
 regards as heterodox. See also below, ch. iii., p. 14.
 
 
-
-SONG II.
-
-HIS DESPONDENCY.
+### Song II. His Despondency
 
 
-    Alas! in what abyss his mind
-      Is plunged, how wildly tossed!
-    Still, still towards the outer night
-      She sinks, her true light lost,
-    As oft as, lashed tumultuously
-    By earth-born blasts, care's waves rise high.
+Alas! in what abyss his mind\
+Is plunged, how wildly tossed!\
+Still, still towards the outer night\
+She sinks, her true light lost,\
+As oft as, lashed tumultuously\
+By earth-born blasts, care's waves rise high.
 
-    Yet once he ranged the open heavens,
-      The sun's bright pathway tracked;
-    Watched how the cold moon waxed and waned;
-      Nor rested, till there lacked
-    To his wide ken no star that steers
-    Amid the maze of circling spheres.
+Yet once he ranged the open heavens,\
+The sun's bright pathway tracked;\
+Watched how the cold moon waxed and waned;\
+Nor rested, till there lacked\
+To his wide ken no star that steers\
+Amid the maze of circling spheres.
 
-    The causes why the blusterous winds
-      Vex ocean's tranquil face,
-    Whose hand doth turn the stable globe,
-      Or why his even race
-    From out the ruddy east the sun
-    Unto the western waves doth run:
+The causes why the blusterous winds\
+Vex ocean's tranquil face,\
+Whose hand doth turn the stable globe,\
+Or why his even race\
+From out the ruddy east the sun\
+Unto the western waves doth run:
 
-    What is it tempers cunningly
-      The placid hours of spring,
-    So that it blossoms with the rose
-      For earth's engarlanding:
-    Who loads the year's maturer prime
-    With clustered grapes in autumn time:
+What is it tempers cunningly\
+The placid hours of spring,\
+So that it blossoms with the rose\
+For earth's engarlanding:\
+Who loads the year's maturer prime\
+With clustered grapes in autumn time:
 
-    All this he knew--thus ever strove
-      Deep Nature's lore to guess.
-    Now, reft of reason's light, he lies,
-      And bonds his neck oppress;
-    While by the heavy load constrained,
-    His eyes to this dull earth are chained.
+All this he knew--thus ever strove\
+Deep Nature's lore to guess.\
+Now, reft of reason's light, he lies,\
+And bonds his neck oppress;\
+While by the heavy load constrained,\
+His eyes to this dull earth are chained.
 
 
-
-II.
+### Chapter II
 
 
 'But the time,' said she, 'calls rather for healing than for
@@ -436,26 +398,22 @@ clouded with a mist of mortal things.' Thereat, with a fold of her robe,
 she dried my eyes all swimming with tears.
 
 
-
-SONG III.
-
-THE MISTS DISPELLED.
+### Song III. The Mists Dispelled
 
 
-    Then the gloom of night was scattered,
-      Sight returned unto mine eyes.
-    So, when haply rainy Caurus
-      Rolls the storm-clouds through the skies,
-    Hidden is the sun; all heaven
-      Is obscured in starless night.
-    But if, in wild onset sweeping,
-      Boreas frees day's prisoned light,
-    All suddenly the radiant god outstreams,
-    And strikes our dazzled eyesight with his beams.
+Then the gloom of night was scattered,\
+Sight returned unto mine eyes.\
+So, when haply rainy Caurus\
+Rolls the storm-clouds through the skies,\
+Hidden is the sun; all heaven\
+Is obscured in starless night.\
+But if, in wild onset sweeping,\
+Boreas frees day's prisoned light,\
+All suddenly the radiant god outstreams,\
+And strikes our dazzled eyesight with his beams.
 
 
-
-III.
+### Chapter III
 
 
 Even so the clouds of my melancholy were broken up. I saw the clear sky,
@@ -506,43 +464,39 @@ valueless of things, protected by a bulwark which aggressive folly may
 not aspire to reach.'
 
 
-
-SONG IV.
-
-NOTHING CAN SUBDUE VIRTUE.
+### Song IV. Nothing Can Subdue Virtue
 
 
-    Whoso calm, serene, sedate,
-    Sets his foot on haughty fate;
-    Firm and steadfast, come what will,
-    Keeps his mien unconquered still;
-    Him the rage of furious seas,
-    Tossing high wild menaces,
-    Nor the flames from smoky forges
-    That Vesuvius disgorges,
-    Nor the bolt that from the sky
-    Smites the tower, can terrify.
-    Why, then, shouldst thou feel affright
-    At the tyrant's weakling might?
-    Dread him not, nor fear no harm,
-    And thou shall his rage disarm;
-    But who to hope or fear gives way--
-    Lost his bosom's rightful sway--
-    He hath cast away his shield,
-    Like a coward fled the field;
-    He hath forged all unaware
-    Fetters his own neck must bear!
+Whoso calm, serene, sedate,\
+Sets his foot on haughty fate;\
+Firm and steadfast, come what will,\
+Keeps his mien unconquered still;\
+Him the rage of furious seas,\
+Tossing high wild menaces,\
+Nor the flames from smoky forges\
+That Vesuvius disgorges,\
+Nor the bolt that from the sky\
+Smites the tower, can terrify.\
+Why, then, shouldst thou feel affright\
+At the tyrant's weakling might?\
+Dread him not, nor fear no harm,\
+And thou shall his rage disarm;\
+But who to hope or fear gives way--\
+Lost his bosom's rightful sway--\
+He hath cast away his shield,\
+Like a coward fled the field;\
+He hath forged all unaware\
+Fetters his own neck must bear!
 
 
-
-IV.
+### Chapter IV
 
 
 'Dost thou understand?' she asks. Do my words sink into thy mind? Or art
 thou dull "as the ass to the sound of the lyre"? Why dost thou weep? Why
 do tears stream from thy eyes?
 
-    '"Speak out, hide it not in thy heart."
+'"Speak out, hide it not in thy heart."
 
 If thou lookest for the physician's help, thou must needs disclose thy
 wound.'
@@ -712,75 +666,71 @@ FOOTNOTES:
 imprisonment, is 455 Roman miles.
 
 
-
-SONG V.
-
-BOETHIUS' PRAYER.
+### Song V. Boethius' Prayer
 
 
-    'Builder of yon starry dome,
-      Thou that whirlest, throned eternal,
-    Heaven's swift globe, and, as they roam,
-      Guid'st the stars by laws supernal:
-        So in full-sphered splendour dight
-        Cynthia dims the lamps of night,
-      But unto the orb fraternal
-        Closer drawn,[D] doth lose her light.
+'Builder of yon starry dome,\
+Thou that whirlest, throned eternal,\
+Heaven's swift globe, and, as they roam,\
+Guid'st the stars by laws supernal:\
+So in full-sphered splendour dight\
+Cynthia dims the lamps of night,\
+But unto the orb fraternal\
+Closer drawn,[D] doth lose her light.
 
-    'Who at fall of eventide,
-      Hesper, his cold radiance showeth,
-    Lucifer his beams doth hide,
-      Paling as the sun's light groweth,
-        Brief, while winter's frost holds sway,
-        By thy will the space of day;
-      Swift, when summer's fervour gloweth,
-        Speed the hours of night away.
+'Who at fall of eventide,\
+Hesper, his cold radiance showeth,\
+Lucifer his beams doth hide,\
+Paling as the sun's light groweth,\
+Brief, while winter's frost holds sway,\
+By thy will the space of day;\
+Swift, when summer's fervour gloweth,\
+Speed the hours of night away.
 
-    'Thou dost rule the changing year:
-      When rude Boreas oppresses,
-    Fall the leaves; they reappear,
-      Wooed by Zephyr's soft caresses.
-        Fields that Sirius burns deep grown
-        By Arcturus' watch were sown:
-      Each the reign of law confesses,
-        Keeps the place that is his own.
+'Thou dost rule the changing year:\
+When rude Boreas oppresses,\
+Fall the leaves; they reappear,\
+Wooed by Zephyr's soft caresses.\
+Fields that Sirius burns deep grown\
+By Arcturus' watch were sown:\
+Each the reign of law confesses,\
+Keeps the place that is his own.
 
-    'Sovereign Ruler, Lord of all!
-      Can it be that Thou disdainest
-    Only man? 'Gainst him, poor thrall,
-      Wanton Fortune plays her vainest.
-        Guilt's deserved punishment
-        Falleth on the innocent;
-      High uplifted, the profanest
-        On the just their malice vent.
+'Sovereign Ruler, Lord of all!\
+Can it be that Thou disdainest\
+Only man? 'Gainst him, poor thrall,\
+Wanton Fortune plays her vainest.\
+Guilt's deserved punishment\
+Falleth on the innocent;\
+High uplifted, the profanest\
+On the just their malice vent.
 
-    'Virtue cowers in dark retreats,
-      Crime's foul stain the righteous beareth,
-    Perjury and false deceits
-      Hurt not him the wrong who dareth;
-        But whene'er the wicked trust
-        In ill strength to work their lust,
-      Kings, whom nations' awe declareth
-        Mighty, grovel in the dust.
+'Virtue cowers in dark retreats,\
+Crime's foul stain the righteous beareth,\
+Perjury and false deceits\
+Hurt not him the wrong who dareth;\
+But whene'er the wicked trust\
+In ill strength to work their lust,\
+Kings, whom nations' awe declareth\
+Mighty, grovel in the dust.
 
-    'Look, oh look upon this earth,
-      Thou who on law's sure foundation
-    Framedst all! Have we no worth,
-      We poor men, of all creation?
-        Sore we toss on fortune's tide;
-        Master, bid the waves subside!
-      And earth's ways with consummation
-        Of Thy heaven's order guide!'
+'Look, oh look upon this earth,\
+Thou who on law's sure foundation\
+Framedst all! Have we no worth,\
+We poor men, of all creation?\
+Sore we toss on fortune's tide;\
+Master, bid the waves subside!\
+And earth's ways with consummation\
+Of Thy heaven's order guide!'
 
 
 FOOTNOTES:
 
-[D] The moon is regarded as farthest from the sun at the full, and, as
+[D] The moon is regarded as farthest from the sun at the full, and, as\
 she wanes, approaching gradually nearer.
 
 
-
-V.
+### Chapter V
 
 
 When I had poured out my griefs in this long and unbroken strain of
@@ -828,36 +778,32 @@ passion may be softened by gentle treatment, till they can bear the
 force of sharper remedies.'
 
 
-
-SONG VI.
-
-ALL THINGS HAVE THEIR NEEDFUL ORDER
+### Song VI. All Things Have Their Needful Order
 
 
-    He who to th' unwilling furrows
-      Gives the generous grain,
-    When the Crab with baleful fervours
-      Scorches all the plain;
-    He shall find his garner bare,
-    Acorns for his scanty fare.
+He who to th' unwilling furrows\
+Gives the generous grain,\
+When the Crab with baleful fervours\
+Scorches all the plain;\
+He shall find his garner bare,\
+Acorns for his scanty fare.
 
-    Go not forth to cull sweet violets
-      From the purpled steep,
-    While the furious blasts of winter
-      Through the valleys sweep;
-    Nor the grape o'erhasty bring
-    To the press in days of spring.
+Go not forth to cull sweet violets\
+From the purpled steep,\
+While the furious blasts of winter\
+Through the valleys sweep;\
+Nor the grape o'erhasty bring\
+To the press in days of spring.
 
-    For to each thing God hath given
-      Its appointed time;
-    No perplexing change permits He
-      In His plan sublime.
-    So who quits the order due
-    Shall a luckless issue rue.
+For to each thing God hath given\
+Its appointed time;\
+No perplexing change permits He\
+In His plan sublime.\
+So who quits the order due\
+Shall a luckless issue rue.
 
 
-
-VI.
+### Chapter VI
 
 
 'First, then, wilt thou suffer me by a few questions to make some
@@ -940,85 +886,72 @@ darkness of misleading passion may be scattered, and thou mayst come to
 discern the splendour of the true light.'
 
 
-
-SONG VII.
-
-THE PERTURBATIONS OF PASSION.
+### Song VII. The Perturbations of Passion
 
 
-    Stars shed no light
-      Through the black night,
-        When the clouds hide;
-    And the lashed wave,
-      If the winds rave
-        O'er ocean's tide,--
+Stars shed no light\
+Through the black night,\
+When the clouds hide;\
+And the lashed wave,\
+If the winds rave\
+O'er ocean's tide,--
 
-    Though once serene
-      As day's fair sheen,--
-        Soon fouled and spoiled
-    By the storm's spite,
-      Shows to the sight
-        Turbid and soiled.
+Though once serene\
+As day's fair sheen,--\
+Soon fouled and spoiled\
+By the storm's spite,\
+Shows to the sight\
+Turbid and soiled.
 
-    Oft the fair rill,
-      Down the steep hill
-        Seaward that strays,
-    Some tumbled block
-      Of fallen rock
-        Hinders and stays.
+Oft the fair rill,\
+Down the steep hill\
+Seaward that strays,\
+Some tumbled block\
+Of fallen rock\
+Hinders and stays.
 
-    Then art thou fain
-      Clear and most plain
-        Truth to discern,
-    In the right way
-      Firmly to stay,
-        Nor from it turn?
+Then art thou fain\
+Clear and most plain\
+Truth to discern,\
+In the right way\
+Firmly to stay,\
+Nor from it turn?
 
-    Joy, hope and fear
-      Suffer not near,
-        Drive grief away:
-    Shackled and blind
-      And lost is the mind
-        Where these have sway.
-
-
+Joy, hope and fear\
+Suffer not near,\
+Drive grief away:\
+Shackled and blind\
+And lost is the mind\
+Where these have sway.
 
 
-BOOK II.
-
-THE VANITY OF FORTUNE'S GIFTS
+## Book II. The Vanity of Fortune's Gifts
 
 
-     Summary
+Summary
 
-     CH. I. Philosophy reproves Boethius for the foolishness of his
-     complaints against Fortune. Her very nature is caprice.--CH. II.
-     Philosophy in Fortune's name replies to Boethius' reproaches, and
-     proves that the gifts of Fortune are hers to give and to take
-     away.--CH. III. Boethius falls back upon his present sense of
-     misery. Philosophy reminds him of the brilliancy of his former
-     fortunes.--CH. IV. Boethius objects that the memory of past
-     happiness is the bitterest portion of the lot of the unhappy.
-     Philosophy shows that much is still left for which he may be
-     thankful. None enjoy perfect satisfaction with their lot. But
-     happiness depends not on anything which Fortune can give. It is to
-     be sought within.--CH. V. All the gifts of Fortune are external;
-     they can never truly be our own. Man cannot find his good in
-     worldly possessions. Riches bring anxiety and trouble.--CH. VI.
-     High place without virtue is an evil, not a good. Power is an empty
-     name.--CH. VII. Fame is a thing of little account when compared
-     with the immensity of the Universe and the endlessness of
-     Time.--CH. VIII. One service only can Fortune do, when she reveals
-     her own nature and distinguishes true friends from false.
-
-
+CH. I. Philosophy reproves Boethius for the foolishness of his
+complaints against Fortune. Her very nature is caprice.--CH. II.
+Philosophy in Fortune's name replies to Boethius' reproaches, and
+proves that the gifts of Fortune are hers to give and to take
+away.--CH. III. Boethius falls back upon his present sense of
+misery. Philosophy reminds him of the brilliancy of his former
+fortunes.--CH. IV. Boethius objects that the memory of past
+happiness is the bitterest portion of the lot of the unhappy.
+Philosophy shows that much is still left for which he may be
+thankful. None enjoy perfect satisfaction with their lot. But
+happiness depends not on anything which Fortune can give. It is to
+be sought within.--CH. V. All the gifts of Fortune are external;
+they can never truly be our own. Man cannot find his good in
+worldly possessions. Riches bring anxiety and trouble.--CH. VI.
+High place without virtue is an evil, not a good. Power is an empty
+name.--CH. VII. Fame is a thing of little account when compared
+with the immensity of the Universe and the endlessness of
+Time.--CH. VIII. One service only can Fortune do, when she reveals
+her own nature and distinguishes true friends from false.
 
 
-BOOK II.
-
-
-
-I.
+### Chapter I
 
 
 Thereafter for awhile she remained silent; and when she had restored my
@@ -1082,26 +1015,22 @@ of the revolving wheel? Oh, stupidest of mortals, if it takes to
 standing still, it ceases to be the wheel of Fortune.'
 
 
-
-SONG I.
-
-FORTUNE'S MALICE.
+### Song I. Fortune's Malice
 
 
-    Mad Fortune sweeps along in wanton pride,
-    Uncertain as Euripus' surging tide;
-    Now tramples mighty kings beneath her feet;
-    Now sets the conquered in the victor's seat.
-    She heedeth not the wail of hapless woe,
-    But mocks the griefs that from her mischief flow.
-    Such is her sport; so proveth she her power;
-    And great the marvel, when in one brief hour
-    She shows her darling lifted high in bliss,
-    Then headlong plunged in misery's abyss.
+Mad Fortune sweeps along in wanton pride,\
+Uncertain as Euripus' surging tide;\
+Now tramples mighty kings beneath her feet;\
+Now sets the conquered in the victor's seat.\
+She heedeth not the wail of hapless woe,\
+But mocks the griefs that from her mischief flow.\
+Such is her sport; so proveth she her power;\
+And great the marvel, when in one brief hour\
+She shows her darling lifted high in bliss,\
+Then headlong plunged in misery's abyss.
 
 
-
-II.
+### Chapter II
 
 
 'Now I would fain also reason with thee a little in Fortune's own words.
@@ -1150,36 +1079,32 @@ now, and cease to let thy heart consume away with fretfulness, nor
 expect to live on thine own terms in a realm that is common to all.'
 
 
-
-SONG II.
-
-MAN'S COVETOUSNESS.
+### Song II. Man's Covetousness
 
 
-    What though Plenty pour her gifts
-      With a lavish hand,
-    Numberless as are the stars,
-      Countless as the sand,
-    Will the race of man, content,
-    Cease to murmur and lament?
+What though Plenty pour her gifts\
+With a lavish hand,\
+Numberless as are the stars,\
+Countless as the sand,\
+Will the race of man, content,\
+Cease to murmur and lament?
 
-    Nay, though God, all-bounteous, give
-      Gold at man's desire--
-    Honours, rank, and fame--content
-      Not a whit is nigher;
-    But an all-devouring greed
-    Yawns with ever-widening need.
+Nay, though God, all-bounteous, give\
+Gold at man's desire--\
+Honours, rank, and fame--content\
+Not a whit is nigher;\
+But an all-devouring greed\
+Yawns with ever-widening need.
 
-    Then what bounds can e'er restrain
-      This wild lust of having,
-    When with each new bounty fed
-      Grows the frantic craving?
-    He is never rich whose fear
-    Sees grim Want forever near.
+Then what bounds can e'er restrain\
+This wild lust of having,\
+When with each new bounty fed\
+Grows the frantic craving?\
+He is never rich whose fear\
+Sees grim Want forever near.
 
 
-
-III.
+### Chapter III
 
 
 'If Fortune should plead thus against thee, assuredly thou wouldst not
@@ -1235,34 +1160,30 @@ remaining Fortune. What difference, then, thinkest thou, is there,
 whether thou leavest her by dying, or she leave thee by fleeing away?'
 
 
-
-SONG III.
-
-ALL PASSES.
+### Song III. All Passes
 
 
-    When, in rosy chariot drawn,
-    Phoebus 'gins to light the dawn,
-    By his flaming beams assailed,
-    Every glimmering star is paled.
-    When the grove, by Zephyrs fed,
-    With rose-blossom blushes red;--
-    Doth rude Auster breathe thereon,
-    Bare it stands, its glory gone.
-    Smooth and tranquil lies the deep
-    While the winds are hushed in sleep.
-    Soon, when angry tempests lash,
-    Wild and high the billows dash.
-    Thus if Nature's changing face
-    Holds not still a moment's space,
-    Fleeting deem man's fortunes; deem
-    Bliss as transient as a dream.
-    One law only standeth fast:
-    Things created may not last.
+When, in rosy chariot drawn,\
+Phoebus 'gins to light the dawn,\
+By his flaming beams assailed,\
+Every glimmering star is paled.\
+When the grove, by Zephyrs fed,\
+With rose-blossom blushes red;--\
+Doth rude Auster breathe thereon,\
+Bare it stands, its glory gone.\
+Smooth and tranquil lies the deep\
+While the winds are hushed in sleep.\
+Soon, when angry tempests lash,\
+Wild and high the billows dash.\
+Thus if Nature's changing face\
+Holds not still a moment's space,\
+Fleeting deem man's fortunes; deem\
+Bliss as transient as a dream.\
+One law only standeth fast:\
+Things created may not last.
 
 
-
-IV.
+### Chapter IV
 
 
 Then said I: 'True are thine admonishings, thou nurse of all excellence;
@@ -1369,38 +1290,34 @@ death only, but also through pain and suffering, how can life make men
 happy by its presence when it makes them not wretched by its loss?'
 
 
-
-SONG IV.
-
-THE GOLDEN MEAN.
+### Song IV. The Golden Mean
 
 
-    Who founded firm and sure
-    Would ever live secure,
-    In spite of storm and blast
-    Immovable and fast;
-    Whoso would fain deride
-    The ocean's threatening tide;--
-    His dwelling should not seek
-    On sands or mountain-peak.
-    Upon the mountain's height
-    The storm-winds wreak their spite:
-    The shifting sands disdain
-    Their burden to sustain.
-    Do thou these perils flee,
-    Fair though the prospect be,
-    And fix thy resting-place
-    On some low rock's sure base.
-    Then, though the tempests roar,
-    Seas thunder on the shore,
-    Thou in thy stronghold blest
-    And undisturbed shalt rest;
-    Live all thy days serene,
-    And mock the heavens' spleen.
+Who founded firm and sure\
+Would ever live secure,\
+In spite of storm and blast\
+Immovable and fast;\
+Whoso would fain deride\
+The ocean's threatening tide;--\
+His dwelling should not seek\
+On sands or mountain-peak.\
+Upon the mountain's height\
+The storm-winds wreak their spite:\
+The shifting sands disdain\
+Their burden to sustain.\
+Do thou these perils flee,\
+Fair though the prospect be,\
+And fix thy resting-place\
+On some low rock's sure base.\
+Then, though the tempests roar,\
+Seas thunder on the shore,\
+Thou in thy stronghold blest\
+And undisturbed shalt rest;\
+Live all thy days serene,\
+And mock the heavens' spleen.
 
 
-
-V.
+### Chapter V
 
 
 'But since my reasonings begin to work a soothing effect within thy
@@ -1502,45 +1419,41 @@ pockets. Oh, wondrous blessedness of perishable wealth, whose
 acquisition robs thee of security!'
 
 
-
-SONG V.
-
-THE FORMER AGE.
+### Song V. The Former Age
 
 
-    Too blest the former age, their life
-      Who in the fields contented led,
-    And still, by luxury unspoiled,
-      On frugal acorns sparely fed.
+Too blest the former age, their life\
+Who in the fields contented led,\
+And still, by luxury unspoiled,\
+On frugal acorns sparely fed.
 
-    No skill was theirs the luscious grape
-      With honey's sweetness to confuse;
-    Nor China's soft and sheeny silks
-      T' empurple with brave Tyrian hues.
+No skill was theirs the luscious grape\
+With honey's sweetness to confuse;\
+Nor China's soft and sheeny silks\
+T' empurple with brave Tyrian hues.
 
-    The grass their wholesome couch, their drink
-      The stream, their roof the pine's tall shade;
-    Not theirs to cleave the deep, nor seek
-      In strange far lands the spoils of trade.
+The grass their wholesome couch, their drink\
+The stream, their roof the pine's tall shade;\
+Not theirs to cleave the deep, nor seek\
+In strange far lands the spoils of trade.
 
-    The trump of war was heard not yet,
-      Nor soiled the fields by bloodshed's stain;
-    For why should war's fierce madness arm
-      When strife brought wound, but brought not gain?
+The trump of war was heard not yet,\
+Nor soiled the fields by bloodshed's stain;\
+For why should war's fierce madness arm\
+When strife brought wound, but brought not gain?
 
-    Ah! would our hearts might still return
-      To following in those ancient ways.
-    Alas! the greed of getting glows
-      More fierce than Etna's fiery blaze.
+Ah! would our hearts might still return\
+To following in those ancient ways.\
+Alas! the greed of getting glows\
+More fierce than Etna's fiery blaze.
 
-    Woe, woe for him, whoe'er it was,
-      Who first gold's hidden store revealed,
-    And--perilous treasure-trove--dug out
-      The gems that fain would be concealed!
+Woe, woe for him, whoe'er it was,\
+Who first gold's hidden store revealed,\
+And--perilous treasure-trove--dug out\
+The gems that fain would be concealed!
 
 
-
-VI.
+### Chapter VI
 
 
 'What now shall I say of rank and power, whereby, because ye know not
@@ -1607,35 +1520,31 @@ neither always joins herself to the good, nor does she make good men of
 those to whom she is united.'
 
 
-
-SONG VI.
-
-NERO'S INFAMY.
+### Song VI. Nero's Infamy
 
 
-    We know what mischief dire he wrought--
-      Rome fired, the Fathers slain--
-    Whose hand with brother's slaughter wet
-      A mother's blood did stain.
+We know what mischief dire he wrought--\
+Rome fired, the Fathers slain--\
+Whose hand with brother's slaughter wet\
+A mother's blood did stain.
 
-    No pitying tear his cheek bedewed,
-      As on the corse he gazed;
-    That mother's beauty, once so fair,
-      A critic's voice appraised.
+No pitying tear his cheek bedewed,\
+As on the corse he gazed;\
+That mother's beauty, once so fair,\
+A critic's voice appraised.
 
-    Yet far and wide, from East to West,
-      His sway the nations own;
-    And scorching South and icy North
-      Obey his will alone.
+Yet far and wide, from East to West,\
+His sway the nations own;\
+And scorching South and icy North\
+Obey his will alone.
 
-    Did, then, high power a curb impose
-      On Nero's phrenzied will?
-    Ah, woe when to the evil heart
-      Is joined the sword to kill!
+Did, then, high power a curb impose\
+On Nero's phrenzied will?\
+Ah, woe when to the evil heart\
+Is joined the sword to kill!
 
 
-
-VII.
+### Chapter VII
 
 
 Then said I: 'Thou knowest thyself that ambition for worldly success
@@ -1717,50 +1626,46 @@ flight, doth it not despise all earthly things when it rejoices in its
 deliverance from earthly bonds, and enters upon the joys of heaven?'
 
 
-
-SONG VII.
-
-GLORY MAY NOT LAST.
+### Song VII. Glory May Not Last
 
 
-    Oh, let him, who pants for glory's guerdon,
-      Deeming glory all in all,
-    Look and see how wide the heaven expandeth,
-      Earth's enclosing bounds how small!
+Oh, let him, who pants for glory's guerdon,\
+Deeming glory all in all,\
+Look and see how wide the heaven expandeth,\
+Earth's enclosing bounds how small!
 
-    Shame it is, if your proud-swelling glory
-      May not fill this narrow room!
-    Why, then, strive so vainly, oh, ye proud ones!
-      To escape your mortal doom?
+Shame it is, if your proud-swelling glory\
+May not fill this narrow room!\
+Why, then, strive so vainly, oh, ye proud ones!\
+To escape your mortal doom?
 
-    Though your name, to distant regions bruited,
-      O'er the earth be widely spread,
-    Though full many a lofty-sounding title
-      On your house its lustre shed,
+Though your name, to distant regions bruited,\
+O'er the earth be widely spread,\
+Though full many a lofty-sounding title\
+On your house its lustre shed,
 
-    Death at all this pomp and glory spurneth
-      When his hour draweth nigh,
-    Shrouds alike th' exalted and the humble,
-      Levels lowest and most high.
+Death at all this pomp and glory spurneth\
+When his hour draweth nigh,\
+Shrouds alike th' exalted and the humble,\
+Levels lowest and most high.
 
-    Where are now the bones of stanch Fabricius?
-      Brutus, Cato--where are they?
-    Lingering fame, with a few graven letters,
-      Doth their empty name display.
+Where are now the bones of stanch Fabricius?\
+Brutus, Cato--where are they?\
+Lingering fame, with a few graven letters,\
+Doth their empty name display.
 
-    But to know the great dead is not given
-      From a gilded name alone;
-    Nay, ye all alike must lie forgotten,
-      'Tis not _you_ that fame makes known.
+But to know the great dead is not given\
+From a gilded name alone;\
+Nay, ye all alike must lie forgotten,\
+'Tis not _you_ that fame makes known.
 
-    Fondly do ye deem life's little hour
-      Lengthened by fame's mortal breath;
-    There but waits you--when this, too, is taken--
-      At the last a second death.
+Fondly do ye deem life's little hour\
+Lengthened by fame's mortal breath;\
+There but waits you--when this, too, is taken--\
+At the last a second death.
 
 
-
-VIII.
+### Chapter VIII
 
 
 'But that thou mayst not think that I wage implacable warfare against
@@ -1790,105 +1695,98 @@ Cease, then, to seek the wealth thou hast lost, since in true friends
 thou hast found the most precious of all riches.'
 
 
-
-SONG VIII.
-
-LOVE IS LORD OF ALL.
+### Song VIII. Love is Lord of All
 
 
-    Why are Nature's changes bound
-    To a fixed and ordered round?
-    What to leaguèd peace hath bent
-    Every warring element?
-    Wherefore doth the rosy morn
-    Rise on Phoebus' car upborne?
-    Why should Phoebe rule the night,
-    Led by Hesper's guiding light?
-    What the power that doth restrain
-    In his place the restless main,
-    That within fixed bounds he keeps,
-    Nor o'er earth in deluge sweeps?
-    Love it is that holds the chains,
-    Love o'er sea and earth that reigns;
-    Love--whom else but sovereign Love?--
-    Love, high lord in heaven above!
-    Yet should he his care remit,
-    All that now so close is knit
-    In sweet love and holy peace,
-    Would no more from conflict cease,
-    But with strife's rude shock and jar
-    All the world's fair fabric mar.
+Why are Nature's changes bound\
+To a fixed and ordered round?\
+What to leaguèd peace hath bent\
+Every warring element?\
+Wherefore doth the rosy morn\
+Rise on Phoebus' car upborne?\
+Why should Phoebe rule the night,\
+Led by Hesper's guiding light?\
+What the power that doth restrain\
+In his place the restless main,\
+That within fixed bounds he keeps,\
+Nor o'er earth in deluge sweeps?\
+Love it is that holds the chains,\
+Love o'er sea and earth that reigns;\
+Love--whom else but sovereign Love?--\
+Love, high lord in heaven above!\
+Yet should he his care remit,\
+All that now so close is knit\
+In sweet love and holy peace,\
+Would no more from conflict cease,\
+But with strife's rude shock and jar\
+All the world's fair fabric mar.
 
-    Tribes and nations Love unites
-    By just treaty's sacred rites;
-    Wedlock's bonds he sanctifies
-    By affection's softest ties.
-    Love appointeth, as is due,
-    Faithful laws to comrades true--
-    Love, all-sovereign Love!--oh, then,
-    Ye are blest, ye sons of men,
-    If the love that rules the sky
-    In your hearts is throned on high!
-
-
+Tribes and nations Love unites\
+By just treaty's sacred rites;\
+Wedlock's bonds he sanctifies\
+By affection's softest ties.\
+Love appointeth, as is due,\
+Faithful laws to comrades true--\
+Love, all-sovereign Love!--oh, then,\
+Ye are blest, ye sons of men,\
+If the love that rules the sky\
+In your hearts is throned on high!
 
 
-BOOK III.
-
-TRUE HAPPINESS AND FALSE.
+## Book III. True Happiness and False
 
 
-     SUMMARY
+SUMMARY
 
-     CH. I. Boethius beseeches Philosophy to continue. She promises to
-     lead him to true happiness.--CH. II. Happiness is the one end which
-     all created beings seek. They aim variously at (_a_) wealth, or
-     (_b_) rank, or (_c_) sovereignty, or (_d_) glory, or (_e_)
-     pleasure, because they think thereby to attain either (_a_)
-     contentment, (_b_) reverence, (_c_) power, (_d_) renown, or (_e_)
-     gladness of heart, in one or other of which they severally imagine
-     happiness to consist.--CH. III. Philosophy proceeds to consider
-     whether happiness can really be secured in any of these ways, (_a_)
-     So far from bringing contentment, riches only add to men's
-     wants.--CH. IV. (_b_) High position cannot of itself win respect.
-     Titles command no reverence in distant and barbarous lands. They
-     even fall into contempt through lapse of time.--CH. V. (_c_)
-     Sovereignty cannot even bestow safety. History tells of the
-     downfall of kings and their ministers. Tyrants go in fear of their
-     lives. --CH. VI. (_d_) Fame conferred on the unworthy is but
-     disgrace. The splendour of noble birth is not a man's own, but his
-     ancestors'.--CH. VII. (_e_) Pleasure begins in the restlessness of
-     desire, and ends in repentance. Even the pure pleasures of home may
-     turn to gall and bitterness.--CH. VIII. All fail, then, to give
-     what they promise. There is, moreover, some accompanying evil
-     involved in each of these aims. Beauty and bodily strength are
-     likewise of little worth. In strength man is surpassed by the
-     brutes; beauty is but outward show.--CH. IX. The source of men's
-     error in following these phantoms of good is that _they break up
-     and separate that which is in its nature one and indivisible_.
-     Contentment, power, reverence, renown, and joy are essentially
-     bound up one with the other, and, if they are to be attained at
-     all, must be attained _together_. True happiness, if it can be
-     found, will include them all. But it cannot be found among the
-     perishable things hitherto considered.--CH. X. Such a happiness
-     necessarily exists. Its seat is in God. Nay, God is very happiness,
-     and in a manner, therefore, the happy man partakes also of the
-     Divine nature. All other ends are relative to this good, since they
-     are all pursued only for the sake of good; it is _good_ which is
-     the sole ultimate end. And since the sole end is also happiness, it
-     is plain that this good and happiness are in essence the same.--CH.
-     XI. Unity is another aspect of goodness. Now, all things subsist so
-     long only as they preserve the unity of their being; when they lose
-     this unity, they perish. But the bent of nature forces all things
-     (plants and inanimate things, as well as animals) to strive to
-     continue in life. Therefore, all things desire unity, for unity is
-     essential to life. But unity and goodness were shown to be the
-     same. Therefore, good is proved to be the end towards which the
-     whole universe tends.[E]--CH. XII. Boethius acknowledges that he is
-     but recollecting truths he once knew. Philosophy goes on to show
-     that it is goodness also by which the whole world is governed.[F]
-     Boethius professes compunction for his former folly. But the
-     paradox of evil is introduced, and he is once more perplexed.
+CH. I. Boethius beseeches Philosophy to continue. She promises to
+lead him to true happiness.--CH. II. Happiness is the one end which
+all created beings seek. They aim variously at (_a_) wealth, or
+(_b_) rank, or (_c_) sovereignty, or (_d_) glory, or (_e_)
+pleasure, because they think thereby to attain either (_a_)
+contentment, (_b_) reverence, (_c_) power, (_d_) renown, or (_e_)
+gladness of heart, in one or other of which they severally imagine
+happiness to consist.--CH. III. Philosophy proceeds to consider
+whether happiness can really be secured in any of these ways, (_a_)
+So far from bringing contentment, riches only add to men's
+wants.--CH. IV. (_b_) High position cannot of itself win respect.
+Titles command no reverence in distant and barbarous lands. They
+even fall into contempt through lapse of time.--CH. V. (_c_)
+Sovereignty cannot even bestow safety. History tells of the
+downfall of kings and their ministers. Tyrants go in fear of their
+lives. --CH. VI. (_d_) Fame conferred on the unworthy is but
+disgrace. The splendour of noble birth is not a man's own, but his
+ancestors'.--CH. VII. (_e_) Pleasure begins in the restlessness of
+desire, and ends in repentance. Even the pure pleasures of home may
+turn to gall and bitterness.--CH. VIII. All fail, then, to give
+what they promise. There is, moreover, some accompanying evil
+involved in each of these aims. Beauty and bodily strength are
+likewise of little worth. In strength man is surpassed by the
+brutes; beauty is but outward show.--CH. IX. The source of men's
+error in following these phantoms of good is that _they break up
+and separate that which is in its nature one and indivisible_.
+Contentment, power, reverence, renown, and joy are essentially
+bound up one with the other, and, if they are to be attained at
+all, must be attained _together_. True happiness, if it can be
+found, will include them all. But it cannot be found among the
+perishable things hitherto considered.--CH. X. Such a happiness
+necessarily exists. Its seat is in God. Nay, God is very happiness,
+and in a manner, therefore, the happy man partakes also of the
+Divine nature. All other ends are relative to this good, since they
+are all pursued only for the sake of good; it is _good_ which is
+the sole ultimate end. And since the sole end is also happiness, it
+is plain that this good and happiness are in essence the same.--CH.
+XI. Unity is another aspect of goodness. Now, all things subsist so
+long only as they preserve the unity of their being; when they lose
+this unity, they perish. But the bent of nature forces all things
+(plants and inanimate things, as well as animals) to strive to
+continue in life. Therefore, all things desire unity, for unity is
+essential to life. But unity and goodness were shown to be the
+same. Therefore, good is proved to be the end towards which the
+whole universe tends.[E]--CH. XII. Boethius acknowledges that he is
+but recollecting truths he once knew. Philosophy goes on to show
+that it is goodness also by which the whole world is governed.[F]
+Boethius professes compunction for his former folly. But the
+paradox of evil is introduced, and he is once more perplexed.
 
 
 FOOTNOTES:
@@ -1901,13 +1799,7 @@ but an answer may be gathered from the general argument of bks. ii.,
 iii., and iv.
 
 
-
-
-BOOK III.
-
-
-
-I.
+### Chapter I
 
 
 She ceased, but I stood fixed by the sweetness of the song in wonderment
@@ -1943,30 +1835,26 @@ when thou hast viewed this carefully, thou mayst turn thy eyes the other
 way, and recognise the beauty of true happiness.'
 
 
-
-SONG I.
-
-THE THORNS OF ERROR.
+### Song I. The Thorns of Error
 
 
-    Who fain would sow the fallow field,
-      And see the growing corn,
-    Must first remove the useless weeds,
-      The bramble and the thorn.
+Who fain would sow the fallow field,\
+And see the growing corn,\
+Must first remove the useless weeds,\
+The bramble and the thorn.
 
-    After ill savour, honey's taste
-      Is to the mouth more sweet;
-    After the storm, the twinkling stars
-      The eyes more cheerly greet.
+After ill savour, honey's taste\
+Is to the mouth more sweet;\
+After the storm, the twinkling stars\
+The eyes more cheerly greet.
 
-    When night hath past, the bright dawn comes
-      In car of rosy hue;
-    So drive the false bliss from thy mind,
-      And thou shall see the true.
+When night hath past, the bright dawn comes\
+In car of rosy hue;\
+So drive the false bliss from thy mind,\
+And thou shall see the true.
 
 
-
-II.
+### Chapter II
 
 
 For a little space she remained in a fixed gaze, withdrawn, as it were,
@@ -2044,62 +1932,58 @@ opinions are so various and discordant, yet they agree in cherishing
 _good_ as the end.'
 
 
-
-SONG II.
-
-THE BENT OF NATURE.
+### Song II. The Bent of Nature
 
 
-    How the might of Nature sways
-    All the world in ordered ways,
-    How resistless laws control
-    Each least portion of the whole--
-    Fain would I in sounding verse
-    On my pliant strings rehearse.
+How the might of Nature sways\
+All the world in ordered ways,\
+How resistless laws control\
+Each least portion of the whole--\
+Fain would I in sounding verse\
+On my pliant strings rehearse.
 
-    Lo, the lion captive ta'en
-    Meekly wears his gilded chain;
-    Yet though he by hand be fed,
-    Though a master's whip he dread,
-    If but once the taste of gore
-    Whet his cruel lips once more,
-    Straight his slumbering fierceness wakes,
-    With one roar his bonds he breaks,
-    And first wreaks his vengeful force
-    On his trainer's mangled corse.
+Lo, the lion captive ta'en\
+Meekly wears his gilded chain;\
+Yet though he by hand be fed,\
+Though a master's whip he dread,\
+If but once the taste of gore\
+Whet his cruel lips once more,\
+Straight his slumbering fierceness wakes,\
+With one roar his bonds he breaks,\
+And first wreaks his vengeful force\
+On his trainer's mangled corse.
 
-    And the woodland songster, pent
-    In forlorn imprisonment,
-    Though a mistress' lavish care
-    Store of honeyed sweets prepare;
-    Yet, if in his narrow cage,
-    As he hops from bar to bar,
-    He should spy the woods afar,
-    Cool with sheltering foliage,
-    All these dainties he will spurn,
-    To the woods his heart will turn;
-    Only for the woods he longs,
-    Pipes the woods in all his songs.
+And the woodland songster, pent\
+In forlorn imprisonment,\
+Though a mistress' lavish care\
+Store of honeyed sweets prepare;\
+Yet, if in his narrow cage,\
+As he hops from bar to bar,\
+He should spy the woods afar,\
+Cool with sheltering foliage,\
+All these dainties he will spurn,\
+To the woods his heart will turn;\
+Only for the woods he longs,\
+Pipes the woods in all his songs.
 
-    To rude force the sapling bends,
-    While the hand its pressure lends;
-    If the hand its pressure slack,
-    Straight the supple wood springs back.
-    Phoebus in the western main
-    Sinks; but swift his car again
-    By a secret path is borne
-    To the wonted gates of morn.
+To rude force the sapling bends,\
+While the hand its pressure lends;\
+If the hand its pressure slack,\
+Straight the supple wood springs back.\
+Phoebus in the western main\
+Sinks; but swift his car again\
+By a secret path is borne\
+To the wonted gates of morn.
 
-    Thus are all things seen to yearn
-    In due time for due return;
-    And no order fixed may stay,
-    Save which in th' appointed way
-    Joins the end to the beginning
-    In a steady cycle spinning.
+Thus are all things seen to yearn\
+In due time for due return;\
+And no order fixed may stay,\
+Save which in th' appointed way\
+Joins the end to the beginning\
+In a steady cycle spinning.
 
 
-
-III.
+### Chapter III
 
 
 'Ye, too, creatures of earth, have some glimmering of your origin,
@@ -2184,28 +2068,24 @@ cannot get rid of want, and makes new wants of its own, how can ye
 believe that it bestows independence?'
 
 
-
-SONG III.
-
-THE INSATIABLENESS OF AVARICE.
+### Song III. The Insatiableness of Avarice
 
 
-    Though the covetous grown wealthy
-      See his piles of gold rise high;
-    Though he gather store of treasure
-      That can never satisfy;
-    Though with pearls his gorget blazes,
-      Rarest that the ocean yields;
-    Though a hundred head of oxen
-      Travail in his ample fields;
-    Ne'er shall carking care forsake him
-      While he draws this vital breath,
-    And his riches go not with him,
-      When his eyes are closed in death.
+Though the covetous grown wealthy\
+See his piles of gold rise high;\
+Though he gather store of treasure\
+That can never satisfy;\
+Though with pearls his gorget blazes,\
+Rarest that the ocean yields;\
+Though a hundred head of oxen\
+Travail in his ample fields;\
+Ne'er shall carking care forsake him\
+While he draws this vital breath,\
+And his riches go not with him,\
+When his eyes are closed in death.
 
 
-
-IV.
+### Chapter IV
 
 
 'Well, but official dignity clothes him to whom it comes with honour and
@@ -2259,25 +2139,21 @@ merely for lack of public estimation, what precious beauty have they in
 themselves, much less to give to others?'
 
 
-
-SONG IV.
-
-DISGRACE OF HONOURS CONFERRED BY A TYRANT.
+### Song IV. Disgrace of Honours Conferred by a Tyrant
 
 
-    Though royal purple soothes his pride,
-      And snowy pearls his neck adorn,
-    Nero in all his riot lives
-      The mark of universal scorn.
+Though royal purple soothes his pride,\
+And snowy pearls his neck adorn,\
+Nero in all his riot lives\
+The mark of universal scorn.
 
-    Yet he on reverend heads conferred
-      Th' inglorious honours of the state.
-    Shall we, then, deem them truly blessed
-      Whom such preferment hath made great?
+Yet he on reverend heads conferred\
+Th' inglorious honours of the state.\
+Shall we, then, deem them truly blessed\
+Whom such preferment hath made great?
 
 
-
-V.
+### Chapter V
 
 
 'Well, then, does sovereignty and the intimacy of kings prove able to
@@ -2323,33 +2199,29 @@ FOOTNOTES:
 [G] The sword of Damocles.
 
 
-
-SONG V.
-
-SELF-MASTERY.
+### Song V. Self-mastery
 
 
-    Who on power sets his aim,
-    First must his own spirit tame;
-    He must shun his neck to thrust
-    'Neath th' unholy yoke of lust.
-    For, though India's far-off land
-    Bow before his wide command,
-    Utmost Thule homage pay--
-    If he cannot drive away
-    Haunting care and black distress,
-    In his power, he's powerless.
+Who on power sets his aim,\
+First must his own spirit tame;\
+He must shun his neck to thrust\
+'Neath th' unholy yoke of lust.\
+For, though India's far-off land\
+Bow before his wide command,\
+Utmost Thule homage pay--\
+If he cannot drive away\
+Haunting care and black distress,\
+In his power, he's powerless.
 
 
-
-VI.
+### Chapter VI
 
 
 'Again, how misleading, how base, a thing ofttimes is glory! Well does
 the tragic poet exclaim:
 
-    '"Oh, fond Repute, how many a time and oft
-    Hast them raised high in pride the base-born churl!"
+'"Oh, fond Repute, how many a time and oft
+Hast them raised high in pride the base-born churl!"
 
 For many have won a great name through the mistaken beliefs of the
 multitude--and what can be imagined more shameful than that? Nay, they
@@ -2377,26 +2249,22 @@ nobly born the obligation not to degenerate from the virtue of their
 ancestors.'
 
 
-
-SONG VI.
-
-TRUE NOBILITY.
+### Song VI. True Nobility
 
 
-    All men are of one kindred stock, though scattered far and wide;
-    For one is Father of us all--one doth for all provide.
-    He gave the sun his golden beams, the moon her silver horn;
-    He set mankind upon the earth, as stars the heavens adorn.
-    He shut a soul--a heaven-born soul--within the body's frame;
-    The noble origin he gave each mortal wight may claim.
-    Why boast ye, then, so loud of race and high ancestral line?
-    If ye behold your being's source, and God's supreme design,
-    None is degenerate, none base, unless by taint of sin
-    And cherished vice he foully stain his heavenly origin.
+All men are of one kindred stock, though scattered far and wide;\
+For one is Father of us all--one doth for all provide.\
+He gave the sun his golden beams, the moon her silver horn;\
+He set mankind upon the earth, as stars the heavens adorn.\
+He shut a soul--a heaven-born soul--within the body's frame;\
+The noble origin he gave each mortal wight may claim.\
+Why boast ye, then, so loud of race and high ancestral line?\
+If ye behold your being's source, and God's supreme design,\
+None is degenerate, none base, unless by taint of sin\
+And cherished vice he foully stain his heavenly origin.
 
 
-
-VII.
+### Chapter VII
 
 
 'Then, what shall I say of the pleasures of the body? The lust thereof
@@ -2426,23 +2294,18 @@ therefore really just the reverse of that which Boethius makes it. See
 Euripides, 'Andromache,' Il. 418-420.
 
 
-
-SONG VII.
-
-PLEASURE'S STING.
+### Song VII. Pleasure's Sting
 
 
-        This is the way of Pleasure:
-    She stings them that despoil her;
-    And, like the wingéd toiler
-        Who's lost her honeyed treasure,
-      She flies, but leaves her smart
-      Deep-rankling in the heart.
+This is the way of Pleasure:\
+She stings them that despoil her;\
+And, like the wingéd toiler\
+Who's lost her honeyed treasure,\
+She flies, but leaves her smart\
+Deep-rankling in the heart.
 
 
-
-
-VIII.
+### Chapter VIII
 
 
 'It is beyond doubt, then, that these paths do not lead to happiness;
@@ -2480,50 +2343,46 @@ of all good things--these neither lead as by-ways to happiness, nor
 themselves make men completely happy.'
 
 
-
-SONG VIII.
-
-HUMAN FOLLY.
+### Song VIII. Human Folly
 
 
-      Alas! how wide astray
-    Doth Ignorance these wretched mortals lead
-      From Truth's own way!
-      For not on leafy stems
-    Do ye within the green wood look for gold,
-      Nor strip the vine for gems;
+Alas! how wide astray\
+Doth Ignorance these wretched mortals lead\
+From Truth's own way!\
+For not on leafy stems\
+Do ye within the green wood look for gold,\
+Nor strip the vine for gems;
 
-      Your nets ye do not spread
-    Upon the hill-tops, that the groaning board
-      With fish be furnishèd;
-      If ye are fain to chase
-    The bounding goat, ye sweep not in vain search
-      The ocean's ruffled face.
+Your nets ye do not spread\
+Upon the hill-tops, that the groaning board\
+With fish be furnishèd;\
+If ye are fain to chase\
+The bounding goat, ye sweep not in vain search\
+The ocean's ruffled face.
 
-      The sea's far depths they know,
-    Each hidden nook, wherein the waves o'erwash
-      The pearl as white as snow;
-      Where lurks the Tyrian shell,
-    Where fish and prickly urchins do abound,
-      All this they know full well.
+The sea's far depths they know,\
+Each hidden nook, wherein the waves o'erwash\
+The pearl as white as snow;\
+Where lurks the Tyrian shell,\
+Where fish and prickly urchins do abound,\
+All this they know full well.
 
-      But not to know or care
-    Where hidden lies the good all hearts desire--
-      This blindness they can bear;
-      With gaze on earth low-bent,
-    They seek for that which reacheth far beyond
-      The starry firmament.
+But not to know or care\
+Where hidden lies the good all hearts desire--\
+This blindness they can bear;\
+With gaze on earth low-bent,\
+They seek for that which reacheth far beyond\
+The starry firmament.
 
-      What curse shall I call down
-    On hearts so dull? May they the race still run
-      For wealth and high renown!
-      And when with much ado
-    The false good they have grasped--ah, then too late!--
-      May they discern the true!
+What curse shall I call down\
+On hearts so dull? May they the race still run\
+For wealth and high renown!\
+And when with much ado\
+The false good they have grasped--ah, then too late!--\
+May they discern the true!
 
 
-
-IX.
+### Chapter IX
 
 
 'This much may well suffice to set forth the form of false happiness; if
@@ -2679,66 +2538,62 @@ enterprise sets out from a right beginning.'
 sang:
 
 
-
-SONG IX.[I]
-
-INVOCATION.
+### Song IX. Invocation
 
 
-    Maker of earth and sky, from age to age
-    Who rul'st the world by reason; at whose word
-    Time issues from Eternity's abyss:
-    To all that moves the source of movement, fixed
-    Thyself and moveless. Thee no cause impelled
-    Extrinsic this proportioned frame to shape
-    From shapeless matter; but, deep-set within
-    Thy inmost being, the form of perfect good,
-    From envy free; and Thou didst mould the whole
-    To that supernal pattern. Beauteous
-    The world in Thee thus imaged, being Thyself
+Maker of earth and sky, from age to age\
+Who rul'st the world by reason; at whose word\
+Time issues from Eternity's abyss:\
+To all that moves the source of movement, fixed\
+Thyself and moveless. Thee no cause impelled\
+Extrinsic this proportioned frame to shape\
+From shapeless matter; but, deep-set within\
+Thy inmost being, the form of perfect good,\
+From envy free; and Thou didst mould the whole\
+To that supernal pattern. Beauteous\
+The world in Thee thus imaged, being Thyself
 
 
-    Most beautiful. So Thou the work didst fashion
-    In that fair likeness, bidding it put on
-    Perfection through the exquisite perfectness
-    Of every part's contrivance. Thou dost bind
-    The elements in balanced harmony,
-    So that the hot and cold, the moist and dry,
-    Contend not; nor the pure fire leaping up
-    Escape, or weight of waters whelm the earth.
+Most beautiful. So Thou the work didst fashion\
+In that fair likeness, bidding it put on\
+Perfection through the exquisite perfectness\
+Of every part's contrivance. Thou dost bind\
+The elements in balanced harmony,\
+So that the hot and cold, the moist and dry,\
+Contend not; nor the pure fire leaping up\
+Escape, or weight of waters whelm the earth.
 
-    Thou joinest and diffusest through the whole,
-    Linking accordantly its several parts,
-    A soul of threefold nature, moving all.
-    This, cleft in twain, and in two circles gathered,
-    Speeds in a path that on itself returns,
-    Encompassing mind's limits, and conforms
-    The heavens to her true semblance. Lesser souls
-    And lesser lives by a like ordinance
-    Thou sendest forth, each to its starry car
-    Affixing, and dost strew them far and wide
-    O'er earth and heaven. These by a law benign
-    Thou biddest turn again, and render back
-    To thee their fires. Oh, grant, almighty Father,
-    Grant us on reason's wing to soar aloft
-    To heaven's exalted height; grant us to see
-    The fount of good; grant us, the true light found,
-    To fix our steadfast eyes in vision clear
-    On Thee. Disperse the heavy mists of earth,
-    And shine in Thine own splendour. For Thou art
-    The true serenity and perfect rest
-    Of every pious soul--to see Thy face,
-    The end and the beginning--One the guide,
-    The traveller, the pathway, and the goal.
+Thou joinest and diffusest through the whole,\
+Linking accordantly its several parts,\
+A soul of threefold nature, moving all.\
+This, cleft in twain, and in two circles gathered,\
+Speeds in a path that on itself returns,\
+Encompassing mind's limits, and conforms\
+The heavens to her true semblance. Lesser souls\
+And lesser lives by a like ordinance\
+Thou sendest forth, each to its starry car\
+Affixing, and dost strew them far and wide\
+O'er earth and heaven. These by a law benign\
+Thou biddest turn again, and render back\
+To thee their fires. Oh, grant, almighty Father,\
+Grant us on reason's wing to soar aloft\
+To heaven's exalted height; grant us to see\
+The fount of good; grant us, the true light found,\
+To fix our steadfast eyes in vision clear\
+On Thee. Disperse the heavy mists of earth,\
+And shine in Thine own splendour. For Thou art\
+The true serenity and perfect rest\
+Of every pious soul--to see Thy face,\
+The end and the beginning--One the guide,\
+The traveller, the pathway, and the goal.
 
 FOOTNOTES:
 
-[I] The substance of this poem is taken from Plato's 'Timæus,' 29-42.
+[I] The substance of this poem is taken from Plato's 'Timæus,' 29-42.\
 See Jowett, vol. iii., pp. 448-462 (third edition).
 
 
-
-X.
+### Chapter X
 
 
 'Since now thou hast seen what is the form of the imperfect good, and
@@ -2915,43 +2770,39 @@ same.'
 absolute good, and nowhere else.'
 
 
-
-SONG X.
-
-THE TRUE LIGHT.
+### Song X. The True Light
 
 
-    Hither come, all ye whose minds
-    Lust with rosy fetters binds--
-    Lust to bondage hard compelling
-    Th' earthy souls that are his dwelling--
-    Here shall be your labour's close;
-    Here your haven of repose.
-    Come, to your one refuge press;
-    Wide it stands to all distress!
+Hither come, all ye whose minds\
+Lust with rosy fetters binds--\
+Lust to bondage hard compelling\
+Th' earthy souls that are his dwelling--\
+Here shall be your labour's close;\
+Here your haven of repose.\
+Come, to your one refuge press;\
+Wide it stands to all distress!
 
-    Not the glint of yellow gold
-    Down bright Hermus' current rolled;
-    Not the Tagus' precious sands,
-    Nor in far-off scorching lands
-    All the radiant gems that hide
-    Under Indus' storied tide--
-    Emerald green and glistering white--
-    Can illume our feeble sight;
-    But they rather leave the mind
-    In its native darkness blind.
-    For the fairest beams they shed
-    In earth's lowest depths were fed;
-    But the splendour that supplies
-    Strength and vigour to the skies,
-    And the universe controls,
-    Shunneth dark and ruined souls.
-    He who once hath seen _this_ light
-    Will not call the sunbeam bright.
+Not the glint of yellow gold\
+Down bright Hermus' current rolled;\
+Not the Tagus' precious sands,\
+Nor in far-off scorching lands\
+All the radiant gems that hide\
+Under Indus' storied tide--\
+Emerald green and glistering white--\
+Can illume our feeble sight;\
+But they rather leave the mind\
+In its native darkness blind.\
+For the fairest beams they shed\
+In earth's lowest depths were fed;\
+But the splendour that supplies\
+Strength and vigour to the skies,\
+And the universe controls,\
+Shunneth dark and ruined souls.\
+He who once hath seen _this_ light\
+Will not call the sunbeam bright.
 
 
-
-XI.
+### Chapter XI
 
 
 'I quite agree,' said I, 'truly all thy reasonings hold admirably
@@ -3103,43 +2954,39 @@ ought to acknowledge the end and aim of the whole universe to be "the
 good."'
 
 
-
-SONG XI.
-
-REMINISCENCE.[J]
+### Song XI. Reminiscence.[j]
 
 
-    Who truth pursues, who from false ways
-      His heedful steps would keep,
-    By inward light must search within
-      In meditation deep;
-    All outward bent he must repress
-    His soul's true treasure to possess.
+Who truth pursues, who from false ways\
+His heedful steps would keep,\
+By inward light must search within\
+In meditation deep;\
+All outward bent he must repress\
+His soul's true treasure to possess.
 
-    Then all that error's mists obscured
-      Shall shine more clear than light,
-    This fleshly frame's oblivious weight
-      Hath quenched not reason quite;
-    The germs of truth still lie within,
-    Whence we by learning all may win.
+Then all that error's mists obscured\
+Shall shine more clear than light,\
+This fleshly frame's oblivious weight\
+Hath quenched not reason quite;\
+The germs of truth still lie within,\
+Whence we by learning all may win.
 
-    Else how could ye the answer due
-      Untaught to questions give,
-    Were't not that deep within the soul
-      Truth's secret sparks do live?
-    If Plato's teaching erreth not,
-    We learn but that we have forgot.
+Else how could ye the answer due\
+Untaught to questions give,\
+Were't not that deep within the soul\
+Truth's secret sparks do live?\
+If Plato's teaching erreth not,\
+We learn but that we have forgot.
 
 
 FOOTNOTES:
 
-[J] The doctrine of Reminiscence--_i.e._, that all learning is really
-recollection--is set forth at length by Plato in the 'Meno,' 81-86, and
+[J] The doctrine of Reminiscence--_i.e._, that all learning is really\
+recollection--is set forth at length by Plato in the 'Meno,' 81-86, and\
 the 'Phædo,' 72-76. See Jowett, vol. ii., pp. 40-47 and 213-218.
 
 
-
-XII.
+### Chapter XII
 
 
 Then said I: 'With all my heart I agree with Plato; indeed, this is now
@@ -3290,7 +3137,7 @@ important of all objects. For such is the form of the Divine essence,
 that neither can it pass into things external, nor take up anything
 external into itself; but, as Parmenides says of it,
 
-    '"In body like to a sphere on all sides perfectly rounded,"
+'"In body like to a sphere on all sides perfectly rounded,"
 
 it rolls the restless orb of the universe, keeping itself motionless the
 while. And if I have also employed reasonings not drawn from without,
@@ -3299,131 +3146,118 @@ to marvel, since thou hast learnt on Plato's authority that words ought
 to be akin to the matter of which they treat.'
 
 
-
-SONG XII.
-
-ORPHEUS AND EURYDICE.
+### Song XII. Orpheus and Eurydice
 
 
-    Blest he whose feet have stood
-    Beside the fount of good;
-    Blest he whose will could break
-    Earth's chains for wisdom's sake!
+Blest he whose feet have stood\
+Beside the fount of good;\
+Blest he whose will could break\
+Earth's chains for wisdom's sake!
 
-    The Thracian bard, 'tis said,
-    Mourned his dear consort dead;
-    To hear the plaintive strain
-    The woods moved in his train,
-    And the stream ceased to flow,
-    Held by so soft a woe;
-    The deer without dismay
-    Beside the lion lay;
-    The hound, by song subdued,
-    No more the hare pursued,
-    But the pang unassuaged
-    In his own bosom raged.
-    The music that could calm
-    All else brought him no balm.
-    Chiding the powers immortal,
-    He came unto Hell's portal;
-    There breathed all tender things
-    Upon his sounding strings,
-    Each rhapsody high-wrought
-    His goddess-mother taught--
-    All he from grief could borrow
-    And love redoubling sorrow,
-    Till, as the echoes waken,
-    All Tænarus is shaken;
-    Whilst he to ruth persuades
-    The monarch of the shades
-    With dulcet prayer. Spell-bound,
-    The triple-headed hound
-    At sounds so strangely sweet
-    Falls crouching at his feet.
-    The dread Avengers, too,
-    That guilty minds pursue
-    With ever-haunting fears,
-    Are all dissolved in tears.
-    Ixion, on his wheel,
-    A respite brief doth feel;
-    For, lo! the wheel stands still.
-    And, while those sad notes thrill,
-    Thirst-maddened Tantalus
-    Listens, oblivious
-    Of the stream's mockery
-    And his long agony.
-    The vulture, too, doth spare
-    Some little while to tear
-    At Tityus' rent side,
-    Sated and pacified.
+The Thracian bard, 'tis said,\
+Mourned his dear consort dead;\
+To hear the plaintive strain\
+The woods moved in his train,\
+And the stream ceased to flow,\
+Held by so soft a woe;\
+The deer without dismay\
+Beside the lion lay;\
+The hound, by song subdued,\
+No more the hare pursued,\
+But the pang unassuaged\
+In his own bosom raged.\
+The music that could calm\
+All else brought him no balm.\
+Chiding the powers immortal,\
+He came unto Hell's portal;\
+There breathed all tender things\
+Upon his sounding strings,\
+Each rhapsody high-wrought\
+His goddess-mother taught--\
+All he from grief could borrow\
+And love redoubling sorrow,\
+Till, as the echoes waken,\
+All Tænarus is shaken;\
+Whilst he to ruth persuades\
+The monarch of the shades\
+With dulcet prayer. Spell-bound,\
+The triple-headed hound\
+At sounds so strangely sweet\
+Falls crouching at his feet.\
+The dread Avengers, too,\
+That guilty minds pursue\
+With ever-haunting fears,\
+Are all dissolved in tears.\
+Ixion, on his wheel,\
+A respite brief doth feel;\
+For, lo! the wheel stands still.\
+And, while those sad notes thrill,\
+Thirst-maddened Tantalus\
+Listens, oblivious\
+Of the stream's mockery\
+And his long agony.\
+The vulture, too, doth spare\
+Some little while to tear\
+At Tityus' rent side,\
+Sated and pacified.
 
-    At length the shadowy king,
-    His sorrows pitying,
-    'He hath prevailèd!' cried;
-    'We give him back his bride!
-    To him she shall belong,
-    As guerdon of his song.
-    One sole condition yet
-    Upon the boon is set:
-    Let him not turn his eyes
-    To view his hard-won prize,
-    Till they securely pass
-    The gates of Hell.' Alas!
-    What law can lovers move?
-    A higher law is love!
-    For Orpheus--woe is me!--
-    On his Eurydice--
-    Day's threshold all but won--
-    Looked, lost, and was undone!
+At length the shadowy king,\
+His sorrows pitying,\
+'He hath prevailèd!' cried;\
+'We give him back his bride!\
+To him she shall belong,\
+As guerdon of his song.\
+One sole condition yet\
+Upon the boon is set:\
+Let him not turn his eyes\
+To view his hard-won prize,\
+Till they securely pass\
+The gates of Hell.' Alas!\
+What law can lovers move?\
+A higher law is love!\
+For Orpheus--woe is me!--\
+On his Eurydice--\
+Day's threshold all but won--\
+Looked, lost, and was undone!
 
-    Ye who the light pursue,
-    This story is for you,
-    Who seek to find a way
-    Unto the clearer day.
-    If on the darkness past
-    One backward look ye cast,
-    Your weak and wandering eyes
-    Have lost the matchless prize.
-
-
+Ye who the light pursue,\
+This story is for you,\
+Who seek to find a way\
+Unto the clearer day.\
+If on the darkness past\
+One backward look ye cast,\
+Your weak and wandering eyes\
+Have lost the matchless prize.
 
 
-BOOK IV.
-
-GOOD AND ILL FORTUNE.
+## Book IV. Good and Ill Fortune
 
 
-     SUMMARY.
+SUMMARY.
 
-     CH. I. The mystery of the seeming moral confusion. Philosophy
-     engages to make this plain, and to fulfil her former promise to the
-     full.--CH. II. Accordingly, (a) she first expounds the paradox that
-     the good alone have power, the bad are altogether powerless.--CH.
-     III. (b) The righteous never lack their reward, nor the wicked
-     their punishment.--CH. IV. (c) The wicked are more unhappy when
-     they accomplish their desires than when they fail to attain them.
-     (d) Evil-doers are more fortunate when they expiate their crimes by
-     suffering punishment than when they escape unpunished. (e) The
-     wrong-doer is more wretched than he who suffers injury.--CH. V.
-     Boethius still cannot understand why the distribution of happiness
-     and misery to the righteous and the wicked seems the result of
-     chance. Philosophy replies that this only seems so because we do
-     not understand the principles of God's moral governance.--CH. VI.
-     The distinction of Fate and Providence. The apparent moral
-     confusion is due to our ignorance of the secret counsels of God's
-     providence. If we possessed the key, we should see how all things
-     are guided to good.--CH. VII. Thus all fortune is good fortune; for
-     it either rewards, disciplines, amends, or punishes, and so is
-     either useful or just.
-
-
+CH. I. The mystery of the seeming moral confusion. Philosophy
+engages to make this plain, and to fulfil her former promise to the
+full.--CH. II. Accordingly, (a) she first expounds the paradox that
+the good alone have power, the bad are altogether powerless.--CH.
+III. (b) The righteous never lack their reward, nor the wicked
+their punishment.--CH. IV. (c) The wicked are more unhappy when
+they accomplish their desires than when they fail to attain them.
+(d) Evil-doers are more fortunate when they expiate their crimes by
+suffering punishment than when they escape unpunished. (e) The
+wrong-doer is more wretched than he who suffers injury.--CH. V.
+Boethius still cannot understand why the distribution of happiness
+and misery to the righteous and the wicked seems the result of
+chance. Philosophy replies that this only seems so because we do
+not understand the principles of God's moral governance.--CH. VI.
+The distinction of Fate and Providence. The apparent moral
+confusion is due to our ignorance of the secret counsels of God's
+providence. If we possessed the key, we should see how all things
+are guided to good.--CH. VII. Thus all fortune is good fortune; for
+it either rewards, disciplines, amends, or punishes, and so is
+either useful or just.
 
 
-BOOK IV.
-
-
-
-I.
+### Chapter I
 
 
 Softly and sweetly Philosophy sang these verses to the end without
@@ -3466,57 +3300,53 @@ return safe to thy country, under my guidance, in the path I will show
 thee, and by the means which I furnish.'
 
 
-
-SONG I.
-
-THE SOUL'S FLIGHT.
+### Song I. The Soul's Flight
 
 
-    Wings are mine; above the pole
-      Far aloft I soar.
-    Clothed with these, my nimble soul
-      Scorns earth's hated shore,
-    Cleaves the skies upon the wind,
-    Sees the clouds left far behind.
+Wings are mine; above the pole\
+Far aloft I soar.\
+Clothed with these, my nimble soul\
+Scorns earth's hated shore,\
+Cleaves the skies upon the wind,\
+Sees the clouds left far behind.
 
-    Soon the glowing point she nears,
-      Where the heavens rotate,
-    Follows through the starry spheres
-      Phoebus' course, or straight
-    Takes for comrade 'mid the stars
-    Saturn cold or glittering Mars;
+Soon the glowing point she nears,\
+Where the heavens rotate,\
+Follows through the starry spheres\
+Phoebus' course, or straight\
+Takes for comrade 'mid the stars\
+Saturn cold or glittering Mars;
 
-    Thus each circling orb explores
-      Through Night's stole that peers;
-    Then, when all are numbered, soars
-      Far beyond the spheres,
-    Mounting heaven's supremest height
-    To the very Fount of light.
+Thus each circling orb explores\
+Through Night's stole that peers;\
+Then, when all are numbered, soars\
+Far beyond the spheres,\
+Mounting heaven's supremest height\
+To the very Fount of light.
 
-    There the Sovereign of the world
-      His calm sway maintains;
-    As the globe is onward whirled
-      Guides the chariot reins,
-    And in splendour glittering
-    Reigns the universal King.
+There the Sovereign of the world\
+His calm sway maintains;\
+As the globe is onward whirled\
+Guides the chariot reins,\
+And in splendour glittering\
+Reigns the universal King.
 
-    Hither if thy wandering feet
-      Find at last a way,
-    Here thy long-lost home thou'lt greet:
-      'Dear lost land,' thou'lt say,
-    'Though from thee I've wandered wide,
-    Hence I came, here will abide.'
+Hither if thy wandering feet\
+Find at last a way,\
+Here thy long-lost home thou'lt greet:\
+'Dear lost land,' thou'lt say,\
+'Though from thee I've wandered wide,\
+Hence I came, here will abide.'
 
-    Yet if ever thou art fain
-      Visitant to be
-    Of earth's gloomy night again,
-      Surely thou wilt see
-    Tyrants whom the nations fear
-    Dwell in hapless exile here.
+Yet if ever thou art fain\
+Visitant to be\
+Of earth's gloomy night again,\
+Surely thou wilt see\
+Tyrants whom the nations fear\
+Dwell in hapless exile here.
 
 
-
-II.
+### Chapter II
 
 
 Then said I: 'Verily, wondrous great are thy promises; yet I do not
@@ -3720,26 +3550,22 @@ _Conington_.
 See Virgil, Æneid,' xii. 764, 745: _cf_. 'Iliad,' xxii. 159-162.
 
 
-
-SONG II.
-
-THE BONDAGE OF PASSION.
+### Song II. The Bondage of Passion
 
 
-    When high-enthroned the monarch sits, resplendent in the pride
-    Of purple robes, while flashing steel guards him on every side;
-    When baleful terrors on his brow with frowning menace lower,
-    And Passion shakes his labouring breast--how dreadful seems his power!
-    But if the vesture of his state from such a one thou tear,
-    Thou'lt see what load of secret bonds this lord of earth doth wear.
-    Lust's poison rankles; o'er his mind rage sweeps in tempest rude;
-    Sorrow his spirit vexes sore, and empty hopes delude.
-    Then thou'lt confess: one hapless wretch, whom many lords oppress,
-    Does never what he would, but lives in thraldom's helplessness.
+When high-enthroned the monarch sits, resplendent in the pride\
+Of purple robes, while flashing steel guards him on every side;\
+When baleful terrors on his brow with frowning menace lower,\
+And Passion shakes his labouring breast--how dreadful seems his power!\
+But if the vesture of his state from such a one thou tear,\
+Thou'lt see what load of secret bonds this lord of earth doth wear.\
+Lust's poison rankles; o'er his mind rage sweeps in tempest rude;\
+Sorrow his spirit vexes sore, and empty hopes delude.\
+Then thou'lt confess: one hapless wretch, whom many lords oppress,\
+Does never what he would, but lives in thraldom's helplessness.
 
 
-
-III.
+### Chapter III
 
 
 'Thou seest, then, in what foulness unrighteous deeds are sunk, with
@@ -3806,68 +3632,64 @@ righteousness ceases to be a man cannot pass into a Godlike condition,
 but actually turns into a brute beast.'
 
 
-
-SONG III.
-
-CIRCE'S CUP.
+### Song III. Circe's Cup
 
 
-    Th' Ithacan discreet,
-    And all his storm-tossed fleet,
-    Far o'er the ocean wave
-    The winds of heaven drave--
-    Drave to the mystic isle,
-    Where dwelleth in her guile
-    That fair and faithless one,
-    The daughter of the Sun.
-    There for the stranger crew
-    With cunning spells she knew
-    To mix th' enchanted cup.
-    For whoso drinks it up,
-    Must suffer hideous change
-    To monstrous shapes and strange.
-    One like a boar appears;
-    This his huge form uprears,
-    Mighty in bulk and limb--
-    An Afric lion--grim
-    With claw and fang. Confessed
-    A wolf, this, sore distressed
-    When he would weep, doth howl;
-    And, strangely tame, these prowl
-    The Indian tiger's mates.
+Th' Ithacan discreet,\
+And all his storm-tossed fleet,\
+Far o'er the ocean wave\
+The winds of heaven drave--\
+Drave to the mystic isle,\
+Where dwelleth in her guile\
+That fair and faithless one,\
+The daughter of the Sun.\
+There for the stranger crew\
+With cunning spells she knew\
+To mix th' enchanted cup.\
+For whoso drinks it up,\
+Must suffer hideous change\
+To monstrous shapes and strange.\
+One like a boar appears;\
+This his huge form uprears,\
+Mighty in bulk and limb--\
+An Afric lion--grim\
+With claw and fang. Confessed\
+A wolf, this, sore distressed\
+When he would weep, doth howl;\
+And, strangely tame, these prowl\
+The Indian tiger's mates.
 
-    And though in such sore straits,
-    The pity of the god
-    Who bears the mystic rod
-    Had power the chieftain brave
-    From her fell arts to save;
-    His comrades, unrestrained,
-    The fatal goblet drained.
-    All now with low-bent head,
-    Like swine, on acorns fed;
-    Man's speech and form were reft,
-    No human feature left;
-    But steadfast still, the mind,
-    Unaltered, unresigned,
-    The monstrous change bewailed.
+And though in such sore straits,\
+The pity of the god\
+Who bears the mystic rod\
+Had power the chieftain brave\
+From her fell arts to save;\
+His comrades, unrestrained,\
+The fatal goblet drained.\
+All now with low-bent head,\
+Like swine, on acorns fed;\
+Man's speech and form were reft,\
+No human feature left;\
+But steadfast still, the mind,\
+Unaltered, unresigned,\
+The monstrous change bewailed.
 
-    How little, then, availed
-    The potencies of ill!
-    These herbs, this baneful skill,
-    May change each outward part,
-    But cannot touch the heart.
-    In its true home, deep-set,
-    Man's spirit liveth yet.
-    _Those_ poisons are more fell,
-    More potent to expel
-    Man from his high estate,
-    Which subtly penetrate,
-    And leave the body whole,
-    But deep infect the soul.
+How little, then, availed\
+The potencies of ill!\
+These herbs, this baneful skill,\
+May change each outward part,\
+But cannot touch the heart.\
+In its true home, deep-set,\
+Man's spirit liveth yet.\
+_Those_ poisons are more fell,\
+More potent to expel\
+Man from his high estate,\
+Which subtly penetrate,\
+And leave the body whole,\
+But deep infect the soul.
 
 
-
-IV.
+### Chapter IV
 
 
 Then said I: 'This is very true. I see that the vicious, though they
@@ -4064,30 +3886,26 @@ rather of pity, so, and much more, should they be pitied whose minds are
 assailed by wickedness, which is more frightful than any sickness.'
 
 
-
-SONG IV.
-
-THE UNREASONABLENESS OF HATRED.
+### Song IV. The Unreasonableness of Hatred
 
 
-      Why all this furious strife? Oh, why
-    With rash and wilful hand provoke death's destined day?
-      If death ye seek--lo! Death is nigh,
-    Not of their master's will those coursers swift delay!
+Why all this furious strife? Oh, why\
+With rash and wilful hand provoke death's destined day?\
+If death ye seek--lo! Death is nigh,\
+Not of their master's will those coursers swift delay!
 
-      The wild beasts vent on man their rage,
-    Yet 'gainst their brothers' lives men point the murderous steel;
-      Unjust and cruel wars they wage,
-    And haste with flying darts the death to meet or deal.
+The wild beasts vent on man their rage,\
+Yet 'gainst their brothers' lives men point the murderous steel;\
+Unjust and cruel wars they wage,\
+And haste with flying darts the death to meet or deal.
 
-      No right nor reason can they show;
-    'Tis but because their lands and laws are not the same.
-      Wouldst _thou_ give each his due; then know
-    Thy love the good must have, the bad thy pity claim.
+No right nor reason can they show;\
+'Tis but because their lands and laws are not the same.\
+Wouldst _thou_ give each his due; then know\
+Thy love the good must have, the bad thy pity claim.
 
 
-
-V.
+### Chapter V
 
 
 On this I said: 'I see how there is a happiness and misery founded on
@@ -4119,48 +3937,44 @@ as a good ruler governs the world, doubt not for thy part that all is
 rightly done.'
 
 
-
-SONG V.
-
-WONDER AND IGNORANCE.
+### Song V. Wonder and Ignorance
 
 
-    Who knoweth not how near the pole
-      Bootes' course doth go,
-    Must marvel by what heavenly law
-      He moves his Wain so slow;
-    Why late he plunges 'neath the main,
-    And swiftly lights his beams again.
+Who knoweth not how near the pole\
+Bootes' course doth go,\
+Must marvel by what heavenly law\
+He moves his Wain so slow;\
+Why late he plunges 'neath the main,\
+And swiftly lights his beams again.
 
-    When the full-orbèd moon grows pale
-      In the mid course of night,
-    And suddenly the stars shine forth
-      That languished in her light,
-    Th' astonied nations stand at gaze,
-    And beat the air in wild amaze.[M]
+When the full-orbèd moon grows pale\
+In the mid course of night,\
+And suddenly the stars shine forth\
+That languished in her light,\
+Th' astonied nations stand at gaze,\
+And beat the air in wild amaze.[M]
 
-    None marvels why upon the shore
-      The storm-lashed breakers beat,
-    Nor why the frost-bound glaciers melt
-      At summer's fervent heat;
-    For here the cause seems plain and clear,
-    Only what's dark and hid we fear.
+None marvels why upon the shore\
+The storm-lashed breakers beat,\
+Nor why the frost-bound glaciers melt\
+At summer's fervent heat;\
+For here the cause seems plain and clear,\
+Only what's dark and hid we fear.
 
-    Weak-minded folly magnifies
-      All that is rare and strange,
-    And the dull herd's o'erwhelmed with awe
-      At unexpected change.
-    But wonder leaves enlightened minds,
-    When ignorance no longer blinds.
+Weak-minded folly magnifies\
+All that is rare and strange,\
+And the dull herd's o'erwhelmed with awe\
+At unexpected change.\
+But wonder leaves enlightened minds,\
+When ignorance no longer blinds.
 
 FOOTNOTES:
 
-[M] To frighten away the monster swallowing the moon. The superstition
+[M] To frighten away the monster swallowing the moon. The superstition\
 was once common. See Tylor's 'Primitive Culture,' pp. 296-302.
 
 
-
-VI.
+### Chapter VI
 
 
 'True,' said I; 'but, since it is thy office to unfold the hidden cause
@@ -4304,8 +4118,8 @@ to God that providence judges it unlawful that aught untoward should
 befall him; nay, doth not even permit him to be afflicted with bodily
 disease. As one more excellent than I[N] hath said:
 
-    '"The very body of the holy saint
-    Is built of purest ether."
+'"The very body of the holy saint
+Is built of purest ether."
 
 Often it happens that the governance is given to the good that a
 restraint may be put upon superfluity of wickedness. To others
@@ -4359,7 +4173,7 @@ departed from the appointed laws of the order, nevertheless falleth
 within _an_ order, though _another_ order, that nothing in the realm of
 providence may be left to haphazard. But
 
-     '"Hard were the task, as a god, to recount all, nothing omitting."
+'"Hard were the task, as a god, to recount all, nothing omitting."
 
 Nor, truly, is it lawful for man to compass in thought all the mechanism
 of the Divine work, or set it forth in speech. Let us be content to
@@ -4383,80 +4197,76 @@ FOOTNOTES:
 is speaking.
 
 
-
-SONG VI.
-
-THE UNIVERSAL AIM.
+### Song VI. The Universal Aim
 
 
-    Wouldst thou with unclouded mind
-    View the laws by God designed,
-    Lift thy steadfast gaze on high
-    To the starry canopy;
-    See in rightful league of love
-    All the constellations move.
-    Fiery Sol, in full career,
-    Ne'er obstructs cold Phoebe's sphere;
-    When the Bear, at heaven's height,
-    Wheels his coursers' rapid flight,
-    Though he sees the starry train
-    Sinking in the western main,
-    He repines not, nor desires
-    In the flood to quench his fires.
+Wouldst thou with unclouded mind\
+View the laws by God designed,\
+Lift thy steadfast gaze on high\
+To the starry canopy;\
+See in rightful league of love\
+All the constellations move.\
+Fiery Sol, in full career,\
+Ne'er obstructs cold Phoebe's sphere;\
+When the Bear, at heaven's height,\
+Wheels his coursers' rapid flight,\
+Though he sees the starry train\
+Sinking in the western main,\
+He repines not, nor desires\
+In the flood to quench his fires.
 
-    In true sequence, as decreed,
-    Daily morn and eve succeed;
-    Vesper brings the shades of night,
-    Lucifer the morning light.
-    Love, in alternation due,
-    Still the cycle doth renew,
-    And discordant strife is driven
-    From the starry realm of heaven.
-    Thus, in wondrous amity,
-    Warring elements agree;
-    Hot and cold, and moist and dry,
-    Lay their ancient quarrel by;
-    High the flickering flame ascends,
-    Downward earth for ever tends.
+In true sequence, as decreed,\
+Daily morn and eve succeed;\
+Vesper brings the shades of night,\
+Lucifer the morning light.\
+Love, in alternation due,\
+Still the cycle doth renew,\
+And discordant strife is driven\
+From the starry realm of heaven.\
+Thus, in wondrous amity,\
+Warring elements agree;\
+Hot and cold, and moist and dry,\
+Lay their ancient quarrel by;\
+High the flickering flame ascends,\
+Downward earth for ever tends.
 
-    So the year in spring's mild hours
-    Loads the air with scent of flowers;
-    Summer paints the golden grain;
-    Then, when autumn comes again,
-    Bright with fruit the orchards glow;
-    Winter brings the rain and snow.
-    Thus the seasons' fixed progression,
-    Tempered in a due succession,
-    Nourishes and brings to birth
-    All that lives and breathes on earth.
-    Then, soon run life's little day,
-    All it brought it takes away.
+So the year in spring's mild hours\
+Loads the air with scent of flowers;\
+Summer paints the golden grain;\
+Then, when autumn comes again,\
+Bright with fruit the orchards glow;\
+Winter brings the rain and snow.\
+Thus the seasons' fixed progression,\
+Tempered in a due succession,\
+Nourishes and brings to birth\
+All that lives and breathes on earth.\
+Then, soon run life's little day,\
+All it brought it takes away.
 
-    But One sits and guides the reins,
-    He who made and all sustains;
-    King and Lord and Fountain-head,
-    Judge most holy, Law most dread;
-    Now impels and now keeps back,
-    Holds each waverer in the track.
-    Else, were once the power withheld
-    That the circling spheres compelled
-    In their orbits to revolve,
-    This world's order would dissolve,
-    And th' harmonious whole would all
-    In one hideous ruin fall.
+But One sits and guides the reins,\
+He who made and all sustains;\
+King and Lord and Fountain-head,\
+Judge most holy, Law most dread;\
+Now impels and now keeps back,\
+Holds each waverer in the track.\
+Else, were once the power withheld\
+That the circling spheres compelled\
+In their orbits to revolve,\
+This world's order would dissolve,\
+And th' harmonious whole would all\
+In one hideous ruin fall.
 
-    But through this connected frame
-    Runs one universal aim;
-    Towards the Good do all things tend,
-    Many paths, but one the end.
-    For naught lasts, unless it turns
-    Backward in its course, and yearns
-    To that Source to flow again
-    Whence its being first was ta'en.
+But through this connected frame\
+Runs one universal aim;\
+Towards the Good do all things tend,\
+Many paths, but one the end.\
+For naught lasts, unless it turns\
+Backward in its course, and yearns\
+To that Source to flow again\
+Whence its being first was ta'en.
 
 
-
-VII.
+### Chapter VII
 
 
 'Dost thou, then, see the consequence of all that we have said?'
@@ -4545,118 +4355,105 @@ you will. Verily, every harsh-seeming fortune, unless it either
 disciplines or amends, is punishment.'
 
 
-
-SONG VII.
-
-THE HERO'S PATH.
+### Song VII. The Hero's Path
 
 
-    Ten years a tedious warfare raged,
-      Ere Ilium's smoking ruins paid
-      For wedlock stained and faith betrayed,
-    And great Atrides' wrath assuaged.
+Ten years a tedious warfare raged,\
+Ere Ilium's smoking ruins paid\
+For wedlock stained and faith betrayed,\
+And great Atrides' wrath assuaged.
 
-    But when heaven's anger asked a life,
-      And baffling winds his course withstood,
-      The king put off his fatherhood,
-    And slew his child with priestly knife.
+But when heaven's anger asked a life,\
+And baffling winds his course withstood,\
+The king put off his fatherhood,\
+And slew his child with priestly knife.
 
-    When by the cavern's glimmering light
-      His comrades dear Odysseus saw
-      In the huge Cyclops' hideous maw
-    Engulfed, he wept the piteous sight.
+When by the cavern's glimmering light\
+His comrades dear Odysseus saw\
+In the huge Cyclops' hideous maw\
+Engulfed, he wept the piteous sight.
 
-    But blinded soon, and wild with pain--
-      In bitter tears and sore annoy--
-      For that foul feast's unholy joy
-    Grim Polyphemus paid again.
+But blinded soon, and wild with pain--\
+In bitter tears and sore annoy--\
+For that foul feast's unholy joy\
+Grim Polyphemus paid again.
 
-    His labours for Alcides win
-      A name of glory far and wide;
-      He tamed the Centaur's haughty pride,
-    And from the lion reft his skin.
+His labours for Alcides win\
+A name of glory far and wide;\
+He tamed the Centaur's haughty pride,\
+And from the lion reft his skin.
 
-    The foul birds with sure darts he slew;
-      The golden fruit he stole--in vain
-      The dragon's watch; with triple chain
-    From hell's depths Cerberus he drew.
+The foul birds with sure darts he slew;\
+The golden fruit he stole--in vain\
+The dragon's watch; with triple chain\
+From hell's depths Cerberus he drew.
 
-    With their fierce lord's own flesh he fed
-      The wild steeds; Hydra overcame
-      With fire. 'Neath his own waves in shame
-    Maimed Achelous hid his head.
+With their fierce lord's own flesh he fed\
+The wild steeds; Hydra overcame\
+With fire. 'Neath his own waves in shame\
+Maimed Achelous hid his head.
 
-    Huge Cacus for his crimes was slain;
-      On Libya's sands Antæus hurled;
-      The shoulders that upheld the world
-    The great boar's dribbled spume did stain.
+Huge Cacus for his crimes was slain;\
+On Libya's sands Antæus hurled;\
+The shoulders that upheld the world\
+The great boar's dribbled spume did stain.
 
-    Last toil of all--his might sustained
-      The ball of heaven, nor did he bend
-      Beneath; this toil, his labour's end,
-    The prize of heaven's high glory gained.
+Last toil of all--his might sustained\
+The ball of heaven, nor did he bend\
+Beneath; this toil, his labour's end,\
+The prize of heaven's high glory gained.
 
-    Brave hearts, press on! Lo, heavenward lead
-      These bright examples! From the fight
-      Turn not your backs in coward flight;
-    Earth's conflict won, the stars your meed!
-
-
+Brave hearts, press on! Lo, heavenward lead\
+These bright examples! From the fight\
+Turn not your backs in coward flight;\
+Earth's conflict won, the stars your meed!
 
 
-BOOK V.
-
-FREE WILL AND GOD'S FOREKNOWLEDGE.
+## Book V. Free Will and God's Foreknowledge
 
 
-     SUMMARY.
+SUMMARY.
 
-     CH. I. Boethius asks if there is really any such thing as chance.
-     Philosophy answers, in conformity with Aristotle's definition
-     (Phys., II. iv.), that chance is merely relative to human purpose,
-     and that what seems fortuitous really depends on a more subtle form
-     of causation.--CH. II. Has man, then, any freedom, if the reign of
-     law is thus absolute? Freedom of choice, replies Philosophy, is a
-     necessary attribute of reason. Man has a measure of freedom, though
-     a less perfect freedom than divine natures.--CH. III. But how can
-     man's freedom be reconciled with God's absolute foreknowledge? If
-     God's foreknowledge be certain, it seems to exclude the possibility
-     of man's free will. But if man has no freedom of choice, it
-     follows that rewards and punishments are unjust as well as useless;
-     that merit and demerit are mere names; that God is the cause of
-     men's wickednesses; that prayer is meaningless.--CH. IV. The
-     explanation is that man's reasoning faculties are not adequate to
-     the apprehension of the ways of God's foreknowledge. If we could
-     know, as He knows, all that is most perplexing in this problem
-     would be made plain. For knowledge depends not on the nature of the
-     thing known, but on the faculty of the knower.--CH. V. Now, where
-     our senses conflict with our reason, we defer the judgment of the
-     lower faculty to the judgment of the higher. Our present perplexity
-     arises from our viewing God's foreknowledge from the standpoint of
-     human reason. We must try and rise to the higher standpoint of
-     God's immediate intuition.--CH. VI. To understand this higher form
-     of cognition, we must consider God's nature. God is eternal.
-     Eternity is more than mere everlasting duration. Accordingly, His
-     knowledge surveys past and future in the timelessness of an eternal
-     present. His foreseeing is seeing. Yet this foreseeing does not in
-     itself impose necessity, any more than our seeing things happen
-     makes their happening necessary. We may, however, if we please,
-     distinguish two necessities--one absolute, the other conditional on
-     knowledge. In this conditional sense alone do the things which God
-     foresees necessarily come to pass. But this kind of necessity
-     affects not the nature of things. It leaves the reality of free
-     will unimpaired, and the evils feared do not ensue. Our
-     responsibility is great, since all that we do is done in the sight
-     of all-seeing Providence.
-
-
+CH. I. Boethius asks if there is really any such thing as chance.
+Philosophy answers, in conformity with Aristotle's definition
+(Phys., II. iv.), that chance is merely relative to human purpose,
+and that what seems fortuitous really depends on a more subtle form
+of causation.--CH. II. Has man, then, any freedom, if the reign of
+law is thus absolute? Freedom of choice, replies Philosophy, is a
+necessary attribute of reason. Man has a measure of freedom, though
+a less perfect freedom than divine natures.--CH. III. But how can
+man's freedom be reconciled with God's absolute foreknowledge? If
+God's foreknowledge be certain, it seems to exclude the possibility
+of man's free will. But if man has no freedom of choice, it
+follows that rewards and punishments are unjust as well as useless;
+that merit and demerit are mere names; that God is the cause of
+men's wickednesses; that prayer is meaningless.--CH. IV. The
+explanation is that man's reasoning faculties are not adequate to
+the apprehension of the ways of God's foreknowledge. If we could
+know, as He knows, all that is most perplexing in this problem
+would be made plain. For knowledge depends not on the nature of the
+thing known, but on the faculty of the knower.--CH. V. Now, where
+our senses conflict with our reason, we defer the judgment of the
+lower faculty to the judgment of the higher. Our present perplexity
+arises from our viewing God's foreknowledge from the standpoint of
+human reason. We must try and rise to the higher standpoint of
+God's immediate intuition.--CH. VI. To understand this higher form
+of cognition, we must consider God's nature. God is eternal.
+Eternity is more than mere everlasting duration. Accordingly, His
+knowledge surveys past and future in the timelessness of an eternal
+present. His foreseeing is seeing. Yet this foreseeing does not in
+itself impose necessity, any more than our seeing things happen
+makes their happening necessary. We may, however, if we please,
+distinguish two necessities--one absolute, the other conditional on
+knowledge. In this conditional sense alone do the things which God
+foresees necessarily come to pass. But this kind of necessity
+affects not the nature of things. It leaves the reality of free
+will unimpaired, and the evils feared do not ensue. Our
+responsibility is great, since all that we do is done in the sight
+of all-seeing Providence.
 
 
-BOOK V.
-
-
-
-I.
+### Chapter I
 
 
 She ceased, and was about to pass on in her discourse to the exposition
@@ -4724,45 +4521,41 @@ fountain-head of Providence, disposes all things in their due time and
 place.'
 
 
-
-SONG I.
-
-CHANCE.
+### Song I. Chance
 
 
-    In the rugged Persian highlands,
-      Where the masters of the bow
-    Skill to feign a flight, and, fleeing,
-      Hurl their darts and pierce the foe;
-    There the Tigris and Euphrates
-      At one source[O] their waters blend,
-    Soon to draw apart, and plainward
-      Each its separate way to wend.
-    When once more their waters mingle
-      In a channel deep and wide,
-    All the flotsam comes together
-      That is borne upon the tide:
-    Ships, and trunks of trees, uprooted
-      In the torrent's wild career,
-    Meet, as 'mid the swirling waters
-      Chance their random way may steer.
-    Yet the shelving of the channel
-      And the flowing water's force
-    Guides each movement, and determines
-      Every floating fragment's course.
-    Thus, where'er the drift of hazard
-      Seems most unrestrained to flow,
-    Chance herself is reined and bitted,
-      And the curb of law doth know.
+In the rugged Persian highlands,\
+Where the masters of the bow\
+Skill to feign a flight, and, fleeing,\
+Hurl their darts and pierce the foe;\
+There the Tigris and Euphrates\
+At one source[O] their waters blend,\
+Soon to draw apart, and plainward\
+Each its separate way to wend.\
+When once more their waters mingle\
+In a channel deep and wide,\
+All the flotsam comes together\
+That is borne upon the tide:\
+Ships, and trunks of trees, uprooted\
+In the torrent's wild career,\
+Meet, as 'mid the swirling waters\
+Chance their random way may steer.\
+Yet the shelving of the channel\
+And the flowing water's force\
+Guides each movement, and determines\
+Every floating fragment's course.\
+Thus, where'er the drift of hazard\
+Seems most unrestrained to flow,\
+Chance herself is reined and bitted,\
+And the curb of law doth know.
 
 FOOTNOTES:
 
-[O] This is not, of course, literally true, though the Tigris and
+[O] This is not, of course, literally true, though the Tigris and\
 Euphrates rise in the same mountain district.
 
 
-
-II.
+### Chapter II
 
 
 'I am following needfully,' said I, 'and I agree that it is as thou
@@ -4793,39 +4586,35 @@ seeth all things from eternity beholdeth these things with the eyes of
 His providence, and assigneth to each what is predestined for it by its
 merits:
 
-     '"All things surveying, all things overhearing.'"
+'"All things surveying, all things overhearing.'"
 
 
-
-SONG II.
-
-THE TRUE SUN.
+### Song II. The True Sun
 
 
-    Homer with mellifluous tongue
-    Phoebus' glorious light hath sung,
-      Hymning high his praise;
-      Yet _his_ feeble rays
-    Ocean's hollows may not brighten,
-    Nor earth's central gloom enlighten.
+Homer with mellifluous tongue\
+Phoebus' glorious light hath sung,\
+Hymning high his praise;\
+Yet _his_ feeble rays\
+Ocean's hollows may not brighten,\
+Nor earth's central gloom enlighten.
 
-    But the might of Him, who skilled
-    This great universe to build,
-      Is not thus confined;
-      Not earth's solid rind,
-    Nor night's blackest canopy,
-    Baffle His all-seeing eye.
+But the might of Him, who skilled\
+This great universe to build,\
+Is not thus confined;\
+Not earth's solid rind,\
+Nor night's blackest canopy,\
+Baffle His all-seeing eye.
 
-    All that is, hath been, shall be,
-    In one glance's compass, He
-      Limitless descries;
-      And, save His, no eyes
-    All the world survey--no, none!
-    _Him_, then, truly name the Sun.
+All that is, hath been, shall be,\
+In one glance's compass, He\
+Limitless descries;\
+And, save His, no eyes\
+All the world survey--no, none!\
+_Him_, then, truly name the Sun.
 
 
-
-III.
+### Chapter III
 
 
 Then said I: 'But now I am once more perplexed by a problem yet more
@@ -4904,8 +4693,8 @@ or not, what sort of foreknowledge is this which comprehends nothing
 certain nor fixed? What better is this than the absurd vaticination of
 Teiresias?
 
-      '"Whate'er I say
-    Shall either come to pass--or not."
+'"Whate'er I say
+Shall either come to pass--or not."
 
 In that case, too, in what would Divine providence surpass human opinion
 if it holds for uncertain things the occurrence of which is uncertain,
@@ -4948,62 +4737,58 @@ FOOTNOTES:
 [P] _I.e._, the necessity of the truth of the statement from the fact.
 
 
-
-SONG III.
-
-TRUTH'S PARADOXES.
+### Song III. Truth's Paradoxes
 
 
-    Why does a strange discordance break
-      The ordered scheme's fair harmony?
-    Hath God decreed 'twixt truth and truth
-      There may such lasting warfare be,
-    That truths, each severally plain,
-    We strive to reconcile in vain?
+Why does a strange discordance break\
+The ordered scheme's fair harmony?\
+Hath God decreed 'twixt truth and truth\
+There may such lasting warfare be,\
+That truths, each severally plain,\
+We strive to reconcile in vain?
 
-    Or is the discord not in truth,
-      Since truth is self consistent ever?
-    But, close in fleshly wrappings held,
-      The blinded mind of man can never
-    Discern--so faint her taper shines--
-    The subtle chain that all combines?
+Or is the discord not in truth,\
+Since truth is self consistent ever?\
+But, close in fleshly wrappings held,\
+The blinded mind of man can never\
+Discern--so faint her taper shines--\
+The subtle chain that all combines?
 
-    Ah! then why burns man's restless mind
-      Truth's hidden portals to unclose?
-    Knows he already what he seeks?
-      Why toil to seek it, if he knows?
-    Yet, haply if he knoweth not,
-    Why blindly seek he knows not what?[Q]
+Ah! then why burns man's restless mind\
+Truth's hidden portals to unclose?\
+Knows he already what he seeks?\
+Why toil to seek it, if he knows?\
+Yet, haply if he knoweth not,\
+Why blindly seek he knows not what?[Q]
 
 
-    Who for a good he knows not sighs?
-      Who can an unknown end pursue?
-    How find? How e'en when haply found
-      Hail that strange form he never knew?
-    Or is it that man's inmost soul
-    Once knew each part and knew the whole?
+Who for a good he knows not sighs?\
+Who can an unknown end pursue?\
+How find? How e'en when haply found\
+Hail that strange form he never knew?\
+Or is it that man's inmost soul\
+Once knew each part and knew the whole?
 
-    Now, though by fleshly vapours dimmed,
-      Not all forgot her visions past;
-    For while the several parts are lost,
-      To the one whole she cleaveth fast;
-    Whence he who yearns the truth to find
-    Is neither sound of sight nor blind.
+Now, though by fleshly vapours dimmed,\
+Not all forgot her visions past;\
+For while the several parts are lost,\
+To the one whole she cleaveth fast;\
+Whence he who yearns the truth to find\
+Is neither sound of sight nor blind.
 
-    For neither does he know in full,
-      Nor is he reft of knowledge quite;
-    But, holding still to what is left,
-      He gropes in the uncertain light,
-    And by the part that still survives
-    To win back all he bravely strives.
+For neither does he know in full,\
+Nor is he reft of knowledge quite;\
+But, holding still to what is left,\
+He gropes in the uncertain light,\
+And by the part that still survives\
+To win back all he bravely strives.
 
 FOOTNOTES:
 
 [Q] Compare Plato, 'Meno,' 80; Jowett, vol. ii., pp. 39, 40.
 
 
-
-IV.
+### Chapter IV
 
 
 Then said she: 'This debate about providence is an old one, and is
@@ -5122,73 +4907,69 @@ act of the judge, it is necessary that each should accomplish its task
 by its own, not by another's power.'
 
 
-
-SONG IV.
-
-A PSYCHOLOGICAL FALLACY.[R]
+### Song IV. A Psychological Fallacy.[r]
 
 
-    From the Porch's murky depths
-      Comes a doctrine sage,
-    That doth liken living mind
-      To a written page;
-    Since all knowledge comes through
-      Sense,
-    Graven by Experience.
+From the Porch's murky depths\
+Comes a doctrine sage,\
+That doth liken living mind\
+To a written page;\
+Since all knowledge comes through\
+Sense,\
+Graven by Experience.
 
-    'As,' say they, 'the pen its marks
-      Curiously doth trace
-    On the smooth unsullied white
-      Of the paper's face,
-    So do outer things impress
-    Images on consciousness.'
+'As,' say they, 'the pen its marks\
+Curiously doth trace\
+On the smooth unsullied white\
+Of the paper's face,\
+So do outer things impress\
+Images on consciousness.'
 
-    But if verily the mind
-      Thus all passive lies;
-    If no living power within
-      Its own force supplies;
-    If it but reflect again,
-    Like a glass, things false and vain--
+But if verily the mind\
+Thus all passive lies;\
+If no living power within\
+Its own force supplies;\
+If it but reflect again,\
+Like a glass, things false and vain--
 
 
-    Whence the wondrous faculty
-      That perceives and knows,
-    That in one fair ordered scheme
-      Doth the world dispose;
-    Grasps each whole that Sense presents,
-    Or breaks into elements?
+Whence the wondrous faculty\
+That perceives and knows,\
+That in one fair ordered scheme\
+Doth the world dispose;\
+Grasps each whole that Sense presents,\
+Or breaks into elements?
 
-    So divides and recombines,
-      And in changeful wise
-    Now to low descends, and now
-      To the height doth rise;
-    Last in inward swift review
-    Strictly sifts the false and true?
+So divides and recombines,\
+And in changeful wise\
+Now to low descends, and now\
+To the height doth rise;\
+Last in inward swift review\
+Strictly sifts the false and true?
 
-    Of these ample potencies
-      Fitter cause, I ween,
-    Were Mind's self than marks impressed
-      By the outer scene.
-    Yet the body through the sense
-    Stirs the soul's intelligence.
+Of these ample potencies\
+Fitter cause, I ween,\
+Were Mind's self than marks impressed\
+By the outer scene.\
+Yet the body through the sense\
+Stirs the soul's intelligence.
 
-    When light flashes on the eye,
-      Or sound strikes the ear,
-    Mind aroused to due response
-      Makes the message clear;
-    And the dumb external signs
-    With the hidden forms combines.
+When light flashes on the eye,\
+Or sound strikes the ear,\
+Mind aroused to due response\
+Makes the message clear;\
+And the dumb external signs\
+With the hidden forms combines.
 
 FOOTNOTES:
 
-[R] A criticism of the doctrine of the mind as a blank sheet of paper on
-which experience writes, as held by the Stoics in anticipation of Locke.
-See Zeller, 'Stoics, Epicureans, and Sceptics,' Reichel's translation,
+[R] A criticism of the doctrine of the mind as a blank sheet of paper on\
+which experience writes, as held by the Stoics in anticipation of Locke.\
+See Zeller, 'Stoics, Epicureans, and Sceptics,' Reichel's translation,\
 p. 76.
 
 
-
-V.
+### Chapter V
 
 
 'Now, although in the case of bodies endowed with sentiency the
@@ -5245,32 +5026,28 @@ conjecture, but rather knowledge in its supreme simplicity, free of all
 limits and restrictions.'
 
 
-
-SONG V.
-
-THE UPWARD LOOK.
+### Song V. The Upward Look
 
 
-    In what divers shapes and fashions do the creatures great and small
-    Over wide earth's teeming surface skim, or scud, or walk, or crawl!
-    Some with elongated body sweep the ground, and, as they move,
-    Trail perforce with writhing belly in the dust a sinuous groove;
-    Some, on light wing upward soaring, swiftly do the winds divide,
-    And through heaven's ample spaces in free motion smoothly glide;
-    These earth's solid surface pressing, with firm paces onward rove,
-    Ranging through the verdant meadows, crouching in the woodland grove.
-    Great and wondrous is their variance! Yet in all the head low-bent
-    Dulls the soul and blunts the senses, though their forms be different.
-    Man alone, erect, aspiring, lifts his forehead to the skies,
-    And in upright posture steadfast seems earth's baseness to despise.
-    If with earth not all besotted, to this parable give ear,
-    Thou whose gaze is fixed on heaven, who thy face on high dost rear:
-    Lift thy soul, too, heavenward; haply lest it stain its heavenly worth,
-    And thine eyes alone look upward, while thy mind cleaves to the earth!
+In what divers shapes and fashions do the creatures great and small\
+Over wide earth's teeming surface skim, or scud, or walk, or crawl!\
+Some with elongated body sweep the ground, and, as they move,\
+Trail perforce with writhing belly in the dust a sinuous groove;\
+Some, on light wing upward soaring, swiftly do the winds divide,\
+And through heaven's ample spaces in free motion smoothly glide;\
+These earth's solid surface pressing, with firm paces onward rove,\
+Ranging through the verdant meadows, crouching in the woodland grove.\
+Great and wondrous is their variance! Yet in all the head low-bent\
+Dulls the soul and blunts the senses, though their forms be different.\
+Man alone, erect, aspiring, lifts his forehead to the skies,\
+And in upright posture steadfast seems earth's baseness to despise.\
+If with earth not all besotted, to this parable give ear,\
+Thou whose gaze is fixed on heaven, who thy face on high dost rear:\
+Lift thy soul, too, heavenward; haply lest it stain its heavenly worth,\
+And thine eyes alone look upward, while thy mind cleaves to the earth!
 
 
-
-VI.
+### Chapter VI
 
 
 'Since, then, as we lately proved, everything that is known is cognized
@@ -5451,9 +5228,7 @@ be understood figuratively, not literally. See Jowett, vol. iii., pp.
 448, 449 (3rd edit.).
 
 
-
-
-EPILOGUE.
+## Epilogue
 
 
 Within a short time of writing 'The Consolation of Philosophy,' Boethius
@@ -5466,64 +5241,57 @@ till 'his eyes started'; he was then killed with a club.
 _Elliot Stock, Paternoster Row, London_
 
 
-
-
-REFERENCES TO QUOTATIONS IN THE TEXT.
+## References to Quotations in the Text
 
 Bk. I., ch. iv., p. 17, l. 6: 'Iliad,' I. 363.
 
-  "     ch. iv., p. 18, l. 7: Plato, 'Republic,'
-        V. 473, D; Jowett, vol. iii., pp. 170, 171
-        (3rd edit.).
+"     ch. iv., p. 18, l. 7: Plato, 'Republic,'\
+V. 473, D; Jowett, vol. iii., pp. 170, 171\
+(3rd edit.).
 
-  "     ch. iv., p. 22, l. 6: Plato, 'Republic,'
-        I. 347, C; Jowett, III., p. 25.
+"     ch. iv., p. 22, l. 6: Plato, 'Republic,'\
+I. 347, C; Jowett, III., p. 25.
 
-  "     ch. v., p. 30, l. 19: 'Iliad,' II., 204, 205.
+"     ch. v., p. 30, l. 19: 'Iliad,' II., 204, 205.
 
-Bk. II., ch. ii., p. 50, l. 21: 'Iliad.' XXIV.
-         527, 528.
+Bk. II., ch. ii., p. 50, l. 21: 'Iliad.' XXIV.\
+527, 528.
 
-  "      ch. vii., p. 78, l. 25: Cicero, 'De
-         Republicâ,' VI. 20, in the 'Somnium
-         Scipionis.'
+"      ch. vii., p. 78, l. 25: Cicero, 'De\
+Republicâ,' VI. 20, in the 'Somnium\
+Scipionis.'
 
 Bk. III., ch. iv., p. 106, l. 10: Catullus, LII., 2.
 
-  "       ch. vi., p. 114, l. 4: Euripides, 'Andromache,'
-          319, 320.
+"       ch. vi., p. 114, l. 4: Euripides, 'Andromache,'\
+319, 320.
 
-  "       ch. ix., p. 129, l. 3: Plato, 'Timæus,'
-          27, C; Jowett, vol. iii., p. 448.
+"       ch. ix., p. 129, l. 3: Plato, 'Timæus,'\
+27, C; Jowett, vol. iii., p. 448.
 
-  "       ch. xii., p. 157, l. 14: Quoted Plato,
-          'Sophistes,' 244, E; Jowett, vol. iv.,
-          p. 374.
+"       ch. xii., p. 157, l. 14: Quoted Plato,\
+'Sophistes,' 244, E; Jowett, vol. iv.,\
+p. 374.
 
-  "       ch. xii., p. 157, l. 22: Plato, 'Timæus,'
-          29, B; Jowett, vol. iii., p. 449.
+"       ch. xii., p. 157, l. 22: Plato, 'Timæus,'\
+29, B; Jowett, vol. iii., p. 449.
 
-Bk. IV., ch. vi., p. 206, l. 17: Lucan, 'Pharsalia,'
-         I. 126.
+Bk. IV., ch. vi., p. 206, l. 17: Lucan, 'Pharsalia,'\
+I. 126.
 
-  "      ch. vi., p. 210, l. 23: 'Iliad,' XII. 176.
+"      ch. vi., p. 210, l. 23: 'Iliad,' XII. 176.
 
-Bk. V., ch. i., p. 227,l. 16: Aristotle, 'Physics,'
-        II. v. 5.
+Bk. V., ch. i., p. 227,l. 16: Aristotle, 'Physics,'\
+II. v. 5.
 
-  "     ch. iii., p. 238, l. 20: Horace, 'Satires,'
-        II. v. 59.
+"     ch. iii., p. 238, l. 20: Horace, 'Satires,'\
+II. v. 59.
 
-  "     ch. iv., p. 243, l. 3: Cicero, 'De Divinatione,'
-        II. 7, 8.
+"     ch. iv., p. 243, l. 3: Cicero, 'De Divinatione,'\
+II. 7, 8.
 
-  "     ch. vi., p. 258, l. 8: Aristotle, 'De
-        Cælo,' II. 1.
-
-
-
-
-
+"     ch. vi., p. 258, l. 8: Aristotle, 'De\
+Cælo,' II. 1.
 
 
 End of Project Gutenberg's The Consolation of Philosophy, by Boethius

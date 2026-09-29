@@ -25,9 +25,7 @@ Translated by E. B. Pusey (Edward Bouverie)
 AD 401
 
 
-
-
-BOOK I
+## Book I
 
 
 Great art Thou, O Lord, and greatly to be praised; great is Thy power,
@@ -329,7 +327,7 @@ of them. Look with pity, Lord, on these things, and deliver us who call
 upon Thee now; deliver those too who call not on Thee yet, that they may
 call on Thee, and Thou mayest deliver them.
 
-  As a boy, then, I had already heard of an eternal life, promised
+As a boy, then, I had already heard of an eternal life, promised
 us through the humility of the Lord our God stooping to our pride; and
 even from the womb of my mother, who greatly hoped in Thee, I was sealed
 with the mark of His cross and salted with His salt. Thou sawest, Lord,
@@ -353,7 +351,7 @@ shouldest be my father; and in this Thou didst aid her to prevail over
 her husband, whom she, the better, obeyed, therein also obeying Thee,
 who hast so commanded.
 
-  I beseech Thee, my God, I would fain know, if so Thou willest, for
+I beseech Thee, my God, I would fain know, if so Thou willest, for
 what purpose my baptism was then deferred? was it for my good that the
 rein was laid loose, as it were, upon me, for me to sin? or was it not
 laid loose? If not, why does it still echo in our ears on all sides,
@@ -366,7 +364,7 @@ great waves of temptation seemed to hang over me after my boyhood! These
 my mother foresaw; and preferred to expose to them the clay whence I
 might afterwards be moulded, than the very cast, when made.
 
-  In boyhood itself, however (so much less dreaded for me than youth),
+In boyhood itself, however (so much less dreaded for me than youth),
 I loved not study, and hated to be forced to it. Yet I was forced; and
 this was well done towards me, but I did not well; for, unless forced, I
 had not learnt. But no one doth well against his will, even though what
@@ -496,17 +494,17 @@ of the heavens," or others in that passage, unless Terence had brought
 a lewd youth upon the stage, setting up Jupiter as his example of
 seduction.
 
-         "Viewing a picture, where the tale was drawn,
-         Of Jove's descending in a golden shower
-         To Danae's lap a woman to beguile."
+"Viewing a picture, where the tale was drawn,
+Of Jove's descending in a golden shower
+To Danae's lap a woman to beguile."
 
 And then mark how he excites himself to lust as by celestial authority:
 
-         "And what God?  Great Jove,
-         Who shakes heaven's highest temples with his thunder,
+"And what God?  Great Jove,
+Who shakes heaven's highest temples with his thunder,
 
-         And I, poor mortal man, not do the same!
-         I did it, and with all my heart I did it."
+And I, poor mortal man, not do the same!
+I did it, and with all my heart I did it."
 
 Not one whit more easily are the words learnt for all this vileness;
 but by their means the vileness is committed with less shame. Not that
@@ -522,7 +520,7 @@ what dotages I wasted it. For a task was set me, troublesome enough to
 my soul, upon terms of praise or shame, and fear of stripes, to speak
 the words of Juno, as she raged and mourned that she could not
 
-        "This Trojan prince from Latinum turn."
+"This Trojan prince from Latinum turn."
 
 Which words I had heard that Juno never uttered; but we were forced to
 go astray in the footsteps of these poetic fictions, and to say in prose
@@ -623,9 +621,7 @@ shall be enlarged and perfected which Thou hast given me, and I myself
 shall be with Thee, since even to be Thou hast given me.
 
 
-
-
-BOOK II
+## Book II
 
 
 I will now call to mind my past foulness, and the carnal corruptions of
@@ -946,9 +942,7 @@ Thee, and I wandered, O my God, too much astray from Thee my stay, in
 these days of my youth, and I became to myself a barren land.
 
 
-
-
-BOOK III
+## Book III
 
 
 To Carthage I came, where there sang all around me in my ears a cauldron
@@ -1408,9 +1402,7 @@ took (as she often mentioned in her conversations with me) as if it had
 sounded from heaven.
 
 
-
-
-BOOK IV
+## Book IV
 
 
 For this space of nine years (from my nineteenth year to my
@@ -1990,9 +1982,7 @@ be no place whither to return, because we fell from it: for through our
 absence, our mansion fell not--Thy eternity.
 
 
-
-
-BOOK V
+## Book V
 
 
 Accept the sacrifice of my confessions from the ministry of my tongue,
@@ -2551,9 +2541,7 @@ I had been commended by my parents, till something certain should dawn
 upon me, whither I might steer my course.
 
 
-
-
-BOOK VI
+## Book VI
 
 
 O Thou, my hope from my youth, where wert Thou to me, and whither wert
@@ -3209,9 +3197,7 @@ wanderings, and placest us in Thy way, and dost comfort us, and say,
 carry you."
 
 
-
-
-BOOK VII
+## Book VII
 
 
 Deceased was now that my evil and abominable youth, and I was passing
@@ -3901,9 +3887,7 @@ wonderfully sink into my bowels, when I read that least of Thy Apostles,
 and had meditated upon Thy works, and trembled exceedingly.
 
 
-
-
-BOOK VIII
+## Book VIII
 
 
 O my God, let me, with thanksgiving, remember, and confess unto Thee Thy
@@ -3981,9 +3965,9 @@ of idols, and a partaker of the sacrilegious rites, to which almost all
 the nobility of Rome were given up, and had inspired the people with the
 love of
 
-         Anubis, barking Deity, and all
-         The monster Gods of every kind, who fought
-         'Gainst Neptune, Venus, and Minerva:
+Anubis, barking Deity, and all
+The monster Gods of every kind, who fought
+'Gainst Neptune, Venus, and Minerva:
 
 whom Rome once conquered, now adored, all which the aged Victorinus had
 with thundering eloquence so many years defended;--he now blushed not
@@ -4576,9 +4560,7 @@ in a much more precious and purer way than she erst required, by having
 grandchildren of my body.
 
 
-
-
-BOOK IX
+## Book IX
 
 
 O Lord, I am Thy servant; I am Thy servant, and the son of Thy handmaid:
@@ -5230,14 +5212,14 @@ woke up again, and found my grief not a little softened; and as I was
 alone in my bed, I remembered those true verses of Thy Ambrose. For Thou
 art the
 
-         "Maker of all, the Lord,
-           And Ruler of the height,
-         Who, robing day in light, hast poured
-           Soft slumbers o'er the night,
-         That to our limbs the power
-           Of toil may be renew'd,
-         And hearts be rais'd that sink and cower,
-           And sorrows be subdu'd."
+"Maker of all, the Lord,
+And Ruler of the height,
+Who, robing day in light, hast poured
+Soft slumbers o'er the night,
+That to our limbs the power
+Of toil may be renew'd,
+And hearts be rais'd that sink and cower,
+And sorrows be subdu'd."
 
 And then by little and little I recovered my former thoughts of Thy
 handmaid, her holy conversation towards Thee, her holy tenderness and
@@ -5322,9 +5304,7 @@ through my confessions, more than through my prayers, be, through the
 prayers of many, more abundantly fulfilled to her.
 
 
-
-
-BOOK X
+## Book X
 
 
 Let me know Thee, O Lord, who knowest me: let me know Thee, as I am
@@ -6658,9 +6638,7 @@ poor, desired to be satisfied from Him, amongst those that eat and are
 satisfied, and they shall praise the Lord who seek Him.
 
 
-
-
-BOOK XI
+## Book XI
 
 
 Lord, since eternity is Thine, art Thou ignorant of what I say to Thee?
@@ -7429,9 +7407,7 @@ dwelling-place; for Thou raisest up those that are bowed down, and they
 fall not, whose elevation Thou art.
 
 
-
-
-BOOK XII
+## Book XII
 
 
 My heart, O Lord, touched with the words of Thy Holy Scripture, is much
@@ -8295,9 +8271,7 @@ not attain, yet I should say that, which Thy Truth willed by his words
 to tell me, which revealed also unto him, what It willed.
 
 
-
-
-BOOK XIII
+## Book XIII
 
 
 I call upon Thee, O my God, my mercy, Who createdst me, and forgottest
@@ -9346,4 +9320,4 @@ man to understand this? or what Angel, an Angel? or what Angel, a man?
 Let it be asked of Thee, sought in Thee, knocked for at Thee; so, so
 shall it be received, so shall it be found, so shall it be opened. Amen.
 
-                         GRATIAS TIBI DOMINE
+GRATIAS TIBI DOMINE

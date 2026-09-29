@@ -29,7 +29,8 @@ SMALL_WORDS = {
     "a", "an", "and", "as", "at", "but", "by", "for", "from", "in", "into",
     "nor", "of", "on", "or", "the", "to", "with", "whether", "is", "be",
 }
-ROMAN = re.compile(r"^[IVXLC]+$")
+# numeral romano válido ("ILL", de "GOOD AND ILL FORTUNE", não é)
+ROMAN = re.compile(r"^(?=[IVXLC])C{0,3}(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})$")
 
 
 def title_case(text):
@@ -470,6 +471,102 @@ def chapterize_large_catechism(body):
     return out
 
 
+# ---------------------------------------------------------------- Agostinho, Confissões (Pusey)
+
+def chapterize_confessions(body):
+    """Pusey (Gutenberg #3296): 13 livros marcados "BOOK I" ... "BOOK XIII"."""
+    out = []
+    for l in dedent(body):
+        m = re.fullmatch(r"BOOK ([IVX]+)", l)
+        out.append(f"## Book {m.group(1)}" if m else l)
+    return out
+
+
+# ---------------------------------------------------------------- Boécio, Consolação (H. R. James)
+
+def keep_line_breaks(lines):
+    """Verso: cada linha termina em `\\` (quebra forçada), senão o markdown junta tudo num parágrafo."""
+    out = []
+    for i, l in enumerate(lines):
+        nxt = lines[i + 1] if i + 1 < len(lines) else ""
+        out.append(l + "\\" if l and nxt and not l.startswith("#") and not nxt.startswith("#") else l)
+    return out
+
+
+CONSOLATION_SECTIONS = {
+    "PREFACE.": ("## Preface", "prose"),
+    "PROEM.": ("## Proem", "prose"),
+    "EPILOGUE.": ("## Epilogue", "prose"),
+    "REFERENCES TO QUOTATIONS IN THE TEXT.": ("## References to Quotations in the Text", "verse"),
+}
+
+
+def chapterize_consolation(body):
+    """
+    H. R. James (1897). Cada livro aparece três vezes: no índice dos versos,
+    como abertura (título + SUMMARY) e repetido antes do primeiro trecho.
+    Só a abertura vira capítulo; a repetição sai. Cantos e trechos em prosa
+    viram subtítulos (### Song I. ..., ### Chapter I, como o SUMMARY chama).
+    O verso (cantos, índice, referências) mantém as quebras de linha.
+    """
+    lines = dedent(body)
+    out, verse = [], []
+    mode = "prose"  # "prose" | "verse" (canto ou referências) | "index"
+
+    def flush():
+        out.extend(keep_line_breaks(verse))
+        verse.clear()
+
+    def heading(text, new_mode):
+        nonlocal mode
+        flush()
+        out.append(text)
+        mode = new_mode
+
+    i = 0
+    while i < len(lines):
+        l = lines[i]
+        j = next_nonblank(lines, i)
+        seguinte = lines[j] if j < len(lines) else ""
+        book = re.fullmatch(r"BOOK ([IVX]+)\.", l)
+        song = re.fullmatch(r"SONG ([IVX]+)\.(?:\[\w\])?", l)
+        if l in CONSOLATION_SECTIONS:
+            heading(*CONSOLATION_SECTIONS[l])
+        elif l == "INDEX" and seguinte == "OF":
+            heading("## Index of Verse Interludes", "index")
+            i = next_nonblank(lines, j)  # pula "OF" e "VERSE INTERLUDES."
+        elif book and mode != "index" or book and seguinte and lines[next_nonblank(lines, j)].rstrip(".").upper() == "SUMMARY":
+            k = next_nonblank(lines, j)
+            if k < len(lines) and lines[k].rstrip(".").upper() == "SUMMARY":
+                heading(f"## Book {book.group(1)}. {title_case(seguinte.rstrip('.'))}", "prose")
+                i = j
+            # senão: repetição do "BOOK N." antes do primeiro trecho, sai
+        elif song and mode != "index":
+            heading(f"### Song {song.group(1)}. {title_case(seguinte.rstrip('.'))}", "verse")
+            i = j
+        elif re.fullmatch(r"[IVX]+\.", l) and mode != "index":
+            heading(f"### Chapter {l.rstrip('.')}", "prose")
+        elif mode == "index":
+            # tira o nº de página da edição impressa, que não existe no site
+            if book:
+                verse.append(f"**Book {book.group(1)}. {title_case(seguinte.rstrip('.'))}**")
+                i = j
+            elif l.startswith("SONG") and l.endswith("PAGE"):
+                pass
+            else:
+                m = re.fullmatch(r"([IVX]+)\.\s+(.+?)\s+\d+", l)
+                # "INSATIABLENESS OK AVARICE": erro do índice impresso; o canto no corpo diz "OF"
+                titulo = m and m.group(2).rstrip(".").replace(" OK ", " OF ")
+                verse.append(f"Song {m.group(1)}. {title_case(titulo)}" if m else l)
+        elif mode == "verse":
+            verse.append(l)
+        else:
+            out.append(l)
+        i += 1
+    flush()
+    return out
+
+
 RULES = {
     "summa-theologica-part-i-prima-pars.md": chapterize_summa,
     "summa-theologica-part-i-ii-pars-prima-secundae.md": chapterize_summa,
@@ -484,6 +581,8 @@ RULES = {
     "leaves-from-st-john-chrysostom.md": chapterize_chrysostom,
     "the-teaching-of-the-twelve-apostles-didache.md": chapterize_didache,
     "the-large-catechism.md": chapterize_large_catechism,
+    "the-confessions-of-st-augustine.md": chapterize_confessions,
+    "the-consolation-of-philosophy.md": chapterize_consolation,
 }
 
 
