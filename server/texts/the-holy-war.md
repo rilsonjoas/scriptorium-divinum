@@ -17,47 +17,42 @@ Transcribed from the 1907 Religious Tract Society edition by David Price,
 email ccx074@pglaf.org
 
 
+THE HOLY WAR MADE\
+BY SHADDI UPON\
+DIABOLUS FOR THE\
+REGAINING OF THE METROPOLIS\
+OF THE WORLD OR THE LOSING\
+AND TAKING AGAIN OF THE TOWN\
+OF MANSOUL.  BY JOHN BUNYAN
 
 
+* * * * *
 
-                            THE HOLY WAR MADE
-                              BY SHADDI UPON
-                             DIABOLUS FOR THE
-                       REGAINING OF THE METROPOLIS
-                        OF THE WORLD OR THE LOSING
-                       AND TAKING AGAIN OF THE TOWN
-                       OF MANSOUL.  BY JOHN BUNYAN
+WITH THREE\
+COLOURED ILLUSTRATIONS\
+BY VICTOR PROUT {0}
 
+* * * * *
 
-                                * * * * *
+“I have used similitudes.”  Hosea xii. 10
 
-                                WITH THREE
-                          COLOURED ILLUSTRATIONS
-                           BY VICTOR PROUT {0}
+* * * * *
 
-                                * * * * *
+[Picture: Decorative design]
 
-                “I have used similitudes.”  Hosea xii. 10
+London\
+THE RELIGIOUS TRACT SOCIETY\
+4 Bouverie Street and 65 St Paul’s Churchyard\
+1907
 
-                                * * * * *
+* * * * *
 
-                       [Picture: Decorative design]
-
-                                  London
-                       THE RELIGIOUS TRACT SOCIETY
-              4 Bouverie Street and 65 St Paul’s Churchyard
-                                   1907
-
-                                * * * * *
-
-                                PRINTED BY
-                      HAZELL, WATSON AND VINEY, LD.
-                          LONDON AND AYLESBURY.
+PRINTED BY\
+HAZELL, WATSON AND VINEY, LD.\
+LONDON AND AYLESBURY.
 
 
-
-
-PREFACE.
+## Preface
 
 
 _IN the year 1682 there was published by Dorman Newman_, ‘_at the King’s
@@ -97,232 +92,226 @@ scantiest of literature_.  _Indeed_, _as this edition is being prepared
 for the press_, _assistance is being rendered by the Religious Tract
 Society in the printing of_ ‘_The Holy War_’ _in Kongo_.
 
-                                                         _A. R. BUCKLAND_.
+_A. R. BUCKLAND_.
 
 
+## To the Reader
 
 
-TO THE READER.
+’Tis strange to me, that they that love to tell\
+Things done of old, yea, and that do excel\
+Their equals in historiology,\
+Speak not of Mansoul’s wars, but let them lie\
+Dead, like old fables, or such worthless things,\
+That to the reader no advantage brings:\
+When men, let them make what they will their own,\
+Till they know this, are to themselves unknown.\
+Of stories, I well know, there’s divers sorts,\
+Some foreign, some domestic; and reports\
+Are thereof made as fancy leads the writers:\
+(By books a man may guess at the inditers.)\
+Some will again of that which never was,\
+Nor will be, feign (and that without a cause)\
+Such matter, raise such mountains, tell such things\
+Of men, of laws, of countries, and of kings;\
+And in their story seem to be so sage,\
+And with such gravity clothe every page,\
+That though their frontispiece says all is vain,\
+Yet to their way disciples they obtain.\
+But, readers, I have somewhat else to do,\
+Than with vain stories thus to trouble you.\
+What here I say, some men do know so well,\
+They can with tears and joy the story tell.\
+The town of Mansoul is well known to many,\
+Nor are her troubles doubted of by any\
+That are acquainted with those Histories\
+That Mansoul and her wars anatomize.\
+Then lend thine ear to what I do relate,\
+Touching the town of Mansoul and her state:\
+How she was lost, took captive, made a slave:\
+And how against him set, that should her save;\
+Yea, how by hostile ways she did oppose\
+Her Lord, and with his enemy did close.\
+For they are true: he that will them deny\
+Must needs the best of records vilify.\
+For my part, I myself was in the town,\
+Both when ’twas set up, and when pulling down.\
+I saw Diabolus in his possession,\
+And Mansoul also under his oppression.\
+Yea, I was there when she own’d him for lord,\
+And to him did submit with one accord.\
+When Mansoul trampled upon things divine,\
+And wallowed in filth as doth a swine;\
+When she betook herself unto her arms,\
+Fought her Emmanuel, despis’d his charms;\
+Then I was there, and did rejoice to see\
+Diabolus and Mansoul so agree.\
+Let no men, then, count me a fable-maker,\
+Nor make my name or credit a partaker\
+Of their derision: what is here in view,\
+Of mine own knowledge, I dare say is true.\
+I saw the Prince’s armed men come down\
+By troops, by thousands, to besiege the town;\
+I saw the captains, heard the trumpets sound,\
+And how his forces covered all the ground.\
+Yea, how they set themselves in battle-’ray,\
+I shall remember to my dying day.\
+I saw the colours waving in the wind,\
+And they within to mischief how combin’d\
+To ruin Mansoul, and to make away\
+Her primum mobile without delay.\
+I saw the mounts cast up against the town,\
+And how the slings were placed to beat it down:\
+I heard the stones fly whizzing by mine ears,\
+(What longer kept in mind than got in fears?)\
+I heard them fall, and saw what work they made.\
+And how old Mors did cover with his shade\
+The face of Mansoul; and I heard her cry,\
+‘Woe worth the day, in dying I shall die!’\
+I saw the battering-rams, and how they play’d\
+To beat open Ear-gate; and I was afraid\
+Not only Ear-gate, but the very town\
+Would by those battering-rams be beaten down.\
+I saw the fights, and heard the captains shout,\
+And in each battle saw who faced about;\
+I saw who wounded were, and who were slain;\
+And who, when dead, would come to life again.\
+I heard the cries of those that wounded were,\
+(While others fought like men bereft of fear,)\
+And while the cry, ‘Kill, kill,’ was in mine ears,\
+The gutters ran, not so with blood as tears.\
+Indeed, the captains did not always fight,\
+But then they would molest us day and night;\
+Their cry, ‘Up, fall on, let us take the town,’\
+Kept us from sleeping, or from lying down.\
+I was there when the gates were broken ope,\
+And saw how Mansoul then was stripp’d of hope;\
+I saw the captains march into the town,\
+How there they fought, and did their foes cut down.\
+I heard the Prince bid Boanerges go\
+Up to the castle, and there seize his foe;\
+And saw him and his fellows bring him down,\
+In chains of great contempt quite through the town.\
+I saw Emmanuel, when he possess’d\
+His town of Mansoul; and how greatly blest\
+A town his gallant town of Mansoul was,\
+When she received his pardon, loved his laws.\
+When the Diabolonians were caught,\
+When tried, and when to execution brought,\
+Then I was there; yea, I was standing by\
+When Mansoul did the rebels crucify.\
+I also saw Mansoul clad all in white,\
+I heard her Prince call her his heart’s delight.\
+I saw him put upon her chains of gold,\
+And rings, and bracelets, goodly to behold.\
+What shall I say?  I heard the people’s cries,\
+And saw the Prince wipe tears from Mansoul’s eyes.\
+And heard the groans, and saw the joy of many:\
+Tell you of all, I neither will, nor can I.\
+But by what here I say, you well may see\
+That Mansoul’s matchless wars no fables be.\
+Mansoul, the desire of both princes was:\
+One keep his gain would, t’other gain his loss.\
+Diabolus would cry, ‘The town is mine!’\
+Emmanuel would plead a right divine\
+Unto his Mansoul: then to blows they go,\
+And Mansoul cries, ‘These wars will me undo.’\
+Mansoul! her wars seemed endless in her eyes;\
+She’s lost by one, becomes another’s prize:\
+And he again that lost her last would swear,\
+‘Have her I will, or her in pieces tear.’\
+Mansoul! it was the very seat of war;\
+Wherefore her troubles greater were by far\
+Than only where the noise of war is heard,\
+Or where the shaking of a sword is fear’d;\
+Or only where small skirmishes are fought,\
+Or where the fancy fighteth with a thought.\
+She saw the swords of fighting men made red,\
+And heard the cries of those with them wounded:\
+Must not her frights, then, be much more by far\
+Than theirs that to such doings strangers are?\
+Or theirs that hear the beating of a drum,\
+But not made fly for fear from house and home?\
+Mansoul not only heard the trumpet’s sound,\
+But saw her gallants gasping on the ground:\
+Wherefore we must not think that she could rest\
+With them, whose greatest earnest is but jest:\
+Or where the blust’ring threat’ning of great wars\
+Do end in parlies, or in wording jars.\
+Mansoul! her mighty wars, they did portend\
+Her weal or woe, and that world without end:\
+Wherefore she must be more concern’d than they\
+Whose fears begin, and end the selfsame day;\
+Or where none other harm doth come to him\
+That is engaged, but loss of life or limb,\
+As all must needs confess that now do dwell\
+In Universe, and can this story tell.\
+Count me not, then, with them that, to amaze\
+The people, set them on the stars to gaze,\
+Insinuating with much confidence,\
+That each of them is now the residence\
+Of some brave creatures: yea, a world they will\
+Have in each star, though it be past their skill\
+To make it manifest to any man,\
+That reason hath, or tell his fingers can.\
+But I have too long held thee in the porch,\
+And kept thee from the sunshine with a torch,\
+Well, now go forward, step within the door,\
+And there behold five hundred times much more\
+Of all sorts of such inward rarities\
+As please the mind will, and will feed the eyes\
+With those, which, if a Christian, thou wilt see\
+Not small, but things of greatest moment be.\
+Nor do thou go to work without my key;\
+(In mysteries men soon do lose their way;)\
+And also turn it right, if thou wouldst know\
+My riddle, and wouldst with my heifer plough;\
+It lies there in the window.  Fare thee well,\
+My next may be to ring thy passing-bell.
+
+JOHN BUNYAN.
 
 
-       ’Tis strange to me, that they that love to tell
-    Things done of old, yea, and that do excel
-    Their equals in historiology,
-    Speak not of Mansoul’s wars, but let them lie
-    Dead, like old fables, or such worthless things,
-    That to the reader no advantage brings:
-    When men, let them make what they will their own,
-    Till they know this, are to themselves unknown.
-       Of stories, I well know, there’s divers sorts,
-    Some foreign, some domestic; and reports
-    Are thereof made as fancy leads the writers:
-    (By books a man may guess at the inditers.)
-    Some will again of that which never was,
-    Nor will be, feign (and that without a cause)
-    Such matter, raise such mountains, tell such things
-    Of men, of laws, of countries, and of kings;
-    And in their story seem to be so sage,
-    And with such gravity clothe every page,
-    That though their frontispiece says all is vain,
-    Yet to their way disciples they obtain.
-       But, readers, I have somewhat else to do,
-    Than with vain stories thus to trouble you.
-    What here I say, some men do know so well,
-    They can with tears and joy the story tell.
-       The town of Mansoul is well known to many,
-    Nor are her troubles doubted of by any
-    That are acquainted with those Histories
-    That Mansoul and her wars anatomize.
-       Then lend thine ear to what I do relate,
-    Touching the town of Mansoul and her state:
-    How she was lost, took captive, made a slave:
-    And how against him set, that should her save;
-    Yea, how by hostile ways she did oppose
-    Her Lord, and with his enemy did close.
-    For they are true: he that will them deny
-    Must needs the best of records vilify.
-    For my part, I myself was in the town,
-    Both when ’twas set up, and when pulling down.
-    I saw Diabolus in his possession,
-    And Mansoul also under his oppression.
-    Yea, I was there when she own’d him for lord,
-    And to him did submit with one accord.
-       When Mansoul trampled upon things divine,
-    And wallowed in filth as doth a swine;
-    When she betook herself unto her arms,
-    Fought her Emmanuel, despis’d his charms;
-    Then I was there, and did rejoice to see
-    Diabolus and Mansoul so agree.
-       Let no men, then, count me a fable-maker,
-    Nor make my name or credit a partaker
-    Of their derision: what is here in view,
-    Of mine own knowledge, I dare say is true.
-       I saw the Prince’s armed men come down
-    By troops, by thousands, to besiege the town;
-    I saw the captains, heard the trumpets sound,
-    And how his forces covered all the ground.
-    Yea, how they set themselves in battle-’ray,
-    I shall remember to my dying day.
-       I saw the colours waving in the wind,
-    And they within to mischief how combin’d
-    To ruin Mansoul, and to make away
-    Her primum mobile without delay.
-       I saw the mounts cast up against the town,
-    And how the slings were placed to beat it down:
-    I heard the stones fly whizzing by mine ears,
-    (What longer kept in mind than got in fears?)
-    I heard them fall, and saw what work they made.
-    And how old Mors did cover with his shade
-    The face of Mansoul; and I heard her cry,
-    ‘Woe worth the day, in dying I shall die!’
-       I saw the battering-rams, and how they play’d
-    To beat open Ear-gate; and I was afraid
-    Not only Ear-gate, but the very town
-    Would by those battering-rams be beaten down.
-    I saw the fights, and heard the captains shout,
-    And in each battle saw who faced about;
-    I saw who wounded were, and who were slain;
-    And who, when dead, would come to life again.
-       I heard the cries of those that wounded were,
-    (While others fought like men bereft of fear,)
-    And while the cry, ‘Kill, kill,’ was in mine ears,
-    The gutters ran, not so with blood as tears.
-       Indeed, the captains did not always fight,
-    But then they would molest us day and night;
-    Their cry, ‘Up, fall on, let us take the town,’
-    Kept us from sleeping, or from lying down.
-       I was there when the gates were broken ope,
-    And saw how Mansoul then was stripp’d of hope;
-    I saw the captains march into the town,
-    How there they fought, and did their foes cut down.
-       I heard the Prince bid Boanerges go
-    Up to the castle, and there seize his foe;
-    And saw him and his fellows bring him down,
-    In chains of great contempt quite through the town.
-       I saw Emmanuel, when he possess’d
-    His town of Mansoul; and how greatly blest
-    A town his gallant town of Mansoul was,
-    When she received his pardon, loved his laws.
-       When the Diabolonians were caught,
-    When tried, and when to execution brought,
-    Then I was there; yea, I was standing by
-    When Mansoul did the rebels crucify.
-       I also saw Mansoul clad all in white,
-    I heard her Prince call her his heart’s delight.
-    I saw him put upon her chains of gold,
-    And rings, and bracelets, goodly to behold.
-       What shall I say?  I heard the people’s cries,
-    And saw the Prince wipe tears from Mansoul’s eyes.
-    And heard the groans, and saw the joy of many:
-    Tell you of all, I neither will, nor can I.
-    But by what here I say, you well may see
-    That Mansoul’s matchless wars no fables be.
-       Mansoul, the desire of both princes was:
-    One keep his gain would, t’other gain his loss.
-    Diabolus would cry, ‘The town is mine!’
-    Emmanuel would plead a right divine
-    Unto his Mansoul: then to blows they go,
-    And Mansoul cries, ‘These wars will me undo.’
-       Mansoul! her wars seemed endless in her eyes;
-    She’s lost by one, becomes another’s prize:
-    And he again that lost her last would swear,
-    ‘Have her I will, or her in pieces tear.’
-       Mansoul! it was the very seat of war;
-    Wherefore her troubles greater were by far
-    Than only where the noise of war is heard,
-    Or where the shaking of a sword is fear’d;
-    Or only where small skirmishes are fought,
-    Or where the fancy fighteth with a thought.
-       She saw the swords of fighting men made red,
-    And heard the cries of those with them wounded:
-    Must not her frights, then, be much more by far
-    Than theirs that to such doings strangers are?
-    Or theirs that hear the beating of a drum,
-    But not made fly for fear from house and home?
-       Mansoul not only heard the trumpet’s sound,
-    But saw her gallants gasping on the ground:
-    Wherefore we must not think that she could rest
-    With them, whose greatest earnest is but jest:
-    Or where the blust’ring threat’ning of great wars
-    Do end in parlies, or in wording jars.
-    Mansoul! her mighty wars, they did portend
-    Her weal or woe, and that world without end:
-    Wherefore she must be more concern’d than they
-    Whose fears begin, and end the selfsame day;
-    Or where none other harm doth come to him
-    That is engaged, but loss of life or limb,
-    As all must needs confess that now do dwell
-    In Universe, and can this story tell.
-       Count me not, then, with them that, to amaze
-    The people, set them on the stars to gaze,
-    Insinuating with much confidence,
-    That each of them is now the residence
-    Of some brave creatures: yea, a world they will
-    Have in each star, though it be past their skill
-    To make it manifest to any man,
-    That reason hath, or tell his fingers can.
-       But I have too long held thee in the porch,
-    And kept thee from the sunshine with a torch,
-    Well, now go forward, step within the door,
-    And there behold five hundred times much more
-    Of all sorts of such inward rarities
-    As please the mind will, and will feed the eyes
-    With those, which, if a Christian, thou wilt see
-    Not small, but things of greatest moment be.
-       Nor do thou go to work without my key;
-    (In mysteries men soon do lose their way;)
-    And also turn it right, if thou wouldst know
-    My riddle, and wouldst with my heifer plough;
-    It lies there in the window.  Fare thee well,
-    My next may be to ring thy passing-bell.
-
-                                                              JOHN BUNYAN.
+## An Advertisement to the Reader
 
 
+SOME say the ‘Pilgrim’s Progress’ is not mine,\
+Insinuating as if I would shine\
+In name and fame by the worth of another,\
+Like some made rich by robbing of their brother.\
+Or that so fond I am of being sire,\
+I’ll father bastards; or, if need require,\
+I’ll tell a lie in print to get applause.\
+I scorn it: John such dirt-heap never was,\
+Since God converted him.  Let this suffice\
+To show why I my ‘Pilgrim’ patronize.\
+It came from mine own heart, so to my head,\
+And thence into my fingers trickled;\
+Then to my pen, from whence immediately\
+On paper I did dribble it daintily.\
+Manner and matter, too, was all mine own,\
+Nor was it unto any mortal known\
+Till I had done it; nor did any then\
+By books, by wits, by tongues, or hand, or pen,\
+Add five words to it, or write half a line\
+Thereof: the whole, and every whit is mine.\
+Also for THIS, thine eye is now upon,\
+The matter in this manner came from none\
+But the same heart, and head, fingers, and pen,\
+As did the other.  Witness all good men;\
+For none in all the world, without a lie,\
+Can say that this is mine, excepting I\
+I write not this of my ostentation,\
+Nor ‘cause I seek of men their commendation;\
+I do it to keep them from such surmise,\
+As tempt them will my name to scandalize.\
+Witness my name, if anagram’d to thee,\
+The letters make—‘Nu hony in a B.’
+
+JOHN BUNYAN.
 
 
-AN ADVERTISEMENT TO THE READER.
-
-
-       SOME say the ‘Pilgrim’s Progress’ is not mine,
-    Insinuating as if I would shine
-    In name and fame by the worth of another,
-    Like some made rich by robbing of their brother.
-    Or that so fond I am of being sire,
-    I’ll father bastards; or, if need require,
-    I’ll tell a lie in print to get applause.
-    I scorn it: John such dirt-heap never was,
-    Since God converted him.  Let this suffice
-    To show why I my ‘Pilgrim’ patronize.
-       It came from mine own heart, so to my head,
-    And thence into my fingers trickled;
-    Then to my pen, from whence immediately
-    On paper I did dribble it daintily.
-       Manner and matter, too, was all mine own,
-    Nor was it unto any mortal known
-    Till I had done it; nor did any then
-    By books, by wits, by tongues, or hand, or pen,
-    Add five words to it, or write half a line
-    Thereof: the whole, and every whit is mine.
-       Also for THIS, thine eye is now upon,
-    The matter in this manner came from none
-    But the same heart, and head, fingers, and pen,
-    As did the other.  Witness all good men;
-    For none in all the world, without a lie,
-    Can say that this is mine, excepting I
-       I write not this of my ostentation,
-    Nor ‘cause I seek of men their commendation;
-    I do it to keep them from such surmise,
-    As tempt them will my name to scandalize.
-    Witness my name, if anagram’d to thee,
-    The letters make—‘Nu hony in a B.’
-
-                                                              JOHN BUNYAN.
-
-
-
-
-A RELATION OF THE HOLY WAR.
+## A Relation of the Holy War (trecho 1 de 12)
 
 
 IN my travels, as I walked through many regions and countries, it was my
@@ -1054,6 +1043,8 @@ put the town of Mansoul into arms, the better to capacitate them, on his
 behalf, to make resistance against Shaddai their King, should he come to
 reduce them to their former obedience.
 
+## A Relation of the Holy War (trecho 2 de 12)
+
 Now this tidings-teller did not deliver his relation of things in
 private, but in open court, the King and his Son, high lords, chief
 captains, and nobles, being all there present to hear.  But by that they
@@ -1402,32 +1393,32 @@ the same in form, though, as to name, title, place and degree of the
 captains, there might be some, but very small variation.  And here let me
 give you an account of the matter and sum contained in their commission.
 
-    _A Commission from the great Shaddai_, _King of Mansoul_, _to his
-    trusty and noble Captain_, _the Captain Boanerges_, _for his making
-    War upon the town of Mansoul_.
+_A Commission from the great Shaddai_, _King of Mansoul_, _to his\
+trusty and noble Captain_, _the Captain Boanerges_, _for his making\
+War upon the town of Mansoul_.
 
-    ‘O, thou Boanerges, one of my stout and thundering captains over one
-    ten thousand of my valiant and faithful servants, go thou in my name,
-    with this thy force, to the miserable town of Mansoul; and when thou
-    comest thither, offer them first conditions of peace; and command
-    them that, casting off the yoke and tyranny of the wicked Diabolus,
-    they return to me, their rightful Prince and Lord.  Command them also
-    that they cleanse themselves from all that is his in the town of
-    Mansoul, and look to thyself, that thou hast good satisfaction
-    touching the truth of their obedience.  Thus when thou hast commanded
-    them, (if they in truth submit thereto,) then do thou, to the
-    uttermost of thy power, what in thee lies to set up for me a garrison
-    in the famous town of Mansoul; nor do thou hurt the least native that
-    moveth or breatheth therein, if they will submit themselves to me,
-    but treat thou such as if they were thy friend or brother; for all
-    such I love, and they shall be dear unto me, and tell them that I
-    will take a time to come unto them, and to let them know that I am
-    merciful.
+‘O, thou Boanerges, one of my stout and thundering captains over one\
+ten thousand of my valiant and faithful servants, go thou in my name,\
+with this thy force, to the miserable town of Mansoul; and when thou\
+comest thither, offer them first conditions of peace; and command\
+them that, casting off the yoke and tyranny of the wicked Diabolus,\
+they return to me, their rightful Prince and Lord.  Command them also\
+that they cleanse themselves from all that is his in the town of\
+Mansoul, and look to thyself, that thou hast good satisfaction\
+touching the truth of their obedience.  Thus when thou hast commanded\
+them, (if they in truth submit thereto,) then do thou, to the\
+uttermost of thy power, what in thee lies to set up for me a garrison\
+in the famous town of Mansoul; nor do thou hurt the least native that\
+moveth or breatheth therein, if they will submit themselves to me,\
+but treat thou such as if they were thy friend or brother; for all\
+such I love, and they shall be dear unto me, and tell them that I\
+will take a time to come unto them, and to let them know that I am\
+merciful.
 
-    ‘But if they shall, notwithstanding thy summons and the producing of
-    thy authority, resist, stand out against thee, and rebel, then do I
-    command thee to make use of all thy cunning, power, might, and force,
-    to bring them under by strength of hand.  Farewell.’
+‘But if they shall, notwithstanding thy summons and the producing of\
+thy authority, resist, stand out against thee, and rebel, then do I\
+command thee to make use of all thy cunning, power, might, and force,\
+to bring them under by strength of hand.  Farewell.’
 
 Thus you see the sum of their commissions; for, as I said before, for the
 substance of them, they were the same that the rest of the noble captains
@@ -1812,6 +1803,8 @@ of.  Nor will we long thus suffer you to sit down before us: our people
 must live in quiet: your appearance doth disturb them.  Wherefore arise
 with bag and baggage, and begone, or we will let fly from the walls
 against you.’
+
+## A Relation of the Holy War (trecho 3 de 12)
 
 This oration, made by old Incredulity, was seconded by desperate
 Willbewill, in words to this effect: ‘Gentlemen, we have heard your
@@ -2570,6 +2563,8 @@ two reasons: 1. To give notice to Mansoul that he could and would yet be
 gracious if they turned to him.  2. And that he might leave them the more
 without excuse, should he destroy them, they continuing in their
 rebellion.
+
+## A Relation of the Holy War (trecho 4 de 12)
 
 So the white flag, with the three golden doves in it, was hung out for
 two days together, to give them time and space to consider; but they, as
@@ -3363,6 +3358,8 @@ themselves, their thoughts would chance, and go upon all manner of
 extremes.  Yea, through the working of them backward and forward, Mansoul
 became as a ball tossed, and as a rolling thing before the whirlwind.
 
+## A Relation of the Holy War (trecho 5 de 12)
+
 Now, when he was come to the castle gates, he commanded Diabolus to
 appear, and to surrender himself into his hands.  But, oh! how loath was
 the beast to appear! how he stuck at it! how he shrank! how he cringed!
@@ -4092,6 +4089,8 @@ counsels, and let this always abide upon us, that all things shall be the
 best for thy servants, and come to our Mansoul, and do as it pleaseth
 thee.  Or, Lord, come to our Mansoul, do what thou wilt, so thou keepest
 us from sinning, and makest us serviceable to thy Majesty.’
+
+## A Relation of the Holy War (trecho 6 de 12)
 
 Then said the Prince to the town of Mansoul again, ‘Go, return to your
 houses in peace.  I will willingly in this comply with your desires; I
@@ -4956,6 +4955,8 @@ he also sware that he would try to be revenged on Mansoul for this.  So
 they, both he and his old friend Incredulity, concluded to enter into
 great consultation, how they might get the town of Mansoul again.
 
+## A Relation of the Holy War (trecho 7 de 12)
+
 Now, before this time, the day was come in which the prisoners in Mansoul
 were to be executed.  So they were brought to the cross, and that by
 Mansoul, in most solemn manner; for the Prince said that this should be
@@ -5727,6 +5728,8 @@ are for doubting, and I am for being confident.  Besides, is this a time
 to be sad in?  A feast is made for mirth; why, then, do you now, to your
 shame, and our trouble, break out into such passionate melancholy
 language, when you should eat and drink, and be merry?’
+
+## A Relation of the Holy War (trecho 8 de 12)
 
 Then said Mr. Godly-Fear again, ‘I may well be sad, for Emmanuel is gone
 from Mansoul.  I say again, he is gone, and you, sir, are the man that
@@ -6554,6 +6557,8 @@ so do those many legions here with us, wishing you may be as hellishly
 prosperous as we desire to be ourselves.  By the letter-carrier, Mr.
 Profane.’
 
+## A Relation of the Holy War (trecho 9 de 12)
+
 Then Mr. Profane addressed himself for his return to Mansoul, with his
 errand from the horrible pit to the Diabolonians that dwelt in that town.
 So he came up the stairs from the deep to the mouth of the cave where
@@ -7312,6 +7317,8 @@ Mansoul, (for the night is always the best for the enemy, but the worst
 for Mansoul to fight in,) but yet they would do it, their courage was so
 high; their last victory also still stuck in their memories.
 
+## A Relation of the Holy War (trecho 10 de 12)
+
 So the night appointed being come, the Prince’s brave captains cast lots
 who should lead the van in this new and desperate expedition against
 Diabolus, and against his Diabolonian army; and the lot fell to Captain
@@ -8025,6 +8032,8 @@ word was ‘The sword of the Prince Emmanuel, and the shield of Captain
 Credence;’ which is, in the Mansoulian tongue, ‘The word of God and
 faith.’  Then the captains fell on, and began roundly to front, and
 flank, and rear Diabolus’s camp.
+
+## A Relation of the Holy War (trecho 11 de 12)
 
 Now, they left Captain Experience in the town, because he was yet ill of
 his wounds, which the Diabolonians had given him in the last fight.  But
@@ -8770,6 +8779,8 @@ him by an interpreter; namely, ‘That he was there charged with being an
 enemy of Emmanuel the Prince, a hater of the town of Mansoul, and an
 opposer of her most wholesome doctrine.’
 
+## A Relation of the Holy War (trecho 12 de 12)
+
 Then the judge asked him if he would plead? but he said only this—That he
 confessed that he was an election doubter, and that that was the religion
 that he had ever been brought up in.  And said, moreover, ‘If I must die
@@ -9144,9 +9155,7 @@ thee!  Watch.  Behold, I lay none other burden upon thee, than what thou
 hast already.  Hold fast, till I come.’
 
 
-
-
-FOOTNOTES
+## Footnotes
 
 
 {0}  Unfortunately the illustrations are still in copyright in the UK

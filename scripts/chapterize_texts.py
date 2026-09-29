@@ -741,6 +741,54 @@ def chapterize_pilgrim(body):
     return out
 
 
+# ---------------------------------------------------------------- Bunyan, Holy War (RTS, 1907)
+
+def split_by_size(lines, titulo, limite=45_000):
+    """
+    Para narrativa sem nenhuma divisão no original: corta em ~`limite`
+    caracteres, sempre no começo de um parágrafo em prosa (nunca no meio de
+    um verso nem numa fala). O título diz "trecho n de N" para deixar claro que a divisão
+    é do site, não do autor.
+    """
+    partes, atual, tam = [], [], 0
+    for k, l in enumerate(lines):
+        # começo de parágrafo em prosa que não seja fala (não abre com aspas)
+        inicio_prosa = l and not l.endswith("\\") and not l.startswith(("‘", "“", "'", '"')) and k > 0 and not lines[k - 1]
+        if inicio_prosa and tam > limite:
+            partes.append(atual)
+            atual, tam = [], 0
+        atual.append(l)
+        tam += len(l) + 1
+    if partes and tam < limite / 4:
+        partes[-1] += atual
+    else:
+        partes.append(atual)
+    out = []
+    for n, parte in enumerate(partes, 1):
+        out += [f"## {titulo} (trecho {n} de {len(partes)})", ""] + parte
+    return out
+
+
+def chapterize_holy_war(body):
+    """
+    O original (1682) não tem capítulos: a narrativa ("A Relation of the Holy
+    War", ~500 KB) é cortada por tamanho. Prefácio de A. R. Buckland
+    (1857-1942), textos em verso de Bunyan e notas de rodapé viram capítulos.
+    """
+    lines = dedent_keep_verse(body)
+    idx = lambda t: lines.index(t)
+    pref, leitor, aviso, rel, notas = (idx(t) for t in (
+        "PREFACE.", "TO THE READER.", "AN ADVERTISEMENT TO THE READER.",
+        "A RELATION OF THE HOLY WAR.", "FOOTNOTES"))
+    out = lines[:pref]
+    out += ["## Preface", ""] + lines[pref + 1:leitor]
+    out += ["## To the Reader", ""] + lines[leitor + 1:aviso]
+    out += ["## An Advertisement to the Reader", ""] + lines[aviso + 1:rel]
+    out += split_by_size(lines[rel + 1:notas], "A Relation of the Holy War")
+    out += ["## Footnotes", ""] + lines[notas + 1:]
+    return out
+
+
 RULES = {
     "summa-theologica-part-i-prima-pars.md": chapterize_summa,
     "summa-theologica-part-i-ii-pars-prima-secundae.md": chapterize_summa,
@@ -760,6 +808,7 @@ RULES = {
     "thoughts-pensees.md": chapterize_pensees,
     "grace-abounding-to-the-chief-of-sinners.md": chapterize_grace_abounding,
     "the-pilgrims-progress.md": chapterize_pilgrim,
+    "the-holy-war.md": chapterize_holy_war,
 }
 
 
