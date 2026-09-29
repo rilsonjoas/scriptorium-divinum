@@ -24,7 +24,7 @@ VALUES (
   'Regra Pastoral',
   (SELECT id FROM authors WHERE slug = 'gregorio-magno'),
   'Português',
-  'O tratado supremo de teologia pastoral e cura d'almas da Igreja antiga. Com a célebre definição "A arte das artes é o governo das almas", São Gregório expõe quem deve assumir o ministério, a santidade de vida exigida do pastor, a arte psicológica de admoestar cada classe de ouvintes e a vigilância na humildade.',
+  'O tratado supremo de teologia pastoral e cura d''almas da Igreja antiga. Com a célebre definição "A arte das artes é o governo das almas", São Gregório expõe quem deve assumir o ministério, a santidade de vida exigida do pastor, a arte psicológica de admoestar cada classe de ouvintes e a vigilância na humildade.',
   'regra-pastoral-gregorio-magno',
   'Liber Regulae Pastoralis',
   '590',

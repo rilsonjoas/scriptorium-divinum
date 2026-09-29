@@ -24,7 +24,7 @@ VALUES (
   'O Pastor Reformado',
   (SELECT id FROM authors WHERE slug = 'richard-baxter'),
   'Português',
-  'Tratado clássico indispensável de teologia pastoral e cura d'almas, baseado na exortação de Paulo aos presbíteros em Atos 20.28 ("Cuidai de vós mesmos e de todo o rebanho"). Richard Baxter articula com profundidade a necessidade da santidade pessoal do ministro, o dever irrenunciável da catequese e visitação pessoal de cada família e o valor infinito da Igreja resgatada pelo Sangue de Cristo.',
+  'Tratado clássico indispensável de teologia pastoral e cura d''almas, baseado na exortação de Paulo aos presbíteros em Atos 20.28 ("Cuidai de vós mesmos e de todo o rebanho"). Richard Baxter articula com profundidade a necessidade da santidade pessoal do ministro, o dever irrenunciável da catequese e visitação pessoal de cada família e o valor infinito da Igreja resgatada pelo Sangue de Cristo.',
   'o-pastor-reformado-richard-baxter',
   'The Reformed Pastor (Gildas Salvianus)',
   '1656',

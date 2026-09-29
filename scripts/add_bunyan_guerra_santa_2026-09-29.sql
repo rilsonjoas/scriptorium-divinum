@@ -8,7 +8,7 @@ INSERT INTO authors (slug, name, bio_summary, denomination_or_tradition)
 VALUES (
   'john-bunyan',
   'John Bunyan',
-  'Pregador puritano batista e célebre escritor inglês (1628–1688), John Bunyan é o autor de algumas das maiores obras da literatura cristã universal, incluindo "O Peregrino" (The Pilgrim's Progress), "Graça Abundante" e "A Guerra Santa" (The Holy War, 1682). Sua impressionante capacidade de traduzir verdades bíblicas profundas e a psicologia da conversão em narrativas alegóricas inesquecíveis tornou-o uma das vozes mais lidas e amadas em todo o mundo.',
+  'Pregador puritano batista e célebre escritor inglês (1628–1688), John Bunyan é o autor de algumas das maiores obras da literatura cristã universal, incluindo "O Peregrino" (The Pilgrim''s Progress), "Graça Abundante" e "A Guerra Santa" (The Holy War, 1682). Sua impressionante capacidade de traduzir verdades bíblicas profundas e a psicologia da conversão em narrativas alegóricas inesquecíveis tornou-o uma das vozes mais lidas e amadas em todo o mundo.',
   ARRAY['Puritanismo', 'Tradição Reformada', 'Literatura Cristã', 'Alegorias']
 )
 ON CONFLICT (slug) DO NOTHING;
