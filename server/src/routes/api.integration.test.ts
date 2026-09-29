@@ -1,6 +1,7 @@
 import { beforeAll, afterAll, describe, it, expect } from 'vitest';
 import { readFileSync, writeFileSync, unlinkSync, existsSync } from 'node:fs';
 import path from 'node:path';
+import { gunzipSync } from 'node:zlib';
 import postgres from 'postgres';
 import { drizzle } from 'drizzle-orm/postgres-js';
 import { migrate } from 'drizzle-orm/postgres-js/migrator';
@@ -164,6 +165,26 @@ describe('Scriptorium Divinum API — Testes de Integração', () => {
     const body = res.json();
     expect(body.textAvailable).toBe(false);
     expect(body.readingMinutes).toBeNull();
+  });
+
+  it('GET /api/v1/books/:idOrSlug/text vem comprimido quando o cliente aceita gzip', async () => {
+    // A Bíblia (5 MB) ia sem compressão e levava ~13 s para abrir (2026-09-29).
+    const original = readFileSync(TEXT_FIXTURE, 'utf8');
+    const grande = original + 'Et verbum caro factum est. '.repeat(20_000);
+    writeFileSync(TEXT_FIXTURE, grande);
+    try {
+      const res = await app.inject({
+        method: 'GET',
+        url: '/api/v1/books/confissoes/text',
+        headers: { 'accept-encoding': 'gzip' },
+      });
+      expect(res.statusCode).toBe(200);
+      expect(res.headers['content-encoding']).toBe('gzip');
+      expect(res.rawPayload.length).toBeLessThan(grande.length / 10);
+      expect(JSON.parse(gunzipSync(res.rawPayload).toString('utf8')).text).toBe(grande);
+    } finally {
+      writeFileSync(TEXT_FIXTURE, original);
+    }
   });
 
   it('GET /api/v1/books/:idOrSlug/text devolve o texto em markdown', async () => {

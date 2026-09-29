@@ -1,4 +1,6 @@
+import zlib from 'node:zlib';
 import Fastify from 'fastify';
+import compress from '@fastify/compress';
 import cookie from '@fastify/cookie';
 import multipart from '@fastify/multipart';
 import fastifyStatic from '@fastify/static';
@@ -43,6 +45,14 @@ export async function buildApp() {
   await app.register(helmet, {
     contentSecurityPolicy: isProduction,
     crossOriginEmbedderPolicy: false,
+  });
+
+  // Compressão (gzip/brotli). O texto da Bíblia tem 5 MB e ia cru: ~13 s
+  // para abrir no site (2026-09-29). Brotli no nível 4: o padrão (11) custa
+  // CPU demais para comprimir textos grandes a cada requisição.
+  await app.register(compress, {
+    threshold: 1024,
+    brotliOptions: { params: { [zlib.constants.BROTLI_PARAM_QUALITY]: 4 } },
   });
 
   // Cookies assinados (sessão httpOnly do admin)
