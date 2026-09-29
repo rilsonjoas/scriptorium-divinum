@@ -657,6 +657,49 @@ volta quando entrar em PD.
   **Aplicar depois da importação do lote inglês** (a citação de Tomás
   passa a apontar para a Suma Parte I; o script aborta se ela não existir).
 
+### Retorno do Rilson depois do deploy (2026-09-29) — em ordem de execução
+
+Bugs primeiro (afetam quem já usa), depois melhorias; o redesenho do
+leitor tem decisões de design e passa por conversa antes.
+
+1. [ ] **"Ler Online" que não abre nada (bug, 3 obras).** _Por que Deus se
+   fez Homem?_, _A Cidade de Deus_ e _Pensamentos_ (PT) têm
+   `online_read_path` apontando para arquivos que nunca existiram
+   (`anselmo-cur-deus-homo.md`, `agostinho-cidade-de-deus.md`,
+   `pascal-pensamentos.md`); o leitor mostra "Conteúdo indisponível".
+   Causa no front: o `BookCard` mostra o botão só por existir
+   `onlineReadPath`, sem saber se o texto existe (o `textAvailable` do
+   servidor não é usado). Corrigir: (a) o botão só aparece com texto de
+   verdade; (b) nas 3, oferecer a edição relacionada que tem texto
+   (`relatedEditionSlug`: The City of God, Thoughts, Proslogium…) em vez
+   do beco sem saída; (c) conferir a licença das 3 traduções (Oscar Paes
+   Leme; Mário Barreto †1931; Antônio Pinto de Carvalho) — sem certeza de
+   PD, a ficha sai do ar, como as Institutas.
+2. [ ] **Rodapé do leitor ilegível (páginas).** Com o site no tema escuro
+   e o leitor em Pergaminho/Claro/Sépia, "Página 1 de 2" sai claro sobre
+   claro e os botões ‹ › ficam blocos escuros. A barra usa as cores do
+   tema do SITE; tem que usar as do tema do LEITOR.
+3. [ ] **Hover do menu no tema escuro ilegível.** Os links do cabeçalho
+   usam `hover:text-primary-foreground`, que no escuro é um marrom quase
+   preto sobre o couro. Trocar por um tom que funcione nos dois temas.
+4. [ ] **Credos aprovados pelo Rilson (2026-09-29).** Registrar a
+   revisão no aviso do texto, na proveniência e no `attribution_text`
+   (hoje dizem "revisão linha a linha pendente").
+5. [ ] **Capas automáticas.** Hoje cada obra sem capa precisa de um SVG
+   gerado à parte (`scripts/generate_covers.mjs`), e as que não têm
+   ficam com o ícone genérico (ex.: todo o lote inglês). Trocar por uma
+   capa tipográfica renderizada em HTML/CSS a partir de título, autor e
+   ano, sempre que `cover_image_url` estiver vazio — sem arquivo nenhum.
+6. [ ] **Leitor mais completo e moderno** (referência: leitor da The
+   Faith Received). Queixas: controles de fonte/tema escondidos no topo,
+   longe do texto; a proveniência ocupa o alto da página o tempo todo;
+   muito espaço em branco. Decisões de design a combinar com o Rilson
+   antes de implementar (grill).
+7. [ ] **Capítulos nas obras antigas.** Obras importadas antes do
+   `chapterize_texts.py` ainda são capítulo único (ex.: _The Holy War_,
+   540 KB). Levantar quais, escrever a regra de cada uma e conferir
+   contra o sumário, como no lote de 2026-09-28.
+
 > [!WARNING] Teto do catálogo é menor do que parecia (achado 2026-08-21)
 > O plano abaixo já mirava só "~30-50 obras" desde o início, e o
 > catálogo está em 32 — perto do teto que o próprio plano previa, não
