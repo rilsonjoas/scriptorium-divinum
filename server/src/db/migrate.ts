@@ -1,4 +1,4 @@
-import { readFileSync } from 'node:fs';
+import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 import postgres from 'postgres';
@@ -22,7 +22,20 @@ async function main() {
   );
   await migrationClient.unsafe(functionsSql);
 
-  console.log('✅ Migrations concluídas.');
+  const seedsDir = path.join(__dirname, 'seeds');
+  if (existsSync(seedsDir)) {
+    console.log('▶ Aplicando seeds do catálogo (SQL puro idempotente)...');
+    const files = readdirSync(seedsDir)
+      .filter((f) => f.endsWith('.sql'))
+      .sort();
+    for (const file of files) {
+      console.log(`  - Executando seed: ${file}`);
+      const sqlContent = readFileSync(path.join(seedsDir, file), 'utf-8');
+      await migrationClient.unsafe(sqlContent);
+    }
+  }
+
+  console.log('✅ Migrations e seeds concluídos com sucesso.');
   await migrationClient.end();
 }
 
@@ -30,3 +43,4 @@ main().catch((error) => {
   console.error('❌ Falha ao rodar migrations:', error);
   process.exit(1);
 });
+
