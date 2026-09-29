@@ -21,6 +21,7 @@ RUN pnpm --filter server deploy --prod --legacy /prod/server
 FROM node:22-alpine AS runtime
 RUN addgroup -S app && adduser -S app -G app
 WORKDIR /app
+COPY --from=pruned --chown=app:app /prod/server ./
 # Migrations + SQL customizado + Seeds de catálogo para rodar via `docker exec scriptorium-api node dist/db/migrate.js`
 COPY --from=build --chown=app:app /repo/server/src/db/migrations ./dist/db/migrations
 COPY --from=build --chown=app:app /repo/server/src/db/custom-sql ./dist/db/custom-sql
