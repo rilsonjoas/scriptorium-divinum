@@ -46,7 +46,14 @@ jobs:
             # Se a migration falhar, o deploy falha. Schema atrás do código
             # é pior que deploy vermelho.
             if docker ps --format '{{.Names}}' | grep -qx 'scriptorium-api'; then
-              docker exec scriptorium-api node dist/db/migrate.js
+              sleep 3
+              for i in $(seq 1 5); do
+                if docker exec scriptorium-api node dist/db/migrate.js; then
+                  break
+                fi
+                echo "Tentativa $i falhou ao rodar migrate, aguardando 3s..."
+                sleep 3
+              done
             else
               echo "⚠️ Container scriptorium-api não encontrado — migration NAO rodada."
               echo "   Rode no VPS: docker exec scriptorium-api node dist/db/migrate.js"
