@@ -6,159 +6,62 @@
 
 BEGIN;
 
--- 1) Inserir/Atualizar todas as 25 Categorias Canônicas com metadados ricos
-INSERT INTO categories (name, slug, description)
-VALUES ('Igreja Primitiva & Patrística', 'patristica', 'Obras dos Padres Apostólicos, Apologistas e Doutores da Igreja Antiga que formularam os fundamentos da fé (Séc. I – VIII).')
-ON CONFLICT (name) DO UPDATE 
-SET slug = EXCLUDED.slug,
-    description = EXCLUDED.description,
-    updated_at = NOW();
-INSERT INTO categories (name, slug, description)
-VALUES ('Tradição Oriental & Bizantina', 'tradicao-oriental', 'Obras dos Padres gregos, mestres sírios e a mística da Filocalia e hesicasmo (Séc. IV – XV).')
-ON CONFLICT (name) DO UPDATE 
-SET slug = EXCLUDED.slug,
-    description = EXCLUDED.description,
-    updated_at = NOW();
-INSERT INTO categories (name, slug, description)
-VALUES ('Escolástica & Mística Medieval', 'escolastica-e-medieval', 'Obras da teologia monástica, grandes doutores escolásticos e a mística da Idade Média (Séc. XI – XV).')
-ON CONFLICT (name) DO UPDATE 
-SET slug = EXCLUDED.slug,
-    description = EXCLUDED.description,
-    updated_at = NOW();
-INSERT INTO categories (name, slug, description)
-VALUES ('Reforma Protestante', 'reforma-protestante', 'Monumentos teológicos da Reforma magisterial (luterana e reformada) e credos históricos (Séc. XVI – XVII).')
-ON CONFLICT (name) DO UPDATE 
-SET slug = EXCLUDED.slug,
-    description = EXCLUDED.description,
-    updated_at = NOW();
-INSERT INTO categories (name, slug, description)
-VALUES ('Tradição Anglicana', 'tradicao-anglicana', 'Liturgia, teologia e piedade do Livro de Oração Comum e da tradição clássica inglesa (Séc. XVI – XVIII).')
-ON CONFLICT (name) DO UPDATE 
-SET slug = EXCLUDED.slug,
-    description = EXCLUDED.description,
-    updated_at = NOW();
-INSERT INTO categories (name, slug, description)
-VALUES ('Puritanismo & Piedade Reformada', 'puritanismo', 'Clássicos pastorais e espirituais da cura d''almas e santificação prática da tradição puritana (Séc. XVII).')
-ON CONFLICT (name) DO UPDATE 
-SET slug = EXCLUDED.slug,
-    description = EXCLUDED.description,
-    updated_at = NOW();
-INSERT INTO categories (name, slug, description)
-VALUES ('Renovação Católica & Mística Ibérica', 'renovacao-catolica', 'A mística carmelita, salesiana, jesuítica e a literatura sacra em língua portuguesa e espanhola (Séc. XVI – XVIII).')
-ON CONFLICT (name) DO UPDATE 
-SET slug = EXCLUDED.slug,
-    description = EXCLUDED.description,
-    updated_at = NOW();
-INSERT INTO categories (name, slug, description)
-VALUES ('Clássicos Modernos & Avivamentos', 'classicos-modernos', 'Grandes reflexões teológicas, tratados dos avivamentos e clássicos cristãos dos séculos XVIII a XX.')
-ON CONFLICT (name) DO UPDATE 
-SET slug = EXCLUDED.slug,
-    description = EXCLUDED.description,
-    updated_at = NOW();
-INSERT INTO categories (name, slug, description)
-VALUES ('Tratados & Sumas Teológicas', 'tratados-teologicos', 'Obras sistemáticas, exposições dogmáticas e investigações teológicas aprofundadas.')
-ON CONFLICT (name) DO UPDATE 
-SET slug = EXCLUDED.slug,
-    description = EXCLUDED.description,
-    updated_at = NOW();
-INSERT INTO categories (name, slug, description)
-VALUES ('Espiritualidade & Vida Interior', 'espiritualidade', 'Obras de ascese, contemplação, maturidade da fé e comunhão íntima com Deus.')
-ON CONFLICT (name) DO UPDATE 
-SET slug = EXCLUDED.slug,
-    description = EXCLUDED.description,
-    updated_at = NOW();
-INSERT INTO categories (name, slug, description)
-VALUES ('Sermões & Oratória Sacra', 'sermoes', 'Púlpito cristão, homilias patrísticas e grandes peças da oratória sagrada.')
-ON CONFLICT (name) DO UPDATE 
-SET slug = EXCLUDED.slug,
-    description = EXCLUDED.description,
-    updated_at = NOW();
-INSERT INTO categories (name, slug, description)
-VALUES ('Epístolas & Cartas Pastorais', 'epistolas', 'Correspondências apostólicas, cartas doutrinárias e cartas de direção de almas.')
-ON CONFLICT (name) DO UPDATE 
-SET slug = EXCLUDED.slug,
-    description = EXCLUDED.description,
-    updated_at = NOW();
-INSERT INTO categories (name, slug, description)
-VALUES ('Credos, Confissões & Catecismos', 'credos-e-confissoes', 'Símbolos ecumênicos, confissões confessionais e instrução catequética para a Igreja.')
-ON CONFLICT (name) DO UPDATE 
-SET slug = EXCLUDED.slug,
-    description = EXCLUDED.description,
-    updated_at = NOW();
-INSERT INTO categories (name, slug, description)
-VALUES ('Liturgia, Orações & Hinos', 'liturgia-e-oracao', 'Textos litúrgicos, manuais de preces, ritos sacros e poesia hímnica.')
-ON CONFLICT (name) DO UPDATE 
-SET slug = EXCLUDED.slug,
-    description = EXCLUDED.description,
-    updated_at = NOW();
-INSERT INTO categories (name, slug, description)
-VALUES ('Comentários Bíblicos & Homilias', 'comentarios-biblicos', 'Exegese, exposição versículo por versículo e meditações sobre as Sagradas Escrituras.')
-ON CONFLICT (name) DO UPDATE 
-SET slug = EXCLUDED.slug,
-    description = EXCLUDED.description,
-    updated_at = NOW();
-INSERT INTO categories (name, slug, description)
-VALUES ('Apologética & Filosofia Cristã', 'apologetica-e-filosofia', 'Defesa racional da fé cristã diante de outras cosmovisões e questionamentos filosóficos.')
-ON CONFLICT (name) DO UPDATE 
-SET slug = EXCLUDED.slug,
-    description = EXCLUDED.description,
-    updated_at = NOW();
-INSERT INTO categories (name, slug, description)
-VALUES ('Alegorias & Literatura Sacra', 'alegorias-e-literatura', 'Narrativas poéticas, visões alegóricas e expressões dramáticas da experiência cristã.')
-ON CONFLICT (name) DO UPDATE 
-SET slug = EXCLUDED.slug,
-    description = EXCLUDED.description,
-    updated_at = NOW();
-INSERT INTO categories (name, slug, description)
-VALUES ('Trindade & Espírito Santo', 'trindade-e-espirito-santo', 'A comunhão eterna do Pai, do Filho e do Espírito Santo e a atuação santificadora do Paráclito.')
-ON CONFLICT (name) DO UPDATE 
-SET slug = EXCLUDED.slug,
-    description = EXCLUDED.description,
-    updated_at = NOW();
-INSERT INTO categories (name, slug, description)
-VALUES ('Cristologia & Encarnação', 'cristologia', 'A pessoa divina e humana de Jesus Cristo, sua vida, paixão, morte e ressurreição salvadora.')
-ON CONFLICT (name) DO UPDATE 
-SET slug = EXCLUDED.slug,
-    description = EXCLUDED.description,
-    updated_at = NOW();
-INSERT INTO categories (name, slug, description)
-VALUES ('Graça, Fé & Justificação', 'graca-e-justificacao', 'A soberana graça de Deus, o mistério da salvação, o perdão dos pecados e a justiça pela fé.')
-ON CONFLICT (name) DO UPDATE 
-SET slug = EXCLUDED.slug,
-    description = EXCLUDED.description,
-    updated_at = NOW();
-INSERT INTO categories (name, slug, description)
-VALUES ('Oração & Contemplação', 'oracao-e-contemplacao', 'A prática da oração pessoal, a presença contínua de Deus e o silêncio interior.')
-ON CONFLICT (name) DO UPDATE 
-SET slug = EXCLUDED.slug,
-    description = EXCLUDED.description,
-    updated_at = NOW();
-INSERT INTO categories (name, slug, description)
-VALUES ('Combate Espiritual & Penitência', 'combate-espiritual', 'A luta contra as paixões desordenadas, a mortificação do pecado e a conversão do coração.')
-ON CONFLICT (name) DO UPDATE 
-SET slug = EXCLUDED.slug,
-    description = EXCLUDED.description,
-    updated_at = NOW();
-INSERT INTO categories (name, slug, description)
-VALUES ('Amor Divino & Virtudes Cristãs', 'amor-divino-e-virtudes', 'A caridade como ápice da vida cristã, as virtudes teologais e o fruto do Espírito.')
-ON CONFLICT (name) DO UPDATE 
-SET slug = EXCLUDED.slug,
-    description = EXCLUDED.description,
-    updated_at = NOW();
-INSERT INTO categories (name, slug, description)
-VALUES ('Eclesiologia & Sacramentos', 'eclesiologia-e-sacramentos', 'A natureza e unidade da Igreja de Cristo, a Santa Ceia/Eucaristia, o Batismo e o ministério ordenado.')
-ON CONFLICT (name) DO UPDATE 
-SET slug = EXCLUDED.slug,
-    description = EXCLUDED.description,
-    updated_at = NOW();
-INSERT INTO categories (name, slug, description)
-VALUES ('Providência & Escatologia', 'providencia-e-escatologia', 'O governo providencial de Deus sobre o cosmos, a esperança da glória eterna e os novíssimos.')
-ON CONFLICT (name) DO UPDATE 
-SET slug = EXCLUDED.slug,
-    description = EXCLUDED.description,
-    updated_at = NOW();
+-- 1) Limpar tabela categories para reconstrução limpa e livre de duplicatas de slug
+DELETE FROM categories;
 
--- 2) Atualizar categories de todos os livros para a taxonomia canônica
+-- 2) Inserir todas as 25 Categorias Canônicas
+INSERT INTO categories (name, slug, description)
+VALUES ('Igreja Primitiva & Patrística', 'patristica', 'Obras dos Padres Apostólicos, Apologistas e Doutores da Igreja Antiga que formularam os fundamentos da fé (Séc. I – VIII).');
+INSERT INTO categories (name, slug, description)
+VALUES ('Tradição Oriental & Bizantina', 'tradicao-oriental', 'Obras dos Padres gregos, mestres sírios e a mística da Filocalia e hesicasmo (Séc. IV – XV).');
+INSERT INTO categories (name, slug, description)
+VALUES ('Escolástica & Mística Medieval', 'escolastica-e-medieval', 'Obras da teologia monástica, grandes doutores escolásticos e a mística da Idade Média (Séc. XI – XV).');
+INSERT INTO categories (name, slug, description)
+VALUES ('Reforma Protestante', 'reforma-protestante', 'Monumentos teológicos da Reforma magisterial (luterana e reformada) e credos históricos (Séc. XVI – XVII).');
+INSERT INTO categories (name, slug, description)
+VALUES ('Tradição Anglicana', 'tradicao-anglicana', 'Liturgia, teologia e piedade do Livro de Oração Comum e da tradição clássica inglesa (Séc. XVI – XVIII).');
+INSERT INTO categories (name, slug, description)
+VALUES ('Puritanismo & Piedade Reformada', 'puritanismo', 'Clássicos pastorais e espirituais da cura d''almas e santificação prática da tradição puritana (Séc. XVII).');
+INSERT INTO categories (name, slug, description)
+VALUES ('Renovação Católica & Mística Ibérica', 'renovacao-catolica', 'A mística carmelita, salesiana, jesuítica e a literatura sacra em língua portuguesa e espanhola (Séc. XVI – XVIII).');
+INSERT INTO categories (name, slug, description)
+VALUES ('Clássicos Modernos & Avivamentos', 'classicos-modernos', 'Grandes reflexões teológicas, tratados dos avivamentos e clássicos cristãos dos séculos XVIII a XX.');
+INSERT INTO categories (name, slug, description)
+VALUES ('Tratados & Sumas Teológicas', 'tratados-teologicos', 'Obras sistemáticas, exposições dogmáticas e investigações teológicas aprofundadas.');
+INSERT INTO categories (name, slug, description)
+VALUES ('Espiritualidade & Vida Interior', 'espiritualidade', 'Obras de ascese, contemplação, maturidade da fé e comunhão íntima com Deus.');
+INSERT INTO categories (name, slug, description)
+VALUES ('Sermões & Oratória Sacra', 'sermoes', 'Púlpito cristão, homilias patrísticas e grandes peças da oratória sagrada.');
+INSERT INTO categories (name, slug, description)
+VALUES ('Epístolas & Cartas Pastorais', 'epistolas', 'Correspondências apostólicas, cartas doutrinárias e cartas de direção de almas.');
+INSERT INTO categories (name, slug, description)
+VALUES ('Credos, Confissões & Catecismos', 'credos-e-confissoes', 'Símbolos ecumênicos, confissões confessionais e instrução catequética para a Igreja.');
+INSERT INTO categories (name, slug, description)
+VALUES ('Liturgia, Orações & Hinos', 'liturgia-e-oracao', 'Textos litúrgicos, manuais de preces, ritos sacros e poesia hímnica.');
+INSERT INTO categories (name, slug, description)
+VALUES ('Comentários Bíblicos & Homilias', 'comentarios-biblicos', 'Exegese, exposição versículo por versículo e meditações sobre as Sagradas Escrituras.');
+INSERT INTO categories (name, slug, description)
+VALUES ('Apologética & Filosofia Cristã', 'apologetica-e-filosofia', 'Defesa racional da fé cristã diante de outras cosmovisões e questionamentos filosóficos.');
+INSERT INTO categories (name, slug, description)
+VALUES ('Alegorias & Literatura Sacra', 'alegorias-e-literatura', 'Narrativas poéticas, visões alegóricas e expressões dramáticas da experiência cristã.');
+INSERT INTO categories (name, slug, description)
+VALUES ('Trindade & Espírito Santo', 'trindade-e-espirito-santo', 'A comunhão eterna do Pai, do Filho e do Espírito Santo e a atuação santificadora do Paráclito.');
+INSERT INTO categories (name, slug, description)
+VALUES ('Cristologia & Encarnação', 'cristologia', 'A pessoa divina e humana de Jesus Cristo, sua vida, paixão, morte e ressurreição salvadora.');
+INSERT INTO categories (name, slug, description)
+VALUES ('Graça, Fé & Justificação', 'graca-e-justificacao', 'A soberana graça de Deus, o mistério da salvação, o perdão dos pecados e a justiça pela fé.');
+INSERT INTO categories (name, slug, description)
+VALUES ('Oração & Contemplação', 'oracao-e-contemplacao', 'A prática da oração pessoal, a presença contínua de Deus e o silêncio interior.');
+INSERT INTO categories (name, slug, description)
+VALUES ('Combate Espiritual & Penitência', 'combate-espiritual', 'A luta contra as paixões desordenadas, a mortificação do pecado e a conversão do coração.');
+INSERT INTO categories (name, slug, description)
+VALUES ('Amor Divino & Virtudes Cristãs', 'amor-divino-e-virtudes', 'A caridade como ápice da vida cristã, as virtudes teologais e o fruto do Espírito.');
+INSERT INTO categories (name, slug, description)
+VALUES ('Eclesiologia & Sacramentos', 'eclesiologia-e-sacramentos', 'A natureza e unidade da Igreja de Cristo, a Santa Ceia/Eucaristia, o Batismo e o ministério ordenado.');
+INSERT INTO categories (name, slug, description)
+VALUES ('Providência & Escatologia', 'providencia-e-escatologia', 'O governo providencial de Deus sobre o cosmos, a esperança da glória eterna e os novíssimos.');
+
+-- 3) Atualizar categories de todos os 161 livros para a taxonomia canônica
 
 UPDATE books SET categories = ARRAY['Renovação Católica & Mística Ibérica', 'Sermões & Oratória Sacra', 'Combate Espiritual & Penitência']::text[] WHERE slug = 'sermao-primeira-dominga-quaresma-vieira';
 UPDATE books SET categories = ARRAY['Renovação Católica & Mística Ibérica', 'Sermões & Oratória Sacra', 'Combate Espiritual & Penitência']::text[] WHERE slug = 'sermao-das-lagrimas-de-sao-pedro-vieira';
@@ -321,11 +224,5 @@ UPDATE books SET categories = ARRAY['Renovação Católica & Mística Ibérica',
 UPDATE books SET categories = ARRAY['Renovação Católica & Mística Ibérica', 'Sermões & Oratória Sacra', 'Graça, Fé & Justificação']::text[] WHERE slug = 'sermao-de-santo-antonio-aos-peixes';
 UPDATE books SET categories = ARRAY['Igreja Primitiva & Patrística', 'Tratados & Sumas Teológicas', 'Graça, Fé & Justificação']::text[] WHERE slug = 'a-biblia-sagrada-contendo-o-velho-e-o-novo-testamento';
 UPDATE books SET categories = ARRAY['Reforma Protestante', 'Tratados & Sumas Teológicas', 'Graça, Fé & Justificação']::text[] WHERE slug = 'as-95-teses';
-
--- 3) Limpar categorias órfãs não canônicas que não estejam em nenhum livro
-DELETE FROM categories c
-WHERE NOT EXISTS (
-  SELECT 1 FROM books b WHERE c.name = ANY (b.categories)
-);
 
 COMMIT;
