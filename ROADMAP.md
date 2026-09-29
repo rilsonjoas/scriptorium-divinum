@@ -1966,7 +1966,11 @@ ou sair da fila.
   (Da Miséria do Homem, Da Redenção do Homem, Da Gratidão), com texto e referências bíblicas integrais
   a partir do original alemão/latino via Schaff (vol. III / CCEL). Autoria atribuída a Zacarias Ursino e
   Caspar Oleviano. Script SQL em `scripts/add_catecismo_de_heidelberg_2026-09-29.sql` com aviso de IA e revisão humana pendente.
-- [ ] **Cânones de Dort** (latim, 1619) — idem, fonte Schaff vol. III.
+- [x] **Cânones de Dort** (1619) — ✅ ENTREGUE 2026-09-29
+  (`server/texts/canones-de-dort.md`, slug `canones-de-dort`). Tradução completa dos Cinco Pontos de Doutrina
+  (Eleição Divina e Reprovação, Morte de Cristo e Redenção, Corrupção Humana e Conversão Eficaz, e Perseverança dos Santos),
+  incluindo todos os artigos positivos, as rejeições de erros e a solene Conclusão do Sínodo, traduzidos a partir do latim oficial
+  cotejado com Schaff (vol. III / CCEL). Script SQL em `scripts/add_canones_de_dort_2026-09-29.sql` com aviso de IA e revisão humana pendente.
 - [ ] **Confissão de Fé de Westminster** (inglês, 1646) — idem Schaff
   vol. III. Médio-longo (33 capítulos): maior tarefa da lista depois de
   Inácio.
