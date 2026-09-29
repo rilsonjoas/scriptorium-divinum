@@ -567,6 +567,51 @@ def chapterize_consolation(body):
     return out
 
 
+# ---------------------------------------------------------------- Pascal, Pensamentos (Trotter)
+
+def chapterize_pensees(body):
+    """
+    Trotter (Gutenberg #18269, reimpressão Dutton de 1958). O arquivo traz
+    material que NÃO está em domínio público no Brasil ou tem autoria
+    incerta, e que sai daqui (regra de 2026-09-29: sem certeza, esconder):
+    - a introdução de T. S. Eliot (1931; Eliot morreu em 1965);
+    - as notas finais e o índice, que não estão na edição de Trotter de
+      1910 (Harvard Classics) e não têm autor declarado. Os marcadores
+      [n] das notas saem junto.
+    Fica a tradução de Trotter (1871-1945): nota do editor e 14 seções.
+    Os dois diagramas de Pascal (fragmentos 571 e 590) ficam num bloco que
+    preserva o desenho; tirar o recuo deles embaralharia o esquema.
+    """
+    lines = []
+    for bloco in re.split(r"\n\s*\n", "\n".join(body)):
+        linhas = bloco.split("\n")
+        if any(re.match(r"\s*(\d+ )?\{|.*__\|__", l) for l in linhas):
+            lines += ["```text", *[l.rstrip() for l in linhas if l.strip()], "```", ""]
+        else:
+            lines += dedent(linhas) + [""]
+    ini = lines.index("NOTE")
+    fim = lines.index("NOTES")
+    out = ["## Note"]
+    i = ini + 1
+    while i < fim:
+        l = re.sub(r"\[\d+\]", "", lines[i])
+        sec = re.fullmatch(r"SECTION ([IVX]+)", l)
+        if sec:
+            j = next_nonblank(lines, i)
+            out.append(f"## Section {sec.group(1)}. {title_case(lines[j])}")
+            i = j
+        elif l.startswith("It has been seen fit to transfer Fragment 514"):
+            # fala das notas finais, que saíram; pula o parágrafo
+            _, i = take_paragraph(lines, i)
+            continue
+        elif re.fullmatch(r"\d+", l):
+            out.append(f"**{l}**")  # número do fragmento
+        else:
+            out.append(l)
+        i += 1
+    return out
+
+
 RULES = {
     "summa-theologica-part-i-prima-pars.md": chapterize_summa,
     "summa-theologica-part-i-ii-pars-prima-secundae.md": chapterize_summa,
@@ -583,6 +628,7 @@ RULES = {
     "the-large-catechism.md": chapterize_large_catechism,
     "the-confessions-of-st-augustine.md": chapterize_confessions,
     "the-consolation-of-philosophy.md": chapterize_consolation,
+    "thoughts-pensees.md": chapterize_pensees,
 }
 
 
