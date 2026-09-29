@@ -22,8 +22,11 @@ export const LAST_PAGE = -1;
 
 export function countPages(scrollWidth: number, pageWidth: number, gap: number): number {
   if (!(pageWidth > 0)) return 1;
-  // +1px de folga: o navegador arredonda larguras de coluna em subpixel
-  return Math.max(1, Math.floor((scrollWidth + gap + 1) / (pageWidth + gap)));
+  // Arredonda para cima: com duas páginas lado a lado (duas colunas por
+  // vista), um número ímpar de colunas deixa a última vista pela metade, e
+  // ela ainda é uma página. A folga de 2px absorve o arredondamento de
+  // subpixel do navegador na largura das colunas.
+  return Math.max(1, Math.ceil((scrollWidth + gap - 2) / (pageWidth + gap)));
 }
 
 export function pageOfOffset(offsetLeft: number, pageWidth: number, gap: number): number {

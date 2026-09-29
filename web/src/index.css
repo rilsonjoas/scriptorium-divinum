@@ -584,6 +584,18 @@
     word-break: break-word;
   }
 
+  /* Número de nota de rodapé (balão): segue o tema do LEITOR, não o do site.
+     Vinho sobre papel claro; dourado-texto sobre os fundos escuros (tema
+     Escuro do leitor, ou Pergaminho com o site no tema escuro). */
+  .reader-nota-ref { color: hsl(var(--library-vinho)); }
+  .reader-theme-dark .reader-nota-ref,
+  .dark .reader-parchment .reader-nota-ref { color: hsl(var(--library-dourado-texto)); }
+
+  /* Modo foco do leitor: some o cabeçalho e o rodapé do site */
+  body.leitura-foco > #root header,
+  body.leitura-foco > #root footer,
+  body.leitura-foco [data-leitor-topo] { display: none; }
+
   /* Rubrica Medieval (títulos no tom de rubrica: vinho / bronze no escuro) */
   .rubric-heading {
     font-family: var(--font-display);

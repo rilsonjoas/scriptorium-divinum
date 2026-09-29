@@ -27,6 +27,14 @@ describe('countPages', () => {
     expect(countPages(3 * 600 + 2 * 48 + 0.6, 600, 48)).toBe(3);
   });
 
+  it('duas páginas lado a lado: número ímpar de colunas não perde a última meia vista', () => {
+    // vista de 1200px com 2 colunas de 576 (gap 48): 3 colunas = 2 vistas
+    const col = (1200 - 48) / 2;
+    expect(countPages(3 * col + 2 * 48, 1200, 48)).toBe(2);
+    expect(countPages(4 * col + 3 * 48, 1200, 48)).toBe(2);
+    expect(countPages(5 * col + 4 * 48, 1200, 48)).toBe(3);
+  });
+
   it('com largura inválida (ainda não medida) fica em 1', () => {
     expect(countPages(5000, 0, 48)).toBe(1);
   });

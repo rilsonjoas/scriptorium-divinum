@@ -19,6 +19,8 @@ interface PagedArticleProps {
   measureKey: string;
   /** Altura da página em px (calculada pelo Reader a partir do cabeçalho real). */
   height: number;
+  /** Páginas por vista: 2 = livro aberto (telas largas). */
+  colunas?: 1 | 2;
   /** Classe do contêiner (ex.: a animação de abertura de capítulo). */
   viewportClassName?: string;
   className?: string;
@@ -42,6 +44,7 @@ export function PagedArticle({
   onTargetResolved,
   measureKey,
   height,
+  colunas = 1,
   viewportClassName,
   className,
   children,
@@ -128,7 +131,9 @@ export function PagedArticle({
         ref={articleRef}
         className={className}
         style={{
-          columnWidth: size.w > 0 ? `${size.w}px` : undefined,
+          // com 2 colunas por vista, cada página tem metade da vista menos o
+          // espaço entre elas; o deslocamento continua sendo de uma vista
+          columnWidth: size.w > 0 ? `${(size.w - GAP * (colunas - 1)) / colunas}px` : undefined,
           columnGap: `${GAP}px`,
           columnFill: 'auto',
           height: size.h > 0 ? `${size.h}px` : undefined,

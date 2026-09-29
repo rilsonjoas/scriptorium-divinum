@@ -690,7 +690,7 @@ leitor tem decisões de design e passa por conversa antes.
    ficam com o ícone genérico (ex.: todo o lote inglês). Trocar por uma
    capa tipográfica renderizada em HTML/CSS a partir de título, autor e
    ano, sempre que `cover_image_url` estiver vazio — sem arquivo nenhum.
-6. [ ] **Leitor mais completo e moderno** (referência: leitor da The
+6. [x] **Leitor mais completo e moderno** _(feito 2026-09-29: barra flutuante `ReaderBar`, painel `ReadingSettingsPanel`, notas `FootnoteRef`, ficha abaixo do leitor, modo foco, 2 páginas ≥1280px; verificado no navegador em 1440/1280/390px, 8 combinações de tema com contraste ≥4,5:1, índice, retomada, teclado e toque)_ (referência: leitor da The
    Faith Received). Queixas: controles de fonte/tema escondidos no topo,
    longe do texto; a proveniência ocupa o alto da página o tempo todo;
    muito espaço em branco. **Decidido com o Rilson (grill, 2026-09-29):**
