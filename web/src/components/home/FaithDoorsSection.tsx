@@ -67,12 +67,12 @@ export function FaithDoorsSection() {
                     <div className="w-10 h-10 rounded-lg bg-library-gold/15 flex items-center justify-center text-library-dourado group-hover:scale-110 transition-transform">
                       <Icon className="w-5 h-5" />
                     </div>
-                    <span className="text-[10px] font-mono uppercase px-2 py-0.5 rounded-full border border-library-bronze/50 text-library-bronze-foreground bg-background/50">
+                    <span className="text-[10px] font-mono px-2 py-0.5 rounded-full border border-library-bronze/50 text-library-bronze-foreground bg-background/50">
                       {door.badge}
                     </span>
                   </div>
 
-                  <p className="text-xs font-heading font-semibold text-library-dourado-texto uppercase tracking-wider mb-1">
+                  <p className="text-xs font-heading font-semibold text-library-dourado-texto tracking-wider mb-1">
                     {door.subtitle}
                   </p>
                   <h3 className="font-display text-xl font-bold text-library-wood-foreground mb-2 group-hover:text-library-dourado-texto transition-colors">

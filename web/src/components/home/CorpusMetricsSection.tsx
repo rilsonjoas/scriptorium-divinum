@@ -54,7 +54,7 @@ export function CorpusMetricsSection() {
                 <div className="font-display text-2xl sm:text-3xl font-bold text-library-wood-foreground mb-1">
                   {st.value}
                 </div>
-                <div className="font-heading text-xs sm:text-sm font-semibold text-library-dourado-texto uppercase tracking-wider mb-1">
+                <div className="font-heading text-xs sm:text-sm font-semibold text-library-dourado-texto tracking-wider mb-1">
                   {st.label}
                 </div>
                 <div className="font-body text-[11px] sm:text-xs text-muted-foreground leading-snug">

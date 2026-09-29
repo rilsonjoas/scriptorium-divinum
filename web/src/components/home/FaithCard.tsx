@@ -21,7 +21,7 @@ export function FaithCard({ book, tagline, era }: FaithCardProps) {
       <div className="absolute top-0 left-0 w-1 h-full bg-library-bronze/40 group-hover:bg-library-dourado transition-colors"></div>
       
       <div>
-        <div className="flex items-center justify-between text-[11px] sm:text-xs text-library-bronze-foreground/80 mb-2 font-mono uppercase tracking-wider">
+        <div className="flex items-center justify-between text-[11px] sm:text-xs text-library-bronze-foreground/80 mb-2 font-mono tracking-wider">
           <span className="font-semibold text-library-bronze-foreground truncate max-w-[65%]">{displayTagline}</span>
           <span className="shrink-0">{displayEra}</span>
         </div>

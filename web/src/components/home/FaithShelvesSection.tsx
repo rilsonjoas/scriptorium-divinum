@@ -101,7 +101,7 @@ export function FaithShelvesSection() {
               >
                 <div>
                   <div className="flex items-center justify-between text-[11px] font-mono text-library-bronze-foreground mb-2">
-                    <span className="uppercase tracking-wider">{shelf.period}</span>
+                    <span className="tracking-wider">{shelf.period}</span>
                     {count !== null && (
                       <span className="px-2 py-0.5 rounded-full bg-library-gold/10 border border-library-bronze/40 font-semibold text-library-dourado-texto">
                         {count} {count === 1 ? 'obra' : 'obras'}
