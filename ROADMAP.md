@@ -605,8 +605,10 @@ gerados em dry-run:
 - [ ] Mesma divisão para obras **já no ar** sem capítulos (ex.: _The
   Holy War_, 540 KB em capítulo único): levantar quais e escrever a
   regra de cada uma.
-- [ ] Aplicar em produção (pipeline sem `DRY_RUN` contra a API admin +
-  push dos textos): só com autorização do Rilson.
+- [ ] Aplicar em produção por SQL (`scripts/add_lote_ingles_2026-09-28.sql`,
+  gerado do catálogo), **não** pelo pipeline sem `DRY_RUN`: ele baixa de
+  novo e sobrescreve os `.md`, desfazendo os capítulos. Ordem testada num
+  Postgres descartável: credos → lote inglês → acervo PT → retirada.
 
 **Catálogo em português — pesquisa de 2026-09-28:** ver
 `docs/PESQUISA-CATALOGO-PT-2026-09-28.md`. Achado principal: a
