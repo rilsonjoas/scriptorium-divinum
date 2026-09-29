@@ -1,3 +1,4 @@
+import type { Book } from '@/types';
 import { Link } from 'react-router-dom';
 import { useBooks } from '@/hooks/useDatabase';
 import { SectionLabel } from '@/components/SectionLabel';

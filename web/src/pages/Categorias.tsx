@@ -6,6 +6,7 @@ import { Badge } from '@/components/ui/badge';
 import { useCategories } from '@/hooks/useDatabase';
 import { Category } from '@/types';
 import { 
+  type LucideIcon,
   BookOpen, Clock, Compass, Layers, Feather, Scroll, Church, Heart, 
   Flame, Shield, Sparkles, ArrowRight, Loader2 
 } from 'lucide-react';
