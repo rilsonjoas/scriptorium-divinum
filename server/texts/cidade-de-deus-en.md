@@ -16,66 +16,62 @@
 
 ---
 
-## Volume I
+
+# Volume I
+
 
 THE WORKS
 
-                                  OF
+OF
 
-                          AURELIUS AUGUSTINE,
+AURELIUS AUGUSTINE,
 
-                           BISHOP OF HIPPO.
+BISHOP OF HIPPO.
 
-                         _A NEW TRANSLATION._
+_A NEW TRANSLATION._
 
-                            =Edited by the=
+=Edited by the=
 
-                        REV. MARCUS DODS, M.A.
-
-
-                                VOL. I.
-
-                           THE CITY OF GOD,
-
-                               VOLUME I.
+REV. MARCUS DODS, M.A.
 
 
-                              EDINBURGH:
-                   T. & T. CLARK, 38, GEORGE STREET.
+VOL. I.
 
-                              MDCCCLXXI.
+THE CITY OF GOD,
 
+VOLUME I.
 
+EDINBURGH:\
+T. & T. CLARK, 38, GEORGE STREET.
 
-
-                      PRINTED BY MURRAY AND GIBB,
-
-                                  FOR
-
-                       T. & T. CLARK, EDINBURGH.
-
-                LONDON,         HAMILTON, ADAMS, AND CO.
-                DUBLIN,         JOHN ROBERTSON AND CO.
-                NEW YORK,       C. SCRIBNER AND CO.
+MDCCCLXXI.
 
 
+PRINTED BY MURRAY AND GIBB,
+
+FOR
+
+T. & T. CLARK, EDINBURGH.
+
+LONDON,         HAMILTON, ADAMS, AND CO.\
+DUBLIN,         JOHN ROBERTSON AND CO.\
+NEW YORK,       C. SCRIBNER AND CO.
 
 
-                                  THE
+THE
 
-                             CITY OF GOD.
+CITY OF GOD.
 
-                          =Translated by the=
+=Translated by the=
 
-                        REV. MARCUS DODS, M.A.
+REV. MARCUS DODS, M.A.
 
-                               VOLUME I.
+VOLUME I.
 
+EDINBURGH:\
+T. & T. CLARK, 38, GEORGE STREET.
 
-                              EDINBURGH:
-                   T. & T. CLARK, 38, GEORGE STREET.
-
-                              MDCCCLXXI.
+MDCCCLXXI.
 
 
 Of the following Work, Books IV. XVII. and XVIII. have been
@@ -83,96 +79,7 @@ translated by the Rev. GEORGE WILSON, Glenluce; Books V. VI. VII. and
 VIII. by the Rev. J. J. SMITH.
 
 
-
-
-                               CONTENTS.
-
-
-                                BOOK I.
-
-                                                               PAGE
-
-  Augustine censures the pagans, who attributed the calamities of the
-      world, and especially the sack of Rome by the Goths, to the
-      Christian religion and its prohibition of the worship of the
-      gods,                                                       1
-
-
-                               BOOK II.
-
-  A review of the calamities suffered by the Romans before the time
-      of Christ, showing that their gods had plunged them into
-      corruption and vice,                                       48
-
-
-                               BOOK III.
-
-  The external calamities of Rome,                               91
-
-
-                               BOOK IV.
-
-  That empire was given to Rome not by the gods, but by the One True
-      God,                                                      135
-
-
-                                BOOK V.
-
-  Of fate, freewill, and God's prescience, and of the source of the
-      virtues of the ancient Romans,                            177
-
-
-                               BOOK VI.
-
-  Of Varro's threefold division of theology, and of the inability of
-      the gods to contribute anything to the happiness of the future
-      life,                                                     228
-
-
-                               BOOK VII.
-
-  Of the "select gods" of the civil theology, and that eternal life
-      is not obtained by worshipping them,                      258
-
-
-                              BOOK VIII.
-
-  Some account of the Socratic and Platonic philosophy, and a
-      refutation of the doctrine of Apuleius that the demons should
-      be worshipped as mediators between gods and men,          305
-
-
-                               BOOK IX.
-
-  Of those who allege a distinction among demons, some being good
-      and others evil,                                          353
-
-                                BOOK X.
-
-  Porphyry's doctrine of redemption,                            382
-
-
-                               BOOK XI.
-
-  Augustine passes to the second part of the work, in which the
-      origin, progress, and destinies of the earthly and heavenly
-      cities are discussed.--Speculations regarding the creation of
-      the world,                                                436
-
-
-                               BOOK XII.
-
-  Of the creation of angels and men, and of the origin of evil, 481
-
-
-                              BOOK XIII.
-
-  That death is penal, and had its origin in Adam's sin,        521
-
-
-
-
-                           EDITOR'S PREFACE.
+## Editor's Preface
 
 
 "Rome having been stormed and sacked by the Goths under Alaric
@@ -420,15 +327,15 @@ problems which are continually re-opened because they underlie man's
 relation to God and the spiritual world,--the problems which are not
 peculiar to any one century. As we read these animated discussions,
 
-          "The fourteen centuries fall away
-                 Between us and the Afric saint,
-           And at his side we urge, to-day,
-           The immemorial quest and old complaint.
+"The fourteen centuries fall away\
+Between us and the Afric saint,\
+And at his side we urge, to-day,\
+The immemorial quest and old complaint.
 
-           No outward sign to us is given,
-                 From sea or earth comes no reply;
-           Hushed as the warm Numidian heaven
-           He vainly questioned bends our frozen sky."
+No outward sign to us is given,\
+From sea or earth comes no reply;\
+Hushed as the warm Numidian heaven\
+He vainly questioned bends our frozen sky."
 
 It is true, the style of the book is not all that could be desired:
 there are passages which can possess an interest only to the
@@ -483,11 +390,13 @@ prepared to admit. A few notes have been added where it appeared to be
 necessary. Some are original, some from the Benedictine Augustine, and
 the rest from the elaborate commentary of Vives.[24]
 
-                                                   THE EDITOR.
+THE EDITOR.
 
 GLASGOW, 1871.
 
-FOOTNOTES:
+
+## Footnotes to the Editor's Preface
+
 
 [1] A.D. 410.
 
@@ -576,28 +485,16 @@ sunt fructus studiorum, et merces pulcherrimi laboris; quid labor et
 benefacta juvant?"
 
 
+THE CITY OF GOD.
 
 
-                           THE CITY OF GOD.
+# Book I
 
 
+**Argument.** AUGUSTINE CENSURES THE PAGANS, WHO ATTRIBUTED THE CALAMITIES OF THE WORLD, AND ESPECIALLY THE RECENT SACK OF ROME BY THE GOTHS, TO THE CHRISTIAN RELIGION, AND ITS PROHIBITION OF THE WORSHIP OF THE GODS. HE SPEAKS OF THE BLESSINGS AND ILLS OF LIFE, WHICH THEN, AS ALWAYS, HAPPENED TO GOOD AND BAD MEN ALIKE. FINALLY, HE REBUKES THE SHAMELESSNESS OF THOSE WHO CAST UP TO THE CHRISTIANS THAT THEIR WOMEN HAD BEEN VIOLATED BY THE SOLDIERS.
 
 
-                              BOOK FIRST.
-
-                               ARGUMENT.
-
-  AUGUSTINE CENSURES THE PAGANS, WHO ATTRIBUTED THE CALAMITIES OF THE
-      WORLD, AND ESPECIALLY THE RECENT SACK OF ROME BY THE GOTHS, TO
-      THE CHRISTIAN RELIGION, AND ITS PROHIBITION OF THE WORSHIP OF
-      THE GODS. HE SPEAKS OF THE BLESSINGS AND ILLS OF LIFE, WHICH
-      THEN, AS ALWAYS, HAPPENED TO GOOD AND BAD MEN ALIKE. FINALLY,
-      HE REBUKES THE SHAMELESSNESS OF THOSE WHO CAST UP TO THE
-      CHRISTIANS THAT THEIR WOMEN HAD BEEN VIOLATED BY THE SOLDIERS.
-
-
-             PREFACE, EXPLAINING HIS DESIGN IN UNDERTAKING
-                              THIS WORK.
+## Preface, Explaining His Design in Undertaking This Work
 
 
 The glorious city of God is my theme in this work, which you, my
@@ -621,8 +518,8 @@ the humble."[27] But this, which is God's prerogative, the inflated
 ambition of a proud spirit also affects, and dearly loves that this
 be numbered among its attributes, to
 
-          "Show pity to the humbled soul,
-           And crush the sons of pride."[28]
+"Show pity to the humbled soul,\
+And crush the sons of pride."[28]
 
 And therefore, as the plan of this work we have undertaken requires,
 and as occasion offers, we must speak also of the earthly city,
@@ -630,8 +527,8 @@ which, though it be mistress of the nations, is itself ruled by its
 lust of rule.
 
 
- 1. _Of the adversaries of the name of Christ, whom the barbarians for
-           Christ's sake spared when they stormed the city._
+## 1. Of the adversaries of the name of Christ, whom the barbarians for Christ's sake spared when they stormed the city
+
 
 For to this earthly city belong the enemies against whom I have to
 defend the city of God. Many of them, indeed, being reclaimed from
@@ -686,8 +583,8 @@ they fraudulently protected themselves for the sake of enjoying the
 light of this brief life.
 
 
-  2. _That it is quite contrary to the usage of war, that the victors
-       should spare the vanquished for the sake of their gods._
+## 2. That it is quite contrary to the usage of war, that the victors should spare the vanquished for the sake of their gods
+
 
 There are histories of numberless wars, both before the building of
 Rome and since its rise and the extension of its dominion: let these
@@ -697,20 +594,20 @@ fled for sanctuary to the temples of their gods;[29] or one instance
 in which a barbarian general gave orders that none should be put to
 the sword who had been found in this or that temple. Did not Æneas see
 
-                 "Dying Priam at the shrine,
-          Staining the hearth he made divine?"[30]
+"Dying Priam at the shrine,\
+Staining the hearth he made divine?"[30]
 
 Did not Diomede and Ulysses
 
-          "Drag with red hands, the sentry slain,
-           Her fateful image from your fane,
-           Her chaste locks touch, and stain with gore
-           The virgin coronal she wore?"[31]
+"Drag with red hands, the sentry slain,\
+Her fateful image from your fane,\
+Her chaste locks touch, and stain with gore\
+The virgin coronal she wore?"[31]
 
 Neither is that true which follows, that
 
-          "Thenceforth the tide of fortune changed,
-           And Greece grew weak."[32]
+"Thenceforth the tide of fortune changed,\
+And Greece grew weak."[32]
 
 For after this they conquered and destroyed Troy with fire and sword;
 after this they beheaded Priam as he fled to the altars. Neither did
@@ -722,9 +619,8 @@ image by the men. How, then, was she invoked to defend the city and
 the citizens, she who could not defend her own defenders?
 
 
-  3. _That the Romans did not show their usual sagacity when they
-      trusted that they would be benefited by the gods who had been
-      unable to defend Troy._
+## 3. That the Romans did not show their usual sagacity when they trusted that they would be benefited by the gods who had been unable to defend Troy
+
 
 And these be the gods to whose protecting care the Romans were
 delighted to entrust their city! O too, too piteous mistake! And
@@ -737,15 +633,15 @@ this great poet, this most famous and approved of all poets, may
 impregnate their virgin minds, and may not readily be forgotten by
 them, according to that saying of Horace,
 
-          "The fresh cask long keeps its first tang."[33]
+"The fresh cask long keeps its first tang."[33]
 
 Well, in this Virgil, I say, Juno is introduced as hostile to the
 Trojans, and stirring up Æolus, the king of the winds, against them
 in the words,
 
-          "A race I hate now ploughs the sea,
-           Transporting Troy to Italy,
-           And home-gods conquered. "[34]...
+"A race I hate now ploughs the sea,\
+Transporting Troy to Italy,\
+And home-gods conquered. "[34]...
 
 And ought prudent men to have entrusted the defence of Rome to these
 conquered gods? But it will be said, this was only the saying of
@@ -753,17 +649,17 @@ Juno, who, like an angry woman, did not know what she was saying.
 What, then, says Æneas himself,--Æneas who is so often designated
 "pious?" Does he not say,
 
-          "Lo! Panthus, 'scaped from death by flight,
-           Priest of Apollo on the height,
-           His conquered gods with trembling hands
-           He bears, and shelter swift demands?"[35]
+"Lo! Panthus, 'scaped from death by flight,\
+Priest of Apollo on the height,\
+His conquered gods with trembling hands\
+He bears, and shelter swift demands?"[35]
 
 Is it not clear that the gods (whom he does not scruple to call
 "conquered") were rather entrusted to Æneas than he to them, when it
 is said to him,
 
-          "The gods of her domestic shrines
-           Your country to your care consigns?"[36]
+"The gods of her domestic shrines\
+Your country to your care consigns?"[36]
 
 If, then, Virgil says that the gods were such as these, and were
 conquered, and that when conquered they could not escape except under
@@ -798,25 +694,24 @@ no sooner do they emerge from these sanctuaries, than they unbridle
 these tongues to hurl against Him curses full of hate.
 
 
-  4. _Of the asylum of Juno in Troy, which saved no one from the
-      Greeks; and of the churches of the apostles, which protected
-      from the barbarians all who fled to them._
+## 4. Of the asylum of Juno in Troy, which saved no one from the Greeks; and of the churches of the apostles, which protected from the barbarians all who fled to them
+
 
 Troy itself, the mother of the Roman people, was not able, as I have
 said, to protect its own citizens in the sacred places of their gods
 from the fire and sword of the Greeks, though the Greeks worshipped
 the same gods. Not only so, but
 
-                   "Phœnix and Ulysses fell
-          In the void courts by Juno's cell
-            Were set the spoil to keep;
-          Snatched from the burning shrines away,
-          There Ilium's mighty treasure lay,
-          Rich altars, bowls of massy gold,
-          And captive raiment, rudely rolled
-            In one promiscuous heap;
-          While boys and matrons, wild with fear,
-          In long array were standing near."[38]
+"Phœnix and Ulysses fell\
+In the void courts by Juno's cell\
+Were set the spoil to keep;\
+Snatched from the burning shrines away,\
+There Ilium's mighty treasure lay,\
+Rich altars, bowls of massy gold,\
+And captive raiment, rudely rolled\
+In one promiscuous heap;\
+While boys and matrons, wild with fear,\
+In long array were standing near."[38]
 
 In other words, the place consecrated to so great a goddess was
 chosen, not that from it none might be led out a captive, but that in
@@ -845,8 +740,8 @@ really happened? But there is no question that he depicted the usual
 custom of an enemy when sacking a city.
 
 
- 5. _Cæsar's statement regarding the universal custom of an enemy when
-                           sacking a city._
+## 5. Cæsar's statement regarding the universal custom of an enemy when sacking a city
+
 
 Even Cæsar himself gives us positive testimony regarding this custom;
 for, in his deliverance in the senate about the conspirators, he
@@ -863,8 +758,8 @@ noble senators and citizens of Rome. But these, it may be said, were
 abandoned men, and the parricides of their fatherland.
 
 
-    6. _That not even the Romans, when they took cities, spared the
-                     conquered in their temples._
+## 6. That not even the Romans, when they took cities, spared the conquered in their temples
+
 
 Why, then, need our argument take note of the many nations who have
 waged wars with one another, and have nowhere spared the conquered
@@ -907,9 +802,8 @@ they had shown this particular form of leniency, that in any temple
 slaughter or captivity was prohibited?
 
 
-  7. _That the cruelties which occurred in the sack of Rome were in
-      accordance with the custom of war, whereas the acts of clemency
-      resulted from the influence of Christ's name._
+## 7. That the cruelties which occurred in the sack of Rome were in accordance with the custom of war, whereas the acts of clemency resulted from the influence of Christ's name
+
 
 All the spoiling, then, which Rome was exposed to in the recent
 calamity--all the slaughter, plundering, burning, and misery--was
@@ -930,8 +824,8 @@ with the rod, and their iniquities with stripes; nevertheless my
 loving-kindness will I not utterly take from them."[42]
 
 
- 8. _Of the advantages and disadvantages which often indiscriminately
-                    accrue to good and wicked men._
+## 8. Of the advantages and disadvantages which often indiscriminately accrue to good and wicked men
+
 
 Will some one say, Why, then, was this divine compassion extended
 even to the ungodly and ungrateful? Why, but because it was the mercy
@@ -989,8 +883,8 @@ suffers them. For, stirred up with the same movement, mud exhales a
 horrible stench, and ointment emits a fragrant odour.
 
 
-    9. _Of the reasons for administering correction to bad and good
-                              together._
+## 9. Of the reasons for administering correction to bad and good together
+
 
 What, then, have the Christians suffered in that calamitous period,
 which would not profit every one who duly and faithfully considered
@@ -1094,7 +988,8 @@ may be manifested with what fortitude of pious trust, and with how
 unmercenary a love, it cleaves to God.[47]
 
 
-     10. _That the saints lose nothing in losing temporal goods._
+## 10. That the saints lose nothing in losing temporal goods
+
 
 These are the considerations which one must keep in view, that he may
 answer the question whether any evil happens to the faithful and godly
@@ -1213,8 +1108,8 @@ only hunger-bitten were taught to live more sparingly, and inured to
 longer fasts.
 
 
- 11. _Of the end of this life, whether it is material that it be long
-                               delayed._
+## 11. Of the end of this life, whether it is material that it be long delayed
+
 
 But, it is added, many Christians were slaughtered, and were put to
 death in a hideous variety of cruel ways. Well, if this be hard to
@@ -1244,8 +1139,8 @@ wicked rich man who lay in purple and fine linen, what harm could
 these terrific deaths do to the dead who had lived well?
 
 
-  12. _Of the burial of the dead: that the denial of it to Christians
-                       does them no injury._[56]
+## 12. Of the burial of the dead: that the denial of it to Christians does them no injury.[56]
+
 
 Further still, we are reminded that in such a carnage as then
 occurred, the bodies could not even be buried. But godly confidence
@@ -1302,7 +1197,8 @@ from the earth, but from the most secret recesses of any other of the
 elements in which the dead bodies of men have lain hid!
 
 
-          13. _Reasons for burying the bodies of the saints._
+## 13. Reasons for burying the bodies of the saints
+
 
 Nevertheless the bodies of the dead are not on this account to be
 despised and left unburied; least of all the bodies of the righteous
@@ -1349,8 +1245,8 @@ living, for they could not render them; nor an infliction to the
 dead, for they cannot feel the loss.
 
 
-   14. _Of the captivity of the saints, and that divine consolation
-                      never failed them therein._
+## 14. Of the captivity of the saints, and that divine consolation never failed them therein
+
 
 But, say they, many Christians were even led away captive. This
 indeed were a most pitiable fate, if they could be led away to any
@@ -1369,9 +1265,8 @@ prophet Jonah is far more incredible,--more incredible because more
 marvellous, and more marvellous because a greater exhibition of power.
 
 
-  15. _Of Regulus, in whom we have an example of the voluntary
-      endurance of captivity for the sake of religion; which yet did
-      not profit him, though he was a worshipper of the gods._
+## 15. Of Regulus, in whom we have an example of the voluntary endurance of captivity for the sake of religion; which yet did not profit him, though he was a worshipper of the gods
+
 
 But among their own famous men they have a very noble example of the
 voluntary endurance of captivity in obedience to a religious scruple.
@@ -1453,10 +1348,8 @@ expectation of a heavenly country, know that they are pilgrims even
 in their own homes.
 
 
-  16. _Of the violation of the consecrated and other Christian
-      virgins to which they were subjected in captivity, and to which
-      their own will gave no consent; and whether this contaminated
-      their souls._
+## 16. Of the violation of the consecrated and other Christian virgins to which they were subjected in captivity, and to which their own will gave no consent; and whether this contaminated their souls
+
 
 But they fancy they bring a conclusive charge against Christianity,
 when they aggravate the horror of captivity by adding that not only
@@ -1481,7 +1374,8 @@ pleasure, should be believed to have been committed also with some
 assent of the will.
 
 
-  17. _Of suicide committed through fear of punishment or dishonour._
+## 17. Of suicide committed through fear of punishment or dishonour
+
 
 And consequently, even if some of these virgins killed themselves
 to avoid such disgrace, who that has any human feeling would refuse
@@ -1509,8 +1403,8 @@ guilty act, and perpetrate upon himself a sin of his own, that the
 sin of another may not be perpetrated on him?
 
 
-    18. _Of the violence which may be done to the body by another's
-               lust, while the mind remains inviolate._
+## 18. Of the violence which may be done to the body by another's lust, while the mind remains inviolate
+
 
 But is there a fear that even another's lust may pollute the
 violated? It will not pollute, if it be another's: if it pollute,
@@ -1565,8 +1459,8 @@ that case she commits certain homicide to prevent a crime which is
 uncertain as yet, and not her own.
 
 
-  19. _Of Lucretia, who put an end to her life because of the outrage
-                              done her._
+## 19. Of Lucretia, who put an end to her life because of the outrage done her
+
 
 This, then, is our position, and it seems sufficiently lucid. We
 maintain that when a woman is violated while her soul admits no
@@ -1609,15 +1503,15 @@ Assuredly you will find it impossible to defend her before the judges
 of the realms below, if they be such as your poets are fond of
 representing them; for she is among those
 
-          "Who guiltless sent themselves to doom,
-           And all for loathing of the day,
-           In madness threw their lives away."
+"Who guiltless sent themselves to doom,\
+And all for loathing of the day,\
+In madness threw their lives away."
 
 And if she with the others wishes to return,
 
-          "Fate bars the way: around their keep
-           The slow unlovely waters creep,
-             And bind with ninefold chain."[73]
+"Fate bars the way: around their keep\
+The slow unlovely waters creep,\
+And bind with ninefold chain."[73]
 
 Or perhaps she is not there, because she slew herself conscious of
 guilt, not of innocence? She herself alone knows her reason; but what
@@ -1669,8 +1563,8 @@ opportunity of doing good, and they decline to evade the distress of
 human suspicion, lest they thereby deviate from the divine law.
 
 
- 20. _That Christians have no authority for committing suicide in any
-                       circumstances whatever._
+## 20. That Christians have no authority for committing suicide in any circumstances whatever
+
 
 It is not without significance, that in no passage of the holy
 canonical books there can be found either divine precept or
@@ -1717,8 +1611,8 @@ kill man;" therefore neither another nor yourself, for he who kills
 himself still kills nothing else than man.
 
 
- 21. _Of the cases in which we may put men to death without incurring
-                         the guilt of murder._
+## 21. Of the cases in which we may put men to death without incurring the guilt of murder
+
 
 However, there are some exceptions made by the divine authority to
 its own law, that men may not be put to death. These exceptions
@@ -1747,7 +1641,8 @@ Himself, the fountain of all justice, whoever kills a man, either
 himself or another, is implicated in the guilt of murder.
 
 
-       22. _That suicide can never be prompted by magnanimity._
+## 22. That suicide can never be prompted by magnanimity
+
 
 But they who have laid violent hands on themselves are perhaps to be
 admired for their greatness of soul, though they cannot be applauded
@@ -1794,8 +1689,8 @@ are produced from the "nations that forget God," give no warrant of
 imitation to the worshippers of the one true God.
 
 
-  23. _What we are to think of the example of Cato, who slew himself
-              because unable to endure Cæsar's victory._
+## 23. What we are to think of the example of Cato, who slew himself because unable to endure Cæsar's victory
+
 
 Besides Lucretia, of whom enough has already been said, our advocates
 of suicide have some difficulty in finding any other prescriptive
@@ -1827,8 +1722,8 @@ or if envy is too strong a word, let us say he was _ashamed_ that
 this glory should be his.
 
 
-   24. _That in that virtue in which Regulus excels Cato, Christians
-                   are pre-eminently distinguished._
+## 24. That in that virtue in which Regulus excels Cato, Christians are pre-eminently distinguished
+
 
 Our opponents are offended at our preferring to Cato the saintly
 Job, who endured dreadful evils in his body rather than deliver
@@ -1880,7 +1775,8 @@ maintain that he may kill himself because an enemy has sinned, or is
 going to sin, against him?
 
 
-       25. _That we should not endeavour by sin to obviate sin._
+## 25. That we should not endeavour by sin to obviate sin
+
 
 But, we are told, there is ground to fear that, when the body is
 subjected to the enemy's lust, the insidious pleasure of sense may
@@ -1912,8 +1808,8 @@ one who rebels against them are as blameless as its motions in the
 body of one who sleeps.
 
 
-  26. _That in certain peculiar cases the examples of the saints are
-                         not to be followed._
+## 26. That in certain peculiar cases the examples of the saints are not to be followed
+
 
 But, they say, in the time of persecution some holy women escaped
 those who menaced them with outrage, by casting themselves into
@@ -1957,7 +1853,8 @@ better life we look for after death, for those who die by their own
 hand have no better life after death.
 
 
- 27. _Whether voluntary death should be sought in order to avoid sin._
+## 27. Whether voluntary death should be sought in order to avoid sin
+
 
 There remains one reason for suicide which I mentioned before, and
 which is thought a sound one,--namely, to prevent one's falling into
@@ -2001,8 +1898,8 @@ there could be any just cause of suicide, this were so. And since not
 even this is so, there is none.
 
 
-    28. _By what judgment of God the enemy was permitted to indulge
-           his lust on the bodies of continent Christians._
+## 28. By what judgment of God the enemy was permitted to indulge his lust on the bodies of continent Christians
+
 
 Let not your life, then, be a burden to you, ye faithful servants of
 Christ, though your chastity was made the sport of your enemies. You
@@ -2073,9 +1970,8 @@ could be destroyed which He Himself had bestowed upon them, and
 delights to see in them.
 
 
-  29. _What the servants of Christ should say in reply to the
-      unbelievers who cast in their teeth that Christ did not rescue
-      them from the fury of their enemies._
+## 29. What the servants of Christ should say in reply to the unbelievers who cast in their teeth that Christ did not rescue them from the fury of their enemies
+
 
 The whole family of God, most high and most true, has therefore a
 consolation of its own,--a consolation which cannot deceive, and
@@ -2100,8 +1996,8 @@ is "to be feared above all gods? For all the gods of the nations are
 idols; but the Lord made the heavens."[79]
 
 
-     30. _That those who complain of Christianity really desire to
-              live without restraint in shameful luxury._
+## 30. That those who complain of Christianity really desire to live without restraint in shameful luxury
+
 
 If the famous Scipio Nasica were now alive, who was once your pontiff,
 and was unanimously chosen by the senate, when, in the panic created
@@ -2139,8 +2035,8 @@ people, after it had taken possession of the more powerful few, subdued
 under its yoke the rest, worn and wearied.
 
 
-     31. _By what steps the passion for governing increased among
-                             the Romans._
+## 31. By what steps the passion for governing increased among the Romans
+
 
 For at what stage would that passion rest when once it has lodged
 in a proud spirit, until by a succession of advances it has reached
@@ -2178,7 +2074,8 @@ service of proud devils to seek the things that are in heaven, or
 even above the heavens.
 
 
-         32. _Of the establishment of scenic entertainments._
+## 32. Of the establishment of scenic entertainments
+
 
 Know then, ye who are ignorant of this, and ye who feign ignorance be
 reminded, while you murmur against Him who has freed you from such
@@ -2208,8 +2105,8 @@ this disease, that day after day they seemed to contend with one
 another who should most madly run after the actors in the theatres.
 
 
-    33. _That the overthrow of Rome has not corrected the vices of
-                             the Romans._
+## 33. That the overthrow of Rome has not corrected the vices of the Romans
+
 
 Oh infatuated men, what is this blindness, or rather madness, which
 possesses you? How is it that while, as we hear, even the eastern
@@ -2237,7 +2134,8 @@ You have missed the profit of your calamity; you have been made most
 wretched, and have remained most profligate.
 
 
-      34. _Of God's clemency in moderating the ruin of the city._
+## 34. Of God's clemency in moderating the ruin of the city
+
 
 And that you are yet alive is due to God, who spares you that you
 may be admonished to repent and reform your lives. It is He who has
@@ -2255,8 +2153,8 @@ of increasing the number of their citizens, did that which the former
 have done, lest the number of their enemies should be diminished.
 
 
-    35. _Of the sons of the church who are hidden among the wicked,
-              and of false Christians within the church._
+## 35. Of the sons of the church who are hidden among the wicked, and of false Christians within the church
+
 
 Let these and similar answers (if any fuller and fitter answers can be
 found) be given to their enemies by the redeemed family of the Lord
@@ -2282,7 +2180,8 @@ placed in comparison with the other, it may shine with a brighter
 lustre.
 
 
-   36. _What subjects are to be handled in the following discourse._
+## 36. What subjects are to be handled in the following discourse
+
 
 But I have still some things to say in confutation of those who
 refer the disasters of the Roman republic to our religion, because
@@ -2314,7 +2213,9 @@ God, to which alone the promise of true and everlasting felicity is
 attached. Here, then, let us conclude, that we may enter on these
 subjects in a fresh book.
 
-FOOTNOTES:
+
+## Footnotes to Book I
+
 
 [25] See the Editor's Preface.
 
@@ -2458,23 +2359,14 @@ particulars regarding these tortures.
 Livy, _Ep._ xlviii.) the old custom was restored.
 
 
+# Book II
 
 
-                             BOOK SECOND.
-
-                               ARGUMENT.
-
-  IN THIS BOOK AUGUSTINE REVIEWS THOSE CALAMITIES WHICH THE ROMANS
-      SUFFERED BEFORE THE TIME OF CHRIST, AND WHILE THE WORSHIP OF
-      THE FALSE GODS WAS UNIVERSALLY PRACTISED; AND DEMONSTRATES
-      THAT, FAR FROM BEING PRESERVED FROM MISFORTUNE BY THE GODS, THE
-      ROMANS HAVE BEEN BY THEM OVERWHELMED WITH THE ONLY, OR AT LEAST
-      THE GREATEST, OF ALL CALAMITIES--THE CORRUPTION OF MANNERS, AND
-      THE VICES OF THE SOUL.
+**Argument.** IN THIS BOOK AUGUSTINE REVIEWS THOSE CALAMITIES WHICH THE ROMANS SUFFERED BEFORE THE TIME OF CHRIST, AND WHILE THE WORSHIP OF THE FALSE GODS WAS UNIVERSALLY PRACTISED; AND DEMONSTRATES THAT, FAR FROM BEING PRESERVED FROM MISFORTUNE BY THE GODS, THE ROMANS HAVE BEEN BY THEM OVERWHELMED WITH THE ONLY, OR AT LEAST THE GREATEST, OF ALL CALAMITIES--THE CORRUPTION OF MANNERS, AND THE VICES OF THE SOUL.
 
 
-   1. _Of the limits which must be put to the necessity of replying
-                           to an adversary._
+## 1. Of the limits which must be put to the necessity of replying to an adversary
+
 
 If the feeble mind of man did not presume to resist the clear evidence
 of truth, but yielded its infirmity to wholesome doctrines, as to a
@@ -2512,7 +2404,8 @@ they are "always learning, and never able to come to the knowledge of
 the truth."[82]
 
 
-        2. _Recapitulation of the contents of the first book._
+## 2. Recapitulation of the contents of the first book
+
 
 In the foregoing book, having begun to speak of the city of God, to
 which I have resolved, Heaven helping me, to consecrate the whole of
@@ -2560,9 +2453,8 @@ doctrine of the gospel against their false and deceiving gods had been
 as largely and freely proclaimed as now.
 
 
-  3. _That we need only to read history in order to see what
-      calamities the Romans suffered before the religion of Christ
-      began to compete with the worship of the gods._
+## 3. That we need only to read history in order to see what calamities the Romans suffered before the religion of Christ began to compete with the worship of the gods
+
 
 But remember that, in recounting these things, I have still to
 address myself to ignorant men; so ignorant, indeed, as to give birth
@@ -2587,9 +2479,8 @@ to speak of to fall on their worshippers before the preaching of
 Christ's name offended them, and put an end to their sacrifices?
 
 
-  4. _That the worshippers of the gods never received from them any
-      healthy moral precepts, and that in celebrating their worship
-      all sorts of impurities were practised._
+## 4. That the worshippers of the gods never received from them any healthy moral precepts, and that in celebrating their worship all sorts of impurities were practised
+
 
 First of all, we would ask why their gods took no steps to improve
 the morals of their worshippers. That the true God should neglect
@@ -2635,8 +2526,8 @@ in their existence, or leads such a life as prompts him rather to
 propitiate and fear them than the true God.
 
 
-      5. _Of the obscenities practised in honour of the mother of
-                              the gods._
+## 5. Of the obscenities practised in honour of the mother of the gods
+
 
 In this matter I would prefer to have as my assessors in judgment,
 not those men who rather take pleasure in these infamous customs
@@ -2681,7 +2572,8 @@ such obscenities as the best men would be covered with shame to hear
 at their own tables?
 
 
-  6. _That the gods of the pagans never inculcated holiness of life._
+## 6. That the gods of the pagans never inculcated holiness of life
+
 
 This is the reason why those divinities quite neglected the lives
 and morals of the cities and nations who worshipped them, and threw
@@ -2715,11 +2607,8 @@ resort to hear them, as we can point to our churches built for this
 purpose in every land where the Christian religion is received.
 
 
-  7. _That the suggestions of philosophers are precluded from having
-      any moral effect, because they have not the authority which
-      belongs to divine instruction, and because man's natural bias
-      to evil induces him rather to follow the examples of the gods
-      than to obey the precepts of men._
+## 7. That the suggestions of philosophers are precluded from having any moral effect, because they have not the authority which belongs to divine instruction, and because man's natural bias to evil induces him rather to follow the examples of the gods than to obey the precepts of men
+
 
 But will they perhaps remind us of the schools of the philosophers,
 and their disputations? In the first place, these belong not to Rome,
@@ -2761,8 +2650,8 @@ And was I, a poor creature compared to Him, to make bones of it? No; I
 did it, and with all my heart."[95]
 
 
-  8. _That the theatrical exhibitions publishing the shameful actions
-         of the gods, propitiated rather than offended them._
+## 8. That the theatrical exhibitions publishing the shameful actions of the gods, propitiated rather than offended them
+
 
 But, some one will interpose, these are the fables of poets, not
 the deliverances of the gods themselves. Well, I have no mind to
@@ -2791,8 +2680,8 @@ which boys are obliged by their seniors to read and learn as a part
 of what is called a liberal and gentlemanly education.[96]
 
 
-    9. _That the poetical licence which the Greeks, in obedience to
-      their gods, allowed, was restrained by the ancient Romans._
+## 9. That the poetical licence which the Greeks, in obedience to their gods, allowed, was restrained by the ancient Romans
+
 
 The opinion of the ancient Romans on this matter is attested by
 Cicero in his work _De Republica_, in which Scipio, one of the
@@ -2841,8 +2730,8 @@ common citizens, when the very deities did not grudge that their own
 reputation should be blemished.
 
 
-   10. _That the devils, in suffering either false or true crimes to
-         be laid to their charge, meant to do men a mischief._
+## 10. That the devils, in suffering either false or true crimes to be laid to their charge, meant to do men a mischief
+
 
 It is alleged, in excuse of this practice, that the stories told
 of the gods are not true, but false, and mere inventions; but this
@@ -2873,9 +2762,8 @@ unblemished reputation than they asserted for the gods, they might
 provoke them to anger.
 
 
-  11. _That the Greeks admitted players to offices of state, on
-      the ground that men who pleased the gods should not be
-      contemptuously treated by their fellows_.
+## 11. That the Greeks admitted players to offices of state, on the ground that men who pleased the gods should not be contemptuously treated by their fellows
+
 
 It was a part of this same reasonableness of the Greeks which induced
 them to bestow upon the actors of these same plays no inconsiderable
@@ -2920,10 +2808,8 @@ of them, or (which were still worse) to their good gods, if the plays
 are relished only by them.
 
 
-  12. _That the Romans, by refusing to the poets the same licence in
-      respect of men which they allowed them in the case of the gods,
-      showed a more delicate sensitiveness regarding themselves than
-      regarding the gods._
+## 12. That the Romans, by refusing to the poets the same licence in respect of men which they allowed them in the case of the gods, showed a more delicate sensitiveness regarding themselves than regarding the gods
+
 
 The Romans, however, as Scipio boasts in that same discussion,
 declined having their conduct and good name subjected to the assaults
@@ -2950,9 +2836,8 @@ Cæcilius should lampoon Cato; but quite proper that your Terence
 should encourage youthful lust by the wicked example of supreme Jove.
 
 
-  13. _That the Romans should have understood that gods who desired
-      to be worshipped in licentious entertainments were unworthy of
-      divine honour._
+## 13. That the Romans should have understood that gods who desired to be worshipped in licentious entertainments were unworthy of divine honour
+
 
 But Scipio, were he alive, would possibly reply: "How could we attach
 a penalty to that which the gods themselves have consecrated? For
@@ -3006,9 +2891,8 @@ honoured. The Christians draw the conclusion: Therefore such gods
 must by no means be worshipped.
 
 
-  14. _That Plato, who excluded poets from a well-ordered city, was
-      better than these gods who desire to be honoured by theatrical
-      plays._
+## 14. That Plato, who excluded poets from a well-ordered city, was better than these gods who desire to be honoured by theatrical plays
+
 
 We have still to inquire why the poets who write the plays, and who
 by the law of the twelve tables are prohibited from injuring the good
@@ -3086,8 +2970,8 @@ who sit as infallible judges, are won by the poets, what darkness
 benights the mind, what fears invade, what passions inflame it!"[104]
 
 
-    15. _That it was vanity, not reason, which created some of the
-                             Roman gods._
+## 15. That it was vanity, not reason, which created some of the Roman gods
+
 
 But is it not manifest that vanity rather than reason regulated the
 choice of some of their false gods? This Plato, whom they reckon a
@@ -3109,9 +2993,8 @@ serve Jove; and in giving Mars (the reputed father of Romulus) the
 same honour, is this not rather for Romulus' sake than to honour Mars?
 
 
-  16. _That if the gods had really possessed any regard for
-      righteousness, the Romans should have received good laws from
-      them, instead of having to borrow them from other nations._
+## 16. That if the gods had really possessed any regard for righteousness, the Romans should have received good laws from them, instead of having to borrow them from other nations
+
 
 Moreover, if the Romans had been able to receive a rule of life
 from their gods, they would not have borrowed Solon's laws from
@@ -3133,8 +3016,8 @@ from these evils, but, on the contrary, took special pains to
 increase them, as we have previously endeavoured to prove.
 
 
-      17. _Of the rape of the Sabine women, and other iniquities
-                 perpetrated in Rome's palmiest days._
+## 17. Of the rape of the Sabine women, and other iniquities perpetrated in Rome's palmiest days
+
 
 But possibly we are to find the reason for this neglect of the
 Romans by their gods, in the saying of Sallust, that "equity and
@@ -3195,8 +3078,8 @@ the advocates of either party were actuated rather by the love of
 victory than by any equitable or virtuous consideration.
 
 
-  18. _What the history of Sallust reveals regarding the life of the
-      Romans, either when straitened by anxiety or relaxed in security._
+## 18. What the history of Sallust reveals regarding the life of the Romans, either when straitened by anxiety or relaxed in security
+
 
 I will therefore pause, and adduce the testimony of Sallust himself,
 whose words in praise of the Romans (that "equity and virtue
@@ -3283,8 +3166,8 @@ an eternal city, whose glory rests not on the acclamations of vanity,
 but on the judgment of truth?
 
 
-    19. _Of the corruption which had grown upon the Roman republic
-           before Christ abolished the worship of the gods._
+## 19. Of the corruption which had grown upon the Roman republic before Christ abolished the worship of the gods
+
 
 Here, then, is this Roman republic, "which has changed little by
 little from the fair and virtuous city it was, and has become utterly
@@ -3329,8 +3212,8 @@ august assembly of angels and republic of heaven, in which the will
 of God is the law.
 
 
-  20. _Of the kind of happiness and life truly delighted in by those
-             who inveigh against the Christian religion._
+## 20. Of the kind of happiness and life truly delighted in by those who inveigh against the Christian religion
+
 
 But the worshippers and admirers of these gods delight in imitating
 their scandalous iniquities, and are nowise concerned that the
@@ -3383,7 +3266,8 @@ would more enthusiastically consecrate to him a temple and a flamen
 than the ancient Romans did to Romulus.
 
 
-             21. _Cicero's opinion of the Roman republic._
+## 21. Cicero's opinion of the Roman republic
+
 
 But if our adversaries do not care how foully and disgracefully
 the Roman republic be stained by corrupt practices, so long only
@@ -3519,8 +3403,8 @@ justice; the city of which Holy Scripture says, "Glorious things are
 said of thee, O city of God."
 
 
-     22. _That the Roman gods never took any steps to prevent the
-              republic from being ruined by immorality._
+## 22. That the Roman gods never took any steps to prevent the republic from being ruined by immorality
+
 
 But what is relevant to the present question is this, that however
 admirable our adversaries say the republic was or is, it is certain
@@ -3550,8 +3434,8 @@ Possibly they will be bold enough to suggest in defence of the gods,
 that they abandoned the city on account of the profligacy of the
 citizens, according to the lines of Virgil:
 
-          "Gone from each fane, each sacred shrine,
-           Are those who made this realm divine."[109]
+"Gone from each fane, each sacred shrine,\
+Are those who made this realm divine."[109]
 
 But, firstly, if it be so, then they cannot complain against the
 Christian religion, as if it were that which gave offence to the
@@ -3581,8 +3465,8 @@ declined to live with a people who worshipped them, and whose corrupt
 life they had done nothing to reform?
 
 
-     23. _That the vicissitudes of this life are dependent not on
- the favour or hostility of demons, but on the will of the true God._
+## 23. That the vicissitudes of this life are dependent not on the favour or hostility of demons, but on the will of the true God
+
 
 But, further, is it not obvious that the gods have abetted the
 fulfilment of men's desires, instead of authoritatively bridling them?
@@ -3659,8 +3543,8 @@ far as they are permitted by the decree of Him whose judgments are
 fully comprehensible, justly reprehensible by none.
 
 
-    24. _Of the deeds of Sylla, in which the demons boasted that he
-                           had their help._
+## 24. Of the deeds of Sylla, in which the demons boasted that he had their help
+
 
 It is certain that Sylla--whose rule was so cruel, that, in
 comparison with it, the preceding state of things which he came
@@ -3734,8 +3618,8 @@ should be conquered and led captive by his own infamous vices, and
 should thus be the more submissive slave of the demons themselves.
 
 
-  25. _How powerfully the evil spirits incite men to wicked actions,
-     by giving them the quasi-divine authority of their example._
+## 25. How powerfully the evil spirits incite men to wicked actions, by giving them the quasi-divine authority of their example
+
 
 Now, who does not hereby comprehend,--unless he has preferred to
 imitate such gods rather than by divine grace to withdraw himself
@@ -3803,9 +3687,8 @@ Romans would never in these civil wars have been so far transported
 by their own passions as they were by the instigations of these gods.
 
 
-  26. _That the demons gave in secret certain obscure instructions in
-      morals, while in public their own solemnities inculcated all
-      wickedness._
+## 26. That the demons gave in secret certain obscure instructions in morals, while in public their own solemnities inculcated all wickedness
+
 
 Seeing that this is so,--seeing that the filthy and cruel deeds,
 the disgraceful and criminal actions of the gods, whether real or
@@ -3872,9 +3755,8 @@ few who are good, and scatters in public invitations to profligacy,
 to gain possession of the millions who are wicked?
 
 
-  27. _That the obscenities of those plays which the Romans
-      consecrated in order to propitiate their gods, contributed
-      largely to the overthrow of public order._
+## 27. That the obscenities of those plays which the Romans consecrated in order to propitiate their gods, contributed largely to the overthrow of public order
+
 
 Cicero, a weighty man, and a philosopher in his way, when about to
 be made edile, wished the citizens to understand[111] that, among
@@ -3912,7 +3794,8 @@ at all), that they seemed rather to fear it might be divulged, than
 that it might not be practised.
 
 
-          28. _That the Christian religion is health-giving._
+## 28. That the Christian religion is health-giving
+
 
 They, then, are but abandoned and ungrateful wretches, in deep and
 fast bondage to that malign spirit, who complain and murmur that men
@@ -3934,7 +3817,8 @@ but either the precepts of the true God are recommended, His miracles
 narrated, His gifts praised, or His benefits implored.
 
 
-       29. _An exhortation to the Romans to renounce paganism._
+## 29. An exhortation to the Romans to renounce paganism
+
 
 This, rather, is the religion worthy of your desires, O admirable
 Roman race,--the progeny of your Scævolas and Scipios, of Regulus,
@@ -3961,8 +3845,8 @@ Lay hold now on the celestial country, which is easily won, and in
 which you will reign truly and for ever. For there shalt thou find no
 vestal fire, no Capitoline stone, but the one true God
 
-          "No date, no goal will here ordain:
-           But grant an endless, boundless reign."[114]
+"No date, no goal will here ordain:\
+But grant an endless, boundless reign."[114]
 
 No longer, then, follow after false and deceitful gods; abjure them
 rather, and despise them, bursting forth into true liberty. Gods
@@ -4009,7 +3893,9 @@ ascribed to them by those who worship them for the sake of temporal
 advantages, this, I say, I will prove in the following book; so let
 us here close the present argument.
 
-FOOTNOTES:
+
+## Footnotes to Book II
+
 
 [81] Ps. xciv. 4.
 
@@ -4133,23 +4019,14 @@ early days.
 [114] Virgil, _Æneid_, i. 278.
 
 
+# Book III
 
 
-                              BOOK THIRD.
-
-                               ARGUMENT.
-
-  AS IN THE FOREGOING BOOK AUGUSTINE HAS PROVED REGARDING MORAL AND
-      SPIRITUAL CALAMITIES, SO IN THIS BOOK HE PROVES REGARDING
-      EXTERNAL AND BODILY DISASTERS, THAT SINCE THE FOUNDATION OF
-      THE CITY THE ROMANS HAVE BEEN CONTINUALLY SUBJECT TO THEM; AND
-      THAT EVEN WHEN THE FALSE GODS WERE WORSHIPPED WITHOUT A RIVAL,
-      BEFORE THE ADVENT OF CHRIST, THEY AFFORDED NO RELIEF FROM SUCH
-      CALAMITIES.
+**Argument.** AS IN THE FOREGOING BOOK AUGUSTINE HAS PROVED REGARDING MORAL AND SPIRITUAL CALAMITIES, SO IN THIS BOOK HE PROVES REGARDING EXTERNAL AND BODILY DISASTERS, THAT SINCE THE FOUNDATION OF THE CITY THE ROMANS HAVE BEEN CONTINUALLY SUBJECT TO THEM; AND THAT EVEN WHEN THE FALSE GODS WERE WORSHIPPED WITHOUT A RIVAL, BEFORE THE ADVENT OF CHRIST, THEY AFFORDED NO RELIEF FROM SUCH CALAMITIES.
 
 
-   1. _Of the ills which alone the wicked fear, and which the world
-      continually suffered, even when the gods were worshipped._
+## 1. Of the ills which alone the wicked fear, and which the world continually suffered, even when the gods were worshipped
+
 
 Of moral and spiritual evils, which are above all others to be
 deprecated, I think enough has already been said to show that the
@@ -4178,8 +4055,8 @@ before the coming of Christ, had by alliance or conquest become, as
 it were, members of the body of the state.
 
 
-    2. _Whether the gods, whom the Greeks and Romans worshipped in
-    common, were justified in permitting the destruction of Ilium._
+## 2. Whether the gods, whom the Greeks and Romans worshipped in common, were justified in permitting the destruction of Ilium
+
 
 First, then, why was Troy or Ilium, the cradle of the Roman people
 (for I must not overlook nor disguise what I touched upon in the
@@ -4198,8 +4075,8 @@ posterity of Æneas, who in fact founded Rome. And as Homer says,
 Neptune also rescued Æneas in a cloud from the wrath of Achilles,
 though (according to Virgil[119])
 
-          "All his will was to destroy
-           His own creation, perjured Troy."
+"All his will was to destroy\
+His own creation, perjured Troy."
 
 Gods, then, so great as Apollo and Neptune, in ignorance of the cheat
 that was to defraud them of their wages, built the walls of Troy for
@@ -4223,8 +4100,8 @@ the sake of restraining wickedness by religious fear, but to complete
 the tale of crimes by adding that of perjury.
 
 
-   3. _That the gods could not be offended by the adultery of Paris,
-             this crime being so common among themselves._
+## 3. That the gods could not be offended by the adultery of Paris, this crime being so common among themselves
+
 
 There is no ground, then, for representing the gods (by whom, as they
 say, that empire stood, though they are proved to have been conquered
@@ -4259,8 +4136,8 @@ descended from Venus,[124] than the ancient Romulus believed himself
 the son of Mars.
 
 
-      4. _Of Varro's opinion, that it is useful for men to feign
-                themselves the offspring of the gods._
+## 4. Of Varro's opinion, that it is useful for men to feign themselves the offspring of the gods
+
 
 Some one will say, But do you believe all this? Not I indeed. For
 even Varro, a very learned heathen, all but admits that these stories
@@ -4278,9 +4155,8 @@ in which it was judged profitable for the citizens that lies should
 be told even about the gods themselves.
 
 
-  5. _That it is not credible that the gods should have punished the
-      adultery of Paris, seeing they showed no indignation at the
-      adultery of the mother of Romulus._
+## 5. That it is not credible that the gods should have punished the adultery of Paris, seeing they showed no indignation at the adultery of the mother of Romulus
+
 
 But whether Venus could bear Æneas to a human father Anchises, or
 Mars beget Romulus of the daughter of Numitor, we leave as unsettled
@@ -4307,8 +4183,8 @@ earnestly vindicated the purity of shrines they esteemed divine, than
 of the human bed.
 
 
-    6. _That the gods exacted no penalty for the fratricidal act of
-                               Romulus._
+## 6. That the gods exacted no penalty for the fratricidal act of Romulus
+
 
 I add another instance: If the sins of men so greatly incensed those
 divinities, that they abandoned Troy to fire and sword to punish
@@ -4343,7 +4219,8 @@ repeopled these lands; while at Rome, by a wider exercise of their
 malignant arts, they exulted in more abundant honours.
 
 
- 7. _Of the destruction of Ilium by Fimbria, a lieutenant of Marius._
+## 7. Of the destruction of Ilium by Fimbria, a lieutenant of Marius
+
 
 And surely we may ask what wrong poor Ilium had done, that, in the
 first heat of the civil wars of Rome, it should suffer at the hand of
@@ -4394,7 +4271,8 @@ them, not that they might be proved to be powerful, but that they might
 be convicted of being present.
 
 
-  8. _Whether Rome ought to have been entrusted to the Trojan gods?_
+## 8. Whether Rome ought to have been entrusted to the Trojan gods?
+
 
 Where, then, was the wisdom of entrusting Rome to the Trojan
 gods, who had demonstrated their weakness in the loss of Troy?
@@ -4408,8 +4286,8 @@ defend at least the Capitol, though to defend the rest of the city
 they were too long in being warned.
 
 
-  9. _Whether it is credible that the peace during the reign of Numa
-                    was brought about by the gods._
+## 9. Whether it is credible that the peace during the reign of Numa was brought about by the gods
+
 
 It is also believed that it was by the help of the gods that the
 successor of Romulus, Numa Pompilius, enjoyed peace during his entire
@@ -4446,10 +4324,8 @@ the first Punic war--in which, for a marvel, the Romans were able to
 shut the gates of war?[127]
 
 
-  10. _Whether it was desirable that the Roman empire should be
-      increased by such a furious succession of wars, when it might
-      have been quiet and safe by following in the peaceful ways of
-      Numa._
+## 10. Whether it was desirable that the Roman empire should be increased by such a furious succession of wars, when it might have been quiet and safe by following in the peaceful ways of Numa
+
 
 Do they reply that the Roman empire could never have been so widely
 extended, nor so glorious, save by constant and unintermitting wars?
@@ -4467,9 +4343,9 @@ was led without covetousness; every one was sufficiently satisfied
 with his own!"[128] Was it requisite, then, for Rome's prosperity,
 that the state of things which Virgil reprobates should succeed:
 
-          "At length stole on a baser age,
-           And war's indomitable rage,
-           And greedy lust of gain?"[129]
+"At length stole on a baser age,\
+And war's indomitable rage,\
+And greedy lust of gain?"[129]
 
 But obviously the Romans have a plausible defence for undertaking
 and carrying on such disastrous wars,--to wit, that the pressure of
@@ -4511,9 +4387,8 @@ proved not only by lying legends, which scarcely hint or signify any
 grain of truth, but even by Roman history itself.
 
 
-  11. _Of the statue of Apollo at Cumæ, whose tears are supposed to
-      have portended disaster to the Greeks, whom the god was unable
-      to succour._
+## 11. Of the statue of Apollo at Cumæ, whose tears are supposed to have portended disaster to the Greeks, whom the god was unable to succour
+
 
 And it is still this weakness of the gods which is confessed in the
 story of the Cuman Apollo, who is said to have wept for four days
@@ -4549,8 +4424,8 @@ them to those earlier divinities who had either come over to Rome
 with Romulus, or when Alba was destroyed.
 
 
- 12. _That the Romans added a vast number of gods to those introduced
-       by Numa, and that their numbers helped them not at all._
+## 12. That the Romans added a vast number of gods to those introduced by Numa, and that their numbers helped them not at all
+
 
 But though Pompilius introduced so ample a ritual, yet did not Rome
 see fit to be content with it. For as yet Jupiter himself had not
@@ -4588,13 +4463,13 @@ have already spoken), how wicked a contentiousness must have existed
 to occasion the death of Romulus' brother!
 
 
-    13. _By what right or agreement the Romans obtained their first
-                                wives._
+## 13. By what right or agreement the Romans obtained their first wives
+
 
 How is it that neither Juno, who with her husband Jupiter even then
 cherished
 
-          "Rome's sons, the nation of the gown,"[135]
+"Rome's sons, the nation of the gown,"[135]
 
 nor Venus herself, could assist the children of the loved Æneas to find
 wives by some right and equitable means? For the lack of this entailed
@@ -4658,8 +4533,8 @@ many severe things might be said on this theme; but our purpose carries
 us past them, and requires our discourse for other matters.
 
 
-     14. _Of the wickedness of the war waged by the Romans against
-      the Albans, and of the victories won by the lust of power._
+## 14. Of the wickedness of the war waged by the Romans against the Albans, and of the victories won by the lust of power
+
 
 But what happened after Numa's reign, and under the other kings,
 when the Albans were provoked into war, with sad results not to
@@ -4710,8 +4585,8 @@ weigh them naked, judge them naked. Let the charge be brought against
 Alba, as Troy was charged with adultery. There is no such charge,
 none like it found: the war was kindled only in order that there
 
-          "Might sound in languid ears the cry
-           Of Tullus and of victory."[138]
+"Might sound in languid ears the cry\
+Of Tullus and of victory."[138]
 
 This vice of restless ambition was the sole motive to that social and
 parricidal war,--a vice which Sallust brands in passing; for when
@@ -4755,8 +4630,8 @@ after they had left Lavinium, where Æneas had founded a kingdom in a
 land of banishment. But probably Alba was destroyed because from it too
 the gods had migrated, in their usual fashion, as Virgil says:
 
-          "Gone from each fane, each sacred shrine,
-           Are those who made this realm divine."[141]
+"Gone from each fane, each sacred shrine,\
+Are those who made this realm divine."[141]
 
 Gone, indeed, and from now their third asylum, that Rome might
 seem all the wiser in committing herself to them after they had
@@ -4778,7 +4653,8 @@ fact that no subsequent king closed the gates of war; and therefore,
 with all their tutelar gods, no one of them reigned in peace.
 
 
-       15. _What manner of life and death the Roman kings had._
+## 15. What manner of life and death the Roman kings had
+
 
 And what was the end of the kings themselves? Of Romulus, a flattering
 legend tells us that he was assumed into heaven. But certain Roman
@@ -4879,10 +4755,8 @@ Rome's dominion twenty miles from the city; a territory which would by
 no means bear comparison with that of any petty Gætulian state.
 
 
-  16. _Of the first Roman consuls, the one of whom drove the other
-      from the country, and shortly after perished at Rome by the
-      hand of a wounded enemy, and so ended a career of unnatural
-      murders._
+## 16. Of the first Roman consuls, the one of whom drove the other from the country, and shortly after perished at Rome by the hand of a wounded enemy, and so ended a career of unnatural murders
+
 
 To this epoch let us add also that of which Sallust says, that it was
 ordered with justice and moderation, while the fear of Tarquin and
@@ -4901,20 +4775,20 @@ discovered that they were conspiring to restore Tarquin. It is this
 deed that Virgil shudders to record, even while he seems to praise
 it; for when he says,
 
-          "And call his own rebellious seed
-           For menaced liberty to bleed,"
+"And call his own rebellious seed\
+For menaced liberty to bleed,"
 
 he immediately exclaims,
 
-          "Unhappy father! howsoe'er
-           The deed be judged by after days;"
+"Unhappy father! howsoe'er\
+The deed be judged by after days;"
 
 that is to say, let posterity judge the deed as they please, let them
 praise and extol the father who slew his sons, he is unhappy. And
 then he adds, as if to console so unhappy a man:
 
-          "His country's love shall all o'erbear,
-           And unextinguished thirst of praise."[144]
+"His country's love shall all o'erbear,\
+And unextinguished thirst of praise."[144]
 
 In the tragic end of Brutus, who slew his own sons, and though he
 slew his enemy, Tarquin's son, yet could not survive him, but was
@@ -4948,9 +4822,8 @@ the year in which the Roman republic inaugurated the new honour and
 office of the consulship.
 
 
-  17. _Of the disasters which vexed the Roman republic after the
-      inauguration of the consulship, and of the non-intervention of
-      the gods of Rome._
+## 17. Of the disasters which vexed the Roman republic after the inauguration of the consulship, and of the non-intervention of the gods of Rome
+
 
 After this, when their fears were gradually diminished,--not because
 the wars ceased, but because they were not so furious,--that period in
@@ -5107,8 +4980,8 @@ unknown. Meanwhile, the restoration of the temples procured no cure of
 the plague, but only a fine excuse for the gods.
 
 
-  18. _The disasters suffered by the Romans in the Punic wars, which
-          were not mitigated by the protection of the gods._
+## 18. The disasters suffered by the Romans in the Punic wars, which were not mitigated by the protection of the gods
+
 
 In the Punic wars, again, when victory hung so long in the balance
 between the two kingdoms, when two powerful nations were straining
@@ -5181,8 +5054,8 @@ when the gods remained among them this well-being and prosperity were
 blighted, they blush to change the opinion they are unable to defend.
 
 
-   19. _Of the calamity of the second Punic war, which consumed the
-                      strength of both parties._
+## 19. Of the calamity of the second Punic war, which consumed the strength of both parties
+
 
 As to the second Punic war, it were tedious to recount the disasters
 it brought on both the nations engaged in so protracted and shifting
@@ -5228,9 +5101,8 @@ spent on actors for the sake of a superfluous gratification, than was
 then disbursed to the legions?
 
 
-  20. _Of the destruction of the Saguntines, who received no help
-      from the Roman gods, though perishing on account of their
-      fidelity to Rome._
+## 20. Of the destruction of the Saguntines, who received no help from the Roman gods, though perishing on account of their fidelity to Rome
+
 
 But among all the disasters of the second Punic war, there occurred
 none more lamentable, or calculated to excite deeper complaint, than
@@ -5306,8 +5178,8 @@ lot, or might, even like Regulus and the Saguntines, be horribly
 tormented, and at last perish miserably.
 
 
-   21. _Of the ingratitude of Rome to Scipio, its deliverer, and of
-  its manners during the period which Sallust describes as the best._
+## 21. Of the ingratitude of Rome to Scipio, its deliverer, and of its manners during the period which Sallust describes as the best
+
 
 Omitting many things, that I may not exceed the limits of the work
 I have proposed to myself, I come to the epoch between the second
@@ -5372,8 +5244,8 @@ army of Rome, and had become a terror to the republic, the other
 generals had all marched against it under unfavourable auspices.
 
 
-      22. _Of the edict of Mithridates, commanding that all Roman
-               citizens found in Asia should be slain._
+## 22. Of the edict of Mithridates, commanding that all Roman citizens found in Asia should be slain
+
 
 These things, I say, I pass in silence; but I can by no means be
 silent regarding the order given by Mithridates, king of Asia, that
@@ -5401,9 +5273,8 @@ when such things were not prohibited, but authorized, by human, if
 not by divine law.
 
 
-  23. _Of the internal disasters which vexed the Roman republic, and
-      followed a portentous madness which seized all the domestic
-      animals._
+## 23. Of the internal disasters which vexed the Roman republic, and followed a portentous madness which seized all the domestic animals
+
 
 But let us now mention, as succinctly as possible, those disasters
 which were still more vexing, because nearer home; I mean those
@@ -5425,8 +5296,8 @@ our day, the heathen would have been more rabid against us than their
 animals were against them.
 
 
-      24. _Of the civil dissension occasioned by the sedition of
-                             the Gracchi._
+## 24. Of the civil dissension occasioned by the sedition of the Gracchi
+
 
 The civil wars originated in the seditions which the Gracchi excited
 regarding the agrarian laws; for they were minded to divide among the
@@ -5449,8 +5320,8 @@ previous agreement. In this massacre, too, Marcus Fulvius, a man of
 consular rank, with all his children, was put to death.
 
 
-    25. _Of the temple of Concord, which was erected by a decree of
-      the senate on the scene of these seditions and massacres._
+## 25. Of the temple of Concord, which was erected by a decree of the senate on the scene of these seditions and massacres
+
 
 A pretty decree of the senate it was, truly, by which the temple of
 Concord was built on the spot where that disastrous rising had taken
@@ -5490,8 +5361,8 @@ abandoned them, and Discord has tempestuously hurled them into civil
 wars.
 
 
-   26. _Of the various kinds of wars which followed the building of
-                        the temple of Concord._
+## 26. Of the various kinds of wars which followed the building of the temple of Concord
+
 
 But they supposed that, in erecting the temple of Concord within the
 view of the orators, as a memorial of the punishment and death of
@@ -5519,7 +5390,8 @@ either the horrible atrocities which the pirates first committed, or
 the wars they afterwards maintained against Rome?
 
 
-           27. _Of the civil war between Marius and Sylla._
+## 27. Of the civil war between Marius and Sylla
+
 
 But when Marius, stained with the blood of his fellow-citizens, whom
 the rage of party had sacrificed, was in his turn vanquished and
@@ -5550,8 +5422,8 @@ every one whose salutation Marius did not answer by giving his hand,
 was at once cut down before his face.
 
 
-     28. _Of the victory of Sylla, the avenger of the cruelties of
-                               Marius._
+## 28. Of the victory of Sylla, the avenger of the cruelties of Marius
+
 
 Then followed the victory of Sylla, the so-called avenger of the
 cruelties of Marius. But not only was his victory purchased with
@@ -5599,9 +5471,8 @@ liberty to him who was attacked, to strike if he could; peace granted
 to the survivors not life, but an unresisting death.
 
 
-  29. _A comparison of the disasters which Rome experienced during
-      the Gothic and Gallic invasions, with those occasioned by the
-      authors of the civil wars._
+## 29. A comparison of the disasters which Rome experienced during the Gothic and Gallic invasions, with those occasioned by the authors of the civil wars
+
 
 What fury of foreign nations, what barbarian ferocity, can compare
 with this victory of citizens over citizens? Which was more
@@ -5628,8 +5499,8 @@ to mention countless other massacres, despatched more senators than
 the Goths could even plunder.
 
 
-   30. _Of the connection of the wars which with great severity and
-     frequency followed one another before the advent of Christ._
+## 30. Of the connection of the wars which with great severity and frequency followed one another before the advent of Christ
+
 
 With what effrontery, then, with what assurance, with what impudence,
 with what folly, or rather insanity, do they refuse to impute these
@@ -5671,9 +5542,8 @@ subjected to his own rule the very liberty of the republic in defence
 of which he had made so many orations.
 
 
-  31. _That it is effrontery to impute the present troubles to Christ
-      and the prohibition of polytheistic worship, since even when
-      the gods were worshipped such calamities befell the people._
+## 31. That it is effrontery to impute the present troubles to Christ and the prohibition of polytheistic worship, since even when the gods were worshipped such calamities befell the people
+
 
 Let those who have no gratitude to Christ for His great benefits,
 blame their own gods for these heavy disasters. For certainly
@@ -5737,7 +5607,9 @@ for the sake of escaping lesser calamities of the same kind, and do
 not reflect that they who formerly worshipped them were not preserved
 from these serious disasters.
 
-FOOTNOTES:
+
+## Footnotes to Book III
+
 
 [115] Compare Aug. _Epist. ad Deogratias_, 102, 13; and _De Præd.
 Sanct._ 19.
@@ -5791,10 +5663,10 @@ purposes; shut therefore in peace, open in war.
 
 [137] _Æneid_, x. 821, of Lausus:
 
-          "But when Anchises' son surveyed
-           The fair, fair face so ghastly made,
-           He groaned, by tenderness unmanned,
-           And stretched the sympathizing hand," etc.
+"But when Anchises' son surveyed\
+The fair, fair face so ghastly made,\
+He groaned, by tenderness unmanned,\
+And stretched the sympathizing hand," etc.
 
 [138] Virgil, _Æneid_, vi. 813.
 
@@ -5833,21 +5705,14 @@ temple of Concord.
 [154] Virgil, _Æneid_, i. 417.
 
 
+# Book IV
 
 
-                            BOOK FOURTH.[155]
-
-                               ARGUMENT.
-
-  IN THIS BOOK IT IS PROVED THAT THE EXTENT AND LONG DURATION OF THE
-      ROMAN EMPIRE IS TO BE ASCRIBED, NOT TO JOVE OR THE GODS OF THE
-      HEATHEN, TO WHOM INDIVIDUALLY SCARCE EVEN SINGLE THINGS AND THE
-      VERY BASEST FUNCTIONS WERE BELIEVED TO BE ENTRUSTED, BUT TO
-      THE ONE TRUE GOD, THE AUTHOR OF FELICITY, BY WHOSE POWER AND
-      JUDGMENT EARTHLY KINGDOMS ARE FOUNDED AND MAINTAINED.
+**Argument.**[155] IN THIS BOOK IT IS PROVED THAT THE EXTENT AND LONG DURATION OF THE ROMAN EMPIRE IS TO BE ASCRIBED, NOT TO JOVE OR THE GODS OF THE HEATHEN, TO WHOM INDIVIDUALLY SCARCE EVEN SINGLE THINGS AND THE VERY BASEST FUNCTIONS WERE BELIEVED TO BE ENTRUSTED, BUT TO THE ONE TRUE GOD, THE AUTHOR OF FELICITY, BY WHOSE POWER AND JUDGMENT EARTHLY KINGDOMS ARE FOUNDED AND MAINTAINED.
 
 
-    1. _Of the things which have been discussed in the first book._
+## 1. Of the things which have been discussed in the first book
+
 
 Having begun to speak of the city of God, I have thought it necessary
 first of all to reply to its enemies, who, eagerly pursuing earthly
@@ -5892,7 +5757,8 @@ a part of this in the next two books, we see what our readers will
 expect us now to take up.
 
 
-  2. _Of those things which are contained in Books Second and Third._
+## 2. Of those things which are contained in Books Second and Third
+
 
 We had promised, then, that we would say something against those who
 attribute the calamities of the Roman republic to our religion, and
@@ -5947,9 +5813,8 @@ honour, has bestowed on the good and bad, according as it is written,
 to the just and the unjust."[157]
 
 
-  3. _Whether the great extent of the empire, which has been
-      acquired only by wars, is to be reckoned among the good things
-      either of the wise or the happy._
+## 3. Whether the great extent of the empire, which has been acquired only by wars, is to be reckoned among the good things either of the wise or the happy
+
 
 Now, therefore, let us see how it is that they dare to ascribe the very
 great extent and duration of the Roman empire to those gods whom they
@@ -6004,7 +5869,8 @@ treats, it says, "For of whom any man is overcome, to the same he is
 also the bond-slave."[158]
 
 
-       4. _How like kingdoms without justice are to robberies._
+## 4. How like kingdoms without justice are to robberies
+
 
 Justice being taken away, then, what are kingdoms but great
 robberies? For what are robberies themselves, but little kingdoms?
@@ -6024,8 +5890,8 @@ do it with a petty ship, I am called a robber, whilst thou who dost
 it with a great fleet art styled emperor."[159]
 
 
-     5. _Of the runaway gladiators whose power became like that of
-                            royal dignity._
+## 5. Of the runaway gladiators whose power became like that of royal dignity
+
 
 I shall not therefore stay to inquire what sort of men Romulus
 gathered together, seeing he deliberated much about them,--how,
@@ -6069,8 +5935,8 @@ with the utmost difficulty, lived sublime and dominant. But let us
 come to greater matters.
 
 
-    6. _Concerning the covetousness of Ninus, who was the first who
-     made war on his neighbours, that he might rule more widely._
+## 6. Concerning the covetousness of Ninus, who was the first who made war on his neighbours, that he might rule more widely
+
 
 Justinus, who wrote Greek or rather foreign history in Latin, and
 briefly, like Trogus Pompeius whom he followed, begins his work
@@ -6104,8 +5970,8 @@ crush and subdue people who do you no harm, what else is this to be
 called than great robbery?
 
 
-     7. _Whether earthly kingdoms in their rise and fall have been
-          either aided or deserted by the help of the gods._
+## 7. Whether earthly kingdoms in their rise and fall have been either aided or deserted by the help of the gods
+
 
 If this kingdom was so great and lasting without the aid of the
 gods, why is the ample territory and long duration of the Roman
@@ -6157,10 +6023,8 @@ after such affliction,--a thing which even in these times is not to
 be despaired of. For who knows the will of God concerning this matter?
 
 
-  8. _Which of the gods can the Romans suppose presided over the
-      increase and preservation of their empire, when they have
-      believed that even the care of single things could scarcely be
-      committed to single gods?_
+## 8. Which of the gods can the Romans suppose presided over the increase and preservation of their empire, when they have believed that even the care of single things could scarcely be committed to single gods?
+
 
 Next let us ask, if they please, out of so great a crowd of gods
 which the Romans worship, whom in especial, or what gods they
@@ -6217,9 +6081,8 @@ hinge, Limentinus to the threshold.[162] Thus Forculus could not at
 the same time take care also of the hinge and the threshold.
 
 
-  9. _Whether the great extent and long duration of the Roman empire
-      should be ascribed to Jove, whom his worshippers believe to be
-      the chief god._
+## 9. Whether the great extent and long duration of the Roman empire should be ascribed to Jove, whom his worshippers believe to be the chief god
+
 
 Therefore omitting, or passing by for a little, that crowd of petty
 gods, we ought to inquire into the part performed by the great gods,
@@ -6239,8 +6102,8 @@ hesitation in both saying and writing, that those who have appointed
 images for the people have both taken away fear and added error.
 
 
-    10. _What opinions those have followed who have set divers gods
-                   over divers parts of the world._
+## 10. What opinions those have followed who have set divers gods over divers parts of the world
+
 
 Why, also, is Juno united to him as his wife, who is called at once
 "sister and yokefellow?"[164] Because, say they, we have Jove in the
@@ -6286,8 +6149,8 @@ earth have been made, and are therefore not eternal? For their learned
 and wise men have this also in their books. Nor is that saying taken by
 Virgil out of poetic figments, but out of the books of philosophers,
 
-          "Then Ether, the Father Almighty, in copious showers descended
-           Into his spouse's glad bosom, making it fertile,"[166]
+"Then Ether, the Father Almighty, in copious showers descended
+Into his spouse's glad bosom, making it fertile,"[166]
 
 --that is, into the bosom of Tellus, or the earth. Although here,
 also, they will have it that there are some differences, and think
@@ -6327,8 +6190,8 @@ proved,--these very theatric representations of the crimes of their
 gods have been instituted in honour of these same gods.
 
 
-    11. _Concerning the many gods whom the pagan doctors defend as
-                     being one and the same Jove._
+## 11. Concerning the many gods whom the pagan doctors defend as being one and the same Jove
+
 
 Let them therefore assert as many things as ever they please in
 physical reasonings and disputations. One while let Jupiter be the
@@ -6343,9 +6206,9 @@ is not vile in divine beings); and yet again (that it may not be
 necessary to run through them all), let him, the one god, of whom
 many think it has been said by a most noble poet,
 
-          "For God pervadeth all things,
-           All lands, and the tracts of the sea, and the depth of the
-                heavens,"[168]--
+"For God pervadeth all things,\
+All lands, and the tracts of the sea, and the depth of the\
+heavens,"[168]--
 
 let it be him who in the ether is Jupiter; in the air, Juno; in the
 sea, Neptune; in the lower parts of the sea, Salacia; in the earth,
@@ -6426,8 +6289,8 @@ some; especially when Priapus, stretched out in vile nakedness, is
 preferred to those who shine from their supernal abode.
 
 
-   12. _Concerning the opinion of those who have thought that God is
-       the soul of the world, and the world is the body of God._
+## 12. Concerning the opinion of those who have thought that God is the soul of the world, and the world is the body of God
+
 
 Ought not men of intelligence, and indeed men of every kind, to be
 stirred up to examine the nature of this opinion? For there is no need
@@ -6446,8 +6309,8 @@ slaughtered? But I am unwilling to utter all that may occur to those
 who think of it, yet cannot be spoken without irreverence.
 
 
-    13. _Concerning those who assert that only rational animals are
-                        parts of the one God._
+## 13. Concerning those who assert that only rational animals are parts of the one God
+
 
 But if they contend that only rational animals, such as men, are
 parts of God, I do not really see how, if the whole world is God,
@@ -6472,9 +6335,8 @@ another? Could the kingdom of men then be propagated and increased by
 the king of the gods?
 
 
-  14. _The enlargement of kingdoms is unsuitably ascribed to Jove;
-      for if, as they will have it, Victoria is a goddess, she alone
-      would suffice for this business._
+## 14. The enlargement of kingdoms is unsuitably ascribed to Jove; for if, as they will have it, Victoria is a goddess, she alone would suffice for this business
+
 
 Here, first of all, I ask, why even the kingdom itself is not some
 god? For why should not it also be so, if Victory is a goddess? Or
@@ -6488,8 +6350,8 @@ war neighbours who are peaceable and do no wrong, in order to enlarge
 a kingdom? If they feel thus, I entirely approve and praise them.
 
 
-     15. _Whether it is suitable for good men to wish to rule more
-                               widely._
+## 15. Whether it is suitable for good men to wish to rule more widely
+
 
 Let them ask, then, whether it is quite fitting for good men to
 rejoice in extended empire. For the iniquity of those with whom just
@@ -6530,9 +6392,8 @@ worshipped, not as a stone in the Capitol, but as the true King of
 kings and Lord of lords.
 
 
-  16. _What was the reason why the Romans, in detailing separate gods
-      for all things and all movements of the mind, chose to have the
-      temple of Quiet outside the gates._
+## 16. What was the reason why the Romans, in detailing separate gods for all things and all movements of the mind, chose to have the temple of Quiet outside the gates
+
 
 But I wonder very much, that while they assigned to separate gods
 single things, and (well nigh) all movements of the mind; that while
@@ -6552,8 +6413,8 @@ calls, saying, "Learn of me, for I am meek and lowly in heart, and ye
 shall find rest unto your souls?"
 
 
-   17. _Whether, if the highest power belongs to Jove, Victoria also
-                       ought to be worshipped._
+## 17. Whether, if the highest power belongs to Jove, Victoria also ought to be worshipped
+
 
 Or do they say, perhaps, that Jupiter sends the goddess Victoria,
 and that she, as it were, acting in obedience to the king of the
@@ -6576,8 +6437,8 @@ goddess, and is under him as her king, wherever he might have sent
 her, she could not dare to resist and do her own will rather than his.
 
 
-       18. _With what reason they who think Felicity and Fortune
-                  goddesses have distinguished them._
+## 18. With what reason they who think Felicity and Fortune goddesses have distinguished them
+
 
 What shall we say, besides, of the idea that Felicity also is a
 goddess? She has received a temple; she has merited an altar;
@@ -6622,7 +6483,8 @@ at least, let the bad worship her, who do not choose to have merit by
 which the goddess Felicity might be invited.
 
 
-                19. _Concerning Fortuna Muliebris._[169]
+## 19. Concerning Fortuna Muliebris.[169]
+
 
 To this supposed deity, whom they call Fortuna, they ascribe so much,
 indeed, that they have a tradition that the image of her, which was
@@ -6641,10 +6503,8 @@ lest they themselves who have dedicated the image should think so
 great a miracle has been wrought by feminine loquacity.
 
 
-  20. _Concerning Virtue and Faith, which the pagans have honoured
-      with temples and sacred rites, passing by other good qualities,
-      which ought likewise to have been worshipped, if deity was
-      rightly attributed to these._
+## 20. Concerning Virtue and Faith, which the pagans have honoured with temples and sacred rites, passing by other good qualities, which ought likewise to have been worshipped, if deity was rightly attributed to these
+
 
 They have made Virtue also a goddess, which, indeed, if it could be
 a goddess, had been preferable to many. And now, because it is not
@@ -6679,8 +6539,8 @@ of virtue is comprehended both faith and chastity, which yet have
 obtained separate altars in temples of their own.
 
 
-   21. _That although not understanding them to be the gifts of God,
-  they ought at least to have been content with Virtue and Felicity._
+## 21. That although not understanding them to be the gifts of God, they ought at least to have been content with Virtue and Felicity
+
 
 These, not verity but vanity has made goddesses. For these are gifts
 of the true God, not themselves goddesses. However, where virtue and
@@ -6751,8 +6611,8 @@ goddess, why may she not be said to confer virtue itself, inasmuch as
 it is a great felicity to attain virtue?
 
 
-     22. _Concerning the knowledge of the worship due to the gods,
-    which Varro glories in having himself conferred on the Romans._
+## 22. Concerning the knowledge of the worship due to the gods, which Varro glories in having himself conferred on the Romans
+
 
 What is it, then, that Varro boasts he has bestowed as a very great
 benefit on his fellow-citizens, because he not only recounts the gods
@@ -6777,9 +6637,8 @@ things, and if he could teach that the one true God, from whom all good
 things are, is to be worshipped by men?
 
 
-  23. _Concerning Felicity, whom the Romans, who venerate many gods,
-      for a long time did not worship with divine honour, though she
-      alone would have sufficed instead of all._
+## 23. Concerning Felicity, whom the Romans, who venerate many gods, for a long time did not worship with divine honour, though she alone would have sufficed instead of all
+
 
 But how does it happen, if their books and rituals are true, and
 Felicity is a goddess, that she herself is not appointed as the
@@ -6892,8 +6751,8 @@ felicity; just as he cannot be free from hunger who licks a painted
 loaf of bread, and does not buy it of the man who has a real one.
 
 
-     24. _The reasons by which the pagans attempt to defend their
-       worshipping among the gods the divine gifts themselves._
+## 24. The reasons by which the pagans attempt to defend their worshipping among the gods the divine gifts themselves
+
 
 We may, however, consider their reasons. Is it to be believed, say
 they, that our forefathers were besotted even to such a degree as
@@ -6914,8 +6773,8 @@ Felicitas is called a goddess, what is meant is not the thing itself
 which is given, but that deity by whom felicity is given.
 
 
-   25. _Concerning the one God only to be worshipped, who, although
-   His name is unknown, is yet deemed to be the giver of felicity._
+## 25. Concerning the one God only to be worshipped, who, although His name is unknown, is yet deemed to be the giver of felicity
+
 
 Having had that reason rendered to us, we shall perhaps much more
 easily persuade, as we wish, those whose heart has not become too
@@ -6944,8 +6803,8 @@ infamous attributes. For he is said to be the debaucher of the wives
 of others; he is the shameless lover and ravisher of a beautiful boy.
 
 
-   26. _Of the scenic plays, the celebration of which the gods have
-                   exacted from their worshippers._
+## 26. Of the scenic plays, the celebration of which the gods have exacted from their worshippers
+
 
 "But," says Cicero, "Homer invented these things, and transferred
 things human to the gods: I would rather transfer things divine to
@@ -6996,8 +6855,8 @@ worshipped, and who, unless he should be thus worshipped, was yet
 more infelicitously provoked to anger?
 
 
-    27. _Concerning the three kinds of gods about which the pontiff
-                       Scævola has discoursed._
+## 27. Concerning the three kinds of gods about which the pontiff Scævola has discoursed
+
 
 It is recorded that the very learned pontiff Scævola[174] had
 distinguished about three kinds of gods--one introduced by the poets,
@@ -7055,8 +6914,8 @@ greatest wrong is done by you, because you have thought he ought to
 be worshipped along with them, and have styled him their king?
 
 
-    28. _Whether the worship of the gods has been of service to the
-            Romans in obtaining and extending the empire._
+## 28. Whether the worship of the gods has been of service to the Romans in obtaining and extending the empire
+
 
 Therefore such gods, who are propitiated by such honours, or rather are
 impeached by them (for it is a greater crime to delight in having such
@@ -7082,8 +6941,8 @@ be its extent, and whether they might have one here or not, would
 afterwards receive an eternal kingdom.
 
 
-      29. _Of the falsity of the augury by which the strength and
-    stability of the Roman empire was considered to be indicated._
+## 29. Of the falsity of the augury by which the strength and stability of the Roman empire was considered to be indicated
+
 
 For what kind of augury is that which they have declared to be most
 beautiful, and to which I referred a little ago, that Mars, and
@@ -7147,8 +7006,8 @@ to send holy and truly pious men, who would die for the true religion
 that they might remove the false from among the living.
 
 
-    30. _What kind of things even their worshippers have owned they
-             have thought about the gods of the nations._
+## 30. What kind of things even their worshippers have owned they have thought about the gods of the nations
+
 
 Cicero the augur laughs at auguries, and reproves men for regulating
 the purposes of life by the cries of crows and jackdaws.[177] But
@@ -7204,9 +7063,8 @@ in the hearts of the religious, but even in the temples of the
 superstitious, by their own free service.
 
 
-  31. _Concerning the opinions of Varro, who, while reprobating the
-      popular belief, thought that their worship should be confined
-      to one god, though he was unable to discover the true God._
+## 31. Concerning the opinions of Varro, who, while reprobating the popular belief, thought that their worship should be confined to one god, though he was unable to discover the true God
+
 
 What says Varro himself, whom we grieve to have found, although not
 by his own judgment, placing the scenic plays among things divine?
@@ -7280,8 +7138,8 @@ the shedding of the most holy blood, and the gift of the imparted
 Spirit, can set us free.
 
 
-     32. _In what interest the princes of the nations wished false
-       religions to continue among the people subject to them._
+## 32. In what interest the princes of the nations wished false religions to continue among the people subject to them
+
 
 Varro says also, concerning the generations of the gods, that
 the people have inclined to the poets rather than to the natural
@@ -7302,8 +7160,8 @@ But who that was weak and unlearned could escape the deceits of both
 the princes of the state and the demons?
 
 
-   33. _That the times of all kings and kingdoms are ordained by the
-                 judgment and power of the true God._
+## 33. That the times of all kings and kingdoms are ordained by the judgment and power of the true God
+
 
 Therefore that God, the author and giver of felicity, because He
 alone is the true God, Himself gives earthly kingdoms both to
@@ -7325,9 +7183,8 @@ openly declaring, both the eternity which was symbolized by these
 earthly things, and in what gifts of God true felicity could be found.
 
 
-  34. _Concerning the kingdom of the Jews, which was founded by the
-      one and true God, and preserved by Him as long as they remained
-      in the true religion._
+## 34. Concerning the kingdom of the Jews, which was founded by the one and true God, and preserved by Him as long as they remained in the true religion
+
 
 Therefore, that it might be known that these earthly good things, after
 which those pant who cannot imagine better things, remain in the power
@@ -7367,7 +7224,9 @@ before; lest, perhaps, when they should be read in ours, they might
 seem to be invented by us. But now, reserving what is to follow for the
 following book, we must here set a bound to the prolixity of this one.
 
-FOOTNOTES:
+
+## Footnotes to Book IV
+
 
 [155] In Augustine's letter to Evodius (169), which was written
 towards the end of the year 415, he mentions that this fourth book
@@ -7437,26 +7296,13 @@ Cicero, see Lact. _Inst. Div._ iv. 28.
 [182] Plutarch's _Numa_, c. 8.
 
 
+# Book V
 
 
-                            BOOK FIFTH.[183]
-
-                               ARGUMENT.
-
-  AUGUSTINE FIRST DISCUSSES THE DOCTRINE OF FATE, FOR THE SAKE OF
-      CONFUTING THOSE WHO ARE DISPOSED TO REFER TO FATE THE POWER AND
-      INCREASE OF THE ROMAN EMPIRE, WHICH COULD NOT BE ATTRIBUTED
-      TO FALSE GODS, AS HAS BEEN SHOWN IN THE PRECEDING BOOK. AFTER
-      THAT, HE PROVES THAT THERE IS NO CONTRADICTION BETWEEN GOD'S
-      PRESCIENCE AND OUR FREE WILL. HE THEN SPEAKS OF THE MANNERS OF
-      THE ANCIENT ROMANS, AND SHOWS IN WHAT SENSE IT WAS DUE TO THE
-      VIRTUE OF THE ROMANS THEMSELVES, AND IN HOW FAR TO THE COUNSEL
-      OF GOD, THAT HE INCREASED THEIR DOMINION, THOUGH THEY DID NOT
-      WORSHIP HIM. FINALLY, HE EXPLAINS WHAT IS TO BE ACCOUNTED THE
-      TRUE HAPPINESS OF THE CHRISTIAN EMPERORS.
+**Argument.**[183] AUGUSTINE FIRST DISCUSSES THE DOCTRINE OF FATE, FOR THE SAKE OF CONFUTING THOSE WHO ARE DISPOSED TO REFER TO FATE THE POWER AND INCREASE OF THE ROMAN EMPIRE, WHICH COULD NOT BE ATTRIBUTED TO FALSE GODS, AS HAS BEEN SHOWN IN THE PRECEDING BOOK. AFTER THAT, HE PROVES THAT THERE IS NO CONTRADICTION BETWEEN GOD'S PRESCIENCE AND OUR FREE WILL. HE THEN SPEAKS OF THE MANNERS OF THE ANCIENT ROMANS, AND SHOWS IN WHAT SENSE IT WAS DUE TO THE VIRTUE OF THE ROMANS THEMSELVES, AND IN HOW FAR TO THE COUNSEL OF GOD, THAT HE INCREASED THEIR DOMINION, THOUGH THEY DID NOT WORSHIP HIM. FINALLY, HE EXPLAINS WHAT IS TO BE ACCOUNTED THE TRUE HAPPINESS OF THE CHRISTIAN EMPERORS.
 
 
-                               PREFACE.
+PREFACE.
 
 Since, then, it is established that the complete attainment of all we
 desire is that which constitutes felicity, which is no goddess, but a
@@ -7472,8 +7318,8 @@ they worshipped, we have both already adduced, and shall, as occasion
 offers, yet adduce considerable proof.
 
 
-    1. _That the cause of the Roman empire, and of all kingdoms, is
-   neither fortuitous nor consists in the position of the stars._[184]
+## 1. That the cause of the Roman empire, and of all kingdoms, is neither fortuitous nor consists in the position of the stars.[184]
+
 
 The cause, then, of the greatness of the Roman empire is neither
 fortuitous nor fatal, according to the judgment or opinion of those
@@ -7538,7 +7384,8 @@ the smallest interval of time, but at conception generated by the same
 act of copulation, and at the same moment?
 
 
-            2. _On the difference in the health of twins._
+## 2. On the difference in the health of twins
+
 
 Cicero says that the famous physician Hippocrates has left in writing
 that he had suspected that a certain pair of brothers were twins,
@@ -7594,9 +7441,8 @@ the slowness of the birth of the second give time for a change in the
 horoscope, I demand different parents, which twins can never have.
 
 
-  3. _Concerning the arguments which Nigidius the mathematician drew
-      from the potter's wheel, in the question about the birth of
-      twins._
+## 3. Concerning the arguments which Nigidius the mathematician drew from the potter's wheel, in the question about the birth of twins
+
 
 It is to no purpose, therefore, that that famous fiction about the
 potter's wheel is brought forward, which tells of the answer which
@@ -7634,8 +7480,8 @@ we can point out such manifold diversity both in the habits, doings,
 and destinies of twins?
 
 
-  4. _Concerning the twins Esau and Jacob, who were very unlike each
-              other both in their character and actions._
+## 4. Concerning the twins Esau and Jacob, who were very unlike each other both in their character and actions
+
 
 In the time of the ancient fathers, to speak concerning illustrious
 persons, there were born two twin brothers, the one so immediately
@@ -7667,8 +7513,8 @@ round men who have hearts of clay, in order that they may be prevented
 from detecting the emptiness of the talk of the mathematicians?
 
 
-   5. _In what manner the mathematicians are convicted of professing
-                           a vain science._
+## 5. In what manner the mathematicians are convicted of professing a vain science
+
 
 Do not those very persons whom the medical sagacity of Hippocrates
 led him to suspect to be twins, because their disease was observed
@@ -7753,7 +7599,8 @@ men living in the world change the destinies of birth, when the order
 of birth can change the destinies they had at conception?
 
 
-               6. _Concerning twins of different sexes._
+## 6. Concerning twins of different sexes
+
 
 But even in the very conception of twins, which certainly occurs at
 the same moment in the case of both, it often happens that the one is
@@ -7801,8 +7648,8 @@ she should be separated from him by the great distance between marriage
 and holy virginity?
 
 
-  7. _Concerning the choosing of a day for marriage, or for planting,
-                              or sowing._
+## 7. Concerning the choosing of a day for marriage, or for planting, or sowing
+
 
 Now, will any one bring forward this, that in choosing certain
 particular days for particular actions, men bring about certain new
@@ -7871,9 +7718,8 @@ the stars, and not to their marking and inspecting of horoscopes,
 according to some kind of art which in reality has no existence.
 
 
-  8. _Concerning those who call by the name of fate, not the
-      position of the stars, but the connection of causes which
-      depends on the will of God._
+## 8. Concerning those who call by the name of fate, not the position of the stars, but the connection of causes which depends on the will of God
+
 
 But, as to those who call by the name of fate, not the disposition of
 the stars as it may exist when any creature is conceived, or born,
@@ -7889,18 +7735,18 @@ of God most high, whose power extends itself irresistibly through all
 things which they call fate, is proved by the following verses, of
 which, if I mistake not, Annæus Seneca is the author:--
 
-          "Father supreme, Thou ruler of the lofty heavens,
-           Lead me where'er it is Thy pleasure; I will give
-           A prompt obedience, making no delay,
-           Lo! here I am. Promptly I come to do Thy sovereign will;
-           If Thy command shall thwart my inclination, I will still
-           Follow Thee groaning, and the work assigned,
-           With all the suffering of a mind repugnant,
-           Will perform, being evil; which, had I been good,
-           I should have undertaken and performed, though hard,
-           With virtuous cheerfulness.
-           The Fates do lead the man that follows willing;
-           But the man that is unwilling, him they drag."[187]
+"Father supreme, Thou ruler of the lofty heavens,\
+Lead me where'er it is Thy pleasure; I will give\
+A prompt obedience, making no delay,\
+Lo! here I am. Promptly I come to do Thy sovereign will;\
+If Thy command shall thwart my inclination, I will still\
+Follow Thee groaning, and the work assigned,\
+With all the suffering of a mind repugnant,\
+Will perform, being evil; which, had I been good,\
+I should have undertaken and performed, though hard,\
+With virtuous cheerfulness.\
+The Fates do lead the man that follows willing;\
+But the man that is unwilling, him they drag."[187]
 
 Most evidently, in this last verse, he calls that "fate" which he had
 before called "the will of the Father supreme," whom, he says, he is
@@ -7911,9 +7757,9 @@ the man that is unwilling, him they drag."
 The following Homeric lines, which Cicero translates into Latin, also
 favour this opinion:--
 
-          "Such are the minds of men, as is the light
-           Which Father Jove himself doth pour
-           Illustrious o'er the fruitful earth."[188]
+"Such are the minds of men, as is the light\
+Which Father Jove himself doth pour\
+Illustrious o'er the fruitful earth."[188]
 
 Not that Cicero wishes that a poetical sentiment should have any
 weight in a question like this; for when he says that the Stoics, when
@@ -7926,8 +7772,8 @@ since they call by the name of Jupiter him whom they reckon the supreme
 god, from whom, they say, hangs the whole chain of fates.
 
 
-   9. _Concerning the foreknowledge of God and the free will of man,
-              in opposition to the definition of Cicero._
+## 9. Concerning the foreknowledge of God and the free will of man, in opposition to the definition of Cicero
+
 
 The manner in which Cicero addresses himself to the task of
 refuting the Stoics, shows that he did not think he could effect
@@ -8114,7 +7960,8 @@ of causes, which, by an unusual application of the word peculiar to
 themselves, the Stoics call _Fate_.
 
 
-            10. _Whether our wills are ruled by necessity._
+## 10. Whether our wills are ruled by necessity
+
 
 Wherefore, neither is that necessity to be feared, for dread of which
 the Stoics laboured to make such distinctions among the causes of
@@ -8188,8 +8035,8 @@ if he wills not, sins not. But if he shall not will to sin, even this
 did God foreknow.
 
 
-    11. _Concerning the universal providence of God in the laws of
-                  which all things are comprehended._
+## 11. Concerning the universal providence of God in the laws of which all things are comprehended
+
 
 Therefore God supreme and true, with His Word and Holy Spirit (which
 three are one), one God omnipotent, creator and maker of every soul and
@@ -8216,8 +8063,8 @@ never be believed to have left the kingdoms of men, their dominations
 and servitudes, outside of the laws of His providence.
 
 
-  12. _By what virtues the ancient Romans merited that the true God,
-   although they did not worship Him, should enlarge their empire._
+## 12. By what virtues the ancient Romans merited that the true God, although they did not worship Him, should enlarge their empire
+
 
 Wherefore let us go on to consider what virtues of the Romans they
 were which the true God, in whose power are also the kingdoms of the
@@ -8273,10 +8120,10 @@ domination and through the desire of praise and glory, they achieved
 many great things; and their most eminent poet testifies to their
 having been prompted by all these motives:
 
-          "Porsenna there, with pride elate,
-           Bids Rome to Tarquin ope her gate;
-           With arms he hems the city in,
-           Æneas' sons stand firm to win."[195]
+"Porsenna there, with pride elate,\
+Bids Rome to Tarquin ope her gate;\
+With arms he hems the city in,\
+Æneas' sons stand firm to win."[195]
 
 At that time it was their greatest ambition either to die bravely
 or to live free; but when liberty was obtained, so great a desire
@@ -8284,17 +8131,17 @@ of glory took possession of them, that liberty alone was not enough
 unless domination also should be sought, their great ambition being
 that which the same poet puts into the mouth of Jupiter:
 
-          "Nay, Juno's self, whose wild alarms
-           Set ocean, earth, and heaven in arms,
-           Shall change for smiles her moody frown,
-           And vie with me in zeal to crown
-           Rome's sons, the nation of the gown.
-           So stands my will. There comes a day,
-           While Rome's great ages hold their way,
-           When old Assaracus's sons
-           Shall quit them on the myrmidons,
-           O'er Phthia and Mycenæ reign,
-           And humble Argos to their chain."[196]
+"Nay, Juno's self, whose wild alarms\
+Set ocean, earth, and heaven in arms,\
+Shall change for smiles her moody frown,\
+And vie with me in zeal to crown\
+Rome's sons, the nation of the gown.\
+So stands my will. There comes a day,\
+While Rome's great ages hold their way,\
+When old Assaracus's sons\
+Shall quit them on the myrmidons,\
+O'er Phthia and Mycenæ reign,\
+And humble Argos to their chain."[196]
 
 Which things, indeed, Virgil makes Jupiter predict as future, whilst,
 in reality, he was only himself passing in review in his own mind
@@ -8307,16 +8154,16 @@ preferring to the arts of other nations those arts which peculiarly
 belong to the Romans, namely, the arts of ruling and commanding, and
 of subjugating and vanquishing nations, says,
 
-          "Others, belike, with happier grace,
-           From bronze or stone shall call the face,
-           Plead doubtful causes, map the skies,
-           And tell when planets set or rise;
-           But Roman thou, do thou control
-                 The nations far and wide;
-           Be this thy genius, to impose
-           The rule of peace on vanquished foes,
-           Show pity to the humbled soul,
-                 And crush the sons of pride."[197]
+"Others, belike, with happier grace,\
+From bronze or stone shall call the face,\
+Plead doubtful causes, map the skies,\
+And tell when planets set or rise;\
+But Roman thou, do thou control\
+The nations far and wide;\
+Be this thy genius, to impose\
+The rule of peace on vanquished foes,\
+Show pity to the humbled soul,\
+And crush the sons of pride."[197]
 
 These arts they exercised with the more skill the less they gave
 themselves up to pleasures, and to enervation of body and mind in
@@ -8428,8 +8275,8 @@ corruption of morals, he reverses the expression, and says, "Poverty
 in the state, riches at home."
 
 
-  13. _Concerning the love of praise, which, though it is a vice, is
-     reckoned a virtue, because by it greater vice is restrained._
+## 13. Concerning the love of praise, which, though it is a vice, is reckoned a virtue, because by it greater vice is restrained
+
 
 Wherefore, when the kingdoms of the East had been illustrious for
 a long time, it pleased God that there should also arise a Western
@@ -8444,16 +8291,16 @@ this one vice, namely, the love of praise. For he has the soundest
 perception who recognises that even the love of praise is a vice; nor
 has this escaped the perception of the poet Horace, who says,
 
-          "You're bloated by ambition? take advice:
-           Yon book will ease you if you read it thrice."[203]
+"You're bloated by ambition? take advice:\
+Yon book will ease you if you read it thrice."[203]
 
 And the same poet, in a lyric song, hath thus spoken with the desire
 of repressing the passion for domination:
 
-          "Rule an ambitious spirit, and thou hast
-           A wider kingdom than if thou shouldst join
-           To distant Gades Lybia, and thus
-           Shouldst hold in service either Carthaginian."[204]
+"Rule an ambitious spirit, and thou hast\
+A wider kingdom than if thou shouldst join\
+To distant Gades Lybia, and thus\
+Shouldst hold in service either Carthaginian."[204]
 
 Nevertheless, they who restrain baser lusts, not by the power of
 the Holy Spirit obtained by the faith of piety, or by the love
@@ -8473,13 +8320,13 @@ speaking of those studies which are to be pursued with a view to the
 _true good_, and not with the vainglorious desire of human praise, he
 introduces the following universal and general statement:
 
- "Honour nourishes the arts, and all are stimulated to the
- prosecution of studies by glory; and those pursuits are always
- neglected which are generally discredited."[205]
+"Honour nourishes the arts, and all are stimulated to the
+prosecution of studies by glory; and those pursuits are always
+neglected which are generally discredited."[205]
 
 
-     14. _Concerning the eradication of the love of human praise,
-          because all the glory of the righteous is in God._
+## 14. Concerning the eradication of the love of human praise, because all the glory of the righteous is in God
+
 
 It is, therefore, doubtless far better to resist this desire than to
 yield to it, for the purer one is from this defilement, the liker
@@ -8538,8 +8385,8 @@ by the dying,--what else but glory should they love, by which they
 wished even after death to live in the mouths of their admirers?
 
 
-     15. _Concerning the temporal reward which God granted to the
-                        virtues of the Romans._
+## 15. Concerning the temporal reward which God granted to the virtues of the Romans
+
 
 Now, therefore, with regard to those to whom God did not purpose to
 give eternal life with His holy angels in His own celestial city,
@@ -8563,8 +8410,8 @@ There is no reason why they should complain against the justice of
 the supreme and true God,--"they have received their reward."
 
 
-   16. _Concerning the reward of the holy citizens of the celestial
-  city, to whom the example of the virtues of the Roman are useful._
+## 16. Concerning the reward of the holy citizens of the celestial city, to whom the example of the virtues of the Roman are useful
+
 
 But the reward of the saints is far different, who even here endured
 reproaches for that city of God which is hateful to the lovers of
@@ -8584,8 +8431,8 @@ account of life eternal, if the terrestrial country was so much
 beloved by its citizens on account of human glory.
 
 
-   17. _To what profit the Romans carried on wars, and how much they
-     contributed to the well-being of those whom they conquered._
+## 17. To what profit the Romans carried on wars, and how much they contributed to the well-being of those whom they conquered
+
 
 For, as far as this life of mortals is concerned, which is spent
 and ended in a few days, what does it matter under whose government
@@ -8643,9 +8490,8 @@ Romulus, whither escape from the punishment of all manner of crimes
 congregated that multitude with which the state was to be founded.
 
 
-  18. _How far Christians ought to be from boasting, if they have done
-      anything for the love of the eternal country, when the Romans did
-      such great things for human glory and a terrestrial city._
+## 18. How far Christians ought to be from boasting, if they have done anything for the love of the eternal country, when the Romans did such great things for human glory and a terrestrial city
+
 
 What great thing, therefore, is it for that eternal and celestial
 city to despise all the charms of this world, however pleasant, if
@@ -8664,14 +8510,14 @@ happy, who is the true riches of minds. But of Brutus, even the poet
 who celebrates his praises testifies that it was the occasion of
 unhappiness to him that he slew his son, for he says,
 
-          "And call his own rebellious seed
-           For menaced liberty to bleed.
-           Unhappy father! howsoe'er
-           The deed be judged by after days."[213]
+"And call his own rebellious seed\
+For menaced liberty to bleed.\
+Unhappy father! howsoe'er\
+The deed be judged by after days."[213]
 
 But in the following verse he consoles him in his unhappiness, saying,
 
-          "His country's love shall all o'erbear."
+"His country's love shall all o'erbear."
 
 There are those two things, namely, liberty and the desire of human
 praise, which compelled the Romans to admirable deeds. If, therefore,
@@ -8829,8 +8675,8 @@ in their great depravity, slew and rejected the giver of true glory,
 and of the eternal city.
 
 
-   19. _Concerning the difference between true glory and the desire
-                            of domination._
+## 19. Concerning the difference between true glory and the desire of domination
+
 
 There is assuredly a difference between the desire of human glory
 and the desire of domination; for, though he who has an overweening
@@ -8884,8 +8730,8 @@ may not be thought that by "tyrants" is meant, not wicked and impious
 kings, but brave men, in accordance with the ancient use of the word,
 as when Virgil says,
 
-          "For know that treaty may not stand
-           Where king greets king and joins not hand,"[219]
+"For know that treaty may not stand\
+Where king greets king and joins not hand,"[219]
 
 in another place it is most unambiguously said of God, that He
 "maketh the man who is an hypocrite to reign on account of the
@@ -8917,8 +8763,8 @@ of the virtue of the saints, whose hope is placed in the grace and
 mercy of the true God.
 
 
-   20. _That it is as shameful for the virtues to serve human glory
-                         as bodily pleasure._
+## 20. That it is as shameful for the virtues to serve human glory as bodily pleasure
+
 
 Philosophers,--who place the end of human good in virtue itself, in
 order to put to shame certain other philosophers, who indeed approve
@@ -8970,8 +8816,8 @@ giving thanks for what in him is healed, and pouring out prayers for
 the healing of that which is yet unhealed.
 
 
-   21. _That the Roman dominion was granted by Him from whom is all
-         power, and by whose providence all things are ruled._
+## 21. That the Roman dominion was granted by Him from whom is all power, and by whose providence all things are ruled
+
 
 These things being so, we do not attribute the power of giving kingdoms
 and empires to any save to the true God, who gives happiness in the
@@ -9017,7 +8863,8 @@ Manifestly these things are ruled and governed by the one God according
 as He pleases; and if His motives are hid, are they therefore unjust?
 
 
-   22. _The durations and issues of war depend on the will of God._
+## 22. The durations and issues of war depend on the will of God
+
 
 Thus also the durations of wars are determined by Him as He may see
 meet, according to His righteous will, and pleasure, and mercy, to
@@ -9064,9 +8911,8 @@ sometimes confess what they do not like to own, and not, by madly
 speaking against God, destroy themselves and deceive the ignorant.
 
 
-  23. _Concerning the war in which Radagaisus, king of the Goths, a
-      worshipper of demons, was conquered in one day, with all his
-      mighty forces._
+## 23. Concerning the war in which Radagaisus, king of the Goths, a worshipper of demons, was conquered in one day, with all his mighty forces
+
 
 Nevertheless they do not mention with thanksgiving what God has very
 recently, and within our own memory, wonderfully and mercifully done,
@@ -9120,8 +8966,8 @@ the urgencies of the present time, but may be more clung to in most
 confident expectation of eternal life.
 
 
-  24. _What was the happiness of the Christian emperors, and how far
-                        it was true happiness._
+## 24. What was the happiness of the Christian emperors, and how far it was true happiness
+
 
 For neither do we say that certain Christian emperors were therefore
 happy because they ruled a long time, or, dying a peaceful death,
@@ -9157,8 +9003,8 @@ and are destined to be so in the enjoyment of the reality itself,
 when that which we wait for shall have arrived.
 
 
-   25. _Concerning the prosperity which God granted to the Christian
-                         emperor Constantine._
+## 25. Concerning the prosperity which God granted to the Christian emperor Constantine
+
 
 For the good God, lest men, who believe that He is to be worshipped
 with a view to eternal life, should think that no one could attain
@@ -9188,7 +9034,8 @@ little brother of his own, being more desirous of a faithful alliance
 than of extensive power.
 
 
-         26. _On the faith and piety of Theodosius Augustus._
+## 26. On the faith and piety of Theodosius Augustus
+
 
 And on this account, Theodosius not only preserved during the
 lifetime of Gratian that fidelity which was due to him, but also,
@@ -9306,7 +9153,9 @@ way of free consultation with them, and be listening, as it becomes
 him, honourably, gravely, candidly, to all that can be adduced by
 those whom he consults by friendly disputation.
 
-FOOTNOTES:
+
+## Footnotes to Book V
+
 
 [183] Written in the year 415.
 
@@ -9400,26 +9249,13 @@ _consulere_, and thus signifies a more benign rule than that of a rex
 [225] _Tusc. Quaest._ v. 19.
 
 
+# Book VI
 
 
-                              BOOK SIXTH.
-
-                               ARGUMENT.
-
-  HITHERTO THE ARGUMENT HAS BEEN CONDUCTED AGAINST THOSE WHO BELIEVE
-      THAT THE GODS ARE TO BE WORSHIPPED FOR THE SAKE OF TEMPORAL
-      ADVANTAGES, NOW IT IS DIRECTED AGAINST THOSE WHO BELIEVE THAT
-      THEY ARE TO BE WORSHIPPED FOR THE SAKE OF ETERNAL LIFE. AUGUSTINE
-      DEVOTES THE FIVE FOLLOWING BOOKS TO THE CONFUTATION OF THIS
-      LATTER BELIEF, AND FIRST OF ALL SHOWS HOW MEAN AN OPINION OF
-      THE GODS WAS HELD BY VARRO HIMSELF, THE MOST ESTEEMED WRITER
-      ON HEATHEN THEOLOGY. OF THIS THEOLOGY AUGUSTINE ADOPTS VARRO'S
-      DIVISION INTO THREE KINDS, MYTHICAL, NATURAL, AND CIVIL; AND AT
-      ONCE DEMONSTRATES THAT NEITHER THE MYTHICAL NOR THE CIVIL CAN
-      CONTRIBUTE ANYTHING TO THE HAPPINESS OF THE FUTURE LIFE.
+**Argument.** HITHERTO THE ARGUMENT HAS BEEN CONDUCTED AGAINST THOSE WHO BELIEVE THAT THE GODS ARE TO BE WORSHIPPED FOR THE SAKE OF TEMPORAL ADVANTAGES, NOW IT IS DIRECTED AGAINST THOSE WHO BELIEVE THAT THEY ARE TO BE WORSHIPPED FOR THE SAKE OF ETERNAL LIFE. AUGUSTINE DEVOTES THE FIVE FOLLOWING BOOKS TO THE CONFUTATION OF THIS LATTER BELIEF, AND FIRST OF ALL SHOWS HOW MEAN AN OPINION OF THE GODS WAS HELD BY VARRO HIMSELF, THE MOST ESTEEMED WRITER ON HEATHEN THEOLOGY. OF THIS THEOLOGY AUGUSTINE ADOPTS VARRO'S DIVISION INTO THREE KINDS, MYTHICAL, NATURAL, AND CIVIL; AND AT ONCE DEMONSTRATES THAT NEITHER THE MYTHICAL NOR THE CIVIL CAN CONTRIBUTE ANYTHING TO THE HAPPINESS OF THE FUTURE LIFE.
 
 
-                               PREFACE.
+PREFACE.
 
 In the five former books, I think I have sufficiently disputed
 against those who believe that the many false gods, which the
@@ -9452,8 +9288,8 @@ is devoid of right reflection and reason, and full of most light
 temerity, and most pernicious animosity.
 
 
-   1. _Of those who maintain that they worship the gods not for the
-              sake of temporal, but eternal advantages._
+## 1. Of those who maintain that they worship the gods not for the sake of temporal, but eternal advantages
+
 
 Now, as, in the next place (as the promised order demands), those are
 to be refuted and taught who contend that the gods of the nations,
@@ -9577,10 +9413,8 @@ sit idle; for they had supposed the existence of an exceedingly great
 number.
 
 
-  2. _What we are to believe that Varro thought concerning the gods
-      of the nations, whose various kinds and sacred rites he has
-      shown to be such that he would have acted more reverently
-      towards them had he been altogether silent concerning them._
+## 2. What we are to believe that Varro thought concerning the gods of the nations, whose various kinds and sacred rites he has shown to be such that he would have acted more reverently towards them had he been altogether silent concerning them
+
 
 Who has investigated those things more carefully than Marcus Varro?
 Who has discovered them more learnedly? Who has considered them more
@@ -9615,7 +9449,7 @@ names, kinds, offices, causes of all divine and human things."[231]
 This man, then, of so distinguished and excellent acquirements, and,
 as Terentian briefly says of him in a most elegant verse,
 
-          "Varro, a man universally informed,"[232]
+"Varro, a man universally informed,"[232]
 
 who read so much that we wonder when he had time to write, wrote so
 much that we can scarcely believe any one could have read it all,--this
@@ -9641,8 +9475,8 @@ state, and, not being able to be silent about those things by which he
 was influenced, spoke of them under pretence of commending religion?
 
 
-   3. _Varro's distribution of his book which he composed concerning
-             the antiquities of human and divine things._
+## 3. Varro's distribution of his book which he composed concerning the antiquities of human and divine things
+
 
 He wrote forty-one books of antiquities. These he divided into human
 and divine things. Twenty-five he devoted to human things, sixteen
@@ -9688,9 +9522,8 @@ expended. In the first book are the certain gods, in the second the
 uncertain, in the third, and last of all, the chief and select gods.
 
 
-  4. _That from the disputation of Varro, it follows that the
-      worshippers of the gods regard human things as more ancient
-      than divine things._
+## 4. That from the disputation of Varro, it follows that the worshippers of the gods regard human things as more ancient than divine things
+
 
 In this whole series of most beautiful and most subtle distributions
 and distinctions, it will most easily appear evident from the things
@@ -9776,8 +9609,8 @@ order of nature; but as he had only found an old one, he could not
 but follow its custom.
 
 
-    5. _Concerning the three kinds of theology according to Varro,
-      namely, one fabulous, the other natural, the third civil._
+## 5. Concerning the three kinds of theology according to Varro, namely, one fabulous, the other natural, the third civil
+
 
 Now what are we to say of this proposition of his, namely, that there
 are three kinds of theology, that is, of the account which is given
@@ -9864,8 +9697,8 @@ scenic plays belong but to those divine things concerning which these
 books of Varro's are written with so much ability?
 
 
-    6. _Concerning the mythic, that is, the fabulous, theology, and
-                      the civil, against Varro._
+## 6. Concerning the mythic, that is, the fabulous, theology, and the civil, against Varro
+
 
 O Marcus Varro! thou art the most acute, and without doubt the most
 learned, but still a man, not God,--now lifted up by the Spirit of
@@ -9960,8 +9793,8 @@ utility; nevertheless they write such things as the gods will desire,
 and the people perform.
 
 
-     7. _Concerning the likeness and agreement of the fabulous and
-                          civil theologies._
+## 7. Concerning the likeness and agreement of the fabulous and civil theologies
+
 
 That theology, therefore, which is fabulous, theatrical, scenic,
 and full of all baseness and unseemliness, is taken up into the
@@ -10073,9 +9906,8 @@ for the performance of which holiness has chosen such men as not even
 the obscenity of the stage has admitted?
 
 
-  8. _Concerning the interpretations, consisting of natural
-      explanations, which the pagan teachers attempt to show for
-      their gods._
+## 8. Concerning the interpretations, consisting of natural explanations, which the pagan teachers attempt to show for their gods
+
 
 But all these things, they say, have certain physical, that is,
 natural interpretations, showing their natural meaning; as though
@@ -10146,7 +9978,8 @@ advantage of some occasion or other, have stolen into the minds of
 men to deceive them?
 
 
-           9. _Concerning the special offices of the gods._
+## 9. Concerning the special offices of the gods
+
 
 And as to those very offices of the gods, so meanly and so minutely
 portioned out, so that they say that they ought to be supplicated,
@@ -10300,8 +10133,8 @@ concerning this in its own place, by the help of the true God, we
 have to discuss more diligently.
 
 
-      10. _Concerning the liberty of Seneca, who more vehemently
-       censured the civil theology than Varro did the fabulous._
+## 10. Concerning the liberty of Seneca, who more vehemently censured the civil theology than Varro did the fabulous
+
 
 That liberty, in truth, which this man wanted, so that he did not
 dare to censure that theology of the city, which is very similar
@@ -10415,7 +10248,8 @@ acting sincerely. But a stage-actor would rather delight people by
 acting plays than take them in by false pretences.
 
 
-            11. _What Seneca thought concerning the Jews._
+## 11. What Seneca thought concerning the Jews
+
 
 Seneca, among the other superstitions of civil theology, also
 found fault with the sacred things of the Jews, and especially the
@@ -10445,10 +10279,8 @@ elsewhere, especially when we were treating against the Manichæans,
 and also intend to speak in this work in a more suitable place.
 
 
-  12. _That when once the vanity of the gods of the nations has been
-      exposed, it cannot be doubted that they are unable to bestow
-      eternal life on any one, when they cannot afford help even with
-      respect to the things of this temporal life._
+## 12. That when once the vanity of the gods of the nations has been exposed, it cannot be doubted that they are unable to bestow eternal life on any one, when they cannot afford help even with respect to the things of this temporal life
+
 
 Now, since there are three theologies, which the Greeks call
 respectively mythical, physical, and political, and which may be
@@ -10490,7 +10322,9 @@ thinks that I have not disputed sufficiently to show that this civil
 theology ought to be rejected and shunned, let him attend to another
 book which, with God's help, is to be joined to this one.
 
-FOOTNOTES:
+
+## Footnotes to Book VI
+
 
 [226] Ps. xl. 4.
 
@@ -10539,18 +10373,13 @@ another translation is admissible: "One is announcing to a god the
 names (or gods) who salute him."
 
 
+# Book VII
 
 
-                             BOOK SEVENTH.
-
-                               ARGUMENT.
-
-  IN THIS BOOK IT IS SHOWN THAT ETERNAL LIFE IS NOT OBTAINED BY THE
-      WORSHIP OF JANUS, JUPITER, SATURN, AND THE OTHER "SELECT GODS"
-      OF THE CIVIL THEOLOGY.
+**Argument.** IN THIS BOOK IT IS SHOWN THAT ETERNAL LIFE IS NOT OBTAINED BY THE WORSHIP OF JANUS, JUPITER, SATURN, AND THE OTHER "SELECT GODS" OF THE CIVIL THEOLOGY.
 
 
-                               PREFACE.
+PREFACE.
 
 It will be the duty of those who are endowed with quicker and better
 understandings, in whose case the former books are sufficient, and
@@ -10571,9 +10400,8 @@ blessed, although the help necessary for this frail life we are now
 living is also afforded us by it.
 
 
-  1. _Whether, since it is evident that Deity is not to be found in
-      the civil theology, we are to believe that it is to be found in
-      the select gods._
+## 1. Whether, since it is evident that Deity is not to be found in the civil theology, we are to believe that it is to be found in the select gods
+
 
 If there is any one whom the sixth book, which I have last finished,
 has not persuaded that this divinity, or, so to speak, deity--for
@@ -10611,8 +10439,8 @@ spurned. We ought rather to seek to know what gods these are, and for
 what purpose they may appear to have been selected.
 
 
-     2. _Who are the select gods, and whether they are held to be
-            exempt from the offices of the commoner gods._
+## 2. Who are the select gods, and whether they are held to be exempt from the offices of the commoner gods
+
 
 The following gods, certainly, Varro signalizes as select, devoting
 one book to this subject: Janus, Jupiter, Saturn, Genius, Mercury,
@@ -10647,9 +10475,8 @@ sensation, what is the whole fœtus which a woman carries in her womb,
 but a most vile and worthless thing, no better than slime and dust?
 
 
-  3. _How there is no reason which can be shown for the selection of
-      certain gods, when the administration of more exalted offices
-      is assigned to many inferior gods._
+## 3. How there is no reason which can be shown for the selection of certain gods, when the administration of more exalted offices is assigned to many inferior gods
+
 
 What is the cause, therefore, which has driven so many select gods
 to these very small works, in which they are excelled by Vitumnus
@@ -10785,9 +10612,8 @@ has had an adverse fortune? She was adverse, then, to herself, since,
 whilst ennobling others, she herself has remained obscure.
 
 
-  4. _The inferior gods, whose names are not associated with infamy,
-      have been better dealt with than the select gods, whose
-      infamies are celebrated._
+## 4. The inferior gods, whose names are not associated with infamy, have been better dealt with than the select gods, whose infamies are celebrated
+
 
 However, any one who eagerly seeks for celebrity and renown, might
 congratulate those select gods, and call them fortunate, were it not
@@ -10826,8 +10652,8 @@ perpetration of shameful crimes, his greater innocence should be
 marked by a greater number of faces?[258]
 
 
-      5. _Concerning the more secret doctrine of the pagans, and
-               concerning the physical interpretations._
+## 5. Concerning the more secret doctrine of the pagans, and concerning the physical interpretations
+
 
 But let us hear their own physical interpretations by which they
 attempt to colour, as with the appearance of profounder doctrine,
@@ -10891,9 +10717,8 @@ have with such diligence sought out and enucleated, some of which I
 must necessarily mention!
 
 
-  6. _Concerning the opinion of Varro, that God is the soul of the
-      world, which nevertheless, in its various parts, has many souls
-      whose nature is divine._
+## 6. Concerning the opinion of Varro, that God is the soul of the world, which nevertheless, in its various parts, has many souls whose nature is divine
+
 
 The same Varro, then, still speaking by anticipation, says that he
 thinks that God is the soul of the world (which the Greeks call
@@ -10921,8 +10746,8 @@ completed what I have yet to say concerning the civil theology, as far
 as it concerns the select gods.
 
 
-    7. _Whether it is reasonable to separate Janus and Terminus as
-                        two distinct deities._
+## 7. Whether it is reasonable to separate Janus and Terminus as two distinct deities
+
 
 Who, then, is Janus, with whom Varro commences? He is the world.
 Certainly a very brief and unambiguous reply. Why, then, do they
@@ -10962,9 +10787,8 @@ fixes his mind on, expects, desires; nor does any one ever rejoice
 over anything he has begun, unless it be brought to an end.
 
 
-  8. _For what reason the worshippers of Janus have made his image
-      with two faces, when they would sometimes have it be seen with
-      four._
+## 8. For what reason the worshippers of Janus have made his image with two faces, when they would sometimes have it be seen with four
+
 
 But now let the interpretation of the two-faced image be produced.
 For they say that it has two faces, one before and one behind,
@@ -11002,15 +10826,15 @@ with all the doors, no soul escapes this vanity but that one which
 hears the truth saying, "I am the door."[262]
 
 
-   9. _Concerning the power of Jupiter, and a comparison of Jupiter
-                             with Janus._
+## 9. Concerning the power of Jupiter, and a comparison of Jupiter with Janus
+
 
 But they also show whom they would have Jove (who is also called
 Jupiter) understood to be. He is the god, say they, who has the power
 of the causes by which anything comes to be in the world. And how
 great a thing this is, that most noble verse of Virgil testifies:
 
-          "Happy is he who has learned the causes of things."[263]
+"Happy is he who has learned the causes of things."[263]
 
 But why is Janus preferred to him? Let that most acute and most
 learned man answer us this question. "Because," says he, "Janus
@@ -11077,8 +10901,8 @@ the same Varro expounds certain verses of Valerius Soranus[266] in
 that book which he wrote apart from the others concerning the worship
 of the gods. These are the verses:
 
-          "Almighty Jove, progenitor of kings, and things, and gods,
-           And eke the mother of the gods, god one and all."
+"Almighty Jove, progenitor of kings, and things, and gods,\
+And eke the mother of the gods, god one and all."
 
 But in the same book he expounds these verses by saying that as the
 male emits seed, and the female receives it, so Jupiter, whom they
@@ -11089,8 +10913,8 @@ and all were the same. For the world is one, and in that one are all
 things.
 
 
-  10. _Whether the distinction between Janus and Jupiter is a proper
-                                 one._
+## 10. Whether the distinction between Janus and Jupiter is a proper one
+
 
 Since, therefore, Janus is the world, and Jupiter is the world,
 wherefore are Janus and Jupiter two gods, while the world is but one?
@@ -11109,8 +10933,8 @@ for the things from which these surnames are applied to him are many
 and diverse. I shall mention a few of them.
 
 
-  11. _Concerning the surnames of Jupiter, which are referred not to
-               many gods, but to one and the same god._
+## 11. Concerning the surnames of Jupiter, which are referred not to many gods, but to one and the same god
+
 
 They have called him Victor, Invictus, Opitulus, Impulsor, Stator,
 Centumpeda, Supinalis, Tigillus, Almus, Ruminus, and other names
@@ -11138,8 +10962,8 @@ help and to serve her in this work; for I think it may be replied
 that Juno herself is nothing else than Jupiter, according to those
 verses of Valerius Soranus, where it has been said:
 
-          "Almighty Jove, progenitor of kings, and things, and gods,
-           And eke the mother of the gods," etc.
+"Almighty Jove, progenitor of kings, and things, and gods,\
+And eke the mother of the gods," etc.
 
 Why, then, was he called Ruminus, when they who may perchance inquire
 more diligently may find that he is also that goddess Rumina?
@@ -11162,7 +10986,8 @@ money [_pecuniam_], why has he not been called both Pecunius and
 Pecunia? That is their concern.
 
 
-              12. _That Jupiter is also called Pecunia._
+## 12. That Jupiter is also called Pecunia
+
 
 How elegantly they have accounted for this name! "He is also called
 Pecunia," say they, "because all things belong to him." Oh how grand an
@@ -11195,8 +11020,8 @@ called by them, not money, but wisdom, the love of which purges from
 the filth of avarice, that is, of the love of money!
 
 
-   13. _That when it is expounded what Saturn is, what Genius is, it
-      comes to this, that both of them are shown to be Jupiter._
+## 13. That when it is expounded what Saturn is, what Genius is, it comes to this, that both of them are shown to be Jupiter
+
 
 But why speak more of this Jupiter, with whom perchance all the
 rest are to be identified; so that, he being all, the opinion as to
@@ -11217,7 +11042,7 @@ is Genius? "He is the god who is set over, and has the power of
 begetting, all things." Who else than the world do they believe to
 have this power, to which it has been said:
 
-          "Almighty Jove, progenitor and mother?"
+"Almighty Jove, progenitor and mother?"
 
 And when in another place he says that Genius is the rational soul of
 every one, and therefore exists separately in each individual, but
@@ -11232,7 +11057,8 @@ special and pre-eminent distinction, whom they call the soul of the
 world, and therefore Jupiter.
 
 
-           14. _Concerning the offices of Mercury and Mars._
+## 14. Concerning the offices of Mercury and Mars
+
 
 But they have not found how to refer Mercury and Mars to any parts
 of the world, and to the works of God which are in the elements;
@@ -11271,8 +11097,9 @@ perpetual peace, Mars would have nothing to do. But if war itself is
 Mars, as speech is Mercury, I wish it were as true that there were no
 war to be falsely called a god, as it is true that it is not a god.
 
-   15. _Concerning certain stars which the pagans have called by the
-                         names of their gods._
+
+## 15. Concerning certain stars which the pagans have called by the names of their gods
+
 
 But possibly these stars which have been called by their names are
 these gods. For they call a certain star Mercury, and likewise a
@@ -11316,8 +11143,8 @@ why have they not reckoned them as gods, I do not say among those
 select gods, but not even among those, as it were, plebeian gods?
 
 
-   16. _Concerning Apollo and Diana, and the other select gods whom
-              they would have to be parts of the world._
+## 16. Concerning Apollo and Diana, and the other select gods whom they would have to be parts of the world
+
 
 Although they would have Apollo to be a diviner and physician, they
 have nevertheless given him a place as some part of the world. They
@@ -11361,8 +11188,8 @@ many gods in this way. The world is both Janus and Jupiter; also the
 earth is Juno, and Mater Magna, and Ceres.
 
 
-  17. _That even Varro himself pronounced his own opinions regarding
-                         the gods ambiguous._
+## 17. That even Varro himself pronounced his own opinions regarding the gods ambiguous
+
 
 And the same is true with respect to all the rest, as is true with
 respect to those things which I have mentioned for the sake of
@@ -11409,7 +11236,8 @@ universal mass of nature is governed and administered by a certain
 invisible and mighty force.
 
 
-        18. _A more credible cause of the rise of pagan error._
+## 18. A more credible cause of the rise of pagan error
+
 
 A far more credible account of these gods is given, when it is said
 that they were men, and that to each one of them sacred rites and
@@ -11431,8 +11259,8 @@ vain fables or deeds of men, even the acutest men are so perplexed
 that we are compelled to grieve for their folly also.
 
 
-    19. _Concerning the interpretations which compose the reason of
-                        the worship of Saturn._
+## 19. Concerning the interpretations which compose the reason of the worship of Saturn
+
 
 They said, says Varro, that Saturn was wont to devour all that
 sprang from him, because seeds returned to the earth from whence
@@ -11489,7 +11317,8 @@ as far as seed is concerned, he says as many things as if he had said
 nothing concerning Saturn.
 
 
-            20. _Concerning the rites of Eleusinian Ceres_.
+## 20. Concerning the rites of Eleusinian Ceres
+
 
 Now among the rites of Ceres, those Eleusinian rites are much famed
 which were in the highest repute among the Athenians, of which Varro
@@ -11509,8 +11338,8 @@ adds, that many things are taught in the mysteries of Ceres which
 only refer to the discovery of fruits.
 
 
-  21. _Concerning the shamefulness of the rites which are celebrated
-                         in honour of Liber_.
+## 21. Concerning the shamefulness of the rites which are celebrated in honour of Liber
+
 
 Now as to the rites of Liber, whom they have set over liquid seeds,
 and therefore not only over the liquors of fruits, among which
@@ -11548,7 +11377,8 @@ rites sacred things, and should abandon itself to be violated and
 polluted by crowds of foul demons.
 
 
-          22. _Concerning Neptune, and Salacia, and Venilia_.
+## 22. Concerning Neptune, and Salacia, and Venilia
+
 
 Now Neptune had Salacia to wife, who they say is the nether waters of
 the sea. Wherefore was Venilia also joined to him? Was it not simply
@@ -11586,10 +11416,8 @@ husband for taking Venilia as a concubine, and thus drove him from
 the upper part of the sea?
 
 
-  23. _Concerning the earth, which Varro affirms to be a goddess,
-      because that soul of the world which he thinks to be God
-      pervades also this lowest part of his body, and imparts to it a
-      divine force._
+## 23. Concerning the earth, which Varro affirms to be a goddess, because that soul of the world which he thinks to be God pervades also this lowest part of his body, and imparts to it a divine force
+
 
 Surely the earth, which we see full of its own living creatures, is
 one; but for all that, it is but a mighty mass among the elements,
@@ -11680,10 +11508,8 @@ they worship Rusor?[280] Because all things return back again to the
 place whence they proceeded.
 
 
-  24. _Concerning the surnames of Tellus and their significations,
-      which, although they indicate many properties, ought not to have
-      established the opinion that there is a corresponding number of
-      gods._
+## 24. Concerning the surnames of Tellus and their significations, which, although they indicate many properties, ought not to have established the opinion that there is a corresponding number of gods
+
 
 The one earth, then, on account of this fourfold virtue, ought to
 have had four surnames, but not to have been considered as four
@@ -11774,8 +11600,8 @@ virginity is taken away; here a man is so mutilated that he is
 neither changed into a woman nor remains a man.
 
 
-      25. _The interpretation of the mutilation of Atys which the
-                doctrine of the Greek sages set forth._
+## 25. The interpretation of the mutilation of Atys which the doctrine of the Greek sages set forth
+
 
 Varro has not spoken of that Atys, nor sought out any interpretation
 for him, in memory of whose being loved by Ceres the Gallus is
@@ -11799,8 +11625,8 @@ opposed this, and has been unwilling to state it; for it certainly was
 not unknown to that most learned man.
 
 
-   26. _Concerning the abomination of the sacred rites of the Great
-                               Mother_.
+## 26. Concerning the abomination of the sacred rites of the Great Mother
+
 
 Concerning the effeminates consecrated to the same Great Mother, in
 defiance of all the modesty which belongs to men and women, Varro has
@@ -11858,9 +11684,8 @@ world as a work of God, and, purified from mundane defilements, comes
 pure[284] to God Himself who founded the world.[285]
 
 
-  27. _Concerning the figments of the physical theologists, who
-      neither worship the true divinity, nor perform the worship
-      wherewith the true divinity should be served._
+## 27. Concerning the figments of the physical theologists, who neither worship the true divinity, nor perform the worship wherewith the true divinity should be served
+
 
 We see that these select gods have, indeed, become more famous than
 the rest; not, however, that their merits may be brought to light,
@@ -11868,9 +11693,9 @@ but that their opprobrious deeds may not be hid. Whence it is more
 credible that they were men, as not only poetic but also historical
 literature has handed down. For this which Virgil says,
 
-          "Then from Olympus' heights came down
-           Good Saturn, exiled from his throne
-           By Jove, his mightier heir;"[286]
+"Then from Olympus' heights came down\
+Good Saturn, exiled from his throne\
+By Jove, his mightier heir;"[286]
 
 and what follows with reference to this affair, is fully related
 by the historian Euhemerus, and has been translated into Latin by
@@ -11922,8 +11747,8 @@ most impure spirits, inviting them to visit senseless images, and
 through these to take possession of stupid hearts.
 
 
-   28. _That the doctrine of Varro concerning theology is in no part
-                       consistent with itself_.
+## 28. That the doctrine of Varro concerning theology is in no part consistent with itself
+
 
 To what purpose, then, is it that this most learned and most acute
 man Varro attempts, as it were, with subtle disputation, to reduce
@@ -11980,9 +11805,8 @@ to do this. Let them rather identify them with dead men and most wicked
 demons, and no further question will remain.
 
 
-  29. _That all things which the physical theologists have referred
-      to the world and its parts, they ought to have referred to the
-      one true God_.
+## 29. That all things which the physical theologists have referred to the world and its parts, they ought to have referred to the one true God
+
 
 For all those things which, according to the account given of those
 gods, are referred to the world by so-called physical interpretation,
@@ -11997,9 +11821,8 @@ life, whether it have life without sensation and reason, or life with
 sensation, or life with both sensation and reason.
 
 
-  30. _How piety distinguishes the Creator from the creatures, so
-      that, instead of one God, there are not worshipped as many gods
-      as there are works of the one author._
+## 30. How piety distinguishes the Creator from the creatures, so that, instead of one God, there are not worshipped as many gods as there are works of the one author
+
 
 And now, to begin to go over those works of the one true God, on
 account of which these have made to themselves many and false gods,
@@ -12049,8 +11872,8 @@ purposes, He does not for all that beatify men by the good inherent
 in the angels, but by Himself, as He does the angels themselves.
 
 
-     31. _What benefits God gives to the followers of the truth to
-               enjoy over and above His general bounty._
+## 31. What benefits God gives to the followers of the truth to enjoy over and above His general bounty
+
 
 For, besides such benefits as, according to this administration
 of nature of which we have made some mention, He lavishes on good
@@ -12072,9 +11895,8 @@ difficulties, come into eternal rest, and the ineffable sweetness of
 the contemplation of Himself?
 
 
-  32. _That at no time in the past was the mystery of Christ's
-      redemption awanting, but was at all times declared, though in
-      various forms._
+## 32. That at no time in the past was the mystery of Christ's redemption awanting, but was at all times declared, though in various forms
+
 
 This mystery of eternal life, even from the beginning of the human
 race, was, by certain signs and sacraments suitable to the times,
@@ -12098,9 +11920,8 @@ fulfilled, or behold in process of fulfilment, or confidently believe
 shall yet be fulfilled.
 
 
-  33. _That only through the Christian religion could the deceit of
-      malign spirits, who rejoice in the errors of men, have been
-      manifested._
+## 33. That only through the Christian religion could the deceit of malign spirits, who rejoice in the errors of men, have been manifested
+
 
 This, the only true religion, has alone been able to manifest that
 the gods of the nations are most impure demons, who desire to be
@@ -12135,9 +11956,8 @@ soothe the feelings shocked by horrible things, by rendering what he
 would have to be natural interpretations.
 
 
-  34. _Concerning the books of Numa Pompilius, which the senate
-      ordered to be burned, in order that the causes of sacred rites
-      therein assigned should not become known._.
+## 34. Concerning the books of Numa Pompilius, which the senate ordered to be burned, in order that the causes of sacred rites therein assigned should not become known
+
 
 But, on the other hand, we find, as the same most learned man has
 related, that the causes of the sacred rites which were given from
@@ -12183,8 +12003,8 @@ arising from ignorance of their causes was more tolerable than the
 disturbance which the knowledge of them would occasion the state.
 
 
-    35. _Concerning the hydromancy through which Numa was befooled
-            by certain images of demons seen in the water._
+## 35. Concerning the hydromancy through which Numa was befooled by certain images of demons seen in the water
+
 
 For Numa himself also, to whom no prophet of God, no holy angel
 was sent, was driven to have recourse to hydromancy, that he might
@@ -12255,7 +12075,9 @@ does not wish to have fellowship with malign demons have no fear for
 the noxious superstition wherewith they are worshipped, but let him
 recognise the true religion by which they are unmasked and vanquished.
 
-FOOTNOTES:
+
+## Footnotes to Book VII
+
 
 [245] Tert. _Apol._ 13, "Nec electio sine reprobatione;" and _Ad
 Nationes_, ii. 9, "Si dei ut bulbi seliguntur, qui non seliguntur,
@@ -12363,30 +12185,14 @@ Augustine, _De discipl. Christ._ 6.
 [290] Egesserit.
 
 
+# Book VIII
 
 
-                             BOOK EIGHTH.
-
-                               ARGUMENT.
-
-  AUGUSTINE COMES NOW TO THE THIRD KIND OF THEOLOGY, THAT IS, THE
-      NATURAL, AND TAKES UP THE QUESTION, WHETHER THE WORSHIP OF THE
-      GODS OF THE NATURAL THEOLOGY IS OF ANY AVAIL TOWARDS SECURING
-      BLESSEDNESS IN THE LIFE TO COME. THIS QUESTION HE PREFERS TO
-      DISCUSS WITH THE PLATONISTS, BECAUSE THE PLATONIC SYSTEM IS
-      "FACILE PRINCEPS" AMONG PHILOSOPHIES, AND MAKES THE NEAREST
-      APPROXIMATION TO CHRISTIAN TRUTH. IN PURSUING THIS ARGUMENT, HE
-      FIRST REFUTES APULEIUS, AND ALL WHO MAINTAIN THAT THE DEMONS
-      SHOULD BE WORSHIPPED AS MESSENGERS AND MEDIATORS BETWEEN GODS
-      AND MEN; DEMONSTRATING THAT BY NO POSSIBILITY CAN MEN BE
-      RECONCILED TO GOOD GODS BY DEMONS, WHO ARE THE SLAVES OF VICE,
-      AND WHO DELIGHT IN AND PATRONIZE WHAT GOOD AND WISE MEN ABHOR
-      AND CONDEMN,--THE BLASPHEMOUS FICTIONS OF POETS, THEATRICAL
-      EXHIBITIONS, AND MAGICAL ARTS.
+**Argument.** AUGUSTINE COMES NOW TO THE THIRD KIND OF THEOLOGY, THAT IS, THE NATURAL, AND TAKES UP THE QUESTION, WHETHER THE WORSHIP OF THE GODS OF THE NATURAL THEOLOGY IS OF ANY AVAIL TOWARDS SECURING BLESSEDNESS IN THE LIFE TO COME. THIS QUESTION HE PREFERS TO DISCUSS WITH THE PLATONISTS, BECAUSE THE PLATONIC SYSTEM IS "FACILE PRINCEPS" AMONG PHILOSOPHIES, AND MAKES THE NEAREST APPROXIMATION TO CHRISTIAN TRUTH. IN PURSUING THIS ARGUMENT, HE FIRST REFUTES APULEIUS, AND ALL WHO MAINTAIN THAT THE DEMONS SHOULD BE WORSHIPPED AS MESSENGERS AND MEDIATORS BETWEEN GODS AND MEN; DEMONSTRATING THAT BY NO POSSIBILITY CAN MEN BE RECONCILED TO GOOD GODS BY DEMONS, WHO ARE THE SLAVES OF VICE, AND WHO DELIGHT IN AND PATRONIZE WHAT GOOD AND WISE MEN ABHOR AND CONDEMN,--THE BLASPHEMOUS FICTIONS OF POETS, THEATRICAL EXHIBITIONS, AND MAGICAL ARTS.
 
 
-   1. _That the question of natural theology is to be discussed with
-        those philosophers who sought a more excellent wisdom_.
+## 1. That the question of natural theology is to be discussed with those philosophers who sought a more excellent wisdom
+
 
 We shall require to apply our mind with far greater intensity to the
 present question than was requisite in the solution and unfolding
@@ -12433,8 +12239,8 @@ beforehand those who preceded him in time in the same department of
 literature.
 
 
-     2. _Concerning the two schools of philosophers, that is, the
-                Italic and Ionic, and their founders._
+## 2. Concerning the two schools of philosophers, that is, the Italic and Ionic, and their founders
+
 
 As far as concerns the literature of the Greeks, whose language holds a
 more illustrious place than any of the languages of the other nations,
@@ -12495,7 +12301,8 @@ disciple of Archelaus; and on Plato's account it is that I have given
 this brief historical sketch of the whole history of these schools.
 
 
-                   3. _Of the Socratic philosophy._
+## 3. Of the Socratic philosophy
+
 
 Socrates is said to have been the first who directed the entire
 effort of philosophy to the correction and regulation of manners, all
@@ -12552,8 +12359,8 @@ Aristippus, others in virtue, as Antisthenes. Indeed, it were tedious
 to recount the various opinions of various disciples.
 
 
-   4. _Concerning Plato, the chief among the disciples of Socrates,
-              and his threefold division of philosophy._
+## 4. Concerning Plato, the chief among the disciples of Socrates, and his threefold division of philosophy
+
 
 But, among the disciples of Socrates, Plato was the one who shone with
 a glory which far excelled that of the others, and who not unjustly
@@ -12622,9 +12429,8 @@ truth becomes certain to us, let Him be loved in whom all becomes right
 to us.
 
 
-  5. _That it is especially with the Platonists that we must carry
-      on our disputations on matters of theology, their opinions
-      being preferable to those of all other philosophers._
+## 5. That it is especially with the Platonists that we must carry on our disputations on matters of theology, their opinions being preferable to those of all other philosophers
+
 
 If, then, Plato defined the wise man as one who imitates, knows,
 loves this God, and who is rendered blessed through fellowship with
@@ -12719,8 +12525,8 @@ which is unchangeable can be changed by nothing, so that that which
 can be changed by the body cannot properly be said to be immutable.
 
 
-     6. _Concerning the meaning of the Platonists in that part of
-                     philosophy called physical._
+## 6. Concerning the meaning of the Platonists in that part of philosophy called physical
+
 
 These philosophers, then, whom we see not undeservedly exalted above
 the rest in fame and glory, have seen that no material body is God,
@@ -12781,8 +12587,8 @@ created.[296] We have said enough upon that part of theology which
 they call physical, that is, natural.
 
 
-     7. _How much the Platonists are to be held as excelling other
-          philosophers in logic_, i.e. _rational philosophy._
+## 7. How much the Platonists are to be held as excelling other philosophers in logic, i.e. rational philosophy
+
 
 Then, again, as far as regards the doctrine which treats of that
 which they call logic, that is, rational philosophy, far be it from
@@ -12807,8 +12613,8 @@ us, they have affirmed to be that selfsame God by whom all things were
 made.
 
 
-    8. _That the Platonists hold the first rank in moral philosophy
-                                also._
+## 8. That the Platonists hold the first rank in moral philosophy also
+
 
 The remaining part of philosophy is morals, or what is called by the
 Greeks ἠθική, in which is discussed the question concerning the chief
@@ -12869,8 +12675,8 @@ loves God; for philosophy is directed to the obtaining of the blessed
 life, and he who loves God is blessed in the enjoyment of God.
 
 
-     9. _Concerning that philosophy which has come nearest to the
-                           Christian faith._
+## 9. Concerning that philosophy which has come nearest to the Christian faith
+
 
 Whatever philosophers, therefore, thought concerning the supreme God,
 that He is both the maker of all created things, the light by which
@@ -12890,8 +12696,8 @@ Spaniards, or of other nations,--we prefer these to all other
 philosophers, and confess that they approach nearest to us.
 
 
-    10. _That the excellency of the Christian religion is above all
-                     the science of philosophers._
+## 10. That the excellency of the Christian religion is above all the science of philosophers
+
 
 For although a Christian man instructed only in ecclesiastical
 literature may perhaps be ignorant of the very name of Platonists, and
@@ -12960,8 +12766,8 @@ studied them more heartily than other writings, and, by translating
 them into our tongue, have given them greater celebrity and notoriety.
 
 
-    11. _How Plato has been able to approach so nearly to Christian
-                              knowledge._
+## 11. How Plato has been able to approach so nearly to Christian knowledge
+
 
 Certain partakers with us in the grace of Christ, wonder when
 they hear and read that Plato had conceptions concerning God, in
@@ -13022,9 +12828,8 @@ book where it is said, "I am who am; and thou shalt say to the
 children of Israel, _Who is_ sent me unto you."
 
 
-  12. _That even the Platonists, though they say these things
-      concerning the one true God, nevertheless thought that sacred
-      rites were to be performed in honour of many gods._
+## 12. That even the Platonists, though they say these things concerning the one true God, nevertheless thought that sacred rites were to be performed in honour of many gods
+
 
 But we need not determine from what source he learned these
 things,--whether it was from the books of the ancients who preceded
@@ -13063,8 +12868,8 @@ who were of the same school, and also Plato himself, thought that
 sacred rites ought to be performed in honour of many gods.
 
 
-  13. _Concerning the opinion of Plato, according to which he defined
-     the gods as beings entirely good and the friends of virtue._
+## 13. Concerning the opinion of Plato, according to which he defined the gods as beings entirely good and the friends of virtue
+
 
 Therefore, although in many other important respects they differ from
 us, nevertheless with respect to this particular point of difference,
@@ -13121,9 +12926,8 @@ otherwise concerning any of the gods. We will explain it, say they.
 Let us then attentively listen to them.
 
 
-  14. _Of the opinion of those who have said that rational souls are
-      of three kinds, to wit, those of the celestial gods, those of
-      the aerial demons, and those of terrestrial men._
+## 14. Of the opinion of those who have said that rational souls are of three kinds, to wit, those of the celestial gods, those of the aerial demons, and those of terrestrial men
+
 
 There is, say they, a threefold division of all animals endowed with
 a rational soul, namely, into gods, men, and demons. The gods occupy
@@ -13192,8 +12996,8 @@ shameful cruelty causes horror, should be in agreement with their
 passions.
 
 
-     15. _That the demons are not better than men because of their
-    aerial bodies, or on account of their superior place of abode._
+## 15. That the demons are not better than men because of their aerial bodies, or on account of their superior place of abode
+
 
 Wherefore let not the mind truly religious, and submitted to the
 true God, suppose that demons are better than men, because they
@@ -13253,8 +13057,8 @@ possible that a soul of a higher order may inhabit a body of a lower,
 and a soul of a lower order a body of a higher.
 
 
-    16. _What Apuleius the Platonist thought concerning the manners
-                        and actions of demons._
+## 16. What Apuleius the Platonist thought concerning the manners and actions of demons
+
 
 The same Apuleius, when speaking concerning the manners of demons,
 said that they are agitated with the same perturbations of mind as
@@ -13303,8 +13107,8 @@ capable of misery, passive that they may be actually miserable, and
 eternal that it may be impossible for them to end their misery!
 
 
-    17. _Whether it is proper that men should worship those spirits
-         from whose vices it is necessary that they be freed._
+## 17. Whether it is proper that men should worship those spirits from whose vices it is necessary that they be freed
+
 
 Wherefore, to omit other things, and confine our attention to that
 which he says is common to the demons with us, let us ask this
@@ -13353,9 +13157,8 @@ whom thou art unwilling to imitate, when it is the highest duty of
 religion to imitate Him whom thou worshippest?
 
 
-  18. _What kind of religion that is which teaches that men ought to
-      employ the advocacy of demons in order to be recommended to the
-      favour of the good gods._
+## 18. What kind of religion that is which teaches that men ought to employ the advocacy of demons in order to be recommended to the favour of the good gods
+
 
 In vain, therefore, have Apuleius, and they who think with him,
 conferred on the demons the honour of placing them in the air, between
@@ -13384,8 +13187,8 @@ divinity, we can cite on the other side their own highest authority and
 teacher, Plato.
 
 
-    19. _Of the impiety of the magic art, which is dependent on the
-                    assistance of malign spirits._
+## 19. Of the impiety of the magic art, which is dependent on the assistance of malign spirits
+
 
 Moreover, against those magic arts, concerning which some men,
 exceedingly wretched and exceedingly impious, delight to boast, may
@@ -13396,15 +13199,15 @@ Christians have ordained those laws by which magic arts are punished?
 With what other meaning, except that these sorceries are without doubt
 pernicious to the human race, did the most illustrious poet say,
 
-          "By heaven, I swear, and your dear life,
-             Unwillingly these arms I wield,
-           And take, to meet the coming strife,
-             Enchantment's sword and shield."[310]
+"By heaven, I swear, and your dear life,\
+Unwillingly these arms I wield,\
+And take, to meet the coming strife,\
+Enchantment's sword and shield."[310]
 
 And that also which he says in another place concerning magic arts,
 
-          "I've seen him to another place transport the standing
-               corn,"[311]
+"I've seen him to another place transport the standing\
+corn,"[311]
 
 has reference to the fact that the fruits of one field are said to
 be transferred to another by these arts which this pestiferous and
@@ -13457,8 +13260,8 @@ penitence to obtain the grace of pardon, seeing that such detestable
 pride could not exist along with a humility worthy of pardon?
 
 
-  20. _Whether we are to believe that the good gods are more willing
-            to have intercourse with demons than with men._
+## 20. Whether we are to believe that the good gods are more willing to have intercourse with demons than with men
+
 
 But does any urgent and most pressing cause compel the demons to
 mediate between the gods and men, that they may offer the prayers of
@@ -13485,9 +13288,8 @@ with a man shunning the imitation of a demon, and yet has intercourse
 with a demon lying in wait for the deception of a man!
 
 
-  21. _Whether the gods use the demons as messengers and
-      interpreters, and whether they are deceived by them willingly,
-      or without their own knowledge._
+## 21. Whether the gods use the demons as messengers and interpreters, and whether they are deceived by them willingly, or without their own knowledge
+
 
 But herein, no doubt, lies the great necessity for this absurdity, so
 unworthy of the gods, that the ethereal gods, who are concerned about
@@ -13571,8 +13373,8 @@ former are for the injury, but these latter for the honour of the gods
 themselves?
 
 
-  22. _That we must, notwithstanding the opinion of Apuleius, reject
-                        the worship of demons._
+## 22. That we must, notwithstanding the opinion of Apuleius, reject the worship of demons
+
 
 None of these four alternatives, then, is to be chosen; for we
 dare not suppose such unbecoming things concerning the gods as the
@@ -13609,9 +13411,8 @@ by whom, through inveterate superstition, the demons were served by
 the performance of many rites, and the erection of many temples.
 
 
-  23. _What Hermes Trismegistus thought concerning idolatry, and from
-      what source he knew that the superstitions of Egypt were to be
-      abolished._
+## 23. What Hermes Trismegistus thought concerning idolatry, and from what source he knew that the superstitions of Egypt were to be abolished
+
 
 The Egyptian Hermes, whom they call Trismegistus, had a different
 opinion concerning those demons. Apuleius, indeed, denies that they
@@ -13731,8 +13532,8 @@ mixing true things with things which are false, bewails as about to
 perish a religion which he afterwards confesses to be error.
 
 
-  24. _How Hermes openly confessed the error of his forefathers, the
-        coming destruction of which he nevertheless bewailed._
+## 24. How Hermes openly confessed the error of his forefathers, the coming destruction of which he nevertheless bewailed
+
 
 After a long interval, Hermes again comes back to the subject of
 the gods which men have made, saying as follows: "But enough on
@@ -13889,8 +13690,8 @@ separated in disposition and character as vice is distant from virtue,
 wickedness from goodness.
 
 
-  25. _Concerning those things which may be common to the holy angels
-                             and to men._
+## 25. Concerning those things which may be common to the holy angels and to men
+
 
 Wherefore we must by no means seek, through the supposed mediation
 of demons, to avail ourselves of the benevolence or beneficence of
@@ -13909,8 +13710,8 @@ them by faith, if by their assistance we believe that He who is their
 blessedness is also ours.
 
 
-    26. _That all the religion of the pagans has reference to dead
-                                 men._
+## 26. That all the religion of the pagans has reference to dead men
+
 
 It is certainly a remarkable thing how this Egyptian, when expressing
 his grief that a time was coming when those things would be taken
@@ -14003,8 +13804,8 @@ tortured and compelled to confess, and are cast out of the bodies of
 men, of which they had taken possession.
 
 
-     27. _Concerning the nature of the honour which the Christians
-                        pay to their martyrs._
+## 27. Concerning the nature of the honour which the Christians pay to their martyrs
+
 
 But, nevertheless, we do not build temples, and ordain priests,
 rites, and sacrifices for these same martyrs; for they are not
@@ -14075,7 +13876,9 @@ are to be worshipped, in order that through them we may attain to the
 eternally blessed life. To the examination of this opinion we will
 devote the following book.
 
-FOOTNOTES:
+
+## Footnotes to Book VIII
+
 
 [291] Wisdom vii. 24-27.
 
@@ -14160,23 +13963,14 @@ Apuleius.
 [328] Comp. _The Confessions_, vi. 2.
 
 
+# Book IX
 
 
-                              BOOK NINTH.
-
-                               ARGUMENT.
-
-  HAVING IN THE PRECEDING BOOK SHOWN THAT THE WORSHIP OF DEMONS MUST
-      BE ABJURED, SINCE THEY IN A THOUSAND WAYS PROCLAIM THEMSELVES
-      TO BE WICKED SPIRITS, AUGUSTINE IN THIS BOOK MEETS THOSE WHO
-      ALLEGE A DISTINCTION AMONG DEMONS, SOME BEING EVIL, WHILE
-      OTHERS ARE GOOD; AND, HAVING EXPLODED THIS DISTINCTION, HE
-      PROVES THAT TO NO DEMON, BUT TO CHRIST ALONE, BELONGS THE
-      OFFICE OF PROVIDING MEN WITH ETERNAL BLESSEDNESS.
+**Argument.** HAVING IN THE PRECEDING BOOK SHOWN THAT THE WORSHIP OF DEMONS MUST BE ABJURED, SINCE THEY IN A THOUSAND WAYS PROCLAIM THEMSELVES TO BE WICKED SPIRITS, AUGUSTINE IN THIS BOOK MEETS THOSE WHO ALLEGE A DISTINCTION AMONG DEMONS, SOME BEING EVIL, WHILE OTHERS ARE GOOD; AND, HAVING EXPLODED THIS DISTINCTION, HE PROVES THAT TO NO DEMON, BUT TO CHRIST ALONE, BELONGS THE OFFICE OF PROVIDING MEN WITH ETERNAL BLESSEDNESS.
 
 
-  1. _The point at which the discussion has arrived, and what remains
-                            to be handled._
+## 1. The point at which the discussion has arrived, and what remains to be handled
+
 
 Some have advanced the opinion that there are both good and bad gods;
 but some, thinking more respectfully of the gods have attributed
@@ -14210,9 +14004,8 @@ can mediate between good men and the good gods; and it has been
 demonstrated that this is absolutely impossible.
 
 
-  2. _Whether among the demons, inferior to the gods, there are any
-      good spirits under whose guardianship the human soul might
-      reach true blessedness._
+## 2. Whether among the demons, inferior to the gods, there are any good spirits under whose guardianship the human soul might reach true blessedness
+
 
 This book, then, ought, according to the promise made in the end of the
 preceding one, to contain a discussion, not of the difference which
@@ -14233,8 +14026,8 @@ alone, and in whom alone, the human soul, that is to say, the soul that
 is rational and intellectual, is blessed.
 
 
-    3. _What Apuleius attributes to the demons, to whom, though he
-        does not deny them reason, he does not ascribe virtue._
+## 3. What Apuleius attributes to the demons, to whom, though he does not deny them reason, he does not ascribe virtue
+
 
 What, then, is the difference between good and evil demons? For the
 Platonist Apuleius, in a treatise on this whole subject,[330] while
@@ -14269,8 +14062,8 @@ of truth or virtue in their soul from which they can resist their
 turbulent and depraved emotions.
 
 
-      4. _The opinion of the Peripatetics and Stoics about mental
-                              emotions._
+## 4. The opinion of the Peripatetics and Stoics about mental emotions
+
 
 Among the philosophers there are two opinions about these mental
 emotions, which the Greeks call πάθη, while some of our own writers,
@@ -14376,12 +14169,12 @@ rules over them, and, while it refuses its consent and resists them,
 administers a reign of virtue. Such a character is ascribed to Æneas
 by Virgil when he says,
 
-          "He stands immovable by tears,
-           Nor tenderest words with pity hears."[335]
+"He stands immovable by tears,\
+Nor tenderest words with pity hears."[335]
 
 
-   5. _That the passions which assail the souls of Christians do not
-           seduce them to vice, but exercise their virtue._
+## 5. That the passions which assail the souls of Christians do not seduce them to vice, but exercise their virtue
+
 
 We need not at present give a careful and copious exposition of the
 doctrine of Scripture, the sum of Christian knowledge, regarding
@@ -14430,8 +14223,8 @@ and yet without any perturbation. For this word is used of the effect
 of His vengeance, not of the disturbing mental affection.
 
 
-     6. _Of the passions which, according to Apuleius, agitate the
-   demons who are supposed by him to mediate between gods and men._
+## 6. Of the passions which, according to Apuleius, agitate the demons who are supposed by him to mediate between gods and men
+
 
 Deferring for the present the question about the holy angels, let
 us examine the opinion of the Platonists, that the demons who
@@ -14453,9 +14246,8 @@ intent on deceiving and seducing, in proportion to the mental force
 and energy of desire they possess?
 
 
-  7. _That the Platonists maintain that the poets wrong the gods by
-      representing them as distracted by party feeling, to which the
-      demons, and not the gods, are subject._
+## 7. That the Platonists maintain that the poets wrong the gods by representing them as distracted by party feeling, to which the demons, and not the gods, are subject
+
 
 But if any one says that it is not of all the demons, but only of the
 wicked, that the poets, not without truth, say that they violently
@@ -14496,8 +14288,8 @@ that the poetical fictions should be believed of the gods, and not of
 the demons who bore their names.
 
 
-   8. _How Apuleius defines the gods who dwell in heaven, the demons
-            who occupy the air, and men who inhabit earth._
+## 8. How Apuleius defines the gods who dwell in heaven, the demons who occupy the air, and men who inhabit earth
+
 
 The definition which Apuleius gives of demons, and in which he of
 course includes all demons, is that they are in nature animals, in soul
@@ -14550,8 +14342,8 @@ with the gods because they have mortal bodies, demons have eternity in
 common with the gods because their bodies are immortal.
 
 
-   9. _Whether the intercession of the demons can secure for men the
-                  friendship of the celestial gods._
+## 9. Whether the intercession of the demons can secure for men the friendship of the celestial gods
+
 
 How, then, can men hope for a favourable introduction to the
 friendship of the gods by such mediators as these, who are, like men,
@@ -14590,8 +14382,8 @@ gods in their eternity, their body must not be considered a chariot
 of an eternal triumph, but rather the chain of an eternal punishment.
 
 
-   10. _That, according to Plotinus, men, whose body is mortal, are
-          less wretched than demons, whose body is eternal._
+## 10. That, according to Plotinus, men, whose body is mortal, are less wretched than demons, whose body is eternal
+
 
 Plotinus, whose memory is quite recent,[343] enjoys the reputation
 of having understood Plato better than any other of his disciples.
@@ -14613,8 +14405,8 @@ some progress in wisdom and piety they can become gods, but expressly
 says that they are demons for ever.
 
 
-  11. _Of the opinion of the Platonists, that the souls of men become
-                       demons when disembodied._
+## 11. Of the opinion of the Platonists, that the souls of men become demons when disembodied
+
 
 He[345] says, indeed, that the souls of men are demons, and that men
 become _Lares_ if they are good, _Lemures_ or _Larvæ_ if they are
@@ -14631,8 +14423,8 @@ must not pursue. He also states that the blessed are called in Greek
 confirming his opinion that the souls of men are demons.
 
 
-     12. _Of the three opposite qualities by which the Platonists
-      distinguish between the nature of men and that of demons._
+## 12. Of the three opposite qualities by which the Platonists distinguish between the nature of men and that of demons
+
 
 But at present we are speaking of those beings whom he described as
 being properly intermediate between gods and men, in nature animals,
@@ -14664,9 +14456,8 @@ eternity, blessedness; and of man he predicates the opposite, lowliness
 of habitation, mortality, misery.
 
 
-  13. _How the demons can mediate between gods and men if they have
-      nothing in common with both, being neither blessed like the
-      gods, nor miserable like men._
+## 13. How the demons can mediate between gods and men if they have nothing in common with both, being neither blessed like the gods, nor miserable like men
+
 
 If, now, we endeavour to find between these opposites the mean occupied
 by the demons, there can be no question as to their local position;
@@ -14755,7 +14546,8 @@ miserable mortals, we should find a being which is either mortal and
 blessed, or immortal and miserable.
 
 
-     14. _Whether men, though mortal, can enjoy true blessedness._
+## 14. Whether men, though mortal, can enjoy true blessedness
+
 
 It is a great question among men, whether man can be mortal and
 blessed. Some, taking the humbler view of his condition, have denied
@@ -14772,7 +14564,8 @@ after death they may become immortal, and be associated with the
 blessed and immortal angels.
 
 
-   15. _Of the man Christ Jesus, the Mediator between God and men_.
+## 15. Of the man Christ Jesus, the Mediator between God and men
+
 
 But if, as is much more probable and credible, it must needs be that
 all men, so long as they are mortal, are also miserable, we must
@@ -14842,10 +14635,8 @@ angels, in the form of God,--Himself at once the way of life on earth
 and life itself in heaven.
 
 
-  16. _Whether it is reasonable in the Platonists to determine that
-      the celestial gods decline contact with earthly things and
-      intercourse with men, who therefore require the intercession of
-      the demons._
+## 16. Whether it is reasonable in the Platonists to determine that the celestial gods decline contact with earthly things and intercourse with men, who therefore require the intercession of the demons
+
 
 That opinion, which the same Platonist avers that Plato uttered,
 is not true, "that no god holds intercourse with men."[347] And
@@ -14931,9 +14722,8 @@ contact between the earth and the sun's or moon's rays, and yet this
 does not pollute the light.
 
 
-  17. _That to obtain the blessed life, which consists in partaking
-      of the supreme good, man needs such mediation as is furnished
-      not by a demon, but by Christ alone._
+## 17. That to obtain the blessed life, which consists in partaking of the supreme good, man needs such mediation as is furnished not by a demon, but by Christ alone
+
 
 I am considerably surprised that such learned men, men who pronounce
 all material and sensible things to be altogether inferior to those
@@ -14967,8 +14757,8 @@ and humanity, whereby He has become like us, this is not the place to
 speak as fully as I could.
 
 
-   18. _That the deceitful demons, while promising to conduct men to
- God by their intercession, mean to turn them from the path of truth._
+## 18. That the deceitful demons, while promising to conduct men to God by their intercession, mean to turn them from the path of truth
+
 
 As to the demons, these false and deceitful mediators, who, though
 their uncleanness of spirit frequently reveals their misery and
@@ -14994,8 +14784,8 @@ are cleansed from pollution by the incontaminable God, so as to be
 associated with the uncontaminated angels?
 
 
-    19. _That even among their own worshippers the name "demon" has
-                     never a good signification._
+## 19. That even among their own worshippers the name "demon" has never a good signification
+
 
 But as some of these demonolators, as I may call them, and among them
 Labeo, allege that those whom they call demons are by others called
@@ -15017,7 +14807,8 @@ every one, or almost every one, connects a bad meaning, while we can so
 easily evade this necessity by using the word angel?
 
 
-       20. _Of the kind of knowledge which puffs up the demons._
+## 20. Of the kind of knowledge which puffs up the demons
+
 
 However, the very origin of the name suggests something worthy of
 consideration, if we compare it with the divine books. They are
@@ -15037,8 +14828,8 @@ men, resembling the demons in pride, but not in knowledge, and being
 puffed up with uncleanness, failed to recognise Him.
 
 
-   21. _To what extent the Lord was pleased to make Himself known to
-                             the demons._
+## 21. To what extent the Lord was pleased to make Himself known to the demons
+
 
 The devils themselves knew this manifestation of God so well, that
 they said to the Lord, though clothed with the infirmity of flesh,
@@ -15070,8 +14861,8 @@ how great He was, so that, even though the infirmity of His flesh
 might seem contemptible, none dared to resist His authority.
 
 
-   22. _The difference between the knowledge of the holy angels and
-                         that of the demons._
+## 22. The difference between the knowledge of the holy angels and that of the demons
+
 
 The good angels, therefore, hold cheap all that knowledge of
 material and transitory things which the demons are so proud of
@@ -15104,9 +14895,8 @@ good wherein they are blessed is God, by whom they were created. For
 without end they enjoy the contemplation and participation of Him.
 
 
-  23. _That the name of gods is falsely given to the gods of the
-      Gentiles, though Scripture applies it both to the holy angels
-      and just men._
+## 23. That the name of gods is falsely given to the gods of the Gentiles, though Scripture applies it both to the holy angels and just men
+
 
 If the Platonists prefer to call these angels gods rather than
 demons, and to reckon them with those whom Plato, their founder and
@@ -15193,7 +14983,9 @@ nature you will, desire that religious worship be paid to God alone,
 by whom they were created, and by whose communications of Himself to
 them they are blessed.
 
-FOOTNOTES:
+
+## Footnotes to Book IX
+
 
 [329] See Plutarch, on the Cessation of Oracles.
 
@@ -15270,24 +15062,14 @@ the _Enneades_, I. vi. 8, and ii. 3.
 [363] 1 Cor. viii. 5, 6.
 
 
+# Book X
 
 
-                              BOOK TENTH.
-
-                               ARGUMENT.
-
-  IN THIS BOOK AUGUSTINE TEACHES THAT THE GOOD ANGELS WISH GOD
-      ALONE, WHOM THEY THEMSELVES SERVE, TO RECEIVE THAT DIVINE
-      HONOUR WHICH IS RENDERED BY SACRIFICE, AND WHICH IS CALLED
-      "LATREIA." HE THEN GOES ON TO DISPUTE AGAINST PORPHYRY ABOUT
-      THE PRINCIPLE AND WAY OF THE SOUL'S CLEANSING AND DELIVERANCE.
+**Argument.** IN THIS BOOK AUGUSTINE TEACHES THAT THE GOOD ANGELS WISH GOD ALONE, WHOM THEY THEMSELVES SERVE, TO RECEIVE THAT DIVINE HONOUR WHICH IS RENDERED BY SACRIFICE, AND WHICH IS CALLED "LATREIA." HE THEN GOES ON TO DISPUTE AGAINST PORPHYRY ABOUT THE PRINCIPLE AND WAY OF THE SOUL'S CLEANSING AND DELIVERANCE.
 
 
-  1. _That the Platonists themselves have determined that God alone
-      can confer happiness either on angels or men, but that it yet
-      remains a question whether those spirits whom they direct us
-      to worship, that we may obtain happiness, wish sacrifice to be
-      offered to themselves, or to the one God only._
+## 1. That the Platonists themselves have determined that God alone can confer happiness either on angels or men, but that it yet remains a question whether those spirits whom they direct us to worship, that we may obtain happiness, wish sacrifice to be offered to themselves, or to the one God only
+
 
 It is the decided opinion of all who use their brains, that all men
 desire to be happy. But who are happy, or how they become so, these
@@ -15388,8 +15170,8 @@ themselves have enjoyed,--for how could they wish our blessedness to
 flow from one source, theirs from another?
 
 
-   2. _The opinion of Plotinus the Platonist regarding enlightenment
-                             from above._
+## 2. The opinion of Plotinus the Platonist regarding enlightenment from above
+
 
 But with these more estimable philosophers we have no dispute in
 this matter. For they perceived, and in various forms abundantly
@@ -15422,9 +15204,8 @@ John himself avows when he delivers his witness: "We have all received
 of His fulness."[372]
 
 
-  3. _That the Platonists, though knowing something of the Creator
-      of the universe, have misunderstood the true worship of God, by
-      giving divine honour to angels, good or bad._
+## 3. That the Platonists, though knowing something of the Creator of the universe, have misunderstood the true worship of God, by giving divine honour to angels, good or bad
+
 
 This being so, if the Platonists, or those who think with them,
 knowing God, glorified Him as God and gave thanks, if they did
@@ -15483,7 +15264,8 @@ which it is written, "He that sacrificeth unto any god, save unto the
 Lord only, he shall be utterly destroyed."[376]
 
 
-           4. _That sacrifice is due to the true God only._
+## 4. That sacrifice is due to the true God only
+
 
 But, putting aside for the present the other religious services
 with which God is worshipped, certainly no man would dare to say
@@ -15498,9 +15280,8 @@ Cain and Abel, sufficiently show, of whom God rejected the elder's
 sacrifice, and looked favourably on the younger's.
 
 
-  5. _Of the sacrifices which God does not require, but wished to
-      be observed for the exhibition of those things which He does
-      require._
+## 5. Of the sacrifices which God does not require, but wished to be observed for the exhibition of those things which He does require
+
 
 And who is so foolish as to suppose that the things offered to God
 are needed by Him for some uses of His own? Divine Scripture in many
@@ -15569,7 +15350,8 @@ the love of God and our neighbour. For "on these two commandments,"
 as it is written, "hang all the law and the prophets."[384]
 
 
-                6. _Of the true and perfect sacrifice._
+## 6. Of the true and perfect sacrifice
+
 
 Thus a true sacrifice is every work which is done that we may be
 united to God in holy fellowship, and which has a reference to that
@@ -15628,8 +15410,8 @@ faithful, in which she teaches that she herself is offered in the
 offering she makes to God.
 
 
-   7. _Of the love of the holy angels, which prompts them to desire
-        that we worship the one true God, and not themselves._
+## 7. Of the love of the holy angels, which prompts them to desire that we worship the one true God, and not themselves
+
 
 It is very right that these blessed and immortal spirits, who
 inhabit celestial dwellings, and rejoice in the communications
@@ -15652,9 +15434,8 @@ to whom these immortal and blessed spirits, who desire us to be like
 themselves, wish us to sacrifice.
 
 
-  8. _Of the miracles which God has condescended to adhibit, through
-      the ministry of angels, to His promises for the confirmation of
-      the faith of the godly._
+## 8. Of the miracles which God has condescended to adhibit, through the ministry of angels, to His promises for the confirmation of the faith of the godly
+
 
 I should seem tedious were I to recount all the ancient miracles,
 which were wrought in attestation of God's promises which He made
@@ -15713,8 +15494,8 @@ the mistaken people as an idol, and was destroyed by the pious and
 God-fearing king Hezekiah, much to his credit.
 
 
-   9. _Of the illicit arts connected with demonolatry, and of which
-       the Platonist Porphyry adopts some, and discards others._
+## 9. Of the illicit arts connected with demonolatry, and of which the Platonist Porphyry adopts some, and discards others
+
 
 These miracles, and many others of the same nature, which it were
 tedious to mention, were wrought for the purpose of commending
@@ -15782,8 +15563,8 @@ the gods by that sublimity of residence, which, in common with Plato,
 he accorded to them.
 
 
-  10. _Concerning theurgy, which promises a delusive purification of
-                the soul by the invocation of demons._
+## 10. Concerning theurgy, which promises a delusive purification of the soul by the invocation of demons
+
 
 But here we have another and a much more learned Platonist than
 Apuleius, Porphyry, to wit, asserting that, by I know not what theurgy,
@@ -15831,8 +15612,8 @@ equally hurtful, whether he assaults us as an enemy, or assumes the
 disguise of a friend.
 
 
-       11. _Of Porphyry's epistle to Anebo, in which he asks for
-           information about the differences among demons._
+## 11. Of Porphyry's epistle to Anebo, in which he asks for information about the differences among demons
+
 
 It was a better tone which Porphyry adopted in his letter to Anebo
 the Egyptian, in which, assuming the character of an inquirer
@@ -15948,8 +15729,8 @@ cannot be either gods or good demons, but are either that spirit who
 is called the deceiver, or mere fictions of the imagination.
 
 
-   12. _Of the miracles wrought by the true God through the ministry
-                         of the holy angels._
+## 12. Of the miracles wrought by the true God through the ministry of the holy angels
+
 
 Since by means of these arts wonders are done which quite surpass human
 power, what choice have we but to believe that these predictions and
@@ -15988,8 +15769,8 @@ hands, as in those men who are His saints; and His answers, though
 accomplished in time, have been arranged by His eternal appointment.
 
 
-    13. _Of the invisible God, who has often made Himself visible,
-   not as He really is, but as the beholders could bear the sight._
+## 13. Of the invisible God, who has often made Himself visible, not as He really is, but as the beholders could bear the sight
+
 
 Neither need we be surprised that God, invisible as He is, should
 often have appeared visibly to the patriarchs. For as the sound which
@@ -16015,9 +15796,8 @@ were brought about in the sight of all, that they might know that it
 was the Creator who could thus use creation to promulgate His law.
 
 
-  14. _That the one God is to be worshipped not only for the sake
-      of eternal blessings, but also in connection with temporal
-      prosperity, because all things are regulated by His providence._
+## 14. That the one God is to be worshipped not only for the sake of eternal blessings, but also in connection with temporal prosperity, because all things are regulated by His providence
+
 
 The education of the human race, represented by the people of God,
 has advanced, like that of an individual, through certain epochs, or,
@@ -16051,8 +15831,8 @@ draw it aside from the worship of Him, to whom we come by despising
 and forsaking such things.
 
 
-     15. _Of the ministry of the holy angels, by which they fulfil
-                        the providence of God._
+## 15. Of the ministry of the holy angels, by which they fulfil the providence of God
+
 
 And so it has pleased Divine Providence, as I have said, and as we
 read in the Acts of the Apostles,[404] that the law enjoining the
@@ -16081,10 +15861,8 @@ Himself. He created; all else was created; and, both for being and
 well-being, all things need Him who created them.
 
 
-  16. _Whether those angels who demand that we pay them divine
-      honour, or those who teach us to render holy service, not to
-      themselves, but to God, are to be trusted about the way to life
-      eternal._
+## 16. Whether those angels who demand that we pay them divine honour, or those who teach us to render holy service, not to themselves, but to God, are to be trusted about the way to life eternal
+
 
 What angels, then, are we to believe in this matter of blessed and
 eternal life?--those who wish to be worshipped with religious rites
@@ -16178,8 +15956,8 @@ whom the good angels serve, the angels who bid us sacrifice, not to
 themselves, but to Him whose sacrifice we ourselves ought to be?
 
 
-   17. _Concerning the ark of the covenant, and the miraculous signs
-          whereby God authenticated the law and the promise._
+## 17. Concerning the ark of the covenant, and the miraculous signs whereby God authenticated the law and the promise
+
 
 On this account it was that the law of God, given by the disposition
 of angels, and which commanded that the one God of gods alone receive
@@ -16238,9 +16016,8 @@ stirred up to worship and cleave to Him, being inflamed by His love,
 which is our advantage rather than His?
 
 
-  18. _Against those who deny that the books of the Church are to
-      be believed about the miracles whereby the people of God were
-      educated._
+## 18. Against those who deny that the books of the Church are to be believed about the miracles whereby the people of God were educated
+
 
 Will some one say that these miracles are false, that they never
 happened, and that the records of them are lies? Whoever says so, and
@@ -16279,8 +16056,8 @@ we owe a credence as much greater as He is greater to whom alone
 these writings teach us to sacrifice?
 
 
-     19. _On the reasonableness of offering, as the true religion
-   teaches, a visible sacrifice to the one true and invisible God._
+## 19. On the reasonableness of offering, as the true religion teaches, a visible sacrifice to the one true and invisible God
+
 
 As to those who think that these visible sacrifices are suitably
 offered to other gods, but that invisible sacrifices, the graces of
@@ -16318,8 +16095,8 @@ and hinder from drawing near to God, preventing him from offering
 himself in sacrifice to God by inducing him to sacrifice to others.
 
 
-   20. _Of the supreme and true sacrifice which was effected by the
-                    Mediator between God and men._
+## 20. Of the supreme and true sacrifice which was effected by the Mediator between God and men
+
 
 And hence that true Mediator, in so far as, by assuming the form of a
 servant, He became the Mediator between God and men, the man Christ
@@ -16338,9 +16115,8 @@ when we speak of it much. To this supreme and true sacrifice all
 false sacrifices have given place.
 
 
-  21. _Of the power delegated to demons for the trial and
-      glorification of the saints, who conquer not by propitiating
-      the spirits of the air, but by abiding in God._
+## 21. Of the power delegated to demons for the trial and glorification of the saints, who conquer not by propitiating the spirits of the air, but by abiding in God
+
 
 The power delegated to the demons at certain appointed and
 well-adjusted seasons, that they may give expression to their
@@ -16369,8 +16145,8 @@ the heavens. Virgil, however, unhappily gives way, and yields to
 her; for, though he represents her as saying, "I am conquered by
 Æneas,"[409] Helenus gives Æneas himself this religious advice:
 
-          "Pay vows to Juno: overbear
-           Her queenly soul with gift and prayer."[410]
+"Pay vows to Juno: overbear\
+Her queenly soul with gift and prayer."[410]
 
 In conformity with this opinion, Porphyry--expressing, however, not
 so much his own views as other people's--says that a good god or
@@ -16388,8 +16164,8 @@ more suitably styled Africanus than if he had appeased his enemies by
 gifts, and so won their mercy.
 
 
-      22. _Whence the saints derive power against demons and true
-                        purification of heart._
+## 22. Whence the saints derive power against demons and true purification of heart
+
 
 It is by true piety that men of God cast out the hostile power
 of the air which opposes godliness; it is by exorcising it, not
@@ -16416,8 +16192,8 @@ and, after this life, are led onwards to the fullest perfection by
 the vision of immutable truth.
 
 
-      23. _Of the principles which, according to the Platonists,
-                regulate the purification of the soul._
+## 23. Of the principles which, according to the Platonists, regulate the purification of the soul
+
 
 Even Porphyry asserts that it was revealed by divine oracles that
 we are not purified by any sacrifices[411] to sun or moon, meaning
@@ -16448,8 +16224,8 @@ rule, lest freedom of speech beget impiety of opinion about the
 matters themselves of which we speak.
 
 
-  24. _Of the one only true principle which alone purifies and renews
-                            human nature._
+## 24. Of the one only true principle which alone purifies and renews human nature
+
 
 Accordingly, when we speak of God, we do not affirm two or three
 principles, no more than we are at liberty to affirm two or three gods;
@@ -16503,8 +16279,8 @@ angels," by whose ministry the law also was given enjoining the worship
 of one God, and promising that this Mediator should come.
 
 
-   25. _That all the saints, both under the law and before it, were
-      justified by faith in the mystery of Christ's incarnation._
+## 25. That all the saints, both under the law and before it, were justified by faith in the mystery of Christ's incarnation
+
 
 It was by faith in this mystery, and godliness of life, that
 purification was attainable even by the saints of old, whether before
@@ -16591,8 +16367,8 @@ worshipping one God, Father, Son, and Holy Ghost, than if we were to
 offer to themselves sacrifice and worship.
 
 
-   26. _Of Porphyry's weakness in wavering between the confession of
-               the true God and the worship of demons._
+## 26. Of Porphyry's weakness in wavering between the confession of the true God and the worship of demons
+
 
 I know not how it is so, but it seems to me that Porphyry blushed for
 his friends the theurgists; for he knew all that I have adduced, but
@@ -16635,8 +16411,8 @@ slaves, as you yourself own; and are you not ashamed to place them even
 among your sidereal gods, and so put a slight upon the stars themselves?
 
 
-     27. _Of the impiety of Porphyry, which is worse than even the
-                         mistake of Apuleius._
+## 27. Of the impiety of Porphyry, which is worse than even the mistake of Apuleius
+
 
 How much more tolerable and accordant with human feeling is the
 error of your Platonist co-sectary Apuleius! for he attributed the
@@ -16713,8 +16489,8 @@ by their means men, who do not live by the rule of the intellectual
 soul, may have their spiritual soul purified?
 
 
-  28. _How it is that Porphyry has been so blind as not to recognise
-                       the true wisdom--Christ._
+## 28. How it is that Porphyry has been so blind as not to recognise the true wisdom--Christ
+
 
 You drive men, therefore, into the most palpable error. And yet you
 are not ashamed of doing so much harm, though you call yourself a
@@ -16765,8 +16541,8 @@ do not proudly boast a blessedness of their own, but rather humbly
 acknowledge their real misery.
 
 
-      29. _Of the incarnation of our Lord Jesus Christ, which the
-          Platonists in their impiety blush to acknowledge._
+## 29. Of the incarnation of our Lord Jesus Christ, which the Platonists in their impiety blush to acknowledge
+
 
 You proclaim the Father and His Son, whom you call the Father's
 intellect or mind, and between these a third, by whom we suppose you
@@ -16882,7 +16658,8 @@ could heal them. And, doing so, they secure not elevation, but a more
 disastrous fall.
 
 
-     30. _Porphyry's emendations and modifications of Platonism._
+## 30. Porphyry's emendations and modifications of Platonism
+
 
 If it is considered unseemly to emend anything which Plato has
 touched, why did Porphyry himself make emendations, and these not
@@ -16922,10 +16699,10 @@ from Plato, that the purified souls which have been sent into the
 Elysian fields (the poetic name for the joys of the blessed) are
 summoned to the river Lethe, that is, to the oblivion of the past,
 
-          "That earthward they may pass once more,
-           Remembering not the things before,
-           And with a blind propension yearn
-           To fleshly bodies to return."[431]
+"That earthward they may pass once more,\
+Remembering not the things before,\
+And with a blind propension yearn\
+To fleshly bodies to return."[431]
 
 This found no favour with Porphyry, and very justly; for it is indeed
 foolish to believe that souls should desire to return from that
@@ -16962,8 +16739,8 @@ did not see, and who did not shrink from correcting so illustrious a
 master, but preferred truth to Plato.
 
 
-    31. _Against the arguments on which the Platonists ground their
-        assertion that the human soul is co-eternal with God._
+## 31. Against the arguments on which the Platonists ground their assertion that the human soul is co-eternal with God
+
 
 Why, then, do we not rather believe the divinity in those matters,
 which human talent cannot fathom? Why do we not credit the assertion
@@ -17005,9 +16782,8 @@ for us, in that human nature which He assumed, and according to which
 He desired to be our Priest.
 
 
-  32. _Of the universal way of the soul's deliverance, which Porphyry
-      did not find because he did not rightly seek it, and which the
-      grace of Christ has alone thrown open._
+## 32. Of the universal way of the soul's deliverance, which Porphyry did not find because he did not rightly seek it, and which the grace of Christ has alone thrown open
+
 
 This is the religion which possesses the universal way for delivering
 the soul; for, except by this way, none can be delivered. This is
@@ -17202,7 +16978,9 @@ say, as God shall aid me, what I think needs to be said regarding the
 origin, history, and deserved ends of the two cities, which, as already
 remarked, are in this world commingled and implicated with one another.
 
-FOOTNOTES:
+
+## Footnotes to Book X
+
 
 [364] Rom. i. 21.
 
@@ -17373,23 +17151,14 @@ etc.
 [439] Luke xxiv. 44-47.
 
 
+# Book XI
 
 
-                            BOOK ELEVENTH.
-
-                               ARGUMENT.
-
-  HERE BEGINS THE SECOND PART[440] OF THIS WORK, WHICH TREATS OF
-      THE ORIGIN, HISTORY, AND DESTINIES OF THE TWO CITIES, THE
-      EARTHLY AND THE HEAVENLY. IN THE FIRST PLACE, AUGUSTINE SHOWS
-      IN THIS BOOK HOW THE TWO CITIES WERE FORMED ORIGINALLY, BY THE
-      SEPARATION OF THE GOOD AND BAD ANGELS; AND TAKES OCCASION TO
-      TREAT OF THE CREATION OF THE WORLD, AS IT IS DESCRIBED IN HOLY
-      SCRIPTURE IN THE BEGINNING OF THE BOOK OF GENESIS.
+**Argument.** HERE BEGINS THE SECOND PART[440] OF THIS WORK, WHICH TREATS OF THE ORIGIN, HISTORY, AND DESTINIES OF THE TWO CITIES, THE EARTHLY AND THE HEAVENLY. IN THE FIRST PLACE, AUGUSTINE SHOWS IN THIS BOOK HOW THE TWO CITIES WERE FORMED ORIGINALLY, BY THE SEPARATION OF THE GOOD AND BAD ANGELS; AND TAKES OCCASION TO TREAT OF THE CREATION OF THE WORLD, AS IT IS DESCRIBED IN HOLY SCRIPTURE IN THE BEGINNING OF THE BOOK OF GENESIS.
 
 
- 1. _Of this part of the work, wherein we begin to explain the origin
-                      and end of the two cities._
+## 1. Of this part of the work, wherein we begin to explain the origin and end of the two cities
+
 
 The city of God we speak of is the same to which testimony is borne
 by that Scripture, which excels all the writings of all nations
@@ -17428,8 +17197,8 @@ And, first, I will explain how the foundations of these two cities
 were originally laid, in the difference that arose among the angels.
 
 
-     2. _Of the knowledge of God, to which no man can attain save
-   through the Mediator between God and men, the man Christ Jesus._
+## 2. Of the knowledge of God, to which no man can attain save through the Mediator between God and men, the man Christ Jesus
+
 
 It is a great and very rare thing for a man, after he has
 contemplated the whole creation, corporeal and incorporeal, and has
@@ -17471,8 +17240,8 @@ way that is infallibly secured against all mistakes, is when the very
 same person is at once God and man, God our end, man our way.[445]
 
 
-   3. _Of the authority of the canonical Scriptures composed by the
-                            Divine Spirit._
+## 3. Of the authority of the canonical Scriptures composed by the Divine Spirit
+
 
 This Mediator, having spoken what He judged sufficient, first by
 the prophets, then by His own lips, and afterwards by the apostles,
@@ -17492,9 +17261,8 @@ sense, it behoves us to trust those who have seen them set in that
 incorporeal light, or abidingly contemplate them.
 
 
-  4. _That the world is neither without beginning, nor yet created
-      by a new decree of God, by which He afterwards willed what He
-      had not before willed._
+## 4. That the world is neither without beginning, nor yet created by a new decree of God, by which He afterwards willed what He had not before willed
+
 
 Of all visible things, the world is the greatest; of all invisible,
 the greatest is God. But, that the world is, we see; that God is, we
@@ -17565,8 +17333,8 @@ regarding the world that it too could be made in time, and yet that
 God, in making it, did not alter His eternal design.
 
 
-   5. _That we ought not to seek to comprehend the infinite ages of
-       time before the world, nor the infinite realms of space._
+## 5. That we ought not to seek to comprehend the infinite ages of time before the world, nor the infinite realms of space
+
 
 Next, we must see what reply can be made to those who agree that God
 is the Creator of the world, but have difficulties about the time of
@@ -17619,8 +17387,8 @@ vain to conceive of the past times of God's rest, since there is no
 time before the world.
 
 
-    6. _That the world and time had both one beginning, and the one
-                    did not anticipate the other._
+## 6. That the world and time had both one beginning, and the one did not anticipate the other
+
 
 For if eternity and time are rightly distinguished by this, that
 time does not exist without some movement and transition, while in
@@ -17652,8 +17420,8 @@ these were it is extremely difficult, or perhaps impossible for us to
 conceive, and how much more to say!
 
 
-    7. _Of the nature of the first days, which are said to have had
-             morning and evening, before there was a sun._
+## 7. Of the nature of the first days, which are said to have had morning and evening, before there was a sun
+
 
 We see, indeed, that our ordinary days have no evening but by the
 setting, and no morning but by the rising, of the sun; but the first
@@ -17696,8 +17464,8 @@ air, that is the fifth day; when in the knowledge of all animals that
 live on the earth, and of man himself, that is the sixth day.[456]
 
 
-  8. _What we are to understand of God's resting on the seventh day,
-                      after the six days' work._
+## 8. What we are to understand of God's resting on the seventh day, after the six days' work
+
 
 When it is said that God rested on the seventh day from all His
 works, and hallowed it, we are not to conceive of this in a
@@ -17725,8 +17493,8 @@ of God by the rest enjoined in their sabbath law, of which, in its
 own place, I shall speak more at large.
 
 
-  9. _What the Scriptures teach us to believe concerning the creation
-                            of the angels._
+## 9. What the Scriptures teach us to believe concerning the creation of the angels
+
 
 At present, since I have undertaken to treat of the origin of the holy
 city, and first of the holy angels, who constitute a large part of this
@@ -17799,8 +17567,8 @@ being deprived of the participation of Light eternal. For evil has no
 positive nature; but the loss of good has received the name "evil."[462]
 
 
-  10. _Of the simple and unchangeable Trinity, Father, Son, and Holy
-     Ghost, one God, in whom substance and quality are identical._
+## 10. Of the simple and unchangeable Trinity, Father, Son, and Holy Ghost, one God, in whom substance and quality are identical
+
 
 There is, accordingly, a good which is alone simple, and therefore
 alone unchangeable, and this is God. By this Good have all others
@@ -17884,8 +17652,8 @@ this world could not be known to us unless it existed, but could not
 have existed unless it had been known to God.
 
 
-  11. _Whether the angels that fell partook of the blessedness which
- the holy angels have always enjoyed from the time of their creation._
+## 11. Whether the angels that fell partook of the blessedness which the holy angels have always enjoyed from the time of their creation
+
 
 And since these things are so, those spirits whom we call angels were
 never at any time or in any way darkness, but, as soon as they were
@@ -17923,9 +17691,8 @@ blessedness, what is that of the angels, though, according to their
 capacity, they be perfectly blessed?
 
 
-  12. _A comparison of the blessedness of the righteous, who have not
-      yet received the divine reward, with that of our first parents
-      in paradise._
+## 12. A comparison of the blessedness of the righteous, who have not yet received the divine reward, with that of our first parents in paradise
+
 
 And the angels are not the only members of the rational and
 intellectual creation whom we call blessed. For who will take upon him
@@ -17951,10 +17718,8 @@ him, is more blessed than was he who, even in that great felicity of
 Paradise, was uncertain of his fate.[468]
 
 
-  13. _Whether all the angels were so created in one common state of
-      felicity, that those who fell were not aware that they would
-      fall, and that those who stood received assurance of their own
-      perseverance after the ruin of the fallen._
+## 13. Whether all the angels were so created in one common state of felicity, that those who fell were not aware that they would fall, and that those who stood received assurance of their own perseverance after the ruin of the fallen
+
 
 From all this, it will readily occur to any one that the blessedness
 which an intelligent being desires as its legitimate object results
@@ -18016,8 +17781,8 @@ a partaker of it, and have remained in blessedness along with the holy
 angels.[472]
 
 
-   14. _An explanation of what is said of the devil, that he did not
-        abide in the truth, because the truth was not in him._
+## 14. An explanation of what is said of the devil, that he did not abide in the truth, because the truth was not in him
+
 
 Moreover, as if we had been inquiring why the devil did not abide in
 the truth, our Lord subjoins the reason, saying, "because the truth
@@ -18035,8 +17800,8 @@ his prayer by the effect of God's hearing it; as if he had said, The
 proof that I have prayed is that Thou hast heard me.
 
 
-   15. _How we are to understand the words, "The devil sinneth from
-                           the beginning."_
+## 15. How we are to understand the words, "The devil sinneth from the beginning."
+
 
 As for what John says about the devil, "The devil sinneth from the
 beginning,"[474] they[475] who suppose it is meant hereby that the
@@ -18070,8 +17835,8 @@ which surpasses in dignity all else that He has made, the handiwork
 of the Most High!
 
 
-   16. _Of the ranks and differences of the creatures, estimated by
-   their utility, or according to the natural gradations of being._
+## 16. Of the ranks and differences of the creatures, estimated by their utility, or according to the natural gradations of being
+
 
 For, among those beings which exist, and which are not of God
 the Creator's essence, those which have life are ranked above
@@ -18106,8 +17871,8 @@ rank above men, yet, by the scale of justice, good men are of greater
 value than bad angels.
 
 
-    17. _That the flaw of wickedness is not nature, but contrary to
-   nature, and has its origin, not in the Creator, but in the will._
+## 17. That the flaw of wickedness is not nature, but contrary to nature, and has its origin, not in the Creator, but in the will
+
 
 It is with reference to the nature, then, and not to the wickedness
 of the devil, that we are to understand these words, "This is the
@@ -18132,8 +17897,8 @@ created him good, He yet had already foreseen and arranged how He
 would make use of him when he became wicked.
 
 
-      18. _Of the beauty of the universe, which becomes, by God's
-      ordinance, more brilliant by the opposition of contraries._
+## 18. Of the beauty of the universe, which becomes, by God's ordinance, more brilliant by the opposition of contraries
+
 
 For God would never have created any, I do not say angel, but even
 man, whose future wickedness He foreknew, unless He had equally
@@ -18161,8 +17926,8 @@ against the godly. So look upon all the works of the Most High, and
 these are two and two, one against another."[485]
 
 
-     19. _What, seemingly, we are to understand by the words, "God
-                divided the light from the darkness."_
+## 19. What, seemingly, we are to understand by the words, "God divided the light from the darkness."
+
 
 Accordingly, though the obscurity of the divine word has certainly
 this advantage, that it causes many opinions about the truth to be
@@ -18199,8 +17964,8 @@ from whom their wickedness (not of nature, but of will), while yet it
 was future, could not be hidden or uncertain.
 
 
-      20. _Of the words which follow the separation of light and
-         darkness, "And God saw the light that it was good."_
+## 20. Of the words which follow the separation of light and darkness, "And God saw the light that it was good."
+
 
 Then, we must not pass from this passage of Scripture without noticing
 that when God said, "Let there be light, and there was light," it was
@@ -18227,9 +17992,8 @@ while the angelic darkness, though it had been ordained, was yet not
 approved.
 
 
-  21. _Of God's eternal and unchangeable knowledge and will, whereby
-      all He has made pleased Him in the eternal design as well as in
-      the actual result._
+## 21. Of God's eternal and unchangeable knowledge and will, whereby all He has made pleased Him in the eternal design as well as in the actual result
+
 
 For what else is to be understood by that invariable refrain, "And
 God saw that it was good," than the approval of the work in its
@@ -18293,9 +18057,8 @@ things that are created, or was instructed regarding them by those
 who had discerned them.
 
 
-  22. _Of those who do not approve of certain things which are a part
-      of this good creation of a good Creator, and who think that
-      there is some natural evil._
+## 22. Of those who do not approve of certain things which are a part of this good creation of a good Creator, and who think that there is some natural evil
+
 
 This cause, however, of a good creation, namely, the goodness of
 God,--this cause, I say, so just and fit, which, when piously and
@@ -18355,7 +18118,8 @@ soul, I say, is not a part of God, nor of the same nature as God, but
 is created by Him, and is far different from its Creator.
 
 
-    23. _Of the error in which the doctrine of Origen is involved._
+## 23. Of the error in which the doctrine of Origen is involved
+
 
 But it is much more surprising that some even of those who, with
 ourselves, believe that there is one only source of all things,
@@ -18432,8 +18196,8 @@ Scripture,--this, I say, is questionable, and one can't be expected
 to explain everything in one volume.
 
 
-    24. _Of the divine Trinity, and the indications of its presence
-                scattered everywhere among its works._
+## 24. Of the divine Trinity, and the indications of its presence scattered everywhere among its works
+
 
 We believe, we maintain, we faithfully preach, that the Father
 begat the Word, that is, Wisdom, by which all things were made, the
@@ -18483,7 +18247,8 @@ loves. In God's eternity is its life; in God's truth its light; in
 God's goodness its joy.
 
 
-         25. _Of the division of philosophy into three parts._
+## 25. Of the division of philosophy into three parts
+
 
 As far as one can judge, it is for the same reason that philosophers
 have aimed at a threefold division of science, or rather, were enabled
@@ -18534,8 +18299,8 @@ certain that we must have Him for our teacher that we may be wise; Him,
 too, to dispense to us spiritual sweetness that we may be blessed.
 
 
-    26. _Of the image of the supreme Trinity, which we find in some
-           sort in human nature even in its present state._
+## 26. Of the image of the supreme Trinity, which we find in some sort in human nature even in its present state
+
 
 And we indeed recognise in ourselves the image of God, that is,
 of the supreme Trinity, an image which, though it be not equal to
@@ -18575,7 +18340,8 @@ who does not wish to be happy, so there is no one who does not wish
 to be. For how can he be happy, if he is nothing?
 
 
-    27. _Of existence, and knowledge of it, and the love of both._
+## 27. Of existence, and knowledge of it, and the love of both
+
 
 And truly the very fact of existing is by some natural spell so
 pleasant, that even the wretched are, for no other reason, unwilling
@@ -18643,9 +18409,8 @@ both that I am, and that I know this; and these two I love, and in
 the same manner I am assured that I love them.
 
 
-  28. _Whether we ought to love the love itself with which we love
-      our existence and our knowledge of it, that so we may more
-      nearly resemble the image of the divine Trinity._
+## 28. Whether we ought to love the love itself with which we love our existence and our knowledge of it, that so we may more nearly resemble the image of the divine Trinity
+
 
 We have said as much as the scope of this work demands regarding
 these two things, to wit, our existence, and our knowledge of it, and
@@ -18706,10 +18471,8 @@ whom and those who forsook light eternal and became darkness, God, as
 we have already said, made at the first a separation.
 
 
-  29. _Of the knowledge by which the holy angels know God in His
-      essence, and by which they see the causes of His works in the
-      art of the worker, before they see them in the works of the
-      artist._
+## 29. Of the knowledge by which the holy angels know God in His essence, and by which they see the causes of His works in the art of the worker, before they see them in the works of the artist
+
 
 Those holy angels come to the knowledge of God not by audible words,
 but by the presence to their souls of immutable truth, _i.e._, of
@@ -18747,8 +18510,8 @@ adoration of the Creator Himself, it is as if morning dawned in the
 minds of those who contemplate them.
 
 
-    30. _Of the perfection of the number six, which is the first of
-         the numbers which is composed of its aliquot parts._
+## 30. Of the perfection of the number six, which is the first of the numbers which is composed of its aliquot parts
+
 
 These works are recorded to have been completed in six days (the same
 day being six times repeated), because six is a perfect number,--not
@@ -18783,8 +18546,8 @@ God's praises, "Thou hast ordered all things in number, and measure,
 and weight."[499]
 
 
-     31. _Of the seventh day, in which completeness and repose are
-                             celebrated._
+## 31. Of the seventh day, in which completeness and repose are celebrated
+
 
 But, on the seventh day (_i.e._, the same day repeated seven times,
 which number is also a perfect one, though for another reason), the
@@ -18823,7 +18586,8 @@ difficulty that they help us; for their spiritual movements, pure and
 free, cost them no effort.
 
 
-  32. _Of the opinion that the angels were created before the world._
+## 32. Of the opinion that the angels were created before the world
+
 
 But if some one oppose our opinion, and say that the holy angels
 are not referred to when it is said, "Let there be light, and there
@@ -18864,9 +18628,8 @@ I say unto you, that in heaven their angels do always behold the face
 of my Father which is in heaven."[509]
 
 
-  33. _Of the two different and dissimilar communities of angels,
-      which are not inappropriately signified by the names light and
-      darkness._
+## 33. Of the two different and dissimilar communities of angels, which are not inappropriately signified by the names light and darkness
+
 
 That certain angels sinned, and were thrust down to the lowest parts
 of this world, where they are, as it were, incarcerated till their
@@ -18931,9 +18694,8 @@ of all, the creation is presented in sum, and then its parts are
 enumerated according to the mystic number of the days.
 
 
-  34. _Of the idea that the angels were meant where the separation
-      of the waters by the firmament is spoken of, and of that other
-      idea that the waters were not created._
+## 34. Of the idea that the angels were meant where the separation of the waters by the firmament is spoken of, and of that other idea that the waters were not created
+
 
 Some,[516] however, have supposed that the angelic hosts are somehow
 referred to under the name of waters, and that this is what is meant
@@ -18972,7 +18734,9 @@ diverse and contrary communities of angels, in which the origin of
 the two human communities (of which we intend to speak anon) is also
 found, let us at once bring this book also to a conclusion.
 
-FOOTNOTES:
+
+## Footnotes to Book XI
+
 
 [440] Written in the year 416 or 417.
 
@@ -19175,22 +18939,14 @@ sects mentioned by Theodoret and Epiphanius.
 [519] Ps. xcv. 5.
 
 
+# Book XII
 
 
-                             BOOK TWELFTH.
-
-                               ARGUMENT.
-
-  AUGUSTINE FIRST INSTITUTES TWO INQUIRIES REGARDING THE ANGELS;
-      NAMELY, WHENCE IS THERE IN SOME A GOOD, AND IN OTHERS AN
-      EVIL WILL? AND, WHAT IS THE REASON OF THE BLESSEDNESS OF THE
-      GOOD, AND THE MISERY OF THE EVIL? AFTERWARDS HE TREATS OF THE
-      CREATION OF MAN, AND TEACHES THAT HE IS NOT FROM ETERNITY, BUT
-      WAS CREATED, AND BY NONE OTHER THAN GOD.
+**Argument.** AUGUSTINE FIRST INSTITUTES TWO INQUIRIES REGARDING THE ANGELS; NAMELY, WHENCE IS THERE IN SOME A GOOD, AND IN OTHERS AN EVIL WILL? AND, WHAT IS THE REASON OF THE BLESSEDNESS OF THE GOOD, AND THE MISERY OF THE EVIL? AFTERWARDS HE TREATS OF THE CREATION OF MAN, AND TEACHES THAT HE IS NOT FROM ETERNITY, BUT WAS CREATED, AND BY NONE OTHER THAN GOD.
 
 
-   1. _That the nature of the angels, both good and bad, is one and
-                              the same._
+## 1. That the nature of the angels, both good and bad, is one and the same
+
 
 It has already, in the preceding book, been shown how the two cities
 originated among the angels. Before I speak of the creation of man,
@@ -19270,9 +19026,8 @@ departure from God, is sufficient proof that God created their nature
 so good, that it is an injury to it not to be with God.
 
 
-  2. _That there is no entity_[521] _contrary to the divine, because
-      nonentity seems to be that which is wholly opposite to Him who
-      supremely and always is._
+## 2. That there is no entity[521] contrary to the divine, because nonentity seems to be that which is wholly opposite to Him who supremely and always is
+
 
 This may be enough to prevent any one from supposing, when we speak
 of the apostate angels, that they could have another nature, derived,
@@ -19296,9 +19051,8 @@ And thus there is no being contrary to God, the Supreme Being, and
 Author of all beings whatsoever.
 
 
-  3. _That the enemies of God are so, not by nature but by will,
-      which, as it injures them, injures a good nature; for if vice
-      does not injure, it is not vice._
+## 3. That the enemies of God are so, not by nature but by will, which, as it injures them, injures a good nature; for if vice does not injure, it is not vice
+
 
 In Scripture they are called God's enemies who oppose His rule,
 not by nature, but by vice; having no power to hurt Him, but only
@@ -19339,8 +19093,8 @@ of the nature, which has a mental capacity for that enlightenment
 which discriminates between what is just and what is unjust.
 
 
-   4. _Of the nature of irrational and lifeless creatures, which in
-   their own kind and order do not mar the beauty of the universe._
+## 4. Of the nature of irrational and lifeless creatures, which in their own kind and order do not mar the beauty of the universe
+
 
 But it is ridiculous to condemn the faults of beasts and trees, and
 other such mortal and mutable things as are void of intelligence,
@@ -19392,7 +19146,8 @@ weak eyes; and in that heat which is disagreeable to them, some
 animals find the most suitable conditions of a healthy life.
 
 
-  5. _That in all natures, of every kind and rank, God is glorified._
+## 5. That in all natures, of every kind and rank, God is glorified
+
 
 All natures, then, inasmuch as they are, and have therefore a rank
 and species of their own, and a kind of internal harmony, are
@@ -19413,8 +19168,8 @@ made it), is not to be found fault with on account of the creature's
 faults, but is to be praised in view of the natures He has made.
 
 
-   6. _What the cause of the blessedness of the good angels is, and
-             what the cause of the misery of the wicked._
+## 6. What the cause of the blessedness of the good angels is, and what the cause of the misery of the wicked
+
 
 Thus the true cause of the blessedness of the good angels is found
 to be this, that they cleave to Him who supremely is. And if we
@@ -19519,8 +19274,8 @@ though mutable, should produce any evil--that is to say, should make
 the will itself wicked?
 
 
-  7. _That we ought not to expect to find any efficient cause of the
-                              evil will._
+## 7. That we ought not to expect to find any efficient cause of the evil will
+
 
 Let no one, therefore, look for an efficient cause of the evil will;
 for it is not efficient, but deficient, as the will itself is not an
@@ -19545,8 +19300,8 @@ when they are deficient, it knows them by not knowing them; for "who
 can understand defects?"[527]
 
 
-    8. _Of the misdirected love whereby the will fell away from the
-                    immutable to the mutable good._
+## 8. Of the misdirected love whereby the will fell away from the immutable to the mutable good
+
 
 This I do know, that the nature of God can never, nowhere,
 nowise be defective, and that natures made of nothing can. These
@@ -19579,9 +19334,8 @@ he obtain it, himself becomes evil in the good, and wretched because
 deprived of a greater good.
 
 
-  9. _Whether the angels, besides receiving from God their nature,
-      received from Him also their good will by the Holy Spirit
-      imbuing them with love._
+## 9. Whether the angels, besides receiving from God their nature, received from Him also their good will by the Holy Spirit imbuing them with love
+
 
 There is, then, no natural efficient cause, or, if I may be allowed
 the expression, no essential cause, of the evil will, since itself
@@ -19664,8 +19418,8 @@ since, among its other true statements, it predicted, by its divine
 foresight, that all nations would give credit to it.
 
 
-    10. _Of the falseness of the history which allots many thousand
-                      years to the world's past._
+## 10. Of the falseness of the history which allots many thousand years to the world's past
+
 
 Let us, then, omit the conjectures of men who know not what they say,
 when they speak of the nature and origin of the human race. For some
@@ -19725,10 +19479,8 @@ too, that it had truly narrated past events by its prediction of future
 events, which have so exactly come to pass!
 
 
-  11. _Of those who suppose that this world indeed is not eternal,
-      but that either there are numberless worlds, or that one and
-      the same world is perpetually resolved into its elements, and
-      renewed at the conclusion of fixed cycles._
+## 11. Of those who suppose that this world indeed is not eternal, but that either there are numberless worlds, or that one and the same world is perpetually resolved into its elements, and renewed at the conclusion of fixed cycles
+
 
 There are some, again, who, though they do not suppose that this
 world is eternal, are of opinion either that this is not the only
@@ -19747,8 +19499,8 @@ produced, and then that the progeny of mortals sprang like that of
 other animals from their parents.
 
 
-12. _How these persons are to be answered, who find fault with the
-creation of man on the score of its recent date._
+## 12. How these persons are to be answered, who find fault with the creation of man on the score of its recent date
+
 
 As to those who are always asking why man was not created during
 these countless ages of the infinitely extended past, and came into
@@ -19805,9 +19557,8 @@ about the commencement of this world's history would have had precisely
 the same difficulties as it has now.
 
 
-  13. _Of the revolution of the ages, which some philosophers believe
-      will bring all things round again, after a certain fixed cycle,
-      to the same order and form as at first._
+## 13. Of the revolution of the ages, which some philosophers believe will bring all things round again, after a certain fixed cycle, to the same order and form as at first
+
 
 This controversy some philosophers have seen no other approved means
 of solving than by introducing cycles of time, in which there should
@@ -19868,9 +19619,8 @@ these philosophers imagine, but because the path in which their false
 doctrine now runs is circuitous.
 
 
-  14. _Of the creation of the human race in time, and how this was
-      effected without any new design or change of purpose on God's
-      part._
+## 14. Of the creation of the human race in time, and how this was effected without any new design or change of purpose on God's part
+
 
 What wonder is it if, entangled in these circles, they find neither
 entrance nor egress? For they know not how the human race, and this
@@ -19902,10 +19652,8 @@ and that man, whom He had never made before, He willed to make in
 time, and this without changing His design and will.
 
 
-  15. _Whether we are to believe that God, as He has always been
-      sovereign Lord, has always had creatures over whom He exercised
-      His sovereignty; and in what sense we can say that the creature
-      has always been, and yet cannot say it is co-eternal._
+## 15. Whether we are to believe that God, as He has always been sovereign Lord, has always had creatures over whom He exercised His sovereignty; and in what sense we can say that the creature has always been, and yet cannot say it is co-eternal
+
 
 For my own part, indeed, as I dare not say that there ever was a time
 when the Lord God was not Lord,[543] so I ought not to doubt that man
@@ -20025,8 +19773,8 @@ grows, of taking more; but if its strength and capacity be overtaxed,
 it dwines away in place of growing.
 
 
-     16. _How we are to understand God's promise of life eternal,
-            which was uttered before the "eternal times."_
+## 16. How we are to understand God's promise of life eternal, which was uttered before the "eternal times."
+
 
 I own that I do not know what ages passed before the human race was
 created, yet I have no doubt that no created thing is co-eternal with
@@ -20045,10 +19793,8 @@ in His own eternity, and in His co-eternal word, that which was to be
 in its own time was already predestined and fixed?
 
 
-  17. _What defence is made by sound faith regarding God's
-      unchangeable counsel and will, against the reasonings of those
-      who hold that the works of God are eternally repeated in
-      revolving cycles that restore all things as they were._
+## 17. What defence is made by sound faith regarding God's unchangeable counsel and will, against the reasonings of those who hold that the works of God are eternally repeated in revolving cycles that restore all things as they were
+
 
 Of this, too, I have no doubt, that before the first man was created,
 there never had been a man at all, neither this same man himself
@@ -20127,8 +19873,8 @@ is of His own gratuitous goodness He creates, since from eternity He
 dwelt without creatures in no less perfect a blessedness.
 
 
-    18. _Against those who assert that things that are infinite_[550]
-           _cannot be comprehended by the knowledge of God._
+## 18. Against those who assert that things that are infinite[550] cannot be comprehended by the knowledge of God
+
 
 As for their other assertion, that God's knowledge cannot comprehend
 things infinite, it only remains for them to affirm, in order that
@@ -20173,7 +19919,8 @@ could not produce them without order and foresight, nor conceive them
 suddenly, but by His eternal foreknowledge.
 
 
-           19. _Of worlds without end, or ages of ages._[556]
+## 19. Of worlds without end, or ages of ages.[556]
+
 
 I do not presume to determine whether God does so, and whether
 these times which are called "ages of ages" are joined together
@@ -20210,9 +19957,8 @@ same things have no existence; and nothing more thoroughly explodes
 them than the fact of the eternal life of the saints.
 
 
-  20. _Of the impiety of those who assert that the souls which enjoy
-      true and perfect blessedness, must yet again and again in these
-      periodic revolutions return to labour and misery._
+## 20. Of the impiety of those who assert that the souls which enjoy true and perfect blessedness, must yet again and again in these periodic revolutions return to labour and misery
+
 
 What pious ears could bear to hear that after a life spent in so
 many and severe distresses (if, indeed, that should be called a
@@ -20360,8 +20106,8 @@ some beginning; and this beginning never before existed. That this
 beginning, therefore, might be, the first man was created.
 
 
-   21. _That there was created at first but one individual, and that
-                  the human race was created in him._
+## 21. That there was created at first but one individual, and that the human race was created in him
+
 
 Now that we have solved, as well as we could, this very difficult
 question about the eternal God creating new things, without any
@@ -20392,9 +20138,8 @@ man, but created her out of the man, that the whole human race might
 derive from one man.
 
 
-  22. _That God foreknew that the first man would sin, and that He at
-      the same time foresaw how large a multitude of godly persons
-      would by His grace be translated to the fellowship of the angels._
+## 22. That God foreknew that the first man would sin, and that He at the same time foresaw how large a multitude of godly persons would by His grace be translated to the fellowship of the angels
+
 
 And God was not ignorant that man would sin, and that, being himself
 made subject now to death, he would propagate men doomed to die, and
@@ -20413,7 +20158,8 @@ consideration that God had caused all men to be derived from one, for
 the sake of showing how highly He prizes unity in a multitude.
 
 
-  23. _Of the nature of the human soul created in the image of God._
+## 23. Of the nature of the human soul created in the image of God
+
 
 God, then, made man in His own image. For He created for him a soul
 endowed with reason and intelligence, so that he might excel all the
@@ -20441,8 +20187,8 @@ them; though these very things, too, are attributed by many rather to
 physical and natural causes than to the work of the divine mind.
 
 
-  24. _Whether the angels can be said to be the creators of any, even
-                         the least creature._
+## 24. Whether the angels can be said to be the creators of any, even the least creature
+
 
 But in this book we have nothing to do with those who do not believe
 that the divine mind made or cares for this world. As for those who
@@ -20463,8 +20209,8 @@ on that account are we to call them creators, any more than we call
 gardeners the creators of fruits and trees.
 
 
-     25. _That God alone is the Creator of every kind of creature,
-                     whatever its nature or form._
+## 25. That God alone is the Creator of every kind of creature, whatever its nature or form
+
 
 For whereas there is one form which is given from without to every
 bodily substance,--such as the form which is constructed by potters
@@ -20530,9 +20276,8 @@ eternity, not of time. For what other creator could there be of time,
 than He who created those things whose movements make time?[569]
 
 
-  26. _Of that opinion of the Platonists, that the angels were
-      themselves indeed created by God, but that afterwards they
-      created man's body._
+## 26. Of that opinion of the Platonists, that the angels were themselves indeed created by God, but that afterwards they created man's body
+
 
 It is obvious, that in attributing the creation of the other animals
 to those inferior gods who were made by the Supreme, he meant it to be
@@ -20568,10 +20313,8 @@ the constructor of works, the idea and plan of which called for His
 ineffable and ineffably to be praised intelligence?
 
 
-  27. _That the whole plenitude of the human race was embraced in the
-      first man, and that God there saw the portion of it which was
-      to be honoured and rewarded, and that which was to be condemned
-      and punished._
+## 27. That the whole plenitude of the human race was embraced in the first man, and that God there saw the portion of it which was to be honoured and rewarded, and that which was to be condemned and punished
+
 
 With good cause, therefore, does the true religion recognise and
 proclaim that the same God who created the universal cosmos, created
@@ -20607,7 +20350,9 @@ the secret yet just judgment of God. For since it is written, "All
 the paths of the Lord are mercy and truth,"[572] neither can His
 grace be unjust, nor His justice cruel.
 
-FOOTNOTES:
+
+## Footnotes to Book XII
+
 
 [520] _Vitium_: perhaps "fault" most nearly embraces all the uses of
 this word.
@@ -20720,13 +20465,13 @@ hate.
 
 [561]
 
-                                      "Quando leoni
-          Fortior eripuit vitam leo? quo nemore unquam
-          Exspiravit aper majoris dentibus apri?
-          Indica tigris agit rabida cum tigride pacem
-          Perpetuam; sævis inter se convenit ursis.
-          Ast homini," etc.
-                                        JUVENAL, _Sat._ xv. 160-5.
+"Quando leoni\
+Fortior eripuit vitam leo? quo nemore unquam\
+Exspiravit aper majoris dentibus apri?\
+Indica tigris agit rabida cum tigride pacem\
+Perpetuam; sævis inter se convenit ursis.\
+Ast homini," etc.\
+JUVENAL, _Sat._ xv. 160-5.
 
 --See also the very striking lines which precede these.
 
@@ -20758,18 +20503,14 @@ c. xi.
 [572] Ps. xxv. 10.
 
 
+# Book XIII
 
 
-                           BOOK THIRTEENTH.
-
-                               ARGUMENT.
-
-      IN THIS BOOK IT IS TAUGHT THAT DEATH IS PENAL, AND HAD ITS
-                         ORIGIN IN ADAM'S SIN.
+**Argument.** IN THIS BOOK IT IS TAUGHT THAT DEATH IS PENAL, AND HAD ITS ORIGIN IN ADAM'S SIN.
 
 
-     1. _Of the fall of the first man, through which mortality has
-                           been contracted._
+## 1. Of the fall of the first man, through which mortality has been contracted
+
 
 Having disposed of the very difficult questions concerning the origin
 of our world and the beginning of the human race, the natural order
@@ -20784,8 +20525,8 @@ on them with just sentence--which, too, has been spoken to in the
 preceding book.
 
 
-   2. _Of that death which can affect an immortal soul, and of that
-                    to which the body is subject._
+## 2. Of that death which can affect an immortal soul, and of that to which the body is subject
+
 
 But I see I must speak a little more carefully of the nature of
 death. For although the human soul is truly affirmed to be immortal,
@@ -20831,8 +20572,8 @@ to the evil. But, doubtless, the second, as it happens to none of the
 good, so it can be good for none.
 
 
-  3. _Whether death, which by the sin of our first parents has passed
-      upon all men, is the punishment of sin, even to the good._
+## 3. Whether death, which by the sin of our first parents has passed upon all men, is the punishment of sin, even to the good
+
 
 But a question not to be shirked arises: Whether in very truth death,
 which separates soul and body, is good to the good?[574] For if it
@@ -20885,8 +20626,8 @@ and body; but being redeemed from the obligation of sin, they do not
 pass to that second endless and penal death.
 
 
-   4. _Why death, the punishment of sin, is not withheld from those
-       who by the grace of regeneration are absolved from sin._
+## 4. Why death, the punishment of sin, is not withheld from those who by the grace of regeneration are absolved from sin
+
 
 If, moreover, any one is solicitous about this point, how, if death
 be the very punishment of sin, they whose guilt is cancelled by grace
@@ -20931,8 +20672,8 @@ faith this grace, that death, which is the admitted opposite to life,
 should become the instrument by which life is reached.
 
 
-    5. _As the wicked make an ill use of the law, which is good, so
-         the good make a good use of death, which is an ill._
+## 5. As the wicked make an ill use of the law, which is good, so the good make a good use of death, which is an ill
+
 
 The apostle, wishing to show how hurtful a thing sin is, when grace
 does not aid us, has not hesitated to say that the strength of sin
@@ -20964,8 +20705,8 @@ use of the law, though the law is good; and that the good die well,
 though death is an evil.
 
 
-   6. _Of the evil of death in general, considered as the separation
-                          of soul and body._
+## 6. Of the evil of death in general, considered as the separation of soul and body
+
 
 Wherefore, as regards bodily death, that is, the separation of the
 soul from the body, it is good unto none while it is being endured
@@ -20987,8 +20728,8 @@ becomes the glory of those who are born again; and though death be
 the award of sin, it sometimes secures that nothing be awarded to sin.
 
 
-       7. _Of the death which the unbaptized_[580] _suffer for the
-                        confession of Christ._
+## 7. Of the death which the unbaptized[580] suffer for the confession of Christ
+
 
 For whatever unbaptized persons die confessing Christ, this
 confession is of the same efficacy for the remission of sins as if
@@ -21028,8 +20769,8 @@ sin may not be committed, or, if committed, be remitted, and the
 award of righteousness bestowed on him whose victory has earned it.
 
 
-   8. _That the saints, by suffering the first death for the truth's
-                   sake, are freed from the second._
+## 8. That the saints, by suffering the first death for the truth's sake, are freed from the second
+
 
 For if we look at the matter a little more carefully, we shall see
 that even when a man dies faithfully and laudably for the truth's
@@ -21049,9 +20790,8 @@ bodies rise again,--those of the just to life everlasting, and of the
 others to death eternal, which is called the second death.
 
 
-  9. _Whether we should say that the moment of death, in which
-      sensation ceases, occurs in the experience of the dying or in
-      that of the dead._
+## 9. Whether we should say that the moment of death, in which sensation ceases, occurs in the experience of the dying or in that of the dead
+
 
 The point of time in which the souls of the good and evil are
 separated from the body, are we to say it is after death, or in death
@@ -21086,8 +20826,8 @@ cannot deny that he is living. On the other hand, if the man who is
 approaching death be rather called dying, I know not who is living.
 
 
-    10. _Of the life of mortals, which is rather to be called death
-                              than life._
+## 10. Of the life of mortals, which is rather to be called death than life
+
 
 For no sooner do we begin to live in this dying body, than we begin
 to move ceaselessly towards death.[585] For in the whole course of
@@ -21127,7 +20867,8 @@ if, when it has all been consumed, a man is not in death but after
 death, when is he in death, unless when life is being consumed away?
 
 
-    11. _Whether one can both be living and dead at the same time._
+## 11. Whether one can both be living and dead at the same time
+
 
 But if it is absurd to say that a man is in death before he reaches
 death (for to what is his course running as he passes through life,
@@ -21214,8 +20955,8 @@ but endlessly dying. And never can a man be more disastrously in death
 than when death itself shall be deathless.
 
 
-  12. _What death God intended, when He threatened our first parents
-          with death if they should disobey His commandment._
+## 12. What death God intended, when He threatened our first parents with death if they should disobey His commandment
+
 
 When, therefore, it is asked what death it was with which God
 threatened our first parents if they should transgress the commandment
@@ -21241,8 +20982,8 @@ is, even to that final death which is called second, and to which none
 is subsequent.
 
 
-    13. _What was the first punishment of the transgression of our
-                            first parents?_
+## 13. What was the first punishment of the transgression of our first parents?
+
 
 For, as soon as our first parents had transgressed the commandment,
 divine grace forsook them, and they were confounded at their own
@@ -21263,8 +21004,8 @@ a seed of death, and bearing in our members, and in our vitiated
 nature, the contest or even victory of the flesh.
 
 
-    14. _In what state man was made by God, and into what estate he
-                 fell by the choice of his own will._
+## 14. In what state man was made by God, and into what estate he fell by the choice of his own will
+
 
 For God, the author of natures, not of vices, created man upright;
 but man, being of his own will corrupted, and justly condemned, begot
@@ -21282,8 +21023,8 @@ corrupt root, on to the destruction of the second death, which has no
 end, those only being excepted who are freed by the grace of God.
 
 
-    15. _That Adam in his sin forsook God ere God forsook him, and
-   that his falling away from God was the first death of the soul._
+## 15. That Adam in his sin forsook God ere God forsook him, and that his falling away from God was the first death of the soul
+
 
 It may perhaps be supposed that because God said, "Ye shall die the
 death,"[590] and not "deaths," we should understand only that death
@@ -21320,10 +21061,8 @@ vengeance on sin, said to the man, in whom we all then were, "Dust thou
 art, and unto dust shalt thou return."
 
 
-  16. _Concerning the philosophers who think that the separation of
-      soul and body is not penal, though Plato represents the supreme
-      Deity as promising to the inferior gods that they shall never
-      be dismissed from their bodies._
+## 16. Concerning the philosophers who think that the separation of soul and body is not penal, though Plato represents the supreme Deity as promising to the inferior gods that they shall never be dismissed from their bodies
+
 
 But the philosophers against whom we are defending the city of God,
 that is, His Church, seem to themselves to have good cause to deride
@@ -21392,8 +21131,8 @@ gods He had made, that they should not die, that is, should not be
 separated from the bodies with which He had connected them.
 
 
-   17. _Against those who affirm that earthly bodies cannot be made
-                      incorruptible and eternal._
+## 17. Against those who affirm that earthly bodies cannot be made incorruptible and eternal
+
 
 These same philosophers further contend that terrestrial bodies
 cannot be eternal, though they make no doubt that the whole earth,
@@ -21472,9 +21211,8 @@ cumbersome, painful, dying,--not such bodies as the goodness of God
 contrived for the first man, but such only as man's sin entailed.
 
 
-  18. _Of earthly bodies, which the philosophers affirm cannot be in
-      heavenly places, because whatever is of earth is by its natural
-      weight attracted to earth._
+## 18. Of earthly bodies, which the philosophers affirm cannot be in heavenly places, because whatever is of earth is by its natural weight attracted to earth
+
 
 But it is necessary, they say, that the natural weight of earthly
 bodies either keep them on earth or draw them to it; and therefore
@@ -21537,8 +21275,8 @@ resurrection of the dead, and concerning their immortal bodies, we
 shall speak more at large, God willing, in the end of this work.
 
 
-     19. _Against the opinion of those who do not believe that the
-    primitive men would have been immortal if they had not sinned._
+## 19. Against the opinion of those who do not believe that the primitive men would have been immortal if they had not sinned
+
 
 At present let us go on, as we have begun, to give some explanation
 regarding the bodies of our first parents. I say then, that, except
@@ -21607,8 +21345,8 @@ neither shall any corruption or unwieldiness be suffered to attach to
 their flesh, nor any grief or trouble to cloud their felicity?
 
 
-     20. _That the flesh now resting in peace shall be raised to a
-      perfection not enjoyed by the flesh of our first parents._
+## 20. That the flesh now resting in peace shall be raised to a perfection not enjoyed by the flesh of our first parents
+
 
 Thus the souls of departed saints are not affected by the death which
 dismisses them from their bodies, because their flesh rests in hope,
@@ -21653,9 +21391,8 @@ which it is written, "She is a tree of life to them that lay hold upon
 her."[601]
 
 
-  21. _Of Paradise, that it can be understood in a spiritual sense
-      without sacrificing the historic truth of the narrative
-      regarding the real place._
+## 21. Of Paradise, that it can be understood in a spiritual sense without sacrificing the historic truth of the narrative regarding the real place
+
 
 On this account some allegorize all that concerns Paradise itself,
 where the first men, the parents of the human race, are, according to
@@ -21697,8 +21434,8 @@ offence to any one, while yet we believe the strict truth of the
 history, confirmed by its circumstantial narrative of facts.[606]
 
 
-  22. _That the bodies of the saints shall after the resurrection be
-      spiritual, and yet flesh shall not be changed into spirit._
+## 22. That the bodies of the saints shall after the resurrection be spiritual, and yet flesh shall not be changed into spirit
+
 
 The bodies of the righteous, then, such as they shall be in the
 resurrection, shall need neither any fruit to preserve them from
@@ -21726,9 +21463,8 @@ spiritual, not because they shall cease to be bodies, but because
 they shall subsist by the quickening spirit.
 
 
-  23. _What we are to understand by the animal and spiritual body; or
-      of those who die in Adam, and of those who are made alive in
-      Christ._
+## 23. What we are to understand by the animal and spiritual body; or of those who die in Adam, and of those who are made alive in Christ
+
 
 For as those bodies of ours, that have a living soul, though not as
 yet a quickening spirit, are called soul-informed bodies, and yet are
@@ -21863,10 +21599,8 @@ not this the primal condition of man from which the blessed apostle
 selects his testimony to show what the animal body is?
 
 
-  24. _How we must understand that breathing of God by which "the
-      first man was made a living soul," and that also by which
-      the Lord conveyed His Spirit to His disciples when He said,
-      "Receive ye the Holy Ghost."_
+## 24. How we must understand that breathing of God by which "the first man was made a living soul," and that also by which the Lord conveyed His Spirit to His disciples when He said, "Receive ye the Holy Ghost."
+
 
 Some have hastily supposed from the words, "God breathed into Adam's
 nostrils the breath of life, and man became a living soul,"[619]
@@ -22078,10 +21812,11 @@ were created? But as this book must be concluded, and so large a
 question cannot be summarily disposed of, we may relegate it to the
 following book, in which it will be more conveniently treated.
 
-                      MURRAY AND GIBB, EDINBURGH,
-             PRINTERS TO HER MAJESTY'S STATIONERY OFFICE.
+MURRAY AND GIBB, EDINBURGH,\
+PRINTERS TO HER MAJESTY'S STATIONERY OFFICE.
 
-FOOTNOTES:
+## Footnotes to Book XIII
+
 
 [573] Matt. x. 28.
 
@@ -22226,147 +21961,143 @@ denied a visible Paradise.--_De Hæres._ 59.
 [632] 1 Cor. xv. 44-49.
 
 
+LIST OF WORKS
+
+PUBLISHED BY
+
+T. & T. CLARK, EDINBURGH.
 
 
-                             LIST OF WORKS
+SUBSCRIPTION BOOKS.
 
-                             PUBLISHED BY
+=Foreign Theological Library.=
 
-                       T. & T. CLARK, EDINBURGH.
+_MESSRS. CLARK beg respectfully to intimate that from this time
+they will allow a Selection of Twenty Volumes (or more at the
+same ratio) from the various Series, with the exception of
+the Volumes issued in 1868-69-70. No Duplicates allowed in a
+Selection of Twelve or Twenty Volumes._
 
-
-                          SUBSCRIPTION BOOKS.
-
-                    =Foreign Theological Library.=
-
-  _MESSRS. CLARK beg respectfully to intimate that from this time
-      they will allow a Selection of Twenty Volumes (or more at the
-      same ratio) from the various Series, with the exception of
-      the Volumes issued in 1868-69-70. No Duplicates allowed in a
-      Selection of Twelve or Twenty Volumes._
-
-                 At the Subscription Price of £5, 5s.
+At the Subscription Price of £5, 5s.
 
 
-  ----------------------------------------------------+---------------
-                                                      | Selling Price.
-                                                      |  £ _s._ _d._
-  Any 12 vols. of First Series (or more at same       |
-       ratio),                                        |  3   3    0
-                                                      |
-  =FIRST SERIES=, 29 vols. demy 8vo.       _netto_    |  7  12    0
-                                                      |
-  Hengstenberg's Commentary on the Psalms. 3 vols.    |
-  Shedd's History of Christian Doctrine. 2 vols.      |
-  Gieseler's Compendium of Ecclesiastical History.    |
-       5 vols.                                        |
-  Neander's General Church History. 9 vols.           |
-  Olshausen on the Gospels and Acts. 4 vols.          |
-  Olshausen on the Romans.                            |
-  Olshausen on the Corinthians.                       |
-  Olshausen on the Galatians, Ephesians, Colossians,  |
-       and Thessalonians.                             |
-  Olshausen on Philippians, Titus, and Timothy.       |
-  Olshausen and Ebrard on the Hebrews.                |
-  Havernick's General Introduction to the Old         |
-       Testament.                                     |
-                                                      |
-  =SECOND SERIES=, 20 vols. demy 8vo, cloth,          |  5   5    0
-                                                      |
-  Stier on the Words of the Lord Jesus. 8 vols.       |
-  Hengstenberg's Christology of the Old Testament.    |
-       4 vols.                                        |
-  Ullmann's Reformers before the Reformation. 2 vols. |
-  Gerlach's Commentary on the Pentateuch. 1 vol.      |
-  Müller on the Christian Doctrine of Sin. 2 vols.    |
-       (_new translation_).                           |
-  Baumgarten's Apostolic History. 3 vols.             |
-                                                      |
-  =THIRD SERIES=, 20 vols. demy 8vo, cloth,           |  5   5    0
-                                                      |
-  Kurtz's History of the Old Covenant. 3 vols.        |
-  Stier on the Words of the Risen Saviour, etc. 1 vol.|
-  Tholuck on the Gospel of St. John. 1 vol.           |
-  Hengstenberg on Ecclesiastes, etc. 1 vol.           |
-  Tholuck on Christ's Sermon on the Mount. 1 vol.     |
-  Ebrard on Epistles of John. 1 vol.                  |
-  Dorner on the Person of Christ. 5 vols.             |
-  Lange on the Gospels of St. Matthew and St. Mark.   |
-       3 vols.                                        |
-  Oosterzee and Lange on St. Luke's Gospel. 2 vols.   |
-  Ebrard's Gospel History. 1 vol.                     |
-  Kurtz's Sacrificial Worship of the Old Testament.   |
-       1 vol.                                         |
-                                                      |
-  =FOURTH SERIES= (1864-71),                          |  8   8    0
-                                                      |
-  Any two years in this series can be had at          |
-       Subscription price.                            |
-                                                      |
-        (1864-65.)                                    |
-  Lange on the Acts of the Apostles. 2 vols.      }   |
-  Keil and Delitzsch on the Pentateuch. 3 vols.   }   |  2   2    0
-  Hengstenberg on the Gospel of John. 2 vols.     }   |
-  Keil and Delitzsch on Joshua, Judges, and Ruth. }   |
-       1 vol.                                     }   |
-                                                      |
-        (1866.)                                       |
-  Keil and Delitzsch on Samuel. 1 vol.            }   |
-  Keil and Delitzsch on Job. 2 vols.              }   |  1   1    0
-  Martensen's System of Christian Doctrine.       }   |
-       1 vol.                                     }   |
-                                                      |
-        (1867.)                                       |
-  Delitzsch on Isaiah. Vol. I.                    }   |
-  Delitzsch on Biblical Psychology.               }   |  1   1    0
-  Delitzsch on Isaiah. Vol. II.                   }   |
-  Auberlen on Divine Revelation.                  }   |
-                                                      |
-        (1868.)                                       |
-  Keil's Commentary on the Minor Prophets.        }   |
-       2 vols.                                    }   |
-  Delitzsch's Commentary on Epistle to the        }   |
-       Hebrews. Vol. I.                           }   |  1   1    0
-  Harless' System of Christian Ethics. 1 vol.     }   |
-                                                      |
-        (1869.)                                       |
-  Hengstenberg on Ezekiel. 1 vol.                 }   |
-  Stier on the Words of the Apostles. 1 vol.      }   |  1   1    0
-  Keil's Introduction to the Old Testament.       }   |
-       Vol. I.                                    }   |
-  Bleek's Introduction to the New Testament.      }   |
-       Vol. I.                                    }   |
-                                                      |
-        (1870.)                                       |
-  Keil's Introduction to the Old Testament.       }   |
-       Vol. II.                                   }   |
-  Bleek's Introduction to the New Testament.      }   |  1   1    0
-       Vol. II.                                   }   |
-  Schmid's New Testament Theology. 1 vol.         }   |
-  Delitzsch's Commentary on Epistle to the        }   |
-       Hebrews. Vol. II.                          }   |
-                                                      |
-  _The First Issue for_ 1871 _comprises_--        }   |
-  Delitzsch's Commentary on the Psalms. Vols. I.  }   |
-       and II.                                    }   |  1   1    0
-  _This Subscription includes other two volumes,_ }   |
-  _the names of which will be announced shortly._ }   |
-                                                      |
-  _The Retail Bookseller is entitled to charge_       |
-       24 _s. if the Subscription is not paid by      |
-       his Customer in advance._                      |
-                                                      |
-                                                      |
-  =BENGEL'S GNOMON OF THE NEW TESTAMENT.= (Sixth      |
-       Thousand now ready.) Now first translated      |
-       into English, with Original Notes,             |
-       Explanatory and Illustrative, in five large    |
-       volumes, demy 8vo, Edited by Rev. ANDREW       |
-       R. FAUSSETT, M.A., Rector of St.               |
-       Cuthbert's, York,             _netto_          |  1   11
-  ----------------------------------------------------+---------------
-
-
+----------------------------------------------------+---------------
+| Selling Price.
+|  £ _s._ _d._
+Any 12 vols. of First Series (or more at same       |
+ratio),                                        |  3   3    0
+|
+=FIRST SERIES=, 29 vols. demy 8vo.       _netto_    |  7  12    0
+|
+Hengstenberg's Commentary on the Psalms. 3 vols.    |
+Shedd's History of Christian Doctrine. 2 vols.      |
+Gieseler's Compendium of Ecclesiastical History.    |
+5 vols.                                        |
+Neander's General Church History. 9 vols.           |
+Olshausen on the Gospels and Acts. 4 vols.          |
+Olshausen on the Romans.                            |
+Olshausen on the Corinthians.                       |
+Olshausen on the Galatians, Ephesians, Colossians,  |
+and Thessalonians.                             |
+Olshausen on Philippians, Titus, and Timothy.       |
+Olshausen and Ebrard on the Hebrews.                |
+Havernick's General Introduction to the Old         |
+Testament.                                     |
+|
+=SECOND SERIES=, 20 vols. demy 8vo, cloth,          |  5   5    0
+|
+Stier on the Words of the Lord Jesus. 8 vols.       |
+Hengstenberg's Christology of the Old Testament.    |
+4 vols.                                        |
+Ullmann's Reformers before the Reformation. 2 vols. |
+Gerlach's Commentary on the Pentateuch. 1 vol.      |
+Müller on the Christian Doctrine of Sin. 2 vols.    |
+(_new translation_).                           |
+Baumgarten's Apostolic History. 3 vols.             |
+|
+=THIRD SERIES=, 20 vols. demy 8vo, cloth,           |  5   5    0
+|
+Kurtz's History of the Old Covenant. 3 vols.        |
+Stier on the Words of the Risen Saviour, etc. 1 vol.|
+Tholuck on the Gospel of St. John. 1 vol.           |
+Hengstenberg on Ecclesiastes, etc. 1 vol.           |
+Tholuck on Christ's Sermon on the Mount. 1 vol.     |
+Ebrard on Epistles of John. 1 vol.                  |
+Dorner on the Person of Christ. 5 vols.             |
+Lange on the Gospels of St. Matthew and St. Mark.   |
+3 vols.                                        |
+Oosterzee and Lange on St. Luke's Gospel. 2 vols.   |
+Ebrard's Gospel History. 1 vol.                     |
+Kurtz's Sacrificial Worship of the Old Testament.   |
+1 vol.                                         |
+|
+=FOURTH SERIES= (1864-71),                          |  8   8    0
+|
+Any two years in this series can be had at          |
+Subscription price.                            |
+|
+(1864-65.)                                    |
+Lange on the Acts of the Apostles. 2 vols.      }   |
+Keil and Delitzsch on the Pentateuch. 3 vols.   }   |  2   2    0
+Hengstenberg on the Gospel of John. 2 vols.     }   |
+Keil and Delitzsch on Joshua, Judges, and Ruth. }   |
+1 vol.                                     }   |
+|
+(1866.)                                       |
+Keil and Delitzsch on Samuel. 1 vol.            }   |
+Keil and Delitzsch on Job. 2 vols.              }   |  1   1    0
+Martensen's System of Christian Doctrine.       }   |
+1 vol.                                     }   |
+|
+(1867.)                                       |
+Delitzsch on Isaiah. Vol. I.                    }   |
+Delitzsch on Biblical Psychology.               }   |  1   1    0
+Delitzsch on Isaiah. Vol. II.                   }   |
+Auberlen on Divine Revelation.                  }   |
+|
+(1868.)                                       |
+Keil's Commentary on the Minor Prophets.        }   |
+2 vols.                                    }   |
+Delitzsch's Commentary on Epistle to the        }   |
+Hebrews. Vol. I.                           }   |  1   1    0
+Harless' System of Christian Ethics. 1 vol.     }   |
+|
+(1869.)                                       |
+Hengstenberg on Ezekiel. 1 vol.                 }   |
+Stier on the Words of the Apostles. 1 vol.      }   |  1   1    0
+Keil's Introduction to the Old Testament.       }   |
+Vol. I.                                    }   |
+Bleek's Introduction to the New Testament.      }   |
+Vol. I.                                    }   |
+|
+(1870.)                                       |
+Keil's Introduction to the Old Testament.       }   |
+Vol. II.                                   }   |
+Bleek's Introduction to the New Testament.      }   |  1   1    0
+Vol. II.                                   }   |
+Schmid's New Testament Theology. 1 vol.         }   |
+Delitzsch's Commentary on Epistle to the        }   |
+Hebrews. Vol. II.                          }   |
+|
+_The First Issue for_ 1871 _comprises_--        }   |
+Delitzsch's Commentary on the Psalms. Vols. I.  }   |
+and II.                                    }   |  1   1    0
+_This Subscription includes other two volumes,_ }   |
+_the names of which will be announced shortly._ }   |
+|
+_The Retail Bookseller is entitled to charge_       |
+24 _s. if the Subscription is not paid by      |
+his Customer in advance._                      |
+|
+|
+=BENGEL'S GNOMON OF THE NEW TESTAMENT.= (Sixth      |
+Thousand now ready.) Now first translated      |
+into English, with Original Notes,             |
+Explanatory and Illustrative, in five large    |
+volumes, demy 8vo, Edited by Rev. ANDREW       |
+R. FAUSSETT, M.A., Rector of St.               |
+Cuthbert's, York,             _netto_          |  1   11
+----------------------------------------------------+---------------
 
 
 Transcriber's Notes:
@@ -22377,25 +22108,23 @@ Obvious punctuation and spelling errors have been fixed throughout.
 Inconsistent hyphenation is as in the original.
 
 
-
-
-
-
 End of Project Gutenberg's The City of God, Volume I, by Aurelius Augustine
 
 ---
 
-## Volume II
 
-TO SUBSCRIBERS.
+# Volume II
 
 
-    MESSRS. CLARK have much pleasure in publishing the first issue
-           of Translations of the Writings of ST. AUGUSTINE:
+## To Subscribers
 
-                          THE 'CITY OF GOD,'
 
-                            IN TWO VOLUMES.
+MESSRS. CLARK have much pleasure in publishing the first issue
+of Translations of the Writings of ST. AUGUSTINE:
+
+THE 'CITY OF GOD,'
+
+IN TWO VOLUMES.
 
 They believe this will prove not the least valuable of their various
 Series, and no pains will be spared to make it so. The Editor has
@@ -22405,16 +22134,16 @@ being taken to secure not only accuracy but elegance.
 The Works of ST. AUGUSTINE to be included in the Series are (in
 addition to the 'CITY OF GOD'):--
 
-    All the TREATISES in the PELAGIAN, and the four leading TREATISES
-        in the DONATIST CONTROVERSY.
+All the TREATISES in the PELAGIAN, and the four leading TREATISES
+in the DONATIST CONTROVERSY.
 
-    The TREATISES against FAUSTUS the Manichæan; on CHRISTIAN
-        DOCTRINE; the TRINITY; the HARMONY OF THE EVANGELISTS; the
-        SERMON ON THE MOUNT.
+The TREATISES against FAUSTUS the Manichæan; on CHRISTIAN\
+DOCTRINE; the TRINITY; the HARMONY OF THE EVANGELISTS; the\
+SERMON ON THE MOUNT.
 
-    Also, the LECTURES on the GOSPEL OF ST. JOHN, the CONFESSIONS,
-        a SELECTION from the LETTERS, the RETRACTATIONS, the
-        SOLILOQUIES, and SELECTIONS from the PRACTICAL TREATISES.
+Also, the LECTURES on the GOSPEL OF ST. JOHN, the CONFESSIONS,
+a SELECTION from the LETTERS, the RETRACTATIONS, the
+SOLILOQUIES, and SELECTIONS from the PRACTICAL TREATISES.
 
 All these works are of first-rate importance, and only a small
 proportion of them have yet appeared in an English dress. The SERMONS
@@ -22447,75 +22176,57 @@ their Subscription to this Series, and they hope to be favoured with
 an early remittance of the Subscription.
 
 
+THE WORKS
 
 
-                               THE WORKS
+OF
+
+AURELIUS AUGUSTINE,\
+BISHOP OF HIPPO.
 
 
-                                  OF
+_A NEW TRANSLATION._
+
+=Edited by the=\
+REV. MARCUS DODS, M.A.
+
+VOL. II.\
+THE CITY OF GOD,\
+VOLUME II.
+
+EDINBURGH:\
+T. & T. CLARK, 38, GEORGE STREET.\
+MDCCCLXXI.
 
 
-                          AURELIUS AUGUSTINE,
-                           BISHOP OF HIPPO.
+PRINTED BY MURRAY AND GIBB,\
+FOR\
+T. & T. CLARK, EDINBURGH.
+
+LONDON,        HAMILTON, ADAMS, AND CO.\
+DUBLIN,        JOHN ROBERTSON AND CO.\
+NEW YORK,      C. SCRIBNER AND CO.
 
 
-                         _A NEW TRANSLATION._
+THE
 
 
-                            =Edited by the=
-                        REV. MARCUS DODS, M.A.
+CITY OF GOD.
 
 
-                               VOL. II.
-                           THE CITY OF GOD,
-                              VOLUME II.
+=Translated by the=
+
+REV. MARCUS DODS, M.A.
 
 
-                              EDINBURGH:
-                   T. & T. CLARK, 38, GEORGE STREET.
-                              MDCCCLXXI.
+VOLUME II.
 
 
+EDINBURGH:
 
+T. & T. CLARK, 38, GEORGE STREET.
 
-                      PRINTED BY MURRAY AND GIBB,
-                                  FOR
-                       T. & T. CLARK, EDINBURGH.
-
-                LONDON,        HAMILTON, ADAMS, AND CO.
-                DUBLIN,        JOHN ROBERTSON AND CO.
-                NEW YORK,      C. SCRIBNER AND CO.
-
-
-
-
-                                  THE
-
-
-                             CITY OF GOD.
-
-
-
-
-                          =Translated by the=
-
-                        REV. MARCUS DODS, M.A.
-
-
-
-
-                              VOLUME II.
-
-
-
-
-                              EDINBURGH:
-
-                   T. & T. CLARK, 38, GEORGE STREET.
-
-                              MDCCCLXXI.
-
-
+MDCCCLXXI.
 
 
 Of the following Work, Books IV. XVII. and XVIII. have been
@@ -22523,80 +22234,17 @@ translated by the Rev. GEORGE WILSON, Glenluce; Books V. VI. VII. and
 VIII. by the Rev. J. J. SMITH.
 
 
+THE CITY OF GOD.
 
 
-                               CONTENTS.
+# Book XIV
 
 
-                               BOOK XIV.
-
-                                                                PAGE
-
-  Of the punishment and results of man's first sin, and of the
-      propagation of man without lust, 1
-
-                               BOOK XV.
-
-  The progress of the earthly and heavenly cities traced by the
-      sacred history, 49
-
-                               BOOK XVI.
-
-  The history of the city of God from Noah to the time of the kings
-      of Israel, 104
-
-                              BOOK XVII.
-
-  The history of the city of God from the times of the prophets to
-      Christ, 165
-
-                              BOOK XVIII.
-
-  A parallel history of the earthly and heavenly cities from the
-      time of Abraham to the end of the world, 217
-
-                               BOOK XIX.
-
-  A review of the philosophical opinions regarding the Supreme
-      Good, and a comparison of these opinions with the Christian
-      belief regarding happiness, 293
-
-                               BOOK XX.
-
-  Of the last judgment, and the declarations regarding it in the Old
-      and New Testaments, 345
-
-                               BOOK XXI.
-
-  Of the eternal punishment of the wicked in hell, and of the
-      various objections urged against it, 413
-
-                              BOOK XXII.
-
-  Of the eternal happiness of the saints, the resurrection of the
-      body, and the miracles of the early Church, 472
+**Argument.**[1] AUGUSTINE AGAIN TREATS OF THE SIN OF THE FIRST MAN, AND TEACHES THAT IT IS THE CAUSE OF THE CARNAL LIFE AND VICIOUS AFFECTIONS OF MAN. ESPECIALLY HE PROVES THAT THE SHAME WHICH ACCOMPANIES LUST IS THE JUST PUNISHMENT OF THAT DISOBEDIENCE, AND INQUIRES HOW MAN, IF HE HAD NOT SINNED, WOULD HAVE BEEN ABLE WITHOUT LUST TO PROPAGATE HIS KIND.
 
 
+## 1. That the disobedience of the first man would have plunged all men into the endless misery of the second death, had not the grace of God rescued many
 
-
-                           THE CITY OF GOD.
-
-
-                          BOOK FOURTEENTH.[1]
-
-                               ARGUMENT.
-
-  AUGUSTINE AGAIN TREATS OF THE SIN OF THE FIRST MAN, AND TEACHES
-      THAT IT IS THE CAUSE OF THE CARNAL LIFE AND VICIOUS AFFECTIONS
-      OF MAN. ESPECIALLY HE PROVES THAT THE SHAME WHICH ACCOMPANIES
-      LUST IS THE JUST PUNISHMENT OF THAT DISOBEDIENCE, AND INQUIRES
-      HOW MAN, IF HE HAD NOT SINNED, WOULD HAVE BEEN ABLE WITHOUT
-      LUST TO PROPAGATE HIS KIND.
-
-
-  1. _That the disobedience of the first man would have plunged all
-      men into the endless misery of the second death, had not the
-      grace of God rescued many._
 
 We have already stated in the preceding books that God, desiring
 not only that the human race might be able by their similarity of
@@ -22622,9 +22270,8 @@ to live after the spirit; and when they severally achieve what they
 wish, they live in peace, each after their kind.
 
 
-  2. _Of carnal life, which is to be understood not only of living
-      in bodily indulgence, but also of living in the vices of the
-      inner man._
+## 2. Of carnal life, which is to be understood not only of living in bodily indulgence, but also of living in the vices of the inner man
+
 
 First, we must see what it is to live after the flesh, and what to live
 after the spirit. For any one who either does not recollect, or does
@@ -22697,9 +22344,8 @@ of speech whereby the part is used for the whole, he means us to
 understand by the word flesh the man himself?
 
 
-  3. _That sin is caused not by the flesh, but by the soul, and
-      that the corruption contracted from sin is not sin, but sin's
-      punishment._
+## 3. That sin is caused not by the flesh, but by the soul, and that the corruption contracted from sin is not sin, but sin's punishment
+
 
 But if any one says that the flesh is the cause of all vices and
 ill conduct, inasmuch as the soul lives wickedly only because it is
@@ -22728,19 +22374,19 @@ soul proceed from the body.
 Virgil, indeed, seems to express the sentiments of Plato in the
 beautiful lines, where he says,--
 
-          "A fiery strength inspires their lives,
-           An essence that from heaven derives,
-           Though clogged in part by limbs of clay,
-           And the dull 'vesture of decay;'"[12]
+"A fiery strength inspires their lives,\
+An essence that from heaven derives,\
+Though clogged in part by limbs of clay,\
+And the dull 'vesture of decay;'"[12]
 
 but though he goes on to mention the four most common mental
 emotions,--desire, fear, joy, sorrow,--with the intention of showing
 that the body is the origin of all sins and vices, saying,--
 
-          "Hence wild desires and grovelling fears,
-           And human laughter, human tears,
-           Immured in dungeon-seeming night,
-           They look abroad, yet see no light,"[13]
+"Hence wild desires and grovelling fears,\
+And human laughter, human tears,\
+Immured in dungeon-seeming night,\
+They look abroad, yet see no light,"[13]
 
 yet we believe quite otherwise. For the corruption of the body,
 which weighs down the soul, is not the cause but the punishment of
@@ -22773,8 +22419,8 @@ is not only a liar, but the father of lies, he being the first who
 lied, and the originator of lying as of sin.
 
 
-  4. _What it is to live according to man, and what to live according
-                               to God._
+## 4. What it is to live according to man, and what to live according to God
+
 
 When, therefore, man lives according to man, not according to God,
 he is like the devil. Because not even an angel might live according
@@ -22843,10 +22489,8 @@ is, ye live according to man, not according to God, for if you lived
 according to Him, you should be gods.
 
 
-  5. _That the opinion of the Platonists regarding the nature of
-      body and soul is not so censurable as that of the Manichæans,
-      but that even it is objectionable, because it ascribes the
-      origin of vices to the nature of the flesh._
+## 5. That the opinion of the Platonists regarding the nature of body and soul is not so censurable as that of the Manichæans, but that even it is objectionable, because it ascribes the origin of vices to the nature of the flesh
+
 
 There is no need, therefore, that in our sins and vices we accuse
 the nature of the flesh to the injury of the Creator, for in its own
@@ -22873,12 +22517,12 @@ human life. But if this be so, how is it that Æneas in Virgil, when
 he had heard from his father in Hades that the souls should return
 to bodies, expresses surprise at this declaration, and exclaims:
 
-          "O father! and can thought conceive
-           That happy souls this realm would leave,
-                      And seek the upper sky,
-           With sluggish clay to reunite?
-           This direful longing for the light,
-                      Whence comes it, say, and why?"[24]
+"O father! and can thought conceive\
+That happy souls this realm would leave,\
+And seek the upper sky,\
+With sluggish clay to reunite?\
+This direful longing for the light,\
+Whence comes it, say, and why?"[24]
 
 This direful longing, then, does it still exist even in that boasted
 purity of the disembodied spirits, and does it still proceed from the
@@ -22898,8 +22542,8 @@ desire, fear, joy, sorrow, by the flesh, but that it can also be
 agitated with these emotions at its own instance.
 
 
-   6. _Of the character of the human will which makes the affections
-                     of the soul right or wrong._
+## 6. Of the character of the human will which makes the affections of the soul right or wrong
+
 
 But the character of the human will is of moment; because, if it is
 wrong, these motions of the soul will be wrong, but if it is right,
@@ -22926,8 +22570,8 @@ the vice being cursed, all that ought to be loved, and nothing that
 ought to be hated, will remain.
 
 
-   7. _That the words love and regard_ (amor _and_ dilectio) _are in
-       Scripture used indifferently of good and evil affection._
+## 7. That the words love and regard (amor and dilectio) are in Scripture used indifferently of good and evil affection
+
 
 He who resolves to love God, and to love his neighbour as himself, not
 according to man but according to God, is on account of this love said
@@ -23000,9 +22644,8 @@ express bodily suffering,--with respect to this emotion, I say, the
 question whether it can be used in a good sense is more difficult.
 
 
-  8. _Of the three perturbations, which the Stoics admitted in the
-      soul of the wise man to the exclusion of grief or sadness,
-      which the manly mind ought not to experience._
+## 8. Of the three perturbations, which the Stoics admitted in the soul of the wise man to the exclusion of grief or sadness, which the manly mind ought not to experience
+
 
 Those emotions which the Greeks call εὐπαθείαι, and which Cicero
 calls _constantiæ_, the Stoics would restrict to three; and,
@@ -23081,7 +22724,7 @@ more!" And that contentment was used by secular writers in a bad sense,
 that verse of Virgil testifies, in which he most succinctly comprehends
 these four perturbations,--
 
-          "Hence they fear and desire, grieve and are content."[46]
+"Hence they fear and desire, grieve and are content."[46]
 
 The same author had also used the expression, "the evil contentments
 of the mind."[47] So that good and bad men alike will, are cautious,
@@ -23115,8 +22758,8 @@ he ought not to be. But the Stoics maintain not that the fool, but
 that the wise man, cannot be sorrowful.
 
 
-      9. _Of the perturbations of the soul which appear as right
-               affections in the life of the righteous._
+## 9. Of the perturbations of the soul which appear as right affections in the life of the righteous
+
 
 But so far as regards this question of mental perturbations, we have
 answered these philosophers in the ninth book[50] of this work,
@@ -23288,8 +22931,8 @@ tranquillity. For a thing is not necessarily right because it is
 inflexible, nor healthy because it is insensible.
 
 
-      10. _Whether it is to be believed that our first parents in
-    Paradise, before they sinned, were free from all perturbation._
+## 10. Whether it is to be believed that our first parents in Paradise, before they sinned, were free from all perturbation
+
 
 But it is a fair question, whether our first parent or first parents
 (for there was a marriage of two), before they sinned, experienced
@@ -23333,8 +22976,8 @@ labour, pain, or death, as now they shall live in the resurrection,
 after they have endured all these things.
 
 
-     11. _Of the fall of the first man, in whom nature was created
-            good, and can be restored only by its Author._
+## 11. Of the fall of the first man, in whom nature was created good, and can be restored only by its Author
+
 
 But because God foresaw all things, and was therefore not ignorant
 that man also would fall, we ought to consider this holy city in
@@ -23438,7 +23081,8 @@ were not both deceived by credulity, yet both were entangled in the
 snares of the devil, and taken by sin.
 
 
-                12. _Of the nature of man's first sin._
+## 12. Of the nature of man's first sin
+
 
 If any one finds a difficulty in understanding why other sins do
 not alter human nature as it was altered by the transgression of
@@ -23464,7 +23108,8 @@ sin, the iniquity of violating it was all the greater in proportion
 to the ease with which it might have been kept.
 
 
-     13. _That in Adam's sin an evil will preceded the evil act._
+## 13. That in Adam's sin an evil will preceded the evil act
+
 
 Our first parents fell into open disobedience because already they
 were secretly corrupted; for the evil act had never been done had not
@@ -23556,7 +23201,8 @@ is, that they who have pleased themselves in seeking their own glory
 may be pleased and satisfied with Thee in seeking Thy glory.
 
 
-  14. _Of the pride in the sin, which was worse than the sin itself._
+## 14. Of the pride in the sin, which was worse than the sin itself
+
 
 But it is a worse and more damnable pride which casts about for
 the shelter of an excuse even in manifest sins, as these our first
@@ -23574,8 +23220,8 @@ the transgression less, as if there were any one whom we ought rather
 to believe or yield to than God.
 
 
-  15. _Of the justice of the punishment with which our first parents
-                 were visited for their disobedience._
+## 15. Of the justice of the punishment with which our first parents were visited for their disobedience
+
 
 Therefore, because the sin was a despising of the authority of
 God,--who had created man; who had made him in His own image; who had
@@ -23666,8 +23312,8 @@ name to the lust of ruling, which yet has a powerful influence in the
 soul of tyrants, as civil wars bear witness?
 
 
-  16. _Of the evil of lust,--a word which, though applicable to many
-       vices, is specially appropriated to sexual uncleanness._
+## 16. Of the evil of lust,--a word which, though applicable to many vices, is specially appropriated to sexual uncleanness
+
 
 Although, therefore, lust may have many objects, yet when no object
 is specified, the word lust usually suggests to the mind the lustful
@@ -23698,8 +23344,8 @@ that resists it, sometimes also it is divided against itself, and
 while it moves the soul, leaves the body unmoved.
 
 
-   17. _Of the nakedness of our first parents, which they saw after
-                     their base and shameful sin._
+## 17. Of the nakedness of our first parents, which they saw after their base and shameful sin
+
 
 Justly is shame very specially connected with this lust; justly,
 too, these members themselves, being moved and restrained not at
@@ -23755,7 +23401,8 @@ are therefore called gymnosophists, yet they make an exception in the
 case of these members, and cover them.
 
 
-       18. _Of the shame which attends all sexual intercourse._
+## 18. Of the shame which attends all sexual intercourse
+
 
 Lust requires for its consummation darkness and secrecy; and this
 not only when unlawful intercourse is desired, but even such
@@ -23785,8 +23432,8 @@ because that which is by nature fitting and decent is so done as to
 be accompanied with a shame-begetting penalty of sin?
 
 
-    19. _That it is now necessary, as it was not before man sinned,
-   to bridle anger and lust by the restraining influence of wisdom._
+## 19. That it is now necessary, as it was not before man sinned, to bridle anger and lust by the restraining influence of wisdom
+
 
 Hence it is that even the philosophers who have approximated to the
 truth have avowed that anger and lust are vicious mental emotions,
@@ -23825,7 +23472,8 @@ anger on some one, than the eye of one man when he innocently copulates
 with his wife.
 
 
-            20. _Of the foolish beastliness of the Cynics._
+## 20. Of the foolish beastliness of the Cynics
+
 
 It is this which those canine or cynic[111] philosophers have
 overlooked, when they have, in violation of the modest instincts
@@ -23857,9 +23505,8 @@ the destruction of all in common, when all were in one man, and which
 was avenged by God's justice.
 
 
-  21. _That man's transgression did not annul the blessing of fecundity
-      pronounced upon man before he sinned, but infected it with the
-      disease of lust._
+## 21. That man's transgression did not annul the blessing of fecundity pronounced upon man before he sinned, but infected it with the disease of lust
+
 
 Far be it, then, from us to suppose that our first parents in
 Paradise felt that lust which caused them afterwards to blush and
@@ -23894,8 +23541,8 @@ fact it turned out. For it was after they were expelled from it that
 they came together to beget children, and begot them.
 
 
-    22. _Of the conjugal union as it was originally instituted and
-                           blessed by God._
+## 22. Of the conjugal union as it was originally instituted and blessed by God
+
 
 But we, for our part, have no manner of doubt that to increase and
 multiply and replenish the earth in virtue of the blessing of God,
@@ -23935,9 +23582,8 @@ this original example, which God Himself instituted, that the apostle
 admonishes all husbands to love their own wives in particular.[117]
 
 
-  23. _Whether generation should have taken place even in Paradise
-      had man not sinned, or whether there should have been any
-      contention there between chastity and lust._
+## 23. Whether generation should have taken place even in Paradise had man not sinned, or whether there should have been any contention there between chastity and lust
+
 
 But he who says that there should have been neither copulation nor
 generation but for sin, virtually says that man's sin was necessary
@@ -24025,9 +23671,8 @@ a damnable uncleanness, but are explaining, so far as we can, human
 generation, while with Paul we avoid all obscenity of language.
 
 
-  24. _That if men had remained innocent and obedient in Paradise,
-      the generative organs should have been in subjection to the
-      will as the other members are._
+## 24. That if men had remained innocent and obedient in Paradise, the generative organs should have been in subjection to the will as the other members are
+
 
 The man, then, would have sown the seed, and the woman received it,
 as need required, the generative organs being moved by the will, not
@@ -24097,7 +23742,8 @@ to live as he wishes. For if he lived as he wished, he would think
 himself blessed; but he could not be so if he lived wickedly.
 
 
-   25. _Of true blessedness, which this present life cannot enjoy._
+## 25. Of true blessedness, which this present life cannot enjoy
+
 
 However, if we look at this a little more closely, we see that no one
 lives as he wishes but the blessed, and that no one is blessed but the
@@ -24127,8 +23773,8 @@ loves it cannot but wish it to be eternal. Therefore it shall then only
 be blessed when it is eternal.
 
 
-    26. _That we are to believe that in Paradise our first parents
-                  begat offspring without blushing._
+## 26. That we are to believe that in Paradise our first parents begat offspring without blushing
+
 
 In Paradise, then, man lived as he desired so long as he desired
 what God had commanded. He lived in the enjoyment of God, and was
@@ -24193,8 +23839,8 @@ and disposing hand, even the perverse disorder of the wicked could
 not pervert the right order of things?
 
 
-   27. _Of the angels and men who sinned, and that their wickedness
-            did not disturb the order of God's providence._
+## 27. Of the angels and men who sinned, and that their wickedness did not disturb the order of God's providence
+
 
 The sins of men and angels do nothing to impede the "great works
 of the Lord which accomplish His will."[125] For He who by His
@@ -24236,8 +23882,8 @@ in their power, and thus to show both what evil could be wrought by
 their pride, and what good by His grace.
 
 
-       28. _Of the nature of the two cities, the earthly and the
-                              heavenly._
+## 28. Of the nature of the two cities, the earthly and the heavenly
+
 
 Accordingly, two cities have been formed by two loves: the earthly
 by the love of self, even to the contempt of God; the heavenly by
@@ -24267,7 +23913,9 @@ wisdom, but only godliness, which offers due worship to the true God,
 and looks for its reward in the society of the saints, of holy angels
 as well as holy men, "that God may be all in all."[129]
 
-FOOTNOTES:
+
+## Footnotes to Book XIV
+
 
 [1] This book is referred to in another work of Augustine's (_contra
 Advers. Legis et Prophet._ i. 18), which was written about the year 420.
@@ -24544,23 +24192,14 @@ Fide Orthod._ ii. 11.
 [129] 1 Cor. xv. 28.
 
 
+# Book XV
 
 
-                            BOOK FIFTEENTH.
-
-                               ARGUMENT.
-
-  HAVING TREATED IN THE FOUR PRECEDING BOOKS OF THE ORIGIN OF THE TWO
-      CITIES, THE EARTHLY AND THE HEAVENLY, AUGUSTINE EXPLAINS THEIR
-      GROWTH AND PROGRESS IN THE FOUR BOOKS WHICH FOLLOW; AND, IN
-      ORDER TO DO SO, HE EXPLAINS THE CHIEF PASSAGES OF THE SACRED
-      HISTORY WHICH BEAR UPON THIS SUBJECT. IN THIS FIFTEENTH BOOK HE
-      OPENS THIS PART OF HIS WORK BY EXPLAINING THE EVENTS RECORDED
-      IN GENESIS FROM THE TIME OF CAIN AND ABEL TO THE DELUGE.
+**Argument.** HAVING TREATED IN THE FOUR PRECEDING BOOKS OF THE ORIGIN OF THE TWO CITIES, THE EARTHLY AND THE HEAVENLY, AUGUSTINE EXPLAINS THEIR GROWTH AND PROGRESS IN THE FOUR BOOKS WHICH FOLLOW; AND, IN ORDER TO DO SO, HE EXPLAINS THE CHIEF PASSAGES OF THE SACRED HISTORY WHICH BEAR UPON THIS SUBJECT. IN THIS FIFTEENTH BOOK HE OPENS THIS PART OF HIS WORK BY EXPLAINING THE EVENTS RECORDED IN GENESIS FROM THE TIME OF CAIN AND ABEL TO THE DELUGE.
 
 
-    1. _Of the two lines of the human race which from first to last
-                              divide it._
+## 1. Of the two lines of the human race which from first to last divide it
+
 
 OF the bliss of Paradise, of Paradise itself, and of the life of
 our first parents there, and of their sin and punishment, many
@@ -24626,7 +24265,8 @@ the promised kingdom be given to them, in which they shall reign with
 their Prince, the King of the ages, time without end.
 
 
-  2. _Of the children of the flesh and the children of the promise._
+## 2. Of the children of the flesh and the children of the promise
+
 
 There was indeed on earth, so long as it was needed, a symbol and
 foreshadowing image of this city, which served the purpose of
@@ -24681,7 +24321,8 @@ promise. In the one birth, human action is revealed; in the other, a
 divine kindness comes to light.
 
 
-   3. _That Sarah's barrenness was made productive by God's grace._
+## 3. That Sarah's barrenness was made productive by God's grace
+
 
 Sarah, in fact, was barren; and, despairing of offspring, and being
 resolved that she would have at least through her handmaid that
@@ -24709,7 +24350,8 @@ ministering love that rejoices in the common joy of all, of many hearts
 makes one, that is to say, secures a perfect concord.
 
 
-          4. _Of the conflict and peace of the earthly city._
+## 4. Of the conflict and peace of the earthly city
+
 
 But the earthly city, which shall not be everlasting (for it will no
 longer be a city when it has been committed to the extreme penalty),
@@ -24745,8 +24387,8 @@ better than those things which are believed to be better,--if this be
 so, then it is necessary that misery follow and ever increase.
 
 
-  5. _Of the fratricidal act of the founder of the earthly city, and
-           the corresponding crime of the founder of Rome._
+## 5. Of the fratricidal act of the founder of the earthly city, and the corresponding crime of the founder of Rome
+
 
 Thus the founder of the earthly city was a fratricide. Overcome with
 envy, he slew his own brother, a citizen of the eternal city, and a
@@ -24798,9 +24440,8 @@ the wicked, until the health of those who are under the treatment of
 grace attains final victory.
 
 
-  6. _Of the weaknesses which even the citizens of the city of God
-      suffer during this earthly pilgrimage in punishment of sin, and
-      of which they are healed by God's care._
+## 6. Of the weaknesses which even the citizens of the city of God suffer during this earthly pilgrimage in punishment of sin, and of which they are healed by God's care
+
 
 This sickliness--that is to say, that disobedience of which we spoke
 in the fourteenth book--is the punishment of the first disobedience.
@@ -24847,8 +24488,8 @@ with perfected health and endowed with immortality, will reign
 without sin in peace everlasting.
 
 
-  7. _Of the cause of Cain's crime and his obstinacy, which not even
-                    the word of God could subdue._
+## 7. Of the cause of Cain's crime and his obstinacy, which not even the word of God could subdue
+
 
 But though God made use of this very mode of address which we have
 been endeavouring to explain, and spoke to Cain in that form by
@@ -24986,8 +24627,8 @@ besides, I remember that I have made some remarks upon it in writing
 against Faustus the Manichæan.[157]
 
 
-    8. _What Cain's reason was for building a city so early in the
-                      history of the human race._
+## 8. What Cain's reason was for building a city so early in the history of the human race
+
 
 At present it is the history which I aim at defending, that Scripture
 may not be reckoned incredible when it relates that one man built
@@ -25077,7 +24718,8 @@ stock of Abraham, though not through Sarah,--that is, his descendants
 by Hagar and Keturah, the Ishmaelites, Midianites, etc.
 
 
-    9. _Of the long life and greater stature of the antediluvians._
+## 9. Of the long life and greater stature of the antediluvians
+
 
 Wherefore no one who considerately weighs facts will doubt that Cain
 might have built a city, and that a large one, when it is observed
@@ -25090,8 +24732,8 @@ same, when he speaks of that huge stone which had been fixed as a
 landmark, and which a strong man of those ancient times snatched up
 as he fought, and ran, and hurled, and cast it,--
 
-          "Scarce twelve strong men of later mould
-           That weight could on their necks uphold;"[162]
+"Scarce twelve strong men of later mould\
+That weight could on their necks uphold;"[162]
 
 thus declaring his opinion that the earth then produced mightier men.
 And if in the more recent times, how much more in the ages before the
@@ -25128,8 +24770,8 @@ not here, while we do not believe that in other times there has been
 anything but what is now?
 
 
-  10. _Of the different computation of the ages of the antediluvians,
-      given by the Hebrew manuscripts and by our own._[166]
+## 10. Of the different computation of the ages of the antediluvians, given by the Hebrew manuscripts and by our own.[166]
+
 
 Wherefore, although there is a discrepancy for which I cannot account
 between our manuscripts and the Hebrew, in the very number of years
@@ -25166,8 +24808,8 @@ that, deducting the former six, there remains, as we said, a surplus of
 twenty-four.
 
 
-    11. _Of Methuselah's age, which seems to extend fourteen years
-                          beyond the deluge._
+## 11. Of Methuselah's age, which seems to extend fourteen years beyond the deluge
+
 
 From this discrepancy between the Hebrew books and our own arises
 the well-known question as to the age of Methuselah;[167] for it
@@ -25216,8 +24858,8 @@ sole parents then on earth, the human race multiplied sufficiently
 to form a community.
 
 
-     12. _Of the opinion of those who do not believe that in these
-           primitive times men lived so long as is stated._
+## 12. Of the opinion of those who do not believe that in these primitive times men lived so long as is stated
+
 
 For they are by no means to be listened to who suppose that in those
 times years were differently reckoned, and were so short that one
@@ -25291,8 +24933,8 @@ Mahalaleel? If seventy years in those times meant only seven of our
 years, what man of seven years old begets children?
 
 
-    13. _Whether, in computing years, we ought to follow the Hebrew
-                          or the Septuagint._
+## 13. Whether, in computing years, we ought to follow the Hebrew or the Septuagint
+
 
 But if I say this, I shall presently be answered, It is one of the
 Jews' lies. This, however, we have disposed of above, showing that it
@@ -25400,8 +25042,8 @@ which agree with one another, and in all of these Methuselah is said to
 have died six years before the deluge.
 
 
-  14. _That the years in those ancient times were of the same length
-                             as our own._
+## 14. That the years in those ancient times were of the same length as our own
+
 
 Let us now see how it can be plainly made out that in the enormously
 protracted lives of those men the years were not so short that ten
@@ -25475,9 +25117,8 @@ earthly, and not that which is called the city of God, to describe
 which we have taken in hand this great work.
 
 
-  15. _Whether it is credible that the men of the primitive age
-      abstained from sexual intercourse until that date at which it
-      is recorded that they begat children._
+## 15. Whether it is credible that the men of the primitive age abstained from sexual intercourse until that date at which it is recorded that they begat children
+
 
 Some one, then, will say, Is it to be believed that a man who
 intended to beget children, and had no intention of continence,
@@ -25571,8 +25212,8 @@ ourselves with discussing the needless and obscure question as to
 their lateness of reaching puberty.
 
 
-   16. _Of marriage between blood-relations, in regard to which the
-       present law could not bind the men of the earliest ages._
+## 16. Of marriage between blood-relations, in regard to which the present law could not bind the men of the earliest ages
+
 
 As, therefore, the human race, subsequently to the first marriage
 of the man who was made of dust, and his wife who was made out
@@ -25680,8 +25321,8 @@ gods, and delight in these honours on no other account than this,
 because they know that true sacrifice is due to the true God.
 
 
-        17. _Of the two fathers and leaders who sprang from one
-                             progenitor._
+## 17. Of the two fathers and leaders who sprang from one progenitor
+
 
 Since, then, Adam was the father of both lines,--the father, that is
 to say, both of the line which belonged to the earthly, and of that
@@ -25737,8 +25378,8 @@ generations registered apart from the others, we must consider what
 this sacred history says of his son.
 
 
-      18. _The significance of Abel, Seth, and Enos to Christ and
-                         His body the Church._
+## 18. The significance of Abel, Seth, and Enos to Christ and His body the Church
+
 
 "And to Seth," it is said, "there was born a son, and he called his
 name Enos: he hoped to call on the name of the Lord God."[187] Here
@@ -25782,7 +25423,8 @@ this present time, that is to say, in the fleeting course of this
 mortal world, but in the immortality of perpetual blessedness.
 
 
-            19. _The significance of Enoch's translation._
+## 19. The significance of Enoch's translation
+
 
 For that line also of which Seth is the father has the name
 "Dedication" in the seventh generation from Adam, counting Adam. For
@@ -25809,9 +25451,8 @@ because Rome was built by those Trojans who had come to Italy under
 Hebrew nation, though so numerous, is called the house of Jacob.
 
 
-  20. _How it is that Cain's line terminates in the eighth
-      generation, while Noah, though descended from the same father,
-      Adam, is found to be the tenth from him._
+## 20. How it is that Cain's line terminates in the eighth generation, while Noah, though descended from the same father, Adam, is found to be the tenth from him
+
 
 Some one will say, If the writer of this history intended, in
 enumerating the generations from Adam through his son Seth, to
@@ -25962,10 +25603,8 @@ became afterwards so mixed and confused, that the whole human race,
 with the exception of eight persons, deserved to perish in the deluge.
 
 
-  21. _Why it is that, as soon as Cain's son Enoch has been named,
-      the genealogy is forthwith continued as far as the deluge,
-      while after the mention of Enos, Seth's son, the narrative
-      returns again to the creation of man._
+## 21. Why it is that, as soon as Cain's son Enoch has been named, the genealogy is forthwith continued as far as the deluge, while after the mention of Enos, Seth's son, the narrative returns again to the creation of man
+
 
 We must first see why, in the enumeration of Cain's posterity, after
 Enoch, in whose name the city was built, has been first of all
@@ -26023,9 +25662,8 @@ when it freely chooses, and can also escape the evil and do good, which
 takes place only by divine assistance.
 
 
-  22. _Of the fall of the sons of God who were captivated by the
-      daughters of men, whereby all, with the exception of eight
-      persons, deservedly perished in the deluge._
+## 22. Of the fall of the sons of God who were captivated by the daughters of men, whereby all, with the exception of eight persons, deservedly perished in the deluge
+
 
 When the human race, in the exercise of this freedom of will,
 increased and advanced, there arose a mixture and confusion of the
@@ -26075,9 +25713,8 @@ have loved the daughters of men, they are also called angels of God;
 whence many suppose that they were not men but angels.
 
 
-  23. _Whether we are to believe that angels, who are of a spiritual
-      substance, fell in love with the beauty of women, and sought them
-      in marriage, and that from this connection giants were born._
+## 23. Whether we are to believe that angels, who are of a spiritual substance, fell in love with the beauty of women, and sought them in marriage, and that from this connection giants were born
+
 
 In the third book of this work (c. 5) we made a passing reference
 to this question, but did not decide whether angels, inasmuch as
@@ -26230,8 +25867,8 @@ unto them; but they were destroyed because they had no wisdom, and
 perished through their own foolishness."[214]
 
 
-  24. _How we are to understand this which the Lord said to those who
-      were to perish in the flood: "Their days shall be_ 120 _years."_
+## 24. How we are to understand this which the Lord said to those who were to perish in the flood: "Their days shall be 120 years."
+
 
 But that which God said, "Their days shall be an hundred and twenty
 years," is not to be understood as a prediction that henceforth men
@@ -26259,8 +25896,8 @@ man and beast, and the creeping thing, and the fowls of the air: for
 I am angry that I have made them."[216]
 
 
-    25. _Of the anger of God, which does not inflame His mind, nor
-                disturb His unchangeable tranquillity._
+## 25. Of the anger of God, which does not inflame His mind, nor disturb His unchangeable tranquillity
+
 
 The anger of God is not a disturbing emotion of His mind, but a
 judgment by which punishment is inflicted upon sin. His thought
@@ -26279,8 +25916,8 @@ was approaching: not that it threatens destruction to the irrational
 animals as if they too had incurred it by sin.
 
 
-      26. _That the ark which Noah was ordered to make figures in
-                 every respect Christ and the church._
+## 26. That the ark which Noah was ordered to make figures in every respect Christ and the church
+
 
 Moreover, inasmuch as God commanded Noah, a just man, and, as the
 truthful Scripture says, a man perfect in his generation,--not indeed
@@ -26344,10 +25981,8 @@ viz. that although different explanations are given, yet they must
 all agree with the one harmonious catholic faith.
 
 
-  27. _Of the ark and the deluge, and that we cannot agree with
-      those who receive the bare history, but reject the allegorical
-      interpretation, nor with those who maintain the figurative and
-      not the historical meaning._
+## 27. Of the ark and the deluge, and that we cannot agree with those who receive the bare history, but reject the allegorical interpretation, nor with those who maintain the figurative and not the historical meaning
+
 
 Yet no one ought to suppose either that these things were written for
 no purpose, or that we should study only the historical truth, apart
@@ -26476,7 +26111,9 @@ trace in the history subsequent to the deluge the courses of the two
 cities,--the earthly, that lives according to men, and the heavenly,
 that lives according to God.
 
-FOOTNOTES:
+
+## Footnotes to Book XV
+
 
 [130] 1 Cor. xv. 46.
 
@@ -26545,7 +26182,7 @@ FOOTNOTES:
 [162] Virgil, _Æneid_, xii. 899, 900. Compare the _Iliad_, v. 302,
 and Juvenal, xv. 65 et seqq.
 
-          "Terra malos homines nunc educat atque pusillos."
+"Terra malos homines nunc educat atque pusillos."
 
 [163] Plin. _Hist. Nat._ vii. 16.
 
@@ -26692,21 +26329,14 @@ support the Jews in their opposition to Christianity.
 [220] Gen. vi. 19, 20.
 
 
+# Book XVI
 
 
-                            BOOK SIXTEENTH.
-
-                               ARGUMENT.
-
-  IN THE FORMER PART OF THIS BOOK, FROM THE FIRST TO THE TWELFTH
-      CHAPTER, THE PROGRESS OF THE TWO CITIES, THE EARTHLY AND
-      THE HEAVENLY, FROM NOAH TO ABRAHAM, IS EXHIBITED FROM HOLY
-      SCRIPTURE: IN THE LATTER PART, THE PROGRESS OF THE HEAVENLY
-      ALONE, FROM ABRAHAM TO THE KINGS OF ISRAEL, IS THE SUBJECT.
+**Argument.** IN THE FORMER PART OF THIS BOOK, FROM THE FIRST TO THE TWELFTH CHAPTER, THE PROGRESS OF THE TWO CITIES, THE EARTHLY AND THE HEAVENLY, FROM NOAH TO ABRAHAM, IS EXHIBITED FROM HOLY SCRIPTURE: IN THE LATTER PART, THE PROGRESS OF THE HEAVENLY ALONE, FROM ABRAHAM TO THE KINGS OF ISRAEL, IS THE SUBJECT.
 
 
-   1. _Whether, after the deluge, from Noah to Abraham, any families
-               can be found who lived according to God._
+## 1. Whether, after the deluge, from Noah to Abraham, any families can be found who lived according to God
+
 
 It is difficult to discover from Scripture, whether, after the
 deluge, traces of the holy city are continuous, or are so interrupted
@@ -26734,7 +26364,8 @@ and the other things done at that time, and recorded, are all of them
 pregnant with prophetic meanings, and veiled in mysteries.[223]
 
 
-      2. _What was prophetically prefigured in the sons of Noah._
+## 2. What was prophetically prefigured in the sons of Noah
+
 
 The things which then were hidden are now sufficiently revealed
 by the actual events which have followed. For who can carefully
@@ -26845,7 +26476,8 @@ some things are narrated which have no significance, but are, as it
 were, the framework to which the significant things are attached.
 
 
-          3. _Of the generations of the three sons of Noah._
+## 3. Of the generations of the three sons of Noah
+
 
 We must therefore introduce into this work an explanation of the
 generations of the three sons of Noah, in so far as that may illustrate
@@ -26952,7 +26584,8 @@ their being mentioned, but were absorbed in the nations to which they
 belonged by birth.
 
 
-  4. _Of the diversity of languages, and of the founding of Babylon._
+## 4. Of the diversity of languages, and of the founding of Babylon
+
 
 But though these nations are said to have been dispersed according to
 their languages, yet the narrator recurs to that time when all had
@@ -27018,8 +26651,8 @@ languages, and scattered over the earth as seemed good to God, who
 accomplished this in ways hidden from and incomprehensible to us.
 
 
-  5. _Of God's coming down to confound the languages of the builders
-                             of the city._
+## 5. Of God's coming down to confound the languages of the builders of the city
+
 
 We read, "The Lord came down to see the city and the tower which the
 sons of men built:" it was not the sons of God, but that society
@@ -27047,7 +26680,8 @@ servants, that they are themselves also fellow-labourers with God, as
 the apostle says, "For we are fellow-labourers with God."[240]
 
 
-    6. _What we are to understand by God's speaking to the angels._
+## 6. What we are to understand by God's speaking to the angels
+
 
 We might have supposed that the words uttered at the creation of man,
 "Let us," and not Let me, "make man," were addressed to the angels,
@@ -27089,7 +26723,7 @@ imagined to do,"[242] are assuredly not meant as an affirmation, but
 as an interrogation, such as is used by persons threatening, as,
 _e.g._, when Dido exclaims,
 
-          "They will not take arms and pursue?"[243]
+"They will not take arms and pursue?"[243]
 
 We are to understand the words as if it had been said, Shall nothing
 be restrained from them which they have imagined to do?[244] From
@@ -27102,8 +26736,8 @@ language; and who can doubt that, as the human race increased, men
 contrived to pass to the islands in ships?
 
 
-   7. _Whether even the remotest islands received their_ FAUNA _from
-  the animals which were preserved, through the deluge, in the ark_.
+## 7. Whether even the remotest islands received their FAUNA from the animals which were preserved, through the deluge, in the ark
+
 
 There is a question raised about all those kinds of beasts which are
 not domesticated, nor are produced like frogs from the earth, but are
@@ -27128,8 +26762,8 @@ this, I say, is more evident, if the earth brought forth many animals
 in islands to which they could not cross over.
 
 
-    8. _Whether certain monstrous races of men are derived from the
-                    stock of Adam or Noah's sons._
+## 8. Whether certain monstrous races of men are derived from the stock of Adam or Noah's sons
+
 
 It is also asked whether we are to believe that certain monstrous
 races of men, spoken of in secular history,[246] have sprung from
@@ -27210,7 +26844,8 @@ they do exist, they are not human races; or if they are human, they
 are descended from Adam.
 
 
-           9. _Whether we are to believe in the Antipodes._
+## 9. Whether we are to believe in the Antipodes
+
 
 But as to the fable that there are Antipodes, that is to say, men on
 the opposite side of the earth, where the sun rises when it sets to
@@ -27238,8 +26873,8 @@ and chiefly in the eldest son Shem; for Japheth received this blessing,
 that he should dwell in the tents of Shem.
 
 
-     10. _Of the genealogy of Shem, in whose line the city of God
-                is preserved till the time of Abraham._
+## 10. Of the genealogy of Shem, in whose line the city of God is preserved till the time of Abraham
+
 
 It is necessary, therefore, to preserve the series of generations
 descending from Shem, for the sake of exhibiting the city of God
@@ -27320,9 +26955,8 @@ that is, all who belong to the city which lives according to man, not
 according to God, are reprobate.
 
 
-  11. _That the original language in use among men was that which was
-      afterwards called Hebrew, from Heber, in whose family it was
-      preserved when the confusion of tongues occurred._
+## 11. That the original language in use among men was that which was afterwards called Hebrew, from Heber, in whose family it was preserved when the confusion of tongues occurred
+
 
 Wherefore, as the fact of all using one language did not secure the
 absence of sin-infected men from the race,--for even before the
@@ -27424,8 +27058,8 @@ nations. And if we take a general survey of the names, we shall find
 that more have been changed than have remained the same.
 
 
-     12. _Of the era in Abraham's life from which a new period in
-                     the holy succession begins._
+## 12. Of the era in Abraham's life from which a new period in the holy succession begins
+
 
 Let us now survey the progress of the city of God from the era of the
 patriarch Abraham, from whose time it begins to be more conspicuous,
@@ -27457,9 +27091,8 @@ the father of Iscah."[252] This Iscah is supposed to be the same as
 Sarah, Abraham's wife.
 
 
-  13. _Why, in the account of Terah's emigration, on his forsaking
-      the Chaldeans and passing over into Mesopotamia, no mention is
-      made of his son Nahor._
+## 13. Why, in the account of Terah's emigration, on his forsaking the Chaldeans and passing over into Mesopotamia, no mention is made of his son Nahor
+
 
 Next it is related how Terah with his family left the region of the
 Chaldeans and came into Mesopotamia, and dwelt in Haran. But nothing
@@ -27504,7 +27137,8 @@ house of Terah had suffered persecution from the Chaldeans for the
 true piety with which they worshipped the one and true God.
 
 
-   14. _Of the years of Terah, who completed his lifetime in Haran._
+## 14. Of the years of Terah, who completed his lifetime in Haran
+
 
 On Terah's death in Mesopotamia, where he is said to have lived 205
 years, the promises of God made to Abraham now begin to be pointed
@@ -27524,8 +27158,8 @@ which is given in order from Adam to Noah, and from him down to
 Abraham, contains no one without the number of the years of his life.
 
 
-     15. _Of the time of the migration of Abraham, when, according
-          to the commandment of God, he went out from Haran._
+## 15. Of the time of the migration of Abraham, when, according to the commandment of God, he went out from Haran
+
 
 When, after the record of the death of Terah, the father of Abraham,
 we next read, "And the Lord said to Abram, Get thee out of thy
@@ -27613,8 +27247,8 @@ that he should depart out of Haran with Sarah his wife and Lot his
 brother's son.
 
 
-    16. _Of the order and nature of the promises of God which were
-                           made to Abraham._
+## 16. Of the order and nature of the promises of God which were made to Abraham
+
 
 God's promises made to Abraham are now to be considered; for in
 these the oracles of our God,[264] that is, of the true God, began
@@ -27651,9 +27285,8 @@ after 430 years the exodus from Egypt took place, when the law was
 given, but because the Apostle Paul also mentions it.
 
 
-  17. _Of the three most famous kingdoms of the nations, of which
-      one, that is, the Assyrian, was already very eminent when
-      Abraham was born._
+## 17. Of the three most famous kingdoms of the nations, of which one, that is, the Assyrian, was already very eminent when Abraham was born
+
 
 During the same period there were three famous kingdoms of the
 nations, in which the city of the earth-born, that is, the society of
@@ -27687,8 +27320,8 @@ the 1200th year before Rome was founded, as it were another Babylon in
 the west.
 
 
-      18. _Of the repeated address of God to Abraham, in which He
-         promised the land of Canaan to him and to his seed._
+## 18. Of the repeated address of God to Abraham, in which He promised the land of Canaan to him and to his seed
+
 
 Abraham, then, having departed out of Haran in the seventy-fifth year
 of his own age, and in the hundred and forty-fifth of his father's,
@@ -27701,8 +27334,8 @@ all nations, but only about that by which he is the father of the one
 Israelite nation; for by this seed that land was possessed.
 
 
-     19. _Of the divine preservation of Sarah's chastity in Egypt,
-       when Abraham had called her not his wife but his sister._
+## 19. Of the divine preservation of Sarah's chastity in Egypt, when Abraham had called her not his wife but his sister
+
 
 Having built an altar there, and called upon God, Abraham proceeded
 thence and dwelt in the desert, and was compelled by pressure of
@@ -27723,8 +27356,8 @@ another; because it is much more credible that, by these great
 afflictions, Pharaoh was not permitted to do this.
 
 
-     20. _Of the parting of Lot and Abraham, which they agreed to
-                      without breach of charity._
+## 20. Of the parting of Lot and Abraham, which they agreed to without breach of charity
+
 
 On Abraham's return out of Egypt to the place he had left, Lot, his
 brother's son, departed from him into the land of Sodom, without
@@ -27743,8 +27376,8 @@ men, that when there is any partition of earthly things, the greater
 should make the division, the less the choice.
 
 
-       21. _Of the third promise of God, by which He assured the
-        land of Canaan to Abraham and his seed in perpetuity._
+## 21. Of the third promise of God, by which He assured the land of Canaan to Abraham and his seed in perpetuity
+
 
 Now, when Abraham and Lot had separated, and dwelt apart, owing to
 the necessity of supporting their families, and not to vile discord,
@@ -27797,9 +27430,8 @@ even to the end; and when that whole land is inhabited by Christians,
 they also are the very seed of Abraham.
 
 
-  22. _Of Abraham's overcoming the enemies of Sodom, when he
-      delivered Lot from captivity and was blessed by Melchizedek the
-      priest._
+## 22. Of Abraham's overcoming the enemies of Sodom, when he delivered Lot from captivity and was blessed by Melchizedek the priest
+
 
 Having received this oracle of promise, Abraham migrated, and remained
 in another place of the same land, that is, beside the oak of Mamre,
@@ -27821,10 +27453,8 @@ Aaron, for that order was to be taken away when the things shone forth
 which were intimated beforehand by these shadows.
 
 
-  23. _Of the word of the Lord to Abraham, by which it was promised
-      to him that his posterity should be multiplied according to
-      the multitude of the stars; on believing which he was declared
-      justified while yet in uncircumcision._
+## 23. Of the word of the Lord to Abraham, by which it was promised to him that his posterity should be multiplied according to the multitude of the stars; on believing which he was declared justified while yet in uncircumcision
+
 
 The word of the Lord came to Abraham in a vision also. For when
 God promised him protection and exceeding great reward, he, being
@@ -27852,9 +27482,8 @@ Christ. For at the time when he believed, and his faith was counted
 to him for righteousness, Abraham had not yet been circumcised.
 
 
-  24. _Of the meaning of the sacrifice Abraham was commanded to offer
-      when he supplicated to be taught about those things he had
-      believed._
+## 24. Of the meaning of the sacrifice Abraham was commanded to offer when he supplicated to be taught about those things he had believed
+
 
 In the same vision, God in speaking to him also says, "I am God that
 brought thee out of the region of the Chaldees, to give thee this land
@@ -27978,8 +27607,8 @@ Egypt, that is, the Nile, but from a small one which separates Egypt
 from Palestine, where the city of Rhinocorura is.
 
 
-      25. _Of Sarah's handmaid, Hagar, whom she herself wished to
-                       be Abraham's concubine._
+## 25. Of Sarah's handmaid, Hagar, whom she herself wished to be Abraham's concubine
+
 
 And here follow the times of Abraham's sons, the one by Hagar the bond
 maid, the other by Sarah the free woman, about whom we have already
@@ -28008,10 +27637,8 @@ as a man should,--his wife temperately, his handmaid compliantly,
 neither intemperately!
 
 
-  26. _Of God's attestation to Abraham, by which He assures him, when
-      now old, of a son by the barren Sarah, and appoints him the
-      father of the nations, and seals his faith in the promise by
-      the sacrament of circumcision._
+## 26. Of God's attestation to Abraham, by which He assures him, when now old, of a son by the barren Sarah, and appoints him the father of the nations, and seals his faith in the promise by the sacrament of circumcision
+
 
 After these things Ishmael was born of Hagar; and Abraham might think
 that in him was fulfilled what God had promised him, saying, when he
@@ -28059,9 +27686,8 @@ even in a short time; but what is termed αἰώνιον either has no end, or
 lasts to the very end of this world.
 
 
-  27. _Of the male, who was to lose his soul if he was not
-      circumcised on the eighth day, because he had broken God's
-      covenant._
+## 27. Of the male, who was to lose his soul if he was not circumcised on the eighth day, because he had broken God's covenant
+
 
 When it is said, "The male who is not circumcised in the flesh of his
 foreskin, that soul shall be cut off from his people, because he
@@ -28112,9 +27738,8 @@ being guilty of no sin of neglect against itself, would perish
 unjustly, unless original sin rendered it obnoxious to punishment.
 
 
-  28. _Of the change of name in Abraham and Sarah, who received the
-      gift of fecundity when they were incapable of regeneration
-      owing to the barrenness of one, and the old age of both._
+## 28. Of the change of name in Abraham and Sarah, who received the gift of fecundity when they were incapable of regeneration owing to the barrenness of one, and the old age of both
+
 
 Now when a promise so great and clear was made to Abraham, in which
 it was so plainly said to him, "I have made thee a father of many
@@ -28157,8 +27782,8 @@ then, when men still lived so long that a hundred years did not yet
 bring on them the decrepitude of old age.
 
 
-    29. _Of the three men or angels, in whom the Lord is related to
-            have appeared to Abraham at the oak of Mamre._
+## 29. Of the three men or angels, in whom the Lord is related to have appeared to Abraham at the oak of Mamre
+
 
 God appeared again to Abraham at the oak of Mamre in three men,
 who it is not to be doubted were angels, although some think that
@@ -28209,9 +27834,8 @@ promised with the utmost brevity and fulness,--the nation of Israel
 according to the flesh, and all nations according to faith.
 
 
-  30. _Of Lot's deliverance from Sodom, and its consumption by fire
-      from heaven; and of Abimelech, whose lust could not harm
-      Sarah's chastity._
+## 30. Of Lot's deliverance from Sodom, and its consumption by fire from heaven; and of Abimelech, whose lust could not harm Sarah's chastity
+
 
 After this promise Lot was delivered out of Sodom, and a fiery rain
 from heaven turned into ashes that whole region of the impious city,
@@ -28235,8 +27859,8 @@ father, and so near of kin. But her beauty was so great, that even at
 that advanced age she could be fallen in love with.
 
 
-      31. _Of Isaac, who was born according to the promise, whose
-      name was given on account of the laughter of both parents._
+## 31. Of Isaac, who was born according to the promise, whose name was given on account of the laughter of both parents
+
 
 After these things a son was born to Abraham, according to God's
 promise, of Sarah, and was called Isaac, which means _laughter_. For
@@ -28255,8 +27879,8 @@ and new covenants,--Sarah representing that of the Jerusalem which is
 above, that is, the city of God.[302]
 
 
-  32. _Of Abraham's obedience and faith, which were proved by the
-      offering up of his son in sacrifice; and of Sarah's death._
+## 32. Of Abraham's obedience and faith, which were proved by the offering up of his son in sacrifice; and of Sarah's death
+
 
 Among other things, of which it would take too long time to
 mention the whole, Abraham was tempted about the offering up of
@@ -28343,8 +27967,8 @@ is, after the death of his father, who is inferred to have died two
 years before.
 
 
-       33. _Of Rebecca, the grand-daughter of Nahor, whom Isaac
-                            took to wife._
+## 33. Of Rebecca, the grand-daughter of Nahor, whom Isaac took to wife
+
 
 Isaac married Rebecca, the grand-daughter of Nahor, his father's
 brother, when he was forty years old, that is, in the 140th year of his
@@ -28359,8 +27983,8 @@ flesh which was to be derived from that thigh? Are these small tokens
 of the foretold truth which we see fulfilled in Christ?
 
 
-        34. _What is meant by Abraham's marrying Keturah after
-                            Sarah's death._
+## 34. What is meant by Abraham's marrying Keturah after Sarah's death
+
 
 What did Abraham mean by marrying Keturah after Sarah's death? Far
 be it from us to suspect him of incontinence, especially when he
@@ -28399,8 +28023,8 @@ Abraham died when he was 175 years old, so that he left his son Isaac
 seventy-five years old, having begotten him when 100 years old.
 
 
-     35. _What was indicated by the divine answer about the twins
-          still shut up in the womb of Rebecca their mother._
+## 35. What was indicated by the divine answer about the twins still shut up in the womb of Rebecca their mother
+
 
 Let us now see how the times of the city of God run on from this point
 among Abraham's descendants. In the time from the first year of Isaac's
@@ -28433,8 +28057,8 @@ and what is that except what is evidently fulfilled in the Jews and
 Christians?
 
 
-     36. _Of the oracle and blessing which Isaac received, just as
-             his father did, being beloved for his sake._
+## 36. Of the oracle and blessing which Isaac received, just as his father did, being beloved for his sake
+
 
 Isaac also received such an oracle as his father had often received.
 Of this oracle it is thus written: "And there was a famine over the
@@ -28482,7 +28106,8 @@ obedience are less. But if equal in other things, who would hesitate
 to prefer the continent man to the married?
 
 
-     37. _Of the things mystically prefigured in Esau and Jacob._
+## 37. Of the things mystically prefigured in Esau and Jacob
+
 
 Isaac's two sons, Esau and Jacob, grew up together. The primacy of
 the elder was transferred to the younger by a bargain and agreement
@@ -28543,9 +28168,8 @@ volumes would be filled; but the moderate compass fixed for this work
 compels us to hasten to other things.
 
 
-  38. _Of Jacob's mission to Mesopotamia to get a wife, and of the
-      vision which he saw in a dream by the way, and of his getting
-      four women when he sought one wife._
+## 38. Of Jacob's mission to Mesopotamia to get a wife, and of the vision which he saw in a dream by the way, and of his getting four women when he sought one wife
+
 
 Jacob was sent by his parents to Mesopotamia that he might take a
 wife there. These were his father's words on sending him: "Thou
@@ -28623,7 +28247,8 @@ Joseph, who was sold by his brethren for envy, and carried there, and
 who was there exalted.
 
 
-          39. _The reason why Jacob was also called Israel._
+## 39. The reason why Jacob was also called Israel
+
 
 As I said a little ago, Jacob was also called Israel, the name which
 was most prevalent among the people descended from him. Now this name
@@ -28643,9 +28268,8 @@ family. For there are many of that race of whom it was prophetically
 said beforehand, "And they have halted in their paths."[329]
 
 
-  40. _How it is said that Jacob went into Egypt with seventy-five
-      souls, when most of those who are mentioned were born at a
-      later period._
+## 40. How it is said that Jacob went into Egypt with seventy-five souls, when most of those who are mentioned were born at a later period
+
 
 Seventy-five men are reported to have entered Egypt along with Jacob,
 counting him with his children. In this number only two women are
@@ -28696,7 +28320,8 @@ as I have said, the whole period during which Joseph, who occasioned
 his entrance, lived, is held to be the time of that entrance.
 
 
-     41. _Of the blessing which Jacob promised in Judah his son._
+## 41. Of the blessing which Jacob promised in Judah his son
+
 
 If, on account of the Christian people in whom the city of God
 sojourns in the earth, we look for the flesh of Christ in the seed
@@ -28749,8 +28374,8 @@ be lacking out of Judah. "And He is the expectation of the nations."
 This is too plain to need exposition.
 
 
-     42. _Of the sons of Joseph, whom Jacob blessed, prophetically
-                         changing his hands._
+## 42. Of the sons of Joseph, whom Jacob blessed, prophetically changing his hands
+
 
 Now, as Isaac's two sons, Esau and Jacob, furnished a type of the
 two people, the Jews and the Christians (although as pertains to
@@ -28774,10 +28399,8 @@ and the whole world of Abraham's seed, the one according to the
 flesh, the other according to faith?
 
 
-  43. _Of the times of Moses and Joshua the son of Nun, of the
-      judges, and thereafter of the kings, of whom Saul was the
-      first, but David is to be regarded as the chief, both by the
-      oath and by merit._
+## 43. Of the times of Moses and Joshua the son of Nun, of the judges, and thereafter of the kings, of whom Saul was the first, but David is to be regarded as the chief, both by the oath and by merit
+
 
 Jacob being dead, and Joseph also, during the remaining 144 years
 until they went out of the land of Egypt that nation increased to an
@@ -28868,7 +28491,9 @@ appeared abundance of sins, and the beginning of the earthly kingdom
 arose, in which there were not lacking spiritual men, of whom the
 turtle-dove and pigeon represented the mystery.
 
-FOOTNOTES:
+
+## Footnotes to Book XVI
+
 
 [221] Gen. ix. 25.
 
@@ -29122,20 +28747,14 @@ gives the whole number as seventy-five.
 [342] _Infans_, from _in_, not, and _fari_, to speak.
 
 
+# Book XVII
 
 
-                           BOOK SEVENTEENTH.
-
-                               ARGUMENT.
-
-  IN THIS BOOK THE HISTORY OF THE CITY OF GOD IS TRACED DURING THE
-      PERIOD OF THE KINGS AND PROPHETS FROM SAMUEL TO DAVID, EVEN TO
-      CHRIST; AND THE PROPHECIES WHICH ARE RECORDED IN THE BOOK OF
-      KINGS, PSALMS, AND THOSE OF SOLOMON, ARE INTERPRETED OF CHRIST
-      AND THE CHURCH.
+**Argument.** IN THIS BOOK THE HISTORY OF THE CITY OF GOD IS TRACED DURING THE PERIOD OF THE KINGS AND PROPHETS FROM SAMUEL TO DAVID, EVEN TO CHRIST; AND THE PROPHECIES WHICH ARE RECORDED IN THE BOOK OF KINGS, PSALMS, AND THOSE OF SOLOMON, ARE INTERPRETED OF CHRIST AND THE CHURCH.
 
 
-                      1. _Of the prophetic age._
+## 1. Of the prophetic age
+
 
 By the favour of God we have treated distinctly of His promises made
 to Abraham, that both the nation of Israel according to the flesh, and
@@ -29181,8 +28800,8 @@ limit myself, that in carrying through this work, I may, with God's
 help, neither say what is superfluous nor omit what is necessary.
 
 
-     2. _At what time the promise of God was fulfilled concerning
-   the land of Canaan, which even carnal Israel got in possession._
+## 2. At what time the promise of God was fulfilled concerning the land of Canaan, which even carnal Israel got in possession
+
 
 In the preceding book we said, that in the promise of God to Abraham
 two things were promised from the beginning, the one, namely, that his
@@ -29227,9 +28846,8 @@ nations, in whom the other promise, revealed in the New Testament, was
 about to be fulfilled through the incarnation of Christ.
 
 
-  3. _Of the threefold meaning of the prophecies, which are to be
-      referred now to the earthly, now to the heavenly Jerusalem, and
-      now again to both._
+## 3. Of the threefold meaning of the prophecies, which are to be referred now to the earthly, now to the heavenly Jerusalem, and now again to both
+
 
 Wherefore just as that divine oracle to Abraham, Isaac, and Jacob, and
 all the other prophetic signs or sayings which are given in the earlier
@@ -29307,9 +28925,8 @@ to spiritual understanding if he could, or confess that they should
 be recalled by him who is able?
 
 
-  4. _About the prefigured change of the Israelitic kingdom and
-      priesthood, and about the things Hannah the mother of Samuel
-      prophesied, personating the Church._
+## 4. About the prefigured change of the Israelitic kingdom and priesthood, and about the things Hannah the mother of Samuel prophesied, personating the Church
+
 
 Therefore the advance of the city of God, where it reached the times
 of the kings, yielded a figure, when, on the rejection of Saul,
@@ -29609,9 +29226,8 @@ that had many children is waxed feeble, that the barren who hath
 born seven might have the new priesthood in Christ.
 
 
-  5. _Of those things which a man of God spake by the Spirit to Eli
-      the priest, signifying that the priesthood which had been
-      appointed according to Aaron was to be taken away._
+## 5. Of those things which a man of God spake by the Spirit to Eli the priest, signifying that the priesthood which had been appointed according to Aaron was to be taken away
+
 
 But this is said more plainly by a man of God sent to Eli the priest
 himself, whose name indeed is not mentioned, but whose office and
@@ -29782,9 +29398,8 @@ therefore here He has said, "To eat bread," which is in the New
 Testament the sacrifice of the Christians.
 
 
-  6. _Of the Jewish priesthood and kingdom, which, although promised
-      to be established for ever, did not continue; so that other
-      things are to be understood to which eternity is assured._
+## 6. Of the Jewish priesthood and kingdom, which, although promised to be established for ever, did not continue; so that other things are to be understood to which eternity is assured
+
 
 While, therefore, these things now shine forth as clearly as they
 were loftily foretold, still some one may not vainly be moved to
@@ -29855,9 +29470,8 @@ addition of the preposition _quærere_ is understood as _acquirere_,
 whence gains are called _quæstus_.
 
 
-  7. _Of the disruption of the kingdom of Israel, by which the
-      perpetual division of the spiritual from the carnal Israel was
-      prefigured._
+## 7. Of the disruption of the kingdom of Israel, by which the perpetual division of the spiritual from the carnal Israel was prefigured
+
 
 Again Saul sinned through disobedience, and again Samuel says to him
 in the word of the Lord, "Because thou hast despised the word of the
@@ -29960,8 +29574,8 @@ happiness is expected in the kingdom of heaven; and since nothing is
 better than that, the Lord helpeth us hitherto.
 
 
-  8. _Of the promises made to David in his son, which are in no wise
-           fulfilled in Solomon, but most fully in Christ._
+## 8. Of the promises made to David in his son, which are in no wise fulfilled in Solomon, but most fully in Christ
+
 
 And now I see I must show what, pertaining to the matter I treat of,
 God promised to David himself, who succeeded Saul in the kingdom,
@@ -30056,9 +29670,8 @@ He does build. For to this house, that is, to believers, the apostle
 saith, "The temple of God is holy, which temple ye are."[408]
 
 
-  9. _How like the prophecy about Christ in the_ 89_th Psalm is
-      to the things promised in Nathan's prophecy in the Books of
-      Samuel._
+## 9. How like the prophecy about Christ in the 89th Psalm is to the things promised in Nathan's prophecy in the Books of Samuel
+
 
 Wherefore also in the 89th Psalm, of which the title is, "An
 instruction for himself by Ethan the Israelite," mention is made
@@ -30117,10 +29730,8 @@ throne as the sun before me, and as the moon perfected for ever, and
 a faithful witness in heaven."[418]
 
 
-  10. _How different the acts in the kingdom of the earthly Jerusalem
-      are from those which God had promised, so that the truth of the
-      promise should be understood to pertain to the glory of the
-      other King and kingdom._
+## 10. How different the acts in the kingdom of the earthly Jerusalem are from those which God had promised, so that the truth of the promise should be understood to pertain to the glory of the other King and kingdom
+
 
 That it might not be supposed that a promise so strongly expressed
 and confirmed was fulfilled in Solomon, as if he hoped for, yet did
@@ -30160,9 +29771,8 @@ how these things came upon that kingdom, the history of its affairs
 points out if it is read.
 
 
-  11. _Of the substance of the people of God, which through His
-      assumption of flesh is in Christ, who alone had power to
-      deliver His own soul from hell._
+## 11. Of the substance of the people of God, which through His assumption of flesh is in Christ, who alone had power to deliver His own soul from hell
+
 
 But after having prophesied these things, the prophet betakes him
 to praying to God; yet even the very prayer is prophecy: "How long,
@@ -30203,9 +29813,8 @@ of which He says in the Gospel, "I have the power of laying down my
 life, and I have the power of taking it again."[429]
 
 
-  12. _To whose person the entreaty for the promises is to be
-      understood to belong, when he says in the psalm, "Where are
-      Thine ancient compassions, Lord?" etc._
+## 12. To whose person the entreaty for the promises is to be understood to belong, when he says in the psalm, "Where are Thine ancient compassions, Lord?" etc
+
 
 But the rest of this psalm runs thus: "Where are Thine ancient
 compassions, Lord, which Thou swarest unto David in Thy truth?
@@ -30300,8 +29909,8 @@ not humble him any more, as from the beginning, from the days when I
 appointed judges over my people Israel."[440]
 
 
-   13. _Whether the truth of this promised peace can be ascribed to
-                those times passed away under Solomon._
+## 13. Whether the truth of this promised peace can be ascribed to those times passed away under Solomon
+
 
 Whoever hopes for this so great good in this world, and in this
 earth, his wisdom is but folly. Can any one think it was fulfilled
@@ -30332,7 +29941,8 @@ in the desire of which reward a pious life is to be led through faith
 in this miserable pilgrimage.[443]
 
 
-        14. _Of David's concern in the writing of the Psalms._
+## 14. Of David's concern in the writing of the Psalms
+
 
 In the progress of the city of God through the ages, therefore, David
 first reigned in the earthly Jerusalem as a shadow of that which
@@ -30371,8 +29981,8 @@ king Josiah should arise and reign after more than three hundred
 years, who predicted his future deeds also along with his name.[445]
 
 
-    15. _Whether all the things prophesied in the Psalms concerning
-  Christ and His Church should be taken up in the text of this work._
+## 15. Whether all the things prophesied in the Psalms concerning Christ and His Church should be taken up in the text of this work
+
 
 And now I see it may be expected of me that I shall open up in this
 part of this book what David may have prophesied in the Psalms
@@ -30397,8 +30007,8 @@ and prophet, has prophesied concerning Christ and His Church, to wit,
 concerning the King and the city which He has built.
 
 
-     16. _Of the things pertaining to Christ and the Church, said
-           either openly or tropically in the_ 45_th Psalm._
+## 16. Of the things pertaining to Christ and the Church, said either openly or tropically in the 45th Psalm
+
 
 For whatever direct and manifest prophetic utterances there may be
 about anything, it is necessary that those which are tropical should
@@ -30505,8 +30115,8 @@ somewhat darkly in figurative language, ought to be in agreement with
 these most manifest things.
 
 
-       17. _Of those things in the_ 110_th Psalm which relate to
-      the priesthood of Christ, and in the_ 22_d to His passion._
+## 17. Of those things in the 110th Psalm which relate to the priesthood of Christ, and in the 22d to His passion
+
 
 Just as in that psalm also where Christ is most openly proclaimed
 as Priest, even as He is here as King, "The Lord said unto my
@@ -30554,8 +30164,8 @@ Lord, and all the kindreds of the nations shall worship before Him;
 for the kingdom is the Lord's, and He shall rule the nations."
 
 
-    18. _Of the_ 3_d_, 41_st_, 15_th_, _and_ 68_th Psalms, in which
-        the death and resurrection of the Lord are prophesied._
+## 18. Of the 3d, 41st, 15th, and 68th Psalms, in which the death and resurrection of the Lord are prophesied
+
 
 About His resurrection also the oracles of the Psalms are by no
 means silent. For what else is it that is sung in His person in the
@@ -30642,8 +30252,8 @@ that life of mortals, that not even the Lord Himself could go out of
 it otherwise save through death.
 
 
-     19. _Of the_ 69_th Psalm, in which the obstinate unbelief of
-                        the Jews is declared._
+## 19. Of the 69th Psalm, in which the obstinate unbelief of the Jews is declared
+
 
 But when the Jews will not in the least yield to the testimonies of
 this prophecy, which are so manifest, and are also brought by events to
@@ -30669,10 +30279,8 @@ complain about those perhaps stronger proofs which they know or think I
 have passed by.
 
 
-  20. _Of David's reign and merit; and of his son Solomon, and that
-      prophecy relating to Christ which is found either in those
-      books which are joined to those written by him, or in those
-      which are indubitably his._
+## 20. Of David's reign and merit; and of his son Solomon, and that prophecy relating to Christ which is found either in those books which are joined to those written by him, or in those which are indubitably his
+
 
 David therefore reigned in the earthly Jerusalem, a son of the heavenly
 Jerusalem, much praised by the divine testimony; for even his faults
@@ -30804,7 +30412,8 @@ the bride who those hears, "Charity is in thy delights."[493] We pass
 over many things in silence, in our desire to finish this work.
 
 
-      21. _Of the kings after Solomon, both in Judah and Israel._
+## 21. Of the kings after Solomon, both in Judah and Israel
+
 
 The other kings of the Hebrews after Solomon are scarcely found to have
 prophesied, through certain enigmatic words or actions of theirs, what
@@ -30840,10 +30449,8 @@ settled down peaceably, for the division made was not religious but
 political.
 
 
-  22. _Of Jeroboam, who profaned the people put under him by the
-      impiety of idolatry, amid which, however, God did not cease
-      to inspire the prophets, and to guard many from the crime of
-      idolatry._
+## 22. Of Jeroboam, who profaned the people put under him by the impiety of idolatry, amid which, however, God did not cease to inspire the prophets, and to guard many from the crime of idolatry
+
 
 But Jeroboam king of Israel, with perverse mind, not believing in God,
 whom he had proved true in promising and giving him the kingdom, was
@@ -30862,10 +30469,8 @@ left alone, and they seek my life," it was answered that seven thousand
 men were there who had not bowed the knee to Baal.[494]
 
 
-  23. _Of the varying condition of both the Hebrew kingdoms, until
-      the people of both were at different times led into captivity,
-      Judah being afterwards recalled into his kingdom, which finally
-      passed into the power of the Romans._
+## 23. Of the varying condition of both the Hebrew kingdoms, until the people of both were at different times led into captivity, Judah being afterwards recalled into his kingdom, which finally passed into the power of the Romans
+
 
 So also in the kingdom of Judah pertaining to Jerusalem prophets were
 not lacking even in the times of succeeding kings, just as it pleased
@@ -30897,9 +30502,8 @@ not even then were they without foreign enemies and conquerors; yea,
 Christ found them tributaries of the Romans.
 
 
-  24. _Of the prophets, who either were the last among the Jews, or
-      whom the gospel history reports about the time of Christ's
-      nativity._
+## 24. Of the prophets, who either were the last among the Jews, or whom the gospel history reports about the time of Christ's nativity
+
 
 But in that whole time after they returned from Babylon, after
 Malachi, Haggai, and Zechariah, who then prophesied, and Ezra, they
@@ -30927,7 +30531,9 @@ and His Church; and this, by the Lord's help, shall be done more
 conveniently in the following book, that we may not further burden
 this one, which is already too long.
 
-FOOTNOTES:
+
+## Footnotes to Book XVII
+
 
 [343] "Has pointed."
 
@@ -31239,22 +30845,14 @@ xxxii. 28-30).
 [496] Matt. xi. 13.
 
 
+# Book XVIII
 
 
-                           BOOK EIGHTEENTH.
-
-                               ARGUMENT.
-
-  AUGUSTINE TRACES THE PARALLEL COURSES OF THE EARTHLY AND HEAVENLY
-      CITIES FROM THE TIME OF ABRAHAM TO THE END OF THE WORLD; AND
-      ALLUDES TO THE ORACLES REGARDING CHRIST, BOTH THOSE UTTERED BY
-      THE SIBYLS, AND THOSE OF THE SACRED PROPHETS WHO WROTE AFTER
-      THE FOUNDATION OF ROME, HOSEA, AMOS, ISAIAH, MICAH, AND THEIR
-      SUCCESSORS.
+**Argument.** AUGUSTINE TRACES THE PARALLEL COURSES OF THE EARTHLY AND HEAVENLY CITIES FROM THE TIME OF ABRAHAM TO THE END OF THE WORLD; AND ALLUDES TO THE ORACLES REGARDING CHRIST, BOTH THOSE UTTERED BY THE SIBYLS, AND THOSE OF THE SACRED PROPHETS WHO WROTE AFTER THE FOUNDATION OF ROME, HOSEA, AMOS, ISAIAH, MICAH, AND THEIR SUCCESSORS.
 
 
-    1. _Of those things down to the times of the Saviour which have
-                been discussed in the seventeen books._
+## 1. Of those things down to the times of the Saviour which have been discussed in the seventeen books
+
 
 I promised to write of the rise, progress, and appointed end of the two
 cities, one of which is God's, the other this world's, in which, so
@@ -31287,9 +30885,8 @@ its course from the times of Abraham, so that attentive readers may
 compare the two.
 
 
-  2. _Of the kings and times of the earthly city which were
-      synchronous with the times of the saints, reckoning from the
-      rise of Abraham._
+## 2. Of the kings and times of the earthly city which were synchronous with the times of the saints, reckoning from the rise of Abraham
+
 
 The society of mortals spread abroad through the earth everywhere,
 and in the most diverse places, although bound together by a certain
@@ -31375,10 +30972,8 @@ offering sacrifices and by celebrating games, which are said to have
 been first instituted on this occasion.
 
 
-  3. _What kings reigned in Assyria and Sicyon when, according to
-      the promise, Isaac was born to Abraham in his hundredth year,
-      and when the twins Esau and Jacob were born of Rebecca to Isaac
-      in his sixtieth year._
+## 3. What kings reigned in Assyria and Sicyon when, according to the promise, Isaac was born to Abraham in his hundredth year, and when the twins Esau and Jacob were born of Rebecca to Isaac in his sixtieth year
+
 
 In his times also, by the promise of God, Isaac, the son of Abraham,
 was born to his father when he was a hundred years old, of Sarah his
@@ -31423,7 +31018,8 @@ her there after she died, that if any one said she had been human, he
 was charged with a capital crime.
 
 
-            4. _Of the times of Jacob and his son Joseph._
+## 4. Of the times of Jacob and his son Joseph
+
 
 In the reign of Balæus, the ninth king of Assyria, and Mesappus,
 the eighth of Sicyon, who is said by some to have been also called
@@ -31453,8 +31049,8 @@ seven years of plenty and two of famine to the thirty he reckoned
 when honoured by the king.
 
 
-     5. _Of Apis king of Argos, whom the Egyptians called Serapis,
-                 and worshipped with divine honours._
+## 5. Of Apis king of Argos, whom the Egyptians called Serapis, and worshipped with divine honours
+
 
 In these times Apis king of Argos crossed over into Egypt in ships,
 and, on dying there, was made Serapis, the chief god of all the
@@ -31486,8 +31082,8 @@ real colours and substances, the demons can very easily do by showing
 unreal forms to breeding animals.
 
 
-     6. _Who were kings of Argos, and of Assyria, when Jacob died
-                              in Egypt._
+## 6. Who were kings of Argos, and of Assyria, when Jacob died in Egypt
+
 
 Apis, then, who died in Egypt, was not the king of Egypt, but of Argos.
 He was succeeded by his son Argus, from whose name the land was called
@@ -31508,7 +31104,8 @@ private individual for being the first to yoke oxen in the plough. This
 was one Homogyrus, who was struck by lightning.
 
 
-            7. _Who were kings when Joseph died in Egypt._
+## 7. Who were kings when Joseph died in Egypt
+
 
 In the reign of Mamitus, the twelfth king of Assyria, and Plemnæus,
 the eleventh of Sicyon, while Argus still reigned over the Argives,
@@ -31523,8 +31120,8 @@ with God-given fertility. During this period the same kingdoms
 continued in Assyria and Greece.
 
 
-    8. _Who were kings when Moses was born, and what gods began to
-                         be worshipped then._
+## 8. Who were kings when Moses was born, and what gods began to be worshipped then
+
 
 When Saphrus reigned as the fourteenth king of Assyria, and
 Orthopolis as the twelfth of Sicyon, and Criasus as the fifth of
@@ -31583,8 +31180,8 @@ Cecrops reigned in Athens, in whose reign the city itself is reported
 to have been rebuilt or founded.
 
 
-    9. _When the city of Athens was founded, and what reason Varro
-                        assigns for its name._
+## 9. When the city of Athens was founded, and what reason Varro assigns for its name
+
 
 Athens certainly derived its name from Minerva, who in Greek is
 called Ἀθηνη, and Varro points out the following reason why it was so
@@ -31623,8 +31220,8 @@ her their votes. What and how much could be said about this, if we
 had not to hasten to other things in our discourse, is obvious.
 
 
-      10. _What Varro reports about the term Areopagus, and about
-                          Deucalion's flood._
+## 10. What Varro reports about the term Areopagus, and about Deucalion's flood
+
 
 Marcus Varro, however, is not willing to credit lying fables against
 the gods, lest he should find something dishonouring to their
@@ -31666,8 +31263,8 @@ parts of the earth in which he reigned. But this flood did not at all
 reach Egypt or its vicinity.
 
 
-    11. _When Moses led the people out of Egypt; and who were kings
-            when his successor Joshua the son of Nun died._
+## 11. When Moses led the people out of Egypt; and who were kings when his successor Joshua the son of Nun died
+
 
 Moses led the people out of Egypt in the last time of Cecrops king
 of Athens, when Ascatades reigned in Assyria, Marathus in Sicyon,
@@ -31693,9 +31290,8 @@ Coracos as the sixteenth in Sicyon, Danaos as the tenth in Argos,
 Ericthonius as the fourth in Athens.
 
 
-  12. _Of the rituals of false gods instituted by the kings of Greece
-      in the period from Israel's exodus from Egypt down to the death
-      of Joshua the son of Nun._
+## 12. Of the rituals of false gods instituted by the kings of Greece in the period from Israel's exodus from Egypt down to the death of Joshua the son of Nun
+
 
 During this period, that is, from Israel's exodus from Egypt down to
 the death of Joshua the son of Nun, through whom that people received
@@ -31765,8 +31361,8 @@ unreal crime of the gods, yet to delight in the ascription of an unreal
 crime is a real one.
 
 
-    13. _What fables were invented at the time when judges began to
-                          rule the Hebrews._
+## 13. What fables were invented at the time when judges began to rule the Hebrews
+
 
 After the death of Joshua the son of Nun, the people of God had judges,
 in whose times they were alternately humbled by afflictions on account
@@ -31824,7 +31420,8 @@ not ashamed or afraid to mark out their images by constellations, and
 call them by their names.
 
 
-                    14. _Of the theological poets._
+## 14. Of the theological poets
+
 
 During the same period of time arose the poets, who were also called
 _theologues_, because they made hymns about the gods; yet about such
@@ -31848,8 +31445,8 @@ who was the mother of Melicertes, Leucothea, the Latins Matuta; but
 both thought her a goddess.
 
 
-    15. _Of the fall of the kingdom of Argos, when Picus the son of
-       Saturn first received his father's kingdom of Laurentum._
+## 15. Of the fall of the kingdom of Argos, when Picus the son of Saturn first received his father's kingdom of Laurentum
+
 
 During those times the kingdom of Argos came to an end, being
 transferred to Mycene, from which Agamemnon came, and the kingdom of
@@ -31867,12 +31464,12 @@ father of Picus, who deny that he was a man; of whom some also have
 written that he himself reigned in Italy before Picus his son; and
 Virgil in his well-known book says,--
 
-          "That race indocile, and through mountains high
-           Dispersed, he settled, and endowed with laws,
-           And named their country Latium, because
-           Latent within their coasts he dwelt secure.
-           Tradition says the golden ages pure
-           Began when he was king."[503]
+"That race indocile, and through mountains high\
+Dispersed, he settled, and endowed with laws,\
+And named their country Latium, because\
+Latent within their coasts he dwelt secure.\
+Tradition says the golden ages pure\
+Began when he was king."[503]
 
 But they regard these as poetic fancies, and assert that the father
 of Picus was Sterces rather, and relate that, being a most skilful
@@ -31887,9 +31484,8 @@ of Laurentum; and he too is, or was, a god with them. These divine
 honours they gave to dead men before the Trojan war.
 
 
-  16. _Of Diomede, who after the destruction of Troy was placed among
-      the gods, while his companions are said to have been changed
-      into birds._
+## 16. Of Diomede, who after the destruction of Troy was placed among the gods, while his companions are said to have been changed into birds
+
 
 Troy was overthrown, and its destruction was everywhere sung and made
 well known even to boys; for it was signally published and spread
@@ -31916,7 +31512,8 @@ even to kill them. For they are said to be well enough armed for these
 combats with their hard and large beaks.
 
 
-    17. _What Varro says of the incredible transformations of men._
+## 17. What Varro says of the incredible transformations of men
+
 
 In support of this story, Varro relates others no less incredible
 about that most famous sorceress Circe, who changed the companions
@@ -31938,8 +31535,8 @@ name Lycæus appears to be formed. He says also that the Roman Luperci
 were as it were sprung of the seed of these mysteries.
 
 
-   18. _What we should believe concerning the transformations which
-           seem to happen to men through the art of demons._
+## 18. What we should believe concerning the transformations which seem to happen to men through the art of demons
+
 
 Perhaps our readers expect us to say something about this so great
 delusion wrought by the demons; and what shall we say but that men
@@ -32039,8 +31636,8 @@ temples, altars, sacrifices, and priests, all which, when of the
 right kind, are due only to the one living and true God.
 
 
-    19. _That Æneas came into Italy when Abdon the judge ruled over
-                             the Hebrews._
+## 19. That Æneas came into Italy when Abdon the judge ruled over the Hebrews
+
 
 After the capture and destruction of Troy, Æneas, with twenty ships
 laden with the Trojan relics, came into Italy, when Latinus reigned
@@ -32070,8 +31667,8 @@ was judge of the Hebrews; and the kingdom of Sicyon then came to an
 end, after lasting, it is said, for nine hundred and fifty-nine years.
 
 
-   20. _Of the succession of the line of kings among the Israelites
-                    after the times of the judges._
+## 20. Of the succession of the line of kings among the Israelites after the times of the judges
+
 
 While these kings reigned in the places mentioned, the period of the
 judges being ended, the kingdom of Israel next began with king Saul,
@@ -32092,8 +31689,8 @@ by his son Rehoboam, under whom that people was divided into two
 kingdoms, and its separate parts began to have separate kings.
 
 
-      21. _Of the kings of Latium, the first and twelfth of whom,
-                 Æneas and Aventinus, were made gods._
+## 21. Of the kings of Latium, the first and twelfth of whom, Æneas and Aventinus, were made gods
+
 
 After Æneas, whom they deified, Latium had eleven kings, none of
 whom was deified. But Aventinus, who was the twelfth after Æneas,
@@ -32106,7 +31703,7 @@ Aventinus.[507] After this no god was made in Latium except Romulus
 the founder of Rome. But two kings are found between these two, the
 first of whom I shall describe in the Virgilian verse:
 
-          "Next came that Procas, glory of the Trojan race."[508]
+"Next came that Procas, glory of the Trojan race."[508]
 
 That greatest of all kingdoms, the Assyrian, had its long duration
 brought to a close in his time, the time of Rome's birth drawing
@@ -32136,8 +31733,8 @@ and Rome was founded in the first year of this Numitor, who from that
 time reigned along with his grandson Romulus.
 
 
-    22. _That Rome was founded when the Assyrian kingdom perished,
-               at which time Hezekiah reigned in Judah._
+## 22. That Rome was founded when the Assyrian kingdom perished, at which time Hezekiah reigned in Judah
+
 
 To be brief, the city of Rome was founded, like another Babylon, and as
 it were the daughter of the former Babylon, by which God was pleased
@@ -32168,8 +31765,8 @@ Romulus. And in that part of the Hebrew nation called Israel, Hoshea
 had begun to reign.
 
 
-  23. _Of the Erythræan sibyl, who is known to have sung many things
-           about Christ more plainly than the other sibyls._
+## 23. Of the Erythræan sibyl, who is known to have sung many things about Christ more plainly than the other sibyls
+
 
 Some say the Erythræan sibyl prophesied at this time. Now Varro
 declares there were many sibyls, and not merely one. This sibyl of
@@ -32187,52 +31784,52 @@ could be read in them: Ἰησοῦς Χριστὸς Θεοῦ υἱὸς σω�
 which the initial letters yield that meaning, contain what follows as
 translated by some one into Latin in good rhythm:
 
-          Ι Judgment shall moisten the earth with the sweat of its
-              standard,
-          Η Ever enduring, behold the King shall come through the ages,
-          Σ Sent to be here in the flesh, and Judge at the last of the
-              world.
-          Ο O God, the believing and faithless alike shall behold Thee
-          Υ Uplifted with saints, when at last the ages are ended.
-          Σ Sisted before Him are souls in the flesh for His judgment.
+Ι Judgment shall moisten the earth with the sweat of its
+standard,
+Η Ever enduring, behold the King shall come through the ages,
+Σ Sent to be here in the flesh, and Judge at the last of the
+world.
+Ο O God, the believing and faithless alike shall behold Thee
+Υ Uplifted with saints, when at last the ages are ended.
+Σ Sisted before Him are souls in the flesh for His judgment.
 
-          Χ Hid in thick vapours, the while desolate lieth the earth.
-          Ρ Rejected by men are the idols and long hidden treasures;
-          Ε Earth is consumed by the fire, and it searcheth the ocean
-              and heaven;
-          Ι Issuing forth, it destroyeth the terrible portals of hell.
-          Σ Saints in their body and soul freedom and light shall
-              inherit;
-          Τ Those who are guilty shall burn in fire and brimstone for
-              ever.
-          Ο Occult actions revealing, each one shall publish his
-              secrets;
-          Σ Secrets of every man's heart God shall reveal in the light.
+Χ Hid in thick vapours, the while desolate lieth the earth.
+Ρ Rejected by men are the idols and long hidden treasures;
+Ε Earth is consumed by the fire, and it searcheth the ocean
+and heaven;
+Ι Issuing forth, it destroyeth the terrible portals of hell.
+Σ Saints in their body and soul freedom and light shall
+inherit;
+Τ Those who are guilty shall burn in fire and brimstone for
+ever.
+Ο Occult actions revealing, each one shall publish his
+secrets;
+Σ Secrets of every man's heart God shall reveal in the light.
 
-          Θ Then shall be weeping and wailing, yea; and gnashing of
-               teeth;
-          Ε Eclipsed is the sun, and silenced the stars in their chorus.
-          Ο Over and gone is the splendour of moonlight, melted the
-               heaven.
-          Υ Uplifted by Him are the valleys, and cast down the
-               mountains.
+Θ Then shall be weeping and wailing, yea; and gnashing of
+teeth;
+Ε Eclipsed is the sun, and silenced the stars in their chorus.
+Ο Over and gone is the splendour of moonlight, melted the
+heaven.
+Υ Uplifted by Him are the valleys, and cast down the
+mountains.
 
-          Υ Utterly gone among men are distinctions of lofty and lowly.
-          Ι Into the plains rush the hills, the skies and oceans are
-               mingled.
-          Ο Oh, what an end of all things! earth broken in pieces shall
-               perish;
-          Σ Swelling together at once shall the waters and flames flow
-               in rivers.
+Υ Utterly gone among men are distinctions of lofty and lowly.
+Ι Into the plains rush the hills, the skies and oceans are
+mingled.
+Ο Oh, what an end of all things! earth broken in pieces shall
+perish;
+Σ Swelling together at once shall the waters and flames flow
+in rivers.
 
-          Σ Sounding the archangel's trumpet shall peal down from
-               heaven,
-          Ω Over the wicked who groan in their guilt and their manifold
-               sorrows.
-          Τ Trembling, the earth shall be opened, revealing chaos and
-               hell.
-          Η Every king before God shall stand in that day to be judged.
-          Ρ Rivers of fire and of brimstone shall fall from the heavens.
+Σ Sounding the archangel's trumpet shall peal down from
+heaven,
+Ω Over the wicked who groan in their guilt and their manifold
+sorrows.
+Τ Trembling, the earth shall be opened, revealing chaos and
+hell.
+Η Every king before God shall stand in that day to be judged.
+Ρ Rivers of fire and of brimstone shall fall from the heavens.
 
 In these Latin verses the meaning of the Greek is correctly given,
 although not in the exact order of the lines as connected with the
@@ -32286,10 +31883,8 @@ Some writers, indeed, say that the Erythræan sibyl was not in the
 time of Romulus, but of the Trojan war.
 
 
-  24. _That the seven sages flourished in the reign of Romulus, when
-      the ten tribes which were called Israel were led into captivity
-      by the Chaldeans, and Romulus, when dead, had divine honours
-      conferred on him._
+## 24. That the seven sages flourished in the reign of Romulus, when the ten tribes which were called Israel were led into captivity by the Chaldeans, and Romulus, when dead, had divine honours conferred on him
+
 
 While Romulus reigned, Thales the Milesian is said to have lived, being
 one of the seven sages, who succeeded the theological poets, of whom
@@ -32323,9 +31918,8 @@ began to reign over the Hebrews,--an impious king, by whom the prophet
 Isaiah is said to have been slain.
 
 
-  25. _What philosophers were famous when Tarquinius Priscus reigned
-      over the Romans, and Zedekiah over the Hebrews, when Jerusalem
-      was taken and the temple overthrown._
+## 25. What philosophers were famous when Tarquinius Priscus reigned over the Romans, and Zedekiah over the Hebrews, when Jerusalem was taken and the temple overthrown
+
 
 When Zedekiah reigned over the Hebrews, and Tarquinius Priscus,
 the successor of Ancus Martius, over the Romans, the Jewish people
@@ -32350,9 +31944,8 @@ Xenophanes, the natural philosophers, flourished. Pythagoras also
 lived then, and at this time the name philosopher was first used.
 
 
-  26. _That at the time when the captivity of the Jews was brought
-      to an end, on the completion of seventy years, the Romans also
-      were freed from kingly rule._
+## 26. That at the time when the captivity of the Jews was brought to an end, on the completion of seventy years, the Romans also were freed from kingly rule
+
 
 At this time, Cyrus king of Persia, who also ruled the Chaldeans and
 Assyrians, having somewhat relaxed the captivity of the Jews, made
@@ -32373,10 +31966,8 @@ closing the previous book, I promised to set down something in this one
 about them, and I shall now do so.
 
 
-  27. _Of the times of the prophets whose oracles are contained in
-      books, and who sang many things about the call of the Gentiles
-      at the time when the Roman kingdom began and the Assyrian came
-      to an end._
+## 27. Of the times of the prophets whose oracles are contained in books, and who sang many things about the call of the Gentiles at the time when the Roman kingdom began and the Assyrian came to an end
+
 
 In order that we may be able to consider these times, let us go back a
 little to earlier times. At the beginning of the book of the prophet
@@ -32415,8 +32006,8 @@ be formed, which was to benefit the nations too, it was fitting that it
 should begin when this city was founded which was to rule the nations.
 
 
-   28. _Of the things pertaining to the gospel of Christ which Hosea
-                         and Amos prophesied._
+## 28. Of the things pertaining to the gospel of Christ which Hosea and Amos prophesied
+
 
 The prophet Hosea speaks so very profoundly that it is laborious
 work to penetrate his meaning. But, according to promise, we must
@@ -32465,8 +32056,8 @@ of men may inquire for me, and all the nations upon whom my name is
 invoked, saith the Lord that doeth this."[523]
 
 
-    29. _What things are predicted by Isaiah concerning Christ and
-                             the Church._
+## 29. What things are predicted by Isaiah concerning Christ and the Church
+
 
 The prophecy of Isaiah is not in the book of the twelve prophets, who
 are called the minor from the brevity of their writings, as compared
@@ -32492,8 +32083,8 @@ those parts sufficient which are so plain that even enemies must be
 compelled against their will to understand them.
 
 
-  30. _What Micah, Jonah, and Joel prophesied in accordance with the
-                           New Testament._
+## 30. What Micah, Jonah, and Joel prophesied in accordance with the New Testament
+
 
 The prophet Micah, representing Christ under the figure of a great
 mountain, speaks thus: "It shall come to pass in the last days, that
@@ -32535,8 +32126,8 @@ visions: and even on my servants and mine handmaids in those days
 will I pour out my Spirit."[528]
 
 
-     31. _Of the predictions concerning the salvation of the world
-             in Christ, in Obadiah, Nahum, and Habakkuk._
+## 31. Of the predictions concerning the salvation of the world in Christ, in Obadiah, Nahum, and Habakkuk
+
 
 The date of three of the minor prophets, Obadiah, Nahum, and
 Habakkuk, is neither mentioned by themselves nor given in the
@@ -32597,8 +32188,8 @@ arise in the end, and will not become void: if it tarry, wait for it;
 because it will surely come, and will not be delayed?"[533]
 
 
-     32. _Of the prophecy that is contained in the prayer and song
-                             of Habakkuk._
+## 32. Of the prophecy that is contained in the prayer and song of Habakkuk
+
 
 In his prayer, with a song, to whom but the Lord Christ does he say,
 "O Lord, I have heard Thy hearing, and was afraid: O Lord, I have
@@ -32728,8 +32319,8 @@ wishing to put it in Latin, have not set down that very name which
 for us it is dearer and sweeter to name.
 
 
-    33. _What Jeremiah and Zephaniah have, by the prophetic Spirit,
-   spoken before concerning Christ and the calling of the nations._
+## 33. What Jeremiah and Zephaniah have, by the prophetic Spirit, spoken before concerning Christ and the calling of the nations
+
 
 Jeremiah, like Isaiah, is one of the greater prophets, not of
 the minor, like the others from whose writings I have just given
@@ -32793,8 +32384,8 @@ sea, a remnant shall be saved."[558] These are the remnant of that
 nation who have believed in Christ.
 
 
-     34. _Of the prophecy of Daniel and Ezekiel, other two of the
-                          greater prophets._
+## 34. Of the prophecy of Daniel and Ezekiel, other two of the greater prophets
+
 
 Daniel and Ezekiel, other two of the greater prophets, also first
 prophesied in the very captivity of Babylon. Daniel even defined the
@@ -32827,8 +32418,8 @@ their God. And my servant David shall be king over them, and there
 shall be one Shepherd for them all."[561]
 
 
-    35. _Of the prophecy of the three prophets, Haggai, Zechariah,
-                             and Malachi._
+## 35. Of the prophecy of the three prophets, Haggai, Zechariah, and Malachi
+
 
 There remain three minor prophets, Haggai, Zechariah, and Malachi,
 who prophesied at the close of the captivity. Of these Haggai more
@@ -32943,7 +32534,8 @@ day is the day of judgment, of which, if God will, we shall speak more
 fully in its own place.
 
 
-          36. _About Esdras and the books of the Maccabees._
+## 36. About Esdras and the books of the Maccabees
+
 
 After these three prophets, Haggai, Zechariah, and Malachi, during
 the same period of the liberation of the people from the Babylonian
@@ -32966,8 +32558,8 @@ had come in the flesh, contended for the law of God even unto death,
 and endured most grievous and horrible evils.
 
 
-     37. _That prophetic records are found which are more ancient
-             than any fountain of the Gentile philosophy._
+## 37. That prophetic records are found which are more ancient than any fountain of the Gentile philosophy
+
 
 In the time of our prophets, then, whose writings had already come to
 the knowledge of almost all nations, the philosophers of the nations
@@ -33013,9 +32605,8 @@ first began to reign in Argos when the grandsons of Abraham are known
 to have been already born.
 
 
-  38. _That the ecclesiastical canon has not admitted certain
-      writings on account of their too great antiquity, lest through
-      them false things should be inserted instead of true._
+## 38. That the ecclesiastical canon has not admitted certain writings on account of their too great antiquity, lest through them false things should be inserted instead of true
+
 
 If I may recall far more ancient times, our patriarch Noah was
 certainly even before that great deluge, and I might not undeservedly
@@ -33056,8 +32647,8 @@ truth of the canonical books, so that it is quite apparent they do
 not belong to them.
 
 
-     39. _About the Hebrew written characters which that language
-                          always possessed._
+## 39. About the Hebrew written characters which that language always possessed
+
 
 Now we must not believe that Heber, from whose name the word Hebrew
 is derived, preserved and transmitted the Hebrew language to Abraham
@@ -33091,9 +32682,8 @@ and maternal grandson of the elder Mercury, of whom that Mercury
 Trismegistus was the grandson.
 
 
-  40. _About the most mendacious vanity of the Egyptians, in which
-      they ascribe to their science an antiquity of a hundred
-      thousand years._
+## 40. About the most mendacious vanity of the Egyptians, in which they ascribe to their science an antiquity of a hundred thousand years
+
 
 In vain, then, do some babble with most empty presumption, saying
 that Egypt has understood the reckoning of the stars for more than a
@@ -33121,8 +32711,8 @@ case regarding other things in secular books, which, whether true or
 false, yield nothing of moment to our living rightly and happily.
 
 
-   41. _About the discord of philosophic opinion, and the concord of
-       the Scriptures that are held as canonical by the Church._
+## 41. About the discord of philosophic opinion, and the concord of the Scriptures that are held as canonical by the Church
+
 
 But let us omit further examination of history, and return to the
 philosophers from whom we digressed to these things. They seem to
@@ -33230,9 +32820,8 @@ who should know them might be afraid of contemning, not the wit of men,
 but the oracle of God.
 
 
-  42. _By what dispensation of God's providence the sacred Scriptures
-      of the Old Testament were translated out of Hebrew into Greek,
-      that they might be made known to all the nations._
+## 42. By what dispensation of God's providence the sacred Scriptures of the Old Testament were translated out of Hebrew into Greek, that they might be made known to all the nations
+
 
 One of the Ptolemies, kings of Egypt, desired to know and have these
 sacred books. For after Alexander of Macedon, who is also styled the
@@ -33267,9 +32856,8 @@ as human but divine, as indeed it was, for the benefit of the nations
 who should at some time believe, as we now see them doing.
 
 
-  43. _Of the authority of the Septuagint translation, which, saving
-      the honour of the Hebrew original, is to be preferred to all
-      translations._
+## 43. Of the authority of the Septuagint translation, which, saving the honour of the Hebrew original, is to be preferred to all translations
+
 
 For while there were other interpreters who translated these sacred
 oracles out of the Hebrew tongue into Greek, as Aquila, Symmachus, and
@@ -33337,9 +32925,8 @@ Spirit hath appeared in the latter, when, without mutual conference,
 they yet interpreted all things as if with one mouth.
 
 
-  44. _How the threat of the destruction of the Ninevites is to be
-      understood, which in the Hebrew extends to forty days, while in
-      the Septuagint it is contracted to three._
+## 44. How the threat of the destruction of the Ninevites is to be understood, which in the Hebrew extends to forty days, while in the Septuagint it is contracted to three
+
 
 But some one may say, "How shall I know whether the prophet Jonah
 said to the Ninevites, 'Yet _three_ days and Nineveh shall be
@@ -33387,10 +32974,8 @@ both should be used as authoritative, since both are one, and divine.
 But let us now follow out as we can what remains.
 
 
-  45. _That the Jews ceased to have prophets after the rebuilding of
-      the temple, and from that time until the birth of Christ were
-      afflicted with continual adversity, to prove that the building
-      of another temple had been promised by prophetic voices._
+## 45. That the Jews ceased to have prophets after the rebuilding of the temple, and from that time until the birth of Christ were afflicted with continual adversity, to prove that the building of another temple had been promised by prophetic voices
+
 
 The Jewish nation no doubt became worse after it ceased to have
 prophets, just at the very time when, on the rebuilding of the temple
@@ -33485,9 +33070,8 @@ the splendour of power, unless they should first believe in Him when
 He came to suffer judgment in the humility of patience.
 
 
-  46. _Of the birth of our Saviour, whereby the Word was made flesh;
-      and of the dispersion of the Jews among all nations, as had
-      been prophesied._
+## 46. Of the birth of our Saviour, whereby the Word was made flesh; and of the dispersion of the Jews among all nations, as had been prophesied
+
 
 While Herod, therefore, reigned in Judea, and Cæsar Augustus was
 emperor at Rome, the state of the republic being already changed, and
@@ -33543,9 +33127,8 @@ which is everywhere could not have had them as witnesses among all
 nations to the prophecies which were sent before concerning Christ.
 
 
-  47. _Whether before Christian times there were any outside of the
-      Israelite race who belonged to the fellowship of the heavenly
-      city._
+## 47. Whether before Christian times there were any outside of the Israelite race who belonged to the fellowship of the heavenly city
+
 
 Wherefore if we read of any foreigner--that is, one neither born
 of Israel nor received by that people into the canon of the sacred
@@ -33592,10 +33175,8 @@ native abode and dispersed over the whole world in order to bear this
 testimony, so that the Church of Christ has everywhere increased.
 
 
-  48. _That Haggai's prophecy, in which he said that the glory of
-      the house of God would be greater than that of the first had
-      been,_[590] _was really fulfilled, not in the rebuilding of the
-      temple, but in the Church of Christ._
+## 48. That Haggai's prophecy, in which he said that the glory of the house of God would be greater than that of the first had been,[590] was really fulfilled, not in the rebuilding of the temple, but in the Church of Christ
+
 
 This house of God is more glorious than that first one which was
 constructed of wood and stone, metals, and other precious things.
@@ -33638,8 +33219,8 @@ threshing-floor, the glory of this house is not so apparent now as it
 shall be when every one who is there shall be there always.
 
 
-    49. _Of the indiscriminate increase of the Church, wherein many
-          reprobate are in this world mixed with the elect._
+## 49. Of the indiscriminate increase of the Church, wherein many reprobate are in this world mixed with the elect
+
 
 In this wicked world, in these evil days, when the Church measures
 her future loftiness by her present humility, and is exercised
@@ -33674,8 +33255,8 @@ signifying that the unity of the catholic Church would embrace all
 nations, and would in like manner speak in all tongues.
 
 
-    50. _Of the preaching of the gospel, which is made more famous
-           and powerful by the sufferings of its preachers._
+## 50. Of the preaching of the gospel, which is made more famous and powerful by the sufferings of its preachers
+
 
 Then was fulfilled that prophecy, "Out of Sion shall go forth the
 law, and the word of the Lord out of Jerusalem;"[600] and the
@@ -33713,8 +33294,8 @@ earth, and might begin to persecute the false gods for whose sake the
 worshippers of the true God had formerly been persecuted.
 
 
-       51. _That the catholic faith may be confirmed even by the
-                     dissensions of the heretics._
+## 51. That the catholic faith may be confirmed even by the dissensions of the heretics
+
 
 But the devil, seeing the temples of the demons deserted, and the
 human race running to the name of the liberating Mediator, has
@@ -33790,10 +33371,8 @@ of this world, the Church has gone forward on pilgrimage amid the
 persecutions of the world and the consolations of God.
 
 
-  52. _Whether we should believe what some think, that, as the ten
-      persecutions which are past have been fulfilled, there remains
-      no other beyond the eleventh, which must happen in the very
-      time of Antichrist._
+## 52. Whether we should believe what some think, that, as the ten persecutions which are past have been fulfilled, there remains no other beyond the eleventh, which must happen in the very time of Antichrist
+
 
 I do not think, indeed, that what some have thought or may think
 is rashly said or believed, that until the time of Antichrist the
@@ -33869,7 +33448,8 @@ side of this question, but only restraining men from the audacious
 presumption of affirming either of them.
 
 
-          53. _Of the hidden time of the final persecution._
+## 53. Of the hidden time of the final persecution
+
 
 Truly Jesus Himself shall extinguish by His presence that last
 persecution which is to be made by Antichrist. For so it is written,
@@ -33935,9 +33515,8 @@ those verses say that Peter bound, not any demon, but a god to do
 these things. Such a god have they who have not Christ.
 
 
-  54. _Of the very foolish lie of the pagans, in feigning that the
-      Christian religion was not to last beyond three hundred and
-      sixty-five years._
+## 54. Of the very foolish lie of the pagans, in feigning that the Christian religion was not to last beyond three hundred and sixty-five years
+
 
 I might collect these and many similar arguments, if that year had
 not already passed by which lying divination has promised, and
@@ -34037,7 +33616,9 @@ diverse hope, and diverse love, until they must be separated by the
 last judgment, and each must receive her own end, of which there is no
 end. About these ends of both we must next treat.
 
-FOOTNOTES:
+
+## Footnotes to Book XVIII
+
 
 [497] Sallust, _Bell. Cat._ c. 8.
 
@@ -34285,24 +33866,14 @@ years.
 [618] Luke xxiv. 47.
 
 
+# Book XIX
 
 
-                           BOOK NINETEENTH.
-
-                               ARGUMENT.
-
-  IN THIS BOOK THE END OF THE TWO CITIES, THE EARTHLY AND THE
-      HEAVENLY, IS DISCUSSED. AUGUSTINE REVIEWS THE OPINIONS OF THE
-      PHILOSOPHERS REGARDING THE SUPREME GOOD, AND THEIR VAIN EFFORTS
-      TO MAKE FOR THEMSELVES A HAPPINESS IN THIS LIFE; AND, WHILE HE
-      REFUTES THESE, HE TAKES OCCASION TO SHOW WHAT THE PEACE AND
-      HAPPINESS BELONGING TO THE HEAVENLY CITY, OR THE PEOPLE OF
-      CHRIST, ARE BOTH NOW AND HEREAFTER.
+**Argument.** IN THIS BOOK THE END OF THE TWO CITIES, THE EARTHLY AND THE HEAVENLY, IS DISCUSSED. AUGUSTINE REVIEWS THE OPINIONS OF THE PHILOSOPHERS REGARDING THE SUPREME GOOD, AND THEIR VAIN EFFORTS TO MAKE FOR THEMSELVES A HAPPINESS IN THIS LIFE; AND, WHILE HE REFUTES THESE, HE TAKES OCCASION TO SHOW WHAT THE PEACE AND HAPPINESS BELONGING TO THE HEAVENLY CITY, OR THE PEOPLE OF CHRIST, ARE BOTH NOW AND HEREAFTER.
 
 
-  1. _That Varro has made out that two hundred and eighty-eight
-      different sects of philosophy might be formed by the various
-      opinions regarding the supreme good._
+## 1. That Varro has made out that two hundred and eighty-eight different sects of philosophy might be formed by the various opinions regarding the supreme good
+
 
 As I see that I have still to discuss the fit destinies of the two
 cities, the earthly and the heavenly, I must first explain, so far as
@@ -34451,9 +34022,8 @@ necessitate the pursuit of the same chief good, and diverse habits
 would necessitate the pursuit of different ends.
 
 
-  2. _How Varro, by removing all the differences which do not form
-      sects, but are merely secondary questions, reaches three
-      definitions of the chief good, of which we must choose one._
+## 2. How Varro, by removing all the differences which do not form sects, but are merely secondary questions, reaches three definitions of the chief good, of which we must choose one
+
 
 The same may be said of those three kinds of life, the life of studious
 leisure and search after truth, the life of easy engagement in affairs,
@@ -34518,9 +34088,8 @@ desired for their sake, and that virtue and these objects are to be
 desired each for their own sake.
 
 
-  3. _Which of the three leading opinions regarding the chief good
-      should be preferred, according to Varro, who follows Antiochus
-      and the Old Academy._
+## 3. Which of the three leading opinions regarding the chief good should be preferred, according to Varro, who follows Antiochus and the Old Academy
+
 
 Which of these three is true and to be adopted he attempts to show in
 the following manner. As it is the supreme good, not of a tree, or
@@ -34603,9 +34172,8 @@ us, who ought to judge the matter on its own merits, rather than to
 understand accurately what different men have thought about it?
 
 
-  4. _What the Christians believe regarding the supreme good and
-      evil, in opposition to the philosophers, who have maintained
-      that the supreme good is in themselves._
+## 4. What the Christians believe regarding the supreme good and evil, in opposition to the philosophers, who have maintained that the supreme good is in themselves
+
 
 If, then, we be asked what the city of God has to say upon these
 points, and, in the first place, what its opinion regarding the
@@ -34818,8 +34386,8 @@ themselves a happiness in this life, based upon a virtue which is as
 deceitful as it is proud.
 
 
-       5. _Of the social life, which, though most desirable, is
-               frequently disturbed by many distresses._
+## 5. Of the social life, which, though most desirable, is frequently disturbed by many distresses
+
 
 We give a much more unlimited approval to their idea that the life of
 the wise man must be social. For how could the city of God (concerning
@@ -34863,7 +34431,8 @@ and criminal, and is never free from the fear, if sometimes from the
 actual outbreak, of disturbing and bloody insurrections and civil wars?
 
 
-    6. _Of the error of human judgments when the truth is hidden._
+## 6. Of the error of human judgments when the truth is hidden
+
 
 What shall I say of these judgments which men pronounce on men, and
 which are necessary in communities, whatever outward peace they
@@ -34921,9 +34490,8 @@ that misery; and had he any piety about him, he would cry to God,
 "From my necessities deliver Thou me."[633]
 
 
-  7. _Of the diversity of languages, by which the intercourse of men
-      is prevented; and of the misery of wars, even of those called
-      just._
+## 7. Of the diversity of languages, by which the intercourse of men is prevented; and of the misery of wars, even of those called just
+
 
 After the state or city comes the world, the third circle of human
 society,--the first being the house, and the second the city. And the
@@ -34965,8 +34533,8 @@ mental pain, this is a more miserable plight still, for he thinks
 himself happy because he has lost human feeling.
 
 
-  8. _That the friendship of good men cannot be securely rested in,
-      so long as the dangers of this life force us to be anxious._
+## 8. That the friendship of good men cannot be securely rested in, so long as the dangers of this life force us to be anxious
+
 
 In our present wretched condition we frequently mistake a friend for
 an enemy, and an enemy for a friend. And if we escape this pitiable
@@ -35013,9 +34581,8 @@ beyond the ills by which in this life even the best of men are broken
 down or corrupted, or are in danger of both results.
 
 
-  9. _Of the friendship of the holy angels, which men cannot be sure
-      of in this life, owing to the deceit of the demons who hold in
-      bondage the worshippers of a plurality of gods._
+## 9. Of the friendship of the holy angels, which men cannot be sure of in this life, owing to the deceit of the demons who hold in bondage the worshippers of a plurality of gods
+
 
 The philosophers who wished us to have the gods for our friends rank
 the friendship of the holy angels in the fourth circle of society,
@@ -35042,8 +34609,8 @@ celebrated, and which they themselves originated and exacted from
 their worshippers as a fit propitiation.
 
 
-  10. _The reward prepared for the saints after they have endured the
-                         trial of this life._
+## 10. The reward prepared for the saints after they have endured the trial of this life
+
 
 But not even the saints and faithful worshippers of the one true and
 most high God are safe from the manifold temptations and deceits
@@ -35070,8 +34637,8 @@ things, and itself also, to that end in which we shall enjoy the best
 and greatest peace possible.
 
 
-   11. _Of the happiness of the eternal peace, which constitutes the
-                end or true perfection of the saints._
+## 11. Of the happiness of the eternal peace, which constitutes the end or true perfection of the saints
+
 
 And thus we may say of peace, as we have said of eternal life, that
 it is the end of our good; and the rather because the Psalmist says
@@ -35107,8 +34674,8 @@ city of which we speak, and for the sake of the sweetness of peace
 which is dear to all.
 
 
-  12. _That even the fierceness of war and all the disquietude of men
-      make towards this one end of peace, which every nature desires._
+## 12. That even the fierceness of war and all the disquietude of men make towards this one end of peace, which every nature desires
+
 
 Whoever gives even moderate attention to human affairs and to
 our common nature, will recognise that if there is no man who
@@ -35248,9 +34815,8 @@ pervade all things for the conservation of every mortal race, and
 which bring things that fit one another into harmony.
 
 
-  13. _Of the universal peace which the law of nature preserves
-      through all disturbances, and by which every one reaches his
-      desert in a way regulated by the just Judge._
+## 13. Of the universal peace which the law of nature preserves through all disturbances, and by which every one reaches his desert in a way regulated by the just Judge
+
 
 The peace of the body then consists in the duly proportioned
 arrangement of its parts. The peace of the irrational soul is the
@@ -35334,9 +34900,8 @@ present blessings badly should both lose them and should not receive
 the others.
 
 
-  14. _Of the order and law which obtain in heaven and earth, whereby
-      it comes to pass that human society is served by those who rule
-      it._
+## 14. Of the order and law which obtain in heaven and earth, whereby it comes to pass that human society is served by those who rule it
+
 
 The whole use, then, of things temporal has a reference to this
 result of earthly peace in the earthly community, while in the city
@@ -35400,10 +34965,8 @@ the duty they owe to others--not because they are proud of authority,
 but because they love mercy.
 
 
-  15. _Of the liberty proper to man's nature, and the servitude
-      introduced by sin,--a servitude in which the man whose will is
-      wicked is the slave of his own lust, though he is free so far
-      as regards other men._
+## 15. Of the liberty proper to man's nature, and the servitude introduced by sin,--a servitude in which the man whose will is wicked is the slave of his own lust, though he is free so far as regards other men
+
 
 This is prescribed by the order of nature: it is thus that God has
 created man. For "let them," He says, "have dominion over the fish
@@ -35456,7 +35019,8 @@ and all principality and every human power be brought to nothing, and
 God be all in all.
 
 
-                       16. _Of equitable rule._
+## 16. Of equitable rule
+
 
 And therefore, although our righteous fathers[649] had slaves, and
 administered their domestic affairs so as to distinguish between
@@ -35497,8 +35061,8 @@ rule in accordance with the law of the city, so that the household
 may be in harmony with the civic order.
 
 
-   17. _What produces peace, and what discord, between the heavenly
-                         and earthly cities._
+## 17. What produces peace, and what discord, between the heavenly and earthly cities
+
 
 But the families which do not live by faith seek their peace in the
 earthly advantages of this life; while the families which live by
@@ -35572,8 +35136,8 @@ when it refers to the attainment of that peace every good action
 towards God and man; for the life of the city is a social life.
 
 
-     18. _How different the uncertainty of the New Academy is from
-                the certainty of the Christian faith._
+## 18. How different the uncertainty of the New Academy is from the certainty of the Christian faith
+
 
 As regards the uncertainty about everything which Varro alleges to be
 the differentiating characteristic of the New Academy, the city of
@@ -35595,7 +35159,8 @@ canonical Scriptures, nor come to our knowledge through witnesses
 whom it is absurd to disbelieve.
 
 
-        19. _Of the dress and habits of the Christian people._
+## 19. Of the dress and habits of the Christian people
+
 
 It is a matter of no moment in the city of God whether he who adopts
 the faith that brings men to God adopts it in one dress and manner
@@ -35641,7 +35206,8 @@ contemplation; for were these to be withdrawn, the burden might prove
 more than we could bear.
 
 
-        20. _That the saints are in this life blessed in hope._
+## 20. That the saints are in this life blessed in hope
+
 
 Since, then, the supreme good of the city of God is perfect and
 eternal peace, not such as mortals pass into and out of by birth and
@@ -35661,8 +35227,8 @@ just arrangements, to that end in which God shall be all and all in a
 secure eternity and perfect peace.
 
 
-     21. _Whether there ever was a Roman republic answering to the
-             definitions of Scipio in Cicero's dialogue._
+## 21. Whether there ever was a Roman republic answering to the definitions of Scipio in Cicero's dialogue
+
 
 This, then, is the place where I should fulfil the promise I gave
 in the second book of this work,[656] and explain, as briefly and
@@ -35747,8 +35313,8 @@ commandment decreed that no worship should be given either to good or
 bad gods.
 
 
-   22. _Whether the God whom the Christians serve is the true God to
-                whom alone sacrifice ought to be paid._
+## 22. Whether the God whom the Christians serve is the true God to whom alone sacrifice ought to be paid
+
 
 But it may be replied, Who is this God, or what proof is there that
 He alone is worthy to receive sacrifice from the Romans? One must be
@@ -35771,8 +35337,8 @@ the Christians, confesses to be a great God, even according to the
 oracles of those whom he esteems gods.
 
 
-   23. _Porphyry's account of the responses given by the oracles of
-                     the gods concerning Christ._
+## 23. Porphyry's account of the responses given by the oracles of the gods concerning Christ
+
 
 For in his book called ἐκ λογίων φιλοσοφίας, in which he collects and
 comments upon the responses which he pretends were uttered by the
@@ -35978,9 +35544,8 @@ be true, and therefore there is no republic; for where there is no
 people there can be no republic.
 
 
-  24. _The definition which must be given of a people and a republic,
-      in order to vindicate the assumption of these titles by the
-      Romans and by other kingdoms._
+## 24. The definition which must be given of a people and a republic, in order to vindicate the assumption of these titles by the Romans and by other kingdoms
+
 
 But if we discard this definition of a people, and, assuming another,
 say that a people is an assemblage of reasonable beings bound
@@ -36012,8 +35577,8 @@ the soul its proper command over the body, nor to the reason its just
 authority over the vices, is void of true justice.
 
 
-      25. _That where there is no true religion there are no true
-                               virtues._
+## 25. That where there is no true religion there are no true virtues
+
 
 For though the soul may seem to rule the body admirably, and the
 reason the vices, if the soul and reason do not themselves obey God,
@@ -36036,9 +35601,8 @@ something above him; and what I say of man is true of every celestial
 power and virtue whatsoever.
 
 
-  26. _Of the peace which is enjoyed by the people that are alienated
-      from God, and the use made of it by the people of God in the
-      time of its pilgrimage._
+## 26. Of the peace which is enjoyed by the people that are alienated from God, and the use made of it by the people of God in the time of its pilgrimage
+
 
 Wherefore, as the life of the flesh is the soul, so the blessed life of
 man is God, of whom the sacred writings of the Hebrews say, "Blessed is
@@ -36060,8 +35624,8 @@ peace thereof shall ye have peace,"[665]--the temporal peace which the
 good and the wicked together enjoy.
 
 
-   27. _That the peace of those who serve God cannot in this mortal
-                life be apprehended in its perfection._
+## 27. That the peace of those who serve God cannot in this mortal life be apprehended in its perfection
+
 
 But the peace which is peculiar to ourselves we enjoy now with God by
 faith, and shall hereafter enjoy eternally with Him by sight. But the
@@ -36111,7 +35675,8 @@ assured of its eternity; and thus the peace of this blessedness and the
 blessedness of this peace shall be the supreme good.
 
 
-                     28. _The end of the wicked._
+## 28. The end of the wicked
+
 
 But, on the other hand, they who do not belong to this city of God
 shall inherit eternal misery, which is also called the second death,
@@ -36138,7 +35703,9 @@ also should cease. Now, as it is through the last judgment that men
 pass to these ends, the good to the supreme good, the evil to the
 supreme evil, I will treat of this judgment in the following book.
 
-FOOTNOTES:
+
+## Footnotes to Book XIX
+
 
 [619] Not extant.
 
@@ -36254,19 +35821,14 @@ be rendered "the sun."
 [672] Gratia meritorum.
 
 
+# Book XX
 
 
-                            BOOK TWENTIETH.
-
-                               ARGUMENT.
-
-  CONCERNING THE LAST JUDGMENT, AND THE DECLARATIONS REGARDING IT IN
-                      THE OLD AND NEW TESTAMENTS.
+**Argument.** CONCERNING THE LAST JUDGMENT, AND THE DECLARATIONS REGARDING IT IN THE OLD AND NEW TESTAMENTS.
 
 
-  1. _That although God is always judging, it is nevertheless
-      reasonable to confine our attention in this book to His last
-      judgment._
+## 1. That although God is always judging, it is nevertheless reasonable to confine our attention in this book to His last judgment
+
 
 Intending to speak, in dependence on God's grace, of the day of His
 final judgment, and to affirm it against the ungodly and incredulous,
@@ -36326,8 +35888,8 @@ but the good, while deserved and supreme misery shall be the portion
 of the wicked, and of them only.
 
 
-    2. _That in the mingled web of human affairs God's judgment is
-               present, though it cannot be discerned._
+## 2. That in the mingled web of human affairs God's judgment is present, though it cannot be discerned
+
 
 In this present time we learn to bear with equanimity the ills to
 which even good men are subject, and to hold cheap the blessings
@@ -36384,8 +35946,8 @@ defy the scrutiny of human sense or insight, though in this matter it
 is not concealed from pious minds that what is concealed is just.
 
 
-     3. _What Solomon, in the book of Ecclesiastes, says regarding
-        the things which happen alike to good and wicked men._
+## 3. What Solomon, in the book of Ecclesiastes, says regarding the things which happen alike to good and wicked men
+
 
 Solomon, the wisest king of Israel, who reigned in Jerusalem, thus
 commences the book called Ecclesiastes, which the Jews number among
@@ -36435,8 +35997,8 @@ therefore not considered; for God sees even him, and does not despise
 him nor pass him over in His judgment.
 
 
-   4. _That proofs of the last judgment will be adduced, first from
-              the New Testament, and then from the Old._
+## 4. That proofs of the last judgment will be adduced, first from the New Testament, and then from the Old
+
 
 The proofs, then, of this last judgment of God which I propose to
 adduce shall be drawn first from the New Testament, and then from
@@ -36460,8 +36022,8 @@ certainly would have said had He not wished to follow the order of
 merit rather than that of time.
 
 
-    5. _The passages in which the Saviour declares that there shall
-            be a divine judgment in the end of the world._
+## 5. The passages in which the Saviour declares that there shall be a divine judgment in the end of the world
+
 
 The Saviour Himself, while reproving the cities in which He had done
 great works, but which had not believed, and while setting them in
@@ -36570,7 +36132,8 @@ condemnation? For into judgment, in this sense, they shall not come
 who hear His word, and believe on Him that sent Him.
 
 
-       6. _What is the first resurrection, and what the second._
+## 6. What is the first resurrection, and what the second
+
 
 After that He adds the words, "Verily, verily, I say unto you, The
 hour is coming, and now is, when the dead shall hear the voice of
@@ -36662,9 +36225,8 @@ the last judgment shall dismiss some into the second death, others
 into that life which has no death.
 
 
-  7. _What is written in the Revelation of John regarding the two
-      resurrections, and the thousand years, and what may reasonably
-      be held on these points._
+## 7. What is written in the Revelation of John regarding the two resurrections, and the thousand years, and what may reasonably be held on these points
+
 
 The evangelist John has spoken of these two resurrections in the
 book which is called the Apocalypse, but in such a way that some
@@ -36800,7 +36362,8 @@ shut up till the thousand years be fulfilled, on this account, that
 he may no more deceive the nations.
 
 
-             8. _Of the binding and loosing of the devil._
+## 8. Of the binding and loosing of the devil
+
 
 "After that," says John, "he must be loosed a little season." If the
 binding and shutting up of the devil means his being made unable to
@@ -36932,8 +36495,8 @@ house of the strong one to spoil his goods, unless he shall first
 have bound the strong one?"
 
 
-   9. _What the reign of the saints with Christ for a thousand years
-           is, and how it differs from the eternal kingdom._
+## 9. What the reign of the saints with Christ for a thousand years is, and how it differs from the eternal kingdom
+
 
 But while the devil is bound, the saints reign with Christ during the
 same thousand years, understood in the same way, that is, of the time
@@ -37083,8 +36646,8 @@ they should become partakers of the first resurrection, and so the
 second death should have no power over them.
 
 
-    10. _What is to be replied to those who think that resurrection
-              pertains only to bodies and not to souls._
+## 10. What is to be replied to those who think that resurrection pertains only to bodies and not to souls
+
 
 There are some who suppose that resurrection can be predicated only
 of the body, and therefore they contend that this first resurrection
@@ -37123,8 +36686,8 @@ a Priest for ever after the order of Melchisedec. But this we have
 already explained more than once.
 
 
- 11. _Of Gog and Magog, who are to be roused by the devil to persecute
-        the Church, when he is loosed in the end of the world._
+## 11. Of Gog and Magog, who are to be roused by the devil to persecute the Church, when he is loosed in the end of the world
+
 
 "And when the thousand years are finished, Satan shall be loosed
 from his prison, and shall go out to seduce the nations which are in
@@ -37168,8 +36731,8 @@ up in the straits of tribulation, but shall not desert its military
 duty, which is signified by the word "camp."
 
 
-    12. _Whether the fire that came down out of heaven and devoured
-          them refers to the last punishment of the wicked._
+## 12. Whether the fire that came down out of heaven and devoured them refers to the last punishment of the wicked
+
 
 The words, "And fire came down out of heaven and devoured them," are
 not to be understood of the final punishment which shall be inflicted
@@ -37195,8 +36758,8 @@ the last judgment of the wicked; but the last judgment is that which
 they shall suffer when the bodily resurrection has taken place.
 
 
-     13. _Whether the time of the persecution of Antichrist should
-                  be reckoned in the thousand years._
+## 13. Whether the time of the persecution of Antichrist should be reckoned in the thousand years
+
 
 This last persecution by Antichrist shall last for three years and
 six months, as we have already said, and as is affirmed both in
@@ -37269,9 +36832,9 @@ of four hundred years, which were specified as four hundred, though
 actually somewhat more; and similar expressions are often found in
 the sacred writings, if one will mark them.
 
-  14. _Of the damnation of the devil and his adherents; and a sketch
-      of the bodily resurrection of all the dead, and of the final
-      retributive judgment._
+
+## 14. Of the damnation of the devil and his adherents; and a sketch of the bodily resurrection of all the dead, and of the final retributive judgment
+
 
 After this mention of the closing persecution, he summarily indicates
 all that the devil, and the city of which he is the prince, shall
@@ -37338,8 +36901,8 @@ works." For this is just what he had said before, "And the dead were
 judged according to their works."
 
 
-    15. _Who the dead are who are given up to judgment by the sea,
-                        and by death and hell._
+## 15. Who the dead are who are given up to judgment by the sea, and by death and hell
+
 
 But who are the dead which were in the sea, and which the sea
 presented? For we cannot suppose that those who die in the sea are
@@ -37393,7 +36956,8 @@ inform Himself, but rather His infallible prescience is the book of
 life in which they are written, that is to say, known beforehand.
 
 
-              16. _Of the new heaven and the new earth._
+## 16. Of the new heaven and the new earth
+
 
 Having finished the prophecy of judgment, so far as the wicked are
 concerned, it remains that he speak also of the good. Having briefly
@@ -37433,7 +36997,8 @@ more of the surgings and restlessness of human life, and it is this
 which is symbolized by the _sea_.
 
 
-               17. _Of the endless glory of the Church._
+## 17. Of the endless glory of the Church
+
 
 "And I saw," he says, "a great city, new Jerusalem, coming down from
 God out of heaven, prepared as a bride adorned for her husband. And
@@ -37499,7 +37064,8 @@ shall such a condition be realized,--that if we think this obscure,
 we need not expect to find anything plain in any part of Scripture.
 
 
-  18. _What the Apostle Peter predicted regarding the last judgment._
+## 18. What the Apostle Peter predicted regarding the last judgment
+
 
 Let us now see what the Apostle Peter predicted concerning this
 judgment. "There shall come," he says, "in the last days scoffers....
@@ -37537,9 +37103,8 @@ that conflagration, as the corruptible and mortal bodies of the three
 men were able to live unhurt in the blazing furnace.
 
 
-  19. _What the Apostle Paul wrote to the Thessalonians about the
-      manifestation of Antichrist which shall precede the day of the
-      Lord._
+## 19. What the Apostle Paul wrote to the Thessalonians about the manifestation of Antichrist which shall precede the day of the Lord
+
 
 I see that I must omit many of the statements of the gospels and
 epistles about this last judgment, that this volume may not become
@@ -37651,8 +37216,8 @@ in that last and manifest judgment administered by Jesus Christ, who
 was Himself most unjustly judged and shall most justly judge.
 
 
-     20. _What the same apostle taught in the first Epistle to the
-        Thessalonians regarding the resurrection of the dead._
+## 20. What the same apostle taught in the first Epistle to the Thessalonians regarding the resurrection of the dead
+
 
 But the apostle has said nothing here regarding the resurrection of
 the dead; but in his first Epistle to the Thessalonians he says, "We
@@ -37745,8 +37310,8 @@ discussing and explaining these predictions, if the reader has been
 careful to avail himself of the help we have already furnished.
 
 
-   21. _Utterances of the prophet Isaiah regarding the resurrection
-              of the dead and the retributive judgment._
+## 21. Utterances of the prophet Isaiah regarding the resurrection of the dead and the retributive judgment
+
 
 The prophet Isaiah says, "The dead shall rise again, and all who were
 in the graves shall rise again; and all who are in the earth shall
@@ -37931,8 +37496,8 @@ take place after the resurrection of the body, our faith in which is
 thoroughly established by the use of these words.
 
 
-   22. _What is meant by the good going out to see the punishment of
-                             the wicked._
+## 22. What is meant by the good going out to see the punishment of the wicked
+
 
 But in what way shall the good go out to see the punishment of the
 wicked? Are they to leave their happy abodes by a bodily movement, and
@@ -37971,8 +37536,8 @@ with the last judgment, in which the good and the bad are separated:
 their rewards and punishments we shall more carefully discuss elsewhere.
 
 
-  23. _What Daniel predicted regarding the persecution of Antichrist,
-         the judgment of God, and the kingdom of the saints._
+## 23. What Daniel predicted regarding the persecution of Antichrist, the judgment of God, and the kingdom of the saints
+
 
 Daniel prophesies of the last judgment in such a way as to indicate
 that Antichrist shall first come, and to carry on his description to
@@ -38032,8 +37597,8 @@ is yet a day till the completion of the consummation; and thou shalt
 rest, and rise in thy lot in the end of the days."[798]
 
 
-    24. _Passages from the Psalms of David which predict the end of
-                   the world and the last judgment._
+## 24. Passages from the Psalms of David which predict the end of the world and the last judgment
+
 
 There are many allusions to the last judgment in the Psalms, but
 for the most part only casual and slight. I cannot, however, omit
@@ -38092,9 +37657,9 @@ if the stars are to fall from them. This expression, then, is either
 figurative, as is more credible, or this phenomenon will take place
 in this lowest heaven, like that mentioned by Virgil,--
 
-          "A meteor with a train of light
-           Athwart the sky gleamed dazzling bright,
-           Then in Idæan woods was lost."[806]
+"A meteor with a train of light\
+Athwart the sky gleamed dazzling bright,\
+Then in Idæan woods was lost."[806]
 
 But the passage I have quoted from the psalm seems to except none
 of the heavens from the destiny of destruction; for he says, "The
@@ -38180,9 +37745,8 @@ good works of the good, and their eternal rewards assigned by the
 last sentence of the Judge.
 
 
-  25. _Of Malachi's prophecy, in which he speaks of the last
-      judgment, and of a cleansing which some are to undergo by
-      purifying punishments._
+## 25. Of Malachi's prophecy, in which he speaks of the last judgment, and of a cleansing which some are to undergo by purifying punishments
+
 
 The prophet Malachi or Malachias, who is also called Angel, and
 is by some (for Jerome[815] tells us that this is the opinion of
@@ -38229,8 +37793,8 @@ in their sins, for the remission of which they make offerings, that
 having made to God an acceptable offering, they may then be absolved.
 
 
-   26. _Of the sacrifices offered to God by the saints, which are to
-    be pleasing to Him, as in the primitive days and former years._
+## 26. Of the sacrifices offered to God by the saints, which are to be pleasing to Him, as in the primitive days and former years
+
 
 And it was with the design of showing that His city shall not then
 follow this custom, that God said that the sons of Levi should offer
@@ -38325,8 +37889,8 @@ the Lord be a swift witness, when He shall suddenly bring back into
 the memory that which shall convince and punish the conscience.
 
 
-  27. _Of the separation of the good and the bad, which proclaim the
-            discriminating influence of the last judgment._
+## 27. Of the separation of the good and the bad, which proclaim the discriminating influence of the last judgment
+
 
 The passage also which I formerly quoted for another purpose from
 this prophet refers to the last judgment, in which he says, "They
@@ -38339,8 +37903,8 @@ shines on the vanity of this life,--there shall then be such a
 judgment as has never before been.
 
 
-     28. _That the law of Moses must be spiritually understood to
-      preclude the damnable murmurs of a carnal interpretation._
+## 28. That the law of Moses must be spiritually understood to preclude the damnable murmurs of a carnal interpretation
+
 
 In the succeeding words, "Remember the law of Moses my servant,
 which I commanded to him in Horeb for all Israel,"[827] the prophet
@@ -38380,9 +37944,8 @@ the righteous and manifest misery of the wicked quite another state
 of things shall appear.
 
 
-  29. _Of the coming of Elias before the judgment, that the Jews may
-      be converted to Christ by his preaching and explanation of
-      Scripture._
+## 29. Of the coming of Elias before the judgment, that the Jews may be converted to Christ by his preaching and explanation of Scripture
+
 
 After admonishing them to give heed to the law of Moses, as he
 foresaw that for a long time to come they would not understand it
@@ -38433,10 +37996,8 @@ this day; and hence these murmurs of theirs against God, "The wicked
 are pleasing to Him," and "It is a vain thing to serve God."[835]
 
 
-  30. _That in the books of the Old Testament, where it is said
-      that God shall judge the world, the person of Christ is not
-      explicitly indicated, but it plainly appears from some passages
-      in which the Lord God speaks that Christ is meant._
+## 30. That in the books of the Old Testament, where it is said that God shall judge the world, the person of Christ is not explicitly indicated, but it plainly appears from some passages in which the Lord God speaks that Christ is meant
+
 
 There are many other passages of Scripture bearing on the last
 judgment of God,--so many, indeed, that to cite them all would swell
@@ -38633,7 +38194,9 @@ Scriptures, whose truth has already in many ways been proved; for
 they are sure that God can in no wise lie, and that He can do what is
 impossible to the unbelieving.
 
-FOOTNOTES:
+
+## Footnotes to Book XX
+
 
 [673] Matt. viii. 29.
 
@@ -39000,20 +38563,14 @@ _cadavera_ (carcases) are so called from _cadendo_ (falling)?"
 [851] Ps. xli. 5.
 
 
+# Book XXI
 
 
-                          BOOK TWENTY-FIRST.
-
-                               ARGUMENT.
-
-  OF THE END RESERVED FOR THE CITY OF THE DEVIL, NAMELY, THE ETERNAL
-      PUNISHMENT OF THE DAMNED; AND OF THE ARGUMENTS WHICH UNBELIEF
-      BRINGS AGAINST IT.
+**Argument.** OF THE END RESERVED FOR THE CITY OF THE DEVIL, NAMELY, THE ETERNAL PUNISHMENT OF THE DAMNED; AND OF THE ARGUMENTS WHICH UNBELIEF BRINGS AGAINST IT.
 
 
-  1. _Of the order of the discussion, which requires that we first
-      speak of the eternal punishment of the lost in company with the
-      devil, and then of the eternal happiness of the saints._
+## 1. Of the order of the discussion, which requires that we first speak of the eternal punishment of the lost in company with the devil, and then of the eternal happiness of the saints
+
 
 I propose, with such ability as God may grant me, to discuss in this
 book more thoroughly the nature of the punishment which shall be
@@ -39045,8 +38602,8 @@ arrangement and now the other. My own reason for following the latter
 order I have given.
 
 
-       2. _Whether it is possible for bodies to last for ever in
-                            burning fire._
+## 2. Whether it is possible for bodies to last for ever in burning fire
+
 
 What, then, can I adduce to convince those who refuse to believe that
 human bodies, animated and living, can not only survive death, but
@@ -39071,8 +38628,8 @@ stranger that it should live in fire and not suffer. If, then, the
 latter be believed, why not also the former?
 
 
-      3. _Whether bodily suffering necessarily terminates in the
-                      destruction of the flesh._
+## 3. Whether bodily suffering necessarily terminates in the destruction of the flesh
+
 
 But, say they, there is no body which can suffer and cannot also
 die. How do we know this? For who can say with certainty that the
@@ -39140,8 +38697,8 @@ maintained that these earthly bodies and dying members gave rise
 to the fears, desires, griefs, and joys of the soul. "Hence," says
 Virgil (_i.e._ from these earthly bodies and dying members),
 
-          "Hence wild desires and grovelling fears,
-           And human laughter, human tears."[856]
+"Hence wild desires and grovelling fears,\
+And human laughter, human tears."[856]
 
 But in the fourteenth book of this work[857] we have proved that,
 according to the Platonists' own theory, souls, even when purged
@@ -39161,8 +38718,8 @@ bodies themselves cause pain, but not therefore death, to the souls?
 Pain is therefore no necessary presumption of death.
 
 
-        4. _Examples from nature proving that bodies may remain
-                    unconsumed and alive in fire._
+## 4. Examples from nature proving that bodies may remain unconsumed and alive in fire
+
 
 If, therefore, the salamander lives in fire, as naturalists[858]
 have recorded, and if certain famous mountains of Sicily have been
@@ -39286,8 +38843,8 @@ fire, is poured on it, and of remaining cool when mixed with oil,
 which ordinarily feeds fire.
 
 
-    5. _That there are many things which reason cannot account for,
-                   and which are nevertheless true._
+## 5. That there are many things which reason cannot account for, and which are nevertheless true
+
 
 Nevertheless, when we declare the miracles which God has wrought,
 or will yet work, and which we cannot bring under the very eyes of
@@ -39374,8 +38931,8 @@ of are not impossible because inexplicable; for in this particular
 they are in the same predicament as the marvels of earth.
 
 
-  6. _That all marvels are not of nature's production, but that some
-    are due to human ingenuity and others to diabolic contrivance._
+## 6. That all marvels are not of nature's production, but that some are due to human ingenuity and others to diabolic contrivance
+
 
 At this point they will perhaps reply, "These things have no
 existence; we don't believe one of them; they are travellers' tales
@@ -39444,14 +39001,14 @@ Scripture calls sorcerers and enchanters, the devils could gain such
 power that the noble poet Virgil should consider himself justified in
 describing a very powerful magician in these lines:
 
-          "Her charms can cure what souls she please,
-           Rob other hearts of healthful ease,
-           Turn rivers backward to their source,
-           And make the stars forget their course,
-                 And call up ghosts from night:
-           The ground shall bellow 'neath your feet:
-           The mountain-ash shall quit its seat,
-                 And travel down the height;"[861]--
+"Her charms can cure what souls she please,\
+Rob other hearts of healthful ease,\
+Turn rivers backward to their source,\
+And make the stars forget their course,\
+And call up ghosts from night:\
+The ground shall bellow 'neath your feet:\
+The mountain-ash shall quit its seat,\
+And travel down the height;"[861]--
 
 if this be so, how much more able is God to do those things which to
 sceptics are incredible, but to His power easy, since it is He who
@@ -39463,8 +39020,8 @@ ordaining, and permitting is no less marvellous in its governance of
 all things than in its creation of all!
 
 
-      7. _That the ultimate reason for believing miracles is the
-                     omnipotence of the Creator._
+## 7. That the ultimate reason for believing miracles is the omnipotence of the Creator
+
 
 Why, then, cannot God effect both that the bodies of the dead
 shall rise, and that the bodies of the damned shall be tormented
@@ -39562,9 +39119,8 @@ word, and by the power of that God who predicted and effected that
 the incredulous nations should believe incredible wonders.
 
 
-  8. _That it is not contrary to nature that, in an object whose
-      nature is known, there should be discovered an alteration of
-      the properties which have been known as its natural properties._
+## 8. That it is not contrary to nature that, in an object whose nature is known, there should be discovered an alteration of the properties which have been known as its natural properties
+
 
 But if they reply that their reason for not believing us when we say
 that human bodies will always burn and yet never die, is that the
@@ -39624,8 +39180,8 @@ were vouchsafed to the merits of holy men, even when our adversaries
 believe them, they attribute to magical arts; so Virgil, in the lines
 I quoted above, ascribes to magic the power to
 
-          "Turn rivers backward to their source,
-           And make the stars forget their course."
+"Turn rivers backward to their source,\
+And make the stars forget their course."
 
 For in our sacred books we read that this also happened, that a river
 "turned backward," was stayed above while the lower part flowed
@@ -39706,7 +39262,8 @@ New and Old Testaments, not, indeed, all the passages that relate to
 this, but as many as I judged to suffice for this work.
 
 
-         9. _Of hell, and the nature of eternal punishments._
+## 9. Of hell, and the nature of eternal punishments
+
 
 So then what God by His prophet has said of the everlasting
 punishment of the damned shall come to pass--shall without fail
@@ -39780,8 +39337,8 @@ about those future bodies, that they shall be such as shall certainly
 be pained by the fire.
 
 
-  10. _Whether the fire of hell, if it be material fire, can burn the
-     wicked spirits, that is to say, devils, who are immaterial._
+## 10. Whether the fire of hell, if it be material fire, can burn the wicked spirits, that is to say, devils, who are immaterial
+
 
 Here arises the question: If the fire is not to be immaterial,
 analogous to the pain of the soul, but material, burning by contact,
@@ -39836,8 +39393,8 @@ fires as to receive pain without imparting life. One fire certainly
 shall be the lot of both, for thus the truth has declared.
 
 
-   11. _Whether it is just that the punishments of sins last longer
-                   than the sins themselves lasted._
+## 11. Whether it is just that the punishments of sins last longer than the sins themselves lasted
+
 
 Some, however, of those against whom we are defending the city of
 God, think it unjust that any man be doomed to an eternal punishment
@@ -39896,9 +39453,8 @@ he gave, and judgment he receives, though the judgment he gave was
 unjust, the judgment he receives just.
 
 
-  12. _Of the greatness of the first transgression, on account of
-      which eternal punishment is due to all who are not within the
-      pale of the Saviour's grace._
+## 12. Of the greatness of the first transgression, on account of which eternal punishment is due to all who are not within the pale of the Saviour's grace
+
 
 But eternal punishment seems hard and unjust to human perceptions,
 because in the weakness of our mortal condition there is wanting
@@ -39926,8 +39482,8 @@ just award, there is cause to render the most cordial thanks to the
 gratuitous bounty of Him who delivers.
 
 
-   13. _Against the opinion of those who think that the punishments
-              of the wicked after death are purgatorial._
+## 13. Against the opinion of those who think that the punishments of the wicked after death are purgatorial
+
 
 The Platonists, indeed, while they maintain that no sins are
 unpunished, suppose that all punishment is administered for remedial
@@ -39936,25 +39492,25 @@ or after death; for a man may be scathless here, or, though punished,
 may yet not amend. Hence that passage of Virgil, where, when he had
 said of our earthly bodies and mortal members, that our souls derive--
 
-          "Hence wild desires and grovelling fears,
-           And human laughter, human tears;
-           Immured in dungeon-seeming night,
-           They look abroad, yet see no light,"
+"Hence wild desires and grovelling fears,\
+And human laughter, human tears;\
+Immured in dungeon-seeming night,\
+They look abroad, yet see no light,"
 
 goes on to say:
 
-          "Nay, when at last the life has fled,
-           And left the body cold and dead,
-           E'en then there passes not away
-           The painful heritage of clay;
-           Full many a long-contracted stain
-           Perforce must linger deep in grain.
-           So penal sufferings they endure
-           For ancient crime, to make them pure;
-           Some hang aloft in open view,
-           For winds to pierce them through and through,
-           While others purge their guilt deep-dyed
-           In burning fire or whelming tide."[879]
+"Nay, when at last the life has fled,\
+And left the body cold and dead,\
+E'en then there passes not away\
+The painful heritage of clay;\
+Full many a long-contracted stain\
+Perforce must linger deep in grain.\
+So penal sufferings they endure\
+For ancient crime, to make them pure;\
+Some hang aloft in open view,\
+For winds to pierce them through and through,\
+While others purge their guilt deep-dyed\
+In burning fire or whelming tide."[879]
 
 They who are of this opinion would have all punishments after death
 to be purgatorial; and as the elements of air, fire, and water are
@@ -39984,8 +39540,8 @@ remitted in the next, that is, they are not punished with the eternal
 punishment of the world to come.
 
 
-      14. _Of the temporary punishments of this life to which the
-                     human condition is subject._
+## 14. Of the temporary punishments of this life to which the human condition is subject
+
 
 Quite exceptional are those who are not punished in this life, but
 only afterwards. Yet that there have been some who have reached the
@@ -40023,9 +39579,8 @@ happiness, even though it has so increased as to sever soul from
 body, and to terminate their life in that early age.
 
 
-  15. _That everything which the grace of God does in the way of
-      rescuing us from the inveterate evils in which we are sunk,
-      pertains to the future world, in which all things are made new._
+## 15. That everything which the grace of God does in the way of rescuing us from the inveterate evils in which we are sunk, pertains to the future world, in which all things are made new
+
 
 Nevertheless, in the "heavy yoke that is laid upon the sons of Adam,
 from the day that they go out of their mother's womb to the day that
@@ -40075,8 +39630,8 @@ preferred to endure the hardness of this conflict, rather than, by
 our non-resistance, to yield ourselves to the dominion of vice.
 
 
-  16. _The laws of grace, which extend to all the epochs of the life
-                          of the regenerate._
+## 16. The laws of grace, which extend to all the epochs of the life of the regenerate
+
 
 But such is God's mercy towards the vessels of mercy which He has
 prepared for glory, that even the first age of man, that is, infancy,
@@ -40133,7 +39688,8 @@ one's merit, or whether it be that the heat remains the same, but that
 all do not feel it with equal intensity of torment.
 
 
-   17. _Of those who fancy that no men shall be punished eternally._
+## 17. Of those who fancy that no men shall be punished eternally
+
 
 I must now, I see, enter the lists of amicable controversy with those
 tender-hearted Christians who decline to believe that any, or that all
@@ -40170,8 +39726,8 @@ perverse, in proportion as his clemency of sentiment seems to be
 greater.[888]
 
 
- 18. _Of those who fancy that, on account of the saints' intercession,
-             no man shall be damned in the last judgment._
+## 18. Of those who fancy that, on account of the saints' intercession, no man shall be damned in the last judgment
+
 
 There are others, again, with whose opinions I have become acquainted
 in conversation, who, though they seem to reverence the holy
@@ -40242,8 +39798,8 @@ of the devils and his satellites make a still fuller exhibition of
 the mercy of God.
 
 
-  19. _Of those who promise impunity from all sins even to heretics,
-     through virtue of their participation of the body of Christ._
+## 19. Of those who promise impunity from all sins even to heretics, through virtue of their participation of the body of Christ
+
 
 So, too, there are others who promise this deliverance from eternal
 punishment, not, indeed, to all men, but only to those who have been
@@ -40258,9 +39814,8 @@ from death eternal, and at one time or other be introduced to
 everlasting life.
 
 
-  20. _Of those who promise this indulgence not to all, but only to
-      those who have been baptized as catholics, though afterwards
-      they have broken out into many crimes and heresies._
+## 20. Of those who promise this indulgence not to all, but only to those who have been baptized as catholics, though afterwards they have broken out into many crimes and heresies
+
 
 There are others still who make this promise not even to all who
 have received the sacraments of the baptism of Christ and of His
@@ -40277,10 +39832,8 @@ that wickedness of theirs shall not avail to make their punishment
 eternal, but only proportionately long and severe.
 
 
-  21. _Of those who assert that all catholics who continue in the
-      faith, even though by the depravity of their lives they
-      have merited hell fire, shall be saved on account of the
-      "foundation" of their faith._
+## 21. Of those who assert that all catholics who continue in the faith, even though by the depravity of their lives they have merited hell fire, shall be saved on account of the "foundation" of their faith
+
 
 There are some, too, who found upon the expression of Scripture,
 "He that endureth to the end shall be saved,"[894] and who promise
@@ -40306,8 +39859,8 @@ in other words, that he shall be delivered after tasting the pain of
 that fire to which the wicked shall be condemned at the last judgment.
 
 
-   22. _Of those who fancy that the sins which are intermingled with
-       alms-deeds shall not be charged at the day of judgment._
+## 22. Of those who fancy that the sins which are intermingled with alms-deeds shall not be charged at the day of judgment
+
 
 I have also met with some who are of opinion that such only as
 neglect to cover their sins with alms-deeds shall be punished in
@@ -40343,8 +39896,8 @@ When, by God's help, I have replied to all these errors, I shall
 conclude this (twenty-first) book.
 
 
-   23. _Against those who are of opinion that the punishment neither
-           of the devil nor of wicked men shall be eternal._
+## 23. Against those who are of opinion that the punishment neither of the devil nor of wicked men shall be eternal
+
 
 First of all, it behoves us to inquire and to recognise why the
 Church has not been able to tolerate the idea that promises cleansing
@@ -40401,8 +39954,8 @@ shall be endless, so too the eternal punishment of those who are
 doomed to it shall have no end.
 
 
-   24. _Against those who fancy that in the judgment of God all the
-    accused will be spared in virtue of the prayers of the saints._
+## 24. Against those who fancy that in the judgment of God all the accused will be spared in virtue of the prayers of the saints
+
 
 And this reasoning is equally conclusive against those who, in their
 own interest, but under the guise of a greater tenderness of spirit,
@@ -40601,13 +40154,8 @@ predestinated, called, justified, glorified: none of these will be
 condemned by Him; but we cannot say none of all men whatever.
 
 
-  25. _Whether those who received heretical baptism, and have
-      afterwards fallen away to wickedness of life; or those who have
-      received catholic baptism, but have afterwards passed over to
-      heresy and schism; or those who have remained in the catholic
-      Church in which they were baptized, but have continued to live
-      immorally,--may hope through the virtue of the sacraments for
-      the remission of eternal punishment._
+## 25. Whether those who received heretical baptism, and have afterwards fallen away to wickedness of life; or those who have received catholic baptism, but have afterwards passed over to heresy and schism; or those who have remained in the catholic Church in which they were baptized, but have continued to live immorally,--may hope through the virtue of the sacraments for the remission of eternal punishment
+
 
 But let us now reply to those who promise deliverance from eternal
 fire, not to the devil and his angels (as neither do they of whom
@@ -40703,8 +40251,8 @@ are not members of Christ unless they have penitently abandoned that
 evil, and have returned to this good to be reconciled to it.
 
 
-   26. _What it is to have Christ for a foundation, and who they are
-              to whom salvation as by fire is promised._
+## 26. What it is to have Christ for a foundation, and who they are to whom salvation as by fire is promised
+
 
 But, say they, the catholic Christians have Christ for a foundation,
 and they have not fallen away from union with Him, no matter how
@@ -40862,8 +40410,8 @@ a structure of gold, silver, precious stones. For how can a man love
 those more than Christ whom he loves only for Christ's sake?
 
 
-    27. _Against the belief of those who think that the sins which
-     have been accompanied with almsgiving will do them no harm._
+## 27. Against the belief of those who think that the sins which have been accompanied with almsgiving will do them no harm
+
 
 It remains to reply to those who maintain that those only shall
 burn in eternal fire who neglect alms-deeds proportioned to their
@@ -41057,8 +40605,8 @@ which they suppose that the souls of the blessed dwell, he placed
 there not only those who had been able by their own merit to reach
 that abode, but added,--
 
-          "And they who grateful memory won
-           By services to others done;"[960]
+"And they who grateful memory won\
+By services to others done;"[960]
 
 that is, they who had served others, and thereby merited to be
 remembered by them. Just as if they used the expression so common
@@ -41111,7 +40659,9 @@ of the future rather as they themselves wish, than as the Scriptures
 teach. And having given this reply, I now, according to promise, close
 this book.
 
-FOOTNOTES:
+
+## Footnotes to Book XXI
+
 
 [852] John v. 29.
 
@@ -41132,19 +40682,19 @@ impossible (ii. 68).--SAISSET.
 
 [859] So Lucretius, ii. 1025:
 
-          "Sed neque tam facilis res ulla 'st, quin ea primum
-           Difficilis magis ad credendum constet: itemque
-           Nil adeo magnum, nec tam mirabile quicquam
-           Principis, quod non minuant mirarier omnes
-           Paulatim."
+"Sed neque tam facilis res ulla 'st, quin ea primum\
+Difficilis magis ad credendum constet: itemque\
+Nil adeo magnum, nec tam mirabile quicquam\
+Principis, quod non minuant mirarier omnes\
+Paulatim."
 
 [860] Alluded to by Moore in his _Melodies_:
 
-                    "The fount that played
-          In times of old through Ammon's shade,
-          Though icy cold by day it ran,
-          Yet still, like souls of mirth, began
-          To burn when night was near."
+"The fount that played\
+In times of old through Ammon's shade,\
+Though icy cold by day it ran,\
+Yet still, like souls of mirth, began\
+To burn when night was near."
 
 [861] _Æneid_, iv. 487-491.
 
@@ -41364,20 +40914,14 @@ xvii. 27, and the _Acts of the Council_, iv. 11).--COQUÆUS.
 [960] _Æn._ vi. 664.
 
 
+# Book XXII
 
 
-                          BOOK TWENTY-SECOND.
-
-                               ARGUMENT.
-
-  THIS BOOK TREATS OF THE END OF THE CITY OF GOD, THAT IS TO SAY,
-      OF THE ETERNAL HAPPINESS OF THE SAINTS; THE FAITH OF THE
-      RESURRECTION OF THE BODY IS ESTABLISHED AND EXPLAINED; AND THE
-      WORK CONCLUDES BY SHOWING HOW THE SAINTS, CLOTHED IN IMMORTAL
-      AND SPIRITUAL BODIES, SHALL BE EMPLOYED.
+**Argument.** THIS BOOK TREATS OF THE END OF THE CITY OF GOD, THAT IS TO SAY, OF THE ETERNAL HAPPINESS OF THE SAINTS; THE FAITH OF THE RESURRECTION OF THE BODY IS ESTABLISHED AND EXPLAINED; AND THE WORK CONCLUDES BY SHOWING HOW THE SAINTS, CLOTHED IN IMMORTAL AND SPIRITUAL BODIES, SHALL BE EMPLOYED.
 
 
-                1. _Of the creation of angels and men._
+## 1. Of the creation of angels and men
+
 
 As we promised in the immediately preceding book, this, the last of
 the whole work, shall contain a discussion of the eternal blessedness
@@ -41442,7 +40986,8 @@ heavenly city is not defrauded of the full number of its citizens,
 but perhaps may even rejoice in a still more overflowing population.
 
 
-           2. _Of the eternal and unchangeable will of God._
+## 2. Of the eternal and unchangeable will of God
+
 
 It is true that wicked men do many things contrary to God's will; but
 so great is His wisdom and power, that all things which seem adverse
@@ -41496,8 +41041,8 @@ which from eternity has been prepared in His unchangeable will, shall
 then come to pass.
 
 
-     3. _Of the promise of eternal blessedness to the saints, and
-                everlasting punishment to the wicked._
+## 3. Of the promise of eternal blessedness to the saints, and everlasting punishment to the wicked
+
 
 Wherefore, not to mention many other instances besides, as we now see
 in Christ the fulfilment of that which God promised to Abraham when
@@ -41527,8 +41072,8 @@ come to pass,--the God whom the pagan deities tremble before, as even
 Porphyry, the noblest of pagan philosophers, testifies.
 
 
-   4. _Against the wise men of the world, who fancy that the earthly
-    bodies of men cannot be transferred to a heavenly habitation._
+## 4. Against the wise men of the world, who fancy that the earthly bodies of men cannot be transferred to a heavenly habitation
+
 
 But men who use their learning and intellectual ability to resist the
 force of that great authority which, in fulfilment of what was so
@@ -41572,8 +41117,8 @@ incorporeal, and not to connect earthly things with heavenly, which,
 though diverse, are yet both of them corporeal.
 
 
-  5. _Of the resurrection of the flesh, which some refuse to believe,
-                though the world at large believes it._
+## 5. Of the resurrection of the flesh, which some refuse to believe, though the world at large believes it
+
 
 But granting that this was once incredible, behold, now, the world
 has come to the belief that the earthly body of Christ was received
@@ -41656,8 +41201,8 @@ ascension, this one grand miracle suffices for us, that the whole
 world has believed without any miracles.
 
 
-  6. _That Rome made its founder Romulus a god because it loved him;
-      but the Church loved Christ because it believed Him to be God._
+## 6. That Rome made its founder Romulus a god because it loved him; but the Church loved Christ because it believed Him to be God
+
 
 Let us here recite the passage in which Tully expresses his
 astonishment that the apotheosis of Romulus should have been
@@ -41775,8 +41320,8 @@ so many noble martyrs, while Romulus has not had, and could not have,
 so much as one to die for his divinity.
 
 
-     7. _That the world's belief in Christ is the result of divine
-                   power, not of human persuasion._
+## 7. That the world's belief in Christ is the result of divine power, not of human persuasion
+
 
 But it is thoroughly ridiculous to make mention of the false divinity
 of Romulus as any way comparable to that of Christ. Nevertheless, if
@@ -41801,8 +41346,8 @@ ideas, so that at length the world embraced the faith it had furiously
 persecuted.
 
 
-    8. _Of miracles which were wrought that the world might believe
-    in Christ, and which have not ceased since the world believed._
+## 8. Of miracles which were wrought that the world might believe in Christ, and which have not ceased since the world believed
+
 
 Why, they say, are those miracles, which you affirm were wrought
 formerly, wrought no longer? I might, indeed, reply that miracles
@@ -42336,9 +41881,8 @@ What was there in the hearts of these exultant people but the faith
 of Christ, for which Stephen had shed his blood?
 
 
-  9. _That all the miracles which are done by means of the martyrs
-      in the name of Christ testify to that faith which the martyrs
-      had in Christ._
+## 9. That all the miracles which are done by means of the martyrs in the name of Christ testify to that faith which the martyrs had in Christ
+
 
 To what do these miracles witness, but to this faith which preaches
 Christ risen in the flesh, and ascended with the same into heaven? For
@@ -42366,10 +41910,8 @@ them,--nevertheless these miracles attest this faith which preaches the
 resurrection of the flesh to eternal life.
 
 
-  10. _That the martyrs who obtain many miracles in order that the
-      true God may be worshipped, are worthy of much greater honour
-      than the demons, who do some marvels that they themselves may
-      be supposed to be God._
+## 10. That the martyrs who obtain many miracles in order that the true God may be worshipped, are worthy of much greater honour than the demons, who do some marvels that they themselves may be supposed to be God
+
 
 Here perhaps our adversaries will say that their gods also have done
 some wonderful things, if now they begin to compare their gods to
@@ -42415,8 +41957,8 @@ which He promised should be ours, either in the beginning of the
 world to come, or in the end of this world.
 
 
-  11. _Against the Platonists, who argue from the physical weight of
-       the elements that an earthly body cannot inhabit heaven._
+## 11. Against the Platonists, who argue from the physical weight of the elements that an earthly body cannot inhabit heaven
+
 
 But against this great gift of God, these reasoners, "whose thoughts
 the Lord knows that they are vain,"[984] bring arguments from
@@ -42525,8 +42067,8 @@ nothing from which they can prove that it is impossible for Almighty
 God to make our bodies such that they can dwell in the skies.
 
 
-   12. _Against the calumnies with which unbelievers throw ridicule
-      upon the Christian faith in the resurrection of the flesh._
+## 12. Against the calumnies with which unbelievers throw ridicule upon the Christian faith in the resurrection of the flesh
+
 
 But their way is to feign a scrupulous anxiety in investigating this
 question, and to cast ridicule on our faith in the resurrection of the
@@ -42596,8 +42138,8 @@ miseries, and never more returns to them, not, however, by obtaining an
 immortal body, but by escaping from every kind of body.
 
 
-     13. _Whether abortions, if they are numbered among the dead,
-           shall not also have a part in the resurrection._
+## 13. Whether abortions, if they are numbered among the dead, shall not also have a part in the resurrection
+
 
 To these objections, then, of our adversaries which I have thus
 detailed, I will now reply, trusting that God will mercifully assist
@@ -42616,8 +42158,8 @@ may adopt concerning them, we must at least apply to them, if they
 rise again, all that we have to say of infants who have been born.
 
 
-     14. _Whether infants shall rise in that body which they would
-                     have had had they grown up._
+## 14. Whether infants shall rise in that body which they would have had had they grown up
+
 
 What, then, are we to say of infants, if not that they will not
 rise in that diminutive body in which they died, but shall receive
@@ -42648,8 +42190,8 @@ Worker should make such additions, seeing that He is the Creator, who
 Himself created all things out of nothing?
 
 
-   15. _Whether the bodies of all the dead shall rise the same size
-                         as the Lord's body._
+## 15. Whether the bodies of all the dead shall rise the same size as the Lord's body
+
 
 It is certain that Christ rose in the same bodily stature in which He
 died, and that it is wrong to say that, when the general resurrection
@@ -42676,8 +42218,8 @@ did not speak of the measure of the body, nor of the measure of the
 stature, but of "the measure of the age of the fulness of Christ."
 
 
-    16. _What is meant by the conforming of the saints to the image
-                          of the Son of God._
+## 16. What is meant by the conforming of the saints to the image of the Son of God
+
 
 Then, again, these words, "Predestinate to be conformed to the image
 of the Son of God,"[990] may be understood of the inner man. So in
@@ -42699,8 +42241,8 @@ every person will rise again in the same bodily form in which he
 died, we need not spend much labour in disputing with him.
 
 
-    17. _Whether the bodies of women shall retain their own sex in
-                          the resurrection._
+## 17. Whether the bodies of women shall retain their own sex in the resurrection
+
 
 From the words, "Till we all come to a perfect man, to the measure of
 the age of the fulness of Christ,"[992] and from the words, "Conformed
@@ -42752,8 +42294,8 @@ to marry and be given in marriage, only they shall there make no such
 marriages.
 
 
-  18. _Of the perfect Man, that is, Christ; and of His body, that is,
-                  the Church, which is His fulness._
+## 18. Of the perfect Man, that is, Christ; and of His body, that is, the Church, which is His fulness
+
 
 To understand what the apostle means when he says that we shall all
 come to a perfect man, we must consider the connection of the whole
@@ -42803,10 +42345,8 @@ saying, "Blessed is he who feareth the Lord,"[1004] women also who
 fear the Lord are included.
 
 
-  19. _That all bodily blemishes which mar human beauty in this life
-      shall be removed in the resurrection, the natural substance of
-      the body remaining, but the quality and quantity of it being
-      altered so as to produce beauty._
+## 19. That all bodily blemishes which mar human beauty in this life shall be removed in the resurrection, the natural substance of the body remaining, but the quality and quantity of it being altered so as to produce beauty
+
 
 What am I to say now about the hair and nails? Once it is understood
 that no part of the body shall so perish as to produce deformity in
@@ -42895,8 +42435,8 @@ sustained shall appear in the resurrection, yet we are not to reckon
 or name these marks of virtue blemishes.
 
 
-     20. _That, in the resurrection, the substance of our bodies,
-          however disintegrated, shall be entirely reunited._
+## 20. That, in the resurrection, the substance of our bodies, however disintegrated, shall be entirely reunited
+
 
 Far be it from us to fear that the omnipotence of the Creator cannot,
 for the resuscitation and reanimation of our bodies, recall all the
@@ -42960,8 +42500,8 @@ promise shall be equal to the angels of God, if not in body and age,
 at least in happiness.
 
 
-   21. _Of the new spiritual body into which the flesh of the saints
-                        shall be transformed._
+## 21. Of the new spiritual body into which the flesh of the saints shall be transformed
+
 
 Whatever, therefore, has been taken from the body, either during life
 or after death, shall be restored to it, and, in conjunction with what
@@ -43003,9 +42543,8 @@ temptation, and I ask, Who can describe the tokens of God's goodness
 that are extended to the human race even in this life?
 
 
-  22. _Of the miseries and ills to which the human race is justly
-      exposed through the first sin, and from which none can be
-      delivered save by Christ's grace._
+## 22. Of the miseries and ills to which the human race is justly exposed through the first sin, and from which none can be delivered save by Christ's grace
+
 
 That the whole human race has been condemned in its first origin,
 this life itself, if life it is to be called, bears witness by the
@@ -43140,9 +42679,8 @@ be given only by that God whom they themselves recognise as greater
 than all the gods they worship.
 
 
-  23. _Of the miseries of this life which attach peculiarly to the
-      toil of good men, irrespective of those which are common to the
-      good and bad._
+## 23. Of the miseries of this life which attach peculiarly to the toil of good men, irrespective of those which are common to the good and bad
+
 
 But, irrespective of the miseries which in this life are common
 to the good and bad, the righteous undergo labours peculiar to
@@ -43187,8 +42725,8 @@ belongs to the ills of this life, which is proved by the witness of
 so many grave evils to be a life under condemnation.
 
 
-  24. _Of the blessings with which the Creator has filled this life,
-                 obnoxious though it be to the curse._
+## 24. Of the blessings with which the Creator has filled this life, obnoxious though it be to the curse
+
 
 But we must now contemplate the rich and countless blessings with
 which the goodness of God, who cares for all He has created, has filled
@@ -43419,9 +42957,8 @@ For it shall no longer be animal, but spiritual, having indeed the
 substance of flesh, but without any fleshly corruption.
 
 
-  25. _Of the obstinacy of those individuals who impugn the
-      resurrection of the body, though, as was predicted, the whole
-      world believes it._
+## 25. Of the obstinacy of those individuals who impugn the resurrection of the body, though, as was predicted, the whole world believes it
+
 
 The foremost of the philosophers agree with us about the spiritual
 felicity enjoyed by the blessed in the life to come; it is only
@@ -43469,10 +43006,8 @@ the body is in good health. Those who have either not read the former
 books, or wish to refresh their memory, may read them for themselves.
 
 
-  26. _That the opinion of Porphyry, that the soul, in order to
-      be blessed, must be separated from every kind of body, is
-      demolished by Plato, who says that the supreme God promised the
-      gods that they should never be ousted from their bodies._
+## 26. That the opinion of Porphyry, that the soul, in order to be blessed, must be separated from every kind of body, is demolished by Plato, who says that the supreme God promised the gods that they should never be ousted from their bodies
+
 
 But, say they, Porphyry tells us that the soul, in order to be
 blessed, must escape connection with every kind of body. It does not
@@ -43519,9 +43054,8 @@ be in such thorough possession of them, that they shall never lose
 them even for the briefest moment, nor ever lay them down in death.
 
 
-  27. _Of the apparently conflicting opinions of Plato and Porphyry,
-      which would have conducted them both to the truth if they could
-      have yielded to one another._
+## 27. Of the apparently conflicting opinions of Plato and Porphyry, which would have conducted them both to the truth if they could have yielded to one another
+
 
 Statements were made by Plato and Porphyry singly, which if they
 could have seen their way to hold in common, they might possibly
@@ -43553,9 +43087,8 @@ the miseries of this life, and in which, to escape these miseries,
 they served God with piety and fidelity.
 
 
-  28. _What Plato or Labeo, or even Varro, might have contributed to
-      the true faith of the resurrection, if they had adopted one
-      another's opinions into one scheme._
+## 28. What Plato or Labeo, or even Varro, might have contributed to the true faith of the resurrection, if they had adopted one another's opinions into one scheme
+
 
 Some Christians, who have a liking for Plato on account of his
 magnificent style and the truths which he now and then uttered,
@@ -43599,7 +43132,8 @@ and thus the whole question of the eternal resurrection of the body
 shall be resolved out of their own mouths.
 
 
-                     29. _Of the beatific vision._
+## 29. Of the beatific vision
+
 
 And now let us consider, with such ability as God may vouchsafe, how
 the saints shall be employed when they are clothed in immortal and
@@ -43812,8 +43346,8 @@ of darkness, and will make manifest the thoughts of the heart, and
 then shall every one have praise of God."[1047]
 
 
-      30. _Of the eternal felicity of the city of God, and of the
-                          perpetual Sabbath._
+## 30. Of the eternal felicity of the city of God, and of the perpetual Sabbath
+
 
 How great shall be that felicity, which shall be tainted with no evil,
 which shall lack no good, and which shall afford leisure for the
@@ -43976,7 +43510,8 @@ who think I have said too much, forgive me; and let those who think I
 have said just enough join me in giving thanks to God. Amen.
 
 
-FOOTNOTES:
+## Footnotes to Book XXII
+
 
 [961] Luke i. 33.
 
@@ -44196,4979 +43731,5 @@ of reward.
 [1058] Acts i. 7.
 
 
-
-                               INDEXES.
-
-
-
-
-                   I.--INDEX OF TEXTS OF SCRIPTURE.
-
-
-                               GENESIS.
-
-                                VOL. PAGE
-  i. 1,                  i. 439, 446, 501
-
-  i. 1, 2,                         i. 322
-
-  i. 6,                            i. 479
-
-  i. 14,                           i. 502
-
-  i. 14-18,                        i. 458
-
-  i. 24,                  i. 544; ii. 116
-
-  i. 26,                     ii. 114, 323
-
-  i. 27, 28,                       ii. 38
-
-  i. 28,                  ii. 21, 37, 523
-
-  i. 31,                           i. 464
-
-  ii. 2, 3,                       ii. 543
-
-  ii. 6,                           i. 552
-
-  ii. 7,                           i. 549
-
-  ii. 17,       i. 533, 535, 548; ii. 142
-
-  ii. 22,                         ii. 510
-
-  ii. 25,                          ii. 32
-
-  iii. 5,                     ii. 27, 543
-
-  iii. 6,                          ii. 32
-
-  iii. 7,                      ii. 32, 33
-
-  iii. 9,                          i. 535
-
-  iii. 12,                         ii. 24
-
-  iii. 12, 13,                     ii. 28
-
-  iii. 16,                         ii. 60
-
-  iii. 19,           i. 535, 548; ii. 385
-
-  iv. 6, 7,                        ii. 57
-
-  iv. 17,                      ii. 51, 62
-
-  iv. 18-22,                       ii. 82
-
-  iv. 25,                          ii. 63
-
-  iv. 26,                          ii. 82
-
-  v. 1,                            ii. 89
-
-  v. 2,                            ii. 81
-
-  v. 6,                            ii. 77
-
-  v. 8,                            ii. 77
-
-  vi. 1-4,                         ii. 94
-
-  vi. 3,                          ii. 290
-
-  vi. 5-7,                         ii. 97
-
-  vi. 6,                           ii. 22
-
-  vi. 19, 20,                     ii. 103
-
-  vi. 10, 11,                      ii. 73
-
-  viii. 4, 5,                      ii. 73
-
-  ix. 25,                          i. 104
-
-  ix. 26, 27,                     ii. 104
-
-  x. 21,                          ii. 109
-
-  x. 25,                     ii. 119, 122
-
-  xi. 1,                          ii. 128
-
-  xi. 1-9,                        ii. 112
-
-  xi. 6,                          ii. 115
-
-  xi. 27-29,                      ii. 125
-
-  xi. 31,                         ii. 125
-
-  xi. 32,                    ii. 126, 138
-
-  xii. 1,               ii. 127, 128, 129
-
-  xii. 1, 2,                      ii. 166
-
-  xii. 1-3,                       ii. 130
-
-  xii. 3,                         ii. 166
-
-  xii. 4,                         ii. 127
-
-  xii. 7,                         ii. 132
-
-  xiii. 8, 9,                     ii. 133
-
-  xiii. 14-17,                    ii. 133
-
-  xv. 4,                          ii. 140
-
-  xv. 6,                          ii. 135
-
-  xv. 7,                          ii. 136
-
-  xv. 17,                          i. 392
-
-  xv. 19, 21,                     ii. 136
-
-  xvi. 3,                         ii. 150
-
-  xvi. 6,                         ii. 140
-
-  xvii. 1-22,                     ii. 140
-
-  xvii. 5,                        ii. 395
-
-  xvii. 5, 6, 16,                 ii. 143
-
-  xvii. 14,                       ii. 142
-
-  xvii. 17,                       ii. 149
-
-  xviii.,                          i. 393
-
-  xviii. 2, 3,                    ii. 145
-
-  xviii. 18,              i. 392; ii. 146
-
-  xix. 2,                         ii. 145
-
-  xix. 16-19,                     ii. 145
-
-  xix. 21,                        ii. 145
-
-  xx. 12,                         ii. 146
-
-  xxi. 6,                         ii. 147
-
-  xxi. 10,                        ii. 187
-
-  xxi. 12,                        ii. 155
-
-  xxi. 12, 13,                    ii. 147
-
-  xxii. 10, 12,                   ii. 148
-
-  xxii. 14,                       ii. 149
-
-  xxii. 15-18,                    ii. 149
-
-  xxii. 18,          i. 432; ii. 333, 395
-
-  xxiv. 2, 3,                     ii. 150
-
-  xxiv. 10,                       ii. 125
-
-  xxv. 1,                         ii. 150
-
-  xxv. 5, 6,                      ii. 150
-
-  xxv. 7,                         ii. 220
-
-  xxv. 9,                           i. 24
-
-  xxv. 23,                   ii. 151, 161
-
-  xxv. 27,                        ii. 154
-
-  xxvi. 1-5,                      ii. 152
-
-  xxvi. 24,                       ii. 153
-
-  xxvii. 27-29,                   ii. 154
-
-  xxvii. 33,                      ii. 155
-
-  xxviii. 1-4,                    ii. 155
-
-  xxviii. 10-19,                  ii. 156
-
-  xxxii. 28,                      ii. 157
-
-  xxxii. 28-30,                   ii. 199
-
-  xxxv. 29,                         i. 24
-
-  xlvi. 8,                        ii. 159
-
-  xlvi. 27,                         ii. 7
-
-  xlvii. 29,                        i. 21
-
-  xlviii. 19,                     ii. 161
-
-  xlix. 8-12,                     ii. 160
-
-  xlix. 10,                  ii. 223, 277
-
-  xlix. 12,                       ii. 161
-
-  l. 22, 23,                      ii. 159
-
-  l. 23,                          ii. 159
-
-  l. 24,                            i. 21
-
-
-                                EXODUS.
-
-  iii. 14,                    i. 323, 482
-
-  x.,                             ii. 112
-
-  xii. 37,                         ii. 63
-
-  xvii. 6,                        ii. 281
-
-  xxi. 24,                        ii. 436
-
-  xxii. 20,          i. 387; ii. 332, 338
-
-  xxxiii. 13,                      i. 402
-
-
-                              LEVITICUS.
-
-  xxvi. 12,                       ii. 541
-
-
-                             DEUTERONOMY.
-
-  v. 14,                          ii. 544
-
-
-                                JOSHUA.
-
-  xxiv. 2,                        ii. 124
-
-
-                                JUDGES.
-
-  iii. 30,                        ii. 199
-
-
-                               1 SAMUEL.
-
-  ii. 1-10,                       ii. 171
-
-  ii. 27-36,                      ii. 179
-
-  vii. 9-12,                      ii. 188
-
-  vii. 14, 15,                    ii. 192
-
-  xiii. 13, 14,                   ii. 185
-
-  xv. 11,                          ii. 22
-
-  xv. 23,                         ii. 186
-
-  xv. 26-29,                      ii. 186
-
-  xxiv. 5, 6,                     ii. 185
-
-
-                               2 SAMUEL.
-
-  vii. 8,                         ii. 198
-
-  vii. 8-16,                      ii. 190
-
-  vii. 10, 11,              ii. 198 _bis_
-
-  vii. 19,                        ii. 197
-
-  vii. 29,                        ii. 198
-
-
-                               1 KINGS.
-
-  xiii. 2,                        ii. 200
-
-  xix. 10, 14, 15,                ii. 214
-
-
-                               2 KINGS.
-
-  ii. 11,                         ii. 405
-
-  v. 26,                          ii. 536
-
-  xiii. 15-17,                    ii. 200
-
-
-                             2 CHRONICLES.
-
-  xxx. 9,                          i. 384
-
-
-                                 JOB.
-
-  i. 21,                            i. 15
-
-  vii. 1,               ii. 312, 342, 440
-
-  xiv. 4,                         ii. 401
-
-  xv. 13,                         ii. 112
-
-  xix. 26,                        ii. 538
-
-  xxxiv. 30,                       i. 216
-
-  xxxviii. 7,                      i. 446
-
-  xl. 14,                     i. 455, 456
-
-  xlii. 5, 6,                     ii. 537
-
-
-                                PSALMS.
-
-  iii. 3,                          ii. 47
-
-  iii. 5,                         ii. 205
-
-  iv. 7,                           ii. 12
-
-  vi. 2,                          ii. 173
-
-  vi. 5,                           i. 532
-
-  vi. 6,                          ii. 378
-
-  ix. 18,                          ii. 20
-
-  x. 3,                            i. 107
-
-  xi. 5,                           ii. 11
-
-  xii. 6,                         ii. 182
-
-  xii. 7,                          i. 499
-
-  xiii. 1,                        ii. 194
-
-  xvi. 2,                 i. 388; ii. 339
-
-  xvi. 9, 10,                     ii. 207
-
-  xvi. 10,                        ii. 174
-
-  xvi. 11,                         ii. 12
-
-  xvii. 6,                         i. 454
-
-  xvii. 8,                        ii. 182
-
-  xvii. 15,                       ii. 456
-
-  xviii. 1,                        ii. 47
-
-  xviii. 43,                 ii. 203, 408
-
-  xviii. 45,                      ii. 158
-
-  xix. 9,                          ii. 19
-
-  xix. 12,                         i. 490
-
-  xxii. 16, 17,                   ii. 205
-
-  xxii. 18, 19,                   ii. 205
-
-  xxiv. 16,                        i. 475
-
-  xxv. 10,                         i. 520
-
-  xxv. 17,                        ii. 310
-
-  xxvi. 2,                         ii. 16
-
-  xxxi. 19,                  ii. 447, 455
-
-  xxxii. 1,                       ii. 209
-
-  xxxii. 11,                       ii. 12
-
-  xxxiv. 5,                       ii. 538
-
-  xxxiv. 8,                       ii. 456
-
-  xxxvi. 8,                       ii. 517
-
-  xxxix. 2,                       ii. 379
-
-  xxxix. 8,                       ii. 378
-
-  xl. 2,                          ii. 261
-
-  xl. 2, 3,                       ii. 256
-
-  xl. 4,                   i. 229; ii. 90
-
-  xl. 5,                          ii. 282
-
-  xl. 6,                          ii. 212
-
-  xli. 5,                         ii. 411
-
-  xli. 5-8,                       ii. 206
-
-  xli. 9,                         ii. 206
-
-  xli. 10,                        ii. 206
-
-  xlii. 3,                        ii. 378
-
-  xlii. 6,                         i. 546
-
-  xlii. 10,                         i. 41
-
-  xlv. 1-9,                       ii. 202
-
-  xlv. 7,                         ii. 203
-
-  xlv. 9-17,                      ii. 203
-
-  xlv. 16,                        ii. 204
-
-  xlvi. 4,                         i. 436
-
-  xlvi. 8,                         i. 520
-
-  xlvi. 10,                       ii. 543
-
-  xlviii. 1,                       i. 436
-
-  xlviii. 2,                 ii. 172, 203
-
-  xlix. 11,                        ii. 90
-
-  xlix. 12,                        i. 523
-
-  xlix. 20,                       ii. 524
-
-  l. 1,                            i. 370
-
-  l. 3-5,                         ii. 397
-
-  l. 12, 13,                       i. 389
-
-  l. 14, 15,                       i. 389
-
-  l. 16, 17,                       i. 388
-
-  li. 3,                           ii. 88
-
-  lii. 8,                          ii. 90
-
-  liii. 3, 4,                     ii. 121
-
-  lvii. 5-11,                     ii. 253
-
-  lix. 9,                          i. 546
-
-  lxii. 11, 12,                    i. 192
-
-  lxvii. 1, 2,                     i. 432
-
-  lxviii. 20,                     ii. 208
-
-  lxix. 6,                        ii. 212
-
-  lxix. 9,                        ii. 370
-
-  lxix. 10, 11,                   ii. 278
-
-  lxix. 20,                        ii. 19
-
-  lxix. 21,                       ii. 208
-
-  lxix. 22, 23,              ii. 208, 278
-
-  lxxii. 8,                  ii. 191, 290
-
-  lxxiii.,                        ii. 404
-
-  lxxiii. 18,                      ii. 27
-
-  lxxiii. 20,                      ii. 90
-
-  lxxiii. 28,            i. 391, 409, 416
-
-  lxxiv. 12,                      ii. 177
-
-  lxxvii. 9,                 ii. 446, 453
-
-  lxxvii. 10,                     ii. 454
-
-  lxxxii. 6,          i. 379, 385; ii. 95
-
-  lxxxiii. 16,                     ii. 28
-
-  lxxxiii. 28,                     i. 387
-
-  lxxxiv. 2,                       i. 417
-
-  lxxxiv. 4,                      ii. 540
-
-  lxxxiv. 10,                     ii. 183
-
-  lxxxvii. 3,                 i. 292, 436
-
-  lxxxvii. 5,                     ii. 402
-
-  lxxxix. 2, 3,                     i. 19
-
-  lxxxix. 3, 4,                   ii. 191
-
-  lxxxix. 19-29,                  ii. 192
-
-  lxxxix. 30-33,                  ii. 192
-
-  lxxxix. 32,                       i. 10
-
-  lxxxix. 34, 35,                 ii. 193
-
-  lxxxix. 36, 37,                 ii. 193
-
-  lxxxix. 38,               ii. 193 _bis_
-
-  lxxxix. 39-45,                  ii. 194
-
-  lxxxix. 46,                     ii. 194
-
-  lxxxix. 46, 47,                 ii. 195
-
-  lxxxix. 47,                     ii. 195
-
-  lxxxix. 48,                     ii. 195
-
-  lxxxix. 49-51,                  ii. 196
-
-  xc. 10,                          ii. 74
-
-  xciv. 4,                          i. 49
-
-  xciv. 11,             ii. 173, 302, 501
-
-  xciv. 15,                          i. 1
-
-  xciv. 19,                  ii. 284, 285
-
-  xcv. 3,                          i. 379
-
-  xcv. 5,                          i. 408
-
-  xcv. 6,                         ii. 112
-
-  xcvi. 1,                         i. 344
-
-  xcvi. 1-5,                       i. 345
-
-  xcvi. 4, 5,                       i. 42
-
-  xcvi. 5,                        ii. 338
-
-  xcvi. 5, 6,                      i. 379
-
-  ci. 1,                          ii. 354
-
-  cii. 25-27,                     ii. 395
-
-  civ. 1,                         ii. 528
-
-  civ. 4,                          ii. 92
-
-  civ. 24,                         i. 477
-
-  civ. 26,                    i. 455, 457
-
-  cv. 28,                         ii. 358
-
-  cv. 15,                         ii. 192
-
-  cx. 1,                     ii. 200, 204
-
-  cx. 2,                          ii. 204
-
-  cx. 4,               ii. 135, 205 _bis_
-
-  cxi. 1,                         ii. 187
-
-  cxi. 2,                          ii. 46
-
-  cxii. 1,                        ii. 512
-
-  cxv. 5,                          i. 344
-
-  cxvi. 10,                       ii. 535
-
-  cxvi. 15,                    i. 19, 527
-
-  cxvi.,                          ii. 255
-
-  cxviii. 1-5,                     i. 446
-
-  cxix. 20,                        ii. 11
-
-  cxix. 119,                      ii. 142
-
-  cxix. 164,                       i. 475
-
-  cxxiii. 2,                      ii. 329
-
-  cxxxvi. 2,                       i. 379
-
-  cxxxvii. 1,                     ii. 198
-
-  cxxxviii. 3,                     ii. 37
-
-  cxliv. 4,             ii. 195, 347, 454
-
-  cxliv. 15,                      ii. 341
-
-  cxlvii. 5,                       i. 508
-
-  cxlvii. 12-14,                  ii. 314
-
-  cxlviii. 2,                      i. 478
-
-  cxlviii. 4,                      i. 509
-
-  cxlviii. 8,                      i. 554
-
-
-                               PROVERBS.
-
-  i. 11-13,                       ii. 210
-
-  iii. 18,                i. 445; ii. 404
-
-  vi. 26,                           i. 54
-
-  viii. 15,                        i. 216
-
-  viii. 27,                        i. 439
-
-  ix. 1,                          ii. 174
-
-  ix. 1-5,                        ii. 211
-
-  ix. 6,                          ii. 211
-
-  x. 5,                           ii. 105
-
-  xviii. 12,                       ii. 27
-
-  xxiv. 16,                        i. 475
-
-
-                             ECCLESIASTES.
-
-  i. 2, 3,                        ii. 348
-
-  i. 9, 10,                        i. 499
-
-  ii. 13, 14,                     ii. 348
-
-  ii. 24,                         ii. 211
-
-  iii. 13,                        ii. 211
-
-  iii. 18,                        ii. 211
-
-  iii. 22,                         i. 554
-
-  vii. 4,                         ii. 212
-
-  vii. 29,                         ii. 22
-
-  viii. 14,                       ii. 349
-
-  viii. 15,                       ii. 211
-
-  x. 13,                           i. 485
-
-  x. 16, 17,                      ii. 212
-
-  xi. 9,                           i. 384
-
-  xii. 13, 14,                    ii. 349
-
-
-                          CANTICLES OR SONGS.
-
-  i. 3,                           ii. 105
-
-  i. 4,                           ii. 212
-
-  ii. 4,                           ii. 92
-
-  ii. 5,                          ii. 390
-
-  iv. 13,                          i. 546
-
-  vii. 6,                         ii. 213
-
-
-                                ISAIAH.
-
-  i. 1,                           ii. 247
-
-  ii. 2, 3,                        i. 433
-
-  ii. 3,                     ii. 282, 290
-
-  iv. 4,                          ii. 400
-
-  v. 7,                           ii. 106
-
-  vii. 14,                        ii. 277
-
-  x. 21,                          ii. 182
-
-  x. 22,                     ii. 258, 278
-
-  xi. 2,                           i. 476
-
-  xi. 4,                          ii. 288
-
-  xiv. 12,                         i. 454
-
-  xix. 1,                          i. 342
-
-  xxvi. 11,                       ii. 371
-
-  xxvi. 19,                       ii. 387
-
-  xxviii. 22,                     ii. 183
-
-  xxix. 14,                        i. 422
-
-  xl. 26,                          i. 508
-
-  xlii. 1-4,                      ii. 410
-
-  xlv. 8,                         ii. 378
-
-  xlviii. 12-16,                  ii. 407
-
-  xlviii. 20,                     ii. 235
-
-  li. 8,                          ii. 433
-
-  lii. 13-liii. 12,               ii. 449
-
-  liii. 7,                   ii. 298, 407
-
-  liv. 1-5,                       ii. 249
-
-  lvii. 21,                        ii. 13
-
-  lxv. 5,                         ii. 393
-
-  lxv. 17-19,                ii. 389, 476
-
-  lxv. 22,                        ii. 402
-
-  lxvi. 12-16,                    ii. 387
-
-  lxvi. 18,                       ii. 390
-
-  lxvi. 22-24,                    ii. 391
-
-  lxvi. 24,                       ii. 454
-
-  lxvi. 34,                       ii. 432
-
-
-                               JEREMIAH.
-
-  i. 5,                            i. 517
-
-  ix. 23, 24,                     ii. 256
-
-  xvi. 19,                        ii. 257
-
-  xvi. 20,                    i. 241, 346
-
-  xvii. 7,                         ii. 83
-
-  xvii. 9,                        ii. 257
-
-  xxiii. 5, 6,                    ii. 257
-
-  xxiii. 24,              i. 517; ii. 537
-
-  xxix. 7,                        ii. 341
-
-  xxxi. 31,                       ii. 257
-
-
-                             LAMENTATIONS.
-
-  iv. 20,                         ii. 257
-
-
-                               EZEKIEL.
-
-  xx. 12,                         ii. 544
-
-  xxviii. 13,                      i. 454
-
-  xxxiii. 6,                        i. 14
-
-  xxxiv. 23,                      ii. 259
-
-  xxxvii. 22-24,                  ii. 259
-
-
-                                DANIEL.
-
-  iii.,                             i. 22
-
-  vii. 13, 14,                    ii. 258
-
-  vii. 15-28,                     ii. 393
-
-  vii. 18,                        ii. 476
-
-  vii. 27,                        ii. 476
-
-  xii. 1, 2,                      ii. 476
-
-  xii. 1-3,                       ii. 394
-
-  xii. 13,                        ii. 395
-
-
-                                HOSEA.
-
-  i. 1,                           ii. 246
-
-  i. 10,                          ii. 248
-
-  i. 11,                          ii. 248
-
-  iii. 4,                         ii. 248
-
-  iii. 5,                         ii. 248
-
-  vi. 2,                          ii. 248
-
-  vi. 6,                  i. 390; ii. 399
-
-
-                                 JOEL.
-
-  ii. 13,                         ii. 254
-
-  ii. 28, 29,                     ii. 251
-
-
-                                 AMOS.
-
-  i. 1,                           ii. 247
-
-  iv. 12, 13,                     ii. 249
-
-  ix. 11, 12,                     ii. 249
-
-
-                               OBADIAH.
-
-  ver. 17,                        ii. 251
-
-  ver. 21,                        ii. 251
-
-
-                                JONAH.
-
-  iii. 4,                         ii. 273
-
-
-                                MICAH.
-
-  i. 1,                           ii. 247
-
-  iv. 13,                         ii. 250
-
-  v. 2-4,                         ii. 250
-
-  vi. 6-8,                         i. 389
-
-
-                                NAHUM.
-
-  i. 14-ii. 1,                    ii. 252
-
-
-                               HABAKKUK.
-
-  ii. 2, 3,                       ii. 252
-
-  ii. 4,             i. 157; ii. 301, 328
-
-  iii. 2,                         ii. 252
-
-  iii. 3,                         ii. 253
-
-  iii. 4,                         ii. 253
-
-
-                              ZEPHANIAH.
-
-  ii. 11,                         ii. 258
-
-  iii. 8,                         ii. 257
-
-  iii. 9-12,                      ii. 258
-
-
-                                HAGGAI.
-
-  ii. 6,                          ii. 259
-
-  ii. 7,                     ii. 275, 281
-
-  ii. 9,                ii. 275, 280, 281
-
-
-                              ZECHARIAH.
-
-  ix. 9, 10,                      ii. 259
-
-  ix. 11,                         ii. 260
-
-  xii. 9, 10,                     ii. 408
-
-  xiii. 2,                          i. 34
-
-
-                               MALACHI.
-
-  i. 10, 11,                      ii. 260
-
-  ii. 5-7,                        ii. 260
-
-  ii. 7,                           ii. 93
-
-  ii. 17,                    ii. 404, 406
-
-  iii. 1, 2,                      ii. 261
-
-  iii. 1-6,                       ii. 399
-
-  iii. 13-16,                     ii. 362
-
-  iii. 14,                        ii. 406
-
-  iii. 14, 15,                    ii. 404
-
-  iii. 17-iv. 3,             ii. 262, 403
-
-  iv. 4,                          ii. 404
-
-  iv. 5, 6,                       ii. 405
-
-       *       *       *       *       *
-
-                              APOCRYPHA.
-
-                                ESDRAS.
-
-  iii. iv.,                       ii. 263
-
-
-                                TOBIT.
-
-  xii. 12,                          i. 21
-
-  xii. 19,                         i. 547
-
-
-                                JUDITH.
-
-  v. 5-9,                         ii. 126
-
-  vii. 20,                         i. 384
-
-
-                                WISDOM.
-
-  i. 9,                           ii. 403
-
-  ii. 12-21,                      ii. 210
-
-  vi. 20,                          ii. 11
-
-  vii. 22,                         i. 450
-
-  vii. 24-27,                      i. 305
-
-  viii. 1,                 i. 517; ii. 53
-
-  ix. 13-15,                       i. 501
-
-  ix. 14,                         ii. 539
-
-  ix. 15,              i. 536; ii. 4, 303
-
-  xi. 20,                     i. 475, 508
-
-  xi. 38,                          i. 532
-
-
-                            ECCLESIASTICUS.
-
-  ii. 7,                          ii. 368
-
-  iii. 27,                          i. 38
-
-  vii. 13,                         ii. 14
-
-  vii. 17,                        ii. 433
-
-  x. 13,                           ii. 25
-
-  xv. 17,                         ii. 142
-
-  xxi. 1,                         ii. 466
-
-  xxiv. 3,                         i. 455
-
-  xxvii. 5,                       ii. 461
-
-  xxx. 12,                        ii. 518
-
-  xxx. 24,                i. 390; ii. 466
-
-  xxxiii. 15,                      i. 457
-
-  xxxvi. 1-5,                     ii. 210
-
-  xl. 1,                          ii. 441
-
-
-                                BARUCH.
-
-  iii. 26, 27,                     ii. 97
-
-  iii. 35-37,                     ii. 257
-
-
-                           HYMN OF THE THREE
-                               CHILDREN.
-
-  ver. 35,                         i. 466
-
-       *       *       *       *       *
-
-                            NEW TESTAMENT.
-
-                               MATTHEW.
-
-  i.,                              ii. 77
-
-  i. 1, 18,                       ii. 192
-
-  i. 21,                          ii. 208
-
-  i. 23,                          ii. 277
-
-  iii. 2,                         ii. 282
-
-  iii. 8,                         ii. 465
-
-  iv. 3-11,                        i. 377
-
-  iv. 9,                           i. 478
-
-  iv. 17,                         ii. 282
-
-  iv. 19,                         ii. 408
-
-  v. 4,                           ii. 254
-
-  v. 8,                      ii. 388, 538
-
-  v. 16,                           i. 206
-
-  v. 19,                          ii. 364
-
-  v. 20,                     ii. 364, 467
-
-  v. 23, 24,                      ii. 467
-
-  v. 28,                           ii. 21
-
-  v. 45,              i. 10, 138; ii. 454
-
-  vi. 1,                           i. 206
-
-  vi. 2,                           i. 207
-
-  vi. 12,      ii. 342, 349, 465, 467, 522
-
-  vi. 14,                          ii. 468
-
-  vi. 14, 15,                      ii. 449
-
-  vi. 15,                          ii. 468
-
-  vi. 19-21,                         i. 16
-
-  vi. 28-30,                        i. 403
-
-  vii. 7, 8,                       ii. 196
-
-  vii. 12,                          ii. 13
-
-  vii. 18,                          ii. 26
-
-  vii. 20,                         ii. 106
-
-  viii. 22,           i. 212; ii. 354, 375
-
-  viii. 29,                i. 342; ii. 345
-
-  x. 22,                            ii. 16
-
-  x. 27,                           ii. 255
-
-  x. 28,          i. 19, 212, 522; ii. 283
-
-  x. 30,                            i. 508
-
-  x. 32,                            i. 527
-
-  x. 33,                            i. 205
-
-  x. 34,                           ii. 390
-
-  x. 36,                           ii. 308
-
-  x. 37,                           ii. 464
-
-  x. 41,                           ii. 470
-
-  xi. 13,                          ii. 217
-
-  xi. 22,                          ii. 350
-
-  xi. 24,                          ii. 350
-
-  xii. 27,                         ii. 351
-
-  xii. 29,                         ii. 408
-
-  xii. 32,                         ii. 453
-
-  xii. 41, 42,                     ii. 351
-
-  xiii. 37-43,                     ii. 351
-
-  xiii. 39-41,                     ii. 264
-
-  xiii. 41-43,                     ii. 414
-
-  xiii. 43,                        ii. 514
-
-  xiii. 47-50,                     ii. 282
-
-  xiii. 52,                        ii. 350
-
-  xvi. 16,                          i. 342
-
-  xvi. 25,                          i. 528
-
-  xvii. 1, 2,                      ii. 410
-
-  xvii. 7,                         ii. 313
-
-  xviii. 10,                        i. 439
-
-  xviii. 15,                        ii. 56
-
-  xviii. 18,                       ii. 365
-
-  xviii. 23,                       ii. 469
-
-  xviii. 35,                        ii. 56
-
-  xix. 4, 5,                        ii. 38
-
-  xix. 27, 28,                     ii. 175
-
-  xix. 28,                         ii. 351
-
-  xix. 29,                         ii. 358
-
-  xx. 22,                          ii. 106
-
-  xxii. 11-14,                     ii. 281
-
-  xxii. 14,                        ii. 273
-
-  xxii. 29,                        ii. 510
-
-  xxii. 30,                i. 477; ii. 510
-
-  xxii. 37-40,                      i. 387
-
-  xxii. 39,                        ii. 466
-
-  xxii. 40,                         i. 390
-
-  xxii. 44,                        ii. 200
-
-  xxiii. 3,                        ii. 364
-
-  xxiii. 26,                        i. 417
-
-  xxiv. 12,               ii. 16, 313, 363
-
-  xxiv. 13,                   ii. 178, 448
-
-  xxiv. 15,                        ii. 183
-
-  xxiv. 21,                        ii. 138
-
-  xxiv. 25,                        ii. 396
-
-  xxiv. 29,                        ii. 396
-
-  xxv. 24,                         ii. 407
-
-  xxv. 30,                         ii. 392
-
-  xxv. 33,                         ii. 449
-
-  xxv. 34,               ii. 364, 399, 462
-
-  xxv. 34-41,                      ii. 353
-
-  xxv. 34, 41, 46,                 ii. 543
-
-  xxv. 35,                         ii. 207
-
-  xxv. 40,                         ii. 207
-
-  xxv. 41,     ii. 370, 434, 450, 451, 462
-
-  xxv. 45,                         ii. 466
-
-  xxv. 46,           i. 453, 376, 414, 451
-
-  xxvi. 10-13,                      ii. 13
-
-  xxvi. 38,                         ii. 18
-
-  xxvi. 39,                        ii. 106
-
-  xxvi. 63,                        ii. 398
-
-  xxvi. 75,                         ii. 16
-
-  xxvii. 34, 48,                   ii. 208
-
-  xxviii. 19,                       i. 554
-
-  xxviii. 20,                      ii. 364
-
-
-                                 MARK.
-
-  i. 2,                            ii. 93
-
-  i. 24,                           i. 377
-
-  iii. 5,                          ii. 17
-
-  iii. 27,                        ii. 357
-
-  ix. 43, 48,                     ii. 432
-
-
-                                 LUKE.
-
-  i. 27,                          ii. 192
-
-  i. 33,                          ii. 472
-
-  i. 34,                          ii. 137
-
-  i. 35,                          ii. 137
-
-  ii. 14,                          ii. 14
-
-  ii. 25-30,                      ii. 172
-
-  ii. 29, 30,                     ii. 538
-
-  iii. 6,                         ii. 538
-
-  v. 10,                          ii. 408
-
-  vi. 13,                         ii. 282
-
-  vi. 38,                         ii. 437
-
-  xii. 4,                           i. 19
-
-  xii. 7,                         ii. 513
-
-  xii. 49,                        ii. 390
-
-  xvi. 9,                    ii. 469, 470
-
-  xvi. 24,                   ii. 416, 435
-
-  xix. 10,                        ii. 185
-
-  xx. 34,                      ii. 39, 85
-
-  xx. 35,                          ii. 81
-
-  xxi. 18,                   ii. 504, 507
-
-  xxii. 15,                        ii. 18
-
-  xxiii. 34,                      ii. 253
-
-  xxiv. 27,                       ii. 290
-
-  xxiv. 44-47,                     i. 433
-
-  xxiv. 45-47,                    ii. 283
-
-
-                                 JOHN.
-
-  i. 1-5,                          i. 426
-
-  i. 6-9,                          i. 386
-
-  i. 9,                            i. 447
-
-  i. 14,               i. 415, 426; ii. 3
-
-  i. 32,                          ii. 410
-
-  i. 47, 51,                      ii. 156
-
-  ii. 19,                 i. 160; ii. 261
-
-  iii. 5,                 i. 527; ii. 467
-
-  iii. 17,                        ii. 254
-
-  iv. 24,                          i. 554
-
-  v. 17,                          ii. 523
-
-  v. 22,                          ii. 410
-
-  v. 22-24,                       ii. 353
-
-  v. 25, 26,                      ii. 353
-
-  v. 28,                          ii. 394
-
-  v. 28, 29,                      ii. 355
-
-  v. 29,                          ii. 413
-
-  v. 44,                           i. 205
-
-  v. 46,                          ii. 404
-
-  vi. 50, 51,                ii. 447, 458
-
-  vi. 51,                         ii. 183
-
-  vi. 56,                         ii. 458
-
-  vi. 60-64,                       i. 415
-
-  vi. 70,                         ii. 207
-
-  vii. 39,                        ii. 408
-
-  viii. 25,                   i. 415, 476
-
-  viii. 34,                       ii. 324
-
-  viii. 36,                        ii. 23
-
-  viii. 44,               i. 453; ii. 320
-
-  x. 9,                            i. 270
-
-  x. 18,                      i. 160, 195
-
-  xi. 15,                          ii. 18
-
-  xi. 35,                          ii. 18
-
-  xii. 43,                         i. 205
-
-  xiv. 6,                   i. 432; ii. 6
-
-  xvi. 13,                         i. 476
-
-  xix. 30,                        ii. 160
-
-  xix. 38,                          i. 21
-
-  xx. 13,                           ii. 3
-
-  xx. 22,                          i. 551
-
-  xxi. 15-17,                      ii. 11
-
-
-                                 ACTS.
-
-  i. 6, 7,                        ii. 288
-
-  i. 7,                           ii. 544
-
-  i. 7, 8,                        ii. 283
-
-  i. 17,                          ii. 207
-
-  ii. 3,                          ii. 390
-
-  ii. 27, 31,                     ii. 174
-
-  ii. 45,                          i. 213
-
-  vii. 2,                         ii. 130
-
-  vii. 2, 3,                      ii. 128
-
-  vii. 4,                         ii. 129
-
-  vii. 22,                   ii. 101, 264
-
-  vii. 53,                         i. 403
-
-  ix. 4,                          ii. 193
-
-  x. 42,                          ii. 177
-
-  xiii. 46,                       ii. 196
-
-  xv. 15-17,                      ii. 249
-
-  xvii. 28,                        i. 320
-
-  xvii. 30, 31,                   ii. 290
-
-
-                                ROMANS.
-
-  i. 3,                 ii. 186, 190, 248
-
-  i. 11-13,                        ii. 17
-
-  i. 17,                          ii. 401
-
-  i. 19, 20,                  i. 316, 320
-
-  i. 20,                  i. 323; ii. 539
-
-  i. 21,                      i. 341, 383
-
-  i. 21-23,                        i. 320
-
-  i. 21-25,                        ii. 48
-
-  i. 25,                           i. 170
-
-  i. 26,                           ii. 41
-
-  i. 31,                           ii. 18
-
-  ii. 4,                            i. 10
-
-  ii. 15, 16,                     ii. 403
-
-  iii. 2,                         ii. 173
-
-  iii. 4,                         ii. 135
-
-  iii. 7,                           ii. 6
-
-  iii. 20,                         ii. 27
-
-  iii. 20-22,                     ii. 350
-
-  iii. 23,                        ii. 390
-
-  iii. 26,                        ii. 172
-
-  iii. 28, 29,                    ii. 196
-
-  iv. 15,                         ii. 142
-
-  v. 5,                           ii. 212
-
-  v. 12,                           ii. 24
-
-  v. 12, 19,                      ii. 142
-
-  vi. 4,                          ii. 368
-
-  vi. 9,                  i. 499; ii. 195
-
-  vi. 12, 13,                      ii. 57
-
-  vi. 13,                  i. 390; ii. 60
-
-  vi. 22,                         ii. 315
-
-  vii. 12, 13,                     i. 526
-
-  vii. 17,                         ii. 60
-
-  viii. 6,                        ii. 389
-
-  viii. 10,                       ii. 375
-
-  viii. 13,                       ii. 433
-
-  viii. 14,                       ii. 441
-
-  viii. 15,                        ii. 19
-
-  viii. 18,                        i. 215
-
-  viii. 23,                   ii. 16, 379
-
-  viii. 24,               i. 550; ii. 307
-
-  viii. 24, 25,                    i. 418
-
-  viii. 28,                i. 14; ii. 284
-
-  viii. 28, 29,                    i. 549
-
-  viii. 29,                  ii. 285, 505
-
-  viii. 32,             ii. 148, 174, 529
-
-  viii. 37,                       ii. 522
-
-  ix. 2,                      ii. 17, 379
-
-  ix. 5,                           ii. 86
-
-  ix. 7, 8,                  ii. 148, 150
-
-  xi. 10-13,                      ii. 151
-
-  ix. 14,                         ii. 346
-
-  ix. 21,                          ii. 30
-
-  ix. 22, 23,                      ii. 52
-
-  ix. 27,                         ii. 258
-
-  ix. 27, 28,                     ii. 278
-
-  ix. 28,                         ii. 183
-
-  x. 3,             ii. 17, 172, 256, 456
-
-  x. 5,                           ii. 203
-
-  x. 13,                           ii. 83
-
-  xi. 5,                          ii. 182
-
-  xi. 11,                         ii. 278
-
-  xi. 20,                          ii. 12
-
-  xi. 32,             i. 39; ii. 447, 456
-
-  xi. 33,                         ii. 346
-
-  xii. 1,                 i. 390; ii. 183
-
-  xii. 2,                          i. 391
-
-  xii. 3,                          i. 504
-
-  xii. 3-6,                        i. 391
-
-  xii. 12,                   ii. 255, 284
-
-  xii. 15,                         ii. 17
-
-  xiii. 10,                       ii. 459
-
-  xiii. 24, 25,                    ii. 83
-
-  xiv. 4,                         ii. 368
-
-  xiv. 9,                         ii. 366
-
-
-                            1 CORINTHIANS.
-
-  i. 19-25,                        i. 423
-
-  i. 25,                          ii. 107
-
-  i. 27,                          ii. 211
-
-  i. 30, 31,                      ii. 456
-
-  i. 31,                          ii. 256
-
-  ii. 11,                      i. 38, 553
-
-  ii. 11-14,                        ii. 7
-
-  iii. 1,                      ii. 7, 517
-
-  iii. 2,                         ii. 161
-
-  iii. 3,                           ii. 7
-
-  iii. 7,                 i. 517; ii. 524
-
-  iii. 9,                    ii. 114, 328
-
-  iii. 11-15,                     ii. 448
-
-  iii. 13,                   ii. 461, 462
-
-  iii. 14, 15,                    ii. 462
-
-  iii. 15,                        ii. 460
-
-  iii. 17,                        ii. 191
-
-  iii. 20,                   ii. 173, 302
-
-  iv. 5,                          ii. 540
-
-  iv. 7,                          ii. 176
-
-  iv. 9,                           ii. 17
-
-  v. 12,                          ii. 366
-
-  vi. 3,                          ii. 352
-
-  vii. 4,                         ii. 140
-
-  vii. 25,                        ii. 469
-
-  vii. 31,                        ii. 396
-
-  vii. 31, 32,                    ii. 374
-
-  vii. 32,                        ii. 461
-
-  vii. 33,                        ii. 461
-
-  viii. 1,                         i. 376
-
-  viii. 5, 6,                      i. 380
-
-  x. 4,                   i. 545; ii. 281
-
-  x. 12,                          ii. 368
-
-  x. 17,           ii. 183, 448, 458, 511
-
-  x. 19, 20,                       i. 345
-
-  xi. 14,                           i. 86
-
-  xi. 19,                         ii. 105
-
-  xii. 12,                   ii. 178, 207
-
-  xii. 27,                        ii. 511
-
-  xiii. 4,                        ii. 107
-
-  xiii. 9, 10,               ii. 434, 535
-
-  xiii. 10, 12,                   ii. 476
-
-  xiii. 11, 12,                   ii. 536
-
-  xiii. 12,                  ii. 535, 538
-
-  xv. 10,                         ii. 352
-
-  xvi. 21, 22,                     i. 550
-
-  xv. 22,                         ii. 385
-
-  xv. 28,                ii. 48, 393, 541
-
-  xv. 32,                          i. 544
-
-  xv. 36,                         ii. 385
-
-  xv. 38,                          i. 517
-
-  xv. 39,                           ii. 2
-
-  xv. 42-45,                       i. 549
-
-  xv. 44,                         ii. 517
-
-  xv. 46,                          ii. 50
-
-  xv. 46, 47,                     ii. 228
-
-  xv. 47-49,                       i. 550
-
-  xv. 51,                         ii. 385
-
-  xv. 54,                          ii. 16
-
-  xv. 55,                         ii. 379
-
-  xv. 56,                          i. 525
-
-  xv. 57,                         ii. 522
-
-
-                            2 CORINTHIANS.
-
-  i. 12,                           i. 201
-
-  iii. 15, 16,                    ii. 188
-
-  iii. 18,                        ii. 538
-
-  iv. 16,                   i. 552; ii. 4
-
-  v. 1-4,                           ii. 4
-
-  v. 4,                           ii. 379
-
-  v. 6,                           ii. 328
-
-  v. 10,                          ii. 177
-
-  v. 14, 15,                      ii. 354
-
-  vi. 7-10,                        i. 457
-
-  vi. 10,                         ii. 358
-
-  vi. 14,                         ii. 369
-
-  vii. 5,                          ii. 17
-
-  vii. 8-11,                       ii. 15
-
-  viii. 9,                        ii. 174
-
-  ix. 7,                           ii. 16
-
-  x. 12,                           i. 506
-
-  xi. 1-3,                         ii. 17
-
-  xi. 3,                            i. 12
-
-  xi. 14,                 i. 397; ii. 313
-
-  xi. 29,                         ii. 433
-
-  xii. 21,                         ii. 17
-
-
-                              GALATIANS.
-
-  ii. 14-20,                      ii. 248
-
-  iii. 11,                          ii. 2
-
-  iii. 17,                        ii. 138
-
-  iii. 19,                         i. 432
-
-  iii. 27,                         i. 550
-
-  iv. 21-31,                       ii. 51
-
-  iv. 22-31,                      ii. 168
-
-  iv. 25,                         ii. 188
-
-  iv. 26,                 i. 444; ii. 388
-
-  v. 6,                      ii. 342, 459
-
-  v. 17,              i. 534; ii. 55, 59,
-                            303, 441, 521
-
-  v. 19-21,                    ii. 3, 457
-
-  vi. 1,                       ii. 16, 56
-
-  vi. 2,                           ii. 56
-
-  vi. 3,                          ii. 172
-
-  vi. 4,                           i. 201
-
-
-                              EPHESIANS.
-
-  i. 4,                      ii. 185, 281
-
-  i. 18,                          ii. 539
-
-  i. 22, 23,                      ii. 512
-
-  iv. 9, 10,                      ii. 178
-
-  iv. 10-16,                      ii. 511
-
-  iv. 12,                         ii. 510
-
-  iv. 13,                         ii. 505
-
-  iv. 26,                          ii. 56
-
-  v. 8,                            i. 477
-
-  v. 14,                          ii. 368
-
-  v. 25,                           ii. 39
-
-  v. 28, 29,                       ii. 61
-
-  vi. 5,                           i. 383
-
-  vi. 20,                         ii. 172
-
-
-                              COLOSSIANS.
-
-  i. 12,                          ii. 358
-
-  i. 13,                          ii. 251
-
-  i. 24,                          ii. 511
-
-  ii. 8,                           i. 319
-
-  iii. 1,                    ii. 249, 368
-
-  iii. 1, 2,                      ii. 365
-
-  iii. 1-3,                       ii. 174
-
-  iii. 3,                         ii. 375
-
-
-                             PHILIPPIANS.
-
-  i. 3,                            ii. 17
-
-  i. 18,                          ii. 106
-
-  i. 23,                           ii. 11
-
-  ii. 7,                          ii. 192
-
-  ii. 8,                           ii. 29
-
-  ii. 12,                          ii. 12
-
-  ii. 21,                         ii. 365
-
-  iii. 7, 8,                      ii. 175
-
-  iii. 14,                         ii. 17
-
-  iii. 19,                        ii. 389
-
-  iii. 20,                        ii. 365
-
-  iv. 7,                          ii. 534
-
-
-                           1 THESSALONIANS.
-
-  iv. 4,                           ii. 31
-
-  iv. 13-16,                      ii. 384
-
-  iv. 16,                          i. 499
-
-  iv. 17,                         ii. 398
-
-  v. 5,                       i. 444, 479
-
-  v. 14, 15,                       ii. 56
-
-
-                           2 THESSALONIANS.
-
-  i. 9,                           ii. 288
-
-  ii. 1-11,                       ii. 381
-
-  ii. 8,                          ii. 371
-
-
-                              1 TIMOTHY.
-
-  i. 5,                            ii. 44
-
-  ii. 5,    i. 374; ii. 98, 183, 186, 280
-
-  ii. 14,                          ii. 24
-
-  iii. 1,                         ii. 329
-
-  v. 8,                           ii. 323
-
-  v. 20,                           ii. 56
-
-  vi. 6-10,                         i. 15
-
-  vi. 17-19,                        i. 16
-
-
-                              2 TIMOTHY.
-
-  ii. 9,                          ii. 172
-
-  ii. 19,               ii. 285, 359, 441
-
-  ii. 25, 26,                     ii. 452
-
-  iii. 2,                          ii. 11
-
-  iii. 7,                           i. 49
-
-  iii. 12,                        ii. 284
-
-  iii. 16,                        ii. 214
-
-  iv. 1,                          ii. 207
-
-
-                                TITUS.
-
-  i. 2, 3,                         i. 504
-
-  i. 8,                            ii. 10
-
-
-                               HEBREWS.
-
-  ii. 4,                          ii. 283
-
-  iv. 12,                         ii. 390
-
-  vii. 11-27,                     ii. 183
-
-  viii. 8,                        ii. 168
-
-  ix. 15,                         ii. 185
-
-  xi. 7,                          ii. 264
-
-  xi. 11,                         ii. 144
-
-  xi. 12,                         ii. 144
-
-  xi. 13-16,                      ii. 255
-
-  xi. 17-19,                      ii. 146
-
-  xii. 14,                         ii. 56
-
-  xiii. 2,                        ii. 144
-
-  xiii. 16,                        i. 389
-
-
-                                JAMES.
-
-  i. 2,                            ii. 16
-
-  i. 17,                           i. 460
-
-  ii. 13,               ii. 449, 464, 469
-
-  ii. 14,                         ii. 460
-
-  ii. 17,                         ii. 342
-
-  iv. 6,          i. 2, 478; ii. 175, 342
-
-
-                               1 PETER.
-
-  ii. 2,                          ii. 161
-
-  ii. 9,                     ii. 183, 269
-
-  iii. 4,                           i. 14
-
-  iii. 20, 21,                    ii. 264
-
-  iv. 5,                          ii. 207
-
-  v. 5,                         i. 2, 175
-
-  v. 6,                           ii. 342
-
-
-                               2 PETER.
-
-  ii. 4,              i. 477; ii. 93, 450
-
-  ii. 19,                 i. 138; ii. 324
-
-  iii. 3-13,                      ii. 380
-
-  iii. 6,                         ii. 396
-
-  iii. 8,                         ii. 356
-
-  iii. 10, 11,                    ii. 396
-
-
-                                1 JOHN.
-
-  i. 8,              ii. 16, 19, 379, 400
-
-  ii. 15,                          ii. 11
-
-  ii. 17,                         ii. 396
-
-  ii. 18, 19,                     ii. 381
-
-  ii. 19,                         ii. 362
-
-  iii. 2,                         ii. 535
-
-  iii. 8,                     i. 453, 454
-
-  iii. 9,                         ii. 393
-
-  iii. 12,                         ii. 58
-
-  iv. 7,                          ii. 176
-
-  iv. 18,                     ii. 19, 455
-
-
-                                 JUDE.
-
-  ver. 14,                        ii. 264
-
-
-                              REVELATION.
-
-  i. 4,                           ii. 173
-
-  iii. 1,                          i. 476
-
-  iii. 14,                         i. 476
-
-  xiv. 13,                        ii. 366
-
-  xv. 2,                          ii. 377
-
-  xx. 1-6,                        ii. 356
-
-  xx. 4,                          ii. 366
-
-  xx. 9, 10,                      ii. 360
-
-  xx. 10,               ii. 435, 450, 454
-
-  xxi. 1,                         ii. 377
-
-  xxi. 25,                        ii. 378
-
-
-
-
-                   II.--INDEX OF PRINCIPAL SUBJECTS.
-
-
-  Abel, the relation of, to Christ, ii. 82, 83. _See_ Cain.
-
-  Abraham, the era in the life of, from which a new succession begins,
-          i. 124;
-    time of the migration of, 127, etc.;
-    the order and nature of God's promises to, 129, etc.;
-    the three great kingdoms existing at the time of the birth of, 130,
-          131;
-    the repeated promises of the land of Canaan made to, and to his
-          seed, 131;
-    his denial of his wife in Egypt, 132;
-    the parting of Lot and, 132, 133;
-    the third promise of the land to, 133;
-    his victory over the kings, 134;
-    the promise made to, of a large posterity, 135;
-    the sacrifices offered by, when the covenant was renewed with, 136;
-    the seed of, to be in bondage 400 years, 138;
-    Sarah gives Hagar to, 139;
-    the promise of a son given to,--receives the seal of circumcision,
-          140;
-    change of the name of, 143;
-    visit of three angels to, 144;
-    his denial of his wife in Gerar, 146;
-    birth of his son Isaac, 147;
-    his offering up of Isaac, 147;
-    death of his wife Sarah, 149;
-    what is meant by marrying Keturah after Sarah's death? 150;
-    the time of the fulfilment of the promise made to, respecting
-          Canaan, 166.
-
-  Abyss, casting Satan into the, ii. 358.
-
-  Achior, his answer to Holofernes' inquiry respecting the Jews, ii.
-          126.
-
-  Adam forsook God before God forsook him, i. 535;
-    in Paradise;
-    his temptation and fall, ii. 22, etc.;
-    nature of his first sin, 25;
-    an evil will preceded his evil act, 25, 26;
-    the pride involved in the sin of, 28;
-    the justice of the punishment of, 28, etc.;
-    the nakedness of, seen after his base sin, 32;
-    the fearful consequences of the sin of, i. 515, 521, ii. 1, 2.
-
-  Æneas, i. 94;
-    time of the arrival of, in Italy, ii. 238.
-
-  Æsculanus, the god, i. 159.
-
-  Æsculapius, sent for to Epidaurus by the Romans, i. 115, 116;
-    a deified man, 349.
-
-  Affections of the soul, right or wrong according to their direction,
-          ii. 10, 12, 15.
-
-  Africa, a fearful visitation of, by locusts, i. 134.
-
-  Ages of ages, i. 508, etc.
-
-  Αἰώνιον, ii. 141.
-
-  Albans, the wickedness of the war waged by the Romans against, i. 105.
-
-  Alcimus, ii. 276.
-
-  Alexander the Great, the apt reply of a pirate to, i. 140;
-    and Leo, an Egyptian priest,--a letter of, to his mother Olympias,
-          i. 313, 351;
-    invades Judea, ii. 275.
-
-  Alexandra, queen of the Jews, ii. 276.
-
-  Alms-deeds, of those who think that they will free evil-doers from
-          damnation in the day of judgment, ii. 449, 464.
-
-  Altor, i. 288.
-
-  Alypius, ii. 485.
-
-  _Amor_ and _dilectio_, how used in Scripture, ii. 10, etc.
-
-  Amulius and Numitor, ii. 240, 241.
-
-  Anaxagoras, i. 308;
-    ii. 268.
-
-  Anaximander, i. 307.
-
-  Anaximenes, i. 308.
-
-  'Ancient compassions, Thine,' sworn unto David, ii. 195, etc.
-
-  Andromache, i. 104.
-
-  Anebo, Porphyry's letter to, i. 397, etc.
-
-  Angels, the holy things common to men and, i. 347, etc.;
-    not mediators, 370;
-    the difference between the knowledge of, and that of demons, 377;
-    the love of, which prompts them to desire that we should worship
-          God alone, 392;
-    miracles wrought by the ministry of, for the confirmation of the
-          faith, 392, etc., 400, etc.;
-    the ministry of, to fulfil the providence of God, 403;
-    those who seek worship for themselves, and those who seek honour
-          for God, which to be trusted about life eternal, 404;
-    rather to be imitated than invoked, 418;
-    the creation of, 445, etc.;
-    whether those who fell partook of the blessedness of the unfallen,
-          450;
-    were those who fell aware that they would fall? 452;
-    were the unfallen assured of their own perseverance? 452, 453;
-    the separation of the unfallen from the fallen, meant by the
-          separation of the light from the darkness, 458;
-    approbation of the good, signified by the words, 'God saw the light
-          that it was good,' 459;
-    the knowledge by which they know God in His essence, and perceive
-          the causes of His works, 473;
-    of the opinion that they were created before the world, 476;
-    the two different and dissimilar communities of, 477, etc.;
-    the idea that angels are meant by the separation of the waters by
-          the firmament, 479;
-    the nature of good and bad, one and the same, 481;
-    the cause of the blessedness of the good, and of the misery of the
-          bad, 487;
-    did they receive their good-will as well as their nature from God?
-          491;
-    whether they can be said to be creators of any creatures, 516;
-    the opinion of the Platonists that man's body was created by, 518;
-    the wickedness of those who sinned did not disturb the order of
-          God's providence, ii. 46;
-    the 'sons of God' of the 6th chapter of Genesis not, 92, etc.;
-    what we are to understand by God's speaking to, 114;
-    the three, which appeared to Abraham, 144;
-    Lot delivered by, 146;
-    the creation of, 472.
-
-  Anger of God, the, ii. 97, etc., 454.
-
-  Animals, the dispersion of those preserved in the ark, after the
-          deluge, ii. 115, etc.
-
-  Animals, rational, are they part of God? i. 151.
-
-  Antediluvians, the long life and great stature of, ii. 63, etc.;
-    the different computation of the ages of, given by the Hebrew and
-          other MSS. of the Old Testament, 65, etc.;
-    the opinion of those who believe they did not live so long as is
-          stated, considered, 68;
-    was the age of puberty later among, than it is now? 75, etc.
-
-  Antichrist, the time of the last persecution by, hidden, ii. 288, etc;
-    whether the time of the persecution by, is included in the thousand
-          years, 371;
-    the manifestation of, preceding the day of the Lord, 381, etc.;
-    Daniel's predictions respecting the persecution caused by, 393, etc.
-
-  Antiochus of Syria, ii. 275.
-
-  Antipater, ii. 276, 277.
-
-  Antipodes, the idea of, absurd, ii. 118.
-
-  Antiquities, Varro's book respecting human and divine, i. 234, 235.
-
-  Antiquity of the world, the alleged, i. 494, etc.
-
-  Antisthenes, ii. 268.
-
-  Antithesis, i. 457.
-
-  Antoninus, quoted, i. 18.
-
-  Antony, i. 132.
-
-  Apis, and Serapis, the alleged change of name;
-    worshipped, ii. 222, 223.
-
-  Apocryphal Scriptures, ii. 95.
-
-  Apollo and Diana, i. 279.
-
-  Apollo, the weeping statue of, i. 101.
-
-  Apostles, the, whence chosen, ii. 282.
-
-  Apples of Sodom, the, ii. 421.
-
-  Apuleius, referred to, or quoted, i. 56, 137, 324;
-    his book _concerning the God of Socrates_, 326;
-    his definition of man, 329;
-    what he attributes to demons, to whom he ascribes no virtue, 354,
-          355;
-    on the passions which agitate demons, 360;
-    maintains that the poets wrong the gods, 361;
-    his definition of gods and men, 362;
-    the error of, in respect to demons, 419, etc.
-
-  Aquila, the translator, ii. 95, and note.
-
-  Archelaus, i. 308.
-
-  Areopagus, the, ii. 227.
-
-  Argos, the kings of, ii. 222, 223;
-    the fall of the kingdom of, 233.
-
-  Argus, King, ii. 223, 224.
-
-  Aristippus, ii. 268.
-
-  Aristobulus, ii. 276.
-
-  Aristotle, and Plato, i. 323.
-
-  Ark, the, of Noah, a figure of Christ and of His Church, ii. 98, etc.;
-    and the deluge, the literal and allegorical interpretation of, 100;
-    the capacity of, 101;
-    what sort of creatures entered, 101, 102;
-    how the creatures entered, 102;
-    the food required by the creatures in, 102, 103;
-    whether the remotest islands received their _fauna_ from the
-          animals preserved in, 115, etc.
-
-  Ark of the covenant, the, i. 407.
-
-  Art of making gods, the invention of the, i. 343.
-
-  Asbestos, ii. 421.
-
-  Assyrian empire, the, ii. 219;
-    close of, 240.
-
-  Athenians, the, ii. 219.
-
-  Athens, the founding of, and reason of the name, ii. 226.
-
-  Atlas, ii. 224.
-
-  Atys, the interpretation of the mutilation of, i. 291, 292.
-
-  Audians, i. 479, and note.
-
-  Augury, the influence of, i. 162, 168, 169.
-
-  Augustus Cæsar, i. 132.
-
-  Aulus Gellius, the story he relates in the _Noctes Atticæ_ of the
-          Stoic philosopher in a storm at sea, i. 356, 357.
-
-  Aurelius, Bishop, ii. 487.
-
-  Aventinus, king of Latium, deified, ii. 240, 241.
-
-
-  Babylon, the founding of, ii. 111, etc.;
-    meaning of the word, 112, 269.
-
-  _Bacchanalia_, the, ii. 232.
-
-  Baptism, the confession of Christ has the same efficacy as, i. 527,
-          528, 544;
-    of those who think that Catholic, will free from damnation, ii.
-          447, etc., 457, etc.;
-    other references to, 489, 490.
-
-  Barbarians, the, in the sack of Rome, spared those who had taken
-          refuge in Christian churches, i. 2.
-
-  "Barren, the, hath born seven," ii. 173, 174.
-
-  Bassus, the daughter of, restored to life by a dress from the shrine
-          of St. Stephen, ii. 494.
-
-  Bathanarius, count of Africa, and his magnet, ii. 420.
-
-  Beast, the, and his image, ii. 366, 367.
-
-  Beatific vision, the nature of, considered, ii. 534-540.
-
-  Beauty of the universe, the, i. 457.
-
-  "Beginning, in the," i. 476.
-
-  Berecynthia, i. 52, and note.
-
-  Binding the devil, ii. 357.
-
-  Birds, the, offered by Abraham, not to be divided,--import of this,
-          ii. 137.
-
-  Birds, the, of Diomede, ii. 234, 238.
-
-  Blessed life, the, not to be obtained by the intercession of demons,
-          but of Christ alone, i. 374.
-
-  Blessedness, the, of the righteous in this life compared with that of
-          our first parents in Paradise, i. 451;
-    of good angels,--its cause, 487, etc.;
-    the true, ii. 43;
-    eternal, the promise of, 475.
-
-  Blessings, the, with which the Creator has filled this life, although
-          it is obnoxious to the curse, ii. 522-529.
-
-  Boasting, Christians ought to be free from, i. 209.
-
-  Bodies, earthly, refutation of those who affirm that they cannot be
-          made incorruptible and eternal, i. 538;
-    refutation of those who hold that they cannot be in heavenly
-          places, 540, etc.;
-    of the saints, after the resurrection, in what sense spiritual, 546;
-    the animal and spiritual, 547-551;
-    can they last for ever in burning fire? ii. 414-418;
-    against the wise men who deny that they can be transferred to
-          heavenly habitations, 476;
-    the Platonists refuted, who argue that they cannot inhabit heaven,
-          501;
-    all blemishes shall be removed from the resurrection bodies, the
-          substance of, remaining, 572;
-    the substance of, however they may have been disintegrated, shall
-          in the resurrection be reunited, 515;
-    the opinion of Porphyry, that souls must be wholly released from,
-          in order to be happy, exploded by Plato, 531.
-
-  Body, the, sanctity of, not polluted by the violence done to it by
-          another's lust, i. 26, 27;
-    the Platonic and Manichæan idea of, ii. 8, etc.;
-    the new spiritual, 516;
-    obviously meant to be the habitation of a reasonable soul, 526.
-
-  Body, the, of Christ, against those who think that the participation
-          of, will save from damnation, ii. 447, 448.
-
-  Body of Christ, the Church the, ii. 511.
-
-  Books opened, the, ii. 374.
-
-  Bread, they that were full of,--who? ii. 173.
-
-  Breathing, the, of God, when man was made a living soul, distinguished
-          from the breathing of Christ on His disciples, i. 551.
-
-  Brutus, Junius, his unjust treatment of Tarquinius Collatinus, i. 68,
-          111, 112;
-    kills his own son, 210.
-
-  Bull, the sacred, of Egypt, ii. 223.
-
-  Burial, the denial of, to Christians, no hurt to them, i. 19;
-    the reason of, in the case of Christians, 20, etc.
-
-  Busiris, ii. 230.
-
-
-  Cæsar, Augustus, i. 132.
-
-  Cæsar, Julius, the statement of, respecting an enemy when sacking a
-          city, i. 7, etc.;
-    claims to be descended from Venus, 94;
-    assassination of, 132.
-
-  Cain, and Abel, belonged respectively to the two cities, the earthly
-          and the heavenly, ii. 50;
-    the fratricidal act of the former corresponding with the crime of
-          the founder of Rome, 54, etc.;
-    cause of the crime of,--God's expostulation with,--exposition of
-          the viciousness of his offering, 57-61;
-    his reason for building a city so early in the history of the human
-          race, 61, etc.;
-    and Seth, the heads of the two cities, the earthly and heavenly, 81;
-    why the line of, terminates in the eighth generation from Adam,
-          84-89;
-    why the genealogy of, is continued to the deluge, while after the
-          mention of Enos the narrative returns to the creation, 89,
-          etc.
-
-  Cakus (κακός), the giant, ii. 317.
-
-  Camillus, Furius, the vile treatment of, by the Romans, i. 68, 115,
-          211.
-
-  Canaan, the land of, the time of the fulfilment of God's promise of,
-          to Abraham, ii. 166.
-
-  Canaan, and Noah, ii. 106.
-
-  Candelabrum, a particular, in a temple of Venus, ii. 423, 424.
-
-  Cannæ, the battle of, i. 121.
-
-  Canon, the ecclesiastical, has excluded certain writings, on account
-          of their great antiquity, ii. 264, 265.
-
-  Canonical Scriptures, the, i. 438, ii. 263;
-    the concord of, in contrast with the discordance of philosophical
-          opinion, 267, 268.
-
-  Cappadocia, the mares of, ii. 422.
-
-  Captivity of the Jews, the, the end of, ii. 246.
-
-  Captivity, the, of the saints, consolation in, i. 22.
-
-  Carnal life, the, ii. 2, etc.
-
-  Carthaginians, the, their treatment of Regulus, i. 23.
-
-  Cataline, i. 80.
-
-  Catholic truth, the, confirmed by the dissensions of heretics, ii.
-          283-285.
-
-  Cato, what are we to think of his conduct in committing suicide? i.
-          34;
-    excelled by Regulus, 35;
-    his virtue, 202;
-    was his suicide fortitude or weakness? ii. 305.
-
-  Catosus, the cook, ii. 492.
-
-  Cecrops, ii. 224, 226.
-
-  Ceres, i. 279;
-    the rites of, 283.
-
-  Chæremon, cited by Porphyry in relation to the mysteries of Isis and
-          Osiris, i. 399.
-
-  Chaldæan, a certain, quoted by Porphyry as complaining of the
-          obstacles experienced from another man's influence with the
-          gods to his efforts at self-purification, i. 395, 396.
-
-  Charcoal, the peculiar properties of, ii. 418.
-
-  Chariots, the, of God, ii. 389.
-
-  Charity, the efficacy of, ii. 466.
-
-  Chickens, the sacred, and the treaty of Numantia, i. 124.
-
-  Children of the flesh, and children of promise, ii. 51.
-
-  Chiliasts, the, ii. 357.
-
-  Christ, the preserving power of the name of, in the sack of Rome, i.
-          2, etc., 9, etc.;
-    the mystery of the redemption of, at no past time awanting, but
-          declared in various forms, 299, etc.;
-    the incarnation of, 414;
-    faith in the incarnation of, alone justifies, 416;
-    the true Wisdom, but Porphyry fails to recognise, 422, 423;
-    the Platonists blush to acknowledge the incarnation of, 423, etc.;
-    the grace of, opens a way for the soul's deliverance, 430, etc.;
-    the knowledge of God attained only through, 437, etc.;
-    possessed true human emotions, ii. 17, etc.;
-    the passion of, typified by Noah's nakedness, 106;
-    described in the 45th Psalm, 201-204;
-    the priesthood and passion of, described in the 110th and 122d
-          Psalms, 204;
-    the resurrection of, predicted in the Psalms, 205;
-    the passion of, foretold in the Book of Wisdom, 209;
-    the birth of, 277;
-    the birth and death of, 290, 291;
-    Porphyry's account of the responses of the oracles respecting, 334,
-          etc.;
-    the world to be judged by, 406, etc.;
-    the one Son of God by nature, 441;
-    the Foundation, 460;
-    the world's belief in, the result of divine power, 483;
-    the measure of the stature of, 508;
-    the Perfect Man, and His Body, 511;
-    the body of, after His resurrection, 514;
-    the grace of, alone delivers us from the misery caused by the first
-          sin, 520, 521.
-
-  Christian faith, the certainty of, ii. 328.
-
-  Christian religion, the, health-giving, i. 88;
-    alone, revealed the malignity of evil spirits, 300;
-    the length it is to last foolishly and lyingly fixed by the
-          heathen, ii. 289-292.
-
-  Christianity, the calamities of Rome attributed to, by the heathen,
-          i. 23, 50, 51;
-    the effrontery of such an imputation to, 132.
-
-  Christians, why they are permitted to suffer evils from their
-          enemies, i. 39;
-    the reply of, to those who reproach them with suffering, 41;
-    ought to be far from boasting, 209;
-    the God whom they serve, the true God, to whom alone sacrifice
-          ought to be offered, ii. 333, etc.
-
-  Chronology, the enormously long, of heathen writers, i. 494, 495, 496;
-    the discrepancy in that of the Hebrew and other MSS. in relation to
-          the lives of the antediluvians, ii. 65, etc.
-
-  Church, the sons of the, often hidden among the wicked, and false
-          Christians within the, i. 46;
-    the indiscriminate increase of, ii. 281, 282, 283;
-    the endless glory of, 377, etc.;
-    the body of Christ, 511, etc.
-
-  Cicero, his opinion of the Roman republic, i. 74;
-    on the miseries of this life, 302;
-    his definition of a republic,--was there ever a Roman republic
-          answering to it? 330, 331;
-    variously quoted, 57, 58, 62, 63, 87, 109, 117, 129, 165, 170, 171,
-          173, 205, 256, 511, ii. 480, 482.
-
-  Cincinnatus, Quintus, i. 213.
-
-  Circe, ii. 235, 237.
-
-  Circumcision, instituted, ii. 141;
-    the punishment of the male who had not received, 141, 142.
-
-  City, the celestial, i. 207.
-
-  City of God, the, i. 418;
-    the origin of, and of the opposing city, 436;
-    nature of, and of the earthly, ii. 47;
-    Abel the founder of, and Cain of the earthly, 50;
-    the citizens of, and of the earthly, 51;
-    the weakness of the citizens of, during their earthly pilgrimage,
-          56;
-    and the earthly, compared and contrasted, 292;
-    what produces peace, and what discord, between, and the earthly,
-          326, etc.;
-    the eternal felicity of, 540-545.
-
-  Claudian, the poet, quoted, i. 225.
-
-  Cœlestis, i. 52, and note;
-    the mysteries of, 86.
-
-  Collatinus, Tarquinius, the vile treatment of, by Junius Brutus, i.
-          68, 111, etc.
-
-  Concord, the temple of, erected, i. 126;
-    the wars which followed the building of, 128, etc.
-
-  Confession of Christ, the efficacy of, for the remission of sins, i.
-          527.
-
-  Conflagration of the world, the, ii. 377;
-    where shall the saints be during? 380.
-
-  Confusion of tongues, the, ii. 111, etc.;
-    God's coming down to cause, 113, etc.
-
-  Conjugal union, the, as instituted and blessed by God, ii. 38.
-
-  Constantine, i. 219, etc.;
-    the prosperity granted to, by God, 223, etc.
-
-  Consuls, the first Roman, their fate, ii. 111, etc.
-
-  Corn, the gods which were supposed to preside over, at the various
-          stages of its growth, gathering in, etc., i. 144.
-
-  Creation, i. 439, 443;
-    the reason and cause of, 461, 462;
-    the beauty and goodness of, ii. 258.
-
-  Creation, the, of angels, i. 445;
-    of the human race in time, 500;
-    of both angels and men, ii. 472, etc.
-
-  Creator, the, is distinguished from His works by piety, i. 297, etc.;
-    sin had not its origin in, 456.
-
-  Creatures, the, to be estimated by their utility, i. 455.
-
-  Cumæan Sibyl, the, i. 421.
-
-  Curiatii and Horatii, the, i. 105.
-
-  Curtius leaps into the gulf in the Forum, i. 211.
-
-  Curubis, a comedian, miraculously healed, ii. 490.
-
-  Cybele, i. 52, 53;
-    the priests of, 56.
-
-  Cycles of time maintained by some, i. 498, 505, etc., 511, 513.
-
-  Cynics, the foolish beastliness of the, ii. 36;
-    further referred to, 297.
-
-  Cynocephalus, i. 65.
-
-
-  Damned, the punishment of the, ii. 432.
-
-  Danäe, ii. 232.
-
-  Darkness, the, when the Lord was crucified, i. 108, 109.
-
-  David, the promise made to, in his Son;
-    Nathan's message to, ii. 189, etc., 193, etc.;
-    God's "ancient compassions" sworn to, 195, etc., 198;
-    his concern in writing the Psalms, 199;
-    his reign and merit, 209.
-
-  Day, the seventh, the meaning of God's resting on, i. 444.
-
-  Days, the first, i. 443.
-
-  Days, lucky and unlucky, i. 186, 187.
-
-  "Days of the tree of life," the, ii. 402.
-
-  Dead, the, given up to judgment by the sea, death, and hell, ii. 375.
-
-  Dead, prayers for the, ii. 453.
-
-  Dead men, the religion of the pagans has reference to, i. 347.
-
-  Death, caused by the fall of man, i. 521;
-    that which can affect an immortal soul, and that to which the body
-          is subject, 521, 522;
-    is it the punishment of sin, even in case of the good? 522-524;
-    why, if it is the punishment of sin, is it not withheld from the
-          regenerate? 524;
-    although an evil, yet made a good to the good, 525;
-    the evil of, as the separation of soul and body, 526;
-    that which the unbaptized suffer for the confession of Christ,
-          527, etc.;
-    the saints, by suffering the first, are freed from the second, 528;
-    the moment of, when it actually occurs, 528, 529;
-    the life which mortals claim may be fitly called, 529, 530;
-    whether one can be living and yet in the state of, at the same
-          time, 531;
-    what kind of, involved in the threatenings addressed to our first
-          parents, 533;
-    concerning those philosophers who think it is not penal, 536;
-    the second, ii. 343, etc.
-
-  Death, when it may be inflicted without committing murder, i. 32.
-
-  Deborah, ii. 233.
-
-  "Debts, forgive us our," ii. 467, 468.
-
-  Decii, the, ii. 212.
-
-  Deliverance, the way of the soul's, which grace throws open, i. 430.
-
-  Demænetus, ii. 235.
-
-  Demon of Socrates, the, Apuleius on, i. 326, 327.
-
-  Demoniacal possessions, ii. 303.
-
-  Demonolatry, illicit acts connected with, i. 394.
-
-  Demons, the vicissitudes of life, not dependent on, i. 79;
-    look after their own ends only, 82;
-    incite to crime by the pretence of divine authority, 83;
-    give certain obscure instructions in morals, while their own
-          solemnities publicly inculcate wickedness, 85, etc.;
-    what they are, 326;
-    not better than men because of their having aerial bodies, 327,
-          etc.;
-    what Apuleius thought concerning the manners and actions of, 329,
-          etc.;
-    is it proper to worship? 331, etc.;
-    ought the advocacy of, with the gods, to be employed? 332, 334;
-    are the good gods more willing to have intercourse with, than with
-          men? 335;
-    do the gods use them as messengers, or interpreters, or are they
-          deceived by? 335, etc.;
-    we must reject the worship of, 338;
-    are there any good, to whom the guardianship of the soul may be
-          committed? 354;
-    what Apuleius attributes to, 354, 355;
-    the passions which agitate, 360;
-    does the intercession of, obtain for men the favour of the
-          celestial gods? 363;
-    men, according to Plotinus, less wretched than, 364;
-    the opinion of the Platonists that the souls of men become, 365;
-    the three opposite qualities by which the Platonists distinguish
-          between the nature of man, and that of, 365, 366;
-    how can they mediate between gods and men, having nothing in common
-          with either? 366;
-    the Platonist idea of the necessity of the mediation of, 371;
-    mean, by their intercession, to turn man from the path of truth,
-          375;
-    the name has never a good signification, 375;
-    the kind of knowledge which puffs up the, 376;
-    to what extent the Lord was pleased to make Himself known to, 376,
-          377;
-    the difference between the knowledge possessed by, and that of the
-          holy angels, 377;
-    the power delegated to, for the trial of the saints, 411;
-    where the saints obtain power against, 412;
-    seek to be worshipped, 419;
-    error of Apuleius in regard to, 419, etc.;
-    strange transformations of men, said to have been wrought by, ii.
-          235, 238;
-    the friendship of good angels in this life, rendered insecure by
-          the deception of, 313, etc.
-
-  Demons, various other references to, i. 174, 222, 223, 281, 288, 301,
-          302, 303, 304, 305, 312, 326, 327, 345, 370, 411, 420,
-          ii. 223, 289, 347.
-
-  "Desired One, the," of all nations, ii. 275.
-
-  Deucalion's flood, ii. 228.
-
-  Devil, the, how he abode not in the truth, i. 454;
-    how is it said that he sinned from the beginning? 454, 455;
-    the reason of the fall of (the wicked angel), ii. 46, 47;
-    stirs up persecution, 284;
-    the nature of, _as nature_, not evil, 320, 321;
-    the binding of, 357;
-    cast into the abyss, 358;
-    seducing the nations, 359;
-    the binding and loosing of, 360, etc.;
-    stirs up Gog and Magog against the Church, 369, etc.;
-    the damnation of, 373;
-    of those who deny the eternal punishment of, 450.
-
-  Devil, a young man freed from a, at the monument of Protasius and
-          Gervasius, ii. 491;
-    a young woman freed from a, by anointing, 492.
-
-  Devils, marvels wrought by, ii. 424.
-
-  Diamond, the, the peculiar properties of, ii. 419.
-
-  Diana, and Apollo, i. 279.
-
-  Dictator, the first, i. 116.
-
-  Diomede and his companions, who were changed into birds, ii. 234, 238.
-
-  Dis, i. 279, 288, 296.
-
-  Discord, why not a goddess as well as Concord? i. 127.
-
-  Divination, i. 302.
-
-  Doctor, a gouty, of Carthage, miraculously healed, ii. 489.
-
-  Duration and space, infinite, not to be comprehended, i. 441.
-
-
-  Earth, the, affirmed by Varro to be a goddess,--reason of his
-          opinion, i. 286.
-
-  "Earth, in the midst of the," ii. 176, 177, 178.
-
-  Earth, holy, from Jerusalem, the efficacy of, ii. 490, 491.
-
-  Ecclesiasticus and Wisdom, the Books of, ii. 209.
-
-  Eclipses, i. 108, 109.
-
-  Education, the divine, of mankind, i. 402.
-
-  Egeria, the nymph, and Numa, i. 303.
-
-  Egypt, a fig-tree of a peculiar kind found in, ii. 421.
-
-  Egyptians, the mendacity of, in ascribing an extravagant antiquity to
-          their science, ii. 266, 267.
-
-  Eleusinian rites of Ceres, the, i. 283.
-
-  Eleven, the significance of the number, ii. 88.
-
-  Eli, the message of the man of God to, ii. 179-183.
-
-  Elias, the coming of, before the judgment, ii. 405.
-
-  Elisha and Gehazi, ii. 536, 537.
-
-  Emotions, mental, opinions of the Peripatetics and Stoics respecting,
-          i. 355, 356.
-
-  Emotions and affections, good and bad, ii. 10, 12, 15.
-
-  Emperors, the Christian, the happiness of, i. 222, etc.
-
-  Empire, a great, acquired by war,--is it to be reckoned among good
-          things? i. 138;
-    should good men wish to rule an extensive? 152, 153, 154.
-
-  Empire, the Roman. _See_ Roman Empire.
-
-  Enemies of God, the, are not so by nature, but by will, i. 484.
-
-  Enlightenment from above, Plotinus respecting, i. 385.
-
-  Enoch, the seventh from Adam, the significance of the translation of,
-          ii. 84;
-    left some divine writings, 96.
-
-  Enoch, the son of Cain, ii. 81.
-
-  Enos, the son of Seth, ii. 81;
-    a type of Christ, 82-84.
-
-  Entity, none contrary to the divine, i. 483.
-
-  Epictetus, quoted on mental emotions, i. 357.
-
-  Ericthonius, ii. 230.
-
-  Errors, the, of the human judgment, when the truth is hidden, ii.
-          209, etc.
-
-  Erythræan Sibyl, the, her predictions of Christ, ii. 242.
-
-  Esau and Jacob, the dissimilarity of the character and actions of,
-          i. 182;
-    the things mystically prefigured by, ii. 153, etc.
-
-  Esdras and Maccabees, the Books of, ii. 262.
-
-  Eternal life, the gift of God, i. 257;
-    the promise of, uttered before eternal times, 504.
-
-  Eternal punishment, ii. 433.
-    _See_ Punishment.
-
-  Eucharius, a Spanish bishop, cured of stone by the relics of St.
-          Stephen, ii. 493.
-
-  _Eudemons_, i. 365, 368.
-
-  Εὐσέβεια, i. 384.
-
-  Evil, no natural, i. 461.
-
-  Evil will, a, no efficient cause of, i. 490.
-
-  Existence, and knowledge of it, and love of both, i. 469, etc., 471,
-          etc.
-
-  Eye, the, of the resurrection body, the power of, ii. 537.
-
-
-  Fables invented by the heathen in the times of the judges of Israel,
-          ii. 231.
-
-  Fabricius and Pyrrhus, i. 213.
-
-  Faith, justification by, i. 416, etc.
-
-  Faith and Virtue, honoured by the Romans with temples, i. 156, 157.
-
-  Fall of man, the, and its results, foreknown by God, i. 514;
-    mortality contracted by, 521;
-    the second death results from, ii. 1;
-    the nature of, 22, etc., 25, etc.
-
-  Fate, i. 178;
-    the name misapplied by some when they use it of the divine will,
-          189.
-
-  Fathers, the two, of the two cities, sprung from one progenitor, ii.
-          81.
-
-  Fear and Dread, made gods, i. 161.
-
-  Felicity, the gift of God, i. 257;
-    the eternal, of the city of God, ii. 540-545.
-
-  Felicity, the goddess of, i. 155;
-    the Romans ought to have been content, with Virtue and, 157, 158;
-    for a long time not worshipped by the Romans; her deserts, 161,
-          162, 163.
-
-  Fever, worshipped as a deity, i. 65 and note, 102.
-
-  Fig-tree, a singular, of Egypt, ii. 421.
-
-  Fimbria, the destruction of Ilium by, i. 96, 97.
-
-  Fire, the peculiar properties of, ii. 418.
-
-  Fire, the, whirlwind, and the sword, ii. 389.
-
-  Fire, saved so as by, ii. 460.
-
-  Fire, the, which comes down from heaven to consume the enemies of the
-          holy city, ii. 370.
-
-  Fire, the, and the worm that dieth not, ii. 433;
-    of hell,--is it material? and if it be so, can it burn wicked
-          spirits? 434, etc.
-
-  First man (our first parents), the, the plenitude of the human race
-          contained in, i. 519;
-    the fall of, 521;
-    what was the first punishment of? 534;
-    the state in which he was made, and that into which he fell, 534,
-          535;
-    forsook God, before God forsook him, 535;
-    effects of the sin of,--the second death, ii. 1, etc.;
-    was he, before the fall, free from perturbations of soul? 20;
-    the temptation and fall of, 22-25;
-    nature of the first sin of, 25;
-    the pride of the sin of, 28;
-    justice of the punishment of, 28-31;
-    the nakedness of, 32;
-    the transgression of, did not abolish the blessing of fecundity, 37;
-    begat offspring in Paradise without blushing, 44-46.
-
-  First parents, our. _See_ First Man.
-
-  First principles of all things, the, according to the ancient
-          philosophy, i. 313.
-
-  First sin, the nature of the, ii. 25.
-
-  Flaccianus, ii. 242.
-
-  Flesh, the, of believers, the resurrection of, i. 544;
-    the world at large believes in the resurrection of [_see_
-          Resurrection], ii. 477;
-    of a dead man, which has become the flesh of a living man,--whose
-          shall it be in the resurrection? 515.
-
-  Flesh, living after the, ii. 2, etc., 4, etc., 6, etc.;
-    children of the, and of the promise, 51.
-
-  Florentius, the tailor, how he prayed for a coat, and got it, ii. 492.
-
-  Foreknowledge, the, of God, and the free-will of man, i. 190, etc.
-
-  Forgiveness of debts, prayed for, ii. 467, 468.
-
-  Fortitude, ii. 304, 305.
-
-  Fortune, the goddess of, i. 155, 263.
-
-  Foundation, the, the opinion of those who think that even depraved
-          Catholics will be saved from damnation on account of,
-          considered, ii. 448, etc., 460, etc.;
-    who has Christ for? 460, 461.
-
-  Fountain, the singular, of the Garamantæ, ii. 421.
-
-  Free-will of man, the, and the foreknowledge of God, i. 190, etc.
-
-  Free-will, in the state of perfect felicity, ii. 542.
-
-  Friendship, the, of good men, anxieties connected with, ii. 311;
-    of good angels, rendered insecure by the deceit of demons, 313, etc.
-
-  Fruit, i. 467.
-
-  _Fugalia_, the, i. 54, 55.
-
-  Furnace, a smoking, and a lamp of fire passing between the pieces of
-          Abraham's sacrifice, the import of, ii. 139.
-
-
-  Galli, the, i. 56, and note, 289, 290.
-
-  Games, restored in Rome during the first Punic war, i. 118.
-
-  Ganymede, ii. 232.
-
-  Garamantæ, the singular fountain of the, ii. 421.
-
-  Gauls, the, Rome invaded by, i. 115, 116.
-
-  Gehazi and Elisha, ii. 536, 537.
-
-  Generation, would there have been, in Paradise if man had not sinned?
-          ii. 39, etc., 41, etc.
-
-  Genius, and Saturn, both shown to be really Jupiter, i. 275, etc.
-
-  Giants, the offspring of the sons of God and daughters of men,--and
-          other, ii. 93, etc., 96.
-
-  Glory, the difference between, and the desire of dominion, i. 215;
-    shameful to make the virtues serve human, 217;
-    the, of the latter house, ii. 280, 281;
-    the endless, of the Church, 377, etc.
-
-  God, the vicissitudes of life dependent on the will of, i. 79, etc.;
-    not the soul of the world, 151;
-    rational animals not parts of, 151, 152;
-    THE ONE, to be worshipped, although His name is unknown, the giver
-          of felicity, 164, 165;
-    the times of kings and kingdoms ordered by, 175;
-    the kingdom of the Jews founded by, 175;
-    the foreknowledge of, and the free-will of man, 190, etc.;
-    the providence of, 198, etc., 403;
-    all the glory of the righteous is in, 205;
-    what He gives to the followers of truth to enjoy above His general
-          bounties, 199;
-    the worship of, 383, 384, 386;
-    the sacrifices due to Him only, 387, etc.;
-    the sacrifices not required, but enjoined by, for the exhibition of
-          truth, 388;
-    the true and perfect sacrifice due to, 390, etc.;
-    invisible, yet has often made Himself visible, 401, etc.;
-    our dependence for temporal good, 402;
-    angels fulfil the providence of, 403, 404;
-    sin had not its origin in, 457;
-    the eternal knowledge, will, and design of, 459, etc.;
-    has He been always sovereign Lord, and has He always had creatures
-          over whom He exercised His sovereignty? 501, etc.;
-    His promise of eternal life uttered before eternal times, 504;
-    the unchangeable counsel and will of, defended against objections,
-          505;
-    refutation of the opinion that His knowledge cannot comprehend
-          things infinite, 507;
-    the fall of man foreknown by, 514;
-    the Creator of every kind of creature, 516;
-    the providence of, not disturbed by the wickedness of angels or of
-          men, ii. 46;
-    the anger of, 97, etc., 454;
-    the coming down of, to confound the language of the builders of
-          Babel, 113, etc.;
-    whether the, of the Christians is the true, to whom alone sacrifice
-          ought to be paid, 333, etc.;
-    the will of, unchangeable and eternal, 474.
-
-  Gods, the, cities never spared on account of, i. 3, etc.;
-    folly of the Romans in trusting, 4, etc.;
-    the worshippers of, never received healthy precepts from,--the
-          impurity of the worship of, 51;
-    obscenities practised in honour of the Mother of the, 53;
-    never inculcated holiness of life, 55;
-    the shameful actions of, as displayed in theatrical exhibitions, 57;
-    the reason why they suffered false or real crimes to be attributed
-          to them, 59;
-    the Romans showed a more delicate regard for themselves than for
-          the, 61;
-    the Romans should have considered those who desired to be worshipped
-          in a licentious manner as unworthy of being honoured as, 62;
-    Plato better than, 63;
-    if they had any regard for Rome, the Romans should have received
-          good laws from them, 66;
-    took no means to prevent the republic from being ruined by
-          immorality, 77, etc.;
-    the vicissitudes of life not dependent on, 79, etc.;
-    incite to evil actions, 83, etc.;
-    give secret and obscure instructions in morals, while their
-          solemnities publicly incite to wickedness, 85;
-    the obscenities of the plays consecrated to, contributed to
-          overthrow the republic, 87;
-    the evils which alone the pagans feared, not averted by, 91, etc.;
-    were they justified in permitting the destruction of Troy? 92;
-    could not be offended at the adultery of Paris, the crime being so
-          common among themselves, 93;
-    Varro's opinion of the utility of men feigning themselves to be the
-          offspring of, 94;
-    not likely they were offended at the adultery of Paris, as they
-          were not at the adultery of the mother of Romulus, 94;
-    exacted no penalty for the fratricidal conduct of Romulus, 95;
-    is it credible that the peace of Numa's reign was owing to? 98;
-    new, introduced by Numa, 101;
-    the Romans added many to those of Numa, 102;
-    Rome not defended by, 114, etc.;
-    which of the, can the Romans suppose presided over the rise and
-          welfare of the empire? 143, etc.;
-    the silly and absurd multiplication of, for places and things, 144;
-    divers set over divers parts of the world, 146;
-    the many, who are asserted by pagan doctors to be the one Jove,
-          148, etc.;
-    the knowledge and worship of the, which Varro glories in having
-          conferred on the Romans, 159;
-    the reasons by which the pagans defended their worshipping the
-          divine gifts themselves among the, 163, etc.;
-    the scenic plays which they have exacted from their worshippers,
-          165;
-    the three kinds of, discovered by Scævola, 166, etc.;
-    whether the worship of, has been of service to the Romans, 168;
-    what their worshippers have owned they have thought about, 170;
-    the opinions of Varro about, 172;
-    of those who profess to worship them on account of eternal
-          advantages, 229, etc.;
-    Varro's thoughts about the, of the nations, 233, etc.;
-    the worshippers of, regard human things more than divine, 235, etc.;
-    Varro's distribution of, into fabulous, natural, and civil, 238,
-          etc.;
-    the mythical and civil, 240;
-    natural explanations of, 246, etc.;
-    the special offices of, 248;
-    those presiding over the marriage chamber, 249, 250;
-    the popular worship of, vehemently censured by Seneca, 252-254;
-    unable to bestow eternal life, 256, 257;
-    the select, 258, 259;
-    no reason can be assigned for forming the select class of, 260;
-    those which preside over births, 260;
-    the inferior and the select compared, 364;
-    the secret doctrine of the pagans concerning the physical
-          interpretation of, 266;
-    Varro pronounces his own opinions concerning, uncertain, 280, 281;
-    Varro's doctrine concerning, not self-consistent, 295, etc.;
-    distinguished from men and demons, 326;
-    do they use the demons as messengers? 335;
-    Hermes laments the error of his forefathers in inventing the art of
-          making, 343;
-    scarcely any of, who were not dead men, 348;
-    the Platonists maintain that the poets wrong the, 361;
-    Apuleius' definition of, 363;
-    does the intercession of demons secure the favour of, for men? 363;
-    according to the Platonists, they decline intercourse with men,
-          371, etc.;
-    the name falsely given to those of the nations, yet given in
-          Scripture to angels and men, 378, etc.;
-    threats employed towards, 399;
-    philosophers assigned to each of, different functions, ii. 327.
-
-  Gods, the multitudes of, for every place and thing, i. 144, etc.,
-          158, 159, 248, 249, 259, 260.
-
-  Gods, the invention of the art of making, i. 343.
-
-  Gog and Magog, ii. 369.
-
-  Good, no nature in which there is not some, ii. 320.
-
-  Good, the chief, ii. 288;
-    various opinions of the philosophers respecting, 293;
-    the three leading views of, which to be chosen, 299, etc.;
-    the Christian view of, 301, etc.
-
-  Good men, and wicked, the advantages and disadvantages
-          indiscriminately occurring to, i. 10;
-    reasons for administering correction to both together, 11, etc.;
-    what Solomon says of things happening alike to both, 348.
-
-  Goods, the loss of, no loss to the saints, i. 14, etc.
-
-  Gospel, the, made more famous by the sufferings of its preachers,
-          ii. 282.
-
-  Gracchi, the civil dissensions occasioned by, i. 126.
-
-  Grace of God, the, the operation of, in relation to believers, ii.
-          441;
-    pertains to every epoch of life, 442;
-    delivers from the miseries occasioned by the first sin, 520, 521.
-
-  Great Mother, the, the abominable sacred rites of, i. 292, 293.
-
-  Greeks, the conduct of the, on the sack of Troy, i. 6, 7.
-
-
-  Habakkuk, the prophecy and prayer of, ii. 252.
-
-  Hagar, the relation of, to Sarah and Abraham, ii. 139.
-
-  Haggai's prophecy respecting the glory of the latter house, ii. 280,
-          281.
-
-  Hadrian yields up portions of the Roman empire, i. 169, 170.
-
-  Ham, the conduct of, towards his father, ii. 105;
-    the sons of, 109.
-
-  Hannah's prophetic song, an exposition of, ii. 170-179.
-
-  Hannibal, his invasion of Italy, and victories over the Romans, i.
-          120;
-    his destruction of Saguntum, 121, 122.
-
-  Happiness, the gift of God, i. 257;
-    of the saints in the future life, ii. 314, 315.
-
-  Happiness, the, desired by those who reject the Christian religion,
-          i. 72, etc.
-
-  Happy man, the, described by contrast, i. 138.
-
-  Heaven, God shall call to, ii. 398.
-
-  Hebrew Bible, the, and the Septuagint,--which to be followed in
-          computing the years of the antediluvians, ii. 70, etc.
-
-  Hebrew language, the original, ii. 121, etc.;
-    written character of, 265, 266.
-
-  Hebrews, the Epistle to the, ii. 135.
-
-  Hecate, the reply of, when questioned respecting Christ, ii. 335.
-
-  Heifer, goat, and ram, three years old, in Abraham's sacrifice,--the
-          import of, ii. 136, 137.
-
-  Hell, ii. 432;
-    is the fire of, material? and if so, can it burn wicked spirits?
-          434.
-
-  Hercules, ii. 225, 230;
-    the story of the sacristan of, i. 244.
-
-  Here, i. 411.
-
-  Heretics, the Catholic faith confirmed by the dissensions of, ii.
-          283, 284.
-
-  Hermes, the god, i. 349.
-
-  Hermes Trismegistus, respecting idolatry and the abolition of the
-          superstitions of the Egyptians, i. 339, etc.;
-    openly confesses the error of his forefathers, the destruction of
-          which he yet deplores, 342, etc.
-
-  Herod, ii. 277;
-    a persecutor, 287.
-
-  Heroes of the Church, the, ii. 411.
-
-  Hesperius, miraculously delivered from evil spirits, ii. 490.
-
-  Hippocrates quoted in relation to twins, i. 179.
-
-  _Histriones_, i. 63, note.
-
-  Holofernes, his inquiry respecting the Israelites, and Achior's
-          answer, ii. 126.
-
-  Holy Ghost, the, i. 553.
-
-  Homer, quoted, i. 92, 189.
-
-  Hope, the influence of, ii. 307;
-    the saints now blessed in, 330.
-
-  Horace, quoted, i. 5, 204.
-
-  Horatii and Curiatii, the, i. 105, 106.
-
-  Hortensius, the first dictator, i. 116.
-
-  Hosea, his prophecies respecting the things of the gospel, ii.
-          247-249.
-
-  Human race, the, the creation of, in time, i. 500;
-    created at first in one individual, 513, 514;
-    the plenitude of, contained in the first man, 519.
-
-  Hydromancy, i. 302.
-
-  Hyrcanus, ii. 276.
-
-
-  Ilium, modern, destroyed by Fimbria, i. 96, 97.
-
-  Image of the beast, the, ii. 366, 367.
-
-  Image of God, the human soul created in the, i. 515.
-
-  Images of the gods, not used by the ancient Romans, i. 173.
-
-  Imitation of the gods, i. 56.
-
-  Immortality, the portion of man, had he not sinned, i. 521, 542, etc.
-
-  Incarnation of Christ, the, i. 414, ii. 277;
-    faith in, alone justifies, 416, etc.;
-    the Platonists, in their impiety, blush to acknowledge, 423, etc.
-
-  Innocentia, of Carthage, miraculously cured of cancer, ii. 488, 489.
-
-  Innocentius, of Carthage, miraculously cured of fistula, ii. 485-488.
-
-  Ino, ii. 233.
-
-  Intercession of the saints,--of those who think that, on account of,
-          no man shall be damned in the last judgment, ii. 445, etc.,
-          451, etc.
-
-  Io, daughter of, ii. 221.
-
-  Ionic school of philosophy, the founder of the, i. 307.
-
-  Irenæus, a tax-gatherer, the son of, restored to life by means of the
-          oil of St. Stephen, ii. 494.
-
-  Isaac, and Ishmael, ii. 52;
-    a type, 53;
-    the birth of, and import of his name, 146, 147;
-    the offering up of, 148;
-    Rebecca, the wife of, 149;
-    the oracle and blessing received by, just as his father died, 152.
-
-  Isaiah, the predictions of, respecting Christ, ii. 249.
-
-  Isis and Osiris, i. 349, 351, 395, ii. 221, 223, 264, 266.
-
-  Israel, the name given to Jacob,--the import of, ii. 157.
-
-  Israel, the nation of, its increase in, and deliverance from Egypt,
-          ii. 161-163;
-    were there any outside of, before Christ, who belonged to the
-          fellowship of the holy city? 279, etc.
-
-  Italic school of philosophy, the, i. 306.
-
-
-  Jacob, and Esau, the things mysteriously prefigured by, ii. 153, etc.;
-    his mission to Mesopotamia, 155;
-    his dream, 156;
-    his wives, 157;
-    why called Israel, 157;
-    how said to have gone into Egypt with seventy-five souls, 158;
-    his blessing on Judah, 159;
-    his blessing the sons of Joseph, 161;
-    the times of, and of Joseph, 221, etc.
-
-  Janus, the temple of, i. 98;
-    the relation of, to births, 260, 261;
-    nothing infamous related of, 265;
-    is it reasonable to separate Terminus and? 268;
-    why two faces, and sometimes four, given to the image of? 269;
-    compared with Jupiter, 270;
-    why he has received no star, 278.
-
-  Japhet, ii. 105.
-
-  Jeroboam, ii. 214.
-
-  Jerome, his labours as a translator of Scripture, ii. 271;
-    his commentary on Daniel referred to, 394.
-
-  Jerusalem, the new, coming down from heaven, ii. 377, etc.
-
-  Jews, the, the kingdom of, founded by God, i. 175;
-    what Seneca thought of, 255, 256;
-    their unbelief, foretold in the Psalms, ii. 208;
-    end of the captivity of,--their prophets, 246, etc.;
-    the many adversities endured by, 274, etc.;
-    the dispersion of, predicted, 277-279;
-    whether, before Christ, there were any outside of, who belonged to
-          the heavenly city, 279.
-
-  Joseph, the sons of, blessed by Jacob, ii. 161;
-    the times of, 221;
-    the elevation of, to be ruler of Egypt, 222;
-    who were kings at the period of the death of? 224.
-
-  Joshua, i. 163;
-    who were kings at the time of the death of? ii. 229;
-    the sun stayed in its course by, 429, 430;
-    the Jordan divided by, 430.
-
-  Jove, are the many gods of the pagans one and the same Jove? i. 148;
-    the enlargement of kingdoms improperly ascribed to, 152;
-    Mars, Terminus, and Juventus refuse to yield to, 162, 169.
-    _See_ Jupiter.
-
-  Judah, Jacob's blessing on, ii. 159, etc.
-
-  Judgment, ever going on,--the last, ii. 345, 346;
-    ever present, although it cannot be discerned, 346;
-    proofs of the last, from the New Testament and the Old, 349, etc.;
-    words of Jesus respecting, 350, 373, 374, 375;
-    what Peter says of, 379;
-    predictions respecting, 389, 390, etc., 395, etc., 399, etc.;
-    separation of the good and bad in the, 403;
-    to be effected in the person of Christ, 406, etc.
-
-  Julian the apostate, i. 219;
-    a persecutor, ii. 287.
-
-  Juno, i. 147, 148, 260.
-
-  Jupiter, the power of, compared with Janus, i. 270, etc.;
-    is the distinction made between, and Janus, a proper one? 273;
-    the surnames of, 273;
-    called "Pecunia,"--why? 275;
-    scandalous amours of, ii. 232.
-
-  Justinus, the historian, quoted respecting Ninus' lust of empire, i.
-          141.
-
-  Juventus, i. 162, 169.
-
-
-  Keturah, what is meant by Abraham's marrying, after the death of
-          Sarah? ii. 150.
-
-  "Killeth and maketh alive, the Lord," ii. 174.
-
-  Killing, when allowable, i. 32.
-
-  Kingdom, the, of Israel, under Saul, a shadow, ii. 184;
-    the description of, 186;
-    promises of God respecting, 189, etc., 193, etc.;
-    varying character of, till the captivity, and, finally, till the
-          people passed under the power of the Romans, 214, 215.
-
-  Kingdom of Christ, the, ii. 363, 364.
-
-  Kingdoms, without justice, i. 139;
-    have any been aided or deserted by the gods? 142;
-    the enlargement of, unsuitably attributed to Jove, 152;
-    the times of, ordained by the true God, 175;
-    not fortuitous, nor influenced by the stars, 177-179;
-    the three great, when Abraham was born, ii. 130, 131.
-
-  Kings, of Israel, the times of the, ii. 163;
-    after Solomon, 213;
-    after the judges, 239;
-    of the earthly city which synchronize with the times of the saints,
-          reckoning from Abraham, ii. 218, etc.;
-    of Argos, ii. 223, 224;
-    of Latium, 240.
-
-  Knowledge, the eternal and unchangeable, of God, i. 439, etc.;
-    of our own existence, 469, etc., 471, etc.;
-    by which the holy angels know God, 473, etc.
-
-
-  Labeo, cited, i. 64. 127, 325, ii. 533.
-
-  Lactantius, quotations made by, from a certain Sibyl, ii. 243, 244.
-
-  Language, the origin of the diversity of, ii. 111, etc.;
-    the original, 121, etc.;
-    diversities of, how they operate to prevent human intercourse, 310,
-          311.
-
-  Larentina, the harlot, i. 244.
-
-  Latinius, Titus, the trick of, to secure the re-enactment of the
-          games, i. 165.
-
-  Latium, the kings of, ii. 240.
-
-  Λατρεία and Δουλεία, i. 383, 386.
-
-  Laurentum, the kingdom of, ii. 233.
-
-  Laver of regeneration, the, ii. 441.
-
-  Law, the, confirmed by miraculous signs, i. 407, etc.;
-    of Moses, must be spiritually understood, to cut off the murmurs of
-          carnal interpreters, ii. 403, 404.
-
-  Lethe, the river, i. 428.
-
-  _Lex Voconia_, the, i. 124.
-
-  Liber, the god, i. 230;
-    and Libera, 248, 260, 261, ii. 232.
-
-  Liberty, the, which is proper to man's nature, ii. 323, etc.
-
-  Life, the end of, whether it is material that it be long delayed, i.
-          18;
-    the vicissitudes of, not dependent on the favour of the gods, but
-          on the will of the true God, 79.
-
-  Life, eternal, the gift of God, i. 257;
-    the promise of, uttered before the eternal times, 504.
-
-  Light, the, the division of, from the darkness,--the significance of
-          this, i. 458;
-    pronounced "good,"--meaning of this, 459.
-
-  Lime, the peculiar properties of, ii. 418, 419.
-
-  Livy, quoted, i. 165.
-
-  Loadstone, the, ii. 420.
-
-  Locusts, a fearful invasion of Africa by, i. 134.
-
-  Lot, the parting of Abraham and, ii. 132;
-    the deliverance of, from captivity, by Abraham, 134.
-
-  Lot's wife, i. 293.
-
-  Love and regard used in Scripture indifferently of good and evil
-          affections, ii. 10.
-
-  Lucan's _Pharsalia_, quoted, i. 20, 103, 129.
-
-  Lucillus, bishop of Sinita, cured of a fistula by the relics of St.
-          Stephen, ii. 493.
-
-  Lucina, the goddess, i. 149, 260.
-
-  Lucretia, her chastity and suicide, i. 28, 29.
-
-  Lucretius, quoted, ii. 419.
-
-  Lust, the evil of, ii. 31;
-    and anger, to be bridled, 35, etc.;
-    the bondage of, worse than bondage to men, 224, 225.
-
-  Lying-in woman, the, her god-protectors, i. 249.
-
-
-  Maccabæus, Judas, ii. 276.
-
-  Maccabees, the Books of, ii. 262.
-
-  Madness, the strange, which once seized upon all the domestic animals
-          of the Romans, i. 126.
-
-  Magic art, the impiety of, i. 33;
-    the marvels wrought by, ii. 424.
-
-  Magicians of Egypt, the, i. 393.
-
-  Magnets, two, an image suspended between, in mid air, ii. 425.
-
-  Malachi, ii. 399.
-
-  "Mammon of unrighteousness," ii. 469, 470.
-
-  Man, though mortal, can enjoy true happiness, i. 369;
-    recentness of the creation of, 496, etc.;
-    the first, 519, etc.;
-    the fall of the first, 521;
-    the death with which he first was threatened, 533;
-    in what state made, and into what state he fell, 534;
-    forsook God before God forsook him, 535;
-    effects of the sin of the first, ii. 1, etc.;
-    what it is to live according to, 6, etc.
-    _See_ First Man.
-
-  Manichæans, the, references to, i. 461, 462, 463;
-    their view of the body, ii. 8, etc.
-
-  Manlius, Cneius, i. 123.
-
-  Manturnæ, the goddess, i. 249, 250.
-
-  Marcellus, Marcus, destroys Syracuse, and bewails its ruin, i. 8.
-
-  Mares, the, of Cappadocia, ii. 422.
-
-  Marica, the Minturnian goddess, i. 81.
-
-  Marius, i. 79, 80, 81;
-    the war between, and Sylla, 128, 129, 130.
-
-  Marriage, as originally instituted by God, ii. 38;
-    among blood relations in primitive times, 78;
-    between blood relations, now abhorred, 79.
-
-  Marriage bed-chamber, the, the gods which preside over, i. 249, 250.
-
-  Mars, Terminus, and Juventus, refuse to yield to Jove, i. 162, 169;
-    and Mercury, the offices of, 276.
-
-  Martial, a nobleman, converted by means of flowers brought from the
-          shrine of St. Stephen, ii. 493.
-
-  Martyrs, the honour paid to, by Christians, i. 350, etc.;
-    the heroes of the Church, 411;
-    miracles wrought by, ii. 499, 500.
-
-  Marvels related in history, ii. 417-423, 426, 427;
-    wrought by magic, 424, 425.
-
-  Massephat, ii. 188.
-
-  Mathematicians, the, convicted of professing a vain science, i. 183.
-
-  Mediator, Christ the, between God and man, i. 369;
-    the necessity of having Christ as, to obtain the blessed life, 374;
-    the sacrifice effected by, 410, etc.
-
-  Melchizedek, blesses Abraham, ii. 135.
-
-  Melicertes, ii. 233.
-
-  Men, the primitive, immortal, had they never sinned, i. 542;
-    the creation of, and of angels, ii. 472-474.
-
-  Mercury, and Mars, i. 276;
-    the fame of, ii. 225.
-
-  Metellus, rescues the sacred things from the fire in the temple of
-          Vesta, i. 119.
-
-  Methuselah, the great age of, ii. 66.
-
-  Millennium, the, ii. 356.
-
-  Mind, the capacity and powers of, ii. 525.
-
-  Minerva, i. 146, 262, 279, 296, ii. 225.
-
-  Miracles, wrought by the ministry of angels, i. 392, etc., 400, etc.,
-          405;
-    the, ascribed to the gods, 405, 406;
-    the, by which God authenticated the law, 407, etc.;
-    against such as deny the, recorded in Scripture, 408, etc.;
-    the ultimate reason for believing, 425-428;
-    wrought in more recent times, 484-499;
-    wrought by the martyrs in the name of Christ 499, etc.
-
-  Miseries, the, of this life, Cicero on, ii. 302;
-    of the human race through the first sin, 517-520;
-    deliverance from, through the grace of Christ, 520, 521;
-    which attach peculiarly to the toil of good men, 521, etc.
-
-  Mithridates, the edict of, enjoining the slaughter of all Roman
-          citizens found in Asia, i. 125.
-
-  Monstrous races,--are they derived from the stock of Adam, or from
-          Noah's sons? i. 116, 118.
-
-  Moses, miracles wrought by, i. 393;
-    the time of, ii. 161-163;
-    who were kings at the period of the birth of? 224;
-    the time he led Israel out of Egypt, 228;
-    the antiquity of the writings of, 264.
-
-  Mother of the gods, the obscenities of the worship of, i. 52, 53,
-          etc.;
-    whence she came, 102.
-
-  Mucius, and king Porsenna, i. 211.
-
-  Mysteries, i. 266;
-    the Eleusinian, 283;
-    the Samothracian, 296.
-
-  Mystery, the, of Christ's redemption often made known by signs, etc.,
-          i. 299.
-
-  Mystery of iniquity, the, ii. 381, 382.
-
-
-  Nahor, ii. 125.
-
-  Nakedness of our first parents, the, ii. 32.
-
-  Nathan, his message to David, ii. 189;
-    the resemblance of Psalm lxxxix. to the prophecy of, 191, etc.
-
-  Natural history, curious facts in:--the salamander, ii. 417;
-    the flesh of the peacock, 417, 418;
-    fire, 418;
-    charcoal, 418;
-    lime, 418, 419;
-    the diamond, 419;
-    the loadstone, 420;
-    the salt of Agrigentum, 421;
-    the fountain of the Garamantæ, and of Epirus, 421;
-    asbestos, 421;
-    the wood of the Egyptian fig-tree, 421;
-    the apples of Sodom, 421;
-    the stone pyrites, 421, 422;
-    the stone selenite, 422;
-    the Cappadocian mares, 422;
-    the island Tilon, 422;
-    the star Venus, 429.
-
-  Nature, not contrary to God, but good, i. 484;
-    of irrational and lifeless creatures, 485;
-    none in which there is not good, 320, 321.
-
-  Natures, God glorified in all, i. 486.
-
-  Necessity, is the will of man ruled by? i. 195.
-
-  Necromancy, i. 302.
-
-  Neptune, i. 279, 296;
-    and Salacia, and Venilia, 285.
-
-  Nero, the first to reach the citadel of vice, i. 216;
-    curious opinions entertained of him after his death, ii. 382.
-
-  New Academy, the uncertainty of, contrasted with the Christian faith,
-          ii. 328.
-
-  New heavens, and new earth, the, ii. 373, 374, 376, etc.
-
-  Nigidius, cited in reference to the birth of twins, i. 181.
-
-  Nimrod, ii. 108, 109, 112, 122.
-
-  Nineveh, ii. 109;
-    curious discrepancy between the Hebrew and Septuagint as to the
-          time fixed for the overthrow of, in Jonah's prophecy, 273,
-          274;
-    spared, 446;
-    how the prediction against, was fulfilled, 455.
-
-  Ninus, ii. 219, 220.
-
-  Noah, commanded by God to build an ark, ii. 98;
-    whether after, till Abraham, any family can be found who lived
-          according to God, 104;
-    was prophetically signified by the sons of? 105;
-    the nakedness of, revealed by Ham, but covered by Shem and Japheth,
-          its typical significance, 106, 107;
-    the generation of the sons of, 108, etc.
-
-  _Noctes Atticæ_, the, of Aulus Gellius, quoted, 356, 357.
-
-  Numa Pompilius, the peace that existed during the reign of, is it
-          attributable to the gods? i. 98;
-    introduces new gods, 101, etc.;
-    the Romans add new gods to those introduced by, 102;
-    the story of finding the books of, respecting the gods, and the
-          burning of the same by the senate, 301, etc.;
-    befooled by hydromancy, 302.
-
-  Numantia, i. 124.
-
-  Numitor and Amulius, ii. 240, 241.
-
-
-  Ogyges, ii. 225, 226.
-
-  Old Testament Scriptures, caused by Ptolemy Philadelphus to be
-          translated out of Hebrew into Greek, ii. 270, 271.
-
-  Opimius, Lucius, and the Gracchi, i. 126.
-
-  Oracles of the gods, responses of, respecting Christ, as related by
-          Porphyry, ii. 344, etc.
-
-  Order and law, the, which obtain in heaven, and on earth, ii. 322.
-
-  Origen, the errors of, i. 463-465.
-
-  Ὁρμή, 303.
-
-  Orpheus, ii. 233.
-
-
-  Pagan error, the probable cause of the rise of, i. 281, 282, 347.
-
-  Paradise, man in, ii, 23;
-    would there have been generation in, had man not sinned? 39, etc.,
-          41, etc., 44, etc.;
-    Malachi's reference to man's state in, 401.
-
-  Paris, the gods had no reason to be offended with, i. 93.
-
-  Passions, the, which assail Christian souls, i. 359, etc.;
-    which agitate demons, 360.
-
-  _Paterfamilias_, ii. 325.
-
-  Patricians and Plebs, the dissensions between, i. 69, 70, 113.
-
-  Paulinus, i. 16.
-
-  Paulus and Palladia, members of a household cursed by a
-          mother-in-law, miraculously healed at the shrine of St.
-          Stephen, ii. 497-499.
-
-  Peace, the eternal, of the saints, ii. 314, 315;
-    the fierceness of war, and the disquietude of men make towards,
-          315-319;
-    the universal, which the law of nature preserves, 319, etc.;
-    the, between the heavenly and earthly cities, 326, etc.;
-    the, of those alienated from God, and the use made of it by God's
-          people, 341;
-    of those who serve God in this mortal life, cannot be apprehended
-          in its perfection, 341-343;
-    of God, which passeth all understanding, 534, 535.
-
-  Peacock, the antiseptic properties of the flesh of, ii. 417.
-
-  Pecunia, i. 264;
-    Jupiter so named, 275.
-
-  Peleg, ii. 122, 123.
-
-  Peripatetic sect, the, i. 323.
-
-  Peripatetics, and Stoics, the opinion of, about mental emotions,--an
-          illustrative story, i. 355-358.
-
-  "Perish," ii. 296.
-
-  _Periurgists_, i. 404.
-
-  Persecution, all Christians must suffer, ii. 284;
-    the benefits derived from, 285;
-    the "ten persecutions," 286-288;
-    the time of the final, hidden, 288-290.
-
-  Persius, quoted, i. 55, 56.
-
-  Perturbations, the three, of the souls of the wise, as admitted by
-          the Stoics, ii. 12;
-    in the souls of the righteous, 15, etc.;
-    were our first parents before the fall free from? 20.
-
-  Peter, ridiculously feigned by the heathen to have brought about by
-          enchantment the worship of Christ, ii. 289;
-    heals the cripple at the temple gate, 291.
-
-  Petronia, a woman of rank, miraculously cured, ii. 496.
-
-  Philosopher, origin of the name, i. 307.
-
-  Philosophers, the secret of the weakness of the moral precepts of,
-          i. 55;
-    the Italic and Ionic schools of, 306, etc.;
-    of some who think the separation of soul and body not penal, 536;
-    the discord of the opinions of, contrasted with the concord of the
-          canonical Scriptures, ii. 267-270.
-
-  Philosophy, Varro's enumeration of the multitudinous sects of, ii.
-          293-297.
-
-  Phoroneus, ii. 221.
-
-  Picus, king of Argos, ii. 233.
-
-  "Piety," i. 384.
-
-  Pirate, the apt reply of a, to Alexander the Great, i. 140.
-
-  Plato, would exclude the poets from his ideal republic, i. 63, etc.;
-    his threefold division of philosophy, 310, etc.;
-    how he was able to approach so near Christian knowledge, 321, etc.;
-    his definition of the gods, 324;
-    the opinion of, as to the transmigration of souls, 427;
-    the opinion of, that almost all animals were created by inferior
-          gods, 519;
-    declared that the gods made by the Supreme have immortal bodies,
-          536, ii. 531;
-    the apparently conflicting views of, and of Porphyry, if united,
-          might have led to the truth, 532, 533.
-
-  Platonists, the opinions of, preferable to those of other
-          philosophers, i. 312, etc.;
-    their views of physical philosophy, 314, etc.;
-    how far they excel other philosophers in logic, or rational
-          philosophy, 316;
-    hold the first rank in moral philosophy, 317;
-    their philosophy has come nearest the Christian faith, 318;
-    the Christian religion above all their science, 319;
-    thought that sacred rites were to be performed to many gods, 323;
-    the opinion of, that the souls of men become demons, 365;
-    the three qualities by which they distinguish between the nature of
-          men and of demons, 365, etc.;
-    their idea of the non-intercourse of celestial gods with men, and
-          the need of the intercourse of demons, 371, etc.;
-    hold that God alone can bestow happiness, 382;
-    have misunderstood the true worship of God, 386;
-    the principles which, according to, regulate the purification of
-          the soul, 413;
-    blush to acknowledge the incarnation of Christ, 423;
-    refutation of the notion of, that the soul is co-eternal with God,
-          429, 430;
-    opinion of, that angels created man's body, 518;
-    refutation of the opinion of, that earthly bodies cannot inherit
-          heaven, ii. 501, etc.
-
-  Players, excluded by the Romans from offices of state, i. 60, 61.
-
-  Plays, scenic, which the gods have exacted from their worshippers,
-          i. 165.
-
-  Pleasure, bodily, graphically described, i. 217.
-
-  Plebs, the dissensions between, and the Patricians, ii. 69, 70, 113;
-    the secession of, 113.
-
-  Plotinus, men, according to, less wretched than demons, i. 364;
-    regarding enlightenment from above, 385.
-
-  Plutarch, his _Life of Cato_ quoted, i. 34;
-    his _Life of Numa_, 173.
-
-  Pluto, i. 296.
-
-  Πνεῦμα, i. 553, 554, 555.
-
-  Poetical licence, allowed by the Greeks, restrained by the Romans,
-          i. 57, 61.
-
-  Poets, the, Plato would exclude from his ideal republic, i. 63, etc.,
-          325;
-    the theological, ii. 232, 233.
-
-  Pontius, Lucius, announces Sylla's victory, i. 82.
-
-  "Poor, He raiseth the, out of the dunghill," ii. 175.
-
-  Porphyry, his views of theurgy, i. 394, etc., 396, etc.;
-    epistle of, to Anebo, 397, etc.;
-    as to how the soul is purified, 413;
-    refused to recognise Christ, 414;
-    vacillation of, between the confession of the true God and the
-          worship of demons, 418;
-    the impiety of, 419;
-    so blind as not to recognise the true wisdom, 422;
-    his emendations of Platonism, 426, etc.;
-    his ignorance of the universal way of the soul's deliverance, 430,
-          etc.;
-    abjured the opinion that souls constantly pass away and return in
-          cycles, 511;
-    his notion that the soul must be separated from the body in order
-          to be happy, demolished by Plato, 531, etc.;
-    the conflicting opinions of Plato and, if united, might have led to
-          the truth, 532, 533;
-    his account of the responses of the oracles of the gods concerning
-          Christ, ii. 334-339.
-
-  Portents, strange, i. 133;
-    meaning of the word, ii. 429.
-
-  Possidonius, the story of, i. 179.
-
-  Postumius, the augur, and Sylla, i. 81, 82, 83.
-
-  Præstantius, the strange story related by, respecting his father,
-          ii. 237.
-
-  Praise, the love of, why reckoned a virtue? i. 204;
-    of the eradication of the love of human, 205.
-
-  Prayer for the dead, ii. 453.
-
-  Predictions of Scripture, i. 434.
-
-  Priest, the faithful, ii. 181.
-
-  Priesthood, the, the promise to establish it for ever, how to be
-          understood, ii. 184;
-    of Christ, described in the Psalms, 204, 205.
-
-  Proclus, Julius, i. 108.
-
-  Projectus, Bishop, and the miraculous cure of blind women, ii. 492,
-          493.
-
-  _Proletarii_, the, i. 116.
-
-  Prometheus, ii. 224.
-
-  Promises, the, made to Abraham, ii. 129, etc., 131, etc., 133.
-
-  Prophetic age, the, ii. 165.
-
-  Prophetic records, the, ii. 163.
-
-  Prophecies, the threefold meaning of the, ii. 167-169;
-    respecting Christ and His gospel, 247-249, 250, 251, 252, 256, 258,
-          259.
-
-  Prophets, the later, ii. 215;
-    of the time when the Roman kingdom began, 246.
-
-  Proscription, the, of Sylla, i. 130.
-
-  Proserpine, i. 284, 288.
-
-  Protasius and Gervasius, martyrs, a blind man healed by the bodies
-          of, at Milan, ii. 485;
-    a young man freed from a devil by, 491.
-
-  Providence of God, the, i. 197, 403;
-    not disturbed by the wickedness of angels or men, ii. 46.
-
-  Prudence, ii. 304.
-
-  Psalms, the, David's concern in writing, ii. 199.
-
-  Ptolemy Philadelphus causes the Hebrew Scriptures to be translated
-          into Greek, ii. 270, 271.
-
-  Puberty, was it later among the antediluvians than it is now? ii. 75,
-          etc.
-
-  Pulvillus, Marcus, i. 212.
-
-  Punic wars, the, the disasters suffered by the Romans in, i. 117;
-    the second of these, its deplorable effects, 119, etc.
-
-  Punishment, eternal, ii. 413;
-    whether it is possible for bodies to last for ever in burning fire,
-          414;
-    whether bodily sufferings necessarily terminate in the destruction
-          of the flesh, 414-417;
-    examples from nature to show that bodies may remain unconsumed and
-          alive in fire, 417;
-    the nature of, 432, etc.;
-    is it just that it should last longer than the sins themselves
-          lasted? 436, etc.;
-    the greatness of the first transgression on account of which it is
-          due to all not within the pale of the Saviour's grace, 437,
-          etc.;
-    of the wicked after death, not purgatorial, 438-440;
-    proportioned to the deserts of the wicked, 444;
-    of certain persons, who deny, 444;
-    of those who think that the intercession of saints will deliver
-          from, 445;
-    of those who think that participation of the body of Christ will
-          save from, 447;
-    of those who think that Catholic baptism will deliver from, 447;
-    of the opinion that building on the "Foundation" will save from,
-          448;
-    of the opinion that alms-giving will deliver from, 449;
-    of those who think that the devil will not suffer, 450;
-    replies to all those who deny, 451, 457, etc., 460.
-
-  Punishments, the temporary, of this life, ii. 440;
-    the object of, 441.
-
-  Purgatorial punishments, ii. 399, 400, 453.
-
-  Purification of heart, the, whence obtained by the saints, i. 412;
-    the principles which, according to the Platonists, regulate, 413;
-    the one true principle which alone can effect, 414.
-
-  Purifying punishment, the, spoken of by Malachi, ii. 399.
-
-  Pyrites, the Persian stone so called, ii. 421.
-
-  Pyrrhus, invades Italy,--response of the oracle of Apollo to, i. 116;
-    cannot tempt Fabricius, 213.
-
-  Pythagoras, the founder of the Italic school of philosophy, i. 307.
-
-
-  Queen, the, the Church, ii. 202, 203.
-
-  Quiet, the temple of, i. 154.
-
-
-  Radagaisus, king of the Goths, the war with, i. 221.
-
-  Rain, portentous, i. 133.
-
-  Rape of the Sabine women, the, i. 103, 104.
-
-  Rebecca, wife of Isaac, ii. 149;
-    the divine answer respecting the twins in the womb of, 151.
-
-  Recentness of man's creation, an answer to those who complain of, i.
-          496.
-
-  Regeneration, the laver or font of, ii. 490.
-
-  Regulus, as an example of heroism, and voluntary endurance for
-          religion's sake, i. 22, etc.;
-    the virtue of, far excelled that of Cato, 35.
-
-  Reign of the saints with Christ for a thousand years, 263, etc.
-
-  Religion, i. 384;
-    no true, without true virtues, ii. 340.
-
-  Religions, false, kept up on policy, ii. 174.
-
-  Republic, Cicero's definition of a,--was there ever a Roman,
-          answering to? ii. 330-333;
-    according to what definition could the Romans or others assume the
-          title of a? 339, 340.
-
-  Resting on the seventh day, God's, the meaning of, i. 444, 445.
-
-  Restitutus, presbyter of the Calamensian Church, a curious account
-          of, ii. 42, 43.
-
-  Resurrection, the, of the flesh of believers, to a perfection not
-          enjoyed by our first parents, i. 544, 546, 547;
-    the first and the second, ii. 353-356, 367, 368;
-    Paul's testimony on, 384;
-    utterances of Isaiah respecting, 387, etc.;
-    some refuse to believe, while the world at large believes, 477;
-    vindicated against ridicule thrown on it, 504, etc.;
-    whether abortions shall have part in, 506;
-    whether infants shall have that body in, which they would have had
-          if they had grown up, 507;
-    whether in the, the dead shall rise the same size as the Lord's
-          body, 508;
-    the saints shall be conformed to the image of Christ in the, 508,
-          509;
-    whether women shall retain their sex in, 509, 510;
-    all bodily blemishes shall be removed in, 512;
-    the substance of our bodies, however disintegrated, shall be
-          entirely reunited, 515;
-    the new spiritual body of, 517;
-    the obstinacy of those who impugn, while the world believes, 529,
-          etc.
-
-  Resurrection of Christ, the, referred to in the Psalms, ii. 205, 206.
-
-  Reward, the, of the saints, after the trials of this life, 314.
-
-  Rhea, or Ilia, mother of Romulus and Remus, ii. 240, 241.
-
-  Rich man, the, in hell, ii. 435.
-
-  Righteous, the glory of the, is in God, i. 205.
-
-  Righteous man, the, the sufferings of, described in the Book of
-          Wisdom, ii. 209, etc.
-
-  Rites, sacred, of the gods, i. 245.
-
-  Rituals of false gods, instituted by kings of Greece, from the exodus
-          of Israel downward, ii. 229.
-
-  Roman empire, the, which of the gods presided over? i. 143;
-    whether the great extent and duration of, should be attributed to
-          Jove, 165;
-    whether the worship of the gods has been of service in extending,
-          168;
-    the cause of, not fortuitous, nor attributable to the position of
-          the stars, 177, etc.;
-    by what virtues the enlargement of, was merited, 198, etc.
-
-  Roman kings, what manner of life and death they had, i. 108, etc.
-
-  Roman republic, was there ever one answering to Cicero's definition?
-          i. 331-333, 339, 340.
-
-  Romans, the, the folly of, in trusting gods which could not defend
-          Troy, i. 4, etc.;
-    by what steps the passion of governing increased among, 43;
-    the vices of, not corrected by the overthrow of their city, 45;
-    the calamities suffered by, before Christ, 50, etc., 67, etc.;
-    poetical licence restrained by, 57, etc.;
-    excluded players from offices of state, and restrained the licence
-          of players, 60, 61;
-    the gods never took any steps to prevent the republic of, from
-          being ruined by immorality, 77, etc;
-    the obscenities of their plays consecrated to the service of their
-          gods, contributed to overthrow their republic, 87, etc.;
-    exhorted to forsake paganism, 89;
-    was it desirable that the empire of, should be increased by a
-          succession of furious wars? 99;
-    by what right they obtained their first wives, 103;
-    the wickedness of the wars waged by, against the Albans, 105, 106;
-    the first consuls of, 111, etc.;
-    the disasters which befell, in the Punic wars, 117, etc., 119, etc.;
-    the ingratitude of, to Scipio, the conqueror of Hannibal, 123;
-    the internal disasters which vexed the republic, 125, etc.;
-    multiplied gods for small and ignoble purposes, 144;
-    to what profit they carried on war, and how far to the well-being
-          of the conquered, 208;
-    dominion granted to, by the providence of God, 218.
-
-  Rome, the sack of, by the Barbarians, i. 2;
-    the evils inflicted on the Christians in the sack of,--why
-          permitted, 39;
-    the iniquities practised in the palmiest days of, 67, etc.;
-    the corruption which had grown up in, before Christianity, 71, etc.;
-    Cicero's opinion of the republic of, 74;
-    frost and snow incredibly severe at, 117;
-    calamities which befell, in the Punic wars, 117, etc., 119, etc.;
-    Asiatic luxury introduced to, 123;
-    when founded, ii. 241;
-    the founder of, made a god, 480.
-
-  Romulus, the alleged parentage of, i. 94, 95;
-    no penalty exacted for his fratricidal act, 95, etc.;
-    the death of, 108, 109, ii. 240;
-    suckled by a wolf, ii. 240, 241;
-    made a god by Rome, 480, etc.
-
-  Rule, equitable, ii. 325.
-
-  Rulers serve the society which they rule, ii. 322, 323.
-
-
-  Sabbath, the perpetual, ii. 543.
-
-  Sabine women, the rape of the, i. 67, 103, 104.
-
-  Sack, of Rome, the, by the Barbarians, i. 2, etc.;
-    of Troy, 6, etc.
-
-  Sacrifice, that due to the true God only, i. 387;
-    the true and perfect, 390;
-    the reasonableness of offering a visible, to God, 409;
-    the supreme and true, of the Mediator, 410;
-    of Abraham, when he believed,--its meaning, ii. 136.
-
-  Sacrifices, those not required by God, but enjoined for the
-          exhibition of the truth, i. 388.
-
-  Sacrifices of righteousness, ii. 400, 401.
-
-  Sacristan of Hercules, a, the story of, i. 244.
-
-  Sages, the seven, ii. 244, 245.
-
-  Saguntum, the destruction of, i. 121, 122.
-
-  Saints, the, lose nothing in losing their temporal goods, i. 14, etc.;
-    their consolations in captivity, 22;
-    cases in which the examples of, are not to be followed, 37;
-    why the enemy was permitted to indulge his lust on the bodies of,
-          39;
-    the reply of, to unbelievers, who taunted them with Christ's not
-          having rescued them from the fury of their enemies, 41, etc.;
-    the reward of, after the trials of this life, ii. 314;
-    the happiness of the eternal peace which constitutes the perfection
-          of, 314, 315;
-    in this life, blessed in hope, 330.
-
-  Salacia, i. 285.
-
-  Salamander, the, ii. 417.
-
-  Sallust, quoted, i. 7, 8, 67, 69, 92, 100, 107, 113, 198, 201, 263,
-          ii. 219.
-
-  Salt, the, of Agrigentum, the peculiar qualities of, ii. 421.
-
-  Samnites, the, defeated by the Romans, i. 115.
-
-  Samothracians, the mysteries of the, i. 296.
-
-  Samuel, the address of, to Saul on his disobedience, ii. 186, etc.;
-    sets up a stone of memorial, 188.
-
-  Saul, spared by David, ii. 184, 185;
-    forfeits the kingdom, 185, 186.
-
-  Sanctity, the, of the body, not violated by the violence of another's
-          lust, i. 26, 27.
-
-  Sancus, or Sangus, a Sabine god, ii. 238.
-
-  Sarah, and Hagar, and their sons,--the typical significance of, ii.
-          51, 52;
-    Sarah's barrenness, 52, 53;
-    preservation of the chastity of, in Egypt, and in Gerar, 32, 146;
-    change of the name of, 143, 144;
-    the death of, 149.
-
-  Satan, transforms himself into an angel of light, ii. 313. _See_
-          Devil.
-
-  Saturn, i. 147, 260, 261, 265;
-    and Genius, thought to be really Jupiter, 275, etc.;
-    interpretations of the reasons for worshipping, 282;
-    and Picus, ii. 233.
-
-  Saved by fire, ii. 460.
-
-  Scævola, the pontiff, slain in the Marian wars, i. 129, 131;
-    distinguishes three kinds of gods, 166, 167.
-
-  Scenic representations, the establishment of, opposed by Scipio
-          Nasica, i. 44;
-    the obscenities of, contributed to the overthrow of the republic,
-          84, etc.
-
-  Schools of philosophers, i. 306, etc.
-
-  Scipio Nasica, Rome's "best man," opposes the destruction of
-          Carthage, i. 42, 43;
-    opposes scenic representations, 144.
-
-  Scripture, the obscurity of,--its advantages, i. 458.
-
-  Scriptures, the canonical, the authority of, i. 438;
-    of the Old Testament, translated into Greek, ii. 270, 271.
-
-  Sea, the, gives up the dead which are in it, ii. 375;
-    no more, 377.
-
-  Sects of philosophy, the number of, according to Varro, ii. 293-297.
-
-  Selenite, the stone so called, ii. 422.
-
-  Semiramis, ii. 220.
-
-  Seneca, Annæus, recognises the guiding will of the Supreme, i. 189;
-    censures the popular worship of the gods, and the popular theology,
-          252-255;
-    what he thought of the Jews, 255, 256.
-
-  Septuagint,--is it or the Hebrew text to be followed in computing
-          years? ii. 70, etc.;
-    origin of the, 270, 271;
-    authority of, in relation to the Hebrew original, 271-273;
-    difference between, and the Hebrew text, as to the days fixed by
-          Jonah for the destruction of Nineveh, 273-275.
-
-  Servitude introduced by sin, ii. 323.
-
-  Servius Tullius, the foul murder of, i. 110.
-
-  Seth and Cain, heads of two lines of descendants, ii. 81;
-    relation of the former to Christ, 82.
-
-  Seven, the number, i. 475, ii. 173, 174.
-
-  Seventh day, the, i. 475.
-
-  Severus, bishop of Milevis, ii. 420.
-
-  Sex, shall it be restored in the resurrection? ii. 509, 510.
-
-  Sexual intercourse, ii. 34;
-    in the antediluvian age, 75, etc.
-
-  Shem, ii. 105;
-    the sons of, 109;
-    the genealogy of, 119, etc.
-
-  Sibyl, the Cumæan, i. 421;
-    the Erythræan, 422.
-
-  Sibylline books, the, i. 118.
-
-  Sicyon, the kingdom and kings of, ii. 219, 220, 221, 239.
-
-  Silvanus, the god, i. 249.
-
-  Silvii, ii. 239.
-
-  Simplicianus, bishop of Milan, his reminiscence of the saying of a
-          certain Platonist, i. 426.
-
-  Sin, should not be sought to be obviated by sin, i. 36;
-    should not be sought to be shunned by a voluntary death, 38;
-    had not its origin in God, but in the will of the creature, 456;
-    not caused by the flesh, but by the soul, ii. 4;
-    servitude introduced by, 323.
-
-  Sins, how cleansed, i. 413.
-
-  Six, the perfection of the number, i. 474.
-
-  Slave, when the word, first occurs in Scripture;
-    its meaning, ii. 324.
-
-  Social life, disturbed by many distresses, ii. 307, etc.
-
-  Socrates, a sketch of,--his philosophy, i. 308-310;
-    the god or demon of, the book of Apuleius concerning, 325, 327.
-
-  Sodom, the region of, ii. 431.
-
-  Solomon, books written by, and the prophecies they contain, ii. 209,
-          etc.;
-    the kings after, both of Israel and Judah, 213.
-
-  Son of God, but one by nature, ii. 441.
-
-  Sons of God, the, and daughters of men, ii. 91, etc.;
-    not angels, 92, etc.
-
-  Soranus, Valerius, i. 274.
-
-  Soul, the, immortal, i. 257;
-    the way of its deliverance, 430;
-    created in the image of God, 515;
-    Porphyry's notion that its blessedness requires separation from the
-          body, demolished by Plato, 531;
-    the separation of, and the body, considered by some not to be
-          penal, 536.
-
-  Soul of the world, God not the, i. 151;
-    Varro's opinion of, examined, 267.
-
-  Souls, rational, the opinion that there are three kinds of, i. 325,
-          326;
-    the, of men, according to the Platonists, become demons, 363;
-    views of the transmigration of, 427, 428;
-    not co-eternal with God, 429;
-    do not return from blessedness to labour and misery, after certain
-          periodic revolutions, 509.
-
-  Σωφροσύνη, ii. 303.
-
-  Speusippus, i. 324.
-
-  Spirit, i. 553, 554, 555.
-
-  Spiritual body, the, of the saints, in the resurrection, 516.
-
-  Stars, the supposed influence of, on kingdoms, births, etc., i. 177,
-          178, 179, 180;
-    some, called by the names of gods, 277, etc.
-
-  Stephen, St., miracles wrought by the relics of, and at the shrine
-          of, ii. 492, 493, 494, 495, 496, 497.
-
-  Stoics, opinions of, about mental emotions, i. 355, etc.;
-    the three perturbations admitted by, in the soul of the wise man,
-          ii. 12, etc.;
-    the belief of, as to the gods, 268;
-    suicide permitted by, 304, 305.
-
-  Strong man, the, ii. 356.
-
-  Substance, the, of the people of God, ii. 194.
-
-  Suicide, committed through fear of dishonour or of punishment, i. 25;
-    Christians have no authority for committing, under any
-          circumstances, 30;
-    can never be prompted to, by magnanimity, 32;
-    the example of Cato in relation to, 34;
-    should it be resorted to, to avoid sin? 38;
-    permitted by the Stoics, ii. 304, 305.
-
-  Sun, the, stayed in its course by Joshua, ii. 429, 430.
-
-  Superstition, i. 171.
-
-  Sylla, the deeds of, i. 81-83;
-    and Marius, the war between, 128, 129.
-
-  Sylva, i. 95.
-
-  Symmachus, i. 51, and note.
-
-
-  Tarquinius, Priscus, or Superbus, his barbarous murder of his
-          father-in-law, i. 110;
-    the expulsion of, from Rome, 110, 111.
-
-  Tatius, Titus, introduces new gods, i. 161.
-
-  Tellus, i. 147;
-    the surnames of, and their significance, 289.
-
-  Temperance, ii. 303.
-
-  Ten kings, the, ii. 394.
-
-  Terah, the emigration of, from Ur of the Chaldees, ii. 125;
-    the years of, 126.
-
-  Terence, quoted, i. 56.
-
-  Terentius, a certain, finds the books of Numa Pompilius, i. 301.
-
-  Terminus, i. 162, 169;
-    and Janus, 268.
-
-  Thales, the founder of the Ionic school of philosophy, i. 307.
-
-  Theatrical exhibitions, publish the shame of the gods, i. 57;
-    the obscenities of, contributed to overthrow the republic, 87.
-
-  Theodorus, the Cyrenian philosopher, his reply to Lysimachus, i. 20,
-          note.
-
-  Theodosius, the faith and piety of, i. 224, etc.
-
-  Theological poets, ii. 232, 233.
-
-  Theology, Varro's threefold division of, i. 238-243.
-
-  Θεοσέβεια, i. 384.
-
-  Theurgy, i. 394, etc., 396, etc.
-
-  Thousand years, the, of the Book of Revelation, ii. 356;
-    the reign of the saints with Christ during, 362, etc.
-
-  Threats employed against the gods to compel their aid, i. 399.
-
-  Θρησκεία, i. 384.
-
-  Tilon, the island of, ii. 422.
-
-  Time, i. 442.
-
-  Time, times, and a half time, ii. 394.
-
-  Times and seasons, the hidden, ii. 288, 289.
-
-  Titus, Latinius, i. 325.
-
-  Torquatus, slays his victorious son, i. 210.
-
-  Transformations, strange, of men, ii. 235;
-    what we should believe respecting, 235-238
-
-  Transgression, the first, the greatness of, ii. 347, 348.
-
-  Transmigration of souls, the Platonic views of, amended by Porphyry,
-          i. 427, 428.
-
-  "Tree of life, the, the days of," ii. 402.
-
-  Trinity, the, i. 414;
-    further explained, 447-450;
-    further statements of,--indications of, scattered everywhere among
-          the works of God, 465;
-    indications of, in philosophy, 466-468;
-    the image of, in human nature, 468.
-
-  Troy, the gods unable to afford an asylum during the sack of, i. 6;
-    were the gods justified in permitting the destruction of? 93, etc.
-
-  Truth, the sad results where it is hidden, ii. 309, etc.
-
-  Tullus Hostilius, i. 109, 110.
-
-  Twelve thrones, ii. 351.
-
-  Twenty Martyrs, the, how a tailor got a new coat by praying at the
-          shrine of, ii. 492.
-
-  Twins, on the difference of the health, etc., of, i. 179, 180;
-    of different sexes, 185.
-
-
-  Unbaptized, the, saved through the confession of Christ, i. 527, 528.
-
-  Unbelief of the Jews, the, foretold, ii. 208.
-
-  Unity, the, of the human race, i. 513, etc.
-
-  Universe, the beauty of the, i. 457.
-
-
-  Valens, a persecutor, ii. 287.
-
-  Valentinian, protected by Theodosius, i. 224;
-    a confessor, ii. 287.
-
-  Valerius, Marcus, i. 213.
-
-  Varro, his opinion of the utility of men feigning themselves to be
-          the offspring of gods, i. 94;
-    boasts of having conferred the knowledge of the worship of the gods
-          on the Romans, 159, 160;
-    what he thought of the gods of the nations, 232;
-    his book concerning the antiquities of divine and human things,
-          234, 235, etc.;
-    his threefold division of theology into fabulous, natural, and
-          civil, 238, etc.;
-    the opinion of, that God is the soul of the world, 267, 272;
-    pronounces his own opinions respecting the gods uncertain, 280;
-    holds the earth to be a goddess, 286, etc.;
-    his doctrine of the gods not self-consistent, 295;
-    assigns the reason why Athens was so called, ii. 226;
-    the opinion of, about the name of Areopagus, 227, 228;
-    what he relates of the strange transformations of men, 235, etc.;
-    on the number of philosophical sects, 293-299, etc;
-    in reference to a celestial portent, 429;
-    his story of the Vestal virgin falsely accused, 503;
-    his work on _The Origin of the Roman People_, quoted in relation to
-          the _Palingenesy_, 533.
-
-  Vaticanus, i. 149.
-
-  Venilia, i. 285.
-
-  Venus, a peculiar candelabrum in a temple of, ii. 423, 424.
-
-  Venus, the planet, a strange prodigy that occurred to, ii. 429.
-
-  Vesta, i. 147, 148, 279.
-
-  Vestal virgin, a, to prove her innocence, carries water in a sieve
-          from the Tiber, ii. 503.
-
-  Vestal virgins, the punishment of those caught in adultery, i. 95.
-
-  Vice, not nature, contrary to God, and hurtful, i. 484.
-
-  Vicissitudes of life, the, on what dependent, i. 79, etc.
-
-  _Victoria_, the goddess, i. 152, 153;
-    ought she to be worshipped as well as Jove? 154.
-
-  Virgil, quoted, i. 2, 4, 5, 6, 29, 78, 89, 92, 101, 103, 106, 107,
-          199, 200, 270, 272, 294, 332, 333, 384, 412, 421, 428, ii. 5,
-          234, 397, 425, 439, 470.
-
-  Virgin Mary, the, ii. 204.
-
-  Virgins, the violation of, by force, does not contaminate, i. 25.
-
-  Virtue and Faith, honoured by the Romans with temples, i. 156, 157;
-    the Romans ought to have been content with, and Felicity, 157;
-    the war waged by, ii. 203.
-
-  Virtues, as disgraceful to make them serve human glory as to serve
-          bodily pleasure, i. 217;
-    true, necessary to true religion, ii. 340, 341.
-
-  Virtumnus and Sentinus, i. 260, 261.
-
-  Virtus, the goddess, i. 263, 264.
-
-  Vision, the beatific, ii. 534-540.
-
-  Vulcan, i. 279.
-
-
-  Warfare, the Christian, ii. 442.
-
-  War, against the Albans, i. 105;
-    with Pyrrhus, 116;
-    the Punic, 117, etc.; 119, etc.;
-    the civil, of the Gracchi, 126;
-    the civil, between Marius and Sylla, 128, etc.;
-    the Gothic and Gallic, 130;
-    severe and frequent, before the advent of Christ, 131;
-    the duration of various, 220;
-    with Radagaisus, 221;
-    the miseries of, ii. 311.
-
-  Waters, the separation of the, i. 479.
-
-  Wicked, the, the ills which alone are feared by, i. 91;
-    God makes a good use of, ii. 284;
-    going out to see the punishment of, 392;
-    the end of, 343;
-    and the good, one event befalls, i. 10, ii. 348;
-    the connection of, and the good together, i. 11.
-
-  Wickedness, not a flaw of nature, i. 456.
-
-  Will, the consent of, to an evil deed, makes the deed evil, i. 26;
-    is it ruled by necessity? 195;
-    the enemies of God are so by, 484, 487;
-    no efficient cause of an evil, 490;
-    the misdirected love by which it fell away from the immutable to
-          the mutable good, 490, 491;
-    whether the angels received their good, from God, 491, 492;
-    the character of, makes the affections of the soul right or wrong,
-          ii. 9, etc.;
-    in the state of perfect felicity, 542.
-
-  Will of God, the eternal and unchangeable, ii. 474.
-
-  Wisdom, described in the Book of Proverbs, ii. 211.
-
-  Wisdom, the Book of, a prophecy of Christ in the, ii. 209.
-
-  Wives, how the Romans obtained their first, i. 103.
-
-  Woman, shall she retain he sex in the resurrection? ii. 509, 510;
-    the formation of, from a rib of sleeping Adams, a type, 510.
-
-  World, the, not eternal, i. 439;
-    the infinite ages before, not to be comprehended, 441;
-    and time had both one beginning, 442;
-    falseness of the history which ascribes many thousand years to the
-          past existence of, 494;
-    of those who hold a plurality of worlds, 496;
-    predictions respecting the end of, ii. 395, etc.
-
-  Worlds without end, or ages of ages, i. 508, etc.
-
-  Wonders, lying, ii. 483.
-
-  Worm, the, that dieth not, ii. 393, 433.
-
-  Worship of God, distinction between _latria_ and _dulia_, i. 383,
-          384, 386, etc.
-
-
-  Xenocrates, i. 324.
-
-
-  Years, in the time of the antediluvians, ii. 68, etc., 73, etc.;
-    in the words, "their days shall be an hundred and twenty years,"
-          97, etc.;
-    the thousand, of the Book of Revelation, 356;
-    the three and a half, of the Book of Revelation, 394.
-
-
-  Zoroaster, ii. 440.
-
-                      MURRAY AND GIBB, EDINBURGH,
-             PRINTERS TO HER MAJESTY'S STATIONERY OFFICE.
-
-
-
-
-                   _T. and T. Clark's Publications._
-
-                   =Ante-Nicene Christian Library.=
-
-          A COLLECTION OF ALL THE WORKS OF THE FATHERS OF THE
-           CHRISTIAN CHURCH, PRIOR TO THE COUNCIL OF NICÆA,
-
-                             EDITED BY THE
-
-                    =REV. ALEXANDER ROBERTS, D.D.=,
-
-             Author of 'Discussions on the Gospels,' etc.,
-
-                                  AND
-
-                       =JAMES DONALDSON, LL.D.=,
-
-       Rector of the Royal High School, Edinburgh, and Author of
-              'Early Christian Literature and Doctrine.'
-
-       *       *       *       *       *
-
-
-Messrs. Clark are now happy to announce the near completion of this
-Series. It has been received with marked approval by all sections of
-the Christian Church in this country and in the United States, as
-supplying what has long been felt to be a want, and also on account
-of the impartiality, learning, and care with which Editors and
-Translators have executed a very difficult task.
-
-The whole Series will be completed in Twenty-four Volumes, of which
-Eighteen are ready, and the remaining Six will be published in the
-course of this year.
-
-Each Work is supplied with a good and full Index; but, to add to
-the value of the completed Series, an Index Volume is preparing for
-the whole Series, which will be sold separately to those who may
-desire it, at a moderate price; and the complete Series (exclusive of
-General Index), in Twenty-four Volumes, will cost Six Guineas.
-
-The Subscription for 1st, 2d, 3d, 4th, and 5th Years is now due--£5,
-5s.
-
-  _The Subscription to the Series is at the rate of_ 21_s. for Four
-      Volumes when paid in advance_ (_or_ 24_s. when not so paid_),
-      _and_ 10_s._ 6_d. each Volume to Non-Subscribers._
-
-The Publishers, however, do not bind themselves to _continue_ to
-supply the complete Series at this rate.
-
-Single Years cannot be had separately, with the exception of
-current year, unless to complete sets, but _any Volume_ may be had
-separately, price 10s. 6d.
-
-       *       *       *       *       *
-
-The Homilies of Origen are not included in the Series, as the
-Publishers have received no encouragement to have them translated.
-
-The Works are arranged as follow:--
-
-
-                              FIRST YEAR.
-
-  APOSTOLIC FATHERS, comprising Clement's Epistles to the
-      Corinthians; Polycarp to the Ephesians; Martyrdom of Polycarp;
-      Epistle of Barnabas; Epistles of Ignatius (longer and shorter,
-      and also the Syriac version); Martyrdom of Ignatius; Epistle
-      to Diognetus; Pastor of Hermas; Papias; Spurious Epistles of
-      Ignatius. In One Volume.
-
-  JUSTIN MARTYR; ATHENAGORAS. In One Volume.
-
-  TATIAN; THEOPHILUS; THE CLEMENTINE RECOGNITIONS. In One Volume.
-
-  CLEMENT OF ALEXANDRIA, Volume First, comprising Exhortation to
-      Heathen; The Instructor; and a portion of the Miscellanies.
-
-
-                             SECOND YEAR.
-
-  HIPPOLYTUS, Volume First; Refutation of all Heresies and Fragments
-      from his Commentaries.
-
-  IRENÆUS, Volume First.
-
-  TERTULLIAN AGAINST MARCION.
-
-  CYPRIAN, Volume First; the Epistles and some of the Treatises.
-
-
-                              THIRD YEAR.
-
-  IRENÆUS (completion); HIPPOLYTUS (completion); Fragments of Third
-      Century. In One Volume.
-
-  ORIGEN: De Principiis; Letters; and portion of Treatise against
-      Celsus.
-
-  CLEMENT OF ALEXANDRIA, Volume Second; Completion of Miscellanies.
-
-  TERTULLIAN, Volume First: To the Martyrs; Apology; To the Nations,
-      etc.
-
-
-                             FOURTH YEAR.
-
-  CYPRIAN, Volume Second (completion); Novatian; Minucius Felix;
-      Fragments.
-
-  METHODIUS; ALEXANDER OF LYCOPOLIS; PETER OF ALEXANDRIA; Anatolius;
-      Clement on Virginity, and Fragments.
-
-  TERTULLIAN, Volume Second.
-
-  APOCRYPHAL GOSPELS; ACTS AND REVELATIONS, comprising all the very
-      curious Apocryphal Writings of the first Three Centuries.
-
-
-                              FIFTH YEAR.
-
-  TERTULLIAN, Volume Third (completion).
-
-  CLEMENTINE HOMILIES; APOSTOLICAL CONSTITUTIONS. In One Volume.
-
-  ARNOBIUS.
-
-  DIONYSIUS; GREGORY THAUMATURGUS; SYRIAN FRAGMENTS. In One Volume.
-
-                (ARNOBIUS and DIONYSIUS, etc., in May.)
-
-
-                   SIXTH YEAR (to be ready in 1871).
-
-  LACTANTIUS. Two Volumes.
-
-  ORIGEN, Volume Second (completion).
-
-  EARLY LITURGIES AND REMAINING FRAGMENTS.
-
-
-
-
-Transcriber's Notes:
-
-
-Obvious punctuation and spelling errors have been fixed throughout.
-
-Inconsistent hyphenation is as in the original.
-
-
-
-
-
-
 End of Project Gutenberg's The City of God, Volume II, by Aurelius Augustine
+

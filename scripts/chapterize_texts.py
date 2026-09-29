@@ -16,7 +16,8 @@ Uso:
   python3 scripts/chapterize_texts.py            # aplica em todos os arquivos com regra
   python3 scripts/chapterize_texts.py --check    # só relata, não grava
 
-Idempotente: arquivo que já tem `##` no corpo é pulado.
+Idempotente: arquivo que já tem `##` no corpo é pulado (fora "## Volume I/II",
+que a Cidade de Deus e as Institutas em inglês já trazem da importação).
 """
 import os
 import re
@@ -41,7 +42,7 @@ def title_case(text):
         core = re.sub(r"[^\w']", "", w)
         if ROMAN.match(core) and len(core) > 1 or core in ("QQ", "Q"):
             out.append(w)
-        elif i > 0 and core.lower() in SMALL_WORDS:
+        elif i > 0 and core.lower() in SMALL_WORDS and not words[i - 1].endswith((".", ":")):
             out.append(w.lower())
         else:
             out.append(w[:1].upper() + w[1:].lower())
@@ -493,7 +494,7 @@ def keep_line_breaks(lines):
     return out
 
 
-def dedent_keep_verse(body):
+def dedent_keep_verse(body, max_len=None):
     """
     Como dedent(), mas bloco de verso (todas as linhas recuadas, a primeira
     podendo começar com "{n}") mantém as quebras de linha.
@@ -504,7 +505,7 @@ def dedent_keep_verse(body):
         cheias = [l for l in linhas if l.strip()]
         verso = len(cheias) > 1 and all(
             l[:1] in (" ", "\t") or (k == 0 and re.match(r"\{\d+\} ", l)) for k, l in enumerate(cheias)
-        )
+        ) and (max_len is None or max(len(l.strip()) for l in cheias) <= max_len)
         out += (keep_line_breaks(dedent(cheias)) if verso else dedent(linhas)) + [""]
     return out
 
@@ -630,7 +631,7 @@ def chapterize_pensees(body):
 
 # ---------------------------------------------------------------- Bunyan, Grace Abounding (RTS, 1905)
 
-def split_by_paragraph_number(lines, titulo, limite=45_000, numero=r"(\d+)\.\s"):
+def split_by_paragraph_number(lines, titulo, limite=45_000, numero=r"(\d+)\.\s", rotulo="§§ ", nivel="##"):
     """
     Divide um trecho longo em capítulos nos parágrafos numerados ("12.  ...")
     do próprio autor, com ~`limite` caracteres cada. O título diz a faixa
@@ -655,7 +656,7 @@ def split_by_paragraph_number(lines, titulo, limite=45_000, numero=r"(\d+)\.\s")
         if (m := re.match(numero, primeira)):
             inicio = int(m.group(1))  # senão, o 1º parágrafo não tem número impresso (Grace Abounding, § 1)
         fim = max(nums) if nums else inicio
-        out += [f"## {titulo}, §§ {inicio}–{fim}", ""] + parte
+        out += [f"{nivel} {titulo}, {rotulo}{inicio}–{fim}", ""] + parte
         inicio = fim + 1
     return out
 
@@ -789,6 +790,251 @@ def chapterize_holy_war(body):
     return out
 
 
+# ---------------------------------------------------------------- Agostinho, Cidade de Deus (Dods, 1871)
+
+ORDINAIS = [
+    "FIRST", "SECOND", "THIRD", "FOURTH", "FIFTH", "SIXTH", "SEVENTH", "EIGHTH",
+    "NINTH", "TENTH", "ELEVENTH", "TWELFTH", "THIRTEENTH", "FOURTEENTH",
+    "FIFTEENTH", "SIXTEENTH", "SEVENTEENTH", "EIGHTEENTH", "NINETEENTH",
+    "TWENTIETH", "TWENTY-FIRST", "TWENTY-SECOND",
+]
+ROMANOS = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII", "XIII",
+           "XIV", "XV", "XVI", "XVII", "XVIII", "XIX", "XX", "XXI", "XXII", "XXIII", "XXIV", "XXV"]
+
+
+def join_block(lines, i):
+    """Junta o bloco (até a linha em branco) que começa em i. Retorna (texto, índice após o bloco)."""
+    partes = []
+    while i < len(lines) and lines[i].strip():
+        partes.append(lines[i].strip())
+        i += 1
+    return " ".join(partes), i
+
+
+def chapterize_city_of_god(body):
+    """
+    Dods (T. & T. Clark, 1871), Gutenberg #45304 e #45305, já com
+    "## Volume I/II". Livros viram `#` ("BOOK FIRST." -> Book I) e os
+    capítulos numerados com título em itálico viram `##`. Notas de cada
+    livro ficam no fim do livro. O sumário de cada volume sai (repete o
+    índice do leitor), e os índices do fim, que remetem a páginas impressas.
+    """
+    out, prosa = [], []
+    livro, marcador = None, ""
+
+    def flush():
+        out.extend(dedent_keep_verse(prosa, max_len=60))
+        prosa.clear()
+
+    def head(texto):
+        flush()
+        out.extend([texto, ""])
+
+    i = 0
+    while i < len(body):
+        raw = body[i]
+        l = raw.strip()
+        b = re.fullmatch(r"BOOK ([A-Z-]+)\.(\[\d+\])?", l)
+        if re.fullmatch(r"## Volume [IVX]+", l):
+            head("#" + l[2:])
+        elif l == "CONTENTS.":
+            # pula o sumário até o próximo marco (prefácio ou início do texto)
+            i += 1
+            while not re.fullmatch(r"EDITOR'S PREFACE\.|THE CITY OF GOD\.|BOOK [A-Z-]+\.(\[\d+\])?", body[i].strip()) or \
+                    re.fullmatch(r"BOOK [IVXL]+\.", body[i].strip()):
+                i += 1
+            continue
+        elif l == "EDITOR'S PREFACE.":
+            livro = "the Editor's Preface"
+            head("## Editor's Preface")
+        elif l == "TO SUBSCRIBERS.":
+            head("## To Subscribers")
+        elif b and b.group(1) in ORDINAIS:
+            n = ROMANOS[ORDINAIS.index(b.group(1))]
+            livro = f"Book {n}"
+            head(f"# Book {n}")
+            marcador = b.group(2) or ""  # nota que estava no título: vai para o "Argument"
+        elif l == "ARGUMENT.":
+            j = next_nonblank(body, i)
+            texto, i = join_block(body, j)
+            flush()
+            out.extend([f"**Argument.**{marcador} {texto}", ""])
+            marcador = ""  # caixa alta original: minúscula quebraria nomes próprios
+            continue
+        elif l.startswith("PREFACE, EXPLAINING HIS DESIGN"):
+            texto, i = join_block(body, i)
+            head("## " + title_case(texto.rstrip(".")))
+            continue
+        elif re.match(r"\d+\.\s+_", l):  # (o cap. 12 do livro XII não é recuado)
+            texto, i = join_block(body, i)
+            head("## " + re.sub(r"\s+", " ", texto.replace("_", "")).rstrip("."))
+            continue
+        elif l == "FOOTNOTES:":
+            head(f"## Footnotes to {livro}")
+        elif l == "INDEXES.":
+            # índices de Escritura e de assuntos remetem a volume e página impressos
+            i = next((k for k in range(i, len(body)) if body[k].startswith("End of")), len(body))
+            continue
+        else:
+            prosa.append(raw)
+        i += 1
+    flush()
+    return out
+
+
+# ---------------------------------------------------------------- Calvino, Institutas (John Allen)
+
+INSTITUTES_FRONT = {
+    "ADVERTISEMENT.": "## Advertisement",
+    "THE TRANSLATOR’S PREFACE.": "## The Translator’s Preface",
+    "LAST CORRECTIONS AND ADDITIONS.": "## Last Corrections and Additions",
+    "DEDICATION.": "## Dedication",
+    "GENERAL SYLLABUS.": "## General Syllabus",
+}
+
+
+def chapterize_institutes(body):
+    """
+    John Allen, "Sixth American Edition" (Gutenberg #45001 e #64392), já
+    com "## Volume I/II". As duas transcrições marcam diferente:
+    Vol. I "BOOK I. ON THE KNOWLEDGE..." e "Chapter I. The Connection...";
+    Vol. II "BOOK IV." / "CHAPTER XIV." centralizados, título na linha de
+    baixo. Livros viram `#`, capítulos `##` (80 no total: 18+17+25+20).
+    As 2016 notas do Vol. I (todas no fim) viram capítulos de ~45 KB; as do
+    Vol. II já ficam no fim de cada capítulo. Saem o sumário do Vol. I
+    (repete o índice do leitor) e o índice de Escritura, que remete às
+    páginas da edição impressa.
+    """
+    out, prosa = [], []
+    i = 0
+
+    def flush():
+        out.extend(dedent_keep_verse(prosa, max_len=60))
+        prosa.clear()
+
+    def head(texto):
+        flush()
+        out.extend([texto, ""])
+
+    while i < len(body):
+        raw = body[i]
+        l = raw.strip()
+        if re.fullmatch(r"## Volume [IVX]+", l):
+            head("#" + l[2:])
+        elif l == "CONTENTS":
+            i += 1
+            while body[i].strip() != "Footnotes":  # última linha do sumário
+                i += 1
+        elif l in INSTITUTES_FRONT:
+            head(INSTITUTES_FRONT[l])
+        elif re.match(r"BOOK [IVX]+\. \S", l):  # Vol. I: título na mesma linha
+            texto, i = join_block(body, i)
+            n, titulo = re.match(r"BOOK ([IVX]+)\. (.*)", texto).groups()
+            head(f"# Book {n}. {title_case(titulo.rstrip('.'))}")
+            continue
+        elif re.fullmatch(r"BOOK ([IVX]+)\.", l):  # Vol. II
+            n = l[5:-1]
+            j = next_nonblank(body, i)
+            if body[j].strip().startswith("CHAPTER"):
+                head(f"# Book {n} (continued)")
+            else:
+                texto, i = join_block(body, j)
+                head(f"# Book {n}. {title_case(texto.rstrip('.'))}")
+                continue
+        elif re.match(r"Chapter [IVXL]+\. ", l):  # Vol. I
+            texto, i = join_block(body, i)
+            n, titulo = re.match(r"Chapter ([IVXL]+)\. (.*)", texto).groups()
+            head(f"## Chapter {n}. {title_case(titulo.rstrip('.'))}")
+            continue
+        elif re.fullmatch(r"CHAPTER ([IVXL]+)\.", l):  # Vol. II
+            texto, i = join_block(body, i + 1)
+            head(f"## Chapter {l[8:-1]}. {title_case(texto.rstrip('.'))}")
+            continue
+        elif l in ("Argument.", "ARGUMENT."):
+            flush()
+            out.extend(["**Argument.**", ""])
+        elif l == "FOOTNOTES":  # notas do Vol. I, até o "## Volume II"
+            flush()
+            fim = next(k for k in range(i, len(body)) if body[k].startswith("## Volume"))
+            while body[fim - 1].strip() in ("", "---"):
+                fim -= 1
+            notas = dedent(body[i + 1:fim])
+            out.extend(split_by_paragraph_number(notas, "Notes to Volume I", numero=r"(\d+) ", rotulo=""))
+            out.extend(["", "---", ""])
+            i = fim
+            continue
+        elif l == "INDEX OF THE PRINCIPAL MATTERS.":
+            head("# Index of the Principal Matters")
+        elif l == "SCRIPTURE INDEX TO CALVIN’S INSTITUTES.":
+            fim = next((k for k in range(i, len(body)) if body[k].startswith("End of")), len(body))
+            i = fim
+            continue
+        else:
+            prosa.append(raw)
+        i += 1
+    flush()
+    return split_long_chapters(out)
+
+
+def roman_to_int(r):
+    vals = {"I": 1, "V": 5, "X": 10, "L": 50, "C": 100}
+    total = 0
+    for a, b in zip(r, r[1:] + " "):
+        total += -vals[a] if b != " " and vals[a] < vals[b] else vals[a]
+    return total
+
+
+def split_long_chapters(lines, limite=60_000, alvo=45_000):
+    """
+    Capítulo `##` das Institutas maior que `limite` é dividido nas seções
+    numeradas de Calvino ("II. In the first place..." no começo de
+    parágrafo), com a faixa no título: "Chapter XX. On Prayer... (§§ I–XIV)".
+    A seção I não tem número impresso.
+    """
+    caps, atual = [], []
+    for l in lines:
+        if re.match(r"#{1,2} ", l) and atual:
+            caps.append(atual)
+            atual = []
+        atual.append(l)
+    caps.append(atual)
+    out = []
+    for cap in caps:
+        if not cap[0].startswith("## Chapter") or sum(len(l) + 1 for l in cap) <= limite:
+            out += cap
+            continue
+        partes, parte, tam = [], [], 0
+        for k, l in enumerate(cap[1:], 1):
+            m = re.match(r"([IVXL]+)\. \S", l)
+            if m and not cap[k - 1].strip() and tam > alvo:
+                partes.append(parte)
+                parte, tam = [], 0
+            parte.append(l)
+            tam += len(l) + 1
+        if partes and tam < alvo / 4:
+            partes[-1] += parte
+        else:
+            partes.append(parte)
+        inicio = 1
+        for parte in partes:
+            nums = [roman_to_int(m.group(1)) for k, l in enumerate(parte)
+                    if (m := re.match(r"([IVXL]+)\. \S", l)) and (k == 0 or not parte[k - 1].strip())]
+            primeira = next((l for l in parte if l.strip()), "")
+            if (m := re.match(r"([IVXL]+)\. \S", primeira)):
+                inicio = roman_to_int(m.group(1))
+            fim = max(nums) if nums else inicio
+            out += [f"{cap[0]} (§§ {ROMANOS_ATE_C[inicio]}–{ROMANOS_ATE_C[fim]})"] + parte
+            inicio = fim + 1
+    return out
+
+
+ROMANOS_ATE_C = [""] + [
+    ("C" * (n // 100)) + ["", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"][n % 100 // 10]
+    + ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"][n % 10]
+    for n in range(1, 200)
+]
+
+
 RULES = {
     "summa-theologica-part-i-prima-pars.md": chapterize_summa,
     "summa-theologica-part-i-ii-pars-prima-secundae.md": chapterize_summa,
@@ -809,6 +1055,8 @@ RULES = {
     "grace-abounding-to-the-chief-of-sinners.md": chapterize_grace_abounding,
     "the-pilgrims-progress.md": chapterize_pilgrim,
     "the-holy-war.md": chapterize_holy_war,
+    "cidade-de-deus-en.md": chapterize_city_of_god,
+    "institutas-da-religiao-crista-en.md": chapterize_institutes,
 }
 
 
@@ -838,7 +1086,7 @@ def main():
             continue
         text = open(path, encoding="utf-8").read()
         header, body = split_header(text)
-        if any(l.startswith("## ") for l in body):
+        if any(l.startswith("## ") and not re.fullmatch(r"## Volume [IVX]+", l) for l in body):
             print(f"{name}: já tem capítulos, pulando")
             continue
         new_body = rule(body)

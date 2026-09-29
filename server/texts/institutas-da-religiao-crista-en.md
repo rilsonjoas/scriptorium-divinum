@@ -16,170 +16,41 @@
 
 ---
 
-## Volume I
+
+# Volume I
+
 
 Institutes of the Christian Religion
 
-                                    by
+by
 
-                               John Calvin
+John Calvin
 
- Translated from the original Latin, and collated with the author’s last
-                            edition in French,
+Translated from the original Latin, and collated with the author’s last
+edition in French,
 
-                              by John Allen
+by John Allen
 
-              Sixth American Edition, Revised and Corrected.
+Sixth American Edition, Revised and Corrected.
 
-                             In Two Volumes.
+In Two Volumes.
 
-                                 Vol. I.
+Vol. I.
 
-                              Philadelphia:
+Philadelphia:
 
-                    Presbyterian Board of Publication
+Presbyterian Board of Publication
 
-                                   1813
-
-
+1813
 
 
-
-CONTENTS
-
-
-Advertisement.
-The Translator’s Preface.
-The Author’s Preface to An Edition Published In The Year 1559, With His
-Last Corrections And Additions.
-Dedication.
-General Syllabus.
-Book I. On The Knowledge Of God The Creator.
-   Argument.
-   Chapter I. The Connection Between The Knowledge Of God And The
-   Knowledge Of Ourselves.
-   Chapter II. The Nature And Tendency Of The Knowledge Of God.
-   Chapter III. The Human Mind Naturally Endued With The Knowledge Of God.
-   Chapter IV. This Knowledge Extinguished Or Corrupted, Partly By
-   Ignorance, Partly By Wickedness.
-   Chapter V. The Knowledge Of God Conspicuous In The Formation And
-   Continual Government Of The World.
-   Chapter VI. The Guidance And Teaching Of The Scripture Necessary To
-   Lead To The Knowledge Of God The Creator.
-   Chapter VII. The Testimony Of The Spirit Necessary To Confirm The
-   Scripture, In Order To The Complete Establishment Of Its Authority. The
-   Suspension Of Its Authority On The Judgment Of The Church, An Impious
-   Fiction.
-   Chapter VIII. Rational Proofs To Establish The Belief Of The Scripture.
-   Chapter IX. The Fanaticism Which Discards The Scripture, Under The
-   Pretence Of Resorting To Immediate Revelations, Subversive Of Every
-   Principle Of Piety.
-   Chapter X. All Idolatrous Worship Discountenanced In The Scripture, By
-   Its Exclusive Opposition Of The True God To All The Fictitious Deities
-   Of The Heathen.
-   Chapter XI. Unlawfulness Of Ascribing To God A Visible Form. All
-   Idolatry A Defection From The True God.
-   Chapter XII. God Contradistinguished From Idols, That He May Be Solely
-   And Supremely Worshipped.
-   Chapter XIII. One Divine Essence, Containing Three Persons; Taught In
-   The Scriptures From The Beginning.
-   Chapter XIV. The True God Clearly Distinguished In The Scripture From
-   All Fictitious Ones By The Creation Of The World.
-   Chapter XV. The State Of Man At His Creation, The Faculties Of The
-   Soul, The Divine Image, Free Will, And The Original Purity Of His
-   Nature.
-   Chapter XVI. God’s Preservation And Support Of The World By His Power,
-   And His Government Of Every Part Of It By His Providence.
-   Chapter XVII. The Proper Application Of This Doctrine To Render It
-   Useful To Us.
-   Chapter XVIII. God Uses The Agency Of The Impious, And Inclines Their
-   Minds To Execute His Judgments, Yet Without The Least Stain Of His
-   Perfect Purity.
-Book II. On The Knowledge Of God The Redeemer In Christ, Which Was
-Revealed First To The Fathers Under The Law, And Since To Us In The
-Gospel.
-   Argument.
-   Chapter I. The Fall And Defection Of Adam The Cause Of The Curse
-   Inflicted On All Mankind, And Of Their Degeneracy From Their Primitive
-   Condition. The Doctrine Of Original Sin.
-   Chapter II. Man, In His Present State, Despoiled Of Freedom Of Will,
-   And Subjected To A Miserable Slavery.
-   Chapter III. Every Thing That Proceeds From The Corrupt Nature Of Man
-   Worthy Of Condemnation.
-   Chapter IV. The Operation Of God In The Hearts Of Men.
-   Chapter V. A Refutation Of The Objections Commonly Urged In Support Of
-   Free Will.
-   Chapter VI. Redemption For Lost Man To Be Sought In Christ.
-   Chapter VII. The Law Given, Not To Confine The Ancient People To
-   Itself, But To Encourage Their Hope Of Salvation In Christ, Till The
-   Time Of His Coming.
-   Chapter VIII. An Exposition Of The Moral Law
-      The First Commandment.
-      The Second Commandment.
-      The Third Commandment.
-      The Fourth Commandment.
-      The Fifth Commandment.
-      The Sixth Commandment.
-      The Seventh Commandment.
-      The Eighth Commandment.
-      The Ninth Commandment.
-      The Tenth Commandment.
-   Chapter IX. Christ, Though Known To The Jews Under The Law, Yet Clearly
-   Revealed Only In The Gospel.
-   Chapter X. The Similarity Of The Old And New Testaments.
-   Chapter XI. The Difference Of The Two Testaments.
-   Chapter XII. The Necessity Of Christ Becoming Man In Order To Fulfil
-   The Office Of Mediator.
-   Chapter XIII. Christ’s Assumption Of Real Humanity.
-   Chapter XIV. The Union Of The Two Natures Constituting The Person Of
-   The Mediator.
-   Chapter XV. The Consideration Of Christ’s Three Offices, Prophetical,
-   Regal, And Sacerdotal, Necessary To Our Knowing The End Of His Mission
-   From The Father, And The Benefits Which He Confers On Us.
-   Chapter XVI. Christ’s Execution Of The Office Of A Redeemer To Procure
-   Our Salvation. His Death, Resurrection, And Ascension To Heaven.
-   Chapter XVII. Christ Truly And Properly Said To Have Merited The Grace
-   Of God And Salvation For Us.
-Book III. On The Manner Of Receiving The Grace Of Christ, The Benefits
-Which We Derive From It, And The Effects Which Follow It.
-   Argument.
-   Chapter I. What Is Declared Concerning Christ Rendered Profitable To Us
-   By The Secret Operation Of The Spirit.
-   Chapter II. Faith Defined, And Its Properties Described.
-   Chapter III. On Repentance.
-   Chapter IV. The Sophistry And Jargon Of The Schools Concerning
-   Repentance, Very Remote From The Purity Of The Gospel. On Confession
-   And Satisfaction.
-   Chapter V. Indulgences And Purgatory. The Supplements To Their Doctrine
-   Of Satisfactions.
-   Chapter VI. The Life Of A Christian. Scriptural Arguments And
-   Exhortations To It.
-   Chapter VII. Summary Of The Christian Life. Self‐Denial.
-   Chapter VIII. Bearing The Cross, Which Is A Branch Of Self‐Denial.
-   Chapter IX. Meditation On The Future Life.
-   Chapter X. The Right Use Of The Present Life And Its Supports.
-   Chapter XI. Justification By Faith. The Name And Thing Defined.
-   Chapter XII. A Consideration Of The Divine Tribunal, Necessary To A
-   Serious Conviction Of Gratuitous Justification.
-   Chapter XIII. Two Things Necessary To Be Observed In Gratuitous
-   Justification.
-Footnotes
-
-
-
-
-
-
-                               [Cover Art]
+[Cover Art]
 
 [Transcriber’s Note: The above cover image was produced by the submitter
 at Distributed Proofreaders, and is being placed into the public domain.]
 
 
-
-
-
-ADVERTISEMENT.
+## Advertisement
 
 
 The Presbyterian Board of Publication, in introducing to the public a new
@@ -258,10 +129,7 @@ In behalf of the Executive Committee,
 William M. Engles, EDITOR.
 
 
-
-
-
-THE TRANSLATOR’S PREFACE.
+## The Translator’s Preface
 
 
 The English Reader is here presented with a translation of one of the
@@ -495,11 +363,9 @@ will sustain no diminution from the form in which it now appears.
 LONDON, _May 12, 1813_.
 
 
-
-
-
 THE AUTHOR’S PREFACE TO AN EDITION PUBLISHED IN THE YEAR 1559, WITH HIS
-LAST CORRECTIONS AND ADDITIONS.
+
+## Last Corrections and Additions
 
 
 In the first edition of this work, not expecting that success which the
@@ -572,14 +438,11 @@ let me have the assistance of your prayers with God our Father.
 GENEVA, _1st August, 1559_.
 
 
+## Dedication
 
 
-
-DEDICATION.
-
-
-    _To His Most Christian Majesty_, FRANCIS, _King of the French, and
-    his Sovereign, John Calvin wisheth peace and salvation in Christ_.
+_To His Most Christian Majesty_, FRANCIS, _King of the French, and
+his Sovereign, John Calvin wisheth peace and salvation in Christ_.
 
 
 When I began this work, Sire, nothing was further from my thoughts than
@@ -1266,10 +1129,7 @@ with equity.
 BASIL, _1st August, 1536_.
 
 
-
-
-
-GENERAL SYLLABUS.
+## General Syllabus
 
 
 The design of the Author in these Christian Institutes is twofold,
@@ -1416,15 +1276,10 @@ life and the heavenly inheritance his praises are celebrated for such
 stupendous mercy.
 
 
+# Book I. On the Knowledge of God the Creator
 
 
-
-BOOK I. ON THE KNOWLEDGE OF GOD THE CREATOR.
-
-
-
-
-Argument.
+**Argument.**
 
 
 The first book treats of the knowledge of God the Creator; but, this being
@@ -1481,10 +1336,7 @@ God uses the agency of the wicked, he is pure from all pollution, and
 chargeable with no blame.
 
 
-
-
-Chapter I. The Connection Between The Knowledge Of God And The Knowledge
-Of Ourselves.
+## Chapter I. The Connection Between the Knowledge of God and the Knowledge of Ourselves
 
 
 True and substantial wisdom principally consists of two parts, the
@@ -1580,9 +1432,7 @@ instruction requires us first to treat of the former, and then to proceed
 to the discussion of the latter.
 
 
-
-
-Chapter II. The Nature And Tendency Of The Knowledge Of God.
+## Chapter II. The Nature and Tendency of the Knowledge of God
 
 
 By the knowledge of God, I intend not merely a notion that there is such a
@@ -1679,9 +1529,7 @@ ceremonies is universally displayed, but sincerity of heart is rarely to
 be found.
 
 
-
-
-Chapter III. The Human Mind Naturally Endued With The Knowledge Of God.
+## Chapter III. The Human Mind Naturally Endued with the Knowledge of God
 
 
 We lay it down as a position not to be controverted, that the human mind,
@@ -1780,10 +1628,7 @@ worship of God is therefore the only thing which renders men superior to
 brutes, and makes them aspire to immortality.
 
 
-
-
-Chapter IV. This Knowledge Extinguished Or Corrupted, Partly By Ignorance,
-Partly By Wickedness.
+## Chapter IV. This Knowledge Extinguished or Corrupted, Partly by Ignorance, Partly by Wickedness
 
 
 While experience testifies that the seeds of religion are sown by God in
@@ -1926,10 +1771,7 @@ not altogether ignorant of God, but that what ought to have appeared
 before had been suppressed by obstinacy.
 
 
-
-
-Chapter V. The Knowledge Of God Conspicuous In The Formation And Continual
-Government Of The World.
+## Chapter V. The Knowledge of God Conspicuous in the Formation and Continual Government of the World
 
 
 As the perfection of a happy life consists in the knowledge of God, that
@@ -2089,35 +1931,33 @@ some superior Being. The clamour of some, about a secret inspiration
 animating the whole world, is not only weak, but altogether profane. They
 are pleased with the celebrated passage of Virgil—
 
-
-    “Know, first, a spirit, with an active flame,
-    Fills, feeds, and animates this mighty frame;
-    Runs through the watery worlds, the fields of air,
-    The ponderous earth, the depths of heaven; and there
-    Glows in the sun and moon, and burns in every star.
-    Thus, mingling with the mass, the general soul
-    Lives in the parts, and agitates the whole.
-    From that celestial energy began
-    The low‐browed brute, th’ imperial race of man,
-    The painted birds who wing th’ aërial plain,
-    And all the mighty monsters of the main;
-    Their souls at first from high Olympus came,” &c.(87)
+“Know, first, a spirit, with an active flame,\
+Fills, feeds, and animates this mighty frame;\
+Runs through the watery worlds, the fields of air,\
+The ponderous earth, the depths of heaven; and there\
+Glows in the sun and moon, and burns in every star.\
+Thus, mingling with the mass, the general soul\
+Lives in the parts, and agitates the whole.\
+From that celestial energy began\
+The low‐browed brute, th’ imperial race of man,\
+The painted birds who wing th’ aërial plain,\
+And all the mighty monsters of the main;\
+Their souls at first from high Olympus came,” &c.(87)
 
 
 Just as if the world, which is a theatre erected for displaying the glory
 of God, were its own creator! For thus writes the same poet in another
 place, following the common opinion of the Greeks and Latins—
 
-
-    “Led by such wonders, sages have opined,
-    That bees have portions of a heavenly mind;
-    That God pervades, and, like one common soul,
-    Fills, feeds, and animates the world’s great whole;
-    That flocks, herds, beasts, and men, from him receive
-    Their vital breath; in him all move and live;
-    That souls discerpt from him shall never die,
-    But back resolved to God and heaven shall fly,
-    And live for ever in the starry sky.”(88)
+“Led by such wonders, sages have opined,\
+That bees have portions of a heavenly mind;\
+That God pervades, and, like one common soul,\
+Fills, feeds, and animates the world’s great whole;\
+That flocks, herds, beasts, and men, from him receive\
+Their vital breath; in him all move and live;\
+That souls discerpt from him shall never die,\
+But back resolved to God and heaven shall fly,\
+And live for ever in the starry sky.”(88)
 
 
 See the efficacy of that jejune speculation concerning a universal mind
@@ -2470,10 +2310,7 @@ depriving the acts themselves of their glory, and their Author of his
 deserved praise.
 
 
-
-
-Chapter VI. The Guidance And Teaching Of The Scripture Necessary To Lead
-To The Knowledge Of God The Creator.
+## Chapter VI. The Guidance and Teaching of the Scripture Necessary to Lead to the Knowledge of God the Creator
 
 
 Though the light which presents itself to all eyes, both in heaven and in
@@ -2625,12 +2462,7 @@ sacred word, all mankind, except the Jews, as they sought God without the
 word, must necessarily have been wandering in vanity and error.
 
 
-
-
-Chapter VII. The Testimony Of The Spirit Necessary To Confirm The
-Scripture, In Order To The Complete Establishment Of Its Authority. The
-Suspension Of Its Authority On The Judgment Of The Church, An Impious
-Fiction.
+## Chapter VII. The Testimony of the Spirit Necessary to Confirm the Scripture, in Order to the Complete Establishment of Its Authority. The Suspension of Its Authority on the Judgment of the Church, an Impious Fiction
 
 
 Before I proceed any further, it is proper to introduce some remarks on
@@ -2861,9 +2693,7 @@ remember that none, but those to whom it was given, have any apprehension
 of the mysteries of God.
 
 
-
-
-Chapter VIII. Rational Proofs To Establish The Belief Of The Scripture.
+## Chapter VIII. Rational Proofs to Establish the Belief of the Scripture
 
 
 Without this certainty, better and stronger than any human judgment, in
@@ -3253,11 +3083,7 @@ justly observes,(144) that piety and peace of mind ought to precede, in
 order that a man may understand somewhat of such great subjects.
 
 
-
-
-Chapter IX. The Fanaticism Which Discards The Scripture, Under The
-Pretence Of Resorting To Immediate Revelations, Subversive Of Every
-Principle Of Piety.
+## Chapter IX. The Fanaticism Which Discards the Scripture, Under the Pretence of Resorting to Immediate Revelations, Subversive of Every Principle of Piety
 
 
 Persons who, abandoning the Scripture, imagine to themselves some other
@@ -3383,11 +3209,7 @@ dwelt in and spake by the apostles; by whose oracles they are continually
 called to the hearing of the word.
 
 
-
-
-Chapter X. All Idolatrous Worship Discountenanced In The Scripture, By Its
-Exclusive Opposition Of The True God To All The Fictitious Deities Of The
-Heathen.
+## Chapter X. All Idolatrous Worship Discountenanced in the Scripture, by Its Exclusive Opposition of the True God to All the Fictitious Deities of the Heathen
 
 
 But, since we have shown that the knowledge of God, which is otherwise
@@ -3498,10 +3320,7 @@ acknowledge no other God than Jehovah, who had revealed himself in his
 word.
 
 
-
-
-Chapter XI. Unlawfulness Of Ascribing To God A Visible Form. All Idolatry
-A Defection From The True God.
+## Chapter XI. Unlawfulness of Ascribing to God a Visible Form. All Idolatry a Defection from the True God
 
 
 Now, as the Scripture, in consideration of the ignorance and dulness of
@@ -4082,10 +3901,7 @@ both God and men? For the Council gives the same honour, without any
 exception, to images and to the living God.
 
 
-
-
-Chapter XII. God Contradistinguished From Idols, That He May Be Solely And
-Supremely Worshipped.
+## Chapter XII. God Contradistinguished from Idols, That He May be Solely and Supremely Worshipped
 
 
 We said, at the beginning, that the knowledge of God consists not in
@@ -4218,10 +4034,7 @@ steep is the descent to this vice, to communicate to a vast multitude that
 which God particularly challenges to himself alone!
 
 
-
-
-Chapter XIII. One Divine Essence, Containing Three Persons; Taught In The
-Scriptures From The Beginning.
+## Chapter XIII. One Divine Essence, Containing Three Persons; Taught in the Scriptures from the Beginning (§§ I–XV)
 
 
 What is taught in the Scriptures concerning the immensity and spirituality
@@ -4888,6 +4701,7 @@ mouth” means the same as “his word,” this is but a weak argument.
 Therefore I have determined to confine myself to a sober statement of
 those evidences on which pious minds may satisfactorily rest.
 
+## Chapter XIII. One Divine Essence, Containing Three Persons; Taught in the Scriptures from the Beginning (§§ XVI–XXIX)
 XVI. As God afforded a clearer manifestation of himself at the advent of
 Christ, the three Persons also then became better known. Among many
 testimonies, let us be satisfied with this one: Paul connects together
@@ -5555,10 +5369,7 @@ since it is evident that three Persons have subsisted in God from all
 eternity.
 
 
-
-
-Chapter XIV. The True God Clearly Distinguished In The Scripture From All
-Fictitious Ones By The Creation Of The World.
+## Chapter XIV. The True God Clearly Distinguished in the Scripture from All Fictitious Ones by the Creation of the World
 
 
 Although Isaiah(290) brings a just accusation of stupidity against the
@@ -6350,10 +6161,7 @@ that, being allured with such great sweetness of goodness and beneficence,
 we may study to love and worship him with all our hearts.
 
 
-
-
-Chapter XV. The State Of Man At His Creation, The Faculties Of The Soul,
-The Divine Image, Free Will, And The Original Purity Of His Nature.
+## Chapter XV. The State of Man at His Creation, the Faculties of the Soul, the Divine Image, Free Will, and the Original Purity of His Nature
 
 
 We must now treat of the creation of man, not only because he exhibits the
@@ -6483,11 +6291,10 @@ distinguishes us from brutes, also exalts us more nearly to God; nor will
 I too vehemently contend with any one who would understand, by the image
 of God, that
 
-
-    “—— while the mute creation downward bend
-    Their sight, and to their earthly mother tend,
-    Man looks aloft, and with erected eyes
-    Beholds his own hereditary skies.”(397)
+“—— while the mute creation downward bend\
+Their sight, and to their earthly mother tend,\
+Man looks aloft, and with erected eyes\
+Beholds his own hereditary skies.”(397)
 
 
 Only let it be decided that the image of God, which appears or sparkles in
@@ -6834,10 +6641,7 @@ to give him any other than an indifferent and mutable will, that from his
 fall he might educe matter for his own glory.
 
 
-
-
-Chapter XVI. God’s Preservation And Support Of The World By His Power, And
-His Government Of Every Part Of It By His Providence.
+## Chapter XVI. God’s Preservation and Support of the World by His Power, and His Government of Every Part of It by His Providence
 
 
 To represent God as a Creator only for a moment, who entirely finished all
@@ -7300,10 +7104,7 @@ prevented, by the necessity of his purpose, what might naturally have come
 to pass.
 
 
-
-
-Chapter XVII. The Proper Application Of This Doctrine To Render It Useful
-To Us.
+## Chapter XVII. The Proper Application of This Doctrine to Render It Useful to Us
 
 
 As the minds of men are prone to vain subtleties, there is the greatest
@@ -7948,11 +7749,7 @@ remain true: “The Lord of hosts hath purposed, and who shall disannul it?
 and his hand is stretched out, and who shall turn it back?”(495)
 
 
-
-
-Chapter XVIII. God Uses The Agency Of The Impious, And Inclines Their
-Minds To Execute His Judgments, Yet Without The Least Stain Of His Perfect
-Purity.
+## Chapter XVIII. God Uses the Agency of the Impious, and Inclines Their Minds to Execute His Judgments, Yet Without the Least Stain of His Perfect Purity
 
 
 A question of greater difficulty arises from other passages, where God is
@@ -8274,17 +8071,10 @@ modesty and greater violence, since it is evident that their opposition is
 against God, are unworthy of a longer refutation.
 
 
+# Book II. On the Knowledge of God the Redeemer in Christ, Which Was Revealed First to the Fathers Under the Law, and Since to Us in the Gospel
 
 
-
-BOOK II. ON THE KNOWLEDGE OF GOD THE REDEEMER IN CHRIST, WHICH WAS
-REVEALED FIRST TO THE FATHERS UNDER THE LAW, AND SINCE TO US IN THE
-GOSPEL.
-
-
-
-
-Argument.
+**Argument.**
 
 
 The discussion of the first part of the Apostolic Creed, on the knowledge
@@ -8332,11 +8122,7 @@ arising from this doctrine. Then follows Chap. XVII., a solution of the
 question, Whether Christ merited for us the grace of God and salvation.
 
 
-
-
-Chapter I. The Fall And Defection Of Adam The Cause Of The Curse Inflicted
-On All Mankind, And Of Their Degeneracy From Their Primitive Condition.
-The Doctrine Of Original Sin.
+## Chapter I. The Fall and Defection of Adam the Cause of the Curse Inflicted on All Mankind, and of Their Degeneracy from Their Primitive Condition. The Doctrine of Original Sin
 
 
 There is much reason in the old adage, which so strongly recommends to man
@@ -8771,10 +8557,7 @@ they might not appear to assign the cause and origin of evil to a
 righteous God.
 
 
-
-
-Chapter II. Man, In His Present State, Despoiled Of Freedom Of Will, And
-Subjected To A Miserable Slavery.
+## Chapter II. Man, in His Present State, Despoiled of Freedom of Will, and Subjected to a Miserable Slavery (§§ I–XVII)
 
 
 Since we have seen that the domination of sin, from the time of its
@@ -9465,6 +9248,7 @@ there is no way.”(577) Yet in this diversity we perceive some remaining
 marks of the Divine image, which distinguish the human race in general
 from all the other creatures.
 
+## Chapter II. Man, in His Present State, Despoiled of Freedom of Will, and Subjected to a Miserable Slavery (§§ XVIII–XXVII)
 XVIII. We now proceed to show what human reason can discover, when it
 comes to the kingdom of God, and to that spiritual wisdom, which consists
 chiefly in three things—to know God, his paternal favour towards us, on
@@ -9878,10 +9662,7 @@ is from him; but whatever evil, from yourself.” And a little after,
 “Nothing is ours, but sin.”
 
 
-
-
-Chapter III. Every Thing That Proceeds From The Corrupt Nature Of Man
-Worthy Of Condemnation.
+## Chapter III. Every Thing That Proceeds from the Corrupt Nature of Man Worthy of Condemnation
 
 
 But man cannot be better known in either faculty of his soul, than when he
@@ -10586,9 +10367,7 @@ place, that he can neither be converted to God nor continue in God but by
 grace; and that all the ability which he has is derived from grace.
 
 
-
-
-Chapter IV. The Operation Of God In The Hearts Of Men.
+## Chapter IV. The Operation of God in the Hearts of Men
 
 
 It has now, I apprehend, been sufficiently proved, that man is so enslaved
@@ -10842,10 +10621,7 @@ possess as much free will as Augustus Cæsar, when governing a great part
 of the world with his nod.
 
 
-
-
-Chapter V. A Refutation Of The Objections Commonly Urged In Support Of
-Free Will.
+## Chapter V. A Refutation of the Objections Commonly Urged in Support of Free Will
 
 
 Enough might appear to have been already said on the servitude of the
@@ -11671,9 +11447,7 @@ and fallacious obliquity, and the heart enslaved by its inward
 perverseness.
 
 
-
-
-Chapter VI. Redemption For Lost Man To Be Sought In Christ.
+## Chapter VI. Redemption for Lost Man to be Sought in Christ
 
 
 The whole human race having perished in the person of Adam, our original
@@ -11936,11 +11710,7 @@ for their God, yet only substitute an idol instead of the true God as long
 as they remain enemies to Christ.
 
 
-
-
-Chapter VII. The Law Given, Not To Confine The Ancient People To Itself,
-But To Encourage Their Hope Of Salvation In Christ, Till The Time Of His
-Coming.
+## Chapter VII. The Law Given, Not to Confine the Ancient People to Itself, but to Encourage Their Hope of Salvation in Christ, Till the Time of His Coming
 
 
 From the deduction we have made, it may easily be inferred, that the law
@@ -12584,9 +12354,7 @@ observances, which could only attest their sins, but could never cancel
 them.
 
 
-
-
-Chapter VIII. An Exposition Of The Moral Law
+## Chapter VIII. An Exposition of the Moral Law (§§ I–XIX)
 
 
 Here I think it will not be foreign to our subject to introduce the ten
@@ -13013,13 +12781,12 @@ the precept concerning honour to parents in the second table. Now let us
 hear God himself speaking in his own words.
 
 
-
 The First Commandment.
 
 
-    _I am the Lord thy God, which have brought thee out of the land of
-    Egypt, out of the house of bondage. Thou shalt have no other gods
-    before me._
+_I am the Lord thy God, which have brought thee out of the land of
+Egypt, out of the house of bondage. Thou shalt have no other gods
+before me._
 
 
 XIII. Whether you make the first sentence a part of the first commandment,
@@ -13174,14 +12941,13 @@ external confession, but in his own eyes, which penetrate the inmost
 recesses of our hearts.
 
 
-
 The Second Commandment.
 
 
-    _Thou shalt not make unto thee any graven image, or any likeness
-    of any thing that is in heaven above, or that is in the earth
-    beneath, or that is in the water under the earth. Thou shalt not
-    bow down thyself to them, nor serve them._
+_Thou shalt not make unto thee any graven image, or any likeness
+of any thing that is in heaven above, or that is in the earth
+beneath, or that is in the water under the earth. Thou shalt not
+bow down thyself to them, nor serve them._
 
 
 XVII. As in the preceding commandment the Lord has declared himself to be
@@ -13216,10 +12982,10 @@ XVIII. The penal sanction which is annexed ought to have no small
 influence in arousing us from our lethargy. He thus threatens:
 
 
-    _For I the Lord thy God am a jealous God, visiting the iniquity of
-    the fathers upon the children unto the third and fourth generation
-    of them that hate me; and showing mercy unto thousands of them
-    that love me, and keep my commandments._
+_For I the Lord thy God am a jealous God, visiting the iniquity of
+the fathers upon the children unto the third and fourth generation
+of them that hate me; and showing mercy unto thousands of them
+that love me, and keep my commandments._
 
 
 This is equivalent to a declaration that it is to him alone that we ought
@@ -13288,6 +13054,7 @@ and that the grandson and the great grandson, the execrable posterity of
 detestable men, will run headlong after them down the same precipice of
 destruction?
 
+## Chapter VIII. An Exposition of the Moral Law (§§ XX–XXXIX)
 XX. First let us inquire, whether such punishment be inconsistent with the
 Divine justice. If the whole nature of man be worthy of condemnation, we
 know that destruction awaits those who are not favoured by the Lord with
@@ -13354,11 +13121,10 @@ intimation of the greatness of his mercy, which he extends to a thousand
 generations, while he has assigned only four generations to his vengeance.
 
 
-
 The Third Commandment.
 
 
-    _Thou shalt not take the name of the Lord thy God in vain._
+_Thou shalt not take the name of the Lord thy God in vain._
 
 
 XXII. The end of this precept is, that the Lord will have the majesty of
@@ -13598,13 +13364,12 @@ as for vindicating the glory of the Lord, or promoting the edification of
 our brother; which is the end of this commandment of the law.
 
 
-
 The Fourth Commandment.
 
 
-    _Remember the sabbath day, to keep it holy. Six days shalt thou
-    labour, and do all thy work; but the seventh day is the sabbath of
-    the Lord thy God; in it thou shalt not do any work, &c._
+_Remember the sabbath day, to keep it holy. Six days shalt thou
+labour, and do all thy work; but the seventh day is the sabbath of
+the Lord thy God; in it thou shalt not do any work, &c._
 
 
 XXVIII. The end of this precept is, that, being dead to our own affections
@@ -13824,12 +13589,11 @@ assemblies ought diligently to be held, and that we ought to use those
 external means which are adapted to support the worship of God.
 
 
-
 The Fifth Commandment.
 
 
-    _Honour thy father and thy mother; that thy days may be long upon
-    the land which the Lord thy God giveth thee._
+_Honour thy father and thy mother; that thy days may be long upon
+the land which the Lord thy God giveth thee._
 
 
 XXXV. The end of this precept is, that since the Lord God desires the
@@ -13949,11 +13713,10 @@ avail to depreciate the preëminence of God, upon which it depends, and to
 which it ought to conduct us.
 
 
-
 The Sixth Commandment.
 
 
-    _Thou shalt not kill._
+_Thou shalt not kill._
 
 
 XXXIX. The end of this precept is, that since God has connected mankind
@@ -13986,6 +13749,7 @@ the judgment; and whosoever shall say to his brother, Raca, shall be in
 danger of the council; but whosoever shall say, Thou fool, shall be in
 danger of hell fire.”(888)
 
+## Chapter VIII. An Exposition of the Moral Law (§§ XL–LIX)
 XL. Now, the Scripture states two reasons on which this precept is
 founded; the first, that man is the image of God; the second, that he is
 our own flesh. Wherefore, unless we would violate the image of God, we
@@ -14007,11 +13771,10 @@ much care and attention should be devoted to the safety of the soul,
 which, in the sight of God, is of infinitely superior value.
 
 
-
 The Seventh Commandment.
 
 
-    _Thou shalt not commit adultery._
+_Thou shalt not commit adultery._
 
 
 XLI. The end of this precept is, that because God loves chastity and
@@ -14135,11 +13898,10 @@ For all these vices are stains, by which the purity of chastity is
 defiled.
 
 
-
 The Eighth Commandment.
 
 
-    _Thou shalt not steal._
+_Thou shalt not steal._
 
 
 XLV. The end of this precept is, that, as injustice is an abomination to
@@ -14235,11 +13997,10 @@ hearts as much as for our hands, in order that men may study both to
 protect the property and to promote the interests of others.
 
 
-
 The Ninth Commandment.
 
 
-    _Thou shalt not bear false witness against thy neighbour._
+_Thou shalt not bear false witness against thy neighbour._
 
 
 XLVII. The end of this precept is, that because God, who is truth itself,
@@ -14320,13 +14081,12 @@ our hearts, our ears, and our tongues, with a view to preserve the
 reputation of all around us.
 
 
-
 The Tenth Commandment.
 
 
-    _Thou shalt not covet thy neighbour’s house, thou shalt not covet
-    thy neighbour’s wife, nor his man‐servant, nor his maid‐servant,
-    nor his ox, nor his ass, nor any thing that is thy neighbour’s._
+_Thou shalt not covet thy neighbour’s house, thou shalt not covet
+thy neighbour’s wife, nor his man‐servant, nor his maid‐servant,
+nor his ox, nor his ass, nor any thing that is thy neighbour’s._
 
 
 XLIX. The end of this precept is, that, since it is the will of God that
@@ -14682,10 +14442,7 @@ _venial_, not of their own nature, but because they obtain pardon through
 the mercy of God.
 
 
-
-
-Chapter IX. Christ, Though Known To The Jews Under The Law, Yet Clearly
-Revealed Only In The Gospel.
+## Chapter IX. Christ, Though Known to the Jews Under the Law, Yet Clearly Revealed Only in the Gospel
 
 
 As it was not without reason, or without effect, that God was pleased, in
@@ -14882,9 +14639,7 @@ Christ was received into the celestial glory, that the more free and rapid
 progress of the apostles completed what John had begun.
 
 
-
-
-Chapter X. The Similarity Of The Old And New Testaments.
+## Chapter X. The Similarity of the Old and New Testaments
 
 
 From the preceding observations it may now be evident, that all those
@@ -15651,9 +15406,7 @@ covered and concealed to them, till they are converted to Christ, from
 whom they now endeavour as much as they can to withdraw and divert it.
 
 
-
-
-Chapter XI. The Difference Of The Two Testaments.
+## Chapter XI. The Difference of the Two Testaments
 
 
 What, then, it will be said, will there be no difference left between the
@@ -16192,10 +15945,7 @@ the minds of the simple on this subject, to call in question either the
 righteousness of God or the truth of the Scripture.
 
 
-
-
-Chapter XII. The Necessity Of Christ Becoming Man In Order To Fulfil The
-Office Of Mediator.
+## Chapter XII. The Necessity of Christ Becoming Man in Order to Fulfil the Office of Mediator
 
 
 It was of great importance to our interests, that he, who was to be our
@@ -16558,9 +16308,7 @@ time was come, God sent forth his Son, made of a woman, made under the
 law, to redeem them that were under the law.”(1139)
 
 
-
-
-Chapter XIII. Christ’s Assumption Of Real Humanity.
+## Chapter XIII. Christ’s Assumption of Real Humanity
 
 
 The arguments for the Divinity of Christ, which has already been proved by
@@ -16820,10 +16568,7 @@ the earth, and to be suspended on the cross; and yet he never ceased to
 fill the universe, in the same manner as from the beginning.
 
 
-
-
-Chapter XIV. The Union Of The Two Natures Constituting The Person Of The
-Mediator.
+## Chapter XIV. The Union of the Two Natures Constituting the Person of the Mediator
 
 
 When it is said that “the Word was made flesh,”(1170) this is not to be
@@ -17215,11 +16960,7 @@ Eutyches. The sole design of the evangelist was, to assert the union of
 the two natures in one person.
 
 
-
-
-Chapter XV. The Consideration Of Christ’s Three Offices, Prophetical,
-Regal, And Sacerdotal, Necessary To Our Knowing The End Of His Mission
-From The Father, And The Benefits Which He Confers On Us.
+## Chapter XV. The Consideration of Christ’s Three Offices, Prophetical, Regal, and Sacerdotal, Necessary to Our Knowing the End of His Mission from the Father, and the Benefits Which He Confers on Us
 
 
 It is a just observation of Augustine, that although heretics profess the
@@ -17541,10 +17282,7 @@ attempted among the Papists, where the mass is considered as an immolation
 of Christ.
 
 
-
-
-Chapter XVI. Christ’s Execution Of The Office Of A Redeemer To Procure Our
-Salvation. His Death, Resurrection, And Ascension To Heaven.
+## Chapter XVI. Christ’s Execution of the Office of a Redeemer to Procure Our Salvation. His Death, Resurrection, and Ascension to Heaven
 
 
 All that we have hitherto advanced concerning Christ is to be referred to
@@ -18398,10 +18136,7 @@ distrust, however, cannot intrude, where the plenitude of his blessings
 has once been truly known.
 
 
-
-
-Chapter XVII. Christ Truly And Properly Said To Have Merited The Grace Of
-God And Salvation For Us.
+## Chapter XVII. Christ Truly and Properly Said to Have Merited the Grace of God and Salvation for Us
 
 
 We must devote an additional Chapter to the solution of this question. For
@@ -18643,16 +18378,10 @@ declared in another place, that “Christ ought to have suffered, and to
 enter into his glory.”(1388)
 
 
+# Book III. On the Manner of Receiving the Grace of Christ, the Benefits Which We Derive from It, and the Effects Which Follow It
 
 
-
-BOOK III. ON THE MANNER OF RECEIVING THE GRACE OF CHRIST, THE BENEFITS
-WHICH WE DERIVE FROM IT, AND THE EFFECTS WHICH FOLLOW IT.
-
-
-
-
-Argument.
+**Argument.**
 
 
 The two former books relate to God the Creator and Redeemer. This treats
@@ -18706,10 +18435,7 @@ final resurrection; and therefore adds a discourse on that subject—Chap.
 XXV.
 
 
-
-
-Chapter I. What Is Declared Concerning Christ Rendered Profitable To Us By
-The Secret Operation Of The Spirit.
+## Chapter I. What is Declared Concerning Christ Rendered Profitable to Us by the Secret Operation of the Spirit
 
 
 We are now to examine how we obtain the enjoyment of those blessings which
@@ -18877,9 +18603,7 @@ become new creatures, and, purging us from profane impurities, consecrates
 us as holy temples to God.
 
 
-
-
-Chapter II. Faith Defined, And Its Properties Described.
+## Chapter II. Faith Defined, and Its Properties Described (§§ I–XV)
 
 
 All these things will be easily understood when we have given a clearer
@@ -19546,6 +19270,7 @@ boldness arises only from a certain confidence of the Divine benevolence
 and our salvation; which is so true, that the word “faith” is frequently
 used for confidence.
 
+## Chapter II. Faith Defined, and Its Properties Described (§§ XVI–XXXII)
 XVI. The principal hinge on which faith turns is this—that we must not
 consider the promises of mercy, which the Lord offers, as true only to
 others, and not to ourselves; but rather make them our own, by embracing
@@ -20244,6 +19969,7 @@ because they practised the sacrifices of the law, which must have been
 distinguished by their end, that is, Christ, from the illegitimate
 sacrifices of the heathen.
 
+## Chapter II. Faith Defined, and Its Properties Described (§§ XXXIII–XLIII)
 XXXIII. This simple and external demonstration of the Divine word ought,
 indeed, to be fully sufficient for the production of faith, if it were not
 obstructed by our blindness and perverseness. But such is our propensity
@@ -20643,9 +20369,7 @@ cherish a hope of happiness. He who said, “According to your faith be it
 unto you,”(1607) will not deceive us.
 
 
-
-
-Chapter III. On Repentance.
+## Chapter III. On Repentance (§§ I–XVII)
 
 
 Though we have already shown, in some respect, how faith possesses Christ,
@@ -21307,6 +21031,7 @@ be a kind of perpetual fast. But as the whole of this subject must be
 discussed again, when we come to treat of Ecclesiastical Discipline, I
 touch the more slightly upon it at present.
 
+## Chapter III. On Repentance (§§ XVIII–XXV)
 XVIII. I will again remark, however, that when the word _repentance_ is
 transferred to this external profession, it is improperly changed from the
 genuine signification which I have stated. For this external profession is
@@ -21663,10 +21388,7 @@ animate the pious to a correction of their lives, and the more severely to
 condemn the pride of those who obstinately kick against the goads.
 
 
-
-
-Chapter IV. The Sophistry And Jargon Of The Schools Concerning Repentance,
-Very Remote From The Purity Of The Gospel. On Confession And Satisfaction.
+## Chapter IV. The Sophistry and Jargon of the Schools Concerning Repentance, Very Remote from the Purity of the Gospel. On Confession and Satisfaction (§§ I–XVII)
 
 
 I come now to the discussion of those things which have been advanced by
@@ -22343,6 +22065,7 @@ heart condemn us, God is greater than our heart.”(1723) They tremble,
 therefore, before that Judge, whose knowledge far exceeds our
 apprehension.
 
+## Chapter IV. The Sophistry and Jargon of the Schools Concerning Repentance, Very Remote from the Purity of the Gospel. On Confession and Satisfaction (§§ XVIII–XXXII)
 XVIII. The acquiescence of a great part of the world in such soothing
 arts, employed to temper this mortal poison, was not indulged from a
 belief that God was satisfied, or because they were altogether satisfied
@@ -23011,6 +22734,7 @@ to a suppliant deprecation of punishment. If God did not mitigate these
 sorrows, with which wretched souls torment themselves, they would be
 continually fainting, even under slight tokens of his wrath.
 
+## Chapter IV. The Sophistry and Jargon of the Schools Concerning Repentance, Very Remote from the Purity of the Gospel. On Confession and Satisfaction (§§ XXXIII–XXXIX)
 XXXIII. The second distinction is, that when the reprobate are lashed by
 the scourges of God in this world, they already begin to suffer his
 vindictive punishments; and though they will not escape with impunity for
@@ -23283,10 +23007,7 @@ mysteries; but I forbear, as my object is to write what may tend to
 edification.
 
 
-
-
-Chapter V. Indulgences And Purgatory. The Supplements To Their Doctrine Of
-Satisfactions.
+## Chapter V. Indulgences and Purgatory. The Supplements to Their Doctrine of Satisfactions
 
 
 This doctrine of _satisfaction_ has given rise to _indulgences_. For by
@@ -23774,10 +23495,7 @@ arrive at a conclusion, and I have already furnished the pious reader with
 sufficient to establish his conscience.
 
 
-
-
-Chapter VI. The Life Of A Christian. Scriptural Arguments And Exhortations
-To It.
+## Chapter VI. The Life of a Christian. Scriptural Arguments and Exhortations to It
 
 
 We have said that the end of regeneration is, that the life of believers
@@ -23960,9 +23678,7 @@ attain, when, divested of all corporeal infirmity, we shall be admitted by
 God into complete communion with him.
 
 
-
-
-Chapter VII. Summary Of The Christian Life. Self‐Denial.
+## Chapter VII. Summary of the Christian Life. Self‐denial
 
 
 Although the Divine law contains a most excellent and well‐arranged plan
@@ -24395,9 +24111,7 @@ adverse, and that he does not proceed with inconsiderate impetuosity, but
 dispenses to us blessings and calamities with the most systematic justice.
 
 
-
-
-Chapter VIII. Bearing The Cross, Which Is A Branch Of Self‐Denial.
+## Chapter VIII. Bearing the Cross, Which is a Branch of Self‐denial
 
 
 But it becomes a pious mind to rise still higher, even to that to which
@@ -24768,9 +24482,7 @@ to repress these emotions within us,—this shows how necessary it is that
 the bitterness of the cross should be tempered with spiritual joy.
 
 
-
-
-Chapter IX. Meditation On The Future Life.
+## Chapter IX. Meditation on the Future Life
 
 
 With whatever kind of tribulation we may be afflicted, we should always
@@ -25024,9 +24736,7 @@ hearts of believers, over the devil and the flesh, over sin and impious
 men, only when their eyes are directed to the power of the resurrection.
 
 
-
-
-Chapter X. The Right Use Of The Present Life And Its Supports.
+## Chapter X. The Right Use of the Present Life and Its Supports
 
 
 By such principles, the Scripture also fully instructs us in the right use
@@ -25226,9 +24936,7 @@ mean and sordid (provided we follow our vocation) as not to appear truly
 respectable, and be deemed highly important in the sight of God.
 
 
-
-
-Chapter XI. Justification By Faith. The Name And Thing Defined.
+## Chapter XI. Justification by Faith. The Name and Thing Defined (§§ I–XIV)
 
 
 I think I have already explained, with sufficient care, how that men,
@@ -25899,6 +25607,7 @@ of virtue, or to any efforts of free‐will; but though the life of the
 patriarch was spiritual, and almost angelic, yet his works did not possess
 sufficient merit to justify him before God.
 
+## Chapter XI. Justification by Faith. The Name and Thing Defined (§§ XV–XXIII)
 XV. The errors of the schoolmen, who mingle their preparations, are rather
 more gross; but they instil into the simple and incautious a doctrine
 equally corrupt, while under the pretext of the Spirit and of grace, they
@@ -26218,10 +25927,7 @@ perfumed with his fragrance, and to have all our deformities concealed and
 absorbed in his perfection.
 
 
-
-
-Chapter XII. A Consideration Of The Divine Tribunal, Necessary To A
-Serious Conviction Of Gratuitous Justification.
+## Chapter XII. A Consideration of the Divine Tribunal, Necessary to a Serious Conviction of Gratuitous Justification
 
 
 Though it appears, from the plainest testimonies, that all these things
@@ -26533,10 +26239,7 @@ of righteousness; for as far as any man is satisfied with himself, so far
 he raises an impediment to the exercise of the grace of God.
 
 
-
-
-Chapter XIII. Two Things Necessary To Be Observed In Gratuitous
-Justification.
+## Chapter XIII. Two Things Necessary to be Observed in Gratuitous Justification
 
 
 Here are two things to which we must always be particularly attentive; to
@@ -26747,4116 +26450,4107 @@ own to conciliate the favour of God, but receiving what we need from
 Christ.
 
 
+## Notes to Volume I, 1–2016
 
 
+1 It is not uncommon, among persons of a certain class, to represent
+the leading principles of Calvin as unfavourable to practical
+religion, and to that kind of preaching which is adapted to affect
+the hearts and consciences of the hearers. A reference to the most
+able and intelligent theologians and preachers who have held those
+principles, and upon whom they may reasonably be concluded to have
+exerted their genuine and fullest influence, will amply evince the
+inaccuracy of this representation. Of the excellent divine quoted
+above, King Charles I. was wont to say, that “he carried his ears to
+hear other preachers, but his conscience to hear Mr. Saunderson.”
 
+2 Prov. xxix. 18.
 
-FOOTNOTES
+3 Dan. ii. 34. Isaiah xi. 4. Psalm ii. 9.
 
+4 Rom. xii. 6.
 
-    1 It is not uncommon, among persons of a certain class, to represent
-      the leading principles of Calvin as unfavourable to practical
-      religion, and to that kind of preaching which is adapted to affect
-      the hearts and consciences of the hearers. A reference to the most
-      able and intelligent theologians and preachers who have held those
-      principles, and upon whom they may reasonably be concluded to have
-      exerted their genuine and fullest influence, will amply evince the
-      inaccuracy of this representation. Of the excellent divine quoted
-      above, King Charles I. was wont to say, that “he carried his ears to
-      hear other preachers, but his conscience to hear Mr. Saunderson.”
+5 Jer. ii. 13.
 
-    2 Prov. xxix. 18.
+6 Rom. viii. 32.
 
-    3 Dan. ii. 34. Isaiah xi. 4. Psalm ii. 9.
+7 1 Tim. iv. 10.
 
-    4 Rom. xii. 6.
+8 John xvii. 3.
 
-    5 Jer. ii. 13.
+9 Rom. iv. 25. 1 Cor. xv. 3, 17.
 
-    6 Rom. viii. 32.
+10 Isaiah i. 3.
 
-    7 1 Tim. iv. 10.
+11 Mark xvi. 20.
 
-    8 John xvii. 3.
+12 Acts xiv. 3.
 
-    9 Rom. iv. 25. 1 Cor. xv. 3, 17.
+13 Heb. ii. 3, 4.
 
-   10 Isaiah i. 3.
+14 John vii. 18. viii. 50.
 
-   11 Mark xvi. 20.
+15 In Joan. tract. 13.
 
-   12 Acts xiv. 3.
+16 Matt. xxiv. 24.
 
-   13 Heb. ii. 3, 4.
+17 2 Thess. ii. 9.
 
-   14 John vii. 18. viii. 50.
+18 2 Cor. xi. 14.
 
-   15 In Joan. tract. 13.
+19 Hierom. in præf. Jerem.
 
-   16 Matt. xxiv. 24.
+20 2 Thess. ii. 10, 11.
 
-   17 2 Thess. ii. 9.
+21 1 Cor. iii. 21, 23.
 
-   18 2 Cor. xi. 14.
+22 Prov. xxii. 28.
 
-   19 Hierom. in præf. Jerem.
+23 Psalm xlv. 10.
 
-   20 2 Thess. ii. 10, 11.
+24 Acat. in lib. 11. cap. 16. Trip. Hist. Amb. lib. 2. de Off. c. 28.
 
-   21 1 Cor. iii. 21, 23.
+25 Spiridion. Trip. Hist. lib. 1. c. 10.
 
-   22 Prov. xxii. 28.
+26 Trip. Hist. lib. 8. c. 1. August. de Opere Mon. c. 17.
 
-   23 Psalm xlv. 10.
+27 Epiph. Epist. ab. Hier. vers. Con. Eliber. c. 36.
 
-   24 Acat. in lib. 11. cap. 16. Trip. Hist. Amb. lib. 2. de Off. c. 28.
+28 Amb. de Abra. lib. 1. c. 7.
 
-   25 Spiridion. Trip. Hist. lib. 1. c. 10.
+29 Gelas. Pap. in Conc. Rom.
 
-   26 Trip. Hist. lib. 8. c. 1. August. de Opere Mon. c. 17.
+30 Chrys. in 1 Cap. Ephes. Calix. Papa de Cons. dist. 2.
 
-   27 Epiph. Epist. ab. Hier. vers. Con. Eliber. c. 36.
+31 Gelas. can. Comperimus de Cons. dist. 2. Cypr. Epist. 2. lib. 1, de
+Laps.
 
-   28 Amb. de Abra. lib. 1. c. 7.
+32 August. lib. 2. de Pec. Mer. cap. ult.
 
-   29 Gelas. Pap. in Conc. Rom.
+33 Apollon. de quo Eccl. Hist. lib. 5. cap. 11, 12.
 
-   30 Chrys. in 1 Cap. Ephes. Calix. Papa de Cons. dist. 2.
+34 Paphnut. Trip. Hist. lib. 2. c. 14. Cypr. Epist. 2. lib. 2.
 
-   31 Gelas. can. Comperimus de Cons. dist. 2. Cypr. Epist. 2. lib. 1, de
-      Laps.
+35 Aug. cap. 2. contr. Cresc. Grammatic.
 
-   32 August. lib. 2. de Pec. Mer. cap. ult.
+36 Isaiah viii. 12, 13.
 
-   33 Apollon. de quo Eccl. Hist. lib. 5. cap. 11, 12.
+37 Epist. 3. lib. 2. et in Epist. ad Julian. de Hæret. baptiz.
 
-   34 Paphnut. Trip. Hist. lib. 2. c. 14. Cypr. Epist. 2. lib. 2.
+38 Matt. xxviii. 20.
 
-   35 Aug. cap. 2. contr. Cresc. Grammatic.
+39 1 Kings xix. 14, 18.
 
-   36 Isaiah viii. 12, 13.
+40 Contr. Auxent.
 
-   37 Epist. 3. lib. 2. et in Epist. ad Julian. de Hæret. baptiz.
+41 2 Tim. ii. 19.
 
-   38 Matt. xxviii. 20.
+42 Exod. xxxii. 4.
 
-   39 1 Kings xix. 14, 18.
+43 1 Kings xxii. 6, 11‐23.
 
-   40 Contr. Auxent.
+44 Jer. xviii. 18.
 
-   41 2 Tim. ii. 19.
+45 Jer. iv. 9.
 
-   42 Exod. xxxii. 4.
+46 Matt. xxvi. 3, 4.
 
-   43 1 Kings xxii. 6, 11‐23.
+47 1 Kings xviii. 17.
 
-   44 Jer. xviii. 18.
+48 Luke xxiii. 2, 5.
 
-   45 Jer. iv. 9.
+49 Acts xvii. 6. xxiv. 5.
 
-   46 Matt. xxvi. 3, 4.
+50 2 Pet. iii. 16.
 
-   47 1 Kings xviii. 17.
+51 Rom. v. 20. vi. 1, 14, 15.
 
-   48 Luke xxiii. 2, 5.
+52 Phil. i. 15, 16.
 
-   49 Acts xvii. 6. xxiv. 5.
+53 Phil. ii. 21.
 
-   50 2 Pet. iii. 16.
+54 2 Pet. ii. 22.
 
-   51 Rom. v. 20. vi. 1, 14, 15.
+55 1 Pet. ii. 8.
 
-   52 Phil. i. 15, 16.
+56 Luke ii. 34.
 
-   53 Phil. ii. 21.
+57 2 Cor. ii. 15, 16.
 
-   54 2 Pet. ii. 22.
+58 Rom. i. 16.
 
-   55 1 Pet. ii. 8.
+59 1 Cor. xiv. 33.
 
-   56 Luke ii. 34.
+60 1 John iii. 8. Gal. ii. 17.
 
-   57 2 Cor. ii. 15, 16.
+61 Acts xvii. 2.
 
-   58 Rom. i. 16.
+62 Judg. xiii. 22.
 
-   59 1 Cor. xiv. 33.
+63 Gen. xviii. 27.
 
-   60 1 John iii. 8. Gal. ii. 17.
+64 1 Kings xix. 13.
 
-   61 Acts xvii. 2.
+65 Isaiah vi. 2; xxiv. 23.
 
-   62 Judg. xiii. 22.
+66 Rom. i. 20.
 
-   63 Gen. xviii. 27.
+67 Cicer. de Natur. Deor. lib. i. Lactant. Inst. lib. iii. cap. 10.
 
-   64 1 Kings xix. 13.
+68 Cicer. de Nat. Deor. lib. 1 & 3. Valer. Maxim. lib. 1, cap. 1.
 
-   65 Isaiah vi. 2; xxiv. 23.
+69 In Phæd. & Theæt.
 
-   66 Rom. i. 20.
+70 Rom. i. 22.
 
-   67 Cicer. de Natur. Deor. lib. i. Lactant. Inst. lib. iii. cap. 10.
+71 Psalm xiv. 1.
 
-   68 Cicer. de Nat. Deor. lib. 1 & 3. Valer. Maxim. lib. 1, cap. 1.
+72 Isaiah vi. 9.
 
-   69 In Phæd. & Theæt.
+73 Psalm xxxvi. 1.
 
-   70 Rom. i. 22.
+74 Psalm x. 11.
 
-   71 Psalm xiv. 1.
+75 2 Tim. ii. 13.
 
-   72 Isaiah vi. 9.
+76 Gal. iv. 8.
 
-   73 Psalm xxxvi. 1.
+77 Eph. ii. 12.
 
-   74 Psalm x. 11.
+78 Statii Thebaid. lib. 3.
 
-   75 2 Tim. ii. 13.
+79 Psalm civ. 2.
 
-   76 Gal. iv. 8.
+80 Heb. xi. 3.
 
-   77 Eph. ii. 12.
+81 Psalm xix. 1, 3.
 
-   78 Statii Thebaid. lib. 3.
+82 Rom. i. 20.
 
-   79 Psalm civ. 2.
+83 Macrob. lib. 2. de Somn. Scip. c. 12. Boet. de Defin. Arist. lib. 1.
+de Hist. Animal.
 
-   80 Heb. xi. 3.
+84 Acts xvii. 27.
 
-   81 Psalm xix. 1, 3.
+85 Psalm viii. 2, 4.
 
-   82 Rom. i. 20.
+86 Acts xvii. 28.
 
-   83 Macrob. lib. 2. de Somn. Scip. c. 12. Boet. de Defin. Arist. lib. 1.
-      de Hist. Animal.
+87 Æneid vi. Pitt’s Translation.
 
-   84 Acts xvii. 27.
+88 Georg. iv. Warton’s Translation.
 
-   85 Psalm viii. 2, 4.
+89 De Rerum Natur. lib. 1.
 
-   86 Acts xvii. 28.
+90 Psalm cxlv. 9.
 
-   87 Æneid vi. Pitt’s Translation.
+91 Psalm cvii.
 
-   88 Georg. iv. Warton’s Translation.
+92 Psalm cvii. 43.
 
-   89 De Rerum Natur. lib. 1.
+93 Psalm cxiii. 7.
 
-   90 Psalm cxlv. 9.
+94 1 Cor. iii. 19.
 
-   91 Psalm cvii.
+95 Acts xvii. 27.
 
-   92 Psalm cvii. 43.
+96 Psalm cxlv. 6.
 
-   93 Psalm cxiii. 7.
+97 Aug. in Psal. cxliv.
 
-   94 1 Cor. iii. 19.
+98 De Civit. Dei. lib. 1, cap. 8.
 
-   95 Acts xvii. 27.
+99 Psalm xcii. 6.
 
-   96 Psalm cxlv. 6.
+100 Psalm xl. 12.
 
-   97 Aug. in Psal. cxliv.
+101 Plut. de Philosoph. placitis, lib. 1. Plato in Timæo. Cic. lib. 1,
+de Natur. Deor.
 
-   98 De Civit. Dei. lib. 1, cap. 8.
+102 Lactant. Institut. div.
 
-   99 Psalm xcii. 6.
+103 Seneca, lib. 4, de benef., &c.
 
-  100 Psalm xl. 12.
+104 Plutarch. lib. 1, de Isid. & Osirid. Cic. lib. 1, de Nat. Deor.
 
-  101 Plut. de Philosoph. placitis, lib. 1. Plato in Timæo. Cic. lib. 1,
-      de Natur. Deor.
+105 Cic. lib. de Nat. Deor.
 
-  102 Lactant. Institut. div.
+106 Ephes. ii. 12.
 
-  103 Seneca, lib. 4, de benef., &c.
+107 Rom. i. 21.
 
-  104 Plutarch. lib. 1, de Isid. & Osirid. Cic. lib. 1, de Nat. Deor.
+108 Hab. ii. 18, 20.
 
-  105 Cic. lib. de Nat. Deor.
+109 John iv. 22.
 
-  106 Ephes. ii. 12.
+110 1 Cor. ii. 8.
 
-  107 Rom. i. 21.
+111 Xenoph. de Dict. et Fact. Socrat. lib. 1. Cic. de Legib. lib. 2.
 
-  108 Hab. ii. 18, 20.
+112 Heb. xi. 3.
 
-  109 John iv. 22.
+113 Rom. i. 19.
 
-  110 1 Cor. ii. 8.
+114 Rom. i. 20.
 
-  111 Xenoph. de Dict. et Fact. Socrat. lib. 1. Cic. de Legib. lib. 2.
+115 Acts xvii. 27.
 
-  112 Heb. xi. 3.
+116 Acts xiv. 16, 17.
 
-  113 Rom. i. 19.
+117 Rom. x. 4.
 
-  114 Rom. i. 20.
+118 1 Tim. vi. 16.
 
-  115 Acts xvii. 27.
+119 Ps. xciii. xcvi., &c.
 
-  116 Acts xiv. 16, 17.
+120 Ps. xix. 1, &c.
 
-  117 Rom. x. 4.
+121 Ps. xciii. 5.
 
-  118 1 Tim. vi. 16.
+122 John iv. 22.
 
-  119 Ps. xciii. xcvi., &c.
+123 Eph. ii. 20.
 
-  120 Ps. xix. 1, &c.
+124 Contr. Epist. Fundam. cap. 5.
 
-  121 Ps. xciii. 5.
+125 Isaiah lix. 21.
 
-  122 John iv. 22.
+126 Isaiah xliii. 10.
 
-  123 Eph. ii. 20.
+127 Isaiah liv. 13.
 
-  124 Contr. Epist. Fundam. cap. 5.
+128 Deut. xxx. Rom. x.
 
-  125 Isaiah lix. 21.
+129 Isaiah liii. 1.
 
-  126 Isaiah xliii. 10.
+130 1 Cor. ii. 4.
 
-  127 Isaiah liv. 13.
+131 Gen. xlix. 5.
 
-  128 Deut. xxx. Rom. x.
+132 Num. xii. 1.
 
-  129 Isaiah liii. 1.
+133 Exod. xxiv. 18; xxxiv. 29; xix. 16; xl. 34. Num. xvi. 24, &c.; xx.
+11; xi. 9.
 
-  130 1 Cor. ii. 4.
+134 Lev. xx. 6.
 
-  131 Gen. xlix. 5.
+135 Exod. xvi. 7.
 
-  132 Num. xii. 1.
+136 Gen. xlix. 10.
 
-  133 Exod. xxiv. 18; xxxiv. 29; xix. 16; xl. 34. Num. xvi. 24, &c.; xx.
-      11; xi. 9.
+137 Deut. xxxii.
 
-  134 Lev. xx. 6.
+138 Isaiah xxxix. 6.
 
-  135 Exod. xvi. 7.
+139 Isaiah xlv. 1.
 
-  136 Gen. xlix. 10.
+140 Jer. xxv. 11, 12.
 
-  137 Deut. xxxii.
+141 Isaiah xlii. 9.
 
-  138 Isaiah xxxix. 6.
+142 2 Kings xxii. 8.
 
-  139 Isaiah xlv. 1.
+143 Deut. xvii. 18.
 
-  140 Jer. xxv. 11, 12.
+144 Lib. de Util. Credend.
 
-  141 Isaiah xlii. 9.
+145 Isaiah lix. 21.
 
-  142 2 Kings xxii. 8.
+146 1 Tim. iv. 13.
 
-  143 Deut. xvii. 18.
+147 2 Tim. iii. 16, 17.
 
-  144 Lib. de Util. Credend.
+148 John xvi. 13.
 
-  145 Isaiah lix. 21.
+149 2 Pet. i. 19.
 
-  146 1 Tim. iv. 13.
+150 2 Cor. iii. 6.
 
-  147 2 Tim. iii. 16, 17.
+151 Psalm xix. 7.
 
-  148 John xvi. 13.
+152 2 Cor. iii. 8.
 
-  149 2 Pet. i. 19.
+153 Luke xxiv. 27, &c.
 
-  150 2 Cor. iii. 6.
+154 1 Thess. v. 19.
 
-  151 Psalm xix. 7.
+155 Exod. xxxiv. 6.
 
-  152 2 Cor. iii. 8.
+156 Psalm cxlv.
 
-  153 Luke xxiv. 27, &c.
+157 Jer. ix. 24.
 
-  154 1 Thess. v. 19.
+158 Lib. de Idolol. Vid. Aug. Epist. 43 et 44.
 
-  155 Exod. xxxiv. 6.
+159 Hab. ii. 20.
 
-  156 Psalm cxlv.
+160 Maximus Tyrius, Plat. Serm. 38.
 
-  157 Jer. ix. 24.
+161 Deut. iv. 15.
 
-  158 Lib. de Idolol. Vid. Aug. Epist. 43 et 44.
+162 Isaiah xl. 18; xli. 7, 29; xlvi. 5, &c.
 
-  159 Hab. ii. 20.
+163 Acts xvii. 29.
 
-  160 Maximus Tyrius, Plat. Serm. 38.
+164 Exod. xxxiii. 11.
 
-  161 Deut. iv. 15.
+165 Deut. iv. 11.
 
-  162 Isaiah xl. 18; xli. 7, 29; xlvi. 5, &c.
+166 Exod. xxxiii. 20.
 
-  163 Acts xvii. 29.
+167 Matt. iii. 16.
 
-  164 Exod. xxxiii. 11.
+168 Exod. xxv. 17, 18, &c.
 
-  165 Deut. iv. 11.
+169 Isaiah vi. 2.
 
-  166 Exod. xxxiii. 20.
+170 Psalm cxxxv. 15.
 
-  167 Matt. iii. 16.
+171 Hor. Sat. lib. 1, 8.
 
-  168 Exod. xxv. 17, 18, &c.
+172 Isaiah xliv. 9‐20.
 
-  169 Isaiah vi. 2.
+173 Isaiah xl. 21.
 
-  170 Psalm cxxxv. 15.
+174 Psalm cxv. 8.
 
-  171 Hor. Sat. lib. 1, 8.
+175 Jer. x. 8.
 
-  172 Isaiah xliv. 9‐20.
+176 Hab. ii. 18.
 
-  173 Isaiah xl. 21.
+177 Gal. iii. 1.
 
-  174 Psalm cxv. 8.
+178 Wisdom xiv. 15.
 
-  175 Jer. x. 8.
+179 Gen. xxxi. 19.
 
-  176 Hab. ii. 18.
+180 Joshua xxiv. 2.
 
-  177 Gal. iii. 1.
+181 Exod. xxxii. 1.
 
-  178 Wisdom xiv. 15.
+182 Exod. xxxii. 4‐6.
 
-  179 Gen. xxxi. 19.
+183 In Psalm cxiii.
 
-  180 Joshua xxiv. 2.
+184 In Psalm cxiii.
 
-  181 Exod. xxxii. 1.
+185 Epist. 49. De Civ. Dei. lib. iv. cap. 31.
 
-  182 Exod. xxxii. 4‐6.
+186 Gal. iv. 8.
 
-  183 In Psalm cxiii.
+187 Matt. iv. 10.
 
-  184 In Psalm cxiii.
+188 Rev. xix. 10; xxii. 8, 9.
 
-  185 Epist. 49. De Civ. Dei. lib. iv. cap. 31.
+189 Acts x. 25.
 
-  186 Gal. iv. 8.
+190 Zech. xiv. 9.
 
-  187 Matt. iv. 10.
+191 Seneca, Præf. lib. 1. Quæst. Nat.
 
-  188 Rev. xix. 10; xxii. 8, 9.
+192 John i. 1.
 
-  189 Acts x. 25.
+193 1 Pet. i. 11.
 
-  190 Zech. xiv. 9.
+194 Heb. i. 2, 3.
 
-  191 Seneca, Præf. lib. 1. Quæst. Nat.
+195 John v. 17.
 
-  192 John i. 1.
+196 James i. 17.
 
-  193 1 Pet. i. 11.
+197 Gen. i. 3.
 
-  194 Heb. i. 2, 3.
+198 John xvii. 5.
 
-  195 John v. 17.
+199 John i. 2.
 
-  196 James i. 17.
+200 Exod. vii. 1.
 
-  197 Gen. i. 3.
+201 Isaiah ix. 6.
 
-  198 John xvii. 5.
+202 Jer. xxiii. 6.
 
-  199 John i. 2.
+203 Isaiah xlii. 8.
 
-  200 Exod. vii. 1.
+204 Ezek. xlviii. 35.
 
-  201 Isaiah ix. 6.
+205 Exod. xvii. 15.
 
-  202 Jer. xxiii. 6.
+206 Jer. xxxiii. 16.
 
-  203 Isaiah xlii. 8.
+207 Judges xiii. 22, 23.
 
-  204 Ezek. xlviii. 35.
+208 Hosea xii. 5.
 
-  205 Exod. xvii. 15.
+209 Gen. xxxii. 29, 30.
 
-  206 Jer. xxxiii. 16.
+210 Isaiah xxv. 9.
 
-  207 Judges xiii. 22, 23.
+211 Mal. iii. 1.
 
-  208 Hosea xii. 5.
+212 Isaiah viii. 14.
 
-  209 Gen. xxxii. 29, 30.
+213 Rom ix. 33.
 
-  210 Isaiah xxv. 9.
+214 Rom. xiv. 10, 11.
 
-  211 Mal. iii. 1.
+215 Isaiah xlv. 23.
 
-  212 Isaiah viii. 14.
+216 Eph. iv. 8. Psalm lxviii. 18.
 
-  213 Rom ix. 33.
+217 John xii. 41. Isaiah vi. 1.
 
-  214 Rom. xiv. 10, 11.
+218 Heb. i. 6, 10.
 
-  215 Isaiah xlv. 23.
+219 John i. 1, 14.
 
-  216 Eph. iv. 8. Psalm lxviii. 18.
+220 2 Cor. v. 10.
 
-  217 John xii. 41. Isaiah vi. 1.
+221 Rom ix. 5.
 
-  218 Heb. i. 6, 10.
+222 1 Tim. iii. 16.
 
-  219 John i. 1, 14.
+223 Philip. ii. 6.
 
-  220 2 Cor. v. 10.
+224 1 John v. 20.
 
-  221 Rom ix. 5.
+225 1 Cor. viii. 5, 6.
 
-  222 1 Tim. iii. 16.
+226 John xx. 28.
 
-  223 Philip. ii. 6.
+227 John v. 18.
 
-  224 1 John v. 20.
+228 Heb. i. 3.
 
-  225 1 Cor. viii. 5, 6.
+229 Isaiah xliii. 25.
 
-  226 John xx. 28.
+230 Matt. ix. 6.
 
-  227 John v. 18.
+231 Matt. x. 8. Mark iii. 15.
 
-  228 Heb. i. 3.
+232 Acts iii. 6.
 
-  229 Isaiah xliii. 25.
+233 John v. 36; x. 37.
 
-  230 Matt. ix. 6.
+234 Matt. xix. 17.
 
-  231 Matt. x. 8. Mark iii. 15.
+235 John xiv. 1.
 
-  232 Acts iii. 6.
+236 Isaiah xxviii. 16; xi. 10. Rom. x. 11; xv. 12.
 
-  233 John v. 36; x. 37.
+237 John vi. 47.
 
-  234 Matt. xix. 17.
+238 Joel ii. 32.
 
-  235 John xiv. 1.
+239 Prov. xviii. 10.
 
-  236 Isaiah xxviii. 16; xi. 10. Rom. x. 11; xv. 12.
+240 Acts vii. 59.
 
-  237 John vi. 47.
+241 Acts ix. 13, 14.
 
-  238 Joel ii. 32.
+242 1 Cor. ii. 2.
 
-  239 Prov. xviii. 10.
+243 Jer. ix. 24.
 
-  240 Acts vii. 59.
+244 Gen. i. 2.
 
-  241 Acts ix. 13, 14.
+245 Isaiah xlviii. 16.
 
-  242 1 Cor. ii. 2.
+246 1 Cor. ii. 10, 16.
 
-  243 Jer. ix. 24.
+247 1 Cor. xii. 8.
 
-  244 Gen. i. 2.
+248 Exod. iv. 11.
 
-  245 Isaiah xlviii. 16.
+249 1 Cor. xii. 4, &c.
 
-  246 1 Cor. ii. 10, 16.
+250 1 Cor. iii. 16; vi. 19. 2 Cor. vi. 16.
 
-  247 1 Cor. xii. 8.
+251 Acts v. 3, 4.
 
-  248 Exod. iv. 11.
+252 Isaiah vi. 9.
 
-  249 1 Cor. xii. 4, &c.
+253 Acts xxviii. 25.
 
-  250 1 Cor. iii. 16; vi. 19. 2 Cor. vi. 16.
+254 Isaiah lxiii. 10.
 
-  251 Acts v. 3, 4.
+255 Matt. xii. 31. Mark iii. 29. Luke xii. 10.
 
-  252 Isaiah vi. 9.
+256 Psalm xxxiii. 6.
 
-  253 Acts xxviii. 25.
+257 Ephes. iv. 5.
 
-  254 Isaiah lxiii. 10.
+258 1 Cor. xii. 11.
 
-  255 Matt. xii. 31. Mark iii. 29. Luke xii. 10.
+259 John v. 32; viii. 16, 18.
 
-  256 Psalm xxxiii. 6.
+260 John i. 18.
 
-  257 Ephes. iv. 5.
+261 John xv. 26.
 
-  258 1 Cor. xii. 11.
+262 John xiv. 16.
 
-  259 John v. 32; viii. 16, 18.
+263 1 Pet. i. 11.
 
-  260 John i. 18.
+264 John xiv. 10, 11.
 
-  261 John xv. 26.
+265 2 Cor. xii. 8, 9.
 
-  262 John xiv. 16.
+266 Joel ii. 28‐32. Acts ii. 16‐21.
 
-  263 1 Pet. i. 11.
+267 Gen. i. 2.
 
-  264 John xiv. 10, 11.
+268 Isaiah vi. 1.
 
-  265 2 Cor. xii. 8, 9.
+269 John xii. 41.
 
-  266 Joel ii. 28‐32. Acts ii. 16‐21.
+270 Isaiah viii. 14.
 
-  267 Gen. i. 2.
+271 Rom. ix. 33.
 
-  268 Isaiah vi. 1.
+272 Isaiah xlv. 23.
 
-  269 John xii. 41.
+273 Rom. xiv. 11.
 
-  270 Isaiah viii. 14.
+274 Heb. i. 6, 10. Psalm cii. 25; xcvii. 7.
 
-  271 Rom. ix. 33.
+275 Isaiah xliv. 6.
 
-  272 Isaiah xlv. 23.
+276 Jer. x. 11.
 
-  273 Rom. xiv. 11.
+277 Exod. iii. 14.
 
-  274 Heb. i. 6, 10. Psalm cii. 25; xcvii. 7.
+278 Matt. xix. 17.
 
-  275 Isaiah xliv. 6.
+279 1 Tim. i. 17.
 
-  276 Jer. x. 11.
+280 Phil. ii. 10.
 
-  277 Exod. iii. 14.
+281 Phil. ii. 6, 7.
 
-  278 Matt. xix. 17.
+282 Isaiah xxv. 9.
 
-  279 1 Tim. i. 17.
+283 Gen. i. 26.
 
-  280 Phil. ii. 10.
+284 John iv. 24.
 
-  281 Phil. ii. 6, 7.
+285 John xvii. 3.
 
-  282 Isaiah xxv. 9.
+286 Heb. i. 10; ii. 9.
 
-  283 Gen. i. 26.
+287 John xiv. 28.
 
-  284 John iv. 24.
+288 1 Cor. xv. 24.
 
-  285 John xvii. 3.
+289 1 John v. 20.
 
-  286 Heb. i. 10; ii. 9.
+290 Isaiah xl. 21.
 
-  287 John xiv. 28.
+291 Psalm ciii. 20.
 
-  288 1 Cor. xv. 24.
+292 Gen. ii. 1.
 
-  289 1 John v. 20.
+293 2 Cor. xii. 1, &c.
 
-  290 Isaiah xl. 21.
+294 Daniel vii. 10.
 
-  291 Psalm ciii. 20.
+295 Ephes. i. 21.
 
-  292 Gen. ii. 1.
+296 Col. i. 16.
 
-  293 2 Cor. xii. 1, &c.
+297 Gen. xviii. 2; xxxii. 1, 28. Josh. v. 13. Judges vi. 11; xiii. 3,
+22.
 
-  294 Daniel vii. 10.
+298 Psalm lxxxii. 6.
 
-  295 Ephes. i. 21.
+299 Psalm xci. 11, 12.
 
-  296 Col. i. 16.
+300 Psalm xxxiv. 7.
 
-  297 Gen. xviii. 2; xxxii. 1, 28. Josh. v. 13. Judges vi. 11; xiii. 3,
-      22.
+301 Gen. xvi. 9.
 
-  298 Psalm lxxxii. 6.
+302 Gen. xxiv. 7.
 
-  299 Psalm xci. 11, 12.
+303 Gen. xlviii. 16.
 
-  300 Psalm xxxiv. 7.
+304 Exod. xiv. 19; xxiii. 20.
 
-  301 Gen. xvi. 9.
+305 Judges ii. 1; vi. 11; xiii. 3, &c.
 
-  302 Gen. xxiv. 7.
+306 Matt. iv. 11. Luke xxii. 43. Matt. xxviii. 5. Luke xxiv. 4, 5. Acts
+i. 10.
 
-  303 Gen. xlviii. 16.
+307 2 Kings xix. 35. Isaiah xxxvii. 36.
 
-  304 Exod. xiv. 19; xxiii. 20.
+308 Daniel x. 13, 20; xii. 1.
 
-  305 Judges ii. 1; vi. 11; xiii. 3, &c.
+309 Matt. xviii. 10.
 
-  306 Matt. iv. 11. Luke xxii. 43. Matt. xxviii. 5. Luke xxiv. 4, 5. Acts
-      i. 10.
+310 Luke xv. 7.
 
-  307 2 Kings xix. 35. Isaiah xxxvii. 36.
+311 Luke xvi. 22.
 
-  308 Daniel x. 13, 20; xii. 1.
+312 2 Kings vi. 17.
 
-  309 Matt. xviii. 10.
+313 Acts xii. 15.
 
-  310 Luke xv. 7.
+314 Daniel xii. 1. Jude, ver. 9.
 
-  311 Luke xvi. 22.
+315 1 Thess. iv. 16.
 
-  312 2 Kings vi. 17.
+316 Daniel x. 13, 21; viii. 16; ix. 21. Luke i. 19, 26. Tob. iii. 17; v.
+5.
 
-  313 Acts xii. 15.
+317 Matt. xxvi. 53.
 
-  314 Daniel xii. 1. Jude, ver. 9.
+318 Daniel vii. 10.
 
-  315 1 Thess. iv. 16.
+319 Psalm xxxiv. 7.
 
-  316 Daniel x. 13, 21; viii. 16; ix. 21. Luke i. 19, 26. Tob. iii. 17; v.
-      5.
+320 Luke xv. 10; iv. 10; xvi. 22. Psalm xci. 12. Matt. iv. 6; xviii. 10.
 
-  317 Matt. xxvi. 53.
+321 Acts vii. 53. Gal. iii. 19.
 
-  318 Daniel vii. 10.
+322 Matt. xxii. 30; xxiv. 36; xxv. 31.  Luke ix. 26.
 
-  319 Psalm xxxiv. 7.
+323 1 Tim. v. 21.
 
-  320 Luke xv. 10; iv. 10; xvi. 22. Psalm xci. 12. Matt. iv. 6; xviii. 10.
+324 Heb. i. 4; ii. 16.
 
-  321 Acts vii. 53. Gal. iii. 19.
+325 Heb. xii. 22, 23.
 
-  322 Matt. xxii. 30; xxiv. 36; xxv. 31.  Luke ix. 26.
+326 1 Peter i. 12.
 
-  323 1 Tim. v. 21.
+327 Heb. i. 6.
 
-  324 Heb. i. 4; ii. 16.
+328 Mal. iii. 1.
 
-  325 Heb. xii. 22, 23.
+329 Col. i. 16, 20.
 
-  326 1 Peter i. 12.
+330 Rev. xix. 10; xxii. 8, 9.
 
-  327 Heb. i. 6.
+331 2 Kings vi. 15, 16, 17.
 
-  328 Mal. iii. 1.
+332 Gen. xxviii. 12.
 
-  329 Col. i. 16, 20.
+333 John i. 51.
 
-  330 Rev. xix. 10; xxii. 8, 9.
+334 Gen. xxiv. 7, 12, 27, 52.
 
-  331 2 Kings vi. 15, 16, 17.
+335 2 Cor. iv. 4. John xii. 31.
 
-  332 Gen. xxviii. 12.
+336 Matt. xii. 29. Luke xi. 21.
 
-  333 John i. 51.
+337 Ephes. ii. 2.
 
-  334 Gen. xxiv. 7, 12, 27, 52.
+338 1 Peter v. 8, 9.
 
-  335 2 Cor. iv. 4. John xii. 31.
+339 Ephes. vi. 12, &c.
 
-  336 Matt. xii. 29. Luke xi. 21.
+340 Mark xvi. 9.
 
-  337 Ephes. ii. 2.
+341 Matt. xii. 43‐45.
 
-  338 1 Peter v. 8, 9.
+342 Luke viii. 30.
 
-  339 Ephes. vi. 12, &c.
+343 Matt. xxv. 41.
 
-  340 Mark xvi. 9.
+344 Matt. xiii. 25, 28.
 
-  341 Matt. xii. 43‐45.
+345 John viii. 44.
 
-  342 Luke viii. 30.
+346 John viii. 44.
 
-  343 Matt. xxv. 41.
+347 2 Peter ii. 4. Jude, ver. 6.
 
-  344 Matt. xiii. 25, 28.
+348 1 Tim. v. 21.
 
-  345 John viii. 44.
+349 Job i. 6; ii. 1.
 
-  346 John viii. 44.
+350 1 Kings xxii. 20, &c.
 
-  347 2 Peter ii. 4. Jude, ver. 6.
+351 1 Sam. xvi. 14; xviii. 10.
 
-  348 1 Tim. v. 21.
+352 Psalm lxxviii. 49.
 
-  349 Job i. 6; ii. 1.
+353 2 Thess. ii. 9, 11.
 
-  350 1 Kings xxii. 20, &c.
+354 Ephes. iv. 27.
 
-  351 1 Sam. xvi. 14; xviii. 10.
+355 1 Peter v. 8.
 
-  352 Psalm lxxviii. 49.
+356 2 Cor. xii. 7.
 
-  353 2 Thess. ii. 9, 11.
+357 Gen. iii. 15.
 
-  354 Ephes. iv. 27.
+358 2 Sam. xxiv. 1. 1 Chron. xxi. 1.
 
-  355 1 Peter v. 8.
+359 2 Tim. ii. 26.
 
-  356 2 Cor. xii. 7.
+360 Rom. xvi. 20.
 
-  357 Gen. iii. 15.
+361 John xiv. 30.
 
-  358 2 Sam. xxiv. 1. 1 Chron. xxi. 1.
+362 Luke x. 18.
 
-  359 2 Tim. ii. 26.
+363 Luke xi. 21.
 
-  360 Rom. xvi. 20.
+364 John xii. 31.
 
-  361 John xiv. 30.
+365 2 Cor. iv. 4.
 
-  362 Luke x. 18.
+366 Eph. ii. 2.
 
-  363 Luke xi. 21.
+367 Rom. ix. 22.
 
-  364 John xii. 31.
+368 John viii. 44.
 
-  365 2 Cor. iv. 4.
+369 1 John iii. 10.
 
-  366 Eph. ii. 2.
+370 Matt. xii. 43. Jude 6.
 
-  367 Rom. ix. 22.
+371 John viii. 44. 1 John iii. 10.
 
-  368 John viii. 44.
+372 Jude 9.
 
-  369 1 John iii. 10.
+373 Job i. 6; ii. 1.
 
-  370 Matt. xii. 43. Jude 6.
+374 Matt. viii. 29.
 
-  371 John viii. 44. 1 John iii. 10.
+375 Matt. xxv. 41.
 
-  372 Jude 9.
+376 2 Peter ii. 4.
 
-  373 Job i. 6; ii. 1.
+377 Gen. i. 28; ix. 2.
 
-  374 Matt. viii. 29.
+378 Gen. ii. 7; iii. 19, 23.
 
-  375 Matt. xxv. 41.
+379 Eccles. xii. 7.
 
-  376 2 Peter ii. 4.
+380 Luke xxiii. 46.
 
-  377 Gen. i. 28; ix. 2.
+381 Acts vii. 59.
 
-  378 Gen. ii. 7; iii. 19, 23.
+382 Job iv. 19.
 
-  379 Eccles. xii. 7.
+383 2 Cor. v. 4.
 
-  380 Luke xxiii. 46.
+384 2 Peter i. 13, 14.
 
-  381 Acts vii. 59.
+385 2 Cor. v. 10.
 
-  382 Job iv. 19.
+386 2 Cor. vii. 1.
 
-  383 2 Cor. v. 4.
+387 1 Peter ii. 25.
 
-  384 2 Peter i. 13, 14.
+388 1 Peter i. 9, 22; ii. 11.
 
-  385 2 Cor. v. 10.
+389 Heb. xiii. 17.
 
-  386 2 Cor. vii. 1.
+390 2 Cor. i. 23.
 
-  387 1 Peter ii. 25.
+391 Matt. x. 28. Luke xii. 4, 5.
 
-  388 1 Peter i. 9, 22; ii. 11.
+392 Heb. xii. 9.
 
-  389 Heb. xiii. 17.
+393 Luke xvi. 22.
 
-  390 2 Cor. i. 23.
+394 2 Cor. v. 6, 8.
 
-  391 Matt. x. 28. Luke xii. 4, 5.
+395 Acts xxiii. 8.
 
-  392 Heb. xii. 9.
+396 Gen. i. 27.
 
-  393 Luke xvi. 22.
+397 Ovid’s Metam. lib. 1. Dryden’s Translation.
 
-  394 2 Cor. v. 6, 8.
+398 Gen. i. 26.
 
-  395 Acts xxiii. 8.
+399 Matt. xxii. 30.
 
-  396 Gen. i. 27.
+400 1 Cor. xv. 45.
 
-  397 Ovid’s Metam. lib. 1. Dryden’s Translation.
+401 Col. iii. 10.
 
-  398 Gen. i. 26.
+402 Eph. iv. 24.
 
-  399 Matt. xxii. 30.
+403 2 Cor. iii. 18.
 
-  400 1 Cor. xv. 45.
+404 1 Cor. xi. 7.
 
-  401 Col. iii. 10.
+405 John i. 4.
 
-  402 Eph. iv. 24.
+406 Gen. ii. 7.
 
-  403 2 Cor. iii. 18.
+407 Acts xvii. 28.
 
-  404 1 Cor. xi. 7.
+408 2 Cor. iii. 18.
 
-  405 John i. 4.
+409 Hebrews xi. 3.
 
-  406 Gen. ii. 7.
+410 Matt. vi. 26; x. 29.
 
-  407 Acts xvii. 28.
+411 Psalm xxxiii. 6.
 
-  408 2 Cor. iii. 18.
+412 Psalm xxxiii. 13.
 
-  409 Hebrews xi. 3.
+413 Psalm civ. 27‐30.
 
-  410 Matt. vi. 26; x. 29.
+414 Acts xvii. 28.
 
-  411 Psalm xxxiii. 6.
+415 Matt. x. 30.
 
-  412 Psalm xxxiii. 13.
+416 Joshua x. 13.
 
-  413 Psalm civ. 27‐30.
+417 2 Kings xx. 11.
 
-  414 Acts xvii. 28.
+418 Psalm cxv. 3.
 
-  415 Matt. x. 30.
+419 Psalm viii. 2.
 
-  416 Joshua x. 13.
+420 Jer. x. 2.
 
-  417 2 Kings xx. 11.
+421 Gen. xxii. 8.
 
-  418 Psalm cxv. 3.
+422 John v. 17.
 
-  419 Psalm viii. 2.
+423 Acts xvii. 28.
 
-  420 Jer. x. 2.
+424 Heb. i. 3.
 
-  421 Gen. xxii. 8.
+425 Psalm cxlvii. 9.
 
-  422 John v. 17.
+426 Matt. x. 29.
 
-  423 Acts xvii. 28.
+427 Psalm cxiii. 5, 6.
 
-  424 Heb. i. 3.
+428 Jer. x. 23.
 
-  425 Psalm cxlvii. 9.
+429 Prov. xx. 24.
 
-  426 Matt. x. 29.
+430 Prov. xvi. 1.
 
-  427 Psalm cxiii. 5, 6.
+431 Exod. xxi. 13.
 
-  428 Jer. x. 23.
+432 Prov. xvi. 33.
 
-  429 Prov. xx. 24.
+433 Prov. xxix. 13.
 
-  430 Prov. xvi. 1.
+434 Psalm lxxv. 6, 7.
 
-  431 Exod. xxi. 13.
+435 Exod. xvi. 13. Num. xi. 31.
 
-  432 Prov. xvi. 33.
+436 Jonah i. 4.
 
-  433 Prov. xxix. 13.
+437 Psalm civ. 3, 4.
 
-  434 Psalm lxxv. 6, 7.
+438 Psalm cvii. 25, 29.
 
-  435 Exod. xvi. 13. Num. xi. 31.
+439 Amos iv. 9. Haggai i. 6‐11.
 
-  436 Jonah i. 4.
+440 Psalm cxxvii. 3.
 
-  437 Psalm civ. 3, 4.
+441 Gen. xxx. 2.
 
-  438 Psalm cvii. 25, 29.
+442 Deut. viii. 3.
 
-  439 Amos iv. 9. Haggai i. 6‐11.
+443 Isaiah iii. 1.
 
-  440 Psalm cxxvii. 3.
+444 Psalm cxxxvi. 25.
 
-  441 Gen. xxx. 2.
+445 Psalm xxxiv. 15, 16.
 
-  442 Deut. viii. 3.
+446 Job xiv. 5.
 
-  443 Isaiah iii. 1.
+447 1 Sam. vi. 9.
 
-  444 Psalm cxxxvi. 25.
+448 Psalm xl. 5.
 
-  445 Psalm xxxiv. 15, 16.
+449 John ix. 3.
 
-  446 Job xiv. 5.
+450 Psalm xxxvi. 6.
 
-  447 1 Sam. vi. 9.
+451 Deut. xxx. 12‐14. Rom. x. 6, 7.
 
-  448 Psalm xl. 5.
+452 Rom. xi. 33, 34.
 
-  449 John ix. 3.
+453 Deut. xxix. 29.
 
-  450 Psalm xxxvi. 6.
+454 Job xxvi. 14.
 
-  451 Deut. xxx. 12‐14. Rom. x. 6, 7.
+455 Job xxviii. 21, 28.
 
-  452 Rom. xi. 33, 34.
+456 Prov. xvi. 9.
 
-  453 Deut. xxix. 29.
+457 Psalm lv. 22. 1 Peter v. 7.
 
-  454 Job xxvi. 14.
+458 Psalm xci. 1.
 
-  455 Job xxviii. 21, 28.
+459 Zech. ii. 8.
 
-  456 Prov. xvi. 9.
+460 Isaiah xxvi. 1; xlix. 15.
 
-  457 Psalm lv. 22. 1 Peter v. 7.
+461 Psalm xci. 12.
 
-  458 Psalm xci. 1.
+462 Matt. x. 29, 30.
 
-  459 Zech. ii. 8.
+463 Exod. iii. 21.
 
-  460 Isaiah xxvi. 1; xlix. 15.
+464 1 Kings xxii. 22.
 
-  461 Psalm xci. 12.
+465 1 Kings xii. 10‐15.
 
-  462 Matt. x. 29, 30.
+466 2 Sam. xvii. 7, 14.
 
-  463 Exod. iii. 21.
+467 Job i. 12.
 
-  464 1 Kings xxii. 22.
+468 Gen. xlv. 7, 8; l. 20.
 
-  465 1 Kings xii. 10‐15.
+469 Job i. 21.
 
-  466 2 Sam. xvii. 7, 14.
+470 2 Sam. xvi. 10.
 
-  467 Job i. 12.
+471 Psalm xxxix. 9.
 
-  468 Gen. xlv. 7, 8; l. 20.
+472 Eph. vi. 12.
 
-  469 Job i. 21.
+473 Deut. xxviii. 1, &c.
 
-  470 2 Sam. xvi. 10.
+474 Lev. xxvi. 23, 24.
 
-  471 Psalm xxxix. 9.
+475 Lam. iii. 37, 38. Amos iii. 6.
 
-  472 Eph. vi. 12.
+476 Isaiah xlv. 7.
 
-  473 Deut. xxviii. 1, &c.
+477 2 Sam. x. 12.
 
-  474 Lev. xxvi. 23, 24.
+478 Psalm xci. 3‐6.
 
-  475 Lam. iii. 37, 38. Amos iii. 6.
+479 Psalm cxviii. 6; xxvii. 1, 3; xxiii. 4.
 
-  476 Isaiah xlv. 7.
+480 1 Cor. xvi. 7. 1 Thes. ii. 18.
 
-  477 2 Sam. x. 12.
+481 Psalm xxxi. 15.
 
-  478 Psalm xci. 3‐6.
+482 Isaiah vii. 4.
 
-  479 Psalm cxviii. 6; xxvii. 1, 3; xxiii. 4.
+483 Ezek. xxix. 3, 4.
 
-  480 1 Cor. xvi. 7. 1 Thes. ii. 18.
+484 Gen. vi. 6.
 
-  481 Psalm xxxi. 15.
+485 1 Sam. xv. 11.
 
-  482 Isaiah vii. 4.
+486 Jer. xviii. 8.
 
-  483 Ezek. xxix. 3, 4.
+487 Jonah iii. 4, 10.
 
-  484 Gen. vi. 6.
+488 Isaiah xxxviii. 1, 5.
 
-  485 1 Sam. xv. 11.
+489 2 Kings xx. 1, 5.
 
-  486 Jer. xviii. 8.
+490 1 Sam. xv. 29.
 
-  487 Jonah iii. 4, 10.
+491 1 Sam. xv. 29.
 
-  488 Isaiah xxxviii. 1, 5.
+492 Numb. xxiii. 19.
 
-  489 2 Kings xx. 1, 5.
+493 Psalm vii. 11.
 
-  490 1 Sam. xv. 29.
+494 Gen. xx. 3, 7.
 
-  491 1 Sam. xv. 29.
+495 Isaiah xiv. 27.
 
-  492 Numb. xxiii. 19.
+496 Psalm cxv. 3.
 
-  493 Psalm vii. 11.
+497 Job i. 21.
 
-  494 Gen. xx. 3, 7.
+498 1 Kings xxii. 20‐23.
 
-  495 Isaiah xiv. 27.
+499 Acts iv. 28.
 
-  496 Psalm cxv. 3.
+500 Acts ii. 23.
 
-  497 Job i. 21.
+501 Acts iii. 18.
 
-  498 1 Kings xxii. 20‐23.
+502 2 Sam. xii. 12; xvi. 22.
 
-  499 Acts iv. 28.
+503 Jer. l. 25.
 
-  500 Acts ii. 23.
+504 Isaiah v. 26; x. 5; xix. 25.
 
-  501 Acts iii. 18.
+505 2 Sam. xvi. 10.
 
-  502 2 Sam. xii. 12; xvi. 22.
+506 1 Kings xi. 31.
 
-  503 Jer. l. 25.
+507 1 Sam. ii. 34.
 
-  504 Isaiah v. 26; x. 5; xix. 25.
+508 Prov. xxi. 1.
 
-  505 2 Sam. xvi. 10.
+509 Isaiah xxix. 14. Psalm cvii. 40. Ezek. vii. 26.
 
-  506 1 Kings xi. 31.
+510 Lev. xxvi. 36.
 
-  507 1 Sam. ii. 34.
+511 1 Sam. xxvi. 12.
 
-  508 Prov. xxi. 1.
+512 Rom. i. 28; xi. 8. Exod. viii. 15.
 
-  509 Isaiah xxix. 14. Psalm cvii. 40. Ezek. vii. 26.
+513 Exod. iv. 21.
 
-  510 Lev. xxvi. 36.
+514 Deut. ii. 30. Joshua xi. 20.
 
-  511 1 Sam. xxvi. 12.
+515 Psalm cv. 25.
 
-  512 Rom. i. 28; xi. 8. Exod. viii. 15.
+516 Isaiah x. 6.
 
-  513 Exod. iv. 21.
+517 1 Sam. xvi. 14.
 
-  514 Deut. ii. 30. Joshua xi. 20.
+518 2 Cor. iv. 4.
 
-  515 Psalm cv. 25.
+519 2 Thess. ii. 10‐12.
 
-  516 Isaiah x. 6.
+520 Ezek. xiv. 9.
 
-  517 1 Sam. xvi. 14.
+521 Rom. i. 28.
 
-  518 2 Cor. iv. 4.
+522 Psalm li. 4.
 
-  519 2 Thess. ii. 10‐12.
+523 1 John v. 4.
 
-  520 Ezek. xiv. 9.
+524 Job i. 21.
 
-  521 Rom. i. 28.
+525 1 Sam. ii. 25.
 
-  522 Psalm li. 4.
+526 Psalm cxv. 3.
 
-  523 1 John v. 4.
+527 Isaiah xlv. 7. Amos iii. 6.
 
-  524 Job i. 21.
+528 Deut. xix. 5.
 
-  525 1 Sam. ii. 25.
+529 Acts iv. 28.
 
-  526 Psalm cxv. 3.
+530 Ephes. iii. 9, 10.
 
-  527 Isaiah xlv. 7. Amos iii. 6.
+531 1 Tim. vi. 16.
 
-  528 Deut. xix. 5.
+532 Psalm cxi. 2.
 
-  529 Acts iv. 28.
+533 2 Sam. xvi. 22.
 
-  530 Ephes. iii. 9, 10.
+534 2 Sam. xvi. 10.
 
-  531 1 Tim. vi. 16.
+535 1 Kings xii. 20.
 
-  532 Psalm cxi. 2.
+536 Hosea viii. 4.
 
-  533 2 Sam. xvi. 22.
+537 Hosea xiii. 11.
 
-  534 2 Sam. xvi. 10.
+538 1 Kings xi. 23.
 
-  535 1 Kings xii. 20.
+539 1 Kings xii. 15. 2 Chron. x. 15.
 
-  536 Hosea viii. 4.
+540 2 Kings x. 7, 8, 9, 10.
 
-  537 Hosea xiii. 11.
+541 Rom. v. 19.
 
-  538 1 Kings xi. 23.
+542 Rom. viii. 20, 22.
 
-  539 1 Kings xii. 15. 2 Chron. x. 15.
+543 Psalm li. 5.
 
-  540 2 Kings x. 7, 8, 9, 10.
+544 Job xiv. 4.
 
-  541 Rom. v. 19.
+545 Rom. v. 12.
 
-  542 Rom. viii. 20, 22.
+546 Rom. v. 19.
 
-  543 Psalm li. 5.
+547 1 Cor. xv. 22.
 
-  544 Job xiv. 4.
+548 Rom. viii. 10.
 
-  545 Rom. v. 12.
+549 Ephes. ii. 3.
 
-  546 Rom. v. 19.
+550 John iii. 5, 6.
 
-  547 1 Cor. xv. 22.
+551 Gal. v. 19.
 
-  548 Rom. viii. 10.
+552 Rom. v. 12.
 
-  549 Ephes. ii. 3.
+553 Rom. vii. 18.
 
-  550 John iii. 5, 6.
+554 Ephes. iv. 17, 18.
 
-  551 Gal. v. 19.
+555 Ephes. iv. 23.
 
-  552 Rom. v. 12.
+556 Rom. xii. 2.
 
-  553 Rom. vii. 18.
+557 Rom. viii. 6, 7.
 
-  554 Ephes. iv. 17, 18.
+558 Eccles. vii. 29.
 
-  555 Ephes. iv. 23.
+559 Ephes. ii. 3.
 
-  556 Rom. xii. 2.
+560 2 Cor. iii. 17.
 
-  557 Rom. viii. 6, 7.
+561 2 Peter ii. 19.
 
-  558 Eccles. vii. 29.
+562 John xv. 5.
 
-  559 Ephes. ii. 3.
+563 Gen. iii. 5.
 
-  560 2 Cor. iii. 17.
+564 Jer. xvii. 5.
 
-  561 2 Peter ii. 19.
+565 Psalm cxlvii. 10.
 
-  562 John xv. 5.
+566 Isaiah xl. 29‐31.
 
-  563 Gen. iii. 5.
+567 James iv. 6.
 
-  564 Jer. xvii. 5.
+568 Isaiah xliv. 3.
 
-  565 Psalm cxlvii. 10.
+569 Isaiah lv. 1.
 
-  566 Isaiah xl. 29‐31.
+570 Isaiah lx. 16.
 
-  567 James iv. 6.
+571 John i. 5.
 
-  568 Isaiah xliv. 3.
+572 Exod. xxxi. 2‐11; xxxv. 30‐35.
 
-  569 Isaiah lv. 1.
+573 Judges vi. 34; xv. 14.
 
-  570 Isaiah lx. 16.
+574 1 Sam. x. 26.
 
-  571 John i. 5.
+575 1 Sam. x. 6.
 
-  572 Exod. xxxi. 2‐11; xxxv. 30‐35.
+576 1 Sam. xvi. 13.
 
-  573 Judges vi. 34; xv. 14.
+577 Job xii. 24. Psalm cvii. 40.
 
-  574 1 Sam. x. 26.
+578 John i. 4.
 
-  575 1 Sam. x. 6.
+579 John i. 13.
 
-  576 1 Sam. xvi. 13.
+580 Matt. xvi. 17.
 
-  577 Job xii. 24. Psalm cvii. 40.
+581 Psalm xxxvi. 9.
 
-  578 John i. 4.
+582 1 Cor. xii. 3.
 
-  579 John i. 13.
+583 John iii. 27.
 
-  580 Matt. xvi. 17.
+584 Deut. xxix. 3, 4.
 
-  581 Psalm xxxvi. 9.
+585 Jer. xxiv. 7.
 
-  582 1 Cor. xii. 3.
+586 John vi. 44.
 
-  583 John iii. 27.
+587 Heb. i. 3.
 
-  584 Deut. xxix. 3, 4.
+588 1 Cor. ii. 14.
 
-  585 Jer. xxiv. 7.
+589 1 Cor. ii. 9.
 
-  586 John vi. 44.
+590 1 Cor. i. 20.
 
-  587 Heb. i. 3.
+591 Eph. i. 17.
 
-  588 1 Cor. ii. 14.
+592 Psalm cxix. 18.
 
-  589 1 Cor. ii. 9.
+593 James i. 17.
 
-  590 1 Cor. i. 20.
+594 John xvi. 14.
 
-  591 Eph. i. 17.
+595 Rom. ii. 14, 15.
 
-  592 Psalm cxix. 18.
+596 2 Cor. iii. 5.
 
-  593 James i. 17.
+597 Psalm xciv. 11.
 
-  594 John xvi. 14.
+598 Gen. vi. 5; viii. 21.
 
-  595 Rom. ii. 14, 15.
+599 Psalm cxix. 34.
 
-  596 2 Cor. iii. 5.
+600 Col. i. 9. Phil. i. 4.
 
-  597 Psalm xciv. 11.
+601 Col. i. 9.
 
-  598 Gen. vi. 5; viii. 21.
+602 Psalm li. 10.
 
-  599 Psalm cxix. 34.
+603 Rom. vii. 18, 19.
 
-  600 Col. i. 9. Phil. i. 4.
+604 Rom. vii. 20.
 
-  601 Col. i. 9.
+605 Rom. vii. 22, 23.
 
-  602 Psalm li. 10.
+606 2 Cor. iii. 5.
 
-  603 Rom. vii. 18, 19.
+607 Gen. viii. 21.
 
-  604 Rom. vii. 20.
+608 John viii. 34.
 
-  605 Rom. vii. 22, 23.
+609 Phil. ii. 13.
 
-  606 2 Cor. iii. 5.
+610 Psalm cxix.
 
-  607 Gen. viii. 21.
+611 Psalm li. 10.
 
-  608 John viii. 34.
+612 John iii. 6.
 
-  609 Phil. ii. 13.
+613 Rom. viii. 6, 7.
 
-  610 Psalm cxix.
+614 Eph. iv. 22, 23.
 
-  611 Psalm li. 10.
+615 Ephes. iv. 17, 18.
 
-  612 John iii. 6.
+616 Isaiah lx. 1, &c.
 
-  613 Rom. viii. 6, 7.
+617 Psalm lxii. 9.
 
-  614 Eph. iv. 22, 23.
+618 Jer. xvii. 9.
 
-  615 Ephes. iv. 17, 18.
+619 Rom. iii. 10‐18.
 
-  616 Isaiah lx. 1, &c.
+620 Isaiah xi. 2.
 
-  617 Psalm lxii. 9.
+621 Psalm cxi. 10.
 
-  618 Jer. xvii. 9.
+622 Jer. xxxi. 18.
 
-  619 Rom. iii. 10‐18.
+623 Jer. xxxi. 11.
 
-  620 Isaiah xi. 2.
+624 Phil. i. 6.
 
-  621 Psalm cxi. 10.
+625 Ezek. xxxvi. 26, 27.
 
-  622 Jer. xxxi. 18.
+626 2 Cor. iii. 5.
 
-  623 Jer. xxxi. 11.
+627 Phil. ii. 13.
 
-  624 Phil. i. 6.
+628 1 Cor. xii. 6.
 
-  625 Ezek. xxxvi. 26, 27.
+629 1 Cor. i. 30.
 
-  626 2 Cor. iii. 5.
+630 Eph. ii. 10.
 
-  627 Phil. ii. 13.
+631 Psalm c. 3.
 
-  628 1 Cor. xii. 6.
+632 John vi. 45.
 
-  629 1 Cor. i. 30.
+633 Jer. xxxii. 39.
 
-  630 Eph. ii. 10.
+634 Ezek. xi. 19.
 
-  631 Psalm c. 3.
+635 1 Kings viii. 56.
 
-  632 John vi. 45.
+636 Psalm cxix. 36.
 
-  633 Jer. xxxii. 39.
+637 Psalm li. 10.
 
-  634 Ezek. xi. 19.
+638 John xv. 1, 4, 5.
 
-  635 1 Kings viii. 56.
+639 Matt. xv. 13.
 
-  636 Psalm cxix. 36.
+640 Phil. ii. 13.
 
-  637 Psalm li. 10.
+641 1 Cor. xii. 6.
 
-  638 John xv. 1, 4, 5.
+642 Psalm lxxxvi. 11.
 
-  639 Matt. xv. 13.
+643 Psalm cxix. 133.
 
-  640 Phil. ii. 13.
+644 Ezek. xi. 19, 20; xxxvi. 27.
 
-  641 1 Cor. xii. 6.
+645 John vi. 45.
 
-  642 Psalm lxxxvi. 11.
+646 John vi. 44.
 
-  643 Psalm cxix. 133.
+647 1 John iii. 9.
 
-  644 Ezek. xi. 19, 20; xxxvi. 27.
+648 Matt. xxv. 23, 29. Luke xix. 17, 26.
 
-  645 John vi. 45.
+649 Phil. ii. 13.
 
-  646 John vi. 44.
+650 1 Cor. xv. 10.
 
-  647 1 John iii. 9.
+651 Psalm lix. 10.
 
-  648 Matt. xxv. 23, 29. Luke xix. 17, 26.
+652 Psalm xxiii. 6.
 
-  649 Phil. ii. 13.
+653 2 Cor. xii. 9.
 
-  650 1 Cor. xv. 10.
+654 2 Cor. iv. 4.
 
-  651 Psalm lix. 10.
+655 Eph. ii. 2.
 
-  652 Psalm xxiii. 6.
+656 Job i.
 
-  653 2 Cor. xii. 9.
+657 Deut. ii. 30.
 
-  654 2 Cor. iv. 4.
+658 Job xii. 20, 24.
 
-  655 Eph. ii. 2.
+659 Isaiah lxiii. 17.
 
-  656 Job i.
+660 Exod. iv. 21.
 
-  657 Deut. ii. 30.
+661 Exod. vii. 3.
 
-  658 Job xii. 20, 24.
+662 Deut. ii. 30.
 
-  659 Isaiah lxiii. 17.
+663 Psalm cv. 25.
 
-  660 Exod. iv. 21.
+664 Isaiah v. 26; vii. 18.
 
-  661 Exod. vii. 3.
+665 Ezek. xii. 13; xvii. 20.
 
-  662 Deut. ii. 30.
+666 Jer. l. 23.
 
-  663 Psalm cv. 25.
+667 Isaiah x. 15.
 
-  664 Isaiah v. 26; vii. 18.
+668 1 Sam. xvi. 14; xviii. 19; xix. 19.
 
-  665 Ezek. xii. 13; xvii. 20.
+669 2 Thess. ii. 11, 12.
 
-  666 Jer. l. 23.
+670 Exod. xi. 3.
 
-  667 Isaiah x. 15.
+671 Gen. xliii. 14.
 
-  668 1 Sam. xvi. 14; xviii. 19; xix. 19.
+672 Psalm cvi. 46.
 
-  669 2 Thess. ii. 11, 12.
+673 1 Sam. xi. 6.
 
-  670 Exod. xi. 3.
+674 2 Sam. xvii. 14.
 
-  671 Gen. xliii. 14.
+675 1 Kings xii. 10.
 
-  672 Psalm cvi. 46.
+676 Lev. xxvi. 36.
 
-  673 1 Sam. xi. 6.
+677 Prov. xx. 12.
 
-  674 2 Sam. xvii. 14.
+678 Prov. xxi. 1.
 
-  675 1 Kings xii. 10.
+679 Rom. viii. 29.
 
-  676 Lev. xxvi. 36.
+680 1 Cor. iv. 7.
 
-  677 Prov. xx. 12.
+681 John xv. 5.
 
-  678 Prov. xxi. 1.
+682 1 Cor. iii. 3.
 
-  679 Rom. viii. 29.
+683 Rom. ix. 16.
 
-  680 1 Cor. iv. 7.
+684 1 Cor. iii. 7.
 
-  681 John xv. 5.
+685 Ezek. xi. 19, 20.
 
-  682 1 Cor. iii. 3.
+686 John vi. 44, 45.
 
-  683 Rom. ix. 16.
+687 2 Cor. ii. 16.
 
-  684 1 Cor. iii. 7.
+688 Gal. iii. 19. Rom. iii. 20; iv. 15; v. 20.
 
-  685 Ezek. xi. 19, 20.
+689 1 Tim. i. 5.
 
-  686 John vi. 44, 45.
+690 1 Thess. iii. 12.
 
-  687 2 Cor. ii. 16.
+691 Joel ii. 12.
 
-  688 Gal. iii. 19. Rom. iii. 20; iv. 15; v. 20.
+692 Jer. xxxi. 18, 19.
 
-  689 1 Tim. i. 5.
+693 Deut. x. 16, and xxx. 6.
 
-  690 1 Thess. iii. 12.
+694 Jer. iv. 4. Ezek. xxxvi. 26.
 
-  691 Joel ii. 12.
+695 Acts xiii. 43.
 
-  692 Jer. xxxi. 18, 19.
+696 Eph. vi. 10.
 
-  693 Deut. x. 16, and xxx. 6.
+697 Eph. iv. 30.
 
-  694 Jer. iv. 4. Ezek. xxxvi. 26.
+698 2 Thess. i. 11.
 
-  695 Acts xiii. 43.
+699 2 Cor. viii. 1, &c.
 
-  696 Eph. vi. 10.
+700 Zech. i. 3.
 
-  697 Eph. iv. 30.
+701 Jer. xxxi. 32.
 
-  698 2 Thess. i. 11.
+702 Amos v. 14. Isaiah i. 19, 20.
 
-  699 2 Cor. viii. 1, &c.
+703 Jer. iv. 1. Deut. xxviii. 1.
 
-  700 Zech. i. 3.
+704 Numb. xiv. 43.
 
-  701 Jer. xxxi. 32.
+705 Jer. vii. 13, 14.
 
-  702 Amos v. 14. Isaiah i. 19, 20.
+706 Jer. vii. 28, 29.
 
-  703 Jer. iv. 1. Deut. xxviii. 1.
+707 Jer. xxxii. 23.
 
-  704 Numb. xiv. 43.
+708 Jer. vii. 27.
 
-  705 Jer. vii. 13, 14.
+709 Psalm lxxviii. 8.
 
-  706 Jer. vii. 28, 29.
+710 Psalm xcv. 8.
 
-  707 Jer. xxxii. 23.
+711 Prov. xvi. 1.
 
-  708 Jer. vii. 27.
+712 Psalm cxix. 112.
 
-  709 Psalm lxxviii. 8.
+713 Psalm cxix. 33‐40.
 
-  710 Psalm xcv. 8.
+714 Phil. ii. 12.
 
-  711 Prov. xvi. 1.
+715 2 Peter i. 5.
 
-  712 Psalm cxix. 112.
+716 1 Thess. v. 19.
 
-  713 Psalm cxix. 33‐40.
+717 2 Cor. vii. 1.
 
-  714 Phil. ii. 12.
+718 1 John v. 18.
 
-  715 2 Peter i. 5.
+719 John xvii. 15.
 
-  716 1 Thess. v. 19.
+720 1 Peter i. 22.
 
-  717 2 Cor. vii. 1.
+721 1 John iii. 9.
 
-  718 1 John v. 18.
+722 1 John v. 4.
 
-  719 John xvii. 15.
+723 Deut. xxx. 11‐14.
 
-  720 1 Peter i. 22.
+724 Rom. x. 8.
 
-  721 1 John iii. 9.
+725 Deut. xxx. 6.
 
-  722 1 John v. 4.
+726 Hos. v. 15.
 
-  723 Deut. xxx. 11‐14.
+727 Gen. iv. 7.
 
-  724 Rom. x. 8.
+728 Rom. ix. 16.
 
-  725 Deut. xxx. 6.
+729 Tit. iii. 4, 5.
 
-  726 Hos. v. 15.
+730 Epist. 107, ad Vital.
 
-  727 Gen. iv. 7.
+731 1 Cor. iii. 9.
 
-  728 Rom. ix. 16.
+732 Ecclus. xv. 14.
 
-  729 Tit. iii. 4, 5.
+733 Eccles. vii. 29.
 
-  730 Epist. 107, ad Vital.
+734 Luke x. 30.
 
-  731 1 Cor. iii. 9.
+735 Eph. ii. 5; v. 14.
 
-  732 Ecclus. xv. 14.
+736 John v. 25.
 
-  733 Eccles. vii. 29.
+737 1 Cor. i. 21.
 
-  734 Luke x. 30.
+738 John xvii. 3.
 
-  735 Eph. ii. 5; v. 14.
+739 John iv. 22.
 
-  736 John v. 25.
+740 Ephes. ii. 12.
 
-  737 1 Cor. i. 21.
+741 John i. 4.
 
-  738 John xvii. 3.
+742 John i. 12.
 
-  739 John iv. 22.
+743 Gal. iii. 16.
 
-  740 Ephes. ii. 12.
+744 1 Sam. ii. 10.
 
-  741 John i. 4.
+745 Psalm ii. 12.
 
-  742 John i. 12.
+746 John v. 24.
 
-  743 Gal. iii. 16.
+747 1 Kings xi. 13.
 
-  744 1 Sam. ii. 10.
+748 1 Kings xi. 39.
 
-  745 Psalm ii. 12.
+749 1 Kings xv. 4.
 
-  746 John v. 24.
+750 2 Kings viii. 19.
 
-  747 1 Kings xi. 13.
+751 Psalm lxxviii. 60, 67, 68, 70, 71.
 
-  748 1 Kings xi. 39.
+752 Psalm xxviii. 8.
 
-  749 1 Kings xv. 4.
+753 Psalm xx. 9.
 
-  750 2 Kings viii. 19.
+754 Psalm cxviii. 25, 26.
 
-  751 Psalm lxxviii. 60, 67, 68, 70, 71.
+755 Psalm lxxx. 17.
 
-  752 Psalm xxviii. 8.
+756 Lam. iv. 20.
 
-  753 Psalm xx. 9.
+757 Hab. iii. 13.
 
-  754 Psalm cxviii. 25, 26.
+758 Isaiah vii. 14.
 
-  755 Psalm lxxx. 17.
+759 Isaiah lv. 3.
 
-  756 Lam. iv. 20.
+760 Jer. xxiii. 5, 6.
 
-  757 Hab. iii. 13.
+761 Ezek. xxxiv. 23‐25.
 
-  758 Isaiah vii. 14.
+762 Ezek. xxxvii. 24, 26.
 
-  759 Isaiah lv. 3.
+763 Hos. i. 11.
 
-  760 Jer. xxiii. 5, 6.
+764 Hos. iii. 5.
 
-  761 Ezek. xxxiv. 23‐25.
+765 Mic. ii. 13.
 
-  762 Ezek. xxxvii. 24, 26.
+766 Amos ix. 11.
 
-  763 Hos. i. 11.
+767 Zech. ix. 9.
 
-  764 Hos. iii. 5.
+768 Psalm xxviii. 8, 9.
 
-  765 Mic. ii. 13.
+769 Matt. xxi. 9.
 
-  766 Amos ix. 11.
+770 John xiv. 1.
 
-  767 Zech. ix. 9.
+771 Col. i. 15.
 
-  768 Psalm xxviii. 8, 9.
+772 Rom. x. 4.
 
-  769 Matt. xxi. 9.
+773 Lib. 4, c. 8.
 
-  770 John xiv. 1.
+774 1 John ii. 23.
 
-  771 Col. i. 15.
+775 Acts vii. 44. Heb. viii. 5. Ex. xxv. 40.
 
-  772 Rom. x. 4.
+776 Exod. xix. 6.
 
-  773 Lib. 4, c. 8.
+777 1 Peter ii. 9.
 
-  774 1 John ii. 23.
+778 Gal. iii. 24.
 
-  775 Acts vii. 44. Heb. viii. 5. Ex. xxv. 40.
+779 Isaiah liii. 5, &c.
 
-  776 Exod. xix. 6.
+780 Dan. ix. 26, &c.
 
-  777 1 Peter ii. 9.
+781 Psalm cx. 4.
 
-  778 Gal. iii. 24.
+782 Rom. x. 4.
 
-  779 Isaiah liii. 5, &c.
+783 2 Cor. iii. 17.
 
-  780 Dan. ix. 26, &c.
+784 Gal. iii. 19.
 
-  781 Psalm cx. 4.
+785 Deut. xxx. 15, 19.
 
-  782 Rom. x. 4.
+786 Eccles. vii. 20.
 
-  783 2 Cor. iii. 17.
+787 Psalm cxliii. 2.
 
-  784 Gal. iii. 19.
+788 Job iv. 17; ix. 2; xv. 14; xxv. 4.
 
-  785 Deut. xxx. 15, 19.
+789 Gal. v. 17.
 
-  786 Eccles. vii. 20.
+790 Gal. iii. 10.
 
-  787 Psalm cxliii. 2.
+791 Lib. de Nat. et Grat.
 
-  788 Job iv. 17; ix. 2; xv. 14; xxv. 4.
+792 Matt. xix. 25, 26.
 
-  789 Gal. v. 17.
+793 Rom. viii. 3, &c.
 
-  790 Gal. iii. 10.
+794 Rom. vii. 7.
 
-  791 Lib. de Nat. et Grat.
+795 Rom. iii. 20.
 
-  792 Matt. xix. 25, 26.
+796 Rom. v. 20.
 
-  793 Rom. viii. 3, &c.
+797 2 Cor. iii. 7. Rom. iv. 15.
 
-  794 Rom. vii. 7.
+798 Rom. iii. 19.
 
-  795 Rom. iii. 20.
+799 Rom. xi. 32.
 
-  796 Rom. v. 20.
+800 1 Tim. i. 9, 10.
 
-  797 2 Cor. iii. 7. Rom. iv. 15.
+801 Gal. iii. 24.
 
-  798 Rom. iii. 19.
+802 Psalm xix. 7, 8.
 
-  799 Rom. xi. 32.
+803 Psalm cxix. 105.
 
-  800 1 Tim. i. 9, 10.
+804 Deut. xxxii. 46, 47.
 
-  801 Gal. iii. 24.
+805 Psalm i. 2.
 
-  802 Psalm xix. 7, 8.
+806 Matt. v. 17, 18.
 
-  803 Psalm cxix. 105.
+807 Gal. iii. 10.
 
-  804 Deut. xxxii. 46, 47.
+808 Gal. iii. 13.
 
-  805 Psalm i. 2.
+809 Gal. iv. 4, 5.
 
-  806 Matt. v. 17, 18.
+810 Col. ii. 17.
 
-  807 Gal. iii. 10.
+811 Matt. xxvii. 51.
 
-  808 Gal. iii. 13.
+812 Luke xvi. 16.
 
-  809 Gal. iv. 4, 5.
+813 John i. 17.
 
-  810 Col. ii. 17.
+814 Col. ii. 13, 14.
 
-  811 Matt. xxvii. 51.
+815 Ephes. ii. 14, 15.
 
-  812 Luke xvi. 16.
+816 Heb. x. 3‐14.
 
-  813 John i. 17.
+817 Heb. ix. 15.
 
-  814 Col. ii. 13, 14.
+818 Lev. xviii. 5.
 
-  815 Ephes. ii. 14, 15.
+819 Ezek. xviii. 4.
 
-  816 Heb. x. 3‐14.
+820 Deut. xii. 28, 32.
 
-  817 Heb. ix. 15.
+821 Deut. iv. 5, 6, 9.
 
-  818 Lev. xviii. 5.
+822 Rom. vii. 14.
 
-  819 Ezek. xviii. 4.
+823 Matt. v. 22, 28.
 
-  820 Deut. xii. 28, 32.
+824 Matt. xxii. 37‐40. Luke x. 27.
 
-  821 Deut. iv. 5, 6, 9.
+825 Rom. xi. 36.
 
-  822 Rom. vii. 14.
+826 Jer. xxxi. 33.
 
-  823 Matt. v. 22, 28.
+827 Matt. xxii. 32.
 
-  824 Matt. xxii. 37‐40. Luke x. 27.
+828 Deut. vii. 6; xiv. 2; xxvi. 18.
 
-  825 Rom. xi. 36.
+829 Lev. xi. 44.
 
-  826 Jer. xxxi. 33.
+830 Mal. i. 6.
 
-  827 Matt. xxii. 32.
+831 Exod. iii. 6. Amos i. 2. Hab. ii. 20. Psalm lxxx. 1; xcix. 1. Isaiah
+xxxvii. 16.
 
-  828 Deut. vii. 6; xiv. 2; xxvi. 18.
+832 Deut. iv. 17.
 
-  829 Lev. xi. 44.
+833 Cap. xi. xii.
 
-  830 Mal. i. 6.
+834 Jer. iii. 1, 2. Hos. ii. 2.
 
-  831 Exod. iii. 6. Amos i. 2. Hab. ii. 20. Psalm lxxx. 1; xcix. 1. Isaiah
-      xxxvii. 16.
+835 Ezek. xviii. 20.
 
-  832 Deut. iv. 17.
+836 Num. xiv. 18.
 
-  833 Cap. xi. xii.
+837 Jer. xxxii. 18.
 
-  834 Jer. iii. 1, 2. Hos. ii. 2.
+838 Isaiah xxxix. 7.
 
-  835 Ezek. xviii. 20.
+839 Gen. xii. 17; xx. 3.
 
-  836 Num. xiv. 18.
+840 Ezek. xviii. 2.
 
-  837 Jer. xxxii. 18.
+841 Gen. xvii. 7.
 
-  838 Isaiah xxxix. 7.
+842 Prov. xx. 7.
 
-  839 Gen. xii. 17; xx. 3.
+843 Isaiah xix. 18.
 
-  840 Ezek. xviii. 2.
+844 Isaiah lxv. 16.
 
-  841 Gen. xvii. 7.
+845 Jer. xii. 16.
 
-  842 Prov. xx. 7.
+846 Jer. v. 7.
 
-  843 Isaiah xix. 18.
+847 Zeph. i. 4, 5.
 
-  844 Isaiah lxv. 16.
+848 Lev. xix. 12.
 
-  845 Jer. xii. 16.
+849 Joshua vii. 19.
 
-  846 Jer. v. 7.
+850 John ix. 24.
 
-  847 Zeph. i. 4, 5.
+851 1 Sam. xiv. 45.
 
-  848 Lev. xix. 12.
+852 2 Kings vi. 31.
 
-  849 Joshua vii. 19.
+853 2 Cor. i. 23.
 
-  850 John ix. 24.
+854 Deut. vi. 13.
 
-  851 1 Sam. xiv. 45.
+855 Exod. xxiii. 13.
 
-  852 2 Kings vi. 31.
+856 Heb. vi. 13, 16.
 
-  853 2 Cor. i. 23.
+857 Matt. v. 34.
 
-  854 Deut. vi. 13.
+858 Exod. xxii. 11.
 
-  855 Exod. xxiii. 13.
+859 John x. 30, 18; vii. 16.
 
-  856 Heb. vi. 13, 16.
+860 James v. 12.
 
-  857 Matt. v. 34.
+861 Heb. vi. 16.
 
-  858 Exod. xxii. 11.
+862 Gen. xxi. 24; xxvi. 31; xxxi. 53.
 
-  859 John x. 30, 18; vii. 16.
+863 Ruth iii. 13.
 
-  860 James v. 12.
+864 1 Kings xviii. 10.
 
-  861 Heb. vi. 16.
+865 Numb. xiii. 22. Ezek. xx. 12; xxii. 8; xxiii. 38.
 
-  862 Gen. xxi. 24; xxvi. 31; xxxi. 53.
+866 Jer. xvii. 21, 22, 27. Isaiah lvi. 2.
 
-  863 Ruth iii. 13.
+867 Neh. ix. 14.
 
-  864 1 Kings xviii. 10.
+868 Exod. xxxi. 13, 14, 16, 17.
 
-  865 Numb. xiii. 22. Ezek. xx. 12; xxii. 8; xxiii. 38.
+869 Ezek. xx. 12.
 
-  866 Jer. xvii. 21, 22, 27. Isaiah lvi. 2.
+870 Heb. iv. 9.
 
-  867 Neh. ix. 14.
+871 Isaiah lxvi. 23.
 
-  868 Exod. xxxi. 13, 14, 16, 17.
+872 1 Cor. xv. 28.
 
-  869 Ezek. xx. 12.
+873 Isaiah lviii. 13, 14.
 
-  870 Heb. iv. 9.
+874 Rom. vi. 4, &c.
 
-  871 Isaiah lxvi. 23.
+875 Col. ii. 16, 17.
 
-  872 1 Cor. xv. 28.
+876 Deut. v. 14, 15.
 
-  873 Isaiah lviii. 13, 14.
+877 Exod. xxiii. 12.
 
-  874 Rom. vi. 4, &c.
+878 1 Cor. xiv. 40.
 
-  875 Col. ii. 16, 17.
+879 Col. ii. 16, 17.
 
-  876 Deut. v. 14, 15.
+880 Gal. iv. 10, 11.
 
-  877 Exod. xxiii. 12.
+881 Rom. xiv. 5.
 
-  878 1 Cor. xiv. 40.
+882 1 Tim. v. 17.
 
-  879 Col. ii. 16, 17.
+883 Exod. xxi. 17.
 
-  880 Gal. iv. 10, 11.
+884 Deut. xxi. 18‐21.
 
-  881 Rom. xiv. 5.
+885 Matt. xv. 4‐6.
 
-  882 1 Tim. v. 17.
+886 Eph. vi. 1. Col. iii. 20.
 
-  883 Exod. xxi. 17.
+887 1 John iii. 15.
 
-  884 Deut. xxi. 18‐21.
+888 Matt. v. 22.
 
-  885 Matt. xv. 4‐6.
+889 Matt. xix. 11.
 
-  886 Eph. vi. 1. Col. iii. 20.
+890 Matt. xix. 12.
 
-  887 1 John iii. 15.
+891 1 Cor. vii. 7.
 
-  888 Matt. v. 22.
+892 1 Cor. vii. 2, 9.
 
-  889 Matt. xix. 11.
+893 1 Cor. vii. 34.
 
-  890 Matt. xix. 12.
+894 1 Cor. vii. 9.
 
-  891 1 Cor. vii. 7.
+895 Exod. xxiii. 1, 7.
 
-  892 1 Cor. vii. 2, 9.
+896 Lev. xix. 16.
 
-  893 1 Cor. vii. 34.
+897 Deut. x. 12, 13.
 
-  894 1 Cor. vii. 9.
+898 Deut. xi. 22.
 
-  895 Exod. xxiii. 1, 7.
+899 Luke x. 27.
 
-  896 Lev. xix. 16.
+900 1 Tim. i. 5.
 
-  897 Deut. x. 12, 13.
+901 Matt. xxiii. 23.
 
-  898 Deut. xi. 22.
+902 Matt. xix. 18, 19.
 
-  899 Luke x. 27.
+903 Psalm xvi. 2.
 
-  900 1 Tim. i. 5.
+904 Ephes. iii. 17.
 
-  901 Matt. xxiii. 23.
+905 Rom. xiii. 8.
 
-  902 Matt. xix. 18, 19.
+906 Gal. v. 14.
 
-  903 Psalm xvi. 2.
+907 Matt. vii. 12.
 
-  904 Ephes. iii. 17.
+908 1 Cor. xiii. 5.
 
-  905 Rom. xiii. 8.
+909 Prov. xxv. 21.
 
-  906 Gal. v. 14.
+910 Exod. xxiii. 4, 5.
 
-  907 Matt. vii. 12.
+911 Rom. xii. 19.
 
-  908 1 Cor. xiii. 5.
+912 Lev. xix. 18.
 
-  909 Prov. xxv. 21.
+913 Matt. v. 44, 45.
 
-  910 Exod. xxiii. 4, 5.
+914 Matt. v. 46.
 
-  911 Rom. xii. 19.
+915 Rom. xiii. 9.
 
-  912 Lev. xix. 18.
+916 Rom. vi. 23.
 
-  913 Matt. v. 44, 45.
+917 Matt. v. 19.
 
-  914 Matt. v. 46.
+918 Ezek. xviii. 20.
 
-  915 Rom. xiii. 9.
+919 Rom. vi. 23.
 
-  916 Rom. vi. 23.
+920 Mal. iv. 2.
 
-  917 Matt. v. 19.
+921 1 Peter i. 10‐12.
 
-  918 Ezek. xviii. 20.
+922 John v. 46.
 
-  919 Rom. vi. 23.
+923 Matt. xiii. 16.
 
-  920 Mal. iv. 2.
+924 Luke x. 24.
 
-  921 1 Peter i. 10‐12.
+925 John viii. 56.
 
-  922 John v. 46.
+926 John i. 18.
 
-  923 Matt. xiii. 16.
+927 Heb. i. 1, 2.
 
-  924 Luke x. 24.
+928 Heb. i. 3.
 
-  925 John viii. 56.
+929 2 Cor. iv. 6.
 
-  926 John i. 18.
+930 2 Cor. iv. 4.
 
-  927 Heb. i. 1, 2.
+931 1 Tim. iv. 6.
 
-  928 Heb. i. 3.
+932 Matt. ix. 35.
 
-  929 2 Cor. iv. 6.
+933 2 Tim. i. 10.
 
-  930 2 Cor. iv. 4.
+934 2 Cor. i. 20.
 
-  931 1 Tim. iv. 6.
+935 John i. 51.
 
-  932 Matt. ix. 35.
+936 Col. i. 5.
 
-  933 2 Tim. i. 10.
+937 1 John iii. 2.
 
-  934 2 Cor. i. 20.
+938 1 Tim. iv. 8.
 
-  935 John i. 51.
+939 2 Tim. i. 1.
 
-  936 Col. i. 5.
+940 2 Cor. vii. 1.
 
-  937 1 John iii. 2.
+941 Ephes. i. 13.
 
-  938 1 Tim. iv. 8.
+942 Rom. i. 16; iii. 21.
 
-  939 2 Tim. i. 1.
+943 Rom. xvi. 25, 26.
 
-  940 2 Cor. vii. 1.
+944 John i. 29.
 
-  941 Ephes. i. 13.
+945 Matt. xi. 11.
 
-  942 Rom. i. 16; iii. 21.
+946 John i. 23.
 
-  943 Rom. xvi. 25, 26.
+947 Mal. iv. 5.
 
-  944 John i. 29.
+948 John v. 35.
 
-  945 Matt. xi. 11.
+949 Rom. i. 1‐3.
 
-  946 John i. 23.
+950 Rom. iii. 21.
 
-  947 Mal. iv. 5.
+951 Ephes. i. 13, 14.
 
-  948 John v. 35.
+952 Col. i. 4, 5.
 
-  949 Rom. i. 1‐3.
+953 2 Thess. ii. 14.
 
-  950 Rom. iii. 21.
+954 Rom. iii. 19.
 
-  951 Ephes. i. 13, 14.
+955 John viii. 56.
 
-  952 Col. i. 4, 5.
+956 Heb. xiii. 8.
 
-  953 2 Thess. ii. 14.
+957 Luke i. 54, 72.
 
-  954 Rom. iii. 19.
+958 1 Cor. x. 1‐11.
 
-  955 John viii. 56.
+959 John vi. 49, 51.
 
-  956 Heb. xiii. 8.
+960 1 Peter i. 23, 25.
 
-  957 Luke i. 54, 72.
+961 Isaiah xl. 8.
 
-  958 1 Cor. x. 1‐11.
+962 Lev. xxvi. 12.
 
-  959 John vi. 49, 51.
+963 Psalm cxliv. 15; xxxiii. 12.
 
-  960 1 Peter i. 23, 25.
+964 Hab. i. 12.
 
-  961 Isaiah xl. 8.
+965 Isaiah xxxiii. 22.
 
-  962 Lev. xxvi. 12.
+966 Deut. xxxiii. 29.
 
-  963 Psalm cxliv. 15; xxxiii. 12.
+967 Lev. xxvi. 12.
 
-  964 Hab. i. 12.
+968 Exod. vi. 7.
 
-  965 Isaiah xxxiii. 22.
+969 Gen. xvii. 7.
 
-  966 Deut. xxxiii. 29.
+970 Exod. xx. 6.
 
-  967 Lev. xxvi. 12.
+971 Exod. iii. 6.
 
-  968 Exod. vi. 7.
+972 Matt. xxii. 32‐34. Luke xx. 37‐40.
 
-  969 Gen. xvii. 7.
+973 Deut. xxxiii. 3.
 
-  970 Exod. xx. 6.
+974 Gen. iii. 17‐19.
 
-  971 Exod. iii. 6.
+975 Gen. iv. 8, 14.
 
-  972 Matt. xxii. 32‐34. Luke xx. 37‐40.
+976 Gen. vi. 14‐21.
 
-  973 Deut. xxxiii. 3.
+977 Gen. vii. 11; viii. 13.
 
-  974 Gen. iii. 17‐19.
+978 Gen. ix. 24, 25.
 
-  975 Gen. iv. 8, 14.
+979 Gen. xii. 1.
 
-  976 Gen. vi. 14‐21.
+980 Gen. xii. 10‐15.
 
-  977 Gen. vii. 11; viii. 13.
+981 Gen. xx. 1, 2.
 
-  978 Gen. ix. 24, 25.
+982 Gen. xiii. 7‐11.
 
-  979 Gen. xii. 1.
+983 Gen. xiv. 12, 13.
 
-  980 Gen. xii. 10‐15.
+984 Gen. xxi. 25‐30.
 
-  981 Gen. xx. 1, 2.
+985 Gen. xv. 2.
 
-  982 Gen. xiii. 7‐11.
+986 Gen. xvi. 1‐15.
 
-  983 Gen. xiv. 12, 13.
+987 Gen. xxi. 2, 3, 10‐14.
 
-  984 Gen. xxi. 25‐30.
+988 Gen. xxii. 2.
 
-  985 Gen. xv. 2.
+989 Gen. xxvi. 1, 7, 20, 21.
 
-  986 Gen. xvi. 1‐15.
+990 Gen. xxvi. 34, 35.
 
-  987 Gen. xxi. 2, 3, 10‐14.
+991 Gen. xxviii. 5.
 
-  988 Gen. xxii. 2.
+992 Gen. xxvii. 41‐45.
 
-  989 Gen. xxvi. 1, 7, 20, 21.
+993 Gen. xxix. 20, 23, 25.
 
-  990 Gen. xxvi. 34, 35.
+994 Gen. xxix. 27.
 
-  991 Gen. xxviii. 5.
+995 Gen. xxxi. 40, 41.
 
-  992 Gen. xxvii. 41‐45.
+996 Gen. xxx. 1.
 
-  993 Gen. xxix. 20, 23, 25.
+997 Gen. xxxi. 25, 36.
 
-  994 Gen. xxix. 27.
+998 Gen. xxxii. xxxiii.
 
-  995 Gen. xxxi. 40, 41.
+999 Gen. xxxv. 19.
 
-  996 Gen. xxx. 1.
+1000 Gen. xxxvii. 32‐35.
 
-  997 Gen. xxxi. 25, 36.
+1001 Gen. xxxiv.
 
-  998 Gen. xxxii. xxxiii.
+1002 Gen. xxxv. 22.
 
-  999 Gen. xxxv. 19.
+1003 Gen. xxxviii. 13‐18.
 
- 1000 Gen. xxxvii. 32‐35.
+1004 Gen. xlii.
 
- 1001 Gen. xxxiv.
+1005 Gen. xlvii. 9.
 
- 1002 Gen. xxxv. 22.
+1006 Heb. xi. 9, &c.
 
- 1003 Gen. xxxviii. 13‐18.
+1007 Gen. xlvii. 9.
 
- 1004 Gen. xlii.
+1008 Gen. xlvii. 30.
 
- 1005 Gen. xlvii. 9.
+1009 Gen. l. 25.
 
- 1006 Heb. xi. 9, &c.
+1010 Gen. xlix. 18.
 
- 1007 Gen. xlvii. 9.
+1011 Numb. xxiii. 10.
 
- 1008 Gen. xlvii. 30.
+1012 Psalm cxvi. 15.
 
- 1009 Gen. l. 25.
+1013 Psalm xxxiv. 21.
 
- 1010 Gen. xlix. 18.
+1014 Psalm xxxix. 12, 5, 6, 7.
 
- 1011 Numb. xxiii. 10.
+1015 Psalm ciii. 17.
 
- 1012 Psalm cxvi. 15.
+1016 Psalm cii. 25‐28.
 
- 1013 Psalm xxxiv. 21.
+1017 Isaiah li. 6.
 
- 1014 Psalm xxxix. 12, 5, 6, 7.
+1018 Psalm xcvii. 10, 11.
 
- 1015 Psalm ciii. 17.
+1019 Psalm cxii. 9, 10.
 
- 1016 Psalm cii. 25‐28.
+1020 Psalm cxl. 13.
 
- 1017 Isaiah li. 6.
+1021 Psalm cxii. 6.
 
- 1018 Psalm xcvii. 10, 11.
+1022 Psalm xxxiv. 22.
 
- 1019 Psalm cxii. 9, 10.
+1023 Psalm lxxiii. 2.
 
- 1020 Psalm cxl. 13.
+1024 Psalm lxxiii. 16, 17.
 
- 1021 Psalm cxii. 6.
+1025 Psalm xvii. 15.
 
- 1022 Psalm xxxiv. 22.
+1026 Psalm lii. 8.
 
- 1023 Psalm lxxiii. 2.
+1027 Psalm xcii. 12‐14, 5, 7.
 
- 1024 Psalm lxxiii. 16, 17.
+1028 Psalm lv. 22, 23.
 
- 1025 Psalm xvii. 15.
+1029 Job xxi. 13.
 
- 1026 Psalm lii. 8.
+1030 Psalm xlix. 6, &c.
 
- 1027 Psalm xcii. 12‐14, 5, 7.
+1031 Psalm xxx. 5.
 
- 1028 Psalm lv. 22, 23.
+1032 Isaiah liv. 7, 8.
 
- 1029 Job xxi. 13.
+1033 Prov. x. 7.
 
- 1030 Psalm xlix. 6, &c.
+1034 Psalm cxvi. 15.
 
- 1031 Psalm xxx. 5.
+1035 1 Sam. ii. 9.
 
- 1032 Isaiah liv. 7, 8.
+1036 Ezek. xxviii. 10; xxxi. 18.
 
- 1033 Prov. x. 7.
+1037 Psalm lxix. 28.
 
- 1034 Psalm cxvi. 15.
+1038 Job xix. 25, &c.
 
- 1035 1 Sam. ii. 9.
+1039 Job xiii. 15.
 
- 1036 Ezek. xxviii. 10; xxxi. 18.
+1040 Ezek. xxxvii.
 
- 1037 Psalm lxix. 28.
+1041 Isaiah xxvi. 19‐21.
 
- 1038 Job xix. 25, &c.
+1042 Isaiah lxvi. 22‐24.
 
- 1039 Job xiii. 15.
+1043 Dan. xii. 1, 2.
 
- 1040 Ezek. xxxvii.
+1044 Matt. viii. 11.
 
- 1041 Isaiah xxvi. 19‐21.
+1045 Acts iii. 25.
 
- 1042 Isaiah lxvi. 22‐24.
+1046 Matt. xxvii. 52.
 
- 1043 Dan. xii. 1, 2.
+1047 Acts xv. 8.
 
- 1044 Matt. viii. 11.
+1048 Eph. i. 14.
 
- 1045 Acts iii. 25.
+1049 2 Cor. iii. 14‐16.
 
- 1046 Matt. xxvii. 52.
+1050 Gal. iv.
 
- 1047 Acts xv. 8.
+1051 Gen. xv. 1.
 
- 1048 Eph. i. 14.
+1052 Psalm lxxxiv. 2.
 
- 1049 2 Cor. iii. 14‐16.
+1053 Psalm lxxiii. 26.
 
- 1050 Gal. iv.
+1054 Psalm xvi. 5.
 
- 1051 Gen. xv. 1.
+1055 Psalm cxlii. 5.
 
- 1052 Psalm lxxxiv. 2.
+1056 Psalm xxxvii. 29.
 
- 1053 Psalm lxxiii. 26.
+1057 Prov. ii. 22.
 
- 1054 Psalm xvi. 5.
+1058 Psalm cxxxiii. 3.
 
- 1055 Psalm cxlii. 5.
+1059 Col. ii. 17.
 
- 1056 Psalm xxxvii. 29.
+1060 Heb. x. 1, &c.
 
- 1057 Prov. ii. 22.
+1061 Heb. vii. 17. Psalm cx. 4.
 
- 1058 Psalm cxxxiii. 3.
+1062 Heb. vii. 23, 24.
 
- 1059 Col. ii. 17.
+1063 Heb. vii. 20, 21.
 
- 1060 Heb. x. 1, &c.
+1064 Heb. vii. 12.
 
- 1061 Heb. vii. 17. Psalm cx. 4.
+1065 Heb. vii. 19.
 
- 1062 Heb. vii. 23, 24.
+1066 Heb. ix. 13, 14; x. 4.
 
- 1063 Heb. vii. 20, 21.
+1067 Heb. x. 1.
 
- 1064 Heb. vii. 12.
+1068 Heb. vii. 19.
 
- 1065 Heb. vii. 19.
+1069 Heb. vii. 22.
 
- 1066 Heb. ix. 13, 14; x. 4.
+1070 Matt. xxvi. 28.
 
- 1067 Heb. x. 1.
+1071 Gal. iii. 24.
 
- 1068 Heb. vii. 19.
+1072 Gal. iv. 1, &c.
 
- 1069 Heb. vii. 22.
+1073 Luke xvi. 16.
 
- 1070 Matt. xxvi. 28.
+1074 Col. ii. 3.
 
- 1071 Gal. iii. 24.
+1075 Luke x. 24.
 
- 1072 Gal. iv. 1, &c.
+1076 Matt. xiii. 16.
 
- 1073 Luke xvi. 16.
+1077 1 Peter i. 12.
 
- 1074 Col. ii. 3.
+1078 Jer. xxxi. 31, &c.
 
- 1075 Luke x. 24.
+1079 2 Cor. iii. 6, &c.
 
- 1076 Matt. xiii. 16.
+1080 Rom. viii. 15.
 
- 1077 1 Peter i. 12.
+1081 Heb. xii. 18, &c.
 
- 1078 Jer. xxxi. 31, &c.
+1082 Gal. iv. 22, &c.
 
- 1079 2 Cor. iii. 6, &c.
+1083 Luke xvi. 16.
 
- 1080 Rom. viii. 15.
+1084 Deut. xxxii. 8, 9.
 
- 1081 Heb. xii. 18, &c.
+1085 Deut. x. 14.
 
- 1082 Gal. iv. 22, &c.
+1086 Acts xiv. 16.
 
- 1083 Luke xvi. 16.
+1087 Gal. iv. 4.
 
- 1084 Deut. xxxii. 8, 9.
+1088 Matt. xvii. 11.
 
- 1085 Deut. x. 14.
+1089 Eph. ii. 14.
 
- 1086 Acts xiv. 16.
+1090 Col. iii. 11.
 
- 1087 Gal. iv. 4.
+1091 Psalm ii. 8.
 
- 1088 Matt. xvii. 11.
+1092 Psalm lxxii. 8.
 
- 1089 Eph. ii. 14.
+1093 Phil. ii. 9, 10.
 
- 1090 Col. iii. 11.
+1094 Matt. xv. 24.
 
- 1091 Psalm ii. 8.
+1095 Matt. x. 5, 6.
 
- 1092 Psalm lxxii. 8.
+1096 Col. i. 26.
 
- 1093 Phil. ii. 9, 10.
+1097 Eph. iii. 10.
 
- 1094 Matt. xv. 24.
+1098 Gal. iv. 1‐3.
 
- 1095 Matt. x. 5, 6.
+1099 1 Tim. ii. 5.
 
- 1096 Col. i. 26.
+1100 Heb. iv. 15.
 
- 1097 Eph. iii. 10.
+1101 Eph. v. 30.
 
- 1098 Gal. iv. 1‐3.
+1102 John xx. 17.
 
- 1099 1 Tim. ii. 5.
+1103 Rom. viii. 17.
 
- 1100 Heb. iv. 15.
+1104 Col. i. 15.
 
- 1101 Eph. v. 30.
+1105 Isaiah liii. 4, &c.
 
- 1102 John xx. 17.
+1106 John i. 9, &c.
 
- 1103 Rom. viii. 17.
+1107 John iii. 16.
 
- 1104 Col. i. 15.
+1108 John v. 25.
 
- 1105 Isaiah liii. 4, &c.
+1109 John xi. 25.
 
- 1106 John i. 9, &c.
+1110 Matt. xviii. 11.
 
- 1107 John iii. 16.
+1111 Matt. ix. 12.
 
- 1108 John v. 25.
+1112 Heb. v. 1.
 
- 1109 John xi. 25.
+1113 2 Cor. v. 19.
 
- 1110 Matt. xviii. 11.
+1114 Rom. viii. 3.
 
- 1111 Matt. ix. 12.
+1115 Titus iii. 4.
 
- 1112 Heb. v. 1.
+1116 Luke xxiv. 46, 47.
 
- 1113 2 Cor. v. 19.
+1117 John x. 17, 18.
 
- 1114 Rom. viii. 3.
+1118 John iii. 14.
 
- 1115 Titus iii. 4.
+1119 John xii. 27.
 
- 1116 Luke xxiv. 46, 47.
+1120 John xvii. 1.
 
- 1117 John x. 17, 18.
+1121 Luke i. 72, 79.
 
- 1118 John iii. 14.
+1122 Col. ii. 3.
 
- 1119 John xii. 27.
+1123 1 Cor. ii. 2.
 
- 1120 John xvii. 1.
+1124 Eph. i. 4, &c.
 
- 1121 Luke i. 72, 79.
+1125 Eph. iii. 18, 19.
 
- 1122 Col. ii. 3.
+1126 1 Tim. i. 15.
 
- 1123 1 Cor. ii. 2.
+1127 2 Tim. i. 9.
 
- 1124 Eph. i. 4, &c.
+1128 Titus iii. 9.
 
- 1125 Eph. iii. 18, 19.
+1129 Eph. i. 22.
 
- 1126 1 Tim. i. 15.
+1130 Psalm lxxxii. 6.
 
- 1127 2 Tim. i. 9.
+1131 Col. ii. 10.
 
- 1128 Titus iii. 9.
+1132 Heb. iv. 15.
 
- 1129 Eph. i. 22.
+1133 Luke iii. 38.
 
- 1130 Psalm lxxxii. 6.
+1134 1 Cor. xv. 45, 47.
 
- 1131 Col. ii. 10.
+1135 Col. i. 15.
 
- 1132 Heb. iv. 15.
+1136 Col. i. 16, 18.
 
- 1133 Luke iii. 38.
+1137 Gen. ii. 23.
 
- 1134 1 Cor. xv. 45, 47.
+1138 Eph. v. 30, 32.
 
- 1135 Col. i. 15.
+1139 Gal. iv. 4.
 
- 1136 Col. i. 16, 18.
+1140 Gen. xii. 3; xviii. 18; xxii. 18; xxvi. 4. Acts iii. 25; ii. 30.
+Psalm cxxxii. 11. Matt. i. 1.
 
- 1137 Gen. ii. 23.
+1141 Rom. i. 3; ix. 5.
 
- 1138 Eph. v. 30, 32.
+1142 Gal. iv. 4.
 
- 1139 Gal. iv. 4.
+1143 Heb. ii. 14, 16, 17; iv. 15.
 
- 1140 Gen. xii. 3; xviii. 18; xxii. 18; xxvi. 4. Acts iii. 25; ii. 30.
-      Psalm cxxxii. 11. Matt. i. 1.
+1144 Rom. viii. 3.
 
- 1141 Rom. i. 3; ix. 5.
+1145 Eph. iv. 15, 16.
 
- 1142 Gal. iv. 4.
+1146 John iii. 34; i. 16.
 
- 1143 Heb. ii. 14, 16, 17; iv. 15.
+1147 John xvii. 19.
 
- 1144 Rom. viii. 3.
+1148 Phil. ii. 7, 8.
 
- 1145 Eph. iv. 15, 16.
+1149 1 Peter iii. 18.
 
- 1146 John iii. 34; i. 16.
+1150 2 Cor. xiii. 4.
 
- 1147 John xvii. 19.
+1151 1 Cor. xv. 47.
 
- 1148 Phil. ii. 7, 8.
+1152 1 Cor. xv. 13, 14.
 
- 1149 1 Peter iii. 18.
+1153 Heb. ii. 10, 11, 14.
 
- 1150 2 Cor. xiii. 4.
+1154 Rom. viii. 29.
 
- 1151 1 Cor. xv. 47.
+1155 Heb. ii. 16.
 
- 1152 1 Cor. xv. 13, 14.
+1156 Gen. iii. 15.
 
- 1153 Heb. ii. 10, 11, 14.
+1157 Gal. iii. 16.
 
- 1154 Rom. viii. 29.
+1158 Rom. i. 3.
 
- 1155 Heb. ii. 16.
+1159 Rom. ix. 5.
 
- 1156 Gen. iii. 15.
+1160 Acts ii. 30.
 
- 1157 Gal. iii. 16.
+1161 Psalm cxxxii. 11.
 
- 1158 Rom. i. 3.
+1162 Gal. iv. 4.
 
- 1159 Rom. ix. 5.
+1163 Matt. i. 16. εξ ἦς εγεννηθη Ἰησους.
 
- 1160 Acts ii. 30.
+1164 Matt. i. 5. Σαλμων δε εγεννησεν τον βοες εκ της Ῥαχαβ.
 
- 1161 Psalm cxxxii. 11.
+1165 Gal. iii. 22.
 
- 1162 Gal. iv. 4.
+1166 Rom. v. 12, 15, 18.
 
- 1163 Matt. i. 16. εξ ἦς εγεννηθη Ἰησους.
+1167 1 Cor. xv. 47.
 
- 1164 Matt. i. 5. Σαλμων δε εγεννησεν τον βοες εκ της Ῥαχαβ.
+1168 Rom. viii. 3.
 
- 1165 Gal. iii. 22.
+1169 John xvii. 19.
 
- 1166 Rom. v. 12, 15, 18.
+1170 John i. 14.
 
- 1167 1 Cor. xv. 47.
+1171 John viii. 58.
 
- 1168 Rom. viii. 3.
+1172 Col. i. 15.
 
- 1169 John xvii. 19.
+1173 John xvii. 5.
 
- 1170 John i. 14.
+1174 John v. 17.
 
- 1171 John viii. 58.
+1175 Isaiah xlii. 1.
 
- 1172 Col. i. 15.
+1176 Luke ii. 52.
 
- 1173 John xvii. 5.
+1177 John viii. 50. Mark xiii. 32. John xiv. 10; vi. 38. Luke xxiv. 39.
 
- 1174 John v. 17.
+1178 Acts xx. 28.
 
- 1175 Isaiah xlii. 1.
+1179 1 Cor. ii. 8.
 
- 1176 Luke ii. 52.
+1180 1 John i. 1.
 
- 1177 John viii. 50. Mark xiii. 32. John xiv. 10; vi. 38. Luke xxiv. 39.
+1181 1 John iii. 16.
 
- 1178 Acts xx. 28.
+1182 John iii. 13.
 
- 1179 1 Cor. ii. 8.
+1183 John i. 29; v. 21‐23.
 
- 1180 1 John i. 1.
+1184 John ix. 5; x. 9, 11; xv. 1.
 
- 1181 1 John iii. 16.
+1185 1 Cor. xv. 24.
 
- 1182 John iii. 13.
+1186 Phil. ii. 8.
 
- 1183 John i. 29; v. 21‐23.
+1187 Heb. ii. 7.
 
- 1184 John ix. 5; x. 9, 11; xv. 1.
+1188 Phil. ii. 10.
 
- 1185 1 Cor. xv. 24.
+1189 1 Cor. xv. 28.
 
- 1186 Phil. ii. 8.
+1190 1 Cor. viii. 6.
 
- 1187 Heb. ii. 7.
+1191 Luke i. 35, 43.
 
- 1188 Phil. ii. 10.
+1192 John ii. 19.
 
- 1189 1 Cor. xv. 28.
+1193 Luke i. 35.
 
- 1190 1 Cor. viii. 6.
+1194 Rom. viii. 15. Gal. iv. 5, 6.
 
- 1191 Luke i. 35, 43.
+1195 Psalm lxxxii. 6.
 
- 1192 John ii. 19.
+1196 Col. i. 15‐18.
 
- 1193 Luke i. 35.
+1197 Rom. i. 1‐4.
 
- 1194 Rom. viii. 15. Gal. iv. 5, 6.
+1198 Rom. viii. 32.
 
- 1195 Psalm lxxxii. 6.
+1199 Luke i. 32.
 
- 1196 Col. i. 15‐18.
+1200 1 John i. 1.
 
- 1197 Rom. i. 1‐4.
+1201 Micah v. 2.
 
- 1198 Rom. viii. 32.
+1202 Eph. iii. 15.
 
- 1199 Luke i. 32.
+1203 Prov. xxx. 4.
 
- 1200 1 John i. 1.
+1204 Gen. ii. 7.
 
- 1201 Micah v. 2.
+1205 Prov. viii. 22, &c.
 
- 1202 Eph. iii. 15.
+1206 Col. ii. 19.
 
- 1203 Prov. xxx. 4.
+1207 John iv. 25.
 
- 1204 Gen. ii. 7.
+1208 Isaiah lv. 4.
 
- 1205 Prov. viii. 22, &c.
+1209 Isaiah ix. 6.
 
- 1206 Col. ii. 19.
+1210 Heb. i. 1, 2.
 
- 1207 John iv. 25.
+1211 Psalm lxxiv. 9.
 
- 1208 Isaiah lv. 4.
+1212 Dan. ix. 24.
 
- 1209 Isaiah ix. 6.
+1213 Isaiah lxi. 1, 2.
 
- 1210 Heb. i. 1, 2.
+1214 Matt. xvii. 5.
 
- 1211 Psalm lxxiv. 9.
+1215 Joel ii. 28.
 
- 1212 Dan. ix. 24.
+1216 1 Cor. i. 30.
 
- 1213 Isaiah lxi. 1, 2.
+1217 Col. ii. 3.
 
- 1214 Matt. xvii. 5.
+1218 1 Cor. ii. 2.
 
- 1215 Joel ii. 28.
+1219 Psalm lxxxix. 35‐37.
 
- 1216 1 Cor. i. 30.
+1220 Isaiah iii. 8.
 
- 1217 Col. ii. 3.
+1221 Psalm ii. 1, &c.
 
- 1218 1 Cor. ii. 2.
+1222 Psalm cx. 1.
 
- 1219 Psalm lxxxix. 35‐37.
+1223 John xviii. 36.
 
- 1220 Isaiah iii. 8.
+1224 Luke xvii. 20, 21.
 
- 1221 Psalm ii. 1, &c.
+1225 Rom. xiv. 17.
 
- 1222 Psalm cx. 1.
+1226 Luke ix. 20.
 
- 1223 John xviii. 36.
+1227 Isaiah xi. 2.
 
- 1224 Luke xvii. 20, 21.
+1228 Psalm xlv. 7.
 
- 1225 Rom. xiv. 17.
+1229 John iii. 34.
 
- 1226 Luke ix. 20.
+1230 John i. 16.
 
- 1227 Isaiah xi. 2.
+1231 Eph. iv. 7.
 
- 1228 Psalm xlv. 7.
+1232 1 Cor. xv. 24, 28.
 
- 1229 John iii. 34.
+1233 Eph. i. 20, 22, 23.
 
- 1230 John i. 16.
+1234 Phil. ii. 9‐11.
 
- 1231 Eph. iv. 7.
+1235 1 Cor. viii. 5, 6.
 
- 1232 1 Cor. xv. 24, 28.
+1236 Isaiah xxxiii. 22.
 
- 1233 Eph. i. 20, 22, 23.
+1237 Psalm ii. 9.
 
- 1234 Phil. ii. 9‐11.
+1238 Psalm cx. 6.
 
- 1235 1 Cor. viii. 5, 6.
+1239 Psalm cx. 4.
 
- 1236 Isaiah xxxiii. 22.
+1240 Rev. i. 6.
 
- 1237 Psalm ii. 9.
+1241 Eph. v. 2.
 
- 1238 Psalm cx. 6.
+1242 John xvii. 19.
 
- 1239 Psalm cx. 4.
+1243 Dan. ix. 24.
 
- 1240 Rev. i. 6.
+1244 Acts iv. 12.
 
- 1241 Eph. v. 2.
+1245 Matt. i. 21.
 
- 1242 John xvii. 19.
+1246 Rom. v. 10.
 
- 1243 Dan. ix. 24.
+1247 Gal. iii. 10‐13.
 
- 1244 Acts iv. 12.
+1248 Col. i. 21, 22.
 
- 1245 Matt. i. 21.
+1249 1 John iv. 19.
 
- 1246 Rom. v. 10.
+1250 Eph. i. 4, 5.
 
- 1247 Gal. iii. 10‐13.
+1251 John iii. 16.
 
- 1248 Col. i. 21, 22.
+1252 Rom. v. 10.
 
- 1249 1 John iv. 19.
+1253 Rom. v. 8.
 
- 1250 Eph. i. 4, 5.
+1254 Rom. v. 19.
 
- 1251 John iii. 16.
+1255 Gal. iv. 4, 5.
 
- 1252 Rom. v. 10.
+1256 Matt. iii. 15.
 
- 1253 Rom. v. 8.
+1257 Matt. xx. 28.
 
- 1254 Rom. v. 19.
+1258 1 Cor. xv. 3.
 
- 1255 Gal. iv. 4, 5.
+1259 John i. 29.
 
- 1256 Matt. iii. 15.
+1260 Rom. iii. 24, 25.
 
- 1257 Matt. xx. 28.
+1261 Rom. v. 9, 10.
 
- 1258 1 Cor. xv. 3.
+1262 2 Cor. v. 21.
 
- 1259 John i. 29.
+1263 Phil. ii. 7, 8.
 
- 1260 Rom. iii. 24, 25.
+1264 John x. 15, 18.
 
- 1261 Rom. v. 9, 10.
+1265 Isaiah liii. 7.
 
- 1262 2 Cor. v. 21.
+1266 John xviii. 4.
 
- 1263 Phil. ii. 7, 8.
+1267 Matt. xxvii. 12, 14.
 
- 1264 John x. 15, 18.
+1268 Psalm xl. 7, 8.
 
- 1265 Isaiah liii. 7.
+1269 Isaiah liii. 5.
 
- 1266 John xviii. 4.
+1270 Isaiah liii. 12. Mark xv. 28.
 
- 1267 Matt. xxvii. 12, 14.
+1271 Matt. xxvii. 18, 23, 24. John xviii. 38.
 
- 1268 Psalm xl. 7, 8.
+1272 Psalm lxix. 4.
 
- 1269 Isaiah liii. 5.
+1273 Isaiah liii. 10.
 
- 1270 Isaiah liii. 12. Mark xv. 28.
+1274 2 Cor. v. 21.
 
- 1271 Matt. xxvii. 18, 23, 24. John xviii. 38.
+1275 Rom. viii. 3.
 
- 1272 Psalm lxix. 4.
+1276 Isaiah liii. 6.
 
- 1273 Isaiah liii. 10.
+1277 Gal. iii. 13, 14.
 
- 1274 2 Cor. v. 21.
+1278 1 Peter ii. 24.
 
- 1275 Rom. viii. 3.
+1279 Col. ii. 14, 15.
 
- 1276 Isaiah liii. 6.
+1280 Heb. ix. 14.
 
- 1277 Gal. iii. 13, 14.
+1281 1 Cor. i. 30.
 
- 1278 1 Peter ii. 24.
+1282 1 Tim. ii. 6.
 
- 1279 Col. ii. 14, 15.
+1283 Rom. iii. 25.
 
- 1280 Heb. ix. 14.
+1284 Heb. ii. 9.
 
- 1281 1 Cor. i. 30.
+1285 Heb. ii. 14, 15.
 
- 1282 1 Tim. ii. 6.
+1286 Col. iii. 5.
 
- 1283 Rom. iii. 25.
+1287 Rom. vi. 4, 5.
 
- 1284 Heb. ii. 9.
+1288 Gal. vi. 14.
 
- 1285 Heb. ii. 14, 15.
+1289 Col. iii. 3.
 
- 1286 Col. iii. 5.
+1290 Psalm cvii. 16.
 
- 1287 Rom. vi. 4, 5.
+1291 Zech. ix. 11.
 
- 1288 Gal. vi. 14.
+1292 1 Peter iii. 19.
 
- 1289 Col. iii. 3.
+1293 Isaiah liii. 5.
 
- 1290 Psalm cvii. 16.
+1294 Acts ii. 24.
 
- 1291 Zech. ix. 11.
+1295 Acts ii. 24.
 
- 1292 1 Peter iii. 19.
+1296 Heb. v. 7.
 
- 1293 Isaiah liii. 5.
+1297 Matt. xxvii. 46.
 
- 1294 Acts ii. 24.
+1298 Isaiah xlii. 1.
 
- 1295 Acts ii. 24.
+1299 Isaiah liii. 4.
 
- 1296 Heb. v. 7.
+1300 Heb. ii. 15.
 
- 1297 Matt. xxvii. 46.
+1301 Heb. iv. 15.
 
- 1298 Isaiah xlii. 1.
+1302 Matt. xxvi. 39.
 
- 1299 Isaiah liii. 4.
+1303 Acts ii. 24.
 
- 1300 Heb. ii. 15.
+1304 Matt. xxvii. 46.
 
- 1301 Heb. iv. 15.
+1305 John xii. 27.
 
- 1302 Matt. xxvi. 39.
+1306 John xii. 27, 28.
 
- 1303 Acts ii. 24.
+1307 1 Peter i. 3.
 
- 1304 Matt. xxvii. 46.
+1308 Rom. iv. 25.
 
- 1305 John xii. 27.
+1309 Rom. i. 4.
 
- 1306 John xii. 27, 28.
+1310 2 Cor. xiii. 4.
 
- 1307 1 Peter i. 3.
+1311 Phil. iii. 10.
 
- 1308 Rom. iv. 25.
+1312 1 Peter i. 21.
 
- 1309 Rom. i. 4.
+1313 1 Peter i. 5.
 
- 1310 2 Cor. xiii. 4.
+1314 1 Cor. xv. 14, 17.
 
- 1311 Phil. iii. 10.
+1315 Rom. viii. 34.
 
- 1312 1 Peter i. 21.
+1316 Rom. vi. 4, 5.
 
- 1313 1 Peter i. 5.
+1317 Col. iii. 5.
 
- 1314 1 Cor. xv. 14, 17.
+1318 Col. iii. 1, 2.
 
- 1315 Rom. viii. 34.
+1319 1 Cor. xv.
 
- 1316 Rom. vi. 4, 5.
+1320 Eph. iv. 10.
 
- 1317 Col. iii. 5.
+1321 John vii. 37, 39.
 
- 1318 Col. iii. 1, 2.
+1322 John xvi. 7.
 
- 1319 1 Cor. xv.
+1323 Matt. xxviii. 20.
 
- 1320 Eph. iv. 10.
+1324 Eph. i. 20‐22.
 
- 1321 John vii. 37, 39.
+1325 Acts vii. 55, 56.
 
- 1322 John xvi. 7.
+1326 Eph. ii. 6.
 
- 1323 Matt. xxviii. 20.
+1327 Heb. ix. 24.
 
- 1324 Eph. i. 20‐22.
+1328 Rom. viii. 34.
 
- 1325 Acts vii. 55, 56.
+1329 Heb. iv. 16.
 
- 1326 Eph. ii. 6.
+1330 Eph. iv. 8.
 
- 1327 Heb. ix. 24.
+1331 Acts i. 11.
 
- 1328 Rom. viii. 34.
+1332 Matt. xxiv. 30; xxv. 31. 1 Thess. iv. 16, 17.
 
- 1329 Heb. iv. 16.
+1333 Heb. ix. 27.
 
- 1330 Eph. iv. 8.
+1334 1 Cor. xv. 51.
 
- 1331 Acts i. 11.
+1335 1 Thess. iv. 16, 17.
 
- 1332 Matt. xxiv. 30; xxv. 31. 1 Thess. iv. 16, 17.
+1336 Acts x. 42.
 
- 1333 Heb. ix. 27.
+1337 2 Tim. iv. 1.
 
- 1334 1 Cor. xv. 51.
+1338 Rom. viii. 34.
 
- 1335 1 Thess. iv. 16, 17.
+1339 John v. 22.
 
- 1336 Acts x. 42.
+1340 Acts iii. 15.
 
- 1337 2 Tim. iv. 1.
+1341 John iii. 16.
 
- 1338 Rom. viii. 34.
+1342 1 John iv. 10.
 
- 1339 John v. 22.
+1343 1 John ii. 2.
 
- 1340 Acts iii. 15.
+1344 Col. i. 19, 20.
 
- 1341 John iii. 16.
+1345 2 Cor. v. 19.
 
- 1342 1 John iv. 10.
+1346 Eph. i. 6.
 
- 1343 1 John ii. 2.
+1347 Eph. ii. 16.
 
- 1344 Col. i. 19, 20.
+1348 2 Cor. v. 21.
 
- 1345 2 Cor. v. 19.
+1349 Rom. v. 10, 11.
 
- 1346 Eph. i. 6.
+1350 Rom. v. 19.
 
- 1347 Eph. ii. 16.
+1351 Rom. v. 16.
 
- 1348 2 Cor. v. 21.
+1352 1 John i. 7.
 
- 1349 Rom. v. 10, 11.
+1353 Matt. xxvi. 28.
 
- 1350 Rom. v. 19.
+1354 John i. 29.
 
- 1351 Rom. v. 16.
+1355 Heb. ix. 22, 26, 28.
 
- 1352 1 John i. 7.
+1356 Heb. ix. 12.
 
- 1353 Matt. xxvi. 28.
+1357 Heb. ix. 13, 14.
 
- 1354 John i. 29.
+1358 Heb. ix. 15.
 
- 1355 Heb. ix. 22, 26, 28.
+1359 Gal. iii. 13.
 
- 1356 Heb. ix. 12.
+1360 Isaiah liii. 5.
 
- 1357 Heb. ix. 13, 14.
+1361 Isaiah liii. 8.
 
- 1358 Heb. ix. 15.
+1362 1 Peter ii. 24.
 
- 1359 Gal. iii. 13.
+1363 Rom. iii. 24, 25.
 
- 1360 Isaiah liii. 5.
+1364 1 Peter i. 18, 19.
 
- 1361 Isaiah liii. 8.
+1365 1 Cor. vi. 20.
 
- 1362 1 Peter ii. 24.
+1366 1 Tim. ii. 5, 6.
 
- 1363 Rom. iii. 24, 25.
+1367 Col. i. 14.
 
- 1364 1 Peter i. 18, 19.
+1368 Col. ii. 14.
 
- 1365 1 Cor. vi. 20.
+1369 Gal. ii. 21.
 
- 1366 1 Tim. ii. 5, 6.
+1370 Lev. xviii. 5.
 
- 1367 Col. i. 14.
+1371 Acts xiii. 39.
 
- 1368 Col. ii. 14.
+1372 Gal. iv. 4, 5.
 
- 1369 Gal. ii. 21.
+1373 Rom. iv. 5.
 
- 1370 Lev. xviii. 5.
+1374 John vi. 55.
 
- 1371 Acts xiii. 39.
+1375 Eph. v. 2.
 
- 1372 Gal. iv. 4, 5.
+1376 Rom. iv. 25.
 
- 1373 Rom. iv. 5.
+1377 Isaiah xxxvii. 35.
 
- 1374 John vi. 55.
+1378 1 John ii. 12.
 
- 1375 Eph. v. 2.
+1379 John vi. 57.
 
- 1376 Rom. iv. 25.
+1380 Phil. i. 29.
 
- 1377 Isaiah xxxvii. 35.
+1381 Rom. viii. 32.
 
- 1378 1 John ii. 12.
+1382 John iii. 16.
 
- 1379 John vi. 57.
+1383 Isaiah ix. 6.
 
- 1380 Phil. i. 29.
+1384 Zech. ix. 9.
 
- 1381 Rom. viii. 32.
+1385 Rom. v. 8, 10.
 
- 1382 John iii. 16.
+1386 John xvii. 19.
 
- 1383 Isaiah ix. 6.
+1387 Phil. ii. 9.
 
- 1384 Zech. ix. 9.
+1388 Luke xxiv. 26.
 
- 1385 Rom. v. 8, 10.
+1389 Ephes. iv. 15.
 
- 1386 John xvii. 19.
+1390 Rom. viii. 29.
 
- 1387 Phil. ii. 9.
+1391 Rom. xi. 17.
 
- 1388 Luke xxiv. 26.
+1392 Gal. iii. 27.
 
- 1389 Ephes. iv. 15.
+1393 1 John v. 7, 8.
 
- 1390 Rom. viii. 29.
+1394 1 Pet. i. 2.
 
- 1391 Rom. xi. 17.
+1395 1 Cor. vi. 11.
 
- 1392 Gal. iii. 27.
+1396 Rom. i. 4.
 
- 1393 1 John v. 7, 8.
+1397 Joel ii. 28.
 
- 1394 1 Pet. i. 2.
+1398 Rom. viii. 9.
 
- 1395 1 Cor. vi. 11.
+1399 Rom. viii. 11.
 
- 1396 Rom. i. 4.
+1400 John vii. 37.
 
- 1397 Joel ii. 28.
+1401 Ephes. iv. 7.
 
- 1398 Rom. viii. 9.
+1402 1 Cor. xv. 45.
 
- 1399 Rom. viii. 11.
+1403 2 Cor. xiii. 14.
 
- 1400 John vii. 37.
+1404 Rom. v. 5.
 
- 1401 Ephes. iv. 7.
+1405 Rom. viii. 15.
 
- 1402 1 Cor. xv. 45.
+1406 2 Cor. i. 22. Eph. i. 13, 14.
 
- 1403 2 Cor. xiii. 14.
+1407 Rom. viii. 10.
 
- 1404 Rom. v. 5.
+1408 Isaiah lv. 1.
 
- 1405 Rom. viii. 15.
+1409 Isaiah xliv. 3.
 
- 1406 2 Cor. i. 22. Eph. i. 13, 14.
+1410 John vii. 37; iv. 14.
 
- 1407 Rom. viii. 10.
+1411 Ezek. xxxvi. 25.
 
- 1408 Isaiah lv. 1.
+1412 1 John ii. 20.
 
- 1409 Isaiah xliv. 3.
+1413 Luke iii. 16.
 
- 1410 John vii. 37; iv. 14.
+1414 Eph. iv. 15. Rom. viii. 29. Gal. iii. 27.
 
- 1411 Ezek. xxxvi. 25.
+1415 Eph. v. 30.
 
- 1412 1 John ii. 20.
+1416 John i. 12, 13.
 
- 1413 Luke iii. 16.
+1417 Matt. xvi. 17.
 
- 1414 Eph. iv. 15. Rom. viii. 29. Gal. iii. 27.
+1418 Eph. i. 13.
 
- 1415 Eph. v. 30.
+1419 2 Thess. ii. 13.
 
- 1416 John i. 12, 13.
+1420 1 John iii. 24.
 
- 1417 Matt. xvi. 17.
+1421 1 John iv. 13.
 
- 1418 Eph. i. 13.
+1422 John xiv. 17.
 
- 1419 2 Thess. ii. 13.
+1423 2 Cor. iii. 6.
 
- 1420 1 John iii. 24.
+1424 John vi. 44.
 
- 1421 1 John iv. 13.
+1425 Luke iii. 16.
 
- 1422 John xiv. 17.
+1426 1 Tim. vi. 16.
 
- 1423 2 Cor. iii. 6.
+1427 John viii. 12.
 
- 1424 John vi. 44.
+1428 John xiv. 6.
 
- 1425 Luke iii. 16.
+1429 Luke x. 22.
 
- 1426 1 Tim. vi. 16.
+1430 1 Cor. ii. 2.
 
- 1427 John viii. 12.
+1431 Acts xxvi. 17, 18.
 
- 1428 John xiv. 6.
+1432 2 Cor. iv. 6.
 
- 1429 Luke x. 22.
+1433 John xvii. 3.
 
- 1430 1 Cor. ii. 2.
+1434 1 Pet. i. 21.
 
- 1431 Acts xxvi. 17, 18.
+1435 Rom. x. 10.
 
- 1432 2 Cor. iv. 6.
+1436 John xvii. 3.
 
- 1433 John xvii. 3.
+1437 Phil. iii. 15.
 
- 1434 1 Pet. i. 21.
+1438 John iv. 50‐53.
 
- 1435 Rom. x. 10.
+1439 John iv. 42.
 
- 1436 John xvii. 3.
+1440 2 Tim. iii. 7.
 
- 1437 Phil. iii. 15.
+1441 Eph. iv. 20, 21.
 
- 1438 John iv. 50‐53.
+1442 1 Tim. iv. 6.
 
- 1439 John iv. 42.
+1443 Gal. iii. 23‐25.
 
- 1440 2 Tim. iii. 7.
+1444 Isaiah lv. 3.
 
- 1441 Eph. iv. 20, 21.
+1445 John xx. 31.
 
- 1442 1 Tim. iv. 6.
+1446 Psalm xcv. 7.
 
- 1443 Gal. iii. 23‐25.
+1447 Isaiah liv. 13.
 
- 1444 Isaiah lv. 3.
+1448 Rom. i. 5.
 
- 1445 John xx. 31.
+1449 Phil. ii. 17.
 
- 1446 Psalm xcv. 7.
+1450 Gen. ii. 17.
 
- 1447 Isaiah liv. 13.
+1451 Gen. iv. 10.
 
- 1448 Rom. i. 5.
+1452 Psalm xl. 10, 11.
 
- 1449 Phil. ii. 17.
+1453 Psalm xxxvi. 5.
 
- 1450 Gen. ii. 17.
+1454 Psalm xxv. 10.
 
- 1451 Gen. iv. 10.
+1455 Psalm cxvii. 2.
 
- 1452 Psalm xl. 10, 11.
+1456 Psalm cxxxviii. 2.
 
- 1453 Psalm xxxvi. 5.
+1457 Rom. x. 10.
 
- 1454 Psalm xxv. 10.
+1458 Rom. i. 5.
 
- 1455 Psalm cxvii. 2.
+1459 John iii. 33.
 
- 1456 Psalm cxxxviii. 2.
+1460 1 Cor. xiii. 2.
 
- 1457 Rom. x. 10.
+1461 1 Cor. xii. 10‐31.
 
- 1458 Rom. i. 5.
+1462 Acts viii. 13, 18, 19.
 
- 1459 John iii. 33.
+1463 James ii. 19.
 
- 1460 1 Cor. xiii. 2.
+1464 Heb. vi. 4.
 
- 1461 1 Cor. xii. 10‐31.
+1465 Gal. iv. 6.
 
- 1462 Acts viii. 13, 18, 19.
+1466 Rom. v. 5.
 
- 1463 James ii. 19.
+1467 John ii. 24, 25.
 
- 1464 Heb. vi. 4.
+1468 John viii. 31, 32.
 
- 1465 Gal. iv. 6.
+1469 Titus i. 1.
 
- 1466 Rom. v. 5.
+1470 Matt. xv. 13.
 
- 1467 John ii. 24, 25.
+1471 James ii. 14.
 
- 1468 John viii. 31, 32.
+1472 1 Tim. i. 5.
 
- 1469 Titus i. 1.
+1473 1 Tim. i. 19.
 
- 1470 Matt. xv. 13.
+1474 1 Tim. iii. 9.
 
- 1471 James ii. 14.
+1475 1 Tim. iv. 1.
 
- 1472 1 Tim. i. 5.
+1476 1 Tim. iv. 6.
 
- 1473 1 Tim. i. 19.
+1477 1 Tim. vi. 20, 21.
 
- 1474 1 Tim. iii. 9.
+1478 2 Tim. iii. 8.
 
- 1475 1 Tim. iv. 1.
+1479 Titus i. 13.
 
- 1476 1 Tim. iv. 6.
+1480 Col. ii. 3.
 
- 1477 1 Tim. vi. 20, 21.
+1481 Matt. ix. 2. Mark ii. 5.
 
- 1478 2 Tim. iii. 8.
+1482 Matt. viii. 10.
 
- 1479 Titus i. 13.
+1483 Eph. iii. 18.
 
- 1480 Col. ii. 3.
+1484 Col. i. 26.
 
- 1481 Matt. ix. 2. Mark ii. 5.
+1485 Col. ii. 2.
 
- 1482 Matt. viii. 10.
+1486 1 John iii. 2.
 
- 1483 Eph. iii. 18.
+1487 Psalm xii. 6.
 
- 1484 Col. i. 26.
+1488 Psalm xviii. 30.
 
- 1485 Col. ii. 2.
+1489 Prov. xxx. 5.
 
- 1486 1 John iii. 2.
+1490 Eph. iii. 12.
 
- 1487 Psalm xii. 6.
+1491 Rom. v. 1.
 
- 1488 Psalm xviii. 30.
+1492 Heb. iii. 14.
 
- 1489 Prov. xxx. 5.
+1493 Rom. viii. 38.
 
- 1490 Eph. iii. 12.
+1494 Eph. i. 18.
 
- 1491 Rom. v. 1.
+1495 Psalm xlii. 5.
 
- 1492 Heb. iii. 14.
+1496 Psalm xxxi. 22.
 
- 1493 Rom. viii. 38.
+1497 Psalm lxxvii. 7, 9, 10.
 
- 1494 Eph. i. 18.
+1498 Psalm cxvi. 7.
 
- 1495 Psalm xlii. 5.
+1499 Psalm xxvii. 14.
 
- 1496 Psalm xxxi. 22.
+1500 Isaiah vii. 4.
 
- 1497 Psalm lxxvii. 7, 9, 10.
+1501 Isaiah vii. 2.
 
- 1498 Psalm cxvi. 7.
+1502 Psalm cxix. 43.
 
- 1499 Psalm xxvii. 14.
+1503 1 Cor. xiii. 9, 12.
 
- 1500 Isaiah vii. 4.
+1504 2 Cor. iii. 18.
 
- 1501 Isaiah vii. 2.
+1505 Matt. viii. 25.
 
- 1502 Psalm cxix. 43.
+1506 Job xiii. 15.
 
- 1503 1 Cor. xiii. 9, 12.
+1507 Psalm xxiii. 4.
 
- 1504 2 Cor. iii. 18.
+1508 1 John v. 4.
 
- 1505 Matt. viii. 25.
+1509 1 Cor. x. 11.
 
- 1506 Job xiii. 15.
+1510 1 Cor. x. 12.
 
- 1507 Psalm xxiii. 4.
+1511 Rom. xi. 10.
 
- 1508 1 John v. 4.
+1512 Phil. ii. 11.
 
- 1509 1 Cor. x. 11.
+1513 Psalm v. 7.
 
- 1510 1 Cor. x. 12.
+1514 Prov. xxviii. 14.
 
- 1511 Rom. xi. 10.
+1515 Hosea iii. 5.
 
- 1512 Phil. ii. 11.
+1516 Rom. viii. 10.
 
- 1513 Psalm v. 7.
+1517 Isaiah lxiv. 6.
 
- 1514 Prov. xxviii. 14.
+1518 Matt. vi. 23.
 
- 1515 Hosea iii. 5.
+1519 Rom. ix. 11.
 
- 1516 Rom. viii. 10.
+1520 Psalm cxi. 10.
 
- 1517 Isaiah lxiv. 6.
+1521 Prov. i. 7; ix. 10. Job xxviii. 28.
 
- 1518 Matt. vi. 23.
+1522 Mal. i. 6.
 
- 1519 Rom. ix. 11.
+1523 1 John iv. 18.
 
- 1520 Psalm cxi. 10.
+1524 Eph. v. 6. Col. iii. 6.
 
- 1521 Prov. i. 7; ix. 10. Job xxviii. 28.
+1525 Psalm lxxx. 3.
 
- 1522 Mal. i. 6.
+1526 Eph. ii. 14, 15.
 
- 1523 1 John iv. 18.
+1527 Psalm lxiii. 3.
 
- 1524 Eph. v. 6. Col. iii. 6.
+1528 Rom. viii. 39.
 
- 1525 Psalm lxxx. 3.
+1529 Psalm xxiii. 4.
 
- 1526 Eph. ii. 14, 15.
+1530 Psalm xxxiii. 12.
 
- 1527 Psalm lxiii. 3.
+1531 Rom. x. 8.
 
- 1528 Rom. viii. 39.
+1532 Rom. i. 5, 16, 17.
 
- 1529 Psalm xxiii. 4.
+1533 2 Cor. v. 18.
 
- 1530 Psalm xxxiii. 12.
+1534 Psalm cxlv. 8, 9.
 
- 1531 Rom. x. 8.
+1535 Heb. xi. 7.
 
- 1532 Rom. i. 5, 16, 17.
+1536 Rom. x. 8.
 
- 1533 2 Cor. v. 18.
+1537 Psalm ix. 10.
 
- 1534 Psalm cxlv. 8, 9.
+1538 Psalm cxix. 41.
 
- 1535 Heb. xi. 7.
+1539 Psalm cxix. 146, 147.
 
- 1536 Rom. x. 8.
+1540 Rom. iv. 21.
 
- 1537 Psalm ix. 10.
+1541 2 Tim. i. 12.
 
- 1538 Psalm cxix. 41.
+1542 Psalm cxliii. 5.
 
- 1539 Psalm cxix. 146, 147.
+1543 Psalm lxxvii. 11.
 
- 1540 Rom. iv. 21.
+1544 1 Cor. ii. 2.
 
- 1541 2 Tim. i. 12.
+1545 2 Cor. i. 20.
 
- 1542 Psalm cxliii. 5.
+1546 Matt. iii. 17; xvii. 5.
 
- 1543 Psalm lxxvii. 11.
+1547 Eph. i. 6.
 
- 1544 1 Cor. ii. 2.
+1548 Eph. ii. 14.
 
- 1545 2 Cor. i. 20.
+1549 Rom. viii. 3.
 
- 1546 Matt. iii. 17; xvii. 5.
+1550 Rom. xv. 8.
 
- 1547 Eph. i. 6.
+1551 2 Kings v. 17‐19.
 
- 1548 Eph. ii. 14.
+1552 Acts x. 31.
 
- 1549 Rom. viii. 3.
+1553 Acts viii. 17, 31.
 
- 1550 Rom. xv. 8.
+1554 2 Tim. i. 14.
 
- 1551 2 Kings v. 17‐19.
+1555 Gal. iii. 2.
 
- 1552 Acts x. 31.
+1556 1 Cor. ii. 11.
 
- 1553 Acts viii. 17, 31.
+1557 2 Cor. iii. 14.
 
- 1554 2 Tim. i. 14.
+1558 Matt. xi. 25.
 
- 1555 Gal. iii. 2.
+1559 Matt. xvi. 17.
 
- 1556 1 Cor. ii. 11.
+1560 1 Cor. ii. 14.
 
- 1557 2 Cor. iii. 14.
+1561 Rom. xi. 34.
 
- 1558 Matt. xi. 25.
+1562 1 Cor. ii. 10.
 
- 1559 Matt. xvi. 17.
+1563 1 Cor. ii. 16.
 
- 1560 1 Cor. ii. 14.
+1564 Luke xxiv. 45.
 
- 1561 Rom. xi. 34.
+1565 John xvi. 13.
 
- 1562 1 Cor. ii. 10.
+1566 2 Cor. iv. 13.
 
- 1563 1 Cor. ii. 16.
+1567 2 Thess. i. 11.
 
- 1564 Luke xxiv. 45.
+1568 1 Cor. ii. 5.
 
- 1565 John xvi. 13.
+1569 John vi. 44.
 
- 1566 2 Cor. iv. 13.
+1570 John vi. 65.
 
- 1567 2 Thess. i. 11.
+1571 Eph. i. 13.
 
- 1568 1 Cor. ii. 5.
+1572 2 Cor. i. 21.
 
- 1569 John vi. 44.
+1573 1 Cor. v. 5.
 
- 1570 John vi. 65.
+1574 Psalm xlvi. 1, 2.
 
- 1571 Eph. i. 13.
+1575 Psalm iii. 5.
 
- 1572 2 Cor. i. 21.
+1576 Isaiah xxx. 16.
 
- 1573 1 Cor. v. 5.
+1577 Psalm xxxvii. 7.
 
- 1574 Psalm xlvi. 1, 2.
+1578 Heb. x. 36.
 
- 1575 Psalm iii. 5.
+1579 Eccl. ix. 1.
 
- 1576 Isaiah xxx. 16.
+1580 Eccl. ix. 2.
 
- 1577 Psalm xxxvii. 7.
+1581 Eccl. iii. 19.
 
- 1578 Heb. x. 36.
+1582 1 Cor. ii. 12.
 
- 1579 Eccl. ix. 1.
+1583 Rom. viii. 14.
 
- 1580 Eccl. ix. 2.
+1584 Rom. viii. 16.
 
- 1581 Eccl. iii. 19.
+1585 Rom. viii. 9.
 
- 1582 1 Cor. ii. 12.
+1586 Rom. viii. 11.
 
- 1583 Rom. viii. 14.
+1587 2 Cor. xiii. 5.
 
- 1584 Rom. viii. 16.
+1588 1 John iii. 24.
 
- 1585 Rom. viii. 9.
+1589 Isaiah xliv. 3.
 
- 1586 Rom. viii. 11.
+1590 John xiv. 7.
 
- 1587 2 Cor. xiii. 5.
+1591 Rom. viii. 38.
 
- 1588 1 John iii. 24.
+1592 1 Cor. x. 12.
 
- 1589 Isaiah xliv. 3.
+1593 Heb. xi. 1.
 
- 1590 John xiv. 7.
+1594 Rom. viii. 24.
 
- 1591 Rom. viii. 38.
+1595 Lombard.
 
- 1592 1 Cor. x. 12.
+1596 Bernard. Serm. I. in Annunciat.
 
- 1593 Heb. xi. 1.
+1597 Rom. viii. 24.
 
- 1594 Rom. viii. 24.
+1598 Heb. ii. 3.
 
- 1595 Lombard.
+1599 Isaiah viii. 17.
 
- 1596 Bernard. Serm. I. in Annunciat.
+1600 2 Pet. iii. 4.
 
- 1597 Rom. viii. 24.
+1601 Psalm xc. 4. 2 Pet. iii. 8.
 
- 1598 Heb. ii. 3.
+1602 1 Pet. i. 5.
 
- 1599 Isaiah viii. 17.
+1603 1 Pet. i. 21.
 
- 1600 2 Pet. iii. 4.
+1604 Phil. i. 20.
 
- 1601 Psalm xc. 4. 2 Pet. iii. 8.
+1605 Heb. x. 36.
 
- 1602 1 Pet. i. 5.
+1606 Gal. v. 5.
 
- 1603 1 Pet. i. 21.
+1607 Matt. ix. 29.
 
- 1604 Phil. i. 20.
+1608 Matt. iii. 2; iv. 17.
 
- 1605 Heb. x. 36.
+1609 Acts xx. 21.
 
- 1606 Gal. v. 5.
+1610 Matt. iii. 2, 3.
 
- 1607 Matt. ix. 29.
+1611 Isaiah xl. 1, 3.
 
- 1608 Matt. iii. 2; iv. 17.
+1612 Psalm cxxx. 4.
 
- 1609 Acts xx. 21.
+1613 Hos. vi. 1.
 
- 1610 Matt. iii. 2, 3.
+1614 Gen. iv. 13. 1 Sam. xv. 30. Matt. xxvii. 3, 4.
 
- 1611 Isaiah xl. 1, 3.
+1615 2 Kings xx. 2. Isaiah xxxviii. 2.
 
- 1612 Psalm cxxx. 4.
+1616 Jonah iii. 5.
 
- 1613 Hos. vi. 1.
+1617 2 Sam. xxiv. 10.
 
- 1614 Gen. iv. 13. 1 Sam. xv. 30. Matt. xxvii. 3, 4.
+1618 2 Sam. xii. 13‐16.
 
- 1615 2 Kings xx. 2. Isaiah xxxviii. 2.
+1619 Acts ii. 37.
 
- 1616 Jonah iii. 5.
+1620 Acts xx. 21.
 
- 1617 2 Sam. xxiv. 10.
+1621 Matt. iii. 2.
 
- 1618 2 Sam. xii. 13‐16.
+1622 1 Sam. vii. 3.
 
- 1619 Acts ii. 37.
+1623 Ezekiel xviii. 31.
 
- 1620 Acts xx. 21.
+1624 Jer. iv. 1, 3, 4.
 
- 1621 Matt. iii. 2.
+1625 Isaiah lviii. 6.
 
- 1622 1 Sam. vii. 3.
+1626 Jer. iv. 4.
 
- 1623 Ezekiel xviii. 31.
+1627 Acts xvii. 30, 31.
 
- 1624 Jer. iv. 1, 3, 4.
+1628 2 Cor. vii. 10.
 
- 1625 Isaiah lviii. 6.
+1629 Psalm xxxiv. 14.
 
- 1626 Jer. iv. 4.
+1630 Isaiah i. 16, 17.
 
- 1627 Acts xvii. 30, 31.
+1631 Rom. viii. 7.
 
- 1628 2 Cor. vii. 10.
+1632 Rom. vi. 5, 6.
 
- 1629 Psalm xxxiv. 14.
+1633 2 Cor. iii. 18.
 
- 1630 Isaiah i. 16, 17.
+1634 Eph. iv. 23, 24.
 
- 1631 Rom. viii. 7.
+1635 Col. iii. 10.
 
- 1632 Rom. vi. 5, 6.
+1636 Eph. v. 26.
 
- 1633 2 Cor. iii. 18.
+1637 Rom. vi. 6.
 
- 1634 Eph. iv. 23, 24.
+1638 Rom. vii.
 
- 1635 Col. iii. 10.
+1639 Rom. vi. 12.
 
- 1636 Eph. v. 26.
+1640 James i. 15.
 
- 1637 Rom. vi. 6.
+1641 2 Cor. xii. 7, 9.
 
- 1638 Rom. vii.
+1642 Rom. vii.
 
- 1639 Rom. vi. 12.
+1643 2 Cor. vii. 11.
 
- 1640 James i. 15.
+1644 Heb. xii. 3.
 
- 1641 2 Cor. xii. 7, 9.
+1645 Joel ii. 13.
 
- 1642 Rom. vii.
+1646 James iv. 8.
 
- 1643 2 Cor. vii. 11.
+1647 2 Cor. vii. 11.
 
- 1644 Heb. xii. 3.
+1648 Joel ii. 12.
 
- 1645 Joel ii. 13.
+1649 Matt. ix. 15.
 
- 1646 James iv. 8.
+1650 Matt. xi. 21.
 
- 1647 2 Cor. vii. 11.
+1651 1 Cor. xi. 31.
 
- 1648 Joel ii. 12.
+1652 Psalm ii. 5.
 
- 1649 Matt. ix. 15.
+1653 Psalm xxv. 7.
 
- 1650 Matt. xi. 21.
+1654 2 Cor. xii. 21.
 
- 1651 1 Cor. xi. 31.
+1655 Matt. xi. 10.
 
- 1652 Psalm ii. 5.
+1656 Matt. iii. 2.
 
- 1653 Psalm xxv. 7.
+1657 Luke iii. 3. Mark i. 4.
 
- 1654 2 Cor. xii. 21.
+1658 Mark i. 15.
 
- 1655 Matt. xi. 10.
+1659 Luke xxiv. 46, 47.
 
- 1656 Matt. iii. 2.
+1660 Acts v. 31.
 
- 1657 Luke iii. 3. Mark i. 4.
+1661 1 Cor. i. 30.
 
- 1658 Mark i. 15.
+1662 Isaiah lxi. 1. Matt. xi 5. Luke iv. 18.
 
- 1659 Luke xxiv. 46, 47.
+1663 Matt. ix. 13.
 
- 1660 Acts v. 31.
+1664 Acts iii. 26.
 
- 1661 1 Cor. i. 30.
+1665 Isaiah lvi. 1.
 
- 1662 Isaiah lxi. 1. Matt. xi 5. Luke iv. 18.
+1666 Isaiah lix. 20.
 
- 1663 Matt. ix. 13.
+1667 Isaiah lv. 6, 7.
 
- 1664 Acts iii. 26.
+1668 Acts iii. 19.
 
- 1665 Isaiah lvi. 1.
+1669 Acts xi. 18.
 
- 1666 Isaiah lix. 20.
+1670 2 Tim. ii. 25, 26.
 
- 1667 Isaiah lv. 6, 7.
+1671 Eph. ii. 10.
 
- 1668 Acts iii. 19.
+1672 Isaiah lix. 20.
 
- 1669 Acts xi. 18.
+1673 Isaiah lxiii. 17.
 
- 1670 2 Tim. ii. 25, 26.
+1674 Heb. vi. 4.
 
- 1671 Eph. ii. 10.
+1675 Heb. x. 29.
 
- 1672 Isaiah lix. 20.
+1676 Heb. vi. 4‐6.
 
- 1673 Isaiah lxiii. 17.
+1677 Heb. x. 26, 27.
 
- 1674 Heb. vi. 4.
+1678 Matt. xii. 31, 32. Mark iii. 28, 29. Luke xii. 10.
 
- 1675 Heb. x. 29.
+1679 Matt. xii. 32.
 
- 1676 Heb. vi. 4‐6.
+1680 του Πνευματος βλασφημια, Matt. xii. 31.
 
- 1677 Heb. x. 26, 27.
+1681 Acts vi. 10.
 
- 1678 Matt. xii. 31, 32. Mark iii. 28, 29. Luke xii. 10.
+1682 Matt. ix. 34; xii. 24.
 
- 1679 Matt. xii. 32.
+1683 1 Tim. i. 13.
 
- 1680 του Πνευματος βλασφημια, Matt. xii. 31.
+1684 1 John ii. 19.
 
- 1681 Acts vi. 10.
+1685 Heb. vi. 4‐6.
 
- 1682 Matt. ix. 34; xii. 24.
+1686 Heb. x. 26.
 
- 1683 1 Tim. i. 13.
+1687 Jer. xi. 11.
 
- 1684 1 John ii. 19.
+1688 Ezek. xviii. 21.
 
- 1685 Heb. vi. 4‐6.
+1689 1 Kings xxi. 27, &c.
 
- 1686 Heb. x. 26.
+1690 Gen. xxvii. 38, 39.
 
- 1687 Jer. xi. 11.
+1691 Psalm lxxviii. 36, 37.
 
- 1688 Ezek. xviii. 21.
+1692 2 Cor. vii. 10.
 
- 1689 1 Kings xxi. 27, &c.
+1693 Matt. xi. 28. Luke iv. 18. Isaiah lxi. 1, &c.
 
- 1690 Gen. xxvii. 38, 39.
+1694 Gen. iii. 9, 12.
 
- 1691 Psalm lxxviii. 36, 37.
+1695 Heb. vii. 12.
 
- 1692 2 Cor. vii. 10.
+1696 Matt. viii. 4. Luke v. 14; xvii. 14. Lev. xiv. 2, &c.
 
- 1693 Matt. xi. 28. Luke iv. 18. Isaiah lxi. 1, &c.
+1697 Matt. xxiv. 14.
 
- 1694 Gen. iii. 9, 12.
+1698 Matt. x. 18.
 
- 1695 Heb. vii. 12.
+1699 John xi. 44.
 
- 1696 Matt. viii. 4. Luke v. 14; xvii. 14. Lev. xiv. 2, &c.
+1700 Matt. iii. 6.
 
- 1697 Matt. xxiv. 14.
+1701 James v. 16.
 
- 1698 Matt. x. 18.
+1702 Gal. iii. 22. Rom. iii. 9, 19.
 
- 1699 John xi. 44.
+1703 Psalm xlii. 4.
 
- 1700 Matt. iii. 6.
+1704 Psalm xxxii. 5.
 
- 1701 James v. 16.
+1705 Psalm li. 1.
 
- 1702 Gal. iii. 22. Rom. iii. 9, 19.
+1706 Dan. ix. 5.
 
- 1703 Psalm xlii. 4.
+1707 1 John i. 9.
 
- 1704 Psalm xxxii. 5.
+1708 2 Sam. xii. 13.
 
- 1705 Psalm li. 1.
+1709 Lev. xvi. 21.
 
- 1706 Dan. ix. 5.
+1710 James v. 16.
 
- 1707 1 John i. 9.
+1711 Matt. xvi. 19; xviii. 18. John xx. 23.
 
- 1708 2 Sam. xii. 13.
+1712 Matt. v. 23, 24.
 
- 1709 Lev. xvi. 21.
+1713 2 Cor. ii. 6.
 
- 1710 James v. 16.
+1714 Matt. xviii. 18. John xx. 23.
 
- 1711 Matt. xvi. 19; xviii. 18. John xx. 23.
+1715 Matt. ix. 2.
 
- 1712 Matt. v. 23, 24.
+1716 Matt. xviii. 18.
 
- 1713 2 Cor. ii. 6.
+1717 Isaiah xliii. 11, 25.
 
- 1714 Matt. xviii. 18. John xx. 23.
+1718 Psalm xix. 12.
 
- 1715 Matt. ix. 2.
+1719 Psalm lxxxviii. 15.
 
- 1716 Matt. xviii. 18.
+1720 Psalm cxliii. 3, 4.
 
- 1717 Isaiah xliii. 11, 25.
+1721 Psalm cxvi. 3.
 
- 1718 Psalm xix. 12.
+1722 Psalm lxix. 2, 14.
 
- 1719 Psalm lxxxviii. 15.
+1723 1 John iii. 20.
 
- 1720 Psalm cxliii. 3, 4.
+1724 Luke xviii. 13.
 
- 1721 Psalm cxvi. 3.
+1725 Psalm xix. 12.
 
- 1722 Psalm lxix. 2, 14.
+1726 1 Peter i. 23.
 
- 1723 1 John iii. 20.
+1727 Ezek. xviii. 21, 22.
 
- 1724 Luke xviii. 13.
+1728 Prov. xxx. 20.
 
- 1725 Psalm xix. 12.
+1729 Matt. xviii. 18.
 
- 1726 1 Peter i. 23.
+1730 1 Cor. vi. 9‐11.
 
- 1727 Ezek. xviii. 21, 22.
+1731 Matt. ix. 29.
 
- 1728 Prov. xxx. 20.
+1732 Isaiah xliii. 25.
 
- 1729 Matt. xviii. 18.
+1733 Acts x. 43.
 
- 1730 1 Cor. vi. 9‐11.
+1734 2 Cor. v. 19, 21.
 
- 1731 Matt. ix. 29.
+1735 1 Peter ii. 24.
 
- 1732 Isaiah xliii. 25.
+1736 1 John ii. 1, 2, 12.
 
- 1733 Acts x. 43.
+1737 John i. 29.
 
- 1734 2 Cor. v. 19, 21.
+1738 Isaiah liii. 5, 6.
 
- 1735 1 Peter ii. 24.
+1739 1 Peter ii. 24.
 
- 1736 1 John ii. 1, 2, 12.
+1740 Rom. viii. 3.
 
- 1737 John i. 29.
+1741 2 Cor. v. 21, Gal. iii. 13.
 
- 1738 Isaiah liii. 5, 6.
+1742 2 Cor. v. 20.
 
- 1739 1 Peter ii. 24.
+1743 Col. i. 20.
 
- 1740 Rom. viii. 3.
+1744 Rom. vi. 23, Ezek. xviii. 20.
 
- 1741 2 Cor. v. 21, Gal. iii. 13.
+1745 Rom. viii. 1.
 
- 1742 2 Cor. v. 20.
+1746 Jer. xxxi. 31‐34.
 
- 1743 Col. i. 20.
+1747 Ezek. xviii. 24‐28.
 
- 1744 Rom. vi. 23, Ezek. xviii. 20.
+1748 Isaiah xxxviii. 17; xliv. 22. Micah vii. 19. Psalm xxxii. 1, 2.
 
- 1745 Rom. viii. 1.
+1749 Isaiah i. 18.
 
- 1746 Jer. xxxi. 31‐34.
+1750 Jeremiah l. 20.
 
- 1747 Ezek. xviii. 24‐28.
+1751 Job xiv. 17. Hos. xiii. 12. Jeremiah xvii. 1.
 
- 1748 Isaiah xxxviii. 17; xliv. 22. Micah vii. 19. Psalm xxxii. 1, 2.
+1752 1 Peter ii. 24.
 
- 1749 Isaiah i. 18.
+1753 Isaiah liii. 6.
 
- 1750 Jeremiah l. 20.
+1754 Rom. iii. 24, &c.
 
- 1751 Job xiv. 17. Hos. xiii. 12. Jeremiah xvii. 1.
+1755 1 Tim. ii. 6.
 
- 1752 1 Peter ii. 24.
+1756 Hosea xiv. 2.
 
- 1753 Isaiah liii. 6.
+1757 2 Sam. xii. 13, 14.
 
- 1754 Rom. iii. 24, &c.
+1758 Dan. iv. 27.
 
- 1755 1 Tim. ii. 6.
+1759 Prov. xvi. 6.
 
- 1756 Hosea xiv. 2.
+1760 Prov. x. 12. 1 Peter iv. 8.
 
- 1757 2 Sam. xii. 13, 14.
+1761 Luke vii. 47.
 
- 1758 Dan. iv. 27.
+1762 Job v. 17. Prov. iii. 11. Heb. xii. 5‐11. Psalm cxviii. 18; cxix.
+71.
 
- 1759 Prov. xvi. 6.
+1763 Jer. x. 24, 25.
 
- 1760 Prov. x. 12. 1 Peter iv. 8.
+1764 Ps. vi. 1; xxxviii. 1.
 
- 1761 Luke vii. 47.
+1765 Isaiah xii. 1.
 
- 1762 Job v. 17. Prov. iii. 11. Heb. xii. 5‐11. Psalm cxviii. 18; cxix.
-      71.
+1766 Hab. iii. 2.
 
- 1763 Jer. x. 24, 25.
+1767 Micah vii. 9.
 
- 1764 Ps. vi. 1; xxxviii. 1.
+1768 Is. xliii. 28; xlvii. 6.
 
- 1765 Isaiah xii. 1.
+1769 Ps. lxxxix. 30‐33.
 
- 1766 Hab. iii. 2.
+1770 2 Sam. vii. 14.
 
- 1767 Micah vii. 9.
+1771 Is. xlviii. 10.
 
- 1768 Is. xliii. 28; xlvii. 6.
+1772 Isaiah i. 5, 6.
 
- 1769 Ps. lxxxix. 30‐33.
+1773 1 Sam. xv. 23.
 
- 1770 2 Sam. vii. 14.
+1774 2 Sam. xii. 18.
 
- 1771 Is. xlviii. 10.
+1775 1 Cor. xi. 32.
 
- 1772 Isaiah i. 5, 6.
+1776 Isaiah xl. 2.
 
- 1773 1 Sam. xv. 23.
+1777 1 Peter iv. 17. Jer. xxv. 29, marg. read.
 
- 1774 2 Sam. xii. 18.
+1778 Psalm lxxxviii. 16.
 
- 1775 1 Cor. xi. 32.
+1779 Psalm xc. 7‐9.
 
- 1776 Isaiah xl. 2.
+1780 Psalm xciv. 12, 13.
 
- 1777 1 Peter iv. 17. Jer. xxv. 29, marg. read.
+1781 Jer. v. 3.
 
- 1778 Psalm lxxxviii. 16.
+1782 Hosea vii. 8.
 
- 1779 Psalm xc. 7‐9.
+1783 Luke xviii. 14.
 
- 1780 Psalm xciv. 12, 13.
+1784 Luke xxii. 62.
 
- 1781 Jer. v. 3.
+1785 Matt. ix. 2.
 
- 1782 Hosea vii. 8.
+1786 Dan. iv. 27.
 
- 1783 Luke xviii. 14.
+1787 Prov. x. 12.
 
- 1784 Luke xxii. 62.
+1788 1 Peter iv. 8.
 
- 1785 Matt. ix. 2.
+1789 Prov. xvi. 6.
 
- 1786 Dan. iv. 27.
+1790 Heb. xiii. 16.
 
- 1787 Prov. x. 12.
+1791 Luke xi. 39‐41.
 
- 1788 1 Peter iv. 8.
+1792 In Harm. Evang.
 
- 1789 Prov. xvi. 6.
+1793 Luke vii. 39.
 
- 1790 Heb. xiii. 16.
+1794 Matt. vi. 12.
 
- 1791 Luke xi. 39‐41.
+1795 Acts x. 43.
 
- 1792 In Harm. Evang.
+1796 1 John i. 7.
 
- 1793 Luke vii. 39.
+1797 2 Cor. v. 21.
 
- 1794 Matt. vi. 12.
+1798 1 Cor. i. 13.
 
- 1795 Acts x. 43.
+1799 Acts xx. 28.
 
- 1796 1 John i. 7.
+1800 Heb. x. 14.
 
- 1797 2 Cor. v. 21.
+1801 Rev. vii. 14.
 
- 1798 1 Cor. i. 13.
+1802 Col. i. 24.
 
- 1799 Acts xx. 28.
+1803 Col. i. 24.
 
- 1800 Heb. x. 14.
+1804 2 Tim. ii. 10.
 
- 1801 Rev. vii. 14.
+1805 2 Cor. i. 6.
 
- 1802 Col. i. 24.
+1806 Col. i. 25.
 
- 1803 Col. i. 24.
+1807 Rom. v. 17‐20.
 
- 1804 2 Tim. ii. 10.
+1808 Acts xv. 11.
 
- 1805 2 Cor. i. 6.
+1809 2 Cor. v. 18, &c.
 
- 1806 Col. i. 25.
+1810 1 Cor. i. 9.
 
- 1807 Rom. v. 17‐20.
+1811 Deut. xviii. 10‐12.
 
- 1808 Acts xv. 11.
+1812 Matt. xii. 32.
 
- 1809 2 Cor. v. 18, &c.
+1813 Matt. v. 25.
 
- 1810 1 Cor. i. 9.
+1814 Phil. ii. 10.
 
- 1811 Deut. xviii. 10‐12.
+1815 Rom. xiv. 10, 11.
 
- 1812 Matt. xii. 32.
+1816 Rev. v. 13.
 
- 1813 Matt. v. 25.
+1817 Luke xxiv. 44.
 
- 1814 Phil. ii. 10.
+1818 1 Cor. iii. 12.
 
- 1815 Rom. xiv. 10, 11.
+1819 Rom. xiv. 23.
 
- 1816 Rev. v. 13.
+1820 Rev. xiv. 13.
 
- 1817 Luke xxiv. 44.
+1821 Lev. xix. 2. 1 Peter i. 16.
 
- 1818 1 Cor. iii. 12.
+1822 Isaiah xxxv. 10.
 
- 1819 Rom. xiv. 23.
+1823 Psalm xv. 1, 2; xxiv. 3, 4.
 
- 1820 Rev. xiv. 13.
+1824 Rom. vi. 4, &c.; viii. 29.
 
- 1821 Lev. xix. 2. 1 Peter i. 16.
+1825 Eph. iv. 20, &c.
 
- 1822 Isaiah xxxv. 10.
+1826 Rom. xii. 1.
 
- 1823 Psalm xv. 1, 2; xxiv. 3, 4.
+1827 Eph. iv. 23.
 
- 1824 Rom. vi. 4, &c.; viii. 29.
+1828 Gal. ii. 20.
 
- 1825 Eph. iv. 20, &c.
+1829 Titus ii. 11‐14.
 
- 1826 Rom. xii. 1.
+1830 Rom. xii. 10. Phil. ii. 4.
 
- 1827 Eph. iv. 23.
+1831 1 Cor. iv. 7.
 
- 1828 Gal. ii. 20.
+1832 1 Cor. xiii. 4‐8.
 
- 1829 Titus ii. 11‐14.
+1833 Psalm xvi. 2, 3.
 
- 1830 Rom. xii. 10. Phil. ii. 4.
+1834 Heb. xiii. 16.
 
- 1831 1 Cor. iv. 7.
+1835 Gal. vi. 10.
 
- 1832 1 Cor. xiii. 4‐8.
+1836 Isaiah lviii. 7.
 
- 1833 Psalm xvi. 2, 3.
+1837 Matt. v. 44.
 
- 1834 Heb. xiii. 16.
+1838 Luke xvii. 3, 4.
 
- 1835 Gal. vi. 10.
+1839 Psalm cxxxi. 1, 2.
 
- 1836 Isaiah lviii. 7.
+1840 Psalm lxxix. 13.
 
- 1837 Matt. v. 44.
+1841 Matt. xvi. 24.
 
- 1838 Luke xvii. 3, 4.
+1842 Matt. iii. 17; xvii. 5.
 
- 1839 Psalm cxxxi. 1, 2.
+1843 Heb. v. 8.
 
- 1840 Psalm lxxix. 13.
+1844 Rom. viii. 29.
 
- 1841 Matt. xvi. 24.
+1845 Acts xiv. 22.
 
- 1842 Matt. iii. 17; xvii. 5.
+1846 Phil. iii. 10.
 
- 1843 Heb. v. 8.
+1847 Psalm xxx. 6, 7.
 
- 1844 Rom. viii. 29.
+1848 Rom. v. 3, 4.
 
- 1845 Acts xiv. 22.
+1849 Gen. xxii. 1, 12.
 
- 1846 Phil. iii. 10.
+1850 1 Peter i. 7.
 
- 1847 Psalm xxx. 6, 7.
+1851 Deut. xxxii. 15.
 
- 1848 Rom. v. 3, 4.
+1852 1 Cor. xi. 32.
 
- 1849 Gen. xxii. 1, 12.
+1853 Prov. iii. 11, 12.
 
- 1850 1 Peter i. 7.
+1854 Heb. xii. 8.
 
- 1851 Deut. xxxii. 15.
+1855 Matt. v. 10.
 
- 1852 1 Cor. xi. 32.
+1856 Acts v. 41.
 
- 1853 Prov. iii. 11, 12.
+1857 1 Peter iv. 14.
 
- 1854 Heb. xii. 8.
+1858 1 Tim. iv. 10.
 
- 1855 Matt. v. 10.
+1859 2 Cor. vi. 8.
 
- 1856 Acts v. 41.
+1860 2 Cor. iv. 8, 9.
 
- 1857 1 Peter iv. 14.
+1861 John xvi. 20.
 
- 1858 1 Tim. iv. 10.
+1862 Matt. v. 4.
 
- 1859 2 Cor. vi. 8.
+1863 Luke xxii. 44.
 
- 1860 2 Cor. iv. 8, 9.
+1864 John xxi. 18.
 
- 1861 John xvi. 20.
+1865 2 Cor. v. 6.
 
- 1862 Matt. v. 4.
+1866 Rom. vii. 24.
 
- 1863 Luke xxii. 44.
+1867 Phil. i. 20.
 
- 1864 John xxi. 18.
+1868 Rom. xiv. 7, 8.
 
- 1865 2 Cor. v. 6.
+1869 2 Cor. v. 4.
 
- 1866 Rom. vii. 24.
+1870 Titus ii. 13.
 
- 1867 Phil. i. 20.
+1871 Luke xxi. 28.
 
- 1868 Rom. xiv. 7, 8.
+1872 Rom. viii. 36.
 
- 1869 2 Cor. v. 4.
+1873 1 Cor. xv. 19.
 
- 1870 Titus ii. 13.
+1874 Isaiah xxv. 8. Rev. vii. 17.
 
- 1871 Luke xxi. 28.
+1875 2 Thess. i. 6, 7.
 
- 1872 Rom. viii. 36.
+1876 Psalm lxxiii. 2, &c.
 
- 1873 1 Cor. xv. 19.
+1877 1 Cor. vii. 30, 31.
 
- 1874 Isaiah xxv. 8. Rev. vii. 17.
+1878 Psalm civ. 15.
 
- 1875 2 Thess. i. 6, 7.
+1879 Rom. xiii. 14.
 
- 1876 Psalm lxxiii. 2, &c.
+1880 1 Cor. vii. 29, 30, 31.
 
- 1877 1 Cor. vii. 30, 31.
+1881 Phil. iv. 12.
 
- 1878 Psalm civ. 15.
+1882 Luke xvi. 2.
 
- 1879 Rom. xiii. 14.
+1883 Luke vii. 29, 35.
 
- 1880 1 Cor. vii. 29, 30, 31.
+1884 Luke xvi. 15.
 
- 1881 Phil. iv. 12.
+1885 1 Kings i. 21.
 
- 1882 Luke xvi. 2.
+1886 Gal. iii. 8.
 
- 1883 Luke vii. 29, 35.
+1887 Rom. iii. 26; iv. 5.
 
- 1884 Luke xvi. 15.
+1888 Rom. viii. 33, 34.
 
- 1885 1 Kings i. 21.
+1889 Acts xiii. 38, 39.
 
- 1886 Gal. iii. 8.
+1890 Luke xviii. 14.
 
- 1887 Rom. iii. 26; iv. 5.
+1891 Eph. i. 5, 6.
 
- 1888 Rom. viii. 33, 34.
+1892 Rom. iii. 24.
 
- 1889 Acts xiii. 38, 39.
+1893 Rom. iv. 6‐8.
 
- 1890 Luke xviii. 14.
+1894 2 Cor. v. 18, 19.
 
- 1891 Eph. i. 5, 6.
+1895 2 Cor. v. 21.
 
- 1892 Rom. iii. 24.
+1896 Rom. v. 19.
 
- 1893 Rom. iv. 6‐8.
+1897 Col. ii. 9.
 
- 1894 2 Cor. v. 18, 19.
+1898 1 Cor. i. 30.
 
- 1895 2 Cor. v. 21.
+1899 Rom. iv. 5.
 
- 1896 Rom. v. 19.
+1900 Jer. xxiii. 6; xxxiii. 16.
 
- 1897 Col. ii. 9.
+1901 Acts xx. 28.
 
- 1898 1 Cor. i. 30.
+1902 Isaiah liii. 11.
 
- 1899 Rom. iv. 5.
+1903 Rom. v. 19.
 
- 1900 Jer. xxiii. 6; xxxiii. 16.
+1904 2 Cor. v. 21.
 
- 1901 Acts xx. 28.
+1905 John xii. 43.
 
- 1902 Isaiah liii. 11.
+1906 2 Peter i. 4.
 
- 1903 Rom. v. 19.
+1907 1 John iii. 2.
 
- 1904 2 Cor. v. 21.
+1908 2 Cor. v. 19, 21.
 
- 1905 John xii. 43.
+1909 Rom. iv. 6‐8.
 
- 1906 2 Peter i. 4.
+1910 Gal. iii. 18.
 
- 1907 1 John iii. 2.
+1911 Rom. vii. 24.
 
- 1908 2 Cor. v. 19, 21.
+1912 Rom. viii. 33, 38, 39.
 
- 1909 Rom. iv. 6‐8.
+1913 Psalm li. 4.
 
- 1910 Gal. iii. 18.
+1914 Exod. xxxiii. 19.
 
- 1911 Rom. vii. 24.
+1915 1 Cor. i. 30.
 
- 1912 Rom. viii. 33, 38, 39.
+1916 Col. ii. 3.
 
- 1913 Psalm li. 4.
+1917 Mal. iv. 2.
 
- 1914 Exod. xxxiii. 19.
+1918 John viii. 12.
 
- 1915 1 Cor. i. 30.
+1919 Gal. iii. 13; iv. 4.
 
- 1916 Col. ii. 3.
+1920 Heb. ii. 14.
 
- 1917 Mal. iv. 2.
+1921 Phil. ii. 13.
 
- 1918 John viii. 12.
+1922 John xvii. 19.
 
- 1919 Gal. iii. 13; iv. 4.
+1923 Isaiah lix. 17.
 
- 1920 Heb. ii. 14.
+1924 Rom. iii. 24, 25.
 
- 1921 Phil. ii. 13.
+1925 Rom. v. 19.
 
- 1922 John xvii. 19.
+1926 Phil. iii. 8, 9.
 
- 1923 Isaiah lix. 17.
+1927 Rom. x. 3.
 
- 1924 Rom. iii. 24, 25.
+1928 Rom. iii. 27.
 
- 1925 Rom. v. 19.
+1929 Rom. iv. 2.
 
- 1926 Phil. iii. 8, 9.
+1930 Rom. iv. 4.
 
- 1927 Rom. x. 3.
+1931 Rom. x. 5, &c.
 
- 1928 Rom. iii. 27.
+1932 Gal. iii. 11.
 
- 1929 Rom. iv. 2.
+1933 Rom. ii. 13.
 
- 1930 Rom. iv. 4.
+1934 Heb. xi. 6.
 
- 1931 Rom. x. 5, &c.
+1935 Rom. x. 5, 6, 9.
 
- 1932 Gal. iii. 11.
+1936 Gal. iii. 18.
 
- 1933 Rom. ii. 13.
+1937 Rom. iii. 10, &c.
 
- 1934 Heb. xi. 6.
+1938 Gal. iii. 11, 12.
 
- 1935 Rom. x. 5, 6, 9.
+1939 Rom. iv. 2, 3.
 
- 1936 Gal. iii. 18.
+1940 Rom. iv. 16.
 
- 1937 Rom. iii. 10, &c.
+1941 Rom. iii. 21.
 
- 1938 Gal. iii. 11, 12.
+1942 Rom. iv. 2.
 
- 1939 Rom. iv. 2, 3.
+1943 Rom. i. 17.
 
- 1940 Rom. iv. 16.
+1944 Rom. iii. 21, 24, 28.
 
- 1941 Rom. iii. 21.
+1945 Gal. iii. 10, 12.
 
- 1942 Rom. iv. 2.
+1946 Rom. iii. 20; iv. 15.
 
- 1943 Rom. i. 17.
+1947 Gal. iii. 21, 22.
 
- 1944 Rom. iii. 21, 24, 28.
+1948 Gal. iii. 17.
 
- 1945 Gal. iii. 10, 12.
+1949 Rom. iv. 6.
 
- 1946 Rom. iii. 20; iv. 15.
+1950 Gal. v. 6.
 
- 1947 Gal. iii. 21, 22.
+1951 Rom. iv. 4, 5.
 
- 1948 Gal. iii. 17.
+1952 Sect. II.
 
- 1949 Rom. iv. 6.
+1953 Isaiah lix. 1, 2.
 
- 1950 Gal. v. 6.
+1954 Rom. v. 8‐10.
 
- 1951 Rom. iv. 4, 5.
+1955 2 Cor. v. 19.
 
- 1952 Sect. II.
+1956 2 Cor. v. 21.
 
- 1953 Isaiah lix. 1, 2.
+1957 Rom. iv. 6‐8.
 
- 1954 Rom. v. 8‐10.
+1958 Luke i. 77.
 
- 1955 2 Cor. v. 19.
+1959 Acts xiii. 38, 39.
 
- 1956 2 Cor. v. 21.
+1960 2 Cor. v. 21.
 
- 1957 Rom. iv. 6‐8.
+1961 Rom. viii. 3, 4.
 
- 1958 Luke i. 77.
+1962 Rom. v. 19.
 
- 1959 Acts xiii. 38, 39.
+1963 See particularly the Book of Job.
 
- 1960 2 Cor. v. 21.
+1964 Isaiah xxxiii. 14, 15.
 
- 1961 Rom. viii. 3, 4.
+1965 Psalm cxxx. 3.
 
- 1962 Rom. v. 19.
+1966 Job iv. 17‐20.
 
- 1963 See particularly the Book of Job.
+1967 Job xv. 15, 16.
 
- 1964 Isaiah xxxiii. 14, 15.
+1968 Deut. xxvii. 26.
 
- 1965 Psalm cxxx. 3.
+1969 Luke xvi. 15.
 
- 1966 Job iv. 17‐20.
+1970 Psalm cxliii. 2.
 
- 1967 Job xv. 15, 16.
+1971 Job ix. 2, 3.
 
- 1968 Deut. xxvii. 26.
+1972 Acts ix. 15.
 
- 1969 Luke xvi. 15.
+1973 1 Cor. iv. 4.
 
- 1970 Psalm cxliii. 2.
+1974 Ezek. xxxvi. 22.
 
- 1971 Job ix. 2, 3.
+1975 1 Cor. iv. 5.
 
- 1972 Acts ix. 15.
+1976 Prov. xxi. 2.
 
- 1973 1 Cor. iv. 4.
+1977 Prov. xvi. 2.
 
- 1974 Ezek. xxxvi. 22.
+1978 Job xv. 16; xxv. 4, 6.
 
- 1975 1 Cor. iv. 5.
+1979 Job xiv. 4.
 
- 1976 Prov. xxi. 2.
+1980 Job ix. 20.
 
- 1977 Prov. xvi. 2.
+1981 Isaiah liii. 6.
 
- 1978 Job xv. 16; xxv. 4, 6.
+1982 1 Peter v. 5.
 
- 1979 Job xiv. 4.
+1983 Psalm xviii. 27.
 
- 1980 Job ix. 20.
+1984 Zeph. iii. 11, 12.
 
- 1981 Isaiah liii. 6.
+1985 Isaiah lxvi. 2.
 
- 1982 1 Peter v. 5.
+1986 Isaiah lvii. 15.
 
- 1983 Psalm xviii. 27.
+1987 Matt. xxiii. 12. Luke xiv. 11; xviii. 14.
 
- 1984 Zeph. iii. 11, 12.
+1988 Luke xviii. 13.
 
- 1985 Isaiah lxvi. 2.
+1989 Isaiah lxi. 1‐3.
 
- 1986 Isaiah lvii. 15.
+1990 Matt. xi. 28.
 
- 1987 Matt. xxiii. 12. Luke xiv. 11; xviii. 14.
+1991 Matt. ix. 13.
 
- 1988 Luke xviii. 13.
+1992 Rom. iii. 26.
 
- 1989 Isaiah lxi. 1‐3.
+1993 Rom. iii. 19.
 
- 1990 Matt. xi. 28.
+1994 Ezek. xx. 43, 44.
 
- 1991 Matt. ix. 13.
+1995 Jer. ix. 23, 24.
 
- 1992 Rom. iii. 26.
+1996 1 Cor. i. 29‐31.
 
- 1993 Rom. iii. 19.
+1997 Rom. iii. 19.
 
- 1994 Ezek. xx. 43, 44.
+1998 Isaiah xlv. 23‐25.
 
- 1995 Jer. ix. 23, 24.
+1999 Rom. iii. 26.
 
- 1996 1 Cor. i. 29‐31.
+2000 Ephes. i. 6.
 
- 1997 Rom. iii. 19.
+2001 Ephes. ii. 8.
 
- 1998 Isaiah xlv. 23‐25.
+2002 1 Peter ii. 9.
 
- 1999 Rom. iii. 26.
+2003 Prov. xx. 9.
 
- 2000 Ephes. i. 6.
+2004 Rom. iv. 14.
 
- 2001 Ephes. ii. 8.
+2005 Rom. iv. 16.
 
- 2002 1 Peter ii. 9.
+2006 Psalm cxix. 76, 77.
 
- 2003 Prov. xx. 9.
+2007 Eccles. ix. 1.
 
- 2004 Rom. iv. 14.
+2008 1 Cor. ii. 16.
 
- 2005 Rom. iv. 16.
+2009 Zech. iii. 9, 10.
 
- 2006 Psalm cxix. 76, 77.
+2010 Isaiah ix. 6. Ephes. ii. 14.
 
- 2007 Eccles. ix. 1.
+2011 Rom. v. 1.
 
- 2008 1 Cor. ii. 16.
+2012 Rom. v. 5.
 
- 2009 Zech. iii. 9, 10.
+2013 Rom. viii. 35, &c.
 
- 2010 Isaiah ix. 6. Ephes. ii. 14.
+2014 Psalm xxiii. 4.
 
- 2011 Rom. v. 1.
+2015 Gal. iv. 6.
 
- 2012 Rom. v. 5.
-
- 2013 Rom. viii. 35, &c.
-
- 2014 Psalm xxiii. 4.
-
- 2015 Gal. iv. 6.
-
- 2016 Ephes. iii. 12.
+2016 Ephes. iii. 12.
 
 ---
 
-## Volume II
+
+---
+
+
+# Volume II
+
 
 Institutes of the Christian Religion
 
 
+INSTITUTES OF THE CHRISTIAN RELIGION.
+
+BY
+
+JOHN CALVIN.
+
+TRANSLATED FROM THE ORIGINAL LATIN, AND COLLATED WITH\
+THE AUTHOR’S LAST EDITION IN FRENCH,
+
+BY JOHN ALLEN.
+
+Non tamen omnino potuit mors invida totum\
+Tollere Calvinum terris; æterna manebunt\
+Ingenii monumenta tui: et livoris iniqui\
+Languida paulatim cum flamma resederit, omnes\
+Religio qua pura nitet se fundet in oras\
+Fama tui.
+
+BUCHANAN.
 
 
-                 INSTITUTES OF THE CHRISTIAN RELIGION.
+SIXTH AMERICAN EDITION, REVISED AND CORRECTED.
 
-                                   BY
+IN TWO VOLUMES.
 
-                              JOHN CALVIN.
+VOL. II.
 
-
-         TRANSLATED FROM THE ORIGINAL LATIN, AND COLLATED WITH
-                  THE AUTHOR’S LAST EDITION IN FRENCH,
-
-                             BY JOHN ALLEN.
+PHILADELPHIA:\
+PRESBYTERIAN BOARD OF PUBLICATION.
 
 
-               Non tamen omnino potuit mors invida totum
-                Tollere Calvinum terris; æterna manebunt
-                Ingenii monumenta tui: et livoris iniqui
-             Languida paulatim cum flamma resederit, omnes
-                Religio qua pura nitet se fundet in oras
-                               Fama tui.
-
-                               BUCHANAN.
+# Book III (continued)
 
 
-             SIXTH AMERICAN EDITION, REVISED AND CORRECTED.
-
-                            IN TWO VOLUMES.
-
-                                VOL. II.
-
-
-                             PHILADELPHIA:
-                   PRESBYTERIAN BOARD OF PUBLICATION.
-
-
-
-
-                               BOOK III.
-
-
-
-
-                              CHAPTER XIV.
-       THE COMMENCEMENT AND CONTINUAL PROGRESS OF JUSTIFICATION.
+## Chapter XIV. The Commencement and Continual Progress of Justification
 
 
 For the further elucidation of this subject, let us examine what kind of
@@ -31579,258 +31273,254 @@ derogatory to it.
 
 Footnote 1:
 
-  Jer. xvii. 9.
+Jer. xvii. 9.
 
 Footnote 2:
 
-  Gen. vi. 5; viii. 21.
+Gen. vi. 5; viii. 21.
 
 Footnote 3:
 
-  Psalm xciv. 11; xxxvi. 1.
+Psalm xciv. 11; xxxvi. 1.
 
 Footnote 4:
 
-  Psalm xiv. 1-3. Rom. iii. 11.
+Psalm xiv. 1-3. Rom. iii. 11.
 
 Footnote 5:
 
-  Gen. vi. 3.
+Gen. vi. 3.
 
 Footnote 6:
 
-  Gal. v. 19, &c.
+Gal. v. 19, &c.
 
 Footnote 7:
 
-  1 John v. 12.
+1 John v. 12.
 
 Footnote 8:
 
-  Heb. xi. 6.
+Heb. xi. 6.
 
 Footnote 9:
 
-  John v. 25.
+John v. 25.
 
 Footnote 10:
 
-  Eph. ii. 4, 5.
+Eph. ii. 4, 5.
 
 Footnote 11:
 
-  Rom. iv. 17.
+Rom. iv. 17.
 
 Footnote 12:
 
-  Job xli. 11.
+Job xli. 11.
 
 Footnote 13:
 
-  Rom. xi. 35.
+Rom. xi. 35.
 
 Footnote 14:
 
-  Ephes. ii. 10.
+Ephes. ii. 10.
 
 Footnote 15:
 
-  2 Tim. i. 9.
+2 Tim. i. 9.
 
 Footnote 16:
 
-  Titus iii. 4, 5, 7.
+Titus iii. 4, 5, 7.
 
 Footnote 17:
 
-  Rom. xi. 6.
+Rom. xi. 6.
 
 Footnote 18:
 
-  Matt. ix. 13.
+Matt. ix. 13.
 
 Footnote 19:
 
-  Isaiah lix. 15, 16.
+Isaiah lix. 15, 16.
 
 Footnote 20:
 
-  Hosea ii. 19, 23.
+Hosea ii. 19, 23.
 
 Footnote 21:
 
-  Rom. v. 6, 10. Col. i. 21.
+Rom. v. 6, 10. Col. i. 21.
 
 Footnote 22:
 
-  1 John iv. 10.
+1 John iv. 10.
 
 Footnote 23:
 
-  Hosea xiv. 4.
+Hosea xiv. 4.
 
 Footnote 24:
 
-  1 Cor. vi. 11.
+1 Cor. vi. 11.
 
 Footnote 25:
 
-  1 Peter i. 2.
+1 Peter i. 2.
 
 Footnote 26:
 
-  Phil. i. 29.
+Phil. i. 29.
 
 Footnote 27:
 
-  Hag. ii. 11-14.
+Hag. ii. 11-14.
 
 Footnote 28:
 
-  Isaiah i. 13-16.
+Isaiah i. 13-16.
 
 Footnote 29:
 
-  Deut. iv. 6. Psalm cxi. 10. Prov. i. 7; ix. 10.
+Deut. iv. 6. Psalm cxi. 10. Prov. i. 7; ix. 10.
 
 Footnote 30:
 
-  Prov. xv. 8.
+Prov. xv. 8.
 
 Footnote 31:
 
-  Gen. iv. 4.
+Gen. iv. 4.
 
 Footnote 32:
 
-  Jer. v. 3.
+Jer. v. 3.
 
 Footnote 33:
 
-  Acts xv. 9.
+Acts xv. 9.
 
 Footnote 34:
 
-  Eccles. vii. 20.
+Eccles. vii. 20.
 
 Footnote 35:
 
-  Ezek. xviii. 24.
+Ezek. xviii. 24.
 
 Footnote 36:
 
-  James ii. 10.
+James ii. 10.
 
 Footnote 37:
 
-  Rom. iv. 9.
+Rom. iv. 9.
 
 Footnote 38:
 
-  Hab. ii. 4.
+Hab. ii. 4.
 
 Footnote 39:
 
-  Rom. iv. 7.
+Rom. iv. 7.
 
 Footnote 40:
 
-  2 Cor. v. 18, 19.
+2 Cor. v. 18, 19.
 
 Footnote 41:
 
-  Ephes. ii. 8, 9.
+Ephes. ii. 8, 9.
 
 Footnote 42:
 
-  Lev. xviii. 5. Rom. x. 5.
+Lev. xviii. 5. Rom. x. 5.
 
 Footnote 43:
 
-  Deut. xxvii. 26. Gal. iii. 10.
+Deut. xxvii. 26. Gal. iii. 10.
 
 Footnote 44:
 
-  Gen. iii.
+Gen. iii.
 
 Footnote 45:
 
-  Phil. iii. 13, 14.
+Phil. iii. 13, 14.
 
 Footnote 46:
 
-  Luke xvii. 10.
+Luke xvii. 10.
 
 Footnote 47:
 
-  1 Cor. ix.
+1 Cor. ix.
 
 Footnote 48:
 
-  1 Cor. ix. 12.
+1 Cor. ix. 12.
 
 Footnote 49:
 
-  Luke xvii. 9.
+Luke xvii. 9.
 
 Footnote 50:
 
-  Isaiah i. 12.
+Isaiah i. 12.
 
 Footnote 51:
 
-  Isaiah lv. 2.
+Isaiah lv. 2.
 
 Footnote 52:
 
-  Psalm cxliii. 2.
+Psalm cxliii. 2.
 
 Footnote 53:
 
-  Job x. 15.
+Job x. 15.
 
 Footnote 54:
 
-  Isaiah xlv. 25.
+Isaiah xlv. 25.
 
 Footnote 55:
 
-  Isaiah lxi. 3.
+Isaiah lxi. 3.
 
 Footnote 56:
 
-  John iii. 16.
+John iii. 16.
 
 Footnote 57:
 
-  Rom. iii. 23, &c.
+Rom. iii. 23, &c.
 
 Footnote 58:
 
-  Ephes. i. 5-7, 13.
+Ephes. i. 5-7, 13.
 
 Footnote 59:
 
-  Prov. xiv. 26.
+Prov. xiv. 26.
 
 Footnote 60:
 
-  2 Kings xx. 3.
+2 Kings xx. 3.
 
 Footnote 61:
 
-  Ephes. iii. 18, 19.
+Ephes. iii. 18, 19.
 
 Footnote 62:
 
-  Rom. viii. 37.
+Rom. viii. 37.
 
 
-
-
-                              CHAPTER XV.
-BOASTING OF THE MERIT OF WORKS, EQUALLY SUBVERSIVE OF GOD’S GLORY IN THE
-       GIFT OF RIGHTEOUSNESS, AND OF THE CERTAINTY OF SALVATION.
+## Chapter XV. Boasting of the Merit of Works, Equally Subversive of God’s Glory in the Gift of Righteousness, and of the Certainty of Salvation
 
 
 We have now discussed the principal branch of this subject; that because
@@ -32147,150 +31837,146 @@ vocation,[97] and, like trees, are judged by their fruits.
 
 Footnote 63:
 
-  Ezek. xxxvi. 32.
+Ezek. xxxvi. 32.
 
 Footnote 64:
 
-  Luke xvii. 10.
+Luke xvii. 10.
 
 Footnote 65:
 
-  Gal. vi. 9. 2 Thess. iii. 13.
+Gal. vi. 9. 2 Thess. iii. 13.
 
 Footnote 66:
 
-  Ecclus. xvi. 14.
+Ecclus. xvi. 14.
 
 Footnote 67:
 
-  Heb. xiii. 16.
+Heb. xiii. 16.
 
 Footnote 68:
 
-  Matt. xxv. 21, 29.
+Matt. xxv. 21, 29.
 
 Footnote 69:
 
-  Isaiah lv. 1.
+Isaiah lv. 1.
 
 Footnote 70:
 
-  1 Cor. iii. 10, 11.
+1 Cor. iii. 10, 11.
 
 Footnote 71:
 
-  1 Cor. i. 30.
+1 Cor. i. 30.
 
 Footnote 72:
 
-  Ephes. i. 3-5.
+Ephes. i. 3-5.
 
 Footnote 73:
 
-  Col. i. 14, 20, 21.
+Col. i. 14, 20, 21.
 
 Footnote 74:
 
-  John i. 12.
+John i. 12.
 
 Footnote 75:
 
-  John x. 28, 29.
+John x. 28, 29.
 
 Footnote 76:
 
-  Matt. xxviii. 18.
+Matt. xxviii. 18.
 
 Footnote 77:
 
-  Ephes. ii 21. Titus iii. 7.
+Ephes. ii 21. Titus iii. 7.
 
 Footnote 78:
 
-  1 John v. 12.
+1 John v. 12.
 
 Footnote 79:
 
-  Rom. xiv. 23.
+Rom. xiv. 23.
 
 Footnote 80:
 
-  Acts xiii. 39.
+Acts xiii. 39.
 
 Footnote 81:
 
-  1 John v. 12.
+1 John v. 12.
 
 Footnote 82:
 
-  John v. 24.
+John v. 24.
 
 Footnote 83:
 
-  Rom. iii. 24.
+Rom. iii. 24.
 
 Footnote 84:
 
-  1 John iii. 24.
+1 John iii. 24.
 
 Footnote 85:
 
-  Ephes. ii. 6.
+Ephes. ii. 6.
 
 Footnote 86:
 
-  Col. i. 13.
+Col. i. 13.
 
 Footnote 87:
 
-  Ephes. ii. 10.
+Ephes. ii. 10.
 
 Footnote 88:
 
-  1 John iii. 8, 9.
+1 John iii. 8, 9.
 
 Footnote 89:
 
-  1 Peter iv. 3.
+1 Peter iv. 3.
 
 Footnote 90:
 
-  2 Tim. ii. 20. Rom. ix. 23.
+2 Tim. ii. 20. Rom. ix. 23.
 
 Footnote 91:
 
-  Luke ix. 23.
+Luke ix. 23.
 
 Footnote 92:
 
-  2 Cor. iv. 8-10.
+2 Cor. iv. 8-10.
 
 Footnote 93:
 
-  2 Tim. ii. 11, 12.
+2 Tim. ii. 11, 12.
 
 Footnote 94:
 
-  Phil. iii. 10, 11.
+Phil. iii. 10, 11.
 
 Footnote 95:
 
-  Rom. viii. 29, 38, 39.
+Rom. viii. 29, 38, 39.
 
 Footnote 96:
 
-  Rom. viii. 28.
+Rom. viii. 28.
 
 Footnote 97:
 
-  2 Peter i. 10.
+2 Peter i. 10.
 
 
-
-
-                              CHAPTER XVI.
-  A REFUTATION OF THE INJURIOUS CALUMNIES OF THE PAPISTS AGAINST THIS
-                               DOCTRINE.
+## Chapter XVI. A Refutation of the Injurious Calumnies of the Papists Against This Doctrine
 
 
 The observation with which we closed the preceding chapter is, of
@@ -32469,117 +32155,114 @@ that pertain to the remission of sins may be found in the next chapter.
 
 Footnote 98:
 
-  1 Cor. i. 30.
+1 Cor. i. 30.
 
 Footnote 99:
 
-  1 John iv. 10, 19.
+1 John iv. 10, 19.
 
 Footnote 100:
 
-  Heb. ix. 14.
+Heb. ix. 14.
 
 Footnote 101:
 
-  Heb. x. 29.
+Heb. x. 29.
 
 Footnote 102:
 
-  Luke i. 74, 75.
+Luke i. 74, 75.
 
 Footnote 103:
 
-  Rom. vi. 18.
+Rom. vi. 18.
 
 Footnote 104:
 
-  Rom. vi. 4, 6.
+Rom. vi. 4, 6.
 
 Footnote 105:
 
-  Col. iii. 1. Heb. xi. 13. 1 Peter ii. 11.
+Col. iii. 1. Heb. xi. 13. 1 Peter ii. 11.
 
 Footnote 106:
 
-  Titus ii. 11-13.
+Titus ii. 11-13.
 
 Footnote 107:
 
-  1 Thess. v. 9.
+1 Thess. v. 9.
 
 Footnote 108:
 
-  1 Cor. iii. 16, 17; vi. 19. Ephes. ii. 21.
+1 Cor. iii. 16, 17; vi. 19. Ephes. ii. 21.
 
 Footnote 109:
 
-  Ephes. v. 8.
+Ephes. v. 8.
 
 Footnote 110:
 
-  1 Thess. iv. 3, 7.
+1 Thess. iv. 3, 7.
 
 Footnote 111:
 
-  2 Tim. i. 9. 1 Peter i. 15.
+2 Tim. i. 9. 1 Peter i. 15.
 
 Footnote 112:
 
-  Rom. vi. 18.
+Rom. vi. 18.
 
 Footnote 113:
 
-  1 John iv. 11; iii. 10.
+1 John iv. 11; iii. 10.
 
 Footnote 114:
 
-  1 Cor. xii. 12, &c.
+1 Cor. xii. 12, &c.
 
 Footnote 115:
 
-  1 John iii. 3.
+1 John iii. 3.
 
 Footnote 116:
 
-  2 Cor. vii. 1.
+2 Cor. vii. 1.
 
 Footnote 117:
 
-  Matt. xi. 29. John xiii. 15.
+Matt. xi. 29. John xiii. 15.
 
 Footnote 118:
 
-  2 Tim. iii. 17.
+2 Tim. iii. 17.
 
 Footnote 119:
 
-  Rom. xii. 1.
+Rom. xii. 1.
 
 Footnote 120:
 
-  Matt. v. 16.
+Matt. v. 16.
 
 Footnote 121:
 
-  2 Cor. ix. 7.
+2 Cor. ix. 7.
 
 Footnote 122:
 
-  Matt. xvi. 27. Rom. ii. 6.
+Matt. xvi. 27. Rom. ii. 6.
 
 Footnote 123:
 
-  Psalm cxxx. 4.
+Psalm cxxx. 4.
 
 Footnote 124:
 
-  Cant. v. 3.
+Cant. v. 3.
 
 
-
-
-                             CHAPTER XVII.
-  THE HARMONY BETWEEN THE PROMISES OF THE LAW AND THOSE OF THE GOSPEL.
+## Chapter XVII. The Harmony Between the Promises of the Law and Those of the Gospel
 
 
 Let us now pursue the other arguments with which Satan by his satellites
@@ -33245,217 +32928,214 @@ humility.”
 
 Footnote 125:
 
-  Deut. vii. 12, 13.
+Deut. vii. 12, 13.
 
 Footnote 126:
 
-  Jer. vii. 5-7.
+Jer. vii. 5-7.
 
 Footnote 127:
 
-  Deut. xi. 26; xxx. 15.
+Deut. xi. 26; xxx. 15.
 
 Footnote 128:
 
-  Gal. ii. 16.
+Gal. ii. 16.
 
 Footnote 129:
 
-  Psalm xix. 12.
+Psalm xix. 12.
 
 Footnote 130:
 
-  Psalm xxv. 10, 11.
+Psalm xxv. 10, 11.
 
 Footnote 131:
 
-  Lev. xviii. 5.
+Lev. xviii. 5.
 
 Footnote 132:
 
-  Rom. x. 5, &c.
+Rom. x. 5, &c.
 
 Footnote 133:
 
-  Acts x. 34, 35.
+Acts x. 34, 35.
 
 Footnote 134:
 
-  Gal. v. 5.
+Gal. v. 5.
 
 Footnote 135:
 
-  Deut. vii. 9.
+Deut. vii. 9.
 
 Footnote 136:
 
-  1 Kings viii. 23.
+1 Kings viii. 23.
 
 Footnote 137:
 
-  Neh. i. 5.
+Neh. i. 5.
 
 Footnote 138:
 
-  Deut. xxix. 19, 20.
+Deut. xxix. 19, 20.
 
 Footnote 139:
 
-  2 Sam. xxii. 20, 21.
+2 Sam. xxii. 20, 21.
 
 Footnote 140:
 
-  Psalm xv. 1, 2.
+Psalm xv. 1, 2.
 
 Footnote 141:
 
-  Isaiah xxxiii. 14, 15.
+Isaiah xxxiii. 14, 15.
 
 Footnote 142:
 
-  Deut. vi. 25.
+Deut. vi. 25.
 
 Footnote 143:
 
-  Deut. xxiv. 13.
+Deut. xxiv. 13.
 
 Footnote 144:
 
-  Psalm cvi. 30, 31.
+Psalm cvi. 30, 31.
 
 Footnote 145:
 
-  Rom. viii. 3.
+Rom. viii. 3.
 
 Footnote 146:
 
-  Luke i. 6.
+Luke i. 6.
 
 Footnote 147:
 
-  Rom. iv. 3. Gal. iii. 6.
+Rom. iv. 3. Gal. iii. 6.
 
 Footnote 148:
 
-  Psalm cvi. 31.
+Psalm cvi. 31.
 
 Footnote 149:
 
-  Deut. xxvii. 26.
+Deut. xxvii. 26.
 
 Footnote 150:
 
-  Job iv. 18; xv. 15; xxv. 5.
+Job iv. 18; xv. 15; xxv. 5.
 
 Footnote 151:
 
-  Rom. iv. 7, 8. Psalm xxxii. 1, 2.
+Rom. iv. 7, 8. Psalm xxxii. 1, 2.
 
 Footnote 152:
 
-  Psalm cxii. 1.
+Psalm cxii. 1.
 
 Footnote 153:
 
-  Prov. xiv. 21.
+Prov. xiv. 21.
 
 Footnote 154:
 
-  Psalm i. 1.
+Psalm i. 1.
 
 Footnote 155:
 
-  James i. 12.
+James i. 12.
 
 Footnote 156:
 
-  Psalm cvi. 3.
+Psalm cvi. 3.
 
 Footnote 157:
 
-  Psalm cxix. 1.
+Psalm cxix. 1.
 
 Footnote 158:
 
-  Matt. v. 3, 5, 7.
+Matt. v. 3, 5, 7.
 
 Footnote 159:
 
-  James ii. 21, 24.
+James ii. 21, 24.
 
 Footnote 160:
 
-  James ii. 14.
+James ii. 14.
 
 Footnote 161:
 
-  James ii. 21-23. Gen. xv. 6.
+James ii. 21-23. Gen. xv. 6.
 
 Footnote 162:
 
-  Rom. ii. 13.
+Rom. ii. 13.
 
 Footnote 163:
 
-  Psalm vii. 8.
+Psalm vii. 8.
 
 Footnote 164:
 
-  Psalm xvii. 1, 3.
+Psalm xvii. 1, 3.
 
 Footnote 165:
 
-  Psalm xviii. 21, 23, 24.
+Psalm xviii. 21, 23, 24.
 
 Footnote 166:
 
-  Psalm xxvi. 1, 4, 9-11.
+Psalm xxvi. 1, 4, 9-11.
 
 Footnote 167:
 
-  1 Sam. xxvi. 23.
+1 Sam. xxvi. 23.
 
 Footnote 168:
 
-  2 Cor. i. 12.
+2 Cor. i. 12.
 
 Footnote 169:
 
-  1 Cor. iv. 4.
+1 Cor. iv. 4.
 
 Footnote 170:
 
-  Psalm cxxx. 3.
+Psalm cxxx. 3.
 
 Footnote 171:
 
-  Psalm cxliii. 2.
+Psalm cxliii. 2.
 
 Footnote 172:
 
-  Psalm lxiii. 3.
+Psalm lxiii. 3.
 
 Footnote 173:
 
-  Prov. xx. 7.
+Prov. xx. 7.
 
 Footnote 174:
 
-  Prov. xii. 28.
+Prov. xii. 28.
 
 Footnote 175:
 
-  Ez. xxxiii. 14, 15.
+Ez. xxxiii. 14, 15.
 
 Footnote 176:
 
-  1 Thess. iii. 13, et alibi.
+1 Thess. iii. 13, et alibi.
 
 
-
-
-                             CHAPTER XVIII.
-JUSTIFICATION BY WORKS NOT TO BE INFERRED FROM THE PROMISE OF A REWARD.
+## Chapter XVIII. Justification by Works Not to be Inferred from the Promise of a Reward
 
 
 Let us now proceed to those passages which affirm that “God will render
@@ -33917,201 +33597,198 @@ whose wrath he has incurred by a multitude of sins.
 
 Footnote 177:
 
-  Rom. ii. 6. Matt. xvi. 27.
+Rom. ii. 6. Matt. xvi. 27.
 
 Footnote 178:
 
-  2 Cor. v. 10.
+2 Cor. v. 10.
 
 Footnote 179:
 
-  Rom. ii. 9, 10.
+Rom. ii. 9, 10.
 
 Footnote 180:
 
-  John v. 29.
+John v. 29.
 
 Footnote 181:
 
-  Matt. xxv. 34-36.
+Matt. xxv. 34-36.
 
 Footnote 182:
 
-  Prov. xii. 14.
+Prov. xii. 14.
 
 Footnote 183:
 
-  Prov. xiii. 13.
+Prov. xiii. 13.
 
 Footnote 184:
 
-  Matt. v. 12. Luke vi. 23.
+Matt. v. 12. Luke vi. 23.
 
 Footnote 185:
 
-  1 Cor. iii. 8.
+1 Cor. iii. 8.
 
 Footnote 186:
 
-  Rom. viii. 30.
+Rom. viii. 30.
 
 Footnote 187:
 
-  Phil. ii. 12.
+Phil. ii. 12.
 
 Footnote 188:
 
-  John vi. 27.
+John vi. 27.
 
 Footnote 189:
 
-  Phil. i. 6.
+Phil. i. 6.
 
 Footnote 190:
 
-  Gal. iv. 30.
+Gal. iv. 30.
 
 Footnote 191:
 
-  Matt. xxv. 34.
+Matt. xxv. 34.
 
 Footnote 192:
 
-  Col. iii. 24.
+Col. iii. 24.
 
 Footnote 193:
 
-  Gen. xii. 2, 3; xiii. 16; xv. 5.
+Gen. xii. 2, 3; xiii. 16; xv. 5.
 
 Footnote 194:
 
-  Gen. xxii. 16-18.
+Gen. xxii. 16-18.
 
 Footnote 195:
 
-  Col. i. 4, 5.
+Col. i. 4, 5.
 
 Footnote 196:
 
-  1 Peter i. 5.
+1 Peter i. 5.
 
 Footnote 197:
 
-  Matt. xx. 1, &c.
+Matt. xx. 1, &c.
 
 Footnote 198:
 
-  Mark x. 30.
+Mark x. 30.
 
 Footnote 199:
 
-  Matt. xxv. 34.
+Matt. xxv. 34.
 
 Footnote 200:
 
-  Rom. viii. 23.
+Rom. viii. 23.
 
 Footnote 201:
 
-  1 Peter i. 9.
+1 Peter i. 9.
 
 Footnote 202:
 
-  1 Cor. xv. 19.
+1 Cor. xv. 19.
 
 Footnote 203:
 
-  2 Tim. iv. 8.
+2 Tim. iv. 8.
 
 Footnote 204:
 
-  Heb. x. 38.
+Heb. x. 38.
 
 Footnote 205:
 
-  Luke xvi. 9.
+Luke xvi. 9.
 
 Footnote 206:
 
-  1 Tim. vi. 17-19.
+1 Tim. vi. 17-19.
 
 Footnote 207:
 
-  Matt. vi. 21.
+Matt. vi. 21.
 
 Footnote 208:
 
-  Matt. xxv. 40.
+Matt. xxv. 40.
 
 Footnote 209:
 
-  Prov. xix. 17.
+Prov. xix. 17.
 
 Footnote 210:
 
-  2 Cor. ix. 6.
+2 Cor. ix. 6.
 
 Footnote 211:
 
-  2 Thess. i. 5-7.
+2 Thess. i. 5-7.
 
 Footnote 212:
 
-  Heb. vi. 10.
+Heb. vi. 10.
 
 Footnote 213:
 
-  Rom. viii. 29.
+Rom. viii. 29.
 
 Footnote 214:
 
-  Luke xxiv. 26.
+Luke xxiv. 26.
 
 Footnote 215:
 
-  Acts xiv. 22.
+Acts xiv. 22.
 
 Footnote 216:
 
-  Gal. vi. 17.
+Gal. vi. 17.
 
 Footnote 217:
 
-  2 Cor. iv. 10.
+2 Cor. iv. 10.
 
 Footnote 218:
 
-  Phil. iii. 10, 11.
+Phil. iii. 10, 11.
 
 Footnote 219:
 
-  1 Cor. xiii. 2, 13.
+1 Cor. xiii. 2, 13.
 
 Footnote 220:
 
-  Col. iii. 14.
+Col. iii. 14.
 
 Footnote 221:
 
-  Matt. xix. 17.
+Matt. xix. 17.
 
 Footnote 222:
 
-  Matt. xi. 28, 29.
+Matt. xi. 28, 29.
 
 Footnote 223:
 
-  John vi. 29.
+John vi. 29.
 
 Footnote 224:
 
-  James ii. 10, 11.
+James ii. 10, 11.
 
 
-
-
-                              CHAPTER XIX.
-                         ON CHRISTIAN LIBERTY.
+## Chapter XIX. On Christian Liberty
 
 
 We have now to treat of Christian liberty, an explanation of which ought
@@ -34684,158 +34361,154 @@ conscience free.
 
 Footnote 225:
 
-  Ephes. i. 4. 1 Thess. iv. 3, 7.
+Ephes. i. 4. 1 Thess. iv. 3, 7.
 
 Footnote 226:
 
-  Gal. iii. 13.
+Gal. iii. 13.
 
 Footnote 227:
 
-  Gal. v. 1-4.
+Gal. v. 1-4.
 
 Footnote 228:
 
-  Deut. vi. 5.
+Deut. vi. 5.
 
 Footnote 229:
 
-  Mal. iii. 17.
+Mal. iii. 17.
 
 Footnote 230:
 
-  Heb. xi. 2.
+Heb. xi. 2.
 
 Footnote 231:
 
-  Rom. vi. 14.
+Rom. vi. 14.
 
 Footnote 232:
 
-  Rom. vi. 12, 13.
+Rom. vi. 12, 13.
 
 Footnote 233:
 
-  Rom. xiv. 14.
+Rom. xiv. 14.
 
 Footnote 234:
 
-  Rom. xiv. 22, 23.
+Rom. xiv. 22, 23.
 
 Footnote 235:
 
-  1 Tim. iv. 5.
+1 Tim. iv. 5.
 
 Footnote 236:
 
-  Titus i. 15.
+Titus i. 15.
 
 Footnote 237:
 
-  Luke vi. 24, 25. Amos vi. 1, &c. Isaiah v. 8, &c.
+Luke vi. 24, 25. Amos vi. 1, &c. Isaiah v. 8, &c.
 
 Footnote 238:
 
-  Phil. iv. 11, 12.
+Phil. iv. 11, 12.
 
 Footnote 239:
 
-  Rom. xiv. 1, 13.
+Rom. xiv. 1, 13.
 
 Footnote 240:
 
-  Rom. xv. 1, 2.
+Rom. xv. 1, 2.
 
 Footnote 241:
 
-  1 Cor. viii. 9.
+1 Cor. viii. 9.
 
 Footnote 242:
 
-  1 Cor x. 25, 29, 32.
+1 Cor x. 25, 29, 32.
 
 Footnote 243:
 
-  Gal. v. 13.
+Gal. v. 13.
 
 Footnote 244:
 
-  Matt. xv. 14.
+Matt. xv. 14.
 
 Footnote 245:
 
-  Acts xvi. 3.
+Acts xvi. 3.
 
 Footnote 246:
 
-  Gal. ii. 3.
+Gal. ii. 3.
 
 Footnote 247:
 
-  1 Cor. ix. 19, 20, 22.
+1 Cor. ix. 19, 20, 22.
 
 Footnote 248:
 
-  Gal. ii. 3-5.
+Gal. ii. 3-5.
 
 Footnote 249:
 
-  1 Cor. x. 23, 24.
+1 Cor. x. 23, 24.
 
 Footnote 250:
 
-  1 Cor. iii. 2.
+1 Cor. iii. 2.
 
 Footnote 251:
 
-  1 Peter i. 18, 19.
+1 Peter i. 18, 19.
 
 Footnote 252:
 
-  Gal. v. 1, 4.
+Gal. v. 1, 4.
 
 Footnote 253:
 
-  1 Cor. vii. 23.
+1 Cor. vii. 23.
 
 Footnote 254:
 
-  Rom. xiii. 1, 5.
+Rom. xiii. 1, 5.
 
 Footnote 255:
 
-  Rom. ii. 15.
+Rom. ii. 15.
 
 Footnote 256:
 
-  1 Peter iii. 21.
+1 Peter iii. 21.
 
 Footnote 257:
 
-  Heb. x. 2.
+Heb. x. 2.
 
 Footnote 258:
 
-  1 Tim. i. 5.
+1 Tim. i. 5.
 
 Footnote 259:
 
-  1 Tim. i. 19.
+1 Tim. i. 19.
 
 Footnote 260:
 
-  Acts xxiv. 16.
+Acts xxiv. 16.
 
 Footnote 261:
 
-  1 Cor. x. 28, 29.
+1 Cor. x. 28, 29.
 
 
-
-
-                              CHAPTER XX.
-ON PRAYER, THE PRINCIPAL EXERCISE OF FAITH, AND THE MEDIUM OF OUR DAILY
-                     RECEPTION OF DIVINE BLESSINGS.
+## Chapter XX. On Prayer, the Principal Exercise of Faith, and the Medium of Our Daily Reception of Divine Blessings (§§ I–XIV)
 
 
 From the subjects already discussed, we clearly perceive how utterly
@@ -35570,6 +35243,7 @@ promises, yet they are not impudently elated with careless security, but
 ascend upwards by the steps of the promises, yet in such a manner, that
 they still continue to be suppliant and self-abased.
 
+## Chapter XX. On Prayer, the Principal Exercise of Faith, and the Medium of Our Daily Reception of Divine Blessings (§§ XV–XXVIII)
 XV. Here several questions are started. The Scripture relates that the
 Lord has complied with some prayers, which nevertheless did not arise
 from a calm or well-regulated heart. Jotham, for a just cause indeed,
@@ -36326,6 +36000,7 @@ circumstances and affairs, may direct their prayers to God, expecting
 all from him, and ascribing to him the praise of all, since he affords
 us perpetual matter of prayer and praise.
 
+## Chapter XX. On Prayer, the Principal Exercise of Faith, and the Medium of Our Daily Reception of Divine Blessings (§§ XXIX–XLIV)
 XXIX. But this diligence in prayer, although it chiefly respects the
 particular and private devotions of each individual, has,
 notwithstanding, some reference also to the public prayers of the
@@ -37055,6 +36730,7 @@ most of all appears to be obtained by our own skill and industry, and to
 be procured by our own hands; since it is solely the effect of his
 blessing, that our labours are attended with success.
 
+## Chapter XX. On Prayer, the Principal Exercise of Faith, and the Medium of Our Daily Reception of Divine Blessings (§§ XLV–LII)
 XLV. It follows—FORGIVE US OUR DEBTS; in which petition, and the next,
 Christ has comprised whatever relates to the heavenly life; as in these
 two parts consists the spiritual covenant which God has made for the
@@ -37403,722 +37079,718 @@ perseverance in prayer, we pray to no purpose.
 
 Footnote 262:
 
-  Rom. x. 13, 14, 17.
+Rom. x. 13, 14, 17.
 
 Footnote 263:
 
-  Rom. viii. 15, 26.
+Rom. viii. 15, 26.
 
 Footnote 264:
 
-  1 Kings xviii. 42, &c.
+1 Kings xviii. 42, &c.
 
 Footnote 265:
 
-  Psalm cxlv. 18.
+Psalm cxlv. 18.
 
 Footnote 266:
 
-  Psalm xxxiv. 15.
+Psalm xxxiv. 15.
 
 Footnote 267:
 
-  Psalm xxv. 1.
+Psalm xxv. 1.
 
 Footnote 268:
 
-  Psalm lxii. 8.
+Psalm lxii. 8.
 
 Footnote 269:
 
-  Psalm cxlv. 19.
+Psalm cxlv. 19.
 
 Footnote 270:
 
-  1 John v. 14.
+1 John v. 14.
 
 Footnote 271:
 
-  Rom. viii. 26.
+Rom. viii. 26.
 
 Footnote 272:
 
-  Jude 20. 1 Cor. xiv. 15.
+Jude 20. 1 Cor. xiv. 15.
 
 Footnote 273:
 
-  James v. 13.
+James v. 13.
 
 Footnote 274:
 
-  Psalm xxxii. 6.
+Psalm xxxii. 6.
 
 Footnote 275:
 
-  Ephes. vi. 18.
+Ephes. vi. 18.
 
 Footnote 276:
 
-  Isaiah i. 15.
+Isaiah i. 15.
 
 Footnote 277:
 
-  Jer. xi. 7, 8, 11.
+Jer. xi. 7, 8, 11.
 
 Footnote 278:
 
-  Isaiah xxix. 13.
+Isaiah xxix. 13.
 
 Footnote 279:
 
-  James iv. 3.
+James iv. 3.
 
 Footnote 280:
 
-  1 John iii. 22.
+1 John iii. 22.
 
 Footnote 281:
 
-  Dan. ix. 18, 19.
+Dan. ix. 18, 19.
 
 Footnote 282:
 
-  Dan. ix. 20.
+Dan. ix. 20.
 
 Footnote 283:
 
-  Psalm cxliii. 2.
+Psalm cxliii. 2.
 
 Footnote 284:
 
-  Isaiah lxiv. 5-9.
+Isaiah lxiv. 5-9.
 
 Footnote 285:
 
-  Jer. xiv. 7.
+Jer. xiv. 7.
 
 Footnote 286:
 
-  Baruch ii. 18.
+Baruch ii. 18.
 
 Footnote 287:
 
-  Psalm xxv. 7, 18.
+Psalm xxv. 7, 18.
 
 Footnote 288:
 
-  Psalm li. 5.
+Psalm li. 5.
 
 Footnote 289:
 
-  Matt. ix. 2.
+Matt. ix. 2.
 
 Footnote 290:
 
-  1 John i. 9.
+1 John i. 9.
 
 Footnote 291:
 
-  Psalm lxxxvi. 2.
+Psalm lxxxvi. 2.
 
 Footnote 292:
 
-  2 Kings xx. 3.
+2 Kings xx. 3.
 
 Footnote 293:
 
-  Psalm xxxiv. 15.
+Psalm xxxiv. 15.
 
 Footnote 294:
 
-  1 John iii. 22.
+1 John iii. 22.
 
 Footnote 295:
 
-  John ix. 31.
+John ix. 31.
 
 Footnote 296:
 
-  Psalm v. 7.
+Psalm v. 7.
 
 Footnote 297:
 
-  Mark xi. 24.
+Mark xi. 24.
 
 Footnote 298:
 
-  Matt. xxi. 22.
+Matt. xxi. 22.
 
 Footnote 299:
 
-  James i. 5, 6.
+James i. 5, 6.
 
 Footnote 300:
 
-  James v. 15.
+James v. 15.
 
 Footnote 301:
 
-  Rom. x. 14, 17.
+Rom. x. 14, 17.
 
 Footnote 302:
 
-  Heb. iv. 16.
+Heb. iv. 16.
 
 Footnote 303:
 
-  Ephes. iii. 12.
+Ephes. iii. 12.
 
 Footnote 304:
 
-  Psalm xxxiii. 22.
+Psalm xxxiii. 22.
 
 Footnote 305:
 
-  Psalm lvi. 9.
+Psalm lvi. 9.
 
 Footnote 306:
 
-  Psalm v. 3.
+Psalm v. 3.
 
 Footnote 307:
 
-  Ephes. vi. 16, 18.
+Ephes. vi. 16, 18.
 
 Footnote 308:
 
-  Psalm xli. 4.
+Psalm xli. 4.
 
 Footnote 309:
 
-  Psalm l. 15.
+Psalm l. 15.
 
 Footnote 310:
 
-  Matt. vii. 7.
+Matt. vii. 7.
 
 Footnote 311:
 
-  Zech. xiii. 9.
+Zech. xiii. 9.
 
 Footnote 312:
 
-  Psalm lxv. 2.
+Psalm lxv. 2.
 
 Footnote 313:
 
-  Psalm l. 15.
+Psalm l. 15.
 
 Footnote 314:
 
-  2 Sam. vii. 27.
+2 Sam. vii. 27.
 
 Footnote 315:
 
-  Psalm cxlv. 19.
+Psalm cxlv. 19.
 
 Footnote 316:
 
-  Prov. xviii. 10.
+Prov. xviii. 10.
 
 Footnote 317:
 
-  Joel ii. 32.
+Joel ii. 32.
 
 Footnote 318:
 
-  Isaiah lxv. 24.
+Isaiah lxv. 24.
 
 Footnote 319:
 
-  Psalm xci. 15.
+Psalm xci. 15.
 
 Footnote 320:
 
-  Psalm cxlv. 18.
+Psalm cxlv. 18.
 
 Footnote 321:
 
-  2 Sam. vii. 27, 28.
+2 Sam. vii. 27, 28.
 
 Footnote 322:
 
-  Psalm cxix. 76.
+Psalm cxix. 76.
 
 Footnote 323:
 
-  Gen. xxxii. 10, &c.
+Gen. xxxii. 10, &c.
 
 Footnote 324:
 
-  Jer. xlii. 9. Dan. ix. 18.
+Jer. xlii. 9. Dan. ix. 18.
 
 Footnote 325:
 
-  Jer. xlii. 2.
+Jer. xlii. 2.
 
 Footnote 326:
 
-  2 Kings xix. 4.
+2 Kings xix. 4.
 
 Footnote 327:
 
-  Psalm cxli. 2.
+Psalm cxli. 2.
 
 Footnote 328:
 
-  Judges ix. 20.
+Judges ix. 20.
 
 Footnote 329:
 
-  Judges xvi. 28.
+Judges xvi. 28.
 
 Footnote 330:
 
-  Psalm cvii.
+Psalm cvii.
 
 Footnote 331:
 
-  Psalm cvi. 39.
+Psalm cvi. 39.
 
 Footnote 332:
 
-  Matt. v. 45.
+Matt. v. 45.
 
 Footnote 333:
 
-  Gen. xviii. 23. 1 Sam. xv. 11.
+Gen. xviii. 23. 1 Sam. xv. 11.
 
 Footnote 334:
 
-  Jer. xxxii. 16, &c.
+Jer. xxxii. 16, &c.
 
 Footnote 335:
 
-  Psalm vii. 6.
+Psalm vii. 6.
 
 Footnote 336:
 
-  Psalm xxxix. 13.
+Psalm xxxix. 13.
 
 Footnote 337:
 
-  Psalm li. 17.
+Psalm li. 17.
 
 Footnote 338:
 
-  Psalm lxxx. 4.
+Psalm lxxx. 4.
 
 Footnote 339:
 
-  Lam. iii. 8.
+Lam. iii. 8.
 
 Footnote 340:
 
-  1 Tim. ii. 5. 1 John ii. 1.
+1 Tim. ii. 5. 1 John ii. 1.
 
 Footnote 341:
 
-  Heb. iv. 16.
+Heb. iv. 16.
 
 Footnote 342:
 
-  John xvi. 24, 26; xiv. 13.
+John xvi. 24, 26; xiv. 13.
 
 Footnote 343:
 
-  2 Cor. i. 20.
+2 Cor. i. 20.
 
 Footnote 344:
 
-  Exod. xxviii.
+Exod. xxviii.
 
 Footnote 345:
 
-  Psalm xx. 3.
+Psalm xx. 3.
 
 Footnote 346:
 
-  John xvi. 24.
+John xvi. 24.
 
 Footnote 347:
 
-  Heb. x. 20.
+Heb. x. 20.
 
 Footnote 348:
 
-  Ephes. vi. 18, 19. 1 Tim. ii. 1.
+Ephes. vi. 18, 19. 1 Tim. ii. 1.
 
 Footnote 349:
 
-  1 John ii. 1.
+1 John ii. 1.
 
 Footnote 350:
 
-  Rom. viii. 34.
+Rom. viii. 34.
 
 Footnote 351:
 
-  1 Tim. ii. 5.
+1 Tim. ii. 5.
 
 Footnote 352:
 
-  Jer. ii. 28; xi. 13.
+Jer. ii. 28; xi. 13.
 
 Footnote 353:
 
-  Heb. i. 14. Psalm xci. 11; xxxiv. 7.
+Heb. i. 14. Psalm xci. 11; xxxiv. 7.
 
 Footnote 354:
 
-  Ephes. iii. 10.
+Ephes. iii. 10.
 
 Footnote 355:
 
-  Jer. xv. 1.
+Jer. xv. 1.
 
 Footnote 356:
 
-  Ezek. xiv. 14.
+Ezek. xiv. 14.
 
 Footnote 357:
 
-  Acts xiii. 36.
+Acts xiii. 36.
 
 Footnote 358:
 
-  Eccles. ix. 5, 6.
+Eccles. ix. 5, 6.
 
 Footnote 359:
 
-  Gen. xlviii. 16.
+Gen. xlviii. 16.
 
 Footnote 360:
 
-  Isaiah lxiii. 16.
+Isaiah lxiii. 16.
 
 Footnote 361:
 
-  Psalm xxii. 5.
+Psalm xxii. 5.
 
 Footnote 362:
 
-  James v. 17, 18.
+James v. 17, 18.
 
 Footnote 363:
 
-  Psalm cxlii. 7.
+Psalm cxlii. 7.
 
 Footnote 364:
 
-  Psalm xxxiv. 5, 6.
+Psalm xxxiv. 5, 6.
 
 Footnote 365:
 
-  Psalm xxxii. 6.
+Psalm xxxii. 6.
 
 Footnote 366:
 
-  Gen. xxxii. 10.
+Gen. xxxii. 10.
 
 Footnote 367:
 
-  Psalm xxxi. 5.
+Psalm xxxi. 5.
 
 Footnote 368:
 
-  Psalm xliv. 20, 21.
+Psalm xliv. 20, 21.
 
 Footnote 369:
 
-  James v. 16.
+James v. 16.
 
 Footnote 370:
 
-  Psalm l. 15.
+Psalm l. 15.
 
 Footnote 371:
 
-  1 Tim. iv. 5.
+1 Tim. iv. 5.
 
 Footnote 372:
 
-  Psalm xl. 3.
+Psalm xl. 3.
 
 Footnote 373:
 
-  Isaiah xlii. 10.
+Isaiah xlii. 10.
 
 Footnote 374:
 
-  Psalm li. 15.
+Psalm li. 15.
 
 Footnote 375:
 
-  Isaiah xxxviii. 20. Jonah ii. 9.
+Isaiah xxxviii. 20. Jonah ii. 9.
 
 Footnote 376:
 
-  Psalm cxvi. 12, 13.
+Psalm cxvi. 12, 13.
 
 Footnote 377:
 
-  Psalm cvi. 47.
+Psalm cvi. 47.
 
 Footnote 378:
 
-  Psalm cii. 17, &c.
+Psalm cii. 17, &c.
 
 Footnote 379:
 
-  Hosea xiv. 2.
+Hosea xiv. 2.
 
 Footnote 380:
 
-  Psalm cxvi. 1.
+Psalm cxvi. 1.
 
 Footnote 381:
 
-  Psalm xviii. 1.
+Psalm xviii. 1.
 
 Footnote 382:
 
-  Phil. iv. 6.
+Phil. iv. 6.
 
 Footnote 383:
 
-  Heb. xiii. 15.
+Heb. xiii. 15.
 
 Footnote 384:
 
-  1 Thess. v. 17, 18.
+1 Thess. v. 17, 18.
 
 Footnote 385:
 
-  1 Cor. xiv. 40.
+1 Cor. xiv. 40.
 
 Footnote 386:
 
-  Matt. vi. 7.
+Matt. vi. 7.
 
 Footnote 387:
 
-  Luke xviii. 11.
+Luke xviii. 11.
 
 Footnote 388:
 
-  Matt. vi. 6.
+Matt. vi. 6.
 
 Footnote 389:
 
-  1 Tim. ii. 8.
+1 Tim. ii. 8.
 
 Footnote 390:
 
-  Isaiah lvi. 7.
+Isaiah lvi. 7.
 
 Footnote 391:
 
-  Psalm lxv. 1.
+Psalm lxv. 1.
 
 Footnote 392:
 
-  Matt. xviii. 20.
+Matt. xviii. 20.
 
 Footnote 393:
 
-  John iv. 23.
+John iv. 23.
 
 Footnote 394:
 
-  Isaiah lxvi. 1. Acts vii. 48.
+Isaiah lxvi. 1. Acts vii. 48.
 
 Footnote 395:
 
-  Isaiah xxix. 13, 14. Matt. xv. 8, 9.
+Isaiah xxix. 13, 14. Matt. xv. 8, 9.
 
 Footnote 396:
 
-  1 Cor. xiv. 15.
+1 Cor. xiv. 15.
 
 Footnote 397:
 
-  Col. iii. 16.
+Col. iii. 16.
 
 Footnote 398:
 
-  1 Cor. xiv. 16, 17.
+1 Cor. xiv. 16, 17.
 
 Footnote 399:
 
-  1 Cor. xiv. 15.
+1 Cor. xiv. 15.
 
 Footnote 400:
 
-  1 Sam. i. 13.
+1 Sam. i. 13.
 
 Footnote 401:
 
-  Matt. vi. 9. Luke xi. 2.
+Matt. vi. 9. Luke xi. 2.
 
 Footnote 402:
 
-  Rom. viii. 26, 27.
+Rom. viii. 26, 27.
 
 Footnote 403:
 
-  Exod. xxxii. 32. Rom. ix. 3.
+Exod. xxxii. 32. Rom. ix. 3.
 
 Footnote 404:
 
-  John i. 12, 14.
+John i. 12, 14.
 
 Footnote 405:
 
-  1 John iii. 1. Psalm xxvii. 10. Isaiah lxiii. 16.
+1 John iii. 1. Psalm xxvii. 10. Isaiah lxiii. 16.
 
 Footnote 406:
 
-  2 Tim. ii. 13.
+2 Tim. ii. 13.
 
 Footnote 407:
 
-  Matt. vii. 11.
+Matt. vii. 11.
 
 Footnote 408:
 
-  Isaiah xlix. 15.
+Isaiah xlix. 15.
 
 Footnote 409:
 
-  2 Cor. i. 3.
+2 Cor. i. 3.
 
 Footnote 410:
 
-  Luke xv. 11, &c.
+Luke xv. 11, &c.
 
 Footnote 411:
 
-  Gal. iv. 6.
+Gal. iv. 6.
 
 Footnote 412:
 
-  Matt. xxiii. 9.
+Matt. xxiii. 9.
 
 Footnote 413:
 
-  Ephes. i. 23.
+Ephes. i. 23.
 
 Footnote 414:
 
-  Gal. vi. 10.
+Gal. vi. 10.
 
 Footnote 415:
 
-  1 Tim. ii. 8.
+1 Tim. ii. 8.
 
 Footnote 416:
 
-  1 Kings viii. 27.
+1 Kings viii. 27.
 
 Footnote 417:
 
-  Isaiah lxvi. 1. Acts vii. 49; xvii. 24.
+Isaiah lxvi. 1. Acts vii. 49; xvii. 24.
 
 Footnote 418:
 
-  Heb. xi. 6.
+Heb. xi. 6.
 
 Footnote 419:
 
-  Phil. iv. 5, 6.
+Phil. iv. 5, 6.
 
 Footnote 420:
 
-  Psalm xxxiv. 15; xxxiii. 18.
+Psalm xxxiv. 15; xxxiii. 18.
 
 Footnote 421:
 
-  Psalm xlviii. 10.
+Psalm xlviii. 10.
 
 Footnote 422:
 
-  1 Cor. xv. 28.
+1 Cor. xv. 28.
 
 Footnote 423:
 
-  2 Thess. ii. 8.
+2 Thess. ii. 8.
 
 Footnote 424:
 
-  Psalm ciii. 20.
+Psalm ciii. 20.
 
 Footnote 425:
 
-  1 Cor. x. 31.
+1 Cor. x. 31.
 
 Footnote 426:
 
-  1 Tim. iv. 8.
+1 Tim. iv. 8.
 
 Footnote 427:
 
-  Lev. xxvi. 20.
+Lev. xxvi. 20.
 
 Footnote 428:
 
-  Deut. viii. 3. Matt. iv. 4.
+Deut. viii. 3. Matt. iv. 4.
 
 Footnote 429:
 
-  Lev. xxvi. 26.
+Lev. xxvi. 26.
 
 Footnote 430:
 
-  Jer. xxxi. 33, 34; xxxiii. 8.
+Jer. xxxi. 33, 34; xxxiii. 8.
 
 Footnote 431:
 
-  1 John i. 10.
+1 John i. 10.
 
 Footnote 432:
 
-  1 Cor. x. 13.
+1 Cor. x. 13.
 
 Footnote 433:
 
-  Psalm lx. 12.
+Psalm lx. 12.
 
 Footnote 434:
 
-  James i. 13, 14.
+James i. 13, 14.
 
 Footnote 435:
 
-  Matt. xvii. 5.
+Matt. xvii. 5.
 
 Footnote 436:
 
-  Isaiah xi. 2.
+Isaiah xi. 2.
 
 Footnote 437:
 
-  Num. xi. 18, 33.
+Num. xi. 18, 33.
 
 Footnote 438:
 
-  1 John v. 15.
+1 John v. 15.
 
 Footnote 439:
 
-  1 Sam. ii. 6.
+1 Sam. ii. 6.
 
 
-
-
-                              CHAPTER XXI.
- ETERNAL ELECTION, OR GOD’S PREDESTINATION OF SOME TO SALVATION, AND OF
-                         OTHERS TO DESTRUCTION.
+## Chapter XXI. Eternal Election, or God’s Predestination of Some to Salvation, and of Others to Destruction
 
 
 The covenant of life not being equally preached to all, and among those
@@ -38513,101 +38185,98 @@ impiety speciously pleads in order to stigmatize the Divine justice.
 
 Footnote 440:
 
-  Rom. xi. 5, 6.
+Rom. xi. 5, 6.
 
 Footnote 441:
 
-  Prov. xxv. 27.
+Prov. xxv. 27.
 
 Footnote 442:
 
-  Prov. xxv. 2.
+Prov. xxv. 2.
 
 Footnote 443:
 
-  Deut. xxix. 29.
+Deut. xxix. 29.
 
 Footnote 444:
 
-  Deut. xxxii. 8, 9.
+Deut. xxxii. 8, 9.
 
 Footnote 445:
 
-  Deut. iv. 37.
+Deut. iv. 37.
 
 Footnote 446:
 
-  Deut. vii. 7, 8.
+Deut. vii. 7, 8.
 
 Footnote 447:
 
-  Deut. x. 14, 15.
+Deut. x. 14, 15.
 
 Footnote 448:
 
-  Deut. xxiii.
+Deut. xxiii.
 
 Footnote 449:
 
-  Psalm xlvii. 4.
+Psalm xlvii. 4.
 
 Footnote 450:
 
-  Deut. ix. 6, 7.
+Deut. ix. 6, 7.
 
 Footnote 451:
 
-  Psalm c. 3.
+Psalm c. 3.
 
 Footnote 452:
 
-  Psalm cv. 6, 8.
+Psalm cv. 6, 8.
 
 Footnote 453:
 
-  Psalm xliv. 3.
+Psalm xliv. 3.
 
 Footnote 454:
 
-  Psalm xxxiii. 12.
+Psalm xxxiii. 12.
 
 Footnote 455:
 
-  1 Sam. xii. 22.
+1 Sam. xii. 22.
 
 Footnote 456:
 
-  Psalm lxv. 4.
+Psalm lxv. 4.
 
 Footnote 457:
 
-  Isaiah xiv. 1.
+Isaiah xiv. 1.
 
 Footnote 458:
 
-  Isaiah xli. 9.
+Isaiah xli. 9.
 
 Footnote 459:
 
-  Zech. ii. 12.
+Zech. ii. 12.
 
 Footnote 460:
 
-  Psalm lxxviii. 67, 68.
+Psalm lxxviii. 67, 68.
 
 Footnote 461:
 
-  Psalm cxlvii. 20.
+Psalm cxlvii. 20.
 
 Footnote 462:
 
-  Mal. i. 2, 3.
+Mal. i. 2, 3.
 
 
-
-
-                             CHAPTER XXII.
-       TESTIMONIES OF SCRIPTURE IN CONFIRMATION OF THIS DOCTRINE.
+## Chapter XXII. Testimonies of Scripture in Confirmation of This Doctrine
 
 
 All the positions we have advanced are controverted by many, especially
@@ -39138,158 +38807,154 @@ men are taught by this declaration to seek no cause beside his will.
 
 Footnote 463:
 
-  Ephes. i. 4.
+Ephes. i. 4.
 
 Footnote 464:
 
-  Col. i. 12.
+Col. i. 12.
 
 Footnote 465:
 
-  Ephes. i. 4, 5.
+Ephes. i. 4, 5.
 
 Footnote 466:
 
-  2 Tim. i. 9.
+2 Tim. i. 9.
 
 Footnote 467:
 
-  Ephes. i. 9.
+Ephes. i. 9.
 
 Footnote 468:
 
-  John xv. 16.
+John xv. 16.
 
 Footnote 469:
 
-  Rom. xi. 35.
+Rom. xi. 35.
 
 Footnote 470:
 
-  Rom. ix. 6.
+Rom. ix. 6.
 
 Footnote 471:
 
-  Rom. ix. 11-13.
+Rom. ix. 11-13.
 
 Footnote 472:
 
-  Rom. ix. 15.
+Rom. ix. 15.
 
 Footnote 473:
 
-  Rom. xi. 2.
+Rom. xi. 2.
 
 Footnote 474:
 
-  Acts ii. 23.
+Acts ii. 23.
 
 Footnote 475:
 
-  1 Pet. i. 2.
+1 Pet. i. 2.
 
 Footnote 476:
 
-  Rom. xi. 2.
+Rom. xi. 2.
 
 Footnote 477:
 
-  2 Tim. ii. 19.
+2 Tim. ii. 19.
 
 Footnote 478:
 
-  John vi. 37, 39.
+John vi. 37, 39.
 
 Footnote 479:
 
-  John vi. 44, 45.
+John vi. 44, 45.
 
 Footnote 480:
 
-  John xvii. 9.
+John xvii. 9.
 
 Footnote 481:
 
-  John xiii. 18.
+John xiii. 18.
 
 Footnote 482:
 
-  John xv. 19.
+John xv. 19.
 
 Footnote 483:
 
-  John xv. 16.
+John xv. 16.
 
 Footnote 484:
 
-  Exod. xxxiii. 19.
+Exod. xxxiii. 19.
 
 Footnote 485:
 
-  Amos iv. 7; viii. 11.
+Amos iv. 7; viii. 11.
 
 Footnote 486:
 
-  Acts xvi. 6-10.
+Acts xvi. 6-10.
 
 Footnote 487:
 
-  Isaiah viii. 16, &c.
+Isaiah viii. 16, &c.
 
 Footnote 488:
 
-  Isaiah liii. 1.
+Isaiah liii. 1.
 
 Footnote 489:
 
-  John i. 12.
+John i. 12.
 
 Footnote 490:
 
-  John i. 13.
+John i. 13.
 
 Footnote 491:
 
-  Titus i. 1.
+Titus i. 1.
 
 Footnote 492:
 
-  John vi. 46.
+John vi. 46.
 
 Footnote 493:
 
-  John vi. 39, 40.
+John vi. 39, 40.
 
 Footnote 494:
 
-  John x. 4, 5.
+John x. 4, 5.
 
 Footnote 495:
 
-  John x. 29.
+John x. 29.
 
 Footnote 496:
 
-  John x. 26.
+John x. 26.
 
 Footnote 497:
 
-  Rom. ix. 13.
+Rom. ix. 13.
 
 Footnote 498:
 
-  Rom. ix. 11.
+Rom. ix. 11.
 
 Footnote 499:
 
-  Rom. ix. 18.
+Rom. ix. 18.
 
 
-
-
-                             CHAPTER XXIII.
-  A REFUTATION OF THE CALUMNIES GENERALLY, BUT UNJUSTLY, URGED AGAINST
-                             THIS DOCTRINE.
+## Chapter XXIII. A Refutation of the Calumnies Generally, but Unjustly, Urged Against This Doctrine
 
 
 When the human mind hears these things, its petulance breaks all
@@ -39897,94 +39562,90 @@ predestinated.”
 
 Footnote 500:
 
-  Rom. ix. 20.
+Rom. ix. 20.
 
 Footnote 501:
 
-  Matt. xv. 13.
+Matt. xv. 13.
 
 Footnote 502:
 
-  Rom. ix. 22, 23.
+Rom. ix. 22, 23.
 
 Footnote 503:
 
-  Psalm li. 4.
+Psalm li. 4.
 
 Footnote 504:
 
-  Rom. v. 20, 21.
+Rom. v. 20, 21.
 
 Footnote 505:
 
-  Prov. xxvi. 10.
+Prov. xxvi. 10.
 
 Footnote 506:
 
-  1 Tim. v. 21.
+1 Tim. v. 21.
 
 Footnote 507:
 
-  Prov. xvi. 4.
+Prov. xvi. 4.
 
 Footnote 508:
 
-  Acts x. 34. Rom. ii. 11. Gal. iii. 28.
+Acts x. 34. Rom. ii. 11. Gal. iii. 28.
 
 Footnote 509:
 
-  James ii. 5.
+James ii. 5.
 
 Footnote 510:
 
-  Col. iii. 25. Eph. vi. 9.
+Col. iii. 25. Eph. vi. 9.
 
 Footnote 511:
 
-  1 Cor. i. 26.
+1 Cor. i. 26.
 
 Footnote 512:
 
-  Gal. iii. 22. Rom. xi. 32.
+Gal. iii. 22. Rom. xi. 32.
 
 Footnote 513:
 
-  Rom. xi. 35.
+Rom. xi. 35.
 
 Footnote 514:
 
-  Ephes. i. 4.
+Ephes. i. 4.
 
 Footnote 515:
 
-  1 Thess. iv. 4, 7.
+1 Thess. iv. 4, 7.
 
 Footnote 516:
 
-  Ephes. ii. 10.
+Ephes. ii. 10.
 
 Footnote 517:
 
-  John vi. 65.
+John vi. 65.
 
 Footnote 518:
 
-  Matt. xiii. 9.
+Matt. xiii. 9.
 
 Footnote 519:
 
-  Isaiah vi. 9.
+Isaiah vi. 9.
 
 Footnote 520:
 
-  Rom. xi. 34.
+Rom. xi. 34.
 
 
-
-
-                             CHAPTER XXIV.
- ELECTION CONFIRMED BY THE DIVINE CALL. THE DESTINED DESTRUCTION OF THE
-                   REPROBATE PROCURED BY THEMSELVES.
+## Chapter XXIV. Election Confirmed by the Divine Call. The Destined Destruction of the Reprobate Procured by Themselves
 
 
 But, in order to a further elucidation of the subject, it is necessary
@@ -40817,325 +40478,322 @@ which to measure the justice of God.
 
 Footnote 521:
 
-  Rom. viii. 29, 30.
+Rom. viii. 29, 30.
 
 Footnote 522:
 
-  Rom viii. 15, 16. Ephes. i. 13, 14.
+Rom viii. 15, 16. Ephes. i. 13, 14.
 
 Footnote 523:
 
-  John vi. 46.
+John vi. 46.
 
 Footnote 524:
 
-  John xvii. 6.
+John xvii. 6.
 
 Footnote 525:
 
-  John vi. 44.
+John vi. 44.
 
 Footnote 526:
 
-  Isaiah lxv. 1.
+Isaiah lxv. 1.
 
 Footnote 527:
 
-  Joshua xxiv. 2, 3.
+Joshua xxiv. 2, 3.
 
 Footnote 528:
 
-  1 John iii. 24.
+1 John iii. 24.
 
 Footnote 529:
 
-  Acts xiii. 48.
+Acts xiii. 48.
 
 Footnote 530:
 
-  Deut. xxx. 14.
+Deut. xxx. 14.
 
 Footnote 531:
 
-  Isaiah xxv. 1.
+Isaiah xxv. 1.
 
 Footnote 532:
 
-  Matt. iii. 17.
+Matt. iii. 17.
 
 Footnote 533:
 
-  Rom. viii. 32. John iii. 15, 16.
+Rom. viii. 32. John iii. 15, 16.
 
 Footnote 534:
 
-  John v. 24.
+John v. 24.
 
 Footnote 535:
 
-  John vi. 35-58.
+John vi. 35-58.
 
 Footnote 536:
 
-  John vi. 37, 39; xvii. 6, 12.
+John vi. 37, 39; xvii. 6, 12.
 
 Footnote 537:
 
-  Rom. viii. 30.
+Rom. viii. 30.
 
 Footnote 538:
 
-  Matt. xxii. 14.
+Matt. xxii. 14.
 
 Footnote 539:
 
-  1 Cor. x. 12.
+1 Cor. x. 12.
 
 Footnote 540:
 
-  Rom. xi. 17-23.
+Rom. xi. 17-23.
 
 Footnote 541:
 
-  John vi. 37, 39.
+John vi. 37, 39.
 
 Footnote 542:
 
-  John x. 27-29.
+John x. 27-29.
 
 Footnote 543:
 
-  Matt. xv. 13.
+Matt. xv. 13.
 
 Footnote 544:
 
-  1 John ii. 19.
+1 John ii. 19.
 
 Footnote 545:
 
-  Rom. viii. 35-39.
+Rom. viii. 35-39.
 
 Footnote 546:
 
-  Phil. i. 6.
+Phil. i. 6.
 
 Footnote 547:
 
-  Psalm cxxxviii. 8.
+Psalm cxxxviii. 8.
 
 Footnote 548:
 
-  1 John ii. 19.
+1 John ii. 19.
 
 Footnote 549:
 
-  Ephes. i. 13, 14.
+Ephes. i. 13, 14.
 
 Footnote 550:
 
-  Psalm xv. 1.
+Psalm xv. 1.
 
 Footnote 551:
 
-  Psalm xxiv. 6.
+Psalm xxiv. 6.
 
 Footnote 552:
 
-  John xvii. 12.
+John xvii. 12.
 
 Footnote 553:
 
-  John vi. 70.
+John vi. 70.
 
 Footnote 554:
 
-  John xiii. 18.
+John xiii. 18.
 
 Footnote 555:
 
-  Ezek. xiii. 9.
+Ezek. xiii. 9.
 
 Footnote 556:
 
-  Luke x. 20.
+Luke x. 20.
 
 Footnote 557:
 
-  Psalm lxix. 28.
+Psalm lxix. 28.
 
 Footnote 558:
 
-  Phil. iii. 5, 6.
+Phil. iii. 5, 6.
 
 Footnote 559:
 
-  Acts x. 2.
+Acts x. 2.
 
 Footnote 560:
 
-  Ephes. ii. 1-3.
+Ephes. ii. 1-3.
 
 Footnote 561:
 
-  Ephes. ii. 11, 12.
+Ephes. ii. 11, 12.
 
 Footnote 562:
 
-  Ephes. v. 8; iv. 18.
+Ephes. v. 8; iv. 18.
 
 Footnote 563:
 
-  Ephes. iv. 25, 28.
+Ephes. iv. 25, 28.
 
 Footnote 564:
 
-  1 Cor. vi. 9-11.
+1 Cor. vi. 9-11.
 
 Footnote 565:
 
-  Rom. vi. 19, 21.
+Rom. vi. 19, 21.
 
 Footnote 566:
 
-  1 Peter iv. 3.
+1 Peter iv. 3.
 
 Footnote 567:
 
-  Josh. ii. 1, &c.
+Josh. ii. 1, &c.
 
 Footnote 568:
 
-  2 Kings xxi. 16.
+2 Kings xxi. 16.
 
 Footnote 569:
 
-  Luke xxiii. 40-42.
+Luke xxiii. 40-42.
 
 Footnote 570:
 
-  Isaiah liii. 6.
+Isaiah liii. 6.
 
 Footnote 571:
 
-  1 Cor. iv. 7.
+1 Cor. iv. 7.
 
 Footnote 572:
 
-  Exod. iv. 21.
+Exod. iv. 21.
 
 Footnote 573:
 
-  Ezek. ii. 3; xii. 2.
+Ezek. ii. 3; xii. 2.
 
 Footnote 574:
 
-  Jer. v. 14.
+Jer. v. 14.
 
 Footnote 575:
 
-  Isaiah vi. 9, 10.
+Isaiah vi. 9, 10.
 
 Footnote 576:
 
-  John xii. 39, 40.
+John xii. 39, 40.
 
 Footnote 577:
 
-  Matt. xiii. 11.
+Matt. xiii. 11.
 
 Footnote 578:
 
-  Rom. ix. 17.
+Rom. ix. 17.
 
 Footnote 579:
 
-  1 Sam. ii. 25.
+1 Sam. ii. 25.
 
 Footnote 580:
 
-  John xii. 37, 38.
+John xii. 37, 38.
 
 Footnote 581:
 
-  John vi. 45.
+John vi. 45.
 
 Footnote 582:
 
-  1 Cor. i. 23, 24.
+1 Cor. i. 23, 24.
 
 Footnote 583:
 
-  Ezek. xxxiii. 11.
+Ezek. xxxiii. 11.
 
 Footnote 584:
 
-  1 Tim. ii. 4.
+1 Tim. ii. 4.
 
 Footnote 585:
 
-  Deut. iv. 7.
+Deut. iv. 7.
 
 Footnote 586:
 
-  Psalm cxlv. 9.
+Psalm cxlv. 9.
 
 Footnote 587:
 
-  Psalm cxv. 3.
+Psalm cxv. 3.
 
 Footnote 588:
 
-  Exod. xxxiii. 19.
+Exod. xxxiii. 19.
 
 Footnote 589:
 
-  2 Peter iii. 9.
+2 Peter iii. 9.
 
 Footnote 590:
 
-  Ezek. xxxvi. 26.
+Ezek. xxxvi. 26.
 
 Footnote 591:
 
-  Zech. i. 3.
+Zech. i. 3.
 
 Footnote 592:
 
-  2 Tim. ii. 25.
+2 Tim. ii. 25.
 
 Footnote 593:
 
-  Jer. xxxi. 18, 19.
+Jer. xxxi. 18, 19.
 
 Footnote 594:
 
-  Matt. xxiii. 37.
+Matt. xxiii. 37.
 
 Footnote 595:
 
-  Isaiah lxv. 2.
+Isaiah lxv. 2.
 
 Footnote 596:
 
-  Matt. v. 48.
+Matt. v. 48.
 
 Footnote 597:
 
-  Matt. xxv. 34.
+Matt. xxv. 34.
 
 Footnote 598:
 
-  Rom. ix. 24.
+Rom. ix. 24.
 
 Footnote 599:
 
-  Rom. xi. 32.
+Rom. xi. 32.
 
 
-
-
-                              CHAPTER XXV.
-                        THE FINAL RESURRECTION.
+## Chapter XXV. The Final Resurrection
 
 
 Though Christ, the Sun of Righteousness, after having “abolished death,”
@@ -41923,425 +41581,421 @@ the burden of the cross, to press forward, till he shall be all in all.
 
 Footnote 600:
 
-  2 Tim. i. 10.
+2 Tim. i. 10.
 
 Footnote 601:
 
-  John v. 24.
+John v. 24.
 
 Footnote 602:
 
-  Ephes. ii. 19.
+Ephes. ii. 19.
 
 Footnote 603:
 
-  Ephes. ii. 6.
+Ephes. ii. 6.
 
 Footnote 604:
 
-  Rom. viii. 24.
+Rom. viii. 24.
 
 Footnote 605:
 
-  Heb. xi. 1.
+Heb. xi. 1.
 
 Footnote 606:
 
-  2 Cor. v. 6.
+2 Cor. v. 6.
 
 Footnote 607:
 
-  Col. iii. 3, 4.
+Col. iii. 3, 4.
 
 Footnote 608:
 
-  Titus ii. 12, 13.
+Titus ii. 12, 13.
 
 Footnote 609:
 
-  1 Peter i. 8, 9.
+1 Peter i. 8, 9.
 
 Footnote 610:
 
-  Col. i. 5.
+Col. i. 5.
 
 Footnote 611:
 
-  Matt. vi. 21.
+Matt. vi. 21.
 
 Footnote 612:
 
-  Phil. iii. 14.
+Phil. iii. 14.
 
 Footnote 613:
 
-  Phil. iii. 8-11.
+Phil. iii. 8-11.
 
 Footnote 614:
 
-  Phil. iii. 20.
+Phil. iii. 20.
 
 Footnote 615:
 
-  Rom. viii. 19-23.
+Rom. viii. 19-23.
 
 Footnote 616:
 
-  Heb. ix. 28.
+Heb. ix. 28.
 
 Footnote 617:
 
-  1 Cor. xv. 13, &c.
+1 Cor. xv. 13, &c.
 
 Footnote 618:
 
-  2 Cor. iv. 10.
+2 Cor. iv. 10.
 
 Footnote 619:
 
-  1 Cor. xv. 13.
+1 Cor. xv. 13.
 
 Footnote 620:
 
-  Psalm xvi. 10.
+Psalm xvi. 10.
 
 Footnote 621:
 
-  Phil. iii. 21.
+Phil. iii. 21.
 
 Footnote 622:
 
-  Col. iii. 4. Rom. viii. 11.
+Col. iii. 4. Rom. viii. 11.
 
 Footnote 623:
 
-  1 Cor. xv. 23.
+1 Cor. xv. 23.
 
 Footnote 624:
 
-  Luke xxiv. 11.
+Luke xxiv. 11.
 
 Footnote 625:
 
-  Matt. xxvii. 66; xxviii. 11, &c.
+Matt. xxvii. 66; xxviii. 11, &c.
 
 Footnote 626:
 
-  Luke xxiv. 4-6. Matt. xxviii. 3-6.
+Luke xxiv. 4-6. Matt. xxviii. 3-6.
 
 Footnote 627:
 
-  Acts i. 3, 9.
+Acts i. 3, 9.
 
 Footnote 628:
 
-  1 Cor. xv. 6.
+1 Cor. xv. 6.
 
 Footnote 629:
 
-  John xvi. 7.
+John xvi. 7.
 
 Footnote 630:
 
-  Acts vii. 55.
+Acts vii. 55.
 
 Footnote 631:
 
-  Phil. iii. 21.
+Phil. iii. 21.
 
 Footnote 632:
 
-  1 Cor. xv. 36.
+1 Cor. xv. 36.
 
 Footnote 633:
 
-  Isaiah xxvi. 19.
+Isaiah xxvi. 19.
 
 Footnote 634:
 
-  Psalm lxviii. 20.
+Psalm lxviii. 20.
 
 Footnote 635:
 
-  Job xix. 25, 27.
+Job xix. 25, 27.
 
 Footnote 636:
 
-  Ezek. xxxvii. 1-14.
+Ezek. xxxvii. 1-14.
 
 Footnote 637:
 
-  John v. 28, 29.
+John v. 28, 29.
 
 Footnote 638:
 
-  2 Tim. i. 12; iv. 8.
+2 Tim. i. 12; iv. 8.
 
 Footnote 639:
 
-  2 Thess. i. 6-8, 10.
+2 Thess. i. 6-8, 10.
 
 Footnote 640:
 
-  Eccl. ix. 4.
+Eccl. ix. 4.
 
 Footnote 641:
 
-  Eccl. iii. 21.
+Eccl. iii. 21.
 
 Footnote 642:
 
-  Rev. xx. 4.
+Rev. xx. 4.
 
 Footnote 643:
 
-  2 Peter i. 14.
+2 Peter i. 14.
 
 Footnote 644:
 
-  2 Cor. v. 1, 8.
+2 Cor. v. 1, 8.
 
 Footnote 645:
 
-  Heb. xii. 23.
+Heb. xii. 23.
 
 Footnote 646:
 
-  Luke xxiii. 43.
+Luke xxiii. 43.
 
 Footnote 647:
 
-  2 Cor. vii. 1.
+2 Cor. vii. 1.
 
 Footnote 648:
 
-  2 Cor. v. 10.
+2 Cor. v. 10.
 
 Footnote 649:
 
-  2 Cor. iv. 10.
+2 Cor. iv. 10.
 
 Footnote 650:
 
-  1 Thess. v. 23.
+1 Thess. v. 23.
 
 Footnote 651:
 
-  1 Cor. vi. 15.
+1 Cor. vi. 15.
 
 Footnote 652:
 
-  1 Tim. ii. 8.
+1 Tim. ii. 8.
 
 Footnote 653:
 
-  Rom. xii. 1.
+Rom. xii. 1.
 
 Footnote 654:
 
-  1 Cor. vi. 20.
+1 Cor. vi. 20.
 
 Footnote 655:
 
-  1 Cor. xv. 54.
+1 Cor. xv. 54.
 
 Footnote 656:
 
-  Rom. xiv. 11, 12.
+Rom. xiv. 11, 12.
 
 Footnote 657:
 
-  Dan. xii. 2.
+Dan. xii. 2.
 
 Footnote 658:
 
-  Matt. x. 28.
+Matt. x. 28.
 
 Footnote 659:
 
-  John v. 28, 29.
+John v. 28, 29.
 
 Footnote 660:
 
-  John ii. 19.
+John ii. 19.
 
 Footnote 661:
 
-  1 Cor. xv. 12, &c.
+1 Cor. xv. 12, &c.
 
 Footnote 662:
 
-  2 Cor. iv. 10.
+2 Cor. iv. 10.
 
 Footnote 663:
 
-  Matt. xxvi. 52.
+Matt. xxvi. 52.
 
 Footnote 664:
 
-  Col. ii. 12.
+Col. ii. 12.
 
 Footnote 665:
 
-  Rom. vi. 13.
+Rom. vi. 13.
 
 Footnote 666:
 
-  Rom. viii. 11.
+Rom. viii. 11.
 
 Footnote 667:
 
-  1 Cor. vi. 13, 14.
+1 Cor. vi. 13, 14.
 
 Footnote 668:
 
-  1 Cor. vi. 15, 19, 20.
+1 Cor. vi. 15, 19, 20.
 
 Footnote 669:
 
-  Gal. vi. 17.
+Gal. vi. 17.
 
 Footnote 670:
 
-  Phil. iii. 20, 21.
+Phil. iii. 20, 21.
 
 Footnote 671:
 
-  Acts xiv. 22.
+Acts xiv. 22.
 
 Footnote 672:
 
-  Matt. xxvi. 10, 12.
+Matt. xxvi. 10, 12.
 
 Footnote 673:
 
-  Gen xxiii. 3-19.
+Gen xxiii. 3-19.
 
 Footnote 674:
 
-  Gen. xlvii. 30.
+Gen. xlvii. 30.
 
 Footnote 675:
 
-  John vi. 39, 40.
+John vi. 39, 40.
 
 Footnote 676:
 
-  1 Cor. xv. 39-41.
+1 Cor. xv. 39-41.
 
 Footnote 677:
 
-  1 Cor. xv. 53.
+1 Cor. xv. 53.
 
 Footnote 678:
 
-  Isaiah xxvi. 21.
+Isaiah xxvi. 21.
 
 Footnote 679:
 
-  1 Cor. xv. 51, 52.
+1 Cor. xv. 51, 52.
 
 Footnote 680:
 
-  1 Thess. iv. 15, 16.
+1 Thess. iv. 15, 16.
 
 Footnote 681:
 
-  Heb. ix. 27.
+Heb. ix. 27.
 
 Footnote 682:
 
-  Rom. v. 12.
+Rom. v. 12.
 
 Footnote 683:
 
-  John xi. 25.
+John xi. 25.
 
 Footnote 684:
 
-  Matt. xxv. 32.
+Matt. xxv. 32.
 
 Footnote 685:
 
-  Matt. v. 45.
+Matt. v. 45.
 
 Footnote 686:
 
-  Acts xxiv. 15.
+Acts xxiv. 15.
 
 Footnote 687:
 
-  1 John iii. 2.
+1 John iii. 2.
 
 Footnote 688:
 
-  Gen. xv. 1.
+Gen. xv. 1.
 
 Footnote 689:
 
-  Psalm xvi. 5, 6.
+Psalm xvi. 5, 6.
 
 Footnote 690:
 
-  Psalm xvii. 15.
+Psalm xvii. 15.
 
 Footnote 691:
 
-  2 Peter i. 4.
+2 Peter i. 4.
 
 Footnote 692:
 
-  2 Thess. i. 10.
+2 Thess. i. 10.
 
 Footnote 693:
 
-  1 Thess. ii. 19, 20.
+1 Thess. ii. 19, 20.
 
 Footnote 694:
 
-  Matt. xix. 29.
+Matt. xix. 29.
 
 Footnote 695:
 
-  Matt. v. 12.
+Matt. v. 12.
 
 Footnote 696:
 
-  Dan. xii. 3.
+Dan. xii. 3.
 
 Footnote 697:
 
-  2 Tim. iv. 14.
+2 Tim. iv. 14.
 
 Footnote 698:
 
-  Matt. xix. 29.
+Matt. xix. 29.
 
 Footnote 699:
 
-  1 Cor. xiii. 12.
+1 Cor. xiii. 12.
 
 Footnote 700:
 
-  Matt. iii. 12; viii. 12; xxii. 13. Mark ix. 43, 44. Isaiah lxvi. 24.
+Matt. iii. 12; viii. 12; xxii. 13. Mark ix. 43, 44. Isaiah lxvi. 24.
 
 Footnote 701:
 
-  Isaiah xxx. 33.
+Isaiah xxx. 33.
 
 Footnote 702:
 
-  2 Thess. i. 9.
+2 Thess. i. 9.
 
 
+# Book IV. On the External Means or Aids by Which God Calls Us into Communion with Christ, and Retains Us in It
 
 
-                                BOOK IV.
-ON THE EXTERNAL MEANS OR AIDS BY WHICH GOD CALLS US INTO COMMUNION WITH
-                     CHRIST, AND RETAINS US IN IT.
-
-
-                               ARGUMENT.
+**Argument.**
 
 
 Three parts of the Apostles’ Creed, respecting God the Creator,
@@ -42352,9 +42006,9 @@ Catholic Church, and the Communion of Saints.
 The chapters contained in it may be conveniently arranged in three grand
 divisions:—
 
-                           I. The Church.
-                           II. The Sacraments.
-                           III. Civil Government.
+I. The Church.\
+II. The Sacraments.\
+III. Civil Government.
 
 The First Division, extending to the end of the thirteenth chapter,
 contains many particulars, which, however, may all be referred to four
@@ -42414,11 +42068,7 @@ II. Its respective branches.
 3. The people.
 
 
-
-
-                               CHAPTER I.
-  THE TRUE CHURCH, AND THE NECESSITY OF OUR UNION WITH HER, BEING THE
-                        MOTHER OF ALL THE PIOUS.
+## Chapter I. The True Church, and the Necessity of Our Union with Her, Being the Mother of All the Pious (§§ I–XV)
 
 
 That by the faith of the gospel Christ becomes ours, and we become
@@ -43087,6 +42737,7 @@ therefore, that any individual should be contaminated with the
 unworthiness of another, whose approach it is neither in his power nor
 his duty to prevent.
 
+## Chapter I. The True Church, and the Necessity of Our Union with Her, Being the Mother of All the Pious (§§ XVI–XXIX)
 XVI. But though this temptation sometimes arises even to good men, from
 an inconsiderate zeal for righteousness, yet we shall generally find
 that excessive severity is more owing to pride and haughtiness, and a
@@ -43512,321 +43163,318 @@ regard as its principal object; as we have before shown more at large.
 
 Footnote 703:
 
-  Ephes. iv. 11-16.
+Ephes. iv. 11-16.
 
 Footnote 704:
 
-  Mark x. 9.
+Mark x. 9.
 
 Footnote 705:
 
-  Gal. iv. 26.
+Gal. iv. 26.
 
 Footnote 706:
 
-  2 Tim. ii. 19.
+2 Tim. ii. 19.
 
 Footnote 707:
 
-  Rom. xi. 4. 1 Kings xix. 18.
+Rom. xi. 4. 1 Kings xix. 18.
 
 Footnote 708:
 
-  Acts iv. 32.
+Acts iv. 32.
 
 Footnote 709:
 
-  Ephes. iv. 4.
+Ephes. iv. 4.
 
 Footnote 710:
 
-  Joel ii. 32. Obad. 17.
+Joel ii. 32. Obad. 17.
 
 Footnote 711:
 
-  Psalm xlvi. 5.
+Psalm xlvi. 5.
 
 Footnote 712:
 
-  Matt. xxii. 30.
+Matt. xxii. 30.
 
 Footnote 713:
 
-  Isaiah xxxvii. 35. Joel ii. 32.
+Isaiah xxxvii. 35. Joel ii. 32.
 
 Footnote 714:
 
-  Ezek. xiii. 9.
+Ezek. xiii. 9.
 
 Footnote 715:
 
-  Psalm cvi. 4, 5.
+Psalm cvi. 4, 5.
 
 Footnote 716:
 
-  Ephes. iv. 10-13.
+Ephes. iv. 10-13.
 
 Footnote 717:
 
-  Isaiah lix. 21.
+Isaiah lix. 21.
 
 Footnote 718:
 
-  Rom. x. 17.
+Rom. x. 17.
 
 Footnote 719:
 
-  Psalm cxxxii. 14; lxxx. 1.
+Psalm cxxxii. 14; lxxx. 1.
 
 Footnote 720:
 
-  2 Cor. iv. 7.
+2 Cor. iv. 7.
 
 Footnote 721:
 
-  Psalm cv. 4.
+Psalm cv. 4.
 
 Footnote 722:
 
-  2 Cor. iv. 6.
+2 Cor. iv. 6.
 
 Footnote 723:
 
-  Exod. xx. 24.
+Exod. xx. 24.
 
 Footnote 724:
 
-  Psalm lxxxiv.
+Psalm lxxxiv.
 
 Footnote 725:
 
-  Psalm cxxxii. 7. xcix. 5.
+Psalm cxxxii. 7. xcix. 5.
 
 Footnote 726:
 
-  Acts vii. 48, 49.
+Acts vii. 48, 49.
 
 Footnote 727:
 
-  Mal. iv. 6.
+Mal. iv. 6.
 
 Footnote 728:
 
-  John xv. 16.
+John xv. 16.
 
 Footnote 729:
 
-  1 Peter i. 23.
+1 Peter i. 23.
 
 Footnote 730:
 
-  1 Cor. iv. 15. ix. 2.
+1 Cor. iv. 15. ix. 2.
 
 Footnote 731:
 
-  2 Cor. iii. 6.
+2 Cor. iii. 6.
 
 Footnote 732:
 
-  1 Thess. i. 5.
+1 Thess. i. 5.
 
 Footnote 733:
 
-  Gal. iii. 2.
+Gal. iii. 2.
 
 Footnote 734:
 
-  1 Cor. iii. 9; xv. 10. 2 Cor. vi. 1.
+1 Cor. iii. 9; xv. 10. 2 Cor. vi. 1.
 
 Footnote 735:
 
-  1 Thess. ii. 1.
+1 Thess. ii. 1.
 
 Footnote 736:
 
-  Col. i. 29.
+Col. i. 29.
 
 Footnote 737:
 
-  Gal. ii. 8.
+Gal. ii. 8.
 
 Footnote 738:
 
-  1 Cor. iii. 7.
+1 Cor. iii. 7.
 
 Footnote 739:
 
-  1 Cor. xv. 10.
+1 Cor. xv. 10.
 
 Footnote 740:
 
-  2 Tim. ii. 19.
+2 Tim. ii. 19.
 
 Footnote 741:
 
-  Matt. xviii. 20.
+Matt. xviii. 20.
 
 Footnote 742:
 
-  1 Tim. iii. 15.
+1 Tim. iii. 15.
 
 Footnote 743:
 
-  Eph. v. 27.
+Eph. v. 27.
 
 Footnote 744:
 
-  Eph. i. 23.
+Eph. i. 23.
 
 Footnote 745:
 
-  Phil. iii. 15.
+Phil. iii. 15.
 
 Footnote 746:
 
-  1 Cor. xiv. 30.
+1 Cor. xiv. 30.
 
 Footnote 747:
 
-  Matt. xiii. 47.
+Matt. xiii. 47.
 
 Footnote 748:
 
-  Matt. xiii. 24.
+Matt. xiii. 24.
 
 Footnote 749:
 
-  Matt. iii. 12.
+Matt. iii. 12.
 
 Footnote 750:
 
-  1 Cor. i. 11; iii. 3; v. 1; vi. 7; ix. 1; xiv. 26, 40; xv. 12.
+1 Cor. i. 11; iii. 3; v. 1; vi. 7; ix. 1; xiv. 26, 40; xv. 12.
 
 Footnote 751:
 
-  Gal. i. 6; iii. 1; iv. 11.
+Gal. i. 6; iii. 1; iv. 11.
 
 Footnote 752:
 
-  1 Cor. v. 2, 11, 12.
+1 Cor. v. 2, 11, 12.
 
 Footnote 753:
 
-  1 Cor. xi. 28, 29.
+1 Cor. xi. 28, 29.
 
 Footnote 754:
 
-  Ephes. v. 25-27.
+Ephes. v. 25-27.
 
 Footnote 755:
 
-  Joel iii. 17. Isaiah xxxv. 8.
+Joel iii. 17. Isaiah xxxv. 8.
 
 Footnote 756:
 
-  Psalm lxxxix. 3, 4.
+Psalm lxxxix. 3, 4.
 
 Footnote 757:
 
-  Psalm cxxxii. 13, 14.
+Psalm cxxxii. 13, 14.
 
 Footnote 758:
 
-  Jer. xxxi. 35, 36.
+Jer. xxxi. 35, 36.
 
 Footnote 759:
 
-  Isaiah xxxiii. 24.
+Isaiah xxxiii. 24.
 
 Footnote 760:
 
-  Hos. ii. 18, 19.
+Hos. ii. 18, 19.
 
 Footnote 761:
 
-  Jerem. xxxiii. 8.
+Jerem. xxxiii. 8.
 
 Footnote 762:
 
-  Matt. xvi. 19; xviii. 18.
+Matt. xvi. 19; xviii. 18.
 
 Footnote 763:
 
-  John xx. 23.
+John xx. 23.
 
 Footnote 764:
 
-  2 Cor. v. 18-20.
+2 Cor. v. 18-20.
 
 Footnote 765:
 
-  Acts xx. 20, 21.
+Acts xx. 20, 21.
 
 Footnote 766:
 
-  Matt. vi. 12.
+Matt. vi. 12.
 
 Footnote 767:
 
-  Gen. xxxvii. 18, 28; xxxiv. 25; xxxv. 22; xxxviii. 16.
+Gen. xxxvii. 18, 28; xxxiv. 25; xxxv. 22; xxxviii. 16.
 
 Footnote 768:
 
-  2 Sam. xi. 4, 15; xii. 13.
+2 Sam. xi. 4, 15; xii. 13.
 
 Footnote 769:
 
-  Deut. xxx. 3, 4.
+Deut. xxx. 3, 4.
 
 Footnote 770:
 
-  Jer. iii. 1, 2, 12.
+Jer. iii. 1, 2, 12.
 
 Footnote 771:
 
-  Ezek. xxxiii. 11.
+Ezek. xxxiii. 11.
 
 Footnote 772:
 
-  1 Kings viii. 46-50.
+1 Kings viii. 46-50.
 
 Footnote 773:
 
-  Numb. xxviii. 3.
+Numb. xxviii. 3.
 
 Footnote 774:
 
-  2 Tim. i. 9, 10. Tit. ii. 11; iii. 4-7.
+2 Tim. i. 9, 10. Tit. ii. 11; iii. 4-7.
 
 Footnote 775:
 
-  Matt. x. 33. Mark viii. 38. Matt. xxvi. 69, &c.
+Matt. x. 33. Mark viii. 38. Matt. xxvi. 69, &c.
 
 Footnote 776:
 
-  2 Thess. iii. 6, 11, 12.
+2 Thess. iii. 6, 11, 12.
 
 Footnote 777:
 
-  Acts viii. 22.
+Acts viii. 22.
 
 Footnote 778:
 
-  Gal. i. 6; iii. 1; iv. 9.
+Gal. i. 6; iii. 1; iv. 9.
 
 Footnote 779:
 
-  1 Cor. i. 11, 12; v. 1. 2 Cor. xii. 21.
+1 Cor. i. 11, 12; v. 1. 2 Cor. xii. 21.
 
 Footnote 780:
 
-  Psalm lxxxix. 30-33.
+Psalm lxxxix. 30-33.
 
 
-
-
-                              CHAPTER II.
-                  THE TRUE AND FALSE CHURCH COMPARED.
+## Chapter II. The True and False Church Compared
 
 
 We have already stated the importance which we ought to attach to the
@@ -44280,77 +43928,74 @@ of their congregations, or in the body at large.
 
 Footnote 781:
 
-  Ephes. ii. 20.
+Ephes. ii. 20.
 
 Footnote 782:
 
-  1 Tim. iii. 15.
+1 Tim. iii. 15.
 
 Footnote 783:
 
-  Jer. vii. 4.
+Jer. vii. 4.
 
 Footnote 784:
 
-  Gal. iv.
+Gal. iv.
 
 Footnote 785:
 
-  Rom. ix. 6-8.
+Rom. ix. 6-8.
 
 Footnote 786:
 
-  Mal. ii. 1-9.
+Mal. ii. 1-9.
 
 Footnote 787:
 
-  John xviii. 37.
+John xviii. 37.
 
 Footnote 788:
 
-  John x. 4, 5, 14, 27.
+John x. 4, 5, 14, 27.
 
 Footnote 789:
 
-  Ephes. ii. 20.
+Ephes. ii. 20.
 
 Footnote 790:
 
-  John viii. 47.
+John viii. 47.
 
 Footnote 791:
 
-  Ephes. iv. 5.
+Ephes. iv. 5.
 
 Footnote 792:
 
-  Phil. ii. 2, 5.
+Phil. ii. 2, 5.
 
 Footnote 793:
 
-  John xvi. 2.
+John xvi. 2.
 
 Footnote 794:
 
-  Isaiah i. 13, 14.
+Isaiah i. 13, 14.
 
 Footnote 795:
 
-  Matt. xviii. 18.
+Matt. xviii. 18.
 
 Footnote 796:
 
-  Ezek. xiv. 20.
+Ezek. xiv. 20.
 
 Footnote 797:
 
-  Dan. ix. 27. 2 Thess. ii. 3, 4.
+Dan. ix. 27. 2 Thess. ii. 3, 4.
 
 
-
-
-                              CHAPTER III.
-  THE TEACHERS AND MINISTERS OF THE CHURCH; THEIR ELECTION AND OFFICE.
+## Chapter III. The Teachers and Ministers of the Church; Their Election and Office
 
 
 We must now treat of the order which it has been the Lord’s will to
@@ -44893,211 +44538,207 @@ laying on of hands, when I ordained thee a presbyter, be not in vain.
 
 Footnote 798:
 
-  2 Cor. iv. 7.
+2 Cor. iv. 7.
 
 Footnote 799:
 
-  Eph. iv. 4-16.
+Eph. iv. 4-16.
 
 Footnote 800:
 
-  Eph. iv. 10.
+Eph. iv. 10.
 
 Footnote 801:
 
-  Isaiah lii. 7.
+Isaiah lii. 7.
 
 Footnote 802:
 
-  Matt. v. 13, 14.
+Matt. v. 13, 14.
 
 Footnote 803:
 
-  Luke x. 16.
+Luke x. 16.
 
 Footnote 804:
 
-  2 Cor. iii. 6, &c.
+2 Cor. iii. 6, &c.
 
 Footnote 805:
 
-  Eph. iv. 11.
+Eph. iv. 11.
 
 Footnote 806:
 
-  Mark xvi. 15.
+Mark xvi. 15.
 
 Footnote 807:
 
-  Luke x. 1.
+Luke x. 1.
 
 Footnote 808:
 
-  Rom. xvi. 7.
+Rom. xvi. 7.
 
 Footnote 809:
 
-  Matt. xxviii. 19.
+Matt. xxviii. 19.
 
 Footnote 810:
 
-  Luke xxii. 19.
+Luke xxii. 19.
 
 Footnote 811:
 
-  1 Cor. iv. 1.
+1 Cor. iv. 1.
 
 Footnote 812:
 
-  Titus i. 7, 9.
+Titus i. 7, 9.
 
 Footnote 813:
 
-  Acts xx. 20, 21, 31.
+Acts xx. 20, 21, 31.
 
 Footnote 814:
 
-  Ezek. iii. 17, 18.
+Ezek. iii. 17, 18.
 
 Footnote 815:
 
-  1 Cor. ix. 16, 17.
+1 Cor. ix. 16, 17.
 
 Footnote 816:
 
-  Acts xiv. 21, 23.
+Acts xiv. 21, 23.
 
 Footnote 817:
 
-  Titus i. 5.
+Titus i. 5.
 
 Footnote 818:
 
-  Phil. i. 1.
+Phil. i. 1.
 
 Footnote 819:
 
-  Col. iv. 17.
+Col. iv. 17.
 
 Footnote 820:
 
-  Acts xx. 17, &c.
+Acts xx. 17, &c.
 
 Footnote 821:
 
-  Titus i. 5, 7.
+Titus i. 5, 7.
 
 Footnote 822:
 
-  Phil. i. 1.
+Phil. i. 1.
 
 Footnote 823:
 
-  Acts xx. 17, 28, ἐπισκοπους.
+Acts xx. 17, 28, ἐπισκοπους.
 
 Footnote 824:
 
-  1 Cor. xii. 28, δυναμεις, χαρισματα ιαματων, γενη γλωσσων,
-  κυβερνησεις.
+1 Cor. xii. 28, δυναμεις, χαρισματα ιαματων, γενη γλωσσων,\
+κυβερνησεις.
 
 Footnote 825:
 
-  Rom. xii. 8.
+Rom. xii. 8.
 
 Footnote 826:
 
-  Rom. xii. 8, μεταδιδους, εν ἁπλοτητι, ὁ ελεων, εν ἱλαροτητι.
+Rom. xii. 8, μεταδιδους, εν ἁπλοτητι, ὁ ελεων, εν ἱλαροτητι.
 
 Footnote 827:
 
-  1 Tim. v. 9, 10.
+1 Tim. v. 9, 10.
 
 Footnote 828:
 
-  Acts vi. 1-3.
+Acts vi. 1-3.
 
 Footnote 829:
 
-  1 Cor. xiv. 40.
+1 Cor. xiv. 40.
 
 Footnote 830:
 
-  1 Cor. xii. 7, &c.
+1 Cor. xii. 7, &c.
 
 Footnote 831:
 
-  1 Tim. iii. 1, &c. Titus i. 7, &c.
+1 Tim. iii. 1, &c. Titus i. 7, &c.
 
 Footnote 832:
 
-  Luke xxi. 15; xxiv. 49. Acts i. 8.
+Luke xxi. 15; xxiv. 49. Acts i. 8.
 
 Footnote 833:
 
-  1 Tim. v. 22.
+1 Tim. v. 22.
 
 Footnote 834:
 
-  Acts xiv. 23.
+Acts xiv. 23.
 
 Footnote 835:
 
-  Acts i. 23.
+Acts i. 23.
 
 Footnote 836:
 
-  Gal. i. 1.
+Gal. i. 1.
 
 Footnote 837:
 
-  Gal. i. 1.
+Gal. i. 1.
 
 Footnote 838:
 
-  Acts xiii. 2.
+Acts xiii. 2.
 
 Footnote 839:
 
-  Acts i. 23.
+Acts i. 23.
 
 Footnote 840:
 
-  Titus i. 5.
+Titus i. 5.
 
 Footnote 841:
 
-  1 Tim. v. 22.
+1 Tim. v. 22.
 
 Footnote 842:
 
-  Acts xiv. 23.
+Acts xiv. 23.
 
 Footnote 843:
 
-  Gen. xlviii. 14.
+Gen. xlviii. 14.
 
 Footnote 844:
 
-  Matt. xix. 15.
+Matt. xix. 15.
 
 Footnote 845:
 
-  Acts vi. 6; xiii. 3.
+Acts vi. 6; xiii. 3.
 
 Footnote 846:
 
-  2 Tim. i. 6.
+2 Tim. i. 6.
 
 Footnote 847:
 
-  1 Tim. iv. 14.
+1 Tim. iv. 14.
 
 
-
-
-                              CHAPTER IV.
- THE STATE OF THE ANCIENT CHURCH, AND THE MODE OF GOVERNMENT PRACTISED
-                           BEFORE THE PAPACY.
+## Chapter IV. The State of the Ancient Church, and the Mode of Government Practised Before the Papacy
 
 
 Hitherto we have treated of the mode of government in the Church, as it
@@ -45614,33 +45255,30 @@ respect, than that he does not possess the power of ordination.
 
 Footnote 848:
 
-  Titus i. 9.
+Titus i. 9.
 
 Footnote 849:
 
-  Exod. xxxviii. 35.
+Exod. xxxviii. 35.
 
 Footnote 850:
 
-  Acts xx. 26.
+Acts xx. 26.
 
 Footnote 851:
 
-  1 Tim. iii. 2, 3.
+1 Tim. iii. 2, 3.
 
 Footnote 852:
 
-  1 Peter v. 3.
+1 Peter v. 3.
 
 Footnote 853:
 
-  1 Tim. iii. 2-7.
+1 Tim. iii. 2-7.
 
 
-
-
-                               CHAPTER V.
-THE ANCIENT FORM OF GOVERNMENT ENTIRELY SUBVERTED BY THE PAPAL TYRANNY.
+## Chapter V. The Ancient Form of Government Entirely Subverted by the Papal Tyranny
 
 
 Now, it is proper to exhibit the system of ecclesiastical government at
@@ -46283,41 +45921,38 @@ accomplished.
 
 Footnote 854:
 
-  1 Tim. iii. 2-7.
+1 Tim. iii. 2-7.
 
 Footnote 855:
 
-  Acts xx. 28.
+Acts xx. 28.
 
 Footnote 856:
 
-  1 Cor. iv. 1.
+1 Cor. iv. 1.
 
 Footnote 857:
 
-  Matt. v. 13, 14.
+Matt. v. 13, 14.
 
 Footnote 858:
 
-  Psalm lxxii. 10, 11.
+Psalm lxxii. 10, 11.
 
 Footnote 859:
 
-  Isaiah iii. 1.
+Isaiah iii. 1.
 
 Footnote 860:
 
-  Isaiah lx. 6, 7.
+Isaiah lx. 6, 7.
 
 Footnote 861:
 
-  Titus i. 7.
+Titus i. 7.
 
 
-
-
-                              CHAPTER VI.
-                     THE PRIMACY OF THE ROMAN SEE.
+## Chapter VI. The Primacy of the Roman See
 
 
 Hitherto we have treated of those ecclesiastical orders which existed in
@@ -46866,135 +46501,130 @@ altogether unknown to the ancients.
 
 Footnote 862:
 
-  Matt. xvi. 18.
+Matt. xvi. 18.
 
 Footnote 863:
 
-  John xxi. 16.
+John xxi. 16.
 
 Footnote 864:
 
-  1 Peter v. 2.
+1 Peter v. 2.
 
 Footnote 865:
 
-  John xx. 23.
+John xx. 23.
 
 Footnote 866:
 
-  2 Cor. v. 18.
+2 Cor. v. 18.
 
 Footnote 867:
 
-  2 Cor. x. 6.
+2 Cor. x. 6.
 
 Footnote 868:
 
-  Matt. xvi. 19.
+Matt. xvi. 19.
 
 Footnote 869:
 
-  Matt. xviii. 18. John xx. 23.
+Matt. xviii. 18. John xx. 23.
 
 Footnote 870:
 
-  Matt. xvi. 18.
+Matt. xvi. 18.
 
 Footnote 871:
 
-  Eph. ii. 21, 22.
+Eph. ii. 21, 22.
 
 Footnote 872:
 
-  1 Peter ii. 4, 5.
+1 Peter ii. 4, 5.
 
 Footnote 873:
 
-  John i. 40-42.
+John i. 40-42.
 
 Footnote 874:
 
-  Matt. xvi. 18.
+Matt. xvi. 18.
 
 Footnote 875:
 
-  Matt. xvi. 16.
+Matt. xvi. 16.
 
 Footnote 876:
 
-  1 Cor. iii. 11.
+1 Cor. iii. 11.
 
 Footnote 877:
 
-  Acts xv. 6-29.
+Acts xv. 6-29.
 
 Footnote 878:
 
-  1 Peter v. 1.
+1 Peter v. 1.
 
 Footnote 879:
 
-  Acts xi. 2, &c.
+Acts xi. 2, &c.
 
 Footnote 880:
 
-  Acts viii. 14, 15.
+Acts viii. 14, 15.
 
 Footnote 881:
 
-  Gal. i. 2.
+Gal. i. 2.
 
 Footnote 882:
 
-  Eph. iv. 15, 16.
+Eph. iv. 15, 16.
 
 Footnote 883:
 
-  Eph. i. 22; iv. 15; v. 23. Col. i. 18; ii. 10.
+Eph. i. 22; iv. 15; v. 23. Col. i. 18; ii. 10.
 
 Footnote 884:
 
-  Eph. iv. 10.
+Eph. iv. 10.
 
 Footnote 885:
 
-  Eph. iv. 5-7, 11.
+Eph. iv. 5-7, 11.
 
 Footnote 886:
 
-  Eph. iv. 4, 5.
+Eph. iv. 4, 5.
 
 Footnote 887:
 
-  Gal. ii. 9.
+Gal. ii. 9.
 
 Footnote 888:
 
-  Rom. xv. 25.
+Rom. xv. 25.
 
 Footnote 889:
 
-  Rom. xvi.
+Rom. xvi.
 
 Footnote 890:
 
-  Acts xxviii. 15.
+Acts xxviii. 15.
 
 Footnote 891:
 
-  Phil. ii. 20, 21.
+Phil. ii. 20, 21.
 
 Footnote 892:
 
-  2 Tim. iv. 16.
+2 Tim. iv. 16.
 
 
-
-
-                              CHAPTER VII.
-   THE RISE AND PROGRESS OF THE PAPAL POWER TO ITS PRESENT EMINENCE,
-  ATTENDED WITH THE LOSS OF LIBERTY TO THE CHURCH, AND THE RUIN OF ALL
-                              MODERATION.
+## Chapter VII. The Rise and Progress of the Papal Power to Its Present Eminence, Attended with the Loss of Liberty to the Church, and the Ruin of All Moderation (§§ I–XIX)
 
 
 In support of the antiquity of the primacy of the see of Rome, there is
@@ -47693,6 +47323,7 @@ causes of other men by the judgment of men, but the prelate of this see
 he has, without all question, reserved to his own judgment.” Again, “The
 actions of our subjects are judged by us; but ours by God alone.”
 
+## Chapter VII. The Rise and Progress of the Papal Power to Its Present Eminence, Attended with the Loss of Liberty to the Church, and the Ruin of All Moderation (§§ XX–XXX)
 XX. And that such edicts might have the more weight, they have falsely
 substituted the names of ancient pontiffs, as if things had been so
 regulated from the beginning; whereas it is very certain, that every
@@ -48068,35 +47699,30 @@ earth, by men and angels.
 
 Footnote 893:
 
-  2 Thess. ii. 4.
+2 Thess. ii. 4.
 
 Footnote 894:
 
-  Dan. vii. 25.
+Dan. vii. 25.
 
 Footnote 895:
 
-  2 Thess. ii. 7.
+2 Thess. ii. 7.
 
 Footnote 896:
 
-  Luke xxii. 32.
+Luke xxii. 32.
 
 Footnote 897:
 
-  Matt. xvi. 23.
+Matt. xvi. 23.
 
 Footnote 898:
 
-  Mal. ii. 8, 9.
+Mal. ii. 8, 9.
 
 
-
-
-                             CHAPTER VIII.
-THE POWER OF THE CHURCH RESPECTING ARTICLES OF FAITH, AND ITS LICENTIOUS
-    PERVERSION, UNDER THE PAPACY, TO THE CORRUPTION OF ALL PURITY OF
-                               DOCTRINE.
+## Chapter VIII. The Power of the Church Respecting Articles of Faith, and Its Licentious Perversion, Under the Papacy, to the Corruption of All Purity of Doctrine
 
 
 The next subject is the power of the Church, which is to be considered
@@ -48673,189 +48299,186 @@ at that time altogether unknown.
 
 Footnote 899:
 
-  2 Cor. x. 8; xiii. 10.
+2 Cor. x. 8; xiii. 10.
 
 Footnote 900:
 
-  Phil. i. 1.
+Phil. i. 1.
 
 Footnote 901:
 
-  2 Cor. iv. 5.
+2 Cor. iv. 5.
 
 Footnote 902:
 
-  Matt. xxiii. 8.
+Matt. xxiii. 8.
 
 Footnote 903:
 
-  Matt. xvii. 5.
+Matt. xvii. 5.
 
 Footnote 904:
 
-  Exod. xiv. 31.
+Exod. xiv. 31.
 
 Footnote 905:
 
-  Deut. xvii. 8-12.
+Deut. xvii. 8-12.
 
 Footnote 906:
 
-  Mal. ii. 4-7.
+Mal. ii. 4-7.
 
 Footnote 907:
 
-  Deut. xvii. 11.
+Deut. xvii. 11.
 
 Footnote 908:
 
-  Ezek. iii. 17.
+Ezek. iii. 17.
 
 Footnote 909:
 
-  Jer. xxiii. 28.
+Jer. xxiii. 28.
 
 Footnote 910:
 
-  Isaiah vi. 5.
+Isaiah vi. 5.
 
 Footnote 911:
 
-  Jer. i. 6.
+Jer. i. 6.
 
 Footnote 912:
 
-  Jer. i. 9, 10.
+Jer. i. 9, 10.
 
 Footnote 913:
 
-  Matt. v. 13, 14.
+Matt. v. 13, 14.
 
 Footnote 914:
 
-  Luke x. 16.
+Luke x. 16.
 
 Footnote 915:
 
-  Matt. xviii. 18.
+Matt. xviii. 18.
 
 Footnote 916:
 
-  Matt. xxviii. 19, 20.
+Matt. xxviii. 19, 20.
 
 Footnote 917:
 
-  John vii. 16.
+John vii. 16.
 
 Footnote 918:
 
-  Matt. xi. 27.
+Matt. xi. 27.
 
 Footnote 919:
 
-  Mal. iv. 4.
+Mal. iv. 4.
 
 Footnote 920:
 
-  Heb. i. 1, 2.
+Heb. i. 1, 2.
 
 Footnote 921:
 
-  Matt. xvii. 5.
+Matt. xvii. 5.
 
 Footnote 922:
 
-  Col. i. 19; ii. 3.
+Col. i. 19; ii. 3.
 
 Footnote 923:
 
-  John iv. 25.
+John iv. 25.
 
 Footnote 924:
 
-  Matt. xxviii. 19, 20.
+Matt. xxviii. 19, 20.
 
 Footnote 925:
 
-  Matt. xxiii. 8, 10.
+Matt. xxiii. 8, 10.
 
 Footnote 926:
 
-  John xiv. 26; xvi. 13.
+John xiv. 26; xvi. 13.
 
 Footnote 927:
 
-  1 Peter iv. 11.
+1 Peter iv. 11.
 
 Footnote 928:
 
-  2 Cor. x. 4, 5.
+2 Cor. x. 4, 5.
 
 Footnote 929:
 
-  2 Cor. i. 24.
+2 Cor. i. 24.
 
 Footnote 930:
 
-  1 Cor. xiv. 29, 30.
+1 Cor. xiv. 29, 30.
 
 Footnote 931:
 
-  Rom. x. 17.
+Rom. x. 17.
 
 Footnote 932:
 
-  John xvi. 13.
+John xvi. 13.
 
 Footnote 933:
 
-  Matt. xxviii. 20.
+Matt. xxviii. 20.
 
 Footnote 934:
 
-  John xiv. 16, 17.
+John xiv. 16, 17.
 
 Footnote 935:
 
-  Ephes. i. 17, 18. John xiv. 17. 1 Cor. ii. 12.
+Ephes. i. 17, 18. John xiv. 17. 1 Cor. ii. 12.
 
 Footnote 936:
 
-  Phil. iii. 12-14.
+Phil. iii. 12-14.
 
 Footnote 937:
 
-  Ephes. v. 26, 27.
+Ephes. v. 26, 27.
 
 Footnote 938:
 
-  1 Tim. iii. 15.
+1 Tim. iii. 15.
 
 Footnote 939:
 
-  1 Tim. iii. 14, 15.
+1 Tim. iii. 14, 15.
 
 Footnote 940:
 
-  Ephes. iv. 11, 13, 14.
+Ephes. iv. 11, 13, 14.
 
 Footnote 941:
 
-  John xiv. 26; xv. 26; xvi. 13.
+John xiv. 26; xv. 26; xvi. 13.
 
 Footnote 942:
 
-  John xvi. 12.
+John xvi. 12.
 
 Footnote 943:
 
-  Matt. xviii. 17.
+Matt. xviii. 17.
 
 
-
-
-                              CHAPTER IX.
-                       COUNCILS; THEIR AUTHORITY.
+## Chapter IX. Councils; Their Authority
 
 
 Though I should concede to our adversaries all the claims which they set
@@ -49331,126 +48954,122 @@ apocryphal; to which our opponents will by no means consent.
 
 Footnote 944:
 
-  Matt. xviii. 20.
+Matt. xviii. 20.
 
 Footnote 945:
 
-  Deut. iv. 2. Rev. xxii. 18, 19.
+Deut. iv. 2. Rev. xxii. 18, 19.
 
 Footnote 946:
 
-  Mal. ii. 5-7.
+Mal. ii. 5-7.
 
 Footnote 947:
 
-  Isaiah lvi. 10, 11.
+Isaiah lvi. 10, 11.
 
 Footnote 948:
 
-  Hosea ix. 8.
+Hosea ix. 8.
 
 Footnote 949:
 
-  Jer. vi. 13.
+Jer. vi. 13.
 
 Footnote 950:
 
-  Jer. xiv. 14.
+Jer. xiv. 14.
 
 Footnote 951:
 
-  Ezek. xxii. 25, 26, 28.
+Ezek. xxii. 25, 26, 28.
 
 Footnote 952:
 
-  2 Peter ii. 1.
+2 Peter ii. 1.
 
 Footnote 953:
 
-  Matt. xxiv. 11, 24.
+Matt. xxiv. 11, 24.
 
 Footnote 954:
 
-  2 Thess. ii. 4.
+2 Thess. ii. 4.
 
 Footnote 955:
 
-  Acts xx. 29, 30.
+Acts xx. 29, 30.
 
 Footnote 956:
 
-  Zech. xii. 4.
+Zech. xii. 4.
 
 Footnote 957:
 
-  Jer. xviii. 18.
+Jer. xviii. 18.
 
 Footnote 958:
 
-  Jer. iv. 9.
+Jer. iv. 9.
 
 Footnote 959:
 
-  Ezek. vii. 26.
+Ezek. vii. 26.
 
 Footnote 960:
 
-  Micah iii. 6.
+Micah iii. 6.
 
 Footnote 961:
 
-  1 Kings xxii. 6, 22, 24, 27.
+1 Kings xxii. 6, 22, 24, 27.
 
 Footnote 962:
 
-  2 Thess. ii. 3. 1 Tim. iv. 1.
+2 Thess. ii. 3. 1 Tim. iv. 1.
 
 Footnote 963:
 
-  Heb. xiii. 17.
+Heb. xiii. 17.
 
 Footnote 964:
 
-  Joshua i. 7, 8.
+Joshua i. 7, 8.
 
 Footnote 965:
 
-  Jer. xxiii. 16.
+Jer. xxiii. 16.
 
 Footnote 966:
 
-  Matt. vii. 15.
+Matt. vii. 15.
 
 Footnote 967:
 
-  1 John iv. 1.
+1 John iv. 1.
 
 Footnote 968:
 
-  Matt. xv. 14.
+Matt. xv. 14.
 
 Footnote 969:
 
-  1 Cor. xiv. 29.
+1 Cor. xiv. 29.
 
 Footnote 970:
 
-  Matt. xxvi. 27.
+Matt. xxvi. 27.
 
 Footnote 971:
 
-  1 Tim. iv. 1, 3.
+1 Tim. iv. 1, 3.
 
 Footnote 972:
 
-  Heb. xiii. 4.
+Heb. xiii. 4.
 
 
-
-
-                               CHAPTER X.
-THE POWER OF LEGISLATION, IN WHICH THE POPE AND HIS ADHERENTS HAVE MOST
-  CRUELLY TYRANNIZED OVER THE MINDS, AND TORTURED THE BODIES, OF MEN.
+## Chapter X. The Power of Legislation, in Which the Pope and His Adherents Have Most Cruelly Tyrannized Over the Minds, and Tortured the Bodies, of Men (§§ I–XVIII)
 
 
 We now proceed to the second branch of the power of the Church, which
@@ -50136,6 +49755,7 @@ enforcing the observance of them. This foolish and perverse imitation
 has been the source of most of those rites which the Romanists urge upon
 us as apostolic. And this is also attested by various histories.
 
+## Chapter X. The Power of Legislation, in Which the Pope and His Adherents Have Most Cruelly Tyrannized Over the Minds, and Tortured the Bodies, of Men (§§ XIX–XXXII)
 XIX. To avoid too much prolixity in composing a catalogue of them all,
 we shall content ourselves with one example. In the administration of
 the Lord’s supper, the apostles used great simplicity. Their immediate
@@ -50624,229 +50244,226 @@ in themselves remarkable for any impiety.
 
 Footnote 973:
 
-  Matt. xxiii. 4. Luke xi. 46.
+Matt. xxiii. 4. Luke xi. 46.
 
 Footnote 974:
 
-  1 Cor. vii. 35.
+1 Cor. vii. 35.
 
 Footnote 975:
 
-  Rom. xiii. 5.
+Rom. xiii. 5.
 
 Footnote 976:
 
-  Rom. ii. 15.
+Rom. ii. 15.
 
 Footnote 977:
 
-  1 Peter iii. 21.
+1 Peter iii. 21.
 
 Footnote 978:
 
-  Heb. x. 2.
+Heb. x. 2.
 
 Footnote 979:
 
-  1 Tim. i. 5.
+1 Tim. i. 5.
 
 Footnote 980:
 
-  1 Tim. i. 19.
+1 Tim. i. 19.
 
 Footnote 981:
 
-  Acts xxiv. 16.
+Acts xxiv. 16.
 
 Footnote 982:
 
-  1 Cor. x. 28, 29.
+1 Cor. x. 28, 29.
 
 Footnote 983:
 
-  Rom. xiii. 5.
+Rom. xiii. 5.
 
 Footnote 984:
 
-  Rom. xiii. 1.
+Rom. xiii. 1.
 
 Footnote 985:
 
-  James iv. 11, 12.
+James iv. 11, 12.
 
 Footnote 986:
 
-  Isaiah xxxiii. 22.
+Isaiah xxxiii. 22.
 
 Footnote 987:
 
-  1 Peter v. 2, 3.
+1 Peter v. 2, 3.
 
 Footnote 988:
 
-  Col. i. 27, 28; ii. 3, 8, 23.
+Col. i. 27, 28; ii. 3, 8, 23.
 
 Footnote 989:
 
-  Gal. v. 1-18.
+Gal. v. 1-18.
 
 Footnote 990:
 
-  Col. ii. 8.
+Col. ii. 8.
 
 Footnote 991:
 
-  Gal. v. 1.
+Gal. v. 1.
 
 Footnote 992:
 
-  Matt. xv. 6.
+Matt. xv. 6.
 
 Footnote 993:
 
-  Gal. iv. 9. Col. ii. 8.
+Gal. iv. 9. Col. ii. 8.
 
 Footnote 994:
 
-  Col. ii. 23.
+Col. ii. 23.
 
 Footnote 995:
 
-  Col. ii. 22.
+Col. ii. 22.
 
 Footnote 996:
 
-  Col. ii. 20, 21.
+Col. ii. 20, 21.
 
 Footnote 997:
 
-  Gal. iv. 1, 2.
+Gal. iv. 1, 2.
 
 Footnote 998:
 
-  John iv. 23.
+John iv. 23.
 
 Footnote 999:
 
-  Jer. vii. 22, 23.
+Jer. vii. 22, 23.
 
 Footnote 1000:
 
-  Isaiah lv. 2.
+Isaiah lv. 2.
 
 Footnote 1001:
 
-  Isaiah xxix. 13. Matt. xv. 7-9.
+Isaiah xxix. 13. Matt. xv. 7-9.
 
 Footnote 1002:
 
-  Isaiah xxix. 13, 14.
+Isaiah xxix. 13, 14.
 
 Footnote 1003:
 
-  Acts xv. 28, 29.
+Acts xv. 28, 29.
 
 Footnote 1004:
 
-  Deut. xii. 32.
+Deut. xii. 32.
 
 Footnote 1005:
 
-  Prov. xxx.
+Prov. xxx.
 
 Footnote 1006:
 
-  Jer. vii. 22, 23.
+Jer. vii. 22, 23.
 
 Footnote 1007:
 
-  Jer. xi. 7.
+Jer. xi. 7.
 
 Footnote 1008:
 
-  1 Sam. xv. 22, 23.
+1 Sam. xv. 22, 23.
 
 Footnote 1009:
 
-  Acts xv. 29.
+Acts xv. 29.
 
 Footnote 1010:
 
-  Acts xv. 10.
+Acts xv. 10.
 
 Footnote 1011:
 
-  1 Cor. viii. 4, 7, 9.
+1 Cor. viii. 4, 7, 9.
 
 Footnote 1012:
 
-  Isaiah xxix. 13, 14.
+Isaiah xxix. 13, 14.
 
 Footnote 1013:
 
-  Matt. xv. 9.
+Matt. xv. 9.
 
 Footnote 1014:
 
-  2 Kings xvii. 24-34.
+2 Kings xvii. 24-34.
 
 Footnote 1015:
 
-  2 Kings xxii. 2. 2 Chron. xvii. 4, et alibi.
+2 Kings xxii. 2. 2 Chron. xvii. 4, et alibi.
 
 Footnote 1016:
 
-  2 Kings xvi. 10, &c.
+2 Kings xvi. 10, &c.
 
 Footnote 1017:
 
-  2 Kings xxi. 4.
+2 Kings xxi. 4.
 
 Footnote 1018:
 
-  Col. ii. 4, 8, 18, 23.
+Col. ii. 4, 8, 18, 23.
 
 Footnote 1019:
 
-  1 Sam. vii. 17.
+1 Sam. vii. 17.
 
 Footnote 1020:
 
-  Judges xiii. 19.
+Judges xiii. 19.
 
 Footnote 1021:
 
-  Judges viii. 27.
+Judges viii. 27.
 
 Footnote 1022:
 
-  Matt. xxiii. 3.
+Matt. xxiii. 3.
 
 Footnote 1023:
 
-  Matt. xvi. 6.
+Matt. xvi. 6.
 
 Footnote 1024:
 
-  1 Cor. xiv. 40.
+1 Cor. xiv. 40.
 
 Footnote 1025:
 
-  1 Cor. xi. 5; xiv. 34.
+1 Cor. xi. 5; xiv. 34.
 
 Footnote 1026:
 
-  1 Cor. xi. 20-22.
+1 Cor. xi. 20-22.
 
 Footnote 1027:
 
-  1 Cor. xi. 16.
+1 Cor. xi. 16.
 
 
-
-
-                              CHAPTER XI.
-    THE JURISDICTION OF THE CHURCH, AND ITS ABUSE UNDER THE PAPACY.
+## Chapter XI. The Jurisdiction of the Church, and Its Abuse Under the Papacy
 
 
 We come now to the third branch of the power of the Church, and that
@@ -51510,70 +51127,66 @@ such commands to the bishops.
 
 Footnote 1028:
 
-  1 Cor. xii. 28.
+1 Cor. xii. 28.
 
 Footnote 1029:
 
-  Rom. xii. 8.
+Rom. xii. 8.
 
 Footnote 1030:
 
-  1 Tim. v. 17.
+1 Tim. v. 17.
 
 Footnote 1031:
 
-  Matt. xviii. 15-18.
+Matt. xviii. 15-18.
 
 Footnote 1032:
 
-  Matt. xvi. 19.
+Matt. xvi. 19.
 
 Footnote 1033:
 
-  John xx. 22, 23.
+John xx. 22, 23.
 
 Footnote 1034:
 
-  Matt. xviii. 17, 18.
+Matt. xviii. 17, 18.
 
 Footnote 1035:
 
-  2 Cor. x. 5, 6.
+2 Cor. x. 5, 6.
 
 Footnote 1036:
 
-  1 Cor. v. 12.
+1 Cor. v. 12.
 
 Footnote 1037:
 
-  Matt. xx. 25, 26. Luke xxii. 25, 26.
+Matt. xx. 25, 26. Luke xxii. 25, 26.
 
 Footnote 1038:
 
-  Matt. xx. 25, 26. Luke xxii. 25, 26.
+Matt. xx. 25, 26. Luke xxii. 25, 26.
 
 Footnote 1039:
 
-  Luke xii. 14.
+Luke xii. 14.
 
 Footnote 1040:
 
-  Acts vi. 2.
+Acts vi. 2.
 
 Footnote 1041:
 
-  2 Cor. x. 4.
+2 Cor. x. 4.
 
 Footnote 1042:
 
-  Ezek. xxxiv. 4.
+Ezek. xxxiv. 4.
 
 
-
-
-                              CHAPTER XII.
-    THE DISCIPLINE OF THE CHURCH; ITS PRINCIPAL USE IN CENSURES AND
-                            EXCOMMUNICATION.
+## Chapter XII. The Discipline of the Church; Its Principal Use in Censures and Excommunication (§§ I–XXI)
 
 
 The discipline of the Church, the discussion of which I have deferred to
@@ -52264,6 +51877,7 @@ discipline, have the Papists any thing so correct, sincere, or well
 regulated, as to have the least occasion to pride themselves upon any
 thing being left among them worthy of praise.
 
+## Chapter XII. The Discipline of the Church; Its Principal Use in Censures and Excommunication (§§ XXII–XXVIII)
 XXII. There remains the second part of the discipline of the Church,
 which particularly relates to the clergy. It is contained in the canons
 which the ancient bishops imposed on themselves and their order; such as
@@ -52481,125 +52095,122 @@ is the chaste love of matrimony.”
 
 Footnote 1043:
 
-  Acts xx. 20, 26, 31.
+Acts xx. 20, 26, 31.
 
 Footnote 1044:
 
-  Matt. xviii. 15-17.
+Matt. xviii. 15-17.
 
 Footnote 1045:
 
-  Matt. xviii. 15.
+Matt. xviii. 15.
 
 Footnote 1046:
 
-  1 Tim. v. 20.
+1 Tim. v. 20.
 
 Footnote 1047:
 
-  Gal. ii. 11, 14.
+Gal. ii. 11, 14.
 
 Footnote 1048:
 
-  1 Cor. v. 6.
+1 Cor. v. 6.
 
 Footnote 1049:
 
-  1 Cor. v. 11.
+1 Cor. v. 11.
 
 Footnote 1050:
 
-  2 Thess. iii. 14.
+2 Thess. iii. 14.
 
 Footnote 1051:
 
-  1 Cor. v. 3, 5.
+1 Cor. v. 3, 5.
 
 Footnote 1052:
 
-  2 Cor. ii. 7.
+2 Cor. ii. 7.
 
 Footnote 1053:
 
-  2 Cor. ii. 8.
+2 Cor. ii. 8.
 
 Footnote 1054:
 
-  2 Thess. iii. 15.
+2 Thess. iii. 15.
 
 Footnote 1055:
 
-  Matt. xiii. 29.
+Matt. xiii. 29.
 
 Footnote 1056:
 
-  1 Cor. v. 13.
+1 Cor. v. 13.
 
 Footnote 1057:
 
-  Eph. iv. 2, 3.
+Eph. iv. 2, 3.
 
 Footnote 1058:
 
-  Acts xiii. 2, 3.
+Acts xiii. 2, 3.
 
 Footnote 1059:
 
-  Acts xiv. 23.
+Acts xiv. 23.
 
 Footnote 1060:
 
-  Luke ii. 37.
+Luke ii. 37.
 
 Footnote 1061:
 
-  Neh. i. 4.
+Neh. i. 4.
 
 Footnote 1062:
 
-  1 Cor. vii. 5.
+1 Cor. vii. 5.
 
 Footnote 1063:
 
-  Joel ii. 15.
+Joel ii. 15.
 
 Footnote 1064:
 
-  Jonah iii. 5.
+Jonah iii. 5.
 
 Footnote 1065:
 
-  Matt. ix. 15. Luke v. 34, 35.
+Matt. ix. 15. Luke v. 34, 35.
 
 Footnote 1066:
 
-  Joel ii. 13.
+Joel ii. 13.
 
 Footnote 1067:
 
-  Isaiah lviii. 5.
+Isaiah lviii. 5.
 
 Footnote 1068:
 
-  1 Tim. iii. 2. Titus i. 6.
+1 Tim. iii. 2. Titus i. 6.
 
 Footnote 1069:
 
-  1 Tim. iv. 1, 3.
+1 Tim. iv. 1, 3.
 
 Footnote 1070:
 
-  Heb. xiii. 4.
+Heb. xiii. 4.
 
 Footnote 1071:
 
-  1 Cor. ix. 5.
+1 Cor. ix. 5.
 
 
-
-
-                             CHAPTER XIII.
-                VOWS: THE MISERY OF RASHLY MAKING THEM.
+## Chapter XIII. Vows: The Misery of Rashly Making Them
 
 
 It is a thing truly to be deplored, that the Church, after its liberty
@@ -53455,101 +53066,98 @@ persevere in that contempt?
 
 Footnote 1072:
 
-  Rom. xiv. 23.
+Rom. xiv. 23.
 
 Footnote 1073:
 
-  Rom. xii. 3. 1 Cor. xii. 11.
+Rom. xii. 3. 1 Cor. xii. 11.
 
 Footnote 1074:
 
-  Acts xxiii. 12.
+Acts xxiii. 12.
 
 Footnote 1075:
 
-  Judges xi. 30-40.
+Judges xi. 30-40.
 
 Footnote 1076:
 
-  Gen. ii. 18.
+Gen. ii. 18.
 
 Footnote 1077:
 
-  Deut. vi. 16. Matt. iv. 7.
+Deut. vi. 16. Matt. iv. 7.
 
 Footnote 1078:
 
-  Gen. xxviii. 20-22.
+Gen. xxviii. 20-22.
 
 Footnote 1079:
 
-  Psalm xxii. 25; lvi. 12; cxvi. 14, 18.
+Psalm xxii. 25; lvi. 12; cxvi. 14, 18.
 
 Footnote 1080:
 
-  Titus i. 15.
+Titus i. 15.
 
 Footnote 1081:
 
-  1 Cor. vi. 13.
+1 Cor. vi. 13.
 
 Footnote 1082:
 
-  Matt. xix. 21.
+Matt. xix. 21.
 
 Footnote 1083:
 
-  1 Cor. xiii. 3.
+1 Cor. xiii. 3.
 
 Footnote 1084:
 
-  Col. iii. 14.
+Col. iii. 14.
 
 Footnote 1085:
 
-  Matt. xix. 16.
+Matt. xix. 16.
 
 Footnote 1086:
 
-  Matt. xix. 20.
+Matt. xix. 20.
 
 Footnote 1087:
 
-  1 Cor. i. 12, 13; iii. 4.
+1 Cor. i. 12, 13; iii. 4.
 
 Footnote 1088:
 
-  Rom. xiv. 23.
+Rom. xiv. 23.
 
 Footnote 1089:
 
-  Deut. xxxii. 17.
+Deut. xxxii. 17.
 
 Footnote 1090:
 
-  Matt. xix. 11.
+Matt. xix. 11.
 
 Footnote 1091:
 
-  1 Cor. vii. 9.
+1 Cor. vii. 9.
 
 Footnote 1092:
 
-  1 Tim. v. 12.
+1 Tim. v. 12.
 
 Footnote 1093:
 
-  1 Tim. v. 9, 14.
+1 Tim. v. 9, 14.
 
 Footnote 1094:
 
-  Rom. xiv. 23.
+Rom. xiv. 23.
 
 
-
-
-                              CHAPTER XIV.
-                            THE SACRAMENTS.
+## Chapter XIV. The Sacraments (§§ I–XVIII)
 
 
 Connected with the preaching of the gospel, another assistance and
@@ -54222,6 +53830,7 @@ the shadow ten degrees backward in the dial,”[1119] to promise recovery
 to Hezekiah. As these things were done to support and establish the
 weakness of their faith, they also were sacraments.
 
+## Chapter XIV. The Sacraments (§§ XIX–XXVI)
 XIX. But our present design is to treat particularly of those sacraments
 which the Lord has appointed to be ordinarily used in his Church, to
 keep his worshippers and servants in one faith and in the confession of
@@ -54515,169 +54124,166 @@ merely passive, no _work_ can be attributed to them in it.
 
 Footnote 1095:
 
-  Eph. i. 9.
+Eph. i. 9.
 
 Footnote 1096:
 
-  Eph. iii. 2, 3.
+Eph. iii. 2, 3.
 
 Footnote 1097:
 
-  Col. i. 26, 27.
+Col. i. 26, 27.
 
 Footnote 1098:
 
-  1 Tim. iii. 16.
+1 Tim. iii. 16.
 
 Footnote 1099:
 
-  Rom. x. 8.
+Rom. x. 8.
 
 Footnote 1100:
 
-  Acts xv. 9.
+Acts xv. 9.
 
 Footnote 1101:
 
-  1 Peter iii. 21.
+1 Peter iii. 21.
 
 Footnote 1102:
 
-  Rom. iv. 11.
+Rom. iv. 11.
 
 Footnote 1103:
 
-  Gal. iii. 27.
+Gal. iii. 27.
 
 Footnote 1104:
 
-  1 Cor. xii. 13.
+1 Cor. xii. 13.
 
 Footnote 1105:
 
-  Luke xvii. 5.
+Luke xvii. 5.
 
 Footnote 1106:
 
-  Mark ix. 24.
+Mark ix. 24.
 
 Footnote 1107:
 
-  Acts viii. 37.
+Acts viii. 37.
 
 Footnote 1108:
 
-  Psalm cxix. 10; cxi. 1; cxxxviii. 1.
+Psalm cxix. 10; cxi. 1; cxxxviii. 1.
 
 Footnote 1109:
 
-  Psalm xii. 2.
+Psalm xii. 2.
 
 Footnote 1110:
 
-  Matt. xiii. 3-23. Like viii. 5-15.
+Matt. xiii. 3-23. Like viii. 5-15.
 
 Footnote 1111:
 
-  1 Cor. ii. 4. 2 Cor. iii. 6, 8.
+1 Cor. ii. 4. 2 Cor. iii. 6, 8.
 
 Footnote 1112:
 
-  1 Cor. iii. 7.
+1 Cor. iii. 7.
 
 Footnote 1113:
 
-  Gen. iii. 22.
+Gen. iii. 22.
 
 Footnote 1114:
 
-  Eph. ii. 11, 12.
+Eph. ii. 11, 12.
 
 Footnote 1115:
 
-  Gen. ii. 9, 16, 17.
+Gen. ii. 9, 16, 17.
 
 Footnote 1116:
 
-  Gen. ix. 12-17.
+Gen. ix. 12-17.
 
 Footnote 1117:
 
-  Gen. xv. 17.
+Gen. xv. 17.
 
 Footnote 1118:
 
-  Judges vi. 37-40.
+Judges vi. 37-40.
 
 Footnote 1119:
 
-  2 Kings xx. 11.
+2 Kings xx. 11.
 
 Footnote 1120:
 
-  Gen. xii. 3; xxii. 18. Gal. iii. 16.
+Gen. xii. 3; xxii. 18. Gal. iii. 16.
 
 Footnote 1121:
 
-  Rom. iv. 11.
+Rom. iv. 11.
 
 Footnote 1122:
 
-  Heb. ix. 10-14. 1 John i. 7. Rev. i. 5.
+Heb. ix. 10-14. 1 John i. 7. Rev. i. 5.
 
 Footnote 1123:
 
-  Heb. iv. 14; ix. 11; x. 1-4. Phil. ii. 8. Rom. v. 19.
+Heb. iv. 14; ix. 11; x. 1-4. Phil. ii. 8. Rom. v. 19.
 
 Footnote 1124:
 
-  1 John v. 8.
+1 John v. 8.
 
 Footnote 1125:
 
-  1 John v. 8.
+1 John v. 8.
 
 Footnote 1126:
 
-  Col. ii. 17.
+Col. ii. 17.
 
 Footnote 1127:
 
-  1 Cor. x. 3.
+1 Cor. x. 3.
 
 Footnote 1128:
 
-  Rom. iv. 11.
+Rom. iv. 11.
 
 Footnote 1129:
 
-  Rom. ii. 25-29. 1 Cor. vii. 19. Gal. vi. 15.
+Rom. ii. 25-29. 1 Cor. vii. 19. Gal. vi. 15.
 
 Footnote 1130:
 
-  1 Pet. iii. 21.
+1 Pet. iii. 21.
 
 Footnote 1131:
 
-  Col. ii. 11.
+Col. ii. 11.
 
 Footnote 1132:
 
-  Col. ii. 17.
+Col. ii. 17.
 
 Footnote 1133:
 
-  Heb. ix. 9; x. 1, 2.
+Heb. ix. 9; x. 1, 2.
 
 Footnote 1134:
 
-  John vi. 27.
+John vi. 27.
 
 
-
-
-                              CHAPTER XV.
-                                BAPTISM.
+## Chapter XV. Baptism
 
 
 Baptism is a sign of initiation, by which we are admitted into the
@@ -55359,130 +54965,126 @@ by faith from the word of the Lord.
 
 Footnote 1135:
 
-  Mark xvi. 16.
+Mark xvi. 16.
 
 Footnote 1136:
 
-  Eph. v. 26.
+Eph. v. 26.
 
 Footnote 1137:
 
-  Titus iii. 5.
+Titus iii. 5.
 
 Footnote 1138:
 
-  1 Peter iii. 21.
+1 Peter iii. 21.
 
 Footnote 1139:
 
-  Rom. iii. 25.
+Rom. iii. 25.
 
 Footnote 1140:
 
-  Rom. vi. 3, 4.
+Rom. vi. 3, 4.
 
 Footnote 1141:
 
-  Rom. vi. 11.
+Rom. vi. 11.
 
 Footnote 1142:
 
-  Col. ii. 11, 12.
+Col. ii. 11, 12.
 
 Footnote 1143:
 
-  Titus iii. 6.
+Titus iii. 6.
 
 Footnote 1144:
 
-  Gal. iii. 26, 27.
+Gal. iii. 26, 27.
 
 Footnote 1145:
 
-  Acts viii. 16.
+Acts viii. 16.
 
 Footnote 1146:
 
-  Matt. xxviii. 19.
+Matt. xxviii. 19.
 
 Footnote 1147:
 
-  Matt. iii. 6, 11. Luke iii. 3. John iii. 23; iv. 1. Acts ii. 38, 41.
+Matt. iii. 6, 11. Luke iii. 3. John iii. 23; iv. 1. Acts ii. 38, 41.
 
 Footnote 1148:
 
-  John i. 29.
+John i. 29.
 
 Footnote 1149:
 
-  Luke iii. 3.
+Luke iii. 3.
 
 Footnote 1150:
 
-  Acts viii. 14-17.
+Acts viii. 14-17.
 
 Footnote 1151:
 
-  Acts xix. 3-5.
+Acts xix. 3-5.
 
 Footnote 1152:
 
-  Matt. iii. 11.
+Matt. iii. 11.
 
 Footnote 1153:
 
-  Acts ii. 3.
+Acts ii. 3.
 
 Footnote 1154:
 
-  1 Cor. x. 2.
+1 Cor. x. 2.
 
 Footnote 1155:
 
-  Gal. v. 19.
+Gal. v. 19.
 
 Footnote 1156:
 
-  Rom. viii. 1.
+Rom. viii. 1.
 
 Footnote 1157:
 
-  Acts x. 44-48.
+Acts x. 44-48.
 
 Footnote 1158:
 
-  Acts xxii. 16.
+Acts xxii. 16.
 
 Footnote 1159:
 
-  1 Cor. xii. 13.
+1 Cor. xii. 13.
 
 Footnote 1160:
 
-  Acts xix. 1-6.
+Acts xix. 1-6.
 
 Footnote 1161:
 
-  Exod. iv. 25.
+Exod. iv. 25.
 
 Footnote 1162:
 
-  Matt. xxviii. 19.
+Matt. xxviii. 19.
 
 Footnote 1163:
 
-  Heb. v. 4.
+Heb. v. 4.
 
 Footnote 1164:
 
-  Rom. xiv. 23.
+Rom. xiv. 23.
 
 
-
-
-                              CHAPTER XVI.
-PÆDOBAPTISM PERFECTLY CONSISTENT WITH THE INSTITUTION OF CHRIST AND THE
-                          NATURE OF THE SIGN.
+## Chapter XVI. Pædobaptism Perfectly Consistent with the Institution of Christ and the Nature of the Sign (§§ I–XX)
 
 
 As some turbulent spirits in the present age have raised fierce
@@ -56206,6 +55808,7 @@ infants, was legitimate and liable to no objections, or it was deserving
 of censure. If there was no absurdity in that command, neither can any
 absurdity be detected in the practice of infant baptism.
 
+## Chapter XVI. Pædobaptism Perfectly Consistent with the Institution of Christ and the Nature of the Sign (§§ XXI–XXXII)
 XXI. The charge of absurdity, with which they endeavour to stigmatize
 it, we thus refute: If any of those who are the objects of divine
 election, after having received the sign of regeneration, depart out of
@@ -56760,301 +56363,298 @@ among the members of his Church.
 
 Footnote 1165:
 
-  Gen. xvii. 1-14.
+Gen. xvii. 1-14.
 
 Footnote 1166:
 
-  Matt. xxii. 32. Luke xx. 37, 38.
+Matt. xxii. 32. Luke xx. 37, 38.
 
 Footnote 1167:
 
-  Ephes. ii. 12.
+Ephes. ii. 12.
 
 Footnote 1168:
 
-  Deut. x. 16.
+Deut. x. 16.
 
 Footnote 1169:
 
-  Deut. xxx. 6.
+Deut. xxx. 6.
 
 Footnote 1170:
 
-  Rom. xii. 3, 6.
+Rom. xii. 3, 6.
 
 Footnote 1171:
 
-  Matt. xix 13-15. Mark x 13-16. Luke xviii. 15-17.
+Matt. xix 13-15. Mark x 13-16. Luke xviii. 15-17.
 
 Footnote 1172:
 
-  Col. ii. 11, 12.
+Col. ii. 11, 12.
 
 Footnote 1173:
 
-  Matt. viii. 11. Luke xiii. 29.
+Matt. viii. 11. Luke xiii. 29.
 
 Footnote 1174:
 
-  Exod. xix. 5. Deut. vii. 6.
+Exod. xix. 5. Deut. vii. 6.
 
 Footnote 1175:
 
-  Rom. iv. 9-12.
+Rom. iv. 9-12.
 
 Footnote 1176:
 
-  Eph. ii. 14.
+Eph. ii. 14.
 
 Footnote 1177:
 
-  Rom. ix. 7, 8.
+Rom. ix. 7, 8.
 
 Footnote 1178:
 
-  Rom. xi. 29.
+Rom. xi. 29.
 
 Footnote 1179:
 
-  1 Cor. vii. 14.
+1 Cor. vii. 14.
 
 Footnote 1180:
 
-  Rom. xv. 8.
+Rom. xv. 8.
 
 Footnote 1181:
 
-  Acts ii. 39.
+Acts ii. 39.
 
 Footnote 1182:
 
-  Acts iii. 25.
+Acts iii. 25.
 
 Footnote 1183:
 
-  Eph. i. 11, 12.
+Eph. i. 11, 12.
 
 Footnote 1184:
 
-  Exod. xx. 6.
+Exod. xx. 6.
 
 Footnote 1185:
 
-  Rom. vi. 4.
+Rom. vi. 4.
 
 Footnote 1186:
 
-  1 Cor. xv. 22.
+1 Cor. xv. 22.
 
 Footnote 1187:
 
-  Eph. ii. 3.
+Eph. ii. 3.
 
 Footnote 1188:
 
-  Psalm li. 5.
+Psalm li. 5.
 
 Footnote 1189:
 
-  1 Cor. xv. 50.
+1 Cor. xv. 50.
 
 Footnote 1190:
 
-  John xi. 25; xiv. 6.
+John xi. 25; xiv. 6.
 
 Footnote 1191:
 
-  Rev. xxi. 27.
+Rev. xxi. 27.
 
 Footnote 1192:
 
-  John iii. 3, 5.
+John iii. 3, 5.
 
 Footnote 1193:
 
-  Luke i. 15.
+Luke i. 15.
 
 Footnote 1194:
 
-  1 Peter i. 23.
+1 Peter i. 23.
 
 Footnote 1195:
 
-  Rom. x. 17.
+Rom. x. 17.
 
 Footnote 1196:
 
-  Deut. i. 39.
+Deut. i. 39.
 
 Footnote 1197:
 
-  Jer. iv. 4. Rom. iv. 11.
+Jer. iv. 4. Rom. iv. 11.
 
 Footnote 1198:
 
-  Titus iii. 5.
+Titus iii. 5.
 
 Footnote 1199:
 
-  Rom. vi. 4. Col. ii. 12.
+Rom. vi. 4. Col. ii. 12.
 
 Footnote 1200:
 
-  Gal. iii. 27.
+Gal. iii. 27.
 
 Footnote 1201:
 
-  1 Peter iii. 21.
+1 Peter iii. 21.
 
 Footnote 1202:
 
-  Ephes. v. 26.
+Ephes. v. 26.
 
 Footnote 1203:
 
-  1 Cor. xii. 13.
+1 Cor. xii. 13.
 
 Footnote 1204:
 
-  Acts ii. 37, 38.
+Acts ii. 37, 38.
 
 Footnote 1205:
 
-  Acts viii. 37.
+Acts viii. 37.
 
 Footnote 1206:
 
-  Ezek. xvi. 20; xxiii. 37.
+Ezek. xvi. 20; xxiii. 37.
 
 Footnote 1207:
 
-  Eph. ii. 12.
+Eph. ii. 12.
 
 Footnote 1208:
 
-  Matt. iii. 6.
+Matt. iii. 6.
 
 Footnote 1209:
 
-  John iii. 5.
+John iii. 5.
 
 Footnote 1210:
 
-  Matt. iii. 11.
+Matt. iii. 11.
 
 Footnote 1211:
 
-  John iii. 18; v. 24.
+John iii. 18; v. 24.
 
 Footnote 1212:
 
-  Matt. xxviii. 19, 20.
+Matt. xxviii. 19, 20.
 
 Footnote 1213:
 
-  Mark xvi. 16.
+Mark xvi. 16.
 
 Footnote 1214:
 
-  Luke iii. 23.
+Luke iii. 23.
 
 Footnote 1215:
 
-  2 Thess. iii. 10.
+2 Thess. iii. 10.
 
 Footnote 1216:
 
-  1 Cor. xi. 28.
+1 Cor. xi. 28.
 
 Footnote 1217:
 
-  1 Cor. xi. 29.
+1 Cor. xi. 29.
 
 Footnote 1218:
 
-  1 Cor. xi. 24, 25.
+1 Cor. xi. 24, 25.
 
 Footnote 1219:
 
-  1 Cor xi. 26.
+1 Cor xi. 26.
 
 Footnote 1220:
 
-  John iii. 36.
+John iii. 36.
 
 Footnote 1221:
 
-  1 Cor. xv. 46.
+1 Cor. xv. 46.
 
 Footnote 1222:
 
-  1 Cor. vii. 14.
+1 Cor. vii. 14.
 
 Footnote 1223:
 
-  2 Sam. v. 6-8.
+2 Sam. v. 6-8.
 
 Footnote 1224:
 
-  Luke xiv. 21.
+Luke xiv. 21.
 
 Footnote 1225:
 
-  Matt. iv. 19.
+Matt. iv. 19.
 
 Footnote 1226:
 
-  Matt. xiii. 47.
+Matt. xiii. 47.
 
 Footnote 1227:
 
-  1 Cor. ii. 13.
+1 Cor. ii. 13.
 
 Footnote 1228:
 
-  Matt. xxiv. 45.
+Matt. xxiv. 45.
 
 Footnote 1229:
 
-  John iv. 35-38.
+John iv. 35-38.
 
 Footnote 1230:
 
-  Acts xi. 26.
+Acts xi. 26.
 
 Footnote 1231:
 
-  Gal. iii. 2.
+Gal. iii. 2.
 
 Footnote 1232:
 
-  Acts x. 44-48.
+Acts x. 44-48.
 
 Footnote 1233:
 
-  Acts viii. 16, 17, 26, &c.
+Acts viii. 16, 17, 26, &c.
 
 Footnote 1234:
 
-  2 Peter i. 4.
+2 Peter i. 4.
 
 Footnote 1235:
 
-  John x. 35. Psalm lxxxii. 6.
+John x. 35. Psalm lxxxii. 6.
 
 Footnote 1236:
 
-  Exod. xii. 5.
+Exod. xii. 5.
 
 Footnote 1237:
 
-  Exod. xiii. 12. Numb. viii. 17.
+Exod. xiii. 12. Numb. viii. 17.
 
 
-
-
-                             CHAPTER XVII.
-                 THE LORD’S SUPPER AND ITS ADVANTAGES.
+## Chapter XVII. The Lord’s Supper and Its Advantages (§§ I–XVII)
 
 
 After God has once received us into his family, and not only so as to
@@ -57744,6 +57344,7 @@ monstrous absurdities are so far from being ashamed of their disgrace,
 that they stigmatize us with unprovoked and enormous calumnies, because
 we refuse to subscribe to them.
 
+## Chapter XVII. The Lord’s Supper and Its Advantages (§§ XVIII–XXIX)
 XVIII. If they are determined to fasten the body and blood of the Lord
 to the bread and wine, one must of necessity be severed from the other.
 For as the bread is presented separately from the cup, the body, being
@@ -58470,6 +58071,7 @@ content with this, they attribute to it qualities utterly incompatible
 with each other; whence it follows, of necessity, that he must have two
 bodies.
 
+## Chapter XVII. The Lord’s Supper and Its Advantages (§§ XXX–XLI)
 XXX. Though we should grant them what they contend for, respecting its
 invisible presence, still this would be no proof of its infinity,
 without which it will be a vain attempt to enclose Christ under the
@@ -59138,6 +58740,7 @@ entrance to the sacrament will always remain closed by that dreadful
 interdiction, which denounces that “he that eateth and drinketh
 unworthily, eateth and drinketh judgment to himself.”
 
+## Chapter XVII. The Lord’s Supper and Its Advantages (§§ XLII–L)
 XLII. Now, it is easy to judge what kind of doctrine this is which
 prevails in the Papacy, and from what author it has proceeded; which by
 its extreme austerity deprives and robs miserable sinners, who are
@@ -59480,372 +59083,368 @@ religion displayed all its influence, were not the true Church.
 
 Footnote 1238:
 
-  Matt. xxvi. 26, 28. Mark xiv. 22, 24. Luke xxii. 19, 20. 1 Cor. xi.
-  24, 25.
+Matt. xxvi. 26, 28. Mark xiv. 22, 24. Luke xxii. 19, 20. 1 Cor. xi.
+24, 25.
 
 Footnote 1239:
 
-  John vi. 35, 55-58.
+John vi. 35, 55-58.
 
 Footnote 1240:
 
-  John vi. 51.
+John vi. 51.
 
 Footnote 1241:
 
-  Eph. iii. 17.
+Eph. iii. 17.
 
 Footnote 1242:
 
-  John vi. 35.
+John vi. 35.
 
 Footnote 1243:
 
-  John vi. 53.
+John vi. 53.
 
 Footnote 1244:
 
-  Acts ii. 41.
+Acts ii. 41.
 
 Footnote 1245:
 
-  Luke xxii. 20.
+Luke xxii. 20.
 
 Footnote 1246:
 
-  1 John i. 1-4.
+1 John i. 1-4.
 
 Footnote 1247:
 
-  John vi. 51.
+John vi. 51.
 
 Footnote 1248:
 
-  John vi. 55.
+John vi. 55.
 
 Footnote 1249:
 
-  John v. 26.
+John v. 26.
 
 Footnote 1250:
 
-  Eph. i. 23.
+Eph. i. 23.
 
 Footnote 1251:
 
-  Eph. iv. 15, 16.
+Eph. iv. 15, 16.
 
 Footnote 1252:
 
-  1 Cor. vi. 15.
+1 Cor. vi. 15.
 
 Footnote 1253:
 
-  Eph. v. 30.
+Eph. v. 30.
 
 Footnote 1254:
 
-  Eph. v. 32.
+Eph. v. 32.
 
 Footnote 1255:
 
-  1 Cor. x. 16.
+1 Cor. x. 16.
 
 Footnote 1256:
 
-  Rom. viii. 9, 11.
+Rom. viii. 9, 11.
 
 Footnote 1257:
 
-  John vi. 35, 50.
+John vi. 35, 50.
 
 Footnote 1258:
 
-  1 Cor. x. 17.
+1 Cor. x. 17.
 
 Footnote 1259:
 
-  1 Cor. x. 4.
+1 Cor. x. 4.
 
 Footnote 1260:
 
-  Exod. iv. 2-4; vii. 10, 12.
+Exod. iv. 2-4; vii. 10, 12.
 
 Footnote 1261:
 
-  1 Cor. x. 16.
+1 Cor. x. 16.
 
 Footnote 1262:
 
-  1 Cor. xi. 26.
+1 Cor. xi. 26.
 
 Footnote 1263:
 
-  Acts ii. 42.
+Acts ii. 42.
 
 Footnote 1264:
 
-  Jer. xi. 19, (according to the Vulgate and Septuagint.)
+Jer. xi. 19, (according to the Vulgate and Septuagint.)
 
 Footnote 1265:
 
-  Psalm lxix. 21.
+Psalm lxix. 21.
 
 Footnote 1266:
 
-  Isaiah liii. 2, 4.
+Isaiah liii. 2, 4.
 
 Footnote 1267:
 
-  Matt. xxvi. 26-28. Mark xiv. 22-24. Luke xxii. 19, 20. 1 Cor. xi.
-  23-25.
+Matt. xxvi. 26-28. Mark xiv. 22-24. Luke xxii. 19, 20. 1 Cor. xi.
+23-25.
 
 Footnote 1268:
 
-  Gen. xvii. 10.
+Gen. xvii. 10.
 
 Footnote 1269:
 
-  Exod. xii. 11.
+Exod. xii. 11.
 
 Footnote 1270:
 
-  Exod. et Lev. passim.
+Exod. et Lev. passim.
 
 Footnote 1271:
 
-  1 Cor. x. 4.
+1 Cor. x. 4.
 
 Footnote 1272:
 
-  Exod. iii. 2.
+Exod. iii. 2.
 
 Footnote 1273:
 
-  Psalm lxxxiv. 7; xlii. 2.
+Psalm lxxxiv. 7; xlii. 2.
 
 Footnote 1274:
 
-  Matt. iii. 16.
+Matt. iii. 16.
 
 Footnote 1275:
 
-  1 Cor. x. 4.
+1 Cor. x. 4.
 
 Footnote 1276:
 
-  1 Cor. x. 16.
+1 Cor. x. 16.
 
 Footnote 1277:
 
-  Gen. xvii. 10. Exod. xii. 11.
+Gen. xvii. 10. Exod. xii. 11.
 
 Footnote 1278:
 
-  1 Cor. x. 4.
+1 Cor. x. 4.
 
 Footnote 1279:
 
-  John vii. 39.
+John vii. 39.
 
 Footnote 1280:
 
-  Titus iii. 2.
+Titus iii. 2.
 
 Footnote 1281:
 
-  1 Cor. xii. 12.
+1 Cor. xii. 12.
 
 Footnote 1282:
 
-  Heb. ii. 14; iv. 15.
+Heb. ii. 14; iv. 15.
 
 Footnote 1283:
 
-  Acts i. 11.
+Acts i. 11.
 
 Footnote 1284:
 
-  1 Cor. xv. 47.
+1 Cor. xv. 47.
 
 Footnote 1285:
 
-  Phil. ii. 7.
+Phil. ii. 7.
 
 Footnote 1286:
 
-  James i. 21.
+James i. 21.
 
 Footnote 1287:
 
-  Luke i. 34.
+Luke i. 34.
 
 Footnote 1288:
 
-  John xiv. 2, 3, 28.
+John xiv. 2, 3, 28.
 
 Footnote 1289:
 
-  Matt. xxvi. 11.
+Matt. xxvi. 11.
 
 Footnote 1290:
 
-  Mark xvi. 19. Luke xxiv. 51. Acts i. 9.
+Mark xvi. 19. Luke xxiv. 51. Acts i. 9.
 
 Footnote 1291:
 
-  Phil. iii. 20.
+Phil. iii. 20.
 
 Footnote 1292:
 
-  Acts i. 11.
+Acts i. 11.
 
 Footnote 1293:
 
-  Acts iii. 21.
+Acts iii. 21.
 
 Footnote 1294:
 
-  Luke xxiv. 39.
+Luke xxiv. 39.
 
 Footnote 1295:
 
-  Phil. iii. 20, 21.
+Phil. iii. 20, 21.
 
 Footnote 1296:
 
-  John xx. 17.
+John xx. 17.
 
 Footnote 1297:
 
-  Acts vii. 55.
+Acts vii. 55.
 
 Footnote 1298:
 
-  Acts xxii. 18. 1 Cor. xv. 8.
+Acts xxii. 18. 1 Cor. xv. 8.
 
 Footnote 1299:
 
-  Luke xxiv. 31.
+Luke xxiv. 31.
 
 Footnote 1300:
 
-  Luke xxiv. 16.
+Luke xxiv. 16.
 
 Footnote 1301:
 
-  Matt. xxviii. 20.
+Matt. xxviii. 20.
 
 Footnote 1302:
 
-  John iii. 13; i. 18.
+John iii. 13; i. 18.
 
 Footnote 1303:
 
-  1 Cor. ii. 8.
+1 Cor. ii. 8.
 
 Footnote 1304:
 
-  1 John iv. 3.
+1 John iv. 3.
 
 Footnote 1305:
 
-  John vi. 56.
+John vi. 56.
 
 Footnote 1306:
 
-  Matt. xiii. 4-7.
+Matt. xiii. 4-7.
 
 Footnote 1307:
 
-  1 Cor. xi. 27.
+1 Cor. xi. 27.
 
 Footnote 1308:
 
-  Matt. vii. 6.
+Matt. vii. 6.
 
 Footnote 1309:
 
-  John vi. 54.
+John vi. 54.
 
 Footnote 1310:
 
-  2 Cor. xii. 7.
+2 Cor. xii. 7.
 
 Footnote 1311:
 
-  1 Cor. xi. 29.
+1 Cor. xi. 29.
 
 Footnote 1312:
 
-  John vi. 56.
+John vi. 56.
 
 Footnote 1313:
 
-  Acts ii. 42.
+Acts ii. 42.
 
 Footnote 1314:
 
-  1 Cor. xi. 23.
+1 Cor. xi. 23.
 
 Footnote 1315:
 
-  Col. iii. 1.
+Col. iii. 1.
 
 Footnote 1316:
 
-  Psalm l. 15.
+Psalm l. 15.
 
 Footnote 1317:
 
-  Luke xxii. 10.
+Luke xxii. 10.
 
 Footnote 1318:
 
-  1 Cor. xi. 26.
+1 Cor. xi. 26.
 
 Footnote 1319:
 
-  1 Cor. x. 16, 17.
+1 Cor. x. 16, 17.
 
 Footnote 1320:
 
-  Titus i. 15.
+Titus i. 15.
 
 Footnote 1321:
 
-  1 Cor. xi. 27, 29.
+1 Cor. xi. 27, 29.
 
 Footnote 1322:
 
-  1 Cor. xi. 28.
+1 Cor. xi. 28.
 
 Footnote 1323:
 
-  Luke xxii. 17.
+Luke xxii. 17.
 
 Footnote 1324:
 
-  Acts ii. 42.
+Acts ii. 42.
 
 Footnote 1325:
 
-  Matt. xxii. 12.
+Matt. xxii. 12.
 
 Footnote 1326:
 
-  1 Cor. xi. 23.
+1 Cor. xi. 23.
 
 Footnote 1327:
 
-  2 Cor. i. 18.
+2 Cor. i. 18.
 
 
-
-
-                             CHAPTER XVIII.
-THE PAPAL MASS NOT ONLY A SACRILEGIOUS PROFANATION OF THE LORD’S SUPPER,
-                    BUT A TOTAL ANNIHILATION OF IT.
+## Chapter XVIII. The Papal Mass Not Only a Sacrilegious Profanation of the Lord’s Supper, but a Total Annihilation of It
 
 
 With these, and similar inventions, Satan has endeavoured to obscure,
@@ -60542,163 +60141,159 @@ form.
 
 Footnote 1328:
 
-  Gen. xiv. 18. Psalm cx. 4. Heb. v. 5, 6, 10; vii. 17, 21, 23, 24; ix.
-  11; x. 21.
+Gen. xiv. 18. Psalm cx. 4. Heb. v. 5, 6, 10; vii. 17, 21, 23, 24; ix.
+11; x. 21.
 
 Footnote 1329:
 
-  Heb. vii. 23.
+Heb. vii. 23.
 
 Footnote 1330:
 
-  Heb. vii. 1, 7.
+Heb. vii. 1, 7.
 
 Footnote 1331:
 
-  Heb. vii. 27; x. 10, 14; ix. 12.
+Heb. vii. 27; x. 10, 14; ix. 12.
 
 Footnote 1332:
 
-  Heb. ix. 26; x. 10; xiv. 18.
+Heb. ix. 26; x. 10; xiv. 18.
 
 Footnote 1333:
 
-  John xix. 30.
+John xix. 30.
 
 Footnote 1334:
 
-  1 Cor. v. 7, 8.
+1 Cor. v. 7, 8.
 
 Footnote 1335:
 
-  Mal. i. 11.
+Mal. i. 11.
 
 Footnote 1336:
 
-  Isaiah xix. 23. Joel ii. 28.
+Isaiah xix. 23. Joel ii. 28.
 
 Footnote 1337:
 
-  Isaiah xix. 19, 23.
+Isaiah xix. 19, 23.
 
 Footnote 1338:
 
-  Heb. ix. 16.
+Heb. ix. 16.
 
 Footnote 1339:
 
-  Heb. ix. 23, 25, 26.
+Heb. ix. 23, 25, 26.
 
 Footnote 1340:
 
-  Heb. ix. 22.
+Heb. ix. 22.
 
 Footnote 1341:
 
-  Luke xxii. 17.
+Luke xxii. 17.
 
 Footnote 1342:
 
-  1 Cor. x. 16.
+1 Cor. x. 16.
 
 Footnote 1343:
 
-  1 Sam. xv. 22.
+1 Sam. xv. 22.
 
 Footnote 1344:
 
-  Heb. v. 4, 5.
+Heb. v. 4, 5.
 
 Footnote 1345:
 
-  Gal. iii. 1.
+Gal. iii. 1.
 
 Footnote 1346:
 
-  John xix. 30.
+John xix. 30.
 
 Footnote 1347:
 
-  Heb. v. 4.
+Heb. v. 4.
 
 Footnote 1348:
 
-  Mal. i. 11.
+Mal. i. 11.
 
 Footnote 1349:
 
-  Rom. xii. 1.
+Rom. xii. 1.
 
 Footnote 1350:
 
-  Heb. xiii. 16.
+Heb. xiii. 16.
 
 Footnote 1351:
 
-  Phil. iv. 18.
+Phil. iv. 18.
 
 Footnote 1352:
 
-  Psalm cxli. 2.
+Psalm cxli. 2.
 
 Footnote 1353:
 
-  Hosea xiv. 2.
+Hosea xiv. 2.
 
 Footnote 1354:
 
-  Psalm l. 14, 23.
+Psalm l. 14, 23.
 
 Footnote 1355:
 
-  Heb. xiii. 15.
+Heb. xiii. 15.
 
 Footnote 1356:
 
-  1 Peter ii. 9.
+1 Peter ii. 9.
 
 Footnote 1357:
 
-  Rev. i. 6.
+Rev. i. 6.
 
 Footnote 1358:
 
-  Isaiah xl. 14. Rom. xi. 34.
+Isaiah xl. 14. Rom. xi. 34.
 
 Footnote 1359:
 
-  Col. ii. 3.
+Col. ii. 3.
 
 Footnote 1360:
 
-  1 John iii. 2.
+1 John iii. 2.
 
 Footnote 1361:
 
-  1 John ii. 18. 1 Peter i. 20. Acts ii. 17.
+1 John ii. 18. 1 Peter i. 20. Acts ii. 17.
 
 Footnote 1362:
 
-  Heb. i. 1, 2.
+Heb. i. 1, 2.
 
 Footnote 1363:
 
-  Luke x. 22.
+Luke x. 22.
 
 Footnote 1364:
 
-  John i. 18.
+John i. 18.
 
 Footnote 1365:
 
-  1 Cor. xiii. 12.
+1 Cor. xiii. 12.
 
 
-
-
-                              CHAPTER XIX.
- THE FIVE OTHER CEREMONIES, FALSELY CALLED SACRAMENTS, PROVED NOT TO BE
-                  SACRAMENTS; THEIR NATURE EXPLAINED.
+## Chapter XIX. The Five Other Ceremonies, Falsely Called Sacraments, Proved Not to be Sacraments; Their Nature Explained (§§ I–XIX)
 
 
 The preceding discussion respecting the sacraments might satisfy persons
@@ -60814,9 +60409,7 @@ consent of the ancient Church, however they may boast of such consent.
 Let us now proceed to the particular ceremonies.
 
 
-
-
-                             CONFIRMATION.
+CONFIRMATION.
 
 
 IV. It was an ancient custom in the Church for the children of
@@ -61162,9 +60755,7 @@ strange tenets; in short, all would have a regular acquaintance with
 Christian doctrine.
 
 
-
-
-                                PENANCE.
+PENANCE.
 
 
 XIV. In the next place, they add penance; of which they treat in such a
@@ -61318,9 +60909,7 @@ be required more explicit than what is recited by the evangelists, that
 sins.”[1380]
 
 
-
-
-                            EXTREME UNCTION.
+EXTREME UNCTION.
 
 
 XVIII. The third counterfeit sacrament is extreme unction; which is
@@ -61391,6 +60980,7 @@ miracles by the hands of apostles; because that gift was only of
 temporary duration, and was soon lost, in some measure, by the
 ingratitude of men.
 
+## Chapter XIX. The Five Other Ceremonies, Falsely Called Sacraments, Proved Not to be Sacraments; Their Nature Explained (§§ XX–XXXVII)
 XX. As the apostles, therefore, had sufficient cause for using the
 symbol of oil as an evident testimony that the gift of healing, which
 had been committed to them, was not a power of their own, but of the
@@ -61456,9 +61046,7 @@ use oil, in case of illness, for the purpose of anointing themselves or
 their friends.
 
 
-
-
-                         ECCLESIASTICAL ORDERS.
+ECCLESIASTICAL ORDERS.
 
 
 XXII. The fourth place in their catalogue is occupied by the sacrament
@@ -61854,9 +61442,7 @@ they use, not one appears to have been instituted by God; therefore
 there can be no sacrament.
 
 
-
-
-                               MATRIMONY.
+MATRIMONY.
 
 
 XXXIV. The last of their sacraments is matrimony, which all confess to
@@ -61994,161 +61580,158 @@ principles, and exposing them to the world in their true colours.
 
 Footnote 1366:
 
-  1 Tim. ii. 8.
+1 Tim. ii. 8.
 
 Footnote 1367:
 
-  Matt. xxi. 25.
+Matt. xxi. 25.
 
 Footnote 1368:
 
-  Acts viii. 14-17.
+Acts viii. 14-17.
 
 Footnote 1369:
 
-  John vii. 37, 38.
+John vii. 37, 38.
 
 Footnote 1370:
 
-  John xx. 22.
+John xx. 22.
 
 Footnote 1371:
 
-  Gal. iv. 9. Col. ii. 20.
+Gal. iv. 9. Col. ii. 20.
 
 Footnote 1372:
 
-  Col. ii. 22.
+Col. ii. 22.
 
 Footnote 1373:
 
-  1 Cor. vi. 13.
+1 Cor. vi. 13.
 
 Footnote 1374:
 
-  Rom. vi. 4-6.
+Rom. vi. 4-6.
 
 Footnote 1375:
 
-  Acts viii. 16. xix. 5.
+Acts viii. 16. xix. 5.
 
 Footnote 1376:
 
-  Acts ii. 4, &c. Matt. x. 20.
+Acts ii. 4, &c. Matt. x. 20.
 
 Footnote 1377:
 
-  Gal. iii. 27.
+Gal. iii. 27.
 
 Footnote 1378:
 
-  Acts ix. 17, 18.
+Acts ix. 17, 18.
 
 Footnote 1379:
 
-  Matt. xviii. 18.
+Matt. xviii. 18.
 
 Footnote 1380:
 
-  Matt. iii. 1-6. Luke iii. 3.
+Matt. iii. 1-6. Luke iii. 3.
 
 Footnote 1381:
 
-  James v. 14, 15.
+James v. 14, 15.
 
 Footnote 1382:
 
-  Mark vi. 13.
+Mark vi. 13.
 
 Footnote 1383:
 
-  John ix. 7.
+John ix. 7.
 
 Footnote 1384:
 
-  Acts xx. 10.
+Acts xx. 10.
 
 Footnote 1385:
 
-  Ezek. i. 20. Rom. i. 4; viii. 15. Isaiah xi. 2, 3.
+Ezek. i. 20. Rom. i. 4; viii. 15. Isaiah xi. 2, 3.
 
 Footnote 1386:
 
-  Acts xviii. 18.
+Acts xviii. 18.
 
 Footnote 1387:
 
-  1 Cor. ix. 20.
+1 Cor. ix. 20.
 
 Footnote 1388:
 
-  1 Tim. iv. 14.
+1 Tim. iv. 14.
 
 Footnote 1389:
 
-  John xx. 22.
+John xx. 22.
 
 Footnote 1390:
 
-  John xi. 43.
+John xi. 43.
 
 Footnote 1391:
 
-  Matt. ix. 5. John v. 8.
+Matt. ix. 5. John v. 8.
 
 Footnote 1392:
 
-  1 Cor. xv. 41, 42.
+1 Cor. xv. 41, 42.
 
 Footnote 1393:
 
-  Matt. xiii. 31, 33.
+Matt. xiii. 31, 33.
 
 Footnote 1394:
 
-  Isaiah xl. 10, 11.
+Isaiah xl. 10, 11.
 
 Footnote 1395:
 
-  Isaiah xlii. 13.
+Isaiah xlii. 13.
 
 Footnote 1396:
 
-  1 Thess. v. 2.
+1 Thess. v. 2.
 
 Footnote 1397:
 
-  John xv. 1, 5.
+John xv. 1, 5.
 
 Footnote 1398:
 
-  John x. 11.
+John x. 11.
 
 Footnote 1399:
 
-  Ephes. v. 28-32.
+Ephes. v. 28-32.
 
 Footnote 1400:
 
-  Gen. ii. 23.
+Gen. ii. 23.
 
 Footnote 1401:
 
-  Gal. ii. 20.
+Gal. ii. 20.
 
 Footnote 1402:
 
-  1 Tim. iii. 9, 16.
+1 Tim. iii. 9, 16.
 
 Footnote 1403:
 
-  Ephes. iii. 9.
+Ephes. iii. 9.
 
 
-
-
-                              CHAPTER XX.
-                          ON CIVIL GOVERNMENT.
+## Chapter XX. On Civil Government (§§ I–XVI)
 
 
 Having already stated that man is the subject of two kinds of
@@ -62865,6 +62448,7 @@ peculiar manner, their legislator, and, as became a wise legislator, in
 all the laws which he gave them, he had a special regard to their
 peculiar circumstances.
 
+## Chapter XX. On Civil Government (§§ XVII–XXXII)
 XVII. It now remains for us, as we proposed, in the last place, to
 examine what advantage the common society of Christians derives from
 laws, judgments, and magistrates; with which is connected another
@@ -63386,356 +62970,355 @@ END OF THE INSTITUTES.
 
 Footnote 1404:
 
-  Gal. v. 1.
+Gal. v. 1.
 
 Footnote 1405:
 
-  1 Cor. vii. 21.
+1 Cor. vii. 21.
 
 Footnote 1406:
 
-  Gal. iii. 28.
+Gal. iii. 28.
 
 Footnote 1407:
 
-  Col. iii. 11.
+Col. iii. 11.
 
 Footnote 1408:
 
-  Psalm lxxxii. 1, 6.
+Psalm lxxxii. 1, 6.
 
 Footnote 1409:
 
-  John x. 35.
+John x. 35.
 
 Footnote 1410:
 
-  Deut. i. 16, 17. 2 Chron. xix. 6.
+Deut. i. 16, 17. 2 Chron. xix. 6.
 
 Footnote 1411:
 
-  Prov. viii. 15, 16.
+Prov. viii. 15, 16.
 
 Footnote 1412:
 
-  Rom. xii. 8.
+Rom. xii. 8.
 
 Footnote 1413:
 
-  1 Cor. xii. 28.
+1 Cor. xii. 28.
 
 Footnote 1414:
 
-  Rom. xiii. 1, 3, 4.
+Rom. xiii. 1, 3, 4.
 
 Footnote 1415:
 
-  Psalm ii. 10-12.
+Psalm ii. 10-12.
 
 Footnote 1416:
 
-  Isaiah xlix. 23.
+Isaiah xlix. 23.
 
 Footnote 1417:
 
-  1 Tim. ii. 1, 2.
+1 Tim. ii. 1, 2.
 
 Footnote 1418:
 
-  Jer. xlviii. 10.
+Jer. xlviii. 10.
 
 Footnote 1419:
 
-  Deut. i. 16, 17.
+Deut. i. 16, 17.
 
 Footnote 1420:
 
-  2 Chron. xix. 6, 7.
+2 Chron. xix. 6, 7.
 
 Footnote 1421:
 
-  Psalm lxxxii. 1.
+Psalm lxxxii. 1.
 
 Footnote 1422:
 
-  1 Sam. viii. 7.
+1 Sam. viii. 7.
 
 Footnote 1423:
 
-  Luke xxii. 25, 26.
+Luke xxii. 25, 26.
 
 Footnote 1424:
 
-  Rom. xiii. 1, &c. Prov. viii. 15. 1 Pet. ii. 13, 14, 17.
+Rom. xiii. 1, &c. Prov. viii. 15. 1 Pet. ii. 13, 14, 17.
 
 Footnote 1425:
 
-  Judges xxi. 25.
+Judges xxi. 25.
 
 Footnote 1426:
 
-  Jer. xxii. 3.
+Jer. xxii. 3.
 
 Footnote 1427:
 
-  Psalm lxxxii. 3, 4.
+Psalm lxxxii. 3, 4.
 
 Footnote 1428:
 
-  Deut. i. 16, 17.
+Deut. i. 16, 17.
 
 Footnote 1429:
 
-  Deut. xvii. 16, 17, 19, 20.
+Deut. xvii. 16, 17, 19, 20.
 
 Footnote 1430:
 
-  Psalm ci. 3-6.
+Psalm ci. 3-6.
 
 Footnote 1431:
 
-  Jer. xxii. 3.
+Jer. xxii. 3.
 
 Footnote 1432:
 
-  Exod. xx. 13.
+Exod. xx. 13.
 
 Footnote 1433:
 
-  Isaiah xi. 9; lxv. 25.
+Isaiah xi. 9; lxv. 25.
 
 Footnote 1434:
 
-  Gen. ix. 6. Exod. xxi. 12.
+Gen. ix. 6. Exod. xxi. 12.
 
 Footnote 1435:
 
-  Rom. xiii. 4.
+Rom. xiii. 4.
 
 Footnote 1436:
 
-  Exod. ii. 12.
+Exod. ii. 12.
 
 Footnote 1437:
 
-  Exod. xxxii. 26-28.
+Exod. xxxii. 26-28.
 
 Footnote 1438:
 
-  1 Kings ii. 5-9.
+1 Kings ii. 5-9.
 
 Footnote 1439:
 
-  Psalm ci. 8.
+Psalm ci. 8.
 
 Footnote 1440:
 
-  Psalm xlv. 7.
+Psalm xlv. 7.
 
 Footnote 1441:
 
-  Prov. xvi. 12.
+Prov. xvi. 12.
 
 Footnote 1442:
 
-  Prov. xx. 8.
+Prov. xx. 8.
 
 Footnote 1443:
 
-  Prov. xx. 26.
+Prov. xx. 26.
 
 Footnote 1444:
 
-  Prov. xxv. 4, 5.
+Prov. xxv. 4, 5.
 
 Footnote 1445:
 
-  Prov. xvii. 15.
+Prov. xvii. 15.
 
 Footnote 1446:
 
-  Prov. xvii. 11.
+Prov. xvii. 11.
 
 Footnote 1447:
 
-  Prov. xxiv. 24.
+Prov. xxiv. 24.
 
 Footnote 1448:
 
-  Prov. xx. 28.
+Prov. xx. 28.
 
 Footnote 1449:
 
-  Luke iii. 14.
+Luke iii. 14.
 
 Footnote 1450:
 
-  Ezek. xlviii. 21, 22.
+Ezek. xlviii. 21, 22.
 
 Footnote 1451:
 
-  Rom. xiii. 6.
+Rom. xiii. 6.
 
 Footnote 1452:
 
-  Gal. iii. 24; iv. 4.
+Gal. iii. 24; iv. 4.
 
 Footnote 1453:
 
-  Exod. xxii. 1, &c.
+Exod. xxii. 1, &c.
 
 Footnote 1454:
 
-  Deut. xix. 18, 19.
+Deut. xix. 18, 19.
 
 Footnote 1455:
 
-  Rom. xiii. 4.
+Rom. xiii. 4.
 
 Footnote 1456:
 
-  Matt. v. 39, 40.
+Matt. v. 39, 40.
 
 Footnote 1457:
 
-  Matt. v. 44.
+Matt. v. 44.
 
 Footnote 1458:
 
-  Rom xii. 21.
+Rom xii. 21.
 
 Footnote 1459:
 
-  Matt. v. 38-40.
+Matt. v. 38-40.
 
 Footnote 1460:
 
-  1 Cor. vi. 1-8.
+1 Cor. vi. 1-8.
 
 Footnote 1461:
 
-  1 Peter ii. 17.
+1 Peter ii. 17.
 
 Footnote 1462:
 
-  Prov. xxiv. 21.
+Prov. xxiv. 21.
 
 Footnote 1463:
 
-  Rom. xiii. 5.
+Rom. xiii. 5.
 
 Footnote 1464:
 
-  Rom. xiii. 1, 2.
+Rom. xiii. 1, 2.
 
 Footnote 1465:
 
-  Titus iii. 1.
+Titus iii. 1.
 
 Footnote 1466:
 
-  1 Peter ii. 13, 14.
+1 Peter ii. 13, 14.
 
 Footnote 1467:
 
-  1 Tim. ii. 1, 2.
+1 Tim. ii. 1, 2.
 
 Footnote 1468:
 
-  Dan. ii. 21.
+Dan. ii. 21.
 
 Footnote 1469:
 
-  Dan. iv. 17.
+Dan. iv. 17.
 
 Footnote 1470:
 
-  Ezek. xxix. 18-20.
+Ezek. xxix. 18-20.
 
 Footnote 1471:
 
-  Dan. ii. 37, 38.
+Dan. ii. 37, 38.
 
 Footnote 1472:
 
-  Dan. v. 18, 19.
+Dan. v. 18, 19.
 
 Footnote 1473:
 
-  In the Latin translation, it is _jus_, right.
+In the Latin translation, it is _jus_, right.
 
 Footnote 1474:
 
-  1 Sam. viii. 11-17.
+1 Sam. viii. 11-17.
 
 Footnote 1475:
 
-  Jer. xxvii. 5-9, 12.
+Jer. xxvii. 5-9, 12.
 
 Footnote 1476:
 
-  Prov. xxviii. 2.
+Prov. xxviii. 2.
 
 Footnote 1477:
 
-  Job xii. 18.
+Job xii. 18.
 
 Footnote 1478:
 
-  Jer. xxix. 7.
+Jer. xxix. 7.
 
 Footnote 1479:
 
-  1 Sam. xxiv. 6, 11.
+1 Sam. xxiv. 6, 11.
 
 Footnote 1480:
 
-  1 Sam. xxvi. 9-11.
+1 Sam. xxvi. 9-11.
 
 Footnote 1481:
 
-  Ephes. vi. 1. Col. iii. 21.
+Ephes. vi. 1. Col. iii. 21.
 
 Footnote 1482:
 
-  Ephes. v. 25. 1 Pet. iii. 7.
+Ephes. v. 25. 1 Pet. iii. 7.
 
 Footnote 1483:
 
-  Psalm lxxxii. 1.
+Psalm lxxxii. 1.
 
 Footnote 1484:
 
-  Psalm ii. 10-12.
+Psalm ii. 10-12.
 
 Footnote 1485:
 
-  Isaiah x. 1, 2.
+Isaiah x. 1, 2.
 
 Footnote 1486:
 
-  Dan. vi. 22.
+Dan. vi. 22.
 
 Footnote 1487:
 
-  Hos. v. 11.
+Hos. v. 11.
 
 Footnote 1488:
 
-  Prov. xvi. 14.
+Prov. xvi. 14.
 
 Footnote 1489:
 
-  Acts v. 29.
+Acts v. 29.
 
 Footnote 1490:
 
-  1 Cor. vii. 23.
+1 Cor. vii. 23.
 
 
+# Index of the Principal Matters
 
-
-                    INDEX OF THE PRINCIPAL MATTERS.
 
 _The first number indicates the Book; the second, the Chapter._
 
@@ -64190,7 +63773,7 @@ World created by God, i. 14.
 
 —— preserved by his power, and governed by his providence, i. 16.
 
-                  *       *       *       *       *
+*       *       *       *       *
 
 The quotations from different Authors, chiefly the fathers, which occur
 in this work, are not in general referred to in the margin; such
@@ -64200,4951 +63783,3 @@ probably be furnished with the original, in which they are all inserted.
 THE END
 
 
-
-
-                SCRIPTURE INDEX TO CALVIN’S INSTITUTES.
-
-
-ARRANGED AND PRESENTED
-
-BY
-
-S. T. LIVERMORE,
-
-TO THE
-
-PRESBYTERIAN BOARD OF PUBLICATION.
-
-UNIVERSITY OF ROCHESTER,
-
-MDCCCLII.
-
-GENESIS.
-
-                       Chapter.   Verse. Vol Page
-                       i               2   1  130
-                                       2   1  139
-                                       3   1  123
-                                      20   1  203
-                                      26   1  174
-                                      27   1  173
-                                      28   1  169
-
-                       ii              1   1  153
-                                       7   1  171
-                                       7   1  177
-                                       7   1  444
-                                 9 16 17   2  469
-                                      17   1  495
-                                      18   2  435
-                                      23   2  631
-                                      23   1  427
-
-                       iii             5   1  242
-                                    9 12   1  564
-                                      15   1  432
-                                      15   1  165
-                                      15   2   46
-                                   17-19   1  392
-                                   19 23   1  171
-                                      23   2  462
-                                      23   1  631
-
-                       iv              4   2   10
-                                       7   1  301
-                                    8 14   1  392
-                                      10   1  495
-                                      13   1  537
-
-                       vi              3   1  392
-                                     3 5   2    3
-                                       5   1  256
-                                       6   1  208
-                                   14-21   1  392
-
-                       vii            11   1  392
-
-                       viii           13   1  392
-                                      21   1  256
-                                      21   2    3
-                                      21   1  259
-
-                       ix              2   1  169
-                                       6   2  643
-                                   12-17   2  469
-                                   24 25   1  393
-
-                       xii             1   1  393
-                                     2 3   2   52
-                                       3   1  429
-                                       3   2  471
-                                   10-15   1  393
-                       xii            17   1  345
-
-                       xiii         7-11   1  393
-                                      16   2   52
-
-                       xiv         12 13   1  393
-                                      18   2  586
-
-                       xv              1   1  407
-                                       1   2  215
-                                       2   1  394
-                                       5   2   52
-                                       6   2   46
-                                      17   2  469
-
-                       xvi          1-15   1  394
-                                       9   1  156
-
-                       xvii         1-14   2  495
-                                       7   1  391
-                                       7   1  347
-                                      10   2  546
-                                      10   2  547
-
-                       xviii           2   1  155
-                                      18   1  429
-                                      23   2   96
-                                      27   1   48
-
-                       xx            1 2   1  393
-                                       3   1  345
-                                     3 7   1  210
-
-                       xxi           2 3   1  394
-                                   10-14   1  394
-                                      24   1  253
-                                   25-30   1  393
-
-                       xxii         1 12   1  632
-                                       2   1  394
-                                       8   1  186
-                                   16-18   2   52
-                                      18   1  429
-                                      18   2  471
-
-                       xxiii         3-9   2  212
-
-                       xxiv            7   1  156
-                                    7 12   1  161
-                                   27 52   1  161
-
-                       xxvi          1 7   1  294
-                                       4   1  429
-                                      20   1  294
-                                      21   1  294
-                                      31   1  353
-                                      34   1  294
-                       xxvi           35   1  294
-
-                       xxvii       38 39   1  559
-                                   41-45   1  395
-
-                       xxviii          5   1  394
-                                      12   1  161
-                                   20-22   2  436
-
-                       xxix        20 23   1  395
-                                   25 27   1  395
-
-                       xxx             1   1  395
-                                       2   1  191
-
-                       xxxi        13 14   1  353
-                                      16   1  353
-                                      17   1  353
-                                      19   1  104
-                                   25 36   1  395
-                                   40 41   1  395
-                                      53   1  353
-
-                       xxxii        1 28   1  155
-                                      10   2   94
-                                      10   2  109
-                                   29 30   1  126
-
-                       xxxiii              1  395
-
-                       xxxiv          19   1  395
-                                      25   2  244
-
-                       xxxv        19 22   1  395
-                                      22   2  244
-
-                       xxxviii     13-18   1  395
-                                      16   2  244
-
-                       xlii                1  396
-
-                       xliii          14   1  282
-                                      14   2  171
-
-                       xlv           7 8   1  203
-
-                       xlvii           9   1  396
-                                      30   1  397
-                                      30   2  212
-
-                       xlviii         14   2  271
-                                      16   1  156
-                                      16   2  107
-
-                       xlix            5   1   84
-                                      10   1   85
-                                      18   1  397
-
-                       l              20   1  203
-                                      25   1  397
-
-
-EXODUS.
-
-                       Chapter.   Verse. Vol Page
-
-                       ii                  2  546
-                                      12   2  644
-
-                       iii             2   2  546
-                                       6   1  341
-                                       6   1  392
-                                      14   1  142
-                                      21   1  202
-
-                       iv            2-4   2  539
-                                      11   1  131
-                                      21   2  192
-                                      21   1  214
-                                      21   1  281
-                                      25   2  492
-
-                       vi              7   1  391
-
-                       vii             1   1  124
-                                       3   1  281
-                                   10 12   2  539
-
-                       viii           15   1  213
-
-                       xi              3   1  282
-
-                       xii             5   2  523
-                                      11   2  546
-                                      11   2  547
-
-                       xiii           12   2  523
-
-                       xiv            19   1  156
-                                      31   2  340
-
-                       xvi             7   1   85
-                                      13   1  190
-
-                       xvii           15   1  125
-
-                       xix             5   2  503
-                                       6   1  314
-                                      16   1   84
-
-                       xx              6   1  392
-                                       6   2  506
-                                      13   2  643
-                                      24   2  227
-
-                       xxi            12   2  643
-                                      13   1  189
-                                      17   1  360
-
-                       xxii            1   2  649
-                                      11   1  351
-
-                       xxiii         1 7   1  369
-                                     4 5   1  377
-                                      12   1  357
-                                      13   1  350
-                                      20   1  156
-
-                       xxiv           18   1   84
-
-                       xxv         17 18   1   99
-                                      40   1  313
-
-                       xxviii              2  100
-
-                       xxxi         2-11   1  247
-                                   13 14   1  355
-                                   16 17   1  355
-
-                       xxxii           1   1  105
-                                       4   1   35
-                                     4-6   1  106
-                                   26-28   2  644
-                                      32   2  120
-
-                       xxxiii         11   1   99
-                                      19   2  159
-                                      19   1  663
-                                      19   2  196
-                                      20   1   99
-
-                       xxxiv           6   1   95
-                                      29   1   84
-
-                       xxxv        30-35   1  247
-
-                       xxxviii        35   2  275
-
-                       xl             34   1   84
-
-
-LEVITICUS.
-
-                       Chapter.   Verse. Vol Page
-
-                       xi                  2  540
-                                      44   1  340
-
-                       xiv             2   1  564
-
-                       xvi            21   1  570
-
-                       xviii           5   1  480
-                                       5   2   13
-                                       5   1  331
-                                       5   2   36
-
-                       xix             2   1  615
-                                      12   1  349
-                                      16   1  369
-                                      18   1  377
-
-                       xx              6   1   85
-
-                       xxvi           12   1  390
-                                      12   1  391
-                                      20   2  130
-                                   23 24   1  204
-                                      26   2  131
-                                      36   1  213
-                                      36   1  283
-
-
-NUMBERS.
-
-                       Chapter.   Verse. Vol Page
-
-                       viii           17   2  523
-
-                       xi              9   1   84
-                                      18   2  139
-                                      31   1  190
-                                      33   2  139
-
-                       xii             1   1   84
-
-                       xiii           22   1  354
-
-                       xiv            18   1  345
-                                      43   1  294
-
-                       xvi            24   1   84
-
-                       xx             11   1   84
-
-                       xxiii          10   1  397
-                                      19   1  209
-                                       4
-                       xxviii          3   2  245
-
-
-DEUTERONOMY
-
-                       Chapter.   Verse. Vol Page
-
-                       i           16 17   2  636
-                                   16 17   2  638
-                                   16 17   2  642
-                                      39   2  509
-
-                       ii             30   1  214
-                                      30   1  280
-                                      30   1  281
-
-                       iv              2   2  355
-                                   5 6 9   1  332
-                                       6   2    9
-                                       7   2  195
-                                      11   1   99
-                                      15   1   98
-                                      17   1  344
-                                      37   2  145
-
-                       v           14 15   1  357
-
-                       vi              5   2   65
-                                      13   1  350
-                                      16   2  435
-                                      25   2   40
-
-                       vii             6   1  340
-                                       6   2  503
-                                     7 8   2  145
-                                       9   2   38
-                                   12 13   2   34
-
-                       viii            3   2  131
-                                       3   1  191
-
-                       ix            6 7   2  146
-
-                       x           12 13   1  373
-                                      14   1  415
-                                   14 15   2  145
-                                      16   2  496
-                                      16   1  291
-
-                       xi             22   1  373
-                                      26   2   34
-
-                       xii             5   2  523
-                                   28 32   2  332
-
-                       xiii           13   2  523
-
-                       xiv             2   1  340
-
-                       xvii         8 12   2  340
-                                      11   2  341
-                                   16 17   2  642
-                                      18   1   87
-                                   19 20   2  642
-
-                       xviii       10-12   1  606
-
-                       xix             5   1  216
-                                   18 19   2  649
-                                   19 21   2   39
-
-                       xxi         18 21   1  361
-
-                       xxiii               2  145
-
-                       xxiv           13   2   40
-
-                       xxvi           18   1  340
-
-                       xxvii          26   1  677
-                                      26   2   13
-                                      26   2   43
-
-                       xxviii          1   1  204
-                                       1   1  293
-
-                       xxix          3 4   1  251
-                                   19 20   2   39
-                                      29   1  197
-                                      29   2  143
-
-                       xxx                 1   81
-                                     3 4   2  244
-                                       6   2  496
-                                   11-14   1  397
-                                   12 14   1  196
-                                      14   2  181
-                                      15   2   34
-                                   15 19   1  315
-
-                       xxxii         8 9   1  415
-                                     8 9   1  145
-                                      15   1  633
-                                      15   1   86
-                                      17   2  449
-                                   46 47   1  324
-
-                       xxxiii          3   1  392
-                                      29   1  391
-
-
-JOSHUA.
-
-                       Chapter.   Verse. Vol Page
-
-                       i             7 8   2   36
-
-                       ii              1   2  190
-
-                       v              13   1  155
-
-                       vii            19   1  350
-
-                       x              13   1  185
-
-                       xxiv            2   1  105
-                                     2 3   2  180
-
-
-JUDGES.
-
-                       Chapter.   Verse. Vol Page
-
-                       ii              1   1  156
-
-                       vi             11   1  155
-                                      11   1  156
-                                      34   1  248
-                                   37-40   2  469
-
-                       viii           27   2  388
-
-                       ix             20   2   94
-
-                       xi          30-40   2  435
-
-                       xiii            3   1  156
-                                    3 22   1  155
-                                      19   2  388
-                                      22   1   48
-                                   22 23   1  125
-
-                       xv             14   1  248
-
-                       xvi            28   2   95
-
-                       xxi            25   2  641
-
-
-RUTH.
-
-                       Chapter.   Verse. Vol Page
-
-                       iii            13   1  353
-
-
-1. SAMUEL.
-
-                       Chapter.   Verse. Vol Page
-
-                       i              13   2  119
-
-                       ii              9   1  401
-                                       6   2  140
-                                      10   1  308
-                                      25   1  215
-                                      25   2  193
-                                      34   1  213
-
-                       vi              9   1  193
-
-                       vii             3   2  538
-                                      17   2  388
-
-                       viii            7   2  639
-                                   11-17   2  658
-
-                       x            6 26   1  249
-
-                       xi              6   1  283
-
-                       xii            22   2  146
-
-                       xiv            45   2  350
-
-                       xv             11   2   96
-                                      11   1  208
-                                      22   1  592
-                                   22 23   2  381
-                                      23   1  595
-                                      29   1  208
-                                      29   1  209
-                                      30   1  537
-
-                       xvi            13   1  249
-                                      14   1  281
-                                      14   1  214
-                                      14   1  164
-
-                       xviii          10   1  164
-                                      19   1  281
-
-                       xix            19   1  281
-
-                       xxiv         6 11   2  660
-
-                       xxvi         9-11   2  660
-                                      12   1  213
-                                      23   2   49
-
-
-2 SAMUEL.
-
-                       Chapter.   Verse. Vol Page
-
-                       v             6-8   2  521
-                                      14   1  593
-                                   27 28   2   93
-                                      27   2   92
-
-                       x              12   1  205
-
-                       xi           4 15   2  244
-
-                       xii            12   1  212
-                                      13   1  570
-                                      13   2  244
-                                   13 14   1  591
-                                   13-16   1  537
-                                      18   1  595
-
-                       xvi            10   1  213
-                                      10   1  203
-                                   10 22   1  217
-                                      22   1  212
-
-                       xvii         7 14   1  202
-                                      14   1  283
-
-                       xx          20 21   2   39
-
-                       xxiv            1   1  165
-                                      10   1  537
-
-
-1 KINGS.
-
-                       Chapter.   Verse. Vol Page
-
-                       i              21   1  652
-
-                       ii            5-9   2  644
-
-                       viii           23   2   38
-                                      27   2  124
-                                   46-50   2  245
-                                      56   1  270
-
-                       xi             13   1  308
-                                      23   1  208
-                                      31   1  213
-                                      39   1  308
-
-                       xii            10   1  283
-                                   10-15   1  202
-                                      15   1  318
-                                      20   1  217
-
-                       xv              4   1  308
-
-                       xviii          10   1  353
-                                      17   1   38
-                                      42   2   78
-
-                       xix            13   1   48
-                                   14 18   1   34
-                                      18   2  223
-
-                       xxi            27   1  559
-
-                       xxii            6   2  358
-                                 6 11-23   2   35
-                                      20   1  164
-                                   20-23   1  212
-                                      22   1  202
-                                   22 24   2  358
-                                      27   2  358
-
-
-2 KINGS.
-
-                       Chapter.   Verse. Vol Page
-
-                       v           17-19   1  523
-
-                       vi          15-17   1  160
-                                      17   1  156
-                                      31   1  350
-
-                       viii           19   1  308
-
-                       x            7-10   1  218
-
-                       xii         13-16   1  537
-
-                       xvi            10   2  387
-
-                       xvii        24-34   2  387
-
-                       xix             4   2   94
-
-                       xx           1  5   1  208
-                                       2   1  537
-                                       3   2   87
-                                       3   2   19
-                                      11   2  470
-                                      11   1  185
-
-                       xxi             4   2  387
-                                      16   2  190
-
-                       xxii            2   2  387
-                                       8   1   87
-
-
-1 CHRONICLES.
-
-                       Chapter.   Verse. Vol Page
-
-                       xxi             1   1  165
-
-
-2 CHRON.
-
-                       Chapter.   Verse. Vol Page
-
-                       x              15   1  218
-
-                       xvii            4   2  387
-
-                       xix           6 7   2  638
-
-
-EZRA.
-
-                       Chapter.   Verse. Vol Page
-
-                       xxxiii      14 15   2   49
-
-
-NEHEMIAH.
-
-                       Chapter.   Verse. Vol Page
-
-                       i               4   2  422
-                                       5   2   38
-
-                       ix             14   1  355
-
-
-JOB.
-
-                       Chapter.   Verse. Vol Page
-
-                       i                   1  279
-                                           1  672
-                                       6   1  164
-                                       6   1  167
-                                      12   1  202
-                                      21   1  212
-                                      21   1  203
-                                      21   1  215
-
-                       ii              1   1  164
-                                       1   1  167
-
-                       iv              6   1  680
-                                      17   1  317
-                                   17 20   1  676
-                                      18   2   43
-                                      19   1  172
-
-                       v              17   1  592
-
-                       ix              2   1  317
-                                     2 3   1  678
-                                      20   1  680
-
-                       x              15   2   16
-
-                       xii            18   2  659
-                                   20 24   1  280
-                                      24   1  249
-
-                       xiii           15   1  402
-                                      15   1  511
-
-                       xiv             4   1  226
-                                       4   1  680
-                                       5   1  193
-                                      17   1  589
-
-                       xv             14   1  317
-                                      15   2   43
-                                   15 16   1  676
-                                      16   1  680
-
-                       xix            25   1  401
-                                   25 27   2  205
-
-                       xxi            13   1  400
-
-                       xxv             4   1  317
-                                     4 6   1  680
-                                       5   2   43
-
-                       xxvi           14   1  197
-
-                       xxviii      21 28   1  197
-                                      28   1  516
-
-                       xli            11   2    6
-
-
-PSALMS.
-
-                       Chapter.   Verse. Vol Page
-
-                       i               1   2   44
-                                       2   1  324
-
-                       ii              1   1  448
-                                       8   1  416
-                                       9   1  452
-                                       9   1   23
-                                   10-13   2  661
-                                   10-13   2  637
-                                      12   1  308
-
-                       iii             5   1  527
-
-                       v               3   2   90
-                                       7   1  513
-                                       7   2   88
-
-                       vi              1   1  593
-
-                       vii             6   2   96
-                                       8   2   48
-                                      11   1  209
-
-                       viii            2   1  186
-                                     2 4   1   59
-
-                       ix             10   1  520
-
-                       x              11   1   55
-
-                       xii             2   2  459
-                                       6   1  505
-
-                       xiv             1   1   55
-                                     1-3   2    3
-
-                       xv              1   2  187
-                                     1 2   1  615
-                                     1 2   2   40
-
-                       xvi             2   1  375
-                                     2 3   1  624
-                                       5   1  407
-                                     5 6   2  215
-                                      10   2  202
-
-                       xvii          1 3   2   48
-                                      15   2  215
-                                      15   1  399
-
-                       xviii           1   2  113
-                                   21 23   2   48
-                                      24   2   48
-                                      27   1  681
-                                      30   2  505
-
-                       xix             1   1   74
-                                       1   1  578
-                                     1 3   1   58
-                                       7   1   93
-                                     7 8   1  324
-                                      12   1  576
-                                      12   1  578
-                                      12   2   36
-
-                       xx              3   2  100
-                                       9   1  309
-
-                       xxii            5   2  108
-                                      25   2  437
-
-                       xxiii           4   1  511
-                                       4   1  518
-                                       4   1  688
-                                       4   1  207
-                                       5   2  108
-                                       6   1  276
-
-                       xxiv          3 4   1  615
-                                       6   2  188
-
-                       xxv             1   2   80
-                                       7   1  551
-                                    7 18   2   85
-                                      10   1  496
-                                   10 11   2   36
-
-                       xxvi          1 4   2   48
-                                    9-11   2   48
-
-                       xxvii         1 3   1  207
-                                      10   2  121
-                                      14   1  508
-
-                       xxviii          8   1  308
-                                     8 9   1  310
-
-                       xxx             5   1  401
-                                     6 7   1  631
-
-                       xxxi            5   2  109
-                                      15   1  207
-                                      22   1  507
-
-                       xxxii         1 2   2   44
-                                      12   1  589
-                                       5   1  570
-                                       6   2   83
-                                       6   2  109
-
-                       xxxiii          6   1  132
-                                    6 13   1  183
-                                      12   1  518
-                                      12   2  146
-                                      12   1  391
-                                      18   2  125
-                                      22   2   90
-
-                       xxxiv         5 6   2  109
-                                       7   2  105
-                                       7   1  156
-                                       7   1  157
-                                      14   1  540
-                                      15   2   87
-                                      15   2   79
-                                      15   2  125
-                                   15 16   1  191
-                                      21   1  397
-                                      22   1  399
-
-                       xxxvi           1   2    3
-                                       1   1   55
-                                       5   1  496
-                                       6   1  196
-                                       9   1  250
-
-                       xxvii           7   1  527
-                                      29   1  407
-
-                       xxxviii         1   1  593
-
-                       xxxix         5-7   1  398
-                                       9   1  203
-                                      12   1  398
-                                      13   2   97
-
-                       xl              3   2  112
-                                       5   1  195
-                                     7 8   1  459
-                                   10 11   1  496
-                                      12   1   66
-
-                       xli             4   2   91
-
-                       xlii            2   2  546
-                                       4   1  569
-                                       5   1  507
-
-                       xliv            3   2  146
-                                      20   2  110
-                                      22   2  110
-
-                       xlv             7   1  450
-                                       7   2  644
-                                      10   1   29
-
-                       xlvi          1 2   1  527
-                                       5   2  223
-
-                       xlvii           4   2  145
-
-                       xlviii         10   2  125
-
-                       xlix            6   1  400
-
-                       l           14 23   2  599
-                                      15   2   91
-                                      15   2   92
-                                      15   2  111
-                                      15   2  571
-                                      15   2  112
-
-                       li              1   1  570
-                                       4   1  663
-                                       4   2  166
-                                       4   1  215
-                                       5   1  551
-                                       5   1  226
-                                       5   2  508
-                                       5   2   86
-                                      10   1  257
-                                      10   1  259
-                                      10   1  271
-                                      15   2  112
-                                      17   2   98
-
-                       lii             8   1  399
-
-                       lv             22   1  201
-                                   22 23   1  400
-
-                       lvi             9   2   90
-                                      12   2  437
-
-                       lix            10   1  276
-
-                       lx             12   2  135
-
-                       lxii            8   2   80
-                                       9   1  261
-
-                       lxiii           3   1  518
-                                       3   2   49
-
-                       lxv             1   2  115
-                                       2   2   92
-                                       4   2  147
-
-                       lxviii         18   1  127
-                                      20   2  205
-
-                       lxix         2 14   1  576
-                                       4   1  460
-                                      21   2  540
-                                      28   2  188
-                                      28   1  401
-
-                       lxxii           8   1  416
-                                   10 11   2  297
-
-                       lxxiii          2   1  399
-                                       2   1  645
-                                   16 17   1  399
-                                      26   1  407
-
-                       lxxiv           9   1  446
-
-                       lxxv          6 7   1  190
-
-                       lxxvii     7 9 10   1  507
-                                      11   1  521
-
-                       lxxviii         8   1  296
-                                   36 37   1  559
-                                      49   1  164
-                                   67 68   2  147
-                                68 70 71   1  308
-
-                       lxxix          13   1  629
-                                   67 68   2  147
-
-                       lxxx            1   2  225
-                                       1   1  341
-                                       3   1  517
-                                       4   2   98
-                                      17   1  309
-
-                       lxxxii          1   2  638
-                                       1   2  661
-                                     1 6   1  636
-                                     3 4   1  642
-                                       6   1  141
-                                       6   1  425
-                                       6   2  523
-                                       6   1  155
-
-                       lxxxiv              2  227
-                                       2   1  407
-                                       7   2  546
-
-                       lxxxvi          2   2   87
-                                      11   1  272
-
-                       lxxxviii       15   1  576
-                                      16   1  596
-
-                       lxxxix        3 4   2  239
-                                   30-33   2  246
-                                   30-33   1  593
-                                   35-37   1  448
-
-                       xc              4   1  533
-                                     7-9   1  596
-
-                       xci             1   1  201
-                                     3-6   1  207
-                                      11   2  105
-                                   11 12   1  155
-                                      12   1  158
-                                      12   1  201
-                                      15   2   93
-
-                       xcii            6   1   66
-                                      12   1  399
-
-                       xciii           5   1   70
-
-                       xciv           11   1  256
-                                      11   2    3
-                                   12 13   1  596
-
-                       xcv             7   1  494
-                                       8   1  296
-
-                       xcvii           7   1  140
-                                   10 11   1  398
-
-                       xcix            1   1  341
-                                       5   2  227
-                                      34   1  256
-
-                       c               3   2  146
-                                       3   1  268
-
-                       ci            3-2   2  642
-                                       8   2  644
-
-                       cii            17   2  112
-                                      25   1  140
-                                   25-28   1  398
-
-                       ciii           17   1  398
-                                      17   1   74
-                                      20   2  128
-                                      20   1  153
-
-                       civ             2   1   58
-                                     3 4   1  190
-                                      15   1  646
-                                   27-30   1  183
-
-                       cv              4   2  227
-                                     6 8   2  146
-                                      25   1  214
-                                      25   1  281
-
-                       cvi             3   2   44
-                                     4 5   2  224
-                                   30 31   2   40
-                                      31   2   41
-                                      39   2   96
-                                      46   1  283
-                                      47   2  112
-
-                       cvii                2   95
-                                      16   1  463
-                                   25 29   1  190
-                                      40   1  213
-                                      40   1  249
-                                      43   1   64
-
-                       cx              1   1  448
-                                       4   2  586
-                                       4   1  408
-                                       4   1  453
-                                       4   1  315
-                                       6   1  452
-
-                       cxi             1   2  459
-                                       2   1  217
-                                      10   1  516
-                                      10   1  265
-                                      10   2    9
-
-                       cxii            1   2   44
-                                       6   1  399
-                                    9 10   1  398
-
-                       cxiii               1  106
-                                           1  107
-                                     5 6   1  189
-                                       7   1   64
-
-                       cxv             3   1  215
-                                       3   2  196
-                                       3   1  211
-                                       3   1  185
-                                       8   1  101
-
-                       cxvi            1   2  113
-                                       3   1  576
-                                       7   1  507
-                                      12   2  112
-                                   14 18   2  437
-                                      15   1  397
-                                      15   1  401
-
-                       cxvii           2   1  496
-
-                       cxviii          6   1  207
-                                      18   1  592
-                                   25 26   1  309
-
-                       cxix                1  259
-                                       1   2   44
-                                      10   2  459
-                                      18   1  252
-                                      34   1  256
-                                      34   1  259
-                                   33-40   1  296
-                                      36   1  270
-                                      41   1  520
-                                      43   1  508
-                                      71   1  592
-                                      76   2   94
-                                   76 77   1  686
-                                     105   1  324
-                                     112   1  296
-                                     133   1  272
-                                     146   1  520
-                                     147   1  520
-
-                       cxxvii          3   1  191
-
-                       cxxx            3   1  676
-                                       3   2   49
-                                       4   2   23
-                                       4   1  535
-
-                       cxxxi         1 2   1  628
-
-                       cxxxii          7   2  227
-                                      11   1  429
-                                      11   1  432
-                                   13 14   2  239
-                                      14   2  225
-
-                       cxxxiii         3   1  407
-
-                       cxxxv          15   1  100
-
-                       cxxxvi         25   1  191
-
-                       cxxxviii        1   2  459
-                                       2   1  496
-                                       8   2  186
-
-                       cxl            13   1  399
-
-                       cxli            2   2  599
-                                       2   2   94
-
-                       cxlii           5   1  407
-                                       7   2  109
-
-                       cxliii          2   2   16
-                                       2   2   49
-                                       2   2   85
-                                       2   1  677
-                                       2   1  317
-                                     3 4   1  576
-                                       5   1  521
-
-                       cxliv               1   65
-                                      15   1  391
-
-                       cxlv                1   96
-                                       6   1   65
-                                     8 9   1  519
-                                       9   2  196
-                                       9   1   63
-                                      18   2   93
-                                      18   2   79
-                                      19   2   80
-                                      19   2   92
-
-                       cxlvii          9   1  189
-                                      10   1  242
-                                      20   2  147
-
-
-PROVERBS.
-
-                       Chapter.   Verse. Vol Page
-
-                       i               7   1  516
-                                       7   2    9
-
-                       ii             22   1  407
-
-                       iii            11   1  592
-                                   11 12   1  634
-
-                       viii           15   2  639
-                                   15 16   2  636
-                                      22   1  444
-
-                       ix             10   2    9
-                                      10   1  516
-
-                       x               7   1  401
-                                      12   1  598
-                                      12   1  591
-
-                       xii            14   2   51
-                                      28   2   49
-
-                       xiii           13   2   51
-
-                       xiv            21   2   44
-                                      26   2   19
-
-                       xv              8   2   10
-
-                       xvi             1   1  296
-                                       1   1  189
-                                       2   1  680
-                                       4   2  169
-                                       6   1  591
-                                       6   1  598
-                                       9   1  199
-                                      12   2  644
-                                      14   2  663
-                                      33   1  190
-
-                       xvii           11   2  644
-                                      15   2  644
-
-                       xviii          10   2   92
-                                      10   1  130
-
-                       xix            17   2   57
-
-                       xx              7   2   49
-                                       7   1  347
-                                       8   2  644
-                                       9   1  685
-                                      12   1  283
-                                      24   1  189
-                                      26   2  644
-                                      28   2  645
-
-                       xxi             1   1  213
-                                       1   1  283
-                                       2   1  680
-
-                       xxii           28   1   29
-
-                       xxiv           21   2  654
-                                      24   2  644
-
-                       xxv             2   2  143
-                                     4 5   2  644
-                                      21   1  377
-                                      27   2  142
-
-                       xxvi           10   2  167
-
-                       xxvii          15   2  644
-
-                       xxviii          2   2  659
-                                      14   1  513
-
-                       xxix           13   1  190
-                                      18   1   23
-
-                       xxx                 1  380
-                                       4   1  443
-                                       5   1  505
-                                      20   1  579
-
-
-ECCL.
-
-                       Chapter.   Verse. Vol Page
-
-                       iii            19   1  528
-                                      21   2  206
-
-                       vii            20   1  317
-                                      20   2   10
-                                      29   1  304
-                                      29   1  231
-
-                       ix              1   1  687
-                                     1 2   1  528
-                                       4   2  206
-                                     5 6   1  106
-                                       7   1  171
-
-
-ISAIAH.
-
-                       Chapter.   Verse. Vol Page
-
-                       i               3   1   26
-                                      12   2   16
-                                   13 14   2  256
-                                   13-16   2    9
-                                      15   2   84
-                                   16 17   1  540
-                                      18   1  589
-                                   19 20   1  293
-
-                       iii             1   1  191
-                                       1   2  297
-                                       8   1  448
-
-                       iv              2   2   16
-
-                       v               8   2   69
-                                      26   1  213
-                                      26   1  281
-
-                       vi              1   1  140
-                                       2   1   48
-                                       2   1  100
-                                       5   2  341
-                                       6   1  127
-                                       9   2  176
-                                       9   1  132
-                                       9   1   55
-                                    9 10   2  192
-
-                       vii             2   1  508
-                                       4   1  508
-                                      14   1  309
-                                      18   1  281
-
-                       viii        12 13   1   32
-                                      14   1  127
-                                      14   1  140
-                                      16   2  160
-                                      17   1  533
-
-                       ix              6   1  124
-                                       6   1  446
-                                       6   1  687
-                                       6   1  482
-
-                       x             1 2   2  661
-                                       5   1  213
-                                       6   1  214
-                                      15   1  281
-
-                       xi              2   2  137
-                                       2   1  264
-                                       2   1  450
-                                     2 3   2  621
-                                       4   1   23
-                                       9   2  643
-                                      10   1  129
-
-                       xii             1   1  593
-
-                       xiv             1   2  147
-                                      27   1  210
-
-                       xvii           24   2  124
-
-                       xix            18   1  349
-                                      19   2  589
-                                   23 24   2  589
-                                      25   1  213
-
-                       xxiv           23   1   48
-
-                       xxv             1   2  183
-                                       8   1  644
-                                       9   1  143
-                                       9   1  126
-
-                       xxvi            1   1  201
-                                      19   2  204
-                                   19 21   1  403
-                                      21   2  213
-
-                       xxviii         16   1  129
-
-                       xxix           13   2  378
-                                      13   2   84
-                                   13 14   2  386
-                                   13 14   2  116
-                                      14   2  379
-                                      14   1  213
-
-                       xxx            16   1  527
-                                      32   2  218
-
-                       xxxiii      14 15   1  676
-                                   14 15   2   40
-                                      22   1  391
-                                      22   1  452
-                                      22   2  371
-                                      24   2  241
-
-                       xxxv            8   2  239
-                                      10   1  615
-
-                       xxxvii         16   1  341
-                                      35   1  481
-                                      35   2  224
-                                      36   1  156
-
-                       xxxviii       1 5   1  208
-                                       2   1  537
-                                      17   1  589
-                                      20   2  112
-
-                       xxxix           6   1   86
-                                       7   1  345
-                                   13 14   2  379
-
-                       xl            1 3   1  535
-                                       2   1  595
-                                       8   1  390
-                                   10 11   2  630
-                                      14   2  600
-                                      18   1   98
-                                      21   1  101
-                                      21   1  150
-                                   29-31   1  242
-
-                       xli          7 29   1   98
-                                       9   2  147
-
-                       xlii            1   1  466
-                                       1   1  436
-                                       8   1  125
-                                       9   1   87
-                                      10   2  112
-                                      13   2  630
-
-                       xliii          10   1   80
-                                   11 25   1  575
-                                      25   1  585
-                                      25   1  128
-                                      28   1  593
-
-                       xliv            3   1  487
-                                       3   1  242
-                                       3   1  529
-                                       6   1  141
-                                    9-20   1  101
-                                      22   1  589
-
-                       xlv             1   1   86
-                                       7   1  216
-                                       7   1  204
-                                      23   1  140
-                                      23   1  127
-                                   23-25   1  684
-                                      25   2   16
-
-                       xlvi            5   1   98
-
-                       xlvii           6   1  593
-
-                       xlviii         10   1  593
-                                      16   1  130
-
-                       xlix           15   1  121
-                                      23   2  637
-
-                       li              1   1  261
-                                       6   1  398
-                                      23   2  637
-
-                       lii             7   2  261
-
-                       liii            1   2  161
-                                       1   1   81
-                                     2 4   2  542
-                                       4   1  422
-                                       4   1  466
-                                       5   1  314
-                                       5   1  459
-                                       5   1  465
-                                       5   1  480
-                                     5 6   1  586
-                                       6   1  590
-                                       6   1  680
-                                       6   2  190
-                                       6   1  461
-                                       6   1  590
-                                       7   1  458
-                                       8   1  480
-                                      10   1  460
-                                      11   1  658
-                                      12   1  460
-
-                       liv           7 8   1  401
-                                      13   1  494
-                                      13   1   80
-
-                       lv              1   1  242
-                                       1   1  487
-                                       1   2   25
-                                       2   2   16
-                                       2   2  378
-                                       3   1  494
-                                       3   1  310
-                                       4   1  446
-                                     6 7   1  553
-
-                       lvi             1   1  553
-                                       2   1  354
-                                       7   2  115
-                                   10 11   2  356
-                                      15   1  681
-
-                       lviii           5   2  425
-                                       6   1  539
-                                       7   1  624
-                                   13 14   1  356
-
-                       lix           1 2   1  673
-                                   15 16   2    7
-                                      17   1  665
-                                      20   1  553
-                                      20   1  554
-                                      21   1   79
-                                      21   2  225
-                                      21   1   91
-
-                       lx              1   1  261
-                                     6 7   2  297
-                                      16   1  242
-
-                       lxi             1   1  553
-                                       1   1  563
-                                     1 2   1  447
-                                     1-3   1  682
-                                       3   2   17
-
-                       lxiii          10   1  132
-                                      16   2  107
-                                      16   2  121
-                                      17   1  554
-                                      17   1  280
-
-                       lxiv            6   1  515
-                                     5-9   2   85
-
-                       lxv             1   2  180
-                                       2   2  198
-                                      16   1  349
-                                      24   2   92
-                                      25   2  643
-
-                       lxvi            1   2  124
-                                       1   2  116
-                                       2   1  681
-                                      22   1  403
-                                      23   1  356
-                                      24   2  218
-                                      24   1  203
-
-
-JEREMIAH.
-
-                       Chapter.   Verse. Vol Page
-
-                       i               6   2  341
-                                    9 10   2  341
-                                      23   1  281
-                                      25   1  212
-
-                       ii             13   1   24
-                                      28   2  104
-
-                       iii        1 2 12   2  245
-                                       1   1  293
-                                     1 2   1  345
-
-                       iv              1   1  293
-                                   1 3 4   1  539
-                                    2 12   2   94
-                                       4   1  539
-                                       4   1  291
-                                       4   2  510
-                                       9   2  358
-                                       9   1   35
-
-                       v               3   2   10
-                                       3   1  297
-                                       7   1  349
-                                      14   2  192
-
-                       vi             13   2  356
-
-                       vii             4   2  250
-                                     5-7   2   34
-                                   13 14   1  295
-                                   22 23   2  378
-                                   22 23   2  381
-                                      27   1  295
-                                      28   1  295
-                                      29   1  295
-
-                       ix          23 24   1  684
-                                      24   1  130
-                                      24   1   96
-
-                       x               2   1  186
-                                       8   1  102
-                                      11   1  141
-                                      23   1  189
-                                   24 25   1  593
-
-                       xi              7   2  381
-                                     7 8   2   84
-                                      11   2   84
-                                      11   1  558
-                                      13   2  104
-                                      19   2  540
-
-                       xii            16   1  345
-
-                       xiv             7   2   85
-                                      14   2  356
-
-                       xv              1   2  105
-
-                       xvii            1   1  589
-                                       5   1  242
-                                       9   1  261
-                                       9   2    3
-                                   21 22   1  354
-                                      27   1  354
-
-                       xviii          18   2  357
-                                      18   1   35
-
-                       xxii            3   2  642
-                                       3   2  643
-
-                       xxiii         5 6   1  310
-                                       6   1  125
-                                       6   1  658
-                                      16   2  362
-                                      28   2  341
-
-                       xxiv            7   1  251
-
-                       xxv         11 12   1   86
-                                      29   1  595
-
-                       xxvii         5-9   2  659
-                                      12   2  659
-
-                       xxix            7   2  659
-
-                       xxxi        11 18   1  265
-                                   18 19   1  291
-                                   18 19   2  196
-                                      31   1  411
-                                   31-34   1  589
-                                      32   1  293
-                                   33 34   2  131
-                                      33   1  340
-                                   35 36   2  239
-
-                       xxxii          16   2   96
-                                      18   1  345
-                                      23   1  295
-                                      39   1  270
-
-                       xxxiii          8   2  131
-                                      16   1  125
-                                      16   1  658
-
-                       xlii          2 9   2   94
-
-                       xlviii         10   2  638
-
-                       l              20   1  589
-
-
-LAMENTA.
-
-                       Chapter.   Verse. Vol Page
-
-                       iii             8   2   98
-                                      37   1  204
-                                      38   1  204
-
-                       iv             20   1  309
-
-
-EZEKIEL.
-
-                       Chapter.   Verse. Vol Page
-
-                       i              20   2  621
-
-                       ii              3   2  192
-
-                       iii            17   2  341
-                                   17 18   2  265
-
-                       vii            26   2  358
-                                      26   1  213
-
-                       xi             19   1  270
-                                   19 20   1  273
-                                   19 20   1  288
-
-                       xii             2   2  192
-                                      13   1  281
-
-                       xiii            9   2  188
-                                       9   2  224
-
-                       xiv             9   1  214
-                                      14   2  106
-                                      20   2  258
-
-                       xvi            20   2  514
-
-                       xvii           20   1  281
-
-                       xviii           2   1  346
-                                       4   1  331
-                                      20   1  345
-                                      20   1  380
-                                      20   1  588
-                                      21   1  558
-                                   21 22   1  578
-                                      24   2   11
-                                   24-28   1  589
-                                      31   1  539
-
-                       xx             12   1  354
-                                      12   1  355
-                                   43 44   1  684
-
-                       xxii            8   1  354
-                                   25 26   2  356
-                                      28   2  356
-
-                       xxiii          37   2  514
-                                      38   1  354
-
-                       xxviii         10   1  401
-
-                       xxix          3 4   1  208
-                                   18-20   2  657
-
-                       xxxi           18   1  401
-
-                       xxxiii          8   2  241
-                                      11   2  245
-                                      11   2  194
-
-                       xxxiv           4   2  408
-                                   23-25   1  310
-
-                       xxxvi          22   1  679
-                                      25   1  487
-                                      26   1  291
-                                      26   2  196
-                                   26 27   1  267
-                                      27   1  273
-                                      32   2   23
-
-                       xxxvii       1-14   2  205
-                                      18   1  403
-                                   24 26   2  310
-
-                       xlviii      21 22   2  647
-                                      35   1  125
-
-
-DANIEL.
-
-                       Chapter.   Verse. Vol Page
-
-                       ii             21   2  657
-                                      34   1   23
-                                   37 38   2  657
-
-                       iv             17   2  657
-                                      27   1  591
-                                      27   1  598
-
-                       v           18 19   2  658
-
-                       vi             22   2  662
-
-                       vii            10   1  157
-                                      10   1  155
-                                      25   2  335
-
-                       viii           16   1  157
-
-                       ix              5   1  570
-                                      18   2   94
-                                   18 19   2   84
-                                      20   2   85
-                                      21   1  157
-                                      24   1  447
-                                      24   1  453
-                                      26   1  314
-                                      27   2  258
-
-                       x           13 20   1  156
-                                   13 21   1  157
-
-                       xii             1   1  157
-                                       1   1  156
-                                     1 2   1  404
-                                       2   2  210
-                                       3   2  216
-
-
-HOSEA.
-
-                       Chapter.   Verse. Vol Page
-
-                       i               2   1  310
-
-                       ii              2   1  345
-                                   18 19   2  241
-                                   19 23   2    7
-
-                       iii             5   1  513
-                                       5   1  310
-                                      12   1  589
-
-                       v              11   2  663
-                                      15   1  298
-
-                       vi              1   1  536
-
-                       vii             8   1  597
-
-                       viii            4   1  217
-
-                       ix              8   2  356
-
-                       xii             5   1  126
-
-                       xiii           11   1  590
-                                      12   1  589
-
-                       xiv             2   1  590
-                                       2   2  112
-                                       4   2    8
-                                       4   2  599
-
-
-JOEL.
-
-                       Chapter.   Verse. Vol Page
-
-                       ii             12   1  550
-                                      12   1  291
-                                      13   2  424
-                                      13   1  549
-                                      15   2  423
-                                      28   2  589
-                                      28   1  447
-                                      28   1  486
-                                   28-32   1  137
-                                      32   2  224
-                                      32   2  223
-                                      32   2   92
-                                      32   1  130
-
-                       iii            17   2  239
-
-
-AMOS.
-
-                       Chapter.   Verse. Vol Page
-
-                       i               2   1  341
-
-                       iii             6   1  204
-                                       6   1  216
-
-                       iv              7   2  160
-                                       9   1  190
-
-                       v              14   1  293
-
-                       vi              1   2   69
-
-                       viii           11   2  160
-
-                       ix             11   1  310
-
-
-OBADIAH.
-
-                       Chapter.   Verse. Vol Page
-
-                       i              17   2  223
-
-
-JONAH.
-
-                       Chapter.   Verse. Vol Page
-
-                       i               4   1  190
-
-                       ii              9   2  112
-
-                       iii          4 10   1  208
-                                       5   2  423
-                                       5   1  537
-
-
-MICAH.
-
-                       Chapter.   Verse. Vol Page
-
-                       ii             13   1  310
-
-                       iii             6   2  358
-
-                       v               2   1  443
-
-                       vii             9   1  593
-                                      19   1  589
-
-
-HABAKKUK.
-
-                       Chapter.   Verse. Vol Page
-
-                       i              12   1  391
-
-                       ii              4   2   12
-                                      12   1  391
-                                      18   1  102
-                                      18   1   69
-                                      20   1  341
-                                      20   1   69
-                                      20   1   97
-
-                       iii             2   1  593
-                                      13   1  309
-
-
-ZEPHANIAH.
-
-                       Chapter.   Verse. Vol Page
-                       i             4 5   1  349
-
-                       iii         11 12   1  681
-
-
-HAGGAI.
-
-                       Chapter.   Verse. Vol Page
-
-                       i            6-11   1  190
-                                   11-14   2    9
-
-
-ZECHARIAH.
-
-                       Chapter.   Verse. Vol Page
-
-                       i               3   2  196
-                                       3   1  191
-                                       3   1  292
-
-                       ii              8   1  201
-                                      12   2  147
-
-                       iii          9 10   1  687
-
-                       ix              9   1  310
-                                       9   1  482
-                                      11   1  464
-
-                       xii             4   2  357
-
-                       xiii            9   2   91
-
-                       xiv             9   1  115
-
-
-MALACHI.
-
-                       Chapter.   Verse. Vol Page
-
-                       i             2 3   2  148
-                                       6   1  516
-                                       6   1  340
-                                      11   2  588
-                                      11   2  598
-
-                       ii            1-9   2  251
-                                     4-7   2  341
-                                     5-7   2  355
-                                     8 9   2  339
-
-                       iii             1   1  126
-                                       1   1  159
-                                      17   2   66
-
-                       iv              2   1  380
-                                       2   1  664
-                                       4   2  344
-                                       5   1  385
-                                       6   2  228
-
-
-MATTHEW.
-
-                       Chapter.   Verse. Vol Page
-
-                       i               1   1  429
-                                       5   1  454
-                                      16   1  434
-                                      21   1  434
-
-                       iii           1-6   2  617
-                                       2   1  552
-                                       2   1  538
-                                     2 3   1  535
-                                       6   1  566
-                                    6 11   2  515
-                                    6 11   2  481
-                                      11   2  482
-                                      12   2  218
-                                      12   2  235
-                                      15   1  458
-                                      16   1   99
-                                      16   2  546
-                                      17   1  630
-                                      17   2  183
-                                      17   1  522
-
-                       iv              4   2  131
-                                       6   1  158
-                                       7   2  435
-                                      10   1  114
-                                      11   1  156
-                                      17   1  535
-                                      19   2  521
-
-                       v           3 5 7   2   44
-                                       4   1  636
-                                      10   1  634
-                                      12   2  216
-                                      12   2   51
-                                   12 14   2   96
-                                   13 14   2  261
-                                   13 14   2  295
-                                   13 14   2  342
-                                      16   2   32
-                                   17 18   1  325
-                                      19   1  379
-                                      22   1  363
-                                      22   1  334
-                                   23 24   1  572
-                                      25   1  608
-                                      28   1  334
-                                      34   1  351
-                                   38-40   2  653
-                                   39 40   2  652
-                                      44   1  625
-                                      44   2  653
-                                   44 45   1  377
-                                      45   2   96
-                                      45   2  214
-                                      46   1  377
-                                      48   2  198
-
-                       vi              6   2  114
-                                       7   2  114
-                                       9   2  119
-                                      12   2  243
-                                      12   1  600
-                                      21   2  200
-                                      21   2   56
-                                      23   1  515
-                                      26   1  183
-
-                       vii             6   2  566
-                                       7   2   91
-                                      11   2  121
-                                      12   1  375
-                                      15   2  362
-
-                       viii            4   1  564
-                                      10   1  503
-                                      11   1  404
-                                      11   2  503
-                                      12   2  218
-                                      25   1  510
-                                      29   1  167
-
-                       ix              2   1  503
-                                       2   2   86
-                                       2   1  597
-                                       2   1  574
-                                       5   2  262
-                                       6   1  128
-                                      12   1  422
-                                      13   2    7
-                                      13   1  553
-                                      13   1  682
-                                      15   2  424
-                                      15   1  550
-                                      29   1  583
-                                      29   1  534
-                                      34   1  557
-                                      35   1  382
-
-                       x             5 6   1  416
-                                       8   1  129
-                                      18   1  565
-                                      20   2  609
-                                      28   2  210
-                                      28   1  173
-                                      29   1  183
-                                      29   1  189
-                                   29 30   1  201
-                                      30   1  184
-                                      33   2  246
-
-                       xi              5   1  553
-                                      10   1  552
-                                      11   1  385
-                                      21   1  551
-                                      25   1  524
-                                      27   2  342
-                                      28   1  682
-                                      28   1  563
-                                   28 29   2   61
-                                      29   2   32
-
-                       xii            24   1  557
-                                      29   1  161
-                                      31   1  556
-                                      31   1  132
-                                   31 32   1  555
-                                   31 32   1  556
-                                      32   1  607
-                                      43   1  166
-                                   43-45   1  162
-
-                       xiii         3-23   2  461
-                                     4-7   2  565
-                                       9   2  176
-                                      11   2  193
-                                      16   1  381
-                                      16   1  411
-                                      24   2  235
-                                   25 28   1  163
-                                      29   2  419
-                                   31 33   2  630
-                                      47   2  521
-                                      47   2  235
-
-                       xv            4-6   1  361
-                                       6   2  373
-                                     7-9   2  378
-                                     8 9   2  116
-                                       9   2  386
-                                      13   1  502
-                                      13   1  272
-                                      13   2  185
-                                      13   2  164
-                                      14   2   71
-                                      14   2  362
-                                      24   1  416
-
-                       xvi             6   2  389
-                                      16   2  305
-                                      17   1  250
-                                      17   1  524
-                                      17   1  488
-                                      18   2  304
-                                   18 19   2  302
-                                      19   1  572
-                                      19   2  242
-                                      19   2  396
-                                      23   2  337
-                                      24   1  629
-                                      27   2   50
-                                      27   2   32
-
-                       xvii            5   1  447
-                                       5   2  136
-                                       5   2  344
-                                       5   2  340
-                                       5   1  522
-                                       5   1  630
-                                      11   1  415
-
-                       xviii          10   1  156
-                                      10   1  158
-                                      11   1  422
-                                      15   2  412
-                                   15-17   2  412
-                                   15-18   2  395
-                                      17   2  352
-                                   17 18   2  397
-                                      18   1  574
-                                      18   1  572
-                                      18   2  615
-                                      18   2  342
-                                      18   2  257
-                                      18   2  242
-                                      18   2  303
-                                      18   2  342
-                                      18   1  580
-                                      20   2  116
-                                      20   2  355
-                                      20   2  231
-
-                       xix            11   1  364
-                                      11   2  449
-                                      12   1  365
-                                   13-15   2  449
-                                      15   2  271
-                                      16   2  444
-                                      17   2   60
-                                      17   1  129
-                                      17   1  142
-                                   18 19   1  374
-                                      20   2  445
-                                      21   2  444
-                                   25 26   1  318
-                                      29   2  216
-
-                       xx              1   2   53
-                                   25 26   2  403
-                                   25 26   2  404
-                                      28   1  458
-
-                       xxi             9   1  311
-                                      22   2   88
-                                      25   2  606
-
-                       xxii           12   2  580
-                                      13   2  218
-                                      14   2  185
-                                      30   2  224
-                                      30   1  175
-                                      30   1  158
-                                      32   1  340
-                                      32   2  495
-                                   32-34   1  392
-                                   37-40   1  338
-
-                       xxiii           3   2  388
-                                       4   2  366
-                                    8 10   2  345
-                                       8   2  340
-                                       9   2  122
-                                      12   1  681
-                                      23   1  374
-                                      37   2  197
-
-                       xxiv        11 24   2  356
-                                      14   1  565
-                                      24   1   28
-                                      30   1  473
-                                      36   1  158
-                                      45   2  522
-
-                       xxv         21 29   2   25
-                                      23   1  274
-                                      29   1  274
-                                      31   1  158
-                                      31   1  473
-                                      32   2  214
-                                      34   2  198
-                                      34   2   54
-                                      34   2   52
-                                   34-36   2   51
-                                      40   2   57
-                                      41   1  167
-                                      41   1  162
-
-                       xxvi          3 4   1   35
-                                      11   2  553
-                                   10 12   2  212
-                                   26 28   2  526
-                                   26-28   2  544
-                                      27   2  364
-                                      28   1  479
-                                      28   1  409
-                                      39   1  468
-                                      52   2  211
-                                      53   1  157
-                                      69   2  246
-
-                       xxvii         3 4   1  537
-                                   12 14   2  459
-                                   18 23   1  460
-                                      24   1  460
-                                      46   1  465
-                                      46   1  468
-                                      51   1  326
-                                      52   1  404
-                                      66   2  203
-
-                       xxviii        3-6   2  203
-                                       5   1  156
-                                      11   2  203
-                                      18   2   26
-                                      19   2  480
-                                      19   2  264
-                                      19   2  492
-                                   19 20   2  345
-                                   19 20   2  516
-                                   19 20   2  342
-                                      20   1   33
-                                      20   2  348
-                                      20   2  560
-                                      20   2  231
-                                      20   1  471
-
-
-MARK.
-
-                       Chapter.   Verse. Vol Page
-
-                       i               4   1  552
-                                      15   1  552
-
-                       ii              5   1  503
-
-                       iii            15   1  129
-                                   28 29   1  555
-                                      29   1  132
-
-                       vi             13   2  617
-
-                       viii           38   2  246
-
-                       ix             24   2  459
-                                   43 44   2  218
-
-                       x               9   2   21
-                                   13-16   2  499
-                                      30   2   54
-
-                       xi             21   1  160
-                                      24   2   88
-
-                       xiii           32   1  437
-
-                       xiv         22 24   2  526
-                                   22 24   3  544
-
-                       xv             28   1  460
-
-                       xvi             9   1  162
-                                      15   2  262
-                                      16   2  477
-                                      16   2  516
-                                      19   2  554
-                                      20   1   27
-
-
-LUKE.
-
-                       Chapter.   Verse. Vol Page
-
-                       i               6   2   41
-                                      15   2  509
-                                   19 26   1  157
-                                      32   1  442
-                                      34   2  552
-                                      35   1  440
-                                      43   1  439
-                                      54   1  388
-                                      72   1  388
-                                      72   1  423
-                                      74   2   31
-                                      75   2   31
-                                      77   1  673
-                                      79   1  423
-
-                       ii             34   1   39
-                                      37   2  422
-                                      52   2  436
-
-                       iii             3   1  552
-                                       3   2  481
-                                       3   2  617
-                                      14   2  646
-                                      16   1  487
-                                      16   1  489
-                                      23   2  517
-                                      38   1  426
-
-                       iv             10   1  158
-                                      18   1  553
-                                      18   1  563
-
-                       v              14   1  564
-                                      34   2  424
-                                      35   2  424
-
-                       vi             23   2   51
-                                   24 25   2   69
-
-                       vii            29   1  652
-                                      35   1  652
-                                      39   1  599
-
-                       viii         5-15   2  461
-                                      30   1  162
-                                      47   1  591
-
-                       ix             20   1  450
-                                      23   2   28
-                                      26   1  158
-
-                       x               1   2  263
-                                      16   2  261
-                                      16   2  342
-                                      18   1  166
-                                      20   2  188
-                                      22   2  601
-                                      22   1  490
-                                      24   1  381
-                                      24   1  411
-                                      27   1  338
-                                      27   1  373
-                                      30   1  304
-
-                       xi              2   2  119
-                                      21   1  166
-                                      21   1  161
-                                   39-41   1  599
-                                      46   2  366
-
-                       xii           4 5   1  173
-                                      10   1  132
-                                      10   1  555
-                                      14   2  404
-
-                       xiii           29   2  503
-
-                       xiv            11   1  681
-                                      21   2  521
-
-                       xv              7   1  156
-                                      10   1  158
-                                      11   2  122
-
-                       xvi             2   1  649
-                                       9   2   56
-                                      15   1  652
-                                      15   1  677
-                                      16   1  326
-                                      16   1  410
-                                      16   1  414
-                                      22   1  156
-                                      22   1  158
-                                      22   1  173
-
-                       xviii         3 4   1  625
-                                       5   2  459
-                                       9   2   15
-                                      10   2   23
-                                      10   2   14
-                                      14   1  564
-                                   20 21   1  450
-
-                       xviii          11   2  114
-                                      13   1  682
-                                      13   1  577
-                                      14   1  597
-                                      14   1  653
-                                      14   1  681
-                                   15-17   2  499
-
-                       xix            17   1  274
-                                      26   1  274
-
-                       xx          37 38   2  495
-                                   37-40   1  392
-
-                       xxi            15   2  268
-                                      28   1  644
-
-                       xxii           10   2  572
-                                      17   2  592
-                                      17   2  578
-                                      19   2  264
-                                   19 20   2  526
-                                   19 20   2  544
-                                      20   2  530
-                                      25   2  403
-                                   25 26   2  639
-                                   25 26   2  404
-                                      26   2  403
-                                      43   1  156
-                                      44   1  636
-                                      62   1  597
-
-                       xxiii         2 5   1   38
-                                      40   2  190
-                                      43   2  208
-                                      46   1  171
-
-                       xxiv           11   2  203
-                                      16   2  559
-                                      26   2   57
-                                      26   1  482
-                                      27   1   94
-                                      31   2  559
-                                      39   2  558
-                                      39   1  437
-                                      44   1  609
-                                      45   1  525
-                                      46   1  423
-                                   46 47   1  552
-                                      47   1  423
-                                      51   2  554
-
-
-JOHN.
-
-                       Chapter.   Verse. Vol Page
-
-                       i               1   1  121
-                                    1 14   1  127
-                                       2   1  124
-                                       4   1  176
-                                       4   1  250
-                                       4   1  307
-                                       5   1  244
-                                       9   1  422
-                                      12   1  307
-                                      12   2   25
-                                      12   2  161
-                                   12 13   1  488
-                                   12 14   2  121
-                                      13   1  250
-                                      13   2  161
-                                      14   1  435
-                                      16   1  450
-                                      17   1  327
-                                      18   1  381
-                                      18   1  134
-                                      18   2  561
-                                      18   2  601
-                                      23   1  385
-                                      29   1  384
-                                      29   1  437
-                                      29   1  586
-                                      29   1  458
-                                      29   2  481
-                                      29   1  479
-                                   40-42   2  304
-                                      51   1  382
-                                      51   1  161
-
-                       ii             19   1  439
-                                      19   2  210
-                                      24   1  502
-                                      25   1  502
-
-                       iii           3 5   2  508
-                                       5   2  515
-                                     5 6   1  228
-                                       6   1  260
-                                      13   1  437
-                                      13   2  561
-                                      14   1  423
-                                   15 16   2  184
-                                      16   1  457
-                                      16   1  422
-                                      16   1  482
-                                      16   1  477
-                                      16   2   17
-                                      18   2  516
-                                      23   2  481
-                                      27   1  450
-                                      33   1  497
-                                      34   1  429
-                                      34   1  450
-                                      36   2  520
-
-                       iv              1   2  481
-                                      14   1  487
-                                      22   1   69
-                                      22   1   75
-                                      22   1  307
-                                      23   2  377
-                                      23   2  116
-                                      24   1  144
-                                      25   2  345
-                                      25   1  446
-                                   35-38   2  522
-                                      42   1  493
-                                   50-53   1  493
-
-                       v               8   2  626
-                                      17   1  436
-                                      17   1  123
-                                      17   1  187
-                                      18   1  128
-                                   21-23   1  437
-                                      22   1  475
-                                      24   1  308
-                                      24   2   26
-                                      24   2  184
-                                      24   2  199
-                                      25   2    6
-                                      25   1  305
-                                      25   1  422
-                                      26   2  532
-                                   28 29   2  205
-                                   28 29   2  210
-                                      29   2   50
-                                      32   1  134
-                                      35   1  385
-                                      36   1  129
-                                      46   1  381
-
-                       vi             27   2  475
-                                      27   2   51
-                                      29   2   61
-                                      35   2  530
-                                      33   2  538
-                                   35-58   2  184
-                                35 55-58   2  528
-                                   37 39   2  157
-                                   37 39   2  185
-                                      38   1  437
-                                   39 40   2  162
-                                   39 40   2  213
-                                      44   1  251
-                                      44   2  179
-                                      44   1  273
-                                      44   1  488
-                                   44 45   2  157
-                                   44 45   1  289
-                                   44 65   1  526
-                                      45   1  269
-                                      45   2  194
-                                      45   1  273
-                                      46   2  162
-                                      46   2  179
-                                      47   1  129
-                                   49 51   1  389
-                                      51   2  529
-                                   51 55   2  532
-                                      53   2  530
-                                      54   2  566
-                                      55   1  481
-                                   55-58   2  528
-                                      56   2  567
-                                      56   2  564
-                                      57   1  481
-                                      65   2  175
-                                      70   2  188
-
-                       vii            16   2  342
-                                      16   1  351
-                                      18   1   27
-                                      37   1  487
-                                      37   1  486
-                                   37 38   2  607
-                                   37 39   1  471
-                                      39   2  548
-
-                       viii           12   1  490
-                                      12   1  664
-                                   16 18   1  134
-                                   31 32   1  502
-                                      34   1  259
-                                      44   1  166
-                                      44   1  163
-                                      47   2  253
-                                      50   1   27
-                                      50   1  437
-                                      56   1  381
-                                      56   1  388
-                                      58   1  436
-
-                       ix              3   1  195
-                                       5   1  437
-                                       7   2  618
-                                      24   1  350
-                                      31   2   87
-
-                       x             4 5   2  162
-                                  4 5 14   2  252
-                                    9 11   1  437
-                                      11   2  630
-                                   15 18   1  458
-                                   17 18   1  423
-                                      18   1  351
-                                      26   2  162
-                                      27   2  252
-                                   27-29   2  185
-                                   28 29   2   26
-                                      29   2  162
-                                      30   1  351
-                                      35   2  523
-                                      35   2  636
-                                      37   1  129
-
-                       xi             25   2  214
-                                      25   2  508
-                                      25   1  422
-                                      43   2  626
-                                      44   1  565
-
-                       xii            27   1  423
-                                      27   1  468
-                                   27 28   1  469
-                                      31   1  166
-                                      31   1  161
-                                   37 38   2  193
-                                   39 40   2  193
-                                      41   1  140
-                                      41   1  127
-                                      43   1  659
-
-                       xiii           15   2   32
-                                      18   2  158
-                                      18   2  188
-
-                       xiv             1   1  129
-                                       1   1  311
-                                     2 3   2  553
-                                       6   1  490
-                                       6   2  508
-                                       7   1  529
-                                      10   1  437
-                                   10 11   1  135
-                                      13   2   99
-                                      16   1  134
-                                   16 17   2  348
-                                      17   1  488
-                                      26   2  345
-                                      26   2  351
-                                      28   2  553
-                                      28   1  146
-                                      30   1  165
-
-                       xv              1   1  437
-                                   1 4 5   1  271
-                                     1 5   2  630
-                                       5   1  240
-                                       5   1  287
-                                      16   2  153
-                                      16   2  159
-                                      16   2  228
-                                      19   2  158
-                                      26   1  134
-                                      26   2  351
-
-                       xvi             2   2  254
-                                       7   1  471
-                                       7   2  204
-                                      12   2  352
-                                      13   1   92
-                                      13   1  525
-                                      13   2  351
-                                      13   2  348
-                                      13   2  345
-                                      14   1  252
-                                      20   1  636
-                                      24   2  100
-                                   24 26   2   99
-
-                       xvii            1   1  423
-                                       3   1  145
-                                       3   1   24
-                                       3   1  306
-                                       3   1  491
-                                       3   1  490
-                                       5   1  124
-                                       5   1  436
-                                       6   2  179
-                                    6 12   2  185
-                                       9   2  157
-                                      12   2  188
-                                      15   1  297
-                                      19   1  435
-                                      19   1  430
-                                      19   1  665
-                                      19   1  482
-                                      19   1  433
-
-                       xviii           4   1  458
-                                      36   1  449
-                                      37   2  252
-                                      38   1  460
-
-                       xix            30   2  587
-                                      30   2  596
-
-                       xx             17   1  420
-                                      17   2  559
-                                      22   2  607
-                                      22   2  626
-                                   22 23   2  396
-                                      23   2  303
-                                      23   1  574
-                                      23   2  302
-                                      23   1  572
-                                      23   2  242
-                                      28   1  128
-                                      31   1  494
-
-                       xxi            16   2  302
-                                      18   1  637
-
-
-ACTS.
-
-                       Chapter.   Verse. Vol Page
-
-                       i             3 9   2  204
-                                       8   2  268
-                                       9   2  554
-                                      10   1  156
-                                      11   2  551
-                                      11   1  473
-                                      11   2  557
-                                      23   2  269
-                                      23   2  270
-
-                       ii              3   2  482
-                                       4   2  609
-                                      11   2  551
-                                   16-21   1  137
-                                      17   2  601
-                                      23   2  156
-                                      23   1  112
-                                      24   1  465
-                                      24   1  468
-                                      30   1  432
-                                      37   1  537
-                                      37   2  513
-                                      38   2  513
-                                   38 41   2  481
-                                      39   2  506
-                                      41   2  530
-                                      42   2  579
-                                      42   2  540
-                                      42   2  570
-
-                       iii             6   1  129
-                                      15   1  476
-                                      18   1  212
-                                      19   1  553
-                                      21   2  557
-                                      25   1  404
-                                      25   1  429
-                                      25   2  506
-                                      26   1  553
-
-                       iv             12   1  454
-                                      28   1  212
-                                      28   1  216
-                                      32   2  223
-
-                       v             3 4   1  132
-                                      29   2  663
-                                      31   1  553
-                                       4   1  635
-
-                       vi            1-3   2  267
-                                       2   2  404
-                                       6   2  272
-                                      10   1  556
-
-                       vii            44   1  313
-                                      48   2  116
-                                      48   2  228
-                                      49   2  228
-                                      49   2  124
-                                      53   1  158
-                                      55   2  204
-                                      55   2  559
-                                      55   1  472
-                                      56   1  472
-                                      59   1  171
-                                      59   1  130
-
-                       viii        13 18   1  499
-                                   14 15   2  305
-                                   14-17   2  606
-                                   14-17   2  482
-                                      16   2  609
-                                      16   2  480
-                                   16 17   2  523
-                                   17 31   1  523
-                                      19   1  499
-                                      22   2  246
-                                      26   2  523
-                                      37   2  459
-                                      37   2  513
-
-                       ix             13   1  130
-                                      14   1  130
-                                      15   1  678
-                                      17   2  611
-                                      18   2  611
-
-                       x               2   2  189
-                                      25   1  115
-                                      31   1  523
-                                      34   2  173
-                                      34   2   37
-                                      35   2   37
-                                      42   1  474
-                                      43   1  602
-                                      43   1  585
-                                      44   2  486
-                                   44-48   2  523
-                                      48   2  486
-
-                       xi              2   2  305
-                                      18   1  554
-                                      26   2  522
-
-                       xii            15   1  157
-
-                       xiii            2   2  270
-                                     2 3   2  422
-                                       3   2  272
-                                      36   2  106
-                                      38   1  653
-                                      38   1  674
-                                      39   1  653
-                                      39   1  674
-                                      39   1  481
-                                      39   2   26
-                                      43   1  292
-                                      48   2  181
-
-                       xiv             3   1   27
-                                      16   1  415
-                                   16 17   1   70
-                                      21   2  265
-                                      22   2   57
-                                      22   2  212
-                                      22   1  630
-                                      23   2  265
-                                      23   2  269
-                                      23   2  270
-                                      23   2  422
-
-                       xv           6-29   2  305
-                                       8   1  404
-                                       9   2  456
-                                       9   2   10
-                                      10   2  384
-                                      11   1  605
-                                      28   2  380
-                                      29   2  380
-                                      29   2  384
-
-                       xvi             3   2   71
-                                    6-10   2  160
-
-                       xvii            2   1   46
-                                       6   1   38
-                                      24   2  124
-                                      27   1   59
-                                      27   1   65
-                                      27   1   70
-                                      28   1  177
-                                      28   1  183
-                                      28   1  187
-                                      28   1   60
-                                      29   1   99
-                                   30 31   1  539
-
-                       xviii          18   2  624
-
-                       xix           1-6   2  489
-                                     3-5   2  482
-                                       5   2  609
-
-                       xx             10   2  618
-                                      17   2  265
-                                   17 28   2  266
-                                      20   2  264
-                                   20 21   2  242
-                                   20 31   2  412
-                                      21   1  535
-                                      21   1  537
-                                      21   2  264
-                                      26   2  275
-                                      26   2  412
-                                      28   1  658
-                                      28   1  603
-                                      28   1  437
-                                      28   2  291
-                                      28   1  603
-                                      29   2  357
-                                      30   2  357
-                                      31   2  264
-
-                       xxii           16   2  486
-                                      18   2  559
-
-                       xxiii           8   1  173
-                                      12   2  435
-
-                       xxiv            5   1   38
-                                      15   2  215
-                                      16   2   75
-                                      16   2  368
-
-                       xxvi        17 18   1  490
-
-                       xxviii         15   2  311
-                                      25   1  132
-
-
-ROMANS.
-
-                       Chapter.   Verse. Vol Page
-
-                       i             1-3   1  387
-                                     1-4   1  442
-                                       3   1  432
-                                       3   1  429
-                                       4   2  621
-                                       4   1  469
-                                       4   1  485
-                                       5   1  497
-                                       5   1  495
-                                       5   1  319
-                                 5 16 17   1  519
-                                      14   1   15
-                                      16   1  384
-                                      16   1   39
-                                   16 17   1  319
-                                      17   1  670
-                                      19   1   70
-                                      20   1   70
-                                      20   1   51
-                                      21   1   69
-                                      22   1   54
-                                      28   1  213
-                                      28   1  214
-
-                       ii              6   2   32
-                                       6   2   50
-                                    9 10   2   50
-                                      11   2  173
-                                      13   2   47
-                                      13   1  667
-                                   14 15   1  253
-                                      15   2   75
-                                      15   1  253
-                                      15   2  368
-                                   25-29   2  474
-
-                       iii          9 19   1  567
-                                      10   1  669
-                                   10-18   1  261
-                                      11   2    3
-                                      19   1  684
-                                      19   1  320
-                                      19   1  387
-                                      20   1  671
-                                      20   1  290
-                                      20   1  319
-                                      21   1  387
-                                      21   1  384
-                                      21   1  670
-                                   21 24   1  671
-                                      23   2   17
-                                      24   2   26
-                                      24   1  653
-                                      24   1  590
-                                      24   1  665
-                                      24   1  590
-                                   24 25   1  458
-                                   24 25   1  480
-                                      25   1  461
-                                      25   2  479
-                                      25   1  665
-                                      26   1  685
-                                      26   1  652
-                                      26   1  683
-                                      27   1  666
-                                      28   1  671
-
-                       iv              2   1  666
-                                       2   1  670
-                                     2 3   1  670
-                                       3   2   41
-                                       4   1  666
-                                     4 5   1  672
-                                       5   1  656
-                                       5   1  652
-                                       5   1  481
-                                     6-8   1  651
-                                     6-8   1  653
-                                     6-8   1  673
-                                       7   2   12
-                                     7 8   2   44
-                                       9   2   12
-                                    9-12   2  504
-                                      11   2  471
-                                      11   2  470
-                                      11   2  510
-                                      11   2  456
-                                      14   1  686
-                                      15   1  671
-                                      15   1  319
-                                      15   1  290
-                                      15   1  671
-                                      16   1  670
-                                      16   1  686
-                                      17   2    6
-                                      21   1  520
-                                      25   1  481
-                                      25   1   26
-                                      25   1  469
-
-                       v               1   1  506
-                                       1   1  688
-                                     3 4   1  631
-                                       5   1  486
-                                       5   1  502
-                                       5   1  688
-                                    6 10   2    7
-                                       8   1  457
-                                    8 10   1  482
-                                    8-10   1  673
-                                    9 10   1  458
-                                      10   1  455
-                                      10   1  457
-                                   10 11   1  478
-                                      12   1  227
-                                      12   1  229
-                                      12   2  214
-                                   12 15   1  437
-                                      16   1  479
-                                   17-20   1  605
-                                      19   1  666
-                                      19   2  479
-                                      19   1  472
-                                      19   1  458
-                                      19   1  659
-                                      19   1  654
-                                      19   1  675
-                                      19   1  224
-                                      19   1  227
-                                      20   1  319
-                                      20   1  290
-                                      20   1   38
-
-                       vi           1 14   1   38
-                                     3 2   2  480
-                                       4   2  516
-                                       4   2  512
-                                       4   2  507
-                                       4   1  356
-                                       4   1  616
-                                     4 5   1  462
-                                     4 5   1  470
-                                     4 6   2   31
-                                     4-6   2  608
-                                    4 11   2  480
-                                     5 6   1  541
-                                       6   1  543
-                                      12   1  545
-                                   12 13   2   66
-                                      13   2  211
-                                      14   2   66
-                                      15   1   38
-                                      18   2   31
-                                   19 21   2  190
-                                      23   1  379
-                                      23   1  380
-                                      23   1  588
-
-                       vii                 1  543
-                                           1  547
-                                       7   1  318
-                                      14   1  334
-                                      18   1  230
-                                   18 19   1  258
-                                      20   1  258
-                                      22   1  259
-                                      23   1  259
-                                      24   1  662
-                                      24   1  642
-
-                       viii            1   1  585
-                                       3   1  586
-                                       3   1  434
-                                       3   1  429
-                                       3   1  423
-                                       3   1  318
-                                       3   1  523
-                                       3   1  461
-                                       3   2   41
-                                     3 4   1  674
-                                     6 7   1  260
-                                     6 7   1  231
-                                       7   1  541
-                                       9   1   13
-                                    9 11   1  529
-                                    9 11   1  486
-                                    9 11   2  536
-                                      10   1  227
-                                      10   1  514
-                                      10   1  487
-                                      11   2  202
-                                      11   2  211
-                                   11 16   1   13
-                                   14 16   1  529
-                                      15   1  440
-                                      15   1  413
-                                      15   1  486
-                                      15   2  621
-                                   15 16   2  178
-                                   15 26   2   77
-                                      17   1  420
-                                   19-23   2  201
-                                      20   1  225
-                                      22   1  225
-                                      23   2   54
-                                      24   1  532
-                                      24   1   53
-                                      24   2  199
-                                      26   2   81
-                                   26 27   2  119
-                                      28   2   29
-                                      29   2   57
-                                      29   1  489
-                                      29   1  487
-                                      29   1  286
-                                      29   1  432
-                                      29   1  616
-                                      29   1  630
-                                      29   2   29
-                                   29 30   2  178
-                                      30   2   51
-                                      30   2  185
-                                      32   2  184
-                                      32   1   24
-                                      32   1  482
-                                      32   1  442
-                                      33   1  652
-                                      33   1  662
-                                      34   1  652
-                                      34   1  101
-                                      34   1  470
-                                      34   1  473
-                                      34   1  474
-                                      35   1  688
-                                   35-39   2  185
-                                      36   1  644
-                                      37   2   19
-                                      38   1  662
-                                      38   1  506
-                                      38   1  530
-                                   38 39   2   29
-                                      39   1  518
-                                      39   1  662
-
-                       ix              3   2  120
-                                       5   1  127
-                                       5   1  429
-                                       5   1  432
-                                       6   2  153
-                                     6-8   2  251
-                                     7 8   2  504
-                                      11   1  515
-                                      11   2  163
-                                   11-13   2  154
-                                      13   2  162
-                                      15   2  156
-                                      16   1  302
-                                      16   1  288
-                                      17   2  193
-                                      18   2  163
-                                      20   2  164
-                                   20 21   2  167
-                                      22   1  166
-                                      22   2  164
-                                      23   2  164
-                                      23   2   28
-                                      24   2  198
-                                      33   1  127
-                                      33   1  140
-
-                       x               3   1  166
-                                       4   1  311
-                                       4   1  315
-                                       4   1   73
-                                       5   2   36
-                                       5   2   13
-                                       5   1  667
-                                   5 6 9   1  669
-                                     6 7   1  196
-                                    7 14   2   89
-                                       8   1  518
-                                       8   1  520
-                                       8   1  297
-                                       8   2  456
-                                      10   1  497
-                                      10   1  491
-                                      11   1  129
-                                   13 14   2   77
-                                      17   2   77
-                                      17   2  347
-                                      17   2  509
-                                      17   2  225
-
-                       xi              2   2  156
-                                       4   2  223
-                                     5 6   2  141
-                                       6   2    7
-                                       8   1  213
-                                      10   1  512
-                                      17   1  485
-                                   17-23   2  185
-                                      29   2  405
-                                      32   1  320
-                                      32   2  174
-                                      32   2  198
-                                      33   1  140
-                                      33   1  196
-                                      34   1  196
-                                      34   2  176
-                                      34   2  600
-                                      34   1  525
-                                      35   2    6
-                                      35   2  153
-                                      35   2  174
-                                      36   1  340
-
-                       xii             1   1  618
-                                       1   2  209
-                                       1   2   32
-                                       1   2  598
-                                       2   1  231
-                                       3   2  435
-                                     3 6   2  496
-                                       6   1   23
-                                       8   2  636
-                                       8   2  395
-                                       8   2  266
-                                      10   1  622
-                                      19   1  377
-                                      21   2  653
-
-                       xiii            1   2  639
-                                       1   2  369
-                                     1 2   2  655
-                                   1 3 4   2  637
-                                     1 5   2   74
-                                       4   2  643
-                                       4   2  650
-                                       5   2  369
-                                       5   2  654
-                                       5   2  367
-                                       6   2  647
-                                       8   1  375
-                                       9   1  378
-                                      14   1  648
-
-                       xiv          1 13   2   70
-                                       5   1  358
-                                     7 8   1  643
-                                   10 11   1  608
-                                   10 11   1  127
-                                      11   1  140
-                                   11 12   2  210
-                                      14   2   67
-                                      17   1  450
-                                   22 23   2   67
-                                      23   2   26
-                                      23   2  434
-                                      23   1  611
-                                      23   2  452
-                                      23   2  448
-                                      23   2  493
-
-                       xv            1 2   2   71
-                                       8   1  523
-                                       8   2  506
-                                      12   1  129
-                                      20   1  165
-                                      25   2  310
-
-                       xvi             7   2  264
-                                      20   1  165
-                                      25   1  384
-                                      26   1  384
-
-
-1 CORINTH.
-
-                       Chapter.   Verse. Vol Page
-
-                       i               9   1  606
-                                      11   2  236
-                                   11 12   2  246
-                                   12 13   2  446
-                                      13   1  603
-                                      20   1  252
-                                      21   1  306
-                                   23 24   2  194
-                                      26   2  173
-                                   29-31   1  684
-                                      30   1  664
-                                      30   1  553
-                                      30   1  461
-                                      30   1  447
-                                      30   1  268
-                                      30   2   25
-                                      30   2   30
-                                      30   1  256
-
-                       ii              1   1  423
-                                       2   1  130
-                                       2   1  490
-                                       2   1  447
-                                       2   1  522
-                                       4   1   82
-                                       4   2  462
-                                       5   1  526
-                                       8   1   69
-                                       8   2  561
-                                       8   1  437
-                                       9   1  252
-                                   10 16   1  525
-                                   10 16   1  131
-                                      11   1  524
-                                      12   2  348
-                                      12   1  528
-                                      13   2  521
-                                      14   1  251
-                                      14   1  525
-                                      16   1  687
-
-                       iii             2   2   72
-                                       3   1  287
-                                       3   2  236
-                                       4   2  246
-                                       7   2  462
-                                       7   1  288
-                                     7 9   2  229
-                                       8   2   51
-                                       9   1  303
-                                   10 11   2   25
-                                      11   2  305
-                                      12   1  609
-                                      16   1  131
-                                   16 17   2   31
-                                      19   1   64
-                                   21 23   1   29
-
-                       iv              1   2  264
-                                       1   2  292
-                                       2   2   49
-                                       4   1  678
-                                       5   1  679
-                                       7   1  622
-                                       7   1  286
-                                       7   2  191
-                                      15   2  228
-
-                       v               1   2  246
-                                       1   2  236
-                                    2 11   2  236
-                                     3 5   2  414
-                                       5   1  527
-                                    6 11   2  414
-                                     7 8   2  588
-                                      12   2  236
-                                      12   2  400
-                                      13   2  421
-
-                       vi            1-8   2  653
-                                       7   2  236
-                                    9-11   1  581
-                                    9-11   2  190
-                                      11   2    8
-                                      11   1  485
-                                      13   2  608
-                                      13   2  441
-                                   13 14   2  211
-                                      15   2  533
-                                      15   2  211
-                                   15 20   2  209
-                                      19   2   31
-                                      19   1  131
-                                   19 20   2  211
-                                      20   1  480
-
-                       vii             5   2  423
-                                     5 6   1  452
-                                   2 7 9   1  365
-                                       9   2  449
-                                    9 34   1  366
-                                      14   2  505
-                                      14   2  521
-                                      19   2  474
-                                      21   2  634
-                                      23   2  663
-                                      23   2   73
-                                   29-31   1  648
-                                   30 31   1  645
-                                      35   2  367
-
-                       viii          4 7   2  385
-                                     5 6   1  128
-                                     5 6   1  452
-                                       6   1  438
-                                       9   2  385
-                                       9   2   71
-
-                       ix                  2   15
-                                       1   2  336
-                                       2   2  228
-                                       5   2  430
-                                      12   2   15
-                                   16 17   2  265
-                                   19 20   2   71
-                                      20   2  624
-                                      22   2   71
-
-                       x            1-11   1  388
-                                       2   2  482
-                                       3   2  473
-                                       4   2  547
-                                       4   2  539
-                                       4   2  546
-                                   11 12   1  512
-                                      12   2  185
-                                      12   1  530
-                                      13   2  134
-                                      16   2  592
-                                      16   2  534
-                                      16   2  540
-                                      16   2  547
-                                   16 17   2  573
-                                      17   2  538
-                                   23 24   2   72
-                                   25 29   2   71
-                                   28 29   2   76
-                                   28 29   2  369
-                                      31   2  129
-                                      32   2   71
-
-                       xi              5   2  391
-                                       7   1  176
-                                      16   2  393
-                                   20-22   2  391
-                                      23   2  570
-                                      23   2  584
-                                   23 25   2  544
-                                   24 25   2  519
-                                      26   2  572
-                                      26   2  540
-                                      26   2  519
-                                      27   2  566
-                                   27 29   2  574
-                                      28   2  575
-                                      28   2  519
-                                   28 29   2  237
-                                      29   2  519
-                                      29   2  567
-                                      31   1  551
-                                      32   1  595
-                                      32   1  633
-
-                       xii             3   1  250
-                                     4 8   1  131
-                                       6   1  268
-                                       6   1  272
-                                       7   2  268
-                                   10-31   1  498
-                                      11   1  133
-                                      11   2  435
-                                      12   2   31
-                                      12   2  548
-                                      13   2  513
-                                      13   2  487
-                                      13   2  458
-                                      28   2  395
-                                      28   2  266
-                                      28   2  636
-
-                       xiii            2   1  498
-                                    2 13   2   58
-                                       3   2  444
-                                     4-8   1  623
-                                       5   1  376
-                                    9 12   1  509
-                                      12   2  601
-                                      12   2  217
-
-                       xiv            15   2  117
-                                      15   2   82
-                                   15 16   2  118
-                                      17   2  118
-                                      26   2  236
-                                      29   2  363
-                                   29 30   2  346
-                                      30   2  234
-                                      33   1   39
-                                      34   2  391
-                                      40   2  236
-                                      40   2  267
-                                      40   2  113
-                                      40   2  390
-                                      40   1  357
-
-                       xv                  1  471
-                                       3   1  458
-                                    3 17   1   26
-                                    6 36   2  204
-                                       8   2  559
-                                      10   1  275
-                                      10   2  229
-                                      12   2  211
-                                      12   2  236
-                                      13   2  202
-                                      13   2  201
-                                   13 14   1  431
-                                   14 17   1  470
-                                      19   2   54
-                                      19   1  644
-                                      22   2  508
-                                      22   1  227
-                                      23   2  203
-                                      24   1  146
-                                   24 28   1  451
-                                   24 28   1  438
-                                      28   1  356
-                                      28   2  127
-                                   39-41   2  213
-                                   41 42   2  630
-                                      45   1  176
-                                      45   1  486
-                                   45 47   1  426
-                                      46   2  521
-                                      47   1  430
-                                      47   1  434
-                                      47   2  551
-                                      50   2  508
-                                      51   1  474
-                                   51 52   2  213
-                                      53   2  213
-                                      54   2  209
-
-                       xvi             7   1  207
-
-
-2 CORINTH.
-
-                       Chapter.   Verse. Vol Page
-
-                       i               1   1  291
-                                       3   2  122
-                                       6   1  605
-                                      12   2   49
-                                      18   2  584
-                                      20   2   99
-                                      20   1  522
-                                      20   1  382
-                                      21   1  527
-                                      22   1  487
-                                      23   1  173
-                                      23   1  350
-                                      24   2  346
-
-                       ii              6   1  573
-                                       7   2  416
-                                       8   2  417
-                                   15 16   1   39
-                                      16   1  289
-
-                       iii             5   1  256
-                                       5   1  267
-                                       5   1  259
-                                       6   1  411
-                                       6   1  488
-                                       6   2  261
-                                       6   2  228
-                                     6 8   2  462
-                                     6 8   1   93
-                                       7   1  319
-                                      14   1  524
-                                   14-16   1  504
-                                      17   1  315
-                                      17   1  240
-                                      18   1  176
-                                      18   1  541
-                                      18   1  510
-                                      18   1  178
-
-                       iv              4   1  161
-                                       4   1  214
-                                       4   1  166
-                                       4   1  278
-                                     4 6   1  382
-                                       5   2  340
-                                       6   1  490
-                                       6   2  227
-                                       7   2  260
-                                       7   2  225
-                                    8-10   2   28
-                                     8 9   1  636
-                                      10   2   58
-                                      10   2  202
-                                      10   2  209
-                                      10   2  211
-                                      13   1  525
-
-                       v             1 8   2  208
-                                       4   1  643
-                                    4 10   1  172
-                                       6   2  199
-                                       6   1  642
-                                     6 8   1  173
-                                      10   2   50
-                                      10   2  209
-                                      10   1  127
-                                      18   2  302
-                                      18   1  519
-                                      18   1  606
-                                   18 19   2   12
-                                   18-20   2  242
-                                   18 19   1  654
-                                      19   1  423
-                                   19 21   1  478
-                                   19 21   1  585
-                                   19 21   1  661
-                                   19 21   1  673
-                                      20   1  589
-                                      21   1  674
-                                      21   1  458
-                                      21   1  460
-                                      21   1  586
-                                      21   1  602
-                                      21   1  654
-                                      21   1  659
-
-                       vi              1   2  229
-                                       8   1  635
-                                      16   1  131
-
-                       vii             1   1  172
-                                       1   1  383
-                                       1   1  296
-                                       1   2  209
-                                       1   2   32
-                                      10   1  540
-                                      10   1  562
-                                      11   1  549
-                                      11   1  547
-
-                       ix              6   2   57
-                                       7   2   32
-
-                       x               4   2  405
-                                     4 5   2
-                                     5 6   2  400
-                                       6   2  302
-                                       8   2  340
-
-                       xi             14   1   28
-
-                       xii             1   1  154
-                                       7   2  567
-                                       7   1  165
-                                     7 9   1  564
-                                     8 9   1  136
-                                       9   1  276
-                                      21   2  246
-                                      21   1  552
-
-                       xiii            4   1  469
-                                       4   1  430
-                                       5   1  529
-                                      10   2  340
-                                      14   1  486
-
-
-GALATIANS.
-
-                       Chapter.   Verse. Vol Page
-
-                       i               1   2  269
-                                       2   2  306
-                                       6   2  246
-                                       6   2  236
-
-                       ii              3   2   71
-                                     3-5   2   72
-                                       8   2  229
-                                       9   2  310
-                                   11 14   2  412
-                                      16   2   35
-                                      17   1   39
-                                      20   1  619
-                                      20   2  631
-                                      21   1  480
-
-                       iii             1   1  104
-                                       1   2  236
-                                       1   2  594
-                                       1   1  246
-                                       2   2  229
-                                       2   2  524
-                                       2   2  523
-                                       6   2   41
-                                       8   1  652
-                                      10   1  317
-                                      10   2   13
-                                      10   1  325
-                                   10 12   1  671
-                                   10-13   1  455
-                                      11   1  667
-                                   11 12   1  669
-                                      13   1  326
-                                      13   1  479
-                                      13   1  586
-                                      13   1  664
-                                      13   2   64
-                                   13 14   1  461
-                                      16   1  307
-                                      16   1  432
-                                      16   2  471
-                                      17   1  672
-                                      18   1  662
-                                      18   1  669
-                                      19   1  158
-                                      19   1  290
-                                      19   1  315
-                                   21 22   1  671
-                                      22   1  437
-                                      22   1  434
-                                      22   1  567
-                                      22   2  174
-                                   23-25   1  494
-                                      24   1  314
-                                      24   1  322
-                                      24   1  410
-                                      24   2  640
-                                   26 27   2  480
-                                      27   2  609
-                                      27   2  512
-                                      27   2  458
-                                      27   1  487
-                                      27   1  485
-                                      28   2  634
-                                      28   2  173
-
-                       iv                  2  250
-                                       1   1  410
-                                     1 2   2  377
-                                     1-3   1  417
-                                       4   1  415
-                                       4   1  428
-                                       4   1  429
-                                       4   1  433
-                                       4   1  664
-                                       4   1  668
-                                       4   2  648
-                                     4 5   1  326
-                                     4 5   1  458
-                                     4 5   1  481
-                                     5 6   1  440
-                                       6   1  500
-                                       6   1  688
-                                       6   2  122
-                                       8   1   56
-                                       8   1  114
-                                       9   2  246
-                                       9   2  374
-                                       9   2  608
-                                   10 11   1  358
-                                      11   2  236
-                                      14   1  375
-                                      14   1  406
-                                      22   1  413
-                                      26   2  221
-                                      30   2   52
-
-                       v               1   2  634
-                                       1   2  373
-                                     1 4   2   73
-                                     1-4   2   64
-                                    1-18   2  372
-                                       5   1  533
-                                       5   2   37
-                                       6   1  672
-                                      13   2   71
-                                      14   1  375
-                                      17   1  317
-                                      19   2  483
-                                      19   2    4
-                                      19   2  229
-
-                       vi                  1  406
-                                       9   2   23
-                                      10   2  123
-                                      10   1  624
-                                      14   1  462
-                                      15   2  474
-                                      17   2  212
-                                      17   2   58
-
-
-EPHESIANS.
-
-                       Chapter.   Verse. Vol Page
-
-                       i             3-5   2   25
-                                       4   2   63
-                                       4   2  175
-                                       4   1  424
-                                     4 5   1  457
-                                     4 5   2  151
-                                     5 6   1  653
-                                     5-7   2   17
-                                       6   1  685
-                                       6   1  522
-                                       6   1  478
-                                       9   2  153
-                                       9   2  454
-                                      13   2   17
-                                      13   1  526
-                                      13   1  488
-                                      13   1  383
-                                   13 14   1  387
-                                   13 14   1  487
-                                   13 14   2  187
-                                   13 14   2  178
-                                      14   1  404
-                                      17   1  252
-                                   17 18   2  348
-                                      18   1  506
-                                   20-22   1  472
-                                   20 22   1  451
-                                      21   1  155
-                                      22   1  425
-                                      22   2  307
-                                      23   2  533
-                                      23   2  123
-                                      23   2  232
-                                      23   1  451
-
-                       ii            1-3   2  189
-                                       2   1  166
-                                       2   1  161
-                                       2   1  278
-                                       3   1  232
-                                       3   1  227
-
-                       iii            12   1  506
-                                      12   1  688
-                                      15   1  443
-                                      17   2  529
-                                      17   1  375
-                                      18   1  504
-                                   18 19   2   19
-                                   18 19   1  424
-
-                       iv            2 3   2  421
-                                       4   2  223
-                                     4 5   2  308
-                                    4-16   2  260
-                                       5   1  132
-                                       5   2  253
-                                  5-7 11   2  308
-                                       7   1  486
-                                       7   1  451
-                                       8   1  127
-                                       8   1  473
-                                      10   1  471
-                                      10   2  308
-                                   10-13   2  225
-                                      11   2  262
-                                   11 13   2  350
-                                   11-16   2  221
-                                      14   2  350
-                                      15   1  487
-                                      15   1  484
-                                   15 16   1  429
-                                   15 16   2  307
-                                   15 16   2  533
-                                   17 18   1  230
-                                   17 18   1  261
-                                      18   2  189
-                                      20   1  617
-                                   20 21   1  494
-                                      22   1  260
-                                      23   1  619
-                                   23 24   1  541
-                                      23   1  260
-                                      23   1  230
-                                      24   1  176
-                                   25 28   2  190
-                                      27   1  165
-                                      30   1  292
-
-                       v               2   1  453
-                                       2   1  481
-                                       6   1  517
-                                       8   2  189
-                                       8   2   31
-                                      14   1  305
-                                      23   2  307
-                                      25   2  660
-                                   25-27   2  238
-                                      26   2  477
-                                      26   1  543
-                                      26   2  513
-                                   26 27   2  349
-                                      27   2  232
-                                   28-32   2  630
-                                      30   1  487
-                                      30   1  420
-                                   30 32   1  428
-                                   30 32   2  533
-
-                       vi              1   2  660
-                                       1   1  361
-                                       9   2  173
-                                      10   1  292
-                                      12   1  161
-                                      12   1  203
-                                   16 18   2   90
-                                      18   2   83
-                                      18   2  101
-                                      19   2  101
-
-
-PHILIPPIANS.
-
-                       Chapter.   Verse. Vol Page
-
-                       i               1   2  340
-                                       1   2  266
-                                       1   2  265
-                                       4   1  256
-                                       6   1  267
-                                       6   2   51
-                                       6   2  185
-                                   15 16   1   38
-                                      20   1  643
-                                      20   1  533
-                                      29   1  481
-                                      29   2    8
-
-                       ii            2 5   2  253
-                                       4   1  622
-                                       6   1  128
-                                     6 7   1  143
-                                       7   2  551
-                                     7 8   1  430
-                                     7 8   1  458
-                                       8   2  472
-                                    8 10   1  438
-                                       9   1  482
-                                    9 10   1  416
-                                    9-11   1  451
-                                      10   1  608
-                                      10   1  143
-                                      11   1  512
-                                      12   2   51
-                                      12   1  296
-                                      13   1  665
-                                      13   1  259
-                                      13   1  275
-                                      13   1  272
-                                      13   1  267
-                                      17   1  495
-                                      20   2  311
-                                      21   2  311
-                                      21   1   38
-
-                       iii           5 6   2  189
-                                     8 9   1  666
-                                    8-11   2  200
-                                      10   1  630
-                                      10   1  469
-                                   10 11   2   58
-                                   10 11   2   29
-                                   12-14   2  349
-                                   13 14   2   14
-                                   14 20   2  200
-                                      15   1  492
-                                      15   2  233
-                                      20   2  554
-                                   20 21   2  212
-                                   20 21   2  558
-                                      21   2  204
-                                      21   2  202
-
-                       iv            5 6   2  125
-                                       6   2  113
-                                   11 12   2   69
-                                      12   1  649
-                                      18   2  598
-                                      56   2  125
-
-
-COLOSSIANS.
-
-                       Chapter.   Verse. Vol Page
-
-                       i             4 5   1  387
-                                     4 5   2   53
-                                       5   1  383
-                                       5   2  200
-                                       9   1  256
-                                       9   1  257
-                                      12   2  151
-                                      13   2   26
-                                      14   1  480
-                                      14   2   25
-                                      15   1  436
-                                      15   1  427
-                                      15   1  422
-                                      15   1  311
-                                   15-18   1  441
-                                      16   1  155
-                                      16   1  159
-                                   16 18   1  427
-                                      18   2  307
-                                      19   2  345
-                                   19 20   1  477
-                                      20   2   25
-                                      20   1  587
-                                      20   1  159
-                                      21   1  455
-                                      21   2   25
-                                      21   2    7
-                                      22   1  455
-                                      24   1  604
-                                      25   1  605
-                                      26   1  504
-                                      26   1  417
-                                   26 27   2  454
-                                   27 28   2  372
-                                      29   2  229
-
-                       ii              2   1  504
-                                       3   1  423
-                                       3   1  447
-                                       3   1  503
-                                       3   1  664
-                                       3   1  410
-                                       3   2  601
-                                       3   2  345
-                                     3 8   2  372
-                                     4 8   2  388
-                                       8   2  373
-                                       8   2  374
-                                       9   1  655
-                                      10   1  426
-                                      10   2  307
-                                   11 12   2  502
-                                   11 12   2  480
-                                   11 17   2  474
-                                      12   2  211
-                                      12   2  512
-                                   13 14   1  327
-                                      14   1  480
-                                   14 15   1  461
-                                   16 17   1  356
-                                   16 17   1  358
-                                      17   1  408
-                                      17   1  326
-                                      17   2  472
-                                   18 23   2  388
-                                      19   1  446
-                                      20   2  376
-                                      20   2  608
-                                      21   2  376
-                                      22   2  608
-                                      22   2  375
-                                      23   2  372
-                                      23   2  374
-
-                       iii             1   2  570
-                                       1   2   31
-                                     1 2   1  470
-                                     3 4   2  199
-                                     3 5   1  462
-                                       4   2  202
-                                       5   1  470
-                                       6   1  517
-                                      10   1  176
-                                      10   1  541
-                                      11   1  416
-                                      11   2  634
-                                      14   2   58
-                                      14   2  444
-                                      16   2  117
-                                      20   1   36
-                                      21   2  660
-                                      24   2   52
-                                      25   2  173
-
-                       iv             17   2  265
-
-                       v              19   1   94
-
-
-1 THESSALON.
-
-                       Chapter.   Verse. Vol Page
-
-                       i               5   2  229
-
-                       ii              1   2  229
-                                      18   1  207
-                                   19 20   2  216
-
-                       iii            12   1  290
-                                      13   2   50
-
-                       iv            3 7   2   31
-                                     3 7   2   63
-                                     4 7   2  175
-                                   15 16   2  213
-                                      16   1  157
-                                   16 17   1  473
-                                   16 17   1  474
-
-                       v               2   2  630
-                                       9   2   31
-                                   17 18   2  113
-                                      19   2  296
-                                      19   1   94
-                                      23   2  209
-
-
-2 THESSALON.
-
-                       Chapter.   Verse. Vol Page
-
-                       i             5-7   2   57
-                                     6 7   1  645
-                                     6 8   2  205
-                                       9   2  218
-                                      10   2  215
-                                      10   2  205
-                                      11   1  292
-                                      11   1  525
-
-                       ii              3   2  358
-                                     3 4   2  258
-                                       4   2  356
-                                     4 7   2  335
-                                       8   2  127
-                                       9   1   28
-                                    9 11   1  164
-                                   10 11   1   28
-                                   10-12   1  214
-                                   11 12   1  281
-                                      13   1  488
-                                      14   1  387
-
-                       iii          6 11   2  246
-                                       9   1  503
-                                      10   2  518
-                                      12   2  246
-                                      13   2   23
-                                      14   2  214
-                                      15   2  218
-
-
-1 TIMOTHY.
-
-                       Chapter.   Verse. Vol Page
-
-                       i               5   1  290
-                                       5   1  373
-                                    5 19   1  503
-                                    5 19   2  368
-                                    5 19   2   75
-                                    9 10   1  322
-                                      13   1  557
-                                      15   1  424
-                                      17   1  143
-
-                       ii            1 2   2  655
-                                     1 2   2  637
-                                     1 5   2  101
-                                       4   2  195
-                                       5   2   99
-                                       5   1  420
-                                     5 6   1  480
-                                       6   1  461
-                                       6   1  590
-                                       8   2  604
-                                       8   2  209
-                                       8   2  124
-                                       8   2  115
-
-                       iii             1   2  268
-                                       2   2  429
-                                     2 3   2  277
-                                     2-7   2  280
-                                     2-7   2  287
-                                       9   1  503
-                                   14 15   2  350
-                                      15   2  232
-                                      15   2  248
-                                      15   2  349
-                                      16   2  454
-                                      16   1  127
-
-                       iv              1   2  358
-                                     1 3   2  364
-                                     1 3   2  429
-                                     1 6   1  503
-                                       5   2   67
-                                       5   2  112
-                                       6   1  494
-                                       6   1  382
-                                       8   2  130
-                                       8   1  383
-                                      10   1  635
-                                      10   1   24
-                                      13   1   92
-                                      14   2  272
-                                      14   2  626
-                                      16   1  382
-
-                       v               9   2  451
-                                       9   2  266
-                                      10   2  266
-                                      12   2  450
-                                      14   2  451
-                                      17   2  359
-                                      17   2  395
-                                      20   2  412
-                                      21   1  158
-                                      21   1  164
-                                      21   2  167
-                                      22   2  268
-                                      22   2  270
-
-                       vi             16   1  490
-                                      16   1   74
-                                      16   1  216
-                                   17-19   2   56
-                                      20   1  503
-                                      21   1  503
-
-
-2 TIMOTHY.
-
-                       Chapter.   Verse. Vol Page
-
-                       i               1   1  383
-                                       6   2  272
-                                       9   2    6
-                                       9   2   31
-                                       9   2  152
-                                       9   1  424
-                                    9 10   2  246
-                                      10   2  199
-                                      10   1  382
-                                      12   1  520
-                                      12   2  205
-                                      14   1  524
-
-                       ii             10   1  604
-                                   11 12   2   29
-                                      13   1   55
-                                      13   2  121
-                                      19   1   34
-                                      19   2  222
-                                      19   2  230
-                                      19   2  156
-                                      20   2   28
-                                      25   2  196
-                                      25   1  554
-                                      26   1  165
-                                      26   1  554
-
-                       iii             7   1  493
-                                       8   1  503
-                                   16 17   1   92
-                                      17   2   32
-
-                       iv              1   1  474
-                                       8   2   55
-                                       8   2  205
-                                      14   2  216
-                                      16   2  311
-
-
-TITUS.
-
-                       Chapter.   Verse. Vol Page
-
-                       i               1   1  502
-                                       1   2  161
-                                       5   2  265
-                                       5   2  270
-                                       5   2  274
-                                     5 7   2  266
-                                       6   2  429
-                                       7   2  299
-                                       7   2  268
-                                     7 9   2  264
-                                       9   2  274
-                                      13   1  503
-                                      15   2   68
-                                      15   2  441
-                                      15   2  574
-
-                       ii             11   2  246
-                                   11-13   2   31
-                                   11-14   1  621
-                                   12-13   2  199
-                                      13   1  644
-
-                       iii             1   2  655
-                                       2   2  548
-                                       4   1  423
-                                     4 5   1  303
-                                     4 5   2    7
-                                     4-7   2  246
-                                       5   2  511
-                                       5   2  478
-                                       6   2  480
-                                       7   2   26
-                                       7   2    7
-                                       9   1  424
-
-
-HEBREWS.
-
-                       Chapter.   Verse. Vol Page
-
-                       i             1 2   2  344
-                                     1 2   2  601
-                                     1 2   1  446
-                                   1 2 3   1  381
-                                     2 3   1  122
-                                       3   1  251
-                                       3   1  128
-                                       3   1  188
-                                       4   1  158
-                                       6   1  159
-                                    6 10   1  140
-                                    6 10   1  127
-                                      10   1  145
-                                      14   2  105
-
-                       ii              3   1  532
-                                     3 4   1   27
-                                       7   1  138
-                                       9   1  462
-                                       9   1  145
-                                   10 11   1  431
-                                      14   1  431
-                                      14   2  350
-                                      14   1  664
-                                   14 15   1  462
-                                   14 16   1  429
-                                      15   1  466
-                                      16   1  432
-                                      16   1  158
-                                      17   1  429
-
-                       iii            14   1  506
-
-                       iv              9   1  355
-                                      14   2  472
-                                      15   1  467
-                                      15   1  429
-                                      15   1  426
-                                      15   1  420
-                                      15   2  550
-                                      16   1  473
-                                      16   2   99
-                                      16   2   90
-
-                       v               1   1  423
-                                       4   2  597
-                                       4   2  492
-                                     4 5   2  593
-                                       5   2  586
-                                    6 10   2  586
-                                       7   1  465
-                                       8   1  630
-
-                       vi              4   1  500
-                                       4   1  555
-                                     4-6   1  555
-                                     4-6   1  557
-                                      10   2   57
-                                      13   1  350
-                                      16   1  350
-                                      16   1  353
-
-                       vii           1 7   2  587
-                                      12   1  564
-                                   12 17   1  408
-                                   17 21   2  586
-                                      19   1  408
-                                      19   1  409
-                                   20 21   2  408
-                                      22   1  409
-                                      23   2  586
-                                      23   1  408
-                                      24   1  408
-                                      24   2  586
-                                      27   2  587
-
-                       viii            5   1  313
-
-                       ix              9   2  475
-                                   10-14   2  472
-                                      11   2  472
-                                      11   2  586
-                                   12 13   1  479
-                                   12 26   2  587
-                                   13 14   1  409
-                                      14   2   31
-                                      14   1  461
-                                   14 15   1  479
-                                      15   1  328
-                                   16 22   2  590
-                                      22   1  479
-                                      23   2  590
-                                      24   1  473
-                                      25   2  590
-                                      26   1  479
-                                      27   1  474
-                                      27   2  213
-                                      28   1  479
-                                      28   2  201
-
-                       x               1   1  408
-                                     1 2   2  475
-                                     1-4   2  472
-                                     1 4   1  409
-                                       2   2   75
-                                       2   2  368
-                                    3-14   1  328
-                                   10 14   2  587
-                                      14   1  603
-                                      20   2  100
-                                      21   2  586
-                                      26   1  558
-                                   26 27   1  555
-                                      29   2   31
-                                      29   1  555
-                                      36   1  527
-                                      36   1  533
-                                      38   2   56
-
-                       xi              1   1  530
-                                       1   2  199
-                                       2   2   66
-                                       3   1   58
-                                       3   1   70
-                                       3   1  182
-                                       6   2    6
-                                       6   2  125
-                                       6   1  667
-                                       7   1  519
-                                       9   1  396
-                                      13   2   31
-
-                       xii             3   1  548
-                                    5-11   1  592
-                                       8   1  634
-                                       9   1  173
-                                      18   1  413
-                                      22   1  158
-                                      23   1  158
-                                      23   2  208
-
-                       xiii            4   2  430
-                                       8   1  388
-                                      14   2  365
-                                      15   2  113
-                                      15   2  599
-                                      16   2   24
-                                      16   2  598
-                                      16   1  624
-                                      16   1  598
-                                      17   2  362
-                                      17   1  173
-
-                       xiv            18   2  587
-
-
-JAMES.
-
-                       Chapter.   Verse. Vol Page
-
-                       i             5 6   2   89
-                                      12   2   44
-                                   13 14   2  135
-                                      15   1  545
-                                      17   1  252
-                                      17   1  123
-                                      21   2  552
-
-                       ii              5   2  173
-                                      10   2   11
-                                   10 11   2   62
-                                      14   2   45
-                                      14   1  503
-                                      19   1  500
-                                   21-23   2   46
-                                   21 24   2   44
-
-                       iv              3   2   84
-                                       6   1  242
-                                       8   1  549
-                                   11 12   2  371
-
-                       v              12   1  352
-                                      13   2   83
-                                   14 15   2  617
-                                      15   2   89
-                                      16   1  566
-                                      16   1  571
-                                      16   2  110
-                                   17 18   2  108
-
-
-1 PETER.
-
-                       Chapter.   Verse. Vol Page
-
-                       i               2   2  156
-                                       2   2    8
-                                       2   1  485
-                                     3 5   1  469
-                                       5   2   53
-                                    5 21   1  533
-                                       7   1  632
-                                       9   2   54
-                                     8 9   2  200
-                                    9 22   1  173
-                                   10-12   1  381
-                                      11   1  122
-                                      11   1  135
-                                      12   1  159
-                                      12   1  411
-                                      15   2   31
-                                      16   1  615
-                                   18 19   1  480
-                                   18 19   2   73
-                                      20   2  601
-                                      21   1  490
-                                      21   1  469
-                                      22   1  297
-                                      23   2  509
-                                      23   2  228
-                                      23   1  578
-                                   23-25   1  390
-
-                       ii            4 5   2  304
-                                       8   1   39
-                                       9   2  599
-                                       9   1  314
-                                       9   1  685
-                                      11   1  173
-                                      11   2   31
-                                   13 14   2  639
-                                   13 14   2  655
-                                      17   2  639
-                                      17   2  654
-                                      24   1  585
-                                      24   1  586
-                                      24   1  480
-                                      24   1  590
-                                      24   1  461
-                                      25   1  172
-
-                       iii             7   2  660
-                                      18   1  430
-                                      19   1  464
-                                      21   2  478
-                                      21   2   75
-                                      21   2  512
-                                      21   2  474
-                                      21   2  456
-                                      21   2  368
-                                      21   2  478
-
-                       iv              3   2   28
-                                       3   2  190
-                                       8   1  591
-                                       8   1  598
-                                      11   2  345
-                                      14   1  635
-                                      17   1  595
-
-                       v               1   2  305
-                                       2   2  302
-                                     2 3   2  371
-                                       3   2  279
-                                       5   1  680
-                                       7   1  201
-                                       8   1  165
-                                       8   1  161
-                                       9   1  161
-
-
-2 PETER.
-
-                       Chapter.   Verse. Vol Page
-
-                       i               4   2  215
-                                       4   1  661
-                                       4   2  523
-                                       5   1  296
-                                      10   2   29
-                                   13 14   1  172
-                                      14   2  207
-                                      19   1   92
-
-                       ii              1   2  356
-                                       4   1  164
-                                       4   1  167
-                                      19   1  240
-                                      22   1   38
-
-                       iii           4 8   1  533
-                                       9   2  196
-                                      16   1   38
-
-
-1 JOHN.
-
-                       Chapter.   Verse. Vol Page
-
-                       i               1   1  437
-                                       1   1  443
-                                     1-4   2  531
-                                       7   1  602
-                                       7   2  472
-                                       7   1  479
-                                       9   1  570
-                                       9   2   86
-                                      10   2  132
-
-                       ii              1   2  101
-                                       1   2   99
-                                     1 2   1  586
-                                       2   1  477
-                                      12   1  481
-                                      12   1  586
-                                      18   2  601
-                                      19   1  557
-                                      19   2  185
-                                      19   2  186
-                                      20   1  487
-                                      23   1  312
-
-                       iii             1   2  121
-                                       2   2  215
-                                       2   1  661
-                                       2   1  504
-                                       2   2  601
-                                       2   1  383
-                                       8   2   32
-                                       8   1   39
-                                     8 9   2   28
-                                       9   1  297
-                                       9   1  274
-                                      10   2   31
-                                      10   1  166
-                                      15   1  363
-                                      16   1  437
-                                      20   1  577
-                                      22   2   84
-                                      22   2   87
-                                      24   2   26
-                                      24   1  488
-                                      24   1  529
-                                      24   2  180
-
-                       iv              1   2  121
-                                       1   2  362
-                                       3   2  563
-                                      10   1  477
-                                      10   2    8
-                                   10 19   2   31
-                                      11   2   31
-                                      13   1  488
-                                      18   1  516
-                                      19   1  456
-
-                       v               4   1  511
-                                       4   1  215
-                                    4 18   1  297
-                                     7 8   1  485
-                                       8   2  472
-                                      12   2    5
-                                      12   2   26
-                                      14   2   81
-                                      15   2  139
-                                      20   1  146
-                                      20   1  128
-
-
-JUDE.
-
-                       Chapter.   Verse. Vol Page
-
-                                       6   1  164
-                                       6   1  166
-                                       9   1  167
-                                       9   1  157
-                                      20   2   82
-
-
-REVELATIONS.
-
-                       Chapter.   Verse. Vol Page
-
-                       i               5   2  472
-                                       6   1  453
-                                       6   2  599
-
-                       v              13   1  608
-
-                       vii            14   1  603
-                                      17   1  644
-
-                       xiv            13   1  612
-
-                       xix            10   1  114
-                                      10   1  159
-
-                       xx              4   2  206
-
-                       xxi            27   2  508
-
-                       xxii          8 9   1  159
-                                     8 9   1  114
-                                      18   2  355
-                                      19   2  355
-
-
-
-
- ● Transcriber’s Notes:
-    ○ Inconsistent spelling and hyphenation were made consistent only
-      when a predominant form was found in this book.
-    ○ Text that was in italics is enclosed by underscores (_italics_).
-    ○ Footnotes have been moved to follow the chapters in which they are
-      referenced.
