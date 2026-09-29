@@ -15,7 +15,7 @@ import { SectionLabel } from '@/components/SectionLabel';
 interface AxisGroup {
   id: 'tradicoes' | 'generos' | 'temas';
   label: string;
-  icon: any;
+  icon: LucideIcon;
   desc: string;
   slugs: string[];
 }
