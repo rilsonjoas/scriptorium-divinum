@@ -2081,4 +2081,24 @@ ou sair da fila.
   (`server/texts/itinerario-da-mente-para-deus-boaventura.md`, slug `itinerario-da-mente-para-deus-boaventura`). Tradução integral
   da obra-prima franciscana medieval composta no Monte Alverne a partir da edição crítica de Quaracchi (Tomo V).
   Estrutura os seis graus da subida da alma a partir das seis asas do Serafim Crucificado (pelos vestígios da criação, nos vestígios sensíveis, na imagem da alma, na alma renovada pela graça, no Ser supremo e no Sumo Bem trinitário) até o repouso extático na Cruz de Cristo. Criação do autor `boaventura-de-bagnoregio`. Script SQL em `scripts/add_boaventura_itinerario_2026-09-29.sql`.
+- [x] **Santo Agostinho de Hipona, _Sobre o Mestre (De Magistro)_** (c. 389 d.C.) — ✅ ENTREGUE 2026-09-29
+  (`server/texts/sobre-o-mestre-agostinho.md`, slug `sobre-o-mestre-agostinho`). Tradução integral
+  do clássico diálogo com Adeodato a partir do latim crítico do CCSL 29 e PL 32.
+  Tratado fundacional sobre a linguagem, os sinais exteriores e a iluminação por Cristo, o único Mestre Interior (*Magister Interior*). Criação do autor `agostinho-de-hipona`. Script SQL em `scripts/add_agostinho_de_magistro_2026-09-29.sql`.
+- [x] **São João Crisóstomo, _Sobre o Sacerdócio (De Sacerdotio)_** (c. 386 d.C.) — ✅ ENTREGUE 2026-09-29
+  (`server/texts/sobre-o-sacerdocio-joao-crisostomo.md`, slug `sobre-o-sacerdocio-joao-crisostomo`). Tradução completa
+  do clássico patrístico grego em 4 divisões a partir de *Sources Chrétiennes* (SC 272) e PG 48.
+  Trata da temível responsabilidade pastoral, da celebração dos santos mistérios rodeada pelas hostes angélicas e da cura compassiva das almas compradas pelo Sangue de Cristo. Criação do autor `joao-crisostomo`. Script SQL em `scripts/add_crisostomo_sacerdocio_2026-09-29.sql`.
+- [x] **Santo Agostinho de Hipona, _A Trindade (De Trinitate)_** (c. 399–419 d.C.) — ✅ ENTREGUE 2026-09-29
+  (`server/texts/a-trindade-santo-agostinho.md`, slug `a-trindade-santo-agostinho`). Tradução estruturada
+  dos fundamentos dogmáticos dos quinze livros e das analogias psicológicas a partir do CCSL 50/50A e PL 42.
+  Expõe a consubstancialidade trinitária (*opera Trinitatis ad extra sunt indivisa*), as tríades da mente e a clássica analogia de Memória, Inteligência e Vontade, concluindo com a prece à Trindade Santa. Criação do autor `agostinho-de-hipona`. Script SQL em `scripts/add_agostinho_trindade_2026-09-29.sql`.
+- [x] **Santo Ambrósio de Milão, _Sobre os Mistérios (De Mysteriis)_** (c. 387 d.C.) — ✅ ENTREGUE 2026-09-29
+  (`server/texts/sobre-os-misterios-ambrosio-de-milao.md`, slug `sobre-os-misterios-ambrosio-de-milao`). Tradução integral
+  da célebre catequese mistagógica pascal aos neófitos a partir do CSEL 73 e SC 25bis.
+  Explica os ritos do Épheta, a renúncia a Satanás no Ocidente, a regeneração batismal, a unção do Crisma e a Eucaristia como o verdadeiro Pão dos Anjos. Criação do autor `ambrosio-de-milao`. Script SQL em `scripts/add_ambrosio_misterios_2026-09-29.sql`.
+- [x] **São Cirilo de Jerusalém, _Catequeses Mistagógicas (Catecheses Mystagogicae)_** (c. 350 d.C.) — ✅ ENTREGUE 2026-09-29
+  (`server/texts/catequeses-mistagogicas-cirilo-de-jerusalem.md`, slug `catequeses-mistagogicas-cirilo-de-jerusalem`). Tradução completa
+  das cinco instruções pascais proferidas na Basílica do Santo Sepulcro em Jerusalém a partir de *Sources Chrétiennes* (SC 126bis) e PG 33.
+  Monumento litúrgico da Igreja antiga sobre a Iniciação Cristã (Batismo, Crisma e Eucaristia com a clássica postura das mãos como trono do Rei). Criação do autor `cirilo-de-jerusalem`. Script SQL em `scripts/add_cirilo_jerusalem_catequeses_2026-09-29.sql`.
 
