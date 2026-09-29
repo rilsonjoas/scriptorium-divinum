@@ -49,7 +49,7 @@ VALUES (
   ARRAY['credo', 'trindade', 'cristologia', 'niceia', 'calcedonia'],
   '/texts/credos-ecumenicos.md',
   'cc-by-sa-4.0',
-  'Tradução gerada por IA (Claude Opus 5.5, da Anthropic) a partir dos originais em domínio público, conferida com a tradução inglesa de Philip Schaff (The Creeds of Christendom, vol. II, 1877). Escolhas de tradução definidas pelo editor (forma protestante clássica); revisão linha a linha pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA (Claude Opus 5.5, da Anthropic) a partir dos originais em domínio público, conferida com a tradução inglesa de Philip Schaff (The Creeds of Christendom, vol. II, 1877). Revisão humana: aprovada pelo editor do Scriptorium em 29/09/2026. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 );
 
 COMMIT;

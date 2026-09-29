@@ -682,7 +682,7 @@ leitor tem decisões de design e passa por conversa antes.
 3. [x] **Hover do menu no tema escuro ilegível.** _Feito 2026-09-29:_ cabeçalho com hover dourado-texto (12:1 nos dois temas); os 6 botões com hover bronze passam a creme fixo (5,18:1; antes 3,18:1 no escuro). Detalhe: Os links do cabeçalho
    usam `hover:text-primary-foreground`, que no escuro é um marrom quase
    preto sobre o couro. Trocar por um tom que funcione nos dois temas.
-4. [ ] **Credos aprovados pelo Rilson (2026-09-29).** Registrar a
+4. [x] **Credos aprovados pelo Rilson (2026-09-29).** _Feito:_ aviso e proveniência do texto atualizados; `scripts/credos_revisao_aprovada_2026-09-29.sql` atualiza o `attribution_text` no deploy. Detalhe: Registrar a
    revisão no aviso do texto, na proveniência e no `attribution_text`
    (hoje dizem "revisão linha a linha pendente").
 5. [ ] **Capas automáticas.** Hoje cada obra sem capa precisa de um SVG

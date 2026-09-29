@@ -8,13 +8,13 @@
 - **Obra original em**: grego e latim
 - **Licença do arquivo**: textos originais em domínio público (PD-Brasil). Tradução portuguesa © 2026 Scriptorium Divinum, licenciada sob Creative Commons Atribuição-CompartilhaIgual 4.0 Internacional (CC BY-SA 4.0) — https://creativecommons.org/licenses/by-sa/4.0/deed.pt-br
 - **Data de verificação PD**: 2026-09-28
-- **Revisão humana da tradução**: escolhas de tradução definidas por Rilson Joás em 28/09/2026 ("universal", "desceu ao Hades", _Filioque_ no texto, _Theotókos_ como "Mãe de Deus"); revisão linha a linha pendente (ao concluir, registrar revisor e data aqui e no aviso do início do texto)
+- **Revisão humana da tradução**: aprovada por Rilson Joás, editor do Scriptorium Divinum, em 29/09/2026 (escolhas de tradução definidas por ele em 28/09/2026: "universal", "desceu ao Hades", _Filioque_ no texto, _Theotókos_ como "Mãe de Deus")
 
 ---
 
 # Os Credos Ecumênicos
 
-> **Sobre esta tradução.** A tradução portuguesa e as notas foram geradas por inteligência artificial (Claude Opus 5.5, da Anthropic), diretamente do grego e do latim originais, que estão em domínio público, e conferidas com a tradução inglesa de Philip Schaff (_The Creeds of Christendom_, 1877). **Revisão humana: escolhas de tradução definidas pelo editor; revisão linha a linha pendente.** O texto original vem logo abaixo de cada credo, para que qualquer leitor possa conferir. Se encontrar um erro, [escreva para nós](/sobre#contato).
+> **Sobre esta tradução.** A tradução portuguesa e as notas foram geradas por inteligência artificial (Claude Opus 5.5, da Anthropic), diretamente do grego e do latim originais, que estão em domínio público, e conferidas com a tradução inglesa de Philip Schaff (_The Creeds of Christendom_, 1877). **Revisão humana: aprovada pelo editor do Scriptorium em 29/09/2026.** O texto original vem logo abaixo de cada credo, para que qualquer leitor possa conferir. Se encontrar um erro, [escreva para nós](/sobre#contato).
 
 Estes quatro textos são chamados "ecumênicos" porque foram recebidos, com poucas exceções, pelas igrejas ortodoxas, católica e protestantes. As confissões da Reforma (Augsburgo, os 39 Artigos, a Fórmula de Concórdia, as confissões reformadas) os reafirmam expressamente como resumo fiel da fé bíblica.
 
