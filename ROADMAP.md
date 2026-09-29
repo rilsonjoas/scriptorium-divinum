@@ -1839,3 +1839,93 @@ faz. Pendente de verificar na página: `--border` e `--input` medem
 ~1.1:1 contra `--muted` (1.4.11 pede 3:1), mas os cards usam
 `border-library-bronze`, que é visível — token subusado ou reprovado,
 ainda não decidido.
+
+## P11 — Controle de curadoria no admin (pedido do Rilson, 2026-09-29)
+
+**Motivo:** hoje a visibilidade pública de uma obra é 100% automática —
+o catálogo, a busca, a página de autor e o sitemap mostram uma obra se
+(e só se) `server/texts/<slug>.md` existe no disco (`textAvailable` em
+`server/src/texts.ts`, decisão de 2026-09-29, ver "Catálogo público" mais
+abaixo). Não existe nenhum campo "publicado/rascunho" — a única forma de
+esconder uma obra é apagar o arquivo. Isso funcionou até aqui porque o
+Rilson é o único curador e cada obra nova entra já pronta (texto revisado
+ou, no caso das traduções por IA, com o aviso e "revisão pendente"
+visíveis desde o primeiro commit). O pedido: **isso não vai ser sempre
+verdade** — quando outra pessoa curar o site, ela precisa de um jeito de
+publicar/despublicar e de marcar revisão humana **sem editar SQL nem
+arquivo `.md` na mão**.
+
+Dois controles, os dois no admin, os dois guardados no banco (não em
+código, para não exigir deploy a cada mudança de estado):
+
+### 1. Publicado / rascunho
+
+- **Coluna nova**: `books.published boolean not null default true`
+  (migration em `server/src/db/migrations/`, seguindo o padrão dos
+  outros campos do schema — nome da coluna, tipo, default, e o
+  comentário explicando o motivo, como já é o costume neste arquivo).
+  Default `true` para não esconder as 44 obras já publicadas.
+- **`textAvailable` continua existindo** e continua controlando o botão
+  "Ler Online" — os dois critérios se combinam: uma obra só aparece no
+  catálogo público se `published = true` **e** `textAvailable = true`.
+  Isso separa duas perguntas diferentes que hoje estão coladas numa só:
+  "o texto existe?" (técnico, automático) e "está pronta pro público?"
+  (editorial, humano).
+- **Onde aplicar o filtro**: os mesmos lugares que já filtram por
+  `textAvailable` desde 2026-09-29 — `listBooks`/`onlyAvailable` em
+  `server/src/texts.ts`, as rotas `/api/v1/books`, `/api/v1/search`,
+  `/api/v1/authors/:slug` (livros do autor) e `/api/v1/authors` (autor
+  sem obra publicada e legível não aparece, mesma lógica de
+  `bookCount` já implementada) e `sitemap.xml`. O parâmetro
+  `includeUnavailable=true` do admin passa a significar "e também as
+  não publicadas", não só "e também as sem texto".
+- **UI no admin** (`web/src/pages/admin/AdminBooks.tsx`): um toggle
+  (switch) por linha da tabela, rotulado "Publicada" — ligado/desligado,
+  sem confirmação (é reversível, ao contrário de apagar). Chama
+  `PATCH /api/v1/admin/books/:id` com `{ published: boolean }` (a rota
+  já existe, só falta o campo no `updateBookSchema` de
+  `server/src/schemas/book.schema.ts`, que hoje provavelmente não tem
+  `published` na lista de campos editáveis).
+
+### 2. Aviso de IA / revisão humana
+
+Hoje essa informação vive **dentro do texto** de cada `.md` (bloco de
+Proveniência + a linha "Revisão humana: pendente/aprovada" logo no
+início do corpo, ver `server/texts/carta-a-diogneto.md` e
+`credos-ecumenicos.md`) — funciona para o leitor, mas exige editar o
+arquivo e comitar para mudar o status. Pedido do Rilson: um toggle no
+admin para isso também.
+
+- **Duas colunas novas em `books`**: `translation_is_ai boolean not null
+  default false` e `human_review_approved_at timestamp with time zone`
+  (nulo = pendente; preenchido = aprovado, e guarda quando). Evita
+  reconstruir esse estado fazendo parsing do markdown toda vez.
+- **UI no admin**: dois controles por obra — um toggle "Tradução por
+  IA" e, se ligado, um botão "Marcar revisão humana como aprovada"
+  (que grava a data de hoje) ou "Desfazer aprovação" (limpa o campo).
+  Mesmo padrão visual do toggle de publicação acima.
+- **O aviso na página pública** (o bloco `> **Sobre esta tradução.**...`
+  no topo de cada capítulo, hoje escrito à mão em cada `.md`) passa a
+  ser **gerado pelo componente do leitor** a partir desses dois campos,
+  não copiado por texto: menos chance de o aviso e o banco dizerem
+  coisas diferentes (o mesmo tipo de furo do achado de 2026-09-29 sobre
+  Imitação/Últimos Fins — texto dizendo uma coisa, banco/arquivo dizendo
+  outra). O texto de cada `.md` mantém o bloco de Proveniência (fonte,
+  tradutor, licença), que é dado de obra, não estado editorial.
+- **Migração dos textos já publicados**: ao aplicar, rodar um script
+  único que lê `translator`/`attribution_text` de cada livro (já tem a
+  string "gerada por inteligência artificial" ou não) e popula os dois
+  campos novos para as obras existentes (Credos, Diogneto e as que
+  vierem da Frente 2), em vez de deixar todas em "pendente" de novo.
+
+### Fora de escopo deste pedido (não construir sem perguntar de novo)
+
+- Múltiplos curadores com permissões diferentes (hoje só existe uma
+  tabela `admins`, sem papéis) — se aparecer a necessidade real, é outra
+  frente.
+- Histórico de quem publicou/aprovou o quê e quando (auditoria) — os
+  dois campos acima já guardam o "quando" da aprovação; "quem" exigiria
+  ligar a linha ao admin logado, não pedido ainda.
+
+**Não implementado ainda** (2026-09-29): fica registrado aqui para
+quando o Rilson quiser que alguém pegue.
