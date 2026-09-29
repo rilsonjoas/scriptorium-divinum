@@ -2261,5 +2261,8 @@ ou sair da fila.
   (`server/texts/o-coracao-de-cristo-thomas-goodwin.md`, slug `o-coracao-de-cristo-thomas-goodwin`). Tradução da 1ª edição de Londres (1651). O cume do afeto pastoral puritano demonstrando a terna e imutável compaixão de Cristo ressurreto pelos fracos e tentados. Criação do autor `thomas-goodwin`. Script SQL em `server/src/db/seeds/add_thomas_goodwin_coracao_cristo_2026-09-29.sql`.
 - [x] **Thomas Cranmer & Igreja da Inglaterra, _As Coletas do Ano Cristão (Livro de Oração Comum de 1662)_** (1662) — ✅ ENTREGUE 2026-09-29
   (`server/texts/coletas-livro-de-oracao-comum-1662.md`, slug `coletas-livro-de-oracao-comum-1662`). Tradução clássica das históricas orações litúrgicas para o Advento, Natal, Epifania, Quaresma, Páscoa, Pentecostes e Trindade. Criação do autor `thomas-cranmer`. Script SQL em `server/src/db/seeds/add_bcp_coletas_1662_2026-09-29.sql`.
+- [x] **Taxonomia Canônica em 3 Eixos (25 Categorias Padronizadas)** — ✅ ENTREGUE 2026-09-29
+  Consolidação das mais de 70 categorias dispersas em uma taxonomia erudita e rigorosa de 3 eixos (Tradições Históricas, Gêneros Literários, Temas Teológicos). Banco de dados `categories` e array `books.categories` de todas as 161 obras normalizados via seed `server/src/db/seeds/zzz_populate_canonical_categories_2026-09-29.sql`. A API `/api/v1/categories` agora responde com exatamente 25 categorias nobres e metadados completos.
+
 
 
