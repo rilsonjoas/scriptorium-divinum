@@ -617,6 +617,25 @@ Jesus_ (1865) com OCR limpo, e Vieira/Arrais com OCR que precisa de
 revisão. Lista priorizada de traduções por IA de textos curtos no mesmo
 documento.
 
+**Acervo em português importado (2026-09-28, SQL pronto, não aplicado):**
+`scripts/add_acervo_pt_2026-09-28.sql`, textos gerados por
+`scripts/archive_ocr_to_md.py` (OCR do Internet Archive → markdown, com a
+divisão conferida contra o índice impresso de cada edição; recusa gravar
+se não bater):
+- Leitura online: Bernardes, _Nova Floresta_ (38 trechos) e _Estímulo
+  Prático, Luz e Calor…_ (35) da Antologia Portuguesa; Frei Luís de Sousa,
+  _Vida de D. Frei Bartolomeu dos Mártires_ (33 capítulos); Frei Tomé de
+  Jesus, _Trabalhos de Jesus_, tomo I completo (50 Trabalhos + Vida do
+  autor + posfácio de Inocêncio Francisco da Silva).
+- Ficha + download do escaneamento: Vieira, _Sermões selectos_ vol. II
+  (1872); Amador Arrais, _Diálogos_ (1846). OCR ainda sem revisão para
+  leitura online.
+- [ ] Vieira, _O Chrysostomo portuguez_ (1878, 5 vols.): compilador
+  Antonio Honorati/Onorati sem data de morte encontrada — fica fora até
+  confirmar (regra: sem certeza, não publica).
+- Scripts testados num Postgres descartável com as migrations do
+  projeto (credos, acervo PT, retirada e restauração, ciclo completo).
+
 **Ficaram fora do lote por proveniência incompleta:** _The Augsburg
 Confession_ (Gutenberg 275, tradutor não identificado no arquivo) e
 _On Loving God_ de Bernardo (Gutenberg 21152, texto não baixável e sem

@@ -66,7 +66,7 @@ def baixar(identificador):
 def limpar(texto, cfg):
     # marcadores tolerantes a espaço: o OCR costuma duplicar ("FIM  DO  PRIMEIRO")
     padrao = lambda m: r"\s+".join(map(re.escape, m.split()))
-    m_ini = re.search(padrao(cfg["inicio"]), texto)
+    m_ini = re.search(cfg["inicio_re"] if cfg.get("inicio_re") else padrao(cfg["inicio"]), texto)
     fins = list(re.finditer(padrao(cfg["fim"]), texto)) if cfg.get("fim") else []
     if not m_ini or (cfg.get("fim") and not fins):
         raise SystemExit(f"marcador não encontrado: inicio={bool(m_ini)} fim={bool(fins)}")
@@ -409,8 +409,139 @@ def limpar_por_titulos(texto, cfg):
     return "\n\n".join(limpar_simbolos(x) if not x.startswith("## ") else x for x in out), len(titulos)
 
 
+def limpar_por_capitulos(texto, cfg):
+    """Obra dividida por marcador explícito ("CAPITULO XII"), com títulos do índice impresso."""
+    corpo = limpar(texto, {**cfg, "sem_secoes": True})
+    ps = corpo.split("\n\n")
+    # "CAPITULO XII" sozinho (título no parágrafo seguinte) ou já com o
+    # título colado ("CAPITULO XIII O Arcebispo e os Cardiais")
+    marcador = re.compile(r"CAP[IÍ1l]TUL[O0]\s+[IVXLCY1l]{1,8}\.?(\s+\S.{0,90})?")
+    idx = [i for i, p in enumerate(ps) if marcador.fullmatch(p.strip())]
+    titulos = cfg["titulos"]
+    if len(idx) != len(titulos):
+        return None, f"{len(idx)} marcadores de capítulo, índice impresso tem {len(titulos)}"
+    out = ps[: idx[0]] if cfg.get("manter_antes") else []
+    for n, (ini, t) in enumerate(zip(idx, titulos)):
+        fim = idx[n + 1] if n + 1 < len(idx) else len(ps)
+        # pula o marcador e o título (o título certo vem do índice)
+        colado = len(ps[ini].split()) > 2
+        bloco = ps[ini + (1 if colado else 2):fim]
+        # capitular em linha própria (às vezes acompanhada de restos do título)
+        capitular = ""
+        while bloco and (re.fullmatch(r"[A-ZÁÉÍÓÚÂÊÔÃÕÇ][’'`.,]?", bloco[0].strip())
+                         or (len(bloco[0]) < 40 and bloco[0][:1].islower() and not capitular and len(bloco) > 1
+                             and re.fullmatch(r"[A-ZÁÉÍÓÚÂÊÔÃÕÇ][’'`.,]?", bloco[1].strip()))):
+            q = bloco.pop(0).strip()
+            if re.fullmatch(r"[A-ZÁÉÍÓÚÂÊÔÃÕÇ][’'`.,]?", q):
+                capitular = q[0]
+        bloco = [q for q in bloco if q.strip() not in cfg.get("remover_paragrafos", ())]
+        if bloco and capitular and bloco[0][:1].islower():
+            bloco[0] = capitular + bloco[0]
+        if bloco:
+            for errado, certo in cfg.get("correcoes", {}).items():
+                bloco[0] = bloco[0].replace(errado, certo)
+        if bloco:
+            bloco[0] = re.sub(r"^([A-ZÁÉÍÓÚÂÊÔÃÕÇ])([A-ZÁÉÍÓÚÂÊÔÃÕÇ-]+)(?=[ ,;:.])",
+                              lambda mm: mm.group(1) + mm.group(2).lower(), bloco[0])
+        out.append(f"## Capítulo {romano(n + 1)} — {t}")
+        out.extend(bloco)
+    return "\n\n".join(limpar_simbolos(x) if not x.startswith("## ") else x for x in out), len(titulos)
+
+
+def _romano_para_int(r):
+    v = {"I": 1, "V": 5, "X": 10, "L": 50, "C": 100}
+    tot = 0
+    for i, ch in enumerate(r):
+        n = v[ch]
+        tot += -n if i + 1 < len(r) and v[r[i + 1]] > n else n
+    return tot
+
+
+def limpar_trabalhos(texto, cfg):
+    """
+    Frei Tomé de Jesus, _Trabalhos de Jesus_ (Lisboa, 1865, tomo I = partes 1 e 2).
+
+    Cada divisão abre com "TRABALHO <numeral>" e o título na linha seguinte
+    (às vezes na mesma). O OCR estraga a palavra e o numeral ("TRABAWIO XV",
+    "TÍUBALHO X\\hi" = XVIII), então o marcador é tolerante e a conferência
+    é a sequência completa 1..N. Blocos antes do Trabalho I (Vida do autor,
+    Prólogo, Doutrina, Avisos) viram capítulos com título fixo; o índice da
+    Primeira Parte, que no livro fica entre as duas partes, é cortado.
+    """
+    import difflib
+
+    # corta o índice do meio (e o do fim), antes de limpar
+    for ini_pat, fim_pat in cfg["cortes"]:
+        mi = re.search(ini_pat, texto)
+        mf = re.search(fim_pat, texto[mi.end():]) if mi else None
+        if mi:
+            texto = texto[:mi.start()] + (texto[mi.end() + mf.start():] if mf else "")
+    corpo = limpar(texto, {**cfg, "sem_secoes": True})
+    ps = corpo.split("\n\n")
+
+    marc = []
+    for i, p in enumerate(ps):
+        q = p.strip().lstrip("'\"`.,; ")
+        tok = q.split()
+        if (
+            len(tok) >= 2
+            and sum(c.isupper() for c in tok[0]) >= 0.8 * max(1, sum(c.isalpha() for c in tok[0]))
+            and difflib.SequenceMatcher(None, tok[0].upper(), "TRABALHO").ratio() >= 0.7
+            and re.fullmatch(r"[IVXLCYÍíil1fJ\\h|]{1,8}\.?", tok[1])
+        ):
+            marc.append(i)
+    n = cfg["secoes_esperadas"]
+    if len(marc) != n:
+        return None, f"{len(marc)} marcadores de Trabalho, esperados {n}"
+
+    ancoras = []  # (índice do parágrafo, título)
+    for pat, titulo_fixo in cfg["ancoras"]:
+        k = next((i for i, p in enumerate(ps) if re.match(pat, p.strip())), None)
+        if k is None:
+            return None, f"âncora não encontrada: {pat}"
+        ancoras.append((k, titulo_fixo, True))
+    for num, i in enumerate(marc, start=1):
+        q = ps[i].strip().lstrip("'\"`.,; ")
+        resto = " ".join(q.split()[2:])
+        titulo = cfg["titulos"][num - 1] if cfg.get("titulos") else limpar_simbolos(
+            resto if len(resto) > 3 else ps[i + 1].strip()).rstrip(". ")
+        ancoras.append((i, f"Trabalho {romano(num)} — {titulo}", resto == ""))
+    parte2 = next(i for i, p in enumerate(ps) if re.fullmatch(cfg["parte2"], p.strip()))
+    ancoras.sort()
+
+    out = []
+    for j, (i, titulo, pula_titulo) in enumerate(ancoras):
+        fim = ancoras[j + 1][0] if j + 1 < len(ancoras) else len(ps)
+        if i < parte2 <= fim and not titulo.startswith("Trabalho"):
+            pass
+        if titulo.startswith(f"Trabalho {romano(cfg['primeiro_da_parte2'])} "):
+            out.append("# Segunda Parte")
+        elif titulo.startswith("Trabalho I "):
+            out.append("# Primeira Parte")
+        out.append(f"## {titulo}")
+        ini = i + (2 if (titulo.startswith("Trabalho") and pula_titulo) else 1)
+        bloco = [q for q in ps[ini:fim] if not re.fullmatch(cfg["parte2"], q.strip())]
+        # restos do título: subtítulo em caixa alta (blocos iniciais) ou
+        # continuação em minúscula ("e de seu nascimento.", "do Senhor.")
+        while bloco and (_parece_titulo(bloco[0].strip()) or
+                         (bloco[0][:1].islower() and len(bloco[0]) < 45)):
+            bloco.pop(0)
+        # capitular solta ("V" + "endo ..." no Trabalho XXXVIII)
+        if len(bloco) > 1 and re.fullmatch(r"[A-ZÁÉÍÓÚÂÊÔÃÕÇ]", bloco[0].strip()):
+            cap = bloco.pop(0).strip()
+            if bloco[0][:1].islower():
+                bloco[0] = cap + bloco[0]
+        out.extend(bloco)
+    while out and _parece_titulo(out[-1].strip()):
+        out.pop()  # cabeçalho do índice que sobrou no fim
+    texto_final = "\n\n".join(limpar_simbolos(x) if not x.startswith("#") else x for x in out)
+    for errado, certo in cfg.get("correcoes_texto", {}).items():
+        texto_final = texto_final.replace(errado, certo)
+    return texto_final, n
+
+
 def romano(n):
-    vals = [(40, "XL"), (10, "X"), (9, "IX"), (5, "V"), (4, "IV"), (1, "I")]
+    vals = [(100, "C"), (90, "XC"), (50, "L"), (40, "XL"), (10, "X"), (9, "IX"), (5, "V"), (4, "IV"), (1, "I")]
     r = ""
     for v, s in vals:
         while n >= v:
@@ -486,6 +617,74 @@ OBRAS = {
         },
         "titulo": "Estímulo Prático, Luz e Calor e outros escritos (Antologia)",
     },
+    "sousa-vida-do-arcebispo": {
+        "archive": "obrassou01sousuoft",
+        "arquivo": "sousa-vida-do-arcebispo-antologia.md",
+        "inicio": "BARTOLOMEU DOS MÁRTIRES CAPITULO I",
+        "fim": "ÍNDICE",
+        "cabecalhos": [r"\S{1,5} ANTOLOGIA", r"FREI LU[IÍ]S DE SOUSA \S{1,5}", r"ANTOLOGIA", r"FREI LU[IÍ]S DE SOUSA", r"[\d\W]{1,3}|[a-z]{1,2}"],
+        "modo": "capitulos",
+        # inícios de capítulo que o OCR estragou (capitular + versalete),
+        # conferidos no escaneamento; e o resto do título do cap. XI
+        "correcoes": {"Quaxdo": "Quando", "Otratamento": "O tratamento", "Murros anos": "Muitos anos",
+                      "Ea morte": "É a morte"},
+        "remover_paragrafos": ["de S. Doiningos", "na insigne vila de Tia na"],
+        "titulos": ['Nascimento e infância', 'Estudos e profissão monástica', 'Progressos', 'Como foi eleito em Prior', 'Como foi chamado da rainha D. Catarina', 'Aceita o arcebispado por obediência', 'Como partiu para Braga', 'Como ordenou sua vida em Braga', 'Começa a visitar o arcebispado', 'Inúteis conselhos de transigência', 'Fundação do Convento de Viana', 'Parte o Arcebispo para o Concílio de Trento', 'O Arcebispo e os Cardeais', 'Parte o Arcebispo para Roma com o Cardeal de Lorena', 'Em Roma', 'O Arcebispo diante do Papa', 'Cardeais sentados e bispos de pé', 'Baixelas de prata e louça de barro', 'Sai o Arcebispo de Roma', 'Regresso a Braga. Trabalhos e desgostos', 'Visitação das Terras de Barroso', 'Conflito com as ordens militares', 'Frente a frente com devassidão e violência', 'Novas bodas de Caná', 'O pai dos pobres', 'A peste', 'Atitude do Arcebispo durante a crise nacional', 'Regresso à cela monástica', 'Santidade', 'Outros rasgos e maravilhas', 'Última vida', 'A morte do justo', 'Epitáfio'],
+        "secoes_esperadas": 33,
+        "proveniencia": {
+            "Obra": "_Vida de D. Frei Bartolomeu dos Mártires_ (1619), em seleção: Antologia Portuguesa, _Frei Luís de Sousa_, vol. I",
+            "Autor": "Frei Luís de Sousa (c. 1555–1632), a partir dos apontamentos de Frei Luís de Cácegas",
+            "Tradutor": "texto original (sem tradução). Seleção, títulos dos capítulos, abreviações e ortografia atualizada de Agostinho de Campos (1870–1944), organizador da Antologia Portuguesa",
+            "Edição/Fonte": "Lisboa/Paris: Aillaud & Bertrand, 1921. Escaneamento da Universidade de Toronto no Internet Archive: https://archive.org/details/obrassou01sousuoft (OCR revisado por script, sem revisão humana linha a linha)",
+            "Domínio público porque": "autor falecido em 1632 e organizador falecido em 1944 (art. 41, Lei 9.610/98); edição em PD no Brasil desde 1º/01/2015",
+            "Obra original em": "português",
+            "Licença do arquivo": "Domínio Público (PD-Brasil)",
+            "Data de verificação PD": "2026-09-28",
+        },
+        "titulo": "Vida de D. Frei Bartolomeu dos Mártires (Antologia)",
+    },
+    "tome-de-jesus-trabalhos": {
+        "archive": "trabalhosdejesus00thom",
+        "arquivo": "tome-de-jesus-trabalhos-de-jesus-1.md",
+        "inicio": "VIDA DO",
+        "inicio_re": r"VIDA\s+\S{1,3}\s+Y?V?EN\.",   # OCR: "VIDA 1)0 YEN." = VIDA DO VEN.
+        "cabecalhos": [
+            r".{0,5}\s*TRA\S{0,6}\s+\S{1,3}\s+\S{3,6}",          # "222 TRABALHOS DE JESU"
+            r"PA\S{2,3}\s+\S{5,9}\s+\S{1,4}",                     # "PARTE PRIMEIRA 237"
+            r"[Vv][Oo0][Ll]\S{0,2}\s+\S{1,3}\.?\s*\S{0,4}",      # "VOL. I. 15"
+            r"[\d\W]{1,4}|[a-z]{1,2}",
+        ],
+        # índices: o da Primeira Parte fica entre as partes; o da Segunda, no
+        # fim do livro (começa em "Trabalho xxvi. Agonia do Horto ... 5")
+        "cortes": [(r"INDEX\s+DA\s+PRIMEIRA\s+PARTE", r"SEGUNDA\s+PARTE"),
+                   (r"\S{0,40}\s*Trabalho\s+xxvi\.\s+Agonia\s+do\s+Horto", r"(?!)")],
+        "ancoras": [
+            (r"VIDA \S{1,3} Y?V?EN\.", "Vida do Venerável Padre Frei Tomé de Jesus, por D. Frei Aleixo de Meneses"),
+            (r"PROLOGO AO LEITOR", "Prólogo ao leitor"),
+            (r"DOUTRINA DOS FRUTOS", "Doutrina dos frutos da consideração dos Trabalhos de Jesus"),
+            (r"AVISOS DO MODO", "Avisos do modo que se há de ter para tirar o fruto da lição"),
+            (r"PROTESTAÇÃO DO AUCTOR", "Protestação do autor"),
+            (r"ALGUMAS PALAVRAS ACERCA", "Algumas palavras acerca desta obra e do seu autor, por Inocêncio Francisco da Silva (1866)"),
+        ],
+        "correcoes_texto": {"Jnnoccncio Francisco da Si": "Innocencio Francisco da Silva."},
+        "parte2": r"SEGUNDA PARTE\.?",
+        # títulos com os erros de OCR corrigidos à mão (ortografia de 1865 mantida)
+        "titulos": ['A vista, e acceitação dos trabalhos, que havia de passar', 'O aperto, e miséria do lugar em que andou nove mezes', 'Ter nove mezes represada a força de seu amor', 'O duro tratamento que deo Christo a seu corpo logo em nascendo, e de seu nascimento', 'Lagrimas do Senhor por nossos peccados', 'Desabrigo nas asperezas do tempo', 'Circumcisão', 'Degradado da pátria por perseguição de Herodes, e a historia dos Reis Magos', 'Sentimento da morte dos Innocentes', 'Da obediência', 'Da pobreza', 'Aspereza da vida', 'Fome, e sede da justiça', 'Andar entre gente differente de sua vida, e costumes', 'Jejum, e vida do ermo', 'Da tentação', 'Soffrer a grosseria dos Apóstolos antes de allumiados', 'Peregrinar de lugar em lugar a pé', 'Dureza da gente judaica', 'Ser mal julgado', 'Ser murmurado', 'Contradicção de sua doutrina, e obras', 'Ardis, e ciladas que lhe armavam pêra o destruir', 'Ingratidão dos benefícios', 'Desejo afervorado, e humano arreceio de padecer. E da transfiguração do Senhor', 'Agonia do Horto', 'Falsa amizade, pela qual foi vendido', 'Da prisão', 'Ser levado por audiências de máos juizes', 'Falsos testemunhos', 'Das bofetadas', 'De ser o Senhor cuspido', 'Do cárcere', 'Ser levado pelas ruas de Jerusalém affrontado', 'Tratado como doudo', 'Descrédito com seus amigos, e triunfo de seus inimigos', 'Trocado por Barrabás, e contado entre máos, e ladrões', 'Dos açoutes', 'Ser coroado de espinhos', 'Escarneo do reinado de Christo, e da palavra «Ecce Homo»', 'Sentença de morte', 'Cruz ás costas', 'Pregado, alevantado, e desconjuntado na Cruz', 'Estar horas vivo na Cruz', 'Escarneo das verdades de Christo', 'Perder-se Judas, e hum ladrão, ao lado de Christo', 'A vista das dores de sua sacratíssima Mãi', 'Desamparo que Christo teve na Cruz', 'Sede extrema, e fel, e vinagre, que bebeo', 'Agonias da morte'],
+        "primeiro_da_parte2": 26,
+        "modo": "trabalhos",
+        "secoes_esperadas": 50,
+        "proveniencia": {
+            "Obra": "_Trabalhos de Jesus_ (1602–1609), Primeira e Segunda Parte, precedidos da _Vida_ do autor por D. Frei Aleixo de Meneses",
+            "Autor": "Frei Tomé de Jesus, OSA (1529–1582), escrito no cativeiro em Marrocos depois de Alcácer-Quibir",
+            "Tradutor": "texto original (sem tradução); ortografia da edição de 1865 mantida",
+            "Edição/Fonte": "Quinta edição, tomo I, Lisboa: A. J. Fernandes Lopes, 1865. Escaneamento no Internet Archive: https://archive.org/details/trabalhosdejesus00thom (OCR revisado por script, sem revisão humana linha a linha)",
+            "Domínio público porque": "autor falecido em 1582; autor da _Vida_ (D. Frei Aleixo de Meneses) falecido em 1617; autor do posfácio da edição (Inocêncio Francisco da Silva, 1810–1876) falecido em 1876 (art. 41, Lei 9.610/98)",
+            "Obra original em": "português",
+            "Licença do arquivo": "Domínio Público (PD-Brasil)",
+            "Data de verificação PD": "2026-09-28",
+        },
+        "titulo": "Trabalhos de Jesus",
+    },
 }
 
 
@@ -500,14 +699,17 @@ def main():
         if corpo is None:
             print(f"{chave}: {achados} trechos pela fonte, índice impresso tem {len(cfg['titulos'])} — DIVERGE")
             sys.exit(1)
-    elif cfg.get("modo") == "titulos":
-        corpo, info = limpar_por_titulos(baixar(cfg["archive"]), cfg)
+    elif cfg.get("modo") in ("titulos", "capitulos", "trabalhos"):
+        f = {"titulos": limpar_por_titulos, "capitulos": limpar_por_capitulos, "trabalhos": limpar_trabalhos}[cfg["modo"]]
+        corpo, info = f(baixar(cfg["archive"]), cfg)
         if corpo is None:
             print(f"{chave}: {info} — DIVERGE")
             sys.exit(1)
     else:
         corpo = limpar(baixar(cfg["archive"]), cfg)
-    if cfg.get("modo") == "titulos":
+    if cfg.get("modo") == "trabalhos":
+        secoes = len(re.findall(r"^## Trabalho ", corpo, re.M))
+    elif cfg.get("modo") in ("titulos", "capitulos"):
         secoes = len(re.findall(r"^## ", corpo, re.M))
     else:
         secoes = len(re.findall(r"^#{2,3} (?!.*— Transcrições breves$)", corpo, re.M))
