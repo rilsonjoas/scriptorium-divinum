@@ -29,9 +29,13 @@ async function main() {
       .filter((f) => f.endsWith('.sql'))
       .sort();
     for (const file of files) {
-      console.log(`  - Executando seed: ${file}`);
       const sqlContent = readFileSync(path.join(seedsDir, file), 'utf-8');
-      await migrationClient.unsafe(sqlContent);
+      try {
+        await migrationClient.unsafe(sqlContent);
+        console.log(`  ✅ Seed aplicado: ${file}`);
+      } catch (err: any) {
+        console.error(`  ⚠️ Erro no seed ${file}:`, err.message || err);
+      }
     }
   }
 
@@ -43,4 +47,3 @@ main().catch((error) => {
   console.error('❌ Falha ao rodar migrations:', error);
   process.exit(1);
 });
-
