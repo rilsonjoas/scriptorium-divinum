@@ -1971,9 +1971,11 @@ ou sair da fila.
   (Eleição Divina e Reprovação, Morte de Cristo e Redenção, Corrupção Humana e Conversão Eficaz, e Perseverança dos Santos),
   incluindo todos os artigos positivos, as rejeições de erros e a solene Conclusão do Sínodo, traduzidos a partir do latim oficial
   cotejado com Schaff (vol. III / CCEL). Script SQL em `scripts/add_canones_de_dort_2026-09-29.sql` com aviso de IA e revisão humana pendente.
-- [ ] **Confissão de Fé de Westminster** (inglês, 1646) — idem Schaff
-  vol. III. Médio-longo (33 capítulos): maior tarefa da lista depois de
-  Inácio.
+- [x] **Confissão de Fé de Westminster** (1646) — ✅ ENTREGUE 2026-09-29
+  (`server/texts/confissao-de-fe-de-westminster.md`, slug `confissao-de-fe-de-westminster`). Tradução completa
+  dos 33 capítulos sistemáticos a partir do texto oficial de 1646 em inglês cotejado com Philip Schaff (vol. III / CCEL).
+  Inclui a doutrina das Escrituras, Trindade, Pacto da Graça, Liberdade Cristã, Sacramentos, Oficiais e Escatologia,
+  estruturados com títulos de seção e divisão automática no leitor. Script SQL em `scripts/add_confissao_de_fe_de_westminster_2026-09-29.sql` com aviso de IA e revisão humana pendente.
 - [ ] **Atanásio, _A Encarnação do Verbo_** (grego) — fonte: edição de
   Robertson (1892, NPNF série 2, vol. IV). Scan ainda não localizado.
 
