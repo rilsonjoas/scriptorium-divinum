@@ -712,10 +712,30 @@ leitor tem decisões de design e passa por conversa antes.
    - Implementação própria (sem trocar de motor: foliate-js/Readium
      obrigariam a refazer grifos, glossário, cards, áudio e retomada),
      com peças prontas (Popover do Radix). Deploy junto com os itens 1–5.
-7. [ ] **Capítulos nas obras antigas.** Obras importadas antes do
+7. [x] **Capítulos nas obras antigas.** Obras importadas antes do
    `chapterize_texts.py` ainda são capítulo único (ex.: _The Holy War_,
    540 KB). Levantar quais, escrever a regra de cada uma e conferir
    contra o sumário, como no lote de 2026-09-28.
+   Feito em 2026-09-29, uma regra por obra em `scripts/chapterize_texts.py`,
+   cada uma conferida contra a estrutura impressa:
+   - **Bíblia (Almeida 1911)**: de 1 capítulo de 4,9 MB para 1189; a regra
+     confere livro a livro contra o índice impresso e aborta se divergir.
+   - **Cidade de Deus (EN)**: 22 livros, 662 capítulos com título.
+   - **Institutas (EN)**: 4 livros, 80 capítulos; os maiores que 60 KB
+     divididos nas seções de Calvino, com a faixa no título (§§ I–XV).
+   - **Confissões (EN)**: 13 livros. **Consolação (EN)**: 5 livros, cantos
+     e trechos como subtítulos, versos com quebra de linha.
+   - **Pensées**: 14 seções. Saíram a introdução de T. S. Eliot (†1965,
+     fora do domínio público no Brasil até 2036) e as notas e o índice da
+     reimpressão Dutton, sem autor declarado (regra: sem certeza, esconder).
+   - **Grace Abounding** e **Pilgrim's Progress**: seções como capítulos;
+     narrativas longas divididas nos parágrafos numerados, com a faixa
+     no título. **Holy War**: o original não tem divisão; a narrativa foi
+     cortada por tamanho em parágrafo narrativo, com "trecho n de N".
+   - Sumários e índices que remetem a páginas impressas saíram (repetem o
+     índice do leitor ou apontam para páginas que não existem no site).
+   Ainda acima de 100 KB, toleráveis por ora: Gálatas (Lutero, 120 KB),
+   _On Prayer_ (147 KB), Malaquias (106 KB), Suma I-II (138 KB).
 
    > [!DANGER] Achado no levantamento: 5 textos errados em produção
    > Cinco arquivos importados do Gutenberg por número tinham **outro
