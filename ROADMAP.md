@@ -1941,12 +1941,11 @@ ou sair da fila.
   (`server/texts/carta-a-diogneto.md`, slug `carta-a-diogneto`).
   Traduzida direto do grego (Wikisource grego), conferida com Lightfoot
   (1891). Aviso de IA e "revisão humana: pendente" visíveis na página.
-- [ ] **Breve Catecismo de Westminster** (107 perguntas e respostas,
-  inglês original de 1647) — **em andamento**, pausado a pedido do
-  Rilson em 2026-09-29. Fonte já localizada e baixada: CCEL,
-  https://www.ccel.org/creeds/westminster-shorter-cat.html (texto de
-  1647, o mesmo que Schaff imprime no vol. III de _Creeds of
-  Christendom_). Curto, alta procura — próximo da fila quando retomar.
+- [x] **Breve Catecismo de Westminster** — ✅ ENTREGUE 2026-09-29
+  (`server/texts/breve-catecismo-westminster.md`, slug `breve-catecismo-westminster`).
+  107 perguntas e respostas traduzidas a partir do original de 1647 (Schaff, vol. III / CCEL),
+  estruturadas em 10 capítulos temáticos com cotejo do texto original em inglês. Script SQL
+  de cadastro em `scripts/add_breve_catecismo_2026-09-29.sql` com aviso de IA e revisão humana pendente.
 - [ ] **Didaquê** (grego) — o original em inglês (Hitchcock & Brown,
   1884) já está no catálogo (`the-teaching-of-the-twelve-apostles-didache`),
   falta a tradução portuguesa.
