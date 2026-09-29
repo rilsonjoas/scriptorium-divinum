@@ -1929,3 +1929,46 @@ admin para isso também.
 
 **Não implementado ainda** (2026-09-29): fica registrado aqui para
 quando o Rilson quiser que alguém pegue.
+
+## P12 — Frente 2: traduções por IA de textos curtos (2026-09-29, em andamento)
+
+Pesquisa completa em `docs/PESQUISA-CATALOGO-PT-2026-09-28.md` (critério,
+fontes, por que uma tradução nova não depende das traduções protegidas
+atuais). Aqui, só o estado de cada item — atualizar a cada um que entrar
+ou sair da fila.
+
+- [x] **Carta a Diogneto** — no ar em produção desde 2026-09-29
+  (`server/texts/carta-a-diogneto.md`, slug `carta-a-diogneto`).
+  Traduzida direto do grego (Wikisource grego), conferida com Lightfoot
+  (1891). Aviso de IA e "revisão humana: pendente" visíveis na página.
+- [ ] **Breve Catecismo de Westminster** (107 perguntas e respostas,
+  inglês original de 1647) — **em andamento**, pausado a pedido do
+  Rilson em 2026-09-29. Fonte já localizada e baixada: CCEL,
+  https://www.ccel.org/creeds/westminster-shorter-cat.html (texto de
+  1647, o mesmo que Schaff imprime no vol. III de _Creeds of
+  Christendom_). Curto, alta procura — próximo da fila quando retomar.
+- [ ] **Didaquê** (grego) — o original em inglês (Hitchcock & Brown,
+  1884) já está no catálogo (`the-teaching-of-the-twelve-apostles-didache`),
+  falta a tradução portuguesa.
+- [ ] **Cartas de Inácio de Antioquia** (7 cartas: Éfeso, Magnésia,
+  Trales, Roma, Filadélfia, Esmirna, Policarpo) — grego, mesma edição
+  de Lightfoot do Diogneto. Fontes conferidas e localizadas em
+  2026-09-29 (grego: Wikisource grego, uma página por carta; inglês:
+  CCEL, `fathers.ii.iii.html` até `fathers.ii.ix.html`). **Tratar como
+  projeto à parte** — cada carta tem o tamanho da Carta a Diogneto
+  inteira, então são ~7x o trabalho, e o grego de Inácio é mais difícil
+  (duas recensões do texto manuscrito existem; usar a de Lightfoot, que
+  já resolve isso).
+- [ ] **Catecismo de Heidelberg** (alemão, 1563) — fonte: Schaff, _Creeds
+  of Christendom_ vol. III, via CCEL. Ainda não localizado o link exato.
+- [ ] **Cânones de Dort** (latim, 1619) — idem, fonte Schaff vol. III.
+- [ ] **Confissão de Fé de Westminster** (inglês, 1646) — idem Schaff
+  vol. III. Médio-longo (33 capítulos): maior tarefa da lista depois de
+  Inácio.
+- [ ] **Atanásio, _A Encarnação do Verbo_** (grego) — fonte: edição de
+  Robertson (1892, NPNF série 2, vol. IV). Scan ainda não localizado.
+
+Ordem sugerida ao retomar: Breve Catecismo de Westminster (já com fonte
+em mãos) → Didaquê (fonte inglesa já no catálogo, só falta traduzir) →
+Heidelberg → Dort → Confissão de Westminster → Atanásio → Inácio (maior
+e mais difícil, por último ou como frente separada).
