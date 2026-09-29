@@ -1976,8 +1976,12 @@ ou sair da fila.
   dos 33 capítulos sistemáticos a partir do texto oficial de 1646 em inglês cotejado com Philip Schaff (vol. III / CCEL).
   Inclui a doutrina das Escrituras, Trindade, Pacto da Graça, Liberdade Cristã, Sacramentos, Oficiais e Escatologia,
   estruturados com títulos de seção e divisão automática no leitor. Script SQL em `scripts/add_confissao_de_fe_de_westminster_2026-09-29.sql` com aviso de IA e revisão humana pendente.
-- [ ] **Atanásio, _A Encarnação do Verbo_** (grego) — fonte: edição de
-  Robertson (1892, NPNF série 2, vol. IV). Scan ainda não localizado.
+- [x] **Atanásio de Alexandria, _A Encarnação do Verbo_** (*De Incarnatione Verbi Dei*, c. 318 d.C.) — ✅ ENTREGUE 2026-09-29
+  (`server/texts/a-encarnacao-do-verbo.md`, slug `a-encarnacao-do-verbo`). Tradução integral e estruturada
+  dos 57 parágrafos clássicos em 9 capítulos temáticos (Criação e Queda, Vitória sobre a Morte, Restauração do Conhecimento
+  e da Imagem, Morte de Cruz, Ressurreição dos Mortos, Refutação dos Judeus, Refutação dos Filósofos Gentios, Triunfo Cósmico
+  e Conclusão Exortativa), a partir do grego clássico cotejado com Archibald Robertson (NPNF vol. 4 / CCEL). Criação do autor
+  `atanasio-de-alexandria`. Script SQL em `scripts/add_a_encarnacao_do_verbo_2026-09-29.sql` com aviso de IA e revisão humana pendente.
 
 Ordem sugerida ao retomar: Breve Catecismo de Westminster (já com fonte
 em mãos) → Didaquê (fonte inglesa já no catálogo, só falta traduzir) →
