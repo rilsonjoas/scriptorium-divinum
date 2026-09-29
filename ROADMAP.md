@@ -693,8 +693,25 @@ leitor tem decisões de design e passa por conversa antes.
 6. [ ] **Leitor mais completo e moderno** (referência: leitor da The
    Faith Received). Queixas: controles de fonte/tema escondidos no topo,
    longe do texto; a proveniência ocupa o alto da página o tempo todo;
-   muito espaço em branco. Decisões de design a combinar com o Rilson
-   antes de implementar (grill).
+   muito espaço em branco. **Decidido com o Rilson (grill, 2026-09-29):**
+   - Barra flutuante embaixo, junto do texto: ‹ página ›, **Aa**, Índice,
+     ⓘ, Foco e menu ⋯ (Como citar, Anotações, Áudio). No celular, tocar
+     no meio do texto mostra/esconde a barra.
+   - Painel **Aa**: tamanho −/+ em passos finos, espaçamento entre linhas,
+     largura da coluna, fonte, tema, 1/2 páginas, Páginas/Rolagem.
+   - Notas de rodapé em balão ao tocar no número; a lista no fim do
+     capítulo continua (leitor de tela, impressão).
+   - Topo compacto: só Voltar e título. O leitor é só texto; os **dados
+     da obra** (proveniência) ficam na ficha da obra e **abaixo do
+     leitor** (rolando a página), com ⓘ na barra rolando até lá.
+     Exceção: tradução por IA mantém uma linha discreta de aviso no topo.
+   - Desktop ≥ 1280 px no modo Páginas: **duas páginas lado a lado**
+     automaticamente, com opção de voltar a 1; Rolagem fica em 1 coluna.
+   - **Modo foco** só pelo botão (nada automático, "para ninguém se
+     assustar"); `Esc` sai.
+   - Implementação própria (sem trocar de motor: foliate-js/Readium
+     obrigariam a refazer grifos, glossário, cards, áudio e retomada),
+     com peças prontas (Popover do Radix). Deploy junto com os itens 1–5.
 7. [ ] **Capítulos nas obras antigas.** Obras importadas antes do
    `chapterize_texts.py` ainda são capítulo único (ex.: _The Holy War_,
    540 KB). Levantar quais, escrever a regra de cada uma e conferir
