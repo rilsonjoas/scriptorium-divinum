@@ -26,6 +26,7 @@ COPY --from=pruned --chown=app:app /prod/server ./
 COPY --from=build --chown=app:app /repo/server/src/db/migrations ./dist/db/migrations
 COPY --from=build --chown=app:app /repo/server/src/db/custom-sql ./dist/db/custom-sql
 COPY --from=build --chown=app:app /repo/server/src/db/seeds ./dist/db/seeds
+COPY --from=build --chown=app:app /repo/server/texts ./texts
 USER app
 ENV NODE_ENV=production
 EXPOSE 3001
