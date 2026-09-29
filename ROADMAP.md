@@ -2006,4 +2006,16 @@ ou sair da fila.
 - [x] **Igreja da Inglaterra, _Os Trinta e Nove Artigos da Religião (Thirty-Nine Articles of Religion)_** (1571) — ✅ ENTREGUE 2026-09-29
   (`server/texts/trinta-e-nove-artigos-da-religiao.md`, slug `trinta-e-nove-artigos-da-religiao`). Tradução integral
   dos 39 artigos confessionais históricos da Reforma Inglesa em 5 partes temáticas (A Fé Trinitária, A Regra de Fé e as Escrituras, A Salvação e Justificação pela Fé, A Igreja e os Sacramentos, e A Sociedade Civil), a partir dos textos oficiais latino e inglês de 1571 cotejados com Philip Schaff (*The Creeds of Christendom*, vol. III). Criação do autor `igreja-da-inglaterra`. Script SQL em `scripts/add_trinta_e_nove_artigos_2026-09-29.sql`.
+- [x] **São Basílio Magno, _Aos Jovens: Como Tirar Proveito da Literatura Clássica (Ad Adolescentes)_** (c. 374 d.C.) — ✅ ENTREGUE 2026-09-29
+  (`server/texts/aos-jovens-sobre-a-literatura-classica.md`, slug `aos-jovens-sobre-a-literatura-classica`). Tradução integral
+  das 10 seções clássicas em 5 capítulos temáticos a partir do texto grego de Sources Chrétiennes (SC 28bis) e PG 31.
+  Tratado patrístico capital sobre o discernimento cristão, a analogia das abelhas que colhem unicamente o néctar das virtudes, a primazia da vida eterna e a educação humanística sob a luz de Cristo. Criação do autor `basilio-de-cesareia`. Script SQL em `scripts/add_basilio_aos_jovens_2026-09-29.sql`.
+- [x] **São Bento de Núrsia, _A Regra de São Bento (Regula Sancti Benedicti)_** (c. 530 d.C.) — ✅ ENTREGUE 2026-09-29
+  (`server/texts/a-regra-de-sao-bento.md`, slug `a-regra-de-sao-bento`). Tradução completa e estruturada
+  do Prólogo célebre ("Escuta, ó filho, os preceitos do mestre...") e de todos os capítulos fundamentais em 6 partes temáticas:
+  Os Quatro Gêneros de Monges, O Abade e o Conselho, Os 72 Instrumentos das Boas Obras e a Obediência, O Silêncio e os Doze Graus da Humildade, O Trabalho Manual e Leitura Divina (Ora et Labora), e A Hospitalidade Evangélica ("Receber todos os hóspedes como o próprio Cristo"). Fonte crítica: Butler/Morin (PL 66). Criação do autor `bento-de-nursia`. Script SQL em `scripts/add_regra_de_sao_bento_2026-09-29.sql`.
+- [x] **Santo Anselmo de Cantuária, _Proslogion: A Fé em Busca de Compreensão (Fides Quaerens Intellectum)_** (1078 d.C.) — ✅ ENTREGUE 2026-09-29
+  (`server/texts/proslogion.md`, slug `proslogion`). Tradução completa do Proêmio e dos 26 capítulos
+  estruturados em 6 divisões a partir do latim crítico de F. S. Schmitt (*Opera Omnia*) e PL 158.
+  Marco fundador da teologia escolástica medieval com a célebre oração "Credo ut intelligam" e a demonstração ontológica de Deus como "Aquele do qual nada maior pode ser pensado" (*aliquid quo nihil maius cogitari possit*). Criação do autor `anselmo-de-cantuaria`. Script SQL em `scripts/add_proslogion_2026-09-29.sql`.
 
