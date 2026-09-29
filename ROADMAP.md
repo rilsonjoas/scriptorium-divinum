@@ -1835,7 +1835,7 @@ faz. Pendente de verificar na página: `--border` e `--input` medem
 `border-library-bronze`, que é visível — token subusado ou reprovado,
 ainda não decidido.
 
-## P11 — Controle de curadoria no admin (pedido do Rilson, 2026-09-29)
+## P11 — Controle de curadoria no admin — ✅ ENTREGUE 2026-09-29
 
 **Motivo:** hoje a visibilidade pública de uma obra é 100% automática —
 o catálogo, a busca, a página de autor e o sitemap mostram uma obra se
@@ -1922,8 +1922,13 @@ admin para isso também.
   dois campos acima já guardam o "quando" da aprovação; "quem" exigiria
   ligar a linha ao admin logado, não pedido ainda.
 
-**Não implementado ainda** (2026-09-29): fica registrado aqui para
-quando o Rilson quiser que alguém pegue.
+**Concluído e entregue (2026-09-29):**
+- Migração Drizzle (`0007_glamorous_natasha_romanoff.sql`) com colunas `published`, `translation_is_ai`, `human_review_approved_at`.
+- Schemas Zod e queries Fastify atualizados com suporte a PATCH /admin/books/:id.
+- Filtro de visibilidade combinada (`published !== false && textAvailable(onlineReadPath)`) no catálogo, autor, busca e sitemap.
+- Tabela do Admin com switches em tempo real para publicar/despublicar e aprovar revisão humana com um clique.
+- Leitor exibindo aviso de IA dinâmico baseado no banco de dados.
+- Suíte completa de testes (158 testes) validada.
 
 ## P12 — Frente 2: traduções por IA de textos curtos (2026-09-29, em andamento)
 

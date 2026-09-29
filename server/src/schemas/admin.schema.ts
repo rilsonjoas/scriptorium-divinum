@@ -30,6 +30,9 @@ export const createBookSchema = z.object({
   coverImageUrl: z.string().optional(),
   onlineReadPath: z.string().optional(),
   featured: z.boolean().default(false),
+  published: z.boolean().default(true),
+  translationIsAi: z.boolean().default(false),
+  humanReviewApprovedAt: z.string().or(z.date()).nullable().optional(),
   licenseType: z.string().max(50).default('public-domain'),
   attributionText: z.string().optional(),
   downloadLinks: z

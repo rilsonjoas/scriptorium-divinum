@@ -53,6 +53,9 @@ export function EditBookDialog({ book, open, onClose, onSave, authors }: EditBoo
         translator: book.translator || '',
         language: book.language,
         featured: book.featured,
+        published: book.published !== false,
+        translationIsAi: book.translationIsAi || false,
+        humanReviewApprovedAt: book.humanReviewApprovedAt || null,
         onlineReadPath: book.onlineReadPath || '',
         coverImageUrl: book.coverImageUrl || '',
       });
@@ -323,16 +326,60 @@ export function EditBookDialog({ book, open, onClose, onSave, authors }: EditBoo
           {/* Download links */}
           <DownloadLinksEditor value={downloadLinks} onChange={setDownloadLinks} />
 
-          {/* Featured */}
-          <div className="flex items-center space-x-2">
-            <Switch
-              id="featured"
-              checked={formData.featured || false}
-              onCheckedChange={(checked) => setFormData({ ...formData, featured: checked })}
-            />
-            <Label htmlFor="featured" className="font-body text-library-wood-foreground">
-              Livro em Destaque
-            </Label>
+          {/* Curadoria e Publicação */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 border-t border-library-bronze/30 pt-4">
+            <div className="flex items-center space-x-2">
+              <Switch
+                id="published"
+                checked={formData.published !== false}
+                onCheckedChange={(checked) => setFormData({ ...formData, published: checked })}
+              />
+              <Label htmlFor="published" className="font-body text-library-wood-foreground">
+                Publicado no Catálogo
+              </Label>
+            </div>
+
+            <div className="flex items-center space-x-2">
+              <Switch
+                id="featured"
+                checked={formData.featured || false}
+                onCheckedChange={(checked) => setFormData({ ...formData, featured: checked })}
+              />
+              <Label htmlFor="featured" className="font-body text-library-wood-foreground">
+                Livro em Destaque
+              </Label>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 border-t border-library-bronze/30 pt-4">
+            <div className="flex items-center space-x-2">
+              <Switch
+                id="translationIsAi"
+                checked={formData.translationIsAi || false}
+                onCheckedChange={(checked) => setFormData({ ...formData, translationIsAi: checked })}
+              />
+              <Label htmlFor="translationIsAi" className="font-body text-library-wood-foreground">
+                Tradução gerada por IA
+              </Label>
+            </div>
+
+            {formData.translationIsAi && (
+              <div className="flex items-center space-x-2">
+                <Switch
+                  id="humanReviewApproved"
+                  checked={!!formData.humanReviewApprovedAt}
+                  onCheckedChange={(checked) =>
+                    setFormData({
+                      ...formData,
+                      humanReviewApprovedAt: checked ? new Date().toISOString() : null,
+                    })
+                  }
+                />
+                <Label htmlFor="humanReviewApproved" className="font-body text-library-wood-foreground text-xs">
+                  {formData.humanReviewApprovedAt ? 'Revisão Humana Aprovada' : 'Revisão Humana Pendente'}
+                </Label>
+              </div>
+            )}
           </div>
         </div>
 

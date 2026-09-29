@@ -39,6 +39,9 @@ export interface BookDB {
   cover_image_url?: string;
   online_read_path?: string;
   featured: boolean;
+  published?: boolean;
+  translation_is_ai?: boolean;
+  human_review_approved_at?: string | null;
   created_at: string;
   updated_at: string;
 }
@@ -106,6 +109,9 @@ export interface Book {
   downloadLinks?: DownloadLink[];
   tableOfContents?: { title: string; anchor?: string; level: number }[];
   featured?: boolean;
+  published?: boolean;
+  translationIsAi?: boolean;
+  humanReviewApprovedAt?: string | null;
   licenseType?: string;
   attributionText?: string | null;
 }

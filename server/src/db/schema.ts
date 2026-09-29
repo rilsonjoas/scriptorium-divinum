@@ -58,6 +58,9 @@ export const books = pgTable(
     // em vez de deixar o leitor num beco sem saída.
     relatedEditionSlug: varchar('related_edition_slug', { length: 255 }),
     featured: boolean('featured').default(false).notNull(),
+    published: boolean('published').default(true).notNull(),
+    translationIsAi: boolean('translation_is_ai').default(false).notNull(),
+    humanReviewApprovedAt: timestamp('human_review_approved_at', { withTimezone: true }),
     // Nem toda obra é domínio público simples — algumas são traduções
     // modernas sob licença aberta (ex. CC BY-SA), que também permitem
     // republicação, só que com atribuição obrigatória. Mesmo padrão já

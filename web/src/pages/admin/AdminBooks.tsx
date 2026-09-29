@@ -9,6 +9,8 @@ import { useQueryClient } from '@tanstack/react-query';
 import { toast } from 'sonner';
 import { BookOpen, Plus, Search, Edit, Trash2, Eye, Download, Filter } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
+import { Switch } from '@/components/ui/switch';
+import { Sparkles, CheckCircle2 } from 'lucide-react';
 import { EditBookDialog } from '@/components/admin/EditBookDialog';
 import { AddBookDialog } from '@/components/admin/AddBookDialog';
 import { DeleteConfirmDialog } from '@/components/admin/DeleteConfirmDialog';
@@ -51,6 +53,28 @@ export default function AdminBooks() {
     book.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
     book.author?.name?.toLowerCase().includes(searchTerm.toLowerCase())
   ) || [];
+
+  const handleTogglePublished = async (bookId: string, published: boolean) => {
+    try {
+      await adminService.updateBook(bookId, { published });
+      await invalidateCatalog();
+      toast.success(published ? 'Obra publicada no catálogo' : 'Obra ocultada do catálogo público');
+    } catch (err) {
+      toast.error('Erro ao alterar status de publicação');
+    }
+  };
+
+  const handleToggleHumanReview = async (bookId: string, currentApproved: boolean) => {
+    try {
+      await adminService.updateBook(bookId, {
+        humanReviewApprovedAt: currentApproved ? null : new Date().toISOString(),
+      });
+      await invalidateCatalog();
+      toast.success(currentApproved ? 'Revisão marcada como pendente' : 'Revisão humana aprovada!');
+    } catch (err) {
+      toast.error('Erro ao alterar status de revisão');
+    }
+  };
 
   const handleEdit = (bookId: string) => {
     const book = books?.items?.find(b => b.id === bookId);
@@ -239,7 +263,8 @@ export default function AdminBooks() {
                       <TableHead className="font-body text-library-wood-foreground">Autor</TableHead>
                       <TableHead className="font-body text-library-wood-foreground">Categorias</TableHead>
                       <TableHead className="font-body text-library-wood-foreground">Ano</TableHead>
-                      <TableHead className="font-body text-library-wood-foreground">Status</TableHead>
+                      <TableHead className="font-body text-library-wood-foreground">Publicada</TableHead>
+                      <TableHead className="font-body text-library-wood-foreground">Status / Curadoria</TableHead>
                       <TableHead className="font-body text-library-wood-foreground text-right">Ações</TableHead>
                     </TableRow>
                   </TableHeader>
@@ -280,16 +305,49 @@ export default function AdminBooks() {
                           {book.publicationYearOriginal || '-'}
                         </TableCell>
                         <TableCell>
-                          <div className="flex flex-col gap-1">
-                            {book.onlineReadPath && (
-                              <Badge variant="outline" className="text-xs border-green-500 text-green-700">
-                                Online
-                              </Badge>
-                            )}
-                            {book.downloadLinks?.length && (
-                              <Badge variant="outline" className="text-xs border-blue-500 text-blue-700">
-                                Download
-                              </Badge>
+                          <div className="flex items-center gap-2">
+                            <Switch
+                              id={`pub-${book.id}`}
+                              checked={book.published !== false}
+                              onCheckedChange={(checked) => handleTogglePublished(book.id, checked)}
+                            />
+                            <span className="text-xs font-body text-library-bronze-foreground">
+                              {book.published !== false ? 'Sim' : 'Não'}
+                            </span>
+                          </div>
+                        </TableCell>
+                        <TableCell>
+                          <div className="flex flex-col gap-1.5">
+                            <div className="flex flex-wrap gap-1">
+                              {book.onlineReadPath && (
+                                <Badge variant="outline" className="text-[11px] border-green-500 text-green-700">
+                                  Online
+                                </Badge>
+                              )}
+                              {book.downloadLinks?.length && (
+                                <Badge variant="outline" className="text-[11px] border-blue-500 text-blue-700">
+                                  Download
+                                </Badge>
+                              )}
+                            </div>
+                            {book.translationIsAi && (
+                              <div className="flex items-center gap-1.5">
+                                <Badge variant="outline" className="text-[10px] border-purple-500 text-purple-700 flex items-center gap-1">
+                                  <Sparkles className="h-3 w-3" /> IA
+                                </Badge>
+                                <button
+                                  type="button"
+                                  onClick={() => handleToggleHumanReview(book.id, !!book.humanReviewApprovedAt)}
+                                  className={`text-[10px] px-1.5 py-0.5 rounded border transition-colors ${
+                                    book.humanReviewApprovedAt
+                                      ? 'border-emerald-600 bg-emerald-50 text-emerald-700 hover:bg-emerald-100'
+                                      : 'border-amber-500 bg-amber-50 text-amber-700 hover:bg-amber-100'
+                                  }`}
+                                  title={book.humanReviewApprovedAt ? `Aprovada em ${new Date(book.humanReviewApprovedAt).toLocaleDateString()}` : 'Clique para aprovar revisão humana'}
+                                >
+                                  {book.humanReviewApprovedAt ? '✓ Revisada' : '⏳ Pendente'}
+                                </button>
+                              </div>
                             )}
                           </div>
                         </TableCell>

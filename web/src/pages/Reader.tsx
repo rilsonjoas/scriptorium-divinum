@@ -650,7 +650,8 @@ export default function Reader() {
   };
 
   const irParaFicha = () => fichaRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  const traducaoIA = /intelig[êe]ncia artificial/i.test(parsed.provenance ?? '');
+  const traducaoIA = bookDetails?.translationIsAi ?? /intelig[êe]ncia artificial/i.test(parsed.provenance ?? '');
+  const revisaoAprovada = bookDetails?.humanReviewApprovedAt;
 
   const indexNav = (
     <>
@@ -755,7 +756,8 @@ export default function Reader() {
         {traducaoIA && (
           <p data-leitor-topo className="mb-3 flex items-center gap-1.5 text-xs font-body text-library-bronze-foreground">
             <Sparkles className="h-3.5 w-3.5 shrink-0" />
-            Tradução feita por inteligência artificial.{' '}
+            Tradução gerada por inteligência artificial
+            {revisaoAprovada ? ' (revisão humana aprovada)' : ' (revisão humana pendente)'}.{' '}
             <button type="button" onClick={irParaFicha} className="underline underline-offset-2 hover:text-library-wood-foreground">
               Ver detalhes
             </button>

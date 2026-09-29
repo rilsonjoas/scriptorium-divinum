@@ -73,7 +73,10 @@ export async function createBook(data: CreateBookInput) {
       tags: bookData.tags,
       coverImageUrl: bookData.coverImageUrl,
       onlineReadPath: bookData.onlineReadPath,
-      featured: bookData.featured,
+      featured: bookData.featured ?? false,
+      published: bookData.published ?? true,
+      translationIsAi: bookData.translationIsAi ?? false,
+      humanReviewApprovedAt: bookData.humanReviewApprovedAt ? new Date(bookData.humanReviewApprovedAt) : null,
       licenseType: bookData.licenseType,
       attributionText: bookData.attributionText,
     })
@@ -105,13 +108,19 @@ export async function createBook(data: CreateBookInput) {
 
 export async function updateBook(id: string, data: UpdateBookInput) {
   const { downloadLinks: links, tableOfContents: toc, ...bookData } = data;
+  const updateValues: Record<string, unknown> = {
+    ...bookData,
+    ...(bookData.slug ? { slug: bookData.slug } : {}),
+    updatedAt: new Date(),
+  };
+  if (bookData.humanReviewApprovedAt !== undefined) {
+    updateValues.humanReviewApprovedAt = bookData.humanReviewApprovedAt
+      ? new Date(bookData.humanReviewApprovedAt)
+      : null;
+  }
   const [row] = await db
     .update(books)
-    .set({
-      ...bookData,
-      ...(bookData.slug ? { slug: bookData.slug } : {}),
-      updatedAt: new Date(),
-    })
+    .set(updateValues)
     .where(eq(books.id, id))
     .returning();
   if (row && links !== undefined) {

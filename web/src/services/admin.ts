@@ -26,6 +26,9 @@ const BOOK_KEYS = [
   'coverImageUrl',
   'onlineReadPath',
   'featured',
+  'published',
+  'translationIsAi',
+  'humanReviewApprovedAt',
   'downloadLinks',
 ] as const;
 

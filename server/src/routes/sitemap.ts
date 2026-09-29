@@ -38,14 +38,14 @@ export async function sitemapRoutes(app: FastifyInstance) {
     },
     async (_request, reply) => {
       const [books, categories, authors] = await Promise.all([
-        db.query.books.findMany({ columns: { id: true, slug: true, onlineReadPath: true, authorId: true } }),
+        db.query.books.findMany({ columns: { id: true, slug: true, onlineReadPath: true, authorId: true, published: true } }),
         listCategories(),
         db.query.authors.findMany({ columns: { id: true, slug: true } }),
       ]);
 
       // Obra sem leitura online não é indexada (2026-09-29): a ficha existe,
       // mas não tem o que o Google mandaria alguém ler.
-      const readableBooks = books.filter((book) => textAvailable(book.onlineReadPath));
+      const readableBooks = books.filter((book) => book.published !== false && textAvailable(book.onlineReadPath));
       const authorsWithReadableBook = new Set(readableBooks.map((book) => book.authorId));
 
       const urls: string[] = [];
