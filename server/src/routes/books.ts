@@ -8,7 +8,7 @@ import {
 } from '../schemas/book.schema.js';
 import { errorResponseSchema } from '../schemas/response.schema.js';
 import { NotFoundError } from '../plugins/error-handler.js';
-import { readText, readingMinutes, textAvailable } from '../texts.js';
+import { readText, readingMinutes, textAvailable, withTextAvailable } from '../texts.js';
 
 const booksListResponseJson = zodToJsonSchema(
   z.object({
@@ -50,7 +50,7 @@ export async function bookRoutes(app: FastifyInstance) {
       const query = listBooksQuerySchema.parse(request.query);
       const { items, total } = await listBooks(query);
       return {
-        items,
+        items: items.map(withTextAvailable),
         total,
         page: query.page,
         limit: query.limit,

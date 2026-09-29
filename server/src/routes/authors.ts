@@ -2,6 +2,7 @@ import type { FastifyInstance } from 'fastify';
 import { z } from 'zod';
 import { zodToJsonSchema } from 'zod-to-json-schema';
 import { listAuthors, getAuthorBySlug } from '../db/queries.js';
+import { withTextAvailable } from '../texts.js';
 import {
   authorSchema,
   listAuthorsQuerySchema,
@@ -55,7 +56,7 @@ export async function authorRoutes(app: FastifyInstance) {
       if (!author) {
         throw new NotFoundError(`Autor '${slug}'`);
       }
-      return author;
+      return { ...author, books: author.books.map(withTextAvailable) };
     },
   );
 }

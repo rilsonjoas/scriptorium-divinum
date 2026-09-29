@@ -1,0 +1,19 @@
+-- Reverte scripts/retirar_traducoes_sem_pd_2026-09-29.sql
+-- Linhas exatas de `books` exportadas de produção em 2026-09-29.
+
+BEGIN;
+
+INSERT INTO books SELECT * FROM json_populate_record(NULL::books, '{"id":"7414e311-bdec-4355-a2ce-d6d9f4290184","slug":"a-cidade-de-deus","title":"A Cidade de Deus","original_title":"De Civitate Dei contra Paganos","author_id":"dcfa9e03-cecf-4868-a0ee-24a0f2f9339b","publication_year_original":"426","publication_year_translation":1910,"translator":"Oscar Paes Leme","language":"Português","original_languages":["Latim"],"description":"Monumento do pensamento teológico da história, escrito em resposta ao saque de Roma pelos visigodos, contrastando a Cidade Terrena com a Cidade Celestial.","categories":["Patrística","Teologia da História","Filosofia Política"],"tags":["escatologia","sociedade","história","providência","igreja"],"cover_image_url":"/covers/a-cidade-de-deus.svg","online_read_path":"/texts/agostinho-cidade-de-deus.md","featured":true,"created_at":"2026-08-08T03:51:57.716626+00:00","updated_at":"2026-09-26T14:02:09.762491+00:00","license_type":"public-domain","attribution_text":null,"related_edition_slug":"the-city-of-god"}');
+INSERT INTO books SELECT * FROM json_populate_record(NULL::books, '{"id":"f5578993-49dc-43f0-bd7a-d7bf489ea1a4","slug":"pensamentos","title":"Pensamentos","original_title":"Pensées","author_id":"208b08b3-fd09-4dbf-93d1-a8218bc03359","publication_year_original":"1670","publication_year_translation":1922,"translator":"Mário Barreto","language":"Português","original_languages":["Francês"],"description":"Coleção de fragmentos e aforismos teológicos e filosóficos em defesa do cristianismo, contendo reflexões imortais sobre a condição humana e a Aposta de Pascal.","categories":["Apologética","Filosofia Cristã","Espiritualidade"],"tags":["apologética","razão","coração","graça","humano"],"cover_image_url":"/covers/pensamentos.svg","online_read_path":"/texts/pascal-pensamentos.md","featured":false,"created_at":"2026-08-08T03:51:57.716626+00:00","updated_at":"2026-09-26T14:02:09.762491+00:00","license_type":"public-domain","attribution_text":null,"related_edition_slug":"thoughts-pensees"}');
+INSERT INTO books SELECT * FROM json_populate_record(NULL::books, '{"id":"45117f94-639e-4e91-8ba9-ce073abff03f","slug":"por-que-deus-se-fez-homem","title":"Por que Deus se fez Homem?","original_title":"Cur Deus Homo","author_id":"17d8f613-4c65-492c-8ad4-358395617b69","publication_year_original":"1098","publication_year_translation":1940,"translator":"Antônio Pinto de Carvalho","language":"Português","original_languages":["Latim"],"description":"O clássico diálogo teológico que formulou a doutrina da satisfação na expiação, demonstrando a necessidade lógica e moral da Encarnação do Verbo.","categories":["Escolástica","Cristologia","Soteriologia"],"tags":["expiação","encarnação","redenção","justiça","cristo"],"cover_image_url":"/covers/por-que-deus-se-fez-homem.svg","online_read_path":"/texts/anselmo-cur-deus-homo.md","featured":false,"created_at":"2026-08-08T03:51:57.716626+00:00","updated_at":"2026-09-26T14:02:09.762491+00:00","license_type":"public-domain","attribution_text":null,"related_edition_slug":"proslogium-monologium-cur-deus-homo"}');
+
+UPDATE quotes SET scriptorium_url = 'https://scriptorium.narniano.com/livros/a-cidade-de-deus'
+ WHERE id IN ('07fbf854-afcf-439c-9abb-beb1b5b6344f', 'c3761339-c40f-429f-9c7d-ab24c31c2428', '521c33b8-3529-4966-8714-d3dd223b362a');
+
+UPDATE quotes SET scriptorium_url = 'https://scriptorium.narniano.com/livros/pensamentos'
+ WHERE id IN ('63e5a2a5-bab4-40aa-8c13-6599a2e9d59c', 'f5ec7190-aca4-426a-971f-083372168099', '99820793-ae56-4c02-b21f-10b5ec731064');
+
+UPDATE quotes SET scriptorium_url = 'https://scriptorium.narniano.com/livros/por-que-deus-se-fez-homem'
+ WHERE id IN ('86b18cd8-97d8-4afd-9d72-e3ced0db19b2', 'da523483-97b0-47d7-9448-94ab5e2da21a');
+
+COMMIT;

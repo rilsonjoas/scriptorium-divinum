@@ -91,7 +91,7 @@ export function BookCard({ book, variant = 'grid' }: BookCardProps) {
                   </Link>
                 </Button>
                 <div className="flex space-x-1">
-                  {book.onlineReadPath && (
+                  {book.textAvailable && (
                     <Button asChild variant="outline" size="sm" className="border-library-bronze text-library-bronze-foreground hover:bg-library-bronze hover:text-primary-foreground font-body flex-1 text-xs">
                       <Link to={readPath(book)}>
                         <BookOpen className="h-3 w-3 mr-1" />
@@ -218,7 +218,7 @@ export function BookCard({ book, variant = 'grid' }: BookCardProps) {
                 é o de leitura, não o de detalhes. Inverte a hierarquia
                 que existia (Detalhes dourado, Ler apagado). */}
             <div className="flex flex-wrap gap-2 justify-center sm:justify-start">
-              {book.onlineReadPath && (
+              {book.textAvailable && (
                 <Button asChild size="sm" className="bg-library-gold hover:bg-library-gold/90 text-library-wood font-semibold font-body shadow-sm">
                   <Link to={readPath(book)}>
                     <BookOpen className="h-3.5 w-3.5 mr-1" />

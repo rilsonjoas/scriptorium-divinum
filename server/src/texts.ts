@@ -23,6 +23,18 @@ export function textAvailable(key: string | null | undefined): boolean {
   return candidate !== null && existsSync(candidate);
 }
 
+/**
+ * Acrescenta `textAvailable` a um livro de uma listagem. Sem isso o cartão
+ * do catálogo decidia o botão "Ler Online" só por existir `onlineReadPath`,
+ * e três obras (Por que Deus se fez Homem?, A Cidade de Deus, Pensamentos)
+ * mostravam o botão para um arquivo que nunca existiu (2026-09-29).
+ */
+export function withTextAvailable<T extends { onlineReadPath?: string | null }>(
+  book: T,
+): T & { textAvailable: boolean } {
+  return { ...book, textAvailable: textAvailable(book.onlineReadPath) };
+}
+
 export function readText(key: string | null | undefined): string | null {
   const candidate = textKeyToPath(key);
   if (candidate === null || !existsSync(candidate)) return null;

@@ -12,6 +12,7 @@ const book = {
   categories: ['Patrística'],
   publicationYearOriginal: '397',
   onlineReadPath: '/texts/confissoes-garnier-1905-pt.md',
+  textAvailable: true,
   coverImageUrl: '/covers/confissoes.svg',
   author: { id: 'a1', slug: 'santo-agostinho', name: 'Santo Agostinho' },
 } as unknown as Parameters<typeof BookCard>[0]['book'];
@@ -67,5 +68,19 @@ describe('BookCard — links navegáveis', () => {
   it('o título não é âncora', () => {
     renderCard();
     expect(screen.getByText('Confissões').closest('a')).toBeNull();
+  });
+});
+
+describe('BookCard — botão de leitura só com texto de verdade', () => {
+  // bug real (2026-09-29): "Por que Deus se fez Homem?" tinha online_read_path
+  // para um arquivo que nunca existiu; o botão abria "Conteúdo indisponível"
+  it('não mostra "Ler Online" quando o texto não existe, mesmo com caminho cadastrado', () => {
+    render(
+      <MemoryRouter>
+        <BookCard book={{ ...book, textAvailable: false }} />
+      </MemoryRouter>,
+    );
+    expect(screen.queryByRole('link', { name: /ler online/i })).toBeNull();
+    expect(screen.getByRole('link', { name: /detalhes/i })).toBeTruthy();
   });
 });

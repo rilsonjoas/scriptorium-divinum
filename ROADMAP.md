@@ -662,7 +662,7 @@ volta quando entrar em PD.
 Bugs primeiro (afetam quem já usa), depois melhorias; o redesenho do
 leitor tem decisões de design e passa por conversa antes.
 
-1. [ ] **"Ler Online" que não abre nada (bug, 3 obras).** _Por que Deus se
+1. [x] **"Ler Online" que não abre nada (bug, 3 obras).** _Feito 2026-09-29:_ a API manda `textAvailable` também nas listagens (catálogo, busca, autor) e o cartão só mostra o botão com texto de verdade (teste em `BookCard.test.tsx`). Licenças: Oscar Paes Leme é de 1961 (não 1910; ainda vendida pela Vozes), e as traduções de "Mário Barreto 1922" e "Antônio Pinto de Carvalho 1940" não foram confirmadas — as 3 fichas saem por `scripts/retirar_traducoes_sem_pd_2026-09-29.sql` (redireciona antes 8 citações do Lecionário; reversão exata no `restaurar_…`; ciclo testado em Postgres descartável). Detalhe original: _Por que Deus se
    fez Homem?_, _A Cidade de Deus_ e _Pensamentos_ (PT) têm
    `online_read_path` apontando para arquivos que nunca existiram
    (`anselmo-cur-deus-homo.md`, `agostinho-cidade-de-deus.md`,
