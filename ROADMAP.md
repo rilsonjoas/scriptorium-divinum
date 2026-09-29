@@ -622,16 +622,19 @@ Confession_ (Gutenberg 275, tradutor não identificado no arquivo) e
 _On Loving God_ de Bernardo (Gutenberg 21152, texto não baixável e sem
 tradutor na ficha).
 
-**Pendências de licença no acervo atual (achadas 2026-09-28, deixadas
-pra depois por decisão do Rilson):**
-- [ ] _As Institutas da Religião Cristã_ (PT) está no banco como
-  `public-domain` com tradução de Waldyr Carvalho Luz, **1957**. Uma
-  tradução de 1957 não tem como estar em PD no Brasil em 2026 (mesmo
-  com morte em 1957, só entraria em 2028). Rever o status e o texto
-  servido.
-- [ ] _Compêndio de Teologia_ (PT), tradução de D. Odilão Moura (1935),
-  também marcado `public-domain`: data de morte do tradutor não
-  conferida. Somar à pendência já registrada acima (texto nunca achado).
+**Licenças do acervo atual (achadas e decididas em 2026-09-28):**
+Decisão do Rilson: sem certeza de domínio público, a obra sai do site;
+volta quando entrar em PD.
+- [ ] _As Institutas da Religião Cristã_ (PT), tradução de Waldyr
+  Carvalho Luz, **1957**: não pode estar em PD no Brasil em 2026.
+- [ ] _Compêndio de Teologia_ (PT), tradução de D. Odilão Moura OSB
+  (1918–2010): protegida até 2081.
+- Nenhuma das duas tinha texto no ar, só a ficha dizendo "domínio
+  público". Retirada em `scripts/retirar_obras_sem_pd_2026-09-28.sql`
+  (redireciona antes as 4 citações do Lecionário que linkavam as
+  fichas), reversão exata em `scripts/restaurar_obras_retiradas_2026-09-28.sql`.
+  **Aplicar depois da importação do lote inglês** (a citação de Tomás
+  passa a apontar para a Suma Parte I; o script aborta se ela não existir).
 
 > [!WARNING] Teto do catálogo é menor do que parecia (achado 2026-08-21)
 > O plano abaixo já mirava só "~30-50 obras" desde o início, e o
