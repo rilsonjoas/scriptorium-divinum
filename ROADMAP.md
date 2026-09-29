@@ -1815,16 +1815,11 @@ migrator só aplica entrada de journal cujo `when` for maior que o maior
 subido para o futuro e o procedimento está em
 `server/src/db/migrations/README.md`.
 
-### 🟡 Duas `<h1>` em toda página do site
+### ✅ Duas `<h1>` em toda página do site — corrigido 2026-09-29
 
-O logo do cabeçalho é `<h1>` (`div>a>div>h1`), e a página tem o seu
-próprio. Existe em **todas** as rotas, incluindo a home. Não é
-regressão de nada: é padrão do site. Um documento deve ter um `<h1>` só
-(1.3.1 Informação e relações, nível A) — o logo deveria ser `div`/`a`.
-
-**Por que não foi corrigido:** é refactor site-wide e mexer agora seria
-abrir mais um frente em vez de fechar o que estava em aberto. Registrado
-para quando for a vez.
+O logo do cabeçalho era `<h1>` (`div>a>div>h1`), e a página tinha o seu
+próprio. O logo no `Header.tsx` foi ajustado para `span` em bloco mantendo
+os estilos intactos, garantindo um único `<h1>` por documento (WCAG 1.3.1 nível A).
 
 ### 🟡 A auditoria de token por pareamento gera falso positivo
 

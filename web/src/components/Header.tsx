@@ -92,9 +92,9 @@ export function Header() {
             {/* abaixo de 360px o nome não cabe junto de tema, busca e menu; o
                 logo continua, e o nome segue no alt dele e no menu */}
             <div className="max-[359px]:hidden">
-              <h1 className="font-display text-lg md:text-2xl font-semibold golden-foil leading-tight">
+              <span className="block font-display text-lg md:text-2xl font-semibold golden-foil leading-tight">
                 {settings?.siteName ?? 'Scriptorium Divinum'}
-              </h1>
+              </span>
               <p className="text-xs md:text-sm text-library-gold font-body opacity-90 hidden sm:block">
                 Biblioteca Teológica Clássica
               </p>
