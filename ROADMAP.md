@@ -2041,4 +2041,24 @@ ou sair da fila.
   (`server/texts/o-pastor-reformado-richard-baxter.md`, slug `o-pastor-reformado-richard-baxter`). Tradução completa
   da obra magna de teologia pastoral sobre At 20.28 a partir da edição clássica de William Orme e Banner of Truth.
   Articula o dever da conversão e vigilância pessoal do pregador, a necessidade irrenunciável da catequese domiciliar individual de cada família e a infinita dignidade da Igreja resgatada pelo Sangue de Cristo. Criação do autor `richard-baxter`. Script SQL em `scripts/add_richard_baxter_pastor_2026-09-29.sql`.
+- [x] **Santo Tomás de Aquino, _Compêndio de Teologia (Compendium Theologiae)_** (1273 d.C.) — ✅ ENTREGUE 2026-09-29
+  (`server/texts/compendio-de-teologia-tomas-de-aquino.md`, slug `compendio-de-teologia-tomas-de-aquino`). Tradução integral
+  da obra de maturidade de Santo Tomás em 4 partes a partir do latim da edição leonina e *Corpus Thomisticum*.
+  Sintetiza as provas de Deus pelo Primeiro Motor, a essência divina pura (*Actus Purus*), as processões trinitárias, a criação *ex nihilo*, a Providência e o mistério da Encarnação redentora. Criação do autor `tomas-de-aquino`. Script SQL em `scripts/add_tomas_aquino_compendio_2026-09-29.sql`.
+- [x] **John Bunyan, _A Guerra Santa (The Holy War)_** (1682) — ✅ ENTREGUE 2026-09-29
+  (`server/texts/a-guerra-santa-john-bunyan.md`, slug `a-guerra-santa-john-bunyan`). Tradução completa
+  da monumental alegoria de Bunyan em 5 divisões a partir da edição clássica de George Offor.
+  Retrata a fundação da formosa cidade de Alma-Humana (*Mansoul*), o ataque de Diábolos pelas Portas do Ouvido e dos Olhos, o cerco da Lei e a vitória redentora do Príncipe Emanuel. Criação do autor `john-bunyan`. Script SQL em `scripts/add_bunyan_guerra_santa_2026-09-29.sql`.
+- [x] **Padre Antônio Vieira, _Sermão da Sexagésima_** (1655) — ✅ ENTREGUE 2026-09-29
+  (`server/texts/sermao-da-sexagesima-antonio-vieira.md`, slug `sermao-da-sexagesima-antonio-vieira`). Fixação e estruturação integral
+  do maior monumento da oratória sacra em língua portuguesa em 4 capítulos a partir das edições clássicas de J. A. de Azevedo e Hernâni Cidade.
+  A célebre "Arte de Pregar a Palavra de Deus" sobre a parábola do semeador (Lc 8.5), defendendo que a palavra deve ser pregada com clareza e acompanhada pelo testemunho irrepreensível da vida. Criação do autor `antonio-vieira`. Script SQL em `scripts/add_vieira_sexagesima_2026-09-29.sql`.
+- [x] **São Francisco de Sales, _Introdução à Vida Devota / Filoteia (Introduction à la vie dévote)_** (1609) — ✅ ENTREGUE 2026-09-29
+  (`server/texts/introducao-a-vida-devota-francisco-de-sales.md`, slug `introducao-a-vida-devota-francisco-de-sales`). Tradução completa
+  do clássico da espiritualidade salesiana em 5 divisões temáticas a partir da edição crítica da Ordem da Visitação de Annecy.
+  Instrui a alma a buscar a santidade autêntica no meio do mundo através da oração mental cotidiana, da frequência aos sacramentos, da mansidão e da paz interior. Criação do autor `francisco-de-sales`. Script SQL em `scripts/add_francisco_de_sales_2026-09-29.sql`.
+- [x] **São Bernardo de Claraval, _Do Amor de Deus (Liber de Diligendo Deo)_** (c. 1130 d.C.) — ✅ ENTREGUE 2026-09-29
+  (`server/texts/do-amor-de-deus-bernardo-de-claraval.md`, slug `do-amor-de-deus-bernardo-de-claraval`). Tradução integral
+  do clássico monástico medieval a partir da edição crítica de J. Leclercq e PL 182.
+  Formula o princípio áureo ("A causa de amar a Deus é o próprio Deus; a medida de O amar é amá-Lo sem medida") e expõe a escada dos Quatro Graus do Amor Divino até a transformação consumada na glória. Criação do autor `bernardo-de-claraval`. Script SQL em `scripts/add_bernardo_claraval_amor_de_deus_2026-09-29.sql`.
 
