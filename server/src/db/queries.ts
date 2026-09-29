@@ -310,19 +310,19 @@ export async function listCategories() {
   const rows = await db.execute<{
     category: string;
     count: number;
-    slug: string | null;
+    slug: string;
     description: string | null;
   }>(
-    sql`SELECT sub.category, count(*)::int as count, c.slug as slug, c.description as description
+    sql`SELECT c.name as category, count(*)::int as count, c.slug as slug, c.description as description
         FROM (SELECT unnest(categories) as category FROM books WHERE categories IS NOT NULL) sub
-        LEFT JOIN categories c ON c.name = sub.category
-        GROUP BY sub.category, c.slug, c.description
-        ORDER BY count DESC, sub.category ASC`,
+        INNER JOIN categories c ON c.name = sub.category
+        GROUP BY c.name, c.slug, c.description
+        ORDER BY count DESC, c.name ASC`,
   );
 
   return rows.map((r) => ({
     name: r.category,
-    slug: r.slug || r.category.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, ''),
+    slug: r.slug,
     description: r.description ?? undefined,
     bookCount: r.count,
   }));
