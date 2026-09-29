@@ -8,17 +8,17 @@
 - **Obra original em**: grego e latim
 - **Licença do arquivo**: textos originais em domínio público (PD-Brasil). Tradução portuguesa © 2026 Scriptorium Divinum, licenciada sob Creative Commons Atribuição-CompartilhaIgual 4.0 Internacional (CC BY-SA 4.0) — https://creativecommons.org/licenses/by-sa/4.0/deed.pt-br
 - **Data de verificação PD**: 2026-09-28
-- **Revisão humana da tradução**: pendente (não publicar antes dela; ao concluir, registrar aqui revisor e data, e atualizar o aviso no início do texto)
+- **Revisão humana da tradução**: escolhas de tradução definidas por Rilson Joás em 28/09/2026 ("universal", "desceu ao Hades", _Filioque_ no texto, _Theotókos_ como "Mãe de Deus"); revisão linha a linha pendente (ao concluir, registrar revisor e data aqui e no aviso do início do texto)
 
 ---
 
 # Os Credos Ecumênicos
 
-> **Sobre esta tradução.** A tradução portuguesa e as notas foram geradas por inteligência artificial (Claude Opus 5.5, da Anthropic), diretamente do grego e do latim originais, que estão em domínio público, e conferidas com a tradução inglesa de Philip Schaff (_The Creeds of Christendom_, 1877). **Revisão humana: pendente.** O texto original vem logo abaixo de cada credo, para que qualquer leitor possa conferir. Se encontrar um erro, [escreva para nós](/sobre#contato).
+> **Sobre esta tradução.** A tradução portuguesa e as notas foram geradas por inteligência artificial (Claude Opus 5.5, da Anthropic), diretamente do grego e do latim originais, que estão em domínio público, e conferidas com a tradução inglesa de Philip Schaff (_The Creeds of Christendom_, 1877). **Revisão humana: escolhas de tradução definidas pelo editor; revisão linha a linha pendente.** O texto original vem logo abaixo de cada credo, para que qualquer leitor possa conferir. Se encontrar um erro, [escreva para nós](/sobre#contato).
 
 Estes quatro textos são chamados "ecumênicos" porque foram recebidos, com poucas exceções, pelas igrejas ortodoxas, católica e protestantes. As confissões da Reforma (Augsburgo, os 39 Artigos, a Fórmula de Concórdia, as confissões reformadas) os reafirmam expressamente como resumo fiel da fé bíblica.
 
-A tradução procura ser literal sem ficar ilegível. Onde uma palavra do original carrega peso teológico ou admite mais de uma tradução, há uma nota. Cada credo vem com o texto original logo abaixo da tradução, para quem quiser conferir.
+Onde as tradições divergem, seguimos a forma clássica das igrejas protestantes: "universal" (e não "católica"), "desceu ao Hades" e a procedência do Espírito "do Pai e do Filho". A tradução procura ser literal sem ficar ilegível. Onde uma palavra do original carrega peso teológico ou admite mais de uma tradução, há uma nota. Cada credo vem com o texto original logo abaixo da tradução, para quem quiser conferir.
 
 ## O Credo Apostólico
 
@@ -26,13 +26,13 @@ _Forma recebida no Ocidente (séc. VI–VIII), derivada do antigo símbolo batis
 
 Creio em Deus Pai todo-poderoso, Criador do céu e da terra.
 
-E em Jesus Cristo, seu Filho único, nosso Senhor; que foi concebido pelo Espírito Santo, nasceu da virgem Maria; padeceu sob Pôncio Pilatos, foi crucificado, morto e sepultado; desceu aos infernos[^ap1]; ao terceiro dia ressuscitou dos mortos; subiu aos céus; está sentado à direita de Deus Pai todo-poderoso; de onde há de vir para julgar os vivos e os mortos.
+E em Jesus Cristo, seu Filho único, nosso Senhor; que foi concebido pelo Espírito Santo, nasceu da virgem Maria; padeceu sob Pôncio Pilatos, foi crucificado, morto e sepultado; desceu ao Hades[^ap1]; ao terceiro dia ressuscitou dos mortos; subiu aos céus; está sentado à direita de Deus Pai todo-poderoso; de onde há de vir para julgar os vivos e os mortos.
 
-Creio no Espírito Santo; na santa Igreja católica[^ap2]; na comunhão dos santos; na remissão dos pecados; na ressurreição da carne; na vida eterna. Amém.
+Creio no Espírito Santo; na santa Igreja universal[^ap2]; na comunhão dos santos; na remissão dos pecados; na ressurreição da carne; na vida eterna. Amém.
 
-[^ap1]: Latim _descendit ad inferna_, "desceu às regiões inferiores" (cf. Ef 4.9). Não se refere ao lugar de condenação, e sim ao Hades, a morada dos mortos. A cláusula não aparece nas formas mais antigas do credo e entrou no símbolo ocidental a partir do séc. IV (credo de Aquileia, segundo Rufino). Algumas traduções portuguesas usam "desceu à mansão dos mortos".
+[^ap1]: Latim _descendit ad inferna_, "desceu às regiões inferiores" (cf. Ef 4.9). Traduzimos por "Hades", a morada dos mortos, como faz o próprio Schaff ("he descended into Hades"): a cláusula não fala do lugar de condenação. Ela não aparece nas formas mais antigas do credo e entrou no símbolo ocidental a partir do séc. IV (credo de Aquileia, segundo Rufino). Outras traduções portuguesas usam "desceu aos infernos" ou "desceu à mansão dos mortos".
 
-[^ap2]: Latim _catholicam_, do grego _katholikós_, "universal", "segundo o todo". Designa a Igreja espalhada por toda a terra, não uma denominação. Várias igrejas protestantes de língua portuguesa dizem "Igreja universal"; Lutero, em alemão, usou "cristã". Mantivemos a palavra do original.
+[^ap2]: Latim _catholicam_, do grego _katholikós_, "universal", "segundo o todo". Designa a Igreja espalhada por toda a terra, não uma denominação. Traduzimos por "universal", como fazem as igrejas protestantes de língua portuguesa; Lutero, em alemão, usou "cristã". O mesmo vale para as demais ocorrências nos credos abaixo.
 
 ### Texto original (latim)
 
@@ -50,11 +50,11 @@ Cremos em um só Deus, Pai todo-poderoso, criador do céu e da terra, de todas a
 
 E em um só Senhor, Jesus Cristo, o Filho unigênito de Deus, gerado do Pai antes de todos os séculos, Luz da Luz, Deus verdadeiro de Deus verdadeiro, gerado, não feito, consubstancial[^ni1] ao Pai; por meio de quem todas as coisas foram feitas; o qual, por nós, homens, e por nossa salvação, desceu dos céus, e se encarnou do Espírito Santo e da virgem Maria, e se fez homem; foi crucificado por nós sob Pôncio Pilatos, padeceu e foi sepultado; e ressuscitou ao terceiro dia, segundo as Escrituras; e subiu aos céus, e está sentado à direita do Pai; e de novo há de vir com glória para julgar os vivos e os mortos; e o seu reino não terá fim.
 
-E no Espírito Santo, o Senhor e vivificador, que procede do Pai[^ni2], que com o Pai e o Filho é juntamente adorado e glorificado, que falou pelos profetas. Em uma só Igreja, santa, católica e apostólica. Confessamos um só batismo para remissão dos pecados. Esperamos a ressurreição dos mortos e a vida do século vindouro. Amém.
+E no Espírito Santo, o Senhor e vivificador, que procede do Pai e do Filho[^ni2], que com o Pai e o Filho é juntamente adorado e glorificado, que falou pelos profetas. Em uma só Igreja, santa, universal e apostólica. Confessamos um só batismo para remissão dos pecados. Esperamos a ressurreição dos mortos e a vida do século vindouro. Amém.
 
 [^ni1]: Grego _homooúsios_, "da mesma substância (essência)". É a palavra que o Concílio de Niceia escolheu contra Ário, que ensinava que o Filho era criatura.
 
-[^ni2]: O texto grego de 381 diz apenas "que procede do Pai". No Ocidente acrescentou-se "e do Filho" (latim _Filioque_), a partir do III Concílio de Toledo (589). A adição foi recebida pela Igreja de Roma e pelas igrejas da Reforma, e rejeitada pelas igrejas ortodoxas orientais. O Credo Atanasiano, mais abaixo, traz a forma ocidental. Aqui traduzimos o texto conciliar original.
+[^ni2]: "E do Filho" (latim _Filioque_) é a forma ocidental do credo, acrescentada a partir do III Concílio de Toledo (589) e recebida pela Igreja de Roma e pelas igrejas da Reforma; é a que seguimos aqui. O texto grego de 381, reproduzido abaixo, diz apenas "que procede do Pai", e é a forma mantida pelas igrejas ortodoxas orientais, que rejeitam a adição. O Credo Atanasiano também traz a forma ocidental.
 
 ### Texto original (grego)
 
@@ -90,9 +90,9 @@ um só e o mesmo Cristo, Filho, Senhor, Unigênito, reconhecido em duas natureza
 
 _Conhecido pelas primeiras palavras em latim, Quicunque vult ("Todo aquele que quer"). Composto no sul da Gália, provavelmente entre o fim do séc. V e o séc. VI. A atribuição a Atanásio de Alexandria (†373) é tradicional, mas não histórica: o texto foi escrito em latim e depende de Agostinho._
 
-1. Todo aquele que quer ser salvo, antes de tudo, é necessário que mantenha a fé católica.
+1. Todo aquele que quer ser salvo, antes de tudo, é necessário que mantenha a fé universal.
 2. Quem não a guardar íntegra e inviolada, sem dúvida perecerá eternamente.
-3. Ora, a fé católica é esta: que adoremos um só Deus na Trindade, e a Trindade na Unidade;
+3. Ora, a fé universal é esta: que adoremos um só Deus na Trindade, e a Trindade na Unidade;
 4. sem confundir as pessoas, nem separar a substância.
 5. Pois uma é a pessoa do Pai, outra a do Filho, outra a do Espírito Santo.
 6. Mas a divindade do Pai, do Filho e do Espírito Santo é uma só: igual a glória, coeterna a majestade.
@@ -109,7 +109,7 @@ _Conhecido pelas primeiras palavras em latim, Quicunque vult ("Todo aquele que q
 17. Assim, o Pai é Senhor, o Filho é Senhor, o Espírito Santo é Senhor.
 18. E, contudo, não são três senhores, mas um só Senhor.
 19. Porque, assim como a verdade cristã nos obriga a confessar cada pessoa, em particular, como Deus e Senhor,
-20. assim a religião católica nos proíbe dizer que há três deuses ou três senhores.
+20. assim a religião universal nos proíbe dizer que há três deuses ou três senhores.
 21. O Pai não foi feito por ninguém, nem criado, nem gerado.
 22. O Filho procede só do Pai: não feito, nem criado, mas gerado.
 23. O Espírito Santo procede do Pai e do Filho[^at2]: não feito, nem criado, nem gerado, mas procedente.
@@ -127,17 +127,17 @@ _Conhecido pelas primeiras palavras em latim, Quicunque vult ("Todo aquele que q
 35. Um só, não pela conversão da divindade em carne, mas pela assunção da humanidade em Deus.
 36. Inteiramente um, não por confusão de substância, mas por unidade de pessoa.
 37. Pois, assim como a alma racional e a carne são um só homem, assim Deus e homem são um só Cristo.
-38. O qual padeceu por nossa salvação, desceu aos infernos, ao terceiro dia ressuscitou dos mortos.
+38. O qual padeceu por nossa salvação, desceu ao Hades, ao terceiro dia ressuscitou dos mortos.
 39. Subiu aos céus, está sentado à direita de Deus Pai todo-poderoso,
 40. de onde há de vir para julgar os vivos e os mortos.
 41. Em sua vinda, todos os homens hão de ressuscitar com seus corpos
 42. e prestarão contas de suas próprias obras.
 43. E os que fizeram o bem irão para a vida eterna; os que fizeram o mal, para o fogo eterno.
-44. Esta é a fé católica: quem não a crer fiel e firmemente não poderá ser salvo.
+44. Esta é a fé universal: quem não a crer fiel e firmemente não poderá ser salvo.
 
 [^at1]: Latim _immensus_, "sem medida", "que não pode ser medido". Não significa "muito grande", e sim que Deus não é limitado por espaço nem por qualquer medida criada. Por isso "incomensurável", e não "imenso".
 
-[^at2]: Aqui aparece a forma ocidental da procedência do Espírito ("do Pai e do Filho"). Ver a nota 2 do Credo Niceno-Constantinopolitano.
+[^at2]: Forma ocidental da procedência do Espírito ("do Pai e do Filho"), a mesma que seguimos no Credo Niceno-Constantinopolitano (ver a nota 2 dele). Nos versículos 1, 3, 20 e 44, _catholica_ foi traduzido por "universal" (ver a nota 2 do Credo Apostólico).
 
 ### Texto original (latim)
 
