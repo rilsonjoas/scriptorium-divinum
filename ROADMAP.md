@@ -675,11 +675,11 @@ leitor tem decisões de design e passa por conversa antes.
    do beco sem saída; (c) conferir a licença das 3 traduções (Oscar Paes
    Leme; Mário Barreto †1931; Antônio Pinto de Carvalho) — sem certeza de
    PD, a ficha sai do ar, como as Institutas.
-2. [ ] **Rodapé do leitor ilegível (páginas).** Com o site no tema escuro
+2. [x] **Rodapé do leitor ilegível (páginas).** _Feito 2026-09-29:_ a barra segue a paleta do tema do leitor; as 16 combinações (site claro/escuro × 4 temas × páginas/rolagem) medidas no navegador, todas ≥ 4,5:1 (antes 1,0–2,2:1 em 6 delas). Detalhe: Com o site no tema escuro
    e o leitor em Pergaminho/Claro/Sépia, "Página 1 de 2" sai claro sobre
    claro e os botões ‹ › ficam blocos escuros. A barra usa as cores do
    tema do SITE; tem que usar as do tema do LEITOR.
-3. [ ] **Hover do menu no tema escuro ilegível.** Os links do cabeçalho
+3. [x] **Hover do menu no tema escuro ilegível.** _Feito 2026-09-29:_ cabeçalho com hover dourado-texto (12:1 nos dois temas); os 6 botões com hover bronze passam a creme fixo (5,18:1; antes 3,18:1 no escuro). Detalhe: Os links do cabeçalho
    usam `hover:text-primary-foreground`, que no escuro é um marrom quase
    preto sobre o couro. Trocar por um tom que funcione nos dois temas.
 4. [ ] **Credos aprovados pelo Rilson (2026-09-29).** Registrar a

@@ -45,7 +45,7 @@ const NotFound = () => {
               </Link>
             </Button>
             
-            <Button asChild variant="outline" size="lg" className="border-library-bronze text-library-bronze-foreground hover:bg-library-bronze hover:text-primary-foreground font-body">
+            <Button asChild variant="outline" size="lg" className="border-library-bronze text-library-bronze-foreground hover:bg-library-bronze hover:text-[hsl(35_25%_95%)] font-body">
               <Link to="/livros">
                 <BookOpen className="mr-2 h-4 w-4" />
                 Explorar Catálogo

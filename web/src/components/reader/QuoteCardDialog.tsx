@@ -243,7 +243,7 @@ export function QuoteCardDialog({ open, quote, slug, fallbackTitle, onClose }: Q
               disabled={busy}
               variant="outline"
               size="sm"
-              className="border-library-bronze text-library-bronze-foreground hover:bg-library-bronze hover:text-primary-foreground font-body"
+              className="border-library-bronze text-library-bronze-foreground hover:bg-library-bronze hover:text-[hsl(35_25%_95%)] font-body"
             >
               <Link2 className="h-4 w-4 mr-1" />
               Copiar
@@ -254,7 +254,7 @@ export function QuoteCardDialog({ open, quote, slug, fallbackTitle, onClose }: Q
                 disabled={busy}
                 variant="outline"
                 size="sm"
-                className="border-library-bronze text-library-bronze-foreground hover:bg-library-bronze hover:text-primary-foreground font-body"
+                className="border-library-bronze text-library-bronze-foreground hover:bg-library-bronze hover:text-[hsl(35_25%_95%)] font-body"
               >
                 <Share2 className="h-4 w-4 mr-1" />
                 Enviar

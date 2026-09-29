@@ -237,7 +237,7 @@ export function Header() {
             <Button
               variant="ghost"
               size="icon"
-              className="md:hidden text-library-gold hover:text-primary-foreground hover:bg-library-bronze/50"
+              className="md:hidden text-library-gold hover:text-library-dourado-texto hover:bg-library-bronze/50"
               onClick={() => setMobileSearchOpen(!mobileSearchOpen)}
               aria-label="Abrir busca"
             >
@@ -250,7 +250,7 @@ export function Header() {
                 <Button
                   variant="ghost"
                   size="icon"
-                  className="md:hidden text-library-gold hover:text-primary-foreground hover:bg-library-bronze/50"
+                  className="md:hidden text-library-gold hover:text-library-dourado-texto hover:bg-library-bronze/50"
                   aria-label="Abrir menu"
                 >
                   <Menu className="h-6 w-6" />
@@ -352,7 +352,7 @@ export function Header() {
               <Link
                 key={link.to}
                 to={link.to}
-                className="flex items-center space-x-2 text-library-gold hover:text-primary-foreground transition-colors font-body text-sm font-medium"
+                className="flex items-center space-x-2 text-library-gold hover:text-library-dourado-texto transition-colors font-body text-sm font-medium"
               >
                 <Icon className="h-4 w-4" />
                 <span>{link.label}</span>

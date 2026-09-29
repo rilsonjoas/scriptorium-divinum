@@ -627,6 +627,37 @@ export default function Reader() {
     </>
   );
 
+  // A barra de navegação fica DENTRO do cartão, que segue o tema do LEITOR;
+  // usar as cores do tema do SITE deixava "Página 1 de 2" claro sobre claro
+  // (site escuro + leitor Claro/Sépia) ou escuro sobre escuro (site claro +
+  // leitor Escuro): 1,0–2,2:1, medido em 2026-09-29. Pergaminho segue o site.
+  const navTheme = {
+    parchment: {
+      text: 'text-library-wood-foreground',
+      muted: 'text-muted-foreground',
+      button: 'border-library-bronze/60',
+      rule: 'border-library-bronze/40',
+    },
+    light: {
+      text: 'text-gray-900',
+      muted: 'text-gray-600',
+      button: 'bg-white border-gray-300 text-gray-900 hover:bg-gray-100 hover:text-gray-900',
+      rule: 'border-gray-200',
+    },
+    sepia: {
+      text: 'text-[#4a3b2c]',
+      muted: 'text-[#6b5846]',
+      button: 'bg-[#efe3c8] border-[#cdb994] text-[#4a3b2c] hover:bg-[#e6d6b3] hover:text-[#4a3b2c]',
+      rule: 'border-[#dfd0b5]',
+    },
+    dark: {
+      text: 'text-[#e5dcd3]',
+      muted: 'text-[#bfb3a8]',
+      button: 'bg-[#26201d] border-[#5a4a42] text-[#e5dcd3] hover:bg-[#332a26] hover:text-[#e5dcd3]',
+      rule: 'border-[#382e2b]',
+    },
+  }[readingSettings.theme];
+
   // Dynamic Theme Styling
   const themeClasses = {
     parchment: 'bg-card/95 parchment-bg border-library-bronze text-foreground',
@@ -921,7 +952,7 @@ export default function Reader() {
 
                     <nav
                       aria-label="Navegação entre páginas"
-                      className="mt-4 pt-4 border-t border-library-bronze/40 flex items-center justify-between gap-3"
+                      className={`mt-4 pt-4 border-t ${navTheme.rule} flex items-center justify-between gap-3`}
                     >
                       <Button
                         variant="outline"
@@ -929,17 +960,17 @@ export default function Reader() {
                         disabled={!prevPosition(pos)}
                         onClick={goPrev}
                         aria-label="Página anterior"
-                        className="h-11 w-11 shrink-0 border-library-bronze/60"
+                        className={`h-11 w-11 shrink-0 ${navTheme.button}`}
                       >
                         <ChevronLeft className="h-5 w-5" />
                       </Button>
 
                       <p aria-live="polite" className="min-w-0 text-center font-body">
-                        <span className="block text-sm text-library-wood-foreground">
+                        <span className={`block text-sm ${navTheme.text}`}>
                           Página {Math.max(1, shownPage + 1)} de {pagesInChapter}
                         </span>
                         {totalCapitulos > 1 && (
-                          <span className="block truncate text-xs text-muted-foreground">
+                          <span className={`block truncate text-xs ${navTheme.muted}`}>
                             Capítulo {capAtivo + 1} de {totalCapitulos}
                             {capituloAtual && capituloAtual.id !== 'inicio' ? ` · ${capituloAtual.title}` : ''}
                           </span>
@@ -952,7 +983,7 @@ export default function Reader() {
                         disabled={!nextPosition(pos, pagesInChapter, totalCapitulos)}
                         onClick={goNext}
                         aria-label="Próxima página"
-                        className="h-11 w-11 shrink-0 border-library-bronze/60"
+                        className={`h-11 w-11 shrink-0 ${navTheme.button}`}
                       >
                         <ChevronRight className="h-5 w-5" />
                       </Button>
@@ -967,7 +998,7 @@ export default function Reader() {
                 {totalCapitulos > 1 && (
                   <nav
                     aria-label="Navegação entre capítulos"
-                    className="mt-10 pt-6 border-t border-library-bronze/40 flex items-center justify-between gap-4"
+                    className={`mt-10 pt-6 border-t ${navTheme.rule} flex items-center justify-between gap-4`}
                   >
                     <Button
                       variant="outline"
@@ -977,13 +1008,13 @@ export default function Reader() {
                         setPos({ chapter: Math.max(0, capAtivo - 1), page: 0 });
                         window.scrollTo({ top: 0, behavior: 'smooth' });
                       }}
-                      className="border-library-bronze/60 font-body"
+                      className={`font-body ${navTheme.button}`}
                     >
                       <ChevronLeft className="h-4 w-4 mr-1" />
                       Anterior
                     </Button>
 
-                    <span className="font-body text-xs text-muted-foreground">
+                    <span className={`font-body text-xs ${navTheme.muted}`}>
                       Capítulo {capAtivo + 1} de {totalCapitulos}
                     </span>
 
@@ -995,7 +1026,7 @@ export default function Reader() {
                         setPos({ chapter: Math.min(totalCapitulos - 1, capAtivo + 1), page: 0 });
                         window.scrollTo({ top: 0, behavior: 'smooth' });
                       }}
-                      className="border-library-bronze/60 font-body"
+                      className={`font-body ${navTheme.button}`}
                     >
                       Próximo
                       <ChevronRight className="h-4 w-4 ml-1" />

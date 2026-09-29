@@ -92,7 +92,7 @@ export function BookCard({ book, variant = 'grid' }: BookCardProps) {
                 </Button>
                 <div className="flex space-x-1">
                   {book.textAvailable && (
-                    <Button asChild variant="outline" size="sm" className="border-library-bronze text-library-bronze-foreground hover:bg-library-bronze hover:text-primary-foreground font-body flex-1 text-xs">
+                    <Button asChild variant="outline" size="sm" className="border-library-bronze text-library-bronze-foreground hover:bg-library-bronze hover:text-[hsl(35_25%_95%)] font-body flex-1 text-xs">
                       <Link to={readPath(book)}>
                         <BookOpen className="h-3 w-3 mr-1" />
                         Ler

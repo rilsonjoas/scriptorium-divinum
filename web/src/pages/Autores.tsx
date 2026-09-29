@@ -156,7 +156,7 @@ const Autores = () => {
             Conhece outras obras clássicas que deveriam estar em nossa biblioteca? 
             Ajude-nos a expandir este tesouro da literatura teológica cristã.
           </p>
-          <Button asChild variant="outline" className="border-library-bronze text-library-bronze-foreground hover:bg-library-bronze hover:text-primary-foreground font-body">
+          <Button asChild variant="outline" className="border-library-bronze text-library-bronze-foreground hover:bg-library-bronze hover:text-[hsl(35_25%_95%)] font-body">
             <Link to="/contribuir">
               Como Contribuir
             </Link>

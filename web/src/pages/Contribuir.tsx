@@ -175,7 +175,7 @@ export default function Contribuir({ embutida = false }: { embutida?: boolean })
                       WhatsApp
                     </a>
                   </Button>
-                  <Button asChild variant="outline" className="w-full border-library-bronze text-library-bronze-foreground hover:bg-library-bronze hover:text-primary-foreground font-body">
+                  <Button asChild variant="outline" className="w-full border-library-bronze text-library-bronze-foreground hover:bg-library-bronze hover:text-[hsl(35_25%_95%)] font-body">
                     <a href={telegramShare} target="_blank" rel="noopener noreferrer">
                       Telegram
                     </a>
