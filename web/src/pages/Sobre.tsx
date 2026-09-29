@@ -52,20 +52,39 @@ const Sobre = () => {
           </p>
         </div>
 
-        {/* Mission */}
+        {/* Mission / Manifesto da Grande Casa */}
         <div className="prose prose-lg prose-leitor max-w-none font-body text-muted-foreground mb-12">
           <div className="bg-card/95 backdrop-blur-sm border border-library-bronze rounded-lg p-8 parchment-bg shadow-book mb-8">
-            <h2 className="font-heading text-2xl font-semibold text-library-wood-foreground mb-4">Nossa Missão</h2>
+            <h2 className="font-heading text-2xl font-semibold text-library-wood-foreground mb-4">
+              A Grande Casa da Tradição Cristã
+            </h2>
             <p className="leading-relaxed mb-4">
-              O <strong>Scriptorium Divinum</strong> é uma biblioteca digital dedicada a preservar e tornar acessível 
-              o vasto tesouro da literatura teológica cristã em domínio público. Em um ambiente digital 
-              que evoca a solenidade e a beleza das grandes bibliotecas clássicas, facilitamos o estudo, 
-              a pesquisa e a devoção através dos séculos da tradição cristã.
+              No prefácio de <em>Cristianismo Puro e Simples</em>, C. S. Lewis compara a fé comum dos cristãos a uma grande casa:
+            </p>
+            <blockquote className="border-l-4 border-library-dourado pl-4 italic my-4 text-library-wood-foreground bg-library-gold/5 py-3 rounded-r-md">
+              "O cristianismo puro e simples é como um grande hall de entrada de onde se abrem portas para vários cômodos. É no hall que as pessoas esperam, conversam e se encontram; mas é nos quartos, onde há lareira, poltronas e mesas postas, que se vive de verdade... O hall é o lugar de onde se tem acesso a todos os aposentos. E quando você entrar no seu quarto particular, seja gentil com aqueles que escolheram outros cômodos e com aqueles que ainda estão no hall."
+            </blockquote>
+            <p className="leading-relaxed mb-4">
+              O <strong>Scriptorium Divinum</strong> nasce para ser exatamente esse <em>Grande Hall</em> da cristandade em língua portuguesa: uma biblioteca clássica, sólida e acolhedora, onde a herança de dois milênios de fé está reunida sob o mesmo teto, sem divisões sectárias e com profunda reverência à obra do Espírito Santo através dos séculos.
             </p>
             <p className="leading-relaxed">
-              Acreditamos que as grandes obras da teologia cristã — desde os escritos dos Padres da Igreja 
-              até os tratados dos reformadores e puritanos — devem permanecer acessíveis às gerações presentes 
-              e futuras, livres de barreiras financeiras ou geográficas.
+              Cremos que a tradição cristã — da riqueza litúrgica e contemplativa <strong>católica e ortodoxa</strong>, passando pelo rigor exegético da <strong>Reforma luterana e calvinista</strong>, pela piedade ardente dos <strong>puritanos e anglicanos</strong>, até o zelo missionário e o fogo dos <strong>avivamentos históricos que moldaram a igreja evangélica e pentecostal</strong> — não pertence a um grupo isolado, mas é a herança e o tesouro de todo o Corpo de Cristo.
+            </p>
+          </div>
+
+          {/* Um Presente para a Igreja Brasileira */}
+          <div className="bg-card/95 backdrop-blur-sm border border-library-bronze rounded-lg p-8 parchment-bg shadow-book mb-8">
+            <h2 className="font-heading text-2xl font-semibold text-library-wood-foreground mb-4">
+              Um Presente para a Igreja no Brasil
+            </h2>
+            <p className="leading-relaxed mb-4">
+              Durante séculos, grande parte das obras fundamentais que moldaram a mente e o coração dos santos esteve inacessível ao leitor de língua portuguesa — ou confinada a edições raras e esgotadas, ou guardada em arquivos estrangeiros em latim, grego, francês e inglês antigo.
+            </p>
+            <p className="leading-relaxed mb-4">
+              O Scriptorium Divinum é um <strong>presente permanente e 100% gratuito para a Igreja brasileira e para todo o mundo lusófono</strong>. Queremos que o seminarista em formação, o pastor no sertão, a líder comunitária, o acadêmico e o jovem leitor que busca aprofundar sua vida de oração possam sentar-se à mesa com Santo Agostinho, São Tomás de Aquino, Martinho Lutero, João Calvino, Teresa de Ávila, John Bunyan e Padre António Vieira com apenas um clique, em uma interface bela, digna e livre de barreiras comerciais.
+            </p>
+            <p className="leading-relaxed">
+              Conhecer as nossas raízes não enfraquece a nossa identidade denominacional; pelo contrário: enraíza a nossa fé na rocha dos séculos, cura o provincianismo do nosso tempo e nos ensina a amar mais profundamente a Cristo e ao nosso próximo.
             </p>
           </div>
 

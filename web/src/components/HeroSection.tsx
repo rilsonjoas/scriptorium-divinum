@@ -49,7 +49,7 @@ export function HeroSection() {
 
           <p className="font-body text-sm sm:text-base md:text-lg text-library-gold/90 mb-6 sm:mb-8 max-w-3xl mx-auto leading-relaxed px-2 sm:px-0">
             {settings?.siteDescription ??
-              'Uma biblioteca digital dedicada a preservar e tornar acessível o vasto tesouro da teologia cristã em domínio público. Explore obras clássicas dos Padres da Igreja, reformadores e grandes teólogos da história da cristandade.'}
+              'O Grande Hall da tradição cristã em língua portuguesa. Da Patrística antiga à Escolástica, da Reforma e Puritanismo à Renovação Católica e aos grandes avivamentos: uma biblioteca clássica, gratuita e aberta, como um presente permanente para a Igreja no Brasil.'}
           </p>
 
           {/* Call to action buttons */}
