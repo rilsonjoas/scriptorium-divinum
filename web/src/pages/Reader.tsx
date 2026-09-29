@@ -36,6 +36,7 @@ import { bookPath } from '@/lib/bookRoutes';
 import { usePageTitle } from '@/hooks/usePageTitle';
 import {
   getReadingProgress,
+  isFinished,
   removeReadingProgress,
   saveReadingProgress,
   shouldResume,
@@ -262,7 +263,7 @@ export default function Reader() {
       pendingResume.current = { chapter, fraction };
       setProgress(saved.ratio * 100);
       setPos({ chapter, page: 0 });
-    } else if (saved.ratio >= 0.95) {
+    } else if (isFinished(saved.ratio)) {
       removeReadingProgress(slug);
     }
   }, [data, totalCapitulos]);

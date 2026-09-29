@@ -59,17 +59,38 @@ describe('readingProgress', () => {
     expect(getReadingProgress('a')).not.toBeNull();
   });
 
+  it('ignora registros do formato antigo (progresso só do capítulo aberto)', () => {
+    // bug real: abrir só o 1º capítulo das Confissões gravava 100%, porque o
+    // leitor antigo media a rolagem do capítulo, não a posição na obra
+    localStorage.setItem(
+      'scriptorium:reading-progress',
+      JSON.stringify({ confissoes: { slug: 'confissoes', title: 'Confissões', ratio: 1, updatedAt: 1 } }),
+    );
+    expect(getReadingProgress('confissoes')).toBeNull();
+    expect(listReadingProgress()).toEqual([]);
+  });
+
+  it('um registro novo substitui o antigo', () => {
+    localStorage.setItem(
+      'scriptorium:reading-progress',
+      JSON.stringify({ confissoes: { slug: 'confissoes', title: 'Confissões', ratio: 1, updatedAt: 1 } }),
+    );
+    saveReadingProgress({ slug: 'confissoes', title: 'Confissões', ratio: 0.004 });
+    expect(listReadingProgress().map(e => e.ratio)).toEqual([0.004]);
+  });
+
   describe('shouldResume', () => {
-    it('retoma posições intermediárias', () => {
-      expect(shouldResume(0.03)).toBe(true);
+    // o progresso é da obra inteira: numa obra de 171 capítulos, o capítulo
+    // 4 é 1,8% e os 9 últimos passam de 95%
+    it('retoma qualquer posição depois do início', () => {
+      expect(shouldResume(3 / 171)).toBe(true);
       expect(shouldResume(0.5)).toBe(true);
-      expect(shouldResume(0.94)).toBe(true);
+      expect(shouldResume(165 / 171)).toBe(true);
+      expect(shouldResume(0.998)).toBe(true);
     });
 
-    it('não retoma início nem fim', () => {
+    it('não retoma o início nem uma obra terminada', () => {
       expect(shouldResume(0)).toBe(false);
-      expect(shouldResume(0.02)).toBe(false);
-      expect(shouldResume(0.95)).toBe(false);
       expect(shouldResume(1)).toBe(false);
     });
   });
