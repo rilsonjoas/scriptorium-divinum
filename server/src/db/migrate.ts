@@ -33,8 +33,8 @@ async function main() {
       try {
         await migrationClient.unsafe(sqlContent);
         console.log(`  ✅ Seed aplicado: ${file}`);
-      } catch (err: any) {
-        console.error(`  ⚠️ Erro no seed ${file}:`, err.message || err);
+      } catch (err: unknown) {
+        console.error(`  ⚠️ Erro no seed ${file}:`, (err instanceof Error ? err.message : String(err)));
       }
     }
   }
