@@ -1,52 +1,52 @@
--- Inserção de autor e livro: Richard Sibbes - A Cana Quebrada
-DO $$
-DECLARE
-    v_author_id UUID;
-BEGIN
-    SELECT id INTO v_author_id FROM authors WHERE slug = 'richard-sibbes';
-    IF v_author_id IS NULL THEN
-        INSERT INTO authors (id, name, slug, bio, birth_year, death_year, nationality, period, is_published, created_at, updated_at)
-        VALUES (
-            gen_random_uuid(),
-            'Richard Sibbes',
-            'richard-sibbes',
-            'Pregador puritano de Cambridge, apelidado de "o Doce Doutor Sibbes" e "o Médico das Almas Feridas", cuja obra influenciou decisivamente Richard Baxter e Charles Spurgeon.',
-            1577,
-            1635,
-            'Inglês',
-            'Puritanismo / Reforma',
-            true,
-            NOW(),
-            NOW()
-        )
-        RETURNING id INTO v_author_id;
-    END IF;
+-- ============================================================
+-- Nova entrada: Richard Sibbes - A Cana Quebrada e o Pavio Fumegante (2026-09-29)
+-- ============================================================
 
-    INSERT INTO books (
-        id, author_id, title, slug, description, cover_url,
-        published_year, original_language, category,
-        status, curatorship_status, online_read_path,
-        is_published, created_at, updated_at
-    )
-    VALUES (
-        gen_random_uuid(),
-        v_author_id,
-        'A Cana Quebrada e o Pavio Fumegante',
-        'a-cana-quebrada-richard-sibbes',
-        'O mais consolador tratado pastoral da era puritana, expondo com incomparável doçura a misericórdia infalível de Cristo para com os fracos, atribulados e arrependidos.',
-        'https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?q=80&w=800&auto=format&fit=crop',
-        1630,
-        'Inglês',
-        'Teologia Pastoral',
-        'public_domain',
-        'ready_for_curatorship',
-        'server/texts/a-cana-quebrada-richard-sibbes.md',
-        true,
-        NOW(),
-        NOW()
-    )
-    ON CONFLICT (slug) DO UPDATE SET
-        online_read_path = EXCLUDED.online_read_path,
-        is_published = true,
-        updated_at = NOW();
-END $$;
+BEGIN;
+
+INSERT INTO authors (slug, name, bio_summary, denomination_or_tradition)
+VALUES (
+  'richard-sibbes',
+  'Richard Sibbes',
+  'Pregador puritano de Cambridge (1577–1635), cognominado "o Doce Doutor Sibbes" e "o Médico das Almas Feridas", cujos sermões afetuosos influenciaram Baxter, Owen e Spurgeon.',
+  ARRAY['Puritanismo', 'Tradição Reformada', 'Teologia Pastoral']
+)
+ON CONFLICT (slug) DO UPDATE SET
+  bio_summary = EXCLUDED.bio_summary,
+  name = EXCLUDED.name;
+
+INSERT INTO books (
+  title, author_id, language, description, slug, original_title,
+  publication_year_original, publication_year_translation, translator,
+  original_languages, categories, tags, online_read_path,
+  featured, published, translation_is_ai, human_review_approved_at,
+  license_type, attribution_text
+)
+VALUES (
+  'A Cana Quebrada e o Pavio Fumegante',
+  (SELECT id FROM authors WHERE slug = 'richard-sibbes'),
+  'Português',
+  'O mais terno e consolador tratado pastoral puritano, expondo com inigualável doçura a misericórdia paciente de Cristo para com as almas frágeis, contritas e tentadas pelo desânimo.',
+  'a-cana-quebrada-richard-sibbes',
+  'The Bruised Reed and Smoking Flax',
+  '1630',
+  2026,
+  'inteligência artificial, a partir do original crítico cotejado',
+  ARRAY['Inglês'],
+  ARRAY['Puritanismo', 'Teologia Pastoral', 'Conforto Espiritual', 'Graça Divina'],
+  ARRAY['richard-sibbes', 'a-cana-quebrada', 'puritanos', 'conforto-pastoral', 'misericordia'],
+  '/texts/a-cana-quebrada-richard-sibbes.md',
+  true,
+  true,
+  true,
+  NULL,
+  'cc-by-sa-4.0',
+  'Tradução gerada por IA a partir da edição de Alexander Grosart (Banner of Truth). Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+)
+ON CONFLICT (slug) DO UPDATE SET
+  online_read_path = EXCLUDED.online_read_path,
+  attribution_text = EXCLUDED.attribution_text,
+  description = EXCLUDED.description,
+  published = true;
+
+COMMIT;
