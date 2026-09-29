@@ -1982,7 +1982,20 @@ ou sair da fila.
   e Conclusão Exortativa), a partir do grego clássico cotejado com Archibald Robertson (NPNF vol. 4 / CCEL). Criação do autor
   `atanasio-de-alexandria`. Script SQL em `scripts/add_a_encarnacao_do_verbo_2026-09-29.sql` com aviso de IA e revisão humana pendente.
 
-Ordem sugerida ao retomar: Breve Catecismo de Westminster (já com fonte
-em mãos) → Didaquê (fonte inglesa já no catálogo, só falta traduzir) →
-Heidelberg → Dort → Confissão de Westminster → Atanásio → Inácio (maior
-e mais difícil, por último ou como frente separada).
+- [x] **São Clemente de Roma, _Primeira Epístola aos Coríntios (1 Clemente)_** (c. 96 d.C.) — ✅ ENTREGUE 2026-09-29
+  (`server/texts/primeira-epistola-de-clemente.md`, slug `primeira-epistola-de-clemente`). Tradução completa
+  das 65 seções clássicas em 9 capítulos, a partir do texto grego crítico de J. B. Lightfoot (*The Apostolic Fathers*, 1890).
+  O escrito cristão mais antigo preservado pós-Novo Testamento: sucessão apostólica, justificação pela fé, harmonia cósmica
+  e a célebre Grande Oração pelas autoridades. Criação do autor `clemente-de-roma`. Script SQL em `scripts/add_clemente_2026-09-29.sql`.
+- [x] **São Policarpo de Esmirna, _Epístola aos Filipenses e o Martírio de São Policarpo_** (c. 110–155 d.C.) — ✅ ENTREGUE 2026-09-29
+  (`server/texts/epistola-e-martirio-de-policarpo.md`, slug `epistola-e-martirio-de-policarpo`). Tradução completa
+  da carta aos Filipenses e da ata de martírio mais antiga da história cristã, a partir do grego de Lightfoot.
+  Criação do autor `policarpo-de-esmirna`. Script SQL em `scripts/add_policarpo_2026-09-29.sql`.
+- [x] **São Cipriano de Cartago, _A Unidade da Igreja Católica (De Catholicae Ecclesiae Unitate)_** (251 d.C.) — ✅ ENTREGUE 2026-09-29
+  (`server/texts/a-unidade-da-igreja-catolica.md`, slug `a-unidade-da-igreja-catolica`). Tradução integral dos
+  27 capítulos do latim crítico do CSEL (ed. Hartel). Obra-prima sobre a concórdia episcopal, a túnica inconsútil e a maternidade da Igreja.
+  Criação do autor `cipriano-de-cartago`. Script SQL em `scripts/add_cipriano_2026-09-29.sql`.
+- [x] **Martinho Lutero, _Da Liberdade do Cristão (De Libertate Christiana)_** (1520) — ✅ ENTREGUE 2026-09-29
+  (`server/texts/da-liberdade-do-cristao.md`, slug `da-liberdade-do-cristao`). Tradução completa das 27 seções
+  do latim de 1520 cotejado com a edição de Weimar (WA 7). Síntese máxima da justificação pela fé, da troca admirável (*commercium admirabile*),
+  do sacerdócio universal e da servidão do amor ao próximo. Script SQL em `scripts/add_liberdade_cristao_2026-09-29.sql`.
