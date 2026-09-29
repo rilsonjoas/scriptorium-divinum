@@ -31,8 +31,9 @@ executar sem decidir nada) · **🟡 decisão sua** (preciso de escolha) ·
 | 12 | Planos de leitura + newsletter | 🔮 | **futuro** |
 | 13 | Comentários bíblicos por capítulo (integração c/ Lecionário) | 🔮 | **futuro** |
 | 14 | ~~Sitemap no Search Console~~ — ✅ processado, 91 páginas | — | **fechado** |
-| 15 | Curadoria de material | ♾️ | contínuo |
-| 16 | Tabela de fontes | ♾️ | contínuo |
+| 15 | Curadoria de material & Expansão do Acervo (Etapa A) | ♾️ | contínuo |
+| 16 | Tabela de fontes & Proveniência | ♾️ | contínuo |
+| 17 | **Redesenho do Frontend estilo _The Faith Received_ (Etapa B)** — Home com 4 Portas de Entrada, Faith Cards editoriais, Estantes por Tradição/Gênero/Tema | 🟢 | **planejado** (após Etapa A) |
 
 **Também entregues no Bloco B:** leitor por capítulo (`7f026bb`, medido:
 23,3 s → 6,0 s; página 280.448 px → 1.667 px).
@@ -2263,6 +2264,39 @@ ou sair da fila.
   (`server/texts/coletas-livro-de-oracao-comum-1662.md`, slug `coletas-livro-de-oracao-comum-1662`). Tradução clássica das históricas orações litúrgicas para o Advento, Natal, Epifania, Quaresma, Páscoa, Pentecostes e Trindade. Criação do autor `thomas-cranmer`. Script SQL em `server/src/db/seeds/add_bcp_coletas_1662_2026-09-29.sql`.
 - [x] **Taxonomia Canônica em 3 Eixos (25 Categorias Padronizadas)** — ✅ ENTREGUE 2026-09-29
   Consolidação das mais de 70 categorias dispersas em uma taxonomia erudita e rigorosa de 3 eixos (Tradições Históricas, Gêneros Literários, Temas Teológicos). Banco de dados `categories` e array `books.categories` de todas as 161 obras normalizados via seed `server/src/db/seeds/zzz_populate_canonical_categories_2026-09-29.sql`. A API `/api/v1/categories` agora responde com exatamente 25 categorias nobres e metadados completos.
+
+---
+
+## 🏛️ Item 17: Redesenho do Frontend estilo _The Faith Received_ (Etapa B)
+
+> **Referência de Ouro / Benchmark Oficial:** [The Faith Received (Mere Orthodoxy)](https://mereorthodoxy.com/the-faith-received/)
+
+### 1. Visão e Proposta de Valor
+Transformar o frontend do Scriptorium Divinum na principal referência lusófona de biblioteca digital clássica cristã (*Mere Christianity*), unindo rigor editorial, tipografia clássica (serifas nobres, proporções de imprensa, iluminuras) e navegação estruturada.
+
+### 2. Componentes & Estrutura da Home (`/`)
+1. **Hero Manifesto:**
+   - Kicker: `Scriptorium Divinum · Biblioteca Clássica da Cristandade`
+   - H1: *"A tradição cristã é a herança de todo cristão."*
+   - Sub: Leitura pública, livre e aberta da teologia patrística, medieval, reformada, puritana e devocional em língua portuguesa.
+   - CTAs: `Começar a Ler` (leva aos destaques) · `Conhecer o Projeto` (leva a `/sobre`).
+2. **As Quatro Portas de Entrada (_Where to Start_):**
+   - 📖 **Ler / Curadoria:** Obras fundamentais recomendadas por onde começar.
+   - 📜 **As Estantes (_The Shelves_):** Navegação direta por Grandes Tradições Históricas e Gêneros.
+   - ✝️ **Tópicos Doutrinários (_Topics_):** Navegação por temas teológicos centrais.
+   - 🔍 **Busca & Pesquisa (_Search & Desk_):** Busca profunda no corpus integral.
+3. **Vitrine dos _Faith Cards_:**
+   - Cartões com indicação de tradição e século no cabeçalho (ex: `A Igreja Primitiva · 325 d.C.`), título em itálico, síntese pastoral/acadêmica e link `Ler obra →`.
+4. **As Grandes Estantes (_The Shelves_):**
+   - Seções dedicadas com arte sacra clássica e contagem real de obras: *Igreja Primitiva & Patrística*, *Escolástica & Mística Medieval*, *Reforma Protestante*, *Puritanismo*, *Mística Ibérica*, *Tradição Anglicana & Devocional*.
+5. **Métricas do Corpus:**
+   - Contadores dinâmicos ao vivo: Total de Obras, Autores Canônicos, Categorias, 100% Livre e Gratuito.
+
+### 3. Reformulação das Páginas `/categorias` e `/livros`
+- `/categorias`: Apresentação em 3 abas visuais elegantes correspondendo aos 3 Eixos Canônicos (*Tradições*, *Gêneros*, *Temas*), alimentada 100% dinamicamente pela API `/api/v1/categories`.
+- `/categorias/:slug`: Header imersivo com período histórico, descrição erudita e grid responsivo de *Faith Cards*.
+- `/livros`: Filtros multifacetados por Tradição, Gênero e Tema com badges pigmentados.
+
 
 
 
