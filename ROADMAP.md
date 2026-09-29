@@ -1999,3 +1999,11 @@ ou sair da fila.
   (`server/texts/da-liberdade-do-cristao.md`, slug `da-liberdade-do-cristao`). Tradução completa das 27 seções
   do latim de 1520 cotejado com a edição de Weimar (WA 7). Síntese máxima da justificação pela fé, da troca admirável (*commercium admirabile*),
   do sacerdócio universal e da servidão do amor ao próximo. Script SQL em `scripts/add_liberdade_cristao_2026-09-29.sql`.
+- [x] **São Cipriano de Cartago, _Sobre a Oração Dominical (De Dominica Oratione)_** (c. 252 d.C.) — ✅ ENTREGUE 2026-09-29
+  (`server/texts/sobre-a-oracao-dominical.md`, slug `sobre-a-oracao-dominical`). Tradução completa
+  das 36 seções estruturadas em 6 capítulos a partir do texto latino clássico do CSEL (ed. Hartel) e Patrologia Latina (PL 4).
+  Tratado patrístico magistral sobre a oração interior, a filiação divina ("Pai Nosso"), a reverência modesta diante de Deus, o perdão recíproco e as horas de oração na Igreja antiga. Script SQL em `scripts/add_cipriano_oracao_2026-09-29.sql`.
+- [x] **Igreja da Inglaterra, _Os Trinta e Nove Artigos da Religião (Thirty-Nine Articles of Religion)_** (1571) — ✅ ENTREGUE 2026-09-29
+  (`server/texts/trinta-e-nove-artigos-da-religiao.md`, slug `trinta-e-nove-artigos-da-religiao`). Tradução integral
+  dos 39 artigos confessionais históricos da Reforma Inglesa em 5 partes temáticas (A Fé Trinitária, A Regra de Fé e as Escrituras, A Salvação e Justificação pela Fé, A Igreja e os Sacramentos, e A Sociedade Civil), a partir dos textos oficiais latino e inglês de 1571 cotejados com Philip Schaff (*The Creeds of Christendom*, vol. III). Criação do autor `igreja-da-inglaterra`. Script SQL em `scripts/add_trinta_e_nove_artigos_2026-09-29.sql`.
+
