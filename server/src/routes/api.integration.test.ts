@@ -7,6 +7,7 @@ import { drizzle } from 'drizzle-orm/postgres-js';
 import { migrate } from 'drizzle-orm/postgres-js/migrator';
 import { buildApp } from '../app.js';
 import { db, closeDb } from '../db/client.js';
+import { env } from '../config.js';
 
 const MIGRATIONS_DIR = path.join(import.meta.dirname, '../db/migrations');
 const FUNCTIONS_SQL = path.join(import.meta.dirname, '../db/custom-sql/functions.sql');
@@ -278,7 +279,13 @@ describe('Scriptorium Divinum API — Testes de Integração', () => {
     expect(res.statusCode).toBe(200);
     expect(res.headers['content-type']).toContain('application/xml');
     expect(res.body).toContain('<urlset');
-    expect(res.body).toContain('https://scriptorium.narniano.com/</loc>');
+    // A origem vem da configuração, não do literal de produção. Em CI não há
+    // .env e o default de PUBLIC_ORIGIN é o domínio real, então o teste
+    // passava; na máquina de quem desenvolve o .env aponta para localhost e
+    // ele falhava por causa do ambiente, não do sitemap. Comparar com o
+    // literal era testar o .env alheio, e ainda escondia regressão real
+    // atrás de um teste que só dava vermelho em um dos lados.
+    expect(res.body).toContain(`<loc>${env.PUBLIC_ORIGIN}/</loc>`);
     expect(res.body).toContain('/livros/confissoes');
     expect(res.body).toContain('/categorias/');
     // "institutas" e o autor João Calvino (que só tem essa obra) não têm
