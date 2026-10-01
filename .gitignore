@@ -35,3 +35,7 @@ dist-ssr
 web/test-results/
 web/playwright-report/
 web/.playwright/
+
+# Backups de banco gerados por scripts de reparo — contêm dados de produção
+# e o caminho de volta de um incident. Não versionar.
+server/scripts/data/backups/

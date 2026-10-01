@@ -41,6 +41,35 @@ describe('toQuoteDto', () => {
     expect(dto.affiliateUrl).toBeNull();
     expect(dto.theme).toBeNull();
   });
+
+  it('null no affiliateUrl quando a obra não existe (regressão do bug de 2026-10-01)', () => {
+    const dto = toQuoteDto(
+      row({
+        text: 'A fé caminha a passos largos no escuro, pois tem a mão firme de Deus a guiá-la.',
+        source: 'Cheque-Livro do Banco da Fé',
+      }),
+    );
+    // A citação continua sendo servida; o que não existe é o link de compra.
+    expect(dto.text).toContain('A fé caminha a passos largos');
+    expect(dto.affiliateUrl).toBeNull();
+  });
+
+  it('null no affiliateUrl quando source é o nome do autor', () => {
+    const dto = toQuoteDto(row({ source: 'C. S. Lewis' }));
+    expect(dto.affiliateUrl).toBeNull();
+  });
+
+  it('null no affiliateUrl quando source é nulo', () => {
+    const dto = toQuoteDto(row({ source: null }));
+    expect(dto.affiliateUrl).toBeNull();
+  });
+
+  it('mantém o CTA quando a obra é conhecida, mesmo com variação de título', () => {
+    const dto = toQuoteDto(row({ source: 'Oração: Cartas a Malcolm' }));
+    expect(dto.affiliateUrl).toBe(
+      'https://www.amazon.com.br/s?k=Ora%C3%A7%C3%A3o%3A%20Cartas%20a%20Malcolm%20C.%20S.%20Lewis&tag=rilson-20',
+    );
+  });
 });
 
 describe('pickQuoteBySeed', () => {

@@ -34,7 +34,7 @@
     "text": "A paz de todas as coisas é a tranquilidade da ordem.",
     "source": "A Cidade de Deus",
     "dominioPublico": true,
-    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/a-cidade-de-deus",
+    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/the-city-of-god",
     "theme": null,
     "fonteUrl": null,
     "verificadoEm": null
@@ -94,7 +94,7 @@
     "text": "Dois amores construíram duas cidades: o amor de si até ao desprezo de Deus construiu a cidade terrena; o amor de Deus até ao desprezo de si, a cidade celestial.",
     "source": "A Cidade de Deus",
     "dominioPublico": true,
-    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/a-cidade-de-deus",
+    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/the-city-of-god",
     "theme": null,
     "fonteUrl": null,
     "verificadoEm": null
@@ -144,7 +144,7 @@
     "text": "Na ausência de justiça, o que é a soberania senão uma grande ladroeira?",
     "source": "A Cidade de Deus",
     "dominioPublico": true,
-    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/a-cidade-de-deus",
+    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/the-city-of-god",
     "theme": null,
     "fonteUrl": null,
     "verificadoEm": null
@@ -204,7 +204,7 @@
     "text": "Não procuro compreender para crer, mas creio para compreender.",
     "source": "Por que Deus se fez Homem?",
     "dominioPublico": true,
-    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/por-que-deus-se-fez-homem",
+    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/proslogium-monologium-cur-deus-homo",
     "theme": null,
     "fonteUrl": null,
     "verificadoEm": null
@@ -214,7 +214,7 @@
     "text": "Senhor meu Deus, ensina o meu coração onde e como procurar-te, onde e como encontrar-te.",
     "source": "Por que Deus se fez Homem?",
     "dominioPublico": true,
-    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/por-que-deus-se-fez-homem",
+    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/proslogium-monologium-cur-deus-homo",
     "theme": null,
     "fonteUrl": null,
     "verificadoEm": null
@@ -244,7 +244,7 @@
     "text": "O coração tem razões que a própria razão desconhece.",
     "source": "Pensamentos",
     "dominioPublico": true,
-    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/pensamentos",
+    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/thoughts-pensees",
     "theme": null,
     "fonteUrl": null,
     "verificadoEm": null
@@ -254,7 +254,7 @@
     "text": "O homem é apenas um caniço, o mais fraco da natureza; mas é um caniço pensante.",
     "source": "Pensamentos",
     "dominioPublico": true,
-    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/pensamentos",
+    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/thoughts-pensees",
     "theme": null,
     "fonteUrl": null,
     "verificadoEm": null
@@ -264,7 +264,7 @@
     "text": "Toda a infelicidade dos homens vem de uma só coisa: não saberem ficar em repouso num quarto.",
     "source": "Pensamentos",
     "dominioPublico": true,
-    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/pensamentos",
+    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/thoughts-pensees",
     "theme": null,
     "fonteUrl": null,
     "verificadoEm": null
@@ -372,7 +372,7 @@
   {
     "author": "C. S. Lewis",
     "text": "A coisa mais perigosa que podemos fazer é apanhar uma fração da verdade e não perceber que ela é apenas uma fração.",
-    "source": "O Peso da Glória",
+    "source": null,
     "dominioPublico": false,
     "scriptoriumUrl": null,
     "theme": null,
@@ -413,16 +413,6 @@
     "author": "C. S. Lewis",
     "text": "A educação sem valores, por mais útil que seja, parece apenas fazer do homem um demônio mais esperto.",
     "source": "A Abolição do Homem",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
-    "author": "C. S. Lewis",
-    "text": "A fé caminha a passos largos no escuro, pois tem a mão firme de Deus a guiá-la.",
-    "source": "Cheque-Livro do Banco da Fé",
     "dominioPublico": false,
     "scriptoriumUrl": null,
     "theme": null,
@@ -482,7 +472,7 @@
   {
     "author": "C. S. Lewis",
     "text": "A paixão é o que nos leva a prometer. O amor é o que nos leva a cumprir as promessas.",
-    "source": "C. S. Lewis",
+    "source": null,
     "dominioPublico": false,
     "scriptoriumUrl": null,
     "theme": null,
@@ -802,7 +792,7 @@
   {
     "author": "C. S. Lewis",
     "text": "Ele nos amou, não porque somos amáveis, mas porque Ele é o amor.",
-    "source": "C. S. Lewis",
+    "source": null,
     "dominioPublico": false,
     "scriptoriumUrl": null,
     "theme": null,
@@ -922,7 +912,7 @@
   {
     "author": "C. S. Lewis",
     "text": "Eu oro, porque eu não posso me ajudar. Isso não muda Deus, isso me muda.",
-    "source": "C. S. Lewis",
+    "source": null,
     "dominioPublico": false,
     "scriptoriumUrl": null,
     "theme": null,
@@ -1052,7 +1042,7 @@
   {
     "author": "C. S. Lewis",
     "text": "Não podemos confiar em nós mesmos nem em nossos melhores momentos. A única atitude fatal é se dar por satisfeito com qualquer coisa que não a perfeição.",
-    "source": "C. S. Lewis",
+    "source": null,
     "dominioPublico": false,
     "scriptoriumUrl": null,
     "theme": null,
@@ -1242,7 +1232,7 @@
   {
     "author": "C. S. Lewis",
     "text": "O menor ato de bondade hoje é a captura de um ponto estratégico a partir do qual se poderá ser capaz de seguir para vitórias que você nunca sonhou.",
-    "source": "C. S. Lewis",
+    "source": null,
     "dominioPublico": false,
     "scriptoriumUrl": null,
     "theme": null,
@@ -1672,7 +1662,7 @@
   {
     "author": "C. S. Lewis",
     "text": "Se você é produto de um universo materialista, porque não se sente em casa aqui? O peixe reclama de o mar ser molhado?",
-    "source": "C. S. Lewis",
+    "source": null,
     "dominioPublico": false,
     "scriptoriumUrl": null,
     "theme": null,
@@ -1682,7 +1672,7 @@
   {
     "author": "C. S. Lewis",
     "text": "Se você está no caminho errado, voltar atrás significa progresso.",
-    "source": "C. S. Lewis",
+    "source": null,
     "dominioPublico": false,
     "scriptoriumUrl": null,
     "theme": null,
@@ -1843,16 +1833,6 @@
     "author": "C. S. Lewis",
     "text": "Uma sociedade doente precisa refletir muito sobre política, assim como um homem doente precisa refletir muito a respeito de sua digestão.",
     "source": "O Peso da Glória",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
-    "author": "C. S. Lewis",
-    "text": "Um cristão é um senhor livre sobre todas as coisas e não submetido a ninguém. Um cristão é um servo prestativo em todas as coisas e submetido a todos.",
-    "source": "Da Liberdade do Cristão",
     "dominioPublico": false,
     "scriptoriumUrl": null,
     "theme": null,
@@ -2214,7 +2194,7 @@
     "text": "A mente humana é uma fábrica perpétua de ídolos.",
     "source": "As Institutas da Religião Cristã",
     "dominioPublico": true,
-    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/institutas-da-religiao-crista",
+    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/institutes-of-the-christian-religion",
     "theme": null,
     "fonteUrl": null,
     "verificadoEm": null
@@ -2224,7 +2204,7 @@
     "text": "A verdadeira oração não consiste em palavras elegantes, mas em um afeto fervoroso do coração voltado a Deus.",
     "source": "As Institutas da Religião Cristã",
     "dominioPublico": true,
-    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/institutas-da-religiao-crista",
+    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/institutes-of-the-christian-religion",
     "theme": null,
     "fonteUrl": null,
     "verificadoEm": null
@@ -2274,7 +2254,7 @@
     "text": "Quase toda a sabedoria que possuímos consiste em duas partes: o conhecimento de Deus e o de nós mesmos.",
     "source": "As Institutas da Religião Cristã",
     "dominioPublico": true,
-    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/institutas-da-religiao-crista",
+    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/institutes-of-the-christian-religion",
     "theme": null,
     "fonteUrl": null,
     "verificadoEm": null
@@ -2530,6 +2510,16 @@
     "verificadoEm": null
   },
   {
+    "author": "Martinho Lutero",
+    "text": "Um cristão é um senhor livre sobre todas as coisas e não submetido a ninguém. Um cristão é um servo prestativo em todas as coisas e submetido a todos.",
+    "source": "A liberdade do cristão",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null
+  },
+  {
     "author": "Simone Weil",
     "text": "A atenção absoluta e pura é oração.",
     "source": "A Gravidade e a Graça",
@@ -2664,7 +2654,7 @@
     "text": "A graça não destrói a natureza, mas a aperfeiçoa.",
     "source": "Suma Teológica, I, q. 1, art. 8",
     "dominioPublico": true,
-    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/compendio-da-suma-teologica",
+    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/summa-theologica-part-i-prima-pars",
     "theme": null,
     "fonteUrl": null,
     "verificadoEm": null

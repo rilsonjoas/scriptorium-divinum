@@ -50,7 +50,11 @@ describe('Quotes API — Citação do dia (ADR 001)', () => {
         ('30000000-0000-0000-0000-000000000004', 'C. S. Lewis', 'Ele morreu não por homens, mas por ele mesmo.', 'Cristianismo Puro e Simples',
          false, NULL, NULL, NULL),
         ('30000000-0000-0000-0000-000000000005', 'Santo Agostinho', 'Fizeste-nos para ti, e o nosso coração está inquieto enquanto não repousa em ti.', 'Confissões',
-         true, '10000000-0000-0000-0000-000000000001', 'https://scriptorium.narniano.com/livros/confissoes', NULL);
+         true, '10000000-0000-0000-0000-000000000001', 'https://scriptorium.narniano.com/livros/confissoes', NULL),
+        ('30000000-0000-0000-0000-000000000006', 'C. S. Lewis', 'A fé caminha a passos largos no escuro, pois tem a mão firme de Deus a guiá-la.', 'Cheque-Livro do Banco da Fé',
+         false, NULL, NULL, NULL),
+        ('30000000-0000-0000-0000-000000000007', 'C. S. Lewis', 'Se você está no caminho errado, voltar atrás significa progresso.', 'C. S. Lewis',
+         false, NULL, NULL, NULL);
     `);
 
     app = await buildApp();
@@ -120,7 +124,7 @@ describe('Quotes API — Citação do dia (ADR 001)', () => {
     const res = await app.inject({ method: 'GET', url: '/api/v1/quotes?author=C.%20S.%20Lewis' });
     expect(res.statusCode).toBe(200);
     const body = res.json();
-    expect(body.length).toBe(4);
+    expect(body.length).toBe(6);
     expect(body[0]).toHaveProperty('text');
   });
 
@@ -128,5 +132,65 @@ describe('Quotes API — Citação do dia (ADR 001)', () => {
     const res = await app.inject({ method: 'GET', url: '/api/v1/quotes/daily' });
     expect(res.statusCode).toBe(200);
     expect(res.json()).toHaveProperty('id');
+  });
+
+  it('obra inexistente não gera CTA, mas a citação continua sendo servida', async () => {
+    const res = await app.inject({ method: 'GET', url: '/api/v1/quotes?author=C.%20S.%20Lewis' });
+    const body = res.json() as { text: string; source: string; affiliateUrl: string | null }[];
+    const fabricada = body.find((q) => q.source === 'Cheque-Livro do Banco da Fé');
+    expect(fabricada).toBeDefined();
+    expect(fabricada?.affiliateUrl).toBeNull();
+    expect(fabricada?.text).toContain('A fé caminha a passos largos');
+  });
+
+  it('source igual ao nome do autor não gera CTA', async () => {
+    const res = await app.inject({ method: 'GET', url: '/api/v1/quotes?author=C.%20S.%20Lewis' });
+    const body = res.json() as { source: string; affiliateUrl: string | null }[];
+    const semObra = body.find((q) => q.source === 'C. S. Lewis');
+    expect(semObra).toBeDefined();
+    expect(semObra?.affiliateUrl).toBeNull();
+  });
+
+  it('filtro de autor tolera variação de caixa e espaços extras', async () => {
+    // Antes o filtro era eq() exato: estas variações devolviam [] em silêncio,
+    // o que desligava o Gerador C. S. Lewis sem erro nenhum.
+    const variacoes = [
+      'c.%20s.%20lewis', // caixa baixa
+      'C.%20%20S.%20%20Lewis', // espaço duplo entre as iniciais
+      '%20C.%20S.%20Lewis%20', // espaço no começo e no fim
+    ];
+    for (const autor of variacoes) {
+      const res = await app.inject({ method: 'GET', url: `/api/v1/quotes?author=${autor}` });
+      expect(res.statusCode, `autor=${autor}`).toBe(200);
+      expect((res.json() as unknown[]).length, `autor=${autor}`).toBe(6);
+    }
+  });
+
+  it('filtro de autor continua rejeitando quem não existe', async () => {
+    const res = await app.inject({ method: 'GET', url: '/api/v1/quotes?author=Desconhecido' });
+    expect(res.statusCode).toBe(200);
+    expect(res.json()).toHaveLength(0);
+  });
+
+  it('normalização não embaralha autores com nomes parecidos', async () => {
+    // Regressão do escape: com `'\s+'` sem escape duplo o padrão chegava ao
+    // Postgres como 's+', que troca a letra "s" por espaço. Aí "Assis
+    // Effingers" e "Assi Effingers" viravam a mesma string e o filtro devolvia
+    // as citações do autor errado — bem pior do que devolver [].
+    await admin.unsafe(`
+      INSERT INTO quotes (id, author, text, source, dominio_publico) VALUES
+        ('30000000-0000-0000-0000-0000000000ff', 'Assis Effingers', ' Citação de teste. ', 'O Peregrino', false)
+    `);
+    try {
+      const exato = await app.inject({ method: 'GET', url: '/api/v1/quotes?author=Assis%20Effingers' });
+      expect(exato.statusCode).toBe(200);
+      expect(exato.json()).toHaveLength(1);
+
+      const parecido = await app.inject({ method: 'GET', url: '/api/v1/quotes?author=Assi%20Effingers' });
+      expect(parecido.statusCode).toBe(200);
+      expect(parecido.json(), 'autor parecido não pode vazar as citações do outro').toHaveLength(0);
+    } finally {
+      await admin.unsafe(`DELETE FROM quotes WHERE id = '30000000-0000-0000-0000-0000000000ff'`);
+    }
   });
 });
