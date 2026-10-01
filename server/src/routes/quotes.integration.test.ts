@@ -6,6 +6,7 @@ import { drizzle } from 'drizzle-orm/postgres-js';
 import { migrate } from 'drizzle-orm/postgres-js/migrator';
 import { buildApp } from '../app.js';
 import { closeDb } from '../db/client.js';
+import { env } from '../config.js';
 
 const MIGRATIONS_DIR = path.join(import.meta.dirname, '../db/migrations');
 const FUNCTIONS_SQL = path.join(import.meta.dirname, '../db/custom-sql/functions.sql');
@@ -97,7 +98,7 @@ describe('Quotes API — Citação do dia (ADR 001)', () => {
     expect(body.author).toBe('C. S. Lewis');
     expect(body.dominioPublico).toBe(false);
     expect(body.affiliateUrl).toContain('amazon.com.br');
-    expect(body.affiliateUrl).toContain('tag=rilson-20');
+    expect(body.affiliateUrl).toContain(`tag=${env.AMAZON_AFFILIATE_TAG}`);
   });
 
   it('GET /api/v1/quotes/daily — domínio público não gera affiliateUrl', async () => {

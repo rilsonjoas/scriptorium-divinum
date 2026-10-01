@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { pickQuoteBySeed, toQuoteDto, type QuoteRow } from './quotes.js';
+import { env } from '../config.js';
 
 function row(over: Partial<QuoteRow>): QuoteRow {
   return {
@@ -30,7 +31,7 @@ describe('toQuoteDto', () => {
     const dto = toQuoteDto(row({}));
     expect(dto.dominioPublico).toBe(false);
     expect(dto.affiliateUrl).toBe(
-      'https://www.amazon.com.br/s?k=Cartas%20a%20Malcolm%20C.%20S.%20Lewis&tag=rilson-20',
+      `https://www.amazon.com.br/s?k=Cartas%20a%20Malcolm%20C.%20S.%20Lewis&tag=${env.AMAZON_AFFILIATE_TAG}`,
     );
   });
 
@@ -67,7 +68,7 @@ describe('toQuoteDto', () => {
   it('mantém o CTA quando a obra é conhecida, mesmo com variação de título', () => {
     const dto = toQuoteDto(row({ source: 'Oração: Cartas a Malcolm' }));
     expect(dto.affiliateUrl).toBe(
-      'https://www.amazon.com.br/s?k=Ora%C3%A7%C3%A3o%3A%20Cartas%20a%20Malcolm%20C.%20S.%20Lewis&tag=rilson-20',
+      `https://www.amazon.com.br/s?k=Ora%C3%A7%C3%A3o%3A%20Cartas%20a%20Malcolm%20C.%20S.%20Lewis&tag=${env.AMAZON_AFFILIATE_TAG}`,
     );
   });
 });
