@@ -1,42 +1,66 @@
-# Proveniência
+---
+id: "suma-contra-os-gentios-tomas-de-aquino"
+title: "Suma contra os Gentios (Summa contra Gentiles)"
+author: "Santo Tomás de Aquino"
+authorDates: "1225 – 1274"
+century: "Século XIII"
+category: "Teologia Escolástica e Apologética Filosófica"
+language: "Latim Clássico Medieval (Traduzido)"
+source: "Summa contra Gentiles / Liber de Veritate Catholicae Fidei (c. 1259–1265)"
+status: "completo"
+translator: "Scriptorium Divinum"
+---
 
-> [!NOTE]
-> **Suma contra os Gentios — Livro I: Deus (*Summa contra Gentiles - Liber I: De Deo*)**
-> **Autor:** [[Santo Tomás de Aquino]] (1225–1274 d.C.)
-> **Idioma Original:** Latim Escolástico Clássico
-> **Edição de Referência:** *Sancti Thomae de Aquino Opera Omnia* (Editio Leonina, Tomus XIII)
-> **Tradução e Edição:** Equipe Philokalia & Scriptorium Divinum (2026), cotejada com tradições dominicanas críticas.
-> **Licença:** Domínio Público / Texto derivado e notas sob licença [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+# Suma contra os Gentios (*Summa contra Gentiles*)
+### *Santo Tomás de Aquino (c. 1264)*
 
 ---
 
-# Suma contra os Gentios (Livro I: A Verdade da Fé e a Razão Natural)
+### Prólogo: O Ofício do Sábio e a Manifestação da Verdade Divina
 
-## Prólogo: O Ofício do Sábio e a Manifestação da Verdade
+*«Veritatem meditabitur guttur meum, et labia mea detestabuntur impium.»*  
+*(A minha boca proclamará a verdade, e os meus lábios detestarão a impiedade.)*  
+— Provérbios 8:7
 
-O ofício do sábio consiste em ordenar as coisas com retidão e governá-las em vista do seu fim último. Ora, o fim último de todo o universo criado é a Verdade soberana, que é o próprio Deus, Princípio e Causa de todas as coisas.
+**1.** O ofício primordial do verdadeiro sábio consiste em ordenar todas as coisas ao seu Fim Supremo, que é a Verdade Primeira, Princípio e Fim de todo o Universo, a saber, o próprio Deus.
 
-Por isso, a divina Sabedoria encarnada no mundo testemunha: *"Eu para isso nasci e para isso vim ao mundo, a fim de dar testemunho da verdade"* (Jo 18, 37). Cumpre ao teólogo manifestar a verdade da fé católica professada pela Santa Igreja e refutar com argumentos límpidos os erros contrários dos gentios e infiéis.
-
-```
-"A verdade da razão natural não é contrária à verdade da fé cristã; pois ambas procedem do mesmo Deus, Autor da natureza e da Revelação."
-— Santo Tomás de Aquino, Summa contra Gentiles I, 7
-```
+**2.** Ao empreender a defesa da fé católica contra os gentios, filósofos pagãos, judeus e muçulmanos, deparamos com uma distinção fundamental: enquanto os judeus aceitam o Antigo Testamento e os hereges o Novo Testamento, os gentios e pagãos não aceitam a autoridade de nenhuma das Escrituras. Por essa razão, é mister recorrer à **Razão Natural**, à qual todos os homens são constrangidos a anuir, sem prejuízo de proclamar os mistérios que transcendem a capacidade do intelecto humano.
 
 ---
 
-## Primeira Parte: A Dupla Verdade sobre as Coisas Divinas
+### Livro I: De Deus em Si Mesmo e a Verdade Acessível à Razão
 
-### Capítulo 1: A Fé e a Razão em Perfeita Harmonia
+**1. A Dupla Ordem da Verdade sobre Deus:** Há verdades sobre Deus que a razão natural pode alcançar por meio da contemplação das criaturas — tais como a Sua existência, unidade, eternidade, simplicidade, onipotência e sabedoria; e há verdades que excedem totalmente a capacidade do intelecto criado — como a Santíssima Trindade e a Encarnação do Verbo —, as quais só podem ser conhecidas pela Revelação sobrenatural.
 
-Nas coisas que professamos sobre Deus há uma dupla ordem de verdade:
-1. **Verdades que a razão natural pode alcançar:** tais como a existência de Deus, a Sua unidade, eternidade, sabedoria e providência soberana, as quais os próprios filósofos antigos demonstraram pelo exame das criaturas.
-2. **Verdades que ultrapassam a capacidade da razão finita:** tais como o mistério da Trindade Santíssima e a Encarnação redentora do Verbo, as quais só podem ser conhecidas por Revelação sobrenatural.
+**2. A Existência de Deus:** A existência de Deus não é evidente por si mesma para nós a priori, mas é demonstrável a posteriori pelos Seus efeitos no mundo criado:
+* Pelo **Movimento**: todo ser que se move é movido por outro, exigindo um Primeiro Motor Imóvel;
+* Pela **Causalidade Eficiente**: não se pode proceder ao infinito nas causas eficientes, exigindo uma Primeira Causa Incausada;
+* Pela **Contingência e Necessidade**: os seres contingentes exigem um Ser Absolutamente Necessário;
+* Pelos **Graus de Perfeição**: o mais e o menos perfeito exigem um Máximo no Ser e na Bondade;
+* Pela **Finalidade da Natureza**: os seres sem intelecto operam por um fim ordenado por uma Inteligência Suprema.
 
-Não há oposição entre essas duas ordens. O intelecto humano não é destruído pela fé, mas aperfeiçoado e elevado à contemplação das realidades eternas.
+---
 
-### Capítulo 2: A Demonstração da Existência de Deus pelo Movimento
+### Livro II: Da Criação do Universo e da Dignidade do Homem
 
-Tudo o que se move no universo visível é movido por outro. Mas não é possível progredir infinitamente numa série de motores movidos sem que haja um Primeiro Motor que não seja movido por nenhum outro (*Primum Movens Immobile*).
+**1.** Deus criou o mundo a partir do nada (*ex nihilo*) por um ato livre de Sua Vontade soberana e infinita bondade, para comunicar as Suas perfeições às criaturas.
 
-Este Primeiro Princípio, que é Puro Ato sem mistura de potência passiva, é o Ser Subsistente por Si mesmo (*Ipsum Esse Subsistens*), ao qual todos os povos e nações chamam Deus.
+**2.** O homem é o horizonte e o ponto de união entre o mundo corpóreo e o espiritual: dotado de uma alma intelectiva imaterial e imortal criada diretamente por Deus, destinada a encontrar o seu fim último na posse da Visão Beatífica.
+
+---
+
+### Livro III: Da Divina Providência e do Fim Último do Homem
+
+**1.** Deus não apenas criou o Universo, mas o governa e sustenta a cada instante por Sua Providência universal e infalível, ordenando até mesmo o mal permissivo para a manifestação de bens maiores.
+
+**2.** A felicidade suprema do homem (*beatitudo*) não pode consistir nas riquezas, honras temporais, prazeres carnais, poder ou virtudes puramente morais; consiste única e exclusivamente na **Contemplação Intelectual de Deus em Sua Própria Essência**.
+
+---
+
+### Livro IV: Dos Mistérios Sublimes da Salvação Revelada
+
+**1. A Santíssima Trindade:** Um só Deus em três Pessoas divinas coeternas e consubstanciais: o Pai que gera, o Filho que é gerado e o Espírito Santo que procede de ambos como Amor infinito.
+
+**2. A Encarnação do Verbo:** A união hipostática das naturezas divina e humana na única Pessoa do Filho de Deus para a nossa redenção na Cruz.
+
+**3. Os Sacramentos e a Ressurreição da Carne:** Os meios visíveis da graça e a consumação gloriosa na vida eterna, onde os santos contemplarão a Deus face a face pelos séculos sem fim. Amém!

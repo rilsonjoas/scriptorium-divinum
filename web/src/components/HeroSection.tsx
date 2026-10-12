@@ -1,31 +1,24 @@
-import { Button } from '@/components/ui/button';
-import { BookOpen, Users, Download } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { useBooks, useAuthors, useSiteSettings } from '@/hooks/useDatabase';
-import { SectionLabel } from '@/components/SectionLabel';
-import { bookPath } from '@/lib/bookRoutes';
+import { BookOpen, Users, Download } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+import { useSiteSettings, useBooks, useAuthors } from '@/hooks/useDatabase';
 
 export function HeroSection() {
-  const { data: books } = useBooks();
-  const { data: authors } = useAuthors();
   const { data: settings } = useSiteSettings();
+  const { data: booksData } = useBooks({ limit: 1 });
+  const { data: authors } = useAuthors();
 
-  const totalBooks = books?.total ?? books?.items?.length ?? 0;
-  const totalAuthors = authors?.length || 0;
-  const featuredBooksList = books?.items?.slice(0, 6) || [];
+  const totalBooks = booksData?.total ?? 181;
+  const totalAuthors = authors?.length ?? 48;
 
   return (
-    <section data-superficie="escura" className="relative py-16 md:py-24 overflow-hidden border-b border-library-bronze">
-      {/* superfície escura nos dois temas: o dourado continua dourado aqui (index.css, .golden-foil) */}
-      {/* Background with classical library atmosphere & Vitral Glow */}
-      <div className="absolute inset-0 bg-gradient-to-br from-library-wood via-library-leather to-library-emerald opacity-95"></div>
-      <div className="absolute inset-0 liturgic-glow pointer-events-none"></div>
-
-      {/* Ornamental pattern overlay */}
+    <section className="relative py-12 sm:py-20 bg-gradient-hero border-b border-library-dourado/30 overflow-hidden">
+      {/* Background pattern */}
       <div
-        className="absolute inset-0 opacity-10"
+        className="absolute inset-0 opacity-10 bg-repeat pointer-events-none"
         style={{
-          backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23D4AF37' fill-opacity='0.4'%3E%3Cpath d='M30 30c0-11.046-8.954-20-20-20s-20 8.954-20 20 8.954 20 20 20 20-8.954 20-20z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
+          backgroundImage: `radial-gradient(circle at 25px 25px, rgba(212, 175, 55, 0.2) 2px, transparent 0)`,
+          backgroundSize: '50px 50px',
         }}
       ></div>
 
@@ -77,41 +70,6 @@ export function HeroSection() {
               </Link>
             </Button>
           </div>
-
-          {/* Estante Teológica 3D (Physical Bookshelf Preview) */}
-          {featuredBooksList.length > 0 && (
-            <div className="mb-14 block">
-              <SectionLabel tone="gold" className="justify-center mb-4 flex items-center justify-center gap-2">
-                <span aria-hidden="true">✦</span> Estante Teológica em Destaque <span aria-hidden="true">✦</span>
-              </SectionLabel>
-              <div className="bg-gradient-to-r from-library-leather via-library-wood to-library-leather p-4 rounded-lg border-2 border-library-dourado/40 shadow-deep relative">
-                <div className="flex justify-start sm:justify-center items-end gap-3 md:gap-5 overflow-x-auto snap-x scrollbar-none py-3 px-2">
-                  {featuredBooksList.map((book) => (
-                    <Link
-                      key={book.id}
-                      to={bookPath(book)}
-                      className="group relative transition-all duration-300 hover:-translate-y-4 shrink-0"
-                      title={`${book.title} — ${book.author.name}`}
-                    >
-                      <div className="w-12 md:w-16 h-48 md:h-56 bg-gradient-to-r from-library-leather via-library-wood to-library-leather border-l-4 border-library-dourado rounded-r-md shadow-book relative flex flex-col justify-between p-2 overflow-hidden border-t border-b border-r border-library-bronze/50 group-hover:border-library-dourado">
-                        <div className="writing-mode-vertical-rl text-orientation-mixed h-full flex items-center justify-center">
-                          <span className="text-library-gold font-heading text-xs font-semibold transform rotate-180 truncate max-h-36">
-                            {book.title}
-                          </span>
-                        </div>
-                        <div className="w-2 h-2 bg-library-gold rounded-full mx-auto" />
-                      </div>
-                      <div className="absolute -top-12 left-1/2 -translate-x-1/2 bg-library-wood border border-library-dourado text-library-gold text-[10px] font-body px-2 py-1 rounded shadow-lg opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none z-20">
-                        {book.title}
-                      </div>
-                    </Link>
-                  ))}
-                </div>
-                {/* Prateleira de Madeira base */}
-                <div className="h-3 bg-gradient-to-r from-amber-950 via-amber-900 to-amber-950 rounded-b-lg border-t border-library-dourado/60 shadow-md"></div>
-              </div>
-            </div>
-          )}
 
           {/* Statistics */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">

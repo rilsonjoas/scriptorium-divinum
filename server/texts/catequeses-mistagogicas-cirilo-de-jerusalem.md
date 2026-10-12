@@ -1,54 +1,206 @@
-# Proveniência
-
-> [!NOTE] Tradução por Inteligência Artificial — Transparência
-> Este clássico monumento da liturgia e da catequese patrística oriental foi traduzido por inteligência artificial diretamente a partir do texto grego original (*Κατηχήσεις Μυσταγωγικαί* / *Catecheses Mystagogicae*), proferido por São Cirilo, Bispo de Jerusalém, por volta de 350 d.C. na Basílica da Anástasis (Santo Sepulcro), fixado criticamente na edição de *Sources Chrétiennes* (SC 126bis, ed. A. Piédagnel) e na *Patrologia Graeca* de J.-P. Migne (PG 33, 1065–1128).
-> **Status:** Revisão humana pendente.
-> **Licença da tradução:** Creative Commons Atribuição-CompartilhaIgual 4.0 Internacional (CC BY-SA 4.0).
-> **Como citar:** Cirilo de Jerusalém. *Catequeses Mistagógicas (Catecheses Mystagogicae)*. Tradução de Scriptorium Divinum (2026), sob licença CC BY-SA 4.0.
-
+---
+id: "catequeses-mistagogicas-cirilo-de-jerusalem"
+title: "Catequeses Mistagógicas"
+author: "São Cirilo de Jerusalém"
+authorDates: "c. 313 – 386"
+century: "Século IV"
+category: "Patrística e Teologia Sacramental"
+language: "Português (Tradução Integral)"
+source: "Catecheses Mystagogicae I-V (Instruções Mistagógicas aos Neófitos sobre os Ritos do Batismo, Crisma e Sagrada Liturgia Eucarística)"
+status: "Traduzido"
+translator: "Scriptorium Divinum (Tradução Integral em Domínio Público)"
 ---
 
 # Catequeses Mistagógicas
-### *(Catecheses Mystagogicae, c. 350 d.C.)*
-#### **São Cirilo de Jerusalém, Bispo e Doutor da Igreja (c. 313–386 d.C.)**
-
-## Primeira Catequese: A Renúncia a Satanás e a Adesão a Cristo
-
-Há muito tempo, filhos legítimos e amados da Igreja, desejava falar-vos destes mistérios espirituais e celestes.
-Primeiro entrastes no vestíbulo do Batistério e, voltados para o Ocidente, ouvistes a ordem de estender a mão e renunciastes a Satanás como se ele estivesse presente:
-*"Renuncio a ti, Satanás, e a todas as tuas obras, e a todas as tuas pompas, e a todo o teu culto!"*
-O Ocidente é a região das trevas visíveis: renunciando ao príncipe das trevas, voltastes-vos para o Oriente, a região da luz de onde nasce o Sol da Justiça, proclamando:
-*"Creio no Pai, no Filho e no Espírito Santo, e num só Batismo de arrependimento!"*
+### **São Cirilo de Jerusalém**
+*Bispo de Jerusalém e Doutor da Igreja*
 
 ---
 
-## Segunda Catequese: O Rito do Santo Batismo
 
-Fostes despidos das vossas vestes terrenas, imitando a Cristo que foi despido na Cruz:
-Fostes conduzidos à santa piscina batismal, assim como Cristo foi levado da Cruz ao Sepulcro que está diante dos nossos olhos.
-E cada um de vós foi interrogado se cria no Nome do Pai, do Filho e do Espírito Santo:
-Fizestes a salutar profissão de fé e fostes **imergidos três vezes na água**, confessando a sepultura de três dias de Nosso Senhor Jesus Cristo.
-E naquele mesmo instante morrestes e renascestes: a água salutária foi para vós sepulcro do pecado e mãe da nova vida!
 
----
+## # Primeira Catequese Mistagógica (Sobre os Ritos antes do Batismo)
 
-## Terceira Catequese: A Santa Crismação
 
-Saindo das águas batismais, recebestes a **Santa Unção do Crisma**, figura daquela unção com que o Espírito Santo ungiu a Cristo após o Seu Batismo no Jordão.
-Fostes ungidos na fronte, nos ouvidos, nas narinas e no peito:
-Para que, trazendo as armas invencíveis do Espírito Santo, resistais a todas as artimanhas do adversário e sejais chamados verdadeiramente cristãos, participantes da unção real de Cristo!
+Primeira palestra sobre os mistérios.
 
----
+Com uma lição da Primeira Epístola Geral de Pedro, começando em Esteja sóbrio, esteja vigilante, até o final da Epístola.
 
-## Quarta e Quinta Catequeses: O Pão Vivo da Eucaristia e a Santa Liturgia
+1. Há muito que desejo, ó verdadeiros e amados filhos da Igreja, discursar-vos sobre estes mistérios espirituais e celestiais; mas como eu sabia muito bem que ver é muito mais persuasivo do que ouvir, esperei pela presente estação; que, ao encontrá-lo mais aberto à influência de minhas palavras a partir de sua experiência atual, eu possa conduzi-lo pela mão até o prado mais brilhante e perfumado do Paraíso diante de nós; especialmente porque foste preparado para receber os Mistérios mais sagrados, depois de teres sido considerado digno do Batismo divino e vivificante. Visto que resta, portanto, colocar diante de você uma tabela com as instruções mais perfeitas, deixe-nos agora ensinar-lhe exatamente essas coisas, para que você possa saber o efeito causado sobre você naquela noite de seu batismo.
 
-### § 1. O Pão Celestial e o Cálice da Salvação
-Sob a figura do pão vos é dado o **Corpo de Cristo**, e sob a figura do vinho vos é dado o **Sangue de Cristo**:
-Para que, tornando-vos participantes do Seu Corpo e do Seu Sangue, vos torneis com Ele **concorpóreos e consanguíneos** (*syssomoi kai syaimoi*).
-Não julgueis, pois, pelo gosto dos sentidos que seja apenas pão e vinho materiais: mas pela **Fé firme** sabei com certeza que recebestes o próprio Cristo que Se deu por nós!
+2. Primeiro entrastes no vestíbulo do Batistério e ali, voltados para o Ocidente, ouvistes a ordem de estender a mão e, como na presença de Satanás, renunciastes a ele. Agora você deve saber que esta figura é encontrada na história antiga. Pois quando Faraó, aquele tirano mais amargo e cruel, estava oprimindo o povo livre e bem nascido dos hebreus, Deus enviou Moisés para tirá-los da escravidão maligna dos egípcios. Então as ombreiras das portas foram ungidas com o sangue de um cordeiro, para que o destruidor fugisse das casas que tinham o sinal do sangue; e o povo hebreu foi maravilhosamente liberto. O inimigo, no entanto, após o seu resgate, perseguiu-os Êxodo 14:9, 23, e viu o mar maravilhosamente aberto para eles; no entanto, ele continuou, seguindo de perto seus passos, e foi subitamente subjugado e engolido pelo Mar Vermelho.
 
-### § 2. A Comunhão Eucarística
-Ao vos aproximardes da Mesa Sagrada, não venhais com as mãos espalmadas nem com dedos abertos:
-Fazei da vossa mão esquerda um **trono para a mão direita**, como quem vai receber um grande Rei; e na concavidade da palma recebei o Corpo de Cristo, dizendo com profunda reverência: **"Amém!"**.
-Santificai os vossos olhos pelo contato do Santo Corpo e recebei o Alimento Divino com temor e amor.
-A Ele, com o Pai e o Espírito Santo, seja dada a glória, a honra e o poder para todo o sempre. Amém.
+3. Agora passe do antigo para o novo, da figura para a realidade. Aí temos Moisés enviado por Deus ao Egito; aqui, Cristo, enviado por Seu Pai ao mundo; ali, para que Moisés pudesse conduzir um povo aflito para fora do Egito; aqui, para que Cristo pudesse resgatar aqueles que são oprimidos no mundo pelo pecado: ali, o sangue de um cordeiro foi o feitiço contra o destruidor; aqui, o sangue do Cordeiro imaculado Jesus Cristo é feito o encanto para espantar os maus espíritos: ali, o tirano perseguia aquele povo antigo até ao mar; e aqui o espírito ousado e desavergonhado, o autor do mal, estava seguindo você até as próprias fontes da salvação. O tirano de antigamente foi afogado no mar; e este presente desaparece na água da salvação.
+
+4. Mas, no entanto, você é convidado a dizer, com o braço estendido em direção a ele, como se ele estivesse presente: eu renuncio a você, Satanás. Desejo também dizer por que vocês estão voltados para o Ocidente; pois é necessário. Visto que o Ocidente é a região das trevas sensíveis, e ele sendo as trevas tem seu domínio também nas trevas, portanto, olhando com um significado simbólico para o Ocidente, você renuncia a esse potentado sombrio e sombrio. O que então cada um de vocês se levantou e disse? Eu renuncio a você, Satanás, seu tirano perverso e cruel! Ou seja, temo que você não possa mais; pois Cristo derrubou, tendo participado comigo de carne e sangue, para que por meio deles pudesse pela morte destruir a morte Hebreus 2:14-15, para que eu não fosse sujeito à escravidão para sempre. Eu renuncio a você, sua serpente astuta e sutil. Eu renuncio a você, conspirador como você é, que sob o pretexto de amizade planejou toda desobediência e praticou apostasia em nossos primeiros pais. Eu renuncio a você, Satanás, – o artífice e cúmplice de toda maldade.
+
+5. Então, em uma segunda frase, você é ensinado a dizer, e todas as suas obras. Agora, as obras de Satanás são todas pecado, ao qual você também deve renunciar – assim como alguém que escapou de um tirano certamente escapou de suas armas também. Todo pecado, portanto, de todo tipo, está incluído nas obras do diabo. Só saiba disso; que tudo o que você diz, especialmente naquela hora mais emocionante, está escrito nos livros de Deus; quando, portanto, você fizer algo contrário a essas promessas, você será julgado como um transgressor. Gálatas 2:18 Portanto, renuncias às obras de Satanás; Quero dizer, todas as ações e pensamentos que são contrários à razão.
+
+6. Então você diz: E toda a sua pompa. Agora, a pompa do diabo é a loucura dos teatros, e das corridas de cavalos, e da caça, e de todas essas vaidades: da qual aquele homem santo que ora para ser libertado diz a Deus: Desvia os meus olhos de contemplarem a vaidade. Não vos interesseis pela loucura do teatro, onde contemplareis os gestos desenfreados dos actores, executados com zombarias e toda a indecência, e a dança frenética dos homens efeminados - nem pela loucura daqueles que nas caçadas se expõem às feras, para poderem mimar o seu miserável apetite; que, para servir a barriga com carnes, tornam-se na realidade carne para a barriga de feras indomadas; e para falar com justiça, por causa de seu próprio deus, seu ventre, eles desperdiçaram suas vidas precipitadamente em combates individuais. Evite também as corridas de cavalos, aquele espetáculo frenético e que subverte a alma. Pois tudo isso é a pompa do diabo.
+
+7. Além disso, as coisas que são penduradas nas festas de ídolos, seja carne ou pão, ou outras coisas poluídas pela invocação de espíritos imundos, são consideradas como pompa do diabo. Pois assim como o Pão e o Vinho da Eucaristia antes da invocação da Santíssima e Adorável Trindade eram simples pão e vinho, enquanto depois da invocação o Pão se torna o Corpo de Cristo, e o Vinho o Sangue de Cristo, da mesma forma tais carnes pertencentes à pompa de Satanás, embora em sua própria natureza simples, tornam-se profanas pela invocação do espírito maligno.
+
+8. Depois disso você diz, e todo o seu serviço. Agora, o serviço do diabo é a oração nos templos dos ídolos; coisas feitas em homenagem a ídolos sem vida; o acendimento de lâmpadas, ou a queima de incenso em fontes ou rios, como fazem algumas pessoas enganadas por sonhos ou por espíritos malignos, pensando em encontrar a cura até mesmo para suas doenças corporais. Não vá atrás de tais coisas. A observação de pássaros, adivinhação, presságios ou amuletos, ou encantos escritos em folhas, feitiçarias ou outras artes malignas, e todas essas coisas, são serviços do diabo; portanto, evite-os. Pois se depois de renunciar a Satanás e associar-se a Cristo, você cair sob a influência deles, você encontrará o tirano mais amargo; talvez, porque ele tratou você antigamente como se fosse seu e o libertou de sua dura escravidão, mas agora ficou muito exasperado por você; então você ficará enlutado de Cristo e terá experiência do outro. Você não ouviu a velha história que nos fala de Ló e suas filhas? Não foi ele próprio salvo com suas filhas, quando alcançou a montanha, enquanto sua esposa se tornou uma estátua de sal, erguida como um monumento para sempre, em memória de sua vontade depravada e de seu retorno. Portanto, preste atenção a si mesmo e não volte novamente para o que ficou para trás, depois de colocar a mão no arado e depois voltar para o sabor salgado das ações desta vida; mas fuja para a montanha, para Jesus Cristo, aquela pedra cortada sem mãos Daniel 2:35, 45, que encheu o mundo.
+
+9. Quando, portanto, você renuncia a Satanás, quebrando totalmente toda a sua aliança com ele, aquela antiga aliança com o inferno Isaías 28:15, se abre para você o paraíso de Deus, que Ele plantou no Oriente, de onde por sua transgressão nosso primeiro pai foi banido; e um símbolo disso foi a sua mudança do Ocidente para o Oriente, o lugar da luz. Então lhe foi dito que dissesses: Creio no Pai, e no Filho, e no Espírito Santo, e num só Batismo de arrependimento. Sobre as quais falamos longamente com vocês nas palestras anteriores, conforme a graça de Deus nos permitiu.
+
+10. Protegido, portanto, por esses discursos, seja sóbrio. Para o nosso adversário, o diabo, como acabamos de ler, como um leão que ruge, anda em busca de quem possa devorar. 1 Pedro 5:9 Mas, embora antigamente a morte fosse poderosa e devorada, na pia santa da regeneração Deus enxugou de todos os rostos toda lágrima. Porque não lamentarás mais, agora que te despiste do velho; mas guardareis o dia santo, vestidos com as vestes da salvação Isaías 61:10, sim, Jesus Cristo.
+
+11. E estas coisas foram feitas na câmara exterior. Mas se Deus quiser, quando nas palestras seguintes sobre os Mistérios tivermos entrado no Santo dos Santos, conheceremos ali o significado simbólico das coisas que ali são realizadas. Agora, a Deus Pai, com o Filho e o Espírito Santo, seja glória, e poder, e majestade, para todo o sempre. Amém.
+
+CONTACTE-NOS | ANUNCIE COM NOVO ADVENTO
+
+
+
+## # Segunda Catequese Mistagógica (Sobre os Ritos do Santo Batismo)
+
+
+(Sobre os Mistérios. II.)
+
+Do Batismo.
+
+Romanos 6:3-14
+
+Você não sabe que muitos de nós que fomos batizados em Jesus Cristo, fomos batizados em Sua morte? etc.....pois vocês não estão debaixo da Lei, mas debaixo da graça.
+
+1. Estas introduções diárias aos Mistérios e novas instruções, que são anúncios de novas verdades, são proveitosas para nós; e acima de tudo para você, que foi renovado de um estado antigo para um novo. Portanto, necessariamente colocarei diante de você a sequência da Palestra de ontem, para que você possa aprender o que eram simbólicas aquelas coisas que foram feitas por você na câmara interna.
+
+2. Assim que você entrou, você tirou a túnica; e esta era uma imagem de adiar o velho com seus atos. Colossenses 3:9 Despojando-vos, estais nus; nisso também imitando Cristo, que foi despido na cruz, e pela Sua nudez afastou de si os principados e potestades, e triunfou abertamente sobre eles no madeiro. Pois desde que os poderes adversos fizeram seu covil em seus membros, você não poderá mais usar aquela roupa velha; Não me refiro de forma alguma a este homem visível, mas ao velho, que se corrompeu nas concupiscências do engano. Efésios 4:22 Que a alma que uma vez o despiu, nunca mais o vista, mas diga com a Esposa de Cristo no Cântico dos Cânticos: Tirei a minha roupa, como devo vesti-la no Cântico dos Cânticos 5:3? Ó coisa maravilhosa! Você estava nu diante de todos e não se envergonhou; porque verdadeiramente tendes a semelhança do primeiro Adão formado, que estava nu no jardim e não se envergonhava.
+
+3. Depois, quando vocês foram despojados, foram ungidos com óleo exorcizado, desde os cabelos da cabeça até os pés, e foram feitos participantes da boa oliveira, Jesus Cristo. Pois você foi cortado da oliveira brava e enxertado na oliveira boa, e foi feito participante da gordura da oliveira verdadeira. O óleo exorcizado era, portanto, um símbolo da participação da gordura de Cristo, sendo um encanto para afastar qualquer vestígio de influência hostil. Pois assim como a respiração dos santos e a invocação do Nome de Deus, como a chama mais feroz, queimam e expulsam os espíritos malignos, assim também este óleo exorcizado recebe tal virtude pela invocação de Deus e pela oração, como não apenas para queimar e limpar os vestígios dos pecados, mas também para afugentar todos os poderes invisíveis do maligno.
+
+4. Depois destas coisas, fostes conduzidos ao tanque sagrado do Divino Batismo, como Cristo foi levado da Cruz ao Sepulcro que está diante dos nossos olhos. E foi perguntado a cada um de vocês se ele cria no nome do Pai, e do Filho, e do Espírito Santo, e vocês fizeram essa confissão salvadora, e desceram três vezes na água, e subiram novamente; aqui também sugerindo um símbolo aos três dias de sepultamento de Cristo. Pois assim como nosso Salvador passou três dias e três noites no coração da terra, assim você também em sua primeira ascensão fora da água, representou o primeiro dia de Cristo na terra, e por sua descida, a noite; pois assim como quem está de noite já não vê, mas quem está de dia permanece na luz, assim na descida, como na noite, vocês não viram nada, mas ao subirem novamente vocês eram como de dia. E no mesmo momento vocês estavam morrendo e nascendo; e aquela Água da salvação foi ao mesmo tempo seu túmulo e sua mãe. E o que Salomão falou dos outros também será adequado para você; pois ele disse, nesse caso: Há um tempo para suportar e um tempo para morrer Eclesiastes 3:2; mas para você, na ordem inversa, houve um tempo para morrer e um tempo para nascer; e ao mesmo tempo efetuou ambos, e seu nascimento andou de mãos dadas com sua morte.
+
+5. Ó coisa estranha e inconcebível! Nós realmente não morremos, não fomos realmente sepultados, não fomos realmente crucificados e ressuscitados; mas a nossa imitação foi uma figura, e a nossa salvação, uma realidade. Cristo foi realmente crucificado, e realmente sepultado, e verdadeiramente ressuscitou; e todas essas coisas Ele nos concedeu gratuitamente, para que nós, compartilhando Seus sofrimentos por imitação, possamos obter a salvação na realidade. Ó insuperável bondade amorosa! Cristo recebeu pregos em Suas mãos e pés imaculados e sofreu angústia; enquanto sobre mim, sem dor ou trabalho, pela comunhão de Seu sofrimento, Ele concede gratuitamente a salvação.
+
+6. Ninguém suponha então que o Batismo seja apenas a graça da remissão dos pecados, ou ainda, a da adoção; como o de João foi um batismo que conferia apenas a remissão de pecados: embora saibamos muito bem que, assim como ele purifica nossos pecados e nos ministra o dom do Espírito Santo, também é a contrapartida dos sofrimentos de Cristo. Por esta causa, Paulo agora há pouco clamou em alta voz e disse: Ou ignorais que todos nós que fomos batizados em Cristo Jesus, fomos batizados na sua morte? Fomos, portanto, sepultados com Ele pelo batismo em Sua morte. Ele falou essas palavras a alguns que estavam dispostos a pensar que o Batismo nos ministra a remissão dos pecados e a adoção, mas não promove também a comunhão, por representação, dos verdadeiros sofrimentos de Cristo.
+
+7. Para que possamos aprender que todas as coisas que Cristo suportou, por nós e para nossa salvação, Ele as sofreu em realidade e não em aparência, e que também nós nos tornamos participantes de Seus sofrimentos, Paulo clamou com toda a exatidão da verdade: Porque, se fomos plantados juntamente com a semelhança de Sua morte, seremos também com a semelhança de Sua ressurreição. Bem, ele disse, plantados juntos. Pois desde que a verdadeira Videira foi plantada neste lugar, também nós, participando do Batismo da morte, fomos plantados juntamente com Ele. E fixe sua mente com muita atenção nas palavras do Apóstolo. Ele não disse: Porque se fomos plantados juntamente com a sua morte, mas com a semelhança da sua morte. Pois no caso de Cristo houve morte na realidade, pois Sua alma foi realmente separada de Seu corpo, e sepultamento real, pois Seu santo corpo foi envolto em linho puro; e tudo aconteceu realmente com Ele; mas no seu caso havia apenas uma semelhança de morte e sofrimentos, enquanto que de salvação não havia uma semelhança, mas uma realidade.
+
+8. Tendo sido suficientemente instruído nestas coisas, guarda-as, peço-te, em tua lembrança; para que eu também, por mais indigno que seja, possa dizer de vocês: Agora eu os amo, porque vocês sempre se lembram de mim e mantêm firmes as tradições que eu lhes entreguei. E Deus, que te apresentou como se estivesse vivo dentre os mortos Romanos 6:13, é capaz de conceder-lhe andar em novidade de vida: porque dele é a glória e o poder, agora e para sempre. Amém.
+
+CONTACTE-NOS | ANUNCIE COM NOVO ADVENTO
+
+
+
+## # Terceira Catequese Mistagógica (Sobre o Santo Crisma)
+
+
+(Sobre os Mistérios. III.)
+
+No Crisma.
+
+1 João 2:20-28
+
+Mas você tem uma unção do Santo, etc... para que, quando Ele aparecer, possamos ter confiança e não nos envergonharmos diante Dele em Sua vinda.
+
+1. Tendo sido batizado em Cristo e revestido de Cristo Gálatas 3:27 , você foi feito conforme ao Filho de Deus; pois Deus nos preordenou para adoção como filhos Efésios 1:5 , nos fez conformados ao corpo da glória de Cristo. Filipenses 3:21 Portanto, tendo-vos tornado participantes de Cristo Hebreus 3:14, sois propriamente chamados Cristos, e de vós Deus disse: Não toqueis nos meus Cristos, nem nos ungidos. Agora vocês foram feitos Cristos, ao receberem o antítipo do Espírito Santo; e todas as coisas foram feitas em vocês por imitação, porque vocês são imagens de Cristo. Ele lavou-se no rio Jordão e, tendo transmitido às águas a fragrância de Sua Divindade, saiu delas; e o Espírito Santo na plenitude de Seu ser iluminado sobre Ele, semelhante repousando sobre semelhante. E para você da mesma maneira, depois que você saiu do tanque das correntes sagradas, foi dada uma Unção, o antítipo daquilo com que Cristo foi ungido; e este é o Espírito Santo; de quem também o bem-aventurado Isaías, em sua profecia a respeito dele, disse na pessoa do Senhor: O Espírito do Senhor está sobre mim, porque Ele me ungiu: Ele me enviou para pregar boas novas aos pobres Isaías 61:1 .
+
+2. Porque Cristo não foi ungido pelos homens com óleo ou unguento material, mas o Pai, tendo-o previamente designado para ser o Salvador do mundo inteiro, ungiu-o com o Espírito Santo, como diz Pedro, Jesus de Nazaré, a quem Deus ungiu com o Espírito Santo. Acts 10:38 David also the Prophet cried, saying, Your throne, O God, is for ever and ever; um cetro de justiça é o cetro do Teu reino; Você amou a justiça e odiou a iniqüidade; por isso Deus, o teu Deus, te ungiu com óleo de alegria mais do que a teus companheiros. E como Cristo foi na realidade crucificado, sepultado e ressuscitado, e você no Batismo é considerado digno de ser crucificado, sepultado e ressuscitado junto com Ele na semelhança, o mesmo acontece com a unção. Assim como Ele foi ungido com um óleo ideal de alegria, isto é, com o Espírito Santo, chamado óleo de alegria, porque Ele é o autor da alegria espiritual, assim vocês foram ungidos com ungüento, tendo sido feitos participantes e companheiros de Cristo.
+
+3. Mas tome cuidado ao supor que se trata de uma pomada simples. Pois assim como o Pão da Eucaristia, após a invocação do Espírito Santo, não é mais mero pão, mas o Corpo de Cristo, assim também este santo unguento não é mais simples unguento, nem (por assim dizer) comum, após a invocação, mas é o dom da graça de Cristo, e, pelo advento do Espírito Santo, é tornado adequado para transmitir Sua Natureza Divina. Qual pomada é aplicada simbolicamente em sua testa e em seus outros sentidos; e enquanto seu corpo é ungido com o unguento visível, sua alma é santificada pelo Espírito Santo e vivificante.
+
+4. E foste primeiro ungido na testa, para que te livrasses da vergonha que o primeiro homem que transgrediu carregava consigo por toda parte; e para que com o rosto descoberto reflitais como um espelho a glória do Senhor. 2 Coríntios 3:18 Então, aos vossos ouvidos; para que você possa receber ouvidos que são rápidos para ouvir os Mistérios Divinos, dos quais Isaías disse: O Senhor também me deu ouvidos para ouvir Isaías 50:4; e o Senhor Jesus no Evangelho, quem tem ouvidos para ouvir, ouça. Mateus 11:15 Depois nas narinas; para que, ao receberem o unguento sagrado, digais: Somos para Deus o doce perfume de Cristo nos que são salvos. 2 Coríntios 2:15 Depois no peito; para que, tendo vestido a couraça da justiça, você possa resistir às ciladas do diabo. Pois assim como Cristo, depois de Seu Batismo e da visitação do Espírito Santo, saiu e venceu o adversário, da mesma forma vocês, depois do Santo Batismo e do Crisma Místico, tendo vestido toda a armadura do Espírito Santo, devem se levantar contra o poder do adversário, e vencê-lo, dizendo: Posso fazer todas as coisas através de Cristo que me fortalece Filipenses 4:13 .
+
+5. Tendo sido considerados dignos deste Santo Crisma, sois chamados cristãos, verificando-se o nome também pelo vosso novo nascimento. Pois antes de serem considerados dignos desta graça, vocês não tinham direito a esse título, mas estavam avançando no caminho para serem cristãos.
+
+6. Além disso, você deve saber que na antiga Escritura está o símbolo deste Crisma. Durante o tempo em que Moisés transmitiu a seu irmão a ordem de Deus e o fez sumo sacerdote, depois de se banhar em água, ele o ungiu; e Arão foi chamado de Cristo ou Ungido, evidentemente do Crisma típico. Assim também o sumo sacerdote, ao promover Salomão ao reino, ungiu-o depois de ele ter se banhado em Giom. 1 Reis 1:39 Para eles, porém, essas coisas aconteceram em figura, mas para vocês não em figura, mas em verdade; porque você foi verdadeiramente ungido pelo Espírito Santo. Cristo é o começo da sua salvação; pois Ele é verdadeiramente as primícias, e você a massa Romanos 11:16; mas se as primícias forem santas, é manifesto que a sua santidade passará também para a missa.
+
+7. Mantenha isto imaculado: pois ele lhe ensinará todas as coisas, se permanecer em você, como você acabou de ouvir declarado pelo bem-aventurado João, discursando muito sobre esta Unção. For this holy thing is a spiritual safeguard of the body, and salvation of the soul. Disto o abençoado Isaías profetizando dos tempos antigos disse: E nesta montanha, – (agora ele chama a Igreja de montanha em outro lugar também, como quando ele diz: Nos últimos dias o monte da casa do Senhor será manifestado Isaías 2:2;) – nesta montanha o Senhor fará uma festa para todas as nações; beberão vinho, beberão alegria, ungir-se-ão com unguento. E para que ele possa ter certeza, ouça o que ele diz sobre esse unguento como sendo místico; Entregue todas estas coisas às nações, pois o conselho do Senhor é para todas as nações. Tendo sido ungido, portanto, com este unguento sagrado, mantenha-o imaculado e imaculado em você, prosseguindo com boas obras e agradando ao Capitão da sua salvação, Cristo Jesus, a quem seja glória para todo o sempre. Amém.
+
+CONTACTE-NOS | ANUNCIE COM NOVO ADVENTO
+
+
+
+## # Quarta Catequese Mistagógica (Sobre o Corpo e Sangue de Cristo)
+
+
+(Sobre os Mistérios. IV.)
+
+No Corpo e Sangue de Cristo.
+
+1 Coríntios 11:23
+
+Recebi do Senhor o que também vos entreguei, como que o Senhor Jesus, na noite em que foi traído, tomou pão, etc.
+
+1. Mesmo por si só, o ensinamento do Bem-aventurado Paulo é suficiente para lhe dar plena certeza sobre aqueles Mistérios Divinos, dos quais, tendo sido considerado digno, você se tornou do mesmo corpo e sangue de Cristo. Pois vocês acabaram de ouvi-lo dizer claramente: Que nosso Senhor Jesus Cristo, na noite em que foi traído, tomou o pão, e depois de dar graças, partiu-o e deu-o aos seus discípulos, dizendo: Tomai, comei, este é o meu corpo; e, tendo tomado o cálice e dado graças, disse: Tomai, bebei, este é o meu sangue. Since then He Himself declared and said of the Bread, This is My Body, who shall dare to doubt any longer? E já que Ele mesmo afirmou e disse: Este é o Meu Sangue, quem hesitará, dizendo que não é o Seu sangue?
+
+2. Certa vez, ele em Caná da Galiléia transformou a água em vinho, semelhante ao sangue, e é incrível que Ele tenha transformado o vinho em sangue? Quando chamado para um casamento corporal, Ele realizou milagrosamente aquela obra maravilhosa; e aos filhos da câmara nupcial Mateus 9:15, não deveria Ele ser reconhecido por ter concedido a fruição de Seu Corpo e Sangue?
+
+3. Portanto, com plena segurança, participemos como do Corpo e Sangue de Cristo: pois na figura do Pão vos é dado o Seu Corpo, e na figura do Vinho o Seu Sangue; para que vocês, participando do Corpo e Sangue de Cristo, sejam feitos do mesmo corpo e do mesmo sangue que Ele. Pois assim passamos a carregar Cristo em nós, porque Seu Corpo e Sangue são distribuídos através de nossos membros; assim é que, segundo o bem-aventurado Pedro, nos tornamos participantes da natureza divina 2 Pedro 1:4.
+
+4. Cristo, em certa ocasião, discursando com os judeus, disse: A menos que comam a minha carne e bebam o meu sangue, não terão vida em vocês. João 6:53 Eles, não tendo ouvido Suas palavras no sentido espiritual, ficaram ofendidos e voltaram, supondo que Ele os estava convidando a comer carne.
+
+5. No Antigo Testamento também havia pão da proposição; mas isto, como pertencia ao Antigo Testamento, chegou ao fim; mas no Novo Testamento há Pão do céu e um Cálice de salvação, santificando alma e corpo; pois assim como o Pão corresponde ao nosso corpo, assim a Palavra é apropriada à nossa alma.
+
+6. Considerem, portanto, o Pão e o Vinho não como meros elementos, pois são, segundo a declaração do Senhor, o Corpo e o Sangue de Cristo; pois mesmo que o bom senso lhe sugira isso, deixe que a fé o estabeleça. Não julgue o assunto pelo gosto, mas pela fé, tenha plena certeza, sem receio, de que o Corpo e o Sangue de Cristo foram concedidos a você.
+
+7. Também o bem-aventurado David vos informará o significado disto, dizendo: Preparaste-me uma mesa na presença dos que me afligem. O que ele diz é neste sentido: Antes de Tua vinda, os espíritos malignos prepararam uma mesa para os homens, poluída, contaminada e cheia de influência diabólica; mas desde a tua vinda. Ó Senhor, você preparou uma mesa diante de mim. Quando o homem diz a Deus: Preparaste diante de mim uma mesa, que outra mesa ele indica senão aquela Mesa mística e espiritual, que Deus preparou para nós contra, isto é, contrária e em oposição aos espíritos malignos? E muito verdadeiramente; pois aquele tinha comunhão com os demônios, mas este, com Deus. Você ungiu minha cabeça com óleo. Com óleo ungiu a tua cabeça sobre a tua testa, para o selo que tens de Deus; para que você possa fazer a gravação do selo: Santidade a Deus. E o seu cálice me intoxica, muito forte. Você vê aquele cálice aqui mencionado, que Jesus tomou nas mãos, deu graças e disse: Este é o meu sangue, que é derramado por muitos para a remissão dos pecados Mateus 26:28 .
+
+8. Portanto, também Salomão, insinuando esta graça, diz em Eclesiastes: Venha aqui, coma o seu pão com alegria (isto é, o pão espiritual; venha aqui, ele chama com o chamado à salvação e à bênção), e beba o seu vinho com um coração alegre (isto é, o vinho espiritual); e deixe óleo ser derramado sobre sua cabeça, você vê, ele alude até mesmo ao místico Crisma); e que suas vestes sejam sempre brancas, pois o Senhor se agrada de suas obras Eclesiastes 9:7-8; pois antes de você chegar ao Batismo, suas obras eram vaidade de vaidades. Mas agora, tendo despojado suas roupas velhas e colocado aquelas que são espiritualmente brancas, você deve estar continuamente vestido de branco: é claro que não queremos dizer isso, que você deve sempre usar roupas brancas; mas você deve estar vestido com roupas que sejam verdadeiramente brancas, brilhantes e espirituais, para que possa dizer com o abençoado Isaías: Minha alma se alegrará em meu Deus; pois Ele me vestiu com uma roupa de salvação e me envolveu com um manto de alegria Isaías 61:10 .
+
+9. Tendo aprendido estas coisas, e tendo plena certeza de que o pão aparente não é pão, embora tenha sabor agradável, mas o Corpo de Cristo; e que o vinho aparente não é vinho, embora o gosto assim o queira, mas o Sangue de Cristo; e isso Davi cantou antigamente, dizendo: E o pão fortalece o coração do homem, para fazer seu rosto brilhar com óleo, fortalecer seu coração, participando dele como espiritual, e fazer brilhar o rosto de sua alma. E assim, tendo-o revelado com uma consciência pura, você pode refletir como um espelho a glória do Senhor 2 Coríntios 3:18, e proceder de glória em glória, em Cristo Jesus nosso Senhor: - A quem seja honra, e poder, e glória, para todo o sempre. Amém.
+
+CONTACTE-NOS | ANUNCIE COM NOVO ADVENTO
+
+
+
+## # Quinta Catequese Mistagógica (Sobre a Divina Liturgia e a Oração do Senhor)
+
+
+(Sobre os Mistérios. V.)
+
+Sobre a Sagrada Liturgia e a Comunhão.
+
+1 Pedro 2:1
+
+Portanto, afaste-se de toda imundície, e de toda astúcia, e de maledicência, etc.
+
+1. Pela benignidade de Deus, vocês ouviram o suficiente em nossas reuniões anteriores sobre o Batismo e o Crisma, e a participação no Corpo e Sangue de Cristo; e agora é necessário passar ao que vem a seguir, ou seja, hoje colocar a coroa no edifício espiritual da sua edificação.
+
+2. Vocês viram então o Diácono que dá água para o sacerdote se lavar, e os Presbíteros que ficam ao redor do altar de Deus. He gave it not at all because of bodily defilement; não é isso; pois a princípio não entramos na Igreja com corpos contaminados. Mas lavar as mãos é um símbolo de que você deve estar limpo de todas as ações pecaminosas e ilegais; pois como as mãos são um símbolo de ação, ao lavá-las, é evidente que representamos a pureza e a irrepreensibilidade de nossa conduta. Você não ouviu o abençoado Davi abrindo este mesmo mistério e dizendo: Lavarei minhas mãos na inocência e assim cercarei o Teu Altar, ó Senhor? A lavagem das mãos, portanto, é um símbolo de imunidade ao pecado.
+
+3. Then the Deacon cries aloud, Receive ye one another; e vamos nos beijar. Não pense que esse beijo tem o mesmo caráter daqueles dados em público por amigos comuns. Não é assim: mas este beijo mistura as almas umas com as outras e corteja para elas o perdão total. O beijo, portanto, é o sinal de que nossas almas estão mescladas e bane toda lembrança de erros. Por esta razão, Cristo disse: Se você estiver oferecendo sua oferta no altar, e ali se lembrar de que seu irmão tem alguma coisa contra o tempo, deixe aí sua oferta sobre o altar e siga seu caminho; primeiro reconcilie-se com seu irmão e depois venha e ofereça seu presente. O beijo, portanto, é reconciliação, e por esta razão santo: como o bem-aventurado Paulo clamou em algum lugar, dizendo: Saudai-vos uns aos outros com um beijo santo 1 Coríntios 16:20; e Pedro, com um beijo de caridade 1 Pedro 5:14 .
+
+4. Depois disso, o sacerdote clama em voz alta: Elevai os vossos corações. Pois realmente deveríamos, naquela hora mais terrível, ter o coração no alto com Deus, e não embaixo, pensando na terra e nas coisas terrenas. Com efeito, portanto, o sacerdote ordena a todos naquela hora que abandonem todos os cuidados desta vida, ou ansiedades domésticas, e tenham o coração no céu com o Deus misericordioso. Então respondeis: Nós os elevamos ao Senhor: concordando com isso, por vossa confissão. Mas não venha aqui ninguém que possa dizer com a boca: Elevamos nossos corações ao Senhor, mas em seus pensamentos tenha sua mente preocupada com os cuidados desta vida. Em todos os momentos, antes, Deus deveria estar em nossa memória, mas se isso for impossível devido à enfermidade humana, naquela hora, acima de tudo, este deve ser o nosso esforço sincero.
+
+5. Então o sacerdote diz: Demos graças ao Senhor. Pois em verdade somos obrigados a dar graças por Ele nos ter chamado, indignos como éramos, para tão grande graça; que Ele nos reconciliou quando éramos Seus inimigos; que Ele nos concedeu o Espírito de adoção. Então dizeis: É justo e justo; pois, ao dar graças, fazemos uma coisa digna e certa; mas Ele não agiu certo, mas mais do que certo, ao nos fazer bem e nos considerar dignos de tão grandes benefícios.
+
+6. Depois disso, mencionamos o céu, a terra e o mar; do sol e da lua; das estrelas e de toda a criação, racional e irracional, visível e invisível; de Anjos, Arcanjos, Virtudes, Domínios, Principados, Potestades, Tronos; dos Querubins com muitas faces: na verdade repetindo aquele chamado de Davi Engrandecei ao Senhor comigo. Fazemos menção também dos Serafins, a quem Isaías no Espírito Santo viu em pé ao redor do trono de Deus, e com duas de suas asas velando seu rosto, e com dois pés, enquanto com dois eles voaram, clamando Santo, Santo, Santo, é o Senhor de Sabaoth. Isaías 6:2-3 A razão de recitarmos esta confissão de Deus, que nos foi entregue pelos Serafins, é esta: para que possamos ser participantes das hostes do mundo superior em seu Hino de louvor.
+
+7. Então, tendo-nos santificado por estes Hinos espirituais, suplicamos ao Deus misericordioso que envie Seu Espírito Santo sobre os dons que estão diante Dele; para que Ele possa fazer do Pão o Corpo de Cristo, e do Vinho o Sangue de Cristo; pois tudo o que o Espírito Santo tocou certamente será santificado e mudado.
+
+8. Então, depois de concluído o sacrifício espiritual, o serviço incruento, sobre esse sacrifício de propiciação suplicamos a Deus pela paz comum das Igrejas, pelo bem-estar do mundo; para reis; para soldados e aliados; para os doentes; para os aflitos; e, numa palavra, por todos os que necessitam de socorro, todos rezamos e oferecemos este sacrifício.
+
+9. Depois comemoramos também aqueles que adormeceram antes de nós, primeiro Patriarcas, Profetas, Apóstolos, Mártires, que em suas orações e intercessões Deus recebeu nossa petição. Então, também em nome dos Santos Padres e Bispos que adormeceram antes de nós, e numa palavra de todos os que nos últimos anos adormeceram entre nós, acreditando que será um benefício muito grande para as almas, por quem a súplica é apresentada, enquanto aquele santo e terrível sacrifício é apresentado.
+
+10. E desejo persuadi-lo com uma ilustração. Pois eu sei que muitos dizem: que aproveita uma alma que parte deste mundo com pecados ou sem pecados, se isso for comemorado na oração? Pois se um rei banisse alguns que o ofenderam, e então aqueles que pertencem a eles tecessem uma coroa e a oferecessem a ele em nome daqueles que estão sob punição, ele não concederia uma remissão de suas penas? Da mesma forma, nós, quando oferecemos a Ele nossas súplicas por aqueles que adormeceram, embora sejam pecadores, não tecemos nenhuma coroa, mas oferecemos Cristo sacrificado por nossos pecados, propiciando nosso Deus misericordioso por eles e por nós mesmos.
+
+11. Então, depois destas coisas, dizemos aquela Oração que o Salvador fez aos Seus próprios discípulos, com uma consciência pura, intitulando Deus nosso Pai, e dizendo: Pai Nosso, que estás nos céus. Ó suprema benevolência de Deus! Àqueles que se revoltaram contra Ele e estavam no extremo da miséria, Ele concedeu um perdão tão completo das más ações e uma participação tão grande da graça, que eles deveriam até chamá-lo de Pai. Pai nosso, que estás nos céus; e eles também são um céu que carrega a imagem do celestial 1 Coríntios 15:49, em quem está Deus, habitando e andando neles 2 Coríntios 6:16 .
+
+12. Santificado seja o seu nome. O Nome de Deus é santo por natureza, quer o digamos ou não; mas visto que às vezes é profanado entre os pecadores, de acordo com as palavras: Através de ti meu nome é continuamente blasfemado entre os gentios, oramos para que em nós o nome de Deus seja santificado; não que venha a ser santo por não ser santo, mas porque se torna santo em nós, quando somos santificados e fazemos coisas dignas de santidade.
+
+13. Venha o seu reino. Uma alma pura pode dizer com ousadia: Venha o teu reino; pois aquele que ouviu Paulo dizer: Não reine, pois, o pecado no teu corpo mortal Romanos 6:12, e se purificou em obras, pensamentos e palavras, dirá a Deus: Venha o teu reino.
+
+14. Seja feita a tua vontade como no céu, assim na terra. Os anjos divinos e abençoados de Deus fazem a vontade de Deus, como Davi disse no Salmo: Bendito seja o Senhor, todos vocês, anjos Seus, poderosos em força, que fazem a Sua vontade. Então, na verdade, você quer dizer isso com sua oração, como nos Anjos, a Tua vontade é feita, assim também seja feita na terra em mim, ó Senhor.
+
+15. Dá-nos hoje o nosso pão substancial. Este pão comum não é pão substancial, mas este Pão Santo é substancial, isto é, designado para a substância da alma. Pois este Pão não vai para a barriga e é lançado no rascunho Mateus 15:17, mas é distribuído por todo o seu sistema para o benefício do corpo e da alma. Mas por este dia, ele quer dizer, cada dia, como também Paulo disse, Embora seja chamado hoje Hebreus 3:15.
+
+16. E perdoa-nos as nossas dívidas, assim como nós perdoamos aos nossos devedores. Pois temos muitos pecados. Pois ofendemos tanto em palavras como em pensamentos, e fazemos muitas coisas dignas de condenação; e se dissermos que não temos pecado, mentimos, como diz João. E fazemos uma aliança com Deus, suplicando-Lhe que nos perdoe os nossos pecados, assim como perdoamos as dívidas do nosso próximo. Considerando então o que recebemos e o que recebemos em troca, não adiemos nem demoremos em perdoar uns aos outros. As ofensas cometidas contra nós são leves e triviais e facilmente resolvidas; mas aqueles que cometemos contra Deus são grandes e precisam de misericórdia como a Sua única. Tome cuidado, portanto, para que os pecados leves e triviais contra você não excluam para si mesmo o perdão de Deus por seus pecados muito graves.
+
+17. E não nos deixe cair em tentação, ó Senhor. É então isso que o Senhor nos ensina a orar, para que não sejamos tentados de forma alguma? Como então se diz em outro lugar que um homem não tentado é um homem não provado; e novamente, meus irmãos, considerem toda alegria quando vocês caem em várias tentações Tiago 1:2? Mas será que entrar em tentação significa ser dominado pela tentação? Pois a tentação é, por assim dizer, como uma torrente de inverno difícil de atravessar. Aqueles, portanto, que não se deixam dominar pelas tentações, passam, mostrando-se excelentes nadadores, e não se deixando levar por elas; enquanto aqueles que não o são, entram neles e ficam sobrecarregados. Como por exemplo, Judas, tendo caído na tentação do amor ao dinheiro, não nadou através dele, mas foi dominado e estrangulado tanto no corpo como no espírito. Pedro entrou na tentação da negação; mas, tendo entrado, ele não foi dominado por isso, mas nadou virilmente através dele e foi libertado da tentação. Ouça novamente, em outro lugar, um grupo de santos ilesos, dando graças pela libertação da tentação: Tu, ó Deus, nos provaste; Você nos provou pelo fogo como se prova a prata. Você nos trouxe para a rede; Você colocou aflições sobre nossos lombos. Você fez com que os homens passassem por cima de nossas cabeças; passamos pelo fogo e pela água; e você nos trouxe para um lugar de descanso. Você os vê falando com ousadia a respeito de terem passado e não terem sido traspassados. Mas você nos trouxe para um lugar de descanso; agora, a entrada deles em um lugar de descanso é a libertação da tentação.
+
+18. Mas livra-nos do mal. Se Não nos deixes cair em tentação implicasse não sermos tentados de forma alguma, Ele não teria dito: Mas livra-nos do mal. Agora o mal é nosso adversário, o diabo, de quem oramos para sermos libertos. Então, depois de completar a oração, você diz Amém; por este Amém, que significa Assim seja, colocando seu selo nas petições da oração divinamente ensinada.
+
+19. Depois disto o sacerdote diz: Coisas santas aos homens santos. Santos são os dons apresentados, tendo recebido a visitação do Espírito Santo; santos também sois vós, tendo sido considerados dignos do Espírito Santo; as coisas santas correspondem, portanto, às pessoas santas. Então você diz: Um é Santo, Um é o Senhor, Jesus Cristo. Pois Um é verdadeiramente santo, por natureza santo; nós também somos santos, mas não por natureza, apenas pela participação, pela disciplina e pela oração.
+
+20. Depois disso, vocês ouvirão o cantador convidando-os com uma melodia sagrada para a comunhão dos Santos Mistérios, e dizendo: Ó, provai e vede que o Senhor é bom. Não confie o julgamento ao seu paladar corporal, não, mas à fé inabalável; pois aqueles que provam são convidados a provar, não o pão e o vinho, mas o antitípico Corpo e Sangue de Cristo.
+
+21. Ao se aproximar, portanto, não venha com os pulsos estendidos ou os dedos abertos; mas faça da sua mão esquerda um trono para a direita, como para aquele que receberá um Rei. E tendo aberto a palma da mão, receba o Corpo de Cristo, dizendo sobre ele: Amém. Então, depois de ter cuidadosamente santificado seus olhos pelo toque do Santo Corpo, participe dele; prestando atenção para que você não perca nenhuma parte dele; pois tudo o que você perde é evidentemente uma perda para você, por assim dizer, de um de seus próprios membros. Pois diga-me, se alguém lhe desse grãos de ouro, você não os guardaria com todo cuidado, estando atento para não perder nenhum deles e sofrer perdas? Você não vigiará então com muito mais cuidado, para que não caia de você uma migalha daquilo que é mais precioso do que ouro e pedras preciosas?
+
+22. Então, depois de ter participado do Corpo de Cristo, aproxime-se também do Cálice do Seu Sangue; não estendendo as mãos, mas curvando-se e dizendo com ar de adoração e reverência: Amém, santifique-se participando também do Sangue de Cristo. E enquanto a umidade ainda estiver em seus lábios, toque-a com as mãos e santifique seus olhos, testa e outros órgãos dos sentidos. Então espere pela oração e dê graças a Deus, que o considerou digno de tão grandes mistérios.
+
+23. Mantenham essas tradições imaculadas e mantenham-se livres de ofensas. Não se separem da Comunhão; não se privem, através da poluição dos pecados, destes Mistérios Santos e Espirituais. E o Deus da paz vos santifique em tudo; e que o vosso espírito, alma e corpo sejam preservados inteiros e sem culpa na vinda de nosso Senhor Jesus Cristo 1 Tessalonicenses 5:23: - A quem seja glória, honra e poder, com o Pai e o Espírito Santo, agora e sempre, e no mundo sem fim. Amém.
+
+CONTACTE-NOS | ANUNCIE COM NOVO ADVENTO
+

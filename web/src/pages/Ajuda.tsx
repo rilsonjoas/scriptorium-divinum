@@ -102,11 +102,11 @@ export default function Ajuda({ embutida = false }: { embutida?: boolean }) {
                       <span>Ideal para impressão e leitura offline</span>
                     </div>
                     <div className="flex items-center gap-2">
-                      <Badge variant="secondary" className="bg-blue-100 text-blue-800">EPUB</Badge>
+                      <Badge variant="secondary" className="bg-library-gold/10 text-library-bronze-foreground border border-library-bronze/40">EPUB</Badge>
                       <span>Para e-readers e aplicativos móveis</span>
                     </div>
                     <div className="flex items-center gap-2">
-                      <Badge variant="secondary" className="bg-green-100 text-green-800">MOBI</Badge>
+                      <Badge variant="secondary" className="bg-library-gold/10 text-library-bronze-foreground border border-library-bronze/40">MOBI</Badge>
                       <span>Compatível com dispositivos Kindle</span>
                     </div>
                     <div className="flex items-center gap-2">

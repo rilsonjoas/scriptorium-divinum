@@ -115,7 +115,16 @@ export async function listBooks(filters: Omit<ListBooksQuery, 'page' | 'limit'>)
   }
 
   if (filters.category) {
-    conditions.push(sql`${books.categories} @> ARRAY[${filters.category}]::text[]`);
+    conditions.push(
+      sql`(${books.categories} @> ARRAY[${filters.category}]::text[] OR EXISTS (
+        SELECT 1 FROM unnest(${books.categories}) cat
+        LEFT JOIN categories c ON (c.name = cat OR c.slug = cat)
+        WHERE cat = ${filters.category}
+           OR c.slug = ${filters.category}
+           OR c.name = ${filters.category}
+           OR lower(cat) = lower(${filters.category})
+      ))`
+    );
   }
 
   if (filters.tag) {

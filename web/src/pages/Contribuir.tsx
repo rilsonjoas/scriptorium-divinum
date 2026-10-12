@@ -63,7 +63,7 @@ export default function Contribuir({ embutida = false }: { embutida?: boolean })
                   </div>
                   <div>
                     <CardTitle className="font-display text-library-wood-foreground">Sugerir Obras</CardTitle>
-                    <Badge variant="secondary" className="bg-green-100 text-green-800 text-xs">Fácil</Badge>
+                    <Badge variant="secondary" className="bg-library-gold/10 text-library-bronze-foreground border border-library-bronze/40 text-xs">Fácil</Badge>
                   </div>
                 </div>
                 <CardDescription className="font-body text-library-bronze-foreground">
@@ -74,15 +74,15 @@ export default function Contribuir({ embutida = false }: { embutida?: boolean })
               <CardContent>
                 <ul className="space-y-2 font-body text-library-bronze-foreground text-sm mb-4">
                   <li className="flex items-start gap-2">
-                    <CheckCircle className="h-4 w-4 text-green-600 mt-0.5 flex-shrink-0" />
+                    <CheckCircle className="h-4 w-4 text-library-bronze-foreground mt-0.5 flex-shrink-0" />
                     <span>Obras em domínio público verificável</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle className="h-4 w-4 text-green-600 mt-0.5 flex-shrink-0" />
+                    <CheckCircle className="h-4 w-4 text-library-bronze-foreground mt-0.5 flex-shrink-0" />
                     <span>Traduções antigas também em domínio público</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle className="h-4 w-4 text-green-600 mt-0.5 flex-shrink-0" />
+                    <CheckCircle className="h-4 w-4 text-library-bronze-foreground mt-0.5 flex-shrink-0" />
                     <span>Fonte conhecida (Gutenberg, Wikisource, Internet Archive...)</span>
                   </li>
                 </ul>
@@ -104,7 +104,7 @@ export default function Contribuir({ embutida = false }: { embutida?: boolean })
                   </div>
                   <div>
                     <CardTitle className="font-display text-library-wood-foreground">Corrigir Erros</CardTitle>
-                    <Badge variant="secondary" className="bg-green-100 text-green-800 text-xs">Fácil</Badge>
+                    <Badge variant="secondary" className="bg-library-gold/10 text-library-bronze-foreground border border-library-bronze/40 text-xs">Fácil</Badge>
                   </div>
                 </div>
                 <CardDescription className="font-body text-library-bronze-foreground">
@@ -115,15 +115,15 @@ export default function Contribuir({ embutida = false }: { embutida?: boolean })
               <CardContent>
                 <ul className="space-y-2 font-body text-library-bronze-foreground text-sm mb-4">
                   <li className="flex items-start gap-2">
-                    <CheckCircle className="h-4 w-4 text-green-600 mt-0.5 flex-shrink-0" />
+                    <CheckCircle className="h-4 w-4 text-library-bronze-foreground mt-0.5 flex-shrink-0" />
                     <span>Erros de digitação ou OCR nos textos</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle className="h-4 w-4 text-green-600 mt-0.5 flex-shrink-0" />
+                    <CheckCircle className="h-4 w-4 text-library-bronze-foreground mt-0.5 flex-shrink-0" />
                     <span>Links de download quebrados</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle className="h-4 w-4 text-green-600 mt-0.5 flex-shrink-0" />
+                    <CheckCircle className="h-4 w-4 text-library-bronze-foreground mt-0.5 flex-shrink-0" />
                     <span>Problemas visuais ou de usabilidade</span>
                   </li>
                 </ul>
@@ -145,7 +145,7 @@ export default function Contribuir({ embutida = false }: { embutida?: boolean })
                   </div>
                   <div>
                     <CardTitle className="font-display text-library-wood-foreground">Divulgar</CardTitle>
-                    <Badge variant="secondary" className="bg-yellow-100 text-yellow-800 text-xs">Simples</Badge>
+                    <Badge variant="secondary" className="bg-library-gold/20 text-library-wood-foreground border border-library-bronze/40 text-xs">Simples</Badge>
                   </div>
                 </div>
                 <CardDescription className="font-body text-library-bronze-foreground">
@@ -156,15 +156,15 @@ export default function Contribuir({ embutida = false }: { embutida?: boolean })
               <CardContent>
                 <ul className="space-y-2 font-body text-library-bronze-foreground text-sm mb-4">
                   <li className="flex items-start gap-2">
-                    <CheckCircle className="h-4 w-4 text-green-600 mt-0.5 flex-shrink-0" />
+                    <CheckCircle className="h-4 w-4 text-library-bronze-foreground mt-0.5 flex-shrink-0" />
                     <span>Grupos de estudo e seminários</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle className="h-4 w-4 text-green-600 mt-0.5 flex-shrink-0" />
+                    <CheckCircle className="h-4 w-4 text-library-bronze-foreground mt-0.5 flex-shrink-0" />
                     <span>Redes sociais e comunidades de leitura</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle className="h-4 w-4 text-green-600 mt-0.5 flex-shrink-0" />
+                    <CheckCircle className="h-4 w-4 text-library-bronze-foreground mt-0.5 flex-shrink-0" />
                     <span>Citação como fonte em trabalhos acadêmicos</span>
                   </li>
                 </ul>
@@ -193,7 +193,7 @@ export default function Contribuir({ embutida = false }: { embutida?: boolean })
                   </div>
                   <div>
                     <CardTitle className="font-display text-library-wood-foreground">Código</CardTitle>
-                    <Badge variant="secondary" className="bg-orange-100 text-orange-800 text-xs">Avançado</Badge>
+                    <Badge variant="secondary" className="bg-library-gold/10 text-library-wood-foreground border border-library-bronze/40 text-xs">Avançado</Badge>
                   </div>
                 </div>
                 <CardDescription className="font-body text-library-bronze-foreground">
@@ -204,15 +204,15 @@ export default function Contribuir({ embutida = false }: { embutida?: boolean })
               <CardContent>
                 <ul className="space-y-2 font-body text-library-bronze-foreground text-sm mb-4">
                   <li className="flex items-start gap-2">
-                    <CheckCircle className="h-4 w-4 text-green-600 mt-0.5 flex-shrink-0" />
+                    <CheckCircle className="h-4 w-4 text-library-bronze-foreground mt-0.5 flex-shrink-0" />
                     <span>React + Vite no frontend, Fastify + Postgres na API</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle className="h-4 w-4 text-green-600 mt-0.5 flex-shrink-0" />
+                    <CheckCircle className="h-4 w-4 text-library-bronze-foreground mt-0.5 flex-shrink-0" />
                     <span>Issues abertas para primeiro contato</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle className="h-4 w-4 text-green-600 mt-0.5 flex-shrink-0" />
+                    <CheckCircle className="h-4 w-4 text-library-bronze-foreground mt-0.5 flex-shrink-0" />
                     <span>Licença MIT</span>
                   </li>
                 </ul>
@@ -244,9 +244,9 @@ export default function Contribuir({ embutida = false }: { embutida?: boolean })
               </CardContent>
             </Card>
 
-            <Card className="border-blue-300 bg-blue-50">
+            <Card className="border-library-bronze bg-library-parchment-surface">
               <CardContent className="p-4">
-                <h4 className="font-display font-semibold text-blue-800 mb-2">Reforma</h4>
+                <h4 className="font-display font-semibold text-library-wood-foreground mb-2">Reforma</h4>
                 <p className="font-body text-blue-700 text-sm mb-3">
                   Obras dos reformadores protestantes em traduções PT-BR livres
                 </p>
@@ -285,15 +285,15 @@ export default function Contribuir({ embutida = false }: { embutida?: boolean })
                   <h4 className="font-display font-semibold text-library-wood-foreground mb-3">Critérios Legais:</h4>
                   <ul className="space-y-2 font-body text-library-bronze-foreground text-sm">
                     <li className="flex items-start gap-2">
-                      <CheckCircle className="h-4 w-4 text-green-600 mt-0.5 flex-shrink-0" />
+                      <CheckCircle className="h-4 w-4 text-library-bronze-foreground mt-0.5 flex-shrink-0" />
                       <span>Autor falecido há mais de 70 anos (Lei 9.610/98)</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <CheckCircle className="h-4 w-4 text-green-600 mt-0.5 flex-shrink-0" />
+                      <CheckCircle className="h-4 w-4 text-library-bronze-foreground mt-0.5 flex-shrink-0" />
                       <span>Tradutor também falecido há mais de 70 anos</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <CheckCircle className="h-4 w-4 text-green-600 mt-0.5 flex-shrink-0" />
+                      <CheckCircle className="h-4 w-4 text-library-bronze-foreground mt-0.5 flex-shrink-0" />
                       <span>Ou licença aberta com atribuição</span>
                     </li>
                   </ul>
@@ -302,15 +302,15 @@ export default function Contribuir({ embutida = false }: { embutida?: boolean })
                   <h4 className="font-display font-semibold text-library-wood-foreground mb-3">Critérios Editoriais:</h4>
                   <ul className="space-y-2 font-body text-library-bronze-foreground text-sm">
                     <li className="flex items-start gap-2">
-                      <CheckCircle className="h-4 w-4 text-green-600 mt-0.5 flex-shrink-0" />
+                      <CheckCircle className="h-4 w-4 text-library-bronze-foreground mt-0.5 flex-shrink-0" />
                       <span>Relevância teológica histórica</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <CheckCircle className="h-4 w-4 text-green-600 mt-0.5 flex-shrink-0" />
+                      <CheckCircle className="h-4 w-4 text-library-bronze-foreground mt-0.5 flex-shrink-0" />
                       <span>Texto completo e íntegro</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <CheckCircle className="h-4 w-4 text-green-600 mt-0.5 flex-shrink-0" />
+                      <CheckCircle className="h-4 w-4 text-library-bronze-foreground mt-0.5 flex-shrink-0" />
                       <span>Fonte verificável (não inventada)</span>
                     </li>
                   </ul>

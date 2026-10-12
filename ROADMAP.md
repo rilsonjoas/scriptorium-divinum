@@ -26,7 +26,7 @@ executar sem decidir nada) · **🟡 decisão sua** (preciso de escolha) ·
 | 7 | ~~Auditoria de acessibilidade~~ — ✅ `8ae5f79`; axe-core no CI, 10/10 | 🟢 | **entregue** |
 | 8 | ~~Logo/favicon~~ — ✅ **já estava feito** (`52fc4f8`); o item é que estava velho | — | **fechado** |
 | 9 | ~~Consolidar 4 páginas em `/sobre`~~ — ✅ `0250a3c`, redirects + âncoras + Pix + e-mail | 🟢 | **entregue** |
-| 10 | Tradução de livros com IA | 🔮 | **futuro** (você: "não tenho como agora") |
+| 10 | Tradução de livros com IA | 🟢 | **em andamento** (P12 entregue: schema Drizzle, banner no leitor e lote de clássicos em PD) |
 | 11 | ~~7 obras sem texto~~ — ✅ `d8b0cca`; aviso + link p/ edição original, funcionando | 🟢 | **entregue** |
 | 12 | Planos de leitura + newsletter | 🔮 | **futuro** |
 | 13 | Comentários bíblicos por capítulo (integração c/ Lecionário) | 🔮 | **futuro** |

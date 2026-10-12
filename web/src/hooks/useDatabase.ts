@@ -33,6 +33,7 @@ export const useAuthorWithBooks = (slug: string) => {
 export const useBooks = (options?: {
   featured?: boolean
   limit?: number
+  category?: string
   categories?: string[]
   includeUnavailable?: boolean
 }) => {

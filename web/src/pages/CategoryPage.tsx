@@ -1,8 +1,7 @@
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import { Layout } from '@/components/Layout';
 import { useBooks, useCategories } from '@/hooks/useDatabase';
-import { Book } from '@/types';
-import { ArrowLeft, BookOpen, Layers, Compass, Loader2 } from 'lucide-react';
+import { ArrowLeft, BookOpen, Loader2 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { usePageTitle } from '@/hooks/usePageTitle';
 import { SectionLabel } from '@/components/SectionLabel';
@@ -12,22 +11,20 @@ export default function CategoryPage() {
   const { categorySlug } = useParams<{ categorySlug: string }>();
   const navigate = useNavigate();
   const { data: categories, isLoading: isCatLoading } = useCategories();
-  const { data: books, isLoading: isBooksLoading } = useBooks();
 
   const category = categories?.find((c) => c.slug === categorySlug);
   const catName = category?.name || (categorySlug ? categorySlug.replace(/-/g, ' ') : 'Categoria');
 
   usePageTitle(`${catName} — Estante Canônica`);
 
-  // Filter books that match this category name
-  const booksInCategory = (books?.items || []).filter((b) =>
-    b.categories?.some(
-      (c) =>
-        c.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]/g, '-') ===
-        categorySlug || c === catName
-    )
-  );
+  // Buscar todas as obras da categoria ou carregar acervo completo com limite amplo (200)
+  const categoryFilter = category?.name || categorySlug;
+  const { data: booksData, isLoading: isBooksLoading } = useBooks({
+    category: categoryFilter,
+    limit: 200,
+  });
 
+  const booksInCategory = booksData?.items || [];
   const isLoading = isCatLoading || isBooksLoading;
 
   return (
@@ -47,7 +44,7 @@ export default function CategoryPage() {
         </div>
 
         {/* Category Hero Header */}
-        <div className="bg-card border border-library-bronze/70 rounded-2xl p-6 sm:p-10 mb-10 shadow-book parchment-bg relative overflow-hidden">
+        <div className="bg-card border border-library-bronze/70 rounded-lg p-6 sm:p-10 mb-10 shadow-book parchment-bg relative overflow-hidden">
           <div className="max-w-3xl">
             <SectionLabel tone="gold" className="mb-3">
               Estante Canônica
