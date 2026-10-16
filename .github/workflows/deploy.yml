@@ -25,6 +25,11 @@ jobs:
           username: ${{ secrets.VPS_USER }}
           key: ${{ secrets.DEPLOY_SSH_KEY }}
           script: |
+            # Achado 2026-10-16: sem `set -e` o script remoto segue depois de
+            # um erro e o passo termina `success` com o container na imagem
+            # antiga (visto no Gerador). Qualquer comando que falhe aborta o
+            # deploy; a limpeza no fim tem tratamento próprio (retry e aviso).
+            set -e
             # Guarda de disco (INCIDENTES.md no infra, 2026-08-23): aborta
             # antes de piorar se a raiz estiver >=90%.
             USO=$(df --output=pcent / | tail -1 | tr -dc '0-9')
@@ -45,18 +50,29 @@ jobs:
             # atrás do código, e nada no pipeline acusou.
             # Se a migration falhar, o deploy falha. Schema atrás do código
             # é pior que deploy vermelho.
-            if docker ps --format '{{.Names}}' | grep -qx 'scriptorium-api'; then
-              sleep 3
-              for i in $(seq 1 5); do
-                if docker exec scriptorium-api node dist/db/migrate.js; then
-                  break
-                fi
-                echo "Tentativa $i falhou ao rodar migrate, aguardando 3s..."
-                sleep 3
-              done
-            else
-              echo "⚠️ Container scriptorium-api não encontrado — migration NAO rodada."
+            # Achado 2026-10-16: o laço abaixo tentava 5 vezes e, se todas
+            # falhassem, o deploy seguia "verde" (o contrário do que o parágrafo
+            # acima promete). Agora esgotar as tentativas, ou não achar o
+            # container, derruba o deploy. O migrate sai com 1 se algum seed
+            # falhar (server/src/db/migrate.ts).
+            if ! docker ps --format '{{.Names}}' | grep -qx 'scriptorium-api'; then
+              echo "❌ Container scriptorium-api não encontrado — migration NÃO rodada."
               echo "   Rode no VPS: docker exec scriptorium-api node dist/db/migrate.js"
+              exit 1
+            fi
+            sleep 3
+            MIGRADO=0
+            for i in $(seq 1 5); do
+              if docker exec scriptorium-api node dist/db/migrate.js; then
+                MIGRADO=1
+                break
+              fi
+              echo "Tentativa $i falhou ao rodar migrate, aguardando 3s..."
+              sleep 3
+            done
+            if [ "$MIGRADO" -ne 1 ]; then
+              echo "❌ migrate falhou nas 5 tentativas. Schema/catálogo ficou atrás do código."
+              exit 1
             fi
             # Prune total pós-deploy (INCIDENTES.md 2026-08-23): sem filtro de
             # tempo — filtros semanais não pegam rajadas; e o prune simples (-f)
