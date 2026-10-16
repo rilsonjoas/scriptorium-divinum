@@ -104,6 +104,21 @@ const LivroDetalhes = () => {
                           ~{book.readingMinutes} min de leitura
                         </p>
                       )}
+                      {book.relatedEditionSlug && (
+                        <Button
+                          asChild
+                          variant="outline"
+                          size="default"
+                          className="w-full border-library-gold/50 text-library-wood hover:bg-library-gold/10 font-body font-medium"
+                        >
+                          <Link to={`/livros/${book.relatedEditionSlug}`}>
+                            <Languages className="mr-2 h-4 w-4 text-library-gold" />
+                            {book.language === 'Inglês'
+                              ? 'Ver Edição em Português (pt-BR)'
+                              : 'Ver Edição Original em Inglês (EN)'}
+                          </Link>
+                        </Button>
+                      )}
                     </div>
                   )}
 

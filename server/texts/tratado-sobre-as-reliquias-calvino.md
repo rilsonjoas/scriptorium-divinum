@@ -1,40 +1,185 @@
 ---
 title: "Tratado sobre as Relíquias"
-author: "João Calvino"
-category: "Teologia Reformada / Polêmica Pastoral"
-language: "pt-BR"
-status: "completo"
+titulo_original: "Advertissement tres-utile du grand profit qui reviendroit à la Chrestienté, s'il se faisoit inventaire de tous les corps saincts et reliques"
+autor: "[[João Calvino]]"
+epoca: "Reforma Protestante (1543)"
+lingua_original: "Francês"
+categoria: "Teologia Reformada / Polêmica Pastoral e Crítica Eclesial"
+tags:
+  - reforma-protestante
+  - joao-calvino
+  - reliquias
+  - polemica-pastoral
 ---
+
+# Tratado sobre as Relíquias
+## João Calvino (1543)
+
+### Prólogo Histórico e Teológico
+Escrito no auge das controvérsias do século XVI em Genebra, o célebre *Inventário das Relíquias* de Calvino examina criticamente a proliferação das relíquias medievais na Europa, confrontando a superstição popular com o culto puramente espiritual exigido pelo Evangelho de Jesus Cristo.
 
 # Tratado sobre as Relíquias
 ### João Calvino (1543)
 
-Amherst, N.Y.: Prometheus Books, 2008
+Amherst, NY: Prometheus Books, 2008
 
-ccel
-calvin
-treatise_relics
-treatise_relics
-1.0
+cel
+Calvino
+tratado_relíquias
+tratado_relíquias
+1,0
 
-A Treatise on Relics
+Um Tratado sobre Relíquias
 
-Calvin, John
-John Calvin
+Calvino, João
+João Calvino
 calvin_john
 
-Grand Rapids, MI: Christian Classics Ethereal Library
-All; Proofed;
-BX2315 .C313 2008
-Christian Denominations
-Roman Catholic Church
-Relics. Shrines. Pilgrimages. Processions
+Grand Rapids, MI: Biblioteca Etérea de Clássicos Cristãos
+Todos; À prova;
+BX2315.C313 2008
+Denominações Cristãs
+Igreja Católica Romana
+Relíquias. Santuários. Peregrinações. Procissões
 
-Text.Monograph
+Texto.Monografia
 /ccel/calvin/treatise_relics.html
 
-eng
-Public Domain
+inglês
+Domínio Público
+
+Um Tratado sobre Relíquias
+Por
+João Calvino
+Traduzido do original francês
+Com um
+Dissertação Introdutória
+Sobre as imagens milagrosas, bem como outras superstições, das igrejas católica romana e russo-grega.
+No final
+Conde Valerian Krasinski,
+Autor de A História Religiosa das Nações Eslavas, etc.
+Segunda edição.
+Edimburgo:
+Johnstone, Hunter & Co.
+1870
+
+Prefácio.
+
+O Tratado das Relíquias do grande Reformador de Genebra é
+não é tão conhecido como merece, embora na época
+desde a sua publicação, gozou de uma popularidade considerável.
+A tradução inglesa deste Tratado foi publicada sob o seguinte
+título: - Um tratado muito lucrativo, declarando que grande lucro pode advir
+para toda a cristandade se houvesse um registro feito dos corpos de todos os santos
+e outras relíquias que estão tanto na Itália como na França, Holanda, Espanha,
+e outros reinos e reinos. Traduzido do francês para o inglês
+por J. Wythers, Londres, 1561. 16 meses. Eu fiz minha tradução
+do original francês, reimpresso em Paris em 1822.
+A provável razão disso é: o absurdo das relíquias
+descrito no Tratado tem desde a Reforma gradualmente
+tornam-se tão óbvios que seus expositores ganham tão pouco
+barulho possível sobre seus produtos milagrosos, cujas virtudes
+não são mais acreditados, exceto pelos mais ignorantes
+parte da população dos países onde a educação
+das classes inferiores é negligenciada. E, de fato, não só
+protestantes, mas muitos católicos romanos esclarecidos acreditavam
+que todos os milagres de relíquias, imagens e outros
+superstições com as quais o Cristianismo foi infectado durante
+
+os tempos da ignorância medieval chegariam em breve, pelo
+progresso do conhecimento, remetido para sempre ao esquecimento
+da idade das trevas, e apenas registrado na história do
+aberrações da mente humana, juntamente com as superstições
+
+do antigo Egito, Grécia e Roma. Infelizmente
+essas esperanças não se concretizaram e ainda são
+permanecendo entre a pia desideria. O católico romano
+reação, que começou há cerca de meio século por
+obras de natureza filosófica, adaptadas às necessidades de
+das classes mais intelectuais da sociedade, encorajado por
+sucesso, gradualmente assumiu uma dimensão cada vez mais material
+tendência, e finalmente começou a se manifestar por
+resultados como a exposição da túnica sagrada em Treves,
+que produziu um grande barulho em toda a Alemanha, é bem conhecido
+que mais de meio milhão de peregrinos foram adorar
+o brasão sagrado de Treves em 1844, e que muitas histórias maravilhosas sobre o
+curas efetuadas por aquela relíquia estavam relacionadas. Muitas dessas histórias não são
+completamente sem fundamento, porque há muitos casos em que a imaginação
+afeta o corpo humano de maneira tão poderosa que causa ou cura
+várias doenças. Era de se esperar, portanto, que os indivíduos que sofrem
+de tais doenças devem ser pelo menos temporariamente aliviados de suas enfermidades
+por uma forte crença nos poderes milagrosos da relíquia. Casos deste tipo
+são sempre notados, enquanto todos aqueles de peregrinação ineficaz nunca são
+
+mencionado. a aparição
+da Virgem em La Salette, a Madonna piscando
+de Rimini e, o que talvez seja mais importante do que tudo,
+a solene instalação das relíquias de Santa Teodósia em
+Amiens; enquanto obras de descrição semelhante à Vida
+de São Francisco de Assis, por M. Chavin de Malan, e o
+Vidas dos Santos Ingleses, que mencionei em
+págs. 113 e 115
+da minha introdução são produzidos por escritores
+de considerável talento e aprendizado. Estes são significativos
+factos e provar, em todo o caso, que, apesar dos progressos
+de intelecto e conhecimento, que é o orgulho de nossa
+século, parece que estamos a regressar rapidamente a um estado de coisas
+semelhante à época em que Calvino escreveu seu Tratado. eu
+portanto, acredito que sua reprodução em um novo inglês
+a tradução não ficará desatualizada.
+
+Por outro lado, o sistema político-religioso de agressão
+
+seguido pela Rússia tomou agora uma posição tão rápida
+desenvolvimento, que os perigos que ameaçam as liberdades
+e a civilização da Europa daquele bairro tornaram-se
+mais iminentes do que aqueles que podem ser apreendidos
+da reação católica romana. Felizmente Inglaterra
+e a França pegaram em armas contra os ímpios
+cruzada proclamada pelo Papa Imperial da Rússia. eu
+penso que o termo ímpio, que utilizo deliberadamente
+nesta ocasião, não é de forma alguma exagerada; porque,
+como podemos designar de outra forma o procedimento adotado
+pelo Czar por excitar o fanatismo religioso do
+Russos, como, por exemplo, a carta do Arcebispo de
+Geórgia, dirigido ao de Moscou e publicado em
+no Diário Oficial de São Petersburgo, afirmando, no
+autoridade do General Russo, Príncipe Bagration Mukhranski,
+que durante um confronto entre os russos
+e os Turcos, que ocorreu recentemente na Ásia, a
+A Santíssima Virgem apareceu no ar e assustou o
+Os turcos a tal ponto que fugiram!
+desta carta foi publicada no Allgemeine Zeitung de
+Augsburgo. eu tenho
+desenvolvi esse assunto no último capítulo da minha Introdução,
+para mostrar aos meus leitores a condição religiosa
+
+do povo russo, porque penso que sem
+é um conhecimento da política agora seguida pelos seus
+O governo não pode ser bem compreendido, ou as suas consequências
+totalmente apreciado.
+
+Edimburgo, maio de 1854.
+
+Prefácio à segunda edição.
+
+A valiosa Dissertação que constitui um documento tão adequado
+comentário sobre o Tratado das Relíquias de João Calvino, foi
+escrito pelo saudoso autor lamentado na véspera do
+Guerra da Crimeia, em 1854. Está esgotado há vários
+anos, mas nestes dias de suposições e reivindicações papistas
+à Infalibilidade, pensou-se que uma nova edição
+seria aceitável e seria útil para direcionar
+atenção às múmias e absurdos enxertados em
+a Verdadeira Fé Cristã, pela Igreja falsa e corrupta
+de Roma.
+
+Edimburgo, janeiro de 1870.
+
+Dissertação Introdutória.
+
+Capítulo I. Origem do Culto de Relíquias e Imagens em
+A Igreja Cristã.
 
 A Treatise on Relics
 By
@@ -51,7 +196,29 @@ Edinburgh:
 Johnstone, Hunter & Co.
 1870
 
-Preface.
+semideuses. Este foi o caso mais particularmente quando
+a igreja começou a ser corrompida por seu compromisso
+com o Paganismo, que tendo sido batizado
+sem ser convertido, rapidamente introduzido no
+Igreja cristã, não apenas muitos dos seus ritos e cerimônias,
+mas mesmo o seu politeísmo, com esta diferença,
+que as divindades da Grécia e de Roma eram
+substituídos por santos cristãos, muitos dos quais receberam
+os cargos de seus predecessores pagãos. Assim, São
+Antônio de Pádua restaura, como Mercúrio, bens roubados; Santo
+Hubert, assim como Diana, é o patrono dos esportistas; São Cosme, como Esculápio,
+o dos médicos, etc. Na verdade, quase todas as profissões e ofícios, bem como
+em todos os lugares, têm seu padroeiro especial, que, como a divindade tutelar de
+os pagãos, recebe honras particulares de seu
+protegidos. A igreja
+no início tolerou esses abusos, como uma medida temporária
+mal, mas depois foi incapaz de remover
+eles; e eles se tornaram tão fortes, especialmente durante
+a ignorância predominante na Idade Média, que
+a igreja acabou por legalizar, através dos seus decretos,
+aquilo para o qual ela não fez nada além de piscar no início. eu
+tentarei dar aos meus leitores um esboço rápido
+da ascensão, progresso e estabelecimento final do
 
 The Treatise on Relics by the great Reformer of Geneva is
 not so generally known as it deserves, though at the time
@@ -74,10 +241,30 @@ Protestants, but many enlightened Roman Catholics believed
 that all the miracles of relics, images, and other
 superstitions with which Christianity were infected during
 
-the times of mediæval ignorance would be soon, by the
-progress of knowledge, consigned for ever to the oblivion
-of the dark ages, and only recorded in the history of the
-aberrations of the human mind, together with the superstitions
+negar a sua fé mesmo pela mera realização de
+um rito aparentemente insignificante do paganismo. Seu
+os perseguidores eram frequentemente afetados ao ver exemplos
+de uma fortaleza heróica, tal como eles admiraram em um
+Scævola ou Regulus, exibido não apenas por homens,
+mas por mulheres e até crianças, e tornou-se
+convertido a uma fé que pudesse inspirar os seus confessores
+com tanta devoção aos seus princípios. Foi
+disse com razão que o sangue dos mártires era a glória
+e a semente da igreja, porque a constância
+dos seus confessores talvez lhe tenha proporcionado mais convertidos
+do que a eloqüência e o aprendizado de seus médicos.
+Era, portanto, muito natural que a memória de
+esses nobres campeões do Cristianismo deveriam ser
+mantidos em grande veneração por seus irmãos na fé.
+Os corpos dos mártires, ou seus restos mortais, foram
+sempre, sempre que possível, comprado de
+seus juízes ou algozes, e decentemente enterrados por
+os cristãos. O dia em que o mártir
+sofrido foi geralmente marcado nos registros de seu
+igreja, para comemorar este evento glorioso
+em seus aniversários. Estas comemorações geralmente
+consistia no elogio do mártir, proferido num
+assembleia da igreja, para edificação dos fiéis,
 
 of ancient Egypt, Greece, and Rome. Unfortunately
 these hopes have not been realised, and are still
@@ -116,7 +303,30 @@ similar to the time when Calvin wrote his Treatise. I
 therefore believe that its reproduction in a new English
 translation will not be out of date.
 
-On the other side, the politico-religious system of aggression
+louvores, as Epístolas de São Paulo, que sofreu o martírio
+sob Nero, mas ele não diz uma palavra
+sobre invocar a ajuda ou intercessão do mártir,
+quem foi o fundador de sua igreja, e qual seria
+teria sido mais adequado naquela ocasião, se tal
+prática já havia sido admitida pelos cristãos
+do seu tempo. Pelo contrário, ele ora a Deus por
+eles, porque é Ele quem dá à alma que
+O invoca, fé, graça, paz, paciência e sabedoria.
+São Policarpo, bispo de Esmirna, que viveu em
+século II, dirigiu uma carta aos Filipenses,
+mas ele não diz nada que recomende o
+invocação de São Paulo, que foi o fundador da sua
+igreja e, como tal, teria sido considerada como
+seu padroeiro, se o culto aos santos tivesse sido
+naquela época já introduzido entre os cristãos.
+A prova mais importante e positiva de que
+os cristãos primitivos, não só não pagavam
+adoração aos mártires, mas rejeitou-a decididamente, é
+a epístola que foi emitida pela igreja de Esmirna
+depois do martírio do seu bispo, que acabo de
+mencionado. Afirma que os pagãos tiveram, por instigação
+dos judeus, vigiava de perto os cristãos,
+imaginando que eles se esforçariam para levar embora
 
 followed by Russia has now taken such a rapid
 development, that the dangers which threaten the liberties
@@ -142,14 +352,77 @@ Augsburg. I have
 developed this subject in the last chapter of my Introduction,
 in order to show my readers the religious condition
 
-of the Russian people, because I think that without
-it a knowledge of the policy now followed by their
-Government cannot be well understood, or its consequences
-fully appreciated.
+A admiração é, no entanto, semelhante à adoração, e
+não era de admirar que aqueles cuja memória estava constantemente
+elogiado, e muitas vezes da forma mais exagerada
+termos, gradualmente começou a ser considerado como algo
+mais do que simples mortais, e tratados adequadamente.
+Também foi muito natural que vários objetos
+que pertencera aos mártires foram cuidadosamente
+preservados como lembranças interessantes, uma vez que são continuamente
+feito com pessoas que adquiriram algum
+tipo de celebridade, e que esse deveria ser o caso
+com seus corpos, que muitas vezes foram embalsamados.
+É, no entanto, impossível, como Calvino justamente observou, em
+seu Tratado dado abaixo.
+preservar tais objetos sem honrar
 
-Edinburgh, May 1854.
+de uma certa maneira, e isso logo deve degenerar
+em adoração. Esta foi a origem do
+culto às relíquias, que foi aumentando no
+mesma proporção que a pureza das doutrinas cristãs era
+dando lugar às superstições do paganismo.
 
-Preface To The Second Edition.
+A adoração de imagens está intimamente ligada
+com o dos santos. Eles foram rejeitados pelo
+cristãos primitivos; mas Santo Irineu, que viveu em
+século II, relata que havia uma seita de
+hereges, os Carpocratianos, que adoravam, no
+maneira dos pagãos, diferentes imagens representando
+Jesus Cristo, São Paulo e outros. Os gnósticos tinham
+também imagens; mas a igreja rejeitou seu uso de uma forma
+maneira positiva, e um escritor cristão do terceiro
+século, Minutius Felix, diz que os pagãos censuraram
+os cristãos por não terem templos
+nem simulacros; e eu poderia citar muitas outras evidências
+que os cristãos primitivos mantinham uma
+grande horror contra todo tipo de imagens, considerando
+eles como obra de demônios.
+
+Parece, no entanto, que o uso de imagens foi
+invadindo a igreja já no século III,
+porque o concílio de Elvira em Espanha, realizado em
+305, proíbe especialmente ter qualquer imagem no
+Igrejas cristãs. Essas fotos eram geralmente
+representações de alguns eventos, sejam do Novo ou
+do Antigo Testamento, e seu objetivo era instruir
+as pessoas comuns e analfabetas em sagrado
+história, enquanto outros eram emblemas, representando
+
+algumas idéias relacionadas com as doutrinas do Cristianismo.
+Foi certamente um meio poderoso de produzir
+uma impressão sobre os sentidos e a imaginação
+dos vulgares, que acreditam sem raciocinar,
+e admita sem reflexão; foi também o
+maneira mais fácil de converter rude e ignorante
+nações, porque, olhando constantemente para as representações
+de algum fato, as pessoas geralmente acabam acreditando
+isso. Este ensino iconográfico foi, portanto, recomendado
+pelos governantes da igreja, como sendo útil
+para o ignorante, que tinha apenas a compreensão de
+olhos, e não conseguia ler escritos.Quod
+legentibus Scriptum, hoc et idiotis, præstat pictura, quia in ipsa
+ignorantes vident quid sequi debeant, in ipsas legunt qui litteras nesciunt, diz
+São Gregório. - Maury, Essai sur les Legendes, etc.,
+pág. 104. Tal prática
+estava, no entanto, repleta do maior perigo, pois
+a experiência só provou demais. Estava substituindo
+intelecto pela visão. Quoniam talis
+memoria quae imaginibus fovetur, non venit es cordis
+amore, sed ex visionis necessitate.—Opus
+ilustradora Caroli magni contra
+Synodum pro adorandis imaginibus, pág. 480, (em 18-1549), - uma obra da qual
+terão oportunidade de falar mais amplamente. Em vez de elevar o homem
 
 The valuable Dissertation which forms such a fitting
 commentary upon John Calvin's Treatise on Relics, was
@@ -162,12 +435,68 @@ attention to the mummeries and absurdities engrafted on
 the True Christian Faith, by the false and corrupt Church
 of Rome.
 
-Edinburgh, January 1870.
+desertos do Egito. Foi observado destes
+monges, de Zimmerman, em seu célebre trabalho sobre
+Solidão, que homens de caráter extraordinário,
+e movido por paixões estranhas e incomuns,
+encolheram-se dos prazeres do mundo para
+tristeza sem alegria e desolação. Em selvagem e sombrio
+desertos eles viveram uma vida solitária e desamparada,
+sujeitando-se a abnegações voluntárias e
+mortificações quase incríveis; às vezes exposto
+nu às rajadas arrepiantes do frio do inverno,
+ou o hálito escaldante do calor do verão, até que
+cérebros, destemperados pela operação conjunta de torturados
+sentidos e imaginação sobrecarregada, invadiu
+com as visões mais selvagens e frenéticas. Veja seu capítulo
+sobre os efeitos nocivos da solidão na imaginação - inglês
+tradução. O
+mesmo escritor relata, com base na autoridade de Sulpício
+Severus, que um indivíduo estava perambulando
+Monte Sinai durante quase cinquenta anos, inteiramente nu,
+e evitando todas as relações sexuais com homens. Uma vez, porém,
+sendo questionado sobre os motivos de seu estranho
+conduta, ele respondeu que, desfrutando como gostava da
+sociedade de serafins e querubins, ele sentia aversão
+para ter relações sexuais com homens.Ibid.
 
-Introductory Dissertation.
+Muitos destes entusiastas imaginaram, nas suas alucinações,
+eles tiveram uma relação direta com Deus
+ele mesmo, que, assim como os Espíritos subalternos, apareceu
+para eles em forma humana. Os monges de
+O Egipto foram, de facto, os mais zelosos defensores da
 
-Chapter I. Origin Of The Worship Of Relics And Images In
-The Christian Church.
+a corporalidade de Deus. Eles odiavam violentamente Origines
+por sustentar que Ele era espiritual.
+Teófilo, bispo de Alexandria, opôs-se a este erro;
+mas os monges reuniram-se em grande força, com o
+intenção de assassiná-lo; e ele escapou disso
+perigo, dirigindo-se a eles com as palavras que Jacó
+acostumado com Esaú, vi teu rosto, como se tivesse
+vi a face de Deus. - (Gen. xxxiii 10.) Este elogio,
+o que pode ser interpretado como um reconhecimento
+de um Deus corpóreo, aplacou a ira de
+os monges, mas eles obrigaram Teófilo a anatematizar
+os escritos de Origens.
+
+A seguinte anedota é característica do
+forte tendência da natureza humana ao antropomorfismo.
+Um velho monge, chamado Serapião, tendo
+convencido pelos argumentos de um amigo de que
+foi um erro acreditar que Deus é corpóreo, exclamou,
+chorando, ah, meu Deus foi tirado de mim, e eu
+não sei a quem estou adorando agora!Fleury
+História Eccles., lib. xxi. rachar. 15. Eu irei
+temos, no decorrer deste ensaio, oportunidades de mostrar
+que os monges sempre foram os mais zelosos
+e eficientes promotores da adoração de imagens.
+
+O seguinte esboço rápido da introdução de
+adoração de imagens na igreja cristã, e de sua
+consequências, foi desenhado por um francês vivo
+escritor, cujas opiniões religiosas não compartilho, mas
+cuja profunda erudição, justiça e sinceridade são
+merecedor dos maiores elogios: -
 
 Hero-worship is innate to human nature, and it is
 founded on some of our noblest feelings,—gratitude,
@@ -210,16 +539,47 @@ that at which she did nothing but wink at first. I
 shall endeavour to give my readers a rapid sketch
 of the rise, progress, and final establishment of the
 
-Pagan practices which not only continue to prevail
-in the Western as well as in the Eastern church,
-but have been of late, notwithstanding the boasted
-progress of intellect in our days, manifested in as
-bold as successful a manner.
+às imagens. E foi um retorno ao espiritismo
+dos primeiros tempos, e um renascimento do espírito de
+aversão ao que tem tendência a diminuir a Divindade
+às proporções estreitas de uma criatura humana, que
+produziu guerra contra essas imagens. Mas as maneiras
+e as crenças foram mudadas. Nações inteiras
+havia recebido o cristianismo, quando já era
+escoltado por aquele trem idólatra de esculturas e
+imagens pintadas. Somente aquelas populações entre
+quem as tradições antigas foram preservadas poderia
+favorecer esta reação. Além disso, o clero era
+interessado em manter um de seus mais poderosos
+meio de ensinar. Os longos e perseverantes esforços
+dos iconoclastas revelou-se, portanto, ineficaz; e
+os valdenses não tiveram mais sorte. Wickliffe,
+os hussitas e Carlostad atacaram as imagens;
+mas foi reservado apenas aos calvinistas estabelecer
+em algumas partes da Europa o triunfo do
+idéias dos iconoclastas. O choque foi terrível.
+Os religiosos frequentemente cometiam atos de fanatismo
+e vandalismo sem sentido; e a arte teve muitos
+perdas a lamentar. Mas a tendência idólatra foi
+atingiu sua própria raiz; e o próprio catolicismo descobriu,
+depois da luta, mais pureza e idealismo em sua
 
-Nothing, indeed, can be more deserving of our
-admiration than the conduct of the Christian martyrs,
-who cheerfully submitted to an ignominious death,
-inflicted by the most atrocious torments, rather than
+própria adoração. O autor
+deste esboço, ele mesmo diz, em uma nota: No entanto, esta idolatria está longe
+de ter desaparecido completamente. Peregrinações e devoção a certas imagens,
+mas particularmente ao da Virgem, ainda continuam, etc. Isto foi dito em
+1843. Eu me pergunto o que ele dirá agora, quando essa idolatria reaparecer, mesmo
+naquelas partes da Europa onde os calvinistas tinham, segundo a sua expressão,
+atingido em sua própria raiz. O Reformado percebeu depois
+
+o exagero dos seus princípios; e embora
+eles continuaram a defender a entrada de seus
+templos aos simulacros, condenados por Deus em
+Monte Sinai, eles pouparam aqueles que haviam sido
+legado pelos menos severos e mais materiais
+fé de seus pais.Essai sur
+les Legendes Pieuses du Moyen Age, por Alfred Maury, pp.
+e seguintes.
 
 deny their faith even by the mere performance of
 an apparently insignificant rite of Paganism. Their
@@ -246,16 +606,53 @@ on its anniversaries. These commemorations usually
 consisted in the eulogy of the martyr, delivered in an
 assembly of the church, for the edification of the faithful,
 
-the strengthening of the weak, and the stimulating
-of the lukewarm, by setting before them the
-noble example of the above-mentioned martyr. It
-was very natural that the objects of the commemoration
-received on such an occasion the greatest praises,
+Descrevi, no capítulo anterior, o
+causas que fizeram com que o culto cristão gradualmente se tornasse
+desviar-se de sua pureza primitiva e assumir uma
+personagem mais adaptado às idéias dos pagãos
+população, - números dos quais eram continuamente
+ingressar na igreja. Foi, sobretudo desde o
+época de Constantino, porque suas festas, tornando-se
+cada dia mais numerosos, e seus santuários mais
+solene, espaçoso e adornado com maior esplendor - seu
+cerimônias mais complicadas - seus emblemas
+mais diversificado - ofereceu aos pagãos uma
+ampla compensação pela pompa artística de sua
+culto antigo. O incenso, diz um eminente
+Escritor católico romano do nosso tempo, as flores,
+os vasos de ouro e de prata, as lâmpadas, as coroas,
+os luminares, o linho, a seda, os chaunts, o
+procissões, as festas, recorrentes em determinados
+dias, passaram dos altares vencidos ao triunfante
+um. O paganismo tentou emprestar do cristianismo
+seus dogmas e sua moral; O cristianismo tomou
 
-not unfrequently expressed in the most exaggerated
-terms, but there was no question about invoking the
-aid or intercession of the confessors whose example
-was thus held out for the imitation of the church.
+do paganismo seus ornamentos. Chateaubriand
+Estudos Históricos, vol. ii. pág. 101. O cristianismo seria
+tornaram-se triunfantes sem essas transformações.
+Teria feito isso mais tarde do que aconteceu, mas
+seu triunfo teria sido de um tipo diferente daquele
+aquilo que obteve com a ajuda destes
+auxiliares. Cristianismo, diz o autor citado
+acima, retrógrado; mas foi isso que fez
+sua força. Seria mais correto dizer que
+avançou o seu progresso externo à custa da sua
+pureza; ganhou assim o favor da multidão, mas
+foi por outros meios que obteve a aprovação
+das mentes cultivadas.Histoire de la
+Destruição do Paganismo no Império do Oriente, por
+M. Chastel, Paris, 1850, p. 342 e segs.
+
+A igreja fez um compromisso com o paganismo
+para converter mais facilmente os seus adeptos, - esquecendo
+os preceitos do apóstolo, tomar cuidado com a filosofia
+e tradições vãs (Col. ii. 8), bem como para
+recuse fábulas profanas e de velhas, (1 Tim. iv. 7.)
+E não há dúvida de que São Paulo conhecia bem
+que uma tolerância a estas coisas teria rapidamente
+ampliou as novas igrejas, teve a quantidade
+dos convertidos foi mais importante que a qualidade
+de sua crença e moral.
 
 We know from the Acts that neither St Stephen,
 the first Christian martyr, nor St James, who was
@@ -309,28 +706,78 @@ mentioned. It states that the Pagans had, at the instigation
 of the Jews, closely watched the Christians,
 imagining that they would endeavour to carry away
 
-the ashes of Polycarp in order to worship him after
-his death, because these idolaters knew not that the
-Christians cannot abandon Jesus Christ, or worship
-any one else. We worship, says the same document,
-Jesus Christ, who is the Son of God; but with
+Este novo espírito do Cristianismo – este ecletismo,
+que se estendeu até mesmo às coisas materiais - tem em
+os tempos modernos deram origem a discussões apaixonadas;
+esses empréstimos da antiga religião foram condenados,
+como tendo sido sugerido aos cristãos
+dos séculos IV e V pelos remanescentes de
+aquele antigo amor pela idolatria que estava à espreita
+fundo de seus corações. Foi fácil para o moderno
+reformadores condenarem, por uma culpa injusta, os líderes
+da igreja; eles deveriam, no entanto, ter reconhecido,
+que o principal interesse do Cristianismo
+era arrancar do erro o maior número de
 
-regard to the martyrs, the disciples of Christ and imitators
-of his virtues, we love them, as they deserve
-it, on account of the unconquerable love which they
-had for their Master and King; and would to God
-that we should become their disciples and partakers
-of their zeal.
+seus partidários, e que era impossível alcançar
+este objetivo sem fornecer aos adeptos obstinados
+dos falsos deuses uma passagem fácil do
+templo para a igreja. Se considerarmos isso, apesar
+todas essas concessões, a ruína do Paganismo
+foi realizado apenas gradualmente e imperceptivelmente, - que
+durante mais de dois séculos
+era necessário para combater, em toda a Europa,
+um erro que, embora continuamente derrubado,
+estava subindo incessantemente novamente, - entenderemos
+que o espírito conciliador dos líderes do
+igreja era a verdadeira sabedoria.
 
-I could multiply proofs of this kind without end,
-but I shall only observe, that even in the fourth century
-the orthodox Christians considered the worship
-of every created being as idolatry, because the opponents
-of the Arians, who considered Jesus Christ as
-created and not co-essential with God the Father, employed
-the following argument to combat this dogma:—If
-you consider Jesus Christ a created being, you
-commit idolatry by worshipping him.
+São João Crisóstomo diz que o diabo, tendo
+percebeu que não poderia ganhar nada com os cristãos
+empurrando-os diretamente para a idolatria,
+adotou para o efeito uma indireta.
+Nota. - Não foi a introdução de ritos pagãos na igreja
+o caminho indireto para a idolatria aludido no texto? Se o
+o diabo, isto é, o espírito pagão, estava mudando
+seu plano de ataque, a igreja também foi obrigada a
+modificar seu sistema de defesa e não afetar um
+inflexibilidade que lhe teria ocultado uma grande
+número de pessoas cuja consciência indecisa foi
+oscilando entre a falsidade e a verdade.
+
+Já no início do século V,
+alguns espíritos altivos, cristãos que estavam fazendo
+uma demonstração da rigidez de suas virtudes, e
+que estavam levantando protestos contra a profanação
+das coisas santas, começou a pregar uma pretensa
+
+reforma; eles estavam chamando os cristãos de volta ao
+doutrina apostólica; eles exigiram o que eram
+chamando um verdadeiro cristianismo. Vigilantius, um espanhol
+sacerdote, sustentou sobre este tema um animado concurso
+com São Jerônimo. Ele se opôs à adoração do
+santos e o costume de colocar velas em seus
+sepulcros; ele condenou, como fonte de escândalo,
+as vigílias nas basílicas dos mártires, do autor
+Nota.—As festas dos mártires eram uma concessão muito grande
+feito aos velhos tempos, porque tudo o que acontecia ousado naqueles dias não era
+muito edificante. e muitos
+outros usos, que eram, é verdade, derivados do
+culto antigo. Podemos julgar pelo calor
+com o qual São Jerônimo refutou as doutrinas deste
+heresiarca da importância que ele atribuiu
+esses usos. Nota do tradutor.
+dará em seu devido lugar um relato mais amplo
+de Vigilâncio. Ele previu que a missão do
+A doutrina cristã seria adaptar-se à
+costumes de todos os tempos, e opor-se a eles apenas
+quando tenderiam à depravação. Longe de
+desejando privar os romanos de certas funções cerimoniais
+práticas que lhes eram caras, e
+cuja influência não tinha nada de perigoso para o cristão
+dogmas, ele tomou abertamente a parte deles, e sua conduta
+
+foi aprovado por toda a igreja.
 
 Admiration is, however, akin to adoration, and it
 was no wonder that those whose memory was constantly
@@ -347,11 +794,29 @@ It is, however, impossible, as Calvin has justly observed,In
 his Treatise given below.
 to preserve such objects without honouring
 
-them in a certain manner, and this must soon degenerate
-into adoration. This was the origin of the
-worship of relics, which went on increasing in the
-same ratio as the purity of Christian doctrines was
-giving way to the superstitions of Paganism.
+Igreja cristã? Eu não acredito que eles
+faria. Após a queda de Roma, populações inteiras
+passaram sob os padrões do Cristianismo, mas eles
+fizeram isso com sua bagagem de crenças sem sentido e
+práticas supersticiosas. A igreja não poderia repelir
+esta multidão de cristãos que se autodenominam, e menos ainda convocar
+imediatamente a abandonar todos os seus antigos
+erros; ela, portanto, fez concessões às circunstâncias,
+concessões que não eram inteiramente voluntárias.
+Eles podem ser considerados cálculos cheios de sabedoria
+por parte dos líderes da igreja, bem como
+consequência desse tipo de irrupção que foi feita
+no início do século V na era cristã
+sociedade pelas populações, que, não obstante a sua
+abjuração, eram pagãos por suas maneiras, seus gostos, suas
+preconceitos e sua ignorância.
+Nota.—Esses compromissos eram temporários, e a igreja revogou
+assim que ela acreditou que poderia fazer isso sem inconvenientes.
+Ela lutou muito contra as calendas de janeiro, depois de ter passado por um período considerável
+o tempo sofreu essas festividades; e quando ela viu que não conseguiria
+ao aboli-los, ela decidiu transportar o início do ano do
+
+primeiro de janeiro até a Páscoa, para quebrar os costumes pagãos.
 
 The worship of images is intimately connected
 with that of the saints. They were rejected by the
@@ -369,15 +834,28 @@ that the primitive Christians entertained a
 great horror against every kind of images, considering
 them as the work of demons.
 
-It appears, however, that the use of pictures was
-creeping into the church already in the third century,
-because the council of Elvira in Spain, held in
-305, especially forbids to have any picture in the
-Christian churches. These pictures were generally
-representations of some events, either of the New or
-of the Old Testament, and their object was to instruct
-the common and illiterate people in sacred
-history, whilst others were emblems, representing
+a parte essencial da religião. O cristianismo, longe de
+opondo-se a uma disposição que exigia apenas ser
+dirigido com mais sabedoria, adotou uma parte do
+sistema cerimonial do culto antigo. Isso
+mudou o objeto de suas cerimônias, limpou
+livrá-los de suas antigas impurezas, mas preservou o
+dias em que muitos deles foram celebrados,
+e a multidão encontrada assim na nova religião,
+tanto quanto no antigo, os meios de satisfazer
+sua paixão dominante. Autor
+Nota.—As Saturnálias e vários outros festivais eram celebrados
+nas calendas de janeiro; O Natal foi fixado na mesma época. A Lupercália,
+uma pretensa festa de purificação, realizada durante as calendas de fevereiro;
+a purificação cristã (Candlemas) foi celebrada no dia 2 de fevereiro. O
+festa de Augusto, celebrada nas calendas de agosto, foi substituída por aquela
+de São Pedro in vinculis,
+estabelecido no dia 1º daquele mês. Os habitantes
+do país, sempre preocupados com a segurança das suas colheitas, mantiveram obstinadamente
+a celebração da Ambarvalia; St Mamert estabelecido no
+meados do século V, as Rogações, que na sua forma
+diferem muito pouco da Ambarvalia.
+Ao comparar o calendário cristão com o pagão, é impossível
 
 some ideas connected with the doctrines of Christianity.
 It was certainly a powerful means of producing
@@ -404,16 +882,58 @@ illustrissimi Caroli magni contra
 Synodum pro adorandis imaginibus, p. 480, (in 18—1549),—a work of which I
 shall have an opportunity more amply to speak. Instead of elevating man
 
-towards God, it was bringing down the Deity to
-the level of his finite intellect, and it could not but
-powerfully contribute to the rapid spread of a pagan
-anthropomorphism in the church.
+resplandecentes de magnificência, mas agora estavam desertos.
+O Cristianismo compreendeu o poder desta
+sentimento, e desejou apropriar-se dele ao seu próprio serviço;
+consentiu, portanto, em estabelecer as solenidades
+de seu culto nos edifícios que havia desdenhado
+por muito tempo. Autor
+Nota. - Existem em Roma até agora várias igrejas que
+anteriormente eram templos pagãos, e trinta e nove deles foram construídos em
+os alicerces de tais templos. — Marangoni, pp.
+Não há nenhum país na Europa onde exemplos semelhantes
+não são encontrados. É necessário observar que todas essas transformações
+começou no final do século V. É cuidado para não ofender
+hábitos pagãos eram tais que muitas vezes respeitavam até mesmo os
+nomes pagãos desses edifícios.
+Nota.—Em Roma quatro igrejas têm nomes pagãos, a saber:—S.
+Maria Sopra Minerva, S. Maria Avetina, St.
+Lorenzo em Matuta e Santo Estêvão del Cacco.
+Em Siena, o templo de Quirino tornou-se a igreja de São
+Quirico. Em suma, a sua política,
+que, desde os tempos de Constantino, sempre foi
+facilitar a conversão dos pagãos, assumidos,
+após a queda de Roma, um caráter mais decidido,
+e o sistema de concessões úteis tornou-se geral
+em todas as igrejas da Europa; e não pode ser
 
-There was also another cause which seems to have
-greatly contributed to the propagation of the abovementioned
-anthropomorphism amongst the Christians,
-namely, the contemplative life of the hermits,
-particularly of those who inhabited the burning
+duvidou que os seus resultados tenham sido favoráveis ao
+propagação de ideias cristãs.Tradutor
+Nota. - E ainda mais à sua corrupção.
+
+Há, além disso, uma causa peculiar pela qual o
+rápido declínio das doutrinas pagãs no Ocidente
+deve ser atribuído, e tentarei colocar
+esta causa poderosa em sua verdadeira luz, evitando cuidadosamente
+confundindo com um assunto desta importância todos
+considerações estranhas ao objeto de minhas pesquisas.
+
+Nestório, patriarca de Constantinopla, depois de ter
+defendeu por muito tempo a verdadeira fé, desviou-se
+
+sobre um assunto que se revelou uma pedra de tropeço para
+tantos teólogos - quero dizer, a natureza de Jesus
+Cristo. Nestório distinguido no Filho de Deus
+duas naturezas, uma divina e outra humana; e ele
+afirmou que a Virgem Maria não era a mãe
+de Deus (Θεοτοκος), mas a mãe do homem
+(ἀνθρωποτοκος). Esta doutrina, que era uma novidade e
+forma mais ousada dada ao Arianismo, difundido nos dois
+impérios e ganhou um grande número de partidários
+entre os mosteiros do Egito. Muitos monges
+quase não poderia sofrer que Jesus Cristo fosse
+reconhecido como Deus, e o considerava apenas como
+um instrumento da Divindade, ou um vaso que o carregava (Θεοφορος).
 
 deserts of Egypt. It has been observed of these
 monks, by Zimmerman, in his celebrated work on
@@ -440,43 +960,111 @@ conduct, he answered, that, enjoying as he did the
 society of seraphim and cherubim, he felt aversion
 to intercourse with men.Ibid.
 
-Many of these enthusiasts imagined, in their hallucinations,
-they had a direct intercourse with God
-himself, who, as well as the subordinate spirits, appeared
-to them in a human shape. The monks of
-Egypt were, indeed, the most zealous defenders of
+paz sobre esta questão, e estar convencido de que meu
+os sentimentos sobre a verdadeira fé são sempre os mesmos.
+Mas a sua obstinação e o ardor dos seus partidários
+não lhe permitiu ir além desta falsa retratação.
+Sentiu-se a necessidade de um concílio geral,
+e o imperador Teodósio II. ordenou em 431 seu
+convocação em Éfeso. Em 21 de junho de 431,
+duzentos bispos condenaram Nestório e declararam
+que a Virgem Maria deveria ser homenageada
+como a mãe de Deus. Esta decisão foi aceita,
+apesar de alguns protestos vãos, por parte do
+igreja universal. Os Padres do Concílio de
+Éfeso não pensava em introduzir no
+igreja um novo dogma ou adoração. A Virgem
+Maria sempre foi considerada por eles como a
+mãe de Deus, e eles fizeram agora uma declaração solene
+desta crença, para responder ao ataque
+de Nestório, e para remover qualquer incerteza sobre
+um dogma que até então não havia sido contestado.
+Mas estas grandes assembleias de cristãos, apesar
+o motivo específico de seu encontro,
+sempre foram produzidos por alguma necessidade geral
+que foi sentido pela sociedade cristã, e os resultados
+dos seus decretos iam muitas vezes além das disposições
+daqueles por quem foram enquadrados.
 
-the corporeality of God. They violently hated Origines
-for his maintaining that He was spiritual.
-Theophilus, bishop of Alexandria, opposed this error;
-but the monks assembled in great force, with the
-intention of murdering him; and he escaped this
-danger by addressing them in the words which Jacob
-used to Esau, I have seen thy face, as though I had
-seen the face of God.—(Gen. xxxiii 10.) This compliment,
-which could be interpreted as an acknowledgment
-of a corporeal God, appeased the wrath of
-the monks, but they compelled Theophilus to anathematise
-the writings of Origines.
+Embora eu esteja longe de acreditar que seja permitido
+pesar na balança da razão humana o
+dogmas do cristianismo, não creio que seja
+proibido examinar qual desses dogmas
 
-The following anecdote is characteristic of the
-strong tendency of human nature towards anthropomorphism.
-An old monk, called Serapion, having
-been convinced by the arguments of a friend that it
-was an error to believe God corporeal, exclaimed,
-weeping, Alas, my God was taken from me, and I
-do not know whom I am now worshipping!Fleury
-Histoire Eccles., lib. xxi. chap. 15. I shall
-have, in the course of this essay, opportunities to show
-that the monks have always been the most zealous
-and efficient promoters of image-worship.
+foi o mais instrumental em separar os pagãos
+dos seus erros.
 
-The following rapid sketch of the introduction of
-image-worship into the Christian church, and of its
-consequences, has been drawn by a French living
-writer, whose religious views I do not share, but
-whose profound erudition, fairness, and sincerity, are
-deserving of the greatest praise:—
+Já penetramos diversas vezes, no decorrer
+de nossas pesquisas, na consciência dos líderes
+do paganismo, e sempre descobrimos que
+estava inteiramente sob a influência de opiniões políticas
+e interesses. Esses interesses, que tão poderosamente
+agiu de acordo com a mente do político, teve apenas um fraco
+manter-se sobre o dos habitantes do país.
+E, de fato, que interesse poderiam os agricultores,
+os artesãos e os proletários têm na manutenção
+a integridade da constituição romana, ou
+na preservação dos direitos do Senado, bem como do
+privilégios, honras e riquezas da aristocracia?
+Estando destinados, como estavam sob qualquer religião,
+por uma vida de trabalho e privação, eles poderiam
+escolher entre o Cristianismo e o Paganismo, sem
+tendo sua escolha motivada por qualquer interesse pessoal.
+É necessário, portanto, procurar outro
+causa daquele apego obstinado que o inferior
+classes da população da cidade e do campo mostraram
+para as práticas de um culto cuja existência
+foi durante um século reduzido a um estado tão miserável
+estado.
+
+Não vou insistir no que foi dito sobre o
+tirania do hábito, que é sempre mais severa onde quer que
+mentes são menos esclarecidas. vou indicar
+outra causa da obstinação dos pagãos, que
+foi fundada pelo menos sobre uma operação da mente - sobre
+
+um julgamento - e foi, conseqüentemente, mais
+merecedor de fixar a atenção da igreja do que
+aquele respeito pelo costume contra o qual as armas
+da razão são impotentes.
+
+Os dogmas cristãos, penetrando na alma
+corrompido e enfraquecido pela idolatria, deve ter, em
+o primeiro momento, encheu-o de uma espécie de terror. E,
+na verdade, como foi possível que os pagãos, acostumados
+como eram para seus deuses perdulários e
+deusas, não deveriam ter tremido quando
+ouvi pela primeira vez a voz de Deus, o justo
+mas recompensador inexorável do bem e do mal? Deveria
+não um culto solene e grave, cujas cerimônias
+foram uma excitação constante e direta para a prática
+de todas as virtudes, parecem um jugo intolerável para os homens
+que estavam acostumados a encontrar em seus ritos sagrados um
+ocasião legítima para se entregar a todo tipo de devassidão?
+O medo de submeter suas vidas ao
+regra de uma moralidade muito rígida e inclinar a cabeça
+diante de um Deus cuja grandeza os aterrorizava, manteve
+durante muitos anos, uma multidão de pagãos do
+igreja.
+
+Se entrou nos desígnios da Providência para
+moderar os severos dogmas do Cristianismo pela
+consagração de alguns sentimentos suaves, ternos e consoladores
+ideias, e pelo mesmo adaptado ao frágil ser humano
+natureza, é evidente que, seja lá o que tenha sido
+seu objetivo, eles devem ter ajudado a separar o
+últimos pagãos de seus erros. A adoração de Maria,
+
+a mãe de Deus, parece ter sido o meio
+que a Providência empregou para completar
+Cristianismo.Tradutor
+Nota. - Cristo disse: Vinde a mim, todos os que trabalham e
+estão sobrecarregados e eu lhes darei descanso. Tome meu jugo sobre você e aprenda
+eu; pois sou manso e humilde de coração; e encontrareis descanso para vossas almas.
+Pois o meu jugo é suave e o meu fardo é leve. — Mat. xii. 28-30. eu faria
+pergunte ao erudito autor se estas palavras de nosso Salvador não são suficientemente
+suave, terno e consolador, e se havia alguma necessidade de
+consagrar algumas idéias novas para moderar sua severidade?
 
 The aversion of the first Christians to the images,
 inspired by the Pagan simulachres, made room, during
@@ -503,11 +1091,14 @@ simulachres appear to have been spread at first by
 the Gnostics,—i.e., by those Christian sects which
 adopted the most of the beliefs of Persia and India.
 
-Thus it was a Christianity which was not purified
-by its contact with the school of Plato,—a Christianity
-which entirely rejected the Mosaic tradition,
-in order to attach itself to the most strange and attractive
-myths of Persia and India,—that gave birth
+Após o concílio de Éfeso, vemos oito dos melhores templos pagãos daquela época.
+ilha tornando-se em muito pouco tempo igrejas dedicadas à Virgem. Estes
+os templos eram, 1. de Minerva, em Siracusa; 2. de Vênus e Saturno, em Messina; 3.
+de Vênus Erígone, no Monte Érix, que se acredita ter sido construída por Enéas;
+4. de Phalaris, em Agrigento; 5. de Vulcano, perto do Monte Etna; 6. o Panteão,
+em Catânia; 7. de Ceres, no mesmo município; 8. o Sepulcro de Estecícoro.—V.
+Aprile Cronologia Universale di Sicilia. Fatos semelhantes podem ser
+encontrados nos anais eclesiásticos de todos os países. É verdade que muitas vezes
 
 to the images. And it was a return to the spiritualism
 of the first ages, and a revival of the spirit of
@@ -534,22 +1125,50 @@ losses to deplore. But the idolatrous tendency was
 struck at its very root; and Catholicism itself found,
 after the struggle, more purity and idealism in its
 
-own worship.The author
-of this sketch says himself, in a note, Yet this idolatry is far
-from having entirely disappeared. Pilgrimages, and a devotion to certain images,
-but particularly to that of the Virgin, are still continuing, &c. This was said in
-1843. I wonder what he will say now, when this idolatry is reappearing, even
-in those parts of Europe where the Calvinists had, according to his expression,
-struck at its very root. The Reformed perceived afterwards
+Eu dei no capítulo anterior uma descrição,
+traçado por um dos mais eruditos católicos romanos
+escritores de nossos dias, do compromisso entre o cristianismo
+e Paganismo, pelo qual a igreja tem se esforçado
+para estabelecer seu domínio sobre os adeptos
+deste último. Tentarei agora dar uma rápida
+esboço das circunstâncias que sem dúvida
+influenciou a igreja, em um grau considerável, em
+a adopção de uma linha política que, embora
+certamente contribuiu muito para a extensão do
+seu domínio externo, introduziu em seu pálido
+aqueles mesmos erros e superstições que ela cometeu
+missão de destruir e libertar a humanidade do
+sua influência nefasta.
 
-the exaggeration of their principles; and though
-they continued to defend the entrance of their
-temples to the simulachres, condemned by God on
-Mount Sinai, they spared those which had been
-bequeathed by the less severe and more material
-faith of their fathers.Essai sur
-les Legendes Pieuses du Moyen Age, par Alfred Maury, pp. 111,
-et seq.
+Existe uma opinião amplamente difundida, mas errónea,
+que a conversão de Constantino foi seguida por
+uma destruição imediata do paganismo no período romano
+império. Esta opinião originou-se da incorreta
+
+declarações de alguns escritores eclesiásticos; mas histórico
+a crítica provou, sem sombra de dúvida, que,
+mesmo um século após a conversão daquele monarca,
+O paganismo não foi de forma alguma extinto e contado
+muitos adeptos, mesmo entre as classes mais altas
+da sociedade romana.
+
+Quando Constantino proclamou a sua conversão
+religião da Cruz, seus adeptos formavam apenas um
+minoria da população do império romano.As opiniões de
+diferentes escritores sobre o número de cristãos no período romano
+império na época da conversão de Constantino varia muito. A avaliação
+de Staudlin (Universal Geshichte der Christlichen Kirche, p. 41, 1833) na metade de
+sua população, e mesmo a da Matéria (Histoire de l'Eglise, t. i. p. 120), que
+reduz-o ao quinto, são geralmente considerados exagerados. Gibbon pensa
+que era a vigésima parte da população acima mencionada; e o
+erudito acadêmico francês. La Bastie (Memórias da Academia do Inscripter,
+&c.) acredita que foi o décimo segundo. Esta última avaliação é aprovada pelo
+Chastel (Histoire de la Destruction du Paganisme en Orient, 1850, p. 36) como um
+número médio, embora fosse muito maior no Oriente do que no Ocidente. O
+célebre passagem da Apologia de Tertuliano, no século II, onde ele
+representa que o número de cristãos no Império Romano é tão grande, que
+teria se tornado um deserto se dele tivessem se retirado, é considerado por Beugnot
+(vol. ii. p. 188) como a hipérbole mais exagerada já usada por
 
 The principal cause of the corruption of the Christian
 church, by the introduction of the Pagan ideas
@@ -572,7 +1191,26 @@ and, in order to remove every suspicion of partiality,
 I shall do it almost entirely on the authority
 of an eminent Roman Catholic writer of our day.
 
-Chapter II. Compromise Of The Church With Paganism.
+Alguns escritores suspeitaram que a conversão de
+Constantino foi mais devido a questões políticas do que religiosas
+motivos; mas embora grandes e muitos fossem os defeitos
+daquele monarca, sua sinceridade em abraçar o cristão
+não se pode duvidar da religião, porque era uma
+passo mais contrário do que favorável à sua política
+interesses. Os cristãos formaram, como já disse
+acima, apenas uma minoria da população do império,
+e particularmente nas suas províncias ocidentais.
+Não havia um único cristão no Senado Romano;
+e a aristocracia de Roma, cujos privilégios e
+interesses estavam intimamente ligados aos religiosos
+instituições do império, eram muito zelosos em seus
+defesa. Os órgãos municipais do principal
+as cidades também eram cegamente devotadas à religião nacional,
+cuja existência foi considerada por muitos como inseparável
+daquele do próprio império; e estes
+organismos eram geralmente os principais promotores daqueles
+terríveis perseguições a que os cristãos foram
+tantas vezes submetido. O clero pagão, rico,
 
 I have described, in the preceding chapter, the
 causes which made Christian worship gradually to
@@ -611,21 +1249,58 @@ of the cultivated minds.Histoire de la
 Destruction du Paganisme dans l'Empire d'Orient, par
 M. Chastel, Paris, 1850, p. 342 et seq.
 
-The church made a compromise with Paganism
-in order to convert more easily its adherents,—forgetting
-the precepts of the apostle, to beware of philosophy
-and vain traditions, (Col. ii. 8,) as well as to
-refuse profane and old wives' fables, (1 Tim. iv. 7.)
-And it cannot be doubted that St Paul knew well
-that a toleration of these things would have rapidly
-extended the new churches, had the quantity
-of the converts been more important than the quality
-of their belief and morals.
+o que é ainda pior, aqueles que estavam insatisfeitos com
+deles. Itália, Espanha, África e Gália enviadas para
+Roma, a elite de seus filhos, para serem instruídos
+em uma escola, cujo mérito principal de cujos professores
+era, um ódio invejoso por toda ideia nova, e
+que adquiriu uma reputação melancólica durante
+as perseguições dos cristãos. O padrão de
+O paganismo agitava-se em plena liberdade nas paredes do
+o Capitólio. Sacrifícios públicos e privados, sagrados
+jogos, e a consulta dos áugures, estavam prevalecendo ao máximo naquele
+pia de todos os
+superstições.Tradutor
+Nota.—Expressão de São Jerônimo, Op. 4. pág. 266. Seria
+fique curioso para saber o que este pai da igreja teria dito do presente
+Roma. O nome de Cristo foi amaldiçoado, e o
+a rápida ruína de seus adoradores anunciada, em todos os
+parte daquele lugar, enquanto a glória dos deuses era
+celebrado e sua assistência invocada. Quão cruel
+deve ter sido a situação dos cristãos, deixados
+no meio daquela cidade, onde, a cada passo, um
+templo, um altar, uma estátua e blasfêmias horríveis
+estavam revelando-lhes o poder sempre ativo do
+Mentira! Eles também não ousaram fundar igrejas,
+escolas abertas, ou mesmo publicamente para responder ao que foi
 
-This subject has been amply developed by one of
-the most distinguished French writers of our day,
-who, belonging himself to the Roman Catholic
-Church, seeks to justify her conduct in this respect,
+falado contra eles, nos teatros, no fórum,
+ou nos banhos: de modo que pareciam existir em
+Roma apenas para dar um maior éclat ao
+domínio da idolatria. - (Vol. i., p. 75.) Não foi
+é de admirar que tal disposição religiosa de Roma tivesse
+colocou-o em contínua e vigorosa oposição
+
+Constantino e seus sucessores cristãos; e isso
+circunstância pode ser considerada como um motivo adicional
+que induziu Constantino a transferir a capital
+do império de Roma a Bizâncio, embora este
+medida pode ter sido provocada principalmente por razões políticas
+considerações. Ao mudar sua residência para um
+ponto mais central do império, ele ao mesmo tempo
+aproximou-se das províncias orientais, onde o cristianismo
+teve muitos adeptos devotos. Constantinopla
+tornou-se a capital do partido cristão, de onde
+gradualmente desenvolveu seu domínio sobre as outras partes do
+o império, mas os pagãos mantiveram enquanto isso
+seu terreno em Roma, de tal maneira, que
+parece ter sido inabitável para o cristão
+imperadores; porque vemos até mesmo aqueles que
+governou as províncias ocidentais fixando sua residência
+seja em Milão ou Ravenna, e visitando apenas em alguns
+ocasiões a cidade dos Césares, que se tornou,
+desde a fundação de Constantinopla, o fortificado
+acampamento do Paganismo.Beugnot, vol. eu., pág. 86.
 
 though he admits with the greatest sincerity that
 she had introduced into her polity a large share of
@@ -747,12 +1422,61 @@ practices which were dear to them, and
 whose influence had nothing dangerous to the Christian
 dogmas, he openly took their part, and his conduct
 
-was approved by the whole church.
+Vemos assim que Constantino, em vez de perseguir
+os adeptos do paganismo nacional, estava seguindo
+uma política de compromisso entre os dois
+personagens unidos na sua pessoa, a de um cristão
+e de um imperador romano. Isto não aconteceu, no entanto,
+impedi-lo de acumular favores de todo tipo
+sobre a igreja cristã - favores que provaram
+para ela muito mais prejudicial do que todas as perseguições
+dos antigos imperadores. E, de fato, o
+Os cristãos, que resistiram nobremente à prova da adversidade,
+não estavam à prova contra o julgamento mais perigoso de um
+prosperidade repentina e inesperada.
 
-If St Jerome and St Augustinus had shared the
-opinions of Vigilantius, would they have had the
-necessary power successfully to oppose the introduction
-of pagan usages into the ceremonies of the
+O primeiro favor concedido por Constantino ao
+cristãos, e o que ele fez antes mesmo de seu público
+confissão da sua fé, foi a extensão da sua
+clero da isenção de vários municípios
+encargos usufruídos pelos sacerdotes pagãos, por conta de
+sendo obrigados a dar às suas custas certos
+jogos públicos. O clero cristão foi assim colocado
+em uma posição mais favorável do que os sacerdotes pagãos,
+porque, embora admitidos com imunidades iguais, eles
+não foram submetidos às mesmas acusações; e assim, para
+pela primeira vez, foi oferecido suborno para conversão
+
+a uma religião que até então tinha geralmente exposto
+seus discípulos à perseguição. Número de pessoas,
+movido menos pela convicção do que pela esperança de uma
+recompensa, apinhavam-se de todas as partes para as igrejas,
+e o primeiro favor concedido aos cristãos introduzido
+entre elas as paixões culpadas, às quais
+até então permaneciam estranhos, e cuja ação
+foi tão rápido e tão melancólico. As reclamações de
+os órgãos municipais, e a desordem que estava
+produzindo na administração provincial, induziu
+Constantino vai impor algumas restrições a um favor
+que, sendo concedido talvez de forma um tanto imprudente,
+fez mais mal do que bem aos interesses
+da religião cristã. - Beugnot, vol. eu.,
+pág. 78.
+
+Constantino aumentou seus favores aos cristãos
+depois que ele abraçou publicamente sua fé. O
+historiadores eclesiásticos, diz o autor que
+acabei de citar, enumere com um sentimento de
+orgulho das provas de sua generosidade. Eles dizem, que
+as receitas do império foram empregadas para erguer
+em todos os lugares igrejas magníficas, e para enriquecer o
+bispos. Eles não podem ser, nesta ocasião, acusados
+de exagero. Constantino apresentou entre
+os cristãos, o gosto pela riqueza e pelo luxo; e o
+desaparecimento de seus modos frugais e simples,
+que tinha sido a glória da igreja durante o
+três séculos anteriores, pode ser datado de sua
+reinar. — Ibid., p. 87.
 
 Christian church? I don't believe that they
 would. After the fall of Rome, whole populations
@@ -776,18 +1500,61 @@ She struggled hard against the calends of January, after having for a considerab
 time suffered these festivities; and when she saw that she could not succeed
 in abolishing them, she decided to transport the beginning of the year from the
 
-first of January to Easter, in order to break the Pagan customs.
+Em suma, o súbito triunfo da igreja
+sob Constantino foi uma das principais causas
+da sua corrupção, e o início desse compromisso
+com o Paganismo, descrito no item anterior
+capítulo. O paganismo, embora enfraquecido pela sua
+abandono por parte do chefe de Estado, não foi de forma alguma
+significa decomposto na época de Constantino
+morte. Muitos dos seus zelosos adeptos ocupavam
+as principais dignidades do Estado, bem como o
+os mais importantes escritórios civis e militares; mas é
+principal reduto era Roma, onde seus partidários estavam
+tão poderosa, que as infelizes dissensões que
+divididos, os cristãos foram expostos publicamente
+ridículo nos teatros daquela cidade. O Ariano
+o escritor Filostorgo diz que Constantino era adorado
+após sua morte, não como um santo, mas como um deus,
+pelos cristãos ortodoxos, que ofereceram sacrifícios aos
+a estátua daquele monarca colocada sobre uma coluna de
+pórfiro, e dirigiu-lhe orações como a Deus
+ele mesmo. É impossível determinar se os exemplos
+de tal extravagância louca já tomou
+lugar entre os cristãos ou não; mas o ocidental
+igreja não concedeu à sua memória o
+honras de santidade, embora ela tenha sido geralmente
 
 Let us now calculate the extent of these concessions,
 and examine whether it was right to say that
 they injured the purity of the Christian dogmas.
 
-The Romans had derived from their religion an
-excessive love of public festivals. They were unable
-to conceive a worship without the pompous apparel
-of ceremonies. They considered the long processions,
-the harmonious chaunts, the splendour of dresses,
-the light of tapers, the perfume of frankincense, as
+Os filhos de Constantino seguiram a religião
+política de seu pai; e a facilidade com que
+sobrinho, Juliano, o Apóstata, restaurou o paganismo
+ao posto de religião dominante, vinte e quatro
+anos após sua morte, prova o quão forte era seu partido
+mesmo naquela época. O reinado de Juliano de dezoito meses
+foi muito curto para produzir qualquer efeito considerável
+sobre os partidos religiosos nos quais o Império Romano
+o império foi então dividido. Após sua morte, o imperial
+coroa foi oferecida pelo exército a Salústio,
+um general pagão, que tendo recusado por causa de
+sua idade avançada, foi concedido a Joviano, um cristão,
+que reinou apenas três meses. As legiões
+eleito, após a morte de Joviano, Valentiniano, que, embora
+um cristão sincero, manteve estritamente a religião
+liberdade de seus súditos; e a mesma política foi seguida
+por seu irmão e colega Valens, que
+governou a parte oriental do império e foi
+um ariano. O filho e sucessor de Valentiniano, Graciano,
+embora educado pelo célebre poeta Ausônio,
+que aderiu ao culto antigo, era um zeloso
+Cristão. Ele publicou, imediatamente após sua adesão,
+um édito que permite a liberdade religiosa perfeita para
+todos os seus súditos, com exceção dos maniqueístas
+
+e algumas outras seitas. Ele concedeu vários novos privilégios
 
 the essential part of religion. Christianity, far from
 opposing a disposition which required only to be
@@ -860,19 +1627,48 @@ after the fall of Rome, a more decided character,
 and the system of useful concessions became general
 in all the churches of Europe; and it cannot be
 
-doubted that its results have been favourable to the
-propagation of Christian ideas.Translator's
-Note.—And still more to their corruption.
+declarou-os publicamente em diversas ocasiões. Muitos dos generais de Teodósio foram
+pagãos declarados, mas não gozava menos de sua confiança e favor. Não obstante
+as severas leis publicadas por Teodósio
+contra a idolatria, Roma ainda continha um grande
+número de templos pagãos e o partido politeísta
+continuou a ser forte no Senado, bem como em
+o exército, o que é evidente nos dois seguintes
+fatos. Quando Alarico foi eleito imperador Átalo em 409
+de Roma, o novo monarca distribuiu o
+primeiras dignidades do estado aos pagãos, e restaurou o
+solenidades públicas do culto antigo, a fim de
 
-There is, moreover, a peculiar cause to which the
-rapid decline of the pagan doctrines in the west
-must be ascribed, and I shall endeavour to place
-this powerful cause in its true light, carefully avoiding
-mixing up with a subject of this importance all
-considerations foreign to the object of my researches.
+manter-se no trono pelo apoio
+do partido pagão; o que prova que, embora
+século já havia decorrido desde a conversão
+de Constantino, este partido ainda não era considerado
+bastante insignificante. Mais ou menos na mesma época, Honório
+tendo proclamado uma lei que excluía do
+escritórios do palácio imperial todos aqueles que não
+professar sua religião, foi obrigado a revogá-la, porque
+ofendeu os oficiais pagãos do exército.
+Arcádio, que sucedeu Teodósio no trono
+do império oriental, proclamado, imediatamente após
+sua adesão em 398, que ele iria impor estritamente
+as leis de seu pai contra o paganismo, e ele
+emitido no ano seguinte, novos e mais graves
+portarias do mesmo tipo. O golpe que
+pode-se dizer que derrubou o paganismo no
+O Império Romano, no entanto, não surgiu da sua
+monarcas cristãos, mas da mesma mão que
+destruiu sua antiga capital e infligiu ao
+Império Ocidental uma ferida mortal que não
+sobreviver muitos anos.
 
-Nestorius, patriarch of Constantinople, after having
-defended a long time the true faith, strayed from
+Os Godos, a quem a política energética e sábia
+Teodósio manteve sua lealdade ao
+império, sendo ofendido por Arcádio, revoltado e
+invadiu seus domínios sob Alarico, em 396. Eles
+devastou as províncias situadas entre o Adriático
+e os Mares Negros, e penetrou na Grécia,
+onde o Paganismo, apesar de todas as promulgações
+de Teodósio, ainda prevalecia com grande
 
 it on a subject which proved a stumbling-stone to
 so many theologians—I mean, the nature of Jesus
@@ -930,13 +1726,45 @@ which was felt by the Christian society, and the results
 of their decrees went often beyond the provisions
 of those by whom they were framed.
 
-Though I am far from believing that it is allowable
-to weigh in the scales of human reason the
-dogmas of Christianity, I do not think that it is
-prohibited to examine which of these dogmas has
+o gótico, Teodorico, o Grande, que reinou sobre
+naquele país de 493 a 526, publicou um edital
+proibindo, sob pena de morte, sacrificar de acordo
+aos ritos pagãos, bem como outros supersticiosos
 
-been the most instrumental in detaching the Pagans
-from their errors.
+práticas remanescentes do antigo politeísmo.
+
+Eu dei este esboço do estado do Paganismo
+após a conversão de Constantino, e da política
+que foi seguido em direção a ele pelo primeiro cristão
+imperadores, porque parece explicar, pelo menos até certo ponto
+certo grau, a maneira pela qual o cristianismo foi
+rapidamente corrompido nos séculos IV e V por
+as idéias e práticas pagãs que tentarei
+para rastrear em meu próximo capítulo.
+
+Capítulo IV. Infecção da Igreja Cristã por Pagão
+Ideias e práticas durante o quarto
+E Quintos Séculos.
+
+Já disse que o concílio de Elvira, em Espanha, realizou
+em 305, proibiu o uso de imagens nas igrejas.
+Outros cânones do mesmo concílio mostram que mesmo
+então os cristãos eram muito propensos a recair em
+as práticas e costumes do Paganismo; porque eles
+decretar penitências eclesiásticas muito severas contra aqueles
+Cristãos que participaram dos ritos e festivais
+do culto pagão. Acho que
+não será desinteressante para meus leitores saber como o
+A Igreja Católica Romana explica esta proibição, e que pode ser melhor vista
+da seguinte peça de casuística engenhosa, escrita por um de seus mais hábeis defensores em
+este país:—Canon xxxvi. do Conselho Provincial realizado em 305, em Eliberis, em
+Espanha, refuta imediatamente o erro de Bingham. (Bingham manteve a mesma opinião sobre
+as imagens que estão expressas no texto.) Os pastores da Espanha
+igreja viu a grave perseguição que Diocleciano começara a travar
+contra a fé cristã, que durante um longo período gozou de comparações
+repouso, sob o reinado tolerante de Constâncio César, pai de Constantino, o Grande.
+Reuniram-se para concertar medidas de precaução e, entre
+outras coisas, determinaram que, nas províncias sob sua jurisdição imediata,
 
 We have several times penetrated, in the course
 of our researches, into the conscience of the leaders
@@ -961,16 +1789,42 @@ for the practices of a worship whose existence
 was for a century reduced to such a miserable
 state.
 
-I shall not dwell on what has been said about the
-tyranny of habit, which is always more severe wherever
-minds are less enlightened. I shall indicate
-another cause of the obstinacy of the Pagans, which
-was founded at least upon an operation of the mind—upon
+de imagens, mas uma medida de precaução a seu favor, deve ser apoiada
+seja pelos outros cânones do mesmo concílio, que não contêm nada confirmatório
+desta opinião, ou pela autoridade de algum escritor contemporâneo, e é sem
+tal evidência é bastante insustentável, e nada melhor do que um mero sofisma, tenho
+dada esta explicação do Concílio de Elvira por um escritor católico romano como um
+exemplo justo da maneira pela qual todas as outras práticas de sua igreja, derivadas
+do Paganismo, são defendidos.
 
-a judgment—and was, consequently, more
-deserving of fixing the attention of the church than
-that respect of custom against which the weapons
-of reason are powerless.
+Se tais decretos fossem necessários para manter a
+pureza da doutrina cristã, numa época em que os seus convertidos,
+em vez de esperar quaisquer vantagens mundanas,
+foram frequentemente expostos a severas perseguições e, consequentemente,
+não tinha outros motivos para abraçá-lo além de um
+mera convicção de sua verdade, quanto mais isso era
+pureza ameaçada quando a conversão ao cristianismo levou
+a favor do soberano, e quando a igreja,
+em vez de reprimir severamente as propensões idólatras
+dos seus filhos, esforçou-se por facilitar ao máximo
+possível a entrada dos pagãos em seu território!
+Deixe-me acrescentar que a mistura do cristianismo com
+O paganismo em vários atos públicos dos primeiros cristãos
+imperadores, que descrevi no anterior
+capítulo, não poderia deixar de contribuir para a confusão geral
+
+de idéias entre aqueles cristãos a quem o
+igreja estava continuamente recebendo em seu âmbito, com
+todas as suas noções pagãs. Descrevi, no segundo
+capítulo deste ensaio, a política de compromisso
+adotado pela igreja após a conversão de Constantino.
+Descreverei agora as consequências
+desta política, dando um esboço da vida cristã
+sociedade que produziu e que tem sido
+desenhado, com base na autoridade de escritores eclesiásticos, por
+o mesmo autor cuja descrição e defesa de
+aquela política que dei no mencionado acima
+capítulo.
 
 The Christian dogmas, penetrating into a soul
 corrupted and weakened by idolatry, must have, in
@@ -991,13 +1845,33 @@ before a God whose greatness terrified them, kept
 for many years a multitude of Pagans from the
 church.
 
-If it has entered the designs of Providence to
-temper the severe dogmas of Christianity by the
-consecration of some mild, tender, and consoling
-ideas, and by the same adapted to the fragile human
-nature, it is evident that, whatever may have been
-their aim, they must have assisted in detaching the
-last Pagans from their errors. The worship of Mary,
+interesse, por curiosidade, ou por moda, e depois
+abandonado na primeira ocasião. Foi, em
+fato, não indiferença, porque a indiferença induz
+pessoas a permanecerem na religião em que eram
+nascido; era um ateísmo completo, uma depravação revoltante,
+um desprezo abertamente expresso por tudo o que é
+mais sagrado. Quantas vezes a igreja, que
+lutou, mas em vão, contra o progresso do
+malvado, teve ocasião de lamentar os recrutas demasiado fáceis
+quem ela estava fazendo entre as fileiras inferiores de
+sociedade! Nota do tradutor. - E
+no entanto, o mesmo escritor defendeu esta forma de recrutamento
+a igreja. - Víd. supra, pág.
+17. Pessoas vergonhosamente ignorantes, sem
+honra, sem sombra de piedade, poluídos por sua
+presença nas assembleias dos fiéis. Eles são
+aqueles a quem os pais da igreja designaram por
+o nome do
+mali Christiani—ficção
+Christiani,
+e contra quem as suas vozes eloquentes eram frequentemente
+retumbante. Os hereges, os promotores de problemas
+e sedições, sempre contou com aqueles homens, que
+parecia entrar na igreja apenas para perturbar
+ela pelo seu espírito turbulento, ou que consentiu em permanecer
+na verdadeira fé apenas sob a condição de introduzir
+nos usos do culto cristão, uma multidão de superstições cuja influência
 
 the mother of God, seems to have been the means
 which Providence has employed for completing
@@ -1060,9 +1934,31 @@ of the last Pagans,—a resistance which was
 feeble enough in Italy, but violent beyond the
 Alps.Beugnot, vol. ii., book xii., chap. 1, pp. 261-272.
 
-Chapter III. Position Of The First Christian Emperors Towards
-Paganism, And Their Policy In This
-Respect.
+SócratesUm escritor eclesiástico do quinto
+século. fala de um sofista de Constantinopla,
+chamado Ecebolus, que se conformava com um maravilhoso
+facilidade para todas as mudanças de sorte que o Cristianismo
+estava passando. Durante o reinado de Constantino,
+ele afetou o maior zelo pelo novo
+crença; mas quando Juliano se tornou imperador, ele retomou
+sua antiga devoção aos deuses do paganismo.
+Após a morte daquele monarca, ele deu grande
+publicidade ao seu arrependimento, e prostrou-se
+diante das igrejas, clamando aos cristãos,
+Pise-me sob seus pés, como o sal que tem
+perdeu o sabor! Sócrates acrescenta: - Ecebolus permaneceu
+o que ele sempre foi, - ou seja, um inconstante e
+homem inconstante. Santo Agostinho certamente poderia dizer
+o mesmo de seu astrólogo. Não é surpreendente
+constatamos que a apostasia ainda prevalece numa época em que não há
+o homem poderia acreditar na restauração do
+adoração antiga? A aparição de Julian deve
+perturbaram muitas mentes, abalaram muitas consciências,
+e deu ao triunfo do cristianismo o caráter
+de um evento transitório. Mas, no final do
+século IV, era impossível abandonar o
+igreja e retornar aos ídolos, exceto por um sentimento
+o que não poderia deixar de despertar profunda pena. EU
 
 I have given in the preceding chapter a description,
 traced by one of the most learned Roman Catholic
@@ -1079,17 +1975,43 @@ those very errors and superstitions which it was her
 mission to destroy, and to deliver mankind from
 their baneful influence.
 
-There is a widely-spread but erroneous opinion,
-that the conversion of Constantine was followed by
-an immediate destruction of Paganism in the Roman
-empire. This opinion originated from the incorrect
+A adoração antiga não estava apenas obstruindo
+o desenvolvimento do Cristianismo por meios secretos e insidiosos
+ataques, mas também estava prejudicando a disciplina
+da igreja, porque sua influência sobre os costumes
+os convertidos era algo mais parecido com uma verdadeira tirania
+do que o remanescente natural de sua antiga influência. Isso
+é, de fato, surpreendente com a facilidade que introduziu
+no santuário do verdadeiro Deus, seus supersticiosos
+espírito, sua moral relaxada e seu amor pela desordem.
+Quão pequena era a igreja naquela época, isto é, setenta anos
 
-statements of some ecclesiastical writers; but historical
-criticism has proved, beyond every doubt, that,
-even a century after the conversion of that monarch,
-Paganism was by no means extinct, and counted
-many adherents, even amongst the highest classes
-of Roman society.
+após a conversão de Constantino, - semelhante
+o que ela deveria ter sido, ou o que ela se tornou
+depois! Nota do tradutor.
+é uma pena que o autor nos deixe no escuro
+sobre a época em que esta grande melhoria na Igreja Católica Romana para
+que ele alude aconteceu. São Jerónimo pretendia, em direcção ao
+fim de sua vida, para escrever uma história eclesiástica; mas
+foi para mostrar que a igreja, sob a
+imperadores cristãos, continuavam em declínio.
+Divitiis maior, virtutibus menor (maior em
+riqueza, menor em virtude), foi a sentença severa que
+São Jerónimo deve ter-se pronunciado com pesar, mas
+cuja justiça é provada por todos os fatos históricos
+documentos desse período. Este ilustre líder
+O Cristianismo, cuja mente estava mais inclinada ao entusiasmo
+do que o desânimo, frequentemente perdia toda a energia,
+refletindo sobre a condição deplorável do
+igreja, declarando que não sentia mais nenhum poder
+escrever. Um número suficiente de historiadores
+representado em cores vivas o luxo excessivo de
+os bispos naquela época, bem como a ganância,
+a ignorância e a má conduta do
+clero; Escolherei, portanto, desta melancolia
+imagine apenas as partes que se referem ao
+
+história do Paganismo.
 
 When Constantine proclaimed his conversion to
 the religion of the Cross, its adherents formed but a
@@ -1109,18 +2031,31 @@ represents the number of Christians in the Roman empire to be so great, that it
 would have become a desert if they had retired from it, is considered by Beugnot
 (vol. ii. p. 188) as the most exaggerated hyperbole which has ever been used by
 
-an orator.
-The deficiency of their numbers was, however, compensated
-by their moral advantages; for they were
-united by the worship of the one true God, and ardently
-devoted to a religion which they had voluntarily
-embraced, and for which they had suffered so
-much. The Pagans were, on the contrary, disunited,
-and in a great measure indifferent to a religion whose
-doctrines were derided by the more enlightened of
-them, though, considering it as a political institution
-necessary for the maintenance of the empire,
-they often displayed great zeal in its defence. The
+respeito convencional ou um desprezo aberto. Santo Agostinho
+relata, no quarto livro de suas Confissões, capítulo iii., que
+ele foi desviado da ideia de estudar astrologia por um médico pagão, que
+o fez compreender toda a falsidade e o ridículo daquela ciência. Eles
+juraram pelos falsos deuses - eles observaram o quinto
+dia, dedicado a Júpiter, - e eles participaram do
+os jogos sagrados, festas e festivais dos pagãos.
+As cerimônias cristãs não preservaram quase nenhum
+coisa de sua antiga majestade. Não foi raro
+ocorrência para ouvir hinos pagãos cantados em cristãos
+solenidades, ou ver cristãos dançando diante
+suas igrejas, de acordo com o costume do Paganismo.
+Não havia mais decência observada no interior
+daquelas igrejas: as pessoas iam lá para falar sobre
+negócios ou para se divertir; o barulho era tão
+grande, e as gargalhadas tão altas, que foi
+impossível ouvir a leitura das Escrituras; o
+congregação brigou, brigou e às vezes interferiu
+com o sacerdote oficiante, pressionando-o para terminar,
+ou obrigando-o a cantar, de acordo com o seu gosto.
+Santo Agostinho estava, portanto, justificado em chamar
+esta influência tão poderosa do culto antigo
+
+perseguição do demônio, mais encoberta e insidiosa
+do que aquela que a igreja primitiva havia sofrido.
 
 Christians of that time may be compared to the
 Greeks when they combated the Persians on the
@@ -1177,11 +2112,31 @@ its attachment to the error, furnished, by the help
 of its immense riches, the means of subsistence
 to a greedy, turbulent, and superstitious populace,
 
-amongst whom it could easily maintain the most odious
-prejudices against Christianity. The hope of acquiring
-a name, a fortune, or simply to take a part
-in the public distributions, attracted to that city from
-the provinces all those who had no condition, or,
+Este quadro melancólico da sociedade cristã, em
+início do século V, desenhado por M.
+Beugnot, sob a autoridade dos escritores eclesiásticos,
+é, de fato, tão sombrio quanto o da sociedade romana em
+geral, que foi descrito tão graficamente
+mais ou menos na mesma época, pelo autor pagão Amiano
+Marcelino, e reproduzido por Gibbon. Foi
+muito natural que um solo tão corrompido produza
+o maior crescimento da superstição, e rapidamente
+provocar aquela reação melancólica que não foi
+inadequadamente estilizado por Gibbon, o renascimento do politeísmo
+na igreja cristã. Este estado miserável de
+coisas foi, como eu disse antes, principalmente devido a isso
+política de compromisso pela qual os líderes do
+a igreja procurou obter o maior número possível de pagãos
+em seu pálido, e que consequentemente foram batizados
+sem ser convertido. Este compromisso com
+O paganismo foi frequentemente levado a grandes extremos; e
+a história da conversão de Florença, que
+extraímos do trabalho de M. Beugnot, dá uma
+dos exemplos mais marcantes daqueles sem princípios
+procedimentos:—Florence prestou honras especiais a
+o deus Marte. Não foi sem pesar que
+abandonou o culto a esta divindade. A hora
+da sua conversão tinha sido atribuído ao segundo ou
 
 what is still worse, those who were dissatisfied with
 theirs. Italy, Spain, Africa, and Gallia sent to
@@ -1208,12 +2163,29 @@ were revealing to them the ever active power of the
 Lie! They dared not either to found churches, to
 open schools, or even publicly to reply to what was
 
-spoken against them, at the theatres, at the forum,
-or at the baths: so that they seemed to exist at
-Rome only in order to give a greater eclat to the
-dominion of idolatry.—(Vol. i., p. 75.) It was no
-wonder that such a religious disposition of Rome had
-placed it in a continual and strenuous opposition to
+e alegria aos cristãos. As tradições daquela cidade
+previu-lhe grandes calamidades se a estátua de Marte
+foi manchado ou colocado em um lugar indigno de
+isso. Os florentinos estipularam, portanto, em aceitar
+a nova religião, que Marte deveria ser respeitado.
+Conseqüentemente, sua estátua não foi quebrada nem
+manchado, mas foi cuidadosamente tirado de seu templo,
+e colocado em um pedestal perto do rio, que corre
+pela cidade. Muitos anos depois disso, o novo
+Os cristãos temiam e invocavam aquele deus que foi destronado
+apenas pela metade. Quando quase todos os pagãos
+templos haviam caído com o passar do tempo ou
+sob os golpes dos cristãos, o paládio pagão
+de Florença permanecia imóvel, ereto, às margens do
+o Arno; e, segundo um dos mais esclarecidos
+historiadores que a Itália produziu durante
+a idade média (G. Villani, lib. i., cap. 60), a
+demônio que havia permanecido na estátua percebeu, em
+século XIII, a velha previsão do
+Etruscos. Nota do autor. - Em
+1215, Buondelmonte foi assassinado pelos Amidei no
+pé da estátua de Marte. Este assassinato produziu em Florença uma guerra civil que,
+espalhando-se gradualmente por toda a Itália, deu origem às facções dos Guelfos e
 
 Constantine, and his Christian successors; and this
 circumstance may be considered as an additional motive
@@ -1236,19 +2208,44 @@ occasions the city of the Cæsars, which had become,
 since the foundation of Constantinople, the fortified
 camp of Paganism.Beugnot, vol. i., p. 86.
 
-Constantine proclaimed full religious liberty to
-all his subjects. This measure, dictated by a sound
-policy, and in perfect harmony with the true spirit
-of his new religion, was not, however, sufficient to
-relieve him from the difficulties of his personal position,
-as he united in his person two characters diametrically
-opposed one to another. Being a Christian,
-he was at the same time, as the emperor of
+fortalecidos pelos milagres com que seu êxodo
+do Egito foi acompanhado, e ainda uma curta ausência
+de Moisés do seu acampamento foi suficiente para fazer
+eles clamam por deuses que iriam antes deles, e
+para induzi-los a adorar uma imagem evidentemente emprestada
+da idolatria daqueles mesmos egípcios por
+a quem eles foram tão oprimidos. Foi,
+portanto, não é de admirar que a sociedade, educada por muitos
+séculos sob a influência do paganismo, foram
+retornando continuamente aos seus antigos ritos, superstições,
+e boas maneiras, embora com um novo nome,
+e de forma modificada. Se considerarmos mais adiante, que
+um homem como Aaron não tinha força suficiente para
+resistir às exigências insensatas da multidão e
+até consentiu em moldar um objeto para sua idolatria,
+como poderiam os líderes da igreja se opor
+a pressão do Paganismo, que eles tinham incautamente
+admitido em seu pálido, e que, sob
+o nome falso de Cristianismo, estava estabelecendo
+seu domínio sobre a igreja? Não houve inspiração
+profeta entre os cristãos daquela época,
+restaurar a pureza de sua fé da mesma maneira
+como Moisés fez entre os judeus, após seu retorno
+do Monte Sinai. A igreja cristã era
+portanto, deixado durante séculos sob a opressão de
 
-Rome, the head and the representant, not only of
-its political, but also of its religious institutions. This
-circumstance forced him into a double line of policy,
-which I shall describe in the words of M. Beugnot:—
+superstições pagãs, das quais, até agora, apenas uma pequena
+parte dela foi emancipada, embora eu firmemente
+acredito que um dia ela será totalmente restaurada
+à sua pureza imaculada. Esta esperança, no entanto, não é
+
+fundada no mero avanço do intelecto humano,
+porque, apesar do seu alardeado progresso, parece agora
+ser impotente contra a reação diária crescente de
+as superstições acima mencionadas, mesmo em lugares
+de onde aparentemente foram banidos para sempre,
+mas porque o cristianismo é de natureza divina e não humana
+origem.
 
 There were in Constantine, so to say, two persons,—the
 Christian and the emperor. If that monarch
@@ -1275,7 +2272,15 @@ of pagan Rome; for it was an inheritance
 which he could not renounce, without danger to
 himself as well as to the empire.
 
-When we observe some actions of Constantine,
+abuso das honras que foram prestadas à memória
+dos mártires pelos cristãos da África, e ordenou
+os bispos para reprimi-los, se a coisa pudesse ser
+feito, mas se não pudesse ser feito por causa do
+emoções populares, para alertar pelo menos o povo. Isto
+prova o quão fracos os bispos sentiam a sua autoridade
+ser contra as superstições prevalecentes entre
+seus rebanhos, e que preferiam sofrer o último
+arriscar o primeiro.
 
 evidently tinged with Paganism, we must consider
 less their external form than the relation in which
@@ -1298,28 +2303,93 @@ this; and it prevented him giving way to
 the entreaties, and even complaints, of over-zealous
 Christians.—Vol. i., p. 88.
 
-Constantine was, notwithstanding his conversion
-to Christianity, the supreme pontiff of pagan Rome.
-The title of this dignity was given him on the public
-monuments, and he performed its functions on
-several occasions; as, for instance, in 321, several
-years after his conversion, he wrote to Maximus, prefect
-of Rome, as follows:—
+O mesmo Santo Epifânio relata, numa carta dirigida
+a João, bispo de Jerusalém, que tendo
+chegou durante uma viagem a uma aldeia chamada Anablatta,
+ele encontrou em sua igreja um véu suspenso sobre
+porta, com uma figura representando Cristo ou algum
+santo. Ele ficou tão indignado com essa visão que
+imediatamente rasgou o véu em pedaços e aconselhou o
+guardas daquela igreja para empregá-lo como uma mortalha para enterrar
+um cadáver. Como as pessoas do lugar reclamaram
+que o véu da sua igreja foi destruído, sem
+dando-lhes outro em seu lugar, Epifânio enviou
+eles um; mas ele exortou em sua carta o acima mencionado
+bispo de Jerusalém, em cuja diocese
+Anablatta estava situada, para ordenar aos sacerdotes daquela
+lugar para não suspender mais tais véus no
+igreja de Cristo, porque são contrários à nossa
+religião.
 
-If our palace or any public monument shall be
-struck by lightning, the auguries are to be consulted,
+A autenticidade desta carta, que contém tais
+fortes evidências contra o uso de imagens em igrejas,
+foi rejeitado por Belarmino e pelo eclesiástico
+historiador Baronius, mas foi admitido por Petau
+e alguns dos escritores mais hábeis da Igreja Católica Romana
 
-according to the ancient rites (retento more veteris
-observantiæ), in order to know what this event indicates;
-and the accounts of these proceedings are immediately
-to be sent to us. Private individuals may
-make similar consultations, provided they abstain
-from secret sacrifices, which are particularly prohibited.
-With regard to the accounts stating that
-the amphitheatre was recently struck by lightning,
-and which thou hast sent to Heraclianus the tribune,
-and master of offices, know that they must be
-delivered to us.
+Igreja. Foi traduzido para o latim por São Jerônimo,
+e é encontrado em todas as coleções de suas obras.
+
+O mais célebre oponente dos abusos cometidos
+que a igreja já havia sido infectada naquele
+o tempo era Vigilâncio. Seus escritos não foram preservados,
+e conhecemos suas opiniões apenas por sua refutação
+por São Jerônimo, e do qual podemos concluir
+que este reformador do século V manteve
+as mesmas doutrinas que foram posteriormente
+defendido pelos valdenses, Wycliffe, os hussitas,
+e que agora são professados pelos cristãos protestantes.
+Ele nasceu em Calagorris, na Gália; ele se tornou
+um padre em Barcelona, e contratado naquele
+estabelecer uma amizade íntima com São Paulino, depois
+bispo de Nola. Vigilantius foi para a Itália em
+para ver esse amigo dele, e tendo a intenção
+visitar a Palestina e o Egito, tirou dele uma
+introdução a São Jerônimo. Eles se tornaram ótimos
+amigo de São Jerônimo, que ficou muito satisfeito com
+as marcas de aprovação mostradas por Vigilantius
+durante um sermão que ele pregou. Ele também
+reconhece que ele, assim como vários outros,
+teria morrido de fome, se Vigilantius
+não os ajudou com seus próprios esforços e com os de seus amigos
+dinheiro; e ele diz, em sua resposta a Paulino,
+Você aprenderá da boca do santo sacerdote,
+Vigilâncio, com que carinho recebi
+
+ele. Esse afeto desapareceu, porém, assim que
+quando Jerônimo soube que Vigilantius o havia acusado de
+
+Egito de ser muito parcial para com Orígenes, e o santo
+padre tornou-se um impertinente, cujos discursos bobos
+ele havia observado durante a primeira entrevista. Ele
+fez uso de diversas expressões prejudiciais ao falar
+do antigo objeto de sua admiração, e que não
+não está de acordo com a gravidade de seu caráter, pois,
+por exemplo, chamando-o frequentemente de Dormitantius
+de Vigilâncio. Sua indignação não conheceu limites quando
+ele ouviu, em 404, que Vigilâncio, que então estava em
+Gallia, atacou várias práticas que se espalharam
+na igreja, e ele ditou em uma única noite
+uma resposta veemente às opiniões de Vigilantius,
+que, segundo este escritor, ensinou o seguinte: -
+
+Que as honras prestadas aos ossos podres e
+pó dos santos e mártires, adorando, beijando,
+embrulhando-os em prata e encerrando-os em vasos
+de ouro, colocando-os em igrejas e iluminando
+cera de velas diante deles, era idolatria.
+
+Que o celibato do clero era uma heresia, e
+seus votos de castidade um seminário de lascívia.
+
+Que orar pelos mortos, ou desejar suas orações,
+era superstição, e que podemos orar uns pelos outros
+apenas enquanto estivermos vivos.
+
+Que as almas dos apóstolos e mártires falecidos
+estavam em repouso em algum lugar particular, e poderiam
+não sair, para estar presente em vários lugares,
+por ouvirem as orações que lhes são dirigidas.
 
 This is undoubtedly a very strange document for
 a Christian monarch, who officially commands to consult
@@ -1327,25 +2397,48 @@ the Pagan oracles, and, as its concluding words
 seem to imply, is anxious to maintain, on similar occasions,
 his rights as the supreme pontiff of Paganism.
 
-It was also in his quality of supreme pontiff
-that Constantine instituted, soon after his accession,
-the Francic games, for the commemoration of his
-victory over the Franks, and which were celebrated,
-during a considerable time, on the 18th of the kalends
-of August; and, in 321, the Sarmatic games,
-on the occasion of his victory over the Sarmatians,
-and celebrated on the 6th of the same month.
-These games were real Pagan ceremonies, and reprobated
-on this account by the Christian writers of
-that time.Ludorum celebrationes, deoram festa
-sunt.—Lactantius, Institutiones
-Divin., vi., 20, apud Beugnot.
+A resposta de Jerônimo ao acima mencionado
+opiniões de Vigilantius é uma curiosa mistura de violência
+e casuística. Ele declarou seu quondam
+amigo e santo sacerdote, Vigilantius, um monstro maior
+do que todos aqueles que a natureza já produziu,
+os Centauros, os Behemoths, as Sereias,
+o Gerion, de corpo triplo, da Espanha; que ele era um
+herege mais detestável, desabafando blasfêmias sujas
+contra as relíquias dos mártires, que trabalhavam
+milagres todos os dias. Vá, diz ele a Vigilantius, para
+as igrejas daqueles mártires, e tu serás
+purificado do espírito maligno pelo qual você está agora
+possuído, e sinta-se queimando, não por aquelas ceras
+velas que te ofendem, mas por chamas invisíveis,
+o que forçará aquele demônio que fala dentro de você
+confessar que ele é o mesmo que personificou,
+talvez um Mercúrio, um Baco, ou algum
+outro dos deuses pagãos, entre seus seguidores,
+etc. Ele é incapaz, no entanto, de produzir qualquer outro
+argumento em apoio à adoração de relíquias do que o
+exemplo daqueles que o praticaram. Foi
+errado, exclama ele, dos bispos de Roma
+celebrar o serviço divino nas sepulturas que contêm o
+ossos de São Pedro e São Paulo, que, segundo
+Vigilâncio, não havia nada melhor que pó? O
 
-I could quote other instances of a similar kind;
-but I shall conclude this subject by observing, that a
-medal has been preserved, upon which Constantine
-is represented in the dress of the supreme pontiff,—i.e.,
-with a veil covering his head.
+O Imperador Constâncio deve então ter cometido um
+
+sacrilégio ao traduzir as relíquias sagradas de André,
+Lucas e Timóteo, para Constantinopla; o imperador
+Arcádio deve então ser considerado também um sacrilégio,
+como ele traduziu os ossos do abençoado Samuel
+da Judéia à Trácia; então todos aqueles bispos que
+consentiu em preservar mero pó em vasos de ouro
+ou envoltos em seda, não eram apenas sacrilégios, mas eram
+tolos; e, finalmente, que todas essas pessoas devem ter
+foram tolos que saíram para encontrar essas relíquias, e
+os recebeu com tanta alegria como se fossem os
+o próprio profeta está vivo, porque a procissão que
+os carregava era frequentado por multidões de pessoas de
+Palestina até Calcedônia, cantando louvores a Cristo,
+cujo servo Samuel era.
 
 Constantine was, indeed, very anxious not to offend
 the Pagan party. In 319 he published a very
@@ -1371,8 +2464,31 @@ and he published in 321 an edict, by which
 he positively allows the practice of a certain kind of
 magic, by the following remarkable expressions:—
 
-It is right to repress and to punish, by laws
-justly severe, those who practise, or try to practise,
+O resto dos argumentos que São Jerônimo emprega
+ao refutar o que ele chama de erros e
+heresias de Vigilâncio são de natureza semelhante às
+aqueles que foram dados acima; e é realmente
+surpreendente ver que um homem assim comemorou
+pai, que geralmente é considerado um dos
+grandes luminares da igreja, não apenas por romanos
+católicos, mas também por alguns protestantes, poderiam descender
+a mudanças tão miseráveis, e entregar-se a tais
+linguagem violenta como ele fez, em sua resposta a Vigilâncio,
+
+que traz uma forte marca de ter sido
+ditado mais por seus sentimentos pessoais contra seu
+ex-amigo e benfeitor, do que por uma convicção de
+a justiça da causa que ele defendia
+aquela ocasião. É, no entanto, evidente a partir do
+outros escritos do mesmo pai da igreja,
+que sua imaginação era muito mais poderosa do que
+suas faculdades de raciocínio, e que ele havia esquecido completamente
+o preceito de São Paulo, de recusar o profano
+e fábulas de velhas esposas - (1 Timóteo 4. 7) - porque
+ninguém jamais se entregou a fábulas mais absurdas do que
+este bom pai fez, em suas vidas de Santo Hilarion e
+São Paulo, dois monges célebres, e dos quais o
+o seguinte é um exemplo justo: -
 
 the magical arts, and seek to seduce pure souls into
 profligacy; but those who employ this art in order
@@ -1407,12 +2523,24 @@ as one of their own. Thus, after his death, the
 senate placed him, according to the usual custom,
 among the gods; and a calendar has been preserved
 
-where the festivals in honour of this strange divinity
-are indicated. The name of Divus is given to him
-on several coins; and, what is very odd, this Pagan
-god is represented on the above-mentioned medals
-holding in his hand the Christian sign of the
-labarum.
+A obra acima mencionada está repleta de fábulas
+ainda mais extravagante do que aquele que relatei,
+e que jogam inteiramente na sombra o
+célebres contos de Munchausen. Jerônimo reclamou
+que muitas pessoas, a quem, na sua mansidão cristã,
+ele chama de cães scylleanos, estavam rindo das histórias
+relatado nessas obras, e que ele começa invocando
+a assistência do Espírito Santo. Foi
+então é de admirar que um Cristianismo, defendido por tais
+superstições miseráveis, foi frequentemente abandonado por
+indivíduos que, comparando as lendas cristãs de
+do tipo citado acima com as ficções de Pagan
+mitologia, preferiu esta última por ser mais poética?
+
+e, de fato, temos exemplos do ridículo
+que os pagãos tentaram lançar sobre o cristianismo,
+comparando seus santos com seus próprios deuses
+e semideuses.
 
 We thus see that Constantine, instead of persecuting
 the adherents of the national Paganism, was following
@@ -1427,17 +2555,36 @@ Christians, who had nobly stood the test of adversity,
 were not proof against the more dangerous trial of a
 sudden and unexpected prosperity.
 
-The first favour granted by Constantine to the
-Christians, and which he did even before his public
-confession of their faith, was the extension to their
-clergy of the exemption from various municipal
-charges enjoyed by the Pagan priests, on account of
-their being obliged to give at their expense certain
-public games. The Christian clergy were thus placed
-in a more favourable position than the Pagan priests,
-because, though admitted to equal immunities, they
-were not subjected to the same charges; and thus, for
-the first time, a bribe was offered for conversion
+sem dúvida que houve, não apenas em seus dias, mas
+muito depois dele, um bom número de testemunhas do
+verdade, que se opôs à rápida disseminação das idéias pagãs
+e práticas na igreja. Assim, no final de
+século VI, Sereno, bispo de Marselha, removeu
+todas as imagens da sua igreja, porque o
+as pessoas os adoravam. Isto produziu um grande
+descontentamento entre muitas pessoas da sua diocese, que
+apelou ao Papa Gregório I. a favor das imagens.
+O Papa aconselhou um meio-termo, isto é, que o
+imagens devem permanecer na igreja, mas que
+não deveria ser permitido adorá-los. Sereno,
+no entanto, quem bem sabia que aquele infalivelmente liderou
+para o outro, recusou-se a cumprir as injunções papais,
+sobre o qual Gregory escreveu para ele novamente,
+dizendo que elogiou seu zelo em não sofrer o
+adoração de qualquer coisa que foi feita pela mão de
+homem; mas que as imagens não devem ser destruídas, porque
+imagens foram usadas nas igrejas para ensinar o
+ignoravam de vista o que não podiam ler nos livros,
+&c.Vide supra, p. 8.
+
+Vemos, portanto, que no final do sexto
+século, o célebre Papa Gregório I., de sobrenome
+o Grande, considerava a adoração de imagens como um
+abuso fosse proibido, mas que depois foi legalizado
+por seus sucessores, e uma oposição a ela declarada
+heresia.
+
+Eu poderia produzir outras evidências para mostrar que o
 
 to a religion which had hitherto generally exposed
 its disciples to persecution. Numbers of people,
@@ -1470,11 +2617,31 @@ which had been the glory of the church during the
 three preceding centuries, may be dated from his
 reign.—Ibid., p. 87.
 
-The ecclesiastical historian Eusebius, a great admirer
-of Constantine, whose personal friend he was,
-admits himself, that the favours shown by that
-monarch to the church have not been always conducive
-to her purity.
+lançar na balança da reprovação o acumulado
+peso da verdade e da vitória. Império Romano de Gibão,
+cap. xlix. E, de fato,
+não poderia haver um argumento mais forte contra
+a eficácia das imagens do que a rápida conquista por
+os maometanos de muitas cidades cristãs que dependiam
+após uma defesa milagrosa por algumas imagens preservadas
+em suas igrejas. Esta circunstância poderia
+não, mas produzir, nas mentes de muitos que pensam
+Cristãos, uma convicção do absurdo da adoração de imagens,
+e a difusão de tais opiniões deve ter
+promovida por congregações que preservaram
+a pureza do culto primitivo, e de quem
+parece que havia vários ainda existentes no
+século VIII, bem como pela influência da Arménia,
+um país com o qual o império oriental teve relações frequentes
+relações de natureza política e comercial,
+e cuja igreja rejeitou naquela época a
+adoração de imagens. Este partido queria apenas um líder
+e circunstâncias favoráveis para publicamente
+afirmar a sua condenação da prática prevalecente,
+que eles consideraram como idolatria pecaminosa. A adesão
+de Leão III., o Isauriano, em 717, que, de
+uma condição inferior, elevado por seus talentos e habilidades militares
+proeza ao trono imperial, deu a esse partido
 
 In short, the sudden triumph of the church
 under Constantine was one of the principal causes
@@ -1501,11 +2668,28 @@ place amongst Christians or not; but the Western
 church has not bestowed upon his memory the
 honours of saintship, though she has been generally
 
-very lavish of them.The Græco-Russian
-church has, however, given him a place in her calendar
-on the 21st May, but only in common with his mother Helena. This was
-done only a considerable time after his death. Thus the first Christian emperor
-was canonised only by the Pagans.
+demais os primeiros anos do reinado daquele imperador
+para permitir-lhe empreender uma reforma da igreja.
+Mas em 727 ele reuniu um conselho de senadores e
+bispos, e decidiram, com o seu consentimento, que todos os
+imagens devem ser retiradas nas igrejas do
+santuário e o altar, a uma altura onde pudessem
+ser visto, mas não adorado, pela congregação. Os gregos
+e os russos adoram suas imagens principalmente beijando-as, e
+provavelmente foi por isso que foi ordenado elevá-los a uma altura
+onde eles não poderiam ser alcançados pelos lábios de seus devotos, porque isso significa
+não poderia impedi-los de se curvar diante deles.
+Foi, no entanto, impossível acompanhar por muito tempo esse meio
+claro, como os adeptos das imagens inventaram
+adorá-los apesar de sua elevação, enquanto seus
+oponentes taxaram o imperador com falta de zelo, mantendo
+mostre-lhe o exemplo do monarca judeu,
+que fez com que a serpente de bronze fosse quebrada.
+Leão, portanto, ordenou que todos os tipos de imagens fossem destruídos;
+e embora seu decreto tenha encontrado alguma oposição, está relacionado
+que as mulheres eram as mais zelosas na defesa do
+imagens, e que um oficial do imperador, que estava demolindo uma estátua de
+Cristo colocado na entrada do palácio imperial, foi assassinado por eles.
 
 The sons of Constantine followed the religious
 policy of their father; and the facility with which his
@@ -1532,7 +2716,27 @@ Christian. He published, immediately after his accession,
 an edict allowing perfect religious liberty to
 all his subjects, with the exception of the Manicheans
 
-and some other sects. He granted several new privileges
+os outros imperadores iconoclastas, é derivado de historiadores
+se opunham violentamente às suas opiniões religiosas.
+Esses escritores representam Constantino VIII. como um
+dos maiores monstros que já desgraçaram a humanidade,
+manchado por todos os vícios imagináveis; e tendo
+esgotou todos os termos usuais de opróbrio,
+eles inventam algumas expressões ridículas como
+leopardo gerado por um leão, uma aspic nascida de
+as sementes de uma serpente, um dragão voador, etc.; mas
+eles não aduzem em confirmação desses epítetos
+qualquer um dos atos criminosos que desonraram o
+reinados de muitos imperadores bizantinos, cuja piedade é
+exaltado pelos mesmos escritores. Sabemos, além disso,
+pela evidência daqueles mesmos historiadores que
+salpicado com todos aqueles termos injuriosos, o
+memória de Constantino, que ele era um homem corajoso e
+líder hábil, que derrotou os árabes, o mais
+formidáveis inimigos do império, e restaurou
+várias das suas províncias perdidas, e que o país
+foi próspero sob seu reinado de trinta e quatro anos - 741
+para 775.
 
 to Christians, but he continued to conform for
 some time to the duties inherited from his Pagan
@@ -1564,7 +2768,10 @@ of which gave to that assembly, though it
 already contained many Christian members, the character
 of a Pagan institution.
 
-The senate sent a deputation to Gallia, where
+as paredes cobertas de cal. O diretor
+oposição à ordem imperial foi oferecida pelo
+monges, que sempre foram os principais promotores da
+adoração de imagens; e Constantino é acusado de ter
 
 Gratian was at that time, in order to remonstrate
 against these measures, and to present to him, at the
@@ -1597,8 +2804,34 @@ course of the year 391, he published a series of edicts,
 prohibiting under pain of death every immolation,
 and all other acts of idolatry under that of confiscation
 
-of the houses or lands where they had been
-performed.
+Sob o reinado de Constantino VIII., o
+união do poder civil e eclesiástico derrubou
+a árvore, sem extirpar a raiz da
+superstição. Os ídolos, para tal eram agora
+detidos, eram secretamente acarinhados pela ordem e pelo
+sexo mais propenso à devoção; e a aliança afetuosa
+dos monges e mulheres obtiveram uma vitória final
+sobre a razão e a autoridade do homem. Leão
+4. manteve com menos rigor a religião de
+seu pai e avô, mas sua esposa, a bela e
+a ambiciosa Irene, absorveu o zelo dos atenienses, Irene
+era natural de Atenas.
+os herdeiros da idolatria e não da filosofia
+de seus ancestrais. Durante a vida dela
+marido, esses sentimentos foram inflamados pelo perigo
+e dissimulação, e ela só poderia trabalhar para proteger
+e promover alguns monges favoritos, a quem ela
+retiraram de suas cavernas e sentaram-se no metropolitano
+tronos do leste. Mas assim que ela reinou
+em seu próprio nome e no de seu filho, Irene mais
+empreendeu seriamente a ruína dos iconoclastas, e
+o primeiro passo de sua futura perseguição foi um general
+Édito pela liberdade de consciência. Na restauração de
+dos monges, mil imagens foram expostas ao
+veneração pública; mil lendas foram inventadas
+
+de seus sofrimentos e milagres. Pelas oportunidades
+de morte e remoção, os assentos episcopais foram
 
 Theodosius died in 395, but had his life been prolonged,
 he would probably have developed still farther
@@ -1689,11 +2922,25 @@ it destroyed all the means by which such feelings
 were produced. Alaric and his Goths seem
 to have been destined by Providence to precipitate
 
-the fall of Paganism at Rome, as well as in Greece,
-because the capture and sack of the eternal city by
-these barbarians, in 410, accelerated the ruin of its
-ancient worship more than all the laws proclaimed
-against it by the Christian emperors. The particulars
+A piedade de Irene, demonstrada pela restauração de imagens,
+e a perseguição dos seus oponentes, foi de facto
+tão apreciada pela igreja, que recebeu
+um lugar entre os santos do calendário grego.
+Ela teve, porém, menos sorte em seus assuntos mundanos;
+porque ela foi deposta em 802 por Nicéforo,
+que ocupava o trono imperial e exilado para
+Lesbos, onde morreu em grande pobreza. Ele não
+abolir as imagens, nem permitir a perseguição de seus
+oponentes; e os escritores eclesiásticos representam
+ele, por conta desta política liberal, como um perfeito
+monstro. Nicéforo morreu numa batalha contra o
+Búlgaros em 811, e seu sucessor Miguel, que
+perseguiu os iconoclastas, incapaz de se manter
+no trono, retirou-se para um convento, depois de um
+reinado de cerca de dois anos, e a coroa imperial
+foi assumido por Leão V., natural da Armênia, e
+um dos mais eminentes líderes do exército, que
+elevou-o a esta dignidade.
 
 of this terrible catastrophe have been amply
 described by Gibbon, and I shall only observe, that
@@ -1721,25 +2968,86 @@ prevalent amongst the rustic population of the provinces,
 and it was not entirely extinct in Italy
 even at the beginning of the sixth century; because
 
-the Goth, Theodoric the Great, who reigned over
-that country from 493 to 526, published an edict
-forbidding, under pain of death, to sacrifice according
-to the Pagan rites, as well as other superstitious
+De acordo com a relação deles, Leo acreditava que o
+vitórias obtidas pelos bárbaros, e outros
+calamidades às quais o império estava exposto, foram
+uma visitação de Deus em punição à adoração de
+imagens; que ele exigiu que um preceito para adorar
+as imagens deveriam ser mostradas a ele nos evangelhos, e
+como a coisa era impossível, ele os rejeitou como ídolos
+condenado pela Palavra de Deus. Eles também dizem que
+a atenção de Leo uma vez sendo atraída para esta passagem
+do profeta Isaías: A quem então
+comparar a Deus? ou com que semelhança você se comparará
+ele? O artesão derrete uma imagem esculpida, e o
+ourives espalha ouro e funde prata
+correntes, (xl. 18, 19), esta circunstância irritou
+ele mais do que qualquer outra coisa contra as imagens.
+Ele comunicou seus sentimentos ao patriarca,
+e pediu-lhe para remover as imagens, ou
+para mostrar uma razão pela qual eles eram adorados, uma vez que
 
-practices remaining from the ancient polytheism.
+as Escrituras não ordenaram isso. O patriarca, que
+era adepto das imagens, tentou fugir dessa demanda
+por vários sofismas, que, não tendo satisfeito
+o imperador, ele ordenou que os teólogos de ambos os partidos
+reuniram-se em seu palácio e representou-lhes que
+Moisés, que recebeu a lei, escreveu com a
+mão de Deus, condenado, nos termos mais explícitos,
+aqueles que adoravam as obras das mãos dos homens; que foi
+idolatria adorá-los, e grande loucura tentar
+confinar o Infinito em uma imagem do tamanho de um
+ei. Diz-se que os defensores das imagens recusaram
+falar pelas três seguintes razões:—1.
+Que os cânones proibiam duvidar do que havia sido
+determinado pelo segundo Concílio de Nice; 2. Isso
+o clero não poderia deliberar sobre tais assuntos em
+o palácio imperial, mas numa igreja; e, 3. Isso
+o imperador não era um juiz competente nesta ocasião,
+porque ele estava decidido a abolir as imagens.
+O imperador depôs o patriarca, que defendia o
+imagens, substituindo-o por outro que compartilhasse seu próprio
+sentimentos e convocou um conselho que, com o
+exceção de alguns de seus membros, decidiu pela abolição
+das imagens. O imperador ordenou sua remoção,
 
-I have given this sketch of the state of Paganism
-after the conversion of Constantine, and of the policy
-which was followed towards it by the first Christian
-emperors, because it seems to explain, at least to a
-certain degree, the manner in which Christianity was
-rapidly corrupted in the fourth and fifth centuries by
-the Pagan ideas and practices which I shall endeavour
-to trace in my next chapter.
+e enviou vários dos seus defensores para o exílio;
+ele logo, porém, permitiu que eles voltassem, e apenas
+alguns dos mais zelosos deles morreram no exílio.
+O mais célebre desses sofredores foi Theodore
+Estudantes; e como ele obteve nesta conta
+a honra da santidade, suas opiniões sobre a natureza da
 
-Chapter IV. Infection Of The Christian Church By Pagan
-Ideas And Practices During The Fourth
-And Fifth Centuries.
+as imagens merecem uma atenção especial. Ele manteve
+que como a sombra não pode ser separada do
+corpo, já que os raios do sol são inseparáveis daquele
+planeta, então as imagens são inseparáveis dos assuntos
+que eles representam. Ele fingiu que uma imagem
+de Cristo deve ser tratado como se fosse o próprio Cristo,
+dizendo: A imagem nada mais é do que Cristo
+ele mesmo, exceto a diferença de sua essência; portanto,
+a adoração da imagem é a adoração de
+Jesus Cristo. Ele considerou aqueles que eram
+removendo imagens como destruidoras da encarnação
+de Cristo, porque ele não existe se não puder ser
+pintado. Renunciamos a Cristo se rejeitamos a sua imagem;
+e nos recusamos a adorá-lo, se nos recusamos a adorar o seu
+imagem. Extratos do
+obras deste célebre monge e sua vida, apud Basnage
+História da Église, p. 1375.
+
+Esta defesa da adoração de imagens é, penso eu, uma
+exposição fiel das ideias antropomorfísticas,
+que, como mencionei antes, p. 9, tinha sido
+gerado principalmente pela imaginação mórbida do
+monges egípcios, e foram apoiados por numerosos
+classe, que formou os mais zelosos e eficientes
+defensores das imagens. Leão V. foi assassinado em um
+igreja em 820; e Michael II., apelidado de Gago,
+a quem os conspiradores colocaram no trono,
+não permitiu que as imagens fossem restauradas, embora ele
+era moderado em suas opiniões religiosas. Ele lembrou o
+defensores das imagens do exílio, e parecia
 
 I have said that the council of Elvira, in Spain, held
 in 305, prohibited the use of images in the churches.
@@ -1780,13 +3088,30 @@ time amongst the Spanish Christians, as a law prohibiting some particular crimes
 or offences shows that they were taking place at the time when it was promulgated;
 but the opinion that the above-mentioned enactment was not a prohibition
 
-of images, but a precautionary measure in their favour, must be supported
-either by the other canons of the same council, which contain nothing confirmatory
-of this opinion, or by the authority of some contemporary writer, and is without
-such evidence quite untenable, and nothing better than a mere sophism, I have
-given this explanation of the Council of Elvira by a Roman Catholic writer as a
-fair specimen of the manner in which all other practices of their church, derived
-from Paganism, are defended.
+e que parece agora assumir uma nova fase. eu
+não pense que a ignorância daqueles tempos possa
+ser considerada como a principal causa do triunfo
+do partido iconolatrico, e que a difusão do
+conhecimento em nossos dias é uma salvaguarda suficiente
+contra a recorrência de uma contingência semelhante.
+Houve nos séculos VIII e IX uma
+quantidade considerável de aprendizado em Constantinopla,
+onde os tesouros da literatura clássica, muitos dos
+que desde então foram perdidos, foram preservados e
+estudado. Assim, por exemplo, o
+obra bem conhecida do célebre patriarca Photius,
+escrito no século IX, contém extratos e avisos de muitas obras
+que nunca nos chegaram. Os gregos daquela época, embora sem dúvida
+muito inferior aos europeus modernos em termos físicos
+ciência, não o eram na metafísica e nas letras,
+enquanto o evangelho pudesse ser lido por todos os educados
+aulas em sua língua original, que era a oficial,
+linguagem literária e eclesiástica do Oriente
+império. A arte bizantina era, além disso, muito inferior
+ao da Europa moderna, e não poderia produzir,
+exceto em alguns intelectos grosseiros e rústicos,
+aquele efeito fascinante, que as obras de grandes
+pintores e escultores modernos muitas vezes produzem
 
 If such enactments were required to maintain the
 purity of Christian doctrine, at a time when its converts,
@@ -1863,14 +3188,50 @@ her by their turbulent spirit, or who consented to remain
 in the true faith only on condition of introducing
 into the usages of Christian worship, a crowd of superstitions whose influence
 
-was felt but too long;Translator's
-Note.—And yet this system of concession has been called by
-the same author true wisdom.—Vid. supra, p.
-18.
-whilst the slightest sign of Paganism was sufficient
-to call back to it those servants of all the parties.
+Os limites deste ensaio permitem-me não discutir
+as chances de uma reação iconolatrica em nossos dias. eu
+apenas observaremos que em vários países onde
+os iconoclastas da Reforma ganharam um
+posição predominante, foram totalmente esmagados pela
+a reação iconolatrica, e que uma aliança afetuosa de
+mulheres e monges, apoiados pelos poderes governantes
+do Estado, alcançou nestas paragens uma vitória tão grande
+como aquele que obteve no leste sob
+Irene e Teodora, não só pela razão de
+homem, mas mesmo acima da autoridade da Palavra de
+Deus; e acredito que o único meio humano de
+prevenir contingências semelhantes são instituições livres,
+que permitem a máxima liberdade de discussão em relação
+a todas as opiniões religiosas.
 
-It was then, unfortunately, a too common thing
+Eu já disse antes, pág. 82, que o Papa se opôs
+a abolição das imagens proclamadas pelo Imperador
+Leão III., e que esta oposição foi partilhada
+
+pelas províncias imperiais da Itália, que se revoltaram
+naquela ocasião contra seu soberano, e separou-se
+do império bizantino. Foi portanto
+natural que o segundo Concílio de Nice, que restaurou
+a adoração de imagens, deverá obter a aprovação
+do Papa Adriano I.; mas o seu desejo de impor a
+promulgações daquele concílio sobre as igrejas do
+West encontrou uma oposição decidida por parte de
+Carlos Magno. Este grande monarca, tão célebre
+por seus esforços para converter os saxões pagãos,
+processado com toda a barbárie de sua época, e
+quem a igreja colocou entre os seus santos, foi
+tão ofendido com as promulgações do segundo Concílio
+de Nice a favor do culto às imagens, que
+composta, ou o que é mais provável, ordenada para ser
+compôs em seu nome um livro contra esse culto,
+e enviou-o ao Papa Adriano I., como uma exposição
+dos seus próprios sentimentos, bem como dos seus
+bispos, sobre o assunto em questão. Este trabalho,
+embora escrito em linguagem violenta, contém muitos
+visões muito racionais sobre imagens, e irrespondíveis
+argumentos contra todos os tipos de adoração oferecidos a
+eles. A substância deste célebre protesto é
+da seguinte forma: -
 
 to see men who made a profession of passing, without
 any difficulty, from one religion to another, as
@@ -1905,9 +3266,30 @@ maculaverint.Who would defile
 themselves by the impious superstition of the idols.
 The political authorities, therefore, cannot be accused
 
-of having remained indifferent to the progress of
-the evil. We must now show how little power
-the laws had in a time like that which we are describing.
+gosto; mas buscaremos diligentemente a lei de
+Deus, o que é irrepreensível. Ele ainda diz: -Eu
+veja imagens que possuem tais inscrições, como para
+por exemplo, São Paulo, e peço, portanto, àqueles que estão
+envolvidos neste grande erro, por que eles chamam imagens
+santo (sanctus), e por que eles não dizem, em conformidade
+segundo a tradição dos pais, que estes são
+imagens dos santos? Deixe-os dizer em que consiste
+a santidade das imagens? Está na madeira
+que foi trazido de uma floresta para
+fazê-los? Está nas cores com que eles
+são pintados e que muitas vezes são compostos de impurezas
+substâncias? Está na cera, que fica suja?
+Ele provoca os adoradores de imagens, apontando
+um abuso que ainda hoje é tão inevitável como era
+então. Se, diz ele, duas imagens perfeitamente iguais,
+mas qual é destinado à Virgem e ao
+outros para Vênus, são apresentados a você, você perguntará
+qual deles é a imagem da Virgem e
+que é o de Vênus, porque você não consegue distinguir
+eles. O pintor vai chamar uma dessas fotos
+a imagem da Virgem, e será imediatamente
+colocado em um lugar alto, honrado e beijado; enquanto
+o outro, representando Vênus, será jogado fora
 
 One day, St Augustinus presented to the assembly
 of the Christians of Hippona, a man who was to become
@@ -1962,10 +3344,27 @@ them. You must know, brethren, that he had
 knocked at the door of the church before Easter, but
 that the profession which he had followed, rendering
 
-him suspected of lies and fraud, he was kept back,
-but shortly afterwards received. We are afraid of
-leaving him exposed to new temptations. Pray to
-Christ for him.
+Capítulo VI. Origem e desenvolvimento das lendas piedosas,
+Ou Vidas de Santos, Durante a Idade Média.
+
+Uma coleção das vidas dos santos do romano
+O calendário católico foi cumprido por
+dos Jesuítas, e é bem conhecido como o dos Bollandistas,
+do nome de seu primeiro criador, Bollandus.
+Estende-se a cinquenta e três enormes fólios, embora
+chegou apenas a meados de outubro, acho
+que foi recentemente concluído em Bruxelas.
+cada dia tendo um número de santos designados para ele
+para comemoração. Ele contém, entre uma massa de
+os maiores absurdos, muitas coisas valiosas
+informações relativas à história do meio
+idades, especialmente no que diz respeito aos costumes e
+ideias desse período. Um ótimo, se não o
+maior parte dos santos cujas vidas são descritas
+naquela coleção nunca existiram, exceto no
+imaginação dos seus biógrafos; e a melhor prova
+disso é que o erudito monge beneditino, Dom
+Ruinart, amigo íntimo e colaborador do
 
 SocratesAn ecclesiastical writer of the fifth
 century. speaks of a sophist of Constantinople,
@@ -1993,10 +3392,29 @@ fourth century, it was impossible to abandon the
 church and return to the idols, except by a feeling
 which could not but excite profound pity. I
 
-therefore understand why St Augustinus had consented
-to plead with the Christians in favour of a
-wretch already charged with three apostasies: he
-wished, above all, to take from him the name of a
+A igreja cristã já estava, desde cedo
+período de sua existência, perturbado por um grande número
+de falsificações, relativas à história e doutrina
+nosso Senhor e seus discípulos;O mais importante
+destes Apócrifos do Novo Testamento, alguns dos
+que chegaram até nós, embora conheçamos os outros pelos escritos do
+pais, são os Evangelhos de São Pedro, de São Tomé, de São Matias,
+as Revelações de São Pedro, a Epístola de São Barnabé, os Atos de São João, de
+Santo André e outros apóstolos. mas o espírito com que
+eles foram escritos, tão contrários ao do verdadeiro
+Evangelho, e os absurdos grosseiros que eles contêm,
+eram provas convincentes do caráter apócrifo
+desses escritos, que, consequentemente, foram rejeitados
+como tal do cânon das Escrituras. Se a igreja
+não conseguia escapar de tais abusos numa época em que ela estava
+ainda não infectada pelas idéias e práticas pagãs, ela
+ficou ainda mais exposto a eles após o mencionado
+corrupções, e quando, como já
+foi dito, pág. 20, a sociedade cristã foi invadida
+por populações inteiras que, não obstante a sua
+abjuração do paganismo, eram pagãos em sua
+maneiras, seus gostos, seus preconceitos e suas
+ignorância. Além disso, havia dificuldades muito grandes
 
 Pagan, being convinced that whoever consented no
 longer to sacrifice to the false gods would finally
@@ -2055,7 +3473,25 @@ the ignorance, and the misconduct of the
 clergy; I shall therefore choose from this melancholy
 picture only those parts which refer to the
 
-history of Paganism.
+livrinho fala de uma placa de chumbo sobre a qual o
+dignidade senatorial e o ano do martírio deste santo
+estão inscritos. Por que esta inscrição não é
+dado? Por que não é pelo menos a data precisa de sua
+martírio nomeado? Diz-se que Santo Ovídio sofreu
+no final do século II; é isso
+a maneira de fixar o ano de sua morte? Não,
+não; os antigos não marcavam o tempo de tal forma
+maneira; eles não levaram um século incerto para
+a época certa de um ano. Tenho muito medo disso
+esta inscrição não é de forma alguma tão autêntica quanto as pessoas
+deseja nos persuadir. Mas foi encontrado em seu
+grave um pequeno recipiente de vidro; uma palma está gravada
+seu sepulcro; e seu crânio tem a aparência de
+sendo perfurado com uma lança. Bem, essas marcas podem
+provar que Santo Ovídio foi um mártir; mas eles são
+suficiente para estabelecer a verdade de sua vida, tal como ela
+foi publicado?Mabillon em
+os Santos Desconhecidos, p. 10. Apud Basnage, p. 1047.
 
 All the arts of divination remained still in the
 highest favour amongst Christians, even when the
@@ -2085,24 +3521,88 @@ or compelling him to sing, according to their taste.
 St Augustinus was therefore warranted in calling
 this so powerful influence of the ancient worship a
 
-persecution of the demon, more covert and insidious
-than that which the primitive church had suffered.
+Se esses milagres tivessem sido realizados de nossa parte
+do mundo, eles teriam convertido multidões de
+Protestantes, e assim avançou enormemente o principal
+objeto da ordem a que pertencia São Francisco Xavier;
+mas o ar da Europa parece ter sido
+desfavorável para experimentos tão maravilhosos, uma vez que
 
-All these scandalous facts are attested by the
-bishop of Hippona (St Augustinus) and by that of
-Milan (St Ambrose); it is therefore impossible to
-doubt their authenticity. It may, however, be said,
-that such a state of corruption was local, and peculiar
+o bom santo foi obrigado a ir para o Japão
+para executá-los com sucesso.
 
-to the churches of Africa and Milan; I must
-therefore produce new evidence, in order to show
-that the calamitous effect of the pagan manners was
-felt in all the provinces.
+É verdade que os escritores de lendas não fazem nenhuma tentativa
+em esconder essas imitações, mas, pelo contrário,
+insistir na semelhança dos milagres realizados por
+seu santo aos de nosso Salvador, como prova da
+alto grau de santidade alcançado pelo primeiro. Não
+santo, no entanto, da Igreja Católica Romana ou Greco-Russa
+calendário tinha tantos milagres atribuídos a
+ele, particularmente do tipo mencionado acima, como São
+Francisco de Assis, o célebre fundador do mendicante
+monges, e que, considerando a imensa influência
+que seus discípulos exerceram no
+mundo católico, foi talvez um dos mais extraordinários
+personagens que a Idade Média produziu.
 
-St Gaudentius, bishop of Brescia, a contemporary
-of St Augustinus, vigorously combated idolatry
-in his diocese; and the following is an extract from
-one of his sermons:—
+Tem sido freqüentemente observado que o gênio é
+semelhante à loucura, e que a divisão pela qual
+os dois estão separados é tão tênue que ocasionalmente
+torna-se bastante imperceptível. Tal condição de
+a mente humana talvez nunca tenha sido exemplificada
+de uma maneira mais marcante do que pela vida de
+este famoso santo, que apresenta uma estranha mistura
+dos mais nobres atos de caridade e devoção própria, o
+as mais loucas aberrações de um louco e de concepções geniais
+digno do mais eminente estadista e
+filósofo. A melhor prova de sua genialidade é o
+grande influência que a ordem por ele instituída tem
+exercido durante vários séculos em muitos países,
+
+e que ainda hoje não perdeu a sua vitalidade. Isso
+também deve ser admitido que nem São Francisco nem
+seus discípulos podem ser acusados de qualquer uma dessas atrocidades
+pelo qual a vida do seu contemporâneo São Domingos,
+de memória sangrenta, o fundador da Inquisição,
+e o pregador da cruzada contra os albigenses,
+bem como os anais de sua ordem, estão manchados.
+Também não se pode negar que Francisco, assim como
+seus seguidores, em muitas ocasiões atenuaram
+a barbárie de sua época. Sua imensa popularidade
+é, no entanto, como penso, principalmente devido à circunstância
+que sua ordem, destinada principalmente a agir de acordo
+das classes mais baixas, foi recrutado entre os mais numerosos
+e mais ignorante da população; e
+é necessário observar que quanto menos os homens são educados,
+quanto mais eles são propensos à credulidade e ao exagero?
+Não foi necessário muito aprendizado para o
+admissão a esta ordem democrática, e as suas fileiras
+foram aumentados pela criação de uma classe cujos membros
+permaneceram no mundo, vinculando-se apenas
+à observação de algumas práticas devocionais e
+preceitos morais. Tudo isso contribuiu para difundir o
+ordem de São Francisco, à qual são admitidos ambos os sexos,
+com uma rapidez maravilhosa em muitos países; no
+
+mesmo tempo, seus membros exaltavam as virtudes e
+supostos milagres de seu fundador da forma mais exagerada
+e muitas vezes ridícula, da qual o seguinte
+anedota pode servir de exemplo: - Um franciscano
+monge, que um dia estava pregando sobre o
+
+méritos do fundador de sua ordem, iniciou seu sermão em
+da seguinte maneira: Onde devo colocar o grande
+São Francisco? Entre os santos? Isso não é suficiente
+pelos seus méritos. Entre os anjos? não, não é
+o suficiente. Entre os arcanjos? isso não é suficiente.
+Entre os serafins? isso não é suficiente. Entre
+os querubins? isso não é suficiente. Ele foi, no entanto,
+de repente liberado, por um de seus ouvintes, de
+sua perplexidade sobre um local adequado para seu santo,
+que, levantando-se de seu assento, disse: Reverendo padre, como
+Vejo que não consegues encontrar para São Francisco um
+lugar no céu, eu entregarei a ele o meu neste
+banco; dito isto, ele deixou a igreja.
 
 You neophytes, who have been called to the
 feast of this salutary and mystical Easter, look how
@@ -2126,12 +3626,19 @@ their dead is discharged by those who, with a hand
 shaking from the effects of drunkenness, place tables
 on sepulchres, and say, with an unintelligible voice,
 
-The spirit is thirsty.A similar custom
-is still prevalent is Russia. Vide infra, On the Superstitions
-of her Church. I beseech you, take heed
-of these things, in case God should deliver to the
-flames of hell his contemners and enemies, who have
-refused to wear his yoke.
+que ele foi transfigurado; que ele sofreu o
+mesma paixão do nosso Salvador, embora ele nunca tenha sido
+sujeito a qualquer perseguição ou maus tratos, mas morreu
+silenciosamente, em 1218, entre seus devotados admiradores. Outro
+escritores levaram ainda mais longe a comparação blasfema,
+vangloriando-se de que São Francisco havia realizado
+muitos mais milagres do que nosso Senhor, porque Cristo
+transformou água em vinho apenas uma vez, enquanto São Francisco
+fiz isso três vezes; e que em vez dos poucos milagrosos
+curas mencionadas nos Evangelhos, São Francisco e seus
+discípulos abriram os olhos de mais de mil
+cego, curou mais de mil coxos e
+restaurou à vida mais de mil mortos.
 
 Who may wonder that such Christians allowed
 the pagan idols, temples, and altars to remain, and
@@ -2184,10 +3691,30 @@ the god Mars. It was not without regret that it
 abandoned the worship of this divinity. The time
 of its conversion had been assigned to the second or
 
-the third century, but the vagueness of this date
-deprives it of all authority. Yet, whatever may have
-been the century in which the conversion of Florence
-took place, it could not be a subject of edification
+Vivemos, de facto, numa época de maravilhas, tanto físicas como
+bem como moral, e nenhum deles escapou do
+influência todo-poderosa da grande mola móvel do
+nosso tempo, e a principal causa de sua rápida
+avanço, isto é, competição. A Inglaterra, que é a principal
+em muitas, e não atrás de nenhuma, invenções
+e descobertas da época, manteve sua posição,
+
+e talvez até tenha ido adiante, na produção de
+milagres morais como aquele dos quais dei uma
+exemplar acima. E, de fato, a vida dos ingleses
+santos, publicado nos anos de 1844 e 1845, em
+capital deste país protestante, possa destemidamente
+desafiar uma comparação com o trabalho de M. Chavin
+de Malan. Além disso, são atribuídos a um clérigo
+da Igreja da Inglaterra, que, embora tenha
+desde que foi para Roma, estava naquela época recebendo
+os salários do establishment protestante deste
+país como um de seus servidores e defensores.Edimburgo
+Revisão, abril de 1847, p. 295. O
+alguns extratos a seguir deste curioso trabalho irão
+permitir que meus leitores julguem se eu superestimei
+as capacidades deste trabalho para um sucesso
+competição com seu rival francês: -
 
 and joy to the Christians. The traditions of that city
 predicted to it great calamities if the statue of Mars
@@ -2213,15 +3740,56 @@ Etruscans.Author's Note.—In
 foot of the statue of Mars. This murder produced at Florence a civil war, which,
 gradually spreading over all Italy, gave birth to the factions of the Guelphs and
 
-Ghibelines. Compromises of the kind which took
-place at Florence became very common during the
-fifth century, and when, at a later period, Christianity
-wished to annul them, it met with great
-obstacles.—(Beugnot,
-vol. i., p. 286.)
+O milagre aludido acima, e que não pode
+ser rejeitado sem descrença na doutrina católica,
+é o seguinte: —No dia de Natal, quando o convento
+estava celebrando a natividade de Nosso Senhor, como
+o frade elevava a hóstia, no bendito sacrifício
+da missa, ele viu em sua mão uma criança mais bela
+do que os filhos dos homens, tendo na cabeça uma coroa
+de ouro cravejado de jóias. Seus olhos brilharam com
+luz, e seu rosto era mais radiante que o mais branco
+neve; e tão inefavelmente doce era seu semblante,
+que o frade beijou os pés e as mãos do
+criança celestial. Depois disso a visão divina desapareceu,
+e Waltheof encontrou em suas mãos o consagrado
+água.Ibid., p. 24.
 
-The Jews had been brought up in the knowledge
-of the true God, and their faith could not but be
+Toda a coleção está repleta de histórias semelhantes, algumas
+dos quais são realmente ultrajantes; como, por exemplo, que
+que relata sobre Santo Agostinho, o grande apóstolo
+da Inglaterra.
+
+Este santo foi, durante as suas peregrinações
+do país, recebido com grandes honras no norte
+
+da Inglaterra; mas, diz o trabalho em questão, muito
+diferente disso são os relatos de suas viagens em
+Dorsetshire. Enquanto estava lá, ouvimos falar que ele tinha
+chegou a uma aldeia, onde foi recebido com
+toda espécie de insulto. As pessoas miseráveis, não
+contente em acumular palavras abusivas sobre o santo
+visitantes, os atacaram com mísseis, nos quais trabalham,
+sendo o local provavelmente um porto marítimo, os vendedores
+de peixes foram relatados como peculiarmente ativos.
+As mãos também foram impostas ao arcebispo e aos seus
+empresa. Achando todos os esforços inúteis, o piedoso
+companhia sacudiu a poeira dos pés e se retirou.
+Diz-se que os habitantes sofreram
+penalidade de suas impiedades, mesmo para gerações distantes.
+Todas as crianças nascidas daquela época tiveram
+e transmitiram os vestígios dos pecados de seus pais em
+a forma de uma deformidade repugnante.
+Santo Agostinho de Cantuária, Apóstolo dos Ingleses, p. 237, no
+1º volume dos Santos Ingleses, mencionado acima.
+
+O escritor que relata esta história não teve a
+coragem ou a honestidade de M. Chavin de Malan para
+dizer que o insulto oferecido aos santos visitantes consistiu
+em prender caudas de peixe em suas vestes, e
+que a repugnante deformidade com que as crianças
+dos autores desse insulto nasceram
+durante muitas gerações, foi uma cauda.
 
 strengthened by the miracles with which their exodus
 from Egypt was accompanied, and yet a short absence
@@ -2249,18 +3817,54 @@ as Moses did amongst the Jews, after his return
 from Mount Sinai. The Christian church was
 therefore left for centuries under the oppression of
 
-pagan superstitions, from which, as yet, only a small
-portion of her has been emancipated, though I firmly
-believe that she will be one day entirely restored
-to her pristine purity. This hope, however, is not
+Sob o reinado de Frederico II, um soldado prussiano
+roubou um ornamento caro de uma imagem do
+Virgin, que gozava de grande reputação por seus milagres
+poderes. Sendo descoberto o roubo, o
+o culpado alegou em sua defesa que, tendo abordado
+uma oração fervorosa à imagem acima mencionada por
+ajuda na sua pobreza, deu-lhe este ornamento para
+aliviá-lo de sua angústia. Este caso foi relatado
+ao rei, que, muito divertido com o
+dispositivo de soldado, exigiu que o bispo católico romano
+em cuja diocese este roubo foi cometido para dar uma
+opinião positiva se a imagem em questão poderia
+fazer milagres desse tipo ou não? O bispo poderia
+não, sem mostrar descrença na doutrina católica,
+negar a possibilidade do milagre, e foi
+portanto, obrigado a dar uma resposta afirmativa. O
 
-founded upon the mere advance of human intellect,
-because, in spite of its boasted progress, it seems now
-to be powerless against the daily growing reaction of
-the above-mentioned superstitions, even in places
-whence they apparently had been banished for ever,
-but because Christianity is of a divine and not human
-origin.
+o rei, portanto, perdoou o soldado, com a condição
+de nunca aceitar presentes deste ou de qualquer outro
+imagem ou santo, tanto faz.
+
+O autor deste ensaio, embora acredite firmemente
+na existência de Deus e na verdade das Escrituras,
+não tem a vantagem de se inspirar com
+fé na doutrina católica; ele, portanto, continuará
+suas pesquisas da mesma maneira que antes.
+
+Muitas lendas originaram-se de mal-entendidos
+o caráter emblemático de algumas fotos. Assim
+a célebre santa e autora espanhola, Santa
+Theresa, foi, por sua eloquente e apaixonada
+efusões de amor dirigidas à Divindade,
+pintado por uma artista espanhola com um piercing no coração
+com uma flecha, em alusão às palavras do
+Salmista, pois as tuas flechas cravaram-se em mim, etc. - (Sl.
+xxxviii. 2.) Ela morreu tranquilamente em seu convento
+no final do século XVI, e embora
+os detalhes de sua vida e morte são geralmente
+conhecido, houve alguns escritores de lendas que relataram
+que ela morreu mártir, perfurada por uma flecha. Se
+tal confusão de ideias poderia acontecer em um momento
+quando a literatura e a ciência fizeram progressos consideráveis
+progresso, e quando a arte da impressão já era
+universalmente conhecido, com que frequência tais
+coisas devem ter ocorrido durante o período predominante
+ignorância da idade média! E, de fato, há
+existem muitas lendas selvagens que se originaram de
+uma fonte semelhante, e da qual a mais célebre é
 
 There was no lack of opposition to this universal
 corruption of the church on the part of several
@@ -2341,14 +3945,45 @@ place not to suspend any more such veils in the
 church of Christ, because they are contrary to our
 religion.
 
-The authenticity of this letter, which bears such
-strong evidence against the use of images in churches,
-was rejected by Bellarmine and the ecclesiastical
-historian Baronius, but it has been admitted by Petau
-and some of the ablest writers of the Roman Catholic
+Entre todas as fantasias epidêmicas do sexo eu
+encontrei no registro, nenhum é igual ao relatado por
+Cardan se manifestou no século XV - o que
+ilustra forçosamente o que foi observado
+do contágio intuitivo pelo qual o fantástico
+o carinho é propagado entre as mulheres. Uma freira em um
+certo convento alemão foi instigado por um inexplicável
+impulso de morder todos os seus companheiros; e ela
 
-Church. It was translated into Latin by St Jerome,
-and is found in all the collections of his works.
+estranho capricho gradualmente se espalhou para outros, até que o
+todo o corpo foi infectado pela mesma fúria. Nem
+o mal se confinou dentro destes limites: o
+relato desta estranha mania viajou de uma província
+para outro, e em todos os lugares transmitidos com ele
+a loucura contagiosa, de claustro em claustro, através
+o império alemão; daí se estendendo
+de cada lado para a Holanda e a Itália, as freiras finalmente
+preocuparam-se mutuamente de Roma a Amsterdã.
+
+Inúmeros exemplos podem ser citados para demonstrar
+a força com que o mais estranho e mais
+tendências selvagens se fixam na imaginação,
+e conquistar e tiranizar a vontade, quando
+a alma é impedida de ter relações livres com seus
+espécie, e deixado ininterruptamente à sua própria sorte desenfreada
+reflexões. Mas aqueles que relacionamos
+pode ser suficiente para mostrar o perigo em que ele
+corre quem se entrega incondicionalmente ao
+custódia da solidão, e não se arma contra
+sua hospitalidade infiel. Cale-se em um lugar árido e
+lazer monótono, sem estudos para ocupar a curiosidade,
+sem objetos para divertir os sentidos ou para interessar
+e atrair os afetos para qualquer coisa
+humano, a fantasia escapará para os mundos quiméricos
+existência, lá para buscar diversão e exercício.
+Com que carinho ele abraça e valoriza os anjos
+visões, ou fantasmas infernais, prodígios, ou
+milagres! ou se seus devaneios tomarem outra direção,
+com que entusiasmo e confiança crescentes
 
 The most celebrated opponent of the abuses with
 which the church had been already infected at that
@@ -2376,8 +4011,25 @@ money; and he says, in his answer to Paulinus,
 You will learn from the mouth of the holy priest,
 Vigilantius, with what affection I have received
 
-him. This affection disappeared, however, as soon
-as Jerome learned that Vigilantius had accused him in
+Apresentei este extenso trecho de Zimmerman,
+porque acho que explica satisfatoriamente
+aquelas visões místicas, bem como fantasmas infernais,
+com que as lendas e crónicas medievais,
+geralmente composto por monges, são abundantes, e que
+são muitas vezes injustamente atribuídos a fraudes e
+engano. A ciência médica, bem como todos os
+ramos da filosofia natural, estando então em uma situação muito
+condição imperfeita, fenômenos como os de
+freiras miando como gatos ou mordendo como cães, o que
+são mencionados por Zimmerman, não foram explicados
+como doenças nervosas, mas atribuídas à posse de
+espíritos malignos; e confesso francamente que não sou de forma alguma
+significa claro, que se casos como os mencionados acima
+acontecesse em nossa era iluminada, haveria
+não se encontram muitas pessoas boas atribuindo-os a um
+agência semelhante. Deve-se lembrar também que,
+se apesar da extrema rapidez e regularidade
+de comunicações em nosso próprio tempo, relatórios de
 
 Egypt of being too partial to Origenes, and the holy
 priest became an impertinent, whose silly speeches
@@ -2393,30 +4045,163 @@ into the church, and he dictated in one single night
 a vehement answer to the opinions of Vigilantius,
 who, according to this writer, taught as follows:—
 
-That the honours paid to the rotten bones and
-dust of the saints and martyrs, by adoring, kissing,
-wrapping them in silver, and enclosing them in vessels
-of gold, placing them in churches, and lighting
-wax candles before them, was idolatry.
+Demorei-me talvez demasiado tempo neste assunto, porque
+Receio que as observações relativas a esta questão
+não estão confinados a um período distante, mas podem tornar-se
+mas muitas vezes aplicável aos nossos tempos. E,
+na verdade, quando reflectimos sobre o rápido aumento da
+conventos e conventos, particularmente neste país,
+e que, apesar do estado actual da civilização
+estes estabelecimentos devem ser preenchidos principalmente por
+indivíduos cuja imaginação é mais forte do que
+seus poderes de raciocínio, não pode haver dúvida de que
+eles podem novamente se tornar o palco daqueles extraordinários
 
-That the celibacy of the clergy was heresy, and
-their vows of chastity a seminary of lewdness.
+manifestações cuja causa foi
+atribuído exclusivamente às trevas medievais. Isso
+não há dúvida de que projetar indivíduos de ambos
+sexos, possuidores de talentos e conhecimentos superiores,
+mas particularmente dotados de uma vontade forte, podem
+exercer não apenas uma influência indevida, mas até mesmo uma
+poder absoluto sobre os presidiários dos mencionados
+estabelecimentos monásticos; e que um hábil
+aplicação do mesmerismo pode promover eficientemente
+tais fins ilícitos.
 
-That to pray for the dead, or desire their prayers,
-was superstition, and that we can pray one for another
-only as long as we are alive.
+Muitos vestígios supersticiosos locais do paganismo, - como,
+por exemplo, poderes milagrosos atribuídos a certos
+poços, pedras, cavernas - histórias sobre vários tipos de
+fadas, etc. - forneceram amplos materiais para o
+escritores de lendas medievais, que os organizaram de acordo
+às suas próprias opiniões. Eles geralmente mantiveram o
+parte milagrosa da história, frequentemente embelezando
+por suas próprias adições, mas substituindo a agência
+do santo cristão, o herói de sua história, por isso
+da divindade pagã, a quem originalmente foi
+atribuído. Foi assim que as localidades consideradas
+pelos pagãos como possuidores de algum poder sobrenatural
+propriedades, e recorreu por eles nesta conta,
+foram convertidos em locais de peregrinação cristã,
+com a única diferença de que o genial loci pagão
+foi batizado com o nome de um santo cristão,
+cuja existência muitas vezes não pode ser mais provada do que
+o de seu antecessor pagão. Muitos hagiógrafos
+parecem ter se entregado ao seu humor como
 
-That the souls of the departed apostles and martyrs
-were at rest in some particular place, and could
-not leave it, in order to be present in various places,
-for hearing the prayers addressed to them.
+tanto quanto sua fantasia em compor essas lendas,
+que aparece em histórias ridículas como, por
+exemplo, a de São Fechin, cuja piedade era tão fervorosa
+que quando ele estava tomando banho em água fria ficou
+quase fervendo. Este caloroso ou
+Diz-se que o santo de cabeça quente pertenceu ao
+Ilha Esmeralda, porém, considerando que seu ardente
+a piedade era muito parecida com uma manifestação da
+perfervidum Scotorum ingenium, de forma um tanto
+forma exagerada, estou muito inclinado a acreditar
+ele é natural do norte do país. Existem muitos
+exemplos de tais milagres humorísticos, mas vou
+cite apenas o de Laurenthios, um famoso santo grego,
+e operador de milagres. Tendo um dia algum
+negócios com o Patriarca de Constantinopla, ele foi
+ficou esperando na antecâmara do prelado, e sentindo
+muito quente, ele queria tirar a capa. Mas
+como não havia nenhum móvel na sala,
+nem mesmo uma estaca em suas paredes, São Laurenthios, envergonhado
+o que fazer com sua capa, jogou-a sobre um raio
+do sol, que entrava na sala através de um
+buraco na veneziana, e que imediatamente adquiriu
+a firmeza de uma corda, para que o manto do santo
+permaneceu pendurado nele. Não deve, contudo, ser
+acreditava que o sol quente e a imaginação fervorosa de
 
-That the sepulchres of the martyrs should not be
-venerated; that vigils held in churches should be
+A Grécia foi absolutamente necessária para o desempenho
+de truques tão maravilhosos; pois temos lendas suficientes
+evidências para provar que eles foram bem sucedidos
+reproduzido sob o céu menos brilhante da Alemanha
 
-abolished, with the exception of that at Easter; that
-to enter monastic life was to become useless to society,
-&c. &c.
+e França, porque São Goar de Treves suspendeu
+seu boné, e São Aicadrus, abade de Jumieges, seu
+luvas sobre o mesmo móvel que havia sido
+usado por São Lourenço para pendurar seu manto, embora
+provavelmente, considerando que o sol não é tão poderoso
+nesses países como é o caso de Constantinopla, do Ocidente
+santos não se aventuraram a experimentar seus raios com tais
+uma carga pesada, como foi feito com sucesso por seus
+colega oriental.
+
+Alguns milagres foram inventados para inculcar
+obediência implícita às autoridades eclesiásticas,
+que é considerado pela Igreja Católica Romana
+como uma das, senão a mais importante virtude a ser praticada
+por seus filhos. Assim está relacionado que quando
+o monge dominicano espanhol, São Vicente Ferrerius,
+celebrado pelo grande número de seus milagres, foi
+um dia, caminhando por uma rua de Barcelona, um pedreiro,
+caindo de um telhado alto, pediu sua ajuda. O
+santo respondeu que não poderia fazer milagre
+sem a permissão de seu superior, mas que
+ele iria e pediria por isso. O pedreiro permaneceu,
+portanto, suspenso no ar até São Vicente, retornando
+com a permissão, coloquei-o em segurança
+o chão.
+
+Deve-se admitir que muitos santos, cujos
+vidas são desfiguradas por histórias absurdas de seus milagres,
+eram homens de grande piedade, adornados com o
+virtudes mais nobres, e que deu provas das mais exaltadas
+caridade e devoção própria. Infelizmente o
+
+honras de santidade foram frequentemente concedidas a
+monstros sanguinários como São Domingos, cujo santuário
+seria o mais apropriadamente colocado em um templo
+onde são oferecidos sacrifícios humanos, ou sobre loucos
+que ultrajaram todos os sentimentos da humanidade. Assim
+conta-se que Santo Aleixo saiu de casa no dia
+de seu casamento e, tendo trocado suas roupas por
+os trapos de um mendigo, adotou seu modo de vida. Depois
+algum tempo, quando sua aparência se tornou tão
+lamentável que ele não pudesse mais ser reconhecido por
+seus amigos, ele voltou para a casa de seus pais, perguntando
+para abrigo. Ele conseguiu uma vaga no
+escada, e ali viveu de esmolas durante dezessete anos,
+testemunhando continuamente a angústia e as lamentações
+de sua esposa, mãe e pai idoso sobre sua perda,
+e foi reconhecido somente após sua morte por um livro
+de orações que lhe foram feitas por sua mãe.
+E foi por esse tratamento insensível e até cruel
+da sua própria família que foi canonizado! Isso
+supõe-se, no entanto, que toda esta história é apenas uma ficção,
+e, pelo bem da humanidade, espero sinceramente
+que é assim.
+
+Os limites deste ensaio não me permitem ir mais longe
+ampliar minhas pesquisas sobre as lendas da Idade Média
+santos e seus milagres; e tentarei dar
+no meu próximo capítulo, uma breve análise de várias práticas
+que tanto a Igreja Católica Romana como a Greco-Russa
+Igreja reteve do paganismo.
+
+Capítulo VII. Análise dos ritos e práticas pagãs
+Que foram retidos pelos romanos
+Católico, bem como o Greco-Russo
+Igreja.
+
+Dei (p. 14) a opinião de um eminente
+Autor moderno católico romano (Chateaubriand)
+sobre a introdução de usos pagãos no
+Adoração cristã e um longo extrato (pp. 16-28)
+de outro não menos ilustre católico romano
+escritor dos nossos dias, descrevendo a causa desta corrupção.
+Os escritores católicos romanos deste país
+não trate, porém, este assunto com a mesma sinceridade
+como o ilustre autor do Genie du
+O Cristianismo e o erudito acadêmico francês
+de cujo trabalho me baseei em grande parte; mas
+eles se esforçam para negar que muitos usos de seus
+igreja traz a marca do Paganismo.Vide supra,
+pág. 17. Isto é particularmente
+é o caso do autor de Hierurgia, um
+trabalho que já citei e que pode
 
 The answer of Jerome to the above-mentioned
 opinions of Vigilantius is a curious mixture of violence
@@ -2444,7 +4229,33 @@ celebrate divine service on the graves containing the
 bones of St Peter and St Paul, which, according to
 Vigilantius, were nothing better than dust? The
 
-Emperor Constantius must then have committed a
+templo de Jerusalém, mas que ele mesmo exibiu
+o padrão deles, será por si só suficiente para autorizar
+a prática da Igreja Católica em relação
+a uma observância semelhante. - (Hierurgia, p. 371.)
+
+Tudo isso pode ser respondido brevemente. Não houve
+representação dos patriarcas ou santos judeus
+seja no tabernáculo ou no templo de Salomão,
+como é o caso dos santos cristãos no
+Igrejas Católica Romana e Greco-Russa; e
+a serpente de bronze, à qual o autor alude,
+foi feito em pedaços por ordem do rei Ezequias
+assim que os israelitas começaram a adorá-lo.
+
+O autor tenta provar, com considerável
+aprendizado e engenhosidade, que os cristãos primitivos
+ornamentei suas igrejas com imagens, e eu tenho
+já dado, pág. 51, sua explicação do Concílio
+de Elvira; mas suas afirmações são completamente refutadas
+por todas as evidências diretas que temos sobre o
+locais de culto desses cristãos. eu já
+citado, pág. 7, o testemunho de Minutius Felix, que
+os cristãos não tinham nenhum tipo de simulachres em seus
+templos, bem como a indignação de São Epifânio
+na tentativa de introduzi-los nas igrejas,
+pág. 68, e para o qual não teria havido
+ocasião se fosse um costume estabelecido.
 
 sacrilege by translating the holy relics of Andrew,
 Luke, and Timothy, to Constantinople; the Emperor
@@ -2570,10 +4381,28 @@ individuals, who, comparing the Christian legends of
 the kind quoted above with the fictions of Pagan
 mythology, preferred the latter as being more poetical?
 
-and, indeed, we have instances of the ridicule
-which the Pagans attempted to throw upon Christianity,
-by comparing its saints with their own gods
-and demigods.
+não pode ser acusado de opiniões violentas, os eruditos
+e piedoso Melancthon, que era ímpio e idólatra
+abordar estátuas ou ossos, e supor que
+ou a Divindade ou os santos estavam ligados a uma
+determinado lugar ou a uma determinada estátua mais do que a outros
+lugares; e que não havia diferença entre
+orações dirigidas à Virgem de Aix la
+Chapelle, ou à de Ratisbona, e as invocações pagãs
+da Diana de Éfeso, ou da Plateia
+Juno, ou qualquer outra estátua. Omnia hæc
+impia sunt et cultus idolorum, alloqui ipsas estátuas aut
+ossa, aut fingere Deum aut sanctos magis in uno loco, seu ad hanc statuam
+jacarés esse quam ad alia loca. Nihil diferentes invocações quae fiunt ad
+Mariam Aquensem seu Ratisbonensem ab invocationibus étnica, quæ flebant
+ad Dianam Ephesiam, aut ad Junonem Platæensem, aut ad alias
+estátuas.—Respon.
+ad Articul. Bávaro, art. 17, pág. 381. A estas observações
+Acrescentarei apenas os de M. Beugnot, que tenho
+dado pág. 27, sobre a maravilhosa facilidade com que
+o culto da virgem, instituído pelo Concílio
+de Éfeso, 431, substituiu a do Pagão
+divindades em muitos países.
 
 I must, however, return once more to Vigilantius.An interesting
 account of Vigilantius was published by the Rev. Dr Gilly,
@@ -2599,8 +4428,24 @@ assertion of Baronius, never was excluded from the
 communion of the church, or even condemned by
 her legal authorities.
 
-We know from Vigilantius' opponents that his
-opinions were approved by many, and there can be
+Que era uma prática entre os judeus, não apenas
+peculiar aos membros do sacerdócio, mas observado
+entre o povo, para que cada indivíduo
+lavar as mãos antes de presumir orar, é uma afirmação bem atestada
+fato. A igreja adotou isso, bem como
+várias outras cerimônias judaicas, que ela enxertou
+em seu ritual; e São Paulo aparentemente toma emprestado
+tal ablução a metáfora que ele emprega enquanto
+admoestando assim seu discípulo Timóteo: -
+que os homens orem em todo lugar, levantando mãos puras.
+Timóteo II. 8.) Que nas primeiras idades o
+fiéis costumavam lavar as mãos na entrada do
+
+a igreja antes de entrarem, é expressamente mencionado
+por vários escritores.
+
+Quanto ao uso da água benta ser de interesse apostólico
+origem, ele diz: -
 
 no doubt that there was, not only in his days, but
 long after him, a good number of witnesses for the
@@ -2624,14 +4469,73 @@ pictures were used in churches to teach the
 ignorant by sight what they could not read in books,
 &c.Vide supra, p. 8.
 
-We therefore see that at the end of the sixth
-century, the celebrated Pope Gregory I., surnamed
-the Great, considered the worship of images as an
-abuse to be prohibited, but which was afterwards legalised
-by his successors, and an opposition to it declared
-heresy.
+água de separação, descrita em Números xix., mas,
+pelo contrário, composta da mesma maneira, e
+empregada para o mesmo fim, como a água lustral
+dos pagãos? O fato é que já foi
+emprestado do culto pagão e não do
+a lei cerimonial judaica, cuja verdade é
+honestamente reconhecido pelo jesuíta La Cerda,
+que, numa nota sobre a seguinte passagem de
+Virgílio, -
 
-I could produce other evidences to show that the
+Idem ter sócios pura circuntulit unda,
+Spargens rore levi, e ramo felicis oliveira,
+Lustravitque vírus
+
+—Eneida, lib. vi. 229—
+
+diz: Daí foi derivado o costume do santo
+igreja para fornecer água purificadora ou benta no
+entrada de suas igrejas.Middleton's
+Obras Diversas, vol. v., pág. 96, edição de 1755.
+O mesmo costume era
+observado nos templos pagãos, na entrada de
+onde havia um vaso contendo o santo ou lustral
+água, para o povo se borrifar,
+tal como é feito agora na entrada do romano
+Igrejas católicas. O autor de Hierurgia
+menciona, como citado acima, que o Papa Alexandre I.
+autorizado, no início do século II,
+o uso de água benta; e ainda Justin Mártir,
+quem escreveu sobre aquela época, diz que foi inventado
+por demônios, em imitação do verdadeiro batismo
+significado pelos profetas, para que seus devotos pudessem
+também têm sua pretensa purificação pela água.Ibid.,
+pág. 97.
+E o imperador Juliano, para irritar os cristãos,
+
+fez com que os alimentos nos mercados fossem
+aspergido com água benta, com a intenção de
+matando-os de fome ou obrigando-os a comer o que
+considerado impuro.Hospinian, De Origine Templ.,
+biblioteca. ii. boné. 23; apud Middleton, louco
+citado.
+
+A estas evidências da abominação em que
+os cristãos primitivos realizavam o rito pagão de
+aspergindo com água benta, posso acrescentar o seguinte
+anedota, característica da intensidade desta
+sentimento: -
+
+Quando Juliano, o Apóstata, um dia iria
+sacrifício no templo da Fortuna, acompanhado por
+o comboio habitual dos imperadores, os sacerdotes pagãos,
+de pé em ambos os lados do portão do templo, aspergido
+aqueles que estavam entrando com o lustral ou sagrado
+água para purificá-los segundo os ritos
+de sua adoração. Um tribuno cristão, ou superior
+oficial da guarda imperial (scutarii), que, sendo
+de plantão, precedeu o monarca, recebeu algumas gotas
+desta água benta em seu chlamys ou casaco, que
+deixou-o tão indignado que, apesar do
+presença do imperador, ele bateu no padre que
+assim o aspergiu, exclamando que ele não
+purificá-lo, mas poluí-lo. Julian ordenou a prisão de
+o oficial que assim insultou os ritos de seu
+religião, dando-lhe a escolha de sacrificar
+os deuses ou deixar o exército. O cristão ousado
+escolheu o último, mas logo foi restaurado ao seu posto em
 
 worship of images was condemned by many bishops
 and priests of the period which I have described,
@@ -2646,9 +4550,22 @@ and of the more moderate, but no less decided,
 opposition to the same practice in the west by
 Charlemagne.
 
-Chapter V. Reaction Against The Worship Of Images And
-Other Superstitious Practices By The Iconoclast
-Emperors Of The East.
+Depois de ter descrito os castiçais empregados
+no templo judaico, ele diz: —Mas sem se referir
+
+ao cerimonial do templo judaico,
+temos autoridade para o emprego de luz
+nas funções da religião que nos são apresentadas no
+Apocalipse. No primeiro capítulo daquele místico
+livro, São João menciona particularmente o ouro
+castiçais que ele contemplou em sua visão profética
+na ilha de Patmos. Por comentaristas do
+Sagrada Escritura, geralmente se supõe que o
+Evangelista, em seu livro do Apocalipse, adotou
+as imagens com as quais ele representa seu místico
+revelações do cerimonial observado em seus dias
+pela igreja para oferecer a missa, ou eucarística
+sacrifício do Cordeiro de Deus, Cristo Jesus.
 
 The worship of images, as well as other Pagan
 practices, introduced into the church during the
@@ -2695,10 +4612,40 @@ of Leo III., the Isaurian, in 717, who, from
 an inferior condition, rose by his talents and military
 prowess to the imperial throne, gave to that party
 
-what they required, for he shared their opinions,
-and was a man of great energy and ability. The
-troubles of the state, which the valour and political
-wisdom of Leo saved from impending ruin, occupied
+Era, portanto, necessário ter a
+sala bem iluminada e, conseqüentemente, empregar muitos
+lâmpadas. É, de facto, curioso ver até que ponto é absurdo
+supõe um escritor de tanto saber
+e engenhosidade como o Dr. Rock é obrigado a recorrer, a fim de
+defender um rito puramente pagão que foi adotado
+por sua igreja, dando as coisas mais simples e claras
+um sentido não natural, semelhante àquele que alguns
+Clérigos romanizados têm dado aos preceitos
+de uma igreja que eles estavam traindo enquanto
+em seu serviço e pagamento.
+
+O mesmo autor sustenta que as luzes eram
+empregado desde os tempos primitivos no serviço divino,
+dizendo:-
+
+O costume de empregar luzes, nos primeiros
+eras da igreja, durante a celebração do
+eucaristia; e outros ofícios religiosos, é autenticado
+por aqueles veneráveis registros da disciplina primitiva
+que geralmente são denominados Apostólicos
+Cânones. - (Hierurgia,
+pág. 393.)
+
+Agora, qual é a autenticidade desses cânones?
+O próprio autor nos dá a melhor resposta,
+dizendo:-
+
+Embora esses cânones sejam apócrifos e, por consequência,
+não eram genuínos, na medida em que não eram nem
+cometidos por escrito pelos próprios apóstolos, nem
+escrito por São Clemente, a quem alguns autores têm
+atribuiu-os; ainda assim, no entanto, isso não impede
+impedi-los de serem verdadeiros e autênticos, uma vez que
 
 too much the first years of that emperor's reign
 to allow him to undertake a reform of the church.
@@ -2756,14 +4703,27 @@ several of its lost provinces, and that the country
 was prosperous under his reign of thirty-four years—741
 to 775.
 
-The beginning of Constantine's reign was disturbed
-by his own brother-in-law, Artabasdes, who,
-supported by the adherents of the images, competed
-for the imperial throne, but was defeated, and his
-party crushed. Constantine, desiring to abolish the
-abuse, which he regarded as idolatry, by a solemn
-decision of the church declared, in 753, his intention
-to convoke for this object a general council;
+na quarta idade. Eu tenho, ao falar deste assunto, p.
+71, seguiu a autoridade
+do grande historiador da Igreja Católica Romana, Fleury, que diz
+que Jerônimo respondeu a Vigilâncio em 404.
+
+estavam acostumados a iluminar suas igrejas durante
+meio-dia com uma profusão de velas de cera, Vigilantius
+passa a transformar tal devoção em ridículo. Mas
+ele se encontrou com um oponente instruído e vitorioso,
+que, embora tenha reivindicado esta prática da igreja
+contra a objeção de seu inimigo, aproveitou a ocasião para
+atribuir os motivos que a levaram a adotá-lo.
+Aquele santo padre observa: - Durante todo o
+igrejas do Oriente, sempre que o Evangelho for
+recitados, eles produzem luzes, embora seja ao meio-dia;
+certamente não para brilhar entre as trevas, mas para
+manifestar algum sinal de alegria, que sob o tipo de
+luz corporal pode ser indicada, aquela luz da qual
+lemos nos Salmos: Tua palavra é lâmpada para meu
+pés e uma luz para o meu caminho. - (Hierurgia,
+pág. 298.)
 
 and in order that the question at issue should be
 thoroughly sifted, he enjoined all the bishops of the
@@ -2791,10 +4751,19 @@ ordered its decision to be put into execution throughout
 all his dominions. The images were removed
 from the churches, and those which were painted on
 
-the walls covered with whitewash. The principal
-opposition to the imperial order was offered by the
-monks, who were always the chief promoters of
-image-worship; and Constantine is accused of having
+Foi a partir deste costume religioso de empregar
+incenso no antigo templo, que o real
+profeta desenhou aquela bela comparação dele, quando
+ele pediu que suas orações pudessem ascender antes
+o Senhor como incenso. Foi enquanto todo o
+multidão estava orando do lado de fora na hora do incenso,
+que apareceu a Zachary um anjo de
+o Senhor, em pé à direita do altar do incenso, - (Lucas
+eu. 10, 11). Que as nações orientais
+atribuiu um significado não apenas de reverência pessoal,
+mas também de homenagem religiosa com oferenda de incenso,
+é demonstrável a partir do exemplo do
+magos, que, tendo caído para adorar o recém-nascido
 
 repressed this opposition with a violence common
 to that barbarous age. He is said to have entertained
@@ -2821,15 +4790,58 @@ were executed in such an atrocious manner, that the
 unfortunate prince died in consequence.Gibbon and
 some other writers think that Constantine survived for some
 
-time the loss of his eyes, but I have followed in the text the general opinion on
-this event. Irene
-governed the empire with great splendour, but her
-first object was to restore the worship of images; and
-the machinations by which she accomplished this
-object have been so well related by Gibbon,
+A esta explicação do uso do incenso no
+igrejas, posso responder pela mesma observação
 
-that I cannot do better than copy his account of
-them:—
+que fiz, p. 144, em defesa semelhante de
+o uso de luzes, nomeadamente, que é um estranho
+materialização de ideias espirituais, incorporando em
+uma forma tangível, o que é simplesmente típico e que
+não é garantido por nenhuma evidência direta. Tão rebuscado
+e conjecturas fantasiosas não podem ser refutadas
+por argumentos sérios; mas no que diz respeito aos judeus
+origem do uso do incenso, bem como de muitos outros
+cerimônias comuns à Igreja Católica Romana e
+Igrejas Gregas, farei a observação do
+comemorou o Dr. Middleton, em resposta dada por um
+Católico Romano à sua conhecida Carta de
+Roma, e que, defendendo as cerimónias da sua
+Igreja quase da mesma maneira que o autor de
+Hierurgia, diz: Que o Dr. Middleton estava enganado
+em pensar em cada cerimônia usada pelo
+pagãos são pagãos, já que a maior parte
+eles foram emprestados da adoração do verdadeiro
+Deus, em imitação da qual o diabo fingiu
+tem seus templos, altares, sacerdotes e sacrifícios,
+e todas as outras coisas que foram usadas no verdadeiro
+adoração. Isso ele aplicou ao caso do incenso,
+lâmpadas, água benta e procissões, acrescentando que
+se Middleton tivesse sido tão bem lido nas Escrituras
+como ele parecia estar nos poetas pagãos, ele
+
+teria encontrado o uso de tudo isso no templo
+de Deus, e isso por indicação de Deus.
+
+Não discutirei com ele, diz Middleton,
+sobre a origem desses ritos, se eram
+
+instituídos pela primeira vez por Moisés, ou eram de uso anterior e
+antiguidade entre os egípcios. As Escrituras
+favorecer o último, que nosso Spenser afirma veementemente,
+e seu Calmet e Huetius permitem; mas
+deveríamos conceder-lhe tudo o que ele pode inferir de seu argumento,
+o que ele ganhará com isso? Não eram todos aqueles
+elementos miseráveis eliminados pela adoração espiritual
+do Evangelho? Se não fossem todos anulados,
+devido à sua fraqueza e inutilidade,
+pela revelação mais perfeita de Jesus Cristo?
+iv. 9; Heb. vii. 18.) Se, então, eu deveria
+reconheça meu erro e lembre-se de minhas palavras, e
+em vez de pagão, ligue
+aquelas cerimônias judaicas,
+o uso de ritos judaicos não seria ainda abominável
+em uma igreja cristã, onde são expressamente
+abolido e proibido pelo próprio Deus?
 
 Under the reign of Constantine VIII., the
 union of the civil and ecclesiastical power had overthrown
@@ -2857,8 +4869,33 @@ edict for liberty of conscience. In the restoration of
 the monks, a thousand images were exposed to the
 public veneration; a thousand legends were invented
 
-of their sufferings and miracles. By the opportunities
-of death and removal, the episcopal seats were
+Judeu ou pagão
+superstição, até que, depois de uma sucessão
+idades, à medida que começaram gradualmente a desviar-se
+daquela simplicidade apostólica, introduziram em
+momentos diferentes na igreja as cerimônias particulares
+em questão. De onde, então, podemos pensar que
+provável que eles os emprestem do
+judeu ou o
+Ritual pagão? De um templo remoto,
+desprezado e demolido pelos romanos
+eles mesmos, ou de templos e altares perpetuamente
+na sua opinião, e subsistindo nas suas ruas, em
+que os seus antepassados e concidadãos têm constantemente
+adorado?Vid. supra, pág.
+14 e seguintes, o
+opiniões de Chateaubriand e Beugnot sobre o
+mesmo assunto. A questão dificilmente pode
+admitir qualquer disputa; o humor das pessoas, como
+bem como o interesse de um sacerdócio corrompido,
+convidá-los a adotar os ritos nativos do
+solo, e encontrado no local, e que por muito tempo
+experiência mostrou-se útil para a aquisição
+tanto de riqueza quanto de poder. Assim, pelos mais sinceros
+construção do raciocínio deste autor, devemos
+necessariamente chamar suas cerimônias de judaicas, ou empurrando
+em toda a sua extensão, será obrigado a chamá-los
+diabólico.
 
 judiciously filled; the most eager competitors for
 celestial or earthly favour anticipated and flattered
@@ -2886,13 +4923,58 @@ falsehood and folly. I am afraid that there is but
 too much truth in this severe judgment of Gibbon;
 and the following passage relating to the same
 
-council, which I have extracted, not from Gibbon,
-or any writer of the school to which he belonged,
-but from the celebrated Roman Catholic
-historian of the church, Abbé Fleury, will enable
+é a primeira coisa que faz sentido e surpreende
+um estranho ao entrar em suas igrejas.
+Mas será minha prova mais forte, se ele quiser.
+então, como ele não trouxe nada, tenho certeza, para
+enfraquecer a força disso. Ele nos conta que houve
+um altar de incenso no templo de Jerusalém,
+e fica surpreso, portanto, como posso chamá-lo de pagão;
+no entanto, é evidente, pela natureza dessa instituição,
+que nunca foi projetado para ser perpétuo,
+e que durante sua continuação, Deus teria
+nunca aprovou nenhum outro altar, nem em Jerusalém
+ou em qualquer outro lugar. Mas deixe-o responder diretamente a
+esta pergunta simples: já houve um templo no
+mundo, não estritamente pagão, no qual havia
+vários altares, todos fumegantes de incenso, dentro de nossa
+ver, e ao mesmo tempo? É certo
+que ele deve responder negativamente; ainda assim é tão
+certo de que havia muitos desses templos em Pagan
+Roma, e são tantos na Roma cristã; e
+já que nunca houve um exemplo disso, mas o que foi
+Pagão, antes da época do Papado, como é possível
+que poderia ser derivado para eles de qualquer outro
+fonte? ou quando vemos uma semelhança tão exata em
+a cópia, como pode haver alguma dúvida sobre a
 
-the reader to form his own judgment on this
-subject.
+originais?
+
+O que ele alega, portanto, a favor do incenso é
+nada com o propósito: que foi usado no
+Judaico, e é de grande antiguidade no cristianismo
+igrejas, e que é mencionado com honra em
+
+Escrituras, que frequentemente o comparam com
+oração, e falar de seus doces odores subindo
+a Deus, etc., cujas expressões figurativas, ele diz,
+nunca teria sido emprestado por escritores sagrados
+da superstição pagã; como se tais alusões
+eram menos apropriados, ou a coisa em si menos doce, por sua
+sendo aplicado aos propósitos da idolatria, pois constantemente
+foi na época dos mesmos escritores e,
+segundo seus próprios relatos, nos altares de
+Baal e os outros ídolos pagãos: e quando Jeremias
+repreende o povo de Judá por queimar incenso
+à rainha do céu (Jer. xliv. 17), pode-se
+dificilmente posso deixar de imaginar que ele está apontando profeticamente
+o culto prestado agora à virgem, a quem
+eles realmente queimam incenso neste dia sob aquele
+muito título. A denominação de
+regina cælorum, rainha do céu, é freqüentemente dada a
+a Santíssima Virgem em litanias e hinos católicos romanos dirigidos a ela.
+A rainha do céu mencionada por Jeremias é supostamente a mesma que
+Astarte, ou a Vênus Síria.
 
 After describing the confession of faith signed
 by that council, which declared that the images
@@ -3041,12 +5123,32 @@ sentiments, and convened a council, which, with the
 exception of a few of its members, decided for the abolition
 of the images. The emperor ordered their removal,
 
-and sent several of their defenders into exile;
-he soon, however, allowed them to return, and only
-some few of the most zealous of them died in exile.
-The most celebrated of these sufferers was Theodore
-Studites; and as he has obtained on this account
-the honour of saintship, his opinions on the nature of
+Monarcas russos. Esta política foi transformada em um
+sistema completo pelo atual imperador, e foi
+em consequência disso, vários milhões de habitantes
+das antigas províncias polonesas, que pertenciam
+à Igreja Grega Unida, ou seja, que reconheceu
+
+a supremacia do Papa ao aceitar a
+união concluída em Florença em 1438, foram forçados a
+desistir dessa união e passar do espiritual
+domínio do Papa ao do Czar. Isto
+a conversão no atacado foi necessariamente acompanhada
+com muita perseguição. Aqueles clérigos
+que se recusou a adotar o ukase imperial para
+o seu domínio de consciência foi banido para a Sibéria,
+e muitos outros atos de opressão foram cometidos
+naquela ocasião, mas dos quais apenas o caso do
+freiras de Minsk causou sensação no Ocidente
+Europa. O mesmo sistema de centralização religiosa
+também foi aplicado ao campesinato protestante de
+províncias bálticas, muitas das quais foram seduzidas
+por vários meios para ingressar na Igreja Russa; e
+esta política continua a ser vigorosamente aplicada em
+no mesmo trimestre, como pode ser visto a seguir
+extrato da Berlin Gazette of Voss, reimpresso
+no Allgemeine Zeitung de 12 de março deste
+ano, 1854: -
 
 images deserve a particular notice. He maintained
 that as the shadow cannot be separated from the
@@ -3140,50 +5242,167 @@ except on some coarse and rustic intellects,
 that bewitching effect, which the works of great
 modern painters and sculptors often produce upon
 
-many refined and imaginative minds. It has been
-justly remarked, by an accomplished writer of our
-day, that the all-emancipating press is occasionally
-neutralised by the soul-subduing miracles of art.Edinburgh
-Review, July, 1841, p. 17.
+função importante. A Igreja Grega se opondo
+para Roma, alguns protestantes procuraram concluir
+uma união com ela no século XVI; e o
+Os teólogos luteranos de Tübingen tinham para esse fim um
+correspondência com o Patriarca de Constantinopla,
+entre os anos de 1575 e 1581, mas que não
+levar a qualquer resultado, como o Patriarca insistiu em sua
+simplesmente se unindo à sua igreja. Os protestantes da Polônia
+tentou em 1599 uma união com o grego
+Igreja do seu país, e os delegados de ambos
+partes reuniram-se para este fim em Vilna; seu objeto
+foi, no entanto, frustrado pela mesma causa que
+tornou inúteis os esforços que tinham sido feitos
+pelos teólogos de Tübingen para este propósito, o
+Igreja Grega insistindo em toda a sua submissão
+à sua autoridade. É verdade que alguns eclesiásticos eruditos
+da Igreja Greco-Russa são supostos
+entreter opiniões protestantes, mas isso é inteiramente
+pessoal e não tem qualquer influência na sistemática
+política da sua Igreja, que odeia Roma
+como rival, mas o protestantismo como revolucionário
+princípio. Um dos defensores mais hábeis e zelosos
+da Igreja Católica Romana em nossos tempos,
+e a quem uma longa residência na Rússia tornou
 
-The Roman Catholic Church perfectly understands
-this soul-subduing power of art, and the following is
-the exposition of her views on this subject by one
-of her own writers, whom I have already quoted on a
-similar subject, p. 51.
+profundamente familiarizado com sua igreja, o Conde Joseph
+Demaistre, é de opinião que esta igreja deve finalmente
+ceder à influência do protestantismo;
+Papa, livro iv., cap. 1. e eu
+penso que este poderia ser realmente o caso se a Rússia
 
-That pictures and images in churches are particularly
-serviceable in informing the minds of the humbler
-classes, and for such a purpose possess a superiority
-over words themselves, is certain.
+A Igreja gozava de perfeita liberdade de discussão,
+que ela está muito longe de possuir atualmente.
+Acredito, no entanto, que tal contingência é muito
+possível com aquelas igrejas orientais que não são
+sob o domínio da Rússia, se já tivessem sido
+totalmente libertado da influência russa e trazido
+em contato com o ensino protestante. Tal revolução
+seria muito perigoso, não apenas para o exterior
+influência da Rússia, mas até ao seu despotismo
+em casa, porque um movimento protestante entre
+as igrejas gregas da Turquia cortariam todos
+ligação entre eles e a Rússia, e muito
+provavelmente se estenderá ao último país mencionado. É portanto
+muito provável, como foi observado pelo
+célebre explorador de Nínive, Layard, que o
+movimento mencionado acima, que recentemente
+começou a se espalhar entre as igrejas armênias de
+A Turquia não deixou de ter influência na missão da
+Príncipe Menschikoff e suas consequências.
 
-Segnius irritant animos demissa per aurem,
-Quam quæ sunt oculis subjecta fldelibus et quæ
-Ipse sibi tradit spectator.
+Eu disse acima que a posição mútua do
+Igrejas Greco-Russas e Católicas Romanas em direção
+um ao outro é o de dois rivais. A diferença dogmática
+entre eles gira em torno de algum abstruso
+princípios, que geralmente são pouco compreendidos pelos
+grande massa dos seus seguidores, enquanto o essencial
+motivo de divergência, a verdadeira questão em questão é,
+se a liderança da igreja deve ser investida
+no Papa, no Patriarca de Constantinopla, ou
+no Czar. O Papa permitiu que essa parte
 
-—Horace de Arte Poetica, v. 180.
+a Igreja Grega que se submeteu à sua supremacia
+no concílio de Florença em 1438, para manter seu ritual
+e disciplina, com algumas modificações insignificantes.
+A Igreja Católica Romana considera o Greco-Russo
+uma quase na mesma luz que ela é considerada
+ela mesma pela da Inglaterra. Ela reconhece
+ela seja uma igreja, embora cismática,
+cujos sacramentos e ordenação são válidos, para que
+um padre grego ou russo torna-se, ao assinar o
+união de Florença, um clérigo da Igreja Católica Romana
+Igreja exatamente como é o caso na Igreja Anglicana
+Igreja com um padre católico romano que renuncia
+o papa. A Igreja Greco-Russa não,
+no entanto, devolva o elogio ao romano
+católico, assim como o católico não o faz para
+o da Inglaterra; porque um padre católico romano
+quem entra na Igreja Greco-Russa não só perde
+seu caráter sacerdotal, assim como é o caso de um
+Clérigo anglicano que vai para a comunhão
+de Roma, mas ele deve até ser batizado
+de novo, como é feito com os cristãos de todas as denominações
+que se juntam a essa igreja, sejam judeus ou
+Gentios.
 
-What's through the ear conveyed will never find
-Its way with so much quickness to the mind,
-As that, when faithful eyes are messengers,
-Unto himself the fixed spectator bears.
+O sistema de reação que a Igreja Católica Romana
+A Igreja vem perseguindo há muitos anos, com um
+consistência, perseverança e zelo dignos de uma melhor
+causa, e não sem sucesso considerável, criou
+apenas alarme na mente de muitos amigos de religiosos
+e liberdade civil. Este sentimento é muito bem justificado
 
-The remark of a heathen poet is corroborated by
-the observations of the most celebrated amongst ancient
-and modern Christian writers. So persuaded
-was St Paulinus of Nola, fourteen hundred years ago,
-of the efficacy possessed by paintings for conveying
-useful lessons of instruction, that he adorned with a
-variety of sacred subjects the walls of a church which
-he erected, and dedicated to God in honour of St
-Felix.
+pela hostilidade aberta que os promotores da
+essa reação, tendo jogado fora a máscara de
+liberalismo, estão se manifestando aos acima mencionados
+liberdades. Acrescentarei, além disso, que a política
+complicações em que a Europa está agora envolvida poderão
+ser aproveitado pelo partido reacionário em
+para fazer avançar os seus esquemas, enquanto a atenção do público,
+particularmente deste país, será absorvido por
+os acontecimentos da guerra atual; e por isso penso
+que todos os verdadeiros protestantes deveriam, em vez de relaxar,
+aumentar a sua vigilância, no que diz respeito aos movimentos
+dos reacionários eclesiásticos. Mas os perigos
+que ameaçam a partir desse bairro são, pelo menos em
+neste país, de caráter puramente moral, embora
+estão causando muitos danos às famílias e podem lançar
+alguma obstrução à acção legislativa do
+governo. Devem, portanto, ser combatidos com
+meios morais e intelectuais, - com meios espirituais e
+não armas carnais - e podem ser completamente
+aniquilados por uma aplicação vigorosa e hábil de
+tais meios. O Papa de Roma, embora afirmando
+uma autoridade espiritual sobre muitos países, não pode
+manter-se em seu próprio domínio temporal
+sem a ajuda de potências estrangeiras, e é
 
-Prudentius assures us how much his devotion
-was enkindled, as he gazed upon the sufferings of
-martyrs, so feelingly depicted around their tombs and
-in their churches. On his way to Rome, about the
-year 405, the poet paid a visit to the shrine of St
-Cassianus, at Forum Cornelii, the modern Imola,
+obrigado a cortejar o favor dos potentados seculares, em vez disso
+de comandá-los, como havia sido feito por
+seus antecessores. O caso é bem diferente com
+o Papa Imperial da Rússia, que comanda um milhão
+de baionetas, e cuja autoridade é apoiada,
+
+não pelo cânone, mas pela lei canônica, e não por touros,
+mas por balas. A força material que ele tem em
+sua disposição é imensamente fortalecida por sua
+autoridade espiritual sobre as massas ignorantes do
+população russa, sobre cujos sentimentos religiosos ele
+pode agir com grande facilidade, porque suas ordens ao
+o clero é obedecido tão cegamente quanto suas ordens ao
+exército; e é com o objetivo de ampliar e consolidar
+esta autoridade sobre todos os seus súditos sem
+com a ressalva de que essas medidas de perseguição e sedução
+contra os católicos romanos e protestantes,
+que mencionei acima, foram adoptadas.
+A provável consequência desta centralização religiosa,
+e a condição da igreja cujo exclusivo
+domínio que se pretende estabelecer na Rússia, foram
+esboçado da seguinte maneira gráfica por um talentoso
+Escritor alemão, que, tendo residido muitos
+anos na Rússia, e conhecendo profundamente
+com o idioma desse país, pode ser considerado
+como um dos juízes mais competentes neste assunto: -
+
+Aquele que, com ouvidos e olhos atentos, viaja
+através do vasto império do Czar, cercando
+três partes do mundo com as suas armadilhas, e depois
+traça a soma de suas contemplações, tremerá em
+pensei no destino que o Colosso das nações
+ainda não cumpriu. Aquele que duvida do iminente
+o cumprimento deste destino não conhece a história, e
+não conhece a Rússia.
+
+Por mais diferente que seja em origem e interesse, o
+hordas estranhamente misturadas podem ser as que constituem este
+reino gigante, existe um vínculo poderoso que mantém
+todos eles juntos, - a Igreja Bizantina. Quem quer que seja
+permanece fora dele logo será forçado a isso; e
+antes do início do próximo século, todos os habitantes de
+A Rússia terá a mesma fé.
 
 where the body of that Christian hero reposed, under
 a splendid altar, over which were represented, in an expressive picture,
@@ -3219,8 +5438,36 @@ Catholic historian, Fleury, that the fathers of the
 second Council of Nice, who, according to the same
 authority, were a very ignorant set, shed tears at the
 
-sight of an image represented in an absurd and fictitious
-story.
+Ele conhece o padre e tem certeza de que um bom
+pedaço de dinheiro terá uma boa recepção por parte
+ele; é por isso que ele anda tão descuidadamente, na consciência
+de poder acomodar no caroço o
+toda a sua conta pecaminosa; e quando a absolvição
+acabou, ele se posiciona diante do milagroso
+imagem, e faz um sinal tão prodigioso do
+cruz, que antes deste ato todos os escrúpulos restantes
+de sua alma deve desaparecer.
+
+Consideremos, em suma, aquele pobre compatriota, que
+entra humildemente pela porta e olha maliciosamente ao redor
+ele nos espaços nublados pelo incenso. A pompa
+e o esplendor é demais para o pobre sujeito.
+
+Deus, ele pensa, mas que senhor gracioso o
+Imperador é que ele faz com que tais belas igrejas sejam
+construído para nós, pobres diabos! Deus abençoe o Imperador!
+E então ele desliza timidamente até alguma imagem onde
+o fundo dourado e as cores escuras formam mais
+contraste gritante, e se joga diante dele,
+e cruza o chão com a testa, para que seu
+cabelos longos caem direto sobre seu rosto, e assim ele se cansa
+ele mesmo com prostrações e enormes travessias,
+até que ele não possa fazer mais nada por exaustão. Para o
+quanto mais pobre for o homem na Rússia, maior será a cruz que ele
+sinais e roupas. Terra da Manhã de Bodenstedt;
+ou Mil e Um Dias no Oriente. Segundo
+Série, vol. eu., pág. 61 e segs., obra particularmente
+interessante na atualidade.
 
 Such are the effects produced in teaching religion
 by means of images. There can be no doubt about
@@ -3248,9 +5495,30 @@ preventing similar contingencies are free institutions,
 which allow the fullest liberty of discussion in regard
 to all religious opinions.
 
-I have said before, p. 82, that the Pope opposed
-the abolition of images proclaimed by the Emperor
-Leo III., and that this opposition was shared
+vestidos, tocaram com a testa o chão, e
+beijou a imagem, fazendo sinais da cruz; e
+estas eram senhoras pertencentes à mais alta sociedade,
+e das maneiras mais refinadas. Madame Bariatynski
+tinha sido uma dama da corte, e o ornamento
+das primeiras salas de estar de São Petersburgo.
+Sua mente é extraordinariamente cultivada e ela tem uma
+conhecimento profundo da literatura francesa e alemã;
+e, de fato, quando estávamos caminhando para ver
+essas igrejas, ao longo das margens do Volga, ela
+discutiu, de forma animada e engenhosa, o
+beleza incomparável das canções de Goethe, e recitadas de
+memória de seu Pescador. Mesmo no romano mais estrito
+Países católicos, como, por exemplo, Baviera, Bélgica,
+Roma, Munster, tais demonstrações públicas de
+piedade não devem ser satisfeitas, exceto em alguns casos extremamente
+casos raros, com mulheres, mas nunca com homens. O
+as classes instruídas separaram-se, neste aspecto, das
+os inferiores. Mesmo pessoas que são muito devotas
+considere tais manifestações excessivas de piedade como não
+bastante decente, não, embora não ousem confessar,
+eles têm até certo ponto vergonha deles. Em
+Na Rússia o caso é diferente. Há talvez como
+muitos livres-pensadores, e até mesmo ateus, como no Ocidente
 
 by the imperial provinces of Italy, which revolted
 on that occasion against their sovereign, and separated
@@ -3277,11 +5545,33 @@ arguments against all kinds of adoration offered to
 them. The substance of this celebrated protest is
 as follows:—
 
-Charlemagne says, that there is no harm in having
-images in a church, provided they are not worshipped;
-and that the Greeks had fallen into two extremes,
-one of which was to destroy the images, as had been
-ordained by the Council of Constantinople, under
+Assim que os seus navios (russos) chegam ao
+local de ancoragem, cada um deles desembarca,
+levando consigo pão, carne, leite, cebola e bebidas inebriantes
+licores e reparos em uma alta madeira
+poste, que tem a semelhança de um rosto humano esculpido
+sobre ele, cercado por pequenas estátuas de
+uma descrição semelhante, e algumas altas erguidas
+por trás disso. Ele se prostra diante disso
+figura de madeira, e diz: Ó Senhor, cheguei
+de um país distante; Eu trouxe comigo então
+
+e tantas garotas, as russas de
+naquela época eram conhecidos como traficantes de escravos, segundo Benjamin
+de Tudela, um viajante judeu do mesmo período. tantas e tantas peles de zibelina;
+e quando ele tiver enumerado todas as suas mercadorias,
+ele expõe diante do ídolo as coisas que possui
+trouxe consigo, e continua sua oração, dizendo:
+Aqui está um presente que eu trouxe para você, e
+Eu gostaria que você me enviasse um cliente que tenha
+abundância de ouro e prata, que não negociará com
+mim, mas compre tudo o que tenho para vender por conta própria
+preço. Quando seu comércio não prospera, ele
+traz novos presentes para o ídolo, e quando ele conhece
+com algumas novas dificuldades ele faz presentes também para o
+pequenas estátuas, mas quando consegue, oferece
+bois e ovelhas. Viagens de Ibn
+Foslan, tradução alemã, de Frähn, p. 7.
 
 Constantine Copronymus, and the other to worship
 them, as was decided by the second Council of
@@ -3303,16 +5593,31 @@ as so many acts of worship offered to a created
 being. He addresses the defenders of the worship of
 images in the following manner:—
 
-You who establish the purity of your faith upon
-images, go, if you like, and fall upon your knees and
-burn incense before them; but with regard to ourselves
-we shall seek the precepts of God in his Holy
-Writ. Light luminaries before your pictures, whilst
-we shall read the Scriptures. Venerate, if you like,
-colours; but we shall worship divine mysteries.
-Enjoy the agreeable sight of your pictures; but we
-shall find our delight in the Word of God. Seek
-after figures which cannot either see, or hear, or
+foram forçados pelo atual imperador a transferir seus
+fidelidade espiritual do Papa para consigo mesmo.
+Várias de suas igrejas contêm imagens milagrosas
+da Virgem, de maior ou menor reputação, e que
+foram obrigados a compartilhar o destino de seus adoradores,
+e tornar-se cismático tanto quanto este último.
+Os seus direitos adquiridos não foram, no entanto, lesados
+de forma alguma por esta revolução, porque continuam
+ser adorado e fazer milagres como
+eles fizeram antes, ou, o que dá no mesmo, eles
+estão plenamente autorizados a fazê-lo. O governo russo
+seguiu nesta ocasião a sua linha habitual de
+política, que consiste em promover aqueles que aderiram
+isso, abandonando seu antigo partido; e assim um dos
+o mais ilustre desses convertidos operadores de milagres,
+a Madonna de Pochayoff, uma pequena cidade em
+Wolhynia, foi transferida de sua estação provincial
+para Varsóvia, e colocado lá em um recém-construído
+catedral russa, provavelmente com o objetivo de induzir
+os habitantes católicos romanos daquela capital
+imitar um exemplo que lhes foi dado de tal forma
+alto quartel, e reconhecer a autoridade espiritual
+do Czar tanto quanto são obrigados a
+submeter-se ao seu domínio temporal. Quando o imperador
+estava indo no ano passado para Olmutz, a fim de persuadir
 
 taste; but we shall diligently seek after the law of
 God, which is irreprehensible. He further says:—I
@@ -3339,11 +5644,34 @@ the image of the Virgin, and it will be immediately
 put up in a high place, honoured, and kissed; whilst
 the other, representing Venus, will be thrown away
 
-with horror. These two pictures are, however, made
-by the same hand, with the same brush, with the
-same colours; they have the same features, and
-the whole difference between them lies in their inscriptions.
-Why is the one received and the other
+Esta propensão de beijar imagens dos russos foi
+a causa de um evento trágico durante a peste
+em Moscou em 1771. Geralmente acontece durante um
+calamidade pública que rumores de uma situação selvagem e absurda
+natureza circulam entre a parte ignorante da
+
+a população, e foi assim que, quando a pestilência
+estava em fúria na capital acima mencionada, um
+foi divulgada a notícia de que uma imagem da Virgem, colocada
+na entrada de uma igreja, tinha o poder de impedir
+infecção. Milhares de pessoas repararam
+a imagem milagrosa, e intermináveis procissões eram
+caminhando pelas ruas em direção ao mesmo objeto de
+adoração, que estava sobrecarregada de ricas ofertas
+por seus adoradores e adornado com jóias caras.
+Como era de se esperar, esta prática supersticiosa,
+em vez de prevenir a infecção, contribuiu poderosamente
+ao seu aumento; porque os beijos que
+a multidão generosamente concedeu à imagem milagrosa
+não poderia deixar de propagar a doença. O Arcebispo
+de Moscou, Ambrósio, um prelado esclarecido,
+para acabar com esse mal, removeu o
+imagem do local onde foi exposta
+o interior da igreja; mas esta medida sábia
+produziu um motim violento e uma multidão enfurecida correu
+no santuário e assassinou o venerável velho
+homem ao pé do altar, onde oficiava,
+vestido com seus pontifícios.
 
 rejected? It is not on account of the sanctity which
 one of them has, and the other has not; it is, then,
@@ -3379,11 +5707,21 @@ Germany, and Spain, and at which two legates of the
 Pope were present, condemned the enactment of the second
 Council of Nice respecting the worship of images.
 
-This decree of the Council of Frankfort is very important,
-because it not only condemned the worship
-of images, but it virtually rejected the infallibility
-of the Popes, as well as of the General Councils,
-since it condemned what they had established.
+O túmulo de São Sérgio, fundador daquele convento
+no século XIV, é adornado com ouro
+e pedras preciosas, e o dossel de prata sobre ele é
+disse pesar 1.200 libras. O mais notável
+objeto contido naquele convento é, no entanto, o
+imagem daquele santo que acompanhou Pedro, o
+Grande durante todas as suas campanhas, e nas quais estão inscritos
+os nomes de todas as batalhas e assaltos de
+cidades onde esteve presente. eu não sei
+se esta imagem participou de outras expedições
+do exército russo, mas li este ano no
+jornais que quando uma divisão de granadeiros foi
+passando por Moscou, a caminho da Turquia,
+o Arcebispo daquela capital dirigiu-se a eles, disparando
+seu zelo pela guerra religiosa em que
 
 The opposition to the worship of images continued
 amongst the Western churches for some time after
@@ -3409,8 +5747,23 @@ present essay; and I shall endeavour to give in my
 next chapter a short sketch of the legends of the
 saints, composed during the middle ages.
 
-Chapter VI. Origin And Development Of The Pious Legends,
-Or Lives Of Saints, During The Middle Ages.
+As imagens milagrosas do greco-russo
+Igreja são geralmente considerados como não feitos pelo
+mãos do homem, enquanto as da Igreja Católica Romana
+Acredita-se geralmente que a igreja foi pintada por São
+Lucas. As Madonas mais célebres da Rússia,
+como os de Kazan, Korennaya, Akhtyrka, etc., são
+acredita-se que tenha caído do céu, no mesmo
+maneira como a Diana de Éfeso e outros gregos
+ídolos de renome. Eles são chamados de ícone yavlenneeye,
+isto é, imagens reveladas, e seu número é considerável,
+embora nem todos gozem de igual reputação
+por poderes milagrosos. O número de imagens
+de várias descrições é, penso eu, muito maior em
+Rússia do que em qualquer outro país, e são
+chamado pelas pessoas comuns, não imagens, iconicidade,
+mas deuses, boghi; e muitos de seus adoradores são
+tão ignorantes, que tiram todo tipo de foto ou
 
 A collection of the lives of the saints of the Roman
 Catholic calendar has been accomplished by
@@ -3431,15 +5784,30 @@ imagination of their biographers; and the best proof
 of this is that the learned Benedictine monk, Dom
 Ruinart, an intimate friend and collaborator of the
 
-celebrated Mabillon, has reduced the acts of martyrs,
-whom he considers as true, to one moderate
-quarto, though the same work contains a refutation
-of the Protestant Dodwell, who maintained that the
-number of the primitive martyrs had been greatly
-exaggerated by their historians.The title of
-Ruinart's work is—Acta primorum Martyrum sincera et selecta
-ex libris, cum editis, tum manuscriptis, collecta eruta vel emendata. 4to, Paris
-1687, and several editions afterwards.
+Os russos são grandes exclusividades no que diz respeito a
+suas imagens, e todo crente tem pelo menos uma delas
+
+eles presos na parede perto de seu lugar de dormir, para
+seu uso e conforto especiais; enquanto as pessoas que estão
+movendo-se continuamente, como carregadores, mascates, soldados,
+etc., tenham consigo suas divindades de bolso; e
+a descrição dos exercícios devocionais de um russo
+soldado, dado na pág. 171, não é de forma alguma um
+caricatura. Essa exclusividade era muito maior
+antes das reformas introduzidas pelo Patriarca
+Nicon no século XVII do que é actualmente.
+reforma, realizada no reinado de Aleixo, pai de Pedro, o
+Grande, consistiu principalmente na correção do texto das Escrituras Eslavas
+e livros litúrgicos, que foram grandemente desfigurados pela ignorância dos sucessivos
+copistas, e na proibição de algumas práticas supersticiosas, que
+usurpou uma parte importante no serviço divino da Igreja Russa.
+Estas sábias reformas produziram, no entanto, uma oposição violenta e vários milhões de pessoas
+separados da igreja estabelecida, e são conhecidos, embora divididos em
+muitas seitas, sob a denominação geral de Raskolniks,
+ou seja, cismáticos,
+enquanto eles se autodenominam Starovertzi, ou aqueles do antigo
+fé e designar
+a igreja estabelecida com o nome de heresia niconiana.
 
 The Christian church was already, at an early
 period of her existence, disturbed by a great number
@@ -3490,14 +5858,47 @@ These traditions were generally collected and put in
 writing only centuries after the time when the event
 to which they relate had, or is supposed to have
 
-taken place. It was therefore no wonder that the
-subjects of many such accounts are purely imaginary.
-The nature of the generality of these legends, or
-lives of martyrs and other saints, may be judged of
-best from the following opinion expressed on this
+Foi observado por alguns viajantes na Rússia
+que os negociantes de imagens daquele país não vendem
+seus produtos, mas, por uma espécie de ficção jurídica, trocam
+por uma certa quantia e que, conseqüentemente, eles
+são alienados a um preço fixo. Isto é, no entanto,
+não é o caso, e os negociantes de imagens da Rússia fazem
+nenhuma exceção aos outros comerciantes daquele país,
+que geralmente pedem pelos seus bens o triplo do seu
+valor, e um preço razoável só pode ser obtido
+por duras negociações. Somente imagens consagradas, ou seja,
+aqueles que foram aspergidos por um sacerdote com
+água benta, não pode ser, penso eu, transformada em objeto de
+tráfego.
 
-subject by a Roman Catholic clergyman of unsuspected
-orthodoxy:—
+Os russos ortodoxos não têm menos veneração
+por belas igrejas do que por imagens esplendidamente adornadas,
+e o conhecido escritor dramático alemão Kotzebue
+dá na relação de sua viagem forçada para
+Sibéria,O título deste livro é Das Merk würdige
+Jahr Meines Lebens – O ano memorável da minha vida. Já foi, eu
+acredite, traduzido para o inglês. sob o imperador Paulo, uma característica
+característica desta disposição. O conselheiro titularA civil
+grau igual ao de capitão do exército.
+Shchekatikhin, que o conduziu ao local de
+seu exílio, Kurghan, no sul da Sibéria, mostrou
+uma grande reverência a todas as igrejas que eles
+passou. Sempre que passavam por uma bela igreja
+
+construído em alvenaria sólida, ele tirou o boné e
+benzeu-se com muito fervor, enquanto tratava muito
+cavalheirescamente todos aqueles que foram construídos em madeira, fazendo
+um sinal da cruz quase imperceptível em seus
+honra. Esta propensão nacional para tratar respeitosamente
+o grande e desdenhosamente o pequeno, dos quais
+A piedade de M. Shchekatikhin era tão característica
+exemplificação, tem sido, em sua aplicação a
+igrejas, descritas pelo grande admirador da Rússia,
+Barão Haxthausen, cujo relato do devocional
+práticas observadas pelas classes altas daquele país
+Eu dei acima, p. 173, a seguir
+maneira: -
 
 What shall I say of those saints of whose life we
 don't know either the beginning or the progress,—of
@@ -3524,9 +5925,27 @@ been a deacon to St Sixtus, are ascribed to a new
 Felicissimus; and the virtues of St Victor of Milan
 are now given to a new Victor, who has been recently
 
-brought to Paris. As regards the life of St Ovidius,
-is there anything in it more than words and
-words? and can we find in it anything solid? This
+grau igual àqueles que têm pedra ou tijolo.
+Isto mostra como o orgulho da posição permeia o
+mente dos russos em todas as formas de vida, e em
+cada classe da população. Em casos deste tipo,
+nenhuma promoção, mas apenas uma quantia em dinheiro é necessária
+para obter a classificação desejada. Pode ser adquirido
+construindo uma igreja de pedra ou tijolo.
+Tal igreja custa dez, vinte ou trinta mil
+rublos de prata (seis rublos iguais a uma libra); mas
+nada é mais fácil do que conseguir essa quantia. Uma dúzia
+de companheiros robustos se dispersam em várias direções, para coletar
+implorando a quantia necessária para a construção
+da igreja projetada, o que é feito sem qualquer
+despesa, pois os coletores são recebidos hospitaleiramente em
+cada casa. Assim que a soma necessária for obtida,
+a aldeia pede ao governo um plano
+e para um arquiteto, porque o plano de cada um desses
+igreja deve ser aprovada em São Petersburgo. Assim,
+em poucos anos, uma bela igreja é construída, construída
+no estilo moderno, e a classificação da aldeia
+aumenta na sua própria opinião e na opinião dos seus vizinhos.
 
 little book speaks of a leaden plate upon which the
 senatorial dignity and the year of this saint's martyrdom
@@ -3548,16 +5967,32 @@ sufficient to establish the truth of his life, such as it
 has been published?Mabillon on
 the Unknown Saints, p. 10. Apud Basnage, p. 1047.
 
-I would, however, observe, that many writers of
-the lives of saints, without excepting those who are
-considered legitimate, have rendered themselves
-guilty of something worse than the plagiarism of
-which the learned Mabillon complains in the passage
-given above. They may be accused of having
-blasphemously parodied the Scriptures, and particularly
-the Gospels, by ascribing many of the miracles
-recorded in the Bible to the subjects of their biographies.
-M. Maury, the French savant whom I
+São estes dois sentimentos nacionais que o Imperador
+Nicholas agora está tentando excitar ao máximo,
+e não pode haver dúvida de que se ele conseguir
+seu objetivo será uma dura luta entre a barbárie
+e civilização, embora o triunfo final da
+este último, em benefício não só dos vencedores,
+mas também dos vencidos, não se pode duvidar por muito tempo
+momento. Devo, no entanto, voltar ao Barão Haxthausen,
+que continua seu relato sobre o russo
+igrejas da aldeia, dizendo: -
+
+Não deve ser esquecido, para compreender
+como coleções tão grandes para uma igreja de algum obscuro
+aldeia, e feita na maior parte entre
+os camponeses, são obtidos, que dar é tanto
+no caráter russo como tendo. Propriedade de lugar nenhum
+depende de tais fios soltos e mudanças
+mãos com tanta rapidez como na Rússia. Hoje rico,
+amanhã pobre. As pessoas ganham e desperdiçam
+quase simultaneamente; eles trapaceiam e são enganados;
+
+eles roubam com uma mão e dão com a
+outro. O russo comum não coloca o seu coração em
+qualquer tipo de propriedade; ele perde com perfeita equanimidade
+o que ele acabara de ganhar, na esperança de conseguir
+novamente amanhã.
 
 have already quoted (p. 11), has traced a great number
 of miracles ascribed to various saints, which are
@@ -3583,12 +6018,30 @@ daughter is healed.Vie de St François Xavier,
 par le Pere Bouhours, 1716. Apud Maury,
 p. 22.
 
-Had these miracles been performed in our part
-of the world, they would have converted crowds of
-Protestants, and thus greatly advanced the principal
-object of the order to which St Francis Xavier belonged;
-but the air of Europe seems to have been
-unfavourable for such wonderful experiments, since
+na Europa Ocidental. Existem, de fato, muitos
+relíquias em cuja posse exclusiva ambos estes
+igrejas apresentam reivindicações iguais, cada uma delas representando
+o dela como o único genuíno, e o dela
+rival como espúrio. O mais célebre de
+essas relíquias disputadas é o brasão sagrado de Treves, e
+o de Moscou. É bem sabido que barulho o
+o primeiro deles produzido em 1844, quando um imenso
+muitos peregrinos vieram adorá-lo; e é
+fingiu que tinha sido encontrado pela Imperatriz
+Helena, com a cruz verdadeira, e apresentada por ela a
+a cidade de Treves. O brasão de Moscou foi dado
+como um presente ao Czar por um Xá da Pérsia, e
+a sua autenticidade foi estabelecida por um arcebispo russo,
+que afirmou que, quando passou por
+Geórgia, ao retornar de Jerusalém, ele viu em um
+igreja daquele país uma caixa dourada colocada sobre uma
+coluna, e que, como lhe foi dito, continha
+o casaco sem costura de nosso Senhor. Esta declaração
+foi corroborado por um monge oriental, então em
+Moscou, que relatou que geralmente se acreditava
+na Palestina, que quando os soldados lançaram sortes sobre o
+posse daquele casaco, ele caiu nas mãos de um dos
+eles, que, sendo nativos da Geórgia, levaram isso com
 
 the good saint was obliged to betake himself to Japan
 in order successfully to perform them.
@@ -3646,11 +6099,28 @@ moral precepts. All this contributed to spread the
 order of St Francis, to which both sexes are admitted,
 with a marvellous rapidity over many countries; at the
 
-same time its members were extolling the virtues and
-supposed miracles of their founder in the most exaggerated
-and often ludicrous manner, of which the following
-anecdote may serve as a specimen:—A Franciscan
-monk, who was one day preaching about the
+Eles começaram seus distúrbios correndo ao redor do
+Santo Sepulcro com toda a sua força e rapidez,
+gritando enquanto avançavam, Huia! o que significa
+Este é ele, ou, É isso, uma expressão pela qual
+eles afirmam a veracidade da religião cristã. Depois
+eles tiveram por suas circulações vertiginosas e clamores
+viraram suas cabeças e inflamaram sua loucura,
+eles começaram a fazer os truques mais engraçados e
+posturas, em mil formas de distração. Às vezes
+eles se arrastaram pelo chão, todos
+ao redor do sepulcro; às vezes eles colocam um homem
+ereto sobre os ombros de outra pessoa, e nesta postura
+marchou em volta; às vezes eles transformavam homens com
+seus calcanhares para cima, e os apressou em tal
+maneira indecente de expor suas nudez;
+às vezes eles rolavam em volta do sepulcro, depois
+a maneira dos copos no palco. Em uma palavra,
+nada pode ser imaginado mais rude ou extravagante
+do que o que foi agido nesta ocasião.
+
+Neste tumultuoso humor frenético eles continuaram
+das doze às quatro horas, razão pela qual
 
 merits of the founder of his order, began his sermon in
 the following manner: Where shall I place the great
@@ -3734,10 +6204,34 @@ the Christian faith.—(Pp. 1, 2.)The title of
 this curious work is Histoire de St François d'Assise, par
 Emile Chavin de Malan. Paris: 1845.
 
-Now, I ask my reader whether the publication
-of such a work, in the year of grace 1845, at Paris,
-is not a perfect miracle, and undoubtedly much more
-genuine than all those which it describes?
+Suponha, ainda mais, que esses milhares de devotos
+correndo de um extremo ao outro, do
+extremo da irritação selvagem ao do prazer selvagem,
+de orgias e festas mútuas, como Israel
+antigamente, que, quando fizeram o bezerro de ouro, foram
+comendo e bebendo e levantando-se para brincar. Suponha
+tropas de homens despidos seminus, para facilitar a sua
+ações, correr, trotar, saltar, galopar e
+daqui, a largura e o comprimento da igreja, caminhando
+nas mãos com os pés no ar, montando
+nos ombros uns dos outros, alguns cavalgando e
+alguns em pé, e ao menor
+push são todos enviados para o chão em uma pilha confusa,
+o que fez temer por sua segurança.
+
+Suponhamos, mais adiante, que muitos dos peregrinos vestidos
+em gorros de pele, como os judeus poloneses, que fingiam
+representar, e com quem a multidão se encontrou de todas as maneiras
+de insulto, apressando-os através da igreja como
+criminosos que haviam sido condenados, em meio a ruidosas execrações
+e gritos de riso, o que indicava que
+Israel ainda é motivo de escárnio entre esses pagãos, por
+a quem ainda são contados como ovelhas para o
+massacre.
+
+Por volta das duas horas da tarde de sábado, o
+os preparativos para o fogo milagroso começaram.
+A multidão, que até então estava em estado de
 
 We live indeed in an age of wonders, physical as
 well as moral, and neither of them have escaped the
@@ -3802,13 +6296,47 @@ heavenly child. After this the divine vision disappeared,
 and Waltheof found in his hands the consecrated
 water.Ibid., p. 24.
 
-The whole collection is full of similar stories, some
-of which are really outrageous; as, for instance, that
-which it relates about St Augustine, the great apostle
-of England.
+Mas um milagre anual, sempre da mesma especificidade
+espécie, exposta no mesmo local e no
+mesma hora, - um milagre anual, - em que ponto
+momento em que isso deve ser descontinuado? e, se descontinuado,
+também não seria manifesto que o céu
+abandonou seus favoritos, ou que todo o passado
+houve ilusão e impostura? - (Págs. 127, 128.)
 
-This saint was, during his peregrinations about
-the country, received with great honours in the north
+E é a autoridade de uma igreja apoiada por
+imposturas tão ímpias e vergonhosas como esta milagrosa
+fogo que vários anglicanos, incluindo
+vários dignitários da igreja, estão ansiosos por preservar
+contra invasões protestantes e protesto
+contra a existência do bispado protestante
+de Jerusalém, por medo de que isso pudesse prejudicar a fé
+dos peregrinos, e pôr fim a tão sagrado
+
+malabarismos como o descrito acima, que supera
+as práticas mais supersticiosas da antiguidade
+ou paganismo moderno! E é pela predominância
+desta mesma igreja que o autocrata de
+A Rússia mergulhou agora a Europa numa guerra que
+pode ser um dos mais sangrentos que os tempos modernos
+testemunhei e proclamei um greco-russo
+cruzada contra o Porto Otomano e seus cristãos
+aliados! Esta última circunstância pode, eu
+penso, faça com que não seja desinteressante para meus leitores
+saiba a maneira como esta questão é vista
+por russos de posição elevada e educação superior.
+Gostaria, portanto, de recomendar à sua atenção
+um pequeno panfletoO título deste
+produção curiosa é, Um Apelo sobre a Questão Oriental
+ao Senatus Academicus do Royal College de Edimburgo. Por um russo,
+Quondam Civis Bibliothecae Edinensis. Edimburgo: Thomas C. Jack, 92
+Rua dos Príncipes. Londres: Hamilton, Adams, & Co.
+publicado recentemente em inglês
+por um russo talentoso, que estudou na
+Universidade de Edimburgo, e tinha desfrutado de amizade
+relações com os personagens mais eminentes daquele
+corpo erudito, partindo com todos aqueles que conheceram
+ele uma impressão mais favorável de seu pessoal
 
 of England; but, says the work in question, very
 different from this are the accounts of his travels in
@@ -3830,13 +6358,30 @@ the shape of a loathsome deformity.Life of
 St Augustine of Canterbury, Apostle of the English, p. 237, in the
 1st volume of the English Saints, mentioned above.
 
-The writer who relates this story had not the
-courage or the honesty of M. Chavin de Malan to
-tell that the insult offered to the holy visitors consisted
-in attaching tails of fish to their robes, and
-that the loathsome deformity, with which the children
-of the perpetrators of that insult were born
-during many generations, was a tail.
+Você traduz a Bíblia para todas as línguas vivas,
+não excluindo o idioma turco, e você distribui
+os volumes sagrados ao lojista de Constantinopla,
+e ao pastor que cuida dos seus camelos no meio
+as ruínas de Éfeso. Não somos propagadores tão trabalhosos
+da fé; mas ainda assim gostaríamos de interceder
+a favor do Turco quando a sua cópia do
+A Bíblia o converteu à fé cristã, e
+que, pela lei do país, deve ter a cabeça cortada
+fora por esta transgressão. Marque que a obrigação
+é muito mais vinculativo para nós do que para você, e
+não menos vinculativo pelo trabalho ter sido iniciado
+sozinhos. Os turcos estão espalhados entre os
+Gregos e cercados por eles. Existem dez
+mil chances para uma, que se o muçulmano se converter
+de forma alguma, é aquele credo do qual a igreja
+está diante de seus olhos imediatos, e esse credo é nosso.
+Mas, é estranho dizer, é por causa dessa mesma chance
+que devemos ser proibidos de interferir no
+importa. Com os franceses e com os ingleses, o
+caso é muito diferente. Eles, de fato, nos dizem,
+reivindicam o direito de proteção apenas para milhares de pessoas;
+mas você reivindica o mesmo direito sobre milhões e,
+portanto, você não o terá. A pergunta que você
 
 Absurd as this monkish story is, it is nevertheless
 characteristic of the spirit of the sacerdotal pride
@@ -3873,15 +6418,53 @@ not, without showing disbelief in the Catholic doctrine,
 deny the possibility of the miracle, and was
 therefore obliged to give an affirmative reply. The
 
-king, therefore, pardoned the soldier, on condition
-of never accepting presents from this or any other
-image or saint whatever.
+isso, talvez, será trazido para casa como um argumento
+contra mim, pois tal é o ódio às seitas que procede
+da mesma fé, que a Inglaterra iria, talvez,
+suportaram com mais mansidão as dificuldades suportadas por
+os irmãos calvinistas, se eles tivessem sido submetidos
+para isso por um Soliman, e não por aquele que estilizou
+ele próprio o rei mais cristão da França. No entanto
+isto pode ser, diz-se actualmente que, quer
+oprimidos ou não, os gregos nunca solicitaram a nossa intervenção.
+A isto pode-se responder que o
+toda a dificuldade teria sido resolvida pela própria
+fato da solicitação, pois se tivessem tido a coragem
+e os meios para enviar uma resposta semelhante e unânime
+mensagem ao Imperador da Rússia, eles teriam
+tiveram a força e a unanimidade exigidas
+desferir o golpe e tornar inútil qualquer intervenção.
+O fato de não terem ressuscitado como homem em sua
+própria causa, é uma explicação suficiente para a sua necessidade
+de ousadia em solicitar sua libertação no
+mãos de um Estado estrangeiro. Mas deixando de lado a questão
+dos súditos do Império Otomano professando
+a fé grega, para falar do muito mais vital
+interesse da própria fé, professada como é por nós mesmos,
+permita-me submeter-me ao seu
 
-The author of this essay, though a firm believer
-in the existence of God and the truth of the Scriptures,
-has not the advantage of being inspired with
-faith in the Catholic doctrine; he therefore will continue
-his researches in the same manner as before.
+decisão sincera, se o trabalho de defender essa fé
+não pertence preeminentemente a nós, e nem a
+os ingleses nem os franceses. Nós toleramos no
+toda a extensão do nosso império, tanto a Igreja Católica Romana
+e as comunhões de fé luteranas; nós temos
+
+milhões de súditos que professam ambos os credos; nós construímos
+igrejas para eles. Muito antes dos católicos romanos
+foram emancipados na Inglaterra, os postos do
+da mais alta honra, da maior confiança e de
+os maiores privilégios do exército, do senado e
+o conselho supremo do império, foram abertos indiscriminadamente
+por nós aos homens que professam o grego,
+credos romanos ou luteranos. É por causa do nosso
+tolerância em relação a seitas que não são as nossas, que
+estão condenados a ser indiferentes às dificuldades
+aqueles de nossa própria fé? Não devemos apenas permitir
+sua igreja permaneça sem ser molestada dentro da nossa
+reino, mas também para permitir que nossa própria igreja caia
+ruínas dentro dos limites de um estado vizinho? Se
+então, você condena nossa tolerância, você chama isso de indiferença
+e descrença. - (P. 9 e segs.)
 
 Many legends originated from misunderstanding
 the emblematic character of some pictures. Thus
@@ -3996,14 +6579,30 @@ at the gates of the monastery, would be called in to
 inflict upon them a discipline at once shameful and
 severe.
 
-Among all the epidemic fancies of the sex I
-have found upon record, none equals that related by
-Cardan to have displayed itself in the fifteenth century,—which
-forcibly illustrates what has been remarked
-of the intuitive contagion by which fantastic
-affection is propagated among women. A nun in a
-certain German convent was urged by an unaccountable
-impulse to bite all her companions; and her
+espaço para atravessar e um refúgio mais seguro para chegar no
+seio da Igreja Greco-Católica, o mesmo que
+a de Roma, sem a dupla procissão antiapostólica
+do Espírito Santo, sem um papa infalível,
+menos a venda de indulgências e, por último, embora não
+menos, menos a exclusão arbitrária do sangue de
+Cristo da sagrada comunhão dada aos leigos!
+Não é estranho que no momento da abjuração
+suas reformas, você deveria voar para os braços de um
+igreja que introduziu reformas em sua
+próprio, e não apelar para aquela igreja que professa
+com verdade evidente não ter admitido mudanças
+e manteve intacta a pureza da sua tradição?
+Mas, novamente, esta não é uma dissertação teológica. Testemunhando,
+entretanto, como eu disse acima, em seu próprio reino,
+a crescente influência diária do romano
+Veja, você certamente pode entender o quão legitimamente
+com ciúmes, devemos ter a mesma influência que se estende
+dentro do recinto do nosso redil. E, portanto,
+não só a nossa fé deve ser preservada sem ser molestada,
+mas a ação salvadora deve ser feita por nós, e não
+através da agência dos embaixadores inglês e francês
+ou frotas, a realizar em nome do
+fé que professamos em comum com nossos irmãos gregos,
 
 strange caprice gradually spread to others, till the
 whole body was infected by the same fury. Nor
@@ -4036,17 +6635,24 @@ visions, or infernal phantoms, prodigies, or
 miracles! or should its reveries take another direction,
 with what increasing eagerness and confidence
 
-do its hopes hunt after the delusions of alchemy,
-the fictions of philosophy, and the delirium of metaphysics!
-In cases where the mind is less capacious,
-and its stores less copious, it will attach itself to
-some absurd notion, the child of its languid and exhausted
-powers; and bestowing its fondest confidence
-on this darling of its dotage, will abandon reason and
-outrage common sense.Zimmerman's Solitude
-Considered with respect to its Dangerous Influence
-upon the Mind and Heart. English translation. Ed.
-1798, p. 102, et seq.
+Creio que nunca foi conhecido, mesmo nos meios mais militantes
+das igrejas? Foi, de facto, bem dito por
+o Marquês de Custine, que o clero russo está
+mas um exército vestindo regimentos um pouco diferentes
+da vestimenta das tropas regulares do império.
+Os papas e seus bispos estão sob a direção
+do imperador, um regimento de escriturários, e isso é tudo.
+Rússia, carta xxxvi. A mesma opinião é expressa pelo Barão
+Haxthausen, a quem citei acima, e que diz: Os filhos dos papais
+e outros jovens adquirem nos seminários e academias eclesiásticas uma
+certo grau de aprendizagem teológica, após o qual eles induzem a vestimenta monacal,
+e são inscritos nos registros de algum convento, sem contudo permanecer nele.
+Eles entram nos ofícios de bispos e arcebispos para desempenhar suas funções pessoais
+bem como serviço administrativo. A posição deles torna-se então exatamente a mesma
+dos ajudantes de campo militares dos generais, e dos civis dos ministros,
+e é dentre eles que os bispos, arquimandritas, abades, etc., são
+escolhido. É uma carreira como qualquer outro serviço na Rússia. Vários desses eclesiásticos
+podem ter escolhido a sua vocação a partir de uma verdadeira devoção; a maior parte
 
 I have given this lengthened extract from Zimmerman,
 because I think it satisfactorily explains
@@ -4099,16 +6705,34 @@ individuals whose imaginations are stronger than
 their reasoning powers, there can be little doubt that
 they may again become the stage of those extraordinary
 
-manifestations, the cause of which had been
-too exclusively ascribed to mediæval darkness. It
-cannot be doubted, that designing individuals of both
-sexes, possessed of superior talents and knowledge,
-but particularly endowed with a strong will, may
-exercise not only an undue influence, but even an
-absolute power over the inmates of the above-mentioned
-monastic establishments; and that a skilful
-application of mesmerism may efficiently promote
-such unlawful ends.
+Santo Agostinho queixa-se, na sua obra intitulada
+O Trabalho dos Monges, que certas pessoas eram,
+mesmo em sua época, exercendo um comércio desonesto, vendendo
+sobre relíquias de mártires, e acrescenta o seguinte
+palavras significativas, deveriam ser realmente relíquias
+de mártires, dos quais podemos inferir, que mesmo então
+abusos e enganos eram praticados, fazendo simples
+as pessoas acreditam que os ossos, recolhidos em qualquer lugar, foram
+ossos de santos. Dado que a origem deste abuso é tão
+antigo, não pode haver dúvida de que aumentou muito
+durante um longo intervalo de anos, especialmente
+como o mundo foi muito corrompido desde aquela época,
+e continuou a deteriorar-se até chegar
+em sua condição atual.
+
+Agora, a origem e raiz deste mal tem sido que,
+em vez de discernir Jesus Cristo em sua Palavra, seu
+Sacramentos, e suas Graças Espirituais, o mundo tem,
+segundo seu costume, divertiu-se com seu
+
+roupas, camisas e lençóis, ficando assim o principal
+para seguir o acessório.
+
+Fez o mesmo com os apóstolos, mártires,
+e outros santos, e, em vez de observar suas vidas
+para imitar seus exemplos, dirigiu todos os seus
+atenção à preservação e admiração de seus
+ossos, camisas, faixas, bonés e outros lixos semelhantes.
 
 Many local superstitious remains of Paganism,—as,
 for instance, miraculous powers ascribed to certain
@@ -4156,20 +6780,44 @@ the firmness of a rope, so that the saint's cloak
 remained hanging upon it. It must not, however, be
 believed that the hot sun and fervid imagination of
 
-Greece were absolutely requisite for the performance
-of such wonderful tricks; for we have sufficient legendary
-evidence to prove that they were successfully
-reproduced under the less brilliant sky of Germany
+É verdade que Santo Ambrósio, ao falar de
+Helena, a mãe do imperador Constantino, o
+Ótimo, que procurou com grande dificuldade e despesa
+pela cruz de Nosso Senhor, diz que ela não adorou
+a madeira, mas o Senhor que estava suspenso
+sobre isso. Mas é muito raro que um coração esteja disposto
 
-and France, because St Goar of Treves suspended
-his cap, and St Aicadrus, abbot of Jumieges, his
-gloves upon the same piece of furniture that had been
-used by St Laurenthios to hang his cloak, though
-probably, considering that the sun is not so powerful
-in those countries as it is at Constantinople, the western
-saints did not venture to try its rays with such
-a heavy load, as had been successfully done by their
-eastern colleague.
+valorizar quaisquer relíquias, seja o que for que não deva se tornar
+até certo ponto poluído por alguma superstição.
+
+Admito que as pessoas não chegam imediatamente ao open
+idolatria, mas gradualmente avançam de um abuso
+para outro até que caiam nesta extremidade, e, de fato,
+aqueles que se dizem cristãos têm, em
+esse respeito, idolatrado tanto quanto os pagãos jamais o fizeram.
+Eles se prostraram e se ajoelharam diante
+relíquias, como se estivessem adorando a Deus; eles
+acenderam velas diante deles em sinal de homenagem;
+depositaram neles a sua confiança e
+orava a eles, como se a virtude e a graça de Deus
+havia entrado neles. Agora, se a idolatria não for nada
+outra coisa que não a transferência para outro lugar da honra que
+é devido a Deus, pode-se negar que isso é idolatria?
+Isto não pode ser desculpado fingindo que foi
+apenas o zelo impróprio de alguns idiotas ou tolos
+mulheres, pois era um costume geral aprovado por
+aqueles que tinham o governo da igreja, e
+que até colocou os ossos dos mortos e outros
+relíquias no altar-mor, na maior e mais
+lugares de destaque, para que fossem adorados
+com mais certeza.
+
+É assim que a fantasia tola que as pessoas tinham
+a princípio por coletar relíquias, terminou nesta abominação aberta, - eles
+não apenas se afastou de Deus, a fim de
+divertem-se com coisas vãs e corruptíveis,
+mas até passou ao execrável sacrilégio de adorar
+criaturas mortas e insensíveis, em vez das
 
 Some miracles were invented in order to inculcate
 implicit obedience to the ecclesiastical authorities,
@@ -4187,11 +6835,30 @@ therefore, suspended in the air until St Vincent, returning
 with the permission, got him safely down on
 the ground.
 
-It must be admitted, that many saints, whose
-lives are disfigured by absurd stories of their miracles,
-were men of great piety, adorned with the
-noblest virtues, and who gave proofs of the most exalted
-charity and self-devotion. Unfortunately the
+Os primeiros cristãos deixaram os corpos dos santos
+em seus túmulos, obedecendo à sentença universal, que
+toda a carne é pó, e ao pó deverá voltar, e
+não tentaram sua ressurreição antes do designado
+tempo, elevando-os com pompa e estado.
+Este exemplo não foi seguido pelos seus sucessores;
+pelo contrário, os corpos dos fiéis,
+
+em oposição ao mandamento de Deus, foram
+desenterrados para serem glorificados, quando deveriam
+ter permanecido em seus lugares de repouso aguardando
+o último julgamento.
+
+Eles foram adorados; todo tipo de honra era
+mostrado a eles, e as pessoas depositam sua confiança em tal
+coisas. E qual foi a consequência de tudo isso?
+O diabo, percebendo a loucura do homem, não ficou satisfeito
+por ter levado o mundo a um engano, mas
+acrescentou-lhe outro, dando o nome de relíquias
+dos santos às coisas mais profanas. E Deus
+puniu os crédulos privando-os de todos
+poder de raciocinar corretamente, para que aceitassem
+sem questionar tudo o que lhes foi apresentado,
+não fazendo distinção entre branco ou preto.
 
 honours of saintship have been often bestowed upon
 such sanguinary monsters as St Dominic, whose shrine
@@ -4216,17 +6883,40 @@ is supposed, however, that all this story is but a fiction,
 and, for the sake of humanity, I sincerely hope
 that it is so.
 
-The limits of this essay allow me not farther to
-extend my researches about the legends of mediæval
-saints, and their miracles; and I shall try to give
-in my next chapter a short analysis of several practices
-which the Roman Catholic as well as the Græco-Russian
-Church have retained from Paganism.
+aviso; mas quando somos avisados, começamos a
+pensamos, e ficamos bastante surpresos com a nossa crença
+tão facilmente tal improbabilidade. Isto é precisamente
+o que aconteceu com o assunto em questão.
+Foi dito às pessoas: Este é o corpo de tal santo;
+estes são os sapatos dele, aquelas são as meias dele; e
+eles acreditavam que assim era, por falta de cautela oportuna.
+Mas quando tiver provado claramente a fraude
+que foi cometido, todos aqueles que têm bom senso
+e a razão abrirá os olhos e começará a refletir
+sobre o que nunca antes entrou em seus pensamentos.
+Os limites do meu pequeno volume me proíbem de entrar
+mas sobre uma pequena parte do que eu desejaria
+realizar, pois seria necessário verificar
+as relíquias possuídas por todos os lugares para comparar
+eles um com o outro. Seria então visto
+que cada apóstolo tinha mais de quatro corpos,Eles têm
+consideravelmente mais, como será mostrado a seguir. e
+cada santo pelo menos dois ou três, e assim por diante. Em
+resumindo, se todas as relíquias fossem reunidas em uma pilha,
+o único espanto seria que uma coisa tão boba
+e uma imposição desajeitada poderia ter cegado todo o mundo
+terra.
 
-Chapter VII. Analysis Of The Pagan Rites And Practices
-Which Have Been Retained By The Roman
-Catholic As Well As The Græco-Russian
-Church.
+Como toda igreja católica, mesmo a menor, tem
+um monte de ossos e outros pequenos detritos, o que seria
+seria se todas aquelas coisas que estão contidas em dois
+ou três mil bispados, vinte ou trinta mil
+abadias, mais de quarenta mil conventos,
+e tantas igrejas paroquiais e capelas, foram recolhidas
+
+em uma massa? Cada altar
+numa igreja católica romana deve conter alguma relíquia. A melhor coisa seria
+não apenas para nomeá-los, mas para visitá-los.
 
 I have given (p. 14) the opinion of an eminent
 Roman Catholic modern author (Chateaubriand)
@@ -4245,11 +6935,30 @@ p. 17. This is particularly
 the case with the author of Hierurgia, a
 work which I have already quoted, and which may
 
-be considered as the fairest expression of what the
-Roman Catholic Church teaches on the subject in
-question. Thus the use of images in churches is represented
-as being authorised by Scripture, by the
-following curious arguments:—
+a imposição seria claramente detectada.
+dizem ter sido feitos de papelão.
+Seria desejável ter um conhecimento preciso
+de todas as ninharias que em diferentes lugares são
+tomadas como relíquias, ou pelo menos um registro delas, em
+para mostrar quantos deles são falsos; mas
+uma vez que é impossível obtê-lo, gostaria de
+ter pelo menos um inventário de relíquias contidas em
+dez ou doze cidades como Paris, Toulouse, Poitiers,
+Reims, etc. Se eu não tivesse nada mais do que isso,
+formaria uma coleção muito curiosa. Na verdade, é
+é um desejo que estou constantemente entretendo para conseguir tal
+repertório precioso. Porém, como isso é muito difícil,
+Achei que seria bom publicar o seguinte
+pequeno aviso, para despertar aqueles que estão dormindo,
+e fazê-los considerar qual pode ser o estado
+de toda a igreja se há tanto para condenar
+em uma porção muito pequena; - quero dizer, quando as pessoas
+encontro tanto engano nas relíquias que nomearei,
+e que estão longe de ser a milésima parte
+daqueles que estão expostos em vários pontos do
+mundo, o que eles devem pensar do restante?
+além disso, se aqueles que tinham sido considerados como
+as mais autênticas provaram ser invenções fraudulentas,
 
 The practice of employing images as ornaments
 and memorials to decorate the temple of the Lord is
@@ -4265,32 +6974,124 @@ cherubim of olive tree, of ten cubits in height, but
 that all the walls of the temple round about he
 carved with divers figures and carvings.
 
-In the first book of Paralipomenon (Chronicles)
-we observe that when David imposed his injunction
-upon Solomon to realise his intention of building a
-house to the Lord, he delivered to him a description
-of the porch and temple, and concluded by thus
-assuring him: All these things came to me written
-by the hand of the Lord, that I may understand the
-works of the pattern.
+Comecemos com Jesus Cristo, sobre cujo sangue
+houve disputas acirradas; para muitos mantidos
+que ele não tinha sangue, exceto de um milagre
+gentil; no entanto, o sangue natural é exibido em
+mais de cem lugares. Eles mostram em Rochelle
+algumas gotas dele, que, como dizem, foi coletado
+por Nicodemos em sua luva. Em alguns lugares eles
+ter frascos cheios dele, como, por exemplo, em Mântua e
+em outro lugar; em outras partes eles têm copos cheios de
+isso, como na Igreja de Santo Eustache em Roma. Eles
+não ficou satisfeito com sangue simples; foi considerado
+necessário misturá-lo com água, pois
+fluiu do seu lado quando perfurado na cruz.
+Está preservado na Igreja de São João do
+Latrão em Roma.
 
-The isolated fact that images were not only
-directed by the Almighty God to be placed in the
-Mosaic tabernacle, and in the more sumptuous
+Agora, apelo ao julgamento de cada um
+se não é uma mentira evidente sustentar que o
+sangue de Jesus Cristo foi encontrado, após um lapso de
+setecentos ou oitocentos anos, a serem distribuídos por
 
-temple of Jerusalem, but that he himself exhibited
-the pattern of them, will be alone sufficient to authorise
-the practice of the Catholic Church in regard
-to a similar observance.—(Hierurgia, p. 371.)
+o mundo inteiro, especialmente porque a antiga igreja
+não faz menção a isso?
 
-All this may be briefly answered. There was no
-representation of the Jewish patriarchs or saints
-either in the tabernacle or in the temple of Solomon,
-as is the case with the Christian saints in the
-Roman Catholic and Græco-Russian Churches; and
-the brazen serpent, to which the author alludes,
-was broken into pieces by order of King Hezekiah
-as soon as the Israelites began to worship it.
+Então vêm as coisas que tocaram o
+corpo de nosso Senhor. Em primeiro lugar, a manjedoura em que ele
+foi colocado em seu nascimento é mostrado na Igreja de
+Madonna Maggiore em Roma.
+
+Na Igreja de São Paulo estão preservados os
+panos em que ele estava enrolado, embora
+há peças dessas roupas em Salvatierra em
+Espanha. Seu berço está também em Roma, assim como o
+camisa que sua mãe fez para ele.
+
+Na Igreja de São Tiago, na mesma cidade, está
+mostrado o altar sobre o qual ele foi colocado em seu
+apresentação no templo, como se houvesse
+muitos altares, de acordo com a moda do Papa
+igrejas, onde qualquer número delas pode ser erguido.
+Isto é o que eles mostram em relação ao tempo de
+A infância de Cristo.
+
+Na verdade, não vale a pena discutir seriamente
+de onde eles obtiveram todo esse lixo, há tanto tempo
+após a morte de Jesus Cristo. Esse homem deve ser
+de mente pequena que não consegue ver a loucura disso. Lá
+não há menção dessas coisas nos Evangelhos, e
+nunca se ouviu falar deles nos tempos do
+apóstolos. Cerca de cinquenta anos após a morte de Jesus
+Cristo, Jerusalém foi destruída. Muitos antigos
+os médicos escreveram desde então, mencionando integralmente as ocorrências
+do seu tempo, até à cruz e aos pregos
+encontrado por Helena, mas esses absurdos não são
+
+aludiu. Mas, além do mais, essas coisas eram
+não apresentado em Roma durante os dias de São
+Gregory, como pode ser visto em seus escritos; enquanto
+após sua morte, Roma foi várias vezes tomada, saqueada,
+e quase destruído.
+
+Agora, que outra conclusão pode ser tirada
+essas considerações, mas que tudo isso eram invenções
+por enganar gente boba? Isto foi mesmo
+confessado por alguns monges e padres, que os chamam
+fraudes piedosas, ou seja,
+enganos honestos para excitar o
+devoção do povo.
+
+Depois destes vêm as relíquias pertencentes ao período
+desde a infância até a morte de Jesus Cristo,
+como os potes de água nos quais Cristo mudou
+água em vinho na festa de casamento de Caná em
+Galiléia.
+
+Alguém naturalmente perguntaria como eles foram preservados
+por tanto tempo? pois é necessário suportar
+em mente que eles não foram descobertos até oito
+cem ou mil anos após o desempenho
+do milagre.
+
+Não consigo dizer todos os lugares onde esses potes de água
+são mostrados; Eu só sei que eles podem ser vistos em
+Pisa, Ravenna, Cluny, Antuérpia e Salvatierra em
+Espanha. Existem, além
+os cinco potes de água mencionados por Calvino, outros treze,
+em São Nicolau do Lido, em Veneza, em Moscou, em Bolonha, em Tongres, em Colônia,
+em Beauvaia, na abadia de Port Royal em Paris, e em Orleans,
+embora o Evangelho mencione apenas seis. Os materiais de que são feitos
+são muito diferentes entre si, assim como suas respectivas medidas, embora
+os mencionados no Evangelho parecem ter sido todos do mesmo tamanho.
+
+Em Orleans eles têm até o vinho que foi
+obtido por esse milagre, e uma vez por ano os sacerdotes
+dê àqueles que trazem oferendas um pequeno
+colherada, dizendo que provarão do próprio
+vinho feito por nosso Senhor na festa de casamento, e
+sua quantidade nunca diminui, estando a xícara sempre
+reabastecido. Não sei de que data são os sapatos dele,
+que estão preservados em um lugar em Roma chamado
+Sancta Sanctorum, ou se ele os usou
+na infância ou na idade adulta; mas isso é de pouco
+momento, pelo que já mencionei suficientemente
+mostra a imposição bruta de produzir agora
+os sapatos de Jesus Cristo, que não foram possuídos por
+os apóstolos em seu tempo.
+
+Agora, passemos à última ceia que
+Cristo teve com seus apóstolos. A mesa está em St.
+João de Latrão em Roma; um pouco de pão feito
+naquela ocasião em Salvatierra, na Espanha; e o
+faca com a qual foi esculpido o cordeiro pascal está em
+Treves. Agora, é necessário observar que Cristo
+fiz aquela ceia num quarto emprestado, e seguindo
+daí ele saiu da mesa, que não foi retirada
+pelos apóstolos. Jerusalém foi logo depois
+destruído. Como, então, a mesa poderia ser
+encontrado após um lapso de oitocentos anos?
 
 The author tries to prove, with considerable
 learning and ingenuity, that the primitive Christians
@@ -4306,10 +7107,33 @@ at an attempt to introduce them into the churches,
 p. 68, and for which there would have been no
 occasion if it had been an established custom.
 
-The most important part of his defence of the use
-of images is, however, the paragraph entitled, No
-virtue resident in images themselves, containing
-what follows:—
+De acordo com este relato, nosso Senhor deve ter
+teve um serviço esplêndido naquela ocasião; por lá
+seria tão pouco decoro beber de tal
+navio caro sem ter o resto do serviço
+de uma descrição semelhante, como há em alguns papistas
+imagens onde a Virgem Maria é representada como uma
+mulher com o cabelo caindo sobre os ombros,
+vestido com um vestido de tecido dourado e montado num
+burro que José conduz pelo cabresto. Recomendamos
+nossos leitores a considerarem bem o Evangelho
+textos relacionados a esse assunto.
+
+O caso do prato sobre o qual o cordeiro pascal
+
+foi colocado é ainda pior, pois pode ser encontrado em
+Roma, em Gênova e em Arles. Se essas relíquias sagradas
+ser genuíno, os costumes da época devem ter sido
+bastante diferente da nossa, porque, em vez de mudar
+iguarias como fazemos agora, os pratos foram trocados
+pela mesma comida!
+
+O mesmo pode ser dito da toalha com a qual
+Jesus Cristo enxugou os pés dos apóstolos, depois
+tendo-os lavado; há um em Roma no
+Latrão, um em Aix-la-Chapelle e um em St Corneille
+de Compiegne, com a impressão do pé de
+Judas. Algumas delas devem ser falsas.
 
 Not only are Catholics not exposed to such
 dangers (i.e., idolatry), but they are expressly prohibited
@@ -4336,12 +7160,34 @@ reverence which the Israelites manifested towards
 it.—(Hierurgia,
 p. 382.)
 
-It is perfectly true that the Council of Trent has
-declared that the images of Christ, of the virgin,
-and of other saints, are to be honoured and venerated,
-not because it is believed that there is any
-divinity or virtue inherent in them, or that any
-thing is to be asked of them, or any confidence
+As principais relíquias de nosso Senhor são, no entanto,
+aqueles relacionados à sua paixão e morte. E o
+o primeiro deles é a cruz. Eu sei que isso é considerado
+ser um fato certo que foi encontrado por
+Helena, a mãe do imperador Constantino;
+e sei também que alguns médicos antigos
+escrito sobre a maneira pela qual a descoberta
+foi certificado que era a verdadeira cruz sobre a qual
+nosso Senhor sofreu. Penso, no entanto, que
+foi uma curiosidade tola, e uma atitude tola e imprudente
+devoção, o que levou Helena a buscar aquela
+cruz. Mas vamos supor que foi um
+ato louvável, e que nosso Senhor havia declarado por um
+milagre que fosse a verdadeira cruz, e consideremos
+apenas o estado do caso em nosso tempo.
+
+Afirma-se sem dúvida que a cruz
+encontrado por Helena ainda está em Jerusalém, embora este seja
+contrariado pela história eclesiástica, que relaciona
+que Helena pegou um pedaço e mandou para ela
+filho, o imperador, que o colocou sobre uma coluna de pórfiro,
+no centro de um local público ou praça,
+enquanto a outra parte foi encerrada por ela em
+um estojo de prata e confiado à guarda do
+Bispo de Jerusalém; conseqüentemente, ou o
+
+declaração mencionada anteriormente ou este registro histórico
+deve ser falso.
 
 placed in images, as had been done by Pagans,
 who put their trust in idols (Psalm cxxxv. 15-18),
@@ -4400,11 +7246,31 @@ in a carriage, because he never walks on foot. Two monks take him and
 place him near the bed of the patient, in whose house they remain, living at his
 expense, until he dies or recovers.
 
-The Bambino is always driving about; people sometimes fight at
-the gate of the convent in order to get him. He is particularly busy during the summer,
-and his charges are then higher, in proportion to the competition and the heat,
-which I think is quite right.—Dupaty, Lettres sur
-l'Italie, let. xlviii.
+opinião sobre este assunto, e como podemos saber o que
+tornou-se das unhas desde aquela época? Agora, eles
+vangloriar-se no Milan de possuir o prego que foi
+no freio de Constantino; esta afirmação é, no entanto,
+oposição da cidade de Carpentras. Santo Ambrósio
+não diz que o prego estava preso ao freio,
+mas que o pedaço foi feito a partir dele - uma circunstância
+que não concorda com as reivindicações de Milão ou
+Carpentras. Há, além disso, um prego no
+Igreja de Santa Helena em Roma, e outra naquela
+da Santa Cruz na mesma cidade; há um prego
+em Siena e outro em Veneza. Alemanha possui
+dois, em Colônia e Tréves. Na França há
+há um na Capela Santa de Paris, outro na
+mesma cidade na igreja dos Carmelitas, um terço é
+em St Denis, um quarto em Bruges, um quinto na abadia
+de Tenaille em Saintonge, um sexto em Draguignau,
+o número inteiro perfazendo quatorze mostrado em diferentes
+cidades e países. Existem,
+além destes, mais treze, provavelmente desconhecidos de Calvino; mas
+seria muito tedioso enumerar onde eles podem ser vistos.
+Cada local expondo
+esses pregos produz certas provas para estabelecer a
+genuinidade de sua relíquia, mas todas essas afirmações podem ser
+colocados em pé de igualdade como igualmente absurdos.
 
 The Bambino continues to maintain his credit; and I have read not
 long ago in the newspapers, that an English lady of rank, who had joined the communion
@@ -4445,18 +7311,55 @@ after having taken the advice of theologians and of
 other pious men, act therein as he shall judge to be
 consonant with truth and piety.—(Sess. xxviii., &c.)
 
-The real meaning of the above-mentioned canon
-of the Council of Trent is therefore, I think, that
-there is no divinity or virtue resident in the images
-which are not authorised by the bishop to work
-miracles, and that unlicensed images are not allowed
-to have any such divinity or virtue in them, but that
-such unusual carved or painted images, as those
-which I have mentioned above, having obtained the
-required authorization, may work as many miracles
-as they please, or as their worshippers will believe.
+Agora, pergunto se essas pessoas não ficaram despojadas
+de seus sentidos que poderiam fazer longas peregrinações, em
+muita despesa e cansaço, para ver folhas, de
+cuja realidade não havia razões para acreditar,
+mas muitos duvidam; para quem admitiu a realidade
+de um desses sudarios mostrados em tantos lugares,
+deve ter considerado o resto como imposturas perversas
+criada para enganar o público com o pretexto de que
+cada um deles era o verdadeiro lençol no qual o corpo de Cristo
+estava embrulhado. Mas não é só que os expositores
+desta mesma relíquia dá a cada um
+outro mutuamente a mentira, eles são (o que é muito mais
+importante) positivamente contrariado pelo Evangelho.
+Os evangelistas que falam de todas as mulheres que
+seguiu nosso Senhor até o local da crucificação, faça
+nem a menor menção daquela Verônica que limpou
+seu rosto com um lenço. Foi na verdade o mais
+evento maravilhoso e notável, digno de ser
 
-It has been observed by a writer, who certainly
+registrado, que o rosto de Jesus Cristo foi então
+milagrosamente impresso no pano, uma imagem muito mais
+coisa importante a mencionar do que a mera circunstância
+que certas mulheres seguiram Jesus Cristo
+ao local da crucificação sem encontrar qualquer
+milagre; e, de fato, tal milagre aconteceu
+lugar, poderíamos considerar os evangelistas querendo
+julgamento ao não relatar os fatos mais importantes.
+
+As mesmas observações são aplicáveis ao conto
+do lençol em que estava o corpo de Nosso Senhor
+embrulhado. Como é possível que esses historiadores sagrados,
+que relatou cuidadosamente todos os milagres que
+ocorreu na morte de Cristo, deveria ter omitido
+mencionar algo tão notável como a semelhança do
+corpo de nosso Senhor permanecendo em seu embrulho?
+Este facto merecia, sem dúvida, ser registado. Santo
+João, no seu Evangelho, relata até como São Pedro,
+tendo entrado no sepulcro, viu as roupas de linho
+deitado de lado, e o guardanapo que estava sobre
+a cabeça do outro; mas ele não diz que há
+foi uma impressão milagrosa da figura de nosso Senhor
+sobre essas roupas, e não se deve imaginar que
+ele teria omitido mencionar tal trabalho de
+Deus, se houvesse algo desse tipo.
+Outro ponto a ser observado é que os evangelistas
+não mencione que nem um dos discípulos nem o
+mulheres fiéis que vieram ao sepulcro tinham
+retirou as roupas em questão, mas, pelo contrário,
+seu relato parece implicar que eles foram deixados
 
 cannot be accused of violent opinions, the learned
 and pious Melancthon, that it was impious and idolatrous
@@ -4481,20 +7384,42 @@ the worship of the virgin, established by the Council
 of Ephesus, 431, has superseded that of the Pagan
 deities in many countries.
 
-There is scarcely any ceremony in the Western as
-well as in the Eastern church, the origin of which
-cannot be traced to the Pagan worship. I shall
-limit my observations on this subject to the three
-following objects, which constitute the most important
-elements in the divine service performed
-in those churches, namely,—1. The consecrated
-water; 2. Lamps and candles; and, 3. Incense; giving
-the Roman Catholic explanation of their origin,
-as well as that which I believe to be true.
+engano. Parece que um
+lenço com a semelhança do rosto de Jesus Cristo
+impresso nele e coberto de sangue e suor, foi guardado em uma igreja
+em Roma no século XI, pois é mencionado no documento do Papa
+Sérgio IV., datado de 1011. Não sabemos quais contos a respeito desta relíquia
+estavam relacionados naquela época, mas parece que cópias dele chamadas
+Verônias, ou seja,
+uma corrupção do ícone verum,
+a verdadeira imagem foi vendida; e sem dúvida esta denominação
+deu origem à lenda de Sancta Veronica que enxugou o rosto de
+Cristo com seu lenço enquanto ia para o Calvário. Existem muitas versões
+desta lenda, como por exemplo que foi esta mulher que Cristo curou
+a questão sangrenta, embora mais uma vez se afirme que ela não era menos uma pessoa
+do que Berenice, sobrinha do rei Herodes. Também está relacionado que após a dispersão
+dos apóstolos, Santa Verônica foi em companhia de Maria Madalena, Marta e
+Lázaro, para Marselha, onde fez muitos milagres com o seu lenço.
+O imperador Tibério ouviu falar desses milagres e, tendo adoecido, convocou
+Verônica para Roma. Ela o curou em um momento e foi recompensada
+com grandes honras e ricos presentes. O resto de sua vida foi passada em
 
-With regard to the consecrated water, it is described
-by the author of Hierurgia in the following
-manner:—
+Roma, em companhia de São Pedro e São Paulo, e legou o milagroso
+lenço ao Papa São Clemente. Deve-se, no entanto, observar que esta lenda
+não obteve a aprovação oficial da Igreja Católica Romana, embora
+Santa Verônica é reconhecida e tem lugar no calendário no dia 21 de fevereiro;
+e diz-se que ela sofreu o martírio na França. No que diz respeito ao
+grandes sudários ou lençóis nos quais todo o corpo de Jesus Cristo está impresso,
+e o absurdo que Calvino tão claramente expôs, o mais célebre de
+este é o de Torino. A sua história é curiosa, na medida em que mostra que o
+esforços de prelados iluminados e piedosos para evitar que práticas idólatras invadissem
+suas igrejas mostraram-se inúteis contra a tendência geral de adorar
+objetos visíveis, tão fortemente implantados na natureza humana corrupta, que mesmo neste
+era iluminada, estamos continuamente testemunhando tal manifestação de seu renascimento
+como só pode ser comparado ao período sombrio da Idade Média. O
+os exemplos mais marcantes são, sem dúvida, os do brasão sagrado de Treves, e
+as relíquias de Santa Teodósia, recentemente instaladas em Amiens, com
+grande pompa, e na presença dos mais eminentes prelados da Roma
 
 The ordinance of Almighty God, promulgated
 by the lips of Moses, concerning the water of separation,
@@ -4524,11 +7449,49 @@ that men pray in every place, lifting up pure hands.—(1
 Timothy ii. 8.) That in the early ages the
 faithful used to wash their hands at the threshold of
 
-the church before they entered, is expressly mentioned
-by a number of writers.
+Os filhos de Geoffroi de Charny apelaram então ao Papa Clemens VII., que era
+residente em Avignon, e concedeu permissão para que o santo sudário fosse
+exibido. O bispo de Troyes enviou um memorial ao Papa, explicando a
+importância atribuída a esta chamada relíquia sagrada. Clemens, no entanto, não
+proibiu a exibição do sudário, mas proibiu que fosse exibido como
+verdadeiro sudario de Jesus Cristo. Os cânones de Liré, portanto, deixam de lado a sua
+supostamente, mas reapareceu em outros lugares, e depois de ter sido mostrado em vários
+igrejas e conventos, permaneceu em Chambéry em 1432, onde ninguém ousou
+impugnar a sua realidade. A partir dessa altura a sua fama aumentou, e Francisco I., rei de
+França, peregrinou a pé, desde Lyon até Chambéry, em
+para adorar este pano de linho. Em 1578 São Carlos Borromeu tendo anunciado
+sua intenção de ir a pé até Chambéry para adorar o santo Sudário,
+o duque de Sabóia, desejando poupar este santo nobre do problema de tanto tempo
+peregrinação, ordenou que a relíquia fosse levada para Turim, onde desde então
+permaneceu, e onde os milagres realizados por ele e o culto solene prestado
+a ele, pode ser considerada uma prova de que sua autenticidade não é mais posta em dúvida.
 
-As to the use of holy water being of apostolic
-origin, he says:—
+Existem cerca de seis sudarios sagrados preservados em outras igrejas, além do
+peças mostradas em outro lugar.
+
+Na Igreja de São João de Latrão, em Roma,
+mostram a cana que os soldados, zombando
+Cristo na casa de Pilatos, colocado em sua mão,
+
+e com a qual eles depois o feriram no
+cabeça. Na Igreja da Santa Cruz em Roma eles
+mostre a esponja que estava cheia de vinagre e
+deu-lhe de beber durante sua paixão. Agora, eu faria
+pergunte, como essas coisas foram obtidas? Eles devem
+estiveram anteriormente nas mãos de infiéis. Poderia
+eles os entregaram aos apóstolos para serem
+fez relíquias de? ou eles mesmos os preservaram
+para tempos futuros?
+
+Que sacrilégio usar o nome de
+Jesus Cristo para inventar fábulas tão absurdas!
+
+E o que podemos pensar das moedas de prata recebidas
+por Judas por trair nosso Salvador? O
+O Evangelho diz que ele devolveu esse dinheiro ao chefe
+
+sacerdotes, que com ele compraram o campo do oleiro por um
+cemitério para estranhos.
 
 The introduction of holy or blessed water must be
 referred to the times of the apostles. That it was
@@ -4557,21 +7520,97 @@ this is to be done, why is not the holy water adopted
 by the Roman Catholic Church prepared in the same
 manner, and used for the same object, as the Jewish
 
-water of separation, described in Numbers xix., but,
-on the contrary, composed in the same manner, and
-employed for the same purpose, as the lustral water
-of the Pagans? The fact is, that it has been
-borrowed from the Pagan worship and not from
-the Jewish ceremonial law, the truth of which is
-honestly acknowledged by the Jesuit La Cerda,
-who, in a note on the following passage of
-Virgil,—
+Pode-se dizer que não é provável que todas essas relíquias
+deve ser preservado sem algum tipo de história correta
+sendo mantido deles. A isto respondo que tal
+falsidades evidentes nunca podem ter a menor semelhança
+à verdade, por mais que suas reivindicações possam
+ser apoiado pelos nomes de Constantino, Louis
+IX., ou de alguns papas; pois eles nunca serão capazes de
+provar que Cristo foi crucificado com quatorze pregos,
+ou que uma sebe inteira foi usada para trançar sua coroa de
+espinhos, - que o ferro da lança com que o seu lado
+foi perfurado deu à luz outros três semelhantes
+pedaços de ferro, - que seu casaco foi multiplicado por três, - e
+que de seu único sudário uma série de
+outros emitiram, ou que Jesus Cristo foi sepultado
+de uma forma diferente daquela descrita no
+Evangelhos.
 
-Idem ter socios pura circumtulit unda,
-Spargens rore levi, et ramo felicis olivæ,
-Lustravitque viros
+Agora, se eu mostrasse um pedaço de chumbo, dizendo:
+Esta peça de ouro me foi dada por um certo
 
-—Æneid, lib. vi. 229—
+príncipe, eu deveria ser considerado um louco, e meu
+palavras não transmutariam o chumbo em ouro.
+
+Assim, é precisamente quando as pessoas dizem: Esta coisa
+foi enviado por Godfrey de Bouillon após sua conquista
+da Judéia. Nossa razão nos mostra que isso é
+uma mentira evidente. Seremos então tão impostos
+através de palavras para resistir à evidência de nossa
+sentidos?
+
+Além disso, para mostrar quanta confiança pode
+ser colocado nas declarações que são dadas sobre
+destas relíquias, devemos observar que aqueles considerados
+os principais e mais autênticos em Roma foram,
+de acordo com esses relatos, trazidos para lá por Vespasiano
+e Tito. Agora, isso é uma invenção tão desajeitada, eles
+poderia muito bem dizer-nos que os turcos
+foi a Jerusalém para levar consigo a verdadeira cruz
+para Constantinopla!
+
+Vespasiano conquistou e devastou uma parte da Judéia
+antes de ser eleito imperador, e seu filho Tito
+completou essa conquista pela captura e destruição
+de Jerusalém. Ambos eram pagãos e tinham
+não há mais consideração por Cristo do que se ele nunca tivesse
+existia na terra. Consequentemente, para manter essa
+Vespasiano e Tito levaram a cabo o acima mencionado
+relíquias para Roma, é uma falsidade ainda mais flagrante
+do que as histórias sobre Godfrey de Bouillon e St.
+Luís.
+
+Além disso, é sabido que os tempos de São
+Louis eram muito supersticiosos. Esse monarca seria
+
+aceitaram como relíquia e adoraram qualquer coisa
+que lhe foi representado como tendo pertencido a
+a Virgem Santa; e, de fato, o rei Luís e
+outros cruzados sacrificaram seus corpos e seus
+bens, bem como uma grande parte do seu país
+substância, apenas para trazer consigo montes de
+ninharias tolas, tendo sido ensinados a considerá-las
+como as joias mais preciosas do mundo.
+
+Deve ser mencionado aqui que na Grécia, na Ásia
+Países menores e outros países orientais, as pessoas mostram,
+com toda a segurança, a contrapartida do lixo velho, que
+esses pobres idólatras imaginam possuir em seu
+próprio país. Como devemos julgar entre
+duas partes em conflito? Uma parte diz que estes
+relíquias foram trazidas do Oriente; mas os cristãos
+agora habitando essas terras afirmam que o
+mesmas relíquias ainda estão em sua posse, e eles
+rir de nossas pretensões. Como isso pode ser decidido
+entre o certo e o errado sem uma investigação, o que
+nunca acontecerá? Acho que o melhor plano é
+deixar a disputa descansar como está, sem se importar
+ambos os lados da questão.
+
+As últimas relíquias pertencentes a Jesus Cristo são
+aqueles que se relacionam com o tempo após sua ressurreição, - como,
+por exemplo, um pedaço de peixe grelhado que São
+Pedro apresentou-se a ele à beira-mar. Este peixe
+deve ter sido fortemente condimentado e preparado em
+alguma maneira extraordinária, a ser preservada por tanto
+longo período. Mas, falando sério, é provável que o
+
+apóstolos teriam feito uma relíquia de uma parte do
+peixe que eles prepararam para o jantar? Na verdade,
+Eu acho que quem não perceber isso
+ser uma zombaria aberta de Deus, não merece ser
+raciocinou com.
 
 says, Hence was derived the custom of the holy
 church to provide purifying or holy water at the
@@ -4600,11 +7639,30 @@ considered as impure.Hospinian, De Origine Templ.,
 lib. ii. cap. 23; apud Middleton, loco
 citato.
 
-To these evidences of the abomination in which
-the primitive Christians held the Pagan rite of
-sprinkling with holy water, I may add the following
-anecdote, characteristic of the intensity of this
-feeling:—
+Eusébio, é verdade, relata, em seu Eclesiástico
+História, que nosso Senhor enviou a semelhança de seu rosto
+ao rei Abgarus; Eusébio relata,
+que Abgarus, rei de Edessa, tendo ouvido falar do
+ensinamentos e milagres, enviou uma embaixada para reconhecer a divindade de nosso Senhor,
+e convidá-lo para o seu reino, a fim de curar Abgarus de uma queixa
+de longa data; sobre o qual Cristo lhe enviou a semelhança mencionada
+no texto. Ora, é impossível admitir, nem por um momento, que, se tal
+fato importante tivesse qualquer fundamento verdadeiro, teria sido deixado sem registro
+pelos apóstolos. mas a autenticidade desta conta
+não tem melhor prova do que a de um conto de fadas;
+no entanto, supondo que fosse verdade, como surgiu essa semelhança
+para ser encontrado em Roma (fora da posse de Abgarus),
+onde as pessoas se vangloriam de tê-lo agora? Eusébio faz
+não mencionou onde estava em seu tempo, mas ele apenas
+relata a história como tendo acontecido muito tempo antes
+ele escreveu; devemos, portanto, supor que este
+imagem reapareceu após um lapso de muitos séculos,
+e veio de Edessa para Roma.
+
+Eles forjaram não apenas imagens da vida de Cristo
+corpo, mas também cópias da cruz. Assim eles fingem
+em Brescia ter a mesma cruz que
+apareceu ao imperador Constantino. Esta afirmação
 
 When Julian the Apostate was one day going to
 sacrifice in the temple of Fortune, accompanied by
@@ -4625,10 +7683,24 @@ religion, giving him the choice either to sacrifice to
 the gods or to leave the army. The bold Christian
 chose the latter, but was soon restored to his rank on
 
-account of his great military talents, and raised, after
-the death of Julian and the short reign of Jovian, to
-the imperial throne as Valentinian I.Beugnot,
-vol. i. p. 231, on the authority of Sosomenes.
+A Santíssima Virgem. - A crença de que o corpo de
+a Virgem não foi sepultada na terra, mas foi levada
+para o céu, privou-os de todo pretexto para fabricar
+quaisquer relíquias de seus restos mortais, que de outra forma
+poderia ter sido suficientemente abundante para preencher um
+cemitério inteiro; A Igreja Católica Romana
+A Igreja afirma que a Santíssima Virgem foi
+levado ao céu pelos anjos, e comemora este evento pelo festival
+da Assunção em 15 de agosto. Essa crença era desconhecida
+igreja primitiva; pois, de acordo com um escritor católico romano de indubitável
+ortodoxia, a Imperatriz Pulquéria, no século V, solicitou ao Bispo de
+Jerusalém, Juvenal, para permitir-lhe ter o corpo da Virgem, para
+exibi-lo para adoração pública dos fiéis em
+Constantinopla.—(Memórias Ecclesiastiques de Tillerant.)—Lá
+há muitas outras provas de que, mesmo
+naquela época, quando muitas práticas idólatras começaram a corromper a igreja,
+geralmente se acreditava que o corpo da Virgem estava na terra, e não no céu.
+ainda para ter pelo menos
 
 This monarch was, however, by no means a bigot;
 on the contrary, we have the unsuspected testimony
@@ -4649,14 +7721,67 @@ constitutes now an indispensable part of the service
 in the Western as well as in the Eastern churches,
 and is most profusely used by them.
 
-With regard to the candles and lamps, which form a
-no less important and indispensable part of the worship
-adopted by the above-mentioned churches, the
-author of Hierurgia defends their use in the following
-manner:—
+Eu não sei como essas coisas poderiam ter sido
+obtido, pois é certo que os Apóstolos e os primeiros
+Os cristãos não eram tão insignificantes a ponto de se divertirem
+desta forma. É, no entanto, suficiente para nós
+considerar a forma dessas peças de vestuário, em
 
-After having described the candlesticks employed
-in the Jewish temple, he says:—But without referring
+para ver claramente o atrevimento de seus expositores.
+A camisa de Aix-la-Chapelle é uma longa sobrepeliz clerical,
+mostrado pendurado em um poste, e se o Abençoado
+Virgem fosse uma giganta, ela ainda teria se sentido
+muita inconveniência em usar uma roupa tão grande.
+
+Na mesma igreja preservam-se os sapatos de São
+Joseph, que só cabia no pé de uma criança
+ou um anão. O provérbio diz que os mentirosos precisam do bem
+memórias, para não contradizer suas próprias palavras.
+Esta regra não foi seguida em Aix-la-Chapelle,
+caso contrário, teria sido tomado cuidado para manter um
+melhor proporção de tamanho entre os sapatos do
+marido e a camisa da esposa. E ainda assim estes
+relíquias, tão desprovidas de toda aparência de verdade, são devotamente
+beijado e venerado pelas multidões!
+
+Conheço apenas dois de seus enfeites de cabeça; um está em
+a abadia de São Maximiano em Treves, e a outra
+está em Lisio, na Itália. Eles podem ser considerados bastante
+tão genuíno quanto o cinto da Virgem em Prato e em
+Montserrat, como seu chinelo em St Jaqueme, e como seu
+sapato em St Flour.
+
+Agora, aqueles que estão familiarizados com este assunto
+bem sabemos que não era costume dos primitivos
+igreja para coletar sapatos e meias, etc., para
+relíquias, e também que durante quinhentos anos após o
+morte da Virgem Maria nunca se falou
+de tais coisas. Realmente parece que esses conhecidos
+fatos seriam suficientes para provar o absurdo de todos
+estas relíquias da Virgem; mas seus adoradores, não
+
+meramente satisfeito com os artigos que acabei de enumerar,
+esforçar-se para atribuir a ela um amor pelo vestuário e
+elegância. Um pente dela é mostrado na igreja de
+São Martinho em Roma, e outro em St Jean-le-Grand
+em Besançon, além de outros que possam ser
+mostrado em outro lugar. Agora, se isso não for uma zombaria de
+a Virgem, não sei o que essa palavra implica.
+Eles não esqueceram sua aliança de casamento, que é
+mostrado em Perusa.
+
+Como agora é costume o marido apresentar
+sua noiva com um anel na cerimônia de casamento,
+eles imaginaram que assim seria no tempo da Virgem,
+e em seu país, conseqüentemente, eles mostram uma esplêndida
+anel igual ao usado em seu casamento, esquecendo
+o estado de pobreza em que vivia.
+
+Roma possui quatro de seus vestidos, nas igrejas
+de São João de Latrão, Santa Bárbara, Santa Maria
+supra Minervam e São Blásio; enquanto estava em Salvatierra
+eles se vangloriam de ter fragmentos de um vestido pertencente
+para ela.
 
 to the ceremonial of the Jewish temple,
 we have an authority for the employment of light
@@ -4689,13 +7814,28 @@ of illuminating, during the night-time, this upper
 chamber, in which the faithful had assembled on the
 first day of the week to break bread, but also to increase
 
-the solemnity of that function and betoken a
-spiritual joy, may be lawfully inferred from every
-thing we know about the manners of the ancient
-Jews, from whom the church borrowed the use of
-lights in celebrating her various rites and
-festivals.—(Hierurgia,
-p. 372.)
+Pode-se supor que estou brincando quando falo
+das relíquias de um anjo, considerando o quão absurdo e
+ainda assim é ridículo fazê-lo, embora os hipócritas
+certamente sabem disso muito bem, eles fizeram uso do
+nome de São Miguel para iludir os ignorantes e tolos;
+pois eles mostram em Carcassone sua cimitarra, que
+parece uma adaga de criança, e seu escudo, que é
+não maior que o botão de um freio. É possível
+para que exista um homem ou uma mulher que possa acreditar em tal
+zombaria? Diz-se que
+ainda em 1784, no Monte St Michael, na Bretanha, um suíço foi
+vendendo penas das asas do arcanjo Miguel, e que ele encontrou compradores
+por suas mercadorias. É realmente uma blasfêmia, sob um traje
+de devoção, contra Deus e seus anjos. Os expositores
+das relíquias acima mencionadas se esforçam para
+apoiar sua impostura pelo testemunho das Escrituras
+que o arcanjo Miguel lutou com Satanás; mas
+se ele fosse conquistado pela espada, seria pelo menos
+ter sido de tamanho e calibre diferentes dos
+o brinquedo ao qual aludi. As pessoas devem,
+no entanto, seja muito tolo acreditar que a guerra travada
+pelos anjos e pelos fiéis contra o diabo é uma ação carnal
 
 It is really difficult seriously to answer such extraordinary
 suppositions as that the seven candlesticks,
@@ -4721,21 +7861,63 @@ hearers, or at least many of them, being either real
 Jews or Hellenists, must have been continually looking
 to copies of the Bible in order to verify his quotation.
 
-It was, therefore, necessary to have the
-room well lighted, and consequently to employ many
-lamps. It is, indeed, curious to see to what far-fetched
-suppositions a writer of so much learning
-and ingenuity as Dr Rock is obliged to recur, in order
-to defend a purely Pagan rite which has been adopted
-by his church, giving the simplest and clearest things
-a non-natural sense, similar to that which some
-Romanising clergymen have been giving to the precepts
-of a church which they were betraying whilst
-in her service and pay.
+O rosto é mostrado em Amiens, e a máscara que
+ali exposto tem uma marca acima do olho, causada,
+dizem, pelo golpe de uma faca, feito por Herodias.
+A reivindicação de Amiens sobre esta relíquia é, no entanto, contestada por
+os habitantes de São João d'Angeli, que mostram outra
+rosto de São João.
 
-The same author maintains that lights were
-employed from primitive times at divine service,
-saying:—
+No que diz respeito ao resto da cabeça, o seu topo, desde
+da testa para trás, estava em Rodes, e eu
+suponho que agora deve estar em Malta, pelo menos os cavaleiros
+vangloriar-se de que os turcos o devolveram a eles. O
+a parte de trás da cabeça está na Igreja de São João em Nemours,
+o cérebro de Nogent le Rotrou, uma parte da cabeça
+está em St Jean Maximin, um queixo está em Besançon, um
+parte de uma mandíbula está em São João de Latrão, e uma
+parte da espiga em St Flour em Auvergne. Tudo isso
+não impede que Salvatierra possua o
+testa e cabelo; em Noyon eles têm uma fechadura do
+cabelo, que é considerado muito autêntico, como
+bem como o de Lucca e de muitos outros lugares.
+
+No entanto, para completar esta coleção, devemos
+ir ao mosteiro de São Silvestre em Roma, onde
+toda e verdadeira cabeça de São João Batista
+ser-nos mostrado.
+
+Os poetas contam-nos uma lenda sobre um rei de Espanha que
+tinha três cabeças; se nossos fabricantes de relíquias
+poderia dizer o mesmo de São João Batista, é
+ajudaria muito em suas mentiras; mas como tal uma fábula
+
+não existe, como eles vão sair dessa
+dilema?Esta multiplicação
+da cabeça de São João lembra uma anedota relacionada
+por Miss Pardoe em sua Cidade dos Magiares. Um museu de curiosidades
+foi mantido no castelo do Príncipe Grassalkovich na Hungria, e foi
+geralmente mostrado a estranhos pelo pároco daquele local. Isso é digno
+Certa vez, um homem estava conduzindo um viajante pela coleção e mostrou-lhe
+entre outras curiosidades dois crânios, de tamanho grande e pequeno, dizendo do primeiro,
+Este é o crânio do célebre rebelde Ragotzi; e do segundo, isso é
+a caveira do mesmo Ragotzi quando ele era menino!
+
+Não vou pressioná-los demais perguntando como
+esta cabeça poderia ser tão dividida e distribuída, ou
+como eles o adquiriram de Constantinopla?
+Devo apenas observar que ou São João deve
+tenha sido um milagre, ou que aqueles que possuem tal
+muitas partes de sua cabeça são um conjunto dos mais audaciosos
+trapaças.
+
+Mais do que isso, eles se vangloriam em Siena de
+possuindo um braço daquele santo, que é contrário,
+como já dissemos, às declarações de todos os
+historiadores antigos; e, no entanto, esta fraude não é apenas
+sofreu, mas até aprovou, pois no reino
+do Anticristo, nada é tão ruim que possa servir para
+manter as pessoas em um estado de superstição.
 
 The custom of employing lights, in the earlier
 ages of the church, during the celebration of the
@@ -4745,22 +7927,77 @@ which are usually denominated Apostolic
 Canons.—(Hierurgia,
 p. 393.)
 
-Now, what is the authenticity of these canons?
-The author himself gives us the best answer to it,
-saying:—
+isto; e certamente não teriam omitido o
+relação de tal milagre em suas histórias se houver
+havia sido qualquer base para isso, tendo sido apenas
+ansioso para narrar tais eventos, mesmo que sejam bastante frívolos.
+Mas suponhamos que esse milagre tivesse realmente
+aconteceu, vamos procurar onde este dedo está agora
+ser encontrado. Há um em Besançon na Igreja
+de São João Magno, um segundo em Toulouse, um terceiro
+em Lyon, um quarto em Florença e um quinto em St.
+Jean des Aventures, perto de Maçon. Agora eu peço
+meus leitores para examinar este assunto, e julgar por
+se podem acreditar, que enquanto São
+O dedo de João, que, segundo a própria tradição,
+é o único resto de seu corpo, está em Florença,
+cinco outros dedos podem ser encontrados em diversos outros
+lugares, ou, em resumo, que seis são um e um é seis.
+Falo, no entanto, apenas daqueles que vieram
+meu conhecimento; mas não tenho dúvidas, se um cuidado
+foram feitas investigações, para que se pudesse descobrir meio
+mais uma dúzia de dedos de São João e muitos pedaços de
+sua cabeça, além daqueles que enumerei.Calvin
+não fez justiça total às relíquias de João Batista
+expostos em vários lugares. Ele apenas menciona as diferentes partes de seu
 
-Though these canons be apocryphal, and by consequence
-not genuine, inasmuch as they were neither
-committed to writing by the apostles themselves, nor
-penned by St Clement, to whom some authors have
-attributed them; still, however, this does not prevent
-them from being true and authentic, since they
+cabeça e os dedos; e a quantidade mostrada no seu conjunto implica sem dúvida
+que a cabeça não tinha dimensões comuns. Ele evidentemente não estava
+ciente de que há cerca de uma dúzia de cabeças inteiras de São João Batista, que
+são ou foram exibidos em diferentes cidades. O mais notável deles foi
+sem dúvida aquela que o notório Papa João XXIII., que foi deposto
+por seus vícios pelo Concílio de Constança, vendeu aos venezianos pela quantia
+de cinquenta mil ducados; mas como o povo de Roma não permitiria um valor tão precioso
+relíquia para deixar sua cidade, o acordo foi rescindido. A cabeça foi depois
+destruído na captura e pilhagem de Roma pelas tropas de Carlos V.
+em 1527. Existem, além disso, muitas outras partes do corpo de São João preservadas como
+relíquias. Uma parte de seu ombro fingiu ter sido enviada pelo Imperador
+Heráclio ao rei Dagoberto I.; e um ombro inteiro foi dado a Philip
+Augusto pelo Imperador da Grécia. Outro ombro estava em Longpont, no
+diocese de Soissons; e havia um em Lieissies, no Hainault. Uma perna de
+o santo foi mostrado em St Jean d'Abbeville, outro em Veneza e um terceiro em
+Toledo; enquanto a Abadia de Joienval, na diocese de Chartres, se vangloriava de possuir
 
-embody the traditions descended from the apostles
-and the apostolic fathers, and bear a faithful testimony
-that the discipline which prevailed during the
-first and second centuries was established by the
-apostles.—(P. 394.)
+vinte e dois de seus ossos. Vários de seus braços e mãos foram mostrados
+em outros lugares, além dos dedos e outras partes do corpo; mas sua enumeração
+seria muito tedioso aqui.
+
+Existem muitas relíquias de outro tipo mostradas como
+tendo pertencido a São João Batista; como, por exemplo,
+um de seus sapatos está preservado na Igreja
+dos cartuxos em Paris. Foi roubado há cerca de
+há doze anos; mas logo foi substituído por
+esse tipo de milagre provavelmente nunca cessará enquanto
+existem sapateiros no mundo.
+
+Em São João de Latrão, em Roma, orgulham-se de
+tendo seu cilício mencionado nos Evangelhos. O
+O Evangelho fala de sua vestimenta de pêlo de camelo, mas eles
+esforce-se para convertê-lo em uma vestimenta de crina de cavalo.
+aqui alude ao cilício usado pelos monges de algumas ordens, e
+outros devotos católicos romanos, em vez da camisa comum.
+
+Eles também têm na mesma igreja o altar diante
+que ele rezou no deserto, como se os altares fossem
+naqueles dias erguidos em todas as ocasiões e em todos os
+lugar. Eu me pergunto, de fato, que eles não tenham atribuído
+para ele a reza da missa.
+
+Em Avignon mostram a espada com a qual ele
+foi decapitado, e em Aix-la-Chapelle o lençol
+que estava espalhado sob ele naquela época. Não é
+absurdo supor que o carrasco espalharia
+um lençol debaixo de alguém que ele estava prestes a matar?
 
 I shall not enter into a discussion about the value
 of evidence furnished by a work which is acknowledged
@@ -4785,18 +8022,62 @@ Templorum, lib. ii., cap. 10. And is it probable that
 he could approve of a practice in the Christian
 church which he condemns in the Pagan?
 
-And, indeed, can there be any thing more
-heathenish than the custom of burning lights
-before images or relics, which is nothing else
+não sei qual é a forma ou de que material é
+feito; mas concluo que é parecido com os chinelos
+do mesmo apóstolo mostrado em Poitiers, e que são
+feito de cetim bordado com ouro. Pareceria
+como se eles o tivessem tornado tão inteligente após sua morte
+como compensação pela pobreza que sofreu
+durante sua vida. Seus bispos parecem agora tão vistosos
+em seus pontifícios, que sem dúvida se pensaria
+depreciativo para a dignidade dos apóstolos se eles não fossem
+vestida no mesmo estilo. Eles levam, portanto,
+figuras que eles douram e ornamentam por toda parte, e
+nomeá-los como São Pedro ou São Paulo, esquecendo que
+sabe-se bem qual era a condição destes
+apóstolos enquanto estavam nesta vida, e que eles usavam o
+vestimentas dos pobres.
 
-than sacrifices which the Pagans offered to their
-idols?
+Eles mostram também na cátedra episcopal de Roma São Pedro
+e sua casula, como se os bispos daquela época tivessem
+tronos para sentar. Os bispos então estavam engajados
+ensinando, consolando e exortando seus rebanhos
+tanto no âmbito público como no privado, dando-lhes o exemplo
+de verdadeira humildade, mas não ensinando-os a estabelecer
+ídolos, como fazem os de nossos dias. No que diz respeito
+à sua casula, devo dizer que não foi então o
+costume de usar disfarces, pois as farsas não eram naquela época
+tempo realizado nas igrejas como eles são agora.
+Assim, para provar que São Pedro tinha casula, é
+necessário mostrar em primeiro lugar que ele tinha
+bancava o charlatão, como os padres fazem agora sempre que
+eles pretendem servir a Deus.
 
-I have described above, p. 74, the manner in
-which St Jerome defended the use of lights in the
-churches against Vigilantius. This defence of St
-Jerome is adduced by our author in a rather extraordinary
-manner.
+Contudo, não é de admirar que tenham dado
+lhe uma casula, já que lhe atribuíram um altar
+ele, não havendo fundamento mais verdadeiro para o
+um do que para o outro. É bem sabido que tipo
+da missa foi dita naquele momento. Os apóstolos simplesmente
+celebrou a Ceia do Senhor, e isso não requer
+altar; mas quanto à celebração da missa, foi
+então não se ouviu falar, nem foi praticado por muito tempo
+tempo depois. Há um francês
+edição do Novo Testamento, publicada, creio eu, em Louvaine,
+em que o capítulo 13 de Atos, versículo 2d, é assim
+traduzido: Etquand
+ils disotent la messe, - E quando eles estavam dizendo
+massa. É, portanto, evidente que aqueles
+quem inventou todas essas relíquias nunca esperou contradição,
+ou eles não teriam inventado tão audacioso
+falsidades. A autenticidade do altar de São Pedro
+em Roma (que acabei de mencionar) é negado por
+Pisa, aquela cidade que finge possuir a verdadeira.
+A menos censurável das relíquias de São Pedro é, sem dúvida,
+sua equipe, sendo mais provável que ele
+fez uso de um durante suas viagens, mas infelizmente
+há dois deles em Colônia e Treves,
+cada cidade reivindicando posse exclusiva do mesmo
+1. As relíquias de Pedro e Paulo tornaram-se, num período inicial, os objetos
 
 It happens not unfrequently that those very
 calumnies which have been propagated, and the
@@ -4822,10 +8103,31 @@ was actually writing, which was about the year 376,This
 date is a mistake, and I would have taken it for a misprint if
 the author had not said before, that Vigilantius attacked the practices of the church
 
-in the fourth age. I have, in speaking of this subject, p.
-71, followed the authority
-of the great historian of the Roman Catholic Church, Fleury, who says
-that Jerome answered Vigilantius in 404.
+Falaremos do resto dos apóstolos juntos,
+para resolver o assunto mais rapidamente e
+relacionaremos, em primeiro lugar, onde todo o seu
+corpos devem ser encontrados, que nossos leitores, em comparação,
+possam formar suas próprias opiniões sobre o
+assunto. Todos sabem que a cidade de Toulouse possui
+de possuir os corpos de seis, a saber, São Tiago
+o Major (irmão de São João), Santo André, São Tiago
+o Menor, São Filipe, São Simeão e São Judas. Em
+Pádua eles têm o corpo de São Matias, em Salerno
+o de São Mateus, em Orconna o de São Tomás,
+no reino de Nápoles, o de São Bartolomeu.
+
+Agora, vamos contar aqueles apóstolos que possuem
+dois ou três corpos. Santo André tem uma duplicata em
+Amalfi, São Filipe e São Tiago Menor, ambos
+tenho duplicatas em Roma, ad sanctos Apostolos, St.
+Simeão e São Judas iguais na Igreja de São Pedro.
+São Bartolomeu goza de igual privilégio em Roma,
+na igreja que leva seu nome. Aqui temos
+enumerei seis deles, cada um com dois
+corpos, e São Bartolomeu tem uma pele adicional
+na barganha, que é mostrada em Pisa.
+relic é considerado um remédio muito eficiente para distúrbios cutâneos. Santo
+Mateus, no entanto, supera todos eles, pois além do
 
 were accustomed to illumine their churches during
 mid-day with a profusion of wax tapers, Vigilantius
@@ -4844,27 +8146,66 @@ we read in the Psalms, Thy word is a lamp to my
 feet, and a light to my path.—(Hierurgia,
 p. 298.)
 
-Now, I would observe to the learned doctor, that
-St Jerome, in answering Vigilantius, maintained, as
-I have shown above, p. 74, that it was calumny
-to say that the Christians burnt candles in the daylight,
-and that it was done only by some people,
-whose zeal was without knowledge. Consequently,
-the church which has adopted this practice shows,
-according to the authority of that holy and learned
-father, that her zeal is without knowledge. With
-regard to the argument in support of the abovementioned
-practices given by St Jerome, and reproduced
+Agora, como São Bartolomeu deixou a pele em Pisa,
+então ele deixou ali uma mão; em Treves ele também
+alguns ossos, dos quais esqueci o número; em Fréjus
+um dedo, e em Roma há outros ossos;
+para que, afinal, ele não seja o mais pobre dos apóstolos,
+outros não possuem tantas relíquias. São Mateus
+e São Tomás são os mais pobres de todos. O
+primeiro tem apenas, além de seu corpo em Salerno, que
+mencionei, alguns ossos em Treves, um braço em
+a igreja de Santa Maria em Roma, e na de Santa
+Nicolas, sua cabeça; embora possa ser que outro de seus
 
-by our author, that the Eastern churches
-make use of lights, I admit that it is unanswerable,
-because it is an undoubted fact that the Græco-Russian
-Church makes an immense consumption of
-wax candles, chiefly burnt before the images, and it
-remains for me only to congratulate the advocates of
-this practice on the support which they derive from
-such an imperative authority as that of the Græco-Russian
-Church.
+relíquias podem ter escapado ao meu conhecimento, o que
+não é de admirar, pois quem não se confunde com isso
+oceano de imposturas?São Mateus
+não é tão pobre em relíquias como Calvino supôs, pois poderíamos citar
+vários órgãos inteiros, bem como membros, que não conhecia.
+
+Como eles fingem, em seus contos, que o corpo de
+São João Evangelista desapareceu imediatamente
+depois de ter sido depositado na sepultura, então eles não podem
+produzir qualquer um de seus ossos, e eles, portanto, procuraram
+por uma compensação entre suas roupas, etc. Assim
+eles mostram em Bolonha a taça da qual ele foi
+forçado a beber veneno por ordem do imperador Domiciano.
+Provavelmente devido a algum processo maravilhoso
+da alquimia, a mesma taça existe também na igreja
+de São João de Latrão em Roma.
+
+Eles também têm seu casaco e a corrente com a qual
+ele foi amarrado quando trazido de Éfeso para Roma,
+bem como o oratório onde ele costumava rezar quando
+na prisão. Um oratório
+é uma pequena capela ou gabinete, adornada com imagens de santos,
+etc., e usado pelos católicos romanos para devoções privadas. O absurdo de
+atribuir a João Evangelista a posse de tal oratório é demasiado palpável
+uma falsidade para exigir qualquer comentário.
+
+Santa Ana.
+
+Agora devemos nos apressar, ou nunca desistiremos disso
+labirinto. Iremos, portanto, apenas mencionar brevemente
+as relíquias daqueles santos que foram contemporâneos de nosso Senhor,
+e depois prossiga para os dos mártires,
+
+etc., deixando nossos leitores tirarem suas próprias conclusões
+a partir desses breves esboços.
+
+Santa Ana, a mãe da Santíssima Virgem, tem
+um corpo inteiro em Apt em Provence, e outro em
+Notre Dame de l'Isle em Lyon. Ela tem uma cabeça em
+Treves também, um segundo em Duren, perto de Colônia, e um
+a terceira em uma cidade com seu nome na Turíngia.
+Não falarei de suas outras relíquias mostradas em mais
+de cem lugares diferentes. Eu lembro que eu
+eu mesmo beijei uma de suas relíquias, guardada na abadia
+de Orcamps, perto de Noyon, por ocasião de um grande
+festival realizado em sua homenagem.
+
+LÁZARO, MARIA MADALENA, ETC.
 
 It remains for me now only to say a few words
 about the incense, which forms a constituent part of
@@ -4913,12 +8254,66 @@ given him much incense, that he should offer of the
 prayers of all the saints upon the golden altar which
 is before the throne of God; and the smoke of the
 
-incense of the prayers of the saints ascended up
-before God, from the hand of the angel.—Apocal.
-viii. 3-5.—(Hierurgia, p. 518.)
+Além disso, o Evangelho chama-os de sábios, mas
+eles os elevaram à dignidade de reis,
+sem conceder-lhes, no entanto, nem reinos
+ou assuntos. Finalmente, eles foram batizados
+sob os nomes de Baltazar, Melchior e Gaspar.
+Agora, supondo que concedamos a eles essas fábulas,
+frívolos como são, é certo que os sábios
+voltou para o leste, pois o Evangelho nos informa disso,
+e podemos concluir que eles morreram em sua terra natal
+terra, não havendo razão para pensar o contrário.
+Agora, quem transferiu seus corpos para o oeste, para o
+propósito de preservá-los como relíquias? Seria
+bastante ridículo, no entanto, para mim tentar seriamente
+para refutar uma impostura tão palpável. Deixe Colônia
+e Milão, ambas cidades que pretendem possuir
+relíquias desses sábios, ou reis, decidem esta questão
+entre si. Calvin é
+errado aqui. Milan apenas assume ter a posse das sepulturas
+dos sábios, não dos seus corpos, que foram removidos para Colônia no momento da captura
+de Milão em 1162, por Frederico Barbarossa.
 
-To this explanation of the use of incense in the
-churches, I may answer by the same observation
+SÃO DIONÍSIO.
+
+São Dionísio é considerado um dos mais
+celebrado pelos antigos mártires, como discípulo do
+
+apóstolos e como evangelista da França. Ocupando
+posição tão elevada, é portanto muito natural
+que suas relíquias deveriam ser tão liberalmente dispersas; dele
+corpos inteiros, no entanto, só são preservados no
+Abadia de St Dénis na França, e em Ratisbona em
+Alemanha. Há cerca de um século, Ratisbona instituiu
+uma ação judicial em Roma para provar que o corpo em sua
+a posse era verdadeiramente a do santo, e a justiça
+da reclamação foi estabelecida por decisão do
+Corte Papal, proferida na presença dos franceses
+Embaixador. E ainda assim, qualquer um tão ousado a ponto de ousar
+afirmar em St Dénis que o deles não era o verdadeiro
+corpo correria o risco de ser apedrejado por blasfêmia;
+enquanto aqueles que se opõem à reivindicação de Ratisbona
+são considerados hereges, rebeldes
+decisão da Santa Sé.Vid. acima,
+pág. 120.
+
+Santo Estêvão.
+
+Todo o corpo de Santo Estêvão está em Roma, o seu
+cabeça está em Arles, e seus ossos estão em mais de
+trezentos lugares; e os papistas, como que para mostrar
+se tornarem partidários daqueles que assassinaram
+ele, canonizaram as pedras com as quais ele
+foi morto.
+
+Pode-se perguntar como essas pedras foram obtidas,
+mas, na minha opinião, esta seria uma pergunta tola, pois
+
+pedras podem ser recolhidas em qualquer lugar, sem incorrer
+qualquer problema ou despesa no seu transporte. Essas pedras
+são mostrados em Florença, no convento de Agostinho
+monges em Arles e em Vigan em Languedoc, etc.
 
 which I have made, p. 144, on a similar defence of
 the use of lights, namely, that it is a strange
@@ -4946,11 +8341,66 @@ lamps, holy water, and processions, adding, that
 if Middleton had been as well read in the Scriptures
 as he seemed to be in the heathen poets, he
 
-would have found the use of all these in the temple
-of God, and that by God's appointment.
+o mundo. Gostaria de perguntar, no entanto, como é que isso aconteceu
+passar que seus túmulos foram descobertos muito tempo depois
+seu massacre, já que não eram considerados
+santos quando ocorreu seu assassinato por Herodes?
+E então, como esses numerosos corpos foram transportados
+para os muitos lugares onde agora podem ser vistos?
+Para essas perguntas, apenas uma resposta pode ser dada: todas
+isso ocorreu quinhentos ou seiscentos anos depois
+sua morte. Como pode alguém, exceto os idiotas, acreditar em tal
+coisas?
 
-I shall not dispute with him, says Middleton,
-about the origin of these rites, whether they were
+Mas supondo mesmo que alguns de seus corpos tivessem
+realmente foi descoberto, como surgiu um número tão grande
+deles para serem transportados para França, Itália e Alemanha,
+e ser distribuído por tantas cidades
+situados tão distantes? Isso só pode ser um atacado
+engano.
+
+SÃO GERVÁSIO E SÃO PROTÁSIO.
+
+Os sepulcros destes dois santos foram descobertos
+em Milão no tempo de Santo Ambrósio, como testemunha
+ele. Este facto é confirmado também pela evidência de
+São Jerônimo, Santo Agostinho e vários outros; conseqüentemente
+Milan mantém a posse do real
+corpos desses santos. Não obstante, são igualmente
+para ser visto em Brissach, na Alemanha, e no
+Igreja de São Pedro em Besançon, além de uma imensa
+número de diferentes partes de seus corpos espalhadas
+
+por toda a terra, de modo que cada um deles tenha
+tinha pelo menos quatro corpos.
+
+SÃO SEBASTIÃO.
+
+Este santo, pelo maravilhoso poder que seus restos mortais
+possuidor de curar a peste, foi requisitado
+e mais procurado do que muitos de seus irmãos
+santos, e sem dúvida essa popularidade foi a causa de
+seu corpo sendo quadruplicado. Um corpo está no
+igreja de São Lourenço em Roma; um segundo está em
+Soissons; o terceiro em Piligny, perto de Nantes, e o
+quarto em sua cidade natal, perto de Narbonne. Além disso
+destes, ele tem duas cabeças em São Pedro, em Roma, e
+na igreja dominicana de Toulouse. As cabeças
+são, no entanto, vazios, se quisermos acreditar no pensamento franciscano
+monges de Angers, pois fingem possuir
+o cérebro do santo. Os Dominicanos de Angers possuem
+um de seus braços, outro está em St Sternin, em
+Toulouse, um terceiro em Case Dieu em Auvergne, e um
+quarto em Montbrisson. Passaremos pelo pequeno
+fragmentos de seu corpo, que podem ser vistos em tantos
+igrejas. Eles não ficaram satisfeitos com esta multiplicação
+de seu corpo e membros separados, mas eles
+converteu em relíquias as flechas com que foi
+morto. Um deles é exibido no Lambesc na Provença,
+outro está no convento Agostinho em Poitiers,
+e há muitos outros em cidades diferentes.
+
+Santo Antônio.
 
 first instituted by Moses, or were of prior use and
 antiquity amongst the Egyptians. The Scriptures
@@ -5012,11 +8462,25 @@ necessarily call their ceremonies Jewish, or by pushing
 it to its full length, shall be obliged to call them
 devilish.
 
-He observes that I begin my charge with the use of
-incense as the most notorious proof of their Paganism,
-and like an artful rhetorician, place my strongest
-argument in the front. Yet he knows I have assigned
-a different reason for offering that the first; because
+havendo cerca de cem carroças carregadas de seus
+ossos em Colônia, dificilmente há uma cidade onde alguém
+ou mais igrejas não possuem algumas relíquias destes numerosos
+santos. A lenda
+conta-nos que um chefe inglês, depois de conquistar e tomar posse
+da Baixa Bretanha, regressou à sua terra natal em busca de esposas para os seus
+exército e ele mesmo. Casou-se com Ursula, uma princesa inglesa, e teve onze anos
+mil donzelas como noivas para seus companheiros de armas. Ursula, enquanto viajava
+com este trem nupcial para se juntar ao marido, foi levada por uma tempestade para o
+foz do Reno e chegou a Colônia. Lá eles foram cercados por uma festa
+dos hunos, que assassinaram todos eles. Seus corpos foram descobertos em Colônia
+no século XVI, e os restos mortais de Santa Úrsula, que a princípio foram misturados
+com as de suas companheiras, foram destacadas, por milagre, pelo especial
+veneração dos fiéis. Várias destas virgens têm relíquias em vários
+partes da Europa, e são distinguidos por nomes próprios, como, por exemplo,
+Santa Ottila, Santa Fleurina, etc. &c.. A origem desta lenda absurda é atribuída por
+alguns antiquários à seguinte inscrição encontrada em um
+tumba:—Santa Úrsula et XI. M. V.,
+ou seja, et 11 mártires virgens,
 
 it is the first thing that strikes the sense, and surprises
 a stranger upon his entrance into their churches.
@@ -5043,12 +8507,51 @@ that it could be derived to them from any other
 source? or when we see so exact a resemblance in
 the copy, how can there be any doubt about the
 
-original?
+Eu poderia citar uma infinidade de casos semelhantes.
+Penso que os expositores destas relíquias deveriam pelo menos
+pelo menos fizeram algum acordo entre si
+para melhor esconder suas imposturas descaradas.
+Algo deste tipo foi gerido entre
+os cânones de Trêves e os de Liége sobre São
+A cabeça de Lambert. Eles somaram, por uma soma de
+dinheiro, não mostrar publicamente a cabeça que possui,
+para evitar a surpresa natural do
+público na mesma relíquia sendo vista em dois
+cidades situadas tão próximas umas das outras. Mas, como eu tenho
+já comentado no início deste tratado,
+os inventores dessas fraudes nunca imaginaram
+qualquer um poderia ser corajoso o suficiente para falar
+e expor seus enganos.
 
-What he alleges, therefore, in favour of incense is
-nothing to the purpose: That it was used in the
-Jewish, and is of great antiquity in the Christian
-churches, and that it is mentioned with honour in
+Pode-se perguntar como aconteceu que esses
+fabricantes de relíquias, tendo coletado e forjado
+sem qualquer razão, tudo o que sua imaginação poderia
+qualquer forma, poderia ter omitido assuntos pertinentes
+ao Antigo Testamento?
+
+A única resposta que posso dar a esta pergunta é que
+eles olhavam com desprezo para esses assuntos, desde
+que não previam qualquer ganho considerável.
+
+Ainda assim, eles não os desprezaram totalmente, pois eles
+fingir ter os ossos de Abraão, Isaque e
+Jacob, na igreja de Santa Maria supra Minervam,
+em Roma. Eles também se orgulham de possuir, em St John
+
+do Latrão, a arca da aliança, com a vara de Arão,
+embora a mesma vara também esteja na Santa Capela em
+Paris, embora algumas peças dela sejam preservadas em
+Salvatierra. Além disso, em Bordéus mantêm
+aquela vara de São Marcial, que está exposta na igreja
+de St Severin, não é outro senão o de Aaron. Isso
+parece, de fato, que eles desejariam com esta vara
+realizar outro milagre; antigamente foi virado
+em uma serpente, enquanto agora eles iriam convertê-la
+em três hastes diferentes! É muito provável que eles
+pode ter outras relíquias de objetos mencionados no
+Antigo Testamento, mas os poucos aos quais aludimos aqui
+mostrar que eles os trataram da mesma forma
+estilo como aqueles pertencentes aos tempos cristãos.
 
 the Scriptures, which frequently compare it to
 prayer, and speak of its sweet odours ascending up
@@ -5071,20 +8574,60 @@ the blessed Virgin in Roman Catholic litanies and hymns addressed to her.
 The queen of heaven mentioned by Jeremiah is supposed to be the same as
 Astarte, or the Syrian Venus.
 
-But if it be a just ground for retaining a practice
-in the Christian church, because it was enjoined to
-the Jews, what will our Catholic say for those usages
-which were actually prohibited to the Jews, and
-never practised by any but by the heathens and
-papists? All the Egyptian priests, as Herodotus
-informs us, had their heads shaved, and kept continually
-bald.Herodot., lib. ii., p. 36,—
+Se os contradizermos, alegando da nossa parte que
+o corpo de tal santo foi trazido para a Europa por
+mercadores, o de outro pelos monges, o de um terceiro
+por um bispo, que uma parte da coroa de espinhos foi
+enviado a um rei da França por um imperador de Constantinopla,
+e outra parte foi levada a tempo de
+guerra, e assim por diante, de cada objeto desse tipo, eles
+balançariam a cabeça e ririam de nós! Como
+essas diferenças devem ser resolvidas? Em cada dúvida
+caso só podemos julgar por conjecturas e, seguindo
+isto, os adeptos das Igrejas Orientais
+têm certeza do sucesso, porque suas reivindicações são mais
+prováveis do que os de seus oponentes. É de fato
+um ponto difícil para os defensores das relíquias resolverem.
 
-Qui grege linigero circumdatus et grege calvo,
-Plangentis populi currit derisor Anubis.
+Finalmente, rogo e exorto, em nome de
+Deus, todos os meus leitores ouçam a verdade agora claramente
+mostrado diante deles, e acreditar que, pela vontade de Deus
+providência especial, aqueles que assim se esforçaram
+para desviar a humanidade ficaram tão cegos
+e descuidado a ponto de negligenciar uma ocultação adequada de
+seus enganos, mas que, como os midianitas tendo
+com os olhos arrancados, correm uns contra os outros, pois
 
-Juvenal, vi. 532.
- Thus the Emperor Commodus, that
+todos nós sabemos que eles brigam entre si,
+e ferir-se mutuamente. Quem não é
+intencionalmente preconceituoso contra toda a razão deve certamente
+estar convencido de que a adoração de relíquias, seja verdadeira
+ou falso, é uma idolatria abominável; ainda não deveria
+mesmo que este seja o caso com ele, ele deve, no entanto,
+perceber a impostura evidente, e tudo o que possa
+sua antiga devoção às relíquias, ele deve perder
+toda a coragem em beijar tais objetos, e tornar-se inteiramente
+enojado com eles.
+
+Repito o que disse no início deste
+tratado, que seria muito importante abolir
+dentre nós, cristãos, esta superstição pagã
+de canonizar relíquias, seja de Cristo ou de seus santos,
+para fazer deles ídolos; pois isso é uma contaminação
+e uma impureza que nunca deveria ser sofrida
+na Igreja. Já provamos que
+é assim por argumentos, e também pela evidência de
+Escritura. Deixe aqueles que ainda não estão satisfeitos olharem
+às práticas dos antigos pais, e conformar-se
+aos seus exemplos. Existem muitos patriarcas sagrados,
+muitos profetas, muitos reis santos e outros santos
+mencionado no Antigo Testamento. Deus ordenou em
+naquela época a observância de mais cerimônias do que
+são necessários agora. Até funerais foram realizados
+então com mais exibição do que atualmente, a fim de
+representam simbolicamente a ressurreição gloriosa,
+especialmente porque não havia sido então tão claramente revelado
+pela Palavra de Deus como é para nós mesmos.
 
 he might be admitted into that order, got himself
 shaved, and carried the god Anubis in procession.
@@ -5111,17 +8654,87 @@ the Scriptures to learn, not so much what was enjoined
 by true religion, as what had been useful at
 any time in a false one, to delude the multitude, and
 
-support an imposture.—(Middleton's Miscellaneous
-Works, vol. v., p. 11, et seq.)
+Lembremo-nos da prática da igreja primitiva.
+É verdade que os primeiros cristãos estavam sempre ansiosos
+tomar posse dos corpos dos mártires, para que
+eles podem ser devorados por feras ou aves de rapina,
+e decentemente enterrá-los, como lemos foi o caso
+com os corpos de São João Batista e de São
+Estêvão. Esta solicitude foi demonstrada, no entanto, em
+para enterrá-los em seus túmulos e deixar lá
 
-The same author justly observes, that under the
-Pagan emperors the use of incense for any purpose
-of religion was thought so contrary to the obligations
-of Christianity, that in their persecutions, the
+eles até o dia da ressurreição; mas eles fizeram
+não exponha esses restos à vista dos homens por
+sua adoração.
 
-very method of trying and converting a Christian
-was by requiring him only to throw the least grain
-of it into the censer or on the altar.
+O infeliz costume de canonizar santos era
+não foi introduzido na Igreja até que se tornasse
+pervertido e profanado, em parte pela loucura e
+cupidez dos seus prelados e pastores, e em parte porque
+eles foram incapazes de conter esta inovação,
+enquanto as pessoas procuravam enganar a si mesmas
+entregando seus corações às loucuras pueris, em vez de
+a verdadeira adoração a Deus. Se desejarmos, de forma direta
+forma, para corrigir este abuso, é necessário abolir
+inteiramente o que foi tão mal começado e
+estabelecido contra toda a razão. Mas se for impossível
+chegar imediatamente a uma compreensão tão clara
+deste abuso, deixemos que as pessoas pelo menos tenham os olhos
+aberto para discernir quais são as relíquias que estão
+apresentados para sua adoração.
+
+Na verdade, isto não representa nenhuma dificuldade para aqueles que desejam
+apenas exercem a sua razão, pois entre os numerosos
+imposturas evidentes que mencionamos aqui,
+onde podemos encontrar uma relíquia real da qual possamos
+tem certeza de que é tal como está representado?
+
+Além disso, todos aqueles que enumerei são
+nada comparativamente ao restante ainda não contado por
+eu. Mesmo enquanto este tratado está na imprensa, tenho
+foi informado de muitas relíquias não mencionadas nele; e
+se fosse possível uma visitação geral de todas as relíquias existentes,
+seriam feitas cem vezes mais descobertas.
+
+Lembro-me de quando eu era um garotinho, o que levou
+lugar em nossa paróquia. No dia da festa de São
+Estêvão, as imagens dos tiranos que o apedrejaram
+(pois são assim chamados pelas pessoas comuns)
+foram adornados tanto quanto os do próprio santo.
+Muitas mulheres, vendo estes tiranos assim enfeitados,
+confundiu-os com companheiros do santo e ofereceu-lhes
+a homenagem de velas a cada um deles. Erros
+deste tipo deve acontecer frequentemente aos adoradores
+de relíquias, pois há tanta confusão entre
+eles que é completamente impossível adorar os ossos
+de um mártir sem perigo de prestar tais honras
+por engano aos ossos de algum bandido ou
+ladrão, ou mesmo aos de um cavalo, de um cachorro ou de um
+burro.
+
+E é igualmente impossível adorar o anel, o
+pente, o cinto da Virgem Maria, sem o
+risco de adorar, em vez disso, objetos que podem ter pertencido
+para alguma pessoa abandonada.
+
+Agora, aqueles que caem neste erro devem fazê-lo
+de boa vontade, já que ninguém poderá doravante alegar ignorância
+sobre o assunto como desculpa. Deve
+deve ser observado que muitas relíquias descritas neste Tratado foram
+destruído durante as guerras religiosas, mas particularmente pela Revolução Francesa.
+Recomendo a quem tem interesse neste assunto as observações
+feito sobre isso em Cartas de Sir George Sinclair, p. 88 e segs.
+
+Pós-escrito.
+
+O seguinte extrato do Diário Eclesiástico
+de Viena foi reproduzido num Extraordinário
+Suplemento do Allgemeine Zeitung, de
+Augsburg, para 11 de maio de 1854. Associo-me a um
+tradução dele em um pós-escrito, como uma evidência adicional
+da perseguição a que a Igreja Grega
+unido a Roma foi submetido na Rússia,
+e que mencionei na página 161 desta obra: -
 
 Under the Christian emperors, on the other hand,
 it was looked upon as a rite so peculiarly heathenish,
@@ -5135,13 +8748,60 @@ also supra, p.
 48.—(Ibid., p.
 95.)
 
-I shall conclude this essay by a short sketch of the
-superstitious practices prevailing in the Græco-Russian
-Church, which will be the subject of my next
-and last chapter.
+e seus satélites, para assinar uma petição voluntária,
+expressando seu ardente desejo de serem recebidos no
+pálida da Igreja Ortodoxa Russa. Os nomes
+daqueles que não sabiam escrever foram assinados por outros,
+e quem apresentou a menor manifestação de
+seu desejo de permanecer católico, depois de ter
+realizou esse ato voluntário, foi tratado como um
+culpado de alta traição. O mesmo processo
+como em Worodzkow foram adotados em cem
+outros lugares, cujas petições voluntárias foram obtidas
+com listras sangrentas do knout. O infeliz
+os peticionários foram, para realizar esta
+operação, arrastados de suas casas, às vezes
+a uma distância de 18 ou 20 verstas (1-½ verst para um inglês
+milha), e aqueles que se recusaram terminantemente a assinar
+foram tratados pelos papas russos com o máximo
+crueldade e indignidade. Eles foram colocados em ferros,
+trancados em prisões frias sem fogo, famintos,
+jogado em grandes banheiras cheias de gelo e
+água fedorenta e espancado sem piedade, então
+que muitos, para escapar de tais tormentos,
+assinou a petição voluntária, com o coração
+tão sangrando quanto seus corpos. Muitos sucumbiram sob
+essas terríveis perseguições, que não eram muito inferiores
+àquilo que os cristãos sofreram sob
 
-Chapter VIII. Image-Worship And Other Superstitious Practices
-Of The Graeco-Russian Church.
+o reinado de Diocleciano. O Papai Stratanovich
+extorquiu as assinaturas feitas pelos febrilmente agitados
+mãos das vítimas clericais, enquanto seus leigos
+associado, Waimainich Zokalinski, realizou o mesmo
+
+escritório de caridade para outros indivíduos infelizes.
+Algumas dessas pessoas miseráveis foram reduzidas por
+fome e todo tipo de maus-tratos a tal
+condição, que eles estavam quase inconscientes do que
+fizeram ao assinar as petições voluntárias para a
+recepção no âmbito da Igreja Russa, todos
+dos quais foram obtidos por métodos mais ou menos semelhantes
+significa.
+
+Resulta de uma grande massa de provas documentais,
+contendo os nomes de localidades e pessoas,
+que o proselitismo de 1841 foi realizado no
+da seguinte maneira:—Autoridades militares e russas
+papais ou padres, visitaram aldeias católicas e
+tendo convocado o campesinato católico e
+proprietários de terras do bairro, declararam que
+deve se juntar à Igreja Russa, jogando na prisão
+aqueles que resistiram à convocação. Na maior parte
+dos casos, uma petição para este objeto foi assinada por alguns
+contratou desgraçados em nome de toda a comunidade, de
+a quem muitos muitas vezes nada sabiam sobre este negócio,
+mas quando se comportavam como católicos, eram
+punido, como culpado de alta traição.
 
 The Græco-Russian Church is perhaps the most
 important element of the politico-religious complications
@@ -5182,18 +8842,48 @@ was Peter the Great who abolished this dignity
 in 1702, after the death of the Patriarch Adrian, and
 declared himself the head of the Russian Church.
 
-He introduced several regulations to restrict the
-power of the clergy, and to improve their education.
-It appears that the violent reforms by which that
-monarch tried to introduce the civilization of western
-Europe amongst his subjects, had produced an
-intellectual movement in their church, but which,
-not squaring with the views of the imperial reformer,
-was violently suppressed by him. Thus, in
-1713, a physician called Demetrius Tveritinoff, and
-some other persons, began to attack the worship of
-images, and to explain the sacrament of communion
-in the same sense as has been done by Calvin.
+3. Nada a fazer; ou, a influência de uma vida. Por M. H.
+
+4. Alfredo e a Pombinha. Pelo Rev. F. A. Krummacher, D.D. E
+O Jovem Sabóia. Por Ernest Hold.
+
+5. Mary M'Neill; ou, A Palavra Lembrada. Um conto de vida humilde. Por
+J.W.C.
+
+6. Henry Morgan; ou, O Semeador e a Semente. Por M. H.
+
+7. Willie estúpido, o garoto idiota. Pelo autor de Mary Matheson, etc.
+
+8. Mary Mansfield; ou, Não há tempo para ser cristão. Por M. H.
+
+9. Frank Fielding; ou, Dívidas e Dificuldades. Por Agnes Veitch.
+
+10. Contos para a Hora das Crianças. Por M. M. C.
+
+11. O Pequeno Capitão: um Conto do Mar. Pela Sra. George Cupples.
+
+12. Gottfried da Mão de Ferro: um conto de cavalaria alemã.
+
+13. Arthur Fortescue; ou, O herói escolar. Por Robert Hope Moncrieff.
+
+14. O Sangreal; ou, O Tesouro Escondido. Por M. H.
+
+15. Cockerill, o Conjurador; ou, O Bravo Menino de Hameln.
+
+16. Anotações do Diário do Sol. Por M. H.
+
+17. Abaixo das ervas daninhas da água. Por Mona B. Bickerstaffe.
+
+SÉRIE DE DEZOITO PENCES DE J. H. & CO.
+
+Super royal 32mo, tecido extra, laterais e bordas ricamente douradas, ilustrado.
+
+1. Contos curtos para explicar provérbios caseiros. Por M. H.
+
+2. Histórias curtas para explicar textos bíblicos. Por M. H.
+
+3. Alfredo e a Pombinha. Pelo Rev. F. A. Krummacher, D.D. E
+Willie estúpido, o garoto idiota. Pelo autor de Mary Matheson, etc.
 
 These reformers were anathematised by the order of
 the Czar, and one of them was executed in 1714.The facts
@@ -5221,12 +8911,47 @@ von Russland, 1853, vol. v., p. 89. Elizabeth's nephew and
 successor, Peter III., Duke of Holstein, who, for
 the sake of the throne, had passed from the
 
-Lutheran communion to the Greek Church, entertained
-the greatest contempt for his new religion.
-This half-crazy, unfortunate prince, instead of trying
-to reform the Russian Church by promoting a superior
-information amongst her clergy, offended the
-religious prejudices of his subjects by an open disregard
+7. Fotografias da Escola Dominical. Pelo Rev. Alfred Taylor, Bristol, Pensilvânia.
+
+8. Marcas para guiar os pezinhos. Pelo Rei. JA Wallace.
+
+9. O Círculo Doméstico; ou, As Relações, Responsabilidades e Deveres
+da Vida Doméstica. Pelo Rev. Ilustrado.
+
+10. Selecione Biografias Cristãs. Pelo Rev.
+Ilustrado.
+
+11. Configurações do oceano. Selecionado pelo Rev. J. Longmuir, LL.D. Ilustrado.
+
+12. A Visão Prática do Cristianismo de Wilberforce. Edição completa.
+
+13. Serviços de Comunhão, de acordo com a forma presbiteriana. Pelo Rev.
+JA Wallace.
+
+14. Atitudes e Aspectos do Divino Redentor. Pelo Rev.
+
+15. O Redentor e a Redenção. Pelo Rev. S. Patterson, DD
+
+16. O legado de um pastor. Editado pelo Rev.
+
+17.James Nisbet; um estudo para rapazes. Pelo Rev.
+
+18. Rios nobres e histórias a respeito deles. Por Anna J. Buckland.
+Ilustrado.
+
+SÉRIE DE TRÊS SHILLING DA J. H. & CO.
+
+FC extra. 8vo, laterais e bordas ricamente douradas.
+
+1. Senhorita Matty; ou, nosso passageiro mais jovem. E outros contos. Ilustrado.
+
+2. Horace Hazelwood; ou pequenas coisas. E outros contos. Ilustrado.
+
+3. Rosa Lindesay, a Luz de Kilmain. Por MH Ilustrado.
+
+4. Newlyn House, a casa dos Davenports. Por AEW ilustrado.
+
+5.Alice Thorne; ou, O trabalho de uma irmã. Ilustrado.
 
 of the ordinances of that church, and his projects
 of violent reforms. He not only did away with
@@ -5253,11 +8978,42 @@ immense increase of power at home and influence
 abroad which a skilful action upon the religious feelings
 of the followers of that church may give to the
 
-Russian monarchs. This policy has been formed into a
-complete system by the present Emperor, and it was
-in consequence of it that several millions of the inhabitants
-of the ancient Polish provinces, who belonged
-to the Greek United Church, i.e., who had acknowledged
+4. Estrelas da Terra; ou, Flores Silvestres dos Meses. Por Leigh Page.
+Coroa 8vo. Com ilustrações originais do autor.
+
+5. Elias; o Profeta do Deserto: Uma Biografia. Pelo Rev.
+Coroa 8vo. Ilustrado.
+
+Refúgio dos Aflitos (O); ou, orações adaptadas a várias circunstâncias
+de Angústia. Fcap. 8vo, pano, £ 2 6.
+
+Alfredo e a Pombinha. Por FA Krummacher, DD E o
+Jovem Sabóia. Por Ernest Hold. Traduzido do alemão
+por uma senhora. Real 32mo, pano. Ilustrado, 10.
+
+Alice Lowther; ou, a história da vovó sobre seu Little Red
+Bíblia. Por JWC, autor de Mary M'Neill, etc. Royal 32mo,
+pano, ilustrado, 1 0.
+
+Alice Thorne; ou, O trabalho de uma irmã.
+FC extra. 8vo, tecido, ilustrado, 2 6.—— Extra
+pano, bordas douradas, 3 0.
+
+Archie Douglas; ou, Onde há uma vontade, há um caminho. E
+outros contos. Super Royal 32mo, tecido, ilustrado, 6.
+
+Arthur Fortescue; ou, O herói escolar.
+Por Robert Hope Moncrieff. Royal 32mo, tecido, ilustrado, 1 0.
+
+Padrões Autorizados da Igreja Livre da Escócia:
+Sendo a Confissão de Fé de Westminster e outros documentos.
+Publicado pela Autoridade da Assembleia Geral. Demy 12mo, pano
+mole, 1 3.—— Tábuas de tecido, 1 6.—— Superior
+Edição, Impressa em Papel Superfino, tecido extra, placas chanfradas,
+antigo, 2 6.—— Bezerro inteiro, letras, antigo 5 0.
+
+Biddy, a empregada de todo trabalho.
+Super Royal 32mo, tecido, ilustrado, 6.
 
 the supremacy of the Pope by accepting the
 union concluded at Florence in 1438, were forced to
@@ -5280,15 +9036,40 @@ extract from the Berlin Gazette of Voss, reprinted
 in the Allgemeine Zeitung of the 12th March of this
 year, 1854:—
 
-Emissaries travelling about the country succeeded
-by every kind of cunning, and by holding
-out prospects of gain and other advantages, to convert
-people from Lutheranism to the Greek Church.
-All the children, under seventeen years must follow
-the religion of their father as soon as he has entered
-the orthodox church. Whoever has received the
-anointmentAnointment with oil makes a part of the Greek ritual of
-baptism. can no longer return to his former
+O Catecismo Maior da Assembleia; com provas (em itálico) de
+Escritura na íntegra. Demy 12mo, costurado, 6.
+
+Catecismo das Evidências da Religião Revelada, com alguns
+Perguntas Preliminares sobre Religião Natural. Por William Ferrie,
+DD, Kilconquhar. 18mo, costurado, 4.
+
+Catecismo sobre o Batismo: no qual são consideradas a sua Natureza, a sua
+Sujeitos e as Obrigações dele decorrentes. No final
+Henry Gray, DD, Edimburgo. 18mo, costurado, 6.
+
+O primeiro catecismo da criança. 48mo, costurado, 0-½.
+
+Breve Catecismo para Crianças Pequenas. Pelo Rev. John Brown,
+Haddington. 32mo, costurado, 0-½.
+
+Catecismo Simples para Crianças. Pelo Rev.
+18mo, costurado, 1.
+
+Cinquenta perguntas sobre as principais doutrinas e deveres
+do Evangelho; com respostas das Escrituras e textos paralelos. Para
+o uso da Escola Sabatina. 18mo, costurado, 1.
+
+Forma de exame antes da comunhão. Aprovado pelo
+Assembleia Geral do Kirk da Escócia (1592), e nomeado
+para ser lido nas famílias e nas escolas; com provas das Escrituras
+(comumente conhecido como Catecismo de Craig). Com uma recomendação
+Nota do Rev. Dr. Candlish, Rev.
+Stuart e Rev. Dr. Horatius Bonar. 18mo, costurado, 1.
+
+O Catecismo da Mãe; sendo uma ajuda preparatória para os jovens
+e Ignorantes, para sua mais fácil compreensão A Assembléia
+Catecismo Menor. Pelo Rev. John Willison, Dundee. 32 meses,
+costurado, 1.
 
 creed, and those who would try to persuade him to
 do it would be severely punished. It is even forbidden
@@ -5348,4413 +9129,6 @@ would, however, observe to these exaggerated Anglo-catholics,
 who chiefly object to the ecclesiastical establishment
 of England on account of its being a
 State Church, that the Russian Church is still more
-
-so, and that the most holy synod which administers
-that church, though composed of prelates and
-other clergymen, can do nothing without the assent
-of its lay member, the imperial procurator, and that
-a colonel of hussars was lately intrusted with this
-
-important function. The Greek Church being opposed
-to Rome, some Protestants sought to conclude
-a union with her in the sixteenth century; and the
-Lutheran divines of Tubingen had for this purpose a
-correspondence with the Patriarch of Constantinople,
-between the years 1575 and 1581, but which did not
-lead to any result, as the Patriarch insisted upon their
-simply joining his church. The Protestants of Poland
-attempted in 1599 a union with the Greek
-Church of their country, and the delegates of both
-parties met for this purpose at Vilna; their object
-was, however, frustrated by the same cause which
-rendered nugatory the efforts that had been made
-by the divines of Tubingen for this purpose, the
-Greek Church insisting upon their entire submission
-to her authority. It is true that some learned ecclesiastics
-of the Græco-Russian Church are supposed
-to entertain Protestant opinions, but this is entirely
-personal, and has no influence whatever on the systematic
-policy of their Church, which hates Rome
-as a rival, but Protestantism as a revolutionary
-principle. One of the ablest and most zealous defenders
-of the Roman Catholic Church in our times,
-and whom a long residence in Russia had made
-
-thoroughly acquainted with her church, Count Joseph
-Demaistre, is of opinion that this church must finally
-give way to the influence of Protestantism;The
-Pope, book iv., chap. 1. and I
-think that this might be really the case if the Russian
-
-Church enjoyed perfect liberty of discussion,
-which she is very far at present from possessing.
-I believe, however, that such a contingency is very
-possible with those Eastern churches that are not
-under the dominion of Russia, if they were once
-entirely liberated from Russian influence and brought
-into contact with Protestant learning. Such a revolution
-would be most dangerous, not only to the external
-influence of Russia, but even to her despotism
-at home, because a Protestant movement amongst
-the Greek churches of Turkey would sever every
-connection between them and Russia, and very
-likely extend to the last-named country. It is therefore
-most probable, as has been observed by the
-celebrated explorer of Nineveh, Layard, that the
-movement alluded to above, which has recently
-begun to spread amongst the Armenian churches of
-Turkey, was not without influence on the mission of
-Prince Menschikoff and its consequences.
-
-I have said above that the mutual position of the
-Græco-Russian and Roman Catholic Churches towards
-one another is that of two rivals. The dogmatic difference
-between them turns upon some abstruse
-tenets, which are generally little understood by the
-great mass of their followers, whilst the essential
-ground of divergence, the real question at issue, is,
-whether the headship of the church is to be vested
-in the Pope, in the Patriarch of Constantinople, or
-in the Czar. The Pope has allowed that portion of
-
-the Greek Church which submitted to his supremacy
-at the council of Florence in 1438, to retain its ritual
-and discipline, with some insignificant modifications.
-The Roman Catholic Church considers the Græco-Russian
-one in about the same light as she is regarded
-herself by that of England. She acknowledges
-her to be a church, though a schismatic one,
-whose sacraments and ordination are valid, so that
-a Greek or Russian priest becomes, on signing the
-union of Florence, a clergyman of the Roman Catholic
-Church exactly as is the case in the Anglican
-Church with a Roman Catholic priest who renounces
-the pope. The Græco-Russian Church does not,
-however, return the compliment to the Roman
-Catholic one, any more than the Catholic does it to
-that of England; because a Roman Catholic priest
-who enters the Græco-Russian Church not only loses
-his sacerdotal character, just as is the case with an
-Anglican clergyman who goes over to the communion
-of Rome, but he must be even baptised
-anew, as is done with Christians of every denomination
-who join that church, whether Jews or
-Gentiles.
-
-The system of reaction which the Roman Catholic
-Church has been pursuing for many years, with a
-consistency, perseverance, and zeal worthy of a better
-cause, and not without considerable success, has created
-just alarm in the minds of many friends of religious
-and civil liberty. This feeling is but too well warranted
-
-by the open hostility which the promoters of
-that reaction, having thrown away the mask of
-liberalism, are manifesting to the above-mentioned
-liberties. I shall, moreover, add, that the political
-complications in which Europe is now involved may
-be taken advantage of by the reactionary party in
-order to advance its schemes, whilst the public attention,
-particularly of this country, will be absorbed by
-the events of the present war; and therefore I think
-that all true Protestants should, instead of relaxing,
-increase their vigilance, in respect to the movements
-of the ecclesiastical reactionists. But the dangers
-which threaten from that quarter are, at least in
-this country, of a purely moral character, though they
-are doing much mischief in families, and may throw
-some obstruction into the legislative action of the
-government. They must therefore be combated with
-moral and intellectual means,—with spiritual, and
-not carnal weapons,—and they may be completely
-annihilated by a vigorous and skilful application of
-such means. The Pope of Rome, though claiming
-a spiritual authority over many countries, cannot
-maintain himself in his own temporal dominion
-without the assistance of foreign powers, and is
-
-obliged to court the favour of secular potentates, instead
-of commanding them, as had been done by
-his predecessors. The case is quite different with
-the Imperial Pope of Russia, who commands a million
-of bayonets, and whose authority is supported,
-
-not by canon, but by cannon law, and not by bulls,
-but by bullets. The material force which he has at
-his disposal is immensely strengthened by his
-spiritual authority over the ignorant masses of the
-Russian population, upon whose religious feelings he
-may act with great facility, because his orders to the
-clergy are as blindly obeyed as his commands to the
-army; and it is with the object of extending and consolidating
-this authority over all his subjects without
-exception that those measures of persecution and seduction
-against the Roman Catholics and Protestants,
-which I have mentioned above, have been adopted.
-The probable consequence of this religious centralization,
-and the condition of the church whose exclusive
-dominion it is sought to establish in Russia, have been
-sketched in the following graphic manner by an accomplished
-German writer, who, having resided many
-years in Russia, and being thoroughly acquainted
-with the language of that country, may be considered
-as one of the most competent judges on this subject:—
-
-He who, with attentive ear and eye, travels
-through the wide empire of the Czar, surrounding
-three parts of the world with its snares, and then
-traces the sum of his contemplations, will tremble in
-thought at the destiny which the Colossus of nations
-has yet to fulfil. He who doubts of the impending
-fulfilment of this destiny knows not history, and
-knows not Russia.
-
-However different in origin and interest the
-strangely mixed hordes may be which constitute this
-giant realm, there exists one mighty bond which holds
-them all together,—the Byzantine Church. Whoever
-remains out of it will soon be forced into it; and
-ere the coming century begins, all the inhabitants of
-Russia will be of one faith.
-
-Already that great net, whose meshes the Neva
-and the Volga, the Don and the Dnieper, the Kyros
-and Araxes, form, inclose a preponderating Christian
-population, in whose midst the scattered Islamitish
-race, the descendants of the Golden Horde, are
-lost like drops in the ocean. What a marvellous
-disposition of things, that the Russian empire, whose
-governing principle is the diametrically opposite of
-the Christian law, should be the very one to make
-of Christianity the corner, the keystone of its might!
-And a no less marvellous disposition of things is it
-that the Czar, in whatever direction he stretches his
-far-grasping arms, should find Christian points of
-support whereon to knit the threads of fate for the
-followers of Islam, artfully scattered by him—that he
-should find Armenians at the foot of Ararat, and
-Georgians at the foot of Caucasus!
-
-But of what kind is this Christianity, that
-masses together so many millions of human beings
-into one great whole, and uses them as moving springs
-to the manifestations of a power that will sooner
-or later give the old world a new transformation?
-
-Follow me for a moment into the Russian
-motherland, and throw a flying glance at the religious
-state of things prevailing there.
-
-See that poor soldier, who, tired and hungry
-from his long march, is just performing his sacred
-exercises, ere he takes his meal and seeks repose.
-
-He draws a little image of the virgin from his
-pocket, spits on it, and wipes it with his coat sleeve:
-then he sets it down on the ground, kneels before it,
-and crosses himself, and kisses it in pious devotion.
-
-Or enter with me on a Sunday one of the gloomy
-image-adorned Russian churches. If the dress of
-those present is not already sufficient to indicate
-their difference of station, you may readily distinguish
-them by the manner in which each person
-makes the sign of the cross. Consider first that
-man of rank, as he stands before a miracle-working
-image of a Kazanshian mother of God, bows slightly
-before it, and crosses himself notably. Translated
-into our vernacular the language of this personage's
-face would run in something like the following
-strain:—I know that all this is a pious farce, but
-one must give no offence to the people, else all respect
-would be lost. Would the people continue to
-toil for us, if they were to lose their trust in the assurances
-we cause to be made to them of the joys of
-heaven?
-
-Now look at that caftan-clad fat merchant, as,
-with crafty glance and confident step, he makes up
-
-to the priest to get his soul freed from the trafficking
-sins of the past week.
-
-He knows the priest, and is sure that a good
-piece of money will meet with a good reception from
-him; that is why he goes so carelessly, in the consciousness
-of being able to settle in the lump the
-whole of his sinful account; and when the absolution
-is over, he takes his position in front of the miraculous
-image, and makes so prodigious a sign of the
-cross, that before this act all the remaining scruples
-of his soul must vanish away.
-
-Consider, in fine, that poor countryman, who
-steals in humbly at the door, and gazes slyly round
-him in the incense-beclouded spaces. The pomp
-and the splendour are too much for the poor fellow.
-
-God, he thinks, but what a gracious lord the
-Emperor is, that he causes such fine churches to be
-built for us poor devils! God bless the Emperor!
-And then he slips timidly up to some image where
-the golden ground and the dark colours form the most
-glaring contrast, and throws himself down before it,
-and crosses the floor with his forehead, so that his
-long hair falls right over his face, and thus he wearies
-himself with prostrations and enormous crossings,
-until he can do no more for exhaustion. For the
-poorer the man in Russia, the larger the cross he
-signs and wears.Bodenstedt's Morning Land;
-or, Thousand and One Days in the East. Second
-Series, vol. i., p. 61, et seq., a work which is particularly
-interesting at the present time.
-
-This description of the religious state of the Russian
-people, given by a writer who is not very partial
-to their country, may be perhaps suspected of
-exaggeration, or considered as being too much of a
-caricature; I shall therefore give my readers the observations
-which have been made on the same subject
-by another German author, Baron Haxthausen,
-a great admirer of Russia, who travelled over that
-country in 1843, under the patronage of the Emperor,
-in order to study the state of its agriculture
-and industry, as well as the social condition of the
-working-classes.
-
-A foreigner is struck, says the Baron, by the
-deep devotion and the strict observance of the ordinances
-and customs of the church shown by Russians
-of rank and superior education. I had already,
-at Moscow, an opportunity of seeing it. Prince T.,
-a young, elegant Muscovite dandy, conducted me
-about the churches of the Kremlin, and almost in
-every one of them he knelt down before some particularly
-venerated object,—as the coffin of a saint,
-the image of a Madonna,—and touched the ground
-with his forehead, and devoutly kissed the object in
-question. I observed the same thing at Yaroslaf.
-Madame Bariatynski (the wife of the governor) and
-another lady conducted me about the churches of
-that city, and as soon as we entered one of them,
-both these ladies approached an image of the Virgin,
-fell down before it, without any regard to their
-
-dresses, touched with their foreheads the ground, and
-kissed the image, making signs of the cross; and
-these were ladies belonging to the highest society,
-and of the most refined manners. Madame Bariatynski
-had been a lady of the court, and the ornament
-of the first drawing-rooms of St Petersburg.
-Her mind is uncommonly cultivated, and she has a
-thorough knowledge of French and German literature;
-and, indeed, when we were walking to see
-these churches, along the banks of the Volga, she
-discussed, in an animated and ingenious manner, the
-matchless beauty of Goethe's songs, and recited from
-memory his Fisherman. Even in the strictest Roman
-Catholic countries, as, for instance, Bavaria, Belgium,
-Rome, Munster, such public demonstrations of
-piety are not to be met, except in some exceedingly
-rare cases, with women, but never with men. The
-educated classes have in this respect separated from
-the lower ones. Even people who are very devout
-consider such excessive manifestations of piety as not
-quite decent, nay, though they dare not confess it,
-they are in some measure ashamed of them. In
-Russia the case is different. There are perhaps as
-many freethinkers, and even atheists, as in western
-
-Europe, but even they submit, at least in public, and
-when they are in their own country, unconditionally,
-and almost involuntarily, to the customs of their
-church. In this respect, no difference whatever may
-be observed between the highest and the commonest
-
-Russian; the unity of the national church and of the
-national worship predominates everywhere.Studien
-über Russland, vol. i., p. 101.
-
-It is almost superfluous to observe that a church
-which has such a hold on the national mind of Russia
-must be a powerful engine in the hands of her
-Imperial Pope, whose political authority is thus immensely
-strengthened by the influence of religion.
-But I think it will be, perhaps, not uninteresting to
-my readers to compare this baptised idolatry of the
-modern Russians with that which had been practised
-by their unbaptised ancestors about a thousand years
-ago, and the following account of which is given by
-Ibn Foslan, an Arabian traveller of the tenth century,
-who saw Russian merchants in the country
-of the Bulgars, a Mahometan nation who lived
-on the banks of the Volga, and the ruins of whose
-capital may be seen not far from the town of
-Kazan:—
-
-As soon as their (Russian) vessels arrive at the
-anchoring place, every one of them goes on shore,
-taking with him bread, meat, milk, onions, and intoxicating
-liquors, and repairs to a high wooden
-post, which has the likeness of a human face carved
-upon it, standing surrounded with small statues of
-a similar description, and some high ones erected
-behind it. He prostrates himself before this
-wooden figure, and says, O Lord, I have arrived
-from a distant country; I have brought with me so
-
-and so many girls,The Russians of
-that time were known as slave dealers, according to Benjamin
-of Tudela, a Jewish traveller of the same period. so and so many sable skins;
-and when he has enumerated all his merchandise,
-he lays before the idol the things which he has
-brought with him, and continues his prayer, saying,
-Here is a present which I have brought thee, and
-I wish thou wouldst send me a customer who has
-plenty of gold and silver, who will not bargain with
-me, but purchase all that I have to sell at my own
-price. When his commerce does not prosper, he
-brings new presents to the idol, and when he meets
-with some new difficulties he makes gifts also to the
-small statues, but when he is successful he offers
-oxen and sheep.Travels of Ibn
-Foslan, German translation, by Frähn, p. 7.
-
-Kissing constitutes the principal part of the
-Russian worship of images and relics, and is most
-liberally bestowed on those objects of adoration,
-whilst I believe that the Roman Catholic Madonnas
-maintain a more dignified state, and do not allow
-such familiarities to their worshippers, unless on some
-particular occasions or to some privileged persons.
-The Emperor himself sets the example of this pious
-osculation, a striking instance of which occurred in
-the summer of last year, 1853, under circumstances
-which deserve a particular notice.
-
-I have said above, p. 161, that several millions
-of the followers of the Greek United Church had
-
-been forced by the present emperor to transfer their
-spiritual allegiance from the Pope to himself.
-Several of their churches contain miraculous images
-of the Virgin, of more or less repute, and which
-were obliged to share the fate of their worshippers,
-and to become schismatics as much as the latter.
-Their vested rights have not been, however, injured
-in any way by this revolution, because they continue
-to be worshipped, and to work miracles as
-they did before, or, what is the same thing, they
-are fully authorised to do so. The Russian government
-followed on this occasion its usual line of
-policy, which is to promote those who have joined
-it, forsaking their former party; and thus one of the
-most distinguished of these miracle-working converts,
-the Madonna of Pochayoff, a little town in
-Wolhynia, was transferred from her provincial station
-to Warsaw, and placed there in a newly built
-Russian cathedral, probably with the object of inducing
-the Roman Catholic inhabitants of that capital
-to imitate an example set to them in such a
-high quarter, and to acknowledge the spiritual authority
-of the Czar as much as they are obliged to
-submit to his temporal dominion. When the emperor
-was going last year to Olmutz, in order to persuade
-
-the Austrian court to support his policy in
-Turkey, he passed through Warsaw, and repairing,
-immediately after his arrival in that city, to the
-Russian cathedral, kissed the above-mentioned miraculous
-
-image of the Madonna of Pochayoff with such
-fervour that it produced quite a sensation upon all
-those who were present, and was noticed in the
-newspapers as a proof of the autocrat's piety. Yet
-whether this Madonna, notwithstanding her outward
-conversion to the Græco-Russian Church, remains a
-Romanist at heart, or whether, for some other reason,
-she could or would not support the views of her
-imperial worshipper, the result of the Czar's voyage
-to Olmutz proved that the caresses which he had
-bestowed upon the Madonna in question were
-love's labours lost. It may be also observed, that
-the emperor himself seems not to have been quite
-sure of the effects of his pious addresses to the now
-schismatic Madonna of Pochayoff, because it is well
-known that this man, who, as I have said above, p.
-161, had torn from the spiritual authority of the
-Pope, by a violent persecution, many millions of
-souls, knelt during his visit to Olmutz, with all
-the marks of deep devotion, at a Roman Catholic
-high mass; whilst the Prince of Prussia, who was
-also present on that occasion, stood by without taking
-a hypocritical part in a worship which was contrary
-to his religion.
-
-This image-kissing propensity of the Russians was
-the cause of a tragical event during the plague
-at Moscow in 1771. It usually happens during a
-public calamity that rumours of a wild and absurd
-nature are circulated amongst the ignorant part of
-
-the population, and it was thus that, when the pestilence
-was raging in the above-mentioned capital, a
-report was spread that an image of the Virgin, placed
-at the entrance of a church, had the power of preventing
-infection. Thousands of people repaired to
-the miraculous image, and endless processions were
-wending along the streets towards the same object of
-adoration, which was overloaded with rich offerings
-by its worshippers, and adorned with costly jewels.
-As was to be expected, this superstitious practice,
-instead of preventing the infection, powerfully contributed
-to its increase; because the kisses which
-the crowd lavishly bestowed on the miraculous image
-could not but propagate the disease. The Archbishop
-of Moscow, Ambrose, an enlightened prelate,
-in order to stop this mischief, removed the
-image from the place where it had been exposed into
-the interior of the church; but this wise measure
-produced a violent riot, and an infuriated mob rushed
-into the sanctuary and murdered the venerable old
-man at the foot of the altar, where he was officiating,
-dressed in his pontificals.
-
-It is probably the same image of which Bodenstedt,
-whose account of the Russian Church I have quoted
-above, p. 169, relates the following anecdote. After
-having spoken of the usurpations of Russia beyond
-the Caucasus, under pretence of protecting the Christian
-population of those parts, he says:—
-
-The Russian policy, which conceals its grasping
-
-claws under the cloak of religion, may be not inaptly
-compared to a lady well known at Moscow, who,
-to the great edification of the bystanders, kissed the
-miraculous Madonna, situated close to the Kremlin,
-with so much fervour, that the most costly diamond
-of the jewels with which this image is covered remained
-in her mouth. And he adds, in a note,
-The thing was afterwards discovered, and the writer
-of this was himself present when this lady, the wife
-of a Russian general, was obliged publicly to crave
-the forgiveness of the image for this act of desecration.
-It is said that when this noble lady was judicially
-examined about this affair, she pleaded in
-her defence that having loved and worshipped the
-image in question devoutly during many years,
-she believed herself entitled to a little souvenir
-from the Madonna.Die Völker des Kaukasus,
-p. 284. The Russian lady of rank
-seems not to have been so ingenious as the Prussian
-soldier, whose story I have related on p. 118. And
-it must be remarked that the Russian images expose
-their worshippers to the temptations of mammon
-much more than the Roman Catholic ones; because,
-whilst the latter are often valuable as objects of art,
-the former have usually silver or golden garments,
-
-often set with precious stones, which entirely cover
-the painting except the face, generally by no means
-a model of beauty. The gifts which the Russians
-bestow on their images are immense, and the most
-
-celebrated place for the accumulation of such treasures
-is the convent of Troitza, or Trinity, situated
-about fifty English miles from Moscow, and considered
-as a kind of national sanctuary of Russia.It owned
-before the confiscation of the church estates more than a hundred
-thousand male serfs.
-Baron Haxthausen, whom I have quoted on p. 173,
-says that the value of sacred vases and ornaments
-accumulated in that place surpasses all that may be
-seen of this kind any where else, without even excepting
-Rome and Loretto; and he thinks that the
-quantity of pearls contained in those ornaments is
-perhaps greater than is to be found in the whole of
-Europe.Studien über Russland, vol. i. p. 87.
-
-The grave of St Sergius, the founder of that convent
-in the fourteenth century, is adorned with gold
-and precious stones, and the silver canopy over it is
-said to weigh 1200 pounds. The most remarkable
-object contained in that convent is, however, the
-image of that saint which accompanied Peter the
-Great during all his campaigns, and on which are inscribed
-the names of all the battles and stormings of
-towns at which it had been present. I do not know
-whether this image had a part in other expeditions
-of the Russian army, but I have read this year in the
-newspapers that when a division of grenadiers was
-passing through Moscow, on their way to Turkey,
-the Archbishop of that capital addressed them, firing
-their zeal for the religious war in which they
-
-were going to take part, and after having blessed
-them with the image of St Sergius, the same to
-which I alluded above, gave it them as a companion
-of their expedition. The allied troops must therefore
-be prepared to encounter that bellicose saint
-somewhere on the Danube, unless he has been ordered
-to the shores of the Baltic for the defence
-of the capital. The custom of taking with them
-images considered as miraculous, during a campaign,
-was followed by the generals of the Greek empire on
-many occasions. Thus it is related by a Byzantine
-writer,Simocatta, apud Basnage,
-p. 1332. that in 590 Philippicus, a general of the Emperor
-Mauritius, when going to engage the Persians
-in battle, took an image which was not made by
-the hands of man, and carried it about the ranks of
-his army, in order to purify his soldiers, and that he
-gained, after this ceremony, a complete victory. It
-must, however, be remarked that when Philippicus
-was replaced by another general, called Priscus, the
-latter, relying too much on the protection of the
-image which was not made by the hands of man, diminished
-the rations of the soldiers, and gave them
-other causes of offence; they revolted, and when
-Priscus, in order to subdue the riot, paraded the
-
-image in question, the mutineers threw stones at it.
-I don't know exactly how this business ended, but it
-is said that the Greek generals usually liked to have
-an image of the kind alluded to, in order to appease
-
-their troops in cases of mutiny and discontent; and
-I believe that, considering the gross ignorance and
-superstition of the Russian soldiers, the image of St
-Sergius may do good service in similar cases, and for
-which these soldiers have but too many reasons.
-The Greek emperors also sometimes provided with
-miraculous images the ambassadors who were sent
-on important missions. I don't know whether the
-Russian diplomacy, which has performed so many
-wonders, has ever had recourse to the assistance
-of such images, or to that of any supernatural
-agency.
-
-The miraculous images of the Græco-Russian
-Church are generally considered as not made by the
-hands of man, whilst those of the Roman Catholic
-Church are usually believed to be painted by St
-Luke. The most celebrated Madonnas of Russia,
-as those of Kazan, Korennaya, Akhtyrka, &c., are
-believed to have dropt from heaven, in the same
-manner as the Diana of Ephesus, and other Greek
-idols of repute. They are called yavlenneeye icony,
-i.e., revealed images, and their number is considerable,
-though all of them do not enjoy an equal reputation
-for miraculous powers. The number of images
-of various descriptions is, I think, much greater in
-Russia than in any other country, and they are
-called by the common people, not images, icony,
-but gods, boghi; and many of their worshippers are
-so ignorant, that they take every kind of picture or
-
-engraving for the boghi, and devoutly cross themselves
-before them. A German officer of engineers,
-in the Russian service, related to the author that
-he had a Russian servant, a young lad of a very devout
-disposition, who pasted every engraving which
-he could lay hold on, upon the wall over his bed, in
-order to address his prayers to them. This officer
-once missed some plates, containing mathematical
-figures, which had dropt from a book of geometry,
-and he found afterwards that his pious servant, having
-picked them up, gave them a place in his pantheon.
-If this strange divinity had been found
-amongst the objects worshipped by that poor lad by
-some very profound foreign traveller, unacquainted
-with the Russian people, it is more than probable
-that he would have taken it for a mystical object of
-adoration, and written a learned dissertation to explain
-its emblematic sense.
-
-Every household in Russia has its own little
-sanctuary, consisting of one or more images, ornamented
-according to the means of the owner, and
-placed in a corner opposite to the principal door.
-Every one who enters the room makes a sign of the
-cross, bowing to these penates, the place under
-whose shrine is considered as the seat of honour, reserved
-at meals for the father of the family, or the
-most respected guest.
-
-The Russians are great exclusives in respect to
-their images, and every believer has at least one of
-
-them stuck on the wall near his sleeping place, for
-his especial use and comfort; whilst people who are
-continually moving about, as carriers, pedlars, soldiers,
-&c., have their pocket divinities with them; and
-the description of the devotional exercises of a Russian
-soldier, given on p. 171, is by no means a
-caricature. This exclusiveness was much greater
-before the reforms introduced by the Patriarch
-Nicon in the seventeenth century than it is at present.This
-reform, accomplished in the reign of Alexius, father of Peter the
-Great, consisted chiefly in the correction of the text of the Slavonic Scriptures
-and liturgical books, which had been greatly disfigured by the ignorance of successive
-copyists, and in the prohibition of some superstitious practices, which
-had usurped an important part in the divine service of the Russian Church.
-These wise reforms produced, however, a violent opposition, and several millions
-separated from the established church, and are known, though divided into
-many sects, under the general appellation of Raskolniks,
-i.e., schismatics,
-whilst they call themselves Starovertzi, or those of the old
-faith, and designate
-the established church by the name of the Niconian heresy.
-
-Contemporary travellers relate that people
-brought into the churches their own images, trying
-to get for them on the walls of the church the
-place which they considered the best; and thus it
-often happened that these images, being placed
-opposite to the altar, people in praying to them
-turned their backs to the officiating priest, which
-generally produced great confusion, and disturbed
-the performance of divine service. There was a
-very great competition amongst those people in ornamenting
-their images as showily as possible; and
-as the sanctity of an image was increased, according
-to the opinion of those baptised idolaters, in proportion
-to the richness of its ornaments, it often happened
-
-that a poor man, who could not afford to
-trim up smartly his own image, addressed his
-prayers to that of his richer neighbour. Such an
-adoration, however, was considered as contraband;
-and when the lawful owner of the image caught one
-of those pious interlopers, he not only sharply rebuked
-him, but frequently gave him a sound
-thrashing, saying that he did not go to the expense
-of decorating his image that another should obtain
-its favours.Leveque, Histoire de Russie revue, par Malte Brun et
-Depping, tom. iv. p. 131.
-
-Scandalous scenes of this description have been
-abolished in the established church by the reforms
-of the Patriarch Nicon, alluded to above, but something
-very like it may still be witnessed in the churches
-of the Raskolniks, who have separated from the established
-church on account of those reforms. These
-people often bring their own images to the churches
-to pray before them, and it frequently happens
-amongst the boys who worship in this way, that some
-of them, perceiving that their neighbour has a finer
-image than their own, they steal it from him, substituting
-that which belongs to them. This produces
-quarrels and fighting amongst these boys, who reproach
-one another, saying, You So-and-so, you have
-stolen my fine image which cost my father two
-roubles, and left me this wretched one, which is not
-worth fifty copecs, i.e., half a rouble. These scenes
-
-would be ludicrous if they were not positively blasphemous,
-because these images are called on such
-occasions, as is always done, by the name of gods,
-boghi.
-
-It has been observed by some travellers in Russia
-that the image-dealers of that country do not sell
-their wares, but, by a kind of legal fiction, exchange
-them for a certain sum, and that consequently they
-are disposed of at a fixed price. This is, however,
-not the case, and the image-dealers of Russia make
-no exception to the other merchants of that country,
-who generally ask for their goods the treble of their
-value, and a reasonable price can only be obtained
-by hard bargaining. Only consecrated images, i.e.,
-those which have been sprinkled by a priest with
-holy water, cannot be, I think, made an object of
-traffic.
-
-The orthodox Russians have no less veneration
-for fine churches than for splendidly adorned images,
-and the well-known German dramatic writer Kotzebue
-gives in the relation of his forced voyage to
-Siberia,The title of this book is Das Merk würdige
-Jahr Meines Lebens—The Memorable Year of my Life. It has been, I
-believe, translated into English. under the Emperor Paul, a characteristic
-trait of this disposition. The titulary counsellorA civil
-grade equal to that of a captain in the army.
-Shchekatikhin, who conducted him to the place of
-his exile, Kurghan, in the south of Siberia, showed
-a great reverence to all the churches which they
-passed by. Whenever they passed a fine church
-
-constructed of solid masonry, he doffed his cap and
-crossed himself most fervently, whilst he treated very
-cavalierly all those which were built of wood, making
-a hardly perceptible sign of the cross in their
-honour. This national propensity to treat respectfully
-the great and disdainfully the little, of which
-M. Shchekatikhin's piety was such a characteristic
-exemplification, has been, in its application to
-churches, described by the great admirer of Russia,
-Baron Haxthausen, whose account of the devotional
-practices observed by the upper classes of that country
-I have given above, p. 173, in the following
-manner:—
-
-We saw, in most part of the villages on our
-road, fine new churches built of stone or brick; but
-in one of them, called Novaya, I saw for the first
-time an old wooden church, built of logs, and covered
-with boards and shingles, such as they generally had
-been every where in Russia. These wooden churches
-continually disappear, being replaced by those constructed
-of masonry. The Russian peasantry consider
-it a particular honour to have in their village
-a church of stone or brick. To leave a village with
-a church of stone in order to settle in a place
-which has but a wooden one, is considered as a degradation,
-and the inhabitants of the former would
-hardly intermarry with those of the latter. The
-villages which have only a wooden church, therefore,
-do all that they can in order to rise to an
-
-equal grade with those who have one of stone or brick.
-This shows how the pride of rank pervades the
-mind of the Russians in every form of life, and in
-every class of the population. In cases of this kind,
-no promotion but only a sum of money is required
-in order to obtain the desired rank. It may be purchased
-by constructing a church of stone or brick.
-Such a church costs ten, twenty, or thirty thousand
-silver roubles (six roubles equal to one pound); but
-nothing is more easy than to get this sum. A dozen
-of stout fellows disperse in various directions, to collect
-by begging the sum required for the construction
-of the projected church, which is done without any
-expense, as the collectors are hospitably received in
-every house. As soon as the necessary sum is obtained,
-the village petitions the government for a plan
-and for an architect, because the plan of every such
-church must be approved at St Petersburg. Thus,
-in a few years, a fine church is built, constructed
-in the modern style, and the rank of the village
-rises in its own and in its neighbours' opinion.
-
-Such things cannot be done in Western Europe,
-partly because an active religious feeling amongst the
-people disappears more and more,The author
-observes in a note that, in former times, a petty ecclesiastical
-prince, the Archbishop of Cologne, could conceive and partly execute the
-gigantic plan of the Cologne minster, and that in the present time, though the
-whole of Germany had undertaken to build the remainder of it, her people
-would have abandoned this project long ago, if it were not supported by the
-kings. He ought, however, I think, to confine his remarks to Germany, because
-there are certainly more places of worship built by voluntary contributions in
-England than in Russia. and partly on
-
-account of the great fluctuation of their ideas, and
-want of stability in their opinions. With the Russian
-it is quite otherwise. This nation has no political
-ideas: but two sentiments pervade its whole being—a
-common feeling of nationality, and a fervent attachment
-to the national church. Whenever these two
-feelings take hold of the Russian's mind, he is ready
-willingly to sacrifice without a moment's hesitation
-his life and property.Studien über Russland, vol.
-i. p. 91.
-
-It is these two national feelings that the Emperor
-Nicholas is now trying to excite to the utmost pitch,
-and there can be little doubt that if he succeeds in
-his object there will be a hard struggle between barbarity
-and civilization, though the final triumph of
-the latter, to the advantage not only of the victors,
-but also of the vanquished, cannot be doubted for a
-moment. I must, however, return to Baron Haxthausen,
-who continues his account of the Russian
-village churches, saying,—
-
-It must not be forgotten, in order to understand
-how such large collections for a church of some obscure
-village, and made for the most part amongst
-the peasants, are obtained, that giving is as much
-in the Russian character as taking. Nowhere property
-hangs upon such loose threads and changes
-hands with such rapidity as in Russia. To-day rich,
-to-morrow poor. People earn and squander away
-almost simultaneously; they cheat and are cheated;
-
-they steal with one hand, and give away with the
-other. The common Russian sets not his heart on
-any kind of property; he loses with perfect equanimity
-what he had just earned, in the hope of getting it
-again to-morrow.
-
-The Russian is, moreover, naturally good-hearted,
-charitable, and liberal. A shopkeeper who had perhaps
-just cheated his neighbour of the value of 20
-copecs, without feeling any qualms of conscience on
-the subject, will give one moment after it a rouble
-for the construction of a church in some village to
-which he is a perfect stranger.Studien über
-Russland, vol. i. p. 93.
-
-Thus, what Cicero said of Catiline, Sui profusus
-alieni cupiens, is applicable, not only to individuals,
-but also to nations, whose actions are swayed by
-feeling without being regulated by principle. It is
-almost superfluous to observe that a nation thus disposed,
-and with whom superstitious practices have a
-greater weight than religious principles, may be easily
-precipitated into the most violent and dangerous
-courses, which to accomplish seems now to be the
-object of the Emperor of Russia.
-
-The Græco-Russian Church has an immense number
-of relics of saints, to which all that Calvin has
-said of those of the Roman Catholic Church is applicable.
-I have given, in a note to his treatise on this
-subject, an account of St Anthony's relics in Russia,
-as a counterpart to those which the same saint possesses
-
-in western Europe. There are, indeed, many
-relics to the exclusive possession of which both these
-churches lay an equal claim, each of them representing
-her own as the only genuine, and that of her
-rival as a spurious one. The most celebrated of
-these disputed relics is the holy coat of Treves, and
-that of Moscow. It is well known what a noise the
-former of these produced in 1844, when an immense
-number of pilgrims came to worship it; and it is
-pretended that it had been found by the Empress
-Helena, with the true cross, and presented by her to
-the town of Treves. The coat of Moscow was given
-as a present to the Czar by a Shah of Persia, and
-its genuineness was established by a Russian archbishop,
-who asserted that, when he passed through
-Georgia on his return from Jerusalem, he saw in a
-church of that country a golden box placed upon a
-column, and which, as it was told to him, contained
-the coat without a seam of our Lord. This statement
-was corroborated by an eastern monk, then at
-Moscow, who related that it was generally believed
-in Palestine, that when the soldiers cast lots for the
-possession of that coat, it fell to the part of one of
-them, who, being a native of Georgia, took it with
-
-him to his native land. These statements were sufficient
-to establish the authenticity of the relic,
-which consequently was licensed to work miracles
-and worked them.Leveque, Histoire de Russie, vol. iv., p. 133.
-
-The most celebrated collection of relics in Russia
-is found in the town of Kioff, on the Dnieper, and
-where the bodies of many hundreds of saints are
-deposited in a kind of crypt called Piechary,
-i.e.,
-caverns. The chronicles relate that the digging of
-this sacred cavern was commenced in the eleventh
-century by two monks called Anthony and Theodosius,
-who had come from the Mount Athos, for
-their own and their disciples' abode. It was gradually
-extended, but the living established themselves
-afterwards in a convent above ground, leaving to the
-dead the part under it. This statement is considered
-to be authentic, but the numerous bodies of the
-saints with which the long subterranean galleries of
-that cavern are filled, have never been satisfactorily
-accounted for. It is the opinion of many, that
-the nature of the soil is so dry, that, absorbing
-all the moisture, it keeps the dead bodies
-which are deposited there in a more or less perfect
-state of preservation; and it is said that an
-enlightened archbishop of Kioff proved it by a
-successful experiment, putting into that place the
-bodies of two women, who had been confined as
-prisoners in a nunnery for their many vices. Be it
-as it may, Kioff is the resort of an immense number
-
-of pilgrims, who arrive from all parts of Russia, to
-worship the bodies of the saints, and the riches accumulated
-by their pious donations at that place
-are only second to those of Troitza (p. 181).
-
-The shrines of Jerusalem, which attract crowds of
-pilgrims from all parts of the Christian world, had
-been for a long time a subject of dispute between the
-Latins and the Greeks, and it is well known that the
-politico-religious complications in which Europe is
-at present involved have arisen from the claims of
-Russia relating to those shrines. It will, therefore, I
-think, be not uninteresting to my readers to see the
-devout manner in which these shrines are worshipped
-by the pilgrims of the Græco-Russian Church;
-and I subjoin the two following accounts of this
-subject, written at an interval of a century and a
-half, in order that my readers may be able to judge
-for themselves whether the progress of civilization
-during this period has had much influence on the
-pilgrims alluded to above.
-
-The first of these accounts is an extract from the
-diary of an English clergyman, the Rev. Henry
-Maundrell, a Fellow of Exeter College, Oxford, and
-chaplain to the English factory at Aleppo, who
-visited Jerusalem in the year 1697:—
-
-Saturday, April 3d.—We went about mid-day
-to see the function of the holy fire. This is a ceremony
-kept by the Greeks and Armenians, upon a
-persuasion that every Easter Eve there is a miraculous
-flame descends from heaven into the Holy Sepulchre,
-and kindles all the lamps and candles
-there, as the sacrifice was burnt at the prayer of
-Elijah.—(1 Kings xviii.)
-
-Coming to the church of the Holy Sepulchre, we
-found it crowded with a numerous and distracted
-mob, making a hideous clamour, very unfit for that
-sacred place, and better becoming bacchanals than
-Christians. Getting, with some struggle, through
-this crowd, we went up into the gallery, on that side
-of the church next the Latin convent, whence we
-could discern all that passed in this religious frenzy.
-
-They began their disorders by running round the
-Holy Sepulchre with all their might and swiftness,
-crying out as they went, Huia! which signifies
-This is he, or, This is it, an expression by which
-they assert the verity of the Christian religion. After
-they had by their vertiginous circulations and clamours
-turned their heads, and inflamed their madness,
-they began to act the most antic tricks and
-postures, in a thousand shapes of distraction. Sometimes
-they dragged one another along the floor, all
-around the sepulchre; sometimes they set one man
-upright on another's shoulders, and in this posture
-marched round; sometimes they turned men with
-their heels upwards, and hurried them about in such
-an indecent manner as to expose their nudities;
-sometimes they tumbled round the sepulchre, after
-the manner of tumblers on the stage. In a word,
-nothing can be imagined more rude or extravagant
-than what was acted upon this occasion.
-
-In this tumultuous frantic humour they continued
-from twelve to four of the clock, the reason of which
-
-delay was because of a suit that was then in debate
-before the cadi betwixt the Greeks and Armenians,
-the former endeavouring to exclude the latter from
-having any share in this miracle. Both parties having
-expended (as I was informed) five thousand
-dollars between them in this foolish controversy, the
-cadi at last gave sentence that they should enter the
-Holy Sepulchre together, as had been usual at former
-times. Sentence being thus given, at four of
-the clock both nations went on with their ceremony.
-The Greeks first set out in a procession round the
-Holy Sepulchre, and immediately at their heels followed
-the Armenians. In this order they compassed
-the Holy Sepulchre thrice, having produced all their
-gallantry of standards, streamers, crucifixes, and embroidered
-habits on this occasion.
-
-Toward the end of this procession, there was a
-pigeon came fluttering into the cupola over the
-sepulchre, at the sight of which there was a greater
-shout and clamour than before. This bird, the
-Latins told us, was purposely let fly by the Greeks
-to deceive the people into an opinion that it was a
-visible descent of the Holy Ghost.
-
-The procession being over, the suffragan of the
-Greek patriarch (he being himself at Constantinople),
-and the principal Armenian bishop, approached to
-the door of the sepulchre, and cutting the string with
-which it was fastened and sealed, entered in, shutting
-the door after them, all the candles and lamps
-
-within having been before extinguished in the presence
-of the Turks and other witnesses. The exclamations
-were doubled as the miracle drew nearer its
-accomplishment, and the people pressed with such
-vehemence towards the door of the Sepulchre, that it
-was not in the power of the Turks set to guard it
-with the severest checks to keep them off. The
-cause of their pressing in this manner is the great
-desire they have to light their candles at the holy
-flame, as soon as it is first brought out of the Sepulchre,
-it being esteemed the most sacred and
-pure, as coming immediately from heaven.
-
-The two miracle-mongers had not been above a
-minute in the Holy Sepulchre when the glimmering
-of the holy fire was seen, or imagined to appear,
-through some chinks of the door, and certainly Bedlam
-itself never saw such an unruly transport as was
-produced in the mob at this sight. Immediately
-after came out the two priests, with blazing torches
-in their hands, which they held up at the door of
-the Sepulchre, while the people thronged about with
-inexpressible ardour, every one striving to obtain a
-part of the first and purest flame. The Turks in the
-meantime, with huge clubs, laid on them without
-mercy; but all this could not repel them, the excess
-of their transport making them insensible of pain.
-Those that got the fire applied it immediately to
-their beards, faces, and bosoms, pretending that it
-would not burn like an earthly flame; but I plainly
-
-saw none of them could endure this experiment long
-enough to make good that pretension.
-
-So many hands being employed, you may be sure
-it could not be long before innumerable tapers were
-lighted. The whole church, galleries and every place,
-seemed instantly to be in a flame, and with this illumination
-the ceremony ended.
-
-It must be owned that those two within the
-sepulchre performed their part with great quickness
-and dexterity; but the behaviour of the rabble
-without very much discredited the miracle. The
-Latins take a great deal of pains to expose this ceremony
-as a most shameful imposture, and a scandal
-to the Christian religion, perhaps out of envy that
-others should be masters of so gainful a business;
-but the Greeks and Armenians pin their faith upon
-it, and make their pilgrimages chiefly upon this
-motive; and it is the deplorable unhappiness of their
-priests, that having acted the cheat so long already,
-they are forced now to stand to it, for fear of endangering
-the apostasy of their people.
-
-Going out of the church after the event was over,
-we saw several people gathered about the stone of
-unction, who, having got a good store of candles
-lighted with the holy fire, were employed in daubing
-pieces of linen with the wicks of them and the melting
-wax, which pieces of linen were designed for
-winding sheets; and it is the opinion of these poor
-people that if they can but have the happiness to be
-
-buried in a shroud smutted with this celestial fire,
-it will certainly secure them from the flames of hell.—(P. 127,
-et seq., eighth edition, 1810.)
-
-Many people may, however, believe that scenes
-of such an outrageous description as that witnessed
-by Maundrell might have happened in his time, viz.,
-1697, but that their repetition is quite impossible
-in our own enlightened age. The following account
-of the same scenes by Mr Calman, whose veracity is
-attested by a high authority, and who had an opportunity
-of seeing it only a few years ago, which has
-been reproduced in a little, and now particularly
-interesting book, The Shrines of the Holy
-Land,London: Longman & Co.
-1854. may enable my readers to judge of the influence
-which the boasted march of intellect has
-produced on the Græco-Russian pilgrims, who assemble
-every Easter at Jerusalem.
-
-To notice all that was passing, says Mr Calman,
-within the church of the Holy Sepulchre during the
-space of twenty-four hours, would be next to impossible,
-because it was one continuation of shameless
-madness and rioting, which would have been a disgrace
-to Greenwich and Smithfield. Only suppose
-for a moment the mighty edifice crowded to excess
-with fanatic pilgrims of all the Eastern Churches,
-who, instead of lifting pure hands to God, without
-wrath and quarrelling, are led, by the petty jealousy
-about precedency which they should maintain in the
-
-order of their processions, into tumults and fighting,
-which can only be quelled by the scourge and whip
-of the followers of the false prophet.
-
-Suppose, farther, those thousands of devotees
-running from one extreme to the other, from the
-extreme of savage irritation to that of savage enjoyment,
-of mutual revellings and feastings, like Israel
-of old, who, when they made the golden calf, were
-eating and drinking, and rising to play. Suppose
-troops of men stripped half naked, to facilitate their
-actions, running, trotting, jumping, galloping to and
-fro, the breadth and length of the church, walking
-on their hands with their feet aloft in the air, mounting
-on one another's shoulders, some in a riding and
-some in a standing position, and by the slightest
-push are all sent to the ground in one confused heap,
-which made one fear for their safety.
-
-Suppose, farther, many of the pilgrims dressed
-in fur caps, like the Polish Jews, whom they feigned
-to represent, and whom the mob met with all manner
-of insult, hurrying them through the church as
-criminals who had been condemned, amid loud execrations
-and shouts of laughter, which indicated that
-Israel is still a derision amongst these heathens, by
-whom they are still counted as sheep for the
-slaughter.
-
-About two o'clock on Saturday afternoon, the
-preparations for the miraculous fire commenced.
-The multitude, who had been hitherto in a state of
-
-frenzy and madness, became a little more quiet, but
-it proved a quiet that precedes a thunderstorm.
-Bishops and priests, in full canonicals, then issued
-forth from their respective quarters, with flags and
-banners, crucifixes and crosses, lighted candles and
-smoking censers, to join or rather to lead a procession,
-which moved thrice round the church, invoking
-every picture, altar, and relic in their way to aid
-them in obtaining the miraculous fire.
-
-The procession then returned to the place from
-whence it started, and two grey-headed bishops, the
-one of the Greek and the other of the Armenian
-Church, were hurled by the soldiers through the
-crowd, into the apartment which communicated with
-that of the Holy Sepulchre, where they locked themselves
-in; there the marvellous fire was to make its
-first appearance, and from thence issue through the
-small circular windows and the door, for the use of
-the multitude. The eyes of all—men, women, and
-children—were now directed towards the Holy Sepulchre
-with an anxious expression, awaiting the
-issue of their expectation. The mixed multitude,
-each in his or her own language, were pouring forth
-their clamorous prayers to the Virgin and the saints to
-intercede for them on behalf of the object for which
-they were assembled, and the same were tenfold increased
-by the fanatic gestures and the waving of
-the garments by the priests of their respective communions,
-who were interested in the holy fire, and
-
-who were watching by the above-mentioned door
-and circular windows, with torches in their hands,
-ready to receive the virgin flame of the heavenly
-fire, and carry it to their flocks.
-
-In about twenty minutes from the time the
-bishops locked themselves in the apartment of the Holy
-Sepulchre, the miraculous fire made its appearance
-through the door and the two small windows, as expected.
-The priests were the first who lighted their
-torches, and they set out on a gallop in the direction
-of their lay brethren; but some of these errandless
-and profitless messengers had the misfortune to be
-knocked down by the crowd, and had their firebrands
-wrested out of their hands, but some were
-more fortunate, and safely reached their destination,
-around whom the people flocked like bees, to have
-their candles lighted. Others, however, were not
-satisfied at having the holy fire second hand, but
-rushed furiously towards the Holy Sepulchre, regardless
-of their own safety, and that of those who obstructed
-their way, though it has frequently happened
-that persons have been trampled to death on
-such occasions.
-
-Those who were in the galleries let down their
-candles by cords, and drew them up when they had
-succeeded in their purpose. In a few minutes thousands
-of flames were ascending, the smoke and the
-heat of which rendered the church like the bottomless
-pit. To satisfy themselves, as well as to convince
-
-the Latins, the pilgrims, women as well as men,
-shamefully exposed their bare bosoms to the action
-of the flame of their lighted candles, to make their
-adversaries believe the miraculous fire differs from
-an ordinary one in being perfectly harmless.
-
-The two bishops, who a little while before locked
-themselves in the apartment of the Holy Sepulchre,
-now sallied forth out of it. When the whole
-multitude had their candles lighted, the bishops were
-caught by the crowd, lifted upon their shoulders,
-and carried to their chapels, amidst loud and triumphant
-acclamations. They soon, however, reappeared
-at the head of a similar procession to the one
-before, as a pretended thank-offering to the Almighty
-for the miraculous fire vouchsafed.—(P. 121, et seq.)
-
-It appears, by comparing these two narratives of
-one and the same thing, though separated by a distance
-of a hundred and fifty years, that the only difference
-which will be found between them is, that
-in the time of Maundrell, 1697, the miraculous fire
-was produced in about one minute's time, whilst the
-performance of the same trick required twenty when
-it was observed by Mr Calman. And, indeed, it
-has been justly observed by both these writers, that
-the exhibitors of the miraculous fire, having continued
-so long to practise this imposture, cannot
-leave it off without ruining their authority and
-influence over those whom they have thus been
-cheating for many centuries. This circumstance has
-
-been most pointedly expressed by the author of the
-work from which I have extracted Mr Calman's description
-of this pious, or rather impious, fraud, and
-who says:—
-
-Had it been an occasional miracle, as time had
-rolled on, and truth had more and more illuminated
-the human mind, the practice might have been gradually
-discontinued. As the priests had grown
-more honest, and the people more enlightened, they
-might have mutually consigned these pious frauds
-to the oblivion of the darker ages; and if the blush
-of shame had risen up at the memories of the past,
-the world would have respected them the more for
-their honesty of purpose.
-
-But an annual miracle, always of the same specific
-kind, exhibited on the same spot, and at the
-same hour,—an annual miracle,—at what point of
-time should this be discontinued? and, if discontinued,
-would it not be manifest either that heaven
-had forsaken its favourites, or that all the past had
-been delusion and imposture?—(Pp. 127, 128.)
-
-And it is the authority of a church supported by
-such impious and shameful impostures as this miraculous
-fire that a number of Anglicans, including
-several dignitaries of the church, are anxious of preserving
-against Protestant encroachments, and protest
-against the existence of the Protestant bishopric
-of Jerusalem, for fear that it might injure the faith
-of the pilgrims, and put an end to such sacred
-
-juggleries as the one described above, which outrivals
-the most superstitious practices of ancient
-or modern Paganism! And it is for the predominance
-of this same church that the autocrat of
-Russia has now plunged Europe into a war which
-may prove one of the bloodiest that modern times
-have witnessed, and proclaimed a Græco-Russian
-crusade against the Ottoman Porte and its Christian
-allies! This last-named circumstance may, I
-think, render it not uninteresting to my readers to
-know the manner in which this question is viewed
-by Russians of elevated rank and superior education.
-I would therefore recommend to their attention
-a little pamphletThe title of this
-curious production is, An Appeal on the Eastern Question
-to the Senatus Academicus of the Royal College of Edinburgh. By a Russian,
-Quondam Civis Bibliothecæ Edinensis. Edinburgh: Thomas C. Jack, 92
-Princes Street. London: Hamilton, Adams, & Co. 1854.
-recently published in English
-by an accomplished Russian, who had studied at the
-University of Edinburgh, and had enjoyed friendly
-intercourse with the most eminent characters of that
-learned body, leaving with all those who had known
-him a most favourable impression of his personal
-
-character and talents. His opinions, therefore, are
-not those of an ignorant fanatic, or a hireling of the
-Government, but must be considered as an expression
-of those entertained by the upper classes of
-Russian society. He compares in this pamphlet
-the position of Russia towards the followers of the
-Eastern Church in Turkey, to that of England towards
-the Protestants of other countries, saying:—
-
-You translate the Bible into all living languages,
-not excluding the Turkish idiom, and you distribute
-the holy volumes to the shopkeeper of Constantinople,
-and to the shepherd who tends his camels amidst
-the ruins of Ephesus. We are not as laborious propagators
-of the faith; but yet we would fain intercede
-in favour of the Turk when your copy of the
-Bible has converted him to the Christian faith, and
-who, by the law of the land, must have his head cut
-off for this transgression. Mark that the obligation
-is much more binding on us than it is on you, and
-not the less binding from the job having been begun
-by yourselves. The Turks are spread amongst the
-Greeks and surrounded by them. There are ten
-thousand chances to one, that if the Moslem be converted
-at all, it is to that creed of which the church
-stands in his immediate eye, and that creed is ours.
-But, strange to say, it is because of that very chance
-that we are to be prohibited from meddling in the
-matter. With the French and with the English the
-case is far different. They, indeed, we are told,
-claim the right of protection only over thousands;
-but you claim that same right over millions, and,
-therefore, you shall not have it. The question you
-
-may, however, say, is not fairly put, for should a
-Turk be converted, and on the point of losing his
-head, we are ready to interpose with our authority,
-even though it be to the Greek Church that he
-should have turned. Well! but place yourselves for
-
-a moment in our situation. Are we to leave to you
-the work which has been done in our vineyard, and
-not stand up for those who have embraced the cross,
-merely because there are millions in that realm who
-embrace it? The case stands equally the same with
-regard to the far greater number of human beings
-who are born and have grown up in the profession
-of our faith. Without attempting to prove that they
-are exposed to constant cruelty and oppression, a
-fact which has been strenuously denied without the
-denial having ever been proved, it is abundantly
-known, and an indisputable fact, that the Greeks are
-in a state of continual bondage, deprived of the
-dearest rights of men, condemned, in a religious
-point of view, to a state of thraldom such as exists
-in no other part of the world, inasmuch as the supreme
-head of their church is installed in his dignity,
-maintained in the same, or deposed by a sovereign
-professing a faith hostile to his own. Is such
-a state of things to be tolerated by those who are
-its victims? and is not this in itself a hardship greater
-than any other that can be imagined? The English
-have given us, in a period, it is true, of greater zeal
-for their faith, an example of active sympathy manifested
-
-by them towards their brothers in belief, subjects
-of a neighbouring and powerful sovereign. The
-case was not as urgent as the one to which I compare
-it, inasmuch as the Huguenots of France were
-not the subjects of a Mussulman sovereign. But
-
-this, perhaps, will be brought home as an argument
-against me, for such is the hatred of sects proceeding
-from the same faith, that England would, perhaps,
-have borne more meekly the hardships endured by
-the Calvinistic brethren, if they had been subjected
-thereunto by a Soliman, and not by him who styled
-himself the most Christian king of France. However
-this may be, it is said at present that, whether
-oppressed or no, the Greeks never solicited our intervention.
-To this it may be answered, that the
-whole difficulty would have been solved by the very
-fact of the solicitation, for had they had the courage
-and the means to send a similar and unanimous
-message to the Emperor of Russia, they would have
-had the strength and unanimity required themselves
-to strike the blow, and make all intervention useless.
-The fact of their having not risen as a man in their
-own cause, is a sufficient explanation for their want
-of boldness in soliciting their deliverance at the
-hands of a foreign state. But laying aside the question
-of the subjects of the Ottoman empire professing
-the Greek faith, to speak of the much more vital
-interest of the faith itself, professed as it is by ourselves,
-let it be permitted to me to submit to your
-
-candid decision, if the work of defending that faith
-does not belong pre-eminently to us, and neither to
-the English nor the French. We tolerate in the
-whole extent of our empire both the Roman Catholic
-and the Lutheran communions of faith; we have
-
-millions of subjects professing both creeds; we build
-churches for them. Long before the Roman Catholics
-were emancipated in England, the posts of the
-highest honour, of the greatest confidence, and of
-the largest perquisites in the army, the senate, and
-the supreme council of the empire, were opened indiscriminately
-by us to men professing the Greek,
-Roman, or Lutheran creeds. Is it because of our
-tolerance with respect to sects not our own, that we
-are condemned to be indifferent to the hardships of
-those of our own faith? Are we not only to allow
-your church to stand unmolested within our own
-realm, but also to allow our own church to fall in
-ruins within the limits of a neighbouring state? If
-so, you condemn our toleration, you call it indifference
-and disbelief.—(P. 9, et seq.)
-
-It is perfectly true that there are in Russia several
-millions of Protestants and Roman Catholics, and
-that many of the highest offices, civil as well as
-military, are occupied by them; for it is well known
-that the most efficient servants of the Russian
-government are chiefly foreigners, either by birth or
-extraction. This tolerance, however, is always getting
-more and more restricted; and I have alluded above,
-on pp. 161-163, to the persecution of the Greeks
-united with Rome, as well as the systematical proselytism
-by force and fraud amongst the Protestants
-of the Baltic provinces. The author says that a
-Mahometan who becomes a convert to Christianity
-
-must lose his head by the laws of Turkey, but he
-does not tell us what fate awaits a follower of the
-Greek Church in Russia who would become a Roman
-Catholic or a Protestant. M. de Custine relates, in
-his well-known work on Russia,Letter xxxvi., at
-the end. that a Russian
-gentleman, who enjoyed a high social position at
-Moscow, published a work, which the censor allowed
-in an unaccountable manner to pass, maintaining
-that the influence of the Roman Catholic Church is
-much more favourable to the progress of civilization
-than that of the Græco-Russian one, and that the social
-condition of Russia would have been much more advanced
-by the former than it has been by the latter.
-This work produced a great sensation, and the punishment
-of the author of such a blasphemy was loudly demanded
-by the orthodox Russians. This affair being
-submitted to the Emperor, he declared that the author
-was insane, and ordered to treat him accordingly.
-The unfortunate individual consequently was put into
-a madhouse, and though perfectly sane, was subjected
-to the most rigorous treatment as a lunatic, so
-that he nearly became in reality what he was officially
-declared to be, and it was only after several years of
-
-this moral and physical torture that he was permitted
-to have a little more liberty, though still retained in
-confinement.
-
-I do not know what has become of this unfortunate
-man, but the truth of this nameless act of tyranny
-
-has been fully admitted by Mr Gretsch, who wrote,
-by the order of the Russian Government, an answer
-to the work of Custine. He says that the individual
-in question, a Mr Chadayeff, having committed an
-action which the laws of Russia punish with great
-severity, the Emperor Nicholas, desiring to save the
-culprit from the penalty which he had incurred,
-ordered, by an act of mercy, to treat him simply as a
-madman.
-
-Now, I think that the penalty of physical death,
-inflicted by the Turkish law on the converts from
-Mahometanism to Christianity, may be considered
-as humane, if compared to the murder of soul and
-intellect by the slow process of a moral and physical
-torture, to which a man has been subjected in Russia
-for his religious opinions; and if such an atrocious
-punishment was inflicted by an act of imperial mercy,
-as a mitigation of the severity of the law, what would
-it have been if the letter of that law had been fulfilled?
-Ferrea jura, insanumque forum.
-
-If, according to the opinion of the Russian writer, his
-countrymen have a right of interfering in behalf of the
-followers of their church in Turkey, on account of the
-community of their faith, the same right is possessed
-by Great Britain and other Protestant States, as well
-as by France and other Roman Catholic powers, to interfere
-in behalf of their brethren in the faith who are
-oppressed by Russia. With regard to the observation
-of the same author, that the Greeks are in a continual
-
-state of bondage, deprived of the dearest rights of
-men, condemned, in a religious point of view, to a
-state of thraldom such as exists in no other part of the
-world, inasmuch as the supreme head of their church
-is installed in his dignity, maintained in the same, or
-deposed, by a sovereign professing a faith hostile to his
-own, I must remark that he has forgotten, in saying
-that such a state of thraldom exists not in any other
-part of the world, to add, except in Russia, because
-all the Roman Catholic bishops and other dignitaries
-of their church, as well as the Protestant superintendents,
-presidents of consistories, &c., are installed
-in their dignity, maintained in the same, or
-deposed, by a sovereign professing a faith hostile to
-their own. And his question, Is such a state of
-things to be tolerated by its victims? and is it not
-in itself a hardship greater than any other that can
-be imagined? is as much applicable to the Protestants
-and Roman Catholics of Russia as it is to the
-Christians of Turkey.
-
-The Russian, Quondam Civis Bibliothecæ Edinensis,
-carries his zeal for the orthodox Greek Church
-so far as to recommend its adoption to the English:—
-
-Do you not see every day, in your own country,
-the encroaching action of the See of Rome? And
-here I cannot refrain from exclaiming, how strange
-it is to see every day converts in crowds passing from
-the Protestant to the Roman faith, and not pausing
-for a moment to reflect if they have not a smaller
-
-space to cross, and a safer haven to come to in the
-bosom of the Græco-Catholic Church, the same as
-that of Rome, minus the anti-apostolic double procession
-of the Holy Ghost, minus an infallible pope,
-minus the sale of indulgences, and last, though not
-least, minus the arbitrary exclusion of the blood of
-Christ from the holy communion given to laymen!
-Is it not strange, that on the moment of abjuring
-your reformations, you should fly into the arms of a
-church which has introduced reformations of its
-own, and not appeal to that one church which professes
-with evident truth to have admitted no changes
-at all, and kept intact the purity of her tradition?
-But, again, this is no theological disquisition. Witnessing,
-however, as I said above, in your own kingdom,
-the daily increasing influence of the Roman
-See, you can surely understand how legitimately
-jealous we must be of the same influence extending
-within the precincts of our sheepfold. And, therefore,
-not only is our faith to be preserved unmolested,
-but the saving deed is to be done by us, and not
-through the agency of English and French ambassadors
-or fleets, to be achieved in the name of the
-faith we profess in common with our Greek brethren,
-
-and by no means stipulated in the name of universal
-freedom of thought. I think I have said enough to
-prove the vital and cordial interest which Russia
-cannot but take in the cause of her own church, and
-of those who profess it in Turkey, and the paramount
-
-necessity she is under of making that cause her
-own.—(P. 12, et seq.)
-
-If the Russian author is so anxious to convert the
-British Protestants to the Græco-Russian, or, as he
-calls her, Græco-Catholic Church, he may translate
-her controversial works into English, and build
-places of worship where image-kissing, prostration,
-incense, and holy water, may be exhibited for the edification
-of the British heretics, ad libitum. Nobody
-will interfere with their ceremonies, not even with
-their preachings against Protestantism, because its
-disciples in Great Britain are satisfied with defending
-their religion by spiritual weapons, and do not resort
-to material arms, except in repressing either public
-or private acts of violence. As regards the dogmatic
-pre-eminence of his church over that of Rome,—her
-rejection of the anti-apostolic double procession of
-the Holy Ghost,—which has been, I think, retained
-by the English Church, &c., I leave this subject to
-the decision of theologians, but shall only observe
-that the worship of images, relics, and other pagan
-practices, which I have described in this chapter, do
-not prove much in favour of the purity of her tradition.
-I would also ask whether it is in accordance
-with this tradition that the Russian clergy, notwithstanding
-
-all their claims to apostolic succession,
-are governed by the Czar, who sometimes delegates
-for this purpose a colonel of hussars,Vide
-supra, p. 184. which office,
-
-I believe, was never known, even in the most militant
-of churches? It has been, indeed, well said by
-the Marquis de Custine, that the Russian clergy are
-but an army wearing regimentals somewhat different
-from the dress of the regular troops of the empire.
-The papas and their bishops are under the direction
-of the emperor, a regiment of clerks, and that is all.Custine's
-Russia, letter xxxvi. The same opinion is expressed by Baron
-Haxthausen, whom I have quoted above, and who says, The sons of the papas
-and other young men acquire in the seminaries and ecclesiastical academies a
-certain degree of theological learning, after which they indue the monacal dress,
-and are inscribed on the rolls of some convent, without however remaining in it.
-They enter the offices of bishops and archbishops to perform their personal as
-well as clerical service. Their position becomes then exactly the same as that
-of the military aides-de-camp of the Generals, and of the civil ones of ministers,
-and it is from amongst them that bishops, archimandrites, abbots, &c., are
-chosen. It is a career like every other service in Russia. Several of these ecclesiastics
-may have chosen their calling from a real devotion; the most part of
-
-them are, however, driven into it by an immeasurable ambition, selfishness,
-speculation, and vanity, the curse of the upper classes of
-Russia.—(Studien über
-Russland, vol. i., p. 89.) It must be remarked that all the dignities of the Greek
-church are reserved for the monastic or regular clergy, whilst the secular
-(who cannot take orders without being married) do not rise above the station of a
-parish priest. This last-named function, which gives no prospects of promotion,
-is generally left to such theological students as are not fit for any thing better,
-and, with some few honourable exceptions, they are generally an ignorant and
-drunken set, treated with very little respect by the upper classes. The following
-anecdote, characteristic of the moral and intellectual condition of that class of
-the Russian clergy, was related to the author by a friend who had resided for
-some time in Russia. A landowner of the government of Kazan, Mr Bakhmetieff,
-who was very fond of the pleasures of the table in the old style, was in the habit
-of inviting to his revels the priests of the neighbourhood. Once, when his clerical
-guests had got so drunk as to lose all consciousness, their host, who was
-less overpowered by the effect of drink, determined to play them a practical
-
-joke, by daubing their beards with melted wax. The distress of these poor fellows,
-on awaking from their sleep, at this strange unction of their beards, was
-very great, because it was impossible to get rid of the wax without greatly injuring
-that hirsute appendage, upon which so much of their personal respectability
-rests. They became the laughing-stock of their congregations, and the
-story made a great noise over all the country.
-It is in order to extend the advantages of this military
-organization to the Christians of Turkey that
-Russia, according to the opinion of our author, is
-
-under the paramount necessity of making their
-cause her own. All that I say is, that she felt the
-same necessity of making the cause of the Greeks
-and Protestants of Poland her own, and that she
-ended by making the same thing with their country.
-
-The politico-religious complications into which Europe
-has now been thrown by the ambition of Russia
-have induced me particularly to dwell upon the
-means which the church of that country offers for
-the promotion of the political schemes of its rulers.
-With regard to the superstitious practices borrowed
-from Paganism, and peculiar to that church, the
-most remarkable is, perhaps, that heathen custom
-called parentales, mentioned before,
-p. 62, and
-which may be found in different parts of Russia.
-People assemble on Monday, after the Easter week,
-in churchyards, where they eat and drink to great
-excess, in commemoration of their deceased relatives.
-There are many other similar practices, as, for
-instance, that of providing the dead body with a
-kind of passport or written testimony of his religious
-conduct, &c., probably imported with the Christian
-religion by the Greek Church, because at the time of
-the conversion of Russia, this church had already
-introduced painted though not carvedThe Greek
-Church admits no carved images, as being prohibited by the second
-commandment. images,
-to which allusion has been made on p. 12 of this
-Essay.
-
-Calvin's Treatise On Relics,
-With Notes By The Translator.
-
-St Augustinus complains, in his work entitled
-The Labour of Monks, that certain people were,
-even in his time, exercising a dishonest trade, hawking
-about relics of martyrs, and he adds the following
-significant words, should they really be relics
-of martyrs, from which we may infer, that even then
-abuses and deceits were practised, by making simple
-folks believe that bones, picked up any where, were
-bones of saints. Since the origin of this abuse is so
-ancient, there can be no doubt that it has greatly increased
-during a long interval of years, particularly
-as the world has been much corrupted since that age,
-and has continued to deteriorate until it has arrived
-at its present condition.
-
-Now, the origin and root of this evil has been, that,
-instead of discerning Jesus Christ in his Word, his
-Sacraments, and his Spiritual Graces, the world has,
-according to its custom, amused itself with his
-
-clothes, shirts, and sheets, leaving thus the principal
-to follow the accessory.
-
-It did the same thing with the apostles, martyrs,
-and other saints, and, instead of observing their lives
-in order to imitate their examples, it directed all its
-attention to the preservation and admiration of their
-bones, shirts, sashes, caps, and other similar trash.
-
-I know well that there is a certain appearance of
-real devotion and zeal in the allegation, that the relics
-of Jesus Christ are preserved on account of the
-honour which is rendered to him, and in order the
-better to preserve his memory. But it is necessary
-to consider what St Paul says, that every service
-of God invented by man, whatever appearance of
-wisdom it may have, is nothing better than vanity
-and foolishness, if it has no other foundation than
-our own devising. Moreover, it is necessary to set
-the profit derived from it against the dangers with
-which it is fraught, and it will thus be found that, to
-have relics is a useless and frivolous thing, which
-will most probably gradually lead towards idolatry,
-because they cannot be handled and looked upon
-without being honoured, and in doing this men will
-very soon render them the honour which is due to
-Jesus Christ. In short, the desire for relics is never
-without superstition, and what is worse, it is usually
-the parent of idolatry. Every one admits that the
-reason why our Lord concealed the body of Moses,
-was that the people of Israel should not be guilty of
-
-worshipping it. Now, we may conclude that the
-act to be avoided with regard to the body of Moses
-must be equally shunned with regard to the bodies
-of all other saints, and for the same reason—because it
-is sin. But let us leave the saints, and consider what
-St Paul says of Jesus Christ himself, for he protests
-that he knew him not according to the flesh, but only
-after his resurrection, signifying by these words,
-that all that is carnal in Jesus Christ must be forgotten
-and put aside, and that we should employ and
-direct our whole affections to seek and possess him
-according to the spirit. Consequently the pretence
-that it is a good thing to have some memorials either
-of himself or of the saints, to stimulate our piety, is
-nothing but a cloak for indulging our foolish cravings
-which have no reasonable foundation; and should
-even this reason appear insufficient, it is openly
-repugnant to what the Holy Ghost has declared by
-the mouth of St Paul, and what can be said more?
-
-It is of no use to discuss the point whether it is
-right or wrong to have relics merely to keep them as
-precious objects, without worshipping them, because
-experience proves that this is never the case.
-
-It is true that St Ambrose, in speaking of
-Helena, the mother of the Emperor Constantine the
-Great, who sought with great trouble and expense
-for the cross of our Lord, says that she did not worship
-the wood, but the Lord who was suspended
-upon it. But it is a very rare thing, that a heart disposed
-
-to value any relics whatever should not become
-to a certain degree polluted by some superstition.
-
-I admit that people do not arrive at once at open
-idolatry, but they gradually advance from one abuse
-to another until they fall into this extremity, and, indeed,
-those who call themselves Christians have, in
-this respect, idolatrised as much as Pagans ever did.
-They have prostrated themselves, and knelt before
-relics, just as if they were worshipping God; they
-have burnt candles before them in sign of homage;
-they have placed their confidence in them, and have
-prayed to them, as if the virtue and the grace of God
-had entered into them. Now, if idolatry be nothing
-else than the transfer elsewhere of the honour which
-is due to God, can it be denied that this is idolatry?
-This cannot be excused by pretending that it was
-only the improper zeal of some idiots or foolish
-women, for it was a general custom approved by
-those who had the government of the church, and
-who had even placed the bones of the dead and other
-relics on the high altar, in the greatest and most
-prominent places, in order that they should be worshipped
-with more certainty.
-
-It is thus that the foolish fancy which people had
-at first for collecting relics, ended in this open abomination,—they
-not only turned from God, in order to
-amuse themselves with vain and corruptible things,
-but even went on to the execrable sacrilege of worshipping
-dead and insensible creatures, instead of the
-
-one living God. Now, as one evil never comes alone
-but is always followed by another, it thus happened
-that where people were seeking for relics, either of
-Jesus Christ or the saints, they became so blind that
-whatever name was imposed upon any rubbish presented
-to them, they received it without any examination
-or judgment; thus the bones of an ass or dog,
-which any hawker gave out to be the bones of a
-martyr, were devoutly received without any difficulty.
-This was the case with all of them, as will be
-shown hereafter.
-
-For my own part, I have no doubt that this has
-been a great punishment inflicted by God. Because,
-as the world was craving after relics, and turning
-them to a wicked and superstitious use, it was very
-likely that God would permit one lie to follow
-another; for this is the way in which he punishes the
-dishonour done to his name, when the glory due to
-him is transferred elsewhere. Indeed, the only reason
-why there are so many false and imaginary relics
-is, that God has permitted the world to be doubly deceived
-and fallen, since it has so loved deceit and lies.
-
-The first Christians left the bodies of the saints
-in their graves, obeying the universal sentence, that
-all flesh is dust, and to dust it must return, and
-did not attempt their resurrection before the appointed
-time by raising them in pomp and state.
-This example has not been followed by their successors;
-on the contrary, the bodies of the faithful,
-
-in opposition to the command of God, have been
-disinterred in order to be glorified, when they ought
-to have remained in their places of repose awaiting
-the last judgment.
-
-They were worshipped; every kind of honour was
-shown to them, and people put their trust in such
-things. And what was the consequence of all this?
-The devil, perceiving man's folly, was not satisfied
-with having led the world into one deception, but
-added to it another, by giving the name of relics
-of saints to the most profane things. And God
-punished the credulous by depriving them of all
-power of reasoning rightly, so that they accepted
-without inquiry all that was presented to them,
-making no distinction between white or black.
-
-It is not my intention now to discuss the abominable
-abuse of the relics of our Lord, as well as of
-the saints, at this present time, in the most part of
-Christendom. This subject alone would require a
-separate volume; for it is a well-known fact that
-the most part of the relics which are displayed
-every where are false, and have been put forward by
-impostors who have most impudently deceived the
-poor world. I have merely mentioned this subject,
-to give people an opportunity of thinking it
-over, and of being upon their guard. It happens
-sometimes that we carelessly approve of a thing
-without taking the necessary time to examine what
-it really is, and we are thus deceived for want of
-
-warning; but when we are warned, we begin to
-think, and become quite astonished at our believing
-so easily such an improbability. This is precisely
-what has taken place with the subject in question.
-People were told, This is the body of such a saint;
-these are his shoes, those are his stockings; and
-they believed it to be so, for want of timely caution.
-But when I shall have clearly proved the fraud
-which has been committed, all those who have sense
-and reason will open their eyes and begin to reflect
-upon what has never before entered their thoughts.
-The limits of my little volume forbid me from entering
-but upon a small part of what I would wish
-to perform, for it would be necessary to ascertain
-the relics possessed by every place in order to compare
-them with each other. It would then be seen
-that every apostle had more than four bodies,They have
-considerably more, as will be shown presently. and
-each saint at least two or three, and so on. In
-short, if all the relics were collected into one heap,
-the only astonishment would be that such a silly
-and clumsy imposition could have blinded the whole
-earth.
-
-As every, even the smallest Catholic church has
-a heap of bones and other small rubbish, what would
-it be if all those things which are contained in two
-or three thousand bishoprics, twenty or thirty thousand
-abbeys, more than forty thousand convents,
-and so many parish churches and chapels, were collected
-
-into one mass?Every altar
-in a Roman Catholic church must contain some relic. The best thing would be
-not merely to name, but to visit them.
-
-In this town (Geneva) there was formerly, it is
-said, an arm of St Anthony; it was kissed and worshipped
-as long as it remained in its shrine; but
-when it was turned out and examined, it was found
-to be the bone of a stag. There was on the high
-altar the brain of St Peter; so long as it rested in
-its shrine, nobody ever doubted its genuineness, for
-it would have been blasphemy to do so; but when
-it was subjected to a close inspection, it proved to
-be a piece of pumice-stone. I could quote many
-instances of this kind; but these will be sufficient
-to give an idea of the quantity of precious rubbish
-there would have been found if a thorough and universal
-investigation of all the relics of Europe had
-ever taken place. Many of those who look at relics
-close their eyes from superstition, so that in regarding
-these they see nothing; that is to say, they
-dare not properly gaze at and consider what they
-properly may be. Thus many who boast of having
-seen the whole body of St Claude, or of any other
-saint, have never had the courage to raise their eyes
-and to ascertain what it really was. The same thing
-may be said of the head of Mary Magdalene, which
-is shown near Marseilles, with eyes of paste or wax.
-
-It is valued as much as if it were God himself who
-had descended from heaven; but if it were examined,
-
-the imposition would be clearly detected.It is
-said to have been made of pasteboard.
-It would be desirable to have an accurate knowledge
-of all the trifles which in different places are
-taken for relics, or at least a register of them, in
-order to show how many of them are false; but
-since it is impossible to obtain this, I should like to
-have at least an inventory of relics contained in
-ten or twelve such towns as Paris, Toulouse, Poitiers,
-Rheims, &c. If I had nothing more than this,
-it would form a very curious collection. Indeed, it
-is a wish I am constantly entertaining to get such a
-precious repertory. However, as this is too difficult,
-I thought it would be as well to publish the following
-little warning, to awaken those who are asleep,
-and to make them consider what may be the state
-of the entire church if there is so much to condemn
-in a very small portion of it;—I mean, when people
-find so much deception in the relics I shall name,
-and which are far from being the thousandth part
-of those that are exhibited in various parts of the
-world, what must they think of the remainder?
-moreover, if those which had been considered as
-the most authentic proved to be fraudulent inventions,
-
-what can be thought of the more doubtful
-ones? Would to God that Christian princes thought
-a little on this subject! for it is their duty not to
-allow their subjects to be deceived, not only by
-false doctrine, but also by such manifest impositions.
-
-They will indeed incur a heavy responsibility for
-allowing God to be thus mocked when they could
-prevent it.
-
-I hope, however, that this little treatise will be of
-general service, by inducing people to think on the
-subject; for, if we could have the register of all
-the relics that are to be found in the world,
-men would clearly see how much they had been
-blinded, and what darkness and folly overspread the
-earth.
-
-Let us begin with Jesus Christ, about whose blood
-there have been fierce disputations; for many maintained
-that he had no blood except of a miraculous
-kind; nevertheless the natural blood is exhibited in
-more than a hundred places. They show at Rochelle
-a few drops of it, which, as they say, was collected
-by Nicodemus in his glove. In some places they
-have phials full of it, as, for instance, at Mantua and
-elsewhere; in other parts they have cups filled with
-it, as in the Church of St Eustache at Rome. They
-did not rest satisfied with simple blood; it was considered
-necessary to have it mixed with water as it
-flowed out of his side when pierced on the cross.
-This is preserved in the Church of St John of the
-Lateran at Rome.
-
-Now, I appeal to the judgment of every one
-whether it is not an evident lie to maintain that the
-blood of Jesus Christ was found, after a lapse of
-seven or eight hundred years, to be distributed over
-
-the whole world, especially as the ancient church
-makes no mention of it?
-
-Then come the things which have touched the
-body of our Lord. Firstly, the manger in which he
-was placed at his birth is shown in the Church of
-Madonna Maggiore at Rome.
-
-In St Paul's Church there are preserved the
-swaddling clothes in which he was wrapped, though
-there are pieces of these clothes at Salvatierra in
-Spain. His cradle is also at Rome, as well as the
-shirt his mother made for him.
-
-At the Church of St James, in the same city, is
-shown the altar upon which he was placed at his
-presentation in the temple, as if there had been
-many altars, according to the fashion of the Popish
-churches, where any number of them may be erected.
-This is what they show relating to the time of
-Christ's childhood.
-
-It is, indeed, not worth while seriously to discuss
-whence they obtained all this trash, so long a time
-after the death of Jesus Christ. That man must be
-of little mind who cannot see the folly of it. There
-is no mention of these things in the Gospels, and
-they were never heard of in the times of the
-apostles. About fifty years after the death of Jesus
-Christ, Jerusalem was destroyed. Many ancient
-doctors have written since, mentioning fully the occurrences
-of their time, even to the cross and nails
-found by Helena, but these absurdities are not
-
-alluded to. But what is more, these things were
-not brought forward at Rome during the days of St
-Gregory, as may be seen from his writings; whilst
-after his death Rome was several times taken, pillaged,
-and almost destroyed.
-
-Now, what other conclusion can be drawn from
-these considerations but that all these were inventions
-for deceiving silly folks? This has even been
-confessed by some monks and priests, who call them
-pious frauds, i.e.,
-honest deceits for exciting the
-devotion of the people.
-
-After these come the relics belonging to the period
-from the childhood to the death of Jesus Christ,
-such as the water pots in which Christ changed
-water into wine at the marriage feast of Cana in
-Galilee.
-
-One would naturally inquire how they were preserved
-for so long a time? for it is necessary to bear
-in mind that they were not discovered until eight
-hundred or a thousand years after the performance
-of the miracle.
-
-I cannot tell all the places where these water pots
-are shown; I only know that they can be seen at
-Pisa, Ravenna, Cluny, Antwerp, and Salvatierra in
-Spain.There are, besides
-the five water pots mentioned by Calvin, thirteen others,
-at St Nicolo of the Lido at Venice, at Moscow, at Bologne, at Tongres, at Cologne,
-at Beauvaia, at the abbey of Port Royal at Paris, and at Orleans,
-though the Gospel mentions but six. The materials of which they are made
-are very dissimilar to each other, and so are their respective measures, whilst
-those mentioned in the Gospel seem to have been all of the same size.
-
-At Orleans they have even the wine which was
-obtained by that miracle, and once a-year the priests
-there give to those who bring offerings a small
-spoonful, saying that they shall taste of the very
-wine made by our Lord at the marriage feast, and
-its quantity never decreases, the cup being always
-refilled. I do not know of what date are his shoes,
-which are preserved in a place at Rome called
-Sancta Sanctorum, or whether he had worn them
-in his childhood or manhood; but this is of little
-moment, for what I have already mentioned sufficiently
-shows the gross imposition of producing now
-the shoes of Jesus Christ, which were not possessed by
-the apostles in their time.
-
-Now, let us proceed to the last supper which
-Christ had with his apostles. The table is at St
-John of the Lateran at Rome; some bread made
-for that occasion at Salvatierra in Spain; and the
-knife with which the paschal lamb was carved is at
-Tréves. Now, it is necessary to observe that Christ
-made that supper in a borrowed room, and on going
-from thence he left the table, which was not removed
-by the apostles. Jerusalem was soon afterwards
-destroyed. How, then, could the table be
-found after a lapse of eight hundred years?
-
-Moreover, in the early ages tables were made of
-quite a different shape to those of our days, for
-people then took their repasts in a lying, not in a
-sitting posture—a circumstance expressly mentioned
-
-in the Gospels. The deceit is therefore quite manifest,
-without more being added to prove it.
-
-The cup in which Christ gave the sacrament of
-his blood to the apostles is shown at Notre Dame
-de l'Isle, near Lyons; and there is another in a
-convent of Augustine monks in the Albigéois;—which
-is the true one? Charles Sigonius, a celebrated
-historian of our times, says, in his fourth
-book on Italy, that Baldwin, second king of Jerusalem,
-captured in 1101, with the assistance of the
-Genoese, the town of Cesarea in Syria, and amongst
-the spoils taken by his allies was a vessel or cup
-of emerald, which was considered to have been
-made use of by Jesus Christ at his last supper.
-Therefore,—these are his own words,—this
-cup is even now devoutly preserved in the town of
-Genoa.
-
-According to this account, our Lord must have
-had a splendid service on that occasion; for there
-would be as little propriety in drinking from such a
-costly vessel without having the rest of the service
-of a similar description, as there is in some Popish
-pictures where the Virgin Mary is represented as a
-woman with her hair hanging over her shoulders,
-dressed in a gown of cloth of gold, and riding on a
-donkey which Joseph leads by the halter. We recommend
-our readers to consider well the Gospel
-texts relating to this subject.
-
-The case of the dish upon which the paschal lamb
-
-was placed is still worse, for it is to be found at
-Rome, at Genoa, and at Arles. If these holy relics
-be genuine, the customs of that time must have been
-quite different from ours, because, instead of changing
-viands as we now do, the dishes were changed
-for the same food!
-
-The same may be said of the towel with which
-Jesus Christ wiped the feet of the apostles, after
-having washed them; there is one at Rome at the
-Lateran, one at Aix-la-Chapelle, and one at St Corneille
-of Compiegne, with the print of the foot of
-Judas. Some of these must be false.
-
-But we will leave the contending parties to fight
-out their own battles, until one of them shall establish
-the reality of his case. It appears to me, however,
-that trying to make people believe that a towel
-which Jesus Christ had left in the place where it
-was used, had in several hundred years afterwards
-found its way into Germany and Italy, is nothing
-better than a gross imposture.
-
-I nearly forgot to mention the bread with which
-five thousand persons were miraculously fed in the
-desert, and of which a bit is shown at Rome, and
-another piece at Salvatierra in Spain.
-
-The Scripture says that a portion of manna was
-preserved in remembrance of God having miraculously
-fed his people in the desert; but the Gospel
-does not say a word respecting the preservation of
-the fragments of the five loaves for a similar purpose;
-
-the subject is not mentioned in any ancient history,
-nor does any ecclesiastical writer speak of it. It is
-therefore very easily perceived that the above-mentioned
-pieces of bread are of modern manufacture.
-
-The principal relics of our Lord are, however,
-those relating to his passion and death. And the
-first of them is the cross. I know that it is considered
-to be a certain fact that it was found by
-Helena, the mother of the Emperor Constantine;
-and I know also that some ancient doctors have
-written about the manner in which the discovery
-was certified that it was the true cross upon which
-our Lord had suffered. I think, however, that it
-was a foolish curiosity, and a silly and inconsiderate
-devotion, which prompted Helena to seek for that
-cross. But let us take for granted that it was a
-laudable act, and that our Lord had declared by a
-miracle that it was the real cross, and let us consider
-only the state of the case in our own time.
-
-It is maintained undoubtingly that the cross
-found by Helena is still at Jerusalem, though this is
-contradicted by ecclesiastical history, which relates
-that Helena took a piece of it, and sent it to her
-son the emperor, who set it upon a column of porphyry,
-in the centre of a public place or square,
-whilst the other portion of it was enclosed by her in
-a silver case, and intrusted to the keeping of the
-Bishop of Jerusalem; consequently, either the
-
-before-mentioned statement or this historical record
-must be false.
-
-Now let us consider how many relics of the true
-cross there are in the world. An account of those
-merely with which I am acquainted would fill a
-whole volume, for there is not a church, from a
-cathedral to the most miserable abbey or parish
-church, that does not contain a piece. Large splinters
-of it are preserved in various places, as for instance
-in the Holy Chapel at Paris, whilst at Rome
-they show a crucifix of considerable size made entirely,
-they say, from this wood. In short, if we
-were to collect all these pieces of the true cross exhibited
-in various parts, they would form a whole
-ship's cargo.
-
-The Gospel testifies that the cross could be borne
-by one single individual; how glaring, then, is the
-audacity now to pretend to display more relics of
-wood than three hundred men could carry! As an
-explanation of this, they have invented the tale, that
-whatever quantity of wood may be cut off this true
-cross, its size never decreases. This is, however, such
-a clumsy and silly imposture, that the most superstitious
-may see through it. The most absurd stories
-are also told respecting the manner in which various
-pieces of the cross were conveyed to the places
-where they are now shown; thus, for instance, we
-are informed that they were brought by angels, or
-had fallen from heaven. By these means they seduce
-
-ignorant people into idolatry, for they are not
-satisfied with deceiving the credulous, by affirming
-that pieces of common wood are portions of the true
-cross, but they pretend that it should be worshipped,
-which is a diabolical doctrine, expressly reproved by
-St Ambrose as a Pagan superstition.
-
-After the cross comes the inscription, Jesus of
-Nazareth, King of the Jews, which was placed
-upon it by order of Pilate. The town of Toulouse
-claims the possession of this relic, but this is contradicted
-by Rome, where it is shown in the Church of
-the Holy Cross. If these relics were properly examined,
-it would be seen that the claims of both
-parties are equally absurd.
-
-There is a still greater contradiction concerning
-the nails of the cross. I shall name those with
-which I am acquainted, and I think even a child
-could see how the devil has been mocking the world
-by depriving it of the power of discernment on this
-point. If the ancient writers, such as the ecclesiastical
-historian Theodorite, tell the truth (Historia
-Tripartita, lib. ii.), Helena caused one of the nails to
-be set in the helmet of her son Constantine, and two
-others in the bridle of his horse. St Ambrose, however,
-relates this differently, saying that one of the nails
-was set in the crown of Constantine, a second was
-converted into a bridle-bit for his horse, and the
-third was retained by Helena. Thus we see that
-twelve hundred years ago there was a difference of
-
-opinion on this subject, and how can we tell what
-has become of the nails since that time? Now, they
-boast at Milan that they possess the nail which was
-in Constantine's bridle; this claim is, however,
-opposed by the town of Carpentras. St Ambrose
-does not say that the nail was attached to the bridle,
-but that the bit was made from it,—a circumstance
-which does not agree with the claims of Milan or
-Carpentras. There is, moreover, one nail in the
-Church of St Helena at Rome, and another in that
-of the Holy Cross in the same city; there is a nail
-at Sienna, and another at Venice. Germany possesses
-two, at Cologne and Tréves. In France there
-is one in the Holy Chapel at Paris, another in the
-same city at the church of the Carmelites, a third is
-at St Denis, a fourth at Bruges, a fifth at the abbey
-of Tenaille in the Saintonge, a sixth at Draguignau,
-the whole number making fourteen shown in different
-towns and countries.There are,
-besides these, thirteen more, unknown probably to Calvin; but
-it would be too tedious to enumerate where they may be seen.
-Each place exhibiting
-these nails produces certain proofs to establish the
-genuineness of its relic, but all these claims may be
-placed on a par as equally absurd.
-
-Then follows the iron spear with which our
-Saviour's side was pierced. It could be but one,
-and yet by some extraordinary process it seems to
-have been multiplied into four; for there is one at
-Rome, one at the Holy Chapel at Paris, one at the
-
-abbey of Tenaille in Saintonge, and one at Selve,
-near Bourdeaux.
-
-With regard to the crown of thorns, one must
-believe that the slips of which it was plaited had
-been planted, and had produced an abundant
-growth, for otherwise it is impossible to understand
-how it could have increased so much.
-
-A third part of this crown is preserved at the
-Holy Chapel at Paris, three thorns at the Church of
-the Holy Cross, and a number of them at St
-Eustache in the same city; there are a good many
-of the thorns at Sienna, one at Vicenza, four at
-Bourges, three at Besançon, three at Port Royal,
-and I do not know how many at Salvatierra in
-Spain, two at St James of Compostella, three at
-Albi, and one at least in the following places:—Toulouse,
-Macon, Charroux in Poitiers; at Cleri, St
-Flour, St Maximim in Provence, in the abbey of
-La Salle at St Martin of Noyon, &c.If a
-diligent inquiry were instituted after these relics in particular, four
-times as many as are here enumerated might be found in other parts.
-
-It must be observed, that the early church has
-made no mention of this crown, consequently the
-root that produced all these relics must have grown a
-long time after the passion of our Lord. With regard
-to the coat, woven throughout without a seam, for
-which the soldiers at the cross cast lots, there is one
-to be seen at Argenteuil near Paris, and another at
-Tréves in Germany.
-
-It is now time to treat of the sudary, about
-which relic they have displayed their folly even
-more than in the affair of the holy coat; for besides
-the sudary of Veronica, which is shown in the
-Church of St Peter at Rome, it is the boast of several
-towns that they each possess one, as for instance
-Carcassone, Nice, Aix-la-Chapelle, Tréves, Besançon,
-without reckoning the fragments to be seen in various
-places.I have employed the term Sudary, which has been adopted by
-Webster, from the Latin word sudarium,
-to designate the relic in question.
-
-Now, I ask whether those persons were not bereft
-of their senses who could take long pilgrimages, at
-much expense and fatigue, in order to see sheets, of
-the reality of which there were no reasons to believe,
-but many to doubt; for whoever admitted the reality
-of one of these sudaries shown in so many places,
-must have considered the rest as wicked impostures
-set up to deceive the public by the pretence that
-they were each the real sheet in which Christ's body
-had been wrapped. But it is not only that the exhibitors
-of this one and the same relic give each
-other mutually the lie, they are (what is far more
-important) positively contradicted by the Gospel.
-The evangelists who speak of all the women who
-followed our Lord to the place of crucifixion, make
-not the least mention of that Veronica who wiped
-his face with a kerchief. It was in truth a most
-marvellous and remarkable event, worthy of being
-
-recorded, that the face of Jesus Christ was then
-miraculously imprinted upon the cloth, a much more
-important thing to mention than the mere circumstance
-that certain women had followed Jesus Christ
-to the place of crucifixion without meeting with any
-miracle; and, indeed, had such a miracle taken
-place, we might consider the evangelists wanting in
-judgment in not relating the most important facts.
-
-The same observations are applicable to the tale
-of the sheet in which the body of our Lord was
-wrapped. How is it possible that those sacred historians,
-who carefully related all the miracles that
-took place at Christ's death, should have omitted
-to mention one so remarkable as the likeness of the
-body of our Lord remaining on its wrapping sheet?
-This fact undoubtedly deserved to be recorded. St
-John, in his Gospel, relates even how St Peter,
-having entered the sepulchre, saw the linen clothes
-lying on one side, and the napkin that was about
-his head on the other; but he does not say that there
-was a miraculous impression of our Lord's figure
-upon these clothes, and it is not to be imagined that
-he would have omitted to mention such a work of
-God if there had been any thing of this kind.
-Another point to be observed is, that the evangelists
-do not mention that either of the disciples or the
-faithful women who came to the sepulchre had
-removed the clothes in question, but, on the contrary,
-their account seems to imply that they were left
-
-there. Now, the sepulchre was guarded by soldiers,
-and consequently the clothes were in their power.
-Is it possible that they would have permitted the
-disciples to take them away as relics, since these
-very men had been bribed by the Pharisees to perjure
-themselves by saying that the disciples had
-stolen the body of our Lord? I shall conclude with
-a convincing proof of the audacity of the Papists.
-Wherever the holy sudary is exhibited, they show a
-large sheet with the full-length likeness of a human
-body on it. Now, St John's Gospel, chapter nineteenth,
-says that Christ was buried according to the
-manner of the Jews; and what was their custom?
-This may be known by their present custom on such
-occasions, as well as from their books, which describe
-the ancient ceremony of interment, which was to
-wrap the body in a sheet, to the shoulders, and to
-cover the head with a separate cloth. This is precisely
-how the evangelist described it, saying, that
-St Peter saw on one side the clothes with which the
-body had been wrapped, and on the other the
-napkin from about his head. In short, either St
-John is a liar, or all those who boast of possessing
-the holy sudary are convicted of falsehood and
-
-deceit.It appears that a
-kerchief with the likeness of the face of Jesus Christ
-imprinted on it, and covered with blood and sweat, was kept in a church
-at Rome in the eleventh century, for it is mentioned in the brief of Pope
-Sergius IV., dated 1011. We do not know what tales respecting this relic
-were related at that time, but it appears that copies of it called
-Veronies, i.e.,
-a corruption of verum icon,
-the true image, were sold; and no doubt this appellation
-gave rise to the legend of Sancta Veronica who wiped the face of
-Christ with her kerchief as he was going to Calvary. There are many versions
-of this legend, as for instance that it was this woman whom Christ had cured of
-the bloody issue, whilst again it is maintained that she was no less a person
-than Berenice, niece to King Herod. It is also related that after the dispersion
-of the apostles, St Veronica went in company with Mary Magdalene, Martha, and
-Lazarus, to Marseilles, where she wrought many miracles with her kerchief.
-The Emperor Tiberius heard of these miracles, and having fallen ill, he summoned
-Veronica to Rome. She cured him in a moment, and was rewarded
-with great honours and rich presents. The remainder of her life was spent at
-
-Rome in company with St Peter and St Paul, and she bequeathed the miraculous
-kerchief to Pope St Clement. It must, however, be observed, that this legend
-has not obtained the official approbation of the Roman Catholic Church, though
-St Veronica is acknowledged and has a place in the calendar for the 21st of February;
-and it is said she suffered martyrdom in France. With regard to the
-large sudaries or sheets upon which the whole body of Jesus Christ is impressed,
-and the absurdity of which Calvin has so clearly exposed, the most celebrated of
-these is that at Turin. Its history is curious, inasmuch as it shows that the
-efforts of enlightened and pious prelates to prevent idolatrous practices invading
-their churches proved unavailing against that general tendency to worship
-visible objects, so strongly implanted in corrupt human nature, that even in this
-enlightened age we are continually witnessing such manifestation of its revival
-as may be compared only to that of the dark period of the middle ages. The
-most striking instances undoubtedly are those of the holy coat of Treves, and
-the relics of St Theodosia, which have been recently installed at Amiens, with
-great pomp, and in the presence of the most eminent prelates of the Roman
-
-Catholic Church, who seem now to be as anxious to promote this kind of fetishism,
-as some of their predecessors were formerly to repress the same abuse. But
-let us return to our immediate subject—the holy sudarium of
-Turin. It is a long linen sheet, upon which is painted in a reddish colour a double
-likeness of a human body, i.e., as seen from before and from
-behind, quite naked with the
-exception of a broad scarf encircling the loins. It is pretended that this relic was
-saved by a Christian at the taking of Jerusalem by Titus, and it was preserved
-for many centuries by the faithful.
-
-In 640 it was brought back to Palestine, from whence it was transferred to
-Europe by the Crusaders. It was taken by a French knight named Geoffroi de Charny, who
-presented it to the collegiate church of a place called Liré, which
-belonged to him, and which is situated about three leagues from the town of
-Troyes, in Champagne; the donor declaring, on that occasion, that this holy
-sheet was taken by him from the infidels, and that it had delivered him in a
-miraculous manner from a prison dungeon into which he had been cast by the
-English.
-
-The canons of that church, seeing at once the great profits to be derived from
-such a relic, lost no time in exhibiting it, and their church was soon crowded
-with devotees. The bishop of Troyes, Henri de Poitiers, finding however no
-proofs of the authenticity of this relic, prohibited it to be shown as an object of
-worship, and it remained unheeded for twenty-four years.
-
-The sons of Geoffroi de Charny, about the year 1388, obtained permission
-from the Papal legate to restore this relic of their father's to the church of Liré,
-and the canon exposed it in front of the pulpit, surrounding it with lighted
-tapers, but the bishop of Troyes, Peter d'Arcy, prohibited this exhibition
-under pain of excommunication. They afterwards obtained from the king,
-Charles VI., an authorization to worship the holy sudarium in the
-church of Liré.
-The bishop upon this repaired to court, and represented to the king that the
-worship of the pretended sheet of Jesus Christ was nothing less than downright
-idolatry, and he argued so effectually that Charles revoked the permission by
-an edict of the 21st August 1389.
-
-Geoffroi de Charny's sons then appealed to Pope Clemens VII., who was
-residing at Avignon, and he granted permission for the holy sudarium to be
-exhibited. The bishop of Troyes sent a memorial to the Pope, explaining the
-importance attached to this so-called holy relic. Clemens did not, however,
-prohibit the sudarium to be shown, but he forbade its being exhibited as the
-real sudary of Jesus Christ. The canons of Liré, therefore, put aside their
-sudary, but it reappeared in other places, and after being shown about in various
-churches and convents it remained at Chambery in 1432, where nobody dared to
-impugn its reality. From that time its fame increased, and Francis I., king of
-France, went a pilgrimage on foot, the whole way from Lyons to Chambery, in
-order to worship this linen cloth. In 1578 St Charles Borromeo having announced
-his intention of going on foot to Chambery to adore the holy sudary,
-the Duke of Savoy, wishing to spare this high-born saint the trouble of so long
-a pilgrimage, commanded the relic to be brought to Turin, where it has since
-remained, and where the miracles performed by it and the solemn worship paid
-to it, may be considered as a proof that its authenticity is no longer doubted.
-
-There are about six holy sudaries preserved in other churches, besides the
-pieces shown elsewhere.
-
-In the Church of St John of the Lateran at Rome,
-they show the reed which the soldiers, mocking
-Christ in the house of Pilate, placed in his hand,
-
-and with which they afterwards smote him on the
-head. In the Church of the Holy Cross at Rome they
-show the sponge which was filled with vinegar, and
-given him to drink during his passion. Now, I would
-ask, how were these things obtained? They must
-have been formerly in the hands of infidels. Could
-they have delivered them up to the apostles to be
-made relics of? or did they preserve them themselves
-for future times?
-
-What a sacrilege to make use of the name of
-Jesus Christ in order to invent such absurd fables!
-
-And what can we think of the pieces of silver received
-by Judas for betraying our Saviour? The
-Gospel says that he returned this money to the chief
-
-priests, who bought with it the potter's field for a
-burial-place for strangers.
-
-By what means were these pieces of silver obtained
-from the seller of that field? It would be too absurd
-to maintain that this was done by the disciples of
-Jesus Christ; and if we are told that they were found
-a long time afterwards, it will be still less probable,
-as this money must have passed through many hands.
-It is therefore necessary to prove, that either the
-person who sold his field did so for the purpose of
-obtaining the silver pieces in order to make relics of
-them; or that he afterwards sold them to the faithful.
-Nothing of this kind has ever been mentioned
-by the primitive church.Calvin, speaking
-of the silver pieces for which Judas betrayed our Lord,
-does not say where they are shown. Two of them are preserved in the Church
-of the Annunciation at Florence, one in the Church of St John of the Lateran,
-and another in that of the Holy Cross at Rome. There is one piece at the
-Church of the Visitandine Convent at Aix in Provence besides many other
-places where they are displayed.—Collin de
-Plancy, Dictionaire des Reliques. To the same class of impositions
-belong the steps of Pilate's tribunal, which
-are exhibited in the Church of St John of the Lateran,
-as well as the column to which Christ was fastened
-
-during the flagellation, shown in the Church of
-St Prasedo in the same city, besides two other pillars,
-round which he was conducted on his way to Calvary.
-From whence these columns were taken it is
-impossible to conjecture. I only know that the Gospel,
-in relating that Jesus Christ was scourged, does
-not mention that he was fastened to a column or
-post. It really appears as if these impostors had no
-
-other aim than to promulgate the most fallacious
-statements, and, indeed, they carried this to such a
-degree of extravagance, that they were not ashamed
-to make a relic of the tail of the ass upon which our
-Lord entered into Jerusalem, which they show at
-Genoa.The whole skeleton
-of the animal is preserved at Vicenza, enclosed in an artificial
-figure of an ass. One really cannot tell which is most wonderful,—the
-folly and credulity of those who devoutly
-receive such mockeries, or the boldness of those who
-put them forth.
-
-It may be said that it is not likely all these relics
-should be preserved without some sort of correct history
-being kept of them. To this I reply that such
-evident falsehoods can never bear the slightest resemblance
-to truth, how much soever their claims may
-be supported by the names of Constantine, Louis
-IX., or of some popes; for they will never be able to
-prove that Christ was crucified with fourteen nails,
-or that a whole hedge was used to plait his crown of
-thorns,—that the iron of the spear with which his side
-was pierced had given birth to three other similar
-pieces of iron,—that his coat was multiplied threefold,—and
-that from his single sudarium a number of
-others have issued, or that Jesus Christ was buried
-in a manner different from that described in the
-Gospels.
-
-Now, if I were to show a piece of lead, saying,
-This piece of gold was given me by a certain
-
-prince, I should be considered a madman, and my
-words would not transmute the lead into gold.
-
-Thus it is precisely when people say, This thing
-was sent over by Godfrey de Bouillon after his conquest
-of Judea. Our reason shows us that this is
-an evident lie. Are we then to be so much imposed
-upon by words as to resist the evidence of our
-senses?
-
-Moreover, in order to show how much reliance may
-be placed on the statements which are given about
-these relics, we must remark that those considered
-the principal and most authentic at Rome have been,
-according to those accounts, brought thither by Vespasian
-and Titus. Now, this is such a clumsy fabrication,—they
-might just as well tell us that the Turks
-went to Jerusalem in order to carry off the true cross
-to Constantinople!
-
-Vespasian conquered and ravaged a part of Judea
-before he was elected emperor, and his son Titus
-completed that conquest by the capture and destruction
-of Jerusalem. They were both Pagans, and had
-no more regard for Christ than if he had never
-existed on earth. Consequently to maintain that
-Vespasian and Titus carried off the above-mentioned
-relics to Rome, is even a more flagrant falsehood
-than the stories about Godfrey of Bouillon and St
-Louis.
-
-Moreover, it is well known that the times of St
-Louis were very superstitious. That monarch would
-
-have accepted as a relic, and worshipped, any thing
-that was represented to him as having belonged to
-the Holy Virgin; and, indeed, King Louis and
-other crusaders sacrificed their bodies and their
-goods, as well as a great portion of their country's
-substance, merely to bring back with them heaps of
-foolish trifles, having been taught to consider them
-as the most precious jewels of the world.
-
-It must be here mentioned, that in Greece, Asia
-Minor, and other eastern countries, people show,
-with full assurance, counterpart old rubbish, which
-those poor idolaters imagine they possess in their
-own country. How are we to judge between the
-two contending parties? One party says that these
-relics were brought from the East; but the Christians
-now inhabiting those lands maintain that the
-same relics are still in their possession, and they
-laugh at our pretensions. How can it be decided
-betwixt right and wrong without an inquiry, which
-will never take place? Methinks the best plan is
-to let the dispute rest as it is, without caring for
-either side of the question.
-
-The last relics pertaining to Jesus Christ are
-those which relate to the time after his resurrection,—as,
-for instance, a piece of broiled fish which St
-Peter presented to him on the sea-shore. This fish
-must have been strongly spiced, and prepared in
-some extraordinary manner, to be preserved for so
-long a period. But, seriously, is it likely that the
-
-apostles would have made a relic of a portion of the
-fish which they had prepared for their dinner? Indeed,
-I think that whoever will not perceive this to
-be an open mockery of God, deserves not to be
-reasoned with.
-
-There is also the miraculous blood which has
-flowed from several hosts,—as, for instance, in the
-Churches of St Jean-en-Greve at Paris, at St Jean
-d'Angeli at Dijon, and in many other places. They
-show even the penknife with which the host at Paris
-was pierced by a Jew, and which the poor Parisians
-hold in as much reverence as the host itself. For
-this they were well blamed by a Roman Catholic
-priest, who declared them to be worse than the
-Jews, for worshipping the knife with which the precious
-body of Christ was pierced. I think we may
-apply this observation to the nails, the spear, and
-the thorns; and consequently those who worship
-those instruments used at our Lord's crucifixion are
-more wicked than the Jews who employed them for
-that purpose.
-
-There are many other relics belonging to this period
-of our Lord's history, but it would be tedious
-to enumerate them all. We shall therefore pass
-them over, and say a few words respecting his
-images,—not the common ones made by painters
-and carvers, but those considered as actual relics,
-and held in particular veneration. Some of these
-images are believed to have been made in a miraculous
-
-manner, like those shown at Rome in the
-Church of the blessed Virgin, in Portici, at St John
-of the Lateran, at Lucca, and other places, and
-which they pretend were painted by angels. I think
-it would be ridiculous to undertake a serious refutation
-of these absurdities, the profession of angels not
-being that of painters, and our Lord Jesus Christ
-desired to be known and remembered otherwise than
-by carnal images.
-
-Eusebius, it is true, relates, in his Ecclesiastical
-History, that our Lord sent the likeness of his face
-to King Abgarus;Eusebius relates,
-that Abgarus, king of Edessa, having heard of Christ's
-teaching and miracles, sent an embassy to acknowledge our Lord's divinity,
-and to invite him to his kingdom, in order to cure Abgarus of a complaint
-of long standing; upon which Christ sent him the likeness mentioned
-in the text. Now, it is impossible for one moment to admit, that, if such an
-important fact had any truthful foundation, it would have been left unrecorded
-by the apostles. but the authenticity of this account
-has no better proof than that of a fairy tale;
-yet, supposing it were true, how came this likeness
-to be found at Rome (out of Abgarus' possession),
-where people boast to have it now? Eusebius does
-not mention where it was in his time, but he merely
-relates the story as having happened a long time before
-he wrote; we must therefore suppose that this
-image reappeared after a lapse of many centuries,
-and came from Edessa to Rome.
-
-They have forged not only images of Christ's
-body, but also copies of the cross. Thus they pretend
-at Brescia to have the identical cross which
-appeared to the Emperor Constantine. This claim
-
-is, however, stoutly opposed by the town of Constance,
-whose inhabitants maintain that the above-mentioned
-cross is preserved in their town, and not
-at Brescia.
-
-But let us leave the contending parties to settle
-this point between themselves, though it would be
-easy enough to show the absurdity of their pretensions,
-because the cross which, according to some
-writers, appeared to Constantine, was not a material
-cross, but simply a vision.
-
-There are several carved images, as well as paintings,
-of Jesus Christ to which many miracles are
-attributed. Thus the beard grows on the crucifixes
-of Salvatierra and Orange, and other images are said
-to shed tears. These things are too absurd for serious
-refutation, and yet the deluded world is so infatuated
-that the majority put as much faith in these
-as in the Gospels.
-
-The Blessed Virgin.—The belief that the body of
-the Virgin was not interred on earth, but was taken
-to heaven, has deprived them of all pretext for manufacturing
-any relics of her remains, which otherwise
-might have been sufficiently abundant to fill a
-whole churchyard;The Roman Catholic
-Church maintains that the Blessed Virgin was
-carried to heaven by angels, and it commemorates this event by the festival
-of the Assumption on the 15th August. This belief was unknown to the
-primitive church; for, according to a Roman Catholic writer of undoubted
-orthodoxy, the Empress Pulcheria, in the fifth century, requested the Bishop of
-Jerusalem, Juvenal, to allow her to have the body of the Virgin, in order to
-display it for the public adoration of the faithful at
-Constantinople.—(Tillerant's Memoires Ecclesiastiques.)—There
-are many other proofs that, even
-at that time, when many idolatrous practices had begun to corrupt the church,
-the Virgin's body was generally believed to be in earth, and not in heaven.
-yet in order to have at least
-
-something belonging to her, they sought to indemnify
-themselves for the absence of other relics with
-the possession of her hair and her milk. The hair is
-shown in several churches at Rome, and at Salvatierra
-in Spain, at Maçon, St Flour, Cluny, Nevers,
-and in many other towns. With regard to the milk,
-there is not perhaps a town, a convent, or nunnery,
-where it is not shown in large or small quantities.
-Indeed, had the Virgin been a wet-nurse her whole
-life, or a dairy, she could not have produced more
-than is shown as hers in various parts.Vials filled
-with such milk were shown in several churches at Rome, at
-Venice in the church of St Mark, at Aix in Provence, in the church of the
-Celestins at Avignon, in that of St Anthony at Padua, &c. &c., and many
-absurd stories are related about the miracles performed with these relics.
-How they obtained all this milk they do not say, and it is
-superfluous here to remark that there is no foundation
-in the Gospels for these foolish and blasphemous
-extravagances.
-
-The Virgin's wardrobe has produced an abundant
-store of relics. There is a shirt of hers at Chartres,
-which has been fully celebrated as an idol, and there
-is another at Aix-la-Chapelle.
-
-I do not know how these things could have been
-obtained, for it is certain that the Apostles and first
-Christians were not such triflers as to amuse themselves
-in this way. It is, however, sufficient for us
-to consider the shape of these articles of dress, in
-
-order clearly to see the impudence of their exhibitors.
-The shirt at Aix-la-Chapelle is a long clerical surplice,
-shown hanging to a pole, and if the Blessed
-Virgin had been a giantess, she would still have felt
-much inconvenience in wearing so large a garment.
-
-In the same church they preserve the shoes of St
-Joseph, which could only fit the foot of a little child
-or a dwarf. The proverb says that liars need good
-memories, so as not to contradict their own sayings.
-This rule was not followed out at Aix-la-Chapelle,
-otherwise care would have been taken to maintain a
-better proportion of size between the shoes of the
-husband and the shirt of the wife. And yet these
-relics, so devoid of all appearance of truth, are devoutly
-kissed and venerated by crowds!
-
-I know of only two of her head-dresses; one is at
-the abbey of St Maximian at Treves, and the other
-is at Lisio in Italy. They may be considered quite
-as genuine as the Virgin's girdle at Prato and at
-Montserrat, as her slipper at St Jaqueme, and as her
-shoe at St Flour.
-
-Now, those who are at all conversant with this subject
-well know that it was not the custom of the primitive
-church to collect shoes and stockings, &c., for
-relics, and also that for five hundred years after the
-death of the Virgin Mary there was never any talk
-of such things. It really seems as if these well-known
-facts would be sufficient to prove the absurdity of all
-these relics of the Virgin; but her worshippers, not
-
-merely satisfied with the articles I have just enumerated,
-endeavour to ascribe to her a love of dress and
-finery. A comb of hers is shown in the church of
-St Martin at Rome, and another in that of St Jean-le-Grand
-at Besançon, besides others that may be
-shown elsewhere. Now, if this be not a mockery of
-the Virgin, I do not know what that word implies.
-They have not forgotten her wedding-ring, which is
-shown at Perusa.
-
-As it is now the custom for a husband to present
-his bride with a ring at the marriage ceremony,
-they imagined it to be so in the time of the Virgin,
-and in her country, consequently, they show a splendid
-ring as the one used at her wedding, forgetting
-the state of poverty in which she lived.
-
-Rome possesses four of her gowns, in the churches
-of St John of the Lateran, St Barbara, St Maria
-supra Minervam, and St Blasius; whilst at Salvatierra
-they boast of having fragments of a gown belonging
-to her.
-
-I have forgotten the names of other towns where
-similar relics are shown.There are
-about twenty gowns of the Blessed Virgin exhibited in various
-places. Many of them are of costly textures, which, if true, would prove that
-she had an expensive wardrobe.
-
-It is sufficient to examine the materials of these
-vestments in order to see the falsehood of their
-claims, for their exhibitors give to the Virgin the
-same sort of robes with which they dress up her
-images.
-
-It remains now to speak of her images—not of
-the common ones, of which there are so many everywhere,
-but of those which are distinguished from the
-rest by some particular claims. Thus at Rome there
-are four, which they pretend were painted by St
-Luke the evangelist. The principal one is in the
-church of St Augustine, which they say St Luke
-had painted for his own use; he always carried it
-about his person, and it was buried with him.
-Now, is it not a downright blasphemy to turn thus a
-holy evangelist into a perfect idolater? And what
-reason had they for believing that St Luke was a
-painter? St Paul calls him a physician. I do not
-know from whence they obtained this notion; but
-supposing it was so, is it possible to admit that he
-would have painted the Virgin for the same purpose
-as the Pagans did a Jupiter, a Venus, or any other
-idol?
-
-It was not the custom of the primitive Christians
-to have images, and it only became so a long while
-afterwards, when the Church was corrupted by
-superstition. Moreover, the whole world is filled
-with representations of the Blessed Virgin, which are
-said to have been painted by the same evangelist.The
-number of miraculous images of the Virgin in countries following the
-tenets of the Roman Catholic and Greek Churches is legion, and a separate
-volume would be required if we were to give even an abridged account of
-them.
-
-I shall not say any thing about St Joseph, whose
-shoes at Aix-la-Chapelle I have already mentioned,
-
-and whose other similar relics are preserved in many
-places.The most celebrated relic
-of St Joseph is his han,
-i.e., the sound or groan
-which issues from the chest of a man when he makes an effort, and which St
-Joseph emitted when he was splitting a log of wood. It was preserved in a
-bottle at a place called Concaiverny, near Blois, in
-France.—D'Aubigne's Confessions
-de Sancy, chap. ii. apud Colin de Plancy.
-
-ST MICHAEL.
-
-It may be supposed that I am joking when I speak
-of the relics of an angel, considering how absurd and
-ridiculous it is to do so, yet, although the hypocrites
-certainly know this well, they have made use of the
-name of St Michael to delude the ignorant and foolish;
-for they show at Carcassone his falchion, which
-looks like a child's dagger, and his shield, which is
-no larger than the knob of a bridle. Is it possible
-for man or woman to exist who can believe such
-mockery?It is said that
-as late as 1784, at Mount St Michael in Bretagne, a Swiss was
-vending feathers from the archangel Michael's wings, and that he found purchasers
-for his wares. It is indeed a blasphemy, under a garb
-of devotion, against God and his angels. The exhibitors
-of the above-mentioned relics endeavour to
-support their imposture by the testimony of Scripture
-that the archangel Michael combated with Satan; but
-if he was conquered by the sword, it would at least
-have been one of a different size and calibre than
-the toy to which I have alluded. People must,
-however, be very silly to believe that the war waged
-by angels and the faithful against the devil is a carnal
-
-encounter, fought with material weapons. But
-as I said before, at the commencement of this treatise,
-the world has rightly deserved to be led astray
-into such absurdities, for having lusted after idols,
-and worshipped them instead of the living God.
-
-ST JOHN THE BAPTIST.
-
-Proceeding in due order, we must now treat of St
-John the Baptist, who, according to the evangelical
-history—i.e., God's Word of Truth—was, after being
-beheaded, buried by his disciples. Theodoret, the
-eminent chronicler of the Church, relates that his
-grave was at Sebaste, a town in Syria, and that
-some time after his burial the grave was opened by
-the Pagans, who burnt his bones and scattered their
-ashes in the air. Eusebius adds, however, that some
-men from Jerusalem, who were present on the occasion,
-secretly took a little of these ashes and carried
-them to Antioch, where they were buried in a wall
-by Athanasius.
-
-With regard to his head, Sosomen, another chronicler,
-relates that it was carried to Constantinople
-by the Emperor Theodosius; therefore, according to
-these ancient historians, the whole body of John the
-Baptist was burnt with the exception of his head,
-and the ashes were all lost excepting the small
-portion secretly taken away by the hermits of
-
-Jerusalem. Now, let us see what remains of the
-head are extant.
-
-The face is shown at Amiens, and the mask which
-is there exhibited has a mark above the eye, caused,
-they say, by the thrust of a knife, made by Herodias.
-Amiens' claim to this relic is, however, disputed by
-the inhabitants of St John d'Angeli, who show another
-face of St John.
-
-With regard to the rest of the head, its top, from
-the forehead to the back part, was at Rhodes, and I
-suppose must now be at Malta, at least the knights
-boast that the Turks had restored it to them. The
-back of the head is at St John's Church at Nemours,
-the brains at Nogent le Rotrou, a part of the head
-is at St Jean Maximin, a jaw is at Besançon, a
-portion of a jaw is at St John of the Lateran, and a
-part of the ear at St Flour in Auvergne. All this
-does not prevent Salvatierra from possessing the
-forehead and hair; at Noyon they have a lock of the
-hair, which is considered to be very authentic, as
-well as that at Lucca, and many other places.
-
-Yet in order to complete this collection, we must
-go to the monastery of St Sylvester at Rome, where
-the whole and real head of St John the Baptist will
-be shown to us.
-
-Poets tell us a legend about a king of Spain who
-had three heads; if our manufacturers of relics
-could say the same of St John the Baptist, it
-would greatly assist their lies; but as such a fable
-
-does not exist, how are they to get out of this
-dilemma?This multiplication
-of St John's head reminds one of an anecdote related
-by Miss Pardoe in her City of the Magyar. A museum of curiosities
-was kept in the chateau of Prince Grassalkovich in Hungary, and it was
-usually shown to strangers by the parish priest of that place. This worthy
-man was once conducting a traveller over the collection, and showed him
-amongst other curiosities two skulls, of large and small size, saying of the first,
-This is the skull of the celebrated rebel Ragotzi; and of the second, That is
-the skull of the same Ragotzi when he was a boy!
-
-I shall not press them too hard by inquiring how
-could this head be so divided and distributed, or
-how have they procured it from Constantinople?
-I shall merely observe, that either St John must
-have been a miracle, or that those who possess so
-many parts of his head are a set of the most audacious
-cheats.
-
-What is more than this, they boast at Sienna of
-possessing an arm of that saint, which is contrary,
-as we have already said, to the statements of all the
-ancient historians; and yet this fraud is not only
-suffered, but even approved of, for in the kingdom
-of Antichrist nothing is too bad which can serve to
-keep people in a state of superstition.
-
-Another fable has been invented respecting St
-John the Baptist. When his body was burnt, they
-say that the finger with which he had pointed out
-our Lord Jesus Christ had remained whole and uninjured
-by the fire. Now this story may easily be
-refuted by the ancient historians, because Eusebius
-and Theodoret distinctly state that the body had
-already become a skeleton when the Pagans burnt
-
-it; and they certainly would not have omitted the
-relation of such a miracle in their histories if there
-had been any foundation for it, having been but too
-eager to narrate such events even as are quite frivolous.
-But supposing that this miracle had really
-taken place, let us seek where this finger is now to
-be found. There is one at Besançon in the Church
-of St John the Great, a second at Toulouse, a third
-at Lyons, a fourth at Florence, and a fifth at St
-Jean des Aventures, near Maçon. Now I request
-my readers to examine this subject, and to judge for
-themselves whether they can believe, that whilst St
-John's finger, which, according to their own tradition,
-is the only remainder of his body, is at Florence,
-five other fingers can be found in sundry other
-places, or, in short, that six are one, and one is six.
-I speak, however, only of those that have come to
-my knowledge; but I make no doubt, if a careful
-inquiry were made, that one might discover half a
-dozen more of St John's fingers, and many pieces of
-his head, besides those I have enumerated.Calvin
-has not rendered full justice to the relics of John the Baptist
-exhibited in various places. He only mentions the different parts of his
-
-head and the fingers; and the quantity altogether shown implies no doubt
-that the head was one of no ordinary dimensions. He evidently was not
-aware that there are about a dozen whole heads of St John the Baptist, which
-are or were exhibited in different towns. The most remarkable of them was
-undoubtedly that one which the notorious Pope John XXIII., who was deposed
-for his vices by the Council of Constance, had sold to the Venetians for the sum
-of fifty thousand ducats; but as the people of Rome would not allow such a precious
-relic to quit their city, the bargain was rescinded. The head was afterwards
-destroyed at the capture and pillage of Rome by the troops of Charles V.
-in 1527. There are, besides, many other parts of St John's body preserved as
-relics. A part of his shoulder was pretended to have been sent by the Emperor
-Heraclius to King Dagobert I.; and an entire shoulder was given to Philip
-Augustus by the Emperor of Greece. Another shoulder was at Longpont, in the
-diocese of Soissons; and there was one at Lieissies in the Hainault. A leg of
-the saint was shown at St Jean d'Abbeville, another at Venice, and a third at
-Toledo; whilst the Abbey of Joienval, in the diocese of Chartres, boasted of possessing
-
-twenty-two of his bones. Several of his arms and hands were shown
-elsewhere, besides fingers and other parts of his body; but their enumeration
-would be too tedious here.
-
-There are many relics of another kind shown as
-having belonged to St John the Baptist; as, for instance,
-one of his shoes is preserved in the Church
-of the Carthusians at Paris. It was stolen about
-twelve years ago; but it was very soon replaced by
-that sort of miracle never likely to cease so long as
-there are shoemakers in the world.
-
-At St John of the Lateran, at Rome, they boast of
-having his haircloth mentioned in the Gospels. The
-Gospel speaks of his raiment of camel's hair, but they
-endeavour to convert it into a horse-hair garment.Calvin
-here alludes to the haircloth worn by the monks of some orders, and
-other Roman Catholic devotees, instead of the ordinary shirt.
-
-They have also at the same church the altar before
-which he prayed in the desert, as if altars were
-in those days erected on every occasion and in every
-place. I wonder, indeed, that they have not ascribed
-to him the saying of the mass.
-
-At Avignon they show the sword with which he
-was beheaded, and at Aix-la-Chapelle the sheet
-which was spread under him at that time. Is it not
-absurd to suppose that the executioner would spread
-a sheet under one whom he was about to kill?
-
-But admitting that this should be the case, how
-have they obtained these two objects? Is it likely
-
-that the man who put him to death, whether a soldier
-or executioner, should have given away his
-sword and the sheet we have mentioned, in order
-to be converted into relics?
-
-ST PETER AND ST PAUL.
-
-It is now time to speak of the apostles, and I shall
-begin with St Peter and St Paul. Their bodies are
-at Rome; one part of them in the church of St Peter,
-and the other in that of St Paul. We are told that
-St Sylvester weighed their bodies in order to divide
-them into equal parts. Both their heads are preserved
-also at Rome in St John of the Lateran. Besides
-the two bodies we have just mentioned, many
-of their bones are to be found elsewhere, as at Poitiers
-they have St Peter's jaw and beard. At Treves
-there are several bones of the two apostles. At Argenton
-in Berri they have St Paul's shoulder, and
-in almost every church dedicated to these apostles
-there will be found some of their relics. At the
-commencement of this treatise I mentioned that St
-Peter's brains, which were shown in this town
-(Geneva), were found on examination to be a piece
-of pumice stone, and I have no doubt that many of
-the bones considered to belong to these two apostles
-would turn out to be the bones of some animal.
-
-At Salvatierra they have St Peter's slipper. I do
-
-not know what shape it is, or of what material it is
-made; but I conclude it to be similar to the slippers
-of the same apostle shown at Poitiers, and which are
-made of satin embroidered with gold. It would seem
-as if they had made him thus smart after his death
-as a compensation for the poverty which he suffered
-during his lifetime. Their bishops look now so showy
-in their pontificals, that no doubt it would be thought
-derogatory to the apostles' dignity if they were not
-dressed out in the same style. They take, therefore,
-figures which they gild and ornament all over, and
-name them as St Peter or St Paul, forgetting that
-it is well known what was the condition of these
-apostles whilst in this life, and that they wore the
-raiments of the poor.
-
-They show also at Rome St Peter's episcopal chair
-and his chasuble, as if the bishops of that age had
-thrones to sit upon. The bishops then were engaged
-in teaching, consoling, and exhorting their flocks
-both in public and private, setting them an example
-of true humility, but not teaching them to set up
-idols, as is done by those of our day. With regard
-to his chasuble, I must say that it was not then the
-custom to put on disguises, for farces were not at that
-time performed in the churches as they are now.
-Thus, to prove that St Peter had a chasuble, it is
-necessary to show in the first place that he had
-played the mountebank, as the priests do now whenever
-they intend to serve God.
-
-It is, however, no wonder that they have given
-him a chasuble since they have assigned an altar to
-him, there being no more truthful foundation for the
-one than for the other. It is well known what kind
-of mass was said at that time. The apostles simply
-celebrated the Lord's Supper, and this requires no
-altar; but as to the celebration of the mass, it was
-then not heard of, nor was it practised for a long
-time afterwards.There is a French
-edition of the New Testament, published, I think, at Louvaine,
-in which the 13th chapter of Acts, 2d verse, is thus
-translated: Etquand
-ils disotent la messe,—And when they were saying
-mass. It is, therefore, evident that those
-who invented all these relics never expected contradiction,
-or they would not have devised such audacious
-falsehoods. The authenticity of St Peter's altar
-at Rome (which I have just mentioned) is denied by
-Pisa, that town pretending to possess the real one.
-The least objectionable of St Peter's relics is undoubtedly
-his staff, it being most probable that he
-had made use of one during his travels, but unfortunately
-there are two of them at Cologne and Treves,
-each town claiming exclusive possession of the identical
-one.The relics of Peter and Paul became at an early period the objects
-
-of veneration to the Christians of Rome. Gregory the Great relates that such
-terrible miracles took place at the sepulchres that people approached them
-in fear and trembling, and he adds that those who ventured to touch them
-were visibly punished. The Emperor Justinian, desiring some relics of these
-two apostles, some filings from their prison chains, and sheets that had been
-consecrated by having been laid over their bodies, were sent to him; but some
-time afterwards these relics were touched and handled without persons suffering
-any visible punishment for so doing. Their heads were transferred to the church
-of St John of Lateran, and their bodies were divided and placed in the churches
-of St Peter and St Paul in the Ostian Road. We have seen in the text that
-different parts of their bodies are shown in many places, and the celebrated
-D'Aubigné relates that France had possessed formerly the entire bodies of
-Peter and Paul before the Huguenots burnt and destroyed a great number of
-the relics in that country.
-
-THE OTHER APOSTLES.
-
-We shall speak of the rest of the apostles together,
-in order to get quicker over the matter, and
-we will relate, in the first place, where their whole
-bodies are to be found, that our readers, by comparison,
-may be able to form their own opinions on the
-subject. All know that the town of Toulouse boasts
-of possessing the bodies of six, namely, St James
-the Major (brother of St John), St Andrew, St James
-the Minor, St Philip, St Simeon, and St Jude. At
-Padua they have the body of St Matthias, at Salerno
-that of St Matthew, at Orconna that of St Thomas,
-in the kingdom of Naples that of St Bartholomew.
-
-Now, let us reckon up those apostles who possess
-two or three bodies. St Andrew has a duplicate at
-Amalfi, St Philip and St James the Minor both
-have duplicates at Rome, ad sanctos Apostolos, St
-Simeon and St Jude the same in St Peter's Church.
-St Bartholomew enjoys an equal privilege at Rome,
-in the church bearing his name. Here we have
-enumerated six of them, each provided with two
-bodies, and St Bartholomew has an additional skin
-into the bargain, which is shown at Pisa.This
-relic is considered a very efficient remedy for cutaneous disorders. St
-Matthew, however, outrivals them all, for besides the
-
-body at Padua, which we have before mentioned, he
-has another at Rome in the church of St Maria
-Maggiore, a third at Treves, and an additional arm
-at Rome.Calvin was evidently
-in haste to get over his task, as he intimated to us
-at the commencement of this chapter. He has made very great omissions.
-In the first place, he appears to have forgotten the body of St James the Major
-at Compostella in Spain, one of the most celebrated places of pilgrimage of
-the Western Church. According to the legend, this apostle went to Spain to
-preach Christianity and then returned to Jerusalem, where he was beheaded by
-Herod.—(Acts xii.) His body was afterwards removed by his disciples to
-Spain. This is, therefore, his second body. He has a third at Verona, and a
-fourth at Toulouse, besides several heads elsewhere. The other apostles have
-also more bodies than are mentioned in the text, but the limits of this work
-forbid enumeration.
-
-It is true that the bits and scraps of St Andrew's
-body, scattered in various places, counterbalance, in
-some measure, the superiority of St Matthias; for
-he has at Rome, in St Peter's Church, a head, and
-a shoulder in that of St Chrysostom, an arm at St
-Esprit, a rib at St Eustache, I do not know how many
-bones at St Blaise, and a foot at Aix in Provence.
-
-Now, as St Bartholomew has left his skin at Pisa,
-so he has left there a hand; at Treves he has also
-some bones, of which I forget the number; at Frejus
-a finger, and at Rome there are other of his bones;
-so that, after all, he is not the poorest of the apostles,
-others not having such a number of relics. St Matthew
-and St Thomas are the poorest of all. The
-first has only, besides his body at Salerno, which we
-have mentioned, some bones at Treves, an arm in
-the church of St Maria at Rome, and in that of St
-Nicolas his head; though it may be that other of his
-
-relics may have escaped my knowledge, which would
-be no wonder, for who is not confused with this
-ocean of impostures?St Matthew
-is not so poor in relics as Calvin supposed, for we could quote
-several whole bodies, as well as members, with which he was not acquainted.
-
-As they pretend, in their tales, that the body of
-St John the Evangelist disappeared immediately
-after it was deposited in the grave, so they cannot
-produce any of his bones, and they therefore sought
-for a compensation amongst his clothing, &c. Thus
-they show at Bologna the cup from which he was
-forced to drink poison by order of the Emperor Domitian.
-Probably owing to some wonderful process
-of alchemy, the same cup exists also in the church
-of St John of the Lateran at Rome.
-
-They have also his coat, and the chain with which
-he was bound when brought from Ephesus to Rome,
-as well as the oratory at which he used to pray when
-in prison.An oratory
-is a small chapel or cabinet, adorned with images of saints,
-&c., and used by the Roman Catholics for private devotions. The absurdity of
-ascribing to John the Evangelist the possession of such an oratory is too palpable
-a falsehood to require any comment.
-
-ST ANNA.
-
-We must now hurry on, or we shall never quit this
-labyrinth. We will, therefore, only briefly mention
-the relics of those saints who were our Lord's contemporaries,
-and then proceed to those of the martyrs,
-
-&c., leaving our readers to form their own conclusions
-from these brief sketches.
-
-St Anne, the mother of the Blessed Virgin, has
-a whole body at Apt in Provence, and another at
-Notre Dame de l'Isle at Lyons. She has a head at
-Treves also, a second at Duren near Cologne, and a
-third at a town called after her name in Thuringhia.
-I shall not speak of her other relics shown in more
-than a hundred different places. I remember that I
-myself kissed one of her relics, kept at the abbey
-of Orcamps near Noyon, on the occasion of a grand
-festival held in its honour.
-
-LAZARUS, MARY MAGDALENE, ETC.
-
-Lazarus has, to my knowledge, three bodies, at
-Marseilles, Autun, and Avalon. A protracted lawsuit
-took place between the two last-named towns
-concerning the validity of their respective claims to
-the possession of the real body of this saint. Yet
-after an immense expense, both parties may be said
-to have gained their suit, for neither forfeited its title
-to ownership. With regard to Mary Magdalene, she
-owns but two bodies, one at Auxerre, and another
-of very great celebrity, with its head detached, at St
-Maximin, in Provence.
-
-Of their numerous relics scattered over the world
-I shall not speak. I would merely inquire whether
-
-Lazarus and his sisters ever went to preach in France;
-for those who have read the accounts given by ancient
-historians of those times cannot fail to be convinced
-of the folly of this fable.According
-to the well-known Jesuit writer Ribadeneira, the Jews seized Lazarus,
-Mary Magdalene, Martha, Marcella, Maximin, Celidonius (supposed to have been
-the man born blind, who was restored to sight by Jesus Christ), and Joseph of
-Arimathea, and placing them on board a vessel without helm, oars, or sails,
-launched it forth into the sea. By a miracle the vessel reached Marseilles,
-where Lazarus was appointed the first bishop of that town. Maximin became
-bishop of Aix, Joseph of Arimathea went to England, Martha entered a convent,
-and Mary, after preaching in various parts of Provence for some time, retired
-into the desert of St Beaume, to weep and lament over her
-sins.—Flower of
-Saints, July 22.
-
-ST LONGINUS, AND THE THREE WISE MEN, OR KINGS.
-
-The individual who pierced the side of our Lord
-on the cross has been canonised under the name of
-St Longinus, and after having thus baptized him,
-they have bestowed upon him two bodies, one of
-which is at Mantua, and the other at Notre Dame
-de l'Isle at Lyons.The legends
-say that the soldier, whom they name Longinus, was struck
-with blindness immediately after piercing Jesus Christ's side. He perceived the
-enormity of his crime, recognised the divinity of our Lord, and having rubbed
-his eyes with the blood which was on his lance, he recovered his sight, and
-finally became a monk in Cappadocia. It is true that neither the Gospels nor
-the early ecclesiastical writers mention anything respecting St Longinus, but
-Ribadeneira and other narrators of legends speak much of him. The reader
-may possibly object to the tale of his becoming a monk, since in those days
-there were none; but that difficulty merely requires the addition of another
-miracle.
-
-The same has been done with the wise men who
-came to worship our Lord at the nativity. In the
-first place they settled their number, telling us that
-there were three. Now the Gospel does not mention
-
-how many were present, and some eminent
-ecclesiastical writers have maintained their number
-to have been fourteen, as mentioned for instance in
-that imperfect commentary on St Matthew which
-is ascribed to Chrysostom.
-
-Moreover, the Gospel calls them wise men, but
-they have elevated them to the dignity of kings,
-without bestowing on them, however, either kingdoms
-or subjects. Finally, they have been baptized
-under the names of Balthazar, Melchior, and Gaspar.
-Now, supposing we concede to them these fables,
-frivolous as they are, it is certain that the wise men
-returned to the east, for the Gospel informs us of this,
-and we may conclude that they died in their native
-land, there being no reason for thinking otherwise.
-Now, who transferred their bodies to the west, for the
-purpose of preserving them as relics? It would be
-quite ridiculous, however, for me to attempt seriously
-to refute such a palpable imposture. Let Cologne
-and Milan, both of which towns pretend to possess
-relics of these wise men, or kings, decide this question
-between themselves.Calvin is
-wrong here. Milan only assumes to have possession of the graves
-of the wise men, not their bodies, which were removed to Cologne at the capture
-of Milan in 1162, by Frederick Barbarossa.
-
-ST DIONYSIUS.
-
-St Dionysius is considered to be one of the most
-celebrated of ancient martyrs, as a disciple of the
-
-apostles, and as the Evangelist of France. Occupying
-such high rank, it is therefore very natural
-that his relics should be so liberally dispersed; his
-whole bodies are, however, only preserved at the
-Abbey of St Dénis in France, and at Ratisbon in
-Germany. About a century ago Ratisbon instituted
-a lawsuit at Rome to prove that the body in its
-possession was truly that of the saint, and the justice
-of the claim was established by a decision of the
-Papal Court, delivered in the presence of the French
-Ambassador. And yet, any one so bold as to dare
-to assert at St Dénis that theirs was not the real
-body would run the risk of being stoned for blasphemy;
-whilst those who oppose the claim of Ratisbon
-are considered as heretics, rebellious to the
-decision of the Holy See.Vid. supra,
-p. 120.
-
-ST STEPHEN.
-
-The whole body of St Stephen is at Rome, his
-head is at Arles, and his bones are in more than
-three hundred places; and the Papists, as if to show
-themselves to be the partisans of those who murdered
-him, have canonized the stones with which he
-was killed.
-
-It may be asked how these stones were obtained,
-but to my mind this would be a foolish question, as
-
-stones may be picked up anywhere, without incurring
-any trouble or expense in their transport. These stones
-are shown at Florence, at the convent of the Augustine
-monks at Arles, and at Vigan in Languedoc, &c.
-
-Whoever will close his eyes and allow his understanding
-to be set aside, may believe that these are
-the identical stones with which St Stephen suffered
-martyrdom, but whoever will exert his reason a little
-cannot but laugh at this imposition. The Carmelite
-monks of Poitiers discovered some of these stones
-only fourteen years ago, to which they ascribed the
-virtue of assisting women in the pains of travail; but
-the Dominican monks, from whom a rib of St Margarita
-which possessed the same virtue had been
-stolen, were very indignant, and raised a great outcry
-at the deception practised by the Carmelites, but
-the latter gained the body by firmly maintaining
-their rights.
-
-THE HOLY INNOCENTS.
-
-It was not at first my intention to mention the
-Holy Innocents, for if I were to enumerate a whole
-army of their relics, it might always be said to me in
-reply that history is not contradicted by that, as their
-number has never been mentioned to us. I shall
-not dwell, therefore, upon their multitude, merely
-observing that they are to be found in every part of
-
-the world. I would ask, however, how it came to
-pass that their graves were discovered so long after
-their massacre, since they were not considered as
-saints when their murder by Herod took place?
-And then, how were these numerous bodies conveyed
-to the many places where they are now to be seen?
-To these questions but one answer can be given—All
-this occurred five or six hundred years after
-their death. How can any but idiots believe such
-things?
-
-But supposing even that some of their bodies had
-really been discovered, how came so large a number
-of them to be transported to France, Italy, and Germany,
-and to be distributed amongst so many towns
-situated so far apart? This can only be a wholesale
-deception.
-
-ST GERVASIUS AND ST PROTASIUS.
-
-The sepulchres of these two saints were discovered
-at Milan in the time of St Ambrose, as testified by
-him. This fact is confirmed also by the evidence of
-St Jerome, St Augustine, and several others; consequently
-Milan maintains its possession of the real
-bodies of these saints. Nevertheless, they are likewise
-to be seen at Brissach in Germany, and in the
-Church of St Peter at Besançon, besides an immense
-number of different parts of their bodies scattered
-
-throughout the land, so that each of them must have
-had at least four bodies.
-
-ST SEBASTIAN.
-
-This saint, from the wonderful power his remains
-possessed of curing the plague, was put into requisition
-and more sought after than many of his brother
-saints, and no doubt this popularity was the cause of
-his body being quadrupled. One body is in the
-church of St Lawrence at Rome; a second is at
-Soissons; the third at Piligny, near Nantes, and the
-fourth at his birth-place, near Narbonne. Besides
-these, he has two heads at St Peter's at Rome, and
-at the Dominican church at Toulouse. The heads
-are, however, empty, if we are to believe the Franciscan
-monks of Angers, as they pretend to possess
-the saint's brains. The Dominicans of Angers possess
-one of his arms, another is at St Sternin, at
-Toulouse, a third at Case Dieu in Auvergne, and a
-fourth at Montbrisson. We will pass over the small
-fragments of his body, which may be seen in so many
-churches. They did not rest satisfied with this multiplication
-of his body and separate limbs, but they
-converted into relics the arrows with which he was
-killed. One of these is shown at Lambesc in Provence,
-another is in the Augustine convent at Poitiers,
-and there are many others in different towns.
-
-ST ANTHONY.
-
-A similar reason has bestowed on St Anthony the
-advantage of multiplication of his remains, he being
-considered as an irrascible saint, burning up all those
-who incur his displeasure; and this belief caused
-him to be dreaded and reverenced. Fear creating
-devotion, and producing also a universal desire to
-possess his relics, on account of the profits and advantages
-to be derived therefrom, Arles therefore had
-a long and severe contest with Vienne (in France)
-respecting the validity of the bodies of this saint
-possessed by each of these towns.
-
-The issue was the same as in other similar disputes,
-i.e., matters remained in the same state of
-confusion as before; for if the truth had been established,
-both parties would have lost their cause.
-
-Besides these two bodies, St Anthony has a knee
-in the Church of the Augustines at Albi, and several
-other limbs at Bourg, Maçon, Ouroux, Chalons,
-Besançon, &c.
-
-Such are the advantages of being an object of
-dread and fear, otherwise this saint might possibly
-have been permitted to remain quietly in his grave.St
-Anthony is venerated, or rather worshipped, by the Eastern as well as
-the Western Church, and he seems to have bestowed his favours upon each
-with the utmost impartiality, for a body of his is shown at Novgorod, in Russia,
-where a church, with a convent attached to it, is dedicated to him. The legend
-concerning St Anthony's arrival at Novgorod is curious. It is said that this
-saint, whilst at Rome, was commanded by an angel, in a dream, to go and convert
-the inhabitants of Novgorod. In obedience to this angelic injunction, St
-Anthony embarked on a millstone, and floated on this extraordinary craft down
-the Tiber, passed over the Mediterranean, Atlantic, and Baltic seas, and arrived
-safely at the river Wolchow, upon which stream Novgorod is situated, having
-accomplished the whole voyage in four days—a marvellous speed indeed, and
-which completely shames all the wonders of modern steam navigation! The
-date assigned to this wonderful voyage happens to be that of a few centuries
-after St Anthony's death, but we suppose this too must be considered as
-
-another miracle.
-
-ST PETRONILLA—ST HELENA—ST URSULA—AND
-THE ELEVEN THOUSAND VIRGINS.
-
-I must not forget to mention St Petronilla, St
-Peter's daughter, who has a whole body at Rome, in
-the church dedicated to her father, besides other
-relics in that of St Barbara. This does not, however,
-prevent her from owning another body in the Dominican
-convent at Mans, which is greatly venerated
-for the virtue it possesses of curing fevers. St Helena
-has not been so liberally provided for. Besides
-her body at Venice, she has but an extra head in the
-Church of St Gereon at Cologne.Calvin is
-much mistaken about Helena, who was better provided for than he
-imagined. Besides the body mentioned in the text, she has one in the Church
-of Ara Cæli, at Rome. There was one also at Constantinople, in
-the Church of the Twelve Apostles, and another at Hauteville, near Epernay, in
-Champagne. St Ursula beats
-her hollow in this respect; for she has a whole body at
-St Jean d'Angely, and a head into the bargain at
-Cologne, besides three separate limbs, and various
-fragments at Mans, Tours, and Bergerat. The companions
-of this saint are called the eleven thousand
-virgins, and although this is a respectable number,
-yet it is still too small, considering that the remains
-of these virgins are to be seen everywhere; for besides
-
-there being about one hundred cart-loads of their
-bones at Cologne, there is hardly a town where one
-or more churches have not some relics of these numerous
-saints.The legend
-tells us that an English chief, after conquering and taking possession
-of Lower Brittany, returned to his native land in search of wives for his
-army and himself. He married Ursula, an English princess, and took eleven
-thousand maidens as brides for his companions in arms. Ursula, whilst journeying
-with this bridal train to join her husband, was driven by a storm into the
-mouth of the Rhine, and arrived at Cologne. There they were beset by a party
-of Huns, who murdered them all. Their bodies were discovered at Cologne
-in the 16th century, and the remains of St Ursula, which at first were mixed
-with those of her companions, were pointed out, by a miracle, for the special
-veneration of the faithful. Several of these virgins have relics in various
-parts of Europe, and they are distinguished by proper names, as, for instance,
-St Ottilla, St Fleurina, &c. &c.. The origin of this absurd legend is ascribed by
-some antiquarians to the following inscription found upon a
-tomb:—St Ursula et XI. M. V.,
-i.e., et 11 martyres virgines,
-
-which, through ignorance or wilful deceit, has been converted into
-millia virgines—11,000 virgins. Other savans
-believe that the inscription meant St Ursula et Undecimilla,
-martyres virgines, and that Undecimilla, which was the
-proper name of a virgin martyr, was mistaken
-by some ignorant copyist for an abbreviation of
-undecim millia, 11,000.
-
-If I was to enumerate all the minor saints I should
-enter a labyrinth without possibility of egress. I
-shall, therefore, rest satisfied with giving a few examples,
-leaving my readers to judge from these of
-the rest. For instance, there are two churches at
-Poitiers, one attached to the convent of Selle, and
-the other dedicated to the saint in question, between
-which a great dispute has been going on as to the
-possession of the real body of St Hilarion.
-
-The lawsuit upon this point has been suspended
-for an indefinite time, and meanwhile the idolaters
-worship two bodies of one and the same individual.
-
-St Honoratus has a body at Arles, and another at
-the island of Lerins, near Antibes.
-
-St Giles has a body at Toulouse, and a second in
-a town bearing his name in Languedoc.
-
-I could quote an infinite number of similar cases.
-I think that the exhibitors of these relics should at
-least have made some arrangement amongst themselves
-the better to conceal their barefaced impostures.
-Something of this sort was managed between
-the canons of Trêves and those of Liége about St
-Lambert's head. They compounded, for a sum of
-money, not to show publicly the head in their possession,
-in order to avoid the natural surprise of the
-public at the same relic being seen in two different
-towns situated so near to each other. But, as I have
-already remarked at the commencement of this treatise,
-the inventors of these frauds never imagined
-any one could be found bold enough to speak out
-and expose their deceptions.
-
-It may be asked, how it came to pass that these
-manufacturers of relics, having collected and forged
-without any reason all that their imaginations could
-fancy in any way, could have omitted subjects pertaining
-to the Old Testament?
-
-The only reply I can give to this query is, that
-they looked with contempt on those subjects, from
-which they did not anticipate any considerable gain.
-
-Still they have not entirely despised them, for they
-pretend to have the bones of Abraham, Isaac, and
-Jacob, in the church of St Maria supra Minervam,
-at Rome. They also boast of possessing, at St John
-
-of the Lateran, the ark of alliance, with Aaron's rod,
-though the same rod is also at the Holy Chapel in
-Paris, whilst some pieces of it are preserved at
-Salvatierra. Moreover, at Bordeaux they maintain
-that St Martial's rod, which is exhibited in the church
-of St Severin, is no other than that of Aaron. It
-seems, indeed, that they would wish with this rod
-to perform another miracle; formerly it was turned
-into a serpent, whereas now they would convert it
-into three different rods! It is very likely that they
-may have other relics of objects mentioned in the
-Old Testament, but the few we have here alluded to
-show that they have treated them much in the same
-style as those belonging to Christian times.
-
-I now beg to remind my readers of what I mentioned
-at the beginning of this work, that I have
-had no commissioners for visiting the numerous
-churches of the different countries enumerated by
-me, nor must my description be taken for a register
-or inventory of all that can be discovered respecting
-relics. I have mentioned about half-a-dozen towns
-in Germany, but three in Spain I think, about
-fifteen in Italy, and between thirty and forty in
-France, and even of these few examples I have not
-related all that I might concerning them. Now, let
-us only imagine what a mass might be raised out of
-all the relics which are to be seen in Christendom, if
-they were collected and arranged together in proper
-order. I speak, however, only of those countries which
-
-we know and frequent; for it is most important to
-observe that all the relics belonging to Christ and the
-apostles which are displayed in the west are also to be
-seen in Greece, Asia, and all other countries where
-Christian Churches are in existence. Now, what are
-we to say when the Eastern Christians assert their
-claims?
-
-If we contradict them, alleging on our part that
-the body of such a saint was brought to Europe by
-merchants, that of another by monks, that of a third
-by a bishop, that a part of the crown of thorns was
-sent to a king of France by an emperor of Constantinople,
-and another part was carried off in time of
-war, and so on of every object of the kind, they
-would shake their heads, and laugh at us! How
-are such differences to be settled? In every doubtful
-case we can only judge by conjecture, and, in following
-this out, the adherents of the Eastern Churches
-are sure of success, because their claims are more
-probable than those of their opponents. It is indeed
-a difficult point for the defenders of relics to settle.
-
-Finally, I beseech and exhort, in the name of
-God, all my readers to listen to the truth now clearly
-displayed before them, and to believe that, by God's
-especial providence, those who have endeavoured thus
-to lead mankind astray have been rendered so blind
-and careless as to neglect a proper concealment of
-their deceptions, but that, like Midianites having
-their eyes put out, they run one against another, for
-
-we all know that they quarrel amongst themselves,
-and mutually injure each other. Whoever is not
-wilfully prejudiced against all reason must certainly
-be convinced that the worship of relics, whether true
-or false, is an abominable idolatry; yet should not
-this even be the case with him, he must nevertheless
-perceive the evident imposture, and whatever may
-have been his former devotion to relics, he must lose
-all courage in kissing such objects, and become entirely
-disgusted with them.
-
-I repeat what I said at the commencement of this
-treatise, that it would be most important to abolish
-from amongst us Christians this pagan superstition
-of canonising relics, either of Christ or of his saints,
-in order to make idols of them; for this is a defilement
-and an impurity which should never be suffered
-in the Church. We have already proved that
-it is so by arguments, and also from the evidence of
-Scripture. Let those who are not yet satisfied look
-to the practices of the ancient fathers, and conform
-to their examples. There are many holy patriarchs,
-many prophets, many holy kings, and other saints
-mentioned in the Old Testament. God ordained at
-that time the observance of more ceremonies than
-are needed now. Even funerals were performed
-then with more display than at present, in order to
-represent symbolically the glorious resurrection,
-especially as it had not then been so clearly revealed
-by the Word of God as it is to ourselves.
-
-Do we ever read in that book that these saints
-were taken from their sepulchres as idols? Was
-Abraham, the father of the faithful, ever thus raised?
-Was Sarah ever removed from her grave? Were
-they not left in peace, with the remains of all other
-saints? But what is more conclusive, was not the
-body of Moses concealed by God's will, in such a
-manner that it never has been or can be discovered?
-Has not the devil contended concerning it with the
-angels, as St Jude says? Now, what was our Lord's
-reason for removing that body from the sight of men,
-and why should the devil desire to have it exhibited
-to them? It is generally admitted that God wished
-to put away from his people of Israel all temptation
-to commit idolatry, and that Satan desired its introduction
-amongst them.
-
-It may be said, however, that the Israelites were
-inclined to superstition. I ask, how stands the case
-now with ourselves? Is there not, without comparison,
-more perversity in this respect amongst Christians
-than there ever was amongst the Jews of old?
-
-Let us call to mind the practice of the early church.
-It is true that the first Christians were always anxious
-to get possession of the bodies of the martyrs, lest
-they might be devoured by beasts or birds of prey,
-and decently to bury them, as we read was the case
-with the bodies of St John the Baptist and St
-Stephen. This solicitude was shown, however, in
-order to inter them in their graves, and there to leave
-
-them until the day of the resurrection; but they did
-not expose these remains to the sight of men for
-their adoration.
-
-The unfortunate custom of canonising saints was
-not introduced into the Church until it had become
-perverted and profaned, partly by the folly and
-cupidity of its prelates and pastors, and partly because
-they were unable to restrain this innovation,
-as people were seeking to deceive themselves by
-giving their hearts to puerile follies, instead of to
-the true worship of God. If we wish, in a direct
-manner, to correct this abuse, it is necessary to abolish
-entirely what has been so badly commenced and
-established against all reason. But if it is impossible
-to arrive at once at such a clear comprehension
-of this abuse, let people at least have their eyes
-opened to discern what the relics are which are
-presented for their adoration.
-
-This is indeed no difficulty for those who will
-only exercise their reason, for amongst the numerous
-evident impostures we have here mentioned,
-where may we find one real relic of which we may
-feel certain that it is such as is represented?
-
-Moreover, all those that I have enumerated are
-nothing comparatively to the remainder yet untold by
-me. Even whilst this treatise is in the press, I have
-been informed of many relics not mentioned in it; and
-if a general visitation of all existing relics were possible,
-a hundredfold more discoveries would be made.
-
-I remember when I was a little boy what took
-place in our parish. On the festival day of St
-Stephen, the images of the tyrants who stoned him
-(for they are thus called by the common people)
-were adorned as much as that of the saint himself.
-Many women, seeing these tyrants thus decked out,
-mistook them for the saint's companions, and offered
-the homage of candles to each of them. Mistakes
-of this kind must frequently happen to the worshippers
-of relics, for there is such confusion amongst
-them that it is quite impossible to worship the bones
-of a martyr without danger of rendering such honours
-by mistake to the bones of some brigand or
-thief, or even to those of a horse, a dog, or a
-donkey.
-
-And it is equally impossible to adore the ring, the
-comb, the girdle of the Virgin Mary, without the
-risk of adoring instead objects which may have belonged
-to some abandoned person.
-
-Now, those who fall into this error must do so
-willingly, as no one can from henceforth plead ignorance
-on the subject as their excuse.It must
-be remarked that many relics described in this Treatise were
-destroyed during the religious wars, but particularly by the French Revolution.
-I recommend to those who have an interest in this subject the observations
-made on it in Sir George Sinclair's Letters, p. 88, et seq.
-
-Postscript.
-
-The following extract from the Ecclesiastical Gazette
-of Vienna has been reproduced in an Extraordinary
-Supplement of the Allgemeine Zeitung, of
-Augsburg, for the 11th May 1854. I subjoin a
-translation of it in a postscript, as an additional evidence
-of the persecution to which the Greek Church
-united with Rome has been subjected in Russia,
-and which I mentioned on page 161 of this work:—
-
-Spies appointed for this especial purpose transmitted,
-in their reports to the Government, lists of
-such individuals as were suspected to be Catholics at
-heart; and if all the exaggerated accounts which had
-been made of the Spanish Inquisition were true, they
-would be thrown into the shade by the proceedings
-that were adopted against the above-mentioned individuals.
-And indeed it is an averred fact, that
-many of them fell a victim to starvation, blows, and
-other cruel treatment. The Catholic inhabitants of
-Worodzkow were forced with stripes, by the Governor
-
-and his satellites, to sign a voluntary petition,
-expressing their ardent wish to be received into the
-pale of the orthodox Russian Church. The names
-of those who could not write were signed by others,
-and whoever showed the slightest manifestation of
-his desire to remain a Catholic, after having
-performed this voluntary act, was treated as one
-guilty of high treason. The same proceedings
-as at Worodzkow were adopted in a hundred
-other places, whose voluntary petitions were obtained
-with bloody stripes of the knout. The unfortunate
-petitioners were, in order to perform this
-operation, dragged from their homes, sometimes
-to a distance of 18 or 20 versts (1-½ verst to an English
-mile), and those who steadfastly refused to sign
-were treated by the Russian papas with the utmost
-cruelty and indignity. They were put into irons,
-barred up in cold prisons without any fire, starved,
-thrown into large tubs filled with an icy and
-stinking water, and most mercilessly beaten, so
-that many, in order to escape from such torments,
-signed the voluntary petition, with hearts
-as bleeding as their bodies. Many succumbed under
-these fearful persecutions, which were not much inferior
-to that which the Christians had suffered under
-
-the reign of Diocletian. The Papa Stratanovich
-extorted the signatures made by the feverishly agitated
-hands of the clerical victims, whilst his lay
-associate, Waimainich Zokalinski, performed the same
-
-charitable office to other unfortunate individuals.
-Some of these miserable persons were reduced by
-starvation and every kind of ill-treatment to such a
-condition, that they were almost unconscious of what
-they did in signing the voluntary petitions for the
-reception into the pale of the Russian Church, all
-of which were obtained by more or less similar
-means.
-
-It appears from a great mass of documentary evidence,
-containing the names of localities and persons,
-that the proselytism of 1841 was carried out in the
-following manner:—Military authorities, and Russian
-papas or priests, visited Catholic villages, and
-having called together the Catholic peasantry and
-landowners of the neighbourhood, declared that they
-must join the Russian Church, throwing into prison
-those who resisted the summons. In the most part
-of cases, a petition for this object was signed by some
-hired wretches in the name of all the community, of
-whom many often knew nothing about this business,
-but when they behaved as Catholics, they were
-punished, as guilty of high treason.
-
-The Allgemeine Zeitung states, in giving this extract
-from the Ecclesiastical Gazette of Vienna, that
-this periodical contains many well-authenticated cases
-of religious persecution against the Roman Catholics
-of Russia; and I have little doubt that if the Protestants
-of Western Europe had taken as much pains
-to ascertain and denounce the persecution of their
-
-brethren in the Baltic provinces of Russia, which I
-have mentioned on p. 162, as is done, be it said to
-their great honour, by the Roman Catholics, they
-would find many acts of persecution directed against
-the above-mentioned Protestants, as flagrant as those
-which have just been described.
-
-List Of Works Published By Johnstone, Hunter, & Co., Edinburgh.
-
-MAGAZINES:—
-
-The Christian Treasury; Containing Contributions from Ministers
-and Members of various Evangelical Denominations. Edited
-by Horatius Bonar, D.D. Super royal 8vo.
-Monthly Parts, £    6. Weekly Numbers,     1.
-
-The Children's Hour; A Monthly Magazine for our Young Folks.
-Edited by M. H., Author of Rosa Lindesay, etc. Crown 8vo.
-Beautifully Illustrated,    3.
-
-The Reformed Presbyterian Magazine; Containing Home and
-Missionary Intelligence relating to the Reformed Presbyterian
-Church in Scotland. Demy 8vo. Monthly,     4.
-
-J. H. & CO.'S SIXPENNY SERIES.
-
-Super royal 32mo, cloth limp. Illustrated.
-
-1. Jeanie Hay, the Cheerful Giver. And other Tales.
-
-2. Lily Ramsay; or Handsome Is who Handsome Does. And other Tales.
-
-3. Archie Douglas; or, Where there's a Will there's a Way. And other.
-
-4. Minnie and Letty; or, The Expected Arrival. And other Tales.
-
-5. Ned Fairlie and His Rich Uncle. And other Tales.
-
-6. Mr Granville's Journey. And other Tales.
-
-7. Jamie Wilson's Adventures. And other Tales.
-
-8. The Two Friends. And other Tales.
-
-9. The Turnip Lantern. And other Tales.
-
-10. John Butler; or, The Blind Man's Dog. And other Tales.
-
-11. Christfried's First Journey. And other Tales.
-
-12. Katie Watson, The Contented Lacemaker. And other Tales.
-
-13. Biddy, the Maid of All Work.
-
-14. Maggie Morris: A Tale of the Devonshire Moor.
-
-J. H. & CO.'S SHILLING PACKETS OF REWARD BOOKS.
-
-Super Royal 32mo, in Illuminated Covers.
-
-1. Short Tales to Explain Homely Proverbs. By M. H. A Series of
-Twelve Penny Books. Illustrated.
-
-2. Short Stories to Explain Bible Texts. By M. H. A Series of Twelve
-Penny Books. Illustrated.
-
-3. Wise Sayings, and Stories to Explain Them. By M. H. A Series of
-Twelve Penny Books. Illustrated.
-
-4. Little Tales for Little People. A Series of Six Twopenny Books.
-Illustrated.
-
-J. H. & CO.'S ONE SHILLING SERIES.
-
-Super royal 32mo, extra cloth, bevelled boards, Illustrated.
-
-1. The Story of a Red Velvet Bible. By M. H.
-
-2. Alice Lowther; or, Grandmamma's Story about her Little Red Bible.
-By J. W. C.
-
-3. Nothing to Do; or, the Influence of a Life. By M. H.
-
-4. Alfred and the Little Dove. By the Rev. F. A. Krummacher, D.D. And
-The Young Savoyard. By Ernest Hold.
-
-5. Mary M'Neill; or, The Word Remembered. A Tale of Humble Life. By
-J. W. C.
-
-6. Henry Morgan; or, The Sower and the Seed. By M. H.
-
-7. Witless Willie, the Idiot Boy. By the Author of Mary Matheson, etc.
-
-8. Mary Mansfield; or, No Time to be a Christian. By M. H.
-
-9. Frank Fielding; or, Debts and Difficulties. By Agnes Veitch.
-
-10. Tales for The Children's Hour. By M. M. C.
-
-11. The Little Captain: a Tale of the Sea. By Mrs George Cupples.
-
-12. Gottfried of the Iron Hand: a Tale of German Chivalry.
-
-13. Arthur Fortescue; or, The Schoolboy Hero. By Robert Hope Moncrieff.
-
-14. The Sangreal; or, The Hidden Treasure. By M. H.
-
-15. Cockerill the Conjurer; or, The Brave Boy of Hameln.
-
-16. Jottings from the Diary of the Sun. By M. H.
-
-17. Down Among the Water Weeds. By Mona B. Bickerstaffe.
-
-J. H. & CO.'S EIGHTEENPENCE SERIES.
-
-Super royal 32mo, extra cloth, richly gilt sides and edges, Illustrated.
-
-1. Short Tales to Explain Homely Proverbs. By M. H.
-
-2. Short Stories to Explain Bible Texts. By M. H.
-
-3. Alfred and the Little Dove. By the Rev. F. A. Krummacher, D.D. And
-Witless Willie, the Idiot Boy. By the Author of Mary Matheson, etc.
-
-4. The Story of a Red Velvet Bible: and Henry Morgan; or, The Sower
-and the Seed. By M. H., Editor of The Children's Hour.
-
-5. Arthur Fortescue; or, The Schoolboy Hero. By Robert Hope Moncrieff.
-And Frank Fielding; or, Debts and Difficulties. By Agnes Veitch.
-
-6. Mary M'Neill; or, The Word Remembered. By J. W. C. And other Tales.
-
-7. Alice Lowther; or, Grandmamma's Story about her Little Red Bible.
-By J. W. C. And other Tales.
-
-8. Nothing to Do; or, The Influence of a Life: and Mary Mansfield; or,
-No Time to be a Christian. By M. H.
-
-9. Bill Marlin's Tales of the Sea. By Mrs George Cupples.
-
-10. Gottfried of the Iron Hand. And other Tales.
-
-11. The Story of the Kirk: a Sketch of Scottish Church History. By Robert
-Naismith.
-
-12. The Hidden Treasure. And other Tales. By M. H.
-
-13. Little Tales for Little People. By Various Authors.
-
-14. Wise Sayings, and Stories to Explain Them. By M. H.
-
-J. H. & CO.'S HALF-CROWN SERIES.
-
-Extra fcap. 8vo, handsomely bound in cloth.
-
-1. Rosa Lindesay, the Light of Kilmain. By M. H. Illustrated.
-
-2. Newlyn House, the Home of the Davenports. By A. E. W. Illustrated.
-
-3. Alice Thorne; or, A Sister's Work. Illustrated.
-
-4. Labourers in the Vineyard. By M. H. Illustrated.
-
-5. The Children of the Great King. By M. H. Illustrated.
-
-6. Little Harry's Troubles. By the Author of "Gottfried." Illustrated.
-
-7. Sunday School Photographs. By the Rev. Alfred Taylor, Bristol, Pennsylvania.
-
-8. Waymarks for the Guiding of Little Feet. By the Rey. J. A. Wallace.
-
-9. The Domestic Circle; or, The Relations, Responsibilities, and Duties
-of Home Life. By the Rev. John Thomson. Illustrated.
-
-10. Select Christian Biographies. By the Rev. James Gardner, A.M., M.D.
-Illustrated.
-
-11. Ocean Lays. Selected by the Rev. J. Longmuir, LL.D. Illustrated.
-
-12. Wilberforce's Practical View of Christianity. Complete Edition.
-
-13. Communion Services, According to the Presbyterian Form. By the Rev.
-J. A. Wallace.
-
-14. Attitudes and Aspects of the Divine Redeemer. By Rev. J. A. Wallace.
-
-15. The Redeemer and the Redemption. By the Rev. Alex. S. Patterson, D.D.
-
-16. A Pastor's Legacy. Edited by the Rev. J. A. Wallace.
-
-17. James Nisbet; a Study for Young Men. By the Rev. J. A. Wallace.
-
-18. Noble Rivers, and Stories concerning them. By Anna J. Buckland.
-Illustrated.
-
-J. H. & CO.'S THREE SHILLING SERIES.
-
-Extra fcap. 8vo, richly gilt sides and edges.
-
-1. Miss Matty; or, Our Youngest Passenger. And other Tales. Illustrated.
-
-2. Horace Hazelwood; or, Little Things. And other Tales. Illustrated.
-
-3. Rosa Lindesay, the Light of Kilmain. By M. H. Illustrated.
-
-4. Newlyn House, the Home of the Davenports. By A. E. W. Illustrated.
-
-5. Alice Thorne; or, A Sister's Work. Illustrated.
-
-6. Labourers in the Vineyard. By M. H. Illustrated.
-
-7. Little Harry's Troubles. By the Author of Gottfried. Illustrated.
-
-8. The Children of the Great King. By M. H. Illustrated.
-
-9. The Domestic Circle; or, The Relations, Responsibilities, and Duties
-of Home Life. By the Rev. John Thomson. Illustrated.
-
-10. Sunday School Photographs. By the Rev. Alfred Taylor, Bristol.
-
-11. Waymarks for the Guiding of Little Feet. By the Rev. J. A. Wallace.
-
-12. Select Christian Biographies. By the Rev. James Gardner, A.M., M.D.
-Illustrated.
-
-13. Cardiphonia; or, The Utterance of the Heart. In a Series of Letters.
-By John Newton. A New Edition, bevelled boards, cut edges.
-
-14. Found Afloat. By Mrs George Cupples. And other Tales. Illustrated.
-
-15. James Nisbet; a Study for Young Men. By the Rev. J. A. Wallace.
-
-16. The White Roe of Glenmere. By Mona B. Bickerstaffe. And other
-Tales. Illustrated.
-
-17.  Noble Rivers, and Stories concerning them. By Anna J. Buckland.
-Illustrated.
-
-J. H. & CO.'S FIVE SHILLING SERIES.
-
-Bound in cloth, bevelled boards, richly gilt sides and edges.
-
-1.  The Children's Hour Annual. First Series. 656 pp. Extra fcap. 8vo.
-Illustrated.
-
-2.  The Children's Hour Annual. Second Series. 640 pp. Extra fcap. 8vo.
-Illustrated.
-
-3.  Sketches of Scripture Characters. By the Rev. Andrew Thomson, D.D.
-Crown 8vo. Illustrated.
-
-4.  Stars of Earth; or, Wild Flowers of the Months. By Leigh Page.
-Crown 8vo. With Original Illustrations by the Author.
-
-5.  Elijah; the Desert Prophet: A Biography. By the Rev. H. T. Howat.
-Crown 8vo. Illustrated.
-
-Afflicted's Refuge (The); or, Prayers adapted to various Circumstances
-of Distress. Fcap. 8vo, cloth, £  2 6.
-
-Alfred and the Little Dove. By F. A. Krummacher, D.D. And the
-Young Savoyard. By Ernest Hold. Translated from the German
-by a Lady. Royal 32mo, cloth. Illustrated,  1 0.
-
-Alice Lowther; or, Grandmamma's Story about her Little Red
-Bible. By J. W. C., Author of Mary M'Neill, etc. Royal 32mo,
-cloth, Illustrated,  1 0.
-
-Alice Thorne; or, A Sister's Work.
-Extra fcap. 8vo, cloth, Illustrated,  2 6.——Extra
-cloth, gilt edges,  3 0.
-
-Archie Douglas; or, Where there's a Will there's a Way. And
-other Tales. Super Royal 32mo, cloth, Illustrated,   6.
-
-Arthur Fortescue; or, The Schoolboy Hero.
-By Robert Hope Moncrieff. Royal 32mo, cloth, Illustrated,  1 0.
-
-Authorised Standards of the Free Church of Scotland:
-Being the Westminster Confession of Faith and other Documents.
-Published by Authority of the General Assembly. Demy 12mo, cloth
-limp,  1 3.——Cloth boards,  1 6.——Superior
-Edition, Printed on Superfine Paper, extra cloth, bevelled boards,
-antique,  2 6.——Full calf, lettered, antique  5 0.
-
-Biddy, the Maid of All Work.
-Super Royal 32mo, cloth, Illustrated,   6.
-
-Bill Marlin's Tales of the Sea.
-By Mrs George Cupples. Super royal 32mo, extra cloth, gilt edges,
-Illustrated,  1 6.
-
-Brodie (Rev. James, A.M.) The Antiquity and Nature of Man:
-A Reply to Sir Charles Lyell's Recent Work. Extra fcap. 8vo, cloth,  2 6.
-
-——Papers Offered for Discussion at the meeting of the British
-Association at Dundee. Extra fcap. 8vo, boards,  1 0.
-
-The Rational Creation: An Inquiry into the Nature and
-Classification of Rational Creatures, and the Government which God
-exercises over them. Crown 8vo, cloth,  5 0.
-
-An Inquiry into the Apocalypse, with an Endeavour to ascertain
-our present Position on the Chart of Time. Royal 8vo, sewed  2 0.
-
-Brodie (Rev. James, A.M.) Memoir of Annie M'Donald Christie,
-a Self-taught Cottager. Demy 18mo, cloth, £ 1 6.
-
-Buckland (Anna J.) Noble Rivers, and Stories concerning Them.
-Extra fcap. 8vo, cloth, with Illustrations,  2 6.——Extra
-cloth, gilt edges,  3 0.
-
-Burns (Rev. George, D.D.) Prayers for the Use of Sabbath Schools.
-18mo, sewed,   4.
-
-Catechisms—
-
-The Assembly's Shorter Catechism; with References to the
-Scripture Proofs. Demy 18mo, stitched,   0-½.
-
-The Assembly's Shorter Catechism; with (Italicised) Proofs from
-Scripture at full length; also with Additional Scripture References,
-selected from Boston, Fisher, M. Henry, Paterson, Vincent, and
-others. Demy 18mo, stitched,   1.
-
-The Assembly's Larger Catechism; with (Italicised) Proofs from
-Scripture at full length. Demy 12mo, sewed,   6.
-
-Catechism of the Evidences of Revealed Religion, with a few
-Preliminary Questions on Natural Religion. By William Ferrie,
-D.D., Kilconquhar. 18mo, stitched,   4.
-
-Catechism on Baptism: in which are considered its Nature, its
-Subjects, and the Obligations resulting from it. By the late
-Henry Grey, D.D., Edinburgh. 18mo, stitched,   6.
-
-The Child's First Catechism. 48mo, stitched,   0-½.
-
-Short Catechism for Young Children. By the Rev. John Brown,
-Haddington. 32mo, stitched,   0-½.
-
-Plain Catechism for Children. By the Rev. Matthew Henry.
-18mo, stitched,   1.
-
-Fifty Questions concerning the Leading Doctrines and Duties
-of the Gospel; with Scripture Answers and Parallel Texts. For
-the use of Sabbath Schools. 18mo, stitched,   1.
-
-Form of Examination before the Communion. Approved by the
-General Assembly of the Kirk of Scotland (1592), and appointed
-to be read in Families and Schools; with Proofs from Scripture
-(commonly known as Craig's Catechism). With a Recommendatory
-Note by the Rev. Dr Candlish, Rev. Alexander Moody
-Stuart, and Rev. Dr Horatius Bonar. 18mo, stitched,   1.
-
-The Mother's Catechism; being a Preparatory Help for the Young
-and Ignorant, to their easier understanding The Assembly's
-Shorter Catechism. By the Rev. John Willison, Dundee. 32mo,
-stitched,   1.
-
-Watts' (Dr Isaac) Juvenile Historical Catechisms of the Old
-and New Testaments; with Numerous Scripture References, and
-a Selection of Hymns. Demy 18mo, stitched,   1.
-
-A Scripture Catechism, Historical and Doctrinal, for the use Of
-Schools and Families. By John Whitecross, Author of Anecdotes
-on the Shorter Catechism, etc. 18mo, stitched,   1.
-
-A Summary of Christian Doctrine and Duties; being the Westminster
-Assembly's Shorter Catechism, without the Questions,
-with Marginal References. Fcap. 8vo, stitched,   1.
-
-Children of the Great King (The): A Story of the Crimean War.
-By M. H., Editor of The Children's Hour. Extra fcap. 8vo,
-cloth, with Illustrations,  2 6.——Cloth
-extra, gilt edges,  3 0.
-
-Children's Hour (The) Annual. First Series.
-656 pp., and upwards of 50 Illustrations. Extra fcap. 8vo, cloth,
-gilt edges, £ 5 0.
-
-——Second Series.
-640 pp., and upwards of 70 Illustrations. Extra fcap. 8vo, cloth,
-gilt edges,  5 0.
-
-Children's Hour (The) Series of Gift Books.
-
-1. Miss Matty; or, Our Youngest Passenger. And other Tales.
-
-2. Horace Hazelwood. And other Tales.
-
-3. Found Afloat. And other Tales.
-
-4. The White Roe of Glenmere. And other Tales.
-Extra fcap. 8vo, cloth, gilt sides and edges, Illustrated—each  3 0.
-
-Christfried's First Journey. And other Tales.
-Super royal 32mo, cloth, Illustrated,   6.
-
-Christian Treasury (The) Volumes 1845 to 1860.
-16 Volumes, royal 8vo, cloth—each  5 0.
-
-A complete Set will be forwarded to any part of the country,
-carriage paid, on receipt of £3, 3s.
-
-——Volumes 1861, 1862, 1863, 1864, 1865, and 1866.
-Super royal 8vo, cloth, green and gold—each  6 6.
-
-Cockerill the Conjurer; or, The Brave Boy of Hameln. By the
-Author of Little Harry's Troubles. Super royal 32mo, cloth,
-bevelled boards, Illustrated,  1 0.
-
-Confession of Faith (The) agreed upon at the Assembly of
-Divines at Westminster. Complete Edition, with the Italics of
-the elegant Quarto Edition of 1658 restored. (Authorised Edition.)
-Demy 12mo, cloth limp,  1 0.
-
-——Cloth boards,  1 3.——Superior Edition,
-Printed on Superfine Paper, extra cloth, bevelled
-boards, antique,  2 6.——Full calf, lettered,
-antique,  5 0.
-
-Dill (Edward Marcus, A.M., M.D.) The Mystery Solved: or,
-Ireland's Miseries: Their Grand Cause and Cure. Fcap. 8vo, cloth,  2 6.
-
-——The Gathering Storm; or, Britain's Romeward Career: A
-Warning and Appeal to British Protestants. Fcap. 8vo, cloth,  1 0.
-
-Indexes
-
-Index of Latin Words and Phrases
-
-Divitiis major, virtutibus minor: 
-  1
-absque jure Romano: 
-  1
-in vinculis: 
-  1
-in vulgi ignobilis parte: 
-  1
-labarum: 
-  1
-2
-3
-odium theologicum: 
-  1
-perfervidum Scotorum ingenium: 
-  1
-procumbimus: 
-  1
-qui se idolorum superstitione impia maculaverint: 
-  1
-retento more veteris observantiæ: 
-  1
-sudarium: 
-  1
-verum icon: 
-  1
-
-Index of Pages of the Print Edition
 
 iii 
 iv 
@@ -9997,58 +9371,29 @@ vi 
 235 
 236 
 237 
-238 
+238
 
-239 
-240 
-241 
-242 
-243 
-244 
-245 
-246 
-247 
-248 
-249 
-250 
-251 
-252 
-253 
-254 
-255 
-256 
-257 
-258 
-259 
-260 
-261 
-262 
-263 
-264 
-265 
-266 
-267 
-268 
-269 
-270 
-271 
-272 
-273 
-274 
-275 
-276 
-277 
-278 
-279 
-280 
-281 
-282 
-283 
-284 
-285 
-286 
-287 
-288 
-289 
-290 
-291 
+important function. The Greek Church being opposed
+to Rome, some Protestants sought to conclude
+a union with her in the sixteenth century; and the
+Lutheran divines of Tubingen had for this purpose a
+correspondence with the Patriarch of Constantinople,
+between the years 1575 and 1581, but which did not
+lead to any result, as the Patriarch insisted upon their
+simply joining his church. The Protestants of Poland
+attempted in 1599 a union with the Greek
+Church of their country, and the delegates of both
+parties met for this purpose at Vilna; their object
+was, however, frustrated by the same cause which
+rendered nugatory the efforts that had been made
+by the divines of Tubingen for this purpose, the
+Greek Church insisting upon their entire submission
+to her authority. It is true that some learned ecclesiastics
+of the Græco-Russian Church are supposed
+to entertain Protestant opinions, but this is entirely
+personal, and has no influence whatever on the systematic
+policy of their Church, which hates Rome
+as a rival, but Protestantism as a revolutionary
+principle. One of the ablest and most zealous defenders
+of the Roman Catholic Church in our times,
+and whom a long residence in Russia had made

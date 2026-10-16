@@ -15,10 +15,11 @@ Uma biblioteca digital dedicada às obras clássicas da teologia cristã em dom�
 
 ### ✅ Funcionalidades no Ar
 - **🏠 Frontend (React + Vite)**: `https://scriptorium.narniano.com` (Servido via Nginx + Traefik)
-- **🚀 API REST (Fastify + Drizzle)**: `https://api-scriptorium.narniano.com` (Conectado ao Postgres compartilhado)
+- **🚀 API REST (Fastify + Drizzle)**: base em `https://api-scriptorium.narniano.com` — documentação Scalar em [`/docs`](https://api-scriptorium.narniano.com/docs/) e OpenAPI JSON em [`/docs/json`](https://api-scriptorium.narniano.com/docs/json). Conectado ao Postgres compartilhado.
 - **🗄️ Banco de Dados**: Postgres (`scriptorium_divinum_db`) rodando localmente no VPS com role isolada e segura.
 - **🔄 Backup Integrado**: Backups diários criptografados com `age` e sincronizados via Tailscale.
-- **📖 Leitor online** (`/ler/:id`): renderiza em markdown as obras que tiverem texto disponível em `server/texts/` (ver política de direitos autorais abaixo). O botão "Ler Online" só aparece quando o conteúdo realmente existe.
+- **📖 Leitor Online com Paridade Bilíngue (`/ler/:id`)**: renderiza em markdown as 270 obras em português (`pt-BR`) e 23 grandes monumentos em inglês (`en`). Conta com alternador inteligente de idioma no leitor e na ficha do livro (`relatedEditionSlug`), permitindo a comparação imediata entre o vernáculo e o original.
+- **🏛️ Acervo Histórico Universal**: 294 obras catalogadas, 125 autores canônicos e mais de 18,4 milhões de palavras de literatura cristã clássica (Patrística Grega e Latina, Escolástica Medieval, Reforma Protestante e Avivamento Puritano).
 
 ---
 

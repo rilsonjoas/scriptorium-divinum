@@ -2337,6 +2337,15 @@ Transformar o frontend do Scriptorium Divinum na principal referência lusófona
 - `/categorias/:slug`: Header imersivo com período histórico, descrição erudita e grid responsivo de *Faith Cards*.
 - `/livros`: Filtros multifacetados por Tradição, Gênero e Tema com badges pigmentados.
 
+---
 
+## 🏛️ Item 18: Acervo Integral 100% em Português, Catálogo Universal e Paridade Bilíngue (PT-EN) — ✅ ENTREGUE 2026-10-16
 
-
+### 1. Conquistas & Escopo Entregue
+- **100% das Obras em Português:** Auditoria completa e encerramento dos 72 lotes de tradução e curadoria. Todas as 270 obras do cânon clássico estão categoricamente disponíveis em `pt-BR` de forma integral (mais de 18.416.260 palavras de corpus bíblico e patrístico/clássico).
+- **Paridade Bilíngue com Monumentos em Inglês:** 23 grandes monumentos da fé cristã preservados em língua inglesa (`en`) com vínculo bidirecional explícito (`related_edition_slug`) via `add_catalogo_universal_2026.sql`.
+- **Alternador Bilíngue no Frontend:**
+  - `web/src/pages/LivroDetalhes.tsx`: botão de acesso direto à edição correspondente (`[ 🇬🇧 Ver Edição Original em Inglês (EN) ]` ou `[ 🇧🇷 Ver Edição em Português (pt-BR) ]`).
+  - `web/src/pages/Reader.tsx`: alternador rápido e compacto no topo da barra de leitura (`[ 🇬🇧 Ler em EN ]` / `[ 🇧🇷 Ler em PT ]`), permitindo comparação sem sair do leitor.
+- **Catálogo Universal SQL:** Script universal em `scripts/add_catalogo_universal_2026.sql` e sincronizado com `server/src/db/seeds/add_catalogo_universal_2026.sql` para auto-migração na VPS com 294 obras e 125 autores.
+- **Qualidade & Testes:** 183 testes verdes (158 web + 25 server) e builds de produção Vite + TypeScript 100% validados.

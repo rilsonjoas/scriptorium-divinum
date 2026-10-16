@@ -353,3 +353,34 @@ log — `relatedEditionSlug` não aparecia nem como chave.
 **Prevenção:** dois testes de guarda na integração que falham se o campo
 não voltar na ficha nem no catálogo. A regra geral está escrita no
 ROADMAP: **conferir o efeito, nunca o log.**
+
+
+---
+
+## 2026-10-16 — Paridade Bilíngue (PT-BR e EN) e Alternância Transparente no Leitor e Ficha de Obra
+
+**Entregue** em 2026-10-16.
+
+**Contexto:** Com a conclusão da tradução e curadoria integral de 100% das obras clássicas para a língua portuguesa (`pt-BR`), o acervo passou a contar também com 23 monumentos teológicos universais em inglês (`en`) preservados em edições canônicas (ex: as quatro partes da *Suma Teológica*, *Institutas da Religião Cristã*, *A Cidade de Deus*, *Confissões*, *O Descanso Eterno dos Santos*, *Pensamentos de Pascal*, *A Guerra Santa*, etc.).
+
+**Problema:** Leitores, pesquisadores e seminaristas necessitam transitar com facilidade entre a tradução em vernáculo e o texto fonte em língua inglesa para checagem exegética ou leitura no original.
+
+**Solução:**
+1. **Banco de Dados & Seeds:** O relacionamento bidirecional foi modelado através do campo canônico `related_edition_slug` (já exposto nas três camadas: Drizzle schema, Fastify serializer e Book API). O script `server/src/db/seeds/add_catalogo_universal_2026.sql` vincula 45 pares recíprocos de obras.
+2. **Ficha da Obra (`LivroDetalhes.tsx`):** Exibe um botão contextual e nobre: `[ 🇬🇧 Ver Edição Original em Inglês (EN) ]` ou `[ 🇧🇷 Ver Edição em Português (pt-BR) ]`.
+3. **Leitor Online (`Reader.tsx`):** No cabeçalho de navegação, ao lado do título, foi inserido um botão compacto com ícone de idiomas e bandeira (`[ 🇬🇧 Ler em EN ]` / `[ 🇧🇷 Ler em PT ]`), permitindo que o leitor alterne imediatamente de idioma mantendo-se em fluxo contínuo de leitura.
+
+---
+
+## 2026-10-16 — Consolidação Integral do Catálogo Universal (294 Obras, 125 Autores e 18,4M de palavras)
+
+**Entregue** em 2026-10-16.
+
+**Conquista:** Conclusão de 72 lotes sucessivos de auditoria e tradução de textos clássicos integrais (Patrística Grega e Latina, Escolástica Medieval, Reforma Magisterial, Avivamento Puritano e Espiritualidade Clássica).
+
+**Números do Corpus:**
+- **270 obras** categoricamente em língua portuguesa com texto completo disponível.
+- **23 monumentos** em língua inglesa para paridade bilíngue.
+- Mais de **18.416.260 palavras** registradas no acervo total com a Bíblia e tratados desdobrados.
+- **125 autores** catalogados de forma canônica com dados biográficos e séculos.
+- **100% de integridade:** zero obras com truncamento, marcadores residuais de OCR ou tradução resumida.

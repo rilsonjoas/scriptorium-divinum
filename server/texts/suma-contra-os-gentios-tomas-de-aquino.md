@@ -1,66 +1,1112 @@
 ---
 id: "suma-contra-os-gentios-tomas-de-aquino"
-title: "Suma contra os Gentios (Summa contra Gentiles)"
+title: "Suma contra os Gentios: Livro I — De Deus em Si Mesmo (Summa contra Gentiles)"
 author: "Santo Tomás de Aquino"
 authorDates: "1225 – 1274"
 century: "Século XIII"
 category: "Teologia Escolástica e Apologética Filosófica"
-language: "Latim Clássico Medieval (Traduzido)"
-source: "Summa contra Gentiles / Liber de Veritate Catholicae Fidei (c. 1259–1265)"
-status: "completo"
-translator: "Scriptorium Divinum"
+language: "Português (Tradução Integral)"
+source: "Summa contra Gentiles, Liber I: De Deo in Seipso (c. 1259–1265; Texto Integral Completo em 102 Capítulos)"
+status: "Traduzido"
+translator: "Scriptorium Divinum (Tradução Integral em Domínio Público)"
 ---
 
 # Suma contra os Gentios (*Summa contra Gentiles*)
-### *Santo Tomás de Aquino (c. 1264)*
+### *Livro I: De Deus em Si Mesmo e a Verdade Acessível à Razão Natural*
+### *Santo Tomás de Aquino, Doutor Angélico (c. 1259–1265)*
 
 ---
 
-### Prólogo: O Ofício do Sábio e a Manifestação da Verdade Divina
+# Proveniência e Contexto Histórico
 
-*«Veritatem meditabitur guttur meum, et labia mea detestabuntur impium.»*  
-*(A minha boca proclamará a verdade, e os meus lábios detestarão a impiedade.)*  
-— Provérbios 8:7
-
-**1.** O ofício primordial do verdadeiro sábio consiste em ordenar todas as coisas ao seu Fim Supremo, que é a Verdade Primeira, Princípio e Fim de todo o Universo, a saber, o próprio Deus.
-
-**2.** Ao empreender a defesa da fé católica contra os gentios, filósofos pagãos, judeus e muçulmanos, deparamos com uma distinção fundamental: enquanto os judeus aceitam o Antigo Testamento e os hereges o Novo Testamento, os gentios e pagãos não aceitam a autoridade de nenhuma das Escrituras. Por essa razão, é mister recorrer à **Razão Natural**, à qual todos os homens são constrangidos a anuir, sem prejuízo de proclamar os mistérios que transcendem a capacidade do intelecto humano.
+> [!NOTE]
+> Composta entre 1259 e 1265 a pedido de São Raimundo de Peñafort para fornecer um fundamento racional e apologético inabalável no diálogo com sábios e filósofos muçulmanos, judeus e pagãos, a **Suma contra os Gentios** (*Summa contra Gentiles* ou *Liber de Veritate Catholicae Fidei contra Errores Infidelium*) é a mais refinada obra filosófico-teológica de Santo Tomás de Aquino. O **Livro I (De Deus em Si Mesmo)** compõe-se de cento e dois capítulos dedicados a demonstrar, pelo uso rigoroso da razão natural, a existência necessária de Deus, Sua simplicidade, eternidade, imutabilidade, infinitude, onipotência, ciência e beatitude eterna.
 
 ---
 
-### Livro I: De Deus em Si Mesmo e a Verdade Acessível à Razão
+CAPÍTULO I – A Função do Homem Sábio Minha boca discutirá a verdade, e meus lábios detestarão o ímpio (Provérbios VII, 7).
 
-**1. A Dupla Ordem da Verdade sobre Deus:** Há verdades sobre Deus que a razão natural pode alcançar por meio da contemplação das criaturas — tais como a Sua existência, unidade, eternidade, simplicidade, onipotência e sabedoria; e há verdades que excedem totalmente a capacidade do intelecto criado — como a Santíssima Trindade e a Encarnação do Verbo —, as quais só podem ser conhecidas pela Revelação sobrenatural.
+SEGUNDO o uso popular estabelecido, que o Filósofo considera que deveria ser o nosso guia na nomeação das coisas, são chamados de “sábios” aqueles que colocam as coisas na sua correta ordem e as controlam bem. Agora, em todas as coisas que devem ser controladas e colocadas em ordem, a medida do controle e da ordem deve ser tomada a partir do fim em vista; e o fim adequado de tudo é algo bom. Portanto, vemos nas artes que a arte A governa e, por assim dizer, domina a arte B, quando o fim próprio da arte B pertence a A. Assim, a arte da medicina domina a arte do boticário, porque a saúde, o objeto da medicina, é o fim de todas as drogas que a arte do boticário compõe. Essas artes que dominam as outras são chamadas de “construção de mestres” ou “artes magistrais”; e os “mestres-construtores” que as praticam arrogam-se o nome de “homens sábios”. Mas porque essas pessoas lidam com os fins em vista de certas coisas particulares, sem atingir o fim geral de todas as coisas, elas são chamadas de “sábias nesta ou naquela coisa particular”, como é dito: “Como um arquiteto sábio, lancei o fundamento” (1 Cor.
 
-**2. A Existência de Deus:** A existência de Deus não é evidente por si mesma para nós a priori, mas é demonstrável a posteriori pelos Seus efeitos no mundo criado:
-* Pelo **Movimento**: todo ser que se move é movido por outro, exigindo um Primeiro Motor Imóvel;
-* Pela **Causalidade Eficiente**: não se pode proceder ao infinito nas causas eficientes, exigindo uma Primeira Causa Incausada;
-* Pela **Contingência e Necessidade**: os seres contingentes exigem um Ser Absolutamente Necessário;
-* Pelos **Graus de Perfeição**: o mais e o menos perfeito exigem um Máximo no Ser e na Bondade;
-* Pela **Finalidade da Natureza**: os seres sem intelecto operam por um fim ordenado por uma Inteligência Suprema.
+iii, 10); enquanto o nome de “sábio” sem qualificação é reservado somente àquele que lida com o fim último do universo, que é também o primeiro começo da ordem do universo. Portanto, segundo o Filósofo, é próprio do sábio considerar as causas mais elevadas.
 
----
+Agora, o fim último de tudo é aquele pretendido pelo autor principal ou impulsionador dele. O primeiro autor e motor do universo é a inteligência, como será mostrado mais adiante (B. II, Cap. XXIII, XXIV). Portanto, o fim último do universo deve ser o bem da inteligência, e isso é a verdade. A verdade então deve ser o fim último de todo o universo; e com a consideração desse fim a sabedoria deve se preocupar principalmente. E, portanto, a Sabedoria Divina, revestida de carne, testemunha que Ele veio ao mundo para a manifestação da verdade: Para isso nasci e para isso vim ao mundo, para dar testemunho da verdade (João xvii, 37). O Filósofo também determina que a primeira filosofia é a ciência da verdade, não de toda e qualquer verdade, mas daquela verdade que é a origem de toda verdade e pertence ao primeiro princípio do ser de todas as coisas; portanto, sua verdade é o princípio de toda verdade, pois as coisas são na verdade como são no ser.
 
-### Livro II: Da Criação do Universo e da Dignidade do Homem
+É a mesma função abraçar qualquer um dos dois contrários e repelir o outro. Portanto, assim como é função do homem sábio discutir a verdade, particularmente do primeiro começo, também é sua função impugnar o erro contrário. Adequadamente, portanto, é a dupla função do homem sábio exibida nas palavras acima citadas do Livro Sapiencial, a saber, estudar e, após estudo, falar a verdade de Deus, que de todas as outras é mais apropriadamente chamada de verdade, e isso é referido nas palavras: Minha boca discutirá a verdade e impugnar o erro contrário à verdade, conforme referido nas palavras: E meus lábios detestarão os ímpios.
 
-**1.** Deus criou o mundo a partir do nada (*ex nihilo*) por um ato livre de Sua Vontade soberana e infinita bondade, para comunicar as Suas perfeições às criaturas.
+## Capítulo II. Do propósito do autor
 
-**2.** O homem é o horizonte e o ponto de união entre o mundo corpóreo e o espiritual: dotado de uma alma intelectiva imaterial e imortal criada diretamente por Deus, destinada a encontrar o seu fim último na posse da Visão Beatífica.
+CAPÍTULO II - DO PROPÓSITO DO AUTOR DE todas as atividades humanas, a busca pela sabedoria é a mais perfeita, a mais sublime, a mais útil e a mais agradável. Tanto mais perfeito, porque na medida em que um homem se entrega à busca da sabedoria, nessa medida ele já desfruta de alguma porção da verdadeira felicidade. Bem-aventurado o homem que habitará na sabedoria (Ecclus xiv, 22). Ainda mais sublime, porque assim o homem se aproxima mais da semelhança de Deus, que fez todas as coisas com sabedoria (Sl. ciii, 24). Tanto mais útil, porque por esta mesma sabedoria chegamos ao reino da imortalidade. O desejo de sabedoria levará a um reino eterno (Sábio vi, 21). Tanto mais agradável, porque a sua conversa não tem amargura, nem a sua companhia qualquer cansaço, mas alegria e alegria (Sab. viii, 16).
 
----
+Mas por dois motivos é difícil proceder contra cada erro específico: primeiro, porque as declarações sacrílegas de nossos vários oponentes errantes não são tão bem conhecidas por nós a ponto de nos permitir encontrar razões, extraídas de suas próprias palavras, para a refutação de seus erros: pois tal era o método dos antigos médicos para refutar os erros dos gentios, cujos princípios eles eram prontamente capazes de conhecer, tendo eles próprios sido gentios, ou pelo menos tendo vivido entre os gentios e sido instruídos em suas doutrinas. Em segundo lugar, porque alguns deles, como muçulmanos e pagãos, não concordam connosco em reconhecer a autoridade de qualquer escritura, disponível para a sua convicção, como podemos argumentar contra os judeus do Antigo Testamento, e contra os hereges do Novo. Mas estes não recebem nenhuma das duas coisas: portanto, é necessário recorrer à razão natural, à qual todos são obrigados a concordar. Mas nas coisas de Deus a razão natural muitas vezes fica perdida.
 
-### Livro III: Da Divina Providência e do Fim Último do Homem
+## Capítulo III. Que as verdades que confessamos a respeito de Deus se enquadram em dois modos ou categorias
 
-**1.** Deus não apenas criou o Universo, mas o governa e sustenta a cada instante por Sua Providência universal e infalível, ordenando até mesmo o mal permissivo para a manifestação de bens maiores.
+CAPÍTULO III - Que as verdades que confessamos a respeito de Deus se enquadram em dois modos ou categorias PORQUE nem toda verdade admite o mesmo modo de manifestação, e “um homem bem educado esperará exatidão em cada classe de assunto, de acordo com a natureza da coisa admite”, como é muito bem observado pelo Filósofo (Eth. Nicom. I, 1094b), devemos primeiro mostrar que modo de prova é possível para a verdade que temos agora diante de nós. As verdades que confessamos a respeito de Deus se enquadram em dois modos. Algumas coisas verdadeiras sobre Deus estão além de toda a competência da razão humana, como que Deus é Três e Um. Existem outras coisas que até a razão humana pode alcançar, como a existência e a unidade de Deus, que os filósofos provaram numa demonstração sob a orientação da luz da razão natural. Que existem pontos de inteligibilidade absoluta em Deus completamente além da bússola da razão humana, parece mais manifestamente.
 
-**2.** A felicidade suprema do homem (*beatitudo*) não pode consistir nas riquezas, honras temporais, prazeres carnais, poder ou virtudes puramente morais; consiste única e exclusivamente na **Contemplação Intelectual de Deus em Sua Própria Essência**.
+Pois uma vez que o princípio principal de todo o conhecimento de qualquer assunto é uma compreensão do ser mais íntimo da coisa, ou substância - de acordo com a doutrina do Filósofo, de que a essência é o princípio da demonstração - segue-se que o modo do nosso conhecimento da substância deve ser o modo de conhecimento de tudo o que sabemos sobre a substância. Portanto, se o entendimento humano compreende a substância de qualquer coisa, como uma pedra ou um triângulo, nenhum dos pontos de inteligibilidade dessa coisa excederá a capacidade da razão humana. Mas este não é o nosso caso em relação a Deus. O
 
----
+a compreensão humana não pode ir tão longe do seu poder natural a ponto de apreender Sua substância, visto que, nas condições da vida presente, o conhecimento de nossa compreensão começa com os sentidos; e, portanto, os objetos além dos sentidos não podem ser apreendidos pela compreensão humana, exceto na medida em que o conhecimento deles é obtido por meio dos sentidos. Mas as coisas dos sentidos não podem levar o nosso entendimento a ler nelas a essência da Substância Divina, na medida em que são efeitos inadequados ao poder que os causou. Não obstante, a nossa compreensão é assim conduzida a algum conhecimento de Deus, nomeadamente, da Sua existência e de outros atributos que devem necessariamente ser atribuídos à Causa Primeira. Existem, portanto, alguns pontos de inteligibilidade em Deus, acessíveis à razão humana, e outros pontos que transcendem completamente o poder da razão humana.
 
-### Livro IV: Dos Mistérios Sublimes da Salvação Revelada
+A mesma coisa pode ser entendida considerando-se os graus de inteligibilidade. De duas mentes, uma das quais tem uma visão mais aguçada da verdade do que a outra, a mente superior compreende muitas coisas que a outra não consegue compreender, como fica claro no “homem comum” (in rustico), que não consegue de forma alguma compreender as teorias sutis da filosofia. Ora, o intelecto de um anjo supera o de um homem mais do que o intelecto do filósofo mais capaz supera o do mais simples dos homens simples (rudissimi idiotae). O anjo tem um ponto de vista mais elevado na criação do que o homem como base de seu conhecimento de Deus, na medida em que a substância do anjo, pela qual ele é levado a conhecer Deus por um processo de conhecimento natural, é mais nobre e mais excelente do que as coisas dos sentidos, e até mesmo do que a própria alma, pela qual a mente humana se eleva ao conhecimento de Deus.
 
-**1. A Santíssima Trindade:** Um só Deus em três Pessoas divinas coeternas e consubstanciais: o Pai que gera, o Filho que é gerado e o Espírito Santo que procede de ambos como Amor infinito.
+Mas a Mente Divina excede a angélica muito mais do que a angélica supera a humana. Pois a Mente Divina, por sua própria abrangência, cobre toda a extensão de sua substância e, portanto, compreende perfeitamente sua própria essência e conhece tudo o que é cognoscível sobre si mesma; mas um anjo com seu conhecimento natural não conhece a essência de Deus, porque a própria substância do anjo, pela qual ele é levado ao conhecimento de Deus, é um efeito inadequado ao poder da causa que o criou. Portanto, nem todas as coisas que Deus compreende em Si mesmo podem ser apreendidas pelo conhecimento natural de um anjo; nem a razão humana é competente para compreender tudo o que um anjo entende de sua própria habilidade natural. Assim como seria o cúmulo da loucura de um “homem comum” declarar falsas as proposições de um filósofo, porque ele não poderia compreendê-las, assim, e muito mais, um homem mostraria extrema loucura se suspeitasse de falsidade uma revelação divina dada pelo ministério dos anjos, pelo simples fato de que estava além da investigação da razão.
 
-**2. A Encarnação do Verbo:** A união hipostática das naturezas divina e humana na única Pessoa do Filho de Deus para a nossa redenção na Cruz.
+A mesma coisa aparece manifestamente na incapacidade que experimentamos diariamente na observação da natureza. Ignoramos muitas propriedades das coisas dos sentidos; e das propriedades que nossos sentidos apreendem, na maioria dos casos não conseguimos descobrir perfeitamente a razão. Muito mais está além da competência da razão humana investigar todos os pontos de inteligibilidade naquela substância suprema, excelente e transcendente de Deus. Em consonância com isso está o ditado do Filósofo, que “assim como os olhos dos morcegos estão para a luz do sol, assim está a inteligência de nossa alma para as coisas mais manifestas da natureza” (Aristóteles, Metafísica I, min. l).
 
-**3. Os Sacramentos e a Ressurreição da Carne:** Os meios visíveis da graça e a consumação gloriosa na vida eterna, onde os santos contemplarão a Deus face a face pelos séculos sem fim. Amém!
+Desta verdade também a Sagrada Escritura dá testemunho. Pois está dito: Talvez você capte os traços de Deus e descubra plenamente o Todo-Poderoso (Jó xi, 7). E, eis que Deus é grande e supera nosso conhecimento (Jó xxxvi, 26). E, sabemos em parte (I Cor. xiii, 9). Nem tudo, portanto, que é dito de Deus, mesmo que esteja além do poder da razão investigar, deve ser imediatamente rejeitado como falso.
+
+## Capítulo IV. Que é uma vantagem para as Verdades de Deus, conhecidas pela Razão Natural, serem propostas aos homens para serem cridas pela fé
+
+CAPÍTULO IV - Que é uma vantagem para as Verdades de Deus, conhecidas pela Razão Natural, serem propostas aos homens para serem cridas pela fé. SE uma verdade desta natureza fosse deixada à exclusiva investigação da razão, seguir-se-iam três desvantagens. Uma é que o conhecimento de Deus seria confinado a poucos. A descoberta da verdade é fruto de uma investigação estudiosa. Disso muitos são impedidos. Alguns são prejudicados por uma inaptidão constitucional, sendo a sua natureza pouco disposta à aquisição de conhecimento. Eles nunca poderiam chegar, através do estudo, ao mais alto grau de conhecimento humano, que consiste no conhecimento de Deus. Outros são prejudicados pelas necessidades dos negócios e pelos vínculos da gestão da propriedade. Deve haver na sociedade humana alguns homens dedicados aos assuntos temporais. Estes não poderiam gastar tempo suficiente nas lições aprendidas da investigação especulativa para chegar ao ponto mais alto da investigação humana, o conhecimento de Deus.
+
+Alguns novamente são prejudicados pela preguiça. O conhecimento das verdades que a razão pode investigar a respeito de Deus pressupõe muito conhecimento prévio. Na verdade, quase todo o estudo da filosofia é direcionado ao conhecimento de Deus. Conseqüentemente, de todas as partes da filosofia, aquela parte que deve ser aprendida por último, que consiste na metafísica que trata de pontos da Divindade. Assim, somente com muito trabalho de estudo é possível chegar à busca da referida verdade; e poucos estão dispostos a realizar esse trabalho por puro amor ao conhecimento.
+
+Outra desvantagem é que aqueles que chegassem ao conhecimento ou descoberta da referida verdade levariam muito tempo, devido à profundidade de tal verdade e aos muitos pré-requisitos para o estudo, e também porque na juventude e na idade adulta, a alma, lançada de um lado para o outro nas ondas da paixão, não está apta para o estudo de uma verdade tão elevada: somente na idade estabelecida a alma se torna prudente e científica, como diz o Filósofo. Assim, se o único caminho aberto para o conhecimento de Deus fosse o caminho da razão, a raça humana permaneceria por muito tempo nas densas trevas da ignorância: como o conhecimento de Deus, o melhor instrumento para tornar os homens perfeitos e bons, só seria concedido a alguns, e a esses poucos após um lapso de tempo considerável.
+
+Uma terceira desvantagem é que, devido à enfermidade do nosso julgamento e à força perturbadora da imaginação, existe alguma mistura de erro na maioria das investigações da razão humana. Esta seria uma razão para muitos continuarem a duvidar até das demonstrações mais precisas, não percebendo a força da demonstração e vendo os diversos julgamentos de diversas pessoas que têm o nome de serem sábios. Além disso, no meio de muita verdade demonstrada, há por vezes um elemento de erro, não demonstrado, mas afirmado com base em algum raciocínio plausível e sofístico que é tomado como demonstração. E, portanto, era necessário que a verdade real a respeito das coisas divinas fosse apresentada aos homens com certeza fixa por meio da fé. Saudável, portanto, é o arranjo da clemência divina, por meio da qual as coisas que até mesmo a razão pode investigar são ordenadas a serem mantidas pela fé, para que todos possam facilmente ser participantes do conhecimento de Deus, e isso sem dúvida e erro.
+
+Por isso é dito: Agora não andeis como os gentios andam na vaidade de suas próprias noções, tendo o entendimento obscurecido (Efésios 4, 17, 18); e farei com que todos os teus filhos sejam ensinados pelo Senhor (Isa. liv, 1, 5).
+
+## Capítulo V. Que é uma vantagem que coisas que não podem ser pesquisadas pela Razão sejam propostas como Princípios da Fé
+
+CAPÍTULO V — Que é uma vantagem que coisas que não podem ser pesquisadas pela Razão sejam propostas como Princípios de Fé ALGUNS podem possivelmente pensar que pontos que a razão é incapaz de investigar não deveriam ser propostos ao homem para acreditar, uma vez que a Sabedoria Divina provê para cada ser de acordo com a medida de sua natureza; e, portanto, devemos mostrar a necessidade de coisas que transcendem a razão, sendo propostas por Deus ao homem para sua crença.
+
+1. Uma prova é esta. Ninguém se esforça com qualquer desejo por alguma coisa, a menos que isso lhe seja conhecido de antemão. Visto que, então, como será traçado nas páginas seguintes (B. III, Cap. CXLVIII), a Providência Divina dirige os homens para um bem superior ao que a fragilidade humana pode experimentar na vida presente, as faculdades mentais devem ser evocadas e conduzidas adiante para algo mais elevado do que a nossa razão pode alcançar no momento, aprendendo assim a desejar algo e a tender seriamente para algo que transcende todo o estado da vida presente. E tal é a função especial da religião cristã, que permanece sozinha na sua promessa de bens espirituais e eternos, enquanto a Antiga Lei, carregando promessas temporais, propunha poucos princípios que transcendiam a investigação da razão humana.
+
+2. Daí também deriva outra vantagem, a saber, a repressão da presunção, que é a mãe do erro. Pois há alguns tão presunçosos de seu próprio gênio que pensam que podem medir com seu entendimento toda a natureza da Divindade, pensando que é verdadeiro tudo o que lhes parece verdadeiro, e falso tudo o que não lhes parece verdadeiro.
+
+Para que a mente humana pudesse ser libertada dessa presunção e alcançar um estilo modesto de investigação da verdade, foi necessário que certas coisas fossem propostas ao homem por Deus que excedessem completamente seu entendimento.
+
+3. Há também outra vantagem evidente nisso: qualquer conhecimento, por mais imperfeito que seja, dos objetos mais nobres confere à alma uma perfeição muito elevada. E, portanto, embora a razão humana não possa compreender plenamente as verdades acima da razão, ainda assim ela é muito aperfeiçoada ao sustentar tais verdades de alguma forma, pelo menos pela fé. E por isso é dito: Muitas coisas além da compreensão do homem te são mostradas (Ecclus iii, 23). E, As coisas que são de Deus, ninguém as conhece, exceto o Espírito de Deus: mas a nós Deus as revelou através do seu Espírito (1 Coríntios 2, 10, 11).
+
+## Capítulo VI. Que não há leviandade em concordar com as Verdades da Fé, embora elas estejam acima da Razão
+
+CAPÍTULO VI - Que não há leviandade em concordar com as Verdades da Fé, embora elas estejam acima da Razão. A Sabedoria Divina, que conhece todas as coisas mais plenamente, dignou-se revelar esses seus segredos aos homens e, em prova deles, exibiu obras além da competência de todos os poderes naturais, na maravilhosa cura de doenças, na ressurreição dos mortos e, o que é ainda mais maravilhoso, na inspiração das mentes humanas, como aquelas pessoas simples e ignorantes, cheias do dom do Espírito Santo, ganharam em um instantaneamente o cúmulo da sabedoria e da eloquência. Pela força da prova acima mencionada, sem violência das armas, sem promessa de prazeres, e, o que é mais maravilhoso de tudo, em meio à violência dos perseguidores, uma multidão incontável, não apenas de homens sem instrução, mas de homens mais sábios, afluiu à fé cristã, onde são pregadas doutrinas que transcendem toda a compreensão humana, os prazeres dos sentidos são restringidos e um desprezo é ensinado por todas as posses mundanas.
+
+Que as mentes mortais concordem com tal ensino é o maior dos milagres e uma obra manifesta de inspiração divina que leva os homens a desprezar o visível e a desejar apenas bens invisíveis. Isso não aconteceu repentinamente nem por acaso, mas por uma disposição divina, como se manifesta pelo fato de que Deus predisse por muitos oráculos de Seus profetas que Ele pretendia fazer isso. Os livros desses profetas ainda são venerados entre nós, como testemunhos da nossa fé. Este argumento é abordado no texto: Qual (salvação) tendo começado a ser proferida pelo Senhor, foi confirmada por aqueles que o ouviram até mesmo para nós, Deus unindo-se ao testemunho por sinais e portentos e várias distribuições do Espírito Santo (Heb. ii, 3, 4). Esta conversão tão maravilhosa do mundo à fé cristã é um sinal tão certo de milagres passados, que não precisam de mais reiteração, uma vez que aparecem evidentemente em seus efeitos.
+
+Seria mais maravilhoso do que todos os outros milagres se, sem sinais milagrosos, o mundo tivesse sido induzido por homens simples e de origem humilde a acreditar em verdades tão árduas, a realizar obras tão difíceis, a esperar recompensas tão altas. E, no entanto, mesmo em nossos tempos, Deus não cessa, por meio de Seus santos, de operar milagres para a confirmação da fé.
+
+## Capítulo VII. Que a Verdade da razão não é contrária à Verdade da Fé Cristã
+
+CAPÍTULO VII - Que a verdade da razão não é contrária à verdade da fé cristã OS ditames naturais da razão devem certamente ser verdadeiros: é impossível pensar que sejam de outra forma. Nem é permitido acreditar que os princípios da fé sejam falsos, sendo tão evidentemente confirmados por Deus. Visto que, portanto, só a falsidade é contrária à verdade, é impossível que a verdade da fé seja contrária aos princípios conhecidos pela razão natural.
+
+2. Tudo o que é colocado na mente do discípulo pelo professor está contido no conhecimento do professor, a menos que o professor esteja ensinando desonestamente, o que seria uma coisa perversa de se dizer de Deus. Mas o conhecimento dos princípios naturalmente conhecidos é colocado em nós por Deus, visto que o próprio Deus é o autor da nossa natureza. Portanto estes princípios também estão contidos na Sabedoria Divina. Portanto, tudo o que for contrário a estes princípios é contrário à Sabedoria Divina e não pode ser de Deus.
+
+3. Razões contrárias agrilhoam rapidamente o nosso intelecto, de modo que ele não pode prosseguir para o conhecimento da verdade. Se, portanto, informações contrárias nos fossem enviadas por Deus, nosso intelecto seria impedido de conhecer a verdade: mas tal obstáculo não pode ser de Deus.
+
+4. O que é natural não pode ser mudado enquanto a natureza permanecer. Mas opiniões contrárias não podem estar na mesma mente ao mesmo tempo: portanto, nenhuma opinião ou crença é enviada ao homem por Deus, contrária ao conhecimento natural.
+
+E por isso o Apóstolo diz: A palavra está perto no teu coração e na tua boca, isto é, a palavra da fé que pregamos (Rom. x, 8). Mas porque ultrapassa a razão, é considerado por alguns como contrário à razão, o que não pode ser. No mesmo sentido está a autoridade de Agostinho (Gen. ad litt. ii, 18): “O que a verdade revela não pode de forma alguma ser contrário aos livros sagrados, seja do Antigo ou do Novo Testamento”. Portanto, é evidente a conclusão de que quaisquer argumentos alegados contra os ensinamentos da fé não procedem logicamente dos primeiros princípios da natureza, princípios conhecidos por si mesmos, e portanto não equivalem a uma demonstração; mas são razões prováveis ​​ou sofísticas; portanto, resta espaço para refutá-los.
+
+## Capítulo VIII. Da relação da razão humana com a primeira verdade da fé
+
+CAPÍTULO VIII — Da relação da razão humana com a primeira verdade da fé AS coisas dos sentidos, de onde a razão humana toma o seu início de conhecimento, retêm em si algum traço de imitação de Deus, na medida em que são e são boas; contudo, esse traço é tão imperfeito que se mostra totalmente insuficiente para declarar a substância do próprio Deus. Visto que cada agente age para produzir a sua própria semelhança, os efeitos, nas suas diversas formas, apresentam alguma semelhança com as suas causas: no entanto, o efeito nem sempre atinge a semelhança perfeita do agente que o produz. Em relação então a
+
+conhecimento da verdade da fé, que só pode ser completamente conhecida por aqueles que contemplam a substância de Deus, a razão humana está tão condicionada que é capaz de argumentar algumas semelhanças verdadeiras com ela: semelhanças essas, no entanto, não são suficientes para qualquer tipo de compreensão demonstrativa ou intuitiva da verdade acima mencionada. Ainda assim, é útil para a mente humana exercitar-se em tais raciocínios, por mais fracos que sejam, desde que não haja esperança presunçosa de compreensão ou demonstração perfeita. Com esta visão concorda a autoridade de Hilary, que diz (De Trinitate, ii, 10), falando de tal verdade: "Nesta crença, comece, corra, persista; e embora eu saiba que você não alcançará a meta, ainda assim irei parabenizá-lo ao vê-lo fazendo progresso. Mas não se intrometa nesse santuário, e não mergulhe no mistério da verdade infinita; não alimente nenhuma esperança presunçosa de compreender o auge da inteligência, mas entenda que isso é incompreensível."
+
+## Capítulo IX. A ordem e modo de procedimento neste trabalho
+
+CAPÍTULO IX — A ordem e o modo de procedimento neste trabalho HÁ então um duplo tipo de verdade nas coisas divinas para o homem sábio estudar: uma que pode ser alcançada pela investigação racional, outra que transcende toda a indústria da razão. Esta verdade das coisas divinas não chamo de dupla por parte de Deus, que é uma Verdade simples, mas por parte do nosso conhecimento, pois nossa faculdade cognitiva tem diferentes aptidões para o conhecimento das coisas divinas. Portanto, para a declaração do primeiro tipo de verdade devemos proceder por razões demonstrativas que possam servir para convencer o adversário. Mas porque tais razões não são possíveis para a verdade do segundo tipo, o nosso objectivo não deve ser convencer o adversário através de razões, mas refutar os seus raciocínios contra a verdade, o que podemos esperar fazer, uma vez que a razão natural não pode ser contrária à verdade da fé.
+
+O modo especial de refutação a ser empregado contra um oponente deste segundo tipo de verdade é alegar a autoridade das Escrituras confirmada do céu por milagres. Existem, no entanto, algumas razões prováveis ​​disponíveis para a declaração desta verdade, para exercício e consolação dos fiéis, mas não para convencer os oponentes, porque a mera insuficiência de tal raciocínio os confirmaria no seu erro, pensando eles que concordamos com a verdade da fé por razões tão fracas.
+
+De acordo com a maneira indicada, direcionaremos nossos esforços, em primeiro lugar, para a manifestação daquela verdade que a fé professa e a razão busca, alegando razões demonstrativas e prováveis, algumas das quais reunimos nos livros de filósofos e santos, para o estabelecimento da verdade e a refutação do oponente. Então, para passar do que é mais para o que é menos manifesto a nosso respeito, passaremos à manifestação daquela verdade que transcende a razão, resolvendo os argumentos dos oponentes, e por razões e autoridades prováveis, na medida em que Deus nos permitir, declarando a verdade da fé.
+
+Tomando, portanto, o caminho da razão para a busca das verdades que a razão humana pode buscar a respeito de Deus, a primeira consideração que nos encontra é a dos atributos de Deus em Si mesmo; em segundo lugar, da vinda de criaturas de Deus; terceiro da ordem das criaturas a Deus quanto ao seu fim último.
+
+## Capítulo X. Da opinião daqueles que dizem que a existência de Deus não pode ser provada, sendo uma verdade evidente
+
+CAPÍTULO X - Da opinião daqueles que dizem que a existência de Deus não pode ser provada, sendo uma verdade autoevidente ESTA opinião baseia-se nos seguintes fundamentos:
+
+1. São evidentes aquelas verdades que são reconhecidas imediatamente, assim que os termos em que são expressas são conhecidos. Tal verdade é a afirmação de que Deus existe: pois pelo nome “Deus” entendemos algo maior do que o qual nada pode ser pensado. Esta noção é formada no entendimento de quem ouve e entende o nome ‘Deus’, de modo que Deus já deve existir pelo menos na mente. Agora, Ele não pode existir apenas na mente: pois o que está na mente e na realidade é maior do que aquilo que está apenas na mente; mas nada é maior que Deus, como mostra o próprio significado do nome: segue-se que a existência de Deus é uma verdade autoevidente, sendo evidenciada pelo mero significado do nome.
+
+2. É concebível a existência de um ser que não poderia ser concebido como não existindo; tal ser é evidentemente maior do que outro que poderia ser concebido como não existindo. Assim, então, algo maior que Deus é concebível se Ele pudesse ser concebido como não existindo; mas qualquer coisa “maior que Deus” é contra o significado do nome “Deus”. Resta então que a existência de Deus é uma verdade evidente por si mesma.
+
+3. São mais evidentes aquelas proposições que são identidades, como 'O homem é homem', ou nas quais os predicados estão incluídos nas definições dos sujeitos, como 'O homem é um animal'. Mas em Deus de todos os seres isso é verdadeiro, que Sua existência é Sua essência, como será mostrado mais tarde (Cap. XXII); e, portanto, há uma e a mesma resposta para a pergunta “O que é Ele?” e “Se Ele é”. Assim, então, quando se diz “Deus é”, o predicado ou é o mesmo que o sujeito ou pelo menos está incluído na definição do sujeito; e assim a existência de Deus será uma verdade evidente por si mesma.
+
+4. As coisas naturalmente conhecidas são evidentes por si mesmas: pois o conhecimento delas não é alcançado por investigação e estudo. Mas a existência de Deus é conhecida naturalmente, pois o desejo do homem tende naturalmente para Deus como para o seu fim último, como se mostrará mais adiante (B. III, Cap. XXV).
+
+5. Deve ser evidente que todas as outras coisas são conhecidas; mas tal é Deus; pois assim como a luz do sol é o princípio de toda percepção visual, a luz divina é o princípio de toda cognição intelectual.
+
+## Capítulo XI. Rejeição do referido parecer e solução dos motivos acima mencionados
+
+CAPÍTULO XI - Rejeição da opinião acima mencionada e solução das razões acima mencionadas A opinião acima surge em parte do costume, estando os homens acostumados desde o início a ouvir e invocar o nome de Deus. O costume, especialmente aquele que existe desde o início, toma o lugar da natureza; portanto, as noções com as quais a mente está imbuída desde a infância são mantidas tão firmemente como se fossem naturalmente conhecidas e evidentes. Em parte também deve a sua origem à negligência de uma distinção entre o que é absolutamente evidente por si mesmo e o que é relativamente evidente para nós. Na verdade, a existência de Deus é absolutamente evidente, uma vez que a essência de Deus é a Sua existência. Mas como não podemos conceber mentalmente a essência de Deus, a sua existência não é evidente em relação a nós.
+
+1. A existência de Deus também não é necessariamente evidente assim que o significado do nome “Deus” é conhecido. Primeiro, porque não é evidente, mesmo para todos os que admitem a existência de Deus, que Deus seja algo maior do que nada pode ser concebido, já que muitos dos antigos diziam que este mundo era Deus. Então, admitindo que o uso universal entenda pelo nome de “Deus” algo maior do que o qual nada pode ser concebido, não se seguirá que exista in rerum natura algo maior do que o qual nada pode ser concebido. Pois ‘coisa’ e “noção implícita no nome da coisa” devem responder uma à outra. Da concepção na mente daquilo que é declarado por este nome “Deus”, não se segue que Deus exista de outra forma que não na mente. Conseqüentemente, também não haverá necessidade de que algo maior do que o qual nada pode ser concebido exista de outra forma que não na mente; e daí não se segue que haja algo in rerum natura maior do que o qual nada possa ser concebido.
+
+E assim a suposição da inexistência de Deus permanece intocada. Pois a possibilidade de nosso pensamento ultrapassar a grandeza de qualquer objeto dado, seja da ordem real ou da ordem ideal, não tem nada que vexa a alma de ninguém, exceto daquele que já garante a existência in rerum natura de algo além do qual nada pode ser concebido maior.
+
+2. Nem é necessário que algo maior do que Deus seja concebível, se a Sua inexistência for concebível. Pois a possibilidade de concebê-lo como não existindo não surge da imperfeição ou incerteza do Seu Ser, visto que o Seu Ser é por si mesmo o mais manifesto, mas da enfermidade do nosso entendimento, que não pode discerni-Lo como Ele é de Si mesmo, mas apenas pelos efeitos que Ele produz; e assim é levado pelo raciocínio ao conhecimento Dele.
+
+3. Assim como é evidente para nós que o todo é maior que sua parte, a existência de Deus é mais evidente para aqueles que veem a essência divina, na medida em que Sua essência é Sua existência. Mas porque não podemos ver a Sua essência, somos levados ao conhecimento da Sua existência, não pelo que Ele é em Si mesmo, mas pelos efeitos que Ele opera.
+
+4. O homem conhece Deus naturalmente, assim como O deseja naturalmente. Ora, o homem O deseja naturalmente, na medida em que deseja naturalmente a felicidade, que é uma certa semelhança com a bondade divina. Assim, não é necessário que Deus, considerado em si mesmo, seja naturalmente conhecido pelo homem, mas sim uma certa semelhança de Deus. Conseqüentemente, o homem deve ser levado ao conhecimento de Deus por meio das semelhanças Dele que são encontradas nos efeitos que Ele opera.
+
+5. Deus é aquele onde todas as coisas são conhecidas, não como se outras coisas não pudessem ser conhecidas sem que Ele fosse conhecido primeiro, como acontece no caso de princípios autoevidentes, mas porque através de Sua influência todo o conhecimento é causado em nós.
+
+## Capítulo XII. Da opinião daqueles que dizem que a existência de Deus é apenas um princípio de fé e não pode ser demonstrada
+
+CAPÍTULO XII - Da opinião daqueles que dizem que a existência de Deus é apenas um princípio de fé e não pode ser demonstrada A falsidade desta opinião é-nos mostrada também pela arte da demonstração, que nos ensina a argumentar as causas a partir dos efeitos, como também pela ordem das ciências, pois se não houver substância cognoscível acima das substâncias sensíveis, não haverá ciência acima da ciência física; como também pelos esforços dos filósofos, direcionados à prova da existência de Deus; como também pela afirmação da verdade apostólica: As coisas invisíveis de Deus são claramente vistas, sendo compreendidas pelas coisas que são feitas (Rom. 1, 20).
+
+O axioma de que em Deus a essência e a existência são a mesma deve ser entendido como a existência pela qual Deus subsiste em Si mesmo, cuja maneira nos é desconhecida, assim como a Sua essência; não da existência que significa um julgamento afirmativo do entendimento. Pois na forma de tal julgamento afirmativo o fato de que existe um Deus cai sob demonstração; já que nossa mente é conduzida por razões demonstrativas para formar tal proposição declaratória da existência de Deus. Nos raciocínios pelos quais a existência de Deus é demonstrada, não é necessário assumir como premissa a essência ou quididade de Deus: mas em vez da quididade o efeito é tomado como premissa, como é feito nas demonstrações a posteriori do efeito à causa. Todos os nomes de Deus são impostos pelo princípio de negar ao próprio Deus certos efeitos de Seu poder, ou por alguma habituação de Deus em relação a esses efeitos. Embora Deus transcenda os sentidos e os objetos dos sentidos, os efeitos sensíveis são, no entanto, a base da nossa demonstração da existência de Deus. Assim, a origem do nosso próprio conhecimento está no sentido, mesmo de coisas que transcendem o sentido.
+
+## Capítulo XIII. Razões em Prova da Existência de Deus
+
+CAPÍTULO XIII — Razões na prova da existência de Deus Colocaremos em primeiro lugar as razões pelas quais Aristóteles procede à prova da existência de Deus a partir da consideração do movimento como se segue.
+
+Tudo o que está em movimento é posto e mantido em movimento por alguma outra coisa. É evidente sentir que há seres em movimento. Uma coisa está em movimento porque outra coisa a põe e mantém em movimento. Esse motor, portanto, está em movimento ou não. Se não estiver em movimento, ganhamos o ponto que propusemos provar, a saber, que devemos postular algo que move outras coisas sem estar em movimento, e a isso chamamos Deus. Mas se o motor estiver em movimento, então ele é movido por algum outro motor. Ou então temos que ir até o infinito, ou devemos chegar a algum motor que esteja imóvel; mas é impossível ir até o infinito, portanto devemos postular algum motor principal imóvel. Neste argumento há duas proposições a serem provadas: que tudo o que está em movimento é posto e mantido em movimento por outra coisa; e que na série dos motores e das coisas movidas é impossível ir até o infinito.
+
+O Filósofo também prossegue de outra forma para mostrar que é impossível prosseguir ao infinito na série de causas eficientes, mas devemos chegar a uma causa primeira, e a esta chamamos Deus. O caminho é mais ou menos o seguinte. Em toda série de causas eficientes, o primeiro termo é causa do intermediário e o intermediário é causa do último. Mas se nas causas eficientes há um processo até ao infinito, nenhuma das causas será a primeira: portanto serão retiradas todas as outras que são intermédias. Mas manifestamente não é esse o caso; portanto, devemos postular a existência de alguma causa eficiente primeira, que é Deus.
+
+Outro argumento é apresentado por São João Damasceno (De Fid. Orthod. I, 3), assim: É impossível que coisas contrárias e discordantes caiam sempre ou em sua maior parte em uma ordem harmoniosa, exceto sob alguma orientação, atribuindo a cada um e a todos uma tendência para um fim fixo. Mas no mundo vemos coisas de diferentes naturezas entrando em ordem harmoniosa, não raramente e fortuitamente, mas sempre ou na maior parte. Portanto deve haver algum Poder por cuja providência o mundo seja governado; e que chamamos de Deus.
+
+## Capítulo XIV. Que para um Conhecimento de Deus devemos usar o Método da Diferenciação Negativa
+
+CAPÍTULO XIV - Que para ter conhecimento de Deus devemos usar o método da diferenciação negativa DEPOIS de mostrar que existe um Ser Primeiro, a quem chamamos de Deus, devemos investigar as condições de Sua existência. Devemos usar o método da diferenciação negativa, particularmente na consideração da substância divina. Pois a substância divina, pela sua imensidão, transcende todas as formas que o nosso intelecto pode realizar; e assim não podemos apreendê-lo sabendo o que é, mas temos algum tipo de conhecimento sabendo o que não é. Quanto mais pudermos diferenciá-lo negativamente, ou quanto mais atributos pudermos extrair dele em nossa mente, mais nos aproximaremos do conhecimento dele: pois conhecemos cada coisa mais perfeitamente, mais completa será a visão que teremos de suas diferenças em comparação com outras coisas; pois cada coisa tem em si um ser próprio, distinto de todas as outras.
+
+Portanto, ao lidar com coisas que podemos definir, primeiro as colocamos em algum gênero, pelo qual sabemos em geral o que é a coisa; e depois acrescentamos as diferenças pelas quais a coisa se distingue das outras coisas; e assim se alcança um conhecimento completo da substância da coisa. Mas porque no estudo da substância divina não podemos fixar nada para um gênero (Cap. XXV), nem podemos distinguir essa substância de outras coisas por diferenças afirmativas, devemos determiná-la por diferenças negativas. Nas diferenças afirmativas, uma limita a extensão da outra e nos aproxima de uma designação completa da coisa sob investigação, na medida em que faz com que essa coisa seja diferente de um número cada vez maior de coisas. E o mesmo se aplica às diferenças negativas. Por exemplo, podemos dizer que Deus não é um acidente, na medida em que Ele se distingue de todos os acidentes; então, se acrescentarmos que Ele não é um corpo, iremos distingui-Lo ainda mais de algumas substâncias; e assim, por meio de tais negações, Ele será ainda mais distinguido de tudo além de Si mesmo; e então haverá uma noção adequada de Sua substância, quando Ele será conhecido como distinto de todos.
+
+Ainda assim não será um conhecimento perfeito, porque Ele não será conhecido pelo que Ele é em Si mesmo.
+
+Para proceder, portanto, no conhecimento de Deus por meio da diferenciação negativa, tomemos como princípio o que foi demonstrado no capítulo anterior, que Deus é totalmente imóvel, o que é confirmado também pela autoridade da Sagrada Escritura. Pois está dito: Eu sou o Senhor e não mudo (Mal. iii, 6); Com quem não há mudança (Tiago i, 17); Deus não é como o homem, para que ele mude (Núm. xxiii, 19).
+
+## Capítulo XV. Que Deus é Eterno
+
+CAPÍTULO XV — Que Deus é Eterno O começo de qualquer coisa e seu cessar de existir são provocados por movimento ou mudança. Mas foi demonstrado que Deus é totalmente imutável: Ele é, portanto, eterno, sem começo nem fim.
+
+2. Somente aquelas coisas que estão em movimento são medidas pelo tempo, visto que o tempo é uma enumeração do movimento. Mas Deus é totalmente sem movimento e, portanto, não é medido pelo tempo. Portanto, Nele é impossível fixar qualquer antes ou depois: Ele não tem nenhum ser depois de não ser, nem pode ter nenhum não-ser depois de ser, nem nenhuma sucessão pode ser encontrada em Seu ser, porque tudo isso é ininteligível sem o tempo. Ele é, portanto, sem começo e sem fim, tendo todo o Seu ser ao mesmo tempo, onde consiste a essência da eternidade.
+
+3. Se em algum momento Deus não existiu, e depois existiu, Ele foi gerado por alguma causa do não ser para o ser. Mas não por si mesmo, porque o que não existe não pode fazer nada. Mas se for por outro, esse outro é anterior a Ele. Mas foi demonstrado que Deus é a Causa Primeira; portanto, Ele não começou a existir; portanto, também não deixará de ser; porque o que sempre foi tem a força de ser sempre.
+
+4. Vemos no mundo algumas coisas que são possíveis de ser e de não ser. Mas tudo o que é possível ser tem uma causa: por ver que por si só está aberto a duas alternativas, ser e não ser; se o ser deve ser atribuído a ele, isso deve ser por alguma causa. Mas não podemos prosseguir até ao infinito numa série de causas: portanto, devemos postular algo que necessariamente é. Ora, tudo o que é necessário ou tem a causa da sua necessidade em outro lugar, ou não em outro lugar, mas é por si mesmo necessário. Mas não podemos prosseguir até ao infinito na enumeração das coisas necessárias que têm a causa da sua necessidade proveniente de outro lugar: portanto, devemos chegar a alguma primeira coisa necessária, que é por si mesma necessária; e isso é Deus. Portanto, Deus é eterno, pois tudo o que é necessário por si só é eterno.
+
+Daí o salmista: Mas tu, Senhor, permaneces para sempre: tu és o mesmo, e os teus anos não acabarão (Sl. ci, 13-28).
+
+## Capítulo XVI. Que em Deus não há Potencialidade Passiva
+
+CAPÍTULO XVI — Que em Deus não há Potencialidade Passiva TUDO que tem em sua substância uma mistura de potencialidade, na medida em que tem potencialidade é passível de não ser: porque o que pode ser, também não pode ser. Mas Deus em Si mesmo não pode não existir, visto que Ele é eterno; portanto não há em Deus nenhuma potencialidade.
+
+2. Embora, na ordem do tempo, aquilo que às vezes está em potência, às vezes em atualidade, esteja em potencialidade antes de estar em atualidade, ainda assim, absolutamente falando, a atualidade é anterior à potencialidade, porque a potencialidade não se torna realidade, mas é trazida à atualidade por algo que já está em atualidade. Portanto, tudo o que é de alguma forma potencial tem algo mais antes de si. Mas Deus é o Primeiro Ser e a Primeira Causa e, portanto, não tem em Si mesmo qualquer mistura de potencialidade.
+
+4. Tudo age enquanto é na realidade. Então, tudo o que não é totalmente realidade, não age por si mesmo, mas por algo de si mesmo. Mas o que não age por si só não é um agente principal; pois age pela participação em outra coisa, e não pela sua própria essência. O agente principal, então, que é Deus, não tem nenhuma mistura de potencialidade, mas é pura realidade.
+
+6. Vemos que existe no mundo aquilo que passa da potencialidade à realidade. Mas não se eduz da potência para a realidade, porque o que está na potência ainda não existe e, portanto, não pode agir. Portanto, deve haver alguma outra coisa anterior, através da qual esta coisa possa ser trazida da potência para a realidade. E, novamente, se esta coisa adicional sai da potência para a realidade, deve ser colocada antes dela ainda alguma outra coisa, através da qual possa ser reduzida à realidade. Mas este processo não pode continuar para sempre: portanto, devemos chegar a algo que existe apenas na realidade, e de forma alguma em potencialidade; e que chamamos de Deus.
+
+## Capítulo XVIII. Que em Deus não há Composição
+
+CAPÍTULO XVIII — Que em Deus não há Composição EM todo composto deve haver atualidade e potencialidade. Pois uma pluralidade de coisas não pode tornar-se uma coisa, a menos que haja realidade e potencialidade. Pois as coisas que não são absolutamente uma, não são realmente unidas, exceto por serem de certa forma amarradas ou unidas: neste caso, as partes assim reunidas têm potencialidade em relação à união; pois eles se combinam na verdade, depois de terem sido potencialmente combináveis. Mas em Deus não há potencialidade: portanto não há nele nenhuma composição.
+
+3. Todo composto é potencialmente solúvel no que diz respeito ao fato de ser composto, embora em alguns casos possa haver algum outro fato que impeça a dissolução. Mas o que é solúvel está na potencialidade de não ser, o que não pode ser dito de Deus, visto que Ele é por si mesmo um Ser necessário.
+
+## Capítulo XX. Que Deus é Incorpóreo
+
+CAPÍTULO XX — Que Deus é Incorpóreo TODA coisa corpórea, sendo extensa, é composta e tem partes. Mas Deus não é composto: portanto, Ele não é nada corpóreo.
+
+5. De acordo com a ordem dos objetos está a ordem e a distinção dos poderes: portanto, acima de todos os objetos sensíveis existe algum objeto inteligível,
+
+existente na natureza das coisas. Mas toda coisa corpórea existente na natureza é sensível: portanto, há algo determinável acima de todas as coisas corpóreas, algo mais nobre do que elas. Se, portanto, Deus é corpóreo, Ele não é o primeiro e maior Ser.
+
+Com esta verdade demonstrada a autoridade divina também concorda. Pois é dito: Deus é espírito (João iv, 24): Ao Rei dos séculos, imortal, invisível, somente Deus (1 Timóteo 1, 17): As coisas invisíveis de Deus são compreendidas e discernidas pelas coisas que são feitas (Romanos 1, 29). Pois as coisas que se discernem, não pela vista, mas pelo entendimento, são incorpóreas.
+
+Assim é destruído o erro dos primeiros filósofos naturais, que postulavam apenas causas materiais. Os gentios também são refutados, pois estabelecem os elementos do mundo e os poderes nele existentes como deuses; também as loucuras dos hereges antropomorfistas, que imaginavam Deus sob contornos corporais; também dos maniqueístas, que pensavam que Deus era uma substância infinita de luz difundida no espaço infinito. A causa de todos esses erros foi que, ao pensar nas coisas divinas, os homens ficaram sob a influência da imaginação, que só pode ter conhecimento da semelhança corporal. E, portanto, devemos transcender a imaginação no estudo das coisas incorpóreas.
+
+## Capítulo XXI. Que Deus é Sua própria Essência
+
+CAPÍTULO XXI — Que Deus é Sua própria Essência Em tudo que não é sua própria essência, quididade ou natureza, deve haver alguma composição. Pois como em tudo está contida a sua própria essência, se em alguma coisa não estivesse contida nada além da sua essência, toda essa coisa seria a sua essência, e assim ela mesma seria a sua própria essência. Se então alguma coisa não é a sua própria essência, deve haver algo nessa coisa além da sua essência, e portanto deve haver nela composição. Daí também se falar da essência nas coisas compostas como uma parte, como a humanidade no homem. Mas foi demonstrado que em Deus não há composição. Deus, portanto, é Sua própria essência.
+
+2. Somente isso é considerado além da essência de uma coisa, o que não entra em sua definição: pois a definição declara o que a coisa é essencialmente. Mas os acidentes de uma coisa são os únicos pontos sobre ela que não se enquadram na definição: portanto, os acidentes são os únicos pontos sobre uma coisa além da sua essência. Mas em Deus não há acidentes, como se mostrará (Cap. XXIII): portanto não há nada Nele além de Sua essência.
+
+3. As formas que não são previsíveis das coisas subsistentes, seja no universal ou no singular, são formas que não subsistem por si mesmas isoladamente, individualizadas em si mesmas. Não se diz que Sócrates, o homem ou o animal sejam brancos; porque a brancura não é algo que subsiste isoladamente em si mesma, mas é individualizada pela substância em que existe. Também as essências ou quididades dos gêneros ou espécies são individualizadas de acordo com a matéria definida deste ou daquele indivíduo, embora a quididade genérica ou específica inclua a forma e a matéria em geral: portanto, não se diz que Sócrates ou o homem sejam a humanidade. Mas a Essência Divina é algo que existe por si só e individualizado em si, como será mostrado (Cap. XLII). A Essência Divina, portanto, é predicada de Deus de tal forma que se pode dizer: ‘Deus é a Sua própria essência.’
+
+## Capítulo XXII. Que em Deus a Existência e a Essência são a mesma
+
+CAPÍTULO XXII — Que em Deus a Existência e a Essência são a mesma Foi mostrado acima (Cap. XV, n. 4) que existe uma Existência que por si mesma necessariamente é; e isso é Deus. Se esta existência, que necessariamente existe, está contida em alguma essência que não é idêntica a ela, então ou ela é dissonante e está em desacordo com essa essência, assim como a existência subsistente está em desacordo com a essência da brancura; ou está em consonância e é semelhante a essa essência, assim como a existência em algo diferente de si mesma está em consonância com a brancura. No primeiro caso, a existência que necessariamente é por si mesma não se ligará a essa essência, assim como a existência subsistente não se ligará à brancura. Neste último caso, ou tal existência deve depender da essência, ou tanto a existência como a essência dependem de outra causa, ou a essência deve depender da existência.
+
+As duas primeiras suposições são contra a ideia de um ser que por si só é necessariamente; porque, se depende de outra coisa, já não é necessariamente. Da terceira suposição segue-se que essa essência é acidental e adventícia à coisa que por si mesma necessariamente é; porque tudo o que se segue ao ser de uma coisa é acidental para ela; e assim a suposta essência não será de forma alguma a essência. Deus, portanto, não tem essência que não seja Sua existência.
+
+2. Tudo existe por sua própria existência. Tudo o que então não é a sua própria existência não existe necessariamente por si mesmo. Mas Deus existe necessariamente por si mesmo: portanto, Deus é Sua própria existência.
+
+4. “Existência” denota uma certa atualidade: pois não se diz que uma coisa “é” pelo que é potencialmente, mas pelo que é realmente. Mas tudo o que está associado a uma realidade, existindo como algo diferente dela, equivale à potência para a realidade. Se então a essência divina é algo mais do que a sua própria existência, segue-se que a essência e a existência em Deus representam uma à outra como potencialidade e realidade. Mas foi demonstrado que em Deus não há nada de potencialidade (Cap. XVI), mas que Ele é pura atualidade. Portanto, a essência de Deus não é outra coisa senão a Sua existência.
+
+5. Tudo o que não pode existir exceto pela concorrência de várias coisas é composto. Mas nada em que a essência seja uma coisa e a existência
+
+outro, só pode existir pela concorrência de várias coisas, a saber, essência e existência. Portanto, tudo em que a essência é uma coisa e a existência outra, é composto. Mas Deus não é composto, como foi demonstrado (Cap. XVIII). Portanto, a própria existência de Deus é Sua essência.
+
+Esta sublime verdade foi ensinada pelo Senhor a Moisés (Êxodo iii, 13, 14). Se me perguntarem: Qual é o seu nome? o que devo dizer a eles? Assim dirás aos filhos de Israel: Aquele que é me enviou a vós; mostrando que este é o seu próprio nome, Aquele que é. Mas todo nome é dado para mostrar a natureza ou essência de alguma coisa. Portanto, resta que a própria existência ou ser de Deus é Sua essência ou natureza.
+
+## Capítulo XXIII. Que em Deus não há Acidente
+
+CAPÍTULO XXIII — Que em Deus não há Acidente TUDO o que está acidentalmente numa coisa tem uma causa para estar nela, visto que está ao lado da essência da coisa em que está. Se então há algo em Deus acidentalmente, isto deve ser por alguma causa. Portanto, ou a causa do acidente é a própria Divindade, ou alguma outra coisa. Se for outra coisa, esse algo deve agir sobre a substância divina: pois nada induz qualquer forma, seja substancial ou acidental, em qualquer destinatário, exceto agindo de alguma forma sobre ele, porque agir nada mais é do que fazer algo realmente ser, o que é através de uma forma. Assim, Deus será influenciado e movido por algum agente, o que vai contra as conclusões do Capítulo XIII. Mas se a própria substância divina é a causa do acidente que se supõe estar nela, então – na medida em que não pode ser a causa dele na medida em que é o destinatário dele, porque nesse caso a mesma coisa no mesmo aspecto se atualizaria – então este acidente, suposto estar em Deus, precisa ser recebido por Ele em um aspecto e causado por Ele em outro, assim como as coisas corpóreas recebem seus acidentes próprios pela virtude de sua matéria, e os causam por sua forma.
+
+Assim, então, Deus será composto, o contrário do que foi provado acima.>
+
+4. Em qualquer coisa que seja acidentalmente, essa coisa é de alguma forma mutável em sua natureza: pois o acidente como tal pode existir ou não na coisa em que está. Se então Deus tem algo ligado a Ele acidentalmente, segue-se que Ele é mutável, o contrário do que foi provado acima (Cap. XIII, XV).
+
+5. Uma coisa em que entra o acidente não é tudo e qualquer coisa que está contida em si mesma: porque o acidente não é da essência do sujeito. Mas Deus é tudo o que Ele tem em Si mesmo. Portanto, em Deus não há acidente. – As premissas são provadas assim. Tudo se encontra mais excelentemente na causa do que no efeito. Mas Deus é a causa de tudo: portanto, tudo o que Nele há é encontrado lá da maneira mais excelente possível. Mas o que se liga mais perfeitamente a uma coisa é a própria coisa. Esta unidade de identidade é mais perfeita do que a união substancial de um elemento com outro, por exemplo, da forma com a matéria; e essa união é novamente mais perfeita do que a união que resulta de uma coisa estar acidentalmente em outra. Resta, portanto, que Deus é tudo o que Ele tem.
+
+Daí Agostinho (De Trinitate, v, c. 4, n. 5): “Não há nada acidental em Deus, porque não há nada mutável ou perecível”. A manifestação desta verdade é a refutação de diversos juristas sarracenos, que supõem certas “idéias” acrescentadas à Essência Divina.
+
+## Capítulo XXIV. Que a existência de Deus não pode ser caracterizada pela adição de qualquer diferença substancial
+
+CAPÍTULO XXIV - Que a existência de Deus não pode ser caracterizada pela adição de qualquer diferença substancial É impossível que algo realmente exista, a menos que existam todas as coisas pelas quais seu ser substancial seja caracterizado. Um animal não pode realmente existir sem ser um animal racional ou irracional. Conseqüentemente, os platônicos, ao postularem Idéias, não postularam Idéias autoexistentes de gêneros, visto que os gêneros são caracterizados e trazidos a um ser específico pela adição de diferenças essenciais; mas eles postularam apenas ideias autoexistentes de espécie, visto que para a caracterização (adicional) das espécies (nos indivíduos que lhes pertencem) não há necessidade de diferenças essenciais. Se, então, a existência de Deus é caracterizada e recebe uma característica essencial pela adição de outra coisa, essa existência não existirá por si mesma, exceto quando essa outra coisa lhe for acrescentada.
+
+Mas a existência de Deus é a Sua própria substância, como foi demonstrado. Segue-se que a substância de Deus não poderia realmente existir, exceto por algo superveniente sobre ela; e daí resultaria a conclusão adicional de que a substância de Deus não é necessariamente existente em si mesma, o contrário do que foi mostrado acima (Cap. XV, n. 4)
+
+2. Tudo o que precisa de algo superadicionado para que possa existir, está em potencialidade em relação a essa adição. Ora, a substância divina não está de forma alguma em potencialidade, como foi demonstrado (Cap. XVI), mas a própria substância de Deus é o próprio ser de Deus. Portanto, Sua existência não pode ser caracterizada por nenhuma característica substancial acrescentada.
+
+## Capítulo XXV. Que Deus não está em nenhum gênero
+
+CAPÍTULO XXV — Que Deus não está em nenhum gênero TUDO o que está em qualquer gênero contém algo pelo qual a natureza do gênero é caracterizada e reduzida a espécie: pois não há nada no gênero que não esteja em alguma espécie dele. Mas isso é impossível em Deus, como foi demonstrado no capítulo anterior.
+
+2. Se Deus está em qualquer gênero, Ele está no gênero do acidente ou no gênero da substância. Ele não pertence ao gênero do acidente, pois o acidente não pode ser o ser primeiro e a causa primeira. Novamente, Ele não pode estar no gênero da substância: pois a substância que é um gênero não é mera existência: caso contrário, toda substância seria sua própria existência, uma vez que a ideia do gênero é mantida em tudo o que está contido sob o gênero: nesse caso, nenhuma substância
+
+seria causada por outra, o que é impossível (Cap. XIII, XV). Mas Deus é mera existência: portanto, Ele não pertence a nenhum gênero.
+
+3. Tudo o que está em um gênero difere em termos de existência de outras coisas que estão no mesmo gênero: caso contrário, o gênero não seria predicado de várias coisas. Mas todas as coisas que estão no mesmo gênero devem concordar na quididade, ou essência, do gênero: por causa delas todos os gêneros são predicados de modo a responder à questão do que (quid) cada coisa é. Portanto, a existência de cada coisa que existe num gênero é algo que está além da quididade do gênero. Mas isso é impossível em Deus.
+
+4. Tudo é colocado num gênero em razão de sua quididade. Mas a quididade de Deus é Sua própria mera (plena) existência. Ora, uma coisa não é classificada num gênero com base na mera existência (nua): caso contrário, “ser”, no sentido de mera existência (nua), seria um gênero. Mas que ‘ser’ não pode ser um gênero é provado desta forma. Se o “ser” fosse um gênero, alguma diferença teria que ser encontrada para reduzi-lo a espécie. Mas nenhuma diferença participa do seu gênero: quero dizer, o gênero nunca é compreendido na ideia da diferença: porque nesse caso o gênero seria colocado duas vezes na definição da espécie. Differentia deve então ser algo além do que se entende na ideia de gênero. Ora, nada pode estar acima do que se entende pela ideia de “ser”; uma vez que o “ser” entra na concebibilidade de todas as coisas das quais é predicado e, portanto, não pode ser limitado por nenhuma diferença.
+
+Portanto, também é evidente que Deus não pode ser definido, porque toda definição é por gênero e por diferenças. É evidente também que não pode haver demonstração de Deus exceto através de algum efeito de Sua produção: porque o princípio da demonstração é uma definição da coisa definida.
+
+## Capítulo XXVI. Que Deus não é o ser formal ou abstrato de todas as coisas
+
+CAPÍTULO XXVI — Que Deus não é o ser formal ou abstrato de todas as coisas AS COISAS não se distinguem umas das outras na medida em que todas têm ser, porque nisso todas concordam. Se, portanto, as coisas diferem umas das outras, ou o próprio “ser” deve ser especificado por certas diferenças adicionais, de modo que coisas diferentes tenham um ser específico diferente; ou
+
+as coisas devem diferir no sentido de que o próprio “ser” se liga a naturezas especificamente diferentes. A primeira alternativa é impossível, porque não se pode acrescentar nada ao “ser”, como se acrescenta a diferença ao gênero, como foi dito (Cap. XXV, n. 4). Resta, portanto, que as coisas diferem porque têm naturezas diferentes, às quais o “ser” atribui-se de forma diferente. Mas o ser divino não é algo acessório de nenhuma natureza, mas é a própria natureza ou essência de Deus (Cap. XXII). Se, portanto, o ser divino fosse o ser formal e abstrato de todas as coisas, todas as coisas teriam de ser absolutamente uma.
+
+4. O que é comum a muitos não é nada além de muitos, exceto apenas no pensamento. Por exemplo, “animal” não é nada além de Sócrates, Platão e outros animais, exceto na mente que apreende a forma de “animal” despojada de todas as marcas individualizadoras e específicas: pois o que é realmente animal é o homem: caso contrário, seguir-se-ia que em Platão havia vários animais, a saber, o animal em geral, e o homem em geral, e o próprio Platão. Muito menos então é o simples ser em geral algo além de todas as coisas existentes, exceto apenas na mente. Se então Deus for em geral, Deus não será nada mais do que uma entidade lógica, algo que existe apenas na mente.
+
+Este erro é posto de lado pelo ensino da Sagrada Escritura, que confessa Deus elevado e elevado (Isa. vi, 1), e que Ele está acima de tudo (Rom. ix, 5). Pois se Ele é o ser de todos, então Ele é algo de todos, não acima de todos. Os defensores deste erro também são expulsos pela mesma sentença que expulsa os idólatras, que deram o nome incomunicável de Deus a troncos e pedras (Sábio xiv, 8, 21). Pois se Deus fosse o ser de todos, não seria mais verdadeiro dizer: ‘Uma pedra é um ser’ do que ‘Uma pedra é Deus’.
+
+O que levou os homens a esse erro foi um raciocínio falho. Pois, vendo que o que é comum a muitos é especializado e individualizado por adição, eles consideraram que o ser divino, ao qual nenhuma adição é feita, não era qualquer ser individual, mas era o ser geral de todas as coisas: falhando em observar que o que é comum ou universal não pode realmente existir sem adição, mas apenas é visto pela mente sem adição. “Animal” não pode existir sem “racional” ou “irracional” como diferença, embora possa ser pensado sem essas diferenças. Além disso, embora o universal possa ser pensado sem adição, ainda assim não sem suscetibilidade de adição. ‘Animal’ não seria um gênero se nenhuma diferença pudesse ser acrescentada a ele; e assim por diante outros nomes genéricos. Mas o ser divino não tem adição, não apenas em pensamento, mas também in rerum natura; e não apenas sem adição, mas mesmo sem suscetibilidade de adição.
+
+Portanto, a partir deste mesmo fato, de que Ele não recebe nem pode receber adição, podemos antes concluir que Deus não é um ser em geral, mas um ser individual: pois por este mesmo fato Seu ser se distingue de todos os outros seres, que nada pode ser acrescentado a ele. (Cap. XXIV).
+
+## Capítulo XXVIII. Que Deus é Perfeição Universal
+
+CAPÍTULO XXVIII - Que Deus é Perfeição Universal COMO toda perfeição e nobreza estão em uma coisa na medida em que a coisa é, assim também todo defeito está em uma coisa na medida em que a coisa de alguma maneira não o é. Assim como Deus tem o ser em sua totalidade, assim o não-ser está totalmente removido Dele, porque a medida em que uma coisa tem ser é a medida de sua remoção do não-ser. Portanto, todo defeito está ausente de Deus: Ele é, portanto, perfeição universal.
+
+2. Tudo o que é imperfeito deve proceder de algo perfeito: portanto, o Primeiro Ser deve ser perfeitíssimo.
+
+3. Tudo é perfeito na medida em que é na realidade; imperfeito, na medida em que está em potencialidade, com privação de atualidade. Aquilo então que não é de forma alguma potencialidade, mas é pura realidade, deve ser muitíssimo perfeito; e tal é Deus.
+
+4. Nada age exceto na medida em que está em atualidade: a ação segue, portanto, a medida da atualidade no agente. É impossível, portanto, que qualquer efeito que seja produzido pela ação seja de uma realidade mais nobre do que a do agente. É possível, porém, que a atualidade do efeito seja menos perfeita do que a atualidade da causa atuante, na medida em que a ação pode ser enfraquecida por parte do objeto no qual ela termina ou no qual é despendida. Ora, na categoria da causalidade eficiente, tudo é redutível, em última análise, a uma causa, que é Deus, de quem são todas as coisas. Portanto, tudo o que realmente existe em qualquer outra coisa deve ser encontrado em Deus muito mais eminentemente do que na própria coisa; Deus então é mais perfeito.
+
+Daí a resposta dada a Moisés pelo Senhor, quando ele procurou ver a face ou glória divina: Eu te mostrarei todo o bem (Êx. xxxiii, 19).
+
+## Capítulo XXIX. Como a semelhança com Deus pode ser encontrada nas criaturas
+
+CAPÍTULO XXIX — Como a semelhança com Deus pode ser encontrada nas criaturas. EFEITOS desproporcionais às suas causas não concordam com eles em nome e essência. E, no entanto, deve ser encontrada alguma semelhança entre tais efeitos e as suas causas: pois é da natureza de um agente fazer algo semelhante a si mesmo. Assim também Deus dá às criaturas todas as suas perfeições; e assim Ele tem com todas as criaturas uma semelhança e uma diferença ao mesmo tempo. Para este ponto de semelhança, porém, é mais apropriado dizer que a criatura é semelhante a Deus do que que Deus é semelhante à criatura. Pois isso é dito
+
+ser como uma coisa que possui sua qualidade ou forma. Visto então que aquilo que é encontrado com perfeição em Deus é encontrado em outros seres por alguma forma de participação imperfeita, o referido ponto de semelhança pertence absolutamente a Deus, mas não à criatura. E assim a criatura tem o que pertence a Deus, e é justamente dito que é semelhante a Deus: mas não se pode dizer que Deus tenha o que pertence à criatura, nem é apropriado dizer que Deus é semelhante à criatura; assim como não dizemos que um homem é como a sua imagem, e ainda assim a sua imagem é corretamente declarada como sendo como ele.
+
+## Capítulo XXX. Quais nomes podem ser predicados de Deus
+
+CAPÍTULO XXX - Que nomes podem ser predicados de Deus Podemos considerar ainda o que pode ser dito ou não dito de Deus, ou o que pode ser dito apenas sobre Ele, o que novamente pode ser dito de Deus e, ao mesmo tempo, também de outros seres. Na medida em que toda perfeição da criatura pode ser encontrada em Deus, embora de outra maneira e mais excelente, segue-se que quaisquer nomes que denotem absolutamente perfeição sem defeito são predicados de Deus e de outros seres, como por exemplo, ‘bondade’, ‘sabedoria’, ‘ser’ e assim por diante. Mas quaisquer nomes que denotem tal perfeição com a adição de um modo próprio às criaturas, não podem ser predicados de Deus exceto por meio de semelhança e metáfora, por meio das quais os atributos de uma coisa costumam ser adaptados a outra, como quando um homem é chamado de “bloco” pela densidade de seu entendimento.
+
+Desse tipo são todos os nomes impostos para denotar as espécies de uma coisa criada, como “homem” e “pedra”: pois a cada espécie é devido seu próprio modo próprio de perfeição e ser. Da mesma maneira, também quaisquer nomes que denotem propriedades que são causadas nas coisas por seus próprios princípios específicos, não podem ser predicados de Deus de outra forma que não metaforicamente. Mas os nomes que expressam tais perfeições com aquele modo de excelência supereminente em que pertencem a Deus são predicados somente de Deus, como por exemplo, ‘Soberano Bem’, ‘Primeiro Ser’ e semelhantes. Digo que alguns dos nomes acima mencionados implicam perfeição sem defeito, se considerarmos aquilo que o nome foi imposto a significar. Mas se considerarmos o modo de significação, todo nome é acompanhado de defeito: pois por um nome expressamos as coisas tal como as concebemos em nosso entendimento: mas nosso entendimento, tendo seu início de conhecimento nos objetos sensíveis, não transcende aquele modo que encontra em tais objetos sensíveis.
+
+Neles a forma é uma coisa e aquilo que tem forma é outra. A forma, certamente, é simples, mas imperfeita, pois não subsiste por si mesma: enquanto aquilo que tem a forma subsiste, mas não é simples – ou melhor, é concreto e composto. Portanto, tudo o que o nosso entendimento marca como subsistente, ele marca no concreto: o que ele marca como simples, ele marca, não como algo que é, mas como aquilo pelo qual algo é. E assim, em cada nome que pronunciamos, se considerarmos o modo de significação, é encontrada uma imperfeição que não se liga a Deus, embora a coisa significada possa se ligar a Deus de alguma forma eminente, como aparece no nome “bondade” e “bom”. Nesse aspecto, então, nenhum nome convém a Deus adequadamente, exceto no que diz respeito àquilo que o nome é imposto a significar.
+
+Tais nomes, portanto, podem ser afirmados e negados por Deus, afirmados por causa da
+
+significado do nome, negado pelo modo de significação. Mas o modo de supereminência, pelo qual as referidas perfeições são encontradas em Deus, não pode ser significado pelos nomes por nós impostos, exceto pela negação, como quando chamamos Deus de “eterno” ou “infinito”, ou por referência ou comparação Dele com outras coisas, como quando Ele é chamado de “Causa Primeira” ou “Bem Soberano”.
+
+## Capítulo XXXI. Que a Pluralidade dos Nomes divinos não é inconsistente com a Simplicidade do Ser Divino predicado de Deus e de outros Seres
+
+CAPÍTULO XXXI - Que a Pluralidade dos Nomes divinos não é inconsistente com a Simplicidade do Ser Divino predicado de Deus e de outros Seres AS perfeições próprias de outras coisas com respeito às suas diversas formas devem ser atribuídas a Deus apenas com respeito à Sua produtividade, cuja produtividade não é outra senão a Sua essência. Assim, então, Deus é chamado de 'sábio', não apenas por produzir sabedoria, mas porque, na medida em que somos sábios, imitamos em certa medida Sua produtividade, que nos torna sábios. Mas Ele não é chamado de “pedra”, embora tenha feito pedras, porque no nome de “pedra” se entende um determinado modo de ser em que uma pedra se distingue de Deus. Ainda assim, uma pedra é uma imitação de Deus, sua causa, no ser, na bondade e em outros aspectos semelhantes. Algo semelhante pode ser encontrado nas faculdades cognitivas e ativas do homem.
+
+O intelecto, por seu único poder, sabe tudo o que a parte senciente conhece por vários poderes, e. muito mais além disso. Além disso, quanto mais elevado o intelecto, mais ele pode saber através de um esforço, conhecimento esse que um intelecto inferior não alcança sem muitos esforços. Novamente, o poder real se estende a todos aqueles detalhes aos quais se dirigem os diversos poderes sob ele. Assim também Deus, por Seu único ser simples, possui todo tipo de perfeição, tudo o que os outros seres abrangem por diversas faculdades – sim, muito mais. Por isso fica clara a necessidade de muitos nomes predicados de Deus: pois como não podemos conhecê-lo naturalmente de outra forma a não ser chegando a Ele a partir dos efeitos que Ele produz, os nomes pelos quais denotamos Suas perfeições devem ser vários e diversos, respondendo às diversas perfeições que são encontradas nas coisas.
+
+Mas se pudéssemos compreender Sua essência como ela é em si, e adaptar a ela um nome próprio, deveríamos expressá-la por apenas um nome, como é prometido àqueles que O contemplarem em essência: Naquele dia haverá um Senhor, e seu nome será um (Zach. xiv, 9).
+
+## Capítulo XXXII. Que nada é predicado de Deus e de outros seres como sinônimos
+
+CAPÍTULO XXXII — Que nada é predicado de Deus e de outros seres como sinônimos. Um efeito que não recebe uma forma específica como a forma pela qual o agente atua, é incapaz de receber em predicação sinônima o nome retirado dessa forma. Mas, das coisas das quais Deus é causa, as formas não atingem as espécies da eficácia divina, pois recebem aos poucos, e em particular, o que se encontra em Deus de forma simples e universal.
+
+3. Tudo o que é predicado de várias coisas como sinônimos é
+
+espécie de gênero, diferencial, acidente ou proprium. Mas nada é predicado de Deus como gênero, como foi mostrado (Cap. XXV); e da mesma maneira nem como diferença; nem ainda como espécie, que é composta de gênero e diferença; nem nenhum acidente pode estar ligado a Ele, como foi mostrado (Cap. XXIII); e assim nada é predicado de Deus nem como acidente nem como proprium, pois o proprium pertence à classe dos acidentes. O resultado é que nada é predicado como sinônimo de Deus e de outros seres.
+
+6. Tudo o que é predicado de coisas de modo a implicar que uma coisa precede e a outra é consequente e dependente da primeira, certamente não é predicado como sinônimo. Ora, nada é predicado de Deus e de outros seres como se estivessem na mesma categoria, mas está implícito que um precede e o outro é consequente e dependente. De Deus todos os predicados são predicados essencialmente. Ele é chamado de ‘ser’ para denotar que Ele é a própria essência; e 'bom', para denotar que Ele é a própria bondade. Mas de outros seres são feitas predicações para denotar participação. Assim, Sócrates é chamado de “homem”, não porque ele seja a própria humanidade, mas alguém que tem humanidade. É impossível, portanto, que qualquer predicado seja aplicado como sinônimo e no mesmo sentido a Deus e a outros seres.
+
+## Capítulo XXXIII. Que não é de todo verdade que a aplicação de Predicados comuns a Deus e às Criaturas não envolva nada além de uma mera Identidade de Nome
+
+CAPÍTULO XXXIII - Que não é de todo verdade que a aplicação de Predicados comuns a Deus e às Criaturas não envolva nada além de uma mera Identidade de Nome ONDE há uma mera identidade acidental de nome, não há ordem ou respeito implícito de uma coisa para outra, mas quase por acidente um nome é aplicado a várias coisas diferentes. Mas este não é o caso dos nomes aplicados a Deus e às criaturas: pois em tal comunidade de nomes temos em conta a ordem de causa e efeito (Cap. XXIX, XXXII).
+
+2. Além disso, existe alguma forma de semelhança das criaturas com Deus (Cap. XXIX).
+
+3. Quando não há mais do que uma mera identidade de nome entre várias coisas, não podemos ser conduzidos de uma delas ao conhecimento de outra; mas a partir dos atributos encontrados nas criaturas somos levados ao conhecimento dos atributos de Deus (Cap. XXX, XXXI).
+
+5. Não adianta predicar qualquer nome de alguma coisa, a menos que pelo nome entendamos algo sobre a coisa. Mas se os nomes são predicados de Deus e das criaturas por uma mera coincidência de som, não entendemos por esses nomes nada sobre Deus, visto que os significados desses nomes são conhecidos por nós apenas na medida em que se aplicam às criaturas: nesse caso, não haveria utilidade em dizer ou provar de Deus que Deus é um ser bom, ou qualquer outra coisa do tipo.
+
+Se for dito que por tais nomes só conhecemos de Deus o que Ele não é – no sentido de que, por exemplo, Ele é chamado ‘vivo’ por não ser do gênero das coisas inanimadas – pelo menos deve ser permitido que o predicado ‘vivo’, aplicado a Deus e às criaturas, concorde na negação do inanimado, e assim será algo mais do que uma mera coincidência de nome.
+
+## Capítulo XXXIV. Que as coisas que são ditas Deus e as Criaturas são ditas analogamente
+
+CAPÍTULO XXXIV - Que as coisas que são ditas por Deus e pelas Criaturas são ditas de forma análoga. ASSIM, então, a partir dos argumentos anteriores, resta a conclusão de que as coisas ditas igualmente de Deus e de outros seres não são ditas nem no mesmo sentido, nem num sentido totalmente diferente, mas num sentido análogo, isto é, em termos de ordem ou em relação a algum objeto. E isso acontece de duas maneiras: de uma maneira, na medida em que muitas coisas dizem respeito a um particular, como no que diz respeito a um ponto de saúde, um animal é chamado de “saudável” por ser objeto de medicina sanitária, é chamado de “saudável” por ser produtivo de saúde; a comida é ‘saudável’, preservando a saúde; urina, como sendo um sinal de saúde: de outra forma, na medida em que consideramos a ordem ou consideração de duas coisas, não a qualquer terceira coisa, mas a uma das duas, como ‘ser’ é predicado de substância e acidente na medida em que acidente é referido à substância, e não que substância e acidente são referidos a qualquer terceira coisa. Então, os nomes que são predicados de Deus e de outros seres não são predicados analogamente no primeiro modo de analogia - pois então teríamos que postular algo diante de Deus - mas no último modo.
+
+Nesta questão de predicação análoga encontramos às vezes a mesma ordem no ponto do nome e no ponto da coisa nomeada, às vezes não a mesma. A ordem de nomear segue a ordem de conhecer, pois o nome é signo de um conceito inteligível. Quando então aquilo que é anterior em termos de fato passa a ser também anterior em termos de conhecimento, há uma e a mesma prioridade tanto no que diz respeito ao conceito que responde ao nome quanto à natureza da coisa nomeada. Assim, a substância é anterior ao acidente por natureza, na medida em que a substância é a causa do acidente; e anterior também no conhecimento, na medida em que a substância é colocada na definição de acidente; e, portanto, “ser” é predicado da substância antes de ser predicado do acidente, tanto no que diz respeito à natureza da coisa como no que diz respeito ao conceito associado ao nome.
+
+Mas quando o que é anterior na natureza é posterior no conhecimento, em tais casos de analogia não há a mesma ordem no que diz respeito à coisa nomeada e no que diz respeito ao conceito ligado ao nome. Assim, o poder de cura, que está nos remédios curativos, é anterior por natureza à saúde que está no animal, assim como a causa é anterior ao efeito: mas porque esse poder é conhecido a partir de seu efeito, ele também é nomeado a partir de seu efeito: portanto, embora “saudável” ou “produtor de saúde”, é anterior na ordem do jejum, ainda assim a aplicação do predicado “saudável” ao animal é anterior no ponto do conceito associado ao nome. Assim então, porque chegamos ao conhecimento de Deus a partir do conhecimento de outras realidades, a coisa significada pelos nomes
+
+que aplicamos em comum a Deus e a essas outras realidades – a coisa significada, digo, é por prioridade em Deus, no modo próprio de Deus: mas o conceito ligado ao nome é posterior em sua aplicação a Ele: portanto, diz-se que Ele é nomeado a partir dos efeitos que Ele causa.
+
+## Capítulo XXXV. Que os vários Nomes predicados de Deus não são sinônimos
+
+CAPÍTULO XXXV — Que os vários nomes predicados de Deus não são sinônimos EMBORA os nomes predicados de Deus signifiquem a mesma coisa, ainda assim não são sinônimos, porque não significam o mesmo ponto de vista. Pois assim como diversas realidades são, por diversas formas, assimiladas à única realidade simples, que é Deus, também nossa compreensão por diversos conceitos é de alguma forma assimilada a Ele, na medida em que, por vários pontos de vista diferentes, tirados das perfeições das criaturas, é levado ao conhecimento Dele. E, portanto, o nosso entendimento não é culpado de formar muitos conceitos de uma coisa; porque esse simples ser divino é tal que as coisas podem ser assimiladas a ele em muitas formas diversas. De acordo com essas diversas concepções, o entendimento inventa diversos nomes e os atribui a Deus - nomes que, embora denotem uma e a mesma coisa, ainda assim claramente não são sinônimos, uma vez que não são atribuídos do mesmo ponto de vista. O mesmo significado não é atribuído ao nome em todos esses casos, visto que o nome significa o conceito do entendimento antes de significar a coisa compreendida.
+
+## Capítulo XXXVI. Que as proposições que nosso entendimento forma de Deus não são vazias de significado
+
+CAPÍTULO XXXVI - Que as proposições que nosso entendimento forma de Deus não sejam vazias de significado PARA toda a absoluta simplicidade de Deus, não é em vão que nosso entendimento forma proposições a respeito dele, juntando e separando. Pois embora a nossa compreensão chegue através de diversos conceitos ao conhecimento de Deus, ainda assim ela compreende a unidade absoluta do objeto que responde a todos esses conceitos. Nossa mente não atribui a maneira de sua compreensão ao objeto que é compreendido: portanto, ela não atribui imaterialidade a uma pedra, embora conheça a pedra imaterialmente. E, portanto, afirma a unidade do objeto por meio de uma proposição afirmativa, que é um sinal de identidade, quando diz: “Deus é bom”: nesse caso, qualquer diversidade que a composição mostra é referente ao entendimento, mas a unidade à coisa compreendida. E com base no mesmo princípio, às vezes, nossa mente forma uma afirmação sobre Deus com alguma marca de diversidade, inserindo uma preposição, como quando se diz: ‘A bondade está em Deus’. e uma unidade própria da coisa.
+
+## Capítulo XXXVIII. Que Deus é Sua própria Bondade
+
+CAPÍTULO XXXVIII — Que Deus é a Sua própria Bondade CADA coisa boa, que não seja a sua própria bondade, é chamada de boa pela participação. Mas o que é chamado de bom pela participação pressupõe algo mais antes de si mesmo, do qual recebeu o caráter de bem. Este processo não pode ir ao infinito, pois não existe processus in infinitum numa série de causas finais: pois o infinito é inconsistente com qualquer fim, enquanto o bem tem o caráter de um fim. Devemos, portanto, chegar a alguma primeira coisa boa, que não seja boa pela participação em referência a qualquer outra coisa, mas seja boa pela sua própria essência; e isso é Deus.
+
+4. O que é, pode participar de algo; mas o puro ser não pode participar de nada. Pois aquilo que participa é potencialidade: mas o ser é realidade. Mas Deus é puro ser, como foi provado (Cap. XXII): Ele não é então bom por participação, mas essencialmente assim.
+
+5. Todo ser simples tem sua existência e o que é, em um só: se os dois fossem diferentes, a simplicidade desapareceria. Mas Deus é simplicidade absoluta, como foi demonstrado (Cap. XVIII): portanto, a própria bondade que Nele há não é outra senão o Seu próprio ser.
+
+O mesmo raciocínio mostra que nenhuma outra coisa boa é a sua própria bondade: por isso se diz: Ninguém é bom senão só Deus (Marcos x, 18; Lucas xviii, 19).
+
+## Capítulo XXXIX. Que em Deus não pode haver Mal
+
+CAPÍTULO XXXIX - Que em Deus não pode haver mal nenhum ser ESSENCIAL, e a bondade essencial, e todas as outras coisas que levam o nome de 'essenciais', não contêm mistura de nenhum elemento estranho; embora uma coisa boa possa conter outra coisa além do ser e da bondade, pois nada impede que o sujeito de uma perfeição seja também sujeito de outra. Tudo está contido dentro dos limites de sua ideia essencial de tal maneira que o torna incapaz de conter em si qualquer elemento estranho. Mas Deus é bondade, não apenas bom. Portanto, não pode haver Nele nada que não seja bondade e, portanto, o mal não pode estar Nele de forma alguma.
+
+3. Como Deus é o Seu próprio ser, nada pode ser dito de Deus que signifique participação. Se, portanto, o mal pudesse ser predicado Dele, a predicação não significaria participação, mas essência. Ora, o mal não pode ser predicado de qualquer ser, de modo a ser a essência de algum: pois para uma coisa essencialmente má haveria falta de ser, uma vez que o ser é bom. Não pode haver qualquer
+
+mistura estranha no mal, como tal, não mais do que na bondade. O mal, portanto, não pode ser predicado de Deus.
+
+5. Uma coisa é perfeita na medida em que existe na realidade: portanto, será imperfeita na medida em que falha na realidade. O mal, portanto, ou é uma privação, ou inclui uma privação, ou não é nada. Mas o tema da privação é a potencialidade; e isso não pode estar em Deus: portanto, o mal também não pode.
+
+Esta verdade também a Sagrada Escritura confirma, dizendo: Deus é luz, e nele não há trevas, (1 João 1, 5). Longe de Deus a impiedade, e a iniqüidade do Todo-Poderoso (Jó xxxiv, 10).
+
+## Capítulo XL. Que Deus é o Bem de todo Bem
+
+CAPÍTULO XL — Que Deus é o Bem de todo Bem. DEUS em Sua bondade inclui todos os bens e, portanto, é o bem de todos os bens.
+
+2. Deus é bom por essência: todos os outros seres por participação: portanto, nada pode ser chamado de bom, exceto na medida em que apresenta alguma semelhança com a bondade divina. Ele é, portanto, o bem de todo bem.
+
+Por isso se diz da Sabedoria Divina: Todas as coisas boas vieram até mim junto com ela (Sab. vii, 11).
+
+A partir disso, é ainda demonstrado que Deus é o bem soberano (Cap. XLI.
+
+## Capítulo XLII. Que Deus é Um
+
+CAPÍTULO XLII — Que Deus é Um NÃO pode haver dois bens soberanos. Mas Deus é o bem soberano. Portanto, existe apenas um Deus.
+
+2. Deus é todo perfeito e não carece de perfeição. Se, então, existem vários deuses, deve haver vários seres perfeitos. Mas isso é impossível: pois se a nenhum deles falta qualquer perfeição, nem há qualquer mistura de imperfeição em nenhum, não haverá nada que os distinga um do outro.
+
+7. Se existem dois seres, cada um necessariamente existente, eles devem concordar no ponto de existência necessária. Portanto, eles devem ser distinguidos por algum acréscimo feito a um deles ou a ambos; e, portanto, um ou ambos devem ser compostos. Mas nenhum ser composto existe necessariamente por si mesmo, como foi mostrado acima (Cap. XVIII). Portanto não pode haver vários seres necessários, nem vários deuses.
+
+9. Se existem dois deuses, este nome ‘Deus’ é predicado de cada um no mesmo sentido ou em sentidos diferentes. Se em sentidos diferentes, isso não afeta a presente questão: pois não há nada que impeça qualquer coisa de ser chamada por qualquer nome num sentido diferente daquele em que o nome é normalmente usado, se a linguagem comum assim o permitir. Mas se a predicação for no mesmo sentido, deve haver em ambos uma natureza comum, considerada logicamente. Ou então esta natureza tem uma existência em ambos, ou tem duas existências diferentes. Se tiver uma existência, não serão dois, mas um só ser: pois não existe uma única existência de dois seres que sejam substancialmente distintos. Mas se a natureza tiver uma existência diferente em cada possuidor, nenhum dos possuidores será a sua própria essência, ou a sua própria existência, como é próprio de Deus (Cap. XXII): portanto nenhum deles é aquilo que entendemos pelo nome de Deus.
+
+12. Se existem muitos deuses, a natureza da divindade não pode ser numericamente uma em cada um. Deve haver, portanto, algo para distinguir a natureza divina neste e naquele deus: mas isso é impossível, pois a natureza divina não admite adição ou diferença, seja na forma de pontos essenciais ou de pontos acidentais (Cap. XXIII, XXIV).
+
+13. O ser abstrato é um só: assim a brancura, se houvesse alguma brancura no abstrato, seria uma só. Mas Deus é o próprio ser abstrato, visto que Ele é o Seu próprio ser (Cap. XXII). Portanto só pode haver um Deus.
+
+Esta declaração da unidade divina também podemos deduzir das Sagradas Escrituras. Pois está dito: Ouve, ó Israel, o Senhor teu Deus é o único Senhor (Deut. vi, 4) E, Um só Senhor, uma só fé (Efésios iv, 5).
+
+Por esta verdade os gentios são postos de lado na sua afirmação de uma multidão de deuses. No entanto, deve-se admitir que muitos deles proclamaram a existência de um Deus supremo, por quem foram criados todos os outros seres a quem deram o nome de deuses. Eles atribuíram o nome de divindade a todas as substâncias eternas, principalmente por causa de sua sabedoria e felicidade e de seu governo do mundo. E esta forma de falar é encontrada até mesmo nas Sagradas Escrituras, onde os santos anjos, ou mesmo os homens que ocupam o cargo de juízes, são chamados de deuses: Não há ninguém como tu entre os deuses, ó Senhor (Sl. lxxxv, 8.); e eu disse: Vós sois deuses (Sl. lxxxi, 6). Portanto, os maniqueístas parecem estar em maior oposição a esta verdade na sua manutenção de dois primeiros princípios, um não a causa do outro.
+
+## Capítulo XLIII. Que Deus é Infinito
+
+CAPÍTULO XLIII — Que Deus é Infinito O INFINITO não pode ser atribuído a Deus com base na multidão, visto que só existe um Deus. Nem no que diz respeito à extensão quantitativa, visto que Ele é incorpóreo. Resta considerar se o infinito pertence a Ele no que diz respeito à grandeza espiritual. A grandeza espiritual pode estar no poder ou na bondade (ou integridade) da natureza. Destas duas grandezas, uma segue a outra: pois pelo fato de uma coisa estar na realidade ela é capaz de agir. De acordo então com a plenitude de sua atualidade está a medida da grandeza de seu poder. Segue-se assim que os seres espirituais são chamados grandes de acordo com a medida de sua completude, como diz Agostinho: “Nas coisas em que a grandeza não depende da massa, ser maior significa ser melhor” (De Trinit. vi, 9). Mas em Deus o infinito só pode ser entendido negativamente, na medida em que não há termo ou limite para a Sua perfeição. E assim o infinito deve ser atribuído a Deus.
+
+2. Toda realidade inerente a outro sofre limitação daquilo em que está: pois o que está em outro está nele de acordo com a medida de quem o recebe.
+
+Uma realidade, portanto, que não está em nada, não é limitada por nada: assim, se a brancura fosse auto-existente, a perfeição da brancura nela não teria limites até que atingisse toda a perfeição da brancura que é atingível. Mas Deus é uma realidade que não existe de forma alguma em outra: Ele não é uma forma inerente à matéria; nem Seu ser é inerente a qualquer forma ou natureza; pois Ele é o seu próprio ser, a sua própria existência (Cap. XXI). A conclusão é que Ele é infinito.
+
+4. Quanto mais perfeita a realidade, menos mistura ela tem de potencialidade. Cada realidade com a qual a potencialidade é mesclada tem limites estabelecidos para sua perfeição: enquanto aquilo que não possui nenhuma mistura de potencialidade não tem limites para sua perfeição. Mas Deus é pura realidade sem potencialidade (Cap. XVI) e, portanto, infinito.
+
+6. Não pode ser concebido nenhum modo em que qualquer perfeição possa ser obtida de forma mais perfeita do que por aquele que é perfeito por sua essência e cujo ser é sua própria bondade. Mas tal é Deus: portanto, qualquer coisa melhor ou mais perfeita do que Deus é inconcebível. Ele é, portanto, infinito em bondade.
+
+7. Nosso intelecto, ao compreender qualquer coisa, alcança o infinito; um sinal disso é que, dada qualquer quantidade finita, nosso intelecto pode pensar em algo maior. Mas esta direção do nosso intelecto para o infinito seria em vão, se não houvesse algo inteligível que seja infinito. Deve, portanto, haver alguma realidade inteligível infinita, que é necessariamente a maior das realidades; e isso chamamos de Deus.
+
+8. Um efeito não pode ir além de sua causa: agora nosso entendimento não pode vir senão de Deus, que é a Causa Primeira. Se então o nosso entendimento pode conceber algo maior do que qualquer ser finito, permanece a conclusão de que Deus não é finito.
+
+9. Todo agente mostra maior poder em ação, quanto mais longe da realidade estiver a potencialidade que ele reduz à realidade, pois há necessidade de maior poder para aquecer a água do que para aquecer o ar. Mas aquilo que não existe, está infinitamente distante da realidade, e não está de forma alguma em potencialidade: portanto, se o mundo se tornou um fato a partir de anteriormente não ser nenhum fato, o poder do Criador deve ser infinito.
+
+Este argumento serve para provar a infinidade do poder divino até mesmo para a mente daqueles que assumem a eternidade do mundo. Pois eles reconhecem
+
+Deus é a causa do ser substancial do mundo, embora pensem que essa substância existe desde a eternidade, dizendo que o Deus eterno é a causa de um mundo sempre existente, da mesma forma que um pé seria a causa de uma pegada eterna, se tivesse sido desde a eternidade gravada no pó. Ainda assim, mesmo aceitando a posição assim definida, segue-se que o poder de Deus é infinito. Pois quer Ele tenha produzido as coisas no tempo, de acordo com nós, ou desde a eternidade, de acordo com eles, não pode haver nada no mundo da realidade que Ele não tenha produzido, visto que Ele é o princípio universal do ser; e assim Ele fez as coisas existirem, sem pressuposição de qualquer matéria ou potencialidade. Ora, a medida do poder ativo deve ser tomada de acordo com a medida da potencialidade ou da passividade; pois quanto maior a passividade pré-existente ou preconcebida, maior será o poder ativo necessário para reduzi-la à realidade completa. A conclusão permanece que, como o poder finito na produção de um efeito está condicionado à potencialidade da matéria, o poder de Deus, não estando condicionado a nenhuma potencialidade, não é finito, mas infinito, e assim é infinita a Sua essência.
+
+Desta verdade a Sagrada Escritura dá testemunho: Grande é o Senhor e mui louvável, e da sua grandeza não há fim (Sl. cxliv, 3).
+
+## Capítulo XLIV. Que Deus tem entendimento
+
+CAPÍTULO XLIV — Que Deus tem entendimento Em nenhuma ordem de causas se descobriu que uma causa inteligente é o instrumento de uma causa não inteligente. Mas todas as causas no mundo representam o motor principal, que é Deus, como instrumentos do agente principal. Desde então, no mundo foram encontradas muitas causas inteligentes, o motor principal não pode causar de forma não inteligente.
+
+5. Não falta em Deus nenhuma perfeição que se encontre em qualquer tipo de ser (Cap. XXVIII): nem qualquer forma de composição resulta Nele por tudo isso (Cap. XVIII). Mas entre as perfeições das criaturas a mais elevada é a posse do entendimento: pois pelo entendimento uma coisa é de certa forma todas as coisas, tendo em si as perfeições de todas as coisas.
+
+6. Tudo o que tende definitivamente para um fim ou fixa o seu próprio fim, ou tem o seu fim fixado por outro: caso contrário, não tenderia mais para este fim do que para aquele. Mas as operações da natureza tendem a fins definidos: os ganhos da natureza não são obtidos por acaso: pois se fossem, não seriam a regra, mas a exceção, pois o acaso ocorre em casos excepcionais. Desde então os agentes físicos não fixam o seu próprio fim, porque não têm ideia de um fim, devem ter um fim fixado para eles por outro, que é o autor da natureza. Mas Ele não poderia estabelecer um fim para a natureza, se Ele próprio não entendesse.
+
+7. Tudo que é imperfeito deriva de algo perfeito: pois a perfeição é naturalmente anterior à imperfeição, assim como a atualidade à potencialidade. Mas as formas que existem nas coisas particulares são imperfeitas, pela própria razão de existirem em particular, e não na universalidade da sua ideia, ou na plenitude do seu ser ideal. Eles devem, portanto, ser derivados de algumas formas perfeitas,
+
+que não estão sob limitações específicas. Tais formas não podem ser senão objetos do entendimento, visto que nenhuma forma é encontrada em sua universalidade ou plenitude ideal, exceto no entendimento. Conseqüentemente, tais formas devem ser dotadas de compreensão, se quiserem subsistir por si mesmas: pois somente através dessa dotação elas podem ser operativas. Deus, portanto, que é a primeira realidade existente por si mesma, de onde derivam todas as outras, deve ser dotado de compreensão.
+
+Esta verdade também está na confissão da fé católica: pois é dito: Ele é sábio de coração e poderoso em poder (Jó ix, 4): Com ele está a força e a sabedoria (Ibid. xii, 16): Tua sabedoria se tornou maravilhosa para mim (Sl. cxxxviii, 6): Ó profundidade de riquezas, de sabedoria e de conhecimento de Deus (Rom. vi, 33).
+
+## Capítulo XLV. Que em Deus o Entendimento é Sua própria Essência
+
+CAPÍTULO XLV - Que em Deus o Entendimento é Sua própria Essência Compreender é um ato de um ser inteligente, existindo nesse ser, não passando para nada externo, como o ato de aquecer passa para o objeto aquecido: pois um objeto inteligível não sofre nada ao ser compreendido, mas a inteligência que o compreende é aperfeiçoada por meio disso. Mas tudo o que está em Deus é a essência divina. Portanto, o ato de compreender em Deus é a essência divina.
+
+5. Toda substância existe por causa de sua atividade. Se, portanto, a atividade de Deus for outra coisa que não a substância divina, Seu fim será algo
+
+diferente de si mesmo; e assim Deus não será a sua própria bondade, visto que o bem de cada ser é o seu fim.
+
+Do fato de o ato de compreensão em Deus ser idêntico ao Seu ser, segue-se necessariamente que o ato de Sua compreensão é absolutamente eterno e invariável, existe apenas na realidade e tem todos os outros atributos que foram provados do ser divino. Deus, então, não é potencialmente inteligente, nem começa de novo a compreender nada, nem sofre qualquer mudança ou composição no processo de compreensão.
+
+## Capítulo XLVI. Que Deus não entende nada além de Sua própria Essência
+
+CAPÍTULO XLVI — Que Deus entende por nada mais que por Sua própria Essência. A COMPREENSÃO é levada realmente à compreensão por uma impressão feita no entendimento, assim como o sentido chega realmente a ser sentido por uma impressão feita no sentido. A impressão causada no entendimento é então para o entendimento como atualidade para potencialidade. Se, portanto, o entendimento divino viesse a compreender por qualquer impressão feita no entendimento que não fosse o próprio entendimento, o entendimento estaria em potencialidade para essa impressão, o que, como foi demonstrado, não pode ser (Cap. XVI, XVII).
+
+3. Qualquer impressão no entendimento que esteja no entendimento além de sua essência, tem uma existência acidental: razão pela qual nosso conhecimento considera um acidente. Mas não pode haver acidente em Deus. Portanto não há em Seu entendimento nenhuma impressão além da própria essência divina.
+
+## Capítulo XLVII. Que Deus se entende perfeitamente
+
+CAPÍTULO XLVII — Que Deus se compreende perfeitamente QUANDO, por uma impressão no entendimento, esse poder é exercido sobre seu objeto, a perfeição do ato intelectual depende de duas coisas: uma é a conformidade perfeita da impressão com a coisa compreendida; a outra é a fixação perfeita da impressão no entendimento: qual perfeição é maior, maior é o poder do entendimento para compreender. Ora, a mera essência divina, que é a representação inteligível pela qual o entendimento divino compreende, é absolutamente uma e a mesma coisa com o próprio Deus e com o entendimento de Deus. Deus, portanto, conhece a si mesmo perfeitamente.
+
+6. As perfeições de todas as criaturas são encontradas no seu melhor em Deus. Mas das perfeições encontradas nas criaturas a maior é compreender Deus: visto que a natureza intelectual é preeminente acima de outras naturezas, e a perfeição do intelecto é o ato de compreensão, e o objeto mais nobre de compreensão é Deus. Deus, portanto, se entende perfeitamente.
+
+Isto também é confirmado pela autoridade divina, pois o Apóstolo diz: O espírito de Deus sonda até as coisas profundas de Deus (1 Coríntios 2, 10).
+
+## Capítulo XLVIII. Que Deus primeira e essencialmente conhece a si mesmo sozinho
+
+CAPÍTULO XLVIII — Que Deus conhece primeira e essencialmente a si mesmo. O Entendimento está em potencialidade em relação ao seu objeto, na medida em que é uma coisa diferente desse objeto. Se, portanto, o objeto primário e essencial da compreensão divina for algo diferente de Deus, seguir-se-á que Deus está em potencialidade em relação a alguma outra coisa, o que é impossível (Cap. XVI).
+
+5. Uma coisa compreendida é a perfeição de quem a compreende: pois um entendimento é aperfeiçoado pelo entendimento real, o que significa tornar-se um com o objeto compreendido. Se, portanto, qualquer outra coisa além de Deus for o primeiro objeto de Seu entendimento, alguma outra coisa será Sua perfeição e será mais nobre do que Ele, o que é impossível.
+
+## Capítulo
+
+CAPÍTULO XLIX — Que Deus conhece outras coisas além de Si mesmo Dizemos que conhecemos uma coisa quando conhecemos sua causa. Mas o próprio Deus, por Sua essência, é a causa do ser para os outros. Visto que Ele conhece mais plenamente a Sua própria essência, devemos supor que Ele conhece também outros seres.
+
+3. Quem conhece alguma coisa perfeitamente conhece tudo o que pode ser dito verdadeiramente dessa coisa e todos os seus atributos naturais. Mas um atributo natural de Deus é ser causa de outras coisas. Desde então, Ele se conhece perfeitamente, Ele sabe que é uma causa: o que não poderia ser a menos que Ele também soubesse algo daquilo que Ele causou, que é algo diferente de Si mesmo, pois nada é sua própria causa.
+
+Reunindo estas duas conclusões, parece que Deus conhece a Si mesmo como o objeto primário e essencial de Seu conhecimento, e outras coisas como vistas em Sua essência.
+
+## Capítulo L. Que Deus tem um conhecimento particular de todas as coisas
+
+CAPÍTULO L — Que Deus tem um conhecimento particular de todas as coisas CADA agente que age pelo entendimento tem um conhecimento do que faz, atingindo a natureza particular da coisa produzida; porque o conhecimento de quem o faz determina a forma da coisa feita. Mas Deus é a causa das coisas pelo seu entendimento, visto que nele o ser e o compreender são um. Mas tudo age enquanto é na realidade. Deus, portanto, conhece em particular, como distinto de outras coisas, tudo o que Ele faz ser.
+
+3. A colocação das coisas, distintas e separadas, não pode ser por acaso, pois ocorre em ordem regular. Esta colocação de coisas, então, distintas e separadas umas das outras, deve ser devida à intenção de alguma causa. Não pode ser devido à intenção de qualquer causa que atue por necessidade física, porque a natureza física está determinada a uma linha de ação. Assim, de nenhum agente, que atue por necessidade física, a intenção pode atingir muitos efeitos distintos, na medida em que sejam distintos. O arranjo e colocação distintos
+
+das coisas deve proceder da intenção de alguma causa conhecida. Na verdade, parece ser função própria do intelecto observar a distinção das coisas. Pertence, portanto, à Causa Primeira, que em si é distinta de todas as outras, pretender a colocação distinta e separada de todos os materiais do Universo.
+
+4. Tudo o que Deus conhece, Ele o conhece perfeitamente: pois Nele há toda a perfeição (Cap. XXVIII). Ora, o que se conhece apenas em geral não se conhece perfeitamente: não se conhecem os pontos principais da coisa, os retoques finais de sua perfeição, através dos quais seu próprio ser é completamente realizado e revelado. Esse mero conhecimento geral é antes um conhecimento aperfeiçoável do que um conhecimento perfeito de uma coisa. Se, portanto, Deus, ao conhecer a sua essência, conhece todas as coisas na sua universalidade, Ele também deve ter um conhecimento particular das coisas.
+
+8. Quem conhece qualquer natureza sabe se essa natureza é comunicável: pois não conheceria perfeitamente a natureza do “animal”, se não soubesse que ela era comunicável a muitos. Mas a natureza divina é comunicável por semelhança. Deus, portanto, sabe de quantas maneiras algo pode existir semelhante à Sua essência. Daí surge a diversidade dos tipos, na medida em que imitam de diversas maneiras a essência divina. Deus, portanto, tem um conhecimento das coisas de acordo com seus diversos tipos particulares.
+
+Isso também nos é ensinado pela autoridade das Escrituras canônicas. Deus viu todas as coisas que ele havia feito, e elas eram muito boas (Gênesis 1, 31). Nem há criatura invisível à sua vista, mas todas as coisas estão nuas e expostas aos seus olhos (Heb. iv, 13).
+
+## Capítulo LI. Alguma discussão sobre a questão de como existe na compreensão divina uma infinidade de objetos
+
+CAPÍTULO LI - Alguma discussão sobre a questão de como existe no entendimento divino uma infinidade de objetos. ESTA multidão não pode ser interpretada como significando que muitos objetos do entendimento têm um ser distinto em Deus. Pois esses objetos de compreensão seriam iguais à essência divina e, nesse caso, a multidão seria postulada na essência de Deus, uma doutrina acima rejeitada por muitos motivos (Cap. XXXI); ou seriam acréscimos feitos à essência divina e, nesse caso, haveria em Deus algum acidente, que mostramos acima ser uma impossibilidade (Cap. XXXIII). Nem mais uma vez pode ser postulada qualquer existência separada destas formas inteligíveis,
+
+o que parece ter sido a posição de Platão, que, para evitar os inconvenientes acima, introduziu a doutrina das Ideias. Pois as formas das coisas físicas não podem existir sem matéria, assim como também não podem ser compreendidas sem matéria. E mesmo supondo que existissem assim, mesmo isso não seria suficiente para explicar que Deus entende uma infinidade de objetos. Pois, assumindo que as formas acima mencionadas existem fora da essência de Deus, e que Deus não poderia compreender a multidão de coisas sem elas, sendo tal compreensão um requisito para a perfeição de Seu intelecto, seguir-se-ia que a perfeição de Deus na compreensão dependia de outro ser que não Ele mesmo, e, conseqüentemente, de Sua perfeição em ser, visto que Seu ser é Seu entendimento: o contrário de tudo o que foi mostrado (Cap.
+
+XL). Além disso, assumindo o que será provado a seguir (Livro II, Cap. XV), que tudo o que está além da essência de Deus é causado por Deus, as formas acima, se estiverem fora de Deus, devem necessariamente ser causadas por Ele. Mas Ele é a causa das coisas pelo Seu entendimento, como se mostrará (Livro II, Cap. XXIII, XXIV). Portanto, a compreensão de Deus destas formas inteligíveis é um pré-requisito natural para a existência de tais formas. A compreensão que Deus tem da multidão de criaturas não deve ser explicada pela existência de muitas formas abstratas inteligíveis fora de Deus.
+
+## Capítulo LII. Razões para mostrar como a multidão de formas ideais inteligíveis não tem existência exceto na compreensão divina
+
+CAPÍTULO LII — Razões para mostrar como a multidão de formas ideais inteligíveis não tem existência exceto na compreensão divina. Não se deve supor que a multidão de formas ideais inteligíveis esteja em qualquer outra compreensão, exceto a divina, digamos, a compreensão de um anjo. Pois nesse caso o entendimento divino dependeria, pelo menos em alguma parte de sua atividade, de algum intelecto secundário, o que é impossível: pois assim como as substâncias são de Deus, assim também tudo o que está nas substâncias: portanto, para a existência de qualquer uma dessas formas em qualquer intelecto secundário, é pré-requisito um ato da inteligência divina, pelo qual Deus é a causa.
+
+2. É impossível para um intelecto realizar uma operação intelectual em virtude de outro intelecto estar disposto a essa operação: deve operar o próprio intelecto, que está disposto a fazê-lo. O fato, então, de muitas formas inteligíveis estarem em algum intelecto secundário não pode explicar o fato de o intelecto principal conhecer a multidão de tais formas.
+
+## Capítulo LIII. Como existe em Deus uma infinidade de objetos de compreensão
+
+CAPÍTULO LIII — Como existe em Deus uma infinidade de objetos de compreensão Um objeto externo, vindo a ser um objeto de nossa compreensão, não existe por isso em nossa compreensão em sua própria natureza: mas a impressão (espécie) dele deve estar em nossa compreensão, e por essa impressão nossa compreensão é atualizada, ou chega realmente a compreender. O entendimento, atualizado e “informado” por tal impressão, compreende a “coisa em si”. O ato de compreensão é imanente à mente e, ao mesmo tempo, está relacionado com a coisa compreendida, na medida em que a referida “impressão”, que é o ponto de partida da atividade intelectual, é uma semelhança da coisa compreendida. Assim informado pela impressão (espécie) da coisa, o entendimento em ato passa a formar em si o que podemos chamar de “expressão intelectual” (intentio) da coisa. Esta expressão é a ideia (ratio, λόγος) da coisa,
+
+e assim é denotado pela definição. Assim deve ser, pois o entendimento compreende tanto a coisa ausente como a coisa presente; em que aspecto a imaginação e a compreensão concordam. Mas o entendimento tem esta vantagem sobre a imaginação: compreende a coisa independentemente das condições individualizantes, sem as quais a coisa não existe in rerum natura. Isto não poderia acontecer senão pelo entendimento que forma para si a referida “expressão”. Esta “expressão” (intentio) no entendimento, sendo, podemos dizer, o termo da atividade intelectual, é diferente da “impressão intelectual” (species intelligibilis), que atualiza o entendimento e que deve ser considerada o ponto de partida da atividade intelectual; e, no entanto, tanto um como outro, tanto a “impressão” (espécie) como a “expressão” (intentio), são semelhanças da “coisa em si”, que é o objeto do entendimento.
+
+Do fato de a impressão intelectual, que é a forma do intelecto e o ponto de partida do conhecimento intelectual, ser uma semelhança da coisa externa, segue-se que a expressão, ou ideia, formada pelo entendimento, é também como a coisa: pois assim como um agente é, assim são suas atividades. E ainda, do fato da expressão, ou ideia, no entendimento ser semelhante ao seu objeto, segue-se que o entendimento no ato de formar tal ideia compreende o referido objeto.
+
+Mas a mente divina compreende em virtude de nenhuma outra impressão senão a sua própria essência (Cap. XLVI). Ao mesmo tempo, a essência divina é a semelhança de todas as coisas. Segue-se, portanto, que o próprio conceito do entendimento divino, que é o Verbo Divino, é ao mesmo tempo uma semelhança do próprio Deus compreendido, e também uma semelhança de todas as coisas das quais a essência divina é uma semelhança. Assim, então, por uma impressão inteligível (species intelligibilis), que é a essência divina, e por um reconhecimento intelectual (intentio intellecta), que é a Palavra Divina, muitos objetos diversos podem ser compreendidos por Deus.
+
+## Capítulo LIV. Que a Essência Divina, sendo Una, é a semelhança e o tipo adequados de todas as coisas inteligíveis
+
+CAPÍTULO LIV - Que a Essência Divina, sendo Una, é a semelhança e o tipo apropriado de todas as coisas inteligíveis, MAS, novamente, pode parecer difícil ou impossível para alguns que um mesmo ser simples, como a essência divina, seja o tipo próprio (propria ratio) e a semelhança de coisas diferentes. Pois, assim como as coisas diferentes se distinguem por meio de suas formas próprias, é necessário que aquilo que é semelhante a uma coisa segundo sua forma própria seja considerado diferente de outra.
+
+É verdade que coisas diferentes podem ter um ponto de semelhança na medida em que têm uma característica comum, como o homem e o burro, na medida em que são animais. Se fosse pelo mero discernimento de características comuns que Deus conhecia as coisas, seguir-se-ia que Ele não tinha um conhecimento particular, mas apenas geral das coisas (ao contrário do Capítulo L). Voltemos então a um conhecimento próprio e particular, do qual se trata aqui.
+
+O ato de conhecimento ocorre de acordo com o modo pelo qual a semelhança do objeto conhecido está na mente conhecedora: pois a semelhança do objeto conhecido na mente conhecedora é como a forma pela qual essa mente é colocada para agir. Se, portanto, Deus tem um conhecimento próprio e particular de muitas coisas diferentes, Ele deve ser o tipo próprio e particular de cada uma delas. Temos que perguntar como isso pode ser.
+
+Como diz o Filósofo, as formas das coisas e as definições que marcam tais formas são como números, nos quais a adição ou subtração da unidade varia a espécie do número. Assim, nas definições: uma diferença subtraída ou adicionada varia a espécie: assim, a “substância senciente” varia nas espécies pela adição de “irracional” ou “racional”. Mas nos casos de “muitos em um”, a condição do entendimento não é como a condição da natureza concreta. A natureza de um ser concreto não admite a separação de elementos, cuja união é necessária para a existência desse ser: assim, a natureza animal não perdurará se a alma for removida do corpo. Mas o entendimento pode, às vezes, tomar separadamente elementos que no ser real estão unidos, quando um deles não entra no conceito do outro; assim, em “três” pode considerar apenas “dois”, e em “animal racional” apenas o elemento “senciente”.
+
+Conseqüentemente, o entendimento pode tomar o que inclui muitos elementos como um espécime adequado de muitos, apreendendo alguns deles sem outros. Pode considerar “dez” como um espécime próprio de nove por subtração de uma unidade, e absolutamente como um espécime próprio de todos os números incluídos em “dez”. Assim também em “homem” poderá reconhecer um tipo próprio de “animal irracional” como tal, e de todas as espécies de “animal irracional”, a menos que estas espécies envolvam algumas diferenças positivas. Portanto, um certo filósofo, chamado Clemente, disse que
+
+na escala dos seres, os mais nobres são os tipos e padrões dos menos nobres. Ora, a essência divina contém em si as nobres qualidades de todos os seres, não na forma de um composto, mas na forma de um ser perfeito (Cap. XXXI). Toda forma, tanto particular quanto geral, é uma perfeição na medida em que postula algo; e envolve imperfeição apenas na medida em que fica aquém do verdadeiro ser. O entendimento divino pode então compreender tudo o que é próprio de cada um em sua essência, compreendendo em que cada coisa imita a essência divina e em que fica aquém da perfeição própria dessa essência. Assim, ao compreender a sua própria essência como imitável no modo de vida sem consciência, ela reúne a forma própria de uma planta, ao compreender a mesma essência como imitável no modo de consciência sem intelecto, a forma própria de um animal; e assim por diante.
+
+Evidentemente então a essência divina, na medida em que é absolutamente perfeita, pode ser tomada como o tipo próprio de cada entidade; e, portanto, por meio dele Deus pode ter um conhecimento particular de todos. Mas porque o tipo próprio de um é distinto do tipo próprio de outro – e a distinção é o princípio da pluralidade – deve ser observável no intelecto divino uma distinção e pluralidade de tipos reconhecidos, na medida em que o conteúdo da mente divina é o tipo próprio de coisas diferentes. E como é desta forma que Deus está ciente da relação especial de semelhança que cada criatura mantém com Ele, segue-se que os tipos (rationes) de coisas na mente divina não são vários ou distintos, exceto na medida em que Deus sabe que as coisas são de diversas maneiras capazes de serem assimiladas por Ele mesmo.
+
+E deste ponto de vista Agostinho diz que Deus fez o homem num plano e o cavalo noutro; e que os planos ou tipos de coisas existem separadamente na mente divina (De div. quaest., LXXXIII, 46). E aqui também é de alguma forma defensável a opinião de Platão, que supõe Ideias, segundo as quais todos os seres do mundo material são formados.
+
+## Capítulo LV. Que Deus entende todas as coisas ao mesmo tempo e juntas
+
+CAPÍTULO LV — Que Deus entende todas as coisas ao mesmo tempo e juntas A razão pela qual nosso entendimento não pode compreender muitas coisas juntas em um ato é porque no ato de compreender a mente se torna uma com o objeto compreendido; daí se segue que, se a mente compreendesse muitas coisas juntas num só ato, seriam muitas coisas juntas, todas de um mesmo gênero, o que é impossível. As impressões intelectuais são todas de um mesmo gênero: pertencem a um tipo de ser na existência que têm na mente, embora as coisas das quais são impressões não concordem num tipo de ser: portanto, a contrariedade das coisas fora da mente não torna as impressões daquelas coisas na mente contrárias umas às outras. E é por isso que quando muitas coisas são tomadas em conjunto, estando de alguma forma unidas, elas são compreendidas em conjunto. Assim, um todo contínuo é compreendido de uma só vez, e não parte por parte; e uma proposição é entendida de uma só vez, não primeiro o sujeito e depois o predicado: porque todos
+
+as partes são conhecidas por uma impressão mental do todo. Conseqüentemente, concluímos que quaisquer que sejam os vários objetos conhecidos por uma apresentação mental, podem ser entendidos juntos: mas Deus conhece todas as coisas por meio daquela única apresentação delas, que é Sua essência; portanto, Ele pode compreender tudo junto e ao mesmo tempo.
+
+2. A faculdade do conhecimento não sabe nada realmente sem alguma atenção e advertência. Conseqüentemente, os fantasmas, armazenados no sensório, às vezes não estão realmente na imaginação, porque nenhuma atenção lhes é dada. Não discernimos juntos uma multidão de coisas às quais não atendemos juntos: mas coisas que necessariamente caem sob uma mesma advertência e atenção, são necessariamente compreendidas em conjunto. Assim, quem estabelece uma comparação entre duas coisas dirige sua atenção para ambas e discerne ambas juntas. Mas todas as coisas que estão no conhecimento divino devem necessariamente cair sob uma advertência; pois Deus está atento para contemplar perfeitamente a Sua essência, que é vê-la em todo o alcance do seu conteúdo virtual, que inclui todas as coisas. Deus, portanto, ao contemplar Sua essência, discerne imediatamente todas as coisas que existem.
+
+6. Toda mente que entende uma coisa após outra é às vezes potencialmente inteligente, às vezes realmente; pois embora compreenda a primeira coisa na verdade, compreende potencialmente a segunda. Mas a mente divina nunca é potencialmente inteligente, mas sempre real: ela não compreende as coisas em sucessão, mas sim todas de uma vez.
+
+A Sagrada Escritura testemunha esta verdade, dizendo que em Deus não há mudança nem sombra de vicissitude (Tiago i, 17).
+
+## Capítulo LVI. Que não há Conhecimento Habitual em Deus
+
+CAPÍTULO LVI - Que não há Conhecimento Habitual em Deus Em quaisquer mentes que haja conhecimento habitual, nem todas as coisas são conhecidas juntas: mas algumas coisas são conhecidas de fato, outras habitualmente. Mas em Deus todas as coisas são realmente conhecidas (Cap. LV).
+
+2. Aquele que tem o hábito do conhecimento, e não está anunciando o que sabe, está de certa forma em potencialidade, embora de forma diferente do que era antes de compreender: mas a mente divina não está de forma alguma em potencialidade.
+
+3. Em toda mente que sabe alguma coisa habitualmente, a essência da mente é diferente da sua atividade intelectual, que é o ato do pensamento atento. Para tal mente, no conhecimento habitual, falta atividade, embora a essência da própria mente não possa faltar. Mas em Deus Sua essência é Sua atividade (Cap. XLV).
+
+4. Uma mente que conhece apenas habitualmente não está em sua perfeição última: portanto, o melhor dos bens, a felicidade, não é considerado um hábito, mas um ato. Se então Deus é habitualmente conhecedor, Ele não será totalmente perfeito (ao contrário do Capítulo XXVIII).
+
+5. Conforme mostrado no capítulo XLVI, Deus tem entendimento por Sua essência, e não por quaisquer formas inteligíveis acrescentadas à Sua essência. Mas toda mente com conhecimento habitual entende por algumas dessas formas: pois um hábito é uma predisposição da mente para receber impressões mentais, ou formas, pelas quais ela realmente chega a compreender; ou é uma agregação ordenada de tais formas,
+
+existindo na mente, não em realidade completa, mas de alguma forma intermediária entre potencialidade e realidade.
+
+6. O hábito é uma qualidade: mas em Deus não pode haver qualidade nem qualquer outro acidente (Cap. XXIII): o conhecimento habitual, portanto, não é próprio de Deus.
+
+Porque o estado mental de pensar, ou querer, ou agir habitualmente apenas, é como o estado de quem dorme, Davi diz, a fim de remover todos os estados habituais de Deus: Eis que não cochilará nem dormirá aquele que guarda Israel (Sl. cxx, 4). E novamente é dito: Os olhos do Senhor são muito mais brilhantes que o sol (Ecclus xxiii, 28), pois o sol está sempre brilhando.
+
+## Capítulo LVII. Que o Conhecimento de Deus não é um Conhecimento Racional
+
+CAPÍTULO LVII — Que o Conhecimento de Deus não é um Conhecimento Raciocinado NOSSO pensamento é então raciocinado, quando passamos de um objeto de pensamento para outro, como ao fazer silogismos dos princípios às conclusões. Raciocinar ou argumentar não consiste em ver como uma conclusão se segue das premissas pela inspeção de ambas juntas. Isso não é argumento, mas julgamento do argumento. Ora, Deus não pensa uma coisa após a outra em qualquer tipo de sucessão, mas em todas as coisas ao mesmo tempo (Cap. LV). Seu conhecimento, portanto, não é raciocinado ou argumentativo, embora Ele conheça o argumento e a razão de todas as coisas.
+
+2. Todo raciocinador intui princípios com um pensamento e a conclusão com outro. Não haveria necessidade de chegar a uma conclusão a partir da consideração de premissas, se a mera consideração das premissas revelasse imediatamente a conclusão. Mas Deus conhece todas as coisas por um ato que é a Sua essência (Cap. LV). Seu conhecimento, portanto, não é argumentativo.
+
+3. Todo conhecimento argumentativo tem algo de atualidade e algo de potencialidade, pois as conclusões estão potencialmente em premissas. Mas na mente divina a potencialidade não tem lugar.
+
+5. As coisas que são conhecidas naturalmente são conhecidas sem raciocínio, como acontece no caso dos primeiros princípios. Mas em Deus não pode haver conhecimento que não seja natural, ou melhor, essencial: pois Seu conhecimento é Sua essência.
+
+7. Somente em seu avanço mais elevado o inferior toca o superior. Mas o maior avanço do nosso conhecimento não é o raciocínio, mas a intuição (intellectus), que é o ponto de partida do raciocínio. O conhecimento de Deus então não é “racional”, no sentido de “argumentativo”, mas apenas intuitivo.
+
+8. Raciocínio significa falta de intuição: o conhecimento divino, portanto, não é raciocinado.
+
+Se alguém achar errado que Deus não pode fazer um silogismo, deixe-os notar que Ele tem o conhecimento de como fazer silogismos como alguém que os julga, e não como alguém que argumenta silogisticamente.
+
+Disto há testemunho da Sagrada Escritura no texto: Todas as coisas estão nuas e abertas aos seus olhos (Heb. iv, 13): enquanto as coisas que conhecemos pelo raciocínio não estão por si mesmas nuas e abertas para nós, mas são abertas e expostas pela razão.
+
+## Capítulo LVIII. Que Deus não entende por Combinação e Separação de Ideias
+
+CAPÍTULO LVIII - Que Deus não entende por combinação e separação de ideias COISAS mentalmente combináveis ​​e separáveis ​​são naturalmente consideradas pela mente separadas umas das outras: pois não haveria necessidade de sua combinação e separação, se pela mera apreensão de uma coisa como sendo, fosse imediatamente entendido o que está ou não nela. Se, portanto, Deus entendesse por um processo mental de combinação e separação, seguir-se-ia que Ele não considerava todas as coisas de uma só vez, mas cada coisa separadamente, ao contrário do que foi mostrado acima (Cap. LV).
+
+3. Uma mente que combina e separa, forma diferentes julgamentos por meio de diferentes combinações. Pois uma combinação mental não vai além dos termos da combinação. Portanto, na combinação, ou julgamento afirmativo (compositione), pelo qual a mente julga que o homem é um animal, ela não julga que um triângulo é uma figura. Ora, a combinação ou separação é uma operação da mente. Se Deus, portanto, vê as coisas combinando-as e separando-as mentalmente, Seu ato mental não será apenas um, mas múltiplo; e assim Sua essência não será uma só.
+
+Não é por isso, porém, que devemos dizer que Ele ignora proposições sustentáveis: pois Sua essência única e simples é o padrão de todas as coisas múltiplas e compostas; e assim, por meio dele, Deus conhece toda a multidão e complexidade, tanto da natureza real quanto do mundo ideal (tam naturae quam rationis).
+
+Isto está em consonância com a autoridade da Sagrada Escritura: pois é dito: Porque os meus pensamentos não são os vossos pensamentos (Isa. lv, 8); e ainda assim, o Senhor conhece os pensamentos dos homens (Sl. xciii, 11), que certamente procedem por combinação e separação de idéias.
+
+## Capítulo LIX. Que a Verdade que se encontra nas Proposições não está excluída de Deus
+
+CAPÍTULO LIX - Que a verdade que se encontra nas proposições não está excluída de Deus EMBORA o conhecimento da mente divina não seja segundo a maneira de combinação e separação de ideias em proposições afirmativas e negativas, não está excluída dele aquela verdade que, segundo o Filósofo, só existe em tais combinações e separações. Pois como a verdade do intelecto é uma equação do intelecto e da coisa, na medida em que o intelecto diz que o ser é o que é, ou o que não é o que não é, a verdade pertence àquilo que o intelecto diz no intelecto, e não ao ato pelo qual ele o diz; pois não é requisito para a verdade do intelecto que o mero ato de compreensão seja equiparado à coisa, mas o que a mente diz e conhece pela compreensão deve ser equiparado à coisa, de modo que o caso da coisa seja como a mente diz que é. Mas Deus, pelo seu entendimento simples, no qual não há combinação e
+
+separação de ideias, conhece não só a essência das coisas, mas também as proposições que lhes são defensáveis ​​(Cap. LVII, LVIII). Assim, o que a mente divina diz através da compreensão é afirmação e negação. Portanto, a simplicidade da mente divina não implica o fechamento da verdade.
+
+## Capítulo LX. Que Deus é a Verdade
+
+CAPÍTULO LX — Que Deus é a Verdade A VERDADE é uma perfeição do entendimento e do seu agir. Mas a compreensão de Deus é Sua substância; e o próprio ato de compreender, como é o ser de Deus, é perfeito como o ser de Deus é perfeito, não por qualquer perfeição acrescentada, mas por si mesmo. Resta, portanto, que a substância divina é a própria verdade.
+
+4. Embora a verdade não esteja propriamente nas coisas, mas na mente, uma coisa às vezes é chamada de verdadeira, na medida em que atinge adequadamente a atualidade de sua natureza própria. Por isso Avicena diz que a verdade de uma coisa é uma propriedade do ser fixo e designado de cada coisa, na medida em que tal coisa é naturalmente apta a criar uma impressão verdadeira de si mesma, e na medida em que expressa a ideia própria de si mesma na mente divina. Mas Deus é a Sua própria essência: portanto, quer falemos da verdade do intelecto ou da verdade do objeto, Deus é a Sua própria verdade.
+
+Isto também é confirmado pela autoridade de nosso Senhor dizendo de Si mesmo: Eu sou o caminho, a verdade e a vida (João xiv, 6).
+
+## Capítulo LXI. Que Deus é pura Verdade
+
+CAPÍTULO LXI — Que Deus é a verdade pura O entendimento não está sujeito ao erro em seu conhecimento do ser abstrato, assim como o sentido não está ao lidar com o objeto próprio de cada sentido. Mas todo o conhecimento da mente divina é semelhante ao de uma mente que conhece o ser abstrato (Cap. LVIII): é impossível, portanto, que o erro, o engano ou a falsidade se insinuem no ato cognitivo de Deus.
+
+3. O intelecto não erra nos primeiros princípios, mas nas conclusões fundamentadas dos primeiros princípios. Mas o intelecto divino não é raciocinador nem argumentativo (Cap. LVII) e, portanto, não é passível de engano.
+
+4. Quanto mais elevada for qualquer faculdade cognitiva, mais universal e abrangente será o seu objeto próprio: portanto, aquilo que a visão tem conhecimento acidentalmente, a sensibilidade geral ou a imaginação apreende como um conteúdo de seu objeto próprio. Mas o poder da mente divina é o apogeu do poder cognitivo: portanto, todas as coisas cognoscíveis constituem-se para ela como objetos de conhecimento próprios e comuns, e não como objetos acidentais. Mas sobre objetos de conhecimento próprios e comuns, uma faculdade cognitiva nunca comete erros.
+
+5. Uma virtude intelectual é uma perfeição do entendimento no conhecimento. Nunca acontece que o entendimento pronuncie algo falso, mas a sua expressão é sempre verdadeira, quando motivada por qualquer virtude intelectual; pois faz parte da virtude tornar bom um ato, e proferir a verdade é o bom ato do entendimento. Mas a mente divina, sendo o ápice da perfeição, é mais perfeita por sua natureza do que a mente humana por qualquer hábito de virtude.
+
+6. O conhecimento da mente humana é de certa forma causado pelas coisas: daí resulta que as coisas cognoscíveis são a medida do conhecimento humano: pois o julgamento da mente é verdadeiro, porque a coisa é assim. Mas a mente divina, pelo seu conhecimento, é a causa das coisas. Conseqüentemente, o conhecimento de Deus deve ser a medida das coisas, assim como a arte é a medida dos produtos da arte, cuja perfeição de cada um varia de acordo com sua concordância com a arte. Assim, a mente divina está para as coisas assim como as coisas estão para a mente humana. Mas qualquer erro que surja de qualquer desigualdade entre a mente humana e a coisa não está nas coisas, mas na mente. Se, portanto, não houvesse uma correspondência absolutamente perfeita entre a mente divina e as coisas, o erro estaria nas coisas e não na mente divina. Contudo, não há erro nas coisas que existem: porque cada um tem tanto de verdade quanto de ser. Não há então falha na correspondência entre a mente divina e as coisas que existem.
+
+Por isso é dito: Deus é verdadeiro (Romanos iii, 4): Deus não é como o homem, para que minta (Num. xxiii, 19): Deus é luz, e não há trevas nele (1 João 1, 5).
+
+## Capítulo LXII. Que a Verdade de Deus é a Verdade Primeira e Soberana
+
+CAPÍTULO LXII — Que a Verdade de Deus é a Primeira e Soberana Verdade O padrão em cada gênero é o exemplo mais perfeito do gênero. Mas a verdade divina é o padrão de toda verdade. A verdade da nossa mente é medida pelo objeto fora da mente: a nossa compreensão é chamada verdadeira, na medida em que está de acordo com esse objeto. E novamente a verdade do objeto é medida pela sua conformidade com a mente divina, que é a causa de todas as coisas (B. II, Cap. XXIV), assim como a verdade dos objetos artificiais é medida pela arte do artífice. Visto então que Deus é o primeiro entendimento e o primeiro objeto do entendimento, a verdade de todo entendimento deve ser medida pela Sua verdade, assim como tudo é medido pelo primeiro e melhor de sua espécie.
+
+## Capítulo LXIII. Os argumentos daqueles que desejam retirar de Deus o conhecimento das coisas individuais
+
+CAPÍTULO LXIII — Os argumentos daqueles que desejam retirar de Deus o conhecimento das coisas individuais O primeiro argumento é extraído da própria condição de individualidade. Pois como a matéria (materia signata) é o princípio da individualidade, parece que os indivíduos não podem ser conhecidos por nenhuma faculdade imaterial, na medida em que todo conhecimento é uma certa assimilação e, portanto, mesmo em nós só esses poderes apreendem objetos individuais, que fazem uso de órgãos materiais, como o fazem a imaginação e os sentidos, mas o nosso entendimento, que é imaterial,
+
+não reconhece os indivíduos como tais: muito menos então o entendimento divino é apto a tomar conhecimento dos indivíduos, sendo, como é, o mais distante da matéria.
+
+2. O segundo argumento é que as coisas individuais nem sempre existem. Ou então eles serão sempre conhecidos por Deus, ou às vezes serão conhecidos e às vezes não serão conhecidos. A primeira alternativa é impossível, porque não pode haver conhecimento daquilo que não é: pois o conhecimento é apenas sobre coisas verdadeiras, e coisas que não são não podem ser verdadeiras. A segunda alternativa também é impossível, porque o conhecimento da mente divina é absolutamente invariável (Cap. XLV).
+
+3. O terceiro argumento parte da consideração de que nem todas as coisas individuais surgem por necessidade, mas algumas o são por contingência: portanto, não pode haver conhecimento certo delas, exceto quando existem. Pois esse conhecimento é certo, o que é infalível: mas todo conhecimento do ser contingente é falível enquanto a coisa ainda está no futuro; pois pode acontecer o oposto daquilo que é mantido na cognição: pois se o oposto não pudesse acontecer, a coisa seria uma necessidade: portanto, não pode haver em nós nenhuma ciência das contingências futuras, apenas um cálculo conjectural. Por outro lado, devemos supor que todo o conhecimento de Deus é muitíssimo certo e infalível (Cap. LXI). Também é impossível para Deus começar a conhecer alguma coisa, devido à Sua imutabilidade. Disto parece decorrer que Ele não conhece contingências individuais.
+
+4. O quarto argumento deriva disto: alguns efeitos individuais têm sua causa na vontade. Ora, um efeito, antes de ser produzido, só pode ser conhecido em sua causa: pois só assim pode ter ser antes de começar a ter ser em si mesmo. Mas os movimentos da vontade não podem ser conhecidos com certeza por ninguém menos que o agente voluntário, em cujo poder eles estão. É impossível, portanto, que Deus tenha conhecimento certo de efeitos individuais cuja causa deriva de uma vontade criada.
+
+5. O quinto argumento vem da infinidade infinita de coisas individuais. O infinito como tal é desconhecido: pois tudo o que é conhecido é medido de certa forma pela compreensão do conhecedor, sendo a medição nada mais do que uma marcação e averiguação da coisa medida: portanto, toda arte repudia os infinitos. Mas as existências individuais são infinitas, pelo menos potencialmente.
+
+6. O sexto argumento vem da vileza das coisas individuais. Assim como a nobreza do conhecimento é avaliada de acordo com a nobreza da coisa conhecida, também a vileza da coisa conhecida parece redundar na vileza do conhecimento. Portanto, a excelente nobreza da mente divina não permite que Deus conheça diversas coisas mais vis que têm existência individual.
+
+7. O sétimo argumento vem do mal que se encontra em diversas coisas individuais. Visto que o objeto conhecido está de alguma forma na mente conhecedora, e o mal é impossível em Deus, parece seguir-se que Deus não pode ter nenhum conhecimento do mal e da privação: apenas a mente que está em potencialidade pode saber disso, assim como a privação só pode estar em potencialidade.
+
+## Capítulo LXIV. Uma lista de coisas a serem ditas sobre o Conhecimento Divino
+
+CAPÍTULO LXIV — Uma lista de coisas a serem ditas a respeito do Conhecimento Divino À exclusão do erro acima, mostraremos primeiro que a mente divina conhece coisas individuais; segundo, que conhece coisas que na verdade não existem; em terceiro lugar, que conheça as contingências futuras com conhecimento infalível; em quarto lugar, que conhece os movimentos da vontade; em quinto lugar, que conhece coisas infinitas; em sexto lugar, que conhece o que há de mais vil e insignificante; em sétimo lugar, que conhece os males e todo tipo de privações ou defeitos.
+
+## Capítulo LXV. Que Deus conhece coisas individuais
+
+CAPÍTULO LXV — Que Deus conhece as coisas individuais DEUS conhece as coisas na medida em que Ele é a causa delas. Mas os efeitos substanciais da causação divina são coisas individuais, não sendo os universais coisas substanciais, mas existindo apenas nos indivíduos.
+
+2. Visto que o ato cognitivo de Deus é Sua essência, Ele deve conhecer tudo o que está de alguma forma em Sua essência; e como esta essência é o princípio primeiro e universal do ser e a origem primeira de tudo, ela contém virtualmente em si todas as coisas que, de qualquer forma, têm existência.
+
+5. Na gradação das faculdades verifica-se comumente que a faculdade superior se estende a mais termos, e ainda assim é uma; enquanto o alcance da faculdade inferior se estende a menos termos, e mesmo sobre eles é multiplicado, como vemos no caso da imaginação e dos sentidos, pois o poder único da imaginação se estende a tudo o que os cinco sentidos reconhecem, e a mais. Mas a faculdade cognitiva em Deus é mais elevada do que no homem: portanto, tudo o que o homem conhece pelas várias faculdades de compreensão, imaginação e sentido, Deus é conhecido por Sua única e simples intuição. Deus, portanto, está apto a conhecer as coisas individuais que captamos pelos sentidos e pela imaginação.
+
+6. A mente divina, ao contrário da nossa, não obtém o seu conhecimento das coisas, mas pelo seu conhecimento é a causa das coisas; e assim o seu conhecimento das coisas é um conhecimento prático. Mas o conhecimento prático não é perfeito a menos que se desça a casos individuais: pois o fim do conhecimento prático é o trabalho, que é feito em indivíduos.
+
+9. Como argumenta o Filósofo contra Empédocles, Deus seria muito carente de sabedoria se não conhecesse casos individuais, que até os homens conhecem.
+
+Esta verdade é estabelecida também pela autoridade da Sagrada Escritura, pois é dito: Não há criatura invisível à sua vista: também o erro contrário é excluído pelo texto: Não digas, estarei escondido de Deus; e do alto do céu quem se importará comigo? (Eclo xvi, 16).
+
+Pelo que foi dito, é evidente como a objeção em contrário (Cap. LXIII, 1) é inconclusiva: pois embora a apresentação mental pela qual o entendimento divino compreende seja imaterial, ela ainda é um tipo tanto de matéria quanto de forma, como sendo o principal princípio produtivo de ambos.
+
+## Capítulo LXVI. Que Deus sabe coisas que não são
+
+CAPÍTULO LXVI — Que Deus conhece coisas que não são O conhecimento da mente divina está para as coisas assim como o conhecimento do artífice está para os produtos de sua arte. Mas o artífice, pelo conhecimento de sua arte, conhece até mesmo os produtos dela que ainda não foram produzidos.
+
+3. Deus conhece outras coisas além de Si mesmo pela Sua essência, na medida em que Sua essência é o tipo de outras coisas que procedem Dele (Cap. LIV). Mas como a essência de Deus é infinitamente perfeita (Cap. XLIII), enquanto o ser e a perfeição de todas as outras coisas são limitados, é impossível que a soma total das outras coisas seja igual à perfeição da essência divina. Portanto, o poder representativo dessa essência estende-se a muito mais coisas do que às coisas que existem. Como então Deus conhece inteiramente o poder e a perfeição de Sua essência, Seu conhecimento alcança não apenas as coisas que são, mas também as que não são.
+
+6. A compreensão de Deus não tem sucessão, assim como o Seu ser: está tudo junto, sempre permanente, o que é a noção essencial de eternidade, enquanto a duração do tempo se estende pela sucessão de antes e depois. A proporção da eternidade para toda a duração do tempo é como a proporção de um ponto indivisível para uma superfície contínua - não daquele ponto indivisível que é um termo da superfície, e não está em todas as partes de sua extensão contínua: pois a tal ponto um instante de tempo tem semelhança; mas daquele ponto indivisível que está fora da superfície, e ainda assim coexiste com cada parte ou ponto de sua extensão contínua: pois como o tempo não vai além do movimento, a eternidade, que está totalmente além do movimento, não é função do tempo. Novamente, como o ser do eterno nunca falha, a eternidade está presente em todos os tempos ou instantes de tempo.
+
+Algum tipo de exemplo disto pode ser visto num círculo: pois um ponto tomado na circunferência não coincide com todos os outros pontos; mas o centro, afastado da circunferência, está diretamente oposto a todos os pontos da circunferência. Portanto, tudo o que existe em qualquer porção do tempo coexiste com o eterno, como presente para ele, embora em relação a outra porção do tempo seja passado ou futuro. Mas nada pode coexistir na presença com o eterno senão com a totalidade dele, porque não tem duração sucessiva. Portanto, tudo o que é feito ao longo do tempo, a mente divina o vê como presente durante toda a sua eternidade; e ainda assim não se pode dizer que o que é feito num período definido de tempo sempre tenha sido um fato existente. A conclusão é que Deus tem conhecimento de coisas que no decorrer do tempo ainda não existem.
+
+Por estas razões, parece que Deus tem conhecimento de nulidades. Mas todas as nulidades não têm a mesma consideração pelo Seu conhecimento. Coisas que não são, nem serão, nem foram, são conhecidas por Deus como possíveis ao Seu poder: portanto, Ele não as conhece como sendo em si mesmas, mas apenas como estando dentro do alcance do poder divino. Alguns dizem que esse tipo de coisa é conhecido por Deus com o “conhecimento da compreensão simples” (notitia simplicis intelligentiae). Mas quanto às coisas que são presentes, passadas ou futuras para nós, Deus as conhece como estão dentro do alcance de Seu poder; e como eles estão dentro do alcance de suas próprias causas criadas; e como eles são em si; e o conhecimento de tais coisas é chamado de “conhecimento da visão” (notitia visionis). Pois das coisas que ainda não estão conosco, Deus vê não apenas o ser que elas têm em suas causas, mas também o ser que elas têm em si mesmas, na medida em que Sua eternidade está indivisivelmente presente em todos os tempos. Devemos lembrar que Deus
+
+conhece o ser de tudo através de Sua própria essência: pois Sua essência é representável por muitas coisas que não são, nem nunca serão, nem nunca foram. Essa mesma essência é o tipo do poder de toda causa, em virtude do qual os efeitos do poder pré-existem em suas causas. Novamente, o ser de tudo, que tem em si, é modelado no ser da essência divina. Assim, então, Deus conhece as não-entidades na medida em que de alguma forma elas existem, seja no poder de Deus, ou em suas causas (criaturas), ou em si mesmas.
+
+Disto também dá testemunho a autoridade da Sagrada Escritura: Todas as coisas são conhecidas do Senhor nosso Deus antes da sua criação; como também, depois que eles são totalmente feitos, ele considera todos (Ecclus xxiii, 29): e, antes de te formar no ventre, eu te conheci (Jeremias 1, 5).
+
+## Capítulo LXVII. Que Deus conhece eventos contingentes individuais
+
+CAPÍTULO LXVII — Que Deus conhece os Eventos Contingentes Individuais PORTANTO podemos reunir alguma ideia de como Deus teve um conhecimento infalível de todos os eventos contingentes desde a eternidade, e ainda assim eles deixam de não ser contingentes. Pois a contingência não é inconsistente com o conhecimento certo e garantido, exceto na medida em que o evento contingente esteja no futuro, e não enquanto estiver presente. Embora o evento esteja no futuro, pode não estar; e, portanto, a visão daquele que considera que ainda existe pode estar errada: mas uma vez presente, naquele momento não pode deixar de existir. Qualquer visão formada, portanto, sobre um evento contingente, na medida em que esteja presente, pode ser uma certeza. Mas a intuição da mente divina repousa desde a eternidade sobre cada um dos eventos que acontecem no decorrer do tempo, vendo cada um como uma coisa presente. Não há nada, portanto, que impeça Deus de ter, desde a eternidade, um conhecimento infalível de eventos contingentes.
+
+2. Um acontecimento contingente difere de um acontecimento necessário na forma como cada um está contido na sua causa. Um evento contingente está tão contido em sua causa que não pode ou pode resultar dela: enquanto um evento necessário não pode deixar de resultar de sua causa. Mas como cada um desses eventos é em si mesmo, os dois não diferem em termos de realidade; e sobre a realidade a verdade é fundada. Num acontecimento contingente, considerado tal como é em si, não se trata de ser ou de não ser, mas apenas de ser: embora, olhando para o futuro, um acontecimento contingente possivelmente possa não ocorrer. Mas a mente divina conhece as coisas desde a eternidade, não apenas no ser que elas têm nas suas causas, mas também no ser que elas têm em si mesmas.
+
+3. Assim como de uma causa necessária o efeito segue com certeza, com a mesma certeza decorre de uma causa contingente, quando a causa é completa, desde que nenhum obstáculo seja colocado. Mas como Deus conhece todas as coisas (Cap. L). Ele conhece não apenas as causas dos eventos contingentes, mas também os meios pelos quais eles podem ser impedidos de ocorrer. Ele sabe, portanto, com certeza se eles vão sair ou não.
+
+6. O conhecimento de Deus não seria verdadeiro e perfeito se as coisas não acontecessem da maneira que Deus espera que aconteçam. Mas Deus, conhecedor como é de todos os seres dos quais Ele é o princípio, conhece cada evento, não apenas em si mesmo, mas também em sua dependência de quaisquer causas próximas das quais depende: mas a dependência de eventos contingentes em suas causas próximas envolve sua ocorrência contingentemente. Deus, portanto, sabe que diversos eventos acontecem, e que acontecem contingentemente: assim, a certeza e a verdade do conhecimento divino não removem a contingência dos eventos.
+
+7. Quando se diz: ‘Deus conhece, ou conhecia, este evento vindouro’, supõe-se um meio intermediário entre o conhecimento divino e a coisa conhecida, a saber, o tempo para o qual a expressão aponta, em relação ao qual aquilo que se diz ser conhecido por Deus está no futuro. Mas realmente não está no futuro no que diz respeito ao conhecimento divino, que existe no instante da eternidade e está presente em todas as coisas. A respeito de tal conhecimento, se deixarmos de lado o tempo de falar, é impossível dizer que fulano de tal é conhecido como inexistente; e nunca surge a questão de saber se a coisa possivelmente nunca ocorrerá. Como é conhecido, deve-se dizer que é visto por Deus como já presente em sua existência. Sob este aspecto, a questão da possibilidade de a coisa nunca vir a ser não pode mais ser levantada: o que já é, em relação a esse instante presente, não pode deixar de ser.
+
+Daí surge então a falácia de que o momento em que falamos, quando dizemos “Deus sabe”, coexiste com a eternidade; ou ainda a última vez que é marcada quando dizemos “Deus sabia”; e assim uma relação do tempo, passado ou presente, com o futuro é atribuída à eternidade, atribuição que não se aplica; e assim temos falacia acidental.
+
+8. Visto que tudo é conhecido por Deus como visto por Ele no presente, a necessidade de ser verdadeiro aquilo que Deus conhece é como a necessidade de Sócrates sentar-se pelo fato de ele ser visto sentado. Isto não é necessário absolutamente, ‘por necessidade do consequente’, como a frase é, mas condicionalmente, ou ‘por necessidade da consequência’. Pois esta proposição condicional é necessária: ‘Ele está sentado, se for visto sentado.’ Mude a proposição condicional para uma categórica desta forma: ‘O que é visto sentado, está necessariamente sentado’: é claro que a proposição é verdadeira como uma frase, onde seus elementos são tomados juntos (compositam), mas falsa como um fato, quando seus elementos são separados (divisam). Todas estas objeções contra o conhecimento divino dos fatos contingentes são falacia composiçãois et divisionis.
+
+Que Deus conhece as contingências futuras é demonstrado também pela autoridade da Sagrada Escritura: pois é dito da Sabedoria Divina: Ela conhece sinais e presságios de antemão, e as questões dos tempos e das eras (Sábado. viii, 8): e, Não há nada oculto aos seus olhos: de era em era ele considera (Ecclus xxxix, 24, 25).
+
+## Capítulo LXVIII. Que Deus conhece os movimentos da vontade
+
+CAPÍTULO LXVIII - Que Deus conhece os movimentos da vontade DEUS conhece os pensamentos das mentes e as volições dos corações em virtude de sua causa, pois Ele próprio é o princípio universal do ser. Tudo o que existe de alguma forma é conhecido por Deus em Seu conhecimento de Sua própria essência (Cap. XLIX). Agora existe uma certa realidade na alma, e novamente uma certa realidade nas coisas fora da alma. A realidade da alma é aquela que está na vontade ou no pensamento. Deus conhece todas essas variedades de realidade.
+
+3. Assim como Deus, ao conhecer Seu próprio ser, conhece o ser de tudo, assim, ao conhecer Seu próprio ato de compreensão e vontade, Ele conhece cada pensamento e volição.
+
+5. Deus conhece as substâncias inteligentes não menos bem do que Ele conhece ou nós conhecemos as substâncias sensíveis, visto que as substâncias inteligentes são mais cognoscíveis, como sendo melhor atualizadas.
+
+Isto é confirmado pelo testemunho da Sagrada Escritura: — Deus que sonda os corações e as rédeas (Sl. VII, 10): O inferno e a perdição estão diante do Senhor: quanto mais os corações dos filhos dos homens? (Prov. 11, 11): Ele não precisava que alguém desse testemunho do que havia no homem: pois ele mesmo sabia o que havia no homem (João 2, 25).
+
+O domínio da vontade sobre os seus próprios atos, pelo qual ela tem em seu poder querer e não querer, é inconsistente com o fato de a força de vontade ser determinada a um modo fixo de ação: é inconsistente também com a interferência violenta de qualquer agência externa; mas não é inconsistente com a influência daquela Causa Superior, de onde é dada à vontade tanto de ser como de agir. E assim, na Causa Primeira, isto é, em Deus, permanece uma influência causal sobre os movimentos da vontade, de modo que, ao conhecer a Si mesmo, Deus é capaz de conhecer esses movimentos.
+
+## Capítulo LXIX. Que Deus sabe coisas infinitas
+
+CAPÍTULO LXIX - Que Deus conhece coisas infinitas Ao conhecer a si mesmo como a causa das coisas, Ele conhece outras coisas além de si mesmo (Cap. XLIX). Mas Ele é a causa das coisas infinitas, se os seres são infinitos, pois Ele é a causa de todas as coisas que existem.
+
+2. Deus conhece perfeitamente o Seu próprio poder (Cap. XLIX). Mas o poder não pode ser perfeitamente conhecido, a menos que todos os objetos aos quais ele se estende sejam conhecidos, uma vez que, de acordo com essa extensão, pode-se dizer que a quantidade do poder é determinada. Mas o Seu poder sendo infinito (Cap. XLIII) estende-se às coisas infinitas e, portanto, também ao Seu conhecimento.
+
+3. Se o conhecimento de Deus se estende a todas as coisas que de alguma forma existem, Ele deve conhecer não apenas o ser real, mas também o ser potencial. Mas no mundo físico existe um infinito potencial, embora não um infinito real, como prova o Filósofo. Deus, portanto, conhece coisas infinitas, da mesma forma que a unidade, que é o princípio do número, conheceria espécies infinitas de números se conhecesse tudo o que está em sua potencialidade: pois a unidade está na promessa e na potência de cada número.
+
+4. Deus em Sua essência, como uma espécie de meio exemplar, conhece outras coisas. Mas como Ele é um ser de perfeição infinita, podem ser modeladas Nele infinitas cópias com perfeições finitas, porque nenhuma dessas cópias, nem qualquer número delas juntas, pode chegar à perfeição de seu exemplar; e assim sempre resta alguma nova maneira de qualquer cópia tirada imitá-Lo.
+
+10. O infinito desafia o conhecimento na medida em que desafia a contagem. Contar as partes do infinito é uma impossibilidade intrínseca, pois envolve uma contradição. Conhecer uma coisa pela enumeração de suas partes é característico de uma mente que conhece parte após parte sucessivamente, e não de uma mente que compreende as diversas partes juntas. Desde então, a mente divina conhece todas as coisas juntas, sem sucessão, não tem mais dificuldade em conhecer as coisas infinitas do que em conhecer as coisas finitas.
+
+11. Toda quantidade consiste em uma certa multiplicação de partes; e, portanto, o número é a primeira das quantidades. Onde então a pluralidade não faz diferença, nenhuma diferença pode ser feita por qualquer coisa que se siga à quantidade. Mas, no conhecimento de Deus, muitas coisas são conhecidas de uma só vez, não por muitas apresentações diferentes, mas por aquela única espécie, ou apresentação, que é a essência de Deus. Conseqüentemente, uma multidão de coisas é conhecida por Deus de uma só vez; e assim a pluralidade não faz diferença no conhecimento de Deus: nem o infinito, que segue a quantidade.
+
+De acordo com isto é o que é dito no Salmo cxlvi: E da sua sabedoria não há como dizer.
+
+Pelo que foi dito fica claro por que nossa mente não conhece o infinito como a mente divina o faz. Nossa mente difere da mente divina em quatro aspectos; e eles fazem toda a diferença. A primeira é que a nossa mente é simplesmente finita, a mente divina infinita. A segunda é que, como a nossa mente conhece coisas diferentes através de impressões diferentes, ela não pode estender-se a uma infinidade de coisas, como pode a mente divina. A terceira resulta desta forma: como a nossa mente conhece coisas diferentes por meio de impressões diferentes, ela não pode realmente conhecer uma infinidade de coisas ao mesmo tempo; e assim não poderia conhecer uma infinidade de coisas, exceto contando-as em sucessão, o que não é o caso da mente divina, que discerne muitas coisas ao mesmo tempo, conforme vistas por uma apresentação. A quarta coisa é que a mente divina conhece as coisas que são e as que não são (Cap. LXVI).
+
+É também claro como a afirmação do Filósofo, de que o infinito, como infinito, é incognoscível, não está em oposição com a opinião agora apresentada: porque a noção de infinito está ligada à quantidade; conseqüentemente, para que o infinito fosse conhecido como infinito, ele teria que ser conhecido pela medição de suas partes, pois essa é a maneira correta de conhecer a quantidade: mas Deus não conhece o infinito dessa maneira. Portanto, por assim dizer, Deus não conhece o infinito na medida em que é infinito, mas na medida em que, até onde Ele sabe, é como se fosse finito.
+
+Deve-se observar, porém, que Deus não conhece uma infinidade de coisas com o ‘conhecimento da visão’, porque coisas infinitas nem realmente são, nem foram, nem serão, uma vez que, de acordo com a fé católica, não há gerações infinitas nem no tempo passado nem no tempo futuro. Mas Ele conhece uma infinidade de coisas com o “conhecimento do simples entendimento”: pois Ele conhece coisas infinitas que não são, nem foram, nem serão, e ainda assim estão no poder da criatura; e Ele também conhece coisas infinitas que estão em Seu próprio poder, que não são, nem serão, nem foram. Portanto, à questão do conhecimento das coisas particulares, pode-se responder pela negação do maior: pois as coisas particulares não são infinitas: se, de qualquer forma, fossem, Deus, mesmo assim, as conheceria.
+
+## Capítulo LXX. Que Deus conhece coisas básicas e mesquinhas
+
+CAPÍTULO LXX - Que Deus conhece coisas básicas e mesquinhas Quanto mais forte é um poder ativo, aos objetos mais remotos ele estende sua ação. Mas o poder da mente divina em conhecer as coisas é comparado ao poder ativo: visto que a mente divina sabe, não por receber algo das coisas, mas antes por derramar sua influência sobre as coisas. Visto então que a mente de Deus tem um poder infinito de compreensão (Cap. XLIII), o seu conhecimento deve estender-se aos objetos mais remotos. Mas o grau de nobreza ou baixeza em todas as coisas é determinado pela proximidade ou distância de Deus, que é a plenitude da nobreza. Portanto, as coisas mais vis que existem são conhecidas por Deus por causa do grande poder de Seu entendimento.
+
+2. Tudo o que existe, na medida em que tem lugar na categoria de substância ou qualidade, está na realidade: é uma espécie de semelhança da realidade primária e é por isso enobrecido. Mesmo o ser potencial, pela sua referência à realidade, partilha da nobreza, e por isso passa a ter o nome de “ser”. Segue-se que todo ser, considerado em si mesmo, é nobre; e é apenas mesquinho e vil em comparação com algum outro ser, ainda mais nobre. Mas o mais nobre
+
+as criaturas estão distantes de Deus a uma distância não inferior àquela que separa o mais elevado na escala da criação do mais inferior. Se então uma distância impedisse o conhecimento de Deus, muito mais o faria a outra; e a consequência seria que Deus não conheceria nada além de Si mesmo.
+
+3. O bem da ordem do universo é mais nobre do que qualquer parte do universo. Se então Deus conhece qualquer outra natureza nobre, acima de tudo Ele deve conhecer a ordem do universo. Mas isso não pode ser conhecido sem tomar conhecimento ao mesmo tempo das coisas mais nobres e das coisas mais básicas: pois nas distâncias e relações mútuas dessas coisas consiste a ordem do universo.
+
+4. A vileza dos objetos de conhecimento não repercute por si só no conhecedor; pois é da essência do conhecimento que o conhecedor contenha dentro de si impressões do objeto conhecido de acordo com seu próprio modo e maneira. Acidentalmente, porém, a vileza dos objetos conhecidos pode repercutir sobre o conhecedor, seja porque, ao conhecer coisas vis e mesquinhas, ele se afasta do pensamento de coisas mais nobres, ou porque, ao considerar tais objetos vis, ele se inclina a algumas afeições indevidas: o que não pode ser o caso de Deus.
+
+5. Não se julga pequeno um poder que se estende às pequenas coisas, mas apenas aquele que se limita às pequenas coisas. Portanto, um conhecimento que abrange tanto coisas nobres como coisas mesquinhas não deve ser considerado mesquinho; mas esse conhecimento é mesquinho, e abrange apenas coisas mesquinhas, como é o nosso caso: pois fazemos estudos diferentes das coisas divinas e das humanas, e há uma ciência diferente para cada uma delas. Mas com Deus não é assim; pois com o mesmo conhecimento e o mesmo olhar Ele vê a Si mesmo e a todos os outros seres.
+
+Com isto concorda o que é dito da Sabedoria Divina: Ela encontra lugar em todos os lugares por causa de sua pureza, e nada contaminado entra furtivamente para corrompê-la (Sabedoria vii, 24, 25).
+
+## Capítulo LXXI. Que Deus conhece coisas más
+
+CAPÍTULO LXXI — Que Deus conhece as coisas más QUANDO o bem é conhecido, o mal oposto é conhecido. Mas Deus conhece todas as coisas boas particulares, às quais as coisas más se opõem: portanto, Deus conhece as coisas más.
+
+2. As ideias dos contrários, como ideias na mente, não são contrárias umas às outras: caso contrário, não poderiam estar juntas na mente, ou ser conhecidas juntas: a ideia, portanto, pela qual o mal é conhecido não é inconsistente com o bem, mas antes pertence à ideia do bem (ratio qua cognoscitur malum ad rationem boni pertinet). Se, pois, em Deus, por causa da sua perfeição absoluta, se encontram todas as ideias de bem (rationes bonitatis, como foi provado (Cap. XL), segue-se que nele existe a ideia (ratio) pela qual o mal é conhecido.
+
+3. A verdade é o bem do entendimento: pois o entendimento é chamado bom na medida em que conhece a verdade. Mas a verdade não é apenas no sentido
+
+que o bem é bom, mas também que o mal é mau: pois assim como é verdade que o que é, é, também é verdade que o que não é, não é. O bem do entendimento consiste, portanto, até no conhecimento do mal. Mas como o entendimento divino é perfeito em bondade, não pode faltar-lhe nenhuma das perfeições do entendimento; e, portanto, está presente nele o conhecimento das coisas más.
+
+4. Deus conhece a distinção das coisas (Cap. L). Mas na noção de distinção há negação: pois são distintas aquelas coisas das quais uma não é outra: portanto, as primeiras coisas que são por si mesmas distintas envolvem mutuamente a exclusão uma da outra, razão pela qual proposições negativas rápidas são imediatamente verificadas sobre elas, por exemplo, 'Nenhuma quantidade é uma substância.' Mas a privação é uma espécie de negação: Ele conhece, portanto, a privação e, conseqüentemente, o mal, que nada mais é do que uma privação da devida perfeição.
+
+8. Em nós, o conhecimento das coisas más nunca é censurável no mero ponto de conhecimento, isto é, no julgamento que é feito sobre as coisas más, mas acidentalmente, na medida em que pela observação das coisas más alguém às vezes se inclina ao mal. Mas isso não pode estar em Deus; e, portanto, não há nada que impeça que Ele conheça o mal.
+
+Com isto concorda o que é dito, que o Mal não supera a sabedoria [de Deus] (Sab. vii, 30) e, Inferno e perdição estão diante do Senhor (Prov. xv, 11) e, Minhas ofensas não estão escondidas de ti (Sl. lxviii, 6); e: Ele conhece a vaidade dos homens e, visto que não considera a iniqüidade? (Jó xi, 11.)
+
+Deve-se observar, entretanto, que se o conhecimento de Deus fosse tão limitado a ponto de Seu conhecimento de Si mesmo não envolver Seu conhecimento de outros seres de bondade finita e parcial, nesse caso Ele de forma alguma conheceria a privação ou o mal: porque ao bem que é o próprio Deus não há privação oposta, uma vez que a privação e seu oposto são naturalmente sobre o mesmo objeto; e assim, àquilo que é realidade pura, nenhuma privação se opõe e, conseqüentemente, nenhum mal também. Portanto, na suposição de que Deus conhece somente a si mesmo, conhecendo as excelências de Seu próprio ser, Ele não conhecerá o mal. Mas porque, ao conhecer-se a si mesmo, Ele conhece os seres nos quais ocorrem naturalmente privações, Ele deve conhecer as privações opostas e os males opostos a bens particulares.
+
+Deve-se observar ainda que, como Deus, sem qualquer processo argumentativo, conhece outros seres conhecendo a si mesmo, então não há necessidade de Seu conhecimento ser argumentativo ao chegar ao conhecimento das coisas más através de coisas boas: pois o bem é como se fosse a base do conhecimento do mal, sendo o mal nada mais do que a privação do bem: portanto, o que é mau é conhecido através do que é bom, assim como as coisas são conhecidas através de suas definições, não como conclusões através de suas premissas.
+
+## Capítulo LXXII. Que Deus tem uma vontade
+
+CAPÍTULO LXXII — Que Deus tem uma Vontade DO fato de que Deus tem entendimento, segue-se que Ele tem uma vontade. Visto que o bem apreendido no entendimento é o objeto próprio da vontade, o bem entendido, como tal, deve ser bem querido. Mas qualquer coisa compreendida envolve uma mente compreensiva. Uma mente que compreende o bem deve, como tal, ser uma mente que deseja o bem.
+
+3. O que é consequência de todo ser é uma propriedade do ser como tal. Tal propriedade deve ser encontrada em sua perfeição no primeiro e maior dos seres. Agora é propriedade de todo ser buscar sua própria perfeição e a preservação de sua própria existência. Cada ser faz isso à sua maneira: os seres inteligentes, pela sua vontade: os animais, pelo seu apetite sensível: a natureza inconsciente, por um certo nisus físico. No entanto, faz diferença se a coisa desejada está possuída ou não. Onde não é possuído, o núcleo de desejo próprio de cada espécie sai em busca do que está faltando: onde a coisa é possuída, ela é apoiada e apegada. Esta característica de todo ser não pode faltar no primeiro dos seres, que é Deus. Desde então, Deus tem entendimento, Ele também tem uma vontade, pela qual Ele se complaca com Seu próprio ser e Sua própria bondade.
+
+4. Quanto mais perfeito for o ato de compreensão, mais prazeroso será para a mente compreensiva. Mas Deus tem entendimento e um ato perfeitíssimo (Cap. XLIV): portanto esse ato Lhe rende o maior deleite. Mas assim como o deleite sensível ocorre através do apetite concupiscível, o deleite intelectual ocorre através da vontade. Deus então tem uma vontade.
+
+Esta vontade de Deus confessa os testemunhos da Sagrada Escritura: Tudo o que ele quis, o Senhor fez (Sl. cxxxiv, 6): Quem resiste à sua vontade? (Romanos 9:19).
+
+## Capítulo LXXIII. Que a Vontade de Deus é Sua Essência
+
+CAPÍTULO LXXIII — Que a Vontade de Deus é Sua Essência DEUS tem vontade na medida em que tem entendimento. Mas Ele tem entendimento por Sua essência (Cap. XLIV, XLV) e, portanto, fará o mesmo.
+
+2. O ato da vontade é a perfeição do agente que quer. Mas o ser divino é por si mesmo muito perfeito e não admite perfeição adicional (Cap. XXIII): portanto, em Deus, o ato de Sua vontade é o ato de Seu ser.
+
+3. Como todo agente age na medida em que é realidade, Deus, sendo pura realidade, deve agir por Sua essência. Mas querer é um ato de Deus: portanto, Deus deve querer por Sua essência.
+
+4. Se a vontade fosse algo acrescentado à substância divina, sendo essa substância completa em ser, seguir-se-ia que a vontade seria algo adventício a ela como um acidente a um sujeito; também que a substância divina representava para a vontade divina como potencialidade para a realidade; e que havia composição em Deus: todas as posições foram rejeitadas (Cap. XVI, XVIII, XXIII).
+
+## Capítulo LXXIV. Que o Objeto da Vontade de Deus em primeiro lugar é o próprio Deus
+
+CAPÍTULO LXXIV — Que o objeto da vontade de Deus em primeiro lugar é o próprio Deus. BEM compreendido é o objeto da vontade. Mas o que é entendido por Deus em primeiro lugar é a essência divina: portanto, a essência divina é o primeiro objeto da vontade divina.
+
+3. O objeto desejado em primeiro lugar é a causa do querer para todo agente disposto. Pois quando dizemos: ‘Desejo caminhar em benefício da minha saúde’, consideramos que estamos atribuindo uma causa; e se nos perguntarem ainda: ‘Por que você deseja beneficiar sua saúde?’ continuaremos atribuindo causas até chegarmos ao fim último, que é o objeto desejado em primeiro lugar, e é em si mesmo a causa de todo o nosso querer. Se então Deus deseja qualquer outra coisa além de si mesmo em primeiro lugar, seguir-se-á que essa “alguma outra coisa” é para Ele uma causa de querer. Mas a Sua vontade é o Seu ser (Cap. LXXIII). Portanto, outra coisa será a causa do Seu ser, o que é contrário à noção do Primeiro Ser.
+
+## Capítulo LXXV. Que Deus, ao querer a si mesmo, também quer outras coisas além de si mesmo
+
+CAPÍTULO LXXV - Que Deus, ao querer-se, também quer outras coisas além de si mesmo. CADA UM deseja a perfeição daquilo que por si mesmo deseja e ama: pois as coisas que amamos por si mesmas, desejamos ser excelentes, e cada vez melhores, e ser multiplicadas tanto quanto possível. Mas Deus deseja e ama Sua essência por si mesma. Ora, essa essência não é aumentada e multiplicada em si mesma (Cap. XLII), mas só pode ser multiplicada à sua semelhança, que é partilhada por muitos. Deus, portanto, deseja a multidão das coisas, na medida em que Ele deseja e ama a Sua própria perfeição.
+
+3. Quem ama alguma coisa em si e para si deseja, conseqüentemente, todas as coisas em que essa coisa se encontra: como quem ama a doçura em si deve amar todas as coisas doces. Mas Deus quer e ama o Seu próprio ser em si e para si; e todos os outros seres são uma espécie de participação à semelhança do Seu ser.
+
+6. A vontade segue o entendimento. Mas Deus, com o seu entendimento, entende a si mesmo em primeiro lugar, e em si mesmo entende todas as outras coisas: portanto, da mesma maneira, ele quer a si mesmo em primeiro lugar, e ao querer a si mesmo quer todas as outras coisas.
+
+Isto é confirmado pela autoridade da Sagrada Escritura: Tu amas todas as coisas que existem e não odeias nada das coisas que fizeste (Sábado. xi, 25)
+
+## Capítulo LXXVI. Que com um e o mesmo Ato da Vontade Deus quer a si mesmo e a todos os outros Seres
+
+CAPÍTULO LXXVI - Que com um e o mesmo Ato da Vontade Deus quer a Si mesmo e a todos os outros Seres, TODO poder tende, por uma e a mesma atividade, ao seu objeto e àquilo que faz do referido objeto um objeto para tal poder, como com a mesma visão vemos a luz e a cor que é realmente tornada visível pela luz. Mas quando desejamos uma coisa para um fim, e somente para isso, aquilo que é desejado para o fim recebe do fim o seu caráter de fim.
+
+objeto de vontade. Desde então, Deus quer todas as coisas para Si mesmo (Cap. LXXIV), com um ato de vontade Ele quer a Si mesmo e outras coisas.
+
+2. O que é perfeitamente conhecido e desejado, é conhecido e desejado em toda a extensão da sua força motriz. Mas um fim último é um motivo não apenas na medida em que é desejado em si mesmo, mas também na medida em que outras coisas se tornam desejáveis ​​por causa dele. Aquele, portanto, que deseja perfeitamente um fim, deseja-o de ambas as maneiras. Mas é impossível supor qualquer ato volitivo de Deus, pelo qual Ele deva querer a si mesmo, e não querer a si mesmo perfeitamente: visto que não há nada imperfeito em Deus. Portanto, por cada ato pelo qual Ele deseja a si mesmo, Ele deseja a si mesmo e a outras coisas absolutamente por Seu próprio bem; e outras coisas além de si mesmo, ele não deseja, exceto na medida em que ele deseja a si mesmo.
+
+3. Assim como as promessas são para as conclusões nas coisas especulativas, o fim para os meios nas coisas é prático e desejável: pois assim como conhecemos as conclusões pelas premissas, do fim em vista procedem tanto o desejo como a execução dos meios. Se então alguém desejasse o fim separado e os meios separados, por dois atos separados, haveria um processo passo a passo em sua volição (Cap. LVII). Mas isto é impossível em Deus, que está além de todo movimento.
+
+7. Querer pertence a Deus na medida em que Ele tem entendimento. Assim como então, por um ato, Ele entende a si mesmo e aos outros seres, na medida em que Sua essência é o padrão de todos eles, assim, por um ato, Ele deseja a si mesmo e a todos os outros seres, na medida em que Sua bondade é o tipo de toda bondade.
+
+## Capítulo LXXVII. Que a Multidão dos Objetos da Vontade de Deus não é inconsistente com a Simplicidade de Sua Substância
+
+CAPÍTULO LXXVII - Que a Multidão dos Objetos da Vontade de Deus não é inconsistente com a Simplicidade de Sua Substância. DEUS deseja outras coisas na medida em que Ele deseja Sua própria bondade (Cap. LXXV). As coisas então ficam sob a vontade de Deus conforme estão incluídas em Sua bondade. Mas em Sua bondade todas as coisas são uma: pois estão Nele de acordo com o modo que Lhe convém; coisas materiais, imaterialmente; e muitas coisas, em união (Cap. LV, LVIII). Assim, a multidão dos objetos da vontade divina não multiplica a substância divina.
+
+## Capítulo LXXVIII. Que a Vontade Divina alcance o bem das Existências Individuais
+
+CAPÍTULO LXXVIII - Que a Vontade Divina alcance o bem das Existências Individuais A excelência da ordem no universo aparece de duas maneiras: primeiro, na medida em que todo o universo é referido a algo além do universo, como um exército ao seu líder: em segundo lugar, na medida em que as partes do universo são referidas umas às outras, como as partes de um exército; e a segunda ordem é em prol da primeira. Mas Deus, ao se desejar como um fim, deseja outras coisas em sua referência a Ele como um fim. Ele deseja, portanto, a excelência da ordem no universo em referência a Si mesmo, e a excelência da ordem no universo na referência mútua de suas partes umas às outras. Mas a excelência da ordem é constituída pelo bem das existências individuais.
+
+Isto é confirmado pela autoridade das Escrituras: Deus viu a luz, que era boa (Gen. 1, 4); e similarmente de Suas outras obras; e, por último, um deles: Deus viu todas as coisas que ele havia feito, e elas eram muito boas (Gn 1, 31).
+
+## Capítulo LXXIX. Que Deus quer coisas que ainda não existem
+
+CAPÍTULO LXXIX — Que Deus deseja as coisas mesmo que ainda não sejam ALGUMAS, talvez se possa pensar que Deus deseja apenas as coisas que são: pois os correlativos andam juntos; e se um perecer, o outro perece; se então o querer supõe uma relação do sujeito que quer com o objeto desejado, ninguém pode querer senão as coisas que existem. Além disso, a vontade e seus objetos são um para o outro como Criador e criatura: agora Deus não pode ser chamado de Criador, ou Senhor, ou Pai, exceto das coisas que são: nem então pode-se dizer que Ele deseja qualquer outra coisa senão as coisas que são. E pode-se argumentar ainda que, se a vontade divina é invariável, como o é o ser divino, e deseja apenas existências reais, ela não deseja nada além do que sempre é.
+
+Digamos então, em resposta a estas objeções, que assim como o bem apreendido pelo intelecto move a vontade, o ato da vontade deve seguir a condição da apreensão mental. Ora, a mente apreende a coisa, não apenas como ela é na mente, mas também como é em sua própria natureza: pois não apenas sabemos que a coisa é compreendida por nós (pois esse é o significado de ela estar “na mente”), mas também que a coisa existe, ou existiu, ou existirá em sua própria natureza. Embora naquele momento a coisa não tenha outra existência senão na mente, ainda assim a mente permanece relacionada a ela, não como é na mente, mas como é em sua própria natureza, que a mente apreende. Portanto, a relação da vontade divina com uma coisa inexistente é com a coisa tal como ela é em sua própria natureza, ligada a um determinado tempo, e não apenas com a coisa tal como ela é no conhecimento de Deus. Pois Deus quer que a coisa, que não é agora, aconteça em algum momento determinado: Ele não a quer apenas na medida em que Ele mesmo a entende.
+
+Nem a relação da vontade com o seu objeto é semelhante à relação do Criador com a criatura, do Criador com o feito, do Senhor com o súdito. Pois a vontade, sendo um ato imanente, não envolve a existência externa real da coisa desejada: ao passo que fazer, criar e governar significam uma ação terminada em um efeito externo, de modo que sem a sua existência tal ação é ininteligível.
+
+## Capítulo LXXX. Que Deus necessariamente deseja Seu próprio Ser e Sua própria Bondade
+
+CAPÍTULO LXXX - Que Deus necessariamente deseja Seu próprio Ser e Sua própria Bondade DEUS deseja Seu próprio ser e Sua própria bondade como Seu primeiro objeto e razão para desejar todas as outras coisas (Cap. LXXIV), e isso Ele deseja em tudo o que Ele deseja. Nem é possível que Ele o queira meramente potencialmente: Ele deve desejá-lo realmente, pois a Sua vontade é o Seu ser.
+
+4. Todas as coisas, na medida em que existem, são comparadas a Deus, que é o primeiro e maior ser. Mas todas as coisas, na medida em que existem, valorizam naturalmente o seu próprio ser, da maneira que podem. Muito mais, portanto, Deus valoriza Seu próprio ser naturalmente.
+
+## Capítulo LXXXI. Que Deus não necessariamente ama outras coisas além de si mesmo
+
+CAPÍTULO LXXXI — Que Deus não ama necessariamente outras coisas além de si mesmo. Uma VONTADE não tende necessariamente aos meios para atingir um fim, se o fim puder ser alcançado sem esses meios. Visto então que a Bondade divina pode existir sem outros seres - ou melhor, outros seres não lhe acrescentam nada - Deus não tem necessidade de desejar outras coisas pelo fato de querer Sua própria bondade.
+
+2. Visto que o bem, entendido como tal, é o objeto próprio da vontade, a vontade pode fixar-se em qualquer objeto concebido pelo intelecto no qual a noção de bem se realiza. Portanto, embora o ser de qualquer coisa, como tal, seja bom, e seu não-ser, como tal, seja mau; ainda assim, o próprio não-ser de uma coisa pode tornar-se um objeto para a vontade, embora não necessariamente, em razão de alguma noção de bem realizada: pois é bom que uma coisa seja, mesmo que outra coisa não o seja. O único bem que a vontade, pelos termos da sua constituição, não pode desejar não ser, é o bem cuja inexistência destruiria completamente a noção de bem. Tal bem não é outro senão Deus. A vontade então, por sua constituição, pode desejar a inexistência de qualquer outra coisa, exceto de Deus. Mas em Deus há vontade de acordo com a plenitude do poder de querer. Deus então pode desejar a inexistência de qualquer outro ser além dele mesmo.
+
+3. Deus, ao desejar Sua própria bondade, também deseja outras coisas além de Si mesmo como compartilhando Sua bondade. Mas como a bondade divina é infinita e pode ser compartilhada de infinitas maneiras, se pela vontade de Sua própria bondade Ele necessariamente desejasse os seres que dela participam, seria absurdo que Ele devesse desejar a existência de criaturas infinitas compartilhando Sua bondade de maneiras infinitas: porque, se Ele as desejasse, essas criaturas existiriam, uma vez que Sua vontade é o princípio de ser para as criaturas.
+
+Devemos considerar, portanto, por que Deus necessariamente conhece outros seres além de Si mesmo, e ainda assim não necessariamente deseja que eles existam, apesar de Sua compreensão e vontade de Si mesmo envolverem Sua compreensão e vontade de outros seres. A razão disso é esta: a compreensão de qualquer coisa por um agente inteligente surge de uma certa condição do entendimento, - pois quando uma coisa é realmente compreendida, sua semelhança está na mente: mas o desejo de qualquer coisa por um agente volitivo surge de uma certa condição do objeto desejado, - pois desejamos uma coisa ou porque é um fim, ou porque é um meio para um fim. Ora, a perfeição divina exige necessariamente que todas as coisas estejam em Deus de modo a serem compreendidas Nele. Mas a bondade divina não exige necessariamente que outras coisas existam para serem referidas a Ele como meios para um fim; e por isso é necessário
+
+que Deus deveria saber outras coisas, mas não que Ele deveria querer outras coisas. Portanto, Ele também não deseja todas as coisas que se referem à Sua bondade: mas Ele conhece todas as coisas que de alguma forma se referem à Sua essência, por meio da qual Ele entende.
+
+## Capítulo LXXXII. Argumentos contra a referida Doutrina e Soluções da mesma
+
+CAPÍTULO LXXXII - Argumentos contra a referida Doutrina e Soluções da mesma ESTAS consequências estranhas parecem seguir-se, se alguma coisa que Deus deseja, Ele não deseja necessariamente.
+
+1. Se a vontade de Deus a respeito de certos objetos da vontade não for determinada por nenhum deles, ela parece ser indiferente. Mas toda faculdade tão indiferente está, de certa forma, em potencialidade.
+
+2. Visto que o ser potencial, como tal, é naturalmente mutável – pois o que pode ser também não pode ser – segue-se que a vontade divina é variável.
+
+4. Visto que o que está solto, indiferente entre duas alternativas, não tende para uma e não para outra, a menos que seja determinado por uma ou outra, ou Deus não deseja nenhuma das coisas às quais Ele é indiferente, ou Ele é determinado por uma ou outra delas, caso em que deve haver algo antecedente a Deus para determiná-lo.
+
+Mas nenhuma das objeções acima pode ser mantida.
+
+1. A indiferença ou a indeterminação de uma faculdade pode ser atribuída à própria faculdade ou ao seu objeto. À própria faculdade, quando a sua indeterminação provém de ainda não ter atingido a sua perfeição. Isto demonstra imperfeição na faculdade e uma potencialidade não realizada, como vemos na mente de alguém que duvida, que ainda não atingiu premissas suficientes para determiná-lo a tomar qualquer um dos dois lados. Para o objeto da faculdade, quando o perfeito funcionamento da faculdade não depende da adoção de qualquer uma das alternativas, e ainda assim qualquer uma das alternativas pode ser adotada, como quando a arte pode empregar diferentes instrumentos para fazer o mesmo trabalho igualmente bem. Isto não prova nenhuma imperfeição na faculdade, mas sim a sua excelência preeminente, na medida em que se eleva superior a ambas as alternativas opostas e, portanto, é indiferente a ambas e não é determinado por nenhuma delas. Tal é a posição da vontade divina em relação a outras coisas além de si mesma. A sua perfeição não depende de nenhum deles; ser, pois está intimamente unido ao seu próprio fim último e perfeição final.
+
+2. Na vontade divina não há potencialidade. Desnecessariamente, prefere uma alternativa a outra respeitando as criaturas que faz existir. Não deve ser encarado como tendo uma atitude potencial em relação a ambas as alternativas, de modo a primeiro estar potencialmente disposto a ambas, e depois estar realmente disposto a uma delas. Ele está para sempre desejando tudo o que deseja, tanto a si mesmo quanto às criaturas que são os objetos de sua causação. Mas qualquer criatura que Deus queira que exista, essa criatura não mantém nenhuma relação necessária com a bondade divina, que é o objeto próprio da vontade divina.
+
+4. Não podemos admitir que a vontade divina não queira nenhum dos efeitos da sua causação, ou que a sua volição seja determinada por algum objeto exterior. O objeto próprio da vontade é o bem apreendido como tal pelo entendimento. Ora, o entendimento divino apreende não apenas o ser divino, ou a bondade divina, mas também outras coisas boas (Cap. XLIX); e os apreende como semelhanças da bondade e essência divinas, não como elementos constitutivos das mesmas. Assim, a vontade divina tende a eles como coisas que se adequam à sua bondade, e não como coisas necessárias à sua bondade. O mesmo acontece também com a nossa vontade: a qual, quando se inclina para uma coisa como absolutamente necessária ao seu fim, tende para ela com uma certa necessidade; mas quando cuida de algo apenas por sua beleza e adequação, não o faz necessariamente.
+
+## Capítulo LXXXIII. Que Deus deseja qualquer outra coisa além de si mesmo com uma necessidade hipotética
+
+CAPÍTULO LXXXIII - Que Deus queira qualquer outra coisa além de si mesmo com uma necessidade hipotética EM todo ser imutável, o que quer que seja, não pode depois deixar de ser. Visto então que a vontade de Deus é imutável, supondo que Ele queira qualquer coisa, Ele não pode, nessa suposição, não querer.
+
+2. Tudo que é eterno é necessário. Mas a vontade de Deus para a causa de qualquer efeito é eterna: pois, assim como o Seu ser, assim a Sua vontade é medida pela eternidade. Essa vontade, portanto, é necessária, mas não absolutamente, uma vez que a vontade de Deus não tem nenhuma conexão necessária com esta objeção desejada. É, portanto, necessário hipoteticamente, numa suposição.
+
+3. Tudo o que Deus poderia fazer antes, Ele ainda pode. Seu poder não diminui, assim como Sua essência também não. Mas Ele não pode agora não querer o que já deveria ter desejado, porque Sua vontade não pode mudar: portanto, Ele nunca poderia não querer o que uma vez quis (nunquam potuit non velle quidquid voluit). É, portanto, hipoteticamente necessário que Ele tenha desejado tudo o que Ele quis, assim como é para Ele querer tudo o que Ele deseja: mas em nenhum dos casos a necessidade é absoluta.
+
+4. Quem deseja alguma coisa, necessariamente deseja tudo o que é necessariamente necessário para esse propósito, a menos que haja algum defeito de sua parte, seja por ignorância, ou porque sua vontade às vezes é desviada por alguma paixão de uma escolha correta dos meios para atingir o fim: nada disso pode ser dito de Deus. Se Deus, então, ao querer a Si mesmo, deseja qualquer outra coisa além de Si mesmo, Ele precisa querer tudo o que é necessariamente necessário para a efetivação da coisa desejada, assim como é necessário que Deus deseje o ser de uma alma racional, se Ele desejar o ser de um homem.
+
+## Capítulo LXXXIV. Que a Vontade de Deus não seja das coisas em si Impossível
+
+CAPÍTULO LXXXIV — Que a Vontade de Deus não é das coisas em si Impossíveis ESSAS coisas são em si impossíveis, o que envolve uma inconsistência, como o fato de o homem ser um burro, o que envolve o racional ser irracional. Mas o que é inconsistente com uma coisa exclui alguma das condições que lhe são exigidas, assim como ser um asno exclui a razão de um homem. Se, portanto, Deus deseja necessariamente as coisas necessárias àquilo que, por suposição, Ele deseja, é impossível para Ele querer o que é inconsistente com isso.
+
+2. Deus, ao desejar o Seu próprio ser, deseja todas as outras coisas, o que Ele deseja, na medida em que tenham alguma semelhança com ele. Mas na medida em que algo é inconsistente com a noção de ser como tal, não pode haver nela qualquer semelhança com o ser primeiro ou divino, que é a fonte do ser. Deus, portanto, não pode desejar nada que seja inconsistente com a noção de ser como tal, como que algo deva ser ao mesmo tempo ser e não ser, que afirmação e negação devam ser verdadeiras juntas, ou qualquer outra impossibilidade, inconsistência e contradição implícita essencial.
+
+3. O que não é objeto do intelecto não pode ser objeto da vontade. Mas as impossibilidades essenciais, envolvendo noções mutuamente inconsistentes, não são objetos do intelecto, exceto talvez através do erro de uma mente que não compreende as propriedades das coisas, o que não pode ser dito de Deus.
+
+## Capítulo LXXXV. Que a Vontade Divina não tire a Contingência das coisas
+
+CAPÍTULO LXXXV — Que a Vontade Divina não retire a Contingência das coisas. A necessidade HIPOTÉTICA na causa não pode levar à necessidade absoluta no efeito. Mas a vontade de Deus sobre uma criatura não é absolutamente necessária, mas sim hipoteticamente (Cap. LXXXIII). Portanto, a vontade divina não é um argumento de necessidade absoluta nas criaturas. Mas só esta necessidade absoluta exclui a contingência: pois mesmo um facto contingente pode ser estendido de qualquer maneira a uma necessidade hipotética: portanto, é necessário que Sócrates se mova, se ele correr. Não se segue, portanto, que algo aconteça necessariamente, se Deus assim o desejar: tudo o que vale é a verdade necessária desta condicional: “Se Deus quiser alguma coisa, a coisa será”: mas o “consequente” (conforme distinto da “consequência”) não precisa ser uma verdade necessária.
+
+## Capítulo LXXXVI. Essa Razão pode ser atribuída à Vontade Divina
+
+CAPÍTULO LXXXVI — Que a razão pode ser atribuída à vontade divina O fim é uma razão para desejar os meios. Mas Deus deseja a Sua própria bondade como um fim, e todas as outras coisas como meios para isso: Sua bondade, portanto, é uma razão pela qual Ele deseja outras coisas diferentes de Si mesmo.
+
+2. O bem de uma parte está ordenado ao fim do bem do todo, assim como o imperfeito ao perfeito. Mas as coisas tornam-se objetos da vontade divina na medida em que se situam na ordem do bem. Segue-se que o bem do universo é a razão pela qual Deus deseja todo bem de qualquer parte do universo.
+
+3. Supondo que Deus queira alguma coisa, segue-se necessariamente que Ele deseja os meios necessários para isso. Mas o que impõe aos outros a necessidade de fazer uma coisa é uma razão para fazê-la. Portanto, o cumprimento de um propósito, para o qual tais e tais meios são necessários, é uma razão para Deus desejar esses meios.
+
+Podemos, portanto, proceder da seguinte forma. Deus deseja que o homem tenha razão, a fim de que ele seja homem: Ele deseja que o homem seja, até o fim da conclusão do universo: Ele deseja que o bem do universo seja, porque convém à Sua própria bondade. A mesma proporção, entretanto, não é observável em todos os três estágios deste raciocínio. A bondade divina não depende da perfeição do universo e não recebe nenhuma adesão por isso. A perfeição do universo, embora dependa necessariamente do bem de alguns componentes particulares, que são partes essenciais do universo, não depende necessariamente de outros, embora mesmo deles alguma bondade ou beleza resulte para o universo, servindo tais coisas apenas para a fortificação (munimentum) ou embelezamento do resto. Mas qualquer bem específico depende absolutamente dos elementos que lhe são necessários: e ainda assim, mesmo esses bens têm complementos que servem apenas para melhorar a sua condição. Às vezes, portanto, a razão da vontade divina envolve mero devir, às vezes utilidade, às vezes também necessidade hipotética, mas nunca necessidade absoluta, exceto quando o objeto da vontade de Deus é o próprio Deus.
+
+## Capítulo LXXXVII. Que nada pode ser causa da vontade divina
+
+CAPÍTULO LXXXVII — Que nada pode ser uma causa para a vontade divina, embora alguma razão possa ser atribuída à vontade divina, ainda assim não se segue que haja qualquer causa para a volição dessa vontade. Pois a causa da volição é o fim em vista: agora o fim em vista da vontade divina é a sua própria bondade: essa então é a causa do querer de Deus, que é também o Seu próprio ato de querer. Mas de outros objetos desejados por Deus, nenhum é para Deus uma causa de querer, mas um deles é causa para outro de ser referido à bondade divina, e assim se entende que Deus deseja um por causa de outro. Mas é claro que não devemos supor nenhuma passagem da vontade de Deus de um ponto a outro, onde há apenas um ato, como mostrado acima, do intelecto divino (Cap. LVII). Pois Deus, por um ato, deseja Sua própria bondade e todas as outras coisas, pois Sua ação é Sua essência.
+
+Por este e pelo capítulo anterior, o erro de alguns que dizem que todas as coisas procedem de Deus por pura vontade é excluído, de modo que nenhuma razão deve ser apresentada para qualquer coisa que Ele faz além do fato de que Deus assim o deseja. Posição essa que é até contrária à Escritura divina, que nos diz que Deus fez todas as coisas segundo a ordem da Sua sabedoria: Tu fizeste todas as coisas com sabedoria (Sl. ciii, 24); e Deus derramou sabedoria sobre todas as suas obras (Ecclus i, 10).
+
+## Capítulo LXXXVIII. Que existe um Livre Arbítrio em Deus
+
+CAPÍTULO LXXXVIII — Que existe Livre Arbítrio em Deus DEUS não deseja necessariamente coisas fora de Si mesmo (Cap. LXXXI).
+
+3. A vontade é um fim: escolha dos meios. Visto que Deus quer a si mesmo como fim e outras coisas como meios, segue-se que em relação a si mesmo Ele só tem vontade, mas em relação a outras coisas escolha. Mas a escolha é sempre um ato de livre arbítrio.
+
+4. Diz-se que o homem, por livre arbítrio, é senhor de seus próprios atos. Mas esse domínio pertence sobretudo ao Agente Principal, cujo ato não depende de outro.
+
+## Capítulo LXXXIX. Que não há paixões em Deus
+
+CAPÍTULO LXXXIX — Que não há paixões em Deus A PAIXÃO não está no apetite intelectual, mas apenas no sensitivo. Mas em Deus não há apetite sensível, assim como não há conhecimento sensível.
+
+2. Toda paixão envolve alguma alteração corporal, algo impossível na Deidade incorpórea.
+
+3. Em cada paixão o sujeito é mais ou menos afastado de sua condição essencial ou disposição conatural: o que não é possível no Deus imutável.
+
+4. Toda paixão se fixa determinadamente em algum objeto, de acordo com o modo e a medida da paixão. A paixão, como a natureza física, avança cegamente para alguma coisa: é por isso que a paixão precisa ser reprimida e regulada pela razão. Mas a vontade divina não é determinada por si mesma para nenhum objeto da criação: mas procede de acordo com a ordem de sua sabedoria (Cap. LXXXII).
+
+5. Toda paixão é paixão de um sujeito que está em potencialidade. Mas Deus é totalmente livre de potencialidade, sendo pura realidade.
+
+Assim, toda paixão, genericamente como tal, é afastada de Deus. Mas certas paixões são afastadas de Deus, não apenas genericamente, mas também especificamente. Pois toda paixão tira sua espécie de seu objeto: se então um objeto é totalmente inadequado para Deus, a paixão especificada por esse objeto é removida de Deus também por motivos específicos. Tal paixão é a Tristeza e o Pesar, cujo objeto é o mal que já está ligado ao sofredor. A esperança, mais uma vez, embora tenha o bem como seu objeto, não é um bem obtido, mas a ser obtido, uma relação com o bem que é inadequada para Deus em razão de Sua tão grande perfeição, à qual é impossível acrescentar. Muito mais essa perfeição exclui qualquer potencialidade no caminho do mal. Mas o medo diz respeito a um mal que pode ser iminente. De duas maneiras, então, o Medo, especificamente como tal, é afastado de Deus, tanto porque supõe um sujeito que está em potência, quanto porque tem por objeto algum mal que pode vir a existir no sujeito. O arrependimento novamente, ou arrependimento, é repugnante a Deus, tanto porque é uma espécie de tristeza, como também porque envolve uma mudança de vontade.
+
+Além disso, sem um erro da faculdade intelectual, é impossível que o bem seja confundido com o mal. E só no que diz respeito às vantagens privadas é possível que a perda de um ser seja o ganho de outro. Mas para o bem geral nada é perdido pelo bem de qualquer membro privado; mas todo bem privado preenche o bem público. Mas Deus é o bem universal, por participar em cuja semelhança todas as outras coisas são chamadas de boas. Nenhum outro ser mau pode então ser bom para Deus. Tampouco, visto que o conhecimento de Deus não comete erros, Ele pode apreender como mal aquilo que é simplesmente bom, e não é mal para Ele. A inveja, portanto, é impossível para Deus, especificamente como inveja, não só porque é uma espécie de tristeza, mas também porque é tristeza pelo bem do outro, e assim toma o bem do outro como mal para si.
+
+Faz parte do mesmo procedimento ficar triste com o bem e desejar o mal. Tal tristeza surge do bem ser considerado mau; tal desejo, do mal ser considerado bom. Agora, a raiva é o desejo do mal de outro por causa da vingança. A raiva então está longe de Deus em razão de sua espécie, não apenas porque é uma espécie de tristeza, mas também porque é um desejo de vingança, concebido para a tristeza por um dano causado.
+
+## Capítulo XC. Que há em Deus deleite e alegria
+
+CAPÍTULO XC — Que há em Deus deleite e alegria EXISTEM algumas paixões que, embora não convirjam a Deus como paixões, no entanto, na medida em que sua natureza específica é considerada, não envolvem nada inconsistente com a perfeição divina. Do número destes está Deleite e Alegria. A alegria é um bem presente. Nem em razão de seu objeto, que é bom, nem em razão da relação em que o objeto, o bem realmente possuído, se mantém com o sujeito, a alegria contém especificamente algo inconsistente com a perfeição divina. Portanto, é manifesto que a alegria ou deleite está propriamente em Deus. Pois assim como o bem e o mal apreendidos são objeto do apetite sensitivo, assim também o são do apetite intelectual, ou vontade. É função comum de ambos os apetites buscar o bem e evitar o mal, seja real ou aparente, exceto que o objeto do apetite intelectual é mais amplo do que o do sensitivo, na medida em que o apetite intelectual considera simplesmente o bem e o mal, enquanto o apetite sensitivo considera o bem e o mal sentidos pelos sentidos; como também o objeto do intelecto é mais amplo que o objeto dos sentidos.
+
+Mas as atividades do apetite são especificadas pelos seus objetos. Existem, portanto, no apetite intelectual, ou vontade, atividades especificamente semelhantes às atividades do apetite sensitivo, e diferindo apenas nisso: no apetite sensitivo são paixões devido à implicação de um órgão corporal, mas no apetite intelectual são atividades simples. Pois assim como pela paixão do medo, que supera o apetite sensível, evitamos o mal que se aproxima no futuro, assim o apetite intelectual funciona com o mesmo efeito sem paixão. Visto que a alegria e o deleite não são repugnantes a Deus especificamente, mas apenas na medida em que são paixões, segue-se que não faltam nem mesmo à vontade divina.
+
+2. Alegria e deleite são uma espécie de repouso da vontade em seu objeto. Mas Deus
+
+repousa singularmente em si mesmo como no primeiro objeto de sua própria vontade, na medida em que tem toda a suficiência em si mesmo.
+
+3. O deleite é a perfeição da atividade, aperfeiçoando a atividade como o florescimento faz com a juventude. Mas a atividade do entendimento divino é mais perfeita. Se, portanto, nosso ato de compreensão, chegando à perfeição, produz deleite, o mais prazeroso deve ser o ato pelo qual Deus entende.
+
+4. Tudo naturalmente sente alegria por aquilo que é semelhante a si mesmo, exceto acidentalmente, na medida em que a semelhança impede o próprio ganho e a briga de “dois iguais”. Mas toda coisa boa é alguma semelhança da bondade divina, e nada é perdido para Deus pelo bem de Sua criatura. Portanto, Deus se alegra com o bem em todos os lugares.
+
+Alegria e Deleite diferem em nossa consideração: pois o Deleite surge do bem realmente associado ao sujeito; enquanto a Alegria não requer esta conjunção real, mas o mero repouso da vontade sobre um objeto agradável é suficiente para ela. Portanto, a rigor, o deleite está no bem conjugado com o sujeito: a alegria pelo bem externo ao sujeito. Assim, em linguagem estrita, Deus se deleita em si mesmo: mas tem alegria tanto sobre si mesmo como sobre outras coisas.
+
+## Capítulo XCI. Que existe Amor em Deus.
+
+CAPÍTULO XCI — Que há Amor em Deus. É da ideia essencial do amor, que quem ama deseja o bem do objeto amado. Mas Deus deseja o seu próprio bem e o bem dos outros seres (Cap. LXXV); e neste aspecto Ele ama a si mesmo e aos outros seres.
+
+2. É um requisito do amor verdadeiro amar o bem do outro, na medida em que é o seu bem. Mas Deus ama o bem de cada ser como é o bem desse ser, embora Ele também subordina um ser ao lucro de outro.
+
+3. A ideia essencial do amor parece ser esta: a afeição de um tende para outro como para um ser que de alguma forma é um consigo mesmo. Quanto maior o vínculo de união, mais intenso é o amor. E, novamente, quanto mais intimamente ligado ao amante estiver o vínculo de união, mais forte será o amor. Mas aquele vínculo pelo qual todas as coisas estão unidas a Deus, a saber, a Sua bondade, da qual todas as coisas são imitações, é para Deus o maior e mais íntimo dos vínculos, visto que Ele mesmo é a Sua própria bondade. Há, portanto, em Deus um amor, não apenas verdadeiro, mas muito perfeito e forte.
+
+Mas alguns podem ser da opinião de que Deus não ama um objeto mais do que outro; pois um grau superior e inferior de intensidade de afeição é característico de uma natureza mutável e não pode ser atribuído a Deus, de quem toda mudança é totalmente removida. Além disso, onde quer que haja menção de qualquer atividade divina, não se trata de mais e de menos: assim, uma coisa não é mais conhecida por Deus do que outra. Em resposta a esta dificuldade, devemos observar que, enquanto outras atividades da alma se preocupam apenas com um objeto, só o amor parece tender para dois. Pois o amor deseja algo a alguém: portanto, dizemos apropriadamente que ‘desejamos’ as coisas que desejamos, e não que ‘amamos’, mas nelas amamos a nós mesmos por quem as desejamos. Todo ato divino tem então a mesma intensidade; mas pode-se dizer que o amor admite “maior
+
+e menos’ de duas maneiras, seja no que diz respeito ao bem que desejamos ao outro, de modo que se diz que amamos mais aquele a quem desejamos um bem maior; ou ainda no que diz respeito à intensidade do ato, de que forma se diz que amamos mais aquele a quem desejamos, não de fato um bem maior, mas um bem igual com mais fervor e eficácia. No primeiro modo, então, não há nada a objetar na afirmação de que Deus ama um mais do que outro, na medida em que lhe deseja um bem maior: mas, entendido do segundo modo, o ditado não é sustentável.
+
+Conseqüentemente, parece que de nossas afeições não há nada que possa estar propriamente em Deus, exceto a alegria e o amor, embora mesmo estes estejam Nele não por meio da paixão, como estão em nós. Que há alegria ou deleite em Deus é confirmado pela autoridade da Sagrada Escritura. Eu me deleitava dia após dia brincando diante dele, diz a Sabedoria Divina, que é Deus (Prov. viii, 30). O Filósofo também diz que Deus sempre se alegra com um simples deleite. A Escritura também fala do amor em Deus: Com amor eterno eu te amei (Jer. xxxi, 3); Porque o próprio Pai vos ama (João xvi, 27).
+
+Mas mesmo outras afeições (affectiones), que são especificamente inconsistentes com a perfeição divina, são predicadas nas Sagradas Escrituras de Deus, não propriamente, mas metaforicamente, devido à semelhança dos efeitos. Assim, às vezes, a vontade, ao seguir a ordem da sabedoria, tende ao mesmo efeito para o qual alguém poderia ser inclinado por uma paixão, o que demonstraria uma certa imperfeição: pois o juiz pune com base no senso de justiça, como um homem irado sob a influência da raiva. Então, às vezes, diz-se que Deus está “zangado”, na medida em que, na ordem de Sua sabedoria, Ele pretende punir alguém: Quando sua ira se inflamar repentinamente (Salmo 2, 13). Diz-se que Ele é “compassivo”, na medida em que em Sua benevolência Ele tira as misérias dos homens, enquanto nós fazemos o mesmo por um sentimento de piedade: O Senhor é misericordioso e compassivo, paciente e abundante em misericórdia (Sl.
+
+cli, 8). Às vezes também se diz que Ele está “arrependido”, na medida em que, na ordem eterna e imutável de Sua providência, Ele constrói o que havia destruído anteriormente, ou destrói o que havia feito anteriormente, como fazemos quando movidos pelo arrependimento: Arrependo-me de ter feito o homem (Gen. vi, 6, 7). Diz-se também que Deus está ‘triste’, na medida em que as coisas acontecem contrariamente ao que Ele ama e aprova, como há tristeza em nós pelo que acontece contra a nossa vontade: E o Senhor viu, e parecia mau aos seus olhos, porque o julgamento não é: Deus viu que não há homem, e ficou descontente, porque não havia quem o encontrasse (Isa. lix, 15, 16).
+
+## Capítulo XCII. Em que sentido as virtudes podem ser postas em Deus
+
+CAPÍTULO XCII — Em que sentido as virtudes podem ser postas em Deus, COMO a bondade divina compreende em si de certa maneira todas as bondades, e a virtude é uma espécie de bondade, a bondade divina deve conter todas as virtudes de uma maneira que lhe é própria. Mas nenhuma virtude é predicada como um atributo de Deus à maneira de um hábito, como as virtudes estão em nós. Pois não convém a Deus ser bom por qualquer coisa que lhe seja acrescentada, mas apenas pela sua essência, visto que Ele é absolutamente simples. Tampouco Ele age por meio de algo acrescentado à Sua essência, pois Sua essência é Seu ser (Cap. XLV). A virtude, portanto, em Deus não é um hábito, mas Sua própria essência.
+
+2. Um hábito é uma realidade imperfeita, a meio caminho entre a potencialidade e
+
+realidade: portanto, os sujeitos dos hábitos são comparados às pessoas adormecidas. Mas em Deus a realidade é mais perfeita. A virtude, portanto, Nele não é como um hábito ou uma ciência, mas é como um ato presente de consciência, que é a perfeição extrema da realidade.
+
+Visto que as virtudes humanas servem para orientar a vida humana, e a vida humana é dupla, contemplativa e ativa, as virtudes da vida ativa, na medida em que aperfeiçoam a vida presente, não podem ser atribuídas a Deus: pois a vida ativa do homem consiste no uso de bens materiais, que não são atribuíveis a Deus. Mais uma vez, estas virtudes aperfeiçoam a conduta humana na sociedade política: portanto, não parecem preocupar muito aqueles que se mantêm afastados da sociedade política: muito menos podem ser próprias de Deus, cuja conversação e vida estão muito distantes da maneira e dos costumes da vida humana. Algumas das virtudes da vida ativa também nos orientam sobre como governar as paixões: mas em Deus não há paixões.
+
+## Capítulo XCIII. Que em Deus existem as Virtudes que regulam a Ação
+
+CAPÍTULO XCIII - Que em Deus existem as virtudes que regulam a ação EXISTEM virtudes que dirigem a vida ativa do homem, que não se preocupam com as paixões, mas com as ações, como a verdade, a justiça, a liberalidade, a magnificência, a prudência, a arte. Visto que a virtude é especificada pelo seu objeto, e as ações que são objetos dessas virtudes não são inconsistentes com a perfeição divina, nem há em tais virtudes, especificamente consideradas, algo que as exclua da perfeição de Deus.
+
+3. Das coisas que vêm de Deus, o plano próprio de todas elas está no entendimento divino (Cap. LXVI). Mas o plano de uma coisa a ser feita na mente do criador é a Arte: daí o Filósofo dizer que a Arte é “a noção correta das coisas a serem feitas”. Há, portanto, propriamente Arte em Deus, e por isso se diz: A Sabedoria, artífice de tudo, me ensinou (Sab. vii, 21).
+
+4. Novamente, a vontade divina, nas coisas fora de Deus, é determinada pelo Seu conhecimento (Cap. LXXXII). Mas o conhecimento que dirige a vontade de agir é a Prudência: porque, segundo o Filósofo, a Prudência é “a noção correta das coisas a serem feitas”. Há, portanto, Prudência em Deus; e por isso é dito: Com ele está a prudência (Jó XII, 13).
+
+5. Pelo fato de Deus desejar qualquer coisa, Ele deseja os requisitos dessa coisa. Mas os pontos necessários à perfeição de cada coisa são devidos a essa coisa: há, portanto, em Deus Justiça, cuja função é distribuir a cada um o que lhe é próprio. Por isso é dito: O Senhor é justo e amou a justiça (Sl. x, 8).
+
+6. Como mostrado acima (cap. LXXIV, LXXV), o fim último, pelo qual Deus quer todas as coisas, de forma alguma depende dos meios para esse fim, nem em termos de ser, nem em termos de bem-estar. Portanto, Deus não deseja comunicar Sua bondade por qualquer ganho que possa advir para Ele, mas simplesmente porque a mera comunicação Lhe convém como fonte de bondade. Mas dar, não por qualquer vantagem esperada da dádiva, mas por pura bondade e adequação de dar, é um ato de liberalidade. Deus, portanto, é liberal no mais alto grau; e, como Avicena
+
+diz: Somente Ele pode ser chamado apropriadamente de liberal: pois qualquer outro agente, exceto Ele, está no caminho de ganhar algo por sua ação e pretende ganhar assim. Esta Sua liberalidade as Escrituras declaram, dizendo: Ao abrires a tua mão, todas as coisas se encherão de bondade (Sl. ciii, 28); e, Quem dá a todos abundantemente e não repreende (Tiago i, 5).
+
+7. Todas as coisas que recebem ser de Deus, necessariamente trazem Sua semelhança, na medida em que são, e são boas, e têm seus arquétipos próprios no entendimento divino (Cap. LIV). Mas isto pertence à virtude da Verdade, que cada um se manifeste em seus atos e palavras como realmente é. Há, portanto, em Deus a virtude da Verdade. Portanto, Deus é verdadeiro (Romanos 3:4); e: Todos os teus caminhos são verdade (Sl. cxviii, 151).
+
+Em termos de troca, ato próprio de justiça comutativa, a justiça não convém a Deus, pois Ele não recebe vantagem de ninguém; portanto, quem primeiro lhe deu, e a recompensa lhe será feita? (Romanos 11, 35;) e, Quem me deu banho de antemão, para que eu possa retribuir? (Jó xli, 2.) Ainda assim, num sentido metafórico, diz-se que damos coisas a Deus, na medida em que Ele aceita gentilmente o que temos para lhe oferecer. A justiça comutativa, portanto, não convém a Deus, mas apenas a justiça distributiva.
+
+Julgar as coisas a serem feitas, ou dar uma coisa, ou fazer uma distribuição, não é próprio apenas do homem, mas pertence a todo e qualquer ser intelectual. Na medida em que as ações acima mencionadas são consideradas em sua generalidade, elas têm seu lugar adequado até mesmo na divindade: pois assim como o homem é o distribuidor dos bens humanos, como do dinheiro ou da honra, assim é Deus de todos os bens do universo. As virtudes acima mencionadas, portanto, são de extensão mais ampla em Deus do que no homem: pois assim como a justiça do homem é para uma cidade ou família, assim é a justiça de Deus para todo o universo: portanto, as virtudes divinas são consideradas arquétipos nossos. Mas outras virtudes, que não se tornam propriamente Deus, não têm arquétipo na natureza divina, mas apenas, como é o caso das coisas corpóreas em geral, na sabedoria divina, que contém as noções próprias de todas as coisas.
+
+## Capítulo XCIV. Que as virtudes contemplativas (intelectuais) estão em Deus
+
+CAPÍTULO XCIV — Que as virtudes contemplativas (intelectuais) estão em Deus SE a sabedoria consiste no conhecimento das causas mais elevadas; e Deus conhece principalmente a si mesmo, e nada conhece exceto conhecendo a si mesmo, como a causa primeira de tudo (Cap. XLVI), é evidente que a Sabedoria deve ser atribuída a Deus em primeiro lugar. Por isso é dito: Ele é sábio de coração (Jó ix, 4.); e, Toda a sabedoria é do Senhor Deus, e sempre esteve com ele (Ecclus i, 1). O Filósofo também diz no início de sua Metafísica que a Sabedoria é uma posse divina, não humana.
+
+2. Se o Conhecimento (Ciência) é um conhecimento de uma coisa através de sua causa própria, e Deus conhece a ordem de todas as causas e efeitos, e portanto as diversas causas próprias de coisas individuais (Cap. LXV, LXVII), é manifesto que o Conhecimento (Ciência) está propriamente em Deus; portanto, Deus é o Senhor das ciências (1 Reis ii, 3)
+
+3. Se o conhecimento imaterial das coisas, alcançado sem discussão, é
+
+Compreensão (Intuição), Deus tem tal cognição de todas as coisas (Cap. L); e portanto há Nele Compreensão. Portanto, Ele tem conselho e entendimento (Jó XII, 13).
+
+## Capítulo XCV. Que Deus não pode querer o Mal
+
+CAPÍTULO XCV — Que Deus não pode querer o Mal CADA ato de Deus é um ato de virtude, pois a sua virtude é a Sua essência (Cap. XCII).
+
+2. A vontade não pode desejar o mal, exceto por algum erro que surja na razão, pelo menos no que diz respeito à escolha particular feita naquele momento. Pois como o objeto da vontade é o bem, apreendido como tal, a vontade não pode tender para o mal, a menos que o mal lhe seja de alguma forma proposto como bom; e isso não pode ocorrer sem erros. Mas no conhecimento divino não pode haver erro (Cap. LXI).
+
+3. Deus é o bem soberano, não admitindo nenhuma mistura de mal (Cap. LXI).
+
+4. O mal não pode sobrevir à vontade, exceto se ela for desviada do seu fim. Mas a vontade divina não pode ser desviada do seu fim, sendo incapaz de querer a não ser pelo próprio querer (Cap. LXXV). Não pode, portanto, desejar o mal; e assim o livre arbítrio nele é naturalmente estabelecido no bem. Este é o significado dos textos: Deus é fiel e sem iniquidade (Deut. xxxii, 4); Os teus olhos estão limpos, ó Senhor, e não podes contemplar a iniqüidade (Hab. I, 13).
+
+## Capítulo XCVI. Que Deus não odeia nada
+
+CAPÍTULO XCVI — Que Deus não odeia nada, assim como o amor está para o bem, o ódio está para o mal; desejamos o bem para aqueles a quem amamos e o mal para aqueles a quem odiamos. Se então a vontade de Deus não pode inclinar-se para o mal, como foi demonstrado (Cap. XCV), é impossível que Ele odeie alguma coisa.
+
+2. A vontade de Deus tende para outras coisas além de si mesmo, na medida em que, desejando e amando seu próprio ser e bondade, Ele deseja que ela seja difundida tanto quanto possível pela comunicação de Sua semelhança. Isto então é o que Deus deseja em outros seres que não Ele mesmo, que haja neles a semelhança de Sua bondade. Portanto, Deus deseja o bem de tudo e não odeia nada.
+
+4. O que se encontra naturalmente em todas as causas ativas, deve ser encontrado especialmente no Agente Principal. Mas todos os agentes, à sua maneira, amam os efeitos que eles próprios produzem, como os pais aos seus filhos, os poetas aos seus próprios poemas, os artesãos às suas obras. Muito mais, portanto, Deus está afastado de odiar qualquer coisa, visto que Ele é a causa de tudo.
+
+Por isso é dito: Tu amas todas as coisas que existem e não odeias nada das coisas que fizeste (Sab. xi, 25).
+
+Algumas coisas, no entanto, são ditas a Deus para odiar figurativamente (semilitudinarie), e isso de duas maneiras. A primeira maneira é esta: Deus, ao amar as coisas e desejar que o seu bem exista, deseja que o seu mal não exista: portanto, diz-se que Ele odeia os males, pois dizemos que odiamos as coisas que não desejamos que existam. Assim é dito: Não pensem mal em seus corações, cada um de vocês contra seu amigo, e não amem nenhum juramento mentiroso: pois todas essas são coisas que eu odeio, diz o Senhor (Zach. viii, 17). Mas nenhuma destas coisas são efeitos da criação: não são tão subsistentes
+
+coisas às quais o ódio ou o amor estão devidamente ligados. A outra maneira é Deus desejar algum bem maior, que não pode existir sem a privação de um bem menor; e assim se diz que Ele odeia, ao passo que é mais propriamente amor. Assim, na medida em que Ele deseja o bem da justiça, ou da ordem do universo, que não pode existir sem a punição ou a morte de alguns, diz-se que Ele odeia aqueles seres cuja punição ou morte Ele deseja, de acordo com o texto, Esaú eu odiei (Malaquias i, 3); e, Tu odeias todos os que praticam a iniquidade, tu destruirás todos os que proferem falsidade: o homem de sangue e engano o Senhor abominará (Sl. v, 7).
+
+## Capítulo XCVII. Que Deus está vivo
+
+CAPÍTULO XCVII — Que Deus está Vivendo Foi demonstrado que Deus é inteligente e disposto: mas compreender e querer são funções apenas de um ser vivo.
+
+2. A vida é atribuída aos seres na medida em que parecem mover-se por si próprios e não serem movidos por outro. Portanto, diz-se, figurativamente, que as coisas que parecem mover-se por si mesmas, cujos poderes móveis o vulgo não percebe, vivem, como falamos da água “viva” (corrente) de um riacho corrente, mas não de uma cisterna ou de um lago estagnado; e chamamos de “mercúrio” aquilo que parece ter movimento próprio. Isto é mero discurso popular, pois propriamente só se movem por si mesmas aquelas coisas que o fazem em virtude de sua composição de uma força motriz e de uma matéria movida, como coisas com alma; portanto, apenas se diz que apenas estas coisas vivem: todas as outras coisas são movidas por alguma força externa, uma força geradora, ou uma força que remove um obstáculo, ou uma força de impacto. E porque as atividades sensíveis são acompanhadas de movimento, diz-se, num passo adicional, que tudo o que se determina a seus próprios modos de atividade, mesmo que não seja acompanhado de movimento, vive; portanto, compreender, desejar e sentir são ações vitais.
+
+Mas Deus, de todos os seres, está determinado a agir por ninguém menos que Ele mesmo, visto que Ele é o principal agente e a primeira causa; a Ele, portanto, de todos os seres, pertence viver.
+
+3. O ser divino contém a perfeição de todo ser (Cap. XXVIII). Mas viver é ser perfeito; portanto, as coisas animadas na escala do ser têm precedência sobre as inanimadas. Com Deus, então, ser é viver.
+
+Isto também é confirmado pela autoridade da Escritura divina: levantarei a minha mão ao céu, e jurarei pela minha mão direita, e direi: Vivo para sempre (Deut. xxxii, 40): Meu coração e minha carne) se regozijaram no Deus vivo (Sl. lxxiii, 3).
+
+## Capítulo XCVIII. Que Deus é Sua própria Vida
+
+CAPÍTULO XCVIII — Que Deus é Sua própria Vida NAS coisas vivas, viver é ser: pois diz-se que uma coisa viva está viva na medida em que tem uma alma; e por essa alma, como por sua própria forma, ela tem ser: viver, na verdade, nada mais é do que ser vivo, surgindo de uma forma viva. Mas, em Deus, Ele mesmo é o Seu próprio ser (Cap. XXII): Ele mesmo é, portanto, a Sua própria vida.
+
+2. Compreender é viver: mas Deus é o seu próprio ato de compreensão (Cap. XLV).
+
+3. Se Deus está vivo, deve haver vida Nele. Se então Ele não é a Sua própria vida, haverá algo Nele que não é Ele mesmo, e assim Ele será composto – uma conclusão rejeitada (Cap. XVIII).
+
+E este é o texto: Eu sou a vida (João xiv, 6).
+
+## Capítulo XCIX. Que a Vida de Deus é eterna
+
+CAPÍTULO XCIX — Que a Vida de Deus é eterna É impossível que Deus deixe de viver, pois Ele mesmo é Sua própria vida (Cap. XCVIII).
+
+2. Tudo o que em um momento é e em outro não é, existe por alguma causa. Mas a vida divina não tem causa, assim como o ser divino também não. Deus, portanto, não está vivendo em um momento e não vivendo em outro, mas vive sempre.
+
+3. Em toda atividade o agente permanece, embora às vezes a atividade passe em sucessão: portanto, em movimento o corpo em movimento permanece o mesmo em sujeito durante todo o curso do movimento, embora não seja o mesmo em nossa consideração. Onde então a ação é o próprio agente, nada pode acontecer em sucessão, mas tudo deve estar junto ao mesmo tempo. Mas o ato de compreender e viver de Deus é o próprio Deus (Cap. XLV, XCVIII): portanto, Sua vida não tem sucessão, mas está toda ao mesmo tempo e é eterna.
+
+Por isso é dito: Este é o verdadeiro Deus e a vida eterna (1 João v, 20).
+
+## Capítulo C. Que Deus é Feliz
+
+CAPÍTULO C — Que Deus é Feliz A FELICIDADE é o bem próprio de toda natureza intelectual. Visto então que Deus é um ser intelectual, a felicidade será o Seu bem próprio. Mas Deus, no que diz respeito ao Seu bem próprio, não é como um ser que ainda tende a um bem próprio ainda não possuído: esse é o caminho com uma natureza mutável e em potencialidade; mas Deus está na posição de um ser que já possui o seu próprio bem. Portanto, Ele não apenas deseja a felicidade, como nós, mas também desfruta da felicidade.
+
+2. A coisa acima de todas as outras desejadas ou desejadas por uma natureza intelectual é a coisa mais perfeita dessa natureza, e essa é a sua felicidade. Mas o que há de mais perfeito em cada um é a sua atividade mais perfeita: pois o poder e o hábito são aperfeiçoados pela atividade: daí o Filósofo dizer que a felicidade é uma atividade perfeita. Ora, a perfeição da atividade depende de quatro condições. Primeiro, por sua espécie, que seja imanente ao agente. Chamo uma atividade de “imanente ao agente”, quando nada mais resulta dela além do próprio ato: tais são os atos de ver e ouvir: tais atos são perfeições dos agentes cujos atos são, e podem ter uma finalidade própria na medida em que não são direcionados à produção de qualquer outra coisa como um fim. Por outro lado, qualquer atividade da qual resulte algo feito além de si mesma é uma perfeição da coisa feita, não de quem faz: ela está na relação de um meio com um fim e, portanto, não pode ser a felicidade de uma natureza intelectual.
+
+Em segundo lugar, no princípio da atividade, que seja uma atividade do mais alto poder: portanto, a nossa felicidade não reside em qualquer atividade dos sentidos, mas numa atividade do intelecto, aperfeiçoada pelo hábito. Terceiro, no objeto da atividade; e, portanto, nossa felicidade consiste em compreender o objeto mais elevado da compreensão. Em quarto lugar, sobre a forma de atividade, que a ação seja perfeita, fácil e agradável. Mas a atividade de Deus preenche todas estas condições: visto que é (1) atividade na ordem do entendimento; e (2) Seu entendimento é a mais elevada das faculdades, não necessitando de nenhum hábito para aperfeiçoá-lo; e (3) Seu entendimento está voltado para Si mesmo, o mais elevado dos objetos inteligíveis; e (4) Ele entende perfeitamente, sem qualquer dificuldade e com todo deleite. Ele está, portanto, feliz.
+
+3. Boécio diz que a felicidade é um estado aperfeiçoado pela reunião de todas as coisas boas. Mas tal é a perfeição divina, que inclui toda a perfeição numa única visão (Cap. XXVIII, LIV).
+
+4. Feliz é aquele que se basta e não quer nada. Mas Deus não precisa de outras coisas, visto que a Sua perfeição não depende de nada externo a Ele; e quando Ele deseja outras coisas para Si mesmo como para um fim, não é que Ele precise delas, mas apenas que essa referência convém à Sua bondade.
+
+5. É impossível que Deus deseje algo impossível (Cap. LXXXIV). Novamente, é impossível que qualquer coisa entre nele que Ele ainda não tenha, visto que Ele não está em potencial (Cap. XVI). Portanto, Ele não pode desejar ter o que não tem: portanto, Ele tem tudo o que deseja; e Ele não deseja nada de mal (Cap. XCV). Portanto, Ele é feliz, segundo a definição dada por alguns, de que “é feliz aquele que tem o que deseja e não deseja nada de mal”.
+
+Sua felicidade as Sagradas Escrituras declaram: A quem ele mostrará em seu próprio tempo, o abençoado e poderoso (1 Tim. vi, 15).
+
+## Capítulo CI. Que Deus é a sua própria felicidade
+
+CAPÍTULO CI – Que Deus é a Sua própria Felicidade A felicidade de DEUS é o ato de Sua compreensão (Cap. C). Mas esse próprio ato de compreensão de Deus é Sua substância (Cap. XLV). Ele, portanto, é Sua própria felicidade.
+
+## Capítulo CII. Que a felicidade de Deus é mais perfeita e excede todas as outras felicidades
+
+CAPÍTULO CII - Que a felicidade de Deus é mais perfeita e excede todas as outras felicidades ONDE há maior amor, há maior deleite na obtenção do objeto amado. Mas todo ser, em igualdade de condições, ama a si mesmo mais do que qualquer outra coisa: um sinal disso é que, quanto mais próximo algo está de si mesmo, mais é naturalmente amado. Deus, portanto, tem maior prazer em Sua felicidade, que é Ele mesmo, do que outros abençoados em sua felicidade, que não é o que eles são.
+
+3. O que é por essência está acima do que é por participação. Mas Deus é feliz por Sua essência, uma prerrogativa que não pode pertencer a nenhum outro: pois nada mais além de Deus pode ser o bem soberano; e assim, tudo o mais que é feliz deve ser feliz pela participação Dele. A felicidade divina, portanto, excede todas as outras felicidades.
+
+4. A felicidade perfeita consiste num ato de compreensão. Mas nenhum outro ato de compreensão pode ser comparado ao ato de Deus: como fica claro, não apenas por ser um ato subsistente, mas também porque por esse ato Deus perfeitamente
+
+compreende a si mesmo como Ele é, e todas as coisas que são e não são, boas e más; ao passo que em todos os outros seres intelectuais o ato de compreender não é em si subsistente, mas é o ato de um sujeito subsistente. Ninguém pode compreender Deus, o objeto supremo do entendimento, tão perfeitamente quanto Ele é perfeito, porque o ser de ninguém é tão perfeito quanto o ser divino, nem pode qualquer ato ser mais perfeito do que a substância da qual é o ato. Nem existe qualquer outro entendimento que saiba tudo o que Deus pode fazer: pois se o fizesse, compreenderia o poder divino. Por fim, mesmo o que outro entendimento conhece, ele não conhece tudo com um único e mesmo ato. Deus, portanto, é incomparavelmente feliz acima de todos os outros seres.
+
+5. Quanto mais uma coisa é unida, mais perfeito é o seu poder e excelência. Mas uma atividade que funciona em sucessão é dividida por diferentes divisões de tempo: de modo algum a sua perfeição pode ser comparada à perfeição de uma atividade que é sem sucessão, todas presentes juntas, especialmente se não passa num instante, mas permanece na eternidade. Ora, o ato divino de compreensão é sem sucessão, existindo todos juntos para a eternidade: ao passo que nosso ato de compreensão é em sucessão pela ligação acidental a ele de continuidade e tempo. Portanto, a felicidade divina excede infinitamente a felicidade humana, assim como a duração da eternidade excede o “agora em fluxo” do tempo (nunc temporis fluens).
+
+6. O cansaço e as várias ocupações pelas quais a nossa contemplação nesta vida é necessariamente interrompida - nas quais consiste principalmente a contemplação de qualquer felicidade que haja para o homem nesta vida - e os erros, dúvidas e vários infortúnios a que a vida presente está sujeita, mostram que a felicidade humana, nesta vida em particular, não pode de forma alguma ser comparada com a felicidade de Deus.
+
+7. A perfeição da felicidade divina pode ser deduzida disto, que ela abrange todas as felicidades de acordo com o modo mais perfeito de cada uma. Por meio da felicidade contemplativa, tem uma visão perfeita e perpétua do próprio Deus e dos outros seres. Por meio da vida ativa, tem o governo, não de um homem, ou de uma casa, ou de uma cidade, ou de um reino, mas de todo o universo. Na verdade, a falsa felicidade da terra é apenas uma sombra daquela felicidade perfeita. Pois consiste, segundo Boécio, em cinco coisas: prazer, riqueza, poder, dignidade e fama. Deus então tem um excelente deleite consigo mesmo e uma alegria universal de todas as coisas boas, sem mistura de elementos contrários. Para riquezas, Ele tem autossuficiência absoluta de todo bem. Para poder, Ele tem poder infinito. Por dignidade, Ele tem primazia e governo sobre todos os seres. Por fama, Ele tem a admiração de todo entendimento que de alguma forma O conhece.
+
+A Ele então, que é singularmente abençoado, seja honra e glória para todo o sempre, Amém.
+

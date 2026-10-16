@@ -1,7 +1,7 @@
 import { Layout } from '@/components/Layout';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { ArrowLeft, Clock, List, Loader2, ScrollText, Sparkles } from 'lucide-react';
+import { ArrowLeft, Clock, Languages, List, Loader2, ScrollText, Sparkles } from 'lucide-react';
 import { Link, useParams } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
@@ -749,7 +749,15 @@ export default function Reader() {
             </Link>
           </Button>
           <h1 className="min-w-0 truncate font-heading text-lg md:text-2xl text-library-wood-foreground">{data.title}</h1>
-          <span className="ml-auto hidden md:flex shrink-0 items-center gap-1.5 text-xs text-muted-foreground font-body">
+          {bookDetails?.relatedEditionSlug && (
+            <Button asChild variant="outline" size="sm" className="ml-auto h-7 px-2.5 text-xs border-library-gold/40 text-library-wood hover:bg-library-gold/15 font-body">
+              <Link to={`/ler/${bookDetails.relatedEditionSlug}`} title={bookDetails.language === 'Inglês' ? 'Alternar para Edição em Português' : 'Alternar para Edição Original em Inglês'}>
+                <Languages className="h-3.5 w-3.5 mr-1.5 text-library-gold" />
+                <span>{bookDetails.language === 'Inglês' ? '🇧🇷 Ler em PT' : '🇬🇧 Ler em EN'}</span>
+              </Link>
+            </Button>
+          )}
+          <span className={bookDetails?.relatedEditionSlug ? "hidden lg:flex shrink-0 items-center gap-1.5 text-xs text-muted-foreground font-body" : "ml-auto hidden md:flex shrink-0 items-center gap-1.5 text-xs text-muted-foreground font-body"}>
             <Clock className="h-3.5 w-3.5 text-library-gold" />~{parsed.minutes} min
           </span>
         </div>
