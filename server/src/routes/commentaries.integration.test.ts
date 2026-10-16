@@ -59,6 +59,17 @@ describe('Commentaries API — Comentários Bíblicos Classicos', () => {
         ('20000000-0000-0000-0000-000000000002', 'galatas', 2, '10000000-0000-0000-0000-000000000099',
          'Martinho Lutero — Comentário sobre Gálatas 2', 'Justificação pela fé em Cristo.', '/ler/comentario-aos-galatas-martinho-lutero#capitulo-2')
       ON CONFLICT DO NOTHING;
+
+      INSERT INTO books (id, slug, title, author_id, publication_year_original, description, categories, tags, featured, published) VALUES
+        ('10000000-0000-0000-0000-000000000098', 'obra-despublicada-teste', 'Obra despublicada',
+         '00000000-0000-0000-0000-000000000099', '1535', 'Obra tirada do ar',
+         ARRAY['Reforma'], ARRAY['teste'], false, false)
+      ON CONFLICT (slug) DO NOTHING;
+
+      INSERT INTO biblical_commentaries (id, bible_book, chapter, book_id, title, excerpt, anchor_url) VALUES
+        ('20000000-0000-0000-0000-000000000009', 'despublicado', 1, '10000000-0000-0000-0000-000000000098',
+         'Comentário de obra despublicada', NULL, '/ler/obra-despublicada-teste')
+      ON CONFLICT DO NOTHING;
     `);
 
     app = await buildApp();
@@ -104,6 +115,19 @@ describe('Commentaries API — Comentários Bíblicos Classicos', () => {
     expect(body[0].bibleBook).toBe('galatas');
     expect(body[0].chapter).toBe(1);
     expect(body[0].anchorUrl).toContain('#capitulo-1');
+  });
+
+  it('não devolve comentário de obra despublicada', async () => {
+    const res = await app.inject({
+      method: 'GET',
+      url: '/api/v1/commentaries?bibleBook=despublicado',
+    });
+
+    expect(res.statusCode).toBe(200);
+    expect(res.json()).toEqual([]);
+
+    const todos = await app.inject({ method: 'GET', url: '/api/v1/commentaries' });
+    expect(todos.json().some((c: { title: string }) => c.title === 'Comentário de obra despublicada')).toBe(false);
   });
 
   it('GET /api/v1/commentaries?bibleBook=inexistente devolve lista vazia', async () => {

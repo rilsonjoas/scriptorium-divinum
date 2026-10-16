@@ -4,7 +4,9 @@ import { biblicalCommentaries, books, authors } from './schema.js';
 import type { ListCommentariesQuery, CommentaryItem } from '../schemas/commentary.schema.js';
 
 export async function listCommentaries(filters?: ListCommentariesQuery): Promise<CommentaryItem[]> {
-  const conditions = [];
+  // Só comentários de obras publicadas: obra despublicada (direitos, revisão)
+  // não pode continuar aparecendo por esta rota.
+  const conditions = [eq(books.published, true)];
 
   if (filters?.bibleBook) {
     conditions.push(eq(biblicalCommentaries.bibleBook, filters.bibleBook.toLowerCase().trim()));
