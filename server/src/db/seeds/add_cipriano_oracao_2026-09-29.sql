@@ -39,7 +39,7 @@ VALUES (
   true,
   NULL,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir do texto latino clássico do CSEL (ed. G. Hartel) e Patrologia Latina (PL 4). Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir do texto latino clássico do CSEL (ed. G. Hartel) e Patrologia Latina (PL 4). Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 

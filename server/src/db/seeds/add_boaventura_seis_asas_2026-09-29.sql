@@ -39,7 +39,7 @@ VALUES (
   true,
   NULL,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir da Opera Omnia de Quaracchi em domínio público. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir da Opera Omnia de Quaracchi em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 

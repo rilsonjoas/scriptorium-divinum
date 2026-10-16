@@ -39,7 +39,7 @@ VALUES (
   true,
   NULL,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir do texto latino clássico de Florilegium Patristicum (ed. B. Rauschen) e PL 50. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir do texto latino clássico de Florilegium Patristicum (ed. B. Rauschen) e PL 50. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 

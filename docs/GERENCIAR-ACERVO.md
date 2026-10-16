@@ -39,8 +39,9 @@ sobrescreve decisão humana.
 | **Removida** | sem arquivo e sem linha | Nada |
 
 Hoje estão ocultas, por decisão do autor (2026-10-16): todas as edições em inglês e em
-latim (só português no ar), o tratado das Relíquias de Calvino (arquivo corrompido) e o
-Proslogion (revisão pendente).
+latim (só português no ar), o tratado das Relíquias de Calvino (arquivo corrompido), o
+Proslogion (revisão pendente) e o Breve Catecismo de Westminster (texto majoritariamente
+em inglês).
 
 ## Tarefas
 
@@ -98,14 +99,14 @@ VALUES (
   '<slug>',
   '<Título original>',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   ARRAY['Latim'],
   ARRAY['<categoria canônica, de /admin/categorias>'],
   ARRAY['<tag>'],
   '/texts/<slug>.md',
   false, true, true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir da edição <EDIÇÃO-FONTE NOMEADA: título, tradutor, ano>, em domínio público porque <motivo>. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir da edição <EDIÇÃO-FONTE NOMEADA: título, tradutor, ano>, em domínio público porque <motivo>. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 
@@ -210,12 +211,17 @@ com nome limpo e sem duplicata; `acervo:verificar` sem erro.
 O leitor tem um bloco "Sobre esta edição" com **dois tipos de informação**:
 
 1. **Dados do banco**, sempre exatos: obra original (título, língua, ano), esta edição
-   (idioma, se é tradução por IA, revisão humana, licença, atribuição).
+   (idioma, se é tradução por IA, licença, atribuição; a revisão humana só aparece quando
+   foi aprovada).
 2. **Ensaio de abertura**, o texto livre `# Proveniência e Contexto Histórico` que vem
    dentro do arquivo. Em 115 textos ele tem superlativos sem fonte ("obra-prima",
-   "inigualável"). Enquanto a tradução for por IA **sem revisão humana**, o ensaio fica
-   **recolhido e rotulado** ("texto introdutório gerado por IA, sem revisão"). Quando
-   alguém marca a revisão humana como aprovada, ele aparece aberto.
+   "inigualável"). Enquanto a tradução for por IA **sem aprovação humana**, o ensaio fica
+   **recolhido** e rotulado "texto introdutório gerado por IA". Quando alguém marca a
+   revisão humana como aprovada, ele aparece aberto.
+
+O usuário final só precisa saber que a obra é **texto de IA**: o estado interno da revisão
+("pendente") não é exibido; o campo `human_review_approved_at` e o painel o guardam. Se um
+dia houver revisão aprovada, ela é mostrada.
 
 Regra para escrever esses textos: tom sóbrio, afirmação com fonte, sem adjetivo de
 propaganda. Se não dá para citar de onde vem, não entra.
@@ -225,11 +231,15 @@ propaganda. Se não dá para citar de onde vem, não entra.
 Hoje o site publica **só obras em português**. Para voltar a publicar uma edição em
 inglês ou em latim, use a chave "Publicada" no painel, obra a obra.
 
-A interface já tem um mecanismo de idiomas (`web/src/i18n`, seletor PT | EN | ES no
-cabeçalho) que cobre **parte** das telas. Antes de publicar o catálogo em inglês falta
-completar a tradução da interface, conferir a busca em inglês e documentar a
-edição-fonte de cada edição. Enquanto o catálogo for só em português, vale decidir se o
-seletor de idioma deve ficar visível.
+A interface tem um mecanismo de idiomas (`web/src/i18n`, com PT, EN e ES) que cobre **parte**
+das telas. Por decisão de 2026-10-16 o site **oferece só português**: a lista
+`IDIOMAS_ATIVOS` em `web/src/i18n/index.ts` controla o seletor (cabeçalho e rodapé) e o
+idioma inicial, e uma preferência antiga em EN/ES salva no navegador é ignorada. Os textos
+de EN e ES e todo o mecanismo continuam montados.
+
+Para voltar a oferecer inglês: (1) completar a tradução da interface em `web/src/i18n`;
+(2) conferir a busca em inglês; (3) documentar a edição-fonte de cada edição em inglês;
+(4) republicar as obras em inglês pelo painel; (5) acrescentar `'en'` a `IDIOMAS_ATIVOS`.
 
 ## Links e citações
 

@@ -39,7 +39,7 @@ VALUES (
   true,
   NULL,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir da edição crítica definitiva da Ordem da Visitação de Annecy. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir da edição crítica definitiva da Ordem da Visitação de Annecy. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 

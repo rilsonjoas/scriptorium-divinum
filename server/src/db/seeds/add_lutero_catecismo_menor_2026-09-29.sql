@@ -39,7 +39,7 @@ VALUES (
   true,
   NULL,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir do texto crítico de Weimarer Ausgabe (WA 30) e Concordia Triglotta. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir do texto crítico de Weimarer Ausgabe (WA 30) e Concordia Triglotta. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 

@@ -2339,7 +2339,7 @@ Transformar o frontend do Scriptorium Divinum na principal referência lusófona
 ## 🏛️ Item 18: Catálogo universal, paridade bilíngue e revisão antes do deploy — ✅ ENTREGUE 2026-10-16 (com ressalvas)
 
 ### 1. O que foi entregue (números medidos num ensaio contra cópia da produção)
-- **256 obras no ar, todas em português**, 100 autores com obra, ~12,1 milhões de palavras; 230 são traduções por IA, identificadas no leitor, com revisão humana pendente. O banco tem 288 obras: as 25 em inglês, as 2 em latim, o Calvino das Relíquias e o Proslogion estão **ocultos** (migration `0009`; reativar é a chave "Publicada" do painel, obra a obra). Gestão do acervo: `docs/GERENCIAR-ACERVO.md`.
+- **255 obras no ar, todas em português**, 100 autores com obra, ~12,1 milhões de palavras; 229 são traduções por IA, identificadas no leitor. O banco tem 288 obras: as 25 em inglês, as 2 em latim, o Calvino das Relíquias, o Proslogion e o Breve Catecismo de Westminster estão **ocultos** (migration `0009`; reativar é a chave "Publicada" do painel, obra a obra). Gestão do acervo: `docs/GERENCIAR-ACERVO.md`.
 - **Vínculos entre edições (`related_edition_slug`)**: 40, sempre nos dois sentidos, ligados numa segunda fase do seed.
 - **Alternador de idioma** na ficha da obra (`LivroDetalhes.tsx`) e no leitor (`Reader.tsx`).
 - **Catálogo universal revisado** (`server/src/db/seeds/add_catalogo_universal_2026.sql`): só insere obras novas (`DO NOTHING`); 100 entram; 21 repetidas ficam de fora; nenhuma das 188 já publicadas é alterada.
@@ -2360,8 +2360,8 @@ Transformar o frontend do Scriptorium Divinum na principal referência lusófona
 - [ ] **Unificar o rótulo de idioma** (`Inglês` × `English`, 2 obras) e a duplicata de autores já existente em produção (`agostinho-de-hipona` e `santo-agostinho`, `joao-crisostomo` e `sao-joao-crisostomo` etc.).
 - [ ] **Leitor: `#hash` da URL** para abrir direto no capítulo (hoje o link de comentário leva à obra).
 - [ ] **Traduções alternativas fora do catálogo** (mesma obra, tradução diferente): `da-liberdade-do-cristao-martinho-lutero`, `confissoes-santo-agostinho`, `a-unidade-da-igreja-catolica-cipriano`, `comentario-aos-galatas-martinho-lutero`, `proslogion-anselmo`. Comparar com a publicada e decidir qual fica. (5 arquivos redundantes de fato já foram removidos.)
-- [ ] **Decidir o `breve-catecismo-westminster`**: publicado como português, mas o texto é majoritariamente inglês (37% das palavras em blocos em inglês); o `acervo:verificar` o reprova. Ocultar pelo painel, ou traduzir por inteiro.
-- [ ] **Seletor de idioma PT | EN | ES no cabeçalho**: com o catálogo só em português, decidir se fica visível. A interface tem tradução parcial (`web/src/i18n`).
+- [ ] **`breve-catecismo-westminster` (oculto)**: o texto é majoritariamente inglês (37% das palavras em blocos em inglês). Traduzir por inteiro e reativar pela chave "Publicada".
+- [x] **Seletor de idioma escondido enquanto o site é só em português** (2026-10-16): `IDIOMAS_ATIVOS` em `web/src/i18n/index.ts`; os textos de EN e ES e todo o mecanismo seguem montados. Para voltar a oferecer um idioma: acrescentar o código à lista, depois de completar a tradução da interface.
 - [ ] **Textos longos sem título (sumário vazio)**: usar `scripts/chapterize_texts.py` (regra por arquivo; `--check` antes) ou títulos manuais por homilia.
 - [ ] **PR #8 do Lecionário** (links de citação): mergear **depois** do deploy do Scriptorium; ver `docs/DECISOES.md`.
 - [ ] **Citações de Anselmo (2) apontam para `proslogion`, hoje oculto**: voltam a funcionar quando o Proslogion for republicado. Corrigir também o campo `source` delas.

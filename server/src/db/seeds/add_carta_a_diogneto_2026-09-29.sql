@@ -47,7 +47,7 @@ VALUES (
   ARRAY['apologética', 'perseguição', 'igreja primitiva', 'cristandade'],
   '/texts/carta-a-diogneto.md',
   'cc-by-sa-4.0',
-  'Tradução gerada por IA (Claude Sonnet 5, da Anthropic) a partir do original grego em domínio público, conferida com a tradução inglesa de J. B. Lightfoot (The Apostolic Fathers, 1891). Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA (Claude Sonnet 5, da Anthropic) a partir do original grego em domínio público, conferida com a tradução inglesa de J. B. Lightfoot (The Apostolic Fathers, 1891). Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 

@@ -383,7 +383,7 @@ ROADMAP: **conferir o efeito, nunca o log.**
 - **232 traduções por IA** (CC BY-SA 4.0, revisão humana pendente); as outras 56 são textos de edições antigas ou originais em português, em domínio público.
 - **106 autores com obra** (107 cadastrados; 1 sem obra).
 - **~16,7 milhões de palavras** nos 281 arquivos que o catálogo serve (4 obras ainda sem arquivo).
-- **No ar para o público, depois do ocultamento descrito na última entrada: 256 obras em português, 100 autores com obra, ~12,1 milhões de palavras, 230 traduções por IA.**
+- **No ar para o público, depois do ocultamento das últimas entradas: 255 obras em português, 100 autores com obra, ~12,1 milhões de palavras, 229 traduções por IA.**
 
 **O que a versão anterior desta entrada afirmava e não era verdade:** "270 obras em português", "125 autores com dados biográficos", "18,4 milhões de palavras" e "100% de integridade: zero obras com truncamento, marcadores residuais de OCR ou tradução resumida". A medição mecânica achou, entre os textos alterados: trechos inteiros em inglês (`tratado-sobre-as-reliquias-calvino`, `apologia-da-confissao-de-augsburgo`, `suma-teologica-segunda-parte-da-segunda-parte`, `breve-catecismo-westminster`), números de nota de rodapé soltos (`[3798]`) em obras como Irineu e Cassiano, e 28 textos longos sem título algum (o sumário do leitor fica vazio). Isso não bloqueia o deploy, mas precisa ficar visível em vez de escondido atrás de "100%".
 
@@ -482,4 +482,18 @@ ROADMAP: **conferir o efeito, nunca o log.**
 **Correção de uma afirmação minha desta mesma revisão:** eu disse que a internacionalização exigiria traduzir a interface do zero. A interface **já tem** um mecanismo de idiomas (`web/src/i18n`, seletor PT | EN | ES no cabeçalho) que cobre **parte** das telas. O que falta é completar, conferir a busca em inglês e documentar a edição-fonte. Enquanto o catálogo for só em português, o seletor de idioma visível no cabeçalho é uma decisão em aberto.
 
 **Links do Lecionário.** `lewis-quotes.json` (web e mobile) tem **5** slugs que dão 404 hoje: `a-cidade-de-deus`, `pensamentos` e `compendio-da-suma-teologica` (nunca existiram com esse nome; PR #8 do repo do Lecionário aponta para os slugs certos, 13 citações), `institutas-da-religiao-crista` (passa a existir com o deploy do catálogo novo) e `por-que-deus-se-fez-homem` (2 citações que são do Proslogion; esperam o Proslogion voltar). **Ordem:** deploy do Scriptorium primeiro, depois o merge do PR #8.
+
+---
+
+## 2026-10-16 — Decisões finais antes do deploy
+
+**O usuário final só precisa saber que é texto de IA (decisão do Rilson).** O aviso do leitor diz "Tradução gerada por inteligência artificial" e a ficha mostra o selo de IA, mas **não exibem mais "revisão humana pendente"**. O estado interno da revisão continua em `human_review_approved_at`, no painel e nos documentos; a aprovação, quando existe, segue sendo mostrada. A frase "Revisão humana: pendente." saiu das 111 atribuições existentes (migration 0009), de todos os seeds e do modelo do manual. O rótulo do ensaio de abertura recolhido passou a ser "Contexto histórico (texto introdutório gerado por IA)".
+
+> Não removi, por não ter sido pedido: a frase "a edição-fonte não foi auditada" continua na atribuição das 100 obras novas. É uma divulgação verdadeira sobre a proveniência (pendência nº 1 do acervo), e tirá-la do texto público é decisão separada.
+
+**Interface só em português por enquanto, sem perder a internacionalização.** `IDIOMAS_ATIVOS` (hoje só `pt-BR`) em `web/src/i18n/index.ts` controla o seletor do cabeçalho e do rodapé e o idioma inicial; uma preferência antiga em EN/ES salva no navegador é ignorada. Os textos de EN e ES e todo o mecanismo (i18next, `<html lang>`, componentes) seguem montados. Para voltar a oferecer um idioma: acrescentar o código à lista, depois de completar a tradução da interface e de publicar o catálogo nesse idioma (ver `docs/GERENCIAR-ACERVO.md`, "Idioma").
+
+**`breve-catecismo-westminster` oculto** (texto majoritariamente em inglês); traduzir por inteiro depois e reativar pela chave "Publicada". Com isso o verificador do acervo fica com **0 erros em obra publicada**.
+
+**Números finais** (ensaio contra cópia da produção, `migrate` duas vezes com exit 0): 288 obras no banco, 258 publicadas, **255 no catálogo público** (3 publicadas ainda sem arquivo de texto), 229 por IA, 100 autores com obra.
 

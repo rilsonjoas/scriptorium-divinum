@@ -39,7 +39,7 @@ VALUES (
   true,
   NULL,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir do texto latino clássico de 1520 (Tractatus de Libertate Christiana), cotejada com a edição alemã de Weimar (WA 7). Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir do texto latino clássico de 1520 (Tractatus de Libertate Christiana), cotejada com a edição alemã de Weimar (WA 7). Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 

@@ -51,11 +51,11 @@ VALUES (
   'A Catequese dos Não Instruídos',
   (SELECT id FROM authors WHERE slug = 'agostinho-de-hipona'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'a-catequese-dos-nao-instruidos-agostinho',
   'De Catechizandis Rudibus',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Patrística Latina e Pedagogia Catequética'],
   ARRAY['santo-agostinho-de-hipona', 'a-catequese-dos-nao-instruidos-agostinho', 'classicos-cristaos'],
@@ -64,7 +64,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -78,11 +78,11 @@ VALUES (
   'A Cidade de Deus',
   (SELECT id FROM authors WHERE slug = 'agostinho-de-hipona'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'a-cidade-de-deus-agostinho',
   'De Civitate Dei contra Paganos',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Teologia e Espiritualidade Clássica'],
   ARRAY['tradicao-classica-crista', 'a-cidade-de-deus-agostinho', 'classicos-cristaos'],
@@ -91,7 +91,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -105,11 +105,11 @@ VALUES (
   'A Criação do Homem',
   (SELECT id FROM authors WHERE slug = 'sao-gregorio-de-nissa'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'a-criacao-do-homem-gregorio-de-nissa',
   'De Hominis Opificio',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Patrística Grega e Antropologia Teológica'],
   ARRAY['sao-gregorio-de-nissa', 'a-criacao-do-homem-gregorio-de-nissa', 'classicos-cristaos'],
@@ -118,7 +118,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -132,11 +132,11 @@ VALUES (
   'A Demetriano',
   (SELECT id FROM authors WHERE slug = 'cipriano-de-cartago'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'a-demetriano-cipriano',
   'Ad Demetrianum',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Patrística Latina e Apologética'],
   ARRAY['sao-cipriano-de-cartago', 'a-demetriano-cipriano', 'classicos-cristaos'],
@@ -145,7 +145,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -159,11 +159,11 @@ VALUES (
   'A Donato',
   (SELECT id FROM authors WHERE slug = 'cipriano-de-cartago'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'a-donato-cipriano',
   'Ad Donatum',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Patrística Latina e Conversão Cristã'],
   ARRAY['sao-cipriano-de-cartago', 'a-donato-cipriano', 'classicos-cristaos'],
@@ -172,7 +172,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -186,11 +186,11 @@ VALUES (
   'A Escápula',
   (SELECT id FROM authors WHERE slug = 'tertuliano'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'a-escapula-tertuliano',
   'Ad Scapulam',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Patrística Latina e Apologética'],
   ARRAY['tertuliano', 'a-escapula-tertuliano', 'classicos-cristaos'],
@@ -199,7 +199,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -213,11 +213,11 @@ VALUES (
   'A Fé e o Símbolo',
   (SELECT id FROM authors WHERE slug = 'agostinho-de-hipona'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'a-fe-e-o-simbolo-agostinho',
   'De Fide et Symbolo',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Patrística Latina e Dogmática'],
   ARRAY['santo-agostinho-de-hipona', 'a-fe-e-o-simbolo-agostinho', 'classicos-cristaos'],
@@ -226,7 +226,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -240,11 +240,11 @@ VALUES (
   'À Nobreza Cristã da Nação Alemã sobre a Reforma do Estado Cristão',
   (SELECT id FROM authors WHERE slug = 'martinho-lutero'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'a-nobreza-crista-da-nacao-alema-lutero',
   'An den christlichen Adel',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Teologia Reformada e Eclesiologia'],
   ARRAY['martinho-lutero', 'a-nobreza-crista-da-nacao-alema-lutero', 'classicos-cristaos'],
@@ -253,7 +253,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -267,11 +267,11 @@ VALUES (
   'A Oração do Senhor',
   (SELECT id FROM authors WHERE slug = 'cipriano-de-cartago'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'a-oracao-do-senhor-cipriano',
   'De Dominica Oratione',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Patrística Latina e Espiritualidade'],
   ARRAY['sao-cipriano-de-cartago', 'a-oracao-do-senhor-cipriano', 'classicos-cristaos'],
@@ -280,7 +280,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -294,11 +294,11 @@ VALUES (
   'A Tradição Apostólica',
   (SELECT id FROM authors WHERE slug = 'hipolito-de-roma'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'a-tradicao-apostolica-hipolito',
   NULL,
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Patrística Antiga / Liturgia e Ordenação'],
   ARRAY['santo-hipolito-de-roma', 'a-tradicao-apostolica-hipolito', 'classicos-cristaos'],
@@ -307,7 +307,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -321,11 +321,11 @@ VALUES (
   'Aos Jovens sobre a Utilidade da Literatura Clássica',
   (SELECT id FROM authors WHERE slug = 'basilio-de-cesareia'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'aos-jovens-sobre-a-literatura-grega-basilio',
   'Ad Adolescentes',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Patrística Grega e Educação Cristã'],
   ARRAY['sao-basilio-magno', 'aos-jovens-sobre-a-literatura-grega-basilio', 'classicos-cristaos'],
@@ -334,7 +334,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -348,11 +348,11 @@ VALUES (
   'As Instituições Cenobíticas e os Remédios para os Oito Vícios Principais',
   (SELECT id FROM authors WHERE slug = 'sao-joao-cassiano'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'as-instituicoes-cenobiticas-joao-cassiano',
   'De Institutis Coenobiorum',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Monasticismo e Espiritualidade Cristã'],
   ARRAY['sao-joao-cassiano', 'as-instituicoes-cenobiticas-joao-cassiano', 'classicos-cristaos'],
@@ -361,7 +361,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -375,11 +375,11 @@ VALUES (
   'Cartas sobre São Martinho de Tours',
   (SELECT id FROM authors WHERE slug = 'sulpicio-severo'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'cartas-sobre-sao-martinho-sulpicio-severo',
   NULL,
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   ARRAY['Latim'],
   ARRAY['Epistolário / Hagiografia / Testemunho Patrístico'],
   ARRAY['sulpicio-severo', 'cartas-sobre-sao-martinho-sulpicio-severo', 'classicos-cristaos'],
@@ -388,7 +388,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -402,11 +402,11 @@ VALUES (
   'Catequeses Batismais - Parte 1 (Prólogo e Catequeses 1 a 10)',
   (SELECT id FROM authors WHERE slug = 'cirilo-de-jerusalem'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'catequeses-batismais-parte-1-cirilo-de-jerusalem',
   NULL,
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   ARRAY['Grego'],
   ARRAY['Catequese Sacramental / Teologia Batismal / Exposição do Credo de Jerusalém'],
   ARRAY['sao-cirilo-de-jerusalem', 'catequeses-batismais-parte-1-cirilo-de-jerusalem', 'classicos-cristaos'],
@@ -415,7 +415,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -429,11 +429,11 @@ VALUES (
   'Catequeses Batismais - Parte 2 (Catequeses 11 a 18)',
   (SELECT id FROM authors WHERE slug = 'cirilo-de-jerusalem'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'catequeses-batismais-parte-2-cirilo-de-jerusalem',
   NULL,
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   ARRAY['Grego'],
   ARRAY['Catequese Sacramental / Cristologia / Pneumatologia e Escatologia do Credo'],
   ARRAY['sao-cirilo-de-jerusalem', 'catequeses-batismais-parte-2-cirilo-de-jerusalem', 'classicos-cristaos'],
@@ -442,7 +442,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -456,11 +456,11 @@ VALUES (
   'Comentário sobre a Epístola aos Gálatas',
   (SELECT id FROM authors WHERE slug = 'joao-crisostomo'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'comentario-sobre-galatas-joao-crisostomo',
   NULL,
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   ARRAY['Grego'],
   ARRAY['Exegese Bíblica / Teologia Paulina / Graça e Justificação'],
   ARRAY['sao-joao-crisostomo', 'comentario-sobre-galatas-joao-crisostomo', 'classicos-cristaos'],
@@ -469,7 +469,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -483,11 +483,11 @@ VALUES (
   'Contra a Mentira',
   (SELECT id FROM authors WHERE slug = 'agostinho-de-hipona'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'contra-a-mentira-agostinho',
   'Contra Mendacium',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Patrística Latina e Teologia Moral'],
   ARRAY['santo-agostinho', 'contra-a-mentira-agostinho', 'classicos-cristaos'],
@@ -496,7 +496,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -510,11 +510,11 @@ VALUES (
   'Contra as Heresias: Livro III — A Tradição Apostólica, a Sucessão Eclesiástica e os Quatro Evangelhos',
   (SELECT id FROM authors WHERE slug = 'irineu-de-lyon'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'contra-as-heresias-livro-3-ireneu',
   'Adversus Haereses',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Patrística Antiga e Apologética'],
   ARRAY['santo-ireneu-de-lyon', 'contra-as-heresias-livro-3-ireneu', 'classicos-cristaos'],
@@ -523,7 +523,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -537,11 +537,11 @@ VALUES (
   'Contra as Heresias: Livro IV — A Unidade da Antiga e Nova Aliança na Lei e no Evangelho',
   (SELECT id FROM authors WHERE slug = 'irineu-de-lyon'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'contra-as-heresias-livro-4-ireneu',
   'Adversus Haereses',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Patrística Antiga e Apologética'],
   ARRAY['santo-ireneu-de-lyon', 'contra-as-heresias-livro-4-ireneu', 'classicos-cristaos'],
@@ -550,7 +550,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -564,11 +564,11 @@ VALUES (
   'Contra as Heresias: Livro V — A Ressurreição da Carne e o Reino dos Justos',
   (SELECT id FROM authors WHERE slug = 'irineu-de-lyon'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'contra-as-heresias-livro-5-ireneu',
   'Adversus Haereses',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Patrística Antiga e Escatologia'],
   ARRAY['santo-ireneu-de-lyon', 'contra-as-heresias-livro-5-ireneu', 'classicos-cristaos'],
@@ -577,7 +577,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -591,11 +591,11 @@ VALUES (
   'A Perpétua Virgindade da Bem-Aventurada Maria: Contra Helvídio',
   (SELECT id FROM authors WHERE slug = 'sao-jeronimo'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'contra-helvidio-perpetua-virgindade-de-maria-jeronimo',
   NULL,
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Patrística Latina e Mariologia'],
   ARRAY['sao-jeronimo', 'contra-helvidio-perpetua-virgindade-de-maria-jeronimo', 'classicos-cristaos'],
@@ -604,7 +604,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -618,11 +618,11 @@ VALUES (
   'Contra Práxeas',
   (SELECT id FROM authors WHERE slug = 'tertuliano'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'contra-praxeas-tertuliano',
   'Adversus Praxean',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Patrística Latina e Teologia Trinitária'],
   ARRAY['tertuliano', 'contra-praxeas-tertuliano', 'classicos-cristaos'],
@@ -631,7 +631,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -645,11 +645,11 @@ VALUES (
   'Da Continência',
   (SELECT id FROM authors WHERE slug = 'agostinho-de-hipona'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'da-continencia-agostinho',
   'De Continentia',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Patrística Latina e Moral Cristã'],
   ARRAY['santo-agostinho', 'da-continencia-agostinho', 'classicos-cristaos'],
@@ -658,7 +658,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -672,11 +672,11 @@ VALUES (
   'Da Fé nas Coisas Invisíveis',
   (SELECT id FROM authors WHERE slug = 'agostinho-de-hipona'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'da-fe-nas-coisas-invisiveis-agostinho',
   'De Fide Rerum Quae Non Videntur',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Patrística Latina e Apologética'],
   ARRAY['santo-agostinho', 'da-fe-nas-coisas-invisiveis-agostinho', 'classicos-cristaos'],
@@ -685,7 +685,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -699,11 +699,11 @@ VALUES (
   'Sobre a Idolatria',
   (SELECT id FROM authors WHERE slug = 'tertuliano'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'da-idolatria-tertuliano',
   'De Idololatria',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Patrística Latina e Apologética'],
   ARRAY['tertuliano', 'da-idolatria-tertuliano', 'classicos-cristaos'],
@@ -712,7 +712,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -726,11 +726,11 @@ VALUES (
   'Da Mentira',
   (SELECT id FROM authors WHERE slug = 'agostinho-de-hipona'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'da-mentira-agostinho',
   'De Mendacio',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Patrística Latina e Teologia Moral'],
   ARRAY['santo-agostinho', 'da-mentira-agostinho', 'classicos-cristaos'],
@@ -739,7 +739,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -753,11 +753,11 @@ VALUES (
   'Da Natureza do Bem',
   (SELECT id FROM authors WHERE slug = 'agostinho-de-hipona'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'da-natureza-do-bem-agostinho',
   'De Natura Boni',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Patrística Latina e Metafísica Cristã'],
   ARRAY['santo-agostinho', 'da-natureza-do-bem-agostinho', 'classicos-cristaos'],
@@ -766,7 +766,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -780,11 +780,11 @@ VALUES (
   'Da Oração e da Vida Contemplativa',
   (SELECT id FROM authors WHERE slug = 'sao-tomas-de-aquino'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'da-oracao-e-vida-contemplativa-tomas-de-aquino',
   NULL,
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Teologia e Espiritualidade Clássica'],
   ARRAY['prefacio', 'da-oracao-e-vida-contemplativa-tomas-de-aquino', 'classicos-cristaos'],
@@ -793,7 +793,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -807,11 +807,11 @@ VALUES (
   'Da Paciência',
   (SELECT id FROM authors WHERE slug = 'tertuliano'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'da-paciencia-tertuliano',
   'De Patientia',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Patrística Latina e Moral Cristã'],
   ARRAY['tertuliano', 'da-paciencia-tertuliano', 'classicos-cristaos'],
@@ -820,7 +820,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -834,11 +834,11 @@ VALUES (
   'Da Santa Virgindade',
   (SELECT id FROM authors WHERE slug = 'agostinho-de-hipona'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'da-santa-virgindade-agostinho',
   'De Sancta Virginitate',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Patrística Latina e Ascetismo'],
   ARRAY['santo-agostinho', 'da-santa-virgindade-agostinho', 'classicos-cristaos'],
@@ -847,7 +847,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -861,11 +861,11 @@ VALUES (
   'De Magistro',
   (SELECT id FROM authors WHERE slug = 'agostinho-de-hipona'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'de-magistro',
   NULL,
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Teologia e Espiritualidade Clássica'],
   ARRAY['nota-introdutoria', 'de-magistro', 'classicos-cristaos'],
@@ -874,7 +874,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -888,11 +888,11 @@ VALUES (
   'Diálogo contra os Luciferianos',
   (SELECT id FROM authors WHERE slug = 'sao-jeronimo'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'dialogo-contra-os-luciferianos-jeronimo',
   'Dialogus contra Luciferianos',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Patrística Latina e Eclesiologia'],
   ARRAY['sao-jeronimo', 'dialogo-contra-os-luciferianos-jeronimo', 'classicos-cristaos'],
@@ -901,7 +901,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -915,11 +915,11 @@ VALUES (
   'Diálogos sobre os Padres do Deserto e São Martinho de Tours',
   (SELECT id FROM authors WHERE slug = 'sulpicio-severo'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'dialogos-sobre-sao-martinho-sulpicio-severo',
   NULL,
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   ARRAY['Latim'],
   ARRAY['Hagiografia / Diálogos / Monaquismo Comparado'],
   ARRAY['sulpicio-severo', 'dialogos-sobre-sao-martinho-sulpicio-severo', 'classicos-cristaos'],
@@ -928,7 +928,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -942,11 +942,11 @@ VALUES (
   'Didaquê',
   (SELECT id FROM authors WHERE slug = 'igreja-antiga'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'didaque-doutrina-dos-doze-apostolos',
   'O Ensino dos Doze Apóstolos',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Teologia e Espiritualidade Clássica'],
   ARRAY['introducao', 'didaque-doutrina-dos-doze-apostolos', 'classicos-cristaos'],
@@ -955,7 +955,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -969,11 +969,11 @@ VALUES (
   'Discurso aos Gregos: Apologia contra os Filósofos Pagãos',
   (SELECT id FROM authors WHERE slug = 'taciano-o-sirio'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'discurso-aos-gregos-taciano',
   'Oratio ad Graecos',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Patrística Antiga e Apologética'],
   ARRAY['taciano-o-sirio', 'discurso-aos-gregos-taciano', 'classicos-cristaos'],
@@ -982,7 +982,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -996,11 +996,11 @@ VALUES (
   'Do Bem da Viuvez',
   (SELECT id FROM authors WHERE slug = 'agostinho-de-hipona'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'do-bem-da-viuvez-agostinho',
   'De Bono Viduitatis',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Patrística Latina e Moral Cristã'],
   ARRAY['santo-agostinho', 'do-bem-da-viuvez-agostinho', 'classicos-cristaos'],
@@ -1009,7 +1009,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1023,11 +1023,11 @@ VALUES (
   'Do Bem do Matrimônio',
   (SELECT id FROM authors WHERE slug = 'agostinho-de-hipona'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'do-bem-do-matrimonio-agostinho',
   'De Bono Coniugali',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Patrística Latina e Teologia da Família'],
   ARRAY['santo-agostinho', 'do-bem-do-matrimonio-agostinho', 'classicos-cristaos'],
@@ -1036,7 +1036,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1050,11 +1050,11 @@ VALUES (
   'Do Cuidado Devido aos Mortos',
   (SELECT id FROM authors WHERE slug = 'agostinho-de-hipona'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'do-cuidado-devido-aos-mortos-agostinho',
   'De Cura pro Mortuis Gerenda',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Patrística Latina e Escatologia'],
   ARRAY['santo-agostinho', 'do-cuidado-devido-aos-mortos-agostinho', 'classicos-cristaos'],
@@ -1063,7 +1063,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1077,11 +1077,11 @@ VALUES (
   'Do Trabalho dos Monges',
   (SELECT id FROM authors WHERE slug = 'agostinho-de-hipona'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'do-trabalho-dos-monges-agostinho',
   'De Opere Monachorum',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Patrística Latina e Monasticismo'],
   ARRAY['santo-agostinho', 'do-trabalho-dos-monges-agostinho', 'classicos-cristaos'],
@@ -1090,7 +1090,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1104,11 +1104,11 @@ VALUES (
   'Dos Espetáculos',
   (SELECT id FROM authors WHERE slug = 'tertuliano'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'dos-espetaculos-tertuliano',
   'De Spectaculis',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Patrística Latina e Moral Cristã'],
   ARRAY['tertuliano', 'dos-espetaculos-tertuliano', 'classicos-cristaos'],
@@ -1117,7 +1117,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1131,11 +1131,11 @@ VALUES (
   'Exortação ao Martírio',
   (SELECT id FROM authors WHERE slug = 'cipriano-de-cartago'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'exortacao-ao-martirio-cipriano',
   'Exhortatio ad Martyrium',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Patrística Latina e Espiritualidade do Martírio'],
   ARRAY['sao-cipriano-de-cartago', 'exortacao-ao-martirio-cipriano', 'classicos-cristaos'],
@@ -1144,7 +1144,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1158,11 +1158,11 @@ VALUES (
   'Exposição do Símbolo dos Apóstolos',
   (SELECT id FROM authors WHERE slug = 'rufino-de-aquileia'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'exposicao-do-simbolo-dos-apostolos-rufino',
   'Commentarius in Symbolum Apostolorum',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Patrística Latina e Dogmática'],
   ARRAY['rufino-de-aquileia', 'exposicao-do-simbolo-dos-apostolos-rufino', 'classicos-cristaos'],
@@ -1171,7 +1171,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1185,11 +1185,11 @@ VALUES (
   'Hexaemeron: Homilias sobre os Seis Dias da Criação',
   (SELECT id FROM authors WHERE slug = 'basilio-de-cesareia'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'hexaemeron-homilias-sobre-a-criacao-basilio-magno',
   NULL,
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   ARRAY['Grego'],
   ARRAY['Cosmologia Teológica / Exegese do Gênesis / Filosofia Cristã da Criação'],
   ARRAY['sao-basilio-magno', 'hexaemeron-homilias-sobre-a-criacao-basilio-magno', 'classicos-cristaos'],
@@ -1198,7 +1198,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1212,11 +1212,11 @@ VALUES (
   'Homilias e Escritos Espirituais',
   (SELECT id FROM authors WHERE slug = 'joao-crisostomo'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'homilias-e-escritos-espirituais-crisostomo',
   NULL,
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Teologia e Espiritualidade Clássica'],
   ARRAY['folhas-de-sao-joao-crisostomo', 'homilias-e-escritos-espirituais-crisostomo', 'classicos-cristaos'],
@@ -1225,7 +1225,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1239,11 +1239,11 @@ VALUES (
   'Homilias sobre as Estátuas ao Povo de Antioquia - Parte 1',
   (SELECT id FROM authors WHERE slug = 'joao-crisostomo'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'homilias-sobre-as-estatuas-parte-1-joao-crisostomo',
   NULL,
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   ARRAY['Grego'],
   ARRAY['Homilética Patrística / Oratória Sagrada / Teologia Pastoral em Época de Calamidade'],
   ARRAY['sao-joao-crisostomo', 'homilias-sobre-as-estatuas-parte-1-joao-crisostomo', 'classicos-cristaos'],
@@ -1252,7 +1252,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1266,11 +1266,11 @@ VALUES (
   'Homilias sobre as Estátuas ao Povo de Antioquia - Parte 2',
   (SELECT id FROM authors WHERE slug = 'joao-crisostomo'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'homilias-sobre-as-estatuas-parte-2-joao-crisostomo',
   NULL,
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   ARRAY['Grego'],
   ARRAY['Homilética Patrística / Oratória Sagrada / Teologia Pastoral em Época de Calamidade'],
   ARRAY['sao-joao-crisostomo', 'homilias-sobre-as-estatuas-parte-2-joao-crisostomo', 'classicos-cristaos'],
@@ -1279,7 +1279,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1293,11 +1293,11 @@ VALUES (
   'Homilias sobre a Epístola aos Colossenses',
   (SELECT id FROM authors WHERE slug = 'joao-crisostomo'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'homilias-sobre-colossenses-joao-crisostomo',
   NULL,
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   ARRAY['Grego'],
   ARRAY['Exegese Bíblica / Cristologia Paulina / Vida Mística'],
   ARRAY['sao-joao-crisostomo', 'homilias-sobre-colossenses-joao-crisostomo', 'classicos-cristaos'],
@@ -1306,7 +1306,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1320,11 +1320,11 @@ VALUES (
   'Homilias sobre a Epístola aos Efésios',
   (SELECT id FROM authors WHERE slug = 'joao-crisostomo'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'homilias-sobre-efesios-joao-crisostomo',
   NULL,
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   ARRAY['Grego'],
   ARRAY['Exegese Bíblica / Eclesiologia / Teologia Dogmática e Moral'],
   ARRAY['sao-joao-crisostomo', 'homilias-sobre-efesios-joao-crisostomo', 'classicos-cristaos'],
@@ -1333,7 +1333,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1347,11 +1347,11 @@ VALUES (
   'Homilias sobre a Epístola a Filemom',
   (SELECT id FROM authors WHERE slug = 'joao-crisostomo'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'homilias-sobre-filemom-joao-crisostomo',
   NULL,
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   ARRAY['Grego'],
   ARRAY['Exegese Bíblica / Teologia Moral / Fraternidade Evangélica'],
   ARRAY['sao-joao-crisostomo', 'homilias-sobre-filemom-joao-crisostomo', 'classicos-cristaos'],
@@ -1360,7 +1360,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1374,11 +1374,11 @@ VALUES (
   'Homilias sobre a Epístola aos Filipenses',
   (SELECT id FROM authors WHERE slug = 'joao-crisostomo'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'homilias-sobre-filipenses-joao-crisostomo',
   NULL,
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   ARRAY['Grego'],
   ARRAY['Exegese Bíblica / Cristologia / Espiritualidade e Alegria Cristã'],
   ARRAY['sao-joao-crisostomo', 'homilias-sobre-filipenses-joao-crisostomo', 'classicos-cristaos'],
@@ -1387,7 +1387,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1401,11 +1401,11 @@ VALUES (
   'Homilias sobre a Epístola aos Hebreus - Parte 1 (Homilias 1 a 17)',
   (SELECT id FROM authors WHERE slug = 'joao-crisostomo'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'homilias-sobre-hebreus-parte-1-joao-crisostomo',
   NULL,
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   ARRAY['Grego'],
   ARRAY['Exegese Bíblica / Cristologia Sacerdotal / Teologia da Aliança'],
   ARRAY['sao-joao-crisostomo', 'homilias-sobre-hebreus-parte-1-joao-crisostomo', 'classicos-cristaos'],
@@ -1414,7 +1414,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1428,11 +1428,11 @@ VALUES (
   'Homilias sobre a Epístola aos Hebreus - Parte 2 (Homilias 18 a 34)',
   (SELECT id FROM authors WHERE slug = 'joao-crisostomo'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'homilias-sobre-hebreus-parte-2-joao-crisostomo',
   NULL,
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   ARRAY['Grego'],
   ARRAY['Exegese Bíblica / Teologia Sacrificial / A Galeria da Fé e Perseverança'],
   ARRAY['sao-joao-crisostomo', 'homilias-sobre-hebreus-parte-2-joao-crisostomo', 'classicos-cristaos'],
@@ -1441,7 +1441,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1455,11 +1455,11 @@ VALUES (
   'Homilias sobre a Primeira Epístola aos Tessalonicenses',
   (SELECT id FROM authors WHERE slug = 'joao-crisostomo'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'homilias-sobre-primeira-tessalonicenses-joao-crisostomo',
   NULL,
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   ARRAY['Grego'],
   ARRAY['Exegese Bíblica / Teologia Paulina / Esperança e Ressurreição'],
   ARRAY['sao-joao-crisostomo', 'homilias-sobre-primeira-tessalonicenses-joao-crisostomo', 'classicos-cristaos'],
@@ -1468,7 +1468,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1482,11 +1482,11 @@ VALUES (
   'Homilias sobre a Primeira Epístola a Timóteo',
   (SELECT id FROM authors WHERE slug = 'joao-crisostomo'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'homilias-sobre-primeira-timoteo-joao-crisostomo',
   NULL,
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   ARRAY['Grego'],
   ARRAY['Exegese Bíblica / Teologia Pastoral / Ordem e Disciplina Eclesial'],
   ARRAY['sao-joao-crisostomo', 'homilias-sobre-primeira-timoteo-joao-crisostomo', 'classicos-cristaos'],
@@ -1495,7 +1495,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1509,11 +1509,11 @@ VALUES (
   'Homilias sobre a Segunda Epístola aos Tessalonicenses',
   (SELECT id FROM authors WHERE slug = 'joao-crisostomo'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'homilias-sobre-segunda-tessalonicenses-joao-crisostomo',
   NULL,
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   ARRAY['Grego'],
   ARRAY['Exegese Bíblica / Escatologia Bíblica / Parusia e Fidelidade'],
   ARRAY['sao-joao-crisostomo', 'homilias-sobre-segunda-tessalonicenses-joao-crisostomo', 'classicos-cristaos'],
@@ -1522,7 +1522,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1536,11 +1536,11 @@ VALUES (
   'Homilias sobre a Segunda Epístola a Timóteo',
   (SELECT id FROM authors WHERE slug = 'joao-crisostomo'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'homilias-sobre-segunda-timoteo-joao-crisostomo',
   NULL,
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   ARRAY['Grego'],
   ARRAY['Exegese Bíblica / Teologia Pastoral / O Bom Combate da Fé'],
   ARRAY['sao-joao-crisostomo', 'homilias-sobre-segunda-timoteo-joao-crisostomo', 'classicos-cristaos'],
@@ -1549,7 +1549,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1563,11 +1563,11 @@ VALUES (
   'Homilias sobre a Epístola a Tito',
   (SELECT id FROM authors WHERE slug = 'joao-crisostomo'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'homilias-sobre-tito-joao-crisostomo',
   NULL,
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   ARRAY['Grego'],
   ARRAY['Exegese Bíblica / Teologia Pastoral / Homilética Patrística'],
   ARRAY['sao-joao-crisostomo', 'homilias-sobre-tito-joao-crisostomo', 'classicos-cristaos'],
@@ -1576,7 +1576,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1590,11 +1590,11 @@ VALUES (
   'As Institutas da Religião Cristã',
   (SELECT id FROM authors WHERE slug = 'joao-calvino'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'institutas-da-religiao-crista',
   NULL,
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Teologia Sistemática e Reforma'],
   ARRAY['joao-calvino', 'institutas-da-religiao-crista', 'classicos-cristaos'],
@@ -1603,7 +1603,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1617,11 +1617,11 @@ VALUES (
   'O Bem da Paciência',
   (SELECT id FROM authors WHERE slug = 'cipriano-de-cartago'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'o-bem-da-paciencia-cipriano',
   'De Bono Patientiae',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Patrística Latina e Moral Cristã'],
   ARRAY['sao-cipriano-de-cartago', 'o-bem-da-paciencia-cipriano', 'classicos-cristaos'],
@@ -1630,7 +1630,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1644,11 +1644,11 @@ VALUES (
   'O Catecismo Maior',
   (SELECT id FROM authors WHERE slug = 'martinho-lutero'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'o-catecismo-maior-martinho-lutero',
   NULL,
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Confissões Luteranas / Catequese Dogmática'],
   ARRAY['martinho-lutero', 'o-catecismo-maior-martinho-lutero', 'classicos-cristaos'],
@@ -1657,7 +1657,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1671,11 +1671,11 @@ VALUES (
   'O Grande Discurso Catequético',
   (SELECT id FROM authors WHERE slug = 'sao-gregorio-de-nissa'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'o-grande-discurso-catequetico-gregorio-de-nissa',
   'Oratio Catechetica Magna',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Patrística Grega e Dogmática'],
   ARRAY['sao-gregorio-de-nissa', 'o-grande-discurso-catequetico-gregorio-de-nissa', 'classicos-cristaos'],
@@ -1684,7 +1684,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1698,11 +1698,11 @@ VALUES (
   'O Hábito das Virgens',
   (SELECT id FROM authors WHERE slug = 'cipriano-de-cartago'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'o-habito-das-virgens-cipriano',
   'De Habitu Virginum',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Patrística Latina e Moral Cristã'],
   ARRAY['sao-cipriano-de-cartago', 'o-habito-das-virgens-cipriano', 'classicos-cristaos'],
@@ -1711,7 +1711,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1725,11 +1725,11 @@ VALUES (
   'Páginas Douradas de São João Crisóstomo',
   (SELECT id FROM authors WHERE slug = 'joao-crisostomo'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'paginas-douradas-sao-joao-crisostomo',
   NULL,
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   ARRAY['Grego'],
   ARRAY['Homilética e Espiritualidade Patrística'],
   ARRAY['sao-joao-crisostomo', 'paginas-douradas-sao-joao-crisostomo', 'classicos-cristaos'],
@@ -1738,7 +1738,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1752,11 +1752,11 @@ VALUES (
   'Pensamentos',
   (SELECT id FROM authors WHERE slug = 'blaise-pascal'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'pensamentos-blaise-pascal',
   NULL,
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   ARRAY['Francês'],
   ARRAY['Apologética e Filosofia Cristã / Antropologia Teológica'],
   ARRAY['blaise-pascal', 'pensamentos-blaise-pascal', 'classicos-cristaos'],
@@ -1765,7 +1765,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1779,11 +1779,11 @@ VALUES (
   'Resposta aos Judeus',
   (SELECT id FROM authors WHERE slug = 'tertuliano'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'resposta-aos-judeus-tertuliano',
   'Adversus Judaeos',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Patrística Latina e Apologética'],
   ARRAY['tertuliano', 'resposta-aos-judeus-tertuliano', 'classicos-cristaos'],
@@ -1792,7 +1792,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1806,11 +1806,11 @@ VALUES (
   'Sermões sobre o Mistério da Natividade e Encarnação do Senhor',
   (SELECT id FROM authors WHERE slug = 'sao-leao-magno'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'sermoes-sobre-a-natividade-sao-leao-magno',
   NULL,
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   ARRAY['Latim'],
   ARRAY['Teologia Dogmática / Cristologia / Homilética Litúrgica'],
   ARRAY['sao-leao-magno', 'sermoes-sobre-a-natividade-sao-leao-magno', 'classicos-cristaos'],
@@ -1819,7 +1819,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1833,11 +1833,11 @@ VALUES (
   'Sermões sobre o Mistério Pascal',
   (SELECT id FROM authors WHERE slug = 'sao-leao-magno'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'sermoes-sobre-o-misterio-pascal-sao-leao-magno',
   'Paixão, Ressurreição e Ascensão do Senhor',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   ARRAY['Latim'],
   ARRAY['Sermões Dogmáticos / Teologia Litúrgica / Cristologia e Redenção'],
   ARRAY['sao-leao-magno', 'sermoes-sobre-o-misterio-pascal-sao-leao-magno', 'classicos-cristaos'],
@@ -1846,7 +1846,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1860,11 +1860,11 @@ VALUES (
   'Sermões sobre Pentecostes, os Santos Apóstolos e as Bem-Aventuranças',
   (SELECT id FROM authors WHERE slug = 'sao-leao-magno'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'sermoes-sobre-pentecostes-e-os-santos-sao-leao-magno',
   NULL,
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   ARRAY['Latim'],
   ARRAY['Pneumatologia / Eclesiologia / Hagiografia e Ética Evangélica'],
   ARRAY['sao-leao-magno', 'sermoes-sobre-pentecostes-e-os-santos-sao-leao-magno', 'classicos-cristaos'],
@@ -1873,7 +1873,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1887,11 +1887,11 @@ VALUES (
   'Sobre a Alma e a Ressurreição',
   (SELECT id FROM authors WHERE slug = 'sao-gregorio-de-nissa'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'sobre-a-alma-e-a-ressurreicao-gregorio-de-nissa',
   NULL,
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   ARRAY['Grego'],
   ARRAY['Escrituração Dialógica / Imortalidade da Alma / Escatologia e Ressurreição'],
   ARRAY['sao-gregorio-de-nissa', 'sobre-a-alma-e-a-ressurreicao-gregorio-de-nissa', 'classicos-cristaos'],
@@ -1900,7 +1900,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1914,11 +1914,11 @@ VALUES (
   'Sobre a Alma e a Ressurreição',
   (SELECT id FROM authors WHERE slug = 'sao-gregorio-de-nissa'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'sobre-a-alma-e-a-ressurreicao-gregorio-nissa',
   'De Anima et Resurrectione — Diálogo com Santa Macrina',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Patrística Grega e Filosofia Cristã'],
   ARRAY['sao-gregorio-de-nissa', 'sobre-a-alma-e-a-ressurreicao-gregorio-nissa', 'classicos-cristaos'],
@@ -1927,7 +1927,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1941,11 +1941,11 @@ VALUES (
   'Sobre a Carne de Cristo',
   (SELECT id FROM authors WHERE slug = 'tertuliano'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'sobre-a-carne-de-cristo-tertuliano',
   'De Carne Christi',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Patrística Latina e Cristologia'],
   ARRAY['tertuliano', 'sobre-a-carne-de-cristo-tertuliano', 'classicos-cristaos'],
@@ -1954,7 +1954,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1968,11 +1968,11 @@ VALUES (
   'Sobre a Criação do Homem',
   (SELECT id FROM authors WHERE slug = 'sao-gregorio-de-nissa'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'sobre-a-criacao-do-homem-gregorio-de-nissa',
   NULL,
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   ARRAY['Grego'],
   ARRAY['Antropologia Teológica / Imago Dei / Ressurreição e Escatologia'],
   ARRAY['sao-gregorio-de-nissa', 'sobre-a-criacao-do-homem-gregorio-de-nissa', 'classicos-cristaos'],
@@ -1981,7 +1981,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1995,11 +1995,11 @@ VALUES (
   'Sobre a Mortalidade',
   (SELECT id FROM authors WHERE slug = 'cipriano-de-cartago'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'sobre-a-mortalidade-cipriano',
   'De Mortalitate',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Patrística Latina e Consolação Cristã'],
   ARRAY['sao-cipriano-de-cartago', 'sobre-a-mortalidade-cipriano', 'classicos-cristaos'],
@@ -2008,7 +2008,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2022,11 +2022,11 @@ VALUES (
   'Sobre a Oração e a Vida Contemplativa',
   (SELECT id FROM authors WHERE slug = 'sao-tomas-de-aquino'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'sobre-a-oracao-e-a-vida-contemplativa-tomas-de-aquino',
   NULL,
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   ARRAY['Latim'],
   ARRAY['Teologia Espiritual e Mística / Vida Contemplativa e Oração'],
   ARRAY['santo-tomas-de-aquino', 'sobre-a-oracao-e-a-vida-contemplativa-tomas-de-aquino', 'classicos-cristaos'],
@@ -2035,7 +2035,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2049,11 +2049,11 @@ VALUES (
   'Sobre a Oração',
   (SELECT id FROM authors WHERE slug = 'tertuliano'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'sobre-a-oracao-tertuliano',
   'De Oratione',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Patrística Latina e Espiritualidade'],
   ARRAY['tertuliano', 'sobre-a-oracao-tertuliano', 'classicos-cristaos'],
@@ -2062,7 +2062,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2076,11 +2076,11 @@ VALUES (
   'Sobre a Ressurreição da Carne',
   (SELECT id FROM authors WHERE slug = 'tertuliano'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'sobre-a-ressurreicao-da-carne-tertuliano',
   'De Resurrectione Carnis',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Patrística Latina e Escatologia'],
   ARRAY['tertuliano', 'sobre-a-ressurreicao-da-carne-tertuliano', 'classicos-cristaos'],
@@ -2089,7 +2089,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2103,11 +2103,11 @@ VALUES (
   'Sobre a Virgindade',
   (SELECT id FROM authors WHERE slug = 'sao-gregorio-de-nissa'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'sobre-a-virgindade-gregorio-de-nissa',
   'De Virginitate',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Patrística Grega e Ascética'],
   ARRAY['sao-gregorio-de-nissa', 'sobre-a-virgindade-gregorio-de-nissa', 'classicos-cristaos'],
@@ -2116,7 +2116,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2130,11 +2130,11 @@ VALUES (
   'Sobre as Boas Obras e as Esmolas',
   (SELECT id FROM authors WHERE slug = 'cipriano-de-cartago'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'sobre-as-boas-obras-e-as-esmolas-cipriano',
   'De Opere et Eleemosynis',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Patrística Latina e Moral Cristã'],
   ARRAY['sao-cipriano-de-cartago', 'sobre-as-boas-obras-e-as-esmolas-cipriano', 'classicos-cristaos'],
@@ -2143,7 +2143,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2157,11 +2157,11 @@ VALUES (
   'Sobre as Virgens',
   (SELECT id FROM authors WHERE slug = 'ambrosio-de-milao'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'sobre-as-virgens-ambrosio-de-milao',
   'De Virginibus ad Marcellinam',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Patrística Latina e Ascetismo'],
   ARRAY['santo-ambrosio-de-milao', 'sobre-as-virgens-ambrosio-de-milao', 'classicos-cristaos'],
@@ -2170,7 +2170,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2184,11 +2184,11 @@ VALUES (
   'Sobre as Viúvas',
   (SELECT id FROM authors WHERE slug = 'ambrosio-de-milao'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'sobre-as-viuvas-ambrosio-de-milao',
   'De Viduis',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Patrística Latina e Moral Cristã'],
   ARRAY['santo-ambrosio-de-milao', 'sobre-as-viuvas-ambrosio-de-milao', 'classicos-cristaos'],
@@ -2197,7 +2197,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2211,11 +2211,11 @@ VALUES (
   'Sobre Homens Ilustres',
   (SELECT id FROM authors WHERE slug = 'sao-jeronimo'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'sobre-homens-ilustres-jeronimo',
   'De Viris Illustribus',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Patrística Latina e Patrologia Histórica'],
   ARRAY['sao-jeronimo', 'sobre-homens-ilustres-jeronimo', 'classicos-cristaos'],
@@ -2224,7 +2224,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2238,11 +2238,11 @@ VALUES (
   'Sobre o Batismo',
   (SELECT id FROM authors WHERE slug = 'tertuliano'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'sobre-o-batismo-tertuliano',
   'De Baptismo',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Patrística Latina e Teologia Sacramental'],
   ARRAY['tertuliano', 'sobre-o-batismo-tertuliano', 'classicos-cristaos'],
@@ -2251,7 +2251,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2265,11 +2265,11 @@ VALUES (
   'Sobre o Espírito Santo',
   (SELECT id FROM authors WHERE slug = 'ambrosio-de-milao'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'sobre-o-espirito-santo-ambrosio-de-milao',
   'De Spiritu Sancto',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   ARRAY['Latim'],
   ARRAY['Pneumatologia Patrística / Teologia Trinitária / Cristologia Dogmática'],
   ARRAY['santo-ambrosio-de-milao', 'sobre-o-espirito-santo-ambrosio-de-milao', 'classicos-cristaos'],
@@ -2278,7 +2278,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2292,11 +2292,11 @@ VALUES (
   'Sobre o Zelo e a Inveja',
   (SELECT id FROM authors WHERE slug = 'cipriano-de-cartago'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'sobre-o-zelo-e-a-inveja-cipriano',
   'De Zelo et Livore',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Patrística Latina e Moral Cristã'],
   ARRAY['sao-cipriano-de-cartago', 'sobre-o-zelo-e-a-inveja-cipriano', 'classicos-cristaos'],
@@ -2305,7 +2305,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2319,11 +2319,11 @@ VALUES (
   'Sobre os Caídos',
   (SELECT id FROM authors WHERE slug = 'cipriano-de-cartago'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'sobre-os-caidos-cipriano',
   'De Lapsis',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Patrística Latina e Disciplina Eclesiástica'],
   ARRAY['sao-cipriano-de-cartago', 'sobre-os-caidos-cipriano', 'classicos-cristaos'],
@@ -2332,7 +2332,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2346,11 +2346,11 @@ VALUES (
   'Sobre os Deveres do Clero - Livro I',
   (SELECT id FROM authors WHERE slug = 'ambrosio-de-milao'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'sobre-os-deveres-do-clero-livro-1-ambrosio-de-milao',
   'De Officiis Ministrorum Liber I',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   ARRAY['Latim'],
   ARRAY['Ética Cristã / Teologia Pastoral / Filosofia Moral Patrística'],
   ARRAY['santo-ambrosio-de-milao', 'sobre-os-deveres-do-clero-livro-1-ambrosio-de-milao', 'classicos-cristaos'],
@@ -2359,7 +2359,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2373,11 +2373,11 @@ VALUES (
   'Sobre os Deveres do Clero - Livros II e III',
   (SELECT id FROM authors WHERE slug = 'ambrosio-de-milao'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'sobre-os-deveres-do-clero-livros-2-e-3-ambrosio-de-milao',
   'De Officiis Ministrorum Libri II & III',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   ARRAY['Latim'],
   ARRAY['Ética Cristã / Teologia Pastoral / Filosofia Moral Patrística'],
   ARRAY['santo-ambrosio-de-milao', 'sobre-os-deveres-do-clero-livros-2-e-3-ambrosio-de-milao', 'classicos-cristaos'],
@@ -2386,7 +2386,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2400,11 +2400,11 @@ VALUES (
   'Sobre os Sínodos, ou Da Fé dos Orientais',
   (SELECT id FROM authors WHERE slug = 'santo-hilario-de-poitiers'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'sobre-os-sinodos-hilario-de-poitiers',
   NULL,
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   ARRAY['Latim'],
   ARRAY['Teologia Dogmática / Cristologia / História Conciliar'],
   ARRAY['santo-hilario-de-poitiers', 'sobre-os-sinodos-hilario-de-poitiers', 'classicos-cristaos'],
@@ -2413,7 +2413,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2427,11 +2427,11 @@ VALUES (
   'Suma Teológica — Primeira Parte da Segunda Parte',
   (SELECT id FROM authors WHERE slug = 'sao-tomas-de-aquino'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'suma-teologica-primeira-parte-da-segunda-parte',
   'Prima Secundae',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Teologia Moral e Escolástica'],
   ARRAY['santo-tomas-de-aquino', 'suma-teologica-primeira-parte-da-segunda-parte', 'classicos-cristaos'],
@@ -2440,7 +2440,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2454,11 +2454,11 @@ VALUES (
   'Suma Teológica — Primeira Parte',
   (SELECT id FROM authors WHERE slug = 'sao-tomas-de-aquino'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'suma-teologica-primeira-parte',
   'Prima Pars',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Teologia Sistemática e Escolástica'],
   ARRAY['santo-tomas-de-aquino', 'suma-teologica-primeira-parte', 'classicos-cristaos'],
@@ -2467,7 +2467,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2481,11 +2481,11 @@ VALUES (
   'Suma Teológica — Terceira Parte',
   (SELECT id FROM authors WHERE slug = 'sao-tomas-de-aquino'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'suma-teologica-terceira-parte',
   'Tertia Pars',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Cristologia e Teologia Sacramental'],
   ARRAY['santo-tomas-de-aquino', 'suma-teologica-terceira-parte', 'classicos-cristaos'],
@@ -2494,7 +2494,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2508,11 +2508,11 @@ VALUES (
   'A Tradição Apostólica',
   (SELECT id FROM authors WHERE slug = 'hipolito-de-roma'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'tradicao-apostolica-hipolito',
   NULL,
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Teologia e Espiritualidade Clássica'],
   ARRAY['nota-prefatoria', 'tradicao-apostolica-hipolito', 'classicos-cristaos'],
@@ -2521,7 +2521,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2535,11 +2535,11 @@ VALUES (
   'Tratado a Autólico: Apologia da Fé Cristã e da Criação',
   (SELECT id FROM authors WHERE slug = 'sao-teofilo-de-antioquia'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'tratado-a-autolico-teofilo-antioquia',
   'Ad Autolycum',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Patrística Antiga e Apologética'],
   ARRAY['sao-teofilo-de-antioquia', 'tratado-a-autolico-teofilo-antioquia', 'classicos-cristaos'],
@@ -2548,7 +2548,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2562,11 +2562,11 @@ VALUES (
   'Tratados Patrísticos Fundamentais - Parte 1',
   (SELECT id FROM authors WHERE slug = 'cipriano-de-cartago'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'tratados-patristicos-parte-1-cipriano-de-cartago',
   NULL,
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   ARRAY['Latim'],
   ARRAY['Eclesiologia Patrística / Espiritualidade / Disciplina Eclesiástica'],
   ARRAY['sao-cipriano-de-cartago', 'tratados-patristicos-parte-1-cipriano-de-cartago', 'classicos-cristaos'],
@@ -2575,7 +2575,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2589,11 +2589,11 @@ VALUES (
   'Tratados Patrísticos Fundamentais - Parte 2',
   (SELECT id FROM authors WHERE slug = 'cipriano-de-cartago'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'tratados-patristicos-parte-2-cipriano-de-cartago',
   NULL,
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   ARRAY['Latim'],
   ARRAY['Espiritualidade Patrística / Moral Cristã / Teologia do Martírio'],
   ARRAY['sao-cipriano-de-cartago', 'tratados-patristicos-parte-2-cipriano-de-cartago', 'classicos-cristaos'],
@@ -2602,7 +2602,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2616,11 +2616,11 @@ VALUES (
   'Vida de Santo Hilarião',
   (SELECT id FROM authors WHERE slug = 'sao-jeronimo'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'vida-de-santo-hilariao-jeronimo',
   'Vita Sancti Hilarionis',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Patrística Latina e Hagiografia Monástica'],
   ARRAY['sao-jeronimo', 'vida-de-santo-hilariao-jeronimo', 'classicos-cristaos'],
@@ -2629,7 +2629,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2643,11 +2643,11 @@ VALUES (
   'A Vida de São Malaquias de Armagh',
   (SELECT id FROM authors WHERE slug = 'bernardo-de-claraval'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'vida-de-sao-malaquias-bernardo-de-claraval',
   NULL,
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Teologia e Espiritualidade Clássica'],
   ARRAY['tradicao-classica-crista', 'vida-de-sao-malaquias-bernardo-de-claraval', 'classicos-cristaos'],
@@ -2656,7 +2656,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2670,11 +2670,11 @@ VALUES (
   'Vida de São Malaquias, o Monge Cativo',
   (SELECT id FROM authors WHERE slug = 'sao-jeronimo'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'vida-de-sao-malaquias-jeronimo',
   'Vita Malchi',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Patrística Latina e Hagiografia Monástica'],
   ARRAY['sao-jeronimo', 'vida-de-sao-malaquias-jeronimo', 'classicos-cristaos'],
@@ -2683,7 +2683,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2697,11 +2697,11 @@ VALUES (
   'Vida de São Martinho de Tours',
   (SELECT id FROM authors WHERE slug = 'sulpicio-severo'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'vida-de-sao-martinho-sulpicio-severo',
   NULL,
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   ARRAY['Latim'],
   ARRAY['Hagiografia / Espiritualidade / Monaquismo Primitivo'],
   ARRAY['sulpicio-severo', 'vida-de-sao-martinho-sulpicio-severo', 'classicos-cristaos'],
@@ -2710,7 +2710,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2724,11 +2724,11 @@ VALUES (
   'Vida de São Paulo, o Primeiro Eremita',
   (SELECT id FROM authors WHERE slug = 'sao-jeronimo'),
   'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
+  'Texto integral em português, traduzido por inteligência artificial.',
   'vida-de-sao-paulo-eremita-jeronimo',
   'Vita Sancti Pauli',
   2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
+  'Scriptorium Divinum (tradução por IA)',
   NULL,
   ARRAY['Patrística Latina e Hagiografia Monástica'],
   ARRAY['sao-jeronimo', 'vida-de-sao-paulo-eremita-jeronimo', 'classicos-cristaos'],
@@ -2737,7 +2737,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 

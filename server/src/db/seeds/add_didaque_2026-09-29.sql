@@ -40,7 +40,7 @@ VALUES (
   true,
   NULL,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir do original grego em domínio público (edição Bryennios / Hitchcock & Brown, 1884), cotejada com a tradução inglesa e a edição de J. B. Lightfoot (1891). Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir do original grego em domínio público (edição Bryennios / Hitchcock & Brown, 1884), cotejada com a tradução inglesa e a edição de J. B. Lightfoot (1891). Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 

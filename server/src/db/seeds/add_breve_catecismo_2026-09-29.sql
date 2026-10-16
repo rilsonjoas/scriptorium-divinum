@@ -39,7 +39,7 @@ VALUES (
   true,
   NULL,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir do original em inglês de 1647 (The Westminster Shorter Catechism), conforme Philip Schaff, The Creeds of Christendom, vol. III. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir do original em inglês de 1647 (The Westminster Shorter Catechism), conforme Philip Schaff, The Creeds of Christendom, vol. III. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 

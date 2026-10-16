@@ -10,9 +10,12 @@
 --    populate_curatorship_status), reaplicados a cada deploy. Roda uma vez aqui.
 -- 2. Decisão do autor de 2026-10-16: só obras em português no ar por enquanto.
 --    Ficam ocultas as edições em inglês e em latim, o tratado das Relíquias de
---    Calvino (arquivo corrompido) e o Proslogion (revisão pendente). Para voltar a
---    publicar qualquer uma: chave "Publicada" no painel de admin. Nenhum seed
---    republica mais.
+--    Calvino (arquivo corrompido), o Proslogion (revisão pendente) e o Breve
+--    Catecismo de Westminster (texto majoritariamente em inglês; traduzir
+--    depois). Para voltar a publicar qualquer uma: chave "Publicada" no painel
+--    de admin. Nenhum seed republica mais.
+-- 3. O público só precisa saber que a obra é texto de IA, não o estado interno
+--    da revisão: sai a frase "Revisão humana: pendente." da atribuição.
 --
 -- Em banco novo (sem obras ainda) esta migration não encontra o que ocultar:
 -- aplicar a ocultação depois dos seeds, com os dois UPDATE do item 2.
@@ -46,4 +49,20 @@ WHERE slug = 'carta-a-diogneto';
 UPDATE books SET published = false WHERE language IS DISTINCT FROM 'Português';
 
 UPDATE books SET published = false
-WHERE slug IN ('tratado-sobre-as-reliquias-calvino', 'proslogion');
+WHERE slug IN (
+  'tratado-sobre-as-reliquias-calvino',  -- arquivo corrompido
+  'proslogion',                          -- revisão pendente
+  'breve-catecismo-westminster'          -- texto majoritariamente em inglês; traduzir depois
+);
+
+-- 3. O usuário final só precisa saber que a obra é texto de IA. A frase
+-- "Revisão humana: pendente." sai da atribuição exibida ao público (o estado da
+-- revisão continua em human_review_approved_at e no painel). A aprovação, quando
+-- existe, segue sendo mostrada.
+UPDATE books
+SET attribution_text = replace(attribution_text, ' Revisão humana: pendente.', '')
+WHERE attribution_text LIKE '% Revisão humana: pendente.%';
+
+UPDATE books
+SET description = replace(description, ' (revisão humana pendente)', '')
+WHERE description LIKE '%(revisão humana pendente)%';
