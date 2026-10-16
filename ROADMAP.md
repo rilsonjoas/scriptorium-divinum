@@ -1221,14 +1221,11 @@ no `meus-remedios` (único projeto pessoal com OAuth de usuário real hoje)
       Evolução futura: crescer o JSON conforme surgirem palavras sem
       cobertura, marcar termos curados com underline pontilhado direto no
       texto (exige transformação de nós de texto no markdown).
-      > [!warning] A ser repensado pelo item 2 de "Leitor digital" (2026-09-25)
-      > O comportamento atual — **selecionar qualquer palavra já dispara o
-      > glossário** — diverge do que um leitor moderno espera: o padrão de
-      > uma seleção é *copiar*. O glossário não foi erro, mas sim
-      > implemented *cedo demais*: ele deve passar a ser uma das opções de
-      > um menu de contexto, acionado por pedido explícito. A infraestrutura
-      > (JSON curado, mesóclise, fallback Wikcionário) é reaproveitada
-      > inteira; muda só o gatilho.
+      > [!note] Resolvido com o ReaderSelectionMenu (2026-10-16)
+      > O comportamento foi aprimorado para um menu flutuante unificado: a
+      > seleção de texto não dispara mais o glossário compulsoriamente. O leitor
+      > agora conta com `[ Copiar ]` direto, `[ Dicionário ]` sob demanda para
+      > palavras únicas, `[ Criar Card ]` para citações e `[ Grifar ]`.
 - [x] **"Continuar lendo" + progresso por obra** — implementado
       2026-08-23 (`web/src/utils/readingProgress.ts` +
       `ContinueReading.tsx`). localStorage puro, sem contas: posição de

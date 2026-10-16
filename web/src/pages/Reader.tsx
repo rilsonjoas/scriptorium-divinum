@@ -24,7 +24,8 @@ import {
 import { PagedArticle } from '@/components/reader/PagedArticle';
 import { normalizeWord } from '@/utils/glossario';
 import { GlossaryPopover } from '@/components/reader/GlossaryPopover';
-import { QuoteCardDialog, QuoteTriggerPill } from '@/components/reader/QuoteCardDialog';
+import { QuoteCardDialog } from '@/components/reader/QuoteCardDialog';
+import { ReaderSelectionMenu } from '@/components/reader/ReaderSelectionMenu';
 import { AcademicCitationDialog } from '@/components/reader/AcademicCitationDialog';
 import { NotesDrawer } from '@/components/reader/NotesDrawer';
 import { saveHighlight } from '@/utils/readingNotes';
@@ -180,8 +181,10 @@ export default function Reader() {
     word: string;
     anchor: { top: number; bottom: number; left: number };
   } | null>(null);
-  const [cardSelection, setCardSelection] = useState<{
+  const [selectionMenu, setSelectionMenu] = useState<{
     text: string;
+    normalizedWord: string | null;
+    wordCount: number;
     anchor: { top: number; bottom: number; left: number };
   } | null>(null);
   const [cardOpen, setCardOpen] = useState(false);
@@ -408,14 +411,14 @@ export default function Reader() {
   }, [paged, capAtivo]);
 
   const handleHighlightSelection = () => {
-    if (!cardSelection || !data) return;
+    if (!selectionMenu || !data) return;
     saveHighlight({
       bookSlug: data.slug,
-      text: cardSelection.text,
+      text: selectionMenu.text,
       color: 'gold',
     });
     toast.success('Trecho grifado e salvo em suas anotações!');
-    setCardSelection(null);
+    setSelectionMenu(null);
     window.getSelection()?.removeAllRanges();
   };
 
@@ -479,7 +482,7 @@ export default function Reader() {
 
   useEffect(() => {
     setGlossaryQuery(null);
-    setCardSelection(null);
+    setSelectionMenu(null);
     stopSpeech();
   }, [bookId, stopSpeech]);
 
@@ -487,29 +490,29 @@ export default function Reader() {
     const onSelectEnd = () => {
       const sel = window.getSelection();
       if (!sel || sel.isCollapsed || sel.rangeCount === 0) {
-        setGlossaryQuery(q => (q ? (window.getSelection()?.isCollapsed ? null : q) : null));
         return;
       }
       const container = contentRef.current;
       if (!container || !container.contains(sel.anchorNode)) return;
 
       const raw = sel.toString();
-      const word = normalizeWord(raw);
-      if (!word) return;
+      if (!raw || !raw.trim()) return;
 
       const rect = sel.getRangeAt(0).getBoundingClientRect();
       if (!rect.width && !rect.height) return;
       const anchor = { top: rect.top, bottom: rect.bottom, left: rect.left };
 
-      const wordCount = raw.trim().split(/\s+/).length;
-      if (wordCount >= 2 && raw.trim().length <= 800) {
-        setGlossaryQuery(null);
-        setCardSelection({ text: raw, anchor });
-        return;
-      }
-      if (!/\s/.test(word)) {
-        setCardSelection(null);
-        setGlossaryQuery({ word, anchor });
+      const trimmed = raw.trim();
+      const wordCount = trimmed.split(/\s+/).length;
+      const norm = wordCount === 1 ? normalizeWord(trimmed) : null;
+
+      if (trimmed.length <= 1500) {
+        setSelectionMenu({
+          text: raw,
+          normalizedWord: norm,
+          wordCount,
+          anchor,
+        });
       }
     };
     document.addEventListener('mouseup', onSelectEnd);
@@ -887,24 +890,33 @@ export default function Reader() {
           />
         )}
 
-        {cardSelection && !cardOpen && (
-          <QuoteTriggerPill
-            anchor={cardSelection.anchor}
-            onClick={() => setCardOpen(true)}
+        {selectionMenu && !cardOpen && (
+          <ReaderSelectionMenu
+            text={selectionMenu.text}
+            normalizedWord={selectionMenu.normalizedWord}
+            wordCount={selectionMenu.wordCount}
+            anchor={selectionMenu.anchor}
+            onOpenGlossary={(word, anchor) => {
+              setSelectionMenu(null);
+              setGlossaryQuery({ word, anchor });
+            }}
+            onCreateCard={() => {
+              setCardOpen(true);
+            }}
             onHighlight={handleHighlightSelection}
-            onClose={() => setCardSelection(null)}
+            onClose={() => setSelectionMenu(null)}
           />
         )}
 
-        {cardSelection && (
+        {selectionMenu && (
           <QuoteCardDialog
             open={cardOpen}
-            quote={cardSelection.text}
+            quote={selectionMenu.text}
             slug={data?.slug}
             fallbackTitle={data?.title ?? 'Scriptorium Divinum'}
             onClose={() => {
               setCardOpen(false);
-              setCardSelection(null);
+              setSelectionMenu(null);
               window.getSelection()?.removeAllRanges();
             }}
           />

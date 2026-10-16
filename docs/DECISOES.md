@@ -384,3 +384,20 @@ ROADMAP: **conferir o efeito, nunca o log.**
 - Mais de **18.416.260 palavras** registradas no acervo total com a Bíblia e tratados desdobrados.
 - **125 autores** catalogados de forma canônica com dados biográficos e séculos.
 - **100% de integridade:** zero obras com truncamento, marcadores residuais de OCR ou tradução resumida.
+
+---
+
+## 2026-10-16 — Menu de Seleção Unificado e Não Intrusivo no Leitor (ReaderSelectionMenu)
+
+**Entregue** em 2026-10-16.
+
+**Problema:** No leitor (`Reader.tsx`), a seleção de uma única palavra disparava compulsoriamente a abertura do `GlossaryPopover`, sobrepondo o texto e impedindo o fluxo natural de cópia ou seleção. Além disso, a seleção de trechos com múltiplas palavras oferecia ações de criar card ou grifar, mas omitia a ação mais elementar de cópia de texto com feedback acessível.
+
+**Solução:**
+1. Criado o componente `ReaderSelectionMenu` (`web/src/components/reader/ReaderSelectionMenu.tsx`).
+2. A seleção de qualquer trecho agora exibe uma barra flutuante elegante com ações discretas:
+   - `[ Copiar ]`: copia imediatamente para a área de transferência com feedback tátil/visual ("Copiado!").
+   - `[ Dicionário ]`: quando apenas 1 palavra é selecionada, exibe o botão do glossário histórico, mas **só abre se o leitor clicar voluntariamente**.
+   - `[ Criar Card ]`: quando 2 ou mais palavras são selecionadas, abre o diálogo de card tipográfico.
+   - `[ Grifar ]`: salva o trecho nas anotações do leitor.
+3. Testes unitários dedicados em `web/src/components/reader/ReaderSelectionMenu.test.tsx` (162 testes verdes no frontend).
