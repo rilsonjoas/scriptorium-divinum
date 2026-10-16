@@ -18,8 +18,8 @@ Uma biblioteca digital dedicada às obras clássicas da teologia cristã em dom�
 - **🚀 API REST (Fastify + Drizzle)**: base em `https://api-scriptorium.narniano.com` — documentação Scalar em [`/docs`](https://api-scriptorium.narniano.com/docs/) e OpenAPI JSON em [`/docs/json`](https://api-scriptorium.narniano.com/docs/json). Conectado ao Postgres compartilhado.
 - **🗄️ Banco de Dados**: Postgres (`scriptorium_divinum_db`) rodando localmente no VPS com role isolada e segura.
 - **🔄 Backup Integrado**: Backups diários criptografados com `age` e sincronizados via Tailscale.
-- **📖 Leitor Online com Paridade Bilíngue (`/ler/:id`)**: renderiza em markdown as 270 obras em português (`pt-BR`) e 23 grandes monumentos em inglês (`en`). Conta com alternador inteligente de idioma no leitor e na ficha do livro (`relatedEditionSlug`), permitindo a comparação imediata entre o vernáculo e o original.
-- **🏛️ Acervo Histórico Universal**: 294 obras catalogadas, 125 autores canônicos e mais de 18,4 milhões de palavras de literatura cristã clássica (Patrística Grega e Latina, Escolástica Medieval, Reforma Protestante e Avivamento Puritano).
+- **📖 Leitor Online com Paridade Bilíngue (`/ler/:id`)**: renderiza em markdown as obras do acervo: 261 em português (`pt-BR`), 25 em inglês (`en`) e 2 em latim. Conta com alternador inteligente de idioma no leitor e na ficha do livro (`relatedEditionSlug`), permitindo a comparação imediata entre o vernáculo e o original.
+- **🏛️ Acervo Histórico Universal**: 288 obras catalogadas, 106 autores com obra e cerca de 16,7 milhões de palavras de literatura cristã clássica (232 obras são traduções por IA, identificadas como tal e com revisão humana pendente) (Patrística Grega e Latina, Escolástica Medieval, Reforma Protestante e Avivamento Puritano).
 
 ---
 
@@ -29,7 +29,7 @@ Os grandes textos da tradição cristã — Padres da Igreja, reformadores, puri
 
 Cada um administre aos outros o dom como o recebeu — mordomia, aqui, é técnica aplicada a acervo: verificar proveniência obra a obra, publicar só o que é de fato livre, e construir um leitor decente em vez de um PDF escaneado torto. O catálogo não tem filtro de linhagem doutrinária — o critério é domínio público verificável, não afinidade teológica de quem cura.
 
-Hoje é uma primeira obra no ar (as 95 Teses de Lutero, com proveniência documentada) sobre uma base técnica sólida — API própria, busca full-text em português, auditoria de direitos autorais real, não decorativa. A visão é crescer devagar e certo: cada obra nova é permanente e uma página que pode virar a referência em português pra quem busca "Confissões de Agostinho" ou "Institutas de Calvino" — um Project Gutenberg cristão, mas com curadoria e leitor de verdade.
+Hoje são 288 obras no ar, parte delas traduções por IA ainda sem revisão humana (sempre identificadas), sobre uma base técnica sólida — API própria, busca full-text em português, auditoria de direitos autorais real, não decorativa. A visão é crescer devagar e certo: cada obra nova é permanente e uma página que pode virar a referência em português pra quem busca "Confissões de Agostinho" ou "Institutas de Calvino" — um Project Gutenberg cristão, mas com curadoria e leitor de verdade.
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -142,6 +142,24 @@ comprovada obra a obra, em todos os formatos de acesso.
    da Internet (Lei 12.965/14, arts. 19–21) antes de abrir o recurso.
 
 O template de proveniência fica em `server/texts/README.md`.
+
+### Estado real da proveniência (2026-10-16)
+
+A regra 3 acima é a meta; o estado hoje é este, sem arredondar:
+
+- Os **textos originais** são de autores mortos há séculos: sem risco.
+- As **232 traduções por IA** estão marcadas como tal no leitor, com "revisão
+  humana: pendente" e licença CC BY-SA 4.0 (`license_type`, `attribution_text`).
+  A titularidade de uma tradução gerada por IA não é pacífica juridicamente;
+  o selo vale como declaração de intenção, e esse ponto vai ao parecer jurídico.
+- O risco concreto está na **edição-fonte**: a tradução parte de algum texto de
+  entrada, e se esse texto for uma tradução ou edição moderna com direitos, a
+  tradução por IA é obra derivada. Nas obras publicadas em 29/09 a atribuição
+  nomeia a edição-fonte; nas **100 publicadas em 16/10 ela não foi auditada** e
+  a atribuição diz isso expressamente. Auditar obra a obra (qual edição de
+  entrada, e por que está em domínio público) é a pendência número um do acervo.
+- Quem encontrar um erro ou um problema de direitos deve poder avisar, e a obra
+  sai do ar enquanto se apura (`published = false`).
 
 ---
 

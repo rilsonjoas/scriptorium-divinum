@@ -219,9 +219,9 @@ Registrado aqui para não virar culpa de ninguém depois:
 |---|---|
 | **Logo/favicon** | **JÁ ESTAVA FEITO** — commit `52fc4f8` "aplica a logo real do projeto (favicons + header)", com 5 tamanhos (16→64). O ROADMAP descrevia um ícone 82×82 de scaffold que não existe mais: o item é que estava velho, não o favicon. |
 | **Sitemap no Search Console** | Confirmado pelo Rilson em 2026-09-26: `/sitemap.xml` processado, 91 páginas. Fechado. |
-| **Tradução por IA** | Futuro. Sem decisão de modelo e de licença. |
+| **Tradução por IA** | **Decidido na prática em 2026-10-16**: 232 obras já são traduções por IA (CC BY-SA 4.0, com aviso no leitor e "revisão humana: pendente"). O que continua em aberto: modelo/versão registrados por obra, edição-fonte auditada obra a obra e o parecer jurídico sobre a titularidade de tradução gerada por IA. Ver a entrada de 2026-10-16 abaixo. |
 | **Planos de leitura + newsletter** | Futuro. Depende de o acervo amadurecer. |
-| **Comentários bíblicos por capítulo** | Futuro. Escopo grande, sem modelo definido. |
+| **Comentários bíblicos por capítulo** | **Estrutura entregue em 2026-10-16** (tabela, migration, rota). Conteúdo: só Lutero em Gálatas, capítulos 1 a 6. Crisóstomo e Agostinho dependem de dar estrutura (título por homilia/capítulo) aos textos. |
 
 ---
 
@@ -357,33 +357,34 @@ ROADMAP: **conferir o efeito, nunca o log.**
 
 ---
 
-## 2026-10-16 — Paridade Bilíngue (PT-BR e EN) e Alternância Transparente no Leitor e Ficha de Obra
+## 2026-10-16 — Paridade bilíngue (PT-BR e EN) e alternância no leitor e na ficha da obra
 
 **Entregue** em 2026-10-16.
 
-**Contexto:** Com a conclusão da tradução e curadoria integral de 100% das obras clássicas para a língua portuguesa (`pt-BR`), o acervo passou a contar também com 23 monumentos teológicos universais em inglês (`en`) preservados em edições canônicas (ex: as quatro partes da *Suma Teológica*, *Institutas da Religião Cristã*, *A Cidade de Deus*, *Confissões*, *O Descanso Eterno dos Santos*, *Pensamentos de Pascal*, *A Guerra Santa*, etc.).
+**Contexto:** parte das obras tem uma edição em português e outra em inglês. O vínculo é o campo `related_edition_slug` (já exposto no schema Drizzle, no serializer Fastify e na API de livros).
 
-**Problema:** Leitores, pesquisadores e seminaristas necessitam transitar com facilidade entre a tradução em vernáculo e o texto fonte em língua inglesa para checagem exegética ou leitura no original.
+**Problema:** quem estuda precisa passar da tradução ao texto em inglês para conferir uma passagem.
 
 **Solução:**
-1. **Banco de Dados & Seeds:** O relacionamento bidirecional foi modelado através do campo canônico `related_edition_slug` (já exposto nas três camadas: Drizzle schema, Fastify serializer e Book API). O script `server/src/db/seeds/add_catalogo_universal_2026.sql` vincula 45 pares recíprocos de obras.
-2. **Ficha da Obra (`LivroDetalhes.tsx`):** Exibe um botão contextual e nobre: `[ 🇬🇧 Ver Edição Original em Inglês (EN) ]` ou `[ 🇧🇷 Ver Edição em Português (pt-BR) ]`.
-3. **Leitor Online (`Reader.tsx`):** No cabeçalho de navegação, ao lado do título, foi inserido um botão compacto com ícone de idiomas e bandeira (`[ 🇬🇧 Ler em EN ]` / `[ 🇧🇷 Ler em PT ]`), permitindo que o leitor alterne imediatamente de idioma mantendo-se em fluxo contínuo de leitura.
+1. **Ficha da obra (`LivroDetalhes.tsx`):** botão para a edição correspondente (`Ver edição original em inglês` ou `Ver edição em português`).
+2. **Leitor (`Reader.tsx`):** botão compacto no cabeçalho (`Ler em EN` / `Ler em PT`), sem sair do fluxo de leitura.
+3. **Vínculos:** feitos em segunda fase no seed do catálogo, sempre nos dois sentidos e sem sobrescrever vínculo que já existe. Depois do deploy de 2026-10-16 são 40 vínculos.
+
+**Correção de 2026-10-16 (revisão antes do deploy):** a versão anterior desta entrada falava em "100% das obras em português" e em 45 pares. O seed original falhava ao aplicar porque ligava edições antes de a obra existir; ver a entrada "Revisão do catálogo antes do deploy".
 
 ---
 
-## 2026-10-16 — Consolidação Integral do Catálogo Universal (294 Obras, 125 Autores e 18,4M de palavras)
+## 2026-10-16 — Consolidação do catálogo (números medidos)
 
-**Entregue** em 2026-10-16.
+**Entregue** em 2026-10-16, depois da revisão descrita abaixo.
 
-**Conquista:** Conclusão de 72 lotes sucessivos de auditoria e tradução de textos clássicos integrais (Patrística Grega e Latina, Escolástica Medieval, Reforma Magisterial, Avivamento Puritano e Espiritualidade Clássica).
+**Números do acervo após o deploy** (medidos num ensaio contra cópia da produção, não estimados):
+- **288 obras**: 261 em português, 25 em inglês (23 `Inglês` + 2 `English`, rótulo a unificar) e 2 em latim.
+- **232 traduções por IA** (CC BY-SA 4.0, revisão humana pendente); as outras 56 são textos de edições antigas ou originais em português, em domínio público.
+- **106 autores com obra** (107 cadastrados; 1 sem obra).
+- **~16,7 milhões de palavras** nos 281 arquivos que o catálogo serve (4 obras ainda sem arquivo).
 
-**Números do Corpus:**
-- **270 obras** categoricamente em língua portuguesa com texto completo disponível.
-- **23 monumentos** em língua inglesa para paridade bilíngue.
-- Mais de **18.416.260 palavras** registradas no acervo total com a Bíblia e tratados desdobrados.
-- **125 autores** catalogados de forma canônica com dados biográficos e séculos.
-- **100% de integridade:** zero obras com truncamento, marcadores residuais de OCR ou tradução resumida.
+**O que a versão anterior desta entrada afirmava e não era verdade:** "270 obras em português", "125 autores com dados biográficos", "18,4 milhões de palavras" e "100% de integridade: zero obras com truncamento, marcadores residuais de OCR ou tradução resumida". A medição mecânica achou, entre os textos alterados: trechos inteiros em inglês (`tratado-sobre-as-reliquias-calvino`, `apologia-da-confissao-de-augsburgo`, `suma-teologica-segunda-parte-da-segunda-parte`, `breve-catecismo-westminster`), números de nota de rodapé soltos (`[3798]`) em obras como Irineu e Cassiano, e 28 textos longos sem título algum (o sumário do leitor fica vazio). Isso não bloqueia o deploy, mas precisa ficar visível em vez de escondido atrás de "100%".
 
 ---
 
@@ -404,18 +405,37 @@ ROADMAP: **conferir o efeito, nunca o log.**
 
 ---
 
-## 2026-10-16 — Comentários Bíblicos Clássicos Indexados por Livro e Capítulo (API & Seeds)
+## 2026-10-16 — Comentários bíblicos indexados por livro e capítulo (API e seeds)
 
-**Entregue** em 2026-10-16.
+**Entregue** em 2026-10-16, com escopo reduzido na revisão.
 
-**Contexto:** O ecossistema "A Biblioteca" (Scriptorium Divinum, Lecionário, Bíblia na Arte) necessitava de uma forma estruturada para correlacionar leituras bíblicas diárias e dominicais com a exegese clássica dos Padres da Igreja e Reformadores, superando a busca simples por palavra-chave.
+**Contexto:** o ecossistema "A Biblioteca" (Scriptorium Divinum, Lecionário, Bíblia na Arte) precisava de uma forma estruturada de ligar as leituras do dia à exegese clássica, no lugar da busca por palavra-chave.
 
 **Solução:**
-1. **Schema Drizzle (`biblical_commentaries`):**
-   - Tabela indexada por `(bible_book, chapter)` e chave estrangeira em cascata para `books(id)`.
-   - Campos: `bibleBook`, `chapter`, `verseStart`, `verseEnd`, `title`, `excerpt`, `anchorUrl` e relação Drizzle `biblicalCommentariesRelations`.
-2. **Endpoint REST Fastify (`/api/v1/commentaries`):**
-   - Aceita filtros tipados via Zod: `bibleBook` (ex.: `galatas`, `mateus`, `efesios`), `chapter` e `limit`.
-   - Serialização estrita via schema JSON no Fastify para documentação OpenAPI/Scalar em `/docs`.
-3. **Povoamento Canônico (`seeds/add_comentarios_biblicos_2026.sql`):**
-   - Indexadas as homilias patrísticas e exposições reformadas de Gálatas (Lutero e Crisóstomo), Mateus 5-7 (Sermão da Montanha de Crisóstomo), Efésios, Filipenses, Colossenses e 1 João (Agostinho), com links âncora diretos para o leitor online.
+1. **Tabela `biblical_commentaries`**, criada pela **migration 0008** (antes só existia por seed e o Drizzle não a conhecia): indexada por `(bible_book, chapter)`, FK em cascata para `books(id)`.
+2. **Rota `GET /api/v1/commentaries?bibleBook=&chapter=&limit=`**, com validação Zod e documentação em `/docs`. Não devolve comentário de obra despublicada.
+3. **Conteúdo: só o verificável.** O seed traz **Lutero, Comentário aos Gálatas, capítulos 1 a 6**, no slug já publicado (`comentario-aos-galatas-lutero`): o arquivo tem `# Capítulo I` a `# Capítulo VI`, que correspondem aos capítulos da epístola. Sem `excerpt`: não há resumo verificado a exibir.
+
+**O que ficou de fora, e por quê:** Crisóstomo (Gálatas, Efésios, Filipenses, Colossenses, Sermão da Montanha) e Agostinho (1 João). Os textos não têm título por capítulo nem por homilia, e as homilias não seguem a divisão da Bíblia (24 homilias para os 6 capítulos de Efésios), então a correspondência não era verificável. O seed anterior também usava âncoras (`#capitulo-1`, `#homilia-15`) que não existiam, resumos idênticos para todos os capítulos e um slug de Agostinho que não existe. Essas linhas voltam quando o texto tiver estrutura.
+
+**Limite conhecido:** o leitor não lê o `#hash` da URL, então o link leva à obra, não ao capítulo. Suportar isso mexe na lógica de retomar leitura e precisa de teste no navegador.
+
+---
+
+## 2026-10-16 — Revisão do catálogo antes do deploy
+
+**Contexto:** os três commits locais da semana (acervo traduzido por IA, menu de seleção, comentários) foram revisados e ensaiados contra uma cópia da produção antes de subir.
+
+**O que o ensaio achou no seed do catálogo** (`add_catalogo_universal_2026.sql`):
+- **Falhava ao aplicar** (violação da FK `related_edition_slug`) e, no `migrate`, derrubava em cascata os 103 seeds que vêm depois dele na ordem alfabética (o catálogo é o 39º de 142), e o script ainda imprimia "concluídos com sucesso" com saída 0.
+- **Alteraria 152 obras já publicadas**: 147 títulos e 9 idiomas, 8 em português marcados "Inglês" e 1 em inglês marcado "Português".
+- **Criaria 72 autores, 36 deles com nome de título ou de cabeçalho** (`# Compêndio de Teologia`) e 17 duplicados, todos com a mesma biografia genérica.
+- **Duplicava 21 obras que já existem** (mesmo arquivo, mesmo conteúdo, ou partes de obra que já está inteira).
+- Marcava as 294 como tradução por IA e domínio público, descrevia como "anotada" uma edição sem anotações e usava `Latim` como língua original de 263 obras.
+
+**O que mudou:** `migrate.ts` faz ROLLBACK ao falhar e sai com 1; o seed só insere (`DO NOTHING`), em duas fases para os vínculos, com idioma medido no texto, IA/licença/atribuição coerentes e o título original no campo próprio; 6 autores novos, sem biografia nem datas inventadas; `deploy.yml` com `set -e` e falha do migrate derrubando o deploy. **Resultado:** 100 obras novas, 0 das 188 publicadas alteradas, `migrate` duas vezes com exit 0.
+
+**Decisões registradas:**
+- **Licença das traduções por IA: CC BY-SA 4.0**, a mesma das 132 já publicadas. Texto original em domínio público é marcado como tal. Risco assumido e a levar ao jurídico: a titularidade de tradução gerada por IA não é pacífica, então o selo vale como declaração de intenção, e o risco maior é a **edição-fonte** (se foi uma tradução ou edição moderna com direitos), que nas 100 novas **não foi auditada** e está dita assim na atribuição.
+- **Segurado fora deste deploy** por terem trechos em inglês: `apologia-da-confissao-de-augsburgo` (13%) e `suma-teologica-segunda-parte-da-segunda-parte` (bloco de ~22 mil palavras). Entram quando forem traduzidos por inteiro.
+- **Pendente de decisão do autor:** `tratado-sobre-as-reliquias-calvino` está estruturalmente corrompido (parágrafos em inglês da dissertação do editor intercalados fora de ordem com o texto de Calvino, e um catálogo do editor misturado). A versão em produção era pior; a nova melhora, mas não resolve. Recomendação: despublicar até reprocessar a partir da fonte.

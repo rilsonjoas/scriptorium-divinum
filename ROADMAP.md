@@ -1055,11 +1055,11 @@ afiliado agora, anúncio (AdSense) fica pra depois.**
       ele e está me parecendo bem feito"). Fica registrado aqui para a
       próxima leitura do roadmap não repetir o diagnóstico errado.
 
-- [x] **Estrutura de dado e endpoint de comentários bíblicos indexados** — ✅ ENTREGUE 2026-10-16
-      Tabela `biblical_commentaries` (`bible_book`, `chapter`, `verse_start`, `anchor_url`),
-      queries Drizzle e rota `GET /api/v1/commentaries?bibleBook=&chapter=`.
-      Povoado com comentários canônicos de Gálatas (Lutero e Crisóstomo), Mateus 5-7 (Crisóstomo),
-      Efésios, Filipenses, Colossenses e 1 João (Agostinho) via `server/src/db/seeds/add_comentarios_biblicos_2026.sql`.
+- [x] **Estrutura de dado e endpoint de comentários bíblicos indexados** — ✅ ENTREGUE 2026-10-16 (escopo reduzido na revisão)
+      Tabela `biblical_commentaries` (migration 0008), queries Drizzle e rota
+      `GET /api/v1/commentaries?bibleBook=&chapter=`. Conteúdo verificável hoje:
+      **Lutero em Gálatas, capítulos 1 a 6** (`add_comentarios_biblicos_2026.sql`).
+      Crisóstomo e Agostinho aguardam estrutura nos textos (ver item 18).
 - [ ] Integração no Lecionário: conectar a rota `/api/v1/commentaries` do Scriptorium às leituras diárias.
 
 ### "Leia mais sobre isso" (busca simples) — já registrado
@@ -2336,13 +2336,29 @@ Transformar o frontend do Scriptorium Divinum na principal referência lusófona
 
 ---
 
-## 🏛️ Item 18: Acervo Integral 100% em Português, Catálogo Universal e Paridade Bilíngue (PT-EN) — ✅ ENTREGUE 2026-10-16
+## 🏛️ Item 18: Catálogo universal, paridade bilíngue e revisão antes do deploy — ✅ ENTREGUE 2026-10-16 (com ressalvas)
 
-### 1. Conquistas & Escopo Entregue
-- **100% das Obras em Português:** Auditoria completa e encerramento dos 72 lotes de tradução e curadoria. Todas as 270 obras do cânon clássico estão categoricamente disponíveis em `pt-BR` de forma integral (mais de 18.416.260 palavras de corpus bíblico e patrístico/clássico).
-- **Paridade Bilíngue com Monumentos em Inglês:** 23 grandes monumentos da fé cristã preservados em língua inglesa (`en`) com vínculo bidirecional explícito (`related_edition_slug`) via `add_catalogo_universal_2026.sql`.
-- **Alternador Bilíngue no Frontend:**
-  - `web/src/pages/LivroDetalhes.tsx`: botão de acesso direto à edição correspondente (`[ 🇬🇧 Ver Edição Original em Inglês (EN) ]` ou `[ 🇧🇷 Ver Edição em Português (pt-BR) ]`).
-  - `web/src/pages/Reader.tsx`: alternador rápido e compacto no topo da barra de leitura (`[ 🇬🇧 Ler em EN ]` / `[ 🇧🇷 Ler em PT ]`), permitindo comparação sem sair do leitor.
-- **Catálogo Universal SQL:** Script universal em `scripts/add_catalogo_universal_2026.sql` e sincronizado com `server/src/db/seeds/add_catalogo_universal_2026.sql` para auto-migração na VPS com 294 obras e 125 autores.
-- **Qualidade & Testes:** 183 testes verdes (158 web + 25 server) e builds de produção Vite + TypeScript 100% validados.
+### 1. O que foi entregue (números medidos num ensaio contra cópia da produção)
+- **288 obras no ar** (261 em português, 25 em inglês, 2 em latim), **106 autores com obra**, ~16,7 milhões de palavras servidas. 232 são traduções por IA, identificadas no leitor, com revisão humana pendente.
+- **Vínculos entre edições (`related_edition_slug`)**: 40, sempre nos dois sentidos, ligados numa segunda fase do seed.
+- **Alternador de idioma** na ficha da obra (`LivroDetalhes.tsx`) e no leitor (`Reader.tsx`).
+- **Catálogo universal revisado** (`add_catalogo_universal_2026.sql`, copiado em `scripts/` e `server/src/db/seeds/`): só insere obras novas (`DO NOTHING`); 100 entram; 21 repetidas ficam de fora; nenhuma das 188 já publicadas é alterada.
+- **Migration 0008** cria `biblical_commentaries`; a rota `/api/v1/commentaries` não devolve obra despublicada.
+- **`migrate.ts`** faz ROLLBACK ao falhar um seed e sai com 1; o `deploy.yml` tem `set -e` e a falha do migrate derruba o deploy.
+- **Testes:** 162 web + 25 server (unitários) + 55 de integração contra banco vazio.
+
+### 2. O que a primeira versão deste item afirmava e não era verdade
+"100% em português", "270 obras", "294 obras e 125 autores", "18,4 milhões de palavras" e "zero obras com truncamento ou tradução resumida". A medição achou texto em inglês dentro de obras "traduzidas", números de nota de rodapé soltos e 28 textos longos sem título. Detalhes e decisões em `docs/DECISOES.md` (entrada "Revisão do catálogo antes do deploy").
+
+### 3. Pendências do acervo, em ordem
+- [ ] **Proveniência obra a obra** das 100 publicadas em 16/10: qual edição entrou na tradução e por que é domínio público (regra 3 do README). Parecer jurídico sobre tradução gerada por IA.
+- [ ] **Traduzir por inteiro** `apologia-da-confissao-de-augsburgo` (13% em inglês) e `suma-teologica-segunda-parte-da-segunda-parte` (bloco de ~22 mil palavras); hoje fora do catálogo. Mesmo trabalho em `breve-catecismo-westminster` (37% em inglês, já publicado).
+- [ ] **`tratado-sobre-as-reliquias-calvino`**: arquivo corrompido (inglês intercalado fora de ordem com o texto de Calvino e um catálogo do editor). Reprocessar a partir da fonte; até lá, avaliar despublicar.
+- [ ] **Notas de rodapé soltas** (`[3798]`) em Irineu, Cassiano, Hipólito, Hermas: ligar à nota ou remover.
+- [ ] **28 textos longos sem título** (sumário vazio no leitor): dar estrutura (título por capítulo ou homilia). Isso também destrava mais comentários bíblicos (Crisóstomo, Agostinho).
+- [ ] **Ano e língua originais** nas 100 novas (hoje vazios em quase todas): preencher com fonte, não por estimativa.
+- [ ] **Unificar o rótulo de idioma** (`Inglês` × `English`, 2 obras) e a duplicata de autores já existente em produção (`agostinho-de-hipona` e `santo-agostinho`, `joao-crisostomo` e `sao-joao-crisostomo` etc.).
+- [ ] **Leitor: `#hash` da URL** para abrir direto no capítulo (hoje o link de comentário leva à obra).
+- [ ] **21 arquivos de texto duplicados** continuam em `server/texts/` sem catálogo; remover depois de confirmado o deploy.
+- [ ] **Proslogion:** o texto publicado tem 2.353 palavras e a versão nova 9.765; decidir se a nova substitui o conteúdo sob o slug `proslogion`.
+
