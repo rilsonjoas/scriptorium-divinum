@@ -5,6 +5,7 @@ import { ArrowLeft, Clock, Languages, List, Loader2, ScrollText, Sparkles } from
 import { Link, useParams } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import { EdicaoFicha } from '@/components/reader/EdicaoFicha';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import type { ReactNode, TouchEvent as ReactTouchEvent } from 'react';
 import { useBookText, useBook } from '@/hooks/useDatabase';
@@ -140,7 +141,7 @@ export default function Reader() {
   const [foco, setFoco] = useState(false);
   // barra flutuante: no celular, tocar no meio do texto mostra/esconde
   const [barraVisivel, setBarraVisivel] = useState(true);
-  const fichaRef = useRef<HTMLElement>(null);
+  const fichaRef = useRef<HTMLDivElement>(null);
   const [citationOpen, setCitationOpen] = useState(false);
   const [notesOpen, setNotesOpen] = useState(false);
   const contentRef = useRef<HTMLDivElement>(null);
@@ -812,24 +813,17 @@ export default function Reader() {
           </Card>
         </div>
 
-        {/* Dados da obra: abaixo do leitor, fora do texto (decisão de 2026-09-29) */}
-        {parsed.provenance && (
-          <section
-            ref={fichaRef}
-            id="ficha-da-obra"
-            aria-labelledby="ficha-da-obra-titulo"
-            className="mx-auto mt-10 max-w-3xl scroll-mt-24 rounded-lg border border-library-bronze/40 bg-library-parchment-surface/60 p-5 md:p-6"
-          >
-            <h2 id="ficha-da-obra-titulo" className="font-heading text-xl text-library-wood-foreground mb-3">
-              Sobre esta edição
-            </h2>
-            <div className="prose prose-sm prose-leitor max-w-none text-library-bronze-foreground">
-              <ReactMarkdown remarkPlugins={[remarkGfm]}>{parsed.provenance.replace(/^#\s*Proveniência\s*/i, '')}</ReactMarkdown>
-            </div>
-            <Link to={backToBook} className="mt-3 inline-block font-body text-sm text-library-bronze-foreground underline underline-offset-2 hover:text-library-wood-foreground">
-              Ver a página da obra
-            </Link>
-          </section>
+        {/* Dados da obra: abaixo do leitor, fora do texto (decisão de 2026-09-29).
+            Os blocos técnicos vêm do banco; o ensaio de abertura do arquivo fica
+            recolhido quando é tradução por IA sem revisão (EdicaoFicha). */}
+        {(parsed.provenance || bookDetails) && (
+          <div ref={fichaRef}>
+            <EdicaoFicha
+              book={bookDetails}
+              contexto={parsed.provenance ? parsed.provenance.replace(/^#\s*Proveniência\s*/i, '') : null}
+              linkObra={backToBook}
+            />
+          </div>
         )}
 
         <ReaderBar
