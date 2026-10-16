@@ -11,8 +11,7 @@ VALUES (
   'Patriarca de Alexandria, Doutor da Igreja e campeão do Concílio Ecumênico de Éfeso (c. 376–444 d.C.), defensor intrépido da união hipostática de Cristo e do dogma da Theotokos.',
   ARRAY['Patrística', 'Cristologia Alexandrina', 'Concílios Ecumênicos', 'Ortodoxia']
 )
-ON CONFLICT (slug) DO UPDATE SET
-  bio_summary = EXCLUDED.bio_summary;
+ON CONFLICT (slug) DO NOTHING;
 
 INSERT INTO books (
   title, author_id, language, description, slug, original_title,
@@ -42,10 +41,6 @@ VALUES (
   'cc-by-sa-4.0',
   'Tradução gerada por IA a partir do texto crítico de Éfeso em domínio público. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
-ON CONFLICT (slug) DO UPDATE SET
-  online_read_path = EXCLUDED.online_read_path,
-  attribution_text = EXCLUDED.attribution_text,
-  description = EXCLUDED.description,
-  published = true;
+ON CONFLICT (slug) DO NOTHING;
 
 COMMIT;

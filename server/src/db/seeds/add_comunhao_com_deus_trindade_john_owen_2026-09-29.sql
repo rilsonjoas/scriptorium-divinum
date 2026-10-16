@@ -8,11 +8,7 @@ VALUES (
   'Chanceler da Universidade de Oxford e teólogo puritano (1616–1683), cognominado o ''Príncipe dos Puritanos'' pela vastidão teológica e profundidade espiritual.',
   ARRAY['Puritanismo', 'Tradição Reformada', 'Teologia Sistemática']::text[]
 )
-ON CONFLICT (slug) DO UPDATE
-SET name = EXCLUDED.name,
-    bio_summary = EXCLUDED.bio_summary,
-    denomination_or_tradition = EXCLUDED.denomination_or_tradition,
-    updated_at = NOW();
+ON CONFLICT (slug) DO NOTHING;
 
 INSERT INTO books (
   title, author_id, language, description, slug,
@@ -43,13 +39,6 @@ SELECT
   'Tradução sob licença Creative Commons Atribuição-CompartilhaIgual 4.0 Internacional (CC BY-SA 4.0).'
 FROM authors a
 WHERE a.slug = 'john-owen'
-ON CONFLICT (slug) DO UPDATE
-SET title = EXCLUDED.title,
-  description = EXCLUDED.description,
-  categories = EXCLUDED.categories,
-  tags = EXCLUDED.tags,
-  online_read_path = EXCLUDED.online_read_path,
-  published = EXCLUDED.published,
-  updated_at = NOW();
+ON CONFLICT (slug) DO NOTHING;
 
 COMMIT;

@@ -11,9 +11,7 @@ VALUES (
   'Arcebispo de Constantinopla, Doutor da Igreja e um dos quatro grandes Padres do Oriente (c. 347–407 d.C.), cognominado Crisóstomo ("Boca de Ouro") por sua incomparável pregação evangélica e exegese bíblica límpida.',
   ARRAY['Patrística', 'Ortodoxia Oriental', 'Igreja Antiga', 'Teologia Pastoral']
 )
-ON CONFLICT (slug) DO UPDATE SET
-  bio_summary = EXCLUDED.bio_summary,
-  name = EXCLUDED.name;
+ON CONFLICT (slug) DO NOTHING;
 
 INSERT INTO books (
   title, author_id, language, description, slug, original_title,
@@ -43,10 +41,6 @@ VALUES (
   'cc-by-sa-4.0',
   'Tradução gerada por IA a partir da Patrologia Graeca (PG 50). Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
-ON CONFLICT (slug) DO UPDATE SET
-  online_read_path = EXCLUDED.online_read_path,
-  attribution_text = EXCLUDED.attribution_text,
-  description = EXCLUDED.description,
-  published = true;
+ON CONFLICT (slug) DO NOTHING;
 
 COMMIT;

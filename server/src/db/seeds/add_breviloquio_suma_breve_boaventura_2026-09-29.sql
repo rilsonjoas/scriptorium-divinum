@@ -8,11 +8,7 @@ VALUES (
   'Doutor Seráfico, cardeal e ministro geral dos Franciscanos (1221–1274), luminar da teologia mística e escolástica medieval.',
   ARRAY['Escolástica', 'Mística Medieval', 'Franciscanos']::text[]
 )
-ON CONFLICT (slug) DO UPDATE
-SET name = EXCLUDED.name,
-    bio_summary = EXCLUDED.bio_summary,
-    denomination_or_tradition = EXCLUDED.denomination_or_tradition,
-    updated_at = NOW();
+ON CONFLICT (slug) DO NOTHING;
 
 INSERT INTO books (
   title, author_id, language, description, slug,
@@ -43,13 +39,6 @@ SELECT
   'Tradução sob licença Creative Commons Atribuição-CompartilhaIgual 4.0 Internacional (CC BY-SA 4.0).'
 FROM authors a
 WHERE a.slug = 'sao-boaventura'
-ON CONFLICT (slug) DO UPDATE
-SET title = EXCLUDED.title,
-  description = EXCLUDED.description,
-  categories = EXCLUDED.categories,
-  tags = EXCLUDED.tags,
-  online_read_path = EXCLUDED.online_read_path,
-  published = EXCLUDED.published,
-  updated_at = NOW();
+ON CONFLICT (slug) DO NOTHING;
 
 COMMIT;

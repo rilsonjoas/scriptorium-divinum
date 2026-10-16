@@ -8,11 +8,7 @@ VALUES (
   'Pároco de Bemerton, teólogo e poeta sacro anglicano (1593–1633), autor do clássico pastoral ''The Country Parson'' e de ''The Temple''.',
   ARRAY['Tradição Anglicana', 'Cura Pastoral', 'Poetas Metafísicos']::text[]
 )
-ON CONFLICT (slug) DO UPDATE
-SET name = EXCLUDED.name,
-    bio_summary = EXCLUDED.bio_summary,
-    denomination_or_tradition = EXCLUDED.denomination_or_tradition,
-    updated_at = NOW();
+ON CONFLICT (slug) DO NOTHING;
 
 INSERT INTO books (
   title, author_id, language, description, slug,
@@ -43,13 +39,6 @@ SELECT
   'Tradução sob licença Creative Commons Atribuição-CompartilhaIgual 4.0 Internacional (CC BY-SA 4.0).'
 FROM authors a
 WHERE a.slug = 'george-herbert'
-ON CONFLICT (slug) DO UPDATE
-SET title = EXCLUDED.title,
-  description = EXCLUDED.description,
-  categories = EXCLUDED.categories,
-  tags = EXCLUDED.tags,
-  online_read_path = EXCLUDED.online_read_path,
-  published = EXCLUDED.published,
-  updated_at = NOW();
+ON CONFLICT (slug) DO NOTHING;
 
 COMMIT;

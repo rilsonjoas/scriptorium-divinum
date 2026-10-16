@@ -11,8 +11,7 @@ VALUES (
   'Bispo de Nissa, teólogo, místico e Padre Capadócio (c. 335–395 d.C.), irmão mais novo de São Basílio Magno e amigo íntimo de São Gregório de Nazianzo. Considerado o maior pensador especulativo e o pai da teologia mística cristã oriental, Gregório de Nissa formulou a doutrina do progresso espiritual infinito (epektasis) e da união mística com Deus nas trevas luminosas da fé.',
   ARRAY['Patrística Grega', 'Padres Capadócios', 'Teologia Mística', 'Espiritualidade Cristã']
 )
-ON CONFLICT (slug) DO UPDATE SET
-  bio_summary = EXCLUDED.bio_summary;
+ON CONFLICT (slug) DO NOTHING;
 
 INSERT INTO books (
   title, author_id, language, description, slug, original_title,
@@ -42,9 +41,6 @@ VALUES (
   'cc-by-sa-4.0',
   'Tradução gerada por IA a partir da edição crítica de W. Jaeger e Sources Chrétiennes (SC 1bis). Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
-ON CONFLICT (slug) DO UPDATE SET
-  online_read_path = EXCLUDED.online_read_path,
-  attribution_text = EXCLUDED.attribution_text,
-  description = EXCLUDED.description;
+ON CONFLICT (slug) DO NOTHING;
 
 COMMIT;

@@ -11,8 +11,7 @@ VALUES (
   'Filósofo ateniense cristão e apologista do século II (c. 133–190 d.C.), autor de uma das mais nobres e filosóficas defesas do cristianismo antigo endereçada ao imperador Marco Aurélio.',
   ARRAY['Patrística', 'Apologética Antiga', 'Filosofia Cristã', 'Igreja Antiga']
 )
-ON CONFLICT (slug) DO UPDATE SET
-  bio_summary = EXCLUDED.bio_summary;
+ON CONFLICT (slug) DO NOTHING;
 
 INSERT INTO books (
   title, author_id, language, description, slug, original_title,
@@ -42,10 +41,6 @@ VALUES (
   'cc-by-sa-4.0',
   'Tradução gerada por IA a partir de Sources Chrétiennes (SC 379). Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
-ON CONFLICT (slug) DO UPDATE SET
-  online_read_path = EXCLUDED.online_read_path,
-  attribution_text = EXCLUDED.attribution_text,
-  description = EXCLUDED.description,
-  published = true;
+ON CONFLICT (slug) DO NOTHING;
 
 COMMIT;

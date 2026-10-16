@@ -11,8 +11,7 @@ VALUES (
   'Pregador puritano inglês (1628–1688), imortal autor de O Peregrino, Graça Abundante e A Guerra Santa, uma das alegorias mais vívidas da teologia bíblica da redenção e do combate espiritual.',
   ARRAY['Puritanismo', 'Tradição Reformada', 'Alegoria Bíblica', 'Vida Cristã']
 )
-ON CONFLICT (slug) DO UPDATE SET
-  bio_summary = EXCLUDED.bio_summary;
+ON CONFLICT (slug) DO NOTHING;
 
 INSERT INTO books (
   title, author_id, language, description, slug, original_title,
@@ -42,10 +41,6 @@ VALUES (
   'cc-by-sa-4.0',
   'Tradução gerada por IA a partir da edição de George Offor em domínio público. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
-ON CONFLICT (slug) DO UPDATE SET
-  online_read_path = EXCLUDED.online_read_path,
-  attribution_text = EXCLUDED.attribution_text,
-  description = EXCLUDED.description,
-  published = true;
+ON CONFLICT (slug) DO NOTHING;
 
 COMMIT;

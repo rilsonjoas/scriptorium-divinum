@@ -11,8 +11,7 @@ VALUES (
   'Frade dominicano, teólogo e célebre escritor espiritual espanhol (1504–1588), autor de Guia de Pecadores, uma das obras devocionais mais lidas e traduzidas de toda a Europa renascentista.',
   ARRAY['Espiritualidade Dominicana', 'Mística Espanhola', 'Teologia Pastoral']
 )
-ON CONFLICT (slug) DO UPDATE SET
-  bio_summary = EXCLUDED.bio_summary;
+ON CONFLICT (slug) DO NOTHING;
 
 INSERT INTO books (
   title, author_id, language, description, slug, original_title,
@@ -42,10 +41,6 @@ VALUES (
   'cc-by-sa-4.0',
   'Tradução gerada por IA a partir da edição clássica em domínio público. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
-ON CONFLICT (slug) DO UPDATE SET
-  online_read_path = EXCLUDED.online_read_path,
-  attribution_text = EXCLUDED.attribution_text,
-  description = EXCLUDED.description,
-  published = true;
+ON CONFLICT (slug) DO NOTHING;
 
 COMMIT;

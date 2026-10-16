@@ -11,8 +11,7 @@ VALUES (
   'Eremita agostiniano português e místico (1529–1582), cativo em Marrocos após Alcácer-Quibir, autor de Trabalhos de Jesus, uma das obras mais comoventes da literatura espiritual e clássica da língua portuguesa.',
   ARRAY['Mística Agostiniana', 'Literatura Espiritual Portuguesa', 'Devoção à Cruz']
 )
-ON CONFLICT (slug) DO UPDATE SET
-  bio_summary = EXCLUDED.bio_summary;
+ON CONFLICT (slug) DO NOTHING;
 
 INSERT INTO books (
   title, author_id, language, description, slug, original_title,
@@ -42,10 +41,6 @@ VALUES (
   'public-domain',
   'Edição fidedigna do texto quinhentista clássico em domínio público. Scriptorium Divinum, 2026.'
 )
-ON CONFLICT (slug) DO UPDATE SET
-  online_read_path = EXCLUDED.online_read_path,
-  attribution_text = EXCLUDED.attribution_text,
-  description = EXCLUDED.description,
-  published = true;
+ON CONFLICT (slug) DO NOTHING;
 
 COMMIT;

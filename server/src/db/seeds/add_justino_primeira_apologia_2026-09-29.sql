@@ -11,8 +11,7 @@ VALUES (
   'Filósofo, apologista e mártir cristão da Igreja primitiva (c. 100–165 d.C.), natural da Samaria. Após percorrer as principais escolas filosóficas greco-romanas (estoicismo, aristotelismo, pitagorismo e platonismo), encontrou no Evangelho a "única filosofia segura e proveitosa". Fundou em Roma uma escola cristã e endereçou suas célebres Apologias aos imperadores romanos, formulando a doutrina do Logos Spermatikos e legando à posteridade o mais antigo testemunho da liturgia batismal e eucarística da cristandade antiga.',
   ARRAY['Patrística Grega', 'Apologistas do Século II', 'Filosofia Cristã', 'Mártires da Igreja']
 )
-ON CONFLICT (slug) DO UPDATE SET
-  bio_summary = EXCLUDED.bio_summary;
+ON CONFLICT (slug) DO NOTHING;
 
 INSERT INTO books (
   title, author_id, language, description, slug, original_title,
@@ -42,9 +41,6 @@ VALUES (
   'cc-by-sa-4.0',
   'Tradução gerada por IA a partir da edição crítica de E. J. Goodspeed e Sources Chrétiennes (SC 507). Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
-ON CONFLICT (slug) DO UPDATE SET
-  online_read_path = EXCLUDED.online_read_path,
-  attribution_text = EXCLUDED.attribution_text,
-  description = EXCLUDED.description;
+ON CONFLICT (slug) DO NOTHING;
 
 COMMIT;

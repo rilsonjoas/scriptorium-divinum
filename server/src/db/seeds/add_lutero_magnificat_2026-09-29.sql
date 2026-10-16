@@ -11,8 +11,7 @@ VALUES (
   'Monge agostiniano, teólogo, professor bíblico e principal líder da Reforma Protestante do século XVI (1483–1546), em Wittenberg. Sua redescoberta da justificação pela fé somente (sola fide) transformou a história do cristianismo. Autor prolífico, compôs as 95 Teses, os catecismos Maior e Menor, o tratado Da Liberdade do Cristão e o magistral comentário lírico-devocional ao Magnificat (1521).',
   ARRAY['Reforma Protestante', 'Luteranismo', 'Teologia Bíblica', 'Devocional']
 )
-ON CONFLICT (slug) DO UPDATE SET
-  bio_summary = EXCLUDED.bio_summary;
+ON CONFLICT (slug) DO NOTHING;
 
 INSERT INTO books (
   title, author_id, language, description, slug, original_title,
@@ -42,9 +41,6 @@ VALUES (
   'cc-by-sa-4.0',
   'Tradução gerada por IA a partir da Weimarer Ausgabe (WA 7). Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
-ON CONFLICT (slug) DO UPDATE SET
-  online_read_path = EXCLUDED.online_read_path,
-  attribution_text = EXCLUDED.attribution_text,
-  description = EXCLUDED.description;
+ON CONFLICT (slug) DO NOTHING;
 
 COMMIT;

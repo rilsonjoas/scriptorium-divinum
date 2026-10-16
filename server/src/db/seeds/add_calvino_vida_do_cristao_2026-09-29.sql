@@ -11,8 +11,7 @@ VALUES (
   'Teólogo reformador francês, pastor em Genebra e jurista (1509–1564). Uma das figuras mais lúcidas e influentes de toda a história cristã, Calvino sistematizou a teologia bíblica reformada em sua monumental obra "Institutas da Religião Cristã" e em seus profundos comentários bíblicos. O tratado "A Vida do Cristão" (extraído do Livro III das Institutas) consagrou o padrão clássico de piedade, abnegação e discipulado reformado.',
   ARRAY['Reforma Protestante', 'Tradição Reformada', 'Teologia Sistemática', 'Piedade Cristã']
 )
-ON CONFLICT (slug) DO UPDATE SET
-  bio_summary = EXCLUDED.bio_summary;
+ON CONFLICT (slug) DO NOTHING;
 
 INSERT INTO books (
   title, author_id, language, description, slug, original_title,
@@ -42,9 +41,6 @@ VALUES (
   'cc-by-sa-4.0',
   'Tradução gerada por IA a partir da edição definitiva de 1559 das Institutas (Opera Calvini). Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
-ON CONFLICT (slug) DO UPDATE SET
-  online_read_path = EXCLUDED.online_read_path,
-  attribution_text = EXCLUDED.attribution_text,
-  description = EXCLUDED.description;
+ON CONFLICT (slug) DO NOTHING;
 
 COMMIT;

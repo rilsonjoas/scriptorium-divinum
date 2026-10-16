@@ -11,8 +11,7 @@ VALUES (
   'Teólogo puritano, deão da Christ Church em Oxford (1616–1683), cognominado "o Calvino da Inglaterra", considerado a maior e mais profunda mente teológica do puritanismo britânico.',
   ARRAY['Puritanismo', 'Tradição Reformada', 'Teologia Pastoral', 'Cristologia']
 )
-ON CONFLICT (slug) DO UPDATE SET
-  bio_summary = EXCLUDED.bio_summary;
+ON CONFLICT (slug) DO NOTHING;
 
 INSERT INTO books (
   title, author_id, language, description, slug, original_title,
@@ -42,10 +41,6 @@ VALUES (
   'cc-by-sa-4.0',
   'Tradução gerada por IA a partir da edição clássica de William H. Goold (Banner of Truth). Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
-ON CONFLICT (slug) DO UPDATE SET
-  online_read_path = EXCLUDED.online_read_path,
-  attribution_text = EXCLUDED.attribution_text,
-  description = EXCLUDED.description,
-  published = true;
+ON CONFLICT (slug) DO NOTHING;
 
 COMMIT;

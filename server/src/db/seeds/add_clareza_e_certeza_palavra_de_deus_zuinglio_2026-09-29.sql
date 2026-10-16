@@ -8,11 +8,7 @@ VALUES (
   'Pastor da Grande Catedral de Zurique e líder da Reforma na Suíça (1484–1531), teólogo humanista e defensor da autoridade suprema das Escrituras.',
   ARRAY['Reforma Protestante', 'Tradição Suíça', 'Tradição Reformada']::text[]
 )
-ON CONFLICT (slug) DO UPDATE
-SET name = EXCLUDED.name,
-    bio_summary = EXCLUDED.bio_summary,
-    denomination_or_tradition = EXCLUDED.denomination_or_tradition,
-    updated_at = NOW();
+ON CONFLICT (slug) DO NOTHING;
 
 INSERT INTO books (
   title, author_id, language, description, slug,
@@ -43,13 +39,6 @@ SELECT
   'Tradução sob licença Creative Commons Atribuição-CompartilhaIgual 4.0 Internacional (CC BY-SA 4.0).'
 FROM authors a
 WHERE a.slug = 'ulrico-zuinglio'
-ON CONFLICT (slug) DO UPDATE
-SET title = EXCLUDED.title,
-  description = EXCLUDED.description,
-  categories = EXCLUDED.categories,
-  tags = EXCLUDED.tags,
-  online_read_path = EXCLUDED.online_read_path,
-  published = EXCLUDED.published,
-  updated_at = NOW();
+ON CONFLICT (slug) DO NOTHING;
 
 COMMIT;

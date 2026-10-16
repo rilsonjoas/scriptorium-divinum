@@ -11,9 +11,7 @@ VALUES (
   'Doutor Seráfico, Ministro Geral dos Franciscanos e Cardeal (1221–1274 d.C.), filósofo e místico medieval de primeira grandeza, autor do Itinerário da Mente para Deus e da Árvore da Vida.',
   ARRAY['Escolástica', 'Tradição Franciscana', 'Mística Medieval']
 )
-ON CONFLICT (slug) DO UPDATE SET
-  bio_summary = EXCLUDED.bio_summary,
-  name = EXCLUDED.name;
+ON CONFLICT (slug) DO NOTHING;
 
 INSERT INTO books (
   title, author_id, language, description, slug, original_title,
@@ -43,10 +41,6 @@ VALUES (
   'cc-by-sa-4.0',
   'Tradução gerada por IA a partir da Opera Omnia de Quaracchi (Tomus VIII). Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
-ON CONFLICT (slug) DO UPDATE SET
-  online_read_path = EXCLUDED.online_read_path,
-  attribution_text = EXCLUDED.attribution_text,
-  description = EXCLUDED.description,
-  published = true;
+ON CONFLICT (slug) DO NOTHING;
 
 COMMIT;

@@ -11,8 +11,7 @@ VALUES (
   'Pastor presbiteriano puritano inglês (c. 1627–1691), ministro em Dartmouth, Devon. Renomado por sua calorosa piedade afetuosa, habilidade de perscrutar a psicologia do coração humano e consolar os aflitos nas aflições. Seus tratados devocionais — como "A Guarda do Coração" (Keeping the Heart), "A Fonte da Vida" e "O Mistério da Providência" — tornaram-se clássicos amados da espiritualidade cristã universal.',
   ARRAY['Puritanismo', 'Tradição Reformada', 'Teologia Pastoral', 'Espiritualidade Cristã']
 )
-ON CONFLICT (slug) DO UPDATE SET
-  bio_summary = EXCLUDED.bio_summary;
+ON CONFLICT (slug) DO NOTHING;
 
 INSERT INTO books (
   title, author_id, language, description, slug, original_title,
@@ -42,9 +41,6 @@ VALUES (
   'cc-by-sa-4.0',
   'Tradução gerada por IA a partir da edição clássica de 1668 (Banner of Truth). Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
-ON CONFLICT (slug) DO UPDATE SET
-  online_read_path = EXCLUDED.online_read_path,
-  attribution_text = EXCLUDED.attribution_text,
-  description = EXCLUDED.description;
+ON CONFLICT (slug) DO NOTHING;
 
 COMMIT;

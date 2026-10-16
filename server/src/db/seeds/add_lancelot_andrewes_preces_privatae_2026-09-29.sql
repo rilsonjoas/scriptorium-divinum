@@ -11,9 +11,7 @@ VALUES (
   'Bispo de Winchester (1555–1626), célebre poliglota e hebraísta, principal líder dos tradutores da Bíblia King James (1611) e autor das comoventes e ricas Preces Privatae.',
   ARRAY['Tradição Anglicana', 'Patrística e Bíblia', 'Liturgia e Oração']
 )
-ON CONFLICT (slug) DO UPDATE SET
-  bio_summary = EXCLUDED.bio_summary,
-  name = EXCLUDED.name;
+ON CONFLICT (slug) DO NOTHING;
 
 INSERT INTO books (
   title, author_id, language, description, slug, original_title,
@@ -43,10 +41,6 @@ VALUES (
   'cc-by-sa-4.0',
   'Tradução gerada por IA a partir da edição crítica de F. E. Brightman. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
-ON CONFLICT (slug) DO UPDATE SET
-  online_read_path = EXCLUDED.online_read_path,
-  attribution_text = EXCLUDED.attribution_text,
-  description = EXCLUDED.description,
-  published = true;
+ON CONFLICT (slug) DO NOTHING;
 
 COMMIT;

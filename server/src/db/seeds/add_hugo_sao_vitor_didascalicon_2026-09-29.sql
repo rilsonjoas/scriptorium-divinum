@@ -11,8 +11,7 @@ VALUES (
   'Cônego regular de Santo Agostinho, filósofo, teólogo e místico medieval (c. 1096–1141 d.C.), mestre da célebre Abadia de São Vítor em Paris, cognominado "o segundo Agostinho". Sua obra capital "Didascalicon" estabeleceu a pedagogia e a hermenêutica clássicas do Renascimento do século XII, harmonizando as artes liberais com o estudo das Sagradas Escrituras e a contemplação mística.',
   ARRAY['Teologia Medieval', 'Escola Vitorina', 'Mística Cristã', 'Pedagogia e Hermenêutica']
 )
-ON CONFLICT (slug) DO UPDATE SET
-  bio_summary = EXCLUDED.bio_summary;
+ON CONFLICT (slug) DO NOTHING;
 
 INSERT INTO books (
   title, author_id, language, description, slug, original_title,
@@ -42,9 +41,6 @@ VALUES (
   'cc-by-sa-4.0',
   'Tradução gerada por IA a partir da edição crítica de C. H. Buttimer e Sources Chrétiennes (SC 372). Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
-ON CONFLICT (slug) DO UPDATE SET
-  online_read_path = EXCLUDED.online_read_path,
-  attribution_text = EXCLUDED.attribution_text,
-  description = EXCLUDED.description;
+ON CONFLICT (slug) DO NOTHING;
 
 COMMIT;

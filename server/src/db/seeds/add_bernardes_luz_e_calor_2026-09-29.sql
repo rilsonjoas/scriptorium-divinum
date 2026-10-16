@@ -11,8 +11,7 @@ VALUES (
   'Sacerdote do Oratório de São Filipe Néri em Lisboa (1644–1710), um dos mais sublimes escritores espirituais e mestres da pureza vernácula da língua portuguesa.',
   ARRAY['Espiritualidade Oratoriana', 'Mística Portuguesa', 'Literatura Clássica']
 )
-ON CONFLICT (slug) DO UPDATE SET
-  bio_summary = EXCLUDED.bio_summary;
+ON CONFLICT (slug) DO NOTHING;
 
 INSERT INTO books (
   title, author_id, language, description, slug, original_title,
@@ -42,10 +41,6 @@ VALUES (
   'public-domain',
   'Edição fidedigna do texto clássico de 1696 em domínio público. Scriptorium Divinum, 2026.'
 )
-ON CONFLICT (slug) DO UPDATE SET
-  online_read_path = EXCLUDED.online_read_path,
-  attribution_text = EXCLUDED.attribution_text,
-  description = EXCLUDED.description,
-  published = true;
+ON CONFLICT (slug) DO NOTHING;
 
 COMMIT;

@@ -11,8 +11,7 @@ VALUES (
   'Leiga dominicana da Ordem Terceira da Penitência, mística, reformadora e Doutora da Igreja (1347–1380 d.C.), natural de Sena. Figura monumental do cristianismo medieval, desempenhou papel profético decisivo no retorno do Papa de Avinhão para Roma. Sua obra-prima "O Diálogo da Divina Providência" (ditada em êxtase) é um dos cumes da teologia mística universal, célebre pela alegoria de Cristo como a Ponte viva entre o Céu e a Terra.',
   ARRAY['Dominicanos', 'Mística Cristã', 'Doutores da Igreja', 'Espiritualidade Medieval']
 )
-ON CONFLICT (slug) DO UPDATE SET
-  bio_summary = EXCLUDED.bio_summary;
+ON CONFLICT (slug) DO NOTHING;
 
 INSERT INTO books (
   title, author_id, language, description, slug, original_title,
@@ -42,9 +41,6 @@ VALUES (
   'cc-by-sa-4.0',
   'Tradução gerada por IA a partir da edição crítica de G. Cavallini. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
-ON CONFLICT (slug) DO UPDATE SET
-  online_read_path = EXCLUDED.online_read_path,
-  attribution_text = EXCLUDED.attribution_text,
-  description = EXCLUDED.description;
+ON CONFLICT (slug) DO NOTHING;
 
 COMMIT;

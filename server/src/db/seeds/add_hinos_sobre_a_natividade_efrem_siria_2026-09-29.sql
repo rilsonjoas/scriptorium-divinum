@@ -8,11 +8,7 @@ VALUES (
   'Diácono, teólogo e poeta de Nísibis e Edessa (306–373 d.C.), cognominado a ''Cítara do Espírito Santo'' e Doutor da Igreja.',
   ARRAY['Igreja Primitiva', 'Tradição Siríaca', 'Patrística']::text[]
 )
-ON CONFLICT (slug) DO UPDATE
-SET name = EXCLUDED.name,
-    bio_summary = EXCLUDED.bio_summary,
-    denomination_or_tradition = EXCLUDED.denomination_or_tradition,
-    updated_at = NOW();
+ON CONFLICT (slug) DO NOTHING;
 
 INSERT INTO books (
   title, author_id, language, description, slug,
@@ -43,13 +39,6 @@ SELECT
   'Tradução sob licença Creative Commons Atribuição-CompartilhaIgual 4.0 Internacional (CC BY-SA 4.0).'
 FROM authors a
 WHERE a.slug = 'santo-efrem-da-siria'
-ON CONFLICT (slug) DO UPDATE
-SET title = EXCLUDED.title,
-  description = EXCLUDED.description,
-  categories = EXCLUDED.categories,
-  tags = EXCLUDED.tags,
-  online_read_path = EXCLUDED.online_read_path,
-  published = EXCLUDED.published,
-  updated_at = NOW();
+ON CONFLICT (slug) DO NOTHING;
 
 COMMIT;

@@ -11,9 +11,7 @@ VALUES (
   'Filósofo, teólogo, líder do Primeiro Grande Despertamento e presidente do College of New Jersey / Princeton (1703–1758), considerado a mais fulgurante mente teológica da história das Américas.',
   ARRAY['Tradição Reformada', 'Puritanismo Colonial', 'Filosofia Cristã', 'Avivamento']
 )
-ON CONFLICT (slug) DO UPDATE SET
-  bio_summary = EXCLUDED.bio_summary,
-  name = EXCLUDED.name;
+ON CONFLICT (slug) DO NOTHING;
 
 INSERT INTO books (
   title, author_id, language, description, slug, original_title,
@@ -43,10 +41,6 @@ VALUES (
   'cc-by-sa-4.0',
   'Tradução gerada por IA a partir da edição crítica da Yale University Press (Vol. 2). Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
-ON CONFLICT (slug) DO UPDATE SET
-  online_read_path = EXCLUDED.online_read_path,
-  attribution_text = EXCLUDED.attribution_text,
-  description = EXCLUDED.description,
-  published = true;
+ON CONFLICT (slug) DO NOTHING;
 
 COMMIT;

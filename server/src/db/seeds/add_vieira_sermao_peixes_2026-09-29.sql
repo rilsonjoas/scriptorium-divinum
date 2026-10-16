@@ -11,8 +11,7 @@ VALUES (
   'Jesuíta, diplomata, pregador e um dos maiores mestres da prosa literária da língua portuguesa de todos os tempos (1608–1697), cognominado "o Imperador da Língua Portuguesa" por Fernando Pessoa.',
   ARRAY['Barroco Luso-Brasileiro', 'Tradição Jesuíta', 'Oratória Sacra']
 )
-ON CONFLICT (slug) DO UPDATE SET
-  bio_summary = EXCLUDED.bio_summary;
+ON CONFLICT (slug) DO NOTHING;
 
 INSERT INTO books (
   title, author_id, language, description, slug, original_title,
@@ -42,10 +41,6 @@ VALUES (
   'public-domain',
   'Edição fidedigna do texto clássico de 1654 em domínio público. Scriptorium Divinum, 2026.'
 )
-ON CONFLICT (slug) DO UPDATE SET
-  online_read_path = EXCLUDED.online_read_path,
-  attribution_text = EXCLUDED.attribution_text,
-  description = EXCLUDED.description,
-  published = true;
+ON CONFLICT (slug) DO NOTHING;
 
 COMMIT;

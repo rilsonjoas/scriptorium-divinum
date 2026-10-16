@@ -11,8 +11,7 @@ VALUES (
   'Pastor puritano, pregador e escritor devocional inglês (c. 1620–1686), ministro de St. Stephen Walbrook em Londres. Célebre pelo estilo aforístico vívido, clareza expositiva e calor espiritual profundo, Watson legou tratados clássicos fundamentais para a espiritualidade cristã como "A Doutrina do Arrependimento", "A Fé Prática" e "Todas as Coisas Cooperam para o Bem".',
   ARRAY['Puritanismo', 'Tradição Reformada', 'Teologia Pastoral', 'Devocional']
 )
-ON CONFLICT (slug) DO UPDATE SET
-  bio_summary = EXCLUDED.bio_summary;
+ON CONFLICT (slug) DO NOTHING;
 
 INSERT INTO books (
   title, author_id, language, description, slug, original_title,
@@ -42,9 +41,6 @@ VALUES (
   'cc-by-sa-4.0',
   'Tradução gerada por IA a partir da edição clássica de 1668 (Banner of Truth). Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
-ON CONFLICT (slug) DO UPDATE SET
-  online_read_path = EXCLUDED.online_read_path,
-  attribution_text = EXCLUDED.attribution_text,
-  description = EXCLUDED.description;
+ON CONFLICT (slug) DO NOTHING;
 
 COMMIT;

@@ -11,8 +11,7 @@ VALUES (
   'Bispo de Lyon, mártir e Padre da Igreja (c. 130–202 d.C.), Irineu foi discípulo direto de São Policarpo de Esmirna (que por sua vez foi instruído pelo Apóstolo João). Considerado o primeiro grande teólogo sistemático da Igreja primitiva, Irineu articulou a doutrina da sucessão apostólica, a canonicidade dos quatro Evangelhos e a célebre teologia da recapitulação (anakephalaiosis), demonstrando como Cristo restaura e renova toda a criação.',
   ARRAY['Patrística Grega', 'Padres Apostólicos', 'Apologética Antiga', 'Teologia Sistemática']
 )
-ON CONFLICT (slug) DO UPDATE SET
-  bio_summary = EXCLUDED.bio_summary;
+ON CONFLICT (slug) DO NOTHING;
 
 INSERT INTO books (
   title, author_id, language, description, slug, original_title,
@@ -42,9 +41,6 @@ VALUES (
   'cc-by-sa-4.0',
   'Tradução gerada por IA a partir da edição clássica de J. Armitage Robinson e Sources Chrétiennes (SC 406). Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
-ON CONFLICT (slug) DO UPDATE SET
-  online_read_path = EXCLUDED.online_read_path,
-  attribution_text = EXCLUDED.attribution_text,
-  description = EXCLUDED.description;
+ON CONFLICT (slug) DO NOTHING;
 
 COMMIT;

@@ -42,10 +42,6 @@ VALUES (
   'cc-by-sa-4.0',
   'Tradução gerada por IA a partir do original grego em domínio público (edição Bryennios / Hitchcock & Brown, 1884), cotejada com a tradução inglesa e a edição de J. B. Lightfoot (1891). Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
-ON CONFLICT (slug) DO UPDATE SET
-  online_read_path = EXCLUDED.online_read_path,
-  related_edition_slug = EXCLUDED.related_edition_slug,
-  published = EXCLUDED.published,
-  translation_is_ai = EXCLUDED.translation_is_ai;
+ON CONFLICT (slug) DO NOTHING;
 
 COMMIT;

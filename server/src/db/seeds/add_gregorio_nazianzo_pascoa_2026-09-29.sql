@@ -11,8 +11,7 @@ VALUES (
   'Arcebispo de Constantinopla, Doutor da Igreja e cognominado "o Teólogo" (c. 329–390 d.C.), mestre insuperável da oratória e hinódia grega patrística.',
   ARRAY['Patrística', 'Padres Capadócios', 'Ortodoxia Nicena', 'Oratória Sacra']
 )
-ON CONFLICT (slug) DO UPDATE SET
-  bio_summary = EXCLUDED.bio_summary;
+ON CONFLICT (slug) DO NOTHING;
 
 INSERT INTO books (
   title, author_id, language, description, slug, original_title,
@@ -42,10 +41,6 @@ VALUES (
   'cc-by-sa-4.0',
   'Tradução gerada por IA a partir de Sources Chrétiennes (SC 358). Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
-ON CONFLICT (slug) DO UPDATE SET
-  online_read_path = EXCLUDED.online_read_path,
-  attribution_text = EXCLUDED.attribution_text,
-  description = EXCLUDED.description,
-  published = true;
+ON CONFLICT (slug) DO NOTHING;
 
 COMMIT;

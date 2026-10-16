@@ -11,9 +11,7 @@ VALUES (
   'Padre da Igreja e célebre jurista cartaginês (c. 155–220 d.C.), pioneiro da teologia em língua latina e criador de vocábulos e conceitos fundamentais do patrimônio doutrinário cristão.',
   ARRAY['Patrística', 'Igreja Antiga', 'Apologética Latina']
 )
-ON CONFLICT (slug) DO UPDATE SET
-  bio_summary = EXCLUDED.bio_summary,
-  name = EXCLUDED.name;
+ON CONFLICT (slug) DO NOTHING;
 
 INSERT INTO books (
   title, author_id, language, description, slug, original_title,
@@ -43,10 +41,6 @@ VALUES (
   'cc-by-sa-4.0',
   'Tradução gerada por IA a partir do Corpus Christianorum Series Latina (CCSL 1). Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
-ON CONFLICT (slug) DO UPDATE SET
-  online_read_path = EXCLUDED.online_read_path,
-  attribution_text = EXCLUDED.attribution_text,
-  description = EXCLUDED.description,
-  published = true;
+ON CONFLICT (slug) DO NOTHING;
 
 COMMIT;

@@ -11,8 +11,7 @@ VALUES (
   'Abade do Mosteiro de Santa Catarina no Monte Sinai (c. 579–649 d.C.), mestre clássico da ascese e da espiritualidade hesicasta oriental, autor do clássico universal A Escada do Paraíso.',
   ARRAY['Patrística Bizantina', 'Mística Hesicasta', 'Philokalia', 'Monasticismo']
 )
-ON CONFLICT (slug) DO UPDATE SET
-  bio_summary = EXCLUDED.bio_summary;
+ON CONFLICT (slug) DO NOTHING;
 
 INSERT INTO books (
   title, author_id, language, description, slug, original_title,
@@ -42,10 +41,6 @@ VALUES (
   'cc-by-sa-4.0',
   'Tradução gerada por IA a partir da Patrologia Graeca (PG 88). Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
-ON CONFLICT (slug) DO UPDATE SET
-  online_read_path = EXCLUDED.online_read_path,
-  attribution_text = EXCLUDED.attribution_text,
-  description = EXCLUDED.description,
-  published = true;
+ON CONFLICT (slug) DO NOTHING;
 
 COMMIT;

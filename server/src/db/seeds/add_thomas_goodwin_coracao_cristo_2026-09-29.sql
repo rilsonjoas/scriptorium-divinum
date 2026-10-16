@@ -11,8 +11,7 @@ VALUES (
   'Teólogo puritano de Oxford e presidente do Magdalen College (1600–1680), célebre pregador da Assembleia de Westminster e mestre do consolo evangélico e da cristologia afetuosa.',
   ARRAY['Puritanismo', 'Tradição Reformada', 'Cristologia Pastoral', 'Teologia Afetuosa']
 )
-ON CONFLICT (slug) DO UPDATE SET
-  bio_summary = EXCLUDED.bio_summary;
+ON CONFLICT (slug) DO NOTHING;
 
 INSERT INTO books (
   title, author_id, language, description, slug, original_title,
@@ -42,10 +41,6 @@ VALUES (
   'cc-by-sa-4.0',
   'Tradução gerada por IA a partir da edição clássica puritana (Banner of Truth). Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
-ON CONFLICT (slug) DO UPDATE SET
-  online_read_path = EXCLUDED.online_read_path,
-  attribution_text = EXCLUDED.attribution_text,
-  description = EXCLUDED.description,
-  published = true;
+ON CONFLICT (slug) DO NOTHING;
 
 COMMIT;

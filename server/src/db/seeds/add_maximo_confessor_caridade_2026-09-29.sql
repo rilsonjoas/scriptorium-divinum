@@ -11,8 +11,7 @@ VALUES (
   'Monge bizantino, teólogo e mártir da fé (c. 580–662 d.C.), uma das mentes mais brilhantes e profundas da tradição patrística oriental, autor das célebres Centúrias sobre a Caridade na Philokalia.',
   ARRAY['Patrística Bizantina', 'Philokalia', 'Mística Hesicasta', 'Cristologia']
 )
-ON CONFLICT (slug) DO UPDATE SET
-  bio_summary = EXCLUDED.bio_summary;
+ON CONFLICT (slug) DO NOTHING;
 
 INSERT INTO books (
   title, author_id, language, description, slug, original_title,
@@ -42,10 +41,6 @@ VALUES (
   'cc-by-sa-4.0',
   'Tradução gerada por IA a partir de Sources Chrétiennes (SC 9). Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
-ON CONFLICT (slug) DO UPDATE SET
-  online_read_path = EXCLUDED.online_read_path,
-  attribution_text = EXCLUDED.attribution_text,
-  description = EXCLUDED.description,
-  published = true;
+ON CONFLICT (slug) DO NOTHING;
 
 COMMIT;

@@ -11,9 +11,7 @@ VALUES (
   'Bispo de Hipona, Doutor da Graça (354–430 d.C.) e o mais influente teólogo e filósofo do Ocidente cristão, autor de Confissões, A Cidade de Deus e Tratados sobre São João.',
   ARRAY['Patrística', 'Igreja Antiga', 'Teologia Cristã', 'Filosofia']
 )
-ON CONFLICT (slug) DO UPDATE SET
-  bio_summary = EXCLUDED.bio_summary,
-  name = EXCLUDED.name;
+ON CONFLICT (slug) DO NOTHING;
 
 INSERT INTO books (
   title, author_id, language, description, slug, original_title,
@@ -43,10 +41,6 @@ VALUES (
   'cc-by-sa-4.0',
   'Tradução gerada por IA a partir do CCSL 36 e PL 35. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
-ON CONFLICT (slug) DO UPDATE SET
-  online_read_path = EXCLUDED.online_read_path,
-  attribution_text = EXCLUDED.attribution_text,
-  description = EXCLUDED.description,
-  published = true;
+ON CONFLICT (slug) DO NOTHING;
 
 COMMIT;

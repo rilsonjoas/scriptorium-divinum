@@ -41,9 +41,6 @@ VALUES (
   'public-domain',
   'Obra em domínio público histórico. Fixação crítica baseada na edição clássica dos Sermões do Padre Antônio Vieira.'
 )
-ON CONFLICT (slug) DO UPDATE SET
-  online_read_path = EXCLUDED.online_read_path,
-  published = EXCLUDED.published,
-  translation_is_ai = EXCLUDED.translation_is_ai;
+ON CONFLICT (slug) DO NOTHING;
 
 COMMIT;

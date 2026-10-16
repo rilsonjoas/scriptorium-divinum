@@ -64,6 +64,13 @@
       "when": 1792188320684,
       "tag": "0008_biblical_commentaries",
       "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1792190048710,
+      "tag": "0009_dados_acervo_2026_10_16",
+      "breakpoints": true
     }
   ]
 }

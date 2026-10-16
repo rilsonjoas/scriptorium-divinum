@@ -11,8 +11,7 @@ VALUES (
   'Cônego regular de Santo Agostinho, místico e escritor devocional da Devotio Moderna (c. 1380–1471 d.C.), no Mosteiro de Monte Santa Inês na Holanda. Autor universalmente celebrado de "A Imitação de Cristo" (o livro mais lido e traduzido da história cristã após a Bíblia) e de outras joias da espiritualidade interior como "O Solilóquio da Alma" e "O Jardim das Rosas".',
   ARRAY['Devotio Moderna', 'Mística Cristã', 'Literatura Devocional', 'Monástica']
 )
-ON CONFLICT (slug) DO UPDATE SET
-  bio_summary = EXCLUDED.bio_summary;
+ON CONFLICT (slug) DO NOTHING;
 
 INSERT INTO books (
   title, author_id, language, description, slug, original_title,
@@ -42,9 +41,6 @@ VALUES (
   'cc-by-sa-4.0',
   'Tradução gerada por IA a partir da edição clássica de M. J. Pohl (Opera Omnia). Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
-ON CONFLICT (slug) DO UPDATE SET
-  online_read_path = EXCLUDED.online_read_path,
-  attribution_text = EXCLUDED.attribution_text,
-  description = EXCLUDED.description;
+ON CONFLICT (slug) DO NOTHING;
 
 COMMIT;

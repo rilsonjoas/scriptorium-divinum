@@ -11,8 +11,7 @@ VALUES (
   'Bispo de Hipona, teólogo, filósofo e Doutor da Igreja (354–430 d.C.). Considerado o maior e mais influente Padre da Igreja latina, Agostinho moldou decisivamente toda a teologia cristã ocidental. Suas obras capitais abrangem as "Confissões", "A Cidade de Deus", "A Trindade" e o tratado fundacional de hermenêutica e retórica sacra "A Doutrina Cristã" (De Doctrina Christiana).',
   ARRAY['Patrística Latina', 'Doutores da Igreja', 'Filosofia Cristã', 'Teologia Bíblica']
 )
-ON CONFLICT (slug) DO UPDATE SET
-  bio_summary = EXCLUDED.bio_summary;
+ON CONFLICT (slug) DO NOTHING;
 
 INSERT INTO books (
   title, author_id, language, description, slug, original_title,
@@ -42,9 +41,6 @@ VALUES (
   'cc-by-sa-4.0',
   'Tradução gerada por IA a partir da edição crítica de J. Martin (CCSL 32) e Bibliothèque Augustinienne (BA 11/2). Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
-ON CONFLICT (slug) DO UPDATE SET
-  online_read_path = EXCLUDED.online_read_path,
-  attribution_text = EXCLUDED.attribution_text,
-  description = EXCLUDED.description;
+ON CONFLICT (slug) DO NOTHING;
 
 COMMIT;

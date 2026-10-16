@@ -11,9 +11,7 @@ VALUES (
   'Pregador puritano inglês (1628–1688), imortal autor de O Peregrino e A Guerra Santa, preso por doze anos por pregar o Evangelho, cuja autobiografia Graça Abundante é um monumento da fé cristã.',
   ARRAY['Puritanismo', 'Tradição Reformada', 'Vida Cristã']
 )
-ON CONFLICT (slug) DO UPDATE SET
-  bio_summary = EXCLUDED.bio_summary,
-  name = EXCLUDED.name;
+ON CONFLICT (slug) DO NOTHING;
 
 INSERT INTO books (
   title, author_id, language, description, slug, original_title,
@@ -43,10 +41,6 @@ VALUES (
   'cc-by-sa-4.0',
   'Tradução gerada por IA a partir das Obras Completas de George Offor. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
-ON CONFLICT (slug) DO UPDATE SET
-  online_read_path = EXCLUDED.online_read_path,
-  attribution_text = EXCLUDED.attribution_text,
-  description = EXCLUDED.description,
-  published = true;
+ON CONFLICT (slug) DO NOTHING;
 
 COMMIT;

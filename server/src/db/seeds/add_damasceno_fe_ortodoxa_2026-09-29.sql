@@ -11,8 +11,7 @@ VALUES (
   'Monge, presbítero, teólogo e Doutor da Igreja (c. 676–749 d.C.), natural de Damasco. Considerado o último grande Padre da Igreja oriental, João Damasceno realizou a síntese dogmática suprema de toda a teologia patrística grega em sua monumental obra "A Fonte do Conhecimento" (cujo tratado culminante é a "Exposição Exata da Fé Ortodoxa"). Foi também o grande defensor da legitimidade teológica dos santos ícones durante a crise iconoclasta.',
   ARRAY['Patrística Grega', 'Teologia Bizantina', 'Doutores da Igreja', 'Ortodoxia Cristã']
 )
-ON CONFLICT (slug) DO UPDATE SET
-  bio_summary = EXCLUDED.bio_summary;
+ON CONFLICT (slug) DO NOTHING;
 
 INSERT INTO books (
   title, author_id, language, description, slug, original_title,
@@ -42,9 +41,6 @@ VALUES (
   'cc-by-sa-4.0',
   'Tradução gerada por IA a partir da edição crítica de B. Kotter e Sources Chrétiennes. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
-ON CONFLICT (slug) DO UPDATE SET
-  online_read_path = EXCLUDED.online_read_path,
-  attribution_text = EXCLUDED.attribution_text,
-  description = EXCLUDED.description;
+ON CONFLICT (slug) DO NOTHING;
 
 COMMIT;

@@ -11,8 +11,7 @@ VALUES (
   'Humanista, reformador luterano, teólogo e pedagogo alemão (1497–1560), cognominado "o Preceptor da Alemanha" (Praeceptor Germaniae). Amigo íntimo e colaborador intelectual de Martinho Lutero, redigiu a célebre "Confissão de Augsburgo" (1530) e o primeiro compêndio sistemático da teologia protestante, os "Loci Communes Theologici" (1521).',
   ARRAY['Reforma Protestante', 'Luteranismo', 'Teologia Sistemática', 'Humanismo Cristão']
 )
-ON CONFLICT (slug) DO UPDATE SET
-  bio_summary = EXCLUDED.bio_summary;
+ON CONFLICT (slug) DO NOTHING;
 
 INSERT INTO books (
   title, author_id, language, description, slug, original_title,
@@ -42,9 +41,6 @@ VALUES (
   'cc-by-sa-4.0',
   'Tradução gerada por IA a partir do Corpus Reformatorum (CR 21). Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
-ON CONFLICT (slug) DO UPDATE SET
-  online_read_path = EXCLUDED.online_read_path,
-  attribution_text = EXCLUDED.attribution_text,
-  description = EXCLUDED.description;
+ON CONFLICT (slug) DO NOTHING;
 
 COMMIT;

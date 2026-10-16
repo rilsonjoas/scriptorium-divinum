@@ -41,9 +41,6 @@ VALUES (
   'cc-by-sa-4.0',
   'Tradução gerada por IA a partir das atas oficiais em latim (Canones Synodi Dordrechtanae, 1619), cotejada com a edição de Philip Schaff (The Creeds of Christendom, vol. III). Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
-ON CONFLICT (slug) DO UPDATE SET
-  online_read_path = EXCLUDED.online_read_path,
-  published = EXCLUDED.published,
-  translation_is_ai = EXCLUDED.translation_is_ai;
+ON CONFLICT (slug) DO NOTHING;
 
 COMMIT;

@@ -11,8 +11,7 @@ VALUES (
   'Teólogo puritano, deão da Christ Church em Oxford e capelão (1616–1683), cognominado "o Calvino da Inglaterra". Considerado a maior e mais profunda mente teológica do puritanismo inglês, Owen articulou com mestria insuperável as doutrinas da Trindade, da Expiação Eficaz de Cristo, do Espírito Santo e da vida espiritual interior em tratados monumentais como "A Mortificação do Pecado nos Crentes" (1656).',
   ARRAY['Puritanismo', 'Tradição Reformada', 'Teologia Pastoral', 'Espiritualidade Cristã']
 )
-ON CONFLICT (slug) DO UPDATE SET
-  bio_summary = EXCLUDED.bio_summary;
+ON CONFLICT (slug) DO NOTHING;
 
 INSERT INTO books (
   title, author_id, language, description, slug, original_title,
@@ -42,9 +41,6 @@ VALUES (
   'cc-by-sa-4.0',
   'Tradução gerada por IA a partir da edição clássica de William H. Goold (Banner of Truth). Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
-ON CONFLICT (slug) DO UPDATE SET
-  online_read_path = EXCLUDED.online_read_path,
-  attribution_text = EXCLUDED.attribution_text,
-  description = EXCLUDED.description;
+ON CONFLICT (slug) DO NOTHING;
 
 COMMIT;

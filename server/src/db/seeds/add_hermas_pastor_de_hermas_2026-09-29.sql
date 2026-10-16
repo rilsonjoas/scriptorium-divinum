@@ -11,8 +11,7 @@ VALUES (
   'Padre Apostólico do século II (c. 100–150 d.C.), autor de O Pastor de Hermas, um dos escritos patrísticos mais lidos e venerados da Igreja Antiga sobre a penitência e a visão da Igreja.',
   ARRAY['Patrística Apostólica', 'Igreja Antiga', 'Literatura Apocalíptica Cristã']
 )
-ON CONFLICT (slug) DO UPDATE SET
-  bio_summary = EXCLUDED.bio_summary;
+ON CONFLICT (slug) DO NOTHING;
 
 INSERT INTO books (
   title, author_id, language, description, slug, original_title,
@@ -42,10 +41,6 @@ VALUES (
   'cc-by-sa-4.0',
   'Tradução gerada por IA a partir de Sources Chrétiennes (SC 172). Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
-ON CONFLICT (slug) DO UPDATE SET
-  online_read_path = EXCLUDED.online_read_path,
-  attribution_text = EXCLUDED.attribution_text,
-  description = EXCLUDED.description,
-  published = true;
+ON CONFLICT (slug) DO NOTHING;
 
 COMMIT;

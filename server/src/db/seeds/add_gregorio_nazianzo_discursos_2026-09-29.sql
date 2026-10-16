@@ -11,8 +11,7 @@ VALUES (
   'Arcebispo de Constantinopla, teólogo, poeta e Doutor da Igreja (c. 329–390 d.C.), cognominado por excelência "o Teólogo" no Oriente cristão. Juntamente com São Basílio Magno e São Gregório de Nissa, compôs o triunvirato dos Padres Capadócios, responsáveis pela vitória definitiva da ortodoxia niceno-constantinopolitana sobre o arianismo e o macedonianismo. Seus "Cinco Discursos Teológicos" constituem a mais sublime exposição da teologia da Trindade e da divindade do Espírito Santo na antiguidade.',
   ARRAY['Patrística Grega', 'Padres Capadócios', 'Doutores da Igreja', 'Teologia Trinitária']
 )
-ON CONFLICT (slug) DO UPDATE SET
-  bio_summary = EXCLUDED.bio_summary;
+ON CONFLICT (slug) DO NOTHING;
 
 INSERT INTO books (
   title, author_id, language, description, slug, original_title,
@@ -42,9 +41,6 @@ VALUES (
   'cc-by-sa-4.0',
   'Tradução gerada por IA a partir da edição crítica de Paul Gallay e Sources Chrétiennes (SC 250). Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
-ON CONFLICT (slug) DO UPDATE SET
-  online_read_path = EXCLUDED.online_read_path,
-  attribution_text = EXCLUDED.attribution_text,
-  description = EXCLUDED.description;
+ON CONFLICT (slug) DO NOTHING;
 
 COMMIT;

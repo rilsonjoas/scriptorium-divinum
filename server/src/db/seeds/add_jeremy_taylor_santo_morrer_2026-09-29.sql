@@ -11,8 +11,7 @@ VALUES (
   'Bispo e célebre teólogo anglicano (1613–1667), apelidado de "o Shakespeare da Teologia" e "o Crisóstomo da Igreja da Inglaterra" por sua prosa lírica e profundidade devocional.',
   ARRAY['Tradição Anglicana', 'Espiritualidade Cristã', 'Teologia Pastoral']
 )
-ON CONFLICT (slug) DO UPDATE SET
-  bio_summary = EXCLUDED.bio_summary;
+ON CONFLICT (slug) DO NOTHING;
 
 INSERT INTO books (
   title, author_id, language, description, slug, original_title,
@@ -42,10 +41,6 @@ VALUES (
   'cc-by-sa-4.0',
   'Tradução gerada por IA a partir da edição clássica de Heber/Eden. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
-ON CONFLICT (slug) DO UPDATE SET
-  online_read_path = EXCLUDED.online_read_path,
-  attribution_text = EXCLUDED.attribution_text,
-  description = EXCLUDED.description,
-  published = true;
+ON CONFLICT (slug) DO NOTHING;
 
 COMMIT;
