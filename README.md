@@ -18,8 +18,8 @@ Uma biblioteca digital dedicada às obras clássicas da teologia cristã em dom�
 - **🚀 API REST (Fastify + Drizzle)**: base em `https://api-scriptorium.narniano.com` — documentação Scalar em [`/docs`](https://api-scriptorium.narniano.com/docs/) e OpenAPI JSON em [`/docs/json`](https://api-scriptorium.narniano.com/docs/json). Conectado ao Postgres compartilhado.
 - **🗄️ Banco de Dados**: Postgres (`scriptorium_divinum_db`) rodando localmente no VPS com role isolada e segura.
 - **🔄 Backup Integrado**: Backups diários criptografados com `age` e sincronizados via Tailscale.
-- **📖 Leitor Online com Paridade Bilíngue (`/ler/:id`)**: renderiza em markdown as obras do acervo: 261 em português (`pt-BR`), 25 em inglês (`en`) e 2 em latim. Conta com alternador inteligente de idioma no leitor e na ficha do livro (`relatedEditionSlug`), permitindo a comparação imediata entre o vernáculo e o original.
-- **🏛️ Acervo Histórico Universal**: 288 obras catalogadas, 106 autores com obra e cerca de 16,7 milhões de palavras de literatura cristã clássica (232 obras são traduções por IA, identificadas como tal e com revisão humana pendente) (Patrística Grega e Latina, Escolástica Medieval, Reforma Protestante e Avivamento Puritano).
+- **📖 Leitor Online com Paridade Bilíngue (`/ler/:id`)**: renderiza em markdown as obras do acervo em português (`pt-BR`). As edições em inglês e em latim estão **ocultas por enquanto** (decisão de 2026-10-16: só português até a internacionalização completa do site). Conta com alternador inteligente de idioma no leitor e na ficha do livro (`relatedEditionSlug`), permitindo a comparação imediata entre o vernáculo e o original.
+- **🏛️ Acervo Histórico Universal**: 256 obras no catálogo público, todas em português, 100 autores com obra e cerca de 12 milhões de palavras de literatura cristã clássica (230 delas são traduções por IA, identificadas como tal e com revisão humana pendente) (Patrística Grega e Latina, Escolástica Medieval, Reforma Protestante e Avivamento Puritano).
 
 ---
 
@@ -29,7 +29,7 @@ Os grandes textos da tradição cristã — Padres da Igreja, reformadores, puri
 
 Cada um administre aos outros o dom como o recebeu — mordomia, aqui, é técnica aplicada a acervo: verificar proveniência obra a obra, publicar só o que é de fato livre, e construir um leitor decente em vez de um PDF escaneado torto. O catálogo não tem filtro de linhagem doutrinária — o critério é domínio público verificável, não afinidade teológica de quem cura.
 
-Hoje são 288 obras no ar, parte delas traduções por IA ainda sem revisão humana (sempre identificadas), sobre uma base técnica sólida — API própria, busca full-text em português, auditoria de direitos autorais real, não decorativa. A visão é crescer devagar e certo: cada obra nova é permanente e uma página que pode virar a referência em português pra quem busca "Confissões de Agostinho" ou "Institutas de Calvino" — um Project Gutenberg cristão, mas com curadoria e leitor de verdade.
+Hoje são 256 obras no ar, parte delas traduções por IA ainda sem revisão humana (sempre identificadas), sobre uma base técnica sólida — API própria, busca full-text em português, auditoria de direitos autorais real, não decorativa. A visão é crescer devagar e certo: cada obra nova é permanente e uma página que pode virar a referência em português pra quem busca "Confissões de Agostinho" ou "Institutas de Calvino" — um Project Gutenberg cristão, mas com curadoria e leitor de verdade.
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -148,7 +148,7 @@ O template de proveniência fica em `server/texts/README.md`.
 A regra 3 acima é a meta; o estado hoje é este, sem arredondar:
 
 - Os **textos originais** são de autores mortos há séculos: sem risco.
-- As **232 traduções por IA** estão marcadas como tal no leitor, com "revisão
+- As **traduções por IA** (230 no ar) estão marcadas como tal no leitor, com "revisão
   humana: pendente" e licença CC BY-SA 4.0 (`license_type`, `attribution_text`).
   A titularidade de uma tradução gerada por IA não é pacífica juridicamente;
   o selo vale como declaração de intenção, e esse ponto vai ao parecer jurídico.

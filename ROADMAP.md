@@ -2339,7 +2339,7 @@ Transformar o frontend do Scriptorium Divinum na principal referência lusófona
 ## 🏛️ Item 18: Catálogo universal, paridade bilíngue e revisão antes do deploy — ✅ ENTREGUE 2026-10-16 (com ressalvas)
 
 ### 1. O que foi entregue (números medidos num ensaio contra cópia da produção)
-- **288 obras no ar** (261 em português, 25 em inglês, 2 em latim), **106 autores com obra**, ~16,7 milhões de palavras servidas. 232 são traduções por IA, identificadas no leitor, com revisão humana pendente.
+- **256 obras no ar, todas em português**, 100 autores com obra, ~12,1 milhões de palavras; 230 são traduções por IA, identificadas no leitor, com revisão humana pendente. O banco tem 288 obras: as 25 em inglês, as 2 em latim, o Calvino das Relíquias e o Proslogion estão **ocultos** (seed `zzzz_ocultar_obras_2026-10-16.sql`; apagar o arquivo as reativa).
 - **Vínculos entre edições (`related_edition_slug`)**: 40, sempre nos dois sentidos, ligados numa segunda fase do seed.
 - **Alternador de idioma** na ficha da obra (`LivroDetalhes.tsx`) e no leitor (`Reader.tsx`).
 - **Catálogo universal revisado** (`add_catalogo_universal_2026.sql`, copiado em `scripts/` e `server/src/db/seeds/`): só insere obras novas (`DO NOTHING`); 100 entram; 21 repetidas ficam de fora; nenhuma das 188 já publicadas é alterada.
@@ -2353,12 +2353,13 @@ Transformar o frontend do Scriptorium Divinum na principal referência lusófona
 ### 3. Pendências do acervo, em ordem
 - [ ] **Proveniência obra a obra** das 100 publicadas em 16/10: qual edição entrou na tradução e por que é domínio público (regra 3 do README). Parecer jurídico sobre tradução gerada por IA.
 - [ ] **Traduzir por inteiro** `apologia-da-confissao-de-augsburgo` (13% em inglês) e `suma-teologica-segunda-parte-da-segunda-parte` (bloco de ~22 mil palavras); hoje fora do catálogo. Mesmo trabalho em `breve-catecismo-westminster` (37% em inglês, já publicado).
-- [ ] **`tratado-sobre-as-reliquias-calvino`**: arquivo corrompido (inglês intercalado fora de ordem com o texto de Calvino e um catálogo do editor). Reprocessar a partir da fonte; até lá, avaliar despublicar.
+- [ ] **`tratado-sobre-as-reliquias-calvino` (oculto)**: arquivo corrompido (inglês intercalado fora de ordem com o texto de Calvino e um catálogo do editor). Reprocessar a partir da fonte e reativar.
 - [ ] **Notas de rodapé soltas** (`[3798]`) em Irineu, Cassiano, Hipólito, Hermas: ligar à nota ou remover.
 - [ ] **28 textos longos sem título** (sumário vazio no leitor): dar estrutura (título por capítulo ou homilia). Isso também destrava mais comentários bíblicos (Crisóstomo, Agostinho).
 - [ ] **Ano e língua originais** nas 100 novas (hoje vazios em quase todas): preencher com fonte, não por estimativa.
 - [ ] **Unificar o rótulo de idioma** (`Inglês` × `English`, 2 obras) e a duplicata de autores já existente em produção (`agostinho-de-hipona` e `santo-agostinho`, `joao-crisostomo` e `sao-joao-crisostomo` etc.).
 - [ ] **Leitor: `#hash` da URL** para abrir direto no capítulo (hoje o link de comentário leva à obra).
-- [ ] **21 arquivos de texto duplicados** continuam em `server/texts/` sem catálogo; remover depois de confirmado o deploy.
-- [ ] **Proslogion:** o texto publicado tem 2.353 palavras e a versão nova 9.765; decidir se a nova substitui o conteúdo sob o slug `proslogion`.
+- [ ] **Traduções alternativas fora do catálogo** (mesma obra, tradução diferente): `da-liberdade-do-cristao-martinho-lutero`, `confissoes-santo-agostinho`, `a-unidade-da-igreja-catolica-cipriano`, `comentario-aos-galatas-martinho-lutero`, `proslogion-anselmo`. Comparar com a publicada e decidir qual fica. (5 arquivos redundantes de fato já foram removidos.)
+- [ ] **Internacionalização (EN):** para voltar a publicar edições em inglês faltam interface, busca em inglês e proveniência por edição. Decisão de 2026-10-16: só português por enquanto.
+- [ ] **Proslogion (oculto):** o texto publicado tem 2.353 palavras e a versão nova (`proslogion-anselmo.md`) ~9,7 mil; revisar a nova e decidir se substitui o conteúdo sob o slug `proslogion`, depois reativar.
 

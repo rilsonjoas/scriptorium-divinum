@@ -383,6 +383,7 @@ ROADMAP: **conferir o efeito, nunca o log.**
 - **232 traduções por IA** (CC BY-SA 4.0, revisão humana pendente); as outras 56 são textos de edições antigas ou originais em português, em domínio público.
 - **106 autores com obra** (107 cadastrados; 1 sem obra).
 - **~16,7 milhões de palavras** nos 281 arquivos que o catálogo serve (4 obras ainda sem arquivo).
+- **No ar para o público, depois do ocultamento descrito na última entrada: 256 obras em português, 100 autores com obra, ~12,1 milhões de palavras, 230 traduções por IA.**
 
 **O que a versão anterior desta entrada afirmava e não era verdade:** "270 obras em português", "125 autores com dados biográficos", "18,4 milhões de palavras" e "100% de integridade: zero obras com truncamento, marcadores residuais de OCR ou tradução resumida". A medição mecânica achou, entre os textos alterados: trechos inteiros em inglês (`tratado-sobre-as-reliquias-calvino`, `apologia-da-confissao-de-augsburgo`, `suma-teologica-segunda-parte-da-segunda-parte`, `breve-catecismo-westminster`), números de nota de rodapé soltos (`[3798]`) em obras como Irineu e Cassiano, e 28 textos longos sem título algum (o sumário do leitor fica vazio). Isso não bloqueia o deploy, mas precisa ficar visível em vez de escondido atrás de "100%".
 
@@ -439,3 +440,18 @@ ROADMAP: **conferir o efeito, nunca o log.**
 - **Licença das traduções por IA: CC BY-SA 4.0**, a mesma das 132 já publicadas. Texto original em domínio público é marcado como tal. Risco assumido e a levar ao jurídico: a titularidade de tradução gerada por IA não é pacífica, então o selo vale como declaração de intenção, e o risco maior é a **edição-fonte** (se foi uma tradução ou edição moderna com direitos), que nas 100 novas **não foi auditada** e está dita assim na atribuição.
 - **Segurado fora deste deploy** por terem trechos em inglês: `apologia-da-confissao-de-augsburgo` (13%) e `suma-teologica-segunda-parte-da-segunda-parte` (bloco de ~22 mil palavras). Entram quando forem traduzidos por inteiro.
 - **Pendente de decisão do autor:** `tratado-sobre-as-reliquias-calvino` está estruturalmente corrompido (parágrafos em inglês da dissertação do editor intercalados fora de ordem com o texto de Calvino, e um catálogo do editor misturado). A versão em produção era pior; a nova melhora, mas não resolve. Recomendação: despublicar até reprocessar a partir da fonte.
+
+---
+
+## 2026-10-16 — Só obras em português no ar, e o que "despublicar" passou a significar
+
+**Decidido (Rilson):** por enquanto o site publica só obras em português. As edições em inglês (25) e em latim (2) ficam ocultas até uma internacionalização completa (interface, busca em inglês, proveniência de cada edição). Também saem do ar `tratado-sobre-as-reliquias-calvino` (arquivo corrompido) e `proslogion` (texto publicado com 2.353 palavras, versão nova de ~9,7 mil aguardando revisão).
+
+**Como ficou:**
+- **Seed `zzzz_ocultar_obras_2026-10-16.sql`**, que roda por último de propósito. Os seeds antigos fazem `published = EXCLUDED.published` a cada deploy; ocultar direto no banco, ou por migration, seria desfeito no deploy seguinte. Para reativar qualquer coisa, apagar a linha ou o arquivo: no deploy seguinte os seeds originais republicam sozinhos.
+- **Vínculo entre edições** só aparece se a edição vinculada estiver publicada (a API devolve `relatedEditionSlug: null` caso contrário), para o botão "ver outra edição" não levar a um 404.
+
+**Furo achado no caminho:** `published` só era respeitado na listagem, na busca, na página do autor e no sitemap. O **detalhe** (`/api/v1/books/:id`), o **texto** (`/text`) e a **contagem de obras por autor** ignoravam, então uma obra "despublicada" continuava acessível por link direto e legível no leitor. Agora detalhe e texto devolvem 404 e o autor só aparece se tiver obra publicada (o admin continua vendo tudo com `includeUnavailable=true`). Coberto por teste de integração. Esse furo existia antes desta semana.
+
+**Arquivos removidos de `server/texts/`** (redundantes de fato): `imitacao-de-cristo-pt.md` (cópia idêntica, mesmo hash), e as partes 1 e 2 de `exposicao-da-fe-ortodoxa` e de `a-regra-pastoral` (a obra inteira já está publicada). **Mantidos fora do catálogo, para revisão**, por serem *traduções diferentes* da mesma obra e não cópias (texto em comum entre 0% e 17%): `da-liberdade-do-cristao-martinho-lutero`, `confissoes-santo-agostinho`, `a-unidade-da-igreja-catolica-cipriano`, `comentario-aos-galatas-martinho-lutero` e `proslogion-anselmo`.
+
