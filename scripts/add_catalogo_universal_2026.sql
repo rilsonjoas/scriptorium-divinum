@@ -6,7 +6,10 @@
 --   * Só INSERE obras que ainda não existem (ON CONFLICT (slug) DO NOTHING).
 --     Nada de obra já publicada é alterado: título, idioma e publicação ficam.
 --   * Obras que repetem uma já publicada (mesmo arquivo, mesmo conteúdo, ou
---     partes de uma obra que já existe inteira) não entram: ver LEIAME no PR.
+--     partes de uma obra que já existe inteira) não entram.
+--   * Ficam de fora, até serem traduzidas por inteiro: apologia-da-confissao-de-augsburgo
+--     (13% do texto em inglês) e suma-teologica-segunda-parte-da-segunda-parte
+--     (bloco de ~22 mil palavras em inglês).
 --   * related_edition_slug é ligado numa segunda fase, depois de todas as obras
 --     existirem, sempre nos dois sentidos e sem sobrescrever vínculo existente.
 --   * Idioma, flag de IA, licença e atribuição vêm do próprio texto e dos
@@ -327,33 +330,6 @@ VALUES (
   ARRAY['Patrística Grega e Educação Cristã'],
   ARRAY['sao-basilio-magno', 'aos-jovens-sobre-a-literatura-grega-basilio', 'classicos-cristaos'],
   '/texts/aos-jovens-sobre-a-literatura-grega-basilio.md',
-  false,
-  true,
-  true,
-  'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
-)
-ON CONFLICT (slug) DO NOTHING;
-INSERT INTO books (
-  title, author_id, language, description, slug, original_title,
-  publication_year_translation, translator,
-  original_languages, categories, tags, online_read_path,
-  featured, published, translation_is_ai,
-  license_type, attribution_text
-)
-VALUES (
-  'Apologia da Confissão de Augsburgo',
-  (SELECT id FROM authors WHERE slug = 'philipp-melanchthon'),
-  'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
-  'apologia-da-confissao-de-augsburgo',
-  NULL,
-  2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
-  NULL,
-  ARRAY['Teologia e Espiritualidade Clássica'],
-  ARRAY['introducao', 'apologia-da-confissao-de-augsburgo', 'classicos-cristaos'],
-  '/texts/apologia-da-confissao-de-augsburgo.md',
   false,
   true,
   true,
@@ -2502,33 +2478,6 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'Suma Teológica — Segunda Parte da Segunda Parte (Secunda Secundae)',
-  (SELECT id FROM authors WHERE slug = 'sao-tomas-de-aquino'),
-  'Português',
-  'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
-  'suma-teologica-segunda-parte-da-segunda-parte',
-  NULL,
-  2026,
-  'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
-  NULL,
-  ARRAY['Teologia Moral e Virtudes Escolásticas'],
-  ARRAY['santo-tomas-de-aquino', 'suma-teologica-segunda-parte-da-segunda-parte', 'classicos-cristaos'],
-  '/texts/suma-teologica-segunda-parte-da-segunda-parte.md',
-  false,
-  true,
-  true,
-  'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Revisão humana: pendente. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
-)
-ON CONFLICT (slug) DO NOTHING;
-INSERT INTO books (
-  title, author_id, language, description, slug, original_title,
-  publication_year_translation, translator,
-  original_languages, categories, tags, online_read_path,
-  featured, published, translation_is_ai,
-  license_type, attribution_text
-)
-VALUES (
   'Suma Teológica — Terceira Parte (Tertia Pars)',
   (SELECT id FROM authors WHERE slug = 'sao-tomas-de-aquino'),
   'Português',
@@ -2797,7 +2746,6 @@ UPDATE books SET related_edition_slug = 'the-city-of-god' WHERE slug = 'a-cidade
 UPDATE books SET related_edition_slug = 'the-consolation-of-philosophy' WHERE slug = 'a-consolacao-da-filosofia-boecio' AND related_edition_slug IS NULL;
 UPDATE books SET related_edition_slug = 'the-holy-war' WHERE slug = 'a-guerra-santa-john-bunyan' AND related_edition_slug IS NULL;
 UPDATE books SET related_edition_slug = 'the-apostolic-tradition-of-hippolytus' WHERE slug = 'a-tradicao-apostolica-hipolito' AND related_edition_slug IS NULL;
-UPDATE books SET related_edition_slug = 'the-apology-of-the-augsburg-confession' WHERE slug = 'apologia-da-confissao-de-augsburgo' AND related_edition_slug IS NULL;
 UPDATE books SET related_edition_slug = 'commentary-on-the-epistle-to-the-galatians' WHERE slug = 'comentario-aos-galatas-lutero' AND related_edition_slug IS NULL;
 UPDATE books SET related_edition_slug = 'comentario-aos-galatas-lutero' WHERE slug = 'commentary-on-the-epistle-to-the-galatians' AND related_edition_slug IS NULL;
 UPDATE books SET related_edition_slug = 'da-liberdade-do-cristao' WHERE slug = 'concerning-christian-liberty' AND related_edition_slug IS NULL;
@@ -2818,13 +2766,10 @@ UPDATE books SET related_edition_slug = 'on-prayer-and-the-contemplative-life' W
 UPDATE books SET related_edition_slug = 'vida-de-sao-malaquias-bernardo-de-claraval' WHERE slug = 'st-bernard-of-clairvauxs-life-of-st-malachy-of-armagh' AND related_edition_slug IS NULL;
 UPDATE books SET related_edition_slug = 'summa-theologica-part-i-prima-pars' WHERE slug = 'suma-teologica-primeira-parte' AND related_edition_slug IS NULL;
 UPDATE books SET related_edition_slug = 'summa-theologica-part-i-ii-pars-prima-secundae' WHERE slug = 'suma-teologica-primeira-parte-da-segunda-parte' AND related_edition_slug IS NULL;
-UPDATE books SET related_edition_slug = 'summa-theologica-part-ii-ii-secunda-secundae' WHERE slug = 'suma-teologica-segunda-parte-da-segunda-parte' AND related_edition_slug IS NULL;
 UPDATE books SET related_edition_slug = 'summa-theologica-part-iii-tertia-pars' WHERE slug = 'suma-teologica-terceira-parte' AND related_edition_slug IS NULL;
 UPDATE books SET related_edition_slug = 'suma-teologica-primeira-parte-da-segunda-parte' WHERE slug = 'summa-theologica-part-i-ii-pars-prima-secundae' AND related_edition_slug IS NULL;
 UPDATE books SET related_edition_slug = 'suma-teologica-primeira-parte' WHERE slug = 'summa-theologica-part-i-prima-pars' AND related_edition_slug IS NULL;
-UPDATE books SET related_edition_slug = 'suma-teologica-segunda-parte-da-segunda-parte' WHERE slug = 'summa-theologica-part-ii-ii-secunda-secundae' AND related_edition_slug IS NULL;
 UPDATE books SET related_edition_slug = 'suma-teologica-terceira-parte' WHERE slug = 'summa-theologica-part-iii-tertia-pars' AND related_edition_slug IS NULL;
-UPDATE books SET related_edition_slug = 'apologia-da-confissao-de-augsburgo' WHERE slug = 'the-apology-of-the-augsburg-confession' AND related_edition_slug IS NULL;
 UPDATE books SET related_edition_slug = 'a-tradicao-apostolica-hipolito' WHERE slug = 'the-apostolic-tradition-of-hippolytus' AND related_edition_slug IS NULL;
 UPDATE books SET related_edition_slug = 'a-cidade-de-deus-agostinho' WHERE slug = 'the-city-of-god' AND related_edition_slug IS NULL;
 UPDATE books SET related_edition_slug = 'confissoes' WHERE slug = 'the-confessions-of-st-augustine' AND related_edition_slug IS NULL;
