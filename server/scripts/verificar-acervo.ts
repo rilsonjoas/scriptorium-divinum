@@ -100,7 +100,7 @@ async function main() {
   for (const f of arquivos) analises.set(f, analisarTexto(readFileSync(path.join(TEXTS_DIR, f), 'utf-8')));
 
   const url = process.env.DATABASE_URL;
-  let publicadaPorArquivo = new Map<string, boolean>();
+  const publicadaPorArquivo = new Map<string, boolean>();
 
   if (url) {
     const sql = postgres(url, { max: 1 });
