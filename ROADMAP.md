@@ -2360,6 +2360,8 @@ Transformar o frontend do Scriptorium Divinum na principal referência lusófona
 - [ ] **Unificar o rótulo de idioma** (`Inglês` × `English`, 2 obras) e a duplicata de autores já existente em produção (`agostinho-de-hipona` e `santo-agostinho`, `joao-crisostomo` e `sao-joao-crisostomo` etc.).
 - [ ] **Leitor: `#hash` da URL** para abrir direto no capítulo (hoje o link de comentário leva à obra).
 - [ ] **Traduções alternativas fora do catálogo** (mesma obra, tradução diferente): `da-liberdade-do-cristao-martinho-lutero`, `confissoes-santo-agostinho`, `a-unidade-da-igreja-catolica-cipriano`, `comentario-aos-galatas-martinho-lutero`, `proslogion-anselmo`. Comparar com a publicada e decidir qual fica. (5 arquivos redundantes de fato já foram removidos.)
+- [ ] **Citações de Anselmo (2) apontam para `proslogion`, hoje oculto**: voltam a funcionar quando o Proslogion for republicado. Corrigir também o campo `source` delas.
+- [ ] **Lecionário: 4 links quebrados para o Scriptorium** (`a-cidade-de-deus`, `pensamentos`, `por-que-deus-se-fez-homem`, `compendio-da-suma-teologica`), ver `docs/DECISOES.md`.
 - [ ] **Internacionalização (EN):** para voltar a publicar edições em inglês faltam interface, busca em inglês e proveniência por edição. Decisão de 2026-10-16: só português por enquanto.
 - [ ] **Proslogion (oculto):** o texto publicado tem 2.353 palavras e a versão nova (`proslogion-anselmo.md`) ~9,7 mil; revisar a nova e decidir se substitui o conteúdo sob o slug `proslogion`, depois reativar.
 
