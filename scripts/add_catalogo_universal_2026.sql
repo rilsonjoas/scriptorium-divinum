@@ -48,12 +48,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'A Catequese dos Não Instruídos (De Catechizandis Rudibus)',
+  'A Catequese dos Não Instruídos',
   (SELECT id FROM authors WHERE slug = 'agostinho-de-hipona'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'a-catequese-dos-nao-instruidos-agostinho',
-  NULL,
+  'De Catechizandis Rudibus',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -75,12 +75,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'A Cidade de Deus (De Civitate Dei contra Paganos)',
+  'A Cidade de Deus',
   (SELECT id FROM authors WHERE slug = 'agostinho-de-hipona'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'a-cidade-de-deus-agostinho',
-  NULL,
+  'De Civitate Dei contra Paganos',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -102,12 +102,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'A Criação do Homem (De Hominis Opificio)',
+  'A Criação do Homem',
   (SELECT id FROM authors WHERE slug = 'sao-gregorio-de-nissa'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'a-criacao-do-homem-gregorio-de-nissa',
-  NULL,
+  'De Hominis Opificio',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -129,12 +129,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'A Demetriano (Ad Demetrianum)',
+  'A Demetriano',
   (SELECT id FROM authors WHERE slug = 'cipriano-de-cartago'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'a-demetriano-cipriano',
-  NULL,
+  'Ad Demetrianum',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -156,12 +156,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'A Donato (Ad Donatum)',
+  'A Donato',
   (SELECT id FROM authors WHERE slug = 'cipriano-de-cartago'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'a-donato-cipriano',
-  NULL,
+  'Ad Donatum',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -183,12 +183,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'A Escápula (Ad Scapulam)',
+  'A Escápula',
   (SELECT id FROM authors WHERE slug = 'tertuliano'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'a-escapula-tertuliano',
-  NULL,
+  'Ad Scapulam',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -210,12 +210,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'A Fé e o Símbolo (De Fide et Symbolo)',
+  'A Fé e o Símbolo',
   (SELECT id FROM authors WHERE slug = 'agostinho-de-hipona'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'a-fe-e-o-simbolo-agostinho',
-  NULL,
+  'De Fide et Symbolo',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -237,12 +237,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'À Nobreza Cristã da Nação Alemã sobre a Reforma do Estado Cristão (An den christlichen Adel)',
+  'À Nobreza Cristã da Nação Alemã sobre a Reforma do Estado Cristão',
   (SELECT id FROM authors WHERE slug = 'martinho-lutero'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'a-nobreza-crista-da-nacao-alema-lutero',
-  NULL,
+  'An den christlichen Adel',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -264,12 +264,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'A Oração do Senhor (De Dominica Oratione)',
+  'A Oração do Senhor',
   (SELECT id FROM authors WHERE slug = 'cipriano-de-cartago'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'a-oracao-do-senhor-cipriano',
-  NULL,
+  'De Dominica Oratione',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -318,12 +318,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'Aos Jovens sobre a Utilidade da Literatura Clássica (Ad Adolescentes)',
+  'Aos Jovens sobre a Utilidade da Literatura Clássica',
   (SELECT id FROM authors WHERE slug = 'basilio-de-cesareia'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'aos-jovens-sobre-a-literatura-grega-basilio',
-  NULL,
+  'Ad Adolescentes',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -345,12 +345,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'As Instituições Cenobíticas e os Remédios para os Oito Vícios Principais (De Institutis Coenobiorum)',
+  'As Instituições Cenobíticas e os Remédios para os Oito Vícios Principais',
   (SELECT id FROM authors WHERE slug = 'sao-joao-cassiano'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'as-instituicoes-cenobiticas-joao-cassiano',
-  NULL,
+  'De Institutis Coenobiorum',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -480,12 +480,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'Contra a Mentira (Contra Mendacium)',
+  'Contra a Mentira',
   (SELECT id FROM authors WHERE slug = 'agostinho-de-hipona'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'contra-a-mentira-agostinho',
-  NULL,
+  'Contra Mendacium',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -507,12 +507,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'Contra as Heresias: Livro III — A Tradição Apostólica, a Sucessão Eclesiástica e os Quatro Evangelhos (Adversus Haereses)',
+  'Contra as Heresias: Livro III — A Tradição Apostólica, a Sucessão Eclesiástica e os Quatro Evangelhos',
   (SELECT id FROM authors WHERE slug = 'irineu-de-lyon'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'contra-as-heresias-livro-3-ireneu',
-  NULL,
+  'Adversus Haereses',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -534,12 +534,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'Contra as Heresias: Livro IV — A Unidade da Antiga e Nova Aliança na Lei e no Evangelho (Adversus Haereses)',
+  'Contra as Heresias: Livro IV — A Unidade da Antiga e Nova Aliança na Lei e no Evangelho',
   (SELECT id FROM authors WHERE slug = 'irineu-de-lyon'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'contra-as-heresias-livro-4-ireneu',
-  NULL,
+  'Adversus Haereses',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -561,12 +561,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'Contra as Heresias: Livro V — A Ressurreição da Carne e o Reino dos Justos (Adversus Haereses)',
+  'Contra as Heresias: Livro V — A Ressurreição da Carne e o Reino dos Justos',
   (SELECT id FROM authors WHERE slug = 'irineu-de-lyon'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'contra-as-heresias-livro-5-ireneu',
-  NULL,
+  'Adversus Haereses',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -615,12 +615,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'Contra Práxeas (Adversus Praxean)',
+  'Contra Práxeas',
   (SELECT id FROM authors WHERE slug = 'tertuliano'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'contra-praxeas-tertuliano',
-  NULL,
+  'Adversus Praxean',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -642,12 +642,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'Da Continência (De Continentia)',
+  'Da Continência',
   (SELECT id FROM authors WHERE slug = 'agostinho-de-hipona'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'da-continencia-agostinho',
-  NULL,
+  'De Continentia',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -669,12 +669,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'Da Fé nas Coisas Invisíveis (De Fide Rerum Quae Non Videntur)',
+  'Da Fé nas Coisas Invisíveis',
   (SELECT id FROM authors WHERE slug = 'agostinho-de-hipona'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'da-fe-nas-coisas-invisiveis-agostinho',
-  NULL,
+  'De Fide Rerum Quae Non Videntur',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -696,12 +696,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'Sobre a Idolatria (De Idololatria)',
+  'Sobre a Idolatria',
   (SELECT id FROM authors WHERE slug = 'tertuliano'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'da-idolatria-tertuliano',
-  NULL,
+  'De Idololatria',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -723,12 +723,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'Da Mentira (De Mendacio)',
+  'Da Mentira',
   (SELECT id FROM authors WHERE slug = 'agostinho-de-hipona'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'da-mentira-agostinho',
-  NULL,
+  'De Mendacio',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -750,12 +750,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'Da Natureza do Bem (De Natura Boni)',
+  'Da Natureza do Bem',
   (SELECT id FROM authors WHERE slug = 'agostinho-de-hipona'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'da-natureza-do-bem-agostinho',
-  NULL,
+  'De Natura Boni',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -804,12 +804,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'Da Paciência (De Patientia)',
+  'Da Paciência',
   (SELECT id FROM authors WHERE slug = 'tertuliano'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'da-paciencia-tertuliano',
-  NULL,
+  'De Patientia',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -831,12 +831,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'Da Santa Virgindade (De Sancta Virginitate)',
+  'Da Santa Virgindade',
   (SELECT id FROM authors WHERE slug = 'agostinho-de-hipona'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'da-santa-virgindade-agostinho',
-  NULL,
+  'De Sancta Virginitate',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -885,12 +885,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'Diálogo contra os Luciferianos (Dialogus contra Luciferianos)',
+  'Diálogo contra os Luciferianos',
   (SELECT id FROM authors WHERE slug = 'sao-jeronimo'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'dialogo-contra-os-luciferianos-jeronimo',
-  NULL,
+  'Dialogus contra Luciferianos',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -939,12 +939,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'Didaquê (O Ensino dos Doze Apóstolos)',
+  'Didaquê',
   (SELECT id FROM authors WHERE slug = 'igreja-antiga'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'didaque-doutrina-dos-doze-apostolos',
-  NULL,
+  'O Ensino dos Doze Apóstolos',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -966,12 +966,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'Discurso aos Gregos: Apologia contra os Filósofos Pagãos (Oratio ad Graecos)',
+  'Discurso aos Gregos: Apologia contra os Filósofos Pagãos',
   (SELECT id FROM authors WHERE slug = 'taciano-o-sirio'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'discurso-aos-gregos-taciano',
-  NULL,
+  'Oratio ad Graecos',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -993,12 +993,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'Do Bem da Viuvez (De Bono Viduitatis)',
+  'Do Bem da Viuvez',
   (SELECT id FROM authors WHERE slug = 'agostinho-de-hipona'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'do-bem-da-viuvez-agostinho',
-  NULL,
+  'De Bono Viduitatis',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -1020,12 +1020,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'Do Bem do Matrimônio (De Bono Coniugali)',
+  'Do Bem do Matrimônio',
   (SELECT id FROM authors WHERE slug = 'agostinho-de-hipona'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'do-bem-do-matrimonio-agostinho',
-  NULL,
+  'De Bono Coniugali',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -1047,12 +1047,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'Do Cuidado Devido aos Mortos (De Cura pro Mortuis Gerenda)',
+  'Do Cuidado Devido aos Mortos',
   (SELECT id FROM authors WHERE slug = 'agostinho-de-hipona'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'do-cuidado-devido-aos-mortos-agostinho',
-  NULL,
+  'De Cura pro Mortuis Gerenda',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -1074,12 +1074,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'Do Trabalho dos Monges (De Opere Monachorum)',
+  'Do Trabalho dos Monges',
   (SELECT id FROM authors WHERE slug = 'agostinho-de-hipona'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'do-trabalho-dos-monges-agostinho',
-  NULL,
+  'De Opere Monachorum',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -1101,12 +1101,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'Dos Espetáculos (De Spectaculis)',
+  'Dos Espetáculos',
   (SELECT id FROM authors WHERE slug = 'tertuliano'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'dos-espetaculos-tertuliano',
-  NULL,
+  'De Spectaculis',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -1128,12 +1128,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'Exortação ao Martírio (Exhortatio ad Martyrium)',
+  'Exortação ao Martírio',
   (SELECT id FROM authors WHERE slug = 'cipriano-de-cartago'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'exortacao-ao-martirio-cipriano',
-  NULL,
+  'Exhortatio ad Martyrium',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -1155,12 +1155,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'Exposição do Símbolo dos Apóstolos (Commentarius in Symbolum Apostolorum)',
+  'Exposição do Símbolo dos Apóstolos',
   (SELECT id FROM authors WHERE slug = 'rufino-de-aquileia'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'exposicao-do-simbolo-dos-apostolos-rufino',
-  NULL,
+  'Commentarius in Symbolum Apostolorum',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -1614,12 +1614,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'O Bem da Paciência (De Bono Patientiae)',
+  'O Bem da Paciência',
   (SELECT id FROM authors WHERE slug = 'cipriano-de-cartago'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'o-bem-da-paciencia-cipriano',
-  NULL,
+  'De Bono Patientiae',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -1668,12 +1668,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'O Grande Discurso Catequético (Oratio Catechetica Magna)',
+  'O Grande Discurso Catequético',
   (SELECT id FROM authors WHERE slug = 'sao-gregorio-de-nissa'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'o-grande-discurso-catequetico-gregorio-de-nissa',
-  NULL,
+  'Oratio Catechetica Magna',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -1695,12 +1695,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'O Hábito das Virgens (De Habitu Virginum)',
+  'O Hábito das Virgens',
   (SELECT id FROM authors WHERE slug = 'cipriano-de-cartago'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'o-habito-das-virgens-cipriano',
-  NULL,
+  'De Habitu Virginum',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -1776,12 +1776,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'Resposta aos Judeus (Adversus Judaeos)',
+  'Resposta aos Judeus',
   (SELECT id FROM authors WHERE slug = 'tertuliano'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'resposta-aos-judeus-tertuliano',
-  NULL,
+  'Adversus Judaeos',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -1830,12 +1830,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'Sermões sobre o Mistério Pascal (Paixão, Ressurreição e Ascensão do Senhor)',
+  'Sermões sobre o Mistério Pascal',
   (SELECT id FROM authors WHERE slug = 'sao-leao-magno'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'sermoes-sobre-o-misterio-pascal-sao-leao-magno',
-  NULL,
+  'Paixão, Ressurreição e Ascensão do Senhor',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   ARRAY['Latim'],
@@ -1911,12 +1911,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'Sobre a Alma e a Ressurreição (De Anima et Resurrectione — Diálogo com Santa Macrina)',
+  'Sobre a Alma e a Ressurreição',
   (SELECT id FROM authors WHERE slug = 'sao-gregorio-de-nissa'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'sobre-a-alma-e-a-ressurreicao-gregorio-nissa',
-  NULL,
+  'De Anima et Resurrectione — Diálogo com Santa Macrina',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -1938,12 +1938,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'Sobre a Carne de Cristo (De Carne Christi)',
+  'Sobre a Carne de Cristo',
   (SELECT id FROM authors WHERE slug = 'tertuliano'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'sobre-a-carne-de-cristo-tertuliano',
-  NULL,
+  'De Carne Christi',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -1992,12 +1992,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'Sobre a Mortalidade (De Mortalitate)',
+  'Sobre a Mortalidade',
   (SELECT id FROM authors WHERE slug = 'cipriano-de-cartago'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'sobre-a-mortalidade-cipriano',
-  NULL,
+  'De Mortalitate',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -2046,12 +2046,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'Sobre a Oração (De Oratione)',
+  'Sobre a Oração',
   (SELECT id FROM authors WHERE slug = 'tertuliano'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'sobre-a-oracao-tertuliano',
-  NULL,
+  'De Oratione',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -2073,12 +2073,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'Sobre a Ressurreição da Carne (De Resurrectione Carnis)',
+  'Sobre a Ressurreição da Carne',
   (SELECT id FROM authors WHERE slug = 'tertuliano'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'sobre-a-ressurreicao-da-carne-tertuliano',
-  NULL,
+  'De Resurrectione Carnis',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -2100,12 +2100,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'Sobre a Virgindade (De Virginitate)',
+  'Sobre a Virgindade',
   (SELECT id FROM authors WHERE slug = 'sao-gregorio-de-nissa'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'sobre-a-virgindade-gregorio-de-nissa',
-  NULL,
+  'De Virginitate',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -2127,12 +2127,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'Sobre as Boas Obras e as Esmolas (De Opere et Eleemosynis)',
+  'Sobre as Boas Obras e as Esmolas',
   (SELECT id FROM authors WHERE slug = 'cipriano-de-cartago'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'sobre-as-boas-obras-e-as-esmolas-cipriano',
-  NULL,
+  'De Opere et Eleemosynis',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -2154,12 +2154,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'Sobre as Virgens (De Virginibus ad Marcellinam)',
+  'Sobre as Virgens',
   (SELECT id FROM authors WHERE slug = 'ambrosio-de-milao'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'sobre-as-virgens-ambrosio-de-milao',
-  NULL,
+  'De Virginibus ad Marcellinam',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -2181,12 +2181,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'Sobre as Viúvas (De Viduis)',
+  'Sobre as Viúvas',
   (SELECT id FROM authors WHERE slug = 'ambrosio-de-milao'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'sobre-as-viuvas-ambrosio-de-milao',
-  NULL,
+  'De Viduis',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -2208,12 +2208,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'Sobre Homens Ilustres (De Viris Illustribus)',
+  'Sobre Homens Ilustres',
   (SELECT id FROM authors WHERE slug = 'sao-jeronimo'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'sobre-homens-ilustres-jeronimo',
-  NULL,
+  'De Viris Illustribus',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -2235,12 +2235,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'Sobre o Batismo (De Baptismo)',
+  'Sobre o Batismo',
   (SELECT id FROM authors WHERE slug = 'tertuliano'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'sobre-o-batismo-tertuliano',
-  NULL,
+  'De Baptismo',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -2262,12 +2262,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'Sobre o Espírito Santo (De Spiritu Sancto)',
+  'Sobre o Espírito Santo',
   (SELECT id FROM authors WHERE slug = 'ambrosio-de-milao'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'sobre-o-espirito-santo-ambrosio-de-milao',
-  NULL,
+  'De Spiritu Sancto',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   ARRAY['Latim'],
@@ -2289,12 +2289,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'Sobre o Zelo e a Inveja (De Zelo et Livore)',
+  'Sobre o Zelo e a Inveja',
   (SELECT id FROM authors WHERE slug = 'cipriano-de-cartago'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'sobre-o-zelo-e-a-inveja-cipriano',
-  NULL,
+  'De Zelo et Livore',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -2316,12 +2316,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'Sobre os Caídos (De Lapsis)',
+  'Sobre os Caídos',
   (SELECT id FROM authors WHERE slug = 'cipriano-de-cartago'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'sobre-os-caidos-cipriano',
-  NULL,
+  'De Lapsis',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -2343,12 +2343,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'Sobre os Deveres do Clero - Livro I (De Officiis Ministrorum Liber I)',
+  'Sobre os Deveres do Clero - Livro I',
   (SELECT id FROM authors WHERE slug = 'ambrosio-de-milao'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'sobre-os-deveres-do-clero-livro-1-ambrosio-de-milao',
-  NULL,
+  'De Officiis Ministrorum Liber I',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   ARRAY['Latim'],
@@ -2370,12 +2370,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'Sobre os Deveres do Clero - Livros II e III (De Officiis Ministrorum Libri II & III)',
+  'Sobre os Deveres do Clero - Livros II e III',
   (SELECT id FROM authors WHERE slug = 'ambrosio-de-milao'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'sobre-os-deveres-do-clero-livros-2-e-3-ambrosio-de-milao',
-  NULL,
+  'De Officiis Ministrorum Libri II & III',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   ARRAY['Latim'],
@@ -2424,12 +2424,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'Suma Teológica — Primeira Parte da Segunda Parte (Prima Secundae)',
+  'Suma Teológica — Primeira Parte da Segunda Parte',
   (SELECT id FROM authors WHERE slug = 'sao-tomas-de-aquino'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'suma-teologica-primeira-parte-da-segunda-parte',
-  NULL,
+  'Prima Secundae',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -2451,12 +2451,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'Suma Teológica — Primeira Parte (Prima Pars)',
+  'Suma Teológica — Primeira Parte',
   (SELECT id FROM authors WHERE slug = 'sao-tomas-de-aquino'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'suma-teologica-primeira-parte',
-  NULL,
+  'Prima Pars',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -2478,12 +2478,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'Suma Teológica — Terceira Parte (Tertia Pars)',
+  'Suma Teológica — Terceira Parte',
   (SELECT id FROM authors WHERE slug = 'sao-tomas-de-aquino'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'suma-teologica-terceira-parte',
-  NULL,
+  'Tertia Pars',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -2532,12 +2532,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'Tratado a Autólico: Apologia da Fé Cristã e da Criação (Ad Autolycum)',
+  'Tratado a Autólico: Apologia da Fé Cristã e da Criação',
   (SELECT id FROM authors WHERE slug = 'sao-teofilo-de-antioquia'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'tratado-a-autolico-teofilo-antioquia',
-  NULL,
+  'Ad Autolycum',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -2613,12 +2613,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'Vida de Santo Hilarião (Vita Sancti Hilarionis)',
+  'Vida de Santo Hilarião',
   (SELECT id FROM authors WHERE slug = 'sao-jeronimo'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'vida-de-santo-hilariao-jeronimo',
-  NULL,
+  'Vita Sancti Hilarionis',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -2667,12 +2667,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'Vida de São Malaquias, o Monge Cativo (Vita Malchi)',
+  'Vida de São Malaquias, o Monge Cativo',
   (SELECT id FROM authors WHERE slug = 'sao-jeronimo'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'vida-de-sao-malaquias-jeronimo',
-  NULL,
+  'Vita Malchi',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
@@ -2721,12 +2721,12 @@ INSERT INTO books (
   license_type, attribution_text
 )
 VALUES (
-  'Vida de São Paulo, o Primeiro Eremita (Vita Sancti Pauli)',
+  'Vida de São Paulo, o Primeiro Eremita',
   (SELECT id FROM authors WHERE slug = 'sao-jeronimo'),
   'Português',
   'Texto integral em português, traduzido por inteligência artificial (revisão humana pendente).',
   'vida-de-sao-paulo-eremita-jeronimo',
-  NULL,
+  'Vita Sancti Pauli',
   2026,
   'Scriptorium Divinum (tradução por IA, revisão humana pendente)',
   NULL,
