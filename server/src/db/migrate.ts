@@ -9,6 +9,7 @@ import { env } from '../config.js';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 async function main() {
+  const failedSeeds: string[] = [];
   const migrationClient = postgres(env.DATABASE_URL, { max: 1 });
   const db = drizzle(migrationClient);
 
@@ -34,13 +35,33 @@ async function main() {
         await migrationClient.unsafe(sqlContent);
         console.log(`  ✅ Seed aplicado: ${file}`);
       } catch (err: unknown) {
-        console.error(`  ⚠️ Erro no seed ${file}:`, (err instanceof Error ? err.message : String(err)));
+        failedSeeds.push(file);
+        console.error(`  ❌ Erro no seed ${file}:`, (err instanceof Error ? err.message : String(err)));
+        // Seed com BEGIN/COMMIT que falha no meio deixa a conexão em transação
+        // abortada, e TODO seed seguinte falharia com "current transaction is
+        // aborted" (visto em 2026-10-16 com o catálogo universal). O ROLLBACK
+        // devolve a conexão a um estado usável; sem transação aberta ele só
+        // emite um aviso.
+        try {
+          await migrationClient.unsafe('ROLLBACK');
+        } catch {
+          // conexão já utilizável
+        }
       }
     }
   }
 
-  console.log('✅ Migrations e seeds concluídos com sucesso.');
   await migrationClient.end();
+
+  // Falhar alto: antes, o script imprimia "concluídos com sucesso" e saía com
+  // 0 mesmo com seeds quebrados, e o deploy ficava verde com o catálogo atrás
+  // do código. Schema/catálogo atrás do código é pior que deploy vermelho.
+  if (failedSeeds.length > 0) {
+    console.error(`❌ ${failedSeeds.length} seed(s) falharam: ${failedSeeds.join(', ')}`);
+    process.exit(1);
+  }
+
+  console.log('✅ Migrations e seeds concluídos com sucesso.');
 }
 
 main().catch((error) => {
