@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import i18n, { idiomas } from '@/i18n';
+import i18n, { idiomasDisponiveis } from '@/i18n';
 
 interface LanguageSwitcherProps {
   /** 'compact': pílula do cabeçalho (desktop). 'menu': botões maiores, no menu do celular. */
@@ -16,6 +16,9 @@ export function LanguageSwitcher({ variant = 'compact', className = '' }: Langua
   const { t } = useTranslation();
   const menu = variant === 'menu';
 
+  // Com um idioma só não há o que escolher: o seletor some (ver IDIOMAS_ATIVOS).
+  if (idiomasDisponiveis.length < 2) return null;
+
   return (
     <div
       role="group"
@@ -24,7 +27,7 @@ export function LanguageSwitcher({ variant = 'compact', className = '' }: Langua
         menu ? 'text-sm w-full' : 'text-xs'
       } ${className}`}
     >
-      {idiomas.map((item) => {
+      {idiomasDisponiveis.map((item) => {
         const isActive = (i18n.language || 'pt-BR').startsWith(item.codigo.split('-')[0]);
         return (
           <button

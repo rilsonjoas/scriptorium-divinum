@@ -769,7 +769,7 @@ export default function Reader() {
           <p data-leitor-topo className="mb-3 flex items-center gap-1.5 text-xs font-body text-library-bronze-foreground">
             <Sparkles className="h-3.5 w-3.5 shrink-0" />
             Tradução gerada por inteligência artificial
-            {revisaoAprovada ? ' (revisão humana aprovada)' : ' (revisão humana pendente)'}.{' '}
+            {revisaoAprovada ? ' (revisão humana aprovada)' : ''}.{' '}
             <button type="button" onClick={irParaFicha} className="underline underline-offset-2 hover:text-library-wood-foreground">
               Ver detalhes
             </button>
@@ -815,7 +815,7 @@ export default function Reader() {
 
         {/* Dados da obra: abaixo do leitor, fora do texto (decisão de 2026-09-29).
             Os blocos técnicos vêm do banco; o ensaio de abertura do arquivo fica
-            recolhido quando é tradução por IA sem revisão (EdicaoFicha). */}
+            recolhido enquanto for tradução por IA sem aprovação humana (EdicaoFicha). */}
         {(parsed.provenance || bookDetails) && (
           <div ref={fichaRef}>
             <EdicaoFicha

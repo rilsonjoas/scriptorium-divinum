@@ -1,4 +1,4 @@
-import { describe, it, expect, afterEach } from 'vitest';
+import { describe, it, expect, afterEach, vi } from 'vitest';
 import i18n from './index';
 
 describe('i18n', () => {
@@ -17,5 +17,21 @@ describe('i18n', () => {
     expect(i18n.getFixedT('pt-BR')('nav.favoritos')).toBe('Favoritos');
     expect(i18n.getFixedT('en')('nav.favoritos')).toBe('Favorites');
     expect(i18n.getFixedT('es')('nav.favoritos')).toBe('Favoritos');
+  });
+
+  it('oferece só português por enquanto, sem perder os textos de EN e ES', async () => {
+    const { idiomasDisponiveis, IDIOMAS_ATIVOS, idiomas } = await import('./index');
+    expect(IDIOMAS_ATIVOS).toEqual(['pt-BR']);
+    expect(idiomasDisponiveis.map((i) => i.codigo)).toEqual(['pt-BR']);
+    // a base para internacionalizar continua montada
+    expect(idiomas.map((i) => i.codigo)).toEqual(['pt-BR', 'en', 'es']);
+  });
+
+  it('ignora uma preferência antiga de idioma que já não é oferecido', async () => {
+    vi.resetModules();
+    localStorage.setItem('scriptorium:lang', 'en');
+    const novo = await import('./index');
+    expect(novo.default.language).toBe('pt-BR');
+    localStorage.removeItem('scriptorium:lang');
   });
 });

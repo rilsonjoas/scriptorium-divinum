@@ -226,6 +226,17 @@ export const idiomas = [
   { codigo: 'es', rotulo: 'ES', nome: 'Español' },
 ] as const;
 
+/**
+ * Idiomas que o site OFERECE hoje. Decisão de 2026-10-16: só português, até a
+ * interface e o catálogo estarem prontos em outros idiomas. Os textos de EN e ES
+ * continuam em `resources` e todo o mecanismo (i18next, seletor, `<html lang>`)
+ * segue montado: para voltar a oferecer um idioma, acrescente o código aqui.
+ * Fora da lista o idioma não aparece no seletor e uma preferência antiga salva
+ * no navegador é ignorada.
+ */
+export const IDIOMAS_ATIVOS: readonly string[] = ['pt-BR'];
+export const idiomasDisponiveis = idiomas.filter((i) => IDIOMAS_ATIVOS.includes(i.codigo));
+
 const idiomaSalvo = (() => {
   try {
     return localStorage.getItem('scriptorium:lang');
@@ -240,7 +251,7 @@ i18n.use(initReactI18next).init({
     en: { translation: en },
     es: { translation: es },
   },
-  lng: idiomaSalvo || 'pt-BR',
+  lng: idiomaSalvo && IDIOMAS_ATIVOS.includes(idiomaSalvo) ? idiomaSalvo : 'pt-BR',
   fallbackLng: 'pt-BR',
   interpolation: {
     escapeValue: false,

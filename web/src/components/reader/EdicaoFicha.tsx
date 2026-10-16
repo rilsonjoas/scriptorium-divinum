@@ -11,9 +11,11 @@ import type { Book } from '@/types';
  *  3. Contexto         — o ensaio de abertura do arquivo, quando houver.
  *
  * Os blocos 1 e 2 vêm do banco, então são sempre exatos. O ensaio de abertura é
- * texto livre dentro do arquivo; em tradução por IA sem revisão humana ele
- * fica recolhido e rotulado, porque ninguém conferiu as afirmações dele
- * (docs/GERENCIAR-ACERVO.md, "Tom e proveniência").
+ * texto livre dentro do arquivo; em tradução por IA sem aprovação humana ele
+ * fica recolhido e rotulado como texto de IA, porque ninguém conferiu as
+ * afirmações dele (docs/GERENCIAR-ACERVO.md, "Tom e proveniência"). O usuário
+ * final só precisa saber que é texto de IA; o estado interno da revisão não é
+ * exibido enquanto estiver pendente.
  */
 
 const LICENCAS: Record<string, string> = {
@@ -92,10 +94,8 @@ export function EdicaoFicha({ book, contexto, linkObra }: Props) {
             {book.language}
             {ia ? ', tradução gerada por inteligência artificial' : book.translator ? `, ${book.translator}` : ''}
           </Linha>
-          {ia && (
-            <Linha rotulo="Revisão">
-              {revisaoAprovada ? `Revisão humana aprovada${revisadoEm ? ` em ${revisadoEm}` : ''}.` : 'Revisão humana: pendente.'}
-            </Linha>
+          {ia && revisaoAprovada && (
+            <Linha rotulo="Revisão">Revisão humana aprovada{revisadoEm ? ` em ${revisadoEm}` : ''}.</Linha>
           )}
           {licenca && <Linha rotulo="Licença">{licenca}</Linha>}
           {book.attributionText && <Linha rotulo="Atribuição">{book.attributionText}</Linha>}
@@ -107,7 +107,7 @@ export function EdicaoFicha({ book, contexto, linkObra }: Props) {
           {recolherContexto ? (
             <details>
               <summary className="cursor-pointer font-body text-sm font-semibold text-library-wood-foreground">
-                Contexto histórico (texto introdutório gerado por IA, sem revisão)
+                Contexto histórico (texto introdutório gerado por IA)
               </summary>
               <div className="prose prose-sm prose-leitor mt-3 max-w-none text-library-bronze-foreground">
                 <ReactMarkdown remarkPlugins={[remarkGfm]}>{contexto}</ReactMarkdown>

@@ -2,7 +2,7 @@ import { Github, Mail } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useSiteSettings } from '@/hooks/useDatabase';
 import { useTranslation } from 'react-i18next';
-import { idiomas } from '@/i18n';
+import { idiomasDisponiveis } from '@/i18n';
 
 const CLUSTER_LINKS = [
   { label: 'Narniano', href: 'https://narniano.com' },
@@ -133,8 +133,9 @@ export function Footer() {
           </nav>
         </div>
 
+        {idiomasDisponiveis.length > 1 && (
         <div className="mt-6 flex items-center justify-center gap-2 text-xs font-body">
-          {idiomas.map((idioma, idx) => (
+          {idiomasDisponiveis.map((idioma, idx) => (
             <span key={idioma.codigo} className="flex items-center gap-2">
               {idx > 0 && <span aria-hidden="true" className="text-library-gold/50">|</span>}
               <button
@@ -152,6 +153,7 @@ export function Footer() {
             </span>
           ))}
         </div>
+        )}
 
         <div className="text-center text-sm text-library-gold/70 font-body mt-6">
           <p>© {new Date().getFullYear()} {siteName}. {t('rodape.direitos')}</p>

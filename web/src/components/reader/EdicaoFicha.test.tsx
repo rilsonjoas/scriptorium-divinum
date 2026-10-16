@@ -8,7 +8,7 @@ const base = {
   translationIsAi: true,
   humanReviewApprovedAt: null,
   licenseType: 'cc-by-sa-4.0',
-  attributionText: 'Tradução gerada por IA. Revisão humana: pendente.',
+  attributionText: 'Tradução gerada por IA a partir de obra em domínio público.',
   originalTitle: 'De Catechizandis Rudibus',
   originalLanguages: ['Latim'],
   publicationYearOriginal: '399',
@@ -28,7 +28,9 @@ describe('EdicaoFicha', () => {
     expect(screen.getByText('Obra original')).toBeInTheDocument();
     expect(screen.getByText(/De Catechizandis Rudibus · em Latim · 399/)).toBeInTheDocument();
     expect(screen.getByText(/tradução gerada por inteligência artificial/)).toBeInTheDocument();
-    expect(screen.getByText('Revisão humana: pendente.')).toBeInTheDocument();
+    // o usuário final só precisa saber que é texto de IA: revisão pendente não aparece
+    expect(screen.queryByText(/pendente/i)).toBeNull();
+    expect(screen.queryByText('Revisão')).toBeNull();
     expect(screen.getByText('CC BY-SA 4.0')).toBeInTheDocument();
     expect(screen.getByRole('link', { name: 'Avise-nos' })).toHaveAttribute('href', '/sobre#contribuir');
   });
@@ -38,7 +40,7 @@ describe('EdicaoFicha', () => {
     const detalhes = container.querySelector('details');
     expect(detalhes).not.toBeNull();
     expect(detalhes).not.toHaveAttribute('open');
-    expect(screen.getByText(/sem revisão\)$/)).toBeInTheDocument();
+    expect(screen.getByText('Contexto histórico (texto introdutório gerado por IA)')).toBeInTheDocument();
   });
 
   it('mostra o ensaio aberto quando a revisão humana foi aprovada', () => {
