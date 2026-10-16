@@ -1,10 +1,18 @@
+-- ==============================================================================
+-- Taxonomia canônica do acervo (2026-09-29, movida para migration em 2026-10-16)
+--
+-- Antes isto vivia num seed (zzz_populate_canonical_categories) que apagava a
+-- tabela `categories` e reescrevia `books.categories` a cada deploy, desfazendo
+-- qualquer ajuste de categoria feito no painel. Pela regra do acervo (seed só
+-- cria; mudança em obra existente é migration única; o painel manda no resto,
+-- ver docs/GERENCIAR-ACERVO.md) roda uma vez. O conteúdo é o mesmo do seed.
+-- ==============================================================================
+
 -- ============================================================================
 -- POVOAMENTO E NORMALIZAÇÃO CANÔNICA DE CATEGORIAS (TAXONOMIA EM 3 EIXOS)
 -- Data: 2026-09-29
 -- Total de categorias canônicas: 25 (Tradições, Gêneros, Temas)
 -- ============================================================================
-
-BEGIN;
 
 -- 1) Limpar tabela categories para reconstrução limpa e livre de duplicatas de slug
 DELETE FROM categories;
@@ -224,5 +232,3 @@ UPDATE books SET categories = ARRAY['Renovação Católica & Mística Ibérica',
 UPDATE books SET categories = ARRAY['Renovação Católica & Mística Ibérica', 'Sermões & Oratória Sacra', 'Graça, Fé & Justificação']::text[] WHERE slug = 'sermao-de-santo-antonio-aos-peixes';
 UPDATE books SET categories = ARRAY['Igreja Primitiva & Patrística', 'Tratados & Sumas Teológicas', 'Graça, Fé & Justificação']::text[] WHERE slug = 'a-biblia-sagrada-contendo-o-velho-e-o-novo-testamento';
 UPDATE books SET categories = ARRAY['Reforma Protestante', 'Tratados & Sumas Teológicas', 'Graça, Fé & Justificação']::text[] WHERE slug = 'as-95-teses';
-
-COMMIT;

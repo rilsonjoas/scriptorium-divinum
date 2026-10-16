@@ -71,6 +71,13 @@
       "when": 1792190048710,
       "tag": "0009_dados_acervo_2026_10_16",
       "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1792190909836,
+      "tag": "0010_taxonomia_canonica",
+      "breakpoints": true
     }
   ]
 }
