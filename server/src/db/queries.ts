@@ -5,6 +5,16 @@ import type { ListAuthorsQuery } from '../schemas/author.schema.js';
 import type { ListBooksQuery } from '../schemas/book.schema.js';
 
 /**
+ * Vínculo de edição só quando a edição vinculada está PUBLICADA. Sem isso, a
+ * obra aponta para uma edição despublicada (por exemplo, o inglês, ocultado
+ * em 2026-10-16) e o botão "ver outra edição" leva a um 404.
+ */
+const publishedRelatedEditionSlug = sql<string | null>`(
+  SELECT r.slug FROM books r
+  WHERE r.slug = ${books.relatedEditionSlug} AND r.published = true
+)`;
+
+/**
  * Autores com a lista de `onlineReadPath` de cada livro (não agregado):
  * quem chama decide o `bookCount` depois de conferir no disco quais têm
  * texto de fato — isso não dá para fazer em SQL (2026-09-29, mesmo motivo
@@ -33,6 +43,7 @@ export async function listAuthors(filters?: ListAuthorsQuery) {
       updatedAt: authors.updatedAt,
       bookId: books.id,
       bookOnlineReadPath: books.onlineReadPath,
+      bookPublished: books.published,
     })
     .from(authors)
     .leftJoin(books, eq(books.authorId, authors.id))
@@ -41,14 +52,17 @@ export async function listAuthors(filters?: ListAuthorsQuery) {
 
   const byAuthor = new Map<
     string,
-    Omit<(typeof rows)[number], 'bookId' | 'bookOnlineReadPath'> & { bookPaths: (string | null)[] }
+    Omit<(typeof rows)[number], 'bookId' | 'bookOnlineReadPath' | 'bookPublished'> & { bookPaths: (string | null)[] }
   >();
-  for (const { bookId, bookOnlineReadPath, ...author } of rows) {
+  for (const { bookId, bookOnlineReadPath, bookPublished, ...author } of rows) {
+    // Obra despublicada conta como sem leitura (caminho nulo): o autor que só
+    // tem obras ocultas não pode aparecer na lista, a página dele estaria vazia.
+    const path = bookPublished === false ? null : bookOnlineReadPath;
     const existing = byAuthor.get(author.id);
     if (existing) {
-      if (bookId) existing.bookPaths.push(bookOnlineReadPath);
+      if (bookId) existing.bookPaths.push(path);
     } else {
-      byAuthor.set(author.id, { ...author, bookPaths: bookId ? [bookOnlineReadPath] : [] });
+      byAuthor.set(author.id, { ...author, bookPaths: bookId ? [path] : [] });
     }
   }
   const authorsList = [...byAuthor.values()];
@@ -150,7 +164,7 @@ export async function listBooks(filters: Omit<ListBooksQuery, 'page' | 'limit'>)
       tags: books.tags,
       coverImageUrl: books.coverImageUrl,
       onlineReadPath: books.onlineReadPath,
-      relatedEditionSlug: books.relatedEditionSlug,
+      relatedEditionSlug: publishedRelatedEditionSlug,
       featured: books.featured,
       published: books.published,
       translationIsAi: books.translationIsAi,
@@ -207,7 +221,7 @@ export async function getBookByIdOrSlug(idOrSlug: string) {
       // a coluna existe no banco, a API responde sem ela, e o frontend
       // mostra a obra como se nada tivesse sido feito. Foi exatamente o
       // que aconteceu com related_edition_slug em 2026-09-26.
-      relatedEditionSlug: books.relatedEditionSlug,
+      relatedEditionSlug: publishedRelatedEditionSlug,
       featured: books.featured,
       published: books.published,
       translationIsAi: books.translationIsAi,

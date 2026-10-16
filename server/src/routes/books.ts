@@ -79,7 +79,9 @@ export async function bookRoutes(app: FastifyInstance) {
     async (request) => {
       const { idOrSlug } = z.object({ idOrSlug: z.string() }).parse(request.params);
       const book = await getBookByIdOrSlug(idOrSlug);
-      if (!book) {
+      // Obra despublicada não pode continuar acessível por link direto: antes
+      // só a listagem, a busca e o sitemap respeitavam `published`.
+      if (!book || book.published === false) {
         throw new NotFoundError(`Livro '${idOrSlug}'`);
       }
       return { ...book, textAvailable: textAvailable(book.onlineReadPath), readingMinutes: readingMinutes(book.onlineReadPath) };
@@ -100,7 +102,7 @@ export async function bookRoutes(app: FastifyInstance) {
     async (request) => {
       const { idOrSlug } = z.object({ idOrSlug: z.string() }).parse(request.params);
       const book = await getBookByIdOrSlug(idOrSlug);
-      if (!book) {
+      if (!book || book.published === false) {
         throw new NotFoundError(`Livro '${idOrSlug}'`);
       }
       const text = readText(book.onlineReadPath);

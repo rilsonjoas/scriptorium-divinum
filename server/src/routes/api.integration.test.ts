@@ -172,6 +172,58 @@ describe('Scriptorium Divinum API — Testes de Integração', () => {
     expect(res.json()).toHaveProperty('relatedEditionSlug');
   });
 
+  it('obra despublicada some do detalhe, do texto e da lista de autores', async () => {
+    await admin.unsafe(`
+      INSERT INTO authors (id, slug, name) VALUES ('00000000-0000-0000-0000-0000000000b1', 'autor-so-oculto', 'Autor só com obra oculta');
+      INSERT INTO books (id, slug, title, author_id, description, categories, tags, featured, published, language, online_read_path) VALUES
+        ('10000000-0000-0000-0000-0000000000b1', 'obra-oculta-teste', 'Obra oculta', '00000000-0000-0000-0000-0000000000b1', 'x', ARRAY['t'], ARRAY['t'], false, false, 'Inglês', '/texts/integration-fixture.md');
+    `);
+    try {
+      const detalhe = await app.inject({ method: 'GET', url: '/api/v1/books/obra-oculta-teste' });
+      expect(detalhe.statusCode).toBe(404);
+
+      const texto = await app.inject({ method: 'GET', url: '/api/v1/books/obra-oculta-teste/text' });
+      expect(texto.statusCode).toBe(404);
+
+      const autores = await app.inject({ method: 'GET', url: '/api/v1/authors' });
+      expect(autores.json().some((a: { slug: string }) => a.slug === 'autor-so-oculto')).toBe(false);
+
+      // o admin continua vendo (includeUnavailable)
+      const admin_ = await app.inject({ method: 'GET', url: '/api/v1/authors?includeUnavailable=true' });
+      expect(admin_.json().some((a: { slug: string }) => a.slug === 'autor-so-oculto')).toBe(true);
+
+      await admin.unsafe(`UPDATE books SET published = true WHERE slug = 'obra-oculta-teste'`);
+      const publicada = await app.inject({ method: 'GET', url: '/api/v1/books/obra-oculta-teste' });
+      expect(publicada.statusCode).toBe(200);
+    } finally {
+      await admin.unsafe(`DELETE FROM books WHERE slug = 'obra-oculta-teste'; DELETE FROM authors WHERE slug = 'autor-so-oculto'`);
+    }
+  });
+
+  it('relatedEditionSlug some quando a edição vinculada está despublicada', async () => {
+    await admin.unsafe(`
+      INSERT INTO books (id, slug, title, author_id, description, categories, tags, featured, published, language) VALUES
+        ('10000000-0000-0000-0000-0000000000a1', 'obra-pt-vinculo', 'Obra PT', '00000000-0000-0000-0000-000000000001', 'x', ARRAY['t'], ARRAY['t'], false, true, 'Português'),
+        ('10000000-0000-0000-0000-0000000000a2', 'obra-en-vinculo', 'Obra EN', '00000000-0000-0000-0000-000000000001', 'x', ARRAY['t'], ARRAY['t'], false, true, 'Inglês');
+      UPDATE books SET related_edition_slug = 'obra-en-vinculo' WHERE slug = 'obra-pt-vinculo';
+      UPDATE books SET related_edition_slug = 'obra-pt-vinculo' WHERE slug = 'obra-en-vinculo';
+    `);
+    try {
+      const publicada = await app.inject({ method: 'GET', url: '/api/v1/books/obra-pt-vinculo' });
+      expect(publicada.json().relatedEditionSlug).toBe('obra-en-vinculo');
+
+      await admin.unsafe(`UPDATE books SET published = false WHERE slug = 'obra-en-vinculo'`);
+      const oculta = await app.inject({ method: 'GET', url: '/api/v1/books/obra-pt-vinculo' });
+      expect(oculta.json().relatedEditionSlug).toBeNull();
+
+      const lista = await app.inject({ method: 'GET', url: '/api/v1/books?limit=100&includeUnavailable=true' });
+      const item = lista.json().items.find((b: { slug: string }) => b.slug === 'obra-pt-vinculo');
+      expect(item.relatedEditionSlug).toBeNull();
+    } finally {
+      await admin.unsafe(`DELETE FROM books WHERE slug IN ('obra-pt-vinculo', 'obra-en-vinculo')`);
+    }
+  });
+
   it('GET /api/v1/books inclui relatedEditionSlug no catalogo tambem', async () => {
     const res = await app.inject({ method: 'GET', url: '/api/v1/books' });
     expect(res.statusCode).toBe(200);
