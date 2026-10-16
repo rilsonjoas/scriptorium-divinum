@@ -1055,12 +1055,12 @@ afiliado agora, anúncio (AdSense) fica pra depois.**
       ele e está me parecendo bem feito"). Fica registrado aqui para a
       próxima leitura do roadmap não repetir o diagnóstico errado.
 
-- [ ] Estrutura de dado: comentário indexado por `bookSlug`+`chapter`
-      (mesma lógica do Bíblia na Arte)
-- [ ] Primeiro teste: um livro só (Romanos é bom símbolo — Calvino tem
-      comentário clássico nele), antes de prometer a Bíblia inteira
-- [ ] Depois disso pronto, o Lecionário troca a busca por palavra-chave
-      (`4.6` no roadmap dele) pelo casamento exato livro/capítulo
+- [x] **Estrutura de dado e endpoint de comentários bíblicos indexados** — ✅ ENTREGUE 2026-10-16
+      Tabela `biblical_commentaries` (`bible_book`, `chapter`, `verse_start`, `anchor_url`),
+      queries Drizzle e rota `GET /api/v1/commentaries?bibleBook=&chapter=`.
+      Povoado com comentários canônicos de Gálatas (Lutero e Crisóstomo), Mateus 5-7 (Crisóstomo),
+      Efésios, Filipenses, Colossenses e 1 João (Agostinho) via `server/src/db/seeds/add_comentarios_biblicos_2026.sql`.
+- [ ] Integração no Lecionário: conectar a rota `/api/v1/commentaries` do Scriptorium às leituras diárias.
 
 ### "Leia mais sobre isso" (busca simples) — já registrado
 

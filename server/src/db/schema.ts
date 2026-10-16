@@ -272,3 +272,35 @@ export const quotesRelations = relations(quotes, ({ one }) => ({
     references: [books.id],
   }),
 }));
+
+// Comentários e homilias bíblicas clássicas indexadas por livro e capítulo
+// Permite que ferramentas de lecionário e estudo bíblico consultem a exegese histórica
+export const biblicalCommentaries = pgTable(
+  'biblical_commentaries',
+  {
+    id: uuid('id').defaultRandom().primaryKey(),
+    bibleBook: varchar('bible_book', { length: 100 }).notNull(),
+    chapter: integer('chapter').notNull(),
+    verseStart: integer('verse_start'),
+    verseEnd: integer('verse_end'),
+    bookId: uuid('book_id')
+      .notNull()
+      .references(() => books.id, { onDelete: 'cascade' }),
+    title: varchar('title', { length: 500 }).notNull(),
+    excerpt: text('excerpt'),
+    anchorUrl: varchar('anchor_url', { length: 500 }).notNull(),
+    createdAt: timestamp('created_at', { withTimezone: true }).defaultNow().notNull(),
+    updatedAt: timestamp('updated_at', { withTimezone: true }).defaultNow().notNull(),
+  },
+  (table) => [
+    index('idx_commentaries_bible_book_chapter').on(table.bibleBook, table.chapter),
+    index('idx_commentaries_book_id').on(table.bookId),
+  ],
+);
+
+export const biblicalCommentariesRelations = relations(biblicalCommentaries, ({ one }) => ({
+  book: one(books, {
+    fields: [biblicalCommentaries.bookId],
+    references: [books.id],
+  }),
+}));

@@ -25,6 +25,7 @@ import { adminRoutes } from './routes/admin.js';
 import { uploadRoutes, UPLOAD_DIR } from './routes/uploads.js';
 import { shareRoutes } from './routes/share.js';
 import { quoteRoutes } from './routes/quotes.js';
+import { commentaryRoutes } from './routes/commentaries.js';
 import { getSettings } from './db/settings-queries.js';
 
 export async function buildApp() {
@@ -170,6 +171,7 @@ export async function buildApp() {
   await app.register(uploadRoutes);
   await app.register(shareRoutes);
   await app.register(quoteRoutes);
+  await app.register(commentaryRoutes);
 
   return app;
 }

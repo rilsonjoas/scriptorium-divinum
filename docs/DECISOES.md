@@ -401,3 +401,21 @@ ROADMAP: **conferir o efeito, nunca o log.**
    - `[ Criar Card ]`: quando 2 ou mais palavras são selecionadas, abre o diálogo de card tipográfico.
    - `[ Grifar ]`: salva o trecho nas anotações do leitor.
 3. Testes unitários dedicados em `web/src/components/reader/ReaderSelectionMenu.test.tsx` (162 testes verdes no frontend).
+
+---
+
+## 2026-10-16 — Comentários Bíblicos Clássicos Indexados por Livro e Capítulo (API & Seeds)
+
+**Entregue** em 2026-10-16.
+
+**Contexto:** O ecossistema "A Biblioteca" (Scriptorium Divinum, Lecionário, Bíblia na Arte) necessitava de uma forma estruturada para correlacionar leituras bíblicas diárias e dominicais com a exegese clássica dos Padres da Igreja e Reformadores, superando a busca simples por palavra-chave.
+
+**Solução:**
+1. **Schema Drizzle (`biblical_commentaries`):**
+   - Tabela indexada por `(bible_book, chapter)` e chave estrangeira em cascata para `books(id)`.
+   - Campos: `bibleBook`, `chapter`, `verseStart`, `verseEnd`, `title`, `excerpt`, `anchorUrl` e relação Drizzle `biblicalCommentariesRelations`.
+2. **Endpoint REST Fastify (`/api/v1/commentaries`):**
+   - Aceita filtros tipados via Zod: `bibleBook` (ex.: `galatas`, `mateus`, `efesios`), `chapter` e `limit`.
+   - Serialização estrita via schema JSON no Fastify para documentação OpenAPI/Scalar em `/docs`.
+3. **Povoamento Canônico (`seeds/add_comentarios_biblicos_2026.sql`):**
+   - Indexadas as homilias patrísticas e exposições reformadas de Gálatas (Lutero e Crisóstomo), Mateus 5-7 (Sermão da Montanha de Crisóstomo), Efésios, Filipenses, Colossenses e 1 João (Agostinho), com links âncora diretos para o leitor online.
