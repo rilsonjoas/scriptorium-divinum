@@ -448,7 +448,7 @@ ROADMAP: **conferir o efeito, nunca o log.**
 **Decidido (Rilson):** por enquanto o site publica só obras em português. As edições em inglês (25) e em latim (2) ficam ocultas até uma internacionalização completa (interface, busca em inglês, proveniência de cada edição). Também saem do ar `tratado-sobre-as-reliquias-calvino` (arquivo corrompido) e `proslogion` (texto publicado com 2.353 palavras, versão nova de ~9,7 mil aguardando revisão).
 
 **Como ficou:**
-- **Seed `zzzz_ocultar_obras_2026-10-16.sql`**, que roda por último de propósito. Os seeds antigos fazem `published = EXCLUDED.published` a cada deploy; ocultar direto no banco, ou por migration, seria desfeito no deploy seguinte. Para reativar qualquer coisa, apagar a linha ou o arquivo: no deploy seguinte os seeds originais republicam sozinhos.
+- **A ocultação é estado do banco**, registrada na migration `0009_dados_acervo_2026_10_16.sql` e controlada pela chave "Publicada" do painel. Nenhum seed republica mais (ver a entrada "Gestão do acervo" abaixo). Para reativar qualquer obra: chave "Publicada" no painel, obra a obra.
 - **Vínculo entre edições** só aparece se a edição vinculada estiver publicada (a API devolve `relatedEditionSlug: null` caso contrário), para o botão "ver outra edição" não levar a um 404.
 
 **Furo achado no caminho:** `published` só era respeitado na listagem, na busca, na página do autor e no sitemap. O **detalhe** (`/api/v1/books/:id`), o **texto** (`/text`) e a **contagem de obras por autor** ignoravam, então uma obra "despublicada" continuava acessível por link direto e legível no leitor. Agora detalhe e texto devolvem 404 e o autor só aparece se tiver obra publicada (o admin continua vendo tudo com `includeUnavailable=true`). Coberto por teste de integração. Esse furo existia antes desta semana.
@@ -458,4 +458,28 @@ ROADMAP: **conferir o efeito, nunca o log.**
 **Citações que linkavam para edição oculta.** As citações do Scriptorium são em português, mas 12 linkavam para a página da edição em inglês. O seed `zzzz_repontar_citacoes_2026-10-16.sql` (roda depois do que oculta) repassa o link para a edição em português vinculada, quando publicada: 10 citações resolvidas (Cidade de Deus, Institutas, Suma I, Pensées), mais 2 de Pascal que apontavam para um slug que nunca existiu (`pensamentos`). Medido no ensaio: 29 das 31 citações com link apontam para página publicada. **As 2 restantes são de Anselmo** (trechos do Proslogion, capítulo 1) e apontam para `proslogion` assim que ele for republicado; até lá levam a um 404. O campo `source` dessas duas diz "Por que Deus se fez Homem?" (Cur Deus Homo), o que não confere com o trecho: corrigir quando o Proslogion voltar.
 
 **Fora do Scriptorium, mas descoberto aqui:** 4 slugs que o `lewis-quotes.json` do Lecionário usa **nunca existiram** no Scriptorium (404 em produção hoje): `a-cidade-de-deus` (a obra é `a-cidade-de-deus-agostinho`), `pensamentos` (`pensamentos-blaise-pascal`), `por-que-deus-se-fez-homem` (`cur-deus-homo-anselmo`) e `compendio-da-suma-teologica`. Corrigir no repo do Lecionário.
+
+---
+
+## 2026-10-16 — Gestão do acervo: seed só cria, migration muda, o painel manda
+
+**Problema.** Ocultar uma obra pelo painel era desfeito no deploy seguinte. 237 upserts em 137 seeds faziam `DO UPDATE` e reescreviam `published`, `title`, `description`, `attribution_text`, `categories` e `tags`; dois seeds de `UPDATE` refaziam `published` e `featured`; um seed apagava a tabela `categories` e reescrevia `books.categories` em ~190 obras. A data de aprovação humana da Imitação de Cristo era reescrita para "agora" a cada deploy.
+
+**Decisão.** Três donos: o **seed cria** obras e autores novos (`DO NOTHING`); a **migration muda** o que já existe, uma vez; o **painel de admin gerencia** o resto. Manual completo: `docs/GERENCIAR-ACERVO.md`.
+
+**Feito:**
+- 237 upserts viram `DO NOTHING` (só saíram campos citados, `published = true` e `updated_at = NOW()`: nenhum dado exclusivo foi perdido);
+- migration `0009_dados_acervo_2026_10_16.sql` absorve os dois seeds de `UPDATE` (curadoria) e registra a ocultação decidida; migration `0010_taxonomia_canonica.sql` absorve o seed das categorias;
+- o seed que ocultava saiu; `zzzz_repontar_citacoes_2026-10-16.sql` fica como única exceção (só repara link quebrado de citação);
+- a pasta `scripts/` ganhou `LEIAME.md` avisando que os 74 `.sql` dela são históricos e não devem ser rodados.
+
+**Ensaiado** contra cópia da produção, `migrate` duas vezes com exit 0: obras, autores, citações e categorias **idênticos** ao desenho anterior (única diferença: a data de aprovação da Imitação passou a ser preservada); edições simuladas do painel (obra republicada e outra ocultada, título, descrição, destaque, atribuição, descrição de categoria e categorias de uma obra) **sobrevivem** a um novo `migrate`.
+
+**Ferramentas novas:** `pnpm --filter server acervo:verificar` (saúde do acervo; sai com 1 se houver erro em obra publicada) e `scripts/ensaiar-migrate.sh` (ensaio do `migrate` numa cópia da produção).
+
+**Ficha da edição no leitor.** O bloco "Sobre esta edição" passou a ter os dados do banco em blocos (obra original, esta edição, revisão, licença, atribuição), sempre exatos e presentes mesmo sem o ensaio de abertura. O ensaio de abertura (115 textos com superlativos sem fonte) fica **recolhido e rotulado** como texto de IA sem revisão enquanto a revisão humana estiver pendente, e aparece aberto depois da aprovação. Conferido por captura de tela do leitor.
+
+**Correção de uma afirmação minha desta mesma revisão:** eu disse que a internacionalização exigiria traduzir a interface do zero. A interface **já tem** um mecanismo de idiomas (`web/src/i18n`, seletor PT | EN | ES no cabeçalho) que cobre **parte** das telas. O que falta é completar, conferir a busca em inglês e documentar a edição-fonte. Enquanto o catálogo for só em português, o seletor de idioma visível no cabeçalho é uma decisão em aberto.
+
+**Links do Lecionário.** `lewis-quotes.json` (web e mobile) tem **5** slugs que dão 404 hoje: `a-cidade-de-deus`, `pensamentos` e `compendio-da-suma-teologica` (nunca existiram com esse nome; PR #8 do repo do Lecionário aponta para os slugs certos, 13 citações), `institutas-da-religiao-crista` (passa a existir com o deploy do catálogo novo) e `por-que-deus-se-fez-homem` (2 citações que são do Proslogion; esperam o Proslogion voltar). **Ordem:** deploy do Scriptorium primeiro, depois o merge do PR #8.
 

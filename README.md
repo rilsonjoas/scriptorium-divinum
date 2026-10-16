@@ -163,6 +163,13 @@ A regra 3 acima é a meta; o estado hoje é este, sem arredondar:
 
 ---
 
+## 📚 Gerenciar o acervo
+
+Como adicionar, ocultar, remover e corrigir obras, o que o painel de admin faz e o que
+exige seed ou migration, o verificador de saúde do acervo e o ensaio antes do deploy:
+[`docs/GERENCIAR-ACERVO.md`](docs/GERENCIAR-ACERVO.md). Resumo da regra: **seed só cria,
+migration muda o que já existe, o painel manda no resto.**
+
 ## 🤝 Contribuições
 
 Este é um projeto de código aberto dedicado à preservação do patrimônio teológico cristão. Todo o código-fonte está sob a licença **MIT**.

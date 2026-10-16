@@ -219,7 +219,7 @@ volta à mesa (seção "Ordem recomendada").
   (`server/texts/imitacao-de-cristo.md` e `server/texts/imitacao-de-cristo-pt.md`, slug `imitacao-de-cristo`).
   Os 114 capítulos integrais dos 4 livros foram completamente localizados, limpos do ruído de OCR
   e estruturados com cabeçalhos canônicos conferidos contra o índice impresso de 1848 (`docs/imitacao-de-cristo-indice-1848.json`).
-  Script SQL de ativação em `scripts/ativar_imitacao_de_cristo_2026-09-29.sql` com status de revisão humana aprovada e domínio público.
+  Script SQL de ativação (movido para a migration `0009` em 2026-10-16; o arquivo `scripts/ativar_imitacao_de_cristo_2026-09-29.sql` é histórico) com status de revisão humana aprovada e domínio público.
 - [ ] **Os Últimos Fins do Homem (Padre Manuel Bernardes)**: idem, e pior —
   só 14 marcadores "CAPITULO" no scan inteiro. Considerar buscar outro
   scan do Internet Archive antes de tentar salvar este.
@@ -2260,7 +2260,7 @@ ou sair da fila.
 - [x] **Thomas Cranmer & Igreja da Inglaterra, _As Coletas do Ano Cristão (Livro de Oração Comum de 1662)_** (1662) — ✅ ENTREGUE 2026-09-29
   (`server/texts/coletas-livro-de-oracao-comum-1662.md`, slug `coletas-livro-de-oracao-comum-1662`). Tradução clássica das históricas orações litúrgicas para o Advento, Natal, Epifania, Quaresma, Páscoa, Pentecostes e Trindade. Criação do autor `thomas-cranmer`. Script SQL em `server/src/db/seeds/add_bcp_coletas_1662_2026-09-29.sql`.
 - [x] **Taxonomia Canônica em 3 Eixos (25 Categorias Padronizadas)** — ✅ ENTREGUE 2026-09-29
-  Consolidação das mais de 70 categorias dispersas em uma taxonomia erudita e rigorosa de 3 eixos (Tradições Históricas, Gêneros Literários, Temas Teológicos). Banco de dados `categories` e array `books.categories` de todas as 161 obras normalizados via seed `server/src/db/seeds/zzz_populate_canonical_categories_2026-09-29.sql`. A API `/api/v1/categories` agora responde com exatamente 25 categorias nobres e metadados completos.
+  Consolidação das mais de 70 categorias dispersas em uma taxonomia erudita e rigorosa de 3 eixos (Tradições Históricas, Gêneros Literários, Temas Teológicos). Banco de dados `categories` e array `books.categories` de todas as 161 obras normalizados via o antigo seed `zzz_populate_canonical_categories_2026-09-29.sql` (movido para a migration `0010_taxonomia_canonica.sql` em 2026-10-16). A API `/api/v1/categories` agora responde com exatamente 25 categorias nobres e metadados completos.
 - [x] **Santo Efrém da Síria, _Hinos sobre a Natividade e a Fé_** (363 d.C.) — ✅ ENTREGUE 2026-09-29
   (`server/texts/hinos-sobre-a-natividade-efrem-siria.md`, slug `hinos-sobre-a-natividade-efrem-siria`). Tradução a partir do CSCO e Patrologia Syriaca. A 'Cítara do Espírito Santo' celebrando o mistério inefável da Encarnação do Verbo. Criação do autor `santo-efrem-da-siria`. Script SQL em `server/src/db/seeds/add_hinos_sobre_a_natividade_efrem_siria_2026-09-29.sql`.
 - [x] **São Gregório de Nissa, _A Vida de Santa Macrina (Vita Sanctae Macrinae)_** (380 d.C.) — ✅ ENTREGUE 2026-09-29
@@ -2339,10 +2339,10 @@ Transformar o frontend do Scriptorium Divinum na principal referência lusófona
 ## 🏛️ Item 18: Catálogo universal, paridade bilíngue e revisão antes do deploy — ✅ ENTREGUE 2026-10-16 (com ressalvas)
 
 ### 1. O que foi entregue (números medidos num ensaio contra cópia da produção)
-- **256 obras no ar, todas em português**, 100 autores com obra, ~12,1 milhões de palavras; 230 são traduções por IA, identificadas no leitor, com revisão humana pendente. O banco tem 288 obras: as 25 em inglês, as 2 em latim, o Calvino das Relíquias e o Proslogion estão **ocultos** (seed `zzzz_ocultar_obras_2026-10-16.sql`; apagar o arquivo as reativa).
+- **256 obras no ar, todas em português**, 100 autores com obra, ~12,1 milhões de palavras; 230 são traduções por IA, identificadas no leitor, com revisão humana pendente. O banco tem 288 obras: as 25 em inglês, as 2 em latim, o Calvino das Relíquias e o Proslogion estão **ocultos** (migration `0009`; reativar é a chave "Publicada" do painel, obra a obra). Gestão do acervo: `docs/GERENCIAR-ACERVO.md`.
 - **Vínculos entre edições (`related_edition_slug`)**: 40, sempre nos dois sentidos, ligados numa segunda fase do seed.
 - **Alternador de idioma** na ficha da obra (`LivroDetalhes.tsx`) e no leitor (`Reader.tsx`).
-- **Catálogo universal revisado** (`add_catalogo_universal_2026.sql`, copiado em `scripts/` e `server/src/db/seeds/`): só insere obras novas (`DO NOTHING`); 100 entram; 21 repetidas ficam de fora; nenhuma das 188 já publicadas é alterada.
+- **Catálogo universal revisado** (`server/src/db/seeds/add_catalogo_universal_2026.sql`): só insere obras novas (`DO NOTHING`); 100 entram; 21 repetidas ficam de fora; nenhuma das 188 já publicadas é alterada.
 - **Migration 0008** cria `biblical_commentaries`; a rota `/api/v1/commentaries` não devolve obra despublicada.
 - **`migrate.ts`** faz ROLLBACK ao falhar um seed e sai com 1; o `deploy.yml` tem `set -e` e a falha do migrate derruba o deploy.
 - **Testes:** 162 web + 25 server (unitários) + 55 de integração contra banco vazio.
@@ -2360,6 +2360,10 @@ Transformar o frontend do Scriptorium Divinum na principal referência lusófona
 - [ ] **Unificar o rótulo de idioma** (`Inglês` × `English`, 2 obras) e a duplicata de autores já existente em produção (`agostinho-de-hipona` e `santo-agostinho`, `joao-crisostomo` e `sao-joao-crisostomo` etc.).
 - [ ] **Leitor: `#hash` da URL** para abrir direto no capítulo (hoje o link de comentário leva à obra).
 - [ ] **Traduções alternativas fora do catálogo** (mesma obra, tradução diferente): `da-liberdade-do-cristao-martinho-lutero`, `confissoes-santo-agostinho`, `a-unidade-da-igreja-catolica-cipriano`, `comentario-aos-galatas-martinho-lutero`, `proslogion-anselmo`. Comparar com a publicada e decidir qual fica. (5 arquivos redundantes de fato já foram removidos.)
+- [ ] **Decidir o `breve-catecismo-westminster`**: publicado como português, mas o texto é majoritariamente inglês (37% das palavras em blocos em inglês); o `acervo:verificar` o reprova. Ocultar pelo painel, ou traduzir por inteiro.
+- [ ] **Seletor de idioma PT | EN | ES no cabeçalho**: com o catálogo só em português, decidir se fica visível. A interface tem tradução parcial (`web/src/i18n`).
+- [ ] **Textos longos sem título (sumário vazio)**: usar `scripts/chapterize_texts.py` (regra por arquivo; `--check` antes) ou títulos manuais por homilia.
+- [ ] **PR #8 do Lecionário** (links de citação): mergear **depois** do deploy do Scriptorium; ver `docs/DECISOES.md`.
 - [ ] **Citações de Anselmo (2) apontam para `proslogion`, hoje oculto**: voltam a funcionar quando o Proslogion for republicado. Corrigir também o campo `source` delas.
 - [ ] **Lecionário: 4 links quebrados para o Scriptorium** (`a-cidade-de-deus`, `pensamentos`, `por-que-deus-se-fez-homem`, `compendio-da-suma-teologica`), ver `docs/DECISOES.md`.
 - [ ] **Internacionalização (EN):** para voltar a publicar edições em inglês faltam interface, busca em inglês e proveniência por edição. Decisão de 2026-10-16: só português por enquanto.
