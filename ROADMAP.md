@@ -2351,7 +2351,7 @@ Transformar o frontend do Scriptorium Divinum na principal referência lusófona
 "100% em português", "270 obras", "294 obras e 125 autores", "18,4 milhões de palavras" e "zero obras com truncamento ou tradução resumida". A medição achou texto em inglês dentro de obras "traduzidas", números de nota de rodapé soltos e 28 textos longos sem título. Detalhes e decisões em `docs/DECISOES.md` (entrada "Revisão do catálogo antes do deploy").
 
 ### 3. Pendências do acervo, em ordem
-- [ ] **Proveniência obra a obra** das 100 publicadas em 16/10: qual edição entrou na tradução e por que é domínio público (regra 3 do README). Parecer jurídico sobre tradução gerada por IA.
+- [ ] **Proveniência obra a obra** das traduções por IA: qual edição entrou na tradução e por que é domínio público (regra 3 do README). Triagem em `docs/PROVENIENCIA-ACERVO.md`: 60 de risco alto (edições críticas ou traduções modernas, auditar primeiro), 28 médio, 24 baixo, 120 sem fonte nomeada. Parecer jurídico sobre tradução gerada por IA e sobre edições críticas.
 - [ ] **Traduzir por inteiro** `apologia-da-confissao-de-augsburgo` (13% em inglês) e `suma-teologica-segunda-parte-da-segunda-parte` (bloco de ~22 mil palavras); hoje fora do catálogo. Mesmo trabalho em `breve-catecismo-westminster` (37% em inglês, já publicado).
 - [ ] **`tratado-sobre-as-reliquias-calvino` (oculto)**: arquivo corrompido (inglês intercalado fora de ordem com o texto de Calvino e um catálogo do editor). Reprocessar a partir da fonte e reativar.
 - [ ] **Notas de rodapé soltas** (`[3798]`) em Irineu, Cassiano, Hipólito, Hermas: ligar à nota ou remover.

@@ -119,9 +119,10 @@ Pontos do modelo que contam:
   trocou isso em 9 obras.)
 - `original_languages` só com o que o arquivo diz. Na dúvida, `NULL`: campo vazio é melhor
   que campo errado.
-- `attribution_text` precisa **nomear a edição-fonte**. É o campo que protege o projeto
-  se a pergunta for "traduzido de quê?". "A edição-fonte não foi auditada" é uma
-  resposta honesta, mas é uma pendência, não um valor padrão.
+- `attribution_text` deve **nomear a edição-fonte**. É o campo que protege o projeto se a
+  pergunta for "traduzido de quê?". A frase genérica "a partir de obra em domínio público" é
+  o **marcador de pendência**: o verificador lista como INFO as obras que a usam, e
+  `docs/PROVENIENCIA-ACERVO.md` registra a faixa de risco de cada uma.
 - Datas de nascimento e morte de autor só entram com fonte.
 
 ### Remover uma obra
@@ -203,8 +204,10 @@ com nome limpo e sem duplicata; `acervo:verificar` sem erro.
   público usa `public-domain`.
 - A titularidade de uma tradução gerada por IA **não é pacífica juridicamente**: o selo
   CC é uma declaração de intenção. Esse ponto vai ao parecer jurídico.
-- Estado em 2026-10-16: nas 100 obras publicadas naquele dia a edição-fonte **não foi
-  auditada**, e a atribuição diz isso.
+- Estado em 2026-10-17: das 232 traduções por IA, **60 citam edição crítica ou tradução
+  moderna (risco alto), 28 risco médio, 24 risco baixo e 120 não nomeiam a fonte**. O texto
+  público não traz a ressalva (decisão do autor: transparência sem tirar a confiança de quem
+  lê); o controle é o registro `docs/PROVENIENCIA-ACERVO.md` e o verificador.
 
 ## Tom e proveniência (o que o leitor vê)
 

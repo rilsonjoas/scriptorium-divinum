@@ -64,7 +64,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -91,7 +91,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -118,7 +118,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -145,7 +145,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -172,7 +172,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -199,7 +199,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -226,7 +226,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -253,7 +253,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -280,7 +280,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -307,7 +307,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -334,7 +334,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -361,7 +361,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -388,7 +388,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -415,7 +415,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -442,7 +442,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -469,7 +469,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -496,7 +496,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -523,7 +523,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -550,7 +550,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -577,7 +577,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -604,7 +604,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -631,7 +631,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -658,7 +658,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -685,7 +685,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -712,7 +712,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -739,7 +739,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -766,7 +766,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -793,7 +793,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -820,7 +820,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -847,7 +847,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -874,7 +874,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -901,7 +901,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -928,7 +928,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -955,7 +955,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -982,7 +982,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1009,7 +1009,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1036,7 +1036,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1063,7 +1063,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1090,7 +1090,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1117,7 +1117,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1144,7 +1144,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1171,7 +1171,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1198,7 +1198,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1225,7 +1225,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1252,7 +1252,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1279,7 +1279,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1306,7 +1306,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1333,7 +1333,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1360,7 +1360,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1387,7 +1387,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1414,7 +1414,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1441,7 +1441,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1468,7 +1468,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1495,7 +1495,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1522,7 +1522,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1549,7 +1549,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1576,7 +1576,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1603,7 +1603,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1630,7 +1630,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1657,7 +1657,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1684,7 +1684,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1711,7 +1711,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1738,7 +1738,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1765,7 +1765,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1792,7 +1792,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1819,7 +1819,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1846,7 +1846,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1873,7 +1873,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1900,7 +1900,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1927,7 +1927,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1954,7 +1954,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -1981,7 +1981,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2008,7 +2008,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2035,7 +2035,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2062,7 +2062,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2089,7 +2089,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2116,7 +2116,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2143,7 +2143,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2170,7 +2170,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2197,7 +2197,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2224,7 +2224,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2251,7 +2251,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2278,7 +2278,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2305,7 +2305,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2332,7 +2332,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2359,7 +2359,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2386,7 +2386,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2413,7 +2413,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2440,7 +2440,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2467,7 +2467,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2494,7 +2494,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2521,7 +2521,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2548,7 +2548,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2575,7 +2575,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2602,7 +2602,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2629,7 +2629,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2656,7 +2656,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2683,7 +2683,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2710,7 +2710,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 INSERT INTO books (
@@ -2737,7 +2737,7 @@ VALUES (
   true,
   true,
   'cc-by-sa-4.0',
-  'Tradução gerada por IA a partir de obra em domínio público; a edição-fonte não foi auditada. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
+  'Tradução gerada por IA a partir de obra em domínio público. Tradução © 2026 Scriptorium Divinum, CC BY-SA 4.0.'
 )
 ON CONFLICT (slug) DO NOTHING;
 

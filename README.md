@@ -155,9 +155,11 @@ A regra 3 acima é a meta; o estado hoje é este, sem arredondar:
 - O risco concreto está na **edição-fonte**: a tradução parte de algum texto de
   entrada, e se esse texto for uma tradução ou edição moderna com direitos, a
   tradução por IA é obra derivada. Nas obras publicadas em 29/09 a atribuição
-  nomeia a edição-fonte; nas **100 publicadas em 16/10 ela não foi auditada** e
-  a atribuição diz isso expressamente. Auditar obra a obra (qual edição de
-  entrada, e por que está em domínio público) é a pendência número um do acervo.
+  nomeia a edição-fonte; nas **100 publicadas em 16/10 ela não foi auditada** (a
+  atribuição pública traz só a frase genérica; o controle fica em
+  `docs/PROVENIENCIA-ACERVO.md` e no verificador do acervo). Auditar obra a obra
+  (qual edição de entrada, e por que está em domínio público) é a pendência
+  número um do acervo.
 - Quem encontrar um erro ou um problema de direitos deve poder avisar, e a obra
   sai do ar enquanto se apura (`published = false`).
 

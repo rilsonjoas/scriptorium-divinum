@@ -489,7 +489,7 @@ ROADMAP: **conferir o efeito, nunca o log.**
 
 **O usuário final só precisa saber que é texto de IA (decisão do Rilson).** O aviso do leitor diz "Tradução gerada por inteligência artificial" e a ficha mostra o selo de IA, mas **não exibem mais "revisão humana pendente"**. O estado interno da revisão continua em `human_review_approved_at`, no painel e nos documentos; a aprovação, quando existe, segue sendo mostrada. A frase "Revisão humana: pendente." saiu das 111 atribuições existentes (migration 0009), de todos os seeds e do modelo do manual. O rótulo do ensaio de abertura recolhido passou a ser "Contexto histórico (texto introdutório gerado por IA)".
 
-> Não removi, por não ter sido pedido: a frase "a edição-fonte não foi auditada" continua na atribuição das 100 obras novas. É uma divulgação verdadeira sobre a proveniência (pendência nº 1 do acervo), e tirá-la do texto público é decisão separada.
+> **Atualização de 2026-10-17:** o Rilson decidiu tirar também a frase "a edição-fonte não foi auditada" do texto público (migration 0011). Ver a entrada abaixo.
 
 **Interface só em português por enquanto, sem perder a internacionalização.** `IDIOMAS_ATIVOS` (hoje só `pt-BR`) em `web/src/i18n/index.ts` controla o seletor do cabeçalho e do rodapé e o idioma inicial; uma preferência antiga em EN/ES salva no navegador é ignorada. Os textos de EN e ES e todo o mecanismo (i18next, `<html lang>`, componentes) seguem montados. Para voltar a oferecer um idioma: acrescentar o código à lista, depois de completar a tradução da interface e de publicar o catálogo nesse idioma (ver `docs/GERENCIAR-ACERVO.md`, "Idioma").
 
@@ -506,4 +506,16 @@ ROADMAP: **conferir o efeito, nunca o log.**
 **Lecionário, 2026-10-17 (PR #8).** Mergeado depois do deploy acima, com o VPS ocioso: 13 links de citação corrigidos (web e mobile), 11 dos 12 slugs resolvem. Deploy ok; o `eas-build.yml` pulou o build nativo (sem gasto de cota) e o OTA publicou a correção no app. Memória mínima 294 MB durante o build do Lecionário.
 
 **Pendente do lado do repo:** os commits de documentação desta seção ficaram só locais, porque o `deploy.yml` do Scriptorium não ignora `*.md` e `docs/**` (o do Lecionário ignora): um push só de documentação faria um deploy completo. Sugestão: acrescentar `paths-ignore` ao `deploy.yml` do Scriptorium.
+
+---
+
+## 2026-10-17 — Transparência sem tirar a confiança: proveniência no registro, não na atribuição pública
+
+**Decisão (Rilson):** a atribuição exibida ao público não diz mais "a edição-fonte não foi auditada". Fica só o essencial: tradução gerada por IA, a partir de obra em domínio público, com a licença. Migration `0011` (100 linhas) e seed ajustado.
+
+**Onde a transparência passa a morar.** (1) `docs/PROVENIENCIA-ACERVO.md`: registro de cada tradução por IA com a fonte declarada e a faixa de risco; (2) o verificador do acervo (`acervo:verificar`) lista como INFO as obras cuja atribuição é a genérica "a partir de obra em domínio público", que é o marcador de pendência. O README segue dizendo a verdade sobre o estado, para quem lê o repositório.
+
+**Triagem das 232 traduções por IA (palavras-chave, a confirmar à mão):** 24 de risco baixo (fonte nomeada e antiga: Migne, Corpus Reformatorum, Schaff, edições do século XIX), 28 de risco médio (reimpressões modernas como Banner of Truth, Weimarer Ausgabe, Leonina/Quaracchi, Annecy), **60 de risco alto** (edições críticas ou traduções modernas: Sources Chrétiennes 23, "edição crítica" sem editor 13, CCSL 9, BAC 6, CSEL 2, Quint/Kohlhammer 2, Yale 2, Leclercq 2, Pascal Lafuma/Sellier 1) e **120 sem fonte nomeada** (100 de 16/10 e 20 mais antigas). O risco não está no autor, que é de domínio público, mas em **de qual texto a tradução partiu**: uma edição crítica moderna pode ter proteção própria.
+
+**Próximo passo da proveniência:** auditar primeiro a faixa C (descobrir a fonte real; se for antiga, corrigir a atribuição; se for a edição moderna, trocar a base ou ocultar enquanto isso), e levar ao jurídico as perguntas listadas no registro.
 

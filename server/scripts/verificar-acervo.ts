@@ -128,6 +128,9 @@ async function main() {
           add('ERRO', `idioma no banco é "${l.language}" mas o texto está em ${an.idioma}`);
         }
         if (l.published && l.ai && !l.attr) add('ERRO', 'tradução por IA publicada sem texto de atribuição');
+        if (l.ai && l.attr && /a partir de obra em domínio público/.test(l.attr)) {
+          add('INFO', 'edição-fonte não nomeada na atribuição (auditar; ver docs/PROVENIENCIA-ACERVO.md)');
+        }
         if (l.rel) {
           const alvo = porSlug.get(l.rel);
           if (!alvo) add('ERRO', `edição vinculada "${l.rel}" não existe`);
