@@ -34,25 +34,25 @@ export function toQuoteDto(row: QuoteRow): Quote {
 /**
  * Filtro de autor tolerante a variação de escrita.
  *
- * `quotes.author` é texto livre e a comparação era `eq()`, exata. O Gerador
- * C. S. Lewis depende desse filtro para as citações dele, e as variantes que
- *bravam em silêncio: `C.S. Lewis`, `c. s. lewis`, espaço no fim e
- * `author=Lewis` retornavam `[]` — sem erro, sem log, site vazio e sitemap sem
- * URLs. Aqui normaliza caixa e espaços — inclusive os internos, e só eles.
+ * `quotes.author` é texto livre (sem chave estrangeira para `authors`) e a comparação era `eq()`,
+ * exata. O Gerador C. S. Lewis depende desse filtro para as citações dele, e as variantes que
+ * erravam em silêncio, sem erro, sem log, site vazio e sitemap sem URLs: `C.S. Lewis`, `c. s. lewis`,
+ * espaço no fim e `author=Lewis` retornavam `[]`.
  *
- * O `\\s+` precisa do escape duplo: em template literal do JS, `\s` degrada
- * para `s`, e o `regexp_replace` passava a colapsar a letra "s" em vez do
- * espaço. Sem o escape duplo, "Sao Sebastiao" e "sao  sebastiao" ainda
- * casavam por acidente, e o bug só aparecia com espaço interno.
+ * Comparação por chave: minúsculas e **só letras e números** (ver `chaveDeAutor`). Assim caixa,
+ * espaços, pontos e hífens deixam de importar: `C. S. Lewis`, `C.S. Lewis` e `CS Lewis` são o mesmo
+ * autor. Acento continua distinguindo (`Søren` não vira `Soren`), e a regra vale dos dois lados da
+ * comparação, então acento nunca cria falsa igualdade.
  *
- * `author=Lewis` segue de fora por decisão: apelido não é o mesmo que autor, e
- * adivinhar equivalência entre nomes é exatamente o tipo de suposição que a
- * curadoria proíbe. O Gerador envia o nome completo e bate.
+ * `author=Lewis` segue de fora por decisão: apelido não é o mesmo que autor, e adivinhar equivalência
+ * entre nomes é exatamente o tipo de suposição que a curadoria proíbe. O Gerador envia o nome completo
+ * e bate. A mesma regra, em JS, está em `lib/quote-authors.ts` (usada pelo verificador do acervo para
+ * apontar duas grafias do mesmo autor antes de uma delas sumir de algum consumidor).
  */
 export function whereByAuthor(author?: string) {
   if (!author) return [];
   return [
-    sql`regexp_replace(lower(btrim(${quotes.author})), '\\s+', ' ', 'g') = regexp_replace(lower(btrim(${author})), '\\s+', ' ', 'g')`,
+    sql`regexp_replace(lower(${quotes.author}), '[^[:alnum:]]+', '', 'g') = regexp_replace(lower(${author}), '[^[:alnum:]]+', '', 'g')`,
   ];
 }
 

@@ -256,6 +256,38 @@ hoje e ±30 dias. Consequências para quem edita o acervo:
   Faça backup antes; quem consultar o dia depois disso recebe a nova frase.
 - Decisão e motivos: `docs/adr/001-citacao-do-dia-api-central.md`, atualização de 17/10/2026 (2).
 
+## Acrescentar citações
+
+Não há tela de cadastro de citações: elas entram por **migration SQL**, versionada e ensaiável como o resto do acervo.
+
+1. **Verifique a fonte primária antes de escrever uma linha de SQL.** A regra é de `docs/PROTOCOLO-VERIFICACAO-DE-CITACOES.md`:
+   nenhuma citação entra sem `fonte_url` real, conferida contra a fonte (uma fabricação já ficou um mês em produção por falta desse portão).
+2. **Escreva o autor exatamente como já está no banco.** `quotes.author` é texto livre, sem vínculo com a tabela `authors`.
+   Veja as grafias existentes: `SELECT author, count(*) FROM quotes GROUP BY author ORDER BY 2 DESC;`. O filtro da API ignora caixa,
+   espaços e pontuação (`C.S. Lewis` e `C. S. Lewis` são o mesmo autor), mas **acento distingue** e **apelido não vale** (`Lewis` não é
+   `C. S. Lewis`). O verificador avisa quando o mesmo autor aparece escrito de dois jeitos.
+3. **Crie a migration** (`pnpm --filter server exec drizzle-kit generate --custom --name=citacoes_AAAA_MM_DD`) e preencha, de forma
+   idempotente (rodar duas vezes não duplica):
+   ```sql
+   INSERT INTO quotes (author, text, source, dominio_publico, scriptorium_url, theme, fonte_url, verificado_em)
+   SELECT 'C. S. Lewis', 'Texto exato da citação.', 'Título da obra', false, NULL, NULL,
+          'https://fonte-primaria-confirmada', DATE '2026-10-17'
+   WHERE NOT EXISTS (SELECT 1 FROM quotes WHERE author = 'C. S. Lewis' AND text = 'Texto exato da citação.');
+   ```
+   `dominio_publico = false` gera o botão de compra, mas **só se a obra em `source` for conhecida** (`isCuratedSource`); sem isso a citação
+   aparece sem link, de propósito. `scriptorium_url` só se aponta para uma obra **publicada** (o verificador confere).
+4. **Ensaie** com `scripts/ensaiar-migrate.sh <dump da produção>` e rode `pnpm --filter server acervo:verificar`.
+5. **Depois do deploy**, rode `export-quotes-canonical.ts` (banco → JSON) para o backup acompanhar o banco.
+
+**O que acontece quando a citação entra** (testado em `quotes-gravada.integration.test.ts`):
+- Ela aparece **na hora** na lista (`GET /quotes`) e no sorteio, portanto no Gerador.
+- **Os dias que já foram mostrados dentro de ±30 dias não mudam** (a escolha de cada dia é gravada).
+- A citação nova entra no rodízio dos **dias que ainda não foram consultados**, por `daySeed % total`. Com 281 citações, a chance de uma
+  nova ser a de um dia qualquer é de cerca de 1 em 282: ela **não vira a citação de amanhã por si só**. Para fixar uma citação num dia:
+  `UPDATE daily_quotes SET quote_id = '<id>' WHERE date_key = 'AAAA-MM-DD';` (backup antes; vale a partir da próxima consulta).
+  Se o dia ainda não tiver linha, insira uma: `INSERT INTO daily_quotes (date_key, quote_id) VALUES ('AAAA-MM-DD', '<id>');`.
+- A participação de cada autor no rodízio acompanha o tamanho dele no acervo (Lewis tem ~55%).
+
 ## Links e citações
 
 - Citações do Scriptorium: tabela `quotes`, campo `scriptorium_url`. O verificador
