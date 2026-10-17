@@ -1,6 +1,6 @@
-import { and, sql } from 'drizzle-orm';
+import { and, eq, sql } from 'drizzle-orm';
 import { db } from './client.js';
-import { quotes } from './schema.js';
+import { dailyQuotes, quotes } from './schema.js';
 import { buildAmazonUrl } from '../lib/affiliate.js';
 import { isCuratedSource } from '../lib/quote-sources.js';
 import { dateKeyInTimeZone, daySeed } from '../lib/date.js';
@@ -60,7 +60,10 @@ export function whereByAuthor(author?: string) {
  *  (seed = dias desde a epoch mod o tamanho). Ordem estável por id. */
 export function pickQuoteBySeed(rows: readonly Quote[], dateKey: string): Quote | undefined {
   if (rows.length === 0) return undefined;
-  return rows[daySeed(dateKey) % rows.length];
+  // módulo que nunca fica negativo: antes de 1970 a semente é negativa e `rows[-n]` era
+  // undefined, o que virava 404 para `?date=1900-01-01`
+  const n = rows.length;
+  return rows[((daySeed(dateKey) % n) + n) % n];
 }
 
 export async function listQuotes(author?: string): Promise<Quote[]> {
@@ -74,17 +77,57 @@ export async function listQuotes(author?: string): Promise<Quote[]> {
   return rows.map(toQuoteDto);
 }
 
-/** "Citação do dia" — determinística por data (seed = dias desde a epoch,
- *  mod o tamanho do conjunto, sobre ordem estável por id). Sem `date`,
- *  resolve "hoje" em America/Sao_Paulo (mesmo relógio do cluster). */
+/** Dias, para cada lado de "hoje", em que a escolha do dia é gravada. Fora disso a escolha é só
+ *  calculada: gravar qualquer data pedida deixaria qualquer um encher a tabela com datas
+ *  arbitrárias. Quem navega o calendário do Lecionário dentro de ±30 dias tem estabilidade;
+ *  além disso a escolha ainda é determinística, só não sobrevive a mudanças no acervo. */
+export const JANELA_GRAVACAO_DIAS = 30;
+
+export function dentroDaJanelaDeGravacao(dateKey: string, hoje: string): boolean {
+  return Math.abs(daySeed(dateKey) - daySeed(hoje)) <= JANELA_GRAVACAO_DIAS;
+}
+
+/** "Citação do dia" — mesma para todo o cluster. Sem `date`, resolve "hoje" em America/Sao_Paulo.
+ *
+ *  Sem filtro de autor e dentro da janela, a escolha é GRAVADA em `daily_quotes` na primeira
+ *  consulta do dia e depois só lida: adicionar ou remover citações não muda o que já foi mostrado.
+ *  A gravação é segura contra consultas simultâneas (ON CONFLICT DO NOTHING e releitura: todas
+ *  as consultas devolvem a mesma vencedora). Com filtro de autor, ou fora da janela, a escolha é
+ *  calculada (semente de dias desde a epoch, módulo o tamanho do conjunto, ordem estável por id). */
 export async function getDailyQuote(
   date?: string,
   author?: string,
 ): Promise<Quote | undefined> {
+  const hoje = dateKeyInTimeZone(new Date());
+  const dateKey = date ?? hoje;
+  const gravar = !author && dentroDaJanelaDeGravacao(dateKey, hoje);
+
+  if (gravar) {
+    const gravada = await lerEscolhaGravada(dateKey);
+    if (gravada) return gravada;
+  }
+
   const rows = await listQuotes(author);
   if (rows.length === 0) return undefined;
-  const dateKey = date ?? dateKeyInTimeZone(new Date());
-  return pickQuoteBySeed(rows, dateKey);
+  const escolhida = pickQuoteBySeed(rows, dateKey);
+  if (!escolhida || !gravar) return escolhida;
+
+  await db
+    .insert(dailyQuotes)
+    .values({ dateKey, quoteId: escolhida.id })
+    .onConflictDoNothing({ target: dailyQuotes.dateKey });
+  // releitura: se outra consulta gravou primeiro, devolve a dela (e não a nossa)
+  return (await lerEscolhaGravada(dateKey)) ?? escolhida;
+}
+
+async function lerEscolhaGravada(dateKey: string): Promise<Quote | undefined> {
+  const [row] = await db
+    .select({ quote: quotes })
+    .from(dailyQuotes)
+    .innerJoin(quotes, eq(quotes.id, dailyQuotes.quoteId))
+    .where(eq(dailyQuotes.dateKey, dateKey))
+    .limit(1);
+  return row ? toQuoteDto(row.quote) : undefined;
 }
 
 export async function getRandomQuote(author?: string): Promise<Quote | undefined> {

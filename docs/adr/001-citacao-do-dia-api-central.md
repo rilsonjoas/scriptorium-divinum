@@ -110,3 +110,28 @@ Amazon em vez disso.
 
 A regra "o consumidor não passa `?date`, o endpoint é o relógio" vale para a visão de **hoje**. Quando o app permite navegar por dias, o consumidor **deve** passar a data escolhida (`GET /quotes/daily?date=yyyy-MM-dd`), como já faz com a pintura (`/artworks/daily?date=`). Sem isso a citação ficava presa na frase de hoje ao trocar de data (bug visto no Lecionário mobile e web; corrigido no PR #9 do repositório do Lecionário). A API em si sempre devolveu uma frase diferente por data.
 
+## Atualização de 2026-10-17 (2): a escolha de cada dia é gravada
+
+**Problema.** A escolha era `daySeed(data) % total` sobre as citações ordenadas por `id`, calculada na hora.
+Acrescentar ou remover **uma** citação mudava o índice de **todas** as datas, passadas e futuras: o link
+compartilhado de ontem passava a mostrar outra frase, e quem abriu o app antes de uma edição via uma frase e
+quem abria depois via outra. A Bíblia na Arte não tinha esse problema porque grava a escolha em `daily_artwork`.
+
+**Decisão.** Tabela `daily_quotes` (`date_key` → `quote_id`, `ON DELETE CASCADE`). A primeira consulta de um dia
+grava a escolha; as seguintes só leem.
+- **Janela de ±30 dias** de hoje (`JANELA_GRAVACAO_DIAS`, `server/src/db/quotes.ts`). Fora dela a escolha continua
+  calculada e **não** é gravada, para ninguém encher a tabela pedindo datas arbitrárias. Dentro da janela, editar o
+  acervo não muda o que já foi mostrado; fora dela ainda muda.
+- **Sem filtro de autor.** `?author=` usa o conjunto filtrado, que não é o acervo todo; continua calculado, não gravado.
+  Nenhum consumidor usa `?author=` na rota `daily` hoje.
+- **Seguro contra consultas simultâneas:** `INSERT ... ON CONFLICT DO NOTHING` e releitura; todas as consultas devolvem a
+  mesma vencedora (teste com 12 consultas paralelas).
+- **A migration 0012 preenche a janela** com o que a fórmula antiga dava, então a frase de hoje não muda no deploy.
+  Ensaiado contra uma cópia da produção: 61 de 61 datas iguais às que a API devolvia.
+- **Apagar a citação gravada** reescolhe só aquele dia (cascade); os vizinhos não são tocados.
+- **O que NÃO protege:** (a) o dia de hoje antes da primeira consulta, que ainda reflete o acervo de agora; (b) datas fora da
+  janela; (c) `TRUNCATE quotes ... CASCADE` (`scripts/seed-quotes.ts`, só para restaurar do zero) apaga também `daily_quotes`.
+
+**Junto, padronização de datas** (ver hetzner-infra/CONTRATOS-ENTRE-PROJETOS.md, 5.1): `?date=` agora rejeita dia
+inexistente (`2026-13-45`, `2027-02-29`) com **400**, como o Lecionário já fazia; e datas anteriores a 1970 deixaram de
+dar 404 (o índice podia ficar negativo).

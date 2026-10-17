@@ -4,6 +4,7 @@
  *
  * ⚠️ DESTRUTIVO: `TRUNCATE ... CASCADE` — só rodar pra restaurar um
  * ambiente do zero (dev local novo, disaster recovery), NUNCA em produção
+ * (apaga também `daily_quotes`, a escolha gravada de cada dia: ADR 001, 17/10/2026)
  * com dados reais. O JSON em scripts/data/quotes-canonical.json é gerado
  * por `export-quotes-canonical.ts` (banco → JSON, é a direção certa desde
  * 2026-09-26) — nunca editar esse JSON à mão nem rodar este seed contra

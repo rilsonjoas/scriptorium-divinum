@@ -244,6 +244,18 @@ Para voltar a oferecer inglês: (1) completar a tradução da interface em `web/
 (2) conferir a busca em inglês; (3) documentar a edição-fonte de cada edição em inglês;
 (4) republicar as obras em inglês pelo painel; (5) acrescentar `'en'` a `IDIOMAS_ATIVOS`.
 
+## Citação do dia: o que acontece quando você edita citações
+
+A "citação do dia" de cada data é **gravada** (tabela `daily_quotes`) na primeira vez em que alguém a consulta, para
+hoje e ±30 dias. Consequências para quem edita o acervo:
+- **Acrescentar ou remover citações não muda os dias já mostrados** (dentro dos ±30 dias). Antes mudava todos.
+- **Apagar a citação que está gravada num dia** faz só aquele dia escolher outra, na próxima consulta.
+- **O dia de hoje, se ninguém o consultou ainda**, e os dias além de ±30, refletem o acervo de agora.
+- `server/scripts/seed-quotes.ts` (restaurar do zero) apaga `quotes` e, em cascata, `daily_quotes`. Nunca em produção.
+- Para forçar outra frase num dia específico (raro): `UPDATE daily_quotes SET quote_id = '<id>' WHERE date_key = 'AAAA-MM-DD';`.
+  Faça backup antes; quem consultar o dia depois disso recebe a nova frase.
+- Decisão e motivos: `docs/adr/001-citacao-do-dia-api-central.md`, atualização de 17/10/2026 (2).
+
 ## Links e citações
 
 - Citações do Scriptorium: tabela `quotes`, campo `scriptorium_url`. O verificador

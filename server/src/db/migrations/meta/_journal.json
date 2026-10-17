@@ -85,6 +85,13 @@
       "when": 1792269855638,
       "tag": "0011_atribuicao_sem_edicao_fonte_nao_auditada",
       "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "7",
+      "when": 1792278759439,
+      "tag": "0012_citacao_do_dia_gravada",
+      "breakpoints": true
     }
   ]
 }
