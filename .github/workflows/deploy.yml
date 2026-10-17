@@ -3,6 +3,12 @@ name: Deploy VPS
 on:
   push:
     branches: [main]
+    # Mudança só de documentação não precisa rebuildar a imagem nem reiniciar os
+    # containers. Atenção: NÃO ignorar server/texts/** (são as obras publicadas).
+    paths-ignore:
+      - "*.md"
+      - "docs/**"
+      - "scripts/LEIAME.md"
 
 permissions:
   contents: read

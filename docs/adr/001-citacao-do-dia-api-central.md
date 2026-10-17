@@ -105,3 +105,8 @@ Amazon em vez disso.
 4. Trocar `quotes.ts` do Gerador pra buscar da API filtrada por Lewis.
 5. Widget/shortcode no Narniano (WordPress) e componente no Scriptorium,
    ambos com cache de 24h.
+
+## Atualização de 2026-10-17: o consumidor passa `?date` quando navega por dias
+
+A regra "o consumidor não passa `?date`, o endpoint é o relógio" vale para a visão de **hoje**. Quando o app permite navegar por dias, o consumidor **deve** passar a data escolhida (`GET /quotes/daily?date=yyyy-MM-dd`), como já faz com a pintura (`/artworks/daily?date=`). Sem isso a citação ficava presa na frase de hoje ao trocar de data (bug visto no Lecionário mobile e web; corrigido no PR #9 do repositório do Lecionário). A API em si sempre devolveu uma frase diferente por data.
+

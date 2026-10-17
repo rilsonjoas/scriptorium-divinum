@@ -2388,8 +2388,9 @@ Transformar o frontend do Scriptorium Divinum na principal referência lusófona
 
 ## Item 20: API de citações e painel de conteúdo — ideias (a decidir, nada em andamento)
 
-Contexto: a Citação do dia (`GET /quotes/daily`) funciona e varia por data (verificado em 2026-10-17: 60 dias seguidos, 60 frases distintas, nenhuma repetição consecutiva). O que existe é **concentração**: C. S. Lewis é 55% do acervo (156 de 281) e aparece em ~55% dos dias, com sequências de até 7 dias.
+Contexto: a Citação do dia (`GET /quotes/daily`) funciona e varia por data (verificado em 2026-10-17: 60 dias seguidos, 60 frases distintas, nenhuma repetição consecutiva). O bug "a frase não muda ao trocar de data" era do consumidor (Lecionário web e mobile pediam sempre "hoje", sem `?date=`) e foi corrigido no PR #9 do Lecionário. O que existe é **concentração**: C. S. Lewis é 55% do acervo (156 de 281) e aparece em ~55% dos dias, com sequências de até 7 dias.
 
+- [x] **`paths-ignore` no `deploy.yml`** (2026-10-17): docs deixam de disparar deploy completo.
 - [ ] **Variedade na escolha do dia:** hoje o dia aponta para um índice da lista ordenada por id, então os autores se agrupam ao acaso. Alternativa: escolher primeiro o autor (rodízio, ou peso reduzido para Lewis) e depois a frase dentro do autor, mantendo a regra "determinística por data, igual no cluster" (ADR 001).
 - [ ] **Citações ligadas a obras por chave, não por texto:** a tabela `quotes` já tem `scriptorium_work_id`, `fonte_url` e `verificado_em`, mas `scriptorium_work_id` está vazio em todas as 281 linhas e o link é um texto livre (`scriptorium_url`). Ligar por FK faria o link seguir o slug da obra e permitiria avisar ao ocultar uma obra que tem citação.
 - [ ] **Status de citação** (rascunho, verificada, oculta) exigindo `fonte_url` e `verificado_em` para ficar ativa, aplicando o `docs/PROTOCOLO-VERIFICACAO-DE-CITACOES.md` no próprio sistema.
