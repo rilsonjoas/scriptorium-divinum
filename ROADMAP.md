@@ -2363,7 +2363,7 @@ Transformar o frontend do Scriptorium Divinum na principal referência lusófona
 - [ ] **`breve-catecismo-westminster` (oculto)**: o texto é majoritariamente inglês (37% das palavras em blocos em inglês). Traduzir por inteiro e reativar pela chave "Publicada".
 - [x] **Seletor de idioma escondido enquanto o site é só em português** (2026-10-16): `IDIOMAS_ATIVOS` em `web/src/i18n/index.ts`; os textos de EN e ES e todo o mecanismo seguem montados. Para voltar a oferecer um idioma: acrescentar o código à lista, depois de completar a tradução da interface.
 - [ ] **Textos longos sem título (sumário vazio)**: usar `scripts/chapterize_texts.py` (regra por arquivo; `--check` antes) ou títulos manuais por homilia.
-- [ ] **PR #8 do Lecionário** (links de citação): mergear **depois** do deploy do Scriptorium; ver `docs/DECISOES.md`.
+- [x] **PR #8 do Lecionário** (links de citação) mergeado em 2026-10-17, depois do deploy do Scriptorium: 11 dos 12 slugs resolvem; resta `por-que-deus-se-fez-homem` (Proslogion).
 - [ ] **Citações de Anselmo (2) apontam para `proslogion`, hoje oculto**: voltam a funcionar quando o Proslogion for republicado. Corrigir também o campo `source` delas.
 - [ ] **Lecionário: 4 links quebrados para o Scriptorium** (`a-cidade-de-deus`, `pensamentos`, `por-que-deus-se-fez-homem`, `compendio-da-suma-teologica`), ver `docs/DECISOES.md`.
 - [ ] **Internacionalização (EN):** para voltar a publicar edições em inglês faltam interface, busca em inglês e proveniência por edição. Decisão de 2026-10-16: só português por enquanto.

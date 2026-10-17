@@ -497,3 +497,13 @@ ROADMAP: **conferir o efeito, nunca o log.**
 
 **Números finais** (ensaio contra cópia da produção, `migrate` duas vezes com exit 0): 288 obras no banco, 258 publicadas, **255 no catálogo público** (3 publicadas ainda sem arquivo de texto), 229 por IA, 100 autores com obra.
 
+---
+
+## 2026-10-16/17 — Deploy realizado
+
+**Scriptorium, 2026-10-16 (20:30 UTC).** Backup do banco no VPS antes (`~/backups-pre-deploy/scriptorium-2026-10-16-pre-deploy.dump`, 188 obras). Conferido no destino, não só no CI: containers recriados e saudáveis, `migrate` sem falhas (140 seeds, 12 migrations aplicadas), 288 obras no banco, 258 publicadas (todas em português), 255 no catálogo público, 6 comentários, Calvino/Relíquias, Proslogion, Breve Catecismo e as edições em inglês devolvendo 404, nenhuma frase de revisão pendente, seletor de idioma ausente do DOM, aviso do leitor "Tradução gerada por inteligência artificial". Memória disponível mínima no VPS durante o deploy: 1,46 GB.
+
+**Lecionário, 2026-10-17 (PR #8).** Mergeado depois do deploy acima, com o VPS ocioso: 13 links de citação corrigidos (web e mobile), 11 dos 12 slugs resolvem. Deploy ok; o `eas-build.yml` pulou o build nativo (sem gasto de cota) e o OTA publicou a correção no app. Memória mínima 294 MB durante o build do Lecionário.
+
+**Pendente do lado do repo:** os commits de documentação desta seção ficaram só locais, porque o `deploy.yml` do Scriptorium não ignora `*.md` e `docs/**` (o do Lecionário ignora): um push só de documentação faria um deploy completo. Sugestão: acrescentar `paths-ignore` ao `deploy.yml` do Scriptorium.
+
