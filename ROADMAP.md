@@ -2351,6 +2351,7 @@ Transformar o frontend do Scriptorium Divinum na principal referência lusófona
 "100% em português", "270 obras", "294 obras e 125 autores", "18,4 milhões de palavras" e "zero obras com truncamento ou tradução resumida". A medição achou texto em inglês dentro de obras "traduzidas", números de nota de rodapé soltos e 28 textos longos sem título. Detalhes e decisões em `docs/DECISOES.md` (entrada "Revisão do catálogo antes do deploy").
 
 ### 3. Pendências do acervo, em ordem
+- [ ] **Revisão das atribuições de risco alto (pode ser necessária; sem prazo):** auditoria da edição-fonte, e se couber revisão jurídica, das 60 obras de faixa C do `docs/PROVENIENCIA-ACERVO.md`. Deixado como pendência por decisão do autor em 2026-10-17.
 - [ ] **Proveniência obra a obra** das traduções por IA: qual edição entrou na tradução e por que é domínio público (regra 3 do README). Triagem em `docs/PROVENIENCIA-ACERVO.md`: 60 de risco alto (edições críticas ou traduções modernas, auditar primeiro), 28 médio, 24 baixo, 120 sem fonte nomeada. Parecer jurídico sobre tradução gerada por IA e sobre edições críticas.
 - [ ] **Traduzir por inteiro** `apologia-da-confissao-de-augsburgo` (13% em inglês) e `suma-teologica-segunda-parte-da-segunda-parte` (bloco de ~22 mil palavras); hoje fora do catálogo. Mesmo trabalho em `breve-catecismo-westminster` (37% em inglês, já publicado).
 - [ ] **`tratado-sobre-as-reliquias-calvino` (oculto)**: arquivo corrompido (inglês intercalado fora de ordem com o texto de Calvino e um catálogo do editor). Reprocessar a partir da fonte e reativar.
@@ -2368,4 +2369,32 @@ Transformar o frontend do Scriptorium Divinum na principal referência lusófona
 - [ ] **Lecionário: 4 links quebrados para o Scriptorium** (`a-cidade-de-deus`, `pensamentos`, `por-que-deus-se-fez-homem`, `compendio-da-suma-teologica`), ver `docs/DECISOES.md`.
 - [ ] **Internacionalização (EN):** para voltar a publicar edições em inglês faltam interface, busca em inglês e proveniência por edição. Decisão de 2026-10-16: só português por enquanto.
 - [ ] **Proslogion (oculto):** o texto publicado tem 2.353 palavras e a versão nova (`proslogion-anselmo.md`) ~9,7 mil; revisar a nova e decidir se substitui o conteúdo sob o slug `proslogion`, depois reativar.
+
+---
+
+## Item 19: Visão de longo prazo — só com voluntários (almejado, não planejado)
+
+> **Decisão do autor (2026-10-17):** isto é grande demais para uma pessoa só. Fica registrado como direção, **para quando houver voluntários**. Nada aqui entra em andamento sem eles.
+
+**Benchmark:** [The Faith Received](https://mereorthodoxy.com/the-faith-received/) (Mere Orthodoxy): ~19.600 obras, texto original e scans ao lado da tradução, e um painel "Translation Transparency" em cada obra por IA. O diferencial do Scriptorium é rigor de domínio público, licença aberta e o português.
+
+1. **Confiança.** Auditar a faixa C de proveniência; painel "Transparência" por obra (detalhe a um clique, sem manchete na leitura); página "Como fazemos" com política de IA, de correção e de retirada; títulos nos textos longos.
+2. **Qualidade.** Revisão humana real nas ~20 obras mais lidas, com status verdadeiro; original ao lado nelas; notas de rodapé ligadas; mais comentários bíblicos.
+3. **Escala e comunidade.** Revisores voluntários com fluxo próprio; coleções e trilhas; inglês depois da interface pronta (`IDIOMAS_ATIVOS`); dados abertos.
+
+**Medidas de maturidade:** % de obras com fonte auditada; % com revisão humana aprovada.
+
+---
+
+## Item 20: API de citações e painel de conteúdo — ideias (a decidir, nada em andamento)
+
+Contexto: a Citação do dia (`GET /quotes/daily`) funciona e varia por data (verificado em 2026-10-17: 60 dias seguidos, 60 frases distintas, nenhuma repetição consecutiva). O que existe é **concentração**: C. S. Lewis é 55% do acervo (156 de 281) e aparece em ~55% dos dias, com sequências de até 7 dias.
+
+- [ ] **Variedade na escolha do dia:** hoje o dia aponta para um índice da lista ordenada por id, então os autores se agrupam ao acaso. Alternativa: escolher primeiro o autor (rodízio, ou peso reduzido para Lewis) e depois a frase dentro do autor, mantendo a regra "determinística por data, igual no cluster" (ADR 001).
+- [ ] **Citações ligadas a obras por chave, não por texto:** a tabela `quotes` já tem `scriptorium_work_id`, `fonte_url` e `verificado_em`, mas `scriptorium_work_id` está vazio em todas as 281 linhas e o link é um texto livre (`scriptorium_url`). Ligar por FK faria o link seguir o slug da obra e permitiria avisar ao ocultar uma obra que tem citação.
+- [ ] **Status de citação** (rascunho, verificada, oculta) exigindo `fonte_url` e `verificado_em` para ficar ativa, aplicando o `docs/PROTOCOLO-VERIFICACAO-DE-CITACOES.md` no próprio sistema.
+- [ ] **Painel de admin para citações** (na mesma tela de gestão do Scriptorium; só estender o que já existe).
+- [ ] **Monitor "canário":** checagem diária de que `/quotes/daily` responde e difere do dia anterior, mais os endpoints de versículo e pintura do cluster, no uptime-kuma.
+- [ ] **Cliente tipado único** gerado do OpenAPI do Scriptorium, em vez de uma interface `DailyQuote` copiada em cada projeto (hoje são três cópias).
+- [ ] **Limpeza no Lecionário:** `lewis-quotes.json` (web e mobile) não é importado por nada; são dados mortos, candidatos a remoção.
 
