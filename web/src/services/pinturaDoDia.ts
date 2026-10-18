@@ -1,3 +1,5 @@
+import { fetchComLimite } from '@/lib/fetch-com-limite';
+
 const API_BASE = 'https://api-biblianaarte.narniano.com/api/v1';
 const BIBLE_ART_WEB_BASE = 'https://biblianaarte.narniano.com';
 
@@ -46,7 +48,7 @@ export function formatPinturaReference(ref: PinturaReference): string {
  *  card "some com graça", como no Lecionário. */
 export async function fetchPinturaDoDia(signal?: AbortSignal): Promise<PinturaDoDia | null> {
   try {
-    const res = await fetch(`${API_BASE}/artworks/daily`, { signal });
+    const res = await fetchComLimite(`${API_BASE}/artworks/daily`, { signal });
     if (!res.ok) return null;
     const artwork: PinturaDoDia = await res.json();
     return { ...artwork, artistOrDirector: normalizeArtist(artwork.artistOrDirector) };

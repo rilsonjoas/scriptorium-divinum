@@ -4,6 +4,8 @@
  *  resolve "hoje" em America/Sao_Paulo (mesmo contrato do versículo/pintura).
  *  O CTA de afiliado é centralizado na API (`affiliateUrl`) — o consumidor
  *  NÃO monta link Amazon. Não-ok vira `null`: o card "some com graça". */
+import { fetchComLimite } from '@/lib/fetch-com-limite';
+
 const API_BASE =
   (import.meta.env.VITE_API_URL?.replace(/\/+$/, '') ?? 'https://api-scriptorium.narniano.com') +
   '/api/v1';
@@ -26,7 +28,7 @@ export interface CitacaoDoDia {
 
 export async function fetchCitacaoDoDia(signal?: AbortSignal): Promise<CitacaoDoDia | null> {
   try {
-    const res = await fetch(`${API_BASE}/quotes/daily`, { signal });
+    const res = await fetchComLimite(`${API_BASE}/quotes/daily`, { signal });
     if (!res.ok) return null;
     return (await res.json()) as CitacaoDoDia;
   } catch {
