@@ -11,6 +11,9 @@ Nenhuma citação aqui é afirmada falsa sem a evidência do vault: onde a evid�
 
 Esta análise só **leu** o vault e a API. Nada foi alterado no banco, no vault, nem no Gerador.
 
+**Registro de tudo o que foi verificado (consultar ANTES de pesquisar qualquer citação): [`REGISTRO-VERIFICACAO-CITACOES-LEWIS.md`](REGISTRO-VERIFICACAO-CITACOES-LEWIS.md).**
+A busca de 18/10/2026 nas 17 restantes está lá: 10 confirmadas (nível B) e 7 não localizadas.
+
 ## Método (reproduzível)
 
 `python3 -I scripts/cruzar-citacoes-com-vault.py <pasta-do-vault> > cruza.json` baixa as citações do autor na API e,
