@@ -141,6 +141,15 @@ real primeiro, polimento depois.
   na API, 14 têm ✅ individual no vault, 122 têm procedência rastreável por amostragem, 16 não foram localizadas no vault, 3 estão ⚠️ e 1 estava ❌ (fala do filme
   *Terra de Sombras*). **A ❌ e as 3 ⚠️ foram retiradas em 18/10/2026** (migration 0013). `source` preenchido em 4 (migration 0014); busca nas 17 restantes feita em 18/10 (10 confirmadas, 7 não localizadas): tudo registrado em `docs/REGISTRO-VERIFICACAO-CITACOES-LEWIS.md`. **As 7 não localizadas foram retiradas e o `source` de `0e70882b` preenchido (migration 0015, 18/10).** Resta: nada para Lewis; as 125 citações de outros autores não têm cobertura do vault.
 
+## Achado de 18/10/2026: a auditoria de acessibilidade da home media uma página em branco (A11Y-02)
+- O mock de `/categories` em `web/e2e/a11y.spec.ts` devolvia um objeto paginado, mas a API devolve uma **lista**; a home quebrava (`.find is not a function`) e o axe auditava um corpo vazio. O "zero violações" da home não valia. **Mock corrigido.**
+- Com a home de verdade, o axe acha **1 violação séria (`color-contrast`)**: o rótulo de seção dourado claro `#f2c75a` sobre `#f4f3f0` dá **1,44:1** (mínimo 4,5:1) e o link "Explorar todas as 181+ obras" (`#b39a61`) dá **2,45:1**. Visível a olho nu ("Curadoria & Leituras Fundamentais").
+- A home está marcada `test.fail` (débito documentado: passa enquanto existir, falha quando for corrigido, avisando para remover a marca). **Pendente, decisão de design do autor:** qual dourado mais escuro usar para texto no tema claro (`text-library-gold` e o rótulo de seção). Conferir também as outras seções da home e os temas.
+- [ ] A11Y-02: corrigir o contraste do dourado em texto sobre fundo claro e remover o `test.fail` da home.
+
+## R5, teste "API fora, o card some" no site (2026-10-18)
+- [x] `web/e2e/api-fora.spec.ts` (4 cenários × 3 cards: Citação, Pintura e Passagem do Dia): controle, conexão recusada, 503 e API que responde só depois do limite de 5 s. APIs simuladas, independente do `VITE_API_URL`. No `ci.yml`. Mutação verificada (limite enorme faz o caso lento falhar).
+
 ## Contrato tipado das APIs (Fase 3 do cluster, 2026-10-18)
 - [x] **Site (web/):** `web/contract/` + `web/scripts/contract-update.mjs` + `contract.types.ts` em `pnpm typecheck` com `tsconfig` estrito. Achou a mesma deriva que no Lecionário (campos opcionais tipados como sempre presentes); corrigida em `citacaoDoDia.ts` e `pinturaDoDia.ts`. Mutação verificada. Os recortes são byte a byte os mesmos do Lecionário.
 - [ ] `versiculoDoDia.ts` (rota Next do Lecionário, sem especificação): sem tipos gerados; só o canário cobre.
