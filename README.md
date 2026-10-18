@@ -180,6 +180,8 @@ Formato da citação: `id`, `author`, `text`, `dominioPublico`, `source?`, `scri
 
 **A citação de cada dia é gravada** (`daily_quotes`, hoje ±30 dias): editar o acervo não reescreve os dias já mostrados. O que isso cobre e o que não cobre está em `docs/adr/001-citacao-do-dia-api-central.md` (atualização de 17/10/2026, item 2) e em `docs/GERENCIAR-ACERVO.md`.
 
+**Contrato tipado (site, desde 18/10/2026).** `web/contract/` guarda o recorte da especificação OpenAPI de produção só com as rotas que o site usa (`quotes/daily` daqui e `artworks/daily` do Bíblia na Arte) e os tipos gerados. `web/contract/contract.types.ts` roda em `pnpm typecheck` (CI) com um `tsconfig` **estrito** (o app compila com `strict: false` e não enxergaria `null` contra ausente) e **falha se o tipo escrito à mão em `citacaoDoDia.ts` ou `pinturaDoDia.ts` deixar de aceitar o que a API pode responder**. Em `web/`: `pnpm contract:check` compara com a produção e sai com 1 se mudou; `pnpm contract:update` baixa, recorta e regera (revise o diff e rode o `typecheck`). A rota do Lecionário (`/api/versiculo-do-dia`) não tem especificação e fica de fora; o canário a cobre. Para usar outra rota, acrescente-a em `CONTRATOS` em `web/scripts/contract-update.mjs`.
+
 **Regras que valem para as três APIs** (o resto do cluster depende delas):
 1. O "hoje" do cluster é `America/Sao_Paulo`. Nunca monte datas com `toISOString()` (é UTC e vira o dia 3 h antes).
 2. Quem mostra um dia **manda a data que a tela mostra** (`?date=AAAA-MM-DD`). Sem isso, navegar entre dias repete o mesmo conteúdo (foi o bug da Citação do dia em 17/10/2026).

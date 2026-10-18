@@ -8,7 +8,9 @@
     "build": "vite build",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
-    "typecheck": "tsc --noEmit -p tsconfig.app.json",
+    "typecheck": "tsc --noEmit -p tsconfig.app.json && tsc --noEmit -p contract/tsconfig.json",
+    "contract:update": "node scripts/contract-update.mjs",
+    "contract:check": "node scripts/contract-update.mjs --check",
     "test": "vitest run",
     "preview": "vite preview",
     "test:a11y": "playwright test"
@@ -90,6 +92,7 @@
     "eslint-plugin-react-refresh": "^0.4.20",
     "globals": "^15.15.0",
     "jsdom": "^30.0.1",
+    "openapi-typescript": "^7.13.0",
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.17",
     "tailwindcss-animate": "^1.0.7",

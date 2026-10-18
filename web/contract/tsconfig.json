@@ -1,0 +1,14 @@
+{
+  // Checagem ESTRITA só do contrato (o app compila com strict: false, o que não
+  // enxergaria `null` vs ausente). Roda em `pnpm typecheck`, junto do tsconfig.app.json.
+  "extends": "../tsconfig.app.json",
+  "compilerOptions": {
+    "strict": true,
+    "types": ["vite/client"]
+  },
+  "include": [
+    "./*.ts",
+    "../src/services/citacaoDoDia.ts",
+    "../src/services/pinturaDoDia.ts"
+  ]
+}

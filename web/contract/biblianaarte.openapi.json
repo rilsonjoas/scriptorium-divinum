@@ -1,0 +1,301 @@
+{
+  "info": {
+    "description": "Catálogo público e somente leitura de obras de arte inspiradas em passagens bíblicas.",
+    "title": "Bíblia na Arte — API",
+    "version": "1.0.0"
+  },
+  "openapi": "3.0.3",
+  "paths": {
+    "/api/v1/artworks/daily": {
+      "get": {
+        "description": "Prioriza a leitura litúrgica do dia (tabela copiada do Lecionário — cobre domingos/festas até 2030-11-24 e dias de semana até 2028-11-29): escolhe entre as obras catalogadas na referência bíblica do dia, com hash determinístico da data. Nenhuma obra exibida nos últimos 30 dias volta: se o pool do capítulo esgotar, usa as obras das outras leituras do dia, depois as do livro, depois o acervo. Fora do período do Lecionário, ou se nenhuma leitura do dia tiver obra catalogada, cai pro sorteio determinístico sobre o acervo publicável. A obra de hoje é gravada na primeira consulta e não muda mais no dia, mesmo se o acervo crescer; `date` passado ou futuro devolve o gravado ou só calcula, sem gravar. O Lecionário consome este mesmo endpoint — as duas pontas mostram a mesma obra no mesmo dia. \"Hoje\" (quando `date` não é passado) é calculado no fuso de São Paulo, não UTC — achado real em produção (03/09/2026): UTC fazia virar o dia 3h antes do Lecionário, que usa hora local do dispositivo.",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "date",
+            "required": false,
+            "schema": {
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": false,
+                  "properties": {
+                    "artistOrDirector": {
+                      "type": "string"
+                    },
+                    "attributionText": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "category": {
+                      "enum": [
+                        "painting",
+                        "music",
+                        "film"
+                      ],
+                      "type": "string"
+                    },
+                    "classicCommentary": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "classicCommentaryAuthor": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "country": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "createdAt": {
+                      "anyOf": [
+                        {
+                          "anyOf": [
+                            {
+                              "format": "date-time",
+                              "type": "string"
+                            },
+                            {
+                              "type": "string"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "dimensionsOrDuration": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "embedUrl": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "id": {
+                      "format": "uuid",
+                      "type": "string"
+                    },
+                    "imageUrl": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "licenseType": {
+                      "type": "string"
+                    },
+                    "location": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "mediumOrGenre": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "period": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "references": {
+                      "items": {
+                        "additionalProperties": false,
+                        "properties": {
+                          "artworkId": {
+                            "format": "uuid",
+                            "type": "string"
+                          },
+                          "book": {
+                            "type": "string"
+                          },
+                          "bookSlug": {
+                            "type": "string"
+                          },
+                          "chapter": {
+                            "exclusiveMinimum": 0,
+                            "type": "integer"
+                          },
+                          "createdAt": {
+                            "anyOf": [
+                              {
+                                "anyOf": [
+                                  {
+                                    "format": "date-time",
+                                    "type": "string"
+                                  },
+                                  {
+                                    "type": "string"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "null"
+                              }
+                            ]
+                          },
+                          "id": {
+                            "format": "uuid",
+                            "type": "string"
+                          },
+                          "passageText": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "verses": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          }
+                        },
+                        "required": [
+                          "id",
+                          "artworkId",
+                          "book",
+                          "bookSlug",
+                          "chapter"
+                        ],
+                        "type": "object"
+                      },
+                      "type": "array"
+                    },
+                    "slug": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "sourceUrl": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "subtitle": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "technique": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "tradition": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "updatedAt": {
+                      "anyOf": [
+                        {
+                          "anyOf": [
+                            {
+                              "format": "date-time",
+                              "type": "string"
+                            },
+                            {
+                              "type": "string"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "year": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "title",
+                    "artistOrDirector",
+                    "category",
+                    "description",
+                    "licenseType",
+                    "references"
+                  ],
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Default Response"
+          },
+          "404": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": false,
+                  "properties": {
+                    "details": {
+                      "additionalProperties": {},
+                      "type": "object"
+                    },
+                    "error": {
+                      "type": "string"
+                    },
+                    "message": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "error",
+                    "message"
+                  ],
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Default Response"
+          }
+        },
+        "summary": "\"Pintura do Dia\" — mesma obra pra todo mundo, muda à meia-noite em São Paulo",
+        "tags": [
+          "obras"
+        ]
+      }
+    }
+  }
+}
