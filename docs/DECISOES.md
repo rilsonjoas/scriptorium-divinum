@@ -543,3 +543,13 @@ Junto: `?date=` inválido passa a dar 400; datas anteriores a 1970 deixam de dar
 
 Passo 2 do plano de `docs/AUDITORIA-RETROATIVA-CITACOES-LEWIS.md`. O vault já tinha confirmado a fonte destas quatro (auditoria de 21 a 27/09/2026) e o banco não a registrava. Migration `0014_preenche_source_de_4_citacoes_lewis`: `65e113b5` e `86587b88` (Cristianismo Puro e Simples), `67b54cc0` (carta a Sheldon Vanauken, 23/12/1950), `b50e13d4` (*The Collected Letters of C. S. Lewis*, vol. 3, p. 119). Só o campo `source`: `fonte_url` e `verificado_em` continuam vazios, porque o vault nomeia livro, página ou carta, não uma URL conferida (o protocolo não permite preencher campo sem fonte real). Não mexe em `affiliateUrl` (decisão de monetização à parte). Ensaiada em cópia da produção: 277 citações antes e depois, 4 preenchidas, segunda execução sem efeito. Restam 2 sem fonte (`0e70882b`, `17f74df7`), que vão para a busca em fonte primária.
 
+---
+
+## 2026-10-18 — Retirada de 7 citações de Lewis não localizadas em fonte e `source` da que faltava
+
+**Decisão (Rilson):** retirar as 7 que a busca de 18/10 não localizou (`139977f6`, `17f74df7`, `73cf6ff3`, `913c5eef`, `a3dfbe3b`, `d5518bea`, `fef40aff`) e preencher o `source` de `0e70882b` (*Cristianismo Puro e Simples*, Livro I, cap. 5). Evidência, termos de busca e limites por citação: `docs/REGISTRO-VERIFICACAO-CITACOES-LEWIS.md`. "Não localizada" não prova que seja falsa; se uma for achada depois, volta pelo protocolo, com fonte.
+
+**Como foi feito:** migration `0015_retira_7_citacoes_e_source_voltar_atras`. Ensaiada em cópia da produção: 277 para 270, nenhuma das 7 sobra, segunda execução sem efeito, Lewis fica com zero citações sem `source`. Backup antes: `~/backups/scriptorium_quotes_pre_0015_2026-10-18.sql` no VPS. `quotes-canonical.json` atualizado.
+
+**Efeito conhecido em um dia já mostrado:** `d5518bea` ("O céu não é silencioso") estava gravada como a citação do dia de **2026-10-16**. A linha de `daily_quotes` some em cascata e esse dia passa a escolher outra citação quando alguém o consultar. É intencional (a frase não tem fonte) e é a única das 7 que estava gravada. API: 277 para 270 citações (152 para 145 de Lewis).
+

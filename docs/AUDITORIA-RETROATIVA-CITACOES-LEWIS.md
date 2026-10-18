@@ -1,5 +1,7 @@
 # Auditoria retroativa das citações de C. S. Lewis (análise de 18/10/2026)
 
+> **Atualização 18/10/2026 (2):** depois da busca nas 17 restantes, mais 7 foram retiradas (migration 0015) e a última citação sem fonte recebeu `source`. A API tem 270 citações (145 de Lewis), nenhuma de Lewis sem `source`. Ver `REGISTRO-VERIFICACAO-CITACOES-LEWIS.md`.
+>
 > **Atualização 18/10/2026:** as 4 citações dos itens 1 e 2 foram **retiradas** (migration `0013_retira_4_citacoes_lewis`, decisão do autor). A API passa de 281 para 277 citações (156 para 152 de Lewis). Os números abaixo descrevem o estado **antes** da retirada.
 
 **Pergunta:** a questão das fontes das citações já estava resolvida? As não verificadas já saíram da API?

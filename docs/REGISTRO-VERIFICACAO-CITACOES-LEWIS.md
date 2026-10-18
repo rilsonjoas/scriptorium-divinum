@@ -55,7 +55,9 @@ Legenda de nível: **A** = texto primário lido (só `139977f6`, e para mostrar 
 
 **Contagem:** 10 ✅ (nível B), 7 ⚠️ não localizadas. Nenhuma foi declarada falsa; "⚠️" segue a definição do vault: busca real feita, formulação não localizada.
 
-## 3. Decisões pendentes (do autor)
+## 3. Decisões (do autor) — TOMADAS em 18/10/2026
+
+**Retiradas as 7 ⚠️ e preenchido o `source` de `0e70882b`** (migration 0015; ver `DECISOES.md`). Nota: `d5518bea` estava gravada como citação do dia de 2026-10-16; esse dia passa a escolher outra. O texto abaixo é o raciocínio que levou à decisão.
 
 - **Preencher `source`** de `0e70882b` (*Cristianismo Puro e Simples*): sem risco, sai com a próxima migration.
 - **7 ⚠️ acima:** pela política de 25/09 (e pelo que se fez em 18/10 com as 4), "duvidosa sai". Duas são paráfrases de ideias reais atribuídas a
