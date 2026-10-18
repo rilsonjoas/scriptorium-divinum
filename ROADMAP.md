@@ -163,7 +163,7 @@ Lecionário e o Narniano escondem o card.
 **Itens abertos:**
 - [x] **Procedimento de retirar uma citação** documentado (17/10/2026), com os efeitos em cadeia e o passo de regerar a cópia do Gerador: `docs/PROTOCOLO-VERIFICACAO-DE-CITACOES.md`, seção "Retirar uma citação".
 - [ ] **R2 (baixa): reaproveitar o último valor bom da mesma data** nos três cards do site (a escolha é determinística por data).
-- [ ] **R3 (baixa): a chamada do navegador não tem limite de tempo próprio** (`citacaoDoDia.ts`, `pinturaDoDia.ts`, `versiculoDoDia.ts`: só o sinal de cancelamento). Com API lenta o card aparece
+- [x] **R3 FEITO em 18/10/2026 (`web/src/lib/fetch-com-limite.ts`, 5 s; 3 serviços; testes com relógio falso, mutação verificada):** a chamada do navegador não tinha limite de tempo próprio (`citacaoDoDia.ts`, `pinturaDoDia.ts`, `versiculoDoDia.ts`: só o sinal de cancelamento). Com API lenta o card aparece
   tarde ou nunca. Pôr limite de 3 a 5 s.
 - [ ] **R5 (média): teste automatizado "API fora, o card some, sem bloco vazio e sem erro de JS"** (E2E com as rotas bloqueadas, fora do portão do deploy no início).
 - [ ] **R6b (média): avaliar um PR automático de `quotes:sync` no Gerador** quando o canário acusar que a cópia embutida dele divergiu do acervo (hoje a regeração é manual).

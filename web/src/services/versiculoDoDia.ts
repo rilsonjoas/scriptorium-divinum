@@ -4,6 +4,8 @@
  *  campo `date` da resposta). Ver contrato em lecionario-web/src/lib/
  *  versiculo-do-dia.ts. Endpoint nunca responde 404 (pool fixo fora da
  *  cobertura RCL); erro de rede/5xx vira `null` — o card "some com graça". */
+import { fetchComLimite } from '@/lib/fetch-com-limite';
+
 const LECIONARIO_URL = import.meta.env.VITE_LECIONARIO_URL?.replace(/\/+$/, '') ?? 'https://lecionario.narniano.com';
 
 export interface Verse {
@@ -29,7 +31,7 @@ export function lecionarioHomeUrl(): string {
 
 export async function fetchVersiculoDoDia(signal?: AbortSignal): Promise<VersiculoDoDia | null> {
   try {
-    const res = await fetch(`${LECIONARIO_URL}/api/versiculo-do-dia`, { signal });
+    const res = await fetchComLimite(`${LECIONARIO_URL}/api/versiculo-do-dia`, { signal });
     if (!res.ok) return null;
     return (await res.json()) as VersiculoDoDia;
   } catch {
