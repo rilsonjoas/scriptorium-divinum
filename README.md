@@ -165,6 +165,28 @@ A regra 3 acima é a meta; o estado hoje é este, sem arredondar:
 
 ---
 
+## 🔌 Integrações com outros projetos
+
+O Scriptorium é o **dono do conteúdo de citações** do cluster e **consome** duas rotas de fora.
+
+| Direção | Projeto | Rota | Para quê |
+|---|---|---|---|
+| expõe | Lecionário (web e mobile), Scriptorium web | `GET /api/v1/quotes/daily[?date=][&author=]` | Citação do dia |
+| expõe | Gerador C. S. Lewis | `GET /api/v1/quotes?author=`, `GET /api/v1/quotes/random?author=` | Lista e sorteio (`author` é o **nome**, `C. S. Lewis`, não o slug) |
+| consome | Bíblia na Arte | `GET /api/v1/artworks/daily` | Pintura do Dia no site |
+| consome | Lecionário | `GET /api/versiculo-do-dia` | Versículo do dia no site |
+
+Formato da citação: `id`, `author`, `text`, `dominioPublico`, `source?`, `scriptoriumUrl?`, `theme?`, `affiliateUrl?`, e `date` na rota `daily`. A especificação completa está em `/docs/json`.
+
+**A citação de cada dia é gravada** (`daily_quotes`, hoje ±30 dias): editar o acervo não reescreve os dias já mostrados. O que isso cobre e o que não cobre está em `docs/adr/001-citacao-do-dia-api-central.md` (atualização de 17/10/2026, item 2) e em `docs/GERENCIAR-ACERVO.md`.
+
+**Regras que valem para as três APIs** (o resto do cluster depende delas):
+1. O "hoje" do cluster é `America/Sao_Paulo`. Nunca monte datas com `toISOString()` (é UTC e vira o dia 3 h antes).
+2. Quem mostra um dia **manda a data que a tela mostra** (`?date=AAAA-MM-DD`). Sem isso, navegar entre dias repete o mesmo conteúdo (foi o bug da Citação do dia em 17/10/2026).
+3. Data que não existe no calendário (`2026-13-45`) responde **400** nas três APIs.
+4. Mudança de contrato é **aditiva**: campo novo e rota nova podem; remover, renomear ou trocar tipo só depois de migrar os consumidores.
+5. Um canário em produção confere o formato dessas rotas de hora em hora e avisa o Uptime Kuma. O mapa completo (todas as rotas, formatos, situações limite, runbook) fica em `CONTRATOS-ENTRE-PROJETOS.md` no repositório de infraestrutura, que é privado.
+
 ## 📚 Gerenciar o acervo
 
 Como adicionar, ocultar, remover e corrigir obras, o que o painel de admin faz e o que
