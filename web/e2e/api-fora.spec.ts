@@ -49,6 +49,8 @@ const VERSICULO = {
 type Cenario = 'ok' | 'recusada' | '503' | 'lenta';
 
 async function simular(page: Page, cenario: Cenario) {
+  // Sem anúncios de terceiro: o que o spec mede é o nosso app.
+  await page.route(/googlesyndication|doubleclick|adtrafficquality|googleadservices|adsbygoogle/, (r) => r.abort());
   // O resto do site (catálogo etc.) sempre responde, para a home de pé. Independe do ambiente: o build
   // pode apontar para localhost (VITE_API_URL) ou para produção, então cobrimos qualquer /api/v1/**.
   // No Playwright a rota registrada por último vence; esta, genérica, vai primeiro.
