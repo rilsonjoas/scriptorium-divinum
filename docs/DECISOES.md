@@ -563,3 +563,16 @@ Achado da Fase 3 (cluster): nenhuma das especificações declarava a resposta 40
 ## 2026-10-18 — Corpo único do 400 de validação (Scriptorium e Bíblia na Arte)
 
 Decisão do autor: unificar já, de forma aditiva. As duas APIs devolvem `{error: 'validation_error', message: 'Parâmetros inválidos', issues: {campo: [mensagens]}, details: {issues: [...]}}`, tanto para o Zod quanto para a validação do Fastify (`?date=abc`, que no Scriptorium saía como `FST_ERR_VALIDATION` sem `details`, e na Bíblia na Arte trazia `issues` como lista). `issues` é sempre o mapa campo → mensagens; `details.issues` guarda a lista crua. Nenhum campo foi removido: o Scriptorium ganhou `issues`, a Bíblia na Arte ganhou `details`, e o `error` do `?date=abc` do Scriptorium passou de `FST_ERR_VALIDATION` para `validation_error`. Nenhum consumidor lê o corpo. A especificação OpenAPI não mudou (continua exigindo só `error` e `message`, com `additionalProperties: true`), então os recortes `contract/` dos consumidores não mudam; o formato completo é vigiado pelo canário (`conferir_corpo_400`) e por testes de integração nas duas APIs, com mutação verificada. Fonte: `hetzner-infra/CONTRATOS-ENTRE-PROJETOS.md`, seção 5.
+
+
+## 2026-10-18 — Citação ganha status; retirar é ocultar (painel de citações, F1)
+
+Autor aprovou o desenho (`docs/superpowers/specs/2026-10-18-painel-de-citacoes-design.md`) e a construção em fases. A F1 acrescenta `quotes.status` (`rascunho|ativa|oculta`, padrão `ativa`), `motivo_ocultacao` e a tabela append-only `quote_events` (sem FK para a citação, para o histórico sobreviver à exclusão por migration). Dois CHECKs: status na lista e "ativa exige fonte". Migration `0016_citacoes_status_e_eventos`, só aditiva.
+
+**Comportamento:** `quotesAtivas()` é a única condição de elegibilidade e alimenta lista, sorteio e dia (R5). A escolha gravada em `daily_quotes` cuja citação deixou de ser ativa é **substituída** (`ON CONFLICT DO UPDATE` com `setWhere` que só toca linha cuja citação não é ativa; uma gravada ativa nunca é sobrescrita). Reativar não desfaz a substituição. Fora da janela de ±30 dias nada é gravado.
+
+**Contrato:** nenhum campo novo na API pública; a OpenAPI gerada pela branch é idêntica à da produção (29 rotas, comparada inteira). Só muda quais linhas voltam.
+
+**Verificação:** ensaio em cópia da produção (270 citações, hash idêntico antes e depois, todas `ativa`, 61 dias gravados preservados, segunda execução sem efeito); testes de integração com mutação (tirar o filtro de lista, sorteio ou dia, ou trocar `DoUpdate` por `DoNothing`, faz teste falhar). Efeito colateral aceito: o CHECK de fonte obrigou testes antigos a inserir `source`.
+
+**Scripts:** `repair-quote-sources.ts` (faz `DELETE`, fere R3) marcado como histórico; `export-quotes-canonical.ts` leva `status` e `motivoOcultacao`; `seed-quotes.ts` os preserva; `verificar-acervo.ts` só avalia as ativas nos avisos de link, autor e verificação.
