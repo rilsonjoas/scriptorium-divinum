@@ -24,8 +24,14 @@ import { autor, livro, textoObra, settings, categorias } from './fixtures';
 
 const TAGS = ['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa', 'wcag22aa'];
 
+/** Anúncios do Google: terceiro, fora do nosso controle. O iframe que o AdSense injeta (às vezes sim, às vezes
+ *  não, conforme a rede do runner) recebe Tab sem o nosso indicador de foco e fazia o teste de foco falhar de forma
+ *  intermitente (main de 18/10/2026). Bloquear os scripts deixa a auditoria determinística e só sobre o nosso app. */
+const ANUNCIOS = /googlesyndication|doubleclick|adtrafficquality|googleadservices|adsbygoogle/;
+
 /** Manda a API para as fixtures, para cada página ter conteúdo real. */
 async function mockApi(page: Page) {
+  await page.route(ANUNCIOS, (r) => r.abort());
   await page.route('**/api/v1/settings', (r) => r.fulfill({ json: settings }));
   // /categories devolve uma LISTA (não o objeto paginado dos outros). Com o formato errado a home
   // quebrava (`.find is not a function`) e o axe auditava uma página em branco.
