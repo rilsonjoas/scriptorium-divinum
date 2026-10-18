@@ -11,7 +11,8 @@ interface SectionLabelProps {
 
 const TONS = {
   rubrica: 'text-library-rubrica',
-  gold: 'text-library-gold',
+  // claro: dourado escuro (o --library-gold é pensado para madeira escura e dava 1,44:1 em fundo claro)
+  gold: 'text-library-dourado-leitura dark:text-library-gold',
   muted: 'text-muted-foreground',
 } as const;
 

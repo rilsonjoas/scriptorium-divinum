@@ -54,6 +54,8 @@ async function mockApi(page: Page) {
 
 /** Roda axe e falha o teste com o relatório legível. */
 async function auditar(page: Page, contexto: string) {
+  // As seções entram com animação (opacidade parcial): medir no meio dela dá contraste falso. Espera terminar.
+  await page.evaluate(() => Promise.all(document.getAnimations().map((a) => a.finished.catch(() => undefined))));
   const resultado = await new AxeBuilder({ page })
     .withTags(TAGS)
     // erros de console não são violação axe; ficam de fora do critério
@@ -89,13 +91,8 @@ const ROTAS = [
 
 for (const rota of ROTAS) {
   test(`axe-core WCAG 2.2 A+AA — ${rota.nome}`, async ({ page }) => {
-    // DÉBITO A11Y-02 (18/10/2026), medido e conhecido: a home tem contraste insuficiente (color-contrast, serious):
-    // o texto dourado claro #f2c75a do rótulo de seção ("Curadoria & Leituras Fundamentais") sobre o fundo
-    // #f4f3f0 dá 1,44:1 (mínimo 4,5:1), e o link "Explorar todas as 181+ obras" (#b39a61) dá 2,45:1. Isso estava
-    // ESCONDIDO: o mock de /categories tinha o formato errado, a home quebrava (`.find is not a function`) e o axe
-    // auditava uma página em branco. Corrigir as cores é decisão de design (qual dourado escuro usar no tema claro).
-    // `test.fail` passa enquanto o débito existir e FALHA quando alguém o corrigir, avisando para remover esta linha.
-    test.fail(rota.nome === 'home', 'A11Y-02: contraste do dourado na home (ver comentário acima e ROADMAP)');
+    // A11Y-02 (corrigido em 18/10/2026): o dourado de texto sobre fundo claro era #f2c75a (1,44:1) e #b39a61 (2,45:1);
+    // agora --library-dourado-leitura (#80651a, 4,99:1). Se este teste voltar a falhar na home, o dourado regrediu.
     await mockApi(page);
     await page.goto(rota.caminho);
     // espera o conteúdo do fixture entrar, senão a auditoria mede o esqueleto

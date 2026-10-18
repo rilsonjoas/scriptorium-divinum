@@ -93,6 +93,7 @@ export default {
 				'library-dourado': 'hsl(var(--library-dourado))',
 				'library-dourado-texto': 'hsl(var(--library-dourado-texto))',
 				'library-dourado-texto-claro': 'hsl(var(--library-dourado-texto-claro))',
+				'library-dourado-leitura': 'hsl(var(--library-dourado-leitura))',
 				'library-vinho': 'hsl(var(--library-vinho))',
 				'library-grafite': 'hsl(var(--library-grafite))'
 			},
