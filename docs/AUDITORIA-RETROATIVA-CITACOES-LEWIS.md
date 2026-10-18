@@ -106,7 +106,7 @@ Princípio: **reaproveitar o veredito do vault; só buscar fonte nova onde o vau
 4. **Itens "sem marca" (122)**: aceitar o veredito de amostragem do vault como "procedência rastreável"; **não refazer**. Registrar no banco `fonte_url`/`verificado_em` apenas
    para as que ganharem página e edição (não inventar fonte para preencher campo).
 5. **Corrigir o "~740"** do protocolo: são 281 citações no total (156 de Lewis), não ~740.
-6. **Depois**: as 125 de outros autores (281 menos 156) não têm cobertura da auditoria do vault (ela é de Lewis); as 93 adicionadas em 25/09 foram verificadas na hora (WebSearch), as demais (cerca de 32) são legado.
+6. **As 125 de outros autores já tinham cobertura (correção de 18/10/2026):** as 93 novas foram verificadas uma a uma em 25/09 (WebSearch contra fonte primária) e as ~32 pré-existentes passaram por um segundo pente-fino (12 retiradas, 3 atribuições corrigidas). Detalhe e onde achar: `REGISTRO-VERIFICACAO-CITACOES-LEWIS.md`, item 4 da seção 1. **Não refazer.** Só falta, se um dia for útil, um registro por citação.
    Mesmo cruzamento, com as notas de cada autor, quando houver interesse.
 
 ## O que este relatório NÃO faz
