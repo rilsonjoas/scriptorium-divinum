@@ -183,6 +183,20 @@ describe('Citação do dia GRAVADA — a escolha não muda quando o acervo muda'
       expect(res.statusCode).toBe(400);
     });
 
+    it('o 400 por data inexistente traz error, message e details (o schema do OpenAPI não corta campos)', async () => {
+      const res = await app.inject({ method: 'GET', url: '/api/v1/quotes/daily?date=2026-13-45' });
+      expect(res.statusCode).toBe(400);
+      const corpo = res.json();
+      expect(corpo.error).toBe('validation_error');
+      expect(typeof corpo.message).toBe('string');
+      expect(corpo.details?.issues?.[0]?.path).toEqual(['date']);
+    });
+
+    it('a especificação OpenAPI declara a resposta 400 da rota daily', async () => {
+      const spec = app.swagger() as { paths: Record<string, { get?: { responses?: Record<string, unknown> } }> };
+      expect(Object.keys(spec.paths['/api/v1/quotes/daily']!.get!.responses!)).toContain('400');
+    });
+
     it('data anterior a 1970 (semente negativa) devolve citação, não 404', async () => {
       const res = await app.inject({
         method: 'GET',
