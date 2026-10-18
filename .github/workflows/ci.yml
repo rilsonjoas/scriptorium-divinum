@@ -75,6 +75,10 @@ jobs:
       - name: Auditoria de acessibilidade (axe-core, WCAG 2.2 A+AA)
         run: pnpm --filter web test:a11y
 
+      # R5 (hetzner-infra/ROADMAP-CLUSTER.md): política "API fora, o card some". APIs simuladas.
+      - name: E2E — API fora, o card some (política do cluster)
+        run: pnpm --filter web exec playwright test e2e/api-fora.spec.ts
+
       - name: Build web
         run: pnpm build:web
 

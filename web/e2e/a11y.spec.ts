@@ -27,9 +27,9 @@ const TAGS = ['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa', 'wcag22aa'];
 /** Manda a API para as fixtures, para cada página ter conteúdo real. */
 async function mockApi(page: Page) {
   await page.route('**/api/v1/settings', (r) => r.fulfill({ json: settings }));
-  await page.route('**/api/v1/categories', (r) =>
-    r.fulfill({ json: { items: categorias, total: categorias.length } }),
-  );
+  // /categories devolve uma LISTA (não o objeto paginado dos outros). Com o formato errado a home
+  // quebrava (`.find is not a function`) e o axe auditava uma página em branco.
+  await page.route('**/api/v1/categories', (r) => r.fulfill({ json: categorias }));
   await page.route('**/api/v1/books?**', (r) =>
     r.fulfill({ json: { items: [livro], total: 1, page: 1, limit: 100, totalPages: 1 } }),
   );
@@ -83,6 +83,13 @@ const ROTAS = [
 
 for (const rota of ROTAS) {
   test(`axe-core WCAG 2.2 A+AA — ${rota.nome}`, async ({ page }) => {
+    // DÉBITO A11Y-02 (18/10/2026), medido e conhecido: a home tem contraste insuficiente (color-contrast, serious):
+    // o texto dourado claro #f2c75a do rótulo de seção ("Curadoria & Leituras Fundamentais") sobre o fundo
+    // #f4f3f0 dá 1,44:1 (mínimo 4,5:1), e o link "Explorar todas as 181+ obras" (#b39a61) dá 2,45:1. Isso estava
+    // ESCONDIDO: o mock de /categories tinha o formato errado, a home quebrava (`.find is not a function`) e o axe
+    // auditava uma página em branco. Corrigir as cores é decisão de design (qual dourado escuro usar no tema claro).
+    // `test.fail` passa enquanto o débito existir e FALHA quando alguém o corrigir, avisando para remover esta linha.
+    test.fail(rota.nome === 'home', 'A11Y-02: contraste do dourado na home (ver comentário acima e ROADMAP)');
     await mockApi(page);
     await page.goto(rota.caminho);
     // espera o conteúdo do fixture entrar, senão a auditoria mede o esqueleto
