@@ -553,3 +553,9 @@ Passo 2 do plano de `docs/AUDITORIA-RETROATIVA-CITACOES-LEWIS.md`. O vault já t
 
 **Efeito conhecido em um dia já mostrado:** `d5518bea` ("O céu não é silencioso") estava gravada como a citação do dia de **2026-10-16**. A linha de `daily_quotes` some em cascata e esse dia passa a escolher outra citação quando alguém o consultar. É intencional (a frase não tem fonte) e é a única das 7 que estava gravada. API: 277 para 270 citações (152 para 145 de Lewis).
 
+---
+
+## 2026-10-18 — A especificação OpenAPI passa a declarar o 400 da rota `quotes/daily`
+
+Achado da Fase 3 (cluster): nenhuma das especificações declarava a resposta 400, então um cliente gerado não "sabia" do erro de validação. Declarado em `quotes/daily` com um schema que **não corta campos** (`additionalProperties: true`), só para documentar o que a API já devolve: `error` e `message`, e `details` (Zod, `validation_error`) ou nada (`FST_ERR_VALIDATION`, padrão do Fastify). Mudança aditiva; o corpo da resposta não mudou (conferido em produção antes e depois). Diferença conhecida entre as APIs: a Bíblia na Arte usa `issues` onde o Scriptorium usa `details`; unificar seria mudança de contrato e fica como decisão do autor (hetzner-infra/ROADMAP-CLUSTER.md).
+

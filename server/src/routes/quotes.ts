@@ -20,6 +20,16 @@ const dailyQuoteJson = zodToJsonSchema(quoteSchema.extend({ date: z.string() }),
 });
 const quoteListJson = zodToJsonSchema(z.array(quoteSchema), { $refStrategy: 'none' });
 const errorJson = zodToJsonSchema(errorResponseSchema, { $refStrategy: 'none' });
+// 400 de validação (`?date=` inválido ou inexistente no calendário). Dois formatos reais, ambos com
+// `error` e `message`: `validation_error` com `details` (Zod) e `FST_ERR_VALIDATION` (padrão do Fastify,
+// sem `details`). `additionalProperties: true` para o Fastify NÃO cortar campos da resposta: este schema só
+// documenta no OpenAPI o que a API já devolve (contrato: contract/ dos consumidores).
+const validationErrorJson = {
+  type: 'object',
+  properties: { error: { type: 'string' }, message: { type: 'string' } },
+  required: ['error', 'message'],
+  additionalProperties: true,
+} as const;
 
 export async function quoteRoutes(app: FastifyInstance) {
   // Citação do dia — determinística por data (ADR 001, fonte única do cluster)
@@ -30,7 +40,7 @@ export async function quoteRoutes(app: FastifyInstance) {
         tags: ['citacoes'],
         summary: 'Citação do dia — mesma pra todo o cluster, determinística por data',
         querystring: zodToJsonSchema(quoteDailyQuerySchema, { $refStrategy: 'none' }),
-        response: { 200: dailyQuoteJson, 404: errorJson, 500: errorJson },
+        response: { 200: dailyQuoteJson, 400: validationErrorJson, 404: errorJson, 500: errorJson },
       },
     },
     async (request) => {
