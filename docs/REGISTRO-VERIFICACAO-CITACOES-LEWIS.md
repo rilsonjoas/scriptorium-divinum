@@ -20,7 +20,8 @@ Decisões e datas: [`DECISOES.md`](DECISOES.md).
    `15cc0baa`, `208426db`, `033cd665` (⚠️ não localizadas em fonte primária pelo vault). Ver `DECISOES.md`.
 3. **Fonte registrada em 18/10/2026 (migration 0014)** a partir do vault: `65e113b5` e `86587b88` (*Cristianismo Puro e Simples*),
    `67b54cc0` (carta a Sheldon Vanauken, 23/12/1950), `b50e13d4` (*The Collected Letters*, vol. 3, p. 119).
-4. **Limpeza de 25/09/2026** (1 falsa e 20 duvidosas retiradas, 8 atribuições corrigidas): detalhes na nota de projeto do vault
+4. **As 125 citações de OUTROS autores NÃO estão sem cobertura (correção de 18/10/2026).** Em 25/09/2026 (nota do vault `9 - TI/08 - Carreira e Aprendizagem/Projetos/Scriptorium Divinum.md`, seção "Diversificação da base de citações"): as **93 novas** (13 autores: Bonhoeffer, Agostinho, Kempis, Edwards, Kierkegaard, Calvino, Chesterton, Bunyan, Pascal, Boécio, Weil, Anselmo, Lutero) foram verificadas **uma a uma por WebSearch contra fonte primária**; as **43 pré-existentes de 10 autores** passaram por um segundo pente-fino (duplicatas resolvidas, grafia de autor padronizada, **3 atribuições de livro corrigidas, 12 duvidosas retiradas**: Spurgeon, Padre Vieira e outras). Backup: `~/backups/scriptorium_quotes_backup_2026-09-25.sql`. **O que NÃO existe é o registro por citação** (qual fonte, qual busca) como o deste arquivo para Lewis: se um dia for preciso, o ponto de partida é essa nota do vault, não uma busca nova. Não refazer.
+5. **Limpeza de 25/09/2026** (1 falsa e 20 duvidosas retiradas, 8 atribuições corrigidas): detalhes na nota de projeto do vault
    `9 - TI/08 - Carreira e Aprendizagem/Projetos/Scriptorium Divinum.md`.
 
 ## 2. As 17 que o vault não resolvia: busca de 18/10/2026
