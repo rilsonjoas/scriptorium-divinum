@@ -1,4 +1,4 @@
-import { and, eq, sql } from 'drizzle-orm';
+import { and, eq, sql, type SQL } from 'drizzle-orm';
 import { db } from './client.js';
 import { dailyQuotes, quotes } from './schema.js';
 import { buildAmazonUrl } from '../lib/affiliate.js';
@@ -56,6 +56,13 @@ export function whereByAuthor(author?: string) {
   ];
 }
 
+/** R5 (docs/superpowers/specs/2026-10-18-painel-de-citacoes-design.md): elegibilidade num lugar só.
+ *  Só `ativa` é pública; `oculta` e `rascunho` não aparecem na lista, no sorteio nem no dia. Toda leitura
+ *  pública de `quotes` combina esta condição, para os três nunca divergirem. */
+export function quotesAtivas(): SQL {
+  return eq(quotes.status, 'ativa');
+}
+
 /** Seleção determinística pura: mesmo conjunto + mesma data → mesma citação
  *  (seed = dias desde a epoch mod o tamanho). Ordem estável por id. */
 export function pickQuoteBySeed(rows: readonly Quote[], dateKey: string): Quote | undefined {
@@ -67,8 +74,7 @@ export function pickQuoteBySeed(rows: readonly Quote[], dateKey: string): Quote 
 }
 
 export async function listQuotes(author?: string): Promise<Quote[]> {
-  const conditions = whereByAuthor(author);
-  const where = conditions.length > 0 ? and(...conditions) : undefined;
+  const where = and(quotesAtivas(), ...whereByAuthor(author));
   const rows = await db
     .select()
     .from(quotes)
@@ -91,8 +97,8 @@ export function dentroDaJanelaDeGravacao(dateKey: string, hoje: string): boolean
  *
  *  Sem filtro de autor e dentro da janela, a escolha é GRAVADA em `daily_quotes` na primeira
  *  consulta do dia e depois só lida: adicionar ou remover citações não muda o que já foi mostrado.
- *  A gravação é segura contra consultas simultâneas (ON CONFLICT DO NOTHING e releitura: todas
- *  as consultas devolvem a mesma vencedora). Com filtro de autor, ou fora da janela, a escolha é
+ *  A gravação é segura contra consultas simultâneas (ON CONFLICT e releitura: todas as consultas
+ *  devolvem a mesma vencedora). Se a citação gravada foi ocultada, o dia escolhe outra e regrava (R4). Com filtro de autor, ou fora da janela, a escolha é
  *  calculada (semente de dias desde a epoch, módulo o tamanho do conjunto, ordem estável por id). */
 export async function getDailyQuote(
   date?: string,
@@ -112,10 +118,17 @@ export async function getDailyQuote(
   const escolhida = pickQuoteBySeed(rows, dateKey);
   if (!escolhida || !gravar) return escolhida;
 
+  // R4: se já existe linha do dia e a citação dela deixou de ser ativa (foi ocultada), a nova escolha a
+  // SUBSTITUI. O `setWhere` só deixa substituir linha cuja citação não é ativa: uma gravada ativa nunca
+  // é sobrescrita, nem por consultas simultâneas. Sem linha, é o INSERT de sempre.
   await db
     .insert(dailyQuotes)
     .values({ dateKey, quoteId: escolhida.id })
-    .onConflictDoNothing({ target: dailyQuotes.dateKey });
+    .onConflictDoUpdate({
+      target: dailyQuotes.dateKey,
+      set: { quoteId: escolhida.id },
+      setWhere: sql`NOT EXISTS (SELECT 1 FROM ${quotes} WHERE ${quotes.id} = ${dailyQuotes.quoteId} AND ${quotesAtivas()})`,
+    });
   // releitura: se outra consulta gravou primeiro, devolve a dela (e não a nossa)
   return (await lerEscolhaGravada(dateKey)) ?? escolhida;
 }
@@ -125,14 +138,13 @@ async function lerEscolhaGravada(dateKey: string): Promise<Quote | undefined> {
     .select({ quote: quotes })
     .from(dailyQuotes)
     .innerJoin(quotes, eq(quotes.id, dailyQuotes.quoteId))
-    .where(eq(dailyQuotes.dateKey, dateKey))
+    .where(and(eq(dailyQuotes.dateKey, dateKey), quotesAtivas()))
     .limit(1);
   return row ? toQuoteDto(row.quote) : undefined;
 }
 
 export async function getRandomQuote(author?: string): Promise<Quote | undefined> {
-  const conditions = whereByAuthor(author);
-  const where = conditions.length > 0 ? and(...conditions) : undefined;
+  const where = and(quotesAtivas(), ...whereByAuthor(author));
   const [row] = await db
     .select()
     .from(quotes)
