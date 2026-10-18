@@ -526,3 +526,14 @@ Tabela `daily_quotes`, janela de ±30 dias, preenchida pela migration 0012 com a
 Ensaiada contra cópia da produção (61/61 iguais). Detalhes e o que a gravação não cobre: ADR 001, atualização (2).
 Junto: `?date=` inválido passa a dar 400; datas anteriores a 1970 deixam de dar 404.
 
+---
+
+## 2026-10-18 — Retirada de 4 citações de Lewis que o vault marca como falsa ou duvidosa
+
+**Decisão (Rilson):** retirar uma citação que é fala de filme e três que não se localizam em fonte primária. Origem: `docs/AUDITORIA-RETROATIVA-CITACOES-LEWIS.md`, que cruzou as 156 citações de Lewis da API com a auditoria do vault.
+
+- `4c765bb2` "Eu oro, porque eu não posso me ajudar..." ❌ fala do filme *Terra de Sombras* (1993), do personagem Lewis (roteiro de William Nicholson).
+- `15cc0baa`, `208426db`, `033cd665` ⚠️ duvidosas: busca real feita no vault, formulação não localizada.
+
+**Como foi feito:** migration `0013_retira_4_citacoes_lewis` (apaga por id). Ensaiada contra cópia da produção: 281 para 277, segunda execução sem efeito. Nenhuma das 4 estava gravada em `daily_quotes` (nenhum dia mostrado muda). `quotes-canonical.json` atualizado no mesmo PR (senão `seed-quotes.ts` as ressuscitaria). "Duvidosa" não prova que seja falsa: se uma for localizada, volta pelo protocolo, com fonte. Passos seguintes, nos outros projetos: regerar a cópia do Gerador (`npm run quotes:sync`) e conferir o canário.
+

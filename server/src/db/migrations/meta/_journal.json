@@ -92,6 +92,13 @@
       "when": 1792278759439,
       "tag": "0012_citacao_do_dia_gravada",
       "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "7",
+      "when": 1792295098538,
+      "tag": "0013_retira_4_citacoes_lewis",
+      "breakpoints": true
     }
   ]
 }
