@@ -102,3 +102,22 @@ As ~740 citações já existentes na tabela (a maioria da leva original, sem
 separado, maior, já registrado como pendência. Este protocolo vale pra
 **entrada nova** a partir de 26/09/2026; não é uma promessa retroativa de
 que tudo que já está lá tem fonte confirmada.
+
+## Retirar uma citação (fabricada, sem direito de uso, ou que não se sustentou)
+
+Retirar tem efeitos em cadeia que, até 17/10/2026, **não estavam escritos em lugar nenhum**. Ordem:
+
+1. **Remova pelo Scriptorium, em migration** (versionada e ensaiável): `DELETE FROM quotes WHERE id = '<id>';`. Rode `scripts/ensaiar-migrate.sh` com um dump da produção e
+   `pnpm --filter server acervo:verificar` (acusa `scriptorium_url` apontando para obra oculta e autor com duas grafias).
+2. **O que acontece sozinho, na hora, no Scriptorium:** a linha de `daily_quotes` daquela citação some em cascata, e o dia que a tinha **escolhe outra citação na próxima consulta**.
+   Se era a citação de **hoje**, a frase de hoje muda para quem consultar depois.
+3. **O que acontece com atraso, nos outros projetos** (a citação retirada continua aparecendo até lá):
+   - **Gerador:** a lista em memória dura até **10 min**. A **cópia embutida** (`src/data/lewis-quotes.snapshot.json`) continua tendo a citação até ser regerada: rode `npm run quotes:sync`
+     no repositório do Gerador, revise o diff e publique. O **canário** acusa, em até 1 h, citação retirada que ainda esteja na cópia (é **erro**), então esquecer não passa em silêncio.
+   - **Narniano:** guarda a citação do dia por até **6 h** (chave = data). Se a retirada era a de hoje, ele pode continuar mostrando-a por até 6 h. Não há como limpar o cache de fora.
+   - **Lecionário (web e mobile) e Scriptorium web:** buscam a cada carregamento; não verificado se há cache intermediário.
+4. **Atualize o backup:** `export-quotes-canonical.ts` (banco para JSON). Sem isso, o `seed-quotes.ts` (restaurar do zero) **ressuscitaria** a citação retirada, como quase aconteceu em 26/09/2026.
+5. **Registre em `docs/DECISOES.md`** o que foi retirado, o motivo e a fonte da checagem.
+
+Para uma retirada **urgente** (direito de uso, por exemplo), faça os passos 1 e 3 (Gerador) no mesmo dia; o resto pode esperar.
+

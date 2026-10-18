@@ -135,6 +135,28 @@ real primeiro, polimento depois.
 
 ---
 
+## Resiliência: o que fazer quando as APIs do cluster falham (2026-10-17)
+
+**Política do cluster para quando uma API de que este projeto depende falha** (mapa completo em `CONTRATOS-ENTRE-PROJETOS.md`, seção 10, no repositório de infraestrutura, que é privado):
+1. **Card "do dia": some inteiro** (sem título solto, sem espaço reservado, sem erro de JavaScript) e **nunca** mostra conteúdo substituto, porque o "do dia" tem de ser o mesmo item em todo o cluster. Permitido reaproveitar o último valor bom **da mesma data**.
+2. **Sorteio ou lista: fallback permitido** (qualquer item do acervo serve): é o caso do Gerador, com uma cópia embutida vigiada pelo canário.
+3. **Falha de API nunca vira 404** numa página que existe: 500 ou 503, que o crawler repete.
+4. **Toda chamada tem limite de tempo**: uma API lenta é pior que uma fora do ar.
+5. **Esconder em silêncio exige um vigia**: o canário do cluster confere o formato das rotas de hora em hora.
+
+**Estado deste projeto.** O Scriptorium é o **provedor** das citações (consumidas por Lecionário, Gerador e Narniano) e **consome** três rotas "do dia" no site web
+(Pintura, Passagem, Citação). Os três cards **somem inteiros** quando a API falha. **Verificado em produção** (navegador real, APIs bloqueadas): 0 blocos vazios e 0 erros de
+JavaScript. Não há fallback, de propósito (política 1). **Como provedor**, a queda do Scriptorium já não derruba o Gerador (ele tem lista em memória e cópia embutida); o
+Lecionário e o Narniano escondem o card.
+
+**Itens abertos:**
+- [x] **Procedimento de retirar uma citação** documentado (17/10/2026), com os efeitos em cadeia e o passo de regerar a cópia do Gerador: `docs/PROTOCOLO-VERIFICACAO-DE-CITACOES.md`, seção "Retirar uma citação".
+- [ ] **R2 (baixa): reaproveitar o último valor bom da mesma data** nos três cards do site (a escolha é determinística por data).
+- [ ] **R3 (baixa): a chamada do navegador não tem limite de tempo próprio** (`citacaoDoDia.ts`, `pinturaDoDia.ts`, `versiculoDoDia.ts`: só o sinal de cancelamento). Com API lenta o card aparece
+  tarde ou nunca. Pôr limite de 3 a 5 s.
+- [ ] **R5 (média): teste automatizado "API fora, o card some, sem bloco vazio e sem erro de JS"** (E2E com as rotas bloqueadas, fora do portão do deploy no início).
+- [ ] **R6b (média): avaliar um PR automático de `quotes:sync` no Gerador** quando o canário acusar que a cópia embutida dele divergiu do acervo (hoje a regeração é manual).
+
 ## P0 — Segurança
 
 > [!DONE] Arquitetura confirmada (2026-08-09)
