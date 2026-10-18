@@ -537,3 +537,9 @@ Junto: `?date=` inválido passa a dar 400; datas anteriores a 1970 deixam de dar
 
 **Como foi feito:** migration `0013_retira_4_citacoes_lewis` (apaga por id). Ensaiada contra cópia da produção: 281 para 277, segunda execução sem efeito. Nenhuma das 4 estava gravada em `daily_quotes` (nenhum dia mostrado muda). `quotes-canonical.json` atualizado no mesmo PR (senão `seed-quotes.ts` as ressuscitaria). "Duvidosa" não prova que seja falsa: se uma for localizada, volta pelo protocolo, com fonte. Passos seguintes, nos outros projetos: regerar a cópia do Gerador (`npm run quotes:sync`) e conferir o canário.
 
+---
+
+## 2026-10-18 — Fonte registrada em 4 citações de Lewis que já estavam confirmadas no vault
+
+Passo 2 do plano de `docs/AUDITORIA-RETROATIVA-CITACOES-LEWIS.md`. O vault já tinha confirmado a fonte destas quatro (auditoria de 21 a 27/09/2026) e o banco não a registrava. Migration `0014_preenche_source_de_4_citacoes_lewis`: `65e113b5` e `86587b88` (Cristianismo Puro e Simples), `67b54cc0` (carta a Sheldon Vanauken, 23/12/1950), `b50e13d4` (*The Collected Letters of C. S. Lewis*, vol. 3, p. 119). Só o campo `source`: `fonte_url` e `verificado_em` continuam vazios, porque o vault nomeia livro, página ou carta, não uma URL conferida (o protocolo não permite preencher campo sem fonte real). Não mexe em `affiliateUrl` (decisão de monetização à parte). Ensaiada em cópia da produção: 277 citações antes e depois, 4 preenchidas, segunda execução sem efeito. Restam 2 sem fonte (`0e70882b`, `17f74df7`), que vão para a busca em fonte primária.
+

@@ -96,7 +96,7 @@ Princípio: **reaproveitar o veredito do vault; só buscar fonte nova onde o vau
 
 1. **FEITO em 18/10/2026 (migration 0013):** retirar a ❌ (item 1) e, pela política de 25/09, as 3 ⚠️ (item 2)? Pelo procedimento "Retirar uma citação" do protocolo
    (apagar no banco, regerar a cópia do Gerador com `npm run quotes:sync`, conferir o canário). São 4 de 156.
-2. **Preencher `source` das 8 sem fonte** usando o que o vault já confirma (sem busca nova).
+2. **FEITO em 18/10/2026 (migration 0014, 4 das 6 que restavam; as outras 2 vão para o item 3):** preencher `source` das 8 sem fonte usando o que o vault já confirma (sem busca nova).
 3. **Itens "não localizados" (16)**: uma passada de busca em fonte primária, no mesmo padrão do vault (✅ / ⚠️ / ❌ com a fonte); o que ficar ⚠️ segue a política de retirar.
 4. **Itens "sem marca" (122)**: aceitar o veredito de amostragem do vault como "procedência rastreável"; **não refazer**. Registrar no banco `fonte_url`/`verificado_em` apenas
    para as que ganharem página e edição (não inventar fonte para preencher campo).
