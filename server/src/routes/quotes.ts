@@ -20,10 +20,10 @@ const dailyQuoteJson = zodToJsonSchema(quoteSchema.extend({ date: z.string() }),
 });
 const quoteListJson = zodToJsonSchema(z.array(quoteSchema), { $refStrategy: 'none' });
 const errorJson = zodToJsonSchema(errorResponseSchema, { $refStrategy: 'none' });
-// 400 de validação (`?date=` inválido ou inexistente no calendário). Dois formatos reais, ambos com
-// `error` e `message`: `validation_error` com `details` (Zod) e `FST_ERR_VALIDATION` (padrão do Fastify,
-// sem `details`). `additionalProperties: true` para o Fastify NÃO cortar campos da resposta: este schema só
-// documenta no OpenAPI o que a API já devolve (contrato: contract/ dos consumidores).
+// 400 de validação (`?date=` inválido ou inexistente no calendário). Corpo único do cluster, igual ao da
+// Bíblia na Arte (plugins/error-handler.ts): `{error: 'validation_error', message, issues: {campo: [mensagens]},
+// details: {issues: [...]}}`. `additionalProperties: true` para o Fastify NÃO cortar campos da resposta: este
+// schema só exige `error` e `message` (contrato: contract/ dos consumidores); o resto é vigiado pelo canário.
 const validationErrorJson = {
   type: 'object',
   properties: { error: { type: 'string' }, message: { type: 'string' } },
