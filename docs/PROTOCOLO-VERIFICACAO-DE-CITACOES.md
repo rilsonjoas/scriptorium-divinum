@@ -99,7 +99,8 @@ dry-run (`ROLLBACK` no lugar de `COMMIT`) → execução real dentro de
 
 As 281 citações que existiam na tabela em 18/10/2026 (156 de C. S. Lewis; a maioria
 da leva original, sem `fonte_url` preenchido) não foram retroauditadas uma a uma.
-O estado real e o plano estão em `docs/AUDITORIA-RETROATIVA-CITACOES-LEWIS.md`. Este protocolo vale pra
+O estado real e o plano estão em `docs/AUDITORIA-RETROATIVA-CITACOES-LEWIS.md`; o que já foi
+verificado, e onde, em `docs/REGISTRO-VERIFICACAO-CITACOES-LEWIS.md` (consulte antes de buscar de novo). Este protocolo vale pra
 **entrada nova** a partir de 26/09/2026; não é uma promessa retroativa de
 que tudo que já está lá tem fonte confirmada.
 
