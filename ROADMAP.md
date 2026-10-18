@@ -139,7 +139,7 @@ real primeiro, polimento depois.
 - [ ] **Auditoria retroativa das citações de Lewis (análise feita em 18/10/2026; ações dependem do autor).** Relatório e plano em
   `docs/AUDITORIA-RETROATIVA-CITACOES-LEWIS.md`; o cruzamento com o vault é reproduzível por `scripts/cruzar-citacoes-com-vault.py`. Resumo: das 156 de Lewis
   na API, 14 têm ✅ individual no vault, 122 têm procedência rastreável por amostragem, 16 não foram localizadas no vault, 3 estão ⚠️ e 1 estava ❌ (fala do filme
-  *Terra de Sombras*). **A ❌ e as 3 ⚠️ foram retiradas em 18/10/2026** (migration 0013). Faltam: preencher `source` das 8 sem fonte e a passada em fonte primária nas 16 não localizadas.
+  *Terra de Sombras*). **A ❌ e as 3 ⚠️ foram retiradas em 18/10/2026** (migration 0013). `source` preenchido em 4 (migration 0014); faltam 2 sem fonte e a passada em fonte primária nas 16 não localizadas.
 
 ## Resiliência: o que fazer quando as APIs do cluster falham (2026-10-17)
 
