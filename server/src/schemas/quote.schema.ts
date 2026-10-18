@@ -1,4 +1,5 @@
 import { z } from 'zod';
+import { isValidDateKey } from '../lib/date.js';
 
 export const quoteSchema = z.object({
   id: z.string().uuid(),
@@ -14,7 +15,11 @@ export const quoteSchema = z.object({
 
 export const quoteDailyQuerySchema = z.object({
   /** 'YYYY-MM-DD' — sem ele, "hoje" em America/Sao_Paulo. */
-  date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/).optional(),
+  date: z
+    .string()
+    .regex(/^\d{4}-\d{2}-\d{2}$/)
+    .refine(isValidDateKey, 'data inexistente no calendário')
+    .optional(),
   /** Filtro de autor (ex.: "C. S. Lewis" no Gerador). */
   author: z.string().optional(),
 });

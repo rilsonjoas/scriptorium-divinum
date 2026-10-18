@@ -519,3 +519,10 @@ ROADMAP: **conferir o efeito, nunca o log.**
 
 **Próximo passo da proveniência:** auditar primeiro a faixa C (descobrir a fonte real; se for antiga, corrigir a atribuição; se for a edição moderna, trocar a base ou ocultar enquanto isso), e levar ao jurídico as perguntas listadas no registro.
 
+## 2026-10-17 — Citação do dia: gravar a escolha de cada dia
+
+Decisão do autor ("é o mais profissional"). Editar o acervo de citações não deve reescrever os dias já mostrados.
+Tabela `daily_quotes`, janela de ±30 dias, preenchida pela migration 0012 com a escolha que a fórmula antiga dava.
+Ensaiada contra cópia da produção (61/61 iguais). Detalhes e o que a gravação não cobre: ADR 001, atualização (2).
+Junto: `?date=` inválido passa a dar 400; datas anteriores a 1970 deixam de dar 404.
+

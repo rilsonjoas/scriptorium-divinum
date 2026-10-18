@@ -17,6 +17,7 @@ import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import postgres from 'postgres';
+import { grafiasDivergentes } from '../src/lib/quote-authors.js';
 
 const TEXTS_DIR = path.join(path.dirname(fileURLToPath(import.meta.url)), '../texts');
 
@@ -152,6 +153,17 @@ async function main() {
           achados.push({ nivel: 'ERRO', arquivo: `autor:${a.slug}`, mensagem: `nome de autor parece título ou cabeçalho: "${a.name}"`, publicada: true });
         }
         if (a.n === 0) achados.push({ nivel: 'INFO', arquivo: `autor:${a.slug}`, mensagem: 'autor sem nenhuma obra' });
+      }
+
+      // `quotes.author` é texto livre: o mesmo autor escrito de dois jeitos (`C.S. Lewis` e `C. S. Lewis`)
+      // vira dois autores na vitrine. O filtro da API já os une; aqui se aponta o dado a corrigir.
+      const autoresDeCitacao = await sql<{ author: string }[]>`select distinct author from quotes`;
+      for (const g of grafiasDivergentes(autoresDeCitacao.map((r) => r.author))) {
+        achados.push({ nivel: 'AVISO', arquivo: `citação-autor:${g.chave}`, mensagem: `mesmo autor escrito de jeitos diferentes nas citações: ${g.grafias.map((x) => `"${x}"`).join(', ')}`, publicada: true });
+      }
+      const [{ n: semVerificacao }] = await sql<{ n: number }[]>`select count(*)::int as n from quotes where verificado_em is null`;
+      if (semVerificacao > 0) {
+        achados.push({ nivel: 'INFO', arquivo: 'citações', mensagem: `${semVerificacao} citação(ões) sem verificação de fonte registrada (verificado_em vazio; ver docs/PROTOCOLO-VERIFICACAO-DE-CITACOES.md)` });
       }
 
       const citacoes = await sql<{ url: string }[]>`select distinct scriptorium_url as url from quotes where scriptorium_url is not null`;

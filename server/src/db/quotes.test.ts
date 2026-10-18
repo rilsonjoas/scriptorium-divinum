@@ -1,5 +1,11 @@
 import { describe, expect, it } from 'vitest';
-import { pickQuoteBySeed, toQuoteDto, type QuoteRow } from './quotes.js';
+import {
+  dentroDaJanelaDeGravacao,
+  JANELA_GRAVACAO_DIAS,
+  pickQuoteBySeed,
+  toQuoteDto,
+  type QuoteRow,
+} from './quotes.js';
 import { env } from '../config.js';
 
 function row(over: Partial<QuoteRow>): QuoteRow {
@@ -86,5 +92,38 @@ describe('pickQuoteBySeed', () => {
 
   it('conjunto vazio → undefined', () => {
     expect(pickQuoteBySeed([], '2026-09-23')).toBeUndefined();
+  });
+
+  it('data anterior a 1970 (semente negativa) escolhe uma citação, em vez de undefined (404 em 17/10/2026)', () => {
+    for (const d of ['1900-01-01', '1969-12-31', '1970-01-01']) {
+      expect(pickQuoteBySeed(quotes, d), d).toBeDefined();
+    }
+  });
+
+  it('o índice cobre todo o conjunto, sem sair dele, ao longo de um ano', () => {
+    const vistos = new Set<string>();
+    for (let i = 0; i < 400; i++) {
+      const d = new Date(Date.UTC(2026, 0, 1 + i)).toISOString().slice(0, 10);
+      vistos.add(pickQuoteBySeed(quotes, d)!.id);
+    }
+    expect(vistos.size).toBe(quotes.length);
+  });
+});
+
+describe('dentroDaJanelaDeGravacao', () => {
+  const hoje = '2026-10-17';
+  it('hoje e os dois extremos da janela entram', () => {
+    expect(dentroDaJanelaDeGravacao(hoje, hoje)).toBe(true);
+    expect(dentroDaJanelaDeGravacao('2026-11-16', hoje)).toBe(true); // +30
+    expect(dentroDaJanelaDeGravacao('2026-09-17', hoje)).toBe(true); // -30
+  });
+
+  it('um dia além de cada extremo fica fora', () => {
+    expect(dentroDaJanelaDeGravacao('2026-11-17', hoje)).toBe(false); // +31
+    expect(dentroDaJanelaDeGravacao('2026-09-16', hoje)).toBe(false); // -31
+  });
+
+  it('a janela é de 30 dias (a doc e a migration 0012 assumem esse número)', () => {
+    expect(JANELA_GRAVACAO_DIAS).toBe(30);
   });
 });

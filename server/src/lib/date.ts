@@ -20,3 +20,13 @@ export function daySeed(dateKey: string): number {
   if (!year || !month || !day) return 0;
   return Math.floor((Date.UTC(year, month - 1, day) - Date.UTC(1970, 0, 1)) / 86_400_000);
 }
+/** 'YYYY-MM-DD' que existe no calendário (rejeita 2026-13-45 e 2026-02-30). O formato sozinho
+ *  não basta: `?date=2026-13-45` passava na regex e devolvia uma citação para um dia que não existe
+ *  (o Lecionário já respondia 400 nesse caso; ver hetzner-infra/CONTRATOS-ENTRE-PROJETOS.md, 5.1). */
+export function isValidDateKey(dateKey: string): boolean {
+  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(dateKey);
+  if (!m) return false;
+  const [year, month, day] = [Number(m[1]), Number(m[2]), Number(m[3])];
+  const d = new Date(Date.UTC(year, month - 1, day));
+  return d.getUTCFullYear() === year && d.getUTCMonth() === month - 1 && d.getUTCDate() === day;
+}

@@ -266,6 +266,22 @@ export const sessionsRelations = relations(sessions, ({ one }) => ({
   }),
 }));
 
+// Escolha gravada da "citação do dia" (sem filtro de autor). Sem isto a escolha era
+// `daySeed(data) % total` sobre o acervo de agora: adicionar ou remover UMA citação mudava o
+// índice de TODAS as datas, e o link compartilhado de ontem mostrava outra frase. A primeira
+// consulta de um dia dentro da janela grava a escolha; dali em diante ela não muda quando o
+// acervo muda. Se a citação gravada for apagada, só aquele dia é escolhido de novo (cascade).
+// Ver docs/adr/001-citacao-do-dia-api-central.md e hetzner-infra/CONTRATOS-ENTRE-PROJETOS.md.
+export const dailyQuotes = pgTable('daily_quotes', {
+  // 'YYYY-MM-DD' no fuso do cluster (America/Sao_Paulo); texto, não date, porque é a mesma
+  // chave que o consumidor manda em `?date=`.
+  dateKey: varchar('date_key', { length: 10 }).primaryKey(),
+  quoteId: uuid('quote_id')
+    .notNull()
+    .references(() => quotes.id, { onDelete: 'cascade' }),
+  createdAt: timestamp('created_at', { withTimezone: true }).defaultNow().notNull(),
+});
+
 export const quotesRelations = relations(quotes, ({ one }) => ({
   scriptoriumWork: one(books, {
     fields: [quotes.scriptoriumWorkId],
