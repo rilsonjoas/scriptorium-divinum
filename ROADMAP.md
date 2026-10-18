@@ -144,7 +144,7 @@ real primeiro, polimento depois.
 ## Contrato tipado das APIs (Fase 3 do cluster, 2026-10-18)
 - [x] **Site (web/):** `web/contract/` + `web/scripts/contract-update.mjs` + `contract.types.ts` em `pnpm typecheck` com `tsconfig` estrito. Achou a mesma deriva que no Lecionário (campos opcionais tipados como sempre presentes); corrigida em `citacaoDoDia.ts` e `pinturaDoDia.ts`. Mutação verificada. Os recortes são byte a byte os mesmos do Lecionário.
 - [ ] `versiculoDoDia.ts` (rota Next do Lecionário, sem especificação): sem tipos gerados; só o canário cobre.
-- [ ] Declarar as respostas `400` nas rotas `daily` das especificações (feito aqui, no servidor, é mudança de contrato aditiva).
+- [x] Respostas `400` declaradas (Scriptorium #12, Bíblia na Arte #19, 18/10/2026); contratos de `web/contract/` regenerados.
 
 ## Resiliência: o que fazer quando as APIs do cluster falham (2026-10-17)
 
