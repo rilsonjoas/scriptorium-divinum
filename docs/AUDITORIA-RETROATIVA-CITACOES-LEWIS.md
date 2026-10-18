@@ -1,5 +1,7 @@
 # Auditoria retroativa das citações de C. S. Lewis (análise de 18/10/2026)
 
+> **Atualização 18/10/2026:** as 4 citações dos itens 1 e 2 foram **retiradas** (migration `0013_retira_4_citacoes_lewis`, decisão do autor). A API passa de 281 para 277 citações (156 para 152 de Lewis). Os números abaixo descrevem o estado **antes** da retirada.
+
 **Pergunta:** a questão das fontes das citações já estava resolvida? As não verificadas já saíram da API?
 
 **Resposta curta:** em grande parte sim, mas não por inteiro. A limpeza de 25/09/2026 retirou 1 atribuição falsa e 20
@@ -92,7 +94,7 @@ uma sem marca ("voltar atrás significa progresso") e uma não localizada (a que
 
 Princípio: **reaproveitar o veredito do vault; só buscar fonte nova onde o vault não tem veredito.**
 
-1. **Decisão do autor, já:** retirar a ❌ (item 1) e, pela política de 25/09, as 3 ⚠️ (item 2)? Pelo procedimento "Retirar uma citação" do protocolo
+1. **FEITO em 18/10/2026 (migration 0013):** retirar a ❌ (item 1) e, pela política de 25/09, as 3 ⚠️ (item 2)? Pelo procedimento "Retirar uma citação" do protocolo
    (apagar no banco, regerar a cópia do Gerador com `npm run quotes:sync`, conferir o canário). São 4 de 156.
 2. **Preencher `source` das 8 sem fonte** usando o que o vault já confirma (sem busca nova).
 3. **Itens "não localizados" (16)**: uma passada de busca em fonte primária, no mesmo padrão do vault (✅ / ⚠️ / ❌ com a fonte); o que ficar ⚠️ segue a política de retirar.

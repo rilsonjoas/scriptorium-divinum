@@ -282,7 +282,7 @@ Não há tela de cadastro de citações: elas entram por **migration SQL**, vers
 **O que acontece quando a citação entra** (testado em `quotes-gravada.integration.test.ts`):
 - Ela aparece **na hora** na lista (`GET /quotes`) e no sorteio, portanto no Gerador.
 - **Os dias que já foram mostrados dentro de ±30 dias não mudam** (a escolha de cada dia é gravada).
-- A citação nova entra no rodízio dos **dias que ainda não foram consultados**, por `daySeed % total`. Com 281 citações, a chance de uma
+- A citação nova entra no rodízio dos **dias que ainda não foram consultados**, por `daySeed % total`. Com 277 citações (18/10/2026), a chance de uma
   nova ser a de um dia qualquer é de cerca de 1 em 282: ela **não vira a citação de amanhã por si só**. Para fixar uma citação num dia:
   `UPDATE daily_quotes SET quote_id = '<id>' WHERE date_key = 'AAAA-MM-DD';` (backup antes; vale a partir da próxima consulta).
   Se o dia ainda não tiver linha, insira uma: `INSERT INTO daily_quotes (date_key, quote_id) VALUES ('AAAA-MM-DD', '<id>');`.
