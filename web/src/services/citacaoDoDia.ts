@@ -14,12 +14,14 @@ export interface CitacaoDoDia {
   date: string;
   author: string;
   text: string;
-  source: string | null;
+  // Opcionais porque o contrato da API (contract/scriptorium.d.ts) os declara opcionais:
+  // podem faltar ou vir null. O teste de tipos contract/contract.types.ts confere isso.
+  source?: string | null;
   dominioPublico: boolean;
-  scriptoriumUrl: string | null;
-  theme: string | null;
+  scriptoriumUrl?: string | null;
+  theme?: string | null;
   /** CTA Amazon — presente só para citações não-públicas (hoje, Lewis). */
-  affiliateUrl: string | null;
+  affiliateUrl?: string | null;
 }
 
 export async function fetchCitacaoDoDia(signal?: AbortSignal): Promise<CitacaoDoDia | null> {

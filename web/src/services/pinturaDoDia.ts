@@ -4,17 +4,17 @@ const BIBLE_ART_WEB_BASE = 'https://biblianaarte.narniano.com';
 export interface PinturaReference {
   book: string;
   chapter: number;
-  verses: string | null;
+  verses?: string | null;
 }
 
 export interface PinturaDoDia {
   id: string;
   title: string;
   artistOrDirector: string;
-  year: string | null;
-  imageUrl: string | null;
+  year?: string | null;
+  imageUrl?: string | null;
   description: string;
-  sourceUrl: string | null;
+  sourceUrl?: string | null;
   references: PinturaReference[];
 }
 

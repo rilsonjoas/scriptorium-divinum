@@ -141,6 +141,11 @@ real primeiro, polimento depois.
   na API, 14 têm ✅ individual no vault, 122 têm procedência rastreável por amostragem, 16 não foram localizadas no vault, 3 estão ⚠️ e 1 estava ❌ (fala do filme
   *Terra de Sombras*). **A ❌ e as 3 ⚠️ foram retiradas em 18/10/2026** (migration 0013). `source` preenchido em 4 (migration 0014); busca nas 17 restantes feita em 18/10 (10 confirmadas, 7 não localizadas): tudo registrado em `docs/REGISTRO-VERIFICACAO-CITACOES-LEWIS.md`. **As 7 não localizadas foram retiradas e o `source` de `0e70882b` preenchido (migration 0015, 18/10).** Resta: nada para Lewis; as 125 citações de outros autores não têm cobertura do vault.
 
+## Contrato tipado das APIs (Fase 3 do cluster, 2026-10-18)
+- [x] **Site (web/):** `web/contract/` + `web/scripts/contract-update.mjs` + `contract.types.ts` em `pnpm typecheck` com `tsconfig` estrito. Achou a mesma deriva que no Lecionário (campos opcionais tipados como sempre presentes); corrigida em `citacaoDoDia.ts` e `pinturaDoDia.ts`. Mutação verificada. Os recortes são byte a byte os mesmos do Lecionário.
+- [ ] `versiculoDoDia.ts` (rota Next do Lecionário, sem especificação): sem tipos gerados; só o canário cobre.
+- [ ] Declarar as respostas `400` nas rotas `daily` das especificações (feito aqui, no servidor, é mudança de contrato aditiva).
+
 ## Resiliência: o que fazer quando as APIs do cluster falham (2026-10-17)
 
 **Política do cluster para quando uma API de que este projeto depende falha** (mapa completo em `CONTRATOS-ENTRE-PROJETOS.md`, seção 10, no repositório de infraestrutura, que é privado):
