@@ -37,6 +37,9 @@ interface CanonicalQuote {
   theme: string | null;
   fonteUrl: string | null;
   verificadoEm: string | null;
+  // ausentes nos exports antigos: valem 'ativa' e null
+  status?: 'rascunho' | 'ativa' | 'oculta';
+  motivoOcultacao?: string | null;
 }
 
 async function seed() {
@@ -58,6 +61,8 @@ async function seed() {
       theme: q.theme,
       fonteUrl: q.fonteUrl ?? null,
       verificadoEm: q.verificadoEm ?? null,
+      status: q.status ?? 'ativa',
+      motivoOcultacao: q.motivoOcultacao ?? null,
     })),
   );
 

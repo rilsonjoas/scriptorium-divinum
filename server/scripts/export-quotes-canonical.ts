@@ -44,13 +44,17 @@ async function main() {
     theme: r.theme,
     fonteUrl: r.fonteUrl,
     verificadoEm: r.verificadoEm,
+    // O export leva as OCULTAS também (R3): um restore nunca pode ressuscitar o que foi retirado.
+    status: r.status,
+    motivoOcultacao: r.motivoOcultacao,
   }));
 
   writeFileSync(OUT_FILE, JSON.stringify(canonical, null, 2) + '\n');
 
   const lewis = canonical.filter((c) => c.author === 'C. S. Lewis').length;
   const verified = canonical.filter((c) => c.verificadoEm).length;
-  console.log(`✅ Exportadas ${canonical.length} citações (Lewis: ${lewis}, verificadas: ${verified}/${canonical.length}) → ${OUT_FILE}`);
+  const ocultas = canonical.filter((c) => c.status !== 'ativa').length;
+  console.log(`✅ Exportadas ${canonical.length} citações (Lewis: ${lewis}, verificadas: ${verified}/${canonical.length}, não ativas: ${ocultas}) → ${OUT_FILE}`);
 
   await client.end({ timeout: 5 });
 }
