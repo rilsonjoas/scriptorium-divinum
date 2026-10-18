@@ -49,7 +49,7 @@ export function FaithCollectionSection() {
           </div>
           <Link
             to="/livros"
-            className="mt-4 md:mt-0 inline-flex items-center text-xs sm:text-sm font-semibold text-library-dourado hover:underline gap-1 self-start"
+            className="mt-4 md:mt-0 inline-flex items-center text-xs sm:text-sm font-semibold text-library-dourado-leitura dark:text-library-dourado hover:underline gap-1 self-start"
           >
             Explorar todas as 181+ obras <ArrowRight className="w-4 h-4" />
           </Link>

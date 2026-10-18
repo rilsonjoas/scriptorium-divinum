@@ -72,10 +72,10 @@ export function FaithDoorsSection() {
                     </span>
                   </div>
 
-                  <p className="text-xs font-heading font-semibold text-library-dourado-texto tracking-wider mb-1">
+                  <p className="text-xs font-heading font-semibold text-library-dourado-leitura dark:text-library-dourado-texto tracking-wider mb-1">
                     {door.subtitle}
                   </p>
-                  <h3 className="font-display text-xl font-bold text-library-wood-foreground mb-2 group-hover:text-library-dourado-texto transition-colors">
+                  <h3 className="font-display text-xl font-bold text-library-wood-foreground mb-2 group-hover:text-library-dourado-leitura dark:group-hover:text-library-dourado-texto transition-colors">
                     {door.title}
                   </h3>
                   <p className="font-body text-xs sm:text-sm text-muted-foreground leading-relaxed">
@@ -83,7 +83,7 @@ export function FaithDoorsSection() {
                   </p>
                 </div>
 
-                <div className="mt-6 pt-3 border-t border-library-bronze/20 flex items-center justify-between text-xs font-semibold text-library-dourado-texto group-hover:text-library-dourado">
+                <div className="mt-6 pt-3 border-t border-library-bronze/20 flex items-center justify-between text-xs font-semibold text-library-dourado-leitura dark:text-library-dourado-texto group-hover:text-library-canela dark:group-hover:text-library-dourado">
                   <span>Entrar</span>
                   <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1.5 transition-transform" />
                 </div>

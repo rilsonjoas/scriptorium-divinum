@@ -116,6 +116,7 @@
     --library-vinho: 336 24% 24%; /* #4B2E39 — Vinho Profundo */
     --library-grafite: 0 0% 11%; /* #1C1C1C — Preto Grafite */
     --library-dourado-texto-claro: 40 26% 29%; /* #63502F — dourado como texto sobre fundo claro */
+    --library-dourado-leitura: 44 66% 30%; /* #80651A — dourado de texto/link sobre fundo claro (4,99:1 em #F4F3F0; A11Y-02) */
 
     /* Illuminated Pigments (Pigmentos de Iluminuras) */
     /* Rubrica: o tom dos rótulos e créditos (autor • obra nos cards do dia).

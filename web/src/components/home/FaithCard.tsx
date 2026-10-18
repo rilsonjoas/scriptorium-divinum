@@ -26,7 +26,7 @@ export function FaithCard({ book, tagline, era }: FaithCardProps) {
           <span className="shrink-0">{displayEra}</span>
         </div>
 
-        <h3 className="font-heading text-lg sm:text-xl font-bold text-library-wood-foreground group-hover:text-library-dourado-texto transition-colors mb-2 leading-snug">
+        <h3 className="font-heading text-lg sm:text-xl font-bold text-library-wood-foreground group-hover:text-library-dourado-leitura dark:group-hover:text-library-dourado-texto transition-colors mb-2 leading-snug">
           <em>{book.title}</em>
         </h3>
 
@@ -35,7 +35,7 @@ export function FaithCard({ book, tagline, era }: FaithCardProps) {
         </p>
       </div>
 
-      <div className="pt-2 border-t border-library-bronze/20 flex items-center justify-between text-xs font-heading font-semibold text-library-dourado-texto group-hover:text-library-dourado transition-colors">
+      <div className="pt-2 border-t border-library-bronze/20 flex items-center justify-between text-xs font-heading font-semibold text-library-dourado-leitura dark:text-library-dourado-texto group-hover:text-library-canela dark:group-hover:text-library-dourado transition-colors">
         <span className="flex items-center gap-1.5">
           <BookOpen className="w-3.5 h-3.5" />
           Ler Obra
