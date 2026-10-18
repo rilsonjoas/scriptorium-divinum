@@ -135,6 +135,12 @@ real primeiro, polimento depois.
 
 ---
 
+## Qualidade das citações já existentes (2026-10-18)
+- [ ] **Auditoria retroativa das citações de Lewis (análise feita em 18/10/2026; ações dependem do autor).** Relatório e plano em
+  `docs/AUDITORIA-RETROATIVA-CITACOES-LEWIS.md`; o cruzamento com o vault é reproduzível por `scripts/cruzar-citacoes-com-vault.py`. Resumo: das 156 de Lewis
+  na API, 14 têm ✅ individual no vault, 122 têm procedência rastreável por amostragem, 16 não foram localizadas no vault, 3 estão ⚠️ e 1 está ❌ (fala do filme
+  *Terra de Sombras*) e **ainda no ar**. Decisão pendente: retirar a ❌ e as 3 ⚠️ pelo procedimento "Retirar uma citação" (protocolo).
+
 ## Resiliência: o que fazer quando as APIs do cluster falham (2026-10-17)
 
 **Política do cluster para quando uma API de que este projeto depende falha** (mapa completo em `CONTRATOS-ENTRE-PROJETOS.md`, seção 10, no repositório de infraestrutura, que é privado):
