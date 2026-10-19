@@ -9,8 +9,10 @@ import {
   timestamp,
   date,
   index,
+  check,
+  jsonb,
 } from 'drizzle-orm/pg-core';
-import { relations } from 'drizzle-orm';
+import { relations, sql } from 'drizzle-orm';
 
 export const authors = pgTable(
   'authors',
@@ -220,11 +222,21 @@ export const quotes = pgTable(
     // quem já tem fonte real na hora de inserir).
     fonteUrl: text('fonte_url'),
     verificadoEm: date('verificado_em'),
+    // Painel de citações (docs/superpowers/specs/2026-10-18-painel-de-citacoes-design.md): só `ativa`
+    // é pública (R5, `quotesAtivas()` em quotes.ts). Retirar é ocultar, nunca apagar (R3).
+    status: varchar('status', { length: 12 }).default('ativa').notNull(),
+    motivoOcultacao: text('motivo_ocultacao'),
     createdAt: timestamp('created_at', { withTimezone: true }).defaultNow().notNull(),
     updatedAt: timestamp('updated_at', { withTimezone: true }).defaultNow().notNull(),
   },
   (table) => [
     index('idx_quotes_author').on(table.author),
+    index('idx_quotes_ativas').on(table.author).where(sql`${table.status} = 'ativa'`),
+    check('quotes_status_check', sql`${table.status} IN ('rascunho','ativa','oculta')`),
+    check(
+      'quotes_ativa_exige_fonte',
+      sql`${table.status} <> 'ativa' OR coalesce(btrim(${table.source}), '') <> ''`,
+    ),
   ],
 );
 
@@ -281,6 +293,29 @@ export const dailyQuotes = pgTable('daily_quotes', {
     .references(() => quotes.id, { onDelete: 'cascade' }),
   createdAt: timestamp('created_at', { withTimezone: true }).defaultNow().notNull(),
 });
+
+// Histórico append-only das mudanças em citações (R8). `quote_id` NÃO tem chave estrangeira de
+// propósito: o histórico sobrevive à exclusão física (migration) da citação. A F2 passa a escrever aqui.
+export const quoteEvents = pgTable(
+  'quote_events',
+  {
+    id: uuid('id').defaultRandom().primaryKey(),
+    quoteId: uuid('quote_id').notNull(),
+    acao: varchar('acao', { length: 12 }).notNull(),
+    antes: jsonb('antes'),
+    depois: jsonb('depois'),
+    motivo: text('motivo'),
+    adminId: uuid('admin_id'),
+    em: timestamp('em', { withTimezone: true }).defaultNow().notNull(),
+  },
+  (table) => [
+    index('idx_quote_events_quote').on(table.quoteId, table.em),
+    check(
+      'quote_events_acao_check',
+      sql`${table.acao} IN ('criou','editou','ocultou','reativou','verificou')`,
+    ),
+  ],
+);
 
 export const quotesRelations = relations(quotes, ({ one }) => ({
   scriptoriumWork: one(books, {

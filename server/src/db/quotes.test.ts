@@ -20,6 +20,8 @@ function row(over: Partial<QuoteRow>): QuoteRow {
     theme: null,
     fonteUrl: null,
     verificadoEm: null,
+    status: 'ativa',
+    motivoOcultacao: null,
     createdAt: new Date(),
     updatedAt: new Date(),
     ...over,

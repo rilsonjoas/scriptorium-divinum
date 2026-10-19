@@ -1,6 +1,6 @@
 # Painel de citações e regras de conteúdo do cluster: desenho
 
-Data: 2026-10-18. Estado: **proposta aguardando aprovação do autor** (nada foi construído).
+Data: 2026-10-18. Estado: **aprovado pelo autor em 18/10/2026; F1 em construção** (ver `docs/superpowers/plans/`).
 Autor da decisão: Rilson. Redação: Claude, a partir da conversa de 17 e 18/10/2026.
 Relacionados: `hetzner-infra/CONTRATOS-ENTRE-PROJETOS.md` (seções 2.7 e 9), `docs/GERENCIAR-ACERVO.md`,
 `docs/PROTOCOLO-VERIFICACAO-DE-CITACOES.md`, `docs/REGISTRO-VERIFICACAO-CITACOES-LEWIS.md`, `docs/DECISOES.md` (ADR 001),

@@ -26,7 +26,7 @@ describe('Citação do dia GRAVADA — a escolha não muda quando o acervo muda'
 
   const inserir = (n: number) =>
     admin.unsafe(
-      `INSERT INTO quotes (id, author, text, dominio_publico) VALUES ('${idQuote(n)}', 'Autor ${n}', 'Citação ${n}.', true)`,
+      `INSERT INTO quotes (id, author, text, source, dominio_publico) VALUES ('${idQuote(n)}', 'Autor ${n}', 'Citação ${n}.', 'Obra de teste', true)`,
     );
   const diaDoDia = async (data: string) =>
     (

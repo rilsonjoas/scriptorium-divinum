@@ -20,7 +20,7 @@ describe('Citações — filtro de autor tolera a grafia de quem cadastra', () =
 
   const inserir = (n: number, autor: string) =>
     admin.unsafe(
-      `INSERT INTO quotes (id, author, text, dominio_publico) VALUES ('${idQuote(n)}', '${autor}', 'Citação ${n}.', false)`,
+      `INSERT INTO quotes (id, author, text, source, dominio_publico) VALUES ('${idQuote(n)}', '${autor}', 'Citação ${n}.', 'Obra de teste', false)`,
     );
   const doAutor = async (autor: string) => {
     const res = await app.inject({

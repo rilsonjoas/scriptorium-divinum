@@ -256,6 +256,28 @@ hoje e ±30 dias. Consequências para quem edita o acervo:
   Faça backup antes; quem consultar o dia depois disso recebe a nova frase.
 - Decisão e motivos: `docs/adr/001-citacao-do-dia-api-central.md`, atualização de 17/10/2026 (2).
 
+## Status da citação: ativa, oculta e rascunho (desde a F1 do painel de citações)
+
+Toda citação tem um `status`. **Só `ativa` é pública**: a lista (`GET /quotes`), o sorteio (`/quotes/random`) e a citação do dia leem uma
+condição só (`quotesAtivas()`, `server/src/db/quotes.ts`). `oculta` e `rascunho` não aparecem para ninguém, nem no Gerador de C. S. Lewis.
+
+- **Retirar é ocultar, não apagar** (regra R3 do desenho em `docs/superpowers/specs/2026-10-18-painel-de-citacoes-design.md`). O `id` fica
+  para sempre válido e o histórico não se perde. Até a tela existir (fase F3), oculta-se por SQL, em migration ou com backup antes:
+  ```sql
+  UPDATE quotes SET status = 'oculta', motivo_ocultacao = 'Motivo em uma frase (e onde está a evidência)', updated_at = now()
+  WHERE id = '<id>';
+  ```
+  O motivo é obrigatório por convenção. Reativar: `UPDATE quotes SET status = 'ativa', motivo_ocultacao = NULL WHERE id = '<id>';`
+  (o banco recusa se a citação não tiver `source`).
+- **Ativa exige fonte:** o banco recusa `status = 'ativa'` com `source` vazio (CHECK `quotes_ativa_exige_fonte`). Rascunho e oculta podem não ter.
+- **Se a citação oculta era a do dia** de uma data já gravada, o dia escolhe outra entre as ativas e **regrava** na próxima consulta (R4). Reativar
+  depois **não** devolve o dia: a escolha nova vale.
+- **O Gerador C. S. Lewis:** a lista ao vivo dele passa a omitir a citação em até 10 min. A **cópia embutida** (`lewis-quotes.snapshot.json`) não
+  muda sozinha: rode `npm run quotes:sync` no Gerador; o canário avisa se a cópia ficar com citação retirada. O Narniano guarda cache de até 6 h.
+- **Excluir de verdade** (citação fabricada, direitos) continua sendo migration `DELETE`, citando o registro de verificação. O histórico em
+  `quote_events` (tabela vazia até a F2) não tem chave estrangeira, justamente para sobreviver à exclusão.
+- `export-quotes-canonical.ts` exporta também as não ativas, e `seed-quotes.ts` preserva o `status`: um restore não ressuscita o que foi ocultado.
+
 ## Acrescentar citações
 
 Não há tela de cadastro de citações: elas entram por **migration SQL**, versionada e ensaiável como o resto do acervo.

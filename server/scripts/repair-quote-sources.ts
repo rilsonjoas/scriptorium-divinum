@@ -1,5 +1,9 @@
 #!/usr/bin/env node
 /**
+ * HISTÓRICO, NÃO RODAR. Fere a regra R3 do painel de citações (retirar é ocultar, nunca apagar:
+ * `DELETE FROM quotes` aqui apaga linha e histórico). O caminho atual é `status = 'oculta'` com
+ * `motivo_ocultacao` (docs/GERENCIAR-ACERVO.md). Mantido só como registro do incidente de 01/10/2026.
+ *
  * Reparo das fontes de citação corrompidas (incidente de 2026-10-01).
  *
  * O que aconteceu: a citação do dia serviu uma "fonte" que não é obra de
