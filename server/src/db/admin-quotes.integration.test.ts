@@ -6,7 +6,10 @@ import { drizzle } from 'drizzle-orm/postgres-js';
 import { migrate } from 'drizzle-orm/postgres-js/migrator';
 import { ZodError } from 'zod';
 import { closeDb } from './client.js';
-import { createQuote, listAdminQuotes, listEventos } from './admin-quotes.js';
+import { createQuote, listAdminQuotes, listEventos, updateQuote, ocultarQuote, reativarQuote } from './admin-quotes.js';
+import { getDailyQuote, gravarEscolhaDoDia } from './quotes.js';
+import { dateKeyInTimeZone } from '../lib/date.js';
+import { ConflictError, NotFoundError } from '../plugins/error-handler.js';
 
 const MIGRATIONS_DIR = path.join(import.meta.dirname, './migrations');
 const FUNCTIONS_SQL = path.join(import.meta.dirname, './custom-sql/functions.sql');
@@ -159,6 +162,136 @@ describe('Administração de citações: camada de dados', () => {
       expect(p1.itens).toHaveLength(50);
       expect(p2.itens).toHaveLength(1);
       expect(p1.porPagina).toBe(50);
+    });
+  });
+
+  describe('updateQuote, ocultarQuote, reativarQuote', () => {
+    const ID = idQuote(1);
+    const ISO = '2026-01-01T10:00:00.123Z';
+    const eventos = async () =>
+      (await admin.unsafe('SELECT acao, antes, depois, motivo FROM quote_events ORDER BY em, id')) as unknown as {
+        acao: string;
+        antes: Record<string, unknown> | null;
+        depois: Record<string, unknown> | null;
+        motivo: string | null;
+      }[];
+    const estado = async () =>
+      ((await admin.unsafe(`SELECT status, motivo_ocultacao, text FROM quotes WHERE id = '${ID}'`)) as unknown as Record<string, string | null>[])[0]!;
+    const editar = (campos: Parameters<typeof updateQuote>[1]) => updateQuote(ID, campos, ADMIN);
+
+    beforeEach(async () => {
+      await admin.unsafe(
+        `INSERT INTO quotes (id, author, text, source, status, updated_at)
+         VALUES ('${ID}', 'Autor 1', 'Texto original.', 'Obra', 'ativa', '2026-01-01 10:00:00.123456+00')`,
+      );
+    });
+
+    it('editar com updatedAt atual funciona mesmo com microssegundos no banco', async () => {
+      const { quote } = await editar({ text: 'Texto corrigido.', updatedAt: ISO });
+      expect(quote.text).toBe('Texto corrigido.');
+    });
+
+    it('updatedAt velho dá ConflictError com a linha atual', async () => {
+      await editar({ text: 'Primeira edição.', updatedAt: ISO });
+      const erro = await editar({ text: 'Segunda edição.', updatedAt: ISO }).catch((e) => e);
+      expect(erro).toBeInstanceOf(ConflictError);
+      expect((erro as ConflictError).atual).toMatchObject({ id: ID, text: 'Primeira edição.' });
+      expect((await estado()).text).toBe('Primeira edição.');
+    });
+
+    it('editar o texto de uma ativa propaga: o dia gravado mostra o texto novo', async () => {
+      await admin.unsafe(`INSERT INTO quotes (author, text, source) VALUES ('Autor 2', 'Outra.', 'Obra')`);
+      await gravarEscolhaDoDia(dateKeyInTimeZone(new Date()), ID);
+      await editar({ text: 'Texto propagado.', updatedAt: ISO });
+      expect((await getDailyQuote())?.text).toBe('Texto propagado.');
+    });
+
+    it('PATCH sem mudança real: sem evento e updated_at intacto', async () => {
+      const { quote } = await editar({ text: 'Texto original.', updatedAt: ISO });
+      expect(quote.updatedAt).toBe(ISO);
+      expect(await eventos()).toHaveLength(0);
+      const [{ igual }] = (await admin.unsafe(
+        `SELECT updated_at = '2026-01-01 10:00:00.123456+00' AS igual FROM quotes WHERE id = '${ID}'`,
+      )) as unknown as [{ igual: boolean }];
+      expect(igual).toBe(true);
+    });
+
+    it('só fonteUrl e verificadoEm gera verificou; outro campo gera editou, com antes/depois só do que mudou', async () => {
+      const a = await editar({ fonteUrl: 'https://exemplo.org/f', verificadoEm: '2026-10-01', updatedAt: ISO });
+      await editar({ theme: 'ceus', text: 'Texto ajustado.', updatedAt: a.quote.updatedAt });
+      const [v, e] = await eventos();
+      expect(v!.acao).toBe('verificou');
+      expect(v!.depois).toEqual({ fonteUrl: 'https://exemplo.org/f', verificadoEm: '2026-10-01' });
+      expect(e!.acao).toBe('editou');
+      expect(e!.antes).toEqual({ theme: null, text: 'Texto original.' });
+      expect(e!.depois).toEqual({ theme: 'ceus', text: 'Texto ajustado.' });
+    });
+
+    it('rascunho para ativa exige source, fonteUrl e verificadoEm', async () => {
+      await admin.unsafe(
+        `INSERT INTO quotes (id, author, text, status, updated_at) VALUES ('${idQuote(2)}', 'Autor 2', 'Rascunho.', 'rascunho', '2026-01-01 10:00:00.123456+00')`,
+      );
+      const pub = (extra: Parameters<typeof updateQuote>[1]) => updateQuote(idQuote(2), { status: 'ativa', ...extra }, ADMIN);
+      expect(await issuesDe(pub({ updatedAt: ISO }))).toHaveProperty('source');
+      expect(await issuesDe(pub({ source: 'Obra', updatedAt: ISO }))).toHaveProperty('fonteUrl');
+      const { quote } = await pub({ source: 'Obra', fonteUrl: 'https://exemplo.org/f', verificadoEm: '2026-10-01', updatedAt: ISO });
+      expect(quote.status).toBe('ativa');
+    });
+
+    it('status em PATCH de oculta é recusado', async () => {
+      const o = await ocultarQuote(ID, 'motivo de teste', ADMIN);
+      expect(await issuesDe(editar({ status: 'ativa', updatedAt: o.updatedAt }))).toHaveProperty('status');
+    });
+
+    it('ocultar guarda o motivo, grava ocultou e o dia gravado é substituído na próxima consulta', async () => {
+      await admin.unsafe(`INSERT INTO quotes (author, text, source) VALUES ('Autor 2', 'Outra.', 'Obra')`);
+      const hoje = dateKeyInTimeZone(new Date());
+      await gravarEscolhaDoDia(hoje, ID);
+      const o = await ocultarQuote(ID, 'fonte não confere', ADMIN);
+      expect(o.status).toBe('oculta');
+      expect(o.motivoOcultacao).toBe('fonte não confere');
+      expect((await getDailyQuote())?.id).not.toBe(ID);
+      expect((await eventos()).map((e) => [e.acao, e.motivo])).toEqual([['ocultou', 'fonte não confere']]);
+    });
+
+    it('ocultar duas vezes dá ConflictError', async () => {
+      await ocultarQuote(ID, 'primeira vez', ADMIN);
+      await expect(ocultarQuote(ID, 'segunda vez', ADMIN)).rejects.toBeInstanceOf(ConflictError);
+    });
+
+    it('reativar volta a ativa, limpa o motivo e guarda o motivo antigo em antes', async () => {
+      await ocultarQuote(ID, 'fonte não confere', ADMIN);
+      const r = await reativarQuote(ID, ADMIN);
+      expect(r.status).toBe('ativa');
+      expect(r.motivoOcultacao).toBeNull();
+      const ev = (await eventos()).at(-1)!;
+      expect(ev.acao).toBe('reativou');
+      expect(ev.antes).toMatchObject({ status: 'oculta', motivoOcultacao: 'fonte não confere' });
+    });
+
+    it('reativar uma ativa dá ConflictError; oculta sem source dá ZodError em source', async () => {
+      await expect(reativarQuote(ID, ADMIN)).rejects.toBeInstanceOf(ConflictError);
+      await admin.unsafe(`UPDATE quotes SET status = 'oculta', motivo_ocultacao = 't', source = NULL WHERE id = '${ID}'`);
+      expect(await issuesDe(reativarQuote(ID, ADMIN))).toHaveProperty('source');
+    });
+
+    it('id inexistente dá NotFoundError nas três', async () => {
+      const x = idQuote(99);
+      await expect(updateQuote(x, { text: 'a', updatedAt: ISO }, ADMIN)).rejects.toBeInstanceOf(NotFoundError);
+      await expect(ocultarQuote(x, 'qualquer motivo', ADMIN)).rejects.toBeInstanceOf(NotFoundError);
+      await expect(reativarQuote(x, ADMIN)).rejects.toBeInstanceOf(NotFoundError);
+    });
+
+    it('atomicidade: se o evento falha, a escrita da citação é desfeita', async () => {
+      await admin.unsafe(`CREATE FUNCTION falha_evento() RETURNS trigger AS $$ BEGIN RAISE EXCEPTION 'falha de teste'; END $$ LANGUAGE plpgsql`);
+      await admin.unsafe('CREATE TRIGGER t_falha BEFORE INSERT ON quote_events FOR EACH ROW EXECUTE FUNCTION falha_evento()');
+      try {
+        await expect(ocultarQuote(ID, 'vai falhar', ADMIN)).rejects.toThrow();
+        expect((await estado()).status).toBe('ativa');
+      } finally {
+        await admin.unsafe('DROP TRIGGER t_falha ON quote_events');
+        await admin.unsafe('DROP FUNCTION falha_evento()');
+      }
     });
   });
 

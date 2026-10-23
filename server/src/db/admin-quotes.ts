@@ -6,7 +6,8 @@ import { chaveDeAutor } from '../lib/quote-authors.js';
 import { chaveDeTexto, slugDaUrlDoScriptorium } from '../lib/quote-text.js';
 import { isCuratedSource } from '../lib/quote-sources.js';
 import { whereByAuthor } from './quotes.js';
-import type { CreateQuoteInput, ListAdminQuotesQuery } from '../schemas/admin-quotes.schema.js';
+import { ConflictError, NotFoundError } from '../plugins/error-handler.js';
+import type { CreateQuoteInput, ListAdminQuotesQuery, UpdateQuoteInput } from '../schemas/admin-quotes.schema.js';
 
 /** Painel de citações, F2 (docs/superpowers/specs/2026-10-18-painel-de-citacoes-design.md, seção 7).
  *  Toda escrita acontece numa transação que também grava o `quote_events` (R8). Regras que recusam lançam
@@ -156,6 +157,112 @@ export async function createQuote(
     const quote = paraAdminQuote(row!);
     await gravarEvento(tx, { quoteId: quote.id, acao: 'criou', antes: null, depois: quote, adminId });
     return { quote, avisos: avisosDe(quote) };
+  });
+}
+
+/** Lê a linha trancando-a até o fim da transação, para duas edições simultâneas não se atropelarem. */
+async function travar(tx: Tx, id: string): Promise<QuoteRow> {
+  const [row] = await tx.select().from(quotes).where(eq(quotes.id, id)).for('update');
+  if (!row) throw new NotFoundError('Citação');
+  return row;
+}
+
+const CAMPOS_EDITAVEIS = ['author', 'text', 'source', 'dominioPublico', 'scriptoriumUrl', 'theme', 'fonteUrl', 'verificadoEm', 'status'] as const;
+type CampoEditavel = (typeof CAMPOS_EDITAVEIS)[number];
+const CAMPOS_DE_VERIFICACAO: readonly CampoEditavel[] = ['fonteUrl', 'verificadoEm'];
+
+/** Edita. `updatedAt` é a versão que quem edita viu: se a linha mudou depois, `ConflictError` com a atual. A
+ *  comparação é em SQL, em milissegundos: o Postgres guarda microssegundos e o JS só milissegundos, e comparar
+ *  em JS faria todo `PATCH` legítimo dar 409. Sem mudança real devolve a linha como está, sem evento. */
+export async function updateQuote(
+  id: string,
+  input: UpdateQuoteInput,
+  adminId: string,
+): Promise<{ quote: AdminQuote; avisos: string[] }> {
+  return db.transaction(async (tx) => {
+    const atual = await travar(tx, id);
+    const [{ ok }] = (await tx.execute(
+      sql`SELECT date_trunc('milliseconds', updated_at) = ${input.updatedAt}::timestamptz AS ok FROM quotes WHERE id = ${id}`,
+    )) as unknown as [{ ok: boolean }];
+    if (!ok) throw new ConflictError('A citação mudou desde que você a abriu', paraAdminQuote(atual));
+    if (atual.status === 'oculta' && input.status !== undefined) {
+      recusar(['status', 'Citação oculta só volta pela rota de reativar']);
+    }
+
+    const textoVazioParaNull = new Set<CampoEditavel>(['source', 'scriptoriumUrl', 'theme']);
+    const antes: Record<string, unknown> = {};
+    const depois: Record<string, unknown> = {};
+    for (const campo of CAMPOS_EDITAVEIS) {
+      const enviado = input[campo];
+      if (enviado === undefined) continue;
+      const novo = textoVazioParaNull.has(campo) ? vazioParaNull(enviado as string | null) : enviado;
+      if (novo !== atual[campo]) {
+        antes[campo] = atual[campo];
+        depois[campo] = novo;
+      }
+    }
+    const alterados = Object.keys(depois) as CampoEditavel[];
+    if (alterados.length === 0) return { quote: paraAdminQuote(atual), avisos: avisosDe(atual) };
+
+    const final = { ...atual, ...depois } as QuoteRow;
+    if ('author' in depois) await validarAutor(tx, final.author);
+    if ('text' in depois) await validarTexto(tx, final.text, id);
+    if ('scriptoriumUrl' in depois && final.scriptoriumUrl) await validarScriptoriumUrl(tx, final.scriptoriumUrl);
+    if (final.status === 'ativa') exigirFonteParaAtiva(final, { novo: atual.status === 'rascunho' });
+
+    const [row] = await tx
+      .update(quotes)
+      .set({ ...depois, updatedAt: sql`now()` })
+      .where(eq(quotes.id, id))
+      .returning();
+    const quote = paraAdminQuote(row!);
+    const acao = alterados.every((c) => CAMPOS_DE_VERIFICACAO.includes(c)) ? 'verificou' : 'editou';
+    await gravarEvento(tx, { quoteId: id, acao, antes, depois, adminId });
+    return { quote, avisos: avisosDe(quote) };
+  });
+}
+
+/** Retirar é ocultar (R3): a linha fica, com status e motivo. De `ativa` ou `rascunho` para `oculta`. */
+export async function ocultarQuote(id: string, motivo: string, adminId: string): Promise<AdminQuote> {
+  return db.transaction(async (tx) => {
+    const atual = await travar(tx, id);
+    if (atual.status === 'oculta') throw new ConflictError('A citação já está oculta', paraAdminQuote(atual));
+    const [row] = await tx
+      .update(quotes)
+      .set({ status: 'oculta', motivoOcultacao: motivo, updatedAt: sql`now()` })
+      .where(eq(quotes.id, id))
+      .returning();
+    await gravarEvento(tx, {
+      quoteId: id,
+      acao: 'ocultou',
+      antes: { status: atual.status, motivoOcultacao: atual.motivoOcultacao },
+      depois: { status: 'oculta', motivoOcultacao: motivo },
+      motivo,
+      adminId,
+    });
+    return paraAdminQuote(row!);
+  });
+}
+
+/** De `oculta` para `ativa`. Exige `source` (R6); o motivo antigo fica no evento, em `antes`. */
+export async function reativarQuote(id: string, adminId: string): Promise<AdminQuote> {
+  return db.transaction(async (tx) => {
+    const atual = await travar(tx, id);
+    if (atual.status !== 'oculta') throw new ConflictError('A citação não está oculta', paraAdminQuote(atual));
+    exigirFonteParaAtiva(atual, { novo: false });
+    const [row] = await tx
+      .update(quotes)
+      .set({ status: 'ativa', motivoOcultacao: null, updatedAt: sql`now()` })
+      .where(eq(quotes.id, id))
+      .returning();
+    await gravarEvento(tx, {
+      quoteId: id,
+      acao: 'reativou',
+      antes: { status: 'oculta', motivoOcultacao: atual.motivoOcultacao },
+      depois: { status: 'ativa', motivoOcultacao: null },
+      adminId,
+    });
+    return paraAdminQuote(row!);
   });
 }
 
