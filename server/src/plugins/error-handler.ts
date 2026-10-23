@@ -11,6 +11,18 @@ export class NotFoundError extends Error {
   }
 }
 
+/** Conflito de estado ou de versão (`409`): a citação mudou desde que foi aberta, ou a transição pedida
+ *  não vale no estado atual. `atual` leva a linha como está agora, para a tela se atualizar. */
+export class ConflictError extends Error {
+  constructor(
+    message: string,
+    readonly atual?: unknown,
+  ) {
+    super(message);
+    this.name = 'ConflictError';
+  }
+}
+
 /** Mapa campo → mensagens a partir do erro de validação do Fastify (schema JSON da rota). */
 function issuesDoFastify(validation: NonNullable<FastifyError['validation']>): Record<string, string[]> {
   const out: Record<string, string[]> = {};
@@ -55,6 +67,14 @@ export function registerErrorHandler(app: FastifyInstance) {
       return reply.status(404).send({
         error: 'not_found',
         message: error.message,
+      });
+    }
+
+    if (error instanceof ConflictError) {
+      return reply.status(409).send({
+        error: 'conflict',
+        message: error.message,
+        ...(error.atual === undefined ? {} : { atual: error.atual }),
       });
     }
 

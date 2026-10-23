@@ -1,0 +1,173 @@
+import { beforeAll, afterAll, beforeEach, describe, it, expect } from 'vitest';
+import { readFileSync } from 'node:fs';
+import path from 'node:path';
+import postgres from 'postgres';
+import { drizzle } from 'drizzle-orm/postgres-js';
+import { migrate } from 'drizzle-orm/postgres-js/migrator';
+import { ZodError } from 'zod';
+import { closeDb } from './client.js';
+import { createQuote, listAdminQuotes, listEventos } from './admin-quotes.js';
+
+const MIGRATIONS_DIR = path.join(import.meta.dirname, './migrations');
+const FUNCTIONS_SQL = path.join(import.meta.dirname, './custom-sql/functions.sql');
+const ADMIN = '60000000-0000-0000-0000-000000000001';
+const idQuote = (n: number) => `61000000-0000-0000-0000-${String(n).padStart(12, '0')}`;
+
+/** Painel de citações, F2 (docs/superpowers/specs/2026-10-18-painel-de-citacoes-design.md, seções 4 e 7). */
+describe('Administração de citações: camada de dados', () => {
+  let admin: postgres.Sql;
+
+  const contar = async (tabela: string) =>
+    ((await admin.unsafe(`SELECT count(*)::int AS n FROM ${tabela}`)) as unknown as [{ n: number }])[0].n;
+  const issuesDe = async (p: Promise<unknown>) => {
+    try {
+      await p;
+    } catch (e) {
+      expect(e).toBeInstanceOf(ZodError);
+      return (e as ZodError).flatten().fieldErrors as Record<string, string[]>;
+    }
+    throw new Error('esperava ZodError, mas a chamada passou');
+  };
+  const semar = (n: number) =>
+    admin.unsafe(
+      `INSERT INTO quotes (id, author, text, source, status)
+       VALUES ('${idQuote(n)}', 'Autor ${n}', 'Citação semeada ${n}.', 'Obra', 'ativa')`,
+    );
+  const livro = async (slug: string, published: boolean) => {
+    await admin.unsafe(
+      `INSERT INTO authors (id, slug, name) VALUES ('62000000-0000-0000-0000-000000000001', 'autor-livro', 'Autor Livro') ON CONFLICT DO NOTHING`,
+    );
+    await admin.unsafe(
+      `INSERT INTO books (slug, title, author_id, description, published)
+       VALUES ('${slug}', 'Livro ${slug}', '62000000-0000-0000-0000-000000000001', 'd', ${published})`,
+    );
+  };
+
+  beforeAll(async () => {
+    const url = process.env.DATABASE_URL;
+    if (!url) throw new Error('DATABASE_URL não definida nos testes de integração');
+    admin = postgres(url, { max: 1 });
+    await migrate(drizzle(admin), { migrationsFolder: MIGRATIONS_DIR });
+    await admin.unsafe(readFileSync(FUNCTIONS_SQL, 'utf-8'));
+  });
+
+  beforeEach(async () => {
+    await admin.unsafe('TRUNCATE authors, books, quotes, quote_events, daily_quotes RESTART IDENTITY CASCADE');
+  });
+
+  afterAll(async () => {
+    if (admin) await admin.end({ timeout: 5 });
+    await closeDb();
+  });
+
+  describe('createQuote', () => {
+    it('cria rascunho com o mínimo e grava o evento criou', async () => {
+      const { quote } = await createQuote({ author: 'Autor X', text: 'Frase nova.', dominioPublico: false, status: 'rascunho' }, ADMIN);
+      expect(quote.status).toBe('rascunho');
+      expect(await contar('quotes')).toBe(1);
+      const [ev] = (await admin.unsafe('SELECT * FROM quote_events')) as unknown as Record<string, unknown>[];
+      expect(ev!.acao).toBe('criou');
+      expect(ev!.quote_id).toBe(quote.id);
+      expect(ev!.antes).toBeNull();
+      expect((ev!.depois as { text: string }).text).toBe('Frase nova.');
+      expect(ev!.admin_id).toBe(ADMIN);
+    });
+
+    it('ativa nova exige source, fonteUrl e verificadoEm', async () => {
+      const base = { author: 'Autor X', text: 'Frase.', dominioPublico: false, status: 'ativa' as const, source: 'Obra' };
+      expect(await issuesDe(createQuote({ ...base, verificadoEm: '2026-10-01' }, ADMIN))).toHaveProperty('fonteUrl');
+      expect(await issuesDe(createQuote({ ...base, fonteUrl: 'https://exemplo.org/x' }, ADMIN))).toHaveProperty('verificadoEm');
+      expect(await issuesDe(createQuote({ ...base, source: undefined, fonteUrl: 'https://exemplo.org/x', verificadoEm: '2026-10-01' }, ADMIN))).toHaveProperty('source');
+      const { quote } = await createQuote({ ...base, fonteUrl: 'https://exemplo.org/x', verificadoEm: '2026-10-01' }, ADMIN);
+      expect(quote.status).toBe('ativa');
+    });
+
+    it('recusa grafia nova de autor existente e sugere a existente', async () => {
+      await semar(1);
+      await admin.unsafe(`UPDATE quotes SET author = 'C. S. Lewis' WHERE id = '${idQuote(1)}'`);
+      const novo = (author: string) => createQuote({ author, text: `Frase de ${author}.`, dominioPublico: false, status: 'rascunho' }, ADMIN);
+      const issues = await issuesDe(novo('C.S. Lewis'));
+      expect(issues.author![0]).toContain('"C. S. Lewis"');
+      await novo('C. S. Lewis');
+      await novo('Autor Inédito');
+    });
+
+    it('recusa texto duplicado pela chave e texto só de pontuação', async () => {
+      await semar(1);
+      const novo = (text: string) => createQuote({ author: 'Autor 9', text, dominioPublico: false, status: 'rascunho' }, ADMIN);
+      expect(await issuesDe(novo('CITAÇÃO semeada 1'))).toHaveProperty('text');
+      expect(await issuesDe(novo('...'))).toHaveProperty('text');
+    });
+
+    it('recusa scriptoriumUrl de obra inexistente ou não publicada e aceita a publicada', async () => {
+      await livro('publicada', true);
+      await livro('oculta', false);
+      const novo = (n: number, url: string) =>
+        createQuote({ author: 'Autor L', text: `Frase ${n}.`, dominioPublico: false, status: 'rascunho', scriptoriumUrl: url }, ADMIN);
+      expect(await issuesDe(novo(1, 'https://scriptorium.narniano.com/livros/nao-existe'))).toHaveProperty('scriptoriumUrl');
+      expect(await issuesDe(novo(2, 'https://scriptorium.narniano.com/livros/oculta'))).toHaveProperty('scriptoriumUrl');
+      const { quote } = await novo(3, 'https://scriptorium.narniano.com/livros/publicada/');
+      expect(quote.scriptoriumUrl).toBe('https://scriptorium.narniano.com/livros/publicada/');
+    });
+
+    it('avisos: obra não curada fora do domínio público; vazio quando curada ou domínio público', async () => {
+      const novo = (author: string, source: string, dominioPublico: boolean, n: number) =>
+        createQuote({ author, text: `Frase aviso ${n}.`, dominioPublico, status: 'rascunho', source }, ADMIN);
+      expect((await novo('C. S. Lewis', 'Obra Que Não Existe', false, 1)).avisos.length).toBeGreaterThan(0);
+      expect((await novo('C. S. Lewis', 'Milagres', false, 2)).avisos).toEqual([]);
+      expect((await novo('C. S. Lewis', 'Obra Que Não Existe', true, 3)).avisos).toEqual([]);
+    });
+
+    it('nada é gravado quando a validação falha', async () => {
+      await issuesDe(createQuote({ author: 'A', text: '...', dominioPublico: false, status: 'rascunho' }, ADMIN));
+      expect(await contar('quotes')).toBe(0);
+      expect(await contar('quote_events')).toBe(0);
+    });
+  });
+
+  describe('listAdminQuotes', () => {
+    beforeEach(async () => {
+      await semar(1);
+      await semar(2);
+      await admin.unsafe(`INSERT INTO quotes (id, author, text, source, status, motivo_ocultacao) VALUES ('${idQuote(3)}', 'Autor 3', 'Citação oculta 100%.', 'Obra', 'oculta', 'teste')`);
+      await admin.unsafe(`INSERT INTO quotes (id, author, text, status) VALUES ('${idQuote(4)}', 'Autor 4', 'Rascunho sem fonte.', 'rascunho')`);
+    });
+    const lista = (q: Partial<Parameters<typeof listAdminQuotes>[0]> = {}) => listAdminQuotes({ page: 1, ...q });
+
+    it('filtra por status e por autor (variante de grafia)', async () => {
+      expect((await lista({ status: 'oculta' })).itens.map((i) => i.id)).toEqual([idQuote(3)]);
+      expect((await lista({ author: 'autor-1' })).itens.map((i) => i.id)).toEqual([idQuote(1)]);
+    });
+
+    it('q procura em texto e fonte; % literal não casa tudo', async () => {
+      expect((await lista({ q: 'semeada' })).itens).toHaveLength(2);
+      expect((await lista({ q: '%' })).itens.map((i) => i.id)).toEqual([idQuote(3)]);
+    });
+
+    it('contadores são do acervo inteiro, mesmo com filtro', async () => {
+      const r = await lista({ status: 'oculta' });
+      expect(r.contadores.porStatus).toEqual({ rascunho: 1, ativa: 2, oculta: 1 });
+      expect(r.contadores.semVerificacao).toBe(2);
+      expect(r.contadores.porAutor).toHaveLength(4);
+    });
+
+    it('pagina de 50 em 50', async () => {
+      await admin.unsafe(`INSERT INTO quotes (author, text, status) SELECT 'Massa', 'Texto em massa ' || g, 'rascunho' FROM generate_series(1, 47) g`);
+      const p1 = await lista();
+      const p2 = await lista({ page: 2 });
+      expect(p1.total).toBe(51);
+      expect(p1.itens).toHaveLength(50);
+      expect(p2.itens).toHaveLength(1);
+      expect(p1.porPagina).toBe(50);
+    });
+  });
+
+  describe('listEventos', () => {
+    it('devolve o histórico de citação excluída, mais recente primeiro', async () => {
+      await semar(1);
+      await admin.unsafe(`INSERT INTO quote_events (quote_id, acao, em) VALUES ('${idQuote(1)}', 'criou', '2026-01-01T10:00:00Z'), ('${idQuote(1)}', 'ocultou', '2026-01-02T10:00:00Z')`);
+      await admin.unsafe(`DELETE FROM quotes WHERE id = '${idQuote(1)}'`);
+      expect((await listEventos(idQuote(1))).map((e) => e.acao)).toEqual(['ocultou', 'criou']);
+    });
+  });
+});
