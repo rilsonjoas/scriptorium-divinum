@@ -27,7 +27,7 @@ const dados = (itens: AdminQuoteItem[], extra: Partial<QuoteListResponse> = {}):
   total: itens.length,
   pagina: 1,
   porPagina: 50,
-  contadores: { porStatus: { rascunho: 0, ativa: 1, oculta: 1 }, porAutor: [], semVerificacao: 1 },
+  contadores: { porStatus: { rascunho: 0, ativa: 1, oculta: 1 }, porAutor: [], porAutorAtivas: [], semVerificacao: 1 },
   ...extra,
 });
 
@@ -138,6 +138,14 @@ describe('QuotesLista', () => {
     expect(screen.getByText('Nenhuma citação cadastrada')).toBeInTheDocument();
     expect(screen.queryByRole('button', { name: 'Limpar filtros' })).toBeNull();
     void f;
+  });
+
+  it('Limpar filtros também esvazia a caixa de busca', async () => {
+    const f = montar({ dados: dados([], { total: 0 }), filtros: { q: 'graça', page: 1 } });
+    expect(screen.getByLabelText('Buscar')).toHaveValue('graça');
+    await userEvent.setup().click(screen.getByRole('button', { name: 'Limpar filtros' }));
+    expect(f.onFiltros).toHaveBeenCalledWith({ page: 1 });
+    expect(screen.getByLabelText('Buscar')).toHaveValue('');
   });
 
   it('vazio com filtro oferece Limpar filtros', async () => {

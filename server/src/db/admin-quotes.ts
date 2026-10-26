@@ -322,6 +322,12 @@ export async function listAdminQuotes(query: ListAdminQuotesQuery) {
     .from(quotes)
     .groupBy(quotes.author)
     .orderBy(desc(count()), quotes.author);
+  const porAutorAtivas = await db
+    .select({ autor: quotes.author, total: count() })
+    .from(quotes)
+    .where(eq(quotes.status, 'ativa'))
+    .groupBy(quotes.author)
+    .orderBy(desc(count()), quotes.author);
   const semVerificacao = (
     await db
       .select({ n: count() })
@@ -334,7 +340,7 @@ export async function listAdminQuotes(query: ListAdminQuotesQuery) {
     total,
     pagina: query.page,
     porPagina: POR_PAGINA,
-    contadores: { porStatus, porAutor, semVerificacao },
+    contadores: { porStatus, porAutor, porAutorAtivas, semVerificacao },
   };
 }
 

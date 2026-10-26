@@ -108,6 +108,7 @@ export const listaAdminCitacoes = {
       { autor: 'Santo Agostinho', total: 2 },
       { autor: 'C. S. Lewis', total: 1 },
     ],
+    porAutorAtivas: [{ autor: 'C. S. Lewis', total: 1 }],
     semVerificacao: 1,
   },
 };

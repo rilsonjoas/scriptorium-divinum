@@ -622,3 +622,7 @@ A F3 entrega `/admin/citacoes` (item "Citações" no menu) sobre a API da F2: re
 
 **Pendências da F2 que seguem abertas:** 4 (`updatedAt` ano 0001), 5 (`scriptoriumUrl` sem host), 7 (ativa para rascunho, decisão do autor), 8 (testes fracos) e 9 (já resolvida aqui: o aviso entrou em `GERENCIAR-ACERVO.md`). A 6 foi contornada na tela (corpo `{}`), mas o servidor ainda responde `FST_ERR_CTP_EMPTY_JSON_BODY` fora do formato do cluster a quem chamar sem corpo.
 
+**Revisão final da F3 (26/10/2026), corrigido antes do PR:** (1) a concentração por autor dividia um contador de todas as situações pelas ativas (Lewis com ocultas e rascunhos passaria de 54%); a API ganhou `contadores.porAutorAtivas` (aditivo) e o resumo usa só ele, enquanto `porAutor` segue com todas as situações para a checagem de grafia. (2) "Limpar filtros" não esvaziava a caixa de busca.
+
+**Pendências menores da revisão da F3:** 409 ao ocultar mostra a mensagem mas não recarrega nem fecha; `fonteUrl` e `verificadoEm` com espaço nas pontas passam no cliente e o servidor recusa (falta trim no serviço); Salvar fica desabilitado sem dizer por quê quando o erro é de campo não tocado (ativa antiga sem `source`); a grafia do próprio autor é checada sem ignorar a própria citação; Reativar não fica desabilitado enquanto envia (há guarda, falta sinal visual e teste); o foco se perde ao recarregar depois de ocultar ou reativar (2.4.3); erros e contador do formulário sem `aria-live`; falha de refetch em segundo plano é silenciosa.
+

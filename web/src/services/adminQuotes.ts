@@ -40,6 +40,8 @@ export interface QuoteListResponse {
   contadores: {
     porStatus: Record<QuoteStatus, number>;
     porAutor: { autor: string; total: number }[];
+    /** Só as ativas: base da concentração por autor. */
+    porAutorAtivas: { autor: string; total: number }[];
     semVerificacao: number;
   };
 }

@@ -284,7 +284,7 @@ Rotas sob login de administrador (mesmo cookie do resto do admin), em `server/sr
 
 | Rota | O que faz |
 |---|---|
-| `GET /api/v1/admin/quotes?status=&author=&q=&semVerificacao=true&page=` | Lista de 50 em 50, todos os status; cada item traz `diasFixados` (datas `AAAA-MM-DD` em que está gravada como a do dia); `semVerificacao=true` filtra ativas sem `verificado_em`. Traz contadores por status, por autor e `semVerificacao` (ativas sem `verificado_em`). Os contadores são do acervo inteiro, não do filtro. |
+| `GET /api/v1/admin/quotes?status=&author=&q=&semVerificacao=true&page=` | Lista de 50 em 50, todos os status; cada item traz `diasFixados` (datas `AAAA-MM-DD` em que está gravada como a do dia); `semVerificacao=true` filtra ativas sem `verificado_em`. Traz contadores por status, por autor (todas as situações), `porAutorAtivas` (só ativas, base da concentração mostrada na tela) e `semVerificacao` (ativas sem `verificado_em`). Os contadores são do acervo inteiro, não do filtro. |
 | `POST /api/v1/admin/quotes` | Cria `rascunho` (padrão) ou `ativa`. Ativa nova exige `source`, `fonteUrl` e `verificadoEm`. |
 | `PATCH /api/v1/admin/quotes/:id` | Edita. Exige `updatedAt` (o valor que a tela recebeu); se a citação mudou desde então, responde `409` com `atual`. Mudança só de `fonteUrl`/`verificadoEm` vira o evento `verificou`; sem mudança real não grava nada. Não aceita `status: 'oculta'`, `id` nem campo desconhecido. |
 | `POST /api/v1/admin/quotes/:id/ocultar` | Corpo `{motivo}` (3 a 1000 caracteres). `409` se já está oculta. |

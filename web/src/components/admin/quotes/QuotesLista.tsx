@@ -153,7 +153,10 @@ export function QuotesLista({
           <div className="rounded-md border border-library-bronze/40 p-6 text-center font-body text-library-wood-foreground">
             <p>{temFiltro ? 'Nenhuma citação com estes filtros' : 'Nenhuma citação cadastrada'}</p>
             {temFiltro && (
-              <Button type="button" variant="outline" className="mt-3" onClick={() => onFiltros({ page: 1 })}>
+              <Button type="button" variant="outline" className="mt-3" onClick={() => {
+                  setBusca('');
+                  onFiltros({ page: 1 });
+                }}>
                 Limpar filtros
               </Button>
             )}

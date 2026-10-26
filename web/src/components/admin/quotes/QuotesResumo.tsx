@@ -17,7 +17,7 @@ function Numero({ rotulo, valor }: { rotulo: string; valor: number }) {
 
 /** Contadores do acervo inteiro e a concentração dos maiores autores sobre as citações ativas. */
 export function QuotesResumo({ contadores }: Props) {
-  const { porStatus, porAutor, semVerificacao } = contadores;
+  const { porStatus, porAutorAtivas, semVerificacao } = contadores;
   const total = porStatus.ativa + porStatus.oculta + porStatus.rascunho;
   const percentual = (n: number) => (porStatus.ativa > 0 ? Math.round((n / porStatus.ativa) * 100) : 0);
 
@@ -30,11 +30,11 @@ export function QuotesResumo({ contadores }: Props) {
         <Numero rotulo="Rascunhos" valor={porStatus.rascunho} />
         <Numero rotulo="Sem verificação" valor={semVerificacao} />
       </dl>
-      {porAutor.length > 0 && (
+      {porAutorAtivas.length > 0 && (
         <div>
           <h2 className="text-sm font-body font-semibold text-library-wood-foreground">Autores com mais citações ativas</h2>
           <ul className="mt-1 flex flex-wrap gap-x-4 gap-y-1 text-sm font-body text-library-bronze-foreground">
-            {porAutor.slice(0, MAIORES).map((a) => (
+            {porAutorAtivas.slice(0, MAIORES).map((a) => (
               <li key={a.autor}>{`${a.autor} ${a.total}, ${percentual(a.total)}%`}</li>
             ))}
           </ul>

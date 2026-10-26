@@ -43,7 +43,7 @@ const lista = (itens: AdminQuoteItem[]): QuoteListResponse => ({
   total: itens.length,
   pagina: 1,
   porPagina: 50,
-  contadores: { porStatus: { rascunho: 0, ativa: 1, oculta: 1 }, porAutor: [{ autor: 'C. S. Lewis', total: 1 }, { autor: 'Outro', total: 1 }], semVerificacao: 0 },
+  contadores: { porStatus: { rascunho: 0, ativa: 1, oculta: 1 }, porAutor: [{ autor: 'C. S. Lewis', total: 1 }, { autor: 'Outro', total: 1 }], porAutorAtivas: [{ autor: 'C. S. Lewis', total: 1 }], semVerificacao: 0 },
 });
 
 function montar() {

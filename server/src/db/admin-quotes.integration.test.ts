@@ -169,6 +169,13 @@ describe('Administração de citações: camada de dados', () => {
       expect((await lista({ semVerificacao: true, status: 'oculta' })).itens).toEqual([]);
     });
 
+    it('porAutorAtivas conta só as ativas; porAutor continua com todas as situações', async () => {
+      const r = await lista();
+      expect(r.contadores.porAutor).toHaveLength(4);
+      expect(r.contadores.porAutorAtivas.map((x) => x.autor).sort()).toEqual(['Autor 1', 'Autor 2']);
+      expect(r.contadores.porAutorAtivas.every((x) => x.total === 1)).toBe(true);
+    });
+
     it('pagina de 50 em 50', async () => {
       await admin.unsafe(`INSERT INTO quotes (author, text, status) SELECT 'Massa', 'Texto em massa ' || g, 'rascunho' FROM generate_series(1, 47) g`);
       const p1 = await lista();
