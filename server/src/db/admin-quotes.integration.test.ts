@@ -295,6 +295,67 @@ describe('Administração de citações: camada de dados', () => {
     });
   });
 
+  describe('achados da revisão final (Important 1 a 3)', () => {
+    const versao = async (id: string) =>
+      (
+        (await admin.unsafe(
+          `SELECT to_char(date_trunc('milliseconds', updated_at) AT TIME ZONE 'UTC', 'YYYY-MM-DD"T"HH24:MI:SS.MS"Z"') AS u FROM quotes WHERE id = '${id}'`,
+        )) as unknown as [{ u: string }]
+      )[0].u;
+    const completa = (extra: Record<string, unknown> = {}) => ({
+      author: 'Autor R',
+      text: 'Frase da revisão.',
+      dominioPublico: false,
+      status: 'ativa' as const,
+      source: 'Obra',
+      fonteUrl: 'https://exemplo.org/f',
+      verificadoEm: '2026-10-01',
+      ...extra,
+    });
+
+    it('1: corrigir a grafia do próprio autor (mesma chave) funciona', async () => {
+      await semar(1);
+      await admin.unsafe(`UPDATE quotes SET author = 'C.S. Lewis' WHERE id = '${idQuote(1)}'`);
+      const { quote } = await updateQuote(idQuote(1), { author: 'C. S. Lewis', updatedAt: await versao(idQuote(1)) }, ADMIN);
+      expect(quote.author).toBe('C. S. Lewis');
+    });
+
+    it('1: com duas grafias legadas, criar com uma das que já existem é aceito; uma terceira é recusada', async () => {
+      await semar(1);
+      await semar(2);
+      await admin.unsafe(`UPDATE quotes SET author = 'C.S. Lewis' WHERE id = '${idQuote(1)}'`);
+      await admin.unsafe(`UPDATE quotes SET author = 'C. S. Lewis' WHERE id = '${idQuote(2)}'`);
+      const novo = (author: string, n: number) =>
+        createQuote({ author, text: `Frase legada ${n}.`, dominioPublico: false, status: 'rascunho' }, ADMIN);
+      await novo('C.S. Lewis', 1);
+      await novo('C. S. Lewis', 2);
+      expect(await issuesDe(novo('C S Lewis', 3))).toHaveProperty('author');
+    });
+
+    it('2: rascunho oculto e reativado exige a fonte completa; uma ativa de antes continua só com source', async () => {
+      const { quote } = await createQuote(completa({ status: 'rascunho', fonteUrl: undefined, verificadoEm: undefined }), ADMIN);
+      await ocultarQuote(quote.id, 'não vou usar', ADMIN);
+      const issues = await issuesDe(reativarQuote(quote.id, ADMIN));
+      expect(issues).toHaveProperty('fonteUrl');
+      expect(issues).toHaveProperty('verificadoEm');
+      expect((await admin.unsafe(`SELECT status FROM quotes WHERE id = '${quote.id}'`))[0]!.status).toBe('oculta');
+    });
+
+    it('3: apagar fonteUrl ou verificadoEm de uma ativa é recusado, e nada é gravado', async () => {
+      const { quote } = await createQuote(completa(), ADMIN);
+      expect(await issuesDe(updateQuote(quote.id, { fonteUrl: null, updatedAt: quote.updatedAt }, ADMIN))).toHaveProperty('fonteUrl');
+      expect(await issuesDe(updateQuote(quote.id, { verificadoEm: null, updatedAt: quote.updatedAt }, ADMIN))).toHaveProperty('verificadoEm');
+      expect(await contar('quote_events')).toBe(1);
+    });
+
+    it('3: zerar a verificação de um rascunho é permitido, mas o evento é editou, não verificou', async () => {
+      const { quote } = await createQuote(completa({ status: 'rascunho' }), ADMIN);
+      await updateQuote(quote.id, { fonteUrl: null, verificadoEm: null, updatedAt: quote.updatedAt }, ADMIN);
+      const acoes = (await admin.unsafe('SELECT acao FROM quote_events ORDER BY em, id')) as unknown as { acao: string }[];
+      expect(acoes.map((a) => a.acao)).toEqual(['criou', 'editou']);
+    });
+  });
+
   describe('listEventos', () => {
     it('devolve o histórico de citação excluída, mais recente primeiro', async () => {
       await semar(1);

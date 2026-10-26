@@ -71,12 +71,18 @@ export function recusar(...problemas: [campo: string, mensagem: string][]): neve
 
 export const vazioParaNull = (v: string | null | undefined): string | null => (v?.trim() ? v.trim() : null);
 
-/** Autor novo é aceito; grafia diferente de um autor que já existe com a mesma chave é recusada, com a existente na mensagem. */
-export async function validarAutor(tx: Tx, author: string): Promise<void> {
+/** Autor novo é aceito; grafia diferente de um autor que já existe com a mesma chave é recusada, com a existente na mensagem.
+ *  Uma grafia que já existe é sempre aceita (duas grafias legadas não travam o cadastro), e `ignorarId` tira a própria
+ *  citação da comparação, para ela poder corrigir a própria grafia (`C.S. Lewis` para `C. S. Lewis`). */
+export async function validarAutor(tx: Tx, author: string, ignorarId?: string): Promise<void> {
   const chave = chaveDeAutor(author);
   if (!chave) recusar(['author', 'Autor sem letras nem números']);
-  const existentes = await tx.selectDistinct({ author: quotes.author }).from(quotes);
-  const outra = existentes.find((r) => chaveDeAutor(r.author) === chave && r.author !== author);
+  const existentes = await tx
+    .selectDistinct({ author: quotes.author })
+    .from(quotes)
+    .where(ignorarId ? sql`${quotes.id} <> ${ignorarId}` : undefined);
+  if (existentes.some((r) => r.author === author)) return;
+  const outra = existentes.find((r) => chaveDeAutor(r.author) === chave);
   if (outra) recusar(['author', `Já existe este autor escrito assim: "${outra.author}". Use essa grafia.`]);
 }
 
@@ -205,10 +211,15 @@ export async function updateQuote(
     if (alterados.length === 0) return { quote: paraAdminQuote(atual), avisos: avisosDe(atual) };
 
     const final = { ...atual, ...depois } as QuoteRow;
-    if ('author' in depois) await validarAutor(tx, final.author);
+    if ('author' in depois) await validarAutor(tx, final.author, id);
     if ('text' in depois) await validarTexto(tx, final.text, id);
     if ('scriptoriumUrl' in depois && final.scriptoriumUrl) await validarScriptoriumUrl(tx, final.scriptoriumUrl);
-    if (final.status === 'ativa') exigirFonteParaAtiva(final, { novo: atual.status === 'rascunho' });
+    if (final.status === 'ativa') {
+      exigirFonteParaAtiva(final, { novo: atual.status === 'rascunho' });
+      // R6: uma ativa que já tinha a fonte checada não a perde por edição (para apagá-la, ocultar)
+      const perdidos = (['fonteUrl', 'verificadoEm'] as const).filter((c) => c in depois && depois[c] === null && atual[c] !== null);
+      if (perdidos.length) recusar(...perdidos.map((c): [string, string] => [c, 'Citação ativa não pode perder a fonte já verificada; oculte-a antes']));
+    }
 
     const [row] = await tx
       .update(quotes)
@@ -216,7 +227,9 @@ export async function updateQuote(
       .where(eq(quotes.id, id))
       .returning();
     const quote = paraAdminQuote(row!);
-    const acao = alterados.every((c) => CAMPOS_DE_VERIFICACAO.includes(c)) ? 'verificou' : 'editou';
+    // `verificou` só quando a verificação foi PREENCHIDA; zerar a fonte é uma edição
+    const soVerificacao = alterados.every((c) => CAMPOS_DE_VERIFICACAO.includes(c)) && alterados.every((c) => depois[c] !== null);
+    const acao = soVerificacao ? 'verificou' : 'editou';
     await gravarEvento(tx, { quoteId: id, acao, antes, depois, adminId });
     return { quote, avisos: avisosDe(quote) };
   });
@@ -249,7 +262,16 @@ export async function reativarQuote(id: string, adminId: string): Promise<AdminQ
   return db.transaction(async (tx) => {
     const atual = await travar(tx, id);
     if (atual.status !== 'oculta') throw new ConflictError('A citação não está oculta', paraAdminQuote(atual));
-    exigirFonteParaAtiva(atual, { novo: false });
+    // Uma citação antiga (já foi ativa) volta só com `source`. Um rascunho que nunca foi publicado e foi ocultado
+    // volta como item novo, com a fonte completa: senão rascunho, ocultar e reativar contornariam a R6.
+    const [ultima] = await tx
+      .select({ antes: quoteEvents.antes })
+      .from(quoteEvents)
+      .where(and(eq(quoteEvents.quoteId, id), eq(quoteEvents.acao, 'ocultou')))
+      .orderBy(desc(quoteEvents.em), desc(quoteEvents.id))
+      .limit(1);
+    const nuncaFoiAtiva = (ultima?.antes as { status?: string } | null | undefined)?.status === 'rascunho';
+    exigirFonteParaAtiva(atual, { novo: nuncaFoiAtiva });
     const [row] = await tx
       .update(quotes)
       .set({ status: 'ativa', motivoOcultacao: null, updatedAt: sql`now()` })
