@@ -65,6 +65,10 @@ export const listAdminQuotesQuerySchema = z.object({
   status: z.enum(['rascunho', 'ativa', 'oculta']).optional(),
   author: z.string().optional(),
   q: z.string().optional(),
+  semVerificacao: z
+    .literal('true')
+    .transform(() => true as const)
+    .optional(),
   page: z.coerce.number().int().min(1).default(1),
 });
 

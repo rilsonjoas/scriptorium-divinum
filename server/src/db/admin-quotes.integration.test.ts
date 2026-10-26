@@ -154,6 +154,21 @@ describe('Administração de citações: camada de dados', () => {
       expect(r.contadores.porAutor).toHaveLength(4);
     });
 
+    it('diasFixados lista as datas gravadas da citação, em ordem', async () => {
+      await gravarEscolhaDoDia('2026-01-12', idQuote(1));
+      await gravarEscolhaDoDia('2026-01-10', idQuote(1));
+      const { itens } = await lista({ status: 'ativa' });
+      expect(itens.find((i) => i.id === idQuote(1))!.diasFixados).toEqual(['2026-01-10', '2026-01-12']);
+      expect(itens.find((i) => i.id === idQuote(2))!.diasFixados).toEqual([]);
+    });
+
+    it('semVerificacao=true traz só ativas sem verificado_em', async () => {
+      expect((await lista({ semVerificacao: true })).itens.map((i) => i.id).sort()).toEqual([idQuote(1), idQuote(2)]);
+      await admin.unsafe(`UPDATE quotes SET verificado_em = '2026-01-01' WHERE id = '${idQuote(1)}'`);
+      expect((await lista({ semVerificacao: true })).itens.map((i) => i.id)).toEqual([idQuote(2)]);
+      expect((await lista({ semVerificacao: true, status: 'oculta' })).itens).toEqual([]);
+    });
+
     it('pagina de 50 em 50', async () => {
       await admin.unsafe(`INSERT INTO quotes (author, text, status) SELECT 'Massa', 'Texto em massa ' || g, 'rascunho' FROM generate_series(1, 47) g`);
       const p1 = await lista();

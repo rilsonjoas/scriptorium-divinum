@@ -111,6 +111,16 @@ describe('API de administração de citações', () => {
     expect(r.json().contadores.porStatus.ativa).toBe(1);
   });
 
+  it('GET ?semVerificacao=true filtra e valor inválido dá 400', async () => {
+    await req('POST', BASE, nova());
+    const todas = await req('GET', BASE);
+    expect(todas.json().itens[0].diasFixados).toEqual([]);
+    const r = await req('GET', `${BASE}?semVerificacao=true`);
+    expect(r.statusCode).toBe(200);
+    expect(r.json().itens).toEqual([]);
+    expect((await req('GET', `${BASE}?semVerificacao=talvez`)).statusCode).toBe(400);
+  });
+
   it('400 no formato do cluster, também nas regras de negócio', async () => {
     const vazio = await req('POST', BASE, nova({ text: '' }));
     expect(vazio.statusCode).toBe(400);

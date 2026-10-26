@@ -1,7 +1,7 @@
 import { and, count, desc, eq, sql, type SQL } from 'drizzle-orm';
 import { ZodError } from 'zod';
 import { db } from './client.js';
-import { books, quoteEvents, quotes } from './schema.js';
+import { books, dailyQuotes, quoteEvents, quotes } from './schema.js';
 import { chaveDeAutor } from '../lib/quote-authors.js';
 import { chaveDeTexto, slugDaUrlDoScriptorium } from '../lib/quote-text.js';
 import { isCuratedSource } from '../lib/quote-sources.js';
@@ -288,6 +288,9 @@ export async function reativarQuote(id: string, adminId: string): Promise<AdminQ
   });
 }
 
+/** Citação da listagem do painel: traz as datas em que está gravada como a do dia. */
+export type AdminQuoteItem = AdminQuote & { diasFixados: string[] };
+
 export async function listAdminQuotes(query: ListAdminQuotesQuery) {
   const condicoes: SQL[] = [...whereByAuthor(query.author)];
   if (query.status) condicoes.push(eq(quotes.status, query.status));
@@ -295,11 +298,15 @@ export async function listAdminQuotes(query: ListAdminQuotesQuery) {
     const padrao = `%${query.q.replace(/[\\%_]/g, '\\$&')}%`;
     condicoes.push(sql`(${quotes.text} ILIKE ${padrao} ESCAPE '\\' OR ${quotes.source} ILIKE ${padrao} ESCAPE '\\')`);
   }
+  if (query.semVerificacao) condicoes.push(eq(quotes.status, 'ativa'), sql`${quotes.verificadoEm} IS NULL`);
   const where = condicoes.length ? and(...condicoes) : undefined;
 
   const total = (await db.select({ total: count() }).from(quotes).where(where))[0]!.total;
   const rows = await db
-    .select()
+    .select({
+      quote: quotes,
+      diasFixados: sql<string[]>`(SELECT coalesce(array_agg(${dailyQuotes.dateKey}::text ORDER BY ${dailyQuotes.dateKey}), '{}') FROM ${dailyQuotes} WHERE ${dailyQuotes.quoteId} = ${quotes.id})`,
+    })
     .from(quotes)
     .where(where)
     .orderBy(desc(quotes.createdAt), quotes.id)
@@ -323,7 +330,7 @@ export async function listAdminQuotes(query: ListAdminQuotesQuery) {
   )[0]!.n;
 
   return {
-    itens: rows.map(paraAdminQuote),
+    itens: rows.map((r): AdminQuoteItem => ({ ...paraAdminQuote(r.quote), diasFixados: r.diasFixados })),
     total,
     pagina: query.page,
     porPagina: POR_PAGINA,
