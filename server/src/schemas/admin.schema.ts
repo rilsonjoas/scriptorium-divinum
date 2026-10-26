@@ -1,5 +1,10 @@
 import { z } from 'zod';
 
+// Teto de tamanho em todo array vindo do cliente (GHSA-mrhx-c7xc-m3w5, zod: array sem limite pode esgotar memória).
+const LISTA_DE_TEXTOS_MAX = 200;
+const LINKS_MAX = 100;
+const SUMARIO_MAX = 5000;
+
 const slugSchema = z.string().regex(/^[a-z0-9]+(-[a-z0-9]+)*$/);
 
 export const createAuthorSchema = z.object({
@@ -9,7 +14,7 @@ export const createAuthorSchema = z.object({
   deathYear: z.number().int().optional(),
   bioSummary: z.string().optional(),
   portraitImageUrl: z.string().optional(),
-  denominationOrTradition: z.array(z.string()).optional(),
+  denominationOrTradition: z.array(z.string()).max(LISTA_DE_TEXTOS_MAX).optional(),
 });
 
 export const updateAuthorSchema = createAuthorSchema.partial();
@@ -23,10 +28,10 @@ export const createBookSchema = z.object({
   publicationYearTranslation: z.number().int().optional(),
   translator: z.string().optional(),
   language: z.string().min(1).default('Português'),
-  originalLanguages: z.array(z.string()).optional(),
+  originalLanguages: z.array(z.string()).max(LISTA_DE_TEXTOS_MAX).optional(),
   description: z.string().min(1),
-  categories: z.array(z.string()).optional(),
-  tags: z.array(z.string()).optional(),
+  categories: z.array(z.string()).max(LISTA_DE_TEXTOS_MAX).optional(),
+  tags: z.array(z.string()).max(LISTA_DE_TEXTOS_MAX).optional(),
   coverImageUrl: z.string().optional(),
   onlineReadPath: z.string().optional(),
   featured: z.boolean().default(false),
@@ -44,6 +49,7 @@ export const createBookSchema = z.object({
         fileSize: z.number().int().positive().optional(),
       }),
     )
+    .max(LINKS_MAX)
     .optional(),
   tableOfContents: z
     .array(
@@ -54,6 +60,7 @@ export const createBookSchema = z.object({
         orderIndex: z.number().int(),
       }),
     )
+    .max(SUMARIO_MAX)
     .optional(),
 });
 

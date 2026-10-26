@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Auditoria de dependências de PRODUÇÃO com allowlist.
 //
-// `pnpm audit --prod` em produção reporta 7 advisories conhecidos e aceitos
+// `pnpm audit --prod` em produção reporta 8 advisories conhecidos e aceitos
 // (todos de baixa/média severidade e não exploráveis neste projeto — ver
 // ROADMAP.md, seção "Segurança"). Qualquer advisory NOVO de severidade
 // high/critical faz o CI falhar.
@@ -19,6 +19,10 @@ const ACCEPTED = new Set([
   'GHSA-wrjc-x8rr-h8h6', // react-router v6: open redirect via backslash — sem patch no v6 (só 7.18+); links vêm de slugs sanitizados
   'GHSA-jjmj-jmhj-qwj2', // react-router v6: open redirect → XSS — idem, sem patch no v6
   'GHSA-337j-9hxr-rhxg', // react-router v6: constructor injection em SSR hydration — app é SPA sem SSR, não aplicável
+  // zod (server): o aviso só tem correção na linha 4.x (>=4.6.6); o server usa 3.x com zod-to-json-schema, e migrar mexe em ~21 arquivos.
+  // Não alcançável por visitante: arrays vindos do cliente só existem nos corpos do admin (atrás de login, corpo <= 1 MiB) e agora
+  // têm teto (.max, admin.schema.ts); as rotas públicas só validam query string, sem arrays. REVISAR: migrar para Zod 4 (plano próprio).
+  'GHSA-mrhx-c7xc-m3w5',
 ]);
 
 const result = spawnSync('pnpm', ['audit', '--prod', '--json'], {
