@@ -10,7 +10,7 @@ describe('api-client: corpo do erro', () => {
 
   it('409 guarda o corpo e atualDe devolve a versão atual', async () => {
     fetchComErro(409, { error: 'conflict', message: 'm', atual: { id: 'x' } });
-    const err = await apiClient('/x').catch((e: unknown) => e as ApiError);
+    const err = (await apiClient('/x').catch((e: unknown) => e)) as ApiError;
     expect(err).toBeInstanceOf(ApiError);
     expect(err.statusCode).toBe(409);
     expect(atualDe<{ id: string }>(err)).toEqual({ id: 'x' });
@@ -18,7 +18,7 @@ describe('api-client: corpo do erro', () => {
 
   it('400 expõe os issues por campo', async () => {
     fetchComErro(400, { error: 'validation_error', message: 'm', issues: { text: ['repetido'] } });
-    const err = await apiClient('/x').catch((e: unknown) => e as ApiError);
+    const err = (await apiClient('/x').catch((e: unknown) => e)) as ApiError;
     expect(issuesDe(err)).toEqual({ text: ['repetido'] });
   });
 
