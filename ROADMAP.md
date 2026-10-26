@@ -209,7 +209,7 @@ todas em **ferramentas de build/dev** (vite, rollup, postcss, eslint) que
 não rodam em produção — risco de supply-chain em máquina de dev/CI, não no
 site no ar.
 
-Em **produção** restam 7 advisories aceitos (todos não exploráveis no uso
+Em **produção** restam 8 advisories aceitos (todos não exploráveis no uso
 real do projeto, cobertos pela allowlist do CI):
 
 - `lodash` (via `recharts`, 1 high `_.template` + 2 prototype pollution):
@@ -301,7 +301,7 @@ volta à mesa (seção "Ordem recomendada").
 
 - [x] **Criado e corrigido (2026-08-14)** — `.github/workflows/ci.yml` no padrão do biblia-na-arte: lint + typecheck + testes unitários/integração (Postgres service) + build web/server + auditoria de dependências a cada push/PR.
 - [x] **Build e Push Docker configurados (2026-08-14)** — push para o GHCR (`scriptorium-api` e `scriptorium-web`) ajustado com permissões de pacotes e escopo do owner resolvidos.
-- [x] **Auditoria escopada a produção (2026-08-14)** — `node scripts/audit-allowlist.mjs`: roda `pnpm audit --prod` e falha só em advisory **novo** high/critical, ignorando 7 GHSA conhecidos e aceitos (ver P0 — Segurança).
+- [x] **Auditoria escopada a produção (2026-08-14)** — `node scripts/audit-allowlist.mjs`: roda `pnpm audit --prod` e falha só em advisory **novo** high/critical, ignorando 8 GHSA conhecidos e aceitos (ver P0 — Segurança).
 
 ## P4 — Testes
 
