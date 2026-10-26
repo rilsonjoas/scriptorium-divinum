@@ -33,6 +33,7 @@ import AdminDashboard from "./pages/admin/AdminDashboard";
 import AdminBooks from "./pages/admin/AdminBooks";
 import AdminAuthors from "./pages/admin/AdminAuthors";
 import AdminCategories from "./pages/admin/AdminCategories";
+import AdminQuotes from "./pages/admin/AdminQuotes";
 import AdminSettings from "./pages/admin/AdminSettings";
 
 const queryClient = new QueryClient();
@@ -80,6 +81,11 @@ const App = () => (
             <Route path="/admin/autores" element={
               <AdminRoute>
                 <AdminAuthors />
+              </AdminRoute>
+            } />
+            <Route path="/admin/citacoes" element={
+              <AdminRoute>
+                <AdminQuotes />
               </AdminRoute>
             } />
             <Route path="/admin/categorias" element={
