@@ -579,6 +579,25 @@ Autor aprovou o desenho (`docs/superpowers/specs/2026-10-18-painel-de-citacoes-d
 
 **Ordem do deploy (achado da revisão):** o `deploy.yml` sobe o container novo (`make deploy`) e só então roda o migrate. Com a 0016 isso abre uma janela de segundos em que lista, sorteio e dia dariam 500 (coluna `status` inexistente). A migration é aditiva e o código antigo convive com ela, então a mitigação é **aplicar a 0016 na produção antes do merge**. Estrutural (futuro): rodar o migrate com a imagem nova antes do `up`.
 
+**Pendências menores da revisão (F1):** (1) teste direto do `setWhere` (**fechada na F2, 22/10/2026**: `gravarEscolhaDoDia`, com mutação); (2) o seed sem `status` no JSON trata tudo como ativa, então **rode `export-quotes-canonical.ts` logo depois de ocultar por SQL**; (3) o CHECK de fonte usa `btrim` só de espaços (tab/quebra de linha passam); (4) `idx_quotes_ativas` não é usado pelo filtro de autor (270 linhas, sem efeito); (5) a F2 não deve gravar `quote_events` antes da F5, porque o seed troca os ids.
+
+
+## 2026-10-22 — API de administração de citações (painel de citações, F2)
+
+A F2 acrescenta as rotas de `docs/superpowers/specs/2026-10-18-painel-de-citacoes-design.md` (seção 7), sem migration e sem `DELETE`: listar, criar, editar com `updatedAt` e `409`, ocultar com motivo, reativar e histórico. Detalhe das rotas e regras em `docs/GERENCIAR-ACERVO.md`. Plano: `docs/superpowers/plans/2026-10-22-painel-de-citacoes-f2.md`.
+
+**Contrato:** a OpenAPI local tem as mesmas 29 rotas da produção, byte a byte, mais 5 caminhos novos de admin (6 operações); `components` igual. `contract:check` do site: `igual` nos dois recortes. Mudança aditiva (R1).
+
+**Chamadas minhas (o autor confere):** texto até 2000 caracteres; a chave do texto distingue acento (como a do autor); autor inédito é aceito e só grafia divergente é recusada; ocultar e reativar não pedem `updatedAt` (o estado da citação já protege: `409` se já está oculta ou não está); `PATCH` sem mudança real é no-op sem evento; `GET /:id/eventos` não exige a citação existir; `409` devolve a linha `atual`; evento `verificou` quando só `fonteUrl`/`verificadoEm` mudam; item novo exige fonte completa para ficar ativo, reativar um antigo exige só `source`.
+
+**Decisões de implementação:** (1) a comparação de `updatedAt` é em SQL, em milissegundos (`date_trunc`), porque o Postgres guarda microssegundos e o JS só milissegundos; comparar em JS daria `409` em todo `PATCH` legítimo (teste e mutação). (2) Os corpos das rotas **não têm schema JSON do Fastify**: o Ajv do Fastify remove em silêncio campo desconhecido, e o Zod `.strict()` tem de recusá-lo (`id`, `status: 'oculta'`); custo: o Swagger não mostra o corpo, só o resumo. (3) Linha trancada com `SELECT ... FOR UPDATE` dentro da transação de edição.
+
+**Pendência aceita:** duas criações simultâneas do mesmo texto podem passar pela checagem de duplicata. Há um único administrador; um índice único sobre a chave do texto exigiria migration e fica para quando houver mais de um. **Continua valendo:** não usar a API para escrever em produção antes da F5 (o seed troca os ids e os eventos ficariam órfãos); a F3 (tela) deve esperar isso ou avisar.
+
+**Revisão final da F2 (22/10/2026), corrigido antes do merge:** (1) corrigir a grafia do próprio autor de uma citação era recusado (a validação contava a própria linha); agora a própria citação é ignorada e uma grafia que já existe é sempre aceita. (2) rascunho, ocultar e reativar contornava a R6; reativar um rascunho que nunca foi ativo agora exige a fonte completa. (3) editar uma ativa podia apagar `fonteUrl`/`verificadoEm` e o evento saía como `verificou`; agora é recusado, e `verificou` só quando a verificação é preenchida.
+
+**Pendências menores da F2 (para a F3 ou depois):** (4) `updatedAt` com ano 0001 válido no Zod dá 500 no Postgres (só admin); (5) `scriptoriumUrl` só confere o último segmento (não valida host nem http/https); (6) `POST` sem corpo com `Content-Type: application/json` dá `400 FST_ERR_CTP_EMPTY_JSON_BODY` fora do formato do cluster: a tela deve enviar `{}` (ou tratar no servidor), e `PATCH` sem corpo devolve `issues` vazio; (7) `PATCH` de `ativa` para `rascunho` tira a citação do ar sem motivo nem evento `ocultou`: **decisão do autor pendente** se essa transição deve existir; (8) testes fracos: `DELETE` só confere 404, `q` em `source` não é exercitado, a atomicidade só é provada em `ocultarQuote`, o `FOR UPDATE` não tem teste; (9) o aviso "não escrever em produção antes da F5" só está aqui, não em `GERENCIAR-ACERVO.md`; (10) a F3 vai precisar de um filtro `semVerificacao` e da contagem de dias gravados em `daily_quotes` ao ocultar (seção 8 do desenho).
+
 **Pendências menores da revisão (F1):** (1) teste direto do `setWhere`; (2) o seed sem `status` no JSON trata tudo como ativa, então **rode `export-quotes-canonical.ts` logo depois de ocultar por SQL**; (3) o CHECK de fonte usa `btrim` só de espaços (tab/quebra de linha passam); (4) `idx_quotes_ativas` não é usado pelo filtro de autor (270 linhas, sem efeito); (5) a F2 não deve gravar `quote_events` antes da F5, porque o seed troca os ids.
 
 

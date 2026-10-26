@@ -275,8 +275,25 @@ condição só (`quotesAtivas()`, `server/src/db/quotes.ts`). `oculta` e `rascun
 - **O Gerador C. S. Lewis:** a lista ao vivo dele passa a omitir a citação em até 10 min. A **cópia embutida** (`lewis-quotes.snapshot.json`) não
   muda sozinha: rode `npm run quotes:sync` no Gerador; o canário avisa se a cópia ficar com citação retirada. O Narniano guarda cache de até 6 h.
 - **Excluir de verdade** (citação fabricada, direitos) continua sendo migration `DELETE`, citando o registro de verificação. O histórico em
-  `quote_events` (tabela vazia até a F2) não tem chave estrangeira, justamente para sobreviver à exclusão.
+  `quote_events` não tem chave estrangeira, justamente para sobreviver à exclusão.
 - `export-quotes-canonical.ts` exporta também as não ativas, e `seed-quotes.ts` preserva o `status`: um restore não ressuscita o que foi ocultado.
+
+### API de administração de citações (F2; a tela vem na F3)
+
+Rotas sob login de administrador (mesmo cookie do resto do admin), em `server/src/routes/admin-quotes.ts`. **Não há `DELETE`**: retirar é ocultar.
+
+| Rota | O que faz |
+|---|---|
+| `GET /api/v1/admin/quotes?status=&author=&q=&page=` | Lista de 50 em 50, todos os status, com contadores por status, por autor e `semVerificacao` (ativas sem `verificado_em`). Os contadores são do acervo inteiro, não do filtro. |
+| `POST /api/v1/admin/quotes` | Cria `rascunho` (padrão) ou `ativa`. Ativa nova exige `source`, `fonteUrl` e `verificadoEm`. |
+| `PATCH /api/v1/admin/quotes/:id` | Edita. Exige `updatedAt` (o valor que a tela recebeu); se a citação mudou desde então, responde `409` com `atual`. Mudança só de `fonteUrl`/`verificadoEm` vira o evento `verificou`; sem mudança real não grava nada. Não aceita `status: 'oculta'`, `id` nem campo desconhecido. |
+| `POST /api/v1/admin/quotes/:id/ocultar` | Corpo `{motivo}` (3 a 1000 caracteres). `409` se já está oculta. |
+| `POST /api/v1/admin/quotes/:id/reativar` | Volta a `ativa`; exige `source`. `409` se não está oculta. Limpa o motivo (o antigo fica no evento). |
+| `GET /api/v1/admin/quotes/:id/eventos` | Histórico, do mais recente ao mais antigo; funciona mesmo para citação excluída por migration. |
+
+Regras que a API recusa com `400` (formato do cluster, `validation_error`): autor com grafia diferente de um autor que já existe (a mensagem traz a grafia existente; autor inédito é aceito), texto repetido (comparação sem caixa, espaço nem pontuação; acento distingue), texto vazio de conteúdo ou acima de 2000 caracteres, `scriptoriumUrl` que não aponta para obra **publicada**. Obra fora da curadoria sem domínio público não bloqueia: vem em `avisos` (a citação fica sem link de compra). Toda escrita grava um `quote_events` **na mesma transação**: se o evento falha, a escrita some.
+
+Texto corrigido numa citação ativa **propaga** para os dias já gravados (mesmo `id`). Ocultar/editar não chama o Gerador nem o Lecionário (veja o aviso de cache acima).
 
 ## Acrescentar citações
 

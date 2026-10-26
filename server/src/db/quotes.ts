@@ -118,19 +118,23 @@ export async function getDailyQuote(
   const escolhida = pickQuoteBySeed(rows, dateKey);
   if (!escolhida || !gravar) return escolhida;
 
-  // R4: se já existe linha do dia e a citação dela deixou de ser ativa (foi ocultada), a nova escolha a
-  // SUBSTITUI. O `setWhere` só deixa substituir linha cuja citação não é ativa: uma gravada ativa nunca
-  // é sobrescrita, nem por consultas simultâneas. Sem linha, é o INSERT de sempre.
-  await db
-    .insert(dailyQuotes)
-    .values({ dateKey, quoteId: escolhida.id })
-    .onConflictDoUpdate({
-      target: dailyQuotes.dateKey,
-      set: { quoteId: escolhida.id },
-      setWhere: sql`NOT EXISTS (SELECT 1 FROM ${quotes} WHERE ${quotes.id} = ${dailyQuotes.quoteId} AND ${quotesAtivas()})`,
-    });
+  await gravarEscolhaDoDia(dateKey, escolhida.id);
   // releitura: se outra consulta gravou primeiro, devolve a dela (e não a nossa)
   return (await lerEscolhaGravada(dateKey)) ?? escolhida;
+}
+
+/** R4: grava a escolha do dia. Se já existe linha do dia e a citação dela deixou de ser ativa (foi
+ *  ocultada), a nova escolha a SUBSTITUI. O `setWhere` só deixa substituir linha cuja citação não é
+ *  ativa: uma gravada ativa nunca é sobrescrita, nem por consultas simultâneas. Sem linha, é o INSERT de sempre. */
+export async function gravarEscolhaDoDia(dateKey: string, quoteId: string): Promise<void> {
+  await db
+    .insert(dailyQuotes)
+    .values({ dateKey, quoteId })
+    .onConflictDoUpdate({
+      target: dailyQuotes.dateKey,
+      set: { quoteId },
+      setWhere: sql`NOT EXISTS (SELECT 1 FROM ${quotes} WHERE ${quotes.id} = ${dailyQuotes.quoteId} AND ${quotesAtivas()})`,
+    });
 }
 
 async function lerEscolhaGravada(dateKey: string): Promise<Quote | undefined> {

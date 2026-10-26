@@ -22,6 +22,7 @@ import { settingsRoutes } from './routes/settings.js';
 import { sitemapRoutes } from './routes/sitemap.js';
 import { authRoutes } from './routes/auth.js';
 import { adminRoutes } from './routes/admin.js';
+import { adminQuoteRoutes } from './routes/admin-quotes.js';
 import { uploadRoutes, UPLOAD_DIR } from './routes/uploads.js';
 import { shareRoutes } from './routes/share.js';
 import { quoteRoutes } from './routes/quotes.js';
@@ -168,6 +169,7 @@ export async function buildApp() {
   await app.register(sitemapRoutes);
   await app.register(authRoutes);
   await app.register(adminRoutes);
+  await app.register(adminQuoteRoutes);
   await app.register(uploadRoutes);
   await app.register(shareRoutes);
   await app.register(quoteRoutes);
