@@ -8,6 +8,7 @@ import {
   BookOpen, 
   Users, 
   FolderOpen, 
+  Quote,
   Settings, 
   LogOut,
   Menu,
@@ -30,6 +31,11 @@ const navigation = [
     name: 'Autores',
     href: '/admin/autores',
     icon: Users,
+  },
+  {
+    name: 'Citações',
+    href: '/admin/citacoes',
+    icon: Quote,
   },
   {
     name: 'Categorias',
