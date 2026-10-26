@@ -1,6 +1,6 @@
 import { test, expect, type Page } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
-import { autor, livro, textoObra, settings, categorias } from './fixtures';
+import { autor, livro, textoObra, settings, categorias, listaAdminCitacoes, adminLogado } from './fixtures';
 
 /**
  * Auditoria de acessibilidade — axe-core no CI.
@@ -52,6 +52,14 @@ async function mockApi(page: Page) {
   );
 }
 
+/** Sessão de administrador e a listagem de citações, para auditar as telas de /admin. */
+async function mockAdminApi(page: Page) {
+  await mockApi(page);
+  await page.route('**/api/v1/admin/me', (r) => r.fulfill({ json: adminLogado }));
+  await page.route('**/api/v1/admin/quotes?**', (r) => r.fulfill({ json: listaAdminCitacoes }));
+  await page.route('**/api/v1/admin/quotes', (r) => r.fulfill({ json: listaAdminCitacoes }));
+}
+
 /** Roda axe e falha o teste com o relatório legível. */
 async function auditar(page: Page, contexto: string) {
   // As seções entram com animação (opacidade parcial): medir no meio dela dá contraste falso. Espera terminar.
@@ -101,22 +109,9 @@ for (const rota of ROTAS) {
   });
 }
 
-/**
- * 2.4.7 Foco visível — o teste que o axe-core não faz.
- * Axe pergunta se o elemento RECEBE foco. Nunca pergunta se o foco
- * APARECE. Um projeto inteiro sem `:focus-visible` sai do axe com
- * "zero violações" e com o teclado cego.
- *
- * Aqui a verificação é observable: a cada Tab, o elemento focado precisa
- * ter algum indicador (outline, box-shadow ou borda) que não seja o
- * `outline: none` do próprio shadcn.
- */
-test('foco é visível em tudo que recebe Tab', async ({ page }) => {
-  await mockApi(page);
-  await page.goto('/livros');
-  await page.waitForLoadState('networkidle');
-
-  const semIndicador = await page.evaluate(() => {
+/** Rótulos dos elementos que recebem foco sem outline nem sombra (os 25 primeiros visíveis). */
+async function focoSemIndicador(page: Page): Promise<string[]> {
+  return page.evaluate(() => {
     const problemas: string[] = [];
     const focaveis = document.querySelectorAll<HTMLElement>(
       'a[href], button:not([disabled]), input, select, textarea, [tabindex]:not([tabindex="-1"])',
@@ -137,6 +132,24 @@ test('foco é visível em tudo que recebe Tab', async ({ page }) => {
     }
     return problemas;
   });
+}
+
+/**
+ * 2.4.7 Foco visível — o teste que o axe-core não faz.
+ * Axe pergunta se o elemento RECEBE foco. Nunca pergunta se o foco
+ * APARECE. Um projeto inteiro sem `:focus-visible` sai do axe com
+ * "zero violações" e com o teclado cego.
+ *
+ * Aqui a verificação é observable: a cada Tab, o elemento focado precisa
+ * ter algum indicador (outline, box-shadow ou borda) que não seja o
+ * `outline: none` do próprio shadcn.
+ */
+test('foco é visível em tudo que recebe Tab', async ({ page }) => {
+  await mockApi(page);
+  await page.goto('/livros');
+  await page.waitForLoadState('networkidle');
+
+  const semIndicador = await focoSemIndicador(page);
 
   expect(semIndicador, `foco sem indicador visível:\n${semIndicador.join('\n')}`).toHaveLength(0);
 });
@@ -174,4 +187,47 @@ test('cada rota tem título próprio e descritivo (2.4.2)', async ({ page }) => 
   const tituloHome = vistos.get('/');
   expect(tituloBusca).not.toBe(tituloHome);
   expect(tituloBusca).toContain('confissoes');
+});
+
+
+/**
+ * Painel de citações (/admin/citacoes). A API é simulada: sessão de administrador e a listagem de `listaAdminCitacoes`.
+ * O dourado de texto sobre fundo claro (A11Y-02) e a cor dos erros são os pontos mais prováveis de falha aqui.
+ */
+async function abrirPainelDeCitacoes(page: Page) {
+  await mockAdminApi(page);
+  await page.goto('/admin/citacoes');
+  await page.getByText('Fizeste-nos para ti, e inquieto está o nosso coração.').waitFor();
+  await page.waitForLoadState('networkidle');
+}
+
+test('axe-core WCAG 2.2 A+AA — admin: citações', async ({ page }) => {
+  await abrirPainelDeCitacoes(page);
+  await auditar(page, 'admin: citações');
+});
+
+test('axe-core WCAG 2.2 A+AA — admin: citações, diálogo de ocultar aberto', async ({ page }) => {
+  await abrirPainelDeCitacoes(page);
+  await page.getByRole('button', { name: 'Ocultar citação de C. S. Lewis' }).click();
+  await page.getByRole('dialog').waitFor();
+  await auditar(page, 'admin: citações, ocultar');
+});
+
+test('axe-core WCAG 2.2 A+AA — admin: citações, formulário de nova citação aberto', async ({ page }) => {
+  await abrirPainelDeCitacoes(page);
+  await page.getByRole('button', { name: 'Nova citação' }).click();
+  const dialogo = page.getByRole('dialog');
+  await dialogo.waitFor();
+  // um erro visível entra na auditoria: a cor da mensagem também precisa de contraste
+  await dialogo.getByLabel(/^Autor/).fill('C.S. Lewis');
+  await dialogo.getByLabel(/^Texto/).fill('a');
+  await dialogo.getByLabel(/^Texto/).fill('');
+  await dialogo.getByText('Informe o texto da citação.').waitFor();
+  await auditar(page, 'admin: citações, nova citação');
+});
+
+test('foco é visível em tudo que recebe Tab — admin: citações', async ({ page }) => {
+  await abrirPainelDeCitacoes(page);
+  const semIndicador = await focoSemIndicador(page);
+  expect(semIndicador, `foco sem indicador visível:\n${semIndicador.join('\n')}`).toHaveLength(0);
 });

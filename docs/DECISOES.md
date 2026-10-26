@@ -604,3 +604,21 @@ A F2 acrescenta as rotas de `docs/superpowers/specs/2026-10-18-painel-de-citacoe
 ## 2026-10-25 — Auditoria de dependências: `undici` corrigido, `zod` aceito com teto nos arrays
 
 Dois advisories high novos derrubaram o CI de qualquer PR. **`undici`** (GHSA-xjj6-f33q-929c, transitiva via `@scalar/fastify-api-reference`): corrigido subindo o `override` do `pnpm` para `^7.30.1`. **`zod`** (GHSA-mrhx-c7xc-m3w5, array sem limite pode esgotar memória): a correção existe só na linha 4.x (>=4.6.6) e o servidor usa 3.x com `zod-to-json-schema` (~21 arquivos); migrar não cabe numa correção de segurança. Aceito na allowlist (`scripts/audit-allowlist.mjs`, com o motivo) porque não é alcançável por visitante: arrays vindos do cliente só existem nos corpos do admin (atrás de login, corpo <= 1 MiB), as rotas públicas só validam query string. Em profundidade, todo array dos corpos do admin ganhou teto (`.max`: 200 textos, 100 links, 5000 itens de sumário). **A revisar:** migrar para Zod 4 (plano próprio); quando sair, tirar o GHSA da allowlist.
+
+
+## 2026-10-26 — Tela de administração de citações (painel de citações, F3)
+
+A F3 entrega `/admin/citacoes` (item "Citações" no menu) sobre a API da F2: resumo, lista com filtros e selos, formulário com validação ao vivo, ocultar com impacto e histórico por citação. Plano: `docs/superpowers/plans/2026-10-26-painel-de-citacoes-f3.md`. Detalhe de uso em `docs/GERENCIAR-ACERVO.md`.
+
+**API (aditiva):** `GET /admin/quotes` passa a trazer `diasFixados` (datas de `daily_quotes` em que a citação está gravada, só para os itens da página) e aceita `semVerificacao=true` (ativas sem `verificado_em`). Fecha a pendência 10 da F2. Nenhum caminho novo; nenhuma rota pública mudou.
+
+**Chamadas minhas (o autor confere):** (1) a tela **não oferece ativa para rascunho** (pendência 7 da F2 continua aberta na API); (2) `reativar` envia `{}` como corpo (contorna a pendência 6); (3) a edição envia **só os campos alterados** e fica desabilitada sem mudança; num `409` o digitado é mantido e a versão atual é carregada por botão; (4) os avisos da API (obra fora da curadoria) saem em toast depois de salvar; (5) filtros de situação e autor são `<select>` nativos (mais simples de testar e acessíveis por padrão); (6) o texto completo do aviso do Gerador é da F4: na F3 vai uma linha com `npm run quotes:sync`.
+
+**Validação:** `web/src/lib/validarCitacao.ts` espelha as regras da API só para feedback ao vivo; o servidor continua sendo a autoridade e seus `issues` aparecem no campo certo (`aria-describedby`).
+
+**Continua valendo:** não escrever em produção pela tela antes da F5 (o seed troca os ids; os eventos ficariam órfãos).
+
+**Acessibilidade (axe + foco visível):** a tela, o diálogo de ocultar e o formulário com erro visível entram em `web/e2e/a11y.spec.ts` (`mockAdminApi`, fixture `listaAdminCitacoes`); a verificação de foco virou a função `focoSemIndicador`, usada nas rotas públicas e na do admin. **Violação real achada e corrigida:** o botão "Sair" do `AdminLayout` (`text-red-600` sobre o bege do menu, 4,35:1) falhava em contraste AA em toda tela do admin; passou a `text-red-700`. As telas antigas do admin continuam fora da auditoria axe (só as de citações entraram).
+
+**Pendências da F2 que seguem abertas:** 4 (`updatedAt` ano 0001), 5 (`scriptoriumUrl` sem host), 7 (ativa para rascunho, decisão do autor), 8 (testes fracos) e 9 (já resolvida aqui: o aviso entrou em `GERENCIAR-ACERVO.md`). A 6 foi contornada na tela (corpo `{}`), mas o servidor ainda responde `FST_ERR_CTP_EMPTY_JSON_BODY` fora do formato do cluster a quem chamar sem corpo.
+

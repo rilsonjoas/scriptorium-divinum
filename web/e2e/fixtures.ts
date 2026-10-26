@@ -57,3 +57,59 @@ export const categorias = [
   { id: 'c1', slug: 'patristica', name: 'Patrística', description: 'Os Padres da Igreja.' },
   { id: 'c2', slug: 'reforma', name: 'Reforma', description: 'Reformadores e suas obras.' },
 ];
+
+const itemCitacao = (extra: Record<string, unknown>) => ({
+  id: 'c0000000-0000-4000-8000-000000000001',
+  author: 'C. S. Lewis',
+  text: 'Não existe nenhuma coisa neutra no universo.',
+  source: 'Cristianismo Puro e Simples',
+  dominioPublico: false,
+  scriptoriumUrl: null,
+  theme: null,
+  fonteUrl: null,
+  verificadoEm: null,
+  status: 'ativa',
+  motivoOcultacao: null,
+  createdAt: '2026-10-01T10:00:00.000Z',
+  updatedAt: '2026-10-01T10:00:00.123Z',
+  diasFixados: [],
+  ...extra,
+});
+
+/** Resposta de `GET /api/v1/admin/quotes`: uma ativa sem verificação e fixada em 1 dia, uma oculta e um rascunho. */
+export const listaAdminCitacoes = {
+  itens: [
+    itemCitacao({ diasFixados: ['2026-10-19'] }),
+    itemCitacao({
+      id: 'c0000000-0000-4000-8000-000000000002',
+      author: 'Santo Agostinho',
+      text: 'Fizeste-nos para ti, e inquieto está o nosso coração.',
+      source: 'Confissões',
+      dominioPublico: true,
+      fonteUrl: 'https://exemplo.org/confissoes',
+      verificadoEm: '2026-10-02',
+      status: 'oculta',
+      motivoOcultacao: 'Tradução a revisar',
+    }),
+    itemCitacao({
+      id: 'c0000000-0000-4000-8000-000000000003',
+      author: 'Santo Agostinho',
+      text: 'Rascunho ainda sem fonte.',
+      source: null,
+      status: 'rascunho',
+    }),
+  ],
+  total: 3,
+  pagina: 1,
+  porPagina: 50,
+  contadores: {
+    porStatus: { rascunho: 1, ativa: 1, oculta: 1 },
+    porAutor: [
+      { autor: 'Santo Agostinho', total: 2 },
+      { autor: 'C. S. Lewis', total: 1 },
+    ],
+    semVerificacao: 1,
+  },
+};
+
+export const adminLogado = { id: 'ad1', email: 'admin@teste.com', name: 'Admin' };

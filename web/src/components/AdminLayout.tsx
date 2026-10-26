@@ -143,7 +143,7 @@ export function AdminLayout({ children }: AdminLayoutProps) {
             onClick={handleSignOut}
             variant="outline"
             size="sm"
-            className="w-full justify-start border-red-300 text-red-600 hover:bg-red-50 font-body"
+            className="w-full justify-start border-red-300 text-red-700 hover:bg-red-50 font-body"
           >
             <LogOut className="mr-2 h-4 w-4" />
             Sair
