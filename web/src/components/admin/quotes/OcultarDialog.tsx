@@ -4,7 +4,8 @@ import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
 import { Alert, AlertDescription } from '@/components/ui/alert';
 import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle } from '@/components/ui/dialog';
-import { chaveDeAutor } from '@/lib/validarCitacao';
+import { ehLewis } from '@/lib/gerador';
+import { AvisoGerador } from './AvisoGerador';
 import { adminQuotes, type AdminQuote, type AdminQuoteItem } from '@/services/adminQuotes';
 
 interface Props {
@@ -37,7 +38,7 @@ function Conteudo({ quote, onOpenChange, onDone }: Omit<Props, 'quote'> & { quot
   const tamanho = motivo.trim().length;
   const valido = tamanho >= MOTIVO_MIN && tamanho <= MOTIVO_MAX;
   const dias = quote.diasFixados;
-  const ehLewis = chaveDeAutor(quote.author) === 'cslewis';
+  const destaca = ehLewis(quote.author);
 
   const ocultar = async () => {
     if (enviando.current || !valido) return;
@@ -72,7 +73,7 @@ function Conteudo({ quote, onOpenChange, onDone }: Omit<Props, 'quote'> & { quot
             : 'Não está fixada em nenhum dia.'}
         </p>
         <p>O Narniano pode continuar mostrando por até 6 horas e o Gerador C. S. Lewis por até 10 minutos.</p>
-        {ehLewis && <p>Atualize a cópia embutida do Gerador: rode npm run quotes:sync no Gerador.</p>}
+        {destaca && <AvisoGerador efeito="sair" id={quote.id} />}
 
         <div className="grid gap-1.5">
           <Label htmlFor="motivo-ocultar">Motivo *</Label>

@@ -156,3 +156,80 @@ describe('AdminLayout', () => {
     expect(links[0]).toHaveAttribute('href', '/admin/citacoes');
   });
 });
+
+describe('QuotesPanel: toast do Gerador', () => {
+  const AVISO = 'Atualize a cópia do Gerador C. S. Lewis';
+  const avisouDoGerador = () => vi.mocked(toast.warning).mock.calls.some(([m]) => m === AVISO);
+  const lewisOculta = item({ id: 'lo', text: 'Lewis oculta.', status: 'oculta' });
+
+  it('ocultar uma Lewis com sucesso avisa', async () => {
+    vi.mocked(adminQuotes.ocultar).mockResolvedValue({ quote: { ...ativa, status: 'oculta' } });
+    const { user } = montar();
+    await user.click(await screen.findByRole('button', { name: 'Ocultar citação de C. S. Lewis' }));
+    const dialogo = await screen.findByRole('dialog');
+    await user.type(within(dialogo).getByLabelText(/^Motivo/), 'Fonte não confirmada');
+    await user.click(within(dialogo).getByRole('button', { name: 'Ocultar citação' }));
+    await waitFor(() => expect(toast.success).toHaveBeenCalledWith('Citação ocultada'));
+    expect(avisouDoGerador()).toBe(true);
+    expect(toast.warning).toHaveBeenCalledWith(AVISO, expect.objectContaining({ duration: 20000 }));
+  });
+
+  it('ocultar que falha com 409 não avisa', async () => {
+    vi.mocked(adminQuotes.ocultar).mockRejectedValue(new ApiError(409, 'conflict', 'Já está oculta'));
+    const { user } = montar();
+    await user.click(await screen.findByRole('button', { name: 'Ocultar citação de C. S. Lewis' }));
+    const dialogo = await screen.findByRole('dialog');
+    await user.type(within(dialogo).getByLabelText(/^Motivo/), 'Fonte não confirmada');
+    await user.click(within(dialogo).getByRole('button', { name: 'Ocultar citação' }));
+    await waitFor(() => expect(adminQuotes.ocultar).toHaveBeenCalled());
+    expect(avisouDoGerador()).toBe(false);
+  });
+
+  it('ocultar citação de outro autor não avisa', async () => {
+    const outra = item({ id: 'x', author: 'Outro', text: 'De outro.' });
+    vi.mocked(adminQuotes.list).mockResolvedValue(lista([outra]));
+    vi.mocked(adminQuotes.ocultar).mockResolvedValue({ quote: { ...outra, status: 'oculta' } });
+    const { user } = montar();
+    await user.click(await screen.findByRole('button', { name: 'Ocultar citação de Outro' }));
+    const dialogo = await screen.findByRole('dialog');
+    await user.type(within(dialogo).getByLabelText(/^Motivo/), 'Fonte não confirmada');
+    await user.click(within(dialogo).getByRole('button', { name: 'Ocultar citação' }));
+    await waitFor(() => expect(toast.success).toHaveBeenCalledWith('Citação ocultada'));
+    expect(avisouDoGerador()).toBe(false);
+  });
+
+  it('reativar uma Lewis com sucesso avisa; reativar que falha não', async () => {
+    vi.mocked(adminQuotes.list).mockResolvedValue(lista([lewisOculta]));
+    vi.mocked(adminQuotes.reativar).mockRejectedValueOnce(new ApiError(409, 'conflict', 'Não está oculta'));
+    const { user } = montar();
+    await user.click(await screen.findByRole('button', { name: 'Reativar citação de C. S. Lewis' }));
+    await waitFor(() => expect(adminQuotes.reativar).toHaveBeenCalledTimes(1));
+    expect(avisouDoGerador()).toBe(false);
+    vi.mocked(adminQuotes.reativar).mockResolvedValue({ quote: { ...lewisOculta, status: 'ativa' } });
+    await user.click(await screen.findByRole('button', { name: 'Reativar citação de C. S. Lewis' }));
+    await waitFor(() => expect(toast.success).toHaveBeenCalledWith('Citação reativada'));
+    expect(avisouDoGerador()).toBe(true);
+  });
+
+  it('salvar edição de texto de uma Lewis ativa avisa; só a verificação não', async () => {
+    // a API devolve a citação já editada
+    vi.mocked(adminQuotes.update)
+      .mockResolvedValueOnce({ quote: { ...ativa, verificadoEm: '2026-10-02' }, avisos: [] })
+      .mockResolvedValueOnce({ quote: { ...ativa, text: 'Texto da ativa. mais' }, avisos: [] });
+    const { user } = montar();
+    await user.click(await screen.findByRole('button', { name: 'Editar citação de C. S. Lewis' }));
+    let dialogo = await screen.findByRole('dialog');
+    await user.clear(within(dialogo).getByLabelText(/^Conferida em/));
+    await user.type(within(dialogo).getByLabelText(/^Conferida em/), '2026-10-02');
+    await user.click(within(dialogo).getByRole('button', { name: 'Salvar' }));
+    await waitFor(() => expect(toast.success).toHaveBeenCalledWith('Citação atualizada'));
+    expect(avisouDoGerador()).toBe(false);
+
+    await user.click(await screen.findByRole('button', { name: 'Editar citação de C. S. Lewis' }));
+    dialogo = await screen.findByRole('dialog');
+    await user.type(within(dialogo).getByLabelText(/^Texto/), ' mais');
+    await user.click(within(dialogo).getByRole('button', { name: 'Salvar' }));
+    await waitFor(() => expect(adminQuotes.update).toHaveBeenCalledTimes(2));
+    await waitFor(() => expect(avisouDoGerador()).toBe(true));
+  });
+});

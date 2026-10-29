@@ -13,7 +13,9 @@ import {
   DialogTitle,
 } from '@/components/ui/dialog';
 import { ApiError, atualDe, issuesDe } from '@/lib/api-client';
+import { efeitoNoGerador } from '@/lib/gerador';
 import { TEXTO_MAX, validarCitacao } from '@/lib/validarCitacao';
+import { AvisoGerador } from './AvisoGerador';
 import { adminQuotes, type AdminQuote, type QuoteFormValues } from '@/services/adminQuotes';
 
 interface Props {
@@ -101,6 +103,15 @@ function Formulario({ onOpenChange, quote, autoresExistentes, onSaved }: Props) 
   const erros = useMemo(() => validarCitacao(v, { autoresExistentes, novo }), [v, autoresExistentes, novo]);
   const mudancas = base ? diferencas(base, v) : null;
   const semMudancas = mudancas !== null && Object.keys(mudancas).length === 0;
+  // O formulário só escolhe a situação de rascunho ou nova; ativa e oculta mantêm a que têm.
+  const efeitoGerador = efeitoNoGerador(base ?? null, {
+    author: v.author,
+    text: v.text.trim(),
+    source: v.source.trim() === '' ? null : v.source.trim(),
+    theme: v.theme.trim() === '' ? null : v.theme.trim(),
+    dominioPublico: v.dominioPublico,
+    status: base && base.status !== 'rascunho' ? base.status : v.status,
+  });
 
   const mudar = <K extends keyof QuoteFormValues>(campo: K, valor: QuoteFormValues[K]) => {
     setV((atual) => ({ ...atual, [campo]: valor }));
@@ -258,6 +269,8 @@ function Formulario({ onOpenChange, quote, autoresExistentes, onSaved }: Props) 
           )}
         </Campo>
       )}
+
+      {efeitoGerador && <AvisoGerador efeito={efeitoGerador} id={base?.id} />}
 
       <DialogFooter>
         <Button type="button" variant="outline" onClick={() => onOpenChange(false)}>

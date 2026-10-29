@@ -157,3 +157,63 @@ describe('QuoteFormDialog', () => {
     expect(screen.queryByLabelText('Situação')).toBeNull();
   });
 });
+
+describe('QuoteFormDialog: aviso do Gerador', () => {
+  const aviso = () => screen.queryByRole('note');
+  const rascunho: AdminQuote = { ...existente, id: 'r1', status: 'rascunho' };
+  const oculta: AdminQuote = { ...existente, id: 'o1', status: 'oculta', motivoOcultacao: 'x' };
+
+  it('editar uma Lewis ativa sem mexer em nada não avisa; mudar o texto avisa como "mudar"', async () => {
+    const { user } = abrir({ quote: existente });
+    expect(aviso()).toBeNull();
+    await user.type(screen.getByLabelText(/^Texto/), ' a mais');
+    expect(aviso()).toHaveTextContent('Depois, atualize a cópia do Gerador C. S. Lewis');
+    expect(aviso()).toHaveTextContent('o texto de q1 muda');
+  });
+
+  it('mudar só o endereço da conferência ou a data de verificação não avisa', async () => {
+    const { user } = abrir({ quote: existente });
+    await user.type(screen.getByLabelText(/^Endereço da conferência/), 'x');
+    await user.type(screen.getByLabelText(/^Conferida em/), '1');
+    expect(aviso()).toBeNull();
+  });
+
+  it('nova citação: autor C.S. Lewis ativa avisa; rascunho não', async () => {
+    const { user } = abrir();
+    await user.type(screen.getByLabelText(/^Autor/), 'C.S. Lewis');
+    await user.type(screen.getByLabelText(/^Texto/), 'Frase.');
+    expect(aviso()).toBeNull();
+    await user.selectOptions(screen.getByLabelText('Situação'), 'ativa');
+    expect(aviso()).toHaveTextContent('entra uma citação nova');
+    await user.selectOptions(screen.getByLabelText('Situação'), 'rascunho');
+    expect(aviso()).toBeNull();
+  });
+
+  it('trocar o autor para Lewis entra; trocar de Lewis para outro sai', async () => {
+    const { user, } = abrir({ quote: { ...existente, author: 'Santo Agostinho' } });
+    const autor = screen.getByLabelText(/^Autor/);
+    await user.clear(autor);
+    await user.type(autor, 'C. S. Lewis');
+    expect(aviso()).toHaveTextContent('entra uma citação nova');
+  });
+
+  it('Lewis passa a outro autor: sai', async () => {
+    const { user } = abrir({ quote: existente });
+    const autor = screen.getByLabelText(/^Autor/);
+    await user.clear(autor);
+    await user.type(autor, 'Santo Agostinho');
+    expect(aviso()).toHaveTextContent('o id q1 sai do arquivo');
+  });
+
+  it('editar rascunho ou oculta de Lewis não avisa', async () => {
+    const a = abrir({ quote: rascunho });
+    await a.user.type(screen.getByLabelText(/^Texto/), ' mais');
+    expect(aviso()).toBeNull();
+  });
+
+  it('editar oculta de Lewis não avisa', async () => {
+    const { user } = abrir({ quote: oculta });
+    await user.type(screen.getByLabelText(/^Texto/), ' mais');
+    expect(aviso()).toBeNull();
+  });
+});
