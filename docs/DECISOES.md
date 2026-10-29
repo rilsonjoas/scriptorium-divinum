@@ -635,3 +635,15 @@ Três achados do Rilson logo ao abrir `/admin/citacoes`.
 **Interface.** A concentração por autor passou de `C. S. Lewis 145, 54%` para `C. S. Lewis 145 (54%)`, e Próxima/Anterior levam o início da lista de volta à tela. O percentual estava certo (145 de 270 é 53,7%).
 
 **Fora do código:** o rodapé do login tinha `© 2025` fixo (PR #28). O 404 inicial era service worker antigo no navegador.
+
+## 29/10/2026: F4 do painel de citações (aviso do Gerador e manual)
+
+**O aviso só aparece quando a cópia do Gerador muda.** A cópia embutida (`lewis-quotes.snapshot.json`) guarda só as citações **ativas** de C. S. Lewis, com `id`, texto, obra, tema e o link de compra (que depende de domínio público, obra e autor). A regra `efeitoNoGerador` (`web/src/lib/gerador.ts`) compara o "antes" e o "depois" da citação e diz se ela **entra**, **sai** ou **muda** na cópia, ou nada. Por isso editar só a verificação, criar rascunho ou mexer numa citação oculta não avisa: um aviso que dispara sempre é um aviso que se aprende a ignorar. Trocar o autor para ou de Lewis conta (a citação entra ou sai da cópia). A frase do diff esperado ("o id X sai do arquivo", "o texto de X muda", "entra uma citação nova") sai desse mesmo efeito.
+
+**Onde aparece.** Na confirmação de ocultar (sempre, a citação ativa de Lewis vai sair), no formulário enquanto os valores digitados mudariam a cópia, e num aviso rápido de 20 segundos depois de salvar, ocultar ou reativar com **sucesso** (falha não avisa: nada mudou). O "link do diff esperado" do desenho virou o link do arquivo da cópia no GitHub mais a frase do diff, porque o diff só existe depois de rodar o `sync`.
+
+**O lembrete que não depende de memória não é esta tela.** O aviso ajuda, mas quem garante é o canário (até 1 hora) e, na F5, o PR automático do Gerador. Registrado para ninguém achar que a F4 resolve o R6(b).
+
+**Documentação.** `docs/MANUAL-PAINEL-CITACOES.md` (manual para o autor) e `docs/GERENCIAR-ACERVO.md` reescrito: o painel é o caminho normal para citações, a migration fica para carga em lote e exclusão física. **Enquanto a F5 não existir, em produção ainda vale a migration**; os dois documentos repetem o aviso de não gravar pela tela.
+
+**Não faz:** nenhuma mudança de API, banco ou OpenAPI; não regera a cópia; não substitui o canário.
