@@ -69,6 +69,14 @@ describe('Canônico de citações: export e restore preservam o id', () => {
     expect(a.map((q) => q.id).sort()).toEqual(quatro.map((q) => q.id));
   });
 
+  it('a ordem do export é por ponto de código (autor, texto), igual em qualquer banco', async () => {
+    const q = (n: number, author: string, text: string): CanonicalQuote => ({ ...base, id: id(n), author, text });
+    // numa collation de dicionário "abc" viria antes de "Zeno"; por ponto de código, maiúscula vem primeiro
+    await restaurarCanonico(admin, [q(1, 'abc', 'b'), q(2, 'Zeno', 'a'), q(3, 'abc', 'a'), q(4, 'Ágata', 'a')]);
+    const ordem = (await exportarCanonico(admin)).map((x) => `${x.author}|${x.text}`);
+    expect(ordem).toEqual(['Zeno|a', 'abc|a', 'abc|b', 'Ágata|a']);
+  });
+
   it('o export inclui as não ativas', async () => {
     await restaurarCanonico(admin, quatro);
     const status = (await exportarCanonico(admin)).map((q) => q.status).sort();

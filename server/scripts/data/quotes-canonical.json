@@ -1,5 +1,6 @@
 [
   {
+    "id": "be23b233-8b09-4c94-814a-dc4f6c72b51d",
     "author": "Agostinho de Hipona",
     "text": "A criatura espiritual vos agrada não pelo fato de existir, mas por ver a luz que a ilumina e por aderir a ela.",
     "source": "Confissões, Livro III, cap. 13",
@@ -7,9 +8,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "40a8e8af-6a3d-4d55-b00f-da475f01995d",
     "author": "Agostinho de Hipona",
     "text": "A fé consiste em crer no que não vês; a recompensa da fé é ver o que crês.",
     "source": "Sermão 43",
@@ -17,29 +21,25 @@
     "scriptoriumUrl": "https://scriptorium.narniano.com/livros/confissoes",
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
-    "author": "Agostinho de Hipona",
-    "text": "Ama e faz o que quiseres.",
-    "source": "Homilias sobre a Primeira Epístola de João, Homilia 7",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
+    "id": "07fbf854-afcf-439c-9abb-beb1b5b6344f",
     "author": "Agostinho de Hipona",
     "text": "A paz de todas as coisas é a tranquilidade da ordem.",
     "source": "A Cidade de Deus",
     "dominioPublico": true,
-    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/the-city-of-god",
+    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/a-cidade-de-deus-agostinho",
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "e93f0f70-9327-4991-8c24-9e6f79bc8709",
     "author": "Agostinho de Hipona",
     "text": "A virtude é a ordem do amor.",
     "source": "A Cidade de Deus, Livro XV, cap. 22",
@@ -47,9 +47,25 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "7c67cb04-b436-417e-9b63-ea995821fcce",
+    "author": "Agostinho de Hipona",
+    "text": "Ama e faz o que quiseres.",
+    "source": "Homilias sobre a Primeira Epístola de João, Homilia 7",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "0ea4237c-9262-4730-8d0e-d41b57686c9e",
     "author": "Agostinho de Hipona",
     "text": "Creio o que Vós me ensinastes, pois é verdade e só Vós sois o Mestre da Verdade em qualquer parte e de qualquer lugar que ela brilhe.",
     "source": "Confissões, Livro V, cap. 6",
@@ -57,19 +73,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
-    "author": "Agostinho de Hipona",
-    "text": "Dá-me o que me pedes, e pede-me o que quiseres.",
-    "source": "Confissões",
-    "dominioPublico": true,
-    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/confissoes",
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
+    "id": "8b095c03-653b-40da-b601-b3eee7270155",
     "author": "Agostinho de Hipona",
     "text": "Deus julgou como melhor trazer o bem do mal do que não permitir a existência do mal.",
     "source": "Enchiridion, 3.11",
@@ -77,9 +86,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "ca034d70-679d-4c6b-a609-dcf8451b24e5",
     "author": "Agostinho de Hipona",
     "text": "Devo à tua graça os males que não fiz.",
     "source": "Confissões, Livro II, cap. 7",
@@ -87,19 +99,38 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "c3761339-c40f-429f-9c7d-ab24c31c2428",
     "author": "Agostinho de Hipona",
     "text": "Dois amores construíram duas cidades: o amor de si até ao desprezo de Deus construiu a cidade terrena; o amor de Deus até ao desprezo de si, a cidade celestial.",
     "source": "A Cidade de Deus",
     "dominioPublico": true,
-    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/the-city-of-god",
+    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/a-cidade-de-deus-agostinho",
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "34d18c12-5d77-409b-a64a-4c57ccc1d0ae",
+    "author": "Agostinho de Hipona",
+    "text": "Dá-me o que me pedes, e pede-me o que quiseres.",
+    "source": "Confissões",
+    "dominioPublico": true,
+    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/confissoes",
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "5ae085d0-3d69-4f97-b0c5-0f7f8f9655ca",
     "author": "Agostinho de Hipona",
     "text": "Fizeste-nos para ti, Senhor, e o nosso coração permanece inquieto enquanto não descansar em ti.",
     "source": "Confissões",
@@ -107,9 +138,12 @@
     "scriptoriumUrl": "https://scriptorium.narniano.com/livros/confissoes",
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "b1b852cb-2a8b-4299-9277-248842a4243e",
     "author": "Agostinho de Hipona",
     "text": "Interroguei ao universo acerca do meu Deus e ele respondeu-me: não sou eu, mas foi ele mesmo que me fez. Contemplá-las era a minha pergunta e a resposta delas era a sua beleza.",
     "source": "Confissões, Livro X, cap. 6",
@@ -117,9 +151,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "86c5c4a1-a3b1-4094-84d0-9309bd5275e1",
     "author": "Agostinho de Hipona",
     "text": "Mas Vós me perdoastes misericordiosamente este pecado, e eu, todo cheio de execráveis imundícies, fui salvo por Vós das águas do mar até me conduzirdes às águas da vossa graça.",
     "source": "Confissões, Livro V, cap. 8",
@@ -127,9 +164,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "0f70ef3c-3964-491b-951c-0be82ef952de",
     "author": "Agostinho de Hipona",
     "text": "Me engano, logo existo.",
     "source": "A Cidade de Deus, Livro XI, cap. 26",
@@ -137,19 +177,25 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "521c33b8-3529-4966-8714-d3dd223b362a",
     "author": "Agostinho de Hipona",
     "text": "Na ausência de justiça, o que é a soberania senão uma grande ladroeira?",
     "source": "A Cidade de Deus",
     "dominioPublico": true,
-    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/the-city-of-god",
+    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/a-cidade-de-deus-agostinho",
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "4b180da3-f6bb-4bcc-ac20-ed8ba7b85ffe",
     "author": "Agostinho de Hipona",
     "text": "Não vá para fora de ti; volta para dentro de ti mesmo. É no homem interior que habita a verdade.",
     "source": "De Vera Religione",
@@ -157,9 +203,12 @@
     "scriptoriumUrl": "https://scriptorium.narniano.com/livros/confissoes",
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "dc1c0403-16b0-4bc7-8d1b-9a8fa04ba195",
     "author": "Agostinho de Hipona",
     "text": "Se compreendes, podes estar certo que não é isso.",
     "source": "Sermão 52 (sobre Deus)",
@@ -167,9 +216,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "f726244d-e60c-4dc8-9cc5-a8d4e0460303",
     "author": "Agostinho de Hipona",
     "text": "Tarde te amei, ó Beleza tão antiga e tão nova, tarde te amei! Eis que habitavas dentro de mim e eu te procurava do lado de fora.",
     "source": "Confissões",
@@ -177,9 +229,12 @@
     "scriptoriumUrl": "https://scriptorium.narniano.com/livros/confissoes",
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "4dc518d3-2f1f-47ee-b878-739d08e54525",
     "author": "Agostinho de Hipona",
     "text": "Toda interpretação deve conduzir ao amor. Se alguém extrai das Escrituras uma interpretação que não promove esse amor, não as entendeu.",
     "source": "A Doutrina Cristã, 1.35.39",
@@ -187,9 +242,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "94c5c9c0-a0de-479e-8006-f9005dc7cc0d",
     "author": "Anselmo de Cantuária",
     "text": "Algo do qual nada maior pode ser pensado não pode existir apenas no entendimento; existe, portanto, tanto no entendimento quanto na realidade.",
     "source": "Proslógio, cap. 2-3",
@@ -197,9 +255,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "86b18cd8-97d8-4afd-9d72-e3ced0db19b2",
     "author": "Anselmo de Cantuária",
     "text": "Não procuro compreender para crer, mas creio para compreender.",
     "source": "Por que Deus se fez Homem?",
@@ -207,9 +268,12 @@
     "scriptoriumUrl": "https://scriptorium.narniano.com/livros/proslogium-monologium-cur-deus-homo",
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "da523483-97b0-47d7-9448-94ab5e2da21a",
     "author": "Anselmo de Cantuária",
     "text": "Senhor meu Deus, ensina o meu coração onde e como procurar-te, onde e como encontrar-te.",
     "source": "Por que Deus se fez Homem?",
@@ -217,69 +281,77 @@
     "scriptoriumUrl": "https://scriptorium.narniano.com/livros/proslogium-monologium-cur-deus-homo",
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "ca52b8e0-543b-4448-adc3-7a805ee57efa",
     "author": "Blaise Pascal",
     "text": "A justiça sem a força é impotente; a força sem a justiça é tirânica.",
     "source": "Pensamentos",
     "dominioPublico": true,
-    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/pensamentos",
+    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/pensamentos-blaise-pascal",
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "bcc83aa1-7efd-4530-96f9-78dced98b82b",
     "author": "Blaise Pascal",
     "text": "Conhecemos a verdade não apenas pela razão, mas também pelo coração.",
     "source": "Pensamentos",
     "dominioPublico": true,
-    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/pensamentos",
+    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/pensamentos-blaise-pascal",
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "63e5a2a5-bab4-40aa-8c13-6599a2e9d59c",
     "author": "Blaise Pascal",
     "text": "O coração tem razões que a própria razão desconhece.",
     "source": "Pensamentos",
     "dominioPublico": true,
-    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/thoughts-pensees",
+    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/pensamentos-blaise-pascal",
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "f5ec7190-aca4-426a-971f-083372168099",
     "author": "Blaise Pascal",
     "text": "O homem é apenas um caniço, o mais fraco da natureza; mas é um caniço pensante.",
     "source": "Pensamentos",
     "dominioPublico": true,
-    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/thoughts-pensees",
+    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/pensamentos-blaise-pascal",
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "99820793-ae56-4c02-b21f-10b5ec731064",
     "author": "Blaise Pascal",
     "text": "Toda a infelicidade dos homens vem de uma só coisa: não saberem ficar em repouso num quarto.",
     "source": "Pensamentos",
     "dominioPublico": true,
-    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/thoughts-pensees",
+    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/pensamentos-blaise-pascal",
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
-    "author": "Boécio",
-    "text": "Acaso existe algum homem que possua uma felicidade tão perfeita que não se queixe de algo? A felicidade terrestre traz sempre consigo preocupações e, além de nunca ser completa, sempre tem um termo.",
-    "source": "A Consolação da Filosofia, Livro II",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
+    "id": "fa7b5fb4-d2af-4a82-9daa-ae0d065347a6",
     "author": "Boécio",
     "text": "A eternidade é a posse total, perfeita e simultânea de uma vida sem fim.",
     "source": "A Consolação da Filosofia, Livro V, Prosa VI",
@@ -287,9 +359,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "a87afc7d-924b-48dc-a5a1-ba8140fe82d8",
     "author": "Boécio",
     "text": "A presciência não acarreta que as coisas sabidas ocorram necessariamente, uma vez que algo acontece não em virtude de alguém saber que acontecerá, mas em virtude de suas próprias propriedades.",
     "source": "A Consolação da Filosofia, Livro V, Prosa VI",
@@ -297,9 +372,25 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "47c90e45-6f03-40c4-a810-0bc8f662221a",
+    "author": "Boécio",
+    "text": "Acaso existe algum homem que possua uma felicidade tão perfeita que não se queixe de algo? A felicidade terrestre traz sempre consigo preocupações e, além de nunca ser completa, sempre tem um termo.",
+    "source": "A Consolação da Filosofia, Livro II",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "e1af8d58-8bd1-4a2b-b51d-650f3c438ae9",
     "author": "Boécio",
     "text": "Se a Fortuna começasse a ser estável, deixaria de ser a Fortuna.",
     "source": "A Consolação da Filosofia, Livro II, Prosa I",
@@ -307,19 +398,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
-    "author": "C. S. Lewis",
-    "text": "A alegria é um assunto levado a sério no Céu.",
-    "source": "Oração: Cartas a Malcolm",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": "ceus",
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
+    "id": "c19ffe6f-a54d-4d68-a101-f976f4e64cdf",
     "author": "C. S. Lewis",
     "text": "A Amizade é desnecessária, assim como a filosofia e a arte não tem nenhum valor para sobrevivência; entretanto, é uma dessas coisas que dão valor à sobrevivência.",
     "source": "Os Quatro Amores",
@@ -327,9 +411,25 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "5c00ac36-454c-4f2f-9131-292c5dc87dd2",
+    "author": "C. S. Lewis",
+    "text": "A alegria é um assunto levado a sério no Céu.",
+    "source": "Oração: Cartas a Malcolm",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": "ceus",
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "7dba429b-4bdb-4f97-947c-326e2bf849d0",
     "author": "C. S. Lewis",
     "text": "A amizade nasce no momento em que uma pessoa diz para outra: 'O quê! Você também? Pensei que eu era o único!'",
     "source": "Os Quatro Amores",
@@ -337,29 +437,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
-    "author": "C. S. Lewis",
-    "text": "Acho que nos deleitamos em louvar o que apreciamos porque o louvor não só expressa, mas completa o gozo.",
-    "source": "Reflexões sobre os Salmos",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
-    "author": "C. S. Lewis",
-    "text": "Acho que todos aqueles que jamais experimentaram essa Alegria de verdade sabem que ela tem uma qualidade que difere de todas as outras coisas prazerosas que podem ser experimentadas neste mundo.",
-    "source": "Surpreendido pela Alegria",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
+    "id": "3c3cafc5-256e-44ec-9d55-5996188f4741",
     "author": "C. S. Lewis",
     "text": "A coisa mais doce em toda a minha vida tem sido o anseio de chegar à montanha, de encontrar o lugar de onde veio toda a beleza — o meu país, o lugar onde eu deveria ter nascido.",
     "source": "Até que Tenhamos Rostos",
@@ -367,9 +450,12 @@
     "scriptoriumUrl": null,
     "theme": "ceus",
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "68d99b81-620a-40e9-9d35-fbfb5351cb4c",
     "author": "C. S. Lewis",
     "text": "A coragem não é simplesmente uma das virtudes, mas a forma que cada virtude assume quando está sendo testada, ou seja, no ponto da mais alta realidade.",
     "source": "Cartas de um diabo ao seu aprendiz",
@@ -377,9 +463,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "4e4e02bd-2a5c-49f0-bcca-4d5fa9bad5e9",
     "author": "C. S. Lewis",
     "text": "A criança não despreza florestas reais porque leu sobre florestas encantadas: a leitura faz todas as florestas reais um pouco encantadas.",
     "source": "Sobre Histórias",
@@ -387,9 +476,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "def3c08a-089f-4f6c-a6bd-b24eee59c0ca",
     "author": "C. S. Lewis",
     "text": "A crucificação do eu natural é o passaporte para a vida eterna. Nada que não tenha morrido há de ressuscitar.",
     "source": "O Peso da Glória",
@@ -397,9 +489,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "f8c11628-ddd9-469e-ae5c-2151458efc1c",
     "author": "C. S. Lewis",
     "text": "A fina flor do profano só pode crescer na vizinhança íntima do sagrado. Em nenhum lugar a nossa tentação é tão bem-sucedida quanto precisamente aos pés do altar.",
     "source": "Cartas de um diabo ao seu aprendiz",
@@ -407,59 +502,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
-    "author": "C. S. Lewis",
-    "text": "Amar é ser vulnerável. Ame qualquer coisa e seu coração irá certamente ser espremido e possivelmente partido.",
-    "source": "Os Quatro Amores",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
-    "author": "C. S. Lewis",
-    "text": "Ao descobrir em mim um desejo que nenhuma experiência deste mundo poderia satisfazer, a explicação mais provável é que eu tenha sido feito para outro mundo.",
-    "source": "Cristianismo Puro e Simples",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": "ceus",
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
-    "author": "C. S. Lewis",
-    "text": "Ao ler a grande literatura, eu me torno mil homens e, mesmo assim, continuo a ser eu mesmo.",
-    "source": "Um Experimento em Crítica Literária",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
-    "author": "C. S. Lewis",
-    "text": "Aparentemente, é impossível para a inteligência do homem conceber a narrativa na qual a inteligência de outro homem não pode, de forma plausível, encontrar um sentido oculto.",
-    "source": "Reflexões sobre os Salmos",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
-    "author": "C. S. Lewis",
-    "text": "Apesar de o mundo não ter mais que cinco horas de idade, o mal já penetrou nele.",
-    "source": "O Sobrinho do Mago",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
+    "id": "8c1f9b59-ce9d-4633-b6cb-5c15796ec234",
     "author": "C. S. Lewis",
     "text": "A porta para o inferno está trancada por dentro.",
     "source": "O Problema do Sofrimento",
@@ -467,9 +515,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "0d139986-9da2-4c21-b0c8-0f8e051b79da",
     "author": "C. S. Lewis",
     "text": "A própria condição de ter amigos é que deveríamos desejar algo além de Amigos.",
     "source": "Os Quatro Amores",
@@ -477,19 +528,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
-    "author": "C. S. Lewis",
-    "text": "Aqueles que não refletem sobre os próprios pecados acabam pensando sem cessar sobre os pecados dos outros.",
-    "source": "Deus no Banco dos Réus",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
+    "id": "f002c5d6-6a04-4045-8366-df177d61a447",
     "author": "C. S. Lewis",
     "text": "A razão é o órgão natural da verdade; mas a imaginação é o órgão do significado.",
     "source": "Bluspels and Flalansferes (em Rehabilitations and Other Essays)",
@@ -497,9 +541,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "ac2d7cc6-0200-4990-901a-268c6e546a95",
     "author": "C. S. Lewis",
     "text": "A realidade, na verdade, geralmente é algo que você não teria imaginado.",
     "source": "Cristianismo Puro e Simples",
@@ -507,9 +554,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "d57523d2-c90b-409c-9ec1-062f0b006aca",
     "author": "C. S. Lewis",
     "text": "A salvação de uma só alma é mais importante que a produção ou preservação de todos os épicos e as tragédias no mundo.",
     "source": "Reflexões Cristãs",
@@ -517,19 +567,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
-    "author": "C. S. Lewis",
-    "text": "Aslam não é um leão domesticado.",
-    "source": "O Leão, a Feiticeira e o Guarda-Roupa",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
+    "id": "fdd0921b-98e7-4581-8ab8-a3138eb995c6",
     "author": "C. S. Lewis",
     "text": "A tarefa do educador moderno não é derrubar florestas, mas irrigar desertos.",
     "source": "A Abolição do Homem",
@@ -537,19 +580,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
-    "author": "C. S. Lewis",
-    "text": "Até agora, nenhuma teoria filosófica que eu tenha encontrado conseguiu superar de forma radical as palavras do Gênesis: 'No princípio, Deus criou os céus e a terra'.",
-    "source": "Milagres",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
+    "id": "1fe6a9b4-0855-4405-9a46-7afa44fddf99",
     "author": "C. S. Lewis",
     "text": "A verdadeira obra deve ser dentre todas a mais secreta. E, se isso for possível, secreta até para nós mesmos. Nossa mão direita não precisa saber o que a esquerda está fazendo.",
     "source": "Os Quatro Amores",
@@ -557,9 +593,142 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "b90633c3-ae1b-4ab1-839a-d8a6d97fc7f9",
+    "author": "C. S. Lewis",
+    "text": "Acho que nos deleitamos em louvar o que apreciamos porque o louvor não só expressa, mas completa o gozo.",
+    "source": "Reflexões sobre os Salmos",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "dfbea5d6-330c-472f-a07d-ba4e9267fdd7",
+    "author": "C. S. Lewis",
+    "text": "Acho que todos aqueles que jamais experimentaram essa Alegria de verdade sabem que ela tem uma qualidade que difere de todas as outras coisas prazerosas que podem ser experimentadas neste mundo.",
+    "source": "Surpreendido pela Alegria",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "3922a40a-5b60-4daf-bd58-a5df7fd04177",
+    "author": "C. S. Lewis",
+    "text": "Amar é ser vulnerável. Ame qualquer coisa e seu coração irá certamente ser espremido e possivelmente partido.",
+    "source": "Os Quatro Amores",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "eb406b66-434a-4854-993a-ce17831b1923",
+    "author": "C. S. Lewis",
+    "text": "Ao descobrir em mim um desejo que nenhuma experiência deste mundo poderia satisfazer, a explicação mais provável é que eu tenha sido feito para outro mundo.",
+    "source": "Cristianismo Puro e Simples",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": "ceus",
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "9c23a8c7-9bde-4cd5-a382-afb68abe02a2",
+    "author": "C. S. Lewis",
+    "text": "Ao ler a grande literatura, eu me torno mil homens e, mesmo assim, continuo a ser eu mesmo.",
+    "source": "Um Experimento em Crítica Literária",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "e710ee90-dbdf-4f22-a753-c9c4c35124d8",
+    "author": "C. S. Lewis",
+    "text": "Aparentemente, é impossível para a inteligência do homem conceber a narrativa na qual a inteligência de outro homem não pode, de forma plausível, encontrar um sentido oculto.",
+    "source": "Reflexões sobre os Salmos",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "546d0f77-ec5d-4146-895f-04bea44a0a59",
+    "author": "C. S. Lewis",
+    "text": "Apesar de o mundo não ter mais que cinco horas de idade, o mal já penetrou nele.",
+    "source": "O Sobrinho do Mago",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "fec9a972-34fb-4902-a1db-6b7337dec1f1",
+    "author": "C. S. Lewis",
+    "text": "Aqueles que não refletem sobre os próprios pecados acabam pensando sem cessar sobre os pecados dos outros.",
+    "source": "Deus no Banco dos Réus",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "43463971-4509-404f-8f6c-ead72432b598",
+    "author": "C. S. Lewis",
+    "text": "Aslam não é um leão domesticado.",
+    "source": "O Leão, a Feiticeira e o Guarda-Roupa",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "4c8625bd-aff5-4dc9-ba37-a123a7129728",
+    "author": "C. S. Lewis",
+    "text": "Até agora, nenhuma teoria filosófica que eu tenha encontrado conseguiu superar de forma radical as palavras do Gênesis: 'No princípio, Deus criou os céus e a terra'.",
+    "source": "Milagres",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "e192a960-666c-487f-8731-0762176fe8ed",
     "author": "C. S. Lewis",
     "text": "Caçoamos da honra, e nos chocamos ao encontrar traidores entre nós.",
     "source": "A Abolição do Homem",
@@ -567,9 +736,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "5c1c726c-9245-4621-b626-ff0dc7c8ff68",
     "author": "C. S. Lewis",
     "text": "Chegamos a uma fase em que nada é mais urgente do que uma boa gargalhada.",
     "source": "Os Quatro Amores",
@@ -577,9 +749,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "c0d7c0f2-aad5-4b4c-b5cf-0ed0ce594808",
     "author": "C. S. Lewis",
     "text": "Coragem, querido coração.",
     "source": "A Viagem do Peregrino da Alvorada",
@@ -587,9 +762,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "8ac899f0-8874-4453-b38d-1c7dbb49bfd0",
     "author": "C. S. Lewis",
     "text": "Creio no cristianismo assim como creio que o Sol nasceu, não apenas porque o vejo, mas porque por meio dele eu vejo tudo mais.",
     "source": "Cristianismo Puro e Simples",
@@ -597,9 +775,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "a4f7ba31-8a70-4f5e-92fd-1b494eddbdde",
     "author": "C. S. Lewis",
     "text": "Cristo é o princípio universal de concreção ou coesão por meio do qual o Universo se mantém.",
     "source": "Milagres",
@@ -607,19 +788,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
-    "author": "C. S. Lewis",
-    "text": "Dê-me tudo. Não quero uma parcela do seu tempo, uma parcela do seu dinheiro e uma parcela do seu trabalho: eu quero você. Não vim para atormentar seu ego natural, mas para matá-lo. Nada de meios-termos. Não quero podar um ramo aqui e outro ali, quero derrubar a árvore toda.",
-    "source": "Cristianismo Puro e Simples",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
+    "id": "001889b0-439c-433b-bd15-61161ad1c92c",
     "author": "C. S. Lewis",
     "text": "Descende de Adão e Eva — É honra suficientemente grande para que o mendigo mais miserável possa andar de cabeça erguida.",
     "source": "As crônicas de Nárnia: Príncipe Caspian",
@@ -627,9 +801,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "b132d293-28e8-40ff-b47e-f156eda0c763",
     "author": "C. S. Lewis",
     "text": "Descobrimos assim pela experiência que não adianta pedir ao céu conforto terreno. O céu só pode dar consolo celestial e nenhum outro.",
     "source": "Os Quatro Amores",
@@ -637,9 +814,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "0ecb82c2-fd3d-4882-b4e3-7694c869d8a2",
     "author": "C. S. Lewis",
     "text": "Desde que me tornei cristão, penso que o melhor serviço que posso fazer seja explicar e defender a fé comum a praticamente todos os cristãos em todos os tempos.",
     "source": "Cristianismo Puro e Simples",
@@ -647,9 +827,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "601416a2-a234-4fb1-a9d4-f1acb562ae61",
     "author": "C. S. Lewis",
     "text": "Desejo destacar aquilo que penso que nós, ou pelo menos eu, precisamos mais: a alegria e o prazer em Deus que encontramos no livro de Salmos.",
     "source": "O Assunto do Céu",
@@ -657,9 +840,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "6a335751-bd99-475c-a217-da15d76aa936",
     "author": "C. S. Lewis",
     "text": "Deus designou a máquina humana para funcionar à base dele mesmo. Ele mesmo é o combustível que nossos espíritos foram designados para queimar.",
     "source": "Cristianismo Puro e Simples",
@@ -667,9 +853,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "cb29a240-287e-4241-a91a-16f4040a9abf",
     "author": "C. S. Lewis",
     "text": "Deus não pode dar-nos paz e felicidade à parte dele, pois não existe tal coisa.",
     "source": "Cristianismo Puro e Simples",
@@ -677,19 +866,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
-    "author": "C. S. Lewis",
-    "text": "Deus, que de nada precisa, faz existir pelo amor criaturas inteiramente supérfluas a fim de que possa amá-las e aperfeiçoá-las.",
-    "source": "Os Quatro Amores",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
+    "id": "b4be3bec-4b68-4363-ad52-922601b34aff",
     "author": "C. S. Lewis",
     "text": "Deus tem uma atenção infinita para dedicar a cada um de nós. Você está tão a sós com Ele como se fosse o único ser que Ele já criou.",
     "source": "Cristianismo Puro e Simples",
@@ -697,9 +879,25 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "66d72f56-215a-4b33-b5e5-feb85238c158",
+    "author": "C. S. Lewis",
+    "text": "Deus, que de nada precisa, faz existir pelo amor criaturas inteiramente supérfluas a fim de que possa amá-las e aperfeiçoá-las.",
+    "source": "Os Quatro Amores",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "90c0d27e-f7c8-42fb-98f5-49a26aa64f9e",
     "author": "C. S. Lewis",
     "text": "Devemos, de fato, crer que o corpo ressurreto é totalmente diferente do corpo mortal; mas a existência, nesse novo estado, de algo que possa ser chamado, em qualquer sentido, de 'corpo', envolve algum tipo de relação espacial.",
     "source": "O Assunto do Céu",
@@ -707,9 +905,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "9577b986-5eb1-4b14-ad2d-732355d07bd6",
     "author": "C. S. Lewis",
     "text": "Dizer que Jesus foi apenas um grande mestre é uma opção que não temos. Um homem comum que dissesse o que Ele disse não seria um bom exemplo moral — seria um lunático, como alguém que pensa ser um ovo cozido, ou algo pior, como o próprio Diabo. Ou Ele era — e é — o Filho de Deus, ou era um louco. Mas não existe meio-termo seguro.",
     "source": "Cristianismo Puro e Simples",
@@ -717,39 +918,25 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "fcbc59be-f38c-491c-9b8b-bbe6878b2167",
     "author": "C. S. Lewis",
-    "text": "É esta a terra pela qual tenho aspirado a vida inteira, embora até agora não a conhecesse. A razão por que amávamos a antiga Nárnia é que ela, às vezes, se parecia um pouquinho com isto aqui.",
-    "source": "A Última Batalha",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
-    "author": "C. S. Lewis",
-    "text": "É fácil agradar a Deus, mas satisfazê-lo é bem difícil.",
+    "text": "Dê-me tudo. Não quero uma parcela do seu tempo, uma parcela do seu dinheiro e uma parcela do seu trabalho: eu quero você. Não vim para atormentar seu ego natural, mas para matá-lo. Nada de meios-termos. Não quero podar um ramo aqui e outro ali, quero derrubar a árvore toda.",
     "source": "Cristianismo Puro e Simples",
     "dominioPublico": false,
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
-    "author": "C. S. Lewis",
-    "text": "É fácil reconhecer, mas praticamente impossível compreender por muito tempo, que não passamos de espelhos cujo brilho, caso sejamos brilhantes, é totalmente derivado do sol que resplandece sobre nós.",
-    "source": "Os Quatro Amores",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
+    "id": "b50e13d4-3ec0-4801-9a98-5d18c825bce2",
     "author": "C. S. Lewis",
     "text": "Ele nos amou, não porque somos amáveis, mas porque Ele é o amor.",
     "source": "The Collected Letters of C. S. Lewis, vol. 3, p. 119",
@@ -757,9 +944,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "c46201fd-c8e7-4b26-9350-5a13b6145055",
     "author": "C. S. Lewis",
     "text": "Em cada um dos meus amigos há algo que somente outro amigo pode revelar. Sozinho, não sou grande o suficiente para externar em atividade o homem que sou por inteiro.",
     "source": "Os Quatro Amores",
@@ -767,9 +957,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "d9d35a25-d189-4f3a-ae46-c561f1009790",
     "author": "C. S. Lewis",
     "text": "Em todos os mundos há um caminho para o meu país.",
     "source": "A Viagem do Peregrino da Alvorada",
@@ -777,9 +970,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "6990e697-08c7-4596-9e39-1bbcc0da6335",
     "author": "C. S. Lewis",
     "text": "Entendi bem por que os deuses não falam conosco abertamente. Como eles podem nos encontrar face a face, se não tivermos rostos?",
     "source": "Até que Tenhamos Rostos",
@@ -787,19 +983,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
-    "author": "C. S. Lewis",
-    "text": "É preciso dizer que os salmos são poemas, e poemas criados para serem cantados: não são tratados doutrinários, nem mesmo sermões.",
-    "source": "Reflexões sobre os Salmos",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
+    "id": "44dd71af-36e8-42c6-9be3-3264945bdc16",
     "author": "C. S. Lewis",
     "text": "Escrevo para os leigos sobre coisas nas quais eu mesmo sou leigo.",
     "source": "Reflexões sobre os Salmos",
@@ -807,29 +996,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
-    "author": "C. S. Lewis",
-    "text": "É só quando me volto para Cristo, só quando abro mão de mim mesmo para entregar-me à sua Pessoa que começo a ter uma personalidade realmente minha.",
-    "source": "Cristianismo Puro e Simples",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
-    "author": "C. S. Lewis",
-    "text": "Este é certamente o maior alcance da invenção: quando um autor produz o que parece não ser dele próprio, muito menos de alguma outra pessoa.",
-    "source": "Sobre Histórias",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
+    "id": "704b4138-dd11-45ba-9750-f01ce6ed692a",
     "author": "C. S. Lewis",
     "text": "Este mundo é uma grande loja de esculturas, nós somos as estátuas e há rumores por aí de que alguns de nós, algum dia, despertaremos para vida.",
     "source": "Cristianismo Puro e Simples",
@@ -837,9 +1009,25 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "67098e4a-31d6-454d-8aaf-b9d45e036646",
+    "author": "C. S. Lewis",
+    "text": "Este é certamente o maior alcance da invenção: quando um autor produz o que parece não ser dele próprio, muito menos de alguma outra pessoa.",
+    "source": "Sobre Histórias",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "243fd08e-7b3a-4d71-b05c-00d18a18ddbf",
     "author": "C. S. Lewis",
     "text": "Estou quase inclinado a estabelecer como parte do cânone que uma história infantil que é apreciada apenas por crianças é uma história infantil ruim.",
     "source": "Sobre Histórias",
@@ -847,9 +1035,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "08a2dbbf-d137-430f-8e00-627b4602075d",
     "author": "C. S. Lewis",
     "text": "Eu acho que se Deus nos perdoa, nós devemos perdoar a nós mesmos. Caso contrário, é quase como nos colocarmos como um tribunal superior a Ele.",
     "source": "Cartas de C. S. Lewis",
@@ -857,9 +1048,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "dae9c7ce-e1f6-46a9-bd2b-3e0ac0ed0288",
     "author": "C. S. Lewis",
     "text": "Eu me pergunto se as pessoas que pedem para Deus interferir aberta e diretamente no nosso mundo se dão conta do que estão pedindo. Quando isso acontecer, será o fim do mundo.",
     "source": "Cristianismo Puro e Simples",
@@ -867,19 +1061,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
-    "author": "C. S. Lewis",
-    "text": "Fé é a arte de se apegar às coisas que sua razão já aceitou, apesar das mudanças de humor.",
-    "source": "Cristianismo Puro e Simples",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
+    "id": "d9b6d335-fc5f-4ef0-9b9e-c15cbb2384ce",
     "author": "C. S. Lewis",
     "text": "Fui arrastado para dentro, chutando e esperneando, de olhos fixos em todos os lados em busca de uma chance de fuga. E o que me deixava zangado era que Deus me cercava por todos os lados.",
     "source": "Surpreendido pela Alegria",
@@ -887,9 +1074,25 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "75b10960-9b3a-4a00-a34e-adc1a7555aa3",
+    "author": "C. S. Lewis",
+    "text": "Fé é a arte de se apegar às coisas que sua razão já aceitou, apesar das mudanças de humor.",
+    "source": "Cristianismo Puro e Simples",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "014152b5-5ca3-4f42-8193-0d4c192fd20e",
     "author": "C. S. Lewis",
     "text": "Imagine-se como uma casa, uma casa viva. Deus chega para reformar. Ele está construindo um palácio no qual ele pretende habitar em pessoa.",
     "source": "Cristianismo Puro e Simples",
@@ -897,9 +1100,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "bd40e29f-4d03-430f-a214-694b4d3e9582",
     "author": "C. S. Lewis",
     "text": "Lembre-se de que todos os mundos chegam ao fim. E uma morte nobre é um tesouro que ninguém é pobre demais para comprar.",
     "source": "As crônicas de Nárnia: A Última Batalha",
@@ -907,9 +1113,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "4e041e01-243e-4ddb-9e15-f865d7aa4658",
     "author": "C. S. Lewis",
     "text": "Muitas vezes, a única forma de desenvolver realmente uma qualidade é começar a se comportar como se você já a tivesse.",
     "source": "Cristianismo Puro e Simples",
@@ -917,9 +1126,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "a2dc5d50-41eb-40a2-bef8-3e4137da0459",
     "author": "C. S. Lewis",
     "text": "Muitas vezes, creio eu, oro pelos outros quando deveria estar fazendo coisas por eles. É muito mais fácil orar por um chato do que visitá-lo.",
     "source": "Oração: Cartas a Malcolm",
@@ -927,99 +1139,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
-    "author": "C. S. Lewis",
-    "text": "Não convém exigir uma religião simples. Afinal, as coisas no mundo real são complexas. Parecem simples, mas não são.",
-    "source": "Cristianismo Puro e Simples",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
-    "author": "C. S. Lewis",
-    "text": "Não custa nada para Deus, até onde sabemos, criar coisas boas, mas, converter vontades rebeldes custou-lhe a crucificação.",
-    "source": "Cristianismo Puro e Simples",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
-    "author": "C. S. Lewis",
-    "text": "Não deveríamos orar como se fôssemos perfeitos, mas devemos orar como somos agora.",
-    "source": "Oração: Cartas a Malcolm",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
-    "author": "C. S. Lewis",
-    "text": "Não existem pessoas comuns. Você nunca conversou com um mero mortal.",
-    "source": "O Peso da Glória",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
-    "author": "C. S. Lewis",
-    "text": "Não foi por sociedades e estados que Cristo morreu, mas pelas pessoas.",
-    "source": "O Peso da Glória",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
-    "author": "C. S. Lewis",
-    "text": "Não perca tempo se preocupando se você 'ama' o seu vizinho: aja como se o amasse.",
-    "source": "Cristianismo Puro e Simples",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
-    "author": "C. S. Lewis",
-    "text": "Não podemos confiar em nós mesmos nem em nossos melhores momentos. A única atitude fatal é se dar por satisfeito com qualquer coisa que não a perfeição.",
-    "source": "Cristianismo Puro e Simples",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
-    "author": "C. S. Lewis",
-    "text": "Não vale a pena tentar ser mais espiritual do que Deus, pois ele nunca pretendeu que o ser humano fosse uma criatura puramente espiritual.",
-    "source": "Cristianismo Puro e Simples",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
-    "author": "C. S. Lewis",
-    "text": "Nárnia, Nárnia, desperte! Ame! Pense! Fale! Que as árvores caminhem! Que os animais falem! Que as águas sejam divinas!",
-    "source": "O Sobrinho do Mago",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
+    "id": "24a89d75-6cb0-4a27-af4f-5f5b4b84c4e4",
     "author": "C. S. Lewis",
     "text": "Nenhum homem sabe o quanto é mau, até se esforçar para ser bom. Só conhecemos a força do vento quando caminhamos contra ele.",
     "source": "Cristianismo Puro e Simples",
@@ -1027,9 +1152,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "7be842a1-816d-4ce4-84b0-2155d3edf42d",
     "author": "C. S. Lewis",
     "text": "Nenhum livro é digno de ser lido aos dez anos se não for igualmente (e, por vezes, muito mais) digno de ser lido aos 50 anos.",
     "source": "Sobre Histórias",
@@ -1037,9 +1165,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "2cdff54c-2539-4623-9e47-c790d2db8027",
     "author": "C. S. Lewis",
     "text": "No momento em que 'céu' deixa de significar união com Deus e 'inferno' deixa de significar separação Dele, a crença em qualquer um deles se torna uma superstição maldosa.",
     "source": "Reflexões sobre os Salmos",
@@ -1047,29 +1178,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
-    "author": "C. S. Lewis",
-    "text": "Nós não somos meras criaturas imperfeitas que precisam ser aperfeiçoadas; somos, conforme disse Newman, rebeldes que precisam depor as armas.",
-    "source": "O Problema do Sofrimento",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
-    "author": "C. S. Lewis",
-    "text": "Nós nos sentamos diante da arte para que algo aconteça conosco, não para fazer algo com ela. A primeira exigência é a rendição.",
-    "source": "Um Experimento em Crítica Literária",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
+    "id": "4aa9a8ce-1480-4190-a3b1-3becf6f37673",
     "author": "C. S. Lewis",
     "text": "Nossas ansiedades são aflições, não pecados. Como todas as aflições, elas são, se assim podemos considerá-las, nossa participação na Paixão de Cristo.",
     "source": "Oração: Cartas a Malcolm",
@@ -1077,19 +1191,155 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "58505dc8-11ee-49f5-9d60-523ea73609ae",
     "author": "C. S. Lewis",
-    "text": "O anglicismo do inglês só é percebido por quem conhece também outra língua. Da mesma maneira e pela mesma razão, só os sobrenaturalistas contemplam de fato a natureza.",
-    "source": "Milagres",
+    "text": "Nárnia, Nárnia, desperte! Ame! Pense! Fale! Que as árvores caminhem! Que os animais falem! Que as águas sejam divinas!",
+    "source": "O Sobrinho do Mago",
     "dominioPublico": false,
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "6ea16bf9-a603-4c86-a537-77e6fdc52232",
+    "author": "C. S. Lewis",
+    "text": "Não convém exigir uma religião simples. Afinal, as coisas no mundo real são complexas. Parecem simples, mas não são.",
+    "source": "Cristianismo Puro e Simples",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "52d1ebcf-98bc-409d-82c9-391fe450d774",
+    "author": "C. S. Lewis",
+    "text": "Não custa nada para Deus, até onde sabemos, criar coisas boas, mas, converter vontades rebeldes custou-lhe a crucificação.",
+    "source": "Cristianismo Puro e Simples",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "48f2ec5e-279b-4562-8c85-39c82c3ab79f",
+    "author": "C. S. Lewis",
+    "text": "Não deveríamos orar como se fôssemos perfeitos, mas devemos orar como somos agora.",
+    "source": "Oração: Cartas a Malcolm",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "98804c0e-6f20-46ac-a789-7e6594a18f21",
+    "author": "C. S. Lewis",
+    "text": "Não existem pessoas comuns. Você nunca conversou com um mero mortal.",
+    "source": "O Peso da Glória",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "d17ca97a-9ca9-4983-87e1-2119a6c8fddc",
+    "author": "C. S. Lewis",
+    "text": "Não foi por sociedades e estados que Cristo morreu, mas pelas pessoas.",
+    "source": "O Peso da Glória",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "bfa7310a-f97e-4957-8688-cdb9360bfc08",
+    "author": "C. S. Lewis",
+    "text": "Não perca tempo se preocupando se você 'ama' o seu vizinho: aja como se o amasse.",
+    "source": "Cristianismo Puro e Simples",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "86587b88-093e-4239-8678-a87092bf465e",
+    "author": "C. S. Lewis",
+    "text": "Não podemos confiar em nós mesmos nem em nossos melhores momentos. A única atitude fatal é se dar por satisfeito com qualquer coisa que não a perfeição.",
+    "source": "Cristianismo Puro e Simples",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "9e445e59-774e-4fb0-8b52-2f355f4d9171",
+    "author": "C. S. Lewis",
+    "text": "Não vale a pena tentar ser mais espiritual do que Deus, pois ele nunca pretendeu que o ser humano fosse uma criatura puramente espiritual.",
+    "source": "Cristianismo Puro e Simples",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "173093a3-a557-4da9-a3a5-016f4b2fa778",
+    "author": "C. S. Lewis",
+    "text": "Nós nos sentamos diante da arte para que algo aconteça conosco, não para fazer algo com ela. A primeira exigência é a rendição.",
+    "source": "Um Experimento em Crítica Literária",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "aa7d1136-9c38-4490-95dd-4811b5254ec8",
+    "author": "C. S. Lewis",
+    "text": "Nós não somos meras criaturas imperfeitas que precisam ser aperfeiçoadas; somos, conforme disse Newman, rebeldes que precisam depor as armas.",
+    "source": "O Problema do Sofrimento",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "0018d8f6-698b-4e92-ba12-18ac9ca13e68",
     "author": "C. S. Lewis",
     "text": "O Céu, uma vez alcançado, terá efeito retroativo e transformará em glória até mesmo essa agonia.",
     "source": "O Grande Abismo",
@@ -1097,49 +1347,12 @@
     "scriptoriumUrl": null,
     "theme": "ceus",
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
-    "author": "C. S. Lewis",
-    "text": "O cristianismo é praticamente a única entre as grandes religiões que aprova por completo o corpo — que acredita que a matéria é uma coisa boa, que o próprio Deus formou a forma humana e que um novo tipo de corpo nos será dado no Paraíso.",
-    "source": "Cristianismo Puro e Simples",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
-    "author": "C. S. Lewis",
-    "text": "O cristianismo não concebe os indivíduos humanos como meros membros de um grupo, ou itens numa lista, mas como órgãos num corpo — uns diferentes dos outros, e cada qual oferecendo uma contribuição própria e insubstituível.",
-    "source": "Cristianismo Puro e Simples",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
-    "author": "C. S. Lewis",
-    "text": "O cristianismo, se for falso, não tem valor; se for verdadeiro, tem valor infinito. A única coisa que lhe é impossível é ser 'mais ou menos' importante.",
-    "source": "Cristianismo Puro e Simples",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
-    "author": "C. S. Lewis",
-    "text": "O estado de espírito ordenado é uma das bênçãos pelas quais devemos orar, não uma fantasia que devemos vestir quando oramos.",
-    "source": "Oração: Cartas a Malcolm",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
+    "id": "bda4b7d5-c317-4d30-8ab3-bd961a119c75",
     "author": "C. S. Lewis",
     "text": "O Filho de Deus se tornou homem para permitir aos homens se tornarem filhos de Deus.",
     "source": "Cristianismo Puro e Simples",
@@ -1147,29 +1360,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
-    "author": "C. S. Lewis",
-    "text": "O menor ato de bondade hoje é a captura de um ponto estratégico a partir do qual se poderá ser capaz de seguir para vitórias que você nunca sonhou.",
-    "source": "Cristianismo Puro e Simples",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
-    "author": "C. S. Lewis",
-    "text": "Onde está Deus?... Vá para Ele quando sua necessidade é desesperadora, quando o outro socorro é inútil, e o que encontra? Uma porta batendo na sua cara, e um barulho de trancos por dentro. Depois disso, silêncio.",
-    "source": "A Anatomia de uma Dor",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
+    "id": "c602b3a3-e9c7-4c69-bca3-8b46cad7b0fc",
     "author": "C. S. Lewis",
     "text": "O Novo Testamento tem muito a dizer a respeito da autonegação, mas nada sobre a autonegação como um fim em si mesmo.",
     "source": "O Peso da Glória",
@@ -1177,9 +1373,90 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "df12adc9-7f8d-4311-b81c-a429c6b3060a",
+    "author": "C. S. Lewis",
+    "text": "O anglicismo do inglês só é percebido por quem conhece também outra língua. Da mesma maneira e pela mesma razão, só os sobrenaturalistas contemplam de fato a natureza.",
+    "source": "Milagres",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "850e83f0-1258-4d8e-b1dc-6140688b5164",
+    "author": "C. S. Lewis",
+    "text": "O cristianismo não concebe os indivíduos humanos como meros membros de um grupo, ou itens numa lista, mas como órgãos num corpo — uns diferentes dos outros, e cada qual oferecendo uma contribuição própria e insubstituível.",
+    "source": "Cristianismo Puro e Simples",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "3730632f-2760-41cf-ae47-7a90e627b0cd",
+    "author": "C. S. Lewis",
+    "text": "O cristianismo é praticamente a única entre as grandes religiões que aprova por completo o corpo — que acredita que a matéria é uma coisa boa, que o próprio Deus formou a forma humana e que um novo tipo de corpo nos será dado no Paraíso.",
+    "source": "Cristianismo Puro e Simples",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "e5eca5f7-2ffb-416c-a2a0-f54d5b57cccd",
+    "author": "C. S. Lewis",
+    "text": "O cristianismo, se for falso, não tem valor; se for verdadeiro, tem valor infinito. A única coisa que lhe é impossível é ser 'mais ou menos' importante.",
+    "source": "Cristianismo Puro e Simples",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "17d39bad-dae1-4480-9974-284d95ab508e",
+    "author": "C. S. Lewis",
+    "text": "O estado de espírito ordenado é uma das bênçãos pelas quais devemos orar, não uma fantasia que devemos vestir quando oramos.",
+    "source": "Oração: Cartas a Malcolm",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "65e113b5-1b70-494c-b769-30ae564164de",
+    "author": "C. S. Lewis",
+    "text": "O menor ato de bondade hoje é a captura de um ponto estratégico a partir do qual se poderá ser capaz de seguir para vitórias que você nunca sonhou.",
+    "source": "Cristianismo Puro e Simples",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "7534893f-c5f7-420b-b5a5-51ce75894b98",
     "author": "C. S. Lewis",
     "text": "O orgulho não tem prazer em ter algo, mas apenas em ter mais que o próximo.",
     "source": "Cristianismo Puro e Simples",
@@ -1187,9 +1464,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "23930135-8d73-49fe-a812-afbdcbe718b5",
     "author": "C. S. Lewis",
     "text": "O plano não é apenas a abolição dos anjos, mas a abolição dos homens.",
     "source": "Aquela Fortaleza Medonha",
@@ -1197,9 +1477,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "5099d7fb-1d76-44a4-857a-93d306cee2ea",
     "author": "C. S. Lewis",
     "text": "O presente é o ponto em que o tempo toca a eternidade.",
     "source": "Cartas de um diabo ao seu aprendiz",
@@ -1207,9 +1490,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "dd05a5a9-176a-4294-9777-08e70e1f037c",
     "author": "C. S. Lewis",
     "text": "O que você vê e o que você ouve depende muito de onde você está.",
     "source": "O Sobrinho do Mago",
@@ -1217,19 +1503,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
-    "author": "C. S. Lewis",
-    "text": "Oração no sentido de petição, de pedir coisas, é uma pequena parte disso; confissão e penitência são seu princípio; a adoração, seu santuário; a presença e a visão e o deleite de Deus, seu pão e vinho.",
-    "source": "A Última Noite do Mundo",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
+    "id": "2ba7038f-385f-4da0-b986-f929f9406018",
     "author": "C. S. Lewis",
     "text": "O rei obedece às leis, pois as leis o fizeram rei.",
     "source": "O Cavalo e seu Menino",
@@ -1237,19 +1516,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
-    "author": "C. S. Lewis",
-    "text": "Os cristãos estão com a razão: o orgulho é a causa principal da infelicidade em todas as nações e em todas as famílias desde que o mundo foi criado.",
-    "source": "Cristianismo Puro e Simples",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
+    "id": "46877ac1-af87-4acb-8449-10805805b6ae",
     "author": "C. S. Lewis",
     "text": "O significado de um livro é a série ou o sistema de emoções, reflexões e atitudes produzidas por sua leitura.",
     "source": "Sobre Histórias",
@@ -1257,19 +1529,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
-    "author": "C. S. Lewis",
-    "text": "Os livros ou a música onde pensamos estar a beleza nos trairão, se confiarmos neles. Pois eles não são a coisa em si; são somente a fragrância de uma flor que ainda não encontramos.",
-    "source": "O Peso da Glória",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": "ceus",
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
+    "id": "3e8eddbe-f773-4e4e-8086-fe550ece1e49",
     "author": "C. S. Lewis",
     "text": "O sofrimento não é bom em si mesmo. A característica 'boa' de qualquer experiência dolorosa jaz, para o sofredor, em sua submissão à vontade de Deus e, para o espectador, na compaixão que ela desperta.",
     "source": "O Problema do Sofrimento",
@@ -1277,9 +1542,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "83a3ed40-12ac-45af-89fd-caddc4576c60",
     "author": "C. S. Lewis",
     "text": "O sofrimento, porém, insiste em receber atenção. Deus sussurra em nossos prazeres, fala em nossa consciência, mas grita em nossos sofrimentos: esse é seu megafone para despertar um mundo surdo.",
     "source": "O Problema do Sofrimento",
@@ -1287,9 +1555,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "3a63817a-c256-4ce7-8f03-6b33a5bf5931",
     "author": "C. S. Lewis",
     "text": "O valor do mito é que ele leva todas as coisas que conhecemos e restaura nelas o rico significado perdido pelo 'véu da familiaridade'.",
     "source": "Sobre Histórias",
@@ -1297,9 +1568,64 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "e97a3c71-660c-4a61-9e0d-b89c33b272be",
+    "author": "C. S. Lewis",
+    "text": "Onde está Deus?... Vá para Ele quando sua necessidade é desesperadora, quando o outro socorro é inútil, e o que encontra? Uma porta batendo na sua cara, e um barulho de trancos por dentro. Depois disso, silêncio.",
+    "source": "A Anatomia de uma Dor",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "1094c49f-79f8-4466-a818-8e48cc48d858",
+    "author": "C. S. Lewis",
+    "text": "Oração no sentido de petição, de pedir coisas, é uma pequena parte disso; confissão e penitência são seu princípio; a adoração, seu santuário; a presença e a visão e o deleite de Deus, seu pão e vinho.",
+    "source": "A Última Noite do Mundo",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "5431e08c-23fd-4d41-995e-f261e419e23a",
+    "author": "C. S. Lewis",
+    "text": "Os cristãos estão com a razão: o orgulho é a causa principal da infelicidade em todas as nações e em todas as famílias desde que o mundo foi criado.",
+    "source": "Cristianismo Puro e Simples",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "ce39cdd7-a09a-4cca-a6da-7a7964c5afe5",
+    "author": "C. S. Lewis",
+    "text": "Os livros ou a música onde pensamos estar a beleza nos trairão, se confiarmos neles. Pois eles não são a coisa em si; são somente a fragrância de uma flor que ainda não encontramos.",
+    "source": "O Peso da Glória",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": "ceus",
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "8d92a0d2-641c-4881-a582-c8af0e950632",
     "author": "C. S. Lewis",
     "text": "Para Deus, cada acontecimento físico e cada ato humano estão presentes em um eterno agora. Nesse sentido, Deus não criou o universo há muito, porém o cria neste exato instante a cada instante.",
     "source": "Milagres",
@@ -1307,9 +1633,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "652f92a3-eea4-4bec-a9ca-2dc8889a2f46",
     "author": "C. S. Lewis",
     "text": "Para nós, este é o fim de todas as histórias, e podemos dizer, com absoluta certeza, que todos viveram felizes para sempre. Para eles, porém, este foi apenas o começo da verdadeira história: a que continua eternamente e na qual cada capítulo é muito melhor do que o anterior.",
     "source": "A Última Batalha",
@@ -1317,9 +1646,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "833e09ea-c847-45aa-91c6-3dbedb0be54a",
     "author": "C. S. Lewis",
     "text": "Para os antigos, a Amizade parecia o mais feliz e humano de todos os amores. A coroa da vida e a escola da virtude.",
     "source": "Os Quatro Amores",
@@ -1327,9 +1659,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "3ee63f4a-ae89-4e56-b5c4-b7d010d173e9",
     "author": "C. S. Lewis",
     "text": "Pascal diz que Deus 'instituiu a oração para conferir às suas criaturas a dignidade da causalidade'.",
     "source": "Deus no Banco dos Réus",
@@ -1337,9 +1672,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "307faceb-f10d-4d49-b8a6-784a74e1964a",
     "author": "C. S. Lewis",
     "text": "Podemos ignorar a presença de Deus, mas não fugir dela em lugar nenhum. O mundo está repleto dEle.",
     "source": "Oração: Cartas a Malcolm",
@@ -1347,9 +1685,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "05523311-47f9-4ecd-85a7-c0f161c3153e",
     "author": "C. S. Lewis",
     "text": "Pois comer e ler são dois prazeres que se combinam admiravelmente.",
     "source": "Surpreendido pela Alegria",
@@ -1357,29 +1698,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
-    "author": "C. S. Lewis",
-    "text": "Quando a dor precisa ser suportada, um pouco de coragem ajuda mais do que muito conhecimento, um pouco de compaixão humana mais do que muita coragem, e a menor centelha do amor de Deus mais do que tudo.",
-    "source": "O Problema do Sofrimento",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
-    "author": "C. S. Lewis",
-    "text": "Quando contemplarmos a face de Deus saberemos que sempre a conhecemos. Ele participou, fez, sustentou e moveu, momento a momento, todas as nossas experiências terrenas de amor inocente. Tudo o que era amor nelas, mesmo na terra, era muito mais dEle do que nosso.",
-    "source": "Os Quatro Amores",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
+    "id": "6019affe-25fc-4d7b-87f3-f2a1a4ae042c",
     "author": "C. S. Lewis",
     "text": "Quando Cristo morreu, ele morreu por você individualmente, como se você fosse o único ser humano do mundo.",
     "source": "Cristianismo Puro e Simples",
@@ -1387,9 +1711,38 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "3e93af2f-602b-4b36-b754-0339c4bed1a2",
+    "author": "C. S. Lewis",
+    "text": "Quando a dor precisa ser suportada, um pouco de coragem ajuda mais do que muito conhecimento, um pouco de compaixão humana mais do que muita coragem, e a menor centelha do amor de Deus mais do que tudo.",
+    "source": "O Problema do Sofrimento",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "d63878b9-0e3d-41dd-934b-6776486fe22e",
+    "author": "C. S. Lewis",
+    "text": "Quando contemplarmos a face de Deus saberemos que sempre a conhecemos. Ele participou, fez, sustentou e moveu, momento a momento, todas as nossas experiências terrenas de amor inocente. Tudo o que era amor nelas, mesmo na terra, era muito mais dEle do que nosso.",
+    "source": "Os Quatro Amores",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "9d5885b8-2308-4016-b4ed-5d6471d701e6",
     "author": "C. S. Lewis",
     "text": "Quando me tornei homem, deixei de lado as coisas infantis, incluindo o medo da infantilidade e o desejo de ser muito adulto.",
     "source": "Sobre Histórias",
@@ -1397,9 +1750,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "bd6fc98d-cbdf-4ed2-96e7-db2bcc5730a6",
     "author": "C. S. Lewis",
     "text": "Quando realizamos nossos 'deveres religiosos', somos semelhantes a pessoas cavando canais em terra árida a fim de que, quando a água finalmente vier, ela os encontre prontos. Há momentos felizes, já agora, em que gotas escorrem pelo leito seco.",
     "source": "Reflexões sobre os Salmos",
@@ -1407,19 +1763,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
-    "author": "C. S. Lewis",
-    "text": "Quando uma palavra deixa de ter valor descritivo e passa a ser um mero elogio, ela não nos esclarece sobre o objeto, só denota o conceito que o falante tem dele.",
-    "source": "Cristianismo Puro e Simples",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
+    "id": "eeea01e4-d1f5-409d-b0dd-829b3b6cc00c",
     "author": "C. S. Lewis",
     "text": "Quando um homem melhora, torna-se cada vez mais capaz de perceber o mal que ainda existe dentro de si. Quando um homem piora, torna-se cada vez menos capaz de captar a própria maldade.",
     "source": "Cristianismo Puro e Simples",
@@ -1427,9 +1776,25 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "bb484ee0-5937-4e7d-9f5f-dc83bca6a206",
+    "author": "C. S. Lewis",
+    "text": "Quando uma palavra deixa de ter valor descritivo e passa a ser um mero elogio, ela não nos esclarece sobre o objeto, só denota o conceito que o falante tem dele.",
+    "source": "Cristianismo Puro e Simples",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "65ab7db1-b79f-4c2c-be11-a06840aa8096",
     "author": "C. S. Lewis",
     "text": "Quanto mais abrirmos mão de ‘nós mesmos’ e deixarmos Cristo assumir o controle, mais verdadeiramente nos tornamos nós mesmos.",
     "source": "Cristianismo Puro e Simples",
@@ -1437,9 +1802,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "660de99e-1c18-4de8-927f-56bade2ccfe6",
     "author": "C. S. Lewis",
     "text": "Quanto mais alguém tem medo, mais irá odiar.",
     "source": "Cartas de um diabo ao seu aprendiz",
@@ -1447,19 +1815,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
-    "author": "C. S. Lewis",
-    "text": "Quão monotonamente iguais têm sido todos os grandes tiranos e conquistadores; quão gloriosamente diferentes todos os santos.",
-    "source": "Cristianismo Puro e Simples",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
+    "id": "15a780ab-b25b-4466-bdc0-88194a8e837e",
     "author": "C. S. Lewis",
     "text": "Que categoria de pessoas você acha que estaria mais preocupada com a ideia de fuga e que seria mais hostil a ela? Os carcereiros.",
     "source": "Sobre Histórias",
@@ -1467,9 +1828,25 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "71a9623f-8a12-47d6-be72-3055fcfad9af",
+    "author": "C. S. Lewis",
+    "text": "Quão monotonamente iguais têm sido todos os grandes tiranos e conquistadores; quão gloriosamente diferentes todos os santos.",
+    "source": "Cristianismo Puro e Simples",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "6bf666ed-8fed-45f5-baba-95bd96dc96db",
     "author": "C. S. Lewis",
     "text": "Renúncia cristã não significa 'apatia' estoica, mas uma prontidão em preferir Deus em comparação com objetivos inferiores, embora eles sejam, em si mesmos, legítimos.",
     "source": "O Problema do Sofrimento",
@@ -1477,9 +1854,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "3c606f09-cf67-4fcb-86ce-24a88c0edf9c",
     "author": "C. S. Lewis",
     "text": "Se Deus tivesse atendido a todas as orações tolas que já fiz na vida, onde eu estaria agora?",
     "source": "Oração: Cartas a Malcolm",
@@ -1487,19 +1867,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
-    "author": "C. S. Lewis",
-    "text": "Sei agora, Senhor, por que não me deu nenhuma resposta. Você é a própria resposta. Diante do seu rosto, as perguntas morrem.",
-    "source": "Até que Tenhamos Rostos",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
+    "id": "5bccdbd5-b12f-40f3-9530-610fd7b5a065",
     "author": "C. S. Lewis",
     "text": "Se insistirmos em pedir a moral da história, esta é sua moral: uma chamada de volta do otimismo fácil e também do pessimismo lamentoso, para aquela dura, ainda que não muito desesperada, compreensão da imutável situação difícil do Homem.",
     "source": "Sobre Histórias",
@@ -1507,29 +1880,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
-    "author": "C. S. Lewis",
-    "text": "Sempre há esperança se mantivermos um problema não resolvido em mente; não há nenhuma se fingirmos que ele não existe.",
-    "source": "Oração: Cartas a Malcolm",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
-    "author": "C. S. Lewis",
-    "text": "Sempre que começo um cálculo errado, quanto mais cedo eu perceber, voltar atrás e começar de novo, mais rápido poderei continuar. Não há nada progressista em ser cabeça-dura e não admitir o erro.",
-    "source": "Cristianismo Puro e Simples",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
+    "id": "dde742c0-abaa-4a76-9021-5b2957814538",
     "author": "C. S. Lewis",
     "text": "Se o Certo não for uma entidade real, que os nazistas, lá no fundo, conhecem tão bem quanto nós e têm o dever de praticar, qual o sentido de dizer que o inimigo está errado?",
     "source": "Cristianismo Puro e Simples",
@@ -1537,9 +1893,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "d607921f-a037-46f7-bae9-87c16c1cc03f",
     "author": "C. S. Lewis",
     "text": "Se o Cristianismo significa apenas mais um bom conselho, então o Cristianismo não tem importância alguma. Não tem faltado bons conselhos nos últimos quatro mil anos.",
     "source": "Cristianismo Puro e Simples",
@@ -1547,9 +1906,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "df1c6385-6427-4cf3-86ad-d3321a20d67a",
     "author": "C. S. Lewis",
     "text": "Se você buscar a si mesmo apenas encontrará o ódio. Mas, se você buscar a Cristo, acabará por encontrá-lo e, junto com ele, todas as demais coisas.",
     "source": "Cristianismo Puro e Simples",
@@ -1557,19 +1919,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
-    "author": "C. S. Lewis",
-    "text": "Se você é produto de um universo materialista, porque não se sente em casa aqui? O peixe reclama de o mar ser molhado?",
-    "source": "Carta a Sheldon Vanauken, 23/12/1950",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
+    "id": "0e70882b-3036-4999-8cf0-4559f09896a1",
     "author": "C. S. Lewis",
     "text": "Se você está no caminho errado, voltar atrás significa progresso.",
     "source": "Cristianismo Puro e Simples",
@@ -1577,9 +1932,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "7acfaa59-aa36-4df5-8dff-0ba54986205b",
     "author": "C. S. Lewis",
     "text": "Se você ler a história, descobrirá que os cristãos que mais fizeram por este mundo foram exatamente os que mais pensaram no outro.",
     "source": "Cristianismo Puro e Simples",
@@ -1587,19 +1945,64 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "67b54cc0-cf29-4487-87ff-3294a42235ad",
     "author": "C. S. Lewis",
-    "text": "Só há duas espécies de pessoas no final: os que dizem a Deus, 'seja feita a Sua vontade', e aqueles a quem Deus diz: 'a tua vontade seja feita'.",
-    "source": "O Grande Abismo",
+    "text": "Se você é produto de um universo materialista, porque não se sente em casa aqui? O peixe reclama de o mar ser molhado?",
+    "source": "Carta a Sheldon Vanauken, 23/12/1950",
     "dominioPublico": false,
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "ad2a904a-0f39-4e63-8f14-3d436cdc6ae0",
+    "author": "C. S. Lewis",
+    "text": "Sei agora, Senhor, por que não me deu nenhuma resposta. Você é a própria resposta. Diante do seu rosto, as perguntas morrem.",
+    "source": "Até que Tenhamos Rostos",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "c32747b7-d507-44a2-98bc-972cb9da3e6b",
+    "author": "C. S. Lewis",
+    "text": "Sempre há esperança se mantivermos um problema não resolvido em mente; não há nenhuma se fingirmos que ele não existe.",
+    "source": "Oração: Cartas a Malcolm",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "50c4b2cb-3ee6-4298-8f1a-007b8d3dbd20",
+    "author": "C. S. Lewis",
+    "text": "Sempre que começo um cálculo errado, quanto mais cedo eu perceber, voltar atrás e começar de novo, mais rápido poderei continuar. Não há nada progressista em ser cabeça-dura e não admitir o erro.",
+    "source": "Cristianismo Puro e Simples",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "ae09ee63-d42e-49e1-b515-ae433c521460",
     "author": "C. S. Lewis",
     "text": "Somos como um ovo. E não podemos continuar indefinidamente sendo apenas um ovo intacto e comum. Ou nos tornamos um pássaro novo, ou apodrecemos.",
     "source": "Cristianismo Puro e Simples",
@@ -1607,9 +2010,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "1af329f1-71f6-4df6-9320-51b1ca179ab4",
     "author": "C. S. Lewis",
     "text": "Somos criaturas medíocres, brincando com bebida, sexo e ambição, quando a alegria infinita nos é oferecida.",
     "source": "O Peso da Glória",
@@ -1617,9 +2023,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "13af9481-2d25-4913-9232-304d1c8cf397",
     "author": "C. S. Lewis",
     "text": "Suspeito que no céu um amor que jamais incorporou o próprio Amor seria igualmente irrelevante. Pois a Natureza passou. Tudo o que não é eterno acha-se eternamente fora de moda.",
     "source": "Os Quatro Amores",
@@ -1627,9 +2036,25 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "675696af-87c1-4f4a-8f88-c8b29bafd2b1",
+    "author": "C. S. Lewis",
+    "text": "Só há duas espécies de pessoas no final: os que dizem a Deus, 'seja feita a Sua vontade', e aqueles a quem Deus diz: 'a tua vontade seja feita'.",
+    "source": "O Grande Abismo",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "744bd952-ea70-4d02-adb1-b595bbe1e1a7",
     "author": "C. S. Lewis",
     "text": "Talvez estejamos cansados deste velho campo, mas Deus não está.",
     "source": "O Assunto do Céu",
@@ -1637,9 +2062,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "6632fecf-b68c-46ef-8d74-3d081d342366",
     "author": "C. S. Lewis",
     "text": "Temos aqui um paradoxo. Embora seja amor-necessidade, aquilo de que tem necessidade é dar. É um amor-dádiva, mas aquilo de que necessita é ser necessário.",
     "source": "Os Quatro Amores",
@@ -1647,9 +2075,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "60ed34ff-75b2-4c0d-99c7-68131e726316",
     "author": "C. S. Lewis",
     "text": "Tenho certeza de que Deus não deixa ninguém esperando, a menos que julgue que essa espera seja benéfica.",
     "source": "Cristianismo Puro e Simples",
@@ -1657,9 +2088,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "9b571d42-8f17-4161-a333-6c2a00e6845a",
     "author": "C. S. Lewis",
     "text": "Tenho de manter viva a chama do desejo pela minha verdadeira terra natal, a qual só encontrarei depois da morte.",
     "source": "O Problema do Sofrimento",
@@ -1667,9 +2101,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "740f12bd-2a2e-4457-8274-619dfbb99a12",
     "author": "C. S. Lewis",
     "text": "Toda realidade é iconoclasta. Aquela que amamos nesta terra triunfa incessantemente sobre a simples ideia que formulamos dela.",
     "source": "A Anatomia de uma Dor",
@@ -1677,9 +2114,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "fb6f24da-f63c-4048-b266-f6183cee812f",
     "author": "C. S. Lewis",
     "text": "Todo bom escritor sabe que, quanto mais incomuns são as cenas e os acontecimentos de sua história, mais leves, mais comuns, mais típicos seus personagens devem ser.",
     "source": "Sobre Histórias",
@@ -1687,9 +2127,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "39bd1400-0cc0-4dd1-ae8e-4b1f832d0fe8",
     "author": "C. S. Lewis",
     "text": "Todo cristão deve se tornar um pequeno Cristo. Esse é todo o propósito de se tornar um cristão.",
     "source": "Cristianismo Puro e Simples",
@@ -1697,9 +2140,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "f3754c5c-8a5f-4189-8935-16d6616f2e84",
     "author": "C. S. Lewis",
     "text": "Todos dizem que o perdão é uma ideia maravilhosa até que tenham algo a perdoar.",
     "source": "Cristianismo Puro e Simples",
@@ -1707,9 +2153,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "d7034b08-4997-42ed-8675-729fca8f6f35",
     "author": "C. S. Lewis",
     "text": "Tudo começou com imagens: um fauno carregando um guarda-chuva, uma rainha em um trenó, um magnífico leão. No começo, nem havia nada de cristão sobre eles; esse elemento apareceu por vontade própria.",
     "source": "Sobre Histórias",
@@ -1717,19 +2166,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
-    "author": "C. S. Lewis",
-    "text": "Uma sociedade doente precisa refletir muito sobre política, assim como um homem doente precisa refletir muito a respeito de sua digestão.",
-    "source": "O Peso da Glória",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
+    "id": "b4225c84-756c-49b5-91d6-72efaddbe5a0",
     "author": "C. S. Lewis",
     "text": "Um jovem que deseja permanecer um ateu convicto precisa ser muito cuidadoso com sua leitura.",
     "source": "Surpreendido pela Alegria",
@@ -1737,9 +2179,25 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "71d7df6b-f8d8-4967-bdf5-af1fd318a5ba",
+    "author": "C. S. Lewis",
+    "text": "Uma sociedade doente precisa refletir muito sobre política, assim como um homem doente precisa refletir muito a respeito de sua digestão.",
+    "source": "O Peso da Glória",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "8d84cfa1-504d-439a-9a1f-4aff89b05cd5",
     "author": "C. S. Lewis",
     "text": "Você deve imaginar-me sozinho na sala daquele colégio em Magdalen, noite após noite, sentindo, sempre que minha mente se desviava nem que por um segundo do meu trabalho, a aproximação constante d'Aquele que eu tão ardentemente desejava não encontrar. Na Trinity Term de 1929 admiti que Deus era Deus, e me ajoelhei e orei: talvez, naquela noite, o mais relutante e desanimado convertido em toda a Inglaterra.",
     "source": "Surpreendido pela Alegria",
@@ -1747,9 +2205,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "61cee908-dba7-4279-9d45-5d286570ffcc",
     "author": "C. S. Lewis",
     "text": "Você não ensina uma semente a morrer e a transformar-se em uma árvore jogando-a no fogo: a fim de ser enterrada, a semente deve tornar-se boa.",
     "source": "Oração: Cartas a Malcolm",
@@ -1757,29 +2218,77 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
-    "author": "Dietrich Bonhoeffer",
-    "text": "Acaso o preço que hoje temos que pagar com o colapso das igrejas organizadas não é consequência inevitável do barateamento da graça?",
-    "source": "Discipulado",
+    "id": "f664b92d-a6e3-47d0-97a0-6b3618250cbd",
+    "author": "C. S. Lewis",
+    "text": "É esta a terra pela qual tenho aspirado a vida inteira, embora até agora não a conhecesse. A razão por que amávamos a antiga Nárnia é que ela, às vezes, se parecia um pouquinho com isto aqui.",
+    "source": "A Última Batalha",
     "dominioPublico": false,
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
-    "author": "Dietrich Bonhoeffer",
-    "text": "A fé é tão somente fé no ato da obediência.",
-    "source": "Discipulado",
+    "id": "750629ea-c67c-4f98-832b-32e89c055c0a",
+    "author": "C. S. Lewis",
+    "text": "É fácil agradar a Deus, mas satisfazê-lo é bem difícil.",
+    "source": "Cristianismo Puro e Simples",
     "dominioPublico": false,
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "d42e594d-9562-4c20-abe9-2c3234d36aa4",
+    "author": "C. S. Lewis",
+    "text": "É fácil reconhecer, mas praticamente impossível compreender por muito tempo, que não passamos de espelhos cujo brilho, caso sejamos brilhantes, é totalmente derivado do sol que resplandece sobre nós.",
+    "source": "Os Quatro Amores",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "6131b1e1-64f7-4bfe-ad51-30344ca033c5",
+    "author": "C. S. Lewis",
+    "text": "É preciso dizer que os salmos são poemas, e poemas criados para serem cantados: não são tratados doutrinários, nem mesmo sermões.",
+    "source": "Reflexões sobre os Salmos",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "864083de-f334-45b4-8aba-3fb7a82ba67c",
+    "author": "C. S. Lewis",
+    "text": "É só quando me volto para Cristo, só quando abro mão de mim mesmo para entregar-me à sua Pessoa que começo a ter uma personalidade realmente minha.",
+    "source": "Cristianismo Puro e Simples",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "dc1782dc-d83f-41f2-a32a-fb932b1ca7a2",
     "author": "Dietrich Bonhoeffer",
     "text": "A fuga para a invisibilidade é a negação do chamado.",
     "source": "Discipulado, cap. 6",
@@ -1787,9 +2296,25 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "88c61667-7e8e-4d13-aeaa-a2d4975cc429",
+    "author": "Dietrich Bonhoeffer",
+    "text": "A fé é tão somente fé no ato da obediência.",
+    "source": "Discipulado",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "66711bf0-4265-4356-847a-b839a679e622",
     "author": "Dietrich Bonhoeffer",
     "text": "A graça barata é a inimiga mortal de nossa Igreja.",
     "source": "Discipulado, cap. 1",
@@ -1797,9 +2322,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "bb9cde8e-3e6b-4237-95e7-44f4a09b1b5c",
     "author": "Dietrich Bonhoeffer",
     "text": "A graça barata é a pregação do perdão sem arrependimento do pecador, é o batismo sem disciplina eclesiástica, é a comunhão sem confissão de pecados, é a absolvição sem confissão pessoal. A graça barata é a graça sem discipulado, é a graça sem cruz, é a graça sem Jesus Cristo vivo e encarnado.",
     "source": "Discipulado, cap. 1",
@@ -1807,9 +2335,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "aaf22ada-5a57-4c84-a194-60f032850bd3",
     "author": "Dietrich Bonhoeffer",
     "text": "A graça barata, em vez de justificar o pecador, justifica o pecado.",
     "source": "Discipulado, p. 19",
@@ -1817,9 +2348,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "a3d68ff8-55f3-43b3-bb21-04c5b0637aae",
     "author": "Dietrich Bonhoeffer",
     "text": "A graça preciosa é o tesouro oculto no campo, pelo qual o ser humano vende feliz tudo que possui.",
     "source": "Discipulado, cap. 1",
@@ -1827,9 +2361,25 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "5f0ed4c6-547c-4761-8bc6-08ab18011f81",
+    "author": "Dietrich Bonhoeffer",
+    "text": "Acaso o preço que hoje temos que pagar com o colapso das igrejas organizadas não é consequência inevitável do barateamento da graça?",
+    "source": "Discipulado",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "a4ea306d-5d89-41c0-9443-73276f466d4b",
     "author": "Dietrich Bonhoeffer",
     "text": "Ao discípulo não cabe elogios ou aplausos por seu cristianismo decidido. O olhar não deve recair sobre ele, mas somente sobre aquele que o chama.",
     "source": "Discipulado",
@@ -1837,9 +2387,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "42128f73-4775-4302-a564-58e719c37377",
     "author": "Dietrich Bonhoeffer",
     "text": "Cada qual é chamado individualmente, e sozinho deve seguir este caminho. Cristo quer que ele esteja só.",
     "source": "Discipulado, cap. 5",
@@ -1847,9 +2400,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "e6ce2871-0ab8-4908-9090-43101b27964e",
     "author": "Dietrich Bonhoeffer",
     "text": "Cristianismo sem discipulado é sempre um cristianismo sem Jesus Cristo; é apenas uma ideia, um mito.",
     "source": "Discipulado, p. 34",
@@ -1857,9 +2413,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "173e7962-71d4-4648-b720-136f73cc63c5",
     "author": "Dietrich Bonhoeffer",
     "text": "Cristo chama, o discípulo simplesmente o segue. Isto é graça e mandamento unidos em uma coisa só.",
     "source": "Discipulado",
@@ -1867,9 +2426,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "523e7d16-e42f-4c67-9a2d-2b58186f4deb",
     "author": "Dietrich Bonhoeffer",
     "text": "Deus não perguntará se fomos evangélicos; a ele interessa se fizemos sua vontade.",
     "source": "Discipulado, p. 154",
@@ -1877,19 +2439,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
-    "author": "Dietrich Bonhoeffer",
-    "text": "É (a graça) preciosa sobretudo porque foi preciosa para Deus, porque custou a vida de seu Filho.",
-    "source": "Discipulado, cap. 1",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
+    "id": "d2082214-2cf4-4d37-8596-7174d4e7df43",
     "author": "Dietrich Bonhoeffer",
     "text": "Ele (Cristo) é o mediador, não apenas entre Deus e o ser humano, mas também entre um ser humano e outro ser humano, e entre o ser humano e a realidade.",
     "source": "Discipulado, cap. 5",
@@ -1897,9 +2452,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "6f54934c-fd75-44c2-9c4e-509d1f1fb964",
     "author": "Dietrich Bonhoeffer",
     "text": "Eles são o sal da terra. São os que têm o maior valor, o bem mais precioso. Sem eles, a terra não consegue subsistir.",
     "source": "Discipulado, cap. 6",
@@ -1907,9 +2465,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "d633eb9e-435f-4301-ad59-019732064297",
     "author": "Dietrich Bonhoeffer",
     "text": "Em que outra época o mundo foi tão pavorosa e monstruosamente cristianizado como esta? Que significam os três mil saxões assassinados por Carlos Magno, comparado com as milhões de almas assassinadas hoje?",
     "source": "Discipulado, p. 29-30",
@@ -1917,9 +2478,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "221cc90a-0bdc-4629-a06f-129fecb137ae",
     "author": "Dietrich Bonhoeffer",
     "text": "Jesus chama ao discipulado, não como um mestre sábio e exemplo de vida, mas como sendo Cristo, filho de Deus.",
     "source": "Discipulado",
@@ -1927,9 +2491,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "012b8d93-a0b0-4d11-9f2b-ae2565e4fe01",
     "author": "Dietrich Bonhoeffer",
     "text": "Não existe caminho direto entre os seres humanos. Não alcançamos nosso semelhante nem por meio da empatia mais amorosa; não há relação direta entre almas. Cristo é o Mediador.",
     "source": "Discipulado, p. 73",
@@ -1937,9 +2504,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "4090e2e1-d311-4442-8985-7614c28b22a8",
     "author": "Dietrich Bonhoeffer",
     "text": "O desprezo ao irmão invalida a adoração e priva o discípulo da promessa divina.",
     "source": "Discipulado, cap. 6",
@@ -1947,9 +2517,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "4bf84e3b-74b2-4a56-bf3a-1bd73235cfad",
     "author": "Dietrich Bonhoeffer",
     "text": "O perdão dos pecados é o sofrimento de Cristo ordenado ao discípulo, e é imposto a todos os cristãos.",
     "source": "Discipulado",
@@ -1957,9 +2530,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "17405ebf-b08f-460d-885f-6aac5a720bb4",
     "author": "Dietrich Bonhoeffer",
     "text": "Por trás de todo julgamento está o perigoso autoengano, que acha que a Palavra de Deus vale para mim de modo diferente do que para o outro.",
     "source": "Discipulado",
@@ -1967,9 +2543,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "bf12aa3c-1aa8-4c67-aedc-da888d9039cb",
     "author": "Dietrich Bonhoeffer",
     "text": "Se você crê, dê o primeiro passo, ele conduz a Jesus Cristo! Se não crê, dê igualmente o passo, é assim que lhe foi ordenado!",
     "source": "Discipulado",
@@ -1977,9 +2556,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "66e88cdb-6de0-441b-bef6-a3962affc36b",
     "author": "Dietrich Bonhoeffer",
     "text": "Sob a proteção dessa \"graça\" (barata), o mundo todo tornou-se \"cristão\", mas sob essa mesma graça o cristianismo secularizou-se como nunca.",
     "source": "Discipulado, cap. 1",
@@ -1987,9 +2569,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "4e686c5b-eba0-4e3a-b488-7e4392e247e8",
     "author": "Dietrich Bonhoeffer",
     "text": "Só o que crê é obediente, só o obediente é que crê.",
     "source": "Discipulado, cap. 2",
@@ -1997,9 +2582,25 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "35a7fe56-2954-4c19-ac29-e388129a7c65",
+    "author": "Dietrich Bonhoeffer",
+    "text": "É (a graça) preciosa sobretudo porque foi preciosa para Deus, porque custou a vida de seu Filho.",
+    "source": "Discipulado, cap. 1",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "4caf6691-04ea-4091-bda6-8793904618a5",
     "author": "G. K. Chesterton",
     "text": "A coragem é quase uma contradição em termos: significa um desejo forte de viver sob a forma de disposição para morrer.",
     "source": "Ortodoxia",
@@ -2007,9 +2608,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "cdf7c5e5-be15-4ebf-9305-c605b96ed361",
     "author": "G. K. Chesterton",
     "text": "E quanto mais eu contemplava o cristianismo, tanto mais percebia que, embora ele houvesse estabelecido uma regra e uma ordem, o objetivo principal dessa ordem era permitir espaço para coisas boas sem limites.",
     "source": "Ortodoxia, cap. VI",
@@ -2017,9 +2621,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "2155b44a-6536-4aa1-b9b1-bdfb7c50d3b9",
     "author": "G. K. Chesterton",
     "text": "Há uma grande lição contida em A Bela e a Fera: uma coisa deve ser amada antes que seja digna de amor.",
     "source": "Ortodoxia",
@@ -2027,9 +2634,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "ea1d34a4-c5f8-4c6d-a583-e4c348165f0b",
     "author": "G. K. Chesterton",
     "text": "O mundo moderno está cheio das velhas virtudes cristãs enlouquecidas. As virtudes enlouqueceram porque foram isoladas umas das outras e estão circulando sozinhas.",
     "source": "Ortodoxia",
@@ -2037,19 +2647,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
-    "author": "G. K. Chesterton",
-    "text": "Os estóicos, antigos e modernos, orgulham-se de esconder suas lágrimas. Ele (Jesus) nunca ocultou as Suas.",
-    "source": "Ortodoxia",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
+    "id": "e32375ae-8542-46d9-befb-ea291ad5358d",
     "author": "G. K. Chesterton",
     "text": "O verdadeiro soldado luta não porque odeia o que está à sua frente, mas porque ama o que deixou para trás.",
     "source": "Illustrated London News, 31/12/1910",
@@ -2057,9 +2660,25 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "4ce7b1c5-f336-45c2-a84c-13b282e4baa7",
+    "author": "G. K. Chesterton",
+    "text": "Os estóicos, antigos e modernos, orgulham-se de esconder suas lágrimas. Ele (Jesus) nunca ocultou as Suas.",
+    "source": "Ortodoxia",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "9bca8276-4a1d-4724-b4fb-42f8d7662570",
     "author": "G. K. Chesterton",
     "text": "Por que todos os tolos do mundo pensam que a alma só é livre quando desobedece uma ordem?",
     "source": "peça teatral de Chesterton (formulação popular; original usa \"discorda\" em vez de \"desobedece\")",
@@ -2067,89 +2686,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
-    "author": "João Calvino",
-    "text": "A Escritura nos ensina que a santidade é o objetivo de nossa vocação.",
-    "source": "A Verdadeira Vida Cristã",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
-    "author": "João Calvino",
-    "text": "A mente humana é uma fábrica perpétua de ídolos.",
-    "source": "As Institutas da Religião Cristã",
-    "dominioPublico": true,
-    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/institutes-of-the-christian-religion",
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
-    "author": "João Calvino",
-    "text": "A verdadeira oração não consiste em palavras elegantes, mas em um afeto fervoroso do coração voltado a Deus.",
-    "source": "As Institutas da Religião Cristã",
-    "dominioPublico": true,
-    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/institutes-of-the-christian-religion",
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
-    "author": "João Calvino",
-    "text": "A vida cristã é renúncia de si mesmo.",
-    "source": "A Verdadeira Vida Cristã",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
-    "author": "João Calvino",
-    "text": "Não pertencemos a nós mesmos.",
-    "source": "A Verdadeira Vida Cristã",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
-    "author": "João Calvino",
-    "text": "O propósito de nossa regeneração é que se manifeste em nossa vida uma harmonia e acordo entre a justiça de Deus e nossa obediência.",
-    "source": "A Verdadeira Vida Cristã",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
-    "author": "João Calvino",
-    "text": "Porque todo o propósito do evangelho consiste em que Cristo se fez nosso e somos enxertados no seu corpo.",
-    "source": "As Institutas",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
-    "author": "João Calvino",
-    "text": "Quase toda a sabedoria que possuímos consiste em duas partes: o conhecimento de Deus e o de nós mesmos.",
-    "source": "As Institutas da Religião Cristã",
-    "dominioPublico": true,
-    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/institutes-of-the-christian-religion",
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
+    "id": "5327e6b3-f003-4ac5-9762-d9f8f8085ed8",
     "author": "John Bunyan",
     "text": "Então vi que havia um caminho para o inferno desde as portas do céu, como havia também desde a Cidade da Perdição. E acordei, e eis que era um sonho.",
     "source": "O Progresso do Peregrino, Parte I (linha final)",
@@ -2157,9 +2699,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "123bb372-44bf-4aa8-9d87-ae6756ab06e4",
     "author": "John Bunyan",
     "text": "Eu vim da Cidade da Perdição, que é o lugar de todo mal, e vou à Cidade de Sião.",
     "source": "O Progresso do Peregrino, Parte I",
@@ -2167,9 +2712,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "e4b80d33-2aed-40ee-b19f-bd21024b4896",
     "author": "John Bunyan",
     "text": "Morte, onde está o teu aguilhão? Túmulo, onde está a tua vitória? E assim ele passou, e todas as trombetas soaram por ele do outro lado.",
     "source": "O Progresso do Peregrino, Parte II (morte de Valente-pela-Verdade)",
@@ -2177,9 +2725,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "e573ef04-de1f-4c08-99ac-b78686c6d94a",
     "author": "John Bunyan",
     "text": "Na oração, é melhor ter um coração sem palavras do que palavras sem um coração.",
     "source": "O Progresso do Peregrino",
@@ -2187,9 +2738,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "3163f734-3a67-4293-a730-8d35f8b4f9e3",
     "author": "John Bunyan",
     "text": "Quem é humilde não precisa temer a queda; quem se rebaixa terá a Deus por seu exaltador.",
     "source": "O Peregrino",
@@ -2197,9 +2751,12 @@
     "scriptoriumUrl": "https://scriptorium.narniano.com/livros/o-peregrino",
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "3ed1ea00-fc4c-491d-8e66-8bdf281a2d1c",
     "author": "John Bunyan",
     "text": "Vi então no meu sonho que o homem começou a correr; não olhou para trás, mas gritava: Vida! Vida! Vida eterna!",
     "source": "O Peregrino",
@@ -2207,9 +2764,12 @@
     "scriptoriumUrl": "https://scriptorium.narniano.com/livros/o-peregrino",
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "93c1d12c-60b6-414e-bc9b-04b5a8427584",
     "author": "Jonathan Edwards",
     "text": "A graça e a santidade de coração devem consistir em grande medida de um coração cheio de afeições piedosas e ser mui suscetível a essas afeições.",
     "source": "Afeições Religiosas",
@@ -2217,19 +2777,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
-    "author": "Jonathan Edwards",
-    "text": "Aquele que só tem conhecimento doutrinal e especulativo, sem afeições, jamais se comprometerá com a religião.",
-    "source": "Afeições Religiosas",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
+    "id": "2b829f9a-1190-4e24-bdec-c9f77c9346b6",
     "author": "Jonathan Edwards",
     "text": "A religião consiste em grande medida em santas afeições, mas as afeições que mais distinguem a verdadeira religião são as atividades práticas.",
     "source": "Afeições Religiosas",
@@ -2237,9 +2790,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "09cf6fa3-4f98-4da3-9448-bee27694dd4f",
     "author": "Jonathan Edwards",
     "text": "A suma felicidade do homem consiste em atividades e satisfações santas.",
     "source": "Afeições Religiosas, p. 218",
@@ -2247,9 +2803,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "e796d911-8d7c-4d54-b084-d18f4a14219a",
     "author": "Jonathan Edwards",
     "text": "A verdadeira religião, em grande medida, consiste em afeições santas.",
     "source": "Afeições Religiosas",
@@ -2257,9 +2816,25 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "e4428cd5-5252-4556-bdad-c644717bc518",
+    "author": "Jonathan Edwards",
+    "text": "Aquele que só tem conhecimento doutrinal e especulativo, sem afeições, jamais se comprometerá com a religião.",
+    "source": "Afeições Religiosas",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "44893943-fc72-4f77-b83e-2b87cf79bb59",
     "author": "Jonathan Edwards",
     "text": "Distinguir a experiência cristã da prática cristã, como se fossem realidades distintas e estanques, é fazer uma distinção sem reflexão nem razão.",
     "source": "Afeições Religiosas",
@@ -2267,9 +2842,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "e3f8af00-e8a9-411f-bbec-635e03dac1b8",
     "author": "Jonathan Edwards",
     "text": "Em vez de receberem Cristo como aquele que salva do pecado, confiam nele como aquele que salva seus pecados.",
     "source": "Afeições Religiosas",
@@ -2277,9 +2855,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "11345204-57cf-4048-ba2e-7f1924c22f2f",
     "author": "Jonathan Edwards",
     "text": "Multidões muitas vezes ouvem a Palavra de Deus, mas nenhuma dessas pessoas é afetada pelo que ouve.",
     "source": "Afeições Religiosas, p. 25",
@@ -2287,19 +2868,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
-    "author": "Jonathan Edwards",
-    "text": "Não é desígnio de Deus que os homens obtenham segurança de qualquer outra forma senão mortificando a corrupção, crescendo na graça e praticando-a de forma ativa. A segurança não se obtém tanto pelo autoexame, mas pela ação.",
-    "source": "Afeições Religiosas, p. 195",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
+    "id": "e87f9b87-1140-4b7d-ad88-13cc30a8d94e",
     "author": "Jonathan Edwards",
     "text": "Não importa o que se faça ou sofra, se o coração não for entregue a Deus, na realidade nada foi dado a Ele.",
     "source": "Afeições Religiosas",
@@ -2307,9 +2881,25 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "55559404-0e5d-46b4-9640-5a0cdb88ca08",
+    "author": "Jonathan Edwards",
+    "text": "Não é desígnio de Deus que os homens obtenham segurança de qualquer outra forma senão mortificando a corrupção, crescendo na graça e praticando-a de forma ativa. A segurança não se obtém tanto pelo autoexame, mas pela ação.",
+    "source": "Afeições Religiosas, p. 195",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "4aaeb81c-1737-408b-affd-02b49b8ba85b",
     "author": "Jonathan Edwards",
     "text": "O certo não é rejeitar todas as afeições tampouco aprovar todas elas, mas saber distingui-las, aprovando algumas e rejeitando outras, separando a palha do trigo.",
     "source": "Afeições Religiosas, p. 44",
@@ -2317,9 +2907,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "c89f359f-a62d-4b34-aa89-dc1d74615012",
     "author": "Jonathan Edwards",
     "text": "O princípio fundamental do verdadeiro amor a Deus é que ele é amável por si mesmo, ou digno de ser amado — o que faz Deus amável acima de qualquer coisa é a sua excelência.",
     "source": "Afeições Religiosas",
@@ -2327,9 +2920,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "56a010f8-e58f-4c93-8242-90418058c27b",
     "author": "Jonathan Edwards",
     "text": "Quanto mais o verdadeiro santo ama a Deus com amor cheio de graça, mais deseja amá-lo e mais se inquieta por sua falta de amor.",
     "source": "Afeições Religiosas, p. 288",
@@ -2337,9 +2933,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "869d5608-7944-448e-9765-f980b4290a67",
     "author": "Jonathan Edwards",
     "text": "Quem não enxerga a beleza da santidade não sabe nem sequer o que são as graças do Espírito de Deus.",
     "source": "Afeições Religiosas",
@@ -2347,9 +2946,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "c5f2648c-22de-49a6-8b37-6c0920d02da7",
     "author": "Jonathan Edwards",
     "text": "Se alguém parece muito dedicado à religião social, mas pouco afeito a religião em oculto, este é um sinal muito sombrio no que diz respeito a sua religião.",
     "source": "Afeições Religiosas",
@@ -2357,9 +2959,116 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "7e9f8f2d-32c0-480a-b2cc-c330248f2ea6",
+    "author": "João Calvino",
+    "text": "A Escritura nos ensina que a santidade é o objetivo de nossa vocação.",
+    "source": "A Verdadeira Vida Cristã",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "f97f5fda-62ec-4692-974d-04d0e65065c1",
+    "author": "João Calvino",
+    "text": "A mente humana é uma fábrica perpétua de ídolos.",
+    "source": "As Institutas da Religião Cristã",
+    "dominioPublico": true,
+    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/institutas-da-religiao-crista",
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "4140591a-a7c5-485e-8ea2-43c9f16644b7",
+    "author": "João Calvino",
+    "text": "A verdadeira oração não consiste em palavras elegantes, mas em um afeto fervoroso do coração voltado a Deus.",
+    "source": "As Institutas da Religião Cristã",
+    "dominioPublico": true,
+    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/institutas-da-religiao-crista",
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "66aaa015-51e9-4bd4-ae18-1094ef571797",
+    "author": "João Calvino",
+    "text": "A vida cristã é renúncia de si mesmo.",
+    "source": "A Verdadeira Vida Cristã",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "0652c091-981c-4a55-b918-430889fac55f",
+    "author": "João Calvino",
+    "text": "Não pertencemos a nós mesmos.",
+    "source": "A Verdadeira Vida Cristã",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "081ae9ec-5782-4143-b4ac-7858b35d97ba",
+    "author": "João Calvino",
+    "text": "O propósito de nossa regeneração é que se manifeste em nossa vida uma harmonia e acordo entre a justiça de Deus e nossa obediência.",
+    "source": "A Verdadeira Vida Cristã",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "0a53a666-b70d-4cd0-9664-3971037064e5",
+    "author": "João Calvino",
+    "text": "Porque todo o propósito do evangelho consiste em que Cristo se fez nosso e somos enxertados no seu corpo.",
+    "source": "As Institutas",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "1389a186-3cc3-44aa-8f74-002dceddc44c",
+    "author": "João Calvino",
+    "text": "Quase toda a sabedoria que possuímos consiste em duas partes: o conhecimento de Deus e o de nós mesmos.",
+    "source": "As Institutas da Religião Cristã",
+    "dominioPublico": true,
+    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/institutas-da-religiao-crista",
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "cc5a520e-819f-40c4-b441-ab17ec408a46",
     "author": "Martinho Lutero",
     "text": "A fé é uma confiança viva e inabalável na graça de Deus.",
     "source": "As 95 Teses & Obras Escolhidas",
@@ -2367,9 +3076,12 @@
     "scriptoriumUrl": "https://scriptorium.narniano.com/livros/as-95-teses",
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "b5e0da60-fc89-477c-8e0b-72aa927db3c8",
     "author": "Martinho Lutero",
     "text": "Castelo forte é o nosso Deus, espada e escudo valioso! Sacode a dor dos servos seus e os livra do tirano furioso.",
     "source": "Castelo Forte é o Nosso Deus",
@@ -2377,9 +3089,12 @@
     "scriptoriumUrl": "https://scriptorium.narniano.com/livros/castelo-forte-e-o-nosso-deus",
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "32e5148d-f468-4ad3-bc4e-d943986dd947",
     "author": "Martinho Lutero",
     "text": "O cristão é um senhor livre de todas as coisas e não está sujeito a ninguém; o cristão é um servo prestativo em todas as coisas e sujeito a todos.",
     "source": "As 95 Teses & Obras Escolhidas",
@@ -2387,9 +3102,12 @@
     "scriptoriumUrl": "https://scriptorium.narniano.com/livros/as-95-teses",
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "830de8c1-2aef-410c-a21f-0e4ff4a40748",
     "author": "Martinho Lutero",
     "text": "O livre-arbítrio humano, sem a graça de Deus, não é de modo algum livre, mas é cativo e escravo do mal, visto que não pode voltar-se para o bem por si mesmo.",
     "source": "Do Servo Arbítrio",
@@ -2397,9 +3115,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "9fe7523f-316c-4565-9d03-634e8194eafe",
     "author": "Martinho Lutero",
     "text": "Um cristão é um senhor livre sobre todas as coisas e não submetido a ninguém. Um cristão é um servo prestativo em todas as coisas e submetido a todos.",
     "source": "A liberdade do cristão",
@@ -2407,9 +3128,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "d815d40c-144f-419b-8a61-dea63e312a28",
     "author": "Simone Weil",
     "text": "A atenção absoluta e pura é oração.",
     "source": "A Gravidade e a Graça",
@@ -2417,9 +3141,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "89c6d44c-3183-4035-9b61-c464b3ed9896",
     "author": "Simone Weil",
     "text": "Atenção é a forma mais rara e pura de generosidade.",
     "source": "Carta a Joë Bousquet, 13/04/1942 (recolhida em Primeiros Escritos Filosóficos / Gravity and Grace)",
@@ -2427,9 +3154,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "3441a095-4977-4bde-8830-d6a13878ee87",
     "author": "Simone Weil",
     "text": "Ser enraizado é talvez o conceito mais importante e menos reconhecido das necessidades da alma humana.",
     "source": "O Enraizamento",
@@ -2437,9 +3167,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "f5840936-4677-4ffa-bfa1-6ba4d3fbc40e",
     "author": "Simone Weil",
     "text": "Todos os pecados são tentativas de preencher o vazio.",
     "source": "A Gravidade e a Graça",
@@ -2447,9 +3180,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "ec8bb4d0-3f9e-4713-aa94-33038ebb79e2",
     "author": "Søren Kierkegaard",
     "text": "A Bíblia é muito fácil de entender. Mas nós somos um bando de vigaristas trapaceiros. Fingimos que não somos capazes de entendê-la porque sabemos muito bem que no minuto em que compreendemos estaremos obrigados a agir em conformidade.",
     "source": "Provocations",
@@ -2457,19 +3193,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
-    "author": "Søren Kierkegaard",
-    "text": "Acima de tudo, não perca a sua vontade de caminhar. Foi caminhando que alcancei os meus melhores pensamentos, e não conheço nenhum pensamento tão pesado que não se possa deixar para trás caminhando.",
-    "source": "Carta a Henriette Lund, 1847",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
+    "id": "c88320e3-9726-46fd-99fe-cf53d98f85b5",
     "author": "Søren Kierkegaard",
     "text": "A fé é a mais alta paixão do ser humano. Muitos em cada geração não chegam tão longe, e ninguém consegue ir mais longe.",
     "source": "Temor e Tremor",
@@ -2477,19 +3206,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
-    "author": "Søren Kierkegaard",
-    "text": "Alguém orava pensando, a princípio, que a oração era falar; mas foi-se calando mais e mais até que, afinal, percebeu que a oração é ouvir.",
-    "source": "Diários",
-    "dominioPublico": false,
-    "scriptoriumUrl": null,
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
+    "id": "4a80001f-0f53-4488-9e0a-d1f7b6dfbb20",
     "author": "Søren Kierkegaard",
     "text": "A multidão é a inverdade.",
     "source": "Ponto de Vista Explicativo da Minha Obra como Escritor",
@@ -2497,9 +3219,38 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "9b8b2310-80ce-46c3-acd5-f501379e4d66",
+    "author": "Søren Kierkegaard",
+    "text": "Acima de tudo, não perca a sua vontade de caminhar. Foi caminhando que alcancei os meus melhores pensamentos, e não conheço nenhum pensamento tão pesado que não se possa deixar para trás caminhando.",
+    "source": "Carta a Henriette Lund, 1847",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "a4a0bccc-017a-4877-8627-25ba19efa233",
+    "author": "Søren Kierkegaard",
+    "text": "Alguém orava pensando, a princípio, que a oração era falar; mas foi-se calando mais e mais até que, afinal, percebeu que a oração é ouvir.",
+    "source": "Diários",
+    "dominioPublico": false,
+    "scriptoriumUrl": null,
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "bf5dcec0-75b3-49ed-aa0a-70e96e9f12d2",
     "author": "Søren Kierkegaard",
     "text": "Encontrar uma verdade que seja verdade para mim, encontrar a ideia pela qual eu esteja disposto a viver e a morrer.",
     "source": "Diários, 1º de agosto de 1835 (Gilleleje)",
@@ -2507,9 +3258,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "05b0fafa-d3dc-4ef9-b11f-ee05243534ad",
     "author": "Søren Kierkegaard",
     "text": "Onde todos são cristãos, ninguém é cristão.",
     "source": "Attack Upon Christendom",
@@ -2517,9 +3271,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "bbd78d5d-9306-43d3-abb3-1652387fafc5",
     "author": "Søren Kierkegaard",
     "text": "Se eu fosse um médico, e se pudesse prescrever apenas um remédio para os males do mundo moderno, eu prescreveria o silêncio.",
     "source": "Diários / Provocations",
@@ -2527,9 +3284,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "cc448722-66a0-4a0b-a551-e24c6f439c62",
     "author": "Søren Kierkegaard",
     "text": "Um cristão sério sabe muito bem que há instantes em que ele está tomado mais profundamente e de maneira mais viva pela vida cristã do que habitualmente; mas nem por isso ele se torna um pagão quando a disposição de ânimo passa.",
     "source": "O Conceito de Ironia",
@@ -2537,19 +3297,25 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "cd1d84b2-3c23-414e-89f7-6593b1665939",
     "author": "Tomás de Aquino",
     "text": "A graça não destrói a natureza, mas a aperfeiçoa.",
     "source": "Suma Teológica, I, q. 1, art. 8",
     "dominioPublico": true,
-    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/summa-theologica-part-i-prima-pars",
+    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/suma-teologica-primeira-parte",
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "6dc69551-332d-4dc1-a9b6-42e28cef59f0",
     "author": "Tomás de Kempis",
     "text": "Agora é tempo de agir, agora é tempo de lutar, agora é tempo adequado para se emendar.",
     "source": "Imitação de Cristo (\"Nunc tempus est faciendi\")",
@@ -2557,9 +3323,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "8d910549-d720-4ef4-a518-e8dbcf6dc581",
     "author": "Tomás de Kempis",
     "text": "Ama passar despercebido e ser considerado um nada.",
     "source": "Imitação de Cristo (\"Ama nesciri et pro nihilo reputari\")",
@@ -2567,19 +3336,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
-    "author": "Tomás de Kempis",
-    "text": "É grande sabedoria não ser precipitado nas ações, nem defender obstinadamente a própria opinião.",
-    "source": "Imitação de Cristo",
-    "dominioPublico": true,
-    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/imitacao-de-cristo",
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
+    "id": "2ffba4ec-a26e-483d-ab1e-0121ee1778fe",
     "author": "Tomás de Kempis",
     "text": "Estar sem Jesus é um inferno grave; e estar com Jesus, um doce paraíso.",
     "source": "Imitação de Cristo (\"Esse sine Iesu, gravis est infernus\")",
@@ -2587,9 +3349,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "ddbf8f0d-16b2-4237-bb49-ec00af120b07",
     "author": "Tomás de Kempis",
     "text": "Muito ganha quem muito ama. Muito ganha quem bem faz o que faz.",
     "source": "Imitação de Cristo",
@@ -2597,9 +3362,12 @@
     "scriptoriumUrl": "https://scriptorium.narniano.com/livros/imitacao-de-cristo",
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "992b0bcc-3289-443e-970d-5b2818efcd95",
     "author": "Tomás de Kempis",
     "text": "Não tenhas em grande conta quem é por ti ou contra ti; mas atenta e cuida somente que Deus seja contigo em tudo o que fizeres.",
     "source": "Imitação de Cristo",
@@ -2607,9 +3375,12 @@
     "scriptoriumUrl": "https://scriptorium.narniano.com/livros/imitacao-de-cristo",
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "cfbd428d-bdd1-40b0-8bb4-94b36159f8a7",
     "author": "Tomás de Kempis",
     "text": "O mais pobre é quem vive sem Jesus, o mais rico quem está bem com Jesus.",
     "source": "Imitação de Cristo (\"Pauperrimus est qui vivit sine Iesu\")",
@@ -2617,9 +3388,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "76bd0eb2-a25c-4d66-8d63-cc7c08ae0020",
     "author": "Tomás de Kempis",
     "text": "Pensa com frequência a que vieste e por que deixaste o mundo.",
     "source": "Imitação de Cristo (\"Cogita frequenter ad quid venisti\")",
@@ -2627,9 +3401,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "8d610891-88ef-4886-88cf-5c2516a5d51e",
     "author": "Tomás de Kempis",
     "text": "Pouco dura a paz dos maus; a verdadeira paz do coração encontra-se nos humildes.",
     "source": "Imitação de Cristo",
@@ -2637,9 +3414,12 @@
     "scriptoriumUrl": "https://scriptorium.narniano.com/livros/imitacao-de-cristo",
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "3e722322-75a8-4fc1-a387-9b2150da2ec6",
     "author": "Tomás de Kempis",
     "text": "Quando Jesus está presente, tudo está bem e nada parece difícil.",
     "source": "Imitação de Cristo (\"Quando Iesus adest, totum bonum est\")",
@@ -2647,29 +3427,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
-    "author": "Tomás de Kempis",
-    "text": "Sem a via, não há caminhada; sem a verdade, não há conhecimento; sem a vida, não há viver.",
-    "source": "Imitação de Cristo",
-    "dominioPublico": true,
-    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/imitacao-de-cristo",
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
-    "author": "Tomás de Kempis",
-    "text": "Senhor, concede-me saber o que devo saber, amar o que devo amar, e louvar o que mais te agrada.",
-    "source": "Imitação de Cristo",
-    "dominioPublico": true,
-    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/imitacao-de-cristo",
-    "theme": null,
-    "fonteUrl": null,
-    "verificadoEm": null
-  },
-  {
+    "id": "00caa191-6885-4fec-9ea4-10d52f8890a7",
     "author": "Tomás de Kempis",
     "text": "Se queres ser suportado, suporta também o outro.",
     "source": "Imitação de Cristo (\"Si portare vis, porta et alium\")",
@@ -2677,9 +3440,38 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "5173b500-a40b-4855-8a26-15d4372597b5",
+    "author": "Tomás de Kempis",
+    "text": "Sem a via, não há caminhada; sem a verdade, não há conhecimento; sem a vida, não há viver.",
+    "source": "Imitação de Cristo",
+    "dominioPublico": true,
+    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/imitacao-de-cristo",
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "43fffefe-aa2c-402c-9d36-1d2409b4ea38",
+    "author": "Tomás de Kempis",
+    "text": "Senhor, concede-me saber o que devo saber, amar o que devo amar, e louvar o que mais te agrada.",
+    "source": "Imitação de Cristo",
+    "dominioPublico": true,
+    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/imitacao-de-cristo",
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "b6db9198-ea4b-4720-a5e3-96b453c2be46",
     "author": "Tomás de Kempis",
     "text": "Tudo é vaidade, exceto amar a Deus e servi-Lo somente.",
     "source": "Imitação de Cristo (\"Omnia ergo vanitas, praeter amare Deum\")",
@@ -2687,9 +3479,12 @@
     "scriptoriumUrl": null,
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   },
   {
+    "id": "0bce17b2-e725-439a-90fa-48f9190b9e4d",
     "author": "Tomás de Kempis",
     "text": "Vanidade das vanidades, tudo é vanidade, exceto amar a Deus e a ele só servir.",
     "source": "Imitação de Cristo",
@@ -2697,6 +3492,21 @@
     "scriptoriumUrl": "https://scriptorium.narniano.com/livros/imitacao-de-cristo",
     "theme": null,
     "fonteUrl": null,
-    "verificadoEm": null
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
+  },
+  {
+    "id": "515cab89-cb94-4faf-9542-588a63146814",
+    "author": "Tomás de Kempis",
+    "text": "É grande sabedoria não ser precipitado nas ações, nem defender obstinadamente a própria opinião.",
+    "source": "Imitação de Cristo",
+    "dominioPublico": true,
+    "scriptoriumUrl": "https://scriptorium.narniano.com/livros/imitacao-de-cristo",
+    "theme": null,
+    "fonteUrl": null,
+    "verificadoEm": null,
+    "status": "ativa",
+    "motivoOcultacao": null
   }
 ]

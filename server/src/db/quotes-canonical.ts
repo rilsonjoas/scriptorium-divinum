@@ -51,10 +51,18 @@ export function validarCanonico(dados: unknown): CanonicalQuote[] {
   return dados as CanonicalQuote[];
 }
 
+const porCodigo = (a: string, b: string) => (a < b ? -1 : a > b ? 1 : 0);
+
+/** Autor e depois texto, por ponto de código: a mesma ordem em qualquer banco (a collation do Postgres muda de um
+ *  ambiente para outro e faria o arquivo mudar à toa). A consulta `export-quotes-canonical.sql` usa `COLLATE "C"`. */
+export function ordenarCanonico<T extends Pick<CanonicalQuote, 'author' | 'text'>>(lista: readonly T[]): T[] {
+  return [...lista].sort((a, b) => porCodigo(a.author, b.author) || porCodigo(a.text, b.text));
+}
+
 /** Todas as citações, inclusive as não ativas (R3: um restore nunca ressuscita o que foi retirado). */
 export async function exportarCanonico(sql: postgres.Sql): Promise<CanonicalQuote[]> {
-  const rows = await drizzle(sql).select().from(quotes).orderBy(quotes.author, quotes.text);
-  return rows.map((r) => ({
+  const rows = await drizzle(sql).select().from(quotes);
+  return ordenarCanonico(rows).map((r) => ({
     id: r.id,
     author: r.author,
     text: r.text,
