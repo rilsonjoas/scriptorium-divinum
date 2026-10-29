@@ -210,7 +210,20 @@ test('axe-core WCAG 2.2 A+AA — admin: citações, diálogo de ocultar aberto',
   await abrirPainelDeCitacoes(page);
   await page.getByRole('button', { name: 'Ocultar citação de C. S. Lewis' }).click();
   await page.getByRole('dialog').waitFor();
+  // Lewis: o aviso do Gerador (passos e link) entra na auditoria junto com o diálogo
+  await page.getByRole('note').getByText('Depois, atualize a cópia do Gerador C. S. Lewis').waitFor();
   await auditar(page, 'admin: citações, ocultar');
+});
+
+test('axe-core WCAG 2.2 A+AA — admin: citações, edição de Lewis com aviso do Gerador', async ({ page }) => {
+  await abrirPainelDeCitacoes(page);
+  await page.getByRole('button', { name: 'Editar citação de C. S. Lewis' }).click();
+  const dialogo = page.getByRole('dialog');
+  await dialogo.waitFor();
+  await dialogo.getByLabel(/^Texto/).press('End');
+  await dialogo.getByLabel(/^Texto/).pressSequentially(' acréscimo');
+  await dialogo.getByRole('note').getByText('Depois, atualize a cópia do Gerador C. S. Lewis').waitFor();
+  await auditar(page, 'admin: citações, editar Lewis');
 });
 
 test('axe-core WCAG 2.2 A+AA — admin: citações, formulário de nova citação aberto', async ({ page }) => {
