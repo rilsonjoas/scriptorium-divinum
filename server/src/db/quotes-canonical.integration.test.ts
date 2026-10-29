@@ -77,6 +77,17 @@ describe('Canônico de citações: export e restore preservam o id', () => {
     expect(ordem).toEqual(['Zeno|a', 'abc|a', 'abc|b', 'Ágata|a']);
   });
 
+  it('a consulta SQL de produção devolve exatamente o que exportarCanonico escreve (mesmos campos, ordem e valores)', async () => {
+    await restaurarCanonico(admin, quatro);
+    const sqlDeProducao = readFileSync(path.join(import.meta.dirname, '../../scripts/data/export-quotes-canonical.sql'), 'utf-8');
+    const [linha] = await admin.unsafe(sqlDeProducao);
+    const dosDoisJeitos = JSON.parse(JSON.stringify(linha!.json_agg));
+    const doExport = JSON.parse(JSON.stringify(await exportarCanonico(admin)));
+    expect(dosDoisJeitos).toEqual(doExport);
+    // a ordem das chaves também vale: o arquivo é comparado byte a byte no git
+    expect(Object.keys(dosDoisJeitos[0])).toEqual(Object.keys(doExport[0]));
+  });
+
   it('o export inclui as não ativas', async () => {
     await restaurarCanonico(admin, quatro);
     const status = (await exportarCanonico(admin)).map((q) => q.status).sort();
