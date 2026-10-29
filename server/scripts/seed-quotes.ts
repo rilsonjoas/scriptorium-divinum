@@ -1,75 +1,36 @@
 #!/usr/bin/env node
 /**
- * Seed da tabela `quotes` a partir do JSON canônico do cluster (ADR 001).
+ * Restaura a tabela `quotes` a partir do JSON canônico do cluster (ADR 001), PRESERVANDO o `id` de cada
+ * citação (F5 do painel de citações): `quote_events`, `daily_quotes`, o Gerador C. S. Lewis e o canário se
+ * ligam à citação por id.
  *
- * ⚠️ DESTRUTIVO: `TRUNCATE ... CASCADE` — só rodar pra restaurar um
- * ambiente do zero (dev local novo, disaster recovery), NUNCA em produção
- * (apaga também `daily_quotes`, a escolha gravada de cada dia: ADR 001, 17/10/2026)
- * com dados reais. O JSON em scripts/data/quotes-canonical.json é gerado
- * por `export-quotes-canonical.ts` (banco → JSON, é a direção certa desde
- * 2026-09-26) — nunca editar esse JSON à mão nem rodar este seed contra
- * produção sem antes rodar o export pra garantir que ele reflete o estado
- * atual (achado real: o JSON ficou 1 mês desatualizado depois da grande
- * diversificação de autores de 25/09/2026 e teria apagado tudo aquilo,
- * inclusive ressuscitando uma citação fabricada já removida).
- *  - Lewis            → dominio_publico=false (CTA Amazon central na API)
- *  - Clássicos        → dominio_publico=true
- *  - theme "ceus"     → preservado do Gerador C.S. Lewis
- *  - scriptorium_url  → link da curadoria do Lecionário
- *  - fonte_url/verificado_em → curadoria de verificação (ver
- *    docs/PROTOCOLO-VERIFICACAO-DE-CITACOES.md), NULL = não verificado
+ * ⚠️ DESTRUTIVO: `TRUNCATE quotes CASCADE` apaga também `daily_quotes` (a escolha gravada de cada dia).
+ * Só para restaurar um AMBIENTE DO ZERO (dev local novo); NUNCA em produção. A recuperação de desastre
+ * de verdade é o backup do banco. O arquivo é validado antes de apagar e o TRUNCATE + INSERT rodam numa
+ * transação: um arquivo ruim deixa a tabela como estava (`src/db/quotes-canonical.ts`).
+ *
+ * O JSON em scripts/data/quotes-canonical.json é o espelho de produção: ver `export-quotes-canonical.sql` e
+ * docs/GERENCIAR-ACERVO.md. Nunca editar à mão, e atualizar antes de restaurar (o JSON já ficou um mês
+ * atrasado e teria ressuscitado uma citação fabricada).
  */
 import { readFileSync } from 'node:fs';
 import path from 'node:path';
 import postgres from 'postgres';
-import { drizzle } from 'drizzle-orm/postgres-js';
 import { env } from '../src/config.js';
-import { quotes } from '../src/db/schema.js';
+import { restaurarCanonico } from '../src/db/quotes-canonical.js';
 
 const CANONICAL = path.join(import.meta.dirname, 'data', 'quotes-canonical.json');
 
-interface CanonicalQuote {
-  author: string;
-  text: string;
-  source: string;
-  dominioPublico: boolean;
-  scriptoriumUrl: string | null;
-  theme: string | null;
-  fonteUrl: string | null;
-  verificadoEm: string | null;
-  // ausentes nos exports antigos: valem 'ativa' e null
-  status?: 'rascunho' | 'ativa' | 'oculta';
-  motivoOcultacao?: string | null;
-}
-
 async function seed() {
   const client = postgres(env.DATABASE_URL, { max: 1 });
-  const db = drizzle(client);
-  const data = JSON.parse(readFileSync(CANONICAL, 'utf-8')) as CanonicalQuote[];
-
-  console.log(`🌱 Seed de quotes: ${data.length} citações do JSON canônico...`);
-
-  await client.unsafe('TRUNCATE quotes RESTART IDENTITY CASCADE');
-
-  await db.insert(quotes).values(
-    data.map((q) => ({
-      author: q.author,
-      text: q.text,
-      source: q.source,
-      dominioPublico: q.dominioPublico,
-      scriptoriumUrl: q.scriptoriumUrl,
-      theme: q.theme,
-      fonteUrl: q.fonteUrl ?? null,
-      verificadoEm: q.verificadoEm ?? null,
-      status: q.status ?? 'ativa',
-      motivoOcultacao: q.motivoOcultacao ?? null,
-    })),
-  );
-
-  const lewis = data.filter((q) => q.author === 'C. S. Lewis').length;
-  const themed = data.filter((q) => q.theme).length;
-  console.log(`✅ quotes inseridas: ${data.length} (Lewis: ${lewis}, tema "ceus": ${themed})`);
-  await client.end({ timeout: 5 });
+  try {
+    const dados = JSON.parse(readFileSync(CANONICAL, 'utf-8')) as unknown;
+    console.log(`🌱 Restore de quotes a partir do JSON canônico...`);
+    const total = await restaurarCanonico(client, dados);
+    console.log(`✅ quotes restauradas: ${total}, com os ids do arquivo`);
+  } finally {
+    await client.end({ timeout: 5 });
+  }
 }
 
 seed().catch((err) => {
