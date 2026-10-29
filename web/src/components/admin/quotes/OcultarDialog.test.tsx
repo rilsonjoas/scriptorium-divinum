@@ -65,12 +65,15 @@ describe('OcultarDialog', () => {
     expect(screen.getByText('Não está fixada em nenhum dia.')).toBeInTheDocument();
   });
 
-  it('autor C. S. Lewis mostra o passo do Gerador; outro autor não', () => {
+  it('autor C. S. Lewis mostra o aviso do Gerador com o id; outro autor não', () => {
     const { unmount } = render(<OcultarDialog quote={{ ...quote, author: 'C.S. Lewis' }} onOpenChange={vi.fn()} onDone={vi.fn()} />);
-    expect(screen.getByText(/npm run quotes:sync/)).toBeInTheDocument();
+    expect(screen.getByText('npm run quotes:sync')).toBeInTheDocument();
+    expect(screen.getByText(new RegExp(`o id ${quote.id} sai do arquivo`))).toBeInTheDocument();
+    expect(screen.getByText(/Gerador C\. S\. Lewis por até 10 minutos/)).toBeInTheDocument();
     unmount();
     abrir();
-    expect(screen.queryByText(/npm run quotes:sync/)).toBeNull();
+    expect(screen.queryByText('npm run quotes:sync')).toBeNull();
+    expect(screen.getByText(/Narniano pode continuar mostrando por até 6 horas/)).toBeInTheDocument();
   });
 
   it('confirmar chama ocultar com o motivo e onDone, uma vez só mesmo com duplo clique', async () => {
