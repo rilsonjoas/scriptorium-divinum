@@ -68,7 +68,7 @@ git diff src/data/lewis-quotes.snapshot.json
 
 O `git diff` deve mostrar só a mudança que você fez: o `id` que saiu, o texto que mudou ou a citação nova. Depois, commit, PR e publicar. O arquivo no GitHub: `https://github.com/rilsonjoas/GeradorCSLewis/blob/main/src/data/lewis-quotes.snapshot.json`. Para só conferir se a cópia está em dia, sem gravar: `npm run quotes:sync -- --check`.
 
-A tela **não** avisa quando você muda só a data de verificação ou o endereço da conferência, nem quando mexe em rascunho ou oculta: a cópia não guarda esses dados. Se você esquecer o passo, o canário do cluster acusa em até 1 hora (erro se a cópia ainda tem citação retirada, aviso se falta uma nova). Na F5 isso vira um PR automático.
+A tela **não** avisa quando você muda só a data de verificação ou o endereço da conferência, nem quando mexe em rascunho ou oculta: a cópia não guarda esses dados. Se você esquecer o passo, o canário do cluster só enxerga **quais citações** existem na cópia: acusa erro em até 1 hora se a cópia ainda tem uma citação retirada, avisa se falta uma nova, e **não percebe** texto, obra ou tema corrigidos (nesse caso a cópia continua servindo a versão antiga em silêncio, e só você lembrando evita isso). Na F5 isso vira um PR automático.
 
 ## 8. Histórico
 

@@ -12,7 +12,6 @@ describe('AvisoGerador', () => {
     expect(within(aviso).getByText('cd gerador-cslewis && git pull')).toBeInTheDocument();
     expect(within(aviso).getByText('npm run quotes:sync')).toBeInTheDocument();
     expect(within(aviso).getByText('git diff src/data/lewis-quotes.snapshot.json')).toBeInTheDocument();
-    expect(within(aviso).getByText(/o canário avisa em até 1 hora/i)).toBeInTheDocument();
   });
 
   it.each([
@@ -24,6 +23,18 @@ describe('AvisoGerador', () => {
   ] as const)('efeito %s com id %s diz o diff esperado', (efeito, id, frase) => {
     render(<AvisoGerador efeito={efeito} id={id} />);
     expect(screen.getByText(frase)).toBeInTheDocument();
+  });
+
+  it('o que o canário vigia depende do efeito: sair é erro, entrar é aviso, mudar ele não percebe', () => {
+    const { unmount } = render(<AvisoGerador efeito="sair" />);
+    expect(screen.getByText(/o canário acusa erro em até 1 hora/i)).toBeInTheDocument();
+    unmount();
+    const entrar = render(<AvisoGerador efeito="entrar" />);
+    expect(screen.getByText(/o canário só avisa, em até 1 hora, que a cópia está defasada/i)).toBeInTheDocument();
+    entrar.unmount();
+    render(<AvisoGerador efeito="mudar" />);
+    expect(screen.getByText(/o canário não percebe esta mudança/i)).toBeInTheDocument();
+    expect(screen.queryByText(/acusa erro|só avisa/i)).toBeNull();
   });
 
   it('o link abre o arquivo da cópia em outra aba e diz isso', () => {

@@ -12,6 +12,14 @@ function fraseDoDiff(efeito: EfeitoNoGerador, id?: string): string {
   return id ? `o texto de ${id} muda` : 'muda uma citação do arquivo';
 }
 
+// O canário compara só os ids da cópia com os da API (hetzner-infra/scripts/canario-api-cluster.py):
+// retirada na cópia é erro, citação nova faltando é aviso, texto/obra/tema diferentes passam em branco.
+function fraseDoCanario(efeito: EfeitoNoGerador): string {
+  if (efeito === 'sair') return 'Se você esquecer, o canário acusa erro em até 1 hora (citação retirada ainda na cópia).';
+  if (efeito === 'entrar') return 'Se você esquecer, o canário só avisa, em até 1 hora, que a cópia está defasada.';
+  return 'O canário não percebe esta mudança: se você esquecer, a cópia continua servindo a versão antiga.';
+}
+
 const codigo = 'rounded bg-library-parchment-surface px-1 py-0.5 font-mono text-xs';
 
 /** Passos para regerar a cópia embutida do Gerador C. S. Lewis depois de uma mudança que a afeta. */
@@ -35,7 +43,7 @@ export function AvisoGerador({ efeito, id }: Props) {
           </li>
           <li>Fazer o commit, abrir o PR e publicar.</li>
         </ol>
-        <p className="text-library-bronze-foreground">Se você esquecer, o canário avisa em até 1 hora.</p>
+        <p className="text-library-bronze-foreground">{fraseDoCanario(efeito)}</p>
       </AlertDescription>
     </Alert>
   );

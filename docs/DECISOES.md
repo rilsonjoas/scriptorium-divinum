@@ -647,3 +647,9 @@ Três achados do Rilson logo ao abrir `/admin/citacoes`.
 **Documentação.** `docs/MANUAL-PAINEL-CITACOES.md` (manual para o autor) e `docs/GERENCIAR-ACERVO.md` reescrito: o painel é o caminho normal para citações, a migration fica para carga em lote e exclusão física. **Enquanto a F5 não existir, em produção ainda vale a migration**; os dois documentos repetem o aviso de não gravar pela tela.
 
 **Não faz:** nenhuma mudança de API, banco ou OpenAPI; não regera a cópia; não substitui o canário.
+
+**Carga em lote continua por migration.** O desenho (seção 11, F4) diz "migration só para exclusão física". A F4 manteve a migration também para **carga em lote** de muitas citações: a tela cria uma por vez, e o ensaio (`ensaiar-migrate.sh`) e a revisão do SQL são a rede de segurança de uma carga grande. Se a tela ganhar importação, essa exceção cai.
+
+**Achado da revisão final:** a primeira versão do aviso dizia que o canário avisa se o autor esquecer o passo. Ele só compara conjuntos de ids, então para texto, obra ou tema corrigidos a cópia fica velha sem aviso nenhum; o texto do aviso agora depende do efeito (sair: erro; entrar: aviso; mudar: o canário não percebe). Fechar esse buraco é da F5 (canário que compare o conteúdo, ou o PR automático).
+
+**Pendências menores da revisão da F4:** a frase do diff diz "o texto de X muda" mesmo quando muda obra, tema ou domínio público; o manual diz que o `git diff` mostra só a mudança feita, mas o `sync` sempre regrava `geradoEm` e `total`; o fingerprint ignora o autor bruto, que entra no link de compra (corrigir `C.S. Lewis` para `C. S. Lewis` muda o link sem aviso); alternar domínio público avisa mesmo quando a obra não é da curadoria e o link fica nulo; "Carregar a versão atual" deixa o "antes" do aviso rápido na versão antiga; o manual lista menos gatilhos do aviso que o código; o título do aviso é `h5` dentro do diálogo e o aviso do formulário não é região viva.

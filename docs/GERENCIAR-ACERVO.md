@@ -13,7 +13,7 @@ Três donos, cada um com o seu pedaço:
 |---|---|---|
 | **Seed** | **Cria** obras e autores novos. Nunca altera o que já existe (`ON CONFLICT (slug) DO NOTHING`). | `server/src/db/seeds/add_*.sql` |
 | **Migration** | **Muda** o que já existe, uma única vez (curadoria, ocultação em massa, taxonomia). | `server/src/db/migrations/*.sql` |
-| **Painel de admin** | **Gerencia o dia a dia**: publicar, ocultar, destaque, descrição, categorias, capa, atribuição, excluir. Para **citações**, o painel é o dono: criar, editar, ocultar e reativar (manual: `docs/MANUAL-PAINEL-CITACOES.md`). | `/admin/livros`, `/admin/autores`, `/admin/categorias`, `/admin/citacoes` |
+| **Painel de admin** | **Gerencia o dia a dia**: publicar, ocultar, destaque, descrição, categorias, capa, atribuição, excluir. Para **citações**, o painel é o dono: criar, editar, ocultar e reativar (manual: `docs/MANUAL-PAINEL-CITACOES.md`); **em produção, só depois da F5** (ver "Status da citação"). | `/admin/livros`, `/admin/autores`, `/admin/categorias`, `/admin/citacoes` |
 
 O que nunca vale: editar uma obra publicada reescrevendo o seed dela. Como o seed
 só cria, a edição seria ignorada.
