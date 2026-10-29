@@ -22,5 +22,17 @@ function naCopia(q: CitacaoDoGerador | null): string | null {
 }
 
 export function mudaCopiaDoGerador(antes: CitacaoDoGerador | null, depois: CitacaoDoGerador | null): boolean {
-  return naCopia(antes) !== naCopia(depois);
+  return efeitoNoGerador(antes, depois) !== null;
+}
+
+export type EfeitoNoGerador = 'sair' | 'mudar' | 'entrar';
+
+/** Como a mudança aparece no diff da cópia: a citação entra, sai ou muda; `null` se a cópia não muda. */
+export function efeitoNoGerador(antes: CitacaoDoGerador | null, depois: CitacaoDoGerador | null): EfeitoNoGerador | null {
+  const a = naCopia(antes);
+  const b = naCopia(depois);
+  if (a === b) return null;
+  if (a === null) return 'entrar';
+  if (b === null) return 'sair';
+  return 'mudar';
 }

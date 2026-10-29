@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { ehLewis, GERADOR_COPIA_URL, mudaCopiaDoGerador, type CitacaoDoGerador } from './gerador';
+import { efeitoNoGerador, ehLewis, GERADOR_COPIA_URL, mudaCopiaDoGerador, type CitacaoDoGerador } from './gerador';
 
 const ativa: CitacaoDoGerador = { author: 'C. S. Lewis', text: 'Texto.', source: 'Obra', theme: null, dominioPublico: false, status: 'ativa' };
 const com = (p: Partial<CitacaoDoGerador>): CitacaoDoGerador => ({ ...ativa, ...p });
@@ -34,5 +34,25 @@ describe('mudaCopiaDoGerador', () => {
 
   it('o link aponta para o arquivo da cópia no GitHub', () => {
     expect(GERADOR_COPIA_URL).toBe('https://github.com/rilsonjoas/GeradorCSLewis/blob/main/src/data/lewis-quotes.snapshot.json');
+  });
+});
+
+describe('efeitoNoGerador', () => {
+  it('entrar: criar ativa, reativar, ou outro autor passa a Lewis', () => {
+    expect(efeitoNoGerador(null, ativa)).toBe('entrar');
+    expect(efeitoNoGerador(com({ status: 'oculta' }), ativa)).toBe('entrar');
+    expect(efeitoNoGerador(com({ author: 'Outro' }), ativa)).toBe('entrar');
+  });
+  it('sair: ocultar, ou Lewis passa a outro autor', () => {
+    expect(efeitoNoGerador(ativa, com({ status: 'oculta' }))).toBe('sair');
+    expect(efeitoNoGerador(ativa, com({ author: 'Outro' }))).toBe('sair');
+  });
+  it('mudar: texto, obra, tema ou domínio público de uma ativa de Lewis', () => {
+    expect(efeitoNoGerador(ativa, com({ text: 'Outro.' }))).toBe('mudar');
+    expect(efeitoNoGerador(ativa, com({ dominioPublico: true }))).toBe('mudar');
+  });
+  it('null quando a cópia não muda', () => {
+    expect(efeitoNoGerador(ativa, { ...ativa })).toBeNull();
+    expect(efeitoNoGerador(null, com({ status: 'rascunho' }))).toBeNull();
   });
 });

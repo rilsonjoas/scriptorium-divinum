@@ -1,7 +1,5 @@
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
-import { GERADOR_COPIA_URL } from '@/lib/gerador';
-
-export type EfeitoNoGerador = 'sair' | 'mudar' | 'entrar';
+import { GERADOR_COPIA_URL, type EfeitoNoGerador } from '@/lib/gerador';
 
 interface Props {
   efeito: EfeitoNoGerador;
