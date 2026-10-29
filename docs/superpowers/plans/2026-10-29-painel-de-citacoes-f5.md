@@ -127,9 +127,9 @@ git commit -m "feat(citacoes): canônico com os ids de produção"
 - [ ] **Step 2: Liberar a permissão (o autor cola, é configuração do repositório).**
 
 ```
-gh api -X PUT repos/rilsonjoas/GeradorCSLewis/actions/permissions/workflow -f default_workflow_permissions=write -F can_approve_pull_request_reviews=true
+gh api -X PUT repos/rilsonjoas/GeradorCSLewis/actions/permissions/workflow -F can_approve_pull_request_reviews=true
 ```
-Expected: sem erro; `gh api repos/rilsonjoas/GeradorCSLewis/actions/permissions/workflow` mostra `can_approve_pull_request_reviews: true`.
+Expected: sem erro; `gh api repos/rilsonjoas/GeradorCSLewis/actions/permissions/workflow` mostra `can_approve_pull_request_reviews: true` e `default_workflow_permissions` continua `read` (o workflow declara as próprias permissões; não elevar o padrão do repositório).
 
 - [ ] **Step 3: Ensaio real, três execuções.** (a) Com a cópia em dia: `gh workflow run sync-quotes.yml --repo rilsonjoas/GeradorCSLewis`; esperado: job verde, **nenhum PR**. (b) Numa branch de teste `ensaio/cópia-defasada` (nunca mergeada) com uma citação removida do arquivo da cópia, `gh workflow run ... --ref ensaio/...`; esperado: PR aberto contra `main` com o diff certo. (c) Rodar de novo: esperado **o mesmo PR atualizado**, sem segundo PR. Fechar o PR do ensaio sem merge e apagar a branch de teste e a `chore/sync-quotes-snapshot`.
 

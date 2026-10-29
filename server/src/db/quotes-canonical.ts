@@ -26,29 +26,55 @@ export interface CanonicalQuote {
 
 const UUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
 const STATUS = ['rascunho', 'ativa', 'oculta'];
+const CAMPOS = ['id', 'author', 'text', 'source', 'dominioPublico', 'scriptoriumUrl', 'theme', 'fonteUrl', 'verificadoEm', 'status', 'motivoOcultacao'];
+/** Limites de `varchar` da tabela `quotes` (schema.ts): estourar só falharia no INSERT, sem dizer qual item. */
+const LIMITE: Record<string, number> = { author: 255, source: 500, scriptoriumUrl: 500, theme: 50 };
 
-/** Valida o arquivo inteiro e lança um erro com TODOS os problemas, um por linha (índice e campo). */
+function dataValida(v: unknown): boolean {
+  if (typeof v !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(v)) return false;
+  const d = new Date(`${v}T00:00:00Z`);
+  return !Number.isNaN(d.getTime()) && d.toISOString().slice(0, 10) === v;
+}
+
+/**
+ * Valida o arquivo inteiro e lança um erro com TODOS os problemas, um por linha (índice e campo). O que passa aqui
+ * é o que o restore grava: nenhum tipo errado pode virar valor padrão em silêncio (`dominioPublico: "true"` seria
+ * gravado como `false`, e a data `10/11/2026` como outra data). Devolve cópias com o `id` em minúsculas.
+ */
 export function validarCanonico(dados: unknown): CanonicalQuote[] {
   if (!Array.isArray(dados)) throw new Error('O canônico precisa ser uma lista de citações.');
+  if (dados.length === 0) throw new Error('Canônico inválido: lista vazia (restaurar apagaria a tabela inteira).');
   const problemas: string[] = [];
   const vistos = new Map<string, number>();
-  dados.forEach((q: Record<string, unknown> | null, i) => {
-    if (typeof q !== 'object' || q === null) {
+  const saida = dados.map((q: Record<string, unknown> | null, i) => {
+    if (typeof q !== 'object' || q === null || Array.isArray(q)) {
       problemas.push(`[${i}] não é um objeto`);
-      return;
+      return q;
     }
-    if (typeof q.id !== 'string' || !UUID.test(q.id)) problemas.push(`[${i}] id ausente ou fora do formato uuid`);
-    else if (vistos.has(q.id)) problemas.push(`[${i}] id repetido (igual ao de [${vistos.get(q.id)}])`);
-    else vistos.set(q.id, i);
-    if (typeof q.author !== 'string' || q.author.trim() === '') problemas.push(`[${i}] author vazio`);
-    if (typeof q.text !== 'string' || q.text.trim() === '') problemas.push(`[${i}] text vazio`);
+    for (const k of Object.keys(q)) if (!CAMPOS.includes(k)) problemas.push(`[${i}] campo desconhecido: ${k}`);
+    const id = typeof q.id === 'string' ? q.id.toLowerCase() : q.id;
+    if (typeof id !== 'string' || !UUID.test(id)) problemas.push(`[${i}] id ausente ou fora do formato uuid`);
+    else if (vistos.has(id)) problemas.push(`[${i}] id repetido (igual ao de [${vistos.get(id)}])`);
+    else vistos.set(id, i);
+    for (const k of ['author', 'text'] as const) {
+      if (typeof q[k] !== 'string' || (q[k] as string).trim() === '') problemas.push(`[${i}] ${k} vazio ou não é texto`);
+    }
+    for (const k of ['source', 'scriptoriumUrl', 'theme', 'fonteUrl', 'motivoOcultacao'] as const) {
+      if (q[k] !== null && typeof q[k] !== 'string') problemas.push(`[${i}] ${k} precisa ser texto ou nulo`);
+    }
+    for (const [k, max] of Object.entries(LIMITE)) {
+      if (typeof q[k] === 'string' && (q[k] as string).length > max) problemas.push(`[${i}] ${k} passa de ${max} caracteres`);
+    }
+    if (typeof q.dominioPublico !== 'boolean') problemas.push(`[${i}] dominioPublico precisa ser verdadeiro ou falso`);
+    if (q.verificadoEm !== null && !dataValida(q.verificadoEm)) problemas.push(`[${i}] verificadoEm precisa ser nulo ou uma data AAAA-MM-DD válida`);
     if (typeof q.status !== 'string' || !STATUS.includes(q.status)) problemas.push(`[${i}] status desconhecido: ${String(q.status)}`);
     else if (q.status === 'ativa' && (typeof q.source !== 'string' || q.source.trim() === '')) {
       problemas.push(`[${i}] source vazio numa citação ativa`);
     }
+    return { ...q, id };
   });
   if (problemas.length > 0) throw new Error(`Canônico inválido:\n${problemas.join('\n')}`);
-  return dados as CanonicalQuote[];
+  return saida as CanonicalQuote[];
 }
 
 const porCodigo = (a: string, b: string) => (a < b ? -1 : a > b ? 1 : 0);

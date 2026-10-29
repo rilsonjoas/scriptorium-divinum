@@ -5,25 +5,27 @@ import { ordenarCanonico, validarCanonico, type CanonicalQuote } from './quotes-
 
 const ler = (p: string) => JSON.parse(readFileSync(path.join(import.meta.dirname, p), 'utf-8')) as unknown;
 
-/** O arquivo versionado é o espelho de produção de 29/10/2026 (F5): o `id` entrou e 12 `scriptoriumUrl` foram atualizados para o valor de produção (o JSON antigo estava atrasado em relação a uma migration). */
+/**
+ * Invariantes do arquivo versionado, que valem para qualquer acervo. Atualizá-lo depois de mexer nas citações pela tela
+ * (docs/GERENCIAR-ACERVO.md) não pode deixar a suíte vermelha: contagens e conteúdo de um dia específico ficam de fora.
+ * (Em 29/10/2026 o arquivo foi gerado de produção: 270 citações, 145 de C. S. Lewis, os mesmos pares autor e texto do
+ * canônico anterior; 12 `scriptoriumUrl` já corrigidos em produção por migration.)
+ */
 describe('quotes-canonical.json versionado', () => {
-  const canonico = validarCanonico(ler('../../scripts/data/quotes-canonical.json'));
+  const bruto = ler('../../scripts/data/quotes-canonical.json');
+  const canonico = validarCanonico(bruto);
 
-  it('é válido: 270 citações, ids únicos em formato uuid', () => {
-    expect(canonico).toHaveLength(270);
-    expect(new Set(canonico.map((q) => q.id)).size).toBe(270);
+  it('é válido e não é um arquivo truncado (piso de 200 citações)', () => {
+    expect(canonico.length).toBeGreaterThanOrEqual(200);
   });
 
-  it('todas ativas, 145 de C. S. Lewis (estado de produção em 29/10/2026)', () => {
-    expect(canonico.every((q) => q.status === 'ativa')).toBe(true);
-    expect(canonico.filter((q) => q.author === 'C. S. Lewis')).toHaveLength(145);
+  it('os ids já estão em minúsculas e únicos (o arquivo é o que o export escreve, não uma versão editada à mão)', () => {
+    expect(canonico.map((q) => q.id)).toEqual((bruto as { id: string }[]).map((q) => q.id));
+    expect(new Set(canonico.map((q) => q.id)).size).toBe(canonico.length);
   });
 
-  it('o conjunto de citações é o mesmo do canônico anterior (pares autor e texto); os campos vêm de produção', () => {
-    const antes = ler('./__fixtures__/pares-canonico-2026-10-29.json') as string[][];
-    const depois = canonico.map((q) => [q.author, q.text]).sort((a, b) => (a.join('\u0000') < b.join('\u0000') ? -1 : 1));
-    const esperado = [...antes].sort((a, b) => (a.join('\u0000') < b.join('\u0000') ? -1 : 1));
-    expect(depois).toEqual(esperado);
+  it('está na ordem canônica (autor e texto por ponto de código): a mesma que o export e a consulta SQL produzem', () => {
+    expect(canonico).toEqual(ordenarCanonico(canonico));
   });
 });
 

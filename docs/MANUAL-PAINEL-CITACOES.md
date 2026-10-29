@@ -62,7 +62,7 @@ O Gerador C. S. Lewis lê as citações ao vivo (até 10 minutos de atraso), mas
 
 **O caminho normal são dois passos:**
 
-1. Disparar o fluxo, no seu terminal (ou esperar o PR do dia, que sai às 06:00 em Brasília):
+1. Disparar o fluxo, no seu terminal. **Depois de ocultar uma citação, dispare agora e não espere**: o canário acusa erro a cada hora até o PR ser mesclado. Nos outros casos também pode esperar o PR do dia, que sai por volta das 06:00 em Brasília (o GitHub às vezes atrasa agendamentos):
    ```
    gh workflow run sync-quotes.yml --repo rilsonjoas/GeradorCSLewis
    ```
@@ -73,7 +73,7 @@ O Gerador C. S. Lewis lê as citações ao vivo (até 10 minutos de atraso), mas
 
 A tela **não** avisa quando você muda só a data de verificação ou o endereço da conferência, nem quando mexe em rascunho ou oculta: a cópia não guarda esses dados.
 
-**Se ninguém mesclar o PR**, o canário do cluster (de hora em hora) acusa **erro** se a cópia ainda tem uma citação retirada, e **avisa** se falta uma citação nova ou se o texto, a obra, o tema ou o link de compra de alguma está diferente da API.
+**Se o PR não for mesclado**, o canário do cluster (de hora em hora) reage assim: **erro** (derruba o status no Kuma) se a cópia ainda tem uma citação retirada; **aviso** se falta uma citação nova ou se o texto, a obra, o tema ou o link de compra de alguma está diferente da API. O aviso **não derruba o status**: fica no log do canário (`/var/backups/hetzner-infra/canario-api.log`) e no resumo enviado ao Kuma, e se ninguém olhar ali, a cópia continua velha. Quem garante é você mesclando o PR.
 
 ## 8. Histórico
 

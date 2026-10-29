@@ -5,7 +5,7 @@ import { AvisoGerador } from './AvisoGerador';
 
 describe('AvisoGerador', () => {
   it('o caminho principal são dois passos: disparar o fluxo e conferir o PR', () => {
-    render(<AvisoGerador efeito="sair" id="abc" />);
+    render(<AvisoGerador efeito="mudar" id="abc" />);
     const aviso = screen.getByRole('note');
     expect(within(aviso).getByText('Depois, atualize a cópia do Gerador C. S. Lewis')).toBeInTheDocument();
     const passos = within(screen.getAllByRole('list')[0]!).getAllByRole('listitem');
@@ -37,15 +37,25 @@ describe('AvisoGerador', () => {
     expect(screen.getByText(frase)).toBeInTheDocument();
   });
 
-  it('o que o canário faz depende do efeito: sair é erro, entrar e mudar são aviso', () => {
-    const { unmount } = render(<AvisoGerador efeito="sair" />);
-    expect(screen.getByText(/o canário acusa erro em até 1 hora/i)).toBeInTheDocument();
-    unmount();
-    const entrar = render(<AvisoGerador efeito="entrar" />);
-    expect(screen.getByText(/o canário só avisa, em até 1 hora, que a cópia está defasada/i)).toBeInTheDocument();
-    entrar.unmount();
-    render(<AvisoGerador efeito="mudar" />);
-    expect(screen.getByText(/o canário avisa, em até 1 hora, que o conteúdo da cópia difere/i)).toBeInTheDocument();
+  it('sair não oferece esperar o PR do dia: o canário acusa erro de hora em hora até o merge', () => {
+    render(<AvisoGerador efeito="sair" />);
+    const passos = within(screen.getAllByRole('list')[0]!).getAllByRole('listitem');
+    expect(passos[0]).toHaveTextContent(/agora/i);
+    expect(passos[0]).not.toHaveTextContent(/espere o PR do dia/i);
+    expect(screen.getByText(/até o PR ser mesclado, o canário acusa erro de hora em hora/i)).toBeInTheDocument();
+  });
+
+  it.each([
+    ['entrar', /cópia defasada/],
+    ['mudar', /conteúdo da cópia diferente da API/],
+  ] as const)('%s oferece esperar o PR do dia e diz o que o canário faz: registra aviso, sem derrubar o status', (efeito, motivo) => {
+    render(<AvisoGerador efeito={efeito} />);
+    const passos = within(screen.getAllByRole('list')[0]!).getAllByRole('listitem');
+    expect(passos[0]).toHaveTextContent(/espere o PR do dia/i);
+    expect(passos[0]).toHaveTextContent(/às vezes atrasa/i);
+    const frase = screen.getByText(/o canário registra um aviso a cada hora/i);
+    expect(frase).toHaveTextContent(motivo);
+    expect(frase).toHaveTextContent(/log e no resumo do Kuma, sem derrubar o status/i);
     expect(screen.queryByText(/acusa erro|não percebe/i)).toBeNull();
   });
 
