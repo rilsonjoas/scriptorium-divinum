@@ -171,7 +171,10 @@ describe('QuotesPanel: toast do Gerador', () => {
     await user.click(within(dialogo).getByRole('button', { name: 'Ocultar citação' }));
     await waitFor(() => expect(toast.success).toHaveBeenCalledWith('Citação ocultada'));
     expect(avisouDoGerador()).toBe(true);
-    expect(toast.warning).toHaveBeenCalledWith(AVISO, expect.objectContaining({ duration: 20000 }));
+    expect(toast.warning).toHaveBeenCalledWith(
+      AVISO,
+      expect.objectContaining({ duration: 20000, description: expect.stringContaining('gh workflow run sync-quotes.yml --repo rilsonjoas/GeradorCSLewis') }),
+    );
   });
 
   it('ocultar que falha com 409 não avisa', async () => {
