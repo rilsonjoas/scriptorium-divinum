@@ -35,7 +35,7 @@ export function QuotesResumo({ contadores }: Props) {
           <h2 className="text-sm font-body font-semibold text-library-wood-foreground">Autores com mais citações ativas</h2>
           <ul className="mt-1 flex flex-wrap gap-x-4 gap-y-1 text-sm font-body text-library-bronze-foreground">
             {porAutorAtivas.slice(0, MAIORES).map((a) => (
-              <li key={a.autor}>{`${a.autor} ${a.total}, ${percentual(a.total)}%`}</li>
+              <li key={a.autor}>{`${a.autor} ${a.total} (${percentual(a.total)}%)`}</li>
             ))}
           </ul>
         </div>

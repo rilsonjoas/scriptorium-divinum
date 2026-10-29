@@ -626,3 +626,12 @@ A F3 entrega `/admin/citacoes` (item "Citações" no menu) sobre a API da F2: re
 
 **Pendências menores da revisão da F3:** 409 ao ocultar mostra a mensagem mas não recarrega nem fecha; `fonteUrl` e `verificadoEm` com espaço nas pontas passam no cliente e o servidor recusa (falta trim no serviço); Salvar fica desabilitado sem dizer por quê quando o erro é de campo não tocado (ativa antiga sem `source`); a grafia do próprio autor é checada sem ignorar a própria citação; Reativar não fica desabilitado enquanto envia (há guarda, falta sinal visual e teste); o foco se perde ao recarregar depois de ocultar ou reativar (2.4.3); erros e contador do formulário sem `aria-live`; falha de refetch em segundo plano é silenciosa.
 
+## 29/10/2026: primeiro uso da tela em produção
+
+Três achados do Rilson logo ao abrir `/admin/citacoes`.
+
+**Permissão no banco (o grave).** Histórico e Ocultar davam "Erro interno do servidor": `quote_events` pertencia ao `postgres` (criada à mão na F1, para o deploy não esperar o migrate) e o usuário da API não tinha permissão. Nada foi gravado: o banco seguiu com 270 ativas e 0 eventos, porque o insert do evento e o update da citação rodam na mesma transação. Correção direta na produção: `ALTER TABLE quote_events OWNER TO scriptorium_app` (a tabela e os dois índices). **Por que nada pegou antes:** os testes de integração rodam com um usuário só (superusuário), e o canário e o `/health` não passam por rota de admin. **Guarda nova:** `tabelasSemAcesso` (`server/src/db/acesso-tabelas.ts`) roda no fim do `migrate` e derruba o deploy se alguma tabela do schema public não for legível e gravável pelo usuário da conexão; o teste assume um papel comum com `SET ROLE`, porque o superusuário ignora permissões.
+
+**Interface.** A concentração por autor passou de `C. S. Lewis 145, 54%` para `C. S. Lewis 145 (54%)`, e Próxima/Anterior levam o início da lista de volta à tela. O percentual estava certo (145 de 270 é 53,7%).
+
+**Fora do código:** o rodapé do login tinha `© 2025` fixo (PR #28). O 404 inicial era service worker antigo no navegador.

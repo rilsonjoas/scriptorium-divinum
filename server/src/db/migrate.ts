@@ -5,6 +5,7 @@ import postgres from 'postgres';
 import { drizzle } from 'drizzle-orm/postgres-js';
 import { migrate } from 'drizzle-orm/postgres-js/migrator';
 import { env } from '../config.js';
+import { tabelasSemAcesso } from './acesso-tabelas.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -51,7 +52,17 @@ async function main() {
     }
   }
 
+  const semAcesso = await tabelasSemAcesso(migrationClient);
+
   await migrationClient.end();
+
+  if (semAcesso.length > 0) {
+    console.error(
+      `❌ O usuário da API não acessa: ${semAcesso.join(', ')}. ` +
+        `Tabela criada à mão como postgres? Rode: ALTER TABLE <tabela> OWNER TO scriptorium_app;`,
+    );
+    process.exit(1);
+  }
 
   // Falhar alto: antes, o script imprimia "concluídos com sucesso" e saía com
   // 0 mesmo com seeds quebrados, e o deploy ficava verde com o catálogo atrás

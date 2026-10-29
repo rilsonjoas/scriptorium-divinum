@@ -21,8 +21,8 @@ describe('QuotesResumo', () => {
     expect(screen.getByText('278')).toBeInTheDocument();
     expect(screen.getByText('270')).toBeInTheDocument();
     expect(screen.getByText('12')).toBeInTheDocument();
-    expect(screen.getByText('C. S. Lewis 145, 54%')).toBeInTheDocument();
-    expect(screen.getByText('Santo Agostinho 30, 11%')).toBeInTheDocument();
+    expect(screen.getByText('C. S. Lewis 145 (54%)')).toBeInTheDocument();
+    expect(screen.getByText('Santo Agostinho 30 (11%)')).toBeInTheDocument();
   });
 
   it('mostra no máximo os 5 maiores autores', () => {
@@ -38,6 +38,6 @@ describe('QuotesResumo', () => {
         contadores={{ porStatus: { rascunho: 1, ativa: 0, oculta: 0 }, porAutor: [{ autor: 'X', total: 1 }], porAutorAtivas: [{ autor: 'X', total: 1 }], semVerificacao: 0 }}
       />,
     );
-    expect(screen.getByText('X 1, 0%')).toBeInTheDocument();
+    expect(screen.getByText('X 1 (0%)')).toBeInTheDocument();
   });
 });

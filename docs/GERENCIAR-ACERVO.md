@@ -400,6 +400,13 @@ oculta devolvendo 404, uma obra nova abrindo no leitor.
 - Edição vinculada apontando para obra oculta levava a 404 (resolvido: o vínculo some).
 - Seed gerado em lote com autores de nome de título, duplicatas e idioma trocado
   (resolvido; use `acervo:verificar`).
+- Tabela criada à mão no banco como `postgres` (foi `quote_events`, na F1): a API, que
+  entra como `scriptorium_app`, recebia `permission denied` e a tela mostrava "Erro interno
+  do servidor" só no Histórico e no Ocultar, achado em 29/10/2026 no primeiro uso. Corrigido
+  com `ALTER TABLE quote_events OWNER TO scriptorium_app;`. Regra: SQL aplicado à mão em
+  produção entra como `scriptorium_app` (ou termina com `OWNER TO scriptorium_app`). O
+  `migrate` agora confere a cada deploy e sai com 1 se alguma tabela do schema public não
+  for acessível ao usuário da API.
 - Link de citação para slug que nunca existiu (resolvido no Scriptorium; o Lecionário
   tem o seu próprio JSON).
 
