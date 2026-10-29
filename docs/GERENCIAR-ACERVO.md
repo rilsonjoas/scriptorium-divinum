@@ -13,7 +13,7 @@ Três donos, cada um com o seu pedaço:
 |---|---|---|
 | **Seed** | **Cria** obras e autores novos. Nunca altera o que já existe (`ON CONFLICT (slug) DO NOTHING`). | `server/src/db/seeds/add_*.sql` |
 | **Migration** | **Muda** o que já existe, uma única vez (curadoria, ocultação em massa, taxonomia). | `server/src/db/migrations/*.sql` |
-| **Painel de admin** | **Gerencia o dia a dia**: publicar, ocultar, destaque, descrição, categorias, capa, atribuição, excluir. | `/admin/livros`, `/admin/autores`, `/admin/categorias` |
+| **Painel de admin** | **Gerencia o dia a dia**: publicar, ocultar, destaque, descrição, categorias, capa, atribuição, excluir. Para **citações**, o painel é o dono: criar, editar, ocultar e reativar (manual: `docs/MANUAL-PAINEL-CITACOES.md`). | `/admin/livros`, `/admin/autores`, `/admin/categorias`, `/admin/citacoes` |
 
 O que nunca vale: editar uma obra publicada reescrevendo o seed dela. Como o seed
 só cria, a edição seria ignorada.
@@ -262,7 +262,9 @@ Toda citação tem um `status`. **Só `ativa` é pública**: a lista (`GET /quot
 condição só (`quotesAtivas()`, `server/src/db/quotes.ts`). `oculta` e `rascunho` não aparecem para ninguém, nem no Gerador de C. S. Lewis.
 
 - **Retirar é ocultar, não apagar** (regra R3 do desenho em `docs/superpowers/specs/2026-10-18-painel-de-citacoes-design.md`). O `id` fica
-  para sempre válido e o histórico não se perde. A tela `/admin/citacoes` (F3) oculta com motivo e mostra o impacto; **em produção, use-a só depois da F5** (aviso abaixo). Por SQL, em migration ou com backup antes:
+  para sempre válido e o histórico não se perde. **O caminho normal é a tela `/admin/citacoes`**: oculta com motivo, mostra o impacto
+  e grava o evento no histórico (manual: `docs/MANUAL-PAINEL-CITACOES.md`, seção 6). **Em produção, a tela só vale depois da F5** (aviso abaixo);
+  até lá, e se a API estiver fora do ar, o SQL abaixo faz o mesmo, em migration ou com backup antes (não grava evento no histórico):
   ```sql
   UPDATE quotes SET status = 'oculta', motivo_ocultacao = 'Motivo em uma frase (e onde está a evidência)', updated_at = now()
   WHERE id = '<id>';
@@ -273,7 +275,9 @@ condição só (`quotesAtivas()`, `server/src/db/quotes.ts`). `oculta` e `rascun
 - **Se a citação oculta era a do dia** de uma data já gravada, o dia escolhe outra entre as ativas e **regrava** na próxima consulta (R4). Reativar
   depois **não** devolve o dia: a escolha nova vale.
 - **O Gerador C. S. Lewis:** a lista ao vivo dele passa a omitir a citação em até 10 min. A **cópia embutida** (`lewis-quotes.snapshot.json`) não
-  muda sozinha: rode `npm run quotes:sync` no Gerador; o canário avisa se a cópia ficar com citação retirada. O Narniano guarda cache de até 6 h.
+  muda sozinha: rode `npm run quotes:sync` no Gerador. A tela mostra os passos (aviso "Depois, atualize a cópia do Gerador C. S. Lewis") sempre que a
+  mudança altera a cópia; os passos completos estão em `docs/MANUAL-PAINEL-CITACOES.md`, seção 7. O canário avisa se a cópia ficar com citação retirada.
+  O Narniano guarda cache de até 6 h.
 - **Excluir de verdade** (citação fabricada, direitos) continua sendo migration `DELETE`, citando o registro de verificação. O histórico em
   `quote_events` não tem chave estrangeira, justamente para sobreviver à exclusão.
 - `export-quotes-canonical.ts` exporta também as não ativas, e `seed-quotes.ts` preserva o `status`: um restore não ressuscita o que foi ocultado.
@@ -293,7 +297,7 @@ Rotas sob login de administrador (mesmo cookie do resto do admin), em `server/sr
 
 Regras que a API recusa com `400` (formato do cluster, `validation_error`): autor com grafia diferente de um autor que já existe (a mensagem traz a grafia existente; autor inédito é aceito), texto repetido (comparação sem caixa, espaço nem pontuação; acento distingue), texto vazio de conteúdo ou acima de 2000 caracteres, `scriptoriumUrl` que não aponta para obra **publicada**. Obra fora da curadoria sem domínio público não bloqueia: vem em `avisos` (a citação fica sem link de compra). Toda escrita grava um `quote_events` **na mesma transação**: se o evento falha, a escrita some.
 
-**A tela** (`/admin/citacoes`, item "Citações" do menu do admin) usa só estas rotas: resumo do acervo (total, ativas, ocultas, rascunhos, sem verificação, concentração dos 5 maiores autores sobre as ativas), lista com filtros (situação, autor, busca, "só sem verificação") e selos em texto ("Sem verificação", "Fixada em N dias"), formulário com validação ao vivo e histórico por citação. **Não há botão de excluir**, e a tela não oferece a passagem de ativa para rascunho (a API aceita; o autor ainda não decidiu se deve). Ao ocultar, a tela mostra os dias já fixados, o aviso de cache (Narniano até 6 h, Gerador até 10 min) e, se o autor for C. S. Lewis, o passo `npm run quotes:sync` do Gerador. Em edição ela envia só o que mudou; se a citação mudou desde que foi aberta (`409`), o que foi digitado é mantido e a versão atual pode ser carregada.
+**A tela** (`/admin/citacoes`, item "Citações" do menu do admin) usa só estas rotas: resumo do acervo (total, ativas, ocultas, rascunhos, sem verificação, concentração dos 5 maiores autores sobre as ativas), lista com filtros (situação, autor, busca, "só sem verificação") e selos em texto ("Sem verificação", "Fixada em N dias"), formulário com validação ao vivo e histórico por citação. **Não há botão de excluir**, e a tela não oferece a passagem de ativa para rascunho (a API aceita; o autor ainda não decidiu se deve). Ao ocultar, a tela mostra os dias já fixados, o aviso de cache (Narniano até 6 h, Gerador até 10 min) e, se o autor for C. S. Lewis, o aviso com os passos do Gerador (`npm run quotes:sync`). O mesmo aviso aparece no formulário e, depois de salvar, ocultar ou reativar, num aviso rápido, **só quando a mudança altera a cópia do Gerador** (criar ativa, mudar texto, obra, tema ou domínio público, ocultar, reativar, trocar o autor para ou de Lewis; não quando só muda a verificação nem em rascunho ou oculta). Em edição ela envia só o que mudou; se a citação mudou desde que foi aberta (`409`), o que foi digitado é mantido e a versão atual pode ser carregada.
 
 > **Não escreva em produção pela tela nem pela API antes da F5.** O seed atual troca os ids das citações; os eventos de `quote_events` (que guardam o `id`) ficariam órfãos. Até a F5, use a tela em ambiente local ou só para ler.
 
@@ -301,7 +305,13 @@ Texto corrigido numa citação ativa **propaga** para os dias já gravados (mesm
 
 ## Acrescentar citações
 
-Não há tela de cadastro de citações: elas entram por **migration SQL**, versionada e ensaiável como o resto do acervo.
+**O caminho normal é a tela** (`/admin/citacoes`, botão **Nova citação**; passo a passo em `docs/MANUAL-PAINEL-CITACOES.md`, seção 4). Ela aplica
+as mesmas regras abaixo (fonte, grafia do autor, texto repetido) e grava o histórico. **Enquanto a F5 não existir, em produção ainda se entra por
+migration SQL** (a tela só depois da F5, pelo motivo do aviso acima), versionada e ensaiável como o resto do acervo.
+
+### Carga em lote (excepcional)
+
+Mesmo depois da F5, a migration continua sendo o caminho para **muitas citações de uma vez** e para **exclusão física**. O passo a passo:
 
 1. **Verifique a fonte primária antes de escrever uma linha de SQL.** A regra é de `docs/PROTOCOLO-VERIFICACAO-DE-CITACOES.md`:
    nenhuma citação entra sem `fonte_url` real, conferida contra a fonte (uma fabricação já ficou um mês em produção por falta desse portão).
