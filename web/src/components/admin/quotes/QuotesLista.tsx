@@ -56,6 +56,7 @@ export function QuotesLista({
   onNova,
 }: Props) {
   const [busca, setBusca] = useState(filtros.q ?? '');
+  const topo = useRef<HTMLElement>(null);
   const ultimo = useRef({ filtros, onFiltros });
   ultimo.current = { filtros, onFiltros };
 
@@ -76,10 +77,15 @@ export function QuotesLista({
   }, [dados, carregando, filtros.page, totalPaginas]);
 
   const mudar = (parcial: Partial<Filtros>) => onFiltros(semVazios({ ...filtros, ...parcial, page: 1 }));
+  // Trocar de página mantém a rolagem no rodapé; leva o início da lista de volta à tela.
+  const irParaPagina = (page: number) => {
+    onFiltros(semVazios({ ...filtros, page }));
+    topo.current?.scrollIntoView?.({ block: 'start' });
+  };
   const temFiltro = Boolean(filtros.status || filtros.author || filtros.q || filtros.semVerificacao);
 
   return (
-    <section aria-label="Citações" className="grid gap-4">
+    <section ref={topo} aria-label="Citações" className="grid gap-4 scroll-mt-4">
       <div className="flex flex-wrap items-end gap-3">
         <div className="grid gap-1.5">
           <Label htmlFor="f-status" className="font-body text-library-wood-foreground">
@@ -228,7 +234,7 @@ export function QuotesLista({
             size="sm"
             aria-label="Página anterior"
             disabled={filtros.page <= 1}
-            onClick={() => onFiltros(semVazios({ ...filtros, page: filtros.page - 1 }))}
+            onClick={() => irParaPagina(filtros.page - 1)}
           >
             Anterior
           </Button>
@@ -239,7 +245,7 @@ export function QuotesLista({
             size="sm"
             aria-label="Próxima página"
             disabled={filtros.page >= totalPaginas}
-            onClick={() => onFiltros(semVazios({ ...filtros, page: filtros.page + 1 }))}
+            onClick={() => irParaPagina(filtros.page + 1)}
           >
             Próxima
           </Button>

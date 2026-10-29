@@ -133,6 +133,17 @@ describe('QuotesLista', () => {
     expect(f.onFiltros).toHaveBeenLastCalledWith({ page: 1 });
   });
 
+  it('trocar de página leva o topo da lista de volta à tela', async () => {
+    const rolar = vi.fn();
+    Element.prototype.scrollIntoView = rolar;
+    montar({ dados: dados([base], { total: 120, pagina: 2 }), filtros: { page: 2 } });
+    const user = userEvent.setup();
+    await user.click(screen.getByRole('button', { name: 'Próxima página' }));
+    expect(rolar).toHaveBeenCalledTimes(1);
+    await user.click(screen.getByRole('button', { name: 'Página anterior' }));
+    expect(rolar).toHaveBeenCalledTimes(2);
+  });
+
   it('vazio sem filtro e vazio com filtro têm estados próprios', async () => {
     const f = montar({ dados: dados([], { total: 0 }) });
     expect(screen.getByText('Nenhuma citação cadastrada')).toBeInTheDocument();
