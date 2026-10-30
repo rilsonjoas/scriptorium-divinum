@@ -3,7 +3,7 @@ import { ZodError } from 'zod';
 import { db } from './client.js';
 import { books, dailyQuotes, quoteEvents, quotes } from './schema.js';
 import { chaveDeAutor } from '../lib/quote-authors.js';
-import { chaveDeTexto, slugDaUrlDoScriptorium } from '../lib/quote-text.js';
+import { chaveDeTexto, slugDoEnderecoDaObra } from '../lib/quote-text.js';
 import { isCuratedSource } from '../lib/quote-sources.js';
 import { whereByAuthor } from './quotes.js';
 import { ConflictError, NotFoundError } from '../plugins/error-handler.js';
@@ -96,12 +96,11 @@ export async function validarTexto(tx: Tx, text: string, ignorarId?: string): Pr
   if (dup) recusar(['text', `Já existe uma citação com este texto (id ${dup.id})`]);
 }
 
-/** `scriptoriumUrl` precisa apontar para obra publicada (a regra de `scripts/verificar-acervo.ts`). */
+/** `scriptoriumUrl` precisa ser o endereço de uma obra PUBLICADA do Scriptorium (host, `https` e caminho `/livros/<slug>`). */
 export async function validarScriptoriumUrl(tx: Tx, url: string): Promise<void> {
-  const slug = slugDaUrlDoScriptorium(url);
-  const [livro] = slug
-    ? await tx.select({ id: books.id }).from(books).where(and(eq(books.slug, slug), eq(books.published, true))).limit(1)
-    : [];
+  const slug = slugDoEnderecoDaObra(url);
+  if (!slug) recusar(['scriptoriumUrl', 'O endereço precisa ser https://scriptorium.narniano.com/livros/<obra>']);
+  const [livro] = await tx.select({ id: books.id }).from(books).where(and(eq(books.slug, slug), eq(books.published, true))).limit(1);
   if (!livro) recusar(['scriptoriumUrl', 'O link não aponta para uma obra publicada no Scriptorium']);
 }
 
