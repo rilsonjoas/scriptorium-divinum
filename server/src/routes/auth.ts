@@ -1,6 +1,6 @@
 import type { FastifyInstance } from 'fastify';
 import { z } from 'zod';
-import { zodToJsonSchema } from 'zod-to-json-schema';
+import { zodToJsonSchema } from '../lib/json-schema.js';
 import { env } from '../config.js';
 import { findAdminByEmail, findAdminById, createSession, deleteSessionByToken } from '../db/auth-queries.js';
 import { verifyPassword } from '../lib/password.js';

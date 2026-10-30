@@ -1,6 +1,6 @@
 import type { FastifyInstance } from 'fastify';
 import { z } from 'zod';
-import { zodToJsonSchema } from 'zod-to-json-schema';
+import { zodToJsonSchema } from '../lib/json-schema.js';
 import { listAuthors, getAuthorBySlug } from '../db/queries.js';
 import { onlyAvailable, textAvailable, withTextAvailable } from '../texts.js';
 import {
@@ -15,7 +15,7 @@ const authorsListResponseJson = zodToJsonSchema(z.array(authorSchema), {
 });
 const authorDetailResponseJson = zodToJsonSchema(
   authorSchema.extend({
-    books: z.array(z.record(z.unknown())),
+    books: z.array(z.record(z.string(), z.unknown())),
   }),
   { $refStrategy: 'none' },
 );

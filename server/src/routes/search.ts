@@ -1,6 +1,6 @@
 import type { FastifyInstance } from 'fastify';
 import { z } from 'zod';
-import { zodToJsonSchema } from 'zod-to-json-schema';
+import { zodToJsonSchema } from '../lib/json-schema.js';
 import { searchBooks } from '../db/queries.js';
 import { onlyAvailable, withTextAvailable } from '../texts.js';
 import { bookSchema, searchBooksQuerySchema } from '../schemas/book.schema.js';

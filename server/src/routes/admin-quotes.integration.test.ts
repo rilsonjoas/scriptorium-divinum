@@ -10,7 +10,8 @@ import { entrarComoAdmin } from '../test/admin-login.js';
 
 const MIGRATIONS_DIR = path.join(import.meta.dirname, '../db/migrations');
 const FUNCTIONS_SQL = path.join(import.meta.dirname, '../db/custom-sql/functions.sql');
-const UUID = '63000000-0000-0000-0000-000000000001';
+// UUID de verdade (versão 4, variante 8): o `uuid()` do Zod 4 recusa o que não segue a RFC, como os ids reais seguem.
+const UUID = '63000000-0000-4000-8000-000000000001';
 const BASE = '/api/v1/admin/quotes';
 const PUBLICAS = ['id', 'author', 'text', 'source', 'dominioPublico', 'scriptoriumUrl', 'theme', 'affiliateUrl'].sort();
 
