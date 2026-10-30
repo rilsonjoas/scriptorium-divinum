@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import type { Book } from '@/types';
+import { limparCallouts } from '@/utils/readerText';
 
 /**
  * "Sobre esta edição": ficha em três blocos, cada um com um papel.
@@ -52,6 +53,8 @@ interface Props {
   /** Ensaio de abertura (bloco "Proveniência" do arquivo), sem o cabeçalho. */
   contexto?: string | null;
   linkObra: string;
+  /** dentro de um modal: sem moldura própria, o modal já é a moldura */
+  emModal?: boolean;
 }
 
 function Linha({ rotulo, children }: { rotulo: string; children: React.ReactNode }) {
@@ -63,7 +66,7 @@ function Linha({ rotulo, children }: { rotulo: string; children: React.ReactNode
   );
 }
 
-export function EdicaoFicha({ book, contexto, linkObra }: Props) {
+export function EdicaoFicha({ book, contexto, linkObra, emModal = false }: Props) {
   const ia = Boolean(book?.translationIsAi);
   const revisadoEm = dataBr(book?.humanReviewApprovedAt);
   const revisaoAprovada = Boolean(book?.humanReviewApprovedAt);
@@ -81,7 +84,11 @@ export function EdicaoFicha({ book, contexto, linkObra }: Props) {
     <section
       id="ficha-da-obra"
       aria-labelledby="ficha-da-obra-titulo"
-      className="mx-auto mt-10 max-w-3xl scroll-mt-24 rounded-lg border border-library-bronze/40 bg-library-parchment-surface/60 p-5 md:p-6"
+      className={
+        emModal
+          ? 'p-6 pt-10'
+          : 'mx-auto mt-10 max-w-3xl scroll-mt-24 rounded-lg border border-library-bronze/40 bg-library-parchment-surface/60 p-5 md:p-6'
+      }
     >
       <h2 id="ficha-da-obra-titulo" className="font-heading text-xl text-library-wood-foreground mb-4">
         Sobre esta edição
@@ -110,12 +117,12 @@ export function EdicaoFicha({ book, contexto, linkObra }: Props) {
                 Contexto histórico (texto introdutório gerado por IA)
               </summary>
               <div className="prose prose-sm prose-leitor mt-3 max-w-none text-library-bronze-foreground">
-                <ReactMarkdown remarkPlugins={[remarkGfm]}>{contexto}</ReactMarkdown>
+                <ReactMarkdown remarkPlugins={[remarkGfm]}>{limparCallouts(contexto)}</ReactMarkdown>
               </div>
             </details>
           ) : (
             <div className="prose prose-sm prose-leitor max-w-none text-library-bronze-foreground">
-              <ReactMarkdown remarkPlugins={[remarkGfm]}>{contexto}</ReactMarkdown>
+              <ReactMarkdown remarkPlugins={[remarkGfm]}>{limparCallouts(contexto)}</ReactMarkdown>
             </div>
           )}
         </div>

@@ -10,7 +10,7 @@ import { toast } from 'sonner';
 import { BookOpen, Plus, Search, Edit, Trash2, Eye, Download, Filter } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { Switch } from '@/components/ui/switch';
-import { Sparkles, CheckCircle2 } from 'lucide-react';
+import { Sparkles, CheckCircle2, Check, Clock } from 'lucide-react';
 import { EditBookDialog } from '@/components/admin/EditBookDialog';
 import { AddBookDialog } from '@/components/admin/AddBookDialog';
 import { DeleteConfirmDialog } from '@/components/admin/DeleteConfirmDialog';
@@ -345,7 +345,7 @@ export default function AdminBooks() {
                                   }`}
                                   title={book.humanReviewApprovedAt ? `Aprovada em ${new Date(book.humanReviewApprovedAt).toLocaleDateString()}` : 'Clique para aprovar revisão humana'}
                                 >
-                                  {book.humanReviewApprovedAt ? '✓ Revisada' : '⏳ Pendente'}
+                                  {book.humanReviewApprovedAt ? <><Check aria-hidden className="inline h-3 w-3 mr-1" />Revisada</> : <><Clock aria-hidden className="inline h-3 w-3 mr-1" />Pendente</>}
                                 </button>
                               </div>
                             )}

@@ -1,22 +1,15 @@
 import { useState, useEffect } from 'react';
-import {
-  Sheet,
-  SheetContent,
-  SheetHeader,
-  SheetTitle,
-} from '@/components/ui/sheet';
 import { Button } from '@/components/ui/button';
 import { Bookmark, Copy, Trash2, Check, Plus, Sparkles } from 'lucide-react';
 import { getBookHighlights, deleteHighlight, type UserHighlight } from '@/utils/readingNotes';
 
-interface NotesDrawerProps {
-  open: boolean;
-  onOpenChange: (open: boolean) => void;
+interface NotesListProps {
   bookSlug: string;
   bookTitle: string;
 }
 
-export function NotesDrawer({ open, onOpenChange, bookSlug, bookTitle }: NotesDrawerProps) {
+/** Lista de trechos grifados da obra; vive na aba "Destaques" do painel do leitor. */
+export function NotesList({ bookSlug, bookTitle }: NotesListProps) {
   const [highlights, setHighlights] = useState<UserHighlight[]>([]);
   const [copiedId, setCopiedId] = useState<string | null>(null);
 
@@ -27,8 +20,9 @@ export function NotesDrawer({ open, onOpenChange, bookSlug, bookTitle }: NotesDr
   };
 
   useEffect(() => {
-    if (open) load();
-  }, [open, bookSlug]);
+    load();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [bookSlug]);
 
   const handleDelete = (id: string) => {
     deleteHighlight(id);
@@ -57,18 +51,17 @@ export function NotesDrawer({ open, onOpenChange, bookSlug, bookTitle }: NotesDr
   };
 
   return (
-    <Sheet open={open} onOpenChange={onOpenChange}>
-      <SheetContent side="right" className="bg-library-parchment-surface border-library-bronze text-foreground w-full sm:w-96 p-6 flex flex-col justify-between">
+    <div className="flex h-full flex-col justify-between">
         <div className="flex-1 overflow-y-auto pr-1">
-          <SheetHeader className="text-left mb-6 border-b border-library-bronze/30 pb-4">
-            <SheetTitle className="font-display text-xl text-library-wood-foreground flex items-center gap-2">
-              <Bookmark className="h-5 w-5 text-library-gold" />
-              Minhas Anotações & Destaques
-            </SheetTitle>
+          <div className="text-left mb-4 border-b border-library-bronze/30 pb-3">
+            <p className="font-display text-base text-library-wood-foreground flex items-center gap-2">
+              <Bookmark className="h-4 w-4 text-library-gold" />
+              Minhas anotações e destaques
+            </p>
             <p className="text-xs text-library-bronze-foreground font-body">
               {bookTitle} ({highlights.length} trechos salvos)
             </p>
-          </SheetHeader>
+          </div>
 
           {highlights.length === 0 ? (
             <div className="text-center py-12 px-4 border border-dashed border-library-bronze/40 rounded-lg">
@@ -122,7 +115,6 @@ export function NotesDrawer({ open, onOpenChange, bookSlug, bookTitle }: NotesDr
         <div className="pt-4 border-t border-library-bronze/30 text-center text-xs text-library-bronze-foreground font-body">
           Salvo localmente em seu navegador.
         </div>
-      </SheetContent>
-    </Sheet>
+    </div>
   );
 }

@@ -65,7 +65,8 @@ function Opcoes<T extends string>({
  */
 export function ReadingSettingsPanel({ settings, onChange }: ReadingSettingsPanelProps) {
   const set = (patch: Partial<ReadingSettings>) => onChange({ ...settings, ...patch });
-  const pct = Math.round(settings.escala * 100);
+  // tamanho em px (a base do leitor é 18 px)
+  const tamanhoPx = Math.round(settings.escala * 18 * 10) / 10;
 
   return (
     <div className="space-y-3">
@@ -93,7 +94,7 @@ export function ReadingSettingsPanel({ settings, onChange }: ReadingSettingsPane
             <Minus className="h-4 w-4" />
           </button>
           <span aria-live="polite" className="text-sm font-body text-library-wood-foreground tabular-nums">
-            {pct}%
+            {tamanhoPx} px
           </span>
           <button
             type="button"

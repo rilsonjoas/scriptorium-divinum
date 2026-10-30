@@ -218,7 +218,7 @@ export function QuoteCardDialog({ open, quote, slug, fallbackTitle, onClose }: Q
             </DialogDescription>
           </DialogHeader>
 
-          <div className="rounded-lg overflow-hidden border-2 border-library-bronze shadow-book mx-auto" style={{ width: 300 }}>
+          <div className="rounded-lg overflow-hidden border-2 border-library-bronze shadow-book mx-auto" style={{ width: 300, height: 300 }}>
             <div style={{ transform: 'scale(0.2778)', transformOrigin: 'top left', width: 1080, height: 1080 }}>
               <QuoteCardArt
                 quote={clean}

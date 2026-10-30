@@ -272,6 +272,9 @@
        (rgb 55,65,81) e os parágrafos herdam esse cinza em vez da cor
        clara do tema escuro. */
     color: inherit !important;
+    /* o tamanho vem do ajuste Aa (fontSize no cartão); o `prose-lg` e o
+       `.reading-text` fixavam 1.125rem e o botão A+/A− não surtia efeito */
+    font-size: inherit !important;
   }
 
   /* O `prose` do Tailwind Typography aplica `color: var(--tw-prose-body)` em
@@ -281,6 +284,18 @@
      especificidade zero, e é emitido DEPOIS desta camada. */
   .prose-leitor :is(p, li, dd, dt, h1, h2, h3, h4, h5, h6, strong, em, a, blockquote, figcaption) {
     color: inherit !important;
+  }
+
+  /* Título nunca fica sozinho no pé da página: vai junto do texto que ele abre */
+  .prose-leitor :is(h1, h2, h3, h4, h5, h6) {
+    break-after: avoid;
+  }
+
+  /* Texto justificado com hifenização em português (o <html> tem lang="pt-BR") */
+  .prose-leitor :is(p, li) {
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
   }
 
   .prose-leitor a {
@@ -446,6 +461,18 @@
     text-shadow: 1px 1px 2px hsl(0 0% 0% / 0.4);
   }
 
+  /* Pergaminho com o site no escuro: o fundo também é escuro, e o vinho some */
+  .dark .reader-parchment .capitular-medieval > p:first-of-type::first-letter {
+    color: hsl(var(--library-dourado-texto));
+    text-shadow: 1px 1px 2px hsl(0 0% 0% / 0.4);
+  }
+
+  /* Trechos que a pessoa grifou (Grifar no menu da seleção) */
+  ::highlight(destaque-usuario) {
+    background-color: hsl(43 90% 55% / 0.38);
+    color: inherit;
+  }
+
   @media (max-width: 480px) {
     .capitular-medieval > p:first-of-type::first-letter {
       font-size: 2.35em;
@@ -591,6 +618,10 @@
   .reader-nota-ref { color: hsl(var(--library-vinho)); }
   .reader-theme-dark .reader-nota-ref,
   .dark .reader-parchment .reader-nota-ref { color: hsl(var(--library-dourado-texto)); }
+
+  /* Páginas: o primeiro bloco do capítulo começa no topo da coluna (sem a
+     margem do título, que deixava a página da esquerda mais baixa que a da direita) */
+  .prose-leitor > div > :first-child { margin-top: 0 !important; }
 
   /* Modo foco do leitor: some o cabeçalho e o rodapé do site */
   body.leitura-foco > #root header,

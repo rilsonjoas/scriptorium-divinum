@@ -153,7 +153,13 @@ export function AcademicCitationDialog({
             {Object.entries(citations).map(([key, text]) => (
               <TabsContent key={key} value={key} className="mt-4">
                 <div className="relative bg-card/80 p-4 rounded-lg border border-library-bronze/40 font-body text-sm text-library-wood-foreground leading-relaxed">
-                  <pre className="whitespace-pre-wrap font-sans text-xs sm:text-sm select-all">{text}</pre>
+                  <pre
+                    className={`whitespace-pre-wrap pr-20 select-all ${
+                      key === 'bibtex' ? 'font-mono text-xs' : 'font-body text-base leading-relaxed'
+                    }`}
+                  >
+                    {text}
+                  </pre>
                   <Button
                     size="sm"
                     className="absolute top-2 right-2 h-7 px-2.5 gap-1 bg-library-wood hover:bg-library-bronze text-library-gold font-body text-xs"
@@ -180,12 +186,12 @@ export function AcademicCitationDialog({
           {content && (
             <div className="pt-4 border-t border-library-bronze/30 space-y-3 bg-library-gold/10 p-4 rounded-lg border border-library-dourado/30">
               <div>
-                <h4 className="font-display-sm font-semibold text-sm text-library-wood-foreground flex items-center gap-1.5">
+                <h4 className="font-display text-lg text-library-wood-foreground flex items-center gap-1.5">
                   <Quote className="h-4 w-4 text-library-gold" />
                   Exportar o texto completo
                 </h4>
                 <p className="font-body text-xs text-library-bronze-foreground">
-                  Baixe em Markdown (`.md`) para Obsidian/Notion, TXT puro ou ePub para leitores de livro.
+                  Baixe em Markdown (.md) para Obsidian/Notion, TXT puro ou ePub para leitores de livro.
                 </p>
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
@@ -195,7 +201,7 @@ export function AcademicCitationDialog({
                   className="bg-library-wood hover:bg-library-bronze text-library-gold font-body text-xs gap-1.5 w-full"
                 >
                   <Download className="h-3.5 w-3.5" />
-                  Markdown `.md`
+                  Markdown (.md)
                 </Button>
                 <Button
                   onClick={handleExportTxt}

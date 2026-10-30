@@ -1,3 +1,4 @@
+import { BookOpen, Briefcase, Download, Globe, GraduationCap, Languages, Library, PenLine, Share2 } from 'lucide-react';
 import { Layout } from '@/components/Layout';
 import { usePageTitle } from '@/hooks/usePageTitle';
 
@@ -83,15 +84,15 @@ export default function DominioPublico({ embutida = false }: { embutida?: boolea
           </h2>
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
             {[
-              { glifo: '📖', titulo: 'Ler Gratuitamente', desc: 'Acesse e leia todas as obras sem restrições ou custos' },
-              { glifo: '⬇️', titulo: 'Baixar e Imprimir', desc: 'Faça download em vários formatos e imprima quantas cópias quiser' },
-              { glifo: '🔗', titulo: 'Compartilhar', desc: 'Distribua livremente para amigos, estudantes e comunidades' },
-              { glifo: '💼', titulo: 'Uso Comercial', desc: 'Use em projetos comerciais, cursos pagos e publicações' },
-              { glifo: '🌐', titulo: 'Traduzir', desc: 'Crie traduções para outros idiomas e dialetos' },
-              { glifo: '✍️', titulo: 'Criar Obras Derivadas', desc: 'Adapte, compile e crie novas versões baseadas nos textos' },
+              { Icone: BookOpen, titulo: 'Ler Gratuitamente', desc: 'Acesse e leia todas as obras sem restrições ou custos' },
+              { Icone: Download, titulo: 'Baixar e Imprimir', desc: 'Faça download em vários formatos e imprima quantas cópias quiser' },
+              { Icone: Share2, titulo: 'Compartilhar', desc: 'Distribua livremente para amigos, estudantes e comunidades' },
+              { Icone: Briefcase, titulo: 'Uso Comercial', desc: 'Use em projetos comerciais, cursos pagos e publicações' },
+              { Icone: Languages, titulo: 'Traduzir', desc: 'Crie traduções para outros idiomas e dialetos' },
+              { Icone: PenLine, titulo: 'Criar Obras Derivadas', desc: 'Adapte, compile e crie novas versões baseadas nos textos' },
             ].map((item) => (
               <div key={item.titulo} className="bg-card/80 border border-library-bronze/60 rounded-lg p-5 text-center">
-                <span className="text-2xl mb-2 block">{item.glifo}</span>
+                <item.Icone aria-hidden className="h-6 w-6 mb-2 mx-auto text-library-gold" />
                 <h3 className="font-heading text-sm font-semibold text-library-wood-foreground mb-1">{item.titulo}</h3>
                 <p className="font-body text-xs text-muted-foreground leading-relaxed">{item.desc}</p>
               </div>
@@ -222,9 +223,9 @@ export default function DominioPublico({ embutida = false }: { embutida?: boolea
             acessível a todos, sem barreiras econômicas ou geográficas.
           </p>
           <div className="flex flex-wrap gap-6 justify-center font-body text-sm text-library-parchment">
-            <span>🌐 Acesso universal e gratuito</span>
-            <span>📚 Preservação digital</span>
-            <span>🎓 Educação para todos</span>
+            <span className="inline-flex items-center gap-2"><Globe aria-hidden className="h-4 w-4" />Acesso universal e gratuito</span>
+            <span className="inline-flex items-center gap-2"><Library aria-hidden className="h-4 w-4" />Preservação digital</span>
+            <span className="inline-flex items-center gap-2"><GraduationCap aria-hidden className="h-4 w-4" />Educação para todos</span>
           </div>
         </div>
       </div>

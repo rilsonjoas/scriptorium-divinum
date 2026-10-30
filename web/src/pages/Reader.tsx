@@ -1,7 +1,8 @@
 import { Layout } from '@/components/Layout';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { ArrowLeft, Clock, Languages, List, Loader2, ScrollText, Sparkles } from 'lucide-react';
+import { Dialog, DialogContent, DialogDescription, DialogTitle } from '@/components/ui/dialog';
+import { ArrowLeft, ChevronLeft, ChevronRight, Clock, Eraser, Languages, List, Loader2, Minimize2, ScrollText, Sparkles } from 'lucide-react';
 import { Link, useParams } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
@@ -10,8 +11,8 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import type { ReactNode, TouchEvent as ReactTouchEvent } from 'react';
 import { useBookText, useBook } from '@/hooks/useDatabase';
 import { useSpeech } from '@/hooks/useSpeech';
-import { splitProvenance } from '@/utils/readerText';
-import { splitIntoChapters } from '@/utils/chapters';
+import { limparCallouts, splitProvenance } from '@/utils/readerText';
+import { agruparCapitulosCurtos, splitIntoChapters } from '@/utils/chapters';
 import {
   assignChapters,
   bookRatio,
@@ -28,12 +29,12 @@ import { GlossaryPopover } from '@/components/reader/GlossaryPopover';
 import { QuoteCardDialog } from '@/components/reader/QuoteCardDialog';
 import { ReaderSelectionMenu } from '@/components/reader/ReaderSelectionMenu';
 import { AcademicCitationDialog } from '@/components/reader/AcademicCitationDialog';
-import { NotesDrawer } from '@/components/reader/NotesDrawer';
-import { saveHighlight } from '@/utils/readingNotes';
+import { ReaderPanel } from '@/components/reader/ReaderPanel';
+import { deleteHighlight, getBookHighlights, saveHighlight } from '@/utils/readingNotes';
+import { acharTrecho } from '@/utils/destaquesDom';
 import { ReadingSettingsPanel } from '@/components/reader/ReadingSettingsPanel';
 import { ReaderBar, type PaletaBarra } from '@/components/reader/ReaderBar';
 import { FootnoteRef } from '@/components/reader/FootnoteRef';
-import { Sheet, SheetContent, SheetHeader, SheetTitle } from '@/components/ui/sheet';
 import { ALTURA_LINHA, LARGURA_CH, normalizarAjustes, type ReadingSettings } from '@/utils/readingSettings';
 import { idDaNota, notasDoCapitulo } from '@/utils/footnotes';
 import { markdownToSpeechText } from '@/utils/speech';
@@ -137,11 +138,20 @@ export default function Reader() {
   const [progress, setProgress] = useState(0);
   const [activeId, setActiveId] = useState<string | null>(null);
   const [drawerOpen, setDrawerOpen] = useState(false);
-  // modo foco: some o cabeçalho/rodapé do site (só pelo botão; Esc sai)
-  const [foco, setFoco] = useState(false);
+  // Leitura imersiva (decisão de 2026-10-30): é o padrão ao abrir uma obra.
+  // Some o cabeçalho/rodapé do site e o cartão; Esc ou o botão sai.
+  const [foco, setFoco] = useState(true);
+  // no modo imersivo, o topo só aparece com movimento do mouse, toque ou foco de teclado
+  const [atividade, setAtividade] = useState(true);
   // barra flutuante: no celular, tocar no meio do texto mostra/esconde
   const [barraVisivel, setBarraVisivel] = useState(true);
-  const fichaRef = useRef<HTMLDivElement>(null);
+  // ficha da edição: modal, para não tirar a pessoa da leitura imersiva
+  const [fichaOpen, setFichaOpen] = useState(false);
+  // sobe a cada grifo salvo ou apagado, para repintar os destaques
+  const [destaquesV, setDestaquesV] = useState(0);
+  // grifos achados na página (para clicar num trecho grifado e poder removê-lo)
+  const destaquesNaTela = useRef<{ id: string; range: Range }[]>([]);
+  const [removerDestaque, setRemoverDestaque] = useState<{ id: string; x: number; y: number } | null>(null);
   const [citationOpen, setCitationOpen] = useState(false);
   const [notesOpen, setNotesOpen] = useState(false);
   const contentRef = useRef<HTMLDivElement>(null);
@@ -201,7 +211,7 @@ export default function Reader() {
   const parsed = useMemo(() => {
     if (!data) return null;
     const { provenance, content } = splitProvenance(data.text);
-    const chapters = splitIntoChapters(content);
+    const chapters = agruparCapitulosCurtos(splitIntoChapters(content));
     return {
       provenance,
       content,
@@ -322,7 +332,13 @@ export default function Reader() {
         (soma, el) => soma + el.getBoundingClientRect().height + parseFloat(getComputedStyle(el).marginBottom || '0'),
         0,
       );
-      setPageHeight(Math.max(288, window.innerHeight - topObstruction() - topoLeitor - 12 - 2 * respiroCartao - 88));
+      // imersivo: sem cartão; reserva 48px no topo (o topo transparente
+      // aparece por cima dele) e 72px embaixo para a barra flutuante
+      setPageHeight(
+        foco
+          ? Math.max(288, window.innerHeight - 48 - 72)
+          : Math.max(288, window.innerHeight - topObstruction() - topoLeitor - 12 - 2 * respiroCartao - 88),
+      );
       setTelaLarga(window.innerWidth >= 1280);
     };
     compute();
@@ -330,12 +346,31 @@ export default function Reader() {
     return () => window.removeEventListener('resize', compute);
   }, [foco, textoCarregado]);
 
+  // Imersivo: mostra o topo ao mexer o mouse, tocar ou usar o teclado; some após 2,5 s parado
+  useEffect(() => {
+    if (!foco) return;
+    let t: ReturnType<typeof setTimeout>;
+    const acordar = () => {
+      setAtividade(true);
+      clearTimeout(t);
+      t = setTimeout(() => setAtividade(false), 2500);
+    };
+    acordar();
+    const eventos = ['mousemove', 'pointerdown', 'keydown', 'focusin'] as const;
+    eventos.forEach(ev => window.addEventListener(ev, acordar, { passive: true }));
+    return () => {
+      clearTimeout(t);
+      eventos.forEach(ev => window.removeEventListener(ev, acordar));
+    };
+  }, [foco]);
+
   // Modo foco: classe no body (o CSS esconde cabeçalho e rodapé) e Esc sai
   useEffect(() => {
     document.body.classList.toggle('leitura-foco', foco);
     if (!foco) return () => document.body.classList.remove('leitura-foco');
     const onKey = (e: KeyboardEvent) => {
-      if (e.key === 'Escape') setFoco(false);
+      // com um modal ou painel aberto, o Esc fecha só ele
+      if (e.key === 'Escape' && !e.defaultPrevented && !document.querySelector('[role="dialog"]')) setFoco(false);
     };
     window.addEventListener('keydown', onKey);
     return () => {
@@ -411,6 +446,47 @@ export default function Reader() {
     return () => cancelAnimationFrame(raf);
   }, [paged, capAtivo]);
 
+  // Repinta os trechos grifados (API CSS Custom Highlight; sem suporte, o grifo só fica salvo)
+  useEffect(() => {
+    const f = () => setDestaquesV(v => v + 1);
+    window.addEventListener('scriptorium:destaques', f);
+    return () => window.removeEventListener('scriptorium:destaques', f);
+  }, []);
+  useEffect(() => {
+    const css = (typeof CSS !== 'undefined' ? CSS : undefined) as unknown as { highlights?: Map<string, unknown> } | undefined;
+    const Destaque = (globalThis as unknown as { Highlight?: new (...r: Range[]) => unknown }).Highlight;
+    const raiz = contentRef.current;
+    if (!css?.highlights || !Destaque || !raiz || !data?.slug) return;
+    const achados = getBookHighlights(data.slug)
+      .map(h => ({ id: h.id, range: acharTrecho(raiz, h.text) }))
+      .filter((h): h is { id: string; range: Range } => h.range !== null);
+    destaquesNaTela.current = achados;
+    css.highlights.set('destaque-usuario', new Destaque(...achados.map(h => h.range)));
+    return () => {
+      destaquesNaTela.current = [];
+      css.highlights?.delete('destaque-usuario');
+    };
+  }, [data?.slug, capituloAtual?.id, destaquesV, paged, telaLarga, readingSettings.paginas, readingSettings.escala, readingSettings.fontFamily]);
+
+  // O pill "Remover destaque" fecha ao clicar fora, rolar, virar a página ou apertar Esc
+  useEffect(() => {
+    if (!removerDestaque) return;
+    const fechar = () => setRemoverDestaque(null);
+    const fora = (e: Event) => {
+      if (!(e.target as HTMLElement).closest('[data-remover-destaque]')) fechar();
+    };
+    const tecla = (e: KeyboardEvent) => e.key === 'Escape' && fechar();
+    document.addEventListener('pointerdown', fora);
+    document.addEventListener('keydown', tecla);
+    window.addEventListener('scroll', fechar, true);
+    return () => {
+      document.removeEventListener('pointerdown', fora);
+      document.removeEventListener('keydown', tecla);
+      window.removeEventListener('scroll', fechar, true);
+    };
+  }, [removerDestaque]);
+  useEffect(() => setRemoverDestaque(null), [pos.chapter, pos.page]);
+
   const handleHighlightSelection = () => {
     if (!selectionMenu || !data) return;
     saveHighlight({
@@ -463,6 +539,7 @@ export default function Reader() {
 
   // Modo Páginas: setas e Page Up/Down viram a página
   const modalOpen = drawerOpen || citationOpen || notesOpen || cardOpen;
+  const indiceDisponivel = (parsed?.toc.length ?? 0) > 1;
   useEffect(() => {
     if (!paged) return;
     const onKey = (e: KeyboardEvent) => {
@@ -475,11 +552,14 @@ export default function Reader() {
       } else if (e.key === 'ArrowLeft' || e.key === 'PageUp') {
         e.preventDefault();
         goPrev();
+      } else if ((e.key === 'i' || e.key === 'I') && indiceDisponivel) {
+        e.preventDefault();
+        setDrawerOpen(true);
       }
     };
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
-  }, [paged, modalOpen, goNext, goPrev]);
+  }, [paged, modalOpen, goNext, goPrev, indiceDisponivel]);
 
   useEffect(() => {
     setGlossaryQuery(null);
@@ -620,10 +700,21 @@ export default function Reader() {
       remarkRehypeOptions={{ footnoteLabel: 'Notas', footnoteBackLabel: 'Voltar ao texto' }}
       components={componentes}
     >
-      {capituloAtual.body}
+      {limparCallouts(capituloAtual.body)}
     </ReactMarkdown>
   ) : null;
   const shownPage = pos.page === LAST_PAGE ? pagesInChapter - 1 : pos.page;
+
+  // tempo que falta: fração do texto já lido (capítulos anteriores + parte do atual) sobre o total
+  const minutosRestantes = (() => {
+    if (!parsed || !paged) return null;
+    const total = parsed.chapters.reduce((n, c) => n + c.body.length, 0);
+    if (total === 0) return null;
+    const antes = parsed.chapters.slice(0, capAtivo).reduce((n, c) => n + c.body.length, 0);
+    const atual = (capituloAtual?.body.length ?? 0) * (Math.max(1, shownPage + 1) / Math.max(1, pagesInChapter));
+    const falta = Math.max(0, 1 - (antes + atual) / total);
+    return Math.max(1, Math.round(parsed.minutes * falta));
+  })();
 
   // Deslizar o dedo vira a página (só com gesto claramente horizontal e sem
   // texto selecionado, para não brigar com grifar/criar card).
@@ -653,17 +744,28 @@ export default function Reader() {
     setBarraVisivel(v => !v);
   };
 
-  const irParaFicha = () => fichaRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  const irParaFicha = () => setFichaOpen(true);
+
+  // Clicar num trecho grifado oferece removê-lo; fora disso, no celular, alterna a barra
+  const onCliqueNoTexto = (e: React.MouseEvent) => {
+    if (window.getSelection()?.isCollapsed && !(e.target as HTMLElement).closest('a, button, input')) {
+      const alvo = destaquesNaTela.current.find(({ range }) =>
+        Array.from(range.getClientRects()).some(
+          r => e.clientX >= r.left && e.clientX <= r.right && e.clientY >= r.top && e.clientY <= r.bottom,
+        ),
+      );
+      if (alvo) {
+        setRemoverDestaque({ id: alvo.id, x: e.clientX, y: e.clientY });
+        return;
+      }
+    }
+    onToqueTexto(e);
+  };
   const traducaoIA = bookDetails?.translationIsAi ?? /intelig[êe]ncia artificial/i.test(parsed.provenance ?? '');
-  const revisaoAprovada = bookDetails?.humanReviewApprovedAt;
 
   const indexNav = (
     <>
-      <p className="flex items-center gap-2 font-display-sm text-sm font-semibold text-library-wood-foreground mb-3">
-        <List className="h-4 w-4 text-library-bronze-foreground" />
-        Índice da Obra
-      </p>
-      <ul className="space-y-1 max-h-[65vh] overflow-y-auto pr-1">
+      <ul className="space-y-1 pr-1">
         {parsed.toc.map((item, i) => (
           <li key={`${i}-${item.id}`}>
             <button
@@ -677,7 +779,7 @@ export default function Reader() {
                   : 'text-library-bronze-foreground hover:bg-library-gold/10 hover:text-library-wood-foreground'
               }`}
             >
-              {item.text}
+              {item.text.replace(/[*_`]/g, '')}
             </button>
           </li>
         ))}
@@ -715,6 +817,14 @@ export default function Reader() {
     },
   }[readingSettings.theme];
 
+  // imersivo: o tema vira o fundo da tela inteira, sem cartão
+  const fundoImersivo = {
+    parchment: 'reader-parchment parchment-bg bg-background text-foreground',
+    light: 'bg-white text-gray-900',
+    dark: 'reader-theme-dark bg-[#1a1614] text-[#e5dcd3]',
+    sepia: 'bg-[#f4ecd8] text-[#4a3b2c]',
+  }[readingSettings.theme];
+
   const themeClasses = {
     parchment: 'reader-parchment bg-card/95 parchment-bg border-library-bronze text-foreground',
     light: 'bg-white border-gray-200 text-gray-900 shadow-md',
@@ -725,7 +835,9 @@ export default function Reader() {
   // largura do cartão: coluna em caracteres (1 página / Rolagem) ou livro
   // aberto (2 páginas); `ch` na fonte do texto, por isso o fontSize no cartão
   const larguraCartao =
-    colunas === 2 ? 'min(100%, 92rem)' : `min(100%, calc(${LARGURA_CH[readingSettings.largura]}ch + 4rem))`;
+    colunas === 2
+      ? `min(100%, calc(${2 * LARGURA_CH[readingSettings.largura]}ch + 3rem + ${foco ? '7rem' : '4rem'}))`
+      : `min(100%, calc(${LARGURA_CH[readingSettings.largura]}ch + ${foco ? '7rem' : '4rem'}))`;
 
   const irCapitulo = (i: number) => {
     setPos({ chapter: Math.min(totalCapitulos - 1, Math.max(0, i)), page: 0 });
@@ -742,8 +854,56 @@ export default function Reader() {
         />
       )}
 
-      <div className="container mx-auto px-3 sm:px-4 pt-3 pb-28">
+      <div
+        className={
+          foco
+            ? `fixed inset-0 z-40 overflow-y-auto overflow-x-hidden ${fundoImersivo}`
+            : 'container mx-auto px-3 sm:px-4 pt-3 pb-28'
+        }
+      >
+        {foco && (
+          <div
+            className={`fixed top-0 inset-x-0 z-50 flex h-11 items-center gap-2 px-3 sm:px-5 text-sm font-body transition-opacity duration-300 ${paleta.fundo} border-0 border-b backdrop-blur-md ${paleta.texto} ${
+              atividade ? 'opacity-100' : 'opacity-0 pointer-events-none'
+            }`}
+          >
+            <Button asChild variant="ghost" size="sm" className={`shrink-0 h-8 px-2 ${paleta.botao}`}>
+              <Link to={backToBook} aria-label="Voltar ao Catálogo">
+                <ArrowLeft className="h-4 w-4 sm:mr-2" />
+                <span className="hidden sm:inline">Voltar</span>
+              </Link>
+            </Button>
+            <h1 className="min-w-0 truncate font-heading text-base">{data.title}</h1>
+            {traducaoIA && (
+              <button type="button" onClick={irParaFicha} className={`hidden md:inline-flex items-center gap-1 text-xs underline underline-offset-2 ${paleta.suave}`}>
+                <Sparkles className="h-3 w-3" />
+                Tradução por IA · detalhes
+              </button>
+            )}
+            {bookDetails?.relatedEditionSlug && (
+              <Link
+                to={`/ler/${bookDetails.relatedEditionSlug}`}
+                title={bookDetails.language === 'Inglês' ? 'Alternar para Edição em Português' : 'Alternar para Edição Original em Inglês'}
+                className={`ml-auto inline-flex h-8 items-center gap-1.5 rounded-full px-3 text-xs ${paleta.botao}`}
+              >
+                <Languages className="h-3.5 w-3.5" />
+                {bookDetails.language === 'Inglês' ? 'Ler em PT' : 'Ler em EN'}
+              </Link>
+            )}
+            <button
+              type="button"
+              onClick={() => setFoco(false)}
+              className={`${bookDetails?.relatedEditionSlug ? '' : 'ml-auto'} inline-flex h-8 items-center gap-1.5 rounded-full px-3 text-xs ${paleta.botao}`}
+              aria-label="Sair da leitura imersiva"
+            >
+              <Minimize2 className="h-3.5 w-3.5" />
+              <span className="hidden sm:inline">Sair</span>
+            </button>
+          </div>
+        )}
+
         {/* Topo compacto: voltar, título e, em tradução por IA, o aviso */}
+        {!foco && (<>
         <div data-leitor-topo className="mb-3 flex items-center gap-2 min-w-0">
           <Button asChild variant="ghost" size="sm" className="shrink-0 font-body text-library-bronze-foreground hover:text-library-wood-foreground">
             {/* nome acessível fixo; contém o texto visível nos dois tamanhos (WCAG 2.5.3) */}
@@ -757,7 +917,7 @@ export default function Reader() {
             <Button asChild variant="outline" size="sm" className="ml-auto h-7 px-2.5 text-xs border-library-gold/40 text-library-wood hover:bg-library-gold/15 font-body">
               <Link to={`/ler/${bookDetails.relatedEditionSlug}`} title={bookDetails.language === 'Inglês' ? 'Alternar para Edição em Português' : 'Alternar para Edição Original em Inglês'}>
                 <Languages className="h-3.5 w-3.5 mr-1.5 text-library-gold" />
-                <span>{bookDetails.language === 'Inglês' ? '🇧🇷 Ler em PT' : '🇬🇧 Ler em EN'}</span>
+                <span>{bookDetails.language === 'Inglês' ? 'Ler em PT' : 'Ler em EN'}</span>
               </Link>
             </Button>
           )}
@@ -768,17 +928,17 @@ export default function Reader() {
         {traducaoIA && (
           <p data-leitor-topo className="mb-3 flex items-center gap-1.5 text-xs font-body text-library-bronze-foreground">
             <Sparkles className="h-3.5 w-3.5 shrink-0" />
-            Tradução gerada por inteligência artificial
-            {revisaoAprovada ? ' (revisão humana aprovada)' : ''}.{' '}
+            Tradução gerada por inteligência artificial.{' '}
             <button type="button" onClick={irParaFicha} className="underline underline-offset-2 hover:text-library-wood-foreground">
               Ver detalhes
             </button>
           </p>
         )}
+        </>)}
 
         <div ref={contentRef} className="mx-auto" style={{ width: larguraCartao, fontSize: estiloTexto.fontSize }}>
-          <Card className={`transition-colors duration-200 ${themeClasses}`}>
-            <CardContent className="p-4 md:p-8" onClick={onToqueTexto}>
+          <Card className={foco ? 'border-0 shadow-none rounded-none bg-transparent text-inherit' : `transition-colors duration-200 ${themeClasses}`}>
+            <CardContent className={foco ? `px-5 md:px-14 pt-12 ${paged ? 'pb-0' : 'pb-32'}` : 'p-4 md:p-8'} onClick={onCliqueNoTexto}>
               {paged ? (
                 <div
                   ref={readerTopRef}
@@ -816,14 +976,60 @@ export default function Reader() {
         {/* Dados da obra: abaixo do leitor, fora do texto (decisão de 2026-09-29).
             Os blocos técnicos vêm do banco; o ensaio de abertura do arquivo fica
             recolhido enquanto for tradução por IA sem aprovação humana (EdicaoFicha). */}
-        {(parsed.provenance || bookDetails) && (
-          <div ref={fichaRef}>
+        <Dialog open={fichaOpen} onOpenChange={setFichaOpen}>
+          <DialogContent className="max-w-2xl max-h-[85vh] overflow-y-auto border-library-bronze bg-library-parchment-surface p-0">
+            <DialogTitle className="sr-only">Sobre esta edição</DialogTitle>
+            <DialogDescription className="sr-only">Origem da obra, tradução, revisão e licença</DialogDescription>
             <EdicaoFicha
               book={bookDetails}
-              contexto={parsed.provenance ? parsed.provenance.replace(/^#\s*Proveniência\s*/i, '') : null}
+              contexto={parsed.provenance ? parsed.provenance.replace(/^#\s*Proveniência[^\n]*\n?/i, '') : null}
               linkObra={backToBook}
+              emModal
             />
+          </DialogContent>
+        </Dialog>
+
+        {removerDestaque && (
+          <div
+            data-remover-destaque
+            className={`fixed z-[65] -translate-x-1/2 rounded-full border shadow-xl backdrop-blur-md p-1 ${paleta.fundo}`}
+            style={{ left: Math.min(Math.max(removerDestaque.x, 90), window.innerWidth - 90), top: removerDestaque.y + 16 }}
+          >
+            <button
+              type="button"
+              autoFocus
+              onClick={() => {
+                deleteHighlight(removerDestaque.id);
+                setRemoverDestaque(null);
+                toast.success('Destaque removido.');
+              }}
+              className={`inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 font-body text-xs ${paleta.botao}`}
+            >
+              <Eraser className="h-3.5 w-3.5" />
+              Remover destaque
+            </button>
           </div>
+        )}
+
+        {foco && paged && (
+          <>
+            {([
+              { lado: 'left-0', rotulo: 'Página anterior', ok: Boolean(prevPosition(pos)), ir: goPrev, Icone: ChevronLeft },
+              { lado: 'right-0', rotulo: 'Próxima página', ok: Boolean(nextPosition(pos, pagesInChapter, totalCapitulos)), ir: goNext, Icone: ChevronRight },
+            ] as const).map(({ lado, rotulo, ok, ir, Icone }) => (
+              <button
+                key={lado}
+                type="button"
+                tabIndex={-1}
+                aria-label={rotulo}
+                disabled={!ok}
+                onClick={ir}
+                className={`fixed ${lado} top-12 bottom-20 z-30 hidden w-12 items-center justify-center opacity-0 transition-opacity hover:opacity-70 disabled:pointer-events-none md:flex ${paleta.texto}`}
+              >
+                <Icone className="h-7 w-7" />
+              </button>
+            ))}
+          </>
         )}
 
         <ReaderBar
@@ -833,7 +1039,7 @@ export default function Reader() {
           statusCurto={paged ? `${Math.max(1, shownPage + 1)}/${pagesInChapter}` : `${capAtivo + 1}/${totalCapitulos}`}
           detalhe={
             paged && totalCapitulos > 1
-              ? `Capítulo ${capAtivo + 1} de ${totalCapitulos}${capituloAtual && capituloAtual.id !== 'inicio' ? ` · ${capituloAtual.title}` : ''}`
+              ? `Capítulo ${capAtivo + 1} de ${totalCapitulos}${capituloAtual && capituloAtual.id !== 'inicio' ? ` · ${capituloAtual.title}` : ''}${minutosRestantes !== null ? ` · ~${minutosRestantes} min restantes` : ''}`
               : undefined
           }
           rotuloVoltar={paged ? 'Página anterior' : 'Capítulo anterior'}
@@ -843,12 +1049,11 @@ export default function Reader() {
           onVoltar={paged ? goPrev : () => irCapitulo(capAtivo - 1)}
           onAvancar={paged ? goNext : () => irCapitulo(capAtivo + 1)}
           ajustes={<ReadingSettingsPanel settings={readingSettings} onChange={handleSettingsChange} />}
-          onIndice={parsed.toc.length > 1 ? () => setDrawerOpen(true) : undefined}
+          onIndice={() => (parsed.toc.length > 1 ? setDrawerOpen(true) : setNotesOpen(true))}
           onInfo={irParaFicha}
           foco={foco}
           onFoco={() => setFoco(f => !f)}
           onCitar={() => setCitationOpen(true)}
-          onAnotacoes={() => setNotesOpen(true)}
           audio={
             ttsSupported
               ? {
@@ -865,16 +1070,24 @@ export default function Reader() {
           }
         />
 
-        {parsed.toc.length > 1 && (
-          <Sheet open={drawerOpen} onOpenChange={setDrawerOpen}>
-            <SheetContent side="left" className="w-80 sm:max-w-sm bg-library-parchment-surface border-library-bronze p-5" onCloseAutoFocus={onDrawerCloseAutoFocus}>
-              <SheetHeader className="text-left pb-2 border-b border-library-bronze/30">
-                <SheetTitle className="font-display text-lg text-library-wood-foreground">{data.title}</SheetTitle>
-              </SheetHeader>
-              <div className="py-4">{indexNav}</div>
-            </SheetContent>
-          </Sheet>
-        )}
+        <ReaderPanel
+          open={drawerOpen || notesOpen}
+          aba={notesOpen ? 'destaques' : 'indice'}
+          onAba={aba => {
+            setDrawerOpen(aba === 'indice');
+            setNotesOpen(aba === 'destaques');
+          }}
+          onOpenChange={aberto => {
+            if (!aberto) {
+              setDrawerOpen(false);
+              setNotesOpen(false);
+            }
+          }}
+          titulo={data.title}
+          bookSlug={data.slug}
+          indice={parsed.toc.length > 1 ? indexNav : undefined}
+          onCloseAutoFocus={onDrawerCloseAutoFocus}
+        />
 
         {glossaryQuery && (
           <GlossaryPopover
@@ -927,12 +1140,6 @@ export default function Reader() {
           content={parsed.content}
         />
 
-        <NotesDrawer
-          open={notesOpen}
-          onOpenChange={setNotesOpen}
-          bookSlug={data.slug}
-          bookTitle={data.title}
-        />
       </div>
     </Layout>
   );
