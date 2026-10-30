@@ -331,11 +331,15 @@ Mesmo com a tela liberada, a migration continua sendo o caminho para **muitas ci
    `dominio_publico = false` gera o botão de compra, mas **só se a obra em `source` for conhecida** (`isCuratedSource`); sem isso a citação
    aparece sem link, de propósito. `scriptorium_url` só se aponta para uma obra **publicada** (o verificador confere).
 4. **Ensaie** com `scripts/ensaiar-migrate.sh <dump da produção>` e rode `pnpm --filter server acervo:verificar`.
-5. **Depois do deploy**, atualize o canônico a partir da produção (só leitura), no seu terminal, na raiz do repositório:
+5. **Depois do deploy**, atualize o canônico a partir da produção, em um comando, na raiz do repositório:
    ```
-   ssh narniano@debian13-4gb-narniano 'docker exec -i postgres-shared psql -U postgres -d scriptorium_divinum_db -At' < server/scripts/data/export-quotes-canonical.sql > /tmp/quotes.json
-   node -e 'const fs=require("fs");fs.writeFileSync("server/scripts/data/quotes-canonical.json",JSON.stringify(JSON.parse(fs.readFileSync("/tmp/quotes.json","utf8")),null,2)+"\n")'
+   scripts/atualizar-canonico.sh          # exporta (só leitura no VPS), valida, mostra o que mudou e grava
+   scripts/atualizar-canonico.sh --check  # só confere: sai com 1 se estiver defasado
    ```
+   O script mostra cada citação nova (`+`), removida (`-`) e alterada (`~`, com os campos), recusa entrada vazia ou inválida
+   sem gravar e só escreve se mudou. Depois: revise o `git diff`, commite e abra o PR. (Por baixo, é a consulta
+   `export-quotes-canonical.sql` + `server/scripts/update-quotes-canonical.ts`.) O canário do cluster avisa quando o arquivo
+   fica defasado por mais de 2 dias (`hetzner-infra`, seção 2.1 de CONTRATOS).
    A consulta ordena por ponto de código, então o arquivo só muda quando o acervo muda. O canônico é um **espelho legível e a semente de um ambiente novo**; a recuperação de desastre de verdade é o backup do banco. Ele envelhece a cada citação criada, editada ou ocultada pela tela: atualize antes de usá-lo para restaurar qualquer coisa.
 
 **O que acontece quando a citação entra** (testado em `quotes-gravada.integration.test.ts`):
