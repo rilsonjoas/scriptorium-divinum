@@ -120,6 +120,13 @@
       "when": 1792332586606,
       "tag": "0016_citacoes_status_e_eventos",
       "breakpoints": true
+    },
+    {
+      "idx": 17,
+      "version": "7",
+      "when": 1793383586607,
+      "tag": "0017_remove_2_rascunhos_de_teste_do_painel",
+      "breakpoints": true
     }
   ]
 }

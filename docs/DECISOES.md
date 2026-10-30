@@ -679,3 +679,4 @@ O autor usou a tela pela primeira vez e achou quatro problemas, todos corrigidos
 - **Data:** seletor nativo, sem valor padrão (preencher "hoje" sozinho convidaria a registrar conferência que não aconteceu), `max` = hoje, botão "Hoje".
 - **Obra no Scriptorium:** lista das obras publicadas (`GET /books`, até 100), com "(atual)" para valor fora da lista; falha de carga vira campo de texto com aviso.
 - **Menor adiado:** "Tema" segue texto livre (candidato a lista dos temas existentes; a API não expõe a lista hoje).
+- **Remoção dos 2 rascunhos de teste (30/10/2026):** migration `0017_remove_2_rascunhos_de_teste_do_painel` (R3: exclusão física só por migration, com justificativa). Só apaga se o `id` bater e o status ainda for `rascunho`; o histórico em `quote_events` fica. Ensaiada em cópia da produção (272 para 270, duas execuções).
