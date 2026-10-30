@@ -57,13 +57,10 @@ const App = () => (
             <Route path="/autores/:authorSlug" element={<AutorDetalhes />} />
             <Route path="/categorias" element={<Categorias />} />
             <Route path="/categorias/:categorySlug" element={<CategoryPage />} />
-            {/* Consolidação 2026-09-26: as quatro páginas informativas viraram
-              uma. Estas URLs redirecionam em vez de sumir, porque podem
-              estar em link compartilhado ou indexado pelo Google. */}
-            <Route path="/ajuda" element={<Navigate to="/sobre#uso" replace />} />
-            <Route path="/dominio-publico" element={<Navigate to="/sobre#dominio-publico" replace />} />
+            <Route path="/ajuda" element={<Ajuda />} />
+            <Route path="/dominio-publico" element={<DominioPublico />} />
             <Route path="/busca" element={<Busca />} />
-            <Route path="/contribuir" element={<Navigate to="/sobre#contribuir" replace />} />
+            <Route path="/contribuir" element={<Contribuir />} />
             <Route path="/sobre" element={<Sobre />} />
             
             {/* Admin Routes */}

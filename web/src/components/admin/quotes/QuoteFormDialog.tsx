@@ -13,7 +13,7 @@ import {
   DialogTitle,
 } from '@/components/ui/dialog';
 import { ApiError, atualDe, issuesDe } from '@/lib/api-client';
-import { efeitoNoGerador } from '@/lib/gerador';
+import { camposDaCopia, efeitoNoGerador, type CitacaoDoGerador } from '@/lib/gerador';
 import { TEXTO_MAX, validarCitacao } from '@/lib/validarCitacao';
 import { hojeISO, normalizarUrl, slugDaObra, urlDaObra } from '@/lib/formularioCitacao';
 import { booksService } from '@/services/database';
@@ -26,7 +26,8 @@ interface Props {
   /** Sem `quote` cria; com `quote` edita. */
   quote?: AdminQuote;
   autoresExistentes: string[];
-  onSaved: (r: { quote: AdminQuote; avisos: string[] }) => void;
+  /** `antes` é a citação como o formulário a tinha ao salvar (depois de "Carregar a versão atual", a versão carregada). */
+  onSaved: (r: { quote: AdminQuote; avisos: string[]; antes: AdminQuote | null }) => void;
 }
 
 const VAZIO: QuoteFormValues = {
@@ -58,6 +59,14 @@ function deQuote(q?: AdminQuote): QuoteFormValues {
 }
 
 const NOVO_AUTOR = '__novo__';
+/** Nome de cada campo na mensagem que explica por que o Salvar está desabilitado. */
+const ROTULO_DO_CAMPO: Record<string, string> = {
+  author: 'Autor',
+  text: 'Texto',
+  source: 'Obra ou fonte',
+  fonteUrl: 'Endereço da conferência',
+  verificadoEm: 'Conferida em',
+};
 // Mesmo visual do `Input` (borda, fundo, foco), para a lista não parecer de outro formulário.
 const CLASSE_SELECT =
   'flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm';
@@ -140,14 +149,16 @@ function Formulario({ onOpenChange, quote, autoresExistentes, onSaved }: Props) 
   const mudancas = base ? diferencas(base, v) : null;
   const semMudancas = mudancas !== null && Object.keys(mudancas).length === 0;
   // O formulário só escolhe a situação de rascunho ou nova; ativa e oculta mantêm a que têm.
-  const efeitoGerador = efeitoNoGerador(base ?? null, {
+  const depoisDoGerador: CitacaoDoGerador = {
     author: v.author,
     text: v.text.trim(),
     source: v.source.trim() === '' ? null : v.source.trim(),
     theme: v.theme.trim() === '' ? null : v.theme.trim(),
     dominioPublico: v.dominioPublico,
     status: base && base.status !== 'rascunho' ? base.status : v.status,
-  });
+  };
+  const efeitoGerador = efeitoNoGerador(base ?? null, depoisDoGerador);
+  const camposGerador = camposDaCopia(base ?? null, depoisDoGerador);
 
   const mudar = <K extends keyof QuoteFormValues>(campo: K, valor: QuoteFormValues[K]) => {
     setV((atual) => ({ ...atual, [campo]: valor }));
@@ -169,7 +180,7 @@ function Formulario({ onOpenChange, quote, autoresExistentes, onSaved }: Props) 
     setErroGeral(null);
     try {
       const resultado = base ? await adminQuotes.update(base.id, mudancas!, base.updatedAt) : await adminQuotes.create(v);
-      onSaved(resultado);
+      onSaved({ ...resultado, antes: base ?? null });
       onOpenChange(false);
     } catch (err) {
       if (err instanceof ApiError && err.statusCode === 409) {
@@ -201,6 +212,14 @@ function Formulario({ onOpenChange, quote, autoresExistentes, onSaved }: Props) 
   };
 
   const desabilitado = pendente || Object.keys(erros).length > 0 || semMudancas;
+  // Por que o Salvar está desabilitado, em texto (inclusive campo que a pessoa ainda nem tocou).
+  const camposComErro = Object.keys(erros).map((c) => ROTULO_DO_CAMPO[c] ?? c);
+  const motivoDesabilitado =
+    camposComErro.length > 0
+      ? `Para salvar, corrija: ${camposComErro.join(', ')}.`
+      : semMudancas
+        ? 'Nenhuma alteração para salvar.'
+        : null;
 
   return (
     <form
@@ -264,6 +283,7 @@ function Formulario({ onOpenChange, quote, autoresExistentes, onSaved }: Props) 
         rotulo="Texto *"
         erro={mensagemDe('text')}
         dica={`${v.text.length} / ${TEXTO_MAX}`}
+        dicaViva={v.text.length >= TEXTO_MAX - 100}
       >
         {(ligar) => <Textarea {...ligar} rows={5} value={v.text} onChange={(e) => mudar('text', e.target.value)} />}
       </Campo>
@@ -378,13 +398,22 @@ function Formulario({ onOpenChange, quote, autoresExistentes, onSaved }: Props) 
         </Campo>
       )}
 
-      {efeitoGerador && <AvisoGerador efeito={efeitoGerador} id={base?.id} />}
+      {/* região viva sempre no DOM: o leitor de tela só anuncia o aviso que entra numa região que já existia */}
+      <div aria-live="polite" data-regiao-aviso-gerador>
+        {efeitoGerador && <AvisoGerador efeito={efeitoGerador} id={base?.id} campos={camposGerador} />}
+      </div>
+
+      {motivoDesabilitado && !pendente && (
+        <p id={`${uid}-motivo`} role="status" className="text-sm font-body text-library-bronze-foreground">
+          {motivoDesabilitado}
+        </p>
+      )}
 
       <DialogFooter>
         <Button type="button" variant="outline" onClick={() => onOpenChange(false)}>
           Cancelar
         </Button>
-        <Button type="submit" disabled={desabilitado}>
+        <Button type="submit" disabled={desabilitado} aria-describedby={motivoDesabilitado ? `${uid}-motivo` : undefined}>
           Salvar
         </Button>
       </DialogFooter>
@@ -397,11 +426,13 @@ interface CampoProps {
   rotulo: string;
   erro?: string;
   dica?: string;
+  /** O contador só é anunciado perto do limite; senão o leitor de tela leria a cada tecla. */
+  dicaViva?: boolean;
   children: (ligar: { id: string; 'aria-describedby'?: string; 'aria-invalid'?: true }) => ReactNode;
 }
 
 /** Rótulo, controle e mensagem de erro ligados por `aria-describedby`. */
-function Campo({ id, rotulo, erro, dica, children }: CampoProps) {
+function Campo({ id, rotulo, erro, dica, dicaViva = false, children }: CampoProps) {
   const ids = [dica ? `${id}-dica` : null, erro ? `${id}-erro` : null].filter(Boolean).join(' ');
   return (
     <div className="grid gap-1.5">
@@ -410,15 +441,14 @@ function Campo({ id, rotulo, erro, dica, children }: CampoProps) {
       </Label>
       {children({ id, 'aria-describedby': ids || undefined, 'aria-invalid': erro ? true : undefined })}
       {dica && (
-        <p id={`${id}-dica`} className="text-xs font-body text-library-bronze-foreground">
+        <p id={`${id}-dica`} aria-live={dicaViva ? 'polite' : 'off'} className="text-xs font-body text-library-bronze-foreground">
           {dica}
         </p>
       )}
-      {erro && (
-        <p id={`${id}-erro`} className="text-sm font-body text-destructive">
-          {erro}
-        </p>
-      )}
+      {/* sempre no DOM (vazio some com `empty:hidden`): leitor de tela só anuncia mudança numa região que já existia */}
+      <p id={`${id}-erro`} aria-live="polite" className="text-sm font-body text-destructive empty:hidden">
+        {erro}
+      </p>
     </div>
   );
 }

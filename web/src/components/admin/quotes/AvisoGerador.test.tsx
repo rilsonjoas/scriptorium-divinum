@@ -66,4 +66,36 @@ describe('AvisoGerador', () => {
     expect(link).toHaveAttribute('target', '_blank');
     expect(link).toHaveAttribute('rel', expect.stringContaining('noreferrer'));
   });
+
+  it('o título não é um cabeçalho solto (h5 dentro do diálogo quebraria a hierarquia)', () => {
+    render(<AvisoGerador efeito="mudar" id="abc" />);
+    expect(screen.queryByRole('heading')).not.toBeInTheDocument();
+  });
+
+  it('só o texto mudou: "o texto de abc muda" (frase de sempre)', () => {
+    render(<AvisoGerador efeito="mudar" id="abc" campos={['texto']} />);
+    expect(screen.getByRole('note')).toHaveTextContent('o texto de abc muda');
+  });
+
+  it('outros campos: nomeia cada um em vez de dizer que o texto muda', () => {
+    render(<AvisoGerador efeito="mudar" id="abc" campos={['obra', 'tema']} />);
+    const nota = screen.getByRole('note');
+    expect(nota).toHaveTextContent('mudam obra e tema de abc');
+    expect(nota).not.toHaveTextContent('o texto de abc muda');
+  });
+
+  it('três campos: vírgulas e "e" no fim', () => {
+    render(<AvisoGerador efeito="mudar" id="abc" campos={['texto', 'obra', 'domínio público']} />);
+    expect(screen.getByRole('note')).toHaveTextContent('mudam texto, obra e domínio público de abc');
+  });
+
+  it('autor corrigido: avisa que muda o link de compra', () => {
+    render(<AvisoGerador efeito="mudar" id="abc" campos={['autor']} />);
+    expect(screen.getByRole('note')).toHaveTextContent('muda autor de abc (entra no link de compra)');
+  });
+
+  it('sem campos informados, mantém a frase de antes', () => {
+    render(<AvisoGerador efeito="mudar" id="abc" />);
+    expect(screen.getByRole('note')).toHaveTextContent('o texto de abc muda');
+  });
 });

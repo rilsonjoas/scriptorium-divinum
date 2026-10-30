@@ -15,10 +15,23 @@ export function ehLewis(autor: string): boolean {
   return chaveDeAutor(autor) === 'cslewis';
 }
 
-/** O que a cópia teria desta citação; `null` se ela não entra na cópia. O link de compra depende de dominioPublico, obra e autor. */
+/** O que a cópia teria desta citação; `null` se ela não entra na cópia. O link de compra depende de dominioPublico, obra e
+ *  autor (a grafia bruta: corrigir `C.S. Lewis` para `C. S. Lewis` muda o link, mesmo sendo o mesmo autor). */
 function naCopia(q: CitacaoDoGerador | null): string | null {
   if (!q || q.status !== 'ativa' || !ehLewis(q.author)) return null;
-  return JSON.stringify([q.text, q.source, q.theme, q.dominioPublico]);
+  return JSON.stringify([q.text, q.source, q.theme, q.dominioPublico, q.author.trim()]);
+}
+
+/** Campos da citação que mudam na cópia quando ela continua nela (mudança, não entrada nem saída). Vazio se não muda. */
+export function camposDaCopia(antes: CitacaoDoGerador | null, depois: CitacaoDoGerador | null): string[] {
+  if (efeitoNoGerador(antes, depois) !== 'mudar' || !antes || !depois) return [];
+  const campos: string[] = [];
+  if (antes.text !== depois.text) campos.push('texto');
+  if ((antes.source ?? null) !== (depois.source ?? null)) campos.push('obra');
+  if ((antes.theme ?? null) !== (depois.theme ?? null)) campos.push('tema');
+  if (antes.dominioPublico !== depois.dominioPublico) campos.push('domínio público');
+  if (antes.author.trim() !== depois.author.trim()) campos.push('autor');
+  return campos;
 }
 
 export function mudaCopiaDoGerador(antes: CitacaoDoGerador | null, depois: CitacaoDoGerador | null): boolean {

@@ -1,15 +1,24 @@
-import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
+import { Alert, AlertDescription } from '@/components/ui/alert';
 import { GERADOR_COPIA_URL, type EfeitoNoGerador } from '@/lib/gerador';
 
 interface Props {
   efeito: EfeitoNoGerador;
   id?: string;
+  /** Campos que mudam na cópia (`camposDaCopia`); sem isto, a frase de sempre ("o texto muda"). */
+  campos?: string[];
 }
 
-function fraseDoDiff(efeito: EfeitoNoGerador, id?: string): string {
+function listaEm(campos: string[]): string {
+  return campos.length <= 1 ? (campos[0] ?? '') : `${campos.slice(0, -1).join(', ')} e ${campos[campos.length - 1]}`;
+}
+
+function fraseDoDiff(efeito: EfeitoNoGerador, id?: string, campos: string[] = []): string {
   if (efeito === 'entrar') return 'entra uma citação nova';
   if (efeito === 'sair') return id ? `o id ${id} sai do arquivo` : 'sai uma citação do arquivo';
-  return id ? `o texto de ${id} muda` : 'muda uma citação do arquivo';
+  if (!id) return 'muda uma citação do arquivo';
+  if (campos.length === 0 || (campos.length === 1 && campos[0] === 'texto')) return `o texto de ${id} muda`;
+  if (campos.length === 1 && campos[0] === 'autor') return `muda autor de ${id} (entra no link de compra)`;
+  return `mudam ${listaEm(campos)} de ${id}`;
 }
 
 // O canário (hetzner-infra/scripts/canario-api-cluster.py, de hora em hora): citação retirada ainda na cópia é ERRO
@@ -24,10 +33,10 @@ function fraseDoCanario(efeito: EfeitoNoGerador): string {
 const codigo = 'rounded bg-library-parchment-surface px-1 py-0.5 font-mono text-xs';
 
 /** Passos para a cópia embutida do Gerador C. S. Lewis voltar a ficar em dia depois de uma mudança que a afeta. */
-export function AvisoGerador({ efeito, id }: Props) {
+export function AvisoGerador({ efeito, id, campos }: Props) {
   return (
     <Alert role="note" className="border-library-bronze/40 bg-library-parchment-surface font-body text-library-wood-foreground">
-      <AlertTitle className="font-display text-base">Depois, atualize a cópia do Gerador C. S. Lewis</AlertTitle>
+      <p className="font-display text-base font-medium leading-none tracking-tight">Depois, atualize a cópia do Gerador C. S. Lewis</p>
       <AlertDescription className="grid gap-2 text-sm">
         <ol className="list-decimal space-y-1 pl-5">
           <li>
@@ -36,7 +45,7 @@ export function AvisoGerador({ efeito, id }: Props) {
             {efeito === 'sair' ? '.' : ' (ou espere o PR do dia, que sai por volta das 06:00 em Brasília; o GitHub às vezes atrasa).'}
           </li>
           <li>
-            Abra o PR, confira o diff e mescle (o merge publica o Gerador). O esperado: {fraseDoDiff(efeito, id)}.{' '}
+            Abra o PR, confira o diff e mescle (o merge publica o Gerador). O esperado: {fraseDoDiff(efeito, id, campos)}.{' '}
             <a href={GERADOR_COPIA_URL} target="_blank" rel="noreferrer" className="underline">
               Ver o arquivo da cópia no GitHub (abre em outra aba)
             </a>

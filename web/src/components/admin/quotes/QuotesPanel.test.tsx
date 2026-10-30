@@ -239,3 +239,68 @@ describe('QuotesPanel: toast do Gerador', () => {
     await waitFor(() => expect(avisouDoGerador()).toBe(true));
   });
 });
+
+describe('QuotesPanel: conflito, foco e falhas (menores da revisão da F3)', () => {
+  it('ocultar com 409 avisa, recarrega a lista e fecha o diálogo', async () => {
+    vi.mocked(adminQuotes.ocultar).mockRejectedValue(new ApiError(409, 'conflict', 'Já está oculta'));
+    const { user } = montar();
+    await user.click(await screen.findByRole('button', { name: 'Ocultar citação de C. S. Lewis' }));
+    const dialogo = await screen.findByRole('dialog');
+    await user.type(within(dialogo).getByLabelText(/^Motivo/), 'Fonte não confirmada');
+    await user.click(within(dialogo).getByRole('button', { name: 'Ocultar citação' }));
+    await waitFor(() => expect(toast.error).toHaveBeenCalledWith('Já está oculta'));
+    await waitFor(() => expect(adminQuotes.list).toHaveBeenCalledTimes(2));
+    await waitFor(() => expect(screen.queryByRole('dialog')).not.toBeInTheDocument());
+  });
+
+  it('ocultar com outro erro mantém o diálogo aberto com a mensagem', async () => {
+    vi.mocked(adminQuotes.ocultar).mockRejectedValue(new ApiError(500, 'internal', 'Erro interno do servidor'));
+    const { user } = montar();
+    await user.click(await screen.findByRole('button', { name: 'Ocultar citação de C. S. Lewis' }));
+    const dialogo = await screen.findByRole('dialog');
+    await user.type(within(dialogo).getByLabelText(/^Motivo/), 'Fonte não confirmada');
+    await user.click(within(dialogo).getByRole('button', { name: 'Ocultar citação' }));
+    expect(await within(dialogo).findByText('Erro interno do servidor')).toBeInTheDocument();
+    expect(screen.getByRole('dialog')).toBeInTheDocument();
+  });
+
+  it('Reativar fica desabilitado enquanto envia (sinal visual além da guarda)', async () => {
+    let resolver!: (v: { quote: typeof oculta }) => void;
+    vi.mocked(adminQuotes.reativar).mockReturnValue(new Promise((r) => (resolver = r)) as never);
+    const { user } = montar();
+    const botao = await screen.findByRole('button', { name: 'Reativar citação de Outro' });
+    await user.click(botao);
+    await waitFor(() => expect(botao).toBeDisabled());
+    expect(botao).toHaveTextContent('Reativando');
+    resolver({ quote: { ...oculta, status: 'ativa' } });
+    await waitFor(() => expect(toast.success).toHaveBeenCalledWith('Citação reativada'));
+  });
+
+  it('depois de ocultar com sucesso o foco vai para o título da página (não se perde na linha que mudou)', async () => {
+    vi.mocked(adminQuotes.ocultar).mockResolvedValue({ quote: { ...ativa, status: 'oculta' } });
+    const { user } = montar();
+    await user.click(await screen.findByRole('button', { name: 'Ocultar citação de C. S. Lewis' }));
+    const dialogo = await screen.findByRole('dialog');
+    await user.type(within(dialogo).getByLabelText(/^Motivo/), 'Fonte não confirmada');
+    await user.click(within(dialogo).getByRole('button', { name: 'Ocultar citação' }));
+    await waitFor(() => expect(toast.success).toHaveBeenCalledWith('Citação ocultada'));
+    await waitFor(() => expect(document.activeElement).toBe(screen.getByRole('heading', { name: 'Citações', level: 1 })));
+  });
+
+  it('depois de reativar com sucesso o foco vai para o título da página', async () => {
+    vi.mocked(adminQuotes.reativar).mockResolvedValue({ quote: { ...oculta, status: 'ativa' } });
+    const { user } = montar();
+    await user.click(await screen.findByRole('button', { name: 'Reativar citação de Outro' }));
+    await waitFor(() => expect(toast.success).toHaveBeenCalledWith('Citação reativada'));
+    await waitFor(() => expect(document.activeElement).toBe(screen.getByRole('heading', { name: 'Citações', level: 1 })));
+  });
+
+  it('falha ao atualizar a lista em segundo plano avisa que a tela pode estar desatualizada', async () => {
+    const { user, client } = montar();
+    await screen.findByText('Texto da ativa.');
+    vi.mocked(adminQuotes.list).mockRejectedValue(new ApiError(500, 'internal', 'Erro interno do servidor'));
+    await client.invalidateQueries();
+    await waitFor(() => expect(toast.error).toHaveBeenCalledWith(expect.stringContaining('desatualizad')));
+    expect(user).toBeDefined();
+  });
+});

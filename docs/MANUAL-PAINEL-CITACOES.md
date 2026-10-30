@@ -58,7 +58,7 @@ Texto corrigido de uma citação ativa vale também para os dias em que ela já 
 
 ## 7. Citações de C. S. Lewis: atualizar o Gerador
 
-O Gerador C. S. Lewis lê as citações ao vivo (até 10 minutos de atraso), mas guarda também uma **cópia embutida** para quando o Scriptorium estiver fora do ar. Essa cópia só muda quando alguém a regera. Por isso, depois de **criar uma citação ativa, editar texto, obra ou tema, ocultar ou reativar** uma citação de Lewis, a tela mostra o aviso "Depois, atualize a cópia do Gerador C. S. Lewis" (e um aviso rápido de 20 segundos depois de salvar).
+O Gerador C. S. Lewis lê as citações ao vivo (até 10 minutos de atraso), mas guarda também uma **cópia embutida** para quando o Scriptorium estiver fora do ar. Essa cópia só muda quando alguém a regera. Por isso, depois de **criar uma citação ativa, editar texto, obra, tema, domínio público ou a grafia do autor (que entra no link de compra), ocultar ou reativar** uma citação de Lewis, a tela mostra o aviso "Depois, atualize a cópia do Gerador C. S. Lewis" (e um aviso rápido de 20 segundos depois de salvar).
 
 **O caminho normal são dois passos:**
 
@@ -67,7 +67,7 @@ O Gerador C. S. Lewis lê as citações ao vivo (até 10 minutos de atraso), mas
    gh workflow run sync-quotes.yml --repo rilsonjoas/GeradorCSLewis
    ```
    O fluxo roda `npm run quotes:sync -- --check`; se a cópia estiver diferente da API, regera o arquivo e abre (ou atualiza) um PR na branch `chore/sync-quotes-snapshot`, com o resumo do que entra, sai e muda. Sem diferença nas citações, não abre nada.
-2. Abrir o PR, conferir o diff de `src/data/lewis-quotes.snapshot.json` e mesclar. O esperado é só a sua mudança: o `id` que saiu, o texto que mudou ou a citação nova. O merge dispara o deploy do Gerador. O arquivo no GitHub: `https://github.com/rilsonjoas/GeradorCSLewis/blob/main/src/data/lewis-quotes.snapshot.json`.
+2. Abrir o PR, conferir o diff de `src/data/lewis-quotes.snapshot.json` e mesclar. O esperado é só a sua mudança: o `id` que saiu, o campo que mudou (o aviso diz qual: texto, obra, tema, domínio público ou autor) ou a citação nova. O merge dispara o deploy do Gerador. O arquivo no GitHub: `https://github.com/rilsonjoas/GeradorCSLewis/blob/main/src/data/lewis-quotes.snapshot.json`.
 
 **À mão** (se o GitHub Actions estiver fora): `cd gerador-cslewis && git pull`, `npm run quotes:sync`, `git diff src/data/lewis-quotes.snapshot.json`, commit, PR e publicar. Para só conferir se a cópia está em dia, sem gravar: `npm run quotes:sync -- --check`. No `git diff` aparecem também `geradoEm` (muda a cada execução) e `total` (se uma citação entrou ou saiu); só as citações importam.
 

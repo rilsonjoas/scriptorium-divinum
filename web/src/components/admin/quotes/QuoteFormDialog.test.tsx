@@ -70,7 +70,7 @@ describe('QuoteFormDialog', () => {
     const { user, onSaved, onOpenChange } = abrir();
     await preencherNova(user);
     await user.click(salvar());
-    await waitFor(() => expect(onSaved).toHaveBeenCalledWith(resposta));
+    await waitFor(() => expect(onSaved).toHaveBeenCalledWith({ ...resposta, antes: null }));
     expect(vi.mocked(adminQuotes.create).mock.calls[0]![0]).toMatchObject({
       author: 'Santo Agostinho',
       text: 'Fizeste-nos para ti.',
@@ -311,6 +311,85 @@ describe('QuoteFormDialog: aviso do Gerador', () => {
     it('editar sem mexer em nada não envia nada (o salvar fica desabilitado)', () => {
       abrir({ quote: existente });
       expect(salvar()).toBeDisabled();
+    });
+  });
+
+  describe('Salvar explica o motivo e os erros são anunciados (menores da revisão da F3)', () => {
+    it('com o Salvar desabilitado por campo obrigatório, diz o que falta (mesmo de campo ainda não tocado)', async () => {
+      const { user } = abrir();
+      await user.selectOptions(screen.getByLabelText(/^Autor/), 'Santo Agostinho');
+      expect(salvar()).toBeDisabled();
+      const motivo = screen.getByRole('status');
+      expect(motivo).toHaveTextContent(/Para salvar/);
+      expect(motivo).toHaveTextContent('Texto');
+      expect(salvar()).toHaveAttribute('aria-describedby', motivo.id);
+    });
+
+    it('o motivo some quando tudo está preenchido', async () => {
+      const { user } = abrir();
+      await preencherNova(user);
+      expect(salvar()).toBeEnabled();
+      expect(screen.queryByText(/Para salvar/)).not.toBeInTheDocument();
+    });
+
+    it('editando sem mudar nada, diz que não há alteração', () => {
+      abrir({ quote: existente });
+      expect(screen.getByRole('status')).toHaveTextContent('Nenhuma alteração para salvar.');
+    });
+
+    it('ativa antiga sem obra: o motivo cita a obra mesmo sem o campo ter sido tocado', () => {
+      abrir({ quote: { ...existente, source: null } });
+      expect(salvar()).toBeDisabled();
+      expect(screen.getByRole('status')).toHaveTextContent('Obra ou fonte');
+    });
+
+    it('a mensagem de erro de campo fica numa região viva, para o leitor de tela anunciar', async () => {
+      const { user } = abrir();
+      await user.type(screen.getByLabelText(/^Texto/), 'a');
+      await user.clear(screen.getByLabelText(/^Texto/));
+      const erro = screen.getByText('Informe o texto da citação.');
+      expect(erro).toHaveAttribute('aria-live', 'polite');
+    });
+
+    it('o contador só vira região viva perto do limite (senão anunciaria a cada tecla)', async () => {
+      const { user } = abrir();
+      const campo = screen.getByLabelText(/^Texto/);
+      await user.type(campo, 'abc');
+      expect(screen.getByText('3 / 2000')).toHaveAttribute('aria-live', 'off');
+      fireEvent.change(campo, { target: { value: 'x'.repeat(1950) } });
+      expect(screen.getByText('1950 / 2000')).toHaveAttribute('aria-live', 'polite');
+    });
+
+    it('o aviso do Gerador mora numa região viva que já existe antes de aparecer', async () => {
+      const { user } = abrir({ quote: existente });
+      const regiao = document.querySelector('[data-regiao-aviso-gerador]');
+      expect(regiao).not.toBeNull();
+      expect(regiao).toHaveAttribute('aria-live', 'polite');
+      expect(regiao!.querySelector('[role="note"]')).toBeNull();
+      await user.type(screen.getByLabelText(/^Texto/), ' a mais');
+      expect(regiao!.querySelector('[role="note"]')).not.toBeNull();
+    });
+
+    it('mudar a obra de uma Lewis ativa: o aviso nomeia a obra, não o texto', async () => {
+      const { user } = abrir({ quote: existente });
+      await user.type(screen.getByLabelText(/^Obra ou fonte/), ' (ed. 2)');
+      expect(aviso()).toHaveTextContent('mudam obra');
+      expect(aviso()).not.toHaveTextContent('o texto de q1 muda');
+    });
+
+    it('depois de "Carregar a versão atual", o onSaved leva a versão que o formulário passou a ter como "antes"', async () => {
+      const atual = { ...existente, text: 'Texto da outra pessoa.', updatedAt: '2026-01-03T10:00:00.000Z' };
+      vi.mocked(adminQuotes.update)
+        .mockRejectedValueOnce(new ApiError(409, 'conflict', 'mudou', undefined, { atual }))
+        .mockResolvedValueOnce({ quote: { ...atual, source: 'Nova obra' }, avisos: [] });
+      const { user, onSaved } = abrir({ quote: existente });
+      await user.type(screen.getByLabelText(/^Obra ou fonte/), ' x');
+      await user.click(salvar());
+      await user.click(await screen.findByRole('button', { name: 'Carregar a versão atual' }));
+      await user.type(screen.getByLabelText(/^Obra ou fonte/), ' y');
+      await user.click(salvar());
+      await waitFor(() => expect(onSaved).toHaveBeenCalled());
+      expect(onSaved.mock.calls[0]![0].antes).toEqual(atual);
     });
   });
 });

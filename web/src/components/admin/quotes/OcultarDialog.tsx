@@ -4,6 +4,7 @@ import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
 import { Alert, AlertDescription } from '@/components/ui/alert';
 import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle } from '@/components/ui/dialog';
+import { ApiError } from '@/lib/api-client';
 import { ehLewis } from '@/lib/gerador';
 import { AvisoGerador } from './AvisoGerador';
 import { adminQuotes, type AdminQuote, type AdminQuoteItem } from '@/services/adminQuotes';
@@ -12,6 +13,8 @@ interface Props {
   quote: AdminQuoteItem | null;
   onOpenChange: (open: boolean) => void;
   onDone: (quote: AdminQuote) => void;
+  /** 409: a citação mudou desde que a lista foi carregada (ex.: já está oculta). O painel avisa, recarrega e o diálogo fecha. */
+  onConflito?: (mensagem: string) => void;
 }
 
 const MOTIVO_MIN = 3;
@@ -19,17 +22,17 @@ const MOTIVO_MAX = 1000;
 
 const dataBr = (iso: string) => iso.split('-').reverse().join('/');
 
-export function OcultarDialog({ quote, onOpenChange, onDone }: Props) {
+export function OcultarDialog({ quote, onOpenChange, onDone, onConflito }: Props) {
   return (
     <Dialog open={quote !== null} onOpenChange={onOpenChange}>
       <DialogContent className="max-w-lg bg-library-parchment-surface border-library-bronze">
-        {quote && <Conteudo key={quote.id} quote={quote} onOpenChange={onOpenChange} onDone={onDone} />}
+        {quote && <Conteudo key={quote.id} quote={quote} onOpenChange={onOpenChange} onDone={onDone} onConflito={onConflito} />}
       </DialogContent>
     </Dialog>
   );
 }
 
-function Conteudo({ quote, onOpenChange, onDone }: Omit<Props, 'quote'> & { quote: AdminQuoteItem }) {
+function Conteudo({ quote, onOpenChange, onDone, onConflito }: Omit<Props, 'quote'> & { quote: AdminQuoteItem }) {
   const [motivo, setMotivo] = useState('');
   const [pendente, setPendente] = useState(false);
   const [erro, setErro] = useState<string | null>(null);
@@ -50,6 +53,11 @@ function Conteudo({ quote, onOpenChange, onDone }: Omit<Props, 'quote'> & { quot
       onDone(ocultada);
       onOpenChange(false);
     } catch (err) {
+      if (err instanceof ApiError && err.statusCode === 409 && onConflito) {
+        onConflito(err.message);
+        onOpenChange(false);
+        return;
+      }
       setErro(err instanceof Error ? err.message : 'Não foi possível ocultar.');
     } finally {
       enviando.current = false;

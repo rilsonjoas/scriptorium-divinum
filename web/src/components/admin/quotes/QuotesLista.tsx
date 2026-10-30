@@ -24,6 +24,8 @@ interface Props {
   onFiltros: (f: Filtros) => void;
   onEditar: (q: AdminQuoteItem) => void;
   onOcultar: (q: AdminQuoteItem) => void;
+  /** Ids em reativação agora: o botão fica desabilitado enquanto a chamada não termina. */
+  reativandoIds?: ReadonlySet<string>;
   onReativar: (q: AdminQuoteItem) => void;
   onHistorico: (q: AdminQuoteItem) => void;
   onNova: () => void;
@@ -52,6 +54,7 @@ export function QuotesLista({
   onEditar,
   onOcultar,
   onReativar,
+  reativandoIds,
   onHistorico,
   onNova,
 }: Props) {
@@ -210,8 +213,15 @@ export function QuotesLista({
                         </Button>
                       )}
                       {q.status === 'oculta' && (
-                        <Button type="button" size="sm" variant="outline" aria-label={`Reativar citação de ${q.author}`} onClick={() => onReativar(q)}>
-                          Reativar
+                        <Button
+                          type="button"
+                          size="sm"
+                          variant="outline"
+                          aria-label={`Reativar citação de ${q.author}`}
+                          disabled={reativandoIds?.has(q.id)}
+                          onClick={() => onReativar(q)}
+                        >
+                          {reativandoIds?.has(q.id) ? 'Reativando…' : 'Reativar'}
                         </Button>
                       )}
                       <Button type="button" size="sm" variant="outline" aria-label={`Histórico da citação de ${q.author}`} onClick={() => onHistorico(q)}>
