@@ -668,3 +668,14 @@ Três achados do Rilson logo ao abrir `/admin/citacoes`.
 
 **Escrita em produção liberada.** Verificado depois do deploy: `/health` 200, rota de admin sem login 401, 270 citações com os mesmos ids do canônico, banco sem nada gravado (270 ativas, 0 eventos), canário `ok`. A recomendação ao autor para a primeira gravação é criar um **rascunho** (não aparece no site, o histórico é visível).
 
+
+
+## 30/10/2026 — F7: usabilidade do formulário de citação (achados do primeiro uso)
+
+O autor usou a tela pela primeira vez e achou quatro problemas, todos corrigidos só no front (a API e as regras da seção 7 do desenho não mudaram; continuam sendo a defesa de verdade): endereço da conferência sem `https://` automático, "Conferida em" sem seletor de data, autor digitado (grafia livre) e o endereço da obra no Scriptorium aceitando qualquer texto até a API recusar.
+
+- **Autor:** lista dos existentes + "Outro autor (novo)…" (autor inédito continua aceito). Autor legado fora da lista abre como "novo" com o valor preservado.
+- **Endereço da conferência:** `https://` preenchido ao focar, completado ao sair; só o esquema vira vazio.
+- **Data:** seletor nativo, sem valor padrão (preencher "hoje" sozinho convidaria a registrar conferência que não aconteceu), `max` = hoje, botão "Hoje".
+- **Obra no Scriptorium:** lista das obras publicadas (`GET /books`, até 100), com "(atual)" para valor fora da lista; falha de carga vira campo de texto com aviso.
+- **Menor adiado:** "Tema" segue texto livre (candidato a lista dos temas existentes; a API não expõe a lista hoje).

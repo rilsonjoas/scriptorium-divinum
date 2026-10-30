@@ -1,11 +1,14 @@
 import { beforeEach, describe, expect, it, vi } from 'vitest';
-import { render, screen, waitFor } from '@testing-library/react';
+import { fireEvent, render, screen, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { ApiError } from '@/lib/api-client';
 import { adminQuotes, type AdminQuote } from '@/services/adminQuotes';
+import { booksService } from '@/services/database';
+import { hojeISO } from '@/lib/formularioCitacao';
 import { QuoteFormDialog } from './QuoteFormDialog';
 
 vi.mock('@/services/adminQuotes');
+vi.mock('@/services/database', () => ({ booksService: { getAll: vi.fn() } }));
 
 const existente: AdminQuote = {
   id: 'q1',
@@ -23,6 +26,11 @@ const existente: AdminQuote = {
   updatedAt: '2026-01-02T10:00:00.123Z',
 };
 const AUTORES = ['C. S. Lewis', 'Santo Agostinho'];
+const NOVO_AUTOR = 'Outro autor (novo)…';
+const OBRAS = [
+  { slug: 'o-peregrino', title: 'O Peregrino', author: { name: 'John Bunyan' } },
+  { slug: 'confissoes', title: 'Confissões', author: { name: 'Santo Agostinho' } },
+];
 
 function abrir(props: Partial<React.ComponentProps<typeof QuoteFormDialog>> = {}) {
   const onSaved = vi.fn();
@@ -34,33 +42,26 @@ function abrir(props: Partial<React.ComponentProps<typeof QuoteFormDialog>> = {}
 const salvar = () => screen.getByRole('button', { name: 'Salvar' });
 
 async function preencherNova(user: ReturnType<typeof userEvent.setup>) {
-  await user.type(screen.getByLabelText(/^Autor/), 'Santo Agostinho');
+  await user.selectOptions(screen.getByLabelText(/^Autor/), 'Santo Agostinho');
   await user.type(screen.getByLabelText(/^Texto/), 'Fizeste-nos para ti.');
 }
 
-beforeEach(() => vi.resetAllMocks());
+beforeEach(() => {
+  vi.resetAllMocks();
+  vi.mocked(booksService.getAll).mockResolvedValue({ items: OBRAS, total: 2, page: 1, limit: 100, totalPages: 1 } as never);
+});
 
 describe('QuoteFormDialog', () => {
   it('mostra erros ao vivo e mantém Salvar desabilitado enquanto inválido', async () => {
     const { user } = abrir();
     expect(salvar()).toBeDisabled();
-    await user.type(screen.getByLabelText(/^Autor/), 'x');
+    await user.selectOptions(screen.getByLabelText(/^Autor/), 'Santo Agostinho');
     await user.type(screen.getByLabelText(/^Texto/), 'a');
     await user.clear(screen.getByLabelText(/^Texto/));
     expect(screen.getByText('Informe o texto da citação.')).toBeInTheDocument();
     expect(salvar()).toBeDisabled();
     await user.type(screen.getByLabelText(/^Texto/), 'Agora sim.');
     expect(salvar()).toBeEnabled();
-  });
-
-  it('sugere a grafia existente do autor e oferece os autores num datalist', async () => {
-    const { user } = abrir();
-    const campo = screen.getByLabelText(/^Autor/);
-    await user.type(campo, 'C.S. Lewis');
-    expect(screen.getByText(/Já existe este autor escrito assim: "C\. S\. Lewis"/)).toBeInTheDocument();
-    expect(campo).toHaveAttribute('aria-describedby');
-    const lista = document.getElementById(campo.getAttribute('list')!);
-    expect([...lista!.querySelectorAll('option')].map((o) => o.getAttribute('value'))).toEqual(AUTORES);
   });
 
   it('criar chama adminQuotes.create com os valores e chama onSaved', async () => {
@@ -174,13 +175,14 @@ describe('QuoteFormDialog: aviso do Gerador', () => {
   it('mudar só o endereço da conferência ou a data de verificação não avisa', async () => {
     const { user } = abrir({ quote: existente });
     await user.type(screen.getByLabelText(/^Endereço da conferência/), 'x');
-    await user.type(screen.getByLabelText(/^Conferida em/), '1');
+    fireEvent.change(screen.getByLabelText(/^Conferida em/), { target: { value: '2026-10-02' } });
     expect(aviso()).toBeNull();
   });
 
   it('nova citação: autor C.S. Lewis ativa avisa; rascunho não', async () => {
     const { user } = abrir();
-    await user.type(screen.getByLabelText(/^Autor/), 'C.S. Lewis');
+    await user.selectOptions(screen.getByLabelText(/^Autor/), NOVO_AUTOR);
+    await user.type(screen.getByLabelText('Nome do novo autor'), 'C.S. Lewis');
     await user.type(screen.getByLabelText(/^Texto/), 'Frase.');
     expect(aviso()).toBeNull();
     await user.selectOptions(screen.getByLabelText('Situação'), 'ativa');
@@ -191,17 +193,13 @@ describe('QuoteFormDialog: aviso do Gerador', () => {
 
   it('trocar o autor para Lewis entra; trocar de Lewis para outro sai', async () => {
     const { user, } = abrir({ quote: { ...existente, author: 'Santo Agostinho' } });
-    const autor = screen.getByLabelText(/^Autor/);
-    await user.clear(autor);
-    await user.type(autor, 'C. S. Lewis');
+    await user.selectOptions(screen.getByLabelText(/^Autor/), 'C. S. Lewis');
     expect(aviso()).toHaveTextContent('entra uma citação nova');
   });
 
   it('Lewis passa a outro autor: sai', async () => {
     const { user } = abrir({ quote: existente });
-    const autor = screen.getByLabelText(/^Autor/);
-    await user.clear(autor);
-    await user.type(autor, 'Santo Agostinho');
+    await user.selectOptions(screen.getByLabelText(/^Autor/), 'Santo Agostinho');
     expect(aviso()).toHaveTextContent('o id q1 sai do arquivo');
   });
 
@@ -215,5 +213,104 @@ describe('QuoteFormDialog: aviso do Gerador', () => {
     const { user } = abrir({ quote: oculta });
     await user.type(screen.getByLabelText(/^Texto/), ' mais');
     expect(aviso()).toBeNull();
+  });
+
+  describe('autor, endereços, data e obra (F7)', () => {
+    it('autor é uma lista com os existentes e a opção de autor novo', () => {
+      abrir();
+      const campo = screen.getByLabelText(/^Autor/) as HTMLSelectElement;
+      expect(campo.tagName).toBe('SELECT');
+      expect([...campo.options].map((o) => o.textContent)).toEqual(['Escolha o autor…', ...AUTORES, NOVO_AUTOR]);
+      expect(screen.queryByLabelText('Nome do novo autor')).not.toBeInTheDocument();
+    });
+
+    it('autor novo mostra o campo de texto e a grafia parecida com a de um existente continua sendo sugerida', async () => {
+      const { user } = abrir();
+      await user.selectOptions(screen.getByLabelText(/^Autor/), NOVO_AUTOR);
+      const novo = screen.getByLabelText('Nome do novo autor');
+      await user.type(novo, 'C.S. Lewis');
+      expect(screen.getByText(/Já existe este autor escrito assim: "C\. S\. Lewis"/)).toBeInTheDocument();
+      expect(novo).toHaveAttribute('aria-describedby');
+    });
+
+    it('autor legado, fora da lista, abre como autor novo com o valor preservado', () => {
+      abrir({ quote: { ...existente, author: 'Autor Antigo' } });
+      expect(screen.getByLabelText(/^Autor/)).toHaveValue('__novo__');
+      expect(screen.getByLabelText('Nome do novo autor')).toHaveValue('Autor Antigo');
+    });
+
+    it('endereço da conferência: foco vazio preenche https://, só o esquema volta a vazio, sem esquema ganha https://', async () => {
+      const { user } = abrir();
+      const campo = screen.getByLabelText(/^Endereço da conferência/);
+      await user.click(campo);
+      expect(campo).toHaveValue('https://');
+      await user.tab();
+      expect(campo).toHaveValue('');
+      await user.click(campo);
+      await user.keyboard('exemplo.org/p/1');
+      await user.tab();
+      expect(campo).toHaveValue('https://exemplo.org/p/1');
+    });
+
+    it('endereço com http:// digitado é respeitado', async () => {
+      const { user } = abrir();
+      const campo = screen.getByLabelText(/^Endereço da conferência/);
+      await user.click(campo);
+      await user.clear(campo);
+      await user.type(campo, 'http://exemplo.org');
+      await user.tab();
+      expect(campo).toHaveValue('http://exemplo.org');
+    });
+
+    it('"Conferida em" é um seletor de data sem valor inicial, que não aceita o futuro, com botão Hoje', async () => {
+      const { user } = abrir();
+      const campo = screen.getByLabelText(/^Conferida em/);
+      expect(campo).toHaveAttribute('type', 'date');
+      expect(campo).toHaveAttribute('max', hojeISO());
+      expect(campo).toHaveValue('');
+      await user.click(screen.getByRole('button', { name: 'Hoje' }));
+      expect(campo).toHaveValue(hojeISO());
+    });
+
+    it('endereço da obra é uma lista das obras publicadas e envia o endereço certo', async () => {
+      vi.mocked(adminQuotes.create).mockResolvedValue({ quote: existente, avisos: [] });
+      const { user } = abrir();
+      await preencherNova(user);
+      const campo = await screen.findByLabelText(/^Obra no Scriptorium/);
+      expect(campo.tagName).toBe('SELECT');
+      expect([...(campo as HTMLSelectElement).options].map((o) => o.textContent)).toEqual([
+        'Nenhuma',
+        'O Peregrino, John Bunyan',
+        'Confissões, Santo Agostinho',
+      ]);
+      await user.selectOptions(campo, 'Confissões, Santo Agostinho');
+      await user.click(salvar());
+      await waitFor(() => expect(adminQuotes.create).toHaveBeenCalled());
+      expect(vi.mocked(adminQuotes.create).mock.calls[0]![0].scriptoriumUrl).toBe(
+        'https://scriptorium.narniano.com/livros/confissoes',
+      );
+    });
+
+    it('endereço atual fora da lista aparece como "(atual)" e é preservado', async () => {
+      abrir({ quote: { ...existente, scriptoriumUrl: 'https://scriptorium.narniano.com/livros/obra-despublicada' } });
+      const campo = (await screen.findByLabelText(/^Obra no Scriptorium/)) as HTMLSelectElement;
+      expect(campo).toHaveValue('https://scriptorium.narniano.com/livros/obra-despublicada');
+      expect([...campo.options].map((o) => o.textContent)).toContain('(atual) obra-despublicada');
+    });
+
+    it('se a lista de obras não carrega, vira campo de texto com aviso e salvar continua possível', async () => {
+      vi.mocked(booksService.getAll).mockRejectedValue(new Error('rede'));
+      const { user } = abrir();
+      await preencherNova(user);
+      const campo = await screen.findByLabelText(/^Endereço da obra no Scriptorium/);
+      expect(campo.tagName).toBe('INPUT');
+      expect(screen.getByText(/Não foi possível carregar a lista de obras/)).toBeInTheDocument();
+      expect(salvar()).toBeEnabled();
+    });
+
+    it('editar sem mexer em nada não envia nada (o salvar fica desabilitado)', () => {
+      abrir({ quote: existente });
+      expect(salvar()).toBeDisabled();
+    });
   });
 });

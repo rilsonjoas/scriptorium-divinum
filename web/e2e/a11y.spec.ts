@@ -232,7 +232,10 @@ test('axe-core WCAG 2.2 A+AA — admin: citações, formulário de nova citaçã
   const dialogo = page.getByRole('dialog');
   await dialogo.waitFor();
   // um erro visível entra na auditoria: a cor da mensagem também precisa de contraste
-  await dialogo.getByLabel(/^Autor/).fill('C.S. Lewis');
+  await dialogo.getByLabel(/^Autor/).selectOption({ label: 'Outro autor (novo)…' });
+  await dialogo.getByLabel('Nome do novo autor').fill('C.S. Lewis');
+  await dialogo.getByText(/Já existe este autor escrito assim/).waitFor();
+  await dialogo.getByRole('button', { name: 'Hoje' }).click();
   await dialogo.getByLabel(/^Texto/).fill('a');
   await dialogo.getByLabel(/^Texto/).fill('');
   await dialogo.getByText('Informe o texto da citação.').waitFor();
