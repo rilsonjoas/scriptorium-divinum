@@ -1,4 +1,6 @@
 import { describe, expect, it } from 'vitest';
+import { readFileSync } from 'node:fs';
+import path from 'node:path';
 import { dateKeyInTimeZone, daySeed, isValidDateKey } from './date.js';
 
 describe('daySeed', () => {
@@ -15,6 +17,16 @@ describe('daySeed', () => {
 
   it('dias diferentes geram seeds diferentes', () => {
     expect(daySeed('2026-09-22')).not.toBe(daySeed('2026-09-23'));
+  });
+});
+
+const vetores = JSON.parse(
+  readFileSync(path.join(import.meta.dirname, 'hoje-sao-paulo.vetores.json'), 'utf-8'),
+) as { casos: { utc: string; esperado: string; nota: string }[] };
+
+describe('dateKeyInTimeZone — vetores do cluster (hetzner-infra/vetores/hoje-sao-paulo.json)', () => {
+  it.each(vetores.casos)('$utc → $esperado ($nota)', ({ utc, esperado }) => {
+    expect(dateKeyInTimeZone(new Date(utc))).toBe(esperado);
   });
 });
 
