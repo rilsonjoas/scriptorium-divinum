@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { efeitoNoGerador, ehLewis, GERADOR_COPIA_URL, mudaCopiaDoGerador, type CitacaoDoGerador } from './gerador';
+import { camposDaCopia, efeitoNoGerador, ehLewis, GERADOR_COPIA_URL, mudaCopiaDoGerador, type CitacaoDoGerador } from './gerador';
 
 const ativa: CitacaoDoGerador = { author: 'C. S. Lewis', text: 'Texto.', source: 'Obra', theme: null, dominioPublico: false, status: 'ativa' };
 const com = (p: Partial<CitacaoDoGerador>): CitacaoDoGerador => ({ ...ativa, ...p });
@@ -18,6 +18,7 @@ describe('mudaCopiaDoGerador', () => {
     ['mudar a obra', ativa, com({ source: 'Outra' })],
     ['mudar o tema', ativa, com({ theme: 'graça' })],
     ['mudar domínio público', ativa, com({ dominioPublico: true })],
+    ['corrigir a grafia do autor Lewis (entra no link de compra)', ativa, com({ author: 'C.S. Lewis' })],
     ['outro autor passa a Lewis', com({ author: 'Outro' }), ativa],
     ['Lewis passa a outro autor', ativa, com({ author: 'Outro' })],
   ])('%s muda a cópia', (_n, antes, depois) => expect(mudaCopiaDoGerador(antes, depois)).toBe(true));
@@ -29,7 +30,7 @@ describe('mudaCopiaDoGerador', () => {
     ['oculta com texto novo', com({ status: 'oculta' }), com({ status: 'oculta', text: 'Novo.' })],
     ['ativa de outro autor com texto novo', com({ author: 'Outro' }), com({ author: 'Outro', text: 'Novo.' })],
     ['criar ativa de outro autor', null, com({ author: 'Outro' })],
-    ['grafia do autor Lewis diferente mas a mesma', ativa, com({ author: 'C.S. Lewis' })],
+    ['mesma grafia do autor com espaços nas pontas', ativa, com({ author: ' C. S. Lewis ' })],
   ])('%s não muda a cópia', (_n, antes, depois) => expect(mudaCopiaDoGerador(antes, depois)).toBe(false));
 
   it('o link aponta para o arquivo da cópia no GitHub', () => {
@@ -54,5 +55,29 @@ describe('efeitoNoGerador', () => {
   it('null quando a cópia não muda', () => {
     expect(efeitoNoGerador(ativa, { ...ativa })).toBeNull();
     expect(efeitoNoGerador(null, com({ status: 'rascunho' }))).toBeNull();
+  });
+});
+
+describe('camposDaCopia (o que a mudança altera na cópia)', () => {
+  it('lista só os campos que mudaram, na ordem texto, obra, tema, domínio público, autor', () => {
+    expect(camposDaCopia(ativa, com({ text: 'Outro.', source: 'Outra', theme: 'graça' }))).toEqual(['texto', 'obra', 'tema']);
+    expect(camposDaCopia(ativa, com({ dominioPublico: true }))).toEqual(['domínio público']);
+  });
+
+  it('corrigir a grafia do autor muda a cópia (o autor entra no link de compra) e aparece como "autor"', () => {
+    const antes = com({ author: 'C.S. Lewis' });
+    const depois = com({ author: 'C. S. Lewis' });
+    expect(mudaCopiaDoGerador(antes, depois)).toBe(true);
+    expect(efeitoNoGerador(antes, depois)).toBe('mudar');
+    expect(camposDaCopia(antes, depois)).toEqual(['autor']);
+  });
+
+  it('entrar e sair não detalham campos (a citação inteira entra ou sai)', () => {
+    expect(camposDaCopia(null, ativa)).toEqual([]);
+    expect(camposDaCopia(ativa, com({ status: 'oculta' }))).toEqual([]);
+  });
+
+  it('sem mudança, vazio', () => {
+    expect(camposDaCopia(ativa, { ...ativa })).toEqual([]);
   });
 });

@@ -680,3 +680,10 @@ O autor usou a tela pela primeira vez e achou quatro problemas, todos corrigidos
 - **Obra no Scriptorium:** lista das obras publicadas (`GET /books`, até 100), com "(atual)" para valor fora da lista; falha de carga vira campo de texto com aviso.
 - **Menor adiado:** "Tema" segue texto livre (candidato a lista dos temas existentes; a API não expõe a lista hoje).
 - **Remoção dos 2 rascunhos de teste (30/10/2026):** migration `0017_remove_2_rascunhos_de_teste_do_painel` (R3: exclusão física só por migration, com justificativa). Só apaga se o `id` bater e o status ainda for `rascunho`; o histórico em `quote_events` fica. Ensaiada em cópia da produção (272 para 270, duas execuções).
+
+## 30/10/2026 — Menores da F3 e da F4 fechados (formulário, painel e avisos do Gerador)
+
+**Formulário:** o Salvar desabilitado diz por quê ("Para salvar, corrija: ..." ou "Nenhuma alteração para salvar."), inclusive de campo ainda não tocado (ativa antiga sem obra); a mensagem de erro de cada campo fica numa região viva que já existe antes de aparecer (leitor de tela só anuncia mudança numa região existente); o contador só é anunciado perto do limite.
+**Painel:** ocultar com `409` avisa, recarrega a lista e fecha o diálogo; Reativar fica desabilitado ("Reativando…") enquanto envia; depois de ocultar ou reativar o foco vai para o título da página (a linha que mudou sai ou troca de lugar; WCAG 2.4.3); falha ao atualizar a lista em segundo plano avisa que a tela pode estar desatualizada.
+**Avisos do Gerador:** o aviso nomeia o que muda (`texto`, `obra`, `tema`, `domínio público`, `autor`) em vez de dizer sempre "o texto muda"; corrigir a grafia do autor (`C.S. Lewis` para `C. S. Lewis`) passa a avisar, porque o autor entra no link de compra; o "antes" do aviso depois de "Carregar a versão atual" é a versão carregada (o formulário devolve `antes` em `onSaved`); o aviso mora numa região viva e o título deixou de ser um `h5` solto. O manual lista os gatilhos reais.
+**Ainda aberto (menor):** alternar domínio público avisa mesmo quando a obra não é da curadoria e o link de compra fica nulo (precisaria da lista da curadoria no cliente).
