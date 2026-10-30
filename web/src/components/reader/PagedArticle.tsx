@@ -1,4 +1,4 @@
-import { useCallback, useLayoutEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useLayoutEffect, useRef, useState } from 'react';
 import type { FocusEvent, ReactNode } from 'react';
 import { countPages, pageOfOffset, LAST_PAGE } from '@/utils/pagination';
 
@@ -53,6 +53,13 @@ export function PagedArticle({
   const articleRef = useRef<HTMLElement>(null);
   const [size, setSize] = useState({ w: 0, h: 0 });
   const [pages, setPages] = useState(1);
+  // a transição só liga depois da primeira pintura, para abrir direto na
+  // página retomada em vez de deslizar desde a primeira
+  const [animar, setAnimar] = useState(false);
+  useEffect(() => {
+    const id = requestAnimationFrame(() => requestAnimationFrame(() => setAnimar(true)));
+    return () => cancelAnimationFrame(id);
+  }, []);
 
   // Tamanho da área de leitura
   useLayoutEffect(() => {
@@ -129,7 +136,7 @@ export function PagedArticle({
     >
       <article
         ref={articleRef}
-        className={className}
+        className={`${className ?? ''} ${animar ? 'motion-safe:transition-transform motion-safe:duration-300 motion-safe:ease-out' : ''}`}
         style={{
           // com 2 colunas por vista, cada página tem metade da vista menos o
           // espaço entre elas; o deslocamento continua sendo de uma vista

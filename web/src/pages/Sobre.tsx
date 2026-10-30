@@ -1,39 +1,6 @@
-import { Link } from 'react-router-dom';
 import { Layout } from '@/components/Layout';
 import { useSiteSettings } from '@/hooks/useDatabase';
 import { PixDonationCard } from '@/components/apoiar/PixDonationCard';
-
-/* ——————————————————————————————————————————————
-   Cards de navegação — levam às páginas dedicadas
-   em vez de embutir três páginas inteiras aqui.
-—————————————————————————————————————————————— */
-interface NavCard {
-  to: string;
-  titulo: string;
-  descricao: string;
-  glifo: string;
-}
-
-const CARDS: NavCard[] = [
-  {
-    to: '/ajuda',
-    titulo: 'Como usar',
-    descricao: 'Busca, leitura, capítulos e configurações explicadas em detalhe.',
-    glifo: '📖',
-  },
-  {
-    to: '/dominio-publico',
-    titulo: 'Domínio público',
-    descricao: 'Critérios legais, fontes usadas e como atribuímos cada texto.',
-    glifo: '⚖️',
-  },
-  {
-    to: '/contribuir',
-    titulo: 'Contribuir',
-    descricao: 'Sugira obras, reporte erros ou colabore com o projeto.',
-    glifo: '✒️',
-  },
-];
 
 const Sobre = () => {
   const { data: settings } = useSiteSettings();
@@ -86,30 +53,6 @@ const Sobre = () => {
               Lutero, Teresa de Ávila e Padre António Vieira com apenas um clique — em uma
               interface bela, digna e <strong className="text-library-wood-foreground">100% gratuita</strong>.
             </p>
-          </div>
-        </section>
-
-        {/* ── Cards de navegação ── */}
-        <section aria-label="Páginas do projeto" className="mb-14">
-          <h2 className="font-heading text-center text-sm tracking-widest text-library-wood-foreground mb-6 opacity-70">
-            Saiba mais
-          </h2>
-          <div className="grid sm:grid-cols-3 gap-4">
-            {CARDS.map((card) => (
-              <Link
-                key={card.to}
-                to={card.to}
-                className="group block bg-card/80 border border-library-bronze/60 rounded-lg p-6 hover:border-library-bronze hover:bg-library-gold/5 hover:shadow-book transition-all duration-200"
-              >
-                <span className="text-3xl mb-3 block">{card.glifo}</span>
-                <h3 className="font-heading text-base font-semibold text-library-wood-foreground mb-2 group-hover:text-library-bronze-foreground transition-colors">
-                  {card.titulo}
-                </h3>
-                <p className="font-body text-sm text-muted-foreground leading-relaxed">
-                  {card.descricao}
-                </p>
-              </Link>
-            ))}
           </div>
         </section>
 

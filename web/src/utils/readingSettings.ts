@@ -32,7 +32,7 @@ export const ESCALA_MAX = 1.8;
 const PASSO = 0.1;
 
 export const AJUSTES_PADRAO: ReadingSettings = {
-  escala: 1,
+  escala: 0.9,
   fontFamily: 'reading',
   theme: 'parchment',
   lineHeight: 'relaxed',

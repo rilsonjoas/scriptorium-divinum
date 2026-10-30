@@ -15,6 +15,30 @@ function slugify(text: string): string {
     .replace(/^-+|-+$/g, '');
 }
 
+/** corpo só de títulos, linhas horizontais e espaços (nenhum parágrafo) */
+function semParagrafo(body: string): boolean {
+  return body.split('\n').every((l) => l.trim() === '' || /^#{1,6}\s/.test(l) || /^([-*_])\1{2,}\s*$/.test(l.trim()));
+}
+
+/**
+ * Um capítulo sem parágrafo (o bloco de título e autor no começo da obra)
+ * ocuparia uma página quase vazia: vai para dentro do capítulo seguinte, que
+ * mantém o próprio id e título.
+ */
+function juntarSemTexto(chapters: Chapter[]): Chapter[] {
+  const saida: Chapter[] = [];
+  let pendente = '';
+  chapters.forEach((c, i) => {
+    if (i < chapters.length - 1 && semParagrafo(c.body)) {
+      pendente += `${c.body}\n\n`;
+      return;
+    }
+    saida.push(pendente ? { ...c, body: `${pendente}${c.body}` } : c);
+    pendente = '';
+  });
+  return saida;
+}
+
 /**
  * Segmenta o markdown da obra em capítulos pelos headings markdown.
  *
@@ -69,6 +93,9 @@ export function splitIntoChapters(markdown: string): Chapter[] {
     i += 1;
   }
   flush();
+  const unidos = juntarSemTexto(chapters);
+  chapters.length = 0;
+  chapters.push(...unidos);
 
   // texto antes do primeiro heading fica como um capitulo inicial
   const preludioTexto = preludio.join('\n').trim();
@@ -87,4 +114,27 @@ export function splitIntoChapters(markdown: string): Chapter[] {
 /** encontra o indice do primeiro capitulo cujo corpo contem o heading `id` */
 export function chapterIndexById(chapters: Chapter[], id: string): number {
   return chapters.findIndex((c) => c.id === id);
+}
+
+/**
+ * Em duas páginas por vista, um capítulo curto deixa a página da direita (ou
+ * a tela toda) vazia. Capítulos consecutivos são agrupados até somarem o
+ * mínimo de caracteres; o grupo mantém o id e o título do primeiro. Um curto
+ * no fim da obra vai para o capítulo anterior.
+ */
+export function agruparCapitulosCurtos(chapters: Chapter[], minimo = 900): Chapter[] {
+  const saida: Chapter[] = [];
+  let acc: Chapter | null = null;
+  for (const c of chapters) {
+    acc = acc ? { ...acc, body: `${acc.body}\n\n${c.body}` } : c;
+    if (acc.body.length >= minimo) {
+      saida.push(acc);
+      acc = null;
+    }
+  }
+  if (acc) {
+    if (saida.length) saida[saida.length - 1] = { ...saida[saida.length - 1], body: `${saida[saida.length - 1].body}\n\n${acc.body}` };
+    else saida.push(acc);
+  }
+  return saida;
 }

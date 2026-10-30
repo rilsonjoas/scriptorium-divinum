@@ -8,6 +8,8 @@ export interface UserHighlight {
 }
 
 const STORAGE_KEY = 'scriptorium_highlights_v1';
+/** disparado ao salvar ou apagar um grifo, para o leitor repintar */
+export const DESTAQUES_EVENTO = 'scriptorium:destaques';
 
 export function getBookHighlights(bookSlug: string): UserHighlight[] {
   try {
@@ -32,6 +34,7 @@ export function saveHighlight(highlight: Omit<UserHighlight, 'id' | 'createdAt'>
     const all: UserHighlight[] = raw ? JSON.parse(raw) : [];
     all.push(newH);
     localStorage.setItem(STORAGE_KEY, JSON.stringify(all));
+    window.dispatchEvent(new Event(DESTAQUES_EVENTO));
   } catch (e) {
     console.error('Failed to save highlight', e);
   }
@@ -46,6 +49,7 @@ export function deleteHighlight(id: string): void {
     const all: UserHighlight[] = JSON.parse(raw);
     const filtered = all.filter(h => h.id !== id);
     localStorage.setItem(STORAGE_KEY, JSON.stringify(filtered));
+    window.dispatchEvent(new Event(DESTAQUES_EVENTO));
   } catch (e) {
     console.error('Failed to delete highlight', e);
   }

@@ -68,7 +68,7 @@ export function DeleteConfirmDialog({
 
         <div className="bg-amber-50 border border-amber-200 rounded-lg p-3 mb-4">
           <p className="font-body text-amber-800 text-sm">
-            ⚠️ <strong>Atenção:</strong> Esta ação não pode ser desfeita.
+            <AlertTriangle aria-hidden className="inline h-4 w-4 mr-1 -mt-0.5" /><strong>Atenção:</strong> Esta ação não pode ser desfeita.
           </p>
         </div>
 

@@ -1,5 +1,6 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest';
 import { render, screen } from '@testing-library/react';
+import userEvent from '@testing-library/user-event';
 import { MemoryRouter, Route, Routes } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import Reader from './Reader';
@@ -68,7 +69,7 @@ describe('Reader', () => {
     expect(screen.getByText('Conteúdo indisponível')).toBeInTheDocument();
   });
 
-  it('mostra título e texto em markdown, com a proveniência em destaque', () => {
+  it('mostra título e texto em markdown, com a proveniência em destaque', async () => {
     mockText({
       slug: 'as-95-teses',
       title: 'As 95 Teses de Martinho Lutero',
@@ -76,9 +77,13 @@ describe('Reader', () => {
     });
     renderReader();
     expect(screen.getByRole('heading', { name: 'As 95 Teses de Martinho Lutero' })).toBeInTheDocument();
-    expect(screen.getByText(/Disputatio\.\.\./)).toBeInTheDocument();
     expect(screen.getByRole('heading', { level: 1, name: 'As 95 Teses' })).toBeInTheDocument();
     expect(screen.getByText('Dizendo nosso Senhor...')).toBeInTheDocument();
+    // a proveniência mora na ficha da edição, que abre num modal pelo botão de informação
+    expect(screen.queryByText(/Disputatio\.\.\./)).not.toBeInTheDocument();
+    await userEvent.setup().click(screen.getByRole('button', { name: 'Sobre esta edição' }));
+    expect(screen.getByText(/Disputatio\.\.\./)).toBeInTheDocument();
+    expect(screen.getByRole('dialog')).toBeInTheDocument();
   });
 
   it('link de volta aponta para a ficha pelo slug, mesmo chegando por UUID', () => {
