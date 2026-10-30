@@ -10,3 +10,23 @@ export function chaveDeTexto(texto: string): string {
 export function slugDaUrlDoScriptorium(url: string): string {
   return url.replace(/\/$/, '').split('/').pop() ?? '';
 }
+
+/** Hosts em que uma obra do Scriptorium tem endereço público. Só `https`, nunca `http`. */
+export const HOSTS_DO_SCRIPTORIUM = ['scriptorium.narniano.com'];
+
+/**
+ * `slug` da obra de um endereço `https://scriptorium.narniano.com/livros/<slug>` (com ou sem barra no fim), ou
+ * `null` se o endereço não tem essa forma (outro host, `http`, outro caminho, texto que não é endereço). É a regra do
+ * campo `scriptoriumUrl` das citações: o link tem de apontar para uma obra do Scriptorium de verdade.
+ */
+export function slugDoEnderecoDaObra(endereco: string): string | null {
+  let url: URL;
+  try {
+    url = new URL(endereco);
+  } catch {
+    return null;
+  }
+  if (url.protocol !== 'https:' || !HOSTS_DO_SCRIPTORIUM.includes(url.hostname)) return null;
+  const m = /^\/livros\/([^/]+)\/?$/.exec(url.pathname);
+  return m ? decodeURIComponent(m[1]!) : null;
+}

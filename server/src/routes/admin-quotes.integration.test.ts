@@ -28,6 +28,15 @@ describe('API de administração de citações', () => {
       headers: comLogin ? { cookie } : {},
       ...(payload === undefined ? {} : { payload: payload as object }),
     });
+  const livroPublicado = async (slug: string) => {
+    await admin.unsafe(
+      `INSERT INTO authors (id, slug, name) VALUES ('62000000-0000-0000-0000-000000000001', 'autor-livro', 'Autor Livro') ON CONFLICT DO NOTHING`,
+    );
+    await admin.unsafe(
+      `INSERT INTO books (slug, title, author_id, description, published)
+       VALUES ('${slug}', 'Livro ${slug}', '62000000-0000-0000-0000-000000000001', 'd', true)`,
+    );
+  };
   const nova = (extra: Record<string, unknown> = {}) => ({
     author: 'Autor Teste',
     text: 'Frase de teste.',
@@ -133,6 +142,58 @@ describe('API de administração de citações', () => {
     expect(grafia.statusCode).toBe(400);
     expect(grafia.json().error).toBe('validation_error');
     expect(grafia.json().issues.author[0]).toContain('C. S. Lewis');
+  });
+
+  describe('validação de entrada (menores da revisão da F2)', () => {
+    it('espaço nas pontas de fonteUrl e verificadoEm é aparado, como no resto dos campos', async () => {
+      const r = await req('POST', BASE, nova({ fonteUrl: '  https://exemplo.org/f  ', verificadoEm: ' 2026-10-01 ' }));
+      expect(r.statusCode).toBe(201);
+      expect(r.json().quote.fonteUrl).toBe('https://exemplo.org/f');
+      expect(r.json().quote.verificadoEm).toBe('2026-10-01');
+    });
+
+    it.each([
+      ['outro host', 'https://evil.example/livros/publicada'],
+      ['http em vez de https', 'http://scriptorium.narniano.com/livros/publicada'],
+      ['caminho que não é de livro', 'https://scriptorium.narniano.com/autores/publicada'],
+      ['não é endereço', 'livros/publicada'],
+    ])('scriptoriumUrl recusa %s', async (_nome, url) => {
+      await livroPublicado('publicada');
+      const r = await req('POST', BASE, nova({ scriptoriumUrl: url }));
+      expect(r.statusCode).toBe(400);
+      expect(r.json().issues.scriptoriumUrl?.length).toBeGreaterThan(0);
+    });
+
+    it('scriptoriumUrl aceita o endereço certo, com ou sem barra no fim', async () => {
+      await livroPublicado('publicada');
+      for (const [i, url] of ['https://scriptorium.narniano.com/livros/publicada', 'https://scriptorium.narniano.com/livros/publicada/'].entries()) {
+        const r = await req('POST', BASE, nova({ text: `Frase ${i}.`, scriptoriumUrl: url }));
+        expect(r.statusCode, url).toBe(201);
+      }
+    });
+
+    it('POST com Content-Type JSON e corpo vazio dá 400 no formato do cluster (não FST_ERR_CTP_EMPTY_JSON_BODY)', async () => {
+      const r = await app.inject({ method: 'POST', url: BASE, headers: { cookie, 'content-type': 'application/json' }, payload: '' });
+      expect(r.statusCode).toBe(400);
+      expect(r.json().error).toBe('validation_error');
+      expect(Object.keys(r.json().issues).length).toBeGreaterThan(0);
+    });
+
+    it('PATCH sem corpo dá 400 com issues preenchido', async () => {
+      const { quote } = (await req('POST', BASE, nova())).json();
+      const r = await app.inject({ method: 'PATCH', url: `${BASE}/${quote.id}`, headers: { cookie, 'content-type': 'application/json' }, payload: '' });
+      expect(r.statusCode).toBe(400);
+      expect(r.json().error).toBe('validation_error');
+      expect(Object.keys(r.json().issues).length).toBeGreaterThan(0);
+    });
+
+    it('updatedAt absurdo (ano 0001 ou 9999) não vira 500', async () => {
+      const { quote } = (await req('POST', BASE, nova())).json();
+      for (const updatedAt of ['0001-01-01T00:00:00.000Z', '9999-12-31T23:59:59.999Z']) {
+        const r = await req('PATCH', `${BASE}/${quote.id}`, { text: 'Outro.', updatedAt });
+        expect([400, 409], updatedAt).toContain(r.statusCode);
+      }
+    });
   });
 
   it('PATCH recusa status oculta, id e campo desconhecido; :id inválido dá 400', async () => {

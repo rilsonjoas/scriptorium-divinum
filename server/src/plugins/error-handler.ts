@@ -36,11 +36,24 @@ function issuesDoFastify(validation: NonNullable<FastifyError['validation']>): R
 export function registerErrorHandler(app: FastifyInstance) {
   app.setErrorHandler((error: FastifyError | Error, request, reply) => {
     if (error instanceof ZodError) {
+      const { fieldErrors, formErrors } = error.flatten();
       return reply.status(400).send({
         error: 'validation_error',
         message: 'Parâmetros inválidos',
-        issues: error.flatten().fieldErrors,
+        // erro na raiz (ex.: corpo ausente) não tem campo: sem isto `issues` saía vazio
+        issues: Object.keys(fieldErrors).length > 0 ? fieldErrors : { corpo: formErrors },
         details: { issues: error.issues },
+      });
+    }
+
+    // `Content-Type: application/json` com corpo vazio: o Fastify recusa antes de chegar na validação, com um código
+    // próprio fora do formato do cluster.
+    if ((error as FastifyError).code === 'FST_ERR_CTP_EMPTY_JSON_BODY') {
+      return reply.status(400).send({
+        error: 'validation_error',
+        message: 'Parâmetros inválidos',
+        issues: { corpo: ['O corpo da requisição é obrigatório'] },
+        details: { issues: [{ path: [], message: 'O corpo da requisição é obrigatório' }] },
       });
     }
 

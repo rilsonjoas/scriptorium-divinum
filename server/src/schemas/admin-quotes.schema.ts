@@ -8,11 +8,13 @@ const texto = z.string().trim().min(1).max(TEXTO_MAX);
 const autor = z.string().trim().min(1).max(255);
 const urlHttp = z
   .string()
+  .trim()
   .max(2000)
   .url()
   .refine((u) => /^https?:\/\//i.test(u), 'precisa ser http ou https');
 const dataDoDia = z
   .string()
+  .trim()
   .regex(/^\d{4}-\d{2}-\d{2}$/)
   .refine(isValidDateKey, 'data inexistente no calendário');
 
