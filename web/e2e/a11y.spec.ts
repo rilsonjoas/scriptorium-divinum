@@ -298,3 +298,89 @@ for (const alvo of [
     expect(razao, `contraste ${razao.toFixed(2)}:1`).toBeGreaterThanOrEqual(4.5);
   });
 }
+
+/**
+ * Contraste do herói da home, medido no PIXEL renderizado.
+ *
+ * O axe não pega isto: o herói tem gradiente e textura de fundo, e o axe só
+ * vê `background-color`. Em 30/10/2026 o texto dourado do herói dava 1,34 a
+ * 1,64:1 no tema claro (mínimo 4,5:1) e passava no CI. Aqui o texto fica
+ * transparente, o elemento é fotografado, e o PIOR pixel de fundo é comparado
+ * com a cor real do texto.
+ */
+async function piorContrastePorPixel(page: Page, seletor: string): Promise<number> {
+  const alvo = page.locator(seletor).first();
+  await alvo.waitFor();
+  const cor = await alvo.evaluate((e) => getComputedStyle(e).color);
+  await alvo.evaluate((e) => {
+    e.dataset.corOriginal = e.style.color;
+    e.style.color = 'transparent';
+  });
+  const png = await alvo.screenshot();
+  await alvo.evaluate((e) => {
+    e.style.color = e.dataset.corOriginal ?? '';
+  });
+  return page.evaluate(
+    async ({ b64, cor }) => {
+      const img = new Image();
+      img.src = `data:image/png;base64,${b64}`;
+      await img.decode();
+      const c = document.createElement('canvas');
+      c.width = img.width;
+      c.height = img.height;
+      const g = c.getContext('2d')!;
+      g.drawImage(img, 0, 0);
+      const d = g.getImageData(0, 0, c.width, c.height).data;
+      const lum = (r: number, gg: number, b: number) =>
+        [r, gg, b]
+          .map((v) => {
+            const s = v / 255;
+            return s <= 0.03928 ? s / 12.92 : ((s + 0.055) / 1.055) ** 2.4;
+          })
+          .reduce((soma, v, i) => soma + v * [0.2126, 0.7152, 0.0722][i]!, 0);
+      const t = (cor.match(/[\d.]+/g) ?? []).map(Number);
+      const lt = lum(t[0]!, t[1]!, t[2]!);
+      let pior = Infinity;
+      for (let i = 0; i < d.length; i += 4) {
+        const lb = lum(d[i]!, d[i + 1]!, d[i + 2]!);
+        const [alto, baixo] = lt > lb ? [lt, lb] : [lb, lt];
+        pior = Math.min(pior, (alto + 0.05) / (baixo + 0.05));
+      }
+      return pior;
+    },
+    { b64: png.toString('base64'), cor },
+  );
+}
+
+const TEXTOS_DO_HEROI = [
+  { nome: 'selo "Biblioteca Teológica Clássica"', seletor: 'section span.truncate' },
+  { nome: 'lema "In principio erat Verbum"', seletor: 'section p.font-heading' },
+  { nome: 'descrição "Explore o vasto tesouro…"', seletor: 'section p.font-body' },
+  { nome: 'número de obras', seletor: 'section h3.font-heading >> nth=0' },
+  { nome: 'número de autores', seletor: 'section h3.font-heading >> nth=1' },
+  { nome: 'selo "100%"', seletor: 'section h3.font-heading >> nth=2' },
+  { nome: 'legenda dos números', seletor: 'section div.group p.font-body >> nth=0' },
+];
+
+for (const tema of ['light', 'dark'] as const) {
+  for (const texto of TEXTOS_DO_HEROI) {
+    test(`contraste do herói da home >= 4,5:1 no tema ${tema === 'light' ? 'claro' : 'escuro'} — ${texto.nome}`, async ({ page }) => {
+      await page.addInitScript((t) => localStorage.setItem('scriptorium:theme', t), tema);
+      await mockApi(page);
+      await page.goto('/');
+      await page.waitForLoadState('networkidle');
+      // a home tem animações infinitas (brilho dourado): `finish()` falha nelas, então só as finitas são concluídas
+      await page.evaluate(() =>
+        document.getAnimations().forEach((a) => {
+          try {
+            a.finish();
+          } catch {
+            /* infinita: deixa como está */
+          }
+        }),
+      );
+      const razao = await piorContrastePorPixel(page, texto.seletor);
+      expect(razao, `contraste ${razao.toFixed(2)}:1`).toBeGreaterThanOrEqual(4.5);
+    });
+  }
+}
