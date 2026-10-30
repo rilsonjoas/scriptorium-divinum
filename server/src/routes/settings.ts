@@ -1,6 +1,6 @@
 import type { FastifyInstance } from 'fastify';
 import { z } from 'zod';
-import { zodToJsonSchema } from 'zod-to-json-schema';
+import { zodToJsonSchema } from '../lib/json-schema.js';
 import { getSettings, updateSettings } from '../db/settings-queries.js';
 import { settingsSchema, updateSettingsSchema } from '../schemas/settings.schema.js';
 import { errorResponseSchema } from '../schemas/response.schema.js';

@@ -1,5 +1,5 @@
 import type { FastifyInstance, FastifyError } from 'fastify';
-import { ZodError } from 'zod';
+import { z, ZodError } from 'zod';
 import { isProduction } from '../config.js';
 import { captureException } from '../lib/sentry.js';
 import { UnauthorizedError } from './auth.js';
@@ -36,7 +36,7 @@ function issuesDoFastify(validation: NonNullable<FastifyError['validation']>): R
 export function registerErrorHandler(app: FastifyInstance) {
   app.setErrorHandler((error: FastifyError | Error, request, reply) => {
     if (error instanceof ZodError) {
-      const { fieldErrors, formErrors } = error.flatten();
+      const { fieldErrors, formErrors } = z.flattenError(error);
       return reply.status(400).send({
         error: 'validation_error',
         message: 'Parâmetros inválidos',
