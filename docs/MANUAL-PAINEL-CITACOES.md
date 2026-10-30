@@ -2,7 +2,7 @@
 
 Para quem cuida do acervo (o autor). A tela fica em `https://scriptorium.narniano.com/admin/citacoes`, no item **Citações** do menu do admin. Desenho e regras: `docs/superpowers/specs/2026-10-18-painel-de-citacoes-design.md`. Visão técnica e API: `docs/GERENCIAR-ACERVO.md`.
 
-> **Não grave nada em produção pela tela antes da F5.** Hoje o seed que restaura o banco troca o `id` de todas as citações, e o histórico de cada citação (que guarda o `id`) ficaria órfão. Até a F5 (id estável no arquivo canônico), use a tela só para **ler**: resumo, filtros, histórico, e abrir os formulários e diálogos para olhar (feche pelo Cancelar). Este manual descreve como a tela funciona para o dia em que a F5 estiver pronta.
+> **A tela já pode gravar em produção** (liberada em 29/10/2026, F5). Antes disso o seed que restaura o banco trocava o `id` de cada citação e o histórico ficava órfão; agora o restore preserva o `id`. O que continua valendo: (1) o arquivo `server/scripts/data/quotes-canonical.json` é um espelho que **envelhece** a cada citação criada, editada ou ocultada pela tela (como atualizá-lo: `docs/GERENCIAR-ACERVO.md`, seção "Acrescentar citações", passo 5); (2) a recuperação de desastre de verdade é o **backup do banco**, não esse arquivo; (3) **comece por um rascunho**: ele não aparece no site, dá para ver o histórico dele e, se não gostar, basta ocultá-lo. Citações novas ativas exigem fonte conferida (seção 4).
 
 ## 1. Entrar
 
