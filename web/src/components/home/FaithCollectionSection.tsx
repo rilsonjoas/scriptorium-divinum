@@ -76,7 +76,7 @@ export function FaithCollectionSection() {
         <div className="mt-12 text-center">
           <Link
             to="/livros"
-            className="inline-flex items-center px-6 py-3 rounded-lg border-2 border-library-dourado/60 hover:border-library-dourado bg-card text-library-wood-foreground hover:text-library-dourado-texto font-heading font-semibold text-sm shadow-sm hover:shadow-golden transition-all gap-2"
+            className="inline-flex items-center px-6 py-3 rounded-lg border-2 border-library-dourado/60 hover:border-library-dourado bg-card text-library-wood-foreground hover:text-library-dourado-leitura dark:hover:text-library-dourado-texto font-heading font-semibold text-sm shadow-sm hover:shadow-golden transition-all gap-2"
           >
             <span>Ver Catálogo Completo</span>
             <ArrowRight className="w-4 h-4" />
