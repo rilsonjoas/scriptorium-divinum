@@ -680,3 +680,9 @@ O autor usou a tela pela primeira vez e achou quatro problemas, todos corrigidos
 - **Obra no Scriptorium:** lista das obras publicadas (`GET /books`, até 100), com "(atual)" para valor fora da lista; falha de carga vira campo de texto com aviso.
 - **Menor adiado:** "Tema" segue texto livre (candidato a lista dos temas existentes; a API não expõe a lista hoje).
 - **Remoção dos 2 rascunhos de teste (30/10/2026):** migration `0017_remove_2_rascunhos_de_teste_do_painel` (R3: exclusão física só por migration, com justificativa). Só apaga se o `id` bater e o status ainda for `rascunho`; o histórico em `quote_events` fica. Ensaiada em cópia da produção (272 para 270, duas execuções).
+
+## 30/10/2026 — Menores da F2 e da F3 fechados (validação de entrada do admin)
+
+Revisados contra o uso real da tela. **Corrigidos** (com teste): `fonteUrl` e `verificadoEm` agora aparam espaços nas pontas no servidor (a tela já aparava); `scriptoriumUrl` só aceita `https://scriptorium.narniano.com/livros/<obra>` (antes só o último segmento era conferido, então `https://qualquer.site/livros/obra` passava; os 31 endereços gravados em produção já seguem o formato); `POST`/`PATCH` com `Content-Type: application/json` e corpo vazio dão `400 validation_error` no formato do cluster (antes `FST_ERR_CTP_EMPTY_JSON_BODY`), e erro na raiz do corpo preenche `issues.corpo` (antes `issues` vazio).
+**Não reproduzido:** F2 (4), `updatedAt` com ano 0001 ou 9999 dar 500: devolve 400 ou 409; nada a corrigir.
+**Decisão de não construir:** lista de temas no formulário. Das 270 citações, 265 não têm tema e 5 têm `ceus` (um identificador interno do Gerador, não erro de acento); nenhum consumidor usa o campo além de repassá-lo. Uma lista não resolve problema real; o campo segue opcional e livre.

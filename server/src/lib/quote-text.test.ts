@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { chaveDeTexto, slugDaUrlDoScriptorium } from './quote-text.js';
+import { chaveDeTexto, slugDaUrlDoScriptorium, slugDoEnderecoDaObra } from './quote-text.js';
 
 describe('chaveDeTexto', () => {
   it('ignora caixa, espaços e pontuação', () => {
@@ -20,5 +20,25 @@ describe('slugDaUrlDoScriptorium', () => {
   });
   it('vazio dá vazio', () => {
     expect(slugDaUrlDoScriptorium('')).toBe('');
+  });
+});
+
+describe('slugDoEnderecoDaObra', () => {
+  it('devolve o slug do endereço certo, com ou sem barra no fim', () => {
+    expect(slugDoEnderecoDaObra('https://scriptorium.narniano.com/livros/o-peregrino')).toBe('o-peregrino');
+    expect(slugDoEnderecoDaObra('https://scriptorium.narniano.com/livros/o-peregrino/')).toBe('o-peregrino');
+  });
+
+  it.each([
+    'http://scriptorium.narniano.com/livros/x',
+    'https://evil.example/livros/x',
+    'https://scriptorium.narniano.com.evil.example/livros/x',
+    'https://scriptorium.narniano.com/autores/x',
+    'https://scriptorium.narniano.com/livros/x/y',
+    'https://scriptorium.narniano.com/livros/',
+    'livros/x',
+    '',
+  ])('recusa %s', (url) => {
+    expect(slugDoEnderecoDaObra(url)).toBeNull();
   });
 });
