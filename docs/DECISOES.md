@@ -715,3 +715,7 @@ Revisados contra o uso real da tela. **Corrigidos** (com teste): `fonteUrl` e `v
   - Frentes claras de colaboração: Revisão e Erratas Textuais (mailto estruturado), Indicação de Fontes Primárias Auditáveis, Engenharia Open Source (licença MIT) e Difusão Acadêmica.
   - Seção explícita de Critérios de Admissão de Obras (Marco legal da Lei 9.610/98, integralidade textual e neutralidade histórica/ecumênica).
   - Roteamento direto reativado em `web/src/App.tsx` para as páginas informativas dedicadas (`/contribuir`, `/dominio-publico`, `/ajuda`).
+
+## 30/10/2026 — `PATCH` de ativa para rascunho: a tela não oferece (decisão do autor)
+
+Pendência aberta desde a F2: a API aceita mudar uma citação de `ativa` para `rascunho`, que a tira do ar sem motivo e sem o evento `ocultou`. **Decidido pelo autor: a tela não terá esse botão.** Retirar é ocultar (regra R3): o motivo fica no histórico, e "publicada por engano" é um motivo válido. A API continua aceitando a transição (R1: não se remove capacidade da API sem migrar consumidores; só a tela é o caminho normal). Se um dia a transição virar problema, a correção é no servidor (recusar `ativa` para `rascunho`), não na tela.

@@ -82,7 +82,7 @@ A tela **não** avisa quando você muda só a data de verificação ou o endere�
 ## 9. O que a tela não faz
 
 - **Excluir.** Só migration, com justificativa (citação fabricada, direitos), citando o registro de verificação. Veja `docs/GERENCIAR-ACERVO.md`.
-- **Passar uma ativa para rascunho.** A API aceita; a tela não oferece (decisão do autor ainda aberta). Para tirar uma ativa do ar, oculte.
+- **Passar uma ativa para rascunho.** A API aceita, mas a tela **não oferece, por decisão do autor (30/10/2026)**: tirar uma citação do ar tem de deixar rastro. Para isso, **oculte** (o motivo fica no histórico; se publicou por engano, oculte com esse motivo).
 - **Carga em lote** de muitas citações: migration (`docs/GERENCIAR-ACERVO.md`, seção "Carga em lote").
 
 ## 10. Quando algo dá errado
