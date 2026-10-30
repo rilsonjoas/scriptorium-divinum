@@ -13,7 +13,7 @@ export interface paths {
         };
         /**
          * "Pintura do Dia" — mesma obra pra todo mundo, muda à meia-noite em São Paulo
-         * @description Prioriza a leitura litúrgica do dia (tabela copiada do Lecionário — cobre domingos/festas até 2030-11-24 e dias de semana até 2028-11-29): escolhe entre as obras catalogadas na referência bíblica do dia, com hash determinístico da data. Nenhuma obra exibida nos últimos 30 dias volta: se o pool do capítulo esgotar, usa as obras das outras leituras do dia, depois as do livro, depois o acervo. Fora do período do Lecionário, ou se nenhuma leitura do dia tiver obra catalogada, cai pro sorteio determinístico sobre o acervo publicável. A obra de hoje é gravada na primeira consulta e não muda mais no dia, mesmo se o acervo crescer; `date` passado ou futuro devolve o gravado ou só calcula, sem gravar. O Lecionário consome este mesmo endpoint — as duas pontas mostram a mesma obra no mesmo dia. "Hoje" (quando `date` não é passado) é calculado no fuso de São Paulo, não UTC — achado real em produção (03/09/2026): UTC fazia virar o dia 3h antes do Lecionário, que usa hora local do dispositivo.
+         * @description Prioriza a leitura litúrgica do dia (tabela copiada do Lecionário — cobre domingos/festas até 2030-11-24 e dias de semana até 2028-11-29): escolhe entre as obras catalogadas na referência bíblica do dia, com hash determinístico da data. Nenhuma obra exibida nos últimos 30 dias volta: se o pool do capítulo esgotar, usa as obras das outras leituras do dia, depois as do livro, depois o acervo. Fora do período do Lecionário, ou se nenhuma leitura do dia tiver obra catalogada, cai pro sorteio determinístico sobre o acervo publicável. Devolve também `date` (AAAA-MM-DD): o dia pedido ou o de hoje em São Paulo. A obra de hoje é gravada na primeira consulta e não muda mais no dia, mesmo se o acervo crescer; `date` passado ou futuro devolve o gravado ou só calcula, sem gravar. O Lecionário consome este mesmo endpoint — as duas pontas mostram a mesma obra no mesmo dia. "Hoje" (quando `date` não é passado) é calculado no fuso de São Paulo, não UTC — achado real em produção (03/09/2026): UTC fazia virar o dia 3h antes do Lecionário, que usa hora local do dispositivo.
          */
         get: {
             parameters: {
@@ -41,6 +41,7 @@ export interface paths {
                             classicCommentaryAuthor?: null | string;
                             country?: null | string;
                             createdAt?: (string) | null;
+                            date: string;
                             description: string;
                             dimensionsOrDuration?: null | string;
                             embedUrl?: null | string;
