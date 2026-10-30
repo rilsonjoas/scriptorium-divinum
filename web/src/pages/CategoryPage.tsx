@@ -58,7 +58,7 @@ export default function CategoryPage() {
               </p>
             )}
 
-            <div className="inline-flex items-center gap-2 text-xs font-mono font-semibold px-3 py-1 rounded-full bg-library-gold/15 border border-library-dourado/40 text-library-dourado-texto">
+            <div className="inline-flex items-center gap-2 text-xs font-mono font-semibold px-3 py-1 rounded-full bg-library-gold/15 border border-library-dourado/40 text-library-dourado-leitura dark:text-library-dourado-texto">
               <BookOpen className="w-3.5 h-3.5" />
               <span>
                 {isLoading

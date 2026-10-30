@@ -93,6 +93,7 @@ const ROTAS = [
   { nome: 'catálogo de autores', caminho: '/autores' },
   { nome: 'página do autor', caminho: '/autores/santo-agostinho' },
   { nome: 'busca', caminho: '/busca?q=confissoes' },
+  { nome: 'catálogo de categorias', caminho: '/categorias' },
   { nome: 'categoria', caminho: '/categorias/patristica' },
   { nome: 'sobre (página única)', caminho: '/sobre' },
 ];
@@ -247,3 +248,53 @@ test('foco é visível em tudo que recebe Tab — admin: citações', async ({ p
   const semIndicador = await focoSemIndicador(page);
   expect(semIndicador, `foco sem indicador visível:\n${semIndicador.join('\n')}`).toHaveLength(0);
 });
+
+/**
+ * Contraste medido à mão para texto sobre fundo com textura/transparência: o axe devolve "incompleto" (não
+ * violação) quando o fundo tem `background-image` ou alfa, e passa em silêncio. Foi assim que o dourado claro
+ * (`library-dourado-texto`, 1,3:1) ficou nos cartões de categoria sem o teste acusar (30/10/2026).
+ * Compõe o alfa dos fundos até a raiz sobre branco e compara com a cor do texto (WCAG 1.4.3, 4,5:1).
+ */
+async function razaoDeContraste(page: Page, seletor: string): Promise<number> {
+  return page.evaluate((sel) => {
+    const el = document.querySelector<HTMLElement>(sel);
+    if (!el) throw new Error(`não achei ${sel}`);
+    const rgba = (c: string) => (c.match(/[\d.]+/g) ?? []).map(Number) as number[];
+    const camadas: number[][] = [];
+    for (let n: HTMLElement | null = el; n; n = n.parentElement) {
+      const c = rgba(getComputedStyle(n).backgroundColor);
+      if (c.length >= 3 && (c[3] ?? 1) > 0) camadas.push(c);
+    }
+    // de fora para dentro, sobre branco
+    let fundo = [255, 255, 255];
+    for (const c of camadas.reverse()) {
+      const a = c[3] ?? 1;
+      fundo = fundo.map((v, i) => Math.round((c[i] ?? 0) * a + v * (1 - a)));
+    }
+    const lum = (c: number[]) => {
+      const [r, g, b] = c.map((v) => {
+        const s = (v ?? 0) / 255;
+        return s <= 0.03928 ? s / 12.92 : ((s + 0.055) / 1.055) ** 2.4;
+      });
+      return 0.2126 * (r ?? 0) + 0.7152 * (g ?? 0) + 0.0722 * (b ?? 0);
+    };
+    const texto = rgba(getComputedStyle(el).color).slice(0, 3);
+    const [a, b] = [lum(texto), lum(fundo)].sort((x, y) => y - x);
+    return ((a ?? 0) + 0.05) / ((b ?? 0) + 0.05);
+  }, seletor);
+}
+
+for (const alvo of [
+  { caminho: '/categorias', seletor: 'div.group span.font-mono', nome: 'contagem de obras no cartão' },
+  { caminho: '/categorias', seletor: 'div.group div.border-t', nome: 'chamada "Explorar Estante"' },
+  { caminho: '/categorias/patristica', seletor: 'div.inline-flex.rounded-full', nome: 'selo com a contagem de obras' },
+]) {
+  test(`contraste do dourado no tema claro >= 4,5:1 — ${alvo.nome} (${alvo.caminho})`, async ({ page }) => {
+    await mockApi(page);
+    await page.goto(alvo.caminho);
+    await page.waitForLoadState('networkidle');
+    await page.evaluate(() => document.getAnimations().forEach((a) => a.finish()));
+    const razao = await razaoDeContraste(page, alvo.seletor);
+    expect(razao, `contraste ${razao.toFixed(2)}:1`).toBeGreaterThanOrEqual(4.5);
+  });
+}

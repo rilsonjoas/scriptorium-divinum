@@ -681,6 +681,11 @@ O autor usou a tela pela primeira vez e achou quatro problemas, todos corrigidos
 - **Menor adiado:** "Tema" segue texto livre (candidato a lista dos temas existentes; a API não expõe a lista hoje).
 - **Remoção dos 2 rascunhos de teste (30/10/2026):** migration `0017_remove_2_rascunhos_de_teste_do_painel` (R3: exclusão física só por migration, com justificativa). Só apaga se o `id` bater e o status ainda for `rascunho`; o histórico em `quote_events` fica. Ensaiada em cópia da produção (272 para 270, duas execuções).
 
+## 30/10/2026 — Contraste do dourado nos cartões de categoria (pendência antiga fechada)
+
+`Categorias.tsx` (contagem de obras, título e "Explorar Estante" do cartão), `CategoryPage.tsx` (selo com a contagem) e o botão de `FaithCollectionSection.tsx` usavam `library-dourado-texto` (#EDDFB8, pensado para fundo escuro) sobre o cartão claro: **1,2:1** no tema claro. Passaram ao par já usado na home: `dourado-leitura` (#80651A, 4,99:1) no tema claro e `dourado-texto` no escuro (`dark:`).
+**Por que o teste não pegava:** o axe marca como "incompleto" (não violação) o texto sobre fundo com `background-image`/alfa, e o cartão tem textura de pergaminho; a auditoria passava com o defeito. Novo teste mede o contraste à mão (compõe o alfa dos fundos, WCAG 1.4.3) em três pontos e reprova com a regressão (1,18 a 1,26:1 antes, passa depois). Quem mexer no dourado deve rodar `e2e/a11y.spec.ts`, não confiar só no axe.
+
 ## 30/10/2026 — Menores da F2 e da F3 fechados (validação de entrada do admin)
 
 Revisados contra o uso real da tela. **Corrigidos** (com teste): `fonteUrl` e `verificadoEm` agora aparam espaços nas pontas no servidor (a tela já aparava); `scriptoriumUrl` só aceita `https://scriptorium.narniano.com/livros/<obra>` (antes só o último segmento era conferido, então `https://qualquer.site/livros/obra` passava; os 31 endereços gravados em produção já seguem o formato); `POST`/`PATCH` com `Content-Type: application/json` e corpo vazio dão `400 validation_error` no formato do cluster (antes `FST_ERR_CTP_EMPTY_JSON_BODY`), e erro na raiz do corpo preenche `issues.corpo` (antes `issues` vazio).
