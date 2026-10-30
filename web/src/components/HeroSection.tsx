@@ -25,10 +25,10 @@ export function HeroSection() {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center max-w-4xl mx-auto">
           {/* Badge de Destaque */}
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-library-gold/15 border border-library-dourado/30 text-library-gold font-body text-[11px] sm:text-xs mb-4 sm:mb-6 shadow-golden max-w-full truncate">
-            <span className="text-library-gold shrink-0">✦</span>
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-library-gold/15 border border-library-dourado/30 text-library-dourado-leitura dark:text-library-gold font-body text-[11px] sm:text-xs mb-4 sm:mb-6 shadow-golden max-w-full truncate">
+            <span className="text-library-dourado-leitura dark:text-library-gold shrink-0">✦</span>
             <span className="truncate">Biblioteca Teológica Clássica em Domínio Público</span>
-            <span className="text-library-gold shrink-0">✦</span>
+            <span className="text-library-dourado-leitura dark:text-library-gold shrink-0">✦</span>
           </div>
 
           {/* Main heading */}
@@ -36,11 +36,11 @@ export function HeroSection() {
             {settings?.siteName ?? 'Scriptorium Divinum'}
           </h1>
 
-          <p className="font-heading text-base sm:text-xl md:text-2xl text-library-gold mb-4 sm:mb-6 italic">
+          <p className="font-heading text-base sm:text-xl md:text-2xl text-library-dourado-leitura dark:text-library-gold mb-4 sm:mb-6 italic">
             "In principio erat Verbum"
           </p>
 
-          <p className="font-body text-sm sm:text-base md:text-lg text-library-gold/90 mb-6 sm:mb-8 max-w-3xl mx-auto leading-relaxed px-2 sm:px-0">
+          <p className="font-body text-sm sm:text-base md:text-lg text-library-dourado-leitura dark:text-library-gold/90 mb-6 sm:mb-8 max-w-3xl mx-auto leading-relaxed px-2 sm:px-0">
             {settings?.siteDescription ??
               'O Grande Hall da tradição cristã em língua portuguesa. Da Patrística antiga à Escolástica, da Reforma e Puritanismo à Renovação Católica e aos grandes avivamentos: uma biblioteca clássica, gratuita e aberta, como um presente permanente para a Igreja no Brasil.'}
           </p>
@@ -73,38 +73,38 @@ export function HeroSection() {
 
           {/* Statistics */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
-            <div className="group bg-library-wood/40 border border-library-dourado/20 p-4 rounded-lg backdrop-blur-sm hover:border-library-dourado/50 transition-colors">
+            <div className="group bg-card/70 dark:bg-library-wood/40 border border-library-bronze/40 dark:border-library-dourado/20 p-4 rounded-lg backdrop-blur-sm hover:border-library-dourado/50 transition-colors">
               <div className="w-12 h-12 bg-library-gold/20 rounded-full flex items-center justify-center mx-auto mb-3 group-hover:bg-library-gold/30 transition-colors">
-                <BookOpen className="h-6 w-6 text-library-gold" />
+                <BookOpen className="h-6 w-6 text-library-dourado-leitura dark:text-library-gold" />
               </div>
-              <h3 className="font-heading text-2xl font-semibold text-library-gold mb-1">
+              <h3 className="font-heading text-2xl font-semibold text-library-dourado-leitura dark:text-library-gold mb-1">
                 {totalBooks > 0 ? `${totalBooks}` : "..."}
               </h3>
-              <p className="font-body text-xs text-library-gold/80">
+              <p className="font-body text-xs text-library-dourado-leitura dark:text-library-gold/80">
                 Obra{totalBooks !== 1 ? "s" : ""} Clássica{totalBooks !== 1 ? "s" : ""}
               </p>
             </div>
 
-            <div className="group bg-library-wood/40 border border-library-dourado/20 p-4 rounded-lg backdrop-blur-sm hover:border-library-dourado/50 transition-colors">
+            <div className="group bg-card/70 dark:bg-library-wood/40 border border-library-bronze/40 dark:border-library-dourado/20 p-4 rounded-lg backdrop-blur-sm hover:border-library-dourado/50 transition-colors">
               <div className="w-12 h-12 bg-library-gold/20 rounded-full flex items-center justify-center mx-auto mb-3 group-hover:bg-library-gold/30 transition-colors">
-                <Users className="h-6 w-6 text-library-gold" />
+                <Users className="h-6 w-6 text-library-dourado-leitura dark:text-library-gold" />
               </div>
-              <h3 className="font-heading text-2xl font-semibold text-library-gold mb-1">
+              <h3 className="font-heading text-2xl font-semibold text-library-dourado-leitura dark:text-library-gold mb-1">
                 {totalAuthors > 0 ? `${totalAuthors}` : "..."}
               </h3>
-              <p className="font-body text-xs text-library-gold/80">
+              <p className="font-body text-xs text-library-dourado-leitura dark:text-library-gold/80">
                 Autor{totalAuthors !== 1 ? "es" : ""} Histórico{totalAuthors !== 1 ? "s" : ""}
               </p>
             </div>
 
-            <div className="group bg-library-wood/40 border border-library-dourado/20 p-4 rounded-lg backdrop-blur-sm hover:border-library-dourado/50 transition-colors">
+            <div className="group bg-card/70 dark:bg-library-wood/40 border border-library-bronze/40 dark:border-library-dourado/20 p-4 rounded-lg backdrop-blur-sm hover:border-library-dourado/50 transition-colors">
               <div className="w-12 h-12 bg-library-gold/20 rounded-full flex items-center justify-center mx-auto mb-3 group-hover:bg-library-gold/30 transition-colors">
-                <Download className="h-6 w-6 text-library-gold" />
+                <Download className="h-6 w-6 text-library-dourado-leitura dark:text-library-gold" />
               </div>
-              <h3 className="font-heading text-2xl font-semibold text-library-gold mb-1">
+              <h3 className="font-heading text-2xl font-semibold text-library-dourado-leitura dark:text-library-gold mb-1">
                 100%
               </h3>
-              <p className="font-body text-xs text-library-gold/80">Domínio Público Gratuito</p>
+              <p className="font-body text-xs text-library-dourado-leitura dark:text-library-gold/80">Domínio Público Gratuito</p>
             </div>
           </div>
         </div>
