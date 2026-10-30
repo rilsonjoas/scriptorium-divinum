@@ -263,9 +263,8 @@ volta à mesa (seção "Ordem recomendada").
   Os 114 capítulos integrais dos 4 livros foram completamente localizados, limpos do ruído de OCR
   e estruturados com cabeçalhos canônicos conferidos contra o índice impresso de 1848 (`docs/imitacao-de-cristo-indice-1848.json`).
   Script SQL de ativação (movido para a migration `0009` em 2026-10-16; o arquivo `scripts/ativar_imitacao_de_cristo_2026-09-29.sql` é histórico) com status de revisão humana aprovada e domínio público.
-- [ ] **Os Últimos Fins do Homem (Padre Manuel Bernardes)**: idem, e pior —
-  só 14 marcadores "CAPITULO" no scan inteiro. Considerar buscar outro
-  scan do Internet Archive antes de tentar salvar este.
+- [x] **Os Últimos Fins do Homem (Padre Manuel Bernardes)** — Encerrado / Descartado das pendências (2026-10-30).
+  O único scan histórico disponível no Internet Archive (edição de 1768) continha truncamento severo de OCR e capítulos omitidos sem correspondência documental auditável. Como o autor já está canonicamente representado no acervo por duas grandes obras integrais auditadas (*Nova Floresta* e *Luz e Calor para Bem Viver*), a tentativa de resgate desse scan corrompido foi definitivamente encerrada para preservar o critério de 100% de integridade editorial.
 
 ## P2.5 — UX/UI, Leitor Digital & Atenção a Detalhes
 
@@ -1210,7 +1209,8 @@ no `meus-remedios` (único projeto pessoal com OAuth de usuário real hoje)
 
 - [ ] **Continuar busca e curadoria de material** — tarefa contínua. Priorizar domínio público verificado.
 - [ ] **Tradução de livros com IA** — avaliar viabilidade: qual modelo? qual pipeline de revisão? Qual licença do original permite tradução e redistribuição? Não começar sem definir isso.
-- [ ] **"Como Contribuir" — revisar o que é realmente viável** — a página parece escrita para um projeto com equipe. Reescrever para a realidade: projeto de 1 pessoa, contribuições limitadas, foco em curadoria e sugestões.
+- [x] **"Como Contribuir" — reescrita com tom profissional, neutro e institucional** — ✅ ENTREGUE 2026-10-30.
+  Página reformulada com sobriedade em `web/src/pages/Contribuir.tsx`: foco em apontamento de erratas editoriais, indicação de fontes primárias em domínio público, desenvolvimento open source (MIT) e difusão acadêmica/formativa, sem artificialismos de equipe e com critérios claros de admissão de obras (Lei 9.610/98 e fidelidade canônica).
 
 ---
 

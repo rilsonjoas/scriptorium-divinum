@@ -687,3 +687,20 @@ O autor usou a tela pela primeira vez e achou quatro problemas, todos corrigidos
 **Painel:** ocultar com `409` avisa, recarrega a lista e fecha o diálogo; Reativar fica desabilitado ("Reativando…") enquanto envia; depois de ocultar ou reativar o foco vai para o título da página (a linha que mudou sai ou troca de lugar; WCAG 2.4.3); falha ao atualizar a lista em segundo plano avisa que a tela pode estar desatualizada.
 **Avisos do Gerador:** o aviso nomeia o que muda (`texto`, `obra`, `tema`, `domínio público`, `autor`) em vez de dizer sempre "o texto muda"; corrigir a grafia do autor (`C.S. Lewis` para `C. S. Lewis`) passa a avisar, porque o autor entra no link de compra; o "antes" do aviso depois de "Carregar a versão atual" é a versão carregada (o formulário devolve `antes` em `onSaved`); o aviso mora numa região viva e o título deixou de ser um `h5` solto. O manual lista os gatilhos reais.
 **Ainda aberto (menor):** alternar domínio público avisa mesmo quando a obra não é da curadoria e o link de compra fica nulo (precisaria da lista da curadoria no cliente).
+
+---
+
+## 2026-10-30 — Encerramento de Pendência de Scan Corrompido (Os Últimos Fins do Homem) e Redefinição Profissional de "Como Contribuir"
+
+**Entregue** em 2026-10-30.
+
+**1. Descarte de scan corrompido de Manuel Bernardes:**
+- *Contexto:* A obra *Os Últimos Fins do Homem* (Padre Manuel Bernardes) vinha sendo mantida como pendência na expectativa de um escaneamento limpo. O scan de 1768 do Internet Archive possuía apenas 14 marcadores para dezenas de capítulos e texto severamente fragmentado.
+- *Decisão:* Descartada definitivamente das pendências. O Scriptorium já preserva com excelência duas grandes obras completas de Manuel Bernardes (*Nova Floresta* e *Luz e Calor para Bem Viver*). Sem fonte documental primária íntegra, a integridade do acervo prevalece sobre a quantidade.
+
+**2. Reformulação profissional da página "Como Contribuir" (`web/src/pages/Contribuir.tsx`):**
+- *Contexto:* O texto anterior oscilava entre chamadas de voluntariado informal com badges coloridos e uma autoimagem de grande comitê institucional.
+- *Decisão:* Tom ajustado para neutralidade, sobriedade e rigor documental:
+  - Frentes claras de colaboração: Revisão e Erratas Textuais (mailto estruturado), Indicação de Fontes Primárias Auditáveis, Engenharia Open Source (licença MIT) e Difusão Acadêmica.
+  - Seção explícita de Critérios de Admissão de Obras (Marco legal da Lei 9.610/98, integralidade textual e neutralidade histórica/ecumênica).
+  - Roteamento direto reativado em `web/src/App.tsx` para as páginas informativas dedicadas (`/contribuir`, `/dominio-publico`, `/ajuda`).
