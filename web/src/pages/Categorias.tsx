@@ -143,12 +143,12 @@ export default function Categorias() {
                 >
                   <div>
                     <div className="flex items-center justify-between mb-4">
-                      <span className="text-xs font-mono font-semibold px-2.5 py-1 rounded-full bg-library-gold/10 border border-library-bronze/40 text-library-dourado-texto">
+                      <span className="text-xs font-mono font-semibold px-2.5 py-1 rounded-full bg-library-gold/10 border border-library-bronze/40 text-library-dourado-leitura dark:text-library-dourado-texto">
                         {catData.bookCount} {catData.bookCount === 1 ? 'obra' : 'obras'}
                       </span>
                     </div>
 
-                    <h3 className="font-display text-xl font-bold text-library-wood-foreground group-hover:text-library-dourado-texto transition-colors mb-2">
+                    <h3 className="font-display text-xl font-bold text-library-wood-foreground group-hover:text-library-dourado-leitura dark:group-hover:text-library-dourado-texto transition-colors mb-2">
                       {catData.name}
                     </h3>
 
@@ -157,7 +157,7 @@ export default function Categorias() {
                     </p>
                   </div>
 
-                  <div className="pt-3 border-t border-library-bronze/20 flex items-center justify-between text-xs font-heading font-semibold text-library-dourado-texto group-hover:text-library-dourado">
+                  <div className="pt-3 border-t border-library-bronze/20 flex items-center justify-between text-xs font-heading font-semibold text-library-dourado-leitura dark:text-library-dourado-texto group-hover:text-library-canela dark:group-hover:text-library-dourado">
                     <span>Explorar Estante</span>
                     <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1.5 transition-transform" />
                   </div>

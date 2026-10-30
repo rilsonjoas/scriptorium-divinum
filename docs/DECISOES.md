@@ -680,3 +680,8 @@ O autor usou a tela pela primeira vez e achou quatro problemas, todos corrigidos
 - **Obra no Scriptorium:** lista das obras publicadas (`GET /books`, até 100), com "(atual)" para valor fora da lista; falha de carga vira campo de texto com aviso.
 - **Menor adiado:** "Tema" segue texto livre (candidato a lista dos temas existentes; a API não expõe a lista hoje).
 - **Remoção dos 2 rascunhos de teste (30/10/2026):** migration `0017_remove_2_rascunhos_de_teste_do_painel` (R3: exclusão física só por migration, com justificativa). Só apaga se o `id` bater e o status ainda for `rascunho`; o histórico em `quote_events` fica. Ensaiada em cópia da produção (272 para 270, duas execuções).
+
+## 30/10/2026 — Contraste do dourado nos cartões de categoria (pendência antiga fechada)
+
+`Categorias.tsx` (contagem de obras, título e "Explorar Estante" do cartão), `CategoryPage.tsx` (selo com a contagem) e o botão de `FaithCollectionSection.tsx` usavam `library-dourado-texto` (#EDDFB8, pensado para fundo escuro) sobre o cartão claro: **1,2:1** no tema claro. Passaram ao par já usado na home: `dourado-leitura` (#80651A, 4,99:1) no tema claro e `dourado-texto` no escuro (`dark:`).
+**Por que o teste não pegava:** o axe marca como "incompleto" (não violação) o texto sobre fundo com `background-image`/alfa, e o cartão tem textura de pergaminho; a auditoria passava com o defeito. Novo teste mede o contraste à mão (compõe o alfa dos fundos, WCAG 1.4.3) em três pontos e reprova com a regressão (1,18 a 1,26:1 antes, passa depois). Quem mexer no dourado deve rodar `e2e/a11y.spec.ts`, não confiar só no axe.
