@@ -127,6 +127,13 @@
       "when": 1793383586607,
       "tag": "0017_remove_2_rascunhos_de_teste_do_painel",
       "breakpoints": true
+    },
+    {
+      "idx": 18,
+      "version": "7",
+      "when": 1793384058704,
+      "tag": "0018_remove_teste_oculto_do_painel",
+      "breakpoints": true
     }
   ]
 }
