@@ -38,7 +38,8 @@ export function QuotesPanel() {
   const avisarGerador = (antes: AdminQuote | null, depois: AdminQuote) => {
     if (!mudaCopiaDoGerador(antes, depois)) return;
     toast.warning('Atualize a cópia do Gerador C. S. Lewis', {
-      description: 'Rode npm run quotes:sync no repositório do Gerador, revise o diff e publique (passo a passo no manual do painel).',
+      description:
+        'Rode gh workflow run sync-quotes.yml --repo rilsonjoas/GeradorCSLewis, confira o PR que ele abre e mescle (passo a passo no manual do painel).',
       duration: 20000,
     });
   };

@@ -251,7 +251,7 @@ hoje e ±30 dias. Consequências para quem edita o acervo:
 - **Acrescentar ou remover citações não muda os dias já mostrados** (dentro dos ±30 dias). Antes mudava todos.
 - **Apagar a citação que está gravada num dia** faz só aquele dia escolher outra, na próxima consulta.
 - **O dia de hoje, se ninguém o consultou ainda**, e os dias além de ±30, refletem o acervo de agora.
-- `server/scripts/seed-quotes.ts` (restaurar do zero) apaga `quotes` e, em cascata, `daily_quotes`. Nunca em produção.
+- `server/scripts/seed-quotes.ts` (restaurar do zero) apaga `quotes` e, em cascata, `daily_quotes`. Nunca em produção. Desde a F5 ele **preserva o `id`** de cada citação (o histórico de `quote_events`, o Gerador e o canário continuam ligados), valida o arquivo antes de apagar e roda numa transação: arquivo inválido deixa a tabela como estava.
 - Para forçar outra frase num dia específico (raro): `UPDATE daily_quotes SET quote_id = '<id>' WHERE date_key = 'AAAA-MM-DD';`.
   Faça backup antes; quem consultar o dia depois disso recebe a nova frase.
 - Decisão e motivos: `docs/adr/001-citacao-do-dia-api-central.md`, atualização de 17/10/2026 (2).
@@ -280,7 +280,7 @@ condição só (`quotesAtivas()`, `server/src/db/quotes.ts`). `oculta` e `rascun
   O Narniano guarda cache de até 6 h.
 - **Excluir de verdade** (citação fabricada, direitos) continua sendo migration `DELETE`, citando o registro de verificação. O histórico em
   `quote_events` não tem chave estrangeira, justamente para sobreviver à exclusão.
-- `export-quotes-canonical.ts` exporta também as não ativas, e `seed-quotes.ts` preserva o `status`: um restore não ressuscita o que foi ocultado.
+- O canônico (`server/scripts/data/quotes-canonical.json`) leva `id`, `status` e `motivoOcultacao`, inclusive das não ativas: um restore não ressuscita o que foi ocultado e não troca ids.
 
 ### API de administração de citações (F2) e tela `/admin/citacoes` (F3)
 
@@ -330,7 +330,12 @@ Mesmo depois da F5, a migration continua sendo o caminho para **muitas citaçõe
    `dominio_publico = false` gera o botão de compra, mas **só se a obra em `source` for conhecida** (`isCuratedSource`); sem isso a citação
    aparece sem link, de propósito. `scriptorium_url` só se aponta para uma obra **publicada** (o verificador confere).
 4. **Ensaie** com `scripts/ensaiar-migrate.sh <dump da produção>` e rode `pnpm --filter server acervo:verificar`.
-5. **Depois do deploy**, rode `export-quotes-canonical.ts` (banco → JSON) para o backup acompanhar o banco.
+5. **Depois do deploy**, atualize o canônico a partir da produção (só leitura), no seu terminal, na raiz do repositório:
+   ```
+   ssh narniano@debian13-4gb-narniano 'docker exec -i postgres-shared psql -U postgres -d scriptorium_divinum_db -At' < server/scripts/data/export-quotes-canonical.sql > /tmp/quotes.json
+   node -e 'const fs=require("fs");fs.writeFileSync("server/scripts/data/quotes-canonical.json",JSON.stringify(JSON.parse(fs.readFileSync("/tmp/quotes.json","utf8")),null,2)+"\n")'
+   ```
+   A consulta ordena por ponto de código, então o arquivo só muda quando o acervo muda. O canônico é um **espelho legível e a semente de um ambiente novo**; a recuperação de desastre de verdade é o backup do banco. Ele envelhece a cada citação criada, editada ou ocultada pela tela: atualize antes de usá-lo para restaurar qualquer coisa.
 
 **O que acontece quando a citação entra** (testado em `quotes-gravada.integration.test.ts`):
 - Ela aparece **na hora** na lista (`GET /quotes`) e no sorteio, portanto no Gerador.

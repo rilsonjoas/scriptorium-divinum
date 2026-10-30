@@ -58,17 +58,22 @@ Texto corrigido de uma citação ativa vale também para os dias em que ela já 
 
 ## 7. Citações de C. S. Lewis: atualizar o Gerador
 
-O Gerador C. S. Lewis lê as citações ao vivo (até 10 minutos de atraso), mas guarda também uma **cópia embutida** para quando o Scriptorium estiver fora do ar. Essa cópia só muda quando alguém a regera. Por isso, depois de **criar uma citação ativa, editar texto, obra ou tema, ocultar ou reativar** uma citação de Lewis, a tela mostra o aviso "Depois, atualize a cópia do Gerador C. S. Lewis" (e um aviso rápido de 20 segundos depois de salvar). Os passos:
+O Gerador C. S. Lewis lê as citações ao vivo (até 10 minutos de atraso), mas guarda também uma **cópia embutida** para quando o Scriptorium estiver fora do ar. Essa cópia só muda quando alguém a regera. Por isso, depois de **criar uma citação ativa, editar texto, obra ou tema, ocultar ou reativar** uma citação de Lewis, a tela mostra o aviso "Depois, atualize a cópia do Gerador C. S. Lewis" (e um aviso rápido de 20 segundos depois de salvar).
 
-```
-cd gerador-cslewis && git pull
-npm run quotes:sync
-git diff src/data/lewis-quotes.snapshot.json
-```
+**O caminho normal são dois passos:**
 
-O `git diff` deve mostrar só a mudança que você fez: o `id` que saiu, o texto que mudou ou a citação nova. Depois, commit, PR e publicar. O arquivo no GitHub: `https://github.com/rilsonjoas/GeradorCSLewis/blob/main/src/data/lewis-quotes.snapshot.json`. Para só conferir se a cópia está em dia, sem gravar: `npm run quotes:sync -- --check`.
+1. Disparar o fluxo, no seu terminal. **Depois de ocultar uma citação, dispare agora e não espere**: o canário acusa erro a cada hora até o PR ser mesclado. Nos outros casos também pode esperar o PR do dia, que sai por volta das 06:00 em Brasília (o GitHub às vezes atrasa agendamentos):
+   ```
+   gh workflow run sync-quotes.yml --repo rilsonjoas/GeradorCSLewis
+   ```
+   O fluxo roda `npm run quotes:sync -- --check`; se a cópia estiver diferente da API, regera o arquivo e abre (ou atualiza) um PR na branch `chore/sync-quotes-snapshot`, com o resumo do que entra, sai e muda. Sem diferença nas citações, não abre nada.
+2. Abrir o PR, conferir o diff de `src/data/lewis-quotes.snapshot.json` e mesclar. O esperado é só a sua mudança: o `id` que saiu, o texto que mudou ou a citação nova. O merge dispara o deploy do Gerador. O arquivo no GitHub: `https://github.com/rilsonjoas/GeradorCSLewis/blob/main/src/data/lewis-quotes.snapshot.json`.
 
-A tela **não** avisa quando você muda só a data de verificação ou o endereço da conferência, nem quando mexe em rascunho ou oculta: a cópia não guarda esses dados. Se você esquecer o passo, o canário do cluster só enxerga **quais citações** existem na cópia: acusa erro em até 1 hora se a cópia ainda tem uma citação retirada, avisa se falta uma nova, e **não percebe** texto, obra ou tema corrigidos (nesse caso a cópia continua servindo a versão antiga em silêncio, e só você lembrando evita isso). Na F5 isso vira um PR automático.
+**À mão** (se o GitHub Actions estiver fora): `cd gerador-cslewis && git pull`, `npm run quotes:sync`, `git diff src/data/lewis-quotes.snapshot.json`, commit, PR e publicar. Para só conferir se a cópia está em dia, sem gravar: `npm run quotes:sync -- --check`. No `git diff` aparecem também `geradoEm` (muda a cada execução) e `total` (se uma citação entrou ou saiu); só as citações importam.
+
+A tela **não** avisa quando você muda só a data de verificação ou o endereço da conferência, nem quando mexe em rascunho ou oculta: a cópia não guarda esses dados.
+
+**Se o PR não for mesclado**, o canário do cluster (de hora em hora) reage assim: **erro** (derruba o status no Kuma) se a cópia ainda tem uma citação retirada; **aviso** se falta uma citação nova ou se o texto, a obra, o tema ou o link de compra de alguma está diferente da API. O aviso **não derruba o status**: fica no log do canário (`/var/backups/hetzner-infra/canario-api.log`) e no resumo enviado ao Kuma, e se ninguém olhar ali, a cópia continua velha. Quem garante é você mesclando o PR.
 
 ## 8. Histórico
 
