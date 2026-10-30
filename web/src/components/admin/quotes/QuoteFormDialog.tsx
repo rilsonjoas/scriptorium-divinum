@@ -1,4 +1,4 @@
-import { useId, useMemo, useRef, useState, type ReactNode } from 'react';
+import { useEffect, useId, useMemo, useRef, useState, type ReactNode } from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
@@ -15,6 +15,8 @@ import {
 import { ApiError, atualDe, issuesDe } from '@/lib/api-client';
 import { efeitoNoGerador } from '@/lib/gerador';
 import { TEXTO_MAX, validarCitacao } from '@/lib/validarCitacao';
+import { hojeISO, normalizarUrl, slugDaObra, urlDaObra } from '@/lib/formularioCitacao';
+import { booksService } from '@/services/database';
 import { AvisoGerador } from './AvisoGerador';
 import { adminQuotes, type AdminQuote, type QuoteFormValues } from '@/services/adminQuotes';
 
@@ -53,6 +55,17 @@ function deQuote(q?: AdminQuote): QuoteFormValues {
     // Ativa fica ativa; oculta é editada sem exigir fonte (a regra é da reativação).
     status: q.status === 'ativa' ? 'ativa' : 'rascunho',
   };
+}
+
+const NOVO_AUTOR = '__novo__';
+// Mesmo visual do `Input` (borda, fundo, foco), para a lista não parecer de outro formulário.
+const CLASSE_SELECT =
+  'flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm';
+
+/** Obra publicada oferecida no seletor do endereço da obra no Scriptorium. */
+interface ObraPublicada {
+  slug: string;
+  rotulo: string;
 }
 
 const CAMPOS_TEXTO = ['author', 'text', 'source', 'scriptoriumUrl', 'theme', 'fonteUrl', 'verificadoEm'] as const;
@@ -98,7 +111,30 @@ function Formulario({ onOpenChange, quote, autoresExistentes, onSaved }: Props) 
   const [erroGeral, setErroGeral] = useState<string | null>(null);
   const [pendente, setPendente] = useState(false);
   const enviando = useRef(false);
+  const [escolheuAutorNovo, setEscolheuAutorNovo] = useState(false);
+  // `null` = carregando; 'erro' = a lista não veio (o campo vira texto livre, a API continua validando).
+  const [obras, setObras] = useState<ObraPublicada[] | 'erro' | null>(null);
 
+  useEffect(() => {
+    let vivo = true;
+    booksService
+      .getAll({ limit: 100, includeUnavailable: true })
+      .then((r) => {
+        if (!vivo) return;
+        setObras(
+          r.items
+            .filter((b) => b.slug)
+            .map((b) => ({ slug: b.slug as string, rotulo: `${b.title}, ${b.author?.name ?? 'autor desconhecido'}` })),
+        );
+      })
+      .catch(() => vivo && setObras('erro'));
+    return () => {
+      vivo = false;
+    };
+  }, []);
+
+  // Autor fora da lista (inédito, ou legado) mostra o campo de texto; a lista é o caminho normal.
+  const autorNovo = escolheuAutorNovo || (v.author !== '' && !autoresExistentes.includes(v.author));
   const novo = !base || base.status === 'rascunho';
   const erros = useMemo(() => validarCitacao(v, { autoresExistentes, novo }), [v, autoresExistentes, novo]);
   const mudancas = base ? diferencas(base, v) : null;
@@ -191,18 +227,37 @@ function Formulario({ onOpenChange, quote, autoresExistentes, onSaved }: Props) 
         </Alert>
       )}
 
-      <Campo id={`${uid}-author`} rotulo="Autor *" erro={mensagemDe('author')}>
+      <Campo id={`${uid}-author`} rotulo="Autor *" erro={autorNovo ? undefined : mensagemDe('author')}>
         {(ligar) => (
-          <>
-            <Input {...ligar} list={`${uid}-autores`} value={v.author} onChange={(e) => mudar('author', e.target.value)} />
-            <datalist id={`${uid}-autores`}>
-              {autoresExistentes.map((a) => (
-                <option key={a} value={a} />
-              ))}
-            </datalist>
-          </>
+          <select
+            {...ligar}
+            className={CLASSE_SELECT}
+            value={autorNovo ? NOVO_AUTOR : v.author}
+            onChange={(e) => {
+              if (e.target.value === NOVO_AUTOR) {
+                setEscolheuAutorNovo(true);
+                mudar('author', '');
+              } else {
+                setEscolheuAutorNovo(false);
+                mudar('author', e.target.value);
+              }
+            }}
+          >
+            <option value="">Escolha o autor…</option>
+            {autoresExistentes.map((a) => (
+              <option key={a} value={a}>
+                {a}
+              </option>
+            ))}
+            <option value={NOVO_AUTOR}>Outro autor (novo)…</option>
+          </select>
         )}
       </Campo>
+      {autorNovo && (
+        <Campo id={`${uid}-author-novo`} rotulo="Nome do novo autor" erro={mensagemDe('author')}>
+          {(ligar) => <Input {...ligar} value={v.author} onChange={(e) => mudar('author', e.target.value)} />}
+        </Campo>
+      )}
 
       <Campo
         id={`${uid}-text`}
@@ -220,22 +275,75 @@ function Formulario({ onOpenChange, quote, autoresExistentes, onSaved }: Props) 
       <div className="grid gap-4 sm:grid-cols-2">
         <Campo id={`${uid}-fonteUrl`} rotulo={v.status === 'ativa' && novo ? 'Endereço da conferência *' : 'Endereço da conferência'} erro={mensagemDe('fonteUrl')}>
           {(ligar) => (
-            <Input {...ligar} inputMode="url" placeholder="https://" value={v.fonteUrl} onChange={(e) => mudar('fonteUrl', e.target.value)} />
+            <Input
+              {...ligar}
+              inputMode="url"
+              value={v.fonteUrl}
+              onFocus={() => {
+                // Preenche o esquema sem contar como "tocado": ainda não é um erro de quem não digitou nada.
+                if (v.fonteUrl === '') setV((a) => ({ ...a, fonteUrl: 'https://' }));
+              }}
+              onBlur={() => {
+                const n = normalizarUrl(v.fonteUrl);
+                if (n !== v.fonteUrl) mudar('fonteUrl', n);
+              }}
+              onChange={(e) => mudar('fonteUrl', e.target.value)}
+            />
           )}
         </Campo>
         <Campo id={`${uid}-verificadoEm`} rotulo={v.status === 'ativa' && novo ? 'Conferida em *' : 'Conferida em'} erro={mensagemDe('verificadoEm')}>
           {(ligar) => (
-            <Input {...ligar} placeholder="AAAA-MM-DD" value={v.verificadoEm} onChange={(e) => mudar('verificadoEm', e.target.value)} />
+            <div className="flex gap-2">
+              <Input
+                {...ligar}
+                type="date"
+                max={hojeISO()}
+                value={v.verificadoEm}
+                onChange={(e) => mudar('verificadoEm', e.target.value)}
+              />
+              <Button type="button" variant="outline" onClick={() => mudar('verificadoEm', hojeISO())}>
+                Hoje
+              </Button>
+            </div>
           )}
         </Campo>
       </div>
 
       <div className="grid gap-4 sm:grid-cols-2">
-        <Campo id={`${uid}-scriptoriumUrl`} rotulo="Endereço da obra no Scriptorium" erro={mensagemDe('scriptoriumUrl')}>
-          {(ligar) => (
-            <Input {...ligar} inputMode="url" value={v.scriptoriumUrl} onChange={(e) => mudar('scriptoriumUrl', e.target.value)} />
-          )}
-        </Campo>
+        {obras === 'erro' || obras === null ? (
+          <Campo
+            id={`${uid}-scriptoriumUrl`}
+            rotulo="Endereço da obra no Scriptorium"
+            erro={mensagemDe('scriptoriumUrl')}
+            dica={obras === 'erro' ? 'Não foi possível carregar a lista de obras. Cole o endereço de uma obra publicada.' : undefined}
+          >
+            {(ligar) => (
+              <Input
+                {...ligar}
+                inputMode="url"
+                value={v.scriptoriumUrl}
+                disabled={obras === null}
+                onChange={(e) => mudar('scriptoriumUrl', e.target.value)}
+              />
+            )}
+          </Campo>
+        ) : (
+          <Campo id={`${uid}-scriptoriumUrl`} rotulo="Obra no Scriptorium" erro={mensagemDe('scriptoriumUrl')}>
+            {(ligar) => (
+              <select {...ligar} className={CLASSE_SELECT} value={v.scriptoriumUrl} onChange={(e) => mudar('scriptoriumUrl', e.target.value)}>
+                <option value="">Nenhuma</option>
+                {v.scriptoriumUrl !== '' && !obras.some((o) => urlDaObra(o.slug) === v.scriptoriumUrl) && (
+                  <option value={v.scriptoriumUrl}>(atual) {slugDaObra(v.scriptoriumUrl)}</option>
+                )}
+                {obras.map((o) => (
+                  <option key={o.slug} value={urlDaObra(o.slug)}>
+                    {o.rotulo}
+                  </option>
+                ))}
+              </select>
+            )}
+          </Campo>
+        )}
         <Campo id={`${uid}-theme`} rotulo="Tema" erro={mensagemDe('theme')}>
           {(ligar) => <Input {...ligar} value={v.theme} onChange={(e) => mudar('theme', e.target.value)} />}
         </Campo>
@@ -259,7 +367,7 @@ function Formulario({ onOpenChange, quote, autoresExistentes, onSaved }: Props) 
           {(ligar) => (
             <select
               {...ligar}
-              className="h-10 rounded-md border border-library-bronze bg-background px-3 font-body text-sm"
+              className={CLASSE_SELECT}
               value={v.status}
               onChange={(e) => mudar('status', e.target.value as QuoteFormValues['status'])}
             >

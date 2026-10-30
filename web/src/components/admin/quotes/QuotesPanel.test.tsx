@@ -1,14 +1,16 @@
 import { beforeEach, describe, expect, it, vi } from 'vitest';
-import { render, screen, waitFor, within } from '@testing-library/react';
+import { fireEvent, render, screen, waitFor, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { MemoryRouter } from 'react-router-dom';
 import { toast } from 'sonner';
 import { ApiError } from '@/lib/api-client';
+import { booksService } from '@/services/database';
 import { adminQuotes, quoteKeys, type AdminQuoteItem, type QuoteListResponse } from '@/services/adminQuotes';
 import { AdminLayout } from '@/components/AdminLayout';
 import { QuotesPanel } from './QuotesPanel';
 
+vi.mock('@/services/database', () => ({ booksService: { getAll: vi.fn() } }));
 vi.mock('sonner', () => ({ toast: { success: vi.fn(), error: vi.fn(), warning: vi.fn() } }));
 vi.mock('@/contexts/AuthContext', () => ({
   useAuth: () => ({ admin: { id: 'ad1', email: 'admin@teste.com', name: 'Admin' }, signOut: vi.fn() }),
@@ -60,6 +62,7 @@ function montar() {
 beforeEach(() => {
   vi.resetAllMocks();
   vi.mocked(adminQuotes.list).mockResolvedValue(lista([ativa, oculta]));
+  vi.mocked(booksService.getAll).mockResolvedValue({ items: [], total: 0, page: 1, limit: 100, totalPages: 1 } as never);
 });
 
 describe('QuotesPanel', () => {
@@ -77,7 +80,8 @@ describe('QuotesPanel', () => {
     await screen.findByText('Texto da ativa.');
     await user.click(screen.getByRole('button', { name: 'Nova citação' }));
     const dialogo = await screen.findByRole('dialog');
-    await user.type(within(dialogo).getByLabelText(/^Autor/), 'Outro');
+    await user.selectOptions(within(dialogo).getByLabelText(/^Autor/), 'Outro autor (novo)…');
+    await user.type(within(dialogo).getByLabelText('Nome do novo autor'), 'Outro');
     await user.type(within(dialogo).getByLabelText(/^Texto/), 'Nova citação de teste.');
     await user.click(within(dialogo).getByRole('button', { name: 'Salvar' }));
     await waitFor(() => expect(adminQuotes.create).toHaveBeenCalled());
@@ -222,8 +226,7 @@ describe('QuotesPanel: toast do Gerador', () => {
     const { user } = montar();
     await user.click(await screen.findByRole('button', { name: 'Editar citação de C. S. Lewis' }));
     let dialogo = await screen.findByRole('dialog');
-    await user.clear(within(dialogo).getByLabelText(/^Conferida em/));
-    await user.type(within(dialogo).getByLabelText(/^Conferida em/), '2026-10-02');
+    fireEvent.change(within(dialogo).getByLabelText(/^Conferida em/), { target: { value: '2026-10-02' } });
     await user.click(within(dialogo).getByRole('button', { name: 'Salvar' }));
     await waitFor(() => expect(toast.success).toHaveBeenCalledWith('Citação atualizada'));
     expect(avisouDoGerador()).toBe(false);
