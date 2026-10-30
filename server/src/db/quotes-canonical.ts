@@ -86,6 +86,47 @@ export function ordenarCanonico<T extends Pick<CanonicalQuote, 'author' | 'text'
 }
 
 /** Todas as citações, inclusive as não ativas (R3: um restore nunca ressuscita o que foi retirado). */
+/** Resultado de comparar dois canônicos: o que o `depois` tem a mais, a menos e de diferente. */
+export interface DiferencasCanonico {
+  novas: CanonicalQuote[];
+  removidas: CanonicalQuote[];
+  mudadas: { id: string; campos: string[] }[];
+}
+
+/** Compara dois canônicos por `id` (sem distinguir caixa; a ordem das listas não importa). `null` e campo ausente são iguais. */
+export function diferencasCanonico(antes: readonly CanonicalQuote[], depois: readonly CanonicalQuote[]): DiferencasCanonico {
+  const porId = (lista: readonly CanonicalQuote[]) => new Map(lista.map((q) => [q.id.toLowerCase(), q]));
+  const a = porId(antes);
+  const d = porId(depois);
+  const valor = (q: CanonicalQuote, campo: string) => (q as unknown as Record<string, unknown>)[campo] ?? null;
+  const mudadas: DiferencasCanonico['mudadas'] = [];
+  for (const [id, novo] of d) {
+    const velho = a.get(id);
+    if (!velho) continue;
+    const campos = CAMPOS.filter((c) => c !== 'id' && valor(velho, c) !== valor(novo, c));
+    if (campos.length > 0) mudadas.push({ id, campos });
+  }
+  return {
+    novas: [...d].filter(([id]) => !a.has(id)).map(([, q]) => q),
+    removidas: [...a].filter(([id]) => !d.has(id)).map(([, q]) => q),
+    mudadas,
+  };
+}
+
+/** Texto curto, para o terminal, do que `diferencasCanonico` achou. */
+export function resumirDiferencas(dif: DiferencasCanonico): string {
+  const { novas, removidas, mudadas } = dif;
+  if (novas.length + removidas.length + mudadas.length === 0) return 'O canônico já está em dia com o banco.';
+  const trecho = (t: string) => (t.length > 70 ? `${t.slice(0, 70)}…` : t);
+  const linhas = [
+    `${novas.length} nova${novas.length === 1 ? '' : 's'}, ${removidas.length} removida${removidas.length === 1 ? '' : 's'}, ${mudadas.length} alterada${mudadas.length === 1 ? '' : 's'}.`,
+  ];
+  for (const q of novas) linhas.push(`  + ${q.id} [${q.status}] ${q.author}: ${trecho(q.text)}`);
+  for (const q of removidas) linhas.push(`  - ${q.id} [${q.status}] ${q.author}: ${trecho(q.text)}`);
+  for (const m of mudadas) linhas.push(`  ~ ${m.id}: ${m.campos.join(', ')}`);
+  return linhas.join('\n');
+}
+
 export async function exportarCanonico(sql: postgres.Sql): Promise<CanonicalQuote[]> {
   const rows = await drizzle(sql).select().from(quotes);
   return ordenarCanonico(rows).map((r) => ({
