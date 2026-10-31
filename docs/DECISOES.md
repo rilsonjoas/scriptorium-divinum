@@ -730,3 +730,11 @@ Pendência aberta desde a F2: a API aceita mudar uma citação de `ativa` para `
 **Publicação:** seed `add_suma_2_2_e_apologia_augsburgo_2026-10-30.sql` (só INSERE, idempotente; validado duas vezes em transação desfeita num Postgres de teste). Metadados seguem os das obras irmãs; licença CC BY-SA 4.0 sobre a tradução, texto-fonte em domínio público (Apologia: tradução inglesa de Bente e Dau, via Projeto Gutenberg).
 
 **Fora desta decisão:** as 4 obras em português limpas e ainda sem cadastro (*Proslogion* em 2 arquivos, *Comentário aos Gálatas* de Lutero, *Os Últimos Fins do Homem* de Manuel Bernardes) seguem à espera de decisão do autor (licença, fonte e duplicidade com `comentario-aos-galatas-lutero`, já publicado).
+
+## 2026-10-30 — Proslogion entra; três candidatas ficam de fora
+**Publicada:** `proslogion-anselmo` (texto integral, ~9,7 mil palavras), por seed idempotente. Tradução por IA **sem revisão humana atestada** (`human_review_approved_at` NULL). O arquivo `proslogion.md` (versão curta, ~2,2 mil palavras) não entra: é abreviação da mesma obra.
+
+**Ficam fora, com motivo:**
+- `os-ultimos-fins-do-homem-pt` (Manuel Bernardes): OCR cru de edição do séc. XVIII, com o "ſ" longo lido como "f" ("depreífa", "fubftancia"). Ilegível; exige reprocessar o OCR e normalizar a ortografia antes de publicar.
+- `comentario-aos-galatas-martinho-lutero`: 96% igual ao `comentario-aos-galatas-lutero`, já publicado. Duplicata.
+- `proslogion`: versão curta de obra já publicada.
