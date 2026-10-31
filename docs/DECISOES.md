@@ -752,3 +752,10 @@ Pendência aberta desde a F2: a API aceita mudar uma citação de `ativa` para `
 
 **Etapas seguintes (não feitas):** (2) rotina na VPS comparando manifesto × banco, somente leitura, com aviso no Uptime Kuma; (3) comando único `acervo:publicar` que gera o seed e atualiza o manifesto. A 2 mexe em infraestrutura e pede revisão do autor.
 
+## 2026-10-31 — Etapa 3 do controle do acervo: `acervo:publicar`; Bernardes fica só de download
+**Feito:** `pnpm --filter server acervo:publicar` (lógica pura em `server/src/lib/acervo-publicar.ts`, 17 testes; CLI em `server/scripts/acervo-publicar.ts`). Gera o seed idempotente e atualiza o manifesto para `publicada` num passo só; por padrão só mostra, e só grava com `--gravar`. Não inventa metadado (título, autor e categorias obrigatórios), recusa texto fora do português ou com erro de qualidade, e `--revisado` é a única forma de gravar `human_review_approved_at`. O SQL gerado foi validado duas vezes numa transação desfeita num Postgres de teste.
+
+**Etapas do controle (todas feitas):** (1) manifesto + CI; (2) canário manifesto × banco na VPS (hetzner-infra #17 e #18); (3) este comando.
+
+**Decisão do autor — `os-ultimos-fins-do-homem` (Padre Manuel Bernardes, 1688) fica como obra só de download:** a página oferece o PDF escaneado do Internet Archive e não há leitor online (o OCR cru, com o "ſ" lido como "f", continua fora). É o mesmo padrão de `vieira-sermoes-selectos-2` e `arrais-dialogos`. Não é erro: o canário, após o PR #18, não avisa sobre obras só de download.
+

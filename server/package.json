@@ -18,6 +18,7 @@
     "db:seed": "tsx scripts/seed-data.ts",
     "db:seed:quotes": "tsx scripts/seed-quotes.ts",
     "acervo:verificar": "tsx scripts/verificar-acervo.ts",
+    "acervo:publicar": "tsx scripts/acervo-publicar.ts",
     "db:merge:quotes": "tsx scripts/merge-quotes.ts",
     "db:create-admin": "tsx src/scripts/create-admin.ts",
     "db:apply:catalog": "tsx scripts/apply-new-catalog.ts"

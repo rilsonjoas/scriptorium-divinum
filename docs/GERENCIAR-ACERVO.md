@@ -450,7 +450,15 @@ O que está no ar mora no **banco**; os arquivos mandam no **git**. Sem uma rela
 
 - **Arquivo novo em `server/texts/` sem entrada no manifesto faz o CI falhar.** Decida o estado na hora e registre no mesmo PR.
 - A detecção de idioma só distingue inglês de português: para latim (ou outro caso em que ela erre) declare `"idioma": "Latim"` na entrada.
-- Para **publicar**, escreva o seed em `server/src/db/seeds` (idempotente, `ON CONFLICT (slug) DO NOTHING`) e mude o estado para `publicada` no mesmo PR.
+- Para **publicar**, use o comando (um caminho só; gera o seed e muda o manifesto para `publicada` juntos):
+  ```
+  pnpm --filter server acervo:publicar <arquivo-sem-.md> \
+    --titulo "Título" --autor-slug <slug> --autor-nome "Nome do Autor" \
+    --categorias "Categoria A,Categoria B" [--titulo-original "..."] [--ano-original 1078] \
+    [--tags a,b] [--descricao "..."] [--slug outro-slug] [--revisado] [--gravar]
+  ```
+  Sem `--gravar` ele só **mostra** (validação, qualidade do texto, o seed e a mudança no manifesto). Ele **não inventa** metadado: título, autor e categorias são obrigatórios e vêm de você; recusa texto fora do português ou com erro de qualidade. `--revisado` só se o autor atestou a revisão humana (grava `human_review_approved_at`); sem ele a obra aparece como tradução por IA sem revisão. Depois de gravar: valide o seed num Postgres de teste e abra o PR (o CI confere o manifesto; o deploy aplica o seed).
+- Obra **só de download** (página com o PDF escaneado, sem leitor online) é legítima e não usa esse comando: não tem arquivo em `server/texts`. Exemplos: `os-ultimos-fins-do-homem`, `vieira-sermoes-selectos-2`, `arrais-dialogos`.
 - **Não apague do banco** uma linha oculta cujo seed antigo a reinseriria como publicada (ex.: `proslogion`): `ON CONFLICT DO NOTHING` a recria a cada deploy.
-- Ainda **não** cobre: obra publicada pelo painel sem arquivo/manifesto, nem manifesto × banco. Isso exige consultar o banco de produção (etapa seguinte, rotina na VPS com aviso no Uptime Kuma). Veja docs/DECISOES.md, 2026-10-30.
+- **Manifesto × banco** é conferido pelo canário da infraestrutura (hetzner-infra, `scripts/canario-api-cluster.py`, a cada hora, só leitura, só aviso no Uptime Kuma): obra no ar que o manifesto não declara `publicada`, `publicada` sem obra no ar, e obra publicada sem texto nem download. Veja docs/DECISOES.md, 2026-10-30.
 

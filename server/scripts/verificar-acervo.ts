@@ -77,7 +77,7 @@ export function analisarTexto(conteudo: string): AnaliseTexto {
   };
 }
 
-function achadosDoTexto(arquivo: string, a: AnaliseTexto, publicada: boolean | undefined): Achado[] {
+export function achadosDoTexto(arquivo: string, a: AnaliseTexto, publicada: boolean | undefined): Achado[] {
   const out: Achado[] = [];
   const add = (nivel: Nivel, mensagem: string) => out.push({ nivel, arquivo, mensagem, publicada });
   const portugues = a.idioma === 'Português';
