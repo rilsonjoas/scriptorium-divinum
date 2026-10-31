@@ -11,7 +11,9 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import type { ReactNode, TouchEvent as ReactTouchEvent } from 'react';
 import { useBookText, useBook } from '@/hooks/useDatabase';
 import { useSpeech } from '@/hooks/useSpeech';
-import { limparCallouts, splitProvenance } from '@/utils/readerText';
+import { limparCallouts, normalizarReguas, normalizarTitulos, splitProvenance } from '@/utils/readerText';
+import { remarkMarcasDeEdicao } from '@/utils/marcasDeEdicao';
+import { converterNotas, relocarNotas } from '@/utils/notasNumeradas';
 import { agruparCapitulosCurtos, splitIntoChapters } from '@/utils/chapters';
 import {
   assignChapters,
@@ -210,8 +212,9 @@ export default function Reader() {
 
   const parsed = useMemo(() => {
     if (!data) return null;
-    const { provenance, content } = splitProvenance(data.text);
-    const chapters = agruparCapitulosCurtos(splitIntoChapters(content));
+    const { provenance, content: bruto } = splitProvenance(data.text);
+    const content = converterNotas(normalizarReguas(normalizarTitulos(bruto)));
+    const chapters = relocarNotas(agruparCapitulosCurtos(splitIntoChapters(content)));
     return {
       provenance,
       content,
@@ -345,6 +348,25 @@ export default function Reader() {
     window.addEventListener('resize', compute);
     return () => window.removeEventListener('resize', compute);
   }, [foco, textoCarregado]);
+
+  // Dica de primeiro uso: a leitura abre em tela cheia, e quem chega não sabe como virar a página ou sair
+  const textoPronto = Boolean(data && parsed);
+  useEffect(() => {
+    if (!textoPronto || !foco) return;
+    try {
+      if (localStorage.getItem('scriptorium:dica-imersao')) return;
+      localStorage.setItem('scriptorium:dica-imersao', '1');
+    } catch {
+      return;
+    }
+    const toque = window.matchMedia?.('(pointer: coarse)').matches;
+    toast.message('Leitura imersiva', {
+      description: toque
+        ? 'Deslize para virar a página. Toque no texto para ver os controles.'
+        : 'Setas do teclado ou as bordas viram a página. Mexa o mouse para ver os controles; Esc sai.',
+      duration: 8000,
+    });
+  }, [textoPronto, foco]);
 
   // Imersivo: mostra o topo ao mexer o mouse, tocar ou usar o teclado; some após 2,5 s parado
   useEffect(() => {
@@ -695,7 +717,7 @@ export default function Reader() {
   };
   const markdown = capituloAtual ? (
     <ReactMarkdown
-      remarkPlugins={[remarkGfm]}
+      remarkPlugins={[remarkGfm, remarkMarcasDeEdicao]}
       // rótulos das notas em português (o padrão do remark-gfm é "Footnotes")
       remarkRehypeOptions={{ footnoteLabel: 'Notas', footnoteBackLabel: 'Voltar ao texto' }}
       components={componentes}
@@ -873,7 +895,7 @@ export default function Reader() {
                 <span className="hidden sm:inline">Voltar</span>
               </Link>
             </Button>
-            <h1 className="min-w-0 truncate font-heading text-base">{data.title}</h1>
+            <h1 className="min-w-0 truncate font-heading text-base !text-inherit">{data.title}</h1>
             {traducaoIA && (
               <button type="button" onClick={irParaFicha} className={`hidden md:inline-flex items-center gap-1 text-xs underline underline-offset-2 ${paleta.suave}`}>
                 <Sparkles className="h-3 w-3" />

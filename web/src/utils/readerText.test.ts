@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { limparCallouts, splitProvenance } from './readerText';
+import { limparCallouts, normalizarReguas, normalizarTitulos, splitProvenance } from './readerText';
 
 describe('limparCallouts', () => {
   it('tira o marcador [!NOTE] e mantém a citação', () => {
@@ -42,5 +42,39 @@ describe('splitProvenance com frontmatter', () => {
     expect(provenance).toBeNull();
     expect(content).toContain('Introdução longa.');
     expect(content).toContain('Corpo.');
+  });
+});
+
+describe('normalizarTitulos', () => {
+  it('usa os # de dentro como nível do título (## ### Artigo -> ### Artigo)', () => {
+    expect(normalizarTitulos('## ### Artigo 1: Se Deus existe')).toBe('### Artigo 1: Se Deus existe');
+    expect(normalizarTitulos('## ## Questão 2')).toBe('## Questão 2');
+    expect(normalizarTitulos('## # Livro 1')).toBe('# Livro 1');
+  });
+
+  it('não mexe em título comum, em hashtag nem em # dentro de parágrafo', () => {
+    const md = '## Capítulo I\n\n#hashtag e # solto\n\nTexto com ## no meio.\n\n### Sub';
+    expect(normalizarTitulos(md)).toBe(md);
+  });
+
+  it('só atua no começo da linha', () => {
+    expect(normalizarTitulos('texto ## ### Artigo')).toBe('texto ## ### Artigo');
+  });
+});
+
+describe('normalizarReguas', () => {
+  it('traços colados ao fim do parágrafo viram régua horizontal em linha própria', () => {
+    expect(normalizarReguas('a teologia difere em espécie. _______________________\n\n## Artigo 2')).toBe(
+      'a teologia difere em espécie.\n\n***\n\n## Artigo 2',
+    );
+  });
+
+  it('não mexe em linha que já é só traços, em sublinhado de palavra nem em campo a preencher no meio da frase', () => {
+    const md = '_____\n\nfoi _enfatizado_ aqui\n\nNome: _____ e idade: 30';
+    expect(normalizarReguas(md)).toBe(md);
+  });
+
+  it('tolera espaço no fim da linha', () => {
+    expect(normalizarReguas('fim. ______   \nPróximo')).toBe('fim.\n\n***\nPróximo');
   });
 });

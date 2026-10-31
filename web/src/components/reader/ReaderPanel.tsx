@@ -36,6 +36,8 @@ export function ReaderPanel({ open, aba, onAba, onOpenChange, titulo, bookSlug, 
           <SheetDescription className="sr-only">Índice da obra e trechos que você grifou</SheetDescription>
         </SheetHeader>
         <Tabs value={abaAtiva} onValueChange={(v) => onAba(v as AbaDoPainel)} className="flex min-h-0 flex-1 flex-col">
+          {/* com uma aba só (obra sem índice) a lista de abas seria redundante */}
+          {indice && (
           <TabsList className="w-full justify-start gap-1 bg-transparent p-0 border-b border-library-bronze/30 rounded-none h-auto">
             {indice && (
               <TabsTrigger value="indice" className="rounded-none border-b-2 border-transparent px-3 py-2 font-body text-library-bronze-foreground data-[state=active]:border-library-gold data-[state=active]:bg-transparent data-[state=active]:text-library-wood-foreground data-[state=active]:shadow-none">
@@ -46,6 +48,7 @@ export function ReaderPanel({ open, aba, onAba, onOpenChange, titulo, bookSlug, 
               Destaques
             </TabsTrigger>
           </TabsList>
+          )}
           {indice && (
             <TabsContent value="indice" className="mt-4 min-h-0 flex-1 overflow-y-auto">
               {indice}

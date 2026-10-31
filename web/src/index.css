@@ -442,7 +442,7 @@
      Vinho Profundo em vez de dourado: a capitular cai sobre o pergaminho
      claro da página de leitura, e dourado sobre creme reprova WCAG AA
      (2.37:1 — medido no Narniano, 2026-09-07). Vinho dá 6.75:1. */
-  .capitular-medieval > p:first-of-type::first-letter {
+  :is(.capitular-medieval > p, .capitular-medieval > div > p):first-of-type::first-letter {
     font-family: var(--font-display);
     font-size: 3.25em;
     float: left;
@@ -456,15 +456,25 @@
 
   /* Capitular invertida no tema escuro do leitor, onde o vinho
      reprovaria (1.5:1) — o dourado claro dá 12:1 sobre o mesmo fundo. */
-  .reader-theme-dark .capitular-medieval > p:first-of-type::first-letter {
+  .reader-theme-dark :is(.capitular-medieval > p, .capitular-medieval > div > p):first-of-type::first-letter {
     color: hsl(var(--library-dourado-texto));
     text-shadow: 1px 1px 2px hsl(0 0% 0% / 0.4);
   }
 
   /* Pergaminho com o site no escuro: o fundo também é escuro, e o vinho some */
-  .dark .reader-parchment .capitular-medieval > p:first-of-type::first-letter {
+  .dark .reader-parchment :is(.capitular-medieval > p, .capitular-medieval > div > p):first-of-type::first-letter {
     color: hsl(var(--library-dourado-texto));
     text-shadow: 1px 1px 2px hsl(0 0% 0% / 0.4);
+  }
+
+  /* Marcas da edição impressa ([960A], |18): presentes, mas fora do caminho do olho */
+  .prose-leitor .marca-edicao {
+    font-style: normal;
+    font-size: 0.68em;
+    vertical-align: super;
+    line-height: 0;
+    opacity: 0.55;
+    letter-spacing: 0.02em;
   }
 
   /* Trechos que a pessoa grifou (Grifar no menu da seleção) */
@@ -472,9 +482,14 @@
     background-color: hsl(43 90% 55% / 0.38);
     color: inherit;
   }
+  /* fundo escuro: grifo mais suave, para o texto claro manter folga de contraste */
+  .dark ::highlight(destaque-usuario),
+  .reader-theme-dark ::highlight(destaque-usuario) {
+    background-color: hsl(43 90% 55% / 0.26);
+  }
 
   @media (max-width: 480px) {
-    .capitular-medieval > p:first-of-type::first-letter {
+    :is(.capitular-medieval > p, .capitular-medieval > div > p):first-of-type::first-letter {
       font-size: 2.35em;
       margin-right: 0.12em;
     }

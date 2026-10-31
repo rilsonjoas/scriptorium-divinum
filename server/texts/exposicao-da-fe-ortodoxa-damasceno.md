@@ -284,12 +284,6 @@ Além disso, a refulgência e a energia divinas, sendo una, simples e indivisív
 
 Além disso, a natureza divina tem a propriedade de penetrar todas as coisas sem se misturar com elas e de ser ela mesma impenetrável por qualquer outra coisa. Além disso, existe a propriedade de conhecer todas as coisas com um conhecimento simples e de ver todas as coisas, simplesmente com Seu olho divino, onisciente e imaterial, tanto as coisas do presente, como as coisas do passado, e as coisas do futuro, antes que elas venham a existir. Daniel 2:22 Também é sem pecado e pode expulsar o pecado e trazer a salvação; e tudo o que quiser, pode realizar, mas não deseja tudo o que poderia realizar. Pois poderia destruir o universo, mas não quer fazê-lo.
 
-Sobre esta página
-
-CONTACTE-NOS | ANUNCIE COM NOVO ADVENTO
-
-
-
 ## # Livro 2
 
 
@@ -843,12 +837,6 @@ Era necessário, portanto, que o homem fosse primeiro posto à prova (pois o hom
 
 A inveja do diabo foi então a razão da queda do homem. Pois esse mesmo demônio, tão cheio de inveja e com tanto ódio ao bem, não nos permitiria desfrutar dos prazeres do céu, quando ele próprio foi mantido abaixo por causa de sua arrogância, e portanto o falso tenta o homem miserável com a esperança da Divindade, e levando-o a um nível de arrogância tão grande quanto ele, ele o lança em um poço de destruição igualmente profundo.
 
-Sobre esta página
-
-CONTACTE-NOS | ANUNCIE COM NOVO ADVENTO
-
-
-
 ## # Livro 3
 
 
@@ -1321,12 +1309,6 @@ Portanto, dizer, com aqueles tolos Juliano e Gaiano, que o corpo de nosso Senhor
 
 A alma, quando foi deificada, desceu ao Hades, para que, assim como o Sol da Justiça Malaquias 4:2 nasceu para aqueles que estavam na terra, da mesma forma Ele pudesse trazer luz para aqueles que estão sentados sob a terra nas trevas e na sombra da morte Isaías 9:2: para que assim como Ele trouxe a mensagem de paz para aqueles que estão na terra, e de libertação para os prisioneiros, e de visão para os cegos, e se tornou para aqueles que acreditaram no Autor da salvação eterna e para aqueles que não acreditaram uma reprovação de sua incredulidade 1 Pedro 3:19, para que Ele pudesse se tornar o mesmo para aqueles que estão no Hades: Para que todo joelho se dobre diante dele, das coisas no céu, e das coisas na terra, e das coisas debaixo da terra. Filipenses 2:10 E assim, depois de ter libertado aqueles que estavam presos há séculos, imediatamente ressuscitou dos mortos, mostrando-nos o caminho da ressurreição.
 
-Sobre esta página
-
-CONTACTE-NOS | ANUNCIE COM NOVO ADVENTO
-
-
-
 ## # Livro 4
 
 
@@ -1790,8 +1772,4 @@ Novamente o apóstolo divino diz: Porque é necessário que isto que é corrupt�
 Mas alguém dirá: Como são ressuscitados os mortos? Ah, que descrença! Ah, que loucura! Será que Ele, que por sua vontade solitária transformou a terra em corpo, que ordenou que a pequena gota de semente crescesse no ventre da mãe e se tornasse no final este órgão variado e múltiplo do corpo, não ressuscitará novamente, por sua vontade solitária, aquilo que foi e é dissolvido? E com que corpo eles vêm 1 Coríntios 15:35? Tolo, se a sua dureza não lhe permite acreditar nas palavras de Deus, pelo menos acredite em Suas obras. Pois aquilo que você semeia não é vivificado, a menos que morra 1 Coríntios 15:35 . E aquilo que você semeia, você não semeia o corpo que será, mas o grão nu, pode ser trigo ou algum outro grão. Mas Deus lhe dá um corpo como Lhe apraz, e a cada semente o seu próprio corpo. Eis, portanto, como a semente é enterrada nos sulcos como nos túmulos. Quem é que lhes dá raízes e caules e folhas e orelhas e as barbas mais delicadas? Não é o Criador do universo? Não é por ordem dAquele que planejou todas as coisas? Acredite, portanto, neste sentido, até mesmo que a ressurreição dos mortos acontecerá pela vontade e sinal divino. Pois Ele tem poder capaz de acompanhar Sua vontade.
 
 Portanto, ressuscitaremos, nossas almas sendo mais uma vez unidas aos nossos corpos, agora tornados incorruptíveis e tendo adiado a corrupção, e estaremos ao lado do terrível tribunal de Cristo: e o diabo e seus demônios e o homem que é dele, que é o Anticristo e o ímpio e o pecador, serão entregues ao fogo eterno: não o fogo material como o nosso fogo, mas o fogo que Deus conheceria. Mas aqueles que fizeram o bem brilharão como o sol com os anjos para a vida eterna, com nosso Senhor Jesus Cristo, sempre vendo-O e estando à Sua vista e obtendo dele alegria incessante, louvando-O com o Pai e o Espírito Santo através dos séculos ilimitados. Amém.
-
-Sobre esta página
-
-CONTACTE-NOS | ANUNCIE COM NOVO ADVENTO
 

@@ -314,10 +314,12 @@ async function piorContrastePorPixel(page: Page, seletor: string): Promise<numbe
   const cor = await alvo.evaluate((e) => getComputedStyle(e).color);
   await alvo.evaluate((e) => {
     e.dataset.corOriginal = e.style.color;
-    e.style.color = 'transparent';
+    // !important: o CSS do leitor usa `color: inherit !important` em vários elementos
+    e.style.setProperty('color', 'transparent', 'important');
   });
   const png = await alvo.screenshot();
   await alvo.evaluate((e) => {
+    e.style.removeProperty('color');
     e.style.color = e.dataset.corOriginal ?? '';
   });
   return page.evaluate(
@@ -382,5 +384,41 @@ for (const tema of ['light', 'dark'] as const) {
       const razao = await piorContrastePorPixel(page, texto.seletor);
       expect(razao, `contraste ${razao.toFixed(2)}:1`).toBeGreaterThanOrEqual(4.5);
     });
+  }
+}
+
+/**
+ * Topo e barra do leitor em TODAS as combinações de tema do site e do leitor.
+ * Em 30/10/2026 o título do livro ficava escuro sobre o topo escuro (tema
+ * Escuro do leitor com o site claro): o `h1` pegava a cor global de título em
+ * vez da cor do tema. O axe não vê: o fundo é translúcido.
+ */
+const TEMAS_DO_LEITOR = ['parchment', 'light', 'sepia', 'dark'] as const;
+for (const leitor of TEMAS_DO_LEITOR) {
+  for (const site of ['light', 'dark'] as const) {
+    for (const alvo of [
+      { nome: 'título do livro no topo', seletor: 'h1' },
+      { nome: 'indicador de página da barra', seletor: '[role="toolbar"] p span:visible >> nth=0' },
+    ]) {
+      test(`contraste do leitor >= 4,5:1 — ${alvo.nome} (leitor ${leitor}, site ${site})`, async ({ page }) => {
+        await page.addInitScript(
+          ([l, t]) => {
+            localStorage.setItem('scriptorium:theme', t!);
+            localStorage.setItem(
+              'scriptorium_reading_settings',
+              JSON.stringify({ escala: 0.9, fontFamily: 'reading', theme: l, lineHeight: 'relaxed', layout: 'pages', largura: 'media', paginas: 'auto' }),
+            );
+          },
+          [leitor, site],
+        );
+        await mockApi(page);
+        await page.goto('/ler/confissoes');
+        await page.waitForLoadState('networkidle');
+        await page.mouse.move(300, 300); // acorda o topo, que some após 2,5 s parado
+        await page.locator('h1').first().waitFor();
+        const razao = await piorContrastePorPixel(page, alvo.seletor);
+        expect(razao, `contraste ${razao.toFixed(2)}:1`).toBeGreaterThanOrEqual(4.5);
+      });
+    }
   }
 }

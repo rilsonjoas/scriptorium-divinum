@@ -100,12 +100,6 @@ eis, onde está! E se houver alguém lá que não tenha visão aguçada e diga: 
 
 Isaías 2:2 O que é tão manifesto como uma montanha? Mas existem até montanhas desconhecidas, porque estão situadas numa parte da terra. Qual de vocês conhece o Monte Olimpo? Assim como as pessoas que moram lá não conhecem o nosso Giddaba. Essas montanhas estão em diferentes partes da terra. Mas não é assim com aquela montanha, pois ela encheu toda a face da terra, e dela se diz: Preparada no topo das montanhas. É uma montanha acima do topo de todas as montanhas. E, diz ele, todas as nações serão reunidas nele. Quem pode deixar de conhecer esta Montanha? Quem quebra a cabeça ao tropeçar nela? Quem ignora a cidade construída sobre uma montanha? Mas não se admire de que isso seja desconhecido por aqueles que odeiam os irmãos, porque andam nas trevas e não sabem para onde vão, porque as trevas cegaram seus olhos. Eles não veem a Montanha: eu não gostaria que você se maravilhasse; eles não têm olhos. Como é que eles não têm olhos? Porque a escuridão os cegou. Como podemos provar isso? Porque odeiam os irmãos, porque, enquanto se ofendem com os africanos, separam-se de toda a terra: porque não toleram, pela paz de Cristo, aqueles a quem difamam, e toleram, por causa de Donato, aqueles a quem condenam.
 
-Sobre esta página
-
-CONTACTE-NOS | ANUNCIE COM NOVO ADVENTO
-
-
-
 ## # Tratado 2
 
 
@@ -183,12 +177,6 @@ Pela elevação de um reino terreno ele quis tentar o Rei de todos os mundos: ma
 
 Se então quereis ser deuses e filhos do Altíssimo, não ameis o mundo, nem as coisas que há no mundo. Se alguém ama o mundo, o amor do Pai não está nele. Porque todas as coisas que há no mundo são a concupiscência da carne, e a concupiscência dos olhos, e a soberba da vida, que não é do Pai, mas é do mundo: 1 João 2:15-17, ou seja, dos homens, amantes do mundo. E o mundo passa e as suas concupiscências; mas aquele que faz a vontade de Deus permanece para sempre, assim como Deus permanece para sempre.
 
-Sobre esta página
-
-CONTACTE-NOS | ANUNCIE COM NOVO ADVENTO
-
-
-
 ## # Tratado 3
 
 
@@ -252,12 +240,6 @@ Sim, irmãos, vocês desejam saber disso? Todos vocês não ouviram este present
 
 Assim são as palavras, irmãos, que falamos de fora, como o lavrador à árvore: de fora ele trabalha, aplica água e diligência de cultura; deixe-o de fora aplicar o que quiser, ele forma as maçãs? Ele veste a nudez do bosque com uma cobertura sombria de folhas? Ele faz algo assim por dentro? Mas de quem é isso? Ouça o lavrador, o apóstolo: ambos vejam o que somos e ouçam o Mestre interior: eu plantei, Apolo regou; mas Deus deu o crescimento: nem o que planta é alguma coisa, nem o que rega, mas aquele que dá o crescimento, sim, Deus. 1 Coríntios 3:6-7 Isto então vos dizemos: quer plantemos, quer reguemos, falando não somos nada; mas Aquele que dá o crescimento, sim, Deus: isto é, Sua unção que vos ensina sobre todas as coisas.
 
-Sobre esta página
-
-CONTACTE-NOS | ANUNCIE COM NOVO ADVENTO
-
-
-
 ## # Tratado 4
 
 
@@ -314,12 +296,6 @@ Por exemplo, vejam que diferença existe entre o rosto de um homem e a sua image
 11. Para este fim se manifestou o Filho de Deus. Agora, irmãos, marquem! Todos os pecadores são gerados pelo diabo, como pecadores. Adão foi feito por Deus: mas quando consentiu com o diabo, foi gerado pelo diabo; e ele gerou todos os homens como ele era. Com a própria luxúria nascemos; antes mesmo de adicionarmos nossos pecados, dessa condenação nascemos. Pois se nascemos sem pecado algum, por que correr com as crianças ao batismo para que sejam libertos? Então observem bem, irmãos, os dois descendentes, Adão e Cristo: dois homens são; mas um deles, um homem que é homem; o outro, um Homem que é Deus. Pelo homem que é homem somos pecadores; pelo Homem que é Deus somos justificados. Esse nascimento derrubou a morte; este nascimento ressuscitou para a vida: esse nascimento traz consigo o pecado; este nascimento liberta do pecado. Pois para este fim veio Cristo como Homem, para desfazer os pecados dos homens. Para este fim se manifestou o Filho de Deus, para que possa desfazer as obras do diabo.
 
 12. O resto recomendo aos seus pensamentos, meu amado, para não sobrecarregá-lo. Pois a questão que trabalhamos para resolver é esta: chamamos a nós mesmos de pecadores: pois se alguém disser que não tem pecado, é mentiroso. E na Epístola deste mesmo João encontramos escrito: Se dissermos que não temos pecado, enganamo-nos a nós mesmos. 1 João 1:8 Pois vocês devem se lembrar do que aconteceu antes: se dissermos que não temos pecado, enganamo-nos a nós mesmos, e a verdade não está em nós. E, no entanto, por outro lado, no que se segue lhe é dito: Aquele que é gerado de Deus não peca: aquele que comete pecado não O viu, nem O conheceu. - Todo aquele que comete pecado é do diabo: o pecado não é de Deus: isso nos assusta novamente. Em que sentido somos gerados por Deus e em que sentido nos confessamos pecadores? Diremos, porque não somos gerados por Deus? E o que esses Sacramentos significam em relação às crianças? O que João disse? Aquele que é gerado por Deus não peca. E mais uma vez o mesmo João disse: Se dissermos que não temos pecado, enganamo-nos a nós mesmos, e a verdade não está em nós! É uma ótima pergunta, e embaraçosa; e que eu tenha feito você decidir resolver isso, meu amado. Amanhã, em nome do Senhor, o que Ele dará, falaremos sobre isso.
-
-Sobre esta página
-
-CONTACTE-NOS | ANUNCIE COM NOVO ADVENTO
-
-
 
 ## # Tratado 5
 
@@ -383,12 +359,6 @@ Mesmo agora, deixe a caridade ferir suas entranhas, para que não o faça por va
 Você tem o nome e não as ações. Mas se a obra seguir o nome, deixe qualquer um chamá-lo de pagão, mostre por ações que você é cristão. Pois se pelas ações você não se mostrar cristão, todos os homens ainda poderão chamá-lo de cristão; de que adianta o nome quando a coisa não está disponível? Mas quem possui o bem deste mundo, e vê seu irmão necessitado, e fecha-lhe as entranhas da compaixão, como pode o amor de Deus habitar nele? E continua: Meus filhinhos, não amemos de palavra, nem de língua, mas de ação e de verdade. 1 João 3:18
 
 13. Suponho que a coisa agora foi manifestada a vocês, meus irmãos: este grande e mais preocupante segredo e mistério. Qual é a força da caridade, toda a Escritura expõe; mas não sei se há algum lugar onde isso seja mais amplamente exposto do que nesta epístola. Nós te rogamos e suplicamos no Senhor, que tanto o que você ouviu você guarde na memória, quanto aquilo que ainda está para ser dito, até que a epístola seja terminada, venha com seriedade, e com seriedade ouça o mesmo. Mas abram o seu coração para a boa semente: arranquem os espinhos, para que aquilo que estamos semeando em vocês não seja sufocado, mas sim para que a colheita cresça, e para que o Lavrador se regozije e prepare o celeiro para você como para o grão, não o fogo como para a palha.
-
-Sobre esta página
-
-CONTACTE-NOS | ANUNCIE COM NOVO ADVENTO
-
-
 
 ## # Tratado 6
 
@@ -473,12 +443,6 @@ Uma ruptura nas ações e um ensinamento, por assim dizer, em palavras. Tu, que 
 
 E temo que a epístola em si não seja terminada durante estes dias como prometi: mas como o Senhor fará, é melhor reservar o restante do que sobrecarregar seus corações com muita comida.
 
-Sobre esta página
-
-CONTACTE-NOS | ANUNCIE COM NOVO ADVENTO
-
-
-
 ## # Tratado 7
 
 
@@ -529,12 +493,6 @@ Se lhe fosse mostrado um lindo vaso em relevo, incrustado com ouro, curiosamente
 Aquela semelhança de uma pomba, a semelhança na qual veio o Espírito Santo, por quem a caridade deveria ser derramada em nós: por que foi isso? A pomba não tem fel: mas com bico e asas ela luta pelos seus filhotes; a dela é uma ferocidade sem amargura. E o mesmo acontece com um pai; quando ele castiga seu filho, pela disciplina ele o castiga. Como eu disse, o sequestrador, para poder vender, engana a criança com carinhos amargos; um pai, para que possa corrigir, dispensa castigos fel. Assim sejais com todos os homens. Vejam aqui, irmãos, uma grande lição, uma grande regra: cada um de vocês tem filhos, ou deseja ter; ou se ele decidiu não ter filhos segundo a carne, pelo menos espiritualmente ele deseja ter filhos: - que pai não corrige seu filho? Que filho seu pai não disciplina? E ainda assim ele parece ser feroz com ele. É a ferocidade do amor, a ferocidade da caridade: uma espécie de ferocidade sem fel, à maneira da pomba, não do corvo. Daí veio à minha mente, meus irmãos, dizer-vos que esses violadores da caridade são aqueles que causaram o cisma: assim como odeiam a própria caridade, também odeiam a pomba.
 
 Mas a pomba os convence: sai do céu, os céus se abrem e permanece na cabeça do Senhor. Por que isso? Para que João ouça: Este é o que batiza. João 1:33 Fora, ladrões; afastem-se, vocês, invasores da posse de Cristo! Em suas próprias posses, onde precisarão ser senhores, vocês ousaram fixar os títulos de grande Dono. Ele reconhece Seus próprios títulos; Ele reivindica para si mesmo sua própria posse. Ele não cancela os títulos, mas entra e toma posse. Então aquele que vem para a Igreja Católica não é cancelado o seu batismo, que o título de comendador não seja cancelado: mas o que se faz na Igreja Católica? O título é reconhecido; o proprietário entra com seus próprios títulos, enquanto o ladrão entrava com títulos que não eram seus.
-
-Sobre esta página
-
-CONTACTE-NOS | ANUNCIE COM NOVO ADVENTO
-
-
 
 ## # Tratado 8
 
@@ -611,12 +569,6 @@ Quando você O abandona, Ele não deixa de existir; quando você retorna para El
 
 Você vê que precisa do bem que tem do seu servo, precisa da presença dele. Portanto você não é um verdadeiro senhor, enquanto necessita de um inferior. Ele é o verdadeiro Senhor, que nada busca de nós; e ai de nós se não O buscarmos! Ele não busca nada de nós: ainda assim, Ele nos buscou, quando nós não O buscamos. Uma ovelha se extraviou; Ele o encontrou e o trouxe de volta sobre Seus ombros, regozijando-se. Lucas 15:4-5 E eram as ovelhas necessárias para o Pastor, e não o Pastor necessário para as ovelhas? - Quanto mais gosto de falar de caridade, menos disposto estou a que esta epístola seja concluída. Ninguém é mais ardente no elogio da caridade. Nada mais doce é pregado a você, nada mais saudável é bebido por você: mas somente assim, se por uma vida piedosa você confirmar em você o dom de Deus. Não seja ingrato por Sua tão grande graça, que, embora tivesse um Filho Unigênito, não queria que Ele fosse o único Filho; mas, para que Ele pudesse ter irmãos, adotou para Ele aqueles que deveriam com Ele possuir a vida eterna.
 
-Sobre esta página
-
-CONTACTE-NOS | ANUNCIE COM NOVO ADVENTO
-
-
-
 ## # Tratado 9
 
 
@@ -690,12 +642,6 @@ Que ele não ame a sua peregrinação, não ame o caminho: que todos sejam amarg
 
 Mas se você não ama seu irmão, como pode ser dito que você ama Aquele cujo mandamento você despreza? Irmãos, nunca me canso de falar de caridade em nome do Senhor. Na medida em que você tem um desejo insaciável por essa coisa, nessa proporção esperamos que a própria coisa esteja crescendo em você e expulsando o medo, para que possa permanecer aquele medo casto que é para sempre permanente. Suportamos o mundo, suportamos as tribulações, suportamos os tropeços das tentações. Não nos desviemos do caminho; mantenhamos a unidade da Igreja, mantenhamos Cristo, mantenhamos a caridade. Não sejamos arrancados dos membros de Sua Esposa, não sejamos arrancados da fé, para que possamos nos gloriar em Sua vinda: e permaneceremos seguros Nele, agora pela fé, depois pela vista, de quem temos tão grande zelo, até mesmo o dom do Espírito Santo.
 
-Sobre esta página
-
-CONTACTE-NOS | ANUNCIE COM NOVO ADVENTO
-
-
-
 ## # Tratado 10
 
 
@@ -764,8 +710,4 @@ O que devem procurar aqueles que não guardam as últimas palavras dAquele que e
 Cristo espalhou Sua Igreja por toda a terra: eu digo isso - despreze-me: o evangelho fala - cuidado. O que diz o evangelho? Convinha a Cristo sofrer e ressuscitar dentre os mortos no terceiro dia, e que o arrependimento e a remissão dos pecados fossem pregados em Seu nome. Lucas 24:47 Onde está a remissão dos pecados, aí está a Igreja. Como a Igreja? Ora, a ela foi dito: A ti darei as chaves do reino dos céus, e tudo o que desligares na terra será desligado nos céus, e tudo o que ligares na terra será ligado nos céus. Mateus 16:19 Onde esta remissão de pecados é espalhada? Por todas as nações, começando por Jerusalém. Veja, acredite em Cristo! Mas, como você está bem ciente de que, se acreditar em Cristo, não terá nada a dizer sobre traidores, precisará que eu acredite em você quando falar mal de meus pais, em vez de acreditar no que Cristo predisse!
 
 O restante da Homilia está faltando em todos os manuscritos. Parece também que Santo Agostinho foi impedido de completar a exposição de toda a epístola, como se comprometeu a fazer: pelo menos Possidius especifica esta obra sob o título, In Epist. Joannis ad Parthos Tractatus decem, e é pouco provável que todo o quinto capítulo tenha sido exposto nesta décima Homilia. - Dos Sermões, não há nenhum na parte restante desta epístola: os seguintes extratos de outras obras de Santo Agostinho fornecerão o que será mais desejado: a saber, sua exposição do texto sobre as Três Testemunhas, do pecado até a morte e do vigésimo versículo.
-
-Sobre esta página
-
-CONTACTE-NOS | ANUNCIE COM NOVO ADVENTO
 

@@ -299,5 +299,3 @@ O fim.
 
 94. Leia estas palavras, portanto, para o resto dos irmãos, para que aprendam como deve ser a vida dos monges; e podem acreditar que nosso Senhor e Salvador Jesus Cristo glorifica aqueles que O glorificam: e conduz aqueles que O servem até o fim, não apenas ao reino dos céus, mas aqui também - embora eles se escondam e desejem se retirar do mundo - os torna ilustres e bem conhecidos em todos os lugares por causa de sua virtude e da ajuda que prestam aos outros. E se for necessário, leia isto entre os pagãos, para que mesmo assim eles possam aprender que nosso Senhor Jesus Cristo não é apenas Deus e o Filho de Deus, mas também que os cristãos que verdadeiramente O servem e creem religiosamente Nele, provam, não apenas que os demônios, que os próprios gregos pensam ser deuses, não são deuses, mas também os pisam e os colocam em fuga, como enganadores e corruptores da humanidade, através de Jesus Cristo, nosso Senhor, a quem seja glória para todo o sempre. Amém.
 
-CONTACTE-NOS | ANUNCIE COM NOVO ADVENTO
-

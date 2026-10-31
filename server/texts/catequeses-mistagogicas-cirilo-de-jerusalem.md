@@ -48,10 +48,6 @@ Com uma lição da Primeira Epístola Geral de Pedro, começando em Esteja sóbr
 
 11. E estas coisas foram feitas na câmara exterior. Mas se Deus quiser, quando nas palestras seguintes sobre os Mistérios tivermos entrado no Santo dos Santos, conheceremos ali o significado simbólico das coisas que ali são realizadas. Agora, a Deus Pai, com o Filho e o Espírito Santo, seja glória, e poder, e majestade, para todo o sempre. Amém.
 
-CONTACTE-NOS | ANUNCIE COM NOVO ADVENTO
-
-
-
 ## # Segunda Catequese Mistagógica (Sobre os Ritos do Santo Batismo)
 
 
@@ -79,10 +75,6 @@ Você não sabe que muitos de nós que fomos batizados em Jesus Cristo, fomos ba
 
 8. Tendo sido suficientemente instruído nestas coisas, guarda-as, peço-te, em tua lembrança; para que eu também, por mais indigno que seja, possa dizer de vocês: Agora eu os amo, porque vocês sempre se lembram de mim e mantêm firmes as tradições que eu lhes entreguei. E Deus, que te apresentou como se estivesse vivo dentre os mortos Romanos 6:13, é capaz de conceder-lhe andar em novidade de vida: porque dele é a glória e o poder, agora e para sempre. Amém.
 
-CONTACTE-NOS | ANUNCIE COM NOVO ADVENTO
-
-
-
 ## # Terceira Catequese Mistagógica (Sobre o Santo Crisma)
 
 
@@ -107,10 +99,6 @@ Mas você tem uma unção do Santo, etc... para que, quando Ele aparecer, possam
 6. Além disso, você deve saber que na antiga Escritura está o símbolo deste Crisma. Durante o tempo em que Moisés transmitiu a seu irmão a ordem de Deus e o fez sumo sacerdote, depois de se banhar em água, ele o ungiu; e Arão foi chamado de Cristo ou Ungido, evidentemente do Crisma típico. Assim também o sumo sacerdote, ao promover Salomão ao reino, ungiu-o depois de ele ter se banhado em Giom. 1 Reis 1:39 Para eles, porém, essas coisas aconteceram em figura, mas para vocês não em figura, mas em verdade; porque você foi verdadeiramente ungido pelo Espírito Santo. Cristo é o começo da sua salvação; pois Ele é verdadeiramente as primícias, e você a massa Romanos 11:16; mas se as primícias forem santas, é manifesto que a sua santidade passará também para a missa.
 
 7. Mantenha isto imaculado: pois ele lhe ensinará todas as coisas, se permanecer em você, como você acabou de ouvir declarado pelo bem-aventurado João, discursando muito sobre esta Unção. For this holy thing is a spiritual safeguard of the body, and salvation of the soul. Disto o abençoado Isaías profetizando dos tempos antigos disse: E nesta montanha, – (agora ele chama a Igreja de montanha em outro lugar também, como quando ele diz: Nos últimos dias o monte da casa do Senhor será manifestado Isaías 2:2;) – nesta montanha o Senhor fará uma festa para todas as nações; beberão vinho, beberão alegria, ungir-se-ão com unguento. E para que ele possa ter certeza, ouça o que ele diz sobre esse unguento como sendo místico; Entregue todas estas coisas às nações, pois o conselho do Senhor é para todas as nações. Tendo sido ungido, portanto, com este unguento sagrado, mantenha-o imaculado e imaculado em você, prosseguindo com boas obras e agradando ao Capitão da sua salvação, Cristo Jesus, a quem seja glória para todo o sempre. Amém.
-
-CONTACTE-NOS | ANUNCIE COM NOVO ADVENTO
-
-
 
 ## # Quarta Catequese Mistagógica (Sobre o Corpo e Sangue de Cristo)
 
@@ -140,10 +128,6 @@ Recebi do Senhor o que também vos entreguei, como que o Senhor Jesus, na noite 
 8. Portanto, também Salomão, insinuando esta graça, diz em Eclesiastes: Venha aqui, coma o seu pão com alegria (isto é, o pão espiritual; venha aqui, ele chama com o chamado à salvação e à bênção), e beba o seu vinho com um coração alegre (isto é, o vinho espiritual); e deixe óleo ser derramado sobre sua cabeça, você vê, ele alude até mesmo ao místico Crisma); e que suas vestes sejam sempre brancas, pois o Senhor se agrada de suas obras Eclesiastes 9:7-8; pois antes de você chegar ao Batismo, suas obras eram vaidade de vaidades. Mas agora, tendo despojado suas roupas velhas e colocado aquelas que são espiritualmente brancas, você deve estar continuamente vestido de branco: é claro que não queremos dizer isso, que você deve sempre usar roupas brancas; mas você deve estar vestido com roupas que sejam verdadeiramente brancas, brilhantes e espirituais, para que possa dizer com o abençoado Isaías: Minha alma se alegrará em meu Deus; pois Ele me vestiu com uma roupa de salvação e me envolveu com um manto de alegria Isaías 61:10 .
 
 9. Tendo aprendido estas coisas, e tendo plena certeza de que o pão aparente não é pão, embora tenha sabor agradável, mas o Corpo de Cristo; e que o vinho aparente não é vinho, embora o gosto assim o queira, mas o Sangue de Cristo; e isso Davi cantou antigamente, dizendo: E o pão fortalece o coração do homem, para fazer seu rosto brilhar com óleo, fortalecer seu coração, participando dele como espiritual, e fazer brilhar o rosto de sua alma. E assim, tendo-o revelado com uma consciência pura, você pode refletir como um espelho a glória do Senhor 2 Coríntios 3:18, e proceder de glória em glória, em Cristo Jesus nosso Senhor: - A quem seja honra, e poder, e glória, para todo o sempre. Amém.
-
-CONTACTE-NOS | ANUNCIE COM NOVO ADVENTO
-
-
 
 ## # Quinta Catequese Mistagógica (Sobre a Divina Liturgia e a Oração do Senhor)
 
@@ -201,6 +185,4 @@ Portanto, afaste-se de toda imundície, e de toda astúcia, e de maledicência, 
 22. Então, depois de ter participado do Corpo de Cristo, aproxime-se também do Cálice do Seu Sangue; não estendendo as mãos, mas curvando-se e dizendo com ar de adoração e reverência: Amém, santifique-se participando também do Sangue de Cristo. E enquanto a umidade ainda estiver em seus lábios, toque-a com as mãos e santifique seus olhos, testa e outros órgãos dos sentidos. Então espere pela oração e dê graças a Deus, que o considerou digno de tão grandes mistérios.
 
 23. Mantenham essas tradições imaculadas e mantenham-se livres de ofensas. Não se separem da Comunhão; não se privem, através da poluição dos pecados, destes Mistérios Santos e Espirituais. E o Deus da paz vos santifique em tudo; e que o vosso espírito, alma e corpo sejam preservados inteiros e sem culpa na vinda de nosso Senhor Jesus Cristo 1 Tessalonicenses 5:23: - A quem seja glória, honra e poder, com o Pai e o Espírito Santo, agora e sempre, e no mundo sem fim. Amém.
-
-CONTACTE-NOS | ANUNCIE COM NOVO ADVENTO
 
