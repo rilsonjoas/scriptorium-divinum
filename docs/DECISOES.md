@@ -738,3 +738,5 @@ Pendência aberta desde a F2: a API aceita mudar uma citação de `ativa` para `
 - `os-ultimos-fins-do-homem-pt` (Manuel Bernardes): OCR cru de edição do séc. XVIII, com o "ſ" longo lido como "f" ("depreífa", "fubftancia"). Ilegível; exige reprocessar o OCR e normalizar a ortografia antes de publicar.
 - `comentario-aos-galatas-martinho-lutero`: 96% igual ao `comentario-aos-galatas-lutero`, já publicado. Duplicata.
 - `proslogion`: versão curta de obra já publicada.
+
+**Atualização (2026-10-30, mais tarde):** por decisão do autor, os cinco arquivos acima foram **removidos de `server/texts/`** (o histórico do git os guarda): `os-ultimos-fins-do-homem-pt` (só entra se houver fonte boa), `comentario-aos-galatas-martinho-lutero` e `proslogion` (duplicatas), e também `a-unidade-da-igreja-catolica-cipriano` e `da-liberdade-do-cristao-martinho-lutero` (92% e 97% iguais às publicadas). O banco não foi tocado: a linha oculta `proslogion` continua oculta, e **não deve ser apagada**, porque o seed antigo `add_proslogion_2026-09-29.sql` a reinseriria como publicada a cada deploy (`ON CONFLICT DO NOTHING`). O verificador do acervo ficou em 0 erros (289 -> 284 textos).
