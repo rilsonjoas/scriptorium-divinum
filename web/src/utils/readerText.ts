@@ -38,3 +38,23 @@ export function limparCallouts(markdown: string): string {
     titulo.trim() ? `> **${titulo.trim()}**\n>${quebra}` : '',
   );
 }
+
+/**
+ * Alguns textos vêm com o nível do título duplicado (`## ### Artigo 1`,
+ * `## ## Questão 2`, `## # Livro 1`), e o leitor mostrava os `#` literais no
+ * título. Vale o nível escrito dentro: `## ### Artigo` vira `### Artigo`.
+ * Só atua no começo da linha; o arquivo não é alterado.
+ */
+export function normalizarTitulos(markdown: string): string {
+  return markdown.replace(/^#{1,6}[ \t]+(#{1,6})[ \t]+(?=\S)/gm, '$1 ');
+}
+
+/**
+ * Os textos da Suma (e de outras 18 obras) fecham o último parágrafo de cada
+ * artigo com uma fila de `_` colada ao texto, que o leitor mostrava literal.
+ * Vira uma régua horizontal em linha própria. Só atua no FIM da linha; linha
+ * que já é só traços e campos a preencher no meio da frase ficam como estão.
+ */
+export function normalizarReguas(markdown: string): string {
+  return markdown.replace(/([^\s_])[ \t]+_{5,}[ \t]*$/gm, '$1\n\n***');
+}

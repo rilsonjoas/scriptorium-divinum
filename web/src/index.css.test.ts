@@ -143,7 +143,8 @@ describe('index.css — superfícies que precisam responder ao tema', () => {
 
   it('a capitular usa vinho no pergaminho e dourado claro no tema escuro do leitor', () => {
     expect(css).toMatch(/\.capitular-medieval[\s\S]{0,400}var\(--library-vinho\)/);
-    expect(css).toMatch(/\.reader-theme-dark \.capitular-medieval[\s\S]{0,400}var\(--library-dourado-texto\)/);
+    // o seletor alcança o p direto do artigo (Rolagem) e o p dentro do div do modo Páginas
+    expect(css).toMatch(/\.reader-theme-dark :is\(\.capitular-medieval > p, \.capitular-medieval > div > p\)[\s\S]{0,400}var\(--library-dourado-texto\)/);
   });
 
   it('o body deriva o gradiente do token de superfície, não do pergaminho claro', () => {
