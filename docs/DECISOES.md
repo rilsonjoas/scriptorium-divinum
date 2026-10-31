@@ -719,3 +719,14 @@ Revisados contra o uso real da tela. **Corrigidos** (com teste): `fonteUrl` e `v
 ## 30/10/2026 — `PATCH` de ativa para rascunho: a tela não oferece (decisão do autor)
 
 Pendência aberta desde a F2: a API aceita mudar uma citação de `ativa` para `rascunho`, que a tira do ar sem motivo e sem o evento `ocultou`. **Decidido pelo autor: a tela não terá esse botão.** Retirar é ocultar (regra R3): o motivo fica no histórico, e "publicada por engano" é um motivo válido. A API continua aceitando a transição (R1: não se remove capacidade da API sem migrar consumidores; só a tela é o caminho normal). Se um dia a transição virar problema, a correção é no servidor (recusar `ativa` para `rascunho`), não na tela.
+
+---
+
+## 2026-10-30 — Suma 2-2 e Apologia de Augsburgo entram no catálogo
+**Decisão:** as duas obras que estavam seguradas fora do ar (docs/DECISOES.md, 2026-10-16, "Segurado fora deste deploy") foram publicadas depois de traduzidas por inteiro: `suma-teologica-segunda-parte-da-segunda-parte` (Questões 131 a 141, ~26 mil palavras, e 11 fragmentos soltos) e `apologia-da-confissao-de-augsburgo` (Partes 31 a 37, ~14 mil palavras).
+
+**Como foi feito:** tradução por IA, com as fórmulas e termos que cada obra já tinha em português; conferido por script que o arquivo manteve o mesmo número de linhas, títulos, réguas e linhas em branco, que números e citações foram preservados e que restam 0 palavras em inglês (Suma: 0 de ~687 mil; Apologia: 0 de ~106 mil). O Rilson revisou e autorizou a publicação em 2026-10-30; por isso o seed grava `human_review_approved_at = NOW()` (a ficha mostra "Revisão humana aprovada").
+
+**Publicação:** seed `add_suma_2_2_e_apologia_augsburgo_2026-10-30.sql` (só INSERE, idempotente; validado duas vezes em transação desfeita num Postgres de teste). Metadados seguem os das obras irmãs; licença CC BY-SA 4.0 sobre a tradução, texto-fonte em domínio público (Apologia: tradução inglesa de Bente e Dau, via Projeto Gutenberg).
+
+**Fora desta decisão:** as 4 obras em português limpas e ainda sem cadastro (*Proslogion* em 2 arquivos, *Comentário aos Gálatas* de Lutero, *Os Últimos Fins do Homem* de Manuel Bernardes) seguem à espera de decisão do autor (licença, fonte e duplicidade com `comentario-aos-galatas-lutero`, já publicado).
