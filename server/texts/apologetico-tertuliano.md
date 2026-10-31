@@ -651,5 +651,3 @@ E vocês fundam estátuas em homenagem a pessoas como essas, e colocam inscriç�
 
 Muitos de seus escritores exortam ao enfrentamento corajoso da dor e da morte, como Cícero nos Tusculanos, como Sêneca em seus Chances, como Diógenes, Pirro, Calínico; e ainda assim suas palavras não encontram tantos discípulos como os cristãos, professores não por palavras, mas por ações. Essa mesma obstinação contra a qual você critica é a preceptora. Pois quem o contempla não fica entusiasmado em indagar o que há por trás disso? Quem, após investigação, não abraça nossas doutrinas? E quando os abraçou, não deseja sofrer para se tornar participante da plenitude da graça de Deus, para obter de Deus o perdão completo, dando em troca o seu sangue? Pois isso garante a remissão de todas as ofensas. Por isso é que agradecemos imediatamente pelas suas frases. Como o divino e o humano estão sempre em oposição um ao outro, quando somos condenados por você, somos absolvidos pelo Altíssimo.
 
-CONTACTE-NOS | ANUNCIE COM NOVO ADVENTO
-

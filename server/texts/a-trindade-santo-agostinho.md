@@ -271,12 +271,6 @@ Mas aquela visão do Filho do homem que foi predita, quando todas as nações se
 
 Mas se há alguma outra explicação das palavras do Senhor, onde Ele diz: Por que você me pergunta sobre o bem? Não há ninguém bom, senão Um, isto é, Deus; contanto apenas que não se acredite que a substância do Pai seja de maior bondade do que a do Filho, segundo a qual Ele é a Palavra por quem todas as coisas foram feitas; e se não há nada nele que abomine a sã doutrina; vamos usá-la com segurança, e não apenas uma explicação, mas tantas quantas pudermos encontrar. Quanto mais poderosamente se provar que os hereges estão errados, mais saídas estarão abertas para evitar as suas armadilhas. Mas comecemos agora de novo e nos dediquemos à consideração daquilo que ainda resta.
 
-Sobre esta página
-
-CONTACTE-NOS | ANUNCIE COM NOVO ADVENTO
-
-
-
 ## # Livro 2
 
 
@@ -530,12 +524,6 @@ Considerando que Sua própria substância, pela qual Ele mesmo é aquilo que Ele
 
 35. Portanto, visto que nessa nossa divisão tríplice decidimos investigar, primeiro, se o Pai, ou o Filho, ou o Espírito Santo; ou se às vezes o Pai, às vezes o Filho, às vezes o Espírito Santo; ou se, sem qualquer distinção de pessoas, como é dito, o único Deus, isto é, a própria Trindade, apareceu aos pais através dessas formas da criatura: agora que examinamos, até onde parecemos suficientes, quais lugares das Sagradas Escrituras pudemos, uma consideração modesta e cautelosa dos mistérios divinos não leva, até onde posso julgar, a nenhuma outra conclusão, a menos que não possamos afirmar precipitadamente qual pessoa da Trindade apareceu a este ou aquele dos pais ou dos profetas em algum corpo ou semelhança de corpo, a menos que o contexto atribua à narrativa algumas sugestões prováveis sobre o assunto. Pois a própria natureza, ou substância, ou essência, ou qualquer outro nome, aquela mesma coisa, que é Deus, qualquer que seja, deve ser chamada, não pode ser vista corporalmente: mas devemos acreditar que por meio da criatura sujeita a Ele, não apenas o Filho, ou o Espírito Santo, mas também o Pai, pode ter dado sugestões de Si mesmo aos sentidos mortais por meio de uma forma ou semelhança corpórea. E já que a situação é assim, que este segundo livro não pode se estender por uma extensão imoderada, consideremos o que resta nos que se seguem.
 
-Sobre esta página
-
-CONTACTE-NOS | ANUNCIE COM NOVO ADVENTO
-
-
-
 ## # Livro 3
 
 
@@ -715,12 +703,6 @@ E por isso Ele disse no Evangelho: Pois se você tivesse acreditado em Moisés, 
 Daí aquela páscoa na matança do cordeiro: daí todas aquelas coisas que são faladas figurativamente na Lei, de Cristo vir em carne e sofrer, mas também ressuscitar, cuja Lei foi dada pela disposição dos anjos; em que os anjos eram certamente o Pai, e o Filho, e o Espírito Santo; e no qual, às vezes, o Pai, às vezes o Filho, às vezes o Espírito Santo, e às vezes Deus, sem qualquer distinção de pessoa, foi figurativamente significado por eles, embora aparecendo em formas visíveis e sensíveis, mas por Sua própria criatura, não por Sua substância, para cuja visão os corações são purificados por meio de todas as coisas que são vistas pelos olhos e ouvidas pelos ouvidos.
 
 27. Mas agora, como penso, aquilo que nos comprometemos a mostrar neste livro foi suficientemente discutido e demonstrado, de acordo com a nossa capacidade; e foi estabelecido, tanto pela razão provável, tanto quanto um homem, ou melhor, até onde eu sou capaz, e pela força da autoridade, até onde as declarações divinas das Sagradas Escrituras foram esclarecidas, que aquelas palavras e aparências corporais que foram dadas a esses nossos antigos pais antes da encarnação do Salvador, quando foi dito que Deus apareceria, foram operadas por anjos: quer eles próprios falassem ou fizessem algo na pessoa de Deus, como mostramos que os profetas também eram costumam fazer, ou assumindo da criatura aquilo que eles próprios não eram, onde Deus poderia ser mostrado em uma figura aos homens; que maneira de mostrar também, as Escrituras ensinam por muitos exemplos, que os profetas também não omitiram. Resta-nos, portanto, agora considerar - visto que tanto no Senhor como nascido de uma virgem, como no Espírito Santo descendo em forma corpórea como uma pomba, e nas línguas como de fogo, que apareceram com um som do céu no dia de Pentecostes, após a ascensão do Senhor, não era o próprio Verbo de Deus por Sua própria substância, na qual Ele é igual e eterno com o Pai, nem o Espírito do Pai e do Filho por Sua própria substância, na qual Ele mesmo também é igual e coeterno com ambos, mas certamente uma criatura, tal como poderia ser formada e existir nessas formas, que apareceram aos sentidos corpóreos e mortais - resta, digo, considerar que diferença existe entre essas manifestações e aquelas que eram próprias do Filho de Deus e do Espírito Santo, embora operadas pela criatura visível; assunto que iniciaremos mais convenientemente em outro livro.
-
-Sobre esta página
-
-CONTACTE-NOS | ANUNCIE COM NOVO ADVENTO
-
-
 
 ## # Livro 4
 
@@ -990,12 +972,6 @@ Mas ainda não é o lugar adequado para explicar, conforme o Senhor me dê forç
 
 32. Mas agora, penso, foi suficientemente demonstrado que o Filho não é menor porque é enviado pelo Pai, nem o Espírito Santo é menor porque tanto o Pai o enviou como o Filho. Pois essas coisas são percebidas como estabelecidas nas Escrituras, seja por causa da criatura visível; ou melhor, por recomendarmos aos nossos pensamentos a emanação [dentro da Divindade]; mas não por causa da desigualdade, ou imparidade, ou dessemelhança de substância; visto que, mesmo que Deus, o Pai, quisesse aparecer visivelmente através da criatura sujeita, ainda assim seria muito absurdo dizer que Ele foi enviado pelo Filho, a quem Ele gerou, ou pelo Espírito Santo, que procede Dele. Que este seja, portanto, o limite do presente livro. Doravante, no resto, veremos, com a ajuda do Senhor, de que tipo são esses argumentos astutos dos hereges e de que maneira eles podem ser refutados.
 
-Sobre esta página
-
-CONTACTE-NOS | ANUNCIE COM NOVO ADVENTO
-
-
-
 ## #Livro 5
 
 
@@ -1167,12 +1143,6 @@ Assim também Ele passa a ser nosso Pai, quando somos regenerados pela Sua graç
 
 Assim também, quando se diz que Ele está irado com os injustos e gentil com os bons, eles são mudados, não Ele: assim como a luz é incômoda para os olhos fracos, agradável para aqueles que são fortes; ou seja, por sua mudança, não pela sua própria.
 
-Sobre esta página
-
-CONTACTE-NOS | ANUNCIE COM NOVO ADVENTO
-
-
-
 ## #Livro 6
 
 
@@ -1289,12 +1259,6 @@ Nele Deus sabia todas as coisas que Ele fez por meio dele; e, portanto, enquanto
 12. Portanto, todas essas coisas que são feitas pela habilidade divina mostram em si mesmas uma certa unidade, forma e ordem; pois cada um deles é ao mesmo tempo uma coisa, assim como as diversas naturezas dos corpos e disposições das almas; e é moldado de alguma forma, assim como as figuras ou qualidades dos corpos, e os vários aprendizados ou habilidades das almas; e busca ou preserva uma certa ordem, como são os diversos pesos ou combinações de corpos e os amores ou deleites das almas. Quando, portanto, consideramos o Criador, que é compreendido pelas coisas que são feitas, devemos compreender a Trindade, da qual aparecem traços na criatura, como convém. Pois nessa Trindade está a fonte suprema de todas as coisas, e a mais perfeita beleza, e o mais abençoado deleite. Esses três, portanto, parecem ambos mutuamente determinados e são em si mesmos infinitos. Mas aqui nas coisas corpóreas, uma coisa sozinha não é tanto quanto três juntas, e duas são algo mais que um; mas naquela Trindade mais elevada um é tanto quanto os três juntos, e dois não são nada mais que um.
 
 E eles são infinitos em si mesmos. Assim, ambos estão em cada um, e todos em cada um, e cada um em todos, e todos em todos, e todos são um. Quem vê isso, seja em parte, seja através de um vidro e de um enigma, alegre-se em conhecer a Deus; e que ele o honre como Deus e dê graças; mas quem não o vê, esforce-se para vê-lo através da piedade, e não para criticá-lo através da cegueira. Visto que Deus é um, mas ainda assim é uma Trindade. Nem devemos tomar as palavras de quem, e através de quem, e para quem são todas as coisas, como usadas indiscriminadamente [isto é, para denotar uma unidade sem distinções]; nem ainda para denotar muitos deuses, pois a Ele seja a glória para todo o sempre. Amém.
-
-Sobre esta página
-
-CONTACTE-NOS | ANUNCIE COM NOVO ADVENTO
-
-
 
 ## # Livro 7
 
@@ -1428,12 +1392,6 @@ Ele disse um e nós somos um, segundo a essência, porque eles são o mesmo Deus
 Mas porque aquela imagem de Deus não foi feita totalmente igual a Ele, como não sendo nascida Dele, mas criada por Ele; para significar isso, ele é de tal maneira a imagem que é depois da imagem, isto é, ele não é igualado pela paridade, mas aproxima-se Dele por uma espécie de semelhança. Pois a aproximação a Deus não se dá por intervalos de lugar, mas por semelhança, e o afastamento Dele é por dessemelhança. Pois há alguns que fazem esta distinção, que terão o Filho como imagem, mas o homem não como imagem, mas segundo a imagem. Mas o apóstolo os refuta, dizendo: Porque o homem não deve cobrir a cabeça, visto que é imagem e glória de Deus. Ele não disse depois da imagem, mas da imagem. E esta imagem, visto que em outros lugares é mencionada como segundo a imagem, não é como se fosse dita relativamente ao Filho, que é a imagem igual ao Pai; caso contrário, ele não diria à nossa imagem. Pois como é nosso, quando o Filho é apenas a imagem do Pai? Mas diz-se que o homem segue a imagem, devido, como dissemos, à desigualdade da semelhança; e, portanto, segundo a nossa imagem, esse homem pode ser a imagem da Trindade; não igual à Trindade como o Filho é igual ao Pai, mas aproximando-se dela, como foi dito, por uma certa semelhança; assim como a proximidade pode, em certo sentido, ser significada em coisas distantes umas das outras, não em relação ao lugar, mas por uma espécie de imitação.
 
 Pois também é dito: Seja transformado pela renovação da sua mente; a quem ele também diz: Sede, portanto, imitadores de Deus, como filhos queridos. Pois é dito ao novo homem, que se renova para o conhecimento de Deus, à imagem daquele que o criou. Ou se decidirmos admitir o número plural, a fim de atender às necessidades do argumento, mesmo deixando de lado os termos relativos, podemos responder em um termo quando for perguntado quais são três, e dizer três substâncias ou três pessoas; então, que ninguém pense em qualquer volume ou intervalo, ou em qualquer distância, por menor que seja a dessemelhança, de modo que na Trindade qualquer um seja entendido como sendo um pouco menor que outro, de qualquer maneira que uma coisa possa ser menor que outra: para que não haja confusão de pessoas, nem tal distinção que deva haver qualquer desigualdade. E se isso não pode ser compreendido pelo entendimento, que seja mantido pela fé, até que aquele que diz pelo profeta pelo profeta: Se você não acreditar, certamente não entenderá.
-
-Sobre esta página
-
-CONTACTE-NOS | ANUNCIE COM NOVO ADVENTO
-
-
 
 ## #Livro 8
 
@@ -1586,12 +1544,6 @@ Portanto, a fé vale para o conhecimento e para o amor de Deus, não como se fos
 
 14. Mas o que é o amor ou a caridade, que a divina Escritura tanto elogia e proclama, senão o amor ao bem? Mas o amor é de alguém que ama, e com amor algo é amado. Eis, pois, que há três coisas: aquele que ama, e aquele que é amado, e o amor. O que é, então, o amor, exceto uma certa vida que une ou procura unir duas coisas, a saber, aquele que ama e aquilo que é amado? E isso acontece mesmo nos amores exteriores e carnais. Mas para que possamos beber algo mais puro e claro, vamos pisar na carne e ascender à mente. O que a mente ama em um amigo, exceto a mente? Há, então, também três coisas: aquele que ama, e aquele que é amado, e o amor. Resta ascender também daqui e buscar as coisas que são de cima, na medida em que é dado ao homem. Mas aqui, por um momento, deixemos nosso propósito descansar, não que ele possa pensar que já encontrou o que procura; mas, com a mesma frequência, é preciso primeiro encontrar o lugar onde algo deve ser procurado, enquanto a coisa em si ainda não foi encontrada, mas apenas já encontramos onde procurá-la; portanto, basta ter dito isso para que possamos ter, por assim dizer, a articulação de algum ponto de partida, de onde tecer o resto do nosso discurso.
 
-Sobre esta página
-
-CONTACTE-NOS | ANUNCIE COM NOVO ADVENTO
-
-
-
 ## # Livro 9
 
 
@@ -1736,12 +1688,6 @@ Pois era amável consigo mesmo antes mesmo de se amar, pois podia amar a si mesm
 Pois a investigação é o desejo de encontrar, ou, o que dá no mesmo, de descobrir. Mas aquelas coisas que são descobertas são como foram produzidas, de onde são como descendentes; mas onde, exceto no próprio caso do conhecimento? Pois nesse caso eles são como foram pronunciados e moldados. Pois embora já existissem as coisas que encontramos procurando, ainda assim não existia o conhecimento delas, conhecimento esse que consideramos como uma prole que nasce. Além disso, o desejo (apetite) que existe na busca procede daquele que busca, e está de alguma forma em suspense, e não descansa no final para onde é direcionado, exceto que aquilo que é buscado seja encontrado e unido àquele que busca. E este desejo, isto é, a investigação - embora não pareça ser o amor, pelo qual aquilo que é conhecido é amado, pois neste caso ainda estamos nos esforçando para saber - ainda é algo do mesmo tipo. Pois pode ser chamado de vontade (voluntas), já que todo aquele que busca deseja (vult) encontrar; e se se busca aquilo que pertence ao conhecimento, todo aquele que busca deseja saber.
 
 Mas se ele quiser com ardor e sinceridade, diz-se que ele estuda (studere): uma palavra que é mais comumente empregada no caso de buscar e obter quaisquer ramos de aprendizagem. Portanto, o surgimento da mente é precedido por algum desejo, pelo qual, através da busca e descoberta do que desejamos saber, a prole, viz. o próprio conhecimento nasce. E por esta razão, aquele desejo pelo qual o conhecimento é concebido e produzido não pode ser corretamente chamado de geração e descendência; e o mesmo desejo que nos levou a ansiar pelo conhecimento da coisa, torna-se o amor pela coisa quando conhecida, enquanto ela mantém e abraça sua descendência aceita, isto é, o conhecimento, e a une ao seu progenitor. E assim há uma espécie de imagem da Trindade na própria mente, e o conhecimento dela, que é sua descendência e sua palavra a respeito de si mesma, e o amor como um terceiro, e estes três são um, e uma substância. Nem a descendência é menor, visto que a mente se conhece de acordo com a medida do seu próprio ser; nem o amor é menor, pois ama a si mesmo na medida do seu próprio conhecimento e do seu próprio ser.
-
-Sobre esta página
-
-CONTACTE-NOS | ANUNCIE COM NOVO ADVENTO
-
-
 
 ## # Livro 10
 
@@ -1906,12 +1852,6 @@ Minha vontade também abrange todo o meu entendimento e toda a minha memória en
 
 E, portanto, essas coisas podem ser expostas com mais lucidez, mesmo para homens de mente mais obtusa, se tais tópicos forem tratados de forma que sejam trazidos ao alcance da mente no tempo, e aconteçam a ela no tempo; enquanto se lembra do que não lembrava antes, e vê o que não viu antes, e ama o que não amava antes. Mas esta discussão exige agora outro começo, em razão da extensão do presente livro.
 
-Sobre esta página
-
-CONTACTE-NOS | ANUNCIE COM NOVO ADVENTO
-
-
-
 ## # Livro 11
 
 
@@ -2075,12 +2015,6 @@ E a razão, de fato, vai ainda além, mas a fantasia não a segue; como quando a
 18. Mas porque aquelas coisas que estão impressas isoladamente na memória podem ser concebidas de acordo com o número, a medida parece pertencer à memória, mas o número à visão; porque, embora a multiplicidade de tais visões seja inumerável, ainda assim um limite que não deve ser transgredido é prescrito para cada uma na memória. Portanto, a medida aparece na memória, o número na visão das coisas: assim como há alguma medida nos próprios corpos visíveis, à qual o sentido daqueles que vêem é mais numerosomente ajustado, e de um objeto visível é formada a visão de muitos observadores, de modo que mesmo uma única pessoa vê comumente uma única coisa sob uma aparência dupla, por causa do número de seus dois olhos, como estabelecemos acima. Portanto, há alguma medida naquelas coisas de onde as visões são copiadas, mas nas próprias visões há número. Mas a vontade que une e regula essas coisas, e as combina em uma certa unidade, e não descansa silenciosamente seu desejo de perceber ou de conceber [sensualmente], exceto naquelas coisas de onde as visões são formadas, assemelha-se ao peso.
 
 E, portanto, eu apenas notaria, por antecipação, estas três coisas, medida, número, peso, que devem ser percebidas também em todas as outras coisas. Entretanto, mostrei agora, tanto quanto posso, e a quem posso, que a vontade é o unificador da coisa visível e da visão; por assim dizer, dos pais e dos descendentes; seja na percepção [sensorial] ou na concepção, e que não pode ser chamado de pai ou filho. Por isso o tempo nos adverte a procurar esta mesma trindade no homem interior, e a nos esforçarmos para passar para dentro daquele homem animal e carnal e (como é chamado) homem exterior, de quem tenho falado há tanto tempo. E aqui esperamos poder encontrar uma imagem de Deus segundo a Trindade, ajudando Ele mesmo os nossos esforços, que como as próprias coisas mostram, e como também testemunha a Sagrada Escritura, regulou todas as coisas em medida, número e peso.
-
-Sobre esta página
-
-CONTACTE-NOS | ANUNCIE COM NOVO ADVENTO
-
-
 
 ## # Livro 12
 
@@ -2259,12 +2193,6 @@ Isto, digo, pode ser conjecturado a partir disto, que se eles realmente se lembr
 25. Se, portanto, esta é a distinção correta entre sabedoria e conhecimento, que o conhecimento intelectual das coisas eternas pertence à sabedoria, mas o conhecimento racional das coisas temporais ao conhecimento, não é difícil julgar qual deve ser preferido ou adiado em relação a qual. Mas se devemos empregar alguma outra distinção pela qual distinguir esses dois, o que sem dúvida o apóstolo nos ensina é diferente, dizendo: A um é dada pelo Espírito a palavra de sabedoria; para outro, a palavra de conhecimento, pelo mesmo Espírito: ainda assim, a diferença entre as duas que estabelecemos é muito evidente, pois o conhecimento intelectual das coisas eternas é uma coisa, o conhecimento racional das coisas temporais é outra; e ninguém duvida que o primeiro deve ser preferido ao segundo. À medida que deixamos para trás aquelas coisas que pertencem ao homem exterior e desejamos ascender interiormente a partir daquelas coisas que temos em comum com os animais, antes de chegarmos ao conhecimento das coisas inteligíveis e supremas, que são eternas, o conhecimento racional das coisas temporais se apresenta.
 
 Encontremos então uma trindade nisso também, se pudermos, como encontramos uma nos sentidos do corpo e naquelas coisas que através deles entraram na forma de imagens em nossa alma ou espírito; de modo que, em vez de coisas corpóreas que tocamos pelo sentido corpóreo, colocadas como estão fora de nós, poderíamos ter semelhanças de corpos impressas internamente na memória a partir da qual o pensamento poderia ser formado, enquanto a vontade como um terceiro os unia; assim como a visão dos olhos foi formada de fora, que a vontade aplicou à coisa visível para produzir a visão, e uniu ambas, ao mesmo tempo em que ela mesma se acrescentou a ela como uma terceira. Mas este assunto não deve ser comprimido neste livro; para que no que se segue, se Deus ajudar, possa ser adequadamente examinado, e as conclusões a que chegamos possam ser reveladas.
-
-Sobre esta página
-
-CONTACTE-NOS | ANUNCIE COM NOVO ADVENTO
-
-
 
 ## # Livro 13
 
@@ -2531,12 +2459,6 @@ Mas quando se acredita que essas coisas são verdadeiras, e aquelas coisas que n
 
 Quaisquer que sejam as idéias que estão na mente do homem fiel a partir desta fé e de tal vida, quando estão contidas na memória e são olhadas pela lembrança e agradam à vontade, estabelecem uma espécie de trindade de seu próprio tipo. Mas a imagem de Deus, da qual falaremos depois com Sua ajuda, ainda não está nessa trindade; algo que será então mais aparente, quando tiver sido mostrado onde está, o que o leitor poderá esperar em um livro seguinte.
 
-Sobre esta página
-
-CONTACTE-NOS | ANUNCIE COM NOVO ADVENTO
-
-
-
 ## # Livro 14
 
 
@@ -2780,12 +2702,6 @@ E devemos entender que isso foi dito por causa dessa perfeição, que seremos co
 na razão e no desejo de investigação, e quanto menos eles se misturarem e se enredarem nos vícios e erros dos homens, mais fácil será a ascensão e o retorno ao céu. E então ele diz, acrescentando esta frase curta, e terminando seu discurso repetindo-a: Portanto, para finalmente encerrar meu discurso, se desejarmos uma extinção tranquila, depois de vivermos na busca desses assuntos, ou se migrarmos sem demora deste lar atual para outro em grande medida melhor, devemos dedicar todo o nosso trabalho e cuidado a essas atividades. E aqui me admiro que um homem de tão grande habilidade possa prometer aos homens que vivem na filosofia, o que torna o homem abençoado pela contemplação da verdade, um ambiente agradável após o desempenho dos ofícios humanos, se este nosso sentimento e sabedoria for mortal e perecível; como se aquilo que não amamos, ou melhor, que odiamos ferozmente, morresse e se transformasse em nada, para que seu cenário fosse agradável para nós! Mas, na verdade, ele não aprendeu isso com os filósofos, a quem exalta com grande elogio; mas esse sentimento lembra aquela Nova Academia, onde lhe agradava duvidar até das coisas mais claras.
 
 Mas dos maiores e mais célebres filósofos, como ele mesmo confessa, ele aprendeu que as almas são eternas. Pois as almas que são eternas não são inadequadamente estimuladas pela exortação a serem encontradas em seu próprio curso, quando o fim desta vida tiver chegado, isto é, na razão e no desejo de investigação, e de se misturarem e se enredarem menos nos vícios e erros dos homens, a fim de que possam ter um retorno mais fácil a Deus. Mas aquele caminho que consiste no amor e na investigação da verdade não é suficiente para os miseráveis, isto é, para todos os mortais que têm apenas este tipo de razão e não têm fé no Mediador; como me esforcei para provar, tanto quanto pude, em livros anteriores desta obra, especialmente no quarto e no décimo terceiro.
-
-Sobre esta página
-
-CONTACTE-NOS | ANUNCIE COM NOVO ADVENTO
-
-
 
 ## # Livro 15
 
@@ -3207,8 +3123,4 @@ E o que produziu isso em você, exceto a iniqüidade? Quem, então, é o que cur
 Mas portanto não foi muito, porque era só o necessário. Liberta-me, ó Deus, daquela multidão de palavras que sofro interiormente em minha alma, miserável como é aos teus olhos, e fugindo em busca de refúgio à tua misericórdia; pois não fico calado em pensamentos, mesmo quando calado em palavras. E se, de fato, eu não pensasse em nada além do que te agradava, certamente não te pediria que me libertasse de tal multidão de palavras. Mas muitos são os meus pensamentos, como você sabe, pensamentos do homem, já que são vãos. Conceda-me não consentir com eles; e se alguma vez eles me agradarem, condená-los, e não habitar neles, como se eu dormisse. Nem deixe que eles prevaleçam em mim, de modo que qualquer coisa em meus atos deva proceder deles; mas pelo menos deixe minhas opiniões, deixe minha consciência, estar a salvo delas, sob Sua proteção. Quando o sábio falou de Ti em seu livro, que agora é chamado pelo nome especial de Eclesiástico, Nós falamos, ele disse, muito, mas falhamos; e em suma, Ele é tudo. Quando, portanto, chegarmos a Ti, estas muitas coisas que falamos, e ainda assim falham, cessarão; e Você, como Um, permanecerá tudo em todos.
 
 E diremos uma coisa sem fim: ao louvar-Te em Um, nós também nos tornamos um em Ti. Ó Senhor, o único Deus, Deus a Trindade, tudo o que eu disse nestes livros que é Teu, que eles reconheçam quem é Teu; se for algo meu, que seja perdoado tanto por Ti como por aqueles que são Teus. Amém.
-
-Sobre esta página
-
-CONTACTE-NOS | ANUNCIE COM NOVO ADVENTO
 

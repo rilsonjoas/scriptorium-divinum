@@ -208,5 +208,3 @@ Para que ninguém, ao observar a parte externa, vacile na fé, são apresentados
 
 59. Então, tendo obtido tudo, saibamos que nascemos de novo, mas não digamos: Como nascemos de novo? Entramos pela segunda vez no ventre de nossa mãe e nascemos de novo? Não reconheço aqui o curso da natureza. Mas aqui não há ordem da natureza, onde está a excelência da graça. E, novamente, nem sempre é o curso da natureza que provoca a concepção, pois confessamos que Cristo, o Senhor, foi concebido de uma Virgem e rejeitamos a ordem da natureza. Pois Maria não concebeu de homem, mas concebeu do Espírito Santo, como diz Mateus: Ela concebeu do Espírito Santo. Mateus 1:18 Se, então, o Espírito Santo descendo sobre a Virgem operou a concepção e efetuou a obra da geração, certamente não devemos duvidar de que, descendo sobre a Fonte, ou sobre aqueles que recebem o Batismo, Ele efetua a realidade do novo nascimento.
 
-CONTACTE-NOS | ANUNCIE COM NOVO ADVENTO
-
