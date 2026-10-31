@@ -18,6 +18,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import postgres from 'postgres';
 import { grafiasDivergentes } from '../src/lib/quote-authors.js';
+import { verificarManifesto, type Manifesto } from '../src/lib/acervo-manifesto.js';
 
 const TEXTS_DIR = path.join(path.dirname(fileURLToPath(import.meta.url)), '../texts');
 
@@ -184,6 +185,17 @@ async function main() {
   for (const [f, a] of analises) {
     const pub = url ? publicadaPorArquivo.get(f) ?? false : undefined;
     achados.push(...achadosDoTexto(f, a, pub));
+  }
+
+  // Manifesto: todo arquivo declara seu estado (publicada, oculta, fonte, rascunho).
+  // Erro aqui não tem `publicada` definido, então barra o CI: arquivo novo sem entrada não passa.
+  const manifestoPath = path.join(TEXTS_DIR, 'MANIFESTO.json');
+  if (existsSync(manifestoPath)) {
+    const manifesto = JSON.parse(readFileSync(manifestoPath, 'utf-8')) as Manifesto;
+    const emDisco = Object.fromEntries([...analises].map(([f, a]) => [f.replace(/\.md$/, ''), { idioma: a.idioma }]));
+    for (const x of verificarManifesto(manifesto, emDisco)) achados.push({ nivel: x.nivel, arquivo: x.arquivo + '.md', mensagem: x.mensagem });
+  } else {
+    achados.push({ nivel: 'ERRO', arquivo: 'MANIFESTO.json', mensagem: 'server/texts/MANIFESTO.json não existe' });
   }
 
   // Erro em obra oculta não derruba o portão; em publicada (ou sem banco) sim.

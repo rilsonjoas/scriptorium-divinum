@@ -61,6 +61,11 @@ jobs:
       - name: Testes unitários (server)
         run: pnpm --filter server test
 
+      - name: Acervo (manifesto e qualidade dos textos)
+        # Sem DATABASE_URL de propósito: só confere os arquivos de server/texts contra o
+        # MANIFESTO.json. Arquivo novo sem entrada, publicada fora do português, etc. barram aqui.
+        run: env -u DATABASE_URL pnpm --filter server acervo:verificar
+
       - name: Testes de integração (Postgres service)
         run: pnpm --filter server test:integration
 

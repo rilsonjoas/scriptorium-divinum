@@ -437,3 +437,20 @@ edição-fonte das 100 obras publicadas em 16/10, traduzir por inteiro as obras 
 ficaram fora por terem trechos em inglês, estruturar com títulos os textos longos sem
 sumário e decidir o que fazer com o `breve-catecismo-westminster` (publicado como
 português, texto majoritariamente em inglês).
+
+## Manifesto do acervo (`server/texts/MANIFESTO.json`)
+O que está no ar mora no **banco**; os arquivos mandam no **git**. Sem uma relação declarada entre os dois, sobravam rascunhos pela metade, duplicatas e OCR ilegível no repositório. O manifesto dá a cada arquivo um estado, e o CI (`acervo:verificar`, sem banco) **barra** o que não bater.
+
+| Estado | Significa | O verificador exige |
+|---|---|---|
+| `publicada` | no ar | texto em português |
+| `oculta` | linha existe e está escondida | campo `motivo` |
+| `fonte` | original em inglês/latim guardado de propósito | texto fora do português |
+| `rascunho` | trabalho em andamento | `dono` e `desde` (AAAA-MM-DD); parado há mais de 30 dias vira aviso |
+
+- **Arquivo novo em `server/texts/` sem entrada no manifesto faz o CI falhar.** Decida o estado na hora e registre no mesmo PR.
+- A detecção de idioma só distingue inglês de português: para latim (ou outro caso em que ela erre) declare `"idioma": "Latim"` na entrada.
+- Para **publicar**, escreva o seed em `server/src/db/seeds` (idempotente, `ON CONFLICT (slug) DO NOTHING`) e mude o estado para `publicada` no mesmo PR.
+- **Não apague do banco** uma linha oculta cujo seed antigo a reinseriria como publicada (ex.: `proslogion`): `ON CONFLICT DO NOTHING` a recria a cada deploy.
+- Ainda **não** cobre: obra publicada pelo painel sem arquivo/manifesto, nem manifesto × banco. Isso exige consultar o banco de produção (etapa seguinte, rotina na VPS com aviso no Uptime Kuma). Veja docs/DECISOES.md, 2026-10-30.
+
