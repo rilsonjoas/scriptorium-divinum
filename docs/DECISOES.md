@@ -744,3 +744,11 @@ Pendência aberta desde a F2: a API aceita mudar uma citação de `ativa` para `
 **Mais um removido (2026-10-30):** `confissoes-santo-agostinho` — rascunho de tradução pela metade (começa com o inglês de E. B. Pusey, depois vira português de tradução automática palavra por palavra; ~53% ainda em inglês). Não era usado por obra publicada: as *Confissões* no ar são `confissoes-garnier-1905-pt.md`, em português integral.
 
 **Sobre controlar arquivos órfãos (tentado e descartado):** um verificador baseado em seeds marcou 12 obras *publicadas* como órfãs (Bíblia, *Auto da Alma*, *Confissões*, *O Peregrino*, Credos…), porque entraram no catálogo por scripts ou pelo painel, não por seed. A fonte da verdade do que está publicado é o **banco**. Um controle confiável precisa consultar o banco (o modo `DATABASE_URL` do `acervo:verificar` já lista "arquivo sem obra no catálogo", hoje só como INFO e fora do CI).
+
+## 2026-10-30 — Manifesto do acervo: cada arquivo declara seu estado, e o CI barra o resto
+**Problema:** arquivos em `server/texts/` (git) e linhas no banco (o que aparece) sem relação declarada, com três caminhos de publicar (seed, script, painel). Sobravam órfãos de baixa qualidade e nada impedia novos.
+
+**Decisão (etapa 1 de 3):** `server/texts/MANIFESTO.json` com estado por arquivo (`publicada`, `oculta`, `fonte`, `rascunho`) e verificação no CI, sem banco, em `acervo:verificar` (lógica pura em `server/src/lib/acervo-manifesto.ts`, com testes). Estado inicial gerado a partir do catálogo no ar: 258 publicadas, 23 fonte, 2 ocultas (`breve-catecismo-westminster`, `tratado-sobre-as-reliquias-calvino`). Provado: arquivo sem entrada derruba o CI.
+
+**Etapas seguintes (não feitas):** (2) rotina na VPS comparando manifesto × banco, somente leitura, com aviso no Uptime Kuma; (3) comando único `acervo:publicar` que gera o seed e atualiza o manifesto. A 2 mexe em infraestrutura e pede revisão do autor.
+

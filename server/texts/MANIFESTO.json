@@ -1,0 +1,858 @@
+{
+  "versao": 1,
+  "descricao": "Estado de cada arquivo de server/texts. Estados: publicada (no ar, em português, com linha publicada no banco), oculta (linha existe e está escondida; exige motivo), fonte (original em inglês ou latim guardado de propósito; sem linha), rascunho (trabalho em andamento; exige dono e desde). Todo arquivo novo precisa de uma entrada aqui; o CI barra o que faltar. Veja docs/GERENCIAR-ACERVO.md.",
+  "arquivos": {
+    "a-biblia-sagrada-contendo-o-velho-e-o-novo-testamento": {
+      "estado": "publicada"
+    },
+    "a-cana-quebrada-richard-sibbes": {
+      "estado": "publicada"
+    },
+    "a-catequese-dos-nao-instruidos-agostinho": {
+      "estado": "publicada"
+    },
+    "a-cidade-de-deus-agostinho": {
+      "estado": "publicada"
+    },
+    "a-consolacao-da-filosofia-boecio": {
+      "estado": "publicada"
+    },
+    "a-criacao-do-homem-gregorio-de-nissa": {
+      "estado": "publicada"
+    },
+    "a-demetriano-cipriano": {
+      "estado": "publicada"
+    },
+    "a-donato-cipriano": {
+      "estado": "publicada"
+    },
+    "a-doutrina-crista-agostinho": {
+      "estado": "publicada"
+    },
+    "a-doutrina-do-arrependimento-thomas-watson": {
+      "estado": "publicada"
+    },
+    "a-encarnacao-do-verbo": {
+      "estado": "publicada"
+    },
+    "a-escada-do-paraiso-joao-climaco": {
+      "estado": "publicada"
+    },
+    "a-escapula-tertuliano": {
+      "estado": "publicada"
+    },
+    "a-existencia-e-os-atributos-de-deus-charnock": {
+      "estado": "publicada"
+    },
+    "a-fe-e-o-simbolo-agostinho": {
+      "estado": "publicada"
+    },
+    "a-gloria-de-cristo-john-owen": {
+      "estado": "publicada"
+    },
+    "a-guarda-do-coracao-john-flavel": {
+      "estado": "publicada"
+    },
+    "a-guerra-santa-john-bunyan": {
+      "estado": "publicada"
+    },
+    "a-mortificacao-do-pecado-john-owen": {
+      "estado": "publicada"
+    },
+    "a-nobreza-crista-da-nacao-alema-lutero": {
+      "estado": "publicada"
+    },
+    "a-oracao-do-senhor-cipriano": {
+      "estado": "publicada"
+    },
+    "a-oracao-no-espirito-john-bunyan": {
+      "estado": "publicada"
+    },
+    "a-pratica-da-presenca-de-deus-irmao-lourenco": {
+      "estado": "publicada"
+    },
+    "a-regra-de-sao-bento": {
+      "estado": "publicada"
+    },
+    "a-tradicao-apostolica-hipolito": {
+      "estado": "publicada"
+    },
+    "a-trindade-santo-agostinho": {
+      "estado": "publicada"
+    },
+    "a-unidade-da-igreja-catolica": {
+      "estado": "publicada"
+    },
+    "a-utilidade-da-fe-agostinho": {
+      "estado": "publicada"
+    },
+    "a-vida-de-moises-gregorio-de-nissa": {
+      "estado": "publicada"
+    },
+    "a-vida-do-cristao-calvino": {
+      "estado": "publicada"
+    },
+    "aos-jovens-sobre-a-literatura-classica": {
+      "estado": "publicada"
+    },
+    "aos-jovens-sobre-a-literatura-grega-basilio": {
+      "estado": "publicada"
+    },
+    "apologetico-tertuliano": {
+      "estado": "publicada"
+    },
+    "apologia-da-confissao-de-augsburgo": {
+      "estado": "publicada"
+    },
+    "arvore-da-vida-boaventura": {
+      "estado": "publicada"
+    },
+    "as-afeicoes-religiosas-jonathan-edwards": {
+      "estado": "publicada"
+    },
+    "as-instituicoes-cenobiticas-joao-cassiano": {
+      "estado": "publicada"
+    },
+    "as-seis-asas-do-serafim-boaventura": {
+      "estado": "publicada"
+    },
+    "auto-da-alma": {
+      "estado": "publicada"
+    },
+    "auto-da-barca-do-inferno": {
+      "estado": "publicada"
+    },
+    "bernardes-antologia-estimulo-luz-e-calor": {
+      "estado": "publicada"
+    },
+    "bernardes-antologia-nova-floresta": {
+      "estado": "publicada"
+    },
+    "breve-catecismo-westminster": {
+      "estado": "oculta",
+      "motivo": "Bilíngue por desenho: o original de 1647 vem em citação ao lado de cada resposta. Linha oculta no banco por decisão de 2026-10-16; só publica se o autor decidir mostrar o original."
+    },
+    "breviloquio-suma-breve-boaventura": {
+      "estado": "publicada"
+    },
+    "caminho-de-perfeicao-teresa-de-avila": {
+      "estado": "publicada"
+    },
+    "canones-de-dort": {
+      "estado": "publicada"
+    },
+    "cantico-das-criaturas-sao-francisco": {
+      "estado": "publicada"
+    },
+    "cantico-espiritual-joao-da-cruz": {
+      "estado": "publicada"
+    },
+    "carta-a-diogneto": {
+      "estado": "publicada"
+    },
+    "carta-de-ouro-guilherme-saint-thierry": {
+      "estado": "publicada"
+    },
+    "cartas-a-nestorio-cirilo-alexandria": {
+      "estado": "publicada"
+    },
+    "cartas-de-inacio-de-antioquia": {
+      "estado": "publicada"
+    },
+    "cartas-sobre-sao-martinho-sulpicio-severo": {
+      "estado": "publicada"
+    },
+    "castelo-forte-e-o-nosso-deus": {
+      "estado": "publicada"
+    },
+    "catecismo-de-heidelberg": {
+      "estado": "publicada"
+    },
+    "catequeses-batismais-parte-1-cirilo-de-jerusalem": {
+      "estado": "publicada"
+    },
+    "catequeses-batismais-parte-2-cirilo-de-jerusalem": {
+      "estado": "publicada"
+    },
+    "catequeses-mistagogicas-cirilo-de-jerusalem": {
+      "estado": "publicada"
+    },
+    "cativeiro-babilonico-da-igreja-lutero": {
+      "estado": "publicada"
+    },
+    "centurias-sobre-a-caridade-maximo-confessor": {
+      "estado": "publicada"
+    },
+    "cidade-de-deus-en": {
+      "estado": "fonte"
+    },
+    "clareza-e-certeza-palavra-de-deus-zuinglio": {
+      "estado": "publicada"
+    },
+    "coletas-livro-de-oracao-comum-1662": {
+      "estado": "publicada"
+    },
+    "comentario-ao-magnificat-lutero": {
+      "estado": "publicada"
+    },
+    "comentario-aos-galatas-lutero": {
+      "estado": "publicada"
+    },
+    "comentario-sobre-galatas-joao-crisostomo": {
+      "estado": "publicada"
+    },
+    "commentary-on-the-epistle-to-the-galatians": {
+      "estado": "fonte"
+    },
+    "commonitorium-canon-ortodoxia-vicente-lerins": {
+      "estado": "publicada"
+    },
+    "commonitorium-vicente-de-lerins": {
+      "estado": "publicada"
+    },
+    "compendio-de-teologia-tomas-de-aquino": {
+      "estado": "publicada"
+    },
+    "compendium-theologiae-la": {
+      "estado": "fonte",
+      "idioma": "Latim"
+    },
+    "comunhao-com-deus-trindade-john-owen": {
+      "estado": "publicada"
+    },
+    "concerning-christian-liberty": {
+      "estado": "fonte"
+    },
+    "conferencias-dos-padres-joao-cassiano": {
+      "estado": "publicada"
+    },
+    "confissao-de-fe-de-westminster": {
+      "estado": "publicada"
+    },
+    "confissoes-garnier-1905-pt": {
+      "estado": "publicada"
+    },
+    "contra-a-mentira-agostinho": {
+      "estado": "publicada"
+    },
+    "contra-as-heresias-livro-3-ireneu": {
+      "estado": "publicada"
+    },
+    "contra-as-heresias-livro-4-ireneu": {
+      "estado": "publicada"
+    },
+    "contra-as-heresias-livro-5-ireneu": {
+      "estado": "publicada"
+    },
+    "contra-helvidio-perpetua-virgindade-de-maria-jeronimo": {
+      "estado": "publicada"
+    },
+    "contra-praxeas-tertuliano": {
+      "estado": "publicada"
+    },
+    "credos-ecumenicos": {
+      "estado": "publicada"
+    },
+    "cur-deus-homo-anselmo": {
+      "estado": "publicada"
+    },
+    "da-continencia-agostinho": {
+      "estado": "publicada"
+    },
+    "da-fe-nas-coisas-invisiveis-agostinho": {
+      "estado": "publicada"
+    },
+    "da-idolatria-tertuliano": {
+      "estado": "publicada"
+    },
+    "da-liberdade-do-cristao": {
+      "estado": "publicada"
+    },
+    "da-maneira-de-orar-e-meditar-hugo-sao-vitor": {
+      "estado": "publicada"
+    },
+    "da-mentira-agostinho": {
+      "estado": "publicada"
+    },
+    "da-natureza-do-bem-agostinho": {
+      "estado": "publicada"
+    },
+    "da-oracao-e-vida-contemplativa-tomas-de-aquino": {
+      "estado": "publicada"
+    },
+    "da-paciencia-tertuliano": {
+      "estado": "publicada"
+    },
+    "da-santa-virgindade-agostinho": {
+      "estado": "publicada"
+    },
+    "de-magistro": {
+      "estado": "publicada"
+    },
+    "demonstracao-da-pregacao-apostolica": {
+      "estado": "publicada"
+    },
+    "devocoes-para-ocasioes-emergentes-donne": {
+      "estado": "publicada"
+    },
+    "dialogo-contra-os-luciferianos-jeronimo": {
+      "estado": "publicada"
+    },
+    "dialogos-sobre-sao-martinho-sulpicio-severo": {
+      "estado": "publicada"
+    },
+    "didaque": {
+      "estado": "publicada"
+    },
+    "didaque-doutrina-dos-doze-apostolos": {
+      "estado": "publicada"
+    },
+    "didascalicon-hugo-de-sao-vitor": {
+      "estado": "publicada"
+    },
+    "discurso-aos-gregos-taciano": {
+      "estado": "publicada"
+    },
+    "discurso-sobre-a-pascoa-gregorio-nazianzo": {
+      "estado": "publicada"
+    },
+    "discursos-teologicos-gregorio-de-nazianzo": {
+      "estado": "publicada"
+    },
+    "do-amor-de-deus-bernardo-de-claraval": {
+      "estado": "publicada"
+    },
+    "do-bem-da-viuvez-agostinho": {
+      "estado": "publicada"
+    },
+    "do-bem-do-matrimonio-agostinho": {
+      "estado": "publicada"
+    },
+    "do-cuidado-devido-aos-mortos-agostinho": {
+      "estado": "publicada"
+    },
+    "do-trabalho-dos-monges-agostinho": {
+      "estado": "publicada"
+    },
+    "dos-espetaculos-tertuliano": {
+      "estado": "publicada"
+    },
+    "enchiridion-agostinho": {
+      "estado": "publicada"
+    },
+    "epistola-e-martirio-de-policarpo": {
+      "estado": "publicada"
+    },
+    "exortacao-ao-martirio-cipriano": {
+      "estado": "publicada"
+    },
+    "exposicao-da-fe-ortodoxa-damasceno": {
+      "estado": "publicada"
+    },
+    "exposicao-do-simbolo-dos-apostolos-rufino": {
+      "estado": "publicada"
+    },
+    "graca-abundante-john-bunyan": {
+      "estado": "publicada"
+    },
+    "grace-abounding-to-the-chief-of-sinners": {
+      "estado": "fonte"
+    },
+    "guia-de-pecadores-luis-de-granada": {
+      "estado": "publicada"
+    },
+    "hexaemeron-homilias-sobre-a-criacao-basilio-magno": {
+      "estado": "publicada"
+    },
+    "hinos-do-amor-divino-simeao-novo-teologo": {
+      "estado": "publicada"
+    },
+    "hinos-sobre-a-natividade-efrem-siria": {
+      "estado": "publicada"
+    },
+    "historia-eclesiastica-eusebio-de-cesareia": {
+      "estado": "publicada"
+    },
+    "homilias-e-escritos-espirituais-crisostomo": {
+      "estado": "publicada"
+    },
+    "homilias-sermao-da-montanha-crisostomo": {
+      "estado": "publicada"
+    },
+    "homilias-sobre-as-estatuas-parte-1-joao-crisostomo": {
+      "estado": "publicada"
+    },
+    "homilias-sobre-as-estatuas-parte-2-joao-crisostomo": {
+      "estado": "publicada"
+    },
+    "homilias-sobre-colossenses-joao-crisostomo": {
+      "estado": "publicada"
+    },
+    "homilias-sobre-efesios-joao-crisostomo": {
+      "estado": "publicada"
+    },
+    "homilias-sobre-filemom-joao-crisostomo": {
+      "estado": "publicada"
+    },
+    "homilias-sobre-filipenses-joao-crisostomo": {
+      "estado": "publicada"
+    },
+    "homilias-sobre-hebreus-parte-1-joao-crisostomo": {
+      "estado": "publicada"
+    },
+    "homilias-sobre-hebreus-parte-2-joao-crisostomo": {
+      "estado": "publicada"
+    },
+    "homilias-sobre-primeira-tessalonicenses-joao-crisostomo": {
+      "estado": "publicada"
+    },
+    "homilias-sobre-primeira-timoteo-joao-crisostomo": {
+      "estado": "publicada"
+    },
+    "homilias-sobre-segunda-tessalonicenses-joao-crisostomo": {
+      "estado": "publicada"
+    },
+    "homilias-sobre-segunda-timoteo-joao-crisostomo": {
+      "estado": "publicada"
+    },
+    "homilias-sobre-tito-joao-crisostomo": {
+      "estado": "publicada"
+    },
+    "imitacao-de-cristo": {
+      "estado": "publicada"
+    },
+    "institutas-da-religiao-crista": {
+      "estado": "publicada"
+    },
+    "institutas-da-religiao-crista-en": {
+      "estado": "fonte"
+    },
+    "instrucoes-espirituais-doroteu-de-gaza": {
+      "estado": "publicada"
+    },
+    "introducao-a-vida-devota-francisco-de-sales": {
+      "estado": "publicada"
+    },
+    "itinerario-da-mente-para-deus-boaventura": {
+      "estado": "publicada"
+    },
+    "leaves-from-st-john-chrysostom": {
+      "estado": "fonte"
+    },
+    "livro-da-vida-teresa-de-avila": {
+      "estado": "publicada"
+    },
+    "loci-communes-melancton": {
+      "estado": "publicada"
+    },
+    "lutero-95-teses": {
+      "estado": "publicada"
+    },
+    "luz-e-calor-manuel-bernardes": {
+      "estado": "publicada"
+    },
+    "metodo-para-a-oracao-matthew-henry": {
+      "estado": "publicada"
+    },
+    "mistagogia-maximo-confessor": {
+      "estado": "publicada"
+    },
+    "monologion-anselmo": {
+      "estado": "publicada"
+    },
+    "necessidade-de-reformar-a-igreja-calvino": {
+      "estado": "publicada"
+    },
+    "noite-escura-da-alma-joao-da-cruz": {
+      "estado": "publicada"
+    },
+    "o-bem-da-paciencia-cipriano": {
+      "estado": "publicada"
+    },
+    "o-castelo-interior-teresa-de-avila": {
+      "estado": "publicada"
+    },
+    "o-catecismo-maior-martinho-lutero": {
+      "estado": "publicada"
+    },
+    "o-catecismo-menor-martinho-lutero": {
+      "estado": "publicada"
+    },
+    "o-conflito-da-alma-richard-sibbes": {
+      "estado": "publicada"
+    },
+    "o-coracao-de-cristo-thomas-goodwin": {
+      "estado": "publicada"
+    },
+    "o-descanso-eterno-dos-santos-richard-baxter": {
+      "estado": "publicada"
+    },
+    "o-dialogo-catarina-de-sena": {
+      "estado": "publicada"
+    },
+    "o-grande-discurso-catequetico-gregorio-de-nissa": {
+      "estado": "publicada"
+    },
+    "o-habito-das-virgens-cipriano": {
+      "estado": "publicada"
+    },
+    "o-homem-eterno-chesterton": {
+      "estado": "publicada"
+    },
+    "o-misterio-da-providencia-john-flavel": {
+      "estado": "publicada"
+    },
+    "o-padre-do-campo-george-herbert": {
+      "estado": "publicada"
+    },
+    "o-pastor-de-hermas": {
+      "estado": "publicada"
+    },
+    "o-pastor-reformado-richard-baxter": {
+      "estado": "publicada"
+    },
+    "o-peregrino-pt": {
+      "estado": "publicada"
+    },
+    "o-tratado-da-oracao-do-senhor-thomas-watson": {
+      "estado": "publicada"
+    },
+    "on-prayer-and-the-contemplative-life": {
+      "estado": "fonte"
+    },
+    "ortodoxia-chesterton": {
+      "estado": "publicada"
+    },
+    "paginas-douradas-sao-joao-crisostomo": {
+      "estado": "publicada"
+    },
+    "pecadores-nas-maos-de-um-deus-irado": {
+      "estado": "publicada"
+    },
+    "pensamentos-blaise-pascal": {
+      "estado": "publicada"
+    },
+    "pensamentos-e-memorial-blaise-pascal": {
+      "estado": "publicada"
+    },
+    "pequeno-tratado-sobre-a-santa-ceia-calvino": {
+      "estado": "publicada"
+    },
+    "peticao-pelos-cristaos-atenagoras": {
+      "estado": "publicada"
+    },
+    "preces-privatae-lancelot-andrewes": {
+      "estado": "publicada"
+    },
+    "prefacio-aos-romanos-lutero": {
+      "estado": "publicada"
+    },
+    "primeira-apologia-justino-martir": {
+      "estado": "publicada"
+    },
+    "primeira-epistola-de-clemente": {
+      "estado": "publicada"
+    },
+    "proslogion-anselmo": {
+      "estado": "publicada"
+    },
+    "regra-pastoral-gregorio-magno": {
+      "estado": "publicada"
+    },
+    "relacao-da-missao-da-serra-de-ibiapaba": {
+      "estado": "publicada"
+    },
+    "remedios-preciosos-contra-satanas-thomas-brooks": {
+      "estado": "publicada"
+    },
+    "resposta-ao-cardeal-sadoleto-calvino": {
+      "estado": "publicada"
+    },
+    "resposta-aos-judeus-tertuliano": {
+      "estado": "publicada"
+    },
+    "santo-morrer-jeremy-taylor": {
+      "estado": "publicada"
+    },
+    "santo-viver-jeremy-taylor": {
+      "estado": "publicada"
+    },
+    "segunda-apologia-justino-martir": {
+      "estado": "publicada"
+    },
+    "sermao-da-dominga-xix-depois-do-pentecoste": {
+      "estado": "publicada"
+    },
+    "sermao-da-quinta-dominga-da-quaresma": {
+      "estado": "publicada"
+    },
+    "sermao-da-sexagesima": {
+      "estado": "publicada"
+    },
+    "sermao-da-sexagesima-antonio-vieira": {
+      "estado": "publicada"
+    },
+    "sermao-das-lagrimas-de-sao-pedro-vieira": {
+      "estado": "publicada"
+    },
+    "sermao-de-santo-antonio-aos-peixes": {
+      "estado": "publicada"
+    },
+    "sermao-do-mandato": {
+      "estado": "publicada"
+    },
+    "sermao-do-mandato-1670": {
+      "estado": "publicada"
+    },
+    "sermao-pelo-bom-sucesso-das-armas-de-portugal-contra-as-de-holanda": {
+      "estado": "publicada"
+    },
+    "sermao-primeira-dominga-quaresma-vieira": {
+      "estado": "publicada"
+    },
+    "sermao-santo-antonio-peixes-vieira": {
+      "estado": "publicada"
+    },
+    "sermoes-cantico-dos-canticos-bernardo-claraval": {
+      "estado": "publicada"
+    },
+    "sermoes-do-homem-interior-mestre-eckhart": {
+      "estado": "publicada"
+    },
+    "sermoes-sobre-a-natividade-sao-leao-magno": {
+      "estado": "publicada"
+    },
+    "sermoes-sobre-o-misterio-pascal-sao-leao-magno": {
+      "estado": "publicada"
+    },
+    "sermoes-sobre-pentecostes-e-os-santos-sao-leao-magno": {
+      "estado": "publicada"
+    },
+    "sobre-a-alma-e-a-ressurreicao-gregorio-de-nissa": {
+      "estado": "publicada"
+    },
+    "sobre-a-alma-e-a-ressurreicao-gregorio-nissa": {
+      "estado": "publicada"
+    },
+    "sobre-a-carne-de-cristo-tertuliano": {
+      "estado": "publicada"
+    },
+    "sobre-a-criacao-do-homem-gregorio-de-nissa": {
+      "estado": "publicada"
+    },
+    "sobre-a-mortalidade-cipriano": {
+      "estado": "publicada"
+    },
+    "sobre-a-oracao-dominical": {
+      "estado": "publicada"
+    },
+    "sobre-a-oracao-e-a-vida-contemplativa-tomas-de-aquino": {
+      "estado": "publicada"
+    },
+    "sobre-a-oracao-tertuliano": {
+      "estado": "publicada"
+    },
+    "sobre-a-paciencia-agostinho": {
+      "estado": "publicada"
+    },
+    "sobre-a-ressurreicao-da-carne-tertuliano": {
+      "estado": "publicada"
+    },
+    "sobre-a-verdade-de-veritate-anselmo": {
+      "estado": "publicada"
+    },
+    "sobre-a-virgindade-gregorio-de-nissa": {
+      "estado": "publicada"
+    },
+    "sobre-as-boas-obras-e-as-esmolas-cipriano": {
+      "estado": "publicada"
+    },
+    "sobre-as-virgens-ambrosio-de-milao": {
+      "estado": "publicada"
+    },
+    "sobre-as-viuvas-ambrosio-de-milao": {
+      "estado": "publicada"
+    },
+    "sobre-homens-ilustres-jeronimo": {
+      "estado": "publicada"
+    },
+    "sobre-o-batismo-tertuliano": {
+      "estado": "publicada"
+    },
+    "sobre-o-espirito-santo-ambrosio-de-milao": {
+      "estado": "publicada"
+    },
+    "sobre-o-espirito-santo-basilio-magno": {
+      "estado": "publicada"
+    },
+    "sobre-o-mestre-agostinho": {
+      "estado": "publicada"
+    },
+    "sobre-o-sacerdocio-joao-crisostomo": {
+      "estado": "publicada"
+    },
+    "sobre-o-zelo-e-a-inveja-cipriano": {
+      "estado": "publicada"
+    },
+    "sobre-os-caidos-cipriano": {
+      "estado": "publicada"
+    },
+    "sobre-os-deveres-do-clero-livro-1-ambrosio-de-milao": {
+      "estado": "publicada"
+    },
+    "sobre-os-deveres-do-clero-livros-2-e-3-ambrosio-de-milao": {
+      "estado": "publicada"
+    },
+    "sobre-os-misterios-ambrosio-de-milao": {
+      "estado": "publicada"
+    },
+    "sobre-os-sinodos-hilario-de-poitiers": {
+      "estado": "publicada"
+    },
+    "soliloquio-arras-da-alma-hugo-de-sao-vitor": {
+      "estado": "publicada"
+    },
+    "soliloquio-da-alma-tomas-de-kempis": {
+      "estado": "publicada"
+    },
+    "sousa-vida-do-arcebispo-antologia": {
+      "estado": "publicada"
+    },
+    "st-bernard-of-clairvauxs-life-of-st-malachy-of-armagh": {
+      "estado": "fonte"
+    },
+    "subida-do-monte-carmelo-joao-da-cruz": {
+      "estado": "publicada"
+    },
+    "suma-contra-os-gentios-tomas-de-aquino": {
+      "estado": "publicada"
+    },
+    "suma-teologica-primeira-parte": {
+      "estado": "publicada"
+    },
+    "suma-teologica-primeira-parte-da-segunda-parte": {
+      "estado": "publicada"
+    },
+    "suma-teologica-segunda-parte-da-segunda-parte": {
+      "estado": "publicada"
+    },
+    "suma-teologica-terceira-parte": {
+      "estado": "publicada"
+    },
+    "summa-theologica-part-i-ii-pars-prima-secundae": {
+      "estado": "fonte"
+    },
+    "summa-theologica-part-i-prima-pars": {
+      "estado": "fonte"
+    },
+    "summa-theologica-part-ii-ii-secunda-secundae": {
+      "estado": "fonte"
+    },
+    "summa-theologica-part-iii-tertia-pars": {
+      "estado": "fonte"
+    },
+    "teologia-mistica-pseudo-dionisio": {
+      "estado": "publicada"
+    },
+    "the-apology-of-the-augsburg-confession": {
+      "estado": "fonte"
+    },
+    "the-apostolic-tradition-of-hippolytus": {
+      "estado": "fonte"
+    },
+    "the-confessions-of-st-augustine": {
+      "estado": "fonte"
+    },
+    "the-consolation-of-philosophy": {
+      "estado": "fonte"
+    },
+    "the-holy-war": {
+      "estado": "fonte"
+    },
+    "the-large-catechism": {
+      "estado": "fonte"
+    },
+    "the-pilgrims-progress": {
+      "estado": "fonte"
+    },
+    "the-saints-everlasting-rest": {
+      "estado": "fonte"
+    },
+    "the-teaching-of-the-twelve-apostles-didache": {
+      "estado": "fonte"
+    },
+    "thoughts-pensees": {
+      "estado": "fonte"
+    },
+    "tome-de-jesus-trabalhos-de-jesus-1": {
+      "estado": "publicada"
+    },
+    "tomo-a-flaviano-sao-leao-magno": {
+      "estado": "publicada"
+    },
+    "trabalhos-de-jesus-frei-tome": {
+      "estado": "publicada"
+    },
+    "tradicao-apostolica-hipolito": {
+      "estado": "publicada"
+    },
+    "tratado-a-autolico-teofilo-antioquia": {
+      "estado": "publicada"
+    },
+    "tratado-do-amor-de-deus-francisco-de-sales": {
+      "estado": "publicada"
+    },
+    "tratado-do-purgatorio-catarina-de-genova": {
+      "estado": "publicada"
+    },
+    "tratado-primeira-epistola-sao-joao-agostinho": {
+      "estado": "publicada"
+    },
+    "tratado-sobre-a-oracao-crisostomo": {
+      "estado": "publicada"
+    },
+    "tratado-sobre-a-santa-ceia-calvino": {
+      "estado": "publicada"
+    },
+    "tratado-sobre-as-reliquias-calvino": {
+      "estado": "oculta",
+      "motivo": "Arquivo corrompido: parágrafos em inglês da dissertação do editor intercalados fora de ordem com o texto de Calvino. Reprocessar a partir da fonte antes de reativar."
+    },
+    "tratados-do-desapego-mestre-eckhart": {
+      "estado": "publicada"
+    },
+    "tratados-patristicos-parte-1-cipriano-de-cartago": {
+      "estado": "publicada"
+    },
+    "tratados-patristicos-parte-2-cipriano-de-cartago": {
+      "estado": "publicada"
+    },
+    "trinta-e-nove-artigos-da-religiao": {
+      "estado": "publicada"
+    },
+    "vida-de-santa-macrina-gregorio-nissa": {
+      "estado": "publicada"
+    },
+    "vida-de-santo-antao-atanasio": {
+      "estado": "publicada"
+    },
+    "vida-de-santo-hilariao-jeronimo": {
+      "estado": "publicada"
+    },
+    "vida-de-sao-bento-dialogos-gregorio-magno": {
+      "estado": "publicada"
+    },
+    "vida-de-sao-malaquias-bernardo-de-claraval": {
+      "estado": "publicada"
+    },
+    "vida-de-sao-malaquias-jeronimo": {
+      "estado": "publicada"
+    },
+    "vida-de-sao-martinho-sulpicio-severo": {
+      "estado": "publicada"
+    },
+    "vida-de-sao-paulo-eremita-jeronimo": {
+      "estado": "publicada"
+    }
+  }
+}
