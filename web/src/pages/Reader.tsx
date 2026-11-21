@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Dialog, DialogContent, DialogDescription, DialogTitle } from '@/components/ui/dialog';
 import { ArrowLeft, ChevronLeft, ChevronRight, Clock, Eraser, Languages, List, Loader2, Minimize2, ScrollText, Sparkles } from 'lucide-react';
-import { Link, useParams } from 'react-router-dom';
+import { Link, useLocation, useParams } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { EdicaoFicha } from '@/components/reader/EdicaoFicha';
@@ -14,7 +14,7 @@ import { useSpeech } from '@/hooks/useSpeech';
 import { limparCallouts, normalizarReguas, normalizarTitulos, splitProvenance } from '@/utils/readerText';
 import { remarkMarcasDeEdicao } from '@/utils/marcasDeEdicao';
 import { converterNotas, relocarNotas } from '@/utils/notasNumeradas';
-import { agruparCapitulosCurtos, splitIntoChapters } from '@/utils/chapters';
+import { agruparCapitulosCurtos, destinoDoHash, splitIntoChapters } from '@/utils/chapters';
 import {
   assignChapters,
   bookRatio,
@@ -134,6 +134,7 @@ const markdownComponents = {
 
 export default function Reader() {
   const { bookId } = useParams<{ bookId: string }>();
+  const { hash } = useLocation();
   const { data, isLoading, error } = useBookText(bookId || '');
   const { data: bookDetails } = useBook(bookId || '');
   usePageTitle(bookDetails?.title ?? "Leitura");
@@ -273,6 +274,14 @@ export default function Reader() {
     const slug = data?.slug;
     if (!slug || totalCapitulos === 0 || restoredRef.current) return;
     restoredRef.current = true;
+    // Um link com #hash (capítulo ou título do índice) vale mais que a leitura salva:
+    // quem clicou num link quer chegar naquele ponto, não onde parou da última vez.
+    const destino = parsed ? destinoDoHash(hash, parsed.toc, parsed.chapters) : null;
+    if (destino) {
+      setPos({ chapter: destino.chapter, page: 0 });
+      setTargetId(destino.id);
+      return;
+    }
     const saved = getReadingProgress(slug);
     if (!saved) return;
     lastSavedRatio.current = saved.ratio;
@@ -284,7 +293,7 @@ export default function Reader() {
     } else if (isFinished(saved.ratio)) {
       removeReadingProgress(slug);
     }
-  }, [data, totalCapitulos]);
+  }, [data, totalCapitulos, parsed, hash]);
 
   // Modo Páginas: o progresso anda com a página
   useEffect(() => {

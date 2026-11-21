@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { splitIntoChapters, chapterIndexById, agruparCapitulosCurtos } from './chapters';
+import { splitIntoChapters, chapterIndexById, agruparCapitulosCurtos, destinoDoHash } from './chapters';
 
 describe('splitIntoChapters', () => {
   it('junta ao capítulo seguinte o bloco de título que não tem nenhum parágrafo', () => {
@@ -107,5 +107,40 @@ describe('agruparCapitulosCurtos', () => {
 
   it('obra só com um capítulo curto continua com ele', () => {
     expect(agruparCapitulosCurtos([cap('a', 100)], 900)).toHaveLength(1);
+  });
+});
+
+describe('destinoDoHash', () => {
+  const md = '# Obra\n\n## Capítulo A\n\ntexto a\n\n### Seção A1\n\ntexto\n\n## Capítulo B\n\ntexto b';
+  const chapters = splitIntoChapters(md);
+  const toc = [
+    { id: 'capitulo-a', chapter: 1 },
+    { id: 'secao-a1', chapter: 1 },
+    { id: 'capitulo-b', chapter: 2 },
+    { id: 'solto', chapter: -1 },
+  ];
+
+  it('abre o capítulo pelo id dele', () => {
+    expect(destinoDoHash('#capitulo-b', toc, chapters)).toEqual({ chapter: 2, id: 'capitulo-b' });
+  });
+
+  it('título dentro do capítulo: devolve o capítulo que o contém e o id para rolar', () => {
+    expect(destinoDoHash('#secao-a1', toc, chapters)).toEqual({ chapter: 1, id: 'secao-a1' });
+  });
+
+  it('sem hash, hash vazio ou hash que não existe na obra: null (o leitor segue normal)', () => {
+    expect(destinoDoHash('', toc, chapters)).toBeNull();
+    expect(destinoDoHash('#', toc, chapters)).toBeNull();
+    expect(destinoDoHash('#nao-existe', toc, chapters)).toBeNull();
+  });
+
+  it('título do índice sem capítulo (-1) não serve de destino', () => {
+    expect(destinoDoHash('#solto', toc, chapters)).toBeNull();
+  });
+
+  it('decodifica hash com acento e não quebra com hash malformado', () => {
+    const cs = splitIntoChapters('# Obra\n\n## Créditos\n\ntexto');
+    expect(destinoDoHash('#' + encodeURIComponent('créditos'), [], cs)).toBeNull(); // id é slug sem acento
+    expect(destinoDoHash('#%E0%A4%A', toc, chapters)).toBeNull();
   });
 });
