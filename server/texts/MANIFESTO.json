@@ -16,7 +16,8 @@
       "estado": "publicada"
     },
     "a-consolacao-da-filosofia-boecio": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "a-criacao-do-homem-gregorio-de-nissa": {
       "estado": "publicada"
@@ -28,13 +29,15 @@
       "estado": "publicada"
     },
     "a-doutrina-crista-agostinho": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "a-doutrina-do-arrependimento-thomas-watson": {
       "estado": "publicada"
     },
     "a-encarnacao-do-verbo": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "a-escada-do-paraiso-joao-climaco": {
       "estado": "publicada"
@@ -79,28 +82,34 @@
       "estado": "publicada"
     },
     "a-trindade-santo-agostinho": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "a-unidade-da-igreja-catolica": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "a-utilidade-da-fe-agostinho": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "a-vida-de-moises-gregorio-de-nissa": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "a-vida-do-cristao-calvino": {
       "estado": "publicada"
     },
     "aos-jovens-sobre-a-literatura-classica": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "aos-jovens-sobre-a-literatura-grega-basilio": {
       "estado": "publicada"
     },
     "apologetico-tertuliano": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "apologia-da-confissao-de-augsburgo": {
       "estado": "publicada"
@@ -109,7 +118,8 @@
       "estado": "publicada"
     },
     "as-afeicoes-religiosas-jonathan-edwards": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "as-instituicoes-cenobiticas-joao-cassiano": {
       "estado": "publicada"
@@ -137,7 +147,8 @@
       "estado": "publicada"
     },
     "caminho-de-perfeicao-teresa-de-avila": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "canones-de-dort": {
       "estado": "publicada"
@@ -146,7 +157,8 @@
       "estado": "publicada"
     },
     "cantico-espiritual-joao-da-cruz": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "carta-a-diogneto": {
       "estado": "publicada"
@@ -155,10 +167,12 @@
       "estado": "publicada"
     },
     "cartas-a-nestorio-cirilo-alexandria": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "cartas-de-inacio-de-antioquia": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "cartas-sobre-sao-martinho-sulpicio-severo": {
       "estado": "publicada"
@@ -176,13 +190,15 @@
       "estado": "publicada"
     },
     "catequeses-mistagogicas-cirilo-de-jerusalem": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "cativeiro-babilonico-da-igreja-lutero": {
       "estado": "publicada"
     },
     "centurias-sobre-a-caridade-maximo-confessor": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "cidade-de-deus-en": {
       "estado": "fonte"
@@ -212,7 +228,8 @@
       "estado": "publicada"
     },
     "compendio-de-teologia-tomas-de-aquino": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "compendium-theologiae-la": {
       "estado": "fonte",
@@ -225,7 +242,8 @@
       "estado": "fonte"
     },
     "conferencias-dos-padres-joao-cassiano": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "confissao-de-fe-de-westminster": {
       "estado": "publicada"
@@ -256,7 +274,8 @@
       "conteudoConferido": "varredura de integridade de 21/11/2026: amostra do meio lida, é a obra anunciada (vocabulário teológico baixo por natureza do texto)"
     },
     "cur-deus-homo-anselmo": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "da-continencia-agostinho": {
       "estado": "publicada"
@@ -292,7 +311,8 @@
       "estado": "publicada"
     },
     "demonstracao-da-pregacao-apostolica": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "devocoes-para-ocasioes-emergentes-donne": {
       "estado": "publicada"
@@ -310,19 +330,23 @@
       "estado": "publicada"
     },
     "didascalicon-hugo-de-sao-vitor": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "discurso-aos-gregos-taciano": {
       "estado": "publicada"
     },
     "discurso-sobre-a-pascoa-gregorio-nazianzo": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "discursos-teologicos-gregorio-de-nazianzo": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "do-amor-de-deus-bernardo-de-claraval": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "do-bem-da-viuvez-agostinho": {
       "estado": "publicada"
@@ -340,16 +364,19 @@
       "estado": "publicada"
     },
     "enchiridion-agostinho": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "epistola-e-martirio-de-policarpo": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "exortacao-ao-martirio-cipriano": {
       "estado": "publicada"
     },
     "exposicao-da-fe-ortodoxa-damasceno": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "exposicao-do-simbolo-dos-apostolos-rufino": {
       "estado": "publicada"
@@ -373,7 +400,8 @@
       "estado": "publicada"
     },
     "historia-eclesiastica-eusebio-de-cesareia": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "homilias-e-escritos-espirituais-crisostomo": {
       "estado": "publicada"
@@ -433,16 +461,19 @@
       "estado": "publicada"
     },
     "introducao-a-vida-devota-francisco-de-sales": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "itinerario-da-mente-para-deus-boaventura": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "leaves-from-st-john-chrysostom": {
       "estado": "fonte"
     },
     "livro-da-vida-teresa-de-avila": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "loci-communes-melancton": {
       "estado": "publicada"
@@ -466,7 +497,8 @@
       "estado": "publicada"
     },
     "noite-escura-da-alma-joao-da-cruz": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "o-bem-da-paciencia-cipriano": {
       "estado": "publicada"
@@ -479,7 +511,8 @@
       "estado": "publicada"
     },
     "o-catecismo-menor-martinho-lutero": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "o-conflito-da-alma-richard-sibbes": {
       "estado": "publicada"
@@ -491,7 +524,8 @@
       "estado": "publicada"
     },
     "o-dialogo-catarina-de-sena": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "o-grande-discurso-catequetico-gregorio-de-nissa": {
       "estado": "publicada"
@@ -510,7 +544,8 @@
       "motivo": "Texto de outro livro importado sob este título (achado em 21/11/2026): o arquivo é um estudo sobre as igrejas de Jerusalém, não O Padre do Campo. Ocultada pela migration 0019. Reimportar a partir da edição correta (fonte e proveniência) antes de reativar."
     },
     "o-pastor-de-hermas": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "o-pastor-reformado-richard-baxter": {
       "estado": "publicada"
@@ -532,19 +567,22 @@
       "estado": "publicada"
     },
     "pecadores-nas-maos-de-um-deus-irado": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "pensamentos-blaise-pascal": {
       "estado": "publicada"
     },
     "pensamentos-e-memorial-blaise-pascal": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "pequeno-tratado-sobre-a-santa-ceia-calvino": {
       "estado": "publicada"
     },
     "peticao-pelos-cristaos-atenagoras": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "preces-privatae-lancelot-andrewes": {
       "estado": "oculta",
@@ -554,16 +592,19 @@
       "estado": "publicada"
     },
     "primeira-apologia-justino-martir": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "primeira-epistola-de-clemente": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "proslogion-anselmo": {
       "estado": "publicada"
     },
     "regra-pastoral-gregorio-magno": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "relacao-da-missao-da-serra-de-ibiapaba": {
       "estado": "publicada",
@@ -622,10 +663,12 @@
       "estado": "publicada"
     },
     "sermoes-cantico-dos-canticos-bernardo-claraval": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "sermoes-do-homem-interior-mestre-eckhart": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "sermoes-sobre-a-natividade-sao-leao-magno": {
       "estado": "publicada"
@@ -652,7 +695,8 @@
       "estado": "publicada"
     },
     "sobre-a-oracao-dominical": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "sobre-a-oracao-e-a-vida-contemplativa-tomas-de-aquino": {
       "estado": "publicada"
@@ -661,7 +705,8 @@
       "estado": "publicada"
     },
     "sobre-a-paciencia-agostinho": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "sobre-a-ressurreicao-da-carne-tertuliano": {
       "estado": "publicada"
@@ -691,14 +736,16 @@
       "estado": "publicada"
     },
     "sobre-o-espirito-santo-basilio-magno": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "sobre-o-mestre-agostinho": {
-      "estado": "publicada",
-      "conteudoConferido": "varredura de integridade de 21/11/2026: amostra do meio lida, é a obra anunciada (vocabulário teológico baixo por natureza do texto)"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "sobre-o-sacerdocio-joao-crisostomo": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "sobre-o-zelo-e-a-inveja-cipriano": {
       "estado": "publicada"
@@ -713,13 +760,15 @@
       "estado": "publicada"
     },
     "sobre-os-misterios-ambrosio-de-milao": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "sobre-os-sinodos-hilario-de-poitiers": {
       "estado": "publicada"
     },
     "soliloquio-arras-da-alma-hugo-de-sao-vitor": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "soliloquio-da-alma-tomas-de-kempis": {
       "estado": "oculta",
@@ -732,7 +781,8 @@
       "estado": "fonte"
     },
     "subida-do-monte-carmelo-joao-da-cruz": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "suma-contra-os-gentios-tomas-de-aquino": {
       "estado": "publicada"
@@ -762,7 +812,8 @@
       "estado": "fonte"
     },
     "teologia-mistica-pseudo-dionisio": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "the-apology-of-the-augsburg-confession": {
       "estado": "fonte"
@@ -798,7 +849,8 @@
       "estado": "publicada"
     },
     "tomo-a-flaviano-sao-leao-magno": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "trabalhos-de-jesus-frei-tome": {
       "estado": "publicada"
@@ -817,7 +869,8 @@
       "estado": "publicada"
     },
     "tratado-primeira-epistola-sao-joao-agostinho": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "tratado-sobre-a-oracao-crisostomo": {
       "estado": "publicada"
@@ -830,7 +883,8 @@
       "motivo": "Arquivo corrompido: parágrafos em inglês da dissertação do editor intercalados fora de ordem com o texto de Calvino. Reprocessar a partir da fonte antes de reativar."
     },
     "tratados-do-desapego-mestre-eckhart": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "tratados-patristicos-parte-1-cipriano-de-cartago": {
       "estado": "publicada"
@@ -845,13 +899,15 @@
       "estado": "publicada"
     },
     "vida-de-santo-antao-atanasio": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "vida-de-santo-hilariao-jeronimo": {
       "estado": "publicada"
     },
     "vida-de-sao-bento-dialogos-gregorio-magno": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "vida-de-sao-malaquias-bernardo-de-claraval": {
       "estado": "publicada"

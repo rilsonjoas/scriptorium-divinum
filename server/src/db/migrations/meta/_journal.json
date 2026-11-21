@@ -141,6 +141,13 @@
       "when": 1793387658704,
       "tag": "0019_oculta_8_obras_com_texto_de_outro_livro",
       "breakpoints": true
+    },
+    {
+      "idx": 20,
+      "version": "7",
+      "when": 1793391258704,
+      "tag": "0020_oculta_faixa_c_direitos_incertos",
+      "breakpoints": true
     }
   ]
 }
