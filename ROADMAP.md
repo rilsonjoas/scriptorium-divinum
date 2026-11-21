@@ -508,7 +508,7 @@ volta à mesa (seção "Ordem recomendada").
       Crivelli (pintor renascentista, c. 1430-1495), confirmado domínio
       público no Wikimedia Commons, redimensionado (13MB/4004x6000 →
       92KB/534x800) e publicado em `/images/authors/tomas-aquino.jpg`.
-- [ ] **Ainda pendente — texto e capa do "Compêndio de Teologia"
+- [ ] **Ainda pendente — texto e capa do "Compêndio de Teologia" **Decisão do autor (21/11/2026):** obras novas são pauta para frente, não para agora.
       (pesquisado de verdade, 2026-08-16)**: a tradução referenciada
       (D. Odilão Moura, 1935) **não foi encontrada disponível
       livremente** em nenhuma fonte checada (Gutenberg, Wikisource,
@@ -718,7 +718,7 @@ se não bater):
 - Ficha + download do escaneamento: Vieira, _Sermões selectos_ vol. II
   (1872); Amador Arrais, _Diálogos_ (1846). OCR ainda sem revisão para
   leitura online.
-- [ ] Vieira, _O Chrysostomo portuguez_ (1878, 5 vols.): compilador
+- [ ] Vieira, _O Chrysostomo portuguez_ (1878, 5 vols.): compilador **Decisão do autor (21/11/2026):** obras novas são pauta para frente, não para agora.
   Antonio Honorati/Onorati sem data de morte encontrada — fica fora até
   confirmar (regra: sem certeza, não publica).
 - Scripts testados num Postgres descartável com as migrations do
@@ -732,9 +732,9 @@ tradutor na ficha).
 **Licenças do acervo atual (achadas e decididas em 2026-09-28):**
 Decisão do Rilson: sem certeza de domínio público, a obra sai do site;
 volta quando entrar em PD.
-- [ ] _As Institutas da Religião Cristã_ (PT), tradução de Waldyr
+- [ ] _As Institutas da Religião Cristã_ (PT), tradução de Waldyr **Decisão do autor (21/11/2026):** obras novas são pauta para frente, não para agora.
   Carvalho Luz, **1957**: não pode estar em PD no Brasil em 2026.
-- [ ] _Compêndio de Teologia_ (PT), tradução de D. Odilão Moura OSB
+- [ ] _Compêndio de Teologia_ (PT), tradução de D. Odilão Moura OSB **Decisão do autor (21/11/2026):** obras novas são pauta para frente, não para agora.
   (1918–2010): protegida até 2081.
 - Nenhuma das duas tinha texto no ar, só a ficha dizendo "domínio
   público". Retirada em `scripts/retirar_obras_sem_pd_2026-09-28.sql`
@@ -1216,7 +1216,7 @@ no `meus-remedios` (único projeto pessoal com OAuth de usuário real hoje)
 - [x] **"Conheça também" no rodapé — links do cluster A Biblioteca** — implementado 2026-08-22 em `web/src/components/Footer.tsx`: bloco compacto após o ornamento e antes do ©, modelo aprovado no Gerador C.S. Lewis (`ClusterFooter.tsx`) adaptado à paleta library-gold: rótulo-nicho em caps espaçadas ("CONHEÇA TAMBÉM") → links Narniano / Bíblia na Arte / Lecionário / Gerador C.S. Lewis separados por ✦ dourado em itens atômicos `whitespace-nowrap` → © discreto abaixo.
 
 - [ ] **Continuar busca e curadoria de material** — tarefa contínua. Priorizar domínio público verificado.
-- [ ] **Tradução de livros com IA** — avaliar viabilidade: qual modelo? qual pipeline de revisão? Qual licença do original permite tradução e redistribuição? Não começar sem definir isso.
+- [x] **Tradução de livros com IA** — avaliar viabilidade: qual modelo? qual pipeline de revisão? Qual licença do original permite tradução e redistribuição? Não começar sem definir isso. **Decisão do autor (21/11/2026):** já decidido na prática: as traduções são feitas com o Antigravity, várias vezes. Não é dúvida; a pendência real é a proveniência (item acima), não o método.
 - [x] **"Como Contribuir" — reescrita com tom profissional, neutro e institucional** — ✅ ENTREGUE 2026-10-30.
   Página reformulada com sobriedade em `web/src/pages/Contribuir.tsx`: foco em apontamento de erratas editoriais, indicação de fontes primárias em domínio público, desenvolvimento open source (MIT) e difusão acadêmica/formativa, sem artificialismos de equipe e com critérios claros de admissão de obras (Lei 9.610/98 e fidelidade canônica).
 
@@ -1322,7 +1322,7 @@ no `meus-remedios` (único projeto pessoal com OAuth de usuário real hoje)
 
 ### Ideia para o futuro (depende de acervo maior)
 
-- [ ] **Planos de leitura devocional + newsletter semanal** — fatiar
+- [ ] **Planos de leitura devocional + newsletter semanal** — fatiar **Decisão do autor (21/11/2026):** pauta para frente, não para agora.
       obras em porções diárias ("Confissões em 40 dias", "Um sermão de
       Vieira por domingo") + e-mail automático semanal com um trecho
       ("Sábado, um trecho"). Bloqueada pela constância de conteúdo:
@@ -2402,25 +2402,25 @@ Transformar o frontend do Scriptorium Divinum na principal referência lusófona
 "100% em português", "270 obras", "294 obras e 125 autores", "18,4 milhões de palavras" e "zero obras com truncamento ou tradução resumida". A medição achou texto em inglês dentro de obras "traduzidas", números de nota de rodapé soltos e 28 textos longos sem título. Detalhes e decisões em `docs/DECISOES.md` (entrada "Revisão do catálogo antes do deploy").
 
 ### 3. Pendências do acervo, em ordem
-- [ ] **Revisão das atribuições de risco alto (pode ser necessária; sem prazo):** auditoria da edição-fonte, e se couber revisão jurídica, das 60 obras de faixa C do `docs/PROVENIENCIA-ACERVO.md`. Deixado como pendência por decisão do autor em 2026-10-17.
-- [ ] **Proveniência obra a obra** das traduções por IA: qual edição entrou na tradução e por que é domínio público (regra 3 do README). Triagem em `docs/PROVENIENCIA-ACERVO.md`: 60 de risco alto (edições críticas ou traduções modernas, auditar primeiro), 28 médio, 24 baixo, 120 sem fonte nomeada. Parecer jurídico sobre tradução gerada por IA e sobre edições críticas.
+- [ ] **Revisão das atribuições de risco alto (pode ser necessária; sem prazo):** auditoria da edição-fonte, e se couber revisão jurídica, das 60 obras de faixa C do `docs/PROVENIENCIA-ACERVO.md`. Deixado como pendência por decisão do autor em 2026-10-17. **Decisão do autor (21/11/2026):** sem certeza de direitos, sai do ar. As 57 obras publicadas da faixa C foram ocultadas (migration `0020`); reativar só depois de confirmar a edição-fonte. Ver `docs/PROVENIENCIA-ACERVO.md`.
+- [ ] **Proveniência obra a obra** das traduções por IA: qual edição entrou na tradução e por que é domínio público (regra 3 do README). Triagem em `docs/PROVENIENCIA-ACERVO.md`: 60 de risco alto (edições críticas ou traduções modernas, auditar primeiro), 28 médio, 24 baixo, 120 sem fonte nomeada. Parecer jurídico sobre tradução gerada por IA e sobre edições críticas. **Decisão do autor (21/11/2026):** segue; ordem: faixa C (ocultas, só voltam com fonte confirmada), depois descobrir a fonte real das 120 da faixa D pela assinatura do texto e do pipeline. "Foi por IA" não basta: conta o texto de partida.
 - [x] **Traduzir por inteiro** `apologia-da-confissao-de-augsburgo` e `suma-teologica-segunda-parte-da-segunda-parte` e publicar (2026-10-30; traduções por IA, revisadas pelo autor; seed `add_suma_2_2_e_apologia_augsburgo_2026-10-30.sql`). O inglês no `breve-catecismo-westminster` não é lacuna: o arquivo é bilíngue de propósito (o original de 1647 em citação ao lado de cada resposta).
-- [ ] **`tratado-sobre-as-reliquias-calvino` (oculto)**: arquivo corrompido (inglês intercalado fora de ordem com o texto de Calvino e um catálogo do editor). Reprocessar a partir da fonte e reativar.
+- [ ] **`tratado-sobre-as-reliquias-calvino` (oculto)**: arquivo corrompido (inglês intercalado fora de ordem com o texto de Calvino e um catálogo do editor). Reprocessar a partir da fonte e reativar. **Decisão do autor (21/11/2026):** fica oculta; só entra no site com o texto 100% correto.
 - [ ] **Notas de rodapé soltas** (`[3798]`) em Irineu, Cassiano, Hipólito, Hermas: desde 2026-10-30 o leitor liga chamada e nota (balão clicável) quando o id tem exatamente 1 chamada e 1 definição na obra (66% das chamadas nas 12 maiores obras). Restam as ambíguas (ex.: Institutas, Baxter), que pedem conferência obra a obra.
 - [ ] **8 obras ocultas por terem o texto de outro livro (achado de 21/11/2026; migration `0019`, PR #62, no ar).** O arquivo de cada uma era outro livro importado sob o título errado: *Tratado do Amor de Deus* (Francisco de Sales: romance de ficção científica), *O Castelo Interior* (Teresa de Ávila: texto em finlandês), *A Cana Quebrada* (Sibbes: romance em francês), *Santo Viver* (Jeremy Taylor: história da guerra franco-prussiana), *Solilóquio da Alma* (Kempis: memórias da corte prussiana, 1902), *Preces Privatae* (Andrewes: romance da Primeira Guerra), *A Oração do Senhor* (Watson: romance), *O Padre do Campo* (Herbert: estudo sobre Jerusalém). Estado `oculta` no manifesto, 404 no site, backup da tabela `books` em `~/backups/scriptorium_books_pre_0019_2026-11-21.sql` no VPS. **Decisão do autor (21/11/2026): ficam ocultas.** Não há tradução completa e revisada para publicar, então não se reimporta nem se reativa. (Se um dia houver: importar a edição correta, com fonte e proveniência, e só então voltar `published`.) `acervo:verificar` passou a medir vocabulário teológico e proporção de português (ver `docs/GERENCIAR-ACERVO.md`, "O texto é mesmo a obra?"). Limite honesto: pega o texto grosseiramente errado, não o trocado por outro de assunto parecido; **ler o começo e o meio de cada obra nova** continua obrigatório.
 - [x] **Textos longos sem título (sumário vazio no leitor): ENCERRADO em 21/11/2026 com decisão.** Critério do leitor (`web/src/utils/chapters.ts` abre capítulo em `#` e `##`; todo arquivo já traz `# Título` e `# Proveniência`): obra publicada, com 8.000 palavras ou mais e no máximo 3 títulos de nível 1-2. Em 21/11/2026 eram **101** (o "28" do ROADMAP antigo estava errado; uma segunda medição, "82", contava qualquer nível de título). **26 foram estruturadas em 21/11/2026** com `scripts/chapterize_marcadores.py` (dry-run por padrão; verificação de invariância por `difflib`: só linha em branco, título novo ou a mesma linha com `# `/`## `; numeração sequencial; ids de capítulo únicos): 12 de Crisóstomo, Irineu 3 a 5, Cidade de Deus (22 livros, 661 capítulos; era um capítulo único de ~441 mil palavras), Cassiano, Regra Pastoral, Autólico, Basílio (Espírito Santo), Justino, Gregório de Nissa (Moisés e Virgindade), Atenágoras, Taciano, Tertuliano. **Restam 69** (eram 75; 6 delas foram ocultadas pelo achado acima, por terem texto de outro livro): `python3 scripts/chapterize_marcadores.py --pendentes`. Casos conhecidos: (a) parágrafos numerados (`12. Texto…`: Charnock, Teresa de Ávila, João da Cruz, Agostinho curtos, Cipriano) são seções, não capítulos; não transformar em título sem decidir; (b) sem marcador detectável (Chesterton, Kempis, Lutero/Gálatas, Cirilo, Basílio/Hexaemeron, Gregório de Nazianzo, Leão Magno, Vieira): precisam de inspeção por obra; (c) marcadores esparsos no meio do parágrafo (Martinho, Unidade da Igreja); (d) Eusébio: OCR ruim em `LIVRO` e índice repetido por livro. Fato achado: o Livro VI de Cassiano (Espírito de Fornicação) foi omitido da tradução, e o próprio texto diz isso. Isso também destrava mais comentários bíblicos (Crisóstomo, Agostinho). **Decisão (21/11/2026, para encerrar o item): não inventar capítulos.** As 69 restantes não têm marcador próprio confiável (parágrafos numerados são seções, não capítulos; obras de peça única; OCR ruim; marcadores esparsos). Seguem como capítulo único, paginado pelo leitor, que é o comportamento correto para elas. Sem certeza do título, não há título (regra de fontes do cofre). Se uma obra ganhar marcador (ou o autor decidir uma regra por obra), usar `scripts/chapterize_marcadores.py` (dry-run, invariância por `difflib`, numeração sequencial, ids únicos).
 - [ ] **Ano e língua originais** nas 100 novas (hoje vazios em quase todas): preencher com fonte, não por estimativa.
-- [ ] **Unificar o rótulo de idioma** (`Inglês` × `English`, 2 obras) e a duplicata de autores já existente em produção (`agostinho-de-hipona` e `santo-agostinho`, `joao-crisostomo` e `sao-joao-crisostomo` etc.).
+- [ ] **Unificar o rótulo de idioma** (`Inglês` × `English`, 2 obras) e a duplicata de autores já existente em produção (`agostinho-de-hipona` e `santo-agostinho`, `joao-crisostomo` e `sao-joao-crisostomo` etc.). **Decisão do autor (21/11/2026):** unificar (decidido; em implementação).
 - [x] **FEITO em 21/11/2026 (PR #65): Leitor: `#hash` da URL** para abrir direto no capítulo (hoje o link de comentário leva à obra).
 - [x] **Traduções alternativas fora do catálogo** (mesma obra, tradução diferente): resolvido em 2026-10-30. Removidos do repositório (duplicatas ou sem fonte boa): `da-liberdade-do-cristao-martinho-lutero`, `a-unidade-da-igreja-catolica-cipriano`, `comentario-aos-galatas-martinho-lutero`, `proslogion` (versão curta) e `os-ultimos-fins-do-homem-pt` (OCR ilegível). Publicado: `proslogion-anselmo`. `confissoes-santo-agostinho` (rascunho pela metade: Pusey em inglês + tradução automática; a edição publicada é outra) também removido.
-- [ ] **`breve-catecismo-westminster` (oculto)**: o texto é majoritariamente inglês (37% das palavras em blocos em inglês). Traduzir por inteiro e reativar pela chave "Publicada".
+- [ ] **`breve-catecismo-westminster` (oculto)**: o texto é majoritariamente inglês (37% das palavras em blocos em inglês). Traduzir por inteiro e reativar pela chave "Publicada". **Decisão do autor (21/11/2026):** fica oculto; só entra no site quando estiver 100%.
 - [x] **Seletor de idioma escondido enquanto o site é só em português** (2026-10-16): `IDIOMAS_ATIVOS` em `web/src/i18n/index.ts`; os textos de EN e ES e todo o mecanismo seguem montados. Para voltar a oferecer um idioma: acrescentar o código à lista, depois de completar a tradução da interface.
 - [ ] (mesmo item acima) ferramenta: `scripts/chapterize_texts.py` (regra por arquivo; `--check` antes) ou títulos manuais por homilia.
 - [x] **PR #8 do Lecionário** (links de citação) mergeado em 2026-10-17, depois do deploy do Scriptorium: 11 dos 12 slugs resolvem; resta `por-que-deus-se-fez-homem` (Proslogion).
 - [ ] **Citações de Anselmo (2) apontam para `proslogion`, hoje oculto**: voltam a funcionar quando o Proslogion for republicado. Corrigir também o campo `source` delas.
 - [x] **Lecionário: links quebrados para o Scriptorium (conferido em 21/11/2026):** o PR #8 do Lecionário (17/10) corrigiu os slugs; dos 12 slugs distintos que o `lewis-quotes.json` usa, só `por-que-deus-se-fez-homem` (2 citações) responde 404, e fica assim até o Proslogion voltar. O arquivo não é importado por nada (dado morto).
 - [ ] **Internacionalização (EN):** para voltar a publicar edições em inglês faltam interface, busca em inglês e proveniência por edição. Decisão de 2026-10-16: só português por enquanto.
-- [ ] **Proslogion (oculto):** o texto publicado tem 2.353 palavras e a versão nova (`proslogion-anselmo.md`) ~9,7 mil; revisar a nova e decidir se substitui o conteúdo sob o slug `proslogion`, depois reativar.
+- [ ] **Proslogion (oculto):** o texto publicado tem 2.353 palavras e a versão nova (`proslogion-anselmo.md`) ~9,7 mil; revisar a nova e decidir se substitui o conteúdo sob o slug `proslogion`, depois reativar. **Decisão do autor (21/11/2026):** fica oculto; só entra no site quando estiver 100%.
 
 ---
 
@@ -2443,7 +2443,7 @@ Transformar o frontend do Scriptorium Divinum na principal referência lusófona
 Contexto: a Citação do dia (`GET /quotes/daily`) funciona e varia por data (verificado em 2026-10-17: 60 dias seguidos, 60 frases distintas, nenhuma repetição consecutiva). O bug "a frase não muda ao trocar de data" era do consumidor (Lecionário web e mobile pediam sempre "hoje", sem `?date=`) e foi corrigido no PR #9 do Lecionário. O que existe é **concentração**: C. S. Lewis é 55% do acervo (156 de 281) e aparece em ~55% dos dias, com sequências de até 7 dias.
 
 - [x] **`paths-ignore` no `deploy.yml`** (2026-10-17): docs deixam de disparar deploy completo.
-- [ ] **Variedade na escolha do dia:** hoje o dia aponta para um índice da lista ordenada por id, então os autores se agrupam ao acaso. Alternativa: escolher primeiro o autor (rodízio, ou peso reduzido para Lewis) e depois a frase dentro do autor, mantendo a regra "determinística por data, igual no cluster" (ADR 001).
+- [ ] **Variedade na escolha do dia:** hoje o dia aponta para um índice da lista ordenada por id, então os autores se agrupam ao acaso. Alternativa: escolher primeiro o autor (rodízio, ou peso reduzido para Lewis) e depois a frase dentro do autor, mantendo a regra "determinística por data, igual no cluster" (ADR 001). **Decisão do autor (21/11/2026):** rodízio de autor (decidido; em implementação).
 - [ ] **Citações ligadas a obras por chave, não por texto:** a tabela `quotes` já tem `scriptorium_work_id`, `fonte_url` e `verificado_em`, mas `scriptorium_work_id` está vazio em todas as 281 linhas e o link é um texto livre (`scriptorium_url`). Ligar por FK faria o link seguir o slug da obra e permitiria avisar ao ocultar uma obra que tem citação.
 - [x] **Status de citação (F1, 19/10/2026)** (rascunho, verificada, oculta) exigindo `fonte_url` e `verificado_em` para ficar ativa, aplicando o `docs/PROTOCOLO-VERIFICACAO-DE-CITACOES.md` no próprio sistema.
 - [x] **Painel de admin para citações (F2 a F6, em produção)** (na mesma tela de gestão do Scriptorium; só estender o que já existe).

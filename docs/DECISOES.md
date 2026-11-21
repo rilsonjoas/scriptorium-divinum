@@ -783,3 +783,19 @@ Pendência aberta desde a F2: a API aceita mudar uma citação de `ativa` para `
 
 **Decisão para encerrar o item dos capítulos: não inventar títulos.** 26 obras foram estruturadas onde o marcador existe e é confiável (PR #61). As 69 restantes (parágrafos numerados, peça única, OCR ruim, marcadores esparsos) seguem como capítulo único paginado. Sem certeza do título, não há título.
 
+## 2026-11-21 (noite) — Respostas do autor às 10 pendências
+Registro das decisões, na ordem de execução. Estado entre parênteses.
+
+| # | Pendência | Decisão do autor | Estado |
+|---|---|---|---|
+| 1 | Direitos das 60 obras de faixa C | Remover do site tudo o que não se tem certeza de direitos | **Feito:** 57 publicadas ocultadas (migration `0020`, PR #67) |
+| 2 | Proveniência das traduções por IA | O autor presumia que tradução por IA já é domínio público. Esclarecido: conta o texto de partida, não quem traduziu (ver `docs/PROVENIENCIA-ACERVO.md`) | Em andamento: descobrir a fonte real das 120 da faixa D |
+| 3 | Auditoria retroativa das citações de Lewis | Fazer | Em andamento |
+| 4 | Painel de citações | Já foi testado, está bom | Registrado; o `PATCH` de `ativa` para `rascunho` segue sem mudança de comportamento |
+| 5 | Obras ocultas (Breve Catecismo, relíquias de Calvino, Proslogion) | Ficam ocultas; só entram no site quando estiverem 100% | Registrado |
+| 6 | Obras novas (Institutas PT, Compêndio PT, Chrysostomo de Vieira) | Pauta para frente | Registrado |
+| 7 | Tradução com IA: método | Já usa o Antigravity, várias vezes; não é dúvida | Registrado |
+| 8 | Variedade na escolha do dia | Rodízio de autor | Em andamento |
+| 9 | Planos de leitura e newsletter | Pauta para frente | Registrado |
+| 10 | Duplicatas de autor | Unificar | Em andamento |
+
