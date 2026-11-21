@@ -58,8 +58,8 @@ jobs:
       - name: Typecheck
         run: pnpm typecheck
 
-      - name: Testes unitários (server)
-        run: pnpm --filter server test
+      - name: Testes unitários (server) + cobertura (informativa, sem mínimo)
+        run: pnpm --filter server test:coverage
 
       - name: Acervo (manifesto e qualidade dos textos)
         # Sem DATABASE_URL de propósito: só confere os arquivos de server/texts contra o
@@ -67,10 +67,10 @@ jobs:
         run: env -u DATABASE_URL pnpm --filter server acervo:verificar
 
       - name: Testes de integração (Postgres service)
-        run: pnpm --filter server test:integration
+        run: pnpm --filter server test:integration:coverage
 
       - name: Testes do web (vitest + Testing Library)
-        run: pnpm --filter web test
+        run: pnpm --filter web test:coverage
 
       # axe-core roda contra o build de produção servido localmente, com a
       # API mockada por fixture — sem isto a auditoria mediria estado de erro

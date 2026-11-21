@@ -1,11 +1,10 @@
 #!/usr/bin/env node
 // Auditoria de dependências de PRODUÇÃO com allowlist.
 //
-// `pnpm audit --prod` em produção reporta só advisories do react-router v6 (2026-11-21;
-// os de lodash, yaml, glob e fast-uri foram corrigidos por override/atualização; sem patch no v6
-// e não explorável neste projeto — ver
-// ROADMAP.md, seção "Segurança"). Qualquer advisory NOVO de severidade
-// high/critical faz o CI falhar.
+// `pnpm audit --prod` em produção está em 0 vulnerabilidades desde 2026-11-21 (react-router
+// v6 -> v7.18, que fechou os 3 últimos GHSA aceitos). A allowlist continua existindo, vazia: um
+// advisory aceito de novo precisa de GHSA, motivo e data aqui, revisável no PR. Qualquer advisory
+// de severidade high/critical que não esteja na lista faz o CI falhar (moderados só avisam).
 //
 // Uso: node scripts/audit-allowlist.mjs
 
@@ -13,9 +12,7 @@ import { spawnSync } from 'node:child_process';
 
 // GHSA aceitos e o motivo de cada um:
 const ACCEPTED = new Set([
-  'GHSA-wrjc-x8rr-h8h6', // react-router v6: open redirect via backslash — sem patch no v6 (só 7.18+); links vêm de slugs sanitizados
-  'GHSA-jjmj-jmhj-qwj2', // react-router v6: open redirect → XSS — idem, sem patch no v6
-  'GHSA-337j-9hxr-rhxg', // react-router v6: constructor injection em SSR hydration — app é SPA sem SSR, não aplicável
+  // 'GHSA-xxxx-xxxx-xxxx', // pacote: o que é, por que não se aplica aqui, aceito em AAAA-MM-DD
 ]);
 
 const result = spawnSync('pnpm', ['audit', '--prod', '--json'], {
