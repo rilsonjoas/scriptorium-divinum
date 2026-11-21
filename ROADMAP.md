@@ -136,7 +136,7 @@ real primeiro, polimento depois.
 ---
 
 ## Qualidade das citações já existentes (2026-10-18)
-- [ ] **Auditoria retroativa das citações de Lewis (análise feita em 18/10/2026; ações dependem do autor).** Relatório e plano em
+- [x] **Auditoria retroativa das citações de Lewis: EXECUTADA (decisões do autor aplicadas em 18/10/2026, migrations 0013 a 0015; confirmada em 21/11/2026).** 11 retiradas, 8 fontes preenchidas; hoje são 145 de Lewis no ar, todas com `source`. **Resta, opcional:** subir de nível B (fontes secundárias boas) para A (texto primário lido) e só então gravar `fonte_url`/`verificado_em`; exige ler os livros (só em empréstimo no Internet Archive) e o protocolo proíbe preencher sem fonte real conferida. Aceito como está (decisão de 21/11/2026). Texto original do item: Relatório e plano em
   `docs/AUDITORIA-RETROATIVA-CITACOES-LEWIS.md`; o cruzamento com o vault é reproduzível por `scripts/cruzar-citacoes-com-vault.py`. Resumo: das 156 de Lewis
   na API, 14 têm ✅ individual no vault, 122 têm procedência rastreável por amostragem, 16 não foram localizadas no vault, 3 estão ⚠️ e 1 estava ❌ (fala do filme
   *Terra de Sombras*). **A ❌ e as 3 ⚠️ foram retiradas em 18/10/2026** (migration 0013). `source` preenchido em 4 (migration 0014); busca nas 17 restantes feita em 18/10 (10 confirmadas, 7 não localizadas): tudo registrado em `docs/REGISTRO-VERIFICACAO-CITACOES-LEWIS.md`. **As 7 não localizadas foram retiradas e o `source` de `0e70882b` preenchido (migration 0015, 18/10).** Resta: nada para Lewis. As 125 de outros autores JÁ foram cobertas em 25/09 (93 verificadas uma a uma, ~32 de legado com pente-fino); só não há registro por citação (ver REGISTRO, seção 1 item 4).

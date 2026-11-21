@@ -790,7 +790,7 @@ Registro das decisões, na ordem de execução. Estado entre parênteses.
 |---|---|---|---|
 | 1 | Direitos das 60 obras de faixa C | Remover do site tudo o que não se tem certeza de direitos | **Feito:** 57 publicadas ocultadas (migration `0020`, PR #67) |
 | 2 | Proveniência das traduções por IA | O autor presumia que tradução por IA já é domínio público. Esclarecido: conta o texto de partida, não quem traduziu (ver `docs/PROVENIENCIA-ACERVO.md`) | Em andamento: descobrir a fonte real das 120 da faixa D |
-| 3 | Auditoria retroativa das citações de Lewis | Fazer | Em andamento |
+| 3 | Auditoria retroativa das citações de Lewis | Fazer | **Já estava executada** (decisões aplicadas em 18/10: 11 retiradas, fontes preenchidas, 145 de Lewis no ar). Resta só o nível A (texto primário lido, para gravar `fonte_url`/`verificado_em`), que exige ler os livros e não se preenche sem isso |
 | 4 | Painel de citações | Já foi testado, está bom | Registrado; o `PATCH` de `ativa` para `rascunho` segue sem mudança de comportamento |
 | 5 | Obras ocultas (Breve Catecismo, relíquias de Calvino, Proslogion) | Ficam ocultas; só entram no site quando estiverem 100% | Registrado |
 | 6 | Obras novas (Institutas PT, Compêndio PT, Chrysostomo de Vieira) | Pauta para frente | Registrado |
