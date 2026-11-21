@@ -17,6 +17,23 @@ A regra 3 do README exige proveniência verificável; este arquivo é o controle
 O texto exibido ao público diz só o essencial (tradução gerada por IA, licença). A proveniência
 detalhada fica aqui e no verificador do acervo.
 
+## Decisão do autor (2026-11-21): sem certeza de direitos, sai do ar
+
+"Remover do site tudo o que não se tem certeza de direitos." Aplicação:
+
+- **Faixa C (57 obras publicadas na data): ocultadas** pela migration `0020` e pelo estado `oculta` no manifesto (motivo
+  "faixa C"). É reversível. Para voltar: confirmar a edição-fonte real (fonte antiga em domínio público: corrigir a
+  atribuição; edição moderna: trocar a base, pedir autorização ou manter oculta) e só então reativar.
+- **Faixas A (22), B (25) e D (120, atribuição genérica) continuam no ar**, por enquanto. D é lacuna de documentação, não
+  risco comprovado: o próximo passo é descobrir a fonte real de cada uma pela assinatura do próprio texto e do pipeline
+  (ver o registro de decisões em `docs/DECISOES.md`, entrada de 2026-11-21). O que não se confirmar fica pendente.
+
+**Por que "é tradução por IA" não basta para ser domínio público.** O autor original morreu há séculos, então o texto dele
+é de domínio público. O que decide o risco é **de qual texto a IA traduziu**: se foi de uma edição antiga (Migne,
+NPNF/ANF, século XIX), a tradução em português herda essa situação limpa; se foi de uma edição crítica moderna ou de uma
+tradução moderna, o resultado em português pode ser **obra derivada** dela, com os direitos de quem a produziu. Saber que
+foi a IA que traduziu não diz qual era o texto de partida. Por isso a pergunta é sobre a fonte, não sobre quem traduziu.
+
 ## Faixas de risco
 
 | Faixa | O que significa | Obras | Ação sugerida |
