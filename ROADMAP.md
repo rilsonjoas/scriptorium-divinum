@@ -175,7 +175,7 @@ Lecionário e o Narniano escondem o card.
 - [ ] **R2 (baixa): reaproveitar o último valor bom da mesma data** nos três cards do site (a escolha é determinística por data).
 - [x] **R3 FEITO em 18/10/2026 (`web/src/lib/fetch-com-limite.ts`, 5 s; 3 serviços; testes com relógio falso, mutação verificada):** a chamada do navegador não tinha limite de tempo próprio (`citacaoDoDia.ts`, `pinturaDoDia.ts`, `versiculoDoDia.ts`: só o sinal de cancelamento). Com API lenta o card aparece
   tarde ou nunca. Pôr limite de 3 a 5 s.
-- [ ] **R5 (média): teste automatizado "API fora, o card some, sem bloco vazio e sem erro de JS"** (E2E com as rotas bloqueadas, fora do portão do deploy no início).
+- [x] **R5 FEITO (conferido em 21/11/2026):** o teste "API fora, o card some, sem bloco vazio e sem erro de JS" é `web/e2e/api-fora.spec.ts`, rodado como passo próprio do CI (`E2E — API fora, o card some`), com as APIs simuladas.
 - [ ] **R6b (média): avaliar um PR automático de `quotes:sync` no Gerador** quando o canário acusar que a cópia embutida dele divergiu do acervo (hoje a regeração é manual).
 
 ## P0 — Segurança
@@ -209,18 +209,23 @@ todas em **ferramentas de build/dev** (vite, rollup, postcss, eslint) que
 não rodam em produção — risco de supply-chain em máquina de dev/CI, não no
 site no ar.
 
-Em **produção** restam 8 advisories aceitos (todos não exploráveis no uso
-real do projeto, cobertos pela allowlist do CI):
+**Atualização de 21/11/2026 (PR #59).** Em **produção** restam 2 advisories moderados, ambos do `react-router` v6
+(open redirect, sem patch no v6; o de SSR não se aplica a um SPA). Os de `lodash` (via `recharts`), `yaml`, `fast-uri`,
+`fast-copy`, `glob` e `minimatch` foram corrigidos por `pnpm.overrides` e pela atualização de `@fastify/static` (10.1.12,
+que usa `glob` 14). A allowlist do CI (`scripts/audit-allowlist.mjs`) ficou só com os 3 GHSA do `react-router` v6. A
+auditoria completa (com dev) segue com dezenas de achados em ferramentas de build, que não rodam em produção.
 
-- `lodash` (via `recharts`, 1 high `_.template` + 2 prototype pollution):
-  sem patch real (lodash 4.x EOL) e recharts só usa utilitários — não há
-  template string controlada por usuário
-- `react-router` v6 (3 moderate: open redirect via backslash + open
-  redirect→XSS + constructor injection em SSR hydration): **sem patch no
-  v6** (só v7.18+); o de SSR não se aplica (SPA sem SSR) e os de open
-  redirect têm baixa exposição (links vêm de slugs sanitizados `[a-z0-9-]`)
-- `yaml` (moderate): stack overflow em YAML profundamente aninhado —
-  parsing de YAML não confiável, não usado no runtime
+Também em 21/11/2026 (mesmo PR):
+- [x] **`trustProxy`** (`TRUSTED_PROXIES`, padrão `loopback,172.16.0.0/12`): atrás do Traefik, `request.ip` era sempre o IP
+      do proxy (conferido nos logs de produção: tudo vinha de `172.18.0.9`), então o limite de 100 req/min era um balde
+      único para todos os visitantes. Um `X-Forwarded-For` forjado pelo cliente não escapa do limite. `trustProxy` com
+      número não funcionou no Fastify daqui (sempre devolvia o IP do socket); por isso a lista de redes.
+- [x] **Login com limite próprio:** 5 tentativas por minuto por IP (`LOGIN_RATE_LIMIT_MAX`, `LOGIN_RATE_LIMIT_WINDOW_MS`),
+      429 depois disso. Verificado em produção.
+- [x] **Upload de capa:** `.svg` removido (XSS armazenado a partir da origem da API) e o conteúdo é conferido pelos bytes
+      (JPG, PNG, WebP; `server/src/lib/image-sniff.ts`), não só pela extensão e pelo `Content-Type` declarado.
+- [x] **`mem_limit`** na API (384 MB) e no web (64 MB), em `hetzner-infra/scriptorium-divinum/docker-compose.yml`
+      (uso medido: API ~98 MiB, web ~2 MiB).
 
 Já corrigido em 2026-08-14: XSS/open redirect do `@remix-run/router`
 (bump `react-router-dom` 6.30.1 → 6.30.4). Upgrade para react-router v7 /
@@ -2399,14 +2404,14 @@ Transformar o frontend do Scriptorium Divinum na principal referência lusófona
 - [x] **Traduzir por inteiro** `apologia-da-confissao-de-augsburgo` e `suma-teologica-segunda-parte-da-segunda-parte` e publicar (2026-10-30; traduções por IA, revisadas pelo autor; seed `add_suma_2_2_e_apologia_augsburgo_2026-10-30.sql`). O inglês no `breve-catecismo-westminster` não é lacuna: o arquivo é bilíngue de propósito (o original de 1647 em citação ao lado de cada resposta).
 - [ ] **`tratado-sobre-as-reliquias-calvino` (oculto)**: arquivo corrompido (inglês intercalado fora de ordem com o texto de Calvino e um catálogo do editor). Reprocessar a partir da fonte e reativar.
 - [ ] **Notas de rodapé soltas** (`[3798]`) em Irineu, Cassiano, Hipólito, Hermas: desde 2026-10-30 o leitor liga chamada e nota (balão clicável) quando o id tem exatamente 1 chamada e 1 definição na obra (66% das chamadas nas 12 maiores obras). Restam as ambíguas (ex.: Institutas, Baxter), que pedem conferência obra a obra.
-- [ ] **28 textos longos sem título** (sumário vazio no leitor): dar estrutura (título por capítulo ou homilia). Isso também destrava mais comentários bíblicos (Crisóstomo, Agostinho).
+- [ ] **Textos longos sem título (sumário vazio no leitor).** Medição de 21/11/2026 contra o `MANIFESTO.json`: **82 obras publicadas, com mais de 8.000 palavras, não têm nenhum `#`/`##` no corpo** (não são 28). Há 96 publicadas sem heading em qualquer tamanho; tratados curtos de uma peça só talvez não precisem de capítulos. O marcador varia por obra: Crisóstomo (13 homilias) traz `Homilia N sobre X Capítulo ...` no começo do parágrafo, na mesma linha do texto; Irineu traz `Capítulo I. - ...` em linha própria; Clímaco não tem marcador de "Degrau" detectável. Plano: piloto com marcador claro (Crisóstomo, Irineu), com dry-run e teste de invariância (sem os headings inseridos, o texto fica idêntico byte a byte); as demais, uma regra por obra. Isso também destrava mais comentários bíblicos (Crisóstomo, Agostinho).
 - [ ] **Ano e língua originais** nas 100 novas (hoje vazios em quase todas): preencher com fonte, não por estimativa.
 - [ ] **Unificar o rótulo de idioma** (`Inglês` × `English`, 2 obras) e a duplicata de autores já existente em produção (`agostinho-de-hipona` e `santo-agostinho`, `joao-crisostomo` e `sao-joao-crisostomo` etc.).
 - [ ] **Leitor: `#hash` da URL** para abrir direto no capítulo (hoje o link de comentário leva à obra).
 - [x] **Traduções alternativas fora do catálogo** (mesma obra, tradução diferente): resolvido em 2026-10-30. Removidos do repositório (duplicatas ou sem fonte boa): `da-liberdade-do-cristao-martinho-lutero`, `a-unidade-da-igreja-catolica-cipriano`, `comentario-aos-galatas-martinho-lutero`, `proslogion` (versão curta) e `os-ultimos-fins-do-homem-pt` (OCR ilegível). Publicado: `proslogion-anselmo`. `confissoes-santo-agostinho` (rascunho pela metade: Pusey em inglês + tradução automática; a edição publicada é outra) também removido.
 - [ ] **`breve-catecismo-westminster` (oculto)**: o texto é majoritariamente inglês (37% das palavras em blocos em inglês). Traduzir por inteiro e reativar pela chave "Publicada".
 - [x] **Seletor de idioma escondido enquanto o site é só em português** (2026-10-16): `IDIOMAS_ATIVOS` em `web/src/i18n/index.ts`; os textos de EN e ES e todo o mecanismo seguem montados. Para voltar a oferecer um idioma: acrescentar o código à lista, depois de completar a tradução da interface.
-- [ ] **Textos longos sem título (sumário vazio)**: usar `scripts/chapterize_texts.py` (regra por arquivo; `--check` antes) ou títulos manuais por homilia.
+- [ ] (mesmo item acima) ferramenta: `scripts/chapterize_texts.py` (regra por arquivo; `--check` antes) ou títulos manuais por homilia.
 - [x] **PR #8 do Lecionário** (links de citação) mergeado em 2026-10-17, depois do deploy do Scriptorium: 11 dos 12 slugs resolvem; resta `por-que-deus-se-fez-homem` (Proslogion).
 - [ ] **Citações de Anselmo (2) apontam para `proslogion`, hoje oculto**: voltam a funcionar quando o Proslogion for republicado. Corrigir também o campo `source` delas.
 - [ ] **Lecionário: 4 links quebrados para o Scriptorium** (`a-cidade-de-deus`, `pensamentos`, `por-que-deus-se-fez-homem`, `compendio-da-suma-teologica`), ver `docs/DECISOES.md`.
@@ -2436,10 +2441,10 @@ Contexto: a Citação do dia (`GET /quotes/daily`) funciona e varia por data (ve
 - [x] **`paths-ignore` no `deploy.yml`** (2026-10-17): docs deixam de disparar deploy completo.
 - [ ] **Variedade na escolha do dia:** hoje o dia aponta para um índice da lista ordenada por id, então os autores se agrupam ao acaso. Alternativa: escolher primeiro o autor (rodízio, ou peso reduzido para Lewis) e depois a frase dentro do autor, mantendo a regra "determinística por data, igual no cluster" (ADR 001).
 - [ ] **Citações ligadas a obras por chave, não por texto:** a tabela `quotes` já tem `scriptorium_work_id`, `fonte_url` e `verificado_em`, mas `scriptorium_work_id` está vazio em todas as 281 linhas e o link é um texto livre (`scriptorium_url`). Ligar por FK faria o link seguir o slug da obra e permitiria avisar ao ocultar uma obra que tem citação.
-- [ ] **Status de citação** (rascunho, verificada, oculta) exigindo `fonte_url` e `verificado_em` para ficar ativa, aplicando o `docs/PROTOCOLO-VERIFICACAO-DE-CITACOES.md` no próprio sistema.
-- [ ] **Painel de admin para citações** (na mesma tela de gestão do Scriptorium; só estender o que já existe).
-- [ ] **Monitor "canário":** checagem diária de que `/quotes/daily` responde e difere do dia anterior, mais os endpoints de versículo e pintura do cluster, no uptime-kuma.
-- [ ] **Cliente tipado único** gerado do OpenAPI do Scriptorium, em vez de uma interface `DailyQuote` copiada em cada projeto (hoje são três cópias).
+- [x] **Status de citação (F1, 19/10/2026)** (rascunho, verificada, oculta) exigindo `fonte_url` e `verificado_em` para ficar ativa, aplicando o `docs/PROTOCOLO-VERIFICACAO-DE-CITACOES.md` no próprio sistema.
+- [x] **Painel de admin para citações (F2 a F6, em produção)** (na mesma tela de gestão do Scriptorium; só estender o que já existe).
+- [x] **Monitor "canário" (monitor Push no Kuma, cron de hora em hora; conferido no VPS em 21/11/2026):** checagem diária de que `/quotes/daily` responde e difere do dia anterior, mais os endpoints de versículo e pintura do cluster, no uptime-kuma.
+- [x] **Cliente tipado único (`contract/`, Fase 3)** gerado do OpenAPI do Scriptorium, em vez de uma interface `DailyQuote` copiada em cada projeto (hoje são três cópias).
 - [ ] **Limpeza no Lecionário:** `lewis-quotes.json` (web e mobile) não é importado por nada; são dados mortos, candidatos a remoção.
 
 **Estado do item 20 em 18/10/2026** (as caixas acima não foram marcadas uma a uma; esta é a leitura atual):
