@@ -814,3 +814,6 @@ A busca de evidência da fonte real nas 101 obras de atribuição genérica (ver
 ### Faixa D: verificação das 41 sem pista da fonte (migration 0023)
 Decisão do autor: verificar em vez de ocultar tudo. Resultado: **38 confirmadas** (a edição inglesa antiga de domínio público foi identificada por referências bíblicas e por trechos pareados; a fonte foi gravada na atribuição) e **3 ocultas** por não se confirmarem (Basílio, *Aos Jovens*; Nissa, *Alma e Ressurreição*, 2 arquivos). Método, tabela e limites em `docs/PROVENIENCIA-ACERVO.md`. Não é parecer jurídico.
 
+### Registro de proveniência: onde ficou (migration 0024)
+Mais 19 obras de Pais da Igreja tiveram a edição-fonte confirmada pelo mesmo método (referências bíblicas contra o CCEL) e gravada na atribuição. Ficam **83 obras sem fonte registrada** (36 da faixa D sem referências suficientes, 22 da faixa A e 25 da B), todas no ar com a fonte apenas declarada ou indicada no texto; o estado e o próximo passo estão em `docs/PROVENIENCIA-ACERVO.md`.
+

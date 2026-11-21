@@ -77,6 +77,17 @@ A *Cidade de Deus* (fora das 41) também confere: o título do capítulo 1 é id
 
 **Ocultadas (3, fonte não confirmada):** `aos-jovens-sobre-a-literatura-grega-basilio` (a edição inglesa de partida não foi localizada: não está no NPNF nem na Wikisource) e as duas `sobre-a-alma-e-a-ressurreicao-gregorio-*` (o diálogo existe no NPNF 2/5, mas o texto não pôde ser pareado; os dois arquivos são duplicatas e um deles está em um único parágrafo). Reversível: voltam se a edição de partida for identificada.
 
+## Estado do registro de proveniência (2026-11-21, fim do dia)
+
+| Grupo | Obras no ar | Fonte registrada na atribuição | Situação |
+|---|---:|---|---|
+| Faixa C | 0 (57 ocultadas) | não | Ocultas até confirmar a edição |
+| Faixa D, antes sem pista (41) | 38 (3 ocultas) | **sim, 38** (migration 0023) | Confirmadas por referências bíblicas e trechos pareados |
+| Faixa D com fonte evidenciada no texto (51) e compatíveis (4) | 55 | **sim, 19** (migration 0024: Tertuliano, Cipriano, Ambrósio, Jerônimo, Nissa) | As outras 36 têm a fonte de domínio público **indicada no bloco de proveniência do próprio texto**, mas sem confirmação adicional: faltam referências bíblicas para o teste (tratados curtos de Agostinho, Irineu, Cassiano, Taciano, Rufino, Hilarião e Malaquias) |
+| Faixa A (22) e B (25) | 47 | não (atribuição declarada: Migne, Corpus Reformatorum, Banner of Truth etc.) | **Não verificadas.** Os originais são de autores mortos há séculos (Calvino, Bunyan, Owen, Flavel, Chesterton, Lutero...); o risco está em introduções e notas de reimpressões modernas, que não foi checado. Nenhum dos volumes do CCEL já baixados cobre essas obras |
+
+**Próximo passo para fechar as 83 restantes** (36 da faixa D, 22 da A, 25 da B): obter o texto inglês ou latino antigo de cada uma (Gutenberg, Wikisource, Internet Archive, CCEL individual) e parear trechos com a tradução, como foi feito para as 38. O que não se confirmar fica pendente ou oculto, conforme a regra do autor. Limite do método: mostra de qual texto a tradução partiu; não é parecer jurídico.
+
 ## Faixas de risco
 
 | Faixa | O que significa | Obras | Ação sugerida |
