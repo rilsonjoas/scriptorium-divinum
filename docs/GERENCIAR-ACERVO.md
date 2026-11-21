@@ -43,6 +43,26 @@ latim (só português no ar), o tratado das Relíquias de Calvino (arquivo corro
 Proslogion (revisão pendente) e o Breve Catecismo de Westminster (texto majoritariamente
 em inglês).
 
+## O texto é mesmo a obra? (checagem de conteúdo trocado)
+
+Em 21/11/2026 uma varredura achou 8 obras publicadas (3 em destaque) cujo arquivo era de **outro
+livro**, importado sob o título e o autor errados (romance, texto em finlandês, história militar).
+Por isso o `acervo:verificar` agora mede cada obra **publicada** com 3.000 palavras ou mais:
+
+| Medida | Resultado |
+|---|---|
+| Vocabulário teológico (Deus, Cristo, alma, graça, fé…) abaixo de **3,5** por mil palavras | **ERRO** (barra o CI) |
+| Abaixo de **6** por mil, ou menos de **6** palavras do português por cem | AVISO |
+
+É **heurística**, não prova: nas 228 obras publicadas medidas, o menor valor legítimo foi 3,9 e
+as 8 trocadas ficaram entre 0,4 e 4,6 (a de Herbert, 4,6, só aparece como aviso). Se o erro for
+alarme falso (obra legítima pouco teológica: diálogo filosófico, relato de viagem), **abra o
+arquivo, leia um trecho do meio** e registre no `MANIFESTO.json`
+`"conteudoConferido": "quem e quando"`. Obra oculta não é medida.
+
+Ao importar uma obra nova, **leia o começo e o meio do arquivo** antes de publicar: a checagem
+pega o grosseiro, não o texto trocado por outro do mesmo assunto.
+
 ## Tarefas
 
 ### Ocultar uma obra, ou voltar a publicá-la

@@ -60,4 +60,51 @@ describe('verificarManifesto', () => {
   it('fonte em português é ERRO: ou publica, ou declara o motivo de ocultar', () => {
     expect(erros(verificarManifesto(m({ a: { estado: 'fonte' } }), { a: pt }, HOJE))[0]).toMatch(/português/);
   });
+
+  describe('texto que pode ser de outro livro (achado de 21/11/2026)', () => {
+    const comConteudo = (densidadeTeologica: number, taxaPortugues = 12, palavras = 20_000) => ({
+      ...pt,
+      conteudo: { palavras, densidadeTeologica, taxaPortugues },
+    });
+    const avisos = (r: ReturnType<typeof verificarManifesto>) => r.filter((x) => x.nivel === 'AVISO').map((x) => x.mensagem);
+
+    it('obra publicada sem vocabulário teológico é ERRO (era um romance sob o título de Teresa de Ávila)', () => {
+      const r = verificarManifesto(m({ a: { estado: 'publicada' } }), { a: comConteudo(0.4) }, HOJE);
+      expect(erros(r)[0]).toMatch(/OUTRO livro/);
+    });
+
+    it('os números reais das 8 trocadas (0,4 a 2,8) barram; o menor legítimo medido (3,9) só avisa', () => {
+      for (const d of [0.4, 0.6, 0.7, 1.7, 1.9, 2.3, 2.8]) {
+        expect(erros(verificarManifesto(m({ a: { estado: 'publicada' } }), { a: comConteudo(d) }, HOJE))).toHaveLength(1);
+      }
+      const r = verificarManifesto(m({ a: { estado: 'publicada' } }), { a: comConteudo(3.9) }, HOJE);
+      expect(erros(r)).toEqual([]);
+      expect(avisos(r)).toHaveLength(1);
+    });
+
+    it('conteudoConferido silencia (obra legítima pouco teológica)', () => {
+      const r = verificarManifesto(m({ a: { estado: 'publicada', conteudoConferido: 'Rilson, 2026-11-21' } }), { a: comConteudo(0.4) }, HOJE);
+      expect(r).toEqual([]);
+    });
+
+    it('obra oculta não é barrada (é o que fazemos com a trocada)', () => {
+      const r = verificarManifesto(m({ a: { estado: 'oculta', motivo: 'texto de outro livro' } }), { a: comConteudo(0.4) }, HOJE);
+      expect(r).toEqual([]);
+    });
+
+    it('texto curto (< 3.000 palavras) não é medido: poucas palavras dão densidade instável', () => {
+      const r = verificarManifesto(m({ a: { estado: 'publicada' } }), { a: comConteudo(0, 12, 2_000) }, HOJE);
+      expect(r).toEqual([]);
+    });
+
+    it('pouco português com vocabulário normal é só AVISO (outro idioma?)', () => {
+      const r = verificarManifesto(m({ a: { estado: 'publicada' } }), { a: comConteudo(20, 4) }, HOJE);
+      expect(erros(r)).toEqual([]);
+      expect(avisos(r)).toHaveLength(1);
+    });
+
+    it('obra normal (densidade 23, mediana medida) não dá achado', () => {
+      expect(verificarManifesto(m({ a: { estado: 'publicada' } }), { a: comConteudo(23) }, HOJE)).toEqual([]);
+    });
+  });
 });
