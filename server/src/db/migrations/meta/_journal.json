@@ -169,6 +169,13 @@
       "when": 1793402058704,
       "tag": "0023_proveniencia_faixa_d_confirmada",
       "breakpoints": true
+    },
+    {
+      "idx": 24,
+      "version": "7",
+      "when": 1793405658704,
+      "tag": "0024_proveniencia_pais_da_igreja_confirmada",
+      "breakpoints": true
     }
   ]
 }
