@@ -162,6 +162,13 @@
       "when": 1793398458704,
       "tag": "0022_oculta_5_obras_com_traducao_moderna_na_proveniencia",
       "breakpoints": true
+    },
+    {
+      "idx": 23,
+      "version": "7",
+      "when": 1793402058704,
+      "tag": "0023_proveniencia_faixa_d_confirmada",
+      "breakpoints": true
     }
   ]
 }

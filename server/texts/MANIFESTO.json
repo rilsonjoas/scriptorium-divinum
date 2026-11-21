@@ -106,7 +106,8 @@
       "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "aos-jovens-sobre-a-literatura-grega-basilio": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Fonte não confirmada (faixa D, verificação de 21/11/2026): não foi possível localizar a edição inglesa de partida (não está no NPNF nem na Wikisource); a obra equivalente já oculta (aos-jovens-sobre-a-literatura-classica) declara Sources Chrétiennes. Ocultada pela regra do autor (sem certeza, sai); migration 0023. Reversível se a edição de partida for identificada."
     },
     "apologetico-tertuliano": {
       "estado": "oculta",
@@ -683,10 +684,12 @@
       "estado": "publicada"
     },
     "sobre-a-alma-e-a-ressurreicao-gregorio-de-nissa": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Fonte não confirmada (faixa D, verificação de 21/11/2026): o diálogo existe no NPNF 2/5, mas o texto não pôde ser pareado com ele; é duplicata de sobre-a-alma-e-a-ressurreicao-gregorio-nissa e este arquivo está em um único parágrafo. Ocultada pela regra do autor (sem certeza, sai); migration 0023. Reversível se a edição de partida for identificada."
     },
     "sobre-a-alma-e-a-ressurreicao-gregorio-nissa": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Fonte não confirmada (faixa D, verificação de 21/11/2026): o diálogo existe no NPNF 2/5, mas um trecho do texto não pôde ser pareado com ele; duplicata de sobre-a-alma-e-a-ressurreicao-gregorio-de-nissa. Ocultada pela regra do autor (sem certeza, sai); migration 0023. Reversível se a edição de partida for identificada."
     },
     "sobre-a-carne-de-cristo-tertuliano": {
       "estado": "publicada"

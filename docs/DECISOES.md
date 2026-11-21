@@ -811,3 +811,6 @@ A busca de evidência da fonte real nas 101 obras de atribuição genérica (ver
 
 **Pendente, decisão do autor:** 41 obras de faixa D sem nenhuma pista da fonte no texto (lista na doc de proveniência). Aplicada ao pé da letra, a regra as ocultaria; a alternativa é verificá-las em lotes contra a edição inglesa antiga e só ocultar as que não se confirmarem.
 
+### Faixa D: verificação das 41 sem pista da fonte (migration 0023)
+Decisão do autor: verificar em vez de ocultar tudo. Resultado: **38 confirmadas** (a edição inglesa antiga de domínio público foi identificada por referências bíblicas e por trechos pareados; a fonte foi gravada na atribuição) e **3 ocultas** por não se confirmarem (Basílio, *Aos Jovens*; Nissa, *Alma e Ressurreição*, 2 arquivos). Método, tabela e limites em `docs/PROVENIENCIA-ACERVO.md`. Não é parecer jurídico.
+
