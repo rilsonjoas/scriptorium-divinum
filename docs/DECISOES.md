@@ -759,3 +759,15 @@ Pendência aberta desde a F2: a API aceita mudar uma citação de `ativa` para `
 
 **Decisão do autor — `os-ultimos-fins-do-homem` (Padre Manuel Bernardes, 1688) fica como obra só de download:** a página oferece o PDF escaneado do Internet Archive e não há leitor online (o OCR cru, com o "ſ" lido como "f", continua fora). É o mesmo padrão de `vieira-sermoes-selectos-2` e `arrais-dialogos`. Não é erro: o canário, após o PR #18, não avisa sobre obras só de download.
 
+## 2026-11-21 — Login com limite próprio, `trustProxy` e upload validado pelo conteúdo
+**Contexto:** auditoria geral do projeto (segurança 7,5/10; maturidade 8/10).
+
+**Achado:** a API fica atrás do Traefik e o Fastify não tinha `trustProxy`; todo `request.ip` era o do proxy (`172.18.0.9` nos logs). O limite global de 100 req/min era, na prática, um balde único para todos os visitantes, e o login não tinha limite próprio.
+
+**Decisão:** `trustProxy` por lista de redes (`TRUSTED_PROXIES`, padrão `loopback,172.16.0.0/12`) e não por número de saltos, porque `trustProxy: <número>` devolveu sempre o IP do socket neste Fastify. Login com 5 tentativas por minuto por IP. Upload sem `.svg` e com conferência dos bytes (JPG, PNG, WebP). `mem_limit` de 384 MB (API) e 64 MB (web). Dependências corrigidas por override e por `@fastify/static` 10.1.12.
+
+**Efeito conhecido:** se um dia houver outro proxy na frente do Traefik (por exemplo Cloudflare), o IP visto será o dele; o limite continua seguro, só mais grosseiro.
+
+**Verificado em produção (PR #59):** 5 respostas 401 e depois 429 no login; IPs reais nos logs; contêineres saudáveis com o teto de memória aplicado.
+
+**Pendente:** estrutura de capítulos nas obras sem heading (ver ROADMAP, "Textos longos sem título": são 82, não 28) e `react-router` v6 para v7.
