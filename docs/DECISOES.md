@@ -795,7 +795,7 @@ Registro das decisões, na ordem de execução. Estado entre parênteses.
 | 5 | Obras ocultas (Breve Catecismo, relíquias de Calvino, Proslogion) | Ficam ocultas; só entram no site quando estiverem 100% | Registrado |
 | 6 | Obras novas (Institutas PT, Compêndio PT, Chrysostomo de Vieira) | Pauta para frente | Registrado |
 | 7 | Tradução com IA: método | Já usa o Antigravity, várias vezes; não é dúvida | Registrado |
-| 8 | Variedade na escolha do dia | Rodízio de autor | Em andamento |
+| 8 | Variedade na escolha do dia | Rodízio de autor | **Feito:** Lewis de 52% para 7% dos dias; ver ADR 001 (atualização de 2026-11-21) |
 | 9 | Planos de leitura e newsletter | Pauta para frente | Registrado |
 | 10 | Duplicatas de autor | Unificar | **Feito:** 17 pares unificados (migration `0021`), com alias de slug |
 

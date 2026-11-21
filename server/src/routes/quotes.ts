@@ -38,7 +38,7 @@ export async function quoteRoutes(app: FastifyInstance) {
     {
       schema: {
         tags: ['citacoes'],
-        summary: 'Citação do dia — mesma pra todo o cluster, determinística por data',
+        summary: 'Citação do dia — mesma pra todo o cluster, determinística por data, em rodízio de autor',
         querystring: zodToJsonSchema(quoteDailyQuerySchema, { $refStrategy: 'none' }),
         response: { 200: dailyQuoteJson, 400: validationErrorJson, 404: errorJson, 500: errorJson },
       },

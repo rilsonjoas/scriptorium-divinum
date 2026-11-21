@@ -3,6 +3,7 @@ import { db } from './client.js';
 import { dailyQuotes, quotes } from './schema.js';
 import { buildAmazonUrl } from '../lib/affiliate.js';
 import { isCuratedSource } from '../lib/quote-sources.js';
+import { chaveDeAutor } from '../lib/quote-authors.js';
 import { dateKeyInTimeZone, daySeed } from '../lib/date.js';
 import type { Quote } from '../schemas/quote.schema.js';
 
@@ -63,14 +64,37 @@ export function quotesAtivas(): SQL {
   return eq(quotes.status, 'ativa');
 }
 
-/** Seleção determinística pura: mesmo conjunto + mesma data → mesma citação
- *  (seed = dias desde a epoch mod o tamanho). Ordem estável por id. */
+/** Seleção determinística pura, em **rodízio de autor** (decisão do autor, 2026-11-21): mesmo conjunto
+ *  + mesma data → mesma citação.
+ *
+ *  Antes, o dia apontava para um índice da lista inteira ordenada por id (`semente mod tamanho`), e o
+ *  autor com mais citações dominava: Lewis tem 54% do acervo, então aparecia em mais da metade dos dias.
+ *  Agora a semente (dias desde a epoch) escolhe primeiro o AUTOR, em ordem estável pela chave do
+ *  nome (`semente mod nº de autores`), e depois a citação dentro do autor, em ordem de `id`
+ *  (`⌊semente / nº de autores⌋ mod nº de citações do autor`). Efeitos: cada autor aparece uma vez a
+ *  cada `nº de autores` dias, dois dias seguidos nunca têm o mesmo autor (com 2 autores ou mais), e as
+ *  citações de cada autor desfilam em sequência, sem repetir antes de passar por todas.
+ *
+ *  Com um autor só (`?author=`), o resultado é idêntico ao da regra antiga (`semente mod tamanho`).
+ *  Sem rodízio ponderado de propósito: autor com poucas citações volta a cada ciclo com a mesma
+ *  rotação lenta; é o preço de dar a todos o mesmo espaço. */
 export function pickQuoteBySeed(rows: readonly Quote[], dateKey: string): Quote | undefined {
   if (rows.length === 0) return undefined;
+  const seed = daySeed(dateKey);
   // módulo que nunca fica negativo: antes de 1970 a semente é negativa e `rows[-n]` era
   // undefined, o que virava 404 para `?date=1900-01-01`
-  const n = rows.length;
-  return rows[((daySeed(dateKey) % n) + n) % n];
+  const mod = (a: number, n: number) => ((a % n) + n) % n;
+
+  const porAutor = new Map<string, Quote[]>();
+  for (const q of [...rows].sort((a, b) => (a.id < b.id ? -1 : a.id > b.id ? 1 : 0))) {
+    const chave = chaveDeAutor(q.author);
+    const lista = porAutor.get(chave);
+    if (lista) lista.push(q);
+    else porAutor.set(chave, [q]);
+  }
+  const autores = [...porAutor.keys()].sort();
+  const lista = porAutor.get(autores[mod(seed, autores.length)]!)!;
+  return lista[mod(Math.floor(seed / autores.length), lista.length)];
 }
 
 export async function listQuotes(author?: string): Promise<Quote[]> {
