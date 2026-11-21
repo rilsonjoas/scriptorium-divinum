@@ -43,7 +43,7 @@ Hoje são 255 obras no ar, parte delas traduções por IA ainda sem revisão hum
 - 🚀 **Fastify** - API REST de alta performance e baixo consumo de recursos
 - 🗄️ **Drizzle ORM** + PostgreSQL - Acesso e modelagem de dados sem dependência de engines externas
 - ✅ **Zod** - Validação de payloads e parâmetros
-- 🔒 **Segurança**: helmet + rate limiting + CORS restrito + Sentry para monitoramento de erros
+- 🔒 **Segurança**: helmet + rate limiting (global e específico no login, por IP real atrás do proxy) + CORS restrito + upload validado pelo conteúdo + Sentry para monitoramento de erros
 
 ---
 
