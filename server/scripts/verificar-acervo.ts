@@ -35,6 +35,8 @@ const EN = /\b(the|and|that|which|shall|with|was|were|have|has|his|her|their|fro
 const PT = /\b(que|não|uma|para|com|como|mais|dos|das|pelo|pela|são|está|isso|também|seu|sua|ele|ela)\b/gi;
 const ANUNCIO = /\b(48mo|32mo|18mo|12mo|8vo|Super Royal|Demy)\b/g;
 const SUPERLATIVO = /obra-prima|inigual[aá]vel|incompar[aá]vel|insuper[aá]vel|magistral/gi;
+// vocabulário teológico comum: serve só para desconfiar de arquivo que não é a obra (ver acervo-manifesto.ts)
+const TEOLOGICO = /\b(deus|cristo|senhor|alma|graça|esp[ií]rito|fé|igreja|pecado|salvação|santo|santos|jesus|divin\w*|b[ií]blia|escrituras?|oração|orar|céu|celestial|apóstolo\w*|evangelho|virtude|amor)\b/gi;
 const INDICE_NUMERICO = /^(\s*\d{1,3}\s+){12,}/;
 
 const conta = (re: RegExp, s: string) => (s.match(re) ?? []).length;
@@ -51,6 +53,8 @@ export interface AnaliseTexto {
   paragrafosRepetidos: number;
   superlativosNoInicio: number;
   temFrontmatter: boolean;
+  densidadeTeologica: number;
+  taxaPortugues: number;
 }
 
 export function analisarTexto(conteudo: string): AnaliseTexto {
@@ -62,8 +66,12 @@ export function analisarTexto(conteudo: string): AnaliseTexto {
   const ingles = paragrafos.filter((p) => conta(EN, p) > 2 * conta(PT, p) + 3);
   const vistos = new Map<string, number>();
   for (const p of paragrafos) vistos.set(p.trim(), (vistos.get(p.trim()) ?? 0) + 1);
+  const palavrasTotal = corpo.split(/\s+/).filter(Boolean).length;
+  const palavrasAmostra = amostra.split(/\s+/).filter(Boolean).length;
   return {
-    palavras: corpo.split(/\s+/).filter(Boolean).length,
+    densidadeTeologica: palavrasTotal ? (conta(TEOLOGICO, corpo) / palavrasTotal) * 1000 : 0,
+    taxaPortugues: palavrasAmostra ? (conta(PT, amostra) / palavrasAmostra) * 100 : 0,
+    palavras: palavrasTotal,
     idioma,
     paragrafosIngles: ingles.length,
     palavrasIngles: ingles.reduce((n, p) => n + p.split(/\s+/).length, 0),
@@ -192,7 +200,7 @@ async function main() {
   const manifestoPath = path.join(TEXTS_DIR, 'MANIFESTO.json');
   if (existsSync(manifestoPath)) {
     const manifesto = JSON.parse(readFileSync(manifestoPath, 'utf-8')) as Manifesto;
-    const emDisco = Object.fromEntries([...analises].map(([f, a]) => [f.replace(/\.md$/, ''), { idioma: a.idioma }]));
+    const emDisco = Object.fromEntries([...analises].map(([f, a]) => [f.replace(/\.md$/, ''), { idioma: a.idioma, conteudo: { palavras: a.palavras, densidadeTeologica: a.densidadeTeologica, taxaPortugues: a.taxaPortugues } }]));
     for (const x of verificarManifesto(manifesto, emDisco)) achados.push({ nivel: x.nivel, arquivo: x.arquivo + '.md', mensagem: x.mensagem });
   } else {
     achados.push({ nivel: 'ERRO', arquivo: 'MANIFESTO.json', mensagem: 'server/texts/MANIFESTO.json não existe' });
