@@ -4,8 +4,9 @@ import { mkdirSync, writeFileSync } from 'node:fs';
 import type { FastifyInstance } from 'fastify';
 import { requireAdmin } from '../plugins/auth.js';
 import { env } from '../config.js';
+import { sniffImage, extensaoCombina } from '../lib/image-sniff.js';
 
-const ALLOWED_EXT = new Set(['.jpg', '.jpeg', '.png', '.webp', '.svg']);
+const ALLOWED_EXT = new Set(['.jpg', '.jpeg', '.png', '.webp']);
 const MAX_FILE_SIZE = 5 * 1024 * 1024;
 
 export const UPLOAD_DIR =
@@ -43,6 +44,13 @@ export async function uploadRoutes(app: FastifyInstance) {
       }
 
       const buffer = await file.toBuffer();
+      const detectado = sniffImage(buffer);
+      if (!detectado || !extensaoCombina(ext, detectado)) {
+        return reply.code(400).send({
+          error: 'bad_request',
+          message: 'O conteúdo do arquivo não é uma imagem JPG, PNG ou WebP válida.',
+        });
+      }
       const dir = path.join(UPLOAD_DIR, 'covers');
       mkdirSync(dir, { recursive: true });
       const filename = `${crypto.randomUUID()}${ext}`;

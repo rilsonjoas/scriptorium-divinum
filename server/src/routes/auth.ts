@@ -41,11 +41,15 @@ export async function authRoutes(app: FastifyInstance) {
   app.post(
     '/api/v1/admin/login',
     {
+      // Limite próprio por IP: o global (100/min) deixaria tentar senha à vontade
+      config: {
+        rateLimit: { max: env.LOGIN_RATE_LIMIT_MAX, timeWindow: env.LOGIN_RATE_LIMIT_WINDOW_MS },
+      },
       schema: {
         tags: ['auth'],
         summary: 'Autentica o administrador e cria sessão por cookie',
         body: zodToJsonSchema(loginBodySchema, { $refStrategy: 'none' }),
-        response: { 200: loginResponseJson, 401: errorJson },
+        response: { 200: loginResponseJson, 401: errorJson, 429: errorJson },
       },
     },
     async (request, reply) => {

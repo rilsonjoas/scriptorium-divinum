@@ -18,6 +18,15 @@ const envSchema = z.object({
   SENTRY_DSN: z.string().optional(),
   RATE_LIMIT_MAX: z.coerce.number().default(100),
   RATE_LIMIT_WINDOW_MS: z.coerce.number().default(60_000),
+  // Login do admin: limite próprio por IP, bem mais apertado que o global (força bruta)
+  LOGIN_RATE_LIMIT_MAX: z.coerce.number().default(5),
+  LOGIN_RATE_LIMIT_WINDOW_MS: z.coerce.number().default(60_000),
+  // Proxies em que a API confia para ler o IP real do X-Forwarded-For (lista separada por vírgula,
+  // IPs ou CIDRs; 'loopback' vale). Padrão: loopback + bridge do Docker, onde vive o Traefik.
+  // Sem isto, request.ip é sempre o IP do proxy e todo limite por IP vira um balde único para o
+  // mundo inteiro. Um X-Forwarded-For forjado pelo cliente não engana: vale o primeiro IP, da
+  // direita para a esquerda, que não é proxy confiável. Vazio desliga.
+  TRUSTED_PROXIES: z.string().default('loopback,172.16.0.0/12'),
   // Auth de admin por cookie de sessão
   COOKIE_SECRET: z.string().min(32).default('scriptorium-dev-secret-change-me-please'),
   ADMIN_COOKIE_NAME: z.string().default('sd_session'),

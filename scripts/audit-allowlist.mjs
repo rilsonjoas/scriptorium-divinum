@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 // Auditoria de dependências de PRODUÇÃO com allowlist.
 //
-// `pnpm audit --prod` em produção reporta 8 advisories conhecidos e aceitos
-// (todos de baixa/média severidade e não exploráveis neste projeto — ver
+// `pnpm audit --prod` em produção reporta só advisories do react-router v6 (2026-11-21;
+// os de lodash, yaml, glob e fast-uri foram corrigidos por override/atualização; sem patch no v6
+// e não explorável neste projeto — ver
 // ROADMAP.md, seção "Segurança"). Qualquer advisory NOVO de severidade
 // high/critical faz o CI falhar.
 //
@@ -12,10 +13,6 @@ import { spawnSync } from 'node:child_process';
 
 // GHSA aceitos e o motivo de cada um:
 const ACCEPTED = new Set([
-  'GHSA-48c2-rrv3-qjmp', // yaml: stack overflow em YAML aninhado — parsing de YAML não confiável, não usado no runtime
-  'GHSA-r5fr-rjxr-66jc', // lodash (via recharts): code injection em _.template — recharts só usa utilitários, sem template controlado por usuário
-  'GHSA-f23m-r3pf-42rh', // lodash (via recharts): prototype pollution em _.unset/_.omit — sem patch real (lodash 4.x EOL)
-  'GHSA-xxjr-mmjv-4gpg', // lodash (via recharts): prototype pollution em _.unset/_.omit — idem
   'GHSA-wrjc-x8rr-h8h6', // react-router v6: open redirect via backslash — sem patch no v6 (só 7.18+); links vêm de slugs sanitizados
   'GHSA-jjmj-jmhj-qwj2', // react-router v6: open redirect → XSS — idem, sem patch no v6
   'GHSA-337j-9hxr-rhxg', // react-router v6: constructor injection em SSR hydration — app é SPA sem SSR, não aplicável

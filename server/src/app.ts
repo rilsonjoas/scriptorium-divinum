@@ -33,6 +33,7 @@ export async function buildApp() {
   initSentry();
 
   const app = Fastify({
+    trustProxy: env.TRUSTED_PROXIES.split(',').map((x) => x.trim()).filter(Boolean),
     logger: isProduction
       ? true
       : {
