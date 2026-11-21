@@ -134,6 +134,13 @@
       "when": 1793384058704,
       "tag": "0018_remove_teste_oculto_do_painel",
       "breakpoints": true
+    },
+    {
+      "idx": 19,
+      "version": "7",
+      "when": 1793387658704,
+      "tag": "0019_oculta_8_obras_com_texto_de_outro_livro",
+      "breakpoints": true
     }
   ]
 }
