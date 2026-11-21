@@ -54,6 +54,29 @@ séries NPNF/ANF de Schaff, de domínio público; mas isso é palpite): `a-nobre
 Para tirá-las da dúvida, o caminho é comparar um trecho de cada uma com a edição inglesa antiga e registrar a fonte na
 atribuição; o que não se confirmar fica pendente (ou oculto, se o autor decidir assim).
 
+## Verificação das 41 obras da faixa D sem pista da fonte (2026-11-21)
+
+Decisão do autor: verificar contra a edição inglesa antiga e ocultar só o que não se confirmasse. **38 confirmadas, 3 ocultas.**
+
+**Método.** (1) *Sequência de referências bíblicas:* as referências entre parênteses das traduções NPNF/ANF (`(Eph. v. 22.)`) são acréscimo editorial de Schaff e seus colaboradores, não do original grego. Comparei a sequência de referências de cada obra em português (trigramas de livro, capítulo e versículo) com 31 volumes do CCEL: o volume certo casou (17% a 64% dos trigramas) e o segundo colocado ficou em cerca de 0%. (2) *Leitura lado a lado de trechos*, onde faltavam referências: a frase em português é a tradução da frase inglesa, às vezes com o mesmo erro (na Suma, *Ecclus.* 3:22, Eclesiástico, virou "Eclesiastes 3:22"). Mostra de qual texto a tradução partiu; **não é parecer jurídico**, e não exclui por si só que outra edição tenha sido consultada.
+
+| Fonte confirmada | Obras | Evidência |
+|---|---:|---|
+| NPNF 1/13 (Crisóstomo: Gálatas a Filemom) | 8 | referências, forte |
+| NPNF 1/14 (Crisóstomo: Hebreus, 2 partes) e NPNF 1/9 (Estátuas, 2 partes) | 4 | referências, forte |
+| NPNF 2/7 (Cirilo de Jerusalém, 2), 2/8 (Basílio, Hexaemeron), 2/12 (Leão Magno, 3), 2/5 (Nissa, Criação do Homem), 2/10 (Ambrósio, 3), 2/9 (Hilário), ANF 5 (Cipriano, 2) | 12 | referências, forte |
+| NPNF 2/11 (Sulpício Severo: Vida, Cartas, Diálogos) | 3 | título editorial idêntico (Vida); trechos pareados |
+| Suma Teológica, tradução inglesa dos Dominicanos (CCEL) | 4 | trecho pareado (Q.1 a.1, com o erro *Ecclus.*); referências 1 a 5% |
+| Pensées, trad. W. F. Trotter (CCEL) | 1 | trecho pareado frase a frase |
+| Lutero, Nobreza Cristã (First Principles of the Reformation, 1896, CCEL) | 1 | trecho pareado |
+| Lutero, Catecismo Maior (Concordia Triglotta, Bente e Dau, 1921, bookofconcord.org) | 1 | trecho pareado, inclusive os colchetes |
+| ANF 7 (Didaqué) | 1 | prefácio dos editores pareado |
+| *Leaves from St. John Chrysostom*, Mary H. Allies, 1889 (Gutenberg 62447; já guardado em `server/texts`) | 2 | índice idêntico (*Páginas Douradas* e *Homilias e Escritos Espirituais* são duas versões da mesma coletânea) |
+
+A *Cidade de Deus* (fora das 41) também confere: o título do capítulo 1 é idêntico ao de Dods, NPNF 1/2. A migration `0023` grava a edição confirmada na atribuição de cada uma das 38.
+
+**Ocultadas (3, fonte não confirmada):** `aos-jovens-sobre-a-literatura-grega-basilio` (a edição inglesa de partida não foi localizada: não está no NPNF nem na Wikisource) e as duas `sobre-a-alma-e-a-ressurreicao-gregorio-*` (o diálogo existe no NPNF 2/5, mas o texto não pôde ser pareado; os dois arquivos são duplicatas e um deles está em um único parágrafo). Reversível: voltam se a edição de partida for identificada.
+
 ## Faixas de risco
 
 | Faixa | O que significa | Obras | Ação sugerida |
