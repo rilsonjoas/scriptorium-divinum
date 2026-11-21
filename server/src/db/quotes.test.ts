@@ -112,6 +112,63 @@ describe('pickQuoteBySeed', () => {
   });
 });
 
+describe('pickQuoteBySeed: rodízio de autor (decisão do autor, 2026-11-21)', () => {
+  const id = (n: number) => `00000000-0000-4000-8000-${String(n).padStart(12, '0')}`;
+  /** `m` citações de um autor, ids a partir de `ini`. */
+  const doAutor = (autor: string, m: number, ini: number) =>
+    Array.from({ length: m }, (_, i) => row({ id: id(ini + i), author: autor, text: `${autor} ${i}` }));
+  const dia = (i: number) => new Date(Date.UTC(2026, 0, 1 + i)).toISOString().slice(0, 10);
+  const dias = (n: number) => Array.from({ length: n }, (_, i) => dia(i));
+
+  // Lewis domina o acervo (10 de 13), como no real (54%)
+  const acervo = [...doAutor('C. S. Lewis', 10, 100), ...doAutor('Agostinho', 1, 200), ...doAutor('Kempis', 1, 300), ...doAutor('Pascal', 1, 400)];
+
+  it('cada autor aparece a mesma fração dos dias, mesmo com 10x mais citações (Lewis 25% de 4 autores, não 77%)', () => {
+    const esc = dias(400).map((d) => pickQuoteBySeed(acervo, d)!);
+    const lewis = esc.filter((q) => q.author === 'C. S. Lewis').length;
+    expect(lewis).toBe(100); // 400 dias / 4 autores, exato
+    for (const a of ['Agostinho', 'Kempis', 'Pascal']) expect(esc.filter((q) => q.author === a)).toHaveLength(100);
+  });
+
+  it('dois dias seguidos nunca têm o mesmo autor (com 2 autores ou mais)', () => {
+    const esc = dias(500).map((d) => pickQuoteBySeed(acervo, d)!.author);
+    for (let i = 1; i < esc.length; i++) expect(esc[i], dia(i)).not.toBe(esc[i - 1]);
+  });
+
+  it('as citações de um autor desfilam em sequência, sem repetir antes de passar por todas', () => {
+    const lewis = dias(4 * 10)
+      .map((d) => pickQuoteBySeed(acervo, d)!)
+      .filter((q) => q.author === 'C. S. Lewis')
+      .map((q) => q.id);
+    expect(lewis).toHaveLength(10);
+    expect(new Set(lewis).size).toBe(10);
+  });
+
+  it('autor é comparado pela chave (C. S. Lewis, C.S. Lewis e CS Lewis são o mesmo autor)', () => {
+    const grafias = [row({ id: id(1), author: 'C. S. Lewis' }), row({ id: id(2), author: 'C.S. Lewis' }), row({ id: id(3), author: 'CS Lewis' }), row({ id: id(4), author: 'Kempis' })];
+    const esc = dias(200).map((d) => pickQuoteBySeed(grafias, d)!);
+    // 2 autores (Lewis, Kempis): metade dos dias cada um, não 3/4 para "Lewis"
+    expect(esc.filter((q) => q.author === 'Kempis')).toHaveLength(100);
+  });
+
+  it('com um autor só, é idêntico à regra antiga (semente mod tamanho): o filtro ?author= não muda', () => {
+    const so = doAutor('Kempis', 7, 500);
+    for (const d of dias(60)) {
+      const seed = Math.floor(Date.UTC(+d.slice(0, 4), +d.slice(5, 7) - 1, +d.slice(8, 10)) / 86_400_000);
+      expect(pickQuoteBySeed(so, d)!.id, d).toBe(so[((seed % 7) + 7) % 7]!.id);
+    }
+  });
+
+  it('não depende da ordem em que as citações chegam', () => {
+    const embaralhado = [...acervo].reverse();
+    for (const d of dias(30)) expect(pickQuoteBySeed(embaralhado, d)!.id, d).toBe(pickQuoteBySeed(acervo, d)!.id);
+  });
+
+  it('data antes de 1970 (semente negativa) continua escolhendo, com vários autores', () => {
+    for (const d of ['1900-01-01', '1969-12-31']) expect(pickQuoteBySeed(acervo, d), d).toBeDefined();
+  });
+});
+
 describe('dentroDaJanelaDeGravacao', () => {
   const hoje = '2026-10-17';
   it('hoje e os dois extremos da janela entram', () => {

@@ -135,3 +135,23 @@ grava a escolha; as seguintes só leem.
 **Junto, padronização de datas** (ver hetzner-infra/CONTRATOS-ENTRE-PROJETOS.md, 5.1): `?date=` agora rejeita dia
 inexistente (`2026-13-45`, `2027-02-29`) com **400**, como o Lecionário já fazia; e datas anteriores a 1970 deixaram de
 dar 404 (o índice podia ficar negativo).
+
+## Atualização de 2026-11-21: a citação do dia roda por autor (rodízio)
+
+**Decisão do autor.** Antes, o dia apontava para um índice da lista inteira de citações ativas, ordenada por `id`
+(`dias desde a epoch mod tamanho`), e o autor com mais citações dominava: Lewis tem 54% do acervo e aparecia em 52% dos
+dias (191 de 365), com 111 casos de o mesmo autor dois dias seguidos.
+
+**Regra nova (`pickQuoteBySeed`).** A semente escolhe primeiro o **autor**, em ordem estável pela chave do nome
+(`semente mod nº de autores`), e depois a **citação dentro do autor**, em ordem de `id`
+(`⌊semente / nº de autores⌋ mod nº de citações do autor`). Continua determinística por data e igual em todo o cluster:
+a escolha mora só na API (Lecionário e Narniano pedem a `/quotes/daily`; o Gerador não usa o "do dia").
+
+**Efeito medido nas 270 citações reais (15 autores), num ano:** Lewis em 24 de 365 dias (7%, 1/15), 0 repetições de autor
+em dias seguidos. **Custo:** as citações distintas num ano caem de 270 para 149, porque autor com poucas citações volta a
+cada 15 dias e recicla as mesmas (rodízio sem peso: todos têm o mesmo espaço). Se isso incomodar, a saída é ponderar o
+rodízio (mais dias para quem tem mais citações), não voltar ao índice único.
+
+**O que não muda.** Com `?author=`, o resultado é idêntico ao da regra antiga. Os dias já gravados dentro de ±30 dias
+ficam como estão; a regra nova vale para os dias ainda não gravados, e passa a valer para cada dia no primeiro pedido.
+
