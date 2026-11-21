@@ -5,6 +5,7 @@ import { MemoryRouter, Route, Routes } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import Reader from './Reader';
 import { splitProvenance } from '@/utils/readerText';
+import { getReadingProgress, saveReadingProgress } from '@/utils/readingProgress';
 
 vi.mock('@/components/Layout', () => ({
   Layout: ({ children }: { children: React.ReactNode }) => <div>{children}</div>,
@@ -108,4 +109,35 @@ describe('Reader', () => {
     const backLink = screen.getByRole('link', { name: 'Voltar ao Catálogo' });
     expect(backLink).toHaveAttribute('href', '/livros/8ceec7d1-c719-4eea-a3fc-a7bfd2a5a9da');
   });
+
+  describe('#hash na URL', () => {
+    const longo = (palavra: string) => `${palavra} `.repeat(220);
+    const texto = `# Obra\n\n## Capítulo A\n\n${longo('alfa')}\n\n## Capítulo B\n\n${longo('beta')}\n\n## Capítulo C\n\n${longo('gama')}`;
+
+    beforeEach(() => {
+      localStorage.clear();
+    });
+
+    it('abre direto no capítulo do hash', () => {
+      mockText({ slug: 'obra', title: 'Obra de Teste', text: texto });
+      renderReader('/ler/obra#capitulo-b');
+      expect(screen.getByRole('heading', { name: 'Capítulo B' })).toBeInTheDocument();
+      expect(screen.queryByRole('heading', { name: 'Capítulo A' })).not.toBeInTheDocument();
+    });
+
+    it('o hash vale mais que a leitura salva', () => {
+      saveReadingProgress({ slug: 'obra', title: 'Obra de Teste', ratio: 0.9 });
+      expect(getReadingProgress('obra')?.ratio).toBeCloseTo(0.9);
+      mockText({ slug: 'obra', title: 'Obra de Teste', text: texto });
+      renderReader('/ler/obra#capitulo-a');
+      expect(screen.getByRole('heading', { name: 'Capítulo A' })).toBeInTheDocument();
+    });
+
+    it('hash que não existe na obra não atrapalha: abre no começo', () => {
+      mockText({ slug: 'obra', title: 'Obra de Teste', text: texto });
+      renderReader('/ler/obra#nao-existe');
+      expect(screen.getByRole('heading', { name: 'Capítulo A' })).toBeInTheDocument();
+    });
+  });
 });
+

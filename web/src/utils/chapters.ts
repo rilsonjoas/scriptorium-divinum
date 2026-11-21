@@ -138,3 +138,29 @@ export function agruparCapitulosCurtos(chapters: Chapter[], minimo = 900): Chapt
   }
   return saida;
 }
+
+/**
+ * Para onde o `#hash` da URL aponta: um capítulo (`#capitulo-b`) ou um título do índice
+ * (`#homilia-3-cap-ii-v-1-3`). Os ids são os mesmos do sumário (título em slug). Devolve o
+ * capítulo a abrir e, se for um título dentro dele, o id para rolar até lá; `null` se não
+ * houver hash ou ele não existir na obra (nesse caso o leitor segue como se não houvesse hash).
+ */
+export function destinoDoHash(
+  hash: string,
+  toc: { id: string; chapter: number }[],
+  chapters: Chapter[],
+): { chapter: number; id: string } | null {
+  const bruto = hash.replace(/^#/, '');
+  if (!bruto) return null;
+  let id = bruto;
+  try {
+    id = decodeURIComponent(bruto);
+  } catch {
+    // hash malformado: usa como veio
+  }
+  const titulo = toc.find((t) => t.id === id && t.chapter >= 0);
+  if (titulo) return { chapter: titulo.chapter, id };
+  const cap = chapters.findIndex((c) => c.id === id);
+  return cap >= 0 ? { chapter: cap, id } : null;
+}
+
