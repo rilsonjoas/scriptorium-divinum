@@ -88,6 +88,19 @@ A *Cidade de Deus* (fora das 41) também confere: o título do capítulo 1 é id
 
 **Próximo passo para fechar as 83 restantes** (36 da faixa D, 22 da A, 25 da B): obter o texto inglês ou latino antigo de cada uma (Gutenberg, Wikisource, Internet Archive, CCEL individual) e parear trechos com a tradução, como foi feito para as 38. O que não se confirmar fica pendente ou oculto, conforme a regra do autor. Limite do método: mostra de qual texto a tradução partiu; não é parecer jurídico.
 
+## Faixa A: verificação (2026-11-21)
+
+Das 22 obras da faixa A, **1 foi confirmada** (Catecismo de Heidelberg, contra o volume III do Schaff declarado; migration `0025`). As outras 21 **não puderam ser confirmadas hoje**, por falta da fonte antiga, não por contradição:
+
+| Obras | O que falta |
+|---|---|
+| *Guerra Santa* e *Graça Abundante* (Bunyan), *Ortodoxia* e *O Homem Eterno* (Chesterton), *Santo Morrer* (Taylor) | O texto inglês no Project Gutenberg (Bunyan #395 e #654, Chesterton #130), fora do ar na ocasião (503). Sem referências bíblicas suficientes para o teste automático |
+| *Necessidade de Reformar a Igreja*, *Resposta a Sadoleto*, *Tratado e Pequeno Tratado sobre a Santa Ceia*, *A Vida do Cristão* (Calvino) | Os Calvin Tracts (Beveridge, 1844 a 1851); o endereço no CCEL não foi localizado |
+| *Cânones de Dort*, *Credos Ecumênicos*, *Confissão de Westminster*, *39 Artigos* | Dort e os Credos ecumênicos não estão nos volumes do Schaff baixados; Westminster e os 39 Artigos estão no volume III, mas o pareamento de trecho não foi concluído |
+| *Escada do Paraíso*, *Regra de São Bento*, *Loci Communes*, *Coletas do Livro de Oração Comum 1662*, *Sermão da Montanha* e *Sobre a Oração* (Crisóstomo), *Didaqué* | Sem referências bíblicas suficientes e sem a edição inglesa de partida identificada (para Clímaco e Bento, edições inglesas conhecidas são do século XX, o que torna a verificação importante) |
+
+Continuam no ar com a fonte **declarada** na atribuição. O passo para fechar é o mesmo das 38: obter o texto antigo e parear trechos; o que não se confirmar fica pendente ou oculto pela regra do autor.
+
 ## Faixas de risco
 
 | Faixa | O que significa | Obras | Ação sugerida |
