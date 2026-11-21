@@ -806,3 +806,8 @@ Registro das decisões, na ordem de execução. Estado entre parênteses.
 - **URL antiga continua abrindo**: tabela `author_slug_aliases`; a API resolve e o site redireciona. Os dados ricos de Agostinho e de Anselmo estavam sob o slug antigo e foram movidos para o canônico.
 - **Ensaiado com dados reais de produção**: 107 → 90 autores, 291 obras intactas, 0 obras sem autor, 17 aliases, idempotente, anos completados (Agostinho 354/430 etc.).
 
+### Faixa D: 5 ocultadas por evidência de tradução moderna (migration 0022)
+A busca de evidência da fonte real nas 101 obras de atribuição genérica (ver `docs/PROVENIENCIA-ACERVO.md`) achou 5 cujo próprio texto mostra uma tradução moderna como base, contradizendo "a partir de obra em domínio público": Tradição Apostólica de Hipólito (2 arquivos duplicados; B. S. Easton, © 1934 Cambridge UP), Oração e Vida Contemplativa de Tomás de Aquino (2 duplicados; Hugh Pope, 1914) e *De Magistro* (cotejada com Peter King e Ângelo Ricci). Ocultadas pela regra do autor (sem certeza de direitos, sai).
+
+**Pendente, decisão do autor:** 41 obras de faixa D sem nenhuma pista da fonte no texto (lista na doc de proveniência). Aplicada ao pé da letra, a regra as ocultaria; a alternativa é verificá-las em lotes contra a edição inglesa antiga e só ocultar as que não se confirmarem.
+

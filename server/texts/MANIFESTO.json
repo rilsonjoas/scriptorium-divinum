@@ -79,7 +79,8 @@
       "estado": "publicada"
     },
     "a-tradicao-apostolica-hipolito": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (tradução moderna na proveniência): o texto abre com a tradução inglesa de Burton Scott Easton (© 1934 Cambridge University Press); duplicada de tradicao-apostolica-hipolito. Ocultada em 21/11/2026 por decisão do autor (migration 0022); a atribuição \"obra em domínio público\" não se sustenta. Reversível."
     },
     "a-trindade-santo-agostinho": {
       "estado": "oculta",
@@ -299,7 +300,8 @@
       "estado": "publicada"
     },
     "da-oracao-e-vida-contemplativa-tomas-de-aquino": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (tradução moderna na proveniência): o texto é a tradução de Hugh Pope OP (Washbourne, 1914, \"todos os direitos reservados\"); duplicada de sobre-a-oracao-e-a-vida-contemplativa-tomas-de-aquino. Ocultada em 21/11/2026 por decisão do autor (migration 0022); a atribuição \"obra em domínio público\" não se sustenta. Reversível."
     },
     "da-paciencia-tertuliano": {
       "estado": "publicada"
@@ -308,7 +310,8 @@
       "estado": "publicada"
     },
     "de-magistro": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (tradução moderna na proveniência): cotejada com as traduções modernas de Peter King (Hackett, 1995) e Ângelo Ricci (Paulus). Ocultada em 21/11/2026 por decisão do autor (migration 0022); a atribuição \"obra em domínio público\" não se sustenta. Reversível."
     },
     "demonstracao-da-pregacao-apostolica": {
       "estado": "oculta",
@@ -699,7 +702,8 @@
       "motivo": "Direitos incertos (faixa C da triagem de proveniência, docs/PROVENIENCIA-ACERVO.md): a fonte declarada da tradução é edição crítica ou tradução moderna, que pode ter proteção própria. Ocultada em 21/11/2026 por decisão do autor, até a auditoria confirmar a edição-fonte (migration 0020). Reversível."
     },
     "sobre-a-oracao-e-a-vida-contemplativa-tomas-de-aquino": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (tradução moderna na proveniência): o texto é a tradução de Hugh Pope OP (Washbourne, 1914, \"todos os direitos reservados\"); duplicada de da-oracao-e-vida-contemplativa-tomas-de-aquino. Ocultada em 21/11/2026 por decisão do autor (migration 0022); a atribuição \"obra em domínio público\" não se sustenta. Reversível."
     },
     "sobre-a-oracao-tertuliano": {
       "estado": "publicada"
@@ -856,7 +860,8 @@
       "estado": "publicada"
     },
     "tradicao-apostolica-hipolito": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Direitos incertos (tradução moderna na proveniência): o texto abre com a tradução inglesa de Burton Scott Easton (© 1934 Cambridge University Press); duplicada de a-tradicao-apostolica-hipolito. Ocultada em 21/11/2026 por decisão do autor (migration 0022); a atribuição \"obra em domínio público\" não se sustenta. Reversível."
     },
     "tratado-a-autolico-teofilo-antioquia": {
       "estado": "publicada"

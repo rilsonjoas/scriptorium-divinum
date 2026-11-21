@@ -34,6 +34,26 @@ NPNF/ANF, século XIX), a tradução em português herda essa situação limpa; 
 tradução moderna, o resultado em português pode ser **obra derivada** dela, com os direitos de quem a produziu. Saber que
 foi a IA que traduziu não diz qual era o texto de partida. Por isso a pergunta é sobre a fonte, não sobre quem traduziu.
 
+## Faixa D: busca de evidência da fonte real (2026-11-21)
+
+Das 101 obras de faixa D ainda publicadas (atribuição genérica, "a partir de obra em domínio público"), uma leitura da
+abertura e do bloco de proveniência de cada texto, procurando a edição de partida, deu:
+
+| Resultado | Obras | O que significa |
+|---|---:|---|
+| Fonte de domínio público **evidenciada no próprio texto** (Gutenberg, CCEL, Schaff, NPNF/ANF, Migne, Wikisource, Internet Archive) | 51 | Segue no ar; ainda falta registrar a edição na atribuição |
+| Assinatura estrutural **compatível** com NPNF/ANF/CCEL (capítulos `Capítulo N.--`, notas `[3798]`), sem fonte dita | 4 | Inferência, não prova; segue no ar |
+| **Sinal de tradução moderna com direitos** na abertura | 5 | **Ocultadas** (migration `0022`): Tradição Apostólica de Hipólito (2 arquivos; tradução de B. S. Easton, © 1934 Cambridge UP), Oração e Vida Contemplativa de Tomás de Aquino (2 arquivos; Hugh Pope, Washbourne, 1914), *De Magistro* (cotejada com Peter King, Hackett 1995, e Ângelo Ricci, Paulus) |
+| **Nenhuma pista da fonte no texto** | 41 | Fonte não evidenciada; **decisão do autor pendente** (ver abaixo) |
+
+As 5 ocultadas não são parecer jurídico (alguns prazos podem ter vencido no Brasil): aplica-se a regra do autor, sem
+certeza sai do ar. Ocultar é reversível.
+
+**As 41 sem pista da fonte** (a maioria são Pais da Igreja que, pela estrutura e pelo período, provavelmente vêm das
+séries NPNF/ANF de Schaff, de domínio público; mas isso é palpite): `a-nobreza-crista-da-nacao-alema-lutero`, `aos-jovens-sobre-a-literatura-grega-basilio`, `cartas-sobre-sao-martinho-sulpicio-severo`, `catequeses-batismais-parte-1-cirilo-de-jerusalem`, `catequeses-batismais-parte-2-cirilo-de-jerusalem`, `dialogos-sobre-sao-martinho-sulpicio-severo`, `didaque-doutrina-dos-doze-apostolos`, `hexaemeron-homilias-sobre-a-criacao-basilio-magno`, `homilias-e-escritos-espirituais-crisostomo`, `homilias-sobre-as-estatuas-parte-1-joao-crisostomo`, `homilias-sobre-as-estatuas-parte-2-joao-crisostomo`, `homilias-sobre-colossenses-joao-crisostomo`, `homilias-sobre-filemom-joao-crisostomo`, `homilias-sobre-filipenses-joao-crisostomo`, `homilias-sobre-hebreus-parte-1-joao-crisostomo`, `homilias-sobre-hebreus-parte-2-joao-crisostomo`, `homilias-sobre-primeira-tessalonicenses-joao-crisostomo`, `homilias-sobre-primeira-timoteo-joao-crisostomo`, `homilias-sobre-segunda-tessalonicenses-joao-crisostomo`, `homilias-sobre-segunda-timoteo-joao-crisostomo`, `homilias-sobre-tito-joao-crisostomo`, `o-catecismo-maior-martinho-lutero`, `paginas-douradas-sao-joao-crisostomo`, `pensamentos-blaise-pascal`, `sermoes-sobre-a-natividade-sao-leao-magno`, `sermoes-sobre-o-misterio-pascal-sao-leao-magno`, `sermoes-sobre-pentecostes-e-os-santos-sao-leao-magno`, `sobre-a-alma-e-a-ressurreicao-gregorio-de-nissa`, `sobre-a-alma-e-a-ressurreicao-gregorio-nissa`, `sobre-a-criacao-do-homem-gregorio-de-nissa`, `sobre-o-espirito-santo-ambrosio-de-milao`, `sobre-os-deveres-do-clero-livro-1-ambrosio-de-milao`, `sobre-os-deveres-do-clero-livros-2-e-3-ambrosio-de-milao`, `sobre-os-sinodos-hilario-de-poitiers`, `suma-teologica-primeira-parte`, `suma-teologica-primeira-parte-da-segunda-parte`, `suma-teologica-segunda-parte-da-segunda-parte`, `suma-teologica-terceira-parte`, `tratados-patristicos-parte-1-cipriano-de-cartago`, `tratados-patristicos-parte-2-cipriano-de-cartago`, `vida-de-sao-martinho-sulpicio-severo`.
+Para tirá-las da dúvida, o caminho é comparar um trecho de cada uma com a edição inglesa antiga e registrar a fonte na
+atribuição; o que não se confirmar fica pendente (ou oculto, se o autor decidir assim).
+
 ## Faixas de risco
 
 | Faixa | O que significa | Obras | Ação sugerida |
