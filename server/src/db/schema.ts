@@ -34,6 +34,22 @@ export const authors = pgTable(
   ],
 );
 
+/**
+ * Slugs antigos de autores que foram unificados (migration 0021). A URL antiga continua abrindo:
+ * a API resolve o alias para o autor canônico e o site redireciona. Ver docs/GERENCIAR-ACERVO.md.
+ */
+export const authorSlugAliases = pgTable(
+  'author_slug_aliases',
+  {
+    alias: varchar('alias', { length: 255 }).primaryKey(),
+    authorId: uuid('author_id')
+      .notNull()
+      .references(() => authors.id, { onDelete: 'cascade' }),
+    createdAt: timestamp('created_at', { withTimezone: true }).defaultNow().notNull(),
+  },
+  (table) => [index('idx_author_slug_aliases_author_id').on(table.authorId)],
+);
+
 export const books = pgTable(
   'books',
   {

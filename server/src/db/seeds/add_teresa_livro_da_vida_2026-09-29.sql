@@ -6,7 +6,7 @@ BEGIN;
 
 INSERT INTO authors (slug, name, bio_summary, denomination_or_tradition)
 VALUES (
-  'teresa-de-jesus',
+  'teresa-de-avila',
   'Santa Teresa de Ávila',
   'Doutora da Igreja, mística espanhola e reformadora da Ordem do Carmo Descalço (1515–1582 d.C.), mestra suprema da vida de oração e união interior com Deus.',
   ARRAY['Mística Carmelita', 'Espiritualidade Cristã', 'Vida Contemplativa']
@@ -22,7 +22,7 @@ INSERT INTO books (
 )
 VALUES (
   'Livro da Vida',
-  (SELECT id FROM authors WHERE slug = 'teresa-de-jesus'),
+  (SELECT id FROM authors WHERE slug = 'teresa-de-avila'),
   'Português',
   'A célebre autobiografia espiritual de Santa Teresa de Jesus, contendo a clássica alegoria dos quatro modos de regar o jardim da alma e o relato da transverberação mística.',
   'livro-da-vida-teresa-de-avila',

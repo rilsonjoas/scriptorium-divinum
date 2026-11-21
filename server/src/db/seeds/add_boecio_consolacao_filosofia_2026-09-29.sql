@@ -6,7 +6,7 @@ BEGIN;
 
 INSERT INTO authors (slug, name, bio_summary, denomination_or_tradition)
 VALUES (
-  'severino-boecio',
+  'boecio',
   'Severino Boécio',
   'Filósofo romano cristão, estadista, teólogo e mártir (c. 477–524 d.C.), autor de A Consolação da Filosofia, elo fundamental e insubstituível entre a antiguidade clássica e a Idade Média.',
   ARRAY['Filosofia Cristã', 'Patrística Tardia', 'Tradição Clássica']
@@ -22,7 +22,7 @@ INSERT INTO books (
 )
 VALUES (
   'A Consolação da Filosofia',
-  (SELECT id FROM authors WHERE slug = 'severino-boecio'),
+  (SELECT id FROM authors WHERE slug = 'boecio'),
   'Português',
   'Uma das obras mais influentes e lidas de toda a civilização ocidental, composta na prisão antes do martírio, integrando sabedoria filosófica clássica e transcendência divina sobre a Providência e o Sumo Bem.',
   'a-consolacao-da-filosofia-boecio',

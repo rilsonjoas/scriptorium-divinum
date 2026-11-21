@@ -797,5 +797,12 @@ Registro das decisões, na ordem de execução. Estado entre parênteses.
 | 7 | Tradução com IA: método | Já usa o Antigravity, várias vezes; não é dúvida | Registrado |
 | 8 | Variedade na escolha do dia | Rodízio de autor | Em andamento |
 | 9 | Planos de leitura e newsletter | Pauta para frente | Registrado |
-| 10 | Duplicatas de autor | Unificar | Em andamento |
+| 10 | Duplicatas de autor | Unificar | **Feito:** 17 pares unificados (migration `0021`), com alias de slug |
+
+### Unificação de autores (migration 0021): o que foi achado e decidido
+- **São 17 pares, não 14**: a primeira varredura por nome normalizado achou 14; leitura dos 107 nomes achou mais três (Boaventura, Boécio, Melâncton).
+- **Causa**: 15 seeds inseriam o autor por um slug diferente do que já existia. Como seeds rodam a cada deploy, apagar o duplicado sem corrigir os seeds o faria voltar. Os 15 seeds passaram a usar o slug canônico (só no `INSERT INTO authors` e em `slug = '…'`; tags de livro intocadas) e um teste impede a regressão.
+- **Critério do slug canônico**: o que tem mais obras; empate, a biografia mais longa; Teresa de Ávila fica com `teresa-de-avila`. Nomes: São Tomás de Aquino e São Boaventura de Bagnoregio (forma mais correta).
+- **URL antiga continua abrindo**: tabela `author_slug_aliases`; a API resolve e o site redireciona. Os dados ricos de Agostinho e de Anselmo estavam sob o slug antigo e foram movidos para o canônico.
+- **Ensaiado com dados reais de produção**: 107 → 90 autores, 291 obras intactas, 0 obras sem autor, 17 aliases, idempotente, anos completados (Agostinho 354/430 etc.).
 

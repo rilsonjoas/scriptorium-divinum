@@ -6,7 +6,7 @@ BEGIN;
 
 INSERT INTO authors (slug, name, bio_summary, denomination_or_tradition)
 VALUES (
-  'sao-joao-da-cruz',
+  'joao-da-cruz',
   'São João da Cruz',
   'Doutor Místico da Igreja, sacerdote e reformador carmelita descalço (1542–1591 d.C.), um dos maiores poetas líricos da língua castelhana e expoente máximo da mística apofática ocidental.',
   ARRAY['Mística Carmelita', 'Mística Cristã', 'Poesia Sacra', 'Espiritualidade']
@@ -22,7 +22,7 @@ INSERT INTO books (
 )
 VALUES (
   'Subida do Monte Carmelo',
-  (SELECT id FROM authors WHERE slug = 'sao-joao-da-cruz'),
+  (SELECT id FROM authors WHERE slug = 'joao-da-cruz'),
   'Português',
   'A obra-prima do Doutor Místico sobre a purificação ativa dos sentidos e do espírito, a renúncia dos apetites desordenados e a subida segura pela fé até a união transformadora com Deus.',
   'subida-do-monte-carmelo-joao-da-cruz',
