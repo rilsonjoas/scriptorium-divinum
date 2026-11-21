@@ -23,17 +23,17 @@ translator: "Scriptorium Divinum (Tradução Integral em Domínio Público)"
 
 ---
 
-Capítulo I.--Endereço.
+## Capítulo I.--Endereço.
 
 Ao Imperador Tito Ælius Adrianus Antoninus Pius Augustus Cæsar, e a seu filho Veríssimo, o Filósofo, e a Lúcio, o Filósofo, filho natural de César, e filho adotivo de Pio, amante do saber, e ao sagrado Senado, com todo o Povo dos Romanos, eu, Justino, filho de Prisco e neto de Báquio, nativos de Flávia Neápolis na Palestina, apresento este endereço e petição em nome daqueles de todas as nações que são injustamente odiados e abusados desenfreadamente, sendo eu um deles. __________________________________________________________________
 
-Capítulo II.-- ​​Justiça exigida.
+## Capítulo II.-- ​​Justiça exigida.
 
 A razão orienta aqueles que são verdadeiramente piedosos e filosóficos a honrar e amar apenas o que é verdadeiro, recusando-se a seguir opiniões tradicionais, se estas forem inúteis. Pois não só a razão sã nos orienta a recusar a orientação daqueles que fizeram ou ensinaram algo errado, mas também cabe ao amante da verdade, por todos os meios, e se a morte for ameaçada, mesmo antes da sua própria vida, escolher fazer e dizer o que é certo. Vocês, então, já que são chamados de piedosos e filósofos, guardiões da justiça e amantes do aprendizado, prestem atenção e ouçam meu discurso; e se realmente o sois, isso será manifestado. Pois viemos, não para lisonjeá-los com este escrito, nem agradá-los com nosso discurso, mas para implorar que vocês julguem, após uma investigação precisa e minuciosa, não lisonjeados por preconceitos ou pelo desejo de agradar homens supersticiosos, nem induzidos por impulsos irracionais ou rumores malignos que prevalecem há muito tempo, para tomar uma decisão que provará ser contra vocês mesmos. Pois, quanto a nós, consideramos que nenhum mal nos pode ser feito, a menos que sejamos condenados como malfeitores ou seja provado que somos homens maus; e você, você pode matar, mas não nos machucar. __________________________________________________________________
 
 Literalmente, “as opiniões dos antigos”. __________________________________________________________________
 
-Capítulo III.--Reivindicação de investigação judicial.
+## Capítulo III.--Reivindicação de investigação judicial.
 
 Mas, para que ninguém pense que esta é uma declaração irracional e imprudente, exigimos que as acusações contra os cristãos sejam investigadas e que, se forem fundamentadas, sejam punidos como merecem; [ou melhor, de fato, nós mesmos os puniremos.] Mas se ninguém pode nos condenar de nada, a verdadeira razão proíbe vocês, por causa de um boato perverso, de cometerem erros contra homens inocentes, e na verdade, vocês mesmos, que acham adequado dirigir os assuntos, não por julgamento, mas por paixão. E toda pessoa sensata declarará que este é o único ajuste justo e equitativo, a saber, que os súditos prestem um relato normal de sua própria vida e doutrina; e que, por outro lado, os governantes deveriam dar a sua decisão em obediência, não à violência e à tirania, mas à piedade e à filosofia. Pois assim tanto os governantes como os governados colheriam benefícios. Pois até mesmo um dos antigos disse em algum lugar: "A menos que tanto os governantes quanto os governados filosofem, é impossível tornar os estados abençoados."  É nossa tarefa, portanto, proporcionar a todos uma oportunidade de inspecionar nossa vida e nossos ensinamentos, para que, por causa daqueles que estão acostumados a ignorar nossos assuntos, não incorramos na pena que lhes é devida por cegueira mental;  e é da sua conta, quando nos ouvir, ser considerados, como exige a razão, bons juízes. Pois se, quando tiverdes aprendido a verdade, não fizerdes o que é justo, estareis diante de Deus sem desculpa. __________________________________________________________________
 
@@ -43,7 +43,7 @@ Plat. Rep., v.
 
 Isto é, se os cristãos recusassem ou negligenciassem a divulgação das suas verdadeiras opiniões e práticas, partilhariam a culpa daqueles que assim mantiveram nas trevas. __________________________________________________________________
 
-Capítulo IV.-- Cristãos condenados injustamente por seu mero nome.
+## Capítulo IV.-- Cristãos condenados injustamente por seu mero nome.
 
 Pela mera aplicação de um nome, nada é decidido, seja bom ou mau, fora das ações implícitas no nome; e de fato, pelo menos até onde se pode julgar pelo nome de que somos acusados, somos pessoas excelentes. Mas como não pensamos que seja justo implorar para sermos absolvidos por causa do nome, se formos condenados como malfeitores, então, por outro lado, se for descoberto que não cometemos nenhum delito, seja no que diz respeito a nos nomearmos assim, ou na nossa conduta como cidadãos, é sua parte muito seriamente proteger-se contra incorrer em punição justa, punindo injustamente aqueles que não são condenados. Pois de um nome nem elogio nem punição poderiam surgir razoavelmente, a menos que algo excelente ou vil em ação fosse provado. E aqueles entre vocês que são acusados ​​vocês não punem antes de serem condenados; mas no nosso caso você recebe o nome como prova contra nós, e isto embora, no que diz respeito ao nome, você deva antes punir nossos acusadores. Pois somos acusados ​​de sermos cristãos, e odiar o que é excelente (Chrestiano) é injusto.
 
@@ -53,7 +53,7 @@ E aqueles que agora adotam tal instrução não são restringidos por você; mas
 
 Justino aproveita aqui a semelhança sonora das palavras Christos (Cristo) e chrestos (bom, digno, excelente). O jogo com essas palavras é mantido ao longo deste parágrafo e nem sempre pode ser representado ao leitor inglês. [Mas Justino estava apenas citando e usando, ad hominem, o erro popular do qual Suetônio (Vida de Cláudio, cap. 25) nos dá um exemplo, "impulsore Chresto". Será observado novamente em outros desses Padres.] __________________________________________________________________
 
-Capítulo V.--Cristãos acusados ​​de ateísmo.
+## Capítulo V.--Cristãos acusados ​​de ateísmo.
 
 Por que, então, deveria ser isso? No nosso caso, que nos comprometemos a não praticar nenhuma maldade, nem a manter essas opiniões ateístas, vocês não examinam as acusações feitas contra nós; mas, cedendo à paixão irracional e à instigação de demônios malignos, você nos pune sem consideração ou julgamento. Pois a verdade será falada; desde a antiguidade, esses demônios malignos, realizando aparições de si mesmos, tanto contaminavam mulheres quanto meninos corrompidos, e mostravam visões tão terríveis aos homens, que aqueles que não usavam sua razão para julgar as ações que eram cometidas, ficavam aterrorizados; e sendo levados pelo medo, e não sabendo que estes eram demônios, eles os chamaram de deuses, e deram a cada um o nome que cada um dos demônios escolheu para si. E quando Sócrates se esforçou, pela verdadeira razão e exame, para trazer essas coisas à luz e libertar os homens dos demônios, então os próprios demônios, por meio de homens que se regozijavam na iniqüidade, planejaram sua morte, como ateu e como pessoa profana, sob a acusação de que "ele estava introduzindo novas divindades"; e no nosso caso eles exibem uma atividade semelhante.
 
@@ -65,13 +65,13 @@ A palavra daimon significa em grego um deus, mas os cristãos usaram a palavra p
 
 A palavra daimon significa em grego um deus, mas os cristãos usaram a palavra para significar um espírito maligno. Justin usa a mesma palavra aqui para deus e demônio. A conexão que Justino e outros escritores cristãos supunham existir entre os espíritos malignos e os deuses dos pagãos ficará evidente nas próprias declarações de Justino. A palavra diabolos, diabo, não se aplica a esses demônios. Existe apenas um diabo, mas muitos demônios. __________________________________________________________________
 
-Capítulo VI.--Acusação de ateísmo refutada.
+## Capítulo VI.--Acusação de ateísmo refutada.
 
 Por isso somos chamados de ateus. E confessamos que somos ateus, no que diz respeito a deuses deste tipo, mas não no que diz respeito ao Deus mais verdadeiro, o Pai da justiça e da temperança e das outras virtudes, que é livre de toda impureza. Mas tanto Ele como o Filho (que saiu Dele e nos ensinou estas coisas, e a hoste dos outros anjos bons que o seguem e são feitos semelhantes a Ele), e o Espírito profético, nós adoramos e adoramos, conhecendo-os na razão e na verdade, e declarando sem rancor a todo aquele que deseja aprender, como nos foi ensinado. __________________________________________________________________
 
 Esta é a tradução literal e óbvia das palavras de Justin. Mas a partir de c. 13, 16 e 61, é evidente que ele não desejava inculcar a adoração de anjos. Somos, portanto, levados a adotar outra tradução desta passagem, mesmo que seja um tanto severa. Duas dessas traduções foram propostas: a primeira conectando “nós” e “a hoste dos outros anjos bons” como o objeto comum do verbo “ensinou”; a segunda conectando “essas coisas” com “a multidão de”, etc., e juntando essas duas no assunto ensinado. No primeiro caso, a tradução seria “ensinou essas coisas para nós e para o anfitrião”, etc .; no segundo caso, a tradução seria “nos ensinou sobre essas coisas e sobre a multidão de outros que O seguem, a saber, os anjos bons”. [Aventurei-me a inserir marcas entre parênteses no texto, recurso óbvio e simples para sugerir a intenção manifesta do autor. Nota de Grabe no local. dá outra exegese muito engenhosa, mas a mais simples é melhor.] ____________________________________________________________________
 
-Capítulo VII.-- ​​Cada cristão deve ser provado por sua própria vida.
+## Capítulo VII.-- ​​Cada cristão deve ser provado por sua própria vida.
 
 Mas alguém dirá: Alguns já foram presos e condenados como malfeitores. Pois você condena muitas e muitas vezes, depois de investigar a vida de cada um dos acusados ​​separadamente, mas não por causa daqueles de quem temos falado.  E isto nós reconhecemos, que assim como entre os gregos aqueles que ensinam teorias que lhes agradam são todos chamados pelo único nome de “Filósofo”, embora suas doutrinas sejam diversas, assim também entre os bárbaros este nome sobre o qual as acusações são acumuladas é propriedade comum daqueles que são e daqueles que parecem sábios. Pois todos são chamados de cristãos. Por isso exigimos que sejam julgados os atos de todos os que vos são acusados, para que cada um dos condenados seja punido como malfeitor, e não como cristão; e se estiver claro que alguém é inocente, ele poderá ser absolvido, visto que pelo simples fato de ser cristão ele não comete nenhum mal.  Pois não exigiremos que você puna nossos acusadores; eles estão sendo suficientemente punidos por sua atual maldade e ignorância do que é certo. __________________________________________________________________
 
@@ -81,29 +81,29 @@ Ou “como um cristão que não fez nada de errado”.
 
 Compare o Rescrito de Adrian anexado a esta desculpa. __________________________________________________________________
 
-Capítulo VIII.-- ​​Os cristãos confessam sua fé em Deus.
+## Capítulo VIII.-- ​​Os cristãos confessam sua fé em Deus.
 
 E considerai que é por vossa causa que temos dito estas coisas; pois está em nosso poder, quando somos examinados, negar que somos cristãos; mas não viveríamos contando uma mentira. Pois, impelidos pelo desejo da vida eterna e pura, buscamos a morada que está com Deus, o Pai e Criador de todos, e nos apressamos em confessar nossa fé, persuadidos e convencidos como estamos de que aqueles que provaram a Deus por suas obras que O seguiram, e amaram permanecer com Ele onde não há pecado que cause perturbação, podem obter essas coisas. Isto, então, para falar brevemente, é o que esperamos e aprendemos de Cristo e ensinamos. E Platão, da mesma maneira, costumava dizer que Radamanto e Minos puniriam os ímpios que vieram antes deles; e dizemos que a mesma coisa será feita, mas pelas mãos de Cristo, e sobre os ímpios nos mesmos corpos unidos novamente aos seus espíritos que agora sofrerão o castigo eterno; e não apenas, como disse Platão, por um período de mil anos. E se alguém disser que isso é incrível ou impossível, este nosso erro é algo que diz respeito apenas a nós mesmos, e a mais nenhuma outra pessoa, desde que você não possa nos condenar por causar qualquer dano. __________________________________________________________________
 
 Literalmente, "persuadiu a Deus". __________________________________________________________________
 
-Capítulo IX.-- Loucura de adoração de ídolos.
+## Capítulo IX.-- Loucura de adoração de ídolos.
 
 E também não honramos com muitos sacrifícios e guirlandas de flores as divindades que os homens formaram e colocaram em santuários e chamaram de deuses; visto que vemos que estes são sem alma e mortos, e não têm a forma de Deus (pois não consideramos que Deus tenha tal forma como alguns dizem que eles imitam para Sua honra), mas têm os nomes e formas daqueles demônios perversos que apareceram. Pois por que precisamos dizer a vocês, que já sabem, em que formas os artesãos, esculpindo e cortando, fundindo e martelando, moldam os materiais? E muitas vezes, a partir de vasos de desonra, simplesmente mudando a forma e criando uma imagem com o formato necessário, eles fazem o que chamam de deus; que consideramos não apenas sem sentido, mas até mesmo um insulto a Deus, que, tendo glória e forma inefáveis, assim atribui Seu nome a coisas que são corruptíveis e requerem serviço constante. E que os artífices destes são ambos intemperantes e, para não entrar em detalhes, são praticados em todos os vícios, você sabe muito bem; até mesmo as próprias meninas que trabalham com eles, eles corrompem. Que paixão! que se diga que homens dissolutos moldam e fazem deuses para sua adoração, e que você deve nomear tais homens como guardiões dos templos onde eles estão consagrados; não reconhecendo que é ilegal até mesmo pensar ou dizer que os homens são os guardiões dos deuses. __________________________________________________________________
 
 [Isa. xliv. 9-20; Jer. x. 3.] __________________________________________________________________
 
-Capítulo X.--Como Deus deve ser servido.
+## Capítulo X.--Como Deus deve ser servido.
 
 Mas recebemos por tradição que Deus não precisa das ofertas materiais que os homens podem dar, visto, de fato, que Ele mesmo é o provedor de todas as coisas. E fomos ensinados, e estamos convencidos, e acreditamos, que Ele aceita apenas aqueles que imitam as excelências que residem Nele, a temperança, a justiça, a filantropia e todas as virtudes que são peculiares a um Deus que não é chamado por nenhum nome próprio. E fomos ensinados que Ele no princípio, por Sua bondade, por causa do homem, criou todas as coisas a partir da matéria informe; e se os homens pelas suas obras se mostram dignos deste Seu desígnio, eles são considerados dignos, e assim recebemos - de reinar em companhia dele, sendo libertos da corrupção e do sofrimento. Pois assim como no princípio Ele nos criou quando ainda não existiamos, também consideramos que, da mesma maneira, aqueles que escolhem o que é agradável a Ele são, por sua escolha, considerados dignos de incorrupção e de comunhão com Ele. Pois o surgimento a princípio não estava em nosso próprio poder; e para que possamos seguir as coisas que lhe agradam, escolhendo-as por meio das faculdades racionais de que Ele mesmo nos dotou, Ele ao mesmo tempo nos convence e nos conduz à fé.
 
 E pensamos que é vantajoso para todos os homens que eles não sejam impedidos de aprender essas coisas, mas sejam até instados a isso. Pela restrição que as leis humanas não poderiam efetuar, a Palavra, na medida em que Ele é divino, teria efetuado, se os demônios iníquos, não tivessem tomado como aliado a concupiscência da maldade que está em cada homem, e que atrai de várias maneiras a todos os tipos de vício, não tivessem espalhado muitas acusações falsas e profanas, nenhuma das quais se aplica a nós. __________________________________________________________________
 
-Capítulo XI.--O que os cristãos do reino procuram.
+## Capítulo XI.--O que os cristãos do reino procuram.
 
 E quando você ouve que procuramos um reino, você supõe, sem fazer qualquer investigação, que falamos de um reino humano; ao passo que falamos daquilo que está com Deus, como resulta também da confissão da sua fé feita por aqueles que são acusados ​​​​de serem cristãos, embora saibam que a morte é o castigo concedido a quem o confessa. Pois, se buscássemos um reino humano, também negaríamos o nosso Cristo, para não sermos mortos; e devemos nos esforçar para escapar da detecção, para que possamos obter o que esperamos. Mas como os nossos pensamentos não estão fixos no presente, não nos preocupamos quando os homens nos isolam; visto que também a morte é uma dívida que deve ser paga em qualquer caso. __________________________________________________________________
 
-Capítulo XII.-- ​​Os cristãos vivem como se estivessem sob os olhos de Deus.
+## Capítulo XII.-- ​​Os cristãos vivem como se estivessem sob os olhos de Deus.
 
 E mais do que todos os outros homens, somos seus ajudantes e aliados na promoção da paz, visto que mantemos esta visão, que é igualmente impossível para os ímpios, os avarentos, os conspiradores e os virtuosos escaparem da atenção de Deus, e que cada homem vai para o castigo eterno ou para a salvação de acordo com o valor de suas ações. Pois se todos os homens soubessem disso, ninguém escolheria a maldade, nem por um pouco, sabendo que vai para o castigo eterno do fogo; mas iria por todos os meios restringir-se e adornar-se com virtude, para que pudesse obter as boas dádivas de Deus e escapar dos castigos. Para aqueles que, por causa das leis e punições que você impõe, se esforçam para escapar da detecção quando ofendem (e eles também ofendem, sob a impressão de que é perfeitamente possível escapar da sua detecção, já que vocês são apenas homens), essas pessoas, se aprendessem e estivessem convencidas de que nada, seja realmente feito ou apenas intencional, pode escapar do conhecimento de Deus, viveriam decentemente por todos os meios por causa das penalidades ameaçadas, como até vocês mesmos admitirão.
 
@@ -111,7 +111,7 @@ Mas você parece temer que todos os homens se tornem justos e você não tenha m
 
 Daí ficamos mais seguros de todas as coisas que Ele nos ensinou, visto que tudo o que Ele predisse de antemão que deveria acontecer, é visto de fato acontecendo; e esta é a obra de Deus, contar algo antes que aconteça, e como foi predito, mostrar que está acontecendo. Seria possível fazer uma pausa aqui e não acrescentar mais nada, considerando que exigimos o que é justo e verdadeiro; mas porque sabemos que não é fácil mudar repentinamente uma mente possuída pela ignorância, pretendemos acrescentar algumas coisas, para persuadir aqueles que amam a verdade, sabendo que não é impossível pôr em fuga a ignorância apresentando a verdade. __________________________________________________________________
 
-Capítulo XIII.-- ​​Os cristãos servem a Deus racionalmente.
+## Capítulo XIII.-- ​​Os cristãos servem a Deus racionalmente.
 
 Que homem sensato, então, não reconhecerá que não somos ateus, adorando como adoramos o Criador deste universo e declarando, como fomos ensinados, que Ele não precisa de correntes de sangue, libações e incenso; a quem louvamos ao máximo de nosso poder pelo exercício da oração e da ação de graças por todas as coisas com as quais somos supridos, pois fomos ensinados que a única honra que é digna Dele é não consumir pelo fogo o que Ele trouxe à existência para nosso sustento, mas usá-lo para nós mesmos e para aqueles que precisam, e com gratidão a Ele para oferecer graças por meio de invocações e hinos por nossa criação, e por todos os meios de saúde, e pelas várias qualidades dos diferentes tipos de coisas, e pelas mudanças do estações; e apresentar diante Dele petições para que existamos novamente em incorrupção através da fé Nele. Nosso professor destas coisas é Jesus Cristo, que também nasceu para este propósito, e foi crucificado sob Pôncio Pilatos, procurador da Judéia, nos tempos de Tibério César; e que O adoramos razoavelmente, tendo aprendido que Ele é o próprio Filho do Deus verdadeiro, e mantendo-O em segundo lugar, e o Espírito profético em terceiro, provaremos.
 
@@ -119,7 +119,7 @@ Pois eles proclamam que nossa loucura consiste nisto: que damos a um homem cruci
 
 pompas kai humnous. "Grabe, e parece correto, entende que pompas são orações solenes. ... Ele também observa que os humnoi eram salmos de Davi, ou alguns daqueles salmos e canções feitas pelos cristãos primitivos, que são mencionados em Eusébio, H. E., v. 28." --Trollope. __________________________________________________________________
 
-Capítulo XIV.-- Os demônios deturpam a doutrina cristã.
+## Capítulo XIV.-- Os demônios deturpam a doutrina cristã.
 
 Pois nós avisamos você para estar em guarda, para que os demônios que temos acusado não o enganem e o desviem completamente da leitura e compreensão do que dizemos. Pois eles se esforçam para manter vocês como seus escravos e servos; e às vezes por meio de aparições em sonhos, e às vezes por imposições mágicas, eles subjugam todos os que não fazem nenhum esforço forte de oposição para sua própria salvação. E assim também nós, desde a nossa persuasão pela Palavra, permanecemos distantes deles (ou seja, dos demônios), e seguimos o único Deus não gerado através de Seu Filho - nós que anteriormente nos deliciávamos com a fornicação, mas agora abraçamos apenas a castidade; nós, que antigamente usávamos artes mágicas, nos dedicamos ao Deus bom e não gerado; nós, que valorizamos acima de tudo a aquisição de riquezas e posses, agora reunimos o que temos em um estoque comum e comunicamos a todos os necessitados; nós que nos odiamos e destruímos uns aos outros, e por causa de suas maneiras diferentes, não viveríamos com homens de uma tribo diferente, agora, desde a vinda de Cristo, vivemos familiarmente com eles, e oramos por nossos inimigos, e nos esforçamos para persuadir aqueles que nos odeiam injustamente a viver em conformidade com os bons preceitos de Cristo, a fim de que possam se tornar participantes conosco da mesma alegre esperança de uma recompensa de Deus, o governante de todos.
 
@@ -129,7 +129,7 @@ Literalmente, “não usaria a mesma lareira ou fogo”.
 
 Veja o final do cap. xii. __________________________________________________________________
 
-Capítulo XV.--O que o próprio Cristo ensinou.
+## Capítulo XV.--O que o próprio Cristo ensinou.
 
 Com relação à castidade, Ele expressou sentimentos como estes: “Todo aquele que olhar para uma mulher para cobiçá-la, já em seu coração cometeu adultério com ela, diante de Deus”. E: “Se o teu olho direito te escandalizar, corta-o; porque é melhor para ti entrar no reino dos céus com um olho, do que, tendo os dois, ser lançado no fogo eterno”. E: “Todo aquele que se casar com uma mulher divorciada de outro marido, comete adultério”.  E: “Há alguns que foram feitos eunucos dos homens, e alguns que nasceram eunucos, e alguns que se tornaram eunucos por causa do reino dos céus; mas nem todos podem aceitar esta palavra”.  De modo que todos os que, pela lei humana, são casados ​​duas vezes, são pecadores aos olhos de nosso Mestre, e aqueles que olham para uma mulher para cobiçá-la. Pois não só quem comete adultério é rejeitado por Ele, mas também quem deseja cometer adultério: visto que não só as nossas obras, mas também os nossos pensamentos estão abertos diante de Deus. E muitos, tanto homens como mulheres, que foram discípulos de Cristo desde a infância, permanecem puros aos sessenta ou setenta anos; e me orgulho de poder produzir tais coisas em todas as raças humanas.
 
@@ -155,7 +155,7 @@ Lucas vi. 36; Matt. v. 45, Mat. vi. 25, 26, 33, 21.
 
 Matt. vi. 1. __________________________________________________________________
 
-Capítulo XVI.--Sobre paciência e palavrões.
+## Capítulo XVI.--Sobre paciência e palavrões.
 
 E a respeito de sermos pacientes com as injúrias, e prontos para servir a todos, e livres de raiva, isto é o que Ele disse: “Aquele que te bater em uma face, oferece também a outra; e aquele que tirar tua capa ou casaco, não o proíba. Pai que está nos céus."  Pois não devemos nos esforçar; nem Ele desejou que fôssemos imitadores de homens ímpios, mas Ele nos exortou a liderar todos os homens, com paciência e gentileza, da vergonha e do amor ao mal. E isso, de fato, é provado no caso de muitos que antes eram da sua maneira de pensar, mas mudaram sua disposição violenta e tirânica, sendo vencidos pela constância que testemunharam na vida de seus vizinhos, ou pela extraordinária tolerância que observaram em seus companheiros de viagem quando defraudados, ou pela honestidade daqueles com quem fizeram negócios.
 
@@ -175,7 +175,7 @@ Matt. xix. 6, 17.
 
 Matt. vii. 21, etc.; Lucas XIII. 26; Matt. xiii. 42, Mat. vii. 15, 16, 19. ____________________________________________________________________
 
-Capítulo XVII.--Cristo ensinou a obediência civil.
+## Capítulo XVII.--Cristo ensinou a obediência civil.
 
 E em todos os lugares nós, mais prontamente do que todos os homens, nos esforçamos para pagar àqueles designados por você os impostos ordinários e extraordinários, como fomos ensinados por Ele; pois naquela época alguns vieram até Ele e perguntaram se alguém deveria prestar homenagem a César; e Ele respondeu: "Diga-me, de quem é a imagem da moeda?" E eles disseram: “De César”. E novamente Ele lhes respondeu: “Dai pois a César o que é de César, e a Deus o que é de Deus”.  Portanto, somente a Deus prestamos adoração, mas em outras coisas nós o servimos com alegria, reconhecendo-o como reis e governantes de homens, e orando para que com seu poder real você também possua um bom julgamento. Mas se você não prestar atenção às nossas orações e explicações francas, não sofreremos nenhuma perda, pois acreditamos (ou melhor, estamos persuadidos) de que todo homem sofrerá punição no fogo eterno de acordo com o mérito de sua ação, e prestará contas de acordo com o poder que recebeu de Deus, como Cristo insinuou quando disse: “A quem Deus deu mais, dele será exigido mais”. __________________________________________________________________
 
@@ -185,7 +185,7 @@ Matt. XXII. 17, 19, 20, 21.
 
 Lucas XII. 48. __________________________________________________________________
 
-Capítulo XVIII.-- ​​Prova da imortalidade e da ressurreição.
+## Capítulo XVIII.-- ​​Prova da imortalidade e da ressurreição.
 
 Pois reflita sobre o fim de cada um dos reis anteriores, como eles morreram a morte comum a todos, que, se resultasse na insensibilidade, seria uma dádiva de Deus para todos os ímpios. Mas uma vez que a sensação permanece para todos os que já viveram, e o castigo eterno está previsto (isto é, para os ímpios), veja que você negligencia não ser convencido e manter como sua crença que essas coisas são verdadeiras. Pois deixe até mesmo a necromancia, e as adivinhações que você pratica por crianças imaculadas, e a evocação de almas humanas que partiram, e aqueles que são chamados entre os magos, Remetentes de Sonhos e Espíritos-Assistentes (Familiares), e tudo o que é feito por aqueles que são hábeis em tais assuntos - deixe-os persuadi-lo de que mesmo após a morte as almas estão em um estado de sensação; e aqueles que são capturados e lançados pelos espíritos dos mortos, a quem todos chamam de demoníacos ou loucos;  e o que você considera como oráculos, tanto de Amphilochus, Dodana, Pytho, e tantos outros que existem; e as opiniões de seus autores, Empédocles e Pitágoras, Platão e Sócrates, e o poço de Homero, e a descida de Ulisses para inspecionar essas coisas, e tudo o que foi proferido de maneira semelhante. O favor que você concede a estes, conceda também a nós, que não menos, mas com mais firmeza do que eles, acreditamos em Deus; visto que esperamos receber novamente nossos próprios corpos, ainda que estejam mortos e lançados na terra, pois afirmamos que para Deus nada é impossível. __________________________________________________________________
 
@@ -201,7 +201,7 @@ Justino não é o único autor nos tempos antigos ou recentes que classificou de
 
 Veja a Odisséia, livro xi. linha 25, onde Ulisses é descrito cavando um buraco ou trincheira com sua espada e derramando libações, a fim de reunir ao seu redor as almas dos mortos. __________________________________________________________________
 
-Capítulo XIX.--A ressurreição possível.
+## Capítulo XIX.--A ressurreição possível.
 
 E para qualquer pessoa pensativa, algo pareceria mais incrível do que se não estivéssemos no corpo, e alguém dissesse que era possível que, a partir de uma pequena gota de sementes humanas, ossos, tendões e carne fossem formados em uma forma como a que vemos? Pois deixemos que isto agora seja dito hipoteticamente: se vocês mesmos não fossem como são agora, e nascidos de tais pais [e causas], e alguém lhes mostrasse a semente humana e a imagem de um homem, e dissesse com confiança que a partir de tal substância tal ser poderia ser produzido, você acreditaria antes de ver a produção real? Ninguém ousará negar [que tal afirmação superaria a crença]. Da mesma forma, então, você agora está incrédulo porque nunca viu um homem morto ressuscitar. Mas como a princípio você não teria acreditado que fosse possível que tais pessoas pudessem ser produzidas a partir de uma pequena gota, e ainda assim você as vê assim produzidas, então também julgue que não é impossível que os corpos dos homens, depois de terem sido dissolvidos, e como sementes dispersas na terra, devam, no tempo determinado por Deus, ressuscitar e revestir-se de incorrupção.
 
@@ -211,13 +211,13 @@ Matt. xix. 26.
 
 Matt. x. 28. __________________________________________________________________
 
-Capítulo XX.-- Analogias pagãs com a doutrina cristã.
+## Capítulo XX.-- Analogias pagãs com a doutrina cristã.
 
 E a Sibila e Histaspes disseram que deveria haver uma dissolução por parte de Deus das coisas corruptíveis. E os filósofos chamados estóicos ensinam que até o próprio Deus será transformado em fogo, e dizem que o mundo será formado de novo por esta revolução; mas entendemos que Deus, o Criador de todas as coisas, é superior às coisas que devem ser mudadas. Se, portanto, em alguns pontos ensinamos as mesmas coisas que os poetas e filósofos que você honra, e em outros pontos somos mais completos e mais divinos em nosso ensino, e se só nós fornecemos provas do que afirmamos, por que somos injustamente odiados mais do que todos os outros? Pois embora digamos que todas as coisas foram produzidas e organizadas num mundo por Deus, pareceremos proferir a doutrina de Platão; e enquanto dizemos que tudo será queimado, pareceremos proferir a doutrina dos estóicos: e enquanto afirmamos que as almas dos ímpios, sendo dotadas de sensação mesmo após a morte, são punidas, e que aqueles dos bons sendo libertos do castigo passam uma existência abençoada, pareceremos dizer as mesmas coisas que os poetas e filósofos; e embora afirmemos que os homens não devem adorar o trabalho de suas mãos, dizemos exatamente as coisas que foram ditas pelo poeta cômico Menandro e outros escritores semelhantes, pois declararam que o trabalhador é maior que o trabalho. __________________________________________________________________
 
 Os Oráculos Sibilinos são agora geralmente considerados como fragmentos pagãos em grande parte interpolados por homens inescrupulosos durante os primeiros tempos da Igreja. Para um relato interessante desses documentos um tanto desconcertantes, veja Lectures on the Ecclesiastical History of the First Three Centuries, Lect. XVII. As profecias de Histaspes também eram comumente consideradas genuínas pelos primeiros cristãos. [Ver (sobre as Sibilas e Justin M.) Casaubon, Exercitationes, pp. 65 e 80. Esta obra é um tesauro muito erudito e diversificado, na forma de restrições no Card. Barônio. Genebra, 1663.] __________________________________________________________________
 
-Capítulo XXI.--Analogias com a história de Cristo.
+## Capítulo XXI.--Analogias com a história de Cristo.
 
 E quando dizemos também que o Verbo, que é o primeiro nascimento de Deus, foi produzido sem união sexual, e que Ele, Jesus Cristo, nosso Mestre, foi crucificado e morreu, e ressuscitou, e ascendeu ao céu, não propomos nada diferente do que você acredita em relação àqueles a quem você considera filhos de Júpiter. Pois vocês sabem quantos filhos seus estimados escritores atribuíram a Júpiter: Mercúrio, a palavra intérprete e professor de todos; Esculápio, que, embora fosse um grande médico, foi atingido por um raio e ascendeu ao céu; e Baco também, depois de ter sido dilacerado membro por membro; e Hércules, quando se entregou às chamas para escapar de suas labutas; e os filhos de Leda e Dióscuros; e Perseu, filho de Danae; e Belerofonte, que, embora descendente de mortais, subiu ao céu no cavalo Pégaso. Pois o que direi de Ariadne e daqueles que, como ela, foram declarados colocados entre as estrelas? E o que dizer dos imperadores que morrem entre vocês, a quem vocês consideram dignos de deificação, e em cujo nome vocês produzem alguém que jura ter visto o César em chamas subir ao céu da pira funerária?
 
@@ -227,11 +227,11 @@ ou seja, primogênito.
 
 diaphoran kai protropen. A ironia aqui é tão óbvia que torna desnecessária a leitura proposta (diaphthoran kai paratropen, corrupção e depravação). Otto prefere a leitura adotada acima. Trollope, por outro lado, inclina-se para a última leitura, principalmente porque as primeiras expressões são incomuns. Veja sua nota muito sensata no local. __________________________________________________________________
 
-Capítulo XXII.--Analogias com a filiação de Cristo.
+## Capítulo XXII.--Analogias com a filiação de Cristo.
 
 Além disso, o Filho de Deus chamado Jesus, mesmo que seja apenas um homem de geração comum, ainda assim, por causa de Sua sabedoria, é digno de ser chamado de Filho de Deus; pois todos os escritores chamam Deus de Pai dos homens e dos deuses. E se afirmarmos que a Palavra de Deus nasceu de Deus de uma maneira peculiar, diferente da geração comum, que isso, como dito acima, não seja algo extraordinário para vocês, que dizem que Mercúrio é a palavra angélica de Deus. Mas se alguém objetar que Ele foi crucificado, também nisso Ele está no mesmo nível daqueles seus reputados filhos de Júpiter, que sofreram como agora enumeramos. Pois está registrado que seus sofrimentos na morte não foram todos iguais, mas diversos; de modo que nem pela peculiaridade de Seus sofrimentos Ele parece inferior a eles; mas, pelo contrário, como prometemos na parte anterior deste discurso, agora provaremos que Ele é superior - ou melhor, já provamos que Ele é assim - pois o superior é revelado por Suas ações. E se afirmarmos que Ele nasceu de uma virgem, aceite isso em comum com o que você aceita de Perseu. E ao dizermos que Ele curou os coxos, os paralíticos e os cegos de nascença, parecemos dizer o que é muito semelhante aos feitos que se diz terem sido cometidos por Esculápio. __________________________________________________________________
 
-Capítulo XXIII.--O argumento.
+## Capítulo XXIII.--O argumento.
 
 E que isso agora possa se tornar evidente para você – (primeiro) que tudo o que afirmamos em conformidade com o que nos foi ensinado por Cristo e pelos profetas que O precederam é o único verdadeiro e mais antigo do que todos os escritores que existiram; que afirmamos ser reconhecidos, não porque dizemos as mesmas coisas que estes escritores disseram, mas porque dizemos coisas verdadeiras: e (em segundo lugar) que Jesus Cristo é o único Filho adequado que foi gerado por Deus, sendo Sua Palavra e primogênito, e poder; e, tornando-se homem de acordo com Sua vontade, Ele nos ensinou estas coisas para a conversão e restauração da raça humana: e (terceiro) que antes de Ele se tornar um homem entre os homens, alguns, influenciados pelos demônios acima mencionados, relataram de antemão, através da instrumentalidade dos poetas, aquelas circunstâncias como tendo realmente acontecido, que, tendo inventado ficticiamente, eles narraram, da mesma maneira que fizeram com que fossem fabricados os relatórios escandalosos contra nós de ações infames e ímpias, das quais não há testemunha nem prova - apresentaremos a seguinte prova. __________________________________________________________________
 
@@ -239,19 +239,19 @@ Os editores beneditinos, Maranus, Otto e Trollope, observam aqui que Justino nes
 
 Seguimos aqui a leitura e a tradução de Trollope. [Mas veja a leitura de Langus e a nota de Grabe, na edição já citada, 1. 46.] ____________________________________________________________________
 
-Capítulo XXIV.-- Variedades de adoração pagã.
+## Capítulo XXIV.-- Variedades de adoração pagã.
 
 Em primeiro lugar [fornecemos provas], porque, embora digamos coisas semelhantes ao que dizem os gregos, somos odiados apenas por causa do nome de Cristo, e embora não façamos nada de errado, somos condenados à morte como pecadores; outros homens em outros lugares adorando árvores e rios, e ratos e gatos e crocodilos, e muitos animais irracionais. Nem os mesmos animais são estimados por todos; mas em um lugar um é adorado, e outro em outro, de modo que todos são profanos no julgamento uns dos outros, por não adorarem os mesmos objetos. E esta é a única acusação que você traz contra nós, que não reverenciamos os mesmos deuses que você, nem oferecemos aos mortos libações e o sabor da gordura, e coroas para suas estátuas e sacrifícios. Pois você sabe muito bem que os mesmos animais estão com alguns deuses estimados, com outros animais selvagens e com outros vítimas de sacrifícios. __________________________________________________________________
 
 em gráficos stephanous. A única conjectura que parece provável é a do editor beneditino aqui seguido. [Grabe depois que Salmasius lê en rhaphais e cita Martial, Sutilis aptetur rosa crinibus. Traduza, "guirlandas de retalhos."] __________________________________________________________________
 
-Capítulo XXV.--Falsos Deuses abandonados pelos cristãos.
+## Capítulo XXV.--Falsos Deuses abandonados pelos cristãos.
 
 E, em segundo lugar, porque nós - que, dentre todas as raças de homens, costumávamos adorar Baco, filho de Semele, e Apolo, filho de Latona (que em seus amores pelos homens fizeram coisas que é vergonhoso até mesmo mencionar), e Prosérpina e Vênus (que estavam enlouquecidas de amor por Adônis, e cujos mistérios você também celebra), ou Esculápio, ou um ou outro daqueles que são chamados de deuses - agora, através de Jesus Cristo, aprendemos a despreze-os, embora sejamos ameaçados de morte por isso, e nos tenhamos dedicado ao Deus não gerado e impossível; de quem estamos persuadidos de que nunca foi instigado pela luxúria de Antíope, ou de outras mulheres, ou de Ganimedes, nem foi resgatado por aquele gigante de cem mãos cuja ajuda foi obtida através de Tétis, nem estava ansioso por esse motivo que seu filho Aquiles destruísse muitos dos gregos por causa de sua concubina Briseida. Temos pena daqueles que acreditam nessas coisas, e sabemos que aqueles que as inventaram são demônios. __________________________________________________________________
 
 isto é, por conta da assistência obtida por Thetis para ele, e em troca dela. __________________________________________________________________
 
-Capítulo XXVI.--Mágicos em que os cristãos não confiam.
+## Capítulo XXVI.--Mágicos em que os cristãos não confiam.
 
 E, em terceiro lugar, porque depois da ascensão de Cristo ao céu, os demônios apresentaram certos homens que diziam que eles próprios eram deuses; e eles não apenas não foram perseguidos por você, mas até considerados dignos de honras. Havia um samaritano, Simão, natural da aldeia chamada Gitto, que no reinado de Cláudio César, e na cidade real de Roma, realizou poderosos atos de magia, em virtude da arte dos demônios que nele operavam. Ele era considerado um deus, e como deus foi homenageado por vocês com uma estátua, estátua essa que foi erguida no rio Tibre, entre as duas pontes, e trazia esta inscrição, na língua de Roma: - "Simoni Deo Sancto", "A Simão, o Deus santo". E quase todos os samaritanos, e alguns até de outras nações, o adoram e o reconhecem como o primeiro deus; e uma mulher, Helena, que andava com ele naquela época e já havia sido prostituta, dizem ser a primeira ideia gerada por ele. E sabemos que um homem, Menandro, também samaritano, da cidade de Capparetæa, discípulo de Simão e inspirado por demônios, enganou muitos enquanto estava em Antioquia com sua arte mágica.
 
@@ -265,7 +265,7 @@ Veja cap. vii.
 
 Que eram comumente acusados ​​contra os cristãos. __________________________________________________________________
 
-Capítulo XXVII.--Culpa de expor crianças.
+## Capítulo XXVII.--Culpa de expor crianças.
 
 Mas quanto a nós, fomos ensinados que expor crianças recém-nascidas faz parte dos homens maus; e isso nos foi ensinado, para que não ferissemos ninguém e para que não pecássemos contra Deus, primeiro, porque vemos que quase todos os expostos (não apenas as meninas, mas também os homens) são levados à prostituição. E como se diz que os antigos criavam rebanhos de bois, ou cabras, ou ovelhas, ou cavalos pastando, agora vemos vocês criando filhos apenas para esse uso vergonhoso; e por causa dessa poluição, uma multidão de mulheres e hermafroditas, e aqueles que cometem iniqüidades inomináveis, são encontrados em todas as nações. E você recebe o aluguel destes, e impostos e taxas deles, a quem você deveria exterminar do seu reino. E qualquer um que use tais pessoas, além das relações sexuais ímpias, infames e impuras, pode possivelmente estar tendo relações sexuais com seu próprio filho, ou parente, ou irmão. E há alguns que prostituem até os próprios filhos e esposas, e alguns são abertamente mutilados para fins de sodomia; e eles referem esses mistérios à mãe dos deuses, e junto com cada um daqueles que vocês consideram deuses, está pintada uma serpente, um grande símbolo e mistério.
 
@@ -275,7 +275,7 @@ Thirlby observa que a serpente era o símbolo especialmente da eternidade, do po
 
 [Observe como ele retalia a calúnia (cap. xxvi.) do "arranque da lâmpada".] ____________________________________________________________________
 
-Capítulo XXVIII.--O cuidado de Deus pelos homens.
+## Capítulo XXVIII.--O cuidado de Deus pelos homens.
 
 Pois entre nós o príncipe dos espíritos malignos é chamado de serpente, e de Satanás, e de diabo, como você pode aprender examinando nossos escritos. E que ele seria enviado ao fogo com seu exército e os homens que o seguem, e seria punido por um período interminável, Cristo predisse. Pois a razão pela qual Deus demorou a fazer isso é o Seu respeito pela raça humana. Pois Ele sabe de antemão que alguns serão salvos pelo arrependimento, alguns até que talvez ainda não tenham nascido.  No princípio Ele fez a raça humana com o poder do pensamento e de escolher a verdade e fazer o que é certo, para que todos os homens sejam indesculpáveis ​​diante de Deus; pois eles nasceram racionais e contemplativos. E se alguém não acredita que Deus se importa com essas coisas, ou insinuará que Deus não existe, ou afirmará que, embora exista, Ele se deleita no vício, ou existe como uma pedra, e que nem a virtude nem o vício são alguma coisa, mas apenas na opinião dos homens essas coisas são consideradas boas ou más. E esta é a maior profanação e maldade. __________________________________________________________________
 
@@ -283,17 +283,17 @@ Literalmente: "Pois Ele prevê alguns que serão salvos pelo arrependimento, e a
 
 Aquelas coisas que dizem respeito à salvação do homem; assim, Trollope e os outros intérpretes, exceto Otto, que lê touton masculino e entende isso dos homens de quem se falou pela primeira vez. [Ver Platão (De Legibus, opp. Ix. p. 98, Bipont., 1786), e a valiosa edição do Livro X. do Professor Tayler Lewis (p. 52. etc.). Nova York, 1845.] ____________________________________________________________________
 
-Capítulo XXIX.--Continência dos cristãos.
+## Capítulo XXIX.--Continência dos cristãos.
 
 E novamente [temos medo de expor as crianças], para que algumas delas não sejam apanhadas, mas morram, e nos tornemos assassinos. Mas quer nos casemos, é apenas para podermos criar filhos; ou se recusamos o casamento, vivemos de forma continental. E para que você possa entender que a relação sexual promíscua não é um de nossos mistérios, um de nossos, há pouco tempo, apresentou uma petição ao governador Félix em Alexandria, desejando que fosse dada permissão a um cirurgião para torná-lo eunuco. Pois os cirurgiões disseram que estavam proibidos de fazer isso sem a autorização do governador. E quando Félix se recusou terminantemente a assinar tal permissão, o jovem permaneceu solteiro e ficou satisfeito com a aprovação de sua própria consciência e com a aprovação daqueles que pensavam como ele. E não é fora de lugar, pensamos, mencionar aqui Antínous, que estava vivo recentemente, e a quem todos foram levados, por medo, a adorar como um deus, embora soubessem quem ele era e qual era sua origem. __________________________________________________________________
 
 Para um relato suficiente da história infame aqui mencionada e da dor extravagante de Adriano e do servilismo do povo, consulte o Dicionário de Biografia de Smith: "Antinous". [Observe: "todos foram rápidos, por medo", etc. Assim, podemos medir a intrepidez desafiadora desse sarcasmo pungente dirigido aos "filósofos", com cujos títulos sonoros esta desculpa começa.] ____________________________________________________________________
 
-Capítulo XXX. - Cristo não era um mágico?
+## Capítulo XXX. - Cristo não era um mágico?
 
 Mas para que ninguém nos deparasse com a pergunta: O que deveria impedir que Aquele a quem chamamos de Cristo, sendo um homem nascido dos homens, realizasse o que chamamos de Suas obras poderosas pela arte mágica, e por isso parecesse ser o Filho de Deus? ofereceremos agora provas, não confiando em meras afirmações, mas sendo necessariamente persuadidos por aqueles que profetizaram [sobre Ele] antes que essas coisas acontecessem, pois com nossos próprios olhos vemos coisas que aconteceram e estão acontecendo exatamente como foram preditas; e acreditamos que isso parecerá até para você a evidência mais forte e verdadeira. __________________________________________________________________
 
-Capítulo XXXI.-- Dos profetas hebreus.
+## Capítulo XXXI.-- Dos profetas hebreus.
 
 Havia, então, entre os judeus certos homens que eram profetas de Deus, por meio dos quais o Espírito profético anunciava de antemão as coisas que deveriam acontecer, antes que acontecessem. E suas profecias, conforme foram faladas e quando foram proferidas, os reis que por acaso reinavam entre os judeus nas diversas épocas foram cuidadosamente preservadas em sua posse, quando foram organizadas em livros pelos próprios profetas em sua própria língua hebraica. E quando Ptolomeu, rei do Egito, formou uma biblioteca e se esforçou para coletar os escritos de todos os homens, ele também ouviu falar desses profetas e enviou a Herodes, que naquela época era rei dos judeus, solicitando que os livros dos profetas lhe fossem enviados. E o rei Herodes realmente os enviou, escritos, como estavam, na mencionada língua hebraica. E quando seu conteúdo foi considerado ininteligível para os egípcios, ele novamente enviou e solicitou que homens fossem contratados para traduzi-los para a língua grega. E quando isso foi feito, os livros permaneceram com os egípcios, onde estão até agora.
 
@@ -303,7 +303,7 @@ E Ele foi predito antes de aparecer, primeiro 5.000 anos antes, e novamente 3.00
 
 Alguns atribuem esse erro na cronologia a Justino, outros aos seus transcritores: foi Eleazar, o sumo sacerdote, a quem Ptolomeu se dirigiu. __________________________________________________________________
 
-Capítulo XXXII.--Cristo predito por Moisés.
+## Capítulo XXXII.--Cristo predito por Moisés.
 
 Moisés então, que foi o primeiro dos profetas, falou com estas mesmas palavras: “O cetro não se arredará de Judá, nem o legislador dentre seus pés, até que venha aquele a quem está reservado; e Ele será o desejo das nações, amarrando o seu jumentinho à videira, lavando o seu manto no sangue da uva”.  Cabe a você fazer uma investigação precisa e verificar até que época os judeus tiveram um legislador e rei próprio. Até o tempo de Jesus Cristo, que nos ensinou e interpretou as profecias que ainda não eram compreendidas, [eles tinham um legislador] como foi predito pelo santo e divino Espírito de profecia através de Moisés, “que um governante não deixaria os judeus até que viesse aquele para quem o reino estava reservado” (pois Judá foi o antepassado dos judeus, de quem também eles têm o nome de judeus); e depois que Ele (ou seja, Cristo) apareceu, você começou a governar os judeus e ganhou posse de todo o seu território. E a profecia: “Ele será a expectativa das nações”, significava que haveria algumas de todas as nações que deveriam esperar que Ele voltasse.
 
@@ -319,7 +319,7 @@ Grabe leria aqui, não esperma, mas pneuma, o espírito; mas o beneditino, Otto 
 
 Isa. xii. 1. __________________________________________________________________
 
-Capítulo XXXIII.-- ​​Maneira do nascimento de Cristo prevista.
+## Capítulo XXXIII.-- ​​Maneira do nascimento de Cristo prevista.
 
 E ouça novamente como Isaías predisse em palavras expressas que Ele nasceria de uma virgem; pois ele falou assim: “Eis que uma virgem conceberá e dará à luz um filho, e dirão pelo seu nome: Deus conosco”. "Porque coisas que eram incríveis e pareciam impossíveis para os homens, essas Deus predisse pelo Espírito de profecia como prestes a acontecer, para que, quando acontecessem, não houvesse incredulidade, mas fé, por causa de sua predição. Mas para que alguns, não entendendo a profecia agora citada, nos acusem exatamente das coisas que temos acusado dos poetas que dizem que Júpiter entrou nas mulheres através da luxúria, vamos tentar explicar as palavras. Isto, então, “Eis que uma virgem conceberá”, significa que uma virgem deve conceber sem relação sexual. Pois se ela tivesse tido relações sexuais com qualquer pessoa, ela não seria mais virgem; mas o poder de Deus, tendo descido sobre a virgem, cobriu-a com a sua sombra e fez com que ela concebesse ainda virgem. E o anjo de Deus que foi enviado à mesma virgem naquele tempo trouxe-lhe boas novas, dizendo: “Eis que conceberás o Espírito Santo, e darás à luz um Filho, e Ele será chamado Filho do Altíssimo, e chamarás o Seu nome de Jesus; porque Ele salvará o Seu povo dos seus pecados”, - como ensinaram aqueles que registraram tudo o que diz respeito ao nosso Salvador Jesus Cristo, em quem acreditámos, visto que também por Isaías, a quem agora aduzimos, o Espírito de profecia declarou que Ele deveria nascer como sugerimos antes.
 
@@ -331,13 +331,13 @@ Lucas eu. 32; Matt. eu. 21.
 
 theophorountai, lit. são sustentados por um deus – uma palavra usada para aqueles que deveriam estar totalmente sob a influência de uma divindade. __________________________________________________________________
 
-Capítulo XXXIV.-- Predito o lugar do nascimento de Cristo.
+## Capítulo XXXIV.-- Predito o lugar do nascimento de Cristo.
 
 E ouça em que parte da terra Ele nasceria, como outro profeta, Miquéias, predisse. Ele falou assim: “E tu, Belém, terra de Judá, não és a menor entre os príncipes de Judá; porque de ti sairá um Governador que apascentará o Meu povo”.  Ora, existe uma aldeia na terra dos judeus, a trinta e cinco estádios de Jerusalém, onde nasceu Jesus Cristo, como também podes verificar pelos registos dos impostos feitos sob Cirenius, o teu primeiro procurador na Judéia. __________________________________________________________________
 
 Microfone. 2. __________________________________________________________________
 
-Capítulo XXXV.--Outras profecias cumpridas.
+## Capítulo XXXV.--Outras profecias cumpridas.
 
 E como Cristo, depois que Ele nasceu, escaparia da atenção de outros homens até que Ele crescesse até a condição de homem, o que também aconteceu, ouça o que foi predito a respeito disso. Existem as seguintes previsões: - "Um menino nos nasceu, e um jovem nos foi dado, e o governo estará sobre Seus ombros";  o que é significativo do poder da cruz, pois a ela, quando foi crucificado, Ele aplicou Seus ombros, como será mais claramente evidenciado no discurso que se segue. E novamente o mesmo profeta Isaías, inspirado pelo Espírito profético, disse: “Estendi as minhas mãos a um povo desobediente e contraditório, àqueles que andam por um caminho que não é bom.  E novamente em outras palavras, através de outro profeta, Ele diz: “Traspassaram-me as mãos e os pés, e lançaram sortes sobre a minha veste”.  E de fato Davi, o rei e profeta, que proferiu estas coisas, não sofreu nenhuma delas; mas Jesus Cristo estendeu as mãos, sendo crucificado pelos judeus que falavam contra Ele e negavam que Ele era o Cristo.
 
@@ -357,11 +357,11 @@ O leitor notará que estas não são as palavras de Sofonias, mas de Zacarias (i
 
 Zech. Ix. 9. __________________________________________________________________
 
-Capítulo XXXVI.-- Diferentes modos de profecia.
+## Capítulo XXXVI.-- Diferentes modos de profecia.
 
 Mas quando você ouve as declarações dos profetas proferidas pessoalmente, você não deve supor que elas sejam ditas pelos próprios inspirados, mas pela Palavra Divina que as move. Pois às vezes Ele declara coisas que acontecerão, à maneira de quem prediz o futuro; às vezes Ele fala como vindo da pessoa de Deus, Senhor e Pai de todos; às vezes como vindo da pessoa de Cristo; às vezes, a partir da pessoa do povo que responde ao Senhor ou a Seu Pai, assim como você pode ver até em seus próprios escritores, um homem sendo o escritor do todo, mas apresentando as pessoas que conversam. E isso os judeus que possuíam os livros dos profetas não entenderam e, portanto, não reconheceram a Cristo mesmo quando Ele veio, mas até nos odeiam, que dizemos que Ele veio, e que provamos que, como foi predito, Ele foi crucificado por eles. __________________________________________________________________
 
-Capítulo XXXVII.--Declarações do Pai.
+## Capítulo XXXVII.--Declarações do Pai.
 
 E para que isto também fique claro para vocês, foram ditas pela pessoa do Pai, através do profeta Isaías, as seguintes palavras: “O boi conhece o seu possuidor, e o jumento a manjedoura do seu dono; mas Israel não tem conhecimento, e o Meu povo não entendeu.  E novamente em outro lugar, quando o mesmo profeta fala da mesma maneira da pessoa do Pai: "Qual é a casa que vós construireis para mim? Diz o Senhor. O céu é o meu trono, e a terra é o meu escabelo."  E novamente, em outro lugar: “Minha alma odeia as vossas luas novas e os vossos sábados; e o grande dia do jejum e da cessação do trabalho não posso evitar; nem, se vós vierdes a ser vistos por Mim, eu vos ouvirei: vossas mãos estão cheias de sangue; maldade, rompe os nós apertados dos contratos violentos, cobre os desabrigados e nus, distribui o teu pão aos famintos.  Que tipo de coisas são ensinadas através dos profetas pela [pessoa de] Deus, você pode agora perceber. __________________________________________________________________
 
@@ -371,7 +371,7 @@ Isa. lxvi. 1.
 
 Isa. eu. 14, Isa. lviii. 6. __________________________________________________________________
 
-Capítulo XXXVIII.--Declarações do Filho.
+## Capítulo XXXVIII.--Declarações do Filho.
 
 E quando o Espírito de profecia fala da pessoa de Cristo, as declarações são deste tipo: “Estendi as minhas mãos a um povo desobediente e contraditório, àqueles que andam por um caminho que não é bom”.  E ainda: “Dei as costas aos flagelos, e o meu rosto às bofetadas; não desviei o meu rosto da vergonha das cuspidas; e o Senhor foi o meu ajudador; por isso não fui confundido; mas fixei o meu rosto como uma rocha firme;  E novamente, quando Ele diz: “Lançaram sortes sobre a minha veste, e traspassaram-me as mãos e os pés. E deitei-me, e dormi, e levantei-me, porque o Senhor me sustentou”.  E novamente, quando Ele diz: “Eles falavam com os lábios, meneavam a cabeça, dizendo: Liberte-se a si mesmo”. E que todas essas coisas aconteceram a Cristo pelas mãos dos judeus, você pode verificar. Pois quando Ele foi crucificado, eles esticaram os lábios e balançaram a cabeça, dizendo: “Salve-se aquele que ressuscitou os mortos”. __________________________________________________________________
 
@@ -385,7 +385,7 @@ Sal. XXII. 7.
 
 Comp. Matt. xxvii. 39. __________________________________________________________________
 
-Capítulo XXXIX.-- Predições diretas do Espírito.
+## Capítulo XXXIX.-- Predições diretas do Espírito.
 
 E quando o Espírito de profecia fala como prevendo coisas que acontecerão, Ele fala desta maneira: “Porque de Sião sairá a lei, e de Jerusalém a palavra do Senhor. E Ele julgará entre as nações, e repreenderá a muitos povos;  E que isso aconteceu, podemos convencê-lo. Porque de Jerusalém saíram para o mundo homens, doze em número, e estes analfabetos, sem capacidade de falar: mas pelo poder de Deus proclamaram a toda raça de homens que foram enviados por Cristo para ensinar a todos a palavra de Deus; e nós, que antigamente costumávamos matar uns aos outros, não apenas nos abstemos de fazer guerra contra nossos inimigos, mas também, para não mentirmos nem enganarmos nossos examinadores, morremos voluntariamente confessando a Cristo. Pois aquele ditado: “A língua jurou, mas a mente não jura”, pode ser imitado por nós neste assunto. Mas se os soldados recrutados por você, e que fizeram o juramento militar, preferem sua lealdade à sua própria vida, e aos pais, e ao país, e a todos os parentes, embora você não possa oferecer-lhes nada incorruptível, seria verdadeiramente ridículo se nós, que sinceramente ansiamos pela incorrupção, não suportássemos todas as coisas, a fim de obter o que desejamos daquele que é capaz de concedê-lo. __________________________________________________________________
 
@@ -393,7 +393,7 @@ Isa. ii. 3.
 
 Eurip., Hipp., 608. __________________________________________________________________
 
-Capítulo XL. - Predito o advento de Cristo.
+## Capítulo XL. - Predito o advento de Cristo.
 
 E ouça como foi predito a respeito daqueles que publicaram Sua doutrina e proclamaram Sua aparição, o profeta e rei acima mencionado falando assim pelo Espírito de profecia: "Dia após dia profere palavras, e noite após noite mostra conhecimento. Não há fala nem língua onde sua voz não seja ouvida. Sua voz se espalhou por toda a terra, e suas palavras até os confins do mundo. Ao sol Ele colocou Seu tabernáculo, e ele, como um noivo saindo de seu quarto, se regozijará como um gigante para seguir seu curso."  E achamos certo e relevante mencionar algumas outras declarações proféticas de Davi além destas; a partir do qual você pode aprender como o Espírito de profecia exorta os homens a viver e como Ele predisse a conspiração que foi formada contra Cristo por Herodes, o rei dos judeus, e pelos próprios judeus, e por Pilatos, que era seu governador entre eles, com seus soldados; e como homens de todas as raças deveriam acreditar nele; e como Deus O chama de Seu Filho e declarou que subjugará todos os Seus inimigos sob Ele; e como os demônios, tanto quanto podem, se esforçam para escapar do poder de Deus, o Pai e Senhor de todos, e do poder do próprio Cristo; e como Deus chama todos ao arrependimento antes que chegue o dia do julgamento.
 
@@ -405,19 +405,19 @@ Sal. xix. 2, etc. [Observe como J. se desculpa pela aparente irrelevância de al
 
 Sal. eu., Sal. ii. __________________________________________________________________
 
-Capítulo XLI.-- A crucificação prevista.
+## Capítulo XLI.-- A crucificação prevista.
 
 E novamente, em outra profecia, o Espírito de profecia, por meio do mesmo Davi, insinuou que Cristo, depois de ter sido crucificado, deveria reinar, e falou o seguinte: "Cantem ao Senhor, todos os habitantes da terra, e dia após dia declarem Sua salvação. Porque grande é o Senhor, e muito digno de louvor, para ser temido acima de todos os deuses. Pois todos os deuses das nações são ídolos de demônios; mas Deus fez os céus. Glória e louvor estão diante de Sua face, força e glória estão na habitação de Sua santidade. Dê glória ao Senhor, o Pai eterno. Receba graça, e entre em Sua presença, e adore em Suas cortes sagradas. __________________________________________________________________
 
 Sal. xcvi. 1, etc. Esta última cláusula, que não existe em nossas cópias, nem da LXX, nem do hebraico, Justino acusou os judeus de apagar. Consulte Discar. Trif., c. 73. [A respeito das dezoito alterações judaicas, ver Pearson on the Creed, art. 4. pág. 335. Ed. Londres, 1824.] __________________________________________________________________
 
-Capítulo XLII.-- ​​Profecia usando o pretérito.
+## Capítulo XLII.-- ​​Profecia usando o pretérito.
 
 Mas quando o Espírito de profecia fala de coisas que estão prestes a acontecer como se já tivessem acontecido – como pode ser observado até mesmo nas passagens já citadas por mim – que esta circunstância não pode oferecer desculpa aos leitores [para interpretá-las mal], tornaremos isso também bastante claro. As coisas que Ele absolutamente sabe que acontecerão, Ele prediz como se já tivessem acontecido. E que as declarações devem ser assim recebidas, você perceberá, se der atenção a elas. As palavras citadas acima, Davi pronunciou 1.500 anos antes de Cristo se tornar homem e ser crucificado; e nenhum dos que viveram antes dele, nem ainda de seus contemporâneos, proporcionou alegria aos gentios ao ser crucificado. Mas nosso Jesus Cristo, estando crucificado e morto, ressuscitou e, tendo subido ao céu, reinou; e por aquelas coisas que foram publicadas em Seu nome entre todas as nações pelos apóstolos, há alegria proporcionada àqueles que esperam a imortalidade prometida por Ele. __________________________________________________________________
 
 Não se pode saber um erro cronológico, seja do copista ou do próprio Justino. __________________________________________________________________
 
-Capítulo XLIII.--Responsabilidade afirmada.
+## Capítulo XLIII.--Responsabilidade afirmada.
 
 Mas para que alguns não suponham, pelo que foi dito por nós, que dizemos que tudo o que acontece, acontece por uma necessidade fatal, porque é predito como conhecido de antemão, isso também nós explicamos. Aprendemos com os profetas, e consideramos verdade, que punições, castigos e boas recompensas são prestados de acordo com o mérito das ações de cada homem. Pois se não for assim, mas todas as coisas acontecem pelo destino, nada está em nosso próprio poder. Pois se estiver fadado que este homem, por exemplo, seja bom, e este outro mau, nem o primeiro é meritório nem o último deve ser culpado. E, novamente, a menos que a raça humana tenha o poder de evitar o mal e escolher o bem por livre escolha, ela não será responsável pelas suas ações, sejam elas de que tipo forem. Mas que é por livre escolha que ambos andam retamente e tropeçam, assim demonstramos. Vemos o mesmo homem fazendo uma transição para coisas opostas. Ora, se estivesse predestinado que ele fosse bom ou mau, ele nunca poderia ter sido capaz de ambos os opostos, nem de tantas transições.
 
@@ -425,7 +425,7 @@ Mas nem mesmo alguns seriam bons e outros maus, visto que assim fazemos do desti
 
 Ou “mas foram feitos assim”. As palavras são alla touto genomanos e o significado de Justin é suficientemente claro. __________________________________________________________________
 
-Capítulo XLIV.--Não anulado pela profecia.
+## Capítulo XLIV.--Não anulado pela profecia.
 
 E o Espírito Santo da profecia nos ensinou isso, dizendo-nos por meio de Moisés que Deus falou assim ao primeiro homem criado: “Eis que diante da tua face estão o bem e o mal: escolhe o bem”.  E novamente, pelo outro profeta Isaías, que a seguinte declaração foi feita como se fosse de Deus, o Pai e Senhor de todos: “Lava-vos, purificai-vos; afastai os males de vossas almas; estejais dispostos e obedecei-me, comereis o bem desta terra; mas se não me obedecerdes, a espada vos devorará; porque a boca do Senhor o disse.  E essa expressão: “A espada te devorará”, não significa que o desobediente será morto pela espada, mas a espada de Deus é fogo, do qual aqueles que escolhem fazer o mal se tornam o combustível. Por isso Ele diz: “A espada te devorará, porque a boca do Senhor o disse”. E se Ele tivesse falado sobre uma espada que corta e imediatamente despedaça, Ele não teria dito, devorará.
 
@@ -441,7 +441,7 @@ Platão, Rep. [Nesta passagem notável consulte Biog. Nota acima. Ver, também, 
 
 [Sobre Orphica e Sibyllina, ver Bull, Works, vol. vi. pp. 291-298.] __________________________________________________________________
 
-Capítulo XLV.-- A sessão de Cristo no céu foi predita.
+## Capítulo XLV.-- A sessão de Cristo no céu foi predita.
 
 E que Deus, o Pai de todos, traria Cristo ao céu depois de tê-lo ressuscitado dentre os mortos, e o manteria lá até que Ele subjugasse Seus inimigos, os demônios, e até que o número daqueles que são conhecidos por Ele como bons e virtuosos seja completo, por causa dos quais Ele ainda adiou a consumação - ouça o que foi dito pelo profeta Davi. Estas são as suas palavras: “O Senhor disse ao meu Senhor: Assenta-te à minha direita, até que eu ponha os teus inimigos por escabelo dos teus pés.  O que ele diz: “Ele te enviará a vara de poder de Jerusalém”, é preditivo da poderosa palavra que Seus apóstolos, saindo de Jerusalém, pregaram por toda parte; e embora a morte seja decretada contra aqueles que ensinam ou confessam o nome de Cristo, em todos os lugares nós o abraçamos e ensinamos. E se você também ler estas palavras com um espírito hostil, você não poderá fazer mais, como eu disse antes, do que nos matar; o que de fato não nos faz mal, mas a você e a todos os que nos odeiam injustamente e não se arrependem, traz o castigo eterno pelo fogo. __________________________________________________________________
 
@@ -451,7 +451,7 @@ Ou “antes da estrela da manhã”.
 
 Sal. cx. 1, etc. __________________________________________________________________
 
-Capítulo XLVI.--O Verbo no mundo antes de Cristo.
+## Capítulo XLVI.--O Verbo no mundo antes de Cristo.
 
 Mas para que alguns, sem razão e pela perversão do que ensinamos, sustentem que dizemos que Cristo nasceu cento e cinquenta anos atrás, sob Cirênio, e posteriormente, no tempo de Pôncio Pilatos, ensinou o que dizemos que Ele ensinou; e clamasse contra nós como se todos os homens que nasceram antes dele fossem irresponsáveis ​​- vamos antecipar e resolver a dificuldade. Fomos ensinados que Cristo é o primogênito de Deus, e declaramos acima que Ele é a Palavra da qual toda raça humana foi participante; e aqueles que viveram razoavelmente são cristãos, embora tenham sido considerados ateus; como, entre os gregos, Sócrates e Heráclito, e homens como eles; e entre os bárbaros, Abraão, e Ananias, e Azarias, e Misael, e Elias, e muitos outros cujas ações e nomes agora nos recusamos a contar, porque sabemos que seria tedioso. De modo que mesmo aqueles que viveram antes de Cristo, e viviam sem razão, eram maus e hostis a Cristo, e mataram aqueles que viviam razoavelmente.
 
@@ -459,7 +459,7 @@ Mas quem, pelo poder da Palavra, de acordo com a vontade de Deus Pai e Senhor de
 
 meta logou, “com razão” ou “a Palavra”. [Esta passagem notável sobre a salvabilidade e responsabilidade dos pagãos é digna de nota. Veja, em São Mateus. xxv. 32, Pedaços de Crítica do excêntrico mas atencioso Ed. Rei, pág. 341. Londres, 1788]. __________________________________________________________________
 
-Capítulo XLVII.-- ​​Desolação da Judéia predita.
+## Capítulo XLVII.-- ​​Desolação da Judéia predita.
 
 Que a terra dos judeus, então, seria devastada, ouça o que foi dito pelo Espírito de profecia. E as palavras foram ditas como se viessem da pessoa do povo que se perguntava o que havia acontecido. São estes: "Sião é um deserto, Jerusalém uma desolação. A casa do nosso santuário tornou-se uma maldição, e a glória que nossos pais abençoaram foi queimada com fogo, e todas as suas coisas gloriosas foram devastadas: e Tu te absténs destas coisas, e mantiveste a Tua paz, e nos humilhaste muito."  E estais convencidos de que Jerusalém foi devastada, como foi predito. E a respeito de sua desolação, e de que ninguém deveria ser autorizado a habitá-la, houve a seguinte profecia de Isaías: "Sua terra está desolada, seus inimigos a consumirão diante deles, e nenhum deles habitará nela." E que é guardado por você para que ninguém habite nele, e que a morte é decretada contra um judeu preso ao entrar nele, você sabe muito bem. __________________________________________________________________
 
@@ -469,7 +469,7 @@ Isa. eu. 7.
 
 [Ad hominem, referindo-se ao cruel decreto de Adriano, que o filosófico Antonino não anulou.] ____________________________________________________________________
 
-Capítulo XLVIII.--A obra e a morte de Cristo preditas.
+## Capítulo XLVIII.--A obra e a morte de Cristo preditas.
 
 E que foi predito que nosso Cristo curaria todas as doenças e ressuscitaria os mortos, ouça o que foi dito. Existem estas palavras: “Na Sua vinda, os coxos saltarão como um cervo, e a língua do gago falará claramente; os cegos verão, e os leprosos serão purificados; e os mortos ressuscitarão e andarão”.  E que Ele fez essas coisas, você pode aprender nos Atos de Pôncio Pilatos. E como foi predito pelo Espírito de profecia que Ele e aqueles que nEle esperavam seriam mortos, ouça o que foi dito por Isaías. Estas são as palavras: “Eis que agora o justo perece, e ninguém leva isso a sério; e os justos são levados embora, e ninguém pensa. __________________________________________________________________
 
@@ -477,7 +477,7 @@ Isa. xxxv. 6.
 
 Isa. lvii. 1. __________________________________________________________________
 
-Capítulo XLIX.-- Sua rejeição pelos judeus foi predita.
+## Capítulo XLIX.-- Sua rejeição pelos judeus foi predita.
 
 E novamente, como foi dito pelo mesmo Isaías, que as nações gentias que não O procuravam deveriam adorá-Lo, mas os judeus que sempre O esperaram não deveriam reconhecê-Lo quando Ele viesse. E as palavras são ditas como se viessem da pessoa de Cristo; e eles são estes: "Fui manifestado aos que não perguntaram por mim; fui encontrado pelos que não me buscavam: eu disse: Eis-me aqui, a uma nação que não invocava o meu nome. Estendi as minhas mãos a um povo desobediente e contraditório, àqueles que andaram por um caminho que não é bom, mas seguem os seus próprios pecados; um povo que me provoca à ira na minha cara."  Pois os judeus, tendo as profecias e estando sempre na expectativa da vinda de Cristo, não o reconheceram; e não só isso, mas até O tratou vergonhosamente. Mas os gentios, que nunca tinham ouvido nada sobre Cristo, até que os apóstolos partiram de Jerusalém e pregaram a respeito Dele, e lhes deram as profecias, ficaram cheios de alegria e fé, e abandonaram seus ídolos, e dedicaram-se ao Deus Ingênito através de Cristo. E que era de antemão que essas coisas infames deveriam ser proferidas contra aqueles que confessavam a Cristo, e que aqueles que O caluniavam, e diziam que era bom preservar os costumes antigos, deveriam ser infelizes, ouça o que foi brevemente dito por Isaías; é isto: “Ai daqueles que chamam o doce de amargo e o amargo de doce”. __________________________________________________________________
 
@@ -485,7 +485,7 @@ Isa. lxv. 1-3.
 
 Isa. 20. __________________________________________________________________
 
-Capítulo L. - Sua humilhação prevista.
+## Capítulo L. - Sua humilhação prevista.
 
 Mas que, tendo se tornado homem por nossa causa, Ele suportou sofrer e ser desonrado, e que Ele voltará com glória, ouça as profecias que se referem a isso; eles são estes: "Porque entregaram Sua alma à morte, e Ele foi contado com os transgressores, Ele levou o pecado de muitos e intercederá pelos transgressores. Pois eis que Meu Servo agirá com prudência e será exaltado e grandemente exaltado. Como muitos ficaram surpresos com Ti, tão desfigurada será Tua forma diante dos homens, e tão escondida deles Tua glória; assim muitas nações se maravilharão, e os reis fecharão suas bocas para Ele. Pois aqueles a quem não foi dito a respeito Dele, e aqueles que não ouviram, entenderão. Ó Senhor, quem acreditou em nosso relato e a quem o braço do Senhor foi revelado diante dele como uma raiz em uma terra seca?
 
@@ -495,7 +495,7 @@ __________________________________________________________________
 
 Isa. lii. 13-15, Is. liii. 1-8. __________________________________________________________________
 
-Capítulo LI.-- A majestade de Cristo.
+## Capítulo LI.-- A majestade de Cristo.
 
 E para que o Espírito de profecia pudesse significar para nós que Aquele que sofre essas coisas tem uma origem inefável e governa Seus inimigos, Ele falou assim: “A sua geração, quem o declarará? pecado, a tua alma verá a sua descendência prolongada em dias. E ao Senhor se agradará libertar a sua alma da tristeza, mostrar-lhe a luz e formá-lo com conhecimento, para justificar o justo que serve ricamente a muitos. Ouça também como Ele ascenderia ao céu de acordo com a profecia. Foi assim dito: “Levantai as portas do céu; abri-vos, para que entre o Rei da glória. Quem é este Rei da glória? O Senhor, forte e poderoso”.  E como também Ele deveria voltar do céu com glória, ouça o que foi falado em referência a isso pelo profeta Jeremias.  Suas palavras são: “Eis que, como Filho do homem, vem nas nuvens do céu, e os seus anjos com ele”. __________________________________________________________________
 
@@ -507,7 +507,7 @@ Esta profecia não ocorre em Jeremias, mas em Dan. vii. 13.
 
 Dan. vii. 13. __________________________________________________________________
 
-Capítulo LII.--Certo cumprimento da profecia.
+## Capítulo LII.--Certo cumprimento da profecia.
 
 Visto que, então, provamos que todas as coisas que já aconteceram foram preditas pelos profetas antes de acontecerem, devemos necessariamente acreditar também que aquelas coisas que são da mesma maneira preditas, mas que ainda estão para acontecer, certamente acontecerão. Pois assim como as coisas que já aconteceram aconteceram quando foram preditas, e mesmo sendo desconhecidas, assim acontecerão as coisas que permanecem, mesmo que sejam desconhecidas e desacreditadas, ainda assim acontecerão. Pois os profetas proclamaram dois adventos Seus: aquele que já passou, quando Ele veio como Homem desonrado e sofredor; mas a segunda, quando, de acordo com a profecia, Ele virá do céu com glória, acompanhado por Seu exército angelical, quando também ressuscitará os corpos de todos os homens que viveram e vestirá os dignos com imortalidade, e enviará os ímpios, dotados de sensibilidade eterna, ao fogo eterno com os demônios ímpios. E que estas coisas também foram preditas e ainda estão para acontecer, nós provaremos.
 
@@ -521,7 +521,7 @@ Isa. lxvi. 24.
 
 Zech. xii. 3-14; Isa. lxiii. 17, Isa. lxiv. 11. __________________________________________________________________
 
-Capítulo LIII.--Resumo das profecias.
+## Capítulo LIII.--Resumo das profecias.
 
 Embora pudéssemos apresentar muitas outras profecias, deixamos de considerá-las suficientes para a persuasão daqueles que têm ouvidos para ouvir e compreender; e considerando também que essas pessoas são capazes de ver que não fazemos meras afirmações sem sermos capazes de apresentar provas, como aquelas fábulas que são contadas sobre os chamados filhos de Júpiter. Pois com que razão deveríamos acreditar em um homem crucificado que Ele é o primogênito do Deus não gerado, e Ele mesmo julgará toda a raça humana, a menos que tivéssemos encontrado testemunhos sobre Ele publicados antes de Ele vir e nascer como homem, e a menos que víssemos que as coisas aconteceram de acordo - a devastação da terra dos judeus, e homens de todas as raças persuadidos por Seu ensino através dos apóstolos, e rejeitando seus velhos hábitos, nos quais, sendo enganados, eles tiveram sua conversa; sim, vendo a nós mesmos também e sabendo que os cristãos dentre os gentios são mais numerosos e mais verdadeiros do que aqueles dentre os judeus e samaritanos?
 
@@ -535,7 +535,7 @@ Isa. eu. 9.
 
 As seguintes palavras são encontradas, não em Isaías, mas em Jer. Ix. 26. __________________________________________________________________
 
-Capítulo LIV.--Origem da mitologia pagã.
+## Capítulo LIV.--Origem da mitologia pagã.
 
 Mas aqueles que transmitem os mitos que os poetas criaram não apresentam nenhuma prova aos jovens que os aprendem; e passamos a demonstrar que foram proferidas pela influência dos demônios iníquos, para enganar e desencaminhar a raça humana. Por terem ouvido ser proclamado pelos profetas que o Cristo estava para vir, e que os ímpios entre os homens seriam punidos pelo fogo, eles propuseram que muitos fossem chamados filhos de Júpiter, sob a impressão de que seriam capazes de produzir nos homens a idéia de que as coisas que foram ditas a respeito de Cristo eram meras histórias maravilhosas, como as coisas que foram ditas pelos poetas. E estas coisas foram ditas tanto entre os gregos como entre todas as nações onde eles [os demônios] ouviram os profetas predizendo que Cristo seria especialmente crido; mas que, ao ouvirem o que foi dito pelos profetas, eles não entenderam com precisão, mas imitaram o que foi dito de nosso Cristo, como homens que estão errados, deixaremos claro. O profeta Moisés, então, era, como já dissemos, mais velho que todos os escritores; e por ele, como também dissemos antes, foi assim predito: “Não faltará príncipe de Judá, nem legislador dentre seus pés, até que venha aquele a quem está reservado; e Ele será o desejo dos gentios, amarrando o seu jumentinho à videira, lavando o seu manto no sangue da uva”.  Os demônios, portanto, quando ouviram essas palavras proféticas, disseram que Baco era filho de Júpiter, e revelaram que ele era o descobridor da videira, e eles contam o vinho [ou o asno] entre seus mistérios; e eles ensinaram que, tendo sido despedaçado, ele ascendeu ao céu.
 
@@ -549,7 +549,7 @@ Na Sra. a leitura é oinon (vinho); mas como o argumento de Justin parece exigir
 
 Sal. xix. 5. __________________________________________________________________
 
-Capítulo LV.--Símbolos da cruz.
+## Capítulo LV.--Símbolos da cruz.
 
 Mas em nenhum caso, nem mesmo em nenhum dos chamados filhos de Júpiter, eles imitaram o crucificado; pois não foi compreendido por eles, todas as coisas ditas foram colocadas simbolicamente. E isto, como o profeta predisse, é o maior símbolo do Seu poder e papel; como também é provado pelas coisas que estão sob nossa observação. Pois considere todas as coisas do mundo, se sem esta forma poderiam ser administradas ou ter alguma comunidade. Pois o mar não é atravessado, a menos que aquele troféu chamado vela permaneça seguro no navio; e a terra não é arada sem ela: os escavadores e os mecânicos não fazem o seu trabalho, exceto com ferramentas que tenham esta forma. E a forma humana difere daquela dos animais irracionais em nada mais do que por ser ereta e ter as mãos estendidas, e ter no rosto que se estende desde a testa o que é chamado de nariz, através do qual há respiração para a criatura viva; e isso não mostra outra forma senão a da cruz. E assim foi dito pelo profeta: “O sopro diante de nossa face é o Senhor Cristo”.  E o poder desta forma é demonstrado pelos seus próprios símbolos nos chamados "vexilla" [estandartes] e troféus, com os quais todos os seus bens estatais são feitos, usando-os como a insígnia do seu poder e governo, mesmo que você o faça involuntariamente.
 
@@ -559,27 +559,27 @@ De Lam. 4. 20 (setembro).
 
 [Os orientais deleitam-se com tais refinamentos, mas o “escândalo da cruz” levou os primeiros cristãos a replicar assim contra os pagãos; e o Lábaro pode ter sido fruto dessa mesma sugestão.] __________________________________________________________________
 
-Capítulo LVI.-- Os demônios ainda enganam os homens.
+## Capítulo LVI.-- Os demônios ainda enganam os homens.
 
 Mas os espíritos malignos não se contentaram em dizer, antes do aparecimento de Cristo, que nasceram dele aqueles que se dizia serem filhos de Júpiter; mas depois que Ele apareceu e nasceu entre os homens, e quando eles aprenderam como Ele havia sido predito pelos profetas, e souberam que Ele deveria ser acreditado e esperado por todas as nações, eles novamente, como foi dito acima, apresentaram outros homens, os samaritanos Simão e Menandro, que fizeram muitas obras poderosas por magia, e enganaram muitos, e ainda os mantêm enganados. Pois mesmo entre vocês, como dissemos antes, Simão estava na cidade real de Roma no reinado de Cláudio César, e surpreendeu tanto o sagrado senado e o povo dos romanos, que ele foi considerado um deus, e honrado, como os outros a quem vocês honram como deuses, com uma estátua. Portanto, oramos para que o sagrado Senado e seu povo possam, junto com vocês, ser árbitros deste nosso memorial, a fim de que, se alguém ficar enredado nas doutrinas desse homem, ele possa aprender a verdade e, assim, ser capaz de escapar do erro; e quanto à estátua, por favor, destrua-a. __________________________________________________________________
 
 [Ver cap. xxvi. acima e observe p. 187, abaixo.] __________________________________________________________________
 
-Capítulo LVII.--E causar perseguição.
+## Capítulo LVII.--E causar perseguição.
 
 Nem podem os demônios persuadir os homens de que não haverá conflagração para punir os ímpios; pois eles foram incapazes de efetuar que Cristo fosse escondido depois que Ele viesse. Mas só isso eles podem fazer: que aqueles que vivem irracionalmente, e foram educados licenciosamente em costumes perversos, e são preconceituosos em suas próprias opiniões, nos matem e odiem; a quem não apenas não odiamos, mas, como está provado, temos pena e nos esforçamos para levar ao arrependimento. Pois não tememos a morte, pois é reconhecido que certamente morreremos; e não há nada de novo, mas todas as coisas continuam iguais nesta administração das coisas; e se a saciedade tomar conta daqueles que desfrutam mesmo que por um ano dessas coisas, eles devem dar ouvidos às nossas doutrinas, para que possam viver eternamente livres tanto do sofrimento como da necessidade. Mas se eles acreditam que não há nada após a morte, mas declaram que aqueles que morrem passam à insensibilidade, então eles se tornam nossos benfeitores quando nos libertam dos sofrimentos e das necessidades desta vida, e provam ser maus, desumanos e preconceituosos. Pois eles nos matam sem intenção de nos libertar, mas nos isolam para que sejamos privados da vida e do prazer. __________________________________________________________________
 
-Capítulo LVIII.-- ​​E suscite hereges.
+## Capítulo LVIII.-- ​​E suscite hereges.
 
 E, como dissemos antes, os demônios apresentam Marcião do Ponto, que ainda hoje está ensinando os homens a negar que Deus é o criador de todas as coisas no céu e na terra, e que o Cristo predito pelos profetas é Seu Filho, e prega outro deus além do Criador de tudo, e da mesma forma outro filho. E muitos acreditaram neste homem, como se só ele conhecesse a verdade, e riram de nós, embora não tenham provas do que dizem, mas são levados irracionalmente como cordeiros por um lobo, e se tornam presas de doutrinas ateístas e de demônios. Pois aqueles que são chamados de demônios não tentam outra coisa senão seduzir os homens de Deus que os criou, e de Cristo, Seu primogênito; e aqueles que são incapazes de se elevar acima da terra, eles rebitaram, e agora rebitam, às coisas terrenas e às obras de suas próprias mãos; mas aqueles que se dedicam à contemplação das coisas divinas, revidam secretamente; e se eles não têm uma sobriedade sábia e uma vida pura e sem paixão, eles os levam à impiedade. __________________________________________________________________
 
-Capítulo LIX.--A obrigação de Platão para com Moisés.
+## Capítulo LIX.--A obrigação de Platão para com Moisés.
 
 E para que você possa aprender que foi de nossos professores - queremos dizer o relato feito através dos profetas - que Platão tomou emprestada sua afirmação de que Deus, tendo alterado a matéria que era informe, fez o mundo, ouvir as próprias palavras ditas através de Moisés, que, como mostrado acima, foi o primeiro profeta, e de maior antiguidade do que os escritores gregos; e através de quem o Espírito de profecia, significando como e de que materiais Deus inicialmente formou o mundo, falou assim: "No princípio Deus criou o céu e a terra. E a terra era invisível e sem mobília, e havia trevas sobre a face do abismo; e o Espírito de Deus se movia sobre as águas. E disse Deus: Haja luz; e assim foi." De modo que tanto Platão como aqueles que concordam com ele, e nós mesmos, aprendemos, e vocês também podem ser convencidos, que pela palavra de Deus o mundo inteiro foi feito da substância mencionada anteriormente por Moisés. E aquilo que os poetas chamam de Érebo, sabemos que foi falado anteriormente por Moisés. __________________________________________________________________
 
 Comp. Deut. xxxii. 22. __________________________________________________________________
 
-Capítulo LX.--A doutrina da cruz de Platão.
+## Capítulo LX.--A doutrina da cruz de Platão.
 
 E a discussão fisiológica a respeito do Filho de Deus no Timeu de Platão, onde ele diz: “Ele o colocou transversalmente no universo”, ele tomou emprestada da mesma maneira de Moisés; pois nos escritos de Moisés está relatado como naquele tempo, quando os israelitas saíram do Egito e estavam no deserto, encontraram feras venenosas, tanto víboras como víboras, e toda espécie de serpente, que mataram o povo; e que Moisés, pela inspiração e influência de Deus, pegou o bronze e o transformou na figura de uma cruz, e o colocou no santo tabernáculo, e disse ao povo: “Se vocês olharem para esta figura e acreditarem, serão salvos por ela”.  E quando isso foi feito, está registrado que as serpentes morreram, e é transmitido que o povo escapou da morte. Quais são as coisas que Platão leu, e não compreendendo com precisão, e não apreendendo que era a figura da cruz, mas tomando-a como uma colocação transversal, ele disse que o poder próximo ao primeiro Deus foi colocado transversalmente no universo.
 
@@ -597,7 +597,7 @@ Ta de trita peri ton tritão.
 
 Deut. xxxii. 22. __________________________________________________________________
 
-Capítulo LXI.-- Batismo cristão.
+## Capítulo LXI.-- Batismo cristão.
 
 Também relatarei a maneira pela qual nos dedicamos a Deus quando fomos renovados por meio de Cristo; para que, se omitirmos isso, pareçamos ser injustos na explicação que estamos fazendo. Todos os que estão persuadidos e acreditam que o que ensinamos e dizemos é verdade, e se comprometem a poder viver de acordo, são instruídos a orar e a suplicar a Deus com jejum, pela remissão dos seus pecados passados, nós oramos e jejuamos com eles. Então eles são trazidos por nós onde há água e são regenerados da mesma maneira como nós mesmos fomos regenerados. Pois, em nome de Deus, Pai e Senhor do universo, e de nosso Salvador Jesus Cristo, e do Espírito Santo, eles então recebem a lavagem com água. Pois Cristo também disse: “Se não nascerdes de novo, não entrareis no reino dos céus”. Agora, que é impossível para aqueles que já nasceram entrar no ventre de suas mães, é manifesto a todos. E como aqueles que pecaram e se arrependem escaparão de seus pecados, é declarado pelo profeta Isaías, como escrevi acima;  ele assim fala: “Lavai-vos, purificai-vos; afastai de vossas almas a maldade de vossas ações;
 
@@ -611,13 +611,13 @@ Rachar. xliv.
 
 Isa. eu. 16-20. __________________________________________________________________
 
-Capítulo LXII.-- ​​Sua imitação pelos demônios.
+## Capítulo LXII.-- ​​Sua imitação pelos demônios.
 
 E os demônios, de fato, tendo ouvido esta lavagem publicada pelo profeta, instigaram aqueles que entram em seus templos, e estão prestes a se aproximar deles com libações e holocaustos, também para se aspergirem; e eles também fazem com que eles se lavem completamente, ao se afastarem [do sacrifício], antes de entrarem nos santuários onde suas imagens estão colocadas. E também a ordem dada pelos sacerdotes aos que entram e adoram nos templos, de que tirem os sapatos, os demônios, sabendo o que aconteceu ao profeta Moisés acima mencionado, deram em imitação dessas coisas. Pois naquele momento, quando Moisés recebeu ordem de descer ao Egito e conduzir o povo dos israelitas que estavam lá, e enquanto ele cuidava dos rebanhos de seu tio materno na terra da Arábia, nosso Cristo conversou com ele sob a aparência de fogo de uma sarça, e disse: “Tire os sapatos, chegue-se e ouça”. E ele, depois de tirar os sapatos e se aproximar, ouviu que deveria descer ao Egito e levar para lá o povo dos israelitas; e ele recebeu grande poder de Cristo, que lhe falou na aparência de fogo, e desceu e conduziu o povo para fora, tendo feito coisas grandes e maravilhosas; que, se você deseja saber, você os aprenderá com precisão em seus escritos. __________________________________________________________________
 
 Thirlby conjectura que Justin aqui confundiu em sua mente as histórias de Moisés e Jacó. __________________________________________________________________
 
-Capítulo LXIII.--Como Deus apareceu a Moisés.
+## Capítulo LXIII.--Como Deus apareceu a Moisés.
 
 E todos os judeus até agora ensinam que o Deus sem nome falou a Moisés; de onde o Espírito de profecia, acusando-os por meio de Isaías, o profeta mencionado acima, disse: “O boi conhece o seu dono, e o jumento a manjedoura do seu dono; mas Israel não me conhece, e o meu povo não entende”.  E Jesus, o Cristo, porque os judeus não sabiam o que era o Pai e o que o Filho, da mesma maneira os acusou; e Ele mesmo disse: “Ninguém conhece o Pai, senão o Filho; nem o Filho, senão o Pai, e aqueles a quem o Filho o revela”.  Agora, a Palavra de Deus é Seu Filho, como já dissemos. E Ele é chamado Anjo e Apóstolo; pois Ele declara tudo o que devemos saber e é enviado para declarar tudo o que é revelado; como nosso próprio Senhor diz: “Quem me ouve, ouve aquele que me enviou”.  Nos escritos de Moisés também isso será manifesto; pois assim está escrito neles: “E o anjo de Deus falou a Moisés, numa chama de fogo que saía da sarça, e disse: Eu sou o que sou, o Deus de Abraão, o Deus de Isaque, o Deus de Jacó, o Deus de teus pais; desce ao Egito e faz sair o meu povo”.  E se você quiser aprender o que se segue, poderá fazê-lo a partir dos mesmos escritos; pois é impossível relacionar o todo aqui.
 
@@ -643,7 +643,7 @@ Matt. xii. 27.
 
 Ex. iii. 6. __________________________________________________________________
 
-Capítulo LXIV.-- Outras deturpações da verdade.
+## Capítulo LXIV.-- Outras deturpações da verdade.
 
 Pelo que já foi dito, você pode entender como os demônios, imitando o que foi dito por Moisés, afirmaram que Prosérpina era filha de Júpiter, e instigaram o povo a erigir uma imagem dela sob o nome de Kore [Cora, isto é, a donzela ou filha] nas cabeceiras. Pois, como escrevemos acima, Moisés disse: “No princípio Deus fez os céus e a terra. E a terra era sem forma e sem mobília; e o Espírito de Deus se movia sobre a face das águas”. Imitando, portanto, o que é dito aqui sobre o Espírito de Deus movendo-se sobre as águas, eles disseram que Prosérpina [ou Cora] era filha de Júpiter.  E da mesma maneira também fingiram astuciosamente que Minerva era filha de Júpiter, não por união sexual, mas, sabendo que Deus concebeu e fez o mundo pela Palavra, dizem que Minerva é a primeira concepção [ennoia]; o que consideramos muito absurdo, trazendo a forma da concepção em formato feminino. E da mesma maneira as ações daqueles outros que são chamados filhos de Júpiter os condenam suficientemente. __________________________________________________________________
 
@@ -651,7 +651,7 @@ Rachar. lix.
 
 E, portanto, fez com que ela presidisse as águas, como acima. __________________________________________________________________
 
-Capítulo LXV.--Administração dos sacramentos.
+## Capítulo LXV.--Administração dos sacramentos.
 
 Mas nós, depois de termos assim lavado aquele que foi convencido e concordou com o nosso ensino, trazemo-lo ao lugar onde aqueles que são chamados de irmãos estão reunidos, a fim de que possamos oferecer orações sinceras em comum por nós mesmos e pela pessoa batizada [iluminada], e por todos os outros em todos os lugares, para que possamos ser considerados dignos, agora que aprendemos a verdade, para que pelas nossas obras também sejamos considerados bons cidadãos e observadores dos mandamentos, para que possamos ser salvos com uma eternidade. salvação. Terminadas as orações, saudamo-nos com um beijo.  Leva-se então ao presidente dos irmãos pão e um copo de vinho misturado com água; e ele, tomando-os, dá louvor e glória ao Pai do universo, através do nome do Filho e do Espírito Santo, e oferece extensas graças por sermos considerados dignos de receber essas coisas de Suas mãos. E quando ele termina as orações e as ações de graças, todas as pessoas presentes expressam o seu assentimento dizendo Amém. Esta palavra Amém responde na língua hebraica a genoito [que assim seja]. E quando o presidente tiver dado graças, e todo o povo tiver manifestado o seu assentimento, aqueles que são chamados por nós diáconos dão a cada um dos presentes a participação do pão e do vinho misturado com água sobre os quais foi pronunciada a acção de graças, e aos que estão ausentes levam uma porção. __________________________________________________________________
 
@@ -659,7 +659,7 @@ O beijo da caridade, o beijo da paz, ou “a paz” (he eipene), foi ordenado pe
 
 para proestoti ton adelphon. Esta expressão pode ser traduzida com bastante legitimidade, “para aquele dos irmãos que estava presidindo”. __________________________________________________________________
 
-Capítulo LXVI.--Da Eucaristia.
+## Capítulo LXVI.--Da Eucaristia.
 
 E este alimento é chamado entre nós de Eucaristia [a Eucaristia], do qual ninguém pode participar, exceto o homem que acredita que as coisas que ensinamos são verdadeiras, e que foi lavado com a lavagem que é para a remissão dos pecados e para a regeneração, e que está vivendo como Cristo ordenou. Pois não os recebemos como pão comum e bebida comum; mas da mesma maneira que Jesus Cristo, nosso Salvador, tendo sido feito carne pela Palavra de Deus, teve carne e sangue para nossa salvação, da mesma forma fomos ensinados que o alimento que é abençoado pela oração de Sua palavra, e do qual nosso sangue e carne por transmutação são nutridos, é a carne e o sangue daquele Jesus que se fez carne.  Pois os apóstolos, nas memórias por eles compostas, que são chamadas de Evangelhos, nos transmitiram assim o que lhes foi ordenado; que Jesus pegou o pão e, depois de dar graças, disse: “Fazei isto em memória de mim, isto é o meu corpo”; e que, da mesma maneira, tendo tomado o cálice e dado graças, Ele disse: “Este é o Meu sangue”; e deu a eles sozinhos. Que os demônios perversos imitaram nos mistérios de Mitras, ordenando que a mesma coisa fosse feita. Pois, que pão e um copo de água são colocados com certos encantamentos nos ritos místicos de quem está sendo iniciado, você sabe ou pode aprender. __________________________________________________________________
 
@@ -669,7 +669,7 @@ Esta passagem é reivindicada igualmente por calvinistas, luteranos e romanistas
 
 Lucas XXII. 19. __________________________________________________________________
 
-Capítulo LXVII.-- ​​Adoração semanal dos cristãos.
+## Capítulo LXVII.-- ​​Adoração semanal dos cristãos.
 
 E depois lembramos continuamente uns aos outros dessas coisas. E os ricos entre nós ajudam os necessitados; e sempre ficamos juntos; e por todas as coisas com as quais somos supridos, bendizemos o Criador de todas as coisas por meio de Seu Filho Jesus Cristo e por meio do Espírito Santo. E no dia chamado domingo, todos os que vivem nas cidades ou no campo se reúnem num só lugar, e são lidas as memórias dos apóstolos ou os escritos dos profetas, enquanto o tempo permitir; então, quando o leitor cessa, o presidente instrui verbalmente e exorta à imitação dessas coisas boas. Então todos nos levantamos juntos e oramos e, como dissemos antes, quando nossa oração termina, pão, vinho e água são trazidos, e o presidente da mesma maneira oferece orações e ações de graças, de acordo com sua capacidade, e o povo concorda, dizendo Amém; e há uma distribuição a cada um, e uma participação daquilo que foi dado graças, e aos ausentes uma parte é enviada pelos diáconos. E aqueles que estão bem e dispostos, dão o que cada um acha adequado; e o que é arrecadado é depositado com o presidente, que socorre os órfãos e as viúvas e aqueles que, por doença ou qualquer outra causa, estão necessitados, e aqueles que estão presos e os estrangeiros que peregrinam entre nós, e em uma palavra cuida de todos os que estão necessitados.
 
@@ -681,7 +681,7 @@ mangueira dunamis auto, – uma frase sobre a qual tem havido muita controvérsi
 
 Ou, dos elementos eucarísticos. __________________________________________________________________
 
-Capítulo LXVIII.--Conclusão.
+## Capítulo LXVIII.--Conclusão.
 
 E se estas coisas te parecem razoáveis ​​e verdadeiras, honra-as; mas se parecerem absurdos, despreze-os como absurdos e não decrete a morte contra aqueles que não fizeram nada de errado, como faria contra os inimigos. Pois nós o avisamos de antemão que você não escapará do julgamento vindouro de Deus, se continuar em sua injustiça; e nós mesmos o convidaremos a fazer aquilo que agrada a Deus. E embora pela carta do maior e mais ilustre imperador Adriano, seu pai, pudéssemos exigir que você ordene que o julgamento seja dado como desejamos, ainda assim fizemos este apelo e explicação, não com base na decisão de Adriano, mas porque sabemos que o que pedimos é justo. E anexamos a cópia da epístola de Adriano, para que você saiba que estamos falando verdadeiramente sobre isso. E a seguir está a cópia: - __________________________________________________________________
 

@@ -35,7 +35,7 @@ Caberá a você, no entanto, e a todos os que porventura lerem este escrito, exa
 
 [4449] Ex ratione universis ostensionibus procedente. As palavras são muito obscuras.
 
-## Capítulo I
+## Capítulo I. Só Cristo é capaz de ensinar as coisas divinas e de nos redimir: Ele, o mesmo…
 
 Capítulo I. - Só Cristo é capaz de ensinar as coisas divinas e de nos redimir: Ele, o mesmo, encarnou-se da Virgem Maria, não apenas na aparência, mas na verdade, pela operação do Espírito Santo, para nos renovar. Restrições aos conceitos de Valentinus e Ebion.
 
@@ -67,7 +67,7 @@ E já provei que é a mesma coisa dizer que Ele apareceu apenas pela aparência 
 
 [4457] João i. 13.
 
-## Capítulo II
+## Capítulo II. Quando Cristo nos visitou em Sua graça, Ele não veio para o que não Lhe pertencia…
 
 Capítulo II. - Quando Cristo nos visitou em Sua graça, Ele não veio para o que não Lhe pertencia: também, ao derramar Seu verdadeiro sangue por nós e exibir-nos Sua verdadeira carne na Eucaristia, Ele conferiu à nossa carne a capacidade de salvação.
 
@@ -103,7 +103,7 @@ E não poderia ser o caso, talvez, como já observei, que para esse propósito D
 
 [4467] Esta é a tradução livre de Harvey da passagem, que está em grego (conforme preservado na Catena de João de Damasco): kai dia touto enescheto ho Theos ten eis ten gen hemon analusin. Em latim: Propter hoc passus est Deus fieri in nobis resolutionem. Veja o Livro III. boné. xx. 2.
 
-## Capítulo III
+## Capítulo III. O poder e a glória de Deus resplandecem na fraqueza da carne humana, pois Ele tornará…
 
 Capítulo III.-- ​​O poder e a glória de Deus resplandecem na fraqueza da carne humana, pois Ele tornará nosso corpo participante da ressurreição e da imortalidade, embora o tenha formado do pó da terra; Ele também lhe concederá o gozo da imortalidade, assim como lhe concede esta curta vida em comum com a alma.
 
@@ -131,7 +131,7 @@ Mas aquelas coisas que participam da habilidade e sabedoria de Deus também part
 
 [4470] Os antigos supunham erradamente que as artérias eram vasos aéreos, pelo facto de estes órgãos, após a morte, parecerem bastante vazios, por todo o sangue que fica estagnado nas veias quando sobrevém a morte.
 
-## Capítulo IV
+## Capítulo IV. Enganam-se aquelas pessoas que fingem outro Deus Pai além do Criador do mundo; pois ele…
 
 Capítulo IV.-- Enganam-se aquelas pessoas que fingem outro Deus Pai além do Criador do mundo; pois ele deve ter sido fraco e inútil, ou então maligno e cheio de inveja, se for incapaz ou não quiser estender a vida externa aos nossos corpos.
 
@@ -141,7 +141,7 @@ Se é o Criador quem vivifica o homem inteiro, ou é o seu Pai, falsamente chama
 
 2. Se, novamente, eles se referem a qualquer causa pela qual seu Pai não concede vida aos corpos, então essa causa deve necessariamente parecer superior ao Pai, uma vez que O impede de exercer sua benevolência; e Sua benevolência se mostrará assim fraca, por causa da causa que eles apresentam. Agora todos devem perceber que os corpos são capazes de receber vida. Pois eles vivem na medida em que Deus deseja que vivam; e sendo assim, os [hereges] não podem sustentar que [esses corpos] são totalmente incapazes de receber vida. Se, portanto, por necessidade e qualquer outra causa, aqueles [corpos] que são capazes de participar na vida não forem vivificados, seu Pai será o escravo da necessidade e dessa causa, e não, portanto, um agente livre, tendo Sua vontade sob Seu próprio controle.
 
-## Capítulo V
+## Capítulo V. A vida prolongada dos antigos, a trasladação de Elias e de Enoque em seus próprios…
 
 Capítulo V. - A vida prolongada dos antigos, a trasladação de Elias e de Enoque em seus próprios corpos, bem como a preservação de Jonas, de Sadraque, Mesaque e Abednego, em meio a extremo perigo, são demonstrações claras de que Deus pode ressuscitar nossos corpos para a vida eterna.
 
@@ -163,7 +163,7 @@ Agora, este é o Filho de Deus, como a Escritura representa o rei Nabucodonosor 
 
 [4475] Lucas xviii. 27.
 
-## Capítulo VI
+## Capítulo VI. Deus concederá a salvação a toda a natureza do homem, consistindo de corpo e alma em…
 
 Capítulo VI.-- Deus concederá a salvação a toda a natureza do homem, consistindo de corpo e alma em estreita união, desde que o Verbo a tomou sobre Ele, e adornada com os dons do Espírito Santo, de quem nossos corpos são, e são chamados, os templos.
 
@@ -193,7 +193,7 @@ E por esta razão ele disse: “Se alguém contaminar o templo de Deus, Deus o d
 
 [4482] 1 Cor. vi. 13, 14.
 
-## Capítulo VII
+## Capítulo VII. Visto que Cristo ressuscitou em nossa carne, segue-se que também seremos ressuscitados na…
 
 Capítulo VII.-- ​​Visto que Cristo ressuscitou em nossa carne, segue-se que também seremos ressuscitados na mesma; visto que a ressurreição que nos foi prometida não deveria ser referida a espíritos naturalmente imortais, mas a corpos em si mortais.
 
@@ -231,7 +231,7 @@ Pois estes são corpos de animais, isto é, [corpos] que participam da vida, que
 
 [4494] Grabe, Massuet e Stieren preferem ler "a face do Deus vivo"; enquanto Harvey adota o que foi dito acima, lendo apenas “Domini” e não “Dei vivi”.
 
-## Capítulo VIII
+## Capítulo VIII. Os dons do Espírito Santo que recebemos preparam-nos para a incorrupção, tornam-nos…
 
 Capítulo VIII.-- ​​Os dons do Espírito Santo que recebemos preparam-nos para a incorrupção, tornam-nos espirituais e nos separam dos homens carnais. Estas duas classes são representadas pelos animais limpos e impuros na dispensação legal.
 
@@ -271,7 +271,7 @@ Justamente, portanto, o apóstolo chamou todos esses "carnais" e "animais" (4505
 
 [4505] 1 Cor. ii. 14, 1 Cor. iii. 1, etc
 
-## Capítulo IX
+## Capítulo IX. Mostrando como deve ser entendida aquela passagem do apóstolo que os hereges pervertem; a…
 
 Capítulo IX.-- Mostrando como deve ser entendida aquela passagem do apóstolo que os hereges pervertem; a saber, "Carne e sangue não possuirão o reino de Deus."
 
@@ -305,7 +305,7 @@ Para que não percamos a vida por perdermos aquele Espírito que nos possui, o a
 
 [4511] Mat. v.5.
 
-## Capítulo X
+## Capítulo X. Através de uma comparação tirada da oliveira brava, cuja qualidade, mas não cuja…
 
 Capítulo X. - Através de uma comparação tirada da oliveira brava, cuja qualidade, mas não cuja natureza, é alterada pelo enxerto, ele prova coisas mais importantes; ele ressalta também que o homem sem o Espírito não é capaz de produzir frutos ou de herdar o reino de Deus.
 
@@ -349,7 +349,7 @@ E por esta razão ele diz em continuação: “Mas se pelo Espírito mortificard
 
 [4525] Rom. viii. 13.
 
-## Capítulo XI
+## Capítulo XI. Trata das ações das pessoas carnais e espirituais; também, que a limpeza espiritual não…
 
 Capítulo XI.--Trata das ações das pessoas carnais e espirituais; também, que a limpeza espiritual não deve ser referida à substância de nossos corpos, mas ao modo de nossa vida anterior.
 
@@ -373,7 +373,7 @@ E então, novamente, quando [trazemos] a imagem do celestial? Sem dúvida, quand
 
 [4530] 1 Cor. xv. 49, etc
 
-## Capítulo XII
+## Capítulo XII. Da diferença entre a vida e a morte; do fôlego de vida e do Espírito vivificador: também…
 
 Capítulo XII.--Da diferença entre a vida e a morte; do fôlego de vida e do Espírito vivificador: também como é que a substância da carne revive o que antes estava morto.
 
@@ -423,7 +423,7 @@ E assim, também, aquele cuja mão atrofiada foi curada, e todos os que foram cu
 
 [4542] Vol. eu. págs. 306, 321.
 
-## Capítulo XIII
+## Capítulo XIII. Nos mortos que foram ressuscitados por Cristo possuímos a maior prova da ressurreição; e…
 
 Capítulo XIII.-- ​​Nos mortos que foram ressuscitados por Cristo possuímos a maior prova da ressurreição; e nossos corações são mostrados como capazes de vida eterna, porque agora podem receber o Espírito de Deus.
 
@@ -487,7 +487,7 @@ De cuja ressurreição o apóstolo fala na Epístola aos Filipenses: "Tendo sido
 
 [4562] 2 Cor. 4. 11.
 
-## Capítulo XIV
+## Capítulo XIV. A menos que a carne fosse salva, o Verbo não teria tomado sobre si carne da mesma…
 
 Capítulo XIV.-- A menos que a carne fosse salva, o Verbo não teria tomado sobre si carne da mesma substância que a nossa: daí se seguiria que nem deveríamos ter sido reconciliados por Ele.
 
@@ -529,7 +529,7 @@ Lembre-se, portanto, meu querido amigo, de que você foi redimido pela carne de 
 
 [4574] Harvey restaura o grego assim, kai ton autou antropon bebaios ekdechomenos, que ele pensa ter uma referência ao paciente que espera pelo "segundo advento de Cristo para julgar o mundo". A frase também pode ser traduzida como “recebendo firmemente Sua natureza humana”.
 
-## Capítulo XV
+## Capítulo XV. Provas da ressurreição de Isaías e Ezequiel; o mesmo Deus que nos criou também nos…
 
 Capítulo XV.-- Provas da ressurreição de Isaías e Ezequiel; o mesmo Deus que nos criou também nos ressuscitará.
 
@@ -577,7 +577,7 @@ Por isso também a Escritura, apontando o que deveria acontecer, diz que quando 
 
 [4587] Gênesis iii. 9.
 
-## Capítulo XVI
+## Capítulo XVI. Visto que nossos corpos retornam à terra, segue-se que dela extraem sua substância…
 
 Capítulo XVI.-- Visto que nossos corpos retornam à terra, segue-se que dela extraem sua substância; também, com o advento da Palavra, a imagem de Deus em nós apareceu sob uma luz mais clara.
 
@@ -591,7 +591,7 @@ Capítulo XVI.-- Visto que nossos corpos retornam à terra, segue-se que dela ex
 
 [4589] Fil. ii. 8.
 
-## Capítulo XVII
+## Capítulo XVII. Existe um só Senhor e um só Deus, o Pai e Criador de todas as coisas, que nos amou em…
 
 Capítulo XVII.-- ​​Existe um só Senhor e um só Deus, o Pai e Criador de todas as coisas, que nos amou em Cristo, nos deu mandamentos e remiu nossos pecados; cujo Filho e Palavra Cristo provou ser, quando perdoou nossos pecados.
 
@@ -637,7 +637,7 @@ Pois assim como o perdemos por meio de uma árvore, por meio de uma árvore nova
 
 [4603] O grego é preservado aqui e diz: dia tes theias ektaseos ton cheiron - literalmente, “através da extensão divina das mãos”. O antigo latim diz apenas “per extensionem manuum”.
 
-## Capítulo XVIII
+## Capítulo XVIII. Deus o Pai e Sua Palavra formaram todas as coisas criadas (que Eles usam) por Seu próprio…
 
 Capítulo XVIII.--Deus o Pai e Sua Palavra formaram todas as coisas criadas (que Eles usam) por Seu próprio poder e sabedoria, não por defeito ou ignorância. O Filho de Deus, que recebeu todo o poder do Pai, de outra forma nunca teria encarnado sobre Ele.
 
@@ -677,7 +677,7 @@ Ele invocará o céu do alto e a terra para julgar o Seu povo."
 
 [4615] Sal. eu. 3, 4.
 
-## Capítulo XIX
+## Capítulo XIX. Institui-se uma comparação entre a Eva desobediente e pecadora e a Virgem Maria, sua…
 
 Capítulo XIX.-- Institui-se uma comparação entre a Eva desobediente e pecadora e a Virgem Maria, sua padroeira. Várias e discordantes heresias são mencionadas.
 
@@ -695,7 +695,7 @@ E ainda mais, alguns afirmam que nem a sua alma nem o seu corpo podem receber a 
 
 [4618] O texto diz "porro", o que não faz sentido; de modo que Harvey considera isso uma corrupção da leitura "per Horum".
 
-## Capítulo XX
+## Capítulo XX. Devem ser ouvidos aqueles pastores a quem os apóstolos confiaram as Igrejas, possuindo…
 
 Capítulo XX.- Devem ser ouvidos aqueles pastores a quem os apóstolos confiaram as Igrejas, possuindo uma e a mesma doutrina de salvação; os hereges, por outro lado, devem ser evitados. Devemos pensar com sobriedade a respeito dos mistérios da fé.
 
@@ -725,7 +725,7 @@ Estas coisas, portanto, Ele recapitulou em Si mesmo: ao unir o homem ao Espírit
 
 [4626] Ef. eu. 10.
 
-## Capítulo XXI
+## Capítulo XXI. Cristo é a cabeça de todas as coisas já mencionadas. Era apropriado que Ele fosse enviado…
 
 Capítulo XXI.--Cristo é a cabeça de todas as coisas já mencionadas. Era apropriado que Ele fosse enviado pelo Pai, o Criador de todas as coisas, para assumir a natureza humana, e fosse tentado por Satanás, para que pudesse cumprir as promessas e alcançar uma vitória gloriosa e perfeita.
 
@@ -773,7 +773,7 @@ Pois quando Satanás é preso, o homem é libertado; já que "ninguém pode entr
 
 [4639] Mat. xii. 29 e Marcos iii. 27.
 
-## Capítulo XXII
+## Capítulo XXII. O verdadeiro Senhor e o único Deus é declarado pela lei e manifestado por Cristo, Seu…
 
 Capítulo XXII.-- ​​O verdadeiro Senhor e o único Deus é declarado pela lei e manifestado por Cristo, Seu Filho, no Evangelho; a quem devemos adorar, e Nele devemos buscar todas as coisas boas, não em Satanás.
 
@@ -803,7 +803,7 @@ Além disso, o Senhor declara que “o diabo é mentiroso desde o princípio, e 
 
 [4647] Lucas iv. 6.
 
-## Capítulo XXIII
+## Capítulo XXIII. O diabo é bem praticado na falsidade, pela qual Adão, tendo sido desencaminhado, pecou no…
 
 Capítulo XXIII.-- ​​O diabo é bem praticado na falsidade, pela qual Adão, tendo sido desencaminhado, pecou no sexto dia da criação, dia em que também foi renovado por Cristo.
 
@@ -829,7 +829,7 @@ Pois morreram os que provaram da árvore; e a serpente é provada mentirosa e as
 
 [4653] João VIII. 44.
 
-## Capítulo XXIV
+## Capítulo XXIV. Da constante falsidade do diabo, e dos poderes e governos do mundo, aos quais devemos…
 
 Capítulo XXIV.-- Da constante falsidade do diabo, e dos poderes e governos do mundo, aos quais devemos obedecer, na medida em que são designados por Deus, não pelo diabo.
 
@@ -905,7 +905,7 @@ E, portanto, Deus lhes enviará a operação do erro, para que acreditem na ment
 
 [4675] O mss. temos “præmisit”, mas Harvey sugere “promisit”, que adotamos.
 
-## Capítulo XXVI
+## Capítulo XXVI. João e Daniel previram a dissolução e desolação do Império Romano, que precederá o fim do…
 
 Capítulo XXVI.-- João e Daniel previram a dissolução e desolação do Império Romano, que precederá o fim do mundo e o reino eterno de Cristo. Refutam-se os gnósticos, esses instrumentos de Satanás, que inventam outro Pai diferente do Criador.
 
@@ -937,7 +937,7 @@ Assim como acontece com aqueles que infringem as leis, quando o castigo os ating
 
 [4682] O texto grego é aqui preservado por Eusébio, Hist. Ecl., iv. 18; mas não sabemos de que obra de Justino Mártir ela foi extraída. O trabalho agora está perdido. Uma catena antiga continua o grego por várias linhas adiante.
 
-## Capítulo XXVII
+## Capítulo XXVII. O futuro julgamento de Cristo. Comunhão e separação do ser divino. O castigo eterno dos…
 
 Capítulo XXVII.-- ​​O futuro julgamento de Cristo. Comunhão e separação do ser divino. O castigo eterno dos incrédulos.
 
@@ -965,7 +965,7 @@ Porque todo aquele que pratica o mal odeia a luz e não se aproxima da luz, para
 
 [4689] João iii. 18-21.
 
-## Capítulo XXVIII
+## Capítulo XXVIII. A distinção a ser feita entre os justos e os ímpios. A futura apostasia na época do…
 
 Capítulo XXVIII.-- ​​A distinção a ser feita entre os justos e os ímpios. A futura apostasia na época do Anticristo e o fim do mundo.
 
@@ -999,7 +999,7 @@ João diz ainda: “E ele ordenará que se faça uma imagem da besta, e ele dar�
 
 [4697] Isto é citado da Epístola de Inácio aos Romanos, cap. 4. É encontrado nas duas recensões gregas de suas obras e também na siríaca. Ver páginas 75 e 103 deste volume. A tradução latina é seguida aqui: o grego de Inácio daria “o trigo de Deus” e omite “de Deus” no final, conforme citado por Eusébio.
 
-## Capítulo XXIX
+## Capítulo XXIX. Todas as coisas foram criadas para o serviço do homem. Os enganos, a maldade e o poder…
 
 Capítulo XXIX.--Todas as coisas foram criadas para o serviço do homem. Os enganos, a maldade e o poder apóstata do Anticristo. Isso foi prefigurado no dilúvio, como depois na perseguição de Sadraque, Mesaque e Abednego.
 
@@ -1015,7 +1015,7 @@ Pois aquela imagem, tomada como um todo, era uma prefiguração da vinda deste h
 
 [4699] Mat. xviv. 21.
 
-## Capítulo XXX
+## Capítulo XXX. Embora certos quanto ao número do nome do Anticristo, ainda assim não devemos chegar a…
 
 Capítulo XXX.-- Embora certos quanto ao número do nome do Anticristo, ainda assim não devemos chegar a conclusões precipitadas quanto ao nome em si, porque este número é capaz de ser ajustado a muitos nomes. Razões para este ponto ser reservado pelo Espírito Santo. O reinado e a morte do Anticristo.
 
@@ -1057,7 +1057,7 @@ Pois os latinos são os que atualmente governam: [4706] Não farei, porém, qual
 
 [4709] Mat. viii. 11.
 
-## Capítulo XXXI
+## Capítulo XXXI. A preservação de nossos corpos é confirmada pela ressurreição e ascensão de Cristo: as…
 
 Capítulo XXXI.-- A preservação de nossos corpos é confirmada pela ressurreição e ascensão de Cristo: as almas dos santos durante o período intermediário estão em um estado de expectativa do tempo em que receberão sua glória perfeita e consumada.
 
@@ -1089,7 +1089,7 @@ Pois eles não escolhem entender que, se essas coisas são como dizem, o própri
 
 [4719] Os cinco capítulos seguintes foram omitidos nas edições anteriores, mas acrescentados por Feuardentius. A maioria dos manuscritos também não os continha. É provável que os escribas da Idade Média os tenham rejeitado por inculcarem noções milenaristas, há muito extintas na Igreja. As citações desses cinco capítulos foram coletadas por Harvey dos manuscritos siríaco e armênio. ultimamente veio à tona.
 
-## Capítulo XXXII
+## Capítulo XXXII. Naquela carne em que os santos sofreram tantas aflições, eles receberão os frutos de seu…
 
 Capítulo XXXII.--Naquela carne em que os santos sofreram tantas aflições, eles receberão os frutos de seu trabalho; especialmente porque toda a criação espera por isso, e Deus promete isso a Abraão e sua descendência.
 
@@ -1129,7 +1129,7 @@ Pois Deus é verdadeiro e fiel; e por esse motivo Ele disse: “Bem-aventurados 
 
 [4731] Mat. v.5.
 
-## Capítulo XXXIII
+## Capítulo XXXIII. Outras provas da mesma proposição, extraídas das promessas feitas por Cristo, quando Ele…
 
 Capítulo XXXIII.-- ​​Outras provas da mesma proposição, extraídas das promessas feitas por Cristo, quando Ele declarou que beberia do fruto da videira com Seus discípulos no reino de Seu Pai, enquanto ao mesmo tempo Ele prometeu recompensá-los cem vezes mais e fazê-los participar de banquetes. A bênção pronunciada por Jacó já havia apontado isso, como Papias e os anciãos a interpretaram.
 
@@ -1181,7 +1181,7 @@ Pois Deus é rico em todas as coisas. E é certo que quando a criação for rest
 
 [4746] Isa. Xl. 6, etc
 
-## Capítulo XXXIV
+## Capítulo XXXIV. Ele fortalece suas opiniões a respeito do reino temporal e terrestre dos santos após sua…
 
 Capítulo XXXIV.-- Ele fortalece suas opiniões a respeito do reino temporal e terrestre dos santos após sua ressurreição, pelos vários testemunhos de Isaías, Ezequiel, Jeremias e Daniel; também pela parábola dos servos que vigiavam, aos quais o Senhor prometeu que ministraria.
 
@@ -1237,7 +1237,7 @@ Também não haverá ali nenhum imaturo, nem velho que não cumpra o seu tempo; 
 
 [4764] Isa. lxv. 18.
 
-## Capítulo XXXV
+## Capítulo XXXV. Ele afirma que esses testemunhos já alegados não podem ser entendidos alegoricamente como…
 
 Capítulo XXXV. - Ele afirma que esses testemunhos já alegados não podem ser entendidos alegoricamente como bênçãos celestiais, mas que terão seu cumprimento após a vinda do Anticristo e a ressurreição na Jerusalém terrestre. Às profecias anteriores, ele une outras extraídas de Isaías, Jeremias e do Apocalipse de João.
 
@@ -1297,7 +1297,7 @@ Pois está dito: “Aquele que está assentado no trono disse: Eis que faço nov
 
 [4783] Rev. 5, 6.
 
-## Capítulo XXXVI
+## Capítulo XXXVI. Os homens serão realmente ressuscitados: o mundo não será aniquilado; mas haverá várias…
 
 Capítulo XXXVI.--Os homens serão realmente ressuscitados: o mundo não será aniquilado; mas haverá várias moradas para os santos, de acordo com a categoria atribuída a cada indivíduo. Todas as coisas estarão sujeitas a Deus Pai, e assim Ele será tudo em todos.
 

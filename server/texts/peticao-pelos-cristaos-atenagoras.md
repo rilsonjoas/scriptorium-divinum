@@ -23,7 +23,7 @@ translator: "Scriptorium Divinum (Tradução Integral em Domínio Público)"
 
 ---
 
-Capítulo I.--Injustiça demonstrada para com os cristãos.
+## Capítulo I.--Injustiça demonstrada para com os cristãos.
 
 No seu império, maior dos soberanos, diferentes nações têm costumes e leis diferentes; e ninguém é impedido pela lei ou pelo medo de punição de seguir seus costumes ancestrais, por mais ridículos que sejam. Um cidadão de Ilium chama Heitor de deus e presta honras divinas a Helena, tomando-a por Adrasteia. O Lacedemônio venera Agamenon como Zeus, e Phylonoë como filha de Tíndaro; e o homem de Tenedos adora Tennes. Os sacrifícios atenienses a Erecteu como Poseidon. Os atenienses também realizam ritos religiosos e celebram mistérios em homenagem a Agraulus e Pandrosus, mulheres que foram consideradas culpadas de impiedade por abrirem a caixa. Em suma, entre todas as nações e povos, os homens oferecem quaisquer sacrifícios e celebram quaisquer mistérios que lhes agradem. Os egípcios consideram entre seus deuses até gatos, crocodilos, serpentes, víboras e cães. E a tudo isso você e as leis dão permissão para agir, considerando, por um lado, que não acreditar em nenhum deus é ímpio e perverso, e por outro, que é necessário que cada homem adore os deuses que ele prefere, para que através do medo da divindade, os homens possam ser impedidos de cometer erros.
 
@@ -39,7 +39,7 @@ Seguimos aqui o texto de Otto; outros leem hemin.
 
 [Durante três séculos os fiéis foram testemunhas de Jesus e da ressurreição, até a morte; com “deterioração de seus bens”, não apenas, mas morrendo diariamente, e “contados como ovelhas para o matadouro”. O que pode recusar tal testemunho? Eles venceram através do sofrimento. O leitor ficará satisfeito com esta citação de um autor, cuja negligência de cujos escritos celestiais é um triste sinal de declínio espiritual no espírito de nossa religião: - "O Senhor está certo de Suas vantagens projetadas a partir dos sofrimentos de Sua Igreja e de Seus santos por Seu nome. Ele não perde nada, e eles nada perdem; mas seus inimigos, quando mais se enfurecem e prevalecem mais, são sempre os maiores perdedores. Sua própria glória cresce, as graças de Seu povo crescem; sim, seu próprio número cresce, e isso, às vezes, principalmente por seus maiores sofrimentos. Isso ficou evidente nos primeiros tempos da Igreja Cristã, onde estava a glória de tanto amor e paciência invencíveis, se eles não tivessem sido tão dedicados a isso? Leighton, Com. sobre São Pedro, Obras, vol. 4. pág. 478. Admirável edição de West, Londres, Longmans, 1870.] ____________________________________________________________________
 
-Capítulo II.-- ​​Pretender ser tratado como os outros quando acusados.
+## Capítulo II.-- ​​Pretender ser tratado como os outros quando acusados.
 
 Se, de fato, alguém puder nos condenar por um crime, seja ele pequeno ou grande, não pedimos para sermos dispensados ​​da punição, mas estamos preparados para sofrer as inflições mais severas e impiedosas. Mas se a acusação se refere apenas ao nosso nome - e é inegável que até o momento as histórias contadas sobre nós baseiam-se em nada melhor do que a conversa popular comum e indiscriminada, e nenhum cristão foi condenado por crime - caberá a vocês, soberanos ilustres, benevolentes e muito eruditos, remover por lei esse tratamento desprezível, para que, como em todo o mundo, indivíduos e cidades participem de sua beneficência, nós também possamos nos sentir gratos a vocês, exultando que não somos mais vítimas de falsas acusações. Pois não é compatível com a sua justiça que outros, quando acusados ​​de crimes, não sejam punidos até que sejam condenados, mas que, no nosso caso, o nome que levamos tenha mais força do que as provas apresentadas no julgamento, quando os juízes, em vez de perguntar se a pessoa acusada cometeu algum crime, descarregam seus insultos sobre o nome, como se isso fosse em si um crime.
 
@@ -53,7 +53,7 @@ Mas nenhum nome por si só é considerado bom ou mau; os nomes parecem bons ou r
 
 [Taciano, boné. xxvii., supra, pág. 76.] __________________________________________________________________
 
-Capítulo III.-- ​​Acusações apresentadas contra os cristãos.
+## Capítulo III.-- ​​Acusações apresentadas contra os cristãos.
 
 Três coisas são alegadas contra nós: ateísmo, festas tistésicas, relações edípodes. Mas se estas acusações forem verdadeiras, não poupem classe: procedam imediatamente contra os nossos crimes; destrua-nos raízes e ramos, com nossas esposas e filhos, se algum cristão viver como os brutos. E ainda assim, mesmo os brutos não tocam a carne de sua própria espécie; e eles formam pares por uma lei da natureza, e apenas na estação regular, não por simples devassidão; eles também reconhecem aqueles de quem recebem benefícios. Se alguém, portanto, é mais selvagem que os brutos, que castigo que ele possa suportar será considerado adequado a tais ofensas? Mas, se essas coisas são apenas contos ociosos e calúnias vazias, originadas no fato de que a virtude se opõe, por sua própria natureza, ao vício, e que os contrários guerreiam uns contra os outros por uma lei divina (e vocês mesmos são testemunhas de que tais iniqüidades não são cometidas por nós, pois vocês proíbem que informações sejam colocadas contra nós), resta a vocês fazer perguntas sobre nossa vida, nossas opiniões, nossa lealdade e obediência a você e sua casa e governo, e assim, finalmente, conceder-nos os mesmos direitos (pedimos nada mais) quanto àqueles que nos perseguem. Pois então os venceremos, entregando sem hesitação, como fazemos agora, as nossas próprias vidas por causa da verdade. __________________________________________________________________
 
@@ -61,7 +61,7 @@ Três coisas são alegadas contra nós: ateísmo, festas tistésicas, relações
 
 Assim Otto; outros lêem: “se algum dos homens”. __________________________________________________________________
 
-Capítulo IV.-- Os cristãos não são ateus, mas reconhecem um único Deus.
+## Capítulo IV.-- Os cristãos não são ateus, mas reconhecem um único Deus.
 
 No que diz respeito, em primeiro lugar, à alegação de que somos ateus - pois enfrentarei as acusações uma por uma, para que não sejamos ridicularizados por não termos resposta para dar àqueles que as fazem - com razão os atenienses consideraram Diágoras culpado de ateísmo, na medida em que ele não apenas divulgou a doutrina órfica, e publicou os mistérios de Elêusis e do Cabiri, e cortou a estátua de madeira de Hércules para ferver seus nabos, mas declarou abertamente que Deus não existia. Mas para nós, que distinguimos Deus da matéria, e ensinamos que a matéria é uma coisa e Deus outra, e que eles estão separados por um amplo intervalo (pois a Deidade é incriada e eterna, para ser vista apenas pelo entendimento e pela razão, enquanto a matéria é criada e perecível), não é absurdo aplicar o nome de ateísmo? Se os nossos sentimentos fossem como os de Diágoras, embora tenhamos tais incentivos à piedade - na ordem estabelecida, na harmonia universal, na magnitude, na cor, na forma, no arranjo do mundo - com razão, a nossa reputação de impiedade, bem como a causa de sermos assim assediados, poderiam ser imputados a nós mesmos.
 
@@ -69,7 +69,7 @@ Mas, uma vez que a nossa doutrina reconhece um Deus, o Criador deste universo, q
 
 [Kaye, pág. 7.] __________________________________________________________________
 
-Capítulo V.--Testemunho dos Poetas sobre a Unidade de Deus.
+## Capítulo V.--Testemunho dos Poetas sobre a Unidade de Deus.
 
 Poetas e filósofos não foram eleitos ateus por perguntarem sobre Deus. Eurípides, falando daqueles que, segundo o preconceito popular, são ignorantemente chamados de deuses, diz em dúvida: -
 
@@ -101,7 +101,7 @@ De uma peça desconhecida; o original é ambíguo; comp. Cic. De Nat Deorum, ii.
 
 Não encontrado em suas obras existentes. __________________________________________________________________
 
-Capítulo VI.--Opiniões dos Filósofos sobre o Deus Único.
+## Capítulo VI.--Opiniões dos Filósofos sobre o Deus Único.
 
 Filolau também, quando diz que todas as coisas estão incluídas em Deus como uma fortaleza, ensina que Ele é um e que é superior à matéria. Lísis e Ópsimo definem Deus assim: um diz que Ele é um número inefável, o outro que Ele é o excesso do maior número além daquele que mais se aproxima dele. De modo que, como dez é o maior número de acordo com os pitagóricos, sendo o Tetractys, e contendo todos os princípios aritméticos e harmônicos, e o Nove está próximo a ele, Deus é uma unidade - isto é, um. Pois o maior número excede o próximo em um. Depois, há Platão e Aristóteles – não que eu esteja prestes a repassar tudo o que os filósofos disseram sobre Deus, como se quisesse apresentar um resumo completo de suas opiniões; pois eu sei que, assim como você supera todos os homens em inteligência e no poder de seu governo, na mesma proporção você os supera a todos em um conhecimento preciso de todos os conhecimentos, cultivando cada ramo com mais sucesso do que mesmo aqueles que se dedicaram exclusivamente a qualquer um.
 
@@ -119,7 +119,7 @@ Timeu, pág. 41, A.
 
 [Não devemos nos surpreender com os poucos elogios feitos pelos apologistas às verdades incorporadas em toda parte em Platão e outros escritores pagãos. Eles sentiram intensamente que "o mundo, pela sabedoria, não conhecia a Deus; e que era sua própria missão levar os homens à única fonte da verdadeira filosofia.] __________________________________________________________________
 
-Capítulo VII.--Superioridade da Doutrina Cristã no Respeito a Deus.
+## Capítulo VII.--Superioridade da Doutrina Cristã no Respeito a Deus.
 
 Visto, portanto, que a unidade da Divindade é confessada por quase todos, mesmo contra sua vontade, quando eles tratam dos primeiros princípios do universo, e nós, por nossa vez, também afirmamos que Aquele que organizou este universo é Deus, - por que é que eles podem dizer e escrever com impunidade o que quiserem a respeito da Divindade, mas que contra nós uma lei está em vigor, embora sejamos capazes de demonstrar o que apreendemos e acreditamos justamente, a saber, que existe um Deus, com provas e razão concordantes com verdade? Pois poetas e filósofos, assim como outros assuntos, também a este, aplicaram-se no caminho da conjectura, movidos, em razão de sua afinidade com a inspiração de Deus, cada um por sua própria alma, a tentar se poderia descobrir e apreender a verdade; mas eles não foram considerados competentes para apreendê-lo, porque acharam adequado aprender, não de Deus a respeito de Deus, mas cada um de si mesmo; portanto, cada um deles chegou à sua própria conclusão a respeito de Deus, da matéria, das formas e do mundo.
 
@@ -127,7 +127,7 @@ Mas temos como testemunhas das coisas que apreendemos e cremos, profetas, homens
 
 [Ver cap. xxx., infra. Importante, por mostrar o grau de valor atribuído pelos Padres aos ditos Sibilinos e Órficos. Comp. Kaye, pág. 177.] __________________________________________________________________
 
-Capítulo VIII.--Absurdos do Politeísmo.
+## Capítulo VIII.--Absurdos do Politeísmo.
 
 No que diz respeito, então, à doutrina de que desde o princípio houve um Deus, o Criador deste universo, considere-a desta forma, para que você possa estar familiarizado com os fundamentos argumentativos também de nossa fé. Se desde o início existiram dois ou mais deuses, eles estavam no mesmo lugar ou cada um deles separadamente no seu. No mesmo lugar eles não poderiam estar. Pois, se são deuses, não são iguais; mas porque são incriados, são diferentes: pois as coisas criadas são como os seus padrões; mas os incriados são diferentes, não sendo produzidos a partir de ninguém, nem formados segundo o padrão de ninguém. Mãos, olhos e pés são partes de um corpo, formando juntos um homem: Deus é um só neste sentido? E, de fato, Sócrates foi composto e dividido em partes, apenas porque foi criado e perecível; mas Deus é incriado e impassível e indivisível - não consiste, portanto, em partes. Mas se, pelo contrário, cada um deles existe separadamente, visto que Aquele que fez o mundo está acima das coisas criadas, e sobre as coisas que Ele fez e colocou em ordem, onde pode estar o outro ou o resto?
 
@@ -141,7 +141,7 @@ ou seja, o mundo.
 
 isto é, o Criador, ou primeiro Deus. __________________________________________________________________
 
-Capítulo IX.-- O Testemunho dos Profetas.
+## Capítulo IX.-- O Testemunho dos Profetas.
 
 Se nos satisfêssemos em apresentar considerações como essas, nossas doutrinas poderiam ser consideradas humanas por alguns. Mas, uma vez que as vozes dos profetas confirmam nossos argumentos - pois penso que você também, com seu grande zelo pelo conhecimento e suas grandes realizações no aprendizado, não pode ignorar os escritos de Moisés ou de Isaías e Jeremias, e os outros profetas, que, elevados em êxtase acima das operações naturais de suas mentes pelos impulsos do Espírito Divino, proferiram as coisas com as quais foram inspirados, o Espírito fazendo uso deles como um tocador de flauta sopra em um flauta; - o que, então, esses homens dizem? "O Senhor é o nosso Deus; nenhum outro pode ser comparado a Ele."  E ainda: “Eu sou Deus, o primeiro e o último, e além de mim não há Deus”.  Da mesma forma: “Antes de mim não houve outro Deus, e depois de mim não haverá; eu sou Deus, e não há outro além de mim”.  E quanto à Sua grandeza: “O céu é o meu trono, e a terra é o escabelo dos meus pés: que casa construireis para mim, ou qual é o lugar do meu descanso?”  Mas deixo para você, quando se deparar com os próprios livros, examinar cuidadosamente as profecias neles contidas, para que possa, em bases adequadas, nos defender dos abusos lançados sobre nós. __________________________________________________________________
 
@@ -155,7 +155,7 @@ Isa. xliii. 10, 11.
 
 Isa. lxvi. 1. __________________________________________________________________
 
-Capítulo X.-- Os cristãos adoram o Pai, o Filho e o Espírito Santo.
+## Capítulo X.-- Os cristãos adoram o Pai, o Filho e o Espírito Santo.
 
 Que não somos ateus, portanto, visto que reconhecemos um Deus, incriado, eterno, invisível, impassível, incompreensível, ilimitável, que é apreendido apenas pelo entendimento e pela razão, que é abrangido pela luz, e beleza, e espírito, e poder inefável, por quem o universo foi criado através de Seu Logos, e colocado em ordem, e é mantido em existência - eu demonstrei suficientemente. [Eu digo “Seu Logos”], pois reconhecemos também um Filho de Deus. Nem deixe ninguém pensar que é ridículo que Deus tenha um Filho. Pois embora os poetas, nas suas ficções, representem os deuses como não sendo melhores que os homens, o nosso modo de pensar não é o mesmo que o deles, tanto no que diz respeito a Deus, o Pai, como ao Filho. Mas o Filho de Deus é o Logos do Pai, em idéia e em operação; pois segundo o modelo Dele e por Ele foram feitas todas as coisas, sendo o Pai e o Filho um. E, estando o Filho no Pai e o Pai no Filho, na unidade e no poder do espírito, o entendimento e a razão (nous kai logos) do Pai é o Filho de Deus.
 
@@ -173,7 +173,7 @@ Prov. viii. 22.
 
 [Heb. eu. 14, a doutrina expressa de São Paulo. Eles são ministros de homens, e não objetos de qualquer tipo de adoração. "Que ninguém o engane", etc. Col. ii. 4, 18.] __________________________________________________________________
 
-Capítulo XI.-- O ensino moral dos cristãos repele a acusação apresentada contra eles.
+## Capítulo XI.-- O ensino moral dos cristãos repele a acusação apresentada contra eles.
 
 Se eu entrar minuciosamente nos detalhes de nossa doutrina, não deixe que isso o surpreenda. É que você não se deixe levar pela opinião popular e irracional, mas tenha a verdade claramente diante de você. Por apresentarmos as próprias opiniões às quais aderimos, como não sendo humanas, mas proferidas e ensinadas por Deus, seremos capazes de persuadi-lo a não pensar em nós como ateus. Quais são, então, esses ensinamentos nos quais somos educados? "Digo-vos: Amai os vossos inimigos; abençoai os que vos amaldiçoam; orai pelos que vos perseguem; para que sejais filhos do vosso Pai que está nos céus, que faz nascer o Seu sol sobre maus e bons, e envia chuva sobre justos e injustos." Permita-me aqui levantar minha voz corajosamente em clamor alto e audível, suplicando como faço diante de príncipes filosóficos. Pois quem daqueles que reduzem silogismos, e esclarecem ambigüidades, e explicam etimologias, ou daqueles que ensinam homônimos e sinônimos, e dificuldades e axiomas, e qual é o sujeito e qual o predicado, e que prometem a seus discípulos por estas e outras instruções semelhantes para fazê-los felizes: quem deles purificou suas almas de tal forma que, em vez de odiar seus inimigos, amá-los; e, em vez de falar mal daqueles que os insultaram (abster-se disso é por si só uma evidência de grande tolerância), abençoá-los; e orar por aqueles que conspiram contra suas vidas?
 
@@ -185,7 +185,7 @@ Lucas vi. 27, 28; Matt. 44, 45.
 
 O significado aqui é duvidoso; mas a referência provável é às práticas dos sofistas. __________________________________________________________________
 
-Capítulo XII.--Conseqüente Absurdo da Acusação de Ateísmo.
+## Capítulo XII.--Conseqüente Absurdo da Acusação de Ateísmo.
 
 Deveríamos, então, a menos que acreditássemos que um Deus preside a raça humana, purificar-nos assim do mal? Certamente não. Mas, porque estamos persuadidos de que prestaremos contas de tudo na vida presente a Deus, que nos criou e ao mundo, adotamos um método de vida temperado, benevolente e geralmente desprezado, acreditando que não sofreremos nenhum mal tão grande aqui, mesmo que nossas vidas nos sejam tiradas, em comparação com o que receberemos lá por nossa vida mansa, benevolente e moderada do grande Juiz. Platão realmente disse que Minos e Radamanto julgarão e punirão os ímpios; mas dizemos que, mesmo que um homem seja Minos ou o próprio Radamanto, ou seu pai, nem mesmo ele escapará do julgamento de Deus. Devem, então, ser considerados piedosos aqueles que consideram a vida compreendida nisto: “Comamos e bebamos, porque amanhã morreremos”, e que consideram a morte um sono profundo e um esquecimento (“sono e morte, irmãos gêmeos”); enquanto homens que consideram a vida presente de fato de muito pequeno valor, e que são conduzidos à vida futura apenas por esta única coisa, que conhecem Deus e Seu Logos, o que é a unidade do Filho com o Pai, o que é a comunhão do Pai com o Filho, o que é o Espírito, o que é a unidade destes três, o Espírito, o Filho, o Pai, e sua distinção na unidade; e que sabem que a vida que buscamos é muito melhor do que pode ser descrita em palavras, desde que cheguemos a ela livres de todas as más ações; que, além disso, levam nossa benevolência a tal ponto, que não apenas amamos nossos amigos (“porque se vocês os amam”, diz Ele, “que te amam, e emprestam àqueles que emprestam a vocês, que recompensa vocês terão? ”), - devemos, eu digo, quando tal é o nosso caráter, e quando vivemos uma vida como esta, para que possamos finalmente escapar da condenação, não seremos considerados piedosos?
 
@@ -195,7 +195,7 @@ Hom., Il., xvi. 672.
 
 Lucas vi. 32, 34; Matt. 46. ​​__________________________________________________________________
 
-Capítulo XIII.--Por que os cristãos não oferecem sacrifícios.
+## Capítulo XIII.--Por que os cristãos não oferecem sacrifícios.
 
 Mas, como a maioria daqueles que nos acusam de ateísmo, e porque eles não têm nem mesmo a mais sonhadora concepção do que Deus é, e são estúpidos e totalmente desconhecedores das coisas naturais e divinas, e tais como medem a piedade pela regra dos sacrifícios, nos acusam de não reconhecer os mesmos deuses que as cidades, tenham o prazer de atender às seguintes considerações, ó imperadores, em ambos os pontos. E primeiro, quanto a não sacrificarmos: o Criador e Pai deste universo não precisa de sangue, nem do odor de holocaustos, nem da fragrância de flores e incenso, pois Ele próprio é uma fragrância perfeita, não precisando de nada, nem dentro nem fora; mas o sacrifício mais nobre a Ele é sabermos quem estendeu e abobadou os céus, e fixou a terra em seu lugar como um centro, quem reuniu a água nos mares e separou a luz das trevas, quem adornou o céu com estrelas e fez a terra produzir sementes de todo tipo, quem fez os animais e moldou o homem. Quando, considerando Deus como o Criador de todas as coisas, que as preserva em existência e as supervisiona por meio de conhecimento e habilidade administrativa, nós “erguemos mãos santas” para Ele, que necessidade Ele tem ainda de uma hecatombe?
 
@@ -215,13 +215,13 @@ Hom., Il., ix. 499 sq., tradução de Lord Derby, versão que o tradutor utilizo
 
 Comp. ROM. xii. 1. [Mal. i.11. "Um Mincha puro" (Lev. ii. 1) foi o sacrifício incruento dos judeus. Esta seria a oblação cristã: portanto, a oferta do sangue natural de Cristo, como os latinos agora ensinam, era desconhecida de Atenágoras.] __________________________________________________________________
 
-Capítulo XIV.--Inconsistência daqueles que acusam os cristãos.
+## Capítulo XIV.--Inconsistência daqueles que acusam os cristãos.
 
 Então, quanto à outra reclamação, de que não oramos e não acreditamos nos mesmos deuses que as cidades, é extremamente tola. Ora, os mesmos homens que nos acusam de ateísmo por não admitirmos os mesmos deuses que reconhecem, não estão de acordo entre si a respeito dos deuses. Os atenienses estabeleceram como deuses Celeus e Metanira: os lacedemônios Menelau; e eles oferecem sacrifícios e realizam festivais para ele, enquanto os homens de Ilium não conseguem suportar o próprio som de seu nome e prestam sua adoração a Heitor. Os Ceanos adoram Aristæus, considerando-o igual a Zeus e Apolo; os thasianos Teágenes, homem que cometeu assassinato nos Jogos Olímpicos; o Samians Lysander, apesar de todas as matanças e todos os crimes perpetrados por ele; Alcman e Hesíodo Medeia, e os cilícios Niobe; os sicilianos Filipe, filho de Butacides; os Amathusianos Onésilo; os cartagineses Amílcar. O tempo me faltaria para enumerar o todo. Quando, portanto, eles divergem entre si a respeito de seus deuses, por que nos acusam de não concordarmos com eles?
 
 Vejamos então as práticas prevalecentes entre os egípcios: não são perfeitamente ridículas? Pois nos templos, em suas festas solenes, eles batem no peito como se fossem os mortos, e sacrificam aos mesmos seres como deuses; e não é de admirar, quando eles olham para os brutos como deuses, e se barbeiam quando morrem, e os enterram em templos, e fazem lamentação pública. Se, então, somos culpados de impiedade porque não praticamos uma piedade correspondente à deles, então todas as cidades e todas as nações são culpadas de impiedade, pois nem todas reconhecem os mesmos deuses. __________________________________________________________________
 
-Capítulo XV.--Os cristãos distinguem Deus da matéria.
+## Capítulo XV.--Os cristãos distinguem Deus da matéria.
 
 Mas conceda que eles reconheçam o mesmo. E então? Porque a multidão, que não consegue distinguir entre matéria e Deus, ou ver quão grande é o intervalo que existe entre eles, ora a ídolos feitos de matéria, somos nós, portanto, que distinguimos e separamos o incriado e o criado, aquilo que é e aquilo que não é, aquilo que é apreendido pelo entendimento e aquilo que é percebido pelos sentidos, e que damos o nome apropriado a cada um deles, - devemos vir e adorar imagens? Se, de fato, matéria e Deus são a mesma coisa, dois nomes para uma coisa, então certamente, ao não considerarmos estoques e pedras, ouro e prata, como deuses, somos culpados de impiedade. Mas se eles estão tão distantes uns dos outros quanto possível – tão distantes quanto o artista e os materiais de sua arte – por que somos chamados a prestar contas? Pois assim como é o oleiro e o barro (a matéria é o barro, e o artista é o oleiro), assim é Deus, o Construtor do mundo, e a matéria, que é subserviente a Ele para os propósitos de Sua arte.
 
@@ -229,7 +229,7 @@ Mas assim como o barro não pode tornar-se recipiente de si mesmo sem arte, a ma
 
 [Kaye, pág. 172.] __________________________________________________________________
 
-Capítulo XVI.--Os cristãos não adoram o universo.
+## Capítulo XVI.--Os cristãos não adoram o universo.
 
 Belo, sem dúvida, é o mundo, destacando-se tanto pela sua magnitude como pela disposição das suas partes, tanto as do círculo oblíquo como as do norte, e também pela sua forma esférica. No entanto, não é isso, mas o seu Artífice, que devemos adorar. Pois quando algum de seus súditos vem até você, eles não deixam de prestar homenagem a vocês, seus governantes e senhores, de quem obterão tudo o que precisam, e se dirigem à magnificência de seu palácio; mas, se por acaso chegarem à residência real, eles lançam um olhar passageiro de admiração à sua bela estrutura: mas é para vocês mesmos que eles mostram honra, como sendo "tudo em todos". Vocês, soberanos, de fato, criam e adornam seus palácios para si mesmos; mas o mundo não foi criado porque Deus precisava dele; pois Deus é tudo para si mesmo - luz inacessível, um mundo perfeito, espírito, poder, razão. Se, portanto, o mundo é um instrumento afinado e que se move em um tempo bem medido, adoro o Ser que deu sua harmonia, e toca suas notas, e canta a melodia concordante, e não o instrumento.
 
@@ -245,7 +245,7 @@ Alguns referem isso ao espírito humano.
 
 Política, pág. 269, D. __________________________________________________________________
 
-Capítulo XVII.-- ​​Os nomes dos deuses e suas imagens são apenas de data recente.
+## Capítulo XVII.-- ​​Os nomes dos deuses e suas imagens são apenas de data recente.
 
 Um apologista deve apresentar argumentos mais precisos do que os que apresentei até agora, tanto no que diz respeito aos nomes dos deuses, para mostrar que são de origem recente, como no que diz respeito às suas imagens, para mostrar que são, por assim dizer, apenas de ontem. Vocês mesmos, entretanto, estão completamente familiarizados com esses assuntos, visto que são versados ​​em todos os departamentos do conhecimento e estão além de todos os outros homens familiarizados com os antigos. Afirmo, então, que foram Orfeu, Homero e Hesíodo que deram genealogias e nomes àqueles a quem chamam de deuses. Tal é também o testemunho de Heródoto. "Minha opinião", diz ele, "é que Hesíodo e Homero me precederam em quatrocentos anos, e não mais; e foram eles que formularam uma teogonia para os gregos, e deram seus nomes aos deuses, e atribuíram-lhes suas diversas honras e funções, e descreveram suas formas." As representações dos deuses, mais uma vez, não foram usadas de forma alguma, enquanto a estatuária, a pintura e a escultura eram desconhecidas; nem se tornaram comuns até que Saurias, o Samiano, e Crato, o Sicyoniano, e Cleantes, o Coríntio, e a donzela coríntia apareceram, quando o desenho em contorno foi inventado por Saurias, que desenhou um cavalo ao sol, e a pintura por Crato, que pintou a óleo sobre uma tábua esbranquiçada os contornos de um homem e uma mulher; e a arte de fazer figuras em relevo (koroplathike) foi inventada pela donzela, que, apaixonada por uma pessoa, traçou sua sombra na parede enquanto dormia, e seu pai, encantado com a exatidão da semelhança (era oleiro), esculpiu o desenho e preencheu-o com barro: esta figura ainda está preservada em Corinto.
 
@@ -265,7 +265,7 @@ A leitura aqui é duvidosa.
 
 [Não havia imagens ou gravuras, portanto, nos primeiros locais cristãos de oração.] ____________________________________________________________________
 
-Capítulo XVIII.--Os próprios deuses foram criados, como confessam os poetas.
+## Capítulo XVIII.--Os próprios deuses foram criados, como confessam os poetas.
 
 Mas, visto que alguns afirmam que, embora sejam apenas imagens, ainda assim existem deuses em homenagem aos quais são feitas; e que as súplicas e sacrifícios apresentados às imagens devem ser encaminhados aos deuses, e são de fato feitos aos deuses;  e que não há outra maneira de chegar até eles, pois
 
@@ -309,7 +309,7 @@ tisasthen.
 
 Orfeu, Fragmentos. __________________________________________________________________
 
-Capítulo XIX.--Os Filósofos Concordam com os Poetas a Respeito aos Deuses.
+## Capítulo XIX.--Os Filósofos Concordam com os Poetas a Respeito aos Deuses.
 
 Tal foi o início da existência de seus deuses e do universo. Agora, o que devemos fazer com isso? Pois cada uma daquelas coisas às quais é atribuída a divindade é concebida como tendo existido desde o início. Pois, se surgiram, não tendo antes existência, como dizem aqueles que tratam dos deuses, não existem. Pois uma coisa ou é incriada e eterna, ou criada e perecível. Nem penso uma coisa e os filósofos outra. “O que é aquilo que sempre existe e não tem origem; ou o que é aquilo que foi originado, mas nunca existiu?”  Discursando sobre o inteligível e o sensível, Platão ensina que aquilo que sempre é, o inteligível, não tem origem, mas aquilo que não é, o sensível, é originado, começa a ser e deixa de existir. Da mesma forma, os estóicos também dizem que todas as coisas serão queimadas e existirão novamente, e o mundo terá um novo começo. Mas se, embora exista, segundo eles, uma causa dupla, uma ativa e governante, a saber, a Providência, a outra passiva e mutável, a saber, a matéria, é, no entanto, impossível que o mundo, mesmo sob os cuidados da Providência, permaneça no mesmo estado, porque é criado - como pode permanecer a constituição desses deuses, que não são auto-existentes, mas foram originados?
 
@@ -319,7 +319,7 @@ Plat., Tim., pág. 27, D.
 
 Literalmente, “por natureza”. __________________________________________________________________
 
-Capítulo XX.--Representações Absurdas dos Deuses.
+## Capítulo XX.--Representações Absurdas dos Deuses.
 
 Se o absurdo da sua teologia se limitasse a dizer que os deuses foram criados e deviam a sua constituição à água, uma vez que demonstrei que nada é feito que não seja também passível de dissolução, eu poderia prosseguir para as restantes acusações. Mas, por um lado, descreveram as suas formas corporais: falando de Hércules, por exemplo, como um deus na forma de um dragão enrolado; de outros como cem mãos; da filha de Zeus, que ele gerou de sua mãe Reia; ou de Deméter, como tendo dois olhos na ordem natural, e dois na testa, e o rosto de um animal na parte de trás do pescoço, e como tendo também chifres, de modo que Reia, assustada com seu monstro de criança, fugiu dela e não lhe deu o seio (thele), de onde misticamente ela é chamada de Athêlâ, mas comumente Phersephoné e Koré, embora ela não seja a mesma que Athênâ, que é chamada Koré por causa do aluno de o olho; - e, por outro lado, eles descreveram suas realizações admiráveis, como as consideram: como Cronos, por exemplo, mutilou seu pai e o jogou para baixo de sua carruagem, e como ele assassinou seus filhos e engoliu os machos deles; e como Zeus amarrou seu pai e o lançou no Tártaro, como Urano também fez com seus filhos, e lutou com os Titãs pelo governo; e como ele perseguiu sua mãe Rhea quando ela se recusou a se casar com ele, e, ela se tornando uma dragão, e ele próprio sendo transformado em um dragão, amarrou-a com o que é chamado de nó hercúleo, e cumpriu seu propósito, do qual a vara de Hermes é um símbolo; e novamente, como ele violou sua filha Fersefone, neste caso também assumindo a forma de um dragão, e se tornou pai de Dionísio.
 
@@ -345,7 +345,7 @@ Ou “descreveu com precisão”.
 
 Fragmentos. __________________________________________________________________
 
-Capítulo XXI.-- Amores Impuros Atribuídos aos Deuses.
+## Capítulo XXI.-- Amores Impuros Atribuídos aos Deuses.
 
 Mas se fosse dito que eles só tinham formas carnais, e possuíam sangue e sementes, e as afeições da raiva e do desejo sexual, mesmo então devemos considerar tais afirmações como absurdas e ridículas; pois não há raiva, nem desejo e apetite, nem semente procriadora nos deuses. Que eles, então, tenham formas carnais, mas que sejam superiores à cólera e à raiva, para que Athênâ não possa ser vista
 
@@ -495,7 +495,7 @@ Ibid., 8 m².
 
 De uma peça desconhecida de Ésquilo. __________________________________________________________________
 
-Capítulo XXII.--Explicações Simbólicas Pretensas.
+## Capítulo XXII.--Explicações Simbólicas Pretensas.
 
 Mas talvez essas coisas sejam caprichos poéticos, e haja alguma explicação natural para elas, como esta de Empédocles: -
 
@@ -523,7 +523,7 @@ __________________________________________________________________
 
 Talvez ela (aer) a. __________________________________________________________________
 
-Capítulo XXIII.--Opiniões de Tales e Platão.
+## Capítulo XXIII.--Opiniões de Tales e Platão.
 
 Você pode dizer, entretanto, já que supera todos os homens em compreensão: Como é que acontece, então, que alguns dos ídolos manifestam poder, se aqueles a quem erguemos as estátuas não são deuses? Pois não é provável que imagens desprovidas de vida e movimento possam, por si mesmas, fazer alguma coisa sem um motor. Que em vários lugares, cidades e nações, certos efeitos são provocados em nome de ídolos, estamos longe de negar. No entanto, se alguns receberam benefícios e outros, pelo contrário, sofreram danos, consideraremos como deuses aqueles que produziram os efeitos em ambos os casos. Mas fiz uma investigação cuidadosa, tanto por que você pensa que os ídolos têm esse poder, quanto quem são eles que, usurpando seus nomes, produzem os efeitos. É-me necessário, no entanto, ao tentar mostrar quem são aqueles que produzem os efeitos atribuídos aos ídolos, e que não são deuses, recorrer a algumas testemunhas dentre os filósofos. Primeiro, Tales, como relatam aqueles que examinaram com precisão suas opiniões, divide [os seres superiores] em Deus, demônios e heróis.
 
@@ -541,7 +541,7 @@ Pseudo-Plat., Epist., ii. pág. 312, DE. O significado é muito obscuro.
 
 Plat., Phoedr., p. 246, E. __________________________________________________________________
 
-Capítulo XXIV.--Sobre os Anjos e os Gigantes.
+## Capítulo XXIV.--Sobre os Anjos e os Gigantes.
 
 Que necessidade há, em falar com vocês que pesquisaram todos os departamentos do conhecimento, de mencionar os poetas ou de examinar opiniões de outro tipo? Basta dizer isso. Se os poetas e filósofos não reconhecessem que existe um Deus, e a respeito desses deuses não tivessem opinião, alguns que eles são demônios, outros que eles são matéria, e outros que eles já foram homens, - poderia haver alguma demonstração de razão para sermos atormentados como somos, uma vez que empregamos uma linguagem que faz uma distinção entre Deus e a matéria, e as naturezas dos dois. Pois, como reconhecemos um Deus, e um Filho, seu Logos, e um Espírito Santo, unidos em essência - o Pai, o Filho, o Espírito, porque o Filho é a Inteligência, a Razão, a Sabedoria do Pai, e o Espírito uma efluência, como a luz do fogo; assim também apreendemos a existência de outros poderes, que exercem domínio sobre a matéria, e por meio dela, e um em particular, que é hostil a Deus: não que algo seja realmente oposto a Deus, como a luta pela amizade, segundo Empédocles, e a noite para o dia, de acordo com o aparecimento e desaparecimento das estrelas (pois mesmo que algo se tivesse colocado em oposição a Deus, teria deixado de existir, sendo a sua estrutura destruída pelo poder e poder de Deus), mas que para o bem que está em Deus, que necessariamente pertence a Ele, e coexiste com Ele, como cor com corpo, sem o qual não tem existência (não como sendo parte dele, mas como uma propriedade concomitante coexistindo com ele, unida e misturada, assim como é natural que o fogo seja amarelo e o éter azul escuro), - ao bem que está em Deus, eu digo, o espírito que é sobre a matéria, que foi criado por Deus, assim como os outros anjos foram criados por Ele, e encarregado do controle da matéria e as formas da matéria, se opõem.
 
@@ -559,7 +559,7 @@ Desses amantes de virgens, portanto, nasceram aqueles que são chamados de gigan
 
 Hesíodo, Theog., 27. [Traços dos Nephilim são encontrados em todas as mitologias.] ____________________________________________________________________
 
-Capítulo XXV.-- Os Poetas e Filósofos Negaram a Providência Divina.
+## Capítulo XXV.-- Os Poetas e Filósofos Negaram a Providência Divina.
 
 Esses anjos, então, que caíram do céu, e assombram o ar e a terra, e não são mais capazes de subir às coisas celestiais, e as almas dos gigantes, que são os demônios que vagam pelo mundo, realizam ações semelhantes, uma (isto é, os demônios) às naturezas que receberam, a outra (isto é, os anjos) aos apetites a que se entregaram. Mas o príncipe da matéria, como pode ser visto apenas pelo que transparece, exerce um controle e uma gestão contrária ao bem que há em Deus: -
 
@@ -601,7 +601,7 @@ Eurip., Ciclo., 332 m².
 
 Ou “poderes de raciocínio” (logismos). __________________________________________________________________
 
-Capítulo XXVI.--Os Demônios Atraem os Homens para a Adoração de Imagens.
+## Capítulo XXVI.--Os Demônios Atraem os Homens para a Adoração de Imagens.
 
 Aqueles que atraem os homens aos ídolos, então, são os demônios mencionados, que estão ansiosos pelo sangue dos sacrifícios e os lambem; mas os deuses que agradam à multidão, e cujos nomes são dados às imagens, eram homens, como se pode aprender pela sua história. E que são os demônios que agem sob seus nomes é provado pela natureza de suas operações. Para alguns castrados, como Rhea; outros ferem e matam, como Ártemis; a deusa táurica mata todos os estranhos. Deixo de lado aqueles que dilaceram com facas e açoites de ossos, e não tentarei descrever todos os tipos de demônios; pois não faz parte de um deus incitar coisas contra a natureza.
 
@@ -623,7 +623,7 @@ Hom., Il., iii. 39.
 
 [ver nota para Teófilo, cap. x., supra, pág. 92.] __________________________________________________________________
 
-Capítulo XXVII.--Artificios dos Demônios.
+## Capítulo XXVII.--Artificios dos Demônios.
 
 E então? Em primeiro lugar, os movimentos irracionais e fantásticos da alma em relação às opiniões produzem de tempos em tempos uma diversidade de imagens (eidola): algumas derivam da matéria, outras elas moldam e produzem para si mesmas; e isso acontece com uma alma especialmente quando ela participa do espírito material e se mistura com ele, olhando não para as coisas celestiais e seu Criador, mas para baixo, para as coisas terrenas, totalmente para a terra, como sendo agora mera carne e sangue, e não mais puro espírito.  Esses movimentos irracionais e fantásticos da alma, então, dão origem a visões vazias na mente, pelas quais ela se torna loucamente voltada para os ídolos. Quando, também, uma alma terna e suscetível, que não tem conhecimento ou experiência de doutrinas mais sólidas, e não está acostumada a contemplar a verdade e a considerar cuidadosamente o Pai e Criador de todas as coisas, fica impressionada com opiniões falsas a respeito de si mesma, então os demônios que pairam sobre a matéria, ávidos de odores sacrificiais e do sangue das vítimas, e sempre prontos para levar os homens ao erro, aproveitam-se desses movimentos ilusórios das almas da multidão; e, tomando posse de seus pensamentos, fazem fluir para a mente visões vazias como se viessem dos ídolos e das estátuas; e quando, também, uma alma por si mesma, como sendo imortal, se move confortavelmente à razão, prevendo o futuro ou curando o presente, os demônios reivindicam a glória para si. __________________________________________________________________
 
@@ -633,7 +633,7 @@ E então? Em primeiro lugar, os movimentos irracionais e fantásticos da alma em
 
 [Kaye, pág. 190.] __________________________________________________________________
 
-Capítulo XXVIII.-- ​​Os deuses pagãos eram simplesmente homens.
+## Capítulo XXVIII.-- ​​Os deuses pagãos eram simplesmente homens.
 
 Mas talvez seja necessário, de acordo com o que já foi aduzido, dizer um pouco sobre os seus nomes. Heródoto, então, e Alexandre, filho de Filipe, em sua carta à sua mãe (e diz-se que cada um deles conversou com os sacerdotes de Heliópolis, de Mênfis e de Tebas), afirmam que aprenderam com eles que os deuses tinham sido homens. Heródoto fala assim: "De tal natureza eram, diziam eles, os seres representados por essas imagens, eles estavam muito longe de serem deuses. No entanto, nos tempos anteriores a eles era diferente; então o Egito tinha deuses como seus governantes, que habitavam a terra com os homens, sendo um deles sempre supremo acima dos demais. O último deles foi Hórus, filho de Osíris, chamado pelos gregos de Apolo. Ele depôs Tifão e governou o Egito como seu último deus-rei. Osíris é nomeado Dionísio (Baco) pelos gregos."  "Quase todos os nomes dos deuses vieram do Egito para a Grécia."  Apolo era filho de Dionísio e Ísis, como também afirma Heródoto: “Segundo os egípcios, Apolo e Diana são filhos de Baco e Ísis; enquanto Latona é sua ama e sua preservadora”.  Esses seres de origem celestial eles tiveram como seus primeiros reis: em parte por ignorância da verdadeira adoração da Divindade, em parte por gratidão por seu governo, eles os estimavam como deuses junto com suas esposas.
 
@@ -659,7 +659,7 @@ ii. 170.
 
 ii. 86. __________________________________________________________________
 
-Capítulo XXIX.-- Prova do Mesmo dos Poetas.
+## Capítulo XXIX.-- Prova do Mesmo dos Poetas.
 
 Mas também entre os gregos aqueles que são eminentes na poesia e na história dizem a mesma coisa. Assim de Hércules: -
 
@@ -717,7 +717,7 @@ Atribuído por Sêneca ao Belerofonte de Eurip.
 
 Do Ino, uma jogada perdida de Eurip. __________________________________________________________________
 
-Capítulo XXX.-- Razões pelas quais a Divindade foi atribuída aos homens.
+## Capítulo XXX.-- Razões pelas quais a Divindade foi atribuída aos homens.
 
 Pois se os homens detestáveis ​​e odiados pelos deuses tinham a reputação de serem deuses, e a filha de Derceto, Semíramis, uma mulher lasciva e manchada de sangue, era considerada uma deusa da Síria; e se, por causa de Derceto, os sírios adoram pombas e Semíramis (pois, algo impossível, uma mulher foi transformada em pomba: a história está em Ctesias), não é de admirar que alguns fossem chamados de deuses por seu povo com base em seu governo e soberania (a Sibila, de quem Platão também faz menção, diz: -
 
@@ -751,7 +751,7 @@ Oracc., Sibila., III. 108-113. [Kaye, pág. 220 e compare o limite. vii., supra.
 
 Calim., Hym. Jov., 8 sq. eu. 12. Mas a citação de São Paulo é de Epimênides.] __________________________________________________________________
 
-Capítulo XXXI.--Confutação das outras acusações apresentadas contra os cristãos.
+## Capítulo XXXI.--Confutação das outras acusações apresentadas contra os cristãos.
 
 Mas eles também inventaram histórias contra nós sobre festas ímpias e relações proibidas entre os sexos, tanto para que possam parecer ter motivos racionais de ódio, quanto porque pensam, ou pelo medo, nos afastar do nosso modo de vida, ou para tornar os governantes duros e inexoráveis, pela magnitude das acusações que trazem. Mas perdem o trabalho com aqueles que sabem que desde a antiguidade é costume, e não apenas em nossa época, que o vício faça guerra à virtude. Assim Pitágoras, com trezentos outros, foi queimado até a morte; Heráclito e Demócrito foram banidos, um da cidade dos Efésios, o outro de Abdera, porque foi acusado de estar louco; e os atenienses condenaram Sócrates à morte. Mas como eles não eram piores no que diz respeito à virtude por causa da opinião da multidão, a calúnia indiscriminada de algumas pessoas também não lança qualquer sombra sobre nós no que diz respeito à retidão de vida, pois diante de Deus temos boa reputação. No entanto, também responderei a essas acusações, embora esteja certo de que, pelo que já foi dito, eu me esclareci diante de vocês.
 
@@ -763,7 +763,7 @@ Por estes motivos, não é provável que desejemos fazer o mal ou nos entregar a
 
 [1 Cor. xv. 44. Uma representação muito clara da doutrina do apóstolo. Veja Kaye, 199; e compare Sobre a Ressurreição, cap. xiii.] __________________________________________________________________
 
-Capítulo XXXII.--Moralidade elevada dos cristãos.
+## Capítulo XXXII.--Moralidade elevada dos cristãos.
 
 Contudo, não é de admirar que eles inventem histórias sobre nós, como as que contam sobre seus próprios deuses, sobre os incidentes de cujas vidas eles tornam mistérios. Mas cabia a eles, se pretendiam condenar as relações sexuais desavergonhadas e promíscuas, odiar Zeus, que gerou filhos de sua mãe Reia e de sua filha Koré, e tomou sua própria irmã como esposa, ou Orfeu, o inventor dessas histórias, que tornou Zeus mais profano e detestável do que o próprio Tiestes; pois este contaminou sua filha em cumprimento de um oráculo e quando queria obter o reino e vingar-se. Mas estamos tão longe de praticar relações sexuais promíscuas, que não é lícito entre nós ceder nem mesmo a um olhar lascivo. “Pois”, diz Ele, “aquele que olhar para uma mulher para cobiçá-la, já cometeu adultério em seu coração”. Aqueles, então, que estão proibidos de olhar para qualquer coisa além daquilo para o qual Deus formou os olhos, que deveriam ser uma luz para nós, e para quem um olhar arbitrário é adultério, sendo os olhos feitos para outros propósitos, e que devem ser chamados a prestar contas pelos seus próprios pensamentos, como pode alguém duvidar que tais pessoas praticam o autocontrole?
 
@@ -779,7 +779,7 @@ Otto traduz: “o que fez com que nós e nossos vizinhos atingíssemos o mais al
 
 Provavelmente de algum escrito apócrifo. [Venha de qualquer fonte, sugere uma cautela de extrema importância para os americanos. Nas partes mais novas do país, a prática, aqui corrigida, surgiu entre "irmãos e irmãs" de diversos nomes religiosos, e os consequentes escândalos surgiram. A todos os cristãos chega o apelo apostólico: "Não haja nome algum entre vós."] ____________________________________________________________________
 
-Capítulo XXXIII.--A Castidade dos Cristãos em Relação ao Matrimônio.
+## Capítulo XXXIII.--A Castidade dos Cristãos em Relação ao Matrimônio.
 
 Portanto, tendo a esperança da vida eterna, desprezamos as coisas desta vida, até os prazeres da alma, cada um de nós considerando-a como sua esposa, com quem se casou de acordo com as leis por nós estabelecidas, e isso apenas com o propósito de ter filhos. Pois assim como o lavrador que lança a semente ao solo espera a colheita, sem semear mais, para nós a procriação de filhos é a medida de nossa condescendência com o apetite. Não, você encontraria muitos entre nós, homens e mulheres, envelhecendo solteiros, na esperança de viver em comunhão mais estreita com Deus. Mas se permanecer na virgindade e no estado de eunuco nos aproxima de Deus, enquanto a indulgência com os pensamentos e desejos carnais nos afasta Dele, nos casos em que evitamos os pensamentos, muito mais rejeitamos as ações. Pois dedicamos nossa atenção, não ao estudo das palavras, mas à exibição e ao ensino das ações - que uma pessoa deve permanecer como nasceu ou contentar-se com um casamento; pois um segundo casamento é apenas um adultério ilusório.
 
@@ -793,7 +793,7 @@ Matt. xix. 9.
 
 [Mas Calisto, bispo herético de Roma (218 d.C.), autorizou até mesmo terceiros casamentos no clero. Hipólito, vol. vi. pág. 343, Padres Ante-Nicenos, Série Edimburgo.] __________________________________________________________________
 
-Capítulo XXXIV.--A grande diferença de moral entre os cristãos e seus acusadores.
+## Capítulo XXXIV.--A grande diferença de moral entre os cristãos e seus acusadores.
 
 Mas embora tal seja o nosso caráter (Oh! por que eu deveria falar de coisas impróprias para serem proferidas?), as coisas ditas a nosso respeito são um exemplo do provérbio: “A prostituta reprova o casto”. Para aqueles que criaram um mercado para a fornicação e estabeleceram resorts infames para os jovens para todo tipo de prazer vil, - que não se abstêm nem mesmo de homens, homens com homens cometendo abominações chocantes, ultrajando todos os corpos mais nobres e mais belos de todas as maneiras, desonrando assim a bela obra de Deus (pois a beleza na terra não é feita por si mesmo, mas enviada para cá pela mão e vontade de Deus), - esses homens, eu digo, insultam-nos pelas mesmas coisas que eles têm consciência de si mesmos, e atribuem aos seus próprios deuses, vangloriando-se deles como atos nobres e dignos dos deuses. Esses adúlteros e pederastas difamam os eunucos e os que já foram casados (enquanto eles próprios vivem como peixes; pois estes engolem tudo o que aparece em seu caminho, e os mais fortes perseguem os mais fracos: e, na verdade, isso é alimentar-se de carne humana, praticar violência em contravenção às próprias leis que você e seus ancestrais, com o devido cuidado por tudo o que é justo e correto, promulgaram), de modo que nem mesmo os governadores das províncias por você enviados basta ouvir as queixas contra aqueles a quem não é lícito, quando são atingidos, não se oferecerem para mais golpes, nem quando difamados não abençoar: pois não basta ser justo (e a justiça é retribuir igual por igual), mas cabe-nos ser bons e pacientes com o mal.
 
@@ -801,7 +801,7 @@ __________________________________________________________________
 
 [Uma alusão à fábula do Sargus; e veja Anat de Burton. Mel., pág. 445.] __________________________________________________________________
 
-Capítulo XXXV.-- Os cristãos condenam e detestam toda crueldade.
+## Capítulo XXXV.-- Os cristãos condenam e detestam toda crueldade.
 
 Que homem sensato, portanto, afirmará, enquanto tal for o nosso caráter, que somos assassinos? Pois não podemos comer carne humana até que matemos alguém. Sendo a primeira acusação, portanto, falsa, se alguém lhes perguntasse, em relação à segunda, se viram o que afirmam, nenhum deles seria tão descarado a ponto de dizer que viu. E ainda assim temos escravos, alguns mais e outros menos, pelos quais não podíamos deixar de ser vistos; mas mesmo entre estes, não foi encontrado nenhum que inventasse tais coisas contra nós. Pois quando eles sabem que não podemos suportar nem mesmo ver um homem condenado à morte, ainda que com justiça; quem deles pode nos acusar de assassinato ou canibalismo? Quem não considera entre as coisas de maior interesse as competições de gladiadores e feras, especialmente aquelas que são oferecidas por você? Mas nós, considerando que ver um homem condenado à morte é o mesmo que matá-lo, renunciamos a tais espetáculos. Como, então, quando nem sequer olhamos, para não contrairmos culpa e poluição, podemos condenar pessoas à morte?
 
@@ -811,7 +811,7 @@ E quando dizemos que as mulheres que usam drogas para provocar o aborto cometem 
 
 [Deixe os americanos lerem isto e perguntarem se uma recaída no paganismo não está ameaçando a nossa civilização, a este respeito. Posso me aventurar a me referir a Moral Reforms (ed. 1869, Lippincotts, Filadélfia), um livrinho de minha autoria, repreendendo essa iniqüidade e traçando a primeira violação dessa lei da moral cristã, e da própria natureza, até um infeliz bispo de Roma, repreendido por Hipólito. Ver vol. vi. pág. 345, Série de Edimburgo dos Padres Ante-Nicenos.] __________________________________________________________________
 
-Capítulo XXXVI.-Suportação da Doutrina da Ressurreição nas Práticas dos Cristãos.
+## Capítulo XXXVI.-Suportação da Doutrina da Ressurreição nas Práticas dos Cristãos.
 
 Quem, então, que acredita na ressurreição, faria de si mesmo um túmulo para os corpos que ressuscitarão? Pois não cabe às mesmas pessoas acreditar que nossos corpos ressuscitarão e comê-los como se não o fizessem; e pensar que a terra devolverá os corpos que ela contém, mas que aqueles que um homem sepultou em si mesmo não serão exigidos de volta. Pelo contrário, é razoável supor que aqueles que pensam que não terão contas a dar da vida presente, mal ou bem passada, e que não há ressurreição, mas calculam que a alma pereça com o corpo, e sendo como se estivesse saciada nele, não se absterão de nenhum ato de ousadia; mas quanto àqueles que estão persuadidos de que nada escapará ao escrutínio de Deus, mas que mesmo o corpo que ministrou aos impulsos irracionais da alma e aos seus desejos será punido junto com ele, não é provável que cometam o menor pecado. Mas se para alguém parece um absurdo que o corpo que se desfez, e foi dissolvido, e reduzido a nada, deva ser reconstruído, certamente não podemos, por qualquer razão, ser acusados ​​de maldade com referência àqueles que não acreditam, mas apenas de loucura; pois com as opiniões pelas quais nos enganamos não prejudicamos mais ninguém.
 
@@ -821,7 +821,7 @@ Mas que não é apenas nossa crença que os corpos ressuscitarão, mas que muito
 
 [É uma inferência justa que O Discurso foi escrito depois da Embaixada. “Nele”, diz Kaye, “podem ser encontrados quase todos os argumentos que a razão humana foi capaz de apresentar em apoio à ressurreição”. pág. 200.] __________________________________________________________________
 
-Capítulo XXXVII.-- ​​Súplica para ser julgado com justiça.
+## Capítulo XXXVII.-- ​​Súplica para ser julgado com justiça.
 
 E agora você, que está inteiramente em tudo, por natureza e por educação, íntegro, moderado, benevolente e digno de seu governo, agora que me livrei das várias acusações e provei que somos piedosos, gentis e temperantes em espírito, incline sua cabeça real em aprovação. Pois quem é mais merecedor de obter as coisas que pede, do que aqueles que, como nós, oram pelo seu governo, para que você possa, como é mais equitativo, receber o reino, filho do pai, e que o seu império possa receber aumento e acréscimo, todos os homens tornando-se sujeitos ao seu domínio? E isto também é para nossa vantagem, para que possamos levar uma vida pacífica e tranquila, e possamos nós mesmos cumprir prontamente tudo o que nos é ordenado. __________________________________________________________________
 

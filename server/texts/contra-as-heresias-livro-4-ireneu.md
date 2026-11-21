@@ -67,7 +67,7 @@ Jesus, portanto, será para eles o autor e professor de tal transgressão, na me
 
 [3807] Mat. xxiii. 9.
 
-## Capítulo II
+## Capítulo II. Provas do claro testemunho de Moisés e dos outros profetas, cujas palavras são as…
 
 Capítulo II.-- ​​Provas do claro testemunho de Moisés e dos outros profetas, cujas palavras são as palavras de Cristo, de que há um só Deus, o fundador do mundo, a quem Nosso Senhor pregou e a quem Ele chamou de Pai.
 
@@ -133,7 +133,7 @@ E, portanto, também os escribas e fariseus, que desde os tempos da lei começar
 
 [3829] João XII. 32, João iii. 14.
 
-## Capítulo III
+## Capítulo III. Resposta às cavilações dos gnósticos. Não devemos supor que o verdadeiro Deus possa ser…
 
 Capítulo III.--Resposta às cavilações dos gnósticos. Não devemos supor que o verdadeiro Deus possa ser mudado ou chegar ao fim porque os céus, que são Seu trono, e a terra, Seu escabelo, passarão.
 
@@ -147,7 +147,7 @@ Eles perecerão, mas tu permanecerás, e todos envelhecerão como uma roupa; e c
 
 [3832] Isa. li. 6.
 
-## Capítulo IV
+## Capítulo IV. Resposta a outra objeção, mostrando que a destruição de Jerusalém, que era a cidade do…
 
 Capítulo IV. - Resposta a outra objeção, mostrando que a destruição de Jerusalém, que era a cidade do grande Rei, em nada diminuiu a suprema majestade e poder de Deus, pois essa destruição foi posta em execução pelo mais sábio conselho do mesmo Deus.
 
@@ -181,7 +181,7 @@ Mas o trigo e o joio, sendo inanimados e irracionais, tornaram-se assim por natu
 
 [3842] Sal. xlix. 12.
 
-## Capítulo V
+## Capítulo V. O autor retorna ao seu argumento anterior e mostra que havia um só Deus anunciado pela…
 
 Capítulo V. - O autor retorna ao seu argumento anterior e mostra que havia um só Deus anunciado pela lei e pelos profetas, a quem Cristo confessa como Seu Pai, e que, por meio de Sua palavra, um Deus vivo com Ele, se deu a conhecer aos homens em ambas as alianças.
 
@@ -229,7 +229,7 @@ Mas nosso Senhor é Ele mesmo a ressurreição, como Ele mesmo declara: “Eu so
 
 [3856] Gênesis xiv. 22.
 
-## Capítulo VI
+## Capítulo VI. Explicação das palavras de Cristo: “Ninguém conhece o Pai, senão o Filho”, etc .…
 
 Capítulo VI. - Explicação das palavras de Cristo: “Ninguém conhece o Pai, senão o Filho”, etc .; palavras que os hereges interpretam mal. Prova de que, pelo Pai revelando o Filho, e pelo Filho sendo revelado, o Pai nunca foi desconhecido.
 
@@ -275,7 +275,7 @@ Pois o Filho, estando presente com a sua própria obra desde o início, revela o
 
 [3866] Mat. xii. 27; Lucas X. 22. Harvey observa aqui que “é notável que este texto, tendo sido corretamente citado pouco tempo antes, de acordo com o texto grego recebido, ho ean bouletas ho huios apokalupsai, o tradutor agora não apenas usa o verbo único revelaverit, mas diz incisivamente que foi assim escrito pelo venerável autor”. É provável, portanto, que a passagem anterior tenha sido harmonizada com o texto recebido posteriormente; com o qual, no entanto, a forma siríaca concorda.
 
-## Capítulo VII
+## Capítulo VII. Recapitulação do argumento anterior, mostrando que Abraão, através da revelação da…
 
 Capítulo VII.-- ​​Recapitulação do argumento anterior, mostrando que Abraão, através da revelação da Palavra, conheceu o Pai e a vinda do Filho de Deus. Por esta razão, ele se alegrou ao ver o dia de Cristo, quando as promessas feitas a ele deveriam ser cumpridas. O fruto desta alegria fluiu para a posteridade, isto é, para aqueles que são participantes da fé de Abraão, mas não para os judeus que rejeitam a Palavra de Deus.
 
@@ -317,7 +317,7 @@ Capítulo VII.-- ​​Recapitulação do argumento anterior, mostrando que Abra
 
 [3880] Mat. xii. 27; Lucas X. 22.
 
-## Capítulo VIII
+## Capítulo VIII. Tentativas vãs de Marcião e seus seguidores, que excluem Abraão da salvação concedida por…
 
 Capítulo VIII.-- ​​Tentativas vãs de Marcião e seus seguidores, que excluem Abraão da salvação concedida por Cristo, que libertou não apenas Abraão, mas a semente de Abraão, cumprindo e não destruindo a lei quando Ele curou no sábado.
 
@@ -419,7 +419,7 @@ Pois Deus disse: Honra a teu pai e a tua mãe; e: Todo aquele que amaldiçoar o 
 
 [3915] Ex. xx. 12, LXX.
 
-## Capítulo X
+## Capítulo X. As Escrituras do Antigo Testamento, e aquelas escritas por Moisés em particular, em todos…
 
 Capítulo X. - As Escrituras do Antigo Testamento, e aquelas escritas por Moisés em particular, em todos os lugares fazem menção ao Filho de Deus e predizem Seu advento e paixão. Deste fato segue-se que eles foram inspirados por um único e mesmo Deus.
 
@@ -455,7 +455,7 @@ Portanto, Moisés, ao repreender a ingratidão do povo, disse: "Vós, povo apaix
 
 [3927] Deut. xxxii. 6. “Te possuiu”, isto é, seguindo o significado do hebraico, “te possuiu por geração”.
 
-## Capítulo XI
+## Capítulo XI. Os antigos profetas e justos sabiam de antemão do advento de Cristo, e desejavam…
 
 Capítulo XI.-- Os antigos profetas e justos sabiam de antemão do advento de Cristo, e desejavam sinceramente vê-lo e ouvi-lo, revelando-se nas Escrituras pelo Espírito Santo, e sem qualquer mudança em si mesmo, enriquecendo os homens dia a dia com benefícios, mas conferindo-os em maior abundância às gerações posteriores do que às gerações anteriores.
 
@@ -487,7 +487,7 @@ Pois Ele o formou para crescimento e crescimento, como diz a Escritura: “Aumen
 
 [3935] Mat. xxi. 16; Sal. viii. 3.
 
-## Capítulo XII
+## Capítulo XII. Parece claramente que houve apenas um autor tanto da antiga quanto da nova lei, pelo fato…
 
 Capítulo XII.-- ​​Parece claramente que houve apenas um autor tanto da antiga quanto da nova lei, pelo fato de que Cristo condenou tradições e costumes repugnantes à primeira, enquanto Ele confirmou seus preceitos mais importantes e ensinou que Ele próprio era o fim da lei mosaica.
 
@@ -535,7 +535,7 @@ E Ele não pregou aos Seus seguidores outro Deus Pai, além daquele que foi proc
 
 [3947] Lucas xix. 8.
 
-## Capítulo XIII
+## Capítulo XIII. Cristo não revogou os preceitos naturais da lei, mas antes os cumpriu e ampliou. Ele…
 
 Capítulo XIII.--Cristo não revogou os preceitos naturais da lei, mas antes os cumpriu e ampliou. Ele removeu o jugo e a escravidão da antiga lei, para que a humanidade, agora libertada, pudesse servir a Deus com aquela piedade confiante que convém aos filhos.
 
@@ -581,7 +581,7 @@ E nisso Ele diz: “Porque o servo não sabe o que faz o seu senhor”, Ele apon
 
 [3959] João VIII. 58.
 
-## Capítulo XIV
+## Capítulo XIV. Se Deus exige obediência do homem, se Ele formou o homem, chamou-o e colocou-o sob leis…
 
 Capítulo XIV.-- Se Deus exige obediência do homem, se Ele formou o homem, chamou-o e colocou-o sob leis, foi apenas para o bem-estar do homem; não que Deus necessitasse do homem, mas que Ele graciosamente conferiu ao homem Seus favores de todas as maneiras possíveis.
 
@@ -615,7 +615,7 @@ E novamente: "Eu quero que onde eu estiver, eles também possam estar, para que 
 
 [3968] 1 Cor. x. 11.
 
-## Capítulo XV
+## Capítulo XV. A princípio Deus considerou suficiente inscrever a lei natural, ou o Decálogo, no coração…
 
 Capítulo XV. - A princípio Deus considerou suficiente inscrever a lei natural, ou o Decálogo, no coração dos homens; mas depois Ele achou necessário refrear, com o jugo da lei mosaica, os desejos dos judeus, que estavam abusando de sua liberdade; e até para acrescentar alguns comandos especiais, por causa da dureza de seus corações.
 
@@ -655,7 +655,7 @@ E se certas pessoas, por causa dos israelitas desobedientes e arruinados, afirma
 
 [3982] [Observe esta forte afirmação da liberdade das ações humanas.]
 
-## Capítulo XVI
+## Capítulo XVI. A justiça perfeita não foi conferida nem pela circuncisão nem por quaisquer outras…
 
 Capítulo XVI.-- A justiça perfeita não foi conferida nem pela circuncisão nem por quaisquer outras cerimônias legais. O Decálogo, porém, não foi cancelado por Cristo, mas está sempre em vigor: os homens nunca foram dispensados ​​dos seus mandamentos.
 
@@ -723,7 +723,7 @@ E, portanto, o Senhor diz: “Quanto a toda palavra vã que os homens proferiram
 
 [4006] 1 animal de estimação. ii. 16.
 
-## Capítulo XVII
+## Capítulo XVII. Prova de que Deus não designou a dispensação levítica por Seu próprio bem, ou como…
 
 Capítulo XVII.-- ​​Prova de que Deus não designou a dispensação levítica por Seu próprio bem, ou como exigindo tal serviço; pois Ele, de fato, não precisa de nada dos homens.
 
@@ -881,7 +881,7 @@ O altar, então, está no céu (4057) (pois para esse lugar são dirigidas nossa
 
 [4058] Rev. 19.
 
-## Capítulo XIX
+## Capítulo XIX. As coisas terrenas podem ser do tipo das celestiais, mas estas últimas não podem ser do…
 
 Capítulo XIX.--As coisas terrenas podem ser do tipo das celestiais, mas estas últimas não podem ser do tipo de outras ainda superiores e desconhecidas; nem podemos, sem loucura absoluta, sustentar que Deus é conhecido por nós apenas como o tipo de um ser ainda desconhecido e superior.
 
@@ -905,7 +905,7 @@ Mas que ninguém pode declarar plenamente a bondade de Deus a partir das coisas 
 
 [4062] O latim é "et universum eum decurrerint". Harvey imagina que esta última palavra corresponda a katatrechosi mas é difícil encaixar tal significado no contexto.
 
-## Capítulo XX
+## Capítulo XX. Aquele Deus formou todas as coisas no mundo, por meio da Palavra e do Espírito Santo: e…
 
 Capítulo XX.--Aquele Deus formou todas as coisas no mundo, por meio da Palavra e do Espírito Santo: e que embora Ele seja para nós nesta vida invisível e incompreensível, no entanto, Ele não é desconhecido; na medida em que Suas obras O declaram, e Sua Palavra mostrou que de muitas maneiras Ele pode ser visto e conhecido.
 
@@ -1063,7 +1063,7 @@ Pois eles ficarão cheios de lepra e serão expulsos do acampamento dos justos. 
 
 [4113] Mat. xxi. 31.
 
-## Capítulo XXI
+## Capítulo XXI. A fé de Abraão era idêntica à nossa; esta fé foi prefigurada pelas palavras e ações dos…
 
 Capítulo XXI.-- A fé de Abraão era idêntica à nossa; esta fé foi prefigurada pelas palavras e ações dos antigos patriarcas.
 
@@ -1097,7 +1097,7 @@ Por essa causa, seu irmão sofreu as conspirações e perseguições de um irmã
 
 [4123] [Os olhos de Lia estavam fracos, de acordo com a LXX.; e Irineu infere que os de Raquel eram "excessivamente lindos". Cânticos, eu. 15.]
 
-## Capítulo XXII
+## Capítulo XXII. Cristo não veio por causa dos homens de uma época apenas, mas por todos os que, vivendo…
 
 Capítulo XXII.-- ​​Cristo não veio por causa dos homens de uma época apenas, mas por todos os que, vivendo de maneira justa e piedosamente, creram Nele; e para aqueles também que acreditarão.
 
@@ -1121,7 +1121,7 @@ Como Jeremias declara: “O santo Senhor lembrou-se do Seu Israel morto, que dor
 
 [4130] Rom. iii. 30.
 
-## Capítulo XXIII
+## Capítulo XXIII. Os patriarcas e profetas, apontando o advento de Cristo, fortificaram assim, por assim…
 
 Capítulo XXIII.-- ​​Os patriarcas e profetas, apontando o advento de Cristo, fortificaram assim, por assim dizer, o caminho da posteridade para a fé de Cristo; e assim o trabalho dos apóstolos foi diminuído na medida em que eles colheram os frutos do trabalho de outros.
 
@@ -1147,7 +1147,7 @@ Portanto Filipe não teve grande trabalho a realizar em relação a este homem, 
 
 [4136] Atos ii. 41, Atos iv. 4.
 
-## Capítulo XXIV
+## Capítulo XXIV. A conversão dos gentios foi mais difícil do que a dos judeus; os trabalhos daqueles…
 
 Capítulo XXIV.-- A conversão dos gentios foi mais difícil do que a dos judeus; os trabalhos daqueles apóstolos, portanto, que se engajaram na primeira tarefa, foram maiores do que aqueles que empreenderam a última.
 
@@ -1167,7 +1167,7 @@ Estas coisas também foram pregadas aos gentios por palavra, sem [a ajuda das] E
 
 [4140] Fil. ii. 8.
 
-## Capítulo XXV
+## Capítulo XXV. Ambas as alianças foram prefiguradas em Abraão e no trabalho de Tamar; havia, no entanto…
 
 Capítulo XXV.-- Ambas as alianças foram prefiguradas em Abraão e no trabalho de Tamar; havia, no entanto, apenas um e o mesmo Deus para cada aliança.
 
@@ -1197,7 +1197,7 @@ Também por esta razão, estes mesmos homens (os profetas) também oram para ter
 
 [4148] [As comoventes palavras que concluem o parágrafo anterior são ilustradas pela nobre frase que inicia este parágrafo. O espírito infantil desses Padres reconhece Cristo em todos os lugares, no Antigo Testamento, prefigurado por inúmeras imagens e símbolos em formas paternas e legais (cerimoniais).]
 
-## Capítulo XXVI
+## Capítulo XXVI. O tesouro escondido nas Escrituras é Cristo; a verdadeira exposição das Escrituras pode…
 
 Capítulo XXVI.-- O tesouro escondido nas Escrituras é Cristo; a verdadeira exposição das Escrituras pode ser encontrada somente na Igreja.
 
@@ -1271,7 +1271,7 @@ Pois estes também preservam esta nossa fé em um Deus que criou todas as coisas
 
 [4173] [Observe a limitação; não apenas a sucessão, mas com ela (1) pura moralidade e santidade e (2) testemunho não adulterado. Nenhuma catolicidade além destas.]
 
-## Capítulo XXVII
+## Capítulo XXVII. Os pecados dos homens dos tempos antigos, que incorreram no desagrado de Deus, foram, por…
 
 Capítulo XXVII - Os pecados dos homens dos tempos antigos, que incorreram no desagrado de Deus, foram, por Sua providência, cometidos por escrito, para que assim pudéssemos obter instrução e não ficarmos cheios de orgulho. Não devemos, portanto, inferir que havia outro Deus além daquele a quem Cristo pregou; devemos temer, antes, que o único e mesmo Deus que infligiu punição aos antigos, deva cair mais pesado sobre nós.
 
@@ -1349,7 +1349,7 @@ Não sejais, portanto, participantes deles.” [4193] E como então a condenaç�
 
 [4197] 2 Tes. eu. 6-10.
 
-## Capítulo XXVIII
+## Capítulo XXVIII. Provam-se insensatos aqueles que exageram a misericórdia de Cristo, mas silenciam quanto…
 
 Capítulo XXVIII.-- ​​Provam-se insensatos aqueles que exageram a misericórdia de Cristo, mas silenciam quanto ao julgamento e olham apenas para a graça mais abundante do Novo Testamento; mas, esquecidos do maior grau de perfeição que isso exige de nós, esforçam-se por mostrar que existe outro Deus além daquele que criou o mundo.
 
@@ -1385,7 +1385,7 @@ E quem são aqueles que mesmo então se entregaram à morte? Aqueles homens, sem
 
 [4207] 1 Cor. XIV. 20.
 
-## Capítulo XXIX
+## Capítulo XXIX. Refutação dos argumentos dos marcionitas, que tentaram mostrar que Deus era o autor do…
 
 Capítulo XXIX.-- Refutação dos argumentos dos marcionitas, que tentaram mostrar que Deus era o autor do pecado, porque cegou Faraó e seus servos.
 
@@ -1407,7 +1407,7 @@ De acordo com esta palavra, portanto, o apóstolo diz, na Segunda [Epístola] ao
 
 [4213] Ex. iii. 19.
 
-## Capítulo XXX
+## Capítulo XXX. Refutação de outro argumento apresentado pelos marcionitas, de que Deus ordenou aos…
 
 Capítulo XXX.-- Refutação de outro argumento apresentado pelos marcionitas, de que Deus ordenou aos hebreus que despojassem os egípcios.
 
@@ -1459,7 +1459,7 @@ Mas assim digo “de mãos estranhas”, não como se o mundo não fosse proprie
 
 [4228] Ver Rev.
 
-## Capítulo XXXI
+## Capítulo XXXI. Não devemos imputar precipitadamente como crimes aos homens de antigamente aquelas ações…
 
 Capítulo XXXI.-- Não devemos imputar precipitadamente como crimes aos homens de antigamente aquelas ações que a Escritura não condenou, mas devemos antes buscar nelas tipos de coisas que virão: um exemplo disso no incesto cometido por Ló.
 
@@ -1515,7 +1515,7 @@ Quin etiam si quis mutilaverit advena formam,
 
 Protinus ex sese Suggestu vulnera complet." [Que uma estátua de sal ainda pode ser vista nesta vizinhança é agora confirmada por muitos viajantes modernos (relatório do Tenente Lynch, Marinha dos Estados Unidos), o que explica a inferência natural de Josefo e outros em quem nosso autor confiou. A coincidência é digna de nota.]
 
-## Capítulo XXXII
+## Capítulo XXXII. Que Deus único foi o autor de ambos os Testamentos, é confirmado pela autoridade de um…
 
 Capítulo XXXII.-- ​​Que Deus único foi o autor de ambos os Testamentos, é confirmado pela autoridade de um presbítero que foi ensinado pelos apóstolos.
 
@@ -1547,7 +1547,7 @@ E, por esta razão, aqueles que introduzem outras doutrinas escondem de nós a o
 
 [4252] [Se este e o capítulo anterior nos parecem supérfluos, devemos refletir que tal testemunho, desde o início, estabeleceu a unidade da Sagrada Escritura e preservou para nós - a Bíblia.]
 
-## Capítulo XXXIII
+## Capítulo XXXIII. Todo aquele que confessa que um só Deus é o autor de ambos os Testamentos, e lê…
 
 Capítulo XXXIII.-- ​​Todo aquele que confessa que um só Deus é o autor de ambos os Testamentos, e lê diligentemente as Escrituras em companhia dos presbíteros da Igreja, é um verdadeiro discípulo espiritual; e ele compreenderá e interpretará corretamente tudo o que os profetas declararam a respeito de Cristo e da liberdade do Novo Testamento.
 
@@ -1783,7 +1783,7 @@ Aqueles, por outro lado, que se afastam Dele e desprezam Seus preceitos, e por s
 
 [4340] "Ex alia et alia substantia fuisse Prophetias."
 
-## Capítulo XXXIV
+## Capítulo XXXIV. Prova contra os marcionitas de que os profetas se referiam em todas as suas predições ao…
 
 Capítulo XXXIV.-- Prova contra os marcionitas de que os profetas se referiam em todas as suas predições ao nosso Cristo.
 
@@ -1829,7 +1829,7 @@ No início, Ele imaginou a foice por meio de Abel, apontando que deveria haver u
 
 [4351] [Se for lembrado que conhecemos Irineu aqui, apenas através de uma tradução latina muito obscura, seremos lentos em censurar esta conclusão.]
 
-## Capítulo XXXV
+## Capítulo XXXV. Uma refutação daqueles que alegam que os profetas proferiram algumas predições sob a…
 
 Capítulo XXXV.--Uma refutação daqueles que alegam que os profetas proferiram algumas predições sob a inspiração do mais alto, outras do Demiurgo. Desentendimentos dos Valentinianos entre si em relação a essas mesmas previsões.
 
@@ -1981,7 +1981,7 @@ Mas os filhos do reino irão para as trevas exteriores; ali haverá choro e rang
 
 [4393] Mat. viii. 11, 12.
 
-## Capítulo XXXVII
+## Capítulo XXXVII. Os homens possuem livre arbítrio e são dotados da faculdade de fazer escolhas. Não é…
 
 Capítulo XXXVII.-- ​​Os homens possuem livre arbítrio e são dotados da faculdade de fazer escolhas. Não é verdade, portanto, que alguns sejam bons por natureza e outros maus.
 
@@ -2085,7 +2085,7 @@ Ele declara: “Eu disse: Vós sois deuses; e todos sois filhos do Altíssimo”
 
 [4420] Isto é, a natureza humana do homem não deve impedi-lo de se tornar participante do divino.
 
-## Capítulo XXXIX
+## Capítulo XXXIX. O homem é dotado da faculdade de distinguir o bem e o mal; para que, sem compulsão, ele…
 
 Capítulo XXXIX.-- O homem é dotado da faculdade de distinguir o bem e o mal; para que, sem compulsão, ele tenha o poder, por sua própria vontade e escolha, de cumprir os mandamentos de Deus, evitando assim os males preparados para os rebeldes.
 
@@ -2147,7 +2147,7 @@ Como também a Escritura nos diz que Deus disse à serpente: “E porei inimizad
 
 [4435] Gênesis iii. 15.
 
-## Capítulo XLI
+## Capítulo XLI. Aquelas pessoas que não acreditam em Deus, mas que são desobedientes, são anjos e filhos…
 
 Capítulo XLI.-- Aquelas pessoas que não acreditam em Deus, mas que são desobedientes, são anjos e filhos do diabo, não de fato por natureza, mas por imitação. Encerramento deste livro e escopo do livro seguinte.
 

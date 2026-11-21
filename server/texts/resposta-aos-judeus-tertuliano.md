@@ -23,7 +23,7 @@ translator: "Scriptorium Divinum (Tradução Integral em Domínio Público)"
 
 ---
 
-Capítulo 1. Ocasião de Escrita. Posição relativa de judeus e gentios ilustrada.
+## Capítulo 1. Ocasião de Escrita. Posição relativa de judeus e gentios ilustrada.
 
 Aconteceu muito recentemente, houve uma disputa entre um cristão e um prosélito judeu. Alternadamente com cabos controversos, cada um deles passava o dia até a noite. Além disso, pelo barulho oposto de alguns partidários dos indivíduos, a verdade começou a ser obscurecida por uma espécie de nuvem. Foi, portanto, nosso prazer que aquilo que, devido ao ruído confuso da disputa, poderia ser menos completamente elucidado ponto por ponto, fosse examinado com mais cuidado, e que a pena determinasse, para fins de leitura, as questões tratadas.
 
@@ -35,7 +35,7 @@ Pois, além disso, de acordo com os registros memoriais das Escrituras divinas, 
 
 1 Tessalonicenses 1:9-10 Pois assim o povo menor - isto é, o posterior - supera o povo maior, ao mesmo tempo que alcança a graça do favor divino, do qual Israel foi divorciado.
 
-Capítulo 2. A Lei Anterior a Moisés.
+## Capítulo 2. A Lei Anterior a Moisés.
 
 Estamos, portanto, frente a frente e determinamos a soma e a substância da questão real dentro de listas definidas.
 
@@ -51,7 +51,7 @@ E não anulemos este poder que Deus possui, que reforma os preceitos da lei de a
 
 Também Noé, incircunciso – sim, e inobservador do sábado – Deus libertou do dilúvio. Também para Enoque, homem muitíssimo justo, incircunciso e inobservador do sábado, Ele trasladado deste mundo; que primeiro não provou a morte, para que, sendo candidato à vida eterna, pudesse neste momento nos mostrar que também podemos, sem o fardo da lei de Moisés, agradar a Deus. Melquisedeque também, o sacerdote do Deus Altíssimo, incircunciso e inobservador do sábado, foi escolhido para o sacerdócio de Deus. Além disso, Ló, irmão de Abraão, prova que foi pelos méritos da justiça, sem observância da lei, que ele foi libertado da conflagração dos sodomitas.
 
-Capítulo 3. Da circuncisão e da substituição da antiga lei.
+## Capítulo 3. Da circuncisão e da substituição da antiga lei.
 
 Mas Abraão (você diz) foi circuncidado. Sim, mas ele agradou a Deus antes da sua circuncisão; nem ainda ele observou o sábado. Pois ele aceitou a circuncisão; mas como deveria ser um sinal daquele tempo, não um título prerrogativo de salvação. Na verdade, os patriarcas subsequentes eram incircuncisos, como Melquisedeque, que, incircunciso, ofereceu ao próprio Abraão, já circuncidado, no seu regresso da batalha, pão e vinho. Mas novamente, (você diz) o filho de Moisés teria sido sufocado em uma ocasião por um anjo, se Zípora não tivesse circuncidado o prepúcio da criança com uma pedra; portanto, existe o maior perigo se alguém deixar de circuncidar o prepúcio de sua carne. Não, mas se a circuncisão trouxesse a salvação, até mesmo o próprio Moisés, no caso de seu próprio filho, não teria omitido circuncidá-lo no oitavo dia; ao passo que se concorda que Zípora fez isso durante a viagem, por compulsão do anjo.
 
@@ -67,7 +67,7 @@ Mas o hábito da nova lei era apontar para a clemência e converter em tranquili
 
 Pois Israel - que havia sido conhecido por Deus, e que por Ele foi ressuscitado no Egito, e foi transportado através do Mar Vermelho, e que no deserto, alimentado quarenta anos com maná, foi forjado até a aparência da eternidade, e não contaminado com paixões humanas, ou alimentado com carnes deste mundo, mas alimentado com pães de anjo - o maná - e suficientemente ligado a Deus por Seus benefícios - esqueceu seu Senhor e Deus, dizendo a Arão: Faça-nos deuses, para ir adiante nós: pois aquele Moisés, que nos expulsou da terra do Egito, nos abandonou completamente; e o que aconteceu com ele não sabemos. E, conseqüentemente, nós, que não éramos o povo de Deus em tempos passados, fomos feitos Seu povo, ao aceitarmos a nova lei acima mencionada, e a nova circuncisão antes predita.
 
-Capítulo 4. Da Observância do Sábado.
+## Capítulo 4. Da Observância do Sábado.
 
 Segue-se, portanto, que, na medida em que a abolição da circuncisão carnal e da antiga lei é demonstrada como tendo sido consumada em seus momentos específicos, também a observância do sábado é demonstrada como tendo sido temporária.
 
@@ -81,7 +81,7 @@ Daí é manifestamente mostrado que no número dos sete dias interveio um dia de
 
 Daí é manifesto que a força de tais preceitos era temporária e respeitava a necessidade das circunstâncias presentes; e que não foi com vistas à sua observância perpétua que Deus anteriormente lhes deu tal lei.
 
-Capítulo 5. Dos Sacrifícios.
+## Capítulo 5. Dos Sacrifícios.
 
 Assim, novamente, mostramos que foram preditos sacrifícios de oblações terrenas e de sacrifícios espirituais; e, além disso, que desde o início os terrenos foram preditos, na pessoa de Caim, como sendo os do filho mais velho, isto é, de Israel; e os sacrifícios opostos demonstraram ser os do filho mais novo, Abel, isto é, do nosso povo. Pois o mais velho, Caim, ofereceu presentes a Deus a partir do fruto da terra; mas o filho mais novo, Abel, do fruto de suas ovelhas. Deus respeitou Abel e seus dons; mas a Caim e às suas dádivas Ele não respeitou. E Deus disse a Caim: Por que está caído o teu semblante? Você não pecou – se você oferece de fato corretamente, mas não divide corretamente? Mantenha sua paz. Pois a ti será a tua conversão e ele será senhor de ti. E então disse Caim a Abel, seu irmão: Vamos ao campo; e ele foi com ele para lá e o matou.
 
@@ -93,13 +93,13 @@ Assim, conseqüentemente, os sacrifícios espirituais de louvor são apontados, 
 
 Mas dos sacrifícios espirituais Ele acrescenta, dizendo: E em todo lugar oferecem sacrifícios limpos ao meu Nome, diz o Senhor.
 
-Capítulo 6. Da Abolição e do Abolidor da Lei Antiga.
+## Capítulo 6. Da Abolição e do Abolidor da Lei Antiga.
 
 Portanto, visto que é manifesto que um sábado temporal foi mostrado e um sábado eterno foi predito; uma circuncisão carnal predita, e uma circuncisão espiritual pré-indicada; uma lei temporal e uma lei eterna formalmente declaradas; sacrifícios carnais e sacrifícios espirituais previstos; segue-se que, depois de todos esses preceitos terem sido dados carnalmente, no tempo anterior, ao povo de Israel, sobreviria um tempo em que os preceitos da antiga Lei e das antigas cerimônias cessariam, e a promessa da nova lei, e o reconhecimento dos sacrifícios espirituais, e a promessa do Novo Testamento, sobreviriam; enquanto a luz do alto brilharia sobre nós que estávamos sentados nas trevas e detidos na sombra da morte. E, portanto, cabe a nós uma necessidade que 1 Coríntios 9:16 nos vincula, uma vez que temos como premissa que uma nova lei foi predita pelos profetas, e que não a que já havia sido dada a seus pais no momento em que Ele os conduziu da terra do Egito, para mostrar e provar, por um lado, que aquela antiga lei cessou, e por outro, que a nova lei prometida está agora em operação.
 
 E, de fato, primeiro devemos perguntar se é esperado um doador da nova lei, e um herdeiro do novo testamento, e um sacerdote dos novos sacrifícios, e um purificador da nova circuncisão, e um observador do sábado eterno, para suprimir a lei antiga, e instituir o novo testamento, e oferecer os novos sacrifícios, e reprimir as cerimônias antigas, e suprimir a antiga circuncisão junto com seu próprio sábado, e anunciar o novo reino que não é corruptível. Perguntamos, eu digo, devemos, se este doador da nova lei, observador do sábado espiritual, sacerdote dos sacrifícios eternos, governante eterno do reino eterno, veio ou não: que, se ele já veio, o serviço pode ter que ser prestado a ele; se ele ainda não chegou, talvez seja necessário aguardá-lo, até que, com seu advento, seja manifesto que os preceitos da antiga Lei foram suprimidos e que os primórdios da nova lei deveriam surgir. E, principalmente, devemos estabelecer que a antiga Lei e os profetas não poderiam ter cessado, a menos que Ele tivesse vindo, que foi constantemente anunciado, através da mesma Lei e através dos mesmos profetas, como vindouro.
 
-Capítulo 7. A questão se Cristo será levado.
+## Capítulo 7. A questão se Cristo será levado.
 
 Portanto, sobre esta questão, estamos pé a pé, se o Cristo que foi constantemente anunciado como vindouro já veio, ou se a Sua vinda ainda é um tema de esperança. Para provar essa questão, também devemos examinar os tempos em que os profetas anunciaram que o Cristo viria; que, se conseguirmos reconhecer que Ele veio dentro dos limites daqueles tempos, podemos, sem dúvida, acreditar que Ele é aquele cuja vinda futura sempre foi o tema do cântico profético, em quem nós - as nações, a saber - fomos anunciados como destinados a acreditar; e que, quando for acordado que Ele veio, podemos, sem dúvida, também acreditar que a nova lei foi dada por Ele, e não rejeitar o novo testamento Nele e através Dele elaborado para nós. Sabemos que mesmo os judeus não tentam refutar que Cristo viria, visto que é para o Seu advento que eles dirigem a sua esperança.
 
@@ -111,7 +111,7 @@ Embora haja também um sentido espiritual a ser atribuído a essas expressões -
 
 O que direi dos próprios romanos, que fortificam o seu próprio império com guarnições das suas próprias legiões, nem podem estender o poder do seu reino para além destas nações? Mas o Nome de Cristo está se espalhando por toda parte, acreditado em toda parte, adorado por todas as nações acima enumeradas, reinando em toda parte, adorado em toda parte, conferido igualmente em toda parte a todos. Nenhum rei, com Ele, encontra maior favor, nenhum bárbaro menor alegria; nenhuma dignidade ou linhagem goza de distinções de mérito; para todos Ele é igual, para todos Rei, para todos Juiz, para todos Deus e Senhor. João 20:28 Nem hesitarias em acreditar no que afirmamos, visto que o vês acontecer.
 
-Capítulo 8. Dos tempos do nascimento e paixão de Cristo e da destruição de Jerusalém.
+## Capítulo 8. Dos tempos do nascimento e paixão de Cristo e da destruição de Jerusalém.
 
 Conseqüentemente, devem ser investigados os tempos da predita e futura natividade de Cristo, e de Sua paixão, e do extermínio da cidade de Jerusalém, isto é, sua devastação. Pois Daniel diz que tanto a cidade santa quanto o lugar santo serão exterminados junto com o Líder vindouro, e que o pináculo será destruído até a ruína. E assim os tempos da vinda de Cristo, o Líder, Isaías 55:4 devem ser investigados, o que rastrearemos em Daniel; e, depois de computá-los, provará que Ele veio, mesmo com base nos tempos prescritos e em sinais e operações competentes Dele. O que provamos, novamente, com base nas consequências que já foram anunciadas após Seu advento; para que possamos acreditar que tudo foi tão bem cumprido quanto previsto.
 
@@ -193,7 +193,7 @@ Vespasiano, no primeiro ano de seu império, subjuga os judeus na guerra; e são
 
 Portanto, quando estes tempos também foram completados, e os judeus subjugados, posteriormente cessaram naquele lugar libações e sacrifícios, que desde então não puderam ser celebrados naquele lugar; pois a unção também foi exterminada naquele lugar após a paixão de Cristo. Pois havia sido predito que a unção seria exterminada naquele lugar; como nos Salmos está profetizado: Eles exterminaram minhas mãos e pés. E o sofrimento deste extermínio foi aperfeiçoado nos tempos dos lxx hebdomads, sob Tibério César, no consulado de Rubellius Geminus e Fufius Geminus, no mês de março, na época da páscoa, no oitavo dia antes das calendas de abril, no primeiro dia de pães ázimos, em que eles mataram o cordeiro à tarde, assim como havia sido ordenado por Moisés. Conseqüentemente, toda a sinagoga de Israel o matou, dizendo a Pilatos, quando ele desejou despedi-lo: Seu sangue caia sobre nós e sobre nossos filhos; e, se você o dispensar, você não será amigo de César; João 19:12 para que se cumprissem todas as coisas que dele estavam escritas.
 
-Capítulo 9. Das Profecias do Nascimento e Conquistas de Cristo.
+## Capítulo 9. Das Profecias do Nascimento e Conquistas de Cristo.
 
 Começamos, portanto, a provar que o Nascimento de Cristo foi anunciado pelos profetas; como Isaías (por exemplo) prediz: Ouça, casa de Davi; não tenha disputas mesquinhas com os homens, pois Deus está propondo uma luta. Portanto, o próprio Deus lhe dará um sinal; Eis que a virgem conceberá e dará à luz um filho, e lhe chamarás o nome de Emanuel (que é, interpretado, Deus conosco): manteiga e mel ele comerá; : pois, antes que a criança aprenda a chamar pai ou mãe, receberá o poder de Damasco e os despojos de Samaria, em oposição ao rei dos assírios.
 
@@ -235,7 +235,7 @@ Eu exijo, novamente - admitindo que Aquele que foi predito pelos profetas como d
 
 A ação, portanto, do Cristo que veio deve ser examinada sendo colocada lado a lado com a regra das Escrituras. Pois, se não me engano, nós O encontramos distinguido por uma dupla operação – a da pregação e a do poder. Agora, deixe cada contagem ser eliminada sumariamente. Conseqüentemente, vamos cumprir a ordem que estabelecemos, ensinando que Cristo foi anunciado como pregador; como, através de Isaías: Clame, diz ele, com vigor, e não poupe; ergue a tua voz como se fosse uma trombeta e anuncia à minha comunidade os seus crimes e à casa de Jacó os seus pecados. Dia após dia eles me procuram e para aprender meus caminhos eles cobiçam, como um povo que praticou a justiça e não abandonou o julgamento de Deus, e assim por diante: que, além disso, Ele deveria praticar atos de poder do Pai: Eis que nosso Deus tratará o julgamento retributivo; Ele mesmo virá e nos salvará: então os enfermos serão curados, e os olhos dos cegos verão, e os ouvidos dos surdos ouvirão, e a língua dos mudos será desatada, e os coxos saltarão como um cervo, e assim por diante; quais obras nem vocês negam que Cristo as fez, visto que costumavam dizer que, por causa das obras, vocês não o apedrejaram, mas porque Ele as fez nos sábados.
 
-Capítulo 10. A respeito da paixão de Cristo e suas previsões e esboços do Antigo Testamento.
+## Capítulo 10. A respeito da paixão de Cristo e suas previsões e esboços do Antigo Testamento.
 
 Com relação ao último passo, claramente, de Sua paixão você levanta uma dúvida; afirmando que a paixão da cruz não foi prevista com referência a Cristo, e instando, além disso, que não é credível que Deus tenha exposto Seu próprio Filho a esse tipo de morte; porque Ele mesmo disse: Maldito todo aquele que for pendurado num madeiro. Mas a razão do caso explica antecipadamente o sentido desta maldição; pois Ele diz em Deuteronômio: Se, além disso, (um homem) estiver (envolvido) em algum pecado incorrendo no julgamento de morte, e morrer, e você o suspender em uma árvore, seu corpo não permanecerá na árvore, mas com sepultamento você o enterrará no mesmo dia; porque amaldiçoado por Deus é todo aquele que for suspenso num madeiro; e não contaminarás a terra que o Senhor teu Deus te dará por (teu) lote.
 
@@ -267,7 +267,7 @@ Pois nem Ele foi sepultado, exceto quando estava morto, nem Sua sepultura foi re
 
 Para que vocês fizessem assim no início do primeiro mês de seus novos (anos), até mesmo Moisés profetizou, quando ele estava predizendo que toda a comunidade dos filhos de Israel deveria imolar um cordeiro ao entardecer, e deveria comer este sacrifício solene deste dia (isto é, da páscoa dos pães ázimos) com amargura; e acrescentou que era a páscoa do Senhor, isto é, a paixão de Cristo. Qual predição também foi cumprida, que no primeiro dia dos pães ázimos você matou Cristo; 1 Coríntios 5:7 e (para que as profecias se cumprissem) o dia se apressou em fazer um entardecer, - isto é, para causar escuridão, que foi feita ao meio-dia; e assim Deus converteu os vossos dias festivos em tristeza, e os vossos cânticos em lamentação. Pois depois da paixão de Cristo vos sobreveio até mesmo o cativeiro e a dispersão, antes previstos pelo Espírito Santo.
 
-Capítulo 11. Provas Adicionais, de Ezequiel. Resumo do argumento profético até agora.
+## Capítulo 11. Provas Adicionais, de Ezequiel. Resumo do argumento profético até agora.
 
 Pois, novamente, é por esses seus desertos que Ezequiel anuncia que sua ruína está prestes a chegar: e não apenas nesta era - uma ruína que já aconteceu - mas no dia da retribuição, Isaías 61:2, que será subsequente. Da qual ruína ninguém será libertado, exceto aquele que tiver sido frontalmente selado com a paixão do Cristo que você rejeitou. Porque assim está escrito: E o Senhor me disse: Filho do homem, tu viste o que fazem os anciãos de Israel, cada um deles nas trevas, cada um num quarto escondido: porque disseram: O Senhor não nos vê; o Senhor abandonou a terra. E Ele me disse: Volta-te novamente, e verás maiores enormidades que estes fazem. E Ele me apresentou aos limiares da porta da casa do Senhor, que dá para o norte; e eis que ali estavam mulheres sentadas e lamentando Thammuz.
 
@@ -281,11 +281,11 @@ E assim, uma vez que a profecia foi cumprida através do Seu advento - isto é, 
 
 Até agora, é suficiente, nestes pontos, ter entretanto traçado o curso do caminho ordenado de Cristo, pelo qual Ele é provado ser tal como costumava ser anunciado, mesmo com base naquele acordo das Escrituras, que nos permitiu falar, em oposição aos judeus, com base no pré-julgamento da maior parte. Pois que não questionem ou neguem os escritos que produzimos; que o fato também de que coisas que foram preditas como destinadas a acontecer depois de Cristo estão sendo reconhecidas como cumpridas pode tornar impossível para eles negarem (esses escritos) estarem no mesmo nível das Escrituras divinas. Caso contrário, a menos que Ele tivesse vindo depois de quem as coisas que costumavam ser anunciadas deveriam ser realizadas, seriam provadas as que foram concluídas?
 
-Capítulo 12. Outras Provas do Chamado dos Gentios.
+## Capítulo 12. Outras Provas do Chamado dos Gentios.
 
 Observem as nações universais emergindo desde então do vórtice do erro humano para o Senhor Deus, o Criador, e Seu Cristo; e se você ousa negar que isso foi profetizado, imediatamente lhe ocorre a promessa do Pai nos Salmos, que diz: Meu Filho és Tu; hoje eu te gerei. Peça-me, e eu lhe darei os gentios como sua herança e como sua possessão os limites da terra. Pois você não poderá afirmar que esse filho é Davi e não Cristo; ou os limites da terra foram prometidos antes a Davi, que reinou dentro do único (país da) Judéia, do que a Cristo, que já levou cativo todo o orbe com a fé em Seu evangelho; como Ele diz através de Isaías: Eis que te dei como aliança da minha família, como luz dos gentios, para que possas abrir os olhos dos cegos - é claro, dos que erram - para libertar das amarras os presos - isto é, para libertá-los dos pecados - e da casa da prisão - isto é, da morte - como os que estão sentados nas trevas - da ignorância, a saber. E se essas bênçãos vierem por meio de Cristo, elas não terão sido profetizadas por outro senão Aquele por meio de quem consideramos que elas foram realizadas. Lucas 2:25-33
 
-Capítulo 13. Argumento da Destruição de Jerusalém e Desolação da Judéia.
+## Capítulo 13. Argumento da Destruição de Jerusalém e Desolação da Judéia.
 
 Portanto, uma vez que os filhos de Israel afirmam que erramos ao receber o Cristo, que já veio, vamos colocar uma objeção contra eles a partir das próprias Escrituras, no sentido de que o Cristo que foi o tema da predição já veio; embora nos tempos da predição de Daniel tenhamos provado que o Cristo já veio e foi o tema do anúncio. Agora cabia a Ele nascer em Belém de Judá. Pois assim está escrito no profeta: E tu, Belém, não és a menor entre os líderes de Judá; porque de ti sairá um Líder que alimentará o meu povo Israel. Mas se até agora ele não nasceu, qual foi o líder que foi assim anunciado para proceder da tribo de Judá, para fora de Belém? Pois lhe convém proceder da tribo de Judá e de Belém.
 
@@ -319,7 +319,7 @@ Então, novamente, encontramos uma ameaça condicional da espada: se você não 
 
 Visto, portanto, que os judeus foram preditos como destinados a sofrer essas calamidades por causa de Cristo, e descobrimos que eles as sofreram, e os vemos enviados para a dispersão e permanecendo nela, é manifesto que é por causa de Cristo que essas coisas aconteceram aos judeus, o sentido das Escrituras harmonizando-se com a questão dos eventos e da ordem dos tempos. Ou então, se Cristo ainda não veio, por causa de quem eles foram preditos como destinados a sofrer, quando Ele vier, segue-se que eles sofrerão assim. E onde estará então uma filha de Sião abandonada, que agora não existe? Onde estão as cidades exust, que já estão exust e amontoadas? Onde está a dispersão de uma raça que agora está no exílio? Restaure à Judéia a condição que Cristo encontrará; e (então, se preferir), afirme que algum outro (Cristo) está vindo.
 
-Capítulo 14. Conclusão. Pista para o erro dos judeus.
+## Capítulo 14. Conclusão. Pista para o erro dos judeus.
 
 Aprenda agora (além da pergunta imediata) a pista do seu erro. Afirmamos dois personagens do Cristo demonstrados pelos profetas, e outros tantos adventos dele mencionados: um, na humildade (é claro o primeiro), quando Ele tem que ser conduzido como uma ovelha como vítima; e, como um cordeiro mudo diante do tosquiador, Ele não abriu a boca, nem mesmo em seu aspecto atraente. Pois anunciamos, diz o profeta, a respeito Dele: (Ele é) como uma criança, como uma raiz numa terra sedenta; e não havia Nele atrativo ou glória. E nós O vimos, e Ele não tinha atrativo nem graça; mas Seu semblante era desonrado, deficiente em comparação com os filhos dos homens, um homem posto na peste, e sabendo como suportar a enfermidade: a saber, como tendo sido colocado pelo Pai como uma pedra de ofensa, e feito um pouco menor por Ele do que os anjos, Ele se declara um verme, e não um homem, uma ignomínia do homem, e o lixo do Povo.
 

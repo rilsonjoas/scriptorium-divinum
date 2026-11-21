@@ -33,7 +33,7 @@ Mas neste terceiro livro apresentarei provas das Escrituras, para que não possa
 
 [3308] Lucas x. 16.
 
-## Capítulo I
+## Capítulo I. Os apóstolos não começaram a pregar o Evangelho, ou a registrar qualquer coisa, até que…
 
 Capítulo I. - Os apóstolos não começaram a pregar o Evangelho, ou a registrar qualquer coisa, até que foram dotados dos dons e do poder do Espírito Santo. Eles pregaram um só Deus, Criador do céu e da terra.
 
@@ -59,7 +59,7 @@ Mateus também publicou um Evangelho escrito entre os hebreus [3310] em seu pró
 
 [3312] Esta é a tradução de Harvey do antigo latim, in illo qui contra disputat.
 
-## Capítulo III
+## Capítulo III. Uma refutação dos hereges, do fato de que, nas várias Igrejas, se manteve uma sucessão…
 
 Capítulo III.--Uma refutação dos hereges, do fato de que, nas várias Igrejas, se manteve uma sucessão perpétua de bispos.
 
@@ -91,7 +91,7 @@ eu. pág. 252.) Aqui é óbvio que a fé foi mantida em Roma, por aqueles que al
 
 [3317] ikanotato. Harvey traduz isso como totalmente suficiente e, portanto, parafraseia: Mas sua epístola é totalmente suficiente para ensinar aqueles que desejam aprender.
 
-## Capítulo IV
+## Capítulo IV. A verdade não se encontra em nenhum outro lugar senão na Igreja Católica, única…
 
 Capítulo IV.-- A verdade não se encontra em nenhum outro lugar senão na Igreja Católica, única depositária da doutrina apostólica. As heresias são de formação recente e não podem traçar sua origem até os apóstolos.
 
@@ -117,7 +117,7 @@ Mas os demais, chamados gnósticos, surgem de Menandro, discípulo de Simão, co
 
 [3323] Pensa-se que isto não significa a excomunhão propriamente dita, mas uma espécie de autoexcomunhão, isto é, antecipar a sentença da Igreja, abandonando-a completamente. Veja a nota de Valesius em sua edição de Eusébio.
 
-## Capítulo V
+## Capítulo V. Cristo e Seus apóstolos, sem qualquer fraude, engano ou hipocrisia, pregaram que um só…
 
 Capítulo V. - Cristo e Seus apóstolos, sem qualquer fraude, engano ou hipocrisia, pregaram que um só Deus, o Pai, era o fundador de todas as coisas. Eles não acomodaram sua doutrina às pretensões de seus ouvintes.
 
@@ -141,7 +141,7 @@ Mas que o Senhor veio como o médico dos enfermos, Ele mesmo declara dizendo: �
 
 [3328] Gênesis ix. 27.
 
-## Capítulo VI
+## Capítulo VI. O Espírito Santo, ao longo das Escrituras do Antigo Testamento, não fez menção a nenhum…
 
 Capítulo VI - O Espírito Santo, ao longo das Escrituras do Antigo Testamento, não fez menção a nenhum outro Deus ou Senhor, exceto aquele que é o verdadeiro Deus.
 
@@ -223,7 +223,7 @@ Mas nesta [cláusula], “seja no céu ou na terra”, ele não fala dos formado
 
 [3357] Heb. iii. 5; Núm. xii. 7.
 
-## Capítulo VII
+## Capítulo VII. Resposta a uma objeção fundada nas palavras de São Paulo (2 Cor. iv. 4). São Paulo…
 
 Capítulo VII.--Resposta a uma objeção fundada nas palavras de São Paulo (2 Cor. iv. 4). São Paulo ocasionalmente usa palavras que não estão em sua sequência gramatical.
 
@@ -247,7 +247,7 @@ Se, então, alguém não prestar atenção à leitura [adequada] [da passagem], 
 
 [3363] 2 Tes. ii. 8.
 
-## Capítulo VIII
+## Capítulo VIII. Resposta a uma objeção, decorrente das palavras de Cristo (Mt. VI. 24). Somente Deus deve…
 
 Capítulo VIII.--Resposta a uma objeção, decorrente das palavras de Cristo (Mt. VI. 24). Somente Deus deve ser realmente chamado de Deus e Senhor, pois Ele não tem começo nem fim.
 
@@ -281,7 +281,7 @@ Pois Ele mesmo é incriado, sem começo e sem fim, e sem falta de nada. Ele mesm
 
 [3372] Sal. cxv. 3.
 
-## Capítulo IX
+## Capítulo IX. Um e o mesmo Deus, o Criador do céu e da terra, é Aquele que os profetas predisseram e…
 
 Capítulo IX.-- Um e o mesmo Deus, o Criador do céu e da terra, é Aquele que os profetas predisseram e que foi declarado pelo Evangelho. Prova disso, desde logo, no Evangelho de São Mateus.
 
@@ -441,7 +441,7 @@ Pois variado e rico em atributos é o Pai, como já mostrei no livro anterior [3
 
 [3428] Sal. cx. 1.
 
-## Capítulo XI
+## Capítulo XI. Provas em continuação, extraídas do Evangelho de São João. Os Evangelhos são em número de…
 
 Capítulo XI – Provas em continuação, extraídas do Evangelho de São João. Os Evangelhos são em número de quatro, nem mais nem menos. Razões místicas para isso.
 
@@ -797,7 +797,7 @@ Ou como poderia ter ignorado Pedro, a quem o Senhor deu testemunho, que a carne 
 
 [3538] Latim, "Ad horam cesimus subjectioni" (Gal. ii. 5). Irineu dá-lhe um significado totalmente diferente daquele que tem no texto recebido. Jerônimo diz que havia muita variação nas cópias das Escrituras em sua época no que diz respeito à passagem - alguns retendo, outros rejeitando o negativo (Adv. Marc. v. 3).
 
-## Capítulo XIV
+## Capítulo XIV. Se Paulo conhecesse quaisquer mistérios não revelados aos outros apóstolos, Lucas, seu…
 
 Capítulo XIV. - Se Paulo conhecesse quaisquer mistérios não revelados aos outros apóstolos, Lucas, seu constante companheiro e companheiro de viagem, não poderia ignorá-los; nem a verdade poderia ter ficado escondida dele, por meio de quem somente aprendemos muitos e mais importantes detalhes da história do Evangelho.
 
@@ -867,7 +867,7 @@ Há também muitos outros detalhes mencionados apenas por Lucas, que são utiliz
 
 [3563] Lucas XIV.
 
-## Capítulo XV
+## Capítulo XV. Refutação dos Ebionitas, que menosprezaram a autoridade de São Paulo, dos escritos de São…
 
 Capítulo XV.-- Refutação dos Ebionitas, que menosprezaram a autoridade de São Paulo, dos escritos de São Lucas, que devem ser recebidos como um todo. Exposição da hipocrisia, engano e orgulho dos gnósticos. Os apóstolos e seus discípulos conheciam e pregavam um Deus, o Criador do mundo.
 
@@ -893,7 +893,7 @@ Há entre eles aqueles que afirmam que aquele homem que vem de cima deve seguir 
 
 [3568] Tal é o sentido extraído por Harvey da antiga versão latina, que diz assim: "Decipiuntur autem omnes, qui quod est in verbis verisimile, se putant posse discere a veritate." Para "omnes", ele leria "omnino" e descarta a emenda proposta pelos editores anteriores, a saber, "discernere" para "discere".
 
-## Capítulo XVI
+## Capítulo XVI. Provas dos escritos apostólicos de que Jesus Cristo era um e o mesmo, o Filho unigênito…
 
 Capítulo XVI.-- Provas dos escritos apostólicos de que Jesus Cristo era um e o mesmo, o Filho unigênito de Deus, Deus perfeito e homem perfeito.
 
@@ -1029,7 +1029,7 @@ Pois Ele mesmo trouxe verdadeiramente a salvação: visto que Ele mesmo é a Pal
 
 [3613] 1 Ped. ii. 23.
 
-## Capítulo XVII
+## Capítulo XVII. Os apóstolos ensinam que não foi Cristo nem o Salvador, mas o Espírito Santo, quem desceu…
 
 Capítulo XVII.-- ​​Os apóstolos ensinam que não foi Cristo nem o Salvador, mas o Espírito Santo, quem desceu sobre Jesus. A razão desta descida.
 
@@ -1083,7 +1083,7 @@ Caberá, portanto, a você e a todos os outros que dão atenção a este escrito
 
 [3631] Comp. livro. eu. preferência. nota 4.
 
-## Capítulo XVIII
+## Capítulo XVIII. Continuação da argumentação anterior. Provas dos escritos de São Paulo e das palavras de…
 
 Capítulo XVIII.--Continuação da argumentação anterior. Provas dos escritos de São Paulo e das palavras de Nosso Senhor, de que Cristo e Jesus não podem ser considerados seres distintos; nem se pode alegar que o Filho de Deus se tornou homem apenas na aparência, mas que o fez verdadeira e efetivamente.
 
@@ -1181,7 +1181,7 @@ Mas o que Ele apareceu, isso também era: Deus recapitulou em Si mesmo a antiga 
 
 [3664] Deut. xxxii. 4.
 
-## Capítulo XIX
+## Capítulo XIX. Jesus Cristo não foi um mero homem, gerado de José no curso normal da natureza, mas foi o…
 
 Capítulo XIX.-- Jesus Cristo não foi um mero homem, gerado de José no curso normal da natureza, mas foi o verdadeiro Deus, gerado pelo Pai Altíssimo, e o próprio homem, nascido da Virgem.
 
@@ -1233,7 +1233,7 @@ Pois há muitas moradas na casa do Pai, (3682) visto que também há muitos memb
 
 [3682] João XIV. 2.
 
-## Capítulo XX
+## Capítulo XX. Deus mostrou-se, pela queda do homem, como paciente, benigno, misericordioso, poderoso…
 
 Capítulo XX.-- Deus mostrou-se, pela queda do homem, como paciente, benigno, misericordioso, poderoso para salvar. O homem é, portanto, muito ingrato se, desatento à sua própria sorte e aos benefícios que lhe são oferecidos, não reconhece a graça divina.
 
@@ -1301,7 +1301,7 @@ Seu poder cobriu os céus e a terra está cheia de Seu louvor. Diante de Sua fac
 
 [3707] Esta citação de Habacuque, aqui comentada por Irineu, difere tanto do hebraico como da LXX, e aproxima-se mais da antiga versão itálica da passagem.
 
-## Capítulo XXI
+## Capítulo XXI. Uma vindicação da profecia em Isa. vii. 14 contra as interpretações errôneas de…
 
 Capítulo XXI.-- Uma vindicação da profecia em Isa. vii. 14 contra as interpretações errôneas de Teodotion, Áquila, dos ebionitas e dos judeus. Autoridade da versão da Septuaginta. Argumentos que provam que Cristo nasceu de uma virgem.
 
@@ -1455,7 +1455,7 @@ E por esse motivo a lei chama uma mulher desposada com um homem, a esposa daquel
 
 [3755] Comp. 1 Cor. xv. 20-22.
 
-## Capítulo XXIII
+## Capítulo XXIII. Argumentos em oposição a Taciano, mostrando que estava em consonância com a justiça e…
 
 Capítulo XXIII.-- ​​Argumentos em oposição a Taciano, mostrando que estava em consonância com a justiça e misericórdia divinas que o primeiro Adão participasse primeiro daquela salvação oferecida a todos por Cristo.
 
@@ -1539,7 +1539,7 @@ Agora Adão havia sido conquistado, toda a vida lhe foi tirada: portanto, quando
 
 [3780] Literalmente, "mas ele não viu a Deus". Supõe-se que o tradutor tenha lido oiden, sabia, pois eiden, viu.
 
-## Capítulo XXIV
+## Capítulo XXIV. Recapitulação dos vários argumentos apresentados contra a impiedade gnóstica sob todos os…
 
 Capítulo XXIV.--Recapitulação dos vários argumentos apresentados contra a impiedade gnóstica sob todos os seus aspectos. Os hereges, agitados por toda explosão de doutrina, são combatidos pelo ensino uniforme da Igreja, que permanece sempre assim e é consistente consigo mesmo.
 
@@ -1563,7 +1563,7 @@ Aqueles, portanto, que não participam Dele, não são nutridos para a vida a pa
 
 [3786] isto é, o Espírito.
 
-## Capítulo XXV
+## Capítulo XXV. Este mundo é governado pela providência de um Deus, que é dotado de justiça infinita para…
 
 Capítulo XXV.-- Este mundo é governado pela providência de um Deus, que é dotado de justiça infinita para punir os ímpios, e de bondade infinita para abençoar os piedosos e conceder-lhes a salvação.
 

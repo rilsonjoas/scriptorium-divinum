@@ -20,7 +20,7 @@ Prefácio.
 
 A heresia de Ário rebaixou a dignidade do Espírito Santo, bem como a do Filho. Ele ensinou que as Três Pessoas da Santíssima Trindade são totalmente diferentes umas das outras, tanto em essência como em glória. “Existe uma tríade, não em glórias iguais;” “um mais glorioso que o outro em suas glórias em um grau infinito.” Assim diz a Thalia, citada em Ath. de Sin. § 15. Mas a definição de Nicéia, embora fosse precisa em relação ao Filho, deixou a doutrina do Espírito Santo comparativamente aberta (Πιστεύομεν εἰς τὸ ῞Αγιον Πνεῦμα,) não por hesitação ou dúvida, mas porque este lado da especulação ariana não era proeminente. (Cf. Basílio, Cartas cxxv. e ccxxvi. e Dr. Swete em DCB iii. 121.) Foi a expulsão de Macedônio da sé de Constantinopla em 360 que levou o “macedonianismo” ao auge. Ele foi colocado lá pelos arianos como um ariano. Teodoreto (Ecc. Hist. ii. 5) explica como surgiu o desacordo. Ele foi um defensor, se não o autor, da palavra de ordem ὁμοιούσιον (Soc. ii. 45) (mas muitos defensores do ὁμοιούσιον (por exemplo, Eustácio de Sebasteia) evitaram chamar o Espírito Santo de criatura. Assim, o Pneumatomachi começou a ser claramente marcado. Os vários credos dos arianos e semi-arianos não atacaram diretamente a Divindade do Espírito Santo, embora não aceitassem a doutrina da unidade essencial das Três Pessoas. (Cf. Hahn, Bibliothek der Symbole, pp. 148-174, citado por Swete.) Mas o seu ensino individual foi muito além das suas confissões. Os teólogos católicos foram despertados para o perigo, e no retorno de Atanásio de seu terceiro exílio, um concílio foi realizado em Alexandria que resultou na primeira condenação eclesiástica formal dos depravadores do Espírito Santo, no Tomus ad Antiochenos (qv com o prefácio na p. 481 de Ath. na edição desta série. Cf. também Ath. ad Serap. i. 2, 10). Nos dez anos seguintes, os Pneumatomachi, macedônios ou maratonos, assim chamados por causa de Marathonius, bispo de Nicomédia, cujo apoio ao partido era talvez mais pecuniário do que intelectual (Nicephorus HE ix. 47), chegaram à cabeça e foram amplamente identificados com os Homoiousians. Em 374 foi publicado o Ancoratus de Santo Epifânio, bispo de Salamina em Chipre, escrito em 373, e contendo dois credos (vide Heurtley de F. et Symb. pp. 14-18), o primeiro dos quais é quase idêntico à Confissão de Constantinopla. Expressa crença em τὸ Πνεῦμα τὸ ῞Αγιον, Κύριον, καὶ Ζωοποιὸν, τὸ ἐκ τοῦ Πατρὸς , τὸ λαλῆσαν διὰ τῶν προφητῶν. Foi neste mesmo ano, 374, que Anfilóquio, primo-irmão de Gregório de Nazianzo e amigo e filho espiritual de Basílio, fez a primeira de suas visitas anuais de outono a Cesaréia (bispo Lightfoot, DCB i. 105) e lá instou São Basílio a esclarecer todas as dúvidas quanto à verdadeira doutrina do Espírito Santo, escrevendo um tratado sobre o assunto. São Basílio concordou e, ao concluir o trabalho, mandou gravá-lo em pergaminho (Carta ccxxxi.) e enviou-o a Anfilóquio, a quem o dedicou.
 
-Capítulo I.
+## Capítulo I.
 
 Observações preliminares sobre a necessidade de investigação exata das porções mais minuciosas da teologia.
 
@@ -52,7 +52,7 @@ Embora, então, eu esteja ciente de que a controvérsia contida em pequenas pala
 
 É impossível transmitir em inglês a força precisa das preposições utilizadas. “Com” representa μετά, cujo significado original é “em meio”; “junto com”, σύν, cujo significado original é “ao mesmo tempo que”. O latim da edição beneditina traduz o primeiro por “cum” e o segundo por “una cum”. “Através” significa διά, que, com o genitivo, é usado para referir-se ao instrumento; “in” para ε'ν, “in”, mas também comumente usado para se referir ao instrumento ou meio. Na conhecida passagem de 1 Cor. viii. 6, A.V. traduz δι᾽ οὗ τὰ πάντα por “através de quem são todas as coisas”; RV, por “por quem”.
 
-Capítulo II.
+## Capítulo II.
 
 A origem da observação atenta das sílabas pelos hereges.
 
@@ -74,7 +74,7 @@ Johnston cita Philo (de Cher. § 35; i. 162. n.) falando de ὄργανον δ�
 
 Aqui, é claro, o Filho se refere.
 
-Capítulo III.
+## Capítulo III.
 
 A discussão sistemática de sílabas é derivada da filosofia pagã.
 
@@ -130,7 +130,7 @@ cf. ματαιότης ματαιοτήτων, “vaidade das vaidades”, Ecc. 
 
 ἄψυχα ὄργανα. Um escravo, segundo Aristóteles, Eth. Nicho. viii. 7, 6, é ἔμψυχον ὄργανον.
 
-Capítulo IV.
+## Capítulo IV.
 
 Que não há distinção no uso bíblico dessas sílabas.
 
@@ -156,7 +156,7 @@ Jó xxxiii, 6, LXX.
 
 1 Cor. xii. 12.
 
-Capítulo V.
+## Capítulo V.
 
 Esse “por quem” é dito também no caso do Pai, e “de quem” no caso do Filho e do Espírito.
 
@@ -288,7 +288,7 @@ A nota dos Editores Beneditinos observa que o teólogo francês Fronton du Duc (
 
 A frase “através de uma mulher” provavelmente daria origem à suspeita de mero trânsito na geração, enquanto a frase “da mulher” indicaria satisfatoriamente que a natureza era compartilhada pela mãe e pela prole. O apóstolo não estava de forma alguma se contradizendo, mas mostrou que as palavras podem ser trocadas sem dificuldade. Visto, portanto, que o termo “de quem” é transferido para assuntos idênticos, no caso dos quais “através de quem” é decidido ser usado adequadamente, com que consistência essas frases podem ser invariavelmente distinguidas uma da outra, a fim de que a falha possa ser falsamente encontrada na verdadeira religião?
 
-Capítulo VI.
+## Capítulo VI.
 
 Questão juntada com aqueles que afirmam que o Filho não está com o Pai, mas depois do Pai. Também em relação à igual glória.
 
@@ -368,7 +368,7 @@ Johnston salienta bem que estes cinco testemunhos não são citados fortuitament
 
 Baruque iii. 3, lxx.
 
-Capítulo VII.
+## Capítulo VII.
 
 Contra aqueles que afirmam que não é apropriado dizer “com quem” do Filho, e que a frase apropriada é “por quem”.
 
@@ -398,7 +398,7 @@ Heb. eu. 1.cf. Agosto Ep. ii. ad Serap.: “O Pai é Luz, e o Filho brilho e luz
 
 2 Cor. 4. 4.
 
-Capítulo VIII.
+## Capítulo VIII.
 
 De quantas maneiras “Através de quem” é usado; e em que sentido “com quem” é mais adequado. Explicação de como o Filho recebe um mandamento e como é enviado.
 
@@ -588,7 +588,7 @@ Marcos ix. 25.
 
 Há uma dificuldade em seguir o argumento das citações anteriores. F. Combefis, o editor dominicano francês de Basil, ousadamente interporia um “não” e leria “sempre que ele não nos instruir a respeito do Pai”. autoridade para este remédio violento. Os Editores Beneditinos dizem que tudo fica claro se traduzirmos “postquam nos de patre erudivit”. Mas o grego não admitirá isso.
 
-Capítulo IX.
+## Capítulo IX.
 
 Concepções definitivas sobre o Espírito que estão em conformidade com o ensino das Escrituras.
 
@@ -626,7 +626,7 @@ cf. 2 animal de estimação. eu. 4: “Para que sejais participantes da natureza
 
 ὑπ᾽ αὐτῶν τῶν λογίων τοῦ πνεύματος. São Basílio está tão inconsciente quanto outros primeiros Padres da limitação da palavra λόγια a “discursos”. Vide Salmon’s Int. para o N.T. Ed. 4. pág. 95.
 
-Capítulo X.
+## Capítulo X.
 
 Contra aqueles que dizem que não é certo classificar o Espírito Santo com o Pai e o Filho.
 
@@ -672,7 +672,7 @@ Ef. ii. 12.
 
 A palavra χειρόγραφον, mais comum em latim do que em grego, é usada geralmente para designar um título. cf. Juv. Sentado. XVI. 41, “Debitor aut sumptos pergit non reddere nummos, vana supervacui dicens chirographa ligni.” Sobre o uso da palavra, veja Bp. Lightfoot no Col. 14. Os nomes dos catecúmenos foram registrados, e a Renúncia e Profissão de Fé (Interrogationes et Responsa; ἐπερωτήσεις καἰ ἀποκρίσεις) pode ter sido assinada.
 
-Capítulo XI.
+## Capítulo XI.
 
 Que aqueles que negam o Espírito são transgressores.
 
@@ -690,7 +690,7 @@ João eu. 18. Sobre a leitura “Deus unigênito” cf. nota na pág. 9. Nesta p
 
 Tal pessoa não tem parte nem sorte na verdadeira adoração; pois é impossível adorar o Filho, exceto pelo Espírito Santo; impossível invocar o Pai, exceto pelo Espírito de adoção.
 
-Capítulo XII.
+## Capítulo XII.
 
 Contra aqueles que afirmam que só o batismo em nome do Pai é suficiente.
 
@@ -728,7 +728,7 @@ cf. Deut. 4. 2, e Rev. 18, 19.
 
 cf. nota na pág. 17.
 
-Capítulo XIII.
+## Capítulo XIII.
 
 Declaração da razão pela qual nos escritos de Paulo os anjos estão associados ao Pai e ao Filho.
 
@@ -758,7 +758,7 @@ Gen. xxxi. 47.
 
 Josué. xviv. 27, lxx.
 
-Capítulo XIV.
+## Capítulo XIV.
 
 Objeção de que alguns foram batizados em Moisés e creram nele, e uma resposta a isso; com comentários sobre tipos.
 
@@ -834,7 +834,7 @@ ROM. xii. 33.
 
 1 Cor. ii. 7.
 
-Capítulo XV.
+## Capítulo XV.
 
 Responda à objeção sugerida de que somos batizados “na água”. Também sobre o batismo.
 
@@ -894,7 +894,7 @@ Sobre o batismo de sangue dos mártires, cf. Eus. vi. 4, sobre o martírio do Ca
 
 Τοὺς λογισμοὺς καθαιρῶν. cf. 2 Cor. x. 4.
 
-Capítulo XVI.
+## Capítulo XVI.
 
 Que o Espírito Santo é, em todas as concepções, inseparável do Pai e do Filho, tanto na criação dos objetos perceptíveis, na dispensação dos assuntos humanos, como no julgamento vindouro.
 
@@ -1002,7 +1002,7 @@ Fil. iii. 14.
 
 Sobre este ponto eu já disse o suficiente.
 
-Capítulo XVII.
+## Capítulo XVII.
 
 Contra aqueles que dizem que o Espírito Santo não deve ser contado com o Pai e o Filho, mas sim com o Pai e o Filho. Além disso, há uma notificação resumida da fé a respeito da subnumeração correta.
 
@@ -1040,7 +1040,7 @@ Matt. xxviii. 19.
 
 cf. Sab.xi. 20. “Tu ordenaste todas as coisas em medida, número e peso.”
 
-Capítulo XVIII.
+## Capítulo XVIII.
 
 De que maneira na confissão das três hipóstases preservamos o piedoso dogma da Monarchia. Onde também está a refutação daqueles que alegam que o Espírito é subnumerado. O termo Μοναρχία adquiriu importância pela primeira vez na literatura patrística na obra De Monarchia, de Justino, contra o Politeísmo. Da carta perdida de Irineu ao presbítero romano Florinus, que foi deposto por heresia, presumivelmente gnóstico, o título, segundo Eusébio (HE v. 20), era περὶ Μοναρχίας, ἢ περὶ τοῦ μὴ εἶναι τὸν θεὸν ποιητὴν κακῶν. Mais tarde, passou a ser usado para expressar não a unidade Divina em oposição ao Politeísmo ou ao Dualismo Oriental, mas a unidade Divina em oposição ao Triteísmo. Veja as palavras de Dionísio de Roma, citadas por Athan. De Decretis, § 26, “A seguir, deixe-me voltar para aqueles que cortam em pedaços, dividem e destroem aquela doutrina mais sagrada da igreja de Deus, a Monarquia divina, tornando-a, por assim dizer, três poderes e subsistências divididas e três divindades.” Então São Basílio Cont. Eunom. ii. ᾽Αρχὴ μὲν οὖν πατρὸς οὐδεμία, ἀρχὴ δὲ τοῦ υἱοῦ ὁ πατήρ. E na Ep. xxxviii. ᾽Αλλά τίς ἐστι δύναμις ἀγεννήτως καὶ ἀνάρχως ὑφεοτῶσα ἥτις ἐςτὶν αἰτία τῆς ἁπάντων τῶν ὄντων αἰτίας, ἐκ γὰρ τοῦ πατρὸς ὁ υἱ& 232·ς δι᾽ οὗ τὰ πάντα. E na Ep. cxxv. Ενα γὰρ οἴδαμεν ἀγέννητον καὶ μίαν τῶν πάντων ἀρχὴν, τὸν πατέρα τοῦ κυρίου ἡμῶν ᾽Ιησοῦ Χριστοῦ. Sobre a doutrina e seus expoentes compare o § 72 do De Sp. S. Por outro lado, “Monárquicos” era um nome que conotava heresia quando aplicado àqueles que levavam a doutrina da Unidade ao extremo, envolvendo a negação de uma Trindade. Destes, entre os mais notáveis ​​estava Paulo de Samósata, bp. de Antioquia, que foi deposto em 269, um representante de pensadores que foram chamados de monarquistas dinâmicos, e Praxeas (suposto por alguns como um apelido), que ensinou em Roma no reinado de Marco Aurélio, e de quem Tertuliano, o criador do termo patripassianos, aplicado aos monárquicos, escreveu “Paracletum fugavit et patrem crucifixit”. Este monarquianismo herético culminou em Sabellius, o “mais original, engenhoso e profundo dos monarquistas”. Schaff. História. Cr. Igreja, eu. 293. cfr. Gisseler, E. pág. 127, Monarchianismus de Harnack na Real Encyclopædie de Herzog, Vol. x. Cão Tomásio. Gesch. eu. pág. 179, e Fialon et. História. pág. 241.
 
@@ -1114,7 +1114,7 @@ Já foi dito o suficiente para provar, em contravenção ao seu erro, que a comu
 
 1 Cor. xv. 46.
 
-Capítulo XIX.
+## Capítulo XIX.
 
 Contra aqueles que afirmam que o Espírito não deve ser glorificado.
 
@@ -1198,7 +1198,7 @@ João xv. 15.
 
 1 Cor. ii. 11.
 
-Capítulo XX.
+## Capítulo XX.
 
 Contra aqueles que afirmam que o Espírito não está na categoria de servo nem de senhor, mas na de livre.
 
@@ -1226,7 +1226,7 @@ O cristianismo de fato fez muito para melhorar a condição do escravo, afirmand
 
 É considerado menos a servidão de um escravo ao próximo do que a escravidão de escravos e livres ao mal. cf. Agosto, De Civit. Dei. 4. boné. iii. “Bonus etiamsi serviat liber est: malus autem si regnat servus est: nec est unius hominis, sed quod gravius ​​est tot dominorum quot vitiorum.” Crisóstomo até explica a não condenação da escravidão por São Paulo, alegando que a sua existência, juntamente com a da liberdade cristã, foi um triunfo moral maior do que a sua abolição. (Em Genes. Serm. v. 1.) Mesmo no final do século VI, a legislação de Justiniano, embora protetora, não supunha nenhuma liberdade natural. “Expedit enim respublicæ ne quis re suâ utatur male.” Instituto. eu. viii. citado por Milman, Lat. Cristo. ii. 14. Não devemos, portanto, ficar surpresos por não encontrarmos num Padre do século IV uma antecipação de um desenvolvimento posterior do sentimento cristão. Ao mesmo tempo, foi na época de São Basílio que “a linguagem dos Padres assume um tom mais ousado” (cf. Dict. Christ. Ant. ii. 1905), e “na correspondência de Gregório Nazianzeno o encontramos referindo-se a um caso em que um escravo foi nomeado bispo de uma pequena comunidade no deserto. A senhora cristã a quem ele pertencia esforçou-se para fazer valer o seu direito de propriedade, pelo que foi severamente repreendida por São Basílio (cf. Carta CXV). Após a morte de São Basílio, ela reivindicou novamente o escravo, ao que Gregório lhe dirigiu uma carta de grave protesto contra o seu desejo anticristão de retirar o seu irmão bispo da sua esfera de deveres. Ep. 79”, id.
 
-Capítulo XXI.
+## Capítulo XXI.
 
 Prova das Escrituras de que o Espírito é chamado Senhor.
 
@@ -1250,7 +1250,7 @@ São Basílio dá a ἀπό o sentido de “por”. Então Theodoret, Œcum., Th
 
 2Tm. iii. 16.
 
-Capítulo XXII.
+## Capítulo XXII.
 
 Estabelecimento da comunhão natural do Espírito desde o Seu ser, igualmente com o Pai e o Filho, inacessível em pensamento. πρὸς θεωρίαν δυσέφικτον. O latim beneditino é “incompreensibilis”, mas é bastante ἀκατάληπτος. O “incompreensível” do Ath. Credo é “imenso”.
 
@@ -1288,7 +1288,7 @@ João XIV. 17.
 
 É. xlii. 5, LXX. πατοῦσιν αὐτήν. Portanto, o argumento de São Basílio exige que traduzamos a lxx. O “caminhar nele” de A.V. não confirmaria seu significado. Para este uso de πατειν, cf. Sof., Formiga. 745. οὐ γὰρ σέβεις τιμάς γε τὰς θεῶν πατῶν. Assim, na vulgata lemos “et spiritum calcantibus eam” – calcare com o sentido de “pisar”, como em Juvenal, sáb. x. 86, “calcemus Cæsaris hostem”. O hebraico não tem esse significado.
 
-Capítulo XXIII.
+## Capítulo XXIII.
 
 A glorificação da enumeração de Seus atributos.
 
@@ -1312,7 +1312,7 @@ Sal. xxxix. 7.
 
 Bruxa. ii. 4, 5.
 
-Capítulo XXIV.
+## Capítulo XXIV.
 
 Prova do absurdo da recusa em glorificar o Espírito, a partir da comparação das coisas glorificadas na criação.
 
@@ -1378,7 +1378,7 @@ ROM. viii. 32.
 
 Gal. 4. 6.
 
-Capítulo XXV.
+## Capítulo XXV.
 
 Essa Escritura usa as palavras “em” ou “por”, ἐν, cf. nota na pág. 3, no lugar de “com”. Onde também está provado que a palavra “e” tem a mesma força que “com”.
 
@@ -1416,7 +1416,7 @@ isto é, os arianos, que disseram do Filho: “Havia quando ele não existia”;
 
 Matt. xxviii. 19.
 
-Capítulo XXVI.
+## Capítulo XXVI.
 
 Que a palavra “em”, em todos os sentidos que possui, é entendida como sendo do Espírito.
 
@@ -1508,7 +1508,7 @@ João IV. 24.
 
 cf. nota no § 15. Então Athan. em Mateus. xii. 22. Σφραγὶς γάρ ἐστιν ἰσότυπος ἐν ἑαυτῷ δεικνὺς τὸν πατέρα. cf. Athan., De Dec. § 20, e nota 9 desta série, p. 163. cf. também Greg. Nyss., Em Eunom. ii. 12.
 
-Capítulo XXVII.
+## Capítulo XXVII.
 
 Da origem da palavra “com” e que força ela tem. Também a respeito das leis não escritas da igreja.
 
@@ -1570,7 +1570,7 @@ Vide Títulos para Pss. vi. e xii. em A.V. “sobre Sheminith”, marg. “o oit
 
 1 Cor. 4.
 
-Capítulo XXVIII.
+## Capítulo XXVIII.
 
 Que nossos oponentes se recusam a conceder, no caso do Espírito, os termos que as Escrituras usam no caso dos homens, como reinando junto com Cristo.
 
@@ -1622,7 +1622,7 @@ isto é, de Jesus, o Filho de Sirach, ou Ecclus. xliii. 30.
 
 Lucas XII. 10.
 
-Capítulo XXIX.
+## Capítulo XXIX.
 
 Enumeração dos homens ilustres da Igreja que em seus escritos usaram a palavra “com”.
 
@@ -1706,7 +1706,7 @@ cf. Coronel iii. 15.
 
 Ecl. iii. 7.
 
-Capítulo XXX.
+## Capítulo XXX.
 
 Exposição do estado atual das Igrejas.
 

@@ -23,7 +23,7 @@ translator: "Scriptorium Divinum (Tradução Integral em Domínio Público)"
 
 ---
 
-Capítulo 1
+## Capítulo 1
 
 O santo olhar da virgindade é realmente precioso no julgamento de todos os que fazem da pureza a prova da beleza; mas pertence somente àqueles cujas lutas para obter esse objeto de um nobre amor são favorecidas e ajudadas pela graça de Deus. Seu louvor é ouvido imediatamente no próprio nome que o acompanha; Incorrupto é a palavra comumente dita sobre isso, e isso mostra o tipo de pureza que existe nele; assim, podemos medir pelo seu termo equivalente a altura deste dom, visto que entre os muitos resultados do esforço virtuoso, só este foi honrado com o título da coisa que não está corrompida. E se devemos exaltar com louvores este dom do grande Deus, as palavras de Seu Apóstolo são suficientes em seu louvor; são poucos, mas põem em segundo plano todos os elogios extravagantes; ele apenas considera santa e sem mácula aquela que tem essa graça como ornamento.
 
@@ -31,7 +31,7 @@ Agora, se a realização desta santa virtude consiste em tornar alguém sem mác
 
 Nos negócios deste mundo inferior, as palavras certamente funcionam como base, e a habilidade do louvor transmite uma aparência de magnificência; tanto é verdade que a humanidade tende a suspeitar como resultado da mera arte a maravilha produzida pelo panegírico. Portanto, a única maneira suficiente de elogiar a virgindade será mostrar que essa virtude está acima do elogio e evidenciar nossa admiração por ela por meio de nossas vidas, e não por meio de nossas palavras. Um homem que considera este tema um elogio ambicioso tem a aparência de supor que uma gota de sua própria transpiração fará um aumento apreciável no oceano sem limites, se de fato ele acredita, como ele acredita, que quaisquer palavras humanas podem dar mais dignidade a uma graça tão rara; ele deve ignorar seus próprios poderes ou aquilo que tenta elogiar.
 
-Capítulo 2
+## Capítulo 2
 
 De fato, profundo será o pensamento necessário para compreender a excelência insuperável desta graça. Está compreendido na ideia do Pai incorrupto; e aqui no início há um paradoxo, viz. que a virgindade se encontra Nele, que tem um Filho e, contudo, sem paixão o gerou. Está incluído também na natureza deste Deus Unigénito, que tocou a primeira nota de toda esta inocência moral; brilha igualmente em Sua geração pura e sem paixão. Novamente um paradoxo; que o Filho nos seja conhecido pela virgindade. É visto também na pureza inerente e incorruptível do Espírito Santo; pois quando você nomeou o puro e o incorruptível, você nomeou virgindade. Acompanha toda a existência supramundana; devido à sua falta de paixão, está sempre presente com os poderes superiores; nunca separado de nada que seja Divino, nunca toca o oposto disso.
 
@@ -43,7 +43,7 @@ Vendo, então, que a virgindade significa tanto assim, que enquanto permanece no
 
 Mas que ninguém espere de nós qualquer demonstração de estilo; mesmo que o desejássemos, talvez não pudéssemos produzi-lo, pois somos pouco versados ​​nesse tipo de escrita. Mesmo que possuíssemos tal poder, não preferiríamos o favor de poucos à edificação de muitos. Suponho que um escritor sensato deveria ter como objetivo principal não ser admirado acima de todos os outros escritores, mas beneficiar tanto a si mesmo quanto a eles, os muitos.
 
-Capítulo 3
+## Capítulo 3
 
 Na verdade, algum lucro poderia surgir com esse esforço! Eu deveria ter empreendido este trabalho com maior prontidão, se pudesse ter esperança de compartilhar, segundo as Escrituras, os frutos do arado e da eira; o trabalho teria então sido um prazer. Do jeito que está, esse meu conhecimento da beleza da virgindade é de alguma forma vão e inútil para mim, assim como o grão é para o boi amordaçado que pisa no chão, ou a água que corre do precipício para um homem sedento quando ele não consegue alcançá-la. Felizes aqueles que ainda têm o poder de escolher o melhor caminho, e não se excluíram dele por compromissos da vida secular, como nós, a quem um abismo agora separa da virgindade gloriosa: ninguém pode subir até aquele que uma vez plantou o pé na vida secular.
 
@@ -83,7 +83,7 @@ Novamente, um homem perde pela morte um filho muito amado; outro tem um filho r�
 
 Mas, afastando-se de tudo isso, contemple apenas as tragédias que estão acontecendo no palco desta vida; é o casamento que fornece atores à humanidade. Vá aos tribunais e leia as leis de lá; então você conhecerá os vergonhosos segredos do casamento. Assim como quando você ouve um médico explicando várias doenças, você entende a miséria da estrutura humana aprendendo a quantidade e o tipo de sofrimento a que está sujeito, também quando você examina as leis e lê ali a estranha variedade de crimes no casamento aos quais suas penas estão associadas, você terá uma ideia bastante precisa de suas propriedades; pois a lei não fornece remédios para males que não existem, assim como um médico não oferece tratamento para doenças que nunca são conhecidas.
 
-Capítulo 4
+## Capítulo 4
 
 Mas não precisamos mais mostrar desta forma estreita o inconveniente desta vida, como se o número de seus males se limitasse a adultérios, dissensões e conspirações. Penso que deveríamos adotar uma visão mais elevada e verdadeira, e dizer imediatamente que nada daquele mal na vida, que é visível em todos os seus negócios e em todas as suas atividades, pode ter qualquer domínio sobre um homem, se ele não se colocar nas algemas deste caminho. A verdade do que dizemos ficará clara assim. Um homem que, vendo através da ilusão com os olhos de seu espírito purificado, se eleva acima do mundo em luta e, para usar as palavras do Apóstolo, menospreza tudo como se fosse esterco, de certa forma exilando-se completamente da vida humana por sua abstinência do casamento, - esse homem não tem qualquer comunhão com os pecados da humanidade, como avareza, inveja, raiva, ódio e tudo mais do tipo.
 
@@ -115,7 +115,7 @@ Qual dos objetos mais queridos da vida perdura para sempre? Que flor nobre? Que 
 
 Uma forma de fuga está aberta: é não se apegar a nenhuma dessas coisas e ficar o mais longe possível da sociedade deste mundo emocional e sensual; ou melhor, para um homem sair dos sentimentos que seu próprio corpo suscita. Então, como ele não vive para a carne, não estará sujeito aos problemas da carne. Mas isso equivale a viver apenas para o espírito e imitar tudo o que pudermos no emprego do mundo dos espíritos. Lá eles não se casam nem se dão em casamento. Seu trabalho e sua excelência é contemplar o Pai de toda pureza e embelezar as linhas de seu próprio caráter a partir da Fonte de toda beleza, na medida em que seja possível imitá-Lo.
 
-Capítulo 5
+## Capítulo 5
 
 Agora declaramos que a Virgindade é companheira de trabalho e auxiliadora do homem na realização do objetivo desta elevada paixão. Em outras ciências, os homens criaram certos métodos práticos para cultivar o assunto específico; e assim, presumo, a virgindade é o método prático na ciência da vida divina, fornecendo aos homens o poder de se assimilarem às naturezas espirituais. O esforço constante nesse caminho é evitar que a nobreza da alma seja rebaixada por aqueles surtos sensuais, nos quais a mente não mais mantém seus pensamentos celestiais e seu olhar para cima, mas afunda nas emoções pertencentes à carne e ao sangue. Como pode a alma que está presa aos prazeres da carne e ocupada com anseios meramente humanos voltar um olhar desinteressado para a sua luz intelectual afim?
 
@@ -123,7 +123,7 @@ Esta tendência maligna, ignorante e preconceituosa em relação às coisas mate
 
 Uma vez libertada disso, a alma não corre o risco de se tornar, através de um hábito crescente de se entregar àquilo que parece até certo ponto concedido pela lei da natureza, desatenta e ignorante dos deleites divinos e imaculados. Somente a pureza do coração, mestre de nossas vidas, pode capturá-los.
 
-Capítulo 6
+## Capítulo 6
 
 Isso, creio eu, constitui a grandeza do profeta Elias, e daquele que depois apareceu no espírito e no poder de Elias, do que quem daqueles que nasceram de mulher não havia ninguém maior Mateus 12:11 . Se a sua história transmite qualquer outra lição mística, certamente esta é acima de tudo ensinada pelo seu modo especial de vida, que o homem cujos pensamentos estão fixados no invisível está necessariamente separado de todos os acontecimentos comuns da vida; seus julgamentos quanto ao Verdadeiro Bem não podem ser confundidos e desviados pelos enganos que surgem dos sentidos. Ambos, desde a juventude, exilaram-se da sociedade humana e, de certa forma, da natureza humana, por negligenciarem os tipos habituais de carne e bebida, e por sua permanência no deserto. As necessidades de cada um eram satisfeitas pela nutrição que lhes era apresentada, para que o seu paladar permanecesse simples e intocado, pois os seus ouvidos estavam livres de qualquer ruído perturbador e os seus olhos de qualquer olhar errante.
 
@@ -131,7 +131,7 @@ Assim, eles alcançaram uma calma de alma sem nuvens e foram elevados àquela al
 
 Acredito que eles não teriam alcançado esta elevação de espírito se o casamento os tivesse suavizado. Esta não é apenas uma história simples; está escrito para nossa advertência 1 Coríntios 10:11, para que possamos dirigir nossas vidas pelas deles. O que, então, aprendemos com isso? Isto: que o homem que anseia pela união com Deus deve, como aqueles santos, desapegar a sua mente de todos os negócios mundanos. É impossível para a mente que se dedica a muitos canais abrir caminho para o conhecimento e o amor de Deus.
 
-Capítulo 7
+## Capítulo 7
 
 Uma ilustração tornará mais claro nosso ensino sobre esse assunto. Imagine um riacho fluindo de uma nascente e se dividindo em vários canais acidentais. Enquanto assim proceder, será inútil para qualquer finalidade da agricultura, pois a dissipação das suas águas tornará cada corrente específica pequena e fraca e, portanto, lenta. Mas se alguém reunisse novamente esses riachos errantes e amplamente dispersos em um único canal, teria um fluxo completo e coletado para os suprimentos que a vida exige. Da mesma forma, a mente humana (assim me parece), enquanto a sua corrente se espalha em todas as direções sobre os prazeres dos sentidos, não tem poder que valha a pena nomear para abrir caminho em direção ao Bem Real; mas uma vez chamado de volta e reunido sobre si mesmo, para que possa começar a se mover sem se dispersar e vagar em direção à atividade que lhe é congênita e natural, ele não encontrará nenhum obstáculo para ascender a coisas mais elevadas e para apreender realidades.
 
@@ -139,7 +139,7 @@ Freqüentemente vemos a água contida em um cano estourando para cima através d
 
 Os grandes profetas, então, que mencionamos parecem ensinar esta lição, viz. não nos enredarmos em nenhum dos objetos do esforço deste mundo; o casamento é um deles, ou melhor, é a raiz primordial de toda luta por vaidades.
 
-Capítulo 8
+## Capítulo 8
 
 Que ninguém pense, porém, que aqui depreciamos o casamento como instituição. Sabemos bem que não é estranho à bênção de Deus. Mas como os instintos comuns da humanidade podem pleitear suficientemente em seu favor, instintos que, por uma tendência espontânea, levam a tomar o caminho principal do casamento para a procriação dos filhos, enquanto a virgindade, de certa forma, frustra esse impulso natural, é uma tarefa supérflua redigir formalmente uma Exortação ao casamento. Em vez disso, apresentamos o prazer disso, como um defensor muito corajoso em seu nome. Contudo, pode ser que, apesar disso, haja alguma necessidade de tal tratado, ocasionada por aqueles que travestem o ensinamento da Igreja. Essas pessoas 1 Timóteo 4:2 têm sua consciência cauterizada com ferro quente, como o apóstolo expressa; e muito verdadeiramente também, considerando que, abandonando a orientação do Espírito Santo pelas doutrinas dos demônios, eles têm algumas úlceras e bolhas estampadas em seus corações, abominando as criaturas de Deus, e chamando-as de sujas, sedutoras, travessas, e assim por diante.
 
@@ -157,7 +157,7 @@ Aquele que tem um caráter tão fraco que não consegue resistir virilmente aos 
 
 Seria, portanto, do nosso interesse, como nosso discurso tem sugerido, passar pela vida sem a provação dessas tentações, para que, sob o pretexto da indulgência legal, a paixão não consiga entrar na cidadela da alma.
 
-Capítulo 9
+## Capítulo 9
 
 O costume é realmente difícil de resistir em tudo. Possui um enorme poder de atrair e seduzir a alma. Nos casos em que um homem entrou num estado fixo de sentimento, uma certa imaginação do bem é criada nele por esse hábito; e nada é tão naturalmente vil que não possa ser considerado desejável e louvável, uma vez que esteja na moda. Tomemos como exemplo a humanidade que agora vive na terra. Existem muitas nações e as suas ambições não são todas iguais. O padrão de beleza e de honra é diferente em cada um, o costume de cada um regula seu entusiasmo e seus objetivos. Essa diferença é vista não apenas entre nações onde as atividades de uma não têm reputação com a outra, mas até mesmo na mesma nação, na mesma cidade e na mesma família; podemos ver nesses agregados também muitas diferenças existentes devido ao sentimento habitual.
 
@@ -167,7 +167,7 @@ Seria bom então, acreditamos, que os irmãos mais fracos voassem para a virgind
 
 Quem não é casado cuida das coisas do Senhor; mas quem é casado cuida das coisas que são do mundo. Se o combate com prazer parece cansativo, que todos se animem. O hábito não deixará de produzir, mesmo nos aparentemente mais inquietos, uma sensação de prazer através do próprio esforço da sua perseverança; e esse prazer será do tipo mais nobre e puro; pela qual os inteligentes podem muito bem se apaixonar, em vez de se permitirem, com objetivos limitados pela baixeza de seus objetos, afastarem-se da verdadeira grandeza que vai além de todo pensamento.
 
-Capítulo 10
+## Capítulo 10
 
 Que palavras realmente poderiam expressar a grandeza dessa perda no afastamento da posse da verdadeira bondade? Que poder consumado de pensamento teria que ser empregado! Quem poderia produzir, mesmo em linhas gerais, aquilo que a fala não pode dizer, nem a mente capta? Por um lado, se um homem manteve os olhos do seu coração tão claros que possa de certa forma contemplar a realização da promessa das bem-aventuranças de nosso Senhor, ele condenará todas as expressões humanas como impotentes para representar aquilo que ele apreendeu. Por outro lado, se um homem, proveniente da atmosfera de indulgências materiais, tem a fraqueza da paixão espalhando-se como uma película sobre a visão aguçada de sua alma, toda a força de expressão será desperdiçada nele; pois é tudo a mesma coisa, quer você subestime ou magnifique um milagre para aqueles que não têm nenhum poder de percebê-lo.
 
@@ -181,7 +181,7 @@ A Beleza que é invisível e informe, que é desprovida de qualidades e muito di
 
 Nossa concepção do caso é a seguinte.
 
-Capítulo 11
+## Capítulo 11
 
 Agora, aqueles que têm uma visão superficial e irrefletida das coisas observam a aparência externa de tudo o que encontram, por ex. de um homem, e então não se preocupem mais com ele. A visão que têm do volume do seu corpo é suficiente para fazê-los pensar que sabem tudo sobre ele. Mas a mente penetrante e científica não confiará apenas aos olhos a tarefa de medir a realidade; não se deterá nas aparências, nem contará o que não se vê entre as irrealidades. Investiga as qualidades da alma do homem. Toma aquelas características que foram desenvolvidas pela sua constituição corporal, tanto em combinação como isoladamente; primeiro isoladamente, por análise, e depois naquela combinação viva que constitui a personalidade do sujeito. No que diz respeito à investigação sobre a natureza da beleza, vemos, novamente, que o homem de inteligência semi-desenvolvida, quando observa um objeto banhado pelo brilho de uma beleza aparente, pensa que esse objeto é em sua essência belo, não importa o que seja que o prenda com o prazer do olho.
 
@@ -203,7 +203,7 @@ Atrevo-me a afirmar que, para quem purificou todas as faculdades do seu ser de t
 
 Bem, os livros Divinos estão cheios de tais instruções para nossa orientação; e além disso, muitos dos santos lançam o brilho de suas próprias vidas, como lâmpadas, no caminho daqueles que caminham com Deus. Mas cada um pode reunir em abundância para si sugestões para esse fim de qualquer Aliança nos escritos inspirados; os Profetas e a Lei estão cheios deles; e também o Evangelho e as Tradições dos Apóstolos. O que nós mesmos conjecturamos ao seguir os pensamentos daquelas declarações inspiradas é isto.
 
-Capítulo 12
+## Capítulo 12
 
 Esta criatura racional e inteligente, o homem, ao mesmo tempo a obra e a semelhança da Mente Divina e Imperecível (pois assim na Criação está escrito sobre ele que Deus fez o homem à Sua imagem Gênesis 1:27), esta criatura, eu digo, no curso de sua primeira produção não uniu à própria essência de sua natureza a propensão à paixão e à morte. Na verdade, a verdade sobre a imagem nunca poderia ter sido mantida se a beleza refletida naquela imagem tivesse sido, no mínimo grau, oposta à Beleza Arquetípica. A paixão foi introduzida posteriormente, após a primeira organização do homem; e foi desta forma. Sendo a imagem e a semelhança, como foi dito, do Poder que governa todas as coisas, o homem manteve também na questão do Livre-Arbítrio esta semelhança com Aquele cuja Vontade é sobre tudo.
 
@@ -227,7 +227,7 @@ O casamento, então, é o último estágio de nossa separação da vida que leva
 
 Esse mandamento era não tocar em nada além do que era bom e não provar o que era mau; porque a impaciência de permanecer por mais tempo na ignorância do mal seria apenas o começo da longa sequência do mal real. Por isso foi proibido aos nossos primeiros pais apreender o conhecimento do oposto do bem, bem como o do próprio bem; eles deveriam se manter afastados do conhecimento do bem e do mal Gênesis 2:17, e desfrutar do Bem em sua pureza, sem mistura com uma partícula do mal: e desfrutar disso, em minha opinião, nada mais é do que estar sempre com Deus, e sentir incessante e continuamente esse deleite, livre de qualquer coisa que possa nos afastar dele. Alguém poderia até ser ousado em dizer que este poderia ser o caminho pelo qual um homem poderia ser novamente arrebatado ao Paraíso, fora deste mundo que jaz no Mal, para aquele Paraíso onde Paulo estava quando viu as cenas indescritíveis das quais não é lícito a um homem falar de 2 Coríntios 12:4.
 
-Capítulo 13
+## Capítulo 13
 
 Mas visto que o Paraíso é o lar dos espíritos vivos e não admite aqueles que estão mortos no pecado, e que nós, por outro lado, somos carnais, sujeitos à morte e vendidos sob o pecado, como é possível que alguém que está sujeito ao império da morte habite nesta terra onde tudo é vida? Que método de libertação desta jurisdição pode ser concebido? Também aqui o ensinamento do Evangelho é abundantemente suficiente. Ouvimos nosso Senhor dizer a Nicodemos: O que nasce da carne é carne; e o que nasce do Espírito é espírito. Sabemos também que a carne está sujeita à morte por causa do pecado, mas o Espírito de Deus é incorruptível, vivificante e imortal. Assim como em nosso nascimento físico vem ao mundo conosco uma potencialidade de sermos novamente transformados em pó, é evidente que o Espírito também confere uma potencialidade vivificante aos filhos gerados por Ele mesmo.
 
@@ -245,7 +245,7 @@ Isso sempre acontece sempre que alguém com um coração vivo concebe toda a int
 
 Pois nosso Senhor anunciou que a vida após a nossa ressurreição será como a dos anjos. Agora, a peculiaridade da natureza angélica é que eles são estranhos ao casamento; portanto, a bênção desta promessa já foi recebida por aquele que não apenas misturou sua própria glória com a auréola dos Santos, mas também pela pureza de sua vida imitou a pureza desses seres incorpóreos. Se a virgindade pode então nos conquistar favores como esses, que palavras são adequadas para expressar a admiração por tão grande graça? Que outro dom da alma pode ser tão grande e precioso que não sofra em comparação com esta perfeição?
 
-Capítulo 14
+## Capítulo 14
 
 Mas se apreendermos finalmente a perfeição desta graça, devemos compreender também o que necessariamente se segue dela; a saber, que não é uma conquista única, que termina na subjugação do corpo, mas que na intenção atinge e permeia tudo o que é, ou é considerado, uma condição correta da alma. De fato, aquela alma que em virgindade se apega ao verdadeiro Noivo não se removerá apenas de toda contaminação corporal; ela fará dessa abstenção apenas o começo de sua pureza e levará essa segurança do fracasso igualmente para tudo o mais em seu caminho. Temendo que, de um coração muito parcial, ela deveria, pelo contato com o mal em qualquer direção, dar ocasião à menor fraqueza de infidelidade (para supor tal caso: mas vou começar novamente o que ia dizer), aquela alma que se apega ao seu Mestre de modo a se tornar com Ele um só espírito, e pelo pacto de uma vida conjugal apostou o amor de todo o seu coração e toda a sua força somente Nele - essa alma não cometerá mais nenhuma das ofensas contrárias à salvação, do que colocar em perigo sua união com Ele apegando-se à fornicação; ela sabe que entre todos os pecados existe um único parentesco de impureza, e que se ela se contaminasse com apenas um, não poderia mais reter sua pureza.
 
@@ -253,7 +253,7 @@ Uma ilustração mostrará o que queremos dizer. Suponha que toda a água de uma
 
 Portanto, pelo contrário, a depravação de qualquer coisa na nossa natureza moral estender-se-á a toda a vida virtuosa; e na verdade, como nos diz o Apóstolo, o todo é afetado pelas partes, e se um membro sofre, todos os membros sofrem com ele; se um é honrado, todos se alegram.
 
-Capítulo 15
+## Capítulo 15
 
 Mas os caminhos da nossa vida que nos desviam para o pecado são inumeráveis; e seu número é contado pelas Escrituras de várias maneiras. Muitos são os que me perturbam e perseguem, e muitos são os que do alto lutam contra mim; e muitos outros textos como esse. Podemos afirmar, de fato, com certeza, que muitos são os que conspiram à maneira do adúltero para destruir este casamento verdadeiramente honroso e contaminar este leito inviolável; e se devemos nomeá-los um por um, acusamos com esse espírito adúltero a raiva, a avareza, a inveja, a vingança, a inimizade, a malícia, o ódio e tudo o que o apóstolo coloca na classe daquelas coisas que são contrárias à sã doutrina. Agora suponhamos uma dama, atraente e adorável acima de seus pares, e por isso casada com um rei, mas cercada por causa de sua beleza por amantes devassos.
 
@@ -261,7 +261,7 @@ Enquanto ela permanecer indignada com esses pretensos sedutores e reclamar deles
 
 Pode-se, em uma palavra, dizer com verdade que o Bom Marido não pode vir habitar com a alma que é irascível, ou maliciosa, ou que abriga qualquer outra disposição que entre em conflito com essa concórdia. Não se descobriu nenhuma maneira de harmonizar coisas cuja natureza é antagônica e que nada têm em comum. O apóstolo nos diz que não há comunhão da luz com as trevas 2 Coríntios 6:14, ou da justiça com a iniqüidade, ou, em uma palavra, de todas as qualidades que percebemos e nomeamos como a essência da natureza de Deus, com todos os opostos que são percebidos no mal. Vendo, então, a impossibilidade de qualquer união entre repulsões mútuas, entendemos que a alma viciosa está afastada de entreter a companhia do Bem. Qual é então a lição prática disso? A virgem casta e atenciosa deve separar-se de qualquer afeição que possa de alguma forma transmitir contágio à sua alma; ela deve manter-se pura para o Marido que se casou com ela, não tendo mácula ou defeito ou qualquer coisa semelhante.
 
-Capítulo 16
+## Capítulo 16
 
 Existe apenas um caminho certo. É estreito e contraído. Não tem curvas nem de um lado nem de outro. Não importa como o deixemos, existe o mesmo perigo de nos afastarmos irremediavelmente. Sendo assim, o hábito que muitos adquiriram deve ser corrigido tanto quanto possível; quero dizer, aqueles que, embora lutem arduamente contra os prazeres mais básicos, continuam a caçar prazeres na forma de honras e posições mundanas que satisfaçam seu amor pelo poder. Eles agem como algum doméstico que ansiava pela liberdade, mas em vez de se esforçar para escapar da escravidão, apenas mudou de senhor, e pensava que a liberdade consistia nessa mudança. Mas todos são escravos, embora nem todos devam continuar a ser governados pelos mesmos senhores, enquanto um domínio de qualquer espécie, com poder para o impor, for estabelecido sobre eles.
 
@@ -273,7 +273,7 @@ Aquele, portanto, que zela pela vida e pela sanidade da alma limitar-se-á à mo
 
 Seja, Ele diz, sábio como as serpentes e inofensivo como as pombas.
 
-Capítulo 17
+## Capítulo 17
 
 Que o que foi então dito por nosso Senhor seja a máxima geral para cada vida; especialmente que seja a máxima para aqueles que estão se aproximando de Deus através do portal da virgindade, que nunca devem, ao procurar uma perfeição em uma direção, apresentar um lado desprotegido em outra e contrária; mas devem realizar o bem em todas as direções, para que possam garantir em todas as coisas sua vida santa contra o fracasso. Um soldado não se arma apenas em alguns pontos, deixando o resto do corpo se arriscar desprotegido. Se ele recebesse seu ferimento mortal depois disso, qual teria sido a vantagem dessa armadura parcial? Novamente, quem chamaria de impecável aquela característica, que por algum acidente havia perdido um daqueles requisitos que compõem a soma da beleza? A desfiguração da parte mutilada prejudica a graça da parte intocada.
 
@@ -281,7 +281,7 @@ O Evangelho implica que quem empreende a construção de uma torre, mas gasta to
 
 Que a vida virtuosa tenha como base o amor à virgindade; mas sobre isso que todos os resultados da virtude sejam criados. Se se acredita que a virgindade é uma coisa imensamente preciosa e tem uma aparência divina (como de fato é o caso, assim como os homens acreditam nela), ainda assim, se toda a vida não se harmoniza com esta nota perfeita, e é prejudicada pela discórdia sucessiva da alma, esta coisa se torna apenas a jóia de ouro no focinho do porco ou a pérola que é pisada sob os pés dos porcos. Mas já dissemos o suficiente sobre isso.
 
-Capítulo 18
+## Capítulo 18
 
 Se alguém supõe que esta falta de harmonia mútua entre sua vida e uma única de suas circunstâncias não tem importância, que aprenda o significado de nossa máxima olhando para a administração de uma casa. O dono de uma residência particular não permitirá que qualquer desordem ou indecoração seja vista na casa, como um sofá virado, ou a mesa cheia de lixo, ou vasos de valor jogados em cantos sujos, enquanto aqueles que servem para usos mais ignóbeis são empurrados para a frente para que os convidados entrem para ver. Ele tem tudo arrumado e no lugar apropriado, onde fica mais vantajoso; e então poderá receber seus convidados, sem receio de ter vergonha de abrir o interior de sua casa para recebê-los. O mesmo dever, presumo, cabe ao mestre do nosso tabernáculo, a mente; tem que organizar tudo dentro de nós e colocar cada faculdade particular da alma, que o Criador criou para ser nosso instrumento ou vaso, para usos adequados e nobres.
 
@@ -301,7 +301,7 @@ O trabalho da verdadeira sobriedade é o mesmo; de todas as atividades e hábito
 
 Assim, normalmente, sob a liderança da Lei (pois Moisés era um tipo da Lei que estava por vir), Israel passa por aquele mar sem ser molhado, enquanto o egípcio que atravessa seu caminho fica sobrecarregado. Cada um se sai de acordo com a disposição que carrega consigo; um caminha com bastante leveza, o outro é arrastado para águas profundas. Pois a virtude é algo leve e flutuante, e todos os que vivem em seu caminho voam como nuvens, como diz Isaías, e como pombas com seus filhotes; mas o pecado é um assunto pesado, assentado, como diz outro dos profetas, sobre um talento de chumbo. Se, no entanto, esta leitura da história parecer forçada e inaplicável a alguém, e o milagre no Mar Vermelho não se apresentar a ele como escrito para nosso proveito, que ele ouça o Apóstolo: Ora, todas estas coisas lhes aconteceram como tipos, e foram escritas para nossa advertência.
 
-Capítulo 19
+## Capítulo 19
 
 Mas, além de outras coisas, a ação de Miriã, a profetisa, também dá origem a essas nossas suposições. Assim que o mar foi atravessado, ela pegou um tamboril seco e sonoro e regeu a dança das mulheres. Êxodo 15:20 Com este tambor a história pode significar implicar virgindade, conforme aperfeiçoada pela primeira vez por Miriam; quem de fato eu acreditaria ser um tipo de Maria, a mãe de Deus. Assim como o tamboril emite um som alto porque é desprovido de toda umidade e reduzido ao mais alto grau de secura, a virgindade tem um relato claro e sonoro entre os homens porque repele de si a seiva vital da vida meramente física. Assim, sendo o tamboril de Miriam uma coisa morta e a virgindade sendo um amortecimento das paixões corporais, talvez não esteja muito longe dos limites da probabilidade que Miriam fosse virgem.
 
@@ -311,7 +311,7 @@ Na verdade, foi revelado nos oráculos de Deus em que ocasião conceber e dar à
 
 Quando o espírito de salvação, como Isaías o chama, está nascendo, a vontade da carne é inútil. Há também um ensinamento particular do Apóstolo, que se harmoniza com este; viz. cada homem de nós é um homem duplo 2 Coríntios 4:16; aquele que é exteriormente visível, cujo destino natural é decair; a outra, perceptível apenas no segredo do coração, mas capaz de renovação. Se este ensinamento for verdadeiro - e deve ser verdade porque a Sabedoria está falando ali - então não há absurdo em supor também um casamento duplo que responda em todos os detalhes a qualquer um dos homens; e, talvez, se alguém afirmasse corajosamente que a virgindade do corpo era a cooperadora e a agente do casamento interior, esta afirmação não estaria muito além do fato provável.
 
-Capítulo 20
+## Capítulo 20
 
 Ora, é impossível, no que diz respeito ao exercício manual, exercer duas artes ao mesmo tempo; por exemplo, agricultura e navegação, ou conserto e carpintaria. Se um deve ser controlado honestamente, o outro deve ser deixado em paz. Da mesma forma, existem esses dois casamentos à nossa escolha, um realizado na carne, o outro no espírito; e a preocupação de um deve necessariamente causar alienação do outro. O olho não é mais capaz de olhar dois objetos ao mesmo tempo; mas deve concentrar a sua atenção especial num de cada vez; a língua não pode mais efetuar enunciados em duas línguas diferentes, de modo a pronunciar, por exemplo, uma palavra hebraica e uma palavra grega no mesmo momento: não mais pode o ouvido captar ao mesmo tempo uma narrativa de fatos e um discurso exortativo; se cada tom especial for ouvido separadamente, imprimirá suas ideias na mente dos ouvintes; mas se eles forem combinados e assim derramados no ouvido, o resultado será uma confusão inextricável de idéias, um significado sendo mutuamente perdido no outro: e não mais, por analogia, nossos poderes emocionais possuem uma natureza que pode ao mesmo tempo perseguir os prazeres dos sentidos e cortejar a união espiritual; nem, além disso, ambos os fins podem ser alcançados pelos mesmos cursos de vida; a continência, a mortificação das paixões, o desprezo das necessidades carnais são os agentes da única união; mas todos os que são o inverso disso são os agentes da habitação corporal.
 
@@ -323,7 +323,7 @@ Eu poderia contar também sobre os presentes que o pretendente dá à noiva num 
 
 Além disso, é evidente que o argumento se aplica igualmente a homens e mulheres, para os levar a tal casamento. Não existe homem nem mulher Gálatas 3:28, diz o apóstolo; Cristo é tudo, e em tudo Colossenses 3:11; e assim é igualmente razoável que aquele que está apaixonado pela sabedoria mantenha o Objeto de seu desejo apaixonado, que é a Verdadeira Sabedoria; e que a alma que se apega ao Noivo imortal tenha a fruição de seu amor pela verdadeira Sabedoria, que é Deus. Já revelamos suficientemente a natureza da união espiritual e o Objeto do Amor puro e celestial.
 
-Capítulo 21
+## Capítulo 21
 
 É perfeitamente claro que ninguém pode chegar perto da pureza do Ser Divino se não primeiro se tornar tal; ele deve, portanto, colocar entre ele mesmo e os prazeres dos sentidos um muro alto e forte de separação, para que nesta sua abordagem à Deidade a pureza do seu próprio coração não possa ser manchada novamente. Tal muro inexpugnável será encontrado num completo estranhamento de tudo onde opera a paixão.
 
@@ -333,7 +333,7 @@ Para evitar isso, então, queremos aplicar às nossas próprias vidas a regra de
 
 Em tudo devemos selecionar a quantidade conveniente e deixar intocado o que apenas deleita os sentidos.
 
-Capítulo 22
+## Capítulo 22
 
 Vemos como os lavradores têm um método para separar o joio, que se une ao trigo, com o objetivo de empregar cada um para o seu próprio fim, um para o sustento do homem, o outro para a queima e alimentação dos animais. O trabalhador no campo da temperança distinguirá da mesma maneira a satisfação do mero deleite, e lançará esta última natureza aos selvagens cujo fim é ser queimado, como diz o apóstolo, mas aceitará a outra, em proporção à necessidade real, com gratidão. Muitos, porém, caem no tipo oposto de excesso e, inconscientemente para si mesmos, em seu excesso de precisão, frustram laboriosamente seus próprios desígnios; eles deixam sua alma cair para o outro lado, das alturas da elevação Divina ao nível de pensamentos e ocupações monótonas, onde suas mentes estão tão voltadas para regulamentos que afetam apenas o corpo, que eles não podem mais caminhar em sua liberdade celestial e olhar para cima; sua única inclinação é atormentar e afligir a carne.
 
@@ -347,7 +347,7 @@ Agora, da mesma maneira, nossa mente segura as rédeas dessa carruagem do corpo;
 
 Esse é o objetivo mais elevado da temperança; não visa a aflição do corpo, mas a ação pacífica das funções da alma.
 
-Capítulo 23
+## Capítulo 23
 
 Agora, os detalhes da vida daquele que escolheu viver numa filosofia como esta, as coisas a serem evitadas, os exercícios a serem praticados, as regras de temperança, todo o método de treinamento e todo o regime diário que contribui para este grande fim, foram tratados em certos manuais escritos de instrução para o benefício daqueles que amam os detalhes. No entanto, existe um guia mais simples do que a instrução verbal; e isso é prática: e não há nada de vexatório na máxima de que quando estamos empreendendo uma longa jornada ou viagem devemos contratar um instrutor. Mas, diz o Apóstolo, a palavra está perto de você; a graça começa em casa; existe a fabricação de todas as virtudes; ali esta vida tornou-se primorosamente refinada por um progresso contínuo em direção à perfeição consumada; ali, quer os homens estejam calados ou falem, há uma grande oportunidade para serem instruídos nesta cidadania celestial através da prática real dela.
 
@@ -365,7 +365,7 @@ Daí também aqueles que se infiltram nas casas; e ainda outros que supõem que 
 
 É por causa deles que esta pura e santa profissão de virgindade é blasfemada entre os gentios.
 
-Capítulo 24
+## Capítulo 24
 
 Seria, portanto, vantajoso para eles que os jovens se abstivessem de definir para si próprios o seu futuro percurso nesta profissão; e, de fato, exemplos de vidas santas para eles seguirem não faltam na geração viva. Agora, como nunca antes, a santidade abunda e penetra em nosso mundo; através de avanços graduais, atingiu a mais alta marca de perfeição; e quem segue esses passos em suas rondas diárias pode captar essa auréola; aquele que rastreia o perfume deste perfume anterior pode ser encharcado pelos doces aromas do próprio Cristo. Assim como, quando uma tocha é acesa, a chama é transmitida a todos os castiçais vizinhos, sem que a primeira luz seja diminuída ou brilhe com brilho desigual nos outros pontos onde foi capturada; assim a santidade de uma vida é transmitida daquele que a realizou, para aqueles que fazem parte do seu círculo; pois há verdade nas palavras do Profeta, de que aquele que vive com um homem que é santo, limpo e eleito, ele próprio se tornará tal.
 
