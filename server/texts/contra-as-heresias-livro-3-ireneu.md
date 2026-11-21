@@ -33,6 +33,8 @@ Mas neste terceiro livro apresentarei provas das Escrituras, para que não possa
 
 [3308] Lucas x. 16.
 
+## Capítulo I
+
 Capítulo I. - Os apóstolos não começaram a pregar o Evangelho, ou a registrar qualquer coisa, até que foram dotados dos dons e do poder do Espírito Santo. Eles pregaram um só Deus, Criador do céu e da terra.
 
 1. Não aprendemos de ninguém o plano da nossa salvação, a não ser daqueles através dos quais o Evangelho chegou até nós, que eles proclamaram em público e, num período posterior, pela vontade de Deus, transmitido a nós nas Escrituras, para ser a base e o pilar da nossa fé. [3309] Pois é ilegal afirmar que eles pregaram antes de possuírem "conhecimento perfeito", como alguns até se atrevem a dizer, vangloriando-se de serem aperfeiçoadores dos apóstolos. Pois, depois que nosso Senhor ressuscitou dos mortos, [os apóstolos] foram investidos de poder do alto quando o Espírito Santo desceu [sobre eles], foram cheios de todos [Seus dons] e tinham conhecimento perfeito: eles partiram até os confins da terra, pregando as boas novas das boas coisas [enviadas] de Deus para nós, e proclamando a paz do céu aos homens, que de fato todos possuem igual e individualmente o Evangelho de Deus.
@@ -45,7 +47,7 @@ Mateus também publicou um Evangelho escrito entre os hebreus [3310] em seu pró
 
 [3310] Sobre esta e outras declarações semelhantes dos Padres, o leitor pode consultar as Discussões sobre os Evangelhos do Dr. Roberts, nas quais são totalmente criticadas, e o original grego do Evangelho de São Mateus é mantido.
 
-Capítulo II.-- ​​Os hereges não seguem nem as Escrituras nem a tradição.
+## Capítulo II.-- ​​Os hereges não seguem nem as Escrituras nem a tradição.
 
 1. Quando, porém, são refutados pelas Escrituras, eles se voltam e acusam essas mesmas Escrituras, como se não fossem corretas, nem de autoridade, e [afirmam] que são ambíguas e que a verdade não pode ser extraída delas por aqueles que ignoram a tradição. Pois [eles alegam] que a verdade não foi entregue por meio de documentos escritos, mas vivâ voce: por isso também Paulo declarou: “Mas falamos sabedoria entre os que são perfeitos, mas não a sabedoria deste mundo”. [3311] E esta sabedoria cada um deles alega ser a ficção de sua própria invenção, na verdade; de modo que, de acordo com a ideia deles, a verdade reside propriamente em um momento em Valentino, em outro em Marcião, em outro em Cerinto, depois em Basilides, ou mesmo esteve indiferentemente em qualquer outro oponente, (3312) que não pudesse falar nada referente à salvação. Pois cada um desses homens, tendo uma disposição totalmente perversa, depravando o sistema da verdade, não tem vergonha de pregar a si mesmo.
 
@@ -56,6 +58,8 @@ Capítulo II.-- ​​Os hereges não seguem nem as Escrituras nem a tradição.
 [3311] 1 Cor. ii. 6.
 
 [3312] Esta é a tradução de Harvey do antigo latim, in illo qui contra disputat.
+
+## Capítulo III
 
 Capítulo III.--Uma refutação dos hereges, do fato de que, nas várias Igrejas, se manteve uma sucessão perpétua de bispos.
 
@@ -87,6 +91,8 @@ eu. pág. 252.) Aqui é óbvio que a fé foi mantida em Roma, por aqueles que al
 
 [3317] ikanotato. Harvey traduz isso como totalmente suficiente e, portanto, parafraseia: Mas sua epístola é totalmente suficiente para ensinar aqueles que desejam aprender.
 
+## Capítulo IV
+
 Capítulo IV.-- A verdade não se encontra em nenhum outro lugar senão na Igreja Católica, única depositária da doutrina apostólica. As heresias são de formação recente e não podem traçar sua origem até os apóstolos.
 
 1. Visto que temos tais provas, não é necessário procurar a verdade entre outras que são fáceis de obter na Igreja; pois os apóstolos, como um homem rico [depositando seu dinheiro] num banco, depositaram copiosamente em suas mãos todas as coisas pertencentes à verdade: para que todo homem, quem quiser, possa tirar dela a água da vida. [3318] Porque ela é a entrada da vida; todos os outros são ladrões e salteadores. Por esse motivo, somos obrigados a evitá-los, mas a escolher o que pertence à Igreja com a maior diligência e a nos apegar à tradição da verdade. Pois como está o caso? Suponha que surja uma disputa relativa a alguma questão importante (3319) entre nós, não deveríamos recorrer às igrejas mais antigas com as quais os apóstolos mantinham relações constantes, e aprender delas o que é certo e claro em relação à presente questão? Pois como seria se os próprios apóstolos não nos tivessem deixado escritos? Não seria necessário, [nesse caso,] seguir o curso da tradição que eles transmitiram àqueles a quem confiaram as Igrejas?
@@ -111,6 +117,8 @@ Mas os demais, chamados gnósticos, surgem de Menandro, discípulo de Simão, co
 
 [3323] Pensa-se que isto não significa a excomunhão propriamente dita, mas uma espécie de autoexcomunhão, isto é, antecipar a sentença da Igreja, abandonando-a completamente. Veja a nota de Valesius em sua edição de Eusébio.
 
+## Capítulo V
+
 Capítulo V. - Cristo e Seus apóstolos, sem qualquer fraude, engano ou hipocrisia, pregaram que um só Deus, o Pai, era o fundador de todas as coisas. Eles não acomodaram sua doutrina às pretensões de seus ouvintes.
 
 1. Visto, portanto, que a tradição dos apóstolos existe na Igreja e é permanente entre nós, voltemos à prova bíblica fornecida pelos apóstolos que também escreveram o Evangelho, na qual registraram a doutrina a respeito de Deus, apontando que nosso Senhor Jesus Cristo é a verdade, (3324) e que não há mentira Nele. Como também diz Davi, profetizando Seu nascimento de uma virgem e a ressurreição dos mortos: “A verdade brotou da terra”. [3325] Da mesma forma, os apóstolos, sendo discípulos da verdade, são acima de tudo falsidade; pois a mentira não tem comunhão com a verdade, assim como as trevas não têm comunhão com a luz, mas a presença de uma exclui a da outra. Nosso Senhor, portanto, sendo a verdade, não falou mentiras; e a quem Ele sabia ter se originado de um defeito, Ele nunca teria reconhecido como Deus, mesmo o Deus de todos, o Rei Supremo também, e Seu próprio Pai, um ser imperfeito como um ser perfeito, um ser animal como um espiritual, Aquele que estava sem o Pleroma como Aquele que estava dentro dele.
@@ -132,6 +140,8 @@ Mas que o Senhor veio como o médico dos enfermos, Ele mesmo declara dizendo: �
 [3327] Ef. ii. 17.
 
 [3328] Gênesis ix. 27.
+
+## Capítulo VI
 
 Capítulo VI - O Espírito Santo, ao longo das Escrituras do Antigo Testamento, não fez menção a nenhum outro Deus ou Senhor, exceto aquele que é o verdadeiro Deus.
 
@@ -213,6 +223,8 @@ Mas nesta [cláusula], “seja no céu ou na terra”, ele não fala dos formado
 
 [3357] Heb. iii. 5; Núm. xii. 7.
 
+## Capítulo VII
+
 Capítulo VII.--Resposta a uma objeção fundada nas palavras de São Paulo (2 Cor. iv. 4). São Paulo ocasionalmente usa palavras que não estão em sua sequência gramatical.
 
 1. Quanto à afirmação deles de que Paulo disse claramente na Segunda [Epístola] aos Coríntios: "Em quem o deus deste mundo cegou as mentes dos que não crêem", (3358) e sustentando que há de fato um deus deste mundo, mas outro que está além de todo principado, e princípio, e poder, não somos culpados se eles, que dizem que eles próprios conhecem mistérios além de Deus, não sabem como ler Paulo. Pois se alguém ler a passagem assim - de acordo com o costume de Paulo, como mostro em outro lugar, e por muitos exemplos, que ele usa transposição de palavras - "Em quem Deus", então apontando-o, e fazendo um pequeno intervalo, e ao mesmo tempo ler também o resto [da frase] em uma [cláusula], "cegou as mentes dos que não crêem neste mundo", ele descobrirá o verdadeiro [sentido]; que está contido na expressão: “Deus cegou as mentes dos incrédulos deste mundo”. E isso é mostrado por meio do pequeno intervalo [entre a cláusula].
@@ -234,6 +246,8 @@ Se, então, alguém não prestar atenção à leitura [adequada] [da passagem], 
 [3362] Este mundo não se encontra na segunda citação desta passagem imediatamente seguinte.
 
 [3363] 2 Tes. ii. 8.
+
+## Capítulo VIII
 
 Capítulo VIII.--Resposta a uma objeção, decorrente das palavras de Cristo (Mt. VI. 24). Somente Deus deve ser realmente chamado de Deus e Senhor, pois Ele não tem começo nem fim.
 
@@ -266,6 +280,8 @@ Pois Ele mesmo é incriado, sem começo e sem fim, e sem falta de nada. Ele mesm
 [3371] Sal. xxxiii. 6.
 
 [3372] Sal. cxv. 3.
+
+## Capítulo IX
 
 Capítulo IX.-- Um e o mesmo Deus, o Criador do céu e da terra, é Aquele que os profetas predisseram e que foi declarado pelo Evangelho. Prova disso, desde logo, no Evangelho de São Mateus.
 
@@ -325,7 +341,7 @@ Pois "Ele não precisava que alguém lhe testificasse sobre o homem, (3391) pois
 
 [3393] Prov. 22.
 
-Capítulo X.-- Provas do que precede, extraídas dos Evangelhos de Marcos e Lucas.
+## Capítulo X.-- Provas do que precede, extraídas dos Evangelhos de Marcos e Lucas.
 
 1. Lucas também, o seguidor e discípulo dos apóstolos, referindo-se a Zacarias e Isabel, de quem, segundo a promessa, João nasceu, diz: “E ambos eram justos diante de Deus, andando irrepreensíveis em todos os mandamentos e preceitos do Senhor”. [3394] E ainda, falando de Zacarias: "E aconteceu que enquanto ele executava o ofício sacerdotal diante de Deus na ordem de seu curso, de acordo com o costume do ofício sacerdotal, sua sorte era queimar incenso;" [3395] e ele veio sacrificar, "entrando no templo do Senhor". [3396] Cujo anjo Gabriel, também, que permanece proeminentemente na presença do Senhor, simples, absoluta e decididamente confessou em sua própria pessoa como Deus e Senhor, Aquele que escolheu Jerusalém e instituiu o ofício sacerdotal. Pois ele não conhecia nenhum outro acima dele; visto que, se ele possuísse o conhecimento de qualquer outro Deus e Senhor mais perfeito além Dele, ele certamente nunca - como já mostrei - teria confessado Aquele, a quem ele sabia ser o fruto de um defeito, como absoluta e totalmente Deus e Senhor.
 
@@ -424,6 +440,8 @@ Pois variado e rico em atributos é o Pai, como já mostrei no livro anterior [3
 [3427] Marcos xvi. 19.
 
 [3428] Sal. cx. 1.
+
+## Capítulo XI
 
 Capítulo XI – Provas em continuação, extraídas do Evangelho de São João. Os Evangelhos são em número de quatro, nem mais nem menos. Razões místicas para isso.
 
@@ -543,7 +561,7 @@ A opinião daqueles homens, portanto, que nos transmitiram o Evangelho, tendo si
 
 [3465] Mat. xii. 31.
 
-Capítulo XII.--Doutrina dos demais apóstolos.
+## Capítulo XII.--Doutrina dos demais apóstolos.
 
 1. O Apóstolo Pedro, portanto, após a ressurreição do Senhor, e Sua assunção aos céus, estando desejoso de completar o número dos doze apóstolos, e eleger para o lugar de Judas qualquer substituto que fosse escolhido por Deus, dirigiu-se assim aos que estavam presentes: "Homens [e] irmãos, é necessário que se tenha cumprido esta Escritura, a qual o Espírito Santo, pela boca de Davi, falou antes a respeito de Judas, que foi feito guia para aqueles que levaram Jesus. Pois ele foi contado com nós: [3466] ... Seja desolada a sua habitação, e ninguém habite nela; [3468] - levando assim à conclusão dos apóstolos, de acordo com as palavras ditas por David. Novamente, quando o Espírito Santo desceu sobre os discípulos, para que todos profetizassem e falassem em línguas, e alguns zombaram deles, como se estivessem bêbados com vinho novo, Pedro disse que eles não estavam bêbados, porque era a terceira hora do dia; mas isso foi o que foi dito pelo profeta: “Acontecerá nos últimos dias, diz Deus, derramarei do meu Espírito sobre toda a carne, e eles profetizarão”. [3469] O Deus, portanto, que prometeu pelo profeta que enviaria Seu Espírito sobre toda a raça humana, foi Ele quem o enviou; e o próprio Deus é anunciado por Pedro como tendo cumprido Sua própria promessa.
 
@@ -743,7 +761,7 @@ E Paulo disse que Barnabé também fez a mesma coisa. [3526] Assim agiram os ap�
 
 [3526] Gál. ii. 12, 13.
 
-Capítulo XIII - Refutação da opinião de que Paulo era o único apóstolo que tinha conhecimento da verdade.
+## Capítulo XIII - Refutação da opinião de que Paulo era o único apóstolo que tinha conhecimento da verdade.
 
 1. No que diz respeito àqueles (os marcionitas) que alegam que só Paulo conhecia a verdade, e que para ele o mistério foi manifestado por revelação, deixe o próprio Paulo convencê-los, quando ele diz, que um e o mesmo Deus operou em Pedro para o apostolado da circuncisão, e em si mesmo para os gentios. [3527] Pedro, portanto, era apóstolo daquele mesmo Deus que também era Paulo; e Aquele a quem Pedro pregou como Deus entre os da circuncisão, e igualmente o Filho de Deus, Paulo [declarou] também entre os gentios. Pois nosso Senhor nunca veio salvar Paulo sozinho, nem Deus é tão limitado em meios a ponto de ter apenas um apóstolo que conhecesse a dispensação de Seu Filho. E novamente, quando Paulo diz: “Quão belos são os pés daqueles que trazem boas novas de coisas boas e pregam o Evangelho da paz”, (3528) ele mostra claramente que não era apenas um, mas havia muitos que costumavam pregar a verdade.
 
@@ -778,6 +796,8 @@ Ou como poderia ter ignorado Pedro, a quem o Senhor deu testemunho, que a carne 
 [3537] Gál. ii. 1, 2.
 
 [3538] Latim, "Ad horam cesimus subjectioni" (Gal. ii. 5). Irineu dá-lhe um significado totalmente diferente daquele que tem no texto recebido. Jerônimo diz que havia muita variação nas cópias das Escrituras em sua época no que diz respeito à passagem - alguns retendo, outros rejeitando o negativo (Adv. Marc. v. 3).
+
+## Capítulo XIV
 
 Capítulo XIV. - Se Paulo conhecesse quaisquer mistérios não revelados aos outros apóstolos, Lucas, seu constante companheiro e companheiro de viagem, não poderia ignorá-los; nem a verdade poderia ter ficado escondida dele, por meio de quem somente aprendemos muitos e mais importantes detalhes da história do Evangelho.
 
@@ -847,6 +867,8 @@ Há também muitos outros detalhes mencionados apenas por Lucas, que são utiliz
 
 [3563] Lucas XIV.
 
+## Capítulo XV
+
 Capítulo XV.-- Refutação dos Ebionitas, que menosprezaram a autoridade de São Paulo, dos escritos de São Lucas, que devem ser recebidos como um todo. Exposição da hipocrisia, engano e orgulho dos gnósticos. Os apóstolos e seus discípulos conheciam e pregavam um Deus, o Criador do mundo.
 
 1. Mas, novamente, alegamos o mesmo contra aqueles que não reconhecem Paulo como apóstolo: que eles deveriam rejeitar as outras palavras do Evangelho que conhecemos apenas através de Lucas, e não fazer uso delas; ou então, se receberem tudo isso, devem necessariamente admitir também aquele testemunho a respeito de Paulo, quando ele (Lucas) nos diz que o Senhor falou primeiro com ele do céu: "Saulo, Saulo, por que me persegues? Eu sou Jesus Cristo, a quem tu persegues"; [3564] e depois a Ananias, dizendo a respeito dele: "Vai, porque ele é para Mim um vaso escolhido, para levar o Meu nome entre os gentios, e entre os reis e os filhos de Israel. Pois eu lhe mostrarei, a partir de agora, quão grandes coisas ele deve sofrer por causa do Meu nome." [3565] Aqueles, portanto, que não o aceitam [como professor], que foi escolhido por Deus para este propósito, para que pudesse levar corajosamente Seu nome, como sendo enviado às nações mencionadas, desprezam a eleição de Deus, e separam-se da companhia dos apóstolos.
@@ -870,6 +892,8 @@ Há entre eles aqueles que afirmam que aquele homem que vem de cima deve seguir 
 [3567] Seguimos aqui o texto de Harvey, que imprime, sem comentários, quæruntur, em vez de queruntur, como na edição de Migne.
 
 [3568] Tal é o sentido extraído por Harvey da antiga versão latina, que diz assim: "Decipiuntur autem omnes, qui quod est in verbis verisimile, se putant posse discere a veritate." Para "omnes", ele leria "omnino" e descarta a emenda proposta pelos editores anteriores, a saber, "discernere" para "discere".
+
+## Capítulo XVI
 
 Capítulo XVI.-- Provas dos escritos apostólicos de que Jesus Cristo era um e o mesmo, o Filho unigênito de Deus, Deus perfeito e homem perfeito.
 
@@ -1005,6 +1029,8 @@ Pois Ele mesmo trouxe verdadeiramente a salvação: visto que Ele mesmo é a Pal
 
 [3613] 1 Ped. ii. 23.
 
+## Capítulo XVII
+
 Capítulo XVII.-- ​​Os apóstolos ensinam que não foi Cristo nem o Salvador, mas o Espírito Santo, quem desceu sobre Jesus. A razão desta descida.
 
 1. Certamente estava no poder dos apóstolos declarar que Cristo desceu sobre Jesus, ou que o chamado Salvador superior [desceu] sobre o dispensacional, ou aquele que vem dos lugares invisíveis sobre ele vindo do Demiurgo; mas eles não sabiam nem disseram nada desse tipo: pois, se soubessem, certamente também o teriam declarado. Mas o que realmente aconteceu foi que eles registraram, [a saber] que o Espírito de Deus como uma pomba desceu sobre Ele; este Espírito, de quem foi declarado por Isaías: “E o Espírito de Deus repousará sobre Ele”, (3614) como já disse. E ainda: “O Espírito do Senhor está sobre mim, porque Ele me ungiu”. [3615] Esse é o Espírito de quem o Senhor declara: “Porque não sois vós os que falais, mas o Espírito de vosso Pai é quem fala em vós”. [3616] E novamente, dando aos discípulos o poder de regeneração em Deus, [3617] Ele lhes disse: "Ide e ensinai todas as nações, batizando-as em nome do Pai, e do Filho, e do Espírito Santo." [3618] Porque [Deus] prometeu que nos últimos tempos o derramaria [o Espírito] sobre [seus] servos e servas, para que profetizassem; portanto, Ele também desceu sobre o Filho de Deus, tornou-se o Filho do homem, acostumando-se em comunhão com Ele a habitar na raça humana, a descansar com os seres humanos e a habitar na obra de Deus, operando neles a vontade do Pai e renovando-os de seus velhos hábitos para a novidade de Cristo.
@@ -1056,6 +1082,8 @@ Caberá, portanto, a você e a todos os outros que dão atenção a este escrito
 [3630] O período seguinte é traduzido de um fragmento siríaco (ver Irenæus de Harvey, vol. ii. p. 439), pois fornece algumas palavras inconvenientemente omitidas na antiga versão latina.
 
 [3631] Comp. livro. eu. preferência. nota 4.
+
+## Capítulo XVIII
 
 Capítulo XVIII.--Continuação da argumentação anterior. Provas dos escritos de São Paulo e das palavras de Nosso Senhor, de que Cristo e Jesus não podem ser considerados seres distintos; nem se pode alegar que o Filho de Deus se tornou homem apenas na aparência, mas que o fez verdadeira e efetivamente.
 
@@ -1153,6 +1181,8 @@ Mas o que Ele apareceu, isso também era: Deus recapitulou em Si mesmo a antiga 
 
 [3664] Deut. xxxii. 4.
 
+## Capítulo XIX
+
 Capítulo XIX.-- Jesus Cristo não foi um mero homem, gerado de José no curso normal da natureza, mas foi o verdadeiro Deus, gerado pelo Pai Altíssimo, e o próprio homem, nascido da Virgem.
 
 1. Mas, novamente, aqueles que afirmam que Ele era simplesmente um mero homem, gerado por José, permanecendo na escravidão da antiga desobediência, estão em um estado de morte, por ainda não terem sido unidos à Palavra de Deus Pai, nem recebendo liberdade através do Filho, como Ele mesmo declara: "Se o Filho vos libertar, verdadeiramente sereis livres." [3665] Mas, ignorando Aquele que da Virgem é o Emanuel, ficam privados do seu dom, que é a vida eterna; [3666] e não recebendo a Palavra incorruptível, permanecem na carne mortal e são devedores até a morte, não obtendo o antídoto da vida. A quem a Palavra diz, mencionando Seu próprio dom da graça: “Eu disse: Todos vós sois filhos do Altíssimo e deuses; mas morrereis como os homens”. [3667] Sem dúvida, estas palavras ele dirige àqueles que não receberam o dom da adopção, mas que desprezam a encarnação da geração pura do Verbo de Deus, [3668] defraudam a natureza humana da promoção a Deus e mostram-se ingratos ao Verbo de Deus, que se fez carne por eles.
@@ -1202,6 +1232,8 @@ Pois há muitas moradas na casa do Pai, (3682) visto que também há muitos memb
 [3681] Ef. 4. 16.
 
 [3682] João XIV. 2.
+
+## Capítulo XX
 
 Capítulo XX.-- Deus mostrou-se, pela queda do homem, como paciente, benigno, misericordioso, poderoso para salvar. O homem é, portanto, muito ingrato se, desatento à sua própria sorte e aos benefícios que lhe são oferecidos, não reconhece a graça divina.
 
@@ -1268,6 +1300,8 @@ Seu poder cobriu os céus e a terra está cheia de Seu louvor. Diante de Sua fac
 [3706] Hab. iii. 3, 5.
 
 [3707] Esta citação de Habacuque, aqui comentada por Irineu, difere tanto do hebraico como da LXX, e aproxima-se mais da antiga versão itálica da passagem.
+
+## Capítulo XXI
 
 Capítulo XXI.-- Uma vindicação da profecia em Isa. vii. 14 contra as interpretações errôneas de Teodotion, Áquila, dos ebionitas e dos judeus. Autoridade da versão da Septuaginta. Argumentos que provam que Cristo nasceu de uma virgem.
 
@@ -1371,7 +1405,7 @@ Mas se o primeiro foi tirado do pó, e Deus foi o seu Criador, cabia que este ú
 
 [3738] João i. 3.
 
-Capítulo XXII.--Cristo assumiu carne real, concebido e nascido da Virgem.
+## Capítulo XXII.--Cristo assumiu carne real, concebido e nascido da Virgem.
 
 1. Aqueles, portanto, que alegam que Ele nada tirou da Virgem erram muito, [pois] para que possam rejeitar a herança da carne, eles também rejeitam a analogia [entre Ele e Adão]. Pois se aquele [que surgiu] da terra tivesse de fato formação e substância tanto da mão quanto da obra de Deus, mas o outro não da mão e obra de Deus, então Aquele que foi feito à imagem e semelhança do primeiro não preservou, nesse caso, a analogia do homem, e Ele deve parecer uma obra inconsistente, não tendo com o que Ele possa mostrar Sua sabedoria. Mas isso quer dizer que Ele também apareceu supostamente como homem quando não era homem, e que Ele se fez homem sem tirar nada do homem. Pois se Ele não recebeu a substância da carne de um ser humano, Ele não foi feito homem nem Filho do homem; e se Ele não foi feito como nós éramos, Ele não fez grande coisa naquilo que sofreu e suportou.
 
@@ -1420,6 +1454,8 @@ E por esse motivo a lei chama uma mulher desposada com um homem, a esposa daquel
 [3754] Rev. 5.
 
 [3755] Comp. 1 Cor. xv. 20-22.
+
+## Capítulo XXIII
 
 Capítulo XXIII.-- ​​Argumentos em oposição a Taciano, mostrando que estava em consonância com a justiça e misericórdia divinas que o primeiro Adão participasse primeiro daquela salvação oferecida a todos por Cristo.
 
@@ -1503,6 +1539,8 @@ Agora Adão havia sido conquistado, toda a vida lhe foi tirada: portanto, quando
 
 [3780] Literalmente, "mas ele não viu a Deus". Supõe-se que o tradutor tenha lido oiden, sabia, pois eiden, viu.
 
+## Capítulo XXIV
+
 Capítulo XXIV.--Recapitulação dos vários argumentos apresentados contra a impiedade gnóstica sob todos os seus aspectos. Os hereges, agitados por toda explosão de doutrina, são combatidos pelo ensino uniforme da Igreja, que permanece sempre assim e é consistente consigo mesmo.
 
 1. Assim, então, foram expostos todos esses homens, que trazem doutrinas ímpias a respeito de nosso Criador e Conspirador, que também formou este mundo, e acima de quem não há outro Deus; e aqueles que ensinam falsidades a respeito da substância de nosso Senhor e da dispensação que Ele cumpriu por causa de Sua própria criatura, o homem, foram derrubados por seus próprios argumentos. Mas [foi, por outro lado, demonstrado] que a pregação da Igreja é consistente em todos os lugares, e continua em um curso uniforme, e recebe testemunho dos profetas, dos apóstolos e de todos os discípulos - como eu provei - através [daqueles no] começo, meio e fim, (3781) e através de toda a dispensação de Deus, e daquele sistema bem fundamentado que tende (3782) à salvação do homem, a saber, nossa fé; que, tendo sido recebido da Igreja, preservamos, e que sempre, pelo Espírito de Deus, renovando a sua juventude, como se fosse algum depósito precioso num vaso excelente, faz com que o próprio vaso que o contém renove também a sua juventude.
@@ -1524,6 +1562,8 @@ Aqueles, portanto, que não participam Dele, não são nutridos para a vida a pa
 [3785] Jr. ii. 13.
 
 [3786] isto é, o Espírito.
+
+## Capítulo XXV
 
 Capítulo XXV.-- Este mundo é governado pela providência de um Deus, que é dotado de justiça infinita para punir os ímpios, e de bondade infinita para abençoar os piedosos e conceder-lhes a salvação.
 
