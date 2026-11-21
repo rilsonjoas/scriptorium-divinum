@@ -817,3 +817,6 @@ Decisão do autor: verificar em vez de ocultar tudo. Resultado: **38 confirmadas
 ### Registro de proveniência: onde ficou (migration 0024)
 Mais 19 obras de Pais da Igreja tiveram a edição-fonte confirmada pelo mesmo método (referências bíblicas contra o CCEL) e gravada na atribuição. Ficam **83 obras sem fonte registrada** (36 da faixa D sem referências suficientes, 22 da faixa A e 25 da B), todas no ar com a fonte apenas declarada ou indicada no texto; o estado e o próximo passo estão em `docs/PROVENIENCIA-ACERVO.md`.
 
+### Faixa A: 1 de 22 confirmada (migration 0025)
+Só o Catecismo de Heidelberg pôde ser confirmado (volume III do Schaff). As outras 21 ficam com a fonte declarada: falta a fonte antiga (Gutenberg fora do ar, Calvin Tracts não localizados, Clímaco e Bento sem edição de partida identificada). Quadro em `docs/PROVENIENCIA-ACERVO.md`.
+
