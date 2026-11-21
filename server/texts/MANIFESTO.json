@@ -6,7 +6,8 @@
       "estado": "publicada"
     },
     "a-cana-quebrada-richard-sibbes": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Texto de outro livro importado sob este título (achado em 21/11/2026): o arquivo é um romance em francês, não A Cana Quebrada. Ocultada pela migration 0019. Reimportar a partir da edição correta (fonte e proveniência) antes de reativar."
     },
     "a-catequese-dos-nao-instruidos-agostinho": {
       "estado": "publicada"
@@ -470,7 +471,8 @@
       "estado": "publicada"
     },
     "o-castelo-interior-teresa-de-avila": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Texto de outro livro importado sob este título (achado em 21/11/2026): o arquivo é um romance em finlandês, não O Castelo Interior. Ocultada pela migration 0019. Reimportar a partir da edição correta (fonte e proveniência) antes de reativar."
     },
     "o-catecismo-maior-martinho-lutero": {
       "estado": "publicada"
@@ -503,7 +505,8 @@
       "estado": "publicada"
     },
     "o-padre-do-campo-george-herbert": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Texto de outro livro importado sob este título (achado em 21/11/2026): o arquivo é um estudo sobre as igrejas de Jerusalém, não O Padre do Campo. Ocultada pela migration 0019. Reimportar a partir da edição correta (fonte e proveniência) antes de reativar."
     },
     "o-pastor-de-hermas": {
       "estado": "publicada"
@@ -515,7 +518,8 @@
       "estado": "publicada"
     },
     "o-tratado-da-oracao-do-senhor-thomas-watson": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Texto de outro livro importado sob este título (achado em 21/11/2026): o arquivo é um romance, não A Oração do Senhor de Watson. Ocultada pela migration 0019. Reimportar a partir da edição correta (fonte e proveniência) antes de reativar."
     },
     "on-prayer-and-the-contemplative-life": {
       "estado": "fonte"
@@ -542,7 +546,8 @@
       "estado": "publicada"
     },
     "preces-privatae-lancelot-andrewes": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Texto de outro livro importado sob este título (achado em 21/11/2026): o arquivo é um romance da Primeira Guerra, não as Preces Privatae. Ocultada pela migration 0019. Reimportar a partir da edição correta (fonte e proveniência) antes de reativar."
     },
     "prefacio-aos-romanos-lutero": {
       "estado": "publicada"
@@ -575,7 +580,8 @@
       "estado": "publicada"
     },
     "santo-viver-jeremy-taylor": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Texto de outro livro importado sob este título (achado em 21/11/2026): o arquivo é uma história da guerra franco-prussiana, não o Santo Viver. Ocultada pela migration 0019. Reimportar a partir da edição correta (fonte e proveniência) antes de reativar."
     },
     "segunda-apologia-justino-martir": {
       "estado": "publicada"
@@ -713,7 +719,8 @@
       "estado": "publicada"
     },
     "soliloquio-da-alma-tomas-de-kempis": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Texto de outro livro importado sob este título (achado em 21/11/2026): o arquivo são memórias da corte prussiana (1902), não o Solilóquio da Alma. Ocultada pela migration 0019. Reimportar a partir da edição correta (fonte e proveniência) antes de reativar."
     },
     "sousa-vida-do-arcebispo-antologia": {
       "estado": "publicada"
@@ -800,7 +807,8 @@
       "estado": "publicada"
     },
     "tratado-do-amor-de-deus-francisco-de-sales": {
-      "estado": "publicada"
+      "estado": "oculta",
+      "motivo": "Texto de outro livro importado sob este título (achado em 21/11/2026): o arquivo é um romance de ficção científica, não o Tratado do Amor de Deus. Ocultada pela migration 0019. Reimportar a partir da edição correta (fonte e proveniência) antes de reativar."
     },
     "tratado-do-purgatorio-catarina-de-genova": {
       "estado": "publicada"
