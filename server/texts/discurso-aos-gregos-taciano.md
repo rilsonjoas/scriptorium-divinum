@@ -25,7 +25,7 @@ translator: "Scriptorium Divinum (Tradução Integral em Domínio Público)"
 
 Discurso de Taciano aos gregos.
 
-Capítulo I.--Os gregos reivindicam, sem razão, a invenção das artes.
+## Capítulo I.--Os gregos reivindicam, sem razão, a invenção das artes.
 
 Não tenham, ó gregos, uma disposição tão hostil para com os bárbaros, nem olhem com má vontade para suas opiniões. Pois qual das vossas instituições não derivou dos Bárbaros? O mais eminente dos Telmessianos inventou a arte de adivinhar por meio de sonhos; os Carians, o de prognosticar pelas estrelas; os frígios e os mais antigos isaurianos, augúrio pelo vôo dos pássaros; os cipriotas, a arte de inspecionar as vítimas. Aos babilônios você deve a astronomia; para os persas, magia; para os egípcios, geometria; para os fenícios, instrução por escrita alfabética. Pare, então, de chamar erroneamente essas imitações de suas próprias invenções. Orfeu, novamente, ensinou-lhe poesia e música; com ele também você aprendeu os mistérios. Os toscanos ensinaram-te a arte plástica; nos anais dos egípcios você aprendeu a escrever história; você adquiriu a arte de tocar flauta de Mársias e do Olimpo - esses dois rústicos frígios construíram a harmonia da flauta do pastor.
 
@@ -43,13 +43,13 @@ No entanto, aqueles que o perseguem ansiosamente gritam vigorosamente e coaxam c
 
 [423] Aristoph., Ranæ, 92, 93.
 
-Capítulo II.--Os vícios e erros dos filósofos.
+## Capítulo II.--Os vícios e erros dos filósofos.
 
 Que coisa nobre você produziu com sua busca pela filosofia? Qual dos seus homens mais eminentes esteve livre de vanglória? Diógenes, que fez tanto desfile de sua independência com sua banheira, foi acometido de um problema intestinal ao comer um pólipo cru e, assim, perdeu a vida por causa da gula. Aristipo, andando com um manto púrpura, levava uma vida perdulária, de acordo com suas opiniões professadas. Platão, um filósofo, foi vendido por Dionísio por suas propensões gormandizantes. E Aristóteles, que absurdamente colocou um limite à Providência e fez com que a felicidade consistisse nas coisas que dão prazer, bastante contrário ao seu dever de preceptor, lisonjeou Alexandre, esquecendo-se de que ele era apenas um jovem; e ele, mostrando quão bem havia aprendido as lições de seu mestre, porque seu amigo não o adorava, calou-o e carregou-o como um urso ou um leopardo.
 
 Na verdade, ele obedeceu estritamente aos preceitos de seu professor, demonstrando masculinidade e coragem, festejando e trespassando com sua lança seu amigo íntimo e mais querido, e então, sob uma aparência de tristeza, chorando e passando fome, para não incorrer no ódio de seus amigos. Eu também poderia rir daqueles que hoje aderem aos seus princípios – pessoas que dizem que as coisas sublunares não estão sob os cuidados da Providência; e assim, estando mais perto da terra do que da lua, e abaixo de sua órbita, eles próprios cuidam do que é deixado sem cuidado; e quanto àqueles que não têm beleza, nem riqueza, nem força corporal, nem nascimento nobre, eles não têm felicidade, segundo Aristóteles. Deixe esses homens filosofarem, por mim!
 
-Capítulo III.--Ridículo dos Filósofos.
+## Capítulo III.--Ridículo dos Filósofos.
 
 Não posso aprovar Heráclito, que, sendo autodidata e arrogante, disse: “Eu me explorei”. Nem posso elogiá-lo por esconder seu poema (424) no templo de Ártemis, para que mais tarde pudesse ser publicado como um mistério; e aqueles que se interessam por tais coisas dizem que Eurípides, o poeta trágico, foi lá e leu-o e, aprendendo-o gradualmente de cor, transmitiu cuidadosamente à posteridade esta escuridão (425) de Heráclito. A morte, porém, demonstrou a estupidez deste homem; pois, sendo atacado de hidropisia, por ter estudado tanto a arte da medicina quanto a filosofia, ele se cobriu com esterco de vaca, que, ao endurecer, contraiu a carne de todo o seu corpo, de modo que ele foi despedaçado, e assim morreu. Então, não se pode ouvir Zenão, que declara que na conflagração o mesmo homem se levantará novamente para realizar as mesmas ações de antes; por exemplo, Anytus e Miletus para acusar, Busiris para assassinar seus convidados e Hércules para repetir seus trabalhos; e nesta doutrina da conflagração ele introduz mais pessoas perversas do que apenas pessoas - um Sócrates e um Hércules, e mais alguns da mesma classe, mas não muitos, pois os maus serão encontrados muito mais numerosos do que os bons.
 
@@ -61,7 +61,7 @@ Além disso, eles têm muitas colisões entre si; cada um odeia o outro; eles se
 
 [425] Ele foi chamado de d skoteinos por sua obscuridade.
 
-Capítulo IV.-- Os cristãos adoram somente a Deus.
+## Capítulo IV.-- Os cristãos adoram somente a Deus.
 
 Por que razão, homens da Grécia, vocês desejam levar os poderes civis, como num encontro pugilístico, a colidir conosco? E, se não estou disposto a cumprir os costumes de alguns deles, por que devo ser abominado como um vil canalha? [426] Se o soberano ordenar o pagamento do tributo, estou pronto a prestá-lo. Se meu mestre me ordenar que atue como servo e sirva, reconheço a servidão. O homem deve ser honrado como semelhante; [427] Somente Deus deve ser temido - Aquele que não é visível aos olhos humanos, nem está dentro do alcance da arte humana. Somente quando for ordenado a negá-Lo, não obedecerei, mas preferirei morrer a mostrar-me falso e ingrato. Nosso Deus não começou a existir no tempo: (428) Somente Ele não tem começo, e Ele mesmo é o começo de todas as coisas. Deus é um Espírito, (429) que não permeia a matéria, mas é o Criador dos espíritos materiais, (430) e das formas que estão na matéria; Ele é invisível, impalpável, sendo Ele mesmo o Pai das coisas sensíveis e invisíveis.
 
@@ -81,7 +81,7 @@ Conhecemos a Ele desde Sua criação e apreendemos Seu poder invisível por Suas
 
 [432] [Mais uma vez, Taciano afirma que os espíritos são materiais, embora não carnais; e acho que com referência a 1 Cor. xv. 44.]
 
-Capítulo V.--A Doutrina dos Cristãos quanto à Criação do Mundo.
+## Capítulo V.--A Doutrina dos Cristãos quanto à Criação do Mundo.
 
 Deus estava no princípio; mas o começo, fomos ensinados, é o poder do Logos. Pois o Senhor do universo, que é Ele próprio a base necessária (hupostasis) de todo o ser, visto que nenhuma criatura ainda existia, estava sozinho; mas visto que Ele era todo poder, Ele mesmo a base necessária das coisas visíveis e invisíveis, com Ele estavam todas as coisas; com Ele, pelo poder do Logos (dia logikes dunameos), o próprio Logos também, que estava Nele, subsiste. [433] E por Sua simples vontade o Logos brota; e o Logos, não surgindo em vão, torna-se a obra primogênita do Pai. Ele (o Logos) sabemos ser o começo do mundo. Mas Ele veio a existir por participação, (434) não por abscisão; pois o que é cortado é separado da substância original, mas aquilo que vem pela participação, fazendo sua escolha de função, (435) não torna deficiente aquele de quem é tirado.
 
@@ -99,7 +99,7 @@ Pois a matéria não é, como Deus, sem começo, nem, como não tem começo, tem
 
 [437] [Supostamente uma referência pessoal à sua conversão e batismo. Quanto à “matéria confusa”, ela deveria ser uma questão afim e deve ser colocada acima da “espírito afim”. Veja pág. 71, cap. xiii., infra.]
 
-Capítulo VI.--A Crença dos Cristãos na Ressurreição.
+## Capítulo VI.--A Crença dos Cristãos na Ressurreição.
 
 E por isso acreditamos que haverá uma ressurreição dos corpos após a consumação de todas as coisas; não, como afirmam os estóicos, de acordo com o retorno de certos ciclos, as mesmas coisas sendo produzidas e destruídas sem nenhum propósito útil, mas uma ressurreição de uma vez por todas, (438) quando nossos períodos de existência terminarem, e apenas em conseqüência da constituição das coisas sob as quais somente os homens vivem, com o propósito de julgá-las. Nem a sentença sobre nós foi proferida por Minos ou Radamanto, antes de cujo falecimento nem uma única alma, de acordo com os contos míticos, foi julgada; mas o Criador, o próprio Deus, torna-se o árbitro. E, embora você nos considere meros brincalhões e tagarelas, isso não nos incomoda, já que temos fé nesta doutrina. Pois assim como, não existindo antes de nascer, eu não sabia quem eu era, e só existia na potencialidade (upóstase) da matéria carnal, mas nascendo, depois de um antigo estado de nada, obtive através do meu nascimento uma certeza da minha existência; da mesma forma, tendo nascido, e através da morte não existindo mais, e não sendo mais visto, existirei novamente, assim como antes não existia, mas nasci depois.
 
@@ -109,7 +109,7 @@ Embora o fogo destrua todos os vestígios da minha carne, o mundo recebe a maté
 
 [439] [Uma suposta descoberta da ciência moderna. Ver Religião e Química, do Professor Cook de Harvard, pp. 79, 101. Edição Revisada, Scribners, 1880.]
 
-Capítulo VII.--A respeito da queda do homem.
+## Capítulo VII.--A respeito da queda do homem.
 
 Pois o Logos celestial, um espírito que emana do Pai e um Logos do poder do Logos, em imitação do Pai que O gerou, fez do homem uma imagem de imortalidade, para que, assim como a incorrupção é para Deus, da mesma maneira, o homem, compartilhando uma parte de Deus, pudesse ter também o princípio imortal. O Logos, (440) também, antes da criação dos homens, foi o Criador dos anjos. E cada uma dessas duas ordens de criaturas foi libertada para agir como bem entendesse, não tendo a natureza do bem, que novamente está somente com Deus, mas é levada à perfeição nos homens através de sua liberdade de escolha, a fim de que o homem mau possa ser punido com justiça, tendo-se tornado depravado por sua própria culpa, mas o homem justo seja merecidamente elogiado por seus atos virtuosos, uma vez que no exercício de sua livre escolha ele se absteve de transgredir a vontade de Deus.
 
@@ -119,7 +119,7 @@ Tal é a constituição das coisas em referência aos anjos e aos homens. E o po
 
 [441] Gênesis iii. 1 [Primogênito. angelos protogonos.]
 
-Capítulo VIII.-- ​​O pecado dos demônios entre a humanidade.
+## Capítulo VIII.-- ​​O pecado dos demônios entre a humanidade.
 
 Mas os homens constituem o material (hipótese) da sua apostasia. Pois, tendo-lhes mostrado um plano da posição das estrelas, como jogadores de dados, introduziram o Destino, uma flagrante injustiça. Pois o juiz e o julgado são assim feitos pelo Destino; os assassinos e os assassinados, os ricos e os necessitados, são frutos do mesmo Destino; e todo presépio é considerado um entretenimento teatral por aqueles seres de quem Homero diz: -
 
@@ -147,7 +147,7 @@ conquistado por uma leve brisa, Apolo perdeu sua amada.
 
 [444] Não se sabe de quem esta linha é citada.
 
-Capítulo IX.--Eles dão origem a superstições.
+## Capítulo IX.--Eles dão origem a superstições.
 
 Tais são os demônios; estes são os que estabeleceram a doutrina do Destino. O seu princípio fundamental era a colocação de animais nos céus. Para as coisas rastejantes na terra, e aquelas que nadam nas águas, e os quadrúpedes nas montanhas, com os quais viviam quando foram expulsos do céu, - estes eles dignificaram com honra celestial, para que pudessem ser considerados como permanecendo no céu, e, ao colocar as constelações lá, pudessem fazer parecer racional o curso irracional da vida na terra. [445] Assim, o altivo e o esmagado pelo trabalho, o temperante e o intemperante, o indigente e o rico, são o que são simplesmente por serem os controladores de seu nascimento. Pois o delineamento do círculo zodiacal é obra dos deuses. E, quando a luz de um deles predomina, como eles expressam, priva todos os demais de sua honra; e aquele que agora é conquistado, em outro momento ganha o predomínio.
 
@@ -165,7 +165,7 @@ Pois por que a Sardenha e Chipre não são honrados no céu? E por que as letras
 
 [449] [oikonomos. Então boné. xii., infra: “a constituição do corpo está sob uma única administração”, mias estin oikonomhias. Também boné. xxi., pág. 74, infra, [5]nota 5.]
 
-Capítulo X.-- Ridículo das divindades pagãs.
+## Capítulo X.-- Ridículo das divindades pagãs.
 
 Existem lendas sobre a metamorfose dos homens: convosco também os deuses se metamorfoseiam. Rhea se torna uma árvore; Zeus, um dragão, por conta de Perséfone; as irmãs de Phaëthon são transformadas em choupos, e Leto em um pássaro de pouco valor, por causa do qual o que hoje é Delos foi chamado de Ortygia. Um deus, na verdade, torna-se um cisne, ou assume a forma de uma águia, e, fazendo de Ganimedes seu copeiro, gloria-se de uma afeição vil. Como posso reverenciar deuses que estão ansiosos por presentes e ficam furiosos se não os recebem? Deixe-os ter seu destino! Não estou disposto a adorar estrelas errantes. O que é esse cabelo de Berenicé? Onde estavam suas estrelas antes de sua morte? E como o morto Antínous foi fixado como um belo jovem na lua? Quem o levou para lá: a menos que, por acaso, como os homens, cometendo perjúrio por aluguel, sejam creditados quando dizem, ridicularizando os deuses, que os reis ascenderam ao céu, alguém, da mesma maneira, colocou este homem também entre os deuses, (450) e foi recompensado com honra e recompensa?
 
@@ -177,7 +177,7 @@ Por que você roubou a Deus? Por que você desonra Sua obra? Você sacrifica uma
 
 [452] Um escritor de mímicos.
 
-Capítulo XI.-- O pecado dos homens não se deve ao destino, mas ao livre arbítrio.
+## Capítulo XI.-- O pecado dos homens não se deve ao destino, mas ao livre arbítrio.
 
 Como, então, devo admitir esta natividade de acordo com o Destino, quando vejo tais administradores do Destino? Não desejo ser rei; Não estou ansioso para ser rico; Recuso o comando militar; Detesto fornicação; Não sou impelido por um amor insaciável ao lucro a ir para o mar; Não luto por grinaldas; Estou livre da louca sede de fama; Eu desprezo a morte; Sou superior a todo tipo de doença; a dor não consome minha alma. Sou um escravo, suporto a servidão. Sou livre, não me vanglorio do meu bom nascimento. Vejo que o mesmo sol é para todos e uma morte para todos, quer vivam no prazer ou na miséria. O rico semeia e o pobre participa da mesma semeadura. Os mais ricos morrem e os mendigos têm os mesmos limites de vida. Os ricos carecem de muitas coisas e são gloriosos apenas pela estima que têm; [453] mas o pobre e aquele que tem desejos muito moderados, procurando apenas as coisas adequadas à sua sorte, obtém mais facilmente o seu propósito.
 
@@ -189,7 +189,7 @@ Como é que você está fadado a ficar sem dormir por causa da avareza? Por que 
 
 [455] [Comp. boné. xv., infra, e a [6]nota 6, p. 71.]
 
-Capítulo XII.--As duas espécies de Espíritos.
+## Capítulo XII.--As duas espécies de Espíritos.
 
 Reconhecemos duas variedades de espírito, uma das quais é chamada alma [456] (psiche), mas a outra é maior que a alma, uma imagem e semelhança de Deus: ambas existiram nos primeiros homens, para que em um sentido pudessem ser materiais (hulikoi), e em outro superior à matéria. A situação é a seguinte: podemos ver que toda a estrutura do mundo, e toda a criação, foi produzida a partir da matéria, e a própria matéria trazida à existência (457) por Deus; de modo que, por um lado, pode ser considerado rude e informe antes de ser separado em partes e, por outro, organizado em beleza e ordem depois que a separação foi feita. Portanto, naquela separação, os céus e as estrelas que neles estão foram feitos de matéria; e a terra e tudo o que nela existe tem uma constituição semelhante: de modo que há uma origem comum para todas as coisas.
 
@@ -209,7 +209,7 @@ Existe, então, um espírito nas estrelas, um espírito nos anjos, um espírito 
 
 [460] ["Que, embora seja o mesmo, é, portanto, modificado de várias maneiras." A representação de Kaye em seu Justin, p. 184.]
 
-Capítulo XIII.--Teoria da Imortalidade da Alma.
+## Capítulo XIII.--Teoria da Imortalidade da Alma.
 
 A alma não é em si imortal, ó gregos, mas mortal. [461] No entanto, é possível que não morra. Se, de fato, não conhece a verdade, morre e se dissolve com o corpo, mas ressuscita finalmente no fim do mundo com o corpo, recebendo a morte por punição na imortalidade. Mas, novamente, se adquirir o conhecimento de Deus, não morre, embora por algum tempo seja dissolvido. Em si é escuridão e não há nada de luminoso nela. E este é o significado do ditado: “As trevas não compreendem a luz”. [462] Pois a alma não preserva o espírito, mas é preservada por ele, e a luz compreende as trevas. O Logos, na verdade, é a luz de Deus, mas a alma ignorante é escuridão. Por isso, se continuar solitário, tende para baixo, em direção à matéria, e morre com a carne; mas, se entrar em união com o Espírito Divino, não estará mais indefeso, mas ascenderá às regiões para onde o Espírito o guia: pois a morada do espírito está acima, mas a origem da alma está abaixo.
 
@@ -223,7 +223,7 @@ Agora, no início o espírito era um companheiro constante da alma, mas o espír
 
 [464] [tou pepontotos Theou. Um testemunho muito digno de nota do mistério da Cruz e um dos primeiros exemplares da Communicatio idiomatum: a antídose ou antimetástase dos teólogos gregos. Pearson, Sobre o Credo, p. 314. Londres, 1824.]
 
-Capítulo XIV.--Os demônios serão punidos mais severamente que os homens.
+## Capítulo XIV.--Os demônios serão punidos mais severamente que os homens.
 
 E vocês também são assim, ó gregos, - profusos em palavras, mas com mentes estranhamente distorcidas; e vocês reconhecem o domínio de muitos em vez do governo de um, acostumando-se a seguir demônios como se eles fossem poderosos. Pois, assim como o ladrão desumano costuma dominar aqueles como ele pela ousadia; assim, os demônios, indo muito longe na maldade, enganaram completamente as almas entre vocês que são deixadas entregues a si mesmas pela ignorância e pelas falsas aparências. Na verdade, esses seres não morrem facilmente, pois não comem carne; mas enquanto vivem eles praticam os caminhos da morte e morrem sempre que ensinam seus seguidores a pecar. Portanto, qual é agora a sua principal distinção, que eles não morrem como os homens, eles manterão quando estiverem prestes a sofrer o castigo: eles não participarão da vida eterna, de modo a recebê-la em vez da morte numa imortalidade abençoada.
 
@@ -231,7 +231,7 @@ E assim como nós, a quem agora acontece de morrer facilmente, recebemos depois 
 
 [465] [A redução da vida humana é uma graciosa limitação da agressão e do perigo da provação. “Não se multipliquem os nossos anos para aumentar a nossa culpa.”]
 
-Capítulo XV.--Necessidade de união com o Espírito Santo.
+## Capítulo XV.--Necessidade de união com o Espírito Santo.
 
 Mas, além disso, cabe a nós agora buscar o que antes tínhamos, mas perdemos, unir a alma com o Espírito Santo e lutar pela união com Deus. A alma humana consiste em muitas partes e não é simples; é composto, de modo a manifestar-se através do corpo; pois nem poderia aparecer por si mesmo sem o corpo, nem a carne ressuscitaria sem a alma. O homem não é, como dizem os coaxantes filósofos, apenas um animal racional, capaz de compreensão e conhecimento; pois, segundo eles, até mesmo criaturas irracionais parecem possuidoras de compreensão e conhecimento. Mas só o homem é imagem e semelhança de Deus; e por homem quero dizer não aquele que realiza ações semelhantes às dos animais, mas aquele que avançou muito além da mera humanidade – até o próprio Deus. Esta questão discutimos mais minuciosamente no tratado sobre os animais.
 
@@ -247,7 +247,7 @@ Por esse motivo, a natureza dos demônios não tem lugar para arrependimento; po
 
 [469] Sal. viii. 5.
 
-Capítulo XVI.--Vã demonstração de poder pelos demônios.
+## Capítulo XVI.--Vã demonstração de poder pelos demônios.
 
 Mas os demônios que governam os homens não são as almas dos homens; pois como estes deveriam ser capazes de agir após a morte? a menos que se acredite que o homem, que enquanto viveu era vazio de compreensão e poder, quando morto fosse dotado de mais poder ativo. Mas também não poderia ser esse o caso, como mostramos em outro lugar. [471] E é difícil conceber que a alma imortal, que é impedida pelos membros do corpo, se torne mais inteligente depois de migrar dele. Pois os demônios, inspirados pelo frenesi contra os homens por causa de sua própria maldade, pervertem suas mentes, que já se inclinam para baixo, por meio de diversas representações cênicas enganosas, para que sejam impedidos de subir ao caminho que leva ao céu. Mas de nós as coisas que estão no mundo não estão escondidas, e o divino é facilmente apreendido por nós se o poder que torna as almas imortais nos visitar.
 
@@ -261,7 +261,7 @@ Os demônios são vistos também pelos homens possuídos de alma, quando, como �
 
 [472] Comp. Ef. vi. 13, 14, 17.
 
-Capítulo XVII.--Eles prometem falsamente saúde aos seus eleitores.
+## Capítulo XVII.--Eles prometem falsamente saúde aos seus eleitores.
 
 Quanto às simpatias e antipatias de Demócrito, o que podemos dizer senão isto, que, segundo o ditado comum, o homem de Abdera é Abderiloquente? Mas, assim como aquele que deu o nome à cidade, amigo de Hércules, como se diz, foi devorado pelos cavalos de Diomedes, assim aquele que se vangloriou do Mago Ostanes [473] será entregue no dia da consumação [474] como combustível para o fogo eterno. E você, se não parar de rir, receberá o mesmo castigo que os malabaristas. Portanto, ó gregos, ouçam-me, dirigindo-se a vocês como se fossem de uma eminência, nem em zombaria transfiram sua própria falta de razão para o arauto da verdade. Uma afeição doentia (pathos) não é destruída por uma contra-afeição (antipatheia), nem um maníaco é curado pendurando-se nele pequenos amuletos de couro. Existem visitas de demônios; e quem está doente, e quem diz estar apaixonado, e quem odeia, e quem deseja vingar-se, aceite-os como ajudantes.
 
@@ -277,7 +277,7 @@ Se isto fosse possível, muito mais ele poderia defender-se do seu próprio inim
 
 [475] [Naviget Anticyras. Sobre heléboro, veja aprendizado de outra forma inútil, mas ilustrativo deste lugar, em Burton, Anat. Melancolia, pág. 400. Ed. Nova York, 1847.]
 
-Capítulo XVIII.--Eles enganam, em vez de curar.
+## Capítulo XVIII.--Eles enganam, em vez de curar.
 
 Mas a medicina e tudo o que nela está incluído é uma invenção do mesmo tipo. Se alguém é curado pela matéria, confiando nela, muito mais será curado recorrendo ao poder de Deus. Assim como as preparações nocivas são compostos materiais, também o são os curativos da mesma natureza. Se, no entanto, rejeitarmos a questão mais básica, algumas pessoas muitas vezes se esforçam para curar através da união de uma dessas coisas más com alguma outra, e farão uso do mal para alcançar o bem. Mas, assim como aquele que janta com um ladrão, embora ele próprio não seja um ladrão, participa da punição por causa de sua intimidade com ele, assim também aquele que não é mau, mas se associa com os maus, tendo relações com eles por algum suposto bem, será punido por Deus, o Juiz, por parceria no mesmo objeto. Por que aquele que confia no sistema da matéria não está disposto a confiar em Deus?
 
@@ -287,7 +287,7 @@ Por que razão você não se aproxima do Senhor mais poderoso, mas antes procura
 
 [477] [A linguagem de um aluno afetuoso: ho thaumasiotatos Ioustinos.]
 
-Capítulo XIX.-- A depravação está na base da adoração ao demônio.
+## Capítulo XIX.-- A depravação está na base da adoração ao demônio.
 
 Mas vocês, que não têm a percepção dessas coisas, sejam instruídos por nós que as conhecemos: embora professem desprezar a morte e serem suficientes por si mesmos para tudo. Mas esta é uma disciplina na qual seus filósofos são tão deficientes, que alguns deles recebem do rei dos romanos 600 aurei anualmente, por nenhum serviço útil que prestam, mas que não podem nem usar uma longa barba sem serem pagos por isso! Crescens, que fez seu ninho na grande cidade, superou todos os homens no amor antinatural (paiderastia) e era fortemente viciado no amor ao dinheiro. No entanto, este homem, que professava desprezar a morte, tinha tanto medo da morte que tentou infligir a Justino, e na verdade a mim, o castigo da morte, como sendo um mal, porque ao proclamar a verdade ele convenceu os filósofos de serem glutões e trapaceiros.
 
@@ -303,7 +303,7 @@ Sou capaz de mostrar a verdade perfeita destas coisas; somente você ouve, e que
 
 [480] João i. 3.
 
-Capítulo XX.-- Agradecimentos são sempre devidos a Deus.
+## Capítulo XX.-- Agradecimentos são sempre devidos a Deus.
 
 Mesmo que você seja curado por drogas (eu garanto esse ponto por cortesia), ainda assim cabe a você dar testemunho da cura a Deus. Pois o mundo ainda nos puxa para baixo e, através da fraqueza, inclino-me para a matéria. Pois as asas da alma eram o espírito perfeito, mas, tendo-o rejeitado pelo pecado, ele se agita como um filhote e cai no chão. Tendo abandonado a companhia celestial, anseia pela comunhão com as coisas inferiores. Os demônios foram expulsos para outra morada; os primeiros seres humanos criados foram expulsos do seu lugar: aqueles, de fato, foram expulsos do céu; mas os outros foram expulsos da terra, mas não desta terra, mas de uma ordem de coisas mais excelente do que a que existe aqui agora. E agora cabe a nós, ansiando por esse estado primitivo, deixar de lado tudo o que se mostra um obstáculo.
 
@@ -331,7 +331,7 @@ Keinan para diaitan; k.t.l. Olimpo. ii. Na verdade, os gentios refletem alguma l
 
 [482] [Kaye traduz esta passagem assim: "o espírito junto com a alma receberão a imortalidade, a cobertura celestial da mortalidade." Justino, pág. 288.]
 
-Capítulo XXI.-- Comparadas as doutrinas dos cristãos e dos gregos a respeito de Deus.
+## Capítulo XXI.-- Comparadas as doutrinas dos cristãos e dos gregos a respeito de Deus.
 
 Não agimos como tolos, ó gregos, nem contamos histórias inúteis, quando anunciamos que Deus nasceu na forma de um homem. Peço a vocês que nos censuram que comparem seus relatos míticos com nossas narrações. Atena, como se costuma dizer, assumiu a forma de Deifobo por causa de Heitor, [483] e o não tosado Febo por causa de Admeto alimentou os bois de pés arrastados, e a esposa de nós veio como uma velha para Semele. Mas, embora vocês levem essas coisas a sério, como podem zombar de nós? Seu Asclépio morreu, e aquele que estuprou cinquenta virgens em uma noite em Thespiae perdeu a vida ao se entregar à chama devoradora. Prometeu, preso ao Cáucaso, sofreu punição por suas boas ações aos homens. Segundo você, Zeus é invejoso e esconde o sonho [484] dos homens, desejando sua destruição. Portanto, olhando para seus próprios memoriais, conceda-nos sua aprovação, embora se trate apenas de lendas semelhantes às suas.
 
@@ -345,7 +345,7 @@ Pois ele diz que nem Hera, nem Atené, nem Zeus são o que supõem aquelas pesso
 
 [485] [Charin oikonmias. Compare os diversos usos desta palavra em Justin, de Kaye, p. 174.]
 
-Capítulo XXII.--Ridículo das solenidades dos gregos.
+## Capítulo XXII.--Ridículo das solenidades dos gregos.
 
 E de que tipo são seus ensinamentos? Quem não deve tratar com desprezo as vossas festas solenes, que, sendo realizadas em honra de demônios perversos, cobrem os homens de infâmia? Muitas vezes tenho visto um homem (486) - e fiquei surpreso ao ver, e o espanto terminou em desprezo, ao pensar como ele é uma coisa internamente, mas externamente falsifica o que não é - dando a si mesmo ares excessivos de delicadeza e entregando-se a todos os tipos de efeminação; às vezes lançando os olhos ao redor; às vezes jogando as mãos para lá e para cá e delirando com o rosto manchado de lama; às vezes personificando Afrodité, às vezes Apolo; um acusador solitário de todos os deuses, um epítome da superstição, um vitupério de feitos heróicos, um ator de assassinatos, um cronista de adultério, um armazém de loucura, um professor de cynædi, um instigador de sentenças capitais; - e ainda assim tal homem é elogiado por todos.
 
@@ -353,7 +353,7 @@ Mas eu rejeitei todas as suas falsidades, a sua impiedade, as suas práticas –
 
 [486] Taciano aqui descreve um ator. [E na América o paganismo voltou sobre nós na maioria das indecências aqui expostas. Somos cristãos?]
 
-Capítulo XXIII.--Dos Pugilistas e Gladiadores.
+## Capítulo XXIII.--Dos Pugilistas e Gladiadores.
 
 Tenho visto homens oprimidos pelo exercício corporal e carregando o fardo de sua carne, diante dos quais são colocadas recompensas e grinaldas, enquanto os juízes os animam, não para atos de virtude, mas para a rivalidade na violência e na discórdia; e aquele que se destaca em dar golpes é coroado. Estes são os males menores; quanto aos maiores, quem não hesitaria em contá-los? Alguns, entregando-se à ociosidade por causa da devassidão, vendem-se para serem mortos; e o indigente troca-se, enquanto o rico compra outros para matá-lo. E para isso as testemunhas tomam seus lugares, e os boxeadores se enfrentam em combate individual, sem motivo algum, nem ninguém desce à arena para socorrer. Exposições como essas revertem em seu crédito? Aquele que é o principal entre vocês reúne uma legião de assassinos manchados de sangue, empenhando-se em mantê-los; e esses rufiões são enviados por ele, e vocês se reúnem no espetáculo para serem juízes, em parte pela maldade do juiz e em parte pela dos homens que se envolvem no combate.
 
@@ -361,13 +361,13 @@ E quem perde a exibição assassina fica triste, porque não foi condenado a ser
 
 [487] [Aqui o cristianismo começou a se vingar dos espetáculos brutais do Coliseu, que ergue-se como um gigantesco monumento do sistema religioso do qual fazia parte. Veja Atenágoras, Embaixada, cap. xxxv.]
 
-Capítulo XXIV.--Das Outras Diversões Públicas.
+## Capítulo XXIV.--Das Outras Diversões Públicas.
 
 Que vantagem eu obteria daquele que é trazido ao palco por Eurípides, enlouquecido e agindo como o matricídio de Alcmæon; quem nem mesmo mantém seu comportamento natural, mas com a boca aberta anda de espada em mão e, gritando alto, é queimado até a morte, vestido com uma túnica imprópria para o homem? Fora também os contos míticos de Acusilau e Menandro, versificador da mesma classe! E por que eu deveria admirar o flautista mítico? Por que eu deveria me ocupar com as Antigenedas de Tebas, [488] como Aristoxeno? Nós deixamos você com essas coisas inúteis; e você acredita em nossas doutrinas ou, como nós, desiste das suas?
 
 [488] Antigenides era flautista e Aristoxeno um escritor de música e instrumentos musicais.
 
-Capítulo XXV.--Vargura e brigas dos filósofos.
+## Capítulo XXV.--Vargura e brigas dos filósofos.
 
 Que coisas grandes e maravilhosas seus filósofos realizaram? Deixam descoberto um dos ombros; eles deixaram seus cabelos crescerem; eles cultivam suas barbas; suas unhas são como garras de animais selvagens. Embora digam que não querem nada, ainda assim, como Proteu, (489) eles precisam de um curry para sua carteira, e de um tecelão para seu manto, e de um lenhador para seu cajado, e dos ricos, (490) e de um cozinheiro também para sua gula. Ó homem, competindo com o cachorro, (491) você não conhece a Deus, e por isso se voltou para a imitação de um animal irracional. Você clama em público com uma suposição de autoridade e assume a responsabilidade de vingar a si mesmo; e se você não recebe nada, você se entrega ao abuso, e a filosofia é com você a arte de ganhar dinheiro. Você segue as doutrinas de Platão, e um discípulo de Epicuro levanta a voz para se opor a você.
 
@@ -385,7 +385,7 @@ Por que você odeia aqueles que seguem a palavra de Deus, como se fossem os mais
 
 [493] [Eles comeram e beberam pão e vinho santificados como a koinonia da carne e do sangue de Cristo (1 Cor. x. 16); mas eles nada sabiam da doutrina moderna das igrejas latinas, que é precisamente o que Taciano nega.]
 
-Capítulo XXVI.--Ridículo dos Estudos dos Gregos.
+## Capítulo XXVI.--Ridículo dos Estudos dos Gregos.
 
 Parem de fazer um desfile de ditos que vocês derivaram de outros e de se enfeitarem como a gralha com plumas emprestadas. Se cada estado retirasse a sua contribuição para o seu discurso, as suas falácias perderiam o seu poder. Ao perguntarem o que é Deus, vocês ignoram o que há em vocês mesmos; e, enquanto olha boquiaberto para o céu, você tropeça em armadilhas. A leitura dos vossos livros é como caminhar por um labirinto, e os seus leitores assemelham-se ao barril das Danaides. Por que você divide o tempo, dizendo que uma parte é passado, outra é presente e outra é futuro? Pois como pode o futuro passar quando o presente existe? Assim como aqueles que estão navegando imaginam em sua ignorância, enquanto o navio é levado, que as colinas estão em movimento, você não sabe que é você quem está passando, mas que o tempo (ho aion) permanece presente enquanto o Criador desejar que ele exista.
 
@@ -393,7 +393,7 @@ Por que sou chamado a prestar contas por expressar minhas opiniões e por que vo
 
 Por que você manuseia as ferramentas do construtor sem saber construir? Por que vocês se ocupam com palavras, enquanto se mantêm distantes das ações, cheios de elogios, mas abatidos pelos infortúnios? Seus modos de agir são contrários à razão, pois você faz uma aparição pomposa em público, mas esconde seus ensinamentos nos cantos. Ao descobrir que vocês são homens como esses, nós os abandonamos e não nos preocupamos mais com seus princípios, mas seguimos a palavra de Deus. Por que, ó homem, você coloca as letras do alfabeto em guerra umas com as outras? Por que você, como em uma luta de boxe, faz com que os sons deles se choquem com o seu modo de falar ático, quando você deveria falar mais de acordo com a natureza? Pois se você adota o dialeto ático, embora não seja um ateniense, por que não fala como os dórios? Como é que um lhe parece mais robusto e o outro mais agradável para a relação sexual?
 
-Capítulo XXVII.-- ​​Os cristãos são odiados injustamente.
+## Capítulo XXVII.-- ​​Os cristãos são odiados injustamente.
 
 E se você adere aos seus ensinamentos, por que você luta contra mim por escolher os pontos de vista da doutrina que eu aprovo? Não é irracional que, embora o ladrão não deva ser punido pelo nome que leva, (494) mas apenas quando a verdade sobre ele tiver sido claramente apurada, ainda assim sejamos atacados com abusos em um julgamento formado sem exame? Diágoras era ateniense, mas você o puniu por divulgar os mistérios atenienses; contudo, vocês que leram seus discursos frígios nos odeiam. Você possui os comentários de Leão e está descontente com nossas refutações deles; e tendo em mãos as opiniões de Ápio sobre os deuses egípcios, você nos denuncia como os mais ímpios. O túmulo de Zeus Olímpico é mostrado entre vocês, [495] embora alguém diga que os cretenses são mentirosos. [496] Sua assembléia de muitos deuses não é nada.
 
@@ -409,11 +409,11 @@ Ocupar-se em tais investigações é o trabalho de quem impõe opiniões a si me
 
 [497] Acomodar-se às opiniões populares, através do medo.
 
-Capítulo XXVIII.--Condenação da legislação grega.
+## Capítulo XXVIII.--Condenação da legislação grega.
 
 Por este motivo também rejeito a sua legislação; pois deveria haver uma política comum para todos; mas agora existem tantos códigos diferentes quantos estados, de modo que coisas consideradas vergonhosas em alguns são honrosas em outros. Os gregos consideram a relação sexual com a mãe ilegal, mas esta prática é considerada mais apropriada pelos magos persas; A pederastia é condenada pelos bárbaros, mas pelos romanos, que se esforçam para reunir rebanhos de meninos como cavalos pastando, ela é honrada com certos privilégios.
 
-Capítulo XXIX.--Relato da conversão de Taciano.
+## Capítulo XXIX.--Relato da conversão de Taciano.
 
 Portanto, tendo visto essas coisas, e além disso também tendo sido admitido nos mistérios, e tendo examinado em todos os lugares os ritos religiosos realizados pelos efeminados e pelos páticos, e tendo encontrado entre os romanos seu Júpiter Latiário deleitando-se com o sangue humano e o sangue de homens massacrados, e Ártemis não muito longe da grande cidade (498) sancionando atos do mesmo tipo, e um demônio aqui e outro ali instigando a perpetração do mal, - retirando-me sozinho, eu procurei como poderia descobrir a verdade. E, enquanto eu prestava a maior atenção ao assunto, aconteceu de me deparar com certos escritos bárbaros, antigos demais para serem comparados com as opiniões dos gregos, e divinos demais para serem comparados com seus erros; e fui levado a depositar fé neles pela linguagem despretensiosa, pelo caráter não artificial dos escritores, pela presciência demonstrada sobre eventos futuros, pela excelente qualidade dos preceitos e pela declaração do governo do universo como centrado em um Ser.
 
@@ -427,13 +427,13 @@ Portanto, tendo visto essas coisas, e além disso também tendo sido admitido no
 
 Grande Deus, se comparados com os teus, quão mesquinhos parecem seus escritos!" Veja seus Hinos, p. 238. Ed. Worcester, 1836.]
 
-Capítulo XXX.--Como Ele Resolveu Resistir ao Diabo.
+## Capítulo XXX.--Como Ele Resolveu Resistir ao Diabo.
 
 Portanto, sendo iniciado e instruído nestas coisas, desejo deixar de lado meus erros anteriores como loucuras da infância. Pois sabemos que a natureza da maldade é como a das menores sementes; visto que se fortaleceu desde um pequeno começo, mas será novamente destruído se obedecermos às palavras de Deus e não nos dispersarmos. Pois Ele se tornou senhor de tudo o que temos por meio de um certo "tesouro escondido", (500) que, enquanto estamos cavando, ficamos realmente cobertos de poeira, mas o protegemos como nossa posse fixa. Aquele que recebe todo este tesouro obteve o comando da riqueza mais preciosa. Que essas coisas, então, sejam ditas aos nossos amigos. Mas a vocês, gregos, o que posso dizer, exceto pedir-lhes que não insultem aqueles que são melhores do que vocês, nem que, caso sejam chamados de bárbaros, façam disso uma ocasião de brincadeira? Pois, se quiserdes, sereis capazes de descobrir a causa de os homens não serem capazes de compreender a língua uns dos outros; pois para aqueles que desejam examinar nossos princípios darei um relato simples e abundante deles.
 
 [500] Comp. Matt. xiii. 44. [Raciocínio convincente com os gregos.]
 
-Capítulo XXXI.-- A filosofia dos cristãos é mais antiga que a dos gregos.
+## Capítulo XXXI.-- A filosofia dos cristãos é mais antiga que a dos gregos.
 
 Mas agora parece-me apropriado demonstrar que a nossa filosofia é mais antiga que os sistemas dos gregos. Moisés e Homero serão nossos limites, sendo cada um deles muito antigo; sendo um o mais antigo dos poetas e historiadores, e o outro o fundador de toda a sabedoria bárbara. Vamos, então, estabelecer uma comparação entre eles; e descobriremos que nossas doutrinas são mais antigas, não apenas que as dos gregos, mas que a invenção das letras. [501] E não apresentarei testemunhas dentre nós, mas recorrerei aos gregos. Fazer o primeiro seria tolice, porque não seria permitido por você; mas o outro irá surpreendê-lo, quando, ao lutar contra você com suas próprias armas, eu apresentar argumentos dos quais você não suspeitava. Agora, a poesia de Homero, sua ascendência e a época em que ele floresceu foram investigadas pelos escritores mais antigos - por Teágenes de Régio, que viveu na época de Cambises, Estesimbroto de Tasos e Antímaco de Colofão, Heródoto de Halicarnasso e Dionísio, o Olíntio; depois deles, por Éforo de Cumæ, e Filócoro, o Ateniense, Megaclides e Camaleão, o Peripatético; depois pelos gramáticos Zenódoto, Aristófanes, Calímaco, Crates, Eratóstenes, Aristarco e Apolodoro.
 
@@ -443,7 +443,7 @@ Assim, no que diz respeito à idade do referido poeta, refiro-me a Homero, e às
 
 [501] Comp. Matt. xiii. 44. [Raciocínio convincente com os gregos.]
 
-Capítulo XXXII.-- ​​A Doutrina dos Cristãos é Oposta às Dissensões e Adaptada a Todos.
+## Capítulo XXXII.-- ​​A Doutrina dos Cristãos é Oposta às Dissensões e Adaptada a Todos.
 
 Mas entre nós não há desejo de vanglória, nem nos entregamos a opiniões variadas. Por ter renunciado ao que é popular e terreno, e obedecer aos mandamentos de Deus e seguir a lei do Pai da imortalidade, rejeitamos tudo o que se baseia na opinião humana. Não apenas os ricos entre nós seguem a nossa filosofia, mas os pobres desfrutam de instrução gratuitamente; [502] porque as coisas que vêm de Deus superam a retribuição dos dons mundanos. Assim admitimos todos os que desejam ouvir, até mesmo mulheres idosas e jovens; e, em suma, pessoas de todas as idades são tratadas por nós com respeito, mas todo tipo de licenciosidade é mantido à distância. E ao falar não proferimos falsidade. Seria excelente se a sua continuidade na incredulidade recebesse um cheque; mas, seja como for, deixe nossa causa permanecer confirmada pelo julgamento pronunciado por Deus.
 
@@ -455,7 +455,7 @@ Quanto àqueles que desejam aprender a nossa filosofia, não os testamos pela su
 
 [503] Il., ix.
 
-Capítulo XXXIII.--Vindicação das Mulheres Cristãs.
+## Capítulo XXXIII.--Vindicação das Mulheres Cristãs.
 
 Portanto, desejei provar, a partir das coisas que são consideradas honrosas entre vocês, que nossas instituições são marcadas pela sobriedade, mas que as suas estão em estreita afinidade com a loucura. [504] Tu que dizes que falamos bobagens entre mulheres e rapazes, entre donzelas e velhas, e zombas de nós por não estarmos contigo, ouve que tolices prevalecem entre os gregos. Pois suas obras de arte são dedicadas a objetos sem valor, embora sejam tidas em maior estima por vocês do que até mesmo por seus deuses; e vocês se comportam de maneira imprópria no que se refere à mulher. Pois Lísipo lançou uma estátua de Praxila, cujos poemas não contêm nada de útil, e Menestratus uma de Learchis, e Selanion uma de Safo a cortesã, e Naucídes uma de Erinna a Lésbica, e Boiscus uma de Myrtis, e Cephisodotus uma de Myro de Bizâncio, e Gomphus uma de Praxigoris, e Anfistratus uma de Clito.
 
@@ -475,7 +475,7 @@ O Olynthian Heródoto fez estátuas de Glycera, a cortesã, e de Argeia, a harpi
 
 [508] [S. O espírito de Paulo foi despertado dentro dele, contemplando as abomináveis ​​idolatrias dos atenienses; e quem pode se surpreender com a aversão dos cristãos, cujas esposas e filhos não conseguiram escapar desses espetáculos vergonhosos. O crescente ascetismo e as visões fanáticas das relações sexuais, que agora cresciam na Igreja, eram uma revolta mórbida, mas virtuosa, da fé contra essas impurezas.]
 
-Capítulo XXXIV.--Ridículo das estátuas erguidas pelos gregos.
+## Capítulo XXXIV.--Ridículo das estátuas erguidas pelos gregos.
 
 Digno de grande honra, certamente, foi o tirano Bhalaris, que devorava crianças de peito e, conseqüentemente, é exibido pela obra de Polistratus, o Ambraciot, até hoje, como um homem maravilhoso! Os Agrigentinos temiam olhar para aquele seu semblante, por causa do seu canibalismo; mas as pessoas de cultura agora se vangloriam de vê-lo em sua estátua! Não é vergonhoso que o fratricídio seja homenageado por vocês que olham para as estátuas de Polinices e Etéocles, e que vocês não as tenham enterrado com seu criador, Pitágoras? Destrua esses memoriais de iniqüidade! Por que deveria eu contemplar com admiração a figura da mulher que deu à luz trinta filhos, apenas por causa do artista Periclymenus? Deveríamos afastar-nos com desgosto de alguém que produzia os frutos de uma grande incontinência, e a quem os romanos comparavam a uma porca, que também por um motivo semelhante, dizem eles, era considerada digna de um culto místico.
 
@@ -483,7 +483,7 @@ Ares cometeu adultério com Afrodité, e Andron fez uma imagem de sua prole Harm
 
 Por que você não se envergonha da fornicação de Heféstion, embora Fílon o tenha representado de forma muito artística? E por que você homenageia o hermafrodita Ganimedes de Leochares, como se possuísse algo admirável? Praxíteles até fez uma estátua de uma mulher com a mancha da impureza. Coube a você, repudiando tudo desse tipo, buscar o que é realmente digno de atenção, e não se desviar com desgosto de nosso modo de vida enquanto recebia com aprovação as vergonhosas produções de Philænis e Elephantis.
 
-Capítulo XXXV.--Tatian fala como testemunha ocular.
+## Capítulo XXXV.--Tatian fala como testemunha ocular.
 
 As coisas que assim coloquei diante de você não aprendi de segunda mão. Visitei muitas terras; Segui a retórica, como vocês; Mergulhei em muitas artes e invenções; e finalmente, quando estive na cidade dos romanos, inspecionei a multiplicidade de estátuas trazidas para lá por você: pois não tento, como é o costume de muitos, fortalecer meus próprios pontos de vista pelas opiniões dos outros, mas desejo dar-lhe um relato distinto do que eu mesmo vi e senti. Assim, despedindo-me da arrogância dos romanos e da conversa fiada dos atenienses, e de todas as suas opiniões mal relacionadas, abracei a nossa filosofia bárbara. Comecei a mostrar como isso era mais antigo que suas instituições, (509) mas deixei minha tarefa inacabada, para discutir um assunto que exigia atenção mais imediata; mas agora é hora de tentar falar sobre suas doutrinas.
 
@@ -493,23 +493,23 @@ Não se ofenda com nossos ensinamentos, nem empreenda uma resposta elaborada, ch
 
 [510] Sólon. Bergh., Poetæ Græc. Lyr., frag. 18. [O interesse e a importância biográfica deste capítulo devem ser evidentes.]
 
-Capítulo XXXVI.--Testemunho dos Caldeus sobre a Antiguidade de Moisés.
+## Capítulo XXXVI.--Testemunho dos Caldeus sobre a Antiguidade de Moisés.
 
 Mas que Homero não seja posterior à guerra de Tróia; admitamos que ele foi contemporâneo dela, ou mesmo que esteve no exército de Agamenon e, se assim o desejar, que viveu antes da invenção das letras. Será mostrado que o Moisés mencionado anteriormente era muitos anos mais velho que a tomada de Tróia e muito mais antigo que a construção de Tróia, ou que Tros e Dardanus. Para demonstrar isso, chamarei como testemunhas os caldeus, os fenícios e os egípcios. E o que mais preciso dizer? Pois cabe àquele que professa persuadir seus ouvintes a tornar sua narrativa dos acontecimentos muito concisa. Beroso, um babilônio, sacerdote de seu deus Belus, nascido na época de Alexandre, compôs para Antíoco, o terceiro depois dele, a história dos caldeus em três livros; e, narrando os atos dos reis, ele menciona um deles, de nome Nabucodonosor, que fez guerra contra os fenícios e os judeus - eventos que sabemos que foram anunciados por nossos profetas e que aconteceram muito depois da era de Moisés, setenta anos antes do império persa.
 
 Mas Beroso é um homem muito confiável, e disso Juba é uma testemunha, que, escrevendo sobre os assírios, diz que aprendeu a história com Beroso: há dois livros seus sobre os assírios.
 
-Capítulo XXXVII.--Testemunho dos Fenícios.
+## Capítulo XXXVII.--Testemunho dos Fenícios.
 
 Depois dos caldeus, o testemunho dos fenícios é o seguinte. Havia entre eles três homens, Teódoto, Hipscrates e Mochus; Chaitus traduziu seus livros para o grego e também compôs com exatidão a vida dos filósofos. Agora, nas histórias dos escritores acima mencionados, é mostrado que o rapto de Europa aconteceu sob um dos reis, e é feito um relato da vinda de Menelau à Fenícia, e dos assuntos relativos a Chiramus, (511) que deu sua filha em casamento a Salomão, o rei dos judeus, e forneceu madeira de todos os tipos de árvores para a construção do templo. Menandro de Pérgamo compôs uma história sobre as mesmas coisas. Mas a era de Chiramus gira em torno da guerra de Tróia; mas Salomão, contemporâneo de Chiramus, viveu muito depois da era de Moisés.
 
 [511] Chamado Hiram em nossa tradução autorizada.
 
-Capítulo XXXVIII.-- ​​Os Egípcios Colocam Moisés no Reinado de Ínaco.
+## Capítulo XXXVIII.-- ​​Os Egípcios Colocam Moisés no Reinado de Ínaco.
 
 Dos egípcios também existem crônicas precisas. Ptolomeu, não o rei, mas um sacerdote de Mendes, é o intérprete dos seus assuntos. Este escritor, narrando os atos dos reis, diz que a saída dos judeus do Egito para os lugares para onde foram ocorreu no tempo do rei Amós, sob a liderança de Moisés. Ele fala assim: “Amósis viveu na época do rei Ínaco”. Depois dele, Apion, o gramático, homem muito estimado, no quarto livro de seu Ægyptiaca (há cinco livros dele), além de muitas outras coisas, diz que Amosis destruiu Avaris na época do argivo Inachus, como o mendesiano Ptolomeu escreveu em seus anais. Mas o tempo desde Ínaco até a tomada de Tróia ocupa vinte gerações. As etapas da demonstração são as seguintes: -
 
-Capítulo XXXIX.--Catálogo dos Reis Argivos.
+## Capítulo XXXIX.--Catálogo dos Reis Argivos.
 
 Os reis dos Argivos foram estes: Inachus, Foroneus, Apis, Criasis, Triopas, Argeius, Forbas, Crotopas, Sthenelaus, Danaus, Lynceus, Proetus, Abas, Acrisius, Perseu, Sthenelaus, Euristeu, Atreus, Thyestes e Agamemnon, no décimo oitavo ano de cujo reinado Tróia foi tomada. E toda pessoa inteligente observará com muito cuidado que, segundo a tradição dos gregos, eles não possuíam composição histórica; pois Cadmo, que lhes ensinou letras, chegou à Beócia muitas gerações depois. Mas depois de Ínaco, sob Foroneu, foi difícil controlar sua vida selvagem e nômade, e eles entraram em uma nova ordem de coisas. Portanto, se Moisés for contemporâneo de Ínaco, ele é quatrocentos anos mais velho que a guerra de Tróia. Mas isso é demonstrado pela sucessão dos reis áticos [e dos macedônios, dos ptolomaicos e dos antioquianos] [512].
 
@@ -517,7 +517,7 @@ Conseqüentemente, se os feitos mais ilustres entre os gregos foram registrados 
 
 [512] As palavras entre colchetes, embora ocorram nos mss. e em Eusébio, são considerados por alguns estudiosos como uma interpolação muito antiga.
 
-Capítulo XL.-- Moisés é mais antigo e confiável que os heróis pagãos.
+## Capítulo XL.-- Moisés é mais antigo e confiável que os heróis pagãos.
 
 Portanto, pelo que foi dito, é evidente que Moisés era mais velho que os antigos heróis, guerras e demônios. E devemos antes acreditar nele, que está diante deles em termos de idade, do que nos gregos, que, sem saber disso, (513) extraíram suas doutrinas [como] de uma fonte. Pois muitos dos sofistas entre eles, estimulados pela curiosidade, tentaram adulterar tudo o que aprenderam com Moisés, (514) e com aqueles que filosofaram como ele, primeiro para que pudessem ser considerados como tendo algo próprio e, em segundo lugar, que encobrindo por um certo artifício retórico quaisquer coisas que não entendessem, eles poderiam deturpar a verdade como se fosse uma fábula. Mas o que os eruditos entre os gregos disseram a respeito de nossa política e da história de nossas leis, e quantos e que tipo de homens escreveram sobre essas coisas, será mostrado no tratado contra aqueles que discursaram sobre coisas divinas. [515]
 
@@ -527,7 +527,7 @@ Portanto, pelo que foi dito, é evidente que Moisés era mais velho que os antig
 
 [515] [Deixe-se notar como moral da revisão de nosso autor, que não há autodegradação da qual o homem não seja capaz quando rejeita o Deus verdadeiro. ROM. eu. 28.]
 
-Capítulo XLI.
+## Capítulo XLI.
 
 Mas a questão de principal importância é esforçar-se com toda a precisão para deixar claro que Moisés não é apenas mais velho que Homero, mas que todos os escritores que existiram antes dele - mais velho que Linus, Philammon, Thamyris, Amphion, Musæus, Orpheus, Demodocus, Phemius, Sibylla, Epimênides de Creta, que veio para Esparta, Aristæus de Proconnesus, que escreveu o Arimaspia, Asbolus o Centauro, Isatis, Drymon, Euclus, o Cipriano, Hórus, o Sâmio, e Pronapis, o Ateniense. Bem, Linus foi o professor de Hércules, mas Hércules precedeu a guerra de Tróia em uma geração; e isso é manifesto por seu filho Tlepolemus, que serviu no exército contra Tróia. E Orfeu viveu na mesma época que Hércules; além disso, diz-se que todas as obras que lhe são atribuídas foram compostas por Onomacrito, o Ateniense, que viveu durante o reinado dos Pisistrátidas, por volta da quinquagésima Olimpíada.
 
@@ -535,7 +535,7 @@ Musæus era discípulo de Orfeu. Anfião, por ter precedido o cerco de Tróia em
 
 Licurgo, que nasceu muito depois da tomada de Tróia, deu leis aos lacedemônios. Descobriu-se que Draco viveu por volta da trigésima nona Olimpíada, Sólon por volta da quadragésima sexta e Pitágoras por volta da sexagésima segunda. Mostramos que as Olimpíadas começaram 407 anos após a tomada de Tróia. Demonstrados estes fatos, faremos uma breve observação sobre a idade dos sete sábios. O mais velho deles, Tales, viveu por volta da quinquagésima Olimpíada; e já falei brevemente sobre aqueles que vieram depois dele.
 
-Capítulo XLII.--Declarações Conclusivas do Autor.
+## Capítulo XLII.--Declarações Conclusivas do Autor.
 
 Estas coisas, ó gregos, eu, Taciano, discípulo da filosofia bárbara, compus para vocês. Nasci na terra dos assírios, tendo sido primeiro instruído nas vossas doutrinas e depois naquelas que agora me comprometo a proclamar. Doravante, sabendo quem é Deus e qual é a Sua obra, apresento-me a vocês preparado para um exame (517) a respeito de minhas doutrinas, enquanto adero inabalavelmente àquele modo de vida que é segundo Deus. [518]
 

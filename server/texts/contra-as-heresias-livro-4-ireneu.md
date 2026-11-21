@@ -51,7 +51,7 @@ Pois todos estes, embora surjam de diversas regiões e promulguem [opiniões] di
 
 [3804] Gen. 26.
 
-Capítulo I. - O Senhor reconheceu apenas um Deus e Pai.
+## Capítulo I. - O Senhor reconheceu apenas um Deus e Pai.
 
 1. Portanto, é certo e firme que nenhum outro Deus ou Senhor foi anunciado pelo Espírito, exceto Aquele que, como Deus, governa sobre todos, juntamente com a Sua Palavra, e aqueles que recebem o Espírito de adoção, [3805] isto é, aqueles que acreditam no único e verdadeiro Deus, e em Jesus Cristo, o Filho de Deus; e da mesma forma que os apóstolos por si mesmos não chamaram ninguém de Deus, nem nomearam [nenhum outro] como Senhor; e, o que é muito mais importante, [já que é verdade] que nosso Senhor [agiu da mesma forma], que também nos ordenou que não confessássemos ninguém como Pai, exceto Aquele que está nos céus, que é o único Deus e o único Pai; - essas coisas são claramente mostradas como falsas, o que esses enganadores e os sofistas mais perversos avançam, sustentando que o ser que eles próprios inventaram é, por natureza, Deus e Pai; mas que o Demiurgo não é naturalmente nem Deus nem Pai, mas é assim denominado meramente por cortesia (verbo tenus), por governar a criação, afirmam esses perversos mitólogos, colocando seus pensamentos contra Deus; e, deixando de lado a doutrina de Cristo e adivinhando falsidades, eles disputam contra toda a dispensação de Deus.
 
@@ -66,6 +66,8 @@ Jesus, portanto, será para eles o autor e professor de tal transgressão, na me
 [3806] [S. João xvii. 3.]
 
 [3807] Mat. xxiii. 9.
+
+## Capítulo II. Provas do claro testemunho de Moisés e dos outros profetas, cujas palavras são as…
 
 Capítulo II.-- ​​Provas do claro testemunho de Moisés e dos outros profetas, cujas palavras são as palavras de Cristo, de que há um só Deus, o fundador do mundo, a quem Nosso Senhor pregou e a quem Ele chamou de Pai.
 
@@ -131,6 +133,8 @@ E, portanto, também os escribas e fariseus, que desde os tempos da lei começar
 
 [3829] João XII. 32, João iii. 14.
 
+## Capítulo III. Resposta às cavilações dos gnósticos. Não devemos supor que o verdadeiro Deus possa ser…
+
 Capítulo III.--Resposta às cavilações dos gnósticos. Não devemos supor que o verdadeiro Deus possa ser mudado ou chegar ao fim porque os céus, que são Seu trono, e a terra, Seu escabelo, passarão.
 
 1. Novamente, quanto à sua afirmação maligna de que se o céu é de fato o trono de Deus, e a terra o escabelo de seus pés, e se for declarado que o céu e a terra passarão, então, quando estes passarem, o Deus que está sentado acima também deve passar e, portanto, Ele não pode ser o Deus que está sobre todos; em primeiro lugar, eles ignoram o que a expressão significa, que o céu é o [Seu] trono e a terra o [Seu] escabelo. Pois eles não sabem o que é Deus, mas imaginam que Ele se senta à maneira de um homem e está contido dentro de limites, mas não contém. E eles também não estão familiarizados com [o significado] da extinção do céu e da terra; mas Paulo não o ignorava quando declarou: “Porque a figura deste mundo passa”. [3830] Em seguida, David explica a sua pergunta, pois diz que quando a moda deste mundo passar, não só Deus permanecerá, mas também os Seus servos, expressando-se assim no Salmo 101: "No princípio, ó Senhor, fundaste a terra, e os céus são obras das tuas mãos.
@@ -142,6 +146,8 @@ Eles perecerão, mas tu permanecerás, e todos envelhecerão como uma roupa; e c
 [3831] Sal. cii. 25-28. A causa da diferença na numeração dos Salmos é que a Septuaginta abrange em um salmo - o nono - os dois que formam o nono e o décimo no texto hebraico.
 
 [3832] Isa. li. 6.
+
+## Capítulo IV. Resposta a outra objeção, mostrando que a destruição de Jerusalém, que era a cidade do…
 
 Capítulo IV. - Resposta a outra objeção, mostrando que a destruição de Jerusalém, que era a cidade do grande Rei, em nada diminuiu a suprema majestade e poder de Deus, pois essa destruição foi posta em execução pelo mais sábio conselho do mesmo Deus.
 
@@ -174,6 +180,8 @@ Mas o trigo e o joio, sendo inanimados e irracionais, tornaram-se assim por natu
 [3841] Mat. iii. 11, etc
 
 [3842] Sal. xlix. 12.
+
+## Capítulo V. O autor retorna ao seu argumento anterior e mostra que havia um só Deus anunciado pela…
 
 Capítulo V. - O autor retorna ao seu argumento anterior e mostra que havia um só Deus anunciado pela lei e pelos profetas, a quem Cristo confessa como Seu Pai, e que, por meio de Sua palavra, um Deus vivo com Ele, se deu a conhecer aos homens em ambas as alianças.
 
@@ -221,6 +229,8 @@ Mas nosso Senhor é Ele mesmo a ressurreição, como Ele mesmo declara: “Eu so
 
 [3856] Gênesis xiv. 22.
 
+## Capítulo VI. Explicação das palavras de Cristo: “Ninguém conhece o Pai, senão o Filho”, etc .…
+
 Capítulo VI. - Explicação das palavras de Cristo: “Ninguém conhece o Pai, senão o Filho”, etc .; palavras que os hereges interpretam mal. Prova de que, pelo Pai revelando o Filho, e pelo Filho sendo revelado, o Pai nunca foi desconhecido.
 
 1. Pois o Senhor, revelando-se aos Seus discípulos, que Ele mesmo é a Palavra, que transmite o conhecimento do Pai, e reprovando os judeus, que imaginavam que eles tinham [o conhecimento de] Deus, embora rejeitassem Sua Palavra, por meio de quem Deus é dado a conhecer, declarou: "Ninguém conhece o Filho, senão o Pai; e ninguém conhece o Pai, exceto o Filho, e aquele a quem o Filho quis revelá-lo." (3857) Assim o estabeleceu Mateus, e Lucas da mesma maneira, e Marcos (3858) exatamente o mesmo; pois João omite esta passagem. Eles, porém, que seriam mais sábios que os apóstolos, escrevem [o versículo] da seguinte maneira: “Ninguém conheceu o Pai, senão o Filho; nem o Filho, senão o Pai, e aquele a quem o Filho quis revelá-lo”; e eles explicam isso como se o verdadeiro Deus não fosse conhecido por ninguém antes do advento de nosso Senhor; e aquele Deus que foi anunciado pelos profetas, eles alegam não ser o Pai de Cristo.
@@ -265,6 +275,8 @@ Pois o Filho, estando presente com a sua própria obra desde o início, revela o
 
 [3866] Mat. xii. 27; Lucas X. 22. Harvey observa aqui que “é notável que este texto, tendo sido corretamente citado pouco tempo antes, de acordo com o texto grego recebido, ho ean bouletas ho huios apokalupsai, o tradutor agora não apenas usa o verbo único revelaverit, mas diz incisivamente que foi assim escrito pelo venerável autor”. É provável, portanto, que a passagem anterior tenha sido harmonizada com o texto recebido posteriormente; com o qual, no entanto, a forma siríaca concorda.
 
+## Capítulo VII. Recapitulação do argumento anterior, mostrando que Abraão, através da revelação da…
+
 Capítulo VII.-- ​​Recapitulação do argumento anterior, mostrando que Abraão, através da revelação da Palavra, conheceu o Pai e a vinda do Filho de Deus. Por esta razão, ele se alegrou ao ver o dia de Cristo, quando as promessas feitas a ele deveriam ser cumpridas. O fruto desta alegria fluiu para a posteridade, isto é, para aqueles que são participantes da fé de Abraão, mas não para os judeus que rejeitam a Palavra de Deus.
 
 1. Portanto, também Abraão, conhecendo o Pai pelo Verbo, que fez o céu e a terra, confessou que Ele era Deus; e tendo aprendido, por meio de um anúncio [feito a ele], que o Filho de Deus seria um homem entre os homens, por cujo advento sua semente seria como as estrelas do céu, ele desejou ver aquele dia, para que ele próprio também pudesse abraçar a Cristo; e, vendo isso através do espírito de profecia, ele se alegrou. [3867] Portanto, também Simeão, um de seus descendentes, executou plenamente a alegria do patriarca e disse: "Senhor, agora deixa teu servo partir em paz. Pois meus olhos viram a tua salvação, que preparaste diante da face de todos os povos: uma luz para a revelação dos gentios, [3868] e a glória do povo de Israel." [3869] E os anjos, da mesma maneira, anunciaram novas de grande alegria aos pastores que vigiavam durante a noite.
@@ -304,6 +316,8 @@ Capítulo VII.-- ​​Recapitulação do argumento anterior, mostrando que Abra
 [3879] Massuet aqui observa que os pais chamavam o Espírito Santo de semelhança do Filho.
 
 [3880] Mat. xii. 27; Lucas X. 22.
+
+## Capítulo VIII. Tentativas vãs de Marcião e seus seguidores, que excluem Abraão da salvação concedida por…
 
 Capítulo VIII.-- ​​Tentativas vãs de Marcião e seus seguidores, que excluem Abraão da salvação concedida por Cristo, que libertou não apenas Abraão, mas a semente de Abraão, cumprindo e não destruindo a lei quando Ele curou no sábado.
 
@@ -355,7 +369,7 @@ Por que, então, eles eram inocentes? Porque quando estavam no templo eles não 
 
 [3898] 1 Cor. iii. 17.
 
-Capítulo IX.-- Há apenas um autor e um fim para ambas as alianças.
+## Capítulo IX.-- Há apenas um autor e um fim para ambas as alianças.
 
 1. Todas as coisas, portanto, são de uma mesma substância, isto é, de um único e mesmo Deus; como também o Senhor diz aos discípulos: “Portanto, todo escriba instruído para o reino dos céus é semelhante a um homem proprietário, que tira do seu tesouro coisas novas e velhas”. [3899] Ele não ensinou que aquele que produziu o antigo era um, e aquele que produziu o novo, outro; mas que eles eram um e o mesmo. Porque o Senhor é o homem bom da casa, que governa toda a casa de seu Pai; e que promulga uma lei adequada tanto para escravos quanto para aqueles que ainda são indisciplinados; e dá preceitos apropriados para aqueles que são livres e foram justificados pela fé, bem como abre Sua própria herança para aqueles que são filhos. E Ele chamou Seus discípulos de “escribas” e “mestres do reino dos céus”; de quem também Ele diz em outro lugar aos judeus: "Eis que vos envio sábios, escribas e mestres; e a alguns deles matareis e perseguireis de cidade em cidade." [3900] Agora, sem contradição, Ele quer dizer com aquelas coisas que são trazidas do tesouro, novas e antigas, as duas alianças; o antigo, aquela promulgação da lei que ocorreu anteriormente; e Ele aponta como o novo aquele modo de vida exigido pelo Evangelho, do qual Davi diz: “Cantai ao Senhor um novo cântico”; [3901] e Isaías: "Cantai ao Senhor um novo hino.
 
@@ -405,6 +419,8 @@ Pois Deus disse: Honra a teu pai e a tua mãe; e: Todo aquele que amaldiçoar o 
 
 [3915] Ex. xx. 12, LXX.
 
+## Capítulo X. As Escrituras do Antigo Testamento, e aquelas escritas por Moisés em particular, em todos…
+
 Capítulo X. - As Escrituras do Antigo Testamento, e aquelas escritas por Moisés em particular, em todos os lugares fazem menção ao Filho de Deus e predizem Seu advento e paixão. Deste fato segue-se que eles foram inspirados por um único e mesmo Deus.
 
 1. Portanto, também João relata apropriadamente que o Senhor disse aos judeus: “Examinais as Escrituras, nas quais julgais ter a vida eterna; [3916] Como, portanto, as Escrituras testificavam Dele, a menos que viessem do mesmo Pai, instruindo de antemão os homens sobre o advento de Seu Filho e prenunciando a salvação trazida por Ele? "Porque, se tivésseis acreditado em Moisés, também teríeis acreditado em mim; porque ele escreveu de mim;" [3917] [dizendo isso], sem dúvida, porque o Filho de Deus está implantado em todos os lugares ao longo de seus escritos: certa vez, de fato, falando com Abraão, quando estava prestes a comer com ele; em outro momento com Noé, dando-lhe as dimensões [da arca]; em outro; perguntando por Adam; em outro, trazendo julgamento sobre os sodomitas; e novamente, quando Ele se torna visível, [3918] e dirige Jacó em sua jornada, e fala com Moisés desde a sarça.
@@ -439,6 +455,8 @@ Portanto, Moisés, ao repreender a ingratidão do povo, disse: "Vós, povo apaix
 
 [3927] Deut. xxxii. 6. “Te possuiu”, isto é, seguindo o significado do hebraico, “te possuiu por geração”.
 
+## Capítulo XI. Os antigos profetas e justos sabiam de antemão do advento de Cristo, e desejavam…
+
 Capítulo XI.-- Os antigos profetas e justos sabiam de antemão do advento de Cristo, e desejavam sinceramente vê-lo e ouvi-lo, revelando-se nas Escrituras pelo Espírito Santo, e sem qualquer mudança em si mesmo, enriquecendo os homens dia a dia com benefícios, mas conferindo-os em maior abundância às gerações posteriores do que às gerações anteriores.
 
 1. Mas que não foram apenas os profetas e muitos homens justos que, prevendo Seu advento por meio do Espírito Santo, oraram para que pudessem alcançar aquele período em que veriam seu Senhor face a face e ouviriam Suas palavras, o Senhor manifestou-se, quando disse aos Seus discípulos: "Muitos profetas e homens justos desejaram ver as coisas que vedes, e não as viram; e ouvir as coisas que ouvis, e não as ouviram." [3928] De que maneira, então, desejavam eles ouvir e ver, a menos que tivessem presciência de Seu futuro advento? Mas como eles poderiam ter sabido disso, a menos que tivessem previamente recebido presciência dele mesmo? E como as Escrituras testificam Dele, a menos que todas as coisas tivessem sido reveladas e mostradas aos crentes por um único e mesmo Deus através da Palavra; Ele ora conferenciava com Sua criatura, ora propunha Sua lei; ora reprovando, ora exortando, e depois libertando Seu servo, e adotando-o como filho (in filium); e, no devido tempo, conceder uma herança incorruptível, com o propósito de levar o homem à perfeição?
@@ -468,6 +486,8 @@ Pois Ele o formou para crescimento e crescimento, como diz a Escritura: “Aumen
 [3934] O texto latino é ambíguo: "dominabantur eorum, quibus ratio non constabat". A tradução pode ser "e governou aquelas coisas com relação às quais não era certo que o fizessem".
 
 [3935] Mat. xxi. 16; Sal. viii. 3.
+
+## Capítulo XII. Parece claramente que houve apenas um autor tanto da antiga quanto da nova lei, pelo fato…
 
 Capítulo XII.-- ​​Parece claramente que houve apenas um autor tanto da antiga quanto da nova lei, pelo fato de que Cristo condenou tradições e costumes repugnantes à primeira, enquanto Ele confirmou seus preceitos mais importantes e ensinou que Ele próprio era o fim da lei mosaica.
 
@@ -515,6 +535,8 @@ E Ele não pregou aos Seus seguidores outro Deus Pai, além daquele que foi proc
 
 [3947] Lucas xix. 8.
 
+## Capítulo XIII. Cristo não revogou os preceitos naturais da lei, mas antes os cumpriu e ampliou. Ele…
+
 Capítulo XIII.--Cristo não revogou os preceitos naturais da lei, mas antes os cumpriu e ampliou. Ele removeu o jugo e a escravidão da antiga lei, para que a humanidade, agora libertada, pudesse servir a Deus com aquela piedade confiante que convém aos filhos.
 
 1. E que o Senhor não revogou os [preceitos] naturais da lei, pelos quais o homem [3948] é justificado, que também aqueles que foram justificados pela fé, e que agradaram a Deus, observaram antes de dar a lei, mas que Ele os estendeu e cumpriu, é mostrado em Suas palavras. “Pois”, observa Ele, “foi-lhes dito desde os tempos antigos: Não cometais adultério. Mas eu vos digo que todo aquele que olhou para uma mulher para a cobiçar, já em seu coração cometeu adultério com ela”. [3949] E ainda: "Foi dito: Não matarás. Mas eu vos digo: Todo aquele que se irritar com seu irmão sem causa, estará em perigo de julgamento." [3950] E: "Foi dito: Não jurarás a ti mesmo. Mas eu te digo: Não jures; mas seja a tua conversa: Sim, sim, e Não, não." [3951] E outras declarações de natureza semelhante.
@@ -559,6 +581,8 @@ E nisso Ele diz: “Porque o servo não sabe o que faz o seu senhor”, Ele apon
 
 [3959] João VIII. 58.
 
+## Capítulo XIV. Se Deus exige obediência do homem, se Ele formou o homem, chamou-o e colocou-o sob leis…
+
 Capítulo XIV.-- Se Deus exige obediência do homem, se Ele formou o homem, chamou-o e colocou-o sob leis, foi apenas para o bem-estar do homem; não que Deus necessitasse do homem, mas que Ele graciosamente conferiu ao homem Seus favores de todas as maneiras possíveis.
 
 1. No princípio, portanto, Deus formou Adão, não como se Ele precisasse do homem, mas para que pudesse ter [alguém] a quem conferir Seus benefícios. Pois não só antes de Adão, mas também antes de toda a criação, o Verbo glorificou Seu Pai, permanecendo Nele; e ele próprio foi glorificado pelo Pai, como Ele mesmo declarou: “Pai, glorifica-me com a glória que eu tinha contigo antes que o mundo existisse”. [3960] Nem precisou do nosso serviço quando nos ordenou que o seguíssemos; mas Ele assim concedeu a salvação a nós mesmos. Pois seguir o Salvador é ser participante da salvação, e seguir a luz é receber luz. Mas aqueles que estão na luz não iluminam eles próprios a luz, mas são iluminados e revelados por ela: certamente não contribuem em nada para ela, mas, recebendo o benefício, são iluminados pela luz.
@@ -590,6 +614,8 @@ E novamente: "Eu quero que onde eu estiver, eles também possam estar, para que 
 [3967] Ex. xxv. 40.
 
 [3968] 1 Cor. x. 11.
+
+## Capítulo XV. A princípio Deus considerou suficiente inscrever a lei natural, ou o Decálogo, no coração…
 
 Capítulo XV. - A princípio Deus considerou suficiente inscrever a lei natural, ou o Decálogo, no coração dos homens; mas depois Ele achou necessário refrear, com o jugo da lei mosaica, os desejos dos judeus, que estavam abusando de sua liberdade; e até para acrescentar alguns comandos especiais, por causa da dureza de seus corações.
 
@@ -628,6 +654,8 @@ E se certas pessoas, por causa dos israelitas desobedientes e arruinados, afirma
 [3981] Mat. xx. 16.
 
 [3982] [Observe esta forte afirmação da liberdade das ações humanas.]
+
+## Capítulo XVI. A justiça perfeita não foi conferida nem pela circuncisão nem por quaisquer outras…
 
 Capítulo XVI.-- A justiça perfeita não foi conferida nem pela circuncisão nem por quaisquer outras cerimônias legais. O Decálogo, porém, não foi cancelado por Cristo, mas está sempre em vigor: os homens nunca foram dispensados ​​dos seus mandamentos.
 
@@ -694,6 +722,8 @@ E, portanto, o Senhor diz: “Quanto a toda palavra vã que os homens proferiram
 [4005] Mat. 22.
 
 [4006] 1 animal de estimação. ii. 16.
+
+## Capítulo XVII. Prova de que Deus não designou a dispensação levítica por Seu próprio bem, ou como…
 
 Capítulo XVII.-- ​​Prova de que Deus não designou a dispensação levítica por Seu próprio bem, ou como exigindo tal serviço; pois Ele, de fato, não precisa de nada dos homens.
 
@@ -777,7 +807,7 @@ Porque desde o nascente do sol até o poente [do mesmo], o meu nome é glorifica
 
 [4033] Rev. 8. [O incenso material parece ser sempre rejeitado pelos escritores primitivos.]
 
-Capítulo XVIII.--Sobre sacrifícios e oblações, e aqueles que realmente os oferecem.
+## Capítulo XVIII.--Sobre sacrifícios e oblações, e aqueles que realmente os oferecem.
 
 1. A oblação da Igreja, portanto, que o Senhor deu instruções para ser oferecida em todo o mundo, é considerada diante de Deus um sacrifício puro e é aceitável para Ele; não que Ele precise de um sacrifício nosso, mas que aquele que oferece é glorificado naquilo que oferece, se sua dádiva for aceita. Pois pela dádiva tanto a honra quanto o afeto são demonstrados ao Rei; e o Senhor, desejando que a oferecêssemos com toda simplicidade e inocência, expressou-se assim: “Portanto, quando ofereceres a tua dádiva sobre o altar, e te lembrares de que teu irmão tem algo contra ti, deixa a tua dádiva diante do altar, e vai; [4034] Somos obrigados, portanto, a oferecer a Deus as primícias de Sua criação, como Moisés também diz: "Não aparecerás vazio na presença do Senhor teu Deus"; [4035] para que o homem, sendo considerado grato por aquelas coisas pelas quais demonstrou sua gratidão, possa receber aquela honra que dele flui. [4036]
 
@@ -851,6 +881,8 @@ O altar, então, está no céu (4057) (pois para esse lugar são dirigidas nossa
 
 [4058] Rev. 19.
 
+## Capítulo XIX. As coisas terrenas podem ser do tipo das celestiais, mas estas últimas não podem ser do…
+
 Capítulo XIX.--As coisas terrenas podem ser do tipo das celestiais, mas estas últimas não podem ser do tipo de outras ainda superiores e desconhecidas; nem podemos, sem loucura absoluta, sustentar que Deus é conhecido por nós apenas como o tipo de um ser ainda desconhecido e superior.
 
 1. Ora, as dádivas, oblações e todos os sacrifícios, o povo recebeu de forma figurada, como foi mostrado a Moisés no monte, de um único e mesmo Deus, cujo nome agora é glorificado na Igreja entre todas as nações. Mas é congruente que aquelas coisas terrenas, de fato, que estão espalhadas ao nosso redor, sejam tipos do celestial, sendo [ambas], no entanto, criadas pelo mesmo Deus. Pois de nenhuma outra maneira Ele poderia assimilar uma imagem das coisas espirituais [para se adequar à nossa compreensão]. Mas alegar que aquelas coisas que são supracelestiais e espirituais, e, no que nos diz respeito, invisíveis e inefáveis, são por sua vez os tipos de coisas celestiais e de outro Pleroma, e [dizer] que Deus é a imagem de outro Pai, é desempenhar o papel tanto de desviados da verdade, quanto de pessoas absolutamente tolas e estúpidas.
@@ -872,6 +904,8 @@ Mas que ninguém pode declarar plenamente a bondade de Deus a partir das coisas 
 [4061] Jr. xxiii. 23.
 
 [4062] O latim é "et universum eum decurrerint". Harvey imagina que esta última palavra corresponda a katatrechosi mas é difícil encaixar tal significado no contexto.
+
+## Capítulo XX. Aquele Deus formou todas as coisas no mundo, por meio da Palavra e do Espírito Santo: e…
 
 Capítulo XX.--Aquele Deus formou todas as coisas no mundo, por meio da Palavra e do Espírito Santo: e que embora Ele seja para nós nesta vida invisível e incompreensível, no entanto, Ele não é desconhecido; na medida em que Suas obras O declaram, e Sua Palavra mostrou que de muitas maneiras Ele pode ser visto e conhecido.
 
@@ -1029,6 +1063,8 @@ Pois eles ficarão cheios de lepra e serão expulsos do acampamento dos justos. 
 
 [4113] Mat. xxi. 31.
 
+## Capítulo XXI. A fé de Abraão era idêntica à nossa; esta fé foi prefigurada pelas palavras e ações dos…
+
 Capítulo XXI.-- A fé de Abraão era idêntica à nossa; esta fé foi prefigurada pelas palavras e ações dos antigos patriarcas.
 
 1. Mas que nossa fé também foi prefigurada em Abraão, e que ele era o patriarca de nossa fé, e, por assim dizer, o profeta dela, o apóstolo ensinou muito plenamente, quando diz na Epístola aos Gálatas: “Aquele, pois, que vos ministra o Espírito e faz milagres entre vós, [faz isso] pelas obras da lei, ou pelo ouvir da fé? portanto, que os que são da fé são os mesmos filhos de Abraão. Mas a Escritura, prevendo que Deus justificaria os pagãos pela fé, anunciou de antemão a Abraão que nele todas as nações seriam abençoadas. [4114] Pelo que [razões o apóstolo] declarou que este homem não era apenas o profeta da fé, mas também o pai daqueles que dentre os gentios acreditam em Jesus Cristo, porque a sua fé e a nossa são uma e a mesma: porque ele acreditou nas coisas futuras, como se já estivessem cumpridas, por causa da promessa de Deus; e da mesma maneira também nós, por causa da promessa de Deus, contemplamos pela fé aquela herança [reservada para nós] no reino [futuro].
@@ -1061,6 +1097,8 @@ Por essa causa, seu irmão sofreu as conspirações e perseguições de um irmã
 
 [4123] [Os olhos de Lia estavam fracos, de acordo com a LXX.; e Irineu infere que os de Raquel eram "excessivamente lindos". Cânticos, eu. 15.]
 
+## Capítulo XXII. Cristo não veio por causa dos homens de uma época apenas, mas por todos os que, vivendo…
+
 Capítulo XXII.-- ​​Cristo não veio por causa dos homens de uma época apenas, mas por todos os que, vivendo de maneira justa e piedosamente, creram Nele; e para aqueles também que acreditarão.
 
 1. Agora, nos últimos dias, quando chegou a plenitude do tempo da liberdade, o próprio Verbo “lavou a imundície das filhas de Sião”, (4124) quando lavou os pés dos discípulos com Suas próprias mãos. [4125] Pois este é o fim da raça humana herdar Deus; que como no princípio, por meio de nossos primeiros [pais], todos nós fomos levados à escravidão, sendo sujeitos à morte; assim, finalmente, por meio do Novo Homem, todos os que desde o início [foram Seus] discípulos, tendo sido purificados e lavados das coisas pertencentes à morte, deveriam vir para a vida de Deus. Pois Aquele que lavou os pés dos discípulos santificou todo o corpo e o purificou. Por esta razão, também, Ele lhes administrou comida numa postura reclinada, indicando que aqueles que estavam deitados na terra eram aqueles a quem Ele veio para conceder vida.
@@ -1082,6 +1120,8 @@ Como Jeremias declara: “O santo Senhor lembrou-se do Seu Israel morto, que dor
 [4129] Mat. xiii. 17.
 
 [4130] Rom. iii. 30.
+
+## Capítulo XXIII. Os patriarcas e profetas, apontando o advento de Cristo, fortificaram assim, por assim…
 
 Capítulo XXIII.-- ​​Os patriarcas e profetas, apontando o advento de Cristo, fortificaram assim, por assim dizer, o caminho da posteridade para a fé de Cristo; e assim o trabalho dos apóstolos foi diminuído na medida em que eles colheram os frutos do trabalho de outros.
 
@@ -1107,6 +1147,8 @@ Portanto Filipe não teve grande trabalho a realizar em relação a este homem, 
 
 [4136] Atos ii. 41, Atos iv. 4.
 
+## Capítulo XXIV. A conversão dos gentios foi mais difícil do que a dos judeus; os trabalhos daqueles…
+
 Capítulo XXIV.-- A conversão dos gentios foi mais difícil do que a dos judeus; os trabalhos daqueles apóstolos, portanto, que se engajaram na primeira tarefa, foram maiores do que aqueles que empreenderam a última.
 
 1. Portanto também Paulo, visto que era o apóstolo dos gentios, diz: “Trabalhei mais do que todos eles”. [4137] Pois a instrução dos primeiros [isto é, dos judeus] era uma tarefa fácil, porque eles podiam alegar provas das Escrituras, e porque eles, que tinham o hábito de ouvir Moisés e os profetas, também receberam prontamente o Primogênito dos mortos, e o Príncipe da vida de Deus, - Aquele que, pela extensão das mãos, destruiu Amaleque e vivificou o homem da ferida da serpente, por meio da fé que foi [exercitado] em direção a Ele. Como indiquei no livro anterior, o apóstolo, em primeiro lugar, instruiu os gentios a se afastarem da superstição dos ídolos e a adorarem um Deus, o Criador do céu e da terra, e o Construtor de toda a criação; e que Seu Filho era Sua Palavra, por quem Ele fundou todas as coisas; e que Ele, nos últimos tempos, foi feito homem entre os homens; que Ele reformou a raça humana, mas destruiu e conquistou o inimigo do homem, e deu à Sua obra a vitória contra o adversário.
@@ -1124,6 +1166,8 @@ Estas coisas também foram pregadas aos gentios por palavra, sem [a ajuda das] E
 [4139] Ef. eu. 21.
 
 [4140] Fil. ii. 8.
+
+## Capítulo XXV. Ambas as alianças foram prefiguradas em Abraão e no trabalho de Tamar; havia, no entanto…
 
 Capítulo XXV.-- Ambas as alianças foram prefiguradas em Abraão e no trabalho de Tamar; havia, no entanto, apenas um e o mesmo Deus para cada aliança.
 
@@ -1152,6 +1196,8 @@ Também por esta razão, estes mesmos homens (os profetas) também oram para ter
 [4147] Jr. Ix. 2. [Em vez disso, uma "morada remota" (stathmon eschaton de acordo com LXX.) para enquadrar o argumento.]
 
 [4148] [As comoventes palavras que concluem o parágrafo anterior são ilustradas pela nobre frase que inicia este parágrafo. O espírito infantil desses Padres reconhece Cristo em todos os lugares, no Antigo Testamento, prefigurado por inúmeras imagens e símbolos em formas paternas e legais (cerimoniais).]
+
+## Capítulo XXVI. O tesouro escondido nas Escrituras é Cristo; a verdadeira exposição das Escrituras pode…
 
 Capítulo XXVI.-- O tesouro escondido nas Escrituras é Cristo; a verdadeira exposição das Escrituras pode ser encontrada somente na Igreja.
 
@@ -1224,6 +1270,8 @@ Pois estes também preservam esta nossa fé em um Deus que criou todas as coisas
 [4172] 1 Cor. xii. 28.
 
 [4173] [Observe a limitação; não apenas a sucessão, mas com ela (1) pura moralidade e santidade e (2) testemunho não adulterado. Nenhuma catolicidade além destas.]
+
+## Capítulo XXVII. Os pecados dos homens dos tempos antigos, que incorreram no desagrado de Deus, foram, por…
 
 Capítulo XXVII - Os pecados dos homens dos tempos antigos, que incorreram no desagrado de Deus, foram, por Sua providência, cometidos por escrito, para que assim pudéssemos obter instrução e não ficarmos cheios de orgulho. Não devemos, portanto, inferir que havia outro Deus além daquele a quem Cristo pregou; devemos temer, antes, que o único e mesmo Deus que infligiu punição aos antigos, deva cair mais pesado sobre nós.
 
@@ -1301,6 +1349,8 @@ Não sejais, portanto, participantes deles.” [4193] E como então a condenaç�
 
 [4197] 2 Tes. eu. 6-10.
 
+## Capítulo XXVIII. Provam-se insensatos aqueles que exageram a misericórdia de Cristo, mas silenciam quanto…
+
 Capítulo XXVIII.-- ​​Provam-se insensatos aqueles que exageram a misericórdia de Cristo, mas silenciam quanto ao julgamento e olham apenas para a graça mais abundante do Novo Testamento; mas, esquecidos do maior grau de perfeição que isso exige de nós, esforçam-se por mostrar que existe outro Deus além daquele que criou o mundo.
 
 1. Visto, então, que em ambos os Testamentos há a mesma justiça de Deus [exibida] quando Deus se vinga, em um caso, de fato, de maneira típica, temporária e mais moderada; mas no outro, realmente, duradouramente e mais rigidamente: pois o fogo é eterno, e a ira de Deus que será revelada do céu da face de nosso Senhor (como Davi também diz: "Mas a face do Senhor é contra aqueles que praticam o mal, para cortar a lembrança deles da terra" [4198]), acarreta um castigo mais pesado para aqueles que incorrem nele - os mais velhos apontaram que aqueles homens são desprovidos de bom senso, que, [argumentando] com base no que aconteceu com aqueles que anteriormente não obedeceram a Deus, esforce-se para trazer outro Pai, comparando [essas punições] com as grandes coisas que o Senhor havia feito em Sua vinda para salvar aqueles que O receberam, tendo compaixão deles; enquanto eles mantêm silêncio em relação ao Seu julgamento; e todas aquelas coisas que acontecerão aos que ouviram Suas palavras, mas não as fizeram, e que seria melhor para eles se não tivessem nascido, (4199) e que será mais tolerável para Sodoma e Gomorra no julgamento do que para aquela cidade que não recebeu a palavra de Seus discípulos.
@@ -1335,6 +1385,8 @@ E quem são aqueles que mesmo então se entregaram à morte? Aqueles homens, sem
 
 [4207] 1 Cor. XIV. 20.
 
+## Capítulo XXIX. Refutação dos argumentos dos marcionitas, que tentaram mostrar que Deus era o autor do…
+
 Capítulo XXIX.-- Refutação dos argumentos dos marcionitas, que tentaram mostrar que Deus era o autor do pecado, porque cegou Faraó e seus servos.
 
 1. “Mas”, dizem eles, “Deus endureceu o coração de Faraó e de seus servos”. [4208] Aqueles, então, que alegam tais dificuldades, não lêem no Evangelho aquela passagem onde o Senhor respondeu aos discípulos, quando eles lhe perguntaram: "Por que lhes falas por parábolas?" dizendo: Torna o coração deste povo obscuro e cega os seus ouvidos, e cega os teus olhos, mas bem-aventurados os teus olhos, que vêem as coisas que vedes, e os vossos ouvidos, que ouvem o que ouvis. [4209] Pois um só e mesmo Deus [que abençoa os outros] inflige cegueira aos que não crêem, mas que O desprezam; assim como o sol, que é uma criatura Sua, [age em relação] àqueles que, por causa de qualquer fraqueza dos olhos, não podem contemplar sua luz; mas para aqueles que acreditam Nele e O seguem, Ele concede uma iluminação mental mais completa e maior.
@@ -1354,6 +1406,8 @@ De acordo com esta palavra, portanto, o apóstolo diz, na Segunda [Epístola] ao
 [4212] 2 Tes. ii. 11.
 
 [4213] Ex. iii. 19.
+
+## Capítulo XXX. Refutação de outro argumento apresentado pelos marcionitas, de que Deus ordenou aos…
 
 Capítulo XXX.-- Refutação de outro argumento apresentado pelos marcionitas, de que Deus ordenou aos hebreus que despojassem os egípcios.
 
@@ -1404,6 +1458,8 @@ Mas assim digo “de mãos estranhas”, não como se o mundo não fosse proprie
 [4227] [Os Padres consideravam todo o sistema mosaico e a história dos fiéis sob ele como uma grande alegoria. Em tudo eles viam "semelhanças", como vemos em Faery Queen of Spenser, ou em Pilgrim's Progress. Os antigos podem ter levado este princípio longe demais, mas como princípio ele recebe o apoio do próprio Senhor e de Seus apóstolos. Para nós muitas vezes há uma sarça estéril, onde os Padres viram uma sarça que ardia com fogo.]
 
 [4228] Ver Rev.
+
+## Capítulo XXXI. Não devemos imputar precipitadamente como crimes aos homens de antigamente aquelas ações…
 
 Capítulo XXXI.-- Não devemos imputar precipitadamente como crimes aos homens de antigamente aquelas ações que a Escritura não condenou, mas devemos antes buscar nelas tipos de coisas que virão: um exemplo disso no incesto cometido por Ló.
 
@@ -1459,6 +1515,8 @@ Quin etiam si quis mutilaverit advena formam,
 
 Protinus ex sese Suggestu vulnera complet." [Que uma estátua de sal ainda pode ser vista nesta vizinhança é agora confirmada por muitos viajantes modernos (relatório do Tenente Lynch, Marinha dos Estados Unidos), o que explica a inferência natural de Josefo e outros em quem nosso autor confiou. A coincidência é digna de nota.]
 
+## Capítulo XXXII. Que Deus único foi o autor de ambos os Testamentos, é confirmado pela autoridade de um…
+
 Capítulo XXXII.-- ​​Que Deus único foi o autor de ambos os Testamentos, é confirmado pela autoridade de um presbítero que foi ensinado pelos apóstolos.
 
 1. Da mesma forma, também um presbítero, [4242] discípulo dos apóstolos, raciocinou a respeito dos dois testamentos, provando que ambos eram verdadeiramente de um único e mesmo Deus. Pois [ele sustentou] que não havia outro Deus além daquele que nos fez e nos formou, e que não tem fundamento o discurso daqueles homens que afirmam que este nosso mundo foi feito por anjos, ou por qualquer outro poder, ou por outro Deus. Pois se um homem se afastar uma vez do Criador de todas as coisas, e se ele conceder que esta criação à qual pertencemos foi formada por qualquer outro ou através de qualquer outro [que não o único Deus], ​​ele necessariamente cairá em muitas inconsistências e muitas contradições deste tipo; ao qual ele não [será capaz] de fornecer explicações que possam ser consideradas prováveis ​​ou verdadeiras.
@@ -1488,6 +1546,8 @@ E, por esta razão, aqueles que introduzem outras doutrinas escondem de nós a o
 [4251] O latim é "per proprium visum".
 
 [4252] [Se este e o capítulo anterior nos parecem supérfluos, devemos refletir que tal testemunho, desde o início, estabeleceu a unidade da Sagrada Escritura e preservou para nós - a Bíblia.]
+
+## Capítulo XXXIII. Todo aquele que confessa que um só Deus é o autor de ambos os Testamentos, e lê…
 
 Capítulo XXXIII.-- ​​Todo aquele que confessa que um só Deus é o autor de ambos os Testamentos, e lê diligentemente as Escrituras em companhia dos presbíteros da Igreja, é um verdadeiro discípulo espiritual; e ele compreenderá e interpretará corretamente tudo o que os profetas declararam a respeito de Cristo e da liberdade do Novo Testamento.
 
@@ -1723,6 +1783,8 @@ Aqueles, por outro lado, que se afastam Dele e desprezam Seus preceitos, e por s
 
 [4340] "Ex alia et alia substantia fuisse Prophetias."
 
+## Capítulo XXXIV. Prova contra os marcionitas de que os profetas se referiam em todas as suas predições ao…
+
 Capítulo XXXIV.-- Prova contra os marcionitas de que os profetas se referiam em todas as suas predições ao nosso Cristo.
 
 1. Agora direi simplesmente, em oposição a todos os hereges, e principalmente contra os seguidores de Marcião, e contra aqueles que são como estes, ao sustentar que os profetas eram de outro Deus [do que Aquele que é anunciado no Evangelho], leia com fervoroso cuidado aquele Evangelho que nos foi transmitido pelos apóstolos, e leia com fervoroso cuidado os profetas, e você descobrirá que toda a conduta, e toda a doutrina, e todos os sofrimentos de nosso Senhor, foram preditos através deles. Mas se um pensamento desse tipo surgir a você, para dizer: O que então o Senhor nos trouxe com Seu advento? - sabeis que Ele trouxe toda novidade [possível], trazendo a Si mesmo o que havia sido anunciado. Pois isto foi proclamado de antemão: que uma novidade deveria vir para renovar e vivificar a humanidade.
@@ -1767,6 +1829,8 @@ No início, Ele imaginou a foice por meio de Abel, apontando que deveria haver u
 
 [4351] [Se for lembrado que conhecemos Irineu aqui, apenas através de uma tradução latina muito obscura, seremos lentos em censurar esta conclusão.]
 
+## Capítulo XXXV. Uma refutação daqueles que alegam que os profetas proferiram algumas predições sob a…
+
 Capítulo XXXV.--Uma refutação daqueles que alegam que os profetas proferiram algumas predições sob a inspiração do mais alto, outras do Demiurgo. Desentendimentos dos Valentinianos entre si em relação a essas mesmas previsões.
 
 1. Então, novamente, em oposição aos valentinianos e aos outros gnósticos, falsamente chamados, que sustentam que algumas partes das Escrituras foram faladas em um momento do Pleroma (um cume) por meio da semente [derivada] daquele lugar, mas em outro momento da morada intermediária por meio da audaciosa mãe Prunica, mas que muitas são devidas ao Criador do mundo, de quem também os profetas tiveram sua missão, dizemos que é totalmente irracional derrubar o Pai do universo a tais dificuldades, que Ele não deveria possuir Seus próprios instrumentos próprios, pelos quais as coisas no Pleroma pudessem ser perfeitamente proclamadas. Pois de quem Ele tinha medo, para que não revelasse Sua vontade à Sua própria maneira e de forma independente, livre e sem estar envolvido com aquele espírito que surgiu em um estado de degeneração e ignorância? Será que Ele temia que muitos fossem salvos, quando mais deveriam ter ouvido a verdade não adulterada? Ou, por outro lado, foi incapaz de preparar para Si aqueles que deveriam anunciar o advento do Salvador?
@@ -1791,7 +1855,7 @@ Assim, eles, por mais numerosos que sejam, todos se afastam [uns dos outros], ma
 
 [4354] Illorum; seguindo a forma grega do grau comparativo.
 
-Capítulo XXXVI.-- Os profetas foram enviados por um mesmo Pai de quem o Filho foi enviado.
+## Capítulo XXXVI.-- Os profetas foram enviados por um mesmo Pai de quem o Filho foi enviado.
 
 1. O qual [Deus] o Senhor não rejeita, nem diz que os profetas [falaram] de outro deus que não Seu Pai; nem de qualquer outra essência, mas de um mesmo Pai; nem que qualquer outro ser feito as coisas no mundo, exceto Seu próprio Pai, quando Ele fala o seguinte em Seu ensino: "Havia um certo chefe de família, e ele plantou uma vinha, e cercou-a, e cavou nela um lagar, e construiu uma torre, e alugou-a aos lavradores, e foi para um país distante: E quando o tempo da fruta se aproximou, ele enviou seus servos aos lavradores, para que eles pudessem receber os frutos dela. E os lavradores levaram seus servos: em pedaços, apedrejou outro e matou outro. Novamente ele enviou outros servos mais do que o primeiro: e eles fizeram o mesmo com eles, mas por último ele lhes enviou seu único filho, dizendo: Talvez eles reverenciem meu filho.
 
@@ -1917,6 +1981,8 @@ Mas os filhos do reino irão para as trevas exteriores; ali haverá choro e rang
 
 [4393] Mat. viii. 11, 12.
 
+## Capítulo XXXVII. Os homens possuem livre arbítrio e são dotados da faculdade de fazer escolhas. Não é…
+
 Capítulo XXXVII.-- ​​Os homens possuem livre arbítrio e são dotados da faculdade de fazer escolhas. Não é verdade, portanto, que alguns sejam bons por natureza e outros maus.
 
 1. Esta expressão [de nosso Senhor], "Quantas vezes eu teria reunido teus filhos, e tu não quiseste", (4394) expôs a antiga lei da liberdade humana, porque Deus fez do homem um [agente] livre desde o início, possuindo seu próprio poder, assim como ele faz com sua própria alma, para obedecer às ordens (ad utendum sententia) de Deus voluntariamente, e não por compulsão de Deus. Pois não há coerção da parte de Deus, mas uma boa vontade [para conosco] está presente nele continuamente. E, portanto, Ele dá bons conselhos a todos. E no homem, assim como nos anjos, Ele colocou o poder de escolha (pois os anjos são seres racionais), para que aqueles que tenham rendido a obediência possam possuir com justiça o que é bom, dado de fato por Deus, mas preservado por si mesmos. Por outro lado, aqueles que não obedeceram não serão, com justiça, encontrados na posse do bem, e receberão punição condigna: pois Deus gentilmente concedeu-lhes o que era bom; mas eles próprios não o guardaram diligentemente, nem o consideraram algo precioso, mas derramaram desprezo sobre Sua bondade supereminente.
@@ -1991,7 +2057,7 @@ Da mesma forma, o reino celestial é honroso para aqueles que conheceram o terre
 
 [4416] [Se tivéssemos o original, este seria sem dúvida considerado, em todos os aspectos, um nobre exemplar de teologia primitiva.]
 
-Capítulo XXXVIII.--Por que o homem não foi aperfeiçoado desde o princípio.
+## Capítulo XXXVIII.--Por que o homem não foi aperfeiçoado desde o princípio.
 
 1. Se, porém, alguém disser: "E então? Deus não poderia ter apresentado o homem como perfeito desde o início?" deixe-o saber que, na medida em que Deus é de fato sempre o mesmo e ingênito no que diz respeito a si mesmo, todas as coisas são possíveis para ele. Mas as coisas criadas devem ser inferiores Àquele que as criou, desde a sua origem posterior; pois não era possível que coisas recentemente criadas tivessem sido incriadas. Mas visto que não são incriados, por esta mesma razão ficam aquém da perfeição. Porque, como essas coisas são posteriores, também são infantis; da mesma forma, eles não estão acostumados e não exercem a disciplina perfeita. Pois assim como certamente está no poder da mãe dar comida forte ao seu filho, [mas ela não o faz], visto que a criança ainda não é capaz de receber uma nutrição mais substancial; assim também foi possível que o próprio Deus tenha aperfeiçoado o homem desde o início, mas o homem não pôde receber esta [perfeição], sendo ainda uma criança.
 
@@ -2019,6 +2085,8 @@ Ele declara: “Eu disse: Vós sois deuses; e todos sois filhos do Altíssimo”
 
 [4420] Isto é, a natureza humana do homem não deve impedi-lo de se tornar participante do divino.
 
+## Capítulo XXXIX. O homem é dotado da faculdade de distinguir o bem e o mal; para que, sem compulsão, ele…
+
 Capítulo XXXIX.-- O homem é dotado da faculdade de distinguir o bem e o mal; para que, sem compulsão, ele tenha o poder, por sua própria vontade e escolha, de cumprir os mandamentos de Deus, evitando assim os males preparados para os rebeldes.
 
 1. O homem recebeu o conhecimento do bem e do mal. É bom obedecer a Deus, crer Nele e guardar Seus mandamentos, e esta é a vida do homem; pois não obedecer a Deus é mau, e esta é a sua morte. Visto que Deus, portanto, deu [ao homem] tal poder mental (magnanimitatem), o homem conhecia tanto o bem da obediência como o mal da desobediência, para que o olho da mente, recebendo experiência de ambos, possa com julgamento fazer escolha das coisas melhores; e que ele nunca se torne indolente ou negligente com a ordem de Deus; e aprendendo pela experiência que é uma coisa má que o priva da vida, isto é, a desobediência a Deus, pode nunca tentar fazê-lo, mas que, sabendo que o que preserva a sua vida, a saber, a obediência a Deus, é bom, ele pode guardá-lo diligentemente com toda a seriedade. Portanto ele também teve uma experiência dupla, possuindo conhecimento de ambos os tipos, para que com disciplina possa escolher as coisas melhores.
@@ -2045,7 +2113,7 @@ Pois aquelas pessoas que evitam o descanso incorrerão justamente em punição, 
 
 [4424] Mat. iii. 9.
 
-Capítulo XL.-- Um e o mesmo Deus Pai inflige punição aos réprobos e concede recompensas aos eleitos.
+## Capítulo XL.-- Um e o mesmo Deus Pai inflige punição aos réprobos e concede recompensas aos eleitos.
 
 1. É, portanto, o mesmo Deus Pai que preparou coisas boas consigo mesmo para aqueles que desejam Sua comunhão e que permanecem sujeitos a Ele; e quem tem o fogo eterno para o líder da apostasia, o diabo, e aqueles que se revoltaram com ele, para o qual [fogo] o Senhor [4425] declarou que serão enviados aqueles homens que foram separados por si mesmos à Sua mão esquerda. E isto é o que foi dito pelo profeta: “Eu sou um Deus zeloso, que faço a paz e crio coisas más”; [4426] fazendo assim a paz e a amizade com aqueles que se arrependem e se voltam para Ele, e trazendo-os à unidade, mas preparando-os para os impenitentes, aqueles que evitam a luz, o fogo eterno e as trevas exteriores, que são realmente males para aquelas pessoas que caem neles.
 
@@ -2078,6 +2146,8 @@ Como também a Escritura nos diz que Deus disse à serpente: “E porei inimizad
 [4434] Após a leitura da LXX. autos sou teresei kephalen.
 
 [4435] Gênesis iii. 15.
+
+## Capítulo XLI. Aquelas pessoas que não acreditam em Deus, mas que são desobedientes, são anjos e filhos…
 
 Capítulo XLI.-- Aquelas pessoas que não acreditam em Deus, mas que são desobedientes, são anjos e filhos do diabo, não de fato por natureza, mas por imitação. Encerramento deste livro e escopo do livro seguinte.
 

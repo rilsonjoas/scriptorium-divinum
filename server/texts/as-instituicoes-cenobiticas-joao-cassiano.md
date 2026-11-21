@@ -33,9 +33,11 @@ e o
 
 Remédios para as Oito Falhas Principais.
 
-Livro I.
+# Livro I.
 
 Do Traje dos Monges.
+
+## Livro I, Capítulo I
 
 Capítulo I. [637]
 
@@ -57,6 +59,8 @@ Paulo também, subindo a Jerusalém e logo sendo acorrentado pelos judeus, foi r
 
 [641] Atos xxi. 11.
 
+## Livro I, Capítulo II
+
 Capítulo II.
 
 Do manto do monge.
@@ -77,6 +81,8 @@ Mas mesmo que ouçamos falar de algumas pessoas respeitáveis ​​que se vesti
 
 [645] Quia nisi insolens sit diversitas non ofendit æqualitas (Petschenig). O texto de Gazaus tem inæqualitas.
 
+## Livro I, Capítulo III
+
 Capítulo III.
 
 Dos capuzes dos egípcios.
@@ -87,6 +93,8 @@ Além disso, há algumas coisas na vestimenta dos egípcios que não dizem respe
 
 [647] Sal. cxxx. (cxxxi.) 1, 2.
 
+## Livro I, Capítulo IV
+
 Capítulo IV.
 
 Das Túnicas dos Egípcios.
@@ -96,6 +104,8 @@ Eles também usam túnicas de linho (648) que mal chegam aos cotovelos, e no res
 [648] Colobium (kolobion), túnica de mangas muito curtas. Cf. Dorotheus (Migne, Patrulha. Græca lxxxviii. 1631). Para esquema ho phoroumen kolobion esti, me hechon cheiridia, kai zona dermatine kai analabos kai koukoulion.
 
 [649] Col. 5, 3. Gál. ii. 20; vi. 14. Cfr. Sozomen l. c.: “Usavam as túnicas sem mangas para ensinar que as mãos não devem estar prontas para fazer o mal”.
+
+## Livro I, Capítulo V
 
 Capítulo V.
 
@@ -115,6 +125,8 @@ Eles também usam lenços duplos [651] tecidos de fios de lã que os gregos cham
 
 [655] Atos xx. 34; 2 Tes. iii. 8, 10.
 
+## Livro I, Capítulo VI
+
 Capítulo VI.
 
 De suas capas. [656]
@@ -122,6 +134,8 @@ De suas capas. [656]
 Em seguida, cobrem o pescoço e os ombros com uma capa estreita, visando tanto o recato no vestir quanto o baixo custo e a economia; e isso é chamado em nossa língua, assim como na deles, de mafors; e assim evitam tanto o gasto quanto a exibição de capas e casacos.
 
 [656] O mafors (maphorion ou maphorion) é o escapulário monástico, ou traje de trabalho. Cf. a Regra de S. Bento, c. 55: "Ópera Scapulare propter." Na forma, era uma capa ou capuz grande e áspero.
+
+## Livro I, Capítulo VII
 
 Capítulo VII.
 
@@ -135,6 +149,8 @@ A última peça de sua vestimenta é a pele de cabra, chamada melotes, ou pera, 
 
 [659] Heb. xii. 37, 38.
 
+## Livro I, Capítulo VIII
+
 Capítulo VIII.
 
 Do Cajado dos Egípcios.
@@ -144,6 +160,8 @@ Pois Eliseu, ele próprio um deles, ensina que os mesmos homens costumavam carre
 [660] 2 Reis iv. 29.
 
 [661] Sal. lxxiii. (lxxiv.) 19.
+
+## Livro I, Capítulo IX
 
 Capítulo IX.
 
@@ -159,6 +177,8 @@ E isto cumpriremos se, como aconselha o Apóstolo, “não fizermos provisões p
 
 [664] Êxodo. iii. 5; Josué. 16.
 
+## Livro I, Capítulo X
+
 Capítulo X. [665]
 
 Da modificação nas observâncias que podem ser permitidas de acordo com as características do clima ou dos costumes do distrito.
@@ -168,6 +188,8 @@ Tanto pode ser dito que parece que não deixamos de fora nenhum artigo da vestim
 [665] Este e o capítulo seguinte são totalmente omitidos na edição de Gazæus.
 
 [666] Gálica.
+
+## Livro I, Capítulo XI
 
 Capítulo XI.
 
@@ -187,9 +209,11 @@ E, portanto, ele acrescenta significativamente "na geada", porque eles nunca est
 
 [671] Cf. ROM. vi. 12; Gal. v. 17. A regra de São Bento sobre a vestimenta dos monges é a seguinte: “Que a vestimenta dos irmãos seja adaptada ao caráter do lugar ou clima em que vivem, pois nos países frios é necessário mais roupa do que nos países quentes. um; um escapulário também para o trabalho; e a cobertura dos pés, sapatos e meias. E os monges não devem reclamar da cor ou do tamanho desses artigos, mas ficar satisfeitos com o que encontrarem ou conseguirem mais barato no país onde vivem. Regula S. Bened. c. Nv.
 
-Livro II.
+# Livro II.
 
 Do Sistema Canônico das Orações e Salmos Noturnos.
+
+## Livro II, Capítulo I
 
 Capítulo I.
 
@@ -200,6 +224,8 @@ Cingido, portanto, deste duplo cinto de que falamos, (672) o soldado de Cristo d
 [672] Ver Livro I. c. xii.
 
 [673] 1 Tes. v.17.
+
+## Livro II, Capítulo II
 
 Capítulo II.
 
@@ -219,6 +245,8 @@ Pois descobrimos que muitos em diferentes países, de acordo com a imaginação 
 
 [678] Castor fundou um mosteiro por volta do ano 420.
 
+## Livro II, Capítulo III
+
 Capítulo III.
 
 Da observância de uma regra uniforme em todo o Egito e da eleição daqueles que são colocados sobre os irmãos.
@@ -235,6 +263,8 @@ Mas, embora pretendêssemos explicar o melhor sistema de orações a ser observa
 
 [680] Cfr. 1 Tes. 4. 11.
 
+## Livro II, Capítulo IV
+
 Capítulo IV.
 
 Como em todo o Egito e na Tebaida o número de Salmos é fixado em doze.
@@ -244,6 +274,8 @@ Assim, como dissemos, em todo o Egito e na Tebaida o número de Salmos é fixado
 [681] A regra de César também prescreve doze Salmos em cada sábado, dia do Senhor e festival (c. 25); assim também, de acordo com a regra beneditina, há doze Salmos nas matinas, além dos fixos, iii. e xcv. (ver c. 9 e 10), como ainda constam no Breviário Romano nos dias normais da semana.
 
 [682] O costume de ter duas aulas parece ter sido peculiar ao Egito. A maioria das primeiras regras ocidentais fornece três, por exemplo, as de César e Bento XVI, enquanto nos ofícios diários orientais não há lições das Sagradas Escrituras.
+
+## Livro II, Capítulo V
 
 Capítulo V.
 
@@ -273,6 +305,8 @@ E enquanto todos estavam sentados (como ainda é o costume no Egito [686]), com 
 
 [689] Esta história é mencionada no Cânon Décimo Oitavo do Segundo Concílio de Tours, a.d. 567. “Os estatutos dos Padres prescrevem que doze Salmos sejam recitados no Décimo Segundo (isto é, Vésperas), com Aleluia, o que, além disso, eles aprenderam com a exibição de um anjo”.
 
+## Livro II, Capítulo VI
+
 Capítulo VI.
 
 Do costume de fazer doze orações.
@@ -284,6 +318,8 @@ Ao que a venerável assembléia dos Padres entendeu que pela Providência Divina
 [691] Cf. a nota acima em c. v.
 
 [692] Totis Quinquagessimoe diebus; isto é, todo o período de cinquenta dias entre a Páscoa e o Pentecostes (cf. c. xviii. e as Conferências XXI. viii., xi., xx.). Este é o significado usual do termo Pentecostes nos primeiros escritores, embora também seja usado mais estritamente para a verdadeira festa do Domingo de Pentecostes. Cf. o Vigésimo Cânone do Concílio de Nicéia, e veja Notas sobre os Cânones do Cônego Bright, p. 72, para outros casos.
+
+## Livro II, Capítulo VII
 
 Capítulo VII.
 
@@ -297,6 +333,8 @@ Pois quando você fica prostrado no chão por qualquer período de tempo, você 
 
 [694] Colligere orationem. A frase corresponde ao grego sunaptein, mas Ducange dá apenas alguns exemplos de seu uso em latim. É encontrado, no entanto, no Canon xxx. do Conselho de Agde. "Plebe coleciona oratione ad vesperam ab Episcopo cum benedictione dimittatur."
 
+## Livro II, Capítulo VIII
+
 Capítulo VIII.
 
 Da oração que segue o Salmo.
@@ -307,6 +345,8 @@ Aquela prática também que observamos neste país - a saber, que enquanto algu�
 
 [696] Nos ofícios orientais, o Saltério é dividido em vinte seções chamadas kathismata, cada uma das quais subdividida em três staseis, no final de cada uma das quais se recita o Glória, e não, como no Ocidente, depois de cada Salmo. Este costume ocidental que Cassiano aqui observa parece ter se originado na Gália, e daí se espalhou para outras igrejas, pois, segundo Walafrid Strabo, em Roma foi usado, mas raramente depois dos Salmos no século IX. Veja Walafrid Estrabão, c. xxv. ap. Hittorp. 688. As primeiras indicações do uso do próprio hino são encontradas no século IV. Veja S. Basílio De Spiritu Sancto, c. xxxx.; Teodoreto, Ecl. Hist., II. xxiv., Sozomen, Ecl. Hist., III. xx. A forma grega é Dhoxa patri kai huhio kai hagio pneumati kai freira kai aei kai eis tous aionas ton aionon, amém. As palavras adicionais em uso no Ocidente, "sicut erat in principio", foram adotadas pela primeira vez no século VI, sendo ordenadas pelo Concílio de Vaison, a.d. 529, “a exemplo da Sé Apostólica”.
 
+## Livro II, Capítulo IX
+
 Capítulo IX.
 
 Das características da oração, cujo tratamento mais completo é reservado às Conferências dos Anciãos.
@@ -314,6 +354,8 @@ Das características da oração, cujo tratamento mais completo é reservado às
 E como o plano destes Institutos nos conduz ao sistema das orações canônicas, cujo tratamento mais completo reservaremos, no entanto, às Conferências dos Anciãos (onde falaremos deles mais detalhadamente quando começarmos a contar em suas próprias palavras o caráter de suas orações e quão contínuas elas são), ainda assim penso que é bom, tanto quanto o lugar e minha narrativa permitirem, conforme a ocasião se oferece, olhar brevemente para o presente em alguns pontos, de modo que, entretanto, retratando o movimentos do homem exterior, e agora estabelecendo as bases, por assim dizer, da oração, poderemos mais tarde, quando falarmos do homem interior, com menos trabalho construir o edifício completo de suas orações; prevendo, sobretudo, para isso, que se o fim da vida nos atingir e nos impedir de terminar a narração que estamos ansiosos (D.V.) oportunamente para compor, possamos pelo menos deixar nesta obra o início de um assunto tão necessário para você, a quem tudo parece um atraso, pelo fervor de seu desejo: para que, se mais alguns anos de vida nos forem concedidos, possamos pelo menos traçar para você alguns esboços de suas orações, que acima de tudo aqueles que vivem em os mosteiros podem ter alguma informação sobre eles; proporcionando também, ao mesmo tempo, que aqueles que talvez encontrem apenas este livro, e não consigam adquirir o outro, possam descobrir que lhes é fornecido algum tipo de informação sobre a natureza de suas orações; e assim como são instruídos sobre as roupas e roupas do homem exterior, também não podem ignorar qual deveria ser seu comportamento ao oferecer sacrifícios espirituais.
 
 Visto que, embora estes livros, que agora estamos organizando para escrever com a ajuda do Senhor, sejam principalmente dedicados ao que pertence ao homem exterior e aos costumes dos Cenóbios, ainda assim eles estarão preocupados com o treinamento do homem interior e a perfeição do coração, e a vida e doutrina dos Anacoretas.
+
+## Livro II, Capítulo X
 
 Capítulo X.
 
@@ -332,6 +374,8 @@ Portanto, eles acham melhor que as orações sejam curtas e feitas com muita fre
 [698] Consumação.
 
 [699] Cf. Agostinho, Ep. cxxx., § 20 (Vol. II. 389): "Dicuntur fratres in Ægypto crebras quidem habere orationes, sed eas tamen brevissimas, et raptim quodammodo jaculatas, ne illa vigilantes erecta, quæ oranti plurimum necessaria est, per productiores moras evanescat atque hebetetur intentio;" e Hooker, Ecl. Política, Livro V. c. xxxiii .: "Relata-se que os irmãos no Egito (diz S. Agostinho) têm muitas orações, mas cada uma delas muito curtas, como se fossem dardos lançados com uma espécie de rapidez repentina, para que aquela atenção vigilante e ereta da mente que na oração é muito necessária fosse desperdiçada ou entorpecida pela continuidade, se suas orações fossem poucas e longas... Aquelas orações às quais as mentes devotas adicionaram um tipo penetrante de brevidade, também naquele aspecto que nós já mencionei, como também para melhor expressar aquela expedição rápida e rápida com a qual afeições ardentes, as próprias asas da oração, têm o prazer de apresentar nossos ternos no céu, ainda mais cedo do que nossas línguas podem imaginar para pronunciá-los ", etc.
+
+## Livro II, Capítulo XI
 
 Capítulo XI.
 
@@ -353,6 +397,8 @@ Por último, se algum dos monges mais jovens, seja por fervor de espírito ou po
 
 [704] Este arranjo pelo qual o Salmo foi cantado por uma única voz, enquanto o resto da congregação ouvia, é aquele que mais tarde foi conhecido pelo nome de Tractus.
 
+## Livro II, Capítulo XII
+
 Capítulo XII.
 
 Da razão pela qual enquanto um canta os Salmos os demais se sentam durante o culto; e do zelo com que depois prolongam as vigílias nas celas até ao amanhecer.
@@ -360,6 +406,8 @@ Da razão pela qual enquanto um canta os Salmos os demais se sentam durante o cu
 Este sistema canônico de doze Salmos, do qual falamos, eles facilitam com tal descanso corporal que quando, segundo seu costume, celebram esses serviços, todos eles, exceto aquele que se levanta no meio para recitar os Salmos, sentam-se em bancos muito baixos e seguem a voz do cantor com a maior atenção do coração. Pois eles estão tão cansados ​​de jejuar e trabalhar dia e noite que, a menos que fossem ajudados por tal indulgência, não conseguiriam passar por esse número em pé. Pois eles não permitem que nenhum tempo passe ociosamente sem a realização de algum trabalho, porque não apenas se esforçam com todo o zelo para fazer com as mãos aquelas coisas que podem ser feitas à luz do dia, mas também com mentes ansiosas examinam aqueles tipos de trabalho que nem mesmo a escuridão da noite pode impedir, pois afirmam que obterão uma visão muito mais profunda dos assuntos de contemplação espiritual com pureza de coração, quanto mais sinceramente se dedicarem ao trabalho e ao trabalho.
 
 E, portanto, eles consideram que uma permissão moderada de orações canônicas foi divinamente arranjada para que, para aqueles que são muito ardentes na fé, pudesse ser deixado espaço onde seu fluxo incansável de virtude pudesse se esgotar, e não obstante, nenhuma aversão surgiria em seus corpos cansados ​​e fracos devido a uma quantidade muito grande. E assim, quando os ofícios das orações canônicas forem devidamente concluídos, cada um retorna para sua própria cela (que ele mora sozinho, ou é permitido compartilhar com apenas alguém a quem a parceria no trabalho ou o treinamento em discipulado e aprendizado se juntou a ele, ou talvez a semelhança de caráter tenha feito seu companheiro), e novamente eles oferecem com maior seriedade o mesmo serviço de oração, como seu sacrifício particular especial, por assim dizer; nem nenhum deles se entrega mais ao descanso e ao sono até que o brilho do dia chegue, os trabalhos do dia sucedem aos trabalhos e meditações da noite.
+
+## Livro II, Capítulo XIII
 
 Capítulo XIII.
 
@@ -373,6 +421,8 @@ Em segundo lugar, porque, mesmo que não surja tal temida ilusão do diabo, mesm
 
 [706] Pinguetudo.
 
+## Livro II, Capítulo XIV
+
 Capítulo XIV.
 
 Da forma como se dedicam nas suas celas igualmente ao trabalho manual e à oração.
@@ -380,6 +430,8 @@ Da forma como se dedicam nas suas celas igualmente ao trabalho manual e à oraç
 E, portanto, eles complementam sua oração com o acréscimo de trabalho, para que o sono não os invada como ociosos. Pois assim como eles quase não desfrutam de qualquer momento de lazer, não há limites para suas meditações espirituais. Por praticarem igualmente as virtudes do corpo e da alma, equilibram o que é devido ao exterior com o que é proveitoso ao homem interior; [707] estabilizando os movimentos escorregadios do coração e as flutuações inconstantes dos pensamentos pelo peso do trabalho, como uma âncora forte e imóvel, pela qual a mutabilidade e as divagações do coração, fixadas dentro das barreiras da cela, podem ser encerradas em algum porto perfeitamente seguro, e assim, concentrado apenas na meditação espiritual e na vigilância sobre os pensamentos, pode não apenas proibir a mente vigilante de dar um consentimento precipitado a quaisquer sugestões malignas, mas também pode manter está a salvo de quaisquer pensamentos desnecessários e ociosos: de modo que não é fácil dizer o que depende do outro - quero dizer, se eles praticam seu trabalho manual incessante por causa da meditação espiritual, ou se é por causa de seus trabalhos contínuos que eles adquirem tão notável proficiência espiritual e luz de conhecimento.
 
 [707] Exterioris hominis estipendia cum emolumentis interioris exoequant.
+
+## Livro II, Capítulo XV
 
 Capítulo XV.
 
@@ -390,6 +442,8 @@ E assim, quando os Salmos terminam, e a assembléia diária, como dissemos acima
 Mas, se descobrirem que alguém que, desafiando a disciplina desta regra, cometeu qualquer uma dessas coisas proibidas, eles o declaram culpado de nenhuma falta leve, como contumaz e desobediente às regras; nem estão livres de suspeitas de conspirações e desígnios nefastos. E, a menos que expiem a sua falta através da penitência pública, quando todos os irmãos estiverem reunidos, nenhum deles poderá estar presente nas orações dos irmãos.
 
 [708] Post orationum missam. Veja nota em c. vii.
+
+## Livro II, Capítulo XVI
 
 Capítulo XVI.
 
@@ -403,6 +457,8 @@ E nisso ele cai em uma ofensa mais grave porque, unindo-se a ele em comunhão, s
 
 [710] 1 Cor. v.5; 1Tm. eu. 20.
 
+## Livro II, Capítulo XVII
+
 Capítulo XVII.
 
 Como aquele que os desperta para a oração deve chamá-los no horário habitual.
@@ -410,6 +466,8 @@ Como aquele que os desperta para a oração deve chamá-los no horário habitual
 Mas aquele a quem foi confiado o ofício de convocar a assembléia religiosa e o cuidado do serviço, não deve presumir acordar irregularmente os irmãos para suas vigílias diárias, como lhe agrada, ou quando ele pode acordar durante a noite, ou como o acidente de seu próprio sono ou insônia pode incliná-lo. Mas, embora o hábito diário possa obrigá-lo a acordar na hora habitual, ainda assim, verificando frequente e ansiosamente, pelo curso das estrelas, a hora certa para o serviço, ele deve convocá-los para o ofício de oração, para que não seja considerado descuidado de uma de duas maneiras: ou se, vencido pelo sono, ele deixa passar a hora apropriada da noite, ou se, querendo ir para a cama e impaciente por seu sono, ele o antecipa, e assim pode ser pensado como tendo garantido seu próprio repouso em vez de atender ao espiritual. escritório e o resto de todos os outros. [711]
 
 [711] A regra de S. Bento é igualmente cuidadosa para que os irmãos não durmam demais. Veja c. xii. e xlvii.
+
+## Livro II, Capítulo XVIII
 
 Capítulo XVIII.
 
@@ -425,9 +483,11 @@ Isto também devemos saber: desde a noite de sábado que precede o domingo, (712
 
 [715] Cf. as Conferências XXI. xii.
 
-Livro III.
+# Livro III.
 
 Do Sistema Canônico das Orações Diárias e Salmos.
+
+## Livro III, Capítulo I
 
 Capítulo I.
 
@@ -436,6 +496,8 @@ Dos cultos da terceira, sexta e nona horas, que são observados nas regiões da 
 O sistema noturno de orações e salmos observado em todo o Egito foi, creio eu, com a ajuda de Deus, explicado até onde nossa frágil capacidade foi capaz; e agora devemos falar dos serviços de Tierce, Sext e None, de acordo com a regra dos mosteiros da Palestina e da Mesopotâmia, (716) como dissemos no Prefácio, e devemos moderar pelos costumes destes a perfeição e o rigor inimitável da disciplina dos egípcios.
 
 [716] Segundo S. Jerônimo, Hilarion foi o primeiro a introduzir a vida monástica na Palestina (Vita Hilar.). Seu trabalho foi continuado por seu companheiro e aluno Hésicas e Epifânio, mais tarde bispo de Salamina, em Chipre. Na Ásia Menor, S. Basílio foi o maior organizador do monaquismo, embora, como ele nos conta, já houvesse muitos monges, não só no Egito, mas também na Palestina, na Celosíria e na Mesopotâmia (Ep. ccxxiii.). Veja também sobre os primeiros monges da Palestina e do Oriente, Sozomen, H. E., Livro VI., cc. xxxii.-xxxv.
+
+## Livro III, Capítulo II
 
 Capítulo II.
 
@@ -446,6 +508,8 @@ Pois entre eles (ou seja, os egípcios), esses ofícios que somos ensinados a pr
 [717] A comunhão do sábado (além da de quarta e sexta-feira, bem como do domingo) é também mencionada por S. Basílio (Ep. xciii.), e cf. o Quadragésimo Nono Cânon do Concílio de Laodicaea (cerca de 360 ​​d.C.): "Durante a Quaresma o pão não será oferecido exceto no sábado e no domingo." No Ocidente não há vestígios de uma celebração especial da Sagrada Comunhão no sábado. A hora terceira era o horário normal para a Sagrada Comunhão, como pode ser visto no decreto (falsamente) atribuído ao Papa Telésforo (127-138 d.C.), no Liber Pontificalis: "Ut nullus ante horam tertiam sacrificium offere præsumeret", e muitos outros testemunhos.
 
 [718] Sal. liii. (liv.) 8; cxviii. (cxix.) 108.
+
+## Livro III, Capítulo III
 
 Capítulo III.
 
@@ -499,6 +563,8 @@ Mas para nós, amados irmãos, além das horas de oração observadas antigament
 
 Eles O levam para baixo na maré Véspera, Na sepultura nas Completas jazem; Que daí em diante ordena que Sua Igreja observe sempre Suas sete horas.
 
+## Livro III, Capítulo IV
+
 Capítulo IV.
 
 Como o escritório de Mattin não foi nomeado por uma tradição antiga, mas foi iniciado em nossos dias por uma razão definida.
@@ -517,6 +583,8 @@ E esta forma, embora possa parecer ter surgido de um acidente e ter sido designa
 
 [738] A introdução do Prime parece ter sido muito gradual, mesmo no Ocidente, pois, embora um ofício para ele seja prescrito em S. Bento (c. xix.), ainda não há menção dele na Regra de César de Arles para monges, nem na de Isidoro de Sevilha, e é omitido por Cassiodoro em sua enumeração das sete horas observadas pelos monges. Depois de Bento, o próximo a ser mencionado parece ser Aurélio, um sucessor de César em Arles, e aos poucos ele abriu caminho para a adoção universal no Ocidente. Na Igreja Grega, o ofício para isso é dito continuamente com Laudes (to orthron).
 
+## Livro III, Capítulo V
+
 Capítulo V.
 
 Como não deveriam voltar para a cama depois das orações de Mattin.
@@ -528,6 +596,8 @@ E para evitar isso, os egípcios, especialmente porque têm o hábito de se leva
 [739] Livro II. c. xiii.
 
 [740] Senhorita.
+
+## Livro III, Capítulo VI
 
 Capítulo VI.
 
@@ -541,6 +611,8 @@ eu. (ho tes exomologeseos psalmos) era regularmente cantado depois de Mattins qu
 
 [742] Senhorita.
 
+## Livro III, Capítulo VII
+
 Capítulo VII.
 
 Como quem não chega à oração diária antes do final do primeiro Salmo não pode entrar no Oratório; mas em Noturnos uma chegada tardia até o final do segundo Salmo pode ser ignorada.
@@ -550,6 +622,8 @@ Mas quem em Tierce, Sext ou None não veio orar antes de começar e terminar o S
 [743] Congregationis missam.
 
 [744] A Regra de S. Bento tem disposições semelhantes, permitindo a chegada tardia às Mattins até ao Glória depois do Venite (o segundo Salmo, visto que é precedido pelo Sal. iii.), e nos outros serviços até ao Glória depois do primeiro Salmo. "Se alguém chegar depois disso, não deverá ocupar seu lugar habitual no coro, mas permanecer em último lugar, ou ocupar qualquer lugar que o Abade possa ter designado para aqueles que são culpados de negligência semelhante, para que possa ser visto por todos; e neste lugar ele deve permanecer até que tenha feito satisfação pública, no final do ofício. Consideramos necessário", prossegue a Regra, "colocar tais infratores assim separados, para que, estando assim expostos à vista de todos os seus irmãos, eles podem ser envergonhados por um senso de dever. Além disso, se lhes fosse permitido permanecer fora da igreja, eles poderiam sentar-se à vontade, ou passar o tempo conversando, ou talvez retornar ao dormitório e preparar-se para dormir e, assim, expor-se às tentações do inimigo. Regra de S. Bento, c. xliii.
+
+## Livro III, Capítulo VIII
 
 Capítulo VIII.
 
@@ -571,6 +645,8 @@ Por isso as vigílias devem ser compensadas com maior interesse se forem prolong
 
 Veja Isidoro, De Offic., i. 8; e compare o Dicionário de Antiguidades Cristãs, Vol. II. pág. 1745; e Bingham, Antiguidades, Livro XIV. c. eu. Um terceiro método já foi descrito por Cassiano no Livro II. c. xii.; a saber, aquele chamado Tractus, onde o Salmo foi executado por uma única voz, enquanto todo o resto da congregação ouvia.
 
+## Livro III, Capítulo IX
+
 Capítulo IX.
 
 A razão pela qual uma Vigília é marcada no amanhecer do sábado, e por que uma dispensa do jejum é desfrutada no sábado em todo o Oriente.
@@ -582,6 +658,8 @@ E em todo o Oriente está estabelecido, desde o tempo da pregação dos Apóstol
 [750] O sábado, assim como o domingo, foi considerado por muito tempo como uma festa no Oriente e, de fato, originalmente também na maioria das igrejas do Ocidente. Veja o Apóstolo. Const. II. lix. 1; VIII. xxxiii. 1. Após. Cânones lxvi.; Concílio de Laodicéia, Cânones xvi., xlix., li.
 
 [751] Ecl. xii. 2.
+
+## Livro III, Capítulo X
 
 Capítulo X.
 
@@ -595,6 +673,8 @@ Mas algumas pessoas em alguns países do Ocidente, e especialmente na cidade, (7
 
 "Est quidem et hæc opinio plurimorum, quamvis eam perhibeant esse falsam plerique Romani, quod Apostolus Petrus cum Simone Mago die dominico certaturo, propter ipsum magnæ tentationis periculum, pridie cum ejusdem urbis ecclesia jejunaverit, et consecuto tam prospero gloriosoque sucessou, eundem morem tenuerit, eumque imitatæ sunt nonnullæ Occidentis ecclesiæ." Cf. também Agostinho, Ep. ad Januário, liv.
 
+## Livro III, Capítulo XI
+
 Capítulo XI.
 
 Dos pontos em que o culto realizado no domingo difere do que é habitual nos outros dias.
@@ -605,6 +685,8 @@ Mas devemos saber também que no domingo apenas um ofício (754) é celebrado an
 
 [755] Coleta. Esta palavra, da qual possivelmente deriva a nossa palavra “Coletar”, é usada para designar uma assembléia para adoração na Vulgata em Lev. xxiii. 36; Deut. XVI. 8; 2 Crô. vii. 9; Não. viii. 18: e compare a frase “Ad Collectam”, no Sacramentário de Gregório para a Festa da Purificação.
 
+## Livro III, Capítulo XII
+
 Capítulo XII.
 
 Dos dias em que se oferece a ceia aos irmãos, não se recita um Salmo quando se reúnem para as refeições, como é habitual no jantar.
@@ -613,9 +695,11 @@ Por último, também, naqueles dias - isto é, no sábado e no domingo - e nos d
 
 [756] In sollemnibus prandiis. A frase deve aqui referir-se ao jantar em dias normais (cf. solenitetem ciborum, "sua comida habitual", Livro IV. c. xxi.). Entre os primeiros monges, era costume normalmente fazer apenas uma refeição por dia nos dias de jejum (ou seja, quarta e sexta-feira); isso foi à hora nona; nos outros dias, no sexto (ou seja, meio-dia). Cf. as Conferências XXI. c. xxiii. Nas festas (ou seja, sábado, domingo e dias santos), além do almoço, também era permitida a ceia. E nesses dias, como aprendemos na passagem que temos diante de nós, a graça comum antes e depois da carne foi encurtada pela omissão dos Salmos habituais em outros momentos incluídos nela. Sobre as refeições dos monges, cf. Prefácio de S. Jerônimo à Regra de Pacômio e à Regra de S. Bento, cc. xxxix.-xli., o primeiro nos diz que, exceto às quartas e sextas-feiras, o jantar era ao meio-dia, e também era posta uma mesa para trabalhadores, velhos e crianças, e (aparentemente) para todos, no auge do verão. Para o uso dos Salmos na graça, consulte Clemente de Alexandria, Poedag. II. 4. 44; Stromateis VII. vii. 49.
 
-Livro IV.
+# Livro IV.
 
 Dos Institutos dos Renunciantes.
+
+## Livro IV, Capítulo I
 
 Capítulo I.
 
@@ -625,11 +709,15 @@ Do sistema canônico de Salmos e orações que deve ser observado nos serviços 
 
 [757] Tabenna, ou Tabennæ, era uma ilha no Nilo, onde foi fundado um próspero mosteiro por Pacômio c. 330 d.C. De Pacômio há um aviso em Sozomen H. E. Livro III. c. xiv., e sua Regra foi traduzida para o latim, com prefácio de S. Jerônimo que menciona sua fama no Ep. cxxvii. Há uma Vida de Pacômio dada por Rosweyde (Vitæ Patrum), que se diz ser uma tradução de uma obra de um contemporâneo seu.
 
+## Livro IV, Capítulo II
+
 Capítulo II.
 
 Da forma como entre eles os homens permanecem nos mosteiros até à extrema velhice.
 
 E penso que antes de mais nada devemos abordar a sua incansável perseverança, humildade e sujeição - como dura tanto tempo, e por que sistema é formado, através do qual permanecem nos mosteiros até serem dobrados pela velhice; pois é tão grande que não podemos nos lembrar de ninguém que se juntou aos nossos mosteiros mantendo-o ininterrupto mesmo por um ano: de modo que quando tivermos visto o início de sua renúncia ao mundo, compreenderemos como aconteceu que, a partir de tal começo, eles alcançaram tal altura de perfeição.
+
+## Livro IV, Capítulo III
 
 Capítulo III.
 
@@ -641,11 +729,15 @@ Pois eles sabem que ele não pode permanecer muito tempo sob a disciplina do mos
 
 [758] Cf. a Regra de Pacômio, c. xxvi .: "Se alguém chegar à porta do mosteiro querendo renunciar ao mundo e se juntar ao número dos irmãos, ele não será autorizado a entrar, mas o Abade do mosteiro deve primeiro ser avisado, e ele deverá permanecer por alguns dias fora, diante do portão, e aprenderá a Oração do Pai Nosso e todos os Salmos que puder aprender, e deverá diligentemente dar provas de si mesmo de que não fez nada de errado e fugiu em apuros durante o tempo, e que ele não está no poder de ninguém, e que ele pode abandonar seus parentes e desconsiderar suas propriedades. E se eles perceberem que ele é apto para tudo, então ele deverá aprender o resto das regras do mosteiro, - o que ele deve fazer, a quem deve obedecer, etc.; e, finalmente, ele será admitido. Veja também a Regra de S. Bento, c. lviii., que tem praticamente o mesmo efeito, e Regras Monásticas Mais Longas de S. Basílio, Q. x.
 
+## Livro IV, Capítulo IV
+
 Capítulo IV.
 
 A razão pela qual aqueles que são recebidos no mosteiro não podem trazer nada consigo.
 
 E por estas razões eles não concordam em tirar-lhe dinheiro para ser usado até mesmo para o bem do mosteiro: Primeiro, no caso de ele ficar cheio de arrogância, devido a esta oferta, e assim não se dignar a colocar-se no mesmo nível dos irmãos mais pobres; e em seguida, para que ele não deixe de se rebaixar à humildade de Cristo, por causa de seu orgulho, e assim, quando não puder resistir à disciplina do mosteiro, deixe-o, e depois, quando se acalmar, queira, com um espírito ruim, receber e recuperar - não sem perda para o mosteiro - o que ele havia contribuído nos primeiros dias de sua renúncia, quando estava cheio de fervor espiritual. E que esta regra deve ser sempre mantida, eles têm sido frequentemente ensinados por muitos exemplos. Pois em alguns mosteiros onde não são tão cuidadosos, alguns que foram recebidos sem reservas tentaram posteriormente, de maneira muito sacrilegista, exigir o retorno daquilo com que contribuíram e que foi gasto na obra de Deus.
+
+## Livro IV, Capítulo V
 
 Capítulo V.
 
@@ -657,6 +749,8 @@ Portanto, cada um, ao ser admitido, é despojado de todos os seus bens anteriore
 
 [759] Assim, a Regra de Pacômio (c. xxvi.) ordena que, na admissão de um monge, "eles o despojem de suas vestes seculares e coloquem nele as vestes dos monges"; e a de S. Bento (c. lviii.), “Ele será então vestido com o hábito religioso, e suas roupas seculares depositadas no guarda-roupa, para que se, por instigação do diabo, ele algum dia deixar o mosteiro, elas lhe serão devolvidas, e a vestimenta religiosa lhe será tirada”.
 
+## Livro IV, Capítulo VI
+
 Capítulo VI.
 
 Razão pela qual as roupas dos renunciantes com os quais ingressaram no mosteiro são preservadas pelo mordomo.
@@ -664,6 +758,8 @@ Razão pela qual as roupas dos renunciantes com os quais ingressaram no mosteiro
 Mas essas roupas, que ele deixou de lado, são entregues aos cuidados do mordomo e guardadas até que, por meio de diferentes tipos de tentações e provações, eles possam reconhecer a excelência de seu progresso, vida e resistência. E se eles virem que ele pode continuar nisso com o passar do tempo, e permanecer naquele fervor com que começou, eles os entregam aos pobres. Mas se descobrirem que ele foi culpado de qualquer culpa de murmuração, ou mesmo da menor desobediência, então arrancam-lhe as vestes do mosteiro em que estava vestido, vestem-no novamente com as roupas velhas que foram confiscadas e mandam-no embora. [760] Pois não é certo que ele vá embora com aqueles que recebeu, nem permitem que ninguém mais se vista com eles se o viram uma vez esfriar em relação às regras de sua instituição. Por isso, também, a oportunidade de sair abertamente não é dada a ninguém, a menos que ele escape como um escravo fugitivo, aproveitando as sombras mais densas da noite, ou seja julgado indigno desta ordem e profissão e deixe de lado a vestimenta do mosteiro e seja expulso com vergonha e desgraça diante de todos os irmãos.
 
 [760] Ver a citação da Regra de S. Bento na nota do último capítulo.
+
+## Livro IV, Capítulo VII
 
 Capítulo VII.
 
@@ -675,11 +771,15 @@ Quando, então, alguém foi recebido e provado por aquela persistência de que f
 
 [762] Cfr. Êxodo. XVIII. 25. O ofício de "Decano" (Decanus) aqui mencionado por Cassiano, também é referido por Agostinho (De Mor. Eccl. xxxi.) e Jerônimo (Ep. xxii. ad Eustoch.), e reconhecido pela Regra de S. Bento, c. xxi., onde são dadas as instruções para sua nomeação.
 
+## Livro IV, Capítulo VIII
+
 Capítulo VIII.
 
 Das práticas nas quais os juniores são exercitados pela primeira vez, para que possam se tornar proficientes na superação de todos os seus desejos.
 
 E sua ansiedade e a parte principal de sua instrução - por meio da qual os juniores que lhe foram trazidos poderão, no devido tempo, atingir as maiores alturas da perfeição - será ensiná-lo primeiro a conquistar seus próprios desejos; e, praticando-o ansiosamente e diligentemente nisso, ele irá, de propósito, dar-lhe ordens que ele saiba serem contrárias ao seu gosto; pois, ensinados por muitos exemplos, dizem que um monge, e especialmente os mais jovens, não pode refrear o desejo de sua concupiscência, a menos que primeiro tenha aprendido, pela obediência, a mortificar seus desejos. E assim eles estabelecem que o homem que não aprendeu primeiro a superar seus desejos não pode acabar com a raiva ou o mau humor, ou o espírito de fornicação; nem pode ele preservar a verdadeira humildade de coração, ou a unidade duradoura com os irmãos, ou uma concórdia estável e contínua; nem permanecer por qualquer período de tempo no mosteiro.
+
+## Livro IV, Capítulo IX
 
 Capítulo IX.
 
@@ -690,6 +790,8 @@ Por meio dessas práticas, então, eles se apressam em impressionar e instruir a
 Pois eles apresentam isso como uma prova universal e clara de que um pensamento vem do diabo se tivermos vergonha de revelá-lo aos mais velhos. [763]
 
 [763] Compare as Conferências, Livro II. c. x., onde Cassiano retorna ao mesmo assunto. Uma regra semelhante de que os irmãos devem revelar todos os segredos de seus corações ao seu superior é dada por S. Basílio nas Regras Monásticas Mais Longas, Q. xxvi., e na Regra de S. Isaías (cc. vi., xliii.), impresso no Codex Regularum de Holsten, Vol. EU.
+
+## Livro IV, Capítulo X
 
 Capítulo X.
 
@@ -703,6 +805,8 @@ Passamos agora aos outros regulamentos, ignorando todos os relatos daqueles que 
 
 [765] A Regra de S. Bento tem um capítulo que explica o que deve ser feito se um irmão for ordenado a realizar impossibilidades (c. lxviii.). "Se um irmão for ordenado a fazer algo que seja difícil, ou mesmo impossível, que ele receba a ordem com toda mansidão e obediência; entretanto, se ele perceber que não está totalmente à altura da tarefa que lhe foi confiada, que ele apresente o assunto ao seu superior com calma e respeito, sem orgulho, resistência ou contradição. Se o superior, depois de ouvir o que ele tem a dizer, ainda insistir na execução da ordem, que o mais jovem seja persuadido de que é para seu bem espiritual, e conseqüentemente confiando em Com a ajuda de Deus, deixe-o, por Seu amor, empreender o trabalho."
 
+## Livro IV, Capítulo XI
+
 Capítulo XI.
 
 O tipo de comida que é considerada a maior iguaria por eles.
@@ -710,6 +814,8 @@ O tipo de comida que é considerada a maior iguaria por eles.
 Deixo também de lado aquele difícil e sublime tipo de autocontrole, pelo qual é considerado o maior luxo se a planta chamada cherlock, (766) preparada com sal e embebida em água, for colocada na mesa para a refeição dos irmãos; e muitas outras coisas como esta, que neste país nem o clima nem a fraqueza da nossa constituição permitiriam. E só cuidarei daqueles assuntos que não podem ser interferidos por qualquer fraqueza da carne ou situação local, se nenhuma fraqueza de espírito ou frieza de espírito os livrar.
 
 [766] Labsanion. Cf. abaixo, c. xxiii., onde o cherlock é novamente mencionado, juntamente com outras iguarias (!) dos egípcios.
+
+## Livro IV, Capítulo XII
 
 Capítulo XII.
 
@@ -719,6 +825,8 @@ E assim, sentados em suas celas e dedicando suas energias igualmente ao trabalho
 
 [767] Cf. a Regra de S. Bento, c. v.: “Aqueles que escolhem trilhar o caminho que leva à vida eterna imediatamente abandonam suas ocupações privadas ao chamado da obediência e, renunciando à sua própria vontade, a ponto de lançar fora de suas mãos o que quer que esteja inacabado, apressam-se em executar as ordens de seus superiores”, etc.
 
+## Livro IV, Capítulo XIII
+
 Capítulo XIII.
 
 Quão errado é considerado alguém dizer que qualquer coisa, por mais insignificante que seja, é sua.
@@ -727,6 +835,8 @@ Entre suas outras práticas, imagino que seja desnecessário até mesmo menciona
 
 [768] Psiathium. As esteiras de junco que serviam de assento durante o dia e de cama à noite para os monges. Ver Livro V. xxxv., e as Conferências I. xxiii.; XV. eu.; XVII. III.; XVIII. xii. São Jerônimo menciona-o no prefácio da Regra de Pacômio como um dos poucos artigos contidos nas celas dos monges de Tabenna. “Eles não têm nada em suas celas, exceto uma esteira e o que está descrito abaixo: dois lebitonários, uma espécie de vestimenta sem mangas que os monges egípcios usam (o colobium, ou camisa), uma velha para dormir ou trabalhar, uma vestimenta de linho e dois capuzes, uma pele de carneiro, um cinto de linho, sapatos e um cajado.”
 
+## Livro IV, Capítulo XIV
+
 Capítulo XIV.
 
 Como, mesmo que uma grande soma de dinheiro seja acumulada pelo trabalho de cada um, ainda assim ninguém pode aventurar-se a exceder o limite moderado do que é considerado adequado.
@@ -734,6 +844,8 @@ Como, mesmo que uma grande soma de dinheiro seja acumulada pelo trabalho de cada
 E embora cada um deles possa trazer diariamente, com seu trabalho e esforço, um retorno tão grande ao mosteiro que ele poderia não apenas satisfazer suas próprias demandas moderadas, mas também suprir abundantemente as necessidades de muitos, ainda assim ele não é de forma alguma arrogante, nem se vangloria por causa de seu trabalho e deste grande ganho de seu trabalho, mas, exceto dois biscoitos, (769) que são vendidos lá por apenas três centavos, ninguém pensa que ele tem direito a mais alguma coisa. E entre eles não há nada (e tenho vergonha de dizer isso, e gostaria sinceramente que fosse desconhecido em nossos próprios mosteiros) que seja reivindicado por qualquer um deles, não direi em atos, mas até mesmo em pensamento, como sua propriedade especial. E embora ele acredite que todo o celeiro do mosteiro constitui a sua substância, e, como senhor de tudo, dedica todo o seu cuidado e energia a tudo isso, ainda assim, a fim de manter aquele excelente estado de carência e pobreza que ele garantiu e que ele se esforça para preservar até o fim em perfeição ininterrupta, ele se considera um estrangeiro e um estranho para todos eles, de modo que ele se comporta como um estranho e um peregrino neste mundo, e se considera um aluno do mosteiro e um servo em vez de imaginando que ele é senhor e mestre de qualquer coisa.
 
 [769] Paxamatium, um biscoito. A palavra vem do grego paxamadion e diz-se que deriva do nome de um padeiro, Paxamos (ver Liddell e Scott, c. v.). Estes biscoitos constituíam uma parte importante da dieta dos monges egípcios, como podemos ver nas Conferências, onde são frequentemente mencionados; por exemplo, II. xi, xix., xxiv., xxvi.; XII. xv.; XIX. 4.
+
+## Livro IV, Capítulo XV
 
 Capítulo XV.
 
@@ -744,6 +856,8 @@ A isto, o que diremos nós, criaturas miseráveis, que embora vivamos em Coenobi
 Mas, ignorando as nossas faltas e tratando com silêncio aquelas coisas das quais é uma vergonha até falar, de acordo com este ditado: “Minha boca não falará as obras dos homens”, (770) vamos, de acordo com o método de nossa narração que começamos, proceder às virtudes que são praticadas entre eles, e que devemos almejar com toda a seriedade; e vamos estabelecer breve e apressadamente as regras e sistemas reais para que depois, chegando a alguns dos feitos e atos dos mais velhos que nos propomos cuidadosamente preservar para lembrança, possamos apoiar pelos testemunhos mais fortes o que estabelecemos em nosso tratado, e ainda confirmar tudo o que dissemos por exemplos e exemplos da vida.
 
 [770] Sal. XVI. (xvii.) 4.
+
+## Livro IV, Capítulo XVI
 
 Capítulo XVI.
 
@@ -759,6 +873,8 @@ Se alguém quebrar acidentalmente uma jarra de barro (que chamam de "baucalis"),
 
 Será então admitido no coro, se o Abade assim o ordenar, e aí ocupará o lugar que lhe designar; mas não tenha a pretensão de entoar um Salmo, ler uma lição ou cumprir qualquer tarefa semelhante, sem a permissão especial do Abade. Além disso, prostrar-se-á no seu lugar no coro no final de cada ofício, até que o Abade lhe diga para interromper esta penitência. Aqueles que por faltas leves forem excluídos apenas da mesa comum, farão satisfação na igreja de acordo com as instruções do Abade, e continuarão a fazê-lo até que ele lhes dê a sua bênção e lhes diga que fizeram expiação suficiente.
 
+## Livro IV, Capítulo XVII
+
 Capítulo XVII.
 
 Daqueles que introduziram o plano de que as sagradas Lições deveriam ser lidas na Cenóbia enquanto os irmãos comem, e do estrito silêncio que é mantido entre os egípcios.
@@ -773,6 +889,8 @@ Os irmãos ajudarão-se mutuamente no que for necessário em matéria de comida 
 
 [774] Então Pacômio (c. XXIX.). Enquanto comem, sentar-se-ão nos seus devidos lugares e cobrirão a cabeça.
 
+## Livro IV, Capítulo XVIII
+
 Capítulo XVIII.
 
 Como é contra a regra alguém levar qualquer coisa para comer ou beber, exceto na mesa comum.
@@ -780,6 +898,8 @@ Como é contra a regra alguém levar qualquer coisa para comer ou beber, exceto 
 Entre as refeições regulares em comum, eles tomam especial cuidado para que ninguém presuma satisfazer seu paladar com qualquer alimento: [775] para que, quando caminham casualmente por jardins ou pomares, quando as frutas penduradas sedutoramente nas árvores não apenas batam em seus peitos ao passarem, mas também estejam caídas no chão e se oferecendo para serem pisoteadas, e (como estão todas prontas para serem colhidas) possam facilmente atrair aqueles que as vêem para satisfazer seu apetite, e pela oportunidade que lhes é oferecida e pela quantidade do fruto, para excitar até os mais severos e abstêmios a ansiar por ele; ainda assim, eles consideram errado não apenas provar uma única fruta, mas até mesmo tocar uma com a mão, exceto aquela que é colocada abertamente na mesa para a refeição comum de todos, e fornecida publicamente pelo catering do mordomo através do serviço dos irmãos, para seu desfrute.
 
 [775] Da mesma forma, encontramos na Regra de Pacómio que ninguém pode guardar na sua cela qualquer alimento além do que recebe do mordomo (c. lxxix.): e a Regra Beneditina também diz: "Ninguém presuma comer ou beber fora do horário normal das refeições" (c. xliii). Cf. também a Regra de Pachomius cc. lxxv. e lxxviii., Regras Monásticas mais longas de S. Basílio Q. xv., Apsato bromaton para kairon; epi pleiston tes hemeras apositos esto, a Regra de Aureliano (c. lii.), a de Isidoro (c. xiii.), etc.
+
+## Livro IV, Capítulo XIX
 
 Capítulo XIX.
 
@@ -793,6 +913,8 @@ E que limite há para esta disciplina, e que fidelidade e cuidado há em mantê-
 
 [776] Os oficiais semanais aqui mencionados eram chamados de "Hebdomadarii" (veja o próximo capítulo). De acordo com a maioria das regras, seus deveres incluíam cozinhar, servir e ler durante as refeições. Eles são mencionados no prefácio de São Jerônimo à Regra de Pacômio (cf. também Ep. xxii. ad Eustochium), mas pareceria pelo que Cassiano diz abaixo em c. XXII. que no Egito o cargo de cozinheiro era atribuído a um irmão e não assumido por todos. De acordo com Cassiano, eles assumiram o cargo na manhã de segunda-feira, mas o beneditino (c. xxxv.) e outras regras falam deles como iniciando suas funções no domingo de manhã. O costume de lavar os pés dos irmãos, que Cassiano aqui descreve, também é mencionado por S. Bento. eu. c.
 
+## Livro IV, Capítulo XX
+
 Capítulo XX.
 
 Dos três feijões de lentilha que o Administrador encontrou.
@@ -803,6 +925,8 @@ E cuidam e organizam tudo com grande fidelidade, mesmo no caso de coisas conside
 
 [777] Hebdomadário.
 
+## Livro IV, Capítulo XXI
+
 Capítulo XXI.
 
 Do serviço espontâneo de alguns irmãos.
@@ -812,6 +936,8 @@ Fomos informados de irmãos em cuja semana havia tanta escassez de madeira que n
 [778] Xerofagia (xerofagia), "alimento seco", diferenciado do que é cru (omofagia) no próximo capítulo. Cf. para a palavra, Tertuliano sobre o jejum c. eu. e xvii.
 
 [779] Isto mostra que Cassiano escreve aqui sobre os monges da Palestina, não sobre os do Egito, que (de acordo com o próximo capítulo) tinham um cozinheiro permanente. Há uma outra alusão e descrição deste deserto na Conferência VI. eu.
+
+## Livro IV, Capítulo XXII
 
 Capítulo XXII.
 
@@ -825,6 +951,8 @@ Estas coisas foram contadas de acordo com o sistema, como observamos antes, de t
 
 [782] Moenomenia (Petschenig) ou Moenidia (Gazæus). A palavra vem do grego mainomena ou mainidion, dimin. do maine, um pequeno peixe salgado.
 
+## Livro IV, Capítulo XXIII
+
 Capítulo XXIII.
 
 A obediência do Abade João, pela qual ele foi exaltado até à graça da profecia.
@@ -836,6 +964,8 @@ Pois embora, como dissemos, ele vivesse nas partes mais remotas da Tebaida, aind
 [783] Lycon ou Lycopolis na Tebaida é o moderno El Syout na margem oeste do Nilo, SE de Hermópolis (= Minieh).
 
 [784] Este João de Licópolis foi um dos eremitas mais célebres do século IV. Originalmente carpinteiro, ele se retirou aos 25 anos para o deserto e, após a morte de seu instrutor, estabeleceu-se perto de Licópolis. Aqui, como nos conta Cassiano, ele recebeu como recompensa por sua obediência o dom de profecia, e foi consultado por multidões que vieram a ele para esse propósito e, entre outros, pelo imperador Teodósio, a quem ele predisse (1) sua vitória sobre o usurpador Máximo (388 d.C.), e (2) seu sucesso contra Eugênio em 388 d.C. 395. Ele é mencionado novamente por Cassiano nas Conferências I. xxi., XXIV. xxvi., etc. Um relato completo dele é dado por Rufino em sua história dos monges c. eu. e por Paládio na História Lausíaca 43-60; ele também é mencionado por Augustine De Civitate Dei, Livro V. c. xxvi, De Cura pro mortius gerenda, c. xvii., e Jerônimo Ep. cxxxiii. ad Ctesiphontem, bem como por Theodoret H. E. V. xxiv, e Sozomen H. E. VI. xxviii.
+
+## Livro IV, Capítulo XXIV
 
 Capítulo XXIV.
 
@@ -851,6 +981,8 @@ E quando o velho observou seu zelo às escondidas, sem dizer nada por vários di
 
 [785] Uma história um tanto semelhante é contada por Sulpício Severo (Dialogi I. c. xiii.) de um monge egípcio, só que nesse caso a história termina de maneira mais satisfatória, pois no terceiro ano o galho criou raízes e brotou!
 
+## Livro IV, Capítulo XXV
+
 Capítulo XXV.
 
 Do único vaso de óleo jogado fora pelo Abade João por ordem de seu superior.
@@ -859,11 +991,15 @@ Assim, os jovens, treinados por exercícios deste tipo, aumentavam diariamente n
 
 [786] Lentículas; a palavra usada para uma botija de azeite na Vulgata. 1 Sam. x. 1; 2 Reis ix. 1, 3.
 
+## Livro IV, Capítulo XXVI
+
 Capítulo XXVI.
 
 Como o abade João obedeceu ao seu superior tentando rolar uma pedra enorme, que um grande número de homens não conseguiu mover.
 
 Novamente, quando alguns outros estavam ansiosos para serem edificados pelo exemplo de sua obediência, o presbítero o chamou e disse: “João, corra e role essa pedra para cá o mais rápido possível”; e ele imediatamente, aplicando ora o pescoço, ora todo o corpo, tentou com todas as suas forças e forças rolar uma pedra enorme que uma grande multidão de homens não seria capaz de mover, de modo que não apenas suas roupas ficaram saturadas com o suor de seus membros, mas a própria pedra foi molhada por seu pescoço; também nisso nunca pesando a impossibilidade do comando e da ação, por reverência ao velho e à simplicidade não fingida de seu serviço, pois acreditava implicitamente que o velho não poderia ordená-lo a fazer nada em vão ou sem razão.
+
+## Livro IV, Capítulo XXVII
 
 Capítulo XXVII.
 
@@ -879,17 +1015,23 @@ Pois ele não o considerava mais como seu próprio filho, pois o havia oferecido
 
 [788] Affectionem....charitatem.--Petschenig. O texto de Gazaeus lê o ablativo.
 
+## Livro IV, Capítulo XXVIII
+
 Capítulo XXVIII.
 
 Como foi revelado ao Abade a respeito de Patermúcio que ele havia cometido o feito de Abraão; e como, quando o mesmo abade morreu, Patermúcio sucedeu no cargo do mosteiro.
 
 E a fé e a devoção deste homem eram tão aceitáveis ​​a Deus que foram imediatamente aprovadas por um testemunho divino. Pois foi imediatamente revelado ao Superior que por esta sua obediência ele havia copiado a escritura do patriarca Abraão. E quando pouco depois o mesmo Abade do mosteiro partiu desta vida para Cristo, ele o preferiu a todos os irmãos, e o deixou como seu sucessor e como Abade do mosteiro.
 
+## Livro IV, Capítulo XXIX
+
 Capítulo XXIX.
 
 Da obediência de um irmão que, a pedido do Abade, transportava em público dez cestos e os vendia a retalho.
 
 Também não nos calaremos sobre um irmão que conhecíamos, que pertencia a uma família elevada de acordo com a posição deste mundo, pois nasceu de um pai que era conde e extremamente rico, e foi bem criado com uma educação liberal. Este homem, depois de deixar os pais e fugir para o mosteiro, para provar a humildade da sua disposição e o ardor da sua fé, foi imediatamente ordenado pelo seu superior a carregar os seus ombros com dez cestos (que não havia necessidade de vender publicamente), e a vendê-los pelas ruas para venda: esta condição foi imposta, para que ele pudesse ser mantido por mais tempo no trabalho, a saber: que se alguém tivesse a oportunidade de querer comprá-los todos juntos, ele não deveria permitir isso, mas deveria vendê-los para compradores separadamente. E ele fez isso com o máximo zelo, e pisoteando toda vergonha e confusão, por amor a Cristo e por amor ao Seu Nome, ele colocou os cestos em seus ombros e os vendeu no varejo pelo preço fixado e trouxe de volta o dinheiro para o mosteiro; nem um pouco chateado com a novidade de um dever tão mesquinho e incomum, e sem prestar atenção à indignidade da coisa e ao esplendor de seu nascimento, e à desgraça da venda, pois pretendia obter através da graça da obediência aquela humildade de Cristo que é a verdadeira nobreza.
+
+## Livro IV, Capítulo XXX
 
 Capítulo XXX.
 
@@ -907,6 +1049,8 @@ E todos os irmãos que lhe pediram perdão pela sua ignorância anterior, porque
 
 [790] Panephysis é descrito mais detalhadamente nas Conferências VII. xxvi.; XI. iii. É mencionado por Ptolomeu (IV. v. § 52), mas não por nenhum outro escritor antigo. Situava-se no Delta entre Champollion e o moderno Menzaleh.
 
+## Livro IV, Capítulo XXXI
+
 Capítulo XXXI.
 
 Como quando o Abade Pinufius foi trazido de volta ao seu mosteiro, ele permaneceu lá por um tempo e depois fugiu novamente para as regiões da Palestina Síria.
@@ -919,11 +1063,15 @@ E depois de ali ter parado por um momento, novamente foi tomado de saudade e des
 
 [793] S. Mat. 14.
 
+## Livro IV, Capítulo XXXII
+
 Capítulo XXXII.
 
 O encargo que o mesmo Abade Pinufius deu a um irmão que ele admitiu no seu mosteiro na nossa presença.
 
 Este velho, então, procuramos diligentemente no Egito porque tínhamos sido íntimos dele em nosso próprio mosteiro; e proponho inserir nesta minha obra uma exortação que ele fez na nossa presença a um irmão que admitiu no mosteiro, porque penso que pode ser útil. Você sabe, disse ele, que depois de ficar tantos dias deitado na entrada, hoje você será internado. E para começar você deve saber o motivo da dificuldade colocada em seu caminho. Pois pode ser de grande utilidade para você neste caminho em que você deseja entrar, se você compreender o método e abordar o serviço de Cristo de acordo, e como deveria.
+
+## Livro IV, Capítulo XXXIII
 
 Capítulo XXXIII.
 
@@ -934,6 +1082,8 @@ Pois assim como a glória ilimitada no futuro é prometida àqueles que servem f
 Portanto, você deve, em primeiro lugar, aprender a verdadeira razão da renúncia ao mundo e, quando tiver visto isso, poderá aprender mais claramente o que deve fazer, a partir da razão para isso.
 
 [794] Ecl. v. 4 (LXX.); Jer. xlviii. 10 (LXX.).
+
+## Livro IV, Capítulo XXXIV
 
 Capítulo XXXIV.
 
@@ -951,6 +1101,8 @@ A renúncia nada mais é do que a prova da cruz e da mortificação. E então vo
 
 [799] S. Mat. x. 38.
 
+## Livro IV, Capítulo XXXV
+
 Capítulo XXXV.
 
 Como o temor do Senhor é a nossa cruz.
@@ -960,6 +1112,8 @@ O temor do Senhor é a nossa cruz. Assim como aquele que é crucificado não tem
 [800] Elementos.
 
 [801] Elemento.
+
+## Livro IV, Capítulo XXXVI
 
 Capítulo XXXVI.
 
@@ -977,6 +1131,8 @@ Cuidado, portanto, para que a qualquer momento você não retome qualquer uma da
 
 [805] Cf. S. Matt. xviv. 13.
 
+## Livro IV, Capítulo XXXVII
+
 Capítulo XXXVII.
 
 Como o diabo sempre está à espreita do nosso fim, e como devemos vigiar continuamente sua cabeça. [806]
@@ -984,6 +1140,8 @@ Como o diabo sempre está à espreita do nosso fim, e como devemos vigiar contin
 Pois a serpente sutil está sempre "vigiando nosso calcanhar", isto é, está à espreita do fim e se esforça para nos fazer tropeçar até o fim de nossa vida. E, portanto, não servirá de nada ter começado bem e ter dado avidamente o primeiro passo para renunciar ao mundo com todo o fervor, se um fim correspondente não o desencadear e concluir, e se a humildade e a pobreza de Cristo, das quais você agora fez profissão à Sua vista, não forem preservadas por você até o fim de sua vida, como foram asseguradas pela primeira vez. E para que você consiga fazer isso, você sempre "observa a cabeça dele", ou seja, o primeiro surgimento de pensamentos, trazendo-os imediatamente ao seu superior. Pois assim você aprenderá a “machucar” seus perigosos começos, se não tiver vergonha de revelar nenhum deles ao seu superior.
 
 [806] Ao longo deste capítulo, Cassiano está aludindo a Gênesis iii. 15: “Porei inimizade entre ti e a mulher e entre a tua semente e a sua semente; esta te ferirá a cabeça e tu lhe ferirás o calcanhar:” cuja última cláusula é traduzida pela LXX. autos sou teresei kephalen kai su tereseis autou pternan, onde a Vulgata tem "Ipsa conteret caput tuum et tu insidiaberis calcaneo ejus."
+
+## Livro IV, Capítulo XXXVIII
 
 Capítulo XXXVIII.
 
@@ -996,6 +1154,8 @@ Portanto, como dizem as Escrituras, "quando você sair para servir ao Senhor, pe
 [808] Atos xiv. 22; S. Matt. vii. 14.
 
 [809] S. Mat. xx. 16; S. Lucas xii. 32.
+
+## Livro IV, Capítulo XXXIX
 
 Capítulo XXXIX.
 
@@ -1011,11 +1171,15 @@ Pois por tais sinais e similares é reconhecida a verdadeira humildade. E quando
 
 [812] Com este capítulo compare-se a Regra de S. Bento c. vii., onde é dada uma descrição muito semelhante de doze graus "na escada mística [da humildade] que Jacó viu", evidentemente sugerida pelo capítulo diante de nós.
 
+## Livro IV, Capítulo XL
+
 Capítulo XL.
 
 Que o monge deve buscar exemplos de perfeição não em muitos casos, mas em um ou em poucos.
 
 E para que você possa chegar a isso mais facilmente, os exemplos da vida perfeita de alguém que mora na congregação, que você pode imitar, devem ser procurados em poucos ou mesmo em apenas um ou dois, e não em muitos. Pois, além do fato de que uma vida testada, refinada e purificada só pode ser encontrada em poucos, há também isso a ser alcançado, a saber: que um homem seja mais completamente instruído e formado pelo exemplo de alguém, em direção à perfeição que ele coloca diante dele, a saber: a da vida cenobita.
+
+## Livro IV, Capítulo XLI
 
 Capítulo XLI.
 
@@ -1037,11 +1201,15 @@ Pois edificados em tal sistema de instrução, vocês podem continuar para sempr
 
 [817] Cf. 1 Cor. iii. 18.
 
+## Livro IV, Capítulo XLII
+
 Capítulo XLII.
 
 Como um monge não deveria buscar a bênção da paciência em seu próprio caso como resultado da virtude dos outros, mas sim como consequência de sua própria longanimidade.
 
 Você não deve, portanto, buscar paciência na virtude dos outros, pensando que só então poderá garanti-la quando não estiver irritado por ninguém (pois não está em seu próprio poder impedir que isso aconteça); mas antes você deve olhar para isso como consequência de sua própria humildade e longanimidade, que depende de sua própria vontade.
+
+## Livro IV, Capítulo XLIII
 
 Capítulo XLIII.
 
@@ -1051,9 +1219,11 @@ E para que todas essas coisas que foram expostas em um discurso um tanto longo p
 
 [818] Sal. cxi. 10.
 
-Livro V.
+# Livro V.
 
 Do Espírito da Gula.
+
+## Livro V, Capítulo I
 
 Capítulo I.
 
@@ -1064,6 +1234,8 @@ Este nosso quinto livro está agora sendo produzido com a ajuda de Deus. Pois de
 [819] Acídia. É muito lamentável que a antiga palavra inglesa "Accidie" tenha caído totalmente em desuso. É usado por Chaucer e outros escritores antigos para o pecado da preguiça ou lentidão espiritual. Veja "The Persone's Tale", onde é assim descrito: "Depois do pecado da ira, agora falarei do pecado da acídia ou da preguiça: pois a inveja cega o coração de um homem, e a ira perturba um homem, e a acídia o torna pesado, pensativo e agitado. bondade; do que é acidé a angústia de um herte perturbado. A palavra inglesa perdurou até o século XVII, conforme é usada pelo Bispo Hall (Serm.V. 140), na forma "Acedy", que é etimologicamente mais correta por estar mais próxima do latim Acedia e do grego 'Akedia, palavra que ocorre na LXX.
 
 versão do Antigo Testamento em Isaías lxi. 3; Sal. cxviii. (cxix.) 28; Baruque iii. 1; Eclus. xxxx. 6 (cf. o uso do verbo akediazo em Ps. lx. (lxi.) 2; ci. (cii.) 1; cxlii. (cxliii.) 4; Ecclus. xxii. 14). Nos escritores eclesiásticos, o termo Acedia é o favorito para denotar principalmente a prostração mental induzida pelo jejum e outras causas físicas, e depois pela preguiça espiritual e lentidão em geral. É o tema do décimo livro das Institutas e é tratado novamente por Cassiano nas Conferências V. iii. quadrado, cf. também a "Summa" de S. Thomas, II. ii. q. xxxv., onde há uma discussão completa de sua natureza e caráter. - cf. Ensaio do Dr. Paget "Sobre Accidie" em "The Spirit of Discipline".
+
+## Livro V, Capítulo II
 
 Capítulo II.
 
@@ -1077,11 +1249,15 @@ E dessas paixões, assim como as ocasiões são reconhecidas por todos assim que
 
 [822] Sal. lxv. (lxvi.) 12.
 
+## Livro V, Capítulo III
+
 Capítulo III.
 
 Como a nossa primeira luta deve ser contra o espírito da gula, ou seja, contra os prazeres do paladar.
 
 E assim o primeiro conflito em que devemos entrar é aquele contra a gula, que explicamos como os prazeres do paladar: e em primeiro lugar, quando vamos falar do sistema de jejuns e da qualidade da comida, devemos recorrer novamente às tradições e costumes dos egípcios, pois todos sabem que eles contêm uma disciplina mais avançada em matéria de autocontrole e um método perfeito de discriminação.
+
+## Livro V, Capítulo IV
 
 Capítulo IV.
 
@@ -1103,6 +1279,8 @@ Mas quando todos se reúnem na unidade da fé e da virtude, Ele é formado no "h
 
 [827] Ver especialmente Conferências XVIII. e XIX.
 
+## Livro V, Capítulo V
+
 Capítulo V.
 
 Essa mesma regra de jejum não pode ser observada por todos.
@@ -1111,6 +1289,8 @@ E assim por diante, no modo de jejuar, uma regra uniforme não pode ser facilmen
 
 Também para muitas pessoas que estão desgastadas pela doença e especialmente pela velhice, um jejum até o pôr do sol não pode ser suportado sem sofrimento. A comida enjoativa de feijão umedecido não agrada a todos: nem uma dieta moderada de vegetais frescos serve a todos, nem uma refeição escassa de pão seco é permitida a todos. Um homem não se sente satisfeito com duas libras, para outro uma refeição de uma libra, ou seis onças, é demais; mas há um objetivo e objeto de continência no caso de todos estes, a saber: que ninguém fique sobrecarregado além da medida de seu apetite, pela gula. Pois não é apenas a qualidade, mas também a quantidade de comida ingerida que embota a agudeza da mente, e quando a alma, assim como a carne, está farta, acende o incentivo nefasto e ardente ao vício.
 
+## Livro V, Capítulo VI
+
 Capítulo VI.
 
 Que a mente não se intoxica apenas com vinho.
@@ -1118,6 +1298,8 @@ Que a mente não se intoxica apenas com vinho.
 A barriga, quando cheia de todos os tipos de comida, dá origem a sementes de devassidão, nem a mente, quando sufocada pelo peso da comida, pode manter a orientação e o governo dos pensamentos. Pois não só a embriaguez com vinho costuma intoxicar a mente, mas o excesso de todos os tipos de comida a torna fraca e incerta, e rouba-lhe todo o seu poder de contemplação pura e clara. A causa da derrubada e da devassidão de Sodoma não foi a embriaguez por causa do vinho, mas a fartura de pão. Ouça o Senhor repreendendo Jerusalém através do profeta. "Pois como pecou Sodoma, tua irmã, senão porque comeu o seu pão em fartura e abundância?" (828) E porque pela fartura de pão eles estavam inflamados com a concupiscência incontrolável da carne, eles foram queimados pelo julgamento de Deus com fogo e enxofre do céu. Mas se apenas o excesso de pão os levou a uma queda tão precipitada no pecado através do vício da saciedade, o que pensaremos daqueles que, com um corpo vigoroso, ousam comer carne e vinho com licença ilimitada, tomando não apenas o que sua fragilidade corporal exige, mas o que o desejo ávido da mente sugere.
 
 [828] Ez. XVI. 49.
+
+## Livro V, Capítulo VII
 
 Capítulo VII.
 
@@ -1128,6 +1310,8 @@ A fraqueza corporal não é um obstáculo à pureza do coração, desde que seja
 [829] O texto de Petschenig nesta passagem é o seguinte: "Facilius vidimus viros qui ab escis corpulentioribus omnimodis temperarent, quam mode usos pro necessitate concessis, et qui totum sibi pro amore continentiæ denegarent, quam qui eas sub infirmitatis ocasional sumentes mensuram sufuficientiæ custodirent." Gazæus dá algo bem diferente: "Facilius vidimus victos qui ab escis corpulentioribus omnimodis temperarent, quas mode usus pro necessitate concedit, et qui totum sibi pro continentiæ amore denegarent; quam qui eas sub infirmitatis ocasional sumentes mensuram suficienteiæ custodirent."
 
 [830] Quidquid enim fortitudinis.--Petschenig. Gazæus tem "Quid quid enim fortitudinis causa."
+
+## Livro V, Capítulo VIII
 
 Capítulo VIII.
 
@@ -1141,6 +1325,8 @@ Ele elimina o gosto luxuoso pela carne: ele não exclui o controle necessário p
 
 [832] Rom. xiii. 14.
 
+## Livro V, Capítulo IX
+
 Capítulo IX.
 
 Da medida do castigo a ser empreendido e do remédio do jejum.
@@ -1149,6 +1335,8 @@ A perfeição da abstinência não deve ser obtida apenas com base em cálculos 
 
 O jejum, embora severo, mas se se seguir um relaxamento desnecessário, torna-se inútil e atualmente leva ao vício da gula. Um suprimento razoável de alimentos consumidos diariamente com moderação é melhor do que um jejum severo e longo em intervalos. Sabe-se que o jejum excessivo não só prejudica a constância da mente, mas também enfraquece o poder das orações através do puro cansaço do corpo.
 
+## Livro V, Capítulo X
+
 Capítulo X.
 
 Que a abstinência de alimentos não é, por si só, suficiente para a preservação da pureza corporal e mental.
@@ -1156,6 +1344,8 @@ Que a abstinência de alimentos não é, por si só, suficiente para a preserva�
 Para preservar a mente e o corpo em perfeitas condições, a abstinência de alimentos não é suficiente por si só: a menos que também as outras virtudes da mente sejam unidas a ela. E assim a humildade deve primeiro ser aprendida pela virtude da obediência, do trabalho árduo (833) e da exaustão corporal. A posse de dinheiro não só deve ser evitada, mas o desejo por ele deve ser totalmente erradicado. Pois não é suficiente não possuí-lo – algo que vem a muitos como uma questão de necessidade: mas devemos, se por acaso for oferecido, nem mesmo admitir o desejo de tê-lo. A loucura da raiva deve ser controlada; o olhar abatido de desânimo seja superado; a vanglória deve ser desprezada, o desdém do orgulho pisoteado e os pensamentos inconstantes e errantes da mente restringidos pela lembrança contínua de Deus. E as divagações escorregadias de nosso coração devem ser trazidas de volta à contemplação de Deus sempre que nosso astuto inimigo, em seu esforço para afastar a mente cativa dessa consideração, se infiltra nos recônditos mais íntimos do coração.
 
 [833] Operis contritione (Petschenig): cordis contritione (Gazæus).
+
+## Livro V, Capítulo XI
 
 Capítulo XI.
 
@@ -1166,6 +1356,8 @@ Pois é impossível que os movimentos ígneos do corpo possam ser extintos, ante
 E assim é provado que aquele que não possui nenhuma virtude perfeitamente, é conhecido por ter quebrado em alguma parte delas. Pois como podemos acreditar que aquele homem extinguiu o calor ardente da concupiscência (que é aceso não apenas pela incitação corporal, mas pelo vício da mente), que não conseguiu amenizar as agudas ferroadas da raiva que irrompem apenas da intemperança do coração? Ou como podemos pensar que ele reprimiu os desejos desenfreados da carne e do espírito, que não foi capaz de vencer a simples culpa do orgulho? Ou como podemos acreditar que alguém pisoteou uma devassidão que está enraizada na carne, que não foi capaz de renegar o amor ao dinheiro, que é algo externo e fora da nossa própria substância? De que forma triunfará ele na guerra da carne e do espírito, quem não foi homem o suficiente para curar a doença do desânimo?
 
 Por maior que seja uma cidade que possa ser protegida pela altura de suas muralhas e pela força de seus portões fechados, ainda assim ela é devastada pela renúncia de uma porta, por menor que seja. Pois que diferença faz se um inimigo perigoso entra no coração da cidade através de altos muros e através dos amplos espaços do portão, ou através de passagens secretas e estreitas?
+
+## Livro V, Capítulo XII
 
 Capítulo XII.
 
@@ -1181,6 +1373,8 @@ Se entendermos esta ilustração a partir de uma competição carnal, devemos, a
 
 [835] 1 Cor. Ix. 25.
 
+## Livro V, Capítulo XIII
+
 Capítulo XIII.
 
 Que não podemos entrar na batalha do homem interior a menos que tenhamos sido libertados do vício da gula.
@@ -1190,6 +1384,8 @@ Também devemos primeiro dar evidência da nossa liberdade da sujeição à carn
 [836] 2 Ped. ii. 19.
 
 [837] João VIII. 34.
+
+## Livro V, Capítulo XIV
 
 Capítulo XIV.
 
@@ -1203,6 +1399,8 @@ Pois não podemos desprezar a gratificação da comida que nos é apresentada, a
 
 [838] Cf. Dan. iii. 6; e veja abaixo o Livro VI. c. XVII. onde Cassiano mais uma vez fala do diabo como o rei babilônico.
 
+## Livro V, Capítulo XV
+
 Capítulo XV.
 
 Como um monge deve estar sempre ansioso para preservar a pureza do seu coração.
@@ -1210,6 +1408,8 @@ Como um monge deve estar sempre ansioso para preservar a pureza do seu coração
 É como o caso quando alguém tenta atingir algum poderoso prêmio de virtude no alto, indicado por alguma marca muito pequena; com a visão mais aguçada ele aponta a mira de seu dardo, sabendo que grandes recompensas de glória e prêmios dependem de ele acertá-lo; e ele desvia seu olhar de qualquer outra consideração, e deve direcioná-lo para onde ele vê que a recompensa e o prêmio são colocados, porque ele certamente perderia o prêmio de sua habilidade e a recompensa de sua destreza se a agudeza de seu olhar fosse desviada tão pouco. [839]
 
 [839] Compare uma ilustração semelhante nas Conferências I. v.
+
+## Livro V, Capítulo XVI
 
 Capítulo XVI.
 
@@ -1226,6 +1426,8 @@ Mas se tivermos sido vencidos nesta batalha, tendo sido provados como escravos d
 [842] Mentis robore non quoesito.--Petschenig. Gasæus omite a negativa e lê conquisito.
 
 [843] A versão de S. Jerônimo, certamente conhecida por Cassiano (cf. Conferências XXIII. viii.), tem "Temptatio vos non apprehendat nisi humana".
+
+## Livro V, Capítulo XVII
 
 Capítulo XVII.
 
@@ -1253,6 +1455,8 @@ E desta vinda é que o Senhor fala no Evangelho. “Eu”, diz Ele, “e meu Pai
 
 [852] Rev. 20.
 
+## Livro V, Capítulo XVIII
+
 Capítulo XVIII.
 
 Da quantidade de diversos conflitos e vitórias através dos quais o bendito Apóstolo ascendeu à coroa do combate mais elevado.
@@ -1267,6 +1471,8 @@ Você vê o método ortodoxo da disputa e considera a questão dos combates espi
 
 [855] Ef. vi. 12.
 
+## Livro V, Capítulo XIX
+
 Capítulo XIX.
 
 Que o atleta de Cristo, enquanto estiver no corpo, nunca fica sem batalha.
@@ -1278,6 +1484,8 @@ O atleta de Cristo, enquanto estiver no corpo, nunca deseja uma vitória a ser c
 [857] Ef. vi. 12.
 
 [858] 1 Cor. x. 13.
+
+## Livro V, Capítulo XX
 
 Capítulo XX.
 
@@ -1291,6 +1499,8 @@ E, portanto, a força da mente é testada em impulsos separados e em qualquer ti
 
 [860] Mensagem extra.
 
+## Livro V, Capítulo XXI
+
 Capítulo XXI.
 
 Da paz interior de um monge e da abstinência espiritual.
@@ -1302,6 +1512,8 @@ A inveja é um alimento para a mente, corrompendo-a com seus sucos venenosos e n
 Pois o trabalho da carne, quando unido à contrição do espírito, produzirá um sacrifício que é mais aceitável a Deus, e um digno santuário de santidade nos recônditos puros e imaculados do coração. Mas se, enquanto jejuamos no que diz respeito ao corpo, ficarmos enredados nos vícios mais perigosos da alma, a nossa humilhação da carne não nos fará nenhum bem, enquanto a parte mais preciosa de nós estiver contaminada: uma vez que erramos através daquela substância em virtude da qual nos tornamos um santuário do Espírito Santo. Pois não é tanto a carne corruptível, mas o coração limpo, que se torna santuário de Deus e templo do Espírito Santo. Devemos, portanto, sempre que o homem exterior jejua, restringir também o homem interior de alimentos que lhe são ruins: aquele homem interior, a saber, aquele que o abençoado Apóstolo acima de tudo nos exorta a apresentar puro diante de Deus, para que seja considerado digno de receber Cristo como um hóspede interior, dizendo "que no homem interior Cristo habite em seus corações pela fé". [861]
 
 [861] Ef. iii. 16, 17.
+
+## Livro V, Capítulo XXII
 
 Capítulo XXII.
 
@@ -1315,6 +1527,8 @@ Pois o primeiro não é considerado imerecidamente um tolo, visto que por sua pr
 
 [863] Jó v.
 
+## Livro V, Capítulo XXIII
+
 Capítulo XXIII.
 
 Qual deveria ser a natureza da comida do monge.
@@ -1324,6 +1538,8 @@ Devemos então escolher para a nossa alimentação, não apenas aquela que moder
 Nem daqueles que vimos serem merecidamente eminentes por conhecimento e discrição, ou a quem a graça de Cristo escolheu como luzes brilhantes para todos imitarem, conhecemos alguém que se absteve de comer pão que é considerado barato e facilmente obtido entre eles; nem vimos que alguém que rejeitou esta regra e abandonou o uso do pão e adotou uma dieta de feijão, ervas ou frutas, foi considerado um dos mais estimados, ou mesmo adquiriu a graça do conhecimento e da discrição. Pois eles não apenas estabelecem que um monge não deve pedir alimentos que não sejam habituais para outros, para que seu modo de vida não seja exposto publicamente a todos e se torne vão e ocioso e assim seja destruído pela doença da vaidade; mas eles insistem que a disciplina disciplinadora comum dos jejuns não deve ser revelada levianamente a ninguém, mas, tanto quanto possível, ocultada e mantida em segredo.
 
 Mas quando algum dos irmãos chega, eles determinam que devemos mostrar as virtudes da bondade e da caridade, em vez de observar uma abstinência severa e nossa estrita regra diária: nem devemos considerar o que nossos próprios desejos e lucros ou o ardor de nossos desejos podem exigir, mas colocar diante de nós e cumprir com alegria tudo o que o refresco do hóspede, ou sua fraqueza, possa exigir de nós.
+
+## Livro V, Capítulo XXIV
 
 Capítulo XXIV.
 
@@ -1339,17 +1555,23 @@ Mas as exigências de um comando exigem o cumprimento de uma obra de caridade. E
 
 [866] S. Mat. Ix. 15. O latim tem patrocínio em cada cláusula.
 
+## Livro V, Capítulo XXV
+
 Capítulo XXV.
 
 Da abstinência de um velho que comia seis vezes com tanta moderação que ainda sentia fome.
 
 Quando um dos anciãos me pressionou para comer um pouco mais enquanto eu tomava o refresco, e eu disse que não podia, ele respondeu: “Já coloquei minha mesa seis vezes para diferentes irmãos que haviam chegado e, pressionando cada um deles, comi com ele, e ainda estou com fome, e você, que agora toma o refresco pela primeira vez, diz que não pode mais comer?”
 
+## Livro V, Capítulo XXVI
+
 Capítulo XXVI.
 
 De outro velho, que nunca comia sozinho em sua cela.
 
 Vimos outro que morava sozinho, que declarou nunca ter desfrutado de comida sozinho, mas que mesmo que durante cinco dias consecutivos nenhum dos irmãos fosse à sua cela, ele constantemente adiava a alimentação até que no sábado ou domingo ele ia à igreja para o culto e encontrava algum estranho que levava imediatamente para sua cela, e junto com ele participava de refrescos para o corpo, não tanto por causa de suas próprias necessidades, mas por uma questão de bondade e por conta de seu irmão. E assim como sabem que o jejum diário é quebrado sem escrúpulos na chegada dos irmãos, quando eles partem, eles compensam o refresco que foram desfrutados por sua conta com uma maior abstinência, e severamente compensam a recepção de até mesmo uma pequena quantidade de comida com um castigo mais severo, não apenas no que diz respeito ao pão, mas também diminuindo a quantidade habitual de sono.
+
+## Livro V, Capítulo XXVII
 
 Capítulo XXVII.
 
@@ -1359,17 +1581,23 @@ Quando o idoso João, que era superior de um grande mosteiro e de vários irmão
 
 [867] Há um Pæsius mencionado por Paládio na História Lausíaca, mas não está claro se ele é o mesmo homem mencionado por Cassiano. João é uma pessoa diferente daquela já mencionada no Livro IV. xxiii. Ele é mencionado novamente abaixo em xl., e a Décima Nona Conferência é atribuída a ele.
 
+## Livro V, Capítulo XXVIII
+
 Capítulo XXVIII.
 
 A lição e o exemplo que o abade João, ao morrer, deixou aos seus discípulos.
 
 Quando o mesmo velho, como alguém que estava prestes a partir para o seu próprio lar, estava deitado em seu último suspiro, e os irmãos estavam em volta, eles imploraram e suplicaram que ele lhes deixasse, como uma espécie de legado, algum encargo especial pelo qual eles pudessem atingir o auge da perfeição, o mais facilmente pela brevidade do encargo: ele suspirou e disse: "Eu nunca fiz minha própria vontade, nem ensinei a ninguém o que eu mesmo não tinha feito primeiro."
 
+## Livro V, Capítulo XXIX
+
 Capítulo XXIX.
 
 Do Abade Machetes, que nunca dormia durante as conferências espirituais, mas sempre dormia durante os contos terrenos.
 
 Conhecíamos um homem idoso, de nome Machetes, que vivia longe das multidões de irmãos, e obtinha por suas orações diárias esta graça do Senhor, que sempre que uma conferência espiritual era realizada, seja de dia ou de noite, ele nunca era dominado pelo sono: mas se alguém tentasse introduzir uma palavra depreciativa ou conversa fiada, ele adormecia imediatamente, como se o veneno da calúnia não pudesse penetrar e poluir seus ouvidos.
+
+## Livro V, Capítulo XXX
 
 Capítulo XXX.
 
@@ -1381,11 +1609,15 @@ E através destas coisas descobri claramente que um monge estava no mesmo caso e
 
 [868] Rom. XIV. 10, 4; S. Matt. vii. 1, 2.
 
+## Livro V, Capítulo XXXI
+
 Capítulo XXXI.
 
 A mesma repreensão do velho quando viu como os irmãos iam dormir durante as conferências espirituais, e acordavam quando alguma história fútil era contada.
 
 O mesmo velho deixou claro com esta prova que era o diabo quem encorajava as histórias fúteis e sempre se mostrou inimigo das conferências espirituais. Pois quando ele estava discursando com alguns dos irmãos sobre assuntos necessários e coisas espirituais, e viu que eles estavam sobrecarregados com um sono profundo e não conseguiam afastar o peso do sono de seus olhos, ele de repente apresentou uma história inútil. E quando ele viu que imediatamente eles acordaram, encantados com isso, e aguçaram os ouvidos, ele gemeu e disse: “Até agora estávamos falando de coisas celestiais e todos os seus olhos foram dominados por um sono profundo; mas assim que uma história inútil foi introduzida, todos nós acordamos e sacudimos a sonolência do sono que nos havia dominado. evidentemente demonstrado que é ele quem, regozijando-se com o mal, nunca deixa de encorajar o último e de se opor ao primeiro”.
+
+## Livro V, Capítulo XXXII
 
 Capítulo XXXII.
 
@@ -1395,6 +1627,8 @@ Também não creio que seja menos necessário relatar este ato de um irmão que 
 
 E de nada adianta tê-los abandonado no corpo, se começarmos a olhá-los com o coração, e readmitirmos e revivermos aquela memória que, ao renunciar a este mundo, todos desistiram, como se estivessem mortos. jogou-o no fogo para ser queimado, todo amarrado exatamente como o havia recebido, clamando: "Afastem-se, ó pensamentos de minha casa, queimem-se e não tentem mais me lembrar daquelas coisas das quais fugi."
 
+## Livro V, Capítulo XXXIII
+
 Capítulo XXXIII.
 
 Da solução de uma questão que o Abade Teodoro obteve pela oração.
@@ -1402,6 +1636,8 @@ Da solução de uma questão que o Abade Teodoro obteve pela oração.
 Conhecemos também o abade Teodoro, (869) um homem dotado da maior santidade e de um conhecimento perfeito não só na vida prática, mas também na compreensão das Escrituras, que ele não havia adquirido tanto pelo estudo e leitura, ou pela educação mundana, mas apenas pela pureza de coração: visto que com dificuldade ele conseguia entender e falar apenas algumas palavras da língua grega. Este homem, quando procurava uma explicação para alguma questão muito difícil, continuou sem cessar durante sete dias e sete noites em oração, até que descobriu, por uma revelação do Senhor, a solução da questão proposta.
 
 [869] Nada mais se sabe ao certo sobre este Teodoro. Poderá ser o autor da VI das Conferências; mas deve ser cuidadosamente distinguido de seu homônimo mais célebre, o amigo de Pacômio e terceiro abade de Tabenna, que morreu antes da visita de Cassiano ao Egito.
+
+## Livro V, Capítulo XXXIV
 
 Capítulo XXXIV.
 
@@ -1413,6 +1649,8 @@ Por esta razão surgiram tão grandes diferenças e erros entre os comentaristas
 
 [870] Sacramento.
 
+## Livro V, Capítulo XXXV
+
 Capítulo XXXV.
 
 Uma repreensão do mesmo velho, quando veio à minha cela no meio da noite.
@@ -1420,6 +1658,8 @@ Uma repreensão do mesmo velho, quando veio à minha cela no meio da noite.
 O mesmo Teodoro veio inesperadamente à minha cela na calada da noite, com curiosidade paternal buscando o que eu – um anacoreta informe como era – poderia estar fazendo sozinho; e quando ele já me encontrou lá, quando eu havia terminado meu ofício vespertino, começando a refrescar meu corpo cansado, e deitado em uma esteira, ele suspirou do fundo de seu coração, e me chamando pelo nome, disse: "Quantos, ó João, estão nesta hora comungando com Deus, e abraçando-O, e detendo-O com eles, enquanto você está privado de tão grande luz, debilitado como você está com o sono preguiçoso!"
 
 E uma vez que as virtudes dos pais e a graça que lhes foi dada nos tentaram a desviar-nos para uma história como esta, penso que é bom registrar neste volume um notável ato de caridade, que experimentamos pela bondade daquele homem excelentíssimo Arquébio, para que a pureza da continência enxertada numa obra de caridade possa mais facilmente brilhar, sendo embelezada com uma variedade agradável. Pois o dever do jejum torna-se então aceitável a Deus, quando é aperfeiçoado pelos frutos da caridade.
+
+## Livro V, Capítulo XXXVI
 
 Capítulo XXXVI.
 
@@ -1431,6 +1671,8 @@ Descobrindo então que homens desse tipo viviam perto do rio Nilo, em um lugar q
 
 [871] Diolcos é mencionado novamente nas Conferências XVIII. eu. Sozomen (VI. xxix.) fala de dois célebres mosteiros próximos dali, presididos por Piamun e João.
 
+## Livro V, Capítulo XXXVII
+
 Capítulo XXXVII.
 
 Das celas que o Abade Archebius nos cedeu com seus móveis.
@@ -1438,6 +1680,8 @@ Das celas que o Abade Archebius nos cedeu com seus móveis.
 Tendo então visto isto, como estávamos inflamados com o desejo de imitá-los, o referido Arquébio, o mais famoso entre eles pela graça da bondade, atraiu-nos para a sua cela e, tendo descoberto o nosso desejo, fingiu que queria sair do lugar, e oferecer-nos a sua cela, como se fosse embora, declarando que o teria feito, mesmo que não tivéssemos vindo. E nós, inflamados pelo desejo de permanecer ali, e depositando fé inabalável nas afirmações de tão grande homem, concordamos de bom grado com isso e assumimos sua cela com todos os seus móveis e pertences. E assim, tendo tido sucesso em sua fraude piedosa, ele deixou o local por alguns dias para conseguir os meios para construir uma cela, e depois disso retornou e com muito trabalho construiu outra cela para si. E depois de algum tempo, quando alguns outros irmãos vieram inflamados com o mesmo desejo de permanecer ali, ele os enganou com uma falsidade de caridade semelhante, e entregou este com tudo o que lhe dizia respeito. Mas ele, perseverando incansavelmente no seu acto de caridade, construiu para si uma terceira cela para habitar. [872]
 
 [872] Histórias um tanto semelhantes são contadas de outros por Paládio (História Lausíaca, cc. ii. 1, lxx.); e Rufino, História dos Monges, I. xxiii.
+
+## Livro V, Capítulo XXXVIII
 
 Capítulo XXXVIII.
 
@@ -1449,6 +1693,8 @@ Então, por consideração ao dever, ele moderou um pouco aquela severidade do e
 
 Assim ele preservou suas austeridades habituais, sem nunca negar ao coração de sua mãe o trabalho que o dever exigia, pois, embora antes a tivesse desconsiderado pelo amor de Cristo, agora ele a reconhecia novamente por consideração ao dever.
 
+## Livro V, Capítulo XXXIX
+
 Capítulo XXXIX.
 
 Do artifício de um certo velho pelo qual foi encontrado algum trabalho para o Abade Simeão quando ele não tinha nada para fazer.
@@ -1456,6 +1702,8 @@ Do artifício de um certo velho pelo qual foi encontrado algum trabalho para o A
 Quando um irmão que nos era muito querido, de nome Simeão, um homem totalmente ignorante do grego, veio da região da Itália, um dos anciãos, ansioso por mostrar-lhe, como era um estranho, uma obra de caridade, com alguma pretensão de benefício mútuo, perguntou-lhe por que ele ficava sentado sem fazer nada em sua cela, adivinhando a partir disso que ele não seria capaz de permanecer nela por muito mais tempo, tanto por causa dos pensamentos errantes que a ociosidade produz, quanto por causa de sua falta das necessidades de vida; sabendo bem que ninguém pode suportar os ataques cometidos na solidão, a não ser aquele que se contenta em obter alimento para si com o trabalho de suas mãos. E quando o outro respondeu que não poderia fazer ou administrar nenhuma das coisas que normalmente eram feitas pelos irmãos de lá, exceto escrever com boa caligrafia, se alguém no Egito quisesse um livro em latim para seu uso, então ele finalmente aproveitou a oportunidade para garantir o tão desejado trabalho de caridade, sob o pretexto de ser um benefício mútuo; e disse: "Esta oportunidade vem de Deus, pois eu estava apenas procurando alguém para escrever para mim as Epístolas (873) em latim; pois tenho um irmão que está preso nas cadeias do serviço militar, e é um bom estudioso de latim, a quem quero enviar algo das Escrituras para ele ler para sua edificação." E assim, quando Simeão aproveitou isso com gratidão como uma oportunidade que Deus lhe oferecia, o velho também aproveitou de bom grado o pretexto, sob a qual ele poderia realizar livremente sua obra de caridade, e imediatamente não apenas lhe trouxe a título de negócio tudo o que ele poderia desejar para um ano inteiro, mas também lhe transmitiu pergaminho e tudo o que era necessário para escrever, e recebeu depois o manuscrito, que não tinha a menor utilidade (já que naquelas partes eles eram todos totalmente ignorantes desta língua), e não fez nenhum bem para qualquer um, exceto aquele que resultou deste dispositivo e grande desembolso, como um, sem vergonha ou confusão, obteve seu alimento e sustento necessários pela recompensa de seu trabalho e trabalho, e o outro realizou sua bondade e generosidade, por assim dizer, pela compulsão de uma dívida: assegurando para si uma recompensa mais abundante proporcional ao zelo com que ele adquiriu para seu irmão estrangeiro não apenas a comida necessária, mas materiais para escrever e uma oportunidade de trabalho.
 
 [873] Apóstolo.
+
+## Livro V, Capítulo XL
 
 Capítulo XL.
 
@@ -1469,6 +1717,8 @@ E quando receberam a fruta e partiram para a cela do velho acima mencionado, per
 
 [875] Sobre Paphnutius, ver a nota sobre a Conferência III. eu.
 
+## Livro V, Capítulo XLI
+
 Capítulo XLI.
 
 A afirmação do Abade Macário sobre o comportamento de um monge como alguém que viveria por muito tempo e como alguém que estava diariamente à beira da morte.
@@ -1477,21 +1727,25 @@ Ainda há uma valiosa acusação do bem-aventurado Macário a ser apresentada po
 
 [876] Sócrates (HE Livro IV. c. xxiii.) Dá um relato de dois monges de nome Macário, um dos quais era do Alto Egito e o outro de Alexandria. Compare também a História dos Monges de Rufino, cc. xxviii., xxix. Não é certo a qual deles se referem as histórias de Cassiano, aqui e nas Conferências V. xii. VII. xxvii., XXIV. xiii. A história contada na Conferência XV. iii, refere-se ao Macário "egípcio" (cf. Sozomen H. E. III. xiv., onde o milagre é expressamente atribuído a ele): aquele em XIV. 4. evidentemente pertence ao Macário "Alexandrino". Os dois são mencionados juntos na Conferência XIX. ix., e por vários outros escritores.
 
-Livro VI.
+# Livro VI.
 
 Sobre o Espírito de Fornicação.
 
 Achamos melhor omitir completamente a tradução deste livro.
 
-Livro VII.
+# Livro VII.
 
 Do Espírito de Cobiça.
+
+## Livro VII, Capítulo I
 
 Capítulo I.
 
 Como nossa guerra contra a cobiça é estranha e como essa falha não é natural no homem, como o são as outras falhas.
 
 O nosso terceiro conflito é contra a cobiça, que podemos descrever como amor ao dinheiro; uma guerra estrangeira, e fora de nossa natureza, e no caso de um monge originando-se apenas do estado de uma mente corrupta e lenta, e muitas vezes desde o início de sua renúncia sendo insatisfatória, e seu amor por Deus sendo morno em sua base. Pois o restante dos incitamentos ao pecado plantados na natureza humana parecem ter seu início, por assim dizer, congênito em nós, e de alguma forma estando profundamente enraizados em nossa carne, e quase contemporâneos ao nosso nascimento, antecipam nossos poderes de discernir o bem e o mal, e embora em tempos muito antigos ataquem um homem, ainda assim são vencidos com uma longa luta.
+
+## Livro VII, Capítulo II
 
 Capítulo II.
 
@@ -1500,6 +1754,8 @@ Quão perigosa é a doença da cobiça.
 Mas esta doença que vem sobre nós em um período posterior, e se aproxima da alma de fora, pois pode ser mais facilmente protegida e resistida, então, se for desconsiderada e uma vez permitida a entrada no coração, é mais perigosa para todos, e com maior dificuldade expulsa. Pois torna-se “a raiz de todos os males” (877) e dá origem a uma multiplicidade de incitamentos ao pecado.
 
 [877] 1Tm. vi. 10.
+
+## Livro VII, Capítulo III
 
 Capítulo III.
 
@@ -1511,17 +1767,23 @@ Pois estes impulsos carnais, dos quais falamos acima, foram implantados em nosso
 
 [878] 2 Cor. vii. 10.
 
+## Livro VII, Capítulo IV
+
 Capítulo IV.
 
 Que podemos dizer que existem em nós algumas falhas naturais, sem prejudicar o Criador.
 
 Se então dissermos que esses impulsos foram implantados em nós pelo Criador, Ele não parecerá, por esse motivo, censurável, se escolhermos erroneamente abusar deles e pervertê-los para propósitos prejudiciais, e estivermos prontos para nos arrependermos por meio dos inúteis Caim deste mundo, e não por meio de mostrar penitência e correção de nossas faltas: ou pelo menos se estivermos zangados não conosco mesmos (o que seria lucrativo), mas com nossos irmãos, desafiando a ordem de Deus. Pois no caso do ferro, que nos é dado para propósitos bons e úteis, se alguém o pervertesse por assassinar inocentes, não culparíamos o fabricante do metal porque o homem usou para ferir outros aquilo que ele forneceu para propósitos bons e úteis de viver feliz.
 
+## Livro VII, Capítulo V
+
 Capítulo V.
 
 Das faltas que são contraídas por culpa nossa, sem impulsos naturais.
 
 Mas afirmamos que algumas faltas crescem sem que nenhuma ocasião natural as tenha dado à luz, mas simplesmente da livre escolha de uma vontade corrupta e má, como a inveja e este mesmo pecado da cobiça; que são capturados (por assim dizer) de fora, não tendo origem em nós a partir de instintos naturais. Mas estes, na medida em que são facilmente evitados e facilmente evitados, também tornam miserável a mente que dominaram e dominaram, e dificilmente a toleram para chegar aos remédios que a curariam: seja porque aqueles que são feridos por pessoas que poderiam ter ignorado, ou evitado, ou facilmente superados, não merecem ser curados por uma cura rápida, ou então porque, tendo lançado mal os alicerces, são indignos de erguer um edifício de virtude e alcançar o cume da perfeição.
+
+## Livro VII, Capítulo VI
 
 Capítulo VI.
 
@@ -1530,6 +1792,8 @@ Quão difícil é afastar o mal da cobiça depois de admitido.
 Portanto, não deixe que este mal pareça sem importância ou sem importância para ninguém: pois como pode ser facilmente evitado, se uma vez se apoderou de alguém, dificilmente lhe será permitido encontrar os remédios para curá-lo. Pois é um ninho regular de pecados e uma “raiz de todos os tipos de males”, e se torna um incitamento desesperado à maldade, como diz o apóstolo: “A cobiça”, isto é, o amor ao dinheiro, “é a raiz de todos os tipos de mal”. [879]
 
 [879] 1Tm. vi. 10.
+
+## Livro VII, Capítulo VII
 
 Capítulo VII.
 
@@ -1547,11 +1811,15 @@ Por isso, não se esquiva do crime de mentira, perjúrio e roubo, de quebrar uma
 
 [881] Col. 5.
 
+## Livro VII, Capítulo VIII
+
 Capítulo VIII.
 
 Como a cobiça é um obstáculo para todas as virtudes.
 
 Com tais avanços, então, em direção descendente, ele vai de mal a pior, e finalmente se preocupa em não reter, não direi a virtude, mas até mesmo a sombra da humildade, da caridade e da obediência; e está descontente com tudo, e murmura e geme por causa de todo trabalho; e agora, tendo abandonado toda a reverência, como um cavalo mal-humorado, sai precipitadamente e desenfreado: e descontente com sua alimentação diária e roupas habituais, anuncia que não suportará mais isso. Ele declara que Deus não está apenas ali, e que sua salvação não está confinada àquele lugar, onde, se ele não se retirar rapidamente dele, lamenta profundamente que logo morrerá.
+
+## Livro VII, Capítulo IX
 
 Capítulo IX.
 
@@ -1561,11 +1829,15 @@ E assim, tendo dinheiro para sustentar suas andanças, com a ajuda do qual ele s
 
 Então, com um propósito definido, ele procura oportunidades de ficar ofendido e irritado, para que não pareça ter saído da disciplina do mosteiro por uma razão trivial. E não satisfeito em partir sozinho, para que não se pense que ele partiu por sua própria culpa, ele nunca para de corromper tantos quanto pode por meio de conferências clandestinas. Mas se a severidade do tempo interfere em sua jornada e viagens, ele permanece o tempo todo em suspense e ansiedade de coração, e nunca para de semear e excitar descontentamento; pois pensa que só encontrará consolo para sua partida e desculpa para sua inconstância no mau caráter e nos defeitos do mosteiro.
 
+## Livro VII, Capítulo X
+
 Capítulo X.
 
 Das labutas que um desertor de um mosteiro deve suportar por cobiça, embora antigamente murmurasse diante das menores tarefas.
 
 E assim ele é levado e cada vez mais inflamado pelo amor ao seu dinheiro, que, quando adquirido, nunca permite que um monge permaneça em um mosteiro ou viva sob a disciplina de uma regra. E ao separá-lo como uma fera selvagem do resto do rebanho, isso fez dele, por falta de companheiros, um animal digno de presa, e fez com que ele fosse facilmente comido, visto que ele é privado de outros hóspedes, isso o força, que antes pensava que era inferior a ele cumprir os pequenos deveres do mosteiro, a trabalhar sem parar noite e dia, com esperança de ganho; sofre-lhe não manter nenhum serviço de oração, nenhum sistema de jejum, nenhuma regra de vigília; não lhe permite cumprir os deveres de uma intercessão adequada, desde que possa satisfazer a loucura da avareza e suprir suas necessidades diárias; inflamando ainda mais o fogo da cobiça, ao mesmo tempo em que acredita que ele se extinguirá ao conseguir.
+
+## Livro VII, Capítulo XI
 
 Capítulo XI.
 
@@ -1575,6 +1847,8 @@ Conseqüentemente, muitos são levados a um precipício abrupto e, por uma queda
 
 [882] 1Tm. vi. 8-10.
 
+## Livro VII, Capítulo XII
+
 Capítulo XII.
 
 Um exemplo de um monge morno apanhado nas armadilhas da cobiça.
@@ -1582,6 +1856,8 @@ Um exemplo de um monge morno apanhado nas armadilhas da cobiça.
 Conheço alguém que se considera monge, e o que é pior, se gaba de sua perfeição, que foi recebido em um mosteiro e quando foi encarregado por seu Abade de não voltar seus pensamentos para aquelas coisas das quais havia desistido e renunciado, mas para se libertar da cobiça, a raiz de todos os tipos de mal, e das armadilhas terrenas; e quando lhe disseram que se desejasse ser purificado de suas paixões anteriores, pelas quais via que de vez em quando era gravemente oprimido, deveria parar de se preocupar com aquelas coisas que antes não eram suas, enredadas em cujas correntes ele certamente não poderia progredir no sentido de se purificar de suas faltas: com uma expressão de raiva, ele não hesitou em responder: "Se você tem aquilo com que pode apoiar os outros, por que me proíbe de tê-lo também?" [883]
 
 [883] Cur proibe (Petschenig). Gazaeus omite Cur.
+
+## Livro VII, Capítulo XIII
 
 Capítulo XIII.
 
@@ -1591,6 +1867,8 @@ Mas não deixemos que isto pareça supérfluo ou censurável para ninguém. Pois
 
 [884] Pulsarentur (Petschenig). O texto de Gazaeus tem pulsaremur.
 
+## Livro VII, Capítulo XIV
+
 Capítulo XIV.
 
 Exemplos para mostrar que a doença da cobiça é tripla.
@@ -1598,6 +1876,8 @@ Exemplos para mostrar que a doença da cobiça é tripla.
 E assim esta doença e estado insalubre são triplos e são condenados com igual aversão por todos os pais. Uma característica é esta, da qual descrevemos a mácula acima, que ao enganar pessoas miseráveis, as convence a acumular, embora nunca tenham tido nada próprio quando viveram no mundo. Outra, que obriga os homens a retomar e a desejar mais uma vez aquelas coisas que nos primeiros dias de sua renúncia ao mundo eles abandonaram. Um terceiro, que surge de um começo defeituoso e prejudicial e começa mal, não permite que aqueles a quem uma vez infectou com esta tibieza de espírito se despojem de todos os seus bens mundanos, por medo da pobreza e falta de fé; e aqueles que retêm dinheiro e propriedades aos quais certamente deveriam ter renunciado e abandonado, isso nunca permite chegar à perfeição do evangelho.
 
 E encontramos nas Sagradas Escrituras exemplos dessas três catástrofes que ocorreram sem punição leve. Pois quando Geazi desejou adquirir o que nunca tivera antes, não apenas deixou de obter o dom de profecia que teria sido seu receber de seu mestre por sucessão hereditária, mas, pelo contrário, foi coberto pela maldição do santo Eliseu com uma lepra perpétua: enquanto Judas, querendo retomar a posse da riqueza que havia anteriormente jogado fora quando seguiu a Cristo, não apenas caiu em trair o Senhor, e perdeu sua posição apostólica, mas também não foi permitido encerrar sua vida com o destino comum de todos, mas terminou com uma morte violenta. Mas Ananias e Safira, retendo uma parte do que antes era deles, foram punidos com a morte, segundo a palavra do apóstolo.
+
+## Livro VII, Capítulo XV
 
 Capítulo XV.
 
@@ -1619,6 +1899,8 @@ Pois "um homem de mente dobre é instável em todos os seus caminhos". (886) E p
 
 [890] S. Lucas ix. 62.
 
+## Livro VII, Capítulo XVI
+
 Capítulo XVI.
 
 Da autoridade sob a qual se abrigam aqueles que se opõem a despojar-se dos seus bens.
@@ -1632,6 +1914,8 @@ E embora tenham vergonha de abraçar com o Apóstolo aquele glorioso estado de a
 [892] S. Mat. xix. 21.
 
 [893] 2 Cor. ii. 27.
+
+## Livro VII, Capítulo XVII
 
 Capítulo XVII.
 
@@ -1659,11 +1943,15 @@ Mas isto ninguém se aventurará a afirmar, por mais tolo que seja.
 
 [899] Fil. 4. 15, 16.
 
+## Livro VII, Capítulo XVIII
+
 Capítulo XVIII.
 
 Que se quisermos imitar os apóstolos não devemos viver de acordo com as nossas próprias prescrições, mas seguir o seu exemplo.
 
 Portanto, se quisermos obedecer ao preceito do evangelho e nos mostrarmos seguidores do Apóstolo e de toda a igreja primitiva, ou dos pais que em nossos próprios dias alcançaram suas virtudes e perfeição, não devemos concordar com nossas próprias prescrições, prometendo a nós mesmos a perfeição desta nossa condição miserável e morna: mas seguindo seus passos, não devemos de forma alguma ter como objetivo cuidar de nossos próprios interesses, mas devemos buscar a disciplina e o sistema de um mosteiro, para que possamos, na verdade, renunciar a isso. mundo; não preservando nada daquelas coisas que desprezamos pela tentação da falta de fé; e devemos buscar nosso alimento diário, não em qualquer reserva de dinheiro próprio, mas em nosso próprio trabalho.
+
+## Livro VII, Capítulo XIX
 
 Capítulo XIX.
 
@@ -1673,11 +1961,15 @@ Existe atualmente um ditado de São Basílio, Bispo de Cesaréia, dirigido contr
 
 [900] O texto de Petschenig tem Syncletium como nome próprio. Gazaeus, porém, pensa que deveria ser Syncleticum; isto é, Sunkletikos ou Senador: e nas palavras de S. Basílio no final do capítulo realmente se lê (aparentemente sem qualquer autoridade ms.), Et Senatorem, inquit, perdidisti.
 
+## Livro VII, Capítulo XX
+
 Capítulo XX.
 
 Quão desprezível é ser vencido pela cobiça.
 
 E assim, se quisermos lutar legalmente no nosso combate espiritual, expulsemos também este perigoso inimigo dos nossos corações. Pois vencê-lo não demonstra grande virtude, mas ser derrotado por ele é vergonhoso e vergonhoso. Pois quando você é dominado por um homem forte, embora haja tristeza por ser derrubado e angústia pela perda da vitória, ainda assim algum consolo pode ser obtido pelos vencidos da força de seu oponente. Mas se o inimigo é uma criatura pobre e a luta é fraca, além da dor pela derrota, há uma confusão de caráter mais vergonhoso e uma vergonha que é pior que a perda.
+
+## Livro VII, Capítulo XXI
 
 Capítulo XXI.
 
@@ -1687,6 +1979,8 @@ E neste caso será a maior vitória e o triunfo duradouro, se, como se diz, a co
 
 [901] Gênesis iii. 15.
 
+## Livro VII, Capítulo XXII
+
 Capítulo XXII.
 
 Aquele que realmente não tem dinheiro ainda pode ser considerado cobiçoso.
@@ -1694,6 +1988,8 @@ Aquele que realmente não tem dinheiro ainda pode ser considerado cobiçoso.
 Pois é possível que mesmo aquele que não tem dinheiro não esteja de forma alguma livre da doença da cobiça, e que a bênção da penúria não lhe faça bem, porque ele não foi capaz de erradicar o pecado da cupidez: deliciando-se com as vantagens da pobreza, não no mérito da virtude, e satisfeito com o fardo da necessidade, não sem frieza de coração. Pois assim como a palavra do evangelho declara sobre aqueles que não estão contaminados no corpo, que são adúlteros no coração; [902] portanto, é possível que aqueles que não são de forma alguma pressionados pelo peso do dinheiro sejam condenados com a cobiça na disposição e na intenção. Pois era a oportunidade de possuir que faltava no caso deles, e não a vontade para isso: esta última é sempre coroada por Deus, e não pela compulsão. E assim devemos usar toda a diligência para que os frutos do nosso trabalho não sejam destruídos sem nenhum propósito. Pois é uma coisa miserável ter suportado os efeitos da pobreza e da miséria, mas ter perdido os seus frutos, por culpa de uma vontade abalada.
 
 [902] S. Mat. 28.
+
+## Livro VII, Capítulo XXIII
 
 Capítulo XXIII.
 
@@ -1703,11 +1999,15 @@ Você gostaria de saber quão perigoso e prejudicial esse incitamento, a menos q
 
 [903] Negationis (Petschenig). Outra leitura é necationis.
 
+## Livro VII, Capítulo XXIV
+
 Capítulo XXIV.
 
 Essa cobiça não pode ser superada exceto despojando-se de tudo.
 
 Este é um exemplo suficientemente terrível e claro desta tirania, que, uma vez que a mente é aprisionada por ela, não lhe permite respeitar nenhuma regra de honestidade, nem ficar satisfeita com quaisquer acréscimos aos seus ganhos. Pois devemos procurar pôr fim a esta loucura, não através das riquezas, mas despojando-nos delas. Por último, quando ele (ou seja, Judas) recebeu a sacola reservada para distribuição aos pobres, e confiou aos seus cuidados para esse propósito, para que ele pudesse pelo menos se satisfazer com bastante dinheiro e estabelecer um limite para sua avareza, ainda assim, seu suprimento abundante apenas explodiu em um incitamento de desejo ainda mais ganancioso, de modo que ele não estava mais pronto para roubar secretamente a sacola, mas na verdade para vender o próprio Senhor. Pois a loucura desta avareza não se contenta com nenhuma quantidade de riquezas.
+
+## Livro VII, Capítulo XXV
 
 Capítulo XXV.
 
@@ -1719,11 +2019,15 @@ Pois um, para escapar da pobreza, desejou recuperar o que havia abandonado; os o
 
 [904] Cf. Atos v.
 
+## Livro VII, Capítulo XXVI
+
 Capítulo XXVI.
 
 Essa cobiça traz à alma uma lepra espiritual.
 
 E tais são vistos como leprosos de espírito e coração, à semelhança de Geazi, que, desejando as riquezas incertas deste mundo, foi coberto com a mancha da lepra imunda, através da qual ele nos deixou um exemplo claro de que toda alma que está contaminada com a mancha da cupidez está coberta com a lepra espiritual do pecado, e é contada como impura diante de Deus com uma maldição perpétua.
+
+## Livro VII, Capítulo XXVII
 
 Capítulo XXVII.
 
@@ -1739,11 +2043,15 @@ Pois pela graça do Senhor você foi preparado para esse propósito, para que pu
 
 [907] Cf. S. Lucas xvii. 31.
 
+## Livro VII, Capítulo XXVIII
+
 Capítulo XXVIII.
 
 Que a vitória sobre a cobiça só pode ser obtida despojando-se de tudo.
 
 Esta é então a vitória perfeita sobre a cobiça: não permitir que um brilho do menor fragmento dela permaneça em nosso coração, pois sabemos que não teremos mais poder de apagá-la, se nutrirmos até mesmo a menor centelha dela em nós.
+
+## Livro VII, Capítulo XXIX
 
 Capítulo XXIX.
 
@@ -1752,6 +2060,8 @@ Como um monge pode manter a sua pobreza.
 E só podemos preservar esta virtude intacta se permanecermos num mosteiro e, como diz o Apóstolo, tendo comida e roupa, estivermos contentes com isso. [908]
 
 [908] 1Tm. vi. 8.
+
+## Livro VII, Capítulo XXX
 
 Capítulo XXX.
 
@@ -1763,15 +2073,19 @@ Tendo então em mente o julgamento de Ananias e Safira, tenhamos medo de reter q
 
 [910] S. Lucas xii. 20.
 
+## Livro VII, Capítulo XXXI
+
 Capítulo XXXI.
 
 Que ninguém pode vencer a cobiça se não permanecer no Cenóbio: e como se pode permanecer lá.
 
 Mas certamente não seremos obrigados a fazer isso, nem mesmo a permanecer sob o domínio de um sistema, a menos que a virtude da paciência, que só pode brotar da humildade como sua fonte, seja primeiro firmemente fixada e estabelecida em nós. Pois um nos ensina a não incomodar ninguém; a outra, suportar com magnanimidade as injustiças que nos são oferecidas.
 
-Livro VIII.
+# Livro VIII.
 
 Do Espírito de Ira.
+
+## Livro VIII, Capítulo I
 
 Capítulo I.
 
@@ -1793,6 +2107,8 @@ No nosso quarto combate, o veneno mortal da raiva tem de ser totalmente extirpad
 
 [917] Prov. xxxx. 22 (LXX.). 'Aner thumodes egeirei neikos, aner de orgilos exoruxen hamartian. O antigo latim fornecido por Sabatier tem "Vir animosus parit zixas: vir autem iracundus effodit peccata." O versículo é citado por Gregório, o Grande, em uma passagem que parece uma reminiscência das palavras de Cassiano com a leitura effundit por effodit (Moral V. xxxi.). A tradução de Jerônimo na Vulgata é bem diferente: “Vir iracundus provocat zixas: et qui ad indignandum facilis est erit ad peccandum proclivior”.
 
+## Livro VIII, Capítulo II
+
 Capítulo II.
 
 Daqueles que dizem que a raiva não é prejudicial, se estivermos zangados com aqueles que fazem o que é errado, visto que se diz que o próprio Deus está zangado.
@@ -1802,6 +2118,8 @@ Temos ouvido algumas pessoas tentando desculpar esta doença mais perniciosa da 
 [918] Sal. cv. (cvi.) 40.
 
 [919] Sal. vi. 2.
+
+## Livro VIII, Capítulo III
 
 Capítulo III.
 
@@ -1821,6 +2139,8 @@ Pois se, quando essas coisas são ditas de Deus, devem ser entendidas literalmen
 
 [925] 1Tm. vi. 16.
 
+## Livro VIII, Capítulo IV
+
 Capítulo IV.
 
 Em que sentido devemos compreender as paixões e as artes humanas que são atribuídas ao Deus imutável e incorpóreo.
@@ -1835,6 +2155,8 @@ Que seja suficiente para o nosso presente propósito, que visa contra o pecado d
 
 [926] Sobre a heresia dos Antropomorfitas, ver as notas na Conferência X. c. ii.
 
+## Livro VIII, Capítulo V
+
 Capítulo V.
 
 Quão calmo um monge deveria ser.
@@ -1847,17 +2169,23 @@ E assim, um monge que almeja a perfeição e deseja lutar legalmente em seu comb
 
 [929] Cfr. S. Matt. vii. 3-5.
 
+## Livro VIII, Capítulo VI
+
 Capítulo VI.
 
 Da paixão justa e injusta da ira.
 
 Por quase todas as causas, a emoção da ira transborda e cega os olhos da alma e, trazendo o raio mortal de uma doença pior sobre a agudeza de nossa visão, impede-nos de ver o sol da justiça. Não faz diferença se placas de ouro, ou chumbo, ou qualquer metal que você queira, sejam colocadas sobre nossas pálpebras, o valor do metal não faz diferença em nossa cegueira.
 
+## Livro VIII, Capítulo VII
+
 Capítulo VII.
 
 Do único caso em que a raiva nos é útil.
 
 Temos, deve-se admitir, um uso da raiva excelentemente implantado em nós, pelo qual só é útil e proveitoso admiti-lo, a saber, quando estamos indignados e nos enfurecemos contra as emoções lascivas de nosso coração, e ficamos irritados porque as coisas que temos vergonha de fazer ou dizer diante dos homens surgiram nos esconderijos de nosso coração, enquanto trememos na presença dos anjos e do próprio Deus, que permeia todas as coisas em todos os lugares, e tememos com o maior pavor os olhos. dAquele de quem os segredos dos nossos corações não podem ser escondidos.
+
+## Livro VIII, Capítulo VIII
 
 Capítulo VIII.
 
@@ -1875,6 +2203,8 @@ Pode ser que o Senhor considere minha aflição e me devolva o bem por esta mald
 
 [932] 2 Sam. XVI. 10-12.
 
+## Livro VIII, Capítulo IX
+
 Capítulo IX.
 
 Da raiva que deveria ser dirigida contra nós mesmos.
@@ -1886,6 +2216,8 @@ Ele não quer dizer evidentemente o seguinte: irai-vos com as vossas faltas e co
 [933] Sal. 4. 5.
 
 [934] Ef. 4. 26.
+
+## Livro VIII, Capítulo X
 
 Capítulo X.
 
@@ -1903,17 +2235,23 @@ E deste sol Deus claramente faz menção pelo profeta, quando Ele diz: “Mas pa
 
 [939] O texto de Petschenig é o seguinte: Ceterum si usque ad occasum solis licitur sit irasci, ante furoris satietas et ultrices iræ - comotionem poterunt noxiæ perturbationis explere, quam sol iste ad locum sui vergat occasus. O de Gazaus tem "ante perturbationes noxiæ poterunt furoris satietatem et ultricis iræ commotionem explere, etc."
 
+## Livro VIII, Capítulo XI
+
 Capítulo XI.
 
 Daqueles para cuja ira nem mesmo o pôr do sol estabelece limites.
 
 Mas o que direi daqueles (e não posso dizê-lo sem vergonha da minha parte) cuja implacabilidade nem mesmo o pôr do sol estabelece limites: mas prolongando-o por vários dias, e alimentando sentimentos de rancor contra aqueles contra quem foram excitados, dizem em palavras que não estão zangados, mas de facto e de facto mostram que estão extremamente perturbados? Pois não falam com eles de maneira agradável, nem se dirigem a eles com a civilidade comum, e pensam que não estão fazendo nada de errado nisso, porque não procuram vingar-se de sua perturbação. Mas como eles não ousam, ou pelo menos não são capazes de mostrar abertamente a sua raiva, e dar lugar a ela, eles introduzem, em seu próprio detrimento, o veneno da raiva, e secretamente o nutrem em seus corações, e silenciosamente se alimentam dele em si mesmos; sem se livrar com um esforço mental de sua disposição mal-humorada, mas digerindo-a com o passar dos dias e atenuando-a um pouco depois de um tempo.
 
+## Livro VIII, Capítulo XII
+
 Capítulo XII.
 
 Como este é o fim do temperamento e da raiva quando um homem os leva a agir tanto quanto pode.
 
 Mas parece que mesmo isso não foi o fim da vingança para todos, mas alguns só podem satisfazer completamente a sua ira ou mau humor se levarem a cabo o impulso da raiva tanto quanto puderem; e sabemos que este é o caso daqueles que restringem seus sentimentos, não pelo desejo de acalmá-los, mas simplesmente pela falta de oportunidade de vingança. Pois eles não podem fazer mais nada com aqueles com quem estão irados, exceto falar com eles sem a civilidade comum: ou parece que a raiva deveria ser moderada apenas na ação, e não ser totalmente arrancada de seu esconderijo em nosso seio: de modo que, oprimidos por suas sombras, somos incapazes não apenas de admitir a luz do conselho saudável e do conhecimento, mas também de ser um templo do Espírito Santo, enquanto o espírito de raiva habitar em nós. Pois a ira que é nutrida no coração, embora possa não ferir os homens que estão por perto, ainda exclui o esplendor do esplendor do Espírito Santo, igualmente com a ira que é manifestada abertamente.
+
+## Livro VIII, Capítulo XIII
 
 Capítulo XIII.
 
@@ -1927,6 +2265,8 @@ Ou como podemos pensar que o Senhor a manteria mesmo por um instante, já que El
 
 [942] 1Tm. ii. 8.
 
+## Livro VIII, Capítulo XIV
+
 Capítulo XIV.
 
 Da reconciliação com nosso irmão.
@@ -1934,6 +2274,8 @@ Da reconciliação com nosso irmão.
 E porque muitas vezes desprezamos os irmãos que estão feridos e entristecidos, e os desprezamos, e dizemos que eles não foram feridos por nenhuma falha nossa, o Curador de almas, que conhece todos os segredos, desejando erradicar totalmente todas as oportunidades de raiva de nossos corações, não apenas nos ordena a perdoar se tivermos sido injustiçados, e a nos reconciliarmos com nossos irmãos, e a não guardar nenhuma lembrança de injustiças ou injúrias contra eles, mas Ele também dá uma acusação semelhante, que caso tenhamos consciência de que eles têm alguma coisa contra nós, seja justa ou injustamente, devemos deixar a nossa dádiva, isto é, adiar as nossas orações, e apressar-nos primeiro a oferecer-lhes satisfação; e assim, quando a cura de nosso irmão for efetuada pela primeira vez, poderemos trazer a oferta de nossas orações sem mácula. Pois o Senhor comum de todos não se importa tanto com a nossa homenagem, mas com perder em um o que ganha em outro, permitindo que o descontentamento reine em nós.
 
 Pois na perda de qualquer um sofre alguma perda aquele que deseja e busca a salvação de todos os Seus servos de uma mesma maneira. E, portanto, nossa oração perderá o efeito, se nosso irmão tiver algo contra nós, tanto quanto se nutrissemos sentimentos de amargura contra ele com um espírito inchado e irado.
+
+## Livro VIII, Capítulo XV
 
 Capítulo XV.
 
@@ -1945,17 +2287,23 @@ Mas por que deveríamos gastar mais tempo com os preceitos evangélicos e apost�
 
 [944] Prov. xii. 28 (LXX.).
 
+## Livro VIII, Capítulo XVI
+
 Capítulo XVI.
 
 Quão inútil é a aposentadoria de quem não abre mão dos maus modos.
 
 Às vezes, quando somos dominados pelo orgulho ou pela impaciência, e queremos melhorar nossos modos rudes e pessimistas, reclamamos que precisamos de solidão, como se devêssemos encontrar a virtude da paciência onde ninguém nos provoca: e pedimos desculpas por nosso descuido, e dizemos que a razão de nossa perturbação não provém de nossa própria impaciência, mas da culpa de nossos irmãos. E enquanto colocarmos a culpa de nossas falhas nos outros, nunca seremos capazes de alcançar a meta da paciência e da perfeição.
 
+## Livro VIII, Capítulo XVII
+
 Capítulo XVII.
 
 Que a paz do nosso coração não depende da vontade do outro, mas está no nosso próprio controle.
 
 A parte principal, então, do nosso progresso e paz de espírito não deve depender da vontade de outra pessoa, que não pode estar sujeita à nossa autoridade, mas reside antes no nosso próprio controle. E assim o facto de não estarmos zangados não deve resultar da perfeição de outra pessoa, mas da nossa própria virtude, que é adquirida, não pela paciência de outra pessoa, mas pela nossa própria longanimidade.
+
+## Livro VIII, Capítulo XVIII
 
 Capítulo XVIII.
 
@@ -1964,6 +2312,8 @@ Do zelo com que devemos buscar o deserto e das coisas em que ali progredimos.
 Além disso, são aqueles que são perfeitos e purificados de todas as falhas que devem buscar o deserto, e quando tiverem exterminado completamente todas as suas falhas em meio à assembléia dos irmãos, deverão entrar nele não por meio de uma fuga covarde, mas com o propósito da contemplação divina, e com o desejo de uma visão mais profunda das coisas celestiais, que só pode ser obtida na solidão por aqueles que são perfeitos. Pois quaisquer falhas que trouxermos conosco sem cura para o deserto, descobriremos que permanecerão ocultas em nós e das quais não nos livraremos. Pois assim como quando o caráter é melhorado, a solidão pode abrir-lhe a mais pura contemplação e revelar o conhecimento dos mistérios espirituais ao seu olhar claro, também geralmente não apenas preserva, mas intensifica as falhas daqueles que não foram submetidos a nenhuma correção.
 
 Pois um homem parece ser paciente e humilde, desde que não encontre ninguém nas relações sexuais; mas ele logo retornará à sua natureza anterior, sempre que ocorrer a chance de qualquer tipo de paixão: quero dizer que aquelas falhas que estavam escondidas aparecerão imediatamente na superfície e, como cavalos desenfreados diligentemente fartos durante um tempo muito longo de ociosidade, sairão das barreiras com mais avidez e ferocidade, para a destruição de seu cocheiro. Pois quando a oportunidade de praticá-los entre os homens for removida, nossas faltas aumentarão cada vez mais em nós, a menos que primeiro tenhamos sido purificados delas. E a mera sombra de paciência que, quando nos misturamos com nossos irmãos, parecíamos possuir fantasiosamente, pelo menos por respeito a eles e por publicidade, perdemos completamente por meio da preguiça e do descuido.
+
+## Livro VIII, Capítulo XIX
 
 Capítulo XIX.
 
@@ -1974,6 +2324,8 @@ Mas é como todas as espécies venenosas de serpentes ou animais selvagens, que,
 Portanto, para um método de perfeição, não será de nenhuma utilidade que haja uma escassez de homens contra quem nossa raiva possa ser despertada: visto que, se a paciência ainda não tiver sido adquirida, os sentimentos de paixão que ainda habitam em nossos corações podem igualmente gastar-se em coisas estúpidas e objetos insignificantes, e não nos permitir alcançar um estado contínuo de paz, ou ficar livre de nossas faltas remanescentes: a menos que talvez pensemos que alguma vantagem e uma espécie de cura podem ser obtidas para nossa paixão pelo fato de que coisas inanimadas e coisas mudas não podem responder às nossas maldições e raiva, nem provocar o nosso temperamento ingovernável a explodir em uma loucura de paixão pior.
 
 [945] Lendo não innoxia (Petschenig).
+
+## Livro VIII, Capítulo XX
 
 Capítulo XX.
 
@@ -1995,6 +2347,8 @@ E, portanto, para evitar a prática do homicídio, a raiva e o ódio são elimin
 
 [951] Rom. ii. 15, 16.
 
+## Livro VIII, Capítulo XXI
+
 Capítulo XXI.
 
 Se devemos admitir o acréscimo de “sem causa”, no que está escrito no Evangelho, “todo aquele que está zangado com seu irmão”, etc.
@@ -2003,21 +2357,27 @@ Mas você deve saber que neste, que é encontrado em muitas cópias, "Quem está
 
 [952] S. Mat. v. 22. A palavra eike é dita por Westcott e Host como sendo “Ocidental e Síria”. Está faltando em ', B, Orígenes, e não foi admitido por Jerônimo na Vulgata.
 
+## Livro VIII, Capítulo XXII
+
 Capítulo XXII.
 
 Os remédios pelos quais podemos erradicar a raiva de nossos corações.
 
 Portanto, o atleta de Cristo que luta legalmente deve erradicar completamente o sentimento de ira. E será um remédio seguro para esta doença, se em primeiro lugar decidirmos que nunca devemos ficar zangados, seja por boas ou más razões: como sabemos que perderemos imediatamente a luz do discernimento, e a segurança do bom conselho, e a nossa própria retidão, e o caráter temperante da justiça, se a luz principal do nosso coração tiver sido obscurecida pelas suas sombras; Espírito Santo enquanto o espírito de raiva reside em nós; por último, que devemos considerar que nunca devemos orar, nem derramar a nossa oração a Deus, enquanto estamos com raiva. E acima de tudo, tendo diante dos nossos olhos a condição incerta da humanidade, devemos compreender diariamente que em breve deixaremos o corpo, e que a nossa continência e castidade, a nossa renúncia a todos os nossos bens, o nosso desprezo pela riqueza, os nossos esforços em jejuns e vigílias não nos ajudarão em nada, se apenas por causa da raiva e do ódio nos forem atribuídos castigos eternos pelo juiz do mundo.
 
-Livro IX.
+# Livro IX.
 
 Do Espírito de Abatimento.
+
+## Livro IX, Capítulo I
 
 Capítulo I.
 
 Como o nosso quinto combate é contra o espírito de abatimento e dos danos que ele inflige à alma.
 
 Em nosso quinto combate, temos que resistir às dores do desânimo corrosivo: pois se isso, através de ataques separados feitos ao acaso, e por mudanças aleatórias e casuais, garantiu uma oportunidade de tomarmos posse de nossa mente, isso nos mantém afastados em todos os momentos de todo insight na contemplação divina, e arruína e deprime completamente a mente que se afastou de seu completo estado de pureza. Não lhe permite fazer suas orações com a habitual alegria de coração, nem permite que confie no conforto da leitura das escrituras sagradas, nem permite que seja quieto e gentil com os irmãos; torna-o impaciente e áspero em todos os deveres de trabalho e devoção: e, à medida que todo conselho saudável é perdido e a firmeza de coração destruída, torna os sentimentos quase loucos e bêbados, e os esmaga e oprime com desespero penal.
+
+## Livro IX, Capítulo II
 
 Capítulo II.
 
@@ -2026,6 +2386,8 @@ Dos cuidados com que a doença do desânimo deve ser curada.
 Portanto, se estamos ansiosos por nos esforçarmos legalmente na luta do nosso combate espiritual, devemos, com não menos cuidado, começar a curar também esta doença. Pois "assim como a mariposa fere a roupa, e o verme a madeira, assim desanima o coração do homem". [953] Com suficiente clareza e adequação o Espírito Divino expressou a força desta falha perigosa e muito prejudicial.
 
 [953] Prov. xxv. 20 (LXX.).
+
+## Livro IX, Capítulo III
 
 Capítulo III.
 
@@ -2041,17 +2403,23 @@ Pois a roupa comida pelas traças não tem mais nenhum valor comercial ou bom us
 
 [957] Não posso. eu. 16 (LXX.).
 
+## Livro IX, Capítulo IV
+
 Capítulo IV.
 
 De onde e de que maneira surge o desânimo.
 
 Mas às vezes verifica-se que resulta da falha de uma raiva anterior, ou surge do desejo de algum ganho que não foi realizado, quando um homem descobre que falhou na sua esperança de garantir as coisas que havia planejado. Mas às vezes, sem qualquer razão aparente para sermos levados a cair neste infortúnio, ficamos subitamente, por instigação do nosso astuto inimigo, deprimidos com uma tristeza tão grande que não podemos receber com civilidade comum as visitas daqueles que nos são próximos e queridos; e qualquer que seja o assunto da conversa que eles iniciem, nós o consideramos inoportuno e inadequado; e não podemos dar-lhes nenhuma resposta civilizada, pois o fel da amargura toma conta de todos os cantos do nosso coração.
 
+## Livro IX, Capítulo V
+
 Capítulo V.
 
 Que as perturbações são causadas em nós não pelas falhas dos outros, mas pelas nossas próprias.
 
 Daí está claramente provado que as dores das perturbações nem sempre são causadas em nós pelas faltas dos outros, mas sim pelas nossas próprias, pois armazenamos em nós mesmos as causas da ofensa e as sementes das faltas, que, assim que uma chuva de tentações rega nossa alma, imediatamente explodem em brotos e frutos.
+
+## Livro IX, Capítulo VI
 
 Capítulo VI.
 
@@ -2061,11 +2429,15 @@ Pois ninguém é levado ao pecado por ser provocado pela culpa de outro, a menos
 
 [958] Incuriam (Petschenig): Injuriam (Gazæus).
 
+## Livro IX, Capítulo VII
+
 Capítulo VII.
 
 Que não devemos desistir do relacionamento com nossos irmãos para buscar a perfeição, mas sim cultivar constantemente a virtude da paciência.
 
 E assim Deus, o criador de todas as coisas, tendo em conta acima de tudo a correção de Sua própria obra, e porque as raízes e causas de nossas quedas não são encontradas nos outros, mas em nós mesmos, ordena que não devemos desistir do relacionamento com nossos irmãos, nem evitar aqueles que pensamos terem sido magoados por nós, ou por quem fomos ofendidos, mas nos ordena a pacificá-los, sabendo que a perfeição do coração não é garantida pela separação dos homens, mas pela virtude da paciência. Que quando é mantido com segurança, pois pode nos manter em paz mesmo com aqueles que odeiam a paz, então, se não tiver sido adquirido, nos faz diferir perpetuamente daqueles que são perfeitos e melhores do que nós: pois oportunidades de perturbação, por causa das quais estamos ansiosos para nos afastar daqueles com quem estamos ligados, não faltarão enquanto vivermos entre os homens; e, portanto, não escaparemos completamente, mas apenas mudaremos as causas do desânimo pelas quais nos separamos de nossos antigos amigos.
+
+## Livro IX, Capítulo VIII
 
 Capítulo VIII.
 
@@ -2077,11 +2449,15 @@ Devemos então fazer o nosso melhor para nos esforçarmos para corrigir nossas f
 
 [960] Sal. cxviii. (cxix.) 165.
 
+## Livro IX, Capítulo IX
+
 Capítulo IX.
 
 De outro tipo de desânimo que produz desespero de salvação.
 
 Há, também, outro tipo de desânimo ainda mais censurável, que não produz na alma culpada nenhuma alteração de vida ou correção de faltas, mas o desespero mais destrutivo: que não fez Caim se arrepender após o assassinato de seu irmão, ou Judas, após a traição, apressou-se em aliviar-se fazendo as pazes, mas o levou a se enforcar em desespero.
+
+## Livro IX, Capítulo X
 
 Capítulo X.
 
@@ -2091,6 +2467,8 @@ E, portanto, devemos ver que o abatimento só nos é útil em um caso, quando no
 
 [961] 2 Cor. vii. 10.
 
+## Livro IX, Capítulo XI
+
 Capítulo XI.
 
 Como podemos decidir o que é útil e a tristeza segundo Deus, e o que é diabólico e mortal.
@@ -2099,11 +2477,15 @@ Mas aquele desânimo e tristeza que "opera o arrependimento inabalável para a s
 
 [962] Gál. 22, 23.
 
+## Livro IX, Capítulo XII
+
 Capítulo XII.
 
 Que, exceto aquela tristeza saudável, que surge de três maneiras, toda tristeza e desânimo devem ser resistidos como prejudiciais.
 
 Portanto, exceto aquela tristeza que é suportada por uma questão de penitência salvadora, ou por uma questão de almejar a perfeição, ou pelo desejo do futuro, toda tristeza e desânimo devem igualmente ser resistidos, como pertencentes a este mundo, e sendo aquilo que “opera a morte”, e deve ser inteiramente expulso de nossos corações como o espírito de fornicação, cobiça e raiva.
+
+## Livro IX, Capítulo XIII
 
 Capítulo XIII.
 
@@ -2111,9 +2493,11 @@ O meio pelo qual podemos erradicar o desânimo de nossos corações.
 
 Seríamos então capazes de expulsar de nossos corações essa paixão tão prejudicial, para que, pela meditação espiritual, possamos manter nossa mente constantemente ocupada com a esperança do futuro e a contemplação da bem-aventurança prometida. Pois desta forma seremos capazes de superar todos esses tipos de desânimo, sejam aqueles que fluem da raiva anterior ou aqueles que vêm até nós da decepção de ganho, ou de alguma perda, ou aqueles que surgem de um mal feito a nós, ou aqueles que surgem de uma perturbação irracional da mente, ou aqueles que nos trazem um desespero mortal, se, sempre alegres com uma visão das coisas eternas e futuras, e continuando imóveis, não estivermos deprimidos por acidentes presentes, ou excessivamente exultantes pela prosperidade, mas considere cada condição como incerta e que provavelmente desaparecerá em breve.
 
-Livro X.
+# Livro X.
 
 Do Espírito de Accidie. [963]
+
+## Livro X, Capítulo I
 
 Capítulo I.
 
@@ -2122,6 +2506,8 @@ Como é o nosso sexto combate contra o espírito da acídia e qual é o seu car�
 Nosso sexto combate é contra o que os gregos chamam de akedia, que podemos chamar de cansaço ou angústia de coração. Isso é semelhante ao desânimo e é especialmente penoso para os solitários, e um inimigo perigoso e frequente para os moradores do deserto; e especialmente perturbador para um monge por volta da sexta hora, como uma febre que o acomete em horários determinados, trazendo o calor ardente de seus ataques ao homem doente em horários normais e regulares. Por último, há alguns anciãos que declaram que este é o “demônio do meio-dia” mencionado no Salmo noventa. [964]
 
 [964] Sal. xc. (xci.) 6, onde o latim "et dæmonio meridiano" segue a LXX. kai daimoniou mesembrinou, em vez de "a destruição que assola ao meio-dia".
+
+## Livro X, Capítulo II
 
 Capítulo II.
 
@@ -2135,6 +2521,8 @@ Além disso, ele olha ansiosamente para um lado e para outro, e suspira porque n
 
 [965] Velut tætra suppletur caligine (Petschenig); o texto de Gazæus lê terra por tætra.
 
+## Livro X, Capítulo III
+
 Capítulo III.
 
 Das diferentes maneiras pelas quais a acidie supera um monge.
@@ -2142,6 +2530,8 @@ Das diferentes maneiras pelas quais a acidie supera um monge.
 E assim a alma miserável, envergonhada por tais artifícios do inimigo, fica perturbada, até que, exausta pelo espírito de accidie, como por algum forte aríete, ou aprende a afundar no sono, ou, expulsa do confinamento de sua cela, acostuma-se a buscar consolo sob esses ataques ao visitar algum irmão, apenas para depois ser enfraquecida ainda mais por este remédio que busca no momento. Pois com mais freqüência e mais severidade o inimigo atacará aquele que, quando a batalha começar, como ele bem sabe, imediatamente virará as costas, e a quem ele vê procurar segurança nem na vitória nem na luta, mas na fuga: até que pouco a pouco ele é afastado de sua cela e começa a esquecer o objeto de sua profissão, que nada mais é do que meditação e contemplação daquela pureza divina que excede todas as coisas, e que só pode ser obtida pelo silêncio e pela permanência contínua na cela, e pela meditação, e assim o soldado de Cristo se torna um fugitivo de Seu serviço, e desertor, e "se envolve em negócios seculares", sem agradar de forma alguma Aquele com quem se comprometeu. [966]
 
 [966] 2Tm. ii. 4.
+
+## Livro X, Capítulo IV
 
 Capítulo IV.
 
@@ -2151,17 +2541,23 @@ Todos os inconvenientes desta doença são admiravelmente expressos por Davi em 
 
 [967] Sal. cxviii. (cxix.) 28, onde o LXX. tem enustaxen ele psuche mou apo akedias.
 
+## Livro X, Capítulo V
+
 Capítulo V.
 
 Como o ataque de ácido é duplo.
 
 E assim o verdadeiro atleta cristão que deseja lutar legalmente nas listas da perfeição, deve apressar-se em expulsar esta doença também dos recônditos de sua alma; e deve lutar contra esse espírito maligno de acidie em ambas as direções, para que ele não caia no sono, nem seja expulso do claustro monástico, mesmo que sob alguma desculpa ou pretexto piedoso, e parta como um fugitivo.
 
+## Livro X, Capítulo VI
+
 Capítulo VI.
 
 Quão prejudiciais são os efeitos da acidez.
 
 E sempre que começa a superar alguém em qualquer grau, ou o faz ficar em sua cela ocioso e preguiçoso, sem fazer nenhum progresso espiritual, ou o expulsa de lá e o torna inquieto e errante, e indolente no assunto de todos os tipos de trabalho, e o faz andar continuamente pelas celas dos irmãos e dos mosteiros, sem olhar para nada além disso; a saber, onde ou com que desculpa ele pode atualmente obter algum refresco. Pois a mente de um preguiçoso não pode pensar em nada além de comida e barriga, até que a companhia de algum homem ou mulher, igualmente frio e indiferente, esteja assegurada, e ele se perca em seus assuntos e negócios, e seja assim, pouco a pouco, enredado por ocupações perigosas, de modo que, como se estivesse preso nas espirais de uma serpente, nunca mais possa se desembaraçar e retornar à perfeição de sua antiga profissão.
+
+## Livro X, Capítulo VII
 
 Capítulo VII.
 
@@ -2191,6 +2587,8 @@ E quando ele vai falar daqueles que não trabalham com as próprias mãos e come
 
 [970] 2 Tes. iii. 6.
 
+## Livro X, Capítulo VIII
+
 Capítulo VIII.
 
 Que certamente ficará inquieto aquele que não se contentará com o trabalho de suas próprias mãos.
@@ -2209,11 +2607,15 @@ Pois não só durante todo o dia, mas também à noite, o que parece ser concedi
 
 [974] 2 Tes. iii. 8.
 
+## Livro X, Capítulo IX
+
 Capítulo IX.
 
 Que não apenas o apóstolo, mas aqueles dois que estavam com ele trabalharam com as próprias mãos.
 
 E ele testemunha que não foi só ele quem viveu entre eles, para que esse método não parecesse importante ou geral se ele dependesse apenas de seu exemplo. Mas ele declara que todos aqueles que foram designados com ele para o ministério do evangelho, isto é, Silvano e Timóteo, que escreveram isto com ele, trabalharam da mesma maneira. Pois, ao dizer: “para que não sejamos um fardo para nenhum de vocês, ele os cobre de grande vergonha. Pois se aquele que pregou o evangelho e o recomendou por sinais e obras poderosas, não se atreveu a comer pão de graça, para que não fosse um fardo para alguém, como podem aqueles homens deixar de pensar que são pesados ​​​​que o tomam todos os dias na ociosidade e no seu lazer?
+
+## Livro X, Capítulo X
 
 Capítulo X.
 
@@ -2225,11 +2627,15 @@ E, portanto, ao pregar o evangelho, preferi ser sustentado por minhas próprias 
 
 [975] Permissão (Petschenig). Promissum (Gazæus).
 
+## Livro X, Capítulo XI
+
 Capítulo XI.
 
 Que ele pregou e ensinou os homens a trabalhar não apenas pelo seu exemplo, mas também pelas suas palavras.
 
 Mas, para que não se possa pensar que, embora ele trabalhasse em silêncio e tentasse ensiná-los pelo exemplo, ele não os instruísse por meio de preceitos e advertências, ele passou a dizer: “Pois quando estávamos convosco, isto vos declaramos: se um homem não quer trabalhar, também não deve comer”. Ainda maior ele faz aparecer a ociosidade deles, pois, embora soubessem que ele, como um bom mestre, trabalhava com as mãos para ensinar e para instruí-los, ainda assim tinham vergonha de imitá-lo; e ele enfatiza nossa diligência e cuidado dizendo que não apenas lhes deu isso como exemplo quando presentes, mas que também o proclamou continuamente em palavras; dizendo que se alguém não quer trabalhar, também não deve comer.
+
+## Livro X, Capítulo XII
 
 Capítulo XII.
 
@@ -2239,6 +2645,8 @@ E agora ele não lhes dirige mais o conselho de um professor ou médico, mas pro
 
 [976] 2 Cor. x. 2, 8.
 
+## Livro X, Capítulo XIII
+
 Capítulo XIII.
 
 De sua declaração: “Ouvimos dizer que alguns entre vocês andam desordenadamente”.
@@ -2246,6 +2654,8 @@ De sua declaração: “Ouvimos dizer que alguns entre vocês andam desordenadam
 Então, depois de todo esse rigor de severidade evangélica, ele agora expõe a razão pela qual apresentou todos esses assuntos. "Pois ouvimos que alguns entre vocês andam desordenadamente, não trabalhando, mas curiosamente se intrometendo." Ele não se contenta em falar daqueles que não se entregam ao trabalho, como se fossem vítimas de apenas uma única doença. Pois em sua primeira Epístola (977) ele fala deles como “desordeiros” e não andando de acordo com as tradições que receberam dele: e ele também afirma que eles estavam inquietos e comiam o pão de graça. Novamente ele diz aqui: “Ouvimos dizer que há alguns entre vocês que andam desordenadamente”. E imediatamente ele acrescenta uma segunda fraqueza, que é a raiz dessa inquietação, e diz: "não trabalha de jeito nenhum"; acrescenta também uma terceira doença, que surge desta última como um broto: "mas curiosamente intrometida".
 
 [977] Um erro da parte de Cassiano: a referência é a 2 Tes. iii. 6.
+
+## Livro X, Capítulo XIV
 
 Capítulo XIV.
 
@@ -2255,6 +2665,8 @@ E assim ele não perde tempo em aplicar imediatamente um remédio adequado ao in
 
 [978] O texto de Gazæus tem oratio, mas a leitura que Petschenig dá, operatio manuum, é claramente assim.
 
+## Livro X, Capítulo XV
+
 Capítulo XV.
 
 Quão bondade deve ser demonstrada até mesmo para com os ociosos e descuidados.
@@ -2263,6 +2675,8 @@ No entanto, como um médico clarividente e cuidadoso, ele não está apenas ansi
 
 [979] S. Mat. v. 43-45.
 
+## Livro X, Capítulo XVI
+
 Capítulo XVI.
 
 Como devemos advertir aqueles que erram, não por ódio, mas por amor.
@@ -2270,6 +2684,8 @@ Como devemos advertir aqueles que erram, não por ódio, mas por amor.
 Mas, novamente, caso alguns possam ser encorajados por essa gentileza e desprezar a obediência aos seus mandamentos, ele prossegue com a severidade de um apóstolo: “Mas, se alguém não obedecer à nossa palavra nesta epístola, observe esse homem e não faça companhia com ele, para que ele se envergonhe”. E ao alertá-los sobre o que devem observar por respeito a ele e ao bem de todos, e do cuidado com que devem guardar os mandamentos apostólicos, imediatamente ele junta à advertência a bondade de um pai muito indulgente; e ensina-lhes também, como se fossem seus filhos, que disposição fraterna devem cultivar para com os acima mencionados, por amor. "No entanto, não o considere um inimigo, mas admoeste-o como um irmão." Com a severidade de um juiz combina o carinho de um pai e tempera com bondade e doçura a sentença proferida com severidade apostólica.
 
 Pois ele ordena que observem aquele homem que despreza obedecer às suas ordens e não fazer companhia a ele; e, no entanto, ele não lhes ordena que façam isso por um sentimento errado de antipatia, mas por afeição fraternal e por consideração pela sua correção. “Não faça companhia”, diz ele, “com ele para que ele se envergonhe”; para que, mesmo que ele não melhore com minhas leves acusações, ele possa finalmente ser envergonhado ao ser publicamente separado de todos vocês, e assim algum dia começar a ser restaurado ao caminho da salvação.
+
+## Livro X, Capítulo XVII
 
 Capítulo XVII.
 
@@ -2281,6 +2697,8 @@ Na Epístola aos Efésios também ele dá uma ordem sobre este assunto do trabal
 
 [981] Atos xviii. 1-3.
 
+## Livro X, Capítulo XVIII
+
 Capítulo XVIII.
 
 Que o apóstolo fez o que pensava ser suficiente para ele e para outros que estavam com ele.
@@ -2291,11 +2709,15 @@ E assim como ele diz aos tessalonicenses que havia trabalhado para dar-lhes um e
 
 [982] Atos xx. 33-35.
 
+## Livro X, Capítulo XIX
+
 Capítulo XIX.
 
 Como devemos entender estas palavras: “É mais abençoado dar do que receber”.
 
 E ele diz que esta é uma ordem do Senhor: “Pois Ele mesmo”, ou seja, o Senhor Jesus, disse ele, “disse que é mais bem-aventurado dar do que receber”. Isto é, a generosidade de quem dá é mais abençoada do que a necessidade de quem recebe, onde a dádiva não é fornecida por dinheiro que foi retido por incredulidade ou falta de fé, nem pelos tesouros acumulados da avareza, mas é produzida a partir dos frutos do nosso próprio trabalho e trabalho honesto. E assim “é mais abençoado dar do que receber”, porque embora o doador compartilhe a pobreza de quem recebe, ainda assim ele é diligente em fornecer cuidados piedosos por seu próprio trabalho, não apenas o suficiente para suas próprias necessidades, mas também o que ele pode dar a alguém necessitado; e assim ele é adornado com uma graça dupla, pois ao doar todos os seus bens ele assegura a perfeita abnegação de Cristo, e ainda assim, por seu trabalho e pensamento, demonstra a generosidade dos ricos; honrando assim a Deus por seu trabalho honesto e colhendo para ele os frutos de sua justiça, enquanto outro, enervado pela preguiça e preguiça indolente, prova ser indigno de comida pelas palavras do apóstolo, pois, desafiando sua ordem, ele a come na ociosidade, não sem a culpa do pecado e da obstinação.
+
+## Livro X, Capítulo XX
 
 Capítulo XX.
 
@@ -2308,6 +2730,8 @@ E quando, ao invadir secretamente o mosteiro, ele o convenceu a consentir, e com
 [983] A referência é provavelmente a Ecclus xxiii. 29, "A ociosidade ensinou muito mal."
 
 [984] 1 Cor. xv. 33.
+
+## Livro X, Capítulo XXI
 
 Capítulo XXI.
 
@@ -2347,6 +2771,8 @@ E ainda: “Todo preguiçoso está sempre necessitado”. [995] E destes o Após
 
 [998] 2 Tes. iii. 11, 6; 1 Tes. 4. 11.
 
+## Livro X, Capítulo XXII
+
 Capítulo XXII.
 
 Como os irmãos no Egito trabalham com as mãos, não apenas para suprir as suas próprias necessidades, mas também para ministrar aos que estão na prisão.
@@ -2355,11 +2781,15 @@ E assim ensinados por estes exemplos, os Padres no Egito nunca permitem que os m
 
 [999] Os monges do Egito eram famosos por seus trabalhos, e a linguagem de Cassiano pode ser ilustrada em muitas passagens dos Padres; por exemplo, Epifânio, em seu terceiro livro contra as heresias, compara os monges, e especialmente os do Egito, às abelhas, por causa de sua diligência. Assim, São Jerônimo, escrevendo a Rusticus (Ep. cxxv.), Diz que ninguém é recebido em um mosteiro no Egito a menos que trabalhe, e que esta regra é feita para o bem da alma e não para fornecer comida. Compare também Sozomen HE VI. xxviii., onde se diz de Serapião e seus seguidores no bairro de Arsinöe que "eles viviam do produto de seu trabalho e sustentavam os pobres. Durante a época da colheita, eles se ocupavam na colheita: reservavam milho suficiente para seu próprio uso e forneciam grãos gratuitamente para os outros monges". S. Basílio também, em suas Constituições Monásticas cc. 4. e v., fala fortemente do valor do trabalho e a Regra de S. Bento (c. xlviii.) ordena que “como a ociosidade é inimiga da alma, os irmãos devem empregar-se alternadamente no trabalho manual e na leitura piedosa”.
 
+## Livro X, Capítulo XXIII
+
 Capítulo XXIII.
 
 Essa ociosidade é a razão pela qual não existem mosteiros para monges no Ocidente.
 
 É por isso que nestes países não vemos mosteiros encontrados com tal número de irmãos: pois eles não são sustentados pelos recursos do seu próprio trabalho de tal forma que possam permanecer neles continuamente; e se de uma forma ou de outra, através da liberalidade de outro, deveria haver uma provisão suficiente para supri-los, ainda assim, o amor pela comodidade e a inquietação do coração não os permitem continuar por muito tempo no local. Daí este ditado ter sido transmitido pelos antigos pais do Egito: que um monge que trabalha é atacado por apenas um demônio; mas um preguiçoso é atormentado por inúmeros espíritos.
+
+## Livro X, Capítulo XXIV
 
 Capítulo XXIV.
 
@@ -2373,6 +2803,8 @@ Por último, o Abade Paulo, um dos maiores dos Padres, enquanto vivia num vasto 
 
 [1002] Mansio usado aqui e novamente na Conferência XXIV. 4. para a etapa de uma jornada de um dia.
 
+## Livro X, Capítulo XXV
+
 Capítulo XXV.
 
 As palavras do Abade Moisés que ele me disse sobre a cura da acídia.
@@ -2383,9 +2815,11 @@ Quando eu estava começando minha estada no deserto, e disse ao Abade Moisés, o
 
 [963] Veja a nota no Bk. V. c. eu.
 
-Livro XI.
+# Livro XI.
 
 Do Espírito de Vanglória.
+
+## Livro XI, Capítulo I
 
 Capítulo I.
 
@@ -2393,17 +2827,23 @@ Como é o nosso sétimo combate contra o espírito de vanglória e qual a sua na
 
 Nosso sétimo combate é contra o espírito da kenodoxia, que podemos chamar de glória vã ou ociosa: um espírito que assume muitas formas, e é mutável e sutil, de modo que pode com dificuldade, não direi ser protegido, mas ser visto através e descoberto até mesmo pelos olhos mais aguçados.
 
+## Livro XI, Capítulo II
+
 Capítulo II.
 
 Como a vanglória ataca um monge não apenas em seu lado carnal, mas também em seu lado espiritual.
 
 Pois isso não apenas, como o resto de suas falhas, ataca um monge em seu lado carnal, mas também em seu lado espiritual, insinuando-se por astúcia e astúcia em sua mente: de modo que aqueles que não podem ser enganados por vícios carnais são mais gravemente feridos por sua proficiência espiritual; e é tanto pior lutar contra ele quanto é mais difícil protegê-lo. Pois o ataque de todos os outros vícios é mais aberto e direto, e no caso de cada um deles, quando aquele que os provoca se depara com uma recusa determinada, ele irá embora mais fraco por isso, e o adversário que foi derrotado atacará na próxima ocasião sua vítima com menos vigor. Mas esta doença, quando ataca a mente por meio do orgulho carnal e é repelida pelo escudo da resposta, novamente, como uma maldade que assume muitas formas, muda sua antiga aparência e caráter, e sob a aparência das virtudes tenta derrubar e destruir seu conquistador.
 
+## Livro XI, Capítulo III
+
 Capítulo III.
 
 Quantas formas e formas assume a vanglória.
 
 Pois pode-se dizer que nossas outras falhas e paixões são mais simples e têm apenas uma forma: mas esta assume muitas formas e contornos, e muda e ataca o homem que se levanta contra ela por todos os lados, e ataca seu conquistador por todos os lados. Pois tenta ferir o soldado de Cristo em sua vestimenta, em sua maneira, em seu andar, em sua voz, em seu trabalho, em suas vigílias, em seus jejuns, em suas orações, quando ele se retira, quando lê, em seu conhecimento, em seu silêncio, em sua obediência, em sua humildade, em sua paciência; e como uma rocha muito perigosa escondida pelas ondas agitadas, causa um naufrágio imprevisto e miserável para aqueles que navegam com uma boa brisa, enquanto não estão atentos ou protegidos contra ela.
+
+## Livro XI, Capítulo IV
 
 Capítulo IV.
 
@@ -2419,11 +2859,15 @@ Se ele não consegue derrubar um homem pela honra, ele o derruba pela humildade.
 
 [1006] Fil. iii. 19.
 
+## Livro XI, Capítulo V
+
 Capítulo V.
 
 Uma comparação que mostra a natureza da vanglória.
 
 Nossos mais velhos descrevem admiravelmente a natureza dessa doença como a de uma cebola e daqueles bulbos que, quando despojados de uma cobertura, vocês descobrem que estão embainhados em outra; e sempre que você os tira, você ainda os encontra protegidos.
+
+## Livro XI, Capítulo VI
 
 Capítulo VI.
 
@@ -2437,11 +2881,15 @@ E assim resulta que aqueles de nós que não puderam ser vencidos no conflito co
 
 [1008] Fil. iii. 14.
 
+## Livro XI, Capítulo VII
+
 Capítulo VII.
 
 Como a vanglória, depois de superada, surge novamente mais entusiasmada do que nunca para a luta.
 
 Todos os vícios, quando superados, tornam-se fracos e, quando vencidos, tornam-se mais fracos a cada dia, e tanto em relação ao lugar quanto ao tempo, diminuem e diminuem, ou pelo menos, como são diferentes das virtudes opostas, são mais facilmente evitados e evitados: mas este, quando derrotado, surge novamente mais aguçado do que nunca para a luta; e quando pensamos que está destruído, ele revive, ainda mais forte para a sua morte. Os outros tipos de vícios geralmente atacam apenas aqueles que foram superados no conflito; mas este persegue seus vencedores com ainda mais intensidade; e quanto mais completamente resistida, tanto mais vigorosamente ataca o homem que está exultante com sua vitória sobre ela. E aqui reside a astúcia do nosso adversário, nomeadamente, no facto de que, quando ele não consegue vencer o soldado de Cristo pelas armas do inimigo, ele o derruba com a sua própria lança.
+
+## Livro XI, Capítulo VIII
 
 Capítulo VIII.
 
@@ -2449,11 +2897,15 @@ Como a vanglória não é dissipada nem no deserto nem com o passar dos anos.
 
 Outros vícios, como dissemos, às vezes são atenuados pelas vantagens de posição, e quando a questão do pecado e a ocasião e oportunidade para ele são removidas, afrouxam e diminuem: mas este penetra nos desertos com o homem que está fugindo dele, nem pode ser excluído de qualquer lugar, nem quando o material externo para ele é removido, ele falha. Pois é simplesmente encorajado pelas conquistas das virtudes do homem a quem ataca. Pois todos os outros vícios, como dissemos acima, às vezes diminuem com o passar do tempo e desaparecem: esta duração de vida, a menos que seja apoiada por uma diligência hábil e uma discrição prudente, não é um obstáculo, mas na verdade fornece-lhe um novo combustível para a vaidade.
 
+## Livro XI, Capítulo IX
+
 Capítulo IX.
 
 Essa vanglória é ainda mais perigosa por estar misturada com virtudes.
 
 Por último, outras paixões que são inteiramente diferentes das virtudes que são seus opostos, e que nos atacam abertamente e como se estivessem em plena luz do dia, são mais facilmente superadas e protegidas: mas este estar entrelaçado com as nossas virtudes e enredado na batalha, lutando por assim dizer sob a cobertura da escuridão da noite, engana ainda mais perigosamente aqueles que estão desprevenidos e não vigilantes.
+
+## Livro XI, Capítulo X
 
 Capítulo X.
 
@@ -2469,6 +2921,8 @@ Tanta bondade, tantas virtudes, fé e devoção, grandes o suficiente para preva
 
 [1010] 2 Crô. xxxii. 24-26.
 
+## Livro XI, Capítulo XI
+
 Capítulo XI.
 
 O exemplo do rei Uzias, que foi vencido pela mancha da mesma doença.
@@ -2476,6 +2930,8 @@ O exemplo do rei Uzias, que foi vencido pela mancha da mesma doença.
 De Uzias, o ancestral deste rei de quem falamos, ele próprio também elogiado em todas as coisas pelo testemunho das Escrituras, depois de grande elogio por sua virtude, depois de inúmeros triunfos que alcançou pelo mérito de sua devoção e fé, saiba como foi abatido pelo orgulho da vanglória. “E”, somos informados, “o nome de Uzias foi divulgado, porque o Senhor o ajudou e o fortaleceu. Mas quando ele se fortaleceu, seu coração se elevou até a destruição, e ele negligenciou o Senhor seu Deus”. [1011] Você contempla outro exemplo de queda terrível e vê como dois homens tão íntegros e excelentes foram destruídos por seus próprios triunfos e vitórias. Daí você vê quão perigosos são geralmente os sucessos da prosperidade, de modo que aqueles que não poderiam ser prejudicados pela adversidade são arruinados, a menos que sejam cuidadosos, pela prosperidade; e aqueles que no conflito da batalha escaparam do perigo da morte caem diante de seus próprios troféus e triunfos.
 
 [1011] 2 Crô. xxvi. 15, 16.
+
+## Livro XI, Capítulo XII
 
 Capítulo XII.
 
@@ -2489,6 +2945,8 @@ E por isso o Apóstolo nos adverte: “Não desejeis vanglória”. [1012] E o S
 
 [1014] Sal. lii. (liii.) 6.
 
+## Livro XI, Capítulo XIII
+
 Capítulo XIII.
 
 Das maneiras pelas quais a vanglória ataca um monge.
@@ -2497,17 +2955,23 @@ No caso também de iniciantes e daqueles que ainda fizeram pouco progresso, seja
 
 [1015] isto é, em jejum.
 
+## Livro XI, Capítulo XIV
+
 Capítulo XIV.
 
 Como isso sugere que um homem pode tentar receber ordens sagradas.
 
 Mas às vezes cria um desejo de receber ordens sagradas e um desejo de receber o sacerdócio ou o diaconado. E representa que se um homem recebeu este ofício, mesmo contra a sua vontade, ele o cumprirá com tal santidade e rigor que poderá dar exemplo de santidade até mesmo a outros sacerdotes; e que ele conquistará muitas pessoas, não apenas pelo seu modo de vida, mas também pelo seu ensino e pregação. Faz com que um homem, mesmo quando sozinho e sentado em sua cela, percorra com a mente e a imaginação as residências e mosteiros de outros, e faça muitas conversões sob os incentivos da exultação imaginária.
 
+## Livro XI, Capítulo XV
+
 Capítulo XV.
 
 Como a vanglória intoxica a mente.
 
 E assim a alma miserável é afetada por tal vaidade - como se estivesse iludida por um sono profundo - que muitas vezes é levada pelo prazer de tais pensamentos, e cheia de tais imaginações, de modo que não consegue nem mesmo olhar para as coisas presentes, ou para os irmãos, enquanto gosta de meditar nessas coisas, das quais, com seus pensamentos errantes, tem sonhos acordados, como se fossem verdadeiros.
+
+## Livro XI, Capítulo XVI
 
 Capítulo XVI.
 
@@ -2517,6 +2981,8 @@ Lembro-me de um ancião, quando eu estava no deserto de Scete, que foi à cela d
 
 [1016] Celebrare velut diaconum cacatechumenis missam. Missa é aqui usada para a demissão dos catecúmenos, que cabia ao diácono proclamar. Todo o culto foi dividido em duas partes: (1) a missa dos catecúmenos, contendo as lições das Escrituras, o sermão e as orações para os catecúmenos; e (2) a missa dos fiéis, ou a Eucaristia propriamente dita. No final da primeira parte, o diácono advertiu os catecúmenos para se afastarem, em palavras que variam ligeiramente em diferentes igrejas, mas substancialmente as mesmas em todas, tanto no leste como no oeste: por ex. na Liturgia de São Crisóstomo a forma é “Que todos os catecúmenos partam: que nenhum dos catecúmenos - Que todos os fiéis -”; no de S. Marcos é ainda mais breve: “Olhai para que nenhum dos catecúmenos”. O missal romano não contém agora esta característica, mas certamente foi originalmente encontrada nele, pois é aludido por Gregório, o Grande (Dial. Livro II. c. xxiii.), que dá a seguinte forma: "Si quis non communicat det locum." Também era costume na Espanha e na Gália, bem como na África, sendo aludido por Agostinho no Sermão xlix.: "Ecce post sermonen fit missa cacatechumenis: manebunt fideles, venietur ad locum orationis."
 
+## Livro XI, Capítulo XVII
+
 Capítulo XVII.
 
 Como as falhas não podem ser curadas a menos que suas raízes e causas sejam descobertas.
@@ -2525,11 +2991,15 @@ Achei bom inserir essas coisas neste meu pequeno trabalho, para que pudéssemos 
 
 Assim como os médicos inteligentes estão acostumados não apenas a curar doenças já existentes, mas também, por meio de uma habilidade sábia, a procurar evitar as futuras e a preveni-las por meio de suas prescrições e poções de cura, também esses verdadeiros médicos da alma, por meio de conferências espirituais, como um antídoto celestial, destroem de antemão aquelas doenças da alma que surgiriam, e não permitem que elas ganhem posição nas mentes dos mais jovens, à medida que lhes revelam as causas das paixões que os ameaçam, e os remédios que irá curá-los.
 
+## Livro XI, Capítulo XVIII
+
 Capítulo XVIII.
 
 Como um monge deveria evitar mulheres e bispos.
 
 Portanto, esta é uma velha máxima dos Padres que ainda é atual – embora eu não possa produzi-la sem vergonha de minha parte, já que não pude evitar minha própria irmã, nem escapar das mãos do bispo – a saber, que um monge deve, por todos os meios, fugir das mulheres e dos bispos. Pois nenhum deles permitirá que aquele que uma vez esteve unido em relações íntimas cuide mais da tranquilidade de sua cela, ou continue com olhos puros na contemplação divina através de sua visão das coisas sagradas.
+
+## Livro XI, Capítulo XIX
 
 Capítulo XIX.
 
@@ -2541,9 +3011,11 @@ Pois por meio desses sinais será mostrado que a mancha mortal da vanglória se 
 
 [1017] Sal. lii. (liii.) 6.
 
-Livro XII.
+# Livro XII.
 
 Do Espírito de Orgulho.
+
+## Livro XII, Capítulo I
 
 Capítulo I.
 
@@ -2551,11 +3023,15 @@ Como nosso oitavo combate é contra o espírito de orgulho e seu caráter.
 
 Nosso oitavo e último combate é contra o espírito de orgulho, que é o mal, embora seja o último em nosso conflito com nossas falhas e fique em último lugar na lista, mas no começo e na ordem do tempo é o primeiro: uma besta maligna que é mais selvagem e mais terrível do que todas as anteriores, provando principalmente aqueles que são perfeitos, e devorando com sua terrível mordida aqueles que quase alcançaram a consumação da virtude.
 
+## Livro XII, Capítulo II
+
 Capítulo II.
 
 Como existem dois tipos de orgulho.
 
 E desse orgulho existem dois tipos: aquele pelo qual dissemos que os melhores homens e os de mentalidade espiritual estavam perturbados; a outra, aquela que agride até os principiantes e as pessoas carnais. E embora cada tipo de orgulho seja despertado em relação a Deus e ao homem por uma perigosa euforia, ainda assim esse primeiro tipo tem a ver mais particularmente com Deus; a segunda refere-se especialmente aos homens. Da origem desta última e dos remédios para ela, trataremos, com a ajuda de Deus, tanto quanto possível, na última parte deste livro. Propomos agora dizer algumas coisas sobre esse primeiro tipo, pelo qual, como mencionei antes, aqueles que são perfeitos são especialmente provados.
+
+## Livro XII, Capítulo III
 
 Capítulo III.
 
@@ -2564,6 +3040,8 @@ Como o orgulho é igualmente destrutivo para todas as virtudes.
 Não há então nenhuma outra falta que seja tão destrutiva de todas as virtudes, e que roube e despoje de um homem toda a justiça e santidade, como este mal do orgulho, que como alguma doença pestilenta ataca o homem inteiro, e, não contente em danificar uma parte ou um membro apenas, fere todo o corpo por sua influência mortal, e se esforça para derrubar por uma queda mais fatal, e destruir aqueles que já estavam no topo da árvore das virtudes. Pois qualquer outra falha é satisfeita dentro de seus próprios limites e limites, e embora obscureça também outras virtudes, ainda assim é principalmente dirigida contra apenas uma, e especialmente ataca e ataca esta. E assim (para tornar meu significado mais claro) a gula, isto é, os apetites do ventre e os prazeres do paladar, é destrutivo da temperança estrita: a luxúria mancha a pureza, a raiva destrói a paciência: de modo que às vezes um homem que está escravo de algum pecado não carece totalmente de outras virtudes: mas sendo simplesmente privado daquela única virtude que na luta cede ao vício que é seu rival e se opõe a ele, pode, até certo ponto, preservar suas outras virtudes: mas esta aquele que, uma vez tomado posse de alguma alma infeliz, como algum tirano mais brutal, quando a elevada cidadela das virtudes foi tomada, destrói completamente e devasta toda a cidade; e nivelando com o solo dos vícios os outrora altos muros da santidade, e confundindo-os, não permite que nenhuma sombra de liberdade sobreviva doravante na alma sujeita a ela.
 
 E na proporção em que era originalmente mais rico, agora o jugo da servidão será mais severo, através do qual, por meio de suas cruéis devastações, despojará a alma que subjugou de todos os seus poderes de virtude.
+
+## Livro XII, Capítulo IV
 
 Capítulo IV.
 
@@ -2579,6 +3057,8 @@ Por isso, sendo abandonado por Deus, de quem ele imaginava não mais precisar, e
 
 [1019] Sal. li. (lii.) 6-9.
 
+## Livro XII, Capítulo V
+
 Capítulo V.
 
 Que os incentivos para todos os pecados surgem do orgulho.
@@ -2586,6 +3066,8 @@ Que os incentivos para todos os pecados surgem do orgulho.
 Esta é a razão da primeira queda e o ponto de partida da doença original, que novamente se insinuando no primeiro homem, (1020) através daquele que já havia sido destruído por ela, produziu as fraquezas e os materiais de todas as falhas. Pois embora ele acreditasse que pela liberdade de sua vontade e por seus próprios esforços ele poderia obter a glória da Deidade, ele na verdade perdeu aquela glória que já possuía através do dom gratuito do Criador.
 
 [1020] Protoplastum cf. Sabedoria vi. 1; x. 1 onde Adão é chamado protoplastos. A partir dessas passagens o termo passou a ser comumente usado como designação de nossos primeiros pais. Então Clem. Alex. Strom. iii. 17: e em sua forma latina é encontrada na tradução inicial de Irineu. Haer. III. xxi. 20.
+
+## Livro XII, Capítulo VI
 
 Capítulo VI.
 
@@ -2609,11 +3091,15 @@ Se eu não tivesse uma mente humilde;” (1023) e novamente: “Aquele que prati
 
 [1027] Prov. XVI. 5 (LXX.).
 
+## Livro XII, Capítulo VII
+
 Capítulo VII.
 
 Que o mal do orgulho é tão grande que tem até o próprio Deus como adversário.
 
 Quão grande é o mal do orgulho, que com razão não tem nenhum anjo, nem outras virtudes opostas a ele, mas o próprio Deus como seu adversário! Visto que deve-se notar que nunca se diz daqueles que estão enredados em outros pecados que Deus lhes resiste; Quero dizer que não é dito que Deus se opõe “aos glutões, fornicadores, apaixonados ou avarentos”, mas apenas “aos orgulhosos”. Pois esses pecados reagem apenas sobre aqueles que os cometem, ou parecem ser cometidos contra aqueles que os participam, isto é, contra outros homens; mas este tem mais a ver com Deus e, portanto, é especialmente correto que Ele se oponha a ele.
+
+## Livro XII, Capítulo VIII
 
 Capítulo VIII.
 
@@ -2649,6 +3135,8 @@ E assim Deus, o Criador e Curador de todos, sabendo que o orgulho é a causa e f
 
 [1041] S. Mat. xxvi. 53.
 
+## Livro XII, Capítulo IX
+
 Capítulo IX.
 
 Como nós também podemos superar o orgulho.
@@ -2665,6 +3153,8 @@ E assim podemos escapar da armadilha deste espírito maligno, se no caso de cada
 
 [1046] Rom. Ix. 16.
 
+## Livro XII, Capítulo X
+
 Capítulo X.
 
 Como ninguém pode obter a virtude perfeita e a felicidade prometida apenas com sua própria força.
@@ -2677,6 +3167,8 @@ Pois a vontade e o curso de ninguém, por mais ávido e ansioso que seja, (1047)
 
 [1049] 1 Cor. 4. 7.
 
+## Livro XII, Capítulo XI
+
 Capítulo XI.
 
 O caso do ladrão e de Davi, e do nosso chamado para ilustrar a graça de Deus.
@@ -2687,17 +3179,23 @@ Pois se nos lembrarmos daquele ladrão que foi admitido no paraíso por causa de
 
 [1051] Cf. 2Sam. xii. 13.
 
+## Livro XII, Capítulo XII
+
 Capítulo XII.
 
 Que nenhum trabalho digno de ser comparado com a felicidade prometida.
 
 Pois todos os longos anos desta vida presente desaparecem quando você considera a eternidade da glória futura: e todas as nossas tristezas desaparecem na contemplação daquela vasta bem-aventurança, e como fumaça se dissipam, e se transformam em nada, e como cinzas não são mais vistas.
 
+## Livro XII, Capítulo XIII
+
 Capítulo XIII.
 
 O ensinamento dos mais velhos sobre o método de aquisição de pureza.
 
 Portanto, agora é hora de apresentar, nas próprias palavras com que eles a transmitem, a opinião dos Padres; a saber, daqueles que não pintaram o caminho da perfeição e seu caráter em palavras altissonantes, mas sim, possuindo-o em ações e verdade, e na virtude de seu espírito, transmitiram-no por sua própria experiência e exemplo seguro. E assim dizem que ninguém pode ser totalmente purificado dos pecados carnais, a menos que compreenda que todos os seus trabalhos e esforços são insuficientes para um fim tão grande e perfeito; e a menos que seja ensinado, não pelo sistema que lhe foi transmitido, mas pelos seus sentimentos, virtudes e pela sua própria experiência, ele reconhece que só pode ser obtido pela misericórdia e assistência de Deus. Pois, para adquirir tais prêmios esplêndidos e elevados de pureza e perfeição, por maiores que sejam os esforços de jejuns, vigílias, leituras, solidão e retiro aplicados a ele, eles não serão suficientes para garanti-lo pelos méritos dos esforços e labuta reais. Pois os próprios esforços e esforços humanos de um homem nunca compensarão a falta do dom divino, a menos que seja concedido pela compaixão divina em resposta à sua oração.
+
+## Livro XII, Capítulo XIV
 
 Capítulo XIV.
 
@@ -2717,6 +3215,8 @@ Pois Ele está próximo para conceder todas essas coisas, se apenas a oportunida
 
 [1056] Sal. LXVII. (lxiii.) 29.
 
+## Livro XII, Capítulo XV
+
 Capítulo XV.
 
 Com quem podemos aprender o caminho da perfeição.
@@ -2725,11 +3225,15 @@ E assim, se desejamos de fato e de verdade alcançar a coroa das virtudes, devem
 
 E, portanto, declararam que buscavam a recompensa da vida futura, não nos méritos de suas obras, mas na misericórdia do Senhor, não assumindo nenhum crédito para si mesmos por sua grande circunspecção de coração em comparação com os outros, visto que atribuíam isso não aos seus próprios esforços, mas à graça divina; e sem se lisonjearem por causa do descuido daqueles que são frios e piores do que eles próprios, eles almejavam uma humildade duradoura, fixando seu olhar naqueles que eles sabiam estar realmente livres do pecado e já no gozo da bem-aventurança eterna no reino dos céus, e assim, por esta consideração, eles evitaram a queda do orgulho, e ao mesmo tempo sempre viram tanto o que eles estavam almejando quanto o que eles tinham que lamentar: como eles sabiam que não poderiam alcançar aquela pureza de coração pela qual eles ansiava enquanto estava sobrecarregado pelo fardo da carne.
 
+## Livro XII, Capítulo XVI
+
 Capítulo XVI.
 
 Que não podemos nem nos esforçar para obter a perfeição sem a misericórdia e a inspiração de Deus.
 
 Devemos, portanto, de acordo com seus ensinamentos e instruções, prosseguir nessa direção e ser diligentes em jejuns, vigílias, orações e contrição de coração e corpo, por medo de que todas essas coisas se tornem inúteis por um ataque desta doença. Pois devemos acreditar não apenas que não podemos garantir essa perfeição real por nossos próprios esforços e esforços, mas também que não podemos realizar aquelas coisas que praticamos por causa dela, ou seja, nossos esforços, esforços e desejos, sem a assistência da proteção divina, e a graça de Sua inspiração, castigo e exortação, que Ele normalmente derrama em nossos corações, seja através da instrumentalidade de outro, ou em Sua própria pessoa vindo nos visitar.
+
+## Livro XII, Capítulo XVII
 
 Capítulo XVII.
 
@@ -2773,6 +3277,8 @@ Meu Deus é meu ajudador e nele colocarei minha confiança. Meu protetor e o chi
 
 [1070] Sal. XVII. (xviii.) 2-4.
 
+## Livro XII, Capítulo XVIII
+
 Capítulo XVIII.
 
 Como somos protegidos pela graça de Deus não só na nossa condição natural, mas também pela Sua Providência diária.
@@ -2781,11 +3287,15 @@ Não apenas dando graças a Ele por ter nos criado como seres razoáveis, e nos 
 
 [1071] A alusão é aos pelagianos. Cf. S. Jerônimo Contra Pelag. Eu. c. ix.; e em Jerém. c. xxv.; e S. Agostinho De Gratia Christi contra Pelag.
 
+## Livro XII, Capítulo XIX
+
 Capítulo XIX.
 
 Como esta fé a respeito da graça de Deus nos foi entregue pelos antigos Padres.
 
 Esta é então aquela humildade para com Deus, esta é aquela fé genuína dos antigos pais que ainda permanece intacta entre os seus sucessores. E desta fé, as virtudes apostólicas, que tantas vezes demonstraram, dão um testemunho indubitável, não só entre nós, mas também entre os infiéis e os incrédulos: por conservarem na simplicidade de coração a fé simples dos pescadores, não a receberam com espírito mundano através de silogismos dialéticos ou da eloquência de um Cícero, mas aprendidas pela experiência de uma vida pura e de ações imaculadas, e pela correção de suas faltas, e (para falar mais verdadeiramente) por provas visíveis, que o caráter da perfeição deve ser encontrado naquela fé sem a qual nem a piedade para com Deus, nem a purificação do pecado, nem a correção da vida, nem a perfeição da virtude podem ser asseguradas.
+
+## Livro XII, Capítulo XX
 
 Capítulo XX.
 
@@ -2796,6 +3306,8 @@ Conheci um dentre vários irmãos, que gostaria sinceramente de nunca ter conhec
 Daí é claro que aquele que está possuído pelo espírito de orgulho, ou que foi culpado de blasfêmia contra Deus, - como alguém que oferece um mal Àquele de quem o dom da pureza deve ser buscado - é privado de sua retidão e perfeição, e não merece a graça santificadora da castidade.
 
 [1072] Ou seja, o do sacerdócio.
+
+## Livro XII, Capítulo XXI
 
 Capítulo XXI.
 
@@ -2811,6 +3323,8 @@ E embora houvesse um número muito pequeno de sírios, o Senhor entregou em suas
 
 [1075] Prov. XVI. 5 (LXX).
 
+## Livro XII, Capítulo XXII
+
 Capítulo XXII.
 
 Que toda alma orgulhosa está sujeita à maldade espiritual para ser enganada por ela.
@@ -2819,11 +3333,15 @@ E isso mostra claramente que toda alma da qual os inchaços do orgulho se apossa
 
 [1076] Intelectuais.
 
+## Livro XII, Capítulo XXIII
+
 Capítulo XXIII.
 
 Como a perfeição só pode ser alcançada através da virtude da humildade.
 
 E assim fica claramente demonstrado que ninguém pode atingir o fim da perfeição e da pureza, exceto através da verdadeira humildade, que ele demonstra em primeira instância aos irmãos, e mostra também a Deus no mais íntimo de seu coração, acreditando que sem Sua proteção e ajuda que lhe são estendidas a cada instante, ele não pode obter a perfeição que deseja e à qual se apressa com tanto entusiasmo.
+
+## Livro XII, Capítulo XXIV
 
 Capítulo XXIV.
 
@@ -2832,6 +3350,8 @@ Quem é atacado pelo orgulho espiritual e quem é atacado pelo orgulho carnal.
 Assim, basta ter falado, tanto quanto, com a ajuda de Deus, nossa escassa capacidade foi capaz, a respeito do orgulho espiritual, do qual dissemos que ataca os cristãos avançados. E este tipo de orgulho não é familiar nem experimentado pela maioria dos homens, porque a maioria não visa atingir a pureza perfeita de coração, para chegar à fase destes conflitos; nem garantiram qualquer purificação das falhas anteriores, das quais explicamos aqui tanto o caráter quanto os remédios em livros separados. Mas geralmente ataca apenas aqueles que venceram as falhas anteriores e já quase chegaram ao topo da árvore no que diz respeito às virtudes. E porque nosso inimigo mais astuto não foi capaz de destruí-los através de uma queda carnal, ele se esforça para derrubá-los e derrubá-los por uma catástrofe espiritual, tentando assim roubar-lhes os prêmios de suas antigas recompensas garantidas como estavam com grande trabalho.
 
 Mas quanto a nós, que ainda estamos enredados em paixões terrenas, ele nunca se digna a nos tentar dessa maneira, mas nos derruba por um orgulho mais grosseiro e que chamei de orgulho carnal. E, portanto, acho bom, como prometi, dizer algumas coisas sobre esse tipo de orgulho pelo qual nós e os homens de nossa espécie somos geralmente afetados, e as mentes, especialmente dos homens mais jovens e iniciantes, estão em perigo.
+
+## Livro XII, Capítulo XXV
 
 Capítulo XXV.
 
@@ -2845,11 +3365,15 @@ Se, quando despojado de tudo, ele começou a ser sustentado pela propriedade de 
 
 [1078] Atos xx. 35.
 
+## Livro XII, Capítulo XXVI
+
 Capítulo XXVI.
 
 Que um homem cujos alicerces são ruins afunda diariamente de mal a pior.
 
 Aqueles então que são possuídos por tal desconfiança mental, e que pela falta de fé do próprio diabo se afastam daquela centelha de fé, pela qual pareciam estar acesos nos primeiros dias de sua conversão, começam a zelar com mais ansiedade pelo dinheiro que antes começaram a doar, e a valorizá-lo com maior avareza, como homens que não podem recuperar novamente o que uma vez desperdiçaram: ou - o que é ainda pior - recuperam o que antes haviam jogado fora: ou então (o que é um terceiro e o mais repugnante tipo de pecado), coletam o que nunca antes possuíram e, portanto, são convencidos de não terem ido além no abandono do mundo do que meramente assumir o nome e o estilo de monge. Com este começo, portanto, e sobre esta base ruim e podre, é natural que toda a superestrutura de falhas deva se erguer, e nada pode ser construído sobre tais fundações perversas, exceto aquilo que levará a alma miserável ao chão com um colapso desesperador.
+
+## Livro XII, Capítulo XXVII
 
 Capítulo XXVII.
 
@@ -2867,6 +3391,8 @@ E assim o resultado é que a conferência espiritual não é apenas inútil para
 
 [1080] Serietas (Petschenig): Taciturnitas (Gazæus).
 
+## Livro XII, Capítulo XXVIII
+
 Capítulo XXVIII.
 
 No orgulho de um certo irmão.
@@ -2874,6 +3400,8 @@ No orgulho de um certo irmão.
 Enquanto estive neste distrito, ouvi uma coisa que estremeço e tenho vergonha de lembrar; a saber, aquele dos juniores - quando foi reprovado por seu abade por ter mostrado sinais de abandonar a humildade, da qual ele havia testado por um curto período de tempo em sua renúncia ao mundo, e de estar cheio de orgulho diabólico - respondeu com muita impertinência: "Eu me humilhei por um tempo de propósito para estar sempre em sujeição?" E diante dessa sua resposta desenfreada e perversa, o mais velho ficou totalmente horrorizado e não pôde dizer nada, como se tivesse recebido essa resposta do próprio velho Lúcifer e não de um homem; de modo que ele não poderia pronunciar uma palavra contra tal atrevimento, mas apenas deixar escapar suspiros e gemidos de seu coração; revirando em silêncio em sua mente o que é dito de nosso Salvador: “O qual, sendo na forma de Deus, humilhou-se e tornou-se obediente” - não, como disse o homem que foi tomado por um espírito diabólico de orgulho, “por um tempo”, mas “até a morte”. [1081]
 
 [1081] Fil. ii. 6, 8.
+
+## Livro XII, Capítulo XXIX
 
 Capítulo XXIX.
 
@@ -2883,11 +3411,15 @@ E para reunir brevemente o que foi dito sobre esse tipo de orgulho, coletando, d
 
 Pois, como dissemos antes, você pode distinguir a condição interior de um homem pelo seu andar exterior. Por estes sinais, então, é demonstrado aquele orgulho carnal, de que falamos anteriormente. Para começar, na conversa a voz do homem é alta: no seu silêncio há amargura: na sua alegria o seu riso é ruidoso e excessivo: quando fala sério é excessivamente sombrio: nas suas respostas há rancor: ele é demasiado livre com a língua, as suas palavras saem ao acaso sem serem pesadas. Ele é totalmente desprovido de paciência e de caridade: atrevido ao oferecer insultos aos outros, tímido ao suportá-los ele mesmo: problemático em matéria de obediência, exceto quando seus próprios desejos e gostos correspondem ao seu dever: implacável ao receber admoestações; fraco em desistir de seus próprios desejos: muito teimoso em ceder aos dos outros: sempre tentando alcançar seus próprios objetivos, e nunca pronto para abandoná-los pelos outros: e assim o resultado é que, embora ele seja incapaz de dar bons conselhos, contudo, em tudo ele prefere a sua própria opinião à dos mais velhos.
 
+## Livro XII, Capítulo XXX
+
 Capítulo XXX.
 
 Como quando um homem esfria por causa do orgulho, ele quer ser colocado para governar outras pessoas.
 
 E quando um homem dominado pelo orgulho cai nesses estágios de descida, ele estremece diante da disciplina do cenóbio, e - como se a companhia dos irmãos impedisse sua perfeição, e os pecados dos outros impedissem e interferissem em seu avanço em paciência e humildade - ele anseia por morar em uma cela solitária; outro está ansioso para construir um mosteiro e reunir alguns outros para ensinar e instruir, como se ele fosse fazer o bem a muito mais pessoas, e transformar-se de um mau discípulo em um mestre ainda pior. Pois quando, através deste orgulho de coração, um homem cai nesta frieza tão perigosa e prejudicial, ele não pode ser um verdadeiro monge nem um homem do mundo, e o que é pior, promete a si mesmo alcançar a perfeição por meio deste seu estado e modo de vida miseráveis.
+
+## Livro XII, Capítulo XXXI
 
 Capítulo XXXI.
 
@@ -2897,6 +3429,8 @@ Portanto, se quisermos que o cume do nosso edifício seja perfeito e se eleve ag
 
 [1082] É. lxvi. 2. É digno de nota que Cassiano, depois de fornecer uma tradução que difere apenas ligeiramente daquela do latim antigo, conforme dada na grande obra de Sabbatier, acrescenta a versão “daquelas cópias que expressam o hebraico com precisão”, e assim mostra seu conhecimento da nova tradução de Jerônimo que ele cita. Ele faz a mesma coisa novamente nas Conferências XXIII. viii.; e Sobre a Encarnação Contra Nestório IV. III.; V.ii., xv. Compare também os Institutos VIII. xxi., e Conf. VIII. x.; onde ele também trai conhecimento da Vulgata. Como regra geral, porém, suas traduções são retiradas do latim antigo, ou possivelmente, em alguns casos, feitas por ele a partir da LXX.
 
+## Livro XII, Capítulo XXXII
+
 Capítulo XXXII.
 
 Como o orgulho, que é tão destrutivo de todas as virtudes, pode ser destruído pela verdadeira humildade.
@@ -2904,6 +3438,8 @@ Como o orgulho, que é tão destrutivo de todas as virtudes, pode ser destruído
 Portanto, o atleta cristão que se esforça legalmente no combate espiritual e deseja ser coroado pelo Senhor, deve esforçar-se por todos os meios para destruir esta besta mais feroz, que é destrutiva de todas as virtudes, sabendo que enquanto esta permanecer em seu peito, ele não apenas nunca estará livre de todos os tipos de males, mas mesmo que pareça ter quaisquer boas qualidades, as perderá por sua influência maligna. Pois nenhuma estrutura (por assim dizer) de virtude pode ser erguida em nossa alma, a menos que primeiro os fundamentos da verdadeira humildade sejam estabelecidos em nosso coração, os quais, sendo firmemente estabelecidos, possam ser capazes de suportar o peso da perfeição e do amor sobre eles, de tal maneira que, como dissemos, possamos primeiro mostrar aos nossos irmãos a verdadeira humildade do fundo do nosso coração, em nada concordando em entristecê-los ou em feri-los: e isso não podemos conseguir a menos que a verdadeira abnegação, que consiste em despojá-los e feri-los. privando-nos de todos os nossos bens, é implantado em nós pelo amor de Cristo.
 
 Em seguida, o jugo da obediência e da sujeição deve ser assumido com simplicidade de coração, sem qualquer pretensão, de modo que, exceto pelas ordens do Abade, nenhuma vontade própria esteja viva em nós. Mas isto só pode ser garantido no caso de alguém que se considera não apenas morto para este mundo, mas também insensato e tolo; e executa sem qualquer discussão tudo o que lhe é ordenado pelos mais velhos, acreditando ser divino e ordenado do céu.
+
+## Livro XII, Capítulo XXXIII
 
 Capítulo XXXIII.
 

@@ -103,7 +103,7 @@ Sabélio. A heresia sabeliana era comum no século anterior: ou seja, que a Pers
 
 Ou seja, um argumento contra o dualismo apenas confirmaria o judeu em seu severo monoteísmo. Manes ensinou também que “aquelas almas que acreditam que Jesus Cristo é o Filho de Deus renunciam à adoração do Deus dos judeus, que é o Príncipe das Trevas”, e que “o Antigo Testamento foi obra deste Príncipe, que foi substituído pelos judeus no lugar do verdadeiro Deus”. __________________________________________________________________
 
-Capítulo I.
+## Capítulo I.
 
 Mas como o nosso sistema religioso está habituado a observar uma distinção de pessoas na unidade da Natureza, para evitar que o nosso argumento na nossa disputa com os gregos desça ao nível do Judaísmo, há necessidade novamente de uma declaração técnica distinta, a fim de corrigir todos os erros neste ponto.
 
@@ -141,7 +141,7 @@ não deixará de funcionar; eu anenergeton einai. Esta é uma palavra favorita d
 
 bondade. "Deus é amor;" mas como esse amor está acima ou igual ao Poder? "A Bondade Infinita, de acordo com nossa apreensão, exige que ela esgote a onipotência: que ela dê capacidades de gozo e confira bênçãos até que não haja mais nada a ser conferido: mas nossa ideia de onipotência exige que ela seja inesgotável; que nada limite sua operação, de modo que ela não faça mais do que fez. Portanto, é muito mais fácil conceber uma criatura imperfeita completamente boa, do que um Ser perfeito que o é... Desde então, descobrimos nosso entendimento é incapaz de compreender a bondade infinita unida ao poder infinito, não precisamos nos surpreender ao encontrar nossos pensamentos perplexos a respeito deles... podemos presumir que a obscuridade surge de algo errado em nossas idéias, e não de quaisquer inconsistências nos próprios assuntos. Abraham Tucker, L. de N., i. 355. __________________________________________________________________
 
-Capítulo II.
+## Capítulo II.
 
 Assim como, então, pela ascensão mística superior de assuntos que nos dizem respeito a essa natureza transcendente, obtemos um conhecimento da Palavra, pelo mesmo método seremos levados a uma concepção do Espírito, observando em nossa própria natureza certas sombras e semelhanças de Seu poder inefável. Agora, em nós, o espírito (ou respiração) é a aspiração do ar, uma matéria diferente de nós mesmos, inalada e expirada para a necessária sustentação do corpo. Este, no momento de pronunciar a palavra, torna-se um enunciado que expressa em si mesmo o significado da palavra. E no caso da natureza Divina, foi considerado um ponto de nossa religião que existe um Espírito de Deus, assim como foi permitido que exista uma Palavra de Deus, por causa da inconsistência da Palavra de Deus ser deficiente em comparação com a nossa palavra, se, enquanto esta nossa palavra é contemplada em conexão com o espírito, aquela outra Palavra fosse considerada totalmente desconectada do espírito. Na verdade, não que seja um pensamento apropriado da Deidade que, segundo a maneira como respiramos, algo estranho de fora flua para Deus, e Nele se torne o Espírito; mas quando pensamos na Palavra de Deus, não consideramos a Palavra como algo insubstancial, nem o resultado de instrução, nem uma expressão da voz, nem o que depois de ser pronunciado desaparece, nem o que está sujeito a qualquer outra condição, como aquelas que são observadas em nossa palavra, mas como sendo essencialmente auto-subsistente, com uma faculdade de vontade sempre ativa, todo-poderosa.
 
@@ -153,7 +153,7 @@ fazendo induções sobre as verdades espirituais mais elevadas da "história". A
 
 kath'hupostasin. Ueberweg (Hist. of Philosophy, vol. i. 329) observa: "Que a mesma argumentação, que em última análise repousa apenas no duplo sentido de hupostasis (a saber: (a) subsistência real; (b) individualmente independente, não subsistência atributiva), poderia ser usada com referência a cada um dos atributos Divinos, e assim para a restauração completa do politeísmo, Gregório deixa despercebido. " No entanto, Gregório sem dúvida estava bem ciente disso, pois ele diz, logo abaixo, que mesmo um estudo severo do mistério só pode resultar em uma quantidade moderada de apreensão dele. __________________________________________________________________
 
-Capítulo III.
+## Capítulo III.
 
 E assim, aquele que estuda severamente as profundezas do mistério, recebe secretamente em seu espírito, na verdade, uma quantidade moderada de apreensão da doutrina da natureza de Deus, mas é incapaz de explicar claramente em palavras a profundidade inefável deste mistério. Como, por exemplo, como a mesma coisa é capaz de ser numerada e ainda assim rejeita a numeração, como é observada com distinções mas é apreendida como uma mônada, como é separada quanto à personalidade, mas não está dividida quanto ao assunto. Pois, na personalidade, o Espírito é uma coisa e a Palavra outra, e ainda novamente aquilo de que a Palavra e o Espírito são, outra. Mas quando você tiver adquirido a concepção de qual é a distinção entre estes, a unidade, novamente, da natureza não admite divisão, de modo que a supremacia da única Causa Primeira não é dividida e dividida em Divindades diferentes, nem a declaração se harmoniza com o dogma judaico, mas a verdade passa no meio-termo entre essas duas concepções, destruindo cada heresia, e ainda assim aceitando o que é útil para ela de cada uma.
 
@@ -161,7 +161,7 @@ O dogma judaico é destruído pela aceitação da Palavra e pela crença no Esp�
 
 é separado quanto à personalidade, mas não está dividido quanto ao assunto. As palavras são respectivamente hupostasis e hupokeimenon. A última palavra é com Gregório, cuja clareza nas distinções filosóficas torna o uso de palavras muito observável, sempre equivalente a ousia, e ousia geralmente a phusis. A seguinte nota de Casaubon (Epist. ad Eustath.) é valiosa: No Santo. Trindade, não há “confusão”, nem “composição”, nem “coalescência”; nem a “contração” sabeliana, nem a “divisão” ariana, nem, por outro lado, o “estranhamento” ou a “diferença”. Existe “distinção” ou “distribuição” sem divisão. Esta palavra “distribuição” é usada por Tertuliano e outros para expressar o efeito das “pessoas” (idiotetes, hupostaseis, prosopa) sobre a Divindade que forma a definição da substância (ho tes ousias logos). __________________________________________________________________
 
-Capítulo IV.
+## Capítulo IV.
 
 Mas se for o judeu quem contradiz estes argumentos, a nossa discussão com ele não apresentará mais a mesma dificuldade, uma vez que a verdade será manifestada a partir daquelas doutrinas nas quais ele foi educado. Para isso existe uma Palavra de Deus, e um Espírito de Deus, poderes essencialmente subsistentes, ambos criativos de tudo o que veio a existir, e abrangentes das coisas que existem, é mostrado na luz mais clara das Escrituras divinamente inspiradas. É suficiente relembrarmos um testemunho e deixarmos a descoberta de mais para aqueles que estão inclinados a se dar ao trabalho. “Pela Palavra do Senhor”, é dito, “os céus foram estabelecidos, e todo o poder deles pelo sopro de Sua boca”. Que palavra e que respiração? Pois a Palavra não é mero discurso, nem aquele sopro, mero sopro. A Deidade não seria reduzida ao nível da semelhança de nossa natureza humana, se fosse considerado uma doutrina que o Criador do universo usasse uma palavra e um sopro como este? Que poder decorrente da fala ou da respiração poderia existir de um tipo que fosse suficiente para o estabelecimento dos céus e dos poderes que neles existem?
 
@@ -171,7 +171,7 @@ ou seja, como com o grego.
 
 Sal. xxxiii. 4, versão Septuaginta. __________________________________________________________________
 
-Capítulo V.
+## Capítulo V.
 
 Que existe, então, uma Palavra de Deus, e um Sopro de Deus, o Grego, com as suas "idéias inatas", e o Judeu, com as suas Escrituras, talvez não negarão. Mas a dispensação no que diz respeito à Palavra de Deus, pela qual Ele se tornou homem, ambas as partes talvez rejeitassem igualmente, por ser incrível e inadequada para ser contada sobre Deus. Partindo, portanto, de outro ponto, levaremos estes opositores a acreditar neste facto. Eles acreditam que todas as coisas surgiram pelo pensamento e pela habilidade dAquele que estruturou o sistema do universo; ou então eles têm pontos de vista que não estão em conformidade com esta opinião. Mas se não admitissem que a razão e a sabedoria guiaram a estrutura do mundo, instalarão a irracionalidade e a inabilidade no trono do universo. Mas se isto é um absurdo e uma impiedade, é perfeitamente claro que eles devem permitir que o pensamento e a habilidade governem o mundo. Agora, no que foi dito anteriormente, foi demonstrado que a Palavra de Deus não é esta expressão real da palavra, ou a posse de alguma ciência ou arte, mas é um poder essencial e substancialmente existente, desejando todo o bem e possuindo força para executar toda a sua vontade; e, de um mundo que é bom, esse poder apetitivo e criador do bem é a causa.
 
@@ -199,7 +199,7 @@ S. Tiago i. 15: ele epithumia tiktei... hamartiano
 
 para kalon. A palavra grega para perfeição moral, de acordo com uma visão de sua derivação (kaiein), refere-se a “brilho”; de acordo com outro (cf. kekadmenos), para “terminar” ou perfeição. __________________________________________________________________
 
-Capítulo VI.
+## Capítulo VI.
 
 Mas talvez você procure conhecer a causa desse erro de julgamento; pois é para este ponto que tende o curso da nossa discussão. Mais uma vez, então, teremos razão em esperar encontrar algum ponto de partida que também esclareça esta investigação. Um argumento como o seguinte recebemos por tradição dos Padres; e este argumento não é uma mera narrativa mítica, mas um argumento que naturalmente convida à nossa credibilidade. De todas as coisas existentes há uma dupla forma de apreensão, sendo a consideração delas dividida entre o que pertence ao intelecto e o que pertence aos sentidos; e além disso não há nada a ser detectado na natureza das coisas existentes, que se estenda além desta divisão. Ora, estes dois mundos foram separados um do outro por um amplo intervalo, de modo que o sensível não está incluído nas qualidades que marcam o intelectual, nem este último nas qualidades que distinguem o sensível, mas cada um recebe seu caráter formal de qualidades opostas às do outro.
 
@@ -223,7 +223,7 @@ Isto não significa fazer do Diabo o Demiurgo, mas apenas o “anjo da Terra”.
 
 "Afirmamos que não é fácil, ou talvez possível, mesmo para um filósofo conhecer a origem do mal sem que ele lhe seja dado a conhecer por uma inspiração de Deus, de onde vem e como desaparecerá. A ignorância de Deus está na lista dos males; a ignorância de Sua maneira de curá-lo e de servi-Lo corretamente é em si o maior mal: afirmamos que ninguém pode conhecer a origem do mal, se não vê que o padrão de piedade reconhecido pela média das leis estabelecidas é em si um mal. Não também pode saber quem não compreendeu a verdade sobre o Ser que é chamado de Diabo; o que ele era no início e como ele se tornou tal como é. "- Orígenes (c. Cels. iv. 65). __________________________________________________________________
 
-Capítulo VII.
+## Capítulo VII.
 
 No entanto, ninguém pergunte: "Como foi que, se Deus previu o infortúnio que aconteceria ao homem por falta de pensamento, Ele veio criá-lo, já que talvez fosse mais vantajoso para ele não ter nascido do que estar no meio de tais males?" Isto é o que aqueles que se deixaram levar pelo falso ensino dos maniqueus apresentaram para estabelecer o seu erro, como capazes de mostrar que o Criador da natureza humana é mau. Pois se Deus não ignora nada do que existe, e ainda assim o homem está no meio do mal, o argumento a favor da bondade de Deus não poderia ser sustentado; isto é, se Ele trouxe à vida o homem que deveria estar neste mal. Pois se a força operacional que está de acordo com o bem é inteiramente aquela de uma natureza que é boa, então esta vida dolorosa e perecível, dizem eles, nunca pode ser atribuída à obra do bem, mas é necessário supor para uma vida como esta outro autor, de quem nossa natureza deriva sua tendência à miséria. Ora, todas essas e outras afirmações semelhantes parecem, para aqueles que estão completamente imbuídos da fraude herética, como de alguma mancha profundamente arraigada, ter uma certa força proveniente de sua plausibilidade superficial.
 
@@ -235,7 +235,7 @@ Mas se, quando a luz brilha intensamente num céu claro, um homem por sua própr
 
 1 Cor. ii. 15. __________________________________________________________________
 
-Capítulo VIII.
+## Capítulo VIII.
 
 No entanto, aquele que considera apenas a dissolução do corpo fica muito perturbado e torna difícil que esta nossa vida seja dissolvida pela morte; é, diz ele, o extremo do mal que nosso ser seja extinguido por esta condição de mortalidade. Deixe-o, então, observar através desta perspectiva sombria o excesso da benevolência Divina. Talvez com isso ele possa ser ainda mais induzido a admirar a graça do cuidado de Deus pelos assuntos do homem. Viver é desejável para aqueles que participam da vida, por causa do prazer das coisas em sua mente; visto que, se alguém vive com dores físicas, não existir é considerado por tal pessoa muito mais desejável do que existir com dores. Perguntemos, então, se Aquele que nos dá o equipamento para viver tem em vista algum outro objetivo além de como podemos passar a vida nas circunstâncias mais justas. Agora, desde que, por um movimento de nossa obstinação, contraímos uma comunhão com o mal e, devido a alguma gratificação sensual, misturamos esse mal com nossa natureza como algum ingrediente deletério que estraga o sabor do mel, e assim, afastando-nos daquela bem-aventurança que está envolvida no pensamento de falta de paixão, fomos cruelmente transformados - por esta razão, o homem, como um caco de barro, é reduzido novamente ao pó da terra, a fim de garantir que ele possa se separar do solo que agora possui. contraído, e que ele possa, através da ressurreição, ser reformado novamente segundo o padrão original; pelo menos se nesta vida que está agora ele preservou o que pertence a essa imagem.
 
@@ -277,7 +277,7 @@ Sal. xxxix. (xxxviii.) 11: "Quando tu com repreensões corrige o homem pela iniq
 
 ou seja, Capítulo 1., do começo ao fim. __________________________________________________________________
 
-Capítulo IX.
+## Capítulo IX.
 
 Até este ponto, talvez, alguém que tenha seguido o curso do nosso argumento concordará com ele, na medida em que não lhe parece que tenha sido dito algo que seja estranho à concepção adequada da Divindade. Mas em relação ao que se segue e constitui a parte mais forte desta Revelação da verdade, ele não terá a mesma disposição; o nascimento humano, quero dizer, o crescimento da infância até a maturidade, o comer e o beber, o cansaço e o sono, a tristeza e as lágrimas, a falsa acusação e a sala de julgamento, a cruz da morte e a remessa ao túmulo. Todas essas coisas, incluídas como estão nesta revelação, até certo ponto embotam a fé dos mais tacanhos, e assim eles rejeitam a própria sequência em consequência desses antecedentes. Eles não permitirão que na Ressurreição dos mortos haja algo consistente com a Divindade, por causa das circunstâncias impróprias da Morte. Bem, considero necessário, antes de tudo, remover nossos pensamentos por um momento da grosseria do elemento carnal, e fixá-los no que é moralmente belo em si mesmo, e no que não é, e nas marcas distintivas pelas quais cada um deles deve ser apreendido.
 
@@ -285,7 +285,7 @@ Creio que ninguém que tenha refletido contestará a afirmação de que, em toda
 
 __________________________________________________________________
 
-Capítulo X.
+## Capítulo X.
 
 "Mas a natureza do homem", diz-se, "é estreita e circunscrita, enquanto a Deidade é infinita. Como poderia o infinito ser incluído no átomo?" Mas quem é que diz que a infinidade da Divindade está compreendida no envoltório da carne como se estivesse num vaso? Nem mesmo no caso da nossa própria vida a natureza intelectual está encerrada nos limites da carne. Pelo contrário, enquanto o volume do corpo está limitado às proporções que lhe são peculiares, a alma, pelos movimentos da sua faculdade pensante, pode coincidir à vontade com toda a criação. Ele sobe aos céus e põe os pés nas profundezas. Atravessa a extensão do mundo e, na inquietação da sua curiosidade, abre caminho para as regiões que estão abaixo da terra; e muitas vezes está ocupado no escrutínio das maravilhas do céu e não sente nenhum peso nos apêndices do corpo. Se, então, a alma do homem, embora pela necessidade de sua natureza seja transfundida através do corpo, ainda assim se apresenta em todos os lugares à vontade, que necessidade há para dizer que a Deidade é prejudicada por um ambiente de natureza carnal, e por que não podemos, por meio de exemplos que somos capazes de compreender, obter alguma ideia razoável do plano de salvação de Deus?
 
@@ -301,7 +301,7 @@ Há um toque de euticianismo nesta ilustração da união das Duas Naturezas; co
 
 fixação no material. A palavra (haptesthai) pode significar "fixar em" ou "dependendo de" ou "acender a partir de" (foi usada neste último sentido logo acima). Krabinger seleciona a segunda, "quæ a subjecto dependet". __________________________________________________________________
 
-Capítulo XI.
+## Capítulo XI.
 
 Se você, entretanto, perguntar de que maneira a Deidade está mesclada com a humanidade, você terá ocasião para uma investigação preliminar sobre qual é a coalescência da alma com a carne. Mas suponhamos que você ignore o modo como a alma está em união com o corpo, não suponha que essa outra questão esteja fadada a chegar à sua compreensão; antes, como neste caso da união da alma e do corpo, embora tenhamos motivos para acreditar que a alma é algo diferente do corpo, porque a carne quando isolada da alma se torna morta e inativa, ainda não temos conhecimento exato do método da união, então naquela outra investigação da união da Deidade com a humanidade, embora estejamos bastante conscientes de que há uma distinção no que diz respeito ao grau de majestade entre o Divino e a natureza perecível mortal, não somos capazes de detectar como o Divino e os elementos humanos são misturados juntos. Os milagres registrados nos permitem não ter dúvidas de que Deus nasceu na natureza do homem. Mas como - isto, sendo um assunto inabordável pelos processos de raciocínio, recusamo-nos a investigar.
 
@@ -309,7 +309,7 @@ Pois embora acreditemos, como acreditamos, que toda a criação corpórea e inte
 
 dia ton historoumenon thaumaton ouk anfiballomen __________________________________________________________________
 
-Capítulo XII.
+## Capítulo XII.
 
 Se uma pessoa exige provas de que Deus se manifestou a nós na carne, deixe-a examinar as atividades divinas. Pois da existência da Deidade não se pode descobrir nenhuma outra demonstração além daquela que o testemunho dessas atividades fornece. Isto é, quando fazemos um amplo levantamento do universo e consideramos as dispensações em todo o mundo e as benevolências divinas que operam em nossa vida, compreendemos a concepção de um poder que cobre tudo, que é criativo de todas as coisas que vêm a ser, e é conservador em relação a elas enquanto existem. No mesmo princípio, no que diz respeito à manifestação de Deus na carne, estabelecemos uma prova satisfatória dessa aparição da Deidade, naquelas maravilhas de Suas operações; pois em toda a sua obra, conforme realmente registrada, reconhecemos as características da natureza divina. Pertence a Deus dar vida aos homens, sustentar por Sua providência todas as coisas que existem. Pertence a Deus conceder comida e bebida àqueles que na carne receberam Dele a dádiva da vida, para beneficiar os necessitados, para trazer de volta a si, por meio de saúde renovada, a natureza que foi pervertida pela doença.
 
@@ -317,7 +317,7 @@ Pertence a Deus governar com igual influência toda a criação; terra, mar, ar 
 
 paregrafonto __________________________________________________________________
 
-Capítulo XIII.
+## Capítulo XIII.
 
 Mas, diz-se, nascer e morrer são condições peculiares à natureza carnal. Eu admito. Mas o que aconteceu antes desse Nascimento e o que veio depois da Morte escapa à marca da nossa humanidade comum. Se olharmos para qualquer um dos termos de nossa vida humana, entendemos tanto o que iniciamos quanto o que terminamos. O homem começou a sua existência numa fraqueza e numa fraqueza a completa. Mas no caso da Encarnação nem o nascimento começou com uma fraqueza, nem numa fraqueza a morte terminou; pois nem o prazer sensual veio antes do nascimento, nem a corrupção seguiu-se à morte. Você não acredita nessa maravilha? Congratulo-me com a sua incredulidade. Assim, você admite inteiramente que esses fatos maravilhosos são sobrenaturais, da mesma forma que você pensa que o que está relatado está acima da crença. Deixe que este mesmo fato, então, de que a proclamação do mistério não ocorreu em termos naturais, seja uma prova para você da manifestação da Deidade. Pois se o que é relatado de Cristo estivesse dentro dos limites da natureza, onde estava a Divindade?
 
@@ -325,11 +325,11 @@ Mas se o relato ultrapassa a natureza, então os próprios fatos nos quais você
 
 Pois o autor que menciona Seu nascimento acrescenta também que foi de uma Virgem; e ao registrar Sua morte dá mais testemunho de Sua ressurreição dentre os mortos. Se, portanto, pelo que lhe foi dito, você admite que Ele nasceu e morreu, pelos mesmos motivos você deve admitir que tanto Seu nascimento quanto Sua morte foram independentes das condições de fraqueza humana - na verdade, estavam acima da natureza. A conclusão, portanto, é que Aquele que foi assim demonstrado ter nascido sob circunstâncias sobrenaturais certamente não era limitado pela natureza. __________________________________________________________________
 
-Capítulo XIV.
+## Capítulo XIV.
 
 “Então por que”, pergunta-se, “a Divindade desceu a tal humilhação? Nossa fé fica pasma ao pensar que Deus, aquela realidade incompreensível, inconcebível e inefável, transcendendo toda glória de grandeza, envolve-se na cobertura básica da humanidade, de modo que Suas operações sublimes também são degradadas por esta mistura com a terra rasteira.” __________________________________________________________________
 
-Capítulo XV.
+## Capítulo XV.
 
 Mesmo a esta objeção não nos falta uma resposta consistente com a nossa ideia de Deus. Você pergunta a razão pela qual Deus nasceu entre os homens. Se você tirar da vida os benefícios que nos vêm de Deus, você não seria capaz de me dizer que meios você tem para chegar a qualquer conhecimento da Deidade. No tratamento gentil que recebemos, reconhecemos o benfeitor; isto é, a partir da observação daquilo que nos acontece, conjecturamos a disposição de quem o opera. Se, então, o amor ao homem é uma característica especial da natureza Divina, aqui está a razão pela qual você está procurando, aqui está a causa da presença de Deus entre os homens. Nossa natureza doente precisava de um curador. O homem em sua queda precisava de alguém para colocá-lo em pé. Aquele que havia perdido o dom da vida precisava de um doador de vida, e aquele que abandonou sua comunhão com o bem queria alguém que o levasse de volta ao bem. Aquele que estava encerrado nas trevas ansiava pela presença da luz. O cativo procurava um resgatador, o prisioneiro acorrentado, alguém que participasse de sua parte, e um libertador, aquele que estava mantido na escravidão.
 
@@ -347,7 +347,7 @@ phusis.
 
 para dianoetikon __________________________________________________________________
 
-Capítulo XVI.
+## Capítulo XVI.
 
 "Mas", diz-se, "esta mudança em nosso corpo por nascimento é uma fraqueza, e alguém que nasce sob tal condição nasce em fraqueza. Agora a Deidade está livre de fraqueza. É, portanto, uma ideia estranha em conexão com Deus", dizem eles, "quando as pessoas declaram que alguém que está essencialmente livre de fraqueza entra em comunhão com a fraqueza." Agora, em resposta a isto, adoptemos o mesmo argumento de antes, nomeadamente que a palavra “fraqueza” é usada em parte num sentido próprio, em parte num sentido adaptado. Isto é, tudo o que afeta a vontade e a perverte da virtude ao vício é real e verdadeiramente uma fraqueza; mas tudo o que na natureza pode ser visto procedendo por uma cadeia peculiar a si mesma de estágios sucessivos seria mais apropriadamente chamado de obra do que de fraqueza. Como, por exemplo, o nascimento, o crescimento, a continuação da substância subjacente através do influxo e efluxo dos alimentos, a reunião dos elementos componentes do corpo e, por outro lado, a dissolução das suas partes componentes e a sua passagem de volta aos elementos afins.
 
@@ -367,7 +367,7 @@ Não existe uma palavra em inglês que represente o significado completo de path
 
 numa escala mais geral, por assim dizer. O grego aqui é um tanto obscuro; a melhor leitura é a de Krabinger; genikotero tini logo ten noeran ousian te aisthete sunkatemixen. A tradução de Hervetus está manifestamente errada; "Is generosiorem quandam intelligentem essentiam commiscuit sensili principio." - Alma e corpo foram reunidos pela Ressurreição, em uma escala maior e em uma extensão mais ampla (logo), do que no caso anterior de uma única Pessoa (na Encarnação), o novo princípio de vida progredindo até as extremidades da humanidade por consequência natural: genikotero se referirá, portanto, em comparação ao "primeiro enquadramento desses elementos componentes". Ou então contrasta a quantidade de vida com a da morte: e deve ser explicada por Rom. v. 15: "Mas não como a ofensa, assim também é a dádiva. Porque, se pela ofensa de um muitos morreram, muito mais a graça de Deus, e o dom pela graça, que é feito por um só homem, Jesus Cristo, abundou sobre muitos." A tradução de Krabinger, “generaliori quâdam ratione”, parece portanto correta. O modo de união da alma e do corpo é descrito no Tratado sobre a Alma de Gregório como kreitton logos, e em seu Making of Man como aphrastos logos, mas em nenhum deles há qualquer comparação a não ser com outros modos de união menos perfeitos; ou seja, a referência é à qualidade e não à quantidade, como aqui. __________________________________________________________________
 
-Capítulo XVII.
+## Capítulo XVII.
 
 Mas dir-se-á que a objeção que foi levantada contra nós ainda não foi resolvida, e que o que os incrédulos têm insistido foi bastante fortalecido por tudo o que dissemos. Pois se, como nosso argumento mostrou, há tal poder Nele que tanto a destruição da morte quanto a introdução da vida residem Nele, por que Ele não realiza Seu propósito pelo mero exercício de Sua vontade, em vez de operar nossa salvação de uma forma tão indireta, nascendo e sendo nutrido como um homem, e até mesmo, enquanto ele estava salvando o homem, provando a morte; quando foi possível que Ele salvasse o homem sem se sujeitar a tais condições? Ora, a isto, com todas as pessoas sinceras, bastava responder que os enfermos não ditam aos seus médicos as medidas para a sua recuperação, nem criticam aqueles que lhes fazem bem quanto ao método da sua cura; por que, por exemplo, o médico apalpou a parte doente e inventou este ou aquele remédio específico para eliminar a queixa, quando esperava outro; mas o paciente olha para o fim e objetivo do bom trabalho e recebe o benefício com gratidão.
 
@@ -375,7 +375,7 @@ Vendo, no entanto, como diz o Profeta, que a bondade abundante de Deus mantém s
 
 o Profeta, ou seja, David; Sal. xxxi. 19: hos polu to plethos tes chrestotetos sou, k.t.l. Herveto traduz Gregório aqui como “divitiæ benignitatis”, como se tivesse encontrado ploutos no texto, o que não aparece. Jerônimo traduz duas vezes o chrestotes da LXX. por “bonitas”; Áquila e Símaco têm ti polu para agathon sou. Este é o sentido posterior de chrestotes, que originalmente significava "servibilidade" e depois "retidão" (Salmo xiii. 2, 4; xxxvi. 3; cxix. 66), em vez de "bondade". __________________________________________________________________
 
-Capítulo XVIII.
+## Capítulo XVIII.
 
 E, no entanto, talvez seja um esforço excessivo para aqueles que acreditam que Deus permaneceu aqui em vida objetar à maneira de Sua aparição, como querendo sabedoria ou razoabilidade conspícua. Pois para aqueles que não são veementemente antagônicos à verdade, não existe nenhuma pequena prova de que a Deidade tenha permanecido aqui; Quero dizer aquilo que é exibido agora nesta vida presente, antes que a vida futura comece, o testemunho que é sustentado por fatos reais. Pois quem está aí que não sabe que todas as partes do mundo estavam repletas de ilusões demoníacas que dominaram a vida do homem através da loucura da idolatria; como era esta a regra costumeira entre todas as nações, adorar demônios sob a forma de ídolos, com o sacrifício de animais vivos e as ofertas poluídas em seus altares? Mas a partir do momento em que, como diz o apóstolo, "a graça de Deus que traz salvação a todos os homens apareceu" e habitou entre nós em Sua natureza humana, todas essas coisas passaram como fumaça para o nada, a loucura de seus oráculos e profecias cessou, as pompas e poluições anuais de suas hecatombes sangrentas chegaram ao fim, enquanto entre a maioria das nações os altares desapareceram completamente, juntamente com pórticos, recintos e santuários, e todo o ritual além do qual foi seguido pelo sacerdote atendente daqueles demônios, para o engano deles mesmos e de todos que cruzaram seu caminho.
 
@@ -395,13 +395,13 @@ eles interpretaram isso (isto é, a religião, que para o futuro, etc.) em um se
 
 então até. A apodose começa aqui, e hoste deve ser entendido depois que hupoleleiptai, para governar meinai, "foram deixados de pé, etc... para que permanecesse". __________________________________________________________________
 
-Capítulo XIX.
+## Capítulo XIX.
 
 No entanto, uma vez que nem aqueles que adotam a visão grega, nem ainda os líderes das opiniões judaicas, estão dispostos a fazer de tais coisas as provas daquela manifestação divina, pode ser melhor, no que diz respeito a essas objeções à nossa declaração, tratar mais particularmente a razão pela qual a natureza divina é combinada com a nossa, salvando, como o faz, a humanidade por meio de si mesma, e não elaborando o seu desígnio proposto por meio de um mero comando. Com o que, então, devemos começar, de modo a conduzir o nosso pensamento por uma sequência lógica até à conclusão proposta? O que senão isso, viz. com um detalhe sucinto das noções que podem ser religiosamente nutridas sobre Deus? __________________________________________________________________
 
 Os Padres Gregos e os Teólogos Ingleses, na sua maior parte, limitam-se a mostrar esta adequação moral e consonância com a natureza de Deus na Encarnação, e não tentam provar a sua absoluta necessidade. Cf. ATANÁSIO, De Incarn. Verbo. c. 6; Hooker, Eccles. Pol. V. li. 3; Analogia de Butler, pt. ii. c. 5. __________________________________________________________________
 
-Capítulo XX.
+## Capítulo XX.
 
 É, então, universalmente reconhecido que devemos acreditar que a Deidade não é apenas onipotente, mas justa, boa e sábia, e tudo o mais que sugere excelência. Segue-se, portanto, na presente dispensação das coisas, que não é o caso de algum desses atributos Divinos em particular se manifestar livremente na criação, enquanto há outro que não está presente ali; pois, falando de uma vez por todas, nenhum desses termos exaltados, quando separados do resto, é por si só uma virtude, nem o bem é realmente bom, a menos que esteja aliado ao que é justo, sábio e poderoso (pois o que é injusto, ou imprudente, ou impotente, não é bom, nem o poder, quando separado do princípio da justiça e da sabedoria, deve ser considerado à luz da virtude; tais espécies de poder são brutais e tirânicas; e assim, quanto ao resto, se o que é sábio for levado além dos limites do que é justo, ou se o que é justo não for contemplado junto com o poder e a bondade, casos desse tipo seriam mais apropriadamente chamados de vício, pois como pode o que não é perfeito ser considerado entre as coisas que são boas?).
 
@@ -413,7 +413,7 @@ para men ti (para toi). Existe a mesma variedade de leitura em c. eu. e xxi., on
 
 Sal. cvi. (cv.) 4, 5; cxix. (cxviii.) 65, 66, 68. Na primeira passagem o LXX. has tou idein en te chrestoteti ton eklekton sou (hebr. “a felicidade dos teus escolhidos”): evidentemente referindo-se à eudokia de Deus neles; Ele, o próprio bom (chrestos, v. 1), os salvará, “para aprovar a sua bondade”. A segunda passagem menciona quatro vezes este chrestotes (bonitas). __________________________________________________________________
 
-Capítulo XXI.
+## Capítulo XXI.
 
 O que é então a justiça? Lembramo-nos claramente do que dissemos no decorrer de nossa argumentação no início deste tratado; a saber, que o homem foi formado em imitação da natureza Divina, preservando sua semelhança com a Deidade, bem como em outras excelências, como na posse da liberdade da vontade, mas sendo necessariamente de uma natureza sujeita a mudanças. Pois não era possível que um ser cuja origem derivasse de uma alteração estivesse totalmente livre desta responsabilidade. Pois a passagem de um estado de inexistência para um estado de existência é uma espécie de alteração; quando o ser, isto é, pelo exercício do poder Divino, toma o lugar da não-entidade. Também no seguinte aspecto especial, a alteração é necessariamente observável no homem, a saber, porque o homem era uma imitação da natureza Divina e, a menos que alguma diferença distintiva tivesse sido ocasionada, o sujeito imitador seria inteiramente o mesmo àquele com quem se assemelha; mas neste caso, deve-se observar, há uma diferença entre aquilo que “foi feito na imagem” e seu padrão; a saber, que um não está sujeito a mudanças, enquanto o outro está (pois, como foi descrito, passou a existir através de uma alteração), e sendo assim sujeito a alterações nem sempre continua em seu estado existente.
 
@@ -425,7 +425,7 @@ Nestas circunstâncias, é uma questão de risco se escolhemos a verdadeira bele
 
 do percurso a percorrer: tou diexodeuomenou. Glauber observa que a tradução latina aqui, “ejus qui transit”, não faz sentido, e acertadamente toma a palavra como passiva. Krabinger também traduz “ejus quod evolvitur”. Aqui novamente há platonismo inconsciente: auto to kalon é eterno. __________________________________________________________________
 
-Capítulo XXII.
+## Capítulo XXII.
 
 O que é então a justiça nestas circunstâncias? É não exercer qualquer influência arbitrária sobre aquele que nos tem em seu poder, nem nos afastar de seu domínio por um exercício violento de força, deixando assim alguma cor para uma reclamação justa àquele que escravizou o homem através do prazer sensual. Pois como aqueles que trocaram sua liberdade por dinheiro são escravos daqueles que os compraram (pois eles se constituíram em seus próprios vendedores, e não é permitido nem a si mesmos nem a qualquer outra pessoa em seu nome chamar a liberdade em seu auxílio, mesmo que aqueles que se reduziram a este triste estado sejam de origem nobre; e, se alguém, por consideração para com a pessoa que se vendeu, usar violência contra aquele que o comprou, ele estará claramente agindo injustamente ao agir de forma arbitrária. resgatar alguém que foi legalmente comprado como escravo, ao passo que, se ele deseja pagar um preço para libertá-lo, não há lei que impeça isso), no mesmo princípio, agora que voluntariamente trocamos nossa liberdade, era necessário que nenhum método arbitrário de recuperação, mas aquele que estivesse em consonância com a justiça, fosse concebido por Aquele que em Sua bondade empreendeu nosso resgate. Agora, este método é, em certa medida, isto; entregar ao senhor do escravo qualquer resgate que ele concorde em aceitar pela pessoa em sua posse. __________________________________________________________________
 
@@ -433,7 +433,7 @@ Compare uma passagem em Dionísio Areop. (De eccles. hierarca. c. iii. p. 297). 
 
 um em consonância com a justiça. Esta visão da Redenção, como um acordo com Satanás e torná-lo parte ou defensor no caso, é bastante notável. O Prólogo do Livro de Jó fornece uma base para isso, onde Satanás entra em acordo com Deus. Parece ser a visão miltônica: como também que a inveja foi o primeiro pecado de Satanás. __________________________________________________________________
 
-Capítulo XXIII.
+## Capítulo XXIII.
 
 O que, então, seria provável que o senhor do escravo escolhesse receber em seu lugar? É possível, a título de inferência, adivinhar quais são os seus desejos no assunto, isto é, se as indicações manifestas daquilo que procuramos chegarem às nossas mãos. Ele então, que, como afirmamos anteriormente no início deste tratado, fechou os olhos para o bem em sua inveja do homem em sua condição feliz, aquele que gerou em si mesmo a nuvem turva da maldade, aquele que sofreu da doença do amor ao governo, aquela causa primária e fundamental da propensão para o mal e a mãe, por assim dizer, de toda a maldade que se segue, - o que ele aceitaria em troca da coisa que ele possuía, senão algo, com certeza, mais elevado e melhor, no caminho de resgate, para que assim, ao receber um ganho em troca, ele possa fomentar ainda mais sua paixão especial de orgulho? Agora, inquestionavelmente, nenhum daqueles que viveram na história desde o início do mundo ele teve consciência de qualquer circunstância que observou cercar Aquele que então se manifestou, isto é,
 
@@ -449,7 +449,7 @@ Filotimia
 
 ele o escolhe como resgate. Este ensinamento peculiar de Gregório de Nissa, de que foi ao Diabo, e não a Deus Pai, que o resgate, isto é, o sangue de Cristo, foi pago, é compartilhado por Orígenes, Ambrósio e Agostinho. Este último diz: "Sanguine Christi diabolus non ditatus est, sed ligatus", ou seja, vinculado por compacto. Por outro lado, Gregory Naz. (tom. I. Orat. 42) e João Damasceno (De Fid. Orthod. iii. c. 27) dão o resgate ao Pai. __________________________________________________________________
 
-Capítulo XXIV.
+## Capítulo XXIV.
 
 Mas possivelmente alguém que tenha prestado atenção ao curso das observações anteriores possa perguntar: “onde está o poder da Deidade, onde está a imperecibilidade desse poder Divino, a ser traçado nos processos que você descreveu?” Para, portanto, tornar isto também claro, façamos um levantamento da continuação do mistério evangélico, onde aquele Poder conjugado com o Amor se manifesta mais especialmente. Em primeiro lugar, então, que a onipotência da natureza divina deveria ter tido força para descer à humilhação da humanidade, fornece uma prova mais clara dessa onipotência do que até mesmo a grandeza e o caráter sobrenatural dos milagres. Pois o fato de algo preeminentemente grande ser realizado pelo poder Divino é, de certa forma, de acordo e conseqüente à natureza Divina; nem é surpreendente ouvir dizer que todo o mundo criado, e tudo o que é entendido como estando além do alcance das coisas visíveis, subsiste pelo poder de Deus, Sua vontade dando-lhe existência de acordo com Sua boa vontade.
 
@@ -463,13 +463,13 @@ __________________________________________________________________
 
 como acontece com peixes vorazes. A mesma comparação é encontrada em João de Damasco (De Fid. iii. 27), falando da Morte. "Portanto, a Morte avançará e, engolindo a isca do Corpo, será paralisada pelo anzol da Divindade: saboreando aquele Corpo sem pecado e que dá vida, ela será desfeita e vomitará todos aqueles que ela já engoliu: pois assim como a escuridão desaparece com a entrada da luz, a corrupção é afugentada pelo início da vida, e enquanto há vida dada a todos os outros, há corrupção apenas para o Corruptor." __________________________________________________________________
 
-Capítulo XXV.
+## Capítulo XXV.
 
 O fato de a Deidade ter nascido em nossa natureza não deveria razoavelmente apresentar qualquer estranheza às mentes daqueles que não têm uma visão muito estreita das coisas. Pois quem, quando faz um levantamento do universo, é tão simples a ponto de não acreditar que existe uma Deidade em tudo, penetrando-o, abraçando-o e assentando-se nele? Pois todas as coisas dependem daquele que é, e não pode haver nada que não exista naquele que é. Se, portanto, todas as coisas estão Nele, e Ele em todas as coisas, por que eles estão escandalizados com o plano do Apocalipse quando este ensina que Deus nasceu entre os homens, aquele mesmo Deus que estamos convencidos de que ainda não está fora da humanidade? Pois embora esta última forma da presença de Deus entre nós não seja a mesma que aquela presença anterior, ainda assim a Sua existência entre nós igualmente, tanto então como agora, é evidenciada; só agora Aquele que mantém a natureza unida é transfundido em nós; enquanto naquela outra época Ele foi transfundido em toda a nossa natureza, para que nossa natureza pudesse, por meio dessa transfusão do Divino, tornar-se divina, resgatada como foi da morte e colocada fora do alcance do capricho do antagonista. Pois Seu retorno da morte torna-se para nossa raça mortal o início de nosso retorno à vida imortal. __________________________________________________________________
 
 Êxodo. iii. 14. __________________________________________________________________
 
-Capítulo XXVI.
+## Capítulo XXVI.
 
 Ainda assim, ao examinar a quantidade de justiça e sabedoria que pode ser descoberta nesta Dispensação, uma pessoa é, talvez, induzida a nutrir o pensamento de que foi por meio de uma certa quantidade de engano que Deus executou este esquema em nosso favor. Pois que não apenas pela Deidade pura, mas pela Deidade velada na natureza humana, Deus, sem o conhecimento de Seu inimigo, entrou nas linhas daquele que tinha o homem em seu poder, é em certa medida uma fraude e uma surpresa; visto que é peculiar àqueles que querem enganar desviar para outra direção as expectativas de suas vítimas pretendidas, e então efetuar algo bem diferente do que estas últimas esperavam. Mas aquele que tem consideração pela verdade concordará que as qualidades essenciais da justiça e da sabedoria são antes de todas as coisas estas; viz. da justiça, para dar a cada um segundo o que lhe é devido; de sabedoria, não para perverter a justiça e, ao mesmo tempo, para não dissociar o objetivo benevolente do amor da humanidade do veredicto da justiça, mas para combinar habilmente esses dois requisitos, no que diz respeito a que a justiça devolva a devida recompensa, no que diz respeito à bondade que não se desvia do objetivo desse amor ao homem.
 
@@ -491,7 +491,7 @@ te katharsei. Esta é a leitura de três Codd de Krabinger. e o de Hervetus e Zi
 
 “Muito diferente foi o que aconteceu com os grandes pensadores da Igreja primitiva... Eles perceberam que a redenção era um meio para um fim, e esse fim era a reconsagração de todo o universo a Deus. E assim a própria plenitude de sua compreensão da Expiação os levou a insistir no significado cósmico da Encarnação, seu propósito de reunir todas as coisas em uma.' Pois foi uma época em que os problemas do universo foram intensamente sentidos.” – Lux Mundi, p. 134. __________________________________________________________________
 
-Capítulo XXVII.
+## Capítulo XXVII.
 
 É, então, completamente de acordo com isso, que Aquele que assim se derramava em nossa natureza aceitasse essa mistura em todos os seus acidentes. Pois assim como aqueles que lavam roupas não passam por cima de parte da sujeira e limpam o resto, mas limpam todo o pano de todas as suas manchas, de uma ponta à outra, para que o manto, ao ser uniformemente clareado pela lavagem, possa ser totalmente igual ao seu próprio padrão de limpeza, da mesma maneira, uma vez que a vida do homem foi contaminada pelo pecado, em seu início, fim e todos os seus estados intermediários, era necessária uma força abstergente para penetrar no todo, e não para consertar uma parte pela limpeza, enquanto deixava outra. desacompanhado. Por esta razão é que, visto que a nossa vida foi incluída entre fronteiras de cada lado, uma, quero dizer, no seu início, e a outra no seu final, em cada fronteira se encontra a força que é capaz de corrigir a nossa natureza, ligando-se ao início, e estendendo-se até ao fim, e tocando tudo entre esses dois pontos.
 
@@ -505,7 +505,7 @@ Mas se todas as coisas ficam igualmente aquém desta dignidade, há uma coisa qu
 
 “A fim de que o sacrifício pudesse ser representativo, Ele tomou sobre Si toda a nossa natureza humana e tornou-se carne, embora essa natureza carnal estivesse totalmente condicionada pelo pecado. Não foi apenas em Sua morte que O contemplamos como o portador do pecado: mas durante toda a Sua vida Ele foi como que condicionado pela pecaminosidade daqueles com quem Sua natureza humana O trouxe a relações íntimas e múltiplas.” – Lux Mundi, p. 217 (Agostinho, de Musicâ, vi. 4, citado na nota, "Hominem sine peccato, non sine peccatoris Conditione, suscepit"). __________________________________________________________________
 
-Capítulo XXVIII.
+## Capítulo XXVIII.
 
 Mas eles zombam de nosso estado de natureza e falam aos nossos ouvidos sobre a maneira como nascemos, supondo assim tornar o mistério ridículo, como se fosse impróprio para Deus uma entrada no mundo como essa conectar-se com a comunhão da vida humana. Mas já tocámos neste ponto antes, quando dissemos que a única coisa que é essencialmente degradada é o mal moral ou qualquer coisa que tenha afinidade com esse mal; ao passo que o processo ordenado da Natureza, organizado como tem sido pela vontade e lei divinas, está além do alcance de qualquer deturpação no que diz respeito à maldade: caso contrário, esta acusação chegaria ao Autor da Natureza, se algo relacionado com a Natureza fosse considerado degradado e impróprio. Se, então, a Divindade está separada apenas do mal, e se não há natureza no mal, e se o mistério declara que Deus nasceu no homem, mas não no mal; e se, para o homem, existe apenas um modo de entrada na vida, a saber, aquele pelo qual o embrião passa para o estágio de vida, que outro modo de entrada na vida eles prescreveriam para Deus?
 
@@ -515,7 +515,7 @@ Não, quais deles não devem, com toda a razão, ser considerados mais dignos de
 
 Cf. 1 Cor. xii. 14-24. __________________________________________________________________
 
-Capítulo XXIX.
+## Capítulo XXIX.
 
 Mas eles mudam de posição e tentam difamar a nossa fé de outra forma. Eles perguntam: se o que aconteceu não foi para desonra de Deus ou indigno Dele, por que Ele atrasou tanto o benefício? Por que, visto que o mal estava no início, Ele não interrompeu seu progresso posterior? - Para isso temos uma resposta concisa; viz. que esse atraso na concessão do benefício se devia à sabedoria e a uma consideração providente por aquilo que seria um ganho para a nossa natureza. Nas doenças do corpo, por exemplo, quando algum humor corrupto se espalha sem ser visto sob os poros, antes que toda a secreção prejudicial tenha sido detectada na pele, aqueles que tratam as doenças segundo as regras da arte não usam medicamentos que endureçam a carne, mas esperam até que tudo o que se esconde dentro saia à superfície, e então, com a doença desmascarada, aplicam os seus remédios. Quando uma vez, então, a doença do mal se fixou na natureza da humanidade, Ele, o Curador universal, esperou pelo tempo em que nenhuma forma de maldade permanecesse ainda escondida naquela natureza.
 
@@ -523,7 +523,7 @@ Por esta razão foi que Ele não produziu sua cura para a doença do homem imedi
 
 theomachia, uma palavra frequentemente aplicada pelos Padres Gregos à conduta dos Egípcios, em referência, é claro, ao Faraó. __________________________________________________________________
 
-Capítulo XXX.
+## Capítulo XXX.
 
 Se, no entanto, alguém pensa em refutar o nosso argumento com base neste argumento, que mesmo após a aplicação do processo corretivo a vida do homem ainda está em discórdia devido aos seus erros, levemo-lo à verdade através de um exemplo tirado de coisas familiares. Tomemos, por exemplo, o caso de uma serpente; se receber um golpe mortal na cabeça, a parte traseira da bobina não será imediatamente amortecida junto com ela; mas, enquanto a cabeça está morta, a parte da cauda ainda está animada com seu próprio espírito particular e não é privada de seu movimento vital: da mesma maneira, podemos ver o pecado desferir seu golpe mortal e, ainda assim, em seus restos, ainda perturbar a vida do homem. Mas então eles desistem de criticar o relato do Apocalipse nestes pontos, e fazem outra acusação contra ele; viz. que a Fé não alcança toda a humanidade. “Mas por que”, perguntam eles, “é que nem todos os homens obtêm a graça, mas que, embora alguns adiram à Palavra, a parcela dos que permanecem incrédulos não é pequena; ou porque Deus não estava disposto a conceder seu benefício a todos sem má vontade, ou porque Ele foi totalmente incapaz de fazê-lo?” Agora, nenhuma destas alternativas pode desafiar as críticas.
 
@@ -533,7 +533,7 @@ Pois Aquele que detém a soberania do universo, devido ao excesso dessa consider
 
 A passagem a seguir é anticalvinista. Gregório aqui, como continuamente em outros lugares, afirma a liberdade da vontade; e é fortemente apoiado por Justin Martyr, i. 43: "Se foi determinado pelo destino que um homem será bom e outro mau, um não é louvável, o outro não é culpável. E, novamente, se a humanidade não tem o poder, por livre escolha, de fugir do mal e escolher o bem, ela não é responsável por quaisquer resultados, por mais chocantes que sejam." __________________________________________________________________
 
-Capítulo XXXI.
+## Capítulo XXXI.
 
 No entanto, mesmo na sua resposta a isto ou a algo semelhante, eles não ficam sem uma resposta controversa. Pois eles afirmam que Deus, se Ele tivesse ficado tão satisfeito, poderia ter atraído à força aqueles que não estavam inclinados a ceder, a aceitar a mensagem do Evangelho. Mas onde estaria então o seu livre arbítrio? Onde está o seu mérito virtuoso? Onde estão os elogios de seus diretores morais? Pertence apenas às criaturas inanimadas ou irracionais serem levadas pela vontade de outra pessoa ao seu propósito; ao passo que a natureza racional e inteligente, se deixar de lado sua liberdade de ação, perde ao mesmo tempo o dom gracioso do intelecto. Pois em que ele deve empregar qualquer faculdade de pensamento, se seu poder de escolher qualquer coisa de acordo com sua inclinação reside na vontade de outro? Mas então, se a vontade permanecer sem capacidade de ação, a virtude desaparece necessariamente, uma vez que está algemada pela quiescência forçada da vontade. Então, se a virtude não existir, a vida perde o seu valor, a razão move-se de acordo com o fatalismo, o elogio dos guardiões morais desaparece, o pecado pode ser tolerado sem risco e a diferença entre os cursos da vida é obliterada.
 
@@ -543,7 +543,7 @@ ton katorthounton
 
 Esta é uma resposta aos modernos “Determinantes Éticos”. __________________________________________________________________
 
-Capítulo XXXII.
+## Capítulo XXXII.
 
 Que outra objeção é alegada pelos nossos adversários? Esse; que (para adotar a visão preferível) era totalmente desnecessário que aquele Ser transcendente se submetesse à experiência da morte, mas Ele poderia, independentemente disso, através da superabundância de Seu poder, ter executado com facilidade Seu propósito; ainda assim, se por alguma razão inefável ou outra fosse absolutamente necessário que assim fosse, pelo menos Ele não deveria ter sido submetido ao insulto de um tipo tão ignominioso de morte. Que morte, perguntam eles, poderia ser mais ignominiosa do que a crucificação? Que resposta podemos dar a isso? Ora, que a morte se torna necessária pelo nascimento, e que Aquele que de uma vez por todas determinou compartilhar a natureza do homem deve passar por todas as condições peculiares dessa natureza. Vendo, então, que a vida do homem é determinada entre dois limites, se Ele, depois de ter ultrapassado um, não tivesse tocado o outro que se segue, Seu desígnio proposto teria permanecido apenas parcialmente cumprido, por não ter tocado aquela segunda condição de nossa natureza.
 
@@ -569,7 +569,7 @@ Filipe. ii. 10.
 
 Keraian. Os Padres gostavam de traçar semelhanças com a forma da Cruz, na natureza e na arte: nos estaleiros de um navio, como aqui, e no voo dos pássaros em voo. Esta é a leitura de Codd. Morell., Reg., e três de Krabinger: mas gaian na margem daquele de J. Vulcobius (Abade de Belpré) entrou no texto de ambas as Editt. de Paris, embora o segundo asterisco o coloque. Hervetus ("et fastigium") parece ter lido kai akran. __________________________________________________________________
 
-Capítulo XXXIII.
+## Capítulo XXXIII.
 
 Pois quando eles ouviram de nós algo nesse sentido - que quando o mortal passa para a vida segue-se necessariamente que, como aquele primeiro nascimento leva apenas à existência da mortalidade, outro nascimento deveria ser descoberto, um nascimento que não começa nem termina com corrupção, mas que conduz a pessoa gerada a uma existência imortal, para que, como o que é gerado de um nascimento mortal tenha necessariamente uma subsistência mortal, assim de um nascimento que não admite corrupção aquele que nasce pode ser superior à corrupção da morte; quando, eu digo, eles ouviram isso e coisas semelhantes de nós, e são além disso instruídos quanto ao processo - ou seja, que é a oração e a invocação da graça celestial, e da água, e da fé, pela qual o mistério da regeneração é realizado - eles ainda permanecem incrédulos e têm um olho apenas para o exterior e visível, como se aquilo que é operado corporalmente não concordasse com o cumprimento da promessa de Deus. Como, perguntam eles, a oração e a invocação do poder Divino sobre a água podem ser o fundamento da vida daqueles que foram assim iniciados?
 
@@ -581,7 +581,7 @@ somatikos: com uma referência geral tanto ao destinatário, às palavras (a "fo
 
 timiotaton (tempo = "preço") zoon. Então Platão, Leis, p. 766: "O homem, recebendo o treinamento correto e uma organização feliz, costuma se tornar uma criatura muito semelhante a Deus e cultivada." __________________________________________________________________
 
-Capítulo XXXIV.
+## Capítulo XXXIV.
 
 Mas pedem a prova desta presença da Divindade quando invocada para a santificação do processo batismal. Deixe que a pessoa que necessita desta evidência lembre-se do resultado de nossas investigações anteriores. O raciocínio pelo qual estabelecemos que o poder que nos foi manifestado através da carne era realmente um poder Divino, é a defesa daquilo que dizemos agora. Pois quando foi demonstrado que Aquele que se manifestou na carne, e depois exibiu Sua natureza pelos milagres que realizou, era Deus, também é ao mesmo tempo demonstrado que Ele está presente nesse processo, sempre que é invocado. Pois, como em tudo o que existe existe alguma peculiaridade que indica sua natureza, assim a verdade é a peculiaridade distintiva da natureza Divina. Pois bem, Ele prometeu que sempre estará presente com aqueles que O invocam, que Ele está no meio daqueles que crêem, que Ele permanece entre eles coletivamente e tem relações especiais com cada um. Não podemos mais, então, precisar de qualquer outra prova da presença da Divindade nas coisas que são feitas no Batismo, acreditando como acreditamos que Ele é Deus por causa dos milagres que Ele realizou, e sabendo como nós que é a peculiaridade da Divindade estar livre de qualquer toque de falsidade, e sustentando com confiança que a coisa prometida estava envolvida na veracidade de seu anúncio.
 
@@ -597,7 +597,7 @@ he de tes theotetos marturia dia ton thaumaton estin: uma frase digna de nota.
 
 ton ginomenon (cf. acima) sendo compreendido. __________________________________________________________________
 
-Capítulo XXXV.
+## Capítulo XXXV.
 
 Mas a descida na água e a imersão trígona da pessoa nela envolvem outro mistério. Pois uma vez que o método de nossa salvação foi tornado eficaz não tanto por Seus preceitos na forma de ensinar, mas pelas ações dAquele que realizou uma comunhão real com o homem, e efetuou a vida como um fato vivo, de modo que por meio da carne que Ele assumiu, e ao mesmo tempo deificado, tudo o que é parente e relacionado pode ser salvo junto com ele, era necessário que algum meio fosse inventado pelo qual pudesse haver, no processo batismal, uma espécie de afinidade e semelhança entre aquele que segue e Aquele que guia o caminho. É necessário, portanto, ver quais características devem ser observadas no Autor de nossa vida, para que a imitação por parte dos que se seguem possa ser regulada, como diz o Apóstolo, segundo o padrão do Capitão de nossa salvação. Pois, como são eles que são realmente treinados em movimentos medidos e ordenados nas armas por mestres habilidosos, que são avançados em destreza no manejo de suas armas pelo que vêem com seus olhos, enquanto aquele que não pratica o que lhe é mostrado permanece desprovido de tal destreza, da mesma forma é imperativo para todos aqueles que têm um desejo igualmente sincero pelo Bem como Ele tem, para serem seguidores pelo caminho de uma imitação exata daquele que lidera o caminho para a salvação, e para colocar em ação o que Ele tem. lhes mostrou.
 

@@ -25,9 +25,9 @@ translator: "Scriptorium Divinum (Tradução Integral em Domínio Público)"
 
 Teófilo a Autólico.
 
-Livro I.
+# Livro I.
 
-Capítulo I. - Autolycus, um idólatra e escarnecedor dos cristãos.
+## Capítulo I. - Autolycus, um idólatra e escarnecedor dos cristãos.
 
 Uma língua fluente e um estilo elegante proporcionam prazer e elogios que a vanglória deleita, a homens miseráveis ​​que foram corrompidos na mente; o amante da verdade não dá atenção a discursos ornamentados, mas examina a verdadeira questão do discurso, o que é e de que tipo é. Desde então, meu amigo, você me atacou com palavras vazias, vangloriando-se de seus deuses de madeira e pedra, martelados e fundidos, esculpidos e esculpidos, que não vêem nem ouvem, pois são ídolos e obras de mãos de homens; e visto que, além disso, você me chama de cristão, como se esse fosse um nome condenatório a ser usado, eu, de minha parte, declaro que sou cristão, (525) e carrego esse nome amado de Deus, na esperança de ser útil (526) a Deus. Pois não é o caso, como você supõe, que o nome de Deus seja difícil de suportar; mas possivelmente você nutre essa opinião de Deus, porque você mesmo ainda é inútil para Ele.
 
@@ -35,7 +35,7 @@ Uma língua fluente e um estilo elegante proporcionam prazer e elogios que a van
 
 [526] Euchrestos, trocadilho com o nome cristão. [Comp cap xii., infra. Então Justin, pág. 164, vol. i., esta série. Mas ele também faz trocadilhos com seu próprio nome, “amado de Deus”, no texto phoro to Theophiles onoma touto k.t.l.]
 
-Capítulo II.-- ​​Que os olhos da alma devem ser purificados antes que Deus possa ser visto.
+## Capítulo II.-- ​​Que os olhos da alma devem ser purificados antes que Deus possa ser visto.
 
 Mas se você disser: “Mostre-me o seu Deus”, eu responderia: “Mostre-me você mesmo, (527) e eu lhe mostrarei o meu Deus”. Mostre, então, que os olhos da sua alma são capazes de ver, e os ouvidos do seu coração, capazes de ouvir; pois assim como aqueles que olham com os olhos do corpo percebem os objetos terrenos e o que diz respeito a esta vida, e discriminam ao mesmo tempo entre coisas que diferem, sejam claras ou escuras, brancas ou pretas, deformadas ou bonitas, bem proporcionadas e simétricas ou desproporcionais e desajeitadas, ou monstruosas ou mutiladas; e da mesma maneira também, pelo sentido da audição, discriminamos sons agudos, profundos ou doces; então o mesmo vale para os olhos da alma e os ouvidos do coração, que é por meio deles que podemos contemplar a Deus. Pois Deus é visto por aqueles que são capazes de vê-lo quando têm os olhos da alma abertos: pois todos têm olhos; mas em alguns eles estão espalhados (528) e não veem a luz do sol.
 
@@ -47,7 +47,7 @@ Todas essas coisas, então, envolvem você nas trevas, como quando um fluxo tran
 
 [528] A palavra técnica para uma doença ocular, como catarata.
 
-Capítulo III.--Natureza de Deus.
+## Capítulo III.--Natureza de Deus.
 
 Você dirá, então, para mim: "Você, que vê Deus, me explica a aparência de Deus?" Ouça, ó homem. A aparição de Deus é inefável e indescritível e não pode ser vista pelos olhos da carne. Pois em glória Ele é incompreensível, em grandeza insondável, em altura inconcebível, em poder incomparável, em sabedoria incomparável, em bondade inimitável, em bondade indescritível. Pois se eu digo que Ele é Luz, menciono apenas Sua própria obra; se eu O chamo de Palavra, nomeio apenas Sua soberania; se eu O chamo de Mente, falo apenas de Sua sabedoria; se digo que Ele é Espírito, falo de Seu sopro; se lhe chamo Sabedoria, falo da Sua descendência; se eu O chamo de Força, falo de Seu domínio; se eu O chamo de Poder, estou mencionando Sua atividade; se for Providência, apenas menciono Sua bondade; se eu O chamo de Reino, apenas menciono Sua glória; se eu O chamo de Senhor, menciono que Ele é juiz; se eu O chamo de Juiz, falo Dele como sendo justo; se eu O chamo de Pai, falo de todas as coisas como sendo Dele; [529] se eu O chamo de Fogo, apenas menciono Sua raiva.
 
@@ -57,13 +57,13 @@ Você dirá, então, para mim: "Deus está zangado?" Sim; Ele está irado com aq
 
 [530] Maranus observa que Teófilo pretende indicar a diferença entre o castigo de Deus aos justos e Seu castigo aos ímpios.
 
-Capítulo IV.--Atributos de Deus.
+## Capítulo IV.--Atributos de Deus.
 
 E Ele não tem princípio, porque Ele é ingênito; e Ele é imutável, porque Ele é imortal. E ele é chamado Deus [Theos] por ter colocado [tetheikenai] todas as coisas sob a segurança proporcionada por Ele mesmo; e por causa de [theein], para theein significa correr, e mover-se, e ser ativo, e nutrir, e prever, e governar, e tornar todas as coisas vivas. Mas ele é Senhor, porque governa o universo; Pai, porque ele é antes de todas as coisas; Formador e Fazedor, porque Ele é criador e fazedor do universo; o Altíssimo, porque Ele está acima de tudo; e Todo-Poderoso, porque Ele mesmo governa e abraça a todos. Porque as alturas dos céus, e as profundezas dos abismos, e os confins da terra estão nas suas mãos, e não há lugar para o seu descanso. Pois os céus são Sua obra, a terra é Sua criação, o mar é Sua obra; o homem é Sua formação e Sua imagem; o sol, a lua e as estrelas são Seus elementos, feitos para sinais, e estações, e dias, e anos, para que possam servir e ser escravos do homem; e todas as coisas que Deus transformou das que não existiam em coisas que são, para que através de Suas obras Sua grandeza possa ser conhecida e compreendida.
 
 [531] [Justin de Kaye, p. 173.]
 
-Capítulo V.--O Deus Invisível Percebido Através de Suas Obras.
+## Capítulo V.--O Deus Invisível Percebido Através de Suas Obras.
 
 Pois assim como a alma no homem não é vista, sendo invisível aos homens, mas é percebida através do movimento do corpo, assim Deus não pode de fato ser visto pelos olhos humanos, mas é visto e percebido através de Sua providência e obras. Pois, da mesma maneira, como qualquer pessoa, quando vê um navio no mar equipado e velejando, e indo para o porto, sem dúvida inferirá que há nele um piloto que o dirige; portanto, devemos perceber que Deus é o governador [piloto] de todo o universo, embora Ele não seja visível aos olhos da carne, pois é incompreensível. Pois se um homem não pode olhar para o sol, embora seja um corpo celeste muito pequeno, devido ao seu calor e poder excessivos, como não será um homem mortal muito mais incapaz de enfrentar a glória de Deus, que é indescritível? Pois assim como a romã, com a casca que a contém, tem dentro de si muitas células e compartimentos que são separados por tecidos, e também tem muitas sementes que habitam nela, assim toda a criação está contida pelo espírito (532) de Deus, e o espírito que a contém está junto com a criação contida pela mão de Deus.
 
@@ -71,7 +71,7 @@ Assim como, portanto, a semente da romã, que mora dentro dela, não pode ver o 
 
 [532] A referência aqui não é ao Espírito Santo, mas àquele poder vital que deveria ser difundido por todo o universo. Comp. livro II. 4.
 
-Capítulo VI.--Deus é conhecido por suas obras.
+## Capítulo VI.--Deus é conhecido por suas obras.
 
 Considere, ó homem, Suas obras - a rotação oportuna das estações e as mudanças de temperatura; a marcha regular das estrelas; o curso bem ordenado de dias e noites, meses e anos; as diversas belezas das sementes, das plantas e dos frutos; e as diversas espécies (533) de quadrúpedes, e aves, e répteis, e peixes, tanto dos rios como do mar; ou consideremos o instinto implantado nesses animais para gerar e criar descendentes, não para seu próprio lucro, mas para uso do homem; e a providência com a qual Deus fornece alimento para toda a carne, ou a sujeição na qual Ele ordenou que todas as coisas servissem à humanidade. Considere também o fluxo de fontes doces e rios inesgotáveis, e o suprimento oportuno de orvalho, aguaceiros e chuvas; o múltiplo movimento dos corpos celestes, a estrela da manhã surgindo e anunciando a aproximação da luminária perfeita; e a constelação das Plêiades, e Orion, e Arcturus, e a órbita das outras estrelas que circulam pelos céus, todas as quais a multiforme sabedoria de Deus chamou por nomes próprios.
 
@@ -83,7 +83,7 @@ Ele é o único Deus que fez luz das trevas e trouxe luz de Seus tesouros, e for
 
 [535] Sal. cxxxv. 7.
 
-Capítulo VII.--Veremos a Deus quando nos revestirmos da imortalidade.
+## Capítulo VII.--Veremos a Deus quando nos revestirmos da imortalidade.
 
 Este é o meu Deus, o Senhor de todos, o único que estendeu o céu e estabeleceu a largura da terra debaixo dele; que agita as profundezas do mar e faz rugir as suas ondas; quem governa seu poder e acalma o tumulto de suas ondas; que fundou a terra sobre as águas e deu um espírito para nutri-la; cujo sopro ilumina o todo, que, se Ele retirar o fôlego, o todo falhará completamente. Por Ele você fala, ó homem; Sua respiração você respira, mas Ele você não conhece. E esta é a sua condição, por causa da cegueira da sua alma e da dureza do seu coração. Mas, se você quiser, você pode ser curado. Confie-se ao Médico, e Ele cobrirá os olhos da sua alma e do seu coração. Quem é o Médico? Deus, que cura e vivifica através de Sua palavra e sabedoria. Deus, por Sua própria palavra e sabedoria, fez todas as coisas; pois "pela Sua palavra foram feitos os céus, e todo o exército deles pelo sopro da Sua boca". [536] Excelente é a Sua sabedoria.
 
@@ -91,7 +91,7 @@ Pela Sua sabedoria, Deus fundou a terra; e pelo conhecimento preparou os céus; 
 
 [536] Sal. xxxiii. 6.
 
-Capítulo VIII.-- ​​Fé exigida em todos os assuntos.
+## Capítulo VIII.-- ​​Fé exigida em todos os assuntos.
 
 Mas você não acredita que os mortos ressuscitam. Quando a ressurreição acontecer, então você acreditará, quer queira ou não; e sua fé será considerada incredulidade, a menos que você creia agora. E por que você não acredita? Você não sabe que a fé é o princípio orientador em todos os assuntos? Pois que lavrador pode colher, a menos que primeiro confie sua semente à terra? Ou quem pode atravessar o mar, a menos que primeiro se confie ao barco e ao piloto? E que pessoa doente pode ser curada, a menos que primeiro confie nos cuidados do médico? E que arte ou conhecimento alguém pode aprender, a menos que primeiro se aplique e se confie ao professor? Se, então, o lavrador confia na terra, e o marinheiro no barco, e o doente no médico, você não confiará em Deus, mesmo quando tiver tantas promessas em Suas mãos?
 
@@ -99,13 +99,13 @@ Pois primeiro Ele criou você do nada e o trouxe à existência (pois se seu pai
 
 (537) isto é, na ressurreição.
 
-Capítulo IX.--Imoralidades dos Deuses.
+## Capítulo IX.--Imoralidades dos Deuses.
 
 E, de fato, os nomes daqueles a quem você diz adorar são nomes de homens mortos. E estes também, quem e que tipo de homens eram? Não é Saturno considerado um canibal, destruindo e devorando seus próprios filhos? E se você nomear seu filho como Júpiter, ouça também seus feitos e conduta - primeiro, como ele foi amamentado por uma cabra no Monte Ida, e depois de matá-la, de acordo com os mitos, e esfolá-la, ele fez para si um casaco de pele. E seus outros atos - seu incesto, adultério e luxúria - serão melhor narrados por Homero e pelo resto dos poetas. Por que eu deveria falar ainda mais de seus filhos? Como Hércules se queimou; e sobre o Baco bêbado e furioso; e de Apolo temendo e fugindo de Aquiles, e se apaixonando por Daphne, e desconhecendo o destino de Jacinto; e de Vênus ferida, e de Marte, a praga dos mortais; e do icor fluindo dos chamados deuses.
 
 E estes, de fato, são os tipos mais brandos de lendas; já que o deus chamado Osíris foi dilacerado membro por membro, cujos mistérios são celebrados anualmente, como se ele tivesse morrido e estivesse sendo encontrado e procurado membro por membro. Pois não se sabe se ele morreu, nem se sabe se foi encontrado. E por que eu deveria falar de Atys mutilado, ou de Adônis vagando pela floresta e ferido por um javali enquanto caçava? ou de Esculápio atingido por um raio; ou do fugitivo Serápis perseguido de Sinope até Alexandria; ou da Diana cita, ela também uma fugitiva, uma homicida, uma caçadora e uma amante apaixonada de Endimião? Ora, não somos nós que publicamos estas coisas, mas os vossos próprios escritores e poetas.
 
-Capítulo X.--Absurdos da Idolatria.
+## Capítulo X.--Absurdos da Idolatria.
 
 Por que eu deveria contar ainda mais a multidão de animais adorados pelos egípcios, tanto répteis, quanto gado, e animais selvagens, e pássaros, e peixes de rio; e até mesmo panelas [538] e ruídos vergonhosos? (539) Mas se você citar os gregos e as outras nações, eles adoram pedras e madeira, e outros tipos de substâncias materiais - as imagens, como acabamos de dizer, de homens mortos. Pois Fídias é encontrado em Pisa fazendo para os eleianos o Júpiter olímpico, e para Atenas a Minerva da Acrópole. E vou perguntar a você, meu amigo, quantos Júpiteres existem. Pois há, em primeiro lugar, Júpiter de sobrenome Olímpico, depois Júpiter Latiaris, e Júpiter Cassius, e Júpiter Tonans, e Júpiter Propator, e Júpiter Pannychius, e Júpiter Poliuchus, e Júpiter Capitolinus; e que Júpiter, filho de Saturno, rei dos cretenses, tem uma tumba em Creta, mas os demais, possivelmente, não foram considerados dignos de tumbas.
 
@@ -115,13 +115,13 @@ E se você fala da mãe daqueles que são chamados de deuses, longe de mim pronu
 
 [539] [A fábula de Eco e sua fofoca vergonhosa podem servir de exemplo.]
 
-Capítulo XI.-- O Rei a Ser Honrado, Deus a Ser Adorado.
+## Capítulo XI.-- O Rei a Ser Honrado, Deus a Ser Adorado.
 
 Portanto, preferirei honrar o rei [do que os seus deuses], não, de fato, adorando-o, mas orando por ele. Mas a Deus, o Deus vivo e verdadeiro, eu adoro, sabendo que o rei é feito por Ele. Você dirá, então, para mim: "Por que você não adora o rei?" Porque ele não foi feito para ser adorado, mas para ser reverenciado com honra legítima, pois ele não é um deus, mas um homem designado por Deus, não para ser adorado, mas para julgar com justiça. Pois de certa forma seu governo é confiado a ele por Deus: como Ele não terá aqueles chamados reis a quem Ele designou sob Si mesmo; pois “rei” é o seu título, e não é lícito que outro o use; portanto, também não é lícito adorar a ninguém, exceto a Deus. Portanto, ó homem, você está totalmente errado. Conseqüentemente, honre o rei, esteja sujeito a ele e ore por ele com mente leal; pois se você fizer isso, você fará a vontade de Deus. Pois a lei que é de Deus diz: "Meu filho, tema ao Senhor e ao rei, e não seja desobediente a eles; porque de repente eles se vingarão de seus inimigos." [540]
 
 [540] Prov. xviv. 21, 22. O grego de Teófilo tem “honra” em vez de “medo”.
 
-Capítulo XII.--Significado do Nome Cristão.
+## Capítulo XII.--Significado do Nome Cristão.
 
 E sobre você rir de mim e me chamar de “cristão”, você não sabe o que está dizendo. Primeiro, porque aquilo que é ungido (541) é doce e útil, e está longe de ser desprezível. Pois que navio pode ser útil e em condições de navegar, a menos que seja primeiro calafetado [ungido]? Ou que castelo ou casa é belo e útil quando não foi ungido? E qual homem, ao entrar nesta vida ou no ginásio, não é ungido com óleo? E que obra tem ornamento ou beleza a menos que seja ungida e polida? Então o ar e tudo o que está sob o céu são de certa forma ungidos pela luz e pelo espírito; e você não está disposto a ser ungido com o óleo de Deus? Por isso somos chamados cristãos por causa disso, porque somos ungidos com o óleo de Deus. [542]
 
@@ -129,7 +129,7 @@ E sobre você rir de mim e me chamar de “cristão”, você não sabe o que es
 
 [542] [Provavelmente não é óleo material, pois não é mencionado em Escrituras como Atos viii. 17, xix. 6, Heb. vi. 2; mas a unção (1 João 2:20) do Espírito Santo. Entretanto, como símbolo, o petróleo foi usado desde cedo; e os latinos não demoram a insistir nisso em favor do óleo material no crisma, ou confirmação.]
 
-Capítulo XIII.--A Ressurreição Provada por Exemplos.
+## Capítulo XIII.--A Ressurreição Provada por Exemplos.
 
 Então, quanto a você negar que os mortos ressuscitam - pois você diz: (543) "Mostre-me pelo menos alguém que ressuscitou dos mortos, para que, vendo, eu possa acreditar", - primeiro, que grande coisa é se você acredita quando vê a coisa acontecer? Então, novamente, você acredita que Hércules, que se queimou, vive; e que Esculápio, que foi atingido por um raio, ressuscitou; e você não acredita nas coisas que Deus lhe diz? Mas, suponha que eu lhe mostrasse um homem morto ressuscitado e vivo, mesmo isso você não acreditaria. Deus realmente mostra a você muitas provas de que você pode acreditar Nele. Pois considere, por favor, a morte das estações, dos dias e das noites, como estes também morrem e ressuscitam. E o quê? Não está acontecendo uma ressurreição de sementes e frutos, e isso também para uso dos homens? Uma semente de trigo, por exemplo, ou de outros grãos, quando é lançada na terra, primeiro morre e apodrece, depois cresce e se torna um talo de milho.
 
@@ -139,7 +139,7 @@ Ouça mais, ó homem, sobre a obra de ressurreição que está acontecendo em vo
 
 [543] [Este é o famoso desafio que oferece a Gibbon (cap. Xv.) uma oportunidade muito agradável para seus cavils. Mas nosso autor não estava afirmando que os mortos ressuscitariam em seus dias, mas apenas que deveriam ressuscitar no último dia.]
 
-Capítulo XIV.--Teófilo, um exemplo de conversão.
+## Capítulo XIV.--Teófilo, um exemplo de conversão.
 
 Portanto, não seja cético, mas acredite; pois eu também não acreditava que isso aconteceria, mas agora, tendo levado essas coisas em consideração, acredito. Ao mesmo tempo, encontrei-me com as Sagradas Escrituras dos santos profetas, que também pelo Espírito de Deus predisseram as coisas que já aconteceram, exatamente como aconteceram, e as coisas que estão acontecendo agora como estão acontecendo agora, e as coisas futuras na ordem em que serão realizadas. Admitindo, portanto, a prova que os acontecimentos que acontecem como previstos proporcionam, não descreio, mas creio, obediente a Deus, a quem, se quiseres, também te submetes, acreditando Nele, para que, se agora continuares incrédulo, não sejas convencido no futuro, quando fores atormentado com castigos eternos; cujos castigos, quando foram preditos pelos profetas, os poetas e filósofos nascidos posteriormente roubaram das Sagradas Escrituras, para tornarem suas doutrinas dignas de crédito.
 
@@ -161,19 +161,19 @@ theophilus autolycus_ii anf02 theophilus_autolycus_ii Teófilo a Autolycus - Liv
 
 Teófilo a Autólico.
 
-Livro II.
+# Livro II.
 
-Capítulo I. - Ocasião para escrever este livro.
+## Capítulo I. - Ocasião para escrever este livro.
 
 Quando tivemos alguma conversa anteriormente, meu bom amigo Autolycus, e quando você perguntou quem era meu Deus, e por um pouco prestou atenção ao meu discurso, eu lhe dei algumas explicações sobre minha religião; e depois de nos despedirmos, fomos com muita amizade mútua, cada um para sua casa, embora a princípio você tenha sido um tanto duro comigo. Pois você sabe e lembra que supôs que nossa doutrina era tolice. Como você mais tarde me instou a fazer, estou desejoso, embora não educado na arte de falar, de demonstrar com mais precisão, por meio deste tratado, o trabalho vão e a adoração vazia em que você é mantido; e desejo também, a partir de algumas de suas próprias histórias que você leu, e talvez ainda não entenda muito bem, tornar a verdade clara para você.
 
-Capítulo II.-- ​​Os deuses são desprezados quando são feitos; Mas torne-se valioso quando comprado.
+## Capítulo II.-- ​​Os deuses são desprezados quando são feitos; Mas torne-se valioso quando comprado.
 
 E, na verdade, parece-me absurdo que estatuários e escultores, ou pintores, ou moldadores, devam projetar e pintar, e esculpir, e moldar, e preparar deuses, que, quando produzidos pelos artífices, não são considerados de nenhum valor; mas assim que são comprados (549) por alguns e colocados em algum chamado templo, ou em alguma casa, não apenas aqueles que os compraram sacrificam a eles, mas também aqueles que os fizeram e venderam vêm com muita devoção, e aparatos de sacrifício, e libações, para adorá-los; e eles os consideram deuses, não vendo que são exatamente como eram quando foram feitos por eles mesmos, seja pedra, ou latão, ou madeira, ou cor, ou algum outro material. E este é o seu caso também quando você lê as histórias e genealogias dos chamados deuses. Pois quando você lê sobre o nascimento deles, você pensa neles como homens, mas depois você os chama de deuses e os adora, sem refletir nem compreender que, quando nascidos, eles são exatamente os seres que você leu antes.
 
 [549] As palavras "por alguns e colocados" são omitidas em algumas edições, mas ocorrem nos melhores mss.
 
-Capítulo III.--O que aconteceu aos deuses?
+## Capítulo III.--O que aconteceu aos deuses?
 
 E dos deuses dos tempos antigos, se de fato foram gerados, a geração foi suficientemente prolífica. Mas agora, onde está exposta a sua geração? Pois se antigamente eles geraram e foram gerados, é claro que até o presente deveria haver deuses gerados e nascidos; ou pelo menos se não for assim, tal raça será considerada impotente. Pois ou envelheceram e por isso não geram mais, ou morreram e não existem mais. Pois se os deuses foram gerados, eles deveriam nascer até agora, como também nascem os homens; sim, muito mais numerosos deveriam ser os deuses do que os homens, como diz a Sibila: -
 
@@ -189,7 +189,7 @@ Pois se os filhos gerados de homens que são mortais e de vida curta aparecem at
 
 Mas este é o atributo de Deus, o Altíssimo e Todo-Poderoso, e do Deus vivo, não apenas estar presente em todos os lugares, mas também ver todas as coisas e ouvir todas, e de forma alguma estar confinado em um lugar; pois se Ele existisse, então o lugar que O contém seria maior do que Ele; pois aquilo que contém é maior do que aquilo que está contido. Pois Deus não está contido, mas é Ele mesmo o lugar de todos. Mas por que Júpiter deixou Ida? Foi porque ele morreu ou aquela montanha não lhe agradava mais? E para onde ele foi? Para o céu? Não. Mas talvez você diga: Para Creta? Sim, pois ali também o seu túmulo é mostrado até hoje. Novamente, você dirá: Para Pisa, onde ele reflete a glória nas mãos de Fídias até hoje. Passemos, então, aos escritos dos filósofos e poetas.
 
-Capítulo IV.--Opiniões absurdas dos filósofos a respeito de Deus.
+## Capítulo IV.--Opiniões absurdas dos filósofos a respeito de Deus.
 
 Alguns dos filósofos do Pórtico dizem que Deus não existe; ou, se houver, dizem que Ele não se importa com ninguém além de si mesmo; e essas opiniões foram amplamente expostas pela loucura de Epicuro e Crisipo. E outros dizem que todas as coisas são produzidas sem intervenção externa, e que o mundo não é criado e que a natureza é eterna; (550) e ousaram revelar que não existe nenhuma providência de Deus, mas sustentam que Deus é apenas a consciência de cada homem. E outros ainda sustentam que o espírito que permeia todas as coisas é Deus. Mas Platão e os da sua escola reconhecem de facto que Deus é incriado e é o Pai e Criador de todas as coisas; mas então eles sustentam que a matéria, assim como Deus, é incriada, e afirmam que ela é contemporânea de Deus. Mas se Deus é incriado e a matéria incriada, Deus não é mais, de acordo com os platônicos, o Criador de todas as coisas, nem, até onde sustentam suas opiniões, a monarquia (551) de Deus está estabelecida.
 
@@ -203,7 +203,7 @@ Assim como, portanto, em todos esses aspectos Deus é mais poderoso que o homem,
 
 [552] Literalmente, "assunto".
 
-Capítulo V.--Opiniões de Homero e Hesíodo sobre os Deuses.
+## Capítulo V.--Opiniões de Homero e Hesíodo sobre os Deuses.
 
 Para que a opinião dos vossos filósofos e autores seja discordante; pois enquanto os primeiros propuseram as opiniões anteriores, o poeta Homero é encontrado explicando a origem não apenas do mundo, mas também dos deuses, com base em outra hipótese. Pois ele diz em algum lugar: [553] -
 
@@ -271,7 +271,7 @@ Mas como poderiam as Musas, que são mais jovens que o mundo, saber essas coisas
 
 [555] Teog., 104.
 
-Capítulo VI.--Hesíodo sobre a Origem do Mundo.
+## Capítulo VI.--Hesíodo sobre a Origem do Mundo.
 
 E de certa forma ele realmente admite a matéria [como autoexistente] e a criação do mundo [sem criador], dizendo: [556] -
 
@@ -321,7 +321,7 @@ E dizendo isso, ele ainda não explicou por quem tudo isso foi feito. Pois se o 
 
 [557] O editor beneditino propõe ler estas palavras após a primeira cláusula do c. 7. Seguimos a leitura de Wolf e Fell, que entendem as pirâmides a que nos referimos.
 
-Capítulo VII.--Fabulosas genealogias pagãs.
+## Capítulo VII.--Fabulosas genealogias pagãs.
 
 Por que preciso recontar as fábulas gregas – de Plutão, rei das trevas, de Netuno descendo ao fundo do mar e abraçando Melanipa e gerando um filho canibal – ou as muitas histórias que seus escritores entrelaçaram em suas tragédias relativas aos filhos de Júpiter, e cuja linhagem eles registram porque nasceram homens, e não deuses? E o poeta cômico Aristófanes, na peça chamada “Os Pássaros”, tendo-se encarregado de tratar do tema da Criação, disse que no início o mundo foi produzido a partir de um ovo, dizendo: [558] –
 
@@ -337,7 +337,7 @@ Assim, então, é a relação dos reis Alexandrinos com Baco. E, portanto, na tr
 
 [559] A família dionisíaca leva o nome de Dionísio ou Baco.
 
-Capítulo VIII.-- ​​Pareceres sobre a Providência.
+## Capítulo VIII.-- ​​Pareceres sobre a Providência.
 
 E por que deveria eu contar ainda mais a vasta gama de tais nomes e genealogias? De modo que todos os autores e poetas, e aqueles chamados filósofos, estão totalmente enganados; e o mesmo acontece com aqueles que lhes dão atenção. Pois eles compunham abundantemente fábulas e histórias tolas sobre seus deuses, e não os exibiam como deuses, mas como homens, e homens também, dos quais alguns eram bêbados, e outros fornicadores e assassinos. Mas também no que diz respeito à origem do mundo, proferiram opiniões contraditórias e absurdas. Primeiro, alguns deles, como explicamos anteriormente, sustentavam que o mundo não foi criado. E aqueles que diziam que ela era incriada e autoproduzida contradiziam aqueles que propunham que ela era criada. Porque falaram por conjectura e concepção humana, e não sabendo a verdade. E outros, novamente, disseram que houve uma providência e destruíram as posições dos antigos escritores. Arato, de fato, diz: [560] -
 
@@ -423,13 +423,13 @@ E sem querer fazê-lo, reconhecem que não conhecem a verdade; mas, inspirados p
 
 [564] Literalmente, "por fantasia e erro".
 
-Capítulo IX.-- Os Profetas Inspirados pelo Espírito Santo.
+## Capítulo IX.-- Os Profetas Inspirados pelo Espírito Santo.
 
 Mas os homens de Deus, carregando consigo um espírito santo (565) e tornando-se profetas, sendo inspirados e tornados sábios por Deus, tornaram-se ensinados por Deus, santos e justos. Portanto, eles também foram considerados dignos de receber esta recompensa, de que se tornariam instrumentos de Deus e conteriam a sabedoria que vem Dele, através da qual proferiram tanto o que dizia respeito à criação do mundo como todas as outras coisas. Pois eles previram também pestilências, fomes e guerras. E não houve um ou dois, mas muitos, em vários momentos e épocas entre os hebreus; e também entre os gregos havia a Sibila; e todos eles falaram coisas consistentes e harmoniosas entre si, tanto o que aconteceu antes deles como o que aconteceu em seu próprio tempo, e o que agora está sendo cumprido em nossos próprios dias: portanto, estamos persuadidos também em relação às coisas futuras de que elas ocorrerão, como também as primeiras foram realizadas.
 
 [565] Wolf perfers pneumatophoroi, levado ou levado pelo Espírito. [Justin M. de Kaye, p. 180, comparando esta visão da inspiração dos profetas, com as de Justino e Atenágoras.]
 
-Capítulo X.--O Mundo Criado por Deus Através da Palavra.
+## Capítulo X.--O Mundo Criado por Deus Através da Palavra.
 
 E primeiro, eles nos ensinaram de comum acordo que Deus fez todas as coisas do nada; pois nada era contemporâneo de Deus: mas Ele, sendo Seu próprio lugar, e não querendo nada, e existindo antes dos tempos, quis fazer o homem por quem Ele pudesse ser conhecido; para ele, portanto, Ele preparou o mundo. Pois aquele que foi criado também é necessitado; mas aquele que não foi criado não precisa de nada. Deus, então, tendo Sua própria Palavra interna (566) em Suas próprias entranhas, gerou-O, emitindo-O (567) junto com Sua própria sabedoria antes de todas as coisas. Ele teve esta Palavra como auxiliador nas coisas que foram criadas por Ele, e por Ele fez todas as coisas. Ele é chamado de “princípio governante” [harke], porque Ele governa e é Senhor de todas as coisas moldadas por Ele. Ele, então, sendo Espírito de Deus, e princípio governante, e sabedoria, e poder do mais alto, desceu sobre os profetas, e através deles falou da criação do mundo e de todas as outras coisas.
 
@@ -449,7 +449,7 @@ Pois os profetas não existiam quando o mundo veio à existência, mas a sabedor
 
 [571] Teófilo, portanto, entende que quando no primeiro versículo se diz que Deus criou a terra, significa que ele criou a matéria da qual a terra é formada.
 
-Capítulo XI.--Descrito o trabalho dos seis dias.
+## Capítulo XI.--Descrito o trabalho dos seis dias.
 
 Agora, o início da criação é leve; já que a luz manifesta as coisas que são criadas. Por isso é dito: “E disse Deus: Haja luz, (572) e a luz existiu; e Deus viu que a luz era boa”, manifestamente feita boa para o homem. "E Deus separou a luz das trevas; e Deus chamou a luz de Dia, e as trevas chamou de Noite. E a tarde e a manhã foram o primeiro dia. E disse Deus: Haja um firmamento no meio das águas, e faça separação entre as águas e as águas: e assim foi. E Deus fez o firmamento, e separou as águas que estavam debaixo do firmamento das águas que estavam acima do firmamento. E Deus chamou o firmamento de Céu: e Deus viu que ele Foi bom. E foi a tarde e a manhã do dia segundo. E disse Deus: Ajuntem-se num só lugar as águas que estão debaixo do céu, e apareça a terra seca; e assim foi.
 
@@ -463,7 +463,7 @@ E Deus disse: Eis que vos tenho dado toda erva que dá semente, que está sobre 
 
 (572) As palavras “e a luz era; e Deus viu a luz, que era boa”, são omitidas nos dois melhores mss. e em algumas edições; mas parecem ser necessários e ter ocorrido por erro dos transcritores.
 
-Capítulo XII.--A Glória dos Seis Dias de Trabalho.
+## Capítulo XII.--A Glória dos Seis Dias de Trabalho.
 
 Deste trabalho de seis dias, nenhum homem pode dar uma explicação e descrição digna de todas as suas partes, embora tivesse dez mil línguas e dez mil bocas; não, embora ele vivesse dez mil anos, peregrinando nesta vida, nem mesmo assim poderia proferir algo digno dessas coisas, por causa da extraordinária grandeza e riqueza da sabedoria de Deus que existe nos seis dias de trabalho acima narrado. De fato, muitos escritores imitaram [a narração] e tentaram dar uma explicação dessas coisas; contudo, embora daí tenham derivado algumas sugestões, tanto relativas à criação do mundo como à natureza do homem, não emitiram a menor centelha de verdade. E as declarações dos filósofos, dos escritores e dos poetas têm uma aparência de confiabilidade, devido à beleza de sua dicção; mas seu discurso provou ser tolo e ocioso, porque a multidão de suas frivolidades absurdas é muito grande; e nem um pedaço perdido de verdade é encontrado neles.
 
@@ -471,7 +471,7 @@ Pois mesmo que alguma verdade pareça ter sido proferida por eles, ela contém u
 
 Pois não é justo que Deus seja conquistado pelo prazer; visto que até os homens de temperança se abstêm de todo prazer vil e luxúria perversa.
 
-Capítulo XIII.-- ​​Observações sobre a Criação do Mundo.
+## Capítulo XIII.-- ​​Observações sobre a Criação do Mundo.
 
 Além disso, sua concepção humana, mesquinha e muito fraca [de Hesíodo], no que diz respeito a Deus, é descoberta em seu início ao relacionar a criação de todas as coisas a partir das coisas terrenas aqui abaixo. Pois o homem, estando abaixo, começa a construir a partir da terra e não pode fazer o telhado em ordem, a menos que primeiro tenha lançado os alicerces. Mas o poder de Deus se manifesta nisto: antes de tudo, Ele cria do nada, segundo a Sua vontade, as coisas que são feitas. "Pois as coisas que são impossíveis aos homens são possíveis a Deus." [573] Por isso, também, o profeta mencionou que a criação dos céus ocorreu primeiro, como uma espécie de telhado, dizendo: "No início Deus criou os céus" - isto é, que por meio do "primeiro" princípio os céus foram feitos, como já mostramos. E por “terra” ele quer dizer a base e o fundamento, assim como por “profundidade” ele quer dizer a multidão de águas; e das “trevas” ele fala, por causa do céu que Deus fez cobrindo as águas e a terra como uma tampa.
 
@@ -493,7 +493,7 @@ A terra, tornando-se assim visível, ainda estava sem forma. Deus, portanto, for
 
 [578] Ou, devidamente organizado e nomeado.
 
-Capítulo XIV.--O Mundo Comparado ao Mar.
+## Capítulo XIV.--O Mundo Comparado ao Mar.
 
 Considere, ainda, sua variedade, beleza diversa e multidão, e como através deles a ressurreição é exibida, como um padrão da ressurreição de todos os homens que há de existir. Pois quem pensa que não se admirará que uma figueira seja produzida a partir de uma semente de figo, ou que árvores muito grandes cresçam de outras sementes muito pequenas? E dizemos que o mundo se parece com o mar. Pois assim como o mar, se não tivesse o influxo e o abastecimento dos rios e fontes para alimentá-lo, há muito estaria ressecado por causa de sua salinidade; assim também o mundo, se não tivesse a lei de Deus e os profetas fluindo e jorrando doçura, e compaixão, e justiça, e a doutrina dos santos mandamentos de Deus, há muito tempo teria chegado à ruína, por causa da maldade e do pecado que abundam nele.
 
@@ -509,7 +509,7 @@ Pois eles não são guiados pela palavra da verdade; mas como os piratas, depois
 
 [582] Isto é, como sugere a edição beneditina, quando os encherem de passageiros insuspeitos.
 
-Capítulo XV.--Do quarto dia.
+## Capítulo XV.--Do quarto dia.
 
 No quarto dia foram feitas as luminárias; porque Deus, que possui presciência, conhecia as loucuras dos vãos filósofos, que iam dizer que as coisas que crescem na terra são produzidas a partir dos corpos celestes, de modo a excluir Deus. Para que a verdade fosse evidente, portanto, as plantas e as sementes foram produzidas antes dos corpos celestes, pois o que é posterior não pode produzir o que é anterior. E estes contêm o padrão e o tipo de um grande mistério. Pois o sol é um tipo de Deus e a lua do homem. E assim como o sol supera em muito a lua em poder e glória, Deus supera em muito o homem. E assim como o sol permanece sempre cheio, nunca diminuindo, Deus sempre permanece perfeito, sendo cheio de todo poder, e entendimento, e sabedoria, e imortalidade, e todo bem.
 
@@ -525,13 +525,13 @@ E aqueles, novamente, que mudam de posição e fogem de um lugar para outro, que
 
 [586] ou seja, estrelas errantes.
 
-Capítulo XVI.--Do Quinto Dia.
+## Capítulo XVI.--Do Quinto Dia.
 
 No quinto dia foram produzidos os seres viventes que procedem das águas, através dos quais também é revelada a multiforme sabedoria de Deus nestas coisas; pois quem poderia contar sua multidão e vários tipos? Além disso, as coisas procedentes das águas foram abençoadas por Deus, para que isto também pudesse ser um sinal de que os homens estavam destinados a receber o arrependimento e a remissão dos pecados, através da água e da pia da regeneração - todos os que vierem à verdade, nascerem de novo e receberem a bênção de Deus. Mas os monstros das profundezas e as aves de rapina são uma semelhança de homens cobiçosos e transgressores. Pois como os peixes e as aves são da mesma natureza, alguns de fato permanecem em seu estado natural e não fazem mal aos mais fracos do que eles, mas guardam a lei de Deus e comem das sementes da terra; outros deles, novamente, transgridem a lei de Deus, e comem carne, e ferem aqueles mais fracos do que eles: assim, também, os justos, guardando a lei de Deus, não mordem e não ferem ninguém, mas vivem santa e justamente.
 
 Mas ladrões, e assassinos, e pessoas ímpias são como monstros das profundezas, e feras, e aves de rapina; pois eles virtualmente devoram os mais fracos do que eles. A raça, então, dos peixes e dos répteis, embora participasse da bênção de Deus, não recebeu nenhuma propriedade muito distintiva.
 
-Capítulo XVII.--Do Sexto Dia.
+## Capítulo XVII.--Do Sexto Dia.
 
 E no sexto dia, tendo Deus feito os quadrúpedes, as feras e os répteis terrestres, não pronunciou nenhuma bênção sobre eles, reservando Sua bênção para o homem, a quem Ele estava prestes a criar no sexto dia. Os quadrúpedes, também, e os animais selvagens, foram feitos para um tipo de alguns homens, que não conhecem nem adoram a Deus, mas se preocupam com as coisas terrenas e não se arrependem. Pois aqueles que se afastam de suas iniqüidades e vivem em retidão, em espírito voam para cima como pássaros, e se preocupam com as coisas que estão no alto, e são agradáveis ​​à vontade de Deus. Mas aqueles que não conhecem nem adoram a Deus são como pássaros que têm asas, mas não podem voar nem subir às coisas altas de Deus. Assim, também, embora tais pessoas sejam chamadas de homens, ainda assim oprimidos pelos pecados, eles se importam com as coisas terrenas e humilhantes. E os animais são chamados de feras selvagens [theria], por serem caçados [thereuesthai], não como se tivessem sido tornados maus ou venenosos desde o início - pois nada foi tornado mau por Deus, (587) mas todas as coisas boas, sim, muito boas - mas o pecado em que o homem estava envolvido trouxe o mal sobre eles.
 
@@ -539,11 +539,11 @@ Porque quando o homem transgrediu, eles também transgrediram com ele. Pois assi
 
 [587] [Observe a verdade sólida de que Deus não é o autor do mal, e a provável sugestão de que toda a natureza simpatizava com a transgressão do homem. ROM. viii. 22.]
 
-Capítulo XVIII.--A Criação do Homem.
+## Capítulo XVIII.--A Criação do Homem.
 
 Mas quanto ao que se refere à criação do homem, a sua própria criação não pode ser explicada pelo homem, embora seja um relato sucinto dela que a Sagrada Escritura dá. Pois quando Deus disse: “Façamos o homem à nossa imagem, conforme a nossa semelhança”, Ele primeiro insinua a dignidade do homem. Pois Deus, tendo feito todas as coisas por Sua Palavra, e considerando todas elas como meras obras secundárias, considera a criação do homem a única obra digna de Suas próprias mãos. Além disso, Deus é encontrado, como se precisasse de ajuda, dizendo: “Façamos o homem à nossa imagem, conforme a nossa semelhança”. Mas a ninguém mais, a não ser à Sua própria Palavra e sabedoria, Ele disse: “Façamos”. E quando Ele o criou e abençoou, para que pudesse aumentar e encher a terra, Ele colocou todas as coisas sob seu domínio e a seu serviço; e Ele determinou desde o início que ele deveria encontrar nutrição nos frutos da terra, e nas sementes, e ervas, e bolotas, tendo ao mesmo tempo determinado que os animais tivessem hábitos semelhantes aos do homem, para que eles também pudessem comer de todas as sementes da terra.
 
-Capítulo XIX.--O Homem é Colocado no Paraíso.
+## Capítulo XIX.--O Homem é Colocado no Paraíso.
 
 Deus tendo assim completado os céus, e a terra, e o mar, e tudo o que neles há, no sexto dia, descansou no sétimo dia de todas as Suas obras que Ele fez. Então a Sagrada Escritura dá um resumo com estas palavras: “Este é o livro da geração dos céus e da terra, quando foram criados, no dia em que o Senhor fez os céus e a terra, e toda coisa verde do campo, antes de ser feita, e toda erva do campo antes de crescer. (588) Com isso Ele nos significa que toda a terra era naquela época regada por uma fonte divina e não tinha necessidade de que o homem a cultivasse; mas a terra produziu todas as coisas espontaneamente por ordem de Deus, para que o homem não se cansasse de cultivá-la.
 
@@ -555,7 +555,7 @@ Mas para que a criação do homem pudesse ser esclarecida, de modo que não pare
 
 [590] [Mas compare Taciano (cap. xiii. p. 70), e a nota dos editores parisienses na margem (p. 152), onde eles começam com distinções para torná-lo ortodoxo, mas finalmente o acusam de heresia absoluta. Ed. Paris, 1615.]
 
-Capítulo XX.--O Relato Bíblico do Paraíso.
+## Capítulo XX.--O Relato Bíblico do Paraíso.
 
 As Escrituras relatam assim as palavras da história sagrada: “E Deus plantou o Paraíso, a leste, no Éden; circunda toda a terra de Havilá, onde há ouro; e o ouro daquela terra é bom, e há bdélio e pedra de ônix. E o nome do segundo rio é Giom: o mesmo é o que circunda toda a terra da Etiópia.
 
@@ -563,7 +563,7 @@ E o Senhor Deus tomou o homem que Ele tinha feito, e colocou-o no jardim, para l
 
 E da costela que o Senhor Deus tirou do homem, Ele fez uma mulher e a trouxe a Adão. E Adão disse: Isto agora é osso dos meus ossos e carne da minha carne; ela será chamada Mulher, porque foi tirada do homem. Portanto deixará o homem o seu pai e a sua mãe, e apegar-se-á à sua mulher, e serão os dois uma só carne. E ambos estavam nus, Adão e sua mulher, e não se envergonhavam”.
 
-Capítulo XXI.--Da Queda do Homem.
+## Capítulo XXI.--Da Queda do Homem.
 
 "Ora, a serpente era mais astuta do que qualquer animal do campo que o Senhor Deus tinha feito. E a serpente disse à mulher: Por que disse Deus: Não comereis de toda árvore do jardim? E a mulher disse à serpente: De toda árvore do jardim comemos, mas do fruto da árvore que está no meio do jardim, Deus disse: Não comereis dele, nem nele tocareis, para que não morrais. E a serpente disse à mulher: Certamente não comereis morrereis. Porque Deus sabe que no dia em que dela comerdes, vossos olhos se abrirão e sereis como deuses, conhecendo o bem e o mal.
 
@@ -579,7 +579,7 @@ Com o suor do teu rosto comerás o teu pão, até que voltes à terra; porque de
 
 [593] Gênesis ii. 8-iii. 19. [Ver Justin M., Dial., cap. eu. pág. 223, vol. 1. esta série.]
 
-Capítulo XXII.--Por que se diz que Deus caminhou.
+## Capítulo XXII.--Por que se diz que Deus caminhou.
 
 Você dirá, então, para mim: “Você disse que Deus não deveria estar contido em um lugar, e como você diz agora que Ele andou no Paraíso?” Ouça o que eu digo. O Deus e Pai, de fato, de todos não pode ser contido e não é encontrado em um lugar, pois não há lugar para Seu descanso; mas Sua Palavra, por meio de quem Ele fez todas as coisas, sendo Seu poder e Sua sabedoria, assumindo a pessoa (594) do Pai e Senhor de tudo, foi ao jardim na pessoa de Deus e conversou com Adão. Pois a própria escrita divina nos ensina que Adão disse ter ouvido a voz. Mas o que mais é esta voz senão a Palavra de Deus, que também é Seu Filho? Não como os poetas e escritores de mitos falam dos filhos dos deuses gerados pela relação sexual [com mulheres], mas como a verdade expõe, a Palavra, que sempre existe, residindo no coração de Deus.
 
@@ -593,13 +593,13 @@ Pois antes de qualquer coisa existir, Ele O tinha como conselheiro, sendo Sua pr
 
 [597] Isto é, sendo produzido por geração, não por criação.
 
-Capítulo XXIII.--A verdade do relato do Gênesis.
+## Capítulo XXIII.--A verdade do relato do Gênesis.
 
 O homem, portanto, Deus fez no sexto dia, e tornou conhecida esta criação depois do sétimo dia, quando também fez o Paraíso, para que pudesse estar em um lugar melhor e distintamente superior. E que isso é verdade, o próprio fato prova. Pois como alguém pode deixar de ver que as dores que as mulheres sofrem durante o parto e o esquecimento de seus trabalhos de que desfrutam depois são enviados para que a palavra de Deus possa ser cumprida e que a raça dos homens possa aumentar e multiplicar-se? (598) E não vemos também o julgamento da serpente - com que ódio ela rasteja sobre seu ventre e come o pó - para que possamos ter isso também como prova das coisas que foram ditas anteriormente?
 
 [598] O editor beneditino comenta: «As mulheres produzem com trabalho e dor como castigo atribuído ao pecado: esquecem a dor, para que a propagação da raça não seja impedida».
 
-Capítulo XXIV.--A Beleza do Paraíso.
+## Capítulo XXIV.--A Beleza do Paraíso.
 
 Deus, então, fez brotar da terra toda árvore de bela aparência ou boa para alimento. Pois no início havia apenas aquelas coisas que foram produzidas no terceiro dia: plantas, sementes e ervas; mas as coisas que estavam no Paraíso eram feitas de uma beleza e beleza superiores, visto que nele as plantas foram plantadas por Deus. Quanto ao resto das plantas, na verdade, o mundo continha plantas como elas; mas as duas árvores - a árvore da vida e a árvore do conhecimento - o resto da terra não possuía, mas apenas o Paraíso. E que o Paraíso é a terra, e está plantado na terra, as Escrituras afirmam, dizendo: (599) "E o Senhor Deus plantou o Paraíso no Éden, a leste, e colocou o homem lá; e do solo fez o Senhor Deus crescer toda árvore que é agradável à vista e boa para comida." Pelas expressões, portanto, “fora da terra” e “para o leste”, a escrita sagrada nos ensina claramente que o Paraíso está sob este céu, sob o qual estão o leste e a terra.
 
@@ -611,7 +611,7 @@ Pois o homem se tornou uma natureza intermediária, nem totalmente mortal, nem t
 
 [600] Em grego a palavra é “trabalho” ou “trabalho”, pois também falamos de terra produtiva.
 
-Capítulo XXV.--Deus foi justificado ao proibir o homem de comer da Árvore do Conhecimento.
+## Capítulo XXV.--Deus foi justificado ao proibir o homem de comer da Árvore do Conhecimento.
 
 A própria árvore do conhecimento era boa e seus frutos eram bons. Pois não foi a árvore, como alguns pensam, mas a desobediência, que continha a morte. Pois não havia nada no fruto além do conhecimento; mas o conhecimento é bom quando usado com discrição. (601) Mas Adão, sendo ainda uma criança em idade, ainda era, por esse motivo, incapaz de receber conhecimento digno. Por enquanto, também, quando uma criança nasce, ela não é imediatamente capaz de comer pão, mas é nutrida primeiro com leite e depois, com o passar dos anos, avança para alimentos sólidos. Assim também teria sido com Adão; pois não como alguém que o invejava, como alguns supõem, Deus lhe ordenou que não comesse do conhecimento. Mas Ele também desejava provar dele se ele era submisso ao Seu mandamento. E ao mesmo tempo Ele desejava que o homem, ainda criança, [602] permanecesse por mais algum tempo simples e sincero.
 
@@ -623,11 +623,11 @@ Não, portanto, como se houvesse algum mal na árvore do conhecimento; mas de su
 
 [602] [Não há necessidade de um longo argumento aqui, para mostrar, como alguns editores fizeram, que nosso autor chama Adão de criança, apenas com referência ao tempo, não ao desenvolvimento físico. Ele tinha apenas alguns dias de vida.]
 
-Capítulo XXVI.--A bondade de Deus em expulsar o homem do Paraíso.
+## Capítulo XXVI.--A bondade de Deus em expulsar o homem do Paraíso.
 
 E Deus mostrou grande bondade para com o homem nisso, não permitindo que ele permanecesse no pecado para sempre; mas, por assim dizer, por uma espécie de banimento, expulsou-o do Paraíso, para que, tendo expiado o pecado por punição, dentro de um prazo determinado, e tendo sido disciplinado, ele fosse posteriormente restaurado. Por isso também, quando o homem foi formado neste mundo, está escrito misticamente no Gênesis, como se ele tivesse sido colocado duas vezes no Paraíso; de modo que aquele foi cumprido quando ele foi colocado lá, e o segundo será cumprido depois da ressurreição e do julgamento. Pois assim como um vaso, ao ser moldado, apresenta alguma falha, é remodelado ou refeito, para que possa tornar-se novo e inteiro; assim também acontece ao homem pela morte. Pois de uma forma ou de outra ele é quebrado, para que possa ressuscitar inteiro na ressurreição; Quero dizer imaculado, justo e imortal. E quanto ao chamado de Deus e à pergunta: Onde estás, Adão? Deus fez isso, não como se ignorasse isso; mas, sendo longânimo, deu-lhe oportunidade de arrependimento e confissão.
 
-Capítulo XXVII.--A Natureza do Homem.
+## Capítulo XXVII.--A Natureza do Homem.
 
 Mas alguém nos dirá: O homem foi feito por natureza mortal? Certamente não. Ele era, então, imortal? Nem nós afirmamos isso. Mas alguém dirá: Ele não era nada? Nem mesmo isso atinge o alvo. Ele não era por natureza nem mortal nem imortal. Pois se Ele o tivesse feito imortal desde o princípio, Ele o teria feito Deus. Novamente, se Ele o tivesse feito mortal, Deus pareceria ser a causa de sua morte. Nem, então, nem imortal nem mortal Ele o fez, mas, como dissemos acima, capaz de ambos; de modo que se ele se inclinasse para as coisas da imortalidade, guardando o mandamento de Deus, ele receberia Dele a imortalidade como recompensa e se tornaria Deus; mas se, por outro lado, ele se voltasse para as coisas da morte, desobedecendo a Deus, ele próprio seria a causa da morte para si mesmo. Pois Deus fez o homem livre e com poder sobre si mesmo.
 
@@ -637,7 +637,7 @@ Mas alguém nos dirá: O homem foi feito por natureza mortal? Certamente não. E
 
 [604] Aparentemente significando que Deus transforma a morte, que o homem trouxe sobre si pela desobediência, em uma bênção.
 
-Capítulo XXVIII.--Por que Eva foi formada pela costela de Adão.
+## Capítulo XXVIII.--Por que Eva foi formada pela costela de Adão.
 
 E Adão, tendo sido expulso do Paraíso, nesta condição conheceu Eva, sua esposa, a quem Deus formou para ele uma esposa a partir de sua costela. E Ele fez isso, não como se fosse incapaz de formar sua esposa separadamente, mas Deus sabia de antemão que o homem invocaria vários deuses. E tendo esta presciência, e sabendo que através da serpente o erro introduziria uma série de deuses que não existiam, - pois havendo apenas um Deus, mesmo então o erro estava se esforçando para disseminar uma multidão de deuses, dizendo: "Sereis como deuses"; - para que, então, não se devesse supor que um Deus fez o homem e outro a mulher, portanto Ele fez os dois; e Deus fez a mulher junto com o homem, não apenas para que assim o mistério do governo exclusivo de Deus pudesse ser exibido, mas também para que seu afeto mútuo fosse maior.
 
@@ -649,7 +649,7 @@ Portanto disse Adão a Eva: “Isto agora é osso dos meus ossos e carne da minh
 
 [606] Referindo-se às orgias bacanais em que se gritava "Eva", e que os Padres professavam acreditar ser uma invocação não intencional de Eva, a autora de todos os pecados.
 
-Capítulo XXIX.--O Crime de Caim.
+## Capítulo XXIX.--O Crime de Caim.
 
 Quando, então, Adão conheceu Eva, sua esposa, ela concebeu e deu à luz um filho, cujo nome era Caim; e ela disse: “Consegui um homem de Deus”. E mais uma vez ela deu à luz um segundo filho, cujo nome era Abel, “que começou a ser pastor de ovelhas, mas Caim lavou a terra”. [607] A sua história recebe uma narração muito completa, sim, até uma explicação detalhada: [608] portanto o próprio livro, intitulado "A Génese do Mundo", pode informar com mais precisão aqueles que estão ansiosos por aprender a sua história. Quando, então, Satanás viu Adão e sua esposa não apenas ainda vivos, mas também gerando filhos - sendo levados com despeito por não ter conseguido matá-los - quando viu que Abel agradava a Deus, ele agiu no coração de seu irmão chamado Caim, e fez com que ele matasse seu irmão Abel.
 
@@ -661,7 +661,7 @@ E assim a morte teve início neste mundo, para encontrar o seu caminho em todas 
 
 [609] Fell comenta: "O sangue derramado coagula imediatamente e não entra facilmente na terra." [No campo de Antietam, após a batalha, observei o sangue lascado no solo, sem ser absorvido por ele.]
 
-Capítulo XXX.--A Família de Caim e Suas Invenções.
+## Capítulo XXX.--A Família de Caim e Suas Invenções.
 
 O próprio Caim também teve um filho, cujo nome era Enoque; e ele construiu uma cidade, que chamou pelo nome de seu filho, Enoque. A partir desse momento começou a construção de cidades, e isso antes do dilúvio; não como Homero diz falsamente: [610] -
 
@@ -675,7 +675,7 @@ Pois, como já mencionamos, este assunto, a ordem da genealogia do homem, foi pa
 
 [611] [Do fundador da cronologia cristã, isso deve ser observado.]
 
-Capítulo XXXI.--A História Depois do Dilúvio.
+## Capítulo XXXI.--A História Depois do Dilúvio.
 
 Depois do dilúvio houve novamente um começo de cidades e reis, da seguinte maneira: - A primeira cidade foi Babilônia, e Erech, e Accad, e Calneh, na terra de Sinar. E seu rei se chamava Nebroth [Nimrod]. Destes veio Assur, de quem também os assírios receberam o nome. E Nimrod construiu as cidades de Nínive e Reobote, e Calá, e Resen, entre Nínive e Calá; e Nínive tornou-se uma cidade muito grande. E outro filho de Sem, filho de Noé, por nome Mizraim, gerou Ludim, e aqueles chamados Anamim, e Lehabim, e Naftuhim, e Patrusim, e Casluhim, dos quais vieram os filisteus. Dos três filhos de Noé, porém, e de sua morte e genealogia, fornecemos um registro resumido no livro acima mencionado. Mas agora mencionaremos os fatos restantes, tanto a respeito das cidades como dos reis, e as coisas que aconteceram quando havia um só discurso e uma só língua.
 
@@ -717,7 +717,7 @@ Então reinou Efrom, apelidado de hitita. Esses são os nomes dos reis que exist
 
 [615] [Certamente um étimo impressionante, "Salem do sacerdote". Mas só podemos aceitá-lo como um belo jogo de palavras.]
 
-Capítulo XXXII.--Como a raça humana foi dispersada.
+## Capítulo XXXII.--Como a raça humana foi dispersada.
 
 Portanto, que os amores pelo aprendizado e pela antiguidade possam compreender a história e ver que são recentes aquelas coisas que são contadas por nós, à parte dos santos profetas. (616) Pois, embora a princípio houvesse poucos homens na terra da Arábia e da Caldéia, depois que suas línguas foram divididas, eles gradualmente começaram a se multiplicar e a se espalhar por toda a terra; e alguns deles tendiam para o leste a habitar lá, e outros para as partes do grande continente, e outros para o norte, de modo a se estenderem até a Grã-Bretanha, nas regiões árticas. E outros foram para a terra de Canaã, que se chama Judéia, e Fenícia, e a região da Etiópia, e Egito, e Líbia, e o país chamado tórrido, e as partes que se estendem para o oeste; e o resto foi para lugares à beira-mar, e Panfília, e Ásia, e Grécia, e Macedônia, e, além disso, para a Itália, e todo o país chamado Gália, e Espanha, e Alemanha; de modo que agora o mundo inteiro está cheio de habitantes.
 
@@ -725,11 +725,11 @@ Desde então, a ocupação do mundo pelos homens foi inicialmente dividida em tr
 
 [616] Provar a antiguidade das Escrituras, mostrando que nenhuma ocorrência recente é mencionada nelas. Wolf, no entanto, dá outra leitura, que seria traduzida: “entenda se são recentes aquelas coisas que proferimos sob a autoridade dos santos profetas”.
 
-Capítulo XXXIII.--A história profana não dá conta desses assuntos.
+## Capítulo XXXIII.--A história profana não dá conta desses assuntos.
 
 Quem, então, daqueles chamados sábios, e poetas, e historiadores, poderia nos contar verdadeiramente sobre essas coisas, tendo eles próprios nascido muito mais tarde, e introduzindo uma multidão de deuses, que nasceram tantos anos depois das cidades, e são mais modernos que reis, e nações, e guerras? Pois eles deveriam ter mencionado todos os eventos, mesmo aqueles que aconteceram antes do dilúvio; tanto da criação do mundo como da formação do homem, e de toda a sucessão de acontecimentos. Os profetas egípcios ou caldeus, e os outros escritores, deveriam ter sido capazes de dizer com precisão, se pelo menos falassem por um espírito divino e puro, e falassem a verdade em tudo o que foi proferido por eles; e deveriam ter anunciado não apenas coisas passadas ou presentes, mas também aquelas que estavam por vir ao mundo. E, portanto, está provado que todos os outros estiveram errados; e que somente nós, cristãos, possuímos a verdade, na medida em que somos ensinados pelo Espírito Santo, que falou nos santos profetas e predisse todas as coisas.
 
-Capítulo XXXIV.-- Os profetas ordenaram a santidade de vida.
+## Capítulo XXXIV.-- Os profetas ordenaram a santidade de vida.
 
 E, quanto ao resto, gostaria que com um espírito bondoso você investigasse as coisas divinas (617) - quero dizer as coisas que são ditas pelos profetas - para que, comparando o que é dito por nós com as declarações dos outros, você possa descobrir a verdade. Nós [618] mostramos a partir de suas próprias histórias, que eles compilaram, que os nomes daqueles que são chamados de deuses são os nomes de homens que viveram entre eles, como mostramos acima. E até hoje suas imagens são confeccionadas diariamente, ídolos, “obras de mãos de homens”. E a estes a massa de homens tolos serve, enquanto rejeitam o criador e modelador de todas as coisas e o nutridor de todo sopro de vida, dando crédito a doutrinas vãs através do engano da tradição sem sentido recebida de seus pais. Mas pelo menos Deus, o Pai e Criador do universo, não abandonou a humanidade, mas deu uma lei e enviou profetas santos para declarar e ensinar a raça dos homens, para que cada um de nós pudesse despertar e compreender que existe um Deus.
 
@@ -739,7 +739,7 @@ E eles também nos ensinaram a abster-nos de idolatria ilegal, e adultério, e a
 
 [618] O editor beneditino propõe “eles”.
 
-Capítulo XXXV.--Preceitos dos Livros Proféticos.
+## Capítulo XXXV.--Preceitos dos Livros Proféticos.
 
 A lei divina, então, não proíbe apenas a adoração de ídolos, mas também a adoração dos corpos celestes, do sol, da lua ou de outras estrelas; sim, nem o céu, nem a terra, nem o mar, nem as fontes, nem os rios devem ser adorados, mas devemos servir com santidade de coração e sinceridade de propósito apenas ao Deus vivo e verdadeiro, que também é o Criador do universo. Por isso diz a santa lei: “Não cometerás adultério; não roubarás; não dirás falso testemunho; não desejarás a mulher do teu próximo”. Assim também os profetas. Salomão de fato nos ensina que não devemos pecar nem mesmo virando os olhos, (619) dizendo: "Que os teus olhos olhem diretamente e que as tuas pálpebras olhem diretamente diante de ti." (620) E Moisés, que também foi profeta, diz, a respeito do governo exclusivo de Deus: “Teu Deus é Aquele que estabelece o céu e forma a terra, cujas mãos produziram todo o exército do céu; e Ele não colocou estas coisas diante de você para que você devesse segui-las. [621] E o próprio Isaías também diz: “Assim diz o Senhor Deus que estabeleceu os céus e fundou a terra e tudo o que nela há, e dá fôlego aos povos que nela habitam e espírito aos que nela andam.
 
@@ -769,7 +769,7 @@ E por que deveria eu contar a multidão de profetas, que são numerosos, e disse
 
 [628] Hab. ii. 18.
 
-Capítulo XXXVI.--Profecias da Sibila.
+## Capítulo XXXVI.--Profecias da Sibila.
 
 E a Sibila, que era uma profetisa entre os gregos e as outras nações, no início de sua profecia, repreende a raça dos homens, dizendo: -
 
@@ -985,7 +985,7 @@ E banqueteando-se com comida doce do céu estrelado."
 
 Que essas coisas são verdadeiras, úteis, justas e proveitosas para todos os homens é óbvio. Até os poetas falaram dos castigos dos ímpios.
 
-Capítulo XXXVII.--Os Testemunhos dos Poetas.
+## Capítulo XXXVII.--Os Testemunhos dos Poetas.
 
 E que os malfeitores devem necessariamente ser punidos na proporção dos seus atos, já foi, por assim dizer, proferido oracularmente por alguns dos poetas, como testemunho tanto contra eles próprios como contra os ímpios, declarando que serão punidos. Ésquilo disse:--
 
@@ -1077,6 +1077,8 @@ E Sófocles:--
 
 Que Deus fará perguntas tanto a respeito de palavrões falsos quanto a respeito de qualquer outra maldade, eles próprios quase predisseram. E a respeito da conflagração do mundo, eles, voluntária ou involuntariamente, falaram em conformidade com os profetas, embora fossem muito mais recentes, e roubaram essas coisas da lei e dos profetas. Os poetas corroboram o testemunho dos profetas.
 
+## Livro II, Capítulo XXXVIII. Os Ensinamentos dos Poetas e Filósofos Gregos Confirmatórios dos Ensinamentos dos…
+
 Capítulo XXXVIII.-- ​​Os Ensinamentos dos Poetas e Filósofos Gregos Confirmatórios dos Ensinamentos dos Profetas Hebreus.
 
 Mas o que importa se eles existiram antes ou depois deles? Certamente, em todos os eventos, eles proferiram coisas confirmatórias dos profetas. A respeito do incêndio do mundo, o profeta Malaquias predisse: "O dia do Senhor virá como uma fornalha ardente e consumirá todos os ímpios." [629] E Isaías: "Pois a ira de Deus é como uma violenta tempestade de granizo e como uma torrente impetuosa na montanha." [630] A Sibila, então, e os outros profetas, sim, e os poetas e filósofos, ensinaram claramente ambos sobre justiça, julgamento e punição; e também no que diz respeito à providência, que Deus cuida de nós, não apenas dos vivos entre nós, mas também daqueles que estão mortos: embora, de fato, eles tenham dito isso de má vontade, pois foram convencidos pela verdade. E entre os profetas, de fato, Salomão disse sobre os mortos: “Haverá cura para a tua carne e cuidado para os teus ossos”. (631) E o mesmo diz Davi: “Os ossos que quebraste se alegrarão”. (632) E de acordo com essas palavras estava a de Timocles: -
@@ -1121,13 +1123,13 @@ theophilus autolycus_iii anf02 theophilus_autolycus_iii Teófilo a Autolycus - L
 
 Teófilo a Autólico.
 
-Livro III.
+# Livro III.
 
-Capítulo I. - Autolycus ainda não está convencido.
+## Capítulo I. - Autolycus ainda não está convencido.
 
 Teófilo a Autólico, saudando: Vendo que os escritores gostam de compor uma infinidade de livros por vanglória, - alguns sobre deuses, e guerras, e cronologia, e alguns, também, sobre lendas inúteis, e outros trabalhos semelhantes em vão, nos quais você também tem se empregado até agora, e não tem rancor em suportar esse trabalho; mas embora você tenha conversado comigo, ainda é da opinião de que a palavra da verdade é uma história inútil, e supõe que nossos escritos são recentes e modernos; - por esse motivo, também não vou me arrepender do trabalho de apresentar-lhe compendiosamente, Deus me ajude, a antiguidade de nossos livros, lembrando-o disso em poucas palavras, para que você não se incomode com o trabalho de lê-lo, mas possa reconhecer a loucura dos outros autores.
 
-Capítulo II.--Os autores profanos não tinham meios de conhecer a verdade.
+## Capítulo II.--Os autores profanos não tinham meios de conhecer a verdade.
 
 Pois era adequado que aqueles que escreveram fossem eles próprios testemunhas oculares das coisas sobre as quais fizeram afirmações, ou as tivessem verificado com precisão por meio daqueles que as viram; pois aqueles que escrevem sobre coisas não verificadas batem no ar. Pois de que aproveitou Homero ter composto a guerra de Tróia e ter enganado a muitos; ou Hesíodo, o registro da teogonia daqueles a quem ele chama de deuses; ou Orfeu, os trezentos e sessenta e cinco deuses, que no final da vida ele rejeita, sustentando em seus preceitos que existe um só Deus? Que benefício a esferografia do círculo mundial conferiu a Arato, ou àqueles que defendiam a mesma doutrina que ele, exceto a glória entre os homens? E nem isso colheram como mereciam. E que verdade eles proferiram? Ou que bem fizeram as suas tragédias a Eurípides e Sófocles, ou aos outros trágicos?
 
@@ -1135,7 +1137,7 @@ Ou suas comédias para Menandro e Aristófanes e outros comediantes? Ou suas his
 
 [638] Enquanto estava no Egito, Pitágoras foi admitido na penetralia dos templos e nos arcanos da religião.
 
-Capítulo III.--Suas Contradições.
+## Capítulo III.--Suas Contradições.
 
 Pois todos estes, tendo-se apaixonado por uma reputação vã e vazia, nem eles próprios conheciam a verdade, nem guiavam outros à verdade: pois as coisas que eles próprios diziam os convencem de falar incoerentemente; e a maioria deles demoliu suas próprias doutrinas. Pois não apenas eles refutaram uns aos outros, mas alguns também até estultificaram seus próprios ensinamentos; de modo que sua reputação se transformou em vergonha e loucura, pois são condenados por homens de entendimento. Pois ou eles fizeram afirmações sobre os deuses, e depois ensinaram que não havia deus; ou se falaram mesmo da criação do mundo, finalmente disseram que todas as coisas foram produzidas espontaneamente. Sim, e mesmo falando em providência, ensinaram novamente que o mundo não era governado pela providência. Mas o quê? Eles não ensinaram, quando tentaram escrever até mesmo sobre conduta honrosa, a perpetração da lascívia, da fornicação e do adultério; e eles não introduziram uma maldade odiosa e indescritível?
 
@@ -1143,19 +1145,19 @@ E eles proclamam que seus deuses tomaram a iniciativa de cometer atos indescrit�
 
 [639] Viz., no primeiro livro de Autolycus.
 
-Capítulo IV.--Como Autolycus foi enganado por falsas acusações contra os cristãos.
+## Capítulo IV.--Como Autolycus foi enganado por falsas acusações contra os cristãos.
 
 Na verdade, nem havia necessidade de eu refutá-los, exceto que vejo você ainda em dúvida sobre a palavra da verdade. Pois embora você seja prudente, você suporta os tolos com alegria. Caso contrário, você não teria sido levado por homens insensatos a se render a palavras vazias e a dar crédito ao boato predominante com o qual lábios ímpios nos acusam falsamente, que somos adoradores de Deus e somos chamados de cristãos, alegando que as esposas de todos nós somos mantidas em comum e delas fazemos uso promíscuo; e que até cometemos incesto com as nossas próprias irmãs, e, o que é mais ímpio e bárbaro de tudo, que comemos carne humana. (640) Mas, além disso, dizem que a nossa doutrina só recentemente veio à luz, e que não temos nada a alegar como prova do que recebemos como verdade, nem do nosso ensino, mas que a nossa doutrina é tolice. Eu me pergunto, então, principalmente que você, que em outros assuntos é estudioso e um examinador de todas as coisas, nos dê apenas uma audiência descuidada. Pois, se fosse possível, você não se importaria em passar a noite nas bibliotecas.
 
 [640] [O corpo de Cristo é carne humana. Se, então, fosse a doutrina primitiva, que o pão e o vinho deixam de existir na Eucaristia e são transformados em carne e sangue naturais, nosso autor não poderia ter se ressentido dessa acusação como “a mais bárbara e ímpia”.]
 
-Capítulo V.--Os Filósofos Inculcam o Canibalismo.
+## Capítulo V.--Os Filósofos Inculcam o Canibalismo.
 
 Desde então, você leu muito, qual é a sua opinião sobre os preceitos de Zenão, Diógenes e Cleantes, que seus livros contêm, inculcando o consumo de carne humana: que os pais sejam cozidos e comidos por seus próprios filhos; e que se alguém recusar ou rejeitar uma parte deste alimento infame, ele próprio será devorado, quem não comerá? Uma declaração ainda mais ímpia do que essas é encontrada - a de Diógenes, que ensina os filhos a sacrificar seus próprios pais e devorá-los. E o historiador Heródoto não narra que Cambises, (641) depois de massacrar os filhos de Hárpago, também os cozinhou e os colocou como refeição diante de seu pai? E, ainda mais, narra que entre os índios os pais são comidos pelos próprios filhos. Oh! o ensino ímpio daqueles que registraram, ou melhor, inculcaram tais coisas! Oh! sua maldade e impiedade! Oh! a concepção daqueles que assim filosofaram com precisão e professaram filosofia! Pois aqueles que ensinaram essas doutrinas encheram o mundo de iniquidade.
 
 [641] Não foi Cambises, mas Astíages quem fez isso; veja Herodes. eu. 119.
 
-Capítulo VI.--Outras Opiniões dos Filósofos.
+## Capítulo VI.--Outras Opiniões dos Filósofos.
 
 E no que diz respeito à conduta ilegal, aqueles que vagaram cegamente pelo coro da filosofia falaram, quase como um homem, a uma só voz. Certamente Platão, para mencionar primeiro aquele que parece ter sido o filósofo mais respeitável entre eles, expressamente, por assim dizer, legisla em seu primeiro livro, [642] intitulado A República, que as esposas de todos sejam comuns, usando o precedente do filho [643] de Júpiter e o legislador dos cretenses, a fim de que sob este pretexto possa haver uma prole abundante das melhores pessoas, e que aqueles que estavam desgastados pelo trabalho possam ser consolados por tal relação. [644] E o próprio Epicuro também, além de ensinar o ateísmo, ensina junto com ele o incesto com mães e irmãs, e isso em transgressão das leis que o proíbem; pois Sólon legislou distintamente a respeito disso, para que de um pai casado os filhos pudessem surgir legalmente, para que não nascessem de adultério, para que ninguém honrasse como pai aquele que não era seu pai, ou desonrasse aquele que era realmente seu pai, por ignorância de que ele o era.
 
@@ -1169,7 +1171,7 @@ E estas coisas também são proibidas pelas outras leis dos romanos e dos gregos
 
 [645] [Esta declaração reflete algumas passagens de Hermas e mostra com que delicadeza ele reprovou os vícios grosseiros com os quais os cristãos não podiam escapar da familiaridade.]
 
-Capítulo VII.--Doutrina Variável a Respeito dos Deuses.
+## Capítulo VII.--Doutrina Variável a Respeito dos Deuses.
 
 Pois depois de terem dito que estes são deuses, eles novamente os tornaram inúteis. Pois alguns disseram que eram compostos de átomos; e outros, novamente, que eles resultam em átomos; e dizem que os deuses não têm mais poder que os homens. Platão também, embora diga que estes são deuses, gostaria que fossem compostos de matéria. E Pitágoras, depois de ter feito tanto trabalho e preocupação pelos deuses, e viajado para cima e para baixo [em busca de informações], finalmente determina que todas as coisas são produzidas natural e espontaneamente, e que os deuses não se importam com os homens. E quantas opiniões ateístas o acadêmico Clitomachus apresentou, [não preciso contar.] E Crítias e Protágoras de Abdera não disseram: “Pois se os deuses existem, não sou capaz de afirmar a respeito deles, nem de explicar de que natureza são; pois há muitas coisas que me impediriam”?
 
@@ -1225,11 +1227,11 @@ E pode-se ver quão inconsistentes entre si são as coisas que outros, e na verd
 
 [646] automatismo.
 
-Capítulo VIII.-- ​​Maldade atribuída aos deuses pelos escritores pagãos.
+## Capítulo VIII.-- ​​Maldade atribuída aos deuses pelos escritores pagãos.
 
 Pois, negando que existem deuses, eles novamente reconhecem a sua existência, e dizem que cometeram atos grosseiramente perversos. E, primeiro, de Júpiter os poetas cantam eufonicamente as ações perversas. E Crisipo, que dizia muitas bobagens, não foi encontrado publicando que Juno teve a relação sexual mais suja com Júpiter? Pois por que deveria eu contar as impurezas da chamada mãe dos deuses, ou de Júpiter Latiaris sedento de sangue humano, ou do castrado Átis; ou de Júpiter, apelidado de Trágico, e como ele se contaminou, como dizem, e agora é adorado entre os romanos como um deus? Fico em silêncio sobre os templos de Antínous e sobre os outros que vocês chamam de deuses. Pois quando relacionados com pessoas sensatas, provocam risos. Aqueles que elaboraram tal filosofia em relação à inexistência de Deus, ou às relações sexuais promíscuas e ao concubinato bestial, são eles próprios condenados pelos seus próprios ensinamentos. Além disso, descobrimos nos escritos que eles redigiram que o consumo de carne humana era aceito entre eles; e eles registram que aqueles a quem honram como deuses foram os primeiros a fazer essas coisas.
 
-Capítulo IX.--Doutrina Cristã de Deus e Sua Lei.
+## Capítulo IX.--Doutrina Cristã de Deus e Sua Lei.
 
 Agora também confessamos que Deus existe, mas que Ele é um, o criador, o criador e o modelador deste universo; e sabemos que todas as coisas são organizadas por Sua providência, mas somente por Ele. E aprendemos uma lei sagrada; mas temos como legislador Aquele que é realmente Deus, que nos ensina a agir com justiça, a ser piedosos e a fazer o bem. E a respeito da piedade (647) Ele diz: “Não terás outros deuses diante de mim. Não farás para ti nenhuma imagem esculpida, ou qualquer semelhança de qualquer coisa que esteja em cima nos céus, ou que esteja em baixo na terra, ou que esteja nas águas debaixo da terra: não te curvarás a eles, nem os servirás: porque eu sou o Senhor teu Deus. (648) E sobre fazer o bem, Ele disse: "Honra a teu pai e a tua mãe; para que te vá bem e para que se prolonguem os teus dias na terra que eu, o Senhor Deus, te dou." Novamente, com relação à justiça: “Não cometerás adultério.
 
@@ -1243,13 +1245,13 @@ Deus, lembrando-se deles e fazendo milagres maravilhosos e estranhos pela mão d
 
 [649] Ex. xxiii. 6.
 
-Capítulo X.--Da Humanidade aos Estranhos.
+## Capítulo X.--Da Humanidade aos Estranhos.
 
 Visto que eles eram estrangeiros na terra do Egito, sendo hebreus de nascimento da terra da Caldéia, - pois naquela época, havendo fome, eles foram obrigados a migrar para o Egito para comprar comida lá, onde também por um tempo eles peregrinaram; e essas coisas lhes aconteceram de acordo com uma predição de Deus - tendo peregrinado, então, no Egito por 430 anos, quando Moisés estava prestes a conduzi-los ao deserto, Deus os ensinou pela lei, dizendo: "Não afligireis um estranho; porque conheceis o coração de um estranho: porque vós mesmos fostes estrangeiros na terra do Egito." [650]
 
 [650] Ex. XXII. 21.
 
-Capítulo XI.--Do Arrependimento.
+## Capítulo XI.--Do Arrependimento.
 
 E quando o povo transgrediu a lei que lhes havia sido dada por Deus, sendo Deus bom e misericordioso, não querendo destruí-los, além de lhes dar a lei, posteriormente enviou-lhes também profetas dentre seus irmãos, para ensiná-los e lembrá-los do conteúdo da lei, e levá-los ao arrependimento, para que não pecassem mais. Mas se persistissem em suas ações iníquas, Ele os avisou de antemão que seriam entregues à sujeição a todos os reinos da Terra; e que isso já aconteceu com eles é manifesto. A respeito do arrependimento, então, o profeta Isaías, geralmente para todos, mas expressamente para o povo, diz: “Buscai ao Senhor enquanto Ele pode ser achado, invocai-O enquanto Ele está perto: deixe o ímpio os seus caminhos, e o homem injusto os seus pensamentos; [651] E outro profeta, Ezequiel, diz: “Se o ímpio se converter de todos os seus pecados que cometeu, e guardar todos os Meus estatutos, e fizer o que é reto aos Meus olhos, ele certamente viverá, ele não morrerá.
 
@@ -1263,7 +1265,7 @@ Todas as suas transgressões que cometeu não lhe serão mencionadas; mas na sua
 
 [654] Jr. vi. 9.
 
-Capítulo XII.--Da Justiça.
+## Capítulo XII.--Da Justiça.
 
 Além disso, no que diz respeito à justiça que a lei ordenava, são encontradas declarações confirmatórias tanto nos profetas como nos Evangelhos, porque todos falaram inspirados por um Espírito de Deus. Isaías falou assim: “Afastem de suas almas a maldade de suas ações; aprendam a fazer o bem, busquem o julgamento, aliviem os oprimidos, julguem os órfãos, supliquem pela viúva”. [655] E novamente o mesmo profeta disse: "Liberte todas as faixas da maldade, dissolva todo contrato opressivo, deixe os oprimidos irem livres e rasgue todos os vínculos injustos. Distribua o seu pão aos famintos e traga os pobres desabrigados para a sua casa. Quando vires o nu, cobre-o e não te escondas da tua própria carne. Então romperá a tua luz como a alva, e a tua saúde brotará rapidamente, e a tua justiça irá adiante de ti." [656] Da mesma maneira também Jeremias diz: “Permanecei nos caminhos, e vede, e perguntai qual é o bom caminho do Senhor vosso Deus, e andai nele e encontrareis descanso para as vossas almas.
 
@@ -1281,7 +1283,7 @@ Julga o julgamento justo, pois nisto está a vontade do Senhor teu Deus." [657] 
 
 [660] Zc. vii. 9, 10.
 
-Capítulo XIII.--Da Castidade.
+## Capítulo XIII.--Da Castidade.
 
 E no que diz respeito à castidade, a santa palavra nos ensina não apenas a não pecar em ato, mas nem mesmo em pensamento, nem mesmo no coração para pensar em qualquer mal, nem olhar para a esposa de outro homem com os olhos para cobiçá-la. Salomão, portanto, que foi rei e profeta, disse: "Que os teus olhos olhem diretamente, e que as tuas pálpebras olhem diretamente diante de ti: faz caminhos retos para os teus pés." [661] E a voz do Evangelho ensina ainda mais urgentemente a respeito da castidade, dizendo: “Qualquer que olhar para uma mulher que não seja sua própria esposa, para a cobiçar, já cometeu adultério com ela no seu coração”. (662) “E aquele que se casa”, diz [o Evangelho], “aquele que está divorciado de seu marido, comete adultério; e quem repudia sua esposa, salvo por causa de fornicação, faz com que ela cometa adultério”. [663] Porque Salomão diz: “Pode alguém levar fogo no seu peito e as suas roupas não se queimarem? Ou pode alguém andar sobre brasas e os seus pés não se queimarem? [664]
 
@@ -1293,7 +1295,7 @@ E no que diz respeito à castidade, a santa palavra nos ensina não apenas a nã
 
 [664] Prov. vi. 27-29.
 
-Capítulo XIV.--De amar nossos inimigos.
+## Capítulo XIV.--De amar nossos inimigos.
 
 E para que tenhamos uma disposição gentil, não apenas para com os de nossa linhagem, como alguns supõem, o profeta Isaías disse: “Dizei aos que vos odeiam e que vos expulsam: Vós sois nossos irmãos, para que o nome do Senhor seja glorificado e se manifeste em sua alegria”. [665] E o Evangelho diz: «Amai os vossos inimigos e rezai por aqueles que vos maltratam. Porque, se amardes os que vos amam, que recompensa tereis? O mesmo fazem os ladrões e os publicanos». [666] E ensina aos que praticam o bem a não se vangloriarem, para não se tornarem agradadores dos homens. Pois diz: “Não saiba a tua mão esquerda o que faz a tua direita”. [667] Além disso, no que diz respeito à sujeição às autoridades e aos poderes, e à oração por eles, a palavra divina dá-nos instruções, para que «possamos levar uma vida tranquila e pacífica». (668) E nos ensina a retribuir todas as coisas a todos, (669) "honra a quem honra, medo a quem teme, tributo a quem tributo; não dever nada a ninguém, mas amar a todos".
 
@@ -1307,7 +1309,7 @@ E para que tenhamos uma disposição gentil, não apenas para com os de nossa li
 
 [669] Rom. xiii. 7, 8.
 
-Capítulo XV.--A Inocência dos Cristãos Defendida.
+## Capítulo XV.--A Inocência dos Cristãos Defendida.
 
 Considere, portanto, se aqueles que ensinam tais coisas podem viver indiferentemente e se envolver em relações ilegais ou, o mais ímpio de tudo, comer carne humana, especialmente quando somos proibidos de assistir a shows de gladiadores, para não nos tornarmos participantes e cúmplices de assassinatos. Mas também não podemos ver os outros espetáculos, (670) para que nossos olhos e ouvidos não sejam contaminados, participando das declarações ali cantadas. Pois se se fala de canibalismo, nestes espetáculos são comidos os filhos de Tiestes e Tereus; e quanto ao adultério, tanto no caso dos homens como dos deuses, que celebram em linguagem elegante por honras e prêmios, este é o tema de seus dramas. Mas longe dos cristãos conceber tais ações; pois com eles habita a temperança, o autodomínio é praticado, a monogamia é observada, a castidade é guardada, a iniqüidade exterminada, o pecado extirpado, a justiça exercida, a lei administrada, a adoração realizada, Deus reconhecido: a verdade governa, a graça os guarda, a paz os protege; a palavra sagrada guia, a sabedoria ensina, a vida dirige, Deus reina.
 
@@ -1315,7 +1317,7 @@ Portanto, embora tenhamos muito a dizer a respeito de nosso modo de vida e das o
 
 [670] Nos teatros. [N.B. - Que os cristãos fáceis de nossa época sejam lembrados desta advertência; freqüentando, como fazem, peças e óperas igualmente contaminantes, muitas vezes impuras em significado, mesmo quando não são grosseiras na linguagem.]
 
-Capítulo XVI.--Conjecturas Incertas dos Filósofos.
+## Capítulo XVI.--Conjecturas Incertas dos Filósofos.
 
 Mas desejo agora dar-lhes uma demonstração mais precisa, que Deus me ajude, dos períodos históricos, para que vocês possam ver que nossa doutrina não é moderna nem fabulosa, mas mais antiga e verdadeira do que todos os poetas e autores que escreveram na incerteza. Para alguns, sustentando que o mundo não foi criado, foi para o infinito; [671] e outros, afirmando que foi criado, disseram que já se passaram 153.075 anos. Isto é afirmado por Apolônio, o Egípcio. E Platão, considerado o mais sábio dos gregos, em que disparates se meteu? Pois em seu livro intitulado A República, [672] nós o encontramos dizendo expressamente: "Pois se as coisas tivessem permanecido em seu presente arranjo em todos os tempos, quando alguma coisa nova poderia ser descoberta? Dez mil vezes dez mil anos se passaram sem registro, e mil ou o dobro de anos se passaram desde que algumas coisas foram descobertas por Dédalo, e algumas por Orfeu, e algumas por Palamedes." E quando ele diz que essas coisas aconteceram, ele insinua que dez mil vezes dez mil anos se passaram desde o dilúvio até Dédalo.
 
@@ -1327,7 +1329,7 @@ E depois de ter dito muito sobre as cidades do mundo, e os assentamentos, e as n
 
 [673] Platão prossegue dizendo que, se tivesse esse compromisso de assistência divina, iria mais longe em sua especulação; e, portanto, Teófilo argumenta que o que ele disse sem essa assistência ele considerou inseguro.
 
-Capítulo XVII.--Informação Precisa dos Cristãos.
+## Capítulo XVII.--Informação Precisa dos Cristãos.
 
 Convinha, portanto, que ele deveria antes se tornar um estudioso de Deus nesta questão de legislação, visto que ele mesmo confessou que de nenhuma outra maneira poderia obter informações precisas senão ensinando-o por Deus por meio da lei. E os poetas Homero, Hesíodo e Orfeu não professaram que eles próprios foram instruídos pela Divina Providência? Além disso, diz-se que entre os seus escritores houve profetas e prognosticadores, e que escreveram com precisão aqueles que foram informados por eles. Quanto mais, então, conheceremos a verdade sendo instruídos pelos santos profetas, que foram possuídos pelo Espírito Santo de Deus! Por esse motivo, todos os profetas falaram harmoniosamente e de acordo uns com os outros, e predisseram as coisas que aconteceriam em todo o mundo. Pois a própria realização de eventos previstos e já consumados deveria demonstrar àqueles que gostam de informação, sim, que são amantes da verdade, que são realmente verdadeiras aquelas coisas que eles declararam a respeito das épocas e eras anteriores ao dilúvio: (675) a saber, como os anos se passaram desde que o mundo foi criado até agora, de modo a manifestar a mentira ridícula de seus autores, e mostrar que suas declarações não são verdadeiras.
 
@@ -1335,13 +1337,13 @@ Convinha, portanto, que ele deveria antes se tornar um estudioso de Deus nesta q
 
 [675] [Ver supra, livro i. boné. 14, pág. 93, o relato do autor sobre sua própria conversão.]
 
-Capítulo XVIII.--Erros dos gregos sobre o dilúvio.
+## Capítulo XVIII.--Erros dos gregos sobre o dilúvio.
 
 Pois Platão, como dissemos acima, quando demonstrou que havia acontecido um dilúvio, disse que ele não se estendia por toda a terra, mas apenas pelas planícies, e que aqueles que fugiam para as colinas mais altas se salvavam. Mas outros dizem que existiram Deucalião e Pirra, e que foram preservados num baú; e que Deucalião, depois de sair do baú, atirou pedras atrás dele, e que homens foram produzidos a partir das pedras; por essa circunstância dizem que os homens na massa são chamados de “povo”. [676] Outros, novamente, dizem que Clymenus existiu em um segundo dilúvio. Pelo que já foi dito, é evidente que aqueles que escreveram tais coisas e filosofaram com tão pouco propósito são pessoas miseráveis, muito profanas e insensatas. Mas Moisés, nosso profeta e servo de Deus, ao relatar a gênese do mundo, relatou de que maneira o dilúvio veio sobre a terra, contando-nos, além disso, como ocorreram os detalhes do dilúvio, e não relatando nenhuma fábula de Pirra, nem de Deucalião ou Clymenus; nem, na verdade, que apenas as planícies foram submersas e que apenas aqueles que escaparam para as montanhas foram salvos.
 
 [676] laos, de laas, pedra.
 
-Capítulo XIX.--Relato exato do dilúvio.
+## Capítulo XIX.--Relato exato do dilúvio.
 
 E também não percebe que houve um segundo dilúvio: pelo contrário, disse que nunca mais haveria um dilúvio de água no mundo; como de fato nunca houve, nem nunca haverá. E diz que oito seres humanos foram preservados na arca, naquela que havia sido preparada por orientação de Deus, não por Deucalião, mas por Noé; cuja palavra hebraica significa em inglês (677) "descanso", como mostramos em outro lugar que Noé, quando anunciou aos homens então vivos que havia um dilúvio chegando, profetizou para eles, dizendo: Venham para lá, Deus os chama ao arrependimento. Por esse motivo ele foi apropriadamente chamado de Deucalião. [678] E este Noé teve três filhos (como mencionamos no segundo livro), cujos nomes eram Sem, Cão e Jafé; e estes tinham três esposas, uma esposa cada; cada homem e sua esposa.
 
@@ -1351,7 +1353,7 @@ Este homem foi chamado por alguns de Eunuchus. Todas as oito pessoas, portanto, 
 
 [678] Deucalião, de Deute, vem, e Kaleo, eu chamo.
 
-Capítulo XX.--Antiguidade de Moisés.
+## Capítulo XX.--Antiguidade de Moisés.
 
 E Moisés, tornando-se o líder dos judeus, como já afirmamos, foi expulso da terra do Egito pelo rei, Faraó, cujo nome era Amasis, e que, dizem, reinou após a expulsão do povo 25 anos e 4 meses, como assume Manetho. E depois dele [reinou] Chebron, 13 anos. E depois dele Amenófis, 20 anos e 7 meses. E depois dele sua irmã Amessa, 21 anos e 1 mês. E depois do Mephres dela, 12 anos e 9 meses. E depois dele Metramutose, 20 anos e 10 meses. E depois dele Tythmoses, 9 anos e 8 meses. E depois dele Damphenophis, 30 anos e 10 meses. E depois dele Orus, 35 anos e 5 meses. E depois dele sua filha, 10 anos e 3 meses. Depois de seus Mercheres, 12 anos e 3 meses. E depois dele seu filho Armais, 30 anos e 1 mês. Depois dele Messes, filho de Miammus, 6 anos e 2 meses. Depois dele Ramsés, 1 ano e 4 meses.
 
@@ -1359,7 +1361,7 @@ Depois dele Amenophis, 19 anos e 6 meses. Depois dele, seus filhos Thossus e Ram
 
 [679] Ou, lendo o gar Sethos, "Sethos também é chamado de Egyptus."
 
-Capítulo XXI.--Da imprecisão de Manetho.
+## Capítulo XXI.--Da imprecisão de Manetho.
 
 E Mâneto, que entre os egípcios divulgou muitas bobagens e até acusou impiamente Moisés e os hebreus que o acompanhavam de terem sido banidos do Egito por causa da lepra, não pôde fornecer nenhuma declaração cronológica precisa. Pois quando ele disse que eles eram pastores e inimigos dos egípcios, ele realmente proferiu a verdade, porque foi forçado a fazê-lo. Pois os nossos antepassados ​​que viveram no Egito eram verdadeiros pastores, mas não leprosos. Pois quando eles chegaram à terra chamada Jerusalém, onde também moraram depois, é bem conhecido como seus sacerdotes, de acordo com a designação de Deus, continuaram no templo e ali curaram todas as doenças, de modo que curaram leprosos e todas as enfermidades. O templo foi construído por Salomão, rei da Judéia. E pela própria declaração de Manetho seu erro cronológico é manifesto.
 
@@ -1371,7 +1373,7 @@ E Mâneto, que entre os egípcios divulgou muitas bobagens e até acusou impiame
 
 [681] A data correta seria cerca de 400 anos.
 
-Capítulo XXII.--Antiguidade do Templo.
+## Capítulo XXII.--Antiguidade do Templo.
 
 Então, com relação à construção do templo na Judéia, que o rei Salomão construiu 566 anos após o êxodo dos judeus do Egito, há entre os tírios um registro de como o templo foi construído; e em seus arquivos foram preservados escritos, nos quais se prova que o templo existiu 143 [682] anos, 8 meses antes dos tírios fundarem Cartago (e este registro foi feito por Hiram [683] [esse é o nome do rei dos tírios), filho de Abimalus, por conta da amizade hereditária que existia entre Hiram e Salomão, e ao mesmo tempo por conta da sabedoria incomparável possuída por Salomão. Pois eles continuamente se envolviam uns com os outros na discussão de problemas difíceis. E a prova disso existe em sua correspondência, que até hoje é preservada entre os tírios, e nos escritos que foram transmitidos entre eles); como Menandro, o Efésio, ao narrar a história do reino de Tiro, registra, falando assim: "Pois quando Abimalus, o rei dos Tiros, morreu, seu filho Hirão sucedeu no reino.
 
@@ -1385,7 +1387,7 @@ E no 12º ano do reinado de Hirão foi construído o templo em Jerusalém. De mo
 
 [684] Neste registo parece que o número de anos durante os quais cada pessoa viveu não inclui os anos do seu reinado.
 
-Capítulo XXIII.--Profetas mais antigos que escritores gregos.
+## Capítulo XXIII.--Profetas mais antigos que escritores gregos.
 
 Portanto, basta o que foi dito para o testemunho dos fenícios e dos egípcios, e para o relato da nossa cronologia dada pelos escritores Mâneto, o egípcio, e Menandro, o efésio, e também Josefo, que escreveu a guerra judaica, que eles travaram com os romanos. Pois, a partir desses registros muito antigos, fica provado que os escritos dos demais são mais recentes do que os escritos que nos foram dados por meio de Moisés, sim, e do que os profetas subsequentes. Pois o último dos profetas, chamado Zacarias, foi contemporâneo do reinado de Dario. Mas mesmo os próprios legisladores legislaram posteriormente a esse período. Pois se alguém mencionasse Sólon, o ateniense, ele viveu nos dias dos reis Ciro e Dario, na época do profeta Zacarias mencionado pela primeira vez, que foi por muitos anos o último dos profetas.
 
@@ -1397,7 +1399,7 @@ E rogo pelo favor do único Deus, para que eu possa falar com precisão toda a v
 
 [686] [Usher, em seus Anais, homenageia nosso autor como o pai da cronologia cristã, p. 3. Paris, 1673.]
 
-Capítulo XXIV.--Cronologia desde Adão.
+## Capítulo XXIV.--Cronologia desde Adão.
 
 Adão viveu até gerar um filho, [687] 230 anos. E seu filho Seth, 205. E seu filho Enos, 190. E seu filho Cainan, 170. E seu filho Mahaleel, 165. E seu filho Jared, 162. E seu filho Enoque, 165. E seu filho Matusalém, 167. E seu filho Lamech, 188. E o filho de Lamech era Noé, de quem falamos acima, que gerou Sem quando 500 anos. Durante a vida de Noé, em seu 600º ano, veio o dilúvio. O número total de anos, portanto, até o dilúvio, foi 2.242. E imediatamente após o dilúvio, Sem, que tinha 100 anos, gerou Arfaxade. E Arphaxad, aos 135 anos, gerou Salah. E Salah gerou um filho quando tinha 130 anos. E seu filho Éber, quando tinha 134 anos. E dele os hebreus nomearam sua raça. E seu filho Phaleg gerou um filho aos 130. E seu filho Reu, aos 132. E seu filho Serug, aos 130. E seu filho Nahor, aos 75. E seu filho Terah, aos 70.
 
@@ -1407,7 +1409,7 @@ Depois de terem pecado, foram subjugados por estranhos durante 20 anos. Então D
 
 [687] isto é, até que ele gerou Seth. [Um fragmento da Crônica de Júlio Africano, a.d. 232, é dado em Reliquiæ de Routh, tom. ii. pág. 238, com anotações muito ricas. págs. 357-509.]
 
-Capítulo XXV.--De Saulo ao Cativeiro.
+## Capítulo XXV.--De Saulo ao Cativeiro.
 
 E depois dos juízes tiveram reis, o primeiro chamado Saul, que reinou 20 anos; depois David, nosso antepassado, que reinou 40 anos. Conseqüentemente, faltam 496 anos para o reinado de Davi [a partir de Isaque]. E depois destes reis reinou Salomão, que também, pela vontade de Deus, foi o primeiro a construir o templo em Jerusalém; ele reinou 40 anos. E depois dele Roboão, 17 anos; e depois dele Abias, 7 anos; e depois dele Asa, 41 anos; e depois dele Josafá, 25 anos; e depois dele Jorão, 8 anos; e depois dele Acazias, 1 ano; e depois dele Atalia, 6 anos; e depois dela Josias, 40 anos; e depois dele Amazias, 39 anos; e depois dele Uzias, 52 anos; e depois dele Jotão, 16 anos; e depois dele Acaz, 17 anos; e depois dele Ezequias, 29 anos; e depois dele Manassés, 55 anos; e depois dele Amon, 2 anos; e depois dele Josias, 31 anos; e depois dele Jeoacaz, 3 meses; e depois dele Jeoaquim, 11 anos.
 
@@ -1415,7 +1417,7 @@ Depois outro Jeoaquim, 3 meses e 10 dias; e depois dele Zedequias, 11 anos. E de
 
 Além disso, Ciro, em conformidade com as instruções de Deus, deu ordens aos seus próprios guarda-costas, Sabessar e Mitrídates, para que os vasos que haviam sido retirados do templo da Judéia por Nabucodonosor fossem restaurados e colocados novamente no templo. No segundo ano, portanto, de Dario cumprem-se os 70 anos preditos por Jeremias.
 
-Capítulo XXVI.--Contraste entre os escritos hebraicos e gregos.
+## Capítulo XXVI.--Contraste entre os escritos hebraicos e gregos.
 
 Conseqüentemente, pode-se ver como nossos escritos sagrados se mostram mais antigos e verdadeiros do que os dos gregos e egípcios, ou de quaisquer outros historiadores. Pois Heródoto e Tucídides, como também Xenofonte, e a maioria dos outros historiadores, iniciaram suas relações por volta do reinado de Ciro e Dario, não sendo capazes de falar com precisão dos tempos anteriores e antigos. Pois que grandes assuntos revelavam se falavam de Dario e Ciro, reis bárbaros, ou dos gregos Zópiro e Hípias, ou das guerras dos atenienses e dos lacedemônios, ou dos feitos de Xerxes ou de Pausânias, que corriam o risco de morrer de fome no templo de Minerva, ou da história de Temístocles e da guerra do Peloponeso, ou de Alcibíades e Trasíbulo? Pois meu objetivo não é fornecer apenas assunto para muita conversa, mas lançar luz sobre o número de anos desde a fundação do mundo e condenar o trabalho vazio e a futilidade desses autores, porque não houve vinte mil vezes dez mil anos desde o dilúvio até o presente, como disse Platão, afirmando que houve tantos anos; nem ainda 15 vezes 10.375 anos, como já mencionamos Apolônio, o Egípcio; nem o mundo é incriado, nem há uma produção espontânea de todas as coisas, como Pitágoras e os demais sonharam; mas, sendo de fato criado, é também governado pela providência de Deus, que fez todas as coisas; e todo o curso do tempo e dos anos são esclarecidos para aqueles que desejam obedecer à verdade.
 
@@ -1423,7 +1425,7 @@ Conseqüentemente, pode-se ver como nossos escritos sagrados se mostram mais ant
 
 [688] [Usher observa isso como afirmado apenas em termos gerais, e qualificado posteriormente, no cap. XXIX, infra, nota i, p. 121.]
 
-Capítulo XXVII.--Cronologia Romana até a Morte de M. Aurélio.
+## Capítulo XXVII.--Cronologia Romana até a Morte de M. Aurélio.
 
 Quando Ciro, então, reinou vinte e nove anos, e foi morto por Tomyris no país dos Massagetas, sendo isto na 62ª Olimpíada, então os romanos começaram a aumentar em poder, Deus os fortalecendo, Roma tendo sido fundada por Rômulo, o suposto filho de Marte e Ilia, na 7ª Olimpíada, no dia 21 de abril, sendo o ano então contado como consistindo de dez meses. Ciro, então, tendo morrido, como já dissemos, na 62ª Olimpíada, esta data cai em 220 A.U.C., ano em que também Tarquinius, de sobrenome Superbus, reinou sobre os romanos, que foi o primeiro a banir os romanos e corromper os jovens, e fez eunucos dos cidadãos, e, além disso, primeiro contaminou virgens, e depois deu-as em casamento. Por esse motivo, ele foi apropriadamente chamado de Superbus na língua romana, e isso é traduzido como “o Orgulhoso”. Pois ele primeiro decretou que aqueles que o saudassem deveriam ter sua saudação reconhecida por outra pessoa.
 
@@ -1431,13 +1433,13 @@ Ele reinou vinte e cinco anos. Depois dele foram introduzidos os cônsules anuai
 
 O tempo, portanto, dos Césares até a morte do Imperador Verus é de 237 anos e 5 dias. Desde a morte de Ciro, portanto, e o reinado de Tarquinius Superbus, até a morte do Imperador Verus, o tempo total equivale a 744 anos.
 
-Capítulo XXVIII.-Principais Épocas Cronológicas.
+## Capítulo XXVIII.-Principais Épocas Cronológicas.
 
 E desde a fundação do mundo todo o tempo é assim traçado, no que diz respeito às suas principais épocas. Desde a criação do mundo até o dilúvio foram 2.242 anos. E desde o dilúvio até o momento em que Abraão, nosso antepassado, gerou um filho, 1.036 anos. E desde Isaque, filho de Abraão, até o tempo em que o povo habitou com Moisés no deserto, 660 anos. E desde a morte de Moisés e o governo de Josué, filho de Num, até a morte do patriarca Davi, 498 anos. E desde a morte de Davi e o reinado de Salomão até a permanência do povo na terra da Babilônia, 518 anos, 6 meses e 10 dias. E do governo de Ciro até a morte do Imperador Aurélio Vero, 744 anos. Todos os anos desde a criação do mundo totalizam 5.698 anos, mais os meses e dias ímpares. [689]
 
 [689] [Como Verus morreu d.C. 169, o cálculo do nosso autor faz a criação, b.c. 5529. Hales, que diz b.c. 5411, nos inspira grande respeito por Teófilo, pelo grau de precisão que alcançou, usando (a LXX.) a mesma autoridade de sua base. Pequenas variações nas cópias usadas em sua época poderiam ter levado, alguém poderia pensar, a maiores discrepâncias.]
 
-Capítulo XXIX.--Antiguidade do Cristianismo.
+## Capítulo XXIX.--Antiguidade do Cristianismo.
 
 Estes períodos, então, e todos os fatos acima mencionados, sendo vistos coletivamente, pode-se ver a antiguidade dos escritos proféticos e a divindade da nossa doutrina, que a doutrina não é recente, nem os nossos princípios são míticos e falsos, como alguns pensam; mas muito antigo e verdadeiro. Pois Thallus mencionou Belus, rei dos assírios, e Saturno, filho de Titã, alegando que Belus com os Titãs fez guerra contra Júpiter e os chamados deuses em sua aliança; e nesta ocasião ele diz que Gyges, sendo derrotado, fugiu para Tartessus. Naquela época, Gyges governava aquele país, que então se chamava Acte, mas agora se chama Ática. E de onde derivaram seus nomes os outros países e cidades, achamos desnecessário recontá-los, especialmente para vocês que estão familiarizados com a história. Que Moisés, e não apenas ele, mas também a maioria dos profetas que o seguiram, provou ser mais velho que todos os escritores, e que Saturno, Belus e a guerra de Tróia, é manifesto.
 
@@ -1453,7 +1455,7 @@ Pois ele mencionou o que aconteceu aos judeus sob o rei dos babilônios, a quem 
 
 [692] Beroso floresceu no reinado de Alexandre, o Grande.
 
-Capítulo XXX.-- Por que os gregos não mencionaram nossas histórias.
+## Capítulo XXX.-- Por que os gregos não mencionaram nossas histórias.
 
 Mas os gregos não fazem menção às histórias que revelam a verdade: primeiro, porque eles próprios só recentemente se tornaram participantes do conhecimento das letras; e eles próprios o possuem, alegando que as letras foram inventadas, alguns dizem entre os caldeus, e outros com os egípcios, e outros ainda dizem que são derivadas dos fenícios. E em segundo lugar, porque pecaram, e ainda pecam, por não fazerem menção a Deus, mas a assuntos vãos e inúteis. Pois assim eles celebram calorosamente Homero e Hesíodo, e o resto dos poetas, mas a glória do incorruptível e único Deus eles não apenas omitem mencionar, mas blasfemam; sim, e eles perseguiram, e perseguem diariamente, aqueles que O adoram. E não só isso, mas até concedem prêmios e honras àqueles que, em linguagem harmoniosa, insultam a Deus; mas daqueles que são zelosos na busca da virtude e praticam uma vida santa, alguns foram apedrejados, alguns foram condenados à morte e até o momento os submeteram a torturas selvagens. Portanto tais homens perderam necessariamente a sabedoria de Deus e não encontraram a verdade.
 
