@@ -6,7 +6,7 @@ BEGIN;
 
 INSERT INTO authors (slug, name, bio_summary, denomination_or_tradition)
 VALUES (
-  'antonio-vieira',
+  'padre-antonio-vieira',
   'Padre Antônio Vieira',
   'Sacerdote jesuíta, missionário no Brasil, diplomata e orador sacro (1608–1697), o Padre Antônio Vieira é universalmente considerado o maior mestre da prosa clássica da língua portuguesa e o "Príncipe da Oratória". Suas obras — especialmente os célebres "Sermões" — combinam uma agudeza teológica monumental, domínio incomparável da retórica e uma ardorosa defesa dos povos indígenas e oprimidos.',
   ARRAY['Oratória Barroca', 'Companhia de Jesus', 'Literatura em Língua Portuguesa', 'Tradição Clássica']
@@ -22,7 +22,7 @@ INSERT INTO books (
 )
 VALUES (
   'Sermão da Sexagésima',
-  (SELECT id FROM authors WHERE slug = 'antonio-vieira'),
+  (SELECT id FROM authors WHERE slug = 'padre-antonio-vieira'),
   'Português',
   'Monumento supremo da oratória sacra e da literatura em língua portuguesa, pregado em Lisboa na Capela Real em 1655. Sobre a parábola do semeador (Lc 8.5), Vieira estabelece a sua célebre "Arte de Pregar a Palavra de Deus", censurando com brilhantismo o cultismo vazio dos oradores barrocos e defendendo que a verdadeira pregação evangélica deve unir a força da doutrina ao exemplo incontestável da vida.',
   'sermao-da-sexagesima-antonio-vieira',

@@ -6,7 +6,7 @@ BEGIN;
 
 INSERT INTO authors (slug, name, bio_summary, denomination_or_tradition)
 VALUES (
-  'teresa-de-jesus',
+  'teresa-de-avila',
   'Santa Teresa de Ávila',
   'Doutora da Igreja, mística espanhola e reformadora da Ordem do Carmo Descalço (1515–1582 d.C.), mestra suprema da vida de oração e união interior com Deus.',
   ARRAY['Mística Carmelita', 'Espiritualidade Cristã', 'Vida Contemplativa']
@@ -22,7 +22,7 @@ INSERT INTO books (
 )
 VALUES (
   'Caminho de Perfeição',
-  (SELECT id FROM authors WHERE slug = 'teresa-de-jesus'),
+  (SELECT id FROM authors WHERE slug = 'teresa-de-avila'),
   'Português',
   'O guia prático e espiritual de Santa Teresa sobre a disciplina da oração mental, o desapego das vaidades terrenas, a virtude da humildade sincera e o recolhimento interior através do Pai-Nosso.',
   'caminho-de-perfeicao-teresa-de-avila',

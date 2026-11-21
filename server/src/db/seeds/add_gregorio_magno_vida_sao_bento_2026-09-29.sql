@@ -6,7 +6,7 @@ BEGIN;
 
 INSERT INTO authors (slug, name, bio_summary, denomination_or_tradition)
 VALUES (
-  'sao-gregorio-magno',
+  'gregorio-magno',
   'São Gregório Magno',
   'Papa, Doutor da Igreja e um dos quatro grandes Padres da Igreja Ocidental (c. 540–604 d.C.), monge beneditino, estadista e autor de clássicos como a Regra Pastoral e os Diálogos.',
   ARRAY['Patrística', 'Monasticismo Beneditino', 'Igreja Antiga', 'Teologia Pastoral']
@@ -22,7 +22,7 @@ INSERT INTO books (
 )
 VALUES (
   'Vida e Milagres de São Bento (Diálogos Livro II)',
-  (SELECT id FROM authors WHERE slug = 'sao-gregorio-magno'),
+  (SELECT id FROM authors WHERE slug = 'gregorio-magno'),
   'Português',
   'A biografia clássica e espiritual de São Bento de Núrsia, narrada por São Gregório Magno no Livro II dos Diálogos, fundamento e modelo supremo da hagiografia e espiritualidade monástica ocidental.',
   'vida-de-sao-bento-dialogos-gregorio-magno',

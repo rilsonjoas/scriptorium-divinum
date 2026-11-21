@@ -6,7 +6,7 @@ BEGIN;
 
 INSERT INTO authors (slug, name, bio_summary, denomination_or_tradition)
 VALUES (
-  'gregorio-de-nissa',
+  'sao-gregorio-de-nissa',
   'São Gregório de Nissa',
   'Bispo de Nissa, teólogo, místico e Padre Capadócio (c. 335–395 d.C.), irmão mais novo de São Basílio Magno e amigo íntimo de São Gregório de Nazianzo. Considerado o maior pensador especulativo e o pai da teologia mística cristã oriental, Gregório de Nissa formulou a doutrina do progresso espiritual infinito (epektasis) e da união mística com Deus nas trevas luminosas da fé.',
   ARRAY['Patrística Grega', 'Padres Capadócios', 'Teologia Mística', 'Espiritualidade Cristã']
@@ -22,7 +22,7 @@ INSERT INTO books (
 )
 VALUES (
   'A Vida de Moisés',
-  (SELECT id FROM authors WHERE slug = 'gregorio-de-nissa'),
+  (SELECT id FROM authors WHERE slug = 'sao-gregorio-de-nissa'),
   'Português',
   'A obra-prima suprema da teologia mística e espiritual da patrística grega. São Gregório de Nissa utiliza a jornada histórica de Moisés (do Egito à Sarça Ardente, do Sinai à Nuvem Divina) como alegoria magistral da ascensão da alma em direção a Deus. Desenvolve a célebre doutrina da epektasis (o crescimento infinito e insaciável na virtude e no amor divino) e da contemplação nas trevas luminosas da transcendência de Deus.',
   'a-vida-de-moises-gregorio-de-nissa',

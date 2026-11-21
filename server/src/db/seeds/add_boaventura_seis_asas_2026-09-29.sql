@@ -6,7 +6,7 @@ BEGIN;
 
 INSERT INTO authors (slug, name, bio_summary, denomination_or_tradition)
 VALUES (
-  'sao-boaventura',
+  'boaventura-de-bagnoregio',
   'São Boaventura',
   'Doutor Seráfico, cardeal franciscano e filósofo medieval (1221–1274 d.C.), autor do Itinerário da Mente para Deus e de tratados monumentais de teologia pastoral e mística.',
   ARRAY['Escolástica', 'Tradição Franciscana', 'Teologia Pastoral', 'Mística']
@@ -22,7 +22,7 @@ INSERT INTO books (
 )
 VALUES (
   'As Seis Asas do Serafim',
-  (SELECT id FROM authors WHERE slug = 'sao-boaventura'),
+  (SELECT id FROM authors WHERE slug = 'boaventura-de-bagnoregio'),
   'Português',
   'O clássico tratado franciscano de São Boaventura sobre as seis virtudes essenciais do governo espiritual, da liderança pastoral e da elevação mística da alma.',
   'as-seis-asas-do-serafim-boaventura',

@@ -10,8 +10,8 @@ export interface AuthorRichInfo {
 }
 
 export const AUTHORS_RICH_DATA: Record<string, AuthorRichInfo> = {
-  'santo-agostinho': {
-    slug: 'santo-agostinho',
+  'agostinho-de-hipona': {
+    slug: 'agostinho-de-hipona',
     signatureQuote: 'Fizeste-nos para ti, Senhor, e o nosso coração está inquieto enquanto não descansar em ti.',
     signatureQuoteSource: 'Confissões, Livro I',
     historicalPeriod: 'Patrística Latina — Quarto Século (354–430 d.C.)',
@@ -99,8 +99,8 @@ export const AUTHORS_RICH_DATA: Record<string, AuthorRichInfo> = {
     ],
     legacySummary: 'Gênio das ciências e da fé. Uniu o rigor da matemática à profundidade da mística agostiniana.'
   },
-  'santo-anselmo-de-cantuaria': {
-    slug: 'santo-anselmo-de-cantuaria',
+  'anselmo-de-cantuaria': {
+    slug: 'anselmo-de-cantuaria',
     signatureQuote: 'Creio para compreender, e compreendo para crer.',
     signatureQuoteSource: 'Proslogion, cap. 1',
     historicalPeriod: 'Escolástica Inicial (1033–1109 d.C.)',

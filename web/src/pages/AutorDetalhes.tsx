@@ -33,6 +33,12 @@ const AutorDetalhes = () => {
     return <Navigate to="/404" replace />;
   }
 
+  // URL de um slug antigo (autor unificado, migration 0021): a API devolve o autor canônico e
+  // o endereço passa a ser o dele.
+  if (author.slug && authorSlug && author.slug !== authorSlug) {
+    return <Navigate to={`/autores/${author.slug}`} replace />;
+  }
+
   const richInfo = getAuthorRichInfo(author.slug);
 
   return (

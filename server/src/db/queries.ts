@@ -1,6 +1,6 @@
 import { and, desc, eq, sql, inArray, ilike } from 'drizzle-orm';
 import { db } from './client.js';
-import { authors, books, downloadLinks, tableOfContents } from './schema.js';
+import { authors, authorSlugAliases, books, downloadLinks, tableOfContents } from './schema.js';
 import type { ListAuthorsQuery } from '../schemas/author.schema.js';
 import type { ListBooksQuery } from '../schemas/book.schema.js';
 
@@ -79,11 +79,23 @@ export async function listAuthors(filters?: ListAuthorsQuery) {
 }
 
 export async function getAuthorBySlug(slug: string) {
-  const [author] = await db
+  let [author] = await db
     .select()
     .from(authors)
     .where(eq(authors.slug, slug))
     .limit(1);
+
+  // Slug antigo de autor unificado (migration 0021): devolve o autor canônico; quem chama
+  // compara `author.slug` com o pedido e redireciona.
+  if (!author) {
+    [author] = await db
+      .select({ author: authors })
+      .from(authorSlugAliases)
+      .innerJoin(authors, eq(authors.id, authorSlugAliases.authorId))
+      .where(eq(authorSlugAliases.alias, slug))
+      .limit(1)
+      .then((rows) => rows.map((r) => r.author));
+  }
 
   if (!author) return undefined;
 

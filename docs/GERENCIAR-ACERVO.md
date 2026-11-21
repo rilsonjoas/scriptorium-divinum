@@ -63,6 +63,21 @@ arquivo, leia um trecho do meio** e registre no `MANIFESTO.json`
 Ao importar uma obra nova, **leia o começo e o meio do arquivo** antes de publicar: a checagem
 pega o grosseiro, não o texto trocado por outro do mesmo assunto.
 
+## Autores: um autor, um slug (e o que fazer com URL antiga)
+
+Em 21/11/2026 foram unificados 17 autores que existiam duplicados (por exemplo `agostinho-de-hipona` e
+`santo-agostinho`). A causa estava nos seeds: cada `seeds/add_*.sql` insere o autor pelo slug que quem o escreveu
+escolheu, e como os seeds rodam **a cada deploy**, um autor apagado voltava sozinho.
+
+- **Ao escrever um seed novo, olhe o autor que já existe** (`select slug, name from authors`) e use o slug dele. Nunca
+  invente um slug novo para um autor que já está no catálogo. Um teste (`autores-unificados.test.ts`) barra o CI se um
+  seed insere ou consulta um dos 17 slugs antigos.
+- **Slug antigo continua abrindo.** A tabela `author_slug_aliases` (migration `0021`) guarda o slug antigo; a API
+  `GET /api/v1/authors/:slug` resolve o alias para o autor canônico e a página `/autores/:slug` redireciona para o
+  endereço canônico. Para unificar mais autores no futuro, siga o modelo da `0021` (mover obras, completar dados,
+  gravar o alias, apagar o duplicado) e troque o slug nos seeds.
+- **Dados ricos do site** (`web/src/data/authorsRichData.ts`) são por slug canônico: ao unificar, mova a chave.
+
 ## Tarefas
 
 ### Ocultar uma obra, ou voltar a publicá-la

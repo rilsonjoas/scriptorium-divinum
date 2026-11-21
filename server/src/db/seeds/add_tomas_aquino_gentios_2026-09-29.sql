@@ -6,7 +6,7 @@ BEGIN;
 
 INSERT INTO authors (slug, name, bio_summary, denomination_or_tradition)
 VALUES (
-  'tomas-de-aquino',
+  'sao-tomas-de-aquino',
   'Santo Tomás de Aquino',
   'Doutor Angélico, frade dominicano, filósofo e teólogo (1225–1274 d.C.), autor da Suma Teológica e da Suma contra os Gentios, monumento máximo da síntese entre a fé cristã e a filosofia clássica.',
   ARRAY['Escolástica', 'Tradição Dominicana', 'Teologia Sistemática', 'Filosofia Cristã']
@@ -22,7 +22,7 @@ INSERT INTO books (
 )
 VALUES (
   'Suma contra os Gentios (Livro I: A Verdade da Fé e a Razão)',
-  (SELECT id FROM authors WHERE slug = 'tomas-de-aquino'),
+  (SELECT id FROM authors WHERE slug = 'sao-tomas-de-aquino'),
   'Português',
   'A obra-prima apologética e filosófica de Santo Tomás de Aquino, expondo a harmonia inabalável entre a razão natural e a Revelação divina sobre a existência e os atributos de Deus.',
   'suma-contra-os-gentios-tomas-de-aquino',

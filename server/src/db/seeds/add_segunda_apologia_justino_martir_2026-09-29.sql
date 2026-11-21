@@ -3,7 +3,7 @@ BEGIN;
 
 INSERT INTO authors (slug, name, bio_summary, denomination_or_tradition)
 VALUES (
-  'sao-justino-martir',
+  'justino-martir',
   'São Justino Mártir',
   'Filósofo e mártir cristão do séc. II (c. 100–165 d.C.), pioneiro da apologética cristã e do diálogo entre a Revelação bíblica e a razão filosófica.',
   ARRAY['Igreja Primitiva', 'Apologistas', 'Patrística']::text[]
@@ -38,7 +38,7 @@ SELECT
   'cc-by-sa-4.0',
   'Tradução sob licença Creative Commons Atribuição-CompartilhaIgual 4.0 Internacional (CC BY-SA 4.0).'
 FROM authors a
-WHERE a.slug = 'sao-justino-martir'
+WHERE a.slug = 'justino-martir'
 ON CONFLICT (slug) DO NOTHING;
 
 COMMIT;

@@ -3,7 +3,7 @@ BEGIN;
 
 INSERT INTO authors (slug, name, bio_summary, denomination_or_tradition)
 VALUES (
-  'sao-vicente-de-lerins',
+  'vicente-de-lerins',
   'São Vicente de Lérins',
   'Monge no mosteiro da ilha de Lérins (c. 400–450 d.C.), autor do célebre ''Commonitorium'' que definiu o cânon clássico da fé católica: o que sempre, em toda parte e por todos foi crido.',
   ARRAY['Igreja Primitiva', 'Monasticismo Gaulês', 'Patrística']::text[]
@@ -38,7 +38,7 @@ SELECT
   'cc-by-sa-4.0',
   'Tradução sob licença Creative Commons Atribuição-CompartilhaIgual 4.0 Internacional (CC BY-SA 4.0).'
 FROM authors a
-WHERE a.slug = 'sao-vicente-de-lerins'
+WHERE a.slug = 'vicente-de-lerins'
 ON CONFLICT (slug) DO NOTHING;
 
 COMMIT;

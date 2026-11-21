@@ -148,6 +148,13 @@
       "when": 1793391258704,
       "tag": "0020_oculta_faixa_c_direitos_incertos",
       "breakpoints": true
+    },
+    {
+      "idx": 21,
+      "version": "7",
+      "when": 1793394858704,
+      "tag": "0021_unifica_autores_duplicados",
+      "breakpoints": true
     }
   ]
 }

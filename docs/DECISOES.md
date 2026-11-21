@@ -790,12 +790,19 @@ Registro das decisões, na ordem de execução. Estado entre parênteses.
 |---|---|---|---|
 | 1 | Direitos das 60 obras de faixa C | Remover do site tudo o que não se tem certeza de direitos | **Feito:** 57 publicadas ocultadas (migration `0020`, PR #67) |
 | 2 | Proveniência das traduções por IA | O autor presumia que tradução por IA já é domínio público. Esclarecido: conta o texto de partida, não quem traduziu (ver `docs/PROVENIENCIA-ACERVO.md`) | Em andamento: descobrir a fonte real das 120 da faixa D |
-| 3 | Auditoria retroativa das citações de Lewis | Fazer | Em andamento |
+| 3 | Auditoria retroativa das citações de Lewis | Fazer | **Já estava executada** (decisões aplicadas em 18/10: 11 retiradas, fontes preenchidas, 145 de Lewis no ar). Resta só o nível A (texto primário lido, para gravar `fonte_url`/`verificado_em`), que exige ler os livros e não se preenche sem isso |
 | 4 | Painel de citações | Já foi testado, está bom | Registrado; o `PATCH` de `ativa` para `rascunho` segue sem mudança de comportamento |
 | 5 | Obras ocultas (Breve Catecismo, relíquias de Calvino, Proslogion) | Ficam ocultas; só entram no site quando estiverem 100% | Registrado |
 | 6 | Obras novas (Institutas PT, Compêndio PT, Chrysostomo de Vieira) | Pauta para frente | Registrado |
 | 7 | Tradução com IA: método | Já usa o Antigravity, várias vezes; não é dúvida | Registrado |
 | 8 | Variedade na escolha do dia | Rodízio de autor | Em andamento |
 | 9 | Planos de leitura e newsletter | Pauta para frente | Registrado |
-| 10 | Duplicatas de autor | Unificar | Em andamento |
+| 10 | Duplicatas de autor | Unificar | **Feito:** 17 pares unificados (migration `0021`), com alias de slug |
+
+### Unificação de autores (migration 0021): o que foi achado e decidido
+- **São 17 pares, não 14**: a primeira varredura por nome normalizado achou 14; leitura dos 107 nomes achou mais três (Boaventura, Boécio, Melâncton).
+- **Causa**: 15 seeds inseriam o autor por um slug diferente do que já existia. Como seeds rodam a cada deploy, apagar o duplicado sem corrigir os seeds o faria voltar. Os 15 seeds passaram a usar o slug canônico (só no `INSERT INTO authors` e em `slug = '…'`; tags de livro intocadas) e um teste impede a regressão.
+- **Critério do slug canônico**: o que tem mais obras; empate, a biografia mais longa; Teresa de Ávila fica com `teresa-de-avila`. Nomes: São Tomás de Aquino e São Boaventura de Bagnoregio (forma mais correta).
+- **URL antiga continua abrindo**: tabela `author_slug_aliases`; a API resolve e o site redireciona. Os dados ricos de Agostinho e de Anselmo estavam sob o slug antigo e foram movidos para o canônico.
+- **Ensaiado com dados reais de produção**: 107 → 90 autores, 291 obras intactas, 0 obras sem autor, 17 aliases, idempotente, anos completados (Agostinho 354/430 etc.).
 

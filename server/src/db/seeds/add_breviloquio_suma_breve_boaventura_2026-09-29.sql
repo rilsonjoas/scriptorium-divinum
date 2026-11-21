@@ -3,7 +3,7 @@ BEGIN;
 
 INSERT INTO authors (slug, name, bio_summary, denomination_or_tradition)
 VALUES (
-  'sao-boaventura',
+  'boaventura-de-bagnoregio',
   'São Boaventura de Bagnoregio',
   'Doutor Seráfico, cardeal e ministro geral dos Franciscanos (1221–1274), luminar da teologia mística e escolástica medieval.',
   ARRAY['Escolástica', 'Mística Medieval', 'Franciscanos']::text[]
@@ -38,7 +38,7 @@ SELECT
   'cc-by-sa-4.0',
   'Tradução sob licença Creative Commons Atribuição-CompartilhaIgual 4.0 Internacional (CC BY-SA 4.0).'
 FROM authors a
-WHERE a.slug = 'sao-boaventura'
+WHERE a.slug = 'boaventura-de-bagnoregio'
 ON CONFLICT (slug) DO NOTHING;
 
 COMMIT;

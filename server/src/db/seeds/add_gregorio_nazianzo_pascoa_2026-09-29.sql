@@ -6,7 +6,7 @@ BEGIN;
 
 INSERT INTO authors (slug, name, bio_summary, denomination_or_tradition)
 VALUES (
-  'sao-gregorio-de-nazianzo',
+  'gregorio-de-nazianzo',
   'São Gregório de Nazianzo',
   'Arcebispo de Constantinopla, Doutor da Igreja e cognominado "o Teólogo" (c. 329–390 d.C.), mestre insuperável da oratória e hinódia grega patrística.',
   ARRAY['Patrística', 'Padres Capadócios', 'Ortodoxia Nicena', 'Oratória Sacra']
@@ -22,7 +22,7 @@ INSERT INTO books (
 )
 VALUES (
   'Discurso sobre a Páscoa',
-  (SELECT id FROM authors WHERE slug = 'sao-gregorio-de-nazianzo'),
+  (SELECT id FROM authors WHERE slug = 'gregorio-de-nazianzo'),
   'Português',
   'O lírico e triunfal discurso pascal de São Gregório de Nazianzo que definiu a hinódia litúrgica oriental da Ressurreição e da vitória de Cristo sobre a morte.',
   'discurso-sobre-a-pascoa-gregorio-nazianzo',

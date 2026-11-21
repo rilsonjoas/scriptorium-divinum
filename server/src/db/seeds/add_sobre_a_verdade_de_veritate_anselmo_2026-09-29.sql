@@ -3,7 +3,7 @@ BEGIN;
 
 INSERT INTO authors (slug, name, bio_summary, denomination_or_tradition)
 VALUES (
-  'santo-anselmo-de-cantuaria',
+  'anselmo-de-cantuaria',
   'Santo Anselmo de Cantuária',
   'Doutor Magnífico, abade de Bec e arcebispo de Cantuária (1033–1109), pai da Escolástica e mestre do ''fides quaerens intellectum''.',
   ARRAY['Escolástica', 'Teologia Medieval', 'Doutores da Igreja']::text[]
@@ -38,7 +38,7 @@ SELECT
   'cc-by-sa-4.0',
   'Tradução sob licença Creative Commons Atribuição-CompartilhaIgual 4.0 Internacional (CC BY-SA 4.0).'
 FROM authors a
-WHERE a.slug = 'santo-anselmo-de-cantuaria'
+WHERE a.slug = 'anselmo-de-cantuaria'
 ON CONFLICT (slug) DO NOTHING;
 
 COMMIT;
