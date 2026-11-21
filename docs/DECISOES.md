@@ -771,3 +771,15 @@ Pendência aberta desde a F2: a API aceita mudar uma citação de `ativa` para `
 **Verificado em produção (PR #59):** 5 respostas 401 e depois 429 no login; IPs reais nos logs; contêineres saudáveis com o teto de memória aplicado.
 
 **Pendente:** estrutura de capítulos nas obras sem heading (ver ROADMAP, "Textos longos sem título": são 82, não 28) e `react-router` v6 para v7.
+
+## 2026-11-21 (noite) — Fechamento: `react-router` 7, cobertura, `#hash`, obras ocultas e capítulos
+**`react-router-dom` 6 → 7.18 (PR #64).** O projeto usa só a API básica (sem roteador de dados), então a migração foi trocar a versão; web 375 testes, axe 54, E2E 4 e build verdes. `pnpm audit --prod` caiu a 0 e a allowlist do CI ficou vazia (deixada como modelo).
+
+**Cobertura no CI, informativa e sem mínimo (PR #64).** Integração ~81% de `server/src` carregado; unitário 17% (server) e 26% (web). Sem piso porque um número arbitrário viraria ruído.
+
+**`#hash` no leitor (PR #65).** `destinoDoHash` resolve capítulo ou título do índice; o `Reader` usa na abertura, com prioridade sobre a leitura salva. Hash inexistente ou malformado é ignorado.
+
+**Decisão do autor: as 8 obras ocultas por texto de outro livro ficam ocultas** (migration 0019, PR #62). Sem tradução completa e revisada, não há o que publicar; não se reimporta nem se reativa.
+
+**Decisão para encerrar o item dos capítulos: não inventar títulos.** 26 obras foram estruturadas onde o marcador existe e é confiável (PR #61). As 69 restantes (parágrafos numerados, peça única, OCR ruim, marcadores esparsos) seguem como capítulo único paginado. Sem certeza do título, não há título.
+
